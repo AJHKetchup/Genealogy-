@@ -1,0 +1,26 @@
+[project]
+name = "historic-doc-ingest"
+version = "0.1.0"
+description = "High-fidelity ingestion pipeline for image-based historical PDFs into LLM-readable Markdown."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+pdf = ["pymupdf>=1.24.0", "pillow>=10.0.0"]
+ocr = ["pytesseract>=0.3.10"]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+historic-doc-ingest = "historic_doc_ingest.cli:main"
+genealogy-wiki = "historic_doc_ingest.genealogy_wiki:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
