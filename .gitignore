@@ -9,3 +9,5 @@ build/
 *.egg-info/
 output/
 outputs/
+raw/codex-conversion-jobs/
+raw/converted/*.codex.md

@@ -24,8 +24,10 @@ python -m pytest
 Result:
 
 ```text
-17 passed in 0.75s
+19 passed in 0.96s
 ```
+
+Latest live sample test used `C:\Users\Big Al\OneDrive - blackboxil.com\Genealogy\Geaneology\El Aguila Nombre Grande Scan.pdf`. `genealogy-wiki codex-job` prepared page images and work orders for pages 2 and 9, Codex converted page 2 into page Markdown, `genealogy-wiki codex-next` advanced to page 9, and `genealogy-wiki codex-assemble` wrote a partial converted document. The old paid/API conversion experiments were removed in favor of the local Codex workbench.
 
 ## Important Commands
 
@@ -65,10 +67,24 @@ Create a source packet:
 genealogy-wiki packet raw\converted\record.md --root my-family-research --id SP001 --title "Record title" --kind archive_pdf
 ```
 
+Stage any source material and create a dynamic packet:
+
+```powershell
+genealogy-wiki material C:\path\to\source.jpg --root my-family-research --id SP002 --title "Unidentified historical record" --kind unknown --feature handwriting --feature "table/grid"
+```
+
 Create a claim:
 
 ```powershell
 genealogy-wiki claim --root my-family-research --id CL001 --text "Atomic claim text." --type event --subject "[[people/person-name]]" --source "[[sources/S001-record]]"
+```
+
+Prepare a local Codex conversion job:
+
+```powershell
+genealogy-wiki codex-job C:\path\to\source.pdf --root my-family-research --id CJ001 --title "Historical source"
+genealogy-wiki codex-next my-family-research\raw\codex-conversion-jobs\cj001-historical-source\manifest.json --root my-family-research
+genealogy-wiki codex-assemble my-family-research\raw\codex-conversion-jobs\cj001-historical-source\manifest.json --root my-family-research
 ```
 
 Create a relationship:
@@ -127,6 +143,10 @@ genealogy-wiki lint --root my-family-research
 - [x] `genealogy-wiki init` scaffold command.
 - [x] `genealogy-wiki lint` command.
 - [x] `genealogy-wiki packet` command.
+- [x] `genealogy-wiki material` command for document-agnostic source material packets.
+- [x] `genealogy-wiki codex-job` command that prepares local page images and work orders for Codex conversion.
+- [x] `genealogy-wiki codex-next` command that returns the next unfinished page work order.
+- [x] `genealogy-wiki codex-assemble` command that assembles completed page Markdown into a converted document.
 - [x] `genealogy-wiki claim` command.
 - [x] `genealogy-wiki relationship` command.
 - [x] `genealogy-wiki index` command for claim and relationship JSON.
@@ -181,6 +201,7 @@ genealogy-wiki lint --root my-family-research
 - [x] Relationship confidence template with type, status, confidence, endpoints, supporting claims, and conflicting claims.
 - [x] Relationship index with calculated confidence from supporting/conflicting claims.
 - [x] Source packet template separating literal transcription, translation, interpretation, and uncertainty.
+- [x] Dynamic source material packet builder that stages any media file, records media type/dimensions when available, and creates verbatim-extraction, printed-header inventory, layout, reading-order, transcription, translation, interpretation, uncertainty, entity, claim, relationship, conflict, image, research-task, and completeness-audit sections without hardcoded document schemas.
 - [x] Identity-resolution template with comparison matrix.
 - [x] Photo and face-cluster templates.
 - [x] Research-task template tied to claims, relationships, or lineage goals.
@@ -213,7 +234,7 @@ genealogy-wiki lint --root my-family-research
 - [ ] Handwritten text recognition integration.
 - [ ] Vision-model refinement provider implementation.
 - [ ] Batch ingest across many documents.
-- [ ] Source-type-specific extraction profiles: census, church register, passenger list, newspaper clipping, photo back, oral interview, etc.
+- [ ] Dynamic layout/region analysis that infers useful packet structure from the source itself.
 - [ ] Confidence reconciliation across OCR, PDF text layer, HTR, and vision LLM outputs.
 - [ ] Human review UI or review workflow.
 - [ ] Rebuild Markdown from edited/refined manifest.
@@ -251,18 +272,27 @@ genealogy-wiki lint --root my-family-research
 - [ ] Speculative and disputed edge rendering beyond simple Mermaid link styles.
 - [ ] Interactive browser/tree UI.
 
-### Source Packet Injector
+### Dynamic Source Material Converter
 
-- [ ] Ingest source packets directly from scanned records.
-- [ ] Ingest handwritten documents.
-- [ ] Ingest archive PDFs.
-- [ ] Ingest old photos.
-- [ ] Ingest newspaper clippings.
-- [ ] Ingest church registers.
-- [ ] Ingest census tables.
-- [ ] Ingest Ancestry screenshots.
-- [ ] Ingest oral interviews.
-- [ ] Automatically populate source packet sections from OCR/HTR/vision outputs.
+- [x] Generic packet creation for any source material without source-type-specific injectors.
+- [x] Raw source staging under `raw/sources/<packet-id-title>/`.
+- [x] Source page creation linked to the dynamic source packet.
+- [x] Generated source and source-packet pages are added to `wiki/index.md`.
+- [x] Media type detection for images, PDFs, audio, video, text, and binary files.
+- [x] Image dimension capture when Pillow is installed.
+- [x] Dynamic material profile sections for source-observed features.
+- [x] Verbatim extraction contract to prevent summary-style truncation of headers, labels, captions, marginalia, page numbers, and notes.
+- [x] Printed header and label inventory so exact labels can be preserved even when wide tables are split into readable Markdown.
+- [x] Completeness audit section for checking page metadata, printed headers, body rows, blank rows/end notes, captions, marginalia, stamps, seals, and page numbers against the source.
+- [x] Local Codex conversion workbench under `raw/codex-conversion-jobs/`.
+- [x] Per-page work orders that preserve transcription, translation, interpretation, uncertainty, image/caption notes, genealogy leads, and completeness audits.
+- [x] Converted Markdown assembly to `raw/converted/<job>.codex.md`.
+- [ ] Actual layout/region detection from images and PDFs.
+- [ ] Table/grid structure detection without hardcoded record-specific columns.
+- [ ] Handwritten text recognition integration.
+- [ ] Automatic population of packet sections from OCR/HTR/vision outputs.
+- [ ] Claim extraction from populated packets.
+- [ ] Human review loop for uncertain regions and low-confidence readings.
 
 ### Transcription, Translation, Interpretation
 
@@ -369,7 +399,7 @@ genealogy-wiki lint --root my-family-research
 ## Current Caveats
 
 - The genealogy system is currently file/template/CLI based. It is not yet a full database or graph engine.
-- The source packet injector creates packet files but does not yet perform OCR, HTR, vision extraction, or claim extraction.
+- The dynamic material staging command creates packet/source files and stages source media. Actual high-accuracy conversion now uses `genealogy-wiki codex-job`, page work orders, and `genealogy-wiki codex-assemble`.
 - The tree generator creates a Mermaid view from relationship pages, but it is not a true genealogical chart layout yet.
 - The narrative compiler is deliberately conservative and currently emits claim bullets rather than polished prose.
 - Linting is useful but incomplete; it needs deeper cross-page validation and chronology parsing.
@@ -383,6 +413,6 @@ genealogy-wiki lint --root my-family-research
 5. Improve tree generation with ancestor/descendant modes.
 6. Add narrative generation from indexed claims with citations.
 7. Add identity-resolution scoring and duplicate-person candidate generation.
-8. Add source-type-specific packet injection for census/church register/photo/interview records.
+8. Add dynamic layout, table, handwriting, and vision extraction to populate material packets without source-type-specific injectors.
 9. Add CSV exports for claims, relationships, sources, tasks, and conflicts.
 10. Add GEDCOM or Gramps import/export.

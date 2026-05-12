@@ -37,13 +37,16 @@ The wiki can still cross-link freely, but this hierarchy is the default path for
 When a new source arrives:
 
 1. Add it to `raw/sources/` or `raw/converted/`.
-2. Create or update one page under `wiki/sources/`.
-3. Create a source packet under `wiki/source-packets/` with separated transcription, translation, interpretation, and uncertainty sections.
-4. Extract asserted facts into atomic claim pages under `wiki/claims/`.
-5. Create or update relationship assertions under `wiki/relationships/`.
-6. Update person, family, branch, place, event, photo, conflict, identity-candidate, and task pages as needed.
-7. Update `wiki/index.md`.
-8. Append an entry to `wiki/log.md`.
+2. For raw media, use `genealogy-wiki material` to stage the file, create a source page, and create a dynamic packet without assuming a record-specific schema.
+3. For scanned or image-based material, use `genealogy-wiki codex-job` to prepare page work orders for local Codex conversion.
+4. Convert page work orders into Markdown under the job's `page-markdown/` folder, then assemble with `genealogy-wiki codex-assemble`.
+5. For already converted Markdown, create or update one page under `wiki/sources/` and a source packet under `wiki/source-packets/`.
+6. Keep separated transcription, translation, interpretation, and uncertainty sections.
+7. Extract asserted facts into atomic claim pages under `wiki/claims/`.
+8. Create or update relationship assertions under `wiki/relationships/`.
+9. Update person, family, branch, place, event, photo, conflict, identity-candidate, and task pages as needed.
+10. Update `wiki/index.md`.
+11. Append an entry to `wiki/log.md`.
 
 ## Query Workflow
 
