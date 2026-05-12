@@ -87,6 +87,22 @@ Create a structured evidence packet from a difficult source:
 genealogy-wiki packet raw\converted\geneva-record.md --root my-family-research --id SP001 --title "1929 Geneva record" --kind archive_pdf
 ```
 
+Stage any source material and create a dynamic packet without assuming a document-specific schema:
+
+```powershell
+genealogy-wiki material C:\path\to\source.jpg --root my-family-research --id SP002 --title "Unidentified historical record" --kind unknown --feature handwriting --feature "table/grid"
+```
+
+Prepare a local Codex conversion job when you want Codex itself to convert scanned pages in this workspace without API cost:
+
+```powershell
+genealogy-wiki codex-job C:\path\to\source.pdf --root my-family-research --id CJ001 --title "Historical source" --pages 1,5-7
+genealogy-wiki codex-next my-family-research\raw\codex-conversion-jobs\cj001-historical-source\manifest.json --root my-family-research
+genealogy-wiki codex-assemble my-family-research\raw\codex-conversion-jobs\cj001-historical-source\manifest.json --root my-family-research
+```
+
+The repo skill `.agents/skills/historical-document-conversion/SKILL.md` tells future Codex agents how to use these page work orders for literal transcription, translation, interpretation, uncertainty, image/caption notes, genealogy leads, and completeness audits.
+
 Create an atomic claim:
 
 ```powershell
@@ -123,7 +139,7 @@ Compile a narrative only from accepted/probable claim pages:
 genealogy-wiki narrative "Dario Jose Pulgar Arriagada" --root my-family-research
 ```
 
-The genealogy wiki is designed to pair with `historic-doc-ingest`: put converted Markdown and manifests under `raw/converted/`, create a source packet, then have the LLM update source, claim, relationship, person, family, evidence, conflict, identity, task, photo, and question pages from that evidence.
+The genealogy wiki is designed to pair with `historic-doc-ingest`: put converted Markdown and manifests under `raw/converted/`, or use `genealogy-wiki material` to stage any raw source under `raw/sources/`. The material packet is document-agnostic: it records the source media, a verbatim extraction contract, exact printed header/label inventory, dynamic layout inventory, reading order, literal transcription, translation, interpretation, uncertainty, candidate entities, claims, relationship evidence, conflicts, research tasks, and a completeness audit without hardcoding a census, church-register, photo, or interview schema.
 
 Outputs:
 
@@ -135,13 +151,11 @@ Outputs:
 
 ## Accuracy Model
 
-The CLI is intentionally conservative. It preserves page boundaries and uncertain text instead of inventing clean prose. For high-stakes transcription, run a refinement step with a vision model provider and compare the manifest confidence data against the source page images.
-
-The provider interface lives in `historic_doc_ingest.providers`. Add a provider that accepts page evidence and returns corrected `DocumentPage` objects when you want to plug in OpenAI, Azure Document Intelligence, Google Document AI, Transkribus, Kraken, or another specialized model.
+The CLI is intentionally conservative. It preserves page boundaries and uncertain text instead of inventing clean prose. For high-stakes transcription, prepare a Codex conversion job and review page images directly against the generated Markdown.
 
 Recommended production workflow for fragile historical material:
 
 1. Run the CLI at 400-600 DPI.
 2. Review `manifest.json` for pages with `metadata.quality.needs_review = true`.
-3. Send those page images plus their block evidence to a specialist OCR/HTR or vision-LLM refinement provider.
-4. Re-run or replace only the reviewed `DocumentPage` data, keeping coordinates and provenance intact.
+3. Prepare a `genealogy-wiki codex-job` for pages that require visual transcription.
+4. Convert the page work orders in Codex, then assemble the final Markdown with `genealogy-wiki codex-assemble`.

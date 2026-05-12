@@ -15,7 +15,7 @@ Narratives, biographies, family trees, and research summaries are views over the
 | Claim-level evidence | `wiki/claims/` and `_templates/claim.md` |
 | Relationship confidence | `wiki/relationships/` and `_templates/relationship.md` |
 | Family tree visualization | `genealogy-wiki tree`, output to `wiki/trees/` |
-| Source packet injector | `genealogy-wiki packet`, output to `wiki/source-packets/` |
+| Dynamic source material converter | `genealogy-wiki material` stages source media; `genealogy-wiki codex-job` prepares page work orders; `genealogy-wiki codex-assemble` writes converted Markdown |
 | Transcription vs translation vs interpretation | Required sections in source packet, claim, and photo templates |
 | Conflicting records model | `wiki/conflicts/` and `_templates/conflict.md` |
 | Person identity resolution | `wiki/identity/` and `_templates/identity.md` |
@@ -29,7 +29,7 @@ Narratives, biographies, family trees, and research summaries are views over the
 ## Workflow
 
 1. Put immutable source files in `raw/sources/` or converted files in `raw/converted/`.
-2. Create a source packet with `genealogy-wiki packet`.
+2. For raw or image-based material, create a dynamic source packet with `genealogy-wiki material`, then prepare local Codex page work orders with `genealogy-wiki codex-job`; for already converted Markdown, use `genealogy-wiki packet`.
 3. Extract source statements into claim pages.
 4. Link claims into relationship, person, family, event, place, identity, conflict, task, and photo pages.
 5. Export indexes with `genealogy-wiki index` or a relationship graph with `genealogy-wiki graph`.
@@ -44,3 +44,5 @@ Narratives, biographies, family trees, and research summaries are views over the
 - Do not write narrative directly from raw source text.
 - Do not let context research drift away from a linked genealogy entity.
 - Do not hide contradictions in prose. Represent them in `wiki/conflicts/`.
+- Do not add record-type-specific injectors as the main path. Let the converter infer structure from the source, with optional overlays only when they do not replace the generic evidence model.
+- Do not accept "meaning-preserving" header summaries as complete transcription. Exact labels belong in the printed header inventory, even if split tables use shorter field keys.

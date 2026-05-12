@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import shutil
 from dataclasses import asdict, dataclass
 from datetime import date
 from pathlib import Path
@@ -47,13 +49,16 @@ The wiki can still cross-link freely, but this hierarchy is the default path for
 When a new source arrives:
 
 1. Add it to `raw/sources/` or `raw/converted/`.
-2. Create or update one page under `wiki/sources/`.
-3. Create a source packet under `wiki/source-packets/` with separated transcription, translation, interpretation, and uncertainty sections.
-4. Extract asserted facts into atomic claim pages under `wiki/claims/`.
-5. Create or update relationship assertions under `wiki/relationships/`.
-6. Update person, family, branch, place, event, photo, conflict, identity-candidate, and task pages as needed.
-7. Update `wiki/index.md`.
-8. Append an entry to `wiki/log.md`.
+2. For raw media, use `genealogy-wiki material` to stage the file, create a source page, and create a dynamic packet without assuming a record-specific schema.
+3. For scanned or image-based material, use `genealogy-wiki codex-job` to prepare page work orders for local Codex conversion.
+4. Convert page work orders into Markdown under the job's `page-markdown/` folder, then assemble with `genealogy-wiki codex-assemble`.
+5. For already converted Markdown, create or update one page under `wiki/sources/` and a source packet under `wiki/source-packets/`.
+6. Keep separated transcription, translation, interpretation, and uncertainty sections.
+7. Extract asserted facts into atomic claim pages under `wiki/claims/`.
+8. Create or update relationship assertions under `wiki/relationships/`.
+9. Update person, family, branch, place, event, photo, conflict, identity-candidate, and task pages as needed.
+10. Update `wiki/index.md`.
+11. Append an entry to `wiki/log.md`.
 
 ## Query Workflow
 
@@ -668,6 +673,7 @@ REQUIRED_DIRECTORIES = [
     ("raw", "sources"),
     ("raw", "converted"),
     ("raw", "assets"),
+    ("raw", "codex-conversion-jobs"),
     ("wiki", "branches"),
     ("wiki", "people"),
     ("wiki", "families"),
@@ -803,7 +809,7 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
         frontmatter = parse_frontmatter(text)
         if "type: person" in text and "[[" not in text:
             issues.append(f"person page has no wiki links: {rel}")
-        if "type: source" in text and "## Extracted Claims" not in text:
+        if frontmatter.get("type") == "source" and "## Extracted Claims" not in text:
             issues.append(f"source page missing extracted claims section: {rel}")
         if frontmatter.get("type") == "claim":
             issues.extend(lint_claim_page(rel, frontmatter, text))
@@ -943,6 +949,618 @@ def create_source_packet(
     packet_path.write_text(content.strip() + "\n", encoding="utf-8")
     append_log(paths.wiki / "log.md", f"source-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
     return packet_path
+
+
+def create_material_packet(
+    root: Path,
+    source_file: Path,
+    packet_id: str,
+    title: str,
+    source_kind: str = "unknown",
+    features: list[str] | None = None,
+    copy_source: bool = True,
+    force: bool = False,
+) -> Path:
+    paths = WikiPaths(root.resolve())
+    packets_dir = paths.wiki / "source-packets"
+    packets_dir.mkdir(parents=True, exist_ok=True)
+    packet_path = packets_dir / f"{slug(packet_id)}-{slug(title)}.md"
+    if packet_path.exists() and not force:
+        raise FileExistsError(packet_path)
+
+    staged_source = (
+        stage_source_material(paths.root, source_file, packet_id, title, force=force)
+        if copy_source
+        else source_file.resolve()
+    )
+    if not staged_source.exists():
+        raise FileNotFoundError(staged_source)
+    source_page = write_material_source_page(paths.root, staged_source, packet_id, title, source_kind, force=force)
+    width, height = image_dimensions(staged_source)
+    media_type = detect_media_type(staged_source)
+    content = build_material_packet_content(
+        root=paths.root,
+        source_file=staged_source,
+        source_page=source_page,
+        packet_id=packet_id,
+        title=title,
+        source_kind=source_kind,
+        media_type=media_type,
+        features=features or [],
+        width=width,
+        height=height,
+    )
+    packet_path.write_text(content.strip() + "\n", encoding="utf-8")
+    append_index_reference(paths.wiki / "index.md", "Sources", f"[[sources/{source_page.stem}]]")
+    append_index_reference(paths.wiki / "index.md", "Source Packets", f"[[source-packets/{packet_path.stem}]]")
+    append_log(paths.wiki / "log.md", f"material-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
+    return packet_path
+
+
+def stage_source_material(root: Path, source_file: Path, packet_id: str, title: str, force: bool = False) -> Path:
+    source_file = source_file.resolve()
+    if not source_file.exists():
+        raise FileNotFoundError(source_file)
+
+    destination_dir = root / "raw" / "sources" / f"{slug(packet_id)}-{slug(title)}"
+    destination_dir.mkdir(parents=True, exist_ok=True)
+    destination = destination_dir / source_file.name
+    if destination.exists() and not force:
+        raise FileExistsError(destination)
+    if source_file != destination.resolve():
+        shutil.copy2(source_file, destination)
+    return destination
+
+
+def write_material_source_page(
+    root: Path,
+    source_file: Path,
+    packet_id: str,
+    title: str,
+    source_kind: str,
+    force: bool = False,
+) -> Path:
+    source_dir = root / "wiki" / "sources"
+    source_dir.mkdir(parents=True, exist_ok=True)
+    source_page = source_dir / f"{slug(packet_id)}-{slug(title)}.md"
+    if source_page.exists() and not force:
+        raise FileExistsError(source_page)
+
+    packet_link = f"[[source-packets/{slug(packet_id)}-{slug(title)}]]"
+    raw_path = relative_to_root(source_file, root)
+    content = f"""---
+type: source
+source_id: {packet_id}
+source_kind: {source_kind}
+raw_file: {raw_path}
+source_packet: {packet_link}
+status: draft
+---
+
+# {title}
+
+## Source Identity
+
+- Repository:
+- Collection:
+- Record type: {source_kind}
+- Date:
+- Place:
+- File: {raw_path}
+- Source packet: {packet_link}
+- Reliability:
+
+## Transcription Or Abstract
+
+See {packet_link}.
+
+## Extracted Claims
+
+| Claim | People/Places | Status | Confidence | Claim Page |
+| --- | --- | --- | --- | --- |
+
+## Image/Layout Notes
+
+## Citation
+"""
+    source_page.write_text(content.strip() + "\n", encoding="utf-8")
+    return source_page
+
+
+def build_material_packet_content(
+    root: Path,
+    source_file: Path,
+    source_page: Path,
+    packet_id: str,
+    title: str,
+    source_kind: str,
+    media_type: str,
+    features: list[str],
+    width: int | None,
+    height: int | None,
+) -> str:
+    raw_path = relative_to_root(source_file, root)
+    source_link = f"[[sources/{source_page.stem}]]"
+    packet_dir = root / "wiki" / "source-packets"
+    media_link = relative_path(packet_dir, source_file)
+    preview = f"![Source image]({media_link})" if media_type == "image" else f"[Source file]({media_link})"
+    feature_lines = "\n".join(f"- {feature}" for feature in features) if features else "- To be profiled dynamically."
+    dimensions = f"{width} x {height} px" if width and height else "unknown or not image-based"
+
+    return f"""---
+type: source_packet
+status: draft
+source_id: {packet_id}
+source_kind: {source_kind}
+media_type: {media_type}
+raw_file: {raw_path}
+source_page: {source_link}
+created: {date.today().isoformat()}
+tags: [source-packet, dynamic-source]
+---
+
+# {title}
+
+## Source Identity
+
+- Source page: {source_link}
+- Source kind: {source_kind}
+- Media type: {media_type}
+- Raw file: {raw_path}
+- Dimensions: {dimensions}
+- Processing stance: document-agnostic dynamic layout analysis
+
+## Source Media
+
+{preview}
+
+## Verbatim Extraction Contract
+
+- Do not summarize, shorten, modernize, or paraphrase printed headers, handwritten labels, captions, marginalia, stamps, seals, page numbers, or notes.
+- If a table is too wide for readable Markdown, transcribe the full printed header text in the header inventory first, then use stable short field keys in split tables.
+- Preserve blank cells as blank, mark uncertain readings with `[?]`, mark unreadable text as `[illegible]`, and record all uncertainty below.
+- Expand ditto marks only when the repeated value is clear; otherwise transcribe the mark literally and explain the uncertainty.
+- Every extracted claim must point back to a literal source location, not only to an interpreted table row.
+
+## Dynamic Material Profile
+
+Observed or expected features. Add only what is visible in this source; do not force a preset schema.
+
+{feature_lines}
+
+## Printed Header And Label Inventory
+
+Transcribe every visible printed header, field label, caption, note label, page number label, and column label literally before shortening anything for tables.
+
+| Label ID | Region ID | Exact text | Short key | Applies to | Notes |
+| --- | --- | --- | --- | --- | --- |
+
+## Layout Inventory
+
+Describe each visual or textual region before transcription. Use bounding boxes when available.
+
+| Region ID | Region type | Bounding box | Reading order | Description | Confidence |
+| --- | --- | --- | --- | --- | --- |
+
+## Reading Order
+
+List the order in which the source should be read by a human or LLM. Include headers, marginalia, captions, tables, seals, stamps, page numbers, and image regions.
+
+## Literal Transcription
+
+What the source literally says. Preserve spelling, line breaks, column labels, marginalia, captions, page numbers, handwriting, punctuation, and uncertainty markers.
+
+## Structured Transcription Tables
+
+Use as many tables as needed to keep the source readable. Short column names are allowed only when mapped to exact labels in `Printed Header And Label Inventory`.
+
+## Translation
+
+Only translated text. Leave blank if the source is already in the working language.
+
+## Interpretation
+
+What the system infers from the source. Keep this separate from the literal transcription and translation.
+
+## Uncertain Or Illegible
+
+Track every unreadable, ambiguous, cropped, overwritten, or low-confidence mark.
+
+| Location | Literal mark | Possible readings | Reason uncertain | Review priority |
+| --- | --- | --- | --- | --- |
+
+## Extracted Entities
+
+| Entity | Entity type | Literal form | Normalized form | Source location | Confidence |
+| --- | --- | --- | --- | --- | --- |
+
+## Extracted Atomic Claims
+
+| Claim | Status | Confidence | Source location | Claim Page |
+| --- | --- | --- | --- | --- |
+
+## Relationship Evidence Candidates
+
+| People | Relationship candidate | Evidence location | Status | Confidence | Relationship Page |
+| --- | --- | --- | --- | --- | --- |
+
+## Conflict Candidates
+
+| Conflict type | Evidence in this source | Evidence to compare | Conflict Page |
+| --- | --- | --- | --- |
+
+## Research Tasks Suggested
+
+| Task | Linked claim or relationship | Proof needed | Suggested search | Priority |
+| --- | --- | --- | --- | --- |
+
+## Linked Photos Or Images
+
+| Region ID | Description | Linked people/events/places | Caption or back text | Confidence |
+| --- | --- | --- | --- | --- |
+
+## Completeness Audit
+
+Check this packet against the source image or media after transcription.
+
+| Audit item | Expected from source | Present in packet | Missing, shortened, or uncertain items | Reviewer |
+| --- | --- | --- | --- | --- |
+| Page/source metadata | | | | |
+| Printed headers and labels | | | | |
+| Body rows or entries | | | | |
+| Blank rows, crossed-out areas, or end notes | | | | |
+| Captions, marginalia, stamps, seals, and page numbers | | | | |
+
+## Recommended Model Review Passes
+
+1. Layout pass: identify regions, reading order, page metadata, and all printed labels.
+2. Header pass: transcribe exact headers and labels without shortening.
+3. Body pass: transcribe entries, tables, handwriting, captions, and notes.
+4. Audit pass: compare the packet against the source and list omissions or suspected truncation.
+
+## Processing Notes
+
+- This packet is intentionally source-type agnostic.
+- Add document-specific fields only when the source itself requires them.
+- Keep transcription, translation, interpretation, and uncertainty separate.
+"""
+
+
+def detect_media_type(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix in {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".bmp", ".gif", ".webp"}:
+        return "image"
+    if suffix == ".pdf":
+        return "pdf"
+    if suffix in {".mp3", ".wav", ".m4a", ".aac", ".flac", ".ogg"}:
+        return "audio"
+    if suffix in {".mp4", ".mov", ".avi", ".mkv", ".webm"}:
+        return "video"
+    if suffix in {".txt", ".md", ".csv", ".tsv", ".json", ".xml", ".html", ".htm"}:
+        return "text"
+    return "binary"
+
+
+def image_dimensions(path: Path) -> tuple[int | None, int | None]:
+    if detect_media_type(path) != "image":
+        return None, None
+    try:
+        from PIL import Image
+    except ImportError:
+        return None, None
+
+    try:
+        with Image.open(path) as image:
+            return image.width, image.height
+    except OSError:
+        return None, None
+
+
+def create_codex_conversion_job(
+    root: Path,
+    source_file: Path,
+    job_id: str,
+    title: str,
+    page_range: str | None = None,
+    image_scale: float = 0.5,
+    force: bool = False,
+) -> Path:
+    paths = WikiPaths(root.resolve())
+    source_file = source_file.resolve()
+    if not source_file.exists():
+        raise FileNotFoundError(source_file)
+    if image_scale <= 0:
+        raise ValueError("image_scale must be greater than zero")
+
+    job_slug = f"{slug(job_id)}-{slug(title)}"
+    job_dir = paths.raw / "codex-conversion-jobs" / job_slug
+    if job_dir.exists() and force:
+        shutil.rmtree(job_dir)
+    if job_dir.exists() and not force:
+        raise FileExistsError(job_dir)
+    source_dir = job_dir / "source"
+    pages_dir = job_dir / "page-images"
+    work_dir = job_dir / "work-orders"
+    output_dir = job_dir / "page-markdown"
+    for directory in (source_dir, pages_dir, work_dir, output_dir):
+        directory.mkdir(parents=True, exist_ok=True)
+
+    staged_source = source_dir / source_file.name
+    if source_file != staged_source.resolve():
+        shutil.copy2(source_file, staged_source)
+
+    media_type = detect_media_type(staged_source)
+    page_specs = render_codex_job_pages(staged_source, pages_dir, media_type, page_range, image_scale)
+    manifest = {
+        "job_id": job_id,
+        "title": title,
+        "source_file": relative_to_root(staged_source, paths.root),
+        "media_type": media_type,
+        "created": date.today().isoformat(),
+        "conversion_engine": "codex-thread-vision",
+        "status": "prepared",
+        "instructions": [
+            "Convert each page from the rendered page image using Codex vision in this workspace.",
+            "Write one Markdown file per page under page-markdown/.",
+            "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+            "Do not modernize spelling or silently repair source errors.",
+        ],
+        "pages": [],
+    }
+    for spec in page_specs:
+        page_no = spec["page"]
+        output_path = output_dir / f"page-{page_no:04d}.md"
+        work_order_path = work_dir / f"page-{page_no:04d}.md"
+        spec["output_path"] = relative_to_root(output_path, paths.root)
+        spec["work_order_path"] = relative_to_root(work_order_path, paths.root)
+        spec["status"] = "todo"
+        work_order_path.write_text(
+            build_codex_page_work_order(paths.root, job_id, title, spec, output_path),
+            encoding="utf-8",
+        )
+        manifest["pages"].append(spec)
+
+    manifest_path = job_dir / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (job_dir / "README.md").write_text(build_codex_job_readme(paths.root, manifest_path, manifest), encoding="utf-8")
+    append_log(paths.wiki / "log.md", f"codex-conversion-job | Prepared {manifest_path.relative_to(paths.root).as_posix()}")
+    return manifest_path
+
+
+def render_codex_job_pages(
+    source_file: Path,
+    pages_dir: Path,
+    media_type: str,
+    page_range: str | None,
+    image_scale: float,
+) -> list[dict[str, object]]:
+    if media_type == "pdf":
+        try:
+            import fitz
+        except ImportError as exc:
+            raise RuntimeError("PyMuPDF is required to prepare PDF conversion jobs.") from exc
+
+        doc = fitz.open(source_file)
+        selected_pages = parse_page_range(page_range, len(doc))
+        specs: list[dict[str, object]] = []
+        for page_no in selected_pages:
+            page = doc[page_no - 1]
+            pix = page.get_pixmap(matrix=fitz.Matrix(image_scale, image_scale), alpha=False)
+            image_path = pages_dir / f"page-{page_no:04d}.jpg"
+            pix.save(image_path, jpg_quality=90)
+            specs.append(
+                {
+                    "page": page_no,
+                    "source_page": page_no,
+                    "image_path": image_path.as_posix(),
+                    "width_px": pix.width,
+                    "height_px": pix.height,
+                    "image_bytes": image_path.stat().st_size,
+                }
+            )
+        return specs
+
+    if media_type == "image":
+        image_path = pages_dir / f"page-0001{source_file.suffix.lower()}"
+        shutil.copy2(source_file, image_path)
+        width, height = image_dimensions(image_path)
+        return [
+            {
+                "page": 1,
+                "source_page": 1,
+                "image_path": image_path.as_posix(),
+                "width_px": width,
+                "height_px": height,
+                "image_bytes": image_path.stat().st_size,
+            }
+        ]
+
+    copied_path = pages_dir / source_file.name
+    shutil.copy2(source_file, copied_path)
+    return [
+        {
+            "page": 1,
+            "source_page": 1,
+            "image_path": copied_path.as_posix(),
+            "width_px": None,
+            "height_px": None,
+            "image_bytes": copied_path.stat().st_size,
+            "note": "Non-image source staged as a single work item.",
+        }
+    ]
+
+
+def parse_page_range(page_range: str | None, page_count: int) -> list[int]:
+    if page_count < 1:
+        return []
+    if not page_range:
+        return list(range(1, page_count + 1))
+    selected: set[int] = set()
+    for part in page_range.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        if "-" in part:
+            start_text, end_text = part.split("-", 1)
+            start = int(start_text)
+            end = int(end_text)
+            if start > end:
+                raise ValueError(f"invalid descending page range: {part}")
+            selected.update(range(start, end + 1))
+        else:
+            selected.add(int(part))
+    invalid = [page for page in selected if page < 1 or page > page_count]
+    if invalid:
+        raise ValueError(f"page range includes pages outside 1-{page_count}: {invalid}")
+    return sorted(selected)
+
+
+def build_codex_page_work_order(root: Path, job_id: str, title: str, page: dict[str, object], output_path: Path) -> str:
+    image_abs = (root / str(page["image_path"])).resolve()
+    return f"""# Codex Conversion Work Order
+
+- Job: {job_id}
+- Title: {title}
+- Page: {page["page"]}
+- Source image: `{image_abs}`
+- Output file: `{output_path.resolve()}`
+- Status: todo
+
+## Instructions For Codex
+
+View the source image and convert the page to Markdown without intentional truncation.
+
+Preserve:
+
+- page numbers and visible page labels
+- titles, headers, mastheads, column order, captions, marginalia, stamps, signatures, and image positions
+- literal spelling, punctuation, line breaks where genealogically meaningful, and uncertain readings
+- separation between transcription, translation, interpretation, and uncertainty
+
+Use this page-level structure:
+
+```markdown
+# Page {page["page"]}
+
+## Page Metadata
+
+## Layout And Reading Order
+
+## Literal Transcription
+
+## Images, Captions, And Visual Notes
+
+## Translation
+
+## Interpretation
+
+## Uncertain Or Illegible
+
+## Extracted Genealogy Leads
+
+## Completeness Audit
+```
+"""
+
+
+def build_codex_job_readme(root: Path, manifest_path: Path, manifest: dict[str, object]) -> str:
+    next_page = next((page for page in manifest["pages"] if page["status"] == "todo"), None)
+    next_line = ""
+    if next_page:
+        next_line = f"\nNext page work order: `{next_page['work_order_path']}`\n"
+    return f"""# Codex Conversion Job
+
+Title: {manifest["title"]}
+
+Manifest: `{relative_to_root(manifest_path, root)}`
+Source: `{manifest["source_file"]}`
+Pages: {len(manifest["pages"])}
+{next_line}
+This job is designed for conversion by Codex in the local workspace. The page images are stable artifacts, and each completed page Markdown file can be assembled into a full converted document.
+"""
+
+
+def next_codex_conversion_work_order(root: Path, manifest_path: Path) -> Path | None:
+    paths = WikiPaths(root.resolve())
+    manifest_path = manifest_path if manifest_path.is_absolute() else paths.root / manifest_path
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    for page in manifest.get("pages", []):
+        output_path = paths.root / page["output_path"]
+        if page.get("status") == "done" or output_path.exists():
+            continue
+        return paths.root / page["work_order_path"]
+    return None
+
+
+def assemble_codex_conversion_job(root: Path, manifest_path: Path, out: Path | None = None) -> Path:
+    paths = WikiPaths(root.resolve())
+    manifest_path = manifest_path if manifest_path.is_absolute() else paths.root / manifest_path
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    job_dir = manifest_path.parent
+    output_path = out or (paths.raw / "converted" / f"{job_dir.name}.codex.md")
+    if not output_path.is_absolute():
+        output_path = paths.root / output_path
+
+    missing: list[str] = []
+    parts = [
+        f"# {manifest['title']}",
+        "",
+        "## Conversion Metadata",
+        "",
+        f"- Source: `{manifest['source_file']}`",
+        f"- Manifest: `{relative_to_root(manifest_path, paths.root)}`",
+        "- Conversion method: Codex local vision workbench",
+        "",
+    ]
+    for page in manifest.get("pages", []):
+        page_output = paths.root / page["output_path"]
+        if not page_output.exists():
+            missing.append(page["output_path"])
+            continue
+        parts.append(page_output.read_text(encoding="utf-8").strip())
+        parts.append("")
+
+    if missing:
+        missing_list = "\n".join(f"- {item}" for item in missing)
+        parts.extend(["## Missing Pages", "", missing_list, ""])
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
+    append_log(paths.wiki / "log.md", f"codex-conversion-job | Assembled {output_path.relative_to(paths.root).as_posix()}")
+    return output_path
+
+
+def relative_to_root(path: Path, root: Path) -> str:
+    try:
+        return path.resolve().relative_to(root.resolve()).as_posix()
+    except ValueError:
+        return path.resolve().as_posix()
+
+
+def relative_path(from_dir: Path, to_path: Path) -> str:
+    return Path(os.path.relpath(to_path.resolve(), from_dir.resolve())).as_posix()
+
+
+def append_index_reference(index_path: Path, section: str, wiki_link: str) -> None:
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    text = read_text(index_path) or INDEX_TEMPLATE
+    entry = f"- {wiki_link}"
+    if entry in text:
+        return
+
+    heading = f"## {section}"
+    if heading not in text:
+        text = text.rstrip() + f"\n\n{heading}\n\n{entry}\n"
+        index_path.write_text(text, encoding="utf-8")
+        return
+
+    heading_start = text.index(heading)
+    body_start = heading_start + len(heading)
+    next_heading = re.search(r"\n## ", text[body_start:])
+    insert_at = body_start + next_heading.start() if next_heading else len(text)
+    before = text[:insert_at].rstrip()
+    after = text[insert_at:].lstrip("\n")
+    text = f"{before}\n\n{entry}\n\n{after}" if after else f"{before}\n\n{entry}\n"
+    index_path.write_text(text, encoding="utf-8")
 
 
 def build_claim_index(root: Path) -> list[ClaimRecord]:
@@ -1273,6 +1891,10 @@ def lint_source_packet_page(rel: str, text: str) -> list[str]:
     for section in ["Literal Transcription", "Translation", "Interpretation", "Uncertain Or Illegible"]:
         if f"## {section}" not in text:
             issues.append(f"source packet missing {section} section: {rel}")
+    if "dynamic-source" in text:
+        for section in ["Verbatim Extraction Contract", "Printed Header And Label Inventory", "Completeness Audit"]:
+            if f"## {section}" not in text:
+                issues.append(f"dynamic source packet missing {section} section: {rel}")
     return issues
 
 
@@ -1529,6 +2151,51 @@ def build_parser() -> argparse.ArgumentParser:
     packet_parser.add_argument("--kind", default="unknown", help="Source kind, such as census, church_register, photo, interview.")
     packet_parser.add_argument("--force", action="store_true", help="Overwrite an existing packet.")
 
+    material_parser = subparsers.add_parser(
+        "material",
+        help="Stage any source file and create a dynamic, document-agnostic evidence packet.",
+    )
+    material_parser.add_argument("source_file", type=Path, help="Raw source file: image, PDF, text, audio, video, or other media.")
+    material_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    material_parser.add_argument("--id", required=True, help="Packet/source id, such as SP001.")
+    material_parser.add_argument("--title", required=True, help="Human-readable source title.")
+    material_parser.add_argument("--kind", default="unknown", help="Descriptive source kind, not a fixed extraction schema.")
+    material_parser.add_argument(
+        "--feature",
+        action="append",
+        default=[],
+        help="Observed feature to include in the dynamic material profile. May be repeated.",
+    )
+    material_parser.add_argument("--no-copy", action="store_true", help="Link to the source file instead of copying it into raw/sources.")
+    material_parser.add_argument("--force", action="store_true", help="Overwrite an existing packet, source page, or staged file.")
+
+    codex_job_parser = subparsers.add_parser(
+        "codex-job",
+        help="Prepare a local page-by-page conversion job for Codex vision work.",
+    )
+    codex_job_parser.add_argument("source_file", type=Path, help="Source PDF, image, or other file to prepare.")
+    codex_job_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    codex_job_parser.add_argument("--id", required=True, help="Job id, such as CJ001.")
+    codex_job_parser.add_argument("--title", required=True, help="Human-readable source title.")
+    codex_job_parser.add_argument("--pages", help="Optional page range, such as 1,3-5. Defaults to all pages.")
+    codex_job_parser.add_argument("--image-scale", type=float, default=0.5, help="PDF render scale for page images. Default: 0.5.")
+    codex_job_parser.add_argument("--force", action="store_true", help="Overwrite an existing conversion job.")
+
+    codex_next_parser = subparsers.add_parser(
+        "codex-next",
+        help="Print the next unfinished Codex conversion work order for a prepared job.",
+    )
+    codex_next_parser.add_argument("manifest", type=Path, help="Path to a codex-job manifest.json.")
+    codex_next_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+
+    codex_assemble_parser = subparsers.add_parser(
+        "codex-assemble",
+        help="Assemble completed Codex page Markdown files into one converted document.",
+    )
+    codex_assemble_parser.add_argument("manifest", type=Path, help="Path to a codex-job manifest.json.")
+    codex_assemble_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    codex_assemble_parser.add_argument("--out", type=Path, help="Output Markdown path. Defaults to raw/converted/<job>.codex.md.")
+
     claim_parser = subparsers.add_parser("claim", help="Create an atomic genealogy claim page.")
     claim_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     claim_parser.add_argument("--id", required=True, help="Claim id, such as CL001.")
@@ -1599,6 +2266,49 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "packet":
         packet_path = create_source_packet(args.root, args.source_file, args.id, args.title, args.kind, args.force)
         print(f"Created source packet {packet_path}")
+        return 0
+
+    if args.command == "material":
+        packet_path = create_material_packet(
+            root=args.root,
+            source_file=args.source_file,
+            packet_id=args.id,
+            title=args.title,
+            source_kind=args.kind,
+            features=args.feature,
+            copy_source=not args.no_copy,
+            force=args.force,
+        )
+        print(f"Created dynamic material packet {packet_path}")
+        return 0
+
+    if args.command == "codex-job":
+        manifest = create_codex_conversion_job(
+            root=args.root,
+            source_file=args.source_file,
+            job_id=args.id,
+            title=args.title,
+            page_range=args.pages,
+            image_scale=args.image_scale,
+            force=args.force,
+        )
+        print(f"Prepared Codex conversion job {manifest}")
+        next_work = next_codex_conversion_work_order(args.root, manifest)
+        if next_work:
+            print(f"Next work order {next_work}")
+        return 0
+
+    if args.command == "codex-next":
+        next_work = next_codex_conversion_work_order(args.root, args.manifest)
+        if next_work is None:
+            print("No unfinished Codex conversion work orders")
+            return 0
+        print(next_work)
+        return 0
+
+    if args.command == "codex-assemble":
+        output_path = assemble_codex_conversion_job(args.root, args.manifest, out=args.out)
+        print(f"Assembled Codex conversion document {output_path}")
         return 0
 
     if args.command == "claim":

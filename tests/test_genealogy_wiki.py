@@ -2,7 +2,10 @@ from historic_doc_ingest.genealogy_wiki import (
     build_claim_index,
     build_relationship_index,
     compile_narrative,
+    assemble_codex_conversion_job,
     create_claim,
+    create_codex_conversion_job,
+    create_material_packet,
     create_relationship,
     create_source_packet,
     generate_tree,
@@ -11,6 +14,7 @@ from historic_doc_ingest.genealogy_wiki import (
     write_claim_index,
     write_relationship_graph,
     write_relationship_index,
+    next_codex_conversion_work_order,
 )
 
 
@@ -46,6 +50,75 @@ def test_source_packet_preserves_transcription_translation_interpretation_sectio
     assert "## Translation" in packet_text
     assert "## Interpretation" in packet_text
     assert "## Uncertain Or Illegible" in packet_text
+
+
+def test_material_packet_is_document_agnostic_and_stages_source(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    source_file = tmp_path / "downloaded-record.bin"
+    source_file.write_bytes(b"historical source bytes")
+
+    packet = create_material_packet(
+        tmp_path,
+        source_file,
+        "SP900",
+        "Any Source Material",
+        source_kind="mixed_source",
+        features=["handwriting", "table/grid", "marginalia"],
+    )
+    packet_text = packet.read_text(encoding="utf-8")
+
+    assert (tmp_path / "raw" / "sources" / "sp900-any-source-material" / "downloaded-record.bin").exists()
+    assert (tmp_path / "wiki" / "sources" / "sp900-any-source-material.md").exists()
+    assert "## Verbatim Extraction Contract" in packet_text
+    assert "## Dynamic Material Profile" in packet_text
+    assert "## Printed Header And Label Inventory" in packet_text
+    assert "## Layout Inventory" in packet_text
+    assert "## Reading Order" in packet_text
+    assert "## Literal Transcription" in packet_text
+    assert "## Structured Transcription Tables" in packet_text
+    assert "## Translation" in packet_text
+    assert "## Interpretation" in packet_text
+    assert "## Uncertain Or Illegible" in packet_text
+    assert "## Relationship Evidence Candidates" in packet_text
+    assert "## Conflict Candidates" in packet_text
+    assert "## Research Tasks Suggested" in packet_text
+    assert "## Completeness Audit" in packet_text
+    assert "Do not summarize, shorten, modernize, or paraphrase" in packet_text
+    assert "Missing, shortened, or uncertain items" in packet_text
+    assert "handwriting" in packet_text
+    assert "table/grid" in packet_text
+    assert "source-type agnostic" in packet_text
+    assert "1930" not in packet_text
+    assert lint_genealogy_wiki(tmp_path) == []
+
+
+def test_codex_conversion_job_prepares_image_work_order_and_assembles(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    from PIL import Image
+
+    image = tmp_path / "source-page.jpg"
+    Image.new("RGB", (20, 10), "white").save(image)
+
+    manifest = create_codex_conversion_job(
+        tmp_path,
+        image,
+        job_id="CJ001",
+        title="Codex Source",
+    )
+    manifest_text = manifest.read_text(encoding="utf-8")
+    assert "codex-thread-vision" in manifest_text
+    assert (manifest.parent / "page-images" / "page-0001.jpg").exists()
+    work_order = next_codex_conversion_work_order(tmp_path, manifest)
+    assert work_order is not None
+    assert "View the source image" in work_order.read_text(encoding="utf-8")
+
+    page_output = manifest.parent / "page-markdown" / "page-0001.md"
+    page_output.write_text("# Page 1\n\n## Literal Transcription\n\nConverted by Codex.\n", encoding="utf-8")
+    assert next_codex_conversion_work_order(tmp_path, manifest) is None
+
+    assembled = assemble_codex_conversion_job(tmp_path, manifest)
+    assert "Converted by Codex." in assembled.read_text(encoding="utf-8")
+    assert lint_genealogy_wiki(tmp_path) == []
 
 
 def test_lint_flags_detached_claim(tmp_path) -> None:
