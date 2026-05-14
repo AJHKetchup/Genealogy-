@@ -5,6 +5,7 @@ This is the human-facing work queue. Agents should keep it useful for online res
 ## Current Focus
 
 - Review the new staged drafts for `SRC-5a5078ab4b0d`, `SRC-aa0e304338ce`, `SRC-05d0627a5861`, and `SRC-07263f404e4c` under `research/_staging/source-packets/` and `research/_staging/claims/`.
+- Review the new staged I-94 packet and claims for `SRC-db3e1a4b1081`, keeping the birthdate and address fields on reread hold until the dated queue is cleared.
 - Resolve the Dario/Pulgar conversion-QA blockers before claim extraction from the 1959 I-94 and before promoting the 1888 Los Angeles birth entry.
 - Resolve source identity for `batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5` before any evidence extraction. The current converted slice reads as a railways publication, not a Senate source.
 - Rerun or reassemble `batch-pdf-043-s495-2-2` and `batch-pdf-044-s522bis-29-3`; both converted Markdown artifacts are empty.
@@ -52,6 +53,8 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - `SRC-aa0e304338ce` / Registro de Nacimientos, Los Angeles, Chile, 1888, Entry No. 172
   - staged packet: `research/_staging/source-packets/src-aa0e304338ce-entry-172-fidelmiro-segundo-pulgar-arriagada.md`
   - staged claim: `research/_staging/claims/src-aa0e304338ce-fidelmiro-segundo-pulgar-arriagada-birth-and-parentage.md`
+  - reread-held alternate packet: `research/_staging/source-packets/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md`
+  - reread-held alternate claims: `research/_staging/claims/batch-img-017-fidelmiro-segundo-pulgar-arriagada-birth.md`, `research/_staging/claims/batch-img-017-fidelmiro-segundo-pulgar-arriagada-parentage.md`, `research/_staging/claims/batch-img-017-fidelmiro-segundo-pulgar-arriagada-registration.md`
 - `SRC-05d0627a5861` / Registro de Nacimientos, Los Angeles, Chile, 1889, Certificate No. 513
   - staged packet: `research/_staging/source-packets/src-05d0627a5861-entry-513-daniel-pulgar-arriagada.md`
   - staged claim: `research/_staging/claims/src-05d0627a5861-daniel-pulgar-arriagada-birth-and-parentage.md`
@@ -59,6 +62,8 @@ This is the human-facing work queue. Agents should keep it useful for online res
   - staged packet: `research/_staging/source-packets/src-07263f404e4c-dario-pulgar-cv.md`
   - staged claim: `research/_staging/claims/clm-src-07263f404e4c-dario-pulgar-stanford-education.md`
 - `SRC-db3e1a4b1081` / Arrival-Departure Record, Form I-94 B, March 30, 1959
+  - staged packet: `research/_staging/source-packets/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md`
+  - staged claims: `research/_staging/claims/batch-img-010-dario-a-pulgar-nyc-transit-1959-03-30.md`, `research/_staging/claims/batch-img-010-dario-a-pulgar-recorded-birthdate-1902-06-01.md`, `research/_staging/claims/batch-img-010-dario-a-pulgar-permanent-address-concepcion.md`
 - `SRC-8dc32ecbbc69` / Ficha de turista, issued by the Brazilian Consulate on January 27, 1964
 - `SRC-221159bd9b79` / Cámara de Senadores de la Nación, 1936
 - `SRC-9010aa1ac68f` / S495-2-2
@@ -74,6 +79,7 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - The CV is useful as a lead source for education and contact history, but not strong enough by itself for uncorroborated canonical biography claims.
 - The `batch-pdf-042` mismatch is a source-prep or page-association defect rather than a normal OCR drift issue.
 - `Dario Arturo Pulgar` and `Dario Pulgar Smith` may still be the same person under a name variant, but the merge decision should wait for proof review rather than conversion QA.
+- The I-94 travel event may be promotion-ready before the I-94 birthdate and address fields, which remain on reread hold.
 
 ## Negative Searches
 
@@ -82,6 +88,7 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - 2026-05-14: This QA pass did not find evidence strong enough to merge the 1959 I-94 traveler with `Dario Pulgar Smith`.
 - 2026-05-14: No corroborating record was identified in this pass for the Stanford/Fulbright education statement beyond the self-authored CV.
 - 2026-05-14: This QA pass did not find a safe way to normalize the tourist-card slash dates without a local image reread.
+- 2026-05-14: No corroborating record was identified in this pass for the I-94 birthdate year or the `Concepcion` address reading.
 
 ## Lineage Goals
 
@@ -96,3 +103,4 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - 2026-05-14: The 1964 tourist card remains usable as source-context identity support for `Dario Pulgar Smith`, but not yet for parent-link promotion.
 - 2026-05-14: First-pass staged packets and claims now exist for the 1953 passenger list, the 1888 and 1889 Los Angeles birth entries, and the Dario Arturo Pulgar CV.
 - 2026-05-14: The CV conversion is clean enough for contextual extraction, but the person-merge decision remains a proof-review hold.
+- 2026-05-14: A staged I-94 packet and three staged I-94 claims now exist, but the birthdate and address fields remain on reread hold and the traveler should stay identity-separated pending review.
