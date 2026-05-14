@@ -12,6 +12,7 @@ build/
 *.egg-info/
 output/
 outputs/
+raw/conversion-*.md
 # Raw originals and heavy page-image job work stay local to the laptop.
 raw/codex-conversion-jobs/
 raw/sources/*
