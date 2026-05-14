@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1350-07
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1350
+page_end: 1350
+part: 7
+---
+
+blezcalamenclonadaexenclôndede¬
+rechosaduanerosparaelpapeldestl¬
+nadoa
+l
+a
+'
+lmpreslônderevlstas.
+CAMARADEDIPUTADOS
+IntervenciônfederalaCorlentes—
+Enlasesiônrealizadaayerporla
+CâmaradeDiputadossediôentrada
+aunproyectodelosdiputadoslibera¬
+lesdelaprovlncladeCorlentes.por
+elquesedisponelaIntervenciônfede¬
+ralamplialamisma.
+Estainiciativaeslarepetlclônde
+otraanterioranàlogaüeloemismos
+legisladores,quefuéretlradaporlos
+motivosdequeseinforméoportuna¬
+mente.
+Comisiôndenegociosextranjerosy
+culto—
+Sereunlôayerlacomisiôndenego¬
+ciosextranjerosycultodelaCarnau,
+deDiputados,alosefectosdeconsti- tuirse,ydésignéprésidentedelamis¬
+malsefiorAdrlânC.Escobarysc-
+cretarloalsefiorAlfredoJ.Alonso.
+MOVIMIENTOPOLITICO
+PARTIDODEMOCRATANACIONAL
+Renniônde1»mes»diretiva
+Paraelmiércolesprôximoalas18.30
+hasidoeitadalamesadiretivadelco¬
+mitédelacapitaldelpartidoDemôcrata Nacional,afindeconsiderareldespacho
+delacomisiônrcdactoradelacartao.r-
+gânica.
+UNIONCIVICARADICALANTIPERSONA-
+LISTA
+Inaugurationdeuncentro
+Estanoehealas22serealizarâelacto
+inauguraldelcentroGeneralSanMartin
+delaUniôn.CivlcaRadicalantipersonali.-;-
+ta,queestasltuadoenlacaleLopede
+Vega2951.Entaloportunidadusarânde
+lapalabravariosoradores.
+PARTIDOSOCIALISTA
+Conferencia
+EnelcentrosocialistadelacaleSan
+Juan2874,serealizarâestanocheunacto
+pûblicoenelqueusarândelapalabr.'
+losdoctoresCarlosSânchezVlamontey NicolasRepeto.
+UNIONCIVICARADICAL
+Reuniondelamesadiretivadelcomité
+nacional
+Bereuniôayerlamesadiretivadelco¬
+miténacionaldelaUniônCivicaRadical,
+ensulocaldelacaleVictoria.Setratôel
+asuntoreferentealaacusaciônfiscalpre-
+sentadaenalgunospuntosdelInteriorcon¬
+traciudadanosquenovotaronenlaselec-
+cionesdel8denoviembrey,enatenciôna
+lanoconcurenciadelpartidoadlchosco-
+mlcios,seresolviôencomendaraldoctor
+MarioRéboraelestudiodelacuestiôn.Se
+considérétambiénlareglamentaciônpo¬
+licialsobreiderechodereuniôn,resol-
+viéndoseprotestarporeledltocorespon¬
+dante.
+LA
+TASADEALUMBRADO,BARIDO
+YLIMPIEZAPARABOCAYBARACAS
+La
+AsociaciônPropletoriosdeBienes
+RaicesprésentéunpetitorioalInten¬
+denteMunicipal,enelquelesolicita
+observelaordenanzageneralde1m-
+puestossancionadaparaelcoriente
+afio,enloquerespectalaumento
+delatasadealumbrado,baridoy lmpieza,paralosbariosdeBocay Baracas.
+Ademâsdeotrasargumentations»,
+sehacenotarenelmemorialquelo»
+referldosbarios,alosefectosdela
+perceptiondelgravamendereferenda,
+hansidolncluidosenelradioA,lo
+queaumentaenun30porclentola
+tasaquesepagabaen1929,1930y193t.
+apesardeprestarseenelosservicio*
+municipalesdéficientesyhslaraeex»
+puestosalosefectosdelasereclda*
+delriodelaPlataydelasgrande* Uuvlas,sinquehastalafechaseh’v-
+yahechonadaperareroediaroporJf> inenosatenuarloslngentespcrjuldt»
+quelosinternesosuscuk
+(
+```

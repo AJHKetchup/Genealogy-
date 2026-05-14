@@ -1,0 +1,386 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0070-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 70
+page_end: 70
+part: 1
+---
+
+# Page 70
+
+## Page Metadata
+
+- Source page: 70
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0070.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1632
+CAMARA Dll DIPUTADOS
+Septiembre 21
+Sr.
+Molina.
+—
+Entonces
+jde
+qué
+se
+esta
+defendiendo,
+senor diputado.
+Sr.
+De Tomaso.
+— Me
+estoy defendiendo,
+senor présidente, de los argumentes que acaba
+de hacer el senor diputado.
+Sr. Molina.
+— Ya
+ve
+entonces
+como
+tenia
+razon.
+(Risas).
+Sr. De Tomaso.
+— El
+senor diputado
+aca¬
+ba de liablar de asuntos que tienen un valor
+muy distinto,
+y
+en
+los
+dias
+que faltan,
+la
+câinara, siguiendo un buen método de trabajo,
+si quiere arribar
+a algün resultado, tiene for-
+zosamente que seleccionar los asuntos
+que ha
+de considerar.
+Yo
+quiero recordar
+que la indicaeiôn
+que
+he formulado
+no
+es personal mia,
+no
+la
+lie
+eoncebido
+yo.
+Se trata de
+una comisiôn
+que
+ha
+resuelto solicitar
+a
+la
+câmara preferencia
+para
+un asunto
+como el nuevo côdigo penal,
+por
+razones facilxnente
+comprensibles. El
+cô¬
+digo penal
+que esta câmara votô
+en
+su hora
+por casi unanimidad,
+a libro cerrado, hacien-
+do
+confianza
+a
+la labor
+de
+la
+comisiôn
+que
+habia
+firmado
+su
+despaclio
+por
+unanimidad
+salvo
+un
+pequeno
+detalle,
+estuvo
+detenido
+mueho tiempo en el honorable senado. Por fin,
+ha salido haec pocos dias. La câmara ha
+re¬
+suelto
+nombrar
+una
+comisiôn
+especial
+en
+la
+que
+estân representados,
+como
+lie
+dicho,
+to-
+dos los sectores de ella. La comisiôn lia traba-
+jado
+con toda intensidad y ha logrado feliz-
+mente hacer
+un despacho unânime
+para
+que
+este asunto pueda volver al senado
+antes del
+30 del
+corriente
+y
+aca'so
+convertirse
+en ley,
+ya sea porque el honorable senado insista
+en
+su sanciôn y vuelva
+a la câmara y nosotros
+insistamos
+en la nuestra.
+o porque
+el senado
+aeepte
+nuestra sanciôn.
+Para logra.rlo
+es
+que
+la comisiôn propone
+que este asunto
+se trate
+en
+forma râpida
+y breve,
+haciendo
+también
+confianza
+a la labor
+de
+esta comisiôn,
+euyo
+despacho
+esta
+subscrito
+por todos sus miem-
+bros.
+Me alegra ver en este momento présente en su
+banca el
+senor diputado Parry,
+que habia re-
+cibido el eneargo oficial para hacer esta mo-
+eiôn en nombre de la comisiôn y que confirma-
+râ mis palabrsps con otras mas eficaces
+para
+much os seiïores diputados, desde el punto
+de
+vista parlamentario, porque
+es miembro de un
+sector importante de esta câmara y
+es cl pré¬
+sidente de la comisiôn especial.
+Propongo que en la sesiôn de manana, y si
+no la hubiera
+en la primera que celebrate la
+câmara,
+antes
+de tratar cualquier
+asunto,
+se
+considéré de inmediato
+el despacho de la
+co¬
+llision de côdigo penal.
+Sr. Araoz
+(M. A.)
+— Pido la palabra.
+Yo propondria al senor diputado de Toma¬
+so quisiera aceptar una modificaciôn
+que
+me
+permito
+présentai-
+en atenciôn
+a los
+motivos
+que la fundamental^
+Me parece que el despacho sobre côdigo pe¬
+nal
+es quizâs el asunto mâs importante. Como
+la câmara
+se encuentra bien asesorada
+con el
+despacho
+que
+se ha
+presentado,
+propondria
+que
+se tratara inmediatamente, antes del pre-
+supuesto.
+Creo
+que
+no demoraremos
+mâs
+de
+diez
+minutos
+en
+su
+aprobaciôn
+y asî tendra
+tiempo el senado de sahcionarlo.
+Sr. Parry.
+— Pido la palabra.
+El senor diputado por Tucumân en las pocas
+palabras
+que ha pronuneiado ha interpretado
+sintéticamente
+el pensamiento de la comisiôn
+especial
+de côdigo penal,
+porque
+en realidad
+los
+que componemos
+esa comisiôn
+creemos
+en
+forma unânime que este côdigo penal debe ser
+tratado
+a libro cerrado y de inmediato,
+como
+se lo tratô por primera vez aqui y como ha sido
+saneionado en el senado.
+Es imposible lanzar
+a la discusiôn detallada
+un asunto tan importante y complicado
+como
+el côdigo penal,
+en
+que hay cuestiones
+de
+or-
+den filosôfico
+como la pena de muerte, eonsti-
+tucionales como. la rela.tiva a la seguridad
+so¬
+cial. cuestiones complétas, técnieas, niinnciosas
+y de detalle.
+Por
+estas razones presentamos esta pro.posi-
+ciôn : que el côdigo penal se trate de inmedia¬
+to, a libro cerrado,
+en una sola votaeiôn, acep-
+tando las
+numerosas modificaciones introduci-
+das por el senado,
+que mejoran el proyecto y
+que la comisiôn especial, aconseja
+se acopten,
+recliazando aquellas
+que por nuestra parte
+no
+hemos podido aceptar.
+Sr.
+Sânchez
+de
+Bustamante.
+— No
+couocc-
+mos el despacho.
+Sr. Parry.
+— Ilace varios dias que estâ re-
+partido.
+Sr. Ferrarotti.
+— Hace diez y seis anos
+que
+el pais estâ esperando el nuevo côdigo penal.
+Sr. Demarla.
+— Pido la palabra.
+Entiendo que estâ ante todo
+en discusiôn la
+mociôn formulada por el senor diputado por
+Corrientes. Hemos incurrido
+en el permanente
+sistema
+de intercalai'
+otras mociones y hacer
+discusiôn alrededor de ellas, que no son las for-
+muladas para lioy.
+Yoy a votar la indicaciôn del senor diputado
+por Corrientes y la apoyo decididamente. No
+desconozeo la urgencia y la importancia de los
+demâs asuntos a que se se ban referido los seno-
+res diputados. Tanto el senor diputado Bas co¬
+mo los seiïores diputados de Tomaso y Parry.
+Pero quiero llamar la atenciôn de la câmara
+Sobre que los despachos de la comisiôn de pe-
+ticiones acordando pensiones insignifiantes
+a
+los deudos de los buenos servidores
+del
+esta-
+do
+no ban sido considerados por la câmara el
+ano pasado, faltando asî
+a
+un déber
+eson nal,
+porque
+es tan deber esencial ocuparse de las
+viudas de los buenos servidores del estado, co-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 70.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

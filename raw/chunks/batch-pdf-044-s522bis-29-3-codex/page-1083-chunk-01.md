@@ -1,0 +1,317 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1083-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1083
+page_end: 1083
+part: 1
+---
+
+# Page 1083
+
+## Page Metadata
+
+- Source page: 1083
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1083.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1704
+CAMARA
+DE SENADORES
+DE
+LA
+N A CION-
+Moviembre 29
+impositivas. Y la razôn
+es muy sencilla: se es¬
+tât) tramitando gestion es diplomatieas, se estai)
+gëstionando convencioncs comcrciales, va
+que
+no podemos deeir tratados, con paîses que tic-
+nen in te rescs eomunes con nosotros.
+Y
+es esta
+la razôn de por que el Poder Ejecutivo, el mi-
+nistro île hacienda, que- no maneja las relacio-
+ncs comcrciales porque pertcnccen al Ministerio
+de Agriculture, y que no maneja las relaciones
+exteriores
+porque pertcnccen al ministerio
+res¬
+pective, tiene que dar un impasse a la aplicaciôr.
+de este articulo de la ley, mientràs tanto se ter-
+minen
+las
+conversaeiônes
+o
+convencionës qui;
+reaüzan los ministres de relaciones exteriores y
+de agriculture con los paises a los cuales se lia
+referido
+el seûor senador.
+Por esto, el Poder Ejecutivo dice al Senadc
+■que apenas terminen estas gestiones, en seguida
+se reaücen las convencioncs y se tenga conoci-
+miento del éxito
+o del fracaso de las mismas,
+vendra
+al Senado de la Naeiôn
+a traer el
+re-
+sultado.
+Eso es todo.
+■
+Si el seûor ministre de hacienda negara los
+informes solicitados, yo lo acompaûarîa al seûor
+senador, porque durante toda mi acciôn parla-
+mentaria he sostenido el privilegio del Congre-
+so para hacer concurrir a su seno a los minis¬
+tres del Poder Ejecutivo a objeto de obtener los
+informes que los représentantes del pueblo ar¬
+gentine le requieran.
+Ahora...
+Sr
+Matienzo.
+—•
+Ahora
+lia
+dado
+ma quin a
+atrâs.
+( Risas).
+Sr. Ceballos.
+—
+... el seûor senador por Tu-
+cumân pide
+que
+pase este àsunto
+a la Comi-
+jsiôn de Negocios Constitueionales.
+En lo
+que
+respecta
+a la primera parte, ya el Senado ha
+yotado con inotivo de la nota mensaje del mi¬
+nistre de relaciones exteriores,
+que
+es exacta-
+tnente la misma cuestiôn.
+En lo que respecta
+a la segunda parte, no tiene razôn de ser, por-
+que el ministro de hacienda no se niega a man-
+<dar los informes pedidos; lo
+que el ministro
+Slice, es que apenas tenga los datos que el Hono-
+rale Senado solicita, y
+que ha de saber apre-
+çiarlos en su oportunidad, concurrira a traerlos
+b los mandarâ.
+Esa
+es, simplemente, la cuestiôn y por
+eso
+flivido là moeiôn del seûor senador por Tueu-
+mân: la primera parte, la ha votado ya el Se¬
+nado, y la segunda parte, no concuerda con los
+fleseos del seûor senador, que es tencr los infor-
+Smes lo mas pronto posible.
+Nada mas.
+Sr, Matienzo,
+— Pido la palabra.
+En el Parlamento inglés hay dos closes de
+représentantes
+del
+gobiçrnq.
+Como
+allî
+los
+ministres
+son miembros del
+Parlamento
+y
+no
+pueden actuar sino
+en
+sus propias Camaras,
+cuando un ministro
+es lord, no aetûa mas que
+eu la Câmara de los Lores, y eutonces se nom¬
+bre
+a
+un diputaclo subseeretario parlameirta-
+rio para que lo représente en la Câmara de los
+Comunes. Cuando,
+como
+en el
+caso actual, eL
+primer ministro
+es miembro de la Câmara de
+los
+Comunes,
+no
+pnede
+entrer
+a
+la Câmara
+de
+los
+Lores
+porque
+no
+es miembro de cita,
+entonces
+se nombre un lord subseeretario pnr-
+lamentario. Eu este
+easo, seûor présidente, los
+ministres no concurrent y el que haee de «sub-
+secretario parlamentario»
+en este momento
+es
+el seûor senador por Côrdoba. (Risas).
+Yo lie recordado, seûor présidente, un anté¬
+cédente
+del
+Senado argentine
+y
+no reciente,
+sino
+ciel
+ano
+1873.
+No
+sé
+si
+el seûor senador
+habria nacido...
+En
+csa fecha
+se planteô la misma cuestiôn
+que
+se plantéa
+ahora.
+El
+Senado
+exige
+que
+venga cl ministro de hacienda a expliear ver-
+balmente lo que quicra ; eso que dice el mensaje
+que le ha hecho firmar al présidente, cuando
+no tenia necesidad
+de haberlo hecho, ha podi-
+do el seûor ministro venir
+a deeirlo pcrsonal-
+mente.
+El seûor senador por Côrdoba probablemcn-
+tc ignora la moeiôn que hice y la forma como
+la fundé ,Yo me opuse, precisaniente,
+a la
+ges¬
+tion diploma tie a, y sostuve que el articulo 76
+de la ley
+de aduana tiene
+por objeto evitar
+las gestiones diplomâticas, y lo voy a leer.
+Dice cl articulo 76: «Los derechos de impor-
+taciôn fijaclos en esta ley, constituyen la tari¬
+fa minima
+para
+las mercaderias
+o productos
+de toda naeiôn que aplique igual tarifa y que
+no aumente los gravâmenes a las exportaciones
+de
+la liepublica
+Argentina, ni lo
+establezca
+para
+los
+que
+estén
+exentos
+de
+derechos,
+ni
+rebaje
+exeepeionalmcnte
+el
+arancel actual
+a
+articulos
+similares
+de
+otra
+procedencia,
+ni
+tampoco dificulte la importaeiôn
+de frutos
+o
+productos argentinos con medidas restrictivas.
+«En cnalquier caso contrario el Poder Eje¬
+cutivo queda facultado para aplicar a las mer¬
+caderias
+y productos precedentes de
+esa
+na-
+ciôn la tarifa maxima, igual
+a un recargo ciel
+50
+por ciento sobre los' derechos estableeidos
+en la
+misma,
+y del
+15
+por ciento
+sobre
+los
+articulos exeeptuados de dereeho de introduc-
+ciôn.»
+Este sistema. de tarifas mâximas
+o minimas,
+évita las cuestiones diplomâticas que réquieren
+un trâmite lento y ocasiônan muchos fracasos,
+Y
+ya
+que
+se trata de este asunto, yo deseo,
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1083.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

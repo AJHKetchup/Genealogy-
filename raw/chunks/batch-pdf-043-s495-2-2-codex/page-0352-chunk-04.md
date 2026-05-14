@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f7dfb3ea8c28-P0352-04
+source_converted: raw/converted/batch-pdf-043-s495-2-2.codex.md
+converted_sha256: f7dfb3ea8c2860cb1cf00eb4e10465262c20621cff41aaa7766f8503ca2ff476
+source: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/source/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/manifest.json
+page_start: 352
+page_end: 352
+part: 4
+---
+
+(distribuidores de te), «Huntley ) Palmers Ltd.» (fabrtcantes
+ae galle-
+tas), «Delco Light Co.» (plantaciones eléctricas), «Avala
+« Co.» (fa-
+bricantes de champagne; C. G, Hihbert y Co.
+Ltd.»
+(fabj icantes de
+cervega La r), «Lever
+Brothers Ltd.»
+(fabricantes de ja^ôn y perfu¬
+meria), «John Haig y Co.»
+(fabricantes de wiskey),
+«Pmamd
+Bre¬
+wing y Refrigerating Co.» (fabricantes de cerveva),
+«Nicaragua Deve¬
+lopment Sindicate», «Barrell y Co. Ltd.»
+(fabricantes
+de pinturas y
+aceites), «Pan American Life Instance
+Co.» (compaflia de
+seguros
+siendo
+nosotros' agentes cobradores solamente.)
+f
+CESARDELGADILLO
+&COMP. LDA.
+AGENTES
+DE
+ADUANA
+CORINTO,
+NICARAGUA
+Teléfono Nç 15
+Se encargan del
+despacho
+de merca■
+rias
+y
+embarque de productos.
+Co
+'ecciôny prontitud.
+H Ti N
+DISPÜ^ST©
+REftLIZftR
+Mâquinas
+«New Home»
+a
+Q
+27.5(
+de Goser
+5, en Managua
+y
+Granada
+HRSTR
+EL
+30
+DE
+JULIO
+JULIO
+.
+s^Tos di
+Igiesi
+,a1
+«e W
+Domingo
+SANTA MA il TA
+Martik
+Teléfono : 27.
+```

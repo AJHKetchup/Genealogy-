@@ -1,0 +1,271 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0147-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 147
+page_end: 147
+part: 1
+---
+
+# Page 147
+
+## Page Metadata
+
+- Source page: 147
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0147.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+de 1921
+CAMARA DE DIPÜTADOS
+1755
+a
+esta bora ni
+a ninguna, bacerles entrai- en el
+presupuesto.
+En la sastrerîa militai-
+se eonfeecionan trajes
+para les senores militares, que los pagan con su
+peculio; no los paga el gobierno. Los militares
+reciben sueldos, viâtieos y otras clases de rému¬
+néra ciones, y para cuniplir con ordenanzas cuya
+dérogation
+o modification nosôtros hemos pedi-
+do
+en
+su propio benefieio tantas veces y en be-
+neficio del erario, mandan hacer sus costosos tra¬
+jes, que en esa sastrerîa parece que les resultaran
+mas baratos.
+Acaba de decir un mièmbro de la comisiôn de
+presupuesto que las remuneraeiones de esos obre-
+ros
+se pagan eon los excedentes — creo que lia
+sido la palabra — de la propia sastrerîa.
+Poner
+ahora
+ese personal
+en el presupuesto,
+significarîa pagar esos sueldos de rentas genera¬
+les ; y si se nie hieiera el argumento de que el ex-
+cedente de la sastrerîa
+— que no es una oficina
+pûblica — va a entrai- a rentas generales, yo pre-
+guntarîa a la comisiôn si ha caleulado eso en el
+câleulo de recursos, y si es una forma séria esto
+de créai- toda una organizacion, ineluyéndola en
+el presupuesto por medio de una partida.
+Ese es un argumento que la Câmara debe con-
+siderar, teniendo présente que si hacemos obje-
+ciôn a esta ineorporaciôn es por una euestiôn de
+prineipios de seriedad parlamentaria y de buena
+organizacion del presupuesto.
+Es claro que el senor coronel diputado por la
+provincia de Buenos Aires, que es présidente del
+bloque mâs nuineroso, habrâ pensado que
+una
+proposition que él baga es una proposiciôn que
+va
+a votarse
+a libro cerrado, que cuenta de an-
+temano
+eon
+la aquiescensia
+de la câmara,
+que
+siendo él présidente del bloque de la mayorîa,
+puede decir : yo mando ! No es asî : se puede ser
+présidente del bloque de la mayorîa, pero hay co¬
+sas que son de sentido comûn.y contra ellas tie-
+ne que estrellarse cl buen deseo de cualquiera,
+por mâs allegado que sea, por mâs condeseendien-
+te que quiera ser con el senor diputado por la
+provincia de Buenos Aires. La mayorîa podrâ
+votai" si quiere la proposiciôn, pero serîa una ab-
+soluta falta de seriedad, porque la sastrerîa mi-
+litar
+no
+es una oficina pûblica.
+Esos hombres,
+por meritorios que seau, no tienen por que ser in-
+eorporados al presupuesto, y nada tiene que ha¬
+cer aquî la justicia, la clase trabajadora y toda
+esa
+sérié
+de argumentos sentimentales
+que
+he¬
+mos oîdo!
+Por otra parte, serîa extraordinario que la eâ-
+mara aumentara empleos y ereara asî, de golpe,
+todo un nuevo organismo publico en el presupues¬
+to nacional, en contra de la opinion terminante-
+mente manifestada por el senor miembro infor¬
+mante de la comisiôn de presupuesto. Eso sî se¬
+rîa extraordinario.
+Me parece que no liacen falta mâs argumencos
+nara oue los senores diputados que auieran votai*
+en eoneiencia sepan euâl es la conducta que tie¬
+nen que adoptai- frente a la proposiciôn que ha-
+ce el senor diputado por la provincia de Buenos
+Aires.
+Nada mâs.
+Sr. Pereyra Rozas. — Pido la palabra.
+Yo
+ereo
+que la câmara no necesita mâs ex-i
+plicaciones. No. liabla en este momento el mo¬
+deste diputado que ocupa el honroso cargo de:
+présidente del bloque Radical, que no han de
+poder intrigarlo
+con sus colegas respecto dé
+que mande
+o de que ordene a sus colegas. A
+estos caballeros
+que me honran cou su desig-
+naciôn no
+se les puede colocar ni en la lejana,
+maliciosa
+y puéril suposiciôn de
+que puedan
+ser manflados. Y
+aeaso tampoeo hay dereeho
+a suponer que yo pueda tener pretension ridi-
+cula y absurda.
+Esta
+dependeneia
+del ministerio
+de
+guère,
+segun
+decreto de
+su création,
+es una oficina
+manejada, controlada y gobernada por el mi¬
+nisterio. La sastrerîa militai* es una institueiôn
+formada
+cou el objeto de
+que los senores ofi-,
+eiales, que no tienen fortuna y que est&n des-
+tinados
+a
+ser pobres
+perpetuamente,
+porque
+estân alejados de todas'las actividades efci don-
+de
+no
+es posible enriqueeer, puedan obtener
+sus uniformes pagândolos a plazos.
+En esta sastrerîa, dépende del ministerio de
+guerre, tiene
+por jefe
+a un teniente coronel
+y por segnndo jefe a un contador con asimila-
+ciôn de mayor. El decreto de su ereaciôn dice
+asî:
+“Queda
+seperada
+de
+la
+intendencia
+de
+guerra la sastrerîa militai- para otlclales, que
+funciona
+dependiente de
+la citada repartieiôn
+y pasa
+a depender directamente del senor mi¬
+nistre ”.
+Esta repartieiôn estâ instalada en un
+edificio dependiente del ministerio de
+guerra,
+no paga impuestos, no paga luz, no paga nada
+mâs que los empleados, con el producto de la
+misma sastrerîa. Tiene
+pues, sus recursos. Es¬
+tân sugetos los empleados a las reglamentacio-
+nes, tienen sus horarios fijados por el ministre,
+lo que la bace
+a ésta, una repartieiôn del ministe¬
+rio
+de
+la
+guerra, y la razôn
+por la
+cual
+se
+pagan
+a estos empleados
+con el producto de
+la misma, no puede modificar
+su situaciôn ni
+su dereeho.
+Pero
+como
+ese mismo producto ha de ir à
+pagar estas mismas asignaciones,
+en nada
+se
+modifiea el concepto al
+asegurar la situation
+future de esos hombres y de sus deudos. Este
+es un caso distinto al de los sastres, al de cual-
+quier sastre civil, porque son sastres militares,
+dependen del ministerio
+de vi
+guerra y solo
+trabajan para militares.
+Sr. Ortîz.
+— Desearîa que me suministrara
+el senor diputado el dato de si estos descuentos
+alcanzan a pagar a este personal.
+Sr. Pereyra Rozas.
+— Si senor; hay un su-
+peravit todos los aiios,
+y
+en los ultimes dos
+anos de 29.000
+nesos.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 147.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

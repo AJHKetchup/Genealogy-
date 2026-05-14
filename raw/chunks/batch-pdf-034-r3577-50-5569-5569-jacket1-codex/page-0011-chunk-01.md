@@ -1,0 +1,89 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bca7a13c5734-P0011-01
+source_converted: raw/converted/batch-pdf-034-r3577-50-5569-5569-jacket1.codex.md
+converted_sha256: bca7a13c573482a264dd68069aa1cee11d1a681b4618d661c4a89d2c99ae1706
+source: raw/codex-conversion-jobs/batch-pdf-034-r3577-50-5569-5569-jacket1/source/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/batch-pdf-034-r3577-50-5569-5569-jacket1/manifest.json
+page_start: 11
+page_end: 11
+part: 1
+---
+
+# Page 11
+
+## Page Metadata
+
+- Source page: 11
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0011.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+PROPOSITIONS ET OBSERVATIONS GÉNÉRALES.
+Belgique.
+Il y a lieu de remarquer que la XIIIe Conférence de la Croix-Rouge tenue à la Have, en octobre 1928, a estimé
+que certains points de son ordre du jour dépassaient le cadre de sa compétence comme étant de nature à modifier
+des textes de la Convention de Genève et qu'elle a émis le vœu de voir ces questions soumises, au préalable, à l'examen
+de la Conférence diplomatique prévue pour 1929, en vue de la révision de cette Convention. Il s'agit spécialement
+du mode de protection de l'insigne de neutralité en tout ce qui touche le personnel et le matériel et plus particulière¬
+ment la signalisation nocturne des convois d'évacuation par voie terrestre, fluviale, maritime ou aérienne. Questions
+excessivement importantes tant
+pour les états-majors
+que pour les services de santé militaires, car elles doivent
+être envisagées au point de vue des intérêts militaires généraux d'une part et des intérêts particuliers des blessés et des
+malades d'autre part, ces derniers pouvant être, en certains cas, en opposition avec les précédents.
+France.
+Le projet présenté ne constitue bien qu'une simple révision de la Convention de Genève du 6 juillet 1906. L'ossature
+du document n'a pas changé, les articles se suivent dans le même ordre et font l'objet des mêmes chapitres.
+On aurait pu croire qu'après une guerre sans précédent où, pour la première fois, la Convention de Genève avait
+joué dans toute son ampleur, le moment était venu de reprendre, à sa base même, la refonte complète des textes en
+vigueur.
+En réalité, tout se borne à des modifications de détails qui ne semblent pas toutes heureuses et qui n'apportent
+que rarement une solution définitive aux problèmes posés par les conditions de la guerre moderne.
+Royaume des Serbes, Croates et Slovènes.
+Il serait utile de compléter le texte de la Convention par les dispositions suivantes, à savoir :
+i° par un nouveau chapitre sur la neutralisation des aéroplanes au service sanitaire ;
+2° par un nouveau chapitre sur la protection générale de la population civile, de même que par un article spécial
+sur la protection de la population civile contre la guerre chimique et bactériologique ;
+30 par des mesures à prendre en vue de diminuer le nombre des « disparus » ;
+40 par une délimitation de la zone autour des institutions protégées par la Convention de Genève, zone dans laquelle
+il sera défendu de placer les objets militaires (dépôts de munitions, de ravitaillement, etc.).
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 11.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

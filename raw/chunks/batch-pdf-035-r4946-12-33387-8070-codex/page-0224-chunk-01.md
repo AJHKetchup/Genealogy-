@@ -1,0 +1,180 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b905ab24655a-P0224-01
+source_converted: raw/converted/batch-pdf-035-r4946-12-33387-8070.codex.md
+converted_sha256: b905ab24655a1e8bf0a6f593c10bcdf5d06f88911a93aef10bc44cd781c6a48f
+source: raw/codex-conversion-jobs/batch-pdf-035-r4946-12-33387-8070/source/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/batch-pdf-035-r4946-12-33387-8070/manifest.json
+page_start: 224
+page_end: 224
+part: 1
+---
+
+# Page 224
+
+## Page Metadata
+
+- Source page: 224
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0224.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+ARTROPODOS HEMATOFAGOS DE LA FAUNA COLOMBIANA
+LUIS PATINO-CAMARGO
+Director del Instituto "Federico Lieras" de Investigation Médica - Bogota
+Introducciôn
+Por obligante peticiôn de colegas y estudiantes
+de Medicina interesados
+en el conocimiento de la
+fauna hematôfaga colombiana, voy a rehacer y a
+completar algunas notas (1) (*) publicadas por mi
+sobre este apasionante tenia.
+Descargo mi conciencia, declarando que no soy
+entomôlogo.
+Forzado
+por los trabajos
+de
+sanea-
+miento
+de los valles de Cûcuta, por allâ en 1928,
+tuve que ponerme a clasificar mosquitos. Luégo, por
+espiritu de curiosidad cientifica he venido recogien-
+do hematôfagos relacionados con trabajos de Fie-
+bre Amarilla, de Rickettsiosis, de Bartonellosis y
+de otras dolencias régionales. Convencido de estar
+practicando obra ûtil, he compilado la labor dispersa
+en revistas y libros raros de los entomôlogos que
+han trabajado en Colombia o con material colom-
+biano. En 1936 y 1937 publiqué un catôlogo general
+de especies hematôfagas, que alcanzô a 152 especies.
+Con posteriores publicaciones, especialmente con los
+informes de Boshell (2-3), el nûmero de hematôfagos
+llega
+a 183 especies. Pero este catâlogo apenas es
+una contribuciôn modestisima. Y como el asunto es
+de fundamental importancia para estudios médicos
+en Colombia, hago votos por que los notables ento¬
+môlogos
+con que afortunadamente cuenta el pais,
+publiquen en libro perdurable la fauna hematôfaga
+de Colombia, de riqueza desmesurada.
+Importancia del asunto.
+Desde los mâs remotos tiempos el hombre ha visto
+la importancia de las plagas. "Et venit musca gra-
+vissima in domos Pharaonis et servorum ejus, et in
+omnem Aegypti: corruptaque
+est terra ab hujus-
+cemodi muscis. Enjambres de moscas molestisimas
+y damnas vinieron a las casas de Faraôn y de sus
+criados, y a toda la tierra de Egipto, y quedô el pais
+inficlonado de taies moscas". Exodo. Cap. 8-24. (4).
+Con este veraiculo de la Blblia comienza su libro el
+sabio entomôlogo Ilerins. (5).
+Colombia, paralso
+de los entomôlogos.
+A pesar de estar Colombia atravesada por el ecua-
+dor térmico (12° 80' 40" norte. 4° 18' 30" 5 sur. 60"
+50' 54" 2 oiiste, y 79°, 01" 23.1" oeste (meridiano de
+Greenwich), su territorio no es en su totalidad câ-
+lido, sino que su clima se caracteriza por una va-
+riedad absolute determinada por las montaflas, la
+(•) VCunaci lim cltan ni final del artlculo, en "Blbllogrnfla".
+situaciôn de los mares que la limitan, los vientos y
+las lluvias. Los Andes al entrar en Colombia for-
+man un nido de volcanes, y luégo se trifurcan para
+correr de
+sur
+a norte, subdividiéndose y dando al
+suelo colombiano una fisonomia particular de altos
+picachos nevados, extensas mesetas y altiplanos de
+suave clima, hondos valles câlidos o dilatadas pla-
+nicies herbosas
+o cubiertas de selvas.
+Las cordilleras dan origen a la complicada red
+de los rios que van a desaguar al Pacifico, al mar
+Caribe o al Atlântico por el Amazonas. Las corrien-
+tes de los vientos Alisios y contra-Alisios y las bri¬
+sas marinas sobre el territorio de intrincadas mon¬
+taflas, determinan que las lluvias sean variadas y
+abundantes, por término medio superiores a 2 mé¬
+tros:
+en el centro de la Repflblica, sensiblemente
+la
+Sabana de Bogotâ, cae anualmente 1 metro; 2
+en la Costa Atlântica, 3 en las faldas orientales de
+la Cordillera Oriental; 3^ métros al occidente en
+las hoyas del Atrato; 50 centlmetros en la Guajira
+que es la region mâs seca (6). En las comarcas pla¬
+nas de las grandes selvas del sur y del oeste llueve
+casi todo el afîo. En las cordilleras, irregularmente
+2 veces al afio. En las llanuras selvosas del oriente,
+medio aflo, y medio afio es del llamado verano.
+El relieve del territorio colombiano se extiende
+por lo tanto entre alturas de 5.700 métros y el nivel
+del mar, con temperatura 0° a 30° centigrados. Se
+ha convenido en denominar câlidas las tierras com-
+prendidas entre 0 y mil métros sobre el nivel del
+mar, con temperaturas de 24° a 30° centigrados y
+presiôn barométrica alrededor de 76 centimetros.
+Unos 900.000 kilômetros de territorio son de clima
+câlido. Climas templados entre 1.000 y 2.000 métros,
+con 18° y 24° centigrados, de temperatura; presiôn
+alrededor de 57. Unos 130.000 kilômetros cuadrados
+son de clima templado. Y clima frlo de 2.000 métros
+en adelante, con menos de 18" centigrados de tem¬
+peratura y menos de 57 de presiôn. Aproxiinnda-
+inente
+130.000 kilômetros cuadrados de territorio
+colombiano son frlos. Estas circunstuncias geolôgi-
+cas, geogrâficas y climatéricas
+determinan
+como
+consecuencia
+una multiplicaciôn cuasi infinita de
+los reinos de la naturaleza, y hacen que Colombia
+sea un paralso para los entomôlogos.
+Los investigadores.
+Ilan trabajado personalmento
+o sobre material
+remitido, on orden alfabético los siguientes investi-
+gadorcs:
+— 337 —
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 224.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

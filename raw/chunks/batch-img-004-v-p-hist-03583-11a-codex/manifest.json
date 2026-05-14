@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/batch-img-004-v-p-hist-03583-11a.codex.md",
+  "converted_sha256": "04603c217325ac65cbba24a6662fe963f9beb6e988172c4927da891462912f4c",
+  "source": "raw/codex-conversion-jobs/batch-img-004-v-p-hist-03583-11a/source/V-P-HIST-03583-11A.JPG",
+  "source_sha256": "66eac2e7cb42ab0eba18a8df6d4eaeab37aef2b1d0e042a08a47f99c601ac6d6",
+  "source_manifest": "raw/codex-conversion-jobs/batch-img-004-v-p-hist-03583-11a/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-04603c217325-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/batch-img-004-v-p-hist-03583-11a-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 3335,
+      "sha256": "77c7c58faf398b82bd8cb219576b1dedf1f87a7dbdbfea11dfd53f03c8282fb8"
+    }
+  ]
+}

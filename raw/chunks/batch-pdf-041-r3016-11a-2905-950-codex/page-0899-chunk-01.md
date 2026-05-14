@@ -1,0 +1,179 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-09e4cb999ef7-P0899-01
+source_converted: raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+converted_sha256: 09e4cb999ef7849184392fb67703554132ffaa522227f2b4a9ff028efd3cb5bf
+source: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/source/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+page_start: 899
+page_end: 899
+part: 1
+---
+
+# Page 899
+
+## Page Metadata
+
+- Source page: 899
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0899.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Le
+Bureau
+vous
+propose
+de
+renvoyer
+cette question
+à
+la
+Commission spéciale des
+délégués
+elle-même, qui pourra, à
+ce que nous espérons, présenter son rapport assez vite,
+afin que la Conférence puisse en aborder la discussion jeudi ou vendredi. [Adopté).
+Je rappelle aux différentes Commissions qu'il leur appartient de nommer leur Président
+et
+un Rapporteur.
+Nous
+aurons cette après-midi la séance d'ouverture de la Conférence et immédiatement
+après, séance de la Commission spéciale des délégués.
+M.
+Flugi
+d'Aspermont (secrétaire général adjoint). — L'ouverture de la séance de
+cette
+après-midi
+est
+fixée
+à
+2
+heures
+précises
+dans la Salle des Chevaliers. Je vous
+prie de vous rendre dans cette salle
+quelques
+minutes
+avant
+2
+heures, afin que S. A. R.
+le Prince
+des Pays-Bas puisse ouvrir la séance à l'heure prévue.
+Comme
+vient
+de
+l'indiquer
+M.
+le
+vice-président,
+nous aurons immédiatement après
+cette
+séance
+d'ouverture,
+la
+suite
+de
+la séance de la Commission spéciale des
+délégués,
+dans
+cette
+salle-ci,
+afin de discuter la question figurant sous le numéro XVIII de l'ordre
+du jour: „Organisation
+de la Croix-Rouge internationale".
+M. Ilammarskjdld (Suède). — Pour le cas
+où l'assemblée l'estimerait nécessaire que
+nous
+nous
+réunions
+après
+la séance d'ouverture de la XIIIème Conférence, il serait utile
+que
+le texte du projet d'accord concernant l'organisation
+de
+la Croix-Rouge internationale,
+adopté hier par le Conseil des
+■Gouverneurs
+de la Ligue,
+soit distribué
+encore
+ce matin,
+afin
+que
+les membres de
+la Commission
+des
+Délégués
+puissent
+étudier
+ce
+texte
+et le
+comparer à celui qui a été adressé à toutes les Sociétés nationales. Les délégués pourraient
+ainsi
+déterminer
+l'attitude
+qu'ils
+doivent
+adopter
+à l'égard
+des
+nouvelles modifications.
+Si cette distribution
+ne peut pas être faite maintenant, il nous serait très difficile de nous
+réunir immédiatement après la séance d'ouverture de la Conférence.
+Son
+Exc.
+le général Udell
+(vice-président).
+— Nous
+allons au-devant de vos vœux
+puisque ce texte est distribué à l'instant même.
+M. Hammarskjold (Suède).
+- Je vous remercie, Monsieur le président.
+Son Exc. le général Roell (vice-président). —
+Comme il n'est pas encore 11 heures,
+chaque délégué pourra étudier le document qui vient de lui être distribué avant deux heures.
+(La séance est levée à
+10 heures 50).
+10
+—
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 899.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

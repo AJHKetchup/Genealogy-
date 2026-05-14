@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0715-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 715
+page_end: 715
+part: 1
+---
+
+# Page 715
+
+## Page Metadata
+
+- Source page: 715
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0715.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+II
+de faire tout ce qu’elle pourra pour permettre aux journalistes, membres ou non de l’Association, de voir et d’entendre
+par eux-mêmes ce qui se passe à chaque réunion de la Société dont ils veulent donner un compte rendu.
+Chacun préfère les nouvelles qui émanent d’un témoin oculaire, chacun demande que son journal d’aujourd’hui
+(pour 2 cents) lui dise la vérité sur tout ce qui se passe aujourd’hui, en quelque lieu que ce soit, Pourtant, la presse a
+toujours eu à lutter, à un moment ou à l’autre, contre chacun des membres de sa vaste circonscription—fonctionnaires,
+hommes d’affaires, financiers, etc. •— simplement pour obtenir le droit de voir par elle-même ce qui se passe réellement
+dans chaque domaine. La presse est fière de pouvoir dire que personne ne l’a jamais invitée à assister à un événe
+ent
+important — soit dans les airs au Pôle Nord, soit à pied au plus noir de l’Afrique, parmi les balles sifflantes ou les paroles
+stériles — sans qu’elle ait répondu « présent !». On a souvent laissé la presse dehors, mais elle n’a jamais refusé d’entrer.
+Puisque nous étudions maintenant le problème des fausses nouvelles au point de vue des relations internationales,
+nous ne saurions trop nettement rappeler au Conseil quelle a toujours été l’attitude de notre Association. Nous sommes
+heureux de reconnaître que la Société des Nations, en ce qui concerne la publicité, est maintenant arrivée, non seulement
+beaucoup plus loin que tout ce qui s’est fait dans le passé, mais encore bien au delà de toutes les réunions internationales
+qui ont eu lieu, en dehors d’elle, depuis sa fondation.
+Pourtant, même à la Société des Nations, il y a encore, à cet égard, matière à amélioration. Beaucoup trop
+de
+réunions ont encore lieu en secret. A plusieurs reprises, cette année, notre Association a dû protester, officiellement ou
+officieusement, contre cet état de choses. Nous sommes heureux de constater que l’un des résultats acquis a été que la
+Conférence du désarmement a innové en décidant que tous ses comités, sauf de petits comités de rédaction ou comités
+de juristes, siégeraient en public. Toutefois, nous estimons que ces exceptions elles-mêmes ne devraient pas être admises
+en principe. Nous ne voyons aucune raison pour que des juristes, qui sont accoutumés à parler en public, ne discutent
+pas en public un point de droit public. Quant aux comités de rédaction, nous avons souvent remarqué que des désaccords
+publics sur des questions de fond sont transférés dans leur atmosphère secrète pour être « réglés » par des formules ambi¬
+guës qui signifient tout pour leurs auteurs et rien pour nous-mêmes. Si le Comité traite des questions de fond, nous voulons
+pouvoir y assister. Si, par contre, il ne s’agit vraiment que de rédaction, nous ne trouvons, dans notre expérience, aucune
+raison pour que l’on cherche à nous tenir à l’écart. Nous voyons moins encore pourquoi le Bureau de l’Assemblée ou
+celui d’une conférence importante doit se réunir en secret, surtout s’il s’agit de discuter des questions très importantes
+et très controversées.
+Nous estimons que la seule saine politique à suivre pour la Société des Nations est d’admettre la presse à toutes
+ses réunions sans exception, de sorte que chaque journaliste soit en mesure de décider si telle ou telle séance est, ou
+non, de nature à intéresser son public. C’est là le principe sur lequel nous nous permettons d’insister auprès du Conseil,
+car il constitue un excellent moyen d’éviter que de fausses nouvelles
+soient répandues. Il est bien certain que la
+presse ne saurait être rendue responsable lorsqu'elle donne des comptes rendus inexacts ’de séances auxquelles on lui
+a interdit d’assister, même si, en pareil cas, elle s’efforce de son mieux de parvenir à la vérité.
+Nous voudrions insister tout particulièrement sur les points suivants:
+i.Les réunions du Comité financier, du Comité économique et de leurs organismes annexes devraient être ouvertes
+à la presse. Tout comme la guerre a discrédité la diplomatie secrète, la crise a discrédité le secret que l’on persiste à garder
+sur les questions commerciales et financières. Tout le monde est d’accord pour estimer que, dans l’une au moins de ses
+racines, le mal provient du manque de confiance dont témoigne le public à l'égard des dirigeants commerciaux et financiers.
+Nous devons respectueusement faire observer qu’aucun journaliste désireux de garder la confiance de ses lecteurs n’a pu
+continuer à ajouter foi aux comptes rendus qui lui ont été fournis sur les réunions secrètes des économistes ou des financiers.
+Nous ne voyons pas pourquoi les questions de politique financière ou économique doivent être traitées en secret alors que
+le sujet, beaucoup plus délicat, des armements, qui constitue en fin de compte l’instrument de toute politique, peut être
+et est discuté en public.
+2.La Commission des mandats devrait se réunir en public. Ses procès-verbaux et ses rapports devraient être publiés
+le plus tôt possible. L’habitude actuelle, d’attendre, pour ses publications, la session suivante du Conseil, ne permet
+pas au public de les examiner en temps utile pour exercer
+une influence sur les mesures prises par ses organismes
+gouvernementaux.
+3. Tous les rapports au Conseil ou à l’Assemblée devraient être communiqués à la presse en même temps qu’ils sont
+envoyés aux Membres de ces organismes et non pas être retenus jusqu’à réception par lesdits Membres. La méthode
+actuelle aboutit souvent à des fuites; des parties de ces rapports se trouvent ainsi portées à la connaissance du public
+d’une façon ou sous une forme qui, à divers égards, sont regrettables. Il semble que le risque de voir la première impression
+que le public aura d’un tel rapport reposer sur des nouvelles inexactes est trop grave pour que l’on puisse traiter ces
+documents publics avec la courtoisie habituelle en matière de correspondance privée.
+4. La presse devrait recevoir immédiatement les comptes rendus in extenso, non seulement des sessions plénières de
+l’Assemblée et des conférences, mais aussi des réunions du Conseil et des organismes tels que le Comité spécial des Dix-Neuf
+créé par l’Assemblée, et la Commission générale de la Conférence du désarmement.
+Remèdes à apporter. — Par remèdes à apporter, nous entendons ceux qui tendent à supprimer les inconvénients des
+fausses nouvelles en fournissant un nouveau moyen de traiter les cas d’espèce qui se présentent. La principale méthode
+proposée par ceux qui ont étudié à ce point de vue le problème sous son aspect international comprend la création d’un
+tribunal d’honneur des journalistes et des systèmes comportant le droit de réponse aux fausses nouvelles. A première vue,
+ces propositions paraissent fort séduisantes. Toutefois, notre expérience nous a montré que leurs avantages se trouvent
+largement compensés par d’autres inconvénients que révèle une étude plus approfondie, et qui donnent matière à réflexion.
+A cet égard, nous pouvons rappeler qu’en 1929, le Comité de notre Association, dans une lettre adressée à la Fédéra¬
+tion internationale des journalistes, suggérait d’étudier la constitution d’un Conseil de l’Ordre des journalistes. Cette
+Fédération (à laquelle nous n’appartenons pas) a travaillé depuis, avec un zèle louable, sur cette idée, mais isolément,
+sans notre collaboration. L’année dernière, elle a créé à La Haye un tribunal d’honneur international pour journalistes,
+institution qui diffère sensiblement de celle que notre Comité avait en vue. Pendant ce temps, l'étude à laquelle nous
+avons nous-mêmes procédé sur ce problème fondamental nous a amenés à exprimer les opinions qui sont contenues dans
+le présent rapport.
+Nous en sommes arrivés à considérer comme très douteux qu’on doive essayer de trouver des remèdes dans le sens
+susindiqué, en tout cas, au point où nous en sommes quant aux progrès du journalisme et quant à l’évolution interna¬
+tionale. Nous sommes convaincus que l’on devrait maintenant concentrer l’attention sur les mesures préventives. Nous
+1
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 715.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

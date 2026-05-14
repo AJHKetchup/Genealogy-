@@ -1,0 +1,125 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/batch-pdf-023-habitat-revisited-jim-carney-2006.codex.md",
+  "converted_sha256": "d0e1e5f45a7db0d4dcf57aa3819d39d72ca4818cccb3fbdbef23f3c8a9651bbd",
+  "source": "raw/codex-conversion-jobs/batch-pdf-023-habitat-revisited-jim-carney-2006/source/Habitat Revisited, Jim Carney, 2006.pdf",
+  "source_sha256": "fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9",
+  "source_manifest": "raw/codex-conversion-jobs/batch-pdf-023-habitat-revisited-jim-carney-2006/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 6111,
+      "sha256": "553ddc1424a2ef755ac306831a8c668110b4a8d622ff04a25cc36e261f085613"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0002-01",
+      "chunk_number": 2,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0002-chunk-01.md",
+      "page_start": 2,
+      "page_end": 2,
+      "part": 1,
+      "chars": 6576,
+      "sha256": "94afd70e6299410337db68127ef698b27a0de488edb40e03294cb3d851405589"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0003-01",
+      "chunk_number": 3,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0003-chunk-01.md",
+      "page_start": 3,
+      "page_end": 3,
+      "part": 1,
+      "chars": 6113,
+      "sha256": "e36a44501764e7c1b69126613812c28f0e5b212527b1779062abefce680d8345"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0004-01",
+      "chunk_number": 4,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0004-chunk-01.md",
+      "page_start": 4,
+      "page_end": 4,
+      "part": 1,
+      "chars": 6767,
+      "sha256": "de1acba5ff1fd1ae6cedd15d6b40a2c9a17080c311bca7be77827066a9f462aa"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0005-01",
+      "chunk_number": 5,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0005-chunk-01.md",
+      "page_start": 5,
+      "page_end": 5,
+      "part": 1,
+      "chars": 6738,
+      "sha256": "f873f3f884fefa85c9466af1db153093ee052e42de1089bf86509aab453d2f55"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0006-01",
+      "chunk_number": 6,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0006-chunk-01.md",
+      "page_start": 6,
+      "page_end": 6,
+      "part": 1,
+      "chars": 6299,
+      "sha256": "6d8882fa22111e804ff645b9b7ce4261516893566b5ae83d6445711606cbae42"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0007-01",
+      "chunk_number": 7,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0007-chunk-01.md",
+      "page_start": 7,
+      "page_end": 7,
+      "part": 1,
+      "chars": 6913,
+      "sha256": "cb95ebb8d89f81176e6e798cece42a9926f1e648cb9860f7d2eed23e5593d5d5"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0008-01",
+      "chunk_number": 8,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0008-chunk-01.md",
+      "page_start": 8,
+      "page_end": 8,
+      "part": 1,
+      "chars": 7388,
+      "sha256": "2f378feb02ff124e9be6697a6b2d164f142f031fe1902c702f3bea4d542143e9"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0009-01",
+      "chunk_number": 9,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0009-chunk-01.md",
+      "page_start": 9,
+      "page_end": 9,
+      "part": 1,
+      "chars": 6664,
+      "sha256": "187aa88b38f0f50eb02673d847a76930f60f41e487479f0340378b5e3a82aa39"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0010-01",
+      "chunk_number": 10,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0010-chunk-01.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 1,
+      "chars": 6912,
+      "sha256": "fce43e55235d0523695475d1b418a06fc7991bbd77878e67299afac93da28594"
+    },
+    {
+      "chunk_id": "CHUNK-d0e1e5f45a7d-P0011-01",
+      "chunk_number": 11,
+      "path": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/page-0011-chunk-01.md",
+      "page_start": 11,
+      "page_end": 11,
+      "part": 1,
+      "chars": 2297,
+      "sha256": "4d87c7948901e09dfd27b9891059fcfe3ee03a614af3af72ca3e2da4b2f751b5"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Genealogy Proof Review"
+  short_description: "Review staged genealogy claims before promotion"
+  default_prompt: "Use $genealogy-proof-review to check staged source packets and claims before canonical wiki promotion."

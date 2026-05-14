@@ -1,0 +1,290 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-09e4cb999ef7-P0209-01
+source_converted: raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+converted_sha256: 09e4cb999ef7849184392fb67703554132ffaa522227f2b4a9ff028efd3cb5bf
+source: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/source/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+page_start: 209
+page_end: 209
+part: 1
+---
+
+# Page 209
+
+## Page Metadata
+
+- Source page: 209
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0209.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+de
+somme et le brassard de neutralité, toutes étaient comprises dans les directives données
+par le Comité international de la Croix-Rouge et
+se trouvaient
+en quelque sorte fixées par
+la résolution arrêtée par la XIIème Conférence de
+1925. Toutes sont actuellement résolues.
+Je
+puis
+donc
+dire
+au
+Comité
+international
+que
+le
+mandat
+qu'il
+nous
+avait
+confié est
+entièrement rempli.
+Le problème
+à résoudre, Mesdames et Messieurs, était excessivement complexe. C'est
+qu'avant
+de
+définir un type standard, il faut,
+à l'heure actuelle surtout, tenir compte de
+quantités
+de
+facteurs
+dont je
+me
+bornerai
+à
+vous
+citer
+le
+principal.
+Diverses
+nations
+possèdent
+en effet des stocks considérables provenant de la guerre. Pouvions-nous décem¬
+ment leur demander d'abandonner
+du jour au lendemain
+ces stocks pour adopter un type
+nouveau? D'autre part il nous fallait respecter les légitimes susceptibilités des services de
+santé
+et
+ne
+pas leur imposer un modèle unique que des considérations multiples, contin¬
+gences
+climatériques,
+par
+exemple,
+capacités
+nationales d'autre part, facilités d'exécution,
+prix
+de
+revient
+etc.
+etc.
+pouvaient
+les porter
+à
+repousser.
+Quand
+je
+vous aurais dit,
+Messieurs,
+. qu'il
+y
+a
+à l'Institut
+du
+matériel
+sanitaire
+150 modèles de brancards,
+vous
+aurez
+une
+idée des travaux que la commission
+a été appelée
+à accomplir.
+Eh bien, si des nations nouvelles,
+comme la Tchécoslovaquie par exemple, sont pres¬
+sées d'avoir
+un matériel
+neuf et
+de
+ne construire
+ce matériel
+nouveau
+que
+sur
+les direc¬
+tives qui pourront lui être données par la commission de standardisation après approbation
+de la XIIIème Conférence internationale, il
+en est d'autres,
+comme la France, par exemple,
+que j'ai l'honneur de représenter, qui ont plus de
+100 000 brancards
+en réserve et qui ne
+peuvent pas décemment les jeter par dessus bord.
+Par conséquent, pour revenir à
+mon idée, l'on ne pouvait pas d'emblée créer un type
+standard.
+Mais
+ceci dit, il était possible, et il
+nous
+a paru nécessaire'de fixer pour chaque
+objet des conditions internationales standards, autrement dit pour le brancard que je reprends
+comme exemple, il nous
+a paru possible de fixer des dimensions : longueur, largeur, hauteur,
+écartement
+entre
+les
+points de suspension,
+question capitale
+en l'espèce. Si l'on veut en
+effet
+que
+ces
+appareils puissent s'adapter à d'autres appareils de suspension il faut fixer
+sur les hampes du brancard l'écartement précis des points qui doivent rester libres de toute
+gêne
+pour leur
+permettre
+de reposer sur les appareils de suspension. Et réciproquement,
+nous
+ne pouvions pas imposer un appareil de suspension standard des brancards malgré la
+présentation d'un modèle merveilleux du Service sanitaire français, dit appareil universel 1927,
+mais
+simplement
+donner,
+ici
+encore, des dimensions définitives à réaliser, C'est dans
+ces
+conditions qu'il nous a paru utile,
+pour tous les objets que
+nous avons étudiés, de laisser à
+chaque
+nation,
+à chaque service de santé,
+le champ libre pour donner à son matériel le
+caractère national
+ou propre qui lui paraît convenable,
+pourvu
+que chaque matériel réalise
+par ailleurs les conditions internationales jugées absolument indispensables par la Commission de
+standardisation. C'est dans cet esprit que toutes les résolutions que vous trouverez en annexe au
+rapport no 27 ont été adoptées à l'unanimité par la Commission permanente de matériel sanitaire.
+Ces
+décisions
+ont
+été communiquées depuis aux divers services de santé à part toutefois
+celles
+très récentes de
+1928. A part de légères restrictions dont il
+a été
+tenu
+compte
+le
+plus
+possible,
+tous
+ceux
+qui
+ont
+été
+consultés
+ont
+donné
+leur adhésion.
+Les réponses-
+envoyées par les Gouvernements figurent dans le troisième volume de la session de 1928.
+Il
+n'a
+été
+fait d'objection sérieuse qu'en
+ce qui
+concerne le brassard de neutralité. Aussi
+bien, s'agit-il ici d'une question surajoutée à celles dont le Comité international
+de Genève
+nous avait donné mandat.
+Cette
+résolution,
+ainsi
+que
+les
+objections présentées, ont été examinées hier par la
+Sous-Commission
+A,
+au
+nom
+de
+laquelle j'ai
+l'honneur
+de parler et,
+à l'unanimité, il
+a
+été
+décidé
+qu'il
+y avait
+lieu
+de
+vous
+proposer
+de
+la disjoindre des autres résolutions
+soumises
+à
+votre
+approbation
+comme
+touchant
+de
+beaucoup
+trop
+près
+au
+texte de la
+Convention
+de Genève qu'il
+ne lui appartient pas de discuter et
+encore moins de modifier
+—
+12
+—
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 209.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

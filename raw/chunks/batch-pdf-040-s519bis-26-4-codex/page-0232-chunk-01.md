@@ -1,0 +1,268 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b92474421d0f-P0232-01
+source_converted: raw/converted/batch-pdf-040-s519bis-26-4.codex.md
+converted_sha256: b92474421d0f213d486a5af77570cd6e2fba3c8eced7b2280d658e00e42ab146
+source: raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/source/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/manifest.json
+page_start: 232
+page_end: 232
+part: 1
+---
+
+# Page 232
+
+## Page Metadata
+
+- Source page: 232
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0232.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+-
+2
+-
+ra0(Uo a;factivo ? àel reedio social
+an que
+muLo
+î«« S L sreplear ans :M.ne loues sent lisent aies y 'socia¬
+les.
+iasan siete,
+pasan oatoroe a*os y la or^nisacion fl*
+*v\e,w ™tre
+'
+m mmn;î.t,f i?*?
+las relaeiones entre los hoabres
+*
+t P'
+tao^lft;p
+r-v d.ar aplieacién por medio de la Ofiel-
+roJr;rmCi,0naï
+•****!© f la -rta astsbieoida nor £
+•onfemmxa
+de Verscllea,
+r?e concerte sin mererlo y sin
+ttTyïllsZ^aol?
+° ° i*™**»* tnetr^ento para agos-
+«^**]*$
+yj
+te
+a ia* finaliftades esenciales
+de
+eu existeneia,!
+no n^v«niia-’i0CiîîaA
+la* ^clones no tiene el
+derecho
+de
+îtPlea
+siqui era con coopensaciones mate¬
+rial es
+que hagan
+raas llevadera la
+pens
+intima
+de
+esos
+ear**?
+SJSrtflM ^®fefc0”f?JBac1i6n ******** Jmede scr un eolabo-
+déîne! 1 lî Sîf ^Lllltar la reintegracién de
+esos
+seres
+-
+Iles
+a
+la
+Vida logloa y
+buena de
+que
+se les
+ha arrancado.
+hlecerae
+Tftf’ wi. «stimado acsigo,
+que àebieran esta-
+oieceiae relias diferenciales
+en favor
+de loa
+seres
+n-sîs
+a*
+samparHiSos
+rue .exister»
+en la
+Basa A* los
+qae
+t-raba Ian nor la
+Aeben aîrkL ?.3 "?ei0^8 *R '*'*»«. * «ta» entre
+esos
+seres
+âSttBeioj*l A.l Comité
+A« ïrece les
+®bîvf]
+e5
+a«S «».M leblera ««rTïïoo‘iüo~
+viole
+e.
+pi 1ïCipio iAealo
+en el
+seno
+de la Secretarfa
+<me
+es
+l£t«Sâêio™i“n£r1r?î9 h,,*m 'ie este Iîr“n Instltuoién
+internaeional, piincxpio de acnerdo
+eon el
+eual los
+^uncio-
+^i0n^eS Ue !» -^osiedad de las feel ones pudie-
+îubn?M?î
+dfaimea aJ cato™e
+de servioios
+a on una
+del voc-bio*"*8 183 p8rKitiora vivir, •« le exacta aeepcién
+__
+*
+-,
+I8** Mf*4A5 de cent.rato con Jubilaoi6n ascgurada
+J®.*? ser,
+natureln»ente,
+obligator!©
+eino opcional
+uara
+todos
+sin dis Une ion,
+desde
+«1
+Seerotario
+General haata el
+limer
+.
+rodrs,
+olaro
+esta,
+el
+Seeretario General tratar
+de retemr
+a loe
+que le parezcar tener
+un valor especial
+pa-
+seîï7ici?K dfeetivoe a la Sociedad
+y
+eu
+ese cas0P
+podra obfeeuarlo eiempre el flecretario Referai ofreciendo
+me-
+jorcs posieiones
+&
+quienes verclaâeramente por sue servicios
+XÜS
+eota wm».m
+contenta
+a los
+eue sostienen la
+utilifted
+de
+una
+rénovésî.6.n frecuente del personal,
+porque
+la puerta
+esta ebierta para
+eue saluer los
+que
+no valen
+o
+valen pocot
+y
+a los
+que desean una contlnuiftaft larpa
+de
+ac-
+cion fte los buenos funeionsrios,
+porque el Seoretarfa,General
+en ultima instancia
+ftebe ftecidiry poftra retener
+a los majo¬
+res
+danft oies,
+naturalmente,
+superior situaciôn,
+en la Score-
+XIX Ifi, ©, •
+Eata larga exposicién tué
+empeaada hace aproxiaada¬
+ment e
+un
+mes y debf interrumpirla por la
+enorme tare*
+que
+he
+tenido
+en estos ultimos tieapos,
+rogandole
+por lo tanto disi-
+mule
+si encuentra Vd. al^uaa faite
+de
+cohesién
+en los argu-
+aentos
+que le presento y
+que
+son,
+si
+Vd.
+quiere fragmentaria
+y deaoràenadamente,
+el
+resultado
+de
+una sincera visién de
+esta Casa,
+de la iraportaneia
+enorme
+que elle tiene para la
+rida int ernacional y de la tt&évStkMiViala inftiseutlble
+eue
+encierra
+el problems
+de la seleccién del personal,
+y de la
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 232.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,134 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0201-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 201
+page_end: 201
+part: 1
+---
+
+# Page 201
+
+## Page Metadata
+
+- Source page: 201
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0201.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+8
+Séance
+du
+13 Juillet 1929
+M. Raymond (Nouvelle-Zélande). Traduction
+:
+C'est un plaisir pour moi, au nom de la délégation de Nouvelle-Zélande de me joindre aux
+déclarations de mon collègue d'Australie. A l'origine, la CroixrRouge a été choisie en hommage
+à la Suisse. Je suis persuadé que le Gouvernement suisse ne pensera pas un seul instant que
+c'est amoindrir cet hommage que de placer les autres emblèmes sur un pied d'égalité.
+M. Doude van Troostwijk (Pays-Bas)
+:
+La délégation des Pays-Bas désire appuyer le principe que notre Conférence constate
+expressément le'maintien des divers emblèmes qui, avec force égale, ont été substitués! dans
+certains pays à l'emblème de la Croix-Rouge.
+M. le Président
+:
+Votre déclaration comporte-t-elle un amendement de texte ?
+M. Doude van Troostwijk (Pays-Bas)
+:
+Pas du tout.
+M. Warner (Grande-Bretagne)
+:
+Sans doute, Messieurs, vous connaissez tous les circonstances dans lesquelles l'emblème de
+la Croix-Rouge a été adopté comme signe distinctif des services sanitaires : on l'avait choisi
+comme
+hommage
+à la
+Suisse,
+berceau
+de l'œuvre humanitaire de la Croix-Rouge et
+nullement comme emblème religieux quel qu'il fût. D'après moi, il serait très désirable que cet
+emblème fût adopté d'une manière générale par tous les pays du monde. Cependant, après
+tous les avis qui ont été exprimés ici par les délégués, il est évident que dans les pays mahomé-
+tans régne l'idée qu'une certaine signification religieuse s'attache à cet emblème. Dans ces
+conditions, c'est une question que chaque pays est en droit d'apprécier lui-même. La délégation
+de la Grande-Bretagne admet toutes les opinions qui ont été émises à ce sujet, mais je tiens à
+faire remarquer que, si l'on admet plusieurs emblèmes différents, on s'expose à un certain
+danger de confusion. Si l'on attache à ce signe une signification religieuse, il peut arriver par
+exemple que des pays qui avaient jusqu'ici adopté la Croix-Rouge disent : Ce n'est pas notre
+emblème religieux, nous entendons changer cela et lui en substituer un autre. Il me semble
+donc qu'au point de vue pratique, il y aurait là de -sérieux inconvénients. C'est pourquoi
+j'appuie nettement l'avis qui a été exprimé en particulier sous la forme de la proposition présen¬
+tée par le délégué de l'Egypte. Si je l'ai bien comprise, elle tend à limiter autant que possible
+la modification aux pays qui utilisaient jusqu'à présent le Croissant ou le Soleil et le Lion rouges.
+C'est pour ce motif et afin d'éviter toute confusion, que j'ai l'honenur de m'associer à la propo¬
+sition du délégué de l'Egypte. Je né me souviens pas exactement de la formule qu'il propose
+et il se peut sans doute qu'il y ait une discussion sur la rédaction même, mais je suis, pour ma
+part, tout porté à adopter l'idée qui nous est présentée.
+M. Riad (Egypte)
+:
+Permettez-moi de dire, au nom des délégués de la Perse et de la Turquie comme au nom
+de la délégation égyptienne, que nous avons été très heureux d'entendre les délégués de la
+France, du Japon, des Pays-Bas, de la Grande-Bretagne, de l'Australie, de l'Italie appuyer
+notre proposition. En les priant d'agréer tous nos remerciements, je tiens à leur exprimer notre
+vive reconnaissance pour l'appui qu'ils ont ainsi donné à notre thèse.
+En
+ce qui concerne l'observation faite par l'honorable délégué de la Grande-Bretagne,
+je dirai que c'est en effet mon idée de limiter autant que possible le nombre des emblèmes
+admis et c'est pourquoi j'avais formulé ma proposition dans les termes dont on a donné con¬
+naissance
+:
+« Toutefois, pour les pays qui emploient déjà, à la place de la Croix-Rouge, le Crois¬
+sant...
+» etc. Si la Grande-Bretagne accepte, on pourrait aussi énumérer ces pays nominative¬
+ment, de façon à éviter que d'autres pays que ceux-là adoptent une emblème différent. C'est
+justement dans le but de fermer la porte aux réserves qu'il pourrait être utile de désigner les
+pays par leurs noms. On pourrait également adopter une rédaction qui serait à peu près la
+suivante
+:
+« Pour l'Egypte, la Turquie et la Perse, les emblèmes suivants sont au bénéfice de
+la Convention... » C'est une simple question de rédaction que nous laissons bien volontiers
+au Bureau et à M. le Secrétaire Général.
+Ife!
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 201.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,132 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-415923009ad8-P0001-01
+source_converted: raw/converted/batch-pdf-030-r3578-50-7801-5569.codex.md
+converted_sha256: 415923009ad89c7233e3e6ed6d8424b006a8b732ba039128abe14d9c6b4a9f70
+source: raw/codex-conversion-jobs/batch-pdf-030-r3578-50-7801-5569/source/R3578-50-7801-5569.pdf
+source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
+source_manifest: raw/codex-conversion-jobs/batch-pdf-030-r3578-50-7801-5569/manifest.json
+page_start: 1
+page_end: 1
+part: 1
+---
+
+# Page 1
+
+## Page Metadata
+
+- Source page: 1
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0001.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+V
+*
+J
+ARCHIVES
+1928-1932
+sociEte des nations.
+LEAGUE OF NATIONS.
+CLASSEMENT.
+GENERAL
+AND r»::£C~LLANEOl
+Expdditeur;
+Date:
+REGISTRY N°
+50 7801
+SsScj
+Sujet:
+/ z&oJr
+h
+rL's
+<f (^>a/x-
+w'M-
+CCUvkC-m
+;.*<L*:<UcuL
+k^J
+Transmis
+&
+Referred to
+Date
+Transmis
+a
+Referred to
+Date
+Transmis
+h
+Referred to
+Date
+to/.fojo.W
+I
+-f fot.htvMk/ StL.t.tr
+1
+—
+b<Uc^&<C^r
+fyi L
+/
+/
+fifpajLLji/f&i(Ad?3'C. 2-*.
+Hi
+7
+-
+•
+■
+Dossier
+|
+^
+S~£~G^)
+pr^cddent
+| ^°‘
+Dossier
+1
+'
+,
+NO
+0^*%/,
+suivant
+|
+i
+•
+Dossiers
+connexes
+;
+/
+10,000 Bertrand 3. 28. No. 159Q5
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

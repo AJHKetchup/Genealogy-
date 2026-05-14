@@ -1,0 +1,524 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1268-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1268
+page_end: 1268
+part: 1
+---
+
+# Page 1268
+
+## Page Metadata
+
+- Source page: 1268
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1268.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+4
+s*
+. 3C.
+W
+Les enquêtes du « Temps »
+lïhChïk
+La presse étrangère
+Un récent congrès de la presse argentine, tenu
+à Cordoba,
+a décidé de fêter annuellement l’an¬
+niversaire de la naissance du journalisme natio¬
+nal. en la faisant remonter à la publication du pre¬
+mier
+numéro
+de
+la
+Gaceia
+de
+Buenos-Aires,
+fondée par Mariano Moreno le 7 juin 1810, au len-
+demain de la révolution de Mai. Pour cette pre¬
+mière commémoration, un banquet
+a
+eu lieu
+au
+Cercle de la presse, en l’honneur des journalistes
+comptant plus
+de trente
+ans de services profes¬
+sionnels ininterrompus.
+Avant la révolution de 1810, il avait bien paru
+quelques
+journaux
+à
+Buenos-Aires,
+mais
+ils
+n’avaient eu qu’une vie éphémère, et toute velléité
+d’indépendance
+de
+leur part était vite répiùmée
+par le vice-roi qui ordonnait la suspension de la
+feuille.
+La publication
+de
+la Gaceta
+de
+Buenos-
+Aires
+marque
+donc pour
+le journalisme
+argen¬
+tin l’avènement
+de
+la
+presse libre dans le pays.
+Cette publication n’eut cependant pas une bien
+longue vie,
+et, si une
+infinité
+d’autres journaux
+yirent le jour au cours de la première moitié du
+siècle dernier, il
+n’en faut
+pas
+moins
+admettre
+que la presse ne commença à jouer un rôle im¬
+portant dans le pays que du jour où furent fon¬
+dées d’abord La Prensa, puis peu après La Nacion
+qui progressivement devaient
+se développer jus¬
+qu’à devenir les grands organes qu’elles sont au¬
+jourd’hui, c’est-à-dire des journaux qui non seu¬
+lement
+font
+honneur
+à
+leur
+pays, mais
+encore
+occupent une place de tout premier plan dans la
+presse mondiale, tant pour l’ampleur de leur in¬
+formation que pour leur belle tenue.
+A
+côté de
+ces
+deux grands périodiques vivent
+une quantité d’autres feuilles plus
+ou moins im¬
+portantes qui cherchent
+à donner satisfaction
+à
+des lecteurs répondant à
+des tendances diverses.
+C’est qu’on lit beaucoup en Argentine et que,
+dans les grandes villes, rares sont ceux qui n’achè¬
+tent
+pas
+au moins
+un journal
+du. matin et
+un
+journal du soir, plus
+encore quelques revues au
+«SttTR da Ift semaine.
+Les principaux tirages
+et la consommation de papier
+L’étranger qui arrive à Buenos-Aires n’échappe
+pas à cette règle générale, et à peine débarqué il
+prend contact
+avec la presse argentine
+en ache¬
+tant
+l’un
+des
+deux grands
+quotidiens
+du matin
+qui s’éditent dans
+la capitale. Si c’est
+un
+Fran¬
+çais, habitué à nos journaux de huit ou dix pages,
+il
+ne manque
+pas d’être surpris par la quantité
+de papier qu’on lui met
+en mains pour la modi¬
+que
+somme
+de
+dix
+centavos,
+environ
+un
+franc
+français. La
+Prensa,
+La
+Nacion
+paraissent,
+en
+effet,
+tous
+les jours
+avec
+un
+minimum
+de
+24
+pages du format 58x45, et ce minimum est fré¬
+quemment dépassé, notamment chaque dimanche
+où l’édition
+est accompagnée de suppléments fi¬
+nement illustrés
+en rotogravure. Ces jours-là,
+le
+journal comporte de 40 à 50 pages, et quelquefois
+plus.
+G’est que l’Argentine
+se classe parmi les pays
+qui consomment le plus de papier pour journaux.
+Elle
+occupe le quatrième rang après la Grande-
+Bretagne,
+les Etats-Unis
+et l’Australie.
+Sa
+con¬
+sommation est de 12,11 kilos par an et par habi¬
+tant. Près de trois mille périodiques sont publiés
+dans
+le pays qui
+ne compte que douze millions
+d’habitants.
+Proportionnellement
+à
+cette
+popu¬
+lation,
+les
+tirages
+sont relativement importants.
+La
+Prensa
+atteint
+en
+moyenne
+350,000
+exem¬
+plaires par jour et
+ce chiffre
+s’élève
+à près
+de
+400,000 les dimanches et jours fériés, particulière¬
+ment
+lors
+des
+commémorations d’anniversaires
+patriotiques,
+alors
+que
+le journal
+est
+accompa¬
+gné de suppléments illustrés en couleurs. La Na¬
+cion suit d’assez près le tirage de La Prensa.
+Un autre journal du matin, El Mundo, qui
+se
+vend cinq centavos, et qui paraît
+sur trente
+ou
+quarante
+pages
+du format
+40x30, lire
+environ
+à
+150,000
+exemplaires.
+Vient
+ensuite
+un
+autre
+journal
+du matin,
+au
+môme prix et
+du
+même
+format, El Diario, dont le tirage est au-dessous
+des 100,000. Immédiatement après, se classe l’or¬
+gane
+du parti
+socialiste, la
+■Vanguardia, qui
+ne
+paraît modestement que
+sur dix
+à douze pages.
+Enfin, il y a une foule de journaux divers, offrant
+toute
+la gamme des tirages.
+Parmi
+les journaux du soir, le plus populaire
+de tous, Critica, accuse un tirage de 350,000, mais
+dont il faudrait défalquer une importante quan¬
+tité
+de
+bouillons.
+Puis, parmi
+ces journaux
+du
+soir,
+suivent,
+par
+ordre
+d’importance,
+Noticias
+Graficas, la Razon et Pregon, ce dernier, de fon¬
+dation récente, ne dépassant pas les 100,000 exem¬
+plaires.
+Dans
+les
+principales
+villes
+de
+province
+pa¬
+raissent également
+de nombreux quotidiens qui,
+s’ils ont des tirages relativement importants,
+se
+tiennent néanmoins
+bien au-dessous des organes
+de la capitale.
+Pour justifier ..cette
+importante
+consommation
+de papier que nous avons mentionnée, il faudrâii
+encore citer
+une multiplicité
+de
+revues
+en tout
+genre,
+dont
+les
+plus
+répandues
+approchent
+les
+100,000 exemplaires.
+L'information
+L’information occupe
+une
+place
+considérable
+dans
+les
+grands journaux argentins.
+Le
+service
+télégraphique
+de
+l’extérieur
+y est
+particulière¬
+ment développé. La Prensa, la Nacion y
+consa¬
+crent chaque jour quatre ou cinq pages. Une exten¬
+sion
+un
+peu
+moindre
+lui
+est
+donnée
+dans
+El
+Mundo et El Diario, et il est réduit
+à l’essentiel
+dans la Vanguardia. Dans
+les journaux du soir,
+s’il est un peu moins fourni, du moins est-il pré¬
+senté d’une façon sensationnelle, ave'c manchettes,
+titres et sous-titres
+sur plusieurs colonnes.
+On peut dire qu’il
+n’est
+pas
+d’événement
+se
+produisant dans le monde qui ne soit mentionné
+dans la presse argentine, et la plupart du temps
+même, présenté
+avec beaucoup de détails. On est
+certainement plus amplement informé en Argen¬
+tine
+sur tout
+ce qui
+se passe
+à l’étranger qu’on
+ne l’est en France.
+Mais, les grands journaux recevant en générai
+les services
+de plusieurs
+agences télégraphiques,I
+il
+arrive
+assez
+fréquemment
+que
+les nouvelles]
+publiées
+l’une
+à
+côté,
+de
+l’autre
+sont
+un peu)
+contradictoires,
+et surtout
+qu’elles
+sont présen¬
+tées sous un jour différent, selon la provenance dul
+télégramme. Le lecte'ur peut ainsi ne retenir que
+l’information répondant à
+ses propres tendances.
+La nouvelle est souvent accompagnée de com-|
+mentaires,
+véritables
+articles
+transmis
+par
+le
+câble, émanant soit des collaborateurs de' l’agence
+télégraphique,
+soit
+des
+correspondants
+particu¬
+liers
+des
+journaux
+dans
+les
+principales
+villes
+d’Europe.
+Là
+encore
+on
+constate
+des
+tendances
+diverses
+selon
+que
+ces
+correspondances,
+com¬
+mentant
+un même fait, sont datées de Taris, déf
+Londres, de Berlin ou de Rome.
+L’information locale est minutieuse et prolixel
+Tout ce qui se passe à la présidence, dans les mi-[
+nistères, dans les principales administrations, es#
+relaté
+avec détail.
+Un grand développement esï
+donné
+aux
+séances
+des
+Chambres.
+Les diverses]
+nouvelles
+provenant
+des
+provinces
+occupent
+er
+moyenne trois pages. Un espace encore plus grand
+est réservé
+aux sports, dont toutes les activités]
+sont suivies attentivement. Toute partie de foot¬
+ball,
+de rugby, de
+tennis,
+etc.,
+est décrite dans!
+tous
+ses détails et la valeur des joueurs est lon¬
+guement
+commentée.
+Les
+courses
+ne
+sont
+pas
+l’objet
+d’une
+attention
+moindre.
+Le
+théâtre,
+la
+musique, le mouvement littéraire et artistique, le
+cinéma y occupent chaque jour une large place.
+En un mot, le's grands journaux argentins sont
+très complets et, quelle que soit l’information qui
+l’intéresse,
+le lecteur
+est toujours certain de
+la
+trouver dans cette presse très vivante et qui ne]
+néglige aucune actualité.
+H, PAemMujj.
+-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1268.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

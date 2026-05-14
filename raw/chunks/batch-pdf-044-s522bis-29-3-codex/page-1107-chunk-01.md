@@ -1,0 +1,430 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1107-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1107
+page_end: 1107
+part: 1
+---
+
+# Page 1107
+
+## Page Metadata
+
+- Source page: 1107
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1107.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+3910
+CAMARA
+DE DIPUTADOS
+DE LA
+NACION
+Septembre 27 y 28
+i.
+ANEXO
+Miembros originarios
+de la
+Soeiedad
+de
+las Na¬
+ciones, signatario- del tratado
+de
+paz.
+Estados Unidos do America
+Bélgiea
+Bolivia
+Brasil
+Imperio Britânico
+Canadâ
+Australia
+Africa del Sud
+Nueva Zelandia
+India
+China
+Cuba
+Ecuador
+Francia
+Grecia
+Guatemala
+Haiti
+Bedjaz
+Honduras
+Italia
+Japôn
+Libéria
+Nicaragua
+Panama
+Perd
+Polonia
+Portugal
+Rumania
+Estado Servio-Croata •
+Esloveno
+Siam
+Checoeslovaquia
+Uruguay
+Estados invitados
+a accéder àl Pacto
+Argentina
+Chile
+Colombia
+Dinamarca
+Espana
+Noruega
+Paraguay
+Paises Bajoi
+Persia
+Salvador
+Suecia
+Suiza
+Venezuela
+Es traducciôn fiel
+de la publicaciôn oficial
+en idioma
+froncés emanada de la Soeiedad de las Naciones.
+Buenos Aires, Septiembre 5 de 1932.
+Carlos A. Alcorla.
+Parte XIII del Tratado
+de
+Versalles
+del 28 de Junio de 1919
+TEABAJO
+SECCION I
+Organization del trabajo
+Visto
+que la Soeiedad de las Naciones tiene por ob-
+jeto estableeer la paz universal, y que ta] paz no puede
+ser fundada sino sobre
+la
+base
+de la justicia social;
+Visto que existen condiciones de trabajo que implican
+para un
+gran numéro
+de personas la injusticia,
+la mi-
+seria y las privaciones, lo
+que engendra un tal deseon-
+tento
+que la paz y la armonia universales
+son
+puestas
+en peligro, y atento
+que
+es urgente mejorar
+esas condi¬
+ciones:
+por ejemplo,
+en lo que concierne
+a la reglamen-
+taciôn
+de
+las
+horas
+de
+trabajo,
+a
+la
+fijaeiôn
+de
+una
+duraciôn maxima de la jornada y de la semana de tra¬
+bajo,
+al
+reclutamiento
+de
+la
+mano
+de
+obra,
+la
+lueha
+contra
+la desocupaciôn, la
+garantia
+de un salario
+que
+asegurc
+condiciones
+de
+existencia convenientes, la
+pro-
+tecciôn
+de los trabaj adores contra las enfermedades
+ge¬
+nerales
+o profesionales y los accidentes résultantes
+del
+trabajo, la proteeciôn
+de
+los ninos,
+de los
+adolescentes
+II.
+— Primer Secretario General de la Soeiedad de las
+Naciones.
+El honorable sir James Eric Drummond, K. C. M. G.,
+C.
+B.
+y de las mujeres, las pensionçs- ue vejez y de invalidez,
+la defensa de los intereses
+de los trabajadores ocupados
+en
+el extranjero, la afirmaciôn
+de] principio
+de
+la li-
+bertad sindieal, la organizaciôn
+de
+la
+ensenanza profe-
+sional y técnica y a otras medidas anâlogas;
+Visto
+que la
+no adopciôn
+de
+un régimen
+de trabajo
+realmente humano
+es un obstâeulo puesto
+a los esfuerzos
+de las
+denuis naciones deseosas
+de mej'orar la suerte de
+los trabajadores en
+sus propios paises;
+Las
+Altas
+Partes
+Coniratantes,
+movidas
+por
+senii-
+mientos de justicia y humanidad tanto como por el deseo
+de
+asegurar
+una
+paz mondial
+duradera, han convenido
+en lo
+que sigue:
+CAPITULO PRIMERO
+Organizaciôn
+AetIcclo
+3S7
+Se
+funda
+una organizaciôn permanente cneavgada de
+trabajar
+en la realizaciôn
+del
+programa expuesto
+en el
+preâmbulo.
+Los Miembros originarios
+de la
+Soeiedad
+de
+las Na¬
+ciones, serân Miembros originarios
+de esta organizaciôn,
+y,
+en adelante, la
+calidad
+de Miembro
+de
+la Soeiedad
+de las Naciones traerâ eonsigo la de Miembro
+de dicha
+organizaciôn,
+Arïîcui.o
+388
+La organizaciôn
+permanente comprenderâ:
+Una
+Conferencia
+General
+de
+los
+représentantes
+de
+los Miembros;
+2Ç Una Ofieina Internacional
+del
+Trabajo bajo
+la
+direcciôn del Consejo de Administraciôn previsto
+en
+cl artieulo 393.
+AitTfccLO 389
+La
+Conferencia General
+de
+los représentantes
+de
+los
+Miembros eelebrard sesiones cada vez que
+sea ueeesario,
+y, por
+lo
+menofe,
+una
+vez
+por
+ano.
+Ella
+se
+coin pondra
+de cuatro représentantes
+de cada
+uno
+de los Miembros,
+de
+los
+cuales
+dos
+serân
+los Delegados
+del Gobierno,
+y
+los
+otros
+dos
+representarân,
+respeetivamente,
+por
+una
+parte a los empleadores y por la otra parte
+a los traba¬
+jadores dependientes de cada
+uno
+de los Miembros.
+_ Cada Delegado podrâ
+ser
+acompanado
+de eonsejeros
+téenicos euyo numéro no podrâ exceder
+de
+dos por cada
+una
+de las distintas materias inscriptas
+en la
+orden del
+dia
+de la sesiôn. Cuando
+deban
+diseutirse
+en
+ta
+Confe¬
+rencia
+cuestiones que interesan especialmente
+a
+las
+mu¬
+jeres,
+una por lo menos de las personas designadas como
+eonsejeros téenicos debe
+ser una mujer.
+Los
+Miembros
+se
+comprometen
+a
+designar
+los
+dele-
+gados y eonsejeros téenicos no gubernamentales, de aeuer-
+do
+con las organizaciones profesionales mâs representa¬
+tives, sea de los empleadores, sea de los trabajadores del
+pais respectivo, bajo réserva de que taies organizaciones
+existan.
+Los
+eonsejeros
+téenicos
+no
+estarân
+autorizados
+para
+tomar
+la palabra
+sino
+a pedido
+hecho
+por
+el
+delegado
+al cual
+se hallan agregados y con la autorizaciôn especial
+del présidente de la Conferencia, no podrân tomar parte
+en las votaeioncs.
+Un delegado puede, por nota escrita dirigida al Pré¬
+sidente, designar a uno de
+sus. eonsejeros téenicos
+como
+suplente
+suyo, y dicho suplente
+en
+este
+cardcter podrâ
+participar
+en
+las deliberaeiones y
+votaciones.
+Los nombres de los delegados y sus eonsejeros téenicos
+serân comunicados a la Oficina Internacional del Traba
+jo por el Gobierno de cada
+uno de los Miembros.
+Los poderes do los delegados y de
+sus eonsejeros tée¬
+nicos
+serân
+sometidos
+a la Conferencia, la
+que
+podrâ,
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1107.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

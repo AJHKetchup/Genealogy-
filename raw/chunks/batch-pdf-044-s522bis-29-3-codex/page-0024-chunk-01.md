@@ -1,0 +1,374 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0024-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 24
+page_end: 24
+part: 1
+---
+
+# Page 24
+
+## Page Metadata
+
+- Source page: 24
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0024.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+niestro resplandor ha tenido la vni;
+tualidad, de hacer visible a los ojos
+del
+mâs miope, la terrible^realidad
+del problema de Cuba.
+La
+idea
+de
+que la lucha eontra
+Maehado no era una mera discusiôn
+polltica similar
+a
+otras anteriores,
+dio a esta lucha un carâcter de gr.-nr
+deza, desconocido hasta entonces en
+nuestras discordias civiles.
+La jj-
+ventud eubana dio
+a la lucha el ca¬
+râcter de
+una cruzada por la couse-
+cuciôn
+de la Patria
+que
+nunca
+ne
+mos tenido. En medio de los horro-
+res de la contienda surgiô
+un
+con*
+cepto dignificador de nuestra politi-
+ca, quedando de lado
+a la mezqur
+na y y vaeîa lucha caudillista, aspirô
+a la obtenciôn de formulas, que
+ce-
+dimieran
+al
+pueblo
+cubano
+de
+su
+miseria polîtica y social. Y a med'r
+da,
+que los paladines de la nueva
+doctrina,
+se iban adentrando
+en la
+contienda,
+se iba haciendo mâs visi¬
+ble para ellos,
+que la misiôn histô-
+rica que el destino les deparaba, no
+era el simple derribo de Machado ;
+sino el inieio de la lucha por la iir
+dependencia
+polîtice
+y
+econômioa,
+que
+a eonsuno nos liabian arrebata-
+do, la ineapacidad propia y el inre-
+rés extrano.
+La inquebrantable tenaeidad de la
+opgsiciôn, mantenida por los altos
+"îéleales, a que nos liemos referido en
+el pârrafo anterior, ilevô a Macha¬
+do
+a adoptai' las mâs extremas me-
+didas
+de represiôn.
+Su nombre r.
+sono
+con
+eeo siniestro
+en el mundo
+entero.
+La repuisa moral traspasô
+los limites de Cuba y se hizo univer¬
+sal.
+En
+taies circunstancias la iir
+gerencia yanqui adoptô el aspeeio
+providencial y tutelar, que ha asir
+mido
+es distintas fases de nuestra
+historia. Summer Welles partiô ha
+cia Cuba,
+con la doble misiôn, de
+deshacerse
+de
+un servidor molesto,
+euya siniestra fama resultaba ya eur
+barazosa
+para
+el buen nombre de
+los Estados Unidos,
+y mantener al
+mismo tiempo, el status que legal y
+econômico del régimen machadista.
+La primera parte de su misiôn re
+sultô relativamente fâcil. Fiel a sus
+tradieiones, la oficialidad del ejér-
+oito, hasta aquel momento enérgico
+sostén del dictador, aclamô en Sum¬
+mer Welles a su ultimo caudillo. Des-
+amparado
+por
+sus dioses tutelares
+Machadp abàndonô el poder, y escar
+neciô
+por ultima
+vez
+a la Naciôn
+con
+su retirada
+impune. Cumpliila
+la primera parte
+de
+su misiôn, cl
+proconsul yanqui se aplicô
+a la se-
+gunda. La oposieion mediatizadora
+y la ingerencia extrana produjeron
+el
+Gobierno
+de Céspedes
+que tratô
+de mantener el status legal de la Re-
+publica de Machado y que ante la
+repuisa pûblica tratô de revivir la
+malograda
+Republics
+de 1901. En
+esta tarea, de escamotear al pueblo
+cubano,
+su oportunidad
+de renova-
+ciôn,
+se encontraba enfraseado cuan-
+do las trompetas rebeldes de Colum¬
+bia abrieron las
+pu cri as
+a la Revo-
+luciôn.
+Los hombres civiles, llamados la
+noche del cuatro de septiembre por
+el ejército sublevado, eran hombres
+procedentes
+de
+todos los sectores;
+pero que no perteneeian ya a ningir
+no.
+El
+ûnieo
+nûeleo
+visible
+era
+el
+Directorio Estudiantil. Pero existia
+un punto comûn
+a todos,
+que era
+el
+que justificaba
+su union.
+Este
+punto
+era la repuisa al ingerencis-
+mo. La mediaciôn los habia arroja-
+do de los sectores en que habian lu-
+chado contra Machado. La noche del
+cuatro
+de septiembre los reunia en
+el propôsito
+eomvin
+de establecer,
+por primera
+vez
+en Cuba
+un Go-
+bierno
+cuya constituciôn no dépen¬
+dit'!'a de la voluntad extrana, y amr
+que conscientes de las énormes difr
+cultades
+que
+a su empresa se opo-
+nian no vacilaron en aeeptar la res-
+ponsabilidad histôrica, que el desti¬
+no les deparaba, y al asumir el Go¬
+bierno, en contra de la voluntad del
+mediador extranjero,
+suscribieron
+una declaraciôn universal del dere-
+eho del pueblo de Cuba a su absoluta
+independencia.
+La ingerencia
+se encrespô sober-
+bia.
+De todos los puntos del hori-
+zonte
+sus
+lebreles grises enfilaron
+su proas hacia Cuba. En el horizou-
+te maritimo de la Capital refulgie-
+ron al sol los canones desenfundados
+del Missisipi. Las ciudades america-
+nas
+presenciaron el desfile de las
+tropas que iban hacia Cuba. Pero la
+temperatura moral del mundo no era
+igual
+a aquella,
+en que fâcilmente
+se producîa el desembarcô filibuste-
+ro
+de Port Au-Prince
+o el bombar-
+deo impune de Veracruz. El alarde
+béiico
+no encontrô ambiente, y ter
+minô, cuando el Secretario Swanson,
+salido con aires de proconsul, se eon-
+virtio en paeifico turista en la bahia
+de la Habana. Pero el ataque no hizo
+mâs
+que cambiar
+de aspeeto.
+La
+Cancilleria esgrimiô el arma del no
+reconocimiento.
+Summer Welles
+se
+metiô
+a conspirador, fué jefe de re¬
+beldes en el Naeional, se hizo mienr
+bro honoris causa del ABC, deslizô
+en los
+oidos del jefe militai- de la
+Revoluciôn las mâs halagadoras
+su
+gestiones. Se retiré en fin Su Exse-
+lencia, agotados ya los recursos de
+su fértil ingenio. Lo sustituyô mister
+Caffery.
+Este
+simplificô la tarea,
+desechando algunos de los escrupu-
+los morales,
+que embarazaban a su
+antecesor. En fin de euentas, lo im¬
+portante para la Cancilleria, era re-
+cuperar el control politico de Cuba,
+y no la suerte que pudieran correr
+unos
+cuantos
+oficiales desplazados
+de sus puestos. Después de despejar
+este punto espinoso, le fué fâcil ob
+tener dè sus clientes criollos, la clair
+dicaciôn de sus puntos de vista, apa-
+rentemente mâs arraigados. El diez
+y ocho de enero Su Exeelencia rema1
+taba
+la
+obra
+maestra. El ejército
+descarriado el cuatro de septiembre,
+volvia
+a redil. La clientela de
+We¬
+lles volvia al poder. llevando esta
+vez
+a
+su
+cabeza al Coronel Carlos
+Mendieta, y la Cancilleria reanuda-
+ba, para sosiego y regocijo de los
+intereses extranjeros y sus clientes
+criollos,
+su momentâneamente inte-
+rrumpido dominio sobre las cosas y
+los hombres de Cuba.
+Pero si
+el enviado yanqui habia
+logrado,
+en un plazo relativamente
+breve, aplastar la tentativa de libre
+determinaciôn, no le fué dable el inr
+pedir, que el principio que inspirô
+el movimiento
+del
+cuatro
+de
+sep¬
+tiembre
+se hiciera familiar a la Na¬
+ciôn entera. Por primera vez en la
+historia
+de Cuba, la ingerencia
+se
+habia visto precisada, a despojarse
+de su mascara y presentarse, en su
+dura y descarnada realidad, ante el
+pueblo de Cuba. La misiôn histôrica
+del Gobierno del doctor Grau San
+Martin ha sido plantear los verda-
+deros términos del problema Este no
+ha eonsistido, ni podia consistir, en
+el Gobierno de un tiranuelo tropical,
+al servicio de bancos extranjeros. El
+gran tirano de ayer, de hoy y de ma-
+nana, el duro grillete, que condena
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 24.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

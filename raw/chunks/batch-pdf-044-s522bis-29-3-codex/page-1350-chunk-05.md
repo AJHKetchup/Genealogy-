@@ -1,0 +1,450 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1350-05
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1350
+page_end: 1350
+part: 5
+---
+
+ricamentelsegundodelaCâmara.,
+Elsefiorprésidente—prosiguiôluegode
+otras
+consideraciones—noshadesestimado
+reiteradamentelapersonadeunodelos
+miembrosdenuestrobloque,aquiencon-
+sideramosunodelosexponentesdemayor
+cepacidaddemayorlaboriosidadydema¬
+yortalentodenuestrogrupo.Lohades¬
+estimadoreiteradamente,apesardehaber
+sidopropuestopornosotrosensucesivas
+oportunidadesparadistintoscargos.Else¬
+fiorpresdentesiemprehatenidomotivos
+plausibles,razonesdeimportanciaparapo-
+nerlodelado,hecho,naturalmente,queha
+heridolasusceptibilidaddeestemiembro
+delgrupoyquenoshamolestadotambién
+anosotros,porquetodoaqueloqueafecta
+individualmenteaunodenosotros,inme¬
+diatamenterepercutesobrelatotalidaddel
+grupo.
+Significôluegoqueeradeseodesus
+camaradasdesectortrabajarenel
+senodelaCâmaraydelascomisio¬
+nes,peroconlaseguridadylasen-
+saciôndequesetendraconelos
+tantaconsideraciôncomoconlosde¬
+mâsyqueaesoprocisamenterespon-
+>artedelas
+)rprésidente
+.unespiritu|lsPuestodes-
+\:iestacues-
+laquele
+‘,resolveren
+micial,para
+quecores-
+saplaudido
+hanmovido nuestrare- actitudque
+ha;larenun-
+Câmara.
+,
+WALESPI-
+|EL.4RE-
+Câmarade- âesignaciôn
+alpresi-
+ntoyque, •rtunidadei
+odarrepre- ‘toresenel
+ailladeda-
+!mostrarque
+quelosgru-
+|roenlaCâ-
+•neslôgicas,
+brosquele isiôn.
+rquelapresi- âonesinternas jotuemplardos
+-âmaramisma numérodedi- abajoylabor 'elosgrupos
+afindeque puedanestar
+delascomisio- 'entrluegoal
+aizadosinnin-
+seguroelse- presidente,al
+quesereferia entadonipro- variarlaideo- omisiones.Asi
+lociosconstitua
+odelosmiem-
+socialista,ha
+delosmiem-
+rogresistaque,[dadesaquese
+;quepudiera
+SantaFe,era
+andoalicon.
+fcayprocurael
+kl,conrespectolâlogo.Hasido pmbrosdelsec-
+miembrosdel
+lente,queson
+floquepudleran pcialistas.|nsinuadocomo
+delgrupoque
+Imisiones,eselisiôndeliberada keliberada.Dije
+isalgomuydis-
+j-Esdificillarei-
+(icia.
+fcorreporcuen-
+—Puedoadelan-
+hetenidoopor-
+■respecto,oca- :idente,lascir-
+oesehechore-
+îdiputado.En- IrntadoRugieri,
+dialarenunciaformarj comisiones.
+Alaincomprensiôndel
+—terminé—sehaagrega
+cerado,totalmentecerado^
+deelprimerinstanteadà ciônunasoluciônradical
+hadado,antesquetratarjunaformaamistosasuerif daraesteasuntolasolu« pondiayquetodoshabrif porigual.
+Estassonlasrazonesque]
+ahacerrenunciacolectiva presentaciônenlascomisiojhaprovocado,comoconsecil
+ciadelsefiorprésidentedej LOSDEMOCRATASNAf
+DENELRECHAZO NUNCIA.
+Terminadoeldiscursoi^senorRe¬
+peto,seexpidiô,paraMrhirelre-
+chazodelarenunciaeuhimobredel
+sectordemôcratanacionil,elsenor CorominasSegura,quiefi|hizoalco-
+menzarelelogiodelas;condiciones personalesdeldimitenl
+Destaeôque,cuando
+legaenlapresidencia
+delascomisiones,convjdenteenârbitrodel comosiempre,enesta présidentehabiaproci
+sentaciônatodoslos
+senodeesoscuerpos.
+Enseguidaleyôuna
+tosproporcionalespan reiteradamente,amedîj posaumentabansumij mara,disminula,por
+suproporciônenlos respondianencada
+Esindudable—prosigjH
+dencia,alformarlas9
+delaCâmara,tieneque aspectos:elgobiernode
+ydesuscomisiones, putadosquepermitatra«S
+alaCâmarayelcoi
+demayoriaporlasmi: hagansentiralisuopbfl
+altanto,desdelsenonnjnés,deltrabajoqueha debatedelrecinto.
+Lascomisionessehanorj
+gunatendencia.Puede
+nordiputad*Repetoqi organizarlascomisionea haceunmomento,noh^jcuradoporningûnconci logiaotendenciade
+porejemplo,enlade cionales,enremplazode brosquereclamabael entradoaformar
+parti'
+brosdelsectordemôcr; precisamenteporlaspôH referlaelsenor
+diputaf^
+haberalgûndebaterelaf lôgicoqueestuvleraco§todalacomodidadque trabajodelascomisicB
+Enladelegislaciôngg
+aldivorcio,ocuriôalgo] remplazadounodelos.i torsocialistaporunode] sectorsocialistainde] tantomâsdivoicistas
+serlossefioresdiputado^
+Otropuntoqueseha
+motivodelasusceptib!
+seniegaintegrar1
+queconsistiriaenla
+deunodesusmiembri
+SenorRepeto—Nod|
+exclusiônreiterada,Jt> tinto.
+SenorCorominasSe|
+teraciônsinelpropôsfl
+SenorRepeto—Esoes SenorDickman(E.).-—|
+tadequienloejecutafl’-J
+SenorCorominasSej
+tariealsefiordiputado<j tunidaddeescuchara sionalmente,alsefior cunstanciasquehanroi lativoalaexclusiônde! tiendoquesetratadel
+quefuépropuestoprimr^enteparala comisiôn.depresupuestoc.ibaenultimo términoycomolapresidenciaentendiaque
+algrupodebiadârseleunnûmeromenor
+dereprésentantesenlacomisiôn,quedô
+excluidoel'queibaenültimotérmino.
+Encuantoalacomisiândeasuntosmu¬
+nicipales.elJsenorcLirfjt«40.:RûgB\t'rl«staba. incluidoparaformar7p?uedeela.
+SenorBogliolo—Esmalalainformaciôn.
+SenorCorominasSegura—.yentiendo
+queelsefiordiputadoAdolfoDickmanha¬
+bia
+pedido-quefueracolocadoalielsenor
+diputadoGhioldi.
+SenorDickman(A.)—Elgrupoparla-
+mentariolohapedido.
+SenorYichi—Paraelcasoeslomismo.
+SenorCorominasSegura—Yheahipor
+quéelsefiordiputadoRugierifuéexcluido
+yremplazadoporundiputadodesupro-
+piosector.Nofuéporunactodelapre¬
+sidenciasinoporunasolicitaciôndelpro-
+piosectorsocialista.
+Encuantoalacomisiôndelegislaciôn.
+elgruposocialistahabiapropuestodos
+nombres:eldiputadoEnriqueDickmanyel
+diputadoRugieriyenestejeaso,lapre¬
+sidenciahaoptadoporelsenorEnrique
+Dickmannporrazôndesus§antécédentes
+parlamentarios,entendiendoquelohabili-
+tabanparaseruncolaborador|mejordentro
+delacomisiôn.Estaeslasitqaciônreal.
+Aestaalturadesudisqursoelora-
+dorfuéinterumpidoporelsenorBo¬
+gliolo,quienlesignificô;quenla
+comisiôndesignadaparamvestigarlas
+denunciasdelsefiorBordabehereha¬
+biasidopropuestoelsenorRugieri
+ydesignadoelsefiorRepeto,razôn
+porlacualesteultimorenunciô,ob-
+teniéndosesôloentonceselnombra-
+mientodelotrolégislador|B
+EldiputadoporMendoza^respondio
+diciendoqueprobablementedebiatra-
+tarsedeuncasosemejantealdela
+comisiôndelegislaciônconelsefior
+EnriqueDickmanyluegodeuns,
+breveinterupciôndelsefiorDickman
+(A.),términoasi:,
+Elgrupoparlamentarioanuepertenezeo
+vaavotarporelrechazodelarenuncia.
+Desealacolaboraciôndetodo^jlosgrupos
+enlaobraimportantedetrabajoquela
+Câmaraestâenlaobligaciôrderealizar.
+Hadefacilitarlaentodaformadycréha-
+berlafacilitadoyaydemos’ridoelalto
+conceptoquetienedelalabonlegislativa,
+alhaberlevadoalafuncondeprési¬
+dentedeesteeuerpoaunhombredelas
+condicionespersonalesdeldorborCafera¬
+ta.Paraconcluir,senorprésenté,quiero hacerlainvocaciôndeunaR?sequehace
+pocoserecordabacomopronunciadapor
+unemlnentehombrepûblicotancés,res¬
+pectoalaprimeramagistratoradeaquel
+palsyquemeparecedeoportunidad:la
+presidencia.sefioresdiputados,jnoesun instrumentodeguera;esunafunciônde
+paz.
+PALABRASDELSESOitPINEDO
+ElsefiorPinedohablôacontinua-
+ciônparaanunciarquesugrupovota-
+riaporelrechazodelarenunciay
+enunciarque,asuJuicio,cteeraun
+asuntoqueencerabadoscuestiones:
+lactituddelprésidenteylainte¬
+graciôndelascomisiones.a
+Eucuantoaloprimeroquedaba
+xnunciadalaactituddelse’tor;pero
+estimabalmismotiempo,quedebia
+resolversetambiénelcasodelain¬ tegraciôndelascomisionesfRlasque,
+asujuicio,nosehabiadadoklsoctor
+socialista,aveces,lar©i*A.-Kr»taciôn 4uelecorespondra.
+Noesforzoso—agregô—qBtengama¬
+yoriaentodaslascomision«cielaCâ¬
+maraelsectordelamayoria.■
+SenorCorominasSegura—0latiene.
+SenorPinedo—Eibainaresoco¬
+mounodelosprogresos.qtnopuede desconocerse,deestaCâmaricomp&rada
+conotras.Lamayorianoseha^eradoal
+criteriodetenermayoriaenaslasco¬
+misiones;hahechounrepartonoyequi-
+tativodelospuestos.perocaunmejor
+reparto.
+SenorCorominasSegura
+asuntoenlaformaquelo diputado,importarechazarla.I
+senorprésidentebajolacon<
+revealoresueltoconrespef
+siones.;
+SefiorDelaVega—Noes.posible,se¬
+fiordiputado.
+SefiorPinedo—Noesbaj<condiciôn. SefiorDelaVega—La;
+ejercidoplena,legalyconsi facultadquelehadadola
+SefiorPinedo—Eseesotri
+otrosvamosarechazarlaren
+SefiorDelaVega—Con
+consalvedadesyenelfondo, tadoestâdandolarazôna
+nésdelsenorprésidentedela"tunara.
+SefiorPinedo—dQuédiefi
+putado?
+SefiorDelaVega—Elsi
+cuandohabiaengeneral,cuj
+enrealidadhayun
+naciôndelascomisiones,
+delamayoriadela
+C
+â
+m
+a
+r
+a
+*
+yoriaenlascomisiones,estâ delproblema,enloesencial. siguiente,deacuerdoconla
+Todaslasdemâsconsidéra
+solutamentesecundarias,yi
+enquesetratalarenuncia hayqueexpresarplenacon-z
+sinlimitaciôndeningûngén
+larenuncia.
+SoéorPinedoifo,«enorD*
+■lantearel
+pelsefior
+nunciadel
+6ndeque
+las
+comi-
+Idenciaha
+ementela
+,nuira.
+iunto.
+Nos-
+»ia.
+ondiciones,
+;enor
+dipu-
+r
+e
+s
+o
+l
+u
+c
+i
+o
+-
+mara.-
+sefiordi-
+diputado,
+,diceque
+progresonladesig-
+sinneKneipartido
+}tienema¬
+lecentral
+à,porcon-
+-oria.
+sêS
+sonao-
+»1
+momento
+'
+présidente
+zaenél.
+0aceptar,
+envicucTjtnriucu».'_»«■»uciauivs
+ejercidolafacultadquelehadelegadola Câmara.
+SefiorPinedo—Haràmalelsenorpré¬
+sidente.
+SefiorDelaVega—.yestasegurode
+haberlohechoconplenaecuanimidad.
+SefiorPinero—Laecuanimidadnoex¬
+clureleror.
+SenorPena—Hablamosdelsefiorpré¬
+sidentedelaCâmara,nodelprésidente delsectordemôcratanacional.
+SefiorCorominasSertira—Esunaob-
+servaciénfueradelugar.
+SefiorDelaVega—Esunaobseryaciôn
+dignadelsenordiputado.
+AgregôelsenorPinedoquelascon¬
+dicionesquesereconocenalapre¬
+sidencianoexcluyenlaposibilidadde
+unerorycomoelsenorGhioldile lilcieraprésentequelossocialistesha¬
+bianexpresadoalprésidentequesi
+reparabaenpartelohecho,elosacep-
+tarlanesasoluciôn,elsefiorPinedocl-
+tôesocomoejemplodequenohabia
+quetomarelasunto“alotrâglco”,
+loquediômotivoaunanuevainte¬
+ruptiondelsefiorDelaVega,quien
+recordôlasgestioneshechasporla
+presidenciaparaevitarlasituation
+queseestabadebatiendo.
+SenorPinedo—Esonoserâmotivopa¬
+raquelaCâmaranohagaesasmodifica-
+ciones,despuésdehaberrechazadolare¬
+nunciadelsenorprésidente,ratificandosu confianzaenél.
+SefiorDelaVega—Peronohayque
+equivocarse.
+SefiorPinedo—iElsenordiputadopa¬
+receelduefiodelaCâmaral(Risas).
+Sefiorpresiliente(Bunge)—Nolnterum-
+paelsenordiputadoporTucumàn.
+SefiorPinedo—Noconfuda,sefiordi¬
+putado,ynocréaquelatoleranclasin
+l
+i
+m
+i
+t
+e
+s
+’
+quetenemosconesegrupo,slgnl-
+ficasumisiôn.
+Variosdiputadosdeladerechaha-
+blaronentoncessimultâneamente,dirl-
+gléndosealreprésentantesocialistaln- dependiente,yseoyeronvocesindl-
+candoquelasderechasnonecesitaban
+esatolerancla.
+Rehechoelorden,elsefiorPinedo
+insistiôenquedebiaserrechazadala renunciayareglarseluegoelasunto
+delascomisiones,nosinantessosts-
+nernuevosdiàlogosconvariosmiem¬
+brosdelsectordemôcratanacional.
+OTRASOPINIONES
+LossefioresBrouchouyArgonzex-
+presarondespuésquelosliberalesde Corlentesyradicales“antipersonals-
+tas”votarianporelrechazodelare¬
+nuncia,yluegoelsefiorFresco,for¬
+muléalgunasconsideracionesparade¬ fenderlaactituddelapresidenciay agregôquecomosehabiahabladode encrucljadadecomisiones,delaposl- blldaddequeciertosasuntosnoten¬
+gandespacho,leinteresabaanticlpar
+quelsectorsocialistaseencontra-
+ràconmâsdeunasorpresame-
+didaqueavancelperiodoparlamen¬ tario,porejemplo,conelcasodeBue¬
+nosAires,cuyoproyectodeInterven¬
+tionnohaysectormâsinteresado
+endebatircuantoantesyconlama¬
+yoramplitud,queldelosdemôcra-
+tasnationalesydentrodeél,losde BuenosAires.
+UNAMOCIONDELOSDEMOCRATAS
+TROGRESISTAS
+Asuvez,elsenorMatospropuso,
+ennombredelosdemôcratasprogre¬
+ssas,queseaplazaralacuestiônde
+larenunciadelprésidentehastaque
+seencontraraunasoluciôn.yquesi
+selaconslderabainmediatamente,el
+grupovotariaporsuaceptaclôn.El legisladorsantafeclnoagregôaestas
+manlfestaclonesalgunoselogiosala personalidaddelpresidentsrenun-
+clante.
+Estasmanlfestaclonesyotrasposte-
+rioresdelsefiorConstantigeneralza-
+ronyagltaroneldebatequesehizo desordenado.Intervinieronenéllos
+senoresDickman(E.),DelaVega, Martinez(J.H.),Limayotros.
+RECHAZODETODASLASRENUN¬
+CIAS—FINDELASESION
+Finalmentepudoponerseavotaciôn
+lamociôndepostergaclôndelosde¬
+môcratasprogreslstas,yfuérechazada:
+votadaenseguidalarenunciadelpré¬
+sidente,fuérechazadaconsôlocuatro
+votosafavor4elapostergaclôn—los
+deloidemdcratœpeogresistasprésen¬
+tesenelrecintoenesemomento—•y
+labst8nciôndelossocialstas.
+Igualsuertecoriôlarenunciade
+losmiembrossocialstasdelascomi¬
+siones,quefuérechazada.porunant-
+midad,conlaabstenciôndelsectorde
+losrenunciantes.
+Enseguidalasecretariadiôcuenta
+delosasuntosentrados—delosque informamosenotrolugar—ypusoa
+votaciônunpedidodelicenciaporen-
+fermedadformuladoporelsefiorZac-
+cagnini.
+Antesdevotarse,comohubieranu¬
+méroenlacasaynoenelrecinto,la
+presidenciainvitôapasaraunbreve
+cuartolntermedlo,altérminodelcual
+lasesiônfuélevantadaporfaltade
+numéro.
+*T51-j—*»^
+fermedad,apareccomounhechopatolôgicoesen¬
+cial,aisladoy
+m
+i
+s
+t
+e
+r
+i
+o
+s
+o
+”

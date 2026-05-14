@@ -1,0 +1,326 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0099-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 99
+page_end: 99
+part: 1
+---
+
+# Page 99
+
+## Page Metadata
+
+- Source page: 99
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0099.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+CAMARA DE D.IPUTADOS
+1711
+de 1921 -
+“Arüculo
+lo.
+—
+Créase
+en el cjército francés del
+Ilhiïi
+y para el culto catrtlico lin puesto
+de capellân
+inspector.
+“Art.
+2o.
+— Este capellân inspector tiene dërecho
+.durante
+la duraciôn
+de
+sus
+funciones
+a
+las presta-
+ciones
+en
+dinero
+y
+de otra naturàleza atribuldas
+a
+un general
+de brigada.
+“Art.
+3o. — El ministerio do la guerra dictarâ l'as
+disposiciones correspondientcs,
+“Paris,
+mayo
+13 de
+1921’v
+Bien, senor présidente. Xo es el caso de alar-
+gar demasiado la diseusiôn. Creo haberme re-
+ferido
+en general
+a las observaciones bêchas
+por el senor diputado senor Dickmann recti-
+ficando, sobre todo, lo que se refiere a la im-
+portancia que el senor diputado atribuye a la
+cont.ribuciôn del pueblo general de la Repu-
+blica
+en
+beneficio
+de la iglesia eatolica, sin
+baber
+tornado
+en
+cueuta los servicios
+que
+a
+la inversa, la iglesia presta al tesoro nacional
+economizândole
+al estado
+sumas
+énormes de
+dinero.
+Voy
+a terminai’, senor présidente, y desde
+luego quiero hacer esta observaeiôn: las m#-
+nifestaeiones
+que bago,
+de îndole
+religiosa,
+son absolutamente personates.
+No
+he pretendido, por ningûn momento, y
+creo que fos sonores diputados son los mejores
+testigos, invocar mi carâcter de miembro de
+la Union Cîviea Radical. Lo bago dentro de la
+absoluta libertad
+de conciencia y dentro del
+programa del partido, que acepta que cada uno
+pieuse couio quiera en estas cuestiones.
+Sr. Dickmann.
+— Pido la palabra.
+Algunas afirmaciones
+del
+senor
+diputado
+respecto del presupuesto de instruccion publi-
+ca
+deseo destruirlas, pero lie
+de contestaVlas
+en otra oportunidad, analizando los datos que
+lia mencionado.
+Sr. Bas. — Me séria muy grato ; estas diseu-
+siones,
+a la altura que se llevan, son muy in-
+teresantes.
+Sr. Frugoni. — Piclo la palabra.
+Esa libertad de criterio y de opinion que la
+Union Cîviea Radical permite a sus miembros
+la révéla este debate sobre el presupuesto de
+culto. Honra esto de verdad
+a su bombres, el
+verlos aparecer en dos campos tan diametral-
+mente opuestos. El senor diputado Bas defen-
+diendo
+con tanto ealor,
+con tanta pasién
+sus
+idéales
+mistieos y los diputados de la Union
+Cîviea Radical doctor Rodeyro y el que habla,
+que tué el primero que senalara su punto de
+vista
+respecto
+al presupuesto
+de
+culto.
+Pero
+en todo
+este debate, senor, no ha ha-
+liido
+una
+sola alusiôn molesta
+que hiriera la
+ie de los senores diputados.
+De abî que me ban sorprendido en extremo
+las apreciaeùfhes del senor diputado por Cor¬
+doba, doctor Cafferata, tan culto, tan gentil,
+.tan subyugador. -..-Tan es asî, que bablo sub-
+yugado por las palabras del senor diputado...-.,
+Decîa el
+senor diputado
+que hemos comba-
+tido
+las creencias,
+armonizando
+ese criterio
+con el de un redactor del diario “El Pueblo”,
+diario catôlico de la Capital, que me hacia apa-
+reeer
+eomo arremetiendo contra las creencias
+religibsas...
+Sr. Cafferata.
+— No me he referido al senor;
+diputado Frugoni.
+Sr. Frugoni.
+—• Pero el diario oficial de la
+creencia
+a que perteneee el senor diputado se
+ba referido
+a mi...
+Sr. Cafferata.
+— No be leido el artieulo
+a
+que
+se refiere el senor diputado ;
+pero al ha¬
+blar de iglesia no me referia al senor diputado
+sino
+a los diputados de la extrema izquierda.
+Sr. Bas.
+— No hay diario oficial, puedo ga-
+rantizarlo.
+Sr. Frugoni.
+— El diario oficial del catoli-
+cismo.
+Sr. Quinteros.
+— No bay diario oficial del
+partido.
+Sr. Frugoni. — j A que partido
+se refiere el
+senor diputado?...
+Pie dieho
+que
+me refiero
+al diario oficial del catolicismo.
+Es un aporte inteligente el de mi correligio-
+nario
+por Côrdoba rebatiéndome.
+Mc felicito
+de baber extremado la nota coloeândolo
+a mi
+eorreligionario el senor diputado por Cordoba
+en
+el
+campo
+que
+se
+mei’ece,
+opuesto
+a mis
+creencias.
+Continuo,
+senor présidente. Para dar funda-
+mento
+a mi exposieiôn de dias pasados eitaba
+a una'autoridad incontrovertible
+a mi juicio:
+a Spencer. Dije
+en la sesiôn
+del viornes
+que
+en
+su siempre célébré senteneia
+Spencer
+nos
+dijo que la ciencia no lia.bia despejado la incog¬
+nita del probleroa do las religiones ; que lo que
+hnbia
+h echo
+era profundizar
+ose problema, y
+eitaba también, baeiéndolc el honor que toda-
+via no le ba heeho la bistoria de nuestro pais,
+al primer sabio. abanderado de la ciencia
+ar-
+gentina: don Florgntino Ameghino. cuando en
+su “Credo’’ claro, seucillo
+y profundo
+como
+todo lo genial, decia que ningxui hombre debe
+deseehar
+una creencia
+si
+no
+tiene
+sufieiente
+fundamento para reemplazarla por otra.
+iReligion!
+;qué
+complejo
+es
+el significado
+de
+esa nala.bra ! Es religion la ciencia
+para el
+sabio.
+El
+arte
+para
+el
+esteta,
+es religion; y
+religion la educaciôn para el maestro! Y si
+se
+ha
+de plantar la
+choza
+• definitiva,
+para
+que
+converjan haeia ella todas las razas, todos los
+pueblos, ha de ser la escuela, senores, ese techo
+del hogar comun! Alii no habra sectas, alli no
+habrâ dogmas, alli no
+se prediearâ el odio. re-
+ligioso del oriente contra el oecidente, ni del
+oceidente contra el oriente, alli el maestro darâ
+la bendiciôn por igual a los bijos de todos los
+bombres,
+que vengan
+a ocupar un pedazo de
+tierra al
+amparo
+de la bandera inmortal
+de
+Belgrano. Esa sera obra de la escuela argon-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 99.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

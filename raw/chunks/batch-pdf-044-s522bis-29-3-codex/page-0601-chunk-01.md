@@ -1,0 +1,140 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0601-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 601
+page_end: 601
+part: 1
+---
+
+# Page 601
+
+## Page Metadata
+
+- Source page: 601
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0601.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+82
+si
+asi le place ; y si ese voto fuese requerido para el nombramiento de comisiones,
+un miembro cualquiera podria impedir que se obtenga la informaciôn ne'cesaria
+para un debate inteligente.
+El objeto perseguido al insistir en la unanimidad tratândose de otros asun-
+tos, fué en realidad el de aplacar la alarma de aquellas personas que no compren-
+dian que los ôrganos de la liga no poseern poder substancial alguno para dirigiv
+la conducta de los miembros.
+Mas la disposition aludida no es en modo alguno
+inconsistente con el principio sobre el cual se basa! la liga : la acciôn automâtica
+por parte de los miembros en asuntos especificamente enumerados en el mismo
+pacto.
+Tampoco impide la reunion de conferencias cuyo fin sea concertar la ac¬
+ciôn voluntaria de todos los miembros, y para alcanzar este objetivo el voto una¬
+nime no es impropio.
+Serâ quizâ oportuno explicar en este lugar con mayor precision lo que ha
+de entenderse por acciôn automâtica de parte de un miembro de la liga.
+Trâta-
+se de acciôn automâtica tan
+solo en lo que concierne a la liga o a sus ôrganos,
+no
+en lo que respecta
+a las ramas constitucionales
+de su propio gobierno.
+Se-
+gün el articulo XVI, por ejemplo, si una naciôn recurre a la guerra contra otra
+naciôn sin respetar lo convenido en el pacto, los otros miembros de la liga estân
+de acuerdo en sujetarla a la ruptura de toda relaciôn comercial y financiera, y
+en prohibir todo
+intercambio entre sus ciudadanos y los ciudadanos del estado
+infractor.
+Esta obligaciôn es automâtica en el sentido de que es directa e inrne-
+diata, totalmente independiente de toda intervenciôn de un ôrgano cualquiera de
+la liga. No es automâtica en el sentido
+de que la ruptura de relaciones tenga
+lugar automâticamente, sin acciôn de ninguna especie por parte de los gobiernos
+de los diversos miembros de la liga.
+Ni 'détermina tampoco que rama de un go¬
+bierno nacional tendrâ el poder de hacerle surtir efecto.
+Ello dépende de la cons-
+tituciôn del estado.
+En el caso nuestro requeriria legislaciôn, y por' lo tanto in¬
+tervenciôn del congreso,
+pero el congreso estâ en la obligaciôn moral; como la
+que impone todo tratado que compromete la buena fe de la naciôn, de sancionar
+la legislaciôn requerida.
+La liga necesitarâ, de toda evidencia, un personal considerable para man-
+tener
+una voluminosa correspondence entre los miembros, para registrar las
+actas de los diferentes ôrganos, para reunir la informaciôn que puedan requérir,
+y para asesorar a los diversos comités y comisiones permanentes. En realidad la
+tarea de los représentantes y el funcionamiento de la organizaciôn serân gran-
+demente facilitados por la eficiencia de tal secretaria y de su jefe.
+Esto es tanto
+mas cierto
+cuanto que
+en los
+gobiernos populares — y no
+se cuenta con
+que
+otra clase de gobiernos sean miembros de la liga — los hombres que ocupan al¬
+tos cargos gubernativos cambian frecuentemente, y por lo tanto los représentan¬
+tes en el consejo y en la asamblea no tienen probalidades de permanecer en su
+puesto suficiente tiempo como para estar del todo familiarizados con las transac-
+ciones anteriores.
+Para muchas informaciones deberân depender de la secretaria.
+Por consiguiente, para que el secretario general y sus subordinados pue¬
+dan prestar servicios eficaces, deberân ser permanentes, plenamente versados en
+la historia y en el estado actual de las relaciones internacionales, mâs no perso-
+najes politicos.
+Su deber es servir la liga, no dirigirla ; y dada la gran influencia
+que un experto permanente, con los detalles de todos los asuntos al alcance de la
+mano, puede ejercer sobre un cuerpo transitorio de superiores politicos, es de
+la înayor importancia que esté tan libre como sea posible de prejuicios y de mô-
+viles politicos. Su objeto ha de ser el éxito de la liga como instituciôn, no el in-
+terés especial de un pais determinado.
+Bien administrada, la secretaria puede
+llegar a ser uno de los ôrganos mas importantes y benéficos de la liga.
+El articulo VII necesita pocos comentarios. Confiere a los delegados al
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 601.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

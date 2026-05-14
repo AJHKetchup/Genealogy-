@@ -1,0 +1,235 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b905ab24655a-P0133-01
+source_converted: raw/converted/batch-pdf-035-r4946-12-33387-8070.codex.md
+converted_sha256: b905ab24655a1e8bf0a6f593c10bcdf5d06f88911a93aef10bc44cd781c6a48f
+source: raw/codex-conversion-jobs/batch-pdf-035-r4946-12-33387-8070/source/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/batch-pdf-035-r4946-12-33387-8070/manifest.json
+page_start: 133
+page_end: 133
+part: 1
+---
+
+# Page 133
+
+## Page Metadata
+
+- Source page: 133
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0133.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+China, Japon, Filipinas. Ha seguido a los Maleses
+en
+sus migraciones por los archipiélagos de Ocea¬
+nia, y es cultivado hoy, en mayor y menor escala,
+en las zonas tropical y subtropical de todo el orbe.
+El
+arroz existe
+en
+numerosas variedades; algu-
+nas de ellas requieren para su desarrollo la presen-
+cia constante del agua, otras crecen y producen en
+condiciones muy parecidas a las exigidas por el tri-
+go y el maiz, aunque con un mayor grado de calor ;
+de taies, es la variedad llamada arroz secano o arroz
+de montaha.
+En ciertas comarcas, donde cultivan el arroz en
+terrenos cubiertos de agua, se introdujo la prâcti-
+ca de crear peces en los arrozales mientras dura el
+crecimiento de la planta. Se coloca un numéro de-
+terminado de pequenas carpas para una superficie
+dada. Los peces, al principio tienen unos 0.10 cen-
+timetros de largo, y al fin de la estaciôn han alcan-
+zado un peso de media libra, poco mâs o menos. La
+prâctica tiene una doble ventaja : 1®, el producto de
+la venta de los peces ; y 2», la destrucciôn de las lar-
+vas y ninfas de los mosquitos.
+Se sabe que el arroz pulido carece casi por com-
+pleto de la vitamina B; asi se explica la frecuencia
+de la avitaminosis B entre los pueblos
+del Lejano
+Oriente, que se alimentan principalmente a base de
+arroz. En el liombre la avitaminosis B tiene efec-
+tos sobre el sistema nervioso central y sobre el apa-
+rato gastro-intestinal: atonia gâstrica e intestinal,
+detenciôn del peristaltismo (beri-beri), etc.
+Dice el autor del libro "La Salud por las Plantas
+Médicinales", pp. 123-124, lo siguiente: "El arroz
+contiene gran cantidad de almidôn y nada de glu¬
+ten ; de alli que no puede servir, como el trigo, para
+fabricar el pan. Puede, sin embargo, mezclarse con
+la harina de trigo. El arroz es el mâs pobre de to-
+dos los alimentos farinâceos, de principios azoados,
+de materias grasas y de sales minérales".
+A pesar de todo, el arroz es un alimento sano y
+de fâcil digestion; conviene
+a
+los individuos ner-
+viosos. Un cocimiento de arroz es muy bueno con¬
+tra la
+diarrea, especialmente biliosa, y
+calma la
+irritaciôn intestinal.
+Se prépara una bebida sana y excelente para los
+ninos, de la manera siguiente: arroz, 500 gramos.
+Se somete a una temperatura inferior a 100°, dis-
+poniéndolo en una cacerola al "Bano-Maria" y agi-
+tândolo continuamente. Luégo se tritura en un mor-
+tero y
+se tamiza para que resuite un polvo homo-
+géneo. Se anade una cuarta parte de su peso de azû-
+car poco a poco en el mismo mortero ; luégo se pone
+agua, 600 gramos ; se cuela a través de una museli-
+na clara ; se anade azûcar, 100 gramos, y goma tra-
+gacanto, 5 gramos.
+Al exterior, la harina de arroz sirve para cata-
+plasmas emolientes. Se aplica también sobre los te-
+gumentos inflamados, en la erisipela de la cara, co¬
+mo secante y refrescante, lo que sirve para impedir
+el contacto con el aire y asi se moderan los dolores.
+Por medio de la destilaciôn se obtiene un aguar¬
+diente, llamado araclc.
+Con el arroz se fabrica el jarabe de Acebenas.
+521.—Arunagato
+(Costa Atlântica).
+Pisonia aculeata Lin.
+— Familia de las Nic-
+tagineas.
+El présente género consta
+de
+unas
+60
+especies
+propias de las regiones tropicales del globo.
+P. aculeata fue descrita por Linneo en
+su
+obra
+"Spec. Plant.", Tomo 4, 1764.
+522.—Arupo (region de Pasto).
+Cliionanthus pubescens HBK. — Familia de
+las Jazmineas.
+El
+género
+Chionanthus
+(chiôn,
+nieve;
+anthos,
+flor; la especie principalmente descrita por Linneo
+—1764—produce racimos de flores de
+un
+bianco
+puro, lo llama regularmente: Arbol de la nieve),
+consta de unas 3 especies de la América del Sur, de
+los Estados Unidos y del Extremo Oriente.
+Ch. pubescens tiene flores rojas ; crece a los 2.100
+métros sobre el nivel del mar.
+523.—Arveja.
+Vicia sativa Lin.
+— Familia de las Legumi-
+nosas
+(Secciôn de las Papilionâceas).
+El género Vicia (de vincire, entrelazar, entrete
+jer; alusiôn al tallo voluble de la mayor parte de
+las especies) comprende, segun ciertos autores, al-
+go asi como 200 especies; otros no admiten sino un
+centenar.
+Vicia sativa, es planta de origen europeo; se cul¬
+tiva como planta forrajera; en ciertas regiones los
+granos sirven para la alimentaciôn del hombre.
+524.—Arveja parda; Caica; Griolla.
+Una variedad de Pisum sativum. De la présente
+especie dice el agrônomo senor A. Franco U., en el
+"Boletin de Agricultura", N-' 5, pâg. 267, mayo de
+1932, lo siguiente: "Tiene el grano muy disparejo,
+de color verde quemado, ojo negro (lugar donde se
+inserta el foliculo), de piel dura; su vaina contiene
+de 4 a 5 granos cada una.
+En cuanto
+a composiciôn quimica
+de
+estos gra¬
+nos, da los siguientes cuadros :
+Guisantes
+comunes blancos: Proteinas, 23.25% ;
+agua, 13.80; grasas, 1.88; materias
+no
+nitrogena-
+das, 52.65; celulosa, 5.57.
+Guisantes
+comunes
+de
+color
+verde:
+Proteinas,
+21.67; agua, 12.73; grasas, 1.92; materias no nitro-
+genadas, 57.65; celulosa, 3.22.
+Guisantes comunes frescos: Proteinas, 6.59; agua,
+77.67 ;
+grasas,
+0.52 ;
+materias
+no
+nitrogenadas,
+12.43; celulosa, 1.94.
+Garbanzos: Proteinas,
+18.62;
+agua, 14.81;
+gra¬
+sas, 5.25; materias no nitrogenadas, 55.60; celulo¬
+sa, 4.47.
+525.—Arveja soja; Frtjol sojo; Soja.
+Glycine hispida Maxim.;
+Glycine soja Sieb.
+et
+Zucc. ; Soja hispida Moench.—Familia de
+las Leguminosas
+(Secciôn de las Papilionâ¬
+ceas).
+Glycine hispida es una planta originaria del Le¬
+jano Oriente y cultivada en su pais de origen des-
+de la mâs remota antigiiedad.
+Ciertos autores, como Forbes y Hemsley, Gagne-
+pain, Guillaumin, piensan que la forma ancestral
+—
+254
+—
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 133.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

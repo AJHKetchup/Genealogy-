@@ -1,0 +1,119 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0542-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 542
+page_end: 542
+part: 1
+---
+
+# Page 542
+
+## Page Metadata
+
+- Source page: 542
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0542.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+19
+Les dépenses du Secrétariat sont supportées par les Membres de la Société
+dans
+la proportion
+établie
+pour
+le
+Bureau
+international
+de l’Union postale
+universelle.
+Article.
+7
+Le siège de la Société est établi à Genève.
+Le Conseil peut à tout moment décider de l’établir en tout autre lieu.
+Toutes les fonctions de la Société ou des services qui s’y rattachent, y com¬
+pris le Secrétariat, sont également accessibles aux hommes et aux femmes.
+Les Représentants des Membres de la Sociétté et
+ses agents jouissent dans
+l’exercice de leurs fonctions des privilèges et immunités diplomatiques.
+Les bâtiments et terrains occupés par la Société, par ses services ou ses réu¬
+nions, sont inviolables.
+Article
+B
+i
+Les Membres de la Société reconnaissent que le maintien de la paix exige la
+réduction des armements nationaux
+au minimum compatible avec la sécurité na¬
+tionale et avec l’exécution des obligations internationales imposée par une action
+commune.
+Le Conseil, tenant compte de la situation géographique et des condition spé¬
+ciales >de chaque Etat, prépare les plans de cette réductions, en vue de l’examen et
+de la décision des divers Gouvernements.
+Ces plans doivent faire l’objet d’un nouvel examen et,s’il y a lieu, d’une revi¬
+sion tous les dix ans au moins.
+Après leur adoption par les divers Gouvernements, la limite des armements
+ainsi fixée ne peut être dépassée sans le consentement du Conseil.
+Considérant que la fabrication privée des munitions et du matériel de guerre
+soulève de graves objections, les Membres de la Société chargent le Conseil d’aviser
+aux mesures propres à en éviter les fâcheux efféts, en tenant compte des besoins
+des Membres de la Société qui ne peuvent pas fabriquer les munitions et le maté¬
+riel de guerre nécessaires à leur sûreté.
+Les Membres de la Société s’engagent à échanger, de la manière la plus fran¬
+che et la plus complète, tous renseignements relatifs à 1’ échelle de leurs armements,
+à leurs programmes militaires, navals et aériens et à la condition de celles de leurs
+industries susceptibles d’être pour la guerre.
+Article
+9
+Une Commission permanente sera formée pour donner au
+Conseil son avis sur
+l’exécution des dispositions militaires, navales et aériennes.
+Article 10
+Les Membres de la Société s’engagent à respecter et à maintenir contre toute
+agression extérieure l’intégrité territoriale et l’indépendence politique présente
+de tous les Membres de la Société.
+En cas d’agression, de menace ou de danger
+d’agression
+, le Conseil avise aux moyens d’assurer l’exécution de cette obligation.
+3
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 542.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -4,12 +4,15 @@ This document is for future agents resuming work after conversation context is l
 
 ## Current Project
 
-Workspace: `C:\Users\Big Al\Documents\New project`
+Project: `Genealogy`
+
+Workspace: `C:\Users\Big Al\Documents\Genealogy`
 
 The project currently contains two related systems:
 
-1. `historic-doc-ingest`: a Python toolkit for converting image-heavy historical PDFs into Markdown plus an auditable manifest.
+1. `Genealogy`: a Python toolkit for converting image-heavy historical PDFs into Markdown plus an auditable manifest.
 2. `genealogy-wiki`: a genealogy-focused implementation of Karpathy's LLM wiki strategy, centered on atomic claims, relationship assertions, source packets, and lineage-first research structure.
+3. Post-conversion Codex agent guidance: staged LLM-derived source packets, claims, proof review, identity/conflict analysis, and canonical wiki promotion after source conversion and chunking.
 
 ## Verification Status
 
@@ -85,6 +88,13 @@ Prepare a local Codex conversion job:
 genealogy-wiki codex-job C:\path\to\source.pdf --root my-family-research --id CJ001 --title "Historical source"
 genealogy-wiki codex-next my-family-research\raw\codex-conversion-jobs\cj001-historical-source\manifest.json --root my-family-research
 genealogy-wiki codex-assemble my-family-research\raw\codex-conversion-jobs\cj001-historical-source\manifest.json --root my-family-research
+genealogy-wiki prep-chunk my-family-research\raw\converted\cj001-historical-source.codex.md --root my-family-research
+```
+
+Inventory raw source preparation state:
+
+```powershell
+genealogy-wiki prep-index --root my-family-research
 ```
 
 Create a relationship:
@@ -147,6 +157,9 @@ genealogy-wiki lint --root my-family-research
 - [x] `genealogy-wiki codex-job` command that prepares local page images and work orders for Codex conversion.
 - [x] `genealogy-wiki codex-next` command that returns the next unfinished page work order.
 - [x] `genealogy-wiki codex-assemble` command that assembles completed page Markdown into a converted document.
+- [x] `genealogy-wiki prep-index` command that inventories `raw/sources/` with media type, size, hash, and linked conversion jobs.
+- [x] `genealogy-wiki prep-chunk` command that writes page-scoped chunks for massive converted Markdown files.
+- [x] `research/_staging/` scaffold for post-conversion draft packets, claims, reviews, and promotion notes.
 - [x] `genealogy-wiki claim` command.
 - [x] `genealogy-wiki relationship` command.
 - [x] `genealogy-wiki index` command for claim and relationship JSON.
@@ -162,22 +175,27 @@ genealogy-wiki lint --root my-family-research
   - [x] `wiki/relationships/`
   - [x] `wiki/events/`
   - [x] `wiki/places/`
-  - [x] `wiki/sources/`
-  - [x] `wiki/source-packets/`
+  - [x] `research/sources/`
+  - [x] `research/source-packets/`
   - [x] `wiki/claims/`
   - [x] `wiki/evidence/`
   - [x] `wiki/conflicts/`
   - [x] `wiki/identity/`
   - [x] `wiki/photos/`
-  - [x] `wiki/questions/`
-  - [x] `wiki/tasks/`
+  - [x] `research/questions/`
+  - [x] `research/tasks/`
   - [x] `wiki/narratives/`
   - [x] `wiki/context/`
   - [x] `wiki/timelines/`
   - [x] `wiki/trees/`
+- [x] Agent-maintained system directories outside the Obsidian vault:
+  - [x] `research/_staging/`
+  - [x] `research/_indexes/`
+  - [x] `research/_templates/`
 - [x] Immutable raw source directories:
   - [x] `raw/sources/`
   - [x] `raw/converted/`
+  - [x] `raw/chunks/`
   - [x] `raw/assets/`
 - [x] Templates for:
   - [x] branch
@@ -224,6 +242,16 @@ genealogy-wiki lint --root my-family-research
   - [x] parent younger than 12 at child birth
   - [x] event after participant death
   - [x] same participant in two places on same date
+- [x] Post-conversion agent playbook: `docs/post_conversion_agent_workflow.md`.
+- [x] Repo skills for staged post-conversion work:
+  - [x] `post-conversion-wiki-ingest`
+  - [x] `genealogy-claim-extraction`
+  - [x] `genealogy-proof-review`
+- [x] Project custom agents for staged workflows:
+  - [x] `evidence_extractor`
+  - [x] `claim_reviewer`
+  - [x] `identity_researcher`
+  - [x] `wiki_promoter`
 
 ## Not Yet Implemented Checklist
 
@@ -286,7 +314,10 @@ genealogy-wiki lint --root my-family-research
 - [x] Completeness audit section for checking page metadata, printed headers, body rows, blank rows/end notes, captions, marginalia, stamps, seals, and page numbers against the source.
 - [x] Local Codex conversion workbench under `raw/codex-conversion-jobs/`.
 - [x] Per-page work orders that preserve transcription, translation, interpretation, uncertainty, image/caption notes, genealogy leads, and completeness audits.
+- [x] Per-page extracted image output folders under each Codex conversion job.
 - [x] Converted Markdown assembly to `raw/converted/<job>.codex.md`.
+- [x] Source-prep manifest for raw source inventory and conversion-job linkage.
+- [x] Page-scoped chunking to `raw/chunks/<converted-source>/`.
 - [ ] Actual layout/region detection from images and PDFs.
 - [ ] Table/grid structure detection without hardcoded record-specific columns.
 - [ ] Handwritten text recognition integration.
@@ -388,6 +419,7 @@ genealogy-wiki lint --root my-family-research
 - `README.md`: general project usage.
 - `GENEALOGY_WIKI.md`: operating manual for agents maintaining the genealogy wiki.
 - `docs/genealogy_wiki_strategy.md`: requirement map and guardrails.
+- `docs/post_conversion_agent_workflow.md`: post-conversion agent, skill, staging, review, and promotion playbook.
 - `docs/refinement_contract.md`: contract for vision/HTR page refinement.
 - `src/historic_doc_ingest/genealogy_wiki.py`: genealogy wiki CLI, templates, linting, source packets, tree generation, narrative compilation.
 - `src/historic_doc_ingest/pipeline.py`: PDF ingestion pipeline.
@@ -399,6 +431,7 @@ genealogy-wiki lint --root my-family-research
 ## Current Caveats
 
 - The genealogy system is currently file/template/CLI based. It is not yet a full database or graph engine.
+- Post-conversion LLM outputs are staged in `research/_staging/` first; canonical promotion remains a manual/reviewed workflow, not a fully automated extractor.
 - The dynamic material staging command creates packet/source files and stages source media. Actual high-accuracy conversion now uses `genealogy-wiki codex-job`, page work orders, and `genealogy-wiki codex-assemble`.
 - The tree generator creates a Mermaid view from relationship pages, but it is not a true genealogical chart layout yet.
 - The narrative compiler is deliberately conservative and currently emits claim bullets rather than polished prose.

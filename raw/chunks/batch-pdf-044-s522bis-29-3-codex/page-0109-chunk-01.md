@@ -1,0 +1,276 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0109-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 109
+page_end: 109
+part: 1
+---
+
+# Page 109
+
+## Page Metadata
+
+- Source page: 109
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0109.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+V
+y^mision no la acordô? Precisamente fueron los
+diputados de
+ese sector los
+que
+se opusieron
+a
+esa inclusion.
+•««.Sr. Pefia.
+<— Yoy a espliear a la câjnara lo
+sueedido al respecto.
+Era miembro enfonces de la eomisiôn de pre-
+supuesto. Al examinai1 el presupuesto de rela-
+ciones
+exteriores y culto,
+nos detuvimos
+ante
+una partida ciel proyecto enviado por el pocler
+ejecutivo
+con una leyenda cuya redaccién era
+mas
+o menos esta: “Para el pago de las cuotas
+correspondientes
+a la Republica Argentina en
+el presupuesto oficial de la Liga de las nacio-
+nes por los anos de 1919 y 1920”, tal suma que
+no podrîa précisai" aliora.
+Pregunté yo ante ella: j Y que la Republica
+Argentina esta
+en la Liga de las naciones? Y
+formulé
+esta pregunta sabiendo que no estaba
+o no podia estar en ella, y no podia estai1 en ella
+porque el congreso argentino no habia autoriza-
+clo aûn la incorporacion a la Liga de las naeio-
+(
+nés.
+Para la incorporacion
+era
+indispensable
+aeeptar tratados y convenciones, que en este ca-
+so, eran de gran alta transcendencia para la Re¬
+publica.
+i^Considerâbamos el asunto a mediados de sep-
+I tiembre ciel ano pasado, en momentos en que el
+candidate repnblicano
+a la presiclencia de los
+Estados Unidos, Mr. Harding, cuyo triunfo se
+descontaba, recoma el territorio de aquel vas-
+to pais en gira de propaganda; y diariamente
+en nuestras grandes bojas periodisticas leiamos
+sintesis de
+sus disciirsos.
+Mr. Harding propagaba ideas adversas a la
+incorporacion de los Estados Unidos a la Liga
+de las Naciones, siendo uno de sus principales
+argumentas que la incorporacion implicaba acep-
+jtar limitaciones a la soberama. nacional, limita-
+| ciones en que los Estados Unidos no podian con¬
+venir sin una previa reforma de la constitucion.
+Yo, que no soy perito en cuestiones interna-
+cionales, aunqne tengo las nociones bâsicas ne-
+eesarias para eomprenderlas, dije a mis colegas
+de eomisiôn: si el congreso aprneba esta parti¬
+da del proyecto del poder ejecutivo para el pre¬
+supuesto oficial de la Liga de las naciones, sig-
+nificarîa aeeptar
+que la Republica Argentina
+esta incorporada a la Liga, es decir que ha con-
+traido obligaciones internacionales de las
+mas
+sérias,
+como son aquellas que pueden importar
+una limitaciôn a la propia soberania, sin el eon-
+genso previo del congreso, sin tener el menor an¬
+técédente acerea de los compromisos contraidos
+al respecto por el poder ejecutivo.
+Ahora aquello de incorporar la Republica a
+la Liga de las naciones por la leyenda de una
+simple partida del presupuesto, me parecîa ab-
+surdo, y nada serio.
+Por
+taies consideraciones la mayorîa
+en
+la
+eomisiôn de presupuesto rechazô la partida ; pe-
+ro
+dândonos cuenta de
+que la eliminaciôn de
+la partida podrîa traer dificultades ai poder
+ejecutivo
+en su polîtica ante la Liga, propuse
+una leyenda que modifiease en términos que no
+implicaran el reconocimiento claudestino, dirîa,
+de nuestra incorporacion a la Liga, y asî decir,
+por ejemplo : para gastos relacionados con ges-
+t-iones ante la Liga. Este temperamçiito no fué
+aceptado.
+Si alguna responsabilidad cabe por el reclia-
+zo
+de
+esa partida,
+yo la
+asumo integramente,
+creyendo que mi conducta lia sido sincera y le¬
+gal. No importaba abrir juicio
+sobre la Liga
+de las naciones, ni se inspiré mi actitud en un
+propôsito de hostilidad Macia la polîtica ciel po.
+der ejecutivo que proeuraba la incorporacion de
+la Republica a la Liga.
+De
+manera que la primera pregunta del
+se¬
+nor diputado por la Capital sobre si la Repu¬
+blica Argentina esta o no en la Liga de las na-
+ciones puede
+ser eontestada clesde luego, sobre
+toeîo por un miembro
+ciel
+congreso,
+que desde
+el punto de vista de nuestro derecho interno, ya
+legal
+o ya constitucion al la Republica no esta
+en la Liga de las naciones.
+Si consideramos la Question mirândola desde
+la Liga de las naciones,
+es posible que, en vista
+de los anteeedentes que pareialmente lia relaeio-
+naclo el senor cîiputado cle Tomaso y antécéden¬
+tes publicados por el gobierno, lleguemos
+a la
+conclusion
+cle
+que los componentes cle la
+aso-
+ciaciôn, tengan
+mas cle
+un motivo
+para consi¬
+dérai1 que la Republica Argentina esta en la Li-
+ga de las naciones.
+Tal anomalia
+es la que expliea el estado- de
+ducîa
+en esta Question de saber st la Republi¬
+ca Argentina esta o no en la Liga.
+Pero
+de
+esa
+situaciôn
+equivoea no pnede
+culparse en forma alguna al congreso y menos
+a rjingun miembro cle él...
+Sr. del Valle,
+— j Me permite el senor dipu¬
+tado?.
+..
+Sr. Pefia-,
+— Voy a terminai1.
+Sr. del Valle.
+— Es para decirle que yo no
+lie
+lieebo
+cargos
+a nadie;
+he bistoriado
+una
+situaciôn y nada mas. No me creîa autorizado,
+en nombre de la eomisiôn de presupuesto, para
+hacer cargos
+a nadie.
+Sr.
+Pefia,.
+—- Exeûseme
+el
+senor diputado;
+pero
+podrîa
+desprenderse de
+su exposieiôn,
+■sin aclarar mayormente el asunto,
+que la
+co-
+misiôn de presupuesto, era la que habîa impe-
+dido
+que existiera la partida,
+séria
+responsa¬
+ble de la situaciôn moral
+que
+se ha creado
+a
+la Republica por la falta de pago de la cuota.
+Sr. del Valle.
+— No ; mi propôsito era esta-
+blecer que el poder ejecutivo habîa solicitado
+en tiempo
+los
+fondos
+para
+una
+annalidad
+vencida y para la que coma.
+Sr. Pefia.
+— En lo que respecta a los gastai
+cle la delegaciôn, esté el dato en el informe 38-
+timo de contadurîa de que por un acuerdo de
+ministros
+se dispuso el pago de una eantidad
+de
+130 ô 150.000
+pesos
+por eoncento de lo»-
+i
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 109.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,319 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-09e4cb999ef7-P0934-01
+source_converted: raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+converted_sha256: 09e4cb999ef7849184392fb67703554132ffaa522227f2b4a9ff028efd3cb5bf
+source: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/source/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+page_start: 934
+page_end: 934
+part: 1
+---
+
+# Page 934
+
+## Page Metadata
+
+- Source page: 934
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0934.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+à la Croix-Rouge, aux Croix-Rouges nationales, comme à la Croix-Rouge internationale des
+tâches
+nouvelles. Ils demandent que dans cet édifice de la Croix-Rouge cette combinaison
+d'activités nationales et internationale existent l'ordre
+et
+la
+méthode.
+Ils
+demandent
+que
+les
+organes d'exécution de
+la
+Croix-Rouge
+répondent loyalement
+dans
+leur
+composition,
+dans les méthodes qu'ils sont capables d'appliquer,
+au rôle qu'ils ont à jouer dans l'ordre
+international.
+Ceci
+est
+en particulier
+vrai
+pour
+cet
+organe
+de
+la
+Croix-Rouge
+qui
+est
+appelé
+en collaboration,
+et toujours en collaboration
+avec
+les
+Gouvernements,
+à
+exercer
+sa mission
+en temps de crise, en temps de difficultés extérieures ou intérieures, à l'occasion
+d'affaires litigieuses entre les Etats eux-mêmes.
+Le
+statut
+qui
+vient d'être si complètement exposé devant
+vous répond-il à ces con¬
+ditions? Nous
+croyons
+pour
+notre part pouvoir déclarer: oui. Il répond à ces conditions
+parce
+qu'au
+faite
+de
+l'édifice
+il
+y
+a
+maintenant
+un
+organe
+suprême
+qui,
+il
+est vrai,
+existait
+déjà
+précédemment,
+mais dont aujourd'hui les
+compétences dans
+les limites des
+statuts
+sont
+nettement
+fixées
+et
+devront
+être
+reçues
+par
+tous
+ceux
+qui
+les
+auront
+reconnues, c'est-à-dire par l'universalité. Le statut puisqu'il devait
+se trouver
+en
+présence
+de plusieurs organisations de-fa Croix-Rouge procède à une répartition judicieuse et claire des
+compétences,
+laissant
+à chacun des différents organes véritablement
+les tâches qui doivent
+lui revenir.
+Mesdames,
+Messieurs,
+le
+Comité
+international
+de
+la Croix-Rouge
+demeure
+dans
+sa
+composition
+et
+dans
+son
+rôle
+qu'avec
+raison on
+a pu appeler traditionnel et historique.
+Sa formation est là. Quant aux hommes d'action et de dévouement qui, hier comme demain,
+doivent le composer, pour qu'il puisse jouer
+son
+rôle,
+qu'il
+me
+soit
+permis,
+sans
+fausse
+modestie
+de Suisse,
+de dire que
+nous avons
+la conviction
+de
+pouvoir mettre
+au service
+du
+monde
+ces
+citoyens
+parce
+que
+leur
+chemin
+sera toujours éclairé par
+ces traditions
+lumineuses
+et
+décisives
+de
+plus
+de
+60
+ans et
+que
+pour
+mériter
+et
+conserver
+votre
+confiance,
+celle
+des
+Sociétés
+nationales
+et
+des
+Gouvernements,
+nous
+savons
+qu'aucun
+travail
+ne leur coûtera et qu'aucune tâche ne leur paraîtra lourde.
+La Ligue, Mesdames et Messieurs, a" devant elle un champ d'activité immense, je dirai
+même
+illimité.
+Elle
+appréciera avec les institutions entrant
+en ligne de compte,
+avec les
+Gouvernements,
+de
+quelle
+manière
+elle
+pourra
+déployer
+son activité à laquelle pourront
+recourir dans différents pays d'autres institutions.
+Je dois conclure. Monsieur le Président, et je le fais en disant que nous avons devant
+nous, par nos statuts,
+une armature solide. Je sais qu'étant le résultat, dans plusieurs de
+ses parties, d'un compromis — et il ne pouvait en être autrement — toutes ces parties ne
+sont pas de nature à satisfaire tout le monde. Mais il me sera peut-être permis. Monsieur
+le
+Président,
+de
+lire
+ici
+que néanmoins nous pouvons considérer ce compromis comme
+loyal et sincère et digne de la Yille de la Paix, du droit, de la justice et de la conciliation
+internationale
+dans laquelle
+ce Statut va recevoir sa sanction définitive.
+Mesdames. Messieurs. Je n'ai plus qu'une pensée et elle va aux artisans de l'immense
+travail
+qui
+a
+été
+accompli
+et
+dont
+le
+chemin
+a été quelque peu long et parfois même
+difficile.
+Certains
+de
+ces
+artisans
+ne
+sont
+plus
+parmi
+nous. Nous voulons nous incliner
+avec
+respect et émotion
+devant leur mémoire. D'autres sont ici présents. Remercions-les;
+témoignons-leur
+notre
+confiance
+et
+assurons-les
+de
+notre
+collaboration complète
+pour la
+réalisation
+de
+cet
+idéal
+que
+nous
+aurons
+la
+permission d'appeler nôtre si nous sommes
+prêts à lui vouer toutes nos forces. (Applaudissements.)
+S.
+E.
+le général Roell (premier vice-président).
+—- Nous allons procéder au vote.
+Je
+vous
+rappelle que chaque comité central et chaque Etat
+a droit à une voix. Il
+en est de
+même pour le Comité international de la Croix-Rouge.
+Je prie M. le Secrétaire général de bien vouloir procéder à l'appel d'abord des Sociétés de
+Croix-Rouge, ensuite des Gouvernements et enfin du Comité international de la Croix-Rouge.
+— 20
+—
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 934.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

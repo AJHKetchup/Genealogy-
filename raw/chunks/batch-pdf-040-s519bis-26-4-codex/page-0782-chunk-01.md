@@ -1,0 +1,812 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b92474421d0f-P0782-01
+source_converted: raw/converted/batch-pdf-040-s519bis-26-4.codex.md
+converted_sha256: b92474421d0f213d486a5af77570cd6e2fba3c8eced7b2280d658e00e42ab146
+source: raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/source/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/manifest.json
+page_start: 782
+page_end: 782
+part: 1
+---
+
+# Page 782
+
+## Page Metadata
+
+- Source page: 782
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0782.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+(Viene de la la. pâjin/a)
+importantes de Francia y habia ido
+ailé exclusivamente
+a tomar
+nota
+del
+/Congreso Internacional
+Feme
+nine al cual asisti
+yo représentait
+do
+a la Repûblica. ‘Mirelo, aqui es-
+| ta conmigo en una fotografia (y
+1 nos muestra
+una postal tomada en
+j|el patio del Krall, lugar ampli o y
+lindrsimo
+en cuyos
+sâlones
+se
+cé¬
+lébré
+el
+Congreso)
+se
+llama
+M.
+Duerberg,
+es doetpr, en derecbo
+y
+representaiba al “Journal 'Parisien”
+y a “iL’Oubre de Paris”.
+—En Europa hay
+un de'sconoci-
+miento
+cabal
+de
+Santo
+Domingo.
+Esto le da
+una idea.
+('La
+charla
+se
+interrumpe
+por
+varios
+segundos.
+El
+Senador
+.Ma
+nuel
+de
+Jésus
+/Gômez
+ha llegado.
+Habia de Dereoho después de (ha-
+blar
+de Francia.
+Una
+nueva copi-
+ta
+servida
+por las
+manos-poemas
+de iConsuelito Paradas y la dharla
+se reanuda).
+Alema nia me ençantô por sus mu
+jeres. Son bravas y estân ya
+a la
+mismsa altura de los bom'bres. Re-
+cuerdo complacida
+y entusiasmada
+ail Jefe de la Policia Berlinesa, que
+es
+una mujer tremenda,
+una
+mu-
+ler. que da la
+idea
+de
+la
+mujer
+quia tiene deerçiho al voto.
+La re-
+cuerdo
+por esto:
+una cbica babia
+hedho un robo y eflla estaba persi-
+guiéndola;
+la clhica
+se vio
+acorra
+lada
+y la ûnica isalida
+-que tenia
+era ,el rio y a él
+se tiré, ipero tras
+de eila fué también
+el Jefe
+de la
+Policia
+y
+veinte
+minutos
+después
+la traia
+por dos cabeillos. Esta
+es
+la mujer preparada
+para el voto.
+Ouando
+en
+.Santo
+Domingo
+estén
+en estas mismas condiciones enton
+ces
+yo
+seré
+sufragista,
+mientras
+tanto no, y esto lo particiipé en la
+Liga
+de
+las
+Naciones,
+:pero
+ellos
+quisieron
+enviarme
+argumentando
+que habian otros problemas soeia
+les,
+educaciones,
+higiénicos
+etc.
+etc, que tratar y, nataralmente, no
+quise que faltara alli la represen-
+itaciôn
+de
+la Repûblica Dominica-
+na.
+1L0 ûnico que no me hizo much a
+gracia en Ailemania, fué su bendita
+[ comida....
+que comida.... !
+—iParis, por el contrario.
+.
+.
+Pa¬
+ris sigue siendo Paris, encantador,
+con,
+sus
+divinos
+embrujamientas,
+con su mûsica siempre dulce, y Sui
+za,
+oh, Suiza. /Suiza
+e,s
+un parai-
+so.
+El /Parque “Mi
+Repo'so”
+es lo
+mâs delicioso tçive
+se puede
+conse-
+guir en el mur do.
+.
+.
+.
+(En los ojos de todos hay como
+un
+paseo por aquel divino paraje
+de la Europa .vieja)
+—Ud. querrâ. nataralmente, mis
+impresiones
+scxbre
+las
+cuestiones
+cficiales.
+Oigalas,
+pues:
+oal
+opmemKwyp
+cmtwypywwyyw
+—(Le diré .que mi llegada tuvo lu
+gar la noclhe deil 27 de mayo y dos
+dias después tuve el honor de ser
+presentada
+al
+'Senor
+Comert.
+Mi labor,
+pues, se injçiô en la So-
+ciedad de las Naciones como tue¬
+ra
+de ella
+en Madrid
+y Berlin
+a
+partir del 30. La primera semana
+la
+dediqué
+al
+estudio
+de algunos
+documentas relativos a la Liga. En
+©î
+estudio
+que
+ihice,
+siguiendo
+el
+orden metôdico,
+me ocupé
+en leer
+y reileer el Pacto. iPude darme per-
+fecta cuenta de .que eso constituye
+una Oonvenciôn 'General y que, por
+consiguiente,
+es
+>el
+consentimieto
+el pricipio
+que sirve de fundamen
+to. Le dediqué mi
+atenciôn
+a los
+fines de organizaciôn de la .Socie-
+dad de las Naciones, de gran tras-
+eendencia moral: garantizar la paz
+del mundo y mejorar las condicio¬
+nes vitales de .la Humanidad en .sus
+diferentes aspectos. En el informe
+que présenta al senor Comert ana-
+lizo, punto por .punto, las cosas de
+la 'Liga, de la cuall dediqué mis ma
+yores actividades al estudio de sus
+dos ôrganos principales, la Asam-
+blea y el Consejo. Tuve la satisfac
+cién de ©star presents en las decla
+raciones beclhas por el Delegado de
+Ohile,
+senor Villegas, referente al
+restablecimiento
+de
+las
+reflaciones
+con el Peru, mediante
+el Tratado
+firmado por los IPlenipotenciario de
+amhos paises en ./Lima. Asi mismo
+estuve présente cuando los delega
+dos da casi todos los paises habla-
+ron
+al
+margen de la solucién de
+ese problema entre dos pueblos her
+manos. Presencié los debates rela¬
+tives
+a
+las min-orias, al désarmé,
+al opio etc.,
+etc.,
+Estas
+son.
+los /puntos .que mâs atenciôn y esta
+dio
+le
+requieran
+a la
+Liga,
+pero
+para nosotros
+los dominicanos
+no
+tienen ninguna importancia direc-
+ta, por lo cual le dediqué mâs tiem
+po
+a otros asuntos de mayor uti-
+lidad
+y
+esencialmente
+necesarios
+para la Repûblica Dominicana, en
+donde
+desenvolvi
+mis
+actividades
+en
+pro de
+la
+magna obra de la
+Sociedad
+de
+las
+Naciones.
+Asi,
+pues, estuve en Berlin donde asis¬
+ti al Congreso Femenista organiza
+do
+por “Alianza Internacional
+pa¬
+ra
+e'1 Eufragio y la Acciôn Civica
+y Civil
+de
+las 'Mujeres.”
+Muchas
+cuestiones
+de
+gran
+trascendeneia
+fueron tratadas
+en las
+reuniones
+celebradas /por el 'Congreso, entre e-
+llas
+la
+igualdad
+de
+salario
+para
+los 'hombres
+y las mujeres.
+Otros
+puntos también
+muy importantes,
+pero
+equivocados,
+fueron
+aproba-
+dos. 'Por ejemplo. el establecimien
+to de la misma <».ad para el hom-
+bre y la mujer para la celebracién
+del matrimonio. Eso
+no
+es posible
+en todos los paises, como Ud. corn
+prenderâ, /pues en unos la Natura
+leza se atrasa y en otros se adelan
+ta, tanto en el Ihombre como en la
+mujer. Ni
+en esa ni en otras mu-
+dhas cuestiones .que
+son
+de orden
+püblico, puede establecerse
+una i-
+gualdad
+abs/dluta
+entre
+los
+dos
+sexos
+y abogar por ella es preten
+der contrariar a la Naturaleza.
+>De vuélta a las actividades de la
+Li.ga, le dediqué mis entusia/smos a
+las cuestiones educacionales
+y
+so¬
+ciales que son de las cuales pode-
+mos nosotros derivar ventajas.
+Durante la primera semana asis
+ti dos veces
+a las reuniones de la
+Comisiôn de Mandatos. Esta Gémi
+siôn conociô de un informe de la Ad
+ministraciôn de Nanne, durante el
+aiio 1928 y otro de Nueva Guinea,
+del 1 de Julio de 1927 al 30 de Ju-
+nio de 1928. Por supuesto que el e-
+xamen que ihace esta Comisiôn de
+los iproblemas eeonomieos, de higie
+ne ipüblica, tratamiento
+de
+los in
+digenas
+de los territories
+bajos
+mandatas etc. ©ta. es battante lar
+go y no podia yo presenciarlo todo
+en un par de reuniones. En una de
+ellas
+se procediô al interrogatorio
+de
+un
+Comisionado
+que presenciô
+en
+uno de estas territorios, una in
+surrecciôn de 'los naturales.
+Incapaees
+para
+gobernarse
+por
+si mismo algunos territorios, es o-
+bra de deber regirllos y educarlos.
+'Durante esta misma semana pa-
+sé a presenciar, las reuniones de la
+Sub-'C'omisiôn
+de
+Relaciones
+Uni-
+yersitarias, presidida ipor M. Rcc-
+co, Ministre de Iinstrucciôn Pûbli
+ca
+de Italia, considerado
+como la
+primera cabsza del
+Fascismo. .Es
+un bombre de una genial inteligen
+cia. Esa iSub-Comisiôn examiné dos
+pu/blicaciones preparadas por el lins
+ti.tuto
+de ICooperaciôn- Intéleetaal.
+Una trataba sobre los cambios uni
+versitarios en Europa y la otra so¬
+bre
+los
+cursos
+de vacaciones. Ade
+mâs conociô
+de
+los
+resulta'dos
+de
+las reuniones que ban celeforado en
+el
+curso del
+ano, los représentan¬
+tes
+de los
+Institutos
+de los
+Altos
+Estadios Universitarios, lo:s Di res¬
+tores del iS’ervicio Universitario
+y
+los Représentantes
+de las Organi-
+zaciones
+Internacionales
+de
+Estu-
+diantes..
+El titulo solaniente de ia moncio
+nada
+'Sub-Comisi/ôn
+me
+indicaba.
+antes de presenciar sus trabajos y
+de estudiar
+sus fir.aüdadps, que es
+un medio .para facilitai' el cambio
+de pro.fe.sôres!’)ÿl'^stlûdiantes entre
+los diferentes
+paises
+y a.entar la
+cqlaboraciôn
+por
+medio
+de
+repré¬
+sentantes de las asociaciones çsta-
+diantiles, promoviendo de este mo¬
+do
+un acercamiento intdectuab
+La
+semana siguiente la dvliqué
+al
+estudio
+de
+la
+Suo-Comisbn
+ue
+Letras y de Artes, dependienie de
+la ‘Comisiôn Internacional de Cocpe
+raciôn Intclectual.
+En las
+reunio¬
+nes
+de
+esta !Suib-lComïsiôn fueron
+examinadas
+cientos
+de
+cuestiones
+relativas a las relaciones artisticas
+y literarias y, aparté del Institu-
+to de 'Cooperaciôn Intellectual, tam
+bién fueron revisados los trabajôs
+det
+Servicio Internacional
+de
+los
+Museos y de la /Comisiôn Consulti-
+va
+del
+Servicio
+Internacional
+de
+los
+Museos.
+La
+lSufoJComisiôn
+de
+Letras y Artes aprobô très inters
+santés proyectos: uno sobre la uni
+ficaciôn
+de
+los catâlogos
+de
+mu¬
+seos; otros sobre la unificaciôn de
+las condiciones para fotograiîiar en
+los
+museos
+y
+el
+tereero
+.sobre la
+creaciôn
+da
+una Carta
+Internacio
+nal
+de entrada
+en las
+colecciones
+de
+obras
+de
+arte.
+En la primera
+reunion:
+la publlicaciôn de
+una
+co
+lecciôn
+de
+obras
+maestras
+de
+los
+mâs importantes escritores
+i’bero-
+americanos.
+Diversos
+temas fueron tratados
+en
+estas reuniones,
+de
+las
+cuales
+escribiré mis imprésiones para pu
+blicarlas en la prensa de la locali-
+dad
+o para /éxponerlas en una con¬
+ference
+a mis compareras de “No
+sotras”.
+En
+esas
+reuniones
+pu,de
+oir la palabra de los mâs autoriza
+dos profesore's y literatos de
+reco
+nocida fama.
+,
+Asisti
+también
+a las
+diversas
+’
+reuniones
+de 'la 'SubqComisiôn
+.de |
+Ciencias y de Bibliografia, en una
+de las cuales
+se estudio el primer
+bosqu-ejo de un Anuari© Internacio
+nal de Estad 1st ica Intelectual;
+de
+la iC'omisiôn Nacional de 'Coopera¬
+ciôn
+Intelectual
+y
+de
+las
+demâs
+S'utaComisiories, (Después me dedi¬
+qué
+a estudiar al.gunas pqblicacio
+nés
+que
+creo
+que
+me
+/sera utiles
+para Santa Domingo.
+Sostuve
+largas
+eonversaciones
+con Mademoi.sel a 'Crandy, una da¬
+ma inglesa de la aristocracia que
+durante Sia guerra ,se arruinô y q.
+a'hora se ba dedicado a los ,estadios
+de
+los
+problemas
+sociales;
+Made¬
+moiselle Crandy es una dama de po
+derosa inteiigencia
+y
+con ella
+he
+habia,do
+acerca de algunas cuestio
+nés sociales que
+pueden interesar
+directamente a /Santo Domingo. Co
+mo re'sultado de nuestras conversa-
+ciones quedé de enviarle, tan pron
+to
+como llegar aqui, las Oeyes rela
+tivas a la protecciôn de la infancia,
+a la
+edad
+del matrimonio, autori
+dad paterna etc, etc.
+El
+senor Nogueira tuvo la
+gen
+ti/leza de bacerme cuantas explica
+ciones creyo necesarias
+y
+que
+me
+serân de mucha utilidad para mi la
+bor aqui en Santa Domingo.
+te
+_
+_
+_
+fâftwsiiîîrimpOT-
+fancîa
+y
+su labor muy considera¬
+ble, ya
+que publica todo cuanto en
+la Sociedad ,de las Naciones se hace
+y recoge todo cuanto de esta insti |
+tuciôn
+se publica.
+M/ültiples
+son las actividades de
+la Sociedad de las Naciones: poli-
+j
+ticas
+economieas,
+financieras,
+hi-
+j
+giénicas, intelectuales etc. Vasto es
+su piano de acciôn, complejisimos
+sus problemas. 'Estudiarlos .bien to
+dos y abarcarlos en tan poco tiem
+I
+po
+es
+imposible.
+Mis
+conceptos,
+pues,
+son generales y
+a lo
+que 'le
+he dedicado
+mayor atenciôn
+es
+a
+la
+Cooperaciôn Intelectual
+porque
+creo
+que
+e’s
+lo
+que
+mâs
+ventajas |
+directas puede ofrecernos.
+/Estas son mis impresiones sobre I
+la labor de la iSociedad de las Na¬
+ciones
+y
+©1
+Congreso
+Internacio¬
+nal Femenino cékibrado
+en Berlin
+I
+Hemos
+oido
+con
+admiraciôn
+el
+relata de la labor realizada por es |
+ta mujer exlraordinaria
+y al con
+1
+cluir ella lios'diemos levan'tado de
+nuestro
+as-iento
+automaticamsnte.
+Opinio ha ihecbo lo mismo. Ni una
+palabra de despedida. Estrecbamqs
+sus
+manos. /No
+sentimos la debili-
+cad de una mujer como las de todas
+las mujeres
+que
+no ban roto
+los
+[
+ïormulismos,
+pero si
+la
+suavidad
+de rosa. Otras manos, las de Con-
+sue'lito
+Paradas, mâs perfumadas
+que las flores que aromaban la pe-
+quena
+estancia
+donde
+estâ/bamos,
+nos vuelven
+en
+si.
+_
+|
+En
+la
+call©
+un agente policial,
+i
+endémico, /pâlido,
+nos
+recuerda el
+!
+relata
+de Ana Teresa.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.

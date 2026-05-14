@@ -1,0 +1,126 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0430-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 430
+page_end: 430
+part: 1
+---
+
+# Page 430
+
+## Page Metadata
+
+- Source page: 430
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0430.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+8
+SÉANCE
+DU
+22 JUILLET 1929
+M. du Sault (France)
+:
+Je voudrais ajouter un mot qui rentre tout à fait dans les vues de la délégation delà Grande-
+Bretagne. Si nous laissions «c'est-à-dire de caractère non militaire», il y a toute une série de délits
+qui m'ont tout à fait l'air d'être des délits de droit commun et qui ne rentreraient peut-être pas
+dafis la catégorie visée ici. Je prends par exemple le cas d'un prisonnier qui, au cours d'une
+inspection d'un général de l'Etat capteur, l'insulte gravement, se porte même à des voies de
+fait sur lui. Ce délit
+a un caractère militaire
+; il me semble difficile de le considérer cependant
+comme n'ayant pas le caractère d'un délit de droit commun. C'est pourquoi je suis de l'avis
+de supprimer la lin de la phrase qui peu! prêter à confusion.
+M. le Président
+:
+Est-ce que la délégation japonaise peut accepter que la phrase se termine par « de droit
+commun
+« ?
+Le Lieutenant-Colonel Shimomura (Japon)
+:
+Je vous demande pardon d'insister, mais nous ne sommes pas encore bien convaincus.
+J'ai peut-être mal choisi l'exemple que je vous ai donné., Je vous serais par conséquent recon¬
+naissant de nous laisser un peu de temps, jusqu'à la fin de la séance, pour nous permettre de
+bien réfléchir.
+L'article 75 est réservé jusqu'à la seconde lecture.
+A rticle 76
+.
+M. Werner (C.I.C.R.), rapporteur :
+Ce
+matin,
+M.
+le
+président
+Dinichert, dans le comité de coordination des textes de
+cette Convention et de la Convention de Genève, a exprimé le désir que le second alinéa de cet
+article 76 soit reporté à l'article 3, conformément, à une proposition faite, sauf erreur, par la
+délégation suisse. M. Dinichert avait l'impression que mettre le testament en relation aussi
+étroite avec le décès n'était peut-être pas très heureux, puisque le testament est fait avant le
+décès.
+Le troisième alinéa devrait, dans cette hypothèse, recevoir une légère modification de
+forme qui n'a, du reste, aucune importance quant au fond. Il s'agirait de retourner la phrase,
+de la commencer et de la finir autrement. C'est là une pure question de rédaction.
+M. le Président
+:
+Je crois que nous pouvons tous nous rallier au désir exprimé par M. Dinichert, soutenu
+par M. le rapporteur. Il s'agit ici, comme on vient de le dire, d'une pure question de rédaction.
+L'article 76, ainsi amendé, est adopté.
+Article 77.
+Le Lieutenant-Colonel de La Harpe (Suisse), rapporteur :
+Vous avez remarqué certainement que c'est la première fois que nous parlons des «libérés
+sur parole ». La notion figure dans le Code bien que nous ayons supprimé, comme l'a dit M.
+le rapporteur de l'autre sous-commission, tout l'article qui les concernait.
+D'autre part, nous vous proposons, au cinquième alinéa, un addendum qui tend à intro¬
+duire au début de l'alinéa les mots
+:
+« sans préjudice des dispositions de l'article 5, le bureau
+portera sur cette fiche dans la mesure du possible
+». Dans cet article 5 on a autorisé les
+prisonniers de guerre à ne pas donner leur identité absolue dès le début. Or, certaines déléga¬
+tions ont fait remarquer qu'un bureau de renseignements serait obligé de demander tous ces
+renseignements. Il serait peut-être prudent, pour qu'il n'y ait pas de confusion et pour qu'on
+ne pense pas qu'il y ait divergences entre ces deux articles, d'insérer l'adjonction dont je vous
+ai donné lecture.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 430.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

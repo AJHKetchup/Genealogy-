@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b92474421d0f-P0147-01
+source_converted: raw/converted/batch-pdf-040-s519bis-26-4.codex.md
+converted_sha256: b92474421d0f213d486a5af77570cd6e2fba3c8eced7b2280d658e00e42ab146
+source: raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/source/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/manifest.json
+page_start: 147
+page_end: 147
+part: 1
+---
+
+# Page 147
+
+## Page Metadata
+
+- Source page: 147
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0147.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+24—
+tanto en la
+una como en la otra ensenanza.
+En la secundaria
+se ha comenzado a modificar el antiguo sistema de exâmenes de
+fin de curse, permitiendo que los alumnos se eximan de él cuando
+sus pruebas de aprovechamiento en tode el ano sean sobresa-
+lientes.
+Este sistema, que
+se va extendiendo también a la en-
+senanza primaria superior, estimula grandemente al estudio, y
+sus efectos benéficos pueden notarse ya, segûn el testimonio del
+profesorado.
+Recomendé al Consejo Nacional de Education,
+que lo adop¬
+té inmediatamente, el aumento de los dias de trabajo escolar,
+para lo cual debia habilitarse la manana del sâbado, fijando ade-
+mâs fechas précisas para lo® périodes de clases, de exâmenes y
+de vacaciones, asî como también la determination de los ûnicos
+dias fectivos para las escuelas.
+Se han fijado nuevos horarios
+escolares y aumentado las horas de trabajo excesivamente cor-
+tas que tenian las escuelas1 donde un grupo de ninos asiste por
+la manana y otro grupo por la tarde.
+Libros de textes.— También
+se vienen estudiando cuidado-
+■samente los libros que deben servir de textes a nuestras escue¬
+las, adoptando obras de tipo moderno y de precio mâs âccôsible
+a nuestros escolares que las que anteriormente se usaban.
+Ade-
+mâs, en vista de las difîcultades con que tropiezan muohos esco¬
+lares
+para la adquisieion de libros,
+se han adquirido grandes
+cantidades
+de ellos para prestarlos a los alumnos pobres.
+Por
+mi parte he decidido distribuir, con carâcter de obsequio, 20,000
+ejemplares de una cartilîa de leetura y escritura con buena parte
+de material dominicano, entre los alumnos de las escuelas' rudi-
+mentarias rurales, con el proposito de contribuir por este medio
+a la nacionalizaciôn de la ensenanza.
+Viene aplicândose con exactitud, pero con la lentitud nece-
+saria para estudiar cada caso en particular y tratar de evitar
+errores que puedan traducirse en injusticias, la Ley numéro 144,
+dictada en 1931, destinada a normalizar la situaciôn del magis-
+terio haciendo que los docentes sin titulo alcancen mediante el
+estudio el nivel de conocimiento necesario, demostrândolo en exa-
+menes cada dos1 anos, y que los incapaces de alcanzar aquel nivel
+dejen los puestos a personas mâs aptas. La calidad de la docencia
+va mejorando, tanto por el estudio que realizan los que perma-
+necen en sus puestos, como por la entrada de nuevos1 maestros
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 147.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

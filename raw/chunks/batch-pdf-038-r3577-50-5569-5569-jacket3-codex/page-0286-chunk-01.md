@@ -1,0 +1,161 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0286-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 286
+page_end: 286
+part: 1
+---
+
+# Page 286
+
+## Page Metadata
+
+- Source page: 286
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0286.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+8
+Séance
+du
+17 Juillet
+1929
+toutefois, en ce qui concerne la proposition française, nous craignons un peu que l'institu¬
+tion d'une.Cour suprême n'aboutisse au même résultat que la création d'une Cour internationale
+des prises par la 2e Conférence de la paix, à La Haye en 1907, cour qui n'a jamais fonctionné.
+Mais, d'une façon générale, nous sommes tout prêts à accorder nos suffrages au système d'arbi¬
+trage auquel ia Commission voudrait donner la préférence. Nous trouvons que la méthode
+proposée par l'Allemagne, par exemple, est digne d'être prise en considération.
+D'un autre côté, il nous semble que cet article n'est pas complet
+: la Convention ne fait
+aucune allusion
+à des convois
+ou
+à d'autres moyens de transport, par terre ou par eau, qui
+porteraient indûment'le signe distinctif de la Croix-Rouge. A ce propos, nous nous reportons
+à
+ce qui
+a été dit par un professeur japonais au sujet d'un convoi russe qui,
+pendant la
+guerre
+russo-japonaise,
+avait
+arboré
+indûment
+cet
+emblème
+au
+moment
+de
+sortir
+de
+Port-Arthur. Il nous paraît donc utile de considérer les moyens d'introduire dans la présente
+Convention
+une disposition, quelle qu'elle soit,
+destinée
+à empêcher
+que
+le
+signe
+de
+la
+Croix-Rouge soit arboré indûment sur des moyens de transport. Le professeur japonais dont
+je viens de parler avait envisagé la possibilité d'exercer le droit de visite. Je ne veux pas me
+prononcer sur ce point.
+En ce qui concerne le projet d'article 28 élaboré par le Comité international de la Croix-
+Rouge, je puis dire qu'au Portugal, le Code de justice militaire prévoit déjà certaines sanctions
+visant spécialement les délits contre le droit des gens, les abus d'autorité, ainsi que les délits
+contre les personnes et les biens en temps de guerre. Je crois, par conséquent, que nous nous
+trouvons parfaitement dans les idées qui inspirent cet article.
+Le Médecin Général Marotte (France)
+:
+Vous avez sous les yeux les observations présentées par la France au sujet de l'article 28.
+il
+me paraît absolument inutile de. les commenter et de prolonger ce débat. Si, comme cela
+paraît être l'avis de la délégation portugaise, votre Commission juge trop solennelle et inopé¬
+rante cette proposition d'un Tribunal arbitral siégeant au-dessus des nations, comme le dit le
+texte, et prononçant ses sentences » qui constitueraient une sanction morale d'une valeur indis¬
+cutable,
+» il me semble que l'esprit de cette observation française doit être entendu en ce sens
+qu'elle démontre la nécessité d'avoir prévu à l'avance un tel tribunal arbitral. C'est à ce point
+de vue que je me permettrai de faire-remarquer que, peut-être, la proposition formulée par la
+délégation allemande
+a
+un petit point faible, celui de prévoir la constitution du tribunal
+arbitral seulement à la demande d'un des belligérants. Tout le monde sera d'accord, je crois,
+pour reconnaître qu'il est indispensable de pouvoir statuer immédiatement
+sur toutes les
+infractions à la Convention de Genève.
+Or, pour cela, on ne peut attendre simplement une
+demande d'un belligérant de constituer la Commission envisagée dans l'amendement de l'Al¬
+lemagne. Je suis donc amené à m'associer entièrement à l'avis exprimé par M. le délégué de la
+Turquie, c'est-à-dire, en référer au Comité international de la Croix-Rouge, car ce Comité a
+donné la preuve qu'il est parfaitement à la hauteur pour résoudre, avec tout l'esprit d'impar¬
+tialité et de justice qui le caractérise, tous les cas de ce genre.
+M. Wadsworth (Etats-Unis). Traduction
+:
+La délégation américaine est très sympathique à l'observation présentée par la délégation
+française sur l'article 28. J'estime qu'il faudrait s'exprimer dans cet article d'une façon plus
+générale, dire par exemple que les Etats signataires devront prendre les mesures législatives
+nécessaires pour empêcher les manquements à la Convention.
+Nous devrions laisser aux Gouvernements et aux Parlements le soin de décider jusqu'où
+ces mesures législatives peuvent aller. Il ne me paraît pas utile de fixer dans la Convention
+un ou deux points, alors qu'il pourrait y en avoir bien davantage.
+Quant
+au tribunal, je ne vois pas comment un tribunal pourrait, en temps de guerre,
+comprendre deux représentants des belligérants;
+Un belligérant pourrait-il
+aller enquêter
+dans un pays adverse ? Cela me paraît impossible. On a décidé dans la sous-commission en ce
+qui concerne les prisonniers, de guerre, de confier
+ces questions d'arbitrage aux puissances
+protectrices. Cela me paraît être le seul système pratique. Je ne crois pas que nous puissions
+désigner un autre tribunal. Si l'on désignait par exemple le Comité international de la Croix-
+Rouge, je ne vois pas très bien comment celui-ci pourrait intervenir utilement dans des
+cas
+éloignés de son centre. Au contraire, la puissance protectrice pourrait le faire plus facilement.
+Quoi qu'il en soit, la décision à prendre ici devrait être en harmonie avec celle qui sera prise
+au sujet du code des prisonniers de guerre,
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 286.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

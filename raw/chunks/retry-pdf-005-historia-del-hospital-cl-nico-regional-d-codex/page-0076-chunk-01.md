@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-18f791a313e2-P0076-01
+source_converted: raw/converted/retry-pdf-005-historia-del-hospital-cl-nico-regional-d.codex.md
+converted_sha256: 18f791a313e22a2564ef29424e1907818c2898e6d892f758051d0e88c5cdb216
+source: raw/codex-conversion-jobs/retry-pdf-005-historia-del-hospital-cl-nico-regional-d/source/historia-del-hospital-cl-nico-regional-de-concep-47b759d1532f.pdf
+source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
+source_manifest: raw/codex-conversion-jobs/retry-pdf-005-historia-del-hospital-cl-nico-regional-d/manifest.json
+page_start: 76
+page_end: 76
+part: 1
+---
+
+# Page 76
+
+## Page Metadata
+
+- Source page: 76
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0076.jpg`
+- Extraction note: Text was extracted from the PDF text layer. Rendered page image remains the audit source for visual-only evidence.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, handwriting, stamps, and images may require later visual review.
+
+## Literal Transcription
+
+```text
+76 
+ 
+ 
+ 
+ 
+rápido, pero todo se fue dando de manera normal; nacieron sin ningún problema (…) y fueron 
+dadas de alta al día siguiente”. 
+“(…) las otras pacientes fueron evacuadas vestidas o con frazadas a 
+los 
+estacionamientos, gracias a las matronas y paramédicos de la sección, con ayuda de los internos 
+de Medicina . Las fuertes réplicas que se sucedían, sumado a la falta de suministros básicos y 
+mala comunicación,   aumentaba la angustia, pero logramos salir airosos gracias al trabajo de 
+todo el personal de turno ese día”. 
+“En las horas siguientes, concurrieron al Hospital el Jefe de Servicio Gonzalo Cuevas y el 
+Jefe de Pediatría Jaime Tapia, quienes querían conocer la situación, evaluar daños y trazar el 
+plan a seguir. De esta forma, a quienes seguían trabajando en el Hospital, con la angustia de no 
+saber nada de sus familiares y amigos, se sumaban nuevas personas que ponían en riesgo sus 
+propias vidas para salvar la de los demás” 
+La prensa de esos días informó con grandes titulares los daños materiales del megasismo 
+que ocurrió en la ciudad, y también del “terremoto social” (saqueos a gran escala por gente de 
+todos los niveles…), saliendo a nivel nacional e internacional esta mancha negra del 
+comportamiento de ciertos grupos de chilenos. Pero no todo fue tan negro: en esos días se 
+vieron gestos de solidaridad que pocos conocieron y que no ocuparon las principales portadas de 
+los diarios. 
+Otro relato en relación al terremoto lo hace la funcionaria Patricia Beltrán en el Boletín del 
+Hospital Guillermo Grant Benavente del 1 de Abril 2010: Ella estaba sola en la Central Telefónica 
+ubicada en el sexto piso de la Torre cumpliendo con su turno de noche “respondiendo un llamado 
+del Hospital de Los Ángeles cuando todo empezó a moverse. Intenté pararme, pero me caí. El 
+escritorio se desplazó hasta la puerta y me dejó atrapada. Recuerdo el ruido del terremoto y el de 
+los equipos de Informática cayendo al suelo. Yo estaba sola y a oscuras en el sexto piso de la 
+Torre. Después subieron los guardias a rescatarme y yo estaba muy angustiada. Me llevaron a la 
+Urgencia donde estaba la Directora del Hospital que me dijo: “Patricia, hay mucho que hacer, 
+cooperemos en lo que podamos”. Entonces ayudé a evacuar a los enfermos de Urgencias y 
+después me quedé acompañando a un paciente en el área de Estacionamiento”. 
+En el mismo Boletín se alude a dos mujeres, Ruth Troncoso y Sandra Soto, las primeras 
+voluntarias en ponerse a disposición y a ellas les siguieron profesionales de la salud y otras 
+áreas, estudiantes universitarios, estudiantes de Enseñanza Media, ciudadanos extranjeros y 
+muchos funcionarios del Hospital, que al ver paralizadas sus funciones habituales, no dudaron en 
+permanecer días y noches trasladando enfermos, asistiendo en Urgencias, en Archivo, 
+Lavandería o Alimentación, e incluso amasando y cociendo el pan para los enfermos. 
+En la cuenta pública sobre la gestión de 2010 que rinde el Dr. Boris Oportus, Director del 
+Hospital, hace un reconocimiento muy especial a la labor de Bomberos, Carabineros, Éjército, 
+Essbío y Radio Bío Bío, por la estrecha colaboración que tuvieron inmediatamente de ocurrido el 
+terremoto. Pero también hubo personas particulares que se acercaron al hospital a entregar su 
+valiosa ayuda, y citó algunos ejemplos: 
+“El Sr. Héctor Zapata Bustos : Se presentó en la mañana del sábado 27 de Febrero en el 
+Hospital y ofreció su panadería y los insumos necesarios para fabricar 60 kilos de pan diarios 
+para alimentación de los pacientes de este hospital. Desde esa mañana, y a diario por varios
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, marginalia, or layout nuance.
+- Pages with sparse or garbled text need later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this source-prep pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 76.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

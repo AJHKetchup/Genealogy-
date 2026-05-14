@@ -1,0 +1,141 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0224-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 224
+page_end: 224
+part: 1
+---
+
+# Page 224
+
+## Page Metadata
+
+- Source page: 224
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0224.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Séance
+du
+15 Juillet
+1929
+7
+■En 1906, la question a été longtemps agitée de savoir si, dans ce cas, la formation sanitaire
+conserverait son drapeau national ou bien si elle devrait arborer le drapeau du belligérant au
+pouvoir duquel elle est tombée. On est arrivé à cette solution transactionnelle et assez heureuse,
+me semble-t-il, que, dans une telle situation, la formation sanitairé ne conserverait que le
+drapeau de la Croix-Rouge (ou disons plus exactement l'emblème prévu par la Convention
+puisque nous avons admis subsidiairement d'autres emblèmes). En effet, cette formation ne
+dépend plus du belligérant auquel elle était rattachée. Elle est entrée dans le pouvoir de l'ad¬
+versaire qui la retient momentanément. Par conséquent, elle n'a pas à révéler son attache ori¬
+ginaire, c'est-à-dire le belligérant auquel elle était-rattachée d'abord ; elle n'a pas davantage
+à révéler sous quel pouvoir elle est tombée, puisque ce n'est que momentanément qu'elle est
+retenue. Il suffira de marquer, lorsqu'elle est tombée au pouvoir de l'ennemi, qu'il s'agit d'une
+formation de la Croix-Rouge et qu'elle doit être rendue. D'ailleurs, les différents orateurs que
+nous avons entendus n'ont fait, je crois, aucune objection contre l'alinéa 2.
+Reste
+une troisième question
+: la visibilité.
+Si,
+en 1921, nous avons cru devoir introduire dans l'article en discussion un troisième
+alinéa relatif à ce point spécial, c'est à la suite des expériences de la grande guerre
+: tous les
+belligérants, qui avaient attaqué ou pris sous leur feu des formations sanitaires, ont prétendu
+qu'ils ne s'étaient pas rendu compte qu'ils avaient affaire à une telle formation, que la visibilité
+de l'emblème distinctif ntétait pas suffisante, bref, que l'on avait tiré par erreur. Sans doute,
+il y a certaines nécessités militaires qu'a très bien mises en évidence notre Président et dont je
+me rends compte du reste. C'est tellement vrai qu'il est même arrivé,
+malheureusement,
+que le drapeau de la Croix-Rouge a servi de cible parce qu'il révélait la présence de l'ennemi.
+On a même été obligé parfois de supprimer le signe de la Croix-Rouge sur les navires-hôpitaux,
+pour éviter de déceler leur existence à l'ennemi. Il "y^a donc là des considérations militaires
+que l'on né peut pas négliger et, après les considérations qui ont été exposées très justement
+par plusieurs des délégations, je crois que l'on pourrait introduire une mention dans le genre
+de celle-ci :...
+sous réserve des exigences militaires ».
+D'un autre côté, comme l'a très justement relevé le délégué de l'Australie notamment,
+cette question de la visibilité peut toujours être discutée
+: quand le signe de la Croix-Rouge
+sera-t-il visible ? quand ne le sera-t-il pas, quelles seront exactement les conditions de visibilité ?
+Sur tous ces points, on pourrait discuter pour ainsi dire à perte de vue.
+Pour ma part, je serais disposé à me rallier à une proposition analogue à celle présentée
+par la délégation de l'Australie, qui laisserait une assez grande latitude aux belligérants, tout
+en leur recommandant, d'ailleurs dans leur intérêt même, de faire tout ce qui sera en leur pou¬
+voir pour assurer le respect des formations sanitaires.
+Un dernier mot encore au sujet de la proposition française. Il me semble que, précisément
+en vertu de cette considération de l'intérêt qu'ont les belligérants à assurer la protection des
+formations sanitaires
+— ils le doivent d'ailleurs — il n'est pas nécessaire de leur faire, à cet
+égard, des recommandations expresses quant aux zones qui doivent être laissées libres. Evidem¬
+ment, il serait avantageux que les zones aux alentours des formations sanitaires fussent toujours
+respectées, mais, d'un autre côté, il faut bien que le belligérant conserve la faculté, s'il s'estime
+obligé d'occuper une telle zone, de renvoyer plus loin la formation sanitaire pour en assurer
+la
+protection.
+Il me paraît également qu'il n'est pas nécessaire d'ajouter aucune mention visant le respect
+et la protection dûs à ces formations sanitaires, comme le propose la France dans son article
+21 bis, attendu que ces devoirs sont prévus par l'article 6 de la Convention, disant que les for¬
+mations mobiles et les établissements fixes du service de santé seront respectés et protégés par
+les belligérants. Cela, me semble-t-il, devrait suffire. Le principe a été posé à l'article 6, il paraît
+superflu de le répéter ici.
+M.
+Warner
+(Grande-Bretagne)
+:
+J'ai écouté avec le plus grand intérêt les orateurs qui se sont exprimés sur cet article et
+plus particulièrement sur l'amendement que l'on nous a proposé. D'abord, je pensais que cet
+amendement n'avait pas une très grande valeur et qu'il pourrait être superflu.
+Toutefois, après les explications que M. Des Gouttes vient de nous donner et puisque, après
+les expériences de la grande guerre, on a jugé désirable l'introduction d'un tel amendement,
+nous
+reconnaissons qu'il y
+a
+une
+certaine
+difficulté
+: ainsi que plusieurs orateurs l'ont
+très justement dit, il est impossible, pour des raisons militaires et pendant la nuit surtout,
+d'indiquer l'emplacement des avant-postes sanitaires sans risquer de renseigner par là même
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 224.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

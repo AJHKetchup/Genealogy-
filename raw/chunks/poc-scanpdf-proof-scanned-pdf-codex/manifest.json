@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/poc-scanpdf-proof-scanned-pdf.codex.md",
+  "converted_sha256": "391670fc21025bf8944a82e232839c802de4f9b0967941db3290e084e1cb8013",
+  "source": "raw/codex-conversion-jobs/poc-scanpdf-proof-scanned-pdf/source/El Aguila Nombre Grande Scan.pdf",
+  "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+  "source_manifest": "raw/codex-conversion-jobs/poc-scanpdf-proof-scanned-pdf/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-391670fc2102-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/poc-scanpdf-proof-scanned-pdf-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 2725,
+      "sha256": "5215e6207585257daf3341ce76f6b3ef24b0f5e2d603d6f71e04e6acd888b981"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-18f791a313e2-P0085-01
+source_converted: raw/converted/retry-pdf-005-historia-del-hospital-cl-nico-regional-d.codex.md
+converted_sha256: 18f791a313e22a2564ef29424e1907818c2898e6d892f758051d0e88c5cdb216
+source: raw/codex-conversion-jobs/retry-pdf-005-historia-del-hospital-cl-nico-regional-d/source/historia-del-hospital-cl-nico-regional-de-concep-47b759d1532f.pdf
+source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
+source_manifest: raw/codex-conversion-jobs/retry-pdf-005-historia-del-hospital-cl-nico-regional-d/manifest.json
+page_start: 85
+page_end: 85
+part: 1
+---
+
+# Page 85
+
+## Page Metadata
+
+- Source page: 85
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0085.jpg`
+- Extraction note: Text was extracted from the PDF text layer. Rendered page image remains the audit source for visual-only evidence.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, handwriting, stamps, and images may require later visual review.
+
+## Literal Transcription
+
+```text
+85 
+ 
+ 
+ 
+ 
+Vecinos de Concepción que formaban parte de una Junta de Beneficencia, presentan a 
+Ministerio del Interior la idea de crear un hospital para enfermos mentales. El ministerio da su 
+aprobación en 1895. El 22 de Enero de 1896 se dicta una ley por la se funda el “Manicomio de 
+Concepción”, ubicado al lado del Hospital San Juan de Dios, “en un viejo edificio situado en la 
+calle Janequeo próximo a San Martín” (en palabras de Oliver Schneider). Tenía una sección de 
+mujeres y una sección de hombres. A los pocos meses el lugar se hizo estrecho, ya que en julio 
+de 1896 tenía 221 pacientes, (siendo que había sido pensado para 200,) llegando a tener 
+aproximadamente 260”. 
+(Nota: “Manicomio” viene del griego “mania” que signfica locura, y “komion” que significa 
+lugar). 
+Diversas situaciones que ocurrieron en la Casa de Orates de Santiago, (incendio, nuevas 
+construcciones, como así también reparación de antiguas,) desembocan en la necesidad de 
+trasladar unos 300 enfermos al manicomio de Concepción. ¿Cómo pudieron recibirlos si ya el 
+manicomio de Concepción estaba tan lleno? ¡Misterio! 
+Como el Hospital San Juan de Dios de Concepción se hacía estrecho para atender la 
+gran cantidad de pacientes, unos 360, se empieza a ver la conveniencia de ampliarse a 
+expensas de las dependencias que ocupaba el manicomnio al lado del hospital. A su vez, el 
+manicomnio que también tenía problemas de capacidad, pasaría a una propiedad en Puchacay, 
+donde tendría más espacio. 
+El Diario el Sur del 22 de Marzo de 1915   informa de la colocación de la primera piedra 
+del manicomio “José Cardenio Avello”, al sur de la Avenida Collao. El nombre de esta institución 
+fue en recuerdo del gran filántropo y agricultor, parte de cuya fortuna permitió esta construcción, 
+que fue terminada en Septiembre de 1922. 
+(Quizás sea bueno conocer, de paso, que uno de los paseos de la gente de Concepción 
+en aquellos tiempos era ir a Collao “a ver a los locos” que estaban en el patio del 
+establecimiento, costumbre que afortunadamente dejó de existir.) 
+Pero este Manicomio tuvo una corta vida. La Junta de Beneficencia local vende al 
+Ministerio de Guerra el local del manicomio el 29 de Agosto de 1928, en el entendido que se 
+procedería de inmediato a la construcción de un “Open Door” (sistema de atención de pacientes 
+de puertas abiertas; podían los pacientes vivir y trabajar en una granja agrícola). Este gran 
+proyecto fue para Concepción sólo un proyecto… 
+Habiéndose clausurado el Manicomio de Concepción en 1928 todos los locos del país 
+deben tratarse en el Manicomio Nacional en Santiago, con todos los problemas que ello conlleva. 
+Deben pasar una veintena de años para que vuelva a disponerse de un espacio para 
+atender a los pacientes psiquiátricos. Para esta parte de la historia me basaré en los recuerdos 
+que hace el Dr. Sergio Gacitúa, en una entrevista personal hecha en el año 2009. 
+La Escuela de Medicina de la Universidad de Concepción, creada en 1924, tenía en 
+tiempos del decano Ignacio González Ginouvés (1945-1948) cursos sólo hasta el 5° año. El 
+decano hacía esfuerzos para completar la enseñanza de medicina a nivel local, para evitar así 
+que siguieran yendo los alumnos a Santiago a finalizar la carrera. La Universidad de Chile, para 
+autorizar un 6° año, exigía que se completaran las cátedras respectivas, y Psiquiatría era una de 
+ellas.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, marginalia, or layout nuance.
+- Pages with sparse or garbled text need later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this source-prep pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 85.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,259 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1141-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1141
+page_end: 1141
+part: 1
+---
+
+# Page 1141
+
+## Page Metadata
+
+- Source page: 1141
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1141.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1298
+CAMARA DE
+SENADORES DE DA NACION
+Septiembre 12-
+do se habia del eobro compulsivo de las deudas
+publicas ante un Estado soberano, estân gravi-
+tando
+en la conciencia juridica de los pueblos
+los principios de la doctrina Drago. La doctri-
+na de don Bernardo de Irigoyen, que niega la
+proteccién diplomâtica a las soeiedades o eom-
+panias, no esta escrita en ningun tratado, pero.
+desde el ano 1876 impone
+su respeto.
+La teoria Drago no fué aceptada en la con-
+ferencia
+de Rio
+de Janeiro, ni
+en la de La
+ïïaya. La modified Porter, pero no se barâ nun-
+ea
+una reclamacién sin
+que gravite imperati-
+vamente en la coneiencia de los Estados. Y boy,
+es la doctrina
+a que todo el mundo civiiizado
+se. somete.
+Alguna vez, un bombre eminente de los Es¬
+tados Unidos, Eliliu Root, dirigiéndose a los de-
+legados
+a la segunda eonferencia de La Haya,
+les dijo estas palabras
+que envolvian la natu-
+raleza.de esta doctrina internacional : «Sostened
+vuestros
+principios,
+mantenedlos,
+levantadlos ;
+sino triunfan
+en
+el dia, sembradlos para
+que
+triunfen manana.»
+j Y que séria boy con ,ese criterio de los efec-
+tos inmediatos, esa grandiosa organizacion de la
+Soeiedad
+de las
+• Naciones,
+que
+no cuenta por
+cierto
+con muchos triunfos positivos, pero que,
+como ba dicho
+hace
+poco un bombre de Esta¬
+do, si no existiera habria que crearla, porque es
+el centro del equilibrio del mundo, y es una ga-
+rantia efectiva de la
+paz ?
+Dentro de
+ese orden de ideas, debo también
+définir
+—
+y aqui
+toeo la responsabilidad que
+me compete — el emplazamiento en que queda
+la Repûblica Argentina
+en presencia de estos
+sucesos, imprévisibles en su forma, que
+se van
+desenvolviendo para fijar la posiciôn de la can-
+cilleria
+en presencia de los bechos ocurridos y
+de lo cual debo informai’ al Honorable Senado.
+Al iniciarse este conflieto, alla en el mes de
+Abril,
+a poco de hacerme cargo de las funcio-
+nes que ejercito,
+un représentante diplomâtieo
+bizo
+una consulta desde el extranjero, y contes¬
+té inmediatamente : «Apoye usted
+a la comisién
+dé neutrales.» El conflieto
+se apaciguô y tengo
+un testimonio de uno de los jefes del Estado,
+que atribuyô, -haberlo evitado en aquella epoca,
+a
+la
+eancillerià argentina. ~Mâs tarde,
+desgra-
+ciadamente,
+resurgio
+el
+conflieto
+y
+de
+nuevo
+procedi en la misma linea de eonducta. Se ofre-
+ciô por otros paises bien inspirados y amigos,
+actuar directamente ; no me sedujo la idea. Tc-
+nemos cuestiones de fronteras, no resueltas, con
+el Paraguay y Bolivia: los tratados de 1889 y
+de 1925, el ultimo de los euales no lia sido-rati-
+iicado ; somos vecinos en la repereusién posible
+de los acontecimientos. Pero
+eso
+no obsta. Las-
+cuestiones limitrofes las resolveremos como sieni-
+pre, con alta imparcialidad, con generosidad, con
+cxcesivo
+desprendimiento ;
+nunca
+nos traerân
+cuestiones para el porvenir., Habia otras razo-
+nes
+de fondo:
+yo queria que
+se apoyara a la
+Comisién
+de Neutrales. jPor que? Por ciertas
+réglas de dignidad y de- eonducta que imperan
+en la vida de los bombres, individuales y colec-
+tivas, de solidaridad indispensable. Eran cinco
+naciones que estaban trabajando con desinterés f
+évidente, bacia cuatro
+anos, por arréglar una I
+contienda
+entre
+paises vecinos. No
+era logico
+substituirlas y reemplazarlas fâcilmente, de pron¬
+to,
+a las primeras dificultades. Habia, ademas,
+el respeto al.panamericanismo.
+Tendra sus defectos el panamericanismo, pe¬
+ro
+es la unidad espiritual del continente ;
+es
+un consorcio, una cooperacion, una conjunciôn,
+una eoncurrencia
+de
+cosas nobles y elevadas
+• de cooperacion
+y armonia.
+Por
+eso, mi pri¬
+mera instruecién
+a nuestros représentantes en
+Washington fué: «Apoye usted la comisién de
+neutrales y no deje fracasar el panamericanis¬
+mo».
+Fué
+antecedente bonroso
+para nuestra
+cancilleria, cuando después de una sérié de vi-
+eisitudes y tra.bajos llegé un telegrama de las
+cinco naciones encabezadas por los Estados Uni-
+dos, en que expresabàn a nuestro pais su reco-
+nocimiento profundo por la linea leal de su
+eonducta, diciéndole: «Nos hemos sentido res-
+paldados por la alta autoridad moral de la Ré-
+publica Argentina.»
+Los babiamos respaldado, no por la amplitud
+de nuestras fuerzas ni elementos materiales, sino
+por la dignidad leal de nuestra eonducta.
+Pero habia otra razôn de fondo, muy substan-
+cial, para prestar el apoyo a esa Comisién de
+Neutrales, que era la de una necesaria e indis-
+cutible prudencia.
+No
+es una novedad para nadie que tenga la
+sensibilidad de los dias que vive, la profunda
+perturbaciôn de todo el mundo, y en consecuen-
+cia, del propio continente que babitamos y de
+todos los paises circunvecinos. Esas transiçiones,
+esos sacudimientos
+que ban becho en un ano
+ocho revoluciones
+en América, con el proceso
+de la reconstrucciôn de los gobiernos, militaris-
+mo existente. corrientés de disoluciôn, fermen-
+tos de anarquia, terreno, en una palabra, pro-
+picio y fâcil para que un soplo de viento con-
+vierta
+una llamarada eualquiera
+en
+un gran
+incendio,
+y entonces la actitud prudente- era
+buscar
+una
+coordinaciôn
+de
+todos los paises
+en conjunto. Si no apagamos el fnego evitare-
+mos
+su propagacion. Y
+esa actitud de solieja-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1141.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

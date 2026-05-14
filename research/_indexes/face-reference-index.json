@@ -1,0 +1,29 @@
+{
+  "created": "2026-05-13",
+  "purpose": "Confirmed face reference registry for source-context identified portraits and later photo organization.",
+  "review_policy": "This repo auto-tags people when the source itself identifies the portrait. Future unlabeled visual matches should preserve candidate/review state unless source context confirms identity.",
+  "references": [
+    {
+      "face_id": "FACE-DPS-1964-001",
+      "status": "source_context_confirmed",
+      "person_label": "Dario Pulgar Smith",
+      "person_page": "wiki/people/dario-pulgar-smith.md",
+      "photo_page": "wiki/photos/PH001-dario-pulgar-smith-1964-tourist-card-portrait.md",
+      "face_cluster_page": "wiki/photos/FC001-dario-pulgar-smith-confirmed-reference.md",
+      "asset": "wiki/photos/assets/PH001-dario-pulgar-smith-1964-tourist-card-portrait.png",
+      "asset_sha256": "ACE27FEAA31DE4EED815ACB04526B608A06BEBBA0EA62A5DCA25370ACFCAA5FE",
+      "asset_dimensions_px": {
+        "width": 485,
+        "height": 780
+      },
+      "source_crop": "raw/codex-conversion-jobs/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964/extracted-images/page-0001/page-0001-image-01-portrait.png",
+      "source_converted": "raw/converted/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964.codex.md",
+      "source_chunk": "raw/chunks/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex/page-0001-chunk-01.md",
+      "confirmation_basis": [
+        "The surrounding tourist card names the holder as DARIO PULGAR SMITH.",
+        "The portrait is attached to the same named tourist card."
+      ],
+      "future_use": "Use as a named reference portrait for photo organization, source-context tagging, and candidate review workflows."
+    }
+  ]
+}

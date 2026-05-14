@@ -1,0 +1,5 @@
+version: "1"
+agents:
+  conversion_qa_triage:
+    short_description: "Triage converted genealogy documents before extraction"
+    default_prompt: "Use $conversion-qa-triage to review converted source Markdown and queue suspicious or family-relevant pages without editing the conversion."

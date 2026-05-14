@@ -1,0 +1,373 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0089-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 89
+page_end: 89
+part: 1
+---
+
+# Page 89
+
+## Page Metadata
+
+- Source page: 89
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0089.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+CAMARA DE DIPUTADOS
+1701
+id 1921
+mi propio eulto sostenerlo con dinero de here-
+jes, de judîos, de mahometanos, de turcos, de
+creyentes
+de toda naturaleza.
+(Bisas). Quisie-
+ra sostenerlo yo, y los que ereen como yo. De
+manera
+que
+aun existiendo
+este artîcuio,
+me
+parece un argumento fiojo en boca de ereyen-
+tes
+sineeros.
+Pero
+aun
+adrnitieudo
+que bay
+que atenerse a la letra del artîcuio, tengo mo¬
+tives
+y
+anteeedentes para sostener
+que den-
+tro
+de
+"N
+letra
+del artîcuio
+cabe reducir el
+presupuesto del eulto a su minima expresiôn.
+La Constituciôn ordena el sostenimiento, pero
+no
+estableee
+que
+se vote un millôn
+o très
+o
+cuatro millones,
+eomo veremos que en realidad
+se
+Votan
+para el sostenimiento
+de eulto.
+Se
+puede, pro formula, y para, cumplir con la pres-
+cripciôn constitucional, votar una pequena su-
+ma, y para ello me baso en un argumento que
+me suministra el sefior diputado Bas, autoridad
+en la materia.
+Sr. Bas.
+— Le quedo agradeeido.
+Sr. Diôkmann.
+— En el ano 1913, en la se-
+Sôn del 14 de mayo, a propôsito de la diseu-
+siôn de las dietas de los diputados, la diputa-
+ciôn
+socialista,
+insistiendo
+en
+un
+propôsito
+firme propuso la redueeiôn de la dieta a mil
+pesos. Se produjo un debate en la câmara. Pi-
+diô la palabra el senor diputado Bas y dijo lo
+siguiente :
+"Para pedir al senor diputado — se reterîa al sefior
+aiputado Delfor del Valle que se adheria tambiën a la
+indicaciôn
+socialista
+—
+para pedir al
+seiïor diputado
+que acaba de solicitar la rebaja de la dieta que acepte
+una modificaciôn
+a su mociôn en el sentido Ue la su-
+presiôn compléta de la misma. Y como quizâs podria
+tiacerse alguna observaciôn de orden constitucional so¬
+bre el particular, haria indicaciôn para que se pusiera
+la
+cantidad
+de cincuenta pesos,
+por ejemplo,
+con
+lo
+que quedaria salvada esa dificultad. — Sr. del Valle—
+Eso
+no
+lo puedo aeeptar porque
+la constituciôn se
+opone. — Sr. Bas. — Por eso indicaba al propio tiem-
+po al senor diputado que para evitar el ôbice cons¬
+titucional se votara una pequefia cantidad. — Sr. del
+Valle.
+— Propôngalo el senor diputado y estoy dis-
+puesto a acompanarlo. — Sr. Cafférata. — Yo tam-
+bién
+lo acompaüo.
+(Risas).
+Como
+se
+vc,
+senores diputados,
+la
+razôn
+constitucional
+se puede obviar, fâcilmente. Yo
+propongo cincuenta
+pesos para el presupuesto
+de eulto
+(Risas)■El
+senor diputado Bas y el
+senor diputado Cafférata debeu acompanarme,
+porque son hombres consecucrites con sus pro-
+pias ideas. (Bisas).
+I
+Queda,
+pues, estûblecido,
+senor présidente,
+Ique lo que la diputaciôn socialista pide no es
+la aboliciôn de ningun eulto. No
+es la intole¬
+rance religiosa
+de ninguna especie,
+no
+es la
+persecuciôn de.ninguna secta ni ereencia reli-
+■giosa lo que
+nos mueve. sino la mas axnplia
+libertad religiosa. En nuestro pais, senor pré¬
+sidente, esto
+se impone por razones multiples.
+Todavîa
+en paîses de larga
+e histôrica tradi-
+eiôn, de homogeneidad de razas, de prejuicios
+seculares
+o milenarios, todavîa allî
+se puede,
+con cierto viso de razôn aparente, sostener que
+una religion dada
+es necesaria,
+que se impone
+porque
+es la ereencia de la inmensa mayorîa
+del pueblo en el pasado y en el présente.
+Entre nosotros, senor présidente, no bay tal
+cosa y me toca a mi decirlo porque en cierto
+modo represento
+en
+este,
+como
+en muchos
+debates, la opinion
+de
+millones de hombres
+que
+se han incorporado,
+que
+se han fundido
+en el viejo tronco naeional cuyas raîces estâfr
+en
+el pasado,
+pero
+cuyo présente, labran ra¬
+zas de todas las nacionalidades y de todas las
+creencias
+y de
+cuyo crisol saldrâ el tipo
+ar¬
+gentine del porvenir. Por
+esta razôn
+funda¬
+mental
+liabrîa
+también
+que instituir de
+una
+vez la libertad religiosa
+en el pais, sino fuera
+porque
+la
+misma tradiciôn
+de
+la revoluciôn
+argentina
+es eininentemente de espîritu liberal.
+Saben los
+senores diputados, tanto
+o mâs que
+yo,
+que el espîritu laico argentine lia tenido
+que luchar desde el momento de la emancipa1-
+ciôn
+contra
+el espîritu dogmâtico y tradicio¬
+nal de la iglesià oficial El senor diputado Caf-
+ferata
+nos
+ha
+hecho
+desfilar
+una
+sérié
+de
+frailes ilustres partidarios de la emancipaciôn ;
+pero son la, minorîa, senor diputado Cafférata ;
+sabe el
+senor diputado Cafférata —
+; como no
+lo
+va
+a saber!
+— que en nombre de la iglesia
+eatôlica,
+apostôlica
+romanâ,
+en nombre del
+Vaticano, se ha sostenido por ilustres prelados
+que residîan
+en
+la Argentina,
+que
+mientrâs
+baya un solo espaîiol
+en cualquier rincôn del
+mundo todas las eolonias americanas le perte-
+necen !
+Sabe
+también
+que
+la
+independencia
+argentina ha sido reeonocida por el Vaticano
+en ultimo término:
+que sostenîa,
+despuès
+de
+muchos a.fios de la independencia argentina, el
+derecho
+de
+la
+corona
+de Espana sobre
+estas
+eolonias...
+Pero,
+/.para
+que baeer desfilar
+toda la bistoria argentina,
+que los senores di-
+pntados conocen mejor que yo,
+como
+couocen
+todo
+lo
+que
+el espîritu
+laico
+ha
+teuido
+que
+luchar
+contra
+el dogma,
+contra
+la superstî-
+ciôn, contra las creencias arcaieas?
+Y
+si
+se
+ha establecido,
+como
+lo
+ha hecho
+notar
+el
+senor diputado Justo,
+una sérié
+de
+reformas, encontramos siempre la oposieiôn te-
+naz y
+a
+veces violenta de la iglesia oficial.
+Este mismo artîcuio
+2o.
+de la
+constituciôn
+es
+un
+artîcuio
+transaecional ;
+fué
+una
+transac-
+ciôn
+entre
+el espîritu dogmâtico
+y el liberal
+de
+la constituyente del Parana;
+como
+el
+ar-
+tîculo 8o. de la ley 1420, que introduce
+o que
+permite la
+ensenanza religiosa en las eseuclas,
+fiiô
+un artîcuio transaecional.
+El matrimonio civil, la secularizuciôn d« lo*
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 89.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-df918cf7d44d-P0615-01
+source_converted: raw/converted/retry-pdf-001-anales-de-la-universidad-de-chile-sessi.codex.md
+converted_sha256: df918cf7d44d033143b669f986c235b0d7c1502bcd40c3698b06e3c342708dc2
+source: raw/codex-conversion-jobs/retry-pdf-001-anales-de-la-universidad-de-chile-sessi/source/anales-de-la-universidad-de-chile-session-of-the-753b8b140d94.pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/retry-pdf-001-anales-de-la-universidad-de-chile-sessi/manifest.json
+page_start: 615
+page_end: 615
+part: 1
+---
+
+# Page 615
+
+## Page Metadata
+
+- Source page: 615
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0615.jpg`
+- Extraction note: Text was extracted from the PDF text layer. Rendered page image remains the audit source for visual-only evidence.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, handwriting, stamps, and images may require later visual review.
+
+## Literal Transcription
+
+```text
+NUESTROS PROBLEMAS ECONÓMICOS 
+D45 
+ferrocarriles de Antofagasta (6 por 100 sobre el capital 
+invertido), el transandino por el Juncal (5 por 100 du- 
+rante veinte años en 1903, sobre un capital de 1.500,000 
+libras) y el ferrocarril de Arauco (5 por 100 en 1884 du- 
+rante veinte años y al cambio fijo de 36 d., sobre un cos- 
+to kilométrico de 30,000 pesos). Primas de construcción 
+tiene el ferrocarril en construcción por Antuco, a que se 
+concedió en 1903 una subvención a fondo perdido con 
+una prima de 120,000 libras (1,000 libras por kilómetro 
+de vía entregado a la explotación); una vez convertido 
+este ferrocarril en internacional, se le pagarán 80,000 li- 
+bras más. 
+No hace mucho se pensaba dictar una ley general so- 
+bre concesión de primas de construcción para los fe- 
+rrocarriles. ¿Hay, empero, necesidad de tomar esa me- 
+dida 
+legislativa? En las Cámaras 
+se 
+estudiaba, 
+en 
+verdad, un proyecto presentado por el Gobierno, que 
+otorgaba a los concesionarios una 
+prima kilométrica 
+en dinero a fondo perdido, y variable 
+según la trocha: 
+en trocha de 0,60 metro, sería de 3,000 pesos; de 0,76, 
+4.000; de 1,00, 5,000, y de 1,676, 8,000 pesos oro de 18 d. 
+Los concesionarios 
+gozarían, además, de liberación de 
+derechos de aduana en algunos artículos para el ferroca- 
+rril, el cual pasaría a los noventa años y sin gravamen al- 
+guno a propiedad del Estado. El señor Marín Vicuña pro- 
+ponía, en un artículo publicado en 1911 en El Mercurio de 
+Santlago, sobre «La ley de primas a los ferrocarriles par- 
+tioulares», que las primas correspondientes se otorgasen 
+en especies (rieles, eclisas, pernos y clavos, cuyo costo, 
+según sus cálculos, aumentaría apenas 
+en un 5% las 
+sumas que consultaba 
+el proyecto anterior), y que se 
+hiciese la declaración expresa de que 
+el Fisco no perdía 
+el carácter de dueño de las citadas especies. Esta idea 
+ANALES MAYO.-.JUN—2
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, marginalia, or layout nuance.
+- Pages with sparse or garbled text need later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this source-prep pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 615.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,503 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0020-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 20
+page_end: 20
+part: 1
+---
+
+# Page 20
+
+## Page Metadata
+
+- Source page: 20
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0020.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+gory of
+a
+guarantor of
+peace
+and
+order.
+Baron Judah
+and Mr.
+Gug¬
+genheim were picked samples of this
+most
+auspicious
+union.
+With
+such
+substantial support, Machado denud¬
+ed
+the
+country,
+trampled
+upon
+its
+rights
+and
+assassinated
+the
+people
+without
+pity.
+His
+name
+has
+gone
+down to posterity as the most blood¬
+thirsty tyrant that has trodden Cu¬
+ban soil.
+But the merciless mauling
+of his iron claws lighted the bonfire
+of hatred in the hearts of his country¬
+men,
+and
+the sinister brilliancy of
+that conflagration has made visible to
+the most myopic, the stern reality of
+the Cuban problem.
+The idea that the conflict against
+Machado
+went
+far
+beyond
+a
+mere
+discussion of the
+mean political arts
+practised
+heretofore,
+gave
+to
+the
+. struggle the character of
+a lofty un¬
+dertaking, which until then was un¬
+known in all of our civil wranglings.
+The Cuban youth
+gave to the agita¬
+tion the stamp of
+a crusade for the
+redemption of a “fatherland" which
+up to that time had existed but in
+name.
+In the midst of the horrors of
+the contest, arose a new conception of
+our politics which, while tending to
+displace the mean and fruitless con¬
+tentions peculiar to petty “chieftains
+and their clans’’, aimed at establish¬
+ing formulas that would redeem the
+_Xluhan people from their social and
+political misery. And as the paladins
+of the new doctrine went deeper and
+deeper into the conflict, it became in¬
+creasingly visible that the historical
+-ifnssion
+that Destiny had conferred
+upon them
+was not the
+mere
+over¬
+throw of Machado, but the initiation
+of
+a
+contest
+for obtaining political
+and economic independence, of which
+hitherto
+we have been deprived, not
+only by reason of our incapacity, but
+by
+the
+domination
+of
+foreign
+in¬
+terests.
+The
+unflinching
+tenacity
+of
+the
+Opposition, maintained by the high
+ideals to which
+we have referred in
+the preceding paragraph, forced Ma¬
+chado
+to
+adopt
+the
+most
+extreme
+measures of repression.
+The tin god's
+name has resounded for his diabolical
+acts, in the most obscure
+corners of
+tlie
+earth.
+Under
+those
+conditions,
+American
+interference
+assumed
+the
+well known providential and tutelar
+form, which heretofore had been prac¬
+tised in different periods of our his¬
+tory.
+Sumner Wells embarked
+on
+a
+voyage to Cuba with the double mis¬
+sion of ridding himself of a trouble¬
+some
+servant,
+whose reputation for
+sinister acts had proved to be embar¬
+rassing to the good name of the Unit¬
+ed
+States,
+and
+maintaining
+at
+the
+same
+time
+the
+legal
+and
+economic
+status which, under the Machado re¬
+gime prevailed.
+The first part of the
+mission
+was
+accomplished
+with
+re¬
+lative
+ease.
+Faithful
+to their tradi¬
+tions,
+the
+Cuban
+Army
+Officers,
+who
+had
+until
+then
+been
+staunch
+supporters of the Dictator, acclaim¬
+ed
+Sumner
+Welles
+as
+their
+last
+chieftain.
+Forsaken
+by
+his
+tutel¬
+ary
+gods,
+Machado
+abandoned
+the
+Presidency and scoffed at the nation
+for
+the
+last
+time by escaping
+to
+a
+foreign
+country,
+undisturbed.
+The
+American Proconsul,
+on the comple¬
+tion of the first part of his mission,
+commenced the second act.
+Through
+the Mediating Opposition and foreign
+intermeddling,
+came into being the
+De Cespedes Government, which en¬
+deavored to maintain the legal status
+of the Machado Republic and revive
+the shipwrecked Constitution of 1901,
+in the face of popular repulse. In this
+effort to juggle with the Cuban peo¬
+ple and their opportunity to effect re¬
+novation, were the actors of the pan¬
+tomime
+engaged
+when
+the
+-rebel
+trumpets at Columbia gave the blast
+which opened the rebellion.
+The
+men from civilian ranks who
+were called by the insurrected army
+on
+the night of September 4th,
+pro¬
+ceeded from all the political sectors.
+On that night they were united in
+a
+single purpose.
+The only visible nu¬
+cleus
+was
+the
+Students
+Directory.
+There
+was
+one
+point of
+contact in
+which they all concurred — the
+one
+which justified their union and that
+was, the. repulse of all interference
+by a foreign power in Cuban Domes¬
+tic Affairs.
+The Mediation had thrown
+them out of the sectors in which they
+had
+fought against Machado.
+The
+night of Sept.
+4, 1933, joined them
+again in the common purpose of
+es¬
+tablishing for the first time in Cuba
+a
+government,
+the
+constitution
+of
+which should not depend upon for¬
+eign will ; and although conscious of
+the
+enormous difficulties with which
+their
+undertaking
+was
+confronted,
+they hesitated not to accept the his¬
+torical
+responsibility which
+Destiny
+bad thrown
+in their way,' arid upon
+assuming
+the
+government
+of
+our
+country, against the foreign
+media¬
+tor's desire, they became the signers
+of
+a universal declaration of the Cu¬
+ban people’s
+RIGHT
+TO
+ABSOLUTE
+PO¬
+LITICAL INDEPENDENCE.
+Thereupon,
+foreign intermeddling
+became enraged. From every point of
+the horizon
+were American warships
+observed
+directing
+their
+course
+to
+Cuba.
+In
+the maritime horizon,
+re¬
+splendent with the
+rays of the sun,
+were the
+guns of the “Mississippi”
+left bare.
+American cities beheld the
+march
+in
+file
+of
+troops
+that
+were
+bound for Cuba.
+But the mental con¬
+dition of the world was not then what
+it "was at the time of the landing at
+Port-au-Prince and the bombardment
+of Veracruz which was effected with
+so much impunity.
+The show of arms
+found
+no echo and ended when
+Sec¬
+retary
+S.wanson,
+who
+had left
+the
+United States with the air of a Pro-
+consul, was converted into a peaceful
+tourist upon his arrival in the harbor
+of Havana.
+But the attack had only-
+changed its aspect. The State Depart¬
+ment at Washington wielded another
+weapon
+that
+of
+Non-Recognition.
+Sumner
+Welles
+then
+turned
+con¬
+spirer. He became the chief of a rebel
+group
+at
+the National
+Hotel
+was
+made
+a member “honoris causa” of
+the ABC, and whispered in the ears
+of the military head of the revolution
+the
+most tempting
+sugg stions.
+At
+last his Excellency rU :
+. d, after hav¬
+ing exhausted every recourse of his
+fertile, imagination.
+He was succeed¬
+ed by Mr. Caffery, who simplified the
+task by discarding some of the moral
+scruples which had embarrassed his
+predecessor.
+In short, what
+was of
+importance to the State Department
+was the recuperation of the political
+control of Cuba and not what the end
+might be of a few army officers who
+were thrown out of their commands.
+After
+this
+knotty
+point
+had
+been
+cleared up, il became easy to obtain
+of such Cuban clients
+as were most
+addicted
+to
+the
+State
+Department,
+the yielding
+up of their points of
+view,
+or absolute submission to the
+dictates of Washington.
+On the 18th
+of January his Excellency Mr. Caf¬
+fery completed his masterpiece of di¬
+plomacy.
+The Army which
+was led
+astray on the night of September 4th
+returned
+to
+its
+fold.
+Mr.
+Welles'
+clientele re-occupied power with Col.
+Carlos Mendieta at the head, and the
+State
+Department
+resumed for
+the
+relief and rejoicing of the foreign in¬
+terests and their Cuban clients, the
+momentarily interrupted sovereignty
+over Cuban life and property.
+But
+if the American Ambassador
+succeeded
+in
+a relatively short space
+of time in smothering the attempt of
+Cubans to assert their right of free
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 20.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

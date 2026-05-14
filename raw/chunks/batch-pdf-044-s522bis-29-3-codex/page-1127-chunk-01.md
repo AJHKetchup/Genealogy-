@@ -1,0 +1,411 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1127-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1127
+page_end: 1127
+part: 1
+---
+
+# Page 1127
+
+## Page Metadata
+
+- Source page: 1127
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1127.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+CAMARA DE DIPUTADOS DE LA NAUiON
+Septembre 27 y 28
+3930
+A
+i—
+cia y cooperaciôn a que esta llamada la Liga
+de las Naciones.
+Este organismo tiene su origen en un acuerdo
+de las naciones triunfantes
+en la gran guerra
+dispuestas
+a resarcirse de los vencidos en los
+gàstos
+y destruceiones ocurridos durante la
+conflagraciôn, acuerdo que quisieron hacer com¬
+patible con el anhelo de paz mundial que esta-
+ba haee 15 afios en todos los hombres.
+Las
+deudas iliquidables
+de la
+guerra
+y
+el
+desarme
+fueron
+su primer problema
+y
+como
+ninguno fuera resuelto,
+una crisis econômica,
+agregada
+a la crisis general del capitalisme,
+aumentada
+por los
+excesos
+del nacionalismo
+proteceionista que cierra las aduanas liizo pre-
+sa
+no solo de los vencidos y veneedores. sino
+también de aquellos que ninguna participaciôn
+babian
+tenido
+en
+el
+conflicto
+europeo.
+Las
+complicadas
+deudas de la
+guerra
+atan àsi
+a
+,veneedores y vencidos, y constituyen taies su-
+mas que, a pesar de los planes Davies y Young
+que
+redujo
+las
+deudas,
+partieularmente
+de
+’Alemania, la situaciôn
+es insostenible. Porque,
+âcôrno pagar las deudas? Las deudas se pagan
+con monëdas. que no se fabrica sino que es la
+traduceiôn
+en valor de la producciôn agraria
+o
+manufacturera.
+Para poder Alemania,
+por
+éjemplo, pagar, debe neeesariamente exportai-;
+y los mismos paîses acreedores, en tren de de-
+fensa, cierran la
+entrada
+con
+énormes
+aran-
+celes, afirmando asi su decision de salvar sus
+intereses nacionales. Este cierre de las aduanas
+que traba la circulaeiôn
+de la produceiôn lia
+agravado la crisis industrial, se lia entrelazado
+con la crisis agraria de los paîses agrarios, ha
+aumentado
+las dificultades y ha traido
+como
+consecuencia un decaimiento de las aetividades
+econômicas
+mundiales.
+Todavîa
+mas:
+como
+el
+capitalisme
+aetual
+es
+monopolizador,
+existe
+entre los grandes grupos una lucha por la con-
+servaeiôn
+de
+los precios monopolizados,
+a
+pe.-
+sar
+de
+la
+superproducciôn,
+en perjuièio
+ciel
+consumo general y en particular con doloros'as
+consecueneias
+para
+los
+trabajadores,
+las
+cla-
+ses humildes y las masas populares en général.
+Existe asi
+un dilema por ahora insoluble y,
+por desgracia,
+las reacciones compliean la
+si¬
+tuaciôn mundial y la
+acciôn
+de
+la Liga. En
+los paîses
+cuyas
+deudas
+de
+guerra
+gravan
+y
+gravarân generaciones y generaciones, fermen-
+tan ahora
+los movimientos
+mas incompatibles
+con los verdaderos intereses de los pueblos y
+su politics interna
+se traduce
+en la acciôn de
+hombres
+que preconizan
+de
+nuevo
+el
+empleo
+delà fuerza. Disfrazan
+sus teorias y hacen afi.v-
+maciones poco alentadoras.
+Quiero leer
+una frase
+de Hitler
+que dirige
+un movimiento
+que
+en Alemania
+traduce
+un
+estado social del pais, de carâcter nacionalista :
+«Existcn
+todavîa,
+en
+la
+liora
+aetual
+grandes
+extensioncs
+de tiérras
+que
+esperan
+ser explo¬
+it'm
+liu
+•
+•
+■
+•
+r-
+"■
+”
+tadas; no estân en manera alguna reservadas
+por la naturaleza para tal
+o cual naeiôn sino
+que estân destinadas al pueblo
+que sabra to-
+marlas y ponerlas en explotaciôn». «En general
+son las naciones mâs adelantadas. las mâs cul-
+tas
+que
+en
+su
+ceguera pacifista
+se atienen
+a
+la colonizaciôn interior y abandonan asi A'astas
+superficies
+a
+pueblos
+mâs
+brutales,
+menos
+avanzados, y resultarâ
+que el mundo pertene-
+eerâ a estas ultimas.
+«Nadie puede dudar de
+que el mundo
+sera
+todavîa el teatro de los mâs grandes combates
+librados por la conservaciôn de la raza huma-
+na. Solo subsistirâ el instinto de conservaciôn;
+ante él se diluirân como la nieve
+en Marte los
+sedueentes sentimientos
+humanitarios
+que
+no
+son otra
+cosa
+que una mezcla de cobardia y
+estupidez. La humanidad.se ha formado en un
+combate perpetuo, una
+paz perpétua séria
+su
+ruina.»
+Estos
+eonceptos
+que animan el movimiento
+y
+la
+politics
+interna
+de
+algunos
+paîses
+son
+consecueneias évidentes
+de la
+guera, y
+eonse-
+euencias de la acciôn econômica internacional
+que
+impiden
+evidentemente
+e
+impedirân
+por
+gran tiempo
+la acciôn de concordancia
+paci¬
+fista repercutiendo
+eu la propia Liga
+de las
+Naciones.
+Mientras, que en los demâs paîses para apa-
+gar las necesidades del pueblo y los requeri-
+mientos
+del
+mismo,
+en
+vez
+de
+los dirigentes
+llamar
+a la cordura, al cese de esta guerra de
+aduanas, al perdôn
+de las deudas de la
+gue¬
+rra, continûan adelantando medios de soluciôa
+mientras
+se
+promete
+cobrar
+al
+deudor,
+con
+benefieio
+no para los trabajadores
+que sigueu
+y
+seguirân
+desocupados,
+sino
+con
+benefieio
+para
+los
+grandes
+capitalistas,
+que
+son
+real-
+mente los unicos acreedores.
+El
+espîritu
+de
+guerra
+lia
+hecho
+presa
+de
+nuevo
+a
+los paîses y las cifras del
+armamen-
+tismo
+son
+realmente
+extraordinarias.
+Una
+estadîstiea
+que publicô
+el
+New
+York'
+Times
+del presupuesto universal anual
+de
+la
+guerra lo
+eleva
+a 103.550.000.000
+de francos,
+al que contribuye Estados Unidos con mâs de
+17 mil millones
+de francos; la.misma
+Rusia
+con 14 mil millones, y la Repôblica Argentina
+que estâ colocada entre los primeros 17 paîses,
+con mâs
+de
+1.200 millones
+de francos.
+Para las masas populares del mundo, para los
+trabajadores que nosotros. aqui représentâmes y
+en
+otros parlamentos representan los partidos
+ndheridos
+a la Internacional Obr'era y Socialis-
+ta, la acciôn y los beneficios de la Liga de las
+Naciones
+vendrân
+euando
+cambie
+la
+orienta-
+ciôn de los estados y se gobiernen bajo nuevos
+concei^tos. Cuando los représentantes de los di-
+versos paîses vâvan
+a la Liga de las Naciones
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1127.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

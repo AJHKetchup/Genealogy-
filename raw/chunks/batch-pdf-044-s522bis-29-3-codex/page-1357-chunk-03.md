@@ -1,0 +1,761 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1357-03
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1357
+page_end: 1357
+part: 3
+---
+
+```text
+, 1 LOS EiNCiADOS DE LA PLflAFMA
+’AJULOtMAy
+/V/wr/A /
+En el primero de esos documentes se afirirïa qïïeambas agru¬
+paciones, “ajenas a la debatida gloria revolucionaria”, asu-
+men la responsabilidad direjtiva que les corresponde
+Isufas al/gobieIno PROVISIONAL
+Se refunierc
+cutivo
+del Partf(3<
+yectos d<\
+parados
+. aye» en sus i*esj
+farado Socil
+ta Progresistl
+politica
+comisiôn mjafta
+ctiv^s sedes el comtié eje-
+li^ita y el comité nacional
+para considerar los pro-
+plataforma electoral, pre-
+signada al efecto. Uno y
+animidad en los nombra-
+otro texto fueron aprobj^Ss por(
+dos cuerpos directive
+La declaraciôn politica
+La deelaraeiolif destinada principalmente a explirar
+a los afiliados
+de
+los
+dos paçndos
+los propôsitos
+que persiguen
+éstos
+en la acciôn
+conjunta que sé proyecta, se halla concebida en los siguientes términos:
+“Comunes anhelos
+por el bien
+de la Naciôn, cimentados
+en
+una
+se-
+mejante tradiciôn cîvica y
+en
+una clara analogia
+de
+programas, han
+determinado
+y facilitado
+la concordancia preliminar para una acciôn
+conjunta
+en las futuras elecciones del Poder Ejecutivo Nacional entre
+los comités directivos del Partido Demôcrata Progresista y del Partido
+Socialista.
+Los componentes
+de
+estos comités,
+con acuerdo unanime,
+esperamos
+que la sanciôn
+de
+las autoridades soberanas
+de cada
+par¬
+tido,
+estimuladas
+por iguales môviles, ha de darle
+a nuestra decision
+el valor definitivo que requiere,
+en forma que
+nos permita sin
+mayor
+tardanza
+convocar al pueblo argentino
+a una
+grandiosa
+movilizaciôn
+cîvica
+en torno de ideas y sentimientos de construcciôn y de elevaciôn
+politica y social.
+“Conjunciôn de fuerzas de izquierda”
+"La
+actitud
+que asumimos
+al
+cumplir
+el primer trâmite de
+una
+conjunciôn
+de
+fuerzas
+de izquierda
+importa,
+desde
+ya,
+un aconteci-
+miento
+que ha de tener vasta trascendencia
+en la politica argentina.
+Sentamos
+las
+bases
+de
+una union ocasional, concertada
+en momentos
+excepcionales,
+por
+dos
+partidos
+de
+carâcter
+eminentemente
+popular,
+con el propôsito de luchar hasta el ultimo extremo por la salvaciôn de
+nuestras instituciones democrâticas y de dar al pais un gobierno civil
+y renovador. Aparecen asi, por primera
+vez
+en
+nuestro
+medio,
+dos
+agrupaciones civicas que fundan
+en un vinculo de ideas y de métodos
+la acciôn conjunta exigida por la gravedad de las circunstancias. Al
+propiciar y dar forma a una soluciôn basada en una tendencia definida
+de pensamiento
+ofrecemos al pais el ûnico remedio posible de su crisis
+y probamos la capacidad del pueblo que nos impulsa, inâs inspirado y
+seguro en las horas decisivas que los personajes que pretenden asumir
+su tutela y que los politicos reaccionarios qu'e niegan su aptitud y que
+todavia
+buscan
+concitarlo
+con
+vanos
+llamamientos
+La revoluciôn y los partidos
+“la solidaridad para la acciôn que querenios poner en ejerciciô es
+requerida por la situaciôn actual de la Repûblica. Nada hay en torno
+nuestro,
+en el campo de la vida cîvica, que contribuya a llevar a los
+espfritus la seguridad de una
+digna
+restauraciôn
+institucional.
+Los
+partidos politicos
+que
+se Hainan revolucionarios y
+se jactan de haber
+librado al
+pais de un régimen de desquicio son los coautores del
+go¬
+bierno de facto, los que le proporcionan su apoyo franco o encubierto,
+los
+que
+se aprestan
+a rendirle
+liomenaje,
+poniendo a
+sus
+plantas la
+Constituciôn reformada y sancionando, en un congreso hipotéticamente
+dôcil, el programa caprichoso de un movimiento que no tuvo progrania.
+“Entretanto
+se
+debate
+en
+su
+afân
+por organizar
+sus cuadros el
+Partido Radical, gobernante hasta el
+6 de septiembre,
+en cuyo
+seno
+se han gestado los hombres y los métodos que la opinion ha repudiado,
+pero de cuya entrana popular cabe esperar que surjan, después de los
+hechos, otros procedimlentos, otros idéales, otros hombres, en conso-
+nancia con el
+progreso de nuestro pais.
+“Frente al
+caos politico, los partidos Socialista y Demôcrata Pro¬
+gresista, implacables en la critica de los gobiernos y administraciones
+pasadas, pero que, ajenos a la debatida gloria revolucionaria, previeron
+los pellgros de la dictadura y reclamaron y reclaman contra todos los
+excesos y transgresiones del gobierno de facto, débet» asumir con en¬
+tera decision la responsabilidad directiva que les corresponde.
+“La gran masa de la opinion argentina seguirâ el rumbo que hoy
+trazamos con la segura convicciôn de quienes se saben intérpretes fie-
+les de
+su voluntad
+y de quienes reclaman, con amplitud de miras, la
+cooperaciôn de todas las fuerzas inspiradas en
+iguales
+propôsitos
+e
+ideas.
+“El pais quiere
+que terminen
+de una vez las persecuciones y el
+autoritarismo. El pueblo quiere ser convocado a eomicios generales y
+libres, sin estado de sitio, sin deportaciones, sin prisiôn de ciudadanos
+que
+no
+estén sujetos
+a proceso y sin
+que subsista el precedente fu-
+nesto
+de la elecciôn
+de la provincia de Buenos Aires. Es demasiado
+grave la situaciôn econômica, flnanciera, social y politica para que no
+cedan
+paso
+a los intereses nacionales los empecinamientos peligrosos
+y los odios estériles. Téngase en cuenta que, ademâs de todo, por enci-
+ma
+de todo, el hambre
+y la desocupaciôn
+se extienden por las cam-
+panas y la desocupaciôn y la miseria levantan su voz en las ciudades.
+“El ultimo remedio”
+“La
+acciôn demôcrata-socialista
+busca
+el ultimo remedio.
+Es
+in¬
+dispensable volver
+la Repûblica
+a
+su quicio.
+Queremos un gobierno
+civil;
+queremos
+que el ejército.
+para su propio y tradicional decoro,
+vuelva
+a los cuarteles;
+queremos un gobierno popular, para que sea
+un gobierno estable y asegure la verdad politica y la justicia social,
+para que vele por el interés legîtimo de los trabajadores y no arroje
+sobre los consumos la liquidaciôn de la crisis;
+queremos un gobierno
+responsable, un gobierno ejercido de acuerdo con un programa cons¬
+tructive y civilizador, por los ciudadanos mas austeros, mâs enérgicos
+y mâs capaees. Y
+es en hombres asi que encarnaremos nuestra comûn
+aspiraciôn.
+Exhortamos
+a los ôrganos soberanos de los partidos Socialista y
+Demôcrata Progresista a que sancionen el programa de gobierno que
+les presentamos en forma de proyecto. En él estân incluidas las solu-
+ciones concretas
+de legislaciôn
+que constituyen las bases de nuestro
+acuerdo. Ademâs
+de estos puntos, nuestros respectivos partidos coin-
+eidirân, sin duda,
+en muchos otros aspectos de la gestion publica, en
+cuanto sean encarados
+en igual forma por ambas agrupaciones. Pero
+solo
+hemos querido puntualizar los problemas inmediatos planteados
+en
+la actualidad.
+Puera
+de
+las enunciaciones del
+programa
+proyec-
+tado,
+y que los dos partidos se comprometen
+a hacer efectlvas,
+eon-
+servan cada
+uno
+de éstos la mâs compléta independence, sin que la
+acciôn conjunta concertada afecte en lo mâs mînimo sus caracteristi-
+cas, programa y organizaciôn. Les exhortamos también para que aprue-
+ben
+al mismo tiempo el plan de acciôn que hemos convenido y procla-
+men
+una formula mixta para cumplir los fines que perseguimos. Te-
+nemos la certidumbre de
+que una vez acordada,
+con un programa y
+una formula, la conjunciôn
+de nuestras fuerzas, el pais serâ conmo-
+vldo
+por
+un pronunciamiento civico sin precedentes
+que salvarâ
+su
+destlno”.
+Impuesto a la tierra, excluido el va;
+lor de las mejoras, y progresivo sobre
+el suelo rural. Gravamen al mayor va¬
+lor.
+Impuesto al ausentismo.
+La
+plataforma
+electoral
+En
+cuanto
+a
+la plataforma
+electo-
+al.
+quedô
+aprobada
+en
+estos térmi-
+ios :
+Politica
+general
+Defensa
+de la ley Sâenz Pefia.
+Su-
+,'ragio universal,
+igual
+secreto.
+Dere-
+chos politicos
+para la mujer.
+Nuevo
+censo general.
+Reforma
+de
+la
+Constituciôn
+nacio¬
+nal,
+después de constituidos y
+de en
+trar
+en
+funciones
+todos
+los
+poderes
+legales
+del
+pals,
+para
+acentuar
+su
+contenido democrâtico y liberal y rea-
+lizar, entre otros, los siguientes fines:
+Afianzar
+la
+autonomia
+del
+Congre¬
+so.
+Elecciôn
+directa
+de
+los
+miembros
+del
+Senado.
+Representaciôn parlamentaria de los
+territories.
+Régimen
+municipal
+electivo
+y
+au-
+tônomo
+en
+toda la Naciôn.
+Intervenciôn
+a
+las
+provinclas,
+ex-
+clusivamente
+por
+ley.
+Organiza’iôn
+del
+referéndum
+y
+de
+la
+iniciativa
+populares.
+Neutralidad
+del
+Estado
+en
+materia
+religiosa. Separaciôn
+de la Iglesia del
+Estado.
+Cuestiones
+econômicas
+Moneda
+sana.
+Valorizaciôn
+y
+esta-
+bilizaciôn
+del
+peso
+papel
+de
+acuerdo
+a la ley de conversîôn.
+Ley crgânica
+de
+los bancos.
+Nacionali/aciôn
+de
+los
+yacimientos
+petroliferos
+y
+su
+explotaciôn
+por
+el
+Estado
+o
+por
+empresas mixtas.
+Cumplimiento
+de
+la ley
+represiva
+de
+las manlobras y especulaciones de
+los trusts.
+Ley
+de
+expropiaciôn
+basada
+en
+el
+avalûo
+fiscal
+del
+suelo.
+Régimen fiscal
+Abollciôn de los impuestos que enca-
+recen los consumos del pueblo.
+SupresiôU de los derechos de aduana
+creados por decreto del gobierno
+pro¬
+visional y reducciôn graduai de los que
+existen
+por ley.
+Derogaciôn de los
+decretos
+que au-
+nentan las tarifas postales y telegrâ-
+ficas.
+Impuesto directo
+y progresivo
+a la
+J’enta
+en general.
+Aboliciôn
+de los impuestos y patèn¬
+es
+que gravan las profesiones, el co-
+nercio, la industria y las aplicaciones
+ptiles del capital.
+\ Autonomia financiera de las provin-
+Salud
+publica
+Ley de salud publica. Lucha contra
+el
+paludismo
+por
+el
+saneamiento
+de
+las
+regione3
+palustres.
+Mejoramiento
+de
+las
+condiciones
+de
+vida
+y
+cons¬
+trucciôn
+de
+sanatorios para combatir
+la tuberculosis.
+Defensa
+de la
+salud
+de
+la mujer y
+del
+nino.
+Seguro
+de
+maternidad.
+Educaciôn
+fisica
+obligatoria
+hasta
+los
+18
+anos.
+Abaratsmiento de la vlvienda por la
+construcciôn
+de
+barrios
+populares
+de
+casas
+higiénicas
+y
+cômodas.
+Problemas del
+campo
+Division del latifundio por la acciôn
+del impuesto y por la expropiaciôn.
+Concesiôn
+de tierra y crédito
+a
+los
+hombres
+capaces de formar
+y fomen-
+tar
+la chacra-hogar.
+Organizaciôn
+y
+fomento
+del crédito
+y de la cooperaciôn agricolas, del ser-
+vicio
+de
+elevadores
+de
+granos
+y del
+seguro agricola integral.
+Régimen legal de los arrendamientos
+rurales
+para
+la
+determinaciôn
+de
+su
+precio
+por
+comisiones mixtas
+de due-
+nos y arrendatarios.
+Politica ferroviaria tendiente
+a aba-
+ratar
+el transporte
+de
+los
+productos
+del suelo.
+Reglamentaciôn
+del
+trabajo
+agrico-
+la;
+alojamiento
+higiénico
+para
+los
+obreros rurales e inclusiôn de éstos, sin
+iimitaciones,
+en
+los
+beneficios
+de
+la
+ley de accidentes.
+Construcciôn
+de
+caminos
+firmes
+y
+lisos, preferentemente con recursos del
+Impuesto progresivo
+de la tierra,
+del
+impuesto al mayor valor y con font'
+de la ley Mitre.
+AplïaRÏTflM
+obre-
+ras y especialmente las de jornaaa mâ-
+xima de ocho horas y de descanso do¬
+minical. Tribunales del trabajo.
+Jurisdicciôn
+nacional
+de
+la
+legisla¬
+ciôn obrera.
+Reconocimiento legal de las asocia-
+ciones gremiales de trabajadores.
+Creaciôn
+de
+comités
+arbitrales
+de
+patrones
+y
+obreros
+para
+resolver
+las
+diferencias surgidas
+en el trabajo.
+d6
+la3
+nacionales
+de! trabalo
+de la Sociedad
+de
+las
+JNaciones.
+**
+Salario
+mmimo
+Sueldo
+y salario minimos
+para
+em-
+pleados
+y obreros que trabajan para
+el
+estado nacional,
+las provincias
+los
+municipios y
+para los
+empresarios de
+trabajos y servicios publicos.
+Fijaciôn
+por
+comisiones
+mixtas
+de
+patrones
+y asalariados,
+con
+interven¬
+ciôn
+del Estado,
+de los sueldos
+y
+sa-
+larios
+minimos
+de
+los
+empleados
+y
+obreros
+adultos,
+mujeres
+y
+menores,
+sobre
+la
+base del
+costo
+de la vida y
+segün lugàr y ramo de comercio
+o de
+la producciôn.
+Prévision
+social
+Seguro nacional
+de enfermedad,
+in¬
+validez y desocupaciôn.
+Pensiôn a la vejez.
+Vacaciones pagadas
+para obreros \
+empleados.
+Indemnizaciôn segün afios de servi-
+cio
+a
+los empleados
+de
+comercio
+des-
+pedidos
+sin
+causa
+que
+les
+sea
+impu¬
+table.
+Idoneidad, estabilidad y escalafôn de
+los empleados y trabajadores
+del
+Es¬
+tado.
+Servicio
+y
+gastos militares
+Reducciôn del servicio y de los gas¬
+tos militares.
+Relaciones
+internacionales.
+IjicorüoracTunlll?e B
+Kepubli
+a Repûblica -a_la
+Liiga de
+îas jsacfofaefl;1
+"Arbitraje
+obligàtbrio
+para
+resolver
+los
+litigios
+internacionales.
+Pacto
+de
+desarme
+en
+los paises
+de América.
+Instrucciôn publica
+Ensenanza gratuita,
+iaica
+y obliga¬
+toria.
+Para combatir el analfabetismo, apli-
+caciôn
+preferente
+de los
+recursos
+del
+Estado
+a
+la

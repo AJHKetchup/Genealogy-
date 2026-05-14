@@ -1,0 +1,224 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0169-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 169
+page_end: 169
+part: 1
+---
+
+# Page 169
+
+## Page Metadata
+
+- Source page: 169
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0169.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+de 1921
+CAMARA DE DIPUTADOS
+1777
+menticios en 22 citidades del pais. Y se asom-
+brarân los senores diputados al saber que to-
+das las cosas para la vida son^mâs curas en el
+interior que en la Capital Federal.
+Asî, por ejemplo, la carne, si en el mes de
+enero del ano 1919 valia en la Capital Federal
+100,
+en junio de 1919 valia 111, en enero de
+1920 valia 134 y en junio de 1920, 137.
+En la ciudad de Tucumân, en los mismos pe-
+riodos, la carne valia 100, 120, 130 y 140. Era
+mâs eara la carne en Tucumân que en la Ca¬
+pital Federal.
+El azucar, en la Capital Federal, en las mis-
+mas fechas, tomando como base del precio el
+numéro
+100,
+eu
+1919 valia
+96,
+en enero de
+1920, 83 ; en junio de 1920, 90 ; es deeir que ha
+bajado el precio del azucar. En cambio, en Tu¬
+cumân, provincia productora de azucar, en ese
+mismo tieinpo, lo que valia 100, valia después
+110, 120,140. Mientras en la Capital Federal lia
+descendido en ese tiempo el precio del azucar,
+en Tucumân ha subido de 100 a 140.
+El arroz, que valia en esas mismas fechas en
+la Capital Federal 100,
+114, 114 y 100, en Tu¬
+cumân valia 100, 111, 133 y 135, siendo una
+provincia productora de arroz.
+Patatas:
+en la Capital Federal valian 100,
+118, 155 y 118 en esas mismas fechas : en Tu¬
+cumân 100, 111, 144, 155. Aceite de corner, el
+kilo : en la Capital 100, 100, 105, 105. En Tu¬
+cumân
+101,
+150,
+150, 177. Yerba mate, aqui
+100, 106, 118; en Tucumân 100, 100, 112, 137.
+He elegido Tucumân como punto de compara-
+ciôn porque
+es la ciudad donde alcanza mâs
+alto nivel la carestia de la vida, en todos los
+renglones, inclusive el azucar y el arroz pro-
+ducidos
+en la misma provincia.
+Esta estadistica dice lo siguiente después de
+registradas estas cifras: Observando las eifras
+extrémas del bienio vemos qpe mâs
+o menos
+en los preciôs, considerando como tipos de su-
+per-carestia los que exceden del 50 por ciento
+de la impresiôn
+que sirve de base
+en el ano
+1919, el pan en la Capital Federal esta a 85,
+en Corrientes a 50; Las Flores, 100; Mercedes,
+71 ; Lujân, 100 ; Cordoba, 67 ; San Juan 62 ;
+San Luis 75; San Nicolâs, 100: La Rioja, 71;
+La Plata, 67: Parana, 67 y en Tucumân en un
+100 por ciento. Lo mismo pasa coif el carbon,
+la lena y el kerosene.
+El carbon de lena en la Capital, pasa al pre-
+eio de
+enero 1919,
+a junio 1920, de 100, 110,
+160. Kerosene mâs o menos lo mismo.
+Como
+se
+ve. senores diputados,
+en los ulti-
+mos anos
+en toda la Repûblica y mâs todavia
+en el interior, la carestia de là vida es enorme.
+De todo lo expuesto
+se inhere
+que,
+-en el
+transcurso de un ano y medio, tomando como
+punto de referencia los promedios de precios
+lcorrespr.->dientes al mes de enero de 1919, los
+diez artîculos que quedan mencionados y que
+constituyen los elementos bâsicos de la alimen-
+taciôn y del combustible, ban sufrido elevacio-
+nes de precio
+que por régla general llegan al
+50 por ciento y a voces a doblar las cotizacio-
+nes indicadas.
+Esos precios que lie meneionado se refieren a
+los
+anos
+1919-20, refiriéndose al
+ano 1921 el
+costo del alimento para ese ano, segun el bole-
+tin, tornado del mes de julio de 1921.
+Los precios medios de los
+alimentes hastà
+mayo de este ano han variado con relaciôn al
+promedio bâsico
+en la siguiente forma : Han
+bajado en algunas cosas, en très puntos; es de-
+cir, que lo que era 150 bajô a 147. Por ejemplo,
+respecte del vestido, las variaciones en el pre¬
+cio medio del costo del vestido han experimen-
+tado hasta mayo del corriente ano las siguien-
+tes modificaciones respecte del promedio bâsico
+del 20. En 1920, era de 100, numéro indieador.
+En enero 1921, 110; febrero, 108; marzo, 104;
+abril, 102 ; mayo, 105. Quiere decir que el vesti¬
+do en 1921 ha enearecido respecte al de 1920.
+Ahora bien;
+, la elevaciôn del salario ha se-
+guido la marcha de los precios? De ninguna
+manera. Los salario,s van a la zaga de los pre¬
+cios.
+La idea errônea, areaica, de que casi se
+habia abandonado, de que los salarios encare-
+cen la vida, estâ destruida en todas partes. Es
+la carestia de la vida la que eleva los salarios
+y estos generalmente no llegan al mismo nivel
+de la carestia de la vida con los saltos que haï
+estado dando en los ûltimos anos. Sin embargo,
+los salarios en la industria privada son muchos
+mâs altos que el salario que paga el estado.
+En este mismo boletîn de! departamento na-
+cional del trabajo referente al mes de junio de
+1921
+se registran estadisticas de salarios de 33
+oficios,
+que comprenden 1607 obreros y de la
+estadistica media résulta el jornal medio de pe¬
+sos 6.19. Es, sin duda, un salario que ha subido
+desde el ano 1914. Sin embargo, este salario no
+alcanza para eubrir las mâs elementales necesi-
+dades de la vida del pueblo y lo indien el des-
+censo general de su vida en la disminuciôn del
+consumo de pan, de carne, de azucar, de arroz,
+de vestidos, de vivienda, de locomocion, etc.,
+etcétera.
+No
+deseo aportar muchos otros
+elementos
+que tengo en mi poder, para demostrar que el
+salario propuésto por la comision, de 130 pesos,
+es insufleiente, senor présidente, totalmente in-
+suficiente. Ciento cincuenta pesos séria apenas
+suficiente para permitir elevar un poco el nivel
+de vida, que ha descendido en tan grave forma
+en los ûltimos anos. Y yo me pregunto por qué
+la comision
+no propone 150 pesos. jSerâ por
+razones ûnancieras? No puedem existir taies ra-
+zones, cuando se trata de la vida de miles de
+liombres, de la vida de miles de servidores del
+pais.
+El estado no va en pos de ganancias. El es¬
+tado no tiene comoetidores : al estado no tmede
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 169.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

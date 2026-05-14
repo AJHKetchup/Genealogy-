@@ -1,0 +1,117 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0311-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 311
+page_end: 311
+part: 1
+---
+
+# Page 311
+
+## Page Metadata
+
+- Source page: 311
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0311.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Séance
+du 18 Juillet 1929
+17
+A l'usage du Comité de rédaction, qui devra établir cet Acte final, je voudrais vous deman¬
+der
+de vouloir bien discuter maintenant la teneur de ce passage, et spécialement la question
+de savoir si l'on peut même sous forme de recommandation, prévoir une procédure comportant
+en tout état de cause, le cas échéant ou en aucun cas, des sanctions.
+En outre, je voudrais vous prier de vous exprimer sur les questions qui, le cas échéant,
+pourraient être l'objet d'un vote. Sans quelques solides directives le comité de rédaction ne
+saurait élaborer un projet susceptible de donner satisfaction à votre commission.
+M. Warner (Grande-Bretagne) :
+Je tiens beaucoup à vous mettre tout à fait au clair : la délégation de Grande-Bretagne
+n'est d'aucune façon opposée à ce principe. Ce n'est qu'à cause de la nécessité d'avoir l'una¬
+nimité que j'ai fait cette proposition. Maintenant, nous sommes en face d'une division d'opi¬
+nions sur la question des sanctions. Or, il faut absolument que tout le monde soit d'accord à
+ce sujet. Si, par exemple, le délégué des Etats-Unis refuse de signer l'Acte final parce qu'il
+n'est pas content de ce qu'il contient, c'est inutile. Il me semble donc que, sous toutes réserves
+au sujet de l'étendue du passage de l'Acte final, nous sommes presque forcés d'abandonner
+le mot de sanction. Ce n'est pas du tout parce que mon Gouvernement serait nécessairement
+opposé à cette procédure, mais dans l'intérêt de l'unanimité, que je vous prie Vivement d'omettre
+ce mot.
+Le Marquis de la Torrehermosa (Espagne)
+:
+Je me rallie à la proposition de l'honorable délégué britannique. Si l'unanimité n'est
+pas réalisée, nous ne pourrions pas adhérer. C'est une question de si grande importance qu'il
+faut l'unanimité. Autrement, il ne vaudrait pas la peine de faire une Convention.
+Le Colonel Vanier (Canada) :
+Je suis tout à fait de l'avis des deux délégués qui viennent de s'exprimer. Il est bien diffi¬
+cile d'insérer dans l'Acte final une clause
+au sujet des sanctions sans que nous ayons devant
+les yeux les termes mêmes de cette clause. Il faut que le principe renferme certaines idées que
+nous pourrons alors considérer. J'ai voté tout à l'heure en faveur de l'insertion de la clause dans
+l'Acte final, parce que je voulais l'exclure de la Convention. Avant de pouvoir décider si nous
+voulons mettre
+une clause
+comme celle-là dans l'Acte final, il faut que' nous sachions quelle
+est cette procédure internationale que l'on veut introduire.
+M. le Président
+:
+Il est entendu que la formule qui serait introduite dans l'Acte final vous sera soumise.
+Comme elle n'est pas prête, le Comité de rédaction l'élaborera et vous pourrez en discuter.
+Tout
+ce que j'avais demandé, c'était de savoir si, dès maintenant, vous vouliez donner des
+directives au Comité de rédaction en vue de la formule à introduire.
+M. Warner (Grande-Bretagne)
+:
+La délégation de Grande-Bretagne est tout à fait disposée à laisser l'élaboration de la
+formule au Comité de rédaction.
+M. Wadsworth (Etats-Unis). Traduction :
+La délégation des Etats-Unis est disposée à laisser le soin de la formule au Comité de
+rédaction. J'espère que celui-ci trouvera
+un texte permettant
+à notre délégation de voter
+en faveur de l'Acte final et de signer la Convention dans son ensemble. Tout dépend du texte
+qui sera choisi. Cependant, d'après les discussions qui se sont produites jusqu'ici, je n'ai pas
+l'impression que notre délégation puisse accepter le texte.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 311.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

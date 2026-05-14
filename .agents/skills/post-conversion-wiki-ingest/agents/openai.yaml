@@ -1,0 +1,4 @@
+interface:
+  display_name: "Post-Conversion Wiki Ingest"
+  short_description: "Stage converted genealogy sources for wiki research"
+  default_prompt: "Use $post-conversion-wiki-ingest after source conversion and chunking to create reviewable wiki staging drafts."

@@ -1,0 +1,340 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0088-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 88
+page_end: 88
+part: 1
+---
+
+# Page 88
+
+## Page Metadata
+
+- Source page: 88
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0088.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Æeptiembre 21?
+&3S8&
+i&ÊBS&BMgBS
+ïmifa
+-
+— -.T
+T"îr-"i
+WW.-.-, -—————
+''‘ ■“Nadie serâ jamâs delicado, ftao.-nî.ÆÎauîora. presen-
+sin no.cicraes religlosas.
+t*^4i, V»-»
+..-J.
+■
+«a.
+•
+i
+ta
+,..:
+.4-*’
+’4
+4
+L4a4:
+U
+•
+’4.4
+4-4
+'4 ^
+“Esta carta te sorprenderâ; estoy persuadido de ello;
+©s
+necesario, hijo mîo,
+que
+un padre diga siempre la
+verdad
+a
+sus hijos. Ningün compromise, podrîa
+excu-
+Barme si permitiese que tu instrucciôn fuese incomple¬
+te y tu educaciôn insuficiente”.
+Senor .présidente, he formulado estas obser-
+vsatîiones contestando
+a la impugnaeiôn que se
+ha hecho al anexo del culto, y respondiendo a
+mi eonvicciôn
+de catôlieo, hondamente arrai-
+igada
+que
+me
+eomplazco
+en ratificar,
+desde
+esta tribuna la-mâs alta del pais. (;Muy lien!
+jMu-y lien!).
+—Ocupa la presidencia el senor-diputado San¬
+chez de Bustamant®.
+Sr. Dickmann.
+— Pido la palabra.
+No hubiera participado
+en este
+debate,
+se¬
+nor présidente, por razones de tiempo y opoi'-
+tunidad si el senor diputado por Côrdoba
+no
+hubiera hablado
+en la sesiôn de hoy.
+Como la eâmara fijô la sesiôn de lioy para
+discutir y saneionar el presupuesto y las leyes
+impositivas be creido que podria ampliarse
+es¬
+te debate, que se va ampliando cada vez mas,
+en la prôxima diseusiôn del presupuesto ; pero
+las palabras del senor diputado
+por Côrdoba
+me estimulan y me obligan a contestarle. Tra-
+taré de hacerlo
+con la brevedad
+que
+me
+sea
+posible.
+Habrâ visto la honorable eâmara que de ano
+en
+ano la diputaciôn soeialista discute el pre¬
+supuesto de culto,
+propone su supresiôn
+o
+su
+reducciôn
+a
+una
+minima expresiôn,
+y habrâ
+notado también que de ano en ano esta discu-
+siôn
+se amplia,
+se abonda y se agranda. Por-
+que como bien lo dijo el diputado Justo en su
+diseurso y en su réplica al senor diputado Bas,
+no es este para la diputaciôn soeialista un asun¬
+to solamente de- presupuesto ni un asunto eco-
+nômico ;
+es un asunto de àlta importancia mo¬
+ral y de gran trascendencia ëtiéa, complejo y
+completo,
+y la diputaciôn soeialista
+no
+des-
+cansarâ
+hasta
+no conseguir la supresiôn
+del
+presupuesto
+de
+culto
+y la separaciôn
+de la
+iglesia y del estado, para quedarnos después
+posiblemente mas cerca en algunos asuntos de
+oi'deii social, de los diputados que représentait
+en esté momento la tendencia clerical.
+Heinos encâràdo
+esta cuestion
+en otros
+de¬
+bates bajo èl pünto de vista general. El diputa¬
+do Justo lo ha èncarado esta vez con un espî-
+ritu prâctico actual, sin dejar de hacer consi-
+deraéiones
+fundamentales
+de
+orden
+general;
+y para que no baya Uingûn equivoco al res¬
+pecte, para que. en esta cuestion baya la ma-
+voittelaridad,jRara. que, no se preste a ningûn
+mal
+entendido
+es
+necesario
+reafirmar
+nuevâ^
+mente nuestro punto de vista fundamental.
+No discutimos
+la religion,
+senores
+diputa-
+dos, no discutimos el espîritu religioso. Se pue¬
+de
+creer
+que el espîritu religioso
+es una infe-
+rioridad,
+se puede creer que
+es una superior i-
+dad.
+Se puede creer que la religion es indis¬
+pensable
+para la moral,
+se puede
+creer
+que
+sin religion también la moral puede
+existir.
+Pero no
+es este lo que queremos debatir. De-
+jamos
+eso
+para
+debates
+de
+otra
+îndple,
+en
+otros sitios, para el eterno
+e inacabable debate
+entre la verdad cientîficà y el dogma religio¬
+so. Vamos a hacer ahora una cuestion concre-
+ta y clara,
+que
+es necesario
+que los
+senores
+diputados y el pueblo de la Republics conoz-
+can bien. Tolérantes
+en el mâximo grado con'
+todo espîritu religioso, tolérantes
+en mâximo
+grado
+con toda libertad religiosa,
+en nombre
+de
+esa tolerancia y de
+esa libertad exigimos
+que
+el
+estado
+no
+tenga
+ninguna religion
+y
+que el pueblo,
+compUesto
+de religiosos
+y
+de
+ateos,
+que el pueblo,
+compuesto
+de distintas*
+tendeneias religiosas,
+no
+pague de
+su peculio.-
+para mantener una religion dada. Se trata, se¬
+nores diputados, de afirmar de
+una
+vez parai
+siempre la mâs absoluta libertad religiosa.
+Se ha usado
+a mi entender
+con alguna iin-j
+propiedad las palabras tolerancia religiosa. No!
+es la tolerancia la que nosotros buseamos, por-.,
+que
+en realidad ella existe
+en la Republican
+Al lado de la iglesia oficial, al lado del culto
+sostenido
+por el
+presupuesto,
+se toleran
+las
+otras religionès. La tolerancia religiosa es una
+inferioridad. Es la libertad religiosa la que nos¬
+otros queremos; que cada hombre, cada grupo]
+humano que quiere profesar tal
+o cual creertH
+cia, que quiere realizar su culto en una eapi-j
+lia, en una sinagoga, en una catedral o en unai
+mezquita, pueda bacerlo
+con toda libertad y
+que el presupuesto nacional no sostenga a nin-
+guno de estos cultes ni a ninguna de estas sec*
+tas.
+Cuando los diputados socialistas sostenemosj
+con
+esta precision y claridad
+este punto dd
+vista,
+que
+no va contra la libertad religiosa*
+sino
+en su favor, y contra un culto oficial, qua
+ahora niega esta libertad,
+se nos sale
+con el
+artîculo 2o. de la Constitueiôn nacional. El se¬
+nor diputado Bas
+se ha referido ayer râpida-
+mente
+a este artîculo, y cl senor diputado Ga*
+fferata hoy se ha detenido con mâs amplitud
+en él. Como,
+se dice los senores diputados no-j
+cialistas quieren que
+se suprima el presupues¬
+to de culto de la naciôn, cuando bay una pres-
+cripciôn terminante que ordena el sostenimien-
+to
+del culto
+catôlieo, apostôlico, rômano!
+A!
+mi entender -es un argumente que no cabe bien
+en boea de hombres creyentes. Si yo fuera ca¬
+tôlieo,
+apostôlico,
+romano
+hubiera
+rechazado
+el presupuesto de culto. Me pareeerîa rebajaç
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 88.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

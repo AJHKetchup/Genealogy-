@@ -1,0 +1,268 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1123-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1123
+page_end: 1123
+part: 1
+---
+
+# Page 1123
+
+## Page Metadata
+
+- Source page: 1123
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1123.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Septembre 27 y 28
+3926
+CAMARA DE DIPUTADOS DE LA NACION
+Con çsto
+creo explicàdo los alcanees del
+ar-
+ticulo
+59 del despacho de la comisiôn.
+fDëbe la Repûblica Argentina formai’
+o
+no
+parte de la Sociedad de las Naciones?
+Tod'as las Naciones de cultüra, de noble tra-
+diciôn civilizadora, forman parte de la Soeie-
+.
+dad. El Brasil se ha retirado por circnnstaneias
+. espeeiales, Solo un
+grau pais no
+se ha adhe-
+■
+rido, Estados Unidos, perd su aislamiento
+es
+solo aparente, pues, si no esta présente en el
+Consejo ni en las Asambleas, asiste a los Con-
+gresos
+y Comisiones, formula indicaciones
+y
+son sus hombres mas eminentes los que colabo-
+ran. Elihu Root, el eminente jurisconsulte, ha
+forlnado parte de la Comisiôn que préparé el
+proyeeto
+de 'Corte
+de Justieia Internacional.
+El discurso
+de despedida de Washington, in-
+dicando la polîtica
+a seguir por Estados Uni-
+dos, que era la del aislamiento, dentro de sus
+limites soberanos no ha podido hacerse efecti-
+vb por dieha Naeiôn; en estas ultimas décadas
+ha progresado tanto ese gran pais, que ha te-
+nido necesariamente que participai’ en todos los
+âsuntos que interesan al mundo.
+Yencedores y vencidos son por igual miem-
+bros de la Sociedad. En 1920 tenia la Liga 45
+miembros; y hoy han ingresado la î«m totali-
+dad de los Estados
+soberanos.
+Austria, Hun-
+gria, Alemania, forman parte de la Sociedad,
+aliora Turquie y Méjico se adhieren ; Espana y
+Brasil se retiraron, la primera ha vuelto a adhe-
+rirse y la segunda no lo hizo afin. Solo perma-
+necen fuera de ella
+los paises
+que no desean
+ser miembros. Y es asi como ha quedado satisfe-
+eha
+una
+de las enmiendas presentadas por la
+Delegaciôn argentina.
+Nadie piensa, indudablemente, que la Socie¬
+dad sea algo perfecto. No lo es ninguna insti-
+tuciôn liumana. Pero, con todas las deficiencias
+inhérentes
+a un nuevo organismo, la Sociedad
+en una asociaciôn universal, un esbozo de coope-
+raeiôn internacional cuya influencia benéfica es
+innegable. Constituye todo lo que hoy por hoy
+puede haeerse en materia de coordinaciôn regu¬
+lar entre los pueblos : en su seno repercuten todos
+los problemas que sc agitan en la vida interna¬
+cional.
+Y si
+no podemos mantenernos alejados
+del mundo, no eonviène tampoco que permanezea-
+mos ajenos
+a lo que en la Sociedad se debate.
+:
+Razones de intergs positivo, nos aconsejan es¬
+tai’ présenté para participai’ o no en las cucs-
+tiones que
+se planteen, segûn lo indiquen las
+circunstancias.
+En
+sus asambleas
+annales, en
+el Consejo, en las comisiones permanentes, etce¬
+tera.
+Adcrnas, los principios que nnieven a la So¬
+ciedad, son los mismos dë nuestra naeionalidad.
+Cuando los inscribimos
+en las instituciones ar-
+...
+gentinas no los dimos ya por realizados. Empe-
+fiados éstamos en la obra de realizarlas con afa-
+noso' rsfuérzo. Y si'esta taf’ëa
+es diïieil y tra-
+bajosa en la vida interna, lo es mucho mâs en
+la vida intemacional, doude el canipo
+es
+. mas
+vasto y los problemas mas complejos.
+Joaquin V. Gonzalez,
+en el Senado argenti-
+no decia que, nuestra polîtica se inspiro en las
+grandes fimdaciones del pensamiento, de la in-
+teligencia, de la polîtica en su mas alta aeep-
+ciôn,
+que son los destinados
+a convertirse
+en
+conquistas eternas
+e indisolubles, verdâdera si-
+miente
+de la naeionalidad,' que
+se reproduce
+sin término
+y son la verdadera fuente
+de la
+grandeza nacional, entendida
+en su vasto con-
+cepto histôrico, y ese eoncepto constituye nues¬
+tra tradicion internacional de pais libre y al¬
+truists, tenemos que conservarla y acrecentar-
+la concurriendo con altura
+a discutir y brégar
+por los principios que hemos sostenido para sa-
+tisfacciôn nuestra y bien de la colectividad hu<
+mana. (jMuy bien!).
+Es
+en los Congresos, en las Conferencias, en
+Tratados, en Declaraciones, que, hemos defendi-
+do el arbitraje obligatorio, la libertad de los
+mares,
+la ilegitimidad
+del
+cobro compulsivo
+de las deudàs pûblicas, el rèspeto de la inde-
+pendèneia de los pueblos soberanos, la intan-
+gibilidad territorial, la igualdad juridica
+de
+todos los pueblos grandes
+o
+pequenos;
+y,
+en
+los anales de la vida internacional, estân
+co¬
+mo un ejemplo los Pàetos de Mayo, sobre ar¬
+bitraje y limitaciôn de armamentos terrestres
+y navales firmados eon Chile en 1902, ejemplo
+que es valox-ado como acto de sensatez, probidad
+y desprendimiéntb. Esta es nuestra polîtica, éstos
+son los principios que siempre hemos manteuido
+y debemos sostener
+en la Sociedad de las Na¬
+ciones.
+Paûl Hymans delegado belga, decia
+en Gi-
+nebra, el 7 de Septembre de 1929 al colocar
+la piedra fundamental del edificio
+de la
+So¬
+ciedad de las Naciones : «Hace -varios anos nos
+eneontrâbamos
+en cierto modo
+en el vacio. Co-
+menzâbamos
+una
+empresa
+que
+suseitaba in¬
+quietudes y hasta hostilidades, sonrisas, escep-
+ticismo. Unos decian que iuiciâbamos una gran
+experieneia — cran los optimistas
+— y otros
+que
+empezabamos
+una
+aventura. Y bien,
+he¬
+mos salido
+de la
+aventura
+y entrado
+en las
+realidades, y la experieneia ha triunfado. He¬
+mos
+servido
+y
+continuaremos
+sirviendo
+un
+gran ideal que pénétra de mâs en mâs el espi-
+ritu de la juventud. La juventud nos lleva lia-
+cia adelante; ella recogerâ los frutos de nues-
+tras labores
+y, tengo la convieciôn, sembrarâ
+nuevas coseclias».
+Senor présidente: La Comisiôn de Negoeios
+Èxtranjeros,
+en la totalidad de sus miembros,
+créé
+que: El Congreso ha de interpreter a la
+Naeiôn, y que la voz de la Repûblica Argentina,
+debe eseucharse en la alta tribuna de la Sociedad
+de las Naciones, cuinpliendo una misiôn de eivi-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1123.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

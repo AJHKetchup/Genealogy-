@@ -1,0 +1,617 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f7dfb3ea8c28-P0449-03
+source_converted: raw/converted/batch-pdf-043-s495-2-2.codex.md
+converted_sha256: f7dfb3ea8c2860cb1cf00eb4e10465262c20621cff41aaa7766f8503ca2ff476
+source: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/source/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/manifest.json
+page_start: 449
+page_end: 449
+part: 3
+---
+
+```text
+I
+Pftglaa 4
+D1ARIO DEL COMERCIO
+Sébado 7 de Julio de 1923
+La
+Sociedad de las Naciones
+Cômo realiza su vasta obra
+Exposiciôn del Doctor don Jliliàn Nogueira
+San José, 5 de julio de 1923
+Sr. Director del Diario del Comercio
+don Vicente Sâenz
+Presente
+Oistinguido senor:
+La Sociedadad de las Naciones es un organismo
+complejo y vasto cuyos resortes funcionan gracias
+a un esplritu de comprensiôn, de
+tolerancia
+y
+de
+■eooperaciôn que se aduefia poco a poco de
+cuantos
+le dedican sus actividades, pertenezcan al
+pals que
+pertenezcaa y sean de U raza que faeren.
+Mi primera observaciôn en la Secretarla de la
+Sociedad de iss Naciones, fue evidenciar
+como los
+hombres de mâs
+opuestas
+razas
+y mâs apartados
+paises van
+abandonando en el comercio diario de
+sus ideas la parte excluyente. negativa
+de sus
+pre-
+venclones raciales
+y de sus prejaicios nacionalistas,
+para adquirir una superior concepciôn de mutualis-
+mo yde reciprocidad sin abandonar por ello la parte
+coadyuvante y positiva de
+su natural idiosincracia,
+sin dejur por ello de ser hijos de su pueblo y c;uda'
+danos de su patria. Se realiza asi
+entre
+los funcio
+narios de la Secretaila el ideal que la Sociedad per
+sigue para los pueblos, de acercarlos, unirios, iden-
+tiflcarlos en sus nobles aspiraciones, sin ejercer en
+nlngun momen'o y por ningunâ causa acto alguno
+que pueda representar, ni lejanamente, un
+menos'
+cabo
+para su soberanla individual y para su
+auto,
+nomia perfects de Estaios Constituldos.
+Peroasl, ccmo los
+ciudadanos de un pals tie
+nen los sagrados derechos de su libertad individual
+restringidos por sus deberes para con la colectiviiad
+nacional, del mismo modo los Estados, que
+guar-
+dan celosamente los
+atributos
+de
+su
+soberanta,
+deben sujetar su acciôn dentro del radio rsignado
+a
+los
+ajenos
+derechos.
+Y
+para hacer prâctico este
+principio del Derecho Internacional ha nacido, vive
+y perdurarâ la Sociedad de las Naciones.
+P8ra efectuar obra tan vasta hace
+faits
+mucha
+dedicaciôn sincere,
+mucho
+espiritu
+de
+generosa
+eooperaciôn y una organizaciôn ampliay meticulosa
+al
+mismo tiempo. Trataré en esta carta de dar una
+idea sobre
+el funcionamiento de la Sociedad
+de las
+N aciones y expondré al mismo tiempo en que
+con'
+sjsten sus principales ôrganos.
+El Consejo, que se reune cada vez que es
+ne
+ce sario, représenta en cierto modo el Poder Ejecu,
+tivo de
+la
+Sociedad y
+la
+Secretarîa
+su Tôrgano
+administrative; la Asamblea es el Poder Legislativo
+la Cotte Peimanente de Justicia Internacional es
+el
+Poder Judicial y la Oficina Internacional del Trabajo
+es
+un ôrgano especial que abarca
+un cuarto
+poder
+que va disenândose poco a poco en las organizacio'
+nés eonstitucionales de los paises, a fuerza de crecer
+en todas partes la potencia
+absorbente
+del factor
+econômico que tiene su mâs alla manifestaciôn
+en
+las relaciones entre el capital y el
+trabajo.
+De
+ahi
+que la Oficina Internacional
+de
+Ginebra
+adquiera
+tan grande importancia a medida
+que la
+Sociedad
+de las Naciones va afirmando su progresiva influen'
+cia en las cuestiones mundiales.
+El Consejo
+Hasta la ultima Asamblea de setiembre pasado
+"el Consejo estaba
+formado
+por
+cuatro
+miembros
+p ermanentes y cuatro
+miembros
+no
+permanentes
+que
+pueden
+ser
+reelegidos.
+El
+Paccto
+■A
+détermina que las cinco potencies: Estados Unidos,
+Francia, Gran Bretana, Italia y Japon son miembros
+permanentes, pero la lamentable ausencia
+de
+los
+Estados
+Unidos, que afortunadamente se interesan
+cada vez mâs en las actividades de la Sociedad,
+al
+puntoque ésta serâ probablemente la razôn central
+de las actividades en su prôxima campana electoral,
+ha hecho que el numéro de miembros del Consejo
+haya estado reducido hasta el
+afio pasado a ocho.
+La ultima Asamblea aumentô a seis el numéro
+de
+miembros no permanentes, de modo queéstos estân
+en mayoria sobre los permanentes, demostrândose
+asi el espiritu democrâtico que reina en la Sociedad,
+espiritu puesto de manifiesto con la elecciôn de un
+pais pequeno como el Uruguay
+y
+que
+ya
+eataba
+revelado fundamentalmente antes del ultimo aumen
+to, si
+se
+piensa que las
+decisiones
+del
+Consejo
+deben
+ser
+adoptadas por
+unanimidad, cuando
+se
+trata
+de cuestione* esenciales y si se
+piensa
+ade
+mâs que las resoluciones esenciales de 'a Asamblea
+requieren fcl ssentimiente
+del Consejo. Todo esto
+quiere decir que un solo miembro del Gonse o, por
+[ equefio que sea el pais reprasentado, puede impedir
+con su sôlo voto una soluciôn de politica mundial. La
+potencia igualitaria es évidente.
+La Asamblea
+La Asamblea se reune ordinariamente
+una vez
+por ano y cada vez que sea necesario. A ella
+corn
+peten las mâs altas funciones
+legislativas
+de
+la
+Sociedad
+con intervsnciôn general del
+Consejo.
+Y
+tiene la funciones electivass por excelencia, pues la
+Asamblea désigna a los miembros no permanentes
+del Consejo,
+a los jueces de la Corte y désigna las
+grandes comisiones que preparan todas las résolu'
+ciones que adopta la Asamblea, entre las cuales no
+es la menos arduala que se reflere al
+presupuesto
+anual, analizado
+en sus detalies
+minimes
+ccn
+un
+contrrlor
+minuciosisimo.
+La Corte Plena de Justicia Interna¬
+cional
+La Corte Permanente de Justicia Internacional
+es el alto tribunal de ultima instancia para todos los
+conflictos que no han podido obtener soluciôn
+an'
+te otros ôrganos. Sus once
+jueces
+son jurisconsul'
+tos de fama mundial y pertenecen
+a los
+diferentes
+sistemas juridicos que hasta
+hoy sirven
+de base a
+la administraciôn
+de
+justicia.
+Entre
+esos jueces
+figuràn dos latinoamericanos y un norteamericano,
+lo
+que demuestra la gran
+influencia
+de América.
+dentro de la Sociedad y el interés
+que en los Esta’
+d os Unidos despierta
+siempre
+todo
+esfuerzoten'
+di ente a la soluciôn juridica de todo
+entredlcto
+La
+Corte puede ser
+considerada
+con entera
+certeza,
+por la forma
+como ba sido creada a base de un es'
+tatuto de admirable cquilibrio, la
+cristalizaciôn
+de
+la idea de justicia.
+La Secretarîa General
+Finalmcnte dité
+qué es la Secretarîa de la So'
+cied ad. Su misiôn es preparar
+tcdos los
+elementos
+que han
+de servir a la Asamblea y
+Consejo
+para
+estable cer sus ccnciusiones y poner luego
+en eje'
+cuciôn
+esas decisiores,
+haciéndolas
+Ilegaratodos
+los mie mbros de la Sociedad en genaral
+y a los di'
+rectamente interesados en particular.
+La Secretarîa cuenta con un
+Secretario
+gene'
+ral, un secretario general adjunto y dos subsecreta'
+rios generales que torman, por asi decirlo, la direc'
+ciôn superior con la cual colaboran
+estrechamente
+los directores de las diferentes secciones en que la
+Secretatia estâ dividida.
+Y es el
+anâlisis de estas secciones lo
+que me'
+jor
+darâ una idea exacts
+del espiritu
+de coopéra'
+ciôn internacional a que antes me
+referi,
+Priman en la constituciôn de las secciones des-
+de este punto de vista de la eooperaciôn internacio¬
+nal las organizaciones
+técnicas
+creadas
+para
+dar
+cumplimiento al articulo 23 de! Pacto. De esas orga¬
+nizaciones citaré en primer término la Econômica y
+Financiera y la de Trânsito
+y Comunicaciones
+que
+preparan en estos momentos
+las
+conferencias
+de
+octubre
+y
+noviembre proximo-,
+sobre
+cuestiones
+aduaneras y sobre comunic. Clones respectivamente.
+Debo agregar enseguida la organizaciôn de Higiene
+que tiene el cometido aitamenre bumanitario de elf
+minar las causas de epidemics y buscar los medios
+para unificar
+los esfuerzos
+çientificos con el fin de
+combatir en todas partes
+el
+. azote de las
+enferme-
+dades. La
+dosimetria de los’sueros es
+una prueba
+efleat de ello. El Comité de Higiene de la Sociedad
+ha realizado una campana de enorme utilidad gene'
+ral contra las epidemlas
+en la Europa Oriental y es
+lôgico que a eso haya deiiendosus mayores esfuer'
+zos, desde que alli estaba e! foco de
+males que pu'
+dieron invajir el mundo ent :ro. En los ûltimos me'
+ses y con el apoyo financier.1
+de la
+Instituciôn Ko'
+ckefeller, el Comité
+de Higiene realizô una obra de
+indiscutibles ventajis con
+e, intercambio
+de perso¬
+nal sanitario. Consiste esejintercambio
+en el envio
+de personal téenico de
+diferentes
+paises
+a un pais
+determinado donde estudian
+los sistemas locales y
+a los cuales aportan las sistemas
+de
+sus paises de
+origen.
+^
+La Comisiôn
+de Cocperaciôn
+Intelectual
+for'
+mada por sabios de indiscutible
+nombradia univer'
+sal (basfa citarlos nombres
+de Bergson
+y Madame
+Curie) realiza una obra superior
+de
+acercamiento
+en que la protection del trabajo intelectual, el inter'
+cambio univerSitario, la
+fundaciôn de
+bibliotecas y
+la defensa de los centros culturales
+en
+los
+paises
+venidos a menos por la gu;ira, no son el
+factor de
+menor
+importancia.
+Las cuestiones
+sociales
+y humanitarias
+ta'es
+como la lucha contra la
+trata de
+mujeres y ninos y
+contra el abuso de los
+alcaioides, tienen su
+factor
+eficiente de defensa en la succion social, que ha 11e-
+vado ya
+a cabo
+multiples
+actos
+en
+bensfîcio
+del
+bienestar morai en todas partes, los que serian ma¬
+yores y mâs eficaces, si los Parlamentos
+no déjà'
+sen dormir
+en
+sus
+carpetas
+las
+ratificaciones de
+acuerdos y convenciones
+elaborados en
+conferen'
+cias especkles, lo que no impide
+que en esos mis'
+mos Par'amentos
+se alcen voces
+para decir
+que la
+Sociedad de las
+Naciones no
+hace nada:
+se
+ve la
+paja en el ojo ajeno
+y no
+se
+idvirte
+la viga
+en el
+propio.
+La Comisiôn
+Provisional mixta para la reduc'
+ciôn de los
+armamentos y el
+Comité
+de expertos
+militares colaboran
+estrechamente
+en
+el principa'
+lismo problema de disminuir
+siempre mâs los gas'
+tos que destinan las naciones al material bélico
+en
+lo naval y en lo terrestre. Este
+problema
+es de los
+mâs delicados, si se piensa que debe
+ser estudiado
+y rcsuelto a raiz de una convulsiôn formidable y sia
+précédantes en la bistoria del mundo.
+Pero todo se
+andarâ, que no es obra de cuatro
+dias ni
+de cuatro
+afios reconstruir lo que
+se
+ha destruido
+en cinco
+interminables afios
+de flebre
+preparados
+durante
+otros cuarenta
+afios
+con
+pac’encia
+y método.
+Es
+prueba évidente de la dificultad que
+este problema
+ofrece, el hecho de que el tema XII sobre el mismo
+haya fracasado
+en la reciente Conferencia
+de Sa»'
+tiago, a pesar de que en América no salimos de una
+guerra. Esto ensefiarâ a ser mâs
+pacientes y crite'
+riosos a quienes acusan
+de lentitud
+e ineficacia a-
+la Sociedad de las
+Naciones
+en nuestras tierras.
+La Secciôn Potitica tiene a
+su cargo el estudio
+de las
+diferencias
+que separan
+a las
+naciones en
+esa rama esencial da las actividades humanas hack
+la cual converjen
+en ultimo
+té.mino todas las de'
+mâs.
+La
+S;cciôn
+Juridica, ademâs de organizar un
+minucioso
+registro
+de todos
+los tratados interna'
+cionales, debe evacuar todas las consultas de carâc'
+ter juridico
+que se
+presentan
+para la soluciôn de
+los variadisimos problemas de
+todo
+orden que se
+refieren a las relaciones
+internacionales.
+La
+Secciôn de mandatos
+estâ
+encargada
+de
+preparar todos los
+elementos relativos
+a la admi'
+nistraciôn
+de
+los
+territories
+que fueron turcos y
+que fueron colonias alemanas
+y los
+cuales
+estân
+hoy bajo mandato de algunos paises
+miembros
+de
+la Sociedad que los administra» en nombre de élla.
+La Secciôn
+de Informacicn es algo asi como el
+Ministerio de Relationes Exteriores
+de la Sociedad
+por cuyo conducto
+pasan al
+dominio pûblico todas
+las actividades multiformes
+de la Sociedad. Dentro
+de esa secciân
+inicié los
+primeros trabsjos de or'
+ganizaciôn de la Oficina de la América
+Latina
+que
+hoy funeiona ya definitivamente con carâcter
+auté'
+nomo y con el concurso
+valioso
+de otros dos fun'
+cionarios latino americanos de Pansmâ y Venezue'
+la.
+La Secciôn A iministrativa tiene
+a su
+cargo el
+cuidado de la administrativa politica de détermina'
+dos territorios qu3 pudieran ser
+objeto de litigio a
+raiz de la
+guerra,
+como
+la cuenca
+del Saar
+y la
+Ciudad Libre de Danzig, y se ocupa
+asi mismo de
+la protecciôn de los derechos de las Minorias
+que
+viven
+en determidados
+paises del centro
+y oriente
+de Europa.
+La Seeciôn de la Administraciôn financiera, en
+fin, es algo asi como el Ministerio [de
+Hacienda de
+la Sociedad y se preocupa
+especialmente de la apH'
+caciôn del presup jesto
+general.
+En
+los principales
+organismos [que
+acabo de
+nombrar
+colaboran
+sin distinciôn
+personalldades

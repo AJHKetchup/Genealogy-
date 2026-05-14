@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab.codex.md",
+  "converted_sha256": "3f3c43d117831d4875bb1a695f888ef34c4b7009dc203a04fc562b8760a34f89",
+  "source": "raw/codex-conversion-jobs/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab/source/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg",
+  "source_sha256": "99541c195e4ec48320e5cafecc00e816585a4333aa495339cc5a5ad89197a8f5",
+  "source_manifest": "raw/codex-conversion-jobs/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-3f3c43d11783-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 3748,
+      "sha256": "ed8be9182dfa4e4f720709ed9789e827924e3c5c990663cf2473d2834c35f61a"
+    }
+  ]
+}

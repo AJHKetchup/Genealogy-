@@ -1,0 +1,442 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1283-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1283
+page_end: 1283
+part: 1
+---
+
+# Page 1283
+
+## Page Metadata
+
+- Source page: 1283
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1283.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+LA NACIGN
+Funôada por Bartolomé Mitre
+IV I MDCCCLXX
+y'
+J^PNacion
+acion sera una tribuna de doctrina
+(Nüm.
+1, ano 1)
+Buenos Aires, 9 de noviembre de 1936
+La polîtica international
+argentina
+Un cablegrams de nuestro co-
+rresponsal en Roma, publicado el
+sâbado, refiriéndose a la prôxima
+Conferencia
+Interamericana,
+ex-
+presaba la esperanza
+de algunos
+eirculos diplomàticos y politicos de
+aquelia capital, de que, en dicha
+reunion, la Argentina sabria “evi-
+tar que las Américas se aislen de
+la politics
+y
+de los
+asuntos
+de
+Europa”. Esa esperanza, agregaba
+"el corresponsal,
+se fundaba en la
+reciente actuaciôn del Dr. Saave¬
+dra Lamas
+en Ginebra. También
+en la suposicion
+de
+que nuestro
+embajador
+en
+Roma
+haya
+sido
+escogido
+como
+delegado
+a dicha
+Conferencia
+en razôn del impor¬
+tante papel
+que tantas
+veces ha
+desempenado
+en la Sociedad
+de
+las Naciones.
+No decia la informaciôn de dôn-
+de
+deducen los referidos eirculos
+que las naciones de América, cu-
+yas relaciones con Europa tienen
+en cada pais caracteristicas
+pro-
+pias, abriguen el propôsito de ais-
+larse politicamente del continente
+europeo. La Conferencia,
+que ha
+de inaugurarse
+en
+Buenos Aires
+el 1<? de diciembre, llâmase oficial-
+mente
+“de
+consolidaciôn
+de
+la
+paz”.
+Cuando nuestro embajador
+en Washington, hablando por ra-
+diotelefonia desde la capital nor-
+teamericana,
+explicô
+las
+razones
+que movieron al présidente Roo¬
+sevelt
+a
+convocar
+esta
+reunion,
+refiriose concretamente al antécé¬
+dente
+del conflicto boliviano-pa-
+raguayo.
+Es
+necesario,
+dijo,
+que
+una
+contienda
+como
+aquelia
+no
+vuelva a repetirse en el continente
+americano.
+Los
+ex
+combatientes
+eran miembros de la Sociedad de
+las Naciones y estaban iigados por
+los distintos pactos pacifistas vo-
+tados
+en conferencias panameri-
+canas. Puesto que no fueron ôbice
+para que la guerra
+se produjera,
+es forzoso completarlos de mane-
+ra tal que la guerra sea imposible
+en América.
+Este
+es
+el objeto fundamental
+de la prôxima conferencia y tam¬
+bién la causa que la originô. Se ha
+hablado,
+naturalmente,
+de
+otros
+aspectos complementarios
+que
+la
+Conferencia podria revestir o con-
+secuencias a que podria llegar. De
+todos esos diceres, de los primeros
+momentos, el mâs sensacional fué
+aquel que atribuyô a la prôxima
+reunion la finalidad de dar un ca-
+râcter
+colectivo
+a
+la
+doctrina
+Monroe,
+es
+decir,
+que
+todas
+las
+naciones americanas hicieran su-
+ya la declaraciôn unilateral de los
+Estados Unidos en 1823, formando
+una
+liga
+defensiva contra cual-
+quier agresiôn proveniente de Eu¬
+ropa
+o del Asia. Pero los rumo-
+res sensacionales generalmente no
+son
+los
+mâs
+fundados.
+Este
+no
+tomô consistencia y, una vez fija-
+do el programa de la Conferencia,
+no es fâcil ver cômo tal idea po¬
+dria introducirse en el estudio de
+los
+medios
+de
+consolidar
+la
+paz
+âmerlcana,
+finalidad esencial
+de
+la asamblea.
+A
+esto
+conviene
+agregar
+otro
+recuerdo. Al lanzarse la idea de la
+Conferencia. una de las dificulta-
+des que, teôricamente, se suscita-
+ron
+consistiô
+en
+la
+vinculaciôn
+bon la Sociedad
+de
+las
+Naciones
+para
+los
+paises
+americanos
+que
+son miembros de ella. Los diarios
+la discutieron. En su respuesta a
+la invitacion
+del présidente Roo¬
+sevelt, el présidente argentino hi-
+;zo manifestaciones claras al res-
+j?ecto. Las comentamos oportuna-
+■îinente
+en estas columnas. Hoy es
+çosa
+entendida
+que la presencia
+de cualquier estado de este
+con¬
+tinente
+en la prôxima Conferen-
+4ia Interamericana, igual que en
+•las anteriores, no afecta sus rela-
+Içiones con Ginebra y, desde luego,
+•con los paises de Europa.
+t' Asi, no se ve muy clara la pro-
+Jbabilidad de que nuestro pais ten-
+ga que representar, el mes proxi¬
+mo, el papel que se espera en Ro-
+■pia
+que desempenemos, evitando
+,Vque las Américas se aislen de la
+>politica y de los asuntos de Euro-
+)ba”.
+Pero,
+de
+cualquier
+modo,
+içonviene recordar que la pol:'Am
+internacional de todo pueblo.
+ende del nuestro, esta deteiViina-
+da,
+principalmente.
+por
+factores
+geogrâficos e histôricos, a los cua-
+•les tiene que ser fiel,
+so pena de
+ser
+arbitraria
+y
+hasta
+absurda.
+Ahora bien:
+los factores geogrâ¬
+ficos,
+que
+nos
+imponen
+vinculos
+econômicos con Europa (incluyen-
+do en este grupo el fenômeno mi¬
+gratorio)
+nos obligan a mantener
+también una estrecha solidaridad
+con toda América y. muy especial-
+mente, con los paises vecinos. En
+çuanto a los histôricos, que algu-
+nas
+veces,
+pero
+no en este
+caso,
+no
+se armonizan
+con los geogrâ¬
+ficos,
+nos
+imponen
+el
+reconoci-
+miento
+de
+nuestra
+herencia
+cul¬
+tural, de los vinculos espirituales
+que nos ligan a Europa, y, de un
+modo particular,
+con
+la civiliza-
+ciôn latina. Por ende, también, con
+los
+paises
+americanos
+herederos
+de la
+misma.
+La polîtica internacional argen
+tina
+siempre estuvo determinada
+por estos factores. Siempre habrâ
+de tenerlos en cuenta, acomodân-
+dolos a las circunstancias que va-
+rian
+todos
+los
+dias.
+En
+nuestras
+relaciones econômicas con Europa,
+reconociendo el distinto grado de
+intereses que nos ligan a las na¬
+ciones de aquel continente, siem¬
+pre hemos rehusado enfeudarnos a
+cualquiera. En nuestras relaciones
+culturales, siempre hemos recono-
+cido lo que debemos
+a la madré
+patria,
+a Francia,
+a Italia,
+cuya
+sangre corre por las venas de tan-
+tos
+argentinos
+Nunca
+escatima-
+mos
+esfuerzos
+para
+intensifiear
+tales vinculos, sin olvidar los que
+debemos cultivar
+con
+otros
+pue¬
+blos, como Alemania
+o Gran Bre-
+tana.
+Al mismo tiempo,
+empero,
+tanto la historia como la geogra-
+fia nos imponen que, en cuanto a
+relaciones politicas, demos prela-
+Ciôn a los paises de este continen¬
+te. Esto ha sido hecho dentro de
+una graduacion que ya fué tenida
+en cuenta. en 1826, cuando la in¬
+vitacion
+para ei Congreso de Pa-
+namâ,
+pero
+que,
+naturalmente.
+varia- a medida
+que, acortândose
+las distancias, los paises de Amé¬
+rica
+se
+vinculan. Ahora, las cir¬
+cunstancias
+para
+Europa
+y
+el
+mundo bien pudieran dar un
+ca-
+râcter al mismo tiempo mâs gene¬
+ral y mâs profundo a esos vmeu-
+îos. Excepciôn hecha de los Esta¬
+dos Unidos, compartimos con ellos
+la
+misma
+herencia
+cultural,
+las
+mismas
+normas juridicas. Inriu-
+yendo
+a
+los
+Estados
+Unidos, los
+mismos principios politicos y nu-
+tridos intereses econômicos.
+h
+J2J
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1283.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

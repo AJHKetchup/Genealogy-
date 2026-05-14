@@ -1,0 +1,147 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0396-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 396
+page_end: 396
+part: 1
+---
+
+# Page 396
+
+## Page Metadata
+
+- Source page: 396
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0396.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+3
+à la Société
+des Hâtions
+et
+que,
+par conséquent, il n'y
+avait qu'à passer immédiatement à l'objet de la réunion,
+c'est-â-dire
+à l'examen, article par article,
+du projet
+afin de permettre à chaque délégué de présenter les
+observations qu'il jugerait opportunes. Il est à remarquer
+qu'on ne prit
+pa3 de notes sténograpaiques de cette
+réunion.
+Le Dr. Alvear,
+au
+cours
+de cette réunion,
+ne
+réclama pas explicitement l'incorporation de l'Argentine
+à la
+Conférence
+de Paris. Il dit
+à
+peu près ceci,
+d’après les procès-verbaux sommaires qui furent dressés
+après la réunion: "j'ai expesé les raisons qui pourraient
+empêcher
+mon Gouvernement de prendre part à la
+discussion
+privée des articles du programme
+à l'élaboration duquel
+il n'avait
+pas pris part",
+se réservant le droit
+de le
+faire
+certainement le jour où l'Argentine serait invitée
+à la
+création
+de
+la
+Société
+des Hâtions et à coopérer,
+d'une
+manière efficace
+et légitimement représentée,
+à
+une
+oeuvre permanente aussi considérable
+que la création
+de
+la
+Société
+des Nations.
+On.voit poindre ici la même
+erreur dont
+les conséquences
+se virent
+par la suite,
+c'est-à-dire l'erreur de croire
+que l’Argentine aurait
+une intervention créatrice
+avec
+les Puissances dont
+l’engagement plurilatéral constitua la base du Pacte
+de
+la
+Société
+des Nations.
+Ce n’est
+que le
+12 juillet
+1019
+que le Ministre
+des affaires étrangères autorise par câblogramme le
+Ministre argentin à Paris à adhérer au Pacte de la
+Société
+des Nations.
+Voici le texte
+du télégramme:
+"Conformèrent
+à l'article premier
+du Pacte de la Société
+des Nations, le Pouvoir 2xécutif
+a résolu d'adhérer à
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 396.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

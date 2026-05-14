@@ -1,0 +1,190 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-09e4cb999ef7-P0194-01
+source_converted: raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+converted_sha256: 09e4cb999ef7849184392fb67703554132ffaa522227f2b4a9ff028efd3cb5bf
+source: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/source/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+page_start: 194
+page_end: 194
+part: 1
+---
+
+# Page 194
+
+## Page Metadata
+
+- Source page: 194
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0194.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Il est procédé à l'appel nominal. Ont voté en faveur du projet les sociétés nationales suivantes:
+Albanie, Allemagne, Amérique, Argentine, Autriche, Belgique, Brésil, Grande-Bretagne,
+Bulgarie, Canada, Chili, Chine, Costa-Rica, Cuba, Ville Libre de Dantzig, République domi¬
+nicaine, Egypte, Espagne, France, Guatémala, Grèce, Hongrie, Islande, Italie, Japon, Lettonie,
+Lithuanien
+Luxembourg,
+Mexique,
+Pays-Bas,
+Panama,
+Paraguay,
+Pérou,
+Perse,
+Pologne,
+Portugal,
+Roumanie,
+Salvador,
+Royaume
+serbe-croate-slovène,
+Siam,
+Union sud-africaine,
+Suisse, Tchécoslovaquie, U.R.S.S., Uruguay, Vénézuéla (46 voix).
+Ont voté
+en faveur du projet avec des réserves au sujet de l'article 6 :
+Danemark, Norvège, Finlande, Suède (4 voix).
+Ont
+voté
+en faveur du projet les Gouvernements suivants:
+Allemagne, Argentine, Autriche, Belgique, Brésil, Bulgarie, Chili, Chine, Cuba, République
+dominicaine,
+Egypte,
+Espagne,
+Etats-Unis, France,
+Hongrie,
+Italie, .lapon, Luxembourg,-
+Mexique, Nicaragua, Nouvelle-Zélande, Pays-Bas, Pérou, Perse, Pologne, Portugal, Roumanie,
+Royaume serbe-croate-slovène, Salvador, Siam, Suisse, Tchécoslovaquie, Union Sud-Africaine,
+U.R.S.S., Uruguay (35 voix).
+Se sont abstenus
+les Gouvernements suivants:
+Danemark,
+Finlande,
+Lithuanie, Norvège, Suède (5 voix).
+A
+voté enfin
+en faveur du projet le Comité international de la Crois-Rouge.
+S.
+E.
+le général Roell (premier vice-président).
+— Je constate
+que la votation donne
+les résultats suivants:
+50 Comités centraux ont voté
+en faveur du projet, dont 4
+avec réserves au sujet de
+l'article
+6.
+35
+Gouvernements
+ont
+voté
+en
+faveur
+du
+projet, ainsi
+que le Comité international
+de
+la Croix-Rouge.
+5
+Gouvernements
+se sont abstenus.
+Le projet est donc accepté. (Vifs applaudissements.)
+Nous
+avons
+maintenant
+à aborder le point IV de l'ordre du jour: „Utilisation de la
+Croix-Rouge pour les secours aux victimes de la guerre maritime", et le point VI: ,,Propo¬
+sition Boland visant la création d'une flottille internationale de secours de la Croix-Rouge".
+La parole est à M. A met, rapporteur de la commission.
+Rapport
+de
+M. Amet.
+M. Amet (France).
+-— Excellences, Mesdames, Messieurs.
+N'étant homme ni
+de verbe, ni de plume,
+vous voudrez bien me permettre de passer
+sans autre préambule à la lecture du
+rapport
+que
+votre Première
+Commission
+a
+tenu à
+confier
+au marin qu'elle comptait parmi
+ses membres,
+en faisant ainsi à
+sa profession un
+honneur
+dont j'apprécie
+tout
+le prix.
+Chargée d'étudier la question de l'utilisation de la
+Croix-Rouge pour les
+secours
+aux victimes
+de
+la
+guerre maritime, ainsi que la proposition
+Boland
+de création d'une flotille
+de
+secours de la Croix-Rouge, notre Première Commission
+a tout d'abord
+décidé la jonction de ces deux questions à raison de leur étroite connexité.
+Qu'est,
+en
+effet,
+le
+projet Boland? Un procédé de secourir des victimes de combats
+navals
+ou
+de catastrophes éventuelles, procédé puissant,
+certes très intéressant, voire idéal,
+mais
+non le
+seul procédé qui puisse être envisagé clans le but susdit.
+—
+21
+—
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 194.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

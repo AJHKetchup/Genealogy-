@@ -1,0 +1,4 @@
+interface:
+  display_name: "Genealogy Claim Extraction"
+  short_description: "Extract atomic genealogy claims into staging"
+  default_prompt: "Use $genealogy-claim-extraction to extract staged atomic claims from converted source chunks without editing canonical wiki pages."

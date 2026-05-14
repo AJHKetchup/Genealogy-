@@ -1,0 +1,115 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9bdbc1c5bbaf-P0233-01
+source_converted: raw/converted/batch-pdf-039-r3578-50-5569-5569-jacket5.codex.md
+converted_sha256: 9bdbc1c5bbaf15182e94e0e0b95b53a432dc94f7c0429e9384dcf0999391d0b3
+source: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/source/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/manifest.json
+page_start: 233
+page_end: 233
+part: 1
+---
+
+# Page 233
+
+## Page Metadata
+
+- Source page: 233
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0233.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+10
+514
+Le Dr Abdulkadir Bey, Lieutenant-Colonel, Mddecin militaire,
+Professeur k l’Ecole d’Application et k l’Hopital de Gulhane;
+Le President de la Edpublique Orientale de l’Uruguay:
+S. Exe. M. Alfredo de Castro, Envoyd extraordinaire et Ministre
+pldnipotentiaire d’Uruguay
+a Berne;
+Le
+President
+de
+la
+Edpublique
+des
+Etats-Unis
+de
+Vdndzudla:
+S.
+Exe.
+M.
+Caraeciolo Parra-Pdrez, Envoyd extraordinaire
+et
+Ministre pldnipotentiaire de Vdndzudla a Eome,
+M. Ivan Manuel Hurtado-Maehado, Chargd d’Affaires p. i. de
+Vdndzudla h Berne;
+Lesquels,
+apres
+s’etre
+communiqud leurs pleins pouvoirs,
+trouvds
+en bonne et due forme, sont eonvenus de
+ce qui suit:
+CHAPITEE PEEMIEE.
+Des blesses et des malades.
+Article premier.
+Les militaires et les autres personnes officiellement attachdes
+aux armdes qui seront blessds ou malades devront etre respectds
+et protdgds en toutes circonstances; ils seront traitds avec hu-
+manitd et soignds,
+sans distinction de nationalitd,
+par le belli-
+gdrant qui les aura en son pouvoir.
+Toutefois, le belligdrant, obligd d’abandonner des blessds ou
+des malades
+a son adversaire, laissera avec
+eux, autant que les
+exigences militaires le permettront, une partie de son personnel
+et de
+son matdriel sanitaires pour contribuer a les soigner.
+Article 2.
+Sous rdserve des soins a leur fournir en vertu de Particle prd-
+cddent, les blessds et les malades d’une armde tombds au pouvoir
+de l’autre belligdrant seront prisonniers de guerre et les regies
+gdndrales du droit des gens concernant les prisonniers leur seront
+applicables.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 233.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

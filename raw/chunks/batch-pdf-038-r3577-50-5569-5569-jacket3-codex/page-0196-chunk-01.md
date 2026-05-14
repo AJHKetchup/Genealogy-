@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0196-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 196
+page_end: 196
+part: 1
+---
+
+# Page 196
+
+## Page Metadata
+
+- Source page: 196
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0196.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+3
+Messieurs, il ne me rëste qu'à remercier les membres du comité de rédaction du concours
+qu'ils ont bien voulu m'apporter pour me faciliter l'accomplissement de cette tâche, pour laquelle
+je ne me sentais guère qualifié, et à remercier tout particulièrement — et en cela je suis persuadé
+d'interpréter le sentiment unanime de la commission — M. le Président Dinichert et M. le Secré¬
+taire général Des Gouttes pour l'aide infiniment précieuse qu'ils ont apportée aux travaux de
+notre sous-commission. (Vifs applaudissements).
+M. le Président
+:
+Je suis convaincu que vous avez tous l'impression d'avoir entendu un excellent rapport.
+J'aurais voulu en remercier M. Motono sans aucune réserve ; il m'oblige à en faire une, légère,
+en ce qui concerne l'importance qu'il attribue au concours que le Bureau a pu apporter aux
+travaux de la sous-commission, mais sous le bénéfice de cette réserve, je voudrais m'associer
+spécialement aux remerciements qui viennent de lui être manifestés par les applaudissements
+de la commission.
+Messieurs, ce rapport et les trois articles sur lesquels il porte, ou l'un après l'autre, sont mis
+en discussion. A qui puis-je donner la parole ? Si la parole n'est pas demandée, je consulterai
+la commission sur l'adoption des articles successivement.
+Le Major Général Diehl (Pays-Bas)
+:
+Dans
+une séance, avant-hier, j'ai remarqué une certaine discordance entre les articles
+14 et 17 en ce qui concerne l'utilisation des voitures du service de santé qui seraient capturése.
+Cette discordance, je l'ai signalée dans la sous-commission aussi. Mais il me semble que cela a
+été perdu de vue pour une cause fortuite.
+Je rappelle que, dans l'article 17, on a mis
+« ... à la condition que cette utilisation des
+voitures capturées soit limitée au terrain de lutte sur lequel elles ont,été capturées. « Il faudrait,
+à mon avis, faire la même exception aussi à l'article 14, ou bien la biffer dans l'un et dans l'autre.
+Le Colonel Hauser (Suisse)
+:
+Je ne suis pas du même avis que M. le délégué des Pays-Bas. Les formations sanitaires
+proprement dites, les compagnies sanitaires, les ambulances, etc. ont seulement les voitures
+qui leur appartiennent en propre et dont elles ont absolument besoin ; tandis que des convois
+d'évacuation peuvent très souvent se servir de voitures d'occasion, des fourgons, etc. même des
+fourgons de munitions. En tout cas, dans l'armée suisse, toutes les voitures qui appartiennent
+aux formations sanitaires proprement dites leur sont absolument nécessaires. Je crois donc que
+l'on peut très bien faire la distinction entre les voitures des formations sanitaires et celles des
+convois d'évacuation.
+M. le Président
+:
+Vous venez d'entendre ces deux avis qui viennent d'être exprimés. Voulez-vous manifester
+votre sentiment
+à cet égard ?
+Le Major Général Marotte (France)
+:
+Je partage l'opinion de M. le Colonel Hauser. Dans la formation sanitaire française c'est
+absolument la même chose. La formation est un tout. Elle a des voitures qui servent même à
+un usage non médical, telles que les cuisines roulantes, qui sont sa propriété. Ces cuisines rou¬
+lantes portent aussi l'emblème de la Croix-Rouge et l'emblème national, tandis que pour
+l'évacuation, par exemple, des petits blessés, des éclopés, on les transporte sur ce que nous
+appelons des camions de transport de personnel, de transport de matériel, bref sur n'importe
+quoi, pourvu qu'on puisse les enlever, et ces transports-là n'ont rien à voir avec la formation
+mobile.
+Le Major Général Diehl (Pays-Bas)
+:
+Je veux seulement constater que, dans notre armée, c'est un peu différent : la formation
+mobile utilise aussi des voitures qui peuvent servir à d'autres buts militaires.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 196.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

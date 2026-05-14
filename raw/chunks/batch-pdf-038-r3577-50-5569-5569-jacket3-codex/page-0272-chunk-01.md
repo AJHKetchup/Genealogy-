@@ -1,0 +1,109 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0272-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 272
+page_end: 272
+part: 1
+---
+
+# Page 272
+
+## Page Metadata
+
+- Source page: 272
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0272.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+12
+Séance du 16 Juillet 1929
+Le Médecin Général Marotte (France)
+:
+Au début de la séance, j'ai proposé cette transaction pour mettre d'accord toutes les
+opinions. En ce faisant, je crois que je rentre absolument dans les conditions auxquelles vous
+venez de faire allusion. Cependant il me semble qu'un certain nombre de mes collègues estiment
+qu'il vaudrait mieux traiter la question en sous-commission. Je vous soumets cette suggestion.
+M. le Président
+:
+Je la soumets à mon tour à la commission.
+M. Wadsworth (Etats-Unis) :
+Il est très difficile pour moi de parler en français, je vous prie par conséquent de m'excuser.
+N'avons-nous pas donné, dans l'article 23, toute l'autorité nécessaire aux Gouvernements
+pour prendre les arrangements qu'ils désirent, chaque Gouvernement pourra donc conférer
+ce pouvoir à la Croix-Rouge nationale.
+Le Médecin Général Marotte (France) :
+Cet alinéa vise les sociétés de secours volontaires. Or, dans le cas que nous discutons,
+il s'agit de fêtes publiques (sociétés de gymnastiques, de tir, courses). Dans ce cas, il n'y a
+pas de sociétés de secours volontaires. Une société qui organise des courses, par exemple,
+demande à quelqu'un de bien vouloir assurer le service des secours. Il s'agit donc d'un cas
+particulier en dehors du cas visé à l'article 23. Il suffirait d'ailleurs, peut-être, d'étendre cet
+alinéa.
+M. Wadsworth (Etats-Unis)
+:
+Chaque Gouvernement a le droit de procéder à tous les arrangements avec telle société
+pour l'utilisation de la Croix-Rouge. Il peut désigner un département compétent. Ce n'est
+pas à nous qu'il appartient de fixer ce pouvoir.
+Le Médecin Général Marotte (France) :
+Nous voudrions arriver à limiter les abus.
+M. Wadsworth (Etats-Unis)
+:
+Il est très difficile de limiter les abus.
+Le Médecin Général Marotte (France) :
+C'est pourquoi l'alinéa avait été rédigé suivant la modification proposée par M. le Sénateur
+Ciraolo, disant : « Les Etats contractants peuvent... ».
+M. Wadsworth (Etats-Unis) :
+Je ne sais pas si, par une décision quelconque, on peut donner plus d'autorité à un Gouver¬
+nement. Les Gouvernements font ce qu'ils veulent.
+Le Lieutenant Colonel Martola (Finlande) :
+J'appuie la proposition de renvoi à une sous-commission.
+Le Colonel Ziiblin (Suisse)
+:
+Il me semble que la discussion sur les points matériels n'est plus nécessaire. Nous sommes
+suffisamment éclairés. Ce qui paraît causer une difficulté, c'est la rédaction de cet article à
+laquelle la délégation italienne attache une certaine importance.
+Au lieu de mettre en train la grande machine de la sous-commission, où l'on discute à
+nouveau la question en détail, ne vaudrait-il pas mieux demander à quelques délégués de se
+réunir en comité de rédaction, de préparer un texte à nous soumettre dans la prochaine séance ?
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 272.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

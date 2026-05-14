@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/poc-docx-proof-docx.codex.md",
+  "converted_sha256": "74ccb1a9230a5c4a2cac2ff7cc0390dee30ba39835ddfc2ce778f8e62749f2ac",
+  "source": "raw/codex-conversion-jobs/poc-docx-proof-docx/source/Decreto Exento N°5472.docx",
+  "source_sha256": "262fad212b16ccb4f3ea64c66b33e3f938000fbc67383960765fe67c5557b868",
+  "source_manifest": "raw/codex-conversion-jobs/poc-docx-proof-docx/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-74ccb1a9230a-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/poc-docx-proof-docx-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 2501,
+      "sha256": "7d65f9e7f85b7f855f5aae1c46b19d635f2ec852b437cdac6dcabc5f6f28ad76"
+    }
+  ]
+}

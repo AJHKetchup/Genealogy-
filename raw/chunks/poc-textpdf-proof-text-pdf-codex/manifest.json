@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/poc-textpdf-proof-text-pdf.codex.md",
+  "converted_sha256": "167693603c68bb2b61b2a5d3fe0047f0362e0ee4f869b63786d42fc31d3ab0c0",
+  "source": "raw/codex-conversion-jobs/poc-textpdf-proof-text-pdf/source/Resolución 283, Ministerio de Vivienda y Urbanismo; Servicio de Vivienda y Urbanización; V Región de Valparaíso, January 15, 2001.pdf",
+  "source_sha256": "d653020f98e975d872bd1999e7b645630647b07afbe1b2567c6c82818056fb39",
+  "source_manifest": "raw/codex-conversion-jobs/poc-textpdf-proof-text-pdf/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-167693603c68-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/poc-textpdf-proof-text-pdf-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 3568,
+      "sha256": "3b670d556cb1d2189039458e5b8cd1f05d07b49804e13b7b0d4dcf9a5f58fa90"
+    }
+  ]
+}

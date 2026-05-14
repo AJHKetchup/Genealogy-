@@ -1,0 +1,574 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1338-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1338
+page_end: 1338
+part: 1
+---
+
+# Page 1338
+
+## Page Metadata
+
+- Source page: 1338
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1338.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+La Production Argentine
+d’après M.
+Louis
+Baudin
+(fi
+^ ^
+M. Louis Baudin, professeur à la Fa¬
+culté de Droit
+de Dijon,
+après
+un
+sé¬
+jour de plus de deux mois
+en Argen¬
+tine,
+a
+exposé,
+en
+trois
+longs
+articles
+publiés
+dans
+1’
+«
+Information
+»,
+les
+traits généraux de
+l’économie
+actuelle
+de la
+grande
+république
+sud-améri¬
+caine.
+C’est
+d’après
+ces
+articles
+que
+nous résumons
+son opinion
+sur
+cet
+im¬
+portant sujet.
+La
+crise économique
+qui
+éprouve
+actuellement
+le monde entier, n’a
+pas
+épargné la République Argentine. Les
+Argentins
+se
+sont,
+d’abord,
+montrés
+très
+déprimés
+par la
+dépréciation
+du
+peso, la baisse
+de
+leurs
+principaux
+produits d’exportation, blé,
+maïs,
+lin,
+viande et la fuite de leurs capitaux. M.
+Louis Baudin
+pense,
+et,
+au surplus,
+a
+démontré,
+que cette
+crise,
+non
+seule¬
+ment n’a pas engendré et n’engendrera
+pas de conséquences
+graves pour l’Ar¬
+gentine,
+mais,
+bien
+mieux,
+il
+estime
+qu’elle
+exercera
+une influence heureu¬
+se,
+aussi
+bien
+au
+point
+de
+vue
+psy¬
+chologie
+qu'au
+point
+de
+vue
+écono¬
+mique.
+L’optimisme
+foncier
+de
+l'Argentin,
+optimisme
+propre
+aux peuples dont
+le
+progrès
+matériel
+a
+été
+rapide,
+avait,
+depuis longtemps,
+pour corollaire l’ap-
+pjication
+continuelle des
+théories,
+ve¬
+nues des
+Etats-Unis
+et
+extrêmement
+dangereuses, du crédit à la consomma¬
+tion. Le
+(( standard of life
+»
+en Argen¬
+tine
+était
+fort
+élevé.
+Un
+économiste,
+M. Bunge,
+a
+pu
+préciser
+les chiffres
+suivants
+de
+consommation
+annuelle,
+par tête d’habitants, jusqu’en
+1929
+: 6
+paires de chaussures, 2 kilos de tison
+de laine,
+5 kilos de tissu de coton, 32
+kilos de sucre, 90 kilos de viande,
+160
+kilos
+de pain, 9 litres d’huile
+comes¬
+tible.
+10 kilos d’infusions, 50 litres de
+vin
+et
+19 de bière.
+De plus, chaque habitant
+« moyen
+»
+des villes possède son automobile,
+son
+téléphone,
+sa salle de bain, son phono¬
+graphe,
+son entrée
+au club.
+Pour
+soutenir
+ce
+«
+standard
+of
+life
+»,
+on avait
+recours
+à la
+vente
+à
+crédit. Il existe
+une tendance
+à
+consi¬
+dérer comme presque normale la situa¬
+tion
+d’une
+famille endettée
+à l’égard
+de
+ses
+fournisseurs,
+même détaillants.
+Mais,
+comme
+le
+remarque M.
+Louis
+Baudin,
+«
+pour
+escompter l’avenir, il
+faut
+être
+sûr
+de l’avenir, et voici l’a¬
+venir qui se dérobe
+».
+Conséquence immédiate
+:
+la
+néces¬
+sité
+de l’épargne mise
+en lumière. Il
+existe, dit M. Baudin,
+au
+moins
+pour
+la majorité de la population, des possi¬
+bilités de réduction
+du
+« standard of
+life
+»,
+sans
+que les forces vives de la
+nation
+aient
+à
+en
+souffrir.
+Le
+gouvernement, lui-même,
+a don¬
+né l'exemple
+des
+économies
+avec
+un
+rare courage
+: il
+a suspendu l’exécution
+des
+travaux publics
+non indispensables
+et supprimé les
+emplois
+de
+20.000
+fonctionnaires,
+de
+14.000
+fonctionnai¬
+res dépendant du Ministère de
+l’Inté¬
+rieur, de 3.500 employés des Chemins
+de fer dépendant de l’Etat. Au
+reste,
+ces
+mesures n’empêchent pas le déficit
+du budget de
+1931 d’être de 100 mil¬
+lions de pesos-papier,
+ce qui porte la
+dette
+flottante
+à
+1.300
+pesos-papier.
+Cependant,
+un excédent budgétaire de
+60 millions est prévu pour 1932.
+Les
+avantages
+de la
+crise
+au point
+.
+de
+vue économique
+ne
+semblent
+pas I
+moins évidents
+à M. Louis Baudin quel
+les avantages psychologiques,
+et ils sel
+manifestent,
+surtout,
+par
+une
+réduc-1
+tion
+importante
+des
+importations.
+«
+La
+réduction
+des
+importations!
+écrit M. Baudin
+se produit
+à
+chaque
+crise dans un laps de tempts très court ; I
+en
+1873, elle
+a atteint
+en trois
+ans lai
+moitié du total
+en valeur des marchan¬
+dises importées ;
+en 1890, elle
+a été de
+60 0/0
+en deux
+ans.
+Les importations
+ont
+commencé
+par
+diminuer sensiblement, puis avec moins
+de rapidité ptendant les mois de juin et
+I
+juillet, enfin
+elles
+sont
+tombées
+lour¬
+dement
+en août de 33 0/0.
+Les réductions partent surtout sur les
+machines,
+y
+compris
+les
+automobiles,
+les métaux, les boissons, et
+à
+un degré
+moindre
+sur
+les
+bois,
+le
+caoutchouc,
+les denrées alimentaires. Elles
+ont
+pro¬
+voqué
+un heureux
+renversement de la
+balance
+commerciale qui, pendant
+les
+huit
+premiers
+mois
+de
+1930,
+enregis¬
+trait
+un déficit de 149 millions de pe¬
+sos-papier et qui ,p>endant la même pé¬
+riode de 1931,
+se soldait par
+un excé¬
+dent de
+130 millions
+».
+En
+matière
+fiscale,
+l’éminent
+pro¬
+fesseur de la Faculté de Droit de Di¬
+jon, fait des constatations
+aussi
+rassu¬
+rantes
+que
+p>our les importations. Cer¬
+tes, le système actuel présente le grave
+défaut de reposer
+en grande partie sur
+les
+recettes
+douanières qui
+fléchissent
+par suite de la diminution des importa¬
+tions. De plus, les contributions fonciè¬
+res
+et les imp>$ts de, consommation
+sur
+l’alcool,
+le fàbac, Jla
+parfumerie,
+les
+cartes
+à jouer ont jégaj&rqfent diminué.
+Mais le gquver|féjnej|jt af eu récours à
+une augmentaiidn
+de& droits cjé doua¬
+nes, de timbres, de taxes consiffaires. Il
+a même créé récgjjuwenff’un impôt sur
+le chiffre -d'affaires qui rappelle le nô¬
+tre,
+avec
+cette différence qif'jl
+est de
+0,30 0/0 alors
+que
+le
+nôtife atteint
+2 0/0.
+Au reste, ajoute M. Baudin, la capa¬
+cité
+contributive
+du
+pæuple
+argentin
+semble loin d’être atteinte.
+Autre
+conséquence
+économique
+de
+la crise et des plus importants
+: néces¬
+sité de diversifier les productions
+rura¬
+les
+et de multiplier les industries.
+La diversification
+des
+productions
+rurales
+est déjà
+en voie de réalisation
+Les fermiers cultivent
+eux-mêmes
+des
+légumes
+et élèvent de la volaille. Les
+cultures traditionnelles
+se transforment'
+ainsi
+les
+surfaces
+ensemencées
+en
+blé
+ont diminué de 20 0/0 et les estancie-
+ros essayent de cultiver,
+autant
+que le
+permet
+le climat,
+le
+coton,
+le riz,
+le
+maté, les fruits.
+M. Louis Baudin conclut
+:
+« Tant
+au
+point de
+vue politique qu’au point de
+vue économique. l’horizon semble donc
+s’éclaircir
+pour la République Argenti¬
+ne.
+Si
+aux
+influences
+favorables
+que
+nous
+avons énumérées et qui découlent
+de la crise,
+nous ajoutons le
+retour
+à
+la
+terre... Nous
+pouvons conclure
+que
+ce
+pays,
+si francophile
+et
+si cher
+aux
+français, sortira grandi
+de l’épreuve
+».
+***
+JUIN 1932
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1338.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

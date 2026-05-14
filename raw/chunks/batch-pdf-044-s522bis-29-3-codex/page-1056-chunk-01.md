@@ -1,0 +1,296 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1056-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1056
+page_end: 1056
+part: 1
+---
+
+# Page 1056
+
+## Page Metadata
+
+- Source page: 1056
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1056.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+2020
+CAMAEA I)E DIPUTADOS DE LA NACION
+Septiembre 17
+sidacl la necesidad de llevar a la prâetica esta
+aspiraciôn
+que aquellos pueblos fatigados y
+doloridos
+por la guerra,
+que habian sufrido
+en
+carne propia
+sus terribles eonsecuencias.
+Y de ahî
+que al paso que se redaetaban las
+clâusulas de la paz, con la que se pusicra tér-
+mino a la énorme coni'lagracion, perfilaran las
+bases para la formacion de una gran liga de
+las naciones, destinada a dirimir todaslas eues-
+tiones
+que pudieran suscitarse entre aquéllas,
+imponiendo as! la paz y. la justieia sobre la
+tierra.
+Gomo
+es bien sabido, la Argentina sc afiliô
+a la liga de las naciones, y concurriô a la pri¬
+mera asamblea de Ginebra,
+1lev ada por su an-
+helo superior de equidad y de justieia,
+que
+eonstituye nuestro mâs alto timbre de orgullo.
+Todos sabemos cl resultado que tuvo la prime¬
+ra delegaeiôn enviada a Ginebra y cl retiro de
+nuestro ministro
+Pueyrredon, sin
+que desde
+aquella feclia, a mi entender, baya modificado
+cl pais el criterio juridico internaeional
+que
+motiv’d aquella decision.
+Tal situacidn, tan insôlita y extrada, debia
+imponer a la comisidn de negocios extranjeros
+la necesidad de averiguar las causas origina-
+rias de taies actitudes; y en honor de la verdad
+cabe deeir que, a medidâ que se lia ido estu-
+diando
+con
+mayor atencidu las vineulaciones
+do la liga de las naciones con las cuestiones
+que agitan y dirigen la opinion en Europa, mâs
+se lia aeentuado la impresidn que ha producido
+en los miembros de la comisidn la convieeion
+de la necesidad de meditar
+con cautela todo
+prommeiamiento al respeeto y de no aconse-
+jarlo antes de tener a su disposition una docu-
+mentacidn suficientem.ente ilustrativa,
+que di-
+sipe las dudas que, prima facie, han naeido en el
+©spiritu de eada uno de ellos.
+La primera cuestiôn planteada es la situacidn
+sui géneris que tiene la naciôn argentina dentro
+de la liga de las naciones. Del estudio de los
+antécédentes, y en presencia de lo que dispone
+cl articnlo L del pacte de la liga, la Argentina
+adhirid y ratified su adhesion a la liga, quedan-
+do de hecho eonsiderada eonio un miembro de
+lu misma. Asi lo lia considerado la liga y asi lo
+considéra, desde luego, independient.cmente del
+criterio ciel honorable congreso argentino. Esta
+adhesion, ha sido rat.ifie.ada iinplfeiiamontc—nor
+el mismo
+congreso, sane.ionando cl
+page de_la
+■enota
+con
+que la repûblica clebe eontribuir al
+sostcmnüento de la liga, en lo que corresponde
+a
+los enatro
+afios
+de
+su existencia.
+Sdlo falta
+llenar el requisite constitucional,
+o sea, la rati-
+fieacidn expresa que debc liacer el congreso.
+Xo
+se puede afirmar
+que
+una persona- no
+es miembro de una asamblea cuando lia soliei-
+tado voluAtariamente su ingreso, ha sido acep-
+tada, lia aetuado
+eomo
+miembro
+y
+lia
+pa-
+gado
+su eontribucidn anual. Y
+esa
+es la si-
+tuaeidn
+de
+la Repûblica Argentina.
+Entiéndo, por lo tanto, que,
+o la Argentina
+ratifica
+lisa
+y
+llanamente
+lo
+que implicit a-
+mente lia beebo,
+o,
+en caso contrario debc cs-
+nerar los dos afios
+que détermina el artjejjtlo
+primero, antes de que pueda considerarse defi-
+nitivamente desligada de la liga de acuerdo a
+las condieiones establecidas en cliclio artîculo
+para
+su
+adhesion; y todo
+esta sin lesionar
+sentimientos
+de
+naciones
+que
+conservan
+con
+nosotros una vinculacion que menospreeiamos.
+Por otra parte, el primer documente) que la
+comisiqn de negocios extraiijerqs ,tuvo en sus
+manos, fixera de. los antécédentes de la adbe-
+.
+siôn argentina al pacte, fixé el mismo tratado,
+de Yersallcs,. en- el cual encontramos
+. que cl.
+pacte de la liga es parte intégrante. Observa¬
+ntes
+que diciio pâcto fué redactado ünica y
+exclusivamente
+por
+las
+naciones
+signatarias
+del tpatado de Ycrsalles y que en él no liabîan
+interv.enido
+los neutrales,
+a
+quienos
+solo
+se
+babia invitado
+a adberir sin réserva alguna,,
+eomo
+condicion
+esencial
+para
+su
+admision.
+Mâs
+aun:
+nos
+encontramos también
+con di-
+versas disposicioncs del
+citado
+tratado, que.
+colocan
+a la liga de las naciones eomo garan¬
+te de él, bajo la denominaeiôn de j'icleicomisa-
+rios,
+segun el texto franeés, y trustees en el
+texte inglés. Y estudiando los veintiseis artîcu-
+los que componen la carta orgânie.a de la liga
+de las naciones, que le sirve de punto de par-
+tida,
+nos hallamos
+con disposicioncs
+enyo al-
+cance, meditado con tranquilidad, nos iroponia
+la necesidad de procéder con surna cautela por-
+que tal
+vez
+esas disposicioncs .-.podrian
+lesio-
+nar prineipios fondamentales de nuesfra cons-,
+tituciôn y ataear nuestra soberanîa.
+Por otra parte, nos babian llamado altamen-
+te la ateneion las circunstancias de que, siendo
+Estados Unidos
+xina de. las naciones
+que
+son
+mâs entusiasmo
+sustuvo la conveniencia de la
+constituciôn
+de la liga, fixera preeisamente la
+que primero
+negara
+su ratificaeiôn
+a dicho
+tratado y
+que, por el contrario, revisando los
+antécédentes para
+no hacerlo, dejara traslucir
+razones varias
+e importantes, aeaso idéntieas a
+las que en la Argentina pudieran puntualizar.se.
+Ademâs, la ausencia de Alemania, Méjieo, Ru-
+sia y otros paises nos haeia entrever que no era,
+esta
+una yerdadera liga de las_naciûnes_sino
+una liga
+de. naciones.
+Y, iior x'dtimo, al leer
+los telcgramas de Europa que la prensa diaria
+publiea, las dudas y vacilaciones
+se agranda-
+ban toda vez que aun las bases mismas de cons-
+tituciôn del organismo motivaban divergeneias
+entre las mismas naciones signatarias del pacto.
+La eomisiôn de negocios extranjeros enten¬
+dra y entiende
+que
+una liga de las naciones
+comporta un concepto superior y amplio, que
+debe constituir un alto organisme internacio-
+liai prescindente
+de todo interés circunscrip*
+to, al
+que sè concurra solamente
+en nombre
+de altos idéales de humanidad, en defensa de
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1056.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

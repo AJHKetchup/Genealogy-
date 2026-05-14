@@ -1,0 +1,326 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0112-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 112
+page_end: 112
+part: 1
+---
+
+# Page 112
+
+## Page Metadata
+
+- Source page: 112
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0112.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1720
+_
+^CAMARA DE DIPÜTADO&
+Séptïembre 21f
+que sea por breves minutos explicar el carâc-
+ter de esta adhesion argentina.
+Los senores diputados que han reeordado los
+términos de adhesion sin réservas, como el
+se¬
+nor diputado por la Capital, doctor de Toma¬
+so, han confundido dos términos que en el de-
+recho internacional priblico se mantienen neta-
+mente separado's ; son los que se refîeren, el uno
+a la adhesion y el otro
+a la aeeesiôn.
+Sr, de Tomaso.
+— Los términos estân en un
+telegrama del poder ejeeutivo.
+Sr. Anastasi.
+— Si el senor diputado no me
+déjà exponer, perderemos tiempo.
+Sr.
+de Toma-so.
+— Para ayudarlo
+en
+su re-
+euerdo.
+Sr. Anastasi.
+— Yo voy a explicar a mi ma-
+nera de ver esta diferencia entre la adhesion y
+la aeeesiôn, para llegar desde luego a una con¬
+clusion eonereta. La conclusion
+conereta
+sera
+de que la Republica Argentina actualmente no
+ha aecedido todavia al convenio ïïTTïTTjîgà de
+las Nacionës.
+Un ilustrisimo profesor de las universidades
+de Buenos Aires y de La Plata, el doctor An-
+toboletz,
+que fue
+asesor de la delegaciôn
+ar-
+gentina
+en Ginebra,
+en un libro que acaba de
+|;publicar, que se situ!a “La Liga de las Nacio-
+[nes y la primer asamblea de Ginebra”, dice so-
+[bre este punto, citando desde luego la opinion
+de los autores
+mas corrientes del dereeho in¬
+ternacional publico,
+como PradiQr-Poderé, Ri¬
+viere y Pritz, esto que debe eonocerse. El texto
+i inglés del convenio de la Liga de las nacionës,
+dice: “Shall acceed” y el texto franeés dice:
+“Auront accédé”
+es deeir que uno y otro exi-
+jen para el ingreso a la Liga la aeeesiôn, no la
+simple adhesion.
+La adhesion
+es
+menos
+que la aeeesiôn. Los
+tratadistas ensenan que la adhesion es el asen-
+timiento que un tercer estado da
+a los princi-
+î pipios generales contenidos en un tratado cele-
+brado por dos
+o mas estados, mientras que el
+estado
+que accede
+a un tratado lo
+hace suyo,
+se convierte
+en parte del mismo, cou todos los
+derechos
+y
+deberes inhérentes. Hay
+aeeesiôn
+— dice Riviere
+— euando
+el tercer estado
+se
+une a los estados contratantes y entra en eali-
+dad de parte principal con relaciôn contractual
+al mismo tiempo que aquellos, adquiriendo los
+mismos derechos y las mismas obligaeiones. La
+I adhesion, en cambio, es menos compléta; ella
+puede no referirse sino
+a ciertas disposieiones
+del tratado. El estado que da su adhesion no se
+convierte
+en parte principal del tratado, >pues
+solo
+se obliga a no eutorpecer la ejecuciôn de
+este. Una adhesion pnede cou el tiempo trans-
+formarse
+en
+aeeesiôn
+■—•
+que fue precisamen-
+te lo
+que sucediô
+con Suiza,
+que primero ad-
+hiriô
+a
+la Liga y después
+accediô.
+Sr.
+Sanchez
+Sorondo.
+— jMe permite
+una
+pregunta el senor diputado?
+iDentro de la distiuciôn doctriuaria
+aue aca¬
+ba de estableeer
+& él entiende que si la Republi¬
+ca Argentina
+se hubiera adherido al tratado
+su adhesion necesitaria una ley del congreso ‘l
+Sr. Anastasi.
+— Voy
+a tocar enseguida el
+punto.
+Sr. Sanchez Sorondo.
+— Yo desearia que el
+senor diputado me eontestara por si o por no.
+Sr. Anastasi.
+— Si lo que el senor diputado
+desea es que le conteste por si o por no, le con-:
+testaré que si.
+Sr.
+Sanchez
+Sc-rondo.
+—
+De
+manera
+que,
+desde
+su punto de vista, no existiendo ley del
+congreso, sera inûtil la erudita disertaeiôn qne
+el
+senor diputado acaba
+de hacer sobre si
+es
+adhesion
+o aeesiôn.
+No hay ley del congreso,
+luego
+no
+es aeeesiôn ni adhesion para la Re-
+pûblica Argentina.
+Sr. Anastasi.
+— No
+es asi, senor diputado,
+porque la adhesion de un poder ejeeutivo pue¬
+de realizarse solo
+en virtud de
+ese
+principio
+que expliqué antes, de
+que
+es el poder ejeeu¬
+tivo el que négocia los convenios, y que orien¬
+ta la politica internacional; en cambio el
+con¬
+greso
+se encuentra
+despnés
+ante
+un
+beeho
+cumplido : aceptarâ
+o rechazarâ
+esa adhesion
+o
+esa aeeesiôn. En ninguna parte, son los eon-
+gresos
+lo.s
+que orientait
+esa politica intema-
+cional, porque
+esa misiôn le corresponde exclu-
+sivamente al poder ejeeutivo.
+Sr. Sanchez Sorondo.
+— Pero
+en todas par
+tes son los congresos los que la sancionan. Esc
+es lo que vale : la sanciôn.
+Sr. Anastasi.
+— Eso
+es otra
+cosa.
+Ahora hago gracia do las referencias
+a toda
+la documentaeiôn eambiada
+con
+ese motivo;
+pe¬
+ro interesa para el punto el telegrama
+que el
+présidente de la Republica dirigiô el 17 de enero
+de 1920 al présidente del consejo supremo de las
+potencias asociadas y aliadas, donde esta hecha
+nitidamente esa distinciôn.
+Sr. Pena.
+—• Si
+me permite...
+El
+poder ejeeutivo,
+en
+un mensaje
+que
+a
+venido
+a la câmara dice: “La Republica Ar¬
+gentina
+en virtud
+de
+su inclusion
+entre
+los
+miembros originarios
+de la Liga
+de
+las
+Na-
+ciones ”...
+Sr. Anastasi.
+— Cualquiera
+que lea el tra¬
+tado
+de paz eneontrarâ la lista
+de miembros
+oriiinarios, de miembros invitados a adherirse,
+etcetera. Esas son referencias que no haeen al
+pimto fundamental, que por cierto, por ser un
+poco confuso, necesita ser expuesto
+eon cierta
+claridad. Es un tema mas bien sutil...
+Sr. Pena.
+— Tan sutil que se évapora.
+Sr.
+Anastasi.
+— El telegrama dirigido por
+el présidente Irigoyen a Clemenceau dice asî:'
+“He tenido
+el honor de recibir la invitaeiôn
+de V.
+E.
+en
+eonformidad
+con
+el
+tratado
+de
+paz para
+que la Republica Argentina
+accéda
+al paeto de la Liga de las nacionës,
+y intTes"
+erato trasmitir
+a V. E. la ratifieaeiôn del go-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 112.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

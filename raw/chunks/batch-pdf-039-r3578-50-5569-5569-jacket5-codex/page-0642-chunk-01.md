@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9bdbc1c5bbaf-P0642-01
+source_converted: raw/converted/batch-pdf-039-r3578-50-5569-5569-jacket5.codex.md
+converted_sha256: 9bdbc1c5bbaf15182e94e0e0b95b53a432dc94f7c0429e9384dcf0999391d0b3
+source: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/source/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/manifest.json
+page_start: 642
+page_end: 642
+part: 1
+---
+
+# Page 642
+
+## Page Metadata
+
+- Source page: 642
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0642.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+discussions ait ete bien modeste et mes interventions bien timides dans les controverses sur
+des questions presentant frequemment un cote juridique qui echappe a ma competence, j’ai
+cependant cru pouvoir accepter la mission qui m’a ete attribute. C’est parce que j’ai eu 1’assurance
+de pouvoir compter sur la collaboration de tous mes collegues et en particulier sur celle de notre
+Secretaire general, a la science et au devouement duquel on ne s’adresse jamais en vain.
+Qu’il me soit permis ici de remercier bien vivement et bien sincerement tous ceux d’entre
+vous qui ont bien voulu me prater leur concours en cette circonstance.
+J’ajouterai que le rapport fait par le professeur L. Renault lors de la Conference de 1906
+a ete, pour moi, un guide precieux; cet expose, fait avec une clarte, une methode et une
+precision remarquables, reste une oeuvre admirable que l’on consulte toujours avec fruit.
+Messieurs,
+Pour la deuxieme fois depuis son adoption, la Convention de Geneve, dont l’idee fut congue
+par des philanthropes a l’ame haut placee, citoyens de cette Republique aux aspirations en
+tous temps genereuses et charitables, est soumise a revision.
+Conclue en 1864, la Convention pour l’amelioration du sort des militaires blesses dans les
+armees en campagne, universellement connue de nos jours sous le nom de Convention de Geneve,
+a subi une premiere revision en 1906. Les dispositions qui en resulterent ont, sans conteste, realise
+un progres marque sur celles de 1864. Restee fidele aux principes essentiels qui avaient anime
+les promoteurs de cette oeuvre a jamais memorable, la Conference de 1906 n’a pas voulu eleverun
+nouvel edifice; elle n’a desire que combler les lacunes, ecarter les obscurites ou les impossibilites
+pratiques que presentait la premiere Convention ; elle a voulu faire disparaitre les confusions
+et les imperfections qui se rencontrent toujours dans les travaux de ceux qui veulent sou-
+mettre pour la premiere fois a legislation un sujet nouveau, complexe et presentant des cotes
+perilleux, comme c’etait bien le cas en l’occurrence.
+Aujourd’hui, cette Convention de 1906 est elle-meme soumise a revision. II pourrait
+sembler etrange qu’elle ait eu une vie plus breve que la conception primitive, alors qu’elle n’a
+fait que fortifier une doctrine deja acceptee, que son texte etait plus clair, plus precis, plus
+intelligible pour tous, et que ses principes de base mettaient plus parfaitement en harmonie les
+interets humanitaires
+avec les inter&ts militaires ou juridiques qui avaient pris naissance
+entretemps. C’est que, depuis 1906, une grande tourmente a passe, longue, douloureuse, aussi
+penible moralement que physiquement, qui a montre a toutes les nations civilisees que de
+nouveaux progres en matiere d’humanite doivent encore etre realises.
+En aucun cas pourtant, un proces-verbal de carence n’avait pu etre dresse contre la Conven¬
+tion ; mais il faut reconnaitre que certaines de ses prescriptions ont, cette fois encore, pr£te a
+des interpretations differentes, variables dans leurs consequences, et que d’autres n’ont pu
+etre pratiquement mises en vigueur qu’au prix de difficultes extremes.
+L’accueil fait par le monde entier a l’appel lance par le Conseil federal temoigne du desir
+que tous les Gouvernements ressentaient de voir la Convention tenir compte des legons d’une
+experience durement acquise pour tous, et le nombre considerable des pays participant a cette
+Conference (47) montre, a l’evidence, l’interet que toutes les nations ont pris a la realisation
+des conceptions du Comite international de la Croix-Rouge, nees des Conferences de la Croix-
+Rouge tenues a Geneve en 1921 et 1923. Qui pourrait mieux prouver l’utilite de cette revision
+que les nombreuses motions et propositions, les amendements de tous ordres, appuyes par des
+commentaires
+ou des considerations justificatives impressionnantes, qui ont ete soumis a
+votre examen ? C’est avec joie que nous avons pu faire la constatation que toutes ces remarques
+ne tendent qu’a atteindre un seul but : l’extension du principe d’humanite qui est a la base
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 642.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

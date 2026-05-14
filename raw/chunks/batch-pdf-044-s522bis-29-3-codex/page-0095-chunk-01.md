@@ -1,0 +1,345 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0095-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 95
+page_end: 95
+part: 1
+---
+
+# Page 95
+
+## Page Metadata
+
+- Source page: 95
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0095.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+de 1921
+CAMARA DE DIPUTADOS
+1707
+tro
+pais, crisol de todas las razas y de todos
+los hombres, el futtiro argentino, basândolo so¬
+bre la libertad, la igualdad
+y la fraternidad
+bien entendidas.
+Nada
+mas.
+(;Muy bien! ;Muy bien! Aplau-
+sos).
+Sr. Eodeyro.
+— Pido la palabra.
+Este debate
+se ha generalizado, senor prési¬
+dente, y diputados de diversos sectores se han
+creido en la necesidad de baeer una defensa del
+presupuesto de culto, y eon
+ese motivo se ban
+heeho algunas afirmaciones
+en el recinto,
+que
+es interesante desvirtuar, para coloear el asun-
+to
+en sus verdaderos términos.
+Como muy bien ban dieho algunos senores di¬
+putados, esta es una de las ocasiones en que la
+honorable
+câmara puede
+entrai'
+a
+esta discu-
+siôn.
+Ella podria
+desde luego haberse
+eneara-
+do eon una reforma de la eonstitucion en lo que
+se refiere al culto; pero para movilizar un de¬
+bate de
+esa indole no
+se iba a circunscribir ex-
+clusivamente alrededor de la clâusula eonstitu-
+cional que manda sostener el culto catôlico.
+Nuestra eonstitucion tiene algunos puntos so¬
+bre los cuales ya varios senores diputados eon
+proyeetos presentados
+a la honorable câmara,
+ban demostrado hasta la evidencia
+que
+su
+re¬
+forma es necesaria. La forma en que se lia plan-
+teado la votaciôn del presupuesto para 1920 en
+una
+sola
+votaciôn
+excluyendo
+desde
+luego la
+posibilidad de manifestar por medio de una vo¬
+taciôn por separado la oposiciôn de cada dipu-
+tado sobre cada partida o cada ineiso con el que
+no esté de aeuei'do por sus ideas publieamente
+manifestadas lo
+que obliga a salvar situaciones
+de carâcter personal trente a la forma de vo¬
+taciôn.
+Se ha dicho
+en la honorable câmara que los
+sacerdotes habian intervenido
+en
+politico.
+Es
+una
+afirmaeiôn perfectamente
+exaeta. Los
+sa¬
+cerdotes pertenecientes a la iglesia catôlica, man-
+tenida
+con
+los
+dineros
+del
+estado
+intervienen
+en politica en forma publiea. Lo ban heeho en
+las ultimas
+eleeciones de convencionales
+en la
+provincia de Santa Pe desde el pulpito y en to-
+da
+forma
+llevando
+campanas
+contra
+los hom¬
+bres
+que profesaban
+ideas liberales
+y
+podian
+hacerlas triunfar
+con
+una mayoria
+dentro ' de
+la convenciôn de Santa Pe. Han movilizado to-
+;
+das las personas que pudieran influir a los efee-
+j
+tos
+de
+que
+esa
+saneiôn no fuera llevada
+a la
+|
+prâctica. En
+la Capital Federal,
+senor prési¬
+dente,
+en las ultimas
+eleeciones naeionales,
+se
+noté el mismo heeho como tuve ocasiôn de ma-
+nifestarlo
+en forma concreta, en un ligero inci¬
+dente
+que
+tuve
+con
+el
+senor diputado doctor
+Bas.
+El
+diario “El
+Pueblo” ôrgano
+catôlico,
+aconsejôi
+se
+votara
+por determinada
+lista de
+candidatos haciendo una salvedad; que no de-
+bian votarse aquellos hombres que publieamen¬
+te hubieran heeho profesiôn de fe liberal. “El
+Puetilo”
+se referia
+a algunos candidatos de la
+lista radical, entre los cuales estaba incluido el
+diputado que habla.
+El
+cura pârroco de
+una parroquia
+bastante
+populosa
+de la metrôpoli
+en eonversaciôn pri-
+vada
+con alguna persona de mi amistacl, pudo
+comprobar
+que,
+en efecto,
+en la parroquia de
+San
+Carlos
+los sacerdotes hacian publiea pro¬
+paganda en el sentido de que no se votasen de-
+terminados
+candidatos
+radicales
+que pudieran
+substentar ideas liberales. Se referîan
+a mi y a
+otros companeros de lista.
+Como
+se
+ve,
+senores diputados, los catôlieos
+no
+se
+mueven
+poy un color politico determi¬
+nada ; movilizan sus huestes con el fin exclusivo
+de
+atacar
+a todo bombre que prof ese ideas li¬
+berales. cualquiera
+sea
+su filiaciôn. Esta
+pro¬
+paganda
+la
+han
+sistematizado, poniéndola
+al
+servicio de una mal entendi.da defensa de los in-
+tereses de la iglesia defensa mal entendida por-
+que
+en esta forma lo unico que se consigne es
+estableeer mayor encono en los que sostienen que
+la
+acciôn
+de los
+catôlieos
+excesivamente
+cléri¬
+cales
+es una acciôn contraria a la libei’tad y a
+la tolerancia, a esa sauta toleraneia, como decîa
+desde estas baneas hace algûn tiempo un senor
+diputado,
+a esa santa tolerancia que hace a los
+hombres
+mas buenos.
+Los defensores del presupuesto de culto plan-
+tean.una euestiôn pequena
+a mi modo de ver:
+creen
+que pueden ligar las alfas orientaciones
+de
+un pais y los altos intereses eolectivos me-
+diante la votaciôn de determinadas sumas de di-
+nero para cumplir este precepto constitucionai
+que, como ha sido demostrado ya, fué arranca-
+do
+en
+un momento de nuestra historia por una
+sérié
+de transacciones
+a los hombres
+que
+que-
+rian
+ver reconstruida la nacionalidad, armoni-
+zando intereses contrapuestos y contemplando la
+situaciôn de algunas conciencias pusilânimes y
+con
+el fin de évitai’ desgarramientos.
+Y fuera del parlamento ha sido y
+es un fac¬
+tor que ha detenido muclios progresos de orden
+liberal, la habil penetraciôn del clcro a nuestros
+hogares. Es
+en nuestros hogares doude dia
+a
+dia y bora
+por hora, cada vez que un bombre
+se encuentra
+en situaciôn,
+con
+su voto
+o
+ae-
+titud. poner de manifiesto lo que
+es la unani-
+midad
+o la mayoria del pensamiento de nuestro
+pais,
+recibe todo tipo
+de solieitaciones
+y de
+presiones. Es
+en nuestros hogares, en nuest ras
+madrés, en nuestros hermanas, en nuestras mu-
+jeres dor.de el sentiraiento religioso golpea con
+mâs
+fuerza
+para poder toreer
+o desvirtuar
+el
+pensamiento de la sauta tolerancia que los hom¬
+bres
+que profesamos las ideas liberales quere-
+mos haeer triunfar una vez que llcgamos a uua
+posieiôn politica.
+Estas ideas no perteneeen
+n ningûn partido.
+El
+senor diputado .lusto el ot-ro dia decîa que el
+senor présidente de la Repûbüca habia raani-
+festado ideas excesivamente eatôlicas, y que eso
+lo hacia eon flues électorales, y que
+a pesar de
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 95.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

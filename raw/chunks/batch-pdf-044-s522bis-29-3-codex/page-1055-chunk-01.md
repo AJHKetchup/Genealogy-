@@ -1,0 +1,351 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1055-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1055
+page_end: 1055
+part: 1
+---
+
+# Page 1055
+
+## Page Metadata
+
+- Source page: 1055
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1055.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+de 1924
+CAMAEA DE DIPUTADOS DE LA NACION
+2019
+a bien sancionar cl signiente proyecto de ley, que pa30
+en revision
+a
+esa honorable câmara:
+HiOYECTO
+DE LEY
+El senado y câmara de diputados, etc.
+Articulo 1"—Antorlzase ai i>oder ejecutivo para ele-
+var al rango de embajada la categorîa de la representa¬
+ciôn diplomâtica permanente on los Estados TJnidos Me-
+jicanos.
+Art.
+29
+—
+Los gastos
+que implique
+el
+cumplimiento
+de la présente ley,
+se imputarân
+a la misma mientras
+no
+se incluyau
+en cl presupuesto general do
+gastos.
+Art.
+3?
+— Comuniquese, eteétera.
+Dios guarde al seiior présidente.
+Elpidio
+Gonzalez.
+Adolfo J. Labougle.
+ANTECEDENTES
+Buenos Aires, abril
+17
+de
+1923.
+Al
+honorable
+congrcso
+de la
+naciôn.
+El gobierno de Méjico ha hecho
+eonoeer, su deseo
+de
+ver
+elevada, reoiprocamente,
+al
+rango
+de
+embajada
+'a
+eategoria
+do
+la .representaciôn
+diplomâtica
+de
+ambos
+parses, inspirado para ello
+en cl noble propésito de
+es-
+trechar
+cada
+vez mâs las
+relaeiones
+de cordial
+amistad
+que de antiguo vinculan a estes dos pueblos, de idéutieo
+origen y do commies aspiraciones democrâticas.
+La Bepûbliea Argentina, que tantas muestras ha dado
+de
+su
+sincero
+panamericanismo,
+no
+puede
+permanecer
+extraira a tan grata aspiraeion, y es por ello que el po¬
+rter ejecutivo somete a la consideraciôn de vuestra ho-
+norabilidad el adjuuto proyecto de ley.
+Como
+la legislaciôn mejieana faculta
+exclusivamente
+al poder ejecutivo para crear esa representaciôn, aquel
+gobierno sôio espora que vuestra honorabilidad preste es¬
+te voto para procéder de inmediato a efectuar la corrcs-
+pondiente designaeiôn de su embajada en Buenos Aires.
+Dios guarde
+a vuestra honorabilidad.
+M.
+T. de Alvear.
+Angel Gallardo.
+PROYECTO
+DE LEY
+El senado
+y câmara de diputados,
+etc.
+ley :
+Articulo l9
+— Elévaso al rango de embajada la eate¬
+goria de la representaciôn diplomâtica permanente en los
+Estados
+TJnidos
+Mejieanos.
+Art.
+2’
+— Los gastos
+que implique
+el cumplimiento
+de la presente ley, se imputarân a la misma, liasta tanto
+se incluvan
+en el presupuesto general de gastos.
+Art.
+39
+— Comuniquese, eteétera.
+Angel
+Gallardo.
+3r. Présidente (Guido). — En consideraciôn
+en general.
+Sr. Néwell.
+— Pido la palabra.
+Como miembro informante de la comisiôn de
+negocios extranjeros,
+en el asunto sometido
+a
+la consideraciôn de la honorable câmara, voy
+a
+exponcr sucin Lamente los fundamentos
+del
+despacho producido por la misma.
+Ante todo, quiero rechazar las imputaciones
+tan infundadas del senior diputado por Santa
+Ee, doctor Lisandro de la Torre al suponer, y
+cxpresarlo asî, que esta comisiôn ba podido re-
+eibir sugestiones extradas, vengan
+de donde,
+vinierexî!
+J
+Los miembros de esta comisiôn no ban recibi»
+do otras inspiraciones que las de su propia cou-
+ciencia, y puede la honorable câmara tener la
+seguridad de que en la controversia suscitada
+por la delicada y compleja euestiôn
+que nos
+ocupa, no ha'predominado otro criterio ni otra
+orientaciôn que la de los altos dictados de la
+patria,
+que estân muy por arriba de los inte-
+reses transitorios de la polîtica
+o de la
+conve-
+niencia.
+Por otra parte, el dictamen
+no importa un
+despacho négative. Quien lea sin prejuicios el
+despacho de la comisiôn, notarâ
+que lo que la
+comis.ôn ha pedido
+a la honorable câmara
+es
+, simplemente diferir hasta las primeras sesiones
+ordinarias del
+ano entrante el pronunciamien-
+to sobre el fondo del asunto. Desde luego, la
+comisiôn de negocios extranjeros encontrô quo
+el asunto sometido a su estudio era de natura-
+leza muy compleja, y bien pronto pudo conven-
+eersc de que no podrîa expedir su despacho con
+la premura que le era requerido. Esta premu-
+ra por parte del poder ejecutivo
+era bien
+ex¬
+plicable, desde que la quinta asamblea de Gi-
+nebra habria de realizarse el l9 de septiembre
+y querrîa
+conocer antes de
+esa feeha el pro-
+nunciamiento
+del
+congreso
+para désignai' los
+delegados, si el pronunciamiento fuera favora¬
+ble.
+En vista de este apremio y ante la insisten-
+cia de algunos senores diputados que demostra-
+ban
+un
+aeabado
+conoeimiento
+del
+asunto,
+la
+comisiôn
+de
+negocios extranjeros
+creyô
+pru¬
+dente aconsejar el apiazamiento, toda vez quo
+en las condiciones actuales y sin el estudio su-
+fieiente
+era de grave trascendencia,
+a la par
+que un dictamen en tal sentido traeria la eues¬
+tiôn al debate
+en el que los senores diputados,
+con
+opinioncs
+ya fundadas,
+no
+tan
+solo
+po-
+drian ilustrar
+a la honorable
+câmara
+con
+sus
+conocimientos,
+sino
+que
+podrîa
+quizâ incli-
+nar la opinion de la câmara en uno u otro sen¬
+tido.
+Es
+bien
+sabido
+que la idea
+de la liga
+de
+las
+naciones constituye
+una aspiraeiôn siem-
+pre latente al través de los acuerdos interna»
+cionaîes,
+en todos los pueblos civilizados.
+La
+guerra atroz
+que
+se iniciarâ
+en 1914, tan fe-
+cunda
+en dolor, en sangre,
+en danos materia-
+les y morales,
+en trastornos de todo género,
+hasta
+el
+ëxtremo
+de
+trastocar
+valores
+socia¬
+les
+e
+inteleetuales
+consagrados
+en
+el mundo
+civilizado,
+diô
+margen
+a
+que volviera
+a
+sur¬
+gir la noble y antigua idea de constituir por
+la voluntad
+comun
+de las naciones
+una enti-
+dad internacional
+eapaz
+de
+resolver
+en
+lo
+futuro
+las
+divergeneias
+de
+los
+pneblos,
+ase-
+gurando la justicia y la paz en el mundo.
+Pero
+nadie podrîa sentir
+con mayor interi»
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1055.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

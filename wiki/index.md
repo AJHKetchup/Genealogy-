@@ -1,6 +1,12 @@
 # Genealogy Wiki Index
 
+## Family Tree
+
+- [[Family Tree]]
+
 ## People
+
+- [[people/dario-pulgar-smith]]
 
 ## Branches
 
@@ -12,10 +18,6 @@
 
 ## Places
 
-## Sources
-
-## Source Packets
-
 ## Claims
 
 ## Evidence
@@ -26,9 +28,8 @@
 
 ## Photos And Face Clusters
 
-## Research Questions
-
-## Research Tasks
+- [[photos/PH001-dario-pulgar-smith-1964-tourist-card-portrait]]
+- [[photos/FC001-dario-pulgar-smith-confirmed-reference]]
 
 ## Narratives
 

@@ -1,0 +1,122 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0290-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 290
+page_end: 290
+part: 1
+---
+
+# Page 290
+
+## Page Metadata
+
+- Source page: 290
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0290.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+12
+Séance
+du 17 Juillet 1929
+sables. La sanction internationale constitue donc une question préjudicielle, qui devrait être
+discutée préalablement. Il faut savoir si le moment est venu de créer cette sanction interna¬
+tionale. C'est une diée que je soumets à votre attention.
+M. le Président
+:
+Les remarques de M. Riad ne me persuadent pas qu'il n'est pas utile de séparer les deux
+questions. L'article 28 actuel vise les actes indivduels contraires à la Convention de Genève
+que l'Etat s'engage à poursuivre. Les actes dont l'Etat est responsable ne sont pas visés par
+cet article ; ils constituent les sanctions de caractère international.
+Il y a intérêt, à mon avis, à séparer les deux questions d'une importance tout à fait dif¬
+férente.
+Par conséquent, j'ai à consulter la Commission, après la discussion qui vient d'avoir lieu,
+sur la question de savoir si elle désire maintenir l'article 28 dans sa teneur générale actuelle ou
+si elle préfère, pour les raisons qui ont été indiquées, lui donner une rédaction simplifiée,
+étant entendu que le nouvel article aurait la même portée législative et pénale.
+Lorsque je parle de l'article 28 dan sa teneur actuelle, j'entends bien que nous avons à
+considérer, d'une part l'article 28 de la Convention de 1906, d'autre part l'article 28 du projet
+du C.I.C.R. qui, au premier texte, ajoute
+: « ... et d'une manière générale tous actes contraires
+aux dispositions de la Convention ». La préoccupation était évidemment qu'il ne fallait pas
+laisser croire qu'en précisant certains faits, on laissait hors de sanction d'autres
+actes qui
+n'étaient pas énumérés et qui, néanmoins, seraient contraires à la Convention.
+Nous sommes donc en présence de trois solutions.
+1. L'article tel qu'il existe dans la Convention de 1906 ;
+2. Cet article tel qu'il existe dans le projet du C. I. C. R. comportant l'adjonction dont
+je viens de vous donner lecture ;
+3. La simplification de cet article, tout en lui laissant le même sens, conformément aux
+propositions de la délégation des Etats-Unis, appuyée notamment par la délégation du Canada.
+Il est procédé au vote par assis et levé.
+La proposition de la délégation des Etats-Unis est acceptée par 18 voix contre 14 au projet
+du C. I. C. R.
+M. le Président :
+Le Comité de rédaction recevra de la délégation des Etats-Unis la proposition exacte
+qu'elle formule.
+Nous reprenons ici la discussion sur la proposition de la délégation d'Allemagne.
+M. Warner (Grande-Bretagne) :
+La délégation de la Grande-Bretagne a entendu avec la plus grande sympathie les pro¬
+positions présentées par la France et par l'Allemagne concernant la création d'une organisation
+telle que, par exemple, une cour d'arbitrage, qui aurait pour but de réprimer les violations
+de la Convention. Tout le monde, je crois, est unanime à reconnaître qu'une telle institution
+est
+hautement désirable.
+En ce qui concerne toutefois la procédure à adopter dans la pratique, nous nous trouvons
+en présence d'une grande difficulté. S'il s'agissait par exemple de faits qui seraient survenus
+en Amérique du Sud, il ne serait pas très pratique évidemment que ce. fût le Comité interna¬
+tional de la Croix-Rouge qui s'occupât de l'affaire. Tous ceux qui ont quelque expérience
+personnelle de ces questions connaissent toute l'importance qu'il y a à pouvoir établir les
+responsabilités et rechercher les coupables aussi rapidement que possible. Si l'on devait se
+trouver exposé à des délais de six mois, d'un an, peut-être davantage encore, la Cour envisagée
+se trouverait dans la situation
+que M. le Secrétaire général nous
+a exposée à propos du
+Comité international de la Croix-Rouge, lequel, après la guerre, était dans l'impossibilité
+d'obtenir les preuves indispensables à la constatation des délits. Dans ces conditions, je crois
+préférable de s'en tenir à une procédure plutôt sommaire. On pourrait par exemple envisager
+la réunion sur place de délégués des puissances protectrices avec des délégués neutres, toujours
+dans le délai le plus court possible. S'il s'agissait d'une violation commise sur le front même,
+je ne sais pas s'il serait même possible de faire une telle enquête, car il y aurait sans doute
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 290.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

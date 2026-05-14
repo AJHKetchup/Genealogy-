@@ -1,0 +1,266 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1057-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1057
+page_end: 1057
+part: 1
+---
+
+# Page 1057
+
+## Page Metadata
+
+- Source page: 1057
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1057.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+do 1924
+CAMARA DE DIPUTADOS DE LA NACION
+2021
+derécîios permanentes y generales. Pero la li¬
+ga de las naciones aparentemente, en su forma
+actual y en presenéia de los pocos antécéden¬
+tes
+que
+se tenîan y
+se tienen, subraya
+en el
+espîritu de quien la contempla desapasionàda-
+mentc retieencias respecto de la finalidad que
+persigue,
+oponiendo
+a
+sus loables conceptos,
+intereses materiales
+de
+un tratado
+que le lia
+servido de
+cuna.
+Estas y otras eonsideraciones surgidas en el
+seno de la comisiôn, han restringido el entusias-
+mo hacia el ideal que représenta para el mun-
+do
+entero
+una institueiôn de tal género, ha-
+ciéndonos vaciiar
+en todo
+momento
+sobre la
+convenieneia de
+un dictamen prematuro
+a fa¬
+vor o en contra, ya que por otra parte nos hu-
+biera facilitado grandemente cl trabajo, esfu-
+diar el désarrollô de las actividades de las dis-
+tintas
+comisiones
+en
+que
+esta subdividida la
+Liga y muy espeeialmerite las discusiones de
+las asambleas pasadas, lo que no se podia lia-
+cer
+en
+un plazo mas
+o menos breve para asi
+définir
+con
+eriterio
+preciso
+una
+orientaciôn
+deterrninada
+y aeonsejar un tempCramento
+a
+la honorable eâmara.
+Nos surgieron numerosas interrogaeiones rcs-
+peeto a la intervenciôn de la Republica Argen¬
+tina
+en asuntos que se ventilan en cl otro ex-
+tremo del muridb,
+en lo que jamâs ha tenido
+ninguna ingerencia y nos preguntâbamos : jla
+ratificaelon a la Liga de las naciones podia in-
+terésar; podia benefieiar? No; jpodria com-
+prometerla? Ile aqui cuestiones que la comi-
+sion no considéré del eaèo sometor a la hono¬
+rable eâmara, pero las puntualizo al paftar.
+Es indispensable ante todo, cstûdiar nuestra
+situaciôn con respecto a la Liga ; es indispensa¬
+ble fijar enâl es la resolùeiôn que mâs convie-
+nc al congrèso del pais, para no lesionàr inte¬
+reses ajenos,
+que nos obligan a scr muy cir-
+cunspcctos; es nccesai-io estudiar el estado po¬
+litico, social y eeonôm'co de la Europa y re-
+cién séria el easo de inelinar la opinion del con-
+greso en uno u efro sentido; labor esta que la
+comisiôn ha cOnsiderado ardua
+en extremo y
+que no ha podido hacerse a pesav de su voluu-
+tad
+en cl perentorio término que se habia fi-
+jado.
+La comisiôn de negoeios extranjeros ha en-
+tendido que la Republica Argent.na no ha Pcr-
+dido nada hasta hov con no haberse hecho ro-
+preséntar: en la asamblea de la Liga; naclie le
+podrâ censurai’ que no baya eooperado efieaz-
+mente
+a
+su mantenimiento, cumpliendo a este
+respecto decorosàmente los compromisos eon-
+traidos por el gobiorno en perseeuciôn del ideal
+aquel.
+A
+nuestro
+entender,
+nada
+puede
+cntonces
+perjudicar
+esta
+demora
+que
+proponemos *de
+unos cuantos mesès, ya que hemos podido estar
+cuatro anos sin resolver la situaciôn de la Ar¬
+gentina ante la Liga. A no ser que de la discu-
+siôn que se origina en el dia de hoy se proyeete
+una
+gran luz sobre
+esta dificil cuestiôn y
+se
+despeje las incertidumbres enunciadas ligera-
+mente en este dictamen.
+Es indudable que el tratado de Versailles y
+cl mismo paeto de la Liga de las naciones, va
+sufriendo modificaciones
+que tienden
+a suavi-
+zar las consecucncias de la post giïerra, desapa-
+reeiendo muclios de los inconvenientes que se
+oponen a la actual eonstitueiôn^le la Liga, tan-
+to mâs que las enmiendas o interpretaeiones de
+las
+disposieiones
+que hoy podrian constituir
+obstâculos eonstitucionales para su ratifieaciôn
+pueden
+ser quizâ
+en breve tiempo prccisadas
+y aclaradas.
+Todas estas razones fundan el dçspaelio de
+la comisiôn
+que aconsejô diferir el pronuncia~
+miento para las primeras sesioues del ano pro¬
+ximo, finalidad que ténia en orienta no tan sôla
+en beneficio
+de la misnia comisiôn, desde que
+perm it ia reeoger mayor conjunto de elementos
+para un pronunciamieUto oportuno, sino tam-
+bién y cireunstaneiadamente facilitai- la ocasiôn
+para que la honorable eâmara, en presencia del
+estudio y aeaso del profundo conoeimiento que
+aiguno de sus miembros manifieste tener en ese
+asunto,- deeidicra abordarlo de llono, coustitu-
+yéndose, enfonces, la honorable eâmara
+en
+co¬
+misiôn.
+La comisiôn de negoeios extranjeros
+eoncep-
+tütt asî, salvada su reSponsabilidad con los re-
+paros puestos y manifiesta
+en conseeueneis. no
+tener interés en niant oner su desnacho.
+Ani mado,
+pues,
+de los indieados propôsitos
+y teniendo en cuenta los antécédentes puntuali-
+zados, la comisiôn de negoeios extranjeros,
+en
+cuyo nombre liablo, solicita de la honorable eâ¬
+mara
+se le autorice a retirar su despacho v se
+someta el asunto de la Liga de. las..naciones a la.
+dcliberaciôn de la misma, constituvéndose ella
+en comisiôn.
+Con lo expuesto, creo haber eumplido con la
+misiôn que se me ha confiado sobre tan impor¬
+tante asunto y pido al
+senor présidente quiera
+poner
+a consideraeiôn de la eâmara la mociôn
+que acabo de formular en nombre de la comisiôn
+de negoeios extranjeros.
+Sr. Amadeo y Videla. — Pido la palabra.
+Sr. Présidente (Guido). — Queda pendiente
+la mociôn
+del
+senor diputado. Tiene la pala¬
+bra el senor diputado.
+Sr. Amadeo y Videla. — Para manifestar mi
+conformidad
+con la proposieiôn liecha por el
+sefior miembro informante de la comisiôn de
+negoeios extranjeros, es decir, quo se nos autd-
+riee
+a retirai- cl despacho y
+que
+se constitu-
+ya la eâmara en comisiôn y rosuelva la cues¬
+tiôn.
+Del fondo del asunto hablaré cuando llcguo
+la oportunidad; pero debo decir algo respeC'
+to
+a las
+razones que me indnjeron a subscri¬
+be
+el despacho. En primer lugar, expresaré
+£'■
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1057.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,336 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0166-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 166
+page_end: 166
+part: 1
+---
+
+# Page 166
+
+## Page Metadata
+
+- Source page: 166
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0166.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1774
+CAMARA DE DIPUTADOS
+/ Septiembre 2I\
+y no con la aetitud tomada por algunos senores
+diputados, de ausentarse del recinto.
+En esta forma estamos perdiendo el tiempo
+no beneficiândose ni las provincias ni la
+na¬
+tion
+.
+Sr. Francioni.
+— En lo
+que se refiere
+a mi
+pedido
+se trata de
+una obligacion moral
+res¬
+pecte
+de la cual el
+congreso esta
+en retardo
+desde hace 11 anos.
+Se
+consigue
+quorûm.
+Sr. Présidente (Goyeneche). — Se va a votar
+la partida propuesta por el senor diputado Fran
+cioni.
+.Résulta afirmativa.
+Sr. Raffo de la Reta.
+— j En que consiste la
+mociôn del seflor diputado Bas?
+Sr. Bas.
+—• En déclarai’ cerrado el debate so¬
+bre lo que falta en trabajos publicos y que los
+subsidios
+se aprueben en una sola votation.
+Sr. Rodriguez (J. E.). — Solicite una acla-
+raciôn. Es entendido que si bay alguna propo-
+sieiôn ya formulada, deberâ votarse.
+Sr. Bas.
+— Mantengo mi proposition
+en los
+términos en que la he hecho.
+Sr. Ferrarotti. — Pido la palabra.
+Si el senor diputado por Côrdoba, autor de
+la mociôn aceptara que
+se discutiera
+o
+se vo-
+tara por la câmara una sola proposiciôn
+que
+bay sobre trabajos publicos,
+yo,
+con
+mucho
+gusto lo acompanaria en la mociôn de
+que
+se
+trate el aneso de subsidios a libro cerrado, por-
+que hace un momento he recorrido las bancas
+consultando sobre este propôsito
+a los senores
+diputados.
+Es una sola indieaciôn respecto al puerto de
+Villa Constituciôn, que armoniza perfectamente
+bien
+con las distintas partidas de politiea por-
+tuaria.
+Es un puerto de cabotaje, rodeado por
+otros puertos que han sido beneticiados y que
+sirve de salida de una gran zona agrieola. To-
+do el
+sur
+de la provincia de Santa Fe séria
+grandemente beneficiado.
+Sr. Bas.
+— Para conciliar, acepto que
+se vo¬
+te mi mociôn
+cou la réserva de que luego, des-
+pués de votada—, se tratarâ la partida
+espe¬
+cial que proponen los senores diputados.
+Sr. Ferrarotti.
+— Muy bien.
+Sr. Casas.
+— Pido la palabra.
+Quierp hacer notai'
+en nombre
+de la comi-
+siôn,
+que
+se ha deslizado un error
+en
+el des-
+pacho impreso de la ley general.
+Me refiero
+al articulo 5o.,
+en el
+que deben suprimirse las
+palabras ‘‘prescription de premios”, referen¬
+ces
+a subsidios, porque estos fondos tienen un
+destino especial por la ley 11064
+en principio
+de ejecuciôn, y
+cuya ley filé sancionada
+con
+posterioridad
+a la
+que
+se aconseja
+poner
+en
+vigen-cia.
+Sr. Présidente,
+(Goyeneche).
+—
+■El
+senor
+diputado, miembro
+de
+la
+comisiôn
+de
+nresu-
+puesto, haciendo la salvedad
+en nombre de la
+misma, se tomarâ debida nota.
+-, j
+Se
+va
+a votar la mociôn del senor diputado
+por Côrdoba.,
+con la salvedad indicada por el
+senor diputado por Sauta Fé.
+—Se
+vota y résulta afirmativa.
+Sr. Présidente, (Goyeneche). — Se va
+a
+vo¬
+tar la partida
+ciel item 7o., propuesta por el
+senor diputado por Santa Fé.
+—&'e
+vota
+y
+résulta
+afirmativa.
+i
+Sr. Secretario,
+(Zambrano).
+— En el inci-
+so subsidios y beneficencia
+se ha deslizado
+un
+error
+que ha salvado la comisiôn: hogar Do-
+rrego (sociedad San José), 30.000 pesos. Item
+2, partida
+2,
+asilo Santa Maria,
+San Isidro,
+5.000 pesos, en lugar de 3.600.
+Sr.
+Présidente
+(Goyeneche).
+—
+Salvado
+el
+en-or, queda incorporado al despacbo.
+Sr. Ferreira, — Pido la palabra.
+_ Antes de entrai- a votar el articulo 3o., qui-
+siera
+hacer
+una
+pregunta
+a
+la
+comisiôn
+de
+presupuesto. Por el articulo
+20
+cle la ley
+ge¬
+neral
+de
+presupuesto
+del
+ano
+1920
+se
+exime
+del descuento de 5 por eiento para las jubila-
+ciones y pensiones
+a los
+sueldos inferiores
+a
+120
+pesos ; y al final del articulo
+se dispone
+que
+quedau
+comprendidos
+ion
+los
+beneficios
+del articulo los sargentos y cabos de policia y
+boni héros, eualquiera sea el sueldo que pereibaù
+Por el articulo 3o. del despacho de la comisiôn
+de presupuesto, los agentes de policia
+aumen-
+tau
+sus sueldos
+a
+154 pesos, mâs
+o menos, y
+nos encontramos
+entonces
+con
+esta situaeiôn:
+que la Caja de jubilaciones no harâ descuentos
+a los cabos, sargentos y bomberos, y si
+a los
+agentes. Como ésta séria
+una situaeiôn
+de in-
+justicia pediria
+a la
+comisiôn
+que biciera
+la
+aelaraciôn necesaria.
+Sr. Rodriguez (C. J.)
+— Séria necesario lia-
+cer el agregado
+como articulo.
+Sr. Ferreyra.
+— Podrîa ponerse en el mismo
+articulo 2o.,
+que cliria : No
+se harâ descuento
+alguno
+a los
+sueldos
+de
+los agentes
+cle poli¬
+cia sin
+que el personal respectivo deje de
+es-
+tar comprendido
+en
+los
+beneficios
+de
+la ley
+4349, y el poder ejeeutivo entregarâ
+en titu-
+los de crédite argentino interno, mensualmente,
+por su valor en plaza a la Caja naeional de ju¬
+bilaciones y pensiones civiles, unâ suma igual a
+la que importe el descuento del 5 por eiento so¬
+bre diehos sueldos.
+De esta manera se salva esta situaeiôn de in-
+justicia en que estân colocados los agentes de
+policia. Podrîa ser este'el articulo 3o., y el sa-
+lario niinimo el 4o.
+Sr. Rodriguez (G. J.). — Hay que hacer un
+agregado estableeiendo
+que
+se modifica
+en
+esa
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 166.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

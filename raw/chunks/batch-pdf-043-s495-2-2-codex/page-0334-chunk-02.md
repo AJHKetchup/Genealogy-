@@ -1,0 +1,1292 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f7dfb3ea8c28-P0334-02
+source_converted: raw/converted/batch-pdf-043-s495-2-2.codex.md
+converted_sha256: f7dfb3ea8c2860cb1cf00eb4e10465262c20621cff41aaa7766f8503ca2ff476
+source: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/source/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/manifest.json
+page_start: 334
+page_end: 334
+part: 2
+---
+
+## Literal Transcription
+
+```text
+PAGINA
+EL UNIVERSAL GRAFICO.—Méxko, D. F., Martes Tl
+de Septembre de 1923.
+IHfrvicvo Exclusivo
+de dpi
+•
+J>
+jf"\
+fol
+!
+_
+_
+_
+Radiogramasde Nues'
+El Universal
+Grâfico
+\^SdL
+[©^r^llCSJl tra Estaciôn
+Nicaragua sapira torraando parie
+de la liga de las Naciones al
+wmanmm
+^
+w»ni.■■wnHWrn
+menas par et
+mbmbmmbmbmmsi
+Gracias
+a
+las rekciones
+en el pago ne sas
+cuotas, podrâ sëguir gozando de les beneficios
+No podrâ sepamso
+do la corporaelûn sio dar aviso dosde
+dos anos antes al Coosejo do la liga
+MANAGUA, septiembre 11.—El Mi¬
+ni stro
+de
+Relaciones
+Exteriores,
+doctor
+Cuadra
+Pasos,
+ha
+declarado
+•que su Gobierno continuarâ forman-
+<lo
+en
+la Liga de Naciones de
+con-
+formidad
+con
+el canje de los trata-
+dos
+respectives
+llevado
+a
+oabo.
+Segûn
+la
+distribuclôn
+del
+presu¬
+puesto
+general
+de la Liga, al Go-
+bierno
+de Nicaragua le corresponde
+una eantidad
+anual
+oomo de veinte
+mil
+dôlares.
+El
+Gobierno
+de
+Nica¬
+ragua
+adeudaba
+por
+este
+respecte
+«a la Liga la cuota de los anos 1920,
+1921
+y
+1922,
+o
+sea
+unos
+59.700
+dô¬
+lares,
+m’âs la cuota correspondante
+a
+1923,
+que
+alcanza
+a
+5.247,66,
+de-
+bido
+a la rebaja obtenida por acuer-
+do
+celebrado
+con
+el
+représentante
+del secretario de la instituclôn, doc¬
+tor Juliân Nogueira, y en virtud del
+cual
+la
+deuda
+total
+de
+Nicaragua
+queclô
+reducida
+a
+10.G75.21
+dôlares.
+Esta
+eantidad
+ha
+de
+ser
+pagada
+en dièz anualidades de
+a 1.067,55, la
+cual
+se agregarâ eada ailo
+a la oo-
+rrespondiente
+en el presupuesto
+ge¬
+neral de la Liga. De manera que
+en
+el
+ano
+1923, por ejemplo, Nicaragua
+deberâ pagar la eantidad
+de 5.25 7,60
+por cuota actual,
+mâs la anual id ad
+dicha
+de
+1.067,55
+por
+el
+atraso,
+o
+sea
+un
+total
+de
+6.315,21
+dôlares.
+De confori^iidad con la nueva dis-
+tribuciôn para el presupuesto
+gene¬
+ral
+de
+la
+Liga,
+éste
+se
+divide
+en
+944
+unidades,
+de
+las
+cuales pagarâ
+Nicaragua
+un
+944
+avo.
+“Nicaragua
+ha
+deseado
+siempre
+concurrir
+a
+esta
+sociedad—-dice
+el
+canciller Pasos—por i&zone3 obvias
+de buena politioa internacional;
+pe¬
+ro por
+su mala situaciôn econômlca
+se habîa desatendido
+de ella
+en los
+anos anteriores. Las ventajas de este
+arregîo
+Son claras si
+se las estulia
+en los puntos siguientes: Nicaragua
+conforme
+a
+los
+tratados,
+para
+po-
+derse
+retirar ..de la Liga tiene
+que
+pagar
+previamente
+todo
+el
+rez..go
+y ademâs dar el aviso
+con dos
+anos
+de anticipaciôn.
+El
+arreglo
+sign.fi-
+ca que Nicaragua juede pernian^çer
+diez
+anos
+en
+la
+Liga
+de
+Naciones
+sacancftrfV provechos que ella trae-
+rîa
+para
+su vida internacional
+con j
+la misma eantidad
+que tendrîa que]
+afrontar para retirarse
+y
+aun
+a es-
+to
+se
+agrega la ventaja de los
+pa- I
+gos
+escalonados.”
+ASRIA PUGNA ENTRE LOS
+NAGIONALISTAS OE
+RIOJA DEL REY
+8(n ser e! mis caro es
+ei meJor vino «le mesa
+Conceslonarlos: l . TURANZAS, S. en C.
+Ayuntamlento No. 11
+México, D. T.
+VERTENGIAS II JACK
+WHITE
+SULPHUR
+SPRINGS,
+N.
+Y., septiembre
+10.—-Un ardiente
+ad-
+rnirador
+del
+campeôn
+Jack
+Demp¬
+sey,
+so
+llegô
+hoy
+al
+campamento
+de
+éste,
+pidiendo
+tenazmente
+se
+le
+diera
+entrada al eamerino
+de Jack.
+El campeôn
+se hallaba de buen
+hu¬
+mor
+y
+el fanâtico
+fue recibido.
+“Vengo
+a decirle—comenzô el
+cu-
+rioso
+personaje—que
+Firpo
+no
+es
+un juguete corao a usted le han Ire-
+cho créer, y que
+su “punch”
+a pesai*
+del
+caïificativo
+del
+“wild”,
+es
+îo
+WtOaisMem^ate
+pgfleroso
+para
+des-
+baratarie
+a
+uno
+el
+eequeleto,
+aun-
+que el golpe sea dado
+en ïos bràzos
+o
+én los hombros”—y
+después
+de
+haber
+cogido
+. alguna
+respiraciôn,
+prosiguiô:
+“Como
+ligero,
+creo
+que
+ese sudamericano no tiene nada
+que
+envidiarle
+a
+un
+“heavyweight”
+de
+bu
+peso,
+y
+ademâs
+la precisiôn
+de
+sus
+golpes.
+. ., “Say
+friend,
+le in-
+terrumpiô
+Dempsey,
+permîtame
+us-
+ted
+tambiën gastar
+un
+poco
+de
+sa¬
+liva.
+iPuedé ustéd decirmo si Firpo
+FRANCIA
+QUIERE
+A
+GRECIA EN
+LA
+PE-
+QUEnA
+ENTENTE
+Ageneio Dncms,
+BELGRADO,
+septiembre
+11.—
+Circulan
+especies
+en
+esta
+ciudad
+segûn
+las cuales Francia ha suge-^
+rido
+a
+Yugoeslavia
+que
+sc vuelva"
+a réunir
+en breve otra eonferencia
+de
+la Pequefia Entente,
+con
+el fin
+de
+que
+Grecia
+ingrese
+desde
+lue¬
+go
+a
+ëlla.
+La intenciôn
+de Francia
+es apro-
+vecharse
+del
+conflicto greco-italia-
+no
+para
+separar
+a Grecia del lado
+de
+Inglaterra
+y
+tenerla
+a
+su
+dis-
+posiciôn
+en los Balkanes.
+Juarez y Roma
+Todos
+estilos
+Jalapa, 24.
+es
+capaz
+de recibir
+un
+purietazo
+y
+otro,
+y .resistir
+una sérié
+de golpes
+derechos
+como aqüéllos
+con
+que de-
+“ivenîa re-
+a-iiiCi
+a Carpentier,
+quien
+ôutado
+como
+un
+verctader<
+El nücieo encabezado por
+Adalberto
+Korfanty
+se
+opone a los proyectos de
+los capitaneados por Pil-
+sudski.
+—f———
+'
+■
+Agenda Dncms.
+YARSOVIA,
+Septiembre
+11.—La
+lucha
+entre
+los ,nacionalistas exaî-
+tados,
+eheabezados por Korfanty, y
+los
+moderados,
+encabezados
+por
+el
+ex-Presidente
+Pilsudski.
+so
+hace
+cada dîa
+mâs ruda y peligrosa.
+Segûn el giro
+que dicha lucha ha
+tornado
+en
+las
+ûltimas
+semanas.
+parece
+que “ los
+nacionalistas
+va a
+ganando
+terreno,
+aün
+cuando
+Pil¬
+sudski
+estâ haciendo
+esfuerzos
+de-
+sesperados
+para
+reforzar
+sus
+po-
+siciones.
+El
+triunfo
+de
+los
+nacionalistas
+es
+considerado
+como
+un
+desastre
+para el pals
+con la probabilidad de
+que lancen
+a la naciôii
+a
+una gue-
+rra
+contra
+Rusia
+o
+Alemania,
+cu-
+yas
+çonsecuencîas
+ho
+podr.ân
+pre-
+veerse.
+El elemento moderado acusa, ade¬
+mâs,
+a
+sus
+advërsarios
+de
+haberse
+compromëtido
+con
+Francia,
+a
+se-
+guirla
+incondicibnalmente
+y
+apo-
+yar
+en
+cuaïquiér
+caso
+su
+polltica
+de
+agresiôn
+y
+aventuras,
+cômprb-
+miso
+al
+cual
+sé
+debe
+que
+el
+go¬
+bierno francés
+esté
+fomentando
+las
+maniobras
+de
+los nacionalistas. con
+fuertes
+cantidades de dinero,
+apar¬
+té
+del
+decidi.dq
+apoyo
+moral
+que
+les prèsta.
+—
+P |
+Q I
+La mejor imUaciôn de
+£i li U
+JLX Perlas.
+Los mâs tinos es-
+maltes.
+MADERO,
+34.
+.—
+COMO
+ORGAN1ZARAN
+EL TRAFÏCO DURAN¬
+TE LAS FIESTAS
+. Hoy
+en
+la
+maîiana,
+en
+el
+curso
+de la entrevista que uno de nuestros
+redactores
+celebrô
+con
+el
+Jefe
+del
+Departainento
+de Trâfico,
+ingenlero
+Luis Margain,
+nos dijo que han
+co-
+menzado
+a, dictarse algunas disposi-
+cione.s
+relacionadas
+con
+el
+sistema
+de trâfico
+que
+se implantarâ duran¬
+te
+las
+fiestas patrias.
+Nos dijo el ingehicro Margain que
+desde
+luego
+puede
+asegurar
+que
+quedarân
+cerrada^
+todas
+las
+ealles,
+desde la estatua
+de Carlos IV has*a
+la Plaza de
+la
+Constituciôn,
+con
+el
+fin de que
+no
+se interrumpa él des-
+H2e.
+Sin
+embargo,
+se
+organizarân
+co-
+rrientes
+de trâfico
+en otros sentidos,
+con
+el
+fin
+de évitai* molestias
+a los
+peatones.
+La Argentina, para protegerse, deses
+seleceionar a los inmigrantes que
+vayan en lo sucesivo
+El présidente Âlvear quiere seguir el
+ejemplo de
+los Estados Unidos, en beneficio de los
+elementos obreros sanos
+Ahora que el puis no asti ya tan necesitado de los colonos. se tomarân iriedt-
+das en garantis de su buena disposicidn
+* ‘El
+Universal
+Grafico’
+vale cinco centavos.
+BUENOS AIRES, septiembre
+11.-—
+En
+el
+mensaje presentado reciente-
+mente
+por
+el
+Présidente Alvear
+al
+Congreso pidiendo la reforma de
+la
+ley
+de
+inmigraciôn,
+como
+se
+dijo
+ûltimainente,
+el
+Présidente
+ealifica
+la
+materia
+como
+“uno.
+de
+los
+mâs
+serios
+de
+nuestro
+pals.”
+Haciendo
+historia sobre
+el problema, dice:
+“Cuando
+en 1876, hace ya
+47 anos,
+se
+dictô la
+ley vigente de inmigra¬
+ciôn,
+la
+cuestiôn
+se. planteaba
+en
+forma müy diversa
+en
+sus factor.es
+internos
+y
+externos.
+Nuestra
+po-
+blaciôn era de 1,900,000
+habitantes;
+hoy tenemos
+9,300,000.
+Nuestra red
+ferroviaria era entonces de 2,000 ki-
+lômetros; hoy tenemos
+36,000. Nues¬
+tro intercambio
+era
+de
+84,000,000
+de
+pesos
+oro;
+en
+1920-hemos liegado
+a
+l,970,00,00
+de pe'sos
+oro.
+En
+1876
+no teniamos agricultura
+e
+importâ-
+bamos
+la harina
+para nuestro
+pan;
+hoy
+somos uno
+de los graneros de!
+mundo.”
+Luego explica
+que
+en
+esa época
+gestionaban
+la inmigraciôn
+con
+in¬
+sistence
+y
+liberalidad, porque el
+pals
+necesitâba
+de brazos
+y capita¬
+les
+para poblar las
+pampas
+argen-
+tinas
+e intcnsificar
+la
+produceiôn.
+Déclara
+que
+esta obra
+se
+hâ reali-
+zado
+por la Influencia de los millo-
+nes de extranjeros
+que han ingresa-
+do al pals.
+Al analizar el factor
+externo, de-
+TREMENDO
+CHOFER—A
+toda
+m.âquina
+ayer
+tarde
+quiso
+pasar
+por
+la
+estrécha
+calle
+del
+Dos
+de
+Abril
+el
+chofer Salvador
+Gonzâlez.
+conduciendo el camiôn nûmero 8657,
+de la llnea de
+San Rafael.
+El
+resultado
+fue
+que
+resultaran
+atropelladas
+las
+siguientes
+perso¬
+nas:
+Dolores
+Peralta viuda
+de
+Pe-
+fialoza,
+Celestina
+Garcia,
+Gaudelia
+Granados,
+Adelina
+Aguirre
+y
+Ra-
+môn Cordero.
+clara
+que los palses
+que antes
+po*
+nlan
+cortapisas
+a
+la
+salida
+de
+sus
+hijos
+se
+convencen hoy dé
+que la
+moderna ogrnizaciôn de la industria
+déjà
+en
+los
+palses
+de poblaciôn
+densa
+un
+exceso
+de
+mano
+de
+obra
+que-pesa sobre el mercado
+de
+sala»
+rios
+con det^monto
+de
+la
+economla
+de
+la
+inasa
+obrera,
+fenômenos
+que
+induce
+a
+fomentai*
+la
+inmigraciôn
+para restableeer el equilibrio y aun
+van
+hasta
+favorecer
+con
+leyes
+mi-
+gratorias adecuadas la salida de los
+que buscan’fuera ïo
+que
+no pueden
+encontrar dentro.
+El
+Présidente
+Alvear,
+al* citar
+el
+caso
+de los
+Eetados
+Unidos, dice lo
+siguiente:
+“Los
+Estados
+Unidos,
+gran
+pafs
+donde acudlan
+en
+busca
+de
+fortuna
+millones
+de
+hombres,
+han liegado
+a
+un
+grado de saturaciôn
+que lé hace
+cerrar
+cada dla
+mâs
+severamente
+sus
+puertas,
+y
+para
+la
+defensa
+de
+los
+trabajadoree
+radicales
+se
+han
+dictado
+también
+leyes
+restrictivas
+de
+la
+inmigraciôn
+en
+los
+dominios
+britânicos.”
+El
+proyecto
+que présenta
+el
+Pré¬
+sidente Alvear da
+a la admisiôn del
+inmigrante
+un
+cârâcter condicional
+por
+un
+determinado
+plazo.
+Si
+se
+comprobafan
+las
+afirmaciones
+he-
+chas* al ingresar
+a
+lpaîs,
+el
+ingreso
+toma cârâcter definitive);
+de lo con¬
+trario vendrîa
+la
+repatriaciôn.
+POR
+VER
+EL
+ECLIPSE
+Vien-
+do
+el
+eclipse
+se
+encontraba
+ayer
+tarde
+el
+senor
+Manuel
+Fernândez
+en
+su
+casa
+habitaciôn
+de
+la
+calle
+de Degollado nûmero
+103
+Distraïdamente
+diô
+jil&nnos
+pa¬
+sos
+y al dar
+uno
+en
+falso
+cayô al
+suelo,
+desde
+una
+altura
+de
+diez
+metros ;
+Se
+encuentra
+sumamente
+grave.
+VIAJE DEL SENADOR
+HIRAM JOHNSON A
+CALIFORNIA
+WASHINGTON,
+septiembre
+11.—
+El senador Johnson saîdrâ para Ca¬
+lifornia
+dentro
+de
+pocos
+dîas
+oon
+objeto
+de activar la
+campana polf-
+tica entre los republicànos de aquel
+Estado.
+Varios
+amigos
+întimos
+del
+cono-
+cido “irréconciliable”
+aseguran
+que
+las
+noticias
+procedentes
+de
+San
+Francisco
+dando
+cuenta
+de
+la acti-
+vidad
+de
+los partidarios
+de Hoover
+han sido las
+que han mofivado
+estç-
+viaje.
+Cebada,
+cla.se
+superior,
+existe»»
+oîas
+constantes.
+Casa
+Leal Novelo.
+A Eric.
+CO.
+México.
+12-4C
+Nerl.
+De Valera Antes
+de
+ser Capturado
+o
+como
+un verdadero
+a Willard,
+a
+quien
+se
+consideraba
+uno de los hombres mâs fuertes que
+veîan
+la
+luz
+en
+nuestro
+planeta,
+a
+Brénn'an,
+a
+Fulton
+y
+a
+muchos
+mâs?
+“No
+quiero
+adelantar
+los
+hechos
+en
+este
+asunto,
+pero
+quiero
+agre-
+garle,
+que si el argentino sno puede
+resistir
+dos
+o
+très
+pufietazos,
+des-
+eârgados
+como debé ser, el campeo-
+nato
+permahecerâ
+en
+los
+Estados
+Unidos
+y
+Firpo
+tendrâ
+quo
+perfec-
+cionarse
+mucho
+mâs
+en
+el
+arte
+de
+la
+defensa
+para enfrentârseine
+con
+probabilidades
+de triunfo.”
+El fanâtico saliô del gimnasio del
+campeôn,
+pero
+en
+su semblante
+se
+podla notar eierta duda. Verdadera-
+mente,
+Firpo
+tendrâ
+que
+resistir
+muchîsimos golpes,
+antes
+de
+lograr
+poner
+en peligro
+a Dempsey.-
+W
+"
+m
+Esta
+interesante
+fotograffa
+muestra al
+famoso
+e inquieto rc-
+publicano
+irlandés,
+Eamonn
+de
+Valera
+momentos
+antes
+de
+que
+los soldados del Estado Libre, con
+la
+bayoneta
+calada,
+interrurnpie-
+ran
+el discurso y condujeran
+a la
+prisiôn al que por espacio de tan-
+tos
+meses habla conseguido
+esca-
+par
+de
+las fuerzas enemigas.
+Los uiilltares
+del
+Estado Libre
+que
+aprehendieron
+a
+De
+Valera
+después
+de
+dieciocho
+meses
+de
+busearle
+sin
+césar,
+manifestaron
+que cuando el lider se diô cuenta
+de
+la presencia de las tropas al
+pie
+de
+la plataforma
+donde
+pro-
+nunciaba tremendos
+discursos,
+se
+desmayô y
+no pudo volvcr
+en si
+basta cuando
+era
+eonducido
+a
+la
+cârcel.
+Xja
+captura
+se
+efeetuô
+en
+la
+poblaciôn
+de
+Ennis,
+condado
+de
+Clare, donde los republicànos tie-
+nen
+una popularidad que opaca »
+los del Estado -Libre.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.

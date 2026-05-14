@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/retry-ima-006-la-haye-b-timent-des-salles-comtales-o.codex.md",
+  "converted_sha256": "0c5d2fb823968a761debc312526b81cdfcacc51ac554d665ef28f2a472d0b9b2",
+  "source": "raw/codex-conversion-jobs/retry-ima-006-la-haye-b-timent-des-salles-comtales-o/source/la-haye-b-timent-des-salles-comtales-o-a-lieu-la-df269c355226.jpg",
+  "source_sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
+  "source_manifest": "raw/codex-conversion-jobs/retry-ima-006-la-haye-b-timent-des-salles-comtales-o/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-0c5d2fb82396-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/retry-ima-006-la-haye-b-timent-des-salles-comtales-o-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 1588,
+      "sha256": "1cfb9b821764c34c9a3e51a1b6f55885b88e24dda026a58ff5d91c6373dd1f32"
+    }
+  ]
+}

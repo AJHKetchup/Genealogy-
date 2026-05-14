@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-493c1d71a59e-P0334-01
+source_converted: raw/converted/batch-pdf-037-r3578-50-5569-5569-jacket4.codex.md
+converted_sha256: 493c1d71a59e4a509e6719d3b7346f2b128ea6f327bf48df7f98e418e3898c07
+source: raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/source/R3578-50-5569-5569-Jacket4.pdf
+source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
+source_manifest: raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/manifest.json
+page_start: 334
+page_end: 334
+part: 1
+---
+
+# Page 334
+
+## Page Metadata
+
+- Source page: 334
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0334.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+20
+Article 27.
+Allemagne.
+Inserer a l’alinea ier apres les mots « a prendre », le mot «immediatement ».
+France.
+Le remplacer par le texte suivant
+:
+« L’emploi de l’insigne de neutralite n’appartient qu’aux services publics officiels ayant a s’occuper des malades
+et des blesses et aux societes faisant partie de la Croix-Rouge.
+II est tolere, en temps de paix, pour marquer l’emplacement d’etablissements ou de postes, soit permanents, soit
+temporaires, publics ou prives, exclusivement reserves a donner des soins gratuits aux malades et aux blesses. En cas
+d’abus, ce droit pourra etre retire par les autorites competentes.
+II est interdit aux particuliers ou aux societes autres que celles y ayant droit en vertu de la presente Convention,
+qu’il s’agisse de l’embleme ou de la denomination de
+« croix rouge » ou
+« croix de Geneve », notamment dans un
+but commercial par le moyen de marques de fabrique ou de commerce.
+Les Etats signataires dont la legislation ne serait pas, des a present, suffisante s’engagent a prendre ou a proposer
+a leurs legislateurs les mesures necessaires pour faire respecter les principes faisant l’objet du present article.
+L’interdiction de l’emploi... etc... » (le reste sans changement).
+Motifs: A tort ou a raison, le fanion de la Croix-Rouge est devenu pour le public le signe du secours medical en
+cas d’accident ou de maladie. C’est la une tendance qu’il y a int^ret a respecter, elle vulgarise l’image et la signification
+de la croix rouge et incite les masses a la respecter. Comment s’opposer a ce qu’un industriel marque d’une croix
+rouge le local oil seront assures les premiers secours en cas d’accidents ? Comment refuser aux organisateurs d’un
+meeting ou d’une assemblee populaire nombreuse, reunie sous pretexte de rejouissances ou de sports, de placer un
+fanion a croix rouge sur la tente ou le local reserve au poste de secours ? Au surplus, si ce dernier est tenu par une
+societe d’assistance adherente
+a la Convention de Geneve, le fanion est orthodoxe, mais, dans le cas contraire, il est
+prohibe. Comment refuser a une municipality le droit de mettre une croix rouge sur un vehicule exclusivement reserve
+au transport des malades et des blesses ? II y a la, incontestablement, un formalisme etroit qui choque. On a voulu,
+et
+a juste raison, eviter l’abus du signe de la croix rouge. En fait, des abus flagrants se sont produits et on en a eu
+des exemples frappants en 1914, lors des premiers jours de la campagne. On a tenu a eviter egalement de voir ce signe
+couvrir des produits commerciaux ou des entreprises diverses fort eloignes de la mission que s’est donnee la Convention
+de Geneve. Ces preoccupations sont legitimes, mais on peut sans inconvenients, semble-t-il, attenuer la rigueur du
+texte propose.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 334.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

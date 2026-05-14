@@ -1,0 +1,155 @@
+# Genealogy Wiki Log
+
+## [2026-05-11] init | Genealogy wiki created
+
+- Created raw source layer, wiki layer, schema, index, log, and templates.
+## [2026-05-11] prep-chunk | Wrote raw/chunks/cj-elaguila-sample-el-aguila-nombre-grande-sample-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/poc-docx-proof-docx/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/poc-image-proof-standalone-image/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/poc-textpdf-proof-text-pdf/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/poc-scanpdf-proof-scanned-pdf/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/poc-scanpdf-proof-scanned-pdf.codex.md
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/poc-image-proof-standalone-image.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/poc-scanpdf-proof-scanned-pdf-codex/manifest.json
+## [2026-05-12] prep-chunk | Wrote raw/chunks/poc-docx-proof-docx-codex/manifest.json
+nifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-002-portrait-dario-jose-pulgar-arriagada/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-002-portrait-dario-jose-pulgar-arriagada.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-002-portrait-dario-jose-pulgar-arriagada-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-004-v-p-hist-03583-11a/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-004-v-p-hist-03583-11a.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-004-v-p-hist-03583-11a-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-005-v-p-hist-01821-16/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-005-v-p-hist-01821-16.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-005-v-p-hist-01821-16-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-007-v-p-hist-01820-01-1/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-007-v-p-hist-01820-01-1.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-007-v-p-hist-01820-01-1-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-008-v-p-hist-01820-01/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-008-v-p-hist-01820-01.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-008-v-p-hist-01820-01-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-009-v-p-hist-03583-12a/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-009-v-p-hist-03583-12a.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-009-v-p-hist-03583-12a-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-013-portrait-dario-jose-pulgar-arriagada-2/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-013-portrait-dario-jose-pulgar-arriagada-2.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-013-portrait-dario-jose-pulgar-arriagada-2-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-014-v-p-hist-03583-07a/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-014-v-p-hist-03583-07a.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-014-v-p-hist-03583-07a-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-022-cv-of-dario-arturo-pulgar/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-022-cv-of-dario-arturo-pulgar.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-022-cv-of-dario-arturo-pulgar-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-023-habitat-revisited-jim-carney-2006/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-023-habitat-revisited-jim-carney-2006.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-025-acicr-b-cr-177-001-002/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-025-acicr-b-cr-177-001-002.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-025-acicr-b-cr-177-001-002-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-027-introduction-estates-general-of-third-ci/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-027-introduction-estates-general-of-third-ci.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-027-introduction-estates-general-of-third-ci-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-030-r3578-50-7801-5569/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-030-r3578-50-7801-5569.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-030-r3578-50-7801-5569-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-031-r4302-9f-13323-11332/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-031-r4302-9f-13323-11332.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-031-r4302-9f-13323-11332-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-033-s179-34-6/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-033-s179-34-6.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-033-s179-34-6-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-034-r3577-50-5569-5569-jacket1/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-034-r3577-50-5569-5569-jacket1.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-034-r3577-50-5569-5569-jacket1-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-035-r4946-12-33387-8070/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-035-r4946-12-33387-8070.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-035-r4946-12-33387-8070-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-036-r4749-11c-17499-5398/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-036-r4749-11c-17499-5398.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-036-r4749-11c-17499-5398-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-037-r3578-50-5569-5569-jacket4.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-037-r3578-50-5569-5569-jacket4-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-038-r3577-50-5569-5569-jacket3-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-039-r3578-50-5569-5569-jacket5.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-039-r3578-50-5569-5569-jacket5-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-040-s519bis-26-4/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-040-s519bis-26-4.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-040-s519bis-26-4-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-041-r3016-11a-2905-950-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-043-s495-2-2.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-043-s495-2-2-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-044-s522bis-29-3-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-pdf-001-anales-de-la-universidad-de-chile-sessi/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-pdf-001-anales-de-la-universidad-de-chile-sessi.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-pdf-001-anales-de-la-universidad-de-chile-sessi-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-aud-002-dario-arturo-pulgar-interview-11-24-202/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-aud-002-dario-arturo-pulgar-interview-11-24-202.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-aud-002-dario-arturo-pulgar-interview-11-24-202-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-pdf-003-geneva-convention-of-july-27-1929-amel/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-pdf-003-geneva-convention-of-july-27-1929-amel.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-pdf-003-geneva-convention-of-july-27-1929-amel-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-pdf-005-historia-del-hospital-cl-nico-regional-d/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-pdf-005-historia-del-hospital-cl-nico-regional-d.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-pdf-005-historia-del-hospital-cl-nico-regional-d-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-ima-006-la-haye-b-timent-des-salles-comtales-o/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-ima-006-la-haye-b-timent-des-salles-comtales-o.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-ima-006-la-haye-b-timent-des-salles-comtales-o-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-ima-007-la-haye-xiii-me-conf-rence-internationa/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-ima-007-la-haye-xiii-me-conf-rence-internationa.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-ima-007-la-haye-xiii-me-conf-rence-internationa-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri-codex/manifest.json
+## [2026-05-12] codex-conversion-job | Prepared raw/codex-conversion-jobs/retry-ima-009-passenger-and-crew-lists-the-national-a/manifest.json
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/retry-ima-009-passenger-and-crew-lists-the-national-a.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/retry-ima-009-passenger-and-crew-lists-the-national-a-codex/manifest.json
+## [2026-05-12] vault-transcriptions | Wrote 5 editable transcription notes
+## [2026-05-12] vault-transcriptions | Wrote 47 editable transcription notes
+## [2026-05-12] vault-transcriptions | Wrote 47 editable transcription notes
+## [2026-05-12] vault-transcriptions | Wrote 47 editable transcription notes
+## [2026-05-12] vault-transcriptions | Wrote 9165 index/page notes
+## [2026-05-12] vault-transcriptions | Wrote 48 index/page notes
+## [2026-05-12] vault-transcriptions | Wrote 48 index/page notes
+## [2026-05-12] codex-conversion-job | Assembled raw/converted/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5.codex.md
+## [2026-05-12] prep-chunk | Wrote raw/chunks/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5-codex/manifest.json
+## [2026-05-12] vault-transcriptions | Wrote 9165 index/page notes

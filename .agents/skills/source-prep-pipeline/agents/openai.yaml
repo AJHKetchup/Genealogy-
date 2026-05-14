@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source Prep Pipeline"
+  short_description: "Prepare raw genealogy sources for research"
+  default_prompt: "Use $source-prep-pipeline to prepare raw historical source files for high-accuracy Markdown conversion."

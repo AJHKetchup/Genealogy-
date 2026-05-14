@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/retry-ima-007-la-haye-xiii-me-conf-rence-internationa.codex.md",
+  "converted_sha256": "ba182747fef8f17868929254fe00c7702414a14a77c8201372191d30efbd6e7d",
+  "source": "raw/codex-conversion-jobs/retry-ima-007-la-haye-xiii-me-conf-rence-internationa/source/la-haye-xiii-me-conf-rence-internationale-de-la--90b8a8aabe55.jpg",
+  "source_sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
+  "source_manifest": "raw/codex-conversion-jobs/retry-ima-007-la-haye-xiii-me-conf-rence-internationa/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-ba182747fef8-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/retry-ima-007-la-haye-xiii-me-conf-rence-internationa-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 1588,
+      "sha256": "79da817cf3e2beb5875a8403b0ab0ebf59cfa2315a4a56f0651239e80dbac5eb"
+    }
+  ]
+}

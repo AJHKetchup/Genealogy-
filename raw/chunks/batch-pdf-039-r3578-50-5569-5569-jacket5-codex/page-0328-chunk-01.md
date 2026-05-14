@@ -1,0 +1,124 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9bdbc1c5bbaf-P0328-01
+source_converted: raw/converted/batch-pdf-039-r3578-50-5569-5569-jacket5.codex.md
+converted_sha256: 9bdbc1c5bbaf15182e94e0e0b95b53a432dc94f7c0429e9384dcf0999391d0b3
+source: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/source/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/manifest.json
+page_start: 328
+page_end: 328
+part: 1
+---
+
+# Page 328
+
+## Page Metadata
+
+- Source page: 328
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0328.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+105
+514
+De President van de Republiek Chili:
+den Heer Guillermo Novoa-Sepulveda, Kolonel, Militair Attachd
+bij het Gezantschap van Chili te Berlijn,
+den Heer Dario Pulgar-Arriagada, Kapitei'n van den Genees-
+kundigen Dienst;
+De President van de Republiek China:
+den Heer Chi Yung Hsiao, Tijdelijk Zaakgelastigde van China
+te Bern;
+De President
+van de Republiek Columbia:
+Z.
+Exc.
+den Heer Francisco
+Jose
+de Urrutia,
+Buitengewoon
+Gezant
+en Gevolmachtigd Minister van Colombia te Bern;
+De President
+van de Republiek Cuba:
+Z. Exc. den Heer Carlos de Armenteros y de Cardenas, Buiten¬
+gewoon Gezant en Gevolmachtigd Minister van Cuba te Bern,
+den
+Heer
+Carlos
+Blanco
+y
+Sanchez,
+Gezantschapssecretaris,
+toegevoegd aan de Delegatie van Cuba bij den Yolkenbond;
+Zijne Majesteit de Iioning van Denemarken en IJsland:
+Yoor Denemarken:
+Z. Exc. den Heer Harald Scavenius, Kamerheer, Buitengewoon
+Gezant
+en
+Gevolmachtigd
+Minister
+van
+Denemarken
+in
+Zwitserland
+en Nederland, oud-Minister van Buitenlandsche
+Zaken,
+den Heer Gustave M. Rasmussen, Tijdelijk Zaakgelastigde van
+Denemarken te Bern;
+De President van de Dominicaansche Republiek:
+den Heer Charles Ackermann, Consul van de Dominicaansche
+Republiek te Gen&ve;
+Zijne Majesteit de Iioning van Egypte:
+den Heer Mohammed
+Abdel
+Moneim Riad,
+Advocaat bij
+de
+Geschillen
+van Bestuur,
+Hoogleeraar in het Internationaal
+Recht
+aan de Militaire School te Cairo,
+den Heer Henri Wassif Simaika, Attache
+aan het Koninklijk
+Egyptisch Gezantschap te Rome;
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 328.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

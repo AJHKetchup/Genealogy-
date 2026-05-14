@@ -1,0 +1,253 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0179-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 179
+page_end: 179
+part: 1
+---
+
+# Page 179
+
+## Page Metadata
+
+- Source page: 179
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0179.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+de 1921
+CAMARA DE DIPUTADOS
+1787
+se ha
+concretado,
+de
+que el salario minimo
+subiera a la sum de 200 pesos tuve la satis-
+faceion de concordar con el senor dipatado Pe-
+reyra Rosas. Asî que me es eu este momento
+sumamente cdmodo adherir
+a
+esa modern, al
+mismo tiempo que decir poeas palabras, provo-
+cadas por la oposieiôu que algunos seiïores di-
+putados, como el senor diputado Pena, han he-
+eho
+a estas horas de la uoche para que esta
+mociôn no se vote, reeditando una sérié de ar¬
+gumentes que eu todo momento y cireunstan-
+eia se reeditan para llamar al bueu sentido de
+la câmara, a los efectos de que no llegue a la
+ma.sa trabajadora lo que ella necesita y viene
+pidiendo a cada momento. (Aplausos).
+El
+senor diputado Pena que
+se alarma de
+que tratemos el salario m'mimo trente al presu-
+puesto que se va a déséquilibrai no se alarma
+cuando se propone tratar las pensiones en este
+recinto. El senor diputado Pena presta su voto
+cuando se trata de leyes de privilegios, que vie-
+nen a gravar las rentas del pueblo eon nuevas
+cargas, cuando todavia no
+se ha establecido
+con una ley orgânica Ta justicia distributiva
+que haga asequibles esas pensiones todas las
+personas que han hecho la grandeza del pais,
+no solo en nuestros ejéreitos, no solo en pues-
+tos publicos del presupuesto, sino también en
+la .labor obscura y permanente que van hacien-
+do los trabajadores en toda la extension del te-
+rritorio. Enfonces también debia alarmarse el
+senor diputado Pena.
+Sr.
+Pena.
+—
+a Me permite una ligera inte-
+rrupeion?
+Sr. Rodeyro. — No le permito nîhguna inte-
+rrupeiôn, senor diputado. Quiero ser respetado
+en el uso de la palabra. Es bueno que cuando
+se dicen algunas cosas, que estân en la concien-
+cia de todo el mundo, se tenga el valor de oir-
+las, sin perturbai- al orador.
+Estoy
+contestando argumentes
+que se han
+' hecho
+en la câmara, y me creo eu el derecho
+de hacerlo en la forma pertinente.
+Ouando
+se hacen estos argumentos, cuando
+se plantean, como ha visto la honorable câma¬
+ra, cuando después de una sanciôn del presu¬
+puesto
+a Jibro cerrado, los senores diputados
+/vienen a renovar disrtisiones alrededor de su-
+mas de dinero para obras publieas en las prb-
+(vincias, que ha desechado la comision de pre¬
+supuesto y que a ultimo momento se viene cou
+o sin razôn — no entro a analizarlo -— a plan-
+tear a la honorable câmara que vote sumas de
+dinero por mâs de 4 millone(f de pesos para
+obras publieas, no se levaota ta voz del dipu¬
+tado Pena parf protestar contt-a esas eosas, y
+si se levanta ardorosa al ultimo momento para
+, eombatir una mejora que vamos a llevar a las
+clases proletarias. {Aplausos).
+Sr. Raffo de la Reta.
+— Mâs lôgico séria
+protestar contra estos desplantes con vistas al
+electorado,
+que nos estân haciendo.
+Sr. Rodeyro.
+— Ya le contestaré al senior
+diputado lo que
+se retiere a politiea electoral.
+Pue dp juzgar también que la actitud del senor
+diputado Pena, como la de otros senores dipu-
+tados tienen vistas électorales a la inversa, ha¬
+em el capital
+que todo lo oprime y que hace
+que nosotros estemos sirviendo los altos inte-
+reses del pueblo trabajador y que ellos estén
+sirviendo los intereses del capitalismo, que tra¬
+ta de arruinarlos en todo momento. (Aplausos.)
+Cuando
+quieren
+juzgar las
+intenciones
+de
+otros colegas...
+Sr. Raffo de la Reta.
+— Aqui nadie esta al
+servicio de intereses determinados sino al ser-
+vieio de los intereses de todo el pais.
+Sr.
+Rodeyro.
+—
+Mis
+palabras
+jgon
+conse-
+cuencia
+de las
+que los senores diputados han
+dicho
+en el recinto. Atribuir aetitudes electo¬
+rates
+a hombres de todos los sectores,
+que
+es¬
+tân compenetrados
+de
+las necesidades
+de
+la
+clase trabajadora, que hemos tenido que plan¬
+teur votaciones
+a altas horas de la noehe para
+potier arrancar a la câmara leyes que, como la
+de alquileres van a herir el privilegio y traer la
+tranquilidad a la poblacion, que estaba bajo la
+presiôn
+de
+los propietarios complotados,
+que
+ya contaban
+como seguro
+que el
+eongreso no
+tendria el valor suficiehte para dictar esa ley,
+que cerrara la puerta al abuso permanente que
+estaba gravitando
+contra la
+clase pobre del
+pais,
+y
+que estaban descontando
+que iban
+a
+eonseguir el veto que les diera en el momento
+oportuno la posibilidad
+de
+que la ley no
+se
+cumpliera, como estân descontando ahora. que
+en los tribunales de nuestro pais habrâ jueces
+capaces de levantarse contra el clamor del pue¬
+blo para amparar al privilegio.
+Pero eso no ha de ser, porque ese juego esta
+demasiado conocido por la opinion publica y
+a ella apelamos desde nuestras bancas, cuando
+en eumplimiento de nuestro mandato tenemos
+el valor de plantear estas cosas frente a todas
+las obstrucciones.
+Sr. Pena.
+— El valor esta de mi parte al
+afrontar
+esta situaciôn.
+Sr. Rodeyro.
+— Ya lo
+creo
+que
+se necesita
+valor para defender al privilegio en estas épo-
+cas.
+Sr. Pena.
+— No ; no me va alterar mi propo-
+sito.
+Sr. Rodeyro. — Ni el senor diputado el mid,
+El senor diputado Pena dice que esta es una
+ley de excepciones, que solo va en beneficio de
+los
+obreros
+que trabajan por cuenta del go-
+bierno nacional y que se alegraria que el sec¬
+tor socialista quisiera hacer extensivo este be¬
+neficio
+a todos los obreros.
+-No necesita el senor diputado Peïia dirijinjl
+r,
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 179.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

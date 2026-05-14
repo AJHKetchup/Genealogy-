@@ -1,0 +1,132 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0327-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 327
+page_end: 327
+part: 1
+---
+
+# Page 327
+
+## Page Metadata
+
+- Source page: 327
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0327.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Séance
+du
+19 Juillet 1929
+Par contre, si cette conférence ne prenait pas en considération les questions ci-haut men¬
+tionnées, par suite de sa préoccupation exclusive du sort des blessés et malades dans les armées
+en campagne, dans ce cas, il serait nécessaire qu'elle formule un vœu, aux fins de voir la pro¬
+chaine Conférence qui aura à s'occuper du Code des internés et des déportés, arriver à la conclu¬
+sion d'une nouvelle convention pour la protection des blessés et des malades civils pendant
+la guerre.
+M.
+de la Torrehermosa (Espagne)
+:
+La délégation espagnole est d'accord que les vœux humanitaires proposés par la délégation
+italienne soient insérés dans l'Acte final de la Conférence. Quant à l'application des conditions
+des sociétés de secours à l'Ordre souverain de Malte, la délégation espagnole est également
+d'accord, mais comme les délégations anglaise et allemande, elle demande qu'il en soit de
+même pour les Ordres similaires qui existent en Espagne.
+M. de Castro (Uruguay)
+:
+Puisque nous serons appelés à voter sur l'Acte final, je voudrais vous expliquer la décision
+que je prendrai.
+La première proposition de la délégation italienne a été longuement discutée ici et au
+sein de la sous-commission. Mes idées sont donc connues.
+La seconde proposition de la délégation italienne a été exposée tout à l'heure par M. le
+Sénateur Ciraolo.
+Reste la question de l'Ordre de Malte. Selon la formule acceptée par plusieurs délégués
+et à laquelle j'ai adhéré, on déclare que la disposition de la présente Convention réglant la
+situation officielle des sociétés de secours volontaires auprès des armées en campagne et fixant
+leurs prérogatives, s'applique également
+aux
+Ordres souverains,
+en particulier
+à l'Ordre
+souverain de St. Jean de Jérusalem, dit Ordre de Malte.
+Les Sociétés de secours sont soumises, d'après l'article 10, à l'obligation d'être reconnues
+par leur Gouvernement
+et
+ensuite elles doivent être autorisées à exercer leurs fonctions.
+Je constate que l'Ordre souverain de Malte n'aura aucune prérogative supérieure à celles
+qui pourront être accordées aux ordres nationaux de chacun de nos pays. C'est
+un point
+que je considère capital, parce que je ne pourrais jamais donner le vote de l'Uruguay, selon
+les instructions que j'ai reçues, à une disposition accordant à un Ordre étranger des préro¬
+gatives supérieures à celles qui seraient accordées aux associations nationales. Cette affaire
+est donc réglée. L'Ordre souverain de Malte, pour pouvoir exercer ses fonctions, devra d'abord
+offrir ses services à chacun des pays. Il devra ensuite obtenir l'autorisation. Depuis plus d'un
+an que nous avons été saisis de cette démarche de l'Ordre souverain de Malte, mon Gouver¬
+nement
+a pu l'étudier. Nous ne voyons aucun obstacle à ce que l'Ordre souverain de Malte
+ou n'importe quelle association humanitaire s'adresse à nos pays. Cette offre de services ne
+signifie pas que les services seront acceptés. Us le seront peut-être par l'Uruguay, mais pas
+par l'Angleterre. C'est là une question qui concerne nos pays appelés à signer cet Acte final.
+En temps que représentant de l'Uruguay, je ne vois aucun invonvénient à ce que soit insérée
+dans l'Acte final la déclaration qui nous est proposée. Toutefois, comme la délégation britan¬
+nique et plusieurs autres après elle, en particulier la délégation allemande, ont parlé d'autres
+ordres
+ou associations encore qui devraient recevoir les mêmes droits et les mêmes devoirs,
+je tiens à dire qu'en ce qui concerne ceux;-là, je n'ai pas eu l'occasion d'étudier la question
+et que je n'ai pu encore me former une opinion, puisque elle surgit brusquement et pour ainsi
+dire par surprise, sans démarche préalable. Je n'ai pu étudier là situation des ordres ou asso¬
+ciations dont il s'agit et auxquels on propose de réserver les mêmes droits et obligations qu'à
+l'Ordre souverain de Malte. En
+ce qui concerne ce dernier, une proposition a été faite voici
+plus d'un an, nous avons par conséquent eu le temps de réfléchir, de comparer, et même de
+recevoir des suggestions d'autres Gouvernements. Les deux cas sont donc tout à fait différents.
+Je ne m'opposerai absolument pas à ce que l'occasion soit donnée à d'autres ordres d'entre¬
+prendre une démarche analogue à celle faite pour l'Ordre Souverain de Malte, dans le but
+de les inclure dans une déclaration de ce genre. Mais encore faut-il pouvoir, pour se prononcer
+en connaissance de cause, étudier la situation. Pour des pays très lointains comme l'Uruguay,
+ce sont d'ailleurs là plutôt des choses de politique européenne que nous examinons, si j'ose
+dire, un peu
+en amateurs. (Rires),
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 327.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

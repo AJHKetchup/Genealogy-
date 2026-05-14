@@ -1,0 +1,209 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f7dfb3ea8c28-P0124-01
+source_converted: raw/converted/batch-pdf-043-s495-2-2.codex.md
+converted_sha256: f7dfb3ea8c2860cb1cf00eb4e10465262c20621cff41aaa7766f8503ca2ff476
+source: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/source/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/manifest.json
+page_start: 124
+page_end: 124
+part: 1
+---
+
+# Page 124
+
+## Page Metadata
+
+- Source page: 124
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0124.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+10
+RENACLMIENTO
+El campeonato de ^Tennis efectuado en
+^Tegucigalpa
+A iniciativa de La Leona Tennis Club,
+se ha llevarîo a feliz término
+el catnpeo-
+nato de tennis de que se ha venido
+ocu-
+pando la Prensa diaria desde principios
+del ines
+en
+curso.
+Participaron en dicho torneo los si-
+guientes caballeros:
+Honorable
+spfior don George
+Lyall,
+Encargado de Negocios de la Grau Bre-
+tana;
+Honorable senor
+don
+William
+Walker Smith, Encargado de Negocios
+de Estados Unidos; S.
+S.
+don
+Ramon
+de Santa Maria, Consul de Espana; don
+José Maria Gutierrez;
+don
+Fernando
+Sempé; don José C. Velasquez, don Car-
+los Gutierrez h.; don Ignacio Agurcia,
+don José Walter;
+don Guillermo Elvir;
+don Alfredo Medrano; don Enrique Wal¬
+ter Dr. don Salvador H. Callejas; don F.
+Antunez; don Mario Ribas; don C. Bush;
+don Rafael Osorio Jir6n;don Carlos Fia-
+llos.
+A fin de hacer una distribueion equita-
+tiva de los jugadores,
+se reunieron los
+interesados en
+el Club Internacionaly se
+procedio a un sorteo que diô el siguien-
+te resultado: los senores
+G. Lyall
+y
+C.
+Bush contra los senores Enrique Walter
+y Carlos Fiallos; senores José
+C. Velas¬
+quez y Dr. Salvador H. Callejas contra
+los senores F. Antunez y Fernando Sem¬
+pé; senores José Mario Gutierrez y Alfre¬
+do Medrano contra los
+senores Ramon
+de Santa Maria y Mario Ribas;
+senores
+W. W. Smith y G. Elvir contra los seno¬
+res Carlos Gutierrez h. y K. Osorio Jiron ;
+senores Ignacio Agurcia y José Walter,
+en suspenso hasta después de los juegos
+preliminares.
+El viernes, dia 13, se jugoel primer par-
+tido de los preliminares, entre los
+seno¬
+res G. Lyall y C. Bush contra
+los
+seno¬
+res Enrique Walter y C.
+E. Fiallos,
+ga-
+nando
+estos ultimos,
+con
+6—1,
+3—6,
+6—2, quedando eliminados los
+senores
+Lyall y Bush.
+El sâbado, dia 14, jugaron
+su partido
+preliminar los senores José C. Velasquez
+y Dr. Salvador H. Callejas contra los
+senores Fernando Sempé y F.
+Antunez,
+ganando los primeros con 6—2, 6—2; y
+quedaron eliminados los senores Sempé
+y Antunez.
+El dia 15 se jugo el partido preliminar
+entre los senores José Mario Gutierrez y
+Alfredo Medrano confia los senores Ma¬
+rio Ribas y R. de Santa. Maria, ganando
+los primeros con 5—7, 9—6,8—6,salien-
+do eliminados los senores Ribas y Santa
+Maria.
+El 17 se jugo el ultimo de los prelimi-
+nams entre los senores W.
+W.
+Smith y
+G. Elvir contra los senores Carlos Gutie¬
+rrez h. y R. Osorio Jiron, ganando los
+primeros
+con
+6—3 10—8; y quedaron
+eliminados los senores Gutierrez y
+Oso¬
+rio Jiron.
+El jneves 19 se diô principio a los
+se¬
+mi—finales, jugando los senores Smith y
+Elvir contra los senores I. Agurcia y J.
+Walter,ganando estos ultimos con 6—4,
+7—5, snliendo los
+senores Smith y El-
+vh\
+El
+raismo
+(lia, jugaron
+su
+par¬
+tido semi—final los senores Velasquez y
+Dr. Callejas contra los senores E. Walter
+y C. Fiallos, ganando estos con 4—6,
+7—5, 6—2, saliendo los senores Velas¬
+quez y Callejas.
+El
+viernes
+20
+se jugo el
+semi—final
+entre los senores J. M.
+Gutierrez y
+Me¬
+drano contra los
+senores Agurcia
+y J.
+Walter, ganando los primeros con 6—3;
+5—7, 6—2, saliendo los senores Agurcia
+y Walter.
+Terminados los
+semi—finales
+queda-
+ron solamente paia jugar el partido
+fi¬
+nal los senores José Mario Gutierrez y
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 124.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

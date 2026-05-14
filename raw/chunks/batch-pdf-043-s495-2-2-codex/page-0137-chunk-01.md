@@ -1,0 +1,184 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f7dfb3ea8c28-P0137-01
+source_converted: raw/converted/batch-pdf-043-s495-2-2.codex.md
+converted_sha256: f7dfb3ea8c2860cb1cf00eb4e10465262c20621cff41aaa7766f8503ca2ff476
+source: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/source/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/batch-pdf-043-s495-2-2/manifest.json
+page_start: 137
+page_end: 137
+part: 1
+---
+
+# Page 137
+
+## Page Metadata
+
+- Source page: 137
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0137.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+RENACIMIENTO
+23
+Una carta para Garcia
+Hay un hornbre que aparece en el hori-
+zonte de mi memoria corno Marte
+en el
+perihelo, sieinpre que oigo hablar de la
+guerra de Cuba:
+Cuando se rrompieron las hostilidades
+entre Espaiïs y los Estados Unidos, ha-
+bia urgencia en comunicarse ininediata-
+meate con el jefe de los insurrectos. Gar-
+T1ENDA DE
+Cristina Connor
+Edificio del Banco fltldntida
+TeléfoQO 321.
+Tegucigalpa
+- Honduras
+POSTALES. Tarjetas blancas, de Bau-
+tizo y Matrimoniales.' Papel y Tarje-
+tas de Lu to.
+Papel deOlieio. Sobres
+para cartas a $ 8 el millar.
+Listones y
+Abanicos, ultima moda.
+CALZADO Tennis para senoritas, ca-
+balleros y ninos, blanco y café'. Botas
+negras, marca Hamilton, $ 12.
+Un
+lote de Zapatillas'finas para pie pequeno
+(No. 1 y 1)Ç)
+a $ 11 el par.
+Sandalias
+Julietas, y Zapatillas blancas de loua.
+PERFUMES y Lociones de la famosa
+casa Houbigant.
+Corsés para todos
+los gustos, desde $ 3 hasta $ 10.
+[EDIAS de sedâ artificial, a $ 1.75 el
+par.
+Toallas de
+bano, grandes y
+fuerte8,
+a $ 0.
+Género Organdie en
+varios colores a $ 1.
+TRICOTINA de seda a $ 5 y $ 6.50 va¬
+ra.
+Punto bordado.
+Vélos y Coro¬
+nas de Novias.
+Alhajas falsas y de
+fantasia.
+Gran surtido dr Cremas y Colores, Pol-
+vos, etc.
+EDIASde seda fina a #3 pesos el par.
+Calcetines para ninos y senoritas. Ja-
+bon
+de tenir.
+El afamado Jabôn
+Woodburg para quitar las ampollas.
+Gran surtido de Articulos para Senoras, Seno¬
+ritas y ninos.
+Todo a prceios sin competencia
+cia se hallaba en aiguna fortaleza natu¬
+ral de las montànas de Cuba, pero nadie
+sabia en donde.
+No
+era. posible llegar
+a él por correo ni por telégrafo.
+Sin
+embargo el Présidente necesitaba obte-
+ner
+su coopération, y esto inmediata-
+mente.
+(',Qué hacer?
+Alguien dijo al Présidente:
+Si alguna
+persona puede dar con Garcia es Rowan.
+Se bused a Rowan y
+se le entrego una
+carta para llevar a Garcia.
+No
+tengo especial interés en referir
+aqui corno Rowan después de recibir la
+carta y guardarla en una boisa de cue-
+ro asegurada contra su corazon, desem-
+barca a los cuatro dias
+en la costa de
+Cuba, de noche atraviesa un territorio
+host.il para salir al extremo opuesto de
+la isla al cabo de très semanas, después
+de liaber cumplido su misiôn.
+El punto que quiero acentuar es este;
+Mc. Kinley diô a Rowan una carta para
+entregar a Garcia; Rowan reeibio la car¬
+ta y no preguntd: ^donde podré encon-
+trarlo?
+;Por Dios vivo!
+Hay un hombje cuya
+figura debe ser vaciada en bronceinmor-
+tal y su estatua colocada
+en todos los
+colegios del mundo. No es la instruccion
+del libro la que necesitan los jovenes, ni
+instruccion acerca de esto oaquello, sino
+un robùstecimiento de la columna verte¬
+bral que les permita ser leales a la con-
+flanza depositada en ellos, obrar râpida-
+mente, concentrar sus energias, ejecutar
+la obra.
+Llevar la carta a Garcia.
+El general Garcia no existe ya.
+Pero haymuchosotros Garcias. Quien
+se proponga sacar avante una einpresa
+en que necesite la colaboracidn de mu-
+chos, no puede menos de quedar estupe-
+facto ante la imbecilidad del comun de
+los hombres, su incapacidad
+o
+su falta
+de voluntad para concentrar la atencion
+en un asunto y ejecutarlo.
+La regia general parece ser: colaborar
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 137.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

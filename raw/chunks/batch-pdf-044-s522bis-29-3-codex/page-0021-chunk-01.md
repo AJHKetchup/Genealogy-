@@ -1,0 +1,442 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0021-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+# Page 21
+
+## Page Metadata
+
+- Source page: 21
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0021.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+determination, he undoubtedly fail¬
+ed
+to
+prevent
+implanting
+into
+the
+minds of the population, the princi¬
+ples which engendered the movement
+of September 4th.
+For the first time
+in
+the history of Cuba
+was foreign
+interference compelled to unmask it¬
+self and appear in its true light be¬
+fore the Cuban people.
+The historical
+mission of Dr. RAMON GRAU S/AN
+MARTIN’S Government
+was that of
+enunciating this problem in its prop¬
+er terms.
+This has not consisted—nor
+could it consist—in
+a government by
+a tropical tyrant placed at the service
+of foreign banks. The great tyrant of
+yesterday, to-day and tomorrow—the
+iron
+shackle which confines the
+Cu¬
+ban people to eternal economic servi¬
+tude—is the powerful foreign inter-"
+ests which have converted this
+coun¬
+try into a mere factory.
+The perpe¬
+tual obstacle to
+our economic libera¬
+tion is foreign intermeddling in our
+domestic affairs; in North-American
+interference
+which
+invariably
+has
+been enforced in benefit of the United
+States.
+And the most handy instru¬
+ment for the continuance of this in-
+miscuation
+is
+the
+subserviency
+of
+those Cuban politicians who have al¬
+ways lent themselves as actors in the
+farce of foreign intervention.
+To no
+one is it unknown that Cuba is not
+politically independent, and the crea¬
+tion of the desire
+on the part of the
+Cuban
+nation
+to
+obtain,
+wifnouT
+limitations,
+the
+political
+and
+eco¬
+nomic independence which it
+seeks,
+has been the most remarkable achieve¬
+ment
+and the
+one
+of greatest
+tran¬
+scendence of the Government presid¬
+ed over bv Dr. RAMON GRAU SAN
+MARTIN.
+The coming into being of the Cu¬
+ban Revolutionary Party had for its
+foremost
+object
+the
+directing
+into
+proper channels and
+the mobilizing
+and organizing of the
+masses of our
+countrymen,
+who,
+convinced
+that
+change was necessary, ivere automat¬
+ically impelled
+to
+move along
+these
+lines.
+The Party’s fundamental
+ob¬
+jects are the following:
+1)
+Establishing
+the
+supremacy
+of Civil Authority for the
+government of the people.
+2)
+Utilizing that authority for
+obtaining the economic liber¬
+ation
+of Cuba, through
+the
+application of. political,
+so¬
+cial
+and
+economic, measures
+which,
+will
+constitute
+the
+foundations of our program.
+For the attainment of these objects,
+the executive of the Cuban Revolu¬
+tionary Party have found
+necessary
+the organization of
+a
+new
+political
+force.
+This belief is based upon the
+firm conviction that the various poli¬
+tical
+sectors
+and
+their
+leaders
+who
+now enjoy the usufruct of power, are
+absolutely incapable of accomplishing
+the objects which the nation strives to
+achieve.
+And this conviction
+is not
+founded upon
+any presumptuous or
+flippant appreciation of our own mer¬
+its, but upon the unquestionable real-
+' ity of incompetence existing in the
+older politicians and their antiquated
+tendencies. Among those now in pow¬
+er
+we
+find
+the majority
+to consist
+merely of continuers of the political
+tenets of the past, guided by one or
+another of the old time leaders.
+Such
+politics has always been characterized
+by its hollowness and meanness.
+Its
+highest aim has been the misappro¬
+priation and dilapidation of the na¬
+tional Treasury.
+This
+has provided
+cause for
+the
+never ending foreign
+interference and continuous chain of
+blunders which eventually paved the
+way for Machado, and which to-day
+is concealed under the pompous titles
+of
+“Accion
+Republicana”
+(Repub¬
+lican Action),. “Conjunto Revolticio-
+nario”,
+etc.,
+etc.
+Of these
+not
+one
+possesses sufficient faith in the
+cap¬
+acity of the Cuban people to wield its
+own destiny. All in the hour of dan¬
+ger and crisis have turned their im¬
+ploring eyes to Washington.
+To most
+of them pertains the immense respon¬
+sibility for the deification of Macha¬
+do.
+Some, like Menocal, were whole¬
+hearted
+auxiliaries
+of
+the
+dictator¬
+ship.
+The actual President of the Re¬
+public
+was
+for
+years
+a
+prominent
+member of the sector which he then
+called
+the
+“Great
+Liberal
+Party”.
+This sector .took part in the electoral
+campaign of 1920 and condensed its
+program
+to
+conform
+to
+the
+well-
+known popular saying: “Tiburôn
+se
+bana pero salpica. ” (The shark bathes,
+but splashes), meaning:
+The Presi¬
+dent grabs, but also permits grabbing.
+In certain memorable national events,
+General
+Machado
+occupies
+the first
+place, and Menocal by his own right,
+the second.
+The ABG,
+once
+a flower
+of the revolution,
+was plucked from
+the twig by the skilful hands of Mr.
+Sumner Wells.
+As
+a revolutionary
+organization, it has been disarticulat¬
+ed by its leaders and deviated from
+its original objective.
+In the atmos¬
+phere of the Embassies, it has acquir¬
+ed the
+art
+of overcoming
+program¬
+matic scruples,
+and by dint of
+ob¬
+taining
+victories
+over
+its
+own
+doc¬
+trine, has succeeded in converting the
+organization into the choice flower of
+foreign intervention, and making of
+it the guarantors of the lives of ma-
+chadist assassins and the shock troops
+of the Chase National Bank. At the
+same time, it has not failed to in¬
+tensify its original clamor for enlist¬
+ment into its ranks, of men of ‘ ‘ clean
+hands”.
+The call has been made
+so
+ample and tolerant, that.any macha-
+dist fanatic whatever
+may purchase
+of a peddler for 20 ets. a dozen razor
+blades,
+and
+as
+a “tip”
+receive
+an
+emblem of the ABC, which when pin¬
+ned
+to the lapel of the coat, uplifts
+the wearer to the standing of a com¬
+rade of those who, with liberal sacri¬
+fice,
+gave prestige and honor to the
+“Green Insignia” of the once splen¬
+did revolutionary organization.
+We have thought also, that for the
+sake of harmony in the course of the
+Revolution, the Cuban Revolutionary
+Party should appear before the coun¬
+try as the continuer of the work be¬
+gun under the Government of Doctor
+RAMON GRAU SAN MARTIN, but
+which was truncated by the action of
+the foreign intervention.
+To this ef¬
+fect
+we pledge to the, Cuban people
+our word, that the action of the CU¬
+BAN
+REVOLUTIONARY
+PARTY
+will
+be inspired in the
+same ideals
+which originated the decrees enacted
+by thé Grau San Martin Government,
+and which have become so deeply and-
+firmly
+rooted
+in
+the
+minds
+of
+our
+countrymen.
+But should these
+reasons be insuf¬
+ficient
+to justify the constitution of
+our
+Party,
+the
+spectacle
+which
+on
+every side we contemplate makes the
+mobilization of Cuba around
+a fixed
+national principle
+a problem which
+urgently must he solved.
+The
+con¬
+centration
+GOVERNMENT
+off Spring
+of
+foreign
+interference—following
+immediately
+upon its ascendancy to
+power, commenced the promotion of
+class politics of the most idiotic char¬
+acter. While more apparently this ef¬
+fort of the fovernment has been
+exer¬
+cised for the benefit of foreign inter¬
+ests, to the detriment of the poorest
+classes of Cuban citizens, the more in¬
+tensely hateful has il
+become.
+Bol¬
+stered by the good offices of “dollar
+diplomacy”, the government chooses
+the method of repression and violence
+for the crushing of every movement
+of the laboring classes.
+Against such
+methods,
+and availing themselves of
+the disappointment
+of
+the working
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 21.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

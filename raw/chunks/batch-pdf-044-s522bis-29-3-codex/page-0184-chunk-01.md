@@ -1,0 +1,358 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0184-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 184
+page_end: 184
+part: 1
+---
+
+# Page 184
+
+## Page Metadata
+
+- Source page: 184
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0184.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1792
+CAMARA DE DIPUTADOS
+pesos
+y
+arbitrai'
+losi
+reeursos
+para
+pagar
+el
+monto creeido
+que neeesariamente tendra
+que
+irrogar esa escala y eh salario minimo.
+La comisiôn lia aconsejado para el corriente
+aüo la reproducciôn de las leyes impositivas. La
+observaeiôn
+hecha
+por
+el
+senor diputado
+por
+Santa Fe, doctor Ferrarotti,
+es perfeetamente
+atinada y cierta.
+No
+se puede elevar arbitra-
+riamente
+el salario mînimo y los sueldos infe-
+riores
+a 300
+pesos, sin aumentar, también, los
+reeursos necesarios para atender
+esas erogaeio-
+nes. De modo que la comisiôn tendra que estu-
+diar detenidamente todos los aspectos del
+pro-
+blema ÿ buscar los reeursos para solventar
+ese
+apreciable aumento en los gastos, conexionando,
+como he dicho, el salario minimo con el aumen¬
+to de los sueldos inferiores, porque no séria po-
+sible
+que un jornalero que dependa de ciertos
+empleados de
+una jerarquia
+mas
+o
+menos im¬
+portante, pereiba una asignaeiôn mayor que és-
+tos. Va
+a suceder,
+por ejemplo,
+en la adminis-
+traeiôn de eorreos, que el cartero percibirâ con
+el salario minimo de 150
+o 160
+pesos, acaso el
+mismo sueldo que el jefe de la oficina en algu-
+nas
+localidades
+apartadas del pais,
+y resulta-
+rian, asi,
+verdaderos absurdos
+y anomalias si
+la
+câmara improvisadamente,
+con
+un
+eriterio
+arbitrario,
+aceptara
+los
+aumentos
+que
+se ban
+propuesto, discrecionalmente.
+Àceptemos,
+entonces,
+esta soluciôn
+que
+es
+simplemente
+de
+em.ergencia;
+admitamos
+este
+compas
+de
+espera
+que
+propone
+la comisiôn.
+Creo que el anhelo general de los senores dipu-
+tados se verâ desde luego satisfecho con la ele-
+vaeiôn del sala f to niininio de 100 a 130 pesos,
+por ahora, y para el ano proximo la comisiôn
+traerâ la soluciôn
+en el otro aspecto importan¬
+te del problema: el aumento de los sueldos in¬
+feriores de la administraciôn.
+Son
+estas
+razones principales
+que
+me
+ban
+decidido
+a accptar la soluciôn propuesta por
+la comisiôn
+de presupuesto y que creo que la
+câmara prudente
+e mteligentemente debe acep-
+tar
+en
+este momento.
+Sr. Barrerçi Nicholson.
+— Pido la palabra.
+Deseo llamar simplemente la atenciôn de la
+câmara y en especial de ios partidarios del
+sa¬
+lario
+minimo,
+que
+son casi todos
+los
+senores
+diputados, que
+con las diversas mociones pre-
+sentadas
+no
+vamos
+a
+obtener nfngûn salario
+min hno, porque las opiniones estân muy divi-
+didas. Entonces
+es preferible quedarnos con el
+salario de 130 pesos, que es una cosa segura y
+no correr el albur de
+no tener salario minimo.
+Sr. Anastasi.
+— Pido la palabra.
+Voy a conteStar la pregunta del senor dipu¬
+tado por Santa Fe, qtlien me pregnntaba si el
+■déficit no me detenia.
+Le eontesto que tampoeo me detuvo para vo-
+tar ebras pûblicas
+en las provincias,
+acompa-
+nando
+con mi
+voto
+a las solieitaciones de los
+aefiores diputados^
+Septiembre 21i
+I
+Sr. Bermûdez,
+— Se trata
+de leyes autori-
+tativas.
+*
+Sr. Gonzalez.
+— La mayoria de las leyes dé
+obras autorizadas en el presupuesto no se eum-
+plen por el ejecutivo.
+Sr. Anastasi.
+— No la votâmes para que no
+se cumplan.
+—Varios
+senores
+diputados
+hablan
+simul-
+tâneamente.
+Sr. Rodeyro. — Pido la palabra.
+Se ba diebo
+bace un momento
+que müchos
+de
+los diputados que
+con entusiasmo ban pe-
+dido el salario minimo
+no ban traido los pro-
+yectos
+que
+entregaran los
+reeursos
+para
+pa-
+garlos.
+Quiero recordar
+a la câmara
+que el
+ano pasado présenté un proyecto de impuestc
+a las operaciones del mercado
+a término, que
+hubiera rendido
+mâs
+de
+8 millones de
+pesos
+annales, impuesto
+a
+una instituciôn que pue-
+do calificar sin reatos dé
+un
+gran garito.
+La câmara tampoeo ha aprobado el impues¬
+to
+a la renta ni la reforma al régimen tribu-
+tario y de
+eso
+no puede cnlparse
+a los dipu¬
+tados
+que hayan
+presentado
+proyectos
+como
+el
+que
+habla,
+cuando la
+comisiôn
+no los ba
+despachado.
+Sr.
+Gonzalez.
+—
+Pero
+las modifieaciones
+a
+las leyes impositivas las
+va
+a traer la
+comi¬
+siôn
+en
+su proyecto para el ano proximo.
+Sr. Ferrarotti.
+— Yo
+no hacia ningûn ear-
+go al senor diputado que proponia el aumento.
+Présenté
+solo
+la
+situâciôn
+de la
+câmara
+que
+sanciona
+determinados
+reeursos
+y
+luego
+se
+exeede coneientsmente
+en los gastos.
+Sr. Anastasi.
+— Es
+un deber, desde
+que el
+estado retribuye miserablemente
+a muehos de
+los empleados.
+Sr. Ferrarotti.
+— No
+es deber de la câmara
+sancionar
+presupuesto
+en
+forma
+crônica
+y
+permanente con déficit.
+Sr. Anastasi. — El caso de un jefe de eorreos
+del interior que gana 160 pesos es desdoroso.
+Varios senores diputados. — Que se cierre e]
+debate.
+—So
+vota
+y
+résulta
+afirmativa-
+Sr. Présidente (Govenecbe). — Se votarâ éi
+artieulo 6o. del despaebo de la comisiôn.
+Résulta negativa de
+41
+votos.
+Varios senores diputados.
+— Que se rectifi-
+que la votaciôn.
+—Se rectifies.
+Sr. Prosecretario (Nûnez)
+— Résulta empa-
+tadatada de 44 votos : votan 88 senores diputa¬
+dos.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 184.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

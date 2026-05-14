@@ -1,0 +1,209 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0223-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 223
+page_end: 223
+part: 1
+---
+
+# Page 223
+
+## Page Metadata
+
+- Source page: 223
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0223.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+®'0
+ci
+LA NACION
+— Miércoles 8 tie octubre de 1930
+El delegado argentino Dr. Cantilo
+vol vio a ocupar su puesto en la
+Oficina Internacional del Trabajo
+(Especial de La Nacion)
+BRUSELAS,
+7.
+— Como un acto de homenaje a Bélgica en la
+celebration
+del centenario de
+su independeneia, el consejo de admi-
+nistraciôn
+de la Oficina Internacional del Trabajo ha venido a cele-
+brar
+en
+Bruselas
+una
+de
+sus reuniones periôdicas. Por ese motivo
+y por el hecho de haberse reincorporado la Argentina al puesto para
+el cual fué elegida en la Conferencia de 1928, el acto de apertura y el
+comienzo de la primera sesiôn revistieron un carâcter mâs solemne
+que de costumbre.
+Al acto de apertura asistieron, ademâs de los miembros del ci-
+tado consejo y del director de la Oficina Internacional del Trabajo,
+el primer ministro belga y sus colegas de Relaciones Exteriores y
+Trabajo. Terminada la que
+en este caso puede llamarse ceremonia
+de la inauguration, las personalidades belgas abandonaron el recinto
+del Senado.
+Entretanto, varios delegados rodearon al Dr. José Maria Cantilo,
+cuya venida, tras la prolongada ausencia, no dejô de sorprender a
+muchos, entre ellos a las personas llegadas hoy directamente de sus
+respectivos paises a Bruselas. Tras un breve cuarto intermedio, el
+présidente Fontaine, que fué uno de los delegados que se acercaron
+a saludar al Dr. Cantilo, abriô la primera sesiôn, propiamente dieha,
+del quincuagésimo consejo del trabajo. M. Fontaine, asi que el secre-
+tario hubo terminado de pasar lista, dijo lo siguiente:
+‘‘Es
+con
+una particular satisfacciôn que al Uamado del nombre
+Cantilo he oido contestar "présente”. La colaboraciôn de la América
+del Sur, y muy especialmente de la Argentina, nos son indispensa¬
+bles para el equilibrio de la instituciôn. Nada podia sernos hoy mâs
+grato que la vuelta del Dr. Cantilo en representaciôn de aquel gran
+pais.”
+El discurso de M. Fontaine fué muy aplaudido. Pidiô enfonces la
+palabra el représentante de la Argentina. Al ponerse de pie el minis¬
+tro argentino en Berna, el consejo, unanime, y las galerias, volvieron
+a aplaudir largamente. Compenetrado, sin duda, de la signification |
+que cobrarian sus
+palabras, debido a la circunstancia de ser las pri-
+J
+meras que, después de mâs de dos anos de aislamiento, se pronuncian
+oficialmente
+en nombre del gobierno argentino en un organismo in-V
+ternacional, el Dr. Cantilo se expresô con contenida emociôn de esta**
+manera:
+ce J
+“Senor présidente: Deseo agradeceros las palabras que acabâis^j]
+de pronunciar a propôsito de la representaciôn argentina. Ellas soil • f
+testirnonio de la simpatia que el consejo de administraciôn de la Ofi-^9 §
+cina Internacional del Trabajo siente por mi pais y de la importancia
+que le da a nuestra colaboraciôn. Puedo asegurar a mis colegas que
+la Repüblica Argentina, de cerca o de lejos, présente o ausente en
+la3
+sesiones del consejo
+o
+en las conferencias, no ha dejado jamâs
+~
+de interesarse en la obra de la Oficina Internacional del Trabajo, enfc,:
+tnnto que ella constituye un esfuerzo generoso en favor del acerca-*
+miento de los pueblos y de armonia social en favor de la justicia yl^
+de la paz. Mi pais, por una larga tradiciôn, si se mira desde lo alto-
+y con la necesaria perspectiva, contribuyô siempre a la obra inter'
+national y aportô siempre su parte de colaboraciôn a todo empeno
+internacional
+que tuviera por objeto el progreso de la humanidad.”
+En medio
+de un sostenido aplauso que acogiô estas palabras, el
+Q
+Conde de Altea, delegado gubernamental de Espana, se acercô a fe-
+licitar al delegado gubernamental argentino. Acto seguido el delegado
+obrero francés, M. Jouhaux, se asociô al homenaje unânime y espon-
+tâneo que acababa de tributarse a la Argentina, haciendo el siguien-,
+te voto:
+“Al asociarme
+a las palabras pronunciadas por
+e!
+présidente,
+tengo interés en recordar que el grupo obrero de la ultima conferen¬
+cia
+del trabajo resolviô por unanimidad dirigir un telegrama a las
+organizaciones obreras de la Repüblica Argentina
+para expresarles
+su sentimiento por la ausencia de esa nacion en la Conferencia de.
+Trabajo. Nos sentimos felices al esperar, que la reanudaciôn de la
+colaboraciôn del gobierno argentino en el consejo de administraciôn
+sea nuncio del envio de la representaciôn de los camaradas obreros
+de la Argentina a la prôxima conferencia anual.”
+El grupo obrero subrayô con sus aplausos lo manifestado por
+M.
+Jouhaux.
+Se pasô a continuaciôn a examinar el orden del dia,
+que comprende, entre otras cuestiones, las relacionadas con los traba-
+jos maritimos, duraciôn de la jornada de trabajo en las minas, orga-‘
+nizaciôn de varias conferencias técnicas, etc.
+Acerca de la reincorporaciôn de la Argentina, la presidencia de;
+consejo de administration facilitô a la prensa el siguiente comuni
+cado,
+que
+es interesante transcribir in extenso porque resume co:
+toda claridad cuâl es y ha sido la situaciôn de la Argentina en lav
+Oficina Internacional del Trabajo:
+“De hecho, la Repüblica Argentina no cesô nunca de ser miem-
+bro de la organizaciôn del trabajo..En 1928. como en anos anteriores
+hubo
+en las conferencias de trafrajo una delegaciôn compléta argen
+tina, y en ese ano de 1928 fué el primer delegado argentino el seno:
+Saavedra Lamas, quien presidiô la conferencia. La Repüblica Argen-
+tina fué
+reelegida miembro del consejo de
+administraciôn
+por la»V
+misma conferencia de 1928, puesto para el cual habia sido ya votada v
+en 1922 y en 1925 como représentante también, en cierto modo, de
+toda la América latina. Solamente después de la elecciôn del senor
+Yrigoyen a la Presidencia la Repüblica Argentina dejô de concurrir
+a las reuniones del consejo de administraciôn y a las conferencias»'
+anuales de trabajo. Se deplorô mucho la ausencia de la Repüblica Ar*
+gentina en la conferencia ultima, a la cual, por intermedio del dele-*
+gado obrero chileno, los obreros argentinos enviaron un mensaje em«
+el que expresaron su gran simpatia por la obra de la oiganizaciôn
+internacional y su deseo de seguir colaborando en ella.
+“Ffir fit-” r-”*"
+1n
+■^«^-Tntérnaoltinaï del Trabajo, consldq,-
+rando siemnre a la, Repüblica Argentina como mienibro' cîe la nrgaan
+JSpîST sfiiroio enviando al gobierno argentïno tôtiSs ÏÔ'^WOîJftâtb'rias
+LxxtL’. La'ôScrnâ" presto, adèmàs. s in réservas su com-m-Ro
+r> îa’Co-
+misiôn
+de Legislaciôn Social argentina para la elaboraciôn de un
+nrovecto de côdigo de trabajo, que esta ûltima tenia el encargo de
+préparai- Los lazos hoy restablecidos no fueron nunca rotos.”
+ft
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 223.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

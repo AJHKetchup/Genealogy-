@@ -1,0 +1,508 @@
+{
+  "created": "2026-05-14",
+  "purpose": "Page-level post-conversion quality control queue.",
+  "family_context_terms": [
+    "Dario",
+    "Pulgar",
+    "Smith",
+    "card",
+    "confirmed",
+    "dario pulgar smith",
+    "photos",
+    "portrait",
+    "reference",
+    "tourist"
+  ],
+  "sources": [
+    {
+      "converted_file": "raw/converted/batch-img-002-portrait-dario-jose-pulgar-arriagada.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-002-portrait-dario-jose-pulgar-arriagada-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-002-portrait-dario-jose-pulgar-arriagada-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-002-portrait-dario-jose-pulgar-arriagada-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-002-portrait-dario-jose-pulgar-arriagada-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-003-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-tab-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-004-v-p-hist-03583-11a.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-004-v-p-hist-03583-11a-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-004-v-p-hist-03583-11a-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-004-v-p-hist-03583-11a-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-004-v-p-hist-03583-11a-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-005-v-p-hist-01821-16.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-005-v-p-hist-01821-16-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-005-v-p-hist-01821-16-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-005-v-p-hist-01821-16-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-005-v-p-hist-01821-16-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-007-v-p-hist-01820-01-1.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-007-v-p-hist-01820-01-1-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-007-v-p-hist-01820-01-1-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-007-v-p-hist-01820-01-1-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-007-v-p-hist-01820-01-1-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-008-v-p-hist-01820-01.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-008-v-p-hist-01820-01-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-008-v-p-hist-01820-01-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-008-v-p-hist-01820-01-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-008-v-p-hist-01820-01-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-009-v-p-hist-03583-12a.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-009-v-p-hist-03583-12a-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-009-v-p-hist-03583-12a-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-009-v-p-hist-03583-12a-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-009-v-p-hist-03583-12a-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-013-portrait-dario-jose-pulgar-arriagada-2.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-013-portrait-dario-jose-pulgar-arriagada-2-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-013-portrait-dario-jose-pulgar-arriagada-2-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-013-portrait-dario-jose-pulgar-arriagada-2-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-013-portrait-dario-jose-pulgar-arriagada-2-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-014-v-p-hist-03583-07a.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-014-v-p-hist-03583-07a-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-014-v-p-hist-03583-07a-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-014-v-p-hist-03583-07a-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-014-v-p-hist-03583-07a-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 2,
+      "triage": "research/_conversion-review/triage/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-016-passenger-list-royal-mail-lines-limited-august-7-1953-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1.codex.md",
+      "chunk_manifest": "raw/chunks/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 1,
+      "triage": "research/_conversion-review/triage/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-021-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-022-cv-of-dario-arturo-pulgar.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-022-cv-of-dario-arturo-pulgar-codex/manifest.json",
+      "page_count": 9,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-pdf-022-cv-of-dario-arturo-pulgar-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-022-cv-of-dario-arturo-pulgar-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-022-cv-of-dario-arturo-pulgar-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-023-habitat-revisited-jim-carney-2006.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-023-habitat-revisited-jim-carney-2006-codex/manifest.json",
+      "page_count": 11,
+      "queued_pages": 2,
+      "suspected_corrections": 2,
+      "triage": "research/_conversion-review/triage/batch-pdf-023-habitat-revisited-jim-carney-2006-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-023-habitat-revisited-jim-carney-2006-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-023-habitat-revisited-jim-carney-2006-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-025-acicr-b-cr-177-001-002.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-025-acicr-b-cr-177-001-002-codex/manifest.json",
+      "page_count": 12,
+      "queued_pages": 3,
+      "suspected_corrections": 5,
+      "triage": "research/_conversion-review/triage/batch-pdf-025-acicr-b-cr-177-001-002-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-025-acicr-b-cr-177-001-002-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-025-acicr-b-cr-177-001-002-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-027-introduction-estates-general-of-third-ci.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-027-introduction-estates-general-of-third-ci-codex/manifest.json",
+      "page_count": 7,
+      "queued_pages": 1,
+      "suspected_corrections": 2,
+      "triage": "research/_conversion-review/triage/batch-pdf-027-introduction-estates-general-of-third-ci-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-027-introduction-estates-general-of-third-ci-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-027-introduction-estates-general-of-third-ci-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-030-r3578-50-7801-5569.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-030-r3578-50-7801-5569-codex/manifest.json",
+      "page_count": 33,
+      "queued_pages": 30,
+      "suspected_corrections": 14,
+      "triage": "research/_conversion-review/triage/batch-pdf-030-r3578-50-7801-5569-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-030-r3578-50-7801-5569-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-030-r3578-50-7801-5569-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-031-r4302-9f-13323-11332.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-031-r4302-9f-13323-11332-codex/manifest.json",
+      "page_count": 58,
+      "queued_pages": 58,
+      "suspected_corrections": 14,
+      "triage": "research/_conversion-review/triage/batch-pdf-031-r4302-9f-13323-11332-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-031-r4302-9f-13323-11332-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-031-r4302-9f-13323-11332-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-033-s179-34-6.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-033-s179-34-6-codex/manifest.json",
+      "page_count": 356,
+      "queued_pages": 356,
+      "suspected_corrections": 42,
+      "triage": "research/_conversion-review/triage/batch-pdf-033-s179-34-6-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-033-s179-34-6-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-033-s179-34-6-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-034-r3577-50-5569-5569-jacket1.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-034-r3577-50-5569-5569-jacket1-codex/manifest.json",
+      "page_count": 287,
+      "queued_pages": 287,
+      "suspected_corrections": 38,
+      "triage": "research/_conversion-review/triage/batch-pdf-034-r3577-50-5569-5569-jacket1-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-034-r3577-50-5569-5569-jacket1-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-034-r3577-50-5569-5569-jacket1-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-035-r4946-12-33387-8070.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-035-r4946-12-33387-8070-codex/manifest.json",
+      "page_count": 251,
+      "queued_pages": 251,
+      "suspected_corrections": 135,
+      "triage": "research/_conversion-review/triage/batch-pdf-035-r4946-12-33387-8070-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-035-r4946-12-33387-8070-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-035-r4946-12-33387-8070-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-036-r4749-11c-17499-5398.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-036-r4749-11c-17499-5398-codex/manifest.json",
+      "page_count": 494,
+      "queued_pages": 494,
+      "suspected_corrections": 112,
+      "triage": "research/_conversion-review/triage/batch-pdf-036-r4749-11c-17499-5398-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-036-r4749-11c-17499-5398-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-036-r4749-11c-17499-5398-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-037-r3578-50-5569-5569-jacket4.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-037-r3578-50-5569-5569-jacket4-codex/manifest.json",
+      "page_count": 481,
+      "queued_pages": 481,
+      "suspected_corrections": 78,
+      "triage": "research/_conversion-review/triage/batch-pdf-037-r3578-50-5569-5569-jacket4-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-037-r3578-50-5569-5569-jacket4-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-037-r3578-50-5569-5569-jacket4-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-038-r3577-50-5569-5569-jacket3-codex/manifest.json",
+      "page_count": 483,
+      "queued_pages": 483,
+      "suspected_corrections": 283,
+      "triage": "research/_conversion-review/triage/batch-pdf-038-r3577-50-5569-5569-jacket3-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-038-r3577-50-5569-5569-jacket3-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-038-r3577-50-5569-5569-jacket3-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-039-r3578-50-5569-5569-jacket5.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-039-r3578-50-5569-5569-jacket5-codex/manifest.json",
+      "page_count": 761,
+      "queued_pages": 761,
+      "suspected_corrections": 62,
+      "triage": "research/_conversion-review/triage/batch-pdf-039-r3578-50-5569-5569-jacket5-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-039-r3578-50-5569-5569-jacket5-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-039-r3578-50-5569-5569-jacket5-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-040-s519bis-26-4.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-040-s519bis-26-4-codex/manifest.json",
+      "page_count": 920,
+      "queued_pages": 920,
+      "suspected_corrections": 299,
+      "triage": "research/_conversion-review/triage/batch-pdf-040-s519bis-26-4-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-040-s519bis-26-4-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-040-s519bis-26-4-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-041-r3016-11a-2905-950-codex/manifest.json",
+      "page_count": 940,
+      "queued_pages": 940,
+      "suspected_corrections": 278,
+      "triage": "research/_conversion-review/triage/batch-pdf-041-r3016-11a-2905-950-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-041-r3016-11a-2905-950-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-041-r3016-11a-2905-950-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5-codex/manifest.json",
+      "page_count": 5,
+      "queued_pages": 1,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-042-c-mara-de-senadores-de-la-naci-n-1936-pages-1-5-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-043-s495-2-2.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-043-s495-2-2-codex/manifest.json",
+      "page_count": 482,
+      "queued_pages": 482,
+      "suspected_corrections": 1057,
+      "triage": "research/_conversion-review/triage/batch-pdf-043-s495-2-2-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-043-s495-2-2-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-043-s495-2-2-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/batch-pdf-044-s522bis-29-3.codex.md",
+      "chunk_manifest": "raw/chunks/batch-pdf-044-s522bis-29-3-codex/manifest.json",
+      "page_count": 1473,
+      "queued_pages": 1473,
+      "suspected_corrections": 860,
+      "triage": "research/_conversion-review/triage/batch-pdf-044-s522bis-29-3-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/batch-pdf-044-s522bis-29-3-codex.md",
+      "corrections": "research/_conversion-review/corrections/batch-pdf-044-s522bis-29-3-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/cj-elaguila-sample-el-aguila-nombre-grande-sample.codex.md",
+      "chunk_manifest": "raw/chunks/cj-elaguila-sample-el-aguila-nombre-grande-sample-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 1,
+      "triage": "research/_conversion-review/triage/cj-elaguila-sample-el-aguila-nombre-grande-sample-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/cj-elaguila-sample-el-aguila-nombre-grande-sample-codex.md",
+      "corrections": "research/_conversion-review/corrections/cj-elaguila-sample-el-aguila-nombre-grande-sample-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/poc-docx-proof-docx.codex.md",
+      "chunk_manifest": "raw/chunks/poc-docx-proof-docx-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 1,
+      "triage": "research/_conversion-review/triage/poc-docx-proof-docx-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/poc-docx-proof-docx-codex.md",
+      "corrections": "research/_conversion-review/corrections/poc-docx-proof-docx-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/poc-image-proof-standalone-image.codex.md",
+      "chunk_manifest": "raw/chunks/poc-image-proof-standalone-image-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/poc-image-proof-standalone-image-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/poc-image-proof-standalone-image-codex.md",
+      "corrections": "research/_conversion-review/corrections/poc-image-proof-standalone-image-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/poc-scanpdf-proof-scanned-pdf.codex.md",
+      "chunk_manifest": "raw/chunks/poc-scanpdf-proof-scanned-pdf-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/poc-scanpdf-proof-scanned-pdf-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/poc-scanpdf-proof-scanned-pdf-codex.md",
+      "corrections": "research/_conversion-review/corrections/poc-scanpdf-proof-scanned-pdf-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/poc-textpdf-proof-text-pdf.codex.md",
+      "chunk_manifest": "raw/chunks/poc-textpdf-proof-text-pdf-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 1,
+      "triage": "research/_conversion-review/triage/poc-textpdf-proof-text-pdf-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/poc-textpdf-proof-text-pdf-codex.md",
+      "corrections": "research/_conversion-review/corrections/poc-textpdf-proof-text-pdf-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-aud-002-dario-arturo-pulgar-interview-11-24-202.codex.md",
+      "chunk_manifest": "raw/chunks/retry-aud-002-dario-arturo-pulgar-interview-11-24-202-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 0,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/retry-aud-002-dario-arturo-pulgar-interview-11-24-202-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-aud-002-dario-arturo-pulgar-interview-11-24-202-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-aud-002-dario-arturo-pulgar-interview-11-24-202-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-ima-006-la-haye-b-timent-des-salles-comtales-o.codex.md",
+      "chunk_manifest": "raw/chunks/retry-ima-006-la-haye-b-timent-des-salles-comtales-o-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/retry-ima-006-la-haye-b-timent-des-salles-comtales-o-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-ima-006-la-haye-b-timent-des-salles-comtales-o-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-ima-006-la-haye-b-timent-des-salles-comtales-o-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-ima-007-la-haye-xiii-me-conf-rence-internationa.codex.md",
+      "chunk_manifest": "raw/chunks/retry-ima-007-la-haye-xiii-me-conf-rence-internationa-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/retry-ima-007-la-haye-xiii-me-conf-rence-internationa-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-ima-007-la-haye-xiii-me-conf-rence-internationa-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-ima-007-la-haye-xiii-me-conf-rence-internationa-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-ima-009-passenger-and-crew-lists-the-national-a.codex.md",
+      "chunk_manifest": "raw/chunks/retry-ima-009-passenger-and-crew-lists-the-national-a-codex/manifest.json",
+      "page_count": 1,
+      "queued_pages": 1,
+      "suspected_corrections": 0,
+      "triage": "research/_conversion-review/triage/retry-ima-009-passenger-and-crew-lists-the-national-a-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-ima-009-passenger-and-crew-lists-the-national-a-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-ima-009-passenger-and-crew-lists-the-national-a-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-pdf-001-anales-de-la-universidad-de-chile-sessi.codex.md",
+      "chunk_manifest": "raw/chunks/retry-pdf-001-anales-de-la-universidad-de-chile-sessi-codex/manifest.json",
+      "page_count": 1194,
+      "queued_pages": 1194,
+      "suspected_corrections": 262,
+      "triage": "research/_conversion-review/triage/retry-pdf-001-anales-de-la-universidad-de-chile-sessi-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-pdf-001-anales-de-la-universidad-de-chile-sessi-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-pdf-001-anales-de-la-universidad-de-chile-sessi-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-pdf-003-geneva-convention-of-july-27-1929-amel.codex.md",
+      "chunk_manifest": "raw/chunks/retry-pdf-003-geneva-convention-of-july-27-1929-amel-codex/manifest.json",
+      "page_count": 18,
+      "queued_pages": 18,
+      "suspected_corrections": 2,
+      "triage": "research/_conversion-review/triage/retry-pdf-003-geneva-convention-of-july-27-1929-amel-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-pdf-003-geneva-convention-of-july-27-1929-amel-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-pdf-003-geneva-convention-of-july-27-1929-amel-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas.codex.md",
+      "chunk_manifest": "raw/chunks/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas-codex/manifest.json",
+      "page_count": 115,
+      "queued_pages": 115,
+      "suspected_corrections": 49,
+      "triage": "research/_conversion-review/triage/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-pdf-004-gu-a-m-dica-nacional-profesiones-m-dicas-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-pdf-005-historia-del-hospital-cl-nico-regional-d.codex.md",
+      "chunk_manifest": "raw/chunks/retry-pdf-005-historia-del-hospital-cl-nico-regional-d-codex/manifest.json",
+      "page_count": 127,
+      "queued_pages": 127,
+      "suspected_corrections": 54,
+      "triage": "research/_conversion-review/triage/retry-pdf-005-historia-del-hospital-cl-nico-regional-d-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-pdf-005-historia-del-hospital-cl-nico-regional-d-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-pdf-005-historia-del-hospital-cl-nico-regional-d-codex.md"
+    },
+    {
+      "converted_file": "raw/converted/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri.codex.md",
+      "chunk_manifest": "raw/chunks/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri-codex/manifest.json",
+      "page_count": 10,
+      "queued_pages": 10,
+      "suspected_corrections": 7,
+      "triage": "research/_conversion-review/triage/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri-codex.md",
+      "page_queue": "research/_conversion-review/page-queues/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri-codex.md",
+      "corrections": "research/_conversion-review/corrections/retry-pdf-008-osorio-h-toro-j-c-schorwer-k-ri-codex.md"
+    }
+  ]
+}

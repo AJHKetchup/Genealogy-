@@ -1,0 +1,142 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-493c1d71a59e-P0298-01
+source_converted: raw/converted/batch-pdf-037-r3578-50-5569-5569-jacket4.codex.md
+converted_sha256: 493c1d71a59e4a509e6719d3b7346f2b128ea6f327bf48df7f98e418e3898c07
+source: raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/source/R3578-50-5569-5569-Jacket4.pdf
+source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
+source_manifest: raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/manifest.json
+page_start: 298
+page_end: 298
+part: 1
+---
+
+# Page 298
+
+## Page Metadata
+
+- Source page: 298
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0298.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+et malades quelle que soit leur nationalite ; d’ailleurs l’article premier de la convention le
+dit expressement. II semble aussi que cette disposition indique l’existence d’une relation
+entre les soins a donner aux blesses et malades de l’ennemi et la retention de son personnel
+sanitaire, alors que chaque partie doit soigner les malades et blesses de son adversaire sans qu’il
+ait besoin de retenir du personnel dans ce but. La majorite de la Commission qui a ete chargee
+par la Xe Conference de la Croix-Rouge de la revision de la Convention de Geneve, a estime que
+parler nationalite, c’etait faire breche au principe fondamental du secours du aux blesses,
+quels qu’ils soient, sans aucune distinction quelconque (voir l’excellent rapport presente par
+M. Des Gouttes
+a la Xe Conference de la Croix-Rouge. Compte rendu de la dite Conference
+p. 197).
+En outre,
+une autre difficulte peut surgir en ce qui concerne le personnel des societes
+neutres tombe au pouvoir d’un des belligerants ; l’article 12 dispose que le personnel sanitaire
+doit etre de preference affecte aux soins des malades et des blesses de la meme nationalite
+que lui ; or le personnel d’une societe neutre ne represente aucune des nationalites des belli¬
+gerants; la partie qui le tient en son pouvoir peut pretendre que, ce cas n’etant pas envisage
+par la Convention, le personnel neutre doit continuer ses fonctions exclusivement envers ses
+propres malades et blesses.
+Nous preferons done supprimer 1’alinea 4 de l’article 12 et modifier l’alinea 3 de la maniere
+suivante
+:
+« Elies doivent £tre renvoyees le plus tot possible a l’autorite militaire dont elles relevent ».
+Article
+17.
+Nous notons ici les propositions presentees par les Etats-Unis d’Amdrique et la France
+en ce qui concerne les convois aeriens. Ces propositions touchent a la guerre aerienne et montrent
+qu’on sent partout le besoin de reglementer ces questions par une convention internationale.
+Pour atteindre ce but, il n’est rien de mieux que d’incorporer dans la convention que la Confe¬
+rence prepare les regies concernant son application a la guerre aerienne, comme nous l’avons
+suggere plus haut (voir page 8).
+Article
+19.
+Critique
+:
+L’Egypte a deja remarque qu’a l’exemple de la Convention de 1906 le projet s’est borne
+a parler de l’adoption de la croix rouge comme embleme a arborer sur les formations et etablis-
+sements sanitaires et
+a passe sous silence les autres emblemes distinctifs adoptes dans les
+pays non chretiens en remplacement de la croix rouge. Ces emblemes sont, en ce qui concerne
+l'Egypte et la Turquie, le croissant rouge, et en ce qui concerne la Perse, le lion et le soleil
+rouges. Lors de son adhesion a la Convention de 1906, l’Egypte s’etait reserve l’usage du crois¬
+sant comme signe distinctif. La Turquie et la Perse emploient ainsi leurs propres emblemes au
+lieu de la croix rouge.
+1
+Nous ne trouvons mieux pour representer l’idee courante dans ces
+deux pays sur l’embleme a employer, que de reproduire ici quelques mots prononces a ce sujet
+par leurs delegues au sein de la XIe Conference de la Croix-Rouge.
+Voici ce qu’a dit le delegue de la Turquie (M. Ahmed Ihsan Bey) :
+« Le Croissant-Rouge suit avec un vif interet tout le debat relatif a la modification de la
+« Convention
+de
+Geneve.
+En effet, chaque fois que le nom de la Croix-Rouge est prononce
+« ou inscrit quelque part, nous considerons que les mots « Croissant-Rouge » l’accompagnent.
+« En effet, le Croissant-Rouge, qui
+a flotte
+a cote du drapeau de la Croix-Rouge dans les
+« ambulances et autres lieux ou l’on
+a donne des soins et des secours aux blesses militaires
+« et
+aux victimes des calamites de la guerre, est, en Turquie et dans les pays musulmans,
+« l’embleme du meme ideal que celui de la Croix-Rouge (voir compte rendu de la XIe Conference
+« de la Croix- Rouge p. 143) »
+Quant a la Perse, voici comment son representant, le prince Zoka-ed-Dovleh s’est exprime :
+« Le Lion et le Soleil Rouges a commence son activite d’une maniere rigoureuse et enthou-
+« siaste. II faut croire a son essor et a son avenir prospere. Allie au faisceau international du
+« Croissant et de la Croix-Rouge, il s’inspira des precieuses experiences acquises par ses
+« predecesseurs et s’efforcera de soutenir le Comite international qui se trouve au berceau de la
+« Croix-Rouge, remplira ses devoirs jusqu’au bout, la main dans la main de tous ceux qui, sur
+«la terre, poursuivent le mtme ideal (voir compte rendu de la XIe Conference de la Croix-
+« Rouge p. 182). »
+Ceci prouve que les pays qui ont des signes autres que la croix rouge ne sont pas moins
+respectueux de leurs emblemes, tout en eprouvant pour la croix rouge la plus profonde consi¬
+deration.
+1 La Turquie a accede a la Convention de 1906 sous la reserve que, tout en respectant l’inviolabilite
+de 1’embleme de la croix-rouge, elle se servira de l’embleme du croissant rouge. Par une note en date du
+3 septembre 1907, le Conseil federal suisse a decide d'accorder a la Turquie et a la Perse le droit d’employer
+respectivement le croissant rouge ainsi que le lion et le soleil rouges comme signes distinctifs du service
+sanitaire dans
+leurs
+armdes.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 298.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

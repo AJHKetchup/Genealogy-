@@ -1,0 +1,406 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0126-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 126
+page_end: 126
+part: 1
+---
+
+# Page 126
+
+## Page Metadata
+
+- Source page: 126
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0126.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1734
+CAMARA ÜE DIPUTADOS
+Ssptiembre 21
+_ Esa ley de aduana
+que proyeetaba la comi-
+siôn, y que nosotros hacenlos nuestra, aumenta
+los
+derechos
+de
+aduana al
+50
+por ciento
+de
+los siguientes articulos
+que antes pagaban 25
+por ciento :
+articulos
+de
+bronce
+que
+no
+sean
+para fines industriales, las confeceiones de
+se-
+da, la plateria, las plumas—que el senor minis-
+tro
+sc
+quejaba
+de
+que
+pagan
+poco impuesto
+por estai- mal aforadas—, la plata y la electro
+plata. Aumenta
+a 40 por ciento
+el de 25
+que
+antes pagaban las alfombras y tripes, las ma-
+yôlieas, porcelanas, eristales y terracotas ;
+au¬
+menta dereehos insignifiantes
+a articulos
+co-
+mo bastones y pipas, pero en cambio disminuye
+en el inciso 7o. los impuestos de una sérié de
+articulos utiles
+e iinprescindibles, sobre todo,
+en
+estos
+momentos
+en
+que la edifieaçiôn
+se
+liace necesâria y
+en que ya la prensa conser-
+vadora del pais réclama para los propietarios
+la compensaciôn de
+menores tributes, a fin de
+que se resarzan de las pérdidas que pueda oca-
+sionarles la
+nueva ley de alquileres.
+Hago notar
+a los
+senores diputados
+que el
+despacbo
+a la consideracion de la câmara tie-
+ne
+en
+este inciso
+el significado
+de
+una
+pe-
+queiia inüdelidad
+de
+sus
+autores,
+porque
+se
+créa
+un
+pequeno
+derecho
+para articulos
+que
+esta câmara
+déclaré
+exentos
+de impuestos al
+discutirse las leyes impositivas.
+Figuran entre
+esos articulos, cuyo impuesto
+disminuye el proyecto
+que nosotros propicia-
+mos, las bombas, malacates,
+los ejes y bujes
+para
+carros
+y earruajes,
+los
+canos
+de bierro
+galvanizado y hierro de otras clases, columnas
+de bierro, que antes pagaban 25 por ciento,
+es
+decir, 32, y que ahora pagarian 15,
+es decir 17
+por ciento.
+Se bajan los derechos de aduana para arti¬
+cules indispensables para la industria como los
+colores
+de anilina, el âeido acético,
+el bicro-
+mato
+de potasio,
+que alguien
+propuso
+en la
+comisiôn
+que fueran disminuidos
+en beneficio
+de la industria nacional, y
+se baja también el
+derecho
+al jabôn respecto del cual
+debo hacer
+una consideracion
+que
+creo pportuna
+En las estadisticas de la nacion figuran a ve-
+ces
+cosas extraordinarias ;
+por ejemplo
+en
+el
+boletin del comer cio exterior argentino, numé¬
+ro 184 del ano pasado,
+en la pâg. 109, figura
+esta maravilla: articulos productives y articu¬
+los improductivos que se importan al pais, unos
+merecen la simpatia de la nacion y otros que
+deben
+en lo posible
+no
+ser importados. Y fi¬
+guran entre los articulos productives los espe-
+cificos para curai- la sarna de las ovejas, y en¬
+tre los articulos improductivos los
+que sirven
+para limpiar y curai* las enfermedades de la
+gente entre los
+cuales
+esta
+el jabôn.
+De
+ma-
+nera que es productivo aeâ que las ovejas estén
+limpias, y
+es improductive
+aue
+estén limpios
+los hombres.
+La comisiôn
+de presupuesto anterior dismi¬
+ss0 también los
+derecbos
+que
+pesaron sobre
+el asfalto
+y
+roeâ asfalto,
+sobre
+ladfijias
+re-
+fractarios
+al fùego,
+tramos
+de hierro
+para
+puentes y alcaiitarillas y llevô
+a la categoria
+de libres de derecbos
+a algunos articulos muy
+importantes,
+sobre
+todo
+de
+los
+que
+antes
+se
+coüsignaban
+en el inciso referente
+a derechos
+especificos.
+Han
+desaparecido
+de
+ese
+inciso,
+unos para ir
+a los
+que pagan 5 por ciento, y
+otros
+para ir
+a
+la
+categoria
+de
+exentos
+de
+derechos,
+el almidôn, las arverjas, la cebada,
+el centeno, huevos, lentejas,
+manteca, mani.
+niiez, queso y pescado.
+Todas
+esas
+no
+son
+medidas insignificantes
+que puedan
+considerarse
+que
+no tengan im-
+portancia para
+que la câmara
+no las considé¬
+ré; son medidas de alta politica enca»3Înadas
+a
+disminuir
+en
+lo posible
+el encareeimiento
+de
+la vida popular, y que no pueden considerarse
+como
+que tratan de perjudicar
+a la industrie
+nacional.
+La aduana argentina si algmia
+vez ba po-
+dido considerarse
+como
+un factor de estimulc
+para las industrias,
+es dificil que
+se la pueda
+considérai-
+asi
+en este momento
+en
+que gra¬
+va
+a las dos grandes industrias
+madrés
+del
+pais,
+a la agricultura
+y
+a la ganaderia,
+con
+fuertes derechos
+a la exportaciôn, tribute tan
+pesado
+que llega
+a
+ser el
+33 por ciento
+del
+producido de la aduana,
+que ha
+dado
+96 mi-
+llones
+en
+1920.
+a
+mas
+del
+famoso
+impuesto
+adicional al fijo euyos brillantes resultados la
+câmara ba £>odido
+constatai-
+en la exposiciôn
+que es ba hecho bace un momento. La aduana
+es
+entonces cualquier
+cosa
+menos protectora;
+es
+un instrumente sôrdido fiscal
+que obtiene
+dipero donde lo encuentre, y que
+es necesari»
+reducir
+a limites tolérables.
+Esta
+es una iniciativa nuestra en la que in-
+sistimos
+con
+mucha
+tenacidad,
+acaso
+porque
+sea uno de los mas grandes honores del parti-
+do soeialista haberla propieiado. Somos el grn-
+po politico que con mas autoridad podemos ha-
+blar de
+estas cosas
+en la câmara. Ninguno de
+nosotros ba venido a proponer medidas contra¬
+rias
+al
+progreso,
+aumentando
+las barreras
+aduaneras,
+en
+cambio
+todos
+los nuestros,
+en
+toda
+su acciôn parlamentaria y politica, ban
+contribuido
+con efieaeia
+a la disminuciôn pro¬
+gressa de estos derecbos, cosa que no ban he¬
+cho los distintos grapos politicos que aqui tie-
+nen-representaciôn.
+Pesa como la responsabilidad mâs grande so¬
+bre
+el partido gobemante
+baber
+conspirado
+contra
+el bienestar popular eneareciendo
+los
+consumes eon un doble juego de medidas : una
+politica fiscal y una politica monetaria desas-
+trosa, vergonzosa que ha puesto el honor del
+pais a un nivel muy bajo, que ha comprometi-
+do considerablemente la fe nacional, y al mismo
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 126.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,125 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0424-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 424
+page_end: 424
+part: 1
+---
+
+# Page 424
+
+## Page Metadata
+
+- Source page: 424
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0424.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+2
+SÉANCE
+DU
+22 JUILLET 1929
+M. Hassan Bey (Turquie)
+:
+Nous avons parcouru ce matin le texte de l'accord type concernant la définition des maladies
+donnant lieu
+au rapatriement direct. Il me semblerait utile d'y ajouter deux maladies : le
+pellagra et le béribéri, qui doivent être prises en considération pour le rapatriement direct en
+raison de la durée de la guérison.
+Le Lieutenant-Colonel de La Harpe (Suisse)
+:
+Cet accord type résulte d'une des conventions qui ont été faites pendant la guerre (janvier
+1918) entre l'Allemagne et les Alliés ; elle est la troisième, au moins, qui ait été conclue au cours
+des hostilités. On l'a améliorée et élargie. Si nous n'avons pas parlé de la pellagra et du béribéri,
+c'est, vous le comprendrez, Messieurs, que ces maladies n'étaient pas fréquentes dans les armées
+des Gouvernements qui ont établi là Convention de Berne, en janvier 1918. Cependant, nous
+sommes tout disposés à ajouter ces deux maladies à la liste déjà établie, si la délégation turque
+en manifeste le désir. J'ai pourtant l'impression que le cadre que nous avons établi est suffi¬
+samment large, puisqu'il fait allusion à toutes les maladies chroniques. I.'accord type que nous
+avons établi sera ajouté à la Convention à titre d'information et pour mettre dès le début de
+la guerre quelque chose de précis en mains des belligérants. Nous sommes donc d'accord
+d'ajouter à cette liste les deux maladies citées par la délégation turque ; nous vous demandons
+simplement de laisser ce soin au comité de rédaction.
+L'article 68 est adopté.
+Article 69.
+Le Lieutenant-Colonel de La Harpe (Suisse)
+:
+Je ne pense pas devoir m'étendre longuement sur les raisons qui nous ont amenés à prévoir
+une commission de 3 membres. L'expérience de la guerre a montré que le système de trois
+membres était préférable à ce lui de 5. Par contre, le représentant de la délégation de la Grande-
+Bretagne a attiré ce matin mon attention sur le fait que le texte que nous avons adopté est un
+peu extensif et pourrait donner l'impression que cette commission médicale mixte pourrait s'occu¬
+per de domaines qui ne la concernent pas, domaines administratif, disciplinaire ou autres.
+Si vous estimez qu'il y a lieu de préciser, nous pourrons dire
+« toutes décisions utiles », et il
+serait bien entendu que cela se rapporterait au domaine médical, car personne ne pourrait
+penser qu'une commission médicale pût faire autre chose que s'occuper du domaine médical.
+Je ne voudrais pas que l'on donnât un sens restrictif à cette phrase, car il faut que cette com¬
+mission puisse avoir d'autres compétences, par exemple si elle constate qu'un malade n'a
+pas tout ce qui lui est nécessaire. Dans ce cas, il y a des raisons péremptoires pour demander
+au commandant du camp de déplacer le malade, pour des raisons de santé ou pour s'opposer,
+par exemple, à ce qu'un malade qui n'est susceptible d'être rapatrié, ni hospitalisé soit employé
+à tel ou tel travail. Ce sont là des considérations d'ordre médical que nous devons prendre en
+considération, afin de donner à cette commission un certain poids vis-à-vis du médecin du
+camp. C'est une commission de trois membres, dont deux membres neutres, et il peut être
+éventuellement agréable au médecin du camp que des collègues étrangers interviennent pour
+appuyer une demande à laquelle un commandant de camp ne serait pas pressé de donner
+suite.
+C'est pourquoi nous avons dû mettre, «toutes décisions» au lieu de «les décisions».
+C'est peut-être plus vague, mais c'est intentionnel.
+Si la délégation de la Grande-Bretagne le demande, nous ajouterons le mot. « utiles ».
+M. Hassan Bey (Turquie) :
+La délégation turque estime que la eomission médicale mixte doit être composée de 4
+membres, dont deux appartenant à un pays neutre et deux désignés par la Puissance déten¬
+trice. L'un des médecins neutres présiderait. En cas d'égalité de voix, le président aurait voix
+prépondérante.
+Etant donné que les décisions de cette commission sont définitives, que cette commission
+aura à connaître des demandes, soit de la part des prisonniers, soit, de la part des Puissances
+dont ils relèvent, soit encore de la part des sociétés de secours dûment reconnues, il semble qu'il
+faut donner des garanties encore plus grandes pour défendre le point de vue de la Puissance
+détentrice.
+C'est pourquoi nous estimons que la Puissance détentrice doit être représentée dans la
+commission, non pas par un médecin, mais par deux.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 424.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

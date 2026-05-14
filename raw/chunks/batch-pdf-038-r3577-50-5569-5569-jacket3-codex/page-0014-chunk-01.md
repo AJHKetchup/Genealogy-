@@ -1,0 +1,125 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0014-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 14
+page_end: 14
+part: 1
+---
+
+# Page 14
+
+## Page Metadata
+
+- Source page: 14
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0014.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Séance
+du
+ier Juillet 1929
+5
+cipation. La réponse des gouvernements a été que la présence de ces délégués à la Conférence diploma¬
+tique ne soulevait pas d'objection. Il est exact qu'un Gouvernement a formulé, en ce qui concerne la
+participation de l'Ordre Souverain de Malte, quelques réserves, qui ont été communiquées officiellement
+à la délégation de cet Ordre.
+Je crois pouvoir constater, par la présence de la délégation de l'Ordre Souverain de Malte à cette
+Conférence, qu'il n'y a, semble-t-il, entre sa participation et ces réserves, aucune incompatibilité.
+M. Riad (Egypte! :
+Evidemment, cette incompatibilité n'existe
+pas. La question, cependant, subsiste sur le point
+suivant
+: Les délégués des gouvernements sont compétents pour signer la Convention internationale qui
+sera élaborée par la Conférence ; mais l'Ordre Souverain de Malte et le Comité International de la Croix-
+Rouge ne sont pas des Gouvernements.
+Nous
+sommes réunis
+en
+une conférence diplomatique,
+avec mission d'élaborer une convention
+internationale entre les Etats représentés.
+Sans doute, la présence de la délégation du Comité international de la Croix-Rouge et de l'Ordre
+Souverain de Malte est des plus agréables ; elle est même très nécessaire ; mais à la fin des travaux, ces
+deux délégations signeront-elles la Convention, au même titre que les délégués des gouvernements ?
+Et, au cours des débats, voteront-elles comme eux ? Je pose la question à propos de l'article premier du
+Règlement, car je remarque, à l'article 3, que « les membres des délégations peuvent tous prendre part
+aux délibérations >;, et que : « dans les scrutins, chaque pays ne dispose que d'une voix ». Alors, le Comité
+international et l'Ordre Souverain de Malte seraient considérés comme pays ? Est-ce bien ainsi ? Je ne
+m'y oppose pas, mais je pose la question.
+M. Werner (Comité international de la Croix-Rouge) :
+Le Comité que je représente n'entend nullement jouer dans cette Conférence le rôle qui est réservé
+aux seules délégations des Etats.
+La délégation du Comité international de la Croix-Rouge n'est ici, si je puis employer cette expres¬
+sion, qu'à titre auxiliaire
+: il désire prendre part à vos travaux, mais il est bien entendu qu'il Rapportera
+point son concours à la signature de la Convention elle-même ou des conventions
+que vous pourriez
+élaborer. Ces conventions doivent être signées par les délégués des Etats.
+Notre seule ambition est de collaborer à l'élaboration de la Convention; et je prie la Conférence de
+prendre acte que notre présence ne tend qu'à faciliter cette tâche.
+M. le Président
+:
+Je n'ajouterai qu'un mot : M. Werner a pris les devants
+: il a déclaré simplement ce que j'aurais
+dit moi-même. La question de la signature des accords à conclure ici, de la part de l'une et l'autre des
+deux délégations dont il s'agit, n'a, à notre connaissance, pas été soulevée officiellement jusqu'ici.
+Sir Horace Rumbold (Empire britannique) (traduction):
+Puisque ni l'une ni l'autre des délégations qui, aux termes du deuxième alinéa de l'article premier,
+sont conviées à la Conférence, ne signeront la Convention, il s'agit de savoir si elles auront droit à
+participer au scrutin.
+Pour ce qui concerne l'Ordre Souverain de Malte,
+mon Gouvernement s'est exprimé dans ce sens
+qu'il soit appelé à se prononcer lorsque l'article 10 viendra en discussion.
+Je comprends, d'autre part, que le Comité international de la Croix-Rouge participe aux scrutins,
+puisqu'il a dressé les deux Conventions.
+Telle est l'opinion de mon Gouvernement ; elle est partagée par toutes les délégations de l'Empire
+britannique et je crois aussi par plusieurs autres Gouvernements.
+M. le Président
+:
+L'opinion qui vient d'être exprimée correspond aux réserves qui ont été officiellement communiquées
+au Conseil fédéral suisse et que celui-ci n'a pas manqué de transmettre à la délégation de l'Ordre Sou¬
+verain de Malte. Je répète que je conclus de sa présence ici qu'il ne doit plus y avoir de malentendu à cet
+égard. Toutefois, si une ombre de malentendu pouvait encore subsister, je proposerais, plutôt que d'en
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 14.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

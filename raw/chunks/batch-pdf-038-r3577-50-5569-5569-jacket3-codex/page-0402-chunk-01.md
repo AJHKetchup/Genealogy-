@@ -1,0 +1,131 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0402-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 402
+page_end: 402
+part: 1
+---
+
+# Page 402
+
+## Page Metadata
+
+- Source page: 402
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0402.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+SÉANCE
+DU
+20 JUILLET 1929
+II
+Article
+32.
+Adopté sans discussion.
+Article 33.
+Il est donné lechire de l'article 33.
+L'article est adopté sans discussion.
+Article 34.
+M. le rapporteur donne lecture de l'article 34.-
+M. Rhomberg (Allemagne)
+:
+Je m'excuse de prendre la parole, au risque de causer un certain arrêt
+— j'espère qu'il
+sera bref — dans nos délibérations, après le travail si complet et si excellent que les sous-c.om-
+missions ont accompli. J'espère que les explications que je me permettrai de vous donner
+vous convaincront de l'utilité de notre proposition, d'ajouter, à l'article 34, après l'alinéa 3,
+un alinéa nouveau, dont la teneur serait la suivante :
+« En attendant les accords prévus par
+les alinéas
+2 et 3 ci-dessus, les dispositions des alinéas 3 et 4 de la Convention de la Haye de¬
+vront être prises comme base pour fixer le montant du salaire du travail des prisonniers de
+guerre ».
+Cette proposition additionnelle a trait, comme vous le voyez, au salaire que les prisonniers
+de guerre devront recevoir comme rémunération pour les travaux exécutés par eux, en dehors
+de ceux qui concernent l'administration, l'aménagement et l'entretien des camps.
+Depuis l'adoption
+de l'article
+34 par la deuxième sous-commission, la situation s'est
+modifiée,
+en
+ce
+sens que la première sous-commission
+a accepté l'article 89 d'après lequel
+l'annexe II de la Convention de la Haye concernant les lois et coutumes de la guerre sur terre,
+resterait en vigueur comme complément à notre Convention. Les Puissances adhérant à la
+nouvelle Convention resteraient donc liées, et cette nouvelle Convention serait complétée par
+les nouvelles Conventions à conclure.
+Cette situation crée donc
+une inégalité entre les pays signataires des Conventions de la
+Haye et ceux qui n'en sont pas signataires, puisque l'article 6 de l'Annexe de la Convention
+de la Haye contient une stipulation assez exacte pour la rémunération des travaux effectués
+par les prisonniers de guerre, tandis que le deuxième alinéa de l'article 34 de notre Convention
+laisse la fixation des salaires à des accords à conclure entre les belligérants.
+A défaut de tels accords entre les pays participant aux Conventions de la Haye, le mon¬
+tant de la
+rémunération se réglera d'après l'article 6 de l'Annexe II de la Convention de la
+Haye, tandis que pour tous les autres pays, la question restera en suspens, jusqu'à ce que ces
+accords prévus soient effectivement conclus. Et l'on sait combien de temps peut s'écouler
+jusqu'à la conclusion de tels accords ! Nous avons tous fait nos expériences à ce sujet. Pendant
+cet intervalle, probablement très long, la situation serait donc empreinte d'une inégalité et d'une
+incertitude. On pourrait même dire que c'est un pas en arrière, puisque la Convention de la
+Haye a réglé d'une manière effective la question des salaires des prisonniers de guerre, tandis
+que la Convention dont nous avons le projet sous les yeux laisse la question à des accords
+à conclure.
+Si vous me permettez de me rapporter au règlement prévu par la Convention de la Haye,
+je vous rappellerai que l'alinéa 3 prévoit que les travaux faits pour l'Etat sont payés d'après
+les tarifs en vigueur pour les militaires de l'armée exécutant les mêmes travaux, ou, s'il n'en
+existe pas, d'après un tarif en rapport avec les travaux exécutés ; lorsque les travaux ont lieu
+pour le compte d'autres administrations publiques ou pour des particuliers, les conditions
+en sont réglées d'accord avec l'autorité militaire.
+D'un côté, dans les Conventions de la Haye, on trouve un règlement tout à fait précis,
+prêt à fonctionner ; d'autre part, l'article 34 du projet de Code des Prisonniers de guerre laisse,
+subsister un certain intervalle durant lequel" cette question de salaires est en suspens, et reste
+indécise.
+Permettez-moi de
+me reporter encore à l'ancien projet du Comité international de la
+Croix-Rouge (article 35, deuxième alinéa). Il prévoyait que les travaux faits pour l'Etat par
+les prisonniers de guerre seront payés d'après les tarifs en vigueur pour les militaires de l'armée
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 402.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

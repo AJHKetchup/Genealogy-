@@ -1,0 +1,173 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9bdbc1c5bbaf-P0007-01
+source_converted: raw/converted/batch-pdf-039-r3578-50-5569-5569-jacket5.codex.md
+converted_sha256: 9bdbc1c5bbaf15182e94e0e0b95b53a432dc94f7c0429e9384dcf0999391d0b3
+source: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/source/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/batch-pdf-039-r3578-50-5569-5569-jacket5/manifest.json
+page_start: 7
+page_end: 7
+part: 1
+---
+
+# Page 7
+
+## Page Metadata
+
+- Source page: 7
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0007.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+2
+m
+ont resolu de conclure une Convention a cet effet, et ont nomine
+pour leurs Plenipotcntiaires, savoir:
+LE
+PRESIDENT
+DU
+REICH
+ALLEMAND:
+S. Exc. M. Edmund Rhomberg, Dr en Droit, Ministre en disponi-
+bilite;
+LE
+PRESIDENT
+DES tSTATS-UNIS D’AMERIQUE:
+L’Honorable Eliot Wadsworth,
+ancien Secretaire adjoint
+de la
+Tresorerie,
+S.
+Exc. l’Honorable Hugh R. Wilson, Envoye extraordinaire et
+Ministre plenipotentiaire des Etats-Unis d’Amerique a Berne;
+LE PRESIDENT FEDERAL DE LA REPUBLIQUE d’AUTRICHE:
+M. Marc Leitmaier, Dr en Droit, Conseiller ministeriel a la Chan-
+cellerie federate, Departement des Affaires etrangeres;.
+;SA
+MAJESTE
+LE
+ROI
+DES
+BELGES:
+M.
+Paul Demolder, General Major Medecin, Commandant du
+Service de Sante de la lre Circonscription militaire,
+M. Joseph de Ruelle, Jurisconsulte du Ministere des Affaires etran¬
+geres ;
+LE
+PRESIDENT
+DE
+LA
+REPUBLIQUE
+DE
+BOLIVIE:
+S. Exc. M. Alberto Cortadellas, Ministre-Resident de Bolivie
+a
+Berne;
+LE
+PRESIDENT
+DE
+LA
+REPUBLIQUE
+DES
+ETATS-UNIS
+DU
+BRESIL:
+S. Exc. M. Raoul de Rio-Branco, Envoys extraordinaire et Ministre
+plenipotentiaire du Bresil a Berne;
+SA MAJESTE LE ROI
+DE GRANDE-BRETAGNE, D’lRLANDE ET DES TERRI-
+TOIRES
+BRITANNIQUES
+AU
+DELA
+DES
+MERS,
+EMPEREUR
+DES
+INDES:
+POUR
+LA GRANDE-BRETAGNE
+ET L’lRLANDE
+DU NORD, AINSI QUE
+TOUTE PARTIE DE L’EMPIRE BRITANNIQUE NON MEMBRE SEPARE
+DE
+LA
+SOCIETE
+DES
+NATIONS:
+Le
+Tr4s
+Honorable
+Sir
+Horace Rumbold,
+G.C.M.G.,
+M.Y.O.,
+Ambassadeur de Sa Majeste Britannique a Berlin;
+POUR
+LE
+DOMINION
+DU
+CANADA:
+M. Walter Alexandre Riddell, Conseiller permanent du Gouverne-
+ment canadien anpres de la Society des Nations;
+POUR
+LE
+COMMONWEALTH D’AUSTRALIE:
+S.
+Exc.
+M.
+Claud Russell, Envoye extraordinaire
+et Ministre
+plenipotentiaire de Sa Majeste Britannique a Berne;
+POUR
+LE
+DOMINION
+DE
+LA
+NOUVELLE-ZELANDE:
+S.
+Exc.
+M.
+Claud Russell, Envoye extraordinaire
+et Ministre
+plenipotentiaire de Sa Majeste Britannique a Berne;
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 7.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

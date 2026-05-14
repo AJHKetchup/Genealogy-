@@ -1,0 +1,292 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0180-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 180
+page_end: 180
+part: 1
+---
+
+# Page 180
+
+## Page Metadata
+
+- Source page: 180
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0180.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Ï788
+CAMARA DE
+a determinado sector para reclamar como una
+suprema razon, para detener aunque sea par-
+eialmente el beneficio
+a
+una parte del pueblo
+trabajador, trayendo confusion
+en estas
+cues-
+tiones. Bastaba dirijirse
+a todos los kombres
+que aquî nos sentamos, que cada vez que se han
+planteado cuestiones de esta naturaleza hemos
+estado siempre por el interés bien entendido
+de toda la clase trabajadora.
+Esta tarde al iniciarse la sesiôn, decia desde
+mi banca, tratândose de las pensiones,
+que asi
+eomo el exdiputado radical, doctor Bonifacio,
+habîa planteado
+ante la honorable câmara el
+vasto y complejo problema de las pensiones
+a
+la vejez y a la invalidez, para hacer la verda-
+dera jlusticia distributivia,
+yio
+digo,
+asî
+como
+muchos diputados radicales, quizâ la mayorîa,
+que no solo debia establecerse para los obreros
+pagados
+por el
+presupuesto naeional la justa
+recompensa de su labor, sino para todos los tra¬
+bajador es de la Republiea.
+Es
+muy
+cômodo,
+con
+el
+agotamiento
+fisico
+de
+los diputados, venir
+a
+extender
+el
+debate
+barajando cifras que no pueden ser verificadas
+en
+el momento,
+para hacer argumentos de
+ca-
+râcter impresionista, a fin de tratar de que las
+leyes no salgan de aeuerdo con las necesidades
+del pueblo. Pero el sufragio libre ha ensenado
+a aquellos
+espiritus
+reaccionarios,
+que
+creen
+que la reforma no iba
+a hacerse por la pusila-
+nimidad
+de
+espiritu
+de
+muchos
+hombres
+que
+temen los trastornos de orden social, que creen
+en
+esas perturbaciones,
+que nos las presentan
+como fantasmas los senores diputados cada
+vez
+que quieren hacer fracasar una iniciativa noble
+y digna y cada vez que ven que un espiritu re-
+acionario
+flota
+en
+esta
+câmara
+con
+todos
+sus
+errorer y mistificaeiones,
+—
+que
+eso
+no puede
+ser, senor présidente. El sufragio libre ha traî-
+do
+a esta câmara
+a hombres de todas las ideas,
+y asî podemos contemplai’ el espectâeulo de ver
+a los ultimos, a los que se van, a los que tienen
+el valor de venir
+a defender en esta câmara los
+intereses capitalistas,
+que hasta
+este momento
+se
+abroquelan
+para hacer
+el ultimo
+esfuerzo
+para detener el aleance de la justicia distribu-
+tiva, que ya es hora de que ella llegue, y que
+si boy empieza
+con el salario minimo para los
+trabajadores al servicio del estado, a él nuestro
+esfuerzo y nuestro voto y con él
+que triunfe,
+aunque sea parcialmente, el concepto de la jus-
+tieia distributiva.
+Nada mas. (Aplausos.)
+Sr. Pena.
+— Pido la palabra.
+Sr. Rubilar. — La habîa pedido yo senor pré¬
+sidente.
+Aquî los loros se comen el azücar, las nueces
+y se lo llevan puro aletear y no hacen nada.
+(Boisas y aplausos).
+Senor présidente: he pedido la palabra para
+hacer una motion conciliatory entre la nresen-
+DIFUTADOS
+Septiembre 21
+tada por el doctor Dickmann y la del senor co-
+ronel Pereyra Rozas y hago présente que ni me
+siento sugestionado por las palabras del diputa-1
+do Dickmann ni me siento sugestionado tampoco'
+por el prestigio ni por la infiuencia de la opi¬
+nion del
+senor Pereyra Rozas. Présente la mo-
+ciôn
+obedeciendo
+a convicciones profundas que
+siento
+como obrero.
+Toda mi vida la he convi-
+vido
+con
+el obrero
+porque soy obrero yo tam-
+bién.
+Soy obrero de verdad,
+senor présidente,
+no soy de los que viven del obrero. Y eomo tal
+tengo la honra de sentarme, aunque muy humil-
+demente, en esta banca, a la que lie llegado for-
+mado por mi propio esfuerzo, y a la que los obre¬
+ros, ereyendo hacer un acte de justicia, me han
+traido.
+Tal
+vez
+no los sepa defender eomo de-
+biera, y lo siento con toda mi aima, pero estoy
+muy convencido de que no es con diseursitos que
+llenan todo el
+ano ni
+es amaneciendo
+en la
+ca-
+mara
+eomo
+vamos
+a llegar
+a ninguna parte, si
+no procuramos coneretar bien las ideas
+en he*
+chos.
+Tengo la conviction profunda de
+que todos
+los obreros de mi pais son eselavos. Y son es¬
+claves porque cuando no le deben al patron le
+deben al carnieero, o al leehero o al panadero o
+al sastre. Nunea pueden verse libres. Y nunca
+pueden verse libres por la sencilla razôn de que
+no
+ganan lo suficiente
+para llenar ni siquiera
+las necesidades mas apremiantes del hogar.
+Se»
+guramente este voto que voy a dar en el asunto
+del salario es el voto mas consciente que yo pue-
+da emitir
+en
+esta câmara. Porque no proeedo
+influeneiado por nadie. Yo no soy diputado pre-
+sidencialista, soy un diputado radical que ha sa-
+lido de la masà trabajadora, que eonoce sus ne-
+eesidades.
+Y
+porque
+conozco la verdadera si-
+tuaciôn del obrero, disiento profundamente con
+el
+senor diputado Pena cuando dice que si el
+area sembrada este ano
+es mucho menor, esto es
+debido al encarecimiento del obrero.
+No, senor diputado. Es el terrateniente el que
+tiene la culpa.
+Es el terrateniente sin eoncien-
+cia que trata de comerse al pobre obrero y ex-
+plota sin escrupulos el sudor de su frente. El
+terrateniente
+no
+conoce la compasiôn ni tiene
+casi nunca suficiente criterio para conocer y en-
+cuadrarse dentro de las necesidades y convenien-
+cias de la industrie y de la ganaderîa. Habrâ
+excepciones, pero esto es lo general. Y como no
+corresponde agregar mas discursos, termiüo ha*
+ciendo
+esta proposiciôn
+■al senor présidente de
+la comisiôn de presupuesto: busquemos un tér-
+mino medio y pongamos 160 pesos al salario mî-
+nimo.
+Sr. Pereyra Rozas.
+— yQttê opina la comi*
+siôn respecto
+a la proposiciôn del senor dipu¬
+tado Rubilar?
+Sr. Rodriguez (C. J.)- — Pido la palabra.*
+Como he maniféstado al principio, no he po»
+dido consultar a toda la comisiôn, pero la ma*
+yoria se inclinarîa a aceptar la proposiciôn d«t
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 180.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

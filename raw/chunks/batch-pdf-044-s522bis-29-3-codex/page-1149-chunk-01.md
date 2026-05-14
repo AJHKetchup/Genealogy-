@@ -1,0 +1,334 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1149-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1149
+page_end: 1149
+part: 1
+---
+
+# Page 1149
+
+## Page Metadata
+
+- Source page: 1149
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1149.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+J306
+CAM ABA DE SENA DORER DE LA NACION
+Septiembre 12
+doetrina
+sudamerieana
+aplicada
+al
+eonflicto
+:
+entre Paraguay y Bolivia, a saber, que no re-
+conocîa
+ni
+reconocerâ jamas el tîtùlo de
+po- i
+sesion
+do xerritorios ganados
+con violaciôn dc
+los pactes de paz.»
+Sc restahleçia, de est.e modo, la verdadera pa-
+t'ernidad
+dé la doetrina
+de la cancillerîa
+■ar¬
+gent ina, que segun lo lia diclio boy el senor minis-
+tro aspiraba
+a intégrai’
+cou ella
+las grandes
+constrncciones
+de
+nuestro
+pasado,
+y
+réclama-
+ba la paternidad, por eso, y no «por un prurito
+de iuvenciôn».
+La
+cancillerîa
+argentina
+nada reetificô
+en
+aipiel
+momento, nada
+investigô,
+y dejô
+pasar
+en
+silenciô
+una
+frase
+descortés,
+por
+no decir
+hiriente
+para el decoro de
+los neutrales
+que
+hacen reVerëncias
+en Washington.
+.
+Establecida
+de
+esta
+manera
+la
+otiologîa
+de
+la comunicaciôn compulsiva de los neutrales,
+creo que
+es
+de felicitarse
+que la cancillerîa
+argentina no tenga su paternidad. No serîa des-
+de luego «doetrina argentina», ni nueya, y co-
+mo
+acto
+dé
+una comisiôn
+de neutrales
+a
+mi
+me parece deplorable. Para deniostrarlo voy a
+volver al punto de partida.
+{ Qué personerîa tienc
+esa comisiôn de
+neu¬
+trales de Washington para emitir doctrinas in-
+ternacionales y para producir comunicaciones
+que tomadas
+en serio y
+en su sentido literal,
+que es eomo deben tomarse los documentos in¬
+ternaci on a les,, serîan ca paces de conducir a la
+guerra
+a
+los paîses neutrales
+eon los paîses
+en conflicto?
+Nadie
+considéra posible, naturalmente,
+que
+la Repiiblica Argentina vaya con su ejéreito a
+despojar
+a Bolivia de los fortines que ha qui-
+tado
+a Paraguay o a despojar al Paraguay de
+las tierrad que haya tornado
+a Bolivia; pero,
+de
+acuerdd
+con
+el
+texto
+dc
+la comunicaciôn
+del 3
+de Agosto, podrîa la Republica Argen¬
+tina verse;' er
+ese
+caso,
+que no
+es caso en que
+puedan verse los neutrales.
+Los neutrales no tienen
+ese papel, en el de-
+recho internacional.
+No necesito
+exponer cuâl
+es la funciôn de los neutrales, porque
+es de-
+masiado
+eonocida
+y
+desde luego
+los
+senores
+senadores la conocen. No debe pasar, no puede
+pasar de los «buenos oficios», como lo recordô
+con muchà razôn el présidente de Bolivia con-
+testando
+r.; la conranicaciôn del 3 de Agosto.
+Los neutrales, ademâs, deben ser estrietamente
+imparcialaij lo
+que
+no resultarîa tampoco de
+la exposiciôn del senor ministro, cuando se re-
+firiô
+a aspeetos
+que si bien de îndole comer-
+cial, no eran propiamente de neutralidad.
+Ademâs, los neutrales deben ser muy cuida-
+dosos en la calificaeiôn de los h echos y nunca
+deben
+usar
+o
+adoptai’
+actitudes
+amenazantes.
+Los neutrales
+no pneden -décrétai* sanciones y
+mucho
+menos llevarlas
+a
+la prâctica,
+y decre-
+tarlas para
+no llev'arlas
+a
+la prâctica,. es
+en¬
+trai-
+en un camino (pic empicza
+por ser desai-
+rado y puede terminar en cl ridîeulo.
+Supongamos que la actitud, que résulta de la
+comunicaciôn del 3 de Agosto no tenga sanciôn,
+entonces
+no tienc objeto. Pero supongamos que
+tiene sanciôn,
+es decir, los neutrales
+que han
+pasado
+esa comunicaciôn
+se pueden ver obliga-
+dos
+mafxana
+a ir
+al
+terreno
+y obligar
+a
+las
+naciones en conflicto
+a devolver las tierras que
+han
+eonquistado,
+que
+los neutrales entiendeu
+que han eonquistado. En ese caso yo pregunto:
+{que autorizaciôn
+ha tenido la cancillerîa
+ar¬
+gentina para comprometer a la Naciôn en una
+emergencia
+tan grave?
+{Con
+que poderes
+ha
+procedido
+a firinar esa comunicaciôn del 3 de
+Agosto, si lleva en su entrana esa clase de eon-
+seeuencias ?
+En
+estes tiempos, ningiin mandatario demo-
+crâtico tiene
+esa clase de poderes.
+Yo creo por eso, que los 19 neutrales de Ame¬
+rica, arrastradps por los 5 neutrales de la capi-
+llita de Wâshington, han desconocido los prin-
+cipios verdaderos de la. neutralidad y
+se han
+colocado
+en
+situaciôn
+de
+ser
+desacatados
+por
+Bolivia,
+como lo han sido, y denser convictcs
+de ligereza.
+Asî,
+ël conflicto
+se ha liecho cada
+vez nuis
+enmaranado y ahora,
+a las cansadas, se acuer-
+dan recién
+de las convenciones de La Haya y
+del pacto de la Liga de las Naciones.
+Yeamos, ahora, la repercusiôn que tuvieron en
+el Paraguay y en Bolivia los actos de los neu¬
+trales, y sobre todo la comunicaciôn del 3 de
+Agosto y la subsiguiente que dispuso que amb.is
+partes volvieran
+a las posiciones
+que tenîau
+antes del 1" de Jûnio, me parece.
+En
+el Paraguay
+se produjo un movimiento
+de intensa satisfacciôn, y el ex présidente de la
+Republica, doctor Guggiari, en una proclama al
+ejéi’cito, exclamô :
+j Toda la America esta con
+nosotros! ;Qué mejor prueba de que la comuni¬
+caciôn
+de los neutrales habîa carecido de ihc-
+dida!
+El Paraguay
+ostenta dereehes respetabilîsi-
+mos y tiene là simpatia de America en cuanto
+se muéstre dispuesto
+a entregar el conflicto al
+arbitraje sin réservas. En ese terreno del arbi-
+fràje su posiciôn es mâs amplia que la de Bo¬
+livia, sin haber llegado, sin embargo, a la acep-
+taciôn
+total.
+Pero
+America
+no
+esta
+con et
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1149.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

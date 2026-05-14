@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire.codex.md",
+  "converted_sha256": "f8b5039a3c6cb65ae4d1e8f0b2b85274536b914c1856934f3efd7cd350964816",
+  "source": "raw/codex-conversion-jobs/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/source/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
+  "source_sha256": "508bacd2448ae3a4a97e35dedaf975a65f4fe2e9155140203d52c7b051315da1",
+  "source_manifest": "raw/codex-conversion-jobs/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-f8b5039a3c6c-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/batch-img-011-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 4100,
+      "sha256": "5110ddbd708d378bac5e2edfcd3887d3093ed22be0b8cdce97916c9ddfd588f3"
+    }
+  ]
+}

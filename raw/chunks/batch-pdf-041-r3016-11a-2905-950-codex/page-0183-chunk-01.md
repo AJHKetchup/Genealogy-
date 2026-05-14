@@ -1,0 +1,256 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-09e4cb999ef7-P0183-01
+source_converted: raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+converted_sha256: 09e4cb999ef7849184392fb67703554132ffaa522227f2b4a9ff028efd3cb5bf
+source: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/source/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+page_start: 183
+page_end: 183
+part: 1
+---
+
+# Page 183
+
+## Page Metadata
+
+- Source page: 183
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0183.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+fN-
+revêtue
+en fait l'unique organe qui puisse apporter à cette question son règlement définitif
+et consacrer l'état de choses qui présidera aux destinées de la vie internationale de la Croix-
+Rouge dans l'avenir.
+C'est pour nous un devoir de reconnaissance d'évoquer ici les noms de ceux qui ont
+si
+puissamment
+contribué
+à l'heureuse issue des pourparlers qui ont abouti au projet de
+statuts.
+Notre pensée va en tout premier lieu à celui qui n'est plus hélas qu'un souvenir
+vénéré,
+Gustave Ador
+ne dirige plus nos débats, mais il en reste l'inspirateur toujours
+écouté ;
+si
+quelque
+chose pouvait adoucir le regret de sa disparition, ce serait de savoir,
+comme
+nous
+le
+savons
+tous, qu'l a eu le temps avant sa mort de prendre connaissance
+des
+grandes
+lignes
+du
+projet
+et
+d'y
+donner son assentiment, dont l'inestimable valeur
+repose sur sa longue expérience et l'inlassable dévouement qu'il a toujours apporté à cette
+grande
+cause.
+Le président du Conseil
+des Gouverneurs de la Ligue nous a apporté un
+appui
+moral
+non
+moindre
+que
+celui
+que
+nous
+devons
+à l'ancien président du Comité
+international
+de
+la
+Croix-Rouge ;
+M.
+Payne,
+en
+nous
+donnant
+l'aide
+inestimable
+de
+ses
+conseils,
+nous a permis de donner leur juste valeur aux conceptions qui ont toujours
+guidé la Croix-Rouge américaine dont la générosité et la largeur d'esprit sont universelle¬
+ment
+connues.
+Notre
+gratitude
+va également à S. A. R. le Prince Charles de Suède qui
+en
+tout
+temps
+a
+daigné
+témoigner
+au
+problème
+de l'organisation internationale de la
+Croix-Rouge
+le
+plus
+vif et
+le plus bienveillant intérêt. Nous prolongerions indûment ce
+rapport si nous devions citer les noms de tous ceux qui nous ont apporté le concours de
+leur
+sollicitude
+et
+de leurs
+avis
+éclairés;
+mais
+nous manquerions trop gravement aux
+sentiments
+de
+reconnaissance
+qui
+nous animent si nous n'adressions pas l'expression de
+notre
+vive
+gratitude
+aux personnalités éminentes qui ont secondé notre action de leurs
+conseils éclairés. Leur collaboration a été infiniment précieuse et nous tenons à leur apporter
+ici
+nos remerciements les plus chaleureux et les plus émus.
+La situation qui
+se présentait au moment où les négociations qui ont abouti au projet
+du
+11
+mai
+1928 commençaient, vous est connue. En effet, le Comité international de la
+Croix-Rouge,
+la
+Ligue
+des
+Sociétés
+de
+la Croix-Rouge et un certain nombre de Sociétés
+nationales
+qui
+s'étaient particulièrement intéresées à la question de l'organisation interna¬
+tionale de la Croix-Rouge, avaient envisagé différentes solutions à apporter au problème qui
+nous
+occupe. Ces propositions correspondaient à des principes qui s'étaient lentement dégagés
+des pourparlers et des négociations engagées dans le passé et qui ont eu leur extrême utilité
+bien qu'ils n'eussent pas abouti à un résultat positif immédiat. On a pu constater la compati¬
+bilité de nombreux et importants éléments qui se trouvaient dans les propositions antérieures
+et
+qui,
+par conséquent,
+se sont révélés aptes à constituer les fondements d'une construc¬
+tion
+à la fois solide et conforme aux traditions de la Croix-Rouge. Il ne pouvait pas s'agir
+de créer de toutes pièces une organisation nouvelle, mais à maintenir intacts et à affermir
+les
+éléments
+déjà
+existants
+et
+dont la valeur avait déjà été démontrée par les services
+qu'ils
+ont
+su rendre. Il s'agissait plutôt d'harmoniser le rôle et le fonctionnement de ces
+éléments
+divers
+pour
+le plus grand bien de la Croix-Rouge, et d'assurer la coordination
+et
+l'unité
+de
+ces
+éléments
+en
+les
+plaçant
+dans le cadre de la Conférence internationale
+comme la plus haute autorité délibérante de la Croix-Rouge.
+C'est dans cet esprit qu'on
+a
+cherché
+à
+mettre
+au point un projet susceptible de recueillir l'approbation des sociétés
+nationales du Comité international et de la Ligue; c'est ainsi qu'on a été conduit presque
+fatalement
+à
+tomber
+d'accord
+sur
+les dispositions qui ont été concrétisées dans le projet
+signé
+le
+11
+mai.
+Cet
+accord
+a été soumis au Comité international de la Croix-Rouge et
+au
+Comité exécutif de la Ligue des Sociétés de la Croix-Rouge, et l'un et l'autre se sont
+prononcés en faveur du projet a condition que
+les sociétés nationales
+de la Croix-Rouge
+réunies dans la XIIIème Conférence l'adoptent. En conséquence la XIIIème Conférence inter¬
+nationale,
+à
+l'ordre
+du jour de laquelle l'organisation internationale de la Croix-Rouge se
+trouvait
+déjà
+inscrite
+à la
+demande de plusieurs sociétés nationales et du Comité inter¬
+national
+de la Croix-Rouge,
+en est également saisie.
+—
+10
+—
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 183.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

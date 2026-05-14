@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
 import shutil
-from dataclasses import asdict, dataclass
-from datetime import date
+from dataclasses import asdict, dataclass, field
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 
@@ -16,16 +17,22 @@ This wiki follows the LLM-maintained wiki pattern, adapted for genealogical rese
 
 ## Layers
 
-- `raw/`: immutable source material. Store original PDFs, images, downloaded records, exports, correspondence, and converted Markdown from document ingestion here. Do not edit these files after ingest.
-- `wiki/`: LLM-maintained Markdown knowledge base. This is the working research brain.
-- `wiki/index.md`: lineage-first catalog of families, branches, people, relationships, events, places, sources, claims, narratives, and open questions.
-- `wiki/log.md`: append-only chronological record of ingests, queries, conclusions, corrections, and lint passes.
-- `wiki/research-plan.md`: prioritized open work, next searches, and hypotheses to test.
+- `raw/`: immutable source material. Store original PDFs, images, downloaded records, exports, correspondence, converted Markdown, chunks, and conversion jobs here. Do not edit these files after ingest.
+- `research/`: source/research Obsidian vault. This drives source inspection, conversion dashboards, page transcription, conversion QA, staging drafts, indexes, templates, and agent work queues.
+- `wiki/`: family-history Obsidian vault. This is the final evolving product for people, families, branches, relationships, claims, narratives, photos, context, timelines, and tree views.
+- `research/00 Research Start.md`: Obsidian front door for source work and agent flow.
+- `research/index.md`: source-oriented catalog of sources, source packets, transcriptions, conversion views, staging, and agent work.
+- `research/log.md`: append-only chronological record of source preparation, conversion, QA, staging, agent work, and promoted product changes.
+- `research/research-plan.md`: prioritized open work, next searches, unresolved questions, and hypotheses to test.
+- `research/questions/` and `research/tasks/`: research questions and work queues outside the product vault.
+- `wiki/Family Tree.md`: front-facing family tree view generated from relationship pages.
+- `wiki/index.md`: lineage-first catalog of families, branches, people, relationships, claims, narratives, and family-history pages.
 
 ## Genealogy Rules
 
 - Do not merge two people unless evidence supports identity. Keep possible duplicates separate and cross-link them as candidates.
 - Every fact about a person, relationship, event, name variant, date, or place needs a source citation or an explicit `unsourced` marker.
+- Keep source reliability, conversion confidence, and claim confidence separate. A primary record with a clear image is different from an authored family story, an index, a derivative transcript, or a low-confidence reading.
 - Distinguish evidence from conclusion. A record may say something; the wiki may conclude something else after weighing conflicts.
 - Preserve uncertainty. Use `about`, `before`, `after`, `between`, `possibly`, and `probably` instead of inventing precision.
 - Track negative evidence, such as searched collections where a person was not found.
@@ -34,7 +41,15 @@ This wiki follows the LLM-maintained wiki pattern, adapted for genealogical rese
 - Treat atomic claims as the foundation of the system. A biography, family tree, or narrative may summarize claims, but claims are the auditable units.
 - Keep relationship assertions separate from person pages and assign relationship type, status, confidence, and evidence.
 - Keep source transcription, translation, interpretation, and uncertainty in separate sections.
-- Context research is allowed only when tied to a person, relationship, event, place, source, photo, or narrative chapter.
+- Context research is allowed only when it explains the lived history of this family through a person, relationship, event, place, source, photo, or narrative chapter.
+- Every canonical person page should eventually have a narrative layer: a sourced life story in `wiki/narratives/` built only from accepted or probable claims plus relevant family-specific historical context.
+- Treat `raw/chunks/` as non-interpretive navigation aids. Chunks may repeat source text and provenance, but they must not add summaries, normalized facts, or claims.
+- Treat `research/_conversion-review/` as the quality gate between verbatim conversion and research extraction. Queue suspicious readings, likely name drift, and family-relevant pages there without editing converted Markdown.
+- Treat QC-held pages as page-specific extraction blocks. Do not freeze a whole archive when only exact pages or regions need reread.
+- Treat old OCR, text-layer, or image-only page outputs as repair inputs unless they satisfy the current full page conversion contract.
+- Put LLM-derived source packets, claims, relationship candidates, identity candidates, and person-page updates in `research/_staging/` first.
+- Only a review/promotion pass, performed by the `wiki_promoter` role or an equivalent explicit human direction, may move staged material into canonical wiki folders.
+- Keep research navigation, plans, logs, questions, and tasks in `research/`. Keep `wiki/` focused on the genealogy product and family-tree view.
 
 ## Lineage-First Architecture
 
@@ -48,23 +63,33 @@ The wiki can still cross-link freely, but this hierarchy is the default path for
 
 When a new source arrives:
 
-1. Add it to `raw/sources/` or `raw/converted/`.
-2. For raw media, use `genealogy-wiki material` to stage the file, create a source page, and create a dynamic packet without assuming a record-specific schema.
-3. For scanned or image-based material, use `genealogy-wiki codex-job` to prepare page work orders for local Codex conversion.
-4. Convert page work orders into Markdown under the job's `page-markdown/` folder, then assemble with `genealogy-wiki codex-assemble`.
-5. For already converted Markdown, create or update one page under `wiki/sources/` and a source packet under `wiki/source-packets/`.
-6. Keep separated transcription, translation, interpretation, and uncertainty sections.
-7. Extract asserted facts into atomic claim pages under `wiki/claims/`.
-8. Create or update relationship assertions under `wiki/relationships/`.
-9. Update person, family, branch, place, event, photo, conflict, identity-candidate, and task pages as needed.
-10. Update `wiki/index.md`.
-11. Append an entry to `wiki/log.md`.
+1. Add it to `raw/sources/`.
+2. Run `genealogy-wiki prepare-sources --root .` to inventory sources, split large PDFs into page-range jobs, create missing Codex conversion jobs, assemble completed jobs, and chunk completed conversions.
+3. Run `genealogy-wiki conversion-qc --root .` to write page-level triage, reread queues, and suspected reading notes.
+4. Run `genealogy-wiki agent-queues --root . --stale-minutes 360` to write source-prep, conversion-QA, and evidence-extraction queues plus per-task prompt packets, release abandoned task leases, and reuse cached page-output reviews.
+5. Run `genealogy-wiki source-status --root .` to see which raw sources are usable, still converting, or held only on specific pages.
+6. Let source-prep Codex agents and page/range subagents consume queued work orders using the project skills. Workers should use `agent-task ... --no-refresh` during a bounded batch, then refresh queues once at the end. OCR and PDF text layers are hints only, not the conversion authority.
+7. Run conversion QA triage into `research/_conversion-review/` for large, noisy, handwritten, multilingual, tabular, or family-relevant sources.
+8. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and QA page queues.
+9. Keep separated transcription, translation, interpretation, uncertainty, and promotion recommendation sections in staged drafts.
+10. Review staged claims for literal support, source path, chunk/page reference, uncertainty, status, confidence, and conflicts.
+11. Promote reviewed material into `wiki/claims/`, `wiki/relationships/`, and person/family/narrative/tree pages only after review; source packets and transcriptions stay in `research/`.
+12. Update `wiki/index.md`.
+13. Append a backstage entry to `research/log.md`.
+
+## Post-Conversion Agent Workflow
+
+After conversion, use this order:
+
+`raw/converted/` + `raw/chunks/` -> `genealogy-wiki conversion-qc` -> `research/_conversion-review/` QA triage -> `research/_staging/` source packets -> staged claims -> proof review -> canonical wiki promotion.
+
+Staged outputs must include source path, chunk or page reference, literal support, uncertainty notes, proposed claim status, and a promotion recommendation. Canonical pages should cite reviewed staged evidence, not raw chunks directly. Parallel subagents are optional and must be explicitly requested by the user.
 
 ## Query Workflow
 
 When answering a genealogy question:
 
-1. Read `wiki/index.md` first.
+1. Read `wiki/index.md` first for the family-history product, then check `research/index.md` only when source or task context is needed.
 2. Read the relevant person, family, source, evidence, conflict, and place pages.
 3. Answer with citations to wiki pages and source pages.
 4. If the answer creates a useful synthesis, file it as a new or updated wiki page.
@@ -80,7 +105,8 @@ Periodically check for:
 - Conflicting dates, places, names, or relationships not represented in `wiki/conflicts/`.
 - Orphaned pages missing links from `wiki/index.md`.
 - Source pages that do not list extracted claims.
-- Open questions that have no next action.
+- Source pages missing source reliability notes.
+- Research questions in `research/questions/` that have no next action.
 - Possible duplicates that need identity analysis.
 - Claim pages missing status, confidence, source, or evidence.
 - Relationship pages missing relationship type, status, confidence, or supporting claims.
@@ -110,20 +136,26 @@ Inside facts, cite the source footnote:
 - Branches: `branches/branch-name.md`
 - Relationships: `relationships/R001-person-person-relationship.md`
 - Events: `events/EV001-short-event.md`
-- Sources: `sources/S001-short-title.md`
-- Source packets: `source-packets/SP001-short-title.md`
+- Research sources: `research/sources/S001-short-title.md`
+- Research source packets: `research/source-packets/SP001-short-title.md`
 - Claims: `claims/CL001-short-claim.md`
+- Conversion QA: `research/_conversion-review/<triage|page-queues|corrections>/<source-id>.md`
+- Staged drafts: `research/_staging/<workflow>/<draft-id>.md`
 - Identity: `identity/ID001-person-candidates.md`
 - Photos: `photos/PH001-short-description.md`
 - Face clusters: `photos/FC001-unknown-cluster.md`
-- Tasks: `tasks/T001-short-task.md`
+- Research tasks: `research/tasks/T001-short-task.md`
 - Narratives: `narratives/N001-short-title.md`
 - Conflicts: `conflicts/C001-short-topic.md`
-- Questions: `questions/Q001-short-question.md`
+- Research questions: `research/questions/Q001-short-question.md`
 """
 
 
 INDEX_TEMPLATE = """# Genealogy Wiki Index
+
+## Family Tree
+
+- [[Family Tree]]
 
 ## People
 
@@ -137,10 +169,6 @@ INDEX_TEMPLATE = """# Genealogy Wiki Index
 
 ## Places
 
-## Sources
-
-## Source Packets
-
 ## Claims
 
 ## Evidence
@@ -151,15 +179,28 @@ INDEX_TEMPLATE = """# Genealogy Wiki Index
 
 ## Photos And Face Clusters
 
-## Research Questions
-
-## Research Tasks
-
 ## Narratives
 
 ## Context
 
 ## Timelines
+"""
+
+
+FAMILY_TREE_TEMPLATE = """---
+type: tree
+status: generated
+tags: [tree]
+---
+
+# Family Tree
+
+```mermaid
+flowchart TD
+  empty[No relationship pages found]
+```
+
+Generated from `wiki/relationships/`, not from a separate database.
 """
 
 
@@ -173,15 +214,80 @@ LOG_TEMPLATE = """# Genealogy Wiki Log
 
 RESEARCH_PLAN_TEMPLATE = """# Research Plan
 
+This is the research-vault work queue. Agents should keep it useful for online research, archive follow-up, source review, and unresolved proof problems.
+
+## Current Focus
+
 ## Priority Questions
 
 ## Next Searches
+
+## Sources To Find Or Review
 
 ## Hypotheses To Test
 
 ## Negative Searches
 
 ## Lineage Goals
+
+## Recently Promoted Findings
+"""
+
+
+RESEARCH_INDEX_TEMPLATE = """# Research Vault Index
+
+## Start Here
+
+- [[00 Research Start]]
+- [[research-plan]]
+- [[Conversion Dashboard]]
+- [[log]]
+
+## Sources
+
+## Source Packets
+
+## Source Transcriptions
+
+## Conversion Views
+
+## Agent Work
+
+## Questions
+
+## Tasks
+
+## Staging
+"""
+
+
+RESEARCH_START_TEMPLATE = """# Research Start
+
+This Obsidian vault drives the source engine and agent stack.
+
+Use this vault for source intake, conversion review, page-level transcription, staged extraction, and proof-review handoff. Use the sibling `wiki/` vault for the final family-history product, lineage pages, narratives, and tree views.
+
+## Working Flow
+
+1. Put immutable source files under `raw/sources/`.
+2. Prepare conversion jobs, assembled Markdown, chunks, and source inventories under `raw/`.
+3. Inspect prepared conversions from [[Conversion Dashboard]] and page-level transcription notes.
+4. Put QA notes under `_conversion-review/` and LLM-derived drafts under `_staging/`.
+5. Promote reviewed claims, relationships, people, families, narratives, and tree updates into `wiki/`.
+
+## Boundaries
+
+- `sources`, `source-packets`, and `sources/transcriptions` are the research/source view.
+- `questions`, `tasks`, `research-plan`, `_conversion-review`, `_staging`, `_agents`, `_indexes`, and `_templates` are the agent stack.
+- The `wiki/` vault is the readable family-history product and should not receive unreviewed extraction drafts.
+"""
+
+
+RESEARCH_LOG_TEMPLATE = """# Research Vault Log
+
+## [{today}] init | Research vault created
+
+- Created the source/research vault, source shelves, conversion review folders, staging folders, agent folders, indexes, and templates.
 """
 
 
@@ -244,6 +350,11 @@ death_year:
 ## Evidence Summary
 
 ## Atomic Claims
+
+## Narrative
+
+- Life story: link to `wiki/narratives/` page when enough accepted or probable claims exist.
+- Historical context: link only to context that explains this person's life, family, migration, work, community, conflict, or records.
 
 ## Conflicts And Uncertainty
 
@@ -332,6 +443,11 @@ branch:
     "source.md": """---
 type: source
 status: draft
+source_reliability: unknown
+source_reliability_score: 0.0
+source_type:
+evidence_type:
+informant_proximity:
 tags: [source]
 ---
 
@@ -346,7 +462,15 @@ tags: [source]
 - Place:
 - File:
 - Source packet:
-- Reliability:
+
+## Source Reliability
+
+- Reliability class: original, derivative, authored, index, transcript, abstract, oral-history, unknown.
+- Reliability score: 0-10.
+- Evidence type: primary, secondary, mixed, unknown.
+- Informant proximity: direct participant, witness, official recorder, family informant, later compiler, unknown.
+- Bias or limitation:
+- Reliability notes:
 
 ## Transcription Or Abstract
 
@@ -364,6 +488,10 @@ type: source_packet
 status: draft
 source_id:
 source_kind:
+source_reliability: unknown
+source_reliability_score: 0.0
+evidence_type:
+informant_proximity:
 raw_file:
 created:
 tags: [source-packet]
@@ -372,6 +500,15 @@ tags: [source-packet]
 # Source Packet
 
 ## Source Identity
+
+## Source Reliability
+
+- Reliability class:
+- Reliability score:
+- Evidence type:
+- Informant proximity:
+- Bias or limitation:
+- Reliability notes:
 
 ## Page And Image Map
 
@@ -408,6 +545,9 @@ date:
 place:
 source:
 source_packet:
+source_reliability:
+source_reliability_score:
+conversion_confidence:
 relationship:
 tags: [claim]
 ---
@@ -422,7 +562,21 @@ Use one of: `draft`, `accepted`, `probable`, `possible`, `disputed`, `rejected`.
 
 ## Confidence
 
-Use a 0-10 score and explain why.
+Use a 0-10 claim-confidence score and explain why. Keep this separate from source reliability and conversion confidence.
+
+## Source Reliability
+
+- Reliability class:
+- Reliability score:
+- Evidence type:
+- Informant proximity:
+- Reliability effect on this claim:
+
+## Conversion Confidence
+
+- Reading confidence:
+- QA note:
+- Page or region reread needed:
 
 ## Literal Source Support
 
@@ -583,15 +737,21 @@ claim_scope: accepted_probable
 
 ## Scope
 
+- Subject:
+- Narrative type: individual biography, family chapter, branch history, migration story, source appendix, or uncertainty note.
+- Use only accepted or probable claims plus context directly relevant to this family.
+
 ## Draft Narrative
 
-Write only from accepted or probable wiki claims. Do not write directly from raw sources.
+Write the person's or family's story from accepted or probable wiki claims. Do not write directly from raw sources.
 
 ## Timeline
 
 ## Photo Captions
 
-## Historical Context
+## Family-Relevant Historical Context
+
+Include broader history only when it helps explain the subject's choices, constraints, records, migration, occupation, faith, language, community, conflict, illness, or legal status.
 
 ## Source Appendix
 
@@ -608,11 +768,13 @@ linked_entity:
 
 ## Linked Genealogy Entity
 
-Context is allowed only when linked to a person, relationship, place, event, source, photo, or narrative chapter.
+Context is allowed only when linked to a person, relationship, place, event, source, photo, or narrative chapter in this family history.
 
 ## Context Summary
 
-## Relevance To The Lineage
+## Relevance To This Family
+
+Explain how this context shaped or clarifies the family's lived experience, records, migration, occupation, community, or identity. Do not keep broad background notes that cannot answer that question.
 
 ## Sources
 """,
@@ -672,29 +834,39 @@ tags: [question]
 REQUIRED_DIRECTORIES = [
     ("raw", "sources"),
     ("raw", "converted"),
+    ("raw", "chunks"),
     ("raw", "assets"),
     ("raw", "codex-conversion-jobs"),
+    ("research",),
+    ("research", "sources"),
+    ("research", "sources", "transcriptions"),
+    ("research", "source-packets"),
+    ("research", "_assets"),
+    ("research", "_conversion-review"),
+    ("research", "_conversion-review", "triage"),
+    ("research", "_conversion-review", "page-queues"),
+    ("research", "_conversion-review", "corrections"),
+    ("research", "_staging"),
+    ("research", "_indexes"),
+    ("research", "_templates"),
+    ("research", "_agents"),
+    ("research", "questions"),
+    ("research", "tasks"),
     ("wiki", "branches"),
     ("wiki", "people"),
     ("wiki", "families"),
     ("wiki", "relationships"),
     ("wiki", "events"),
     ("wiki", "places"),
-    ("wiki", "sources"),
-    ("wiki", "source-packets"),
     ("wiki", "claims"),
     ("wiki", "evidence"),
     ("wiki", "conflicts"),
     ("wiki", "identity"),
     ("wiki", "photos"),
-    ("wiki", "questions"),
-    ("wiki", "tasks"),
     ("wiki", "narratives"),
     ("wiki", "context"),
     ("wiki", "timelines"),
     ("wiki", "trees"),
-    ("wiki", "_indexes"),
-    ("wiki", "_templates"),
 ]
 
 
@@ -707,12 +879,28 @@ class WikiPaths:
         return self.root / "raw"
 
     @property
+    def research(self) -> Path:
+        return self.root / "research"
+
+    @property
     def wiki(self) -> Path:
         return self.root / "wiki"
 
     @property
     def templates(self) -> Path:
-        return self.wiki / "_templates"
+        return self.research / "_templates"
+
+    @property
+    def staging(self) -> Path:
+        return self.research / "_staging"
+
+    @property
+    def conversion_review(self) -> Path:
+        return self.research / "_conversion-review"
+
+    @property
+    def indexes(self) -> Path:
+        return self.research / "_indexes"
 
 
 @dataclass(frozen=True)
@@ -751,6 +939,19 @@ class RelationshipRecord:
     evidence_against: str
 
 
+@dataclass(frozen=True)
+class PreparedSourceResult:
+    source: str
+    media_type: str
+    status: str
+    converted_file: str
+    chunk_manifest: str
+    warnings: list[str]
+    conversion_jobs: list[str] = field(default_factory=list)
+    converted_files: list[str] = field(default_factory=list)
+    chunk_manifests: list[str] = field(default_factory=list)
+
+
 def init_genealogy_wiki(root: Path, force: bool = False) -> list[Path]:
     paths = WikiPaths(root.resolve())
     created: list[Path] = []
@@ -761,9 +962,12 @@ def init_genealogy_wiki(root: Path, force: bool = False) -> list[Path]:
         created.append(directory)
 
     write_file(paths.root / "GENEALOGY_WIKI.md", GENEALOGY_SCHEMA, force, created)
+    write_file(paths.research / "00 Research Start.md", RESEARCH_START_TEMPLATE, force, created)
+    write_file(paths.research / "index.md", RESEARCH_INDEX_TEMPLATE, force, created)
+    write_file(paths.research / "log.md", RESEARCH_LOG_TEMPLATE.format(today=date.today().isoformat()), force, created)
+    write_file(paths.research / "research-plan.md", RESEARCH_PLAN_TEMPLATE, force, created)
+    write_file(paths.wiki / "Family Tree.md", FAMILY_TREE_TEMPLATE, force, created)
     write_file(paths.wiki / "index.md", INDEX_TEMPLATE, force, created)
-    write_file(paths.wiki / "log.md", LOG_TEMPLATE.format(today=date.today().isoformat()), force, created)
-    write_file(paths.wiki / "research-plan.md", RESEARCH_PLAN_TEMPLATE, force, created)
 
     for filename, content in TEMPLATES.items():
         write_file(paths.templates / filename, content, force, created)
@@ -779,16 +983,24 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
         paths.raw,
         paths.raw / "sources",
         paths.raw / "converted",
+        paths.raw / "chunks",
+        paths.research,
+        paths.research / "sources",
+        paths.research / "source-packets",
+        paths.research / "index.md",
+        paths.research / "log.md",
+        paths.research / "research-plan.md",
+        paths.research / "questions",
+        paths.research / "tasks",
         paths.wiki,
+        paths.wiki / "Family Tree.md",
         paths.wiki / "claims",
         paths.wiki / "relationships",
-        paths.wiki / "source-packets",
-        paths.wiki / "tasks",
         paths.wiki / "narratives",
-        paths.wiki / "_indexes",
+        paths.staging,
+        paths.indexes,
+        paths.templates,
         paths.wiki / "index.md",
-        paths.wiki / "log.md",
-        paths.wiki / "research-plan.md",
         paths.root / "GENEALOGY_WIKI.md",
     ]
     for path in required:
@@ -800,7 +1012,7 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
 
     index_text = read_text(paths.wiki / "index.md")
     for page in paths.wiki.rglob("*.md"):
-        if "_templates" in page.parts or page.name in {"index.md", "log.md", "research-plan.md"}:
+        if should_skip_wiki_lint_page(page):
             continue
         rel = page.relative_to(paths.wiki).as_posix()
         if rel not in index_text and f"[[{rel.removesuffix('.md')}]]" not in index_text:
@@ -835,6 +1047,14 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
     issues.extend(lint_chronology(paths.wiki))
 
     return issues
+
+
+def should_skip_wiki_lint_page(page: Path) -> bool:
+    parts = set(page.parts)
+    return (
+        page.name in {"index.md"}
+        or {"sources", "transcriptions"}.issubset(parts)
+    )
 
 
 def create_claim(
@@ -880,7 +1100,7 @@ def create_claim(
     for old, new in replacements.items():
         content = content.replace(old, new, 1)
     claim_path.write_text(content.strip() + "\n", encoding="utf-8")
-    append_log(paths.wiki / "log.md", f"claim | Created {claim_path.relative_to(paths.root).as_posix()}")
+    append_log(paths.research / "log.md", f"claim | Created {claim_path.relative_to(paths.root).as_posix()}")
     return claim_path
 
 
@@ -921,7 +1141,7 @@ def create_relationship(
     for old, new in replacements.items():
         content = content.replace(old, new, 1)
     relationship_path.write_text(content.strip() + "\n", encoding="utf-8")
-    append_log(paths.wiki / "log.md", f"relationship | Created {relationship_path.relative_to(paths.root).as_posix()}")
+    append_log(paths.research / "log.md", f"relationship | Created {relationship_path.relative_to(paths.root).as_posix()}")
     return relationship_path
 
 
@@ -934,7 +1154,7 @@ def create_source_packet(
     force: bool = False,
 ) -> Path:
     paths = WikiPaths(root.resolve())
-    packets_dir = paths.wiki / "source-packets"
+    packets_dir = paths.research / "source-packets"
     packets_dir.mkdir(parents=True, exist_ok=True)
     packet_path = packets_dir / f"{slug(packet_id)}-{slug(title)}.md"
     if packet_path.exists() and not force:
@@ -947,7 +1167,8 @@ def create_source_packet(
     content = content.replace("created:", f"created: {date.today().isoformat()}")
     content = content.replace("# Source Packet", f"# {title}")
     packet_path.write_text(content.strip() + "\n", encoding="utf-8")
-    append_log(paths.wiki / "log.md", f"source-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
+    append_index_reference(paths.research / "index.md", "Source Packets", f"[[source-packets/{packet_path.stem}]]")
+    append_log(paths.research / "log.md", f"source-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
     return packet_path
 
 
@@ -962,7 +1183,7 @@ def create_material_packet(
     force: bool = False,
 ) -> Path:
     paths = WikiPaths(root.resolve())
-    packets_dir = paths.wiki / "source-packets"
+    packets_dir = paths.research / "source-packets"
     packets_dir.mkdir(parents=True, exist_ok=True)
     packet_path = packets_dir / f"{slug(packet_id)}-{slug(title)}.md"
     if packet_path.exists() and not force:
@@ -991,9 +1212,9 @@ def create_material_packet(
         height=height,
     )
     packet_path.write_text(content.strip() + "\n", encoding="utf-8")
-    append_index_reference(paths.wiki / "index.md", "Sources", f"[[sources/{source_page.stem}]]")
-    append_index_reference(paths.wiki / "index.md", "Source Packets", f"[[source-packets/{packet_path.stem}]]")
-    append_log(paths.wiki / "log.md", f"material-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
+    append_index_reference(paths.research / "index.md", "Sources", f"[[sources/{source_page.stem}]]")
+    append_index_reference(paths.research / "index.md", "Source Packets", f"[[source-packets/{packet_path.stem}]]")
+    append_log(paths.research / "log.md", f"material-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
     return packet_path
 
 
@@ -1020,7 +1241,8 @@ def write_material_source_page(
     source_kind: str,
     force: bool = False,
 ) -> Path:
-    source_dir = root / "wiki" / "sources"
+    paths = WikiPaths(root.resolve())
+    source_dir = paths.research / "sources"
     source_dir.mkdir(parents=True, exist_ok=True)
     source_page = source_dir / f"{slug(packet_id)}-{slug(title)}.md"
     if source_page.exists() and not force:
@@ -1079,9 +1301,10 @@ def build_material_packet_content(
     width: int | None,
     height: int | None,
 ) -> str:
+    paths = WikiPaths(root.resolve())
     raw_path = relative_to_root(source_file, root)
     source_link = f"[[sources/{source_page.stem}]]"
-    packet_dir = root / "wiki" / "source-packets"
+    packet_dir = paths.research / "source-packets"
     media_link = relative_path(packet_dir, source_file)
     preview = f"![Source image]({media_link})" if media_type == "image" else f"[Source file]({media_link})"
     feature_lines = "\n".join(f"- {feature}" for feature in features) if features else "- To be profiled dynamically."
@@ -1236,6 +1459,8 @@ def detect_media_type(path: Path) -> str:
         return "audio"
     if suffix in {".mp4", ".mov", ".avi", ".mkv", ".webm"}:
         return "video"
+    if suffix in {".doc", ".docx", ".rtf", ".odt"}:
+        return "document"
     if suffix in {".txt", ".md", ".csv", ".tsv", ".json", ".xml", ".html", ".htm"}:
         return "text"
     return "binary"
@@ -1262,7 +1487,7 @@ def create_codex_conversion_job(
     job_id: str,
     title: str,
     page_range: str | None = None,
-    image_scale: float = 0.5,
+    image_scale: float = 2.0,
     force: bool = False,
 ) -> Path:
     paths = WikiPaths(root.resolve())
@@ -1282,10 +1507,12 @@ def create_codex_conversion_job(
     pages_dir = job_dir / "page-images"
     work_dir = job_dir / "work-orders"
     output_dir = job_dir / "page-markdown"
-    for directory in (source_dir, pages_dir, work_dir, output_dir):
+    extracted_images_dir = job_dir / "extracted-images"
+    for directory in (source_dir, pages_dir, work_dir, output_dir, extracted_images_dir):
         directory.mkdir(parents=True, exist_ok=True)
 
-    staged_source = source_dir / source_file.name
+    source_sha256 = file_sha256(source_file)
+    staged_source = source_dir / staged_source_filename(source_file, source_sha256)
     if source_file != staged_source.resolve():
         shutil.copy2(source_file, staged_source)
 
@@ -1295,13 +1522,23 @@ def create_codex_conversion_job(
         "job_id": job_id,
         "title": title,
         "source_file": relative_to_root(staged_source, paths.root),
+        "source_sha256": source_sha256,
+        "source_bytes": staged_source.stat().st_size,
         "media_type": media_type,
         "created": date.today().isoformat(),
         "conversion_engine": "codex-thread-vision",
         "status": "prepared",
+        "chunking": {
+            "unit": "page",
+            "max_pages_per_work_order": 1,
+            "page_range": page_range or "all",
+            "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally.",
+        },
+        "extracted_images_dir": relative_to_root(extracted_images_dir, paths.root),
         "instructions": [
             "Convert each page from the rendered page image using Codex vision in this workspace.",
             "Write one Markdown file per page under page-markdown/.",
+            "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
             "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
             "Do not modernize spelling or silently repair source errors.",
         ],
@@ -1311,6 +1548,12 @@ def create_codex_conversion_job(
         page_no = spec["page"]
         output_path = output_dir / f"page-{page_no:04d}.md"
         work_order_path = work_dir / f"page-{page_no:04d}.md"
+        page_image_path = Path(str(spec["image_path"]))
+        page_image_output_dir = extracted_images_dir / f"page-{page_no:04d}"
+        page_image_output_dir.mkdir(parents=True, exist_ok=True)
+        spec["image_sha256"] = file_sha256(page_image_path)
+        spec["image_path"] = relative_to_root(page_image_path, paths.root)
+        spec["image_output_dir"] = relative_to_root(page_image_output_dir, paths.root)
         spec["output_path"] = relative_to_root(output_path, paths.root)
         spec["work_order_path"] = relative_to_root(work_order_path, paths.root)
         spec["status"] = "todo"
@@ -1323,7 +1566,7 @@ def create_codex_conversion_job(
     manifest_path = job_dir / "manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     (job_dir / "README.md").write_text(build_codex_job_readme(paths.root, manifest_path, manifest), encoding="utf-8")
-    append_log(paths.wiki / "log.md", f"codex-conversion-job | Prepared {manifest_path.relative_to(paths.root).as_posix()}")
+    append_log(paths.research / "log.md", f"codex-conversion-job | Prepared {manifest_path.relative_to(paths.root).as_posix()}")
     return manifest_path
 
 
@@ -1417,12 +1660,14 @@ def parse_page_range(page_range: str | None, page_count: int) -> list[int]:
 
 def build_codex_page_work_order(root: Path, job_id: str, title: str, page: dict[str, object], output_path: Path) -> str:
     image_abs = (root / str(page["image_path"])).resolve()
+    image_output_abs = (root / str(page["image_output_dir"])).resolve()
     return f"""# Codex Conversion Work Order
 
 - Job: {job_id}
 - Title: {title}
 - Page: {page["page"]}
 - Source image: `{image_abs}`
+- Extracted image output folder: `{image_output_abs}`
 - Output file: `{output_path.resolve()}`
 - Status: todo
 
@@ -1437,6 +1682,13 @@ Preserve:
 - literal spelling, punctuation, line breaks where genealogically meaningful, and uncertain readings
 - separation between transcription, translation, interpretation, and uncertainty
 
+Extract images:
+
+- Crop every meaningful non-text visual region from the source image into the extracted image output folder.
+- Name crops `page-{int(page["page"]):04d}-image-01.png`, `page-{int(page["page"]):04d}-image-02.png`, and so on.
+- Insert each crop inline in the Markdown near its source position using descriptive alt text and the visible caption when present.
+- If a visible image cannot be cropped confidently, add an uncertainty note with its approximate location and reason.
+
 Use this page-level structure:
 
 ```markdown
@@ -1449,6 +1701,8 @@ Use this page-level structure:
 ## Literal Transcription
 
 ## Images, Captions, And Visual Notes
+
+Inline extracted images here, placed in reading order, with captions and crop uncertainty.
 
 ## Translation
 
@@ -1508,8 +1762,10 @@ def assemble_codex_conversion_job(root: Path, manifest_path: Path, out: Path | N
         "## Conversion Metadata",
         "",
         f"- Source: `{manifest['source_file']}`",
+        f"- Source SHA-256: `{manifest.get('source_sha256', '')}`",
         f"- Manifest: `{relative_to_root(manifest_path, paths.root)}`",
         "- Conversion method: Codex local vision workbench",
+        f"- Extracted images: `{manifest.get('extracted_images_dir', '')}`",
         "",
     ]
     for page in manifest.get("pages", []):
@@ -1525,8 +1781,3539 @@ def assemble_codex_conversion_job(root: Path, manifest_path: Path, out: Path | N
         parts.extend(["## Missing Pages", "", missing_list, ""])
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
-    append_log(paths.wiki / "log.md", f"codex-conversion-job | Assembled {output_path.relative_to(paths.root).as_posix()}")
+    append_log(paths.research / "log.md", f"codex-conversion-job | Assembled {output_path.relative_to(paths.root).as_posix()}")
     return output_path
+
+
+def prepare_raw_sources(
+    root: Path,
+    force: bool = False,
+    page_range: str | None = None,
+    image_scale: float = 2.0,
+    pages_per_job: int = 50,
+    max_chars: int = 12000,
+) -> list[PreparedSourceResult]:
+    """Create or advance Codex-agent conversion jobs for every raw source.
+
+    This is the simplified primary path: drop files into raw/sources, run one
+    command, and let the source-prep agent queue page-scoped Codex conversion
+    jobs. OCR and PDF text layers are only possible signals inside the page
+    conversion workflow; they are not treated as the converter.
+    """
+    paths = WikiPaths(root.resolve())
+    raw_sources = paths.raw / "sources"
+    results: list[PreparedSourceResult] = []
+
+    for source in sorted(raw_sources.rglob("*")):
+        if not source.is_file() or source.name == ".gitkeep":
+            continue
+        results.append(
+            prepare_raw_source_for_agent_conversion(
+                paths.root,
+                source,
+                force=force,
+                page_range=page_range,
+                image_scale=image_scale,
+                pages_per_job=pages_per_job,
+                max_chars=max_chars,
+            )
+        )
+
+    write_source_prep_index(paths.root)
+    if results:
+        append_log(paths.research / "log.md", f"prepare-sources | Prepared {len(results)} raw source(s)")
+    return results
+
+
+def prepare_raw_source_for_agent_conversion(
+    root: Path,
+    source: Path,
+    force: bool = False,
+    page_range: str | None = None,
+    image_scale: float = 2.0,
+    pages_per_job: int = 50,
+    max_chars: int = 12000,
+) -> PreparedSourceResult:
+    paths = WikiPaths(root.resolve())
+    source = source.resolve()
+    digest = file_sha256(source)
+    media_type = detect_media_type(source)
+    warnings: list[str] = []
+
+    jobs = source_prep_jobs_by_hash(paths.root).get(digest, [])
+    if jobs and not force:
+        job_manifests = [paths.root / str(job["manifest"]) for job in jobs]
+    else:
+        job_manifests = create_agent_conversion_jobs_for_source(
+            paths.root,
+            source,
+            digest=digest,
+            page_range=page_range,
+            image_scale=image_scale,
+            pages_per_job=pages_per_job,
+            force=force,
+        )
+
+    job_statuses: list[str] = []
+    converted_files: list[str] = []
+    chunk_manifests: list[str] = []
+    for job_manifest in job_manifests:
+        job_statuses.append(advance_agent_conversion_job(paths.root, job_manifest))
+        converted_file = converted_path_for_job(paths.root, {"manifest": relative_to_root(job_manifest, paths.root)})
+        if converted_file.exists():
+            converted_files.append(relative_to_root(converted_file, paths.root))
+            chunk_manifest_path = chunk_converted_markdown(paths.root, converted_file, max_chars=max_chars)
+            chunk_manifests.append(relative_to_root(chunk_manifest_path, paths.root))
+
+    status = summarize_prepared_source_status(job_statuses, converted_files)
+    converted_file = converted_files[0] if converted_files else ""
+    chunk_manifest = chunk_manifests[0] if chunk_manifests else ""
+
+    return PreparedSourceResult(
+        source=relative_to_root(source, paths.root),
+        media_type=media_type,
+        status=status,
+        converted_file=converted_file,
+        chunk_manifest=chunk_manifest,
+        warnings=warnings,
+        conversion_jobs=[relative_to_root(job_manifest, paths.root) for job_manifest in job_manifests],
+        converted_files=converted_files,
+        chunk_manifests=chunk_manifests,
+    )
+
+
+def create_agent_conversion_jobs_for_source(
+    root: Path,
+    source: Path,
+    digest: str,
+    page_range: str | None,
+    image_scale: float,
+    pages_per_job: int,
+    force: bool,
+) -> list[Path]:
+    media_type = detect_media_type(source)
+    if media_type != "pdf":
+        return [
+            create_codex_conversion_job(
+                root,
+                source,
+                job_id=agent_conversion_job_id(source, digest),
+                title=source.stem,
+                page_range=page_range,
+                image_scale=image_scale,
+                force=force,
+            )
+        ]
+
+    page_count = pdf_page_count(source)
+    selected_pages = parse_page_range(page_range, page_count)
+    page_groups = group_pages_for_agent_jobs(selected_pages, pages_per_job)
+    manifests: list[Path] = []
+    for group in page_groups:
+        group_range = format_page_range(group)
+        job_id = f"{agent_conversion_job_id(source, digest)}-p{group[0]:04d}-{group[-1]:04d}"
+        title = f"{source.stem} pages {group_range}"
+        manifests.append(
+            create_codex_conversion_job(
+                root,
+                source,
+                job_id=job_id,
+                title=title,
+                page_range=group_range,
+                image_scale=image_scale,
+                force=force,
+            )
+        )
+    return manifests
+
+
+def advance_agent_conversion_job(root: Path, manifest_path: Path) -> str:
+    if next_codex_conversion_work_order(root, manifest_path) is not None:
+        return "queued_for_agent_conversion"
+    output_path = assemble_codex_conversion_job(root, manifest_path)
+    return "assembled" if output_path.exists() else "queued_for_agent_conversion"
+
+
+def agent_conversion_job_id(source: Path, digest: str) -> str:
+    return f"CA{digest[:8]}-{slug(source.stem)[:24] or 'source'}"
+
+
+def summarize_prepared_source_status(job_statuses: list[str], converted_files: list[str]) -> str:
+    if not job_statuses:
+        return "no_sources"
+    if all(status == "assembled" for status in job_statuses):
+        return "assembled"
+    if converted_files:
+        return "partially_converted"
+    return "queued_for_agent_conversion"
+
+
+def group_pages_for_agent_jobs(pages: list[int], pages_per_job: int) -> list[list[int]]:
+    if pages_per_job < 1:
+        raise ValueError("pages_per_job must be at least 1")
+    return [pages[index : index + pages_per_job] for index in range(0, len(pages), pages_per_job)]
+
+
+def format_page_range(pages: list[int]) -> str:
+    if not pages:
+        return ""
+    ranges: list[str] = []
+    start = previous = pages[0]
+    for page in pages[1:]:
+        if page == previous + 1:
+            previous = page
+            continue
+        ranges.append(f"{start}-{previous}" if start != previous else str(start))
+        start = previous = page
+    ranges.append(f"{start}-{previous}" if start != previous else str(start))
+    return ",".join(ranges)
+
+
+def pdf_page_count(source: Path) -> int:
+    try:
+        import fitz
+    except ImportError as exc:
+        raise RuntimeError("PyMuPDF is required to batch PDF conversion jobs.") from exc
+
+    with fitz.open(source) as doc:
+        return len(doc)
+
+
+def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
+    paths = WikiPaths(root.resolve())
+    output_path = output or (paths.raw / "source-prep-manifest.json")
+    if not output_path.is_absolute():
+        output_path = paths.root / output_path
+
+    jobs_by_hash = source_prep_jobs_by_hash(paths.root)
+    conversions_by_hash = source_prep_conversions_by_hash(paths.root)
+    sources = []
+    for source in sorted((paths.raw / "sources").rglob("*")):
+        if not source.is_file() or source.name == ".gitkeep":
+            continue
+        digest = file_sha256(source)
+        jobs = jobs_by_hash.get(digest, [])
+        conversions = conversions_by_hash.get(digest, [])
+        sources.append(
+            {
+                "id": f"SRC-{digest[:12]}",
+                "title": source.stem,
+                "raw_path": relative_to_root(source, paths.root),
+                "media_type": detect_media_type(source),
+                "bytes": source.stat().st_size,
+                "sha256": digest,
+                "status": source_prep_status(jobs, conversions),
+                "conversion_jobs": jobs,
+                "converted_sources": conversions,
+            }
+        )
+
+    manifest = {
+        "created": date.today().isoformat(),
+        "source_root": "raw/sources",
+        "purpose": "Inventory raw source files before document-preparation conversion.",
+        "pipeline_stage": "source-prep",
+        "sources": sources,
+    }
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
+    return output_path
+
+
+def chunk_converted_markdown(
+    root: Path,
+    converted_file: Path,
+    output_dir: Path | None = None,
+    max_chars: int = 12000,
+) -> Path:
+    if max_chars < 1000:
+        raise ValueError("max_chars must be at least 1000")
+
+    paths = WikiPaths(root.resolve())
+    converted_file = converted_file if converted_file.is_absolute() else paths.root / converted_file
+    converted_file = converted_file.resolve()
+    if not converted_file.exists():
+        raise FileNotFoundError(converted_file)
+
+    chunk_dir = output_dir or (paths.raw / "chunks" / slug(converted_file.stem))
+    if not chunk_dir.is_absolute():
+        chunk_dir = paths.root / chunk_dir
+    chunk_dir.mkdir(parents=True, exist_ok=True)
+
+    text = converted_file.read_text(encoding="utf-8")
+    converted_hash = file_sha256(converted_file)
+    source_path, source_hash, source_manifest = parse_conversion_metadata(text)
+    chunks = []
+    chunk_number = 1
+
+    for page_number, page_text in split_page_markdown(text):
+        for part_number, chunk_text in enumerate(split_chunk_text(page_text, max_chars), start=1):
+            chunk_id = f"CHUNK-{converted_hash[:12]}-P{page_number:04d}-{part_number:02d}"
+            chunk_path = chunk_dir / f"page-{page_number:04d}-chunk-{part_number:02d}.md"
+            content = build_chunk_markdown(
+                chunk_id=chunk_id,
+                converted_file=relative_to_root(converted_file, paths.root),
+                converted_hash=converted_hash,
+                source_path=source_path,
+                source_hash=source_hash,
+                source_manifest=source_manifest,
+                page_number=page_number,
+                part_number=part_number,
+                chunk_text=chunk_text,
+            )
+            chunk_path.write_text(content, encoding="utf-8")
+            chunks.append(
+                {
+                    "chunk_id": chunk_id,
+                    "chunk_number": chunk_number,
+                    "path": relative_to_root(chunk_path, paths.root),
+                    "page_start": page_number,
+                    "page_end": page_number,
+                    "part": part_number,
+                    "chars": len(chunk_text),
+                    "sha256": file_sha256(chunk_path),
+                }
+            )
+            chunk_number += 1
+
+    manifest = {
+        "created": date.today().isoformat(),
+        "converted_file": relative_to_root(converted_file, paths.root),
+        "converted_sha256": converted_hash,
+        "source": source_path,
+        "source_sha256": source_hash,
+        "source_manifest": source_manifest,
+        "chunking": {
+            "unit": "page",
+            "max_chars": max_chars,
+            "overflow": "split within page by Markdown sections and paragraph boundaries",
+        },
+        "chunks": chunks,
+    }
+    manifest_path = chunk_dir / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
+    append_log(paths.research / "log.md", f"prep-chunk | Wrote {manifest_path.relative_to(paths.root).as_posix()}")
+    return manifest_path
+
+
+def write_post_conversion_qc(root: Path, output_dir: Path | None = None) -> list[Path]:
+    """Write page-level conversion QC artifacts without editing conversions.
+
+    This is the post-conversion loop: find pages that are obviously poor,
+    family-relevant, or suspicious compared with known wiki names, then queue
+    only those exact pages/regions for careful reread.
+    """
+    paths = WikiPaths(root.resolve())
+    review_dir = output_dir or paths.conversion_review
+    if not review_dir.is_absolute():
+        review_dir = paths.root / review_dir
+    triage_dir = review_dir / "triage"
+    queue_dir = review_dir / "page-queues"
+    correction_dir = review_dir / "corrections"
+    for directory in (triage_dir, queue_dir, correction_dir):
+        directory.mkdir(parents=True, exist_ok=True)
+
+    family_terms = build_family_context_terms(paths.root)
+    index_entries = []
+    page_index_entries = []
+    written: list[Path] = []
+    for manifest_path in sorted((paths.raw / "chunks").glob("*/manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        converted_file = paths.root / str(manifest.get("converted_file", ""))
+        if not converted_file.exists():
+            continue
+        page_reviews = analyze_converted_source_pages(paths.root, converted_file, manifest_path, family_terms)
+        source_slug = slug(converted_file.stem)
+        for review in page_reviews:
+            page_index_entries.append(
+                {
+                    "converted_file": relative_to_root(converted_file, paths.root),
+                    "chunk_manifest": relative_to_root(manifest_path, paths.root),
+                    "source_manifest": str(manifest.get("source_manifest", "")),
+                    "page": review["page"],
+                    "recommended_action": review["recommended_action"],
+                    "conversion_confidence": review["conversion_confidence"],
+                    "family_relevance": review["family_relevance"],
+                    "quality_flags": review["quality_flags"],
+                    "matched_terms": review["matched_terms"],
+                    "suspicious_readings": review["suspicious_readings"],
+                }
+            )
+
+        triage_path = triage_dir / f"{source_slug}.md"
+        triage_path.write_text(
+            build_conversion_qc_triage_markdown(paths.root, converted_file, manifest_path, page_reviews),
+            encoding="utf-8",
+        )
+        written.append(triage_path)
+
+        queued_pages = [review for review in page_reviews if review["recommended_action"] != "pass"]
+        queue_path = queue_dir / f"{source_slug}.md"
+        queue_path.write_text(
+            build_conversion_qc_page_queue_markdown(paths.root, converted_file, manifest_path, queued_pages),
+            encoding="utf-8",
+        )
+        written.append(queue_path)
+
+        corrections = [
+            correction
+            for review in page_reviews
+            for correction in review.get("suspicious_readings", [])
+            if isinstance(correction, dict)
+        ]
+        correction_path = correction_dir / f"{source_slug}.md"
+        correction_path.write_text(
+            build_conversion_qc_corrections_markdown(paths.root, converted_file, manifest_path, corrections),
+            encoding="utf-8",
+        )
+        written.append(correction_path)
+
+        index_entries.append(
+            {
+                "converted_file": relative_to_root(converted_file, paths.root),
+                "chunk_manifest": relative_to_root(manifest_path, paths.root),
+                "page_count": len(page_reviews),
+                "queued_pages": len(queued_pages),
+                "suspected_corrections": len(corrections),
+                "triage": relative_to_root(triage_path, paths.root),
+                "page_queue": relative_to_root(queue_path, paths.root),
+                "corrections": relative_to_root(correction_path, paths.root),
+            }
+        )
+
+    index_path = review_dir / "qc-index.json"
+    index_path.write_text(
+        json.dumps(
+            {
+                "created": date.today().isoformat(),
+                "purpose": "Page-level post-conversion quality control queue.",
+                "family_context_terms": sorted(family_terms.values()),
+                "sources": index_entries,
+            },
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    written.append(index_path)
+    page_index_path = review_dir / "qc-pages.json"
+    page_index_path.write_text(
+        json.dumps(
+            {
+                "created": date.today().isoformat(),
+                "purpose": "Page-level QC decisions used to block unsafe extraction.",
+                "pages": page_index_entries,
+            },
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    written.append(page_index_path)
+    append_log(paths.research / "log.md", f"conversion-qc | Wrote {len(written)} QC artifact(s)")
+    return written
+
+
+def analyze_converted_source_pages(
+    root: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    family_terms: dict[str, str],
+) -> list[dict[str, object]]:
+    text = converted_file.read_text(encoding="utf-8")
+    reviews = []
+    for page_number, page_text in split_page_markdown(text):
+        reviews.append(analyze_conversion_page(root, converted_file, chunk_manifest, page_number, page_text, family_terms))
+    return reviews
+
+
+def analyze_conversion_page(
+    root: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    page_number: int,
+    page_text: str,
+    family_terms: dict[str, str],
+) -> dict[str, object]:
+    status, base_flags = assess_conversion_page_quality(page_text)
+    flags = list(dict.fromkeys(base_flags + detect_conversion_text_flags(page_text)))
+    matched_terms = find_family_context_matches(page_text, family_terms)
+    suspicious_readings = find_suspicious_name_readings(page_text, family_terms)
+    family_relevance = conversion_family_relevance(matched_terms, suspicious_readings)
+    recommended_action = conversion_recommended_action(flags, family_relevance, suspicious_readings)
+    confidence = conversion_confidence(flags, suspicious_readings)
+    return {
+        "converted_file": relative_to_root(converted_file, root),
+        "chunk_manifest": relative_to_root(chunk_manifest, root),
+        "page": page_number,
+        "status": status,
+        "quality_flags": flags,
+        "family_relevance": family_relevance,
+        "matched_terms": matched_terms,
+        "suspicious_readings": suspicious_readings,
+        "conversion_confidence": confidence,
+        "recommended_action": recommended_action,
+    }
+
+
+def detect_conversion_text_flags(page_text: str) -> list[str]:
+    flags: list[str] = []
+    lower_text = page_text.lower()
+    text_outside_fences = strip_fenced_code_blocks(page_text)
+    alpha_words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{2,}", page_text)
+    if "## literal transcription" not in lower_text:
+        flags.append("missing_literal_transcription_section")
+    missing_sections = [
+        section for section in SOURCE_PREP_REQUIRED_PAGE_SECTIONS if f"## {section.lower()}" not in lower_text
+    ]
+    if missing_sections:
+        flags.append("missing_conversion_contract_sections")
+    if len(alpha_words) < 15 and ("![source page]" in lower_text or "page image" in lower_text):
+        flags.append("image_only_or_too_little_text")
+    if len(alpha_words) < 8 and "[no automated transcription" in lower_text:
+        flags.append("no_transcription")
+    if page_text.count("[illegible]") + page_text.count("[?]") >= 5:
+        flags.append("many_uncertain_readings")
+    if re.search(r"\b[a-zA-Z]{25,}\b", page_text):
+        flags.append("possible_ocr_garbage_token")
+    if "\t" in text_outside_fences or re.search(r"\S\s{8,}\S", text_outside_fences):
+        flags.append("possible_table_layout_loss")
+    return flags
+
+
+def strip_fenced_code_blocks(text: str) -> str:
+    return re.sub(r"(?ms)^```.*?^```", "", text)
+
+
+def build_family_context_terms(root: Path) -> dict[str, str]:
+    terms: dict[str, str] = {}
+    wiki = root / "wiki"
+    research = root / "research"
+    candidates = []
+    for directory in (
+        wiki / "people",
+        wiki / "families",
+        wiki / "relationships",
+        wiki / "claims",
+        wiki / "identity",
+        wiki / "conflicts",
+        wiki / "narratives",
+        research / "source-packets",
+    ):
+        if directory.exists():
+            candidates.extend(sorted(directory.rglob("*.md")))
+    for path in candidates:
+        add_family_terms_from_text(path.stem.replace("-", " "), terms)
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for heading in re.findall(r"^#\s+(.+)$", text, flags=re.MULTILINE):
+            add_family_terms_from_text(heading, terms)
+        for link in extract_wikilinks(text):
+            add_family_terms_from_text(link.replace("/", " ").replace("-", " "), terms)
+    return terms
+
+
+FAMILY_CONTEXT_STOPWORDS = {
+    "claim",
+    "claims",
+    "source",
+    "sources",
+    "packet",
+    "family",
+    "families",
+    "person",
+    "relationship",
+    "possible",
+    "probable",
+    "accepted",
+    "draft",
+    "event",
+    "place",
+    "unknown",
+    "page",
+    "record",
+}
+
+
+def add_family_terms_from_text(text: str, terms: dict[str, str]) -> None:
+    words = [word for word in re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", text) if word.lower() not in FAMILY_CONTEXT_STOPWORDS]
+    for word in words:
+        key = word.lower()
+        if key not in terms or (terms[key].islower() and not word.islower()):
+            terms[key] = word
+    if 1 < len(words) <= 5:
+        phrase = " ".join(words)
+        terms.setdefault(phrase.lower(), phrase)
+
+
+def find_family_context_matches(page_text: str, family_terms: dict[str, str]) -> list[str]:
+    lower_text = page_text.lower()
+    matches = []
+    for key, label in family_terms.items():
+        if " " in key:
+            if key in lower_text:
+                matches.append(label)
+            continue
+        if re.search(rf"\b{re.escape(key)}\b", lower_text):
+            matches.append(label)
+    return sorted(set(matches))
+
+
+def find_suspicious_name_readings(page_text: str, family_terms: dict[str, str]) -> list[dict[str, str]]:
+    page_words = sorted(set(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", page_text)))
+    suspicious: list[dict[str, str]] = []
+    term_items = [(key, label) for key, label in family_terms.items() if " " not in key and len(key) >= 5]
+    for word in page_words:
+        lower_word = word.lower()
+        if lower_word in FAMILY_CONTEXT_STOPWORDS:
+            continue
+        for key, label in term_items:
+            if lower_word == key or abs(len(lower_word) - len(key)) > 2:
+                continue
+            if lower_word[0] != key[0]:
+                continue
+            distance = levenshtein_distance_bounded(lower_word, key, 2)
+            if distance is not None and 0 < distance <= 2:
+                if lower_word[-1] != key[-1] and not word[0].isupper():
+                    continue
+                suspicious.append(
+                    {
+                        "literal": word,
+                        "suspected": label,
+                        "reason": f"near match to known family context term `{label}`",
+                    }
+                )
+                break
+    return suspicious[:25]
+
+
+def levenshtein_distance_bounded(a: str, b: str, max_distance: int) -> int | None:
+    if abs(len(a) - len(b)) > max_distance:
+        return None
+    previous = list(range(len(b) + 1))
+    for index_a, char_a in enumerate(a, start=1):
+        current = [index_a]
+        row_min = current[0]
+        for index_b, char_b in enumerate(b, start=1):
+            cost = 0 if char_a == char_b else 1
+            current.append(min(current[-1] + 1, previous[index_b] + 1, previous[index_b - 1] + cost))
+            row_min = min(row_min, current[-1])
+        if row_min > max_distance:
+            return None
+        previous = current
+    return previous[-1] if previous[-1] <= max_distance else None
+
+
+def conversion_family_relevance(matched_terms: list[str], suspicious_readings: list[dict[str, str]]) -> str:
+    if suspicious_readings and matched_terms:
+        return "critical"
+    if suspicious_readings:
+        return "high"
+    if len(matched_terms) >= 3:
+        return "high"
+    if matched_terms:
+        return "medium"
+    return "none"
+
+
+def conversion_recommended_action(
+    flags: list[str],
+    family_relevance: str,
+    suspicious_readings: list[dict[str, str]],
+) -> str:
+    severe_flags = {"placeholder_transcription", "image_preserved_not_transcribed", "no_transcription"}
+    structural_flags = {
+        "image_only_or_too_little_text",
+        "possible_ocr_garbage_token",
+        "possible_table_layout_loss",
+        "many_uncertain_readings",
+    }
+    if severe_flags.intersection(flags):
+        return "reread-page"
+    if "text_layer_only" in flags:
+        return "reread-page"
+    if suspicious_readings:
+        return "reread-region"
+    if family_relevance in {"high", "critical"} and flags:
+        return "reread-page"
+    if structural_flags.intersection(flags):
+        return "spot-check"
+    return "pass"
+
+
+def conversion_confidence(flags: list[str], suspicious_readings: list[dict[str, str]]) -> str:
+    severe_flags = {"placeholder_transcription", "image_preserved_not_transcribed", "no_transcription"}
+    if severe_flags.intersection(flags):
+        return "low"
+    if suspicious_readings or flags:
+        return "medium"
+    return "high"
+
+
+def build_conversion_qc_triage_markdown(
+    root: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    page_reviews: list[dict[str, object]],
+) -> str:
+    lines = conversion_qc_header(root, "Conversion QC Triage", converted_file, chunk_manifest)
+    lines.extend(["## Page Summary", "", "| Page | Relevance | Confidence | Action | Flags | Matched Terms |", "| --- | --- | --- | --- | --- | --- |"])
+    for review in page_reviews:
+        lines.append(
+            "| "
+            f"{review['page']} | {review['family_relevance']} | {review['conversion_confidence']} | "
+            f"{review['recommended_action']} | {', '.join(review['quality_flags']) or 'none'} | "
+            f"{', '.join(review['matched_terms']) or 'none'} |"
+        )
+    lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_conversion_qc_page_queue_markdown(
+    root: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    queued_pages: list[dict[str, object]],
+) -> str:
+    lines = conversion_qc_header(root, "Conversion QC Page Queue", converted_file, chunk_manifest)
+    if not queued_pages:
+        lines.extend(["## Queued Pages", "", "No pages queued for reread.", ""])
+        return "\n".join(lines).rstrip() + "\n"
+    lines.extend(["## Queued Pages", ""])
+    for review in queued_pages:
+        lines.extend(
+            [
+                f"### Page {review['page']}",
+                "",
+                f"- Recommended action: `{review['recommended_action']}`",
+                f"- Conversion confidence: `{review['conversion_confidence']}`",
+                f"- Family relevance: `{review['family_relevance']}`",
+                f"- Quality flags: {', '.join(review['quality_flags']) or 'none'}",
+                f"- Matched family context: {', '.join(review['matched_terms']) or 'none'}",
+                "",
+            ]
+        )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_conversion_qc_corrections_markdown(
+    root: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    corrections: list[dict[str, str]],
+) -> str:
+    lines = conversion_qc_header(root, "Conversion QC Suspected Readings", converted_file, chunk_manifest)
+    if not corrections:
+        lines.extend(["## Suspected Readings", "", "No suspected readings generated by automatic QC.", ""])
+        return "\n".join(lines).rstrip() + "\n"
+    lines.extend(["## Suspected Readings", ""])
+    for correction in corrections:
+        lines.extend(
+            [
+                f"- Literal converted text: `{correction['literal']}`",
+                f"  Suspected reading: `{correction['suspected']}`",
+                f"  Reason: {correction['reason']}",
+                "  Verification target: reread the page image or exact region before using this in a claim.",
+                "",
+            ]
+        )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def conversion_qc_header(root: Path, title: str, converted_file: Path, chunk_manifest: Path) -> list[str]:
+    return [
+        f"# {title}: {converted_file.stem}",
+        "",
+        f"- Converted file: `{relative_to_root(converted_file, root)}`",
+        f"- Chunk manifest: `{relative_to_root(chunk_manifest, root)}`",
+        "- Rule: do not edit converted Markdown here; queue exact pages or regions for reread.",
+        "",
+    ]
+
+
+VAULT_TRANSCRIPTION_MAX_CHARS = 20000
+PAGE_STATUS_ORDER = ["editable", "needs_visual_review", "transcription_pending", "needs_visual_conversion"]
+QUALITY_FLAG_DESCRIPTIONS = {
+    "placeholder_transcription": "The batch pass did not transcribe visible text.",
+    "image_preserved_not_transcribed": "The page image was preserved, but the visible content still needs transcription.",
+    "text_layer_only": "The page came from an automated PDF text layer and needs visual comparison.",
+    "no_visual_crops": "No embedded image, stamp, signature, or layout crops were extracted.",
+    "encoding_mojibake": "The text contains likely character encoding damage.",
+    "missing_converted_markdown": "No assembled conversion exists for this page yet.",
+    "missing_conversion_contract_sections": "The page output does not follow the required source-prep conversion sections.",
+}
+MOJIBAKE_MARKERS = ("\u00c3", "\u00c2", "\ufffd", "\u00e2\u20ac")
+
+
+def assess_conversion_page_quality(page_text: str) -> tuple[str, list[str]]:
+    flags: list[str] = []
+    lower_text = page_text.lower()
+    if "[no visible text transcribed in this batch pass.]" in lower_text:
+        flags.append("placeholder_transcription")
+    if "full standalone image copied" in lower_text or "full image copied as extracted visual evidence" in lower_text:
+        flags.append("image_preserved_not_transcribed")
+    if "pdf text-layer extraction may omit" in lower_text or "automated text-layer batch pass" in lower_text:
+        flags.append("text_layer_only")
+    if "no image crop was extracted" in lower_text:
+        flags.append("no_visual_crops")
+    if any(marker in page_text for marker in MOJIBAKE_MARKERS):
+        flags.append("encoding_mojibake")
+
+    if "placeholder_transcription" in flags or "image_preserved_not_transcribed" in flags:
+        return "needs_visual_conversion", flags
+    if flags:
+        return "needs_visual_review", flags
+    return "editable", flags
+
+
+def source_status_from_page_records(page_records: list[dict[str, object]], converted_exists: bool) -> str:
+    if not converted_exists:
+        return "transcription_pending"
+    statuses = {str(record.get("status", "")) for record in page_records}
+    if "needs_visual_conversion" in statuses:
+        return "needs_visual_conversion"
+    if "transcription_pending" in statuses:
+        return "transcription_pending"
+    if "needs_visual_review" in statuses:
+        return "needs_visual_review"
+    if page_records:
+        return "editable"
+    return "transcription_pending"
+
+
+def count_page_statuses(page_records: list[dict[str, object]]) -> dict[str, int]:
+    counts = {status: 0 for status in PAGE_STATUS_ORDER}
+    for record in page_records:
+        status = str(record.get("status", "editable"))
+        counts[status] = counts.get(status, 0) + 1
+    return counts
+
+
+def yaml_inline_list(values: list[str]) -> str:
+    return "[" + ", ".join(json.dumps(value, ensure_ascii=False) for value in values) + "]"
+
+
+def quality_flags_for_record(record: dict[str, object]) -> list[str]:
+    flags = record.get("quality_flags", [])
+    if not isinstance(flags, list):
+        return []
+    return [str(flag) for flag in flags]
+
+
+def format_quality_flags_cell(flags: list[str]) -> str:
+    if not flags:
+        return "none"
+    return ", ".join(f"`{flag}`" for flag in flags)
+
+
+def build_quality_flags_section(flags: list[str]) -> str:
+    lines = ["## Quality Flags", ""]
+    if not flags:
+        lines.append("No automated quality flags.")
+    else:
+        lines.extend(f"- `{flag}`: {QUALITY_FLAG_DESCRIPTIONS.get(flag, 'Review before research use.')}" for flag in flags)
+    return "\n".join(lines)
+
+
+def update_existing_vault_page_quality(page_path: Path, status: str, flags: list[str]) -> bool:
+    if not page_path.exists():
+        return False
+    text = page_path.read_text(encoding="utf-8")
+    updated = update_frontmatter_value(text, "status", status)
+    updated = update_frontmatter_value(updated, "quality_flags", yaml_inline_list(flags))
+    updated = upsert_markdown_section(updated, "Quality Flags", build_quality_flags_section(flags), before_heading="Page Image")
+    if updated == text:
+        return False
+    page_path.write_text(updated, encoding="utf-8")
+    return True
+
+
+def update_frontmatter_value(text: str, key: str, value: str) -> str:
+    if not text.startswith("---\n"):
+        return text
+    end = text.find("\n---", 4)
+    if end == -1:
+        return text
+    frontmatter = text[4:end].strip("\n").splitlines()
+    replacement = f"{key}: {value}"
+    for index, line in enumerate(frontmatter):
+        if line.startswith(f"{key}:"):
+            frontmatter[index] = replacement
+            break
+    else:
+        frontmatter.append(replacement)
+    return "---\n" + "\n".join(frontmatter).rstrip() + "\n---" + text[end + 4 :]
+
+
+def upsert_markdown_section(text: str, heading: str, section: str, before_heading: str | None = None) -> str:
+    pattern = rf"(?ms)^## {re.escape(heading)}\n.*?(?=^## |\Z)"
+    if re.search(pattern, text):
+        return re.sub(pattern, section.rstrip() + "\n\n", text, count=1)
+    if before_heading:
+        marker = f"\n## {before_heading}\n"
+        if marker in text:
+            return text.replace(marker, "\n" + section.rstrip() + "\n\n" + f"## {before_heading}\n", 1)
+    return text.rstrip() + "\n\n" + section.rstrip() + "\n"
+
+
+def sync_vault_transcriptions(root: Path, force: bool = False) -> list[Path]:
+    """Expose conversions as small editable Obsidian source/page notes.
+
+    The flat note under research/sources/transcriptions is only an index. Editable
+    text lives in child page or page-part notes so Obsidian never has to render a
+    giant source in one buffer.
+    """
+    paths = WikiPaths(root.resolve())
+    manifest_path = paths.raw / "source-prep-manifest.json"
+    if not manifest_path.exists():
+        manifest_path = write_source_prep_index(paths.root)
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+
+    written: list[Path] = []
+    dashboard_rows = []
+    for source in manifest.get("sources", []):
+        job = first_available_conversion_job(paths.root, source)
+        if not job:
+            continue
+
+        source_page = find_or_default_source_page(paths.root, source)
+        source_stem = source_page.stem
+        transcription_index = paths.research / "sources" / "transcriptions" / f"{source_stem}.md"
+        pages_dir = paths.research / "sources" / "transcriptions" / source_stem
+        converted_file = converted_path_for_job(paths.root, job)
+        chunk_manifest = chunk_manifest_for_converted(paths.root, converted_file)
+        job_manifest = paths.root / job["manifest"]
+
+        archive_legacy_transcription_note(paths.root, transcription_index)
+        copy_conversion_assets_to_vault(paths.root, source_stem, job_manifest, force=force)
+        page_records, page_paths = write_vault_transcription_page_notes(
+            root=paths.root,
+            source=source,
+            source_page=source_page,
+            transcription_index=transcription_index,
+            pages_dir=pages_dir,
+            converted_file=converted_file,
+            chunk_manifest=chunk_manifest,
+            job_manifest=job_manifest,
+            source_stem=source_stem,
+            force=force,
+        )
+        written.extend(page_paths)
+
+        transcription_index.parent.mkdir(parents=True, exist_ok=True)
+        transcription_index.write_text(
+            build_vault_transcription_index_markdown(
+                root=paths.root,
+                source=source,
+                source_page=source_page,
+                transcription_index=transcription_index,
+                pages_dir=pages_dir,
+                converted_file=converted_file,
+                chunk_manifest=chunk_manifest,
+                job_manifest=job_manifest,
+                page_records=page_records,
+            ),
+            encoding="utf-8",
+        )
+        written.append(transcription_index)
+
+        update_source_page_with_transcription_link(source_page, transcription_index, paths.research)
+        source_status = source_status_from_page_records(page_records, converted_file.exists())
+        dashboard_rows.append(
+            {
+                "title": str(source.get("title", "")),
+                "status": source_status,
+                "source_page": source_page,
+                "transcription": transcription_index,
+                "page_count": len(page_records),
+                "status_counts": count_page_statuses(page_records),
+            }
+        )
+
+    write_conversion_dashboard(paths.root, dashboard_rows)
+    update_index_with_transcriptions(paths.root, dashboard_rows)
+    if written:
+        append_log(paths.research / "log.md", f"vault-transcriptions | Wrote {len(written)} index/page notes")
+    return written
+
+
+def first_available_conversion_job(root: Path, source: dict[str, object]) -> dict[str, str] | None:
+    jobs = [
+        {key: str(value) for key, value in job.items()}
+        for job in source.get("conversion_jobs", [])
+        if isinstance(job, dict) and job.get("manifest") and (root / str(job["manifest"])).exists()
+    ]
+    for job in jobs:
+        if converted_path_for_job(root, job).exists():
+            return job
+    return jobs[0] if jobs else None
+
+
+def converted_path_for_job(root: Path, job: dict[str, str]) -> Path:
+    manifest_path = root / job["manifest"]
+    return root / "raw" / "converted" / f"{manifest_path.parent.name}.codex.md"
+
+
+def chunk_manifest_for_converted(root: Path, converted_file: Path) -> Path:
+    return root / "raw" / "chunks" / slug(converted_file.stem) / "manifest.json"
+
+
+def find_or_default_source_page(root: Path, source: dict[str, object]) -> Path:
+    source_dir = WikiPaths(root.resolve()).research / "sources"
+    prefix = slug(str(source.get("id", "")))
+    title_slug = slug(str(source.get("title", "")))[:96]
+    exact = source_dir / f"{prefix}-{title_slug}.md"
+    if exact.exists():
+        return exact
+    matches = sorted(path for path in source_dir.glob(f"{prefix}-*.md") if path.parent == source_dir)
+    if matches:
+        return matches[0]
+    return exact
+
+
+def archive_legacy_transcription_note(root: Path, transcription_index: Path) -> None:
+    if not transcription_index.exists():
+        return
+    text = transcription_index.read_text(encoding="utf-8")
+    if "type: source_transcription_index" in text:
+        return
+    if "type: source_transcription" not in text and "# Page " not in text:
+        return
+    archive_dir = WikiPaths(root.resolve()).staging / "legacy-transcription-notes"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_path = archive_dir / f"{transcription_index.stem}.full.md"
+    if not archive_path.exists():
+        shutil.copy2(transcription_index, archive_path)
+
+
+def copy_conversion_assets_to_vault(root: Path, source_stem: str, manifest_path: Path, force: bool = False) -> None:
+    if not manifest_path.exists():
+        return
+    job_dir = manifest_path.parent
+    asset_root = WikiPaths(root.resolve()).research / "_assets" / "conversions" / source_stem
+    for folder_name in ["page-images", "extracted-images"]:
+        source_dir = job_dir / folder_name
+        if not source_dir.exists():
+            continue
+        destination_dir = asset_root / folder_name
+        for source_file in source_dir.rglob("*"):
+            if not source_file.is_file():
+                continue
+            destination = destination_dir / source_file.relative_to(source_dir)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            if force or not destination.exists():
+                shutil.copy2(source_file, destination)
+
+
+def write_vault_transcription_page_notes(
+    root: Path,
+    source: dict[str, object],
+    source_page: Path,
+    transcription_index: Path,
+    pages_dir: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    job_manifest: Path,
+    source_stem: str,
+    force: bool,
+) -> tuple[list[dict[str, object]], list[Path]]:
+    pages_dir.mkdir(parents=True, exist_ok=True)
+    manifest_pages = load_job_pages(root, job_manifest)
+    page_records: list[dict[str, object]] = []
+    written: list[Path] = []
+
+    if converted_file.exists():
+        converted_text = converted_file.read_text(encoding="utf-8")
+        for page_number, page_text in split_page_markdown(converted_text):
+            parts = split_chunk_text(page_text, VAULT_TRANSCRIPTION_MAX_CHARS)
+            for part_number, part_text in enumerate(parts, start=1):
+                split_page = len(parts) > 1
+                page_path = pages_dir / (
+                    f"page-{page_number:04d}-part-{part_number:02d}.md" if split_page else f"page-{page_number:04d}.md"
+                )
+                status, quality_flags = assess_conversion_page_quality(part_text)
+                page_record = build_page_record(
+                    root=root,
+                    source_stem=source_stem,
+                    page_path=page_path,
+                    page_number=page_number,
+                    part_number=part_number,
+                    split_page=split_page,
+                    manifest_page=manifest_pages.get(page_number),
+                    status=status,
+                )
+                page_record["quality_flags"] = quality_flags
+                page_records.append(page_record)
+                if force or not page_path.exists():
+                    page_path.write_text(
+                        build_vault_transcription_page_markdown(
+                            root=root,
+                            source=source,
+                            source_page=source_page,
+                            transcription_index=transcription_index,
+                            converted_file=converted_file,
+                            chunk_manifest=chunk_manifest,
+                            job_manifest=job_manifest,
+                            page_record=page_record,
+                            page_text=rewrite_conversion_asset_links(
+                                part_text,
+                                source_stem,
+                                asset_prefix="../../../_assets/conversions/",
+                            ),
+                        ),
+                        encoding="utf-8",
+                    )
+                    written.append(page_path)
+                elif update_existing_vault_page_quality(page_path, status, quality_flags):
+                    written.append(page_path)
+        return page_records, written
+
+    for page_number, manifest_page in sorted(manifest_pages.items()):
+        page_path = pages_dir / f"page-{page_number:04d}.md"
+        quality_flags = ["missing_converted_markdown"]
+        page_record = build_page_record(
+            root=root,
+            source_stem=source_stem,
+            page_path=page_path,
+            page_number=page_number,
+            part_number=1,
+            split_page=False,
+            manifest_page=manifest_page,
+            status="transcription_pending",
+        )
+        page_record["quality_flags"] = quality_flags
+        page_records.append(page_record)
+        if force or not page_path.exists():
+            page_path.write_text(
+                build_pending_vault_page_markdown(
+                    root=root,
+                    source=source,
+                    source_page=source_page,
+                    transcription_index=transcription_index,
+                    job_manifest=job_manifest,
+                    page_record=page_record,
+                ),
+                encoding="utf-8",
+            )
+            written.append(page_path)
+        elif update_existing_vault_page_quality(page_path, "transcription_pending", quality_flags):
+            written.append(page_path)
+    return page_records, written
+
+
+def load_job_pages(root: Path, job_manifest: Path) -> dict[int, dict[str, object]]:
+    if not job_manifest.exists():
+        return {}
+    try:
+        manifest = json.loads(job_manifest.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    pages: dict[int, dict[str, object]] = {}
+    for page in manifest.get("pages", []):
+        try:
+            pages[int(page["page"])] = page
+        except (KeyError, TypeError, ValueError):
+            continue
+    return pages
+
+
+def build_page_record(
+    root: Path,
+    source_stem: str,
+    page_path: Path,
+    page_number: int,
+    part_number: int,
+    split_page: bool,
+    manifest_page: dict[str, object] | None,
+    status: str = "editable",
+) -> dict[str, object]:
+    image_path = ""
+    generated_page = ""
+    if manifest_page:
+        raw_image = str(manifest_page.get("image_path", ""))
+        if raw_image:
+            image_path = relative_path(
+                page_path.parent,
+                WikiPaths(root.resolve()).research
+                / "_assets"
+                / "conversions"
+                / source_stem
+                / "page-images"
+                / Path(raw_image).name,
+            )
+        raw_page = str(manifest_page.get("output_path", ""))
+        if raw_page:
+            generated_page = raw_page
+    return {
+        "path": page_path,
+        "page_number": page_number,
+        "part_number": part_number,
+        "split_page": split_page,
+        "status": status,
+        "image_path": image_path,
+        "generated_page": generated_page,
+    }
+
+
+def rewrite_conversion_asset_links(
+    text: str,
+    source_stem: str,
+    asset_prefix: str = "../../_assets/conversions/",
+) -> str:
+    def replace(match: re.Match[str]) -> str:
+        alt_text = match.group(1)
+        target = match.group(2).strip()
+        if target.startswith(("http://", "https://", "file:", "#")):
+            return match.group(0)
+        normalized = target.strip("<>")
+        if normalized.startswith("../extracted-images/"):
+            asset_target = asset_prefix + source_stem + "/extracted-images/" + normalized.removeprefix(
+                "../extracted-images/"
+            )
+        elif normalized.startswith("../page-images/"):
+            asset_target = asset_prefix + source_stem + "/page-images/" + normalized.removeprefix("../page-images/")
+        else:
+            return match.group(0)
+        return f"![{alt_text}]({asset_target})"
+
+    return re.sub(r"!\[([^\]]*)\]\(([^)]+)\)", replace, text)
+
+
+def build_vault_transcription_index_markdown(
+    root: Path,
+    source: dict[str, object],
+    source_page: Path,
+    transcription_index: Path,
+    pages_dir: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    job_manifest: Path,
+    page_records: list[dict[str, object]],
+) -> str:
+    title = str(source.get("title", "Untitled source"))
+    status = source_status_from_page_records(page_records, converted_file.exists())
+    status_counts = count_page_statuses(page_records)
+    status_summary = "\n".join(f"- `{key}`: {status_counts.get(key, 0)}" for key in PAGE_STATUS_ORDER)
+    rows = "\n".join(
+        "| "
+        f"{wiki_link_for_path(record['path'], WikiPaths(root.resolve()).research, page_record_label(record))} | "
+        f"{record['status']} | "
+        f"{format_quality_flags_cell(quality_flags_for_record(record))} |"
+        for record in page_records
+        if isinstance(record.get("path"), Path)
+    )
+    return f"""---
+type: source_transcription_index
+status: {status}
+source_id: {yaml_string(str(source.get("id", "")))}
+media_type: {yaml_string(str(source.get("media_type", "")))}
+raw_file: {yaml_string(str(source.get("raw_path", "")))}
+source_sha256: {yaml_string(str(source.get("sha256", "")))}
+generated_from: {yaml_string(relative_to_root(converted_file, root) if converted_file.exists() else "")}
+conversion_manifest: {yaml_string(relative_to_root(job_manifest, root))}
+chunk_manifest: {yaml_string(relative_to_root(chunk_manifest, root) if chunk_manifest.exists() else "")}
+quality_page_counts: {json.dumps(status_counts, ensure_ascii=False)}
+source_page: {yaml_string(wiki_link_for_path(source_page, WikiPaths(root.resolve()).research))}
+page_folder: {yaml_string(wiki_link_for_path(pages_dir / "page-0001.md", WikiPaths(root.resolve()).research) if page_records else "")}
+tags: [source-transcription, transcription-index]
+---
+
+# {title}
+
+## Edit By Page
+
+Open the page notes below for manual correction. This index intentionally stays small so Obsidian does not need to render the full source at once.
+
+## Source Links
+
+- Source page: {wiki_link_for_path(source_page, WikiPaths(root.resolve()).research)}
+- Original raw source: [{source.get("raw_path", "")}]({relative_path(transcription_index.parent, root / str(source.get("raw_path", "")))})
+- Generated Markdown: {format_optional_file_link(transcription_index.parent, converted_file, root)}
+- Conversion manifest: [{relative_to_root(job_manifest, root)}]({relative_path(transcription_index.parent, job_manifest)})
+- Chunk manifest: {format_optional_file_link(transcription_index.parent, chunk_manifest, root)}
+
+## Quality Summary
+
+{status_summary}
+
+## Page Notes
+
+| Page Note | Status | Quality Flags |
+| --- | --- | --- |
+{rows}
+"""
+
+
+def page_record_label(record: dict[str, object]) -> str:
+    page_number = int(record.get("page_number", 1))
+    if record.get("split_page"):
+        return f"Page {page_number}, part {int(record.get('part_number', 1))}"
+    return f"Page {page_number}"
+
+
+def build_vault_transcription_page_markdown(
+    root: Path,
+    source: dict[str, object],
+    source_page: Path,
+    transcription_index: Path,
+    converted_file: Path,
+    chunk_manifest: Path,
+    job_manifest: Path,
+    page_record: dict[str, object],
+    page_text: str,
+) -> str:
+    page_path = page_record["path"]
+    if not isinstance(page_path, Path):
+        raise TypeError("page_record path must be a Path")
+    page_number = int(page_record.get("page_number", 1))
+    part_number = int(page_record.get("part_number", 1))
+    part_label = f" Part {part_number}" if page_record.get("split_page") else ""
+    status = str(page_record.get("status", "editable"))
+    quality_flags = quality_flags_for_record(page_record)
+    page_image = str(page_record.get("image_path", ""))
+    page_image_block = f"![Prepared page image]({page_image})" if page_image else "No rendered page image linked."
+    generated_page = str(page_record.get("generated_page", ""))
+    generated_page_link = (
+        f"[{generated_page}]({relative_path(page_path.parent, root / generated_page)})" if generated_page else "not available"
+    )
+    return f"""---
+type: source_transcription_page
+status: {status}
+source_id: {yaml_string(str(source.get("id", "")))}
+source_page_number: {page_number}
+part: {part_number}
+raw_file: {yaml_string(str(source.get("raw_path", "")))}
+source_sha256: {yaml_string(str(source.get("sha256", "")))}
+generated_from: {yaml_string(relative_to_root(converted_file, root))}
+generated_page_markdown: {yaml_string(generated_page)}
+conversion_manifest: {yaml_string(relative_to_root(job_manifest, root))}
+chunk_manifest: {yaml_string(relative_to_root(chunk_manifest, root) if chunk_manifest.exists() else "")}
+source_page: {yaml_string(wiki_link_for_path(source_page, WikiPaths(root.resolve()).research))}
+transcription_index: {yaml_string(wiki_link_for_path(transcription_index, WikiPaths(root.resolve()).research))}
+quality_flags: {yaml_inline_list(quality_flags)}
+tags: [source-transcription, transcription-page, editable]
+---
+
+# {source.get("title", "Untitled source")} - Page {page_number}{part_label}
+
+## Breadcrumbs
+
+- Transcription index: {wiki_link_for_path(transcription_index, WikiPaths(root.resolve()).research)}
+- Source page: {wiki_link_for_path(source_page, WikiPaths(root.resolve()).research)}
+- Original raw source: [{source.get("raw_path", "")}]({relative_path(page_path.parent, root / str(source.get("raw_path", "")))})
+- Generated conversion: [{relative_to_root(converted_file, root)}]({relative_path(page_path.parent, converted_file)})
+- Generated page Markdown: {generated_page_link}
+- Conversion manifest: [{relative_to_root(job_manifest, root)}]({relative_path(page_path.parent, job_manifest)})
+- Chunk manifest: {format_optional_file_link(page_path.parent, chunk_manifest, root)}
+
+{build_quality_flags_section(quality_flags)}
+
+## Page Image
+
+{page_image_block}
+
+## Editable Conversion Text
+
+{page_text.strip()}
+"""
+
+
+def build_pending_vault_page_markdown(
+    root: Path,
+    source: dict[str, object],
+    source_page: Path,
+    transcription_index: Path,
+    job_manifest: Path,
+    page_record: dict[str, object],
+) -> str:
+    page_path = page_record["path"]
+    if not isinstance(page_path, Path):
+        raise TypeError("page_record path must be a Path")
+    page_number = int(page_record.get("page_number", 1))
+    quality_flags = quality_flags_for_record(page_record)
+    page_image = str(page_record.get("image_path", ""))
+    page_image_block = f"![Prepared page image]({page_image})" if page_image else "No rendered page image linked."
+    return f"""---
+type: source_transcription_page
+status: transcription_pending
+source_id: {yaml_string(str(source.get("id", "")))}
+source_page_number: {page_number}
+part: 1
+raw_file: {yaml_string(str(source.get("raw_path", "")))}
+source_sha256: {yaml_string(str(source.get("sha256", "")))}
+conversion_manifest: {yaml_string(relative_to_root(job_manifest, root))}
+source_page: {yaml_string(wiki_link_for_path(source_page, WikiPaths(root.resolve()).research))}
+transcription_index: {yaml_string(wiki_link_for_path(transcription_index, WikiPaths(root.resolve()).research))}
+quality_flags: {yaml_inline_list(quality_flags)}
+tags: [source-transcription, transcription-page, transcription-pending]
+---
+
+# {source.get("title", "Untitled source")} - Page {page_number}
+
+## Breadcrumbs
+
+- Transcription index: {wiki_link_for_path(transcription_index, WikiPaths(root.resolve()).research)}
+- Source page: {wiki_link_for_path(source_page, WikiPaths(root.resolve()).research)}
+- Original raw source: [{source.get("raw_path", "")}]({relative_path(page_path.parent, root / str(source.get("raw_path", "")))})
+- Conversion manifest: [{relative_to_root(job_manifest, root)}]({relative_path(page_path.parent, job_manifest)})
+
+{build_quality_flags_section(quality_flags)}
+
+## Page Image
+
+{page_image_block}
+
+## Literal Transcription
+
+[Manual transcription pending.]
+
+## Images, Captions, And Visual Notes
+
+## Translation
+
+## Interpretation
+
+## Uncertain Or Illegible
+
+## Completeness Audit
+"""
+
+
+def yaml_string(value: str) -> str:
+    return json.dumps(value, ensure_ascii=False)
+
+
+def wiki_link_for_path(path: Path, wiki_root: Path, alias: str | None = None) -> str:
+    target = path.with_suffix("").resolve().relative_to(wiki_root.resolve()).as_posix()
+    return f"[[{target}|{alias}]]" if alias else f"[[{target}]]"
+
+
+def format_optional_file_link(from_dir: Path, path: Path, root: Path) -> str:
+    if not path.exists():
+        return "not available"
+    return f"[{relative_to_root(path, root)}]({relative_path(from_dir, path)})"
+
+
+def update_source_page_with_transcription_link(
+    source_page: Path,
+    transcription_index: Path,
+    wiki_root: Path,
+) -> None:
+    if not source_page.exists():
+        return
+    text = source_page.read_text(encoding="utf-8")
+    transcription_link = wiki_link_for_path(transcription_index, wiki_root, "Open transcription index")
+    text = text.replace("Edit full transcription in Obsidian", "Open transcription index")
+    if transcription_link not in text:
+        entry = f"- {transcription_link}"
+        if "## Obsidian Inspection" in text:
+            text = text.replace("## Obsidian Inspection\n", f"## Obsidian Inspection\n\n{entry}\n", 1)
+        else:
+            text = text.replace("## Conversion Artifacts", f"## Obsidian Inspection\n\n{entry}\n\n## Conversion Artifacts", 1)
+    text = text.replace(
+        "Use the converted Markdown and chunk manifest above as the prepared source text. Do not create claims directly from this page without checking the converted source and original image/file evidence.",
+        f"Open the page-level editable transcription from {transcription_link}. Each page note links back to the original source material and generated conversion artifacts.",
+    )
+    text = re.sub(
+        r"Edit the full prepared transcription in \[\[sources/transcriptions/[^\]]+\|(?:Edit full transcription in Obsidian|Open transcription index)\]\]\. Check the original image/file evidence before creating claims\.",
+        f"Open the page-level editable transcription from {transcription_link}. Each page note links back to the original source material and generated conversion artifacts.",
+        text,
+    )
+    source_page.write_text(text, encoding="utf-8")
+
+
+def count_chunks(chunk_manifest: Path) -> int:
+    if not chunk_manifest.exists():
+        return 0
+    try:
+        manifest = json.loads(chunk_manifest.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return 0
+    chunks = manifest.get("chunks", [])
+    return len(chunks) if isinstance(chunks, list) else 0
+
+
+def count_markdown_files(path: Path) -> int:
+    if not path.exists():
+        return 0
+    return sum(1 for item in path.rglob("*.md") if item.is_file())
+
+
+def write_conversion_dashboard(root: Path, rows: list[dict[str, object]]) -> Path:
+    paths = WikiPaths(root.resolve())
+    dashboard = paths.research / "Conversion Dashboard.md"
+    rows = sorted(rows, key=lambda item: str(item["title"]).lower())
+    lines = [
+        "# Conversion Dashboard",
+        "",
+        "Use this page to inspect and edit prepared source conversions from inside the Obsidian vault.",
+        "",
+        f"- Source transcription indexes: {len(rows)}",
+        f"- Page or page-part notes: {sum(int(row.get('page_count', 0)) for row in rows)}",
+        f"- Pages needing visual conversion: {sum(int(row.get('status_counts', {}).get('needs_visual_conversion', 0)) for row in rows if isinstance(row.get('status_counts'), dict))}",
+        f"- Pages needing visual review: {sum(int(row.get('status_counts', {}).get('needs_visual_review', 0)) for row in rows if isinstance(row.get('status_counts'), dict))}",
+        "- Source material links are preserved on every page note.",
+        "",
+        "| Source | Status | Page Notes | Needs Visual Conversion | Needs Visual Review | Source Page |",
+        "| --- | --- | ---: | ---: | ---: | --- |",
+    ]
+    wiki_root = paths.research
+    for row in rows:
+        transcription = row["transcription"]
+        source_page = row["source_page"]
+        if not isinstance(transcription, Path) or not isinstance(source_page, Path):
+            continue
+        status_counts = row.get("status_counts", {})
+        if not isinstance(status_counts, dict):
+            status_counts = {}
+        lines.append(
+            "| "
+            f"{wiki_link_for_path(transcription, wiki_root, str(row['title']))} | "
+            f"{row['status']} | "
+            f"{row['page_count']} | "
+            f"{status_counts.get('needs_visual_conversion', 0)} | "
+            f"{status_counts.get('needs_visual_review', 0)} | "
+            f"{wiki_link_for_path(source_page, wiki_root, 'Source page')} |"
+        )
+    dashboard.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    return dashboard
+
+
+def update_index_with_transcriptions(root: Path, rows: list[dict[str, object]]) -> None:
+    paths = WikiPaths(root.resolve())
+    index_path = paths.research / "index.md"
+    append_index_reference(index_path, "Conversion Views", "[[Conversion Dashboard]]")
+    for row in sorted(rows, key=lambda item: str(item["title"]).lower()):
+        transcription = row.get("transcription")
+        if isinstance(transcription, Path):
+            append_index_reference(
+                index_path,
+                "Source Transcriptions",
+                wiki_link_for_path(transcription, paths.research, str(row["title"])),
+            )
+
+def parse_conversion_metadata(text: str) -> tuple[str, str, str]:
+    return (
+        extract_markdown_metadata_value(text, "Source"),
+        extract_markdown_metadata_value(text, "Source SHA-256"),
+        extract_markdown_metadata_value(text, "Manifest"),
+    )
+
+
+def extract_markdown_metadata_value(text: str, label: str) -> str:
+    pattern = rf"^- {re.escape(label)}: `([^`]+)`"
+    match = re.search(pattern, text, flags=re.MULTILINE)
+    return match.group(1) if match else ""
+
+
+def split_page_markdown(text: str) -> list[tuple[int, str]]:
+    matches = list(re.finditer(r"^# Page\s+(\d+)\s*$", text, flags=re.MULTILINE))
+    if not matches:
+        return [(1, text.strip())] if text.strip() else []
+
+    pages: list[tuple[int, str]] = []
+    for index, match in enumerate(matches):
+        start = match.start()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        pages.append((int(match.group(1)), text[start:end].strip()))
+    return pages
+
+
+def split_chunk_text(text: str, max_chars: int) -> list[str]:
+    if len(text) <= max_chars:
+        return [text.strip()]
+
+    sections = split_markdown_sections(text)
+    chunks: list[str] = []
+    current = ""
+    for section in sections:
+        if len(section) > max_chars:
+            if current.strip():
+                chunks.append(current.strip())
+                current = ""
+            chunks.extend(split_long_text(section, max_chars))
+            continue
+        if current and len(current) + len(section) + 2 > max_chars:
+            chunks.append(current.strip())
+            current = section
+        else:
+            current = f"{current.rstrip()}\n\n{section.strip()}".strip() if current else section
+
+    if current.strip():
+        chunks.append(current.strip())
+    return chunks
+
+
+def split_markdown_sections(text: str) -> list[str]:
+    matches = list(re.finditer(r"^##\s+.+$", text, flags=re.MULTILINE))
+    if not matches:
+        return [text.strip()] if text.strip() else []
+
+    sections: list[str] = []
+    if matches[0].start() > 0:
+        sections.append(text[: matches[0].start()].strip())
+    for index, match in enumerate(matches):
+        start = match.start()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        section = text[start:end].strip()
+        if section:
+            sections.append(section)
+    return [section for section in sections if section]
+
+
+def split_long_text(text: str, max_chars: int) -> list[str]:
+    parts: list[str] = []
+    current = ""
+    for paragraph in re.split(r"(\n\s*\n)", text):
+        if not paragraph:
+            continue
+        if len(paragraph) > max_chars:
+            if current.strip():
+                parts.append(current.strip())
+                current = ""
+            parts.extend(split_by_lines(paragraph, max_chars))
+            continue
+        if current and len(current) + len(paragraph) > max_chars:
+            parts.append(current.strip())
+            current = paragraph
+        else:
+            current += paragraph
+    if current.strip():
+        parts.append(current.strip())
+    return parts
+
+
+def split_by_lines(text: str, max_chars: int) -> list[str]:
+    parts: list[str] = []
+    current = ""
+    for line in text.splitlines(keepends=True):
+        if current and len(current) + len(line) > max_chars:
+            parts.append(current.strip())
+            current = line
+        else:
+            current += line
+    if current.strip():
+        parts.append(current.strip())
+    return parts
+
+
+def build_chunk_markdown(
+    chunk_id: str,
+    converted_file: str,
+    converted_hash: str,
+    source_path: str,
+    source_hash: str,
+    source_manifest: str,
+    page_number: int,
+    part_number: int,
+    chunk_text: str,
+) -> str:
+    return f"""---
+type: source_prep_chunk
+chunk_id: {chunk_id}
+source_converted: {converted_file}
+converted_sha256: {converted_hash}
+source: {source_path}
+source_sha256: {source_hash}
+source_manifest: {source_manifest}
+page_start: {page_number}
+page_end: {page_number}
+part: {part_number}
+---
+
+{chunk_text.strip()}
+"""
+
+
+def source_prep_jobs_by_hash(root: Path) -> dict[str, list[dict[str, str]]]:
+    jobs: dict[str, list[dict[str, str]]] = {}
+    jobs_dir = root / "raw" / "codex-conversion-jobs"
+    if not jobs_dir.exists():
+        return jobs
+    for manifest_path in jobs_dir.glob("*/manifest.json"):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        digest = manifest.get("source_sha256")
+        if not digest:
+            continue
+        jobs.setdefault(digest, []).append(
+            {
+                "job_id": str(manifest.get("job_id", "")),
+                "title": str(manifest.get("title", "")),
+                "manifest": relative_to_root(manifest_path, root),
+                "status": str(manifest.get("status", "")),
+            }
+        )
+    return jobs
+
+
+def source_prep_conversions_by_hash(root: Path) -> dict[str, list[dict[str, str]]]:
+    conversions: dict[str, list[dict[str, str]]] = {}
+    converted_dir = root / "raw" / "converted"
+    if not converted_dir.exists():
+        return conversions
+    for converted_path in converted_dir.rglob("*.md"):
+        try:
+            text = converted_path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        source_path, source_hash, source_manifest = parse_conversion_metadata(text)
+        if not source_hash:
+            continue
+        conversions.setdefault(source_hash, []).append(
+            {
+                "path": relative_to_root(converted_path, root),
+                "source": source_path,
+                "source_manifest": source_manifest,
+                "sha256": file_sha256(converted_path),
+            }
+        )
+    return conversions
+
+
+def source_prep_status(jobs: list[dict[str, str]], conversions: list[dict[str, str]]) -> str:
+    if conversions and jobs and len(conversions) < len(jobs):
+        return "partially_converted"
+    if conversions:
+        return "converted"
+    if jobs:
+        return "queued_for_agent_conversion"
+    return "raw"
+
+
+AGENT_TASK_STATE_STATUSES = {"claimed", "in_progress", "done", "failed", "released"}
+
+
+def utc_timestamp() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def parse_utc_timestamp(value: object) -> datetime | None:
+    if not isinstance(value, str):
+        return None
+    cleaned = value.strip()
+    if not cleaned:
+        return None
+    if cleaned.endswith("Z"):
+        cleaned = f"{cleaned[:-1]}+00:00"
+    try:
+        parsed = datetime.fromisoformat(cleaned)
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def agent_task_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "task-state.json"
+
+
+def read_agent_task_state_payload(root: Path) -> dict[str, object]:
+    path = agent_task_state_path(root)
+    if not path.exists():
+        return {"created": utc_timestamp(), "updated": utc_timestamp(), "tasks": {}}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"created": utc_timestamp(), "updated": utc_timestamp(), "tasks": {}}
+    if not isinstance(payload, dict):
+        return {"created": utc_timestamp(), "updated": utc_timestamp(), "tasks": {}}
+    if not isinstance(payload.get("tasks"), dict):
+        payload["tasks"] = {}
+    return payload
+
+
+def load_agent_task_state(root: Path) -> dict[str, dict[str, object]]:
+    payload = read_agent_task_state_payload(root)
+    tasks = payload.get("tasks", {})
+    if not isinstance(tasks, dict):
+        return {}
+    return {str(task_id): dict(state) for task_id, state in tasks.items() if isinstance(state, dict)}
+
+
+def save_agent_task_state(root: Path, task_state: dict[str, dict[str, object]]) -> Path:
+    existing = read_agent_task_state_payload(root)
+    path = agent_task_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "created": str(existing.get("created") or utc_timestamp()),
+        "updated": utc_timestamp(),
+        "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
+        "tasks": task_state,
+    }
+    tmp_path = path.with_name(f"{path.name}.tmp")
+    tmp_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    tmp_path.replace(path)
+    return path
+
+
+def update_agent_task_states(
+    root: Path,
+    task_ids: list[str],
+    status: str,
+    agent: str = "",
+    note: str = "",
+) -> Path:
+    if status not in AGENT_TASK_STATE_STATUSES:
+        raise ValueError(f"unsupported task status: {status}")
+    task_state = load_agent_task_state(root)
+    now = utc_timestamp()
+    for task_id in task_ids:
+        current = dict(task_state.get(task_id, {}))
+        current["status"] = status
+        current["updated_at"] = now
+        if agent:
+            current["agent"] = agent
+        if note:
+            current["note"] = note
+        if status in {"claimed", "in_progress"} and "claimed_at" not in current:
+            current["claimed_at"] = now
+        if status == "in_progress" and "started_at" not in current:
+            current["started_at"] = now
+        if status == "done":
+            current["completed_at"] = now
+        if status == "failed":
+            current["failed_at"] = now
+        if status == "released":
+            released_by = agent or str(current.get("agent", "")).strip()
+            if released_by:
+                current["released_by"] = released_by
+            current.pop("agent", None)
+            current["released_at"] = now
+        task_state[task_id] = current
+    return save_agent_task_state(root, task_state)
+
+
+def update_agent_task_state(root: Path, task_id: str, status: str, agent: str = "", note: str = "") -> Path:
+    return update_agent_task_states(root, [task_id], status, agent=agent, note=note)
+
+
+def release_stale_agent_tasks(root: Path, stale_minutes: int = 360) -> int:
+    if stale_minutes <= 0:
+        return 0
+    task_state = load_agent_task_state(root)
+    if not task_state:
+        return 0
+
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(minutes=stale_minutes)
+    now_text = now.isoformat(timespec="seconds").replace("+00:00", "Z")
+    released_count = 0
+    for task_id, current in list(task_state.items()):
+        status = str(current.get("status", "")).strip()
+        if status not in {"claimed", "in_progress"}:
+            continue
+        last_update = (
+            parse_utc_timestamp(current.get("updated_at"))
+            or parse_utc_timestamp(current.get("started_at"))
+            or parse_utc_timestamp(current.get("claimed_at"))
+        )
+        if last_update is None or last_update > cutoff:
+            continue
+        updated = dict(current)
+        updated["status"] = "released"
+        released_by = str(updated.get("agent", "")).strip()
+        if released_by:
+            updated["released_by"] = released_by
+        updated.pop("agent", None)
+        updated["released_at"] = now_text
+        updated["updated_at"] = now_text
+        updated["stale_after_minutes"] = stale_minutes
+        updated["note"] = f"Released after no heartbeat/update for at least {stale_minutes} minutes."
+        task_state[task_id] = updated
+        released_count += 1
+
+    if released_count:
+        save_agent_task_state(root, task_state)
+    return released_count
+
+
+def apply_agent_task_state(task: dict[str, object], state: dict[str, object]) -> None:
+    if not state:
+        return
+    state_status = str(state.get("status", "")).strip()
+    if state_status not in AGENT_TASK_STATE_STATUSES:
+        return
+
+    for key in (
+        "agent",
+        "released_by",
+        "note",
+        "claimed_at",
+        "started_at",
+        "completed_at",
+        "failed_at",
+        "released_at",
+        "updated_at",
+    ):
+        if state_status == "released" and key == "agent":
+            continue
+        if key in state:
+            task[key] = state[key]
+
+    base_status = str(task.get("status", "todo"))
+    if (
+        state_status == "released"
+        or base_status == "done"
+        or base_status.startswith("blocked")
+        or (base_status == "needs_reread" and state_status == "done")
+    ):
+        task["task_state_status"] = state_status
+        return
+    task["status"] = state_status
+
+
+SOURCE_PREP_REQUIRED_PAGE_SECTIONS = [
+    "Page Metadata",
+    "Layout And Reading Order",
+    "Literal Transcription",
+    "Images, Captions, And Visual Notes",
+    "Translation",
+    "Interpretation",
+    "Uncertain Or Illegible",
+    "Extracted Genealogy Leads",
+    "Completeness Audit",
+]
+SOURCE_PREP_REPAIR_FLAGS = {
+    "placeholder_transcription",
+    "image_preserved_not_transcribed",
+    "text_layer_only",
+    "no_transcription",
+    "image_only_or_too_little_text",
+    "missing_literal_transcription_section",
+    "possible_ocr_garbage_token",
+    "possible_table_layout_loss",
+    "many_uncertain_readings",
+    "encoding_mojibake",
+    "missing_conversion_contract_sections",
+}
+SOURCE_PREP_PAGE_CACHE_VERSION = 1
+
+
+def review_source_prep_page_output(output_path: Path) -> dict[str, object]:
+    if not output_path.exists():
+        return {"status": "todo", "quality_flags": [], "missing_sections": []}
+    if output_path.is_dir():
+        return {"status": "todo", "quality_flags": [], "missing_sections": []}
+    try:
+        text = output_path.read_text(encoding="utf-8")
+    except OSError:
+        return {"status": "needs_reread", "quality_flags": ["unreadable_page_output"], "missing_sections": []}
+
+    _, base_flags = assess_conversion_page_quality(text)
+    flags = list(dict.fromkeys(base_flags + detect_conversion_text_flags(text)))
+    lower_text = text.lower()
+    missing_sections = [
+        section for section in SOURCE_PREP_REQUIRED_PAGE_SECTIONS if f"## {section.lower()}" not in lower_text
+    ]
+    if missing_sections:
+        flags.append("missing_conversion_contract_sections")
+    flags = list(dict.fromkeys(flags))
+    status = "needs_reread" if SOURCE_PREP_REPAIR_FLAGS.intersection(flags) else "done"
+    return {"status": status, "quality_flags": flags, "missing_sections": missing_sections}
+
+
+def source_prep_page_cache_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "source-prep-page-cache.json"
+
+
+def load_source_prep_page_cache(root: Path) -> dict[str, object]:
+    path = source_prep_page_cache_path(root)
+    if not path.exists():
+        return {"version": SOURCE_PREP_PAGE_CACHE_VERSION, "entries": {}}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"version": SOURCE_PREP_PAGE_CACHE_VERSION, "entries": {}}
+    if not isinstance(payload, dict) or payload.get("version") != SOURCE_PREP_PAGE_CACHE_VERSION:
+        return {"version": SOURCE_PREP_PAGE_CACHE_VERSION, "entries": {}}
+    entries = payload.get("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+    return {"version": SOURCE_PREP_PAGE_CACHE_VERSION, "entries": entries}
+
+
+def save_source_prep_page_cache(root: Path, cache: dict[str, object]) -> Path:
+    path = source_prep_page_cache_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    entries = cache.get("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+    payload = {
+        "version": SOURCE_PREP_PAGE_CACHE_VERSION,
+        "updated": utc_timestamp(),
+        "purpose": "Cached source-prep page output review keyed by page Markdown path, file size, and mtime.",
+        "entries": entries,
+    }
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def cached_review_source_prep_page_output(
+    root: Path,
+    output_path: Path,
+    cache: dict[str, object],
+) -> tuple[dict[str, object], bool]:
+    if not output_path.exists() or output_path.is_dir():
+        return review_source_prep_page_output(output_path), False
+    try:
+        stat = output_path.stat()
+    except OSError:
+        return review_source_prep_page_output(output_path), False
+
+    entries = cache.setdefault("entries", {})
+    if not isinstance(entries, dict):
+        cache["entries"] = {}
+        entries = cache["entries"]
+    cache_key = relative_to_root(output_path, root)
+    existing = entries.get(cache_key)
+    if isinstance(existing, dict):
+        review = existing.get("review")
+        if (
+            existing.get("mtime_ns") == stat.st_mtime_ns
+            and existing.get("size") == stat.st_size
+            and isinstance(review, dict)
+        ):
+            return dict(review), False
+
+    review = review_source_prep_page_output(output_path)
+    entries[cache_key] = {
+        "mtime_ns": stat.st_mtime_ns,
+        "size": stat.st_size,
+        "review": review,
+    }
+    return review, True
+
+
+def write_agent_queues(root: Path, output_dir: Path | None = None, stale_minutes: int = 360) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    queue_dir = output_dir or (paths.research / "_agent-queues")
+    if not queue_dir.is_absolute():
+        queue_dir = paths.root / queue_dir
+    queue_dir.mkdir(parents=True, exist_ok=True)
+
+    released_count = release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
+    task_state = load_agent_task_state(paths.root)
+    queues = {
+        "source-prep": build_source_prep_agent_tasks(paths.root),
+        "conversion-qa": build_conversion_qa_agent_tasks(paths.root),
+        "evidence-extraction": build_evidence_extraction_agent_tasks(paths.root),
+    }
+    written = [write_agent_queue(paths.root, queue_dir, name, tasks, task_state) for name, tasks in queues.items()]
+    log_message = f"agent-queues | Wrote {len(written)} queue manifest(s)"
+    if released_count:
+        log_message += f"; released {released_count} stale task(s)"
+    append_log(paths.research / "log.md", log_message)
+    return written
+
+
+def write_agent_queue(
+    root: Path,
+    queue_dir: Path,
+    name: str,
+    tasks: list[dict[str, object]],
+    task_state: dict[str, dict[str, object]] | None = None,
+) -> Path:
+    task_state = task_state or {}
+    prompts_dir = queue_dir / "prompts" / name
+    prompts_dir.mkdir(parents=True, exist_ok=True)
+    serialized_tasks = []
+    for task in tasks:
+        task_copy = dict(task)
+        prompt = str(task_copy.pop("prompt"))
+        prompt_path = prompts_dir / f"{slug(str(task_copy['task_id']))}.md"
+        prompt_path.write_text(prompt, encoding="utf-8")
+        task_copy["prompt_path"] = relative_to_root(prompt_path, root)
+        apply_agent_task_state(task_copy, task_state.get(str(task_copy["task_id"]), {}))
+        serialized_tasks.append(task_copy)
+
+    queue_path = queue_dir / f"{name}.json"
+    payload = {
+        "created": date.today().isoformat(),
+        "queue": name,
+        "task_count": len(serialized_tasks),
+        "status_counts": count_task_statuses(serialized_tasks),
+        "tasks": serialized_tasks,
+    }
+    queue_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return queue_path
+
+
+SOURCE_PREP_BATCHABLE_STATUSES = ("needs_reread", "todo")
+SOURCE_PREP_BATCH_STATUS_PRIORITY = {"needs_reread": 0, "todo": 1}
+
+
+def write_source_prep_batches(
+    root: Path,
+    output_dir: Path | None = None,
+    max_pages: int = 8,
+    limit: int = 50,
+    stale_minutes: int = 360,
+    statuses: list[str] | None = None,
+) -> Path:
+    paths = WikiPaths(root.resolve())
+    queue_dir = output_dir or (paths.research / "_agent-queues")
+    if not queue_dir.is_absolute():
+        queue_dir = paths.root / queue_dir
+    queue_dir.mkdir(parents=True, exist_ok=True)
+
+    released_count = release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
+    task_state = load_agent_task_state(paths.root)
+    source_tasks = materialize_source_prep_tasks(paths.root, task_state)
+    batches = build_source_prep_batch_agent_tasks(
+        source_tasks,
+        max_pages=max_pages,
+        limit=limit,
+        statuses=statuses,
+    )
+    queue_path = write_agent_queue(paths.root, queue_dir, "source-prep-batches", batches, {})
+    log_message = (
+        "source-prep-batches | "
+        f"Wrote {len(batches)} batch task(s), max {max_pages} page(s) each"
+    )
+    if released_count:
+        log_message += f"; released {released_count} stale task(s)"
+    append_log(paths.research / "log.md", log_message)
+    return queue_path
+
+
+SOURCE_PREP_FASTLANE_CACHE_VERSION = 1
+SOURCE_PREP_FASTLANE_MIN_TEXT_CHARS = 300
+SOURCE_PREP_FASTLANE_MAX_FULL_PAGE_IMAGE_RATIO = 0.55
+SOURCE_PREP_FASTLANE_MAX_TABLE_LINE_RATIO = 0.35
+SOURCE_PREP_FASTLANE_ALLOWED_STATUSES = {"needs_reread", "todo"}
+SOURCE_PREP_FASTLANE_SKIP_CACHEABLE_REASONS = {
+    "not_pdf",
+    "pdf_open_failed",
+    "page_out_of_range",
+    "insufficient_native_text",
+    "full_page_image_scan",
+    "no_native_text_blocks",
+    "possible_encoding_damage",
+    "possible_ocr_garbage",
+    "table_like_layout",
+    "possible_ligature_text_loss",
+}
+
+
+def source_prep_fastlane_cache_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "source-prep-fastlane-cache.json"
+
+
+def load_source_prep_fastlane_cache(root: Path) -> dict[str, object]:
+    path = source_prep_fastlane_cache_path(root)
+    if not path.exists():
+        return {"version": SOURCE_PREP_FASTLANE_CACHE_VERSION, "entries": {}}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"version": SOURCE_PREP_FASTLANE_CACHE_VERSION, "entries": {}}
+    if not isinstance(payload, dict) or payload.get("version") != SOURCE_PREP_FASTLANE_CACHE_VERSION:
+        return {"version": SOURCE_PREP_FASTLANE_CACHE_VERSION, "entries": {}}
+    entries = payload.get("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+    return {"version": SOURCE_PREP_FASTLANE_CACHE_VERSION, "entries": entries}
+
+
+def save_source_prep_fastlane_cache(root: Path, cache: dict[str, object]) -> Path:
+    path = source_prep_fastlane_cache_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    entries = cache.get("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+    payload = {
+        "version": SOURCE_PREP_FASTLANE_CACHE_VERSION,
+        "updated": utc_timestamp(),
+        "purpose": "Cached deterministic source-prep fast-lane page decisions.",
+        "entries": entries,
+    }
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def source_prep_fastlane_cache_key(task: dict[str, object]) -> str:
+    task_id = str(task.get("task_id", "")).strip()
+    digest = str(task.get("source_sha256", "")).strip()
+    return f"{task_id}|{digest}"
+
+
+def profile_source_prep_fastlane_pdf_page(page: object) -> dict[str, object]:
+    text = str(page.get_text("text") or "")
+    try:
+        page_dict = page.get_text("dict")
+    except Exception:
+        page_dict = {}
+    blocks = page_dict.get("blocks", []) if isinstance(page_dict, dict) else []
+    page_rect = page.rect
+    page_area = max(float(page_rect.width) * float(page_rect.height), 1.0)
+    image_blocks: list[dict[str, object]] = []
+    text_block_count = 0
+    for block in blocks if isinstance(blocks, list) else []:
+        if not isinstance(block, dict):
+            continue
+        block_type = block.get("type")
+        bbox = block.get("bbox")
+        if not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+            continue
+        x0, y0, x1, y1 = [float(value) for value in bbox]
+        area_ratio = max(0.0, (x1 - x0) * (y1 - y0)) / page_area
+        if block_type == 0:
+            text_block_count += 1
+        elif block_type == 1:
+            image_blocks.append(
+                {
+                    "bbox": [x0, y0, x1, y1],
+                    "area_ratio": area_ratio,
+                }
+            )
+
+    nonspace = len(re.sub(r"\s+", "", text)) or 1
+    alpha_chars = len(re.findall(r"[A-Za-z\u00c0-\u017f]", text))
+    odd_chars = len(re.findall(r"[^A-Za-z0-9\u00c0-\u017f\s.,;:!?()\[\]{}'\"/\\\-+&%$#@*=<>|]", text))
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    table_like_lines = [line for line in lines if re.search(r"\S\s{4,}\S", line)]
+    lower_text = text.lower()
+    ligature_dropouts = re.findall(r"\b(?:ilm|ilms|irst|inal|igure|igures|ield|ields|ile|iles)\b", lower_text)
+    long_alpha_tokens = re.findall(r"\b[A-Za-z]{26,}\b", text)
+    largest_image_ratio = max((float(block["area_ratio"]) for block in image_blocks), default=0.0)
+    flags: list[str] = []
+    if len(text.strip()) < SOURCE_PREP_FASTLANE_MIN_TEXT_CHARS or alpha_chars < 120:
+        flags.append("insufficient_native_text")
+    if text_block_count < 1:
+        flags.append("no_native_text_blocks")
+    if largest_image_ratio >= SOURCE_PREP_FASTLANE_MAX_FULL_PAGE_IMAGE_RATIO:
+        flags.append("full_page_image_scan")
+    if any(marker in text for marker in MOJIBAKE_MARKERS):
+        flags.append("possible_encoding_damage")
+    if odd_chars / nonspace > 0.025 or len(long_alpha_tokens) >= 2:
+        flags.append("possible_ocr_garbage")
+    if lines and len(table_like_lines) / len(lines) > SOURCE_PREP_FASTLANE_MAX_TABLE_LINE_RATIO:
+        flags.append("table_like_layout")
+    if len(ligature_dropouts) >= 3:
+        flags.append("possible_ligature_text_loss")
+
+    return {
+        "eligible": not flags,
+        "flags": flags,
+        "text": text.strip(),
+        "text_chars": len(text.strip()),
+        "alpha_chars": alpha_chars,
+        "text_block_count": text_block_count,
+        "image_blocks": image_blocks,
+        "largest_image_ratio": largest_image_ratio,
+        "table_like_line_count": len(table_like_lines),
+        "line_count": len(lines),
+    }
+
+
+def markdown_fence_for_text(text: str) -> str:
+    fence = "```"
+    while fence in text:
+        fence += "`"
+    return fence
+
+
+def source_prep_fastlane_image_references(
+    root: Path,
+    task: dict[str, object],
+    profile: dict[str, object],
+) -> list[dict[str, object]]:
+    page_number = int(task.get("page", 0) or 0)
+    output_path = root / str(task.get("output_path", ""))
+    image_output_dir = root / str(task.get("image_output_dir", ""))
+    page_image = root / str(task.get("page_image", ""))
+    page_suffix = page_image.suffix.lower() if page_image.suffix else ".jpg"
+    refs: list[dict[str, object]] = [
+        {
+            "kind": "full_page",
+            "description": "Full-page audit image",
+            "path": image_output_dir / f"page-{page_number:04d}-image-01-full-page-audit{page_suffix}",
+            "source": page_image,
+        }
+    ]
+    for index, block in enumerate(profile.get("image_blocks", []) or [], start=2):
+        if not isinstance(block, dict):
+            continue
+        area_ratio = float(block.get("area_ratio", 0.0) or 0.0)
+        if area_ratio < 0.01 or area_ratio >= SOURCE_PREP_FASTLANE_MAX_FULL_PAGE_IMAGE_RATIO:
+            continue
+        refs.append(
+            {
+                "kind": "pdf_image_block",
+                "description": f"Native image block {index - 1}",
+                "path": image_output_dir / f"page-{page_number:04d}-image-{index:02d}-native-image-block.png",
+                "bbox": block.get("bbox", []),
+            }
+        )
+        if len(refs) >= 13:
+            break
+
+    for ref in refs:
+        ref["markdown_path"] = relative_path(output_path.parent, Path(ref["path"]))
+    return refs
+
+
+def write_source_prep_fastlane_images(
+    root: Path,
+    task: dict[str, object],
+    image_refs: list[dict[str, object]],
+) -> None:
+    try:
+        from PIL import Image
+    except ImportError as exc:
+        raise RuntimeError("Pillow is required for source-prep fast-lane image extraction.") from exc
+
+    image_output_dir = root / str(task.get("image_output_dir", ""))
+    page_image = root / str(task.get("page_image", ""))
+    image_output_dir.mkdir(parents=True, exist_ok=True)
+    if not page_image.exists():
+        raise FileNotFoundError(page_image)
+
+    for ref in image_refs:
+        target = Path(str(ref["path"]))
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if ref.get("kind") == "full_page":
+            shutil.copy2(page_image, target)
+            continue
+
+        bbox = ref.get("bbox")
+        if not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+            continue
+        with Image.open(page_image) as image:
+            page_width = float(task.get("width_px") or image.width)
+            page_height = float(task.get("height_px") or image.height)
+            # The rendered page image was generated from PDF page coordinates at a fixed scale.
+            # Use the image dimensions as the final authority so crops stay aligned after rerenders.
+            source_pdf_width = float(ref.get("pdf_width") or 0.0)
+            source_pdf_height = float(ref.get("pdf_height") or 0.0)
+            if not source_pdf_width or not source_pdf_height:
+                source_pdf_width = max(float(max(bbox[0], bbox[2])), 1.0)
+                source_pdf_height = max(float(max(bbox[1], bbox[3])), 1.0)
+            scale_x = page_width / source_pdf_width
+            scale_y = page_height / source_pdf_height
+            x0 = max(0, int(float(bbox[0]) * scale_x) - 8)
+            y0 = max(0, int(float(bbox[1]) * scale_y) - 8)
+            x1 = min(image.width, int(float(bbox[2]) * scale_x) + 8)
+            y1 = min(image.height, int(float(bbox[3]) * scale_y) + 8)
+            if x1 <= x0 or y1 <= y0:
+                continue
+            image.crop((x0, y0, x1, y1)).save(target)
+
+
+def build_source_prep_fastlane_markdown(
+    root: Path,
+    task: dict[str, object],
+    profile: dict[str, object],
+    image_refs: list[dict[str, object]],
+) -> str:
+    page_number = int(task.get("page", 0) or 0)
+    text = str(profile.get("text", "")).strip()
+    fence = markdown_fence_for_text(text)
+    image_lines = []
+    for ref in image_refs:
+        image_lines.append(f"- {ref['description']}: ![{ref['description']}]({ref['markdown_path']})")
+    if not image_lines:
+        image_lines.append("- Full-page audit image could not be generated; page was not completed by the fast lane.")
+
+    return f"""# Page {page_number}
+
+## Page Metadata
+
+- Source title: {task.get("title", "")}
+- Source file: `{task.get("source", "")}`
+- Source SHA-256: `{task.get("source_sha256", "")}`
+- Job manifest: `{task.get("job_manifest", "")}`
+- Source page: {page_number}
+- Rendered page image: `{task.get("page_image", "")}`
+- Conversion method: deterministic PDF-native fast lane for born-digital/vector text pages only.
+
+## Layout And Reading Order
+
+The page was accepted for the fast lane because the PDF exposes native text blocks, the largest raster image block covers {float(profile.get("largest_image_ratio", 0.0) or 0.0):.1%} of the page, and the extraction profile did not show scan, table-loss, encoding, or garbage-token warning signs. Text is preserved in PDF block order.
+
+## Literal Transcription
+
+{fence}text
+{text}
+{fence}
+
+## Images, Captions, And Visual Notes
+
+{chr(10).join(image_lines)}
+
+No portrait, handwriting-only region, full-page scan layer, or damaged raster document image was accepted by this fast lane. Pages with those traits remain queued for visual Codex conversion.
+
+## Translation
+
+Not translated in source preparation. Any later translation should cite this literal transcription and the rendered page image.
+
+## Interpretation
+
+No genealogy conclusions are made in this conversion page. The page text is prepared for downstream source-packet, claim extraction, and proof review.
+
+## Uncertain Or Illegible
+
+No uncertain readings were flagged by the deterministic safety profile. If downstream research finds a family-name conflict or a suspicious reading, queue this exact page for targeted visual reread.
+
+## Extracted Genealogy Leads
+
+Potential names, places, organizations, dates, titles, and events are preserved in the literal transcription for downstream extraction. This page does not assert identity, relationship, or event claims.
+
+## Completeness Audit
+
+- Native text characters captured: {profile.get("text_chars", 0)}
+- Native text blocks detected: {profile.get("text_block_count", 0)}
+- Non-full-page image regions referenced: {max(len(image_refs) - 1, 0)}
+- Full-page audit image referenced: yes
+- Safety gate: skipped for any full-page scan, damaged text, table-heavy layout, or suspected OCR garbage.
+- Completion gate: this Markdown must pass `review_source_prep_page_output` before the task is marked done.
+"""
+
+
+def source_prep_fastlane_run(
+    root: Path,
+    limit: int = 100,
+    scan_limit: int = 1000,
+    agent: str = "source-prep-fastlane",
+    stale_minutes: int = 360,
+    dry_run: bool = False,
+) -> dict[str, object]:
+    if limit < 1:
+        raise ValueError("limit must be at least 1")
+    if scan_limit < 1:
+        raise ValueError("scan_limit must be at least 1")
+
+    paths = WikiPaths(root.resolve())
+    release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
+    task_state = load_agent_task_state(paths.root)
+    tasks = [
+        task
+        for task in materialize_source_prep_tasks(paths.root, task_state)
+        if str(task.get("status", "")).strip() in SOURCE_PREP_FASTLANE_ALLOWED_STATUSES
+    ]
+    tasks.sort(
+        key=lambda task: (
+            0 if str(task.get("status", "")) == "needs_reread" else 1,
+            str(task.get("source", "")),
+            int(task.get("page", 0) or 0),
+        )
+    )
+
+    try:
+        import fitz
+    except ImportError:
+        return {
+            "inspected": 0,
+            "converted": 0,
+            "dry_run": dry_run,
+            "skipped": {"pymupdf_missing": len(tasks)},
+            "converted_tasks": [],
+            "failed_tasks": [],
+        }
+
+    cache = load_source_prep_fastlane_cache(paths.root)
+    entries = cache.setdefault("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+        cache["entries"] = entries
+    docs: dict[str, object] = {}
+    inspected = 0
+    converted = 0
+    skipped: dict[str, int] = {}
+    converted_tasks: list[str] = []
+    failed_tasks: list[dict[str, str]] = []
+    cache_changed = False
+
+    def count_skip(reason: str) -> None:
+        skipped[reason] = skipped.get(reason, 0) + 1
+
+    try:
+        for task in tasks:
+            if converted >= limit or inspected >= scan_limit:
+                break
+            task_id = str(task.get("task_id", "")).strip()
+            cache_key = source_prep_fastlane_cache_key(task)
+            cached = entries.get(cache_key)
+            if isinstance(cached, dict) and cached.get("decision") == "skip":
+                reason = str(cached.get("reason", "cached_skip"))
+                count_skip(f"cached_{reason}")
+                continue
+
+            inspected += 1
+            source_path = paths.root / str(task.get("source", ""))
+            if source_path.suffix.lower() != ".pdf":
+                count_skip("not_pdf")
+                entries[cache_key] = {"decision": "skip", "reason": "not_pdf", "updated": utc_timestamp()}
+                cache_changed = True
+                continue
+
+            try:
+                doc = docs.get(str(source_path))
+                if doc is None:
+                    doc = fitz.open(source_path)
+                    docs[str(source_path)] = doc
+            except Exception as exc:
+                reason = "pdf_open_failed"
+                count_skip(reason)
+                entries[cache_key] = {
+                    "decision": "skip",
+                    "reason": reason,
+                    "error": str(exc),
+                    "updated": utc_timestamp(),
+                }
+                cache_changed = True
+                continue
+
+            page_number = int(task.get("page", 0) or 0)
+            if page_number < 1 or page_number > len(doc):
+                reason = "page_out_of_range"
+                count_skip(reason)
+                entries[cache_key] = {"decision": "skip", "reason": reason, "updated": utc_timestamp()}
+                cache_changed = True
+                continue
+
+            page = doc[page_number - 1]
+            profile = profile_source_prep_fastlane_pdf_page(page)
+            profile["pdf_width"] = float(page.rect.width)
+            profile["pdf_height"] = float(page.rect.height)
+            for ref_block in profile.get("image_blocks", []) or []:
+                if isinstance(ref_block, dict):
+                    ref_block["pdf_width"] = profile["pdf_width"]
+                    ref_block["pdf_height"] = profile["pdf_height"]
+            if not bool(profile.get("eligible")):
+                profile_flags = [str(flag) for flag in profile.get("flags", []) or []]
+                reason = next(
+                    (
+                        flag
+                        for flag in (
+                            "full_page_image_scan",
+                            "no_native_text_blocks",
+                            "insufficient_native_text",
+                            "table_like_layout",
+                            "possible_encoding_damage",
+                            "possible_ocr_garbage",
+                            "possible_ligature_text_loss",
+                        )
+                        if flag in profile_flags
+                    ),
+                    profile_flags[0] if profile_flags else "not_eligible",
+                )
+                count_skip(reason)
+                if reason in SOURCE_PREP_FASTLANE_SKIP_CACHEABLE_REASONS:
+                    entries[cache_key] = {
+                        "decision": "skip",
+                        "reason": reason,
+                        "flags": profile_flags,
+                        "updated": utc_timestamp(),
+                    }
+                    cache_changed = True
+                continue
+
+            image_refs = source_prep_fastlane_image_references(paths.root, task, profile)
+            for ref in image_refs:
+                for key in ("pdf_width", "pdf_height"):
+                    ref[key] = profile.get(key)
+            markdown = build_source_prep_fastlane_markdown(paths.root, task, profile, image_refs)
+            output_path = paths.root / str(task.get("output_path", ""))
+            tmp_review_path = output_path.with_suffix(output_path.suffix + ".fastlane-review.tmp")
+            tmp_review_path.parent.mkdir(parents=True, exist_ok=True)
+            tmp_review_path.write_text(markdown, encoding="utf-8")
+            review = review_source_prep_page_output(tmp_review_path)
+            try:
+                tmp_review_path.unlink()
+            except OSError:
+                pass
+            if str(review.get("status", "")) != "done":
+                failed_tasks.append(
+                    {
+                        "task_id": task_id,
+                        "reason": "generated_markdown_failed_review",
+                        "flags": ",".join(str(flag) for flag in review.get("quality_flags", []) or []),
+                    }
+                )
+                continue
+
+            if dry_run:
+                converted += 1
+                converted_tasks.append(task_id)
+                continue
+
+            try:
+                update_agent_task_state(paths.root, task_id, "claimed", agent=agent, note="deterministic PDF-native fast lane")
+                update_agent_task_state(paths.root, task_id, "in_progress", agent=agent, note="writing fast-lane page output")
+                write_source_prep_fastlane_images(paths.root, task, image_refs)
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                output_path.write_text(markdown, encoding="utf-8")
+                final_review = review_source_prep_page_output(output_path)
+                missing_images = [str(ref["path"]) for ref in image_refs if not Path(str(ref["path"])).exists()]
+                if str(final_review.get("status", "")) != "done" or missing_images:
+                    failed_tasks.append(
+                        {
+                            "task_id": task_id,
+                            "reason": "final_review_failed",
+                            "flags": ",".join(str(flag) for flag in final_review.get("quality_flags", []) or []),
+                        }
+                    )
+                    update_agent_task_state(
+                        paths.root,
+                        task_id,
+                        "released",
+                        agent=agent,
+                        note="fast-lane output failed final quality gate; released for visual conversion",
+                    )
+                    continue
+                update_agent_task_state(
+                    paths.root,
+                    task_id,
+                    "done",
+                    agent=agent,
+                    note="completed by deterministic PDF-native fast lane",
+                )
+            except Exception as exc:
+                failed_tasks.append({"task_id": task_id, "reason": str(exc)})
+                update_agent_task_state(
+                    paths.root,
+                    task_id,
+                    "released",
+                    agent=agent,
+                    note=f"fast-lane error; released for visual conversion: {exc}",
+                )
+                continue
+
+            converted += 1
+            converted_tasks.append(task_id)
+            entries[cache_key] = {
+                "decision": "converted",
+                "updated": utc_timestamp(),
+                "text_chars": profile.get("text_chars", 0),
+            }
+            cache_changed = True
+    finally:
+        for doc in docs.values():
+            try:
+                doc.close()
+            except Exception:
+                pass
+        if cache_changed:
+            save_source_prep_fastlane_cache(paths.root, cache)
+
+    append_log(
+        paths.research / "log.md",
+        "source-prep-fastlane | "
+        f"inspected {inspected}, converted {converted}, dry_run={dry_run}, skipped={skipped}, failed={len(failed_tasks)}",
+    )
+    return {
+        "inspected": inspected,
+        "converted": converted,
+        "dry_run": dry_run,
+        "skipped": skipped,
+        "converted_tasks": converted_tasks,
+        "failed_tasks": failed_tasks,
+    }
+
+
+def materialize_source_prep_tasks(
+    root: Path,
+    task_state: dict[str, dict[str, object]],
+) -> list[dict[str, object]]:
+    tasks: list[dict[str, object]] = []
+    for task in build_source_prep_agent_tasks(root):
+        task_copy = dict(task)
+        task_copy.pop("prompt", None)
+        apply_agent_task_state(task_copy, task_state.get(str(task_copy.get("task_id", "")), {}))
+        tasks.append(task_copy)
+    return tasks
+
+
+def build_source_prep_batch_agent_tasks(
+    source_tasks: list[dict[str, object]],
+    max_pages: int = 8,
+    limit: int = 50,
+    statuses: list[str] | None = None,
+) -> list[dict[str, object]]:
+    if max_pages < 1:
+        raise ValueError("max_pages must be at least 1")
+    if limit < 1:
+        raise ValueError("limit must be at least 1")
+    allowed_statuses = tuple(statuses or SOURCE_PREP_BATCHABLE_STATUSES)
+    unknown_statuses = set(allowed_statuses).difference(SOURCE_PREP_BATCHABLE_STATUSES)
+    if unknown_statuses:
+        raise ValueError(f"unsupported source-prep batch status: {', '.join(sorted(unknown_statuses))}")
+
+    available = [
+        task
+        for task in source_tasks
+        if str(task.get("status", "")).strip() in allowed_statuses
+    ]
+    available.sort(
+        key=lambda task: (
+            SOURCE_PREP_BATCH_STATUS_PRIORITY.get(str(task.get("status", "")), 99),
+            str(task.get("job_manifest", "")),
+            int(task.get("page", 0) or 0),
+        )
+    )
+
+    batches: list[dict[str, object]] = []
+    current: list[dict[str, object]] = []
+    current_key: tuple[object, ...] | None = None
+    last_page = 0
+
+    def flush_current() -> None:
+        nonlocal current, current_key, last_page
+        if current and len(batches) < limit:
+            batches.append(build_source_prep_batch_task(current))
+        current = []
+        current_key = None
+        last_page = 0
+
+    for task in available:
+        page_number = int(task.get("page", 0) or 0)
+        key = source_prep_batch_group_key(task)
+        if (
+            current
+            and key == current_key
+            and page_number == last_page + 1
+            and len(current) < max_pages
+        ):
+            current.append(task)
+            last_page = page_number
+            if len(current) >= max_pages:
+                flush_current()
+            continue
+
+        flush_current()
+        if len(batches) >= limit:
+            break
+        current = [task]
+        current_key = key
+        last_page = page_number
+        if len(current) >= max_pages:
+            flush_current()
+
+    if len(batches) < limit:
+        flush_current()
+    return batches
+
+
+def source_prep_batch_group_key(task: dict[str, object]) -> tuple[object, ...]:
+    return (
+        str(task.get("job_manifest", "")),
+        str(task.get("status", "")),
+        str(task.get("repair_reason", "")),
+        str(task.get("recommended_action", "")),
+        tuple(str(flag) for flag in task.get("quality_flags", []) or []),
+        tuple(str(section) for section in task.get("missing_sections", []) or []),
+        tuple(str(flag) for flag in task.get("qc_quality_flags", []) or []),
+    )
+
+
+def build_source_prep_batch_task(page_tasks: list[dict[str, object]]) -> dict[str, object]:
+    first = page_tasks[0]
+    last = page_tasks[-1]
+    first_page = int(first.get("page", 0) or 0)
+    last_page = int(last.get("page", 0) or 0)
+    job_slug = Path(str(first.get("job_manifest", ""))).parent.name
+    if first_page == last_page:
+        page_range = f"p{first_page:04d}"
+    else:
+        page_range = f"p{first_page:04d}-p{last_page:04d}"
+    pages = [source_prep_batch_page_record(task) for task in page_tasks]
+    batch = {
+        "task_id": f"source-prep-batch:{job_slug}:{page_range}",
+        "queue": "source-prep-batches",
+        "role": "source_converter",
+        "skill": "historical-document-conversion",
+        "status": str(first.get("status", "")),
+        "source": str(first.get("source", "")),
+        "source_sha256": str(first.get("source_sha256", "")),
+        "job_manifest": str(first.get("job_manifest", "")),
+        "job_id": str(first.get("job_id", "")),
+        "title": str(first.get("title", "")),
+        "first_page": first_page,
+        "last_page": last_page,
+        "page_count": len(page_tasks),
+        "task_ids": [str(task.get("task_id", "")) for task in page_tasks],
+        "pages": pages,
+    }
+    if first.get("repair_reason"):
+        batch["repair_reason"] = first["repair_reason"]
+    if first.get("recommended_action"):
+        batch["recommended_action"] = first["recommended_action"]
+    batch["prompt"] = build_source_prep_batch_agent_prompt(batch)
+    return batch
+
+
+def source_prep_batch_page_record(task: dict[str, object]) -> dict[str, object]:
+    record = {
+        "page": int(task.get("page", 0) or 0),
+        "task_id": str(task.get("task_id", "")),
+        "page_image": str(task.get("page_image", "")),
+        "work_order": str(task.get("work_order", "")),
+        "output_path": str(task.get("output_path", "")),
+        "image_output_dir": str(task.get("image_output_dir", "")),
+    }
+    for key in (
+        "quality_flags",
+        "missing_sections",
+        "qc_quality_flags",
+        "matched_terms",
+        "suspicious_readings",
+    ):
+        value = task.get(key)
+        if value:
+            record[key] = value
+    return record
+
+
+def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
+    tasks: list[dict[str, object]] = []
+    jobs_dir = root / "raw" / "codex-conversion-jobs"
+    if not jobs_dir.exists():
+        return tasks
+    qc_repair_by_manifest = load_qc_repair_pages(root)
+    page_review_cache = load_source_prep_page_cache(root)
+    page_review_cache_changed = False
+    for manifest_path in sorted(jobs_dir.glob("*/manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        job_slug = manifest_path.parent.name
+        manifest_key = relative_to_root(manifest_path, root)
+        qc_repair_pages = qc_repair_by_manifest.get(manifest_key, {})
+        for page in manifest.get("pages", []):
+            if not isinstance(page, dict):
+                continue
+            page_number = int(page.get("page", 0))
+            output_path = root / str(page.get("output_path", ""))
+            qc_hold = qc_repair_pages.get(page_number)
+            output_review, cache_changed = cached_review_source_prep_page_output(root, output_path, page_review_cache)
+            page_review_cache_changed = page_review_cache_changed or cache_changed
+            status = str(output_review["status"])
+            if output_path.exists() and qc_hold:
+                status = "needs_reread"
+            image_output_dir = str(page.get("image_output_dir") or "")
+            if not image_output_dir:
+                image_output_dir = relative_to_root(manifest_path.parent / "extracted-images" / f"page-{page_number:04d}", root)
+            task = {
+                "task_id": f"source-prep:{job_slug}:p{page_number:04d}",
+                "queue": "source-prep",
+                "role": "source_converter",
+                "skill": "historical-document-conversion",
+                "status": status,
+                "source": str(manifest.get("source_file", "")),
+                "source_sha256": str(manifest.get("source_sha256", "")),
+                "job_manifest": relative_to_root(manifest_path, root),
+                "job_id": str(manifest.get("job_id", "")),
+                "title": str(manifest.get("title", "")),
+                "page": page_number,
+                "page_image": normalize_job_artifact_reference(
+                    root,
+                    manifest_path,
+                    str(page.get("image_path", "")),
+                    f"page-images/page-{page_number:04d}",
+                ),
+                "work_order": str(page.get("work_order_path", "")),
+                "output_path": str(page.get("output_path", "")),
+                "image_output_dir": image_output_dir,
+            }
+            if output_review.get("quality_flags"):
+                task["quality_flags"] = output_review["quality_flags"]
+            if output_review.get("missing_sections"):
+                task["missing_sections"] = output_review["missing_sections"]
+            if qc_hold:
+                task.update(
+                    {
+                        "repair_reason": "post_conversion_qc_hold",
+                        "recommended_action": qc_hold.get("recommended_action", ""),
+                        "conversion_confidence": qc_hold.get("conversion_confidence", ""),
+                        "family_relevance": qc_hold.get("family_relevance", ""),
+                        "qc_quality_flags": qc_hold.get("quality_flags", []),
+                        "matched_terms": qc_hold.get("matched_terms", []),
+                        "suspicious_readings": qc_hold.get("suspicious_readings", []),
+                        "converted_file": qc_hold.get("converted_file", ""),
+                        "chunk_manifest": qc_hold.get("chunk_manifest", ""),
+                    }
+                )
+            task["prompt"] = build_source_prep_agent_prompt(task)
+            tasks.append(task)
+    if page_review_cache_changed:
+        save_source_prep_page_cache(root, page_review_cache)
+    return tasks
+
+
+def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
+    tasks: list[dict[str, object]] = []
+    for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        converted_file = str(manifest.get("converted_file", ""))
+        source_slug = slug(Path(converted_file).stem)
+        task = {
+            "task_id": f"conversion-qa:{slug(converted_file)}",
+            "queue": "conversion-qa",
+            "role": "conversion_qa_reviewer",
+            "skill": "conversion-qa-triage",
+            "status": "todo",
+            "converted_file": converted_file,
+            "chunk_manifest": relative_to_root(manifest_path, root),
+            "source": str(manifest.get("source", "")),
+            "source_sha256": str(manifest.get("source_sha256", "")),
+            "source_manifest": str(manifest.get("source_manifest", "")),
+            "output_dir": "research/_conversion-review",
+            "auto_qc_triage": f"research/_conversion-review/triage/{source_slug}.md",
+            "auto_qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+            "auto_qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+        }
+        task["prompt"] = build_conversion_qa_agent_prompt(task)
+        tasks.append(task)
+    return tasks
+
+
+def load_qc_blocked_pages(root: Path) -> dict[str, dict[int, dict[str, object]]]:
+    qc_pages_path = root / "research" / "_conversion-review" / "qc-pages.json"
+    if not qc_pages_path.exists():
+        return {}
+    try:
+        payload = json.loads(qc_pages_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    pages = payload.get("pages", []) if isinstance(payload, dict) else []
+    if not isinstance(pages, list):
+        return {}
+
+    task_state = load_agent_task_state(root)
+    blocked: dict[str, dict[int, dict[str, object]]] = {}
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        if str(page.get("recommended_action", "")) == "pass":
+            continue
+        converted_file = str(page.get("converted_file", ""))
+        if not converted_file:
+            continue
+        try:
+            page_number = int(page.get("page", 0))
+        except (TypeError, ValueError):
+            continue
+        if page_number < 1:
+            continue
+        source_manifest = str(page.get("source_manifest", "")).strip()
+        if not source_manifest:
+            source_manifest = source_manifest_for_qc_page(root, page)
+        if qc_page_reread_is_resolved(root, source_manifest, page_number, task_state):
+            continue
+        blocked.setdefault(converted_file, {})[page_number] = page
+    return blocked
+
+
+def load_qc_repair_pages(root: Path) -> dict[str, dict[int, dict[str, object]]]:
+    qc_pages_path = root / "research" / "_conversion-review" / "qc-pages.json"
+    if not qc_pages_path.exists():
+        return {}
+    try:
+        payload = json.loads(qc_pages_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    pages = payload.get("pages", []) if isinstance(payload, dict) else []
+    if not isinstance(pages, list):
+        return {}
+
+    task_state = load_agent_task_state(root)
+    repairs: dict[str, dict[int, dict[str, object]]] = {}
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        if str(page.get("recommended_action", "")) == "pass":
+            continue
+        source_manifest = str(page.get("source_manifest", "")).strip()
+        if not source_manifest:
+            source_manifest = source_manifest_for_qc_page(root, page)
+        if not source_manifest:
+            continue
+        try:
+            page_number = int(page.get("page", 0))
+        except (TypeError, ValueError):
+            continue
+        if page_number < 1:
+            continue
+        if qc_page_reread_is_resolved(root, source_manifest, page_number, task_state):
+            continue
+        repairs.setdefault(source_manifest, {})[page_number] = page
+    return repairs
+
+
+def source_prep_task_id_for_manifest_page(source_manifest: str, page_number: int) -> str:
+    job_slug = Path(source_manifest).parent.name
+    return f"source-prep:{job_slug}:p{page_number:04d}"
+
+
+def qc_page_reread_is_resolved(
+    root: Path,
+    source_manifest: str,
+    page_number: int,
+    task_state: dict[str, dict[str, object]],
+) -> bool:
+    if not source_manifest:
+        return False
+    task_id = source_prep_task_id_for_manifest_page(source_manifest, page_number)
+    state = task_state.get(task_id, {})
+    if str(state.get("status", "")).strip() != "done":
+        return False
+
+    manifest_path = Path(source_manifest)
+    if not manifest_path.is_absolute():
+        manifest_path = root / manifest_path
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False
+
+    for page in manifest.get("pages", []):
+        if not isinstance(page, dict):
+            continue
+        try:
+            manifest_page_number = int(page.get("page", 0))
+        except (TypeError, ValueError):
+            continue
+        if manifest_page_number != page_number:
+            continue
+        output_path = root / str(page.get("output_path", ""))
+        return str(review_source_prep_page_output(output_path).get("status", "")) == "done"
+    return False
+
+
+def source_manifest_for_qc_page(root: Path, page: dict[str, object]) -> str:
+    chunk_manifest_value = str(page.get("chunk_manifest", ""))
+    if chunk_manifest_value:
+        chunk_manifest = root / chunk_manifest_value
+        try:
+            manifest = json.loads(chunk_manifest.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            manifest = {}
+        source_manifest = str(manifest.get("source_manifest", "")).strip()
+        if source_manifest:
+            return source_manifest
+
+    converted_file_value = str(page.get("converted_file", ""))
+    if not converted_file_value:
+        return ""
+    converted_file = root / converted_file_value
+    try:
+        text = converted_file.read_text(encoding="utf-8")
+    except OSError:
+        return ""
+    _, _, source_manifest = parse_conversion_metadata(text)
+    return source_manifest
+
+
+def qc_blocked_pages_for_range(
+    blocked_pages: dict[int, dict[str, object]],
+    page_start: int,
+    page_end: int,
+) -> list[int]:
+    if not blocked_pages:
+        return []
+    if page_start < 1:
+        return sorted(blocked_pages)
+    if page_end < page_start:
+        page_end = page_start
+    return [page for page in sorted(blocked_pages) if page_start <= page <= page_end]
+
+
+def chunk_manifests_by_converted_file(root: Path) -> dict[str, list[str]]:
+    manifests: dict[str, list[str]] = {}
+    for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        converted_file = str(manifest.get("converted_file", ""))
+        if not converted_file:
+            continue
+        manifests.setdefault(converted_file, []).append(relative_to_root(manifest_path, root))
+    return manifests
+
+
+def source_usability_status(
+    source_status: str,
+    conversion_jobs: list[dict[str, object]],
+    converted_files: list[str],
+    chunk_manifests: list[str],
+    qc_hold_count: int,
+    page_repair_count: int,
+) -> str:
+    if not converted_files:
+        return "conversion_in_progress" if conversion_jobs else "conversion_not_started"
+    if not chunk_manifests:
+        return "needs_chunking"
+    if page_repair_count:
+        return "usable_with_page_repairs"
+    if source_status == "partially_converted":
+        return "partial_with_page_holds" if qc_hold_count else "partially_usable_for_extraction"
+    if qc_hold_count:
+        return "usable_with_page_holds"
+    return "usable_for_extraction"
+
+
+def source_prep_task_counts_by_hash(root: Path) -> dict[str, dict[str, int]]:
+    counts: dict[str, dict[str, int]] = {}
+    for task in build_source_prep_agent_tasks(root):
+        digest = str(task.get("source_sha256", ""))
+        if not digest:
+            continue
+        status = str(task.get("status", "unknown"))
+        source_counts = counts.setdefault(digest, {})
+        source_counts[status] = source_counts.get(status, 0) + 1
+    return counts
+
+
+def markdown_table_cell(value: object) -> str:
+    return str(value).replace("|", "\\|")
+
+
+def build_source_usability_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    sources = payload.get("sources", [])
+    summary_lines = []
+    if isinstance(summary, dict):
+        status_counts = summary.get("status_counts", {})
+        if isinstance(status_counts, dict):
+            for status, count in sorted(status_counts.items()):
+                summary_lines.append(f"- {status}: {count}")
+    if not summary_lines:
+        summary_lines.append("- No raw sources found.")
+
+    rows = [
+        "| Source | Status | Converted | Chunks | Pages needing repair | QC-held pages |",
+        "| --- | --- | ---: | ---: | ---: | ---: |",
+    ]
+    if isinstance(sources, list):
+        for source in sources:
+            if not isinstance(source, dict):
+                continue
+            rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(source.get("raw_path", "")),
+                        markdown_table_cell(source.get("status", "")),
+                        markdown_table_cell(source.get("converted_file_count", 0)),
+                        markdown_table_cell(source.get("chunk_manifest_count", 0)),
+                        markdown_table_cell(source.get("page_repair_count", 0)),
+                        markdown_table_cell(source.get("qc_hold_count", 0)),
+                    ]
+                )
+                + " |"
+            )
+
+    return f"""# Source Usability
+
+Generated: {payload.get("created", "")}
+
+This report answers whether each raw source is ready for LLM extraction, still waiting on conversion, or held only on specific pages that need reread.
+
+## Summary
+
+{chr(10).join(summary_lines)}
+
+## Sources
+
+{chr(10).join(rows)}
+"""
+
+
+def write_source_usability_report(
+    root: Path,
+    output: Path | None = None,
+    markdown_output: Path | None = None,
+) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    write_source_prep_index(paths.root)
+    prep_manifest_path = paths.raw / "source-prep-manifest.json"
+    try:
+        prep_manifest = json.loads(prep_manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        prep_manifest = {"sources": []}
+
+    chunks_by_converted = chunk_manifests_by_converted_file(paths.root)
+    qc_blocked_by_source = load_qc_blocked_pages(paths.root)
+    prep_task_counts = source_prep_task_counts_by_hash(paths.root)
+    entries = []
+    sources = prep_manifest.get("sources", []) if isinstance(prep_manifest, dict) else []
+    if not isinstance(sources, list):
+        sources = []
+
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        conversion_jobs = [job for job in source.get("conversion_jobs", []) if isinstance(job, dict)]
+        converted_sources = [item for item in source.get("converted_sources", []) if isinstance(item, dict)]
+        converted_files = [str(item.get("path", "")) for item in converted_sources if item.get("path")]
+        chunk_manifests = sorted(
+            {
+                manifest
+                for converted_file in converted_files
+                for manifest in chunks_by_converted.get(converted_file, [])
+            }
+        )
+        qc_holds = []
+        for converted_file in converted_files:
+            for page_number, page in sorted(qc_blocked_by_source.get(converted_file, {}).items()):
+                qc_holds.append(
+                    {
+                        "converted_file": converted_file,
+                        "page": page_number,
+                        "recommended_action": page.get("recommended_action", ""),
+                        "quality_flags": page.get("quality_flags", []),
+                        "matched_terms": page.get("matched_terms", []),
+                        "suspicious_readings": page.get("suspicious_readings", []),
+                    }
+                )
+        status = source_usability_status(
+            str(source.get("status", "")),
+            conversion_jobs,
+            converted_files,
+            chunk_manifests,
+            len(qc_holds),
+            prep_task_counts.get(str(source.get("sha256", "")), {}).get("needs_reread", 0),
+        )
+        source_task_counts = prep_task_counts.get(str(source.get("sha256", "")), {})
+        entries.append(
+            {
+                "id": source.get("id", ""),
+                "raw_path": source.get("raw_path", ""),
+                "media_type": source.get("media_type", ""),
+                "status": status,
+                "source_prep_status": source.get("status", ""),
+                "conversion_job_count": len(conversion_jobs),
+                "converted_file_count": len(converted_files),
+                "chunk_manifest_count": len(chunk_manifests),
+                "qc_hold_count": len(qc_holds),
+                "source_prep_task_counts": source_task_counts,
+                "page_repair_count": source_task_counts.get("needs_reread", 0),
+                "conversion_jobs": conversion_jobs,
+                "converted_files": converted_files,
+                "chunk_manifests": chunk_manifests,
+                "qc_holds": qc_holds,
+            }
+        )
+
+    status_counts = count_task_statuses(entries)
+    payload = {
+        "created": utc_timestamp(),
+        "purpose": "Source-readiness report for raw source -> LLM-readable source pipeline.",
+        "inputs": {
+            "source_prep_manifest": relative_to_root(prep_manifest_path, paths.root),
+            "qc_pages": "research/_conversion-review/qc-pages.json",
+        },
+        "summary": {
+            "total_sources": len(entries),
+            "status_counts": status_counts,
+        },
+        "sources": entries,
+    }
+
+    output_path = output or (paths.indexes / "source-usability.json")
+    markdown_path = markdown_output or (paths.research / "source-usability.md")
+    if not output_path.is_absolute():
+        output_path = paths.root / output_path
+    if not markdown_path.is_absolute():
+        markdown_path = paths.root / markdown_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_source_usability_markdown(payload), encoding="utf-8")
+    append_log(paths.research / "log.md", f"source-status | Wrote {relative_to_root(output_path, paths.root)}")
+    return [output_path, markdown_path]
+
+
+def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]:
+    tasks: list[dict[str, object]] = []
+    qc_blocked_by_source = load_qc_blocked_pages(root)
+    for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        converted_file = str(manifest.get("converted_file", ""))
+        source_slug = slug(Path(converted_file).stem)
+        for chunk in manifest.get("chunks", []):
+            if not isinstance(chunk, dict):
+                continue
+            chunk_id = str(chunk.get("chunk_id", ""))
+            page_start = int(chunk.get("page_start") or 0)
+            page_end = int(chunk.get("page_end") or page_start or 0)
+            blocked_pages = qc_blocked_pages_for_range(
+                qc_blocked_by_source.get(converted_file, {}),
+                page_start,
+                page_end,
+            )
+            task = {
+                "task_id": f"evidence-extraction:{chunk_id}",
+                "queue": "evidence-extraction",
+                "role": "evidence_extractor",
+                "skill": "genealogy-claim-extraction",
+                "status": "blocked_needs_reread" if blocked_pages else "todo",
+                "chunk_id": chunk_id,
+                "chunk_path": str(chunk.get("path", "")),
+                "converted_file": converted_file,
+                "chunk_manifest": relative_to_root(manifest_path, root),
+                "source": str(manifest.get("source", "")),
+                "source_sha256": str(manifest.get("source_sha256", "")),
+                "page_start": page_start,
+                "page_end": page_end,
+                "staging_dir": "research/_staging",
+            }
+            if blocked_pages:
+                task.update(
+                    {
+                        "blocked_pages": blocked_pages,
+                        "block_reason": "post_conversion_qc_hold",
+                        "qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+                        "qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+                    }
+                )
+            task["prompt"] = build_evidence_extraction_agent_prompt(task)
+            tasks.append(task)
+    return tasks
+
+
+def build_source_prep_agent_prompt(task: dict[str, object]) -> str:
+    repair_section = ""
+    if str(task.get("status", "")) == "needs_reread":
+        repair_section = f"""
+## Repair Context
+
+This page has an existing output file, but it is not trusted by the current source-prep contract.
+
+- Existing output: `{task["output_path"]}`
+- Automated quality flags: {", ".join(str(flag) for flag in task.get("quality_flags", [])) or "none"}
+- Missing contract sections: {", ".join(str(section) for section in task.get("missing_sections", [])) or "none"}
+- QC recommended action: `{task.get("recommended_action", "")}`
+- QC quality flags: {", ".join(str(flag) for flag in task.get("qc_quality_flags", [])) or "none"}
+- Matched family context: {", ".join(str(term) for term in task.get("matched_terms", [])) or "none"}
+
+Overwrite the assigned page Markdown with a fresh visual conversion. Treat the old output, OCR, and PDF text layers only as hints.
+"""
+    return f"""# Source Conversion Task
+
+Use `$source-prep-pipeline` and `$historical-document-conversion`.
+
+## Assignment
+
+- Role: `{task["role"]}`
+- Job manifest: `{task["job_manifest"]}`
+- Work order: `{task["work_order"]}`
+- Source: `{task["source"]}`
+- Page image: `{task["page_image"]}`
+- Page: {task["page"]}
+- Output Markdown: `{task["output_path"]}`
+- Extracted image folder: `{task["image_output_dir"]}`
+{repair_section}
+
+## Done When
+
+- The page image has been visually converted, not OCR-copied blindly.
+- `{task["output_path"]}` exists and follows the work-order page structure.
+- Meaningful photos, signatures, seals, maps, stamps, charts, illustrations, and other visual evidence are cropped into `{task["image_output_dir"]}` and referenced inline when present.
+- Literal transcription, translation, interpretation, uncertainty, genealogy leads, and completeness audit are separate.
+"""
+
+
+def build_source_prep_batch_agent_prompt(batch: dict[str, object]) -> str:
+    task_ids = [str(task_id) for task_id in batch.get("task_ids", [])]
+    quoted_task_ids = " ".join(f'"{task_id}"' for task_id in task_ids)
+    page_lines = [
+        "| Page | Task ID | Page Image | Output Markdown | Extracted Images | Flags |",
+        "| --- | --- | --- | --- | --- | --- |",
+    ]
+    for page in batch.get("pages", []):
+        if not isinstance(page, dict):
+            continue
+        flags = list(
+            dict.fromkeys(
+                [str(flag) for flag in page.get("quality_flags", []) or []]
+                + [str(flag) for flag in page.get("qc_quality_flags", []) or []]
+            )
+        )
+        combined_flags = ", ".join(flags) or "none"
+        page_lines.append(
+            "| "
+            f"{page.get('page', '')} | "
+            f"`{page.get('task_id', '')}` | "
+            f"`{page.get('page_image', '')}` | "
+            f"`{page.get('output_path', '')}` | "
+            f"`{page.get('image_output_dir', '')}` | "
+            f"{combined_flags} |"
+        )
+
+    repair_section = ""
+    if str(batch.get("status", "")) == "needs_reread":
+        repair_section = f"""
+## Repair Context
+
+These pages have existing output files, but they are not trusted by the current source-prep contract.
+
+- Repair reason: `{batch.get("repair_reason", "")}`
+- QC recommended action: `{batch.get("recommended_action", "")}`
+
+Overwrite each assigned page Markdown with a fresh visual conversion. Treat old output, OCR, and PDF text layers only as hints.
+"""
+
+    return f"""# Source Conversion Batch
+
+Use `$source-prep-pipeline` and `$historical-document-conversion`.
+
+This is a throughput batch, not a quality shortcut. Every page still needs visual inspection, page-level Markdown, extracted visual crops when present, uncertainty notes, and a completeness audit.
+
+## Assignment
+
+- Role: `{batch["role"]}`
+- Job manifest: `{batch["job_manifest"]}`
+- Source: `{batch["source"]}`
+- Pages: {batch["first_page"]}-{batch["last_page"]} ({batch["page_count"]} page(s))
+- Status: `{batch["status"]}`
+{repair_section}
+
+## Page Work
+
+{chr(10).join(page_lines)}
+
+## Task State
+
+Claim and start the page tasks before editing:
+
+```powershell
+genealogy-wiki agent-task claim {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
+genealogy-wiki agent-task start {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
+```
+
+After each page output passes the source-prep contract, complete only the page tasks that were actually finished:
+
+```powershell
+genealogy-wiki agent-task complete {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
+```
+
+If a page is too dense, handwritten, table-heavy, damaged, family-critical, or otherwise likely to lose accuracy in a batch pass, shrink the batch. Finish the pages you can convert accurately and release the rest with a note.
+
+## Done When
+
+- Each completed page image has been visually converted, not OCR-copied blindly.
+- Each completed page has its own output Markdown and extracted-image folder populated as needed.
+- Meaningful photos, signatures, seals, maps, stamps, charts, illustrations, and other visual evidence are cropped and referenced inline when present.
+- Literal transcription, translation, interpretation, uncertainty, genealogy leads, and completeness audit are separate on every completed page.
+"""
+
+
+def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
+    return f"""# Conversion QA Task
+
+Use `$conversion-qa-triage`.
+
+## Assignment
+
+- Role: `{task["role"]}`
+- Converted source: `{task["converted_file"]}`
+- Chunk manifest: `{task["chunk_manifest"]}`
+- Original source: `{task["source"]}`
+- Output area: `{task["output_dir"]}`
+- Automatic QC triage: `{task["auto_qc_triage"]}`
+- Automatic page queue: `{task["auto_qc_page_queue"]}`
+- Automatic suspected readings: `{task["auto_qc_corrections"]}`
+
+## Done When
+
+- Automatic QC findings have been checked and refined where needed.
+- Family-relevant pages, suspicious readings, likely name drift, table problems, handwriting uncertainty, and missing visual regions are queued under `research/_conversion-review/`.
+- Suspected corrections are documented separately from the converted Markdown.
+- The task does not promote claims or edit canonical wiki pages.
+"""
+
+
+def build_evidence_extraction_agent_prompt(task: dict[str, object]) -> str:
+    hold_section = ""
+    if str(task.get("status", "")).startswith("blocked"):
+        hold_section = f"""
+## QC Hold
+
+- Status: `{task["status"]}`
+- Blocked pages: {", ".join(str(page) for page in task.get("blocked_pages", []))}
+- Page reread queue: `{task.get("qc_page_queue", "")}`
+- Suspected readings: `{task.get("qc_corrections", "")}`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+"""
+    return f"""# Evidence Extraction Task
+
+Use `$genealogy-claim-extraction`.
+
+## Assignment
+
+- Role: `{task["role"]}`
+- Chunk: `{task["chunk_path"]}`
+- Converted source: `{task["converted_file"]}`
+- Chunk manifest: `{task["chunk_manifest"]}`
+- Original source: `{task["source"]}`
+- Page range: {task["page_start"]}-{task["page_end"]}
+- Staging area: `{task["staging_dir"]}`
+{hold_section}
+
+## Done When
+
+- Relevant source packets, atomic claim drafts, relationship candidates, identity/conflict candidates, and research tasks are written under `research/_staging/`.
+- Every draft has source path, converted file, chunk/page reference, literal support, conversion confidence/QA concern, uncertainty, and promotion recommendation.
+- No canonical wiki pages are edited by this extraction task.
+"""
+
+
+def count_task_statuses(tasks: list[dict[str, object]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for task in tasks:
+        status = str(task.get("status", "unknown"))
+        counts[status] = counts.get(status, 0) + 1
+    return counts
+
+
+def normalize_job_artifact_reference(root: Path, manifest_path: Path, value: str, fallback_stem: str) -> str:
+    if not value:
+        return first_existing_job_artifact(root, manifest_path, fallback_stem)
+
+    path = Path(value)
+    if not path.is_absolute():
+        return value
+    if path.exists():
+        return value
+
+    normalized = value.replace("\\", "/")
+    marker = "/raw/"
+    if marker in normalized:
+        candidate = root / normalized.split(marker, 1)[1]
+        if candidate.exists():
+            return relative_to_root(candidate, root)
+
+    return first_existing_job_artifact(root, manifest_path, fallback_stem)
+
+
+def first_existing_job_artifact(root: Path, manifest_path: Path, fallback_stem: str) -> str:
+    fallback = manifest_path.parent / fallback_stem
+    if fallback.exists():
+        return relative_to_root(fallback, root)
+    matches = sorted(fallback.parent.glob(f"{fallback.name}.*"))
+    if matches:
+        return relative_to_root(matches[0], root)
+    return relative_to_root(fallback, root)
 
 
 def relative_to_root(path: Path, root: Path) -> str:
@@ -1534,6 +5321,20 @@ def relative_to_root(path: Path, root: Path) -> str:
         return path.resolve().relative_to(root.resolve()).as_posix()
     except ValueError:
         return path.resolve().as_posix()
+
+
+def file_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def staged_source_filename(source_file: Path, digest: str, max_stem_length: int = 48) -> str:
+    stem = slug(source_file.stem)[:max_stem_length] or "source"
+    suffix = source_file.suffix.lower()
+    return f"{stem}-{digest[:12]}{suffix}"
 
 
 def relative_path(from_dir: Path, to_path: Path) -> str:
@@ -1632,7 +5433,7 @@ def build_relationship_index(root: Path, claims: list[ClaimRecord] | None = None
 
 def write_claim_index(root: Path, output: Path | None = None) -> Path:
     paths = WikiPaths(root.resolve())
-    output = output or (paths.wiki / "_indexes" / "claims.json")
+    output = output or (paths.indexes / "claims.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     claims = [asdict(record) for record in build_claim_index(paths.root)]
     output.write_text(json.dumps({"claims": claims}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -1641,7 +5442,7 @@ def write_claim_index(root: Path, output: Path | None = None) -> Path:
 
 def write_relationship_index(root: Path, output: Path | None = None) -> Path:
     paths = WikiPaths(root.resolve())
-    output = output or (paths.wiki / "_indexes" / "relationships.json")
+    output = output or (paths.indexes / "relationships.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     claims = build_claim_index(paths.root)
     relationships = [asdict(record) for record in build_relationship_index(paths.root, claims)]
@@ -1654,7 +5455,7 @@ def write_relationship_index(root: Path, output: Path | None = None) -> Path:
 
 def write_relationship_graph(root: Path, output: Path | None = None) -> Path:
     paths = WikiPaths(root.resolve())
-    output = output or (paths.wiki / "_indexes" / "relationship-graph.json")
+    output = output or (paths.indexes / "relationship-graph.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     claims = build_claim_index(paths.root)
     relationships = build_relationship_index(paths.root, claims)
@@ -1694,7 +5495,7 @@ def write_relationship_graph(root: Path, output: Path | None = None) -> Path:
 
 def generate_tree(root: Path, output: Path | None = None) -> Path:
     paths = WikiPaths(root.resolve())
-    output = output or (paths.wiki / "trees" / "family-tree.md")
+    output = output or (paths.wiki / "Family Tree.md")
     output.parent.mkdir(parents=True, exist_ok=True)
     relationship_pages = list((paths.wiki / "relationships").glob("*.md"))
 
@@ -1760,10 +5561,15 @@ def compile_narrative(root: Path, subject: str, output: Path | None = None) -> P
         "status: draft",
         "tags: [narrative]",
         f"subject: {subject}",
+        "narrative_type: individual_biography",
         "claim_scope: accepted_probable",
         "---",
         "",
         f"# {subject}",
+        "",
+        "## Scope",
+        "",
+        "This narrative is a family-history view compiled from accepted or probable claims. Add broader history only when it explains this person's life, records, migration, work, community, or constraints.",
         "",
         "## Draft Narrative",
         "",
@@ -1776,7 +5582,18 @@ def compile_narrative(root: Path, subject: str, output: Path | None = None) -> P
     else:
         lines.append("No accepted or probable claims were found for this subject.")
 
-    lines.extend(["", "## Uncertainty Notes", "", "This narrative was compiled only from accepted or probable claim pages."])
+    lines.extend(
+        [
+            "",
+            "## Family-Relevant Historical Context",
+            "",
+            "Add linked context here only when it explains this subject's lived experience.",
+            "",
+            "## Uncertainty Notes",
+            "",
+            "This narrative was compiled only from accepted or probable claim pages.",
+        ]
+    )
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return output
 
@@ -1820,7 +5637,8 @@ def lint_claim_cross_references(root: Path, claims: list[ClaimRecord]) -> list[s
             target = wikilink_target(value)
             if required_prefix and not target.startswith(required_prefix):
                 issues.append(f"claim {claim.path} {field} should link to {required_prefix}: {value}")
-            if not wiki_target_exists(paths.wiki, target):
+            target_root = paths.research if target.startswith(("sources/", "source-packets/")) else paths.wiki
+            if not wiki_target_exists(target_root, target):
                 issues.append(f"claim {claim.path} {field} target missing: {value}")
         for linked_claim in claim.supports + claim.conflicts_with:
             if linked_claim and linked_claim not in claim_by_wikilink:
@@ -2178,7 +5996,7 @@ def build_parser() -> argparse.ArgumentParser:
     codex_job_parser.add_argument("--id", required=True, help="Job id, such as CJ001.")
     codex_job_parser.add_argument("--title", required=True, help="Human-readable source title.")
     codex_job_parser.add_argument("--pages", help="Optional page range, such as 1,3-5. Defaults to all pages.")
-    codex_job_parser.add_argument("--image-scale", type=float, default=0.5, help="PDF render scale for page images. Default: 0.5.")
+    codex_job_parser.add_argument("--image-scale", type=float, default=2.0, help="PDF render scale for page images. Default: 2.0.")
     codex_job_parser.add_argument("--force", action="store_true", help="Overwrite an existing conversion job.")
 
     codex_next_parser = subparsers.add_parser(
@@ -2195,6 +6013,183 @@ def build_parser() -> argparse.ArgumentParser:
     codex_assemble_parser.add_argument("manifest", type=Path, help="Path to a codex-job manifest.json.")
     codex_assemble_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     codex_assemble_parser.add_argument("--out", type=Path, help="Output Markdown path. Defaults to raw/converted/<job>.codex.md.")
+
+    prep_index_parser = subparsers.add_parser(
+        "prep-index",
+        help="Inventory raw/sources for the document-preparation pipeline.",
+    )
+    prep_index_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    prep_index_parser.add_argument("--out", type=Path, help="Output JSON path. Default: raw/source-prep-manifest.json.")
+
+    prepare_sources_parser = subparsers.add_parser(
+        "prepare-sources",
+        help="Queue Codex-agent conversion jobs for raw/sources and chunk completed conversions.",
+    )
+    prepare_sources_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    prepare_sources_parser.add_argument("--pages", help="Optional page range for newly-created jobs, such as 1,3-5.")
+    prepare_sources_parser.add_argument(
+        "--image-scale",
+        type=float,
+        default=2.0,
+        help="PDF render scale for newly-created page images. Default: 2.0.",
+    )
+    prepare_sources_parser.add_argument(
+        "--pages-per-job",
+        type=int,
+        default=50,
+        help="Maximum PDF pages per conversion job so agent workers can own manageable ranges. Default: 50.",
+    )
+    prepare_sources_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
+    prepare_sources_parser.add_argument("--force", action="store_true", help="Recreate existing conversion jobs.")
+
+    agent_queues_parser = subparsers.add_parser(
+        "agent-queues",
+        help="Write Codex agent task queues for source prep, conversion QA, and evidence extraction.",
+    )
+    agent_queues_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    agent_queues_parser.add_argument(
+        "--out-dir",
+        type=Path,
+        help="Output queue directory. Default: research/_agent-queues.",
+    )
+    agent_queues_parser.add_argument(
+        "--stale-minutes",
+        type=int,
+        default=360,
+        help="Release claimed/in-progress tasks with no update for this many minutes. Use 0 to disable. Default: 360.",
+    )
+
+    source_prep_batches_parser = subparsers.add_parser(
+        "source-prep-batches",
+        help="Write bounded contiguous source-prep batch prompts for faster high-quality conversion work.",
+    )
+    source_prep_batches_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    source_prep_batches_parser.add_argument(
+        "--out-dir",
+        type=Path,
+        help="Output queue directory. Default: research/_agent-queues.",
+    )
+    source_prep_batches_parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=8,
+        help="Maximum contiguous pages per batch prompt. Default: 8.",
+    )
+    source_prep_batches_parser.add_argument(
+        "--limit",
+        type=int,
+        default=50,
+        help="Maximum batch prompts to write. Default: 50.",
+    )
+    source_prep_batches_parser.add_argument(
+        "--stale-minutes",
+        type=int,
+        default=360,
+        help="Release claimed/in-progress tasks with no update for this many minutes. Use 0 to disable. Default: 360.",
+    )
+    source_prep_batches_parser.add_argument(
+        "--status",
+        action="append",
+        choices=list(SOURCE_PREP_BATCHABLE_STATUSES),
+        help="Task status to include in batches. May be repeated. Default: needs_reread and todo.",
+    )
+
+    source_prep_fastlane_parser = subparsers.add_parser(
+        "source-prep-fastlane",
+        help="Bulk-complete only deterministic born-digital PDF pages that pass the source-prep quality gate.",
+    )
+    source_prep_fastlane_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    source_prep_fastlane_parser.add_argument(
+        "--limit",
+        type=int,
+        default=100,
+        help="Maximum pages to complete in this run. Default: 100.",
+    )
+    source_prep_fastlane_parser.add_argument(
+        "--scan-limit",
+        type=int,
+        default=1000,
+        help="Maximum queued pages to inspect before stopping. Default: 1000.",
+    )
+    source_prep_fastlane_parser.add_argument(
+        "--agent",
+        default="source-prep-fastlane",
+        help="Agent label recorded in task-state.json. Default: source-prep-fastlane.",
+    )
+    source_prep_fastlane_parser.add_argument(
+        "--stale-minutes",
+        type=int,
+        default=360,
+        help="Release claimed/in-progress tasks with no update for this many minutes. Use 0 to disable. Default: 360.",
+    )
+    source_prep_fastlane_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Inspect and report eligible pages without writing page Markdown or task state.",
+    )
+
+    conversion_qc_parser = subparsers.add_parser(
+        "conversion-qc",
+        help="Write page-level post-conversion QC triage, reread queues, and suspected readings.",
+    )
+    conversion_qc_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    conversion_qc_parser.add_argument(
+        "--out-dir",
+        type=Path,
+        help="Output review directory. Default: research/_conversion-review.",
+    )
+
+    source_status_parser = subparsers.add_parser(
+        "source-status",
+        aliases=["source-usability"],
+        help="Write a source usability report for raw source preparation and QC holds.",
+    )
+    source_status_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    source_status_parser.add_argument(
+        "--out",
+        type=Path,
+        help="Output JSON path. Default: research/_indexes/source-usability.json.",
+    )
+    source_status_parser.add_argument(
+        "--markdown",
+        type=Path,
+        help="Output Markdown path. Default: research/source-usability.md.",
+    )
+
+    agent_task_parser = subparsers.add_parser(
+        "agent-task",
+        help="Claim, start, complete, fail, or release an agent queue task.",
+    )
+    agent_task_parser.add_argument("action", choices=["claim", "start", "complete", "fail", "release"])
+    agent_task_parser.add_argument("task_id", nargs="+", help="Task id from a queue manifest. May be repeated for batch updates.")
+    agent_task_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    agent_task_parser.add_argument("--agent", default="", help="Agent or worker label to record.")
+    agent_task_parser.add_argument("--note", default="", help="Short status note.")
+    agent_task_parser.add_argument(
+        "--no-refresh",
+        action="store_true",
+        help="Only update durable task state; skip regenerating queue manifests.",
+    )
+
+    prep_chunk_parser = subparsers.add_parser(
+        "prep-chunk",
+        help="Chunk a converted Markdown source into page-scoped research prep chunks.",
+    )
+    prep_chunk_parser.add_argument("converted_file", type=Path, help="Converted Markdown file under raw/converted.")
+    prep_chunk_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    prep_chunk_parser.add_argument("--out-dir", type=Path, help="Output chunk directory. Default: raw/chunks/<converted-file>.")
+    prep_chunk_parser.add_argument("--max-chars", type=int, default=12000, help="Maximum characters per chunk. Default: 12000.")
+
+    vault_transcriptions_parser = subparsers.add_parser(
+        "vault-transcriptions",
+        help="Copy converted Markdown into editable Obsidian transcription notes.",
+    )
+    vault_transcriptions_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    vault_transcriptions_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing editable transcription notes. Default preserves manual edits.",
+    )
 
     claim_parser = subparsers.add_parser("claim", help="Create an atomic genealogy claim page.")
     claim_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
@@ -2227,15 +6222,15 @@ def build_parser() -> argparse.ArgumentParser:
 
     index_parser = subparsers.add_parser("index", help="Write structured JSON indexes from wiki pages.")
     index_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
-    index_parser.add_argument("--out", type=Path, help="Claim index output path. Default: wiki/_indexes/claims.json.")
+    index_parser.add_argument("--out", type=Path, help="Claim index output path. Default: research/_indexes/claims.json.")
 
     graph_parser = subparsers.add_parser("graph", help="Write a relationship graph JSON view.")
     graph_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
-    graph_parser.add_argument("--out", type=Path, help="Output path. Default: wiki/_indexes/relationship-graph.json.")
+    graph_parser.add_argument("--out", type=Path, help="Output path. Default: research/_indexes/relationship-graph.json.")
 
     tree_parser = subparsers.add_parser("tree", help="Generate a Mermaid family tree view from relationship pages.")
     tree_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
-    tree_parser.add_argument("--out", type=Path, help="Output Markdown path. Default: wiki/trees/family-tree.md.")
+    tree_parser.add_argument("--out", type=Path, help="Output Markdown path. Default: wiki/Family Tree.md.")
 
     narrative_parser = subparsers.add_parser("narrative", help="Compile a narrative from accepted/probable claim pages.")
     narrative_parser.add_argument("subject", help="Person, family, branch, or entity label to compile.")
@@ -2309,6 +6304,132 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "codex-assemble":
         output_path = assemble_codex_conversion_job(args.root, args.manifest, out=args.out)
         print(f"Assembled Codex conversion document {output_path}")
+        return 0
+
+    if args.command == "prep-index":
+        output_path = write_source_prep_index(args.root, args.out)
+        print(f"Wrote source preparation manifest {output_path}")
+        return 0
+
+    if args.command == "prepare-sources":
+        results = prepare_raw_sources(
+            root=args.root,
+            force=args.force,
+            page_range=args.pages,
+            image_scale=args.image_scale,
+            pages_per_job=args.pages_per_job,
+            max_chars=args.max_chars,
+        )
+        print(f"Prepared {len(results)} raw source(s)")
+        for result in results:
+            print(f"- {result.status}: {result.source}")
+            for job in result.conversion_jobs:
+                print(f"  job: {job}")
+            if result.converted_file:
+                print(f"  converted: {result.converted_file}")
+            if result.chunk_manifest:
+                print(f"  chunks: {result.chunk_manifest}")
+        return 0
+
+    if args.command == "agent-queues":
+        written = write_agent_queues(args.root, args.out_dir, stale_minutes=args.stale_minutes)
+        for path in written:
+            print(f"Wrote agent queue {path}")
+        return 0
+
+    if args.command == "source-prep-batches":
+        output_path = write_source_prep_batches(
+            root=args.root,
+            output_dir=args.out_dir,
+            max_pages=args.max_pages,
+            limit=args.limit,
+            stale_minutes=args.stale_minutes,
+            statuses=args.status,
+        )
+        print(f"Wrote source-prep batch queue {output_path}")
+        return 0
+
+    if args.command == "source-prep-fastlane":
+        summary = source_prep_fastlane_run(
+            root=args.root,
+            limit=args.limit,
+            scan_limit=args.scan_limit,
+            agent=args.agent,
+            stale_minutes=args.stale_minutes,
+            dry_run=args.dry_run,
+        )
+        print(
+            "source-prep-fastlane | "
+            f"inspected={summary['inspected']} converted={summary['converted']} dry_run={summary['dry_run']}"
+        )
+        skipped = summary.get("skipped", {})
+        if isinstance(skipped, dict) and skipped:
+            print("skipped:")
+            for reason, count in sorted(skipped.items()):
+                print(f"- {reason}: {count}")
+        converted_tasks = summary.get("converted_tasks", [])
+        if isinstance(converted_tasks, list) and converted_tasks:
+            print("converted tasks:")
+            for task_id in converted_tasks[:25]:
+                print(f"- {task_id}")
+            if len(converted_tasks) > 25:
+                print(f"- ... {len(converted_tasks) - 25} more")
+        failed_tasks = summary.get("failed_tasks", [])
+        if isinstance(failed_tasks, list) and failed_tasks:
+            print("failed tasks:")
+            for failure in failed_tasks[:25]:
+                print(f"- {failure}")
+            if len(failed_tasks) > 25:
+                print(f"- ... {len(failed_tasks) - 25} more")
+        return 0
+
+    if args.command == "conversion-qc":
+        written = write_post_conversion_qc(args.root, args.out_dir)
+        print(f"Wrote {len(written)} conversion QC artifact(s)")
+        return 0
+
+    if args.command in {"source-status", "source-usability"}:
+        written = write_source_usability_report(args.root, args.out, args.markdown)
+        for path in written:
+            print(f"Wrote source usability report {path}")
+        return 0
+
+    if args.command == "agent-task":
+        status_by_action = {
+            "claim": "claimed",
+            "start": "in_progress",
+            "complete": "done",
+            "fail": "failed",
+            "release": "released",
+        }
+        state_path = update_agent_task_states(
+            args.root,
+            args.task_id,
+            status_by_action[args.action],
+            agent=args.agent,
+            note=args.note,
+        )
+        if not args.no_refresh:
+            write_agent_queues(args.root)
+        print(f"Updated agent task state {state_path} ({len(args.task_id)} task(s))")
+        return 0
+
+    if args.command == "prep-chunk":
+        manifest_path = chunk_converted_markdown(
+            root=args.root,
+            converted_file=args.converted_file,
+            output_dir=args.out_dir,
+            max_chars=args.max_chars,
+        )
+        print(f"Wrote source preparation chunks {manifest_path}")
+        return 0
+
+    if args.command == "vault-transcriptions":
+        written = sync_vault_transcriptions(args.root, force=args.force)
+        if args.force:
+            print(f"Synced {len(written)} vault transcription index/page notes")
+        else:
+            print(f"Synced {len(written)} vault transcription index/page notes; existing page notes were preserved")
         return 0
 
     if args.command == "claim":

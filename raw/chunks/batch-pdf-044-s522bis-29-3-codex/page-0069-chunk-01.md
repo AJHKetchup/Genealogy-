@@ -1,0 +1,290 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0069-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 69
+page_end: 69
+part: 1
+---
+
+# Page 69
+
+## Page Metadata
+
+- Source page: 69
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0069.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1681
+(de 1921
+CAMARA DE
+Iportès”, del senor diputado Gonzalez “sobre
+modification de la ley de .prenda agraria”, y
+por fin los de “legislation del trabajo”. Ense-
+guida se tratarîan los déspachos de la comisiôn
+de peticiones y poderes y lnego entraîna el cô-
+digo penal.
+Creo que el senor diputado de Tomaso no lia
+de exponerse a que estos proyectos de legisla-
+ciôn del trabajo queden sin saneiôn por tratar
+otros asuntos, como el codigo penal, que tal vez
+para el criterio del senor diputado sean muy
+seneillos, pero que por ini parte debo déclarai’
+no
+conozco hasta la feclia, ni en lo que respec¬
+ta
+a la saneiôn del senado ni de la câmara. El
+senor diputado ba de permitir que sus compa-
+neros puedan tener siquiera una pequena infor-
+maciôn sobre asunto tan delicado.
+Yo eutiendo que salvamos todas las dificul-
+tades con el orden que acabo de proponer, cre-
+yendo eontar de anteniano con la aquiescencia
+de los senores diputados Bermfidez y de Toma¬
+so.
+Sr. Eodeyro. — Pido la palabra.
+Deseo saber si
+en el orden de las preferen-
+Cias figura cl despaelio sobre
+adülteraciôn de
+las substancias alimenticias, que lia sido vota-
+do
+en general y se estaba tratando en parti¬
+cular.
+Sr. Présidente (Goyeiieelie). — No, senor di¬
+putado.
+Sr. Rodeyrc. — TIago indieaeiôii en el senti-
+do de que a continuacion del despaelio sobre cô-
+digo penal se trace el proyeeto sobre adultera-
+ciôn
+de substancias alimenticias.
+Sr. Molina. — Pido la palabra.
+Desearia
+se
+me informara cuâl
+es el orden
+de
+las preferencias sancionadas,
+para
+haeer
+luego uso de la palabra.
+Sr. Présidente (Goyeneche). — Después del
+presupuesto siguen : el despaelio de la comisiôn
+de eomnnicaciones y transportes, cl despaelio
+de la comisiôn
+de eomercio
+e industrie sobre
+prôrroga
+de centrâtes de prenda agraria, y
+luego ios despachos sobre trabajo de mujéres
+y ninos, eierre de easas de eomercio a las 20,
+convention de Washington, liogar ferroviario,
+expropiaeiôn del Recreo, arancel de eseriba-
+nos,
+y venias para demandai’ a la naciôn des-
+paehadas por la comisiôn de negocios const.itu-
+eionales.
+Sr. Frugoni. — La discusiôu del codigo pe¬
+nal
+i, en qué lugar estârîa? Es tan fundaüien-
+tal su saneiôn...
+Sr. Molina.
+Pué de hablar el Senor dipu-
+tado.
+Sr. FrUgoni. — jOôiüo, sénof diputado?
+Sr. Molina.
+— Estaba hablando yo, por eso
+digo
+que puede haeer uso de la palabra el se¬
+nor diputado.
+Sr. Frugoni. ■— No lo habia oido; diseûlpeme
+él senor diputado
+DTPUTADOS
+Sr. Molina.
+— Puede haeer la pregunta que
+iba
+a haeer.
+Sr. Frugoni. — Preguntaba a la presideneia
+ëii qué lugar correspouderia la discusiôu del
+codigo penal; porque se discute en el orden de
+las preferencias ;
+se dilatau las exposiciones y
+no
+se llega a nada prâctico.
+Sr. Gonzalez. — No
+se lia votado nada toda-
+via.
+Sr. Présidente (Goyeneche). — Es lo que se
+esta discutiendo,
+es
+una de las varias mocio-
+nes que estân por votarse.
+Sr. Frugoni. — Como se habia discutido tan-
+to, creia cpie se habia votado ya.
+Los minutos
+no tienen
+mas valor
+que el de
+las palabras.
+Sr. Moîina.
+— Creo, senor présidente, que la
+peor manera de trabajar es esta, es decir bacei
+mociones de prefereneia alterando las ya vota-
+das. Se traba asi una lucha, no dire de intere-
+ses personales, pero si de intereses publicos, dé
+acuerdo con el criterio que cada dipiitàdo ten-
+ga respecta de la preëmineneia que debe acor-
+darse al
+uno sobre
+el otro, y nos pasamos el
+tiempo
+discutiendo preferencias. Como aquel
+de
+que disponemos
+es liray pequeüo, nos va à
+tomar
+el fin
+del periodo discutiendo todavia
+cuâles soir los asüntos que se van a tratar.
+Por
+consiguiente,
+deseaudo
+yo
+due
+la
+câ-
+mara realice
+una labor eficiente, voy
+a pedir-
+le
+que
+adopte
+este
+pünte
+de
+vista general:
+mantener todas las preferencias votadas, por-
+‘qüe
+por
+algo
+las ha
+votado
+la
+câmara, y
+agregar todos los deinâs asüntos
+que los
+se¬
+nores diputados indiqnen después, siempre en
+el
+orden
+de
+las preferencias,
+de tal manera
+que
+asi
+no
+discutiremos
+en
+cada
+caso
+para
+desalojar
+otros asuntos. Todos los que
+se ha
+resuelto tratar hasta la feclia son de alto in¬
+terés publico,
+como lo
+es tâmbién ilidudable-
+mente
+el codigo penal,
+como lo
+son las pen-
+siones, porque siempre hay un intefés publico
+en protéger
+a los deudos de los viejos servi-
+dores ciel pais, y como puede ser cualesquiera
+de
+los
+otros
+proyectos indicados
+por los
+se¬
+nores diputados.
+De
+manera que propongo
+a la câmara qiie,
+manteniendo
+el
+orden establecido para tratar
+los asuntos, agregue en el orden subsiguiente
+los très
+o enatro que se ban indiendo por los
+senores diputados.
+Sr. De Tomaso.
+— Pido la palabra.
+La indication que lie bèclio :ito tiene carâc-
+ter
+personal.
+Me lie
+oëupâdô
+de
+un
+grave
+âsiinto de interés pûblico.
+Sr. Molina.
+{. Quiéü ha liablado de inte-i
+rés personal? He liablado de interés pfibîieo.
+Sr. De
+Tomaso.
+— &Y por qué snpone el
+senor diputado que le estoy contestando a él?
+Sr. Molina.
+— Porque nadie ha dicho nada.-
+Sr.
+De
+Tomaso.
+— Muy bien, entonees lo
+digo yo.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 69.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

@@ -1,0 +1,298 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0118-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 118
+page_end: 118
+part: 1
+---
+
+# Page 118
+
+## Page Metadata
+
+- Source page: 118
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0118.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1726
+CAMARA! I}E DIPUTAD08
+Septembre 21
+I
+Ijaélierdp para su nombramiento de enviado
+a la
+Liga de las Naciones.
+— el euvîo del tratado
+para su aprobaeion, envio inmediato, que nun-
+ca llegô. Y entonees
+Amocedieiido, a
+sn'i /juiqio,
+con
+cierta
+q&secuene iai,
+fese
+'acuerdo para este enviado
+a la Liga de las Na-
+ciones, no
+a la representacion,
+a Francia, In-
+glaterra, Espana ni
+a ninguna de las represen-
+îtaciones ordinafias:
+a la Liga de las. Naciones
+que se eonstituîa a base del tratado de Versa-
+lles, sobre lo cual la Liga de las Naciones
+no
+îadmifria
+a ninguno de los que ingresaran a ella
+ninguna diserepanciâ.
+El senor diputado
+nos ha-ee, pues, la teorîa
+de que los poderes ejecutivos dirigen las rela-
+ciones exteriores y que no llegan al congreso,
+sino
+para la aprobaeion
+o
+la. desaprobaeiôn.
+Pues no
+es nada senor diputado. No llegan al
+congreso sino para el raomento deeisivo, es de-
+eir, para el ejercicio de la soberania. Por eso,
+yo traté de hacerle entender al senor diputado
+que si el poder ejeeutivo era Inanejador, “ma-
+. nager”,
+de
+las
+relaciones exteriores,
+el
+eon-
+-greso era el soberano y era el que decia si o no
+a todas las gestiones que este gestor, su enear-
+gado, el encargado del soberano, gestor
+a las
+ôrdenes
+del soberano, pudiera tramitar.
+Esto
+.es lo que se llama soberania. Entonees, la Li-
+fea (la.las Naciones,
+a su vez, êôiuëiio la <{gà-
+SéT
+.dn...no. preguntarle
+al
+senor ministro de
+relaciones exteriores quien
+era él, de acuerdo
+con
+las institneiones argentinas,' con cüyô' tî-
+‘tulo y con cuyo poder, como ë'sJnatural, tenia
+j$ue
+presentarse
+este
+enviado
+extraordinario
+ante la Liga de las Naciones; para acreditar
+personerîa, ténia que acreditarla a base de las
+institneiones del pais
+que eonstituîa la
+repre¬
+sentacion. La Liga de las naciones, asi, come-
+•iiô la
+tereera “gaffe”, y
+esto
+es
+un a felici-
+idad porque résulta que todas las “gaffes” se-
+cundarias
+que ba cometido el
+senor ministro
+de relaciones exteriores
+en la Liga de las na-
+1
+ciones no tienen ninguna importancia, porque,
+-como ya lo dije, el senor ministro de relaciones
+lexteriores y el gobierno argentino, aunque no
+feea elegante pero
+es siquiera cômodo
+en este
+momento, no es mas que un “eolatto”, un in-
+'dividuo que se ba entrado a la Liga de las na-
+fciones y que ha salido
+con la misma faeilidad
+'con que entré,
+es decir, por una puerta excu-
+sada, y no tiene ninguna importancia nada de
+lo que haya dicho el poder ejeeutivo en la Li¬
+ga de las naciones y nada de lo que a él le ha-
+yan dicho. Lo unico que tiene importancia son
+t
+los gastos, las
+erogaciones
+que
+esa
+permanen-
+cia ha causado, i es probable que el poder eje-
+jautivo tenga que acudir para ello a los fondes
+Vjpropios .que son eu recurso ordinario?
+\Sr. Pena, — Ya aeudiô. Ya mando pagar.
+/Sr. Costa.
+— Ya ha acudido...
+entonees
+es-
+“*■
+la difieultad. ,(Eisas\
+Sr. Sanchez Sorondo.
+— Pido la palabra.
+Yo no voy a hablar del asunto
+en discusiôn;
+de maucra que si algun senor diputado quiere
+liacer uso de la palabra, se la' cederia.
+Sr. Présidente ('Sanchez de Bustamante). —
+Parece
+que ningun senor diputado quiere
+ha¬
+blar.
+Sr. Parry.
+— Pido la palabra.
+Me parece que el senor diputado manifiesta
+que no va a hablar del asunto en discusiôn. Yo
+rogaria a la presidençia que consultara a la câ-
+mara si, reglamentariamente, procédé
+que nos
+apartëmos del asunto
+en debate,
+o si podemos
+entrai'
+a, otro asunto. Yo no sé a que asunto
+se
+va
+a referir el senor diputado.
+Si'. Présidente (Sanchez de Bustamante). —
+La presidençia entiende que el senor diputado
+se iba
+a referir al ministerio de relaciones
+ex¬
+teriores.
+Sr. Gonzalez Iramain.
+— Se puede referir a
+eualquier otro
+anexo.
+Sr. Sanchez Sorondo.
+— La presidençia
+me
+interpréta admirablemente. El asunto especial-
+mente
+en discusiôn
+es la inclusion
+o no inclu¬
+sion
+en el presupuesto de la partida para pa¬
+gar los gastos de la representacion argentina
+en el congreso de las naciones. Pero el asunto
+a la orden del dia
+es el presupuesto, y sobre él
+voy a liahlar.
+Declaro, senor présidente, ante todo, que sal¬
+vo con mi protesta en lo que me es personal la
+situation deprimente
+en que nos encentramos,
+teniendo que délibérai’ sin que antes la eâmara,
+volviendo por sus fueros, baya impuesto al ciu-
+dadano que se ha alzado contra ellos el casti-
+go
+a
+que
+se ha heeho acreedor; protesta que
+mantendré mientras
+esa saneiôn
+no
+se haya
+producido. Pero como nadie me puede impedir
+la expresiôn de mi pensamiento en la oportnni-
+dad en que se debate un asunto en que creo ne-
+cesario intervenir, dejo constancia con estas pa¬
+labras de la situation de heeho
+a que me
+veo
+sometido.
+La forma como
+se discute el presupuesto nos
+obliga a intercalar, a los diputados que desea-
+mos que la eâmara y el pais conozcan, las ob-
+jeeiones que la prâctica de la ley fundamental
+ha suscitado y suscita.
+Yo voy
+a présentai’
+a la eâmara
+un
+nuevo
+caso defios tantos que la oposieiôn tiene el de-
+ber dafrecoger para revelar como el actual po¬
+der ejfeutivo entiende el cumplimiento de
+sus
+debeJjl mâs esenciales. No
+se trata de lo que
+gemaplmente .se llama, un escândalo ; no se tra¬
+ta Je
+un negocio sucio de algun miembro del
+poJBr ejeeutivo;
+no
+se trata
+de ninguna
+de-
+fMudaeiôn; no
+se trata de ningun deereto dic-
+o con vistas mâs o menos interesadas : se tra¬
+de un
+caso de total incuria, de total inepeia,
+rc- total ineptitud,
+a tal punto
+que dentro de
+las
+causas verosîmiles,
+y
+easi diria humanas,
+no
+se encuentra ninguna que pueda expliearlo.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 118.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

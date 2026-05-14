@@ -1,0 +1,143 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0220-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 220
+page_end: 220
+part: 1
+---
+
+# Page 220
+
+## Page Metadata
+
+- Source page: 220
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0220.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+3
+routes qui assurent ses communications. Naturellement la même préoccupation existe en ce qui
+concerne les hôpitaux et les ambulances. Dans ces conditions, il pourrait arriver que des unités
+combattantes et des formations sanitaires choisissent le même emplacement. C'est en prévision
+d'une éventualité de ce genre qu'il serait indiqué, nous semble-t-il, de stipuler que ce sont les
+formations sanitaires qui doivent se tenir à une certaine distance des formations de combat.
+Le Colonel Ziiblin (Suisse)
+:
+Monsieur le Président, Messieurs. Il
+me semble que dans les propositions faites jusqu'à
+présent tendant à la suppression du drapeau national, on a un peu trop négligé le point de vue
+militaire. Il ne faut pas oublier que les formations' sanitaires sont aussi des formations militaires.
+Et l'on a toujours admis que les formations sanitaires devaient, en première ligne, être couvertes
+par les couleurs de leur pays. C'est une exception qui a été faite de pouvoir, à côté des couleurs
+nationales, arborer les couleurs de la Croix-Rouge. Il ne faut donc pas renverser les rôles. Je
+comprends parfaitement qu'on se laisse quelque peu emporter par cette idée de la Croix-Rouge
+qui doit donner une protection égale à tous. Il ne faut pas oublier la nécessité qu'il y a pour les
+armées à reconnaître immédiatement
+à une certaine distance si
+une formation sanitaire ap¬
+partient à son armée ou à quelqu'un d'autre. La proposition qui tend à abolir complètement
+le drapeau national est exagérée et je vous prie de la repousser.
+Nous pourrions aller jusqu'à la proposition des Etats-Unis qui demandent que pour les
+établissements fixes le drapeau national soit arboré à côté du drapeau de la Croix-Rouge et
+que pour les formations mobiles, cela soit également fait, si possible.
+Il serait intéressant que M. le Secrétaire général veuille bien nous donner quelques expli¬
+cations sur les raisons qui ont poussé le C.I.C.R.
+à introduire cette disposition prévoyant le
+drapeau national à côté du drapeau de la Croix-Rouge.
+A propos de la signalisation nocturne pour les avions, je pense qu'il ne s'agit pas d'une
+question ayant
+une grande portée pratique.
+11 est déjà excessivement difficile
+de jour de
+distinguer des couleurs depuis un avion. Il faut des étendues énormes de terrain pour signaler à
+un avion volant un peu haut une certaine couleur. Je ne puis donc pas me représenter quelles
+installations il faudrait faire de nuit pour signaler à un avion de bombardement ennemi qu'il
+survole une formation sanitaire. En général, les formations sanitaires ne s'établissent pas dans
+des endroits exposés ; elles vont se cacher, si possible. C'est pourquoi je pense qu'il ne faut pas
+attacher une trop grande importance à cette question. Les formations sanitaires auront d'ail¬
+leurs bien d'autres préoccupations en temps de guerre.
+Quant à la proposition de la France tendant à établir un rayon de 500 mètres autour des
+formations et établissements sanitaires, je dois dire qu'en théorie cette suggestion me paraît
+parfaitement juste. Cependant,
+comme pour la question de la signalisation, j'ai des doutes
+quant à sa réalisation pratique. M. le délégué des Etats-Unis l'a déjà fait remarquer. I lpourra
+se présenter que des formations (voitures, parcs de vivres, etc.) ne puissent pas être placées à
+500 mètres d'une station sanitaire parce que l'emplacement ne s'y prête pas.
+Il ne faudrait donc pas charger la Convention d'une disposition nouvelle qui serait difficile¬
+ment applicable en pratique et qui, par conséquent, pourrait être facilement violée et ouvrirait
+la porte à toutes sortes d'abus.
+J'ai pris connaissance enfin d'une proposition de la Suède se rapportant aux pays neutres.
+Je serais très reconnaissant à M. le représentant de la Suède de bien vouloir nous expliquer ici
+en quelques mots les raisons pour lesquelles la Suède tient à
+ce que les formations sanitaires
+des pays neutres aient le droit d'arborer, outre le pavillon de la Croix-Rouge, celui de leur propre
+pays.
+M. le Président
+:
+Le Médecin Général Marotte, devant s'absenter ce matin pour des motifs d'ordre personnel,
+m'avait
+demandé
+de
+présenter
+en
+son
+nom
+les
+dispositions
+nouvelles
+que
+son pays
+désirerait voir examinées par la Conférence au sujet des stipulations de l'article
+21.
+En tant
+que porte-parole de notre honoré collègue, il ne m'appartient que de lire les commentaires
+mentionnés dans le cahier qui vous a été remis et) d'attirer votre attention sur les points nou¬
+veaux qui ont été soulevés. Je m'aperçois âvec beaucoup de plaisir que mon rôle est fort soulagé,
+car je constate que tout le monde a lu avec beaucoup d'attention les propositions présentées
+par la France.
+/
+Il ne m'appartient évidemment pas de défendre les arguments avancés, n'ayant pas les
+suggestions voulues pour le faire. Je passe donc la parole au Général Djourdjevitch.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 220.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

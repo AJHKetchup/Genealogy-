@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/retry-aud-002-dario-arturo-pulgar-interview-11-24-202.codex.md",
+  "converted_sha256": "cc9f495c02f220b2733be39b63caca567b71389297a9f89d3c650be0e64e8a59",
+  "source": "raw/codex-conversion-jobs/retry-aud-002-dario-arturo-pulgar-interview-11-24-202/source/dario-arturo-pulgar-interview-11-24-2024-50f9e5701e9e.m4a",
+  "source_sha256": "50f9e5701e9e76f652296e2315f2435272f9f8b5c77e97a4f9930586154ab565",
+  "source_manifest": "raw/codex-conversion-jobs/retry-aud-002-dario-arturo-pulgar-interview-11-24-202/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-cc9f495c02f2-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/retry-aud-002-dario-arturo-pulgar-interview-11-24-202-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 1171,
+      "sha256": "720defb3b3d3dd823d8c3aca8b5c3fd4865a6cc589e697a32cd0598f5e937805"
+    }
+  ]
+}

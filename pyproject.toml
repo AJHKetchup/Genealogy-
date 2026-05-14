@@ -1,7 +1,7 @@
 [project]
-name = "historic-doc-ingest"
+name = "genealogy"
 version = "0.1.0"
-description = "High-fidelity ingestion pipeline for image-based historical PDFs into LLM-readable Markdown."
+description = "Genealogy research toolkit for historical document ingestion and LLM-maintained evidence wikis."
 requires-python = ">=3.10"
 dependencies = []
 

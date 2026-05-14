@@ -1,0 +1,333 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1136-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1136
+page_end: 1136
+part: 1
+---
+
+# Page 1136
+
+## Page Metadata
+
+- Source page: 1136
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1136.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1293
+-fle 1932
+CAMARA T>K SRNATtORFS PTC LA
+N ACTON"
+présenta ya,
+a mi juicio, -caractères distintos-y
+!a
+proximidad
+del
+rcceso
+parlamontario,
+me
+deciden
+a informar al Honorable Senado de. la
+posiciôn
+en que nuestro pats se lia colocado y
+se mantiene ante las perspeetivas de
+ese cou-
+flieto,
+cuyo
+desenvolvimiento
+y
+euyas
+l'ases
+ulteriores
+son por el momento imprévisibles.
+Domina,
+sin
+duda,
+la
+perspectiva
+del
+mo-
+mento, una interrogaeiôn anbelosa que no solo
+puede existir
+en el ambiente politico externe,
+sino que existe en el fondo del espiritu de los
+que afanosamente
+nos
+liemos preocupado
+por
+eucontrar
+una soluciôn
+a este asunto.
+Desgraciadamente, repito,
+senor présidente,
+no lia sido asi. No bemos encontrado soluciôn.
+:Y
+en
+esas circunstancias. euando
+se
+reeuerdn
+que lia habido diecinueve naciones que since
+ramente,
+rauy sinceramente
+— lo
+he eompro
+bado
+en rauchos. casos
+—
+se ban afanado
+por.
+todos
+los medios y
+en
+todas las formas
+para
+-apaciguar el conflicto, surge en el espiritu esta
+preocupaciôn,
+esta
+duda,
+esta incertidumbre :
+/,es
+que
+este conflicto,
+que résisté
+la presiôn
+de gravitaciôn
+moral
+de
+todo
+el
+continente,
+es insoluble
+en
+su fondo y naturaleza? jCômo
+es que no se ha podido satisfacer
+esa coacciôn
+moral que émana de tantos paîses unidos ba.jo
+el impulso de la Repûblica Argentina
+en
+no¬
+bles
+y
+desinteresados propôsitos,
+para
+llegar
+a
+una formula de conciliaciôn
+y armonîa?
+Yo
+presumo
+en
+los
+senores
+senadores
+esa
+incertidumbre
+para
+resolverla,
+y
+quiero
+en¬
+fonces exponer los antecedentes del asunto.
+Cierto
+es
+que
+una eierta uneiôn
+se siente
+en el espiritu euando bay ejéreitos en marcha,
+euando bay naciones soberanas, siempre sobe-
+ranas,
+que rësuelven
+sus propios destinos.
+Luego, al penetrar
+en
+su dominio întimo y
+en
+su
+fuero privado,
+en
+el desenvolvimiento
+de los asuntos que les son propios, tengo que
+tener algiin derecho como neutral sineero, que
+lo
+es
+en
+este
+caso
+la Repûblica Argentina,
+y
+ese derecho me lo da muy oportunamente una
+circunstaneia especialisima.
+En 1927 se firmô el protoeolo Gutiérrez-Diez
+Leon, por el eual se resolviô reunir en la ciudad
+de
+Buenos Aires
+comisiones para estudiar la
+soluciôn del problema de las cuestiones fronte-
+rizas entre Paraguay y Bolivia. Se realizô un
+trabajo, lento y gradual, bajo los auspicios del
+gobierno argentino, asistiendo a esas reuniones
+un observador argentino ; y después de largas
+deliberaciones, en que tomaron parte los hom¬
+ines
+que ahora èstân
+aetuando, el présidente
+de Bolivia y el mismo présidente del Paraguay-,
+que participaron en aquellas deliberaciones,
+se
+llegô a una conclusion en-que' se dice que siem¬
+pre se propenderia
+a resolver por medios pnei-
+ficos las difereneias que; pudieran existir, sal
+vo cl easo de légitima defensa.
+Y bien, senor présidente : tengo en mis pia¬
+nos, en la cancilleria, la doeumentaeiôn déjàila
+por aquellas reuniones,
+que
+se celebraron
+en
+el propio Ministerio de Relaciones Exteriorcs.
+Dentro de mi sineera neutralidad, de la tinea
+media- équidistante,
+puedo
+haeer
+uso
+de
+esa
+doeumentaeiôn,
+sin
+indisereciôn
+y
+sin
+parti-
+pris.
+J Que establece ella? Détermina, senor prési¬
+dente, que en el transcurso de 28 anos Bolivia
+y Pai'aguay, euatro veces seguidas, ban llegado
+a firmar tratados
+para
+resolver
+este
+asunto.
+Son euatro convenciones que ban determinado
+lineas de arbitrage eomprendiendo,
+con
+excep-
+eiôn de la primera, zonas que
+se atribuian ya
+de exclusiva propiedad cl Paraguay y Bolivia
+y la tercera, sobre la que debia recaer el latulo
+arbitral.
+Quiere
+deeir,
+pues,
+que ellas atesti-
+guan que en ciertos momentos ban habido pun-
+tos de coincidencia definida y que un consenso
+eomûn
+ha reconocido que no era ni puede ser
+desdoroso fijar zonas para
+que el ârbitro re
+sue I va..
+Vale
+la
+pena
+bacer menciôn
+del
+texto
+de
+esos tratados,
+que
+se inician
+en 1879, cTiando
+se firmô por los plenipoteneiarios de Bolivia y
+Paraguay el Uamado Quijarro - Découd, por el
+que
+se establece
+que el Paraguay renuncia
+a
+favor de Bolivia
+el derecho al territorio
+com-
+prendido
+entre
+el
+paralelo
+que
+parte
+de
+la
+de.sembocadura del rîo Apa y Bahia Negra ; y
+Bolivia
+reconoce
+como perteneciente al
+Para¬
+guay la parte Sur liasta el brazo principal del
+Pilcomayo.
+El 3 de Agosto de 1881 la Asamblea nacional
+de Bolivia aprobô el tratado, con una clâusula
+condicional relativa
+a la obteneiôn de puertos,
+que gestionô el nuevo ministro de Bolivia en
+Asuncion. El gobierno del Paraguay no aceptô
+la modificaciôn
+que
+se liabia formulado y en
+1886 el Congreso de Bolivia aprobô el tratado,
+lisa y llanamente. El gobierno del Paraguay
+no lo aprobô. En vista de ello, se hizo una nue-
+va tentativa
+el mismo
+ano
+para arreglar
+la
+cuestiôn, de la que surgiô el tratado Tamayo-
+Aeeval, del 16 de Febrero de 1887, por el que
+se establecia que el territorio situado a la de-
+recha del rîo Paraguay
+se divide
+en très sec-
+ciones, una de las cuales se reconocia bolivia-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1136.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

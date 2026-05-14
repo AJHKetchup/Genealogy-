@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/poc-image-proof-standalone-image.codex.md",
+  "converted_sha256": "b51865ed49e66c7711124bcbf7d32359719204fca36e9e35ea6658e1f98f0bb2",
+  "source": "raw/codex-conversion-jobs/poc-image-proof-standalone-image/source/Portrait Victor Manuel Pulgar-Arriagada.jpg",
+  "source_sha256": "07afd3f674f8b96aae7e05ff748de7ef31b8532b8a89d4e2927bd1714da40278",
+  "source_manifest": "raw/codex-conversion-jobs/poc-image-proof-standalone-image/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-b51865ed49e6-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/poc-image-proof-standalone-image-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 1813,
+      "sha256": "d7ad14acfe72182ea0096d4df9a789b6e5bab3785e175264ec85cc9997484ab7"
+    }
+  ]
+}

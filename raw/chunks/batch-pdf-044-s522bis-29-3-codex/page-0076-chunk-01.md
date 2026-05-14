@@ -1,0 +1,338 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0076-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 76
+page_end: 76
+part: 1
+---
+
+# Page 76
+
+## Page Metadata
+
+- Source page: 76
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0076.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1688
+CAMARA DE DIPUTADOS'
+' Septembre 21
+îiiîàs prônunciâdas
+al fundar la mociôn
+para
+que la votaciôn se haga nominalinente.
+He hablado de presuntos servidores del pals,
+y
+me ratifico
+en
+esta expresioü porque estoy
+seguro de
+que la mayoria de los peiisionados
+son deseendientes
+de servidores
+que
+en vida
+bail sido una earga para el fisco naeional. Por
+lo tanto, la expresioü de “presuntos servido»
+Mes” es un calificativo porfectameute bien apli-
+eado.
+Por otra partë; deseo recorder
+a la honora¬
+ble
+câmara
+que
+los diputados soelalistas
+he-
+mos sido los defeüsores mâs ardiëntes de la co¬
+misiôn de peticioues y poderes
+en los ûltimos
+anos, frente
+a todos los asaltos y a los emba-
+tes
+que ella ha soportado, fitéra y delitro del
+reeiiito, por parte de pensionistas y de padri-
+nos de pensionistas.
+Es publico y notorio
+que
+cuando
+se discuten pensiones
+a
+mubhos
+sefio-
+res diputados les
+parece pequefio
+su monto y
+a ftmchos otros les parece pequefio el numéro,
+y nosottos liemos defendido sieinpre a la coini-
+siéh,
+en toda éircünstaneia y
+en toda oportu-
+nidad. Ÿ la
+vamos
+a defender también
+mana-
+nà si se discute la tanda de 400 despachos que
+estait
+a la orden del dia.
+Adémâs, deseo que la câmara recuerde
+este
+;antecedetite :
+hay potistituciones
+provinciales
+que para reaéciotiâr contra
+esa vieja
+corrup-
+tela ban incluido
+en
+su texto la prohibiciôn a
+sus
+legislatnras
+de
+votar
+pensiones. En
+este
+cash
+esta
+la
+constituciôn
+de
+Oôrdoba y
+creo
+que también la
+ntieva constituciôn
+de
+Santa
+Fc.
+Sr. Ferrarotti.
+— La antigua de Santa Fe.
+Sr. Dickmann.
+— Muy bien, la antigua de
+Santa Fe.
+El séfior dipütado Demaria ha ttsado un tér-
+mino que tainpoco qttiero dejar sin respuesta.
+Si la honorable câmara
+— dice el senor dipu-
+tado
+— no votara las pensiones, cometeria una
+verdadéta ingratitud naeional. No,
+senor di-
+piîtâdo ;
+para votar una pension bay
+que
+re-
+conocer la gratitud naeional del presunto ser-
+vidor del pais y si el congreso no vota pensio¬
+nes
+no
+comète
+uinguna
+ingratitud
+naeional ;
+en todo
+caso
+no quiere eonvertirse
+en una so-
+ciedad
+de
+socorros
+mutuos
+o
+de
+earidad pü-
+blicâ, Ciertamente que el argumento de la mi-
+seria
+es impresionista. Pero el espectâeulo que
+nos ofreeen los corredores de la câmara Ilenos
+de presuntos pensionistas, todos estos dias no
+es
+como para provoear conmiseraciôn : he vis-
+to
+tra.jes lujosos,
+alhajas,
+atavios
+provoeati-
+vos. (lîisas)
+Bien : por todas estas razones, y para no ago-
+t-ar maestros argumentos contra esa manera de
+encarar
+la
+cuestiôn,
+votaremos
+en
+contra
+de
+la mociôn del senor dipütado por Corrientes.
+Sr. Lôpez Anaut. — Pido la palabra.
+ProDongo que la presidencia someta por par¬
+tes
+a votaciôn la mociôn propuesta, porque yol
+votaria la parte que se i’OÔere a que el asunto
+se tratara en el orden de las prefereucias, pero
+no
+v o taré la parte que sigüificà postergar los
+despachos
+de
+la
+comisiôn
+del
+egislaciôn
+del
+trabajo.
+Sr. Pereyra Rosas.
+— Pido
+>a palabra.
+Deseo fundar mi
+voto
+en
+este asunto, y lo
+voy
+a. hacèr brevemente,
+porque quiero poner
+un poco de seriedad y de solemnidad donde
+se
+lia puesto la ironia y el chiste, hiriendo, con ello,
+asimtos que son profundamente respetables.
+Es una tâctica conocida la que se ha emplea-
+do. Y ya el ano pasado se usé y se consiguiô el
+propôsito. î Habrân de cotiseguirlo este ano tam¬
+bién ?
+Cualesquiera
+seau las doetrinas
+que substen-
+ten los diputados soeialistas, no importa los pro-
+pôsitos que ellos tengan, hay un h echo inega-
+hle que es del pais y que los représentantes de
+esta câmara tienen el deber de contemplarlo y
+dictar las sanciones eorrespondientes : el hecho,
+son los servicios prestados, y que solo por una
+ingratitud, por una falta de concepto de lo que
+es
+efeetivamente nacionalismo,
+puede
+negarse
+en esta bora de cultura argentina.
+El pais se ha venido formando por el esfuer-
+zo de
+sus hijos,
+en todas las lieras, y en todas
+las zonas de la aetividad naeional; esto
+es his-
+toria Viva. No
+reconoeer los servicios prestados
+y oponer objeciones de hurla para evitar
+san¬
+ciones que son de justifia,
+es perfectamente in-
+oportuno y absolutamente inconducente.
+Apoyo la mociôn del senor dipütado Bermu¬
+dez porque comprendo que, no solamente, al ha-
+blar de pensiones
+se refiere
+a los despachos de
+la comisiôn de peticioues y poderes sino a todas
+las
+que tiene
+a
+su resolueiôn la câmara, entre
+las que èstân y deben estar comprendidas, por¬
+que no habria razôn para exeïuirlas, las pensio¬
+nes militares,
+La câmara
+debe mirar
+con ateneiôn
+asuntos
+que son respetables y en este momento graves.
+Hay hogares
+con tristeza, donde el bambre
+es¬
+ta poniendo sombras, donde, cuando la luz del
+dia liera alegrias para algunos, allî lleva tris-
+tezas; porque viven
+en la miseria sin mâs rea-
+lidad
+que la adversidad présente
+y la adversi-
+dad
+que amenaza.
+No
+es
+esta
+una câmara destinada
+a concéder
+pensioncitas, como decia el senor dipütado, con
+ese tono despeçtivo
+que
+no favorece al
+que lo
+usa.
+Nada
+cuesta
+ser bumano
+y tolérante,
+so¬
+bre todo cuando
+se puede hacer jnsticia. Y aun-
+que no fuera muy rigurosa la aplicaciôn de ese
+concepto cl solo temor de equivocarnos, 'debe ba-
+cernos
+pronuneiar
+la
+sauciôn.
+Es
+preferible
+equivocarse
+a favor
+de la justifia,
+que
+en
+su
+contra. Equivocarse para salvar la dignidad de:
+muchas families,
+es un noble error; pero equi-.
+vocarse para cometer, no muehos, sino una sola
+injusticia.
+es. un triste y deplorable error 1
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 76.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

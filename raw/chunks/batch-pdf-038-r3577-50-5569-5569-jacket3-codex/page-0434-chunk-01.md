@@ -1,0 +1,136 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0434-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 434
+page_end: 434
+part: 1
+---
+
+# Page 434
+
+## Page Metadata
+
+- Source page: 434
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0434.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+12
+séance du
+22 juillet 1929
+SECTION II.
+De l'Organisation du contrôle.
+Article 86.
+M. Werner (C.I.C..R.) rapporteur :
+Dans le premier alinéa,
+vous remarquerez la disposition suivant laquelle chacune des
+Puissances protectrices'peut revendiquer les bénéfices de cette dispsoition. L'une des Puissances
+protectrices peut agir, même si l'autre Puissance protectrice ne revendique pas le droit d'agir
+de la même manière. Mais il est évident que toutes les Puissances protectrices auront le souci
+d'agir de la même manière.
+En
+ce qui concerne le deuxième alinéa, il est deux points qu'on peut appeler des points
+névralgiques: tout d'abord l'expression
+« dans toutes les localités», qui
+a été critiquée par
+l'une ou l'autre des délégations ; puis les mots
+« sans témoin », qui ont également fait l'objet
+de critiques assez vives de la part de certaines délégations. Il est nécessaire, à ce sujet, que la
+commission générale exprime son avis.
+Dans le quatrième alinéa :
+« Les belligérants pourront s'entendre pour admettre que les
+personnes de la propre nationalité des prisonniers soient admises à participer aux voyages
+d'inspection,
+» vous trouvez l'écho d'une proposition allemande, qui
+a paru très judicieuse,
+et qui dépend évidemment de l'accord entre les pays belligérants.
+D'autre part, je dois encore indiquer que, au sens du premier alinéa de l'article 86, il
+est bien entendu que les délégués qui viendraient prêter leur concours à la Puissance protec¬
+trice devront être agréés par la Puissance auprès de laquelle celle-ci agit pour protéger les
+ressortissants de l'autre Partie.
+M. Rhomberg (Allemagne)
+:
+La délégation allemande a l'honneur de vous proposer de remplacer les deux premières
+lignes de l'article 86 par un alinéa qui aurait la teneur suivante
+:
+« Les Puissances protectrices
+désignées par les Parties belligérantes pour sauvegarder leurs intérêts sont appelées à s'assurer
+de l'application régulière des dispositions de la présente Convention ; dans ce but, les Puissances
+protectrices pourront.... etc », le reste sans changement.
+Notre délégation avait déjà formulé une proposition analogue au cours des délibérations
+de la première sous-commission et,
+sur
+sa demande, cette proposition avait été insérée
+çiu
+procès-verbal de la dite sous-commission.
+Il s'agit de l'activité de la Puissance protectrice au sujet de l'application du Code des pri¬
+sonniers de guerre.
+Dans l'article 86, premier alinéa,' tel qu'il est maintenant rédigé, il est sous-entendu que
+la Puissance protectrice sera appelée à assurer l'application de la Convention. Nous croyons
+plus utile, premièrement,
+de remplacer l'expression
+«assurer»
+par «de s'assurer»,
+car
+« il
+incombe
+aux belligérants d'assurer même l'application de la Convention et à la Puissance
+protectrice de s'assurer de l'application de cette Convention
+; deuxièmement, nous croyons
+utile de constater expressis verbis cette faculté dans le texte de la Convention.
+Nous.sommes d'avis qu'une telle stipulation contribuera beaucoup à faciliter la tâche de
+la Puissance protectrice, tandis qu'une expression moins précise, manquant un peu de clarté,
+pourrait offrir beaucoup de difficultés. Nous sommes tous d'accord que la surveillance des
+dispositions de la Convention incombera aux Puissances protectrices ; mais avant de fixer les
+détails de ce droit appartenant à la Puissance protectrice, il est indiqué, au préalable, de cons¬
+tater, expressis verbis, l'existence de ce droit. C'est à cette fin que je me permets de recom¬
+mander notre proposition à votre bienveillant accueil.
+M. Irgens (Norvège)
+:
+Il me semble que la proposition allemande est une amélioration du projet. En parcourant
+le texte que nous avons sous les yeux, je m'étais demandé où se trouvait une définition claire
+de cette question très importante, celle de la tâche des Puissances protectrices, qui est une
+partie essentielle de la Convention.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 434.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

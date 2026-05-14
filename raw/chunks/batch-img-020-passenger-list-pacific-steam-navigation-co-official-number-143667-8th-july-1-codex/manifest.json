@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1.codex.md",
+  "converted_sha256": "6afbe20d59b5f71a4a6368781dca119c4deefb8af45f9c312ae05c17411e1521",
+  "source": "raw/codex-conversion-jobs/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1/source/Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928..png",
+  "source_sha256": "dfbbb3a344f111dd42d0974b6dce8f322118920f3254e0e0f809c9795804ab42",
+  "source_manifest": "raw/codex-conversion-jobs/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-6afbe20d59b5-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/batch-img-020-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 6542,
+      "sha256": "0b65c23e3522066290eb6ad9282a59a3cc3d05a8a105de250750b82e5377afd1"
+    }
+  ]
+}

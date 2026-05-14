@@ -1,0 +1,113 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-09e4cb999ef7-P0369-01
+source_converted: raw/converted/batch-pdf-041-r3016-11a-2905-950.codex.md
+converted_sha256: 09e4cb999ef7849184392fb67703554132ffaa522227f2b4a9ff028efd3cb5bf
+source: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/source/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/batch-pdf-041-r3016-11a-2905-950/manifest.json
+page_start: 369
+page_end: 369
+part: 1
+---
+
+# Page 369
+
+## Page Metadata
+
+- Source page: 369
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0369.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Au Brésil, les infirmières formées par la Croix-Rouge étant obligées,
+si la société le juge utile, de servir pendant deux ans sous ses auspices
+après l'obtention du diplôme, travaillent souvent dans diverses institu¬
+tions, dispensaires, centres de santé, etc., de la Croix-Rouge et sont
+mobilisées en cas de circonstances imprévues. En France, la plupart
+des infirmières enrôlées pour le service en temps de guerre collaborent
+à l'œuvre du temps de paix et servent leurs sociétés en qualité de
+directrices et de monitrices dans les écoles, de volontaires dans les
+hôpitaux civils ou militaires, ou d'infirmières scolaires. Quelques-unes
+servent dans les colonies, d'autres sont employées dans les bureaux
+des
+sociétés qui s'occupent de l'assurance contre la maladie, des
+allocations, etc. pour les infirmières, et d'autres encore font des cours
+d'hygiène domestique et de puériculture.
+La Croix-Rouge finlandaise ne s'occupe pas de la formation des
+infirmières, mais elle enrôle les infirmières qui font partie des deux
+associations nationales.
+193 infirmières
+sont immatriculées
+par la
+Croix-Rouge. En temps de paix, ces infirmières travaillent dans les
+hôpitaux et les centres d'hygiène de cette société.
+La Croix-Rouge tchécoslovaque a immatriculé 1.759 infirmières
+diplômées et 3.041 infirmières de réserve et peut faire appel à leurs
+services en cas de besoin.
+En Suède, toutes les infirmières formées par la Croix-Rouge sont
+obligées de se mettre au service de cette société en temps de guerre.
+En temps de paix, elles doivent se faire immatriculer au bureau du
+" Comité pour la fondation du foyer de la Croix-Rouge " qui a son siège
+au foyer des infirmières et des élèves infirmières de la Croix-Rouge
+suédoise.
+Ce bureau
+se charge de placer les infirmières soit comme
+gardes-malades ou dans des hôpitaux, des organisations d'hygiène,
+des orphelinats,
+des asiles de vieillards, des services d'infirmières
+visiteuses ou d'hygiène scolaire, etc. Une fiche détaillée pour chaque
+infirmière est conservée
+au bureau du comité. Au début de 1928,
+il y avait 2.400 infirmières immatriculées.
+En Italie, les infirmières bénévoles, formées dans 52 écoles, sont
+obligées de se tenir pendant 15 ans à la disposition de la Croix-Rouge
+si celle-ci désire avoir recours à leurs services ; elles répondent aux
+appels lancés en cas de désastre national et, pour la plupart, travaillent
+en temps de paix dans les dispensaires, les crèches et autres institu¬
+tions de la société.
+Au Japon, les infirmières bénévoles de la Croix-Rouge rendent
+des
+services
+aux consultations prénatales et maternelles, dans les
+œuvres d'hygiène sociale de l'enfance et de protection des femmes.
+Les infirmières japonaises, enrôlées dans les colonnes permanentes
+73
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 369.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

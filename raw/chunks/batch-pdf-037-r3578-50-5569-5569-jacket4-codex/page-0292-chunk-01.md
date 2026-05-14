@@ -1,0 +1,161 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-493c1d71a59e-P0292-01
+source_converted: raw/converted/batch-pdf-037-r3578-50-5569-5569-jacket4.codex.md
+converted_sha256: 493c1d71a59e4a509e6719d3b7346f2b128ea6f327bf48df7f98e418e3898c07
+source: raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/source/R3578-50-5569-5569-Jacket4.pdf
+source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
+source_manifest: raw/codex-conversion-jobs/batch-pdf-037-r3578-50-5569-5569-jacket4/manifest.json
+page_start: 292
+page_end: 292
+part: 1
+---
+
+# Page 292
+
+## Page Metadata
+
+- Source page: 292
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0292.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+f
+—
+7
+—
+Tchecoslovaquie:
+Dans l’alinea
+2 de l’article 3
+le
+Gouvernement tchecoslovaque recommande d’ajouter
+apres les mots
+« d’un examen attentif »
+les mots
+« si possible medical».
+Si la convention
+garantissait dans une certaine mesure la constatation de la mort par le medecin,
+ce fait con-
+tribuerait pour beaucoup
+a rassurer les survivants. L’examen medical des cadavres devrait
+avoir lieu avant l'incineration pour la simple raison que l’identification ulterieure d’un soldat
+n’est plus possible ; d’ailleurs le transport au crematoire offrirait le temps suffisant pour pro-
+ceder a l’examen medical du cadavre.
+Grande-Bretagne:
+Ajouter le paragraphe suivant :
+« Toutes
+les
+fois que les circonstances militaires le permettront,
+un armistice local ou
+« une interruption de feu pourront 6tre convenus entre les commandants en vue de permettre
+« 1’enlevement des blesses laisses entre les lignes. »
+Critique
+:
+Le dernier alinea suggere par la Xe Conference de la Croix-Rouge, et le 3mc alinea suggere
+par la Grande-Bretagne font mention de suspensions d’armes ; mais ils les autorisent
+sous
+condition que les circonstances militaires les permettent. Ces circonstances militaires ne sont
+pas les mSmes pour chaque belligerant et, si la question est laissee a la discretion des belli¬
+gerants, chacun d’eux peut s’opposer aux interruptions de feu
+sous pretexte de soi-disant
+« circonstances militaires ». La Grande-Guerre nous
+a fourni des exemples. Le Comite inter¬
+national de la Croix-Rouge adressa une lettre en date du 26 octobre 1915 aux gouvernements
+belligerants pour demander de courtes et frequentes suspensions d’armes afin d’inhumer les
+morts et relever les blesses ; mais tous ces gouvernements repondirent que les conditions d’in-
+tensite et de duree exceptionnelles des combats ne permettaient pas la realisation pratique
+de la proposition.
+II parait utile a mon avis de supprimer de l’article 3 les mots
+« Toutes les fois que les
+« circonstances militaires le permettront ». Je prefere meme les remplacer par une phrase comme
+la suivante « Toutes les fois que le nombre des blesses et malades le justifie, des interruptions
+« defeuseront convenues pour permettre 1’execution de ces mesures et l’enlevement des blesses ».
+Une phrase pareille implique plus clairement une obligation.
+Critique :
+Article
+4.
+Nous trouvons que l’article ainsi qu’il est redige dans le projet soumis a la Conference
+repond a tous les buts; les observations faites par les differents Etats se referent a des questions
+de detail qui, d’apres nous, ne sont pas a leur place dans une convention internationale dont
+le texte doit etre restreint au strict minimum.
+L’innovation importante introduite par le projet, c’est le 3e' alinea qui dispose que les
+tombes et monuments des militaires dans les territoires occupes doivent etre traites avec
+respect et convenablement entretenus. Cet alinea n’existe pas dans la Convention de 1906;
+en effet il est necessaire de l’ajouter. Dans la guerre mondiale les belligerants se sont plaints
+de
+ce que les tombes des soldats aient ete endommagees ou detruites par leurs adversaires
+dans les regions abandonnees (V. Bulletin international des Societes de la Croix-Rouge 1918
+p. 330 et Fauchille T. 2. p. 155). Un pared alinea servira a imposer formellement l’obligation
+de respecter les tombes et les monuments, et de ne pas les endommager ou les detruire.
+Hongrie:
+Article
+5.
+Ajouter, apres les mots « protection speciale », les mots « des facilites en prestation de guerre
+«(logements a fournir, requisitionnements etc.) »
+Critique :
+II est peut eitre preferable de preciser dans l’appel que l’autorite militaire fait aux habitants
+les immunites
+ou le genre de protection que cette autorite est prete a accorder a ceux qui
+recueillent et soignent des malades ou des blesses. Quand les habitants connaitront les privi¬
+leges et immunites qu’ils obtiendront ils seront plus encourages a recueillir et a soigner les
+blesses et malades que si on leur faisait une promesse de protection vague et indeterminee.
+La phrase suivante peut etre ajoutee a la fin de l’article 5 : « L’etendue de la protection speciale
+et des immunites a accorder sera determinee d’avance dans l’appel fait aux habitants 1. »
+Nous
+ne
+partageons
+pas l’avis de la Hongrie qui tend a preciser dans la convention
+elle-meme le genre de protection ou facilites a accorder (logements a fournir, requisitionnements
+etc.,...);
+ce sont des details
+que nous preferons
+ne
+pas mentionner dans
+une convention
+internationale.
+1 Le texte de la convention de 1864 etait different a cet egard du texte de 1906. L’article
+4 de la
+premiere convention stipule que les habitants qui auront recueilli et soigne des blesses pourront etre dis¬
+penses des charges relatives au logement des troupes et aux contributions de guerre. Le texte a ete vivement
+critique. Son application amenait a des resultats facheux. Les habitants etaient encourages a recueillir
+des malades et des blesses et ainsi les priver des soins medicaux dans le but d’etre dispenses des charges
+relatives au logement des troupes et aux contributions de guerre, et cela sans* aucun egard pour l’interet
+des blesses et malades.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 292.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

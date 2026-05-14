@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-13",
+  "converted_file": "raw/converted/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964.codex.md",
+  "converted_sha256": "9ef93c009e47afce4bd391b4a983c32d011018f2453cc8f393f851099e1d9542",
+  "source": "raw/codex-conversion-jobs/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964/source/Ficha de turista, issued by the Brazilian Consulate on January 27, 1964.png",
+  "source_sha256": "8dc32ecbbc69ef8e55988365da762c2926f32265d15e12e8cb702a5cc806cdd2",
+  "source_manifest": "raw/codex-conversion-jobs/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-9ef93c009e47-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 6049,
+      "sha256": "b93f1fa29b1529966a79c2e9347cff90e54f70796009cfde45bb2f7f3301b541"
+    }
+  ]
+}

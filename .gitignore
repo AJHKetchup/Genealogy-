@@ -4,10 +4,26 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv/
+**/.obsidian/
+.genealogy/
+obsidian-offline/
 dist/
 build/
 *.egg-info/
 output/
 outputs/
+# Raw originals and heavy page-image job work stay local to the laptop.
 raw/codex-conversion-jobs/
-raw/converted/*.codex.md
+raw/sources/*
+!raw/sources/.gitkeep
+raw/assets/*
+!raw/assets/.gitkeep
+
+# GitHub is the shared database for prepared text derivatives and research state.
+!raw/source-prep-manifest.json
+!raw/converted/*.codex.md
+!raw/chunks/**
+!raw/chunks/.gitkeep
+
+# Local worker scheduler/runtime state. Regenerate from GitHub-backed data.
+research/_agent-queues/

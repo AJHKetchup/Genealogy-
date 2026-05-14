@@ -1,0 +1,336 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P1079-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 1079
+page_end: 1079
+part: 1
+---
+
+# Page 1079
+
+## Page Metadata
+
+- Source page: 1079
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-1079.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1700
+CAMARA
+DE SEN ADORES
+DE DA NACION
+Hc-viembre 29
+indicado las razones que deben déterminai1 la
+msistencia
+del
+Senado
+para
+«preferir» — asî
+lo
+lie
+diclio
+—,
+al informe
+oral,
+ei
+informe
+eserito.
+Sr. Présidente.
+—
+Se votarân
+las
+dos
+mo-
+ciones. Primero la del senor senador por Salta...
+Sr. Palacios,
+— Podria comunicârscle al
+se-
+,
+nor ministro de relaciones exteriores,- que pue-
+de venir eualquiov dia
+a dar los informes que
+se le solid ta ran.
+Mo
+se trata
+de.
+une interpe-
+Jaeién, y siempre el Senado tendra muelio gus¬
+to
+en eseueliarlo.
+Entiendo
+que
+no bay necesidad de seüalar
+dia. El
+senor ministro
+es eolegislador y puc-de
+oeupar
+por -propio
+dereebo
+su
+banea
+en
+el
+Senado.
+Sr. Patron Costas.
+— Es que el senor minis¬
+tro lo pide, y
+e.I Senado tienc la facultad para
+fijar el dia.
+Sr.
+Palacios.
+—
+Séria emplcar
+una mayor
+gentilera dccirîc a! seüor ministre que cuando
+Vtesee, puede dar ios informes que sc
+ie solici¬
+ta ron.
+Sr. Correa.
+— j No créé el senor senador por
+la Capital que eonviene una coincideneia entre
+la presencia de!
+senor ministro
+de relaeioues
+exteriores y la del senador
+que lia solicitado
+informes :
+Sr. Palacios.
+— Entiendo
+que no, porque el
+senador de la Torre lia expresado
+que
+no lia-
+eia una interpelaeién, que queria eoncrctamen-
+(e y por eserilo les informes del sgfjor ministro,
+y
+que después de icida en el Di a rie de Sesio-
+ncs,
+formulafia
+la interpelaeién,
+si
+lo
+ereia
+eonveniente.
+El.
+heebo
+de
+la
+coincideneia im-
+pïîearia la interpelaeién, un
+poeo forzada.
+Sr, Correa.
+— Parece
+que la desea cl senor
+ministro...
+Sr. Palacios.
+— Mùy bien. Que venga cuan-
+üo quiera. Lo escucbaremos con muelio gusto.
+Sr. Présidente.
+— Si
+no
+es aprobada la mo-
+eién
+del
+senor
+senador
+por
+Salta,
+sc
+votarâ
+la del senor senador por la Capital.
+Sr. Ceballos.
+— Pido la palabra.
+Me parece
+que
+se
+esta haciendo
+una discu-
+sién en contra de lo que habitualmcnte se acos-
+tumbra en
+el Congresô argentine.
+Por lo general, las diseusiones ban sido siem-
+pre alrededor
+de un ministro
+o de
+un Poder
+Ejecutivo
+que
+se niega
+a concurrir a îos 11a-
+mados para pedidos de informes. Iloy dia la
+discusiér.
+sc liaee
+sobre
+un ministro al que
+se
+le piden informes por eserito y que crée — en
+virtud
+de una facultad propia que le eonfiere
+el avtseulo 92 de la Constitucién,— mas prâe-
+1ico, mâs neeesario
+y mas cficaz,
+a los fines
+del
+Poder Ejecutivo
+y
+a
+los propésitos
+que
+seguramente tuvo el senor senador que solicita
+esos informes, concurrir al seno de esta Cama¬
+ra, para lo eual solicita se le fije un dia deter-
+minado, porque el pedido de informes,
+no fi-
+jaba fcclia. Esto ultimo, con cl objeto de que
+también
+sc facilite la concurrencia
+del
+senor;
+senador de la Torre, no ignorando que el <esta»
+do
+de
+su
+salnd
+no
+le permitirâ concurrir
+a1
+cualquiev sesién.
+El asunto
+es nmy seneillo; se trata de fijar
+un dia para que cl senor ministro de relaciones
+exteriores concurra al Senado
+a dar los infor¬
+mes, que él puede darîos por eserito
+o verbal-
+mente, y para que el senor senador de la Torre,
+si
+créé ncceSario, pueda concurrir
+a eseuebai-,
+de labios ciel senor ministro
+esos informes. Si
+después
+de
+la
+informacién
+verbal
+del
+senorj
+ministro, que no lia de eoncrqtarse, segnrameu-
+te, a los dieciséis puntos que
+se ban planteado
+—
+porque abarca
+otras euestiones vinculadas
+a las relaciones exteriores con los paîses veci- i
+nos
+—,
+el
+seüor senador de la Torre
+o alguu
+otro senor senador, no se diera por satisfeeîio,
+queda e! otro reeurso que puede tomar cl
+Se¬
+nado,
+que nadie îo discute, de
+que
+no
+se dé
+por satisfecho con las explicaciones* dadas por
+el
+senor ministro
+de relaciones, exteriores.
+y,
+que réitéré, et pedido de informes por eserito
+sobre los puntos que
+créa eonveniente.
+Por las razones expuestas, yotaré a favor de
+la indicaeién del senor senador por Salta.
+Sr.
+Correa.
+—
+à Me per mite
+el
+senor prési¬
+dente V
+El senor senador por Cordoba, eon un prinei»
+pismo riguroso, se ha remontado a las ideas ge¬
+nerales.
+Yo,
+simplèmente,
+planteo
+una
+cuestiéu
+de
+procedimiento parlamentaria ; y es mas: pienso
+que
+en
+este linaje
+de informes
+se preferible
+siempre el estilo administrative al estilo parîa-
+mentario.
+También aqui hay que retorcerle ei
+peseuezo a la eloeueneia.
+Una
+vez, dado el informe que se solicita ciel
+senor ministro, en buena forma administrativa,
+vendrîa el otro procedimiento
+a que se refiere
+el seüor senador.
+Pero, conro no se me eseapa que la voluntad
+del Senado
+es accéder al mensaje, no insistiré
+mâs, dejando a salvo mi manera de pensaiycon
+un
+poeo de desconfianza
+a este procedimiento
+que détermina la prefereneia del senor minis-
+tra de relaciones exteriores.
+Sr. Sanchez Sorondo.
+— Pero pueda ser que
+ci
+senor ministro traiga por eserito la contes-
+tacién,
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 1079.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

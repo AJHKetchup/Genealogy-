@@ -1,0 +1,139 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e78a32c79f1e-P0091-01
+source_converted: raw/converted/batch-pdf-038-r3577-50-5569-5569-jacket3.codex.md
+converted_sha256: e78a32c79f1e3a9b346d6bbd5964934a978c0f7eb0a6fe5da1e57f119bf88f26
+source: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/source/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/batch-pdf-038-r3577-50-5569-5569-jacket3/manifest.json
+page_start: 91
+page_end: 91
+part: 1
+---
+
+# Page 91
+
+## Page Metadata
+
+- Source page: 91
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0091.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+Séance
+du
+8 Juillet 1929
+3
+Votre Sous-commission
+a abordé, de même, l'étude du second alinéa de l'article 2,
+en
+connexion
+avec le
+Ier et le reste de l'article. Elle
+a décidé que le Ier alinéa devrait subsister
+tel qu'il est rédigé dans le texte du projet de Convention (page 4 des propositions et observa¬
+tions).
+La délégation de Turquie ayant proposé le remplacement, dans l'alinéa 2, d'une clause
+facultative par une stipulation obligatoire, spécialement en ce qui concerne les tuberculeux
+pulmonaires, dans la pensée qu'aucun Etat ne refuserait la restitution de ce genre de malades
+prisonniers, un débat très approfondi s'est engagé à ce sujet. Il ressort de la discussion que si
+la proposition turque était adoptée en adjonction à l'article 2, il serait nécessaire d'harmoniser
+cet article modifié avec l'article 71 du projet de code des Prisonniers de guerre.
+Malgré l'avis de plusieurs orateurs qui donnent la préférence à la clause obligatoire, on a
+trouvé préférable de ne pas introduire celle-ci dans la Convention de Genève, qui concerne tout
+spécialement les armées en campagne.
+La délégation des Pays-Bas, pensant mettre utilement fin aux débats, présente une propo¬
+sition intermédiaire
+: obligation des Etats de s'entendre pour le rapatriement des tuberculeux.
+Mais M. Dinichert éprouve des scrupules d'ordre juridique à imposer aux Gouvernements,
+comme le voudrait la délégation des Pays-Bas, l'obligation de se mettre, dès le début des hos¬
+tilités, en rapports pour régler notamment la question du rapatriement ou de l'internement des
+blessés ou malades.
+La délégation italienne, par l'intermédiaire du Sénateur Ciraolo, exprime que, dans l'esprit
+de ceux qui ont convoqué cette Conférence, la proposition de la délégation de Turquie avait
+déjà cause gagnée, car il va de soi que les grands blessés et malades graves doivent être mis
+en dehors de la mêlée de la guerre,
+chose qui est prévue par la résolution du code des Pri¬
+sonniers, et qui suffit, si ce code est adopté et ratifié.
+Après cet échange de motifs, la délégation de Turquie substitue à la proposition de son
+pays concernant l'article
+2 (page
+5 des propositions et
+observations) la formule suivante,
+laquelle, après une modification présentée par M. Des Gouttes, reçoit l'assentiment de la
+sous-commission
+:
+<c Cependant, les belligérants restent libres de stipuler entre eux à l'égard
+des prisonniers blessés ou malades telles clauses qu'ils jugeront utiles au-delà des obligations
+déjà existantes ». Tout le reste de l'article disparaît.
+Comme conséquence des opinions que je viens de résumer et des résolutions que je viens
+de reproduire, votre sous-commission, s'acquittant
+de son mieux de la tâche que vous avez
+bien voulu lui confier, vous conseille de sanctionner tel qu'il est dans le projet de Convention
+l'alinéa
+1 de l'article
+2, et de substituer au 2hîe alinéa la formule contenue dans le paragraphe
+précédent de ce rapport. Pour ce qui concerne les autres alinéas de l'article 2, la sous-commis¬
+sion est d'avis qu'ils ne peuvent pas rester dans le texte de la Convention.
+La sous-commission
+vous
+remercie, Messieurs les Délégués, de l'honneur que vous lui
+avez fait, en lui donnant l'occasion d'étudier particulièrement cet important projet. [Applau¬
+dissements) .
+M. le Président
+:
+Je remercie M. de Castro.-
+M. Parra-Pérez (Vénézuela)
+:
+La délégation du Vénézuela est heureuse de joindre ses félicitations à celles
+que M. le
+Président vient d'adresser à M. de Castro pour son remarquable rapport.
+Une fois encore, M. le Sénateur Ciraolo a fait le geste du semeur ; une fois encore il a lancé
+vers l'avenir une initiative qui peut avoir de grosses conséquences. En en félicitant la délégation
+italienne, je suis heureux de souhaiter à son chef pour cette idée un succès aussi franc et mérité
+que celui qui a couronné son admirable œuvre
+: l'Union internationale de secours, à laquelle
+il a attaché son nom.
+Je ne suis nullement étonné que ce soit Rome qui nous invite à étudier un nouveau principe
+de droit dont l'adoption éventuelle renverserait quelques-unes des notions actuelles sur le
+droit de la guerre. Car Rome, ne l'oublions pas, guerrière par vocation et par nécessité, créa le
+droit en faisant de la lance des Quirites, clouée comme une sentinelle aux frontières, un sym¬
+bole du droit.
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 91.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.

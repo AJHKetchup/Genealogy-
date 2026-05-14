@@ -1,0 +1,309 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d333655fc482-P0144-01
+source_converted: raw/converted/batch-pdf-044-s522bis-29-3.codex.md
+converted_sha256: d333655fc482dc14b5a393303fa0a5e64f1b1255219bfa34360be3403c1d408c
+source: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/source/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/batch-pdf-044-s522bis-29-3/manifest.json
+page_start: 144
+page_end: 144
+part: 1
+---
+
+# Page 144
+
+## Page Metadata
+
+- Source page: 144
+- Source type: PDF with extractable text layer.
+- Rendered page image: `../page-images/page-0144.jpg`
+- Extraction note: Literal transcription was extracted from the PDF text layer. The rendered page image remains the audit source for final review.
+
+## Layout And Reading Order
+
+1. PDF text layer in page order.
+2. Visual layout, tables, captions, signatures, and marginalia may require later visual review.
+
+## Literal Transcription
+
+```text
+1752
+CAMARA DE DIPUTAD09
+Septiembre 21
+ser pariente del doctor Figueroa Aleorta?
+Sr. Justo.
+— Me liabia parecido entenderlo
+asi de su propia exposicion. Tanto ha liablado
+el senor diputado de su pariente Figueroa Al-
+corta, diciendo
+que
+no querîa ser ni abogado
+bajo la presidencia de Figueroa Aleorta,
+que
+yo dije: lo ûnico
+que querîa ser
+es diputado.
+(Risas).
+Sr.
+.Pena.
+— Al t-ravés do
+ese razonaiuieuto
+la câmara podrâ ver cuâl
+es la relojeria cere¬
+bral del
+senor diputado. (R.isas).
+Sr. Justo.
+— Pero résulté diputado de todos
+modos.
+Sr. Pena.
+— Cuando yo vine a esta câm ara
+vine proelaroado por nna nsamblea de mi pro-
+vineia.
+Sr. Justo.
+— j>,Por un decreto del panai?
+Sr.
+Pena.
+— Yo
+no vengé de
+esos tiempos,
+Ninguno de mi familia fué del. Panai.
+Sr.
+Justo.
+—
+i, Ni
+siquiera
+Figueroa
+Al-
+corta ?
+Sr. Pena.
+— No
+es de mi familia. No
+es pa¬
+riente mio. Hay vinculaeiones de familia,
+pe¬
+ro
+eso
+no implica
+que
+sea pariente. Natural-
+mente, no voy a entrai’ en
+esas minueias, pero
+hago la afirmaciôn.
+Hay aqui muchos testimonies verdaderamen-
+te
+representativos
+de
+opinion
+publiea
+de mi
+provincia,
+a qnienes les eonsta que
+se me dé¬
+signé a raiz de liaber presentado yo mi renun-
+eia, mi renuneia de la junta del partido
+dos
+dias antes de reunirse, por incidentes
+que tu-
+vimos, que tuve pûblicamente con el interven-
+tor
+en la provincia,
+censurandome. Apelo al
+testimonio del doctor Rodriguez y podrîa tam-
+bién apelar al testimonio del doctor Bas, si
+ostuviera presente,
+y al del doctor Maidana.
+No
+veo otro de los
+que formaron parte de la
+nsamblea ; pero los que he mencionado pueden
+decirle al senor diputado por la Capital, doc¬
+tor Justo, si yo vine eomo diputado en aquella
+ocasién por ser pariente del présidente Figue¬
+roa Aleorta,
+o por otros conceptos o por otros
+motivos.
+Me interesaba dar este desmentido
+a la afir-
+maciôn
+audaz
+del
+senor diputado
+por la
+Ca¬
+pital, doctor Justo.
+Nada mas.
+Sr. Présidente
+(Sanchez de Bustamante).—
+Si ningun senor diputado hace uso de la pa¬
+labra,
+se
+va
+a votar los
+agregados. propues-
+tos.
+Sr. Pinedo.
+— Pido la palabra,
+Algunos senores diputados me ban indicado
+la
+eonveniencia
+de
+considérai-
+los
+agregados
+propuestos
+después
+de
+aprobarsé
+el
+articulo
+2o.
+Como
+eso
+va
+a facilitai- la votacion,
+pro-
+pondria al senor présidente que se postergara
+la votacion
+ciue ha de recaer sobre los agrega¬
+dos propuestos por nuestra parte basta después
+que
+se trate diclio -articulo.
+Sr. Présidente
+(Sanchez do Bustamante).—
+Se votarâ, entonces, el articulo 2o.
+Sr.
+Secretario
+(Zambrano).
+— La propos! ■
+cion
+del
+senor diputado Pereyra Rozas
+es la
+siguiente :
+Incorporate al presupuesto de gastos, anexo
+F., inciso 7o.,
+a continuaoiou de la partida 4,
+las siguientes: Personal de sastreria, 4,
+a
+un
+liquidador, 400 pesos ; un tenedor de libros, 380 ;
+un eajero, 320; un encargado de depôsito, 300;
+un corresponsal, 280 ; un encargado de pedidos.
+280; un encargado de cartas jr cuentas corrien-
+tes, 270;
+un encargado
+de facturas y saldos,
+280; un encargado de venta,s, 230; auxiliar de
+liquidaeiôn, 240; auxiliar de depôsito, 210; au¬
+xiliar de libros, 220; auxiliar de pedidos, 220;
+auxiliar de cuentas eorrientes, 200; auxiliar de
+ventas, 200 ; auxiliar de tenedor de libros, 200 ;
+otro auxiliar de libro, 200; encargado de
+ex-
+pediciôn, 220; mayordomo, 180;
+un
+director
+profesional con obligaeiôn
+de eortar, 500;
+un
+cortador, 400; otro cortador, 350;
+otro,
+300;
+un kepisero, 240; encargado profesional de za-
+pateria, 200; un cortador, 220;
+un cortador y
+lustrador de suelas, 180.
+Sr. Présidente (Sanchez de Bustamante).
+—-
+jLa comision acepta?
+Sr, Rodriguez
+(C. J.).
+— La comision ba
+expresado ya su opinion por boca del miembro
+informante y déjà al eriterio de la honorable
+câmara esta indicaeiôn del senor diputado por
+Buenos Aires.
+Sr. Dickmann.
+— Pido la palabra.
+Los argumentos dados por el senor diputado
+por San Luis me pareeen eonvincentes para que
+la honorable câmara no aeepte el agregado pro-
+puesto por el senor diputado por Buenos Ai¬
+res
+.
+Por otra parte, considère que la proposieiôn
+del
+senor diputado Pereyra Rozas
+es una re-
+consideraciôn del articulo lo., que ya ha sido
+votado.
+Aumentar
+gastos
+y proponer
+nuevos
+empleos
+es
+una évidente reconsideracién.
+En
+tal sentido
+eonsidero
+que el
+senor présidente
+debe someterlo
+a la votacion
+de la honorable
+câmara eomo una reconsideracién.
+Sr.
+Bermudez.
+—
+No
+bay tal
+reconsidera¬
+cién
+.
+Es una excepciôn anâloga al articulo 2o. que
+se esta por votar. El articulo 2o. del despacho
+de la comision hace una excepciôn respecto de
+très articules, y entonces, la proposieiôn del se¬
+nor diputado Pereyra Rozas puede también en¬
+trai- en el mismo articulo.
+Sr. Ortiz.
+— Entiendo que no es ni siquiera
+una excepciôn.
+No
+se ba propuesto un gasto
+nuevo, porque ese personal ya existe en el nu¬
+méro expresado en la planilla presentada por el
+senor diputado por Buenos Aires y se seguirâ.
+pagando en la misma forma en one se naga ac-
+```
+
+## Images, Captions, And Visual Notes
+
+No image crop was extracted in this automated text-layer batch pass.
+
+## Translation
+
+Not translated in this source-prep pass.
+
+## Interpretation
+
+No research conclusion is made in this source-prep pass.
+
+## Uncertain Or Illegible
+
+- PDF text-layer extraction may omit visual-only marks, handwriting, stamps, photos, or layout nuance.
+- Any page with sparse or garbled text needs later visual review.
+
+## Extracted Genealogy Leads
+
+Not extracted in this batch pass.
+
+## Completeness Audit
+
+- Major regions checked: PDF text layer for page 144.
+- Unreadable or cropped areas: not assessed visually in detail.
+- Uncertain names/dates/places: not resolved.
+- Images/captions accounted for: not extracted in this pass.
+- Transcription is complete for text-layer content only, not guaranteed for visual-only evidence.
