@@ -2,7 +2,7 @@
 type: staged_claim
 status: possible
 claim_type: parentage
-confidence: 6.9
+confidence: 6.2
 subject: Fidelmiro Segundo Pulgar Arriagada
 predicate: was recorded as the child of
 object: Juan de Casanova Pulgar and Juana Arriagada de Pulgar
@@ -17,9 +17,9 @@ source_reliability_class: original civil birth register
 source_reliability_score: 9
 evidence_type: source-stated parentage
 informant_proximity: Near-contemporary registration; presenting informant Ernesto Monroy, relationship unstated.
-conversion_confidence: high
-qa_concern: father's full-name reading should be corroborated against related Pulgar-Arriagada records
-promotion_recommendation: revise
+conversion_confidence: medium
+qa_concern: 2026-05-14 reread queue flags the father-name line as unstable
+promotion_recommendation: hold
 tags: [staging, claim, parentage, pulgar, arriagada, chile]
 ---
 
@@ -31,11 +31,11 @@ Entry 172 records Fidelmiro Segundo Pulgar Arriagada as the child of Juan de Cas
 
 ## Status
 
-`possible` because the register is strong, but the father's full name remains unusual enough that the exact reading should be checked before promotion.
+`possible` because the register is strong, but the father's full-name line remains under targeted reread and should not be promoted yet.
 
 ## Confidence
 
-6.9/10. The source is reliable, but the confidence is reduced because `Juan de Casanova Pulgar` could still benefit from corroboration in parallel family records.
+6.2/10. The source is reliable, but the confidence is reduced by the unresolved full-name reading for the father.
 
 ## Literal Source Support
 
@@ -69,7 +69,7 @@ The record provides a candidate parental pair and shared residence for the child
 
 ## Uncertainty
 
-- The father's full name may be correct as transcribed, but it is an uncommon construction and should be compared against related records.
+- The father's full name may be correct as transcribed, but it is still on the dated local reread queue.
 - The mother's occupation field is blank or unstated.
 
 ## Supports
