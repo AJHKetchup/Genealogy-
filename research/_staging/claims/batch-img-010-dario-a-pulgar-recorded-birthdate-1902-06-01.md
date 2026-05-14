@@ -2,7 +2,7 @@
 type: staged_claim
 status: possible
 claim_type: birthdate_recorded
-confidence: 6.1
+confidence: 5.8
 subject: Dario A. Pulgar
 predicate: was recorded with birthdate
 object: 1 Jun. 1902[?]
@@ -17,9 +17,9 @@ source_reliability_class: original government transit form
 source_reliability_score: 8
 evidence_type: source-stated birthdate
 informant_proximity: Likely self-reported on an official form.
-conversion_confidence: high
-qa_concern: final birth-year digits are not perfectly clean in the converted reading
-promotion_recommendation: revise
+conversion_confidence: medium
+qa_concern: 2026-05-14 reread queue flags the birthdate field and identity implications
+promotion_recommendation: hold
 tags: [staging, claim, birthdate, pulgar, 1902]
 ---
 
@@ -31,11 +31,11 @@ The I-94 record gives Dario A. Pulgar a recorded birthdate of `1 Jun. 1902[?]` a
 
 ## Status
 
-`possible` because the field is useful but the final digits of the year are not fully clean in the converted reading.
+`possible` because the field is useful but remains under explicit reread and carries identity-merge risk if promoted prematurely.
 
 ## Confidence
 
-6.1/10. The form is original and the field is legible enough to stage, but this should not be promoted without corroboration from a cleaner source.
+5.8/10. The form is original and the field is legible enough to stage, but the dated QA review still requires a visual reread before this should move forward.
 
 ## Literal Source Support
 
@@ -51,11 +51,11 @@ Not applicable; the source is already in English.
 
 ## Interpretation
 
-This is a candidate birthdate-only claim. It is valuable for comparison against CV, passport, or other travel records, but not strong enough yet for confident canonical use.
+This is a candidate birthdate-only claim. It is valuable for comparison against CV, passport, or other travel records, but it should stay on hold until the reread confirms the year.
 
 ## Uncertainty
 
-The year reads as `1902[?]` in the conversion. This draft preserves that uncertainty rather than normalizing the date.
+The year reads as `1902[?]` in the conversion and is already listed in the dated QA corrections log as a field requiring reread.
 
 ## Supports
 
@@ -63,4 +63,4 @@ The year reads as `1902[?]` in the conversion. This draft preserves that uncerta
 
 ## Conflicts With
 
-No conflicting birthdate source was reviewed in this staging pass.
+- Potential identity conflict with the existing `Dario Pulgar Smith` branch context if this date is over-read or merged without review.
