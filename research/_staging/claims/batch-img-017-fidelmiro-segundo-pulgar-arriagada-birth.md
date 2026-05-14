@@ -1,8 +1,8 @@
 ---
 type: staged_claim
-status: probable
+status: possible
 claim_type: birth
-confidence: 8.8
+confidence: 6.8
 subject: Fidelmiro Segundo Pulgar Arriagada
 predicate: was born
 object: 8 March 1888 at Calle de Valdivia, Los Angeles / La Laja jurisdiction, Chile
@@ -17,9 +17,9 @@ source_reliability_class: original civil birth register
 source_reliability_score: 9
 evidence_type: direct
 informant_proximity: Near-contemporary registration; presenting informant Ernesto Monroy, relationship unstated.
-conversion_confidence: high
-qa_concern: none; QC triage action pass
-promotion_recommendation: promote
+conversion_confidence: medium
+qa_concern: 2026-05-14 reread queue flags the child-name line as unstable
+promotion_recommendation: hold
 tags: [staging, claim, birth, pulgar, chile]
 ---
 
@@ -27,15 +27,15 @@ tags: [staging, claim, birth, pulgar, chile]
 
 ## Claim
 
-The register entry states that Fidelmiro Segundo Pulgar Arriagada, male, was born on 8 March 1888 at three in the afternoon at Calle de Valdivia.
+The register entry states that `Fidelmiro Segundo Pulgar Arriagada`, male, was born on 8 March 1888 at three in the afternoon at Calle de Valdivia.
 
 ## Status
 
-`probable` because the source is an original civil registration with high conversion confidence, but the claim still needs normal proof review before canonical promotion.
+`possible` because the source is original and high-value, but the dated QA review still has the child-name line on `reread-region` status.
 
 ## Confidence
 
-8.8/10. High-quality direct evidence from an original register entry with no active QA hold.
+6.8/10. Strong source reliability, reduced by unresolved reading confidence in the child given name.
 
 ## Literal Source Support
 
@@ -57,11 +57,11 @@ Place: Calle de Valdivia
 
 ## Interpretation
 
-This is a strong staged birth claim tied directly to entry 172 of the Los Angeles civil register.
+This is a valuable staged birth claim tied directly to entry 172 of the Los Angeles civil register, but it should stay on hold until the child-name reread is cleared.
 
 ## Uncertainty
 
-The child's given name was visually reread as `Fidelmiro` in the conversion pass and is treated as stable enough to stage, but nearby family records can still be checked for spelling consistency.
+The child given name may still drift on local visual reread. The current draft preserves the converted reading without promoting it as settled.
 
 ## Supports
 
