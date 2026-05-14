@@ -2,7 +2,7 @@
 type: staged_claim
 status: possible
 claim_type: residence_recorded
-confidence: 6.0
+confidence: 5.7
 subject: Dario A. Pulgar
 predicate: was recorded with permanent address
 object: Box 1244, Concepcion[?], Chile
@@ -17,9 +17,9 @@ source_reliability_class: original government transit form
 source_reliability_score: 8
 evidence_type: source-stated address
 informant_proximity: Likely self-reported on an official form.
-conversion_confidence: high
-qa_concern: city reading is likely but not fully certain
-promotion_recommendation: revise
+conversion_confidence: medium
+qa_concern: 2026-05-14 reread queue flags the permanent-address city reading
+promotion_recommendation: hold
 tags: [staging, claim, residence, pulgar, concepcion]
 ---
 
@@ -31,11 +31,11 @@ The I-94 record lists Dario A. Pulgar's permanent address as `Box 1244 Concepcio
 
 ## Status
 
-`possible` because the field appears useful but the city reading should be corroborated before promotion.
+`possible` because the field appears useful but remains under explicit reread before promotion.
 
 ## Confidence
 
-6.0/10. The structure of the address is clear, but `Concepcion` remains marked as a likely reading rather than a settled one.
+5.7/10. The structure of the address is clear, but `Concepcion` remains a likely reading rather than a settled one.
 
 ## Literal Source Support
 
@@ -50,11 +50,11 @@ Not applicable; the source is already in English.
 
 ## Interpretation
 
-This is a candidate residence clue that may help connect Dario Pulgar travel records to other Chilean sources.
+This is a candidate residence clue that may help connect Dario Pulgar travel records to other Chilean sources, but it should stay on hold until the city reading is confirmed.
 
 ## Uncertainty
 
-The converted source marks the city as `Concepcion[?]`; this draft preserves that uncertainty.
+The converted source marks the city as `Concepcion[?]`, and the dated QA queue specifically asks for that field to be reread.
 
 ## Supports
 
