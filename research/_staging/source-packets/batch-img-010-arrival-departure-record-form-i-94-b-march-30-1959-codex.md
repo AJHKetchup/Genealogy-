@@ -13,12 +13,13 @@ source_reliability_score: 8
 source_reliability_rationale: Original immigration record with official arrival stamp; travel details are strong, while some identity fields are self-reported and partly hard to read.
 evidence_type: direct evidence of transit travel; source-stated evidence of birth date, nationality, and address
 informant_proximity: Self-reported identity/travel details recorded on an official form.
-conversion_confidence: high
+conversion_confidence: medium
 qa_review:
-  triage: research/_conversion-review/triage/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md
-  page_queue: research/_conversion-review/page-queues/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md
-  qa_status: pass
-promotion_recommendation: revise
+  triage: research/_conversion-review/triage/2026-05-14-dario-pulgar-conversion-qa.md
+  corrections: research/_conversion-review/corrections/2026-05-14-dario-pulgar-conversion-corrections.md
+  page_queue: research/_conversion-review/page-queues/2026-05-14-dario-pulgar-reread-queue.md
+  qa_status: reread-region
+promotion_recommendation: hold
 tags: [staging, source-packet, immigration, transit, pulgar, dario]
 ---
 
@@ -30,7 +31,7 @@ tags: [staging, source-packet, immigration, transit, pulgar, dario]
 - Converted file: `raw/converted/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959.codex.md`
 - Chunk manifest: `raw/chunks/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex/manifest.json`
 - Chunk/page reference: `CHUNK-2080170a5175-P0001-01`, page 1.
-- QA triage: pass with family-term matches `Dario` and `Pulgar`; no reread queue was opened.
+- QA triage: dated review on 2026-05-14 queued a targeted reread of the identity block and travel/visa block before promotion.
 
 ## Source Reliability
 
@@ -67,14 +68,15 @@ Not applicable; the source is already in English.
 
 ## Interpretation
 
-This record strongly supports a transit arrival for Dario A. Pulgar in New York City on March 30, 1959 after boarding BOAC flight BA 549 in London. It also offers a candidate birth date and Chilean permanent address, but those two fields should be corroborated against cleaner sources because the handwritten readings are less certain than the travel fields and official stamp.
+This record strongly supports a transit arrival for Dario A. Pulgar in New York City on March 30, 1959 after boarding BOAC flight BA 549 in London. The dated QA pass, however, explicitly warns against identity drift with the existing `Dario Pulgar Smith` context and asks for a reread of the birthdate, address, visa-place, and adjacent handwritten notes before promotion.
 
 ## Uncertainty Notes
 
-- `Birthdate: 1 Jun. 1902[?]` is legible but not perfectly clean in the final digits.
-- `Concepcion[?]` is likely the permanent-address city but should be checked against another source.
-- `RIO[?]` as visa-issue place is plausible but not fully certain.
-- The small notation near the passport number and the carrier route notation are not reliable enough for claim staging.
+- `Birthdate: 1 Jun. 1902[?]` is under explicit reread.
+- `Concepcion[?]` is likely the permanent-address city but remains under explicit reread.
+- `RIO[?]` as visa-issue place is plausible but still queued for confirmation.
+- The small notation near the passport number and the lower-right route/detention notation are not reliable enough for claim staging.
+- Do not merge this traveler with `Dario Pulgar Smith` without separate identity review.
 
 ## Candidate Entities And Claims
 
@@ -87,15 +89,15 @@ This record strongly supports a transit arrival for Dario A. Pulgar in New York 
 
 ## Proposed Claim Status And Confidence
 
-- Transit event claim: `probable`, confidence 8.2/10.
-- Recorded birthdate claim: `possible`, confidence 6.1/10.
-- Permanent address claim: `possible`, confidence 6.0/10.
+- Transit event claim: `probable`, confidence 7.8/10.
+- Recorded birthdate claim: `possible`, confidence 5.8/10.
+- Permanent address claim: `possible`, confidence 5.7/10.
 
 ## Follow-Up Tasks
 
-- Check the Dario Arturo Pulgar CV and nearby travel records for a cleaner birth date.
-- Compare the address field with other Pulgar travel/passport materials to confirm `Concepcion` and the box number.
+- Perform the queued local reread of the birthdate, permanent-address city, visa-place field, and adjacent handwritten notations.
+- Compare this traveler against `batch-pdf-022` and other Pulgar travel records before any identity merge.
 
 ## Promotion Recommendation
 
-`revise` for identity and address details; the travel event itself looks review-ready.
+`hold` until the dated reread queue for the I-94 is cleared.
