@@ -2,7 +2,7 @@
 type: staged_claim
 status: probable
 claim_type: travel
-confidence: 8.2
+confidence: 7.8
 subject: Dario A. Pulgar
 predicate: transited through
 object: New York City on 30 March 1959 after boarding BOAC BA 549 at London, England
@@ -17,9 +17,9 @@ source_reliability_class: original government transit form
 source_reliability_score: 8
 evidence_type: direct travel-event evidence
 informant_proximity: Self-reported travel identity on an official form with arrival stamp.
-conversion_confidence: high
-qa_concern: none; QC triage action pass
-promotion_recommendation: promote
+conversion_confidence: medium
+qa_concern: dated QA review requires identity caution and a targeted reread of adjacent identity and travel fields
+promotion_recommendation: revise
 tags: [staging, claim, travel, transit, pulgar, 1959]
 ---
 
@@ -31,11 +31,11 @@ The I-94 record states that Dario A. Pulgar transited New York City on 30 March 
 
 ## Status
 
-`probable` because the travel fields and arrival stamp are clear and the QC pass found no reread issue.
+`probable` because the flight and arrival-stamp fields are clear, even though the broader identity block is still on a targeted reread queue.
 
 ## Confidence
 
-8.2/10. Strong official travel evidence with minor uncertainty only in unrelated fields.
+7.8/10. Strong official travel evidence, reduced slightly because the dated QA pass still wants a local reread of surrounding fields and warns against premature identity merging.
 
 ## Literal Source Support
 
@@ -57,11 +57,11 @@ Not applicable; the source is already in English.
 
 ## Interpretation
 
-This is a solid staged travel claim for a mid-century Pulgar transit event and can anchor a timeline once reviewed.
+This is a solid staged travel claim for a mid-century Pulgar transit event, but it should remain detached from `Dario Pulgar Smith` until identity review resolves the generational mismatch concern.
 
 ## Uncertainty
 
-The claim does not depend on the ambiguous birthdate, permanent address, or visa-issue-place fields.
+The claim does not depend on the ambiguous birthdate or permanent-address city, but the surrounding identity context remains sensitive enough that promotion should stay conservative.
 
 ## Supports
 
@@ -69,4 +69,4 @@ The claim does not depend on the ambiguous birthdate, permanent address, or visa
 
 ## Conflicts With
 
-None noted in this staging pass.
+- Potential identity conflict with the existing `Dario Pulgar Smith` branch context if this traveler is incorrectly merged without further review.
