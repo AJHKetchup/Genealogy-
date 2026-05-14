@@ -13,12 +13,13 @@ source_reliability_score: 9
 source_reliability_rationale: Near-contemporary civil registration with named child, parents, informant, and official signature.
 evidence_type: direct evidence of birth; source-stated evidence of parentage and residence
 informant_proximity: Ernesto Monroy presented the birth registration; relationship to the child is not stated.
-conversion_confidence: high
+conversion_confidence: medium
 qa_review:
-  triage: research/_conversion-review/triage/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md
-  page_queue: research/_conversion-review/page-queues/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md
-  qa_status: pass
-promotion_recommendation: promote
+  triage: research/_conversion-review/triage/2026-05-14-conversion-qa-batch-img-017-019-batch-pdf-042-044.md
+  corrections: research/_conversion-review/corrections/2026-05-14-dario-pulgar-conversion-corrections.md
+  page_queue: research/_conversion-review/page-queues/2026-05-14-batch-img-017-entry-172-reread.md
+  qa_status: reread-region
+promotion_recommendation: hold
 tags: [staging, source-packet, chile, birth-record, pulgar, arriagada]
 ---
 
@@ -30,7 +31,7 @@ tags: [staging, source-packet, chile, birth-record, pulgar, arriagada]
 - Converted file: `raw/converted/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no.codex.md`
 - Chunk manifest: `raw/chunks/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex/manifest.json`
 - Chunk/page reference: `CHUNK-8276d0c44e96-P0001-01`, page 1, entry 172.
-- QA triage: pass with family-term match `Pulgar`; no reread queue was opened.
+- QA triage: dated review on 2026-05-14 downgraded the key extraction lines to `reread-region` for the child given name and the father's full name.
 
 ## Source Reliability
 
@@ -80,11 +81,12 @@ Official: Emilio Quiroga, civil register official.
 
 ## Interpretation
 
-This is a high-value Pulgar-Arriagada birth registration from Los Angeles, Chile. It directly supports a birth event for Fidelmiro Segundo Pulgar Arriagada and supplies a candidate father, mother, parental residence, and informant. The record is strong enough for staged claims, but the father's full name should still be checked against related Pulgar-Arriagada records because `Juan de Casanova Pulgar` is an unusual construction.
+This is a high-value Pulgar-Arriagada birth registration from Los Angeles, Chile. It clearly warrants staged extraction, but the most important name lines remain under a targeted reread queue, so downstream claims tied to those readings should not be promoted yet.
 
 ## Uncertainty Notes
 
-- The converted source marks the father's full name as `Juan de Casanova Pulgar`; this reading should be compared against related records before canonical promotion.
+- The child given name `Fidelmiro` is still under visual reread because a near variant remains possible.
+- The father's full name `Juan de Casanova Pulgar` is also under visual reread because the compound phrase may be over-resolved.
 - The mother's occupation field appears blank or unstated.
 - Neighboring entries were not fully transcribed because entry 172 is the target record.
 
@@ -100,15 +102,15 @@ This is a high-value Pulgar-Arriagada birth registration from Los Angeles, Chile
 
 ## Proposed Claim Status And Confidence
 
-- Birth event claim: `probable`, confidence 8.8/10.
-- Parentage naming claim: `possible`, confidence 6.9/10, because the father's full name needs corroboration.
+- Birth event claim: `possible`, confidence 6.8/10, pending reread of the child-name line.
+- Parentage naming claim: `possible`, confidence 6.2/10, pending reread of the father-name line.
 - Registration event claim: `probable`, confidence 8.4/10.
 
 ## Follow-Up Tasks
 
+- Perform the queued local reread of the child given name and the father's full-name line using the original evidentiary crop.
 - Compare the father's name against related Pulgar-Arriagada birth, marriage, or death entries from Los Angeles / La Laja.
-- Look for corroboration of Fidelmiro's parental household in nearby parish or civil records.
 
 ## Promotion Recommendation
 
-`promote` after proof review of the father's full-name reading.
+`hold` until the dated reread queue for entry 172 is cleared.
