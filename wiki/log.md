@@ -16,3 +16,9 @@
 - Found wiki scaffolding and templates, but no discoverable non-template person pages, accepted/probable claim pages, or compiled individual narratives on `main`.
 - Deferred biography creation until reviewed evidence is promoted into canonical person and claim pages.
 - Updated `wiki/index.md` and `wiki/research-plan.md` to record the blocker and next narrative prerequisites.
+
+## [2026-05-14] promote | No shared staged reviews on accessible branches
+
+- Re-checked `main` and `codex/local-codex-conversion-workbench` for repo-managed staged reviews and promotable drafts.
+- Found no accessible `research/_staging/reviews` notes or staged draft files with promotion-ready review metadata, so no canonical wiki pages were changed.
+- Could not run `genealogy-wiki lint --root .` in this session because local process execution failed in the sandbox (`CreateProcessWithLogonW failed: 1326`).
