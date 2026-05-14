@@ -17,6 +17,11 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - Triage summary: `research/_conversion-review/triage/2026-05-14-conversion-qa-batch-img-017-019-batch-pdf-042-044.md`
 - Structured concern log: `research/_conversion-review/corrections/2026-05-14-dario-pulgar-conversion-corrections.md`
 - Structured concern log: `research/_conversion-review/corrections/2026-05-14-batch-pdf-042-044-blockers.md`
+- Source-specific queue: `research/_conversion-review/page-queues/batch-img-010-arrival-departure-record-form-i-94-b-march-30-1959-codex.md`
+- Source-specific queue: `research/_conversion-review/page-queues/batch-img-015-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964-codex.md`
+- Source-specific queue: `research/_conversion-review/page-queues/batch-img-017-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-codex.md`
+- Conversion-pass reference: `research/_conversion-review/triage/batch-img-019-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificat-codex.md`
+- Identity-hold reference: `research/_conversion-review/triage/batch-pdf-022-cv-of-dario-arturo-pulgar-codex.md`
 
 ## Priority Questions
 
@@ -26,6 +31,8 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - Can the 1964 tourist-card parentage field `DARIO Y DOROTHY` be corroborated with surname-bearing records before any parent links are promoted?
 - Can the CV claim that Dario Pulgar received a Fulbright-supported M.A. in Communications from Stanford University in 1967-1968 be corroborated independently?
 - For `batch-pdf-042`, is the raw source mislabeled, or were the wrong pages assembled into the converted output?
+- Should the 1964 tourist-card date fields `1/6/42` and `3/9/63` stay literal-only until a local reread resolves normalization order?
+- Is `Dario Arturo Pulgar` from the CV safely the same person as the current canonical stub `Dario Pulgar Smith`, or does the merge still need explicit proof review?
 
 ## Next Searches
 
@@ -35,6 +42,7 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - Cross-check the I-94 against passport, visa, and travel records for an older `Dario A. Pulgar` before attaching it to any existing person page.
 - Use the 1964 tourist card as identity-supporting evidence for `Dario Pulgar Smith`, but hold parent extraction until another record supplies surnames or matching household context.
 - Confirm whether `batch-pdf-042` is a mislabeled source or a wrong page-range assembly before any source packet is opened.
+- Use the CV page-9 chronology as a comparator when reviewing the I-94 birth-year region, not as proof by itself.
 
 ## Sources To Find Or Review
 
@@ -55,6 +63,7 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - `SRC-221159bd9b79` / Cámara de Senadores de la Nación, 1936
 - `SRC-9010aa1ac68f` / S495-2-2
 - `SRC-7e42bb85abe2` / S522bis-29-3
+- Local reread targets: birthdate field and address/visa block on `batch-img-010`; birth-date and passport-date fields on `batch-img-015`; target-name lines on `batch-img-017`
 
 ## Hypotheses To Test
 
@@ -64,6 +73,7 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - The 1953 passenger list is strong evidence for a travel group, but not by itself for a stronger kinship claim.
 - The CV is useful as a lead source for education and contact history, but not strong enough by itself for uncorroborated canonical biography claims.
 - The `batch-pdf-042` mismatch is a source-prep or page-association defect rather than a normal OCR drift issue.
+- `Dario Arturo Pulgar` and `Dario Pulgar Smith` may still be the same person under a name variant, but the merge decision should wait for proof review rather than conversion QA.
 
 ## Negative Searches
 
@@ -71,15 +81,18 @@ This is the human-facing work queue. Agents should keep it useful for online res
 - 2026-05-14: `research/index.md` showed an empty `## Staging` section and sampled source pages had empty `## Extracted Claims` tables before this staging pass.
 - 2026-05-14: This QA pass did not find evidence strong enough to merge the 1959 I-94 traveler with `Dario Pulgar Smith`.
 - 2026-05-14: No corroborating record was identified in this pass for the Stanford/Fulbright education statement beyond the self-authored CV.
+- 2026-05-14: This QA pass did not find a safe way to normalize the tourist-card slash dates without a local image reread.
 
 ## Lineage Goals
 
 - Prevent premature merging of Pulgar individuals across the 1888, 1889, 1959, and 1964 records.
 - Clear the two queued rereads before promoting the I-94 and 1888 birth entry into canonical claims or relationships.
 - Keep `batch-pdf-042`, `batch-pdf-043`, and `batch-pdf-044` out of extraction until source identity and conversion completeness are repaired.
+- Keep the 1889 birth entry moving toward extraction while preserving the 1888 and 1959 blockers as exact-region holds rather than whole-source freezes.
 
 ## Recently Promoted Findings
 
 - 2026-05-14: The 1889 birth entry for Daniel Pulgar Arriagada is conversion-ready for extraction, provided the raw surname-first order is preserved as evidence language.
 - 2026-05-14: The 1964 tourist card remains usable as source-context identity support for `Dario Pulgar Smith`, but not yet for parent-link promotion.
 - 2026-05-14: First-pass staged packets and claims now exist for the 1953 passenger list, the 1888 and 1889 Los Angeles birth entries, and the Dario Arturo Pulgar CV.
+- 2026-05-14: The CV conversion is clean enough for contextual extraction, but the person-merge decision remains a proof-review hold.
