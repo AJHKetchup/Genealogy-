@@ -437,6 +437,9 @@ def test_gemini_source_prep_routes_simple_complex_and_relevant_pages(tmp_path) -
 def test_gemini_source_prep_run_writes_valid_page_output(tmp_path, monkeypatch) -> None:
     init_genealogy_wiki(tmp_path)
     Image = pytest.importorskip("PIL.Image")
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    monkeypatch.delenv("GOOGLE_API_KEY", raising=False)
+    (tmp_path / ".env").write_text("GEMINI_API_KEY=test-key\n", encoding="utf-8")
     source = tmp_path / "raw" / "sources" / "source-page.jpg"
     Image.new("RGB", (100, 120), "white").save(source)
     prepare_raw_sources(tmp_path)
@@ -454,7 +457,7 @@ def test_gemini_source_prep_run_writes_valid_page_output(tmp_path, monkeypatch) 
         }
 
     monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
-    summary = source_prep_gemini_run(tmp_path, limit=1, api_key="test-key")
+    summary = source_prep_gemini_run(tmp_path, limit=1)
 
     assert summary["completed"] == 1
     assert summary["route_counts"]["lite"] == 1

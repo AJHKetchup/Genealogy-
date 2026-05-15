@@ -21,6 +21,7 @@ from historic_doc_ingest.raw_cloud import (
     cleanup_remote_json_manifests,
     upload_derived_assets_to_cloud,
     load_raw_cloud_config,
+    read_env_file,
     restore_raw_from_cloud,
     upload_raw_to_cloud,
     verify_raw_cloud,
@@ -5860,6 +5861,7 @@ def source_prep_gemini_run(
     if limit < 1:
         raise ValueError("limit must be at least 1")
     paths = WikiPaths(root.resolve())
+    read_env_file(paths.root / ".env")
     if not api_key and not dry_run:
         api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
     if not api_key and not dry_run:
