@@ -5,7 +5,13 @@ description: Prepare raw genealogy and historical source files for research befo
 
 # Source Prep Pipeline
 
-Use this skill before research agents create claims, relationships, biographies, or conclusions. The goal is to turn unfriendly originals in `raw/sources/` into auditable, page-scoped Markdown, image crops, and chunks while preserving provenance.
+Use this skill before research agents create claims, relationships, biographies, or conclusions. The goal is to turn unfriendly originals from Cloudflare R2 into auditable, page-scoped Markdown, image crops, and chunks while preserving provenance.
+
+Cloud-first storage split:
+
+- Cloudflare R2 stores raw originals and binary derivatives: rendered page images, extracted crops, audio snippets, and video frames.
+- GitHub stores JSON, Markdown, code, conversion manifests, work orders, page Markdown, queues, task state, QA notes, chunks, staging drafts, and wiki text.
+- Local `raw/sources/`, `page-images/`, `extracted-images/`, audio snippets, and video frames are disposable worker cache. Do not treat them as the system of record.
 
 For the full quality checklist, read `references/conversion-quality-contract.md` when reviewing or converting real pages. For crop requirements, read `docs/visual_extraction_contract.md`.
 
@@ -14,10 +20,22 @@ For the full quality checklist, read `references/conversion-quality-contract.md`
 1. Queue raw sources for agent conversion:
 
 ```powershell
-genealogy-wiki prepare-sources --root .
+genealogy-wiki cloud-source-prep-heartbeat --root . --pages-per-job 25 --batch-pages 1
 ```
 
-This inventories `raw/sources/`, splits large PDFs into page-range jobs, creates missing conversion jobs, assembles any fully completed jobs, chunks completed conversions, and updates `raw/source-prep-manifest.json`.
+This restores raw originals from R2 into disposable local cache, inventories sources, splits PDFs into page-range jobs, creates missing conversion jobs, assembles fully completed jobs, chunks completed conversions, writes GitHub queue JSON/Markdown, and uploads binary derivatives back to R2.
+
+For a local-only dry run that does not touch R2:
+
+```powershell
+genealogy-wiki cloud-source-prep-heartbeat --root . --no-restore --no-asset-upload --dry-run
+```
+
+The lower-level command still exists for focused local preparation after raw cache has been restored:
+
+```powershell
+genealogy-wiki prepare-sources --root .
+```
 
 Tune page-range size for massive sources:
 
@@ -33,13 +51,13 @@ genealogy-wiki agent-queues --root .
 
 This writes `research/_agent-queues/source-prep.json`, `conversion-qa.json`, and `evidence-extraction.json` plus prompt packets under `research/_agent-queues/prompts/`.
 
-For faster unattended repair work, write bounded contiguous page-range prompts after refreshing the normal queues:
+For faster unattended repair work, write one-page prompts after refreshing the normal queues:
 
 ```powershell
-genealogy-wiki source-prep-batches --root . --max-pages 8 --limit 25
+genealogy-wiki source-prep-batches --root . --max-pages 1 --limit 80
 ```
 
-This writes `research/_agent-queues/source-prep-batches.json` and batch prompt packets. Batches are only a scheduling convenience: every page still requires visual conversion, full page Markdown, extracted visual crops when present, uncertainty notes, and a completeness audit. If a page is dense, handwritten, family-critical, or otherwise risky, shrink the batch and finish only the pages that can be converted accurately.
+This writes `research/_agent-queues/source-prep-batches.json` and prompt packets. Each source-prep worker gets one page. Run more workers for throughput instead of assigning multiple pages to one worker. Every page still requires visual conversion, full page Markdown, extracted visual crops when present, uncertainty notes, and a completeness audit.
 
 Record task ownership through the CLI, not by hand-editing queue JSON:
 
@@ -51,7 +69,7 @@ genealogy-wiki agent-task complete "<task-id>" --root . --agent "<worker-label>"
 
 This writes `research/_agent-queues/task-state.json` and refreshes the queues.
 
-Batch prompts may pass multiple page task ids to the same command so task-state updates happen in one durable write:
+Controller prompts may still pass task ids through the same command interface, but source-prep conversion assignments should contain only one page task id:
 
 ```powershell
 genealogy-wiki agent-task claim "<task-id-1>" "<task-id-2>" --root . --agent "<worker-label>" --no-refresh
@@ -115,16 +133,17 @@ Do not treat an old page output as done just because `page-markdown/page-####.md
 Every prepared source should have:
 
 - Original file preserved under `raw/sources/`.
-- A conversion job manifest with source path, source hash, page image hashes, work orders, extracted-image folders, and chunking metadata.
-- Page images under `page-images/`.
-- Page Markdown under `page-markdown/`.
-- Inline references to extracted visual regions stored under `extracted-images/page-####/`.
+- Original file preserved in R2, with a disposable local cache under `raw/sources/` only while a worker runs.
+- A GitHub-tracked conversion job manifest with source path, source hash, page image hashes, work orders, extracted-image folders, and chunking metadata.
+- Page images uploaded to R2 and recorded in `raw/r2-derived-assets.json`.
+- Page Markdown under GitHub-tracked `page-markdown/`.
+- Inline references to extracted visual regions, with binary crop files uploaded to R2 and recorded in `raw/r2-derived-assets.json`.
 - An assembled converted Markdown file under `raw/converted/`.
 - Page-scoped chunks plus a chunk manifest under `raw/chunks/`.
 
 ## Agent Use
 
-Use subagents only when the user explicitly asks for agent workflows or parallel work. Split by disjoint source files or page ranges. Tell conversion workers exactly which job/pages they own and where to write outputs.
+Use subagents only when the user explicitly asks for agent workflows or parallel work. For source conversion, assign one page per worker; use more workers for throughput. Tell conversion workers exactly which job/page they own and where to write outputs.
 
 Recommended roles:
 

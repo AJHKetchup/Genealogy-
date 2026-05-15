@@ -4,6 +4,10 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv/
+.env
+.env.*
+!.env.example
+!.env.r2.example
 **/.obsidian/
 .genealogy/
 obsidian-offline/
@@ -13,18 +17,32 @@ build/
 output/
 outputs/
 raw/conversion-*.md
-# Raw originals and heavy page-image job work stay local to the laptop.
-raw/codex-conversion-jobs/
+# Raw originals and binary derivatives live in Cloudflare R2.
 raw/sources/*
 !raw/sources/.gitkeep
 raw/assets/*
 !raw/assets/.gitkeep
+research/_assets/
+
+# Conversion job text/control files are GitHub state; binary caches are R2-backed.
+raw/codex-conversion-jobs/**/source/
+raw/codex-conversion-jobs/**/page-images/
+raw/codex-conversion-jobs/**/extracted-images/
+raw/codex-conversion-jobs/**/audio-transcription/
+raw/codex-conversion-jobs/**/video-frames/
 
 # GitHub is the shared database for prepared text derivatives and research state.
 !raw/source-prep-manifest.json
+!raw/r2-storage.json
+!raw/r2-raw-sources.json
+!raw/r2-derived-assets.json
 !raw/converted/*.codex.md
 !raw/chunks/**
 !raw/chunks/.gitkeep
 
-# Local worker scheduler/runtime state. Regenerate from GitHub-backed data.
-research/_agent-queues/
+# Local worker runtime logs. Queue JSON/Markdown remains GitHub state.
+research/_agent-queues/parallel-worker-logs/
+research/_agent-queues/parallel-worker-prompts/
+research/_agent-queues/automation-supervisor-logs/
+research/_agent-queues/*.lock.json
+research/_automation/*.lock.json

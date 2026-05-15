@@ -6,9 +6,22 @@ import json
 import os
 import re
 import shutil
+import subprocess
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+
+from historic_doc_ingest.raw_cloud import (
+    build_raw_cloud_manifest,
+    cleanup_remote_json_manifests,
+    upload_derived_assets_to_cloud,
+    load_raw_cloud_config,
+    restore_raw_from_cloud,
+    upload_raw_to_cloud,
+    verify_raw_cloud,
+    write_derived_asset_inventory,
+    write_raw_cloud_inventory,
+)
 
 
 GENEALOGY_SCHEMA = """# Genealogy Wiki Operating Manual
@@ -19,13 +32,13 @@ This wiki follows the LLM-maintained wiki pattern, adapted for genealogical rese
 
 - `raw/`: immutable source material. Store original PDFs, images, downloaded records, exports, correspondence, converted Markdown, chunks, and conversion jobs here. Do not edit these files after ingest.
 - `research/`: source/research Obsidian vault. This drives source inspection, conversion dashboards, page transcription, conversion QA, staging drafts, indexes, templates, and agent work queues.
-- `wiki/`: family-history Obsidian vault. This is the final evolving product for people, families, branches, relationships, claims, narratives, photos, context, timelines, and tree views.
+- `wiki/`: family-history Obsidian vault. This is the final evolving product for people, families, branches, narratives, photos, context, timelines, and tree views.
 - `research/00 Research Start.md`: Obsidian front door for source work and agent flow.
 - `research/index.md`: source-oriented catalog of sources, source packets, transcriptions, conversion views, staging, and agent work.
 - `research/log.md`: append-only chronological record of source preparation, conversion, QA, staging, agent work, and promoted product changes.
 - `research/research-plan.md`: prioritized open work, next searches, unresolved questions, and hypotheses to test.
 - `research/questions/` and `research/tasks/`: research questions and work queues outside the product vault.
-- `wiki/Family Tree.md`: front-facing family tree view generated from relationship pages.
+- `wiki/Family Tree.md`: front-facing family tree view generated from proof-layer relationship pages in `research/relationships/`.
 - `wiki/index.md`: lineage-first catalog of families, branches, people, relationships, claims, narratives, and family-history pages.
 
 ## Genealogy Rules
@@ -48,6 +61,7 @@ This wiki follows the LLM-maintained wiki pattern, adapted for genealogical rese
 - Treat QC-held pages as page-specific extraction blocks. Do not freeze a whole archive when only exact pages or regions need reread.
 - Treat old OCR, text-layer, or image-only page outputs as repair inputs unless they satisfy the current full page conversion contract.
 - Put LLM-derived source packets, claims, relationship candidates, identity candidates, and person-page updates in `research/_staging/` first.
+- Keep source-context portrait crops, face references, and face-cluster drafts in `research/_staging/photos/` until explicitly promoted as product-ready photo pages.
 - Only a review/promotion pass, performed by the `wiki_promoter` role or an equivalent explicit human direction, may move staged material into canonical wiki folders.
 - Keep research navigation, plans, logs, questions, and tasks in `research/`. Keep `wiki/` focused on the genealogy product and family-tree view.
 
@@ -73,15 +87,15 @@ When a new source arrives:
 8. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and QA page queues.
 9. Keep separated transcription, translation, interpretation, uncertainty, and promotion recommendation sections in staged drafts.
 10. Review staged claims for literal support, source path, chunk/page reference, uncertainty, status, confidence, and conflicts.
-11. Promote reviewed material into `wiki/claims/`, `wiki/relationships/`, and person/family/narrative/tree pages only after review; source packets and transcriptions stay in `research/`.
-12. Update `wiki/index.md`.
-13. Append a backstage entry to `research/log.md`.
+11. Run `genealogy-wiki promote-staged --root .` after review to promote eligible staged material into `research/claims/`, `research/relationships/`, product person pages, indexes, and the generated family tree; source packets stay in `research/source-packets/`.
+12. Run `genealogy-wiki lint --root .` and fix canonical lint issues before moving on.
+13. Review the promotion manifest under `research/_staging/promotions/` and the backstage entry in `research/log.md`.
 
 ## Post-Conversion Agent Workflow
 
 After conversion, use this order:
 
-`raw/converted/` + `raw/chunks/` -> `genealogy-wiki conversion-qc` -> `research/_conversion-review/` QA triage -> `research/_staging/` source packets -> staged claims -> proof review -> canonical wiki promotion.
+`raw/converted/` + `raw/chunks/` -> `genealogy-wiki conversion-qc` -> `research/_conversion-review/` QA triage -> `research/_staging/` source packets -> staged claims -> proof review -> research proof layer plus wiki product updates.
 
 Staged outputs must include source path, chunk or page reference, literal support, uncertainty notes, proposed claim status, and a promotion recommendation. Canonical pages should cite reviewed staged evidence, not raw chunks directly. Parallel subagents are optional and must be explicitly requested by the user.
 
@@ -134,16 +148,17 @@ Inside facts, cite the source footnote:
 - Families: `families/surname-surname-marriageyear.md`
 - Places: `places/country-region-locality.md`
 - Branches: `branches/branch-name.md`
-- Relationships: `relationships/R001-person-person-relationship.md`
+- Relationships: `research/relationships/R001-person-person-relationship.md`
 - Events: `events/EV001-short-event.md`
 - Research sources: `research/sources/S001-short-title.md`
 - Research source packets: `research/source-packets/SP001-short-title.md`
-- Claims: `claims/CL001-short-claim.md`
+- Claims: `research/claims/CL001-short-claim.md`
 - Conversion QA: `research/_conversion-review/<triage|page-queues|corrections>/<source-id>.md`
 - Staged drafts: `research/_staging/<workflow>/<draft-id>.md`
 - Identity: `identity/ID001-person-candidates.md`
-- Photos: `photos/PH001-short-description.md`
-- Face clusters: `photos/FC001-unknown-cluster.md`
+- Product photos: `photos/PH001-short-description.md`
+- Product face clusters: `photos/FC001-unknown-cluster.md`
+- Staged photo evidence: `research/_staging/photos/<photo-or-face-reference>.md`
 - Research tasks: `research/tasks/T001-short-task.md`
 - Narratives: `narratives/N001-short-title.md`
 - Conflicts: `conflicts/C001-short-topic.md`
@@ -151,7 +166,9 @@ Inside facts, cite the source footnote:
 """
 
 
-INDEX_TEMPLATE = """# Genealogy Wiki Index
+INDEX_TEMPLATE = """# Family History Index
+
+Start with the tree, then follow people, families, branches, places, photos, and narratives.
 
 ## Family Tree
 
@@ -163,15 +180,9 @@ INDEX_TEMPLATE = """# Genealogy Wiki Index
 
 ## Families
 
-## Relationships
-
 ## Events
 
 ## Places
-
-## Claims
-
-## Evidence
 
 ## Conflicts
 
@@ -200,7 +211,7 @@ flowchart TD
   empty[No relationship pages found]
 ```
 
-Generated from `wiki/relationships/`, not from a separate database.
+This view shows the family connections currently represented in the wiki.
 """
 
 
@@ -246,6 +257,16 @@ RESEARCH_INDEX_TEMPLATE = """# Research Vault Index
 ## Sources
 
 ## Source Packets
+
+## Claims
+
+## Relationships
+
+## Evidence
+
+## Context
+
+## Events
 
 ## Source Transcriptions
 
@@ -294,7 +315,7 @@ RESEARCH_LOG_TEMPLATE = """# Research Vault Log
 TEMPLATES = {
     "branch.md": """---
 type: branch
-status: draft
+status: stub
 tags: [branch]
 family:
 focus_people: []
@@ -302,61 +323,52 @@ focus_people: []
 
 # Branch Name
 
-## Lineage Goal
+## Overview
 
 ## Key People
 
-## Proven Relationships
+## Family Connections
 
-## Probable Or Possible Relationships
+## Places
 
-## Open Problems
+## Story So Far
 
-## Sources
+## Open Questions
 """,
     "person.md": """---
 type: person
-status: draft
+status: stub
 tags: [person]
 person_id:
+display_name:
 birth_year:
 death_year:
 ---
 
 # Person Name
 
-## Identity
+## Overview
+
+## Names
 
 - Preferred name:
-- Name variants:
-- Sex/gender:
-- Birth:
-- Death:
-- Burial:
+- Other names:
 
-## Relationships
+## Family
 
-- Parents: link to `wiki/relationships/` pages.
-- Spouses: link to `wiki/relationships/` pages.
-- Children: link to `wiki/relationships/` pages.
-- Siblings: link to `wiki/relationships/` pages.
-- Same-person candidates: link to `wiki/identity/` pages.
+- Parents:
+- Spouses:
+- Children:
+- Siblings:
 
-## Timeline
+## Life
 
-| Date | Event | Place | Evidence |
-| --- | --- | --- | --- |
+| Date | Place | What happened |
+| --- | --- | --- |
 
-## Evidence Summary
+## Places
 
-## Atomic Claims
-
-## Narrative
-
-- Life story: link to `wiki/narratives/` page when enough accepted or probable claims exist.
-- Historical context: link only to context that explains this person's life, family, migration, work, community, conflict, or records.
-
-## Conflicts And Uncertainty
+## Story
 
 ## Open Questions
 
@@ -415,7 +427,7 @@ tags: [event]
 """,
     "family.md": """---
 type: family
-status: draft
+status: stub
 tags: [family]
 family_id:
 branch:
@@ -423,22 +435,22 @@ branch:
 
 # Family
 
-## Couple Or Household
+## Overview
 
-## Children
+## People
+
+## Family Connections
+
+## Places
 
 ## Timeline
 
-| Date | Event | Place | Evidence |
-| --- | --- | --- | --- |
+| Date | Place | What happened |
+| --- | --- | --- |
 
-## Relationship Evidence
+## Story So Far
 
-## Relationship Assertions
-
-## Conflicts And Uncertainty
-
-## Sources
+## Open Questions
 """,
     "source.md": """---
 type: source
@@ -743,7 +755,7 @@ claim_scope: accepted_probable
 
 ## Draft Narrative
 
-Write the person's or family's story from accepted or probable wiki claims. Do not write directly from raw sources.
+Write the person's or family's story from accepted or probable research-vault claims. Do not write directly from raw sources.
 
 ## Timeline
 
@@ -831,6 +843,28 @@ tags: [question]
 }
 
 
+WIKI_PRODUCT_FORBIDDEN_PHRASES = (
+    "research vault",
+    "proof-layer",
+    "proof layer",
+    "research/_staging",
+    "_staging",
+    "staged",
+    "staging",
+    "source-context",
+    "source context",
+    "proof review",
+    "promoted",
+    "promotion",
+    "canonical graph",
+    "relationship assertion",
+    "atomic claims",
+    "claim extraction",
+    "family tree view",
+    "status: draft",
+)
+
+
 REQUIRED_DIRECTORIES = [
     ("raw", "sources"),
     ("raw", "converted"),
@@ -841,12 +875,18 @@ REQUIRED_DIRECTORIES = [
     ("research", "sources"),
     ("research", "sources", "transcriptions"),
     ("research", "source-packets"),
+    ("research", "claims"),
+    ("research", "relationships"),
+    ("research", "evidence"),
+    ("research", "context"),
+    ("research", "events"),
     ("research", "_assets"),
     ("research", "_conversion-review"),
     ("research", "_conversion-review", "triage"),
     ("research", "_conversion-review", "page-queues"),
     ("research", "_conversion-review", "corrections"),
     ("research", "_staging"),
+    ("research", "_staging", "photos"),
     ("research", "_indexes"),
     ("research", "_templates"),
     ("research", "_agents"),
@@ -855,11 +895,8 @@ REQUIRED_DIRECTORIES = [
     ("wiki", "branches"),
     ("wiki", "people"),
     ("wiki", "families"),
-    ("wiki", "relationships"),
     ("wiki", "events"),
     ("wiki", "places"),
-    ("wiki", "claims"),
-    ("wiki", "evidence"),
     ("wiki", "conflicts"),
     ("wiki", "identity"),
     ("wiki", "photos"),
@@ -987,6 +1024,11 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
         paths.research,
         paths.research / "sources",
         paths.research / "source-packets",
+        paths.research / "claims",
+        paths.research / "relationships",
+        paths.research / "evidence",
+        paths.research / "context",
+        paths.research / "events",
         paths.research / "index.md",
         paths.research / "log.md",
         paths.research / "research-plan.md",
@@ -994,8 +1036,6 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
         paths.research / "tasks",
         paths.wiki,
         paths.wiki / "Family Tree.md",
-        paths.wiki / "claims",
-        paths.wiki / "relationships",
         paths.wiki / "narratives",
         paths.staging,
         paths.indexes,
@@ -1010,12 +1050,15 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
     if not paths.wiki.exists():
         return issues
 
+    issues.extend(lint_wiki_product_language(paths))
+
     index_text = read_text(paths.wiki / "index.md")
+    index_targets = {wikilink_target(link) for link in extract_wikilinks(index_text)}
     for page in paths.wiki.rglob("*.md"):
         if should_skip_wiki_lint_page(page):
             continue
         rel = page.relative_to(paths.wiki).as_posix()
-        if rel not in index_text and f"[[{rel.removesuffix('.md')}]]" not in index_text:
+        if rel not in index_text and rel.removesuffix(".md") not in index_targets:
             issues.append(f"page not referenced from index: {rel}")
         text = read_text(page)
         frontmatter = parse_frontmatter(text)
@@ -1040,12 +1083,33 @@ def lint_genealogy_wiki(root: Path) -> list[str]:
         ):
             issues.append(f"research task is detached from lineage goal or claim: {rel}")
 
+    issues.extend(lint_research_proof_pages(paths))
     claim_index = build_claim_index(paths.root)
     issues.extend(lint_claim_cross_references(paths.root, claim_index))
     relationship_index = build_relationship_index(paths.root, claim_index)
     issues.extend(lint_relationship_cross_references(paths.root, relationship_index, claim_index))
-    issues.extend(lint_chronology(paths.wiki))
+    issues.extend(lint_chronology(paths))
 
+    return issues
+
+
+def lint_research_proof_pages(paths: WikiPaths) -> list[str]:
+    issues: list[str] = []
+    for page in claim_pages(paths):
+        text = read_text(page)
+        frontmatter = parse_frontmatter(text)
+        if frontmatter.get("type") == "claim":
+            issues.extend(lint_claim_page(page.relative_to(paths.root).as_posix(), frontmatter, text))
+    for page in relationship_pages(paths):
+        text = read_text(page)
+        frontmatter = parse_frontmatter(text)
+        if frontmatter.get("type") == "relationship":
+            issues.extend(lint_relationship_page(page.relative_to(paths.root).as_posix(), frontmatter, text))
+    for page in sorted((paths.research / "source-packets").glob("*.md")):
+        text = read_text(page)
+        frontmatter = parse_frontmatter(text)
+        if frontmatter.get("type") == "source_packet":
+            issues.extend(lint_source_packet_page(page.relative_to(paths.root).as_posix(), text))
     return issues
 
 
@@ -1055,6 +1119,19 @@ def should_skip_wiki_lint_page(page: Path) -> bool:
         page.name in {"index.md"}
         or {"sources", "transcriptions"}.issubset(parts)
     )
+
+
+def lint_wiki_product_language(paths: WikiPaths) -> list[str]:
+    issues: list[str] = []
+    for page in sorted(paths.wiki.rglob("*.md")):
+        if ".obsidian" in page.parts:
+            continue
+        rel = page.relative_to(paths.wiki).as_posix()
+        lower_text = read_text(page).lower()
+        for phrase in WIKI_PRODUCT_FORBIDDEN_PHRASES:
+            if phrase in lower_text:
+                issues.append(f"wiki product page uses research workflow language '{phrase}': {rel}")
+    return issues
 
 
 def create_claim(
@@ -1075,7 +1152,7 @@ def create_claim(
     force: bool = False,
 ) -> Path:
     paths = WikiPaths(root.resolve())
-    claims_dir = paths.wiki / "claims"
+    claims_dir = paths.research / "claims"
     claims_dir.mkdir(parents=True, exist_ok=True)
     claim_path = claims_dir / f"{slug(claim_id)}-{slug(claim_text)[:48]}.md"
     if claim_path.exists() and not force:
@@ -1100,6 +1177,7 @@ def create_claim(
     for old, new in replacements.items():
         content = content.replace(old, new, 1)
     claim_path.write_text(content.strip() + "\n", encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Claims", f"[[claims/{claim_path.stem}]]")
     append_log(paths.research / "log.md", f"claim | Created {claim_path.relative_to(paths.root).as_posix()}")
     return claim_path
 
@@ -1117,7 +1195,7 @@ def create_relationship(
     force: bool = False,
 ) -> Path:
     paths = WikiPaths(root.resolve())
-    relationships_dir = paths.wiki / "relationships"
+    relationships_dir = paths.research / "relationships"
     relationships_dir.mkdir(parents=True, exist_ok=True)
     relationship_path = relationships_dir / (
         f"{slug(relationship_id)}-{slug(person_a)}-{slug(person_b)}-{slug(relationship_type)}.md"
@@ -1141,6 +1219,7 @@ def create_relationship(
     for old, new in replacements.items():
         content = content.replace(old, new, 1)
     relationship_path.write_text(content.strip() + "\n", encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Relationships", f"[[relationships/{relationship_path.stem}]]")
     append_log(paths.research / "log.md", f"relationship | Created {relationship_path.relative_to(paths.root).as_posix()}")
     return relationship_path
 
@@ -1170,6 +1249,777 @@ def create_source_packet(
     append_index_reference(paths.research / "index.md", "Source Packets", f"[[source-packets/{packet_path.stem}]]")
     append_log(paths.research / "log.md", f"source-packet | Created {packet_path.relative_to(paths.root).as_posix()}")
     return packet_path
+
+
+def promote_staged_drafts(
+    root: Path,
+    *,
+    force: bool = False,
+    dry_run: bool = False,
+    include_revise: bool = False,
+    include_hold: bool = False,
+) -> dict[str, object]:
+    """Promote reviewed staging drafts into the canonical research/wiki shelves."""
+    paths = WikiPaths(root.resolve())
+    summary: dict[str, object] = {
+        "dry_run": dry_run,
+        "source_packets": [],
+        "claims": [],
+        "relationships": [],
+        "people": [],
+        "sources": [],
+        "skipped": [],
+        "manifest": "",
+    }
+
+    staged_packets = sorted((paths.staging / "source-packets").glob("*.md"))
+    staged_claims = sorted((paths.staging / "claims").glob("*.md"))
+    staged_relationships = sorted((paths.staging / "relationships").glob("*.md"))
+
+    packet_map: dict[str, str] = {}
+    packet_records: list[dict[str, object]] = []
+    for staged_packet in staged_packets:
+        canonical_path = paths.research / "source-packets" / f"{slug(staged_packet.stem)}.md"
+        canonical_link = f"[[source-packets/{canonical_path.stem}]]"
+        add_staged_reference_mapping(packet_map, paths, staged_packet, canonical_link)
+        packet_records.append(
+            {
+                "staged": staged_packet,
+                "canonical_path": canonical_path,
+                "canonical_link": canonical_link,
+                "text": read_text(staged_packet),
+            }
+        )
+
+    promoted_claims: list[dict[str, str]] = []
+    claim_map: dict[str, str] = {}
+    for staged_claim in staged_claims:
+        text = read_text(staged_claim)
+        frontmatter = parse_frontmatter(text)
+        if frontmatter.get("type") != "claim":
+            continue
+        if not is_stage_eligible_for_promotion(text, frontmatter, include_revise, include_hold):
+            summary_list(summary, "skipped").append(
+                {
+                    "path": staged_claim.relative_to(paths.root).as_posix(),
+                    "reason": promotion_recommendation(text, frontmatter) or "no promotion recommendation",
+                }
+            )
+            continue
+
+        canonical_path = paths.research / "claims" / f"{slug(staged_claim.stem)}.md"
+        canonical_link = f"[[claims/{canonical_path.stem}]]"
+        add_staged_claim_reference_mapping(claim_map, paths, staged_claim, canonical_link)
+        subject_name = frontmatter.get("subject", "")
+        subject_link = ensure_person_page(paths, subject_name, summary, dry_run=dry_run)
+        packet_link = lookup_staged_reference(frontmatter.get("source_packet", ""), packet_map)
+        source_link = ensure_source_page(
+            paths,
+            frontmatter.get("source", ""),
+            packet_link,
+            summary,
+            dry_run=dry_run,
+        )
+        relationship_link = lookup_staged_reference(frontmatter.get("relationship", ""), {})
+        claim_text = update_markdown_frontmatter(
+            text,
+            {
+                "subject": subject_link,
+                "source": source_link,
+                "source_packet": packet_link,
+                "relationship": relationship_link,
+            },
+        )
+        if not dry_run:
+            canonical_path.parent.mkdir(parents=True, exist_ok=True)
+            if canonical_path.exists() and not force:
+                summary_list(summary, "skipped").append(
+                    {
+                        "path": staged_claim.relative_to(paths.root).as_posix(),
+                        "reason": f"canonical claim exists: {canonical_path.relative_to(paths.root).as_posix()}",
+                    }
+                )
+                continue
+            canonical_path.write_text(claim_text.strip() + "\n", encoding="utf-8")
+            append_index_reference(paths.research / "index.md", "Claims", canonical_link)
+            append_source_claim_row(paths, source_link, canonical_link, subject_link, frontmatter, dry_run=False)
+        promoted_claims.append(
+            {
+                "staged_path": staged_claim.relative_to(paths.root).as_posix(),
+                "canonical_path": canonical_path.relative_to(paths.root).as_posix(),
+                "canonical_link": canonical_link,
+                "subject_name": subject_name,
+                "subject": subject_link,
+                "predicate": frontmatter.get("predicate", ""),
+                "object": frontmatter.get("object", ""),
+                "claim_type": frontmatter.get("claim_type", ""),
+            }
+        )
+        summary_list(summary, "claims").append(canonical_path.relative_to(paths.root).as_posix())
+
+    for packet_record in packet_records:
+        staged_packet = packet_record["staged"]
+        canonical_path = packet_record["canonical_path"]
+        canonical_link = packet_record["canonical_link"]
+        if not isinstance(staged_packet, Path) or not isinstance(canonical_path, Path) or not isinstance(canonical_link, str):
+            continue
+        packet_text = str(packet_record.get("text", ""))
+        packet_text = replace_promoted_references(packet_text, claim_map)
+        packet_text = replace_promoted_references(packet_text, packet_map)
+        packet_text = update_markdown_frontmatter(packet_text, {"status": "promoted"})
+        if not dry_run:
+            canonical_path.parent.mkdir(parents=True, exist_ok=True)
+            if canonical_path.exists() and not force:
+                summary_list(summary, "skipped").append(
+                    {
+                        "path": staged_packet.relative_to(paths.root).as_posix(),
+                        "reason": f"canonical source packet exists: {canonical_path.relative_to(paths.root).as_posix()}",
+                    }
+                )
+                continue
+            canonical_path.write_text(packet_text.strip() + "\n", encoding="utf-8")
+            append_index_reference(paths.research / "index.md", "Source Packets", canonical_link)
+        summary_list(summary, "source_packets").append(canonical_path.relative_to(paths.root).as_posix())
+
+    relationship_map: dict[str, str] = {}
+    for staged_relationship in staged_relationships:
+        text = read_text(staged_relationship)
+        frontmatter = parse_frontmatter(text)
+        if not is_stage_eligible_for_promotion(text, frontmatter, include_revise, include_hold):
+            summary_list(summary, "skipped").append(
+                {
+                    "path": staged_relationship.relative_to(paths.root).as_posix(),
+                    "reason": promotion_recommendation(text, frontmatter) or "no promotion recommendation",
+                }
+            )
+            continue
+        promoted = promote_staged_relationship(
+            paths,
+            staged_relationship,
+            text,
+            frontmatter,
+            promoted_claims,
+            packet_map,
+            relationship_map,
+            summary,
+            force=force,
+            dry_run=dry_run,
+        )
+        summary_list(summary, "relationships").extend(promoted)
+
+    if not dry_run:
+        write_claim_index(paths.root)
+        write_relationship_index(paths.root)
+        write_relationship_graph(paths.root)
+        generate_tree(paths.root)
+        append_log(
+            paths.research / "log.md",
+            "promote-staged | Promoted "
+            f"{len(summary_list(summary, 'source_packets'))} source packet(s), "
+            f"{len(summary_list(summary, 'claims'))} claim(s), "
+            f"{len(summary_list(summary, 'relationships'))} relationship(s)",
+        )
+        manifest_path = write_promotion_manifest(paths, summary)
+        summary["manifest"] = manifest_path.relative_to(paths.root).as_posix()
+
+    return summary
+
+
+def summary_list(summary: dict[str, object], key: str) -> list:
+    value = summary.setdefault(key, [])
+    if not isinstance(value, list):
+        raise TypeError(f"promotion summary field is not a list: {key}")
+    return value
+
+
+def promotion_recommendation(text: str, frontmatter: dict[str, str]) -> str:
+    value = normalize_promotion_value(frontmatter.get("promotion_recommendation", ""))
+    if value:
+        return value
+    section = extract_section(text, "Promotion Recommendation").lower()
+    if not section:
+        return ""
+    if "reject" in section or "do not promote" in section:
+        return "reject"
+    if "hold" in section:
+        return "hold"
+    if "revise" in section or "revision" in section:
+        return "revise"
+    if "promote" in section:
+        return "promote"
+    return ""
+
+
+def normalize_promotion_value(value: str) -> str:
+    normalized = value.strip().lower().replace("-", "_").replace(" ", "_")
+    if normalized in {"promote", "approved", "ready", "ready_to_promote"}:
+        return "promote"
+    if normalized in {"revise", "needs_revision", "needs_review", "review"}:
+        return "revise"
+    if normalized in {"hold", "blocked", "defer"}:
+        return "hold"
+    if normalized in {"reject", "rejected", "do_not_promote"}:
+        return "reject"
+    return normalized
+
+
+def is_stage_eligible_for_promotion(
+    text: str,
+    frontmatter: dict[str, str],
+    include_revise: bool,
+    include_hold: bool,
+) -> bool:
+    recommendation = promotion_recommendation(text, frontmatter)
+    if recommendation == "promote":
+        return True
+    if recommendation == "revise":
+        return include_revise
+    if recommendation in {"hold", "reject"}:
+        return include_hold
+    return False
+
+
+def add_staged_reference_mapping(mapping: dict[str, str], paths: WikiPaths, staged_path: Path, canonical_link: str) -> None:
+    rel = staged_path.relative_to(paths.root).as_posix()
+    rel_no_ext = rel.removesuffix(".md")
+    variants = {
+        rel,
+        rel_no_ext,
+        staged_path.as_posix(),
+        staged_path.with_suffix("").as_posix(),
+        staged_path.name,
+        staged_path.stem,
+        f"[[{rel_no_ext}]]",
+    }
+    for variant in variants:
+        mapping[normalize_reference_key(variant)] = canonical_link
+
+
+def add_staged_claim_reference_mapping(mapping: dict[str, str], paths: WikiPaths, staged_path: Path, canonical_link: str) -> None:
+    add_staged_reference_mapping(mapping, paths, staged_path, canonical_link)
+    mapping[normalize_reference_key(f"[[claims/{staged_path.stem}]]")] = canonical_link
+    mapping[normalize_reference_key(f"claims/{staged_path.stem}")] = canonical_link
+
+
+def normalize_reference_key(value: str) -> str:
+    value = value.strip().strip("`").replace("\\", "/")
+    if looks_like_wikilink(value):
+        value = wikilink_target(value)
+    return value.removesuffix(".md")
+
+
+def lookup_staged_reference(value: str, mapping: dict[str, str]) -> str:
+    if not value:
+        return ""
+    key = normalize_reference_key(value)
+    candidates = [key, Path(key).name, Path(key).stem]
+    for candidate in candidates:
+        if candidate in mapping:
+            return mapping[candidate]
+    if looks_like_wikilink(value):
+        target = wikilink_target(value)
+        if target.startswith(("source-packets/", "relationships/", "claims/")):
+            return value
+    return ""
+
+
+def replace_promoted_references(text: str, mapping: dict[str, str]) -> str:
+    for old, new in sorted(mapping.items(), key=lambda item: len(item[0]), reverse=True):
+        if not old:
+            continue
+        text = text.replace(f"[[{old}]]", new)
+        text = text.replace(old, new)
+    return text
+
+
+def update_markdown_frontmatter(
+    text: str,
+    updates: dict[str, str],
+    remove: set[str] | None = None,
+) -> str:
+    remove = remove or set()
+    match = re.match(r"---\s*\n(.*?)\n---\s*\n?", text, flags=re.DOTALL)
+    body = text
+    lines: list[str] = []
+    if match:
+        lines = match.group(1).splitlines()
+        body = text[match.end() :]
+    seen: set[str] = set()
+    output: list[str] = []
+    for line in lines:
+        if ":" not in line:
+            output.append(line)
+            continue
+        key = line.split(":", 1)[0].strip()
+        if key in remove:
+            seen.add(key)
+            continue
+        if key in updates:
+            output.append(f"{key}: {clean_frontmatter_value(updates[key])}")
+            seen.add(key)
+        else:
+            output.append(line)
+    for key, value in updates.items():
+        if key not in seen and key not in remove:
+            output.append(f"{key}: {clean_frontmatter_value(value)}")
+    return "---\n" + "\n".join(output).rstrip() + "\n---\n\n" + body.lstrip("\n")
+
+
+def clean_frontmatter_value(value: str) -> str:
+    return str(value).replace("\n", " ").strip()
+
+
+def ensure_person_page(
+    paths: WikiPaths,
+    value: str,
+    summary: dict[str, object],
+    *,
+    dry_run: bool,
+) -> str:
+    clean = clean_person_name(value)
+    existing = find_existing_person_page(paths, clean)
+    if existing:
+        return f"[[people/{existing.stem}]]"
+    if looks_like_wikilink(value):
+        target = wikilink_target(value)
+        if target.startswith("people/"):
+            stem = target.split("/", 1)[1]
+            clean = clean or stem.replace("-", " ")
+        else:
+            stem = slug(clean or target)
+    else:
+        stem = slug(clean)
+    page_path = paths.wiki / "people" / f"{stem}.md"
+    link = f"[[people/{page_path.stem}]]"
+    if page_path.exists():
+        return link
+    summary_list(summary, "people").append(page_path.relative_to(paths.root).as_posix())
+    if dry_run:
+        return link
+    page_path.parent.mkdir(parents=True, exist_ok=True)
+    title = clean or stem.replace("-", " ").title()
+    content = TEMPLATES["person.md"]
+    replacements = {
+        "person_id:": f"person_id: {page_path.stem}",
+        "display_name:": f"display_name: {title}",
+        "# Person Name": f"# {title}",
+        "- Preferred name:": f"- Preferred name: {title}",
+        "## Open Questions\n": "## Open Questions\n\n## See Also\n\n- [[Family Tree]]\n",
+    }
+    for old, new in replacements.items():
+        content = content.replace(old, new, 1)
+    page_path.write_text(content.strip() + "\n", encoding="utf-8")
+    append_index_reference(paths.wiki / "index.md", "People", link)
+    return link
+
+
+def clean_person_name(value: str) -> str:
+    value = value.strip()
+    if looks_like_wikilink(value):
+        value = wikilink_target(value)
+    value = value.replace("people/", "").replace("_", " ")
+    value = Path(value).stem if "/" in value or "\\" in value else value
+    return value.replace("-", " ").strip()
+
+
+def find_existing_person_page(paths: WikiPaths, name: str) -> Path | None:
+    if not name:
+        return None
+    target_slug = slug(name)
+    for page in sorted((paths.wiki / "people").glob("*.md")):
+        text = read_text(page)
+        frontmatter = parse_frontmatter(text)
+        candidates = [page.stem, frontmatter.get("display_name", ""), extract_markdown_title(text)]
+        if any(candidate and slug(candidate) == target_slug for candidate in candidates):
+            return page
+    return None
+
+
+def extract_markdown_title(text: str) -> str:
+    match = re.search(r"^#\s+(.+)$", text, flags=re.MULTILINE)
+    return match.group(1).strip() if match else ""
+
+
+def ensure_source_page(
+    paths: WikiPaths,
+    source_ref: str,
+    packet_link: str,
+    summary: dict[str, object],
+    *,
+    dry_run: bool,
+) -> str:
+    clean_ref = normalize_source_reference(source_ref)
+    if looks_like_wikilink(source_ref):
+        target = wikilink_target(source_ref)
+        if target.startswith("sources/") and wiki_target_exists(paths.research, target):
+            return source_ref
+    existing = find_existing_source_page(paths, clean_ref)
+    if existing:
+        link = f"[[sources/{existing.stem}]]"
+        if packet_link and not dry_run:
+            append_markdown_section_entry(existing, "Source Identity", f"- Promoted source packet: {packet_link}")
+        return link
+    stem_source = clean_ref or packet_link or "promoted-source"
+    digest = hashlib.sha1(stem_source.encode("utf-8")).hexdigest()[:12]
+    source_stem = f"src-{digest}-{slug(Path(stem_source).stem)[:60]}"
+    page_path = paths.research / "sources" / f"{source_stem}.md"
+    link = f"[[sources/{page_path.stem}]]"
+    summary_list(summary, "sources").append(page_path.relative_to(paths.root).as_posix())
+    if dry_run:
+        return link
+    title = Path(clean_ref).stem.replace("-", " ").title() if clean_ref else page_path.stem
+    page_path.parent.mkdir(parents=True, exist_ok=True)
+    page_path.write_text(
+        "\n".join(
+            [
+                "---",
+                "type: source",
+                "status: draft",
+                "source_reliability: unknown",
+                "source_reliability_score: 0.0",
+                "source_type: promoted_staging_reference",
+                "evidence_type:",
+                "informant_proximity:",
+                "tags: [source, promoted]",
+                f"raw_file: {clean_frontmatter_value(clean_ref)}",
+                f"source_packet: {packet_link}",
+                "---",
+                "",
+                f"# {title}",
+                "",
+                "## Source Identity",
+                "",
+                f"- File: `{clean_ref}`" if clean_ref else "- File:",
+                f"- Source packet: {packet_link}" if packet_link else "- Source packet:",
+                "",
+                "## Source Reliability",
+                "",
+                "- Reliability class: unknown.",
+                "- Reliability score: 0-10.",
+                "- Evidence type: unknown.",
+                "- Informant proximity: unknown.",
+                "- Bias or limitation:",
+                "- Reliability notes:",
+                "",
+                "## Transcription Or Abstract",
+                "",
+                "See linked source packet and converted source artifacts.",
+                "",
+                "## Extracted Claims",
+                "",
+                "| Claim | People/Places | Status | Confidence | Claim Page |",
+                "| --- | --- | --- | --- | --- |",
+                "",
+                "## Image/Layout Notes",
+                "",
+                "## Citation",
+                "",
+                "Citation not finalized.",
+            ]
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    append_index_reference(paths.research / "index.md", "Sources", link)
+    return link
+
+
+def normalize_source_reference(value: str) -> str:
+    value = value.strip().strip("`").replace("\\", "/")
+    if looks_like_wikilink(value):
+        value = wikilink_target(value)
+    return value.removesuffix(".md") + (".md" if value.endswith(".md") else "")
+
+
+def find_existing_source_page(paths: WikiPaths, source_ref: str) -> Path | None:
+    if not source_ref:
+        return None
+    normalized = source_ref.replace("\\", "/")
+    for page in sorted((paths.research / "sources").glob("*.md")):
+        text = read_text(page)
+        frontmatter = parse_frontmatter(text)
+        haystack = text.replace("\\", "/")
+        if normalized in haystack:
+            return page
+        for key in ["raw_file", "converted_file", "source_file"]:
+            value = frontmatter.get(key, "").replace("\\", "/")
+            if value and (value == normalized or Path(value).name == Path(normalized).name):
+                return page
+    return None
+
+
+def append_markdown_section_entry(path: Path, heading: str, entry: str) -> bool:
+    text = read_text(path)
+    if entry in text:
+        return False
+    heading_text = f"## {heading}"
+    if heading_text not in text:
+        text = text.rstrip() + f"\n\n{heading_text}\n\n{entry}\n"
+        path.write_text(text, encoding="utf-8")
+        return True
+    heading_start = text.index(heading_text)
+    body_start = heading_start + len(heading_text)
+    next_heading = re.search(r"\n## ", text[body_start:])
+    insert_at = body_start + next_heading.start() if next_heading else len(text)
+    before = text[:insert_at].rstrip()
+    after = text[insert_at:].lstrip("\n")
+    text = f"{before}\n{entry}\n\n{after}" if after else f"{before}\n{entry}\n"
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
+def append_person_section_entry(
+    paths: WikiPaths,
+    person_link: str,
+    heading: str,
+    entry: str,
+    *,
+    dry_run: bool,
+) -> None:
+    if dry_run or not looks_like_wikilink(person_link):
+        return
+    target = wikilink_target(person_link)
+    if not target.startswith("people/"):
+        return
+    page_path = paths.wiki / f"{target}.md"
+    if page_path.exists():
+        append_markdown_section_entry(page_path, heading, entry)
+
+
+def append_source_claim_row(
+    paths: WikiPaths,
+    source_link: str,
+    claim_link: str,
+    subject_link: str,
+    frontmatter: dict[str, str],
+    *,
+    dry_run: bool,
+) -> None:
+    if dry_run or not looks_like_wikilink(source_link):
+        return
+    target = wikilink_target(source_link)
+    if not target.startswith("sources/"):
+        return
+    page_path = paths.research / f"{target}.md"
+    if not page_path.exists():
+        return
+    status = frontmatter.get("status", "")
+    confidence = frontmatter.get("confidence", "")
+    row = f"| {claim_link} | {subject_link} | {status} | {confidence} | {claim_link} |"
+    append_markdown_section_entry(page_path, "Extracted Claims", row)
+
+
+def promote_staged_relationship(
+    paths: WikiPaths,
+    staged_relationship: Path,
+    text: str,
+    frontmatter: dict[str, str],
+    promoted_claims: list[dict[str, str]],
+    packet_map: dict[str, str],
+    relationship_map: dict[str, str],
+    summary: dict[str, object],
+    *,
+    force: bool,
+    dry_run: bool,
+) -> list[str]:
+    if frontmatter.get("type") == "relationship":
+        person_a = ensure_person_page(paths, frontmatter.get("person_a", ""), summary, dry_run=dry_run)
+        person_b = ensure_person_page(paths, frontmatter.get("person_b", ""), summary, dry_run=dry_run)
+        relationship_type = frontmatter.get("relationship_type", "possible_parent")
+        canonical_path = paths.research / "relationships" / f"{slug(staged_relationship.stem)}.md"
+        relationship_link = f"[[relationships/{canonical_path.stem}]]"
+        add_staged_reference_mapping(relationship_map, paths, staged_relationship, relationship_link)
+        relationship_text = update_markdown_frontmatter(
+            text,
+            {
+                "type": "relationship",
+                "person_a": person_a,
+                "person_b": person_b,
+                "relationship_type": relationship_type,
+            },
+        )
+        return write_promoted_relationship_page(
+            paths,
+            canonical_path,
+            relationship_link,
+            relationship_text,
+            [person_a, person_b],
+            staged_relationship,
+            summary,
+            force=force,
+            dry_run=dry_run,
+        )
+
+    if frontmatter.get("type") != "relationship_candidate":
+        return []
+    relationship_type = frontmatter.get("relationship_type", "")
+    if relationship_type not in {"recorded_parent_child", "parent_child", "probable_parent", "possible_parent"}:
+        summary_list(summary, "skipped").append(
+            {
+                "path": staged_relationship.relative_to(paths.root).as_posix(),
+                "reason": f"unsupported relationship candidate type: {relationship_type}",
+            }
+        )
+        return []
+    child = frontmatter.get("child", "")
+    parents = parse_listish(frontmatter.get("parents", ""))
+    child_link = ensure_person_page(paths, child, summary, dry_run=dry_run)
+    confidence = frontmatter.get("confidence", "0.0")
+    canonical_relationship_type = "probable_parent" if float_or_zero(confidence) >= 8.0 else "possible_parent"
+    written: list[str] = []
+    for parent in parents:
+        parent_link = ensure_person_page(paths, parent, summary, dry_run=dry_run)
+        supporting_claims = matching_parentage_claims(promoted_claims, child, parent)
+        relationship_stem = slug(f"{staged_relationship.stem}-{parent}-parent")
+        canonical_path = paths.research / "relationships" / f"{relationship_stem}.md"
+        relationship_link = f"[[relationships/{canonical_path.stem}]]"
+        add_staged_reference_mapping(relationship_map, paths, staged_relationship, relationship_link)
+        relationship_text = render_promoted_parent_relationship(
+            parent_link=parent_link,
+            child_link=child_link,
+            relationship_type=canonical_relationship_type,
+            status=frontmatter.get("status", "draft"),
+            confidence=confidence,
+            supporting_claims=supporting_claims,
+            staged_path=staged_relationship.relative_to(paths.root).as_posix(),
+            source_packet=lookup_staged_reference(frontmatter.get("source_packet", ""), packet_map),
+            source_text=extract_section(text, "Literal Support"),
+            interpretation=extract_section(text, "Interpretation"),
+            uncertainty=extract_section(text, "Uncertainty"),
+        )
+        written.extend(
+            write_promoted_relationship_page(
+                paths,
+                canonical_path,
+                relationship_link,
+                relationship_text,
+                [parent_link, child_link],
+                staged_relationship,
+                summary,
+                force=force,
+                dry_run=dry_run,
+            )
+        )
+    return written
+
+
+def matching_parentage_claims(promoted_claims: list[dict[str, str]], child: str, parent: str) -> list[str]:
+    child_slug = slug(clean_person_name(child))
+    parent_slug = slug(clean_person_name(parent))
+    matches: list[str] = []
+    for claim in promoted_claims:
+        if claim.get("claim_type") != "parentage":
+            continue
+        if slug(clean_person_name(claim.get("subject_name", ""))) != child_slug:
+            continue
+        if slug(clean_person_name(claim.get("object", ""))) != parent_slug:
+            continue
+        matches.append(claim["canonical_link"])
+    return matches
+
+
+def render_promoted_parent_relationship(
+    *,
+    parent_link: str,
+    child_link: str,
+    relationship_type: str,
+    status: str,
+    confidence: str,
+    supporting_claims: list[str],
+    staged_path: str,
+    source_packet: str,
+    source_text: str,
+    interpretation: str,
+    uncertainty: str,
+) -> str:
+    claim_list = format_inline_list(supporting_claims)
+    evidence_lines = [f"- Promoted from staged relationship candidate `{staged_path}`."]
+    if source_packet:
+        evidence_lines.append(f"- Source packet: {source_packet}.")
+    if supporting_claims:
+        evidence_lines.append(f"- Supporting claims: {', '.join(supporting_claims)}.")
+    if source_text:
+        evidence_lines.append(f"- Literal support: {source_text}")
+    return "\n".join(
+        [
+            "---",
+            "type: relationship",
+            f"status: {status or 'draft'}",
+            f"relationship_type: {relationship_type}",
+            f"confidence: {confidence or '0.0'}",
+            f"person_a: {parent_link}",
+            f"person_b: {child_link}",
+            f"supporting_claims: {claim_list}",
+            "conflicting_claims: []",
+            "tags: [relationship, promoted]",
+            "---",
+            "",
+            f"# {mermaid_label(parent_link)} -> {mermaid_label(child_link)}",
+            "",
+            "## Assertion",
+            "",
+            f"{parent_link} is represented as a {relationship_type} of {child_link}.",
+            "",
+            "## Evidence For",
+            "",
+            *evidence_lines,
+            "",
+            "## Evidence Against",
+            "",
+            "No conflicting claims were identified in the promoted staged draft.",
+            "",
+            "## Reasoning",
+            "",
+            interpretation or "Promoted from reviewed staged evidence.",
+            "",
+            "## Current Status",
+            "",
+            uncertainty or "No additional uncertainty was recorded in the staged draft.",
+        ]
+    )
+
+
+def write_promoted_relationship_page(
+    paths: WikiPaths,
+    canonical_path: Path,
+    relationship_link: str,
+    relationship_text: str,
+    person_links: list[str],
+    staged_relationship: Path,
+    summary: dict[str, object],
+    *,
+    force: bool,
+    dry_run: bool,
+) -> list[str]:
+    rel_path = canonical_path.relative_to(paths.root).as_posix()
+    if dry_run:
+        return [rel_path]
+    canonical_path.parent.mkdir(parents=True, exist_ok=True)
+    if canonical_path.exists() and not force:
+        summary_list(summary, "skipped").append(
+            {
+                "path": staged_relationship.relative_to(paths.root).as_posix(),
+                "reason": f"canonical relationship exists: {rel_path}",
+            }
+        )
+        return []
+    canonical_path.write_text(relationship_text.strip() + "\n", encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Relationships", relationship_link)
+    return [rel_path]
+
+
+def write_promotion_manifest(paths: WikiPaths, summary: dict[str, object]) -> Path:
+    promotions_dir = paths.staging / "promotions"
+    promotions_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = promotions_dir / f"{date.today().isoformat()}-{datetime.now().strftime('%H%M%S')}-promote-staged.json"
+    manifest_summary = dict(summary)
+    manifest_summary["manifest"] = manifest_path.relative_to(paths.root).as_posix()
+    manifest = {
+        "generated": datetime.now().isoformat(timespec="seconds"),
+        "summary": manifest_summary,
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return manifest_path
 
 
 def create_material_packet(
@@ -1491,9 +2341,9 @@ def create_codex_conversion_job(
     force: bool = False,
 ) -> Path:
     paths = WikiPaths(root.resolve())
-    source_file = source_file.resolve()
-    if not source_file.exists():
-        raise FileNotFoundError(source_file)
+    original_source = source_file.resolve()
+    if not original_source.exists():
+        raise FileNotFoundError(original_source)
     if image_scale <= 0:
         raise ValueError("image_scale must be greater than zero")
 
@@ -1511,17 +2361,23 @@ def create_codex_conversion_job(
     for directory in (source_dir, pages_dir, work_dir, output_dir, extracted_images_dir):
         directory.mkdir(parents=True, exist_ok=True)
 
-    source_sha256 = file_sha256(source_file)
-    staged_source = source_dir / staged_source_filename(source_file, source_sha256)
-    if source_file != staged_source.resolve():
-        shutil.copy2(source_file, staged_source)
+    source_sha256 = file_sha256(original_source)
+    staged_source = source_dir / staged_source_filename(original_source, source_sha256)
+    if original_source != staged_source.resolve():
+        shutil.copy2(original_source, staged_source)
 
     media_type = detect_media_type(staged_source)
     page_specs = render_codex_job_pages(staged_source, pages_dir, media_type, page_range, image_scale)
+    manifest_source = original_source
+    try:
+        manifest_source.relative_to(paths.root)
+    except ValueError:
+        manifest_source = staged_source
     manifest = {
         "job_id": job_id,
         "title": title,
-        "source_file": relative_to_root(staged_source, paths.root),
+        "source_file": relative_to_root(manifest_source, paths.root),
+        "local_staged_source_file": relative_to_root(staged_source, paths.root),
         "source_sha256": source_sha256,
         "source_bytes": staged_source.stat().st_size,
         "media_type": media_type,
@@ -1987,6 +2843,17 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
 
     jobs_by_hash = source_prep_jobs_by_hash(paths.root)
     conversions_by_hash = source_prep_conversions_by_hash(paths.root)
+    cloud_sources_by_path: dict[str, dict[str, object]] = {}
+    try:
+        cloud_config = load_raw_cloud_config(paths.root, require_credentials=False)
+        cloud_manifest = build_raw_cloud_manifest(paths.root, cloud_config)
+        cloud_sources_by_path = {
+            str(item.get("path", "")): item
+            for item in cloud_manifest.get("files", [])
+            if isinstance(item, dict)
+        }
+    except Exception:
+        cloud_sources_by_path = {}
     sources = []
     for source in sorted((paths.raw / "sources").rglob("*")):
         if not source.is_file() or source.name == ".gitkeep":
@@ -1994,19 +2861,28 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
         digest = file_sha256(source)
         jobs = jobs_by_hash.get(digest, [])
         conversions = conversions_by_hash.get(digest, [])
-        sources.append(
-            {
-                "id": f"SRC-{digest[:12]}",
-                "title": source.stem,
-                "raw_path": relative_to_root(source, paths.root),
-                "media_type": detect_media_type(source),
-                "bytes": source.stat().st_size,
-                "sha256": digest,
-                "status": source_prep_status(jobs, conversions),
-                "conversion_jobs": jobs,
-                "converted_sources": conversions,
+        raw_path = relative_to_root(source, paths.root)
+        entry = {
+            "id": f"SRC-{digest[:12]}",
+            "title": source.stem,
+            "raw_path": raw_path,
+            "media_type": detect_media_type(source),
+            "bytes": source.stat().st_size,
+            "sha256": digest,
+            "status": source_prep_status(jobs, conversions),
+            "conversion_jobs": jobs,
+            "converted_sources": conversions,
+        }
+        cloud_entry = cloud_sources_by_path.get(raw_path)
+        if cloud_entry:
+            entry["cloud"] = {
+                "provider": "cloudflare-r2",
+                "key": cloud_entry.get("key", ""),
+                "sha256": cloud_entry.get("sha256", ""),
+                "bytes": cloud_entry.get("bytes", 0),
+                "media_type": cloud_entry.get("media_type", ""),
             }
-        )
+        sources.append(entry)
 
     manifest = {
         "created": date.today().isoformat(),
@@ -2277,6 +3153,8 @@ def detect_conversion_text_flags(page_text: str) -> list[str]:
         flags.append("no_transcription")
     if page_text.count("[illegible]") + page_text.count("[?]") >= 5:
         flags.append("many_uncertain_readings")
+    if re.search(r"\b(second review|reread|re-read|before being treated as final)\b", lower_text):
+        flags.append("explicit_reread_needed")
     if re.search(r"\b[a-zA-Z]{25,}\b", page_text):
         flags.append("possible_ocr_garbage_token")
     if "\t" in text_outside_fences or re.search(r"\S\s{8,}\S", text_outside_fences):
@@ -2340,6 +3218,77 @@ FAMILY_CONTEXT_STOPWORDS = {
 }
 
 
+SUSPICIOUS_NAME_READING_STOPWORDS = FAMILY_CONTEXT_STOPWORDS | {
+    "acta",
+    "acts",
+    "archivo",
+    "boletin",
+    "boletín",
+    "card",
+    "context",
+    "daily",
+    "diario",
+    "diarios",
+    "document",
+    "documentation",
+    "evidence",
+    "gazette",
+    "index",
+    "journal",
+    "official",
+    "oficial",
+    "photo",
+    "photograph",
+    "photographs",
+    "photos",
+    "portrait",
+    "press",
+    "prensa",
+    "reference",
+    "register",
+    "registro",
+    "revista",
+    "session",
+    "sessions",
+    "sesion",
+    "sesión",
+    "sesiones",
+    "tourist",
+    "travel",
+}
+
+
+SUSPICIOUS_NAME_CONTEXT_CUES = {
+    "apellido",
+    "apellidos",
+    "delegate",
+    "delegada",
+    "delegado",
+    "doctor",
+    "daughter",
+    "father",
+    "hija",
+    "hijo",
+    "husband",
+    "madre",
+    "mother",
+    "name",
+    "named",
+    "names",
+    "nombre",
+    "nombres",
+    "nombrada",
+    "nombrado",
+    "padre",
+    "senor",
+    "señor",
+    "senora",
+    "señora",
+    "spouse",
+    "wife",
+}
+
+
 def add_family_terms_from_text(text: str, terms: dict[str, str]) -> None:
     words = [word for word in re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", text) if word.lower() not in FAMILY_CONTEXT_STOPWORDS]
     for word in words:
@@ -2365,12 +3314,27 @@ def find_family_context_matches(page_text: str, family_terms: dict[str, str]) ->
 
 
 def find_suspicious_name_readings(page_text: str, family_terms: dict[str, str]) -> list[dict[str, str]]:
-    page_words = sorted(set(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", page_text)))
+    page_words = [
+        (match.group(0), match.group(0).lower())
+        for match in re.finditer(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", page_text)
+    ]
     suspicious: list[dict[str, str]] = []
-    term_items = [(key, label) for key, label in family_terms.items() if " " not in key and len(key) >= 5]
-    for word in page_words:
-        lower_word = word.lower()
-        if lower_word in FAMILY_CONTEXT_STOPWORDS:
+    seen_pairs: set[tuple[str, str]] = set()
+    family_name_keys = {
+        key
+        for key, label in family_terms.items()
+        if " " not in key
+        and len(key) >= 4
+        and key not in SUSPICIOUS_NAME_READING_STOPWORDS
+        and label[:1].isupper()
+    }
+    term_items = [
+        (key, label)
+        for key, label in family_terms.items()
+        if key in family_name_keys and len(key) >= 5
+    ]
+    for index, (word, lower_word) in enumerate(page_words):
+        if lower_word in SUSPICIOUS_NAME_READING_STOPWORDS:
             continue
         for key, label in term_items:
             if lower_word == key or abs(len(lower_word) - len(key)) > 2:
@@ -2381,6 +3345,12 @@ def find_suspicious_name_readings(page_text: str, family_terms: dict[str, str]) 
             if distance is not None and 0 < distance <= 2:
                 if lower_word[-1] != key[-1] and not word[0].isupper():
                     continue
+                if not has_suspicious_name_context(page_words, index, key, family_name_keys):
+                    continue
+                pair = (lower_word, key)
+                if pair in seen_pairs:
+                    continue
+                seen_pairs.add(pair)
                 suspicious.append(
                     {
                         "literal": word,
@@ -2390,6 +3360,21 @@ def find_suspicious_name_readings(page_text: str, family_terms: dict[str, str]) 
                 )
                 break
     return suspicious[:25]
+
+
+def has_suspicious_name_context(
+    page_words: list[tuple[str, str]],
+    index: int,
+    suspected_key: str,
+    family_name_keys: set[str],
+) -> bool:
+    start = max(0, index - 4)
+    end = min(len(page_words), index + 5)
+    nearby_words = [lower_word for _, lower_word in page_words[start:end]]
+    for nearby in nearby_words:
+        if nearby in family_name_keys and nearby != suspected_key:
+            return True
+    return any(nearby in SUSPICIOUS_NAME_CONTEXT_CUES for nearby in nearby_words)
 
 
 def levenshtein_distance_bounded(a: str, b: str, max_distance: int) -> int | None:
@@ -2432,13 +3417,14 @@ def conversion_recommended_action(
         "possible_ocr_garbage_token",
         "possible_table_layout_loss",
         "many_uncertain_readings",
+        "explicit_reread_needed",
     }
     if severe_flags.intersection(flags):
         return "reread-page"
     if "text_layer_only" in flags:
         return "reread-page"
     if suspicious_readings:
-        return "reread-region"
+        return "reread-page"
     if family_relevance in {"high", "critical"} and flags:
         return "reread-page"
     if structural_flags.intersection(flags):
@@ -2450,7 +3436,9 @@ def conversion_confidence(flags: list[str], suspicious_readings: list[dict[str, 
     severe_flags = {"placeholder_transcription", "image_preserved_not_transcribed", "no_transcription"}
     if severe_flags.intersection(flags):
         return "low"
-    if suspicious_readings or flags:
+    if suspicious_readings:
+        return "low"
+    if flags:
         return "medium"
     return "high"
 
@@ -3849,12 +4837,13 @@ def write_agent_queue(
 
 SOURCE_PREP_BATCHABLE_STATUSES = ("needs_reread", "todo")
 SOURCE_PREP_BATCH_STATUS_PRIORITY = {"needs_reread": 0, "todo": 1}
+SOURCE_PREP_MAX_PAGES_PER_WORKER = 1
 
 
 def write_source_prep_batches(
     root: Path,
     output_dir: Path | None = None,
-    max_pages: int = 8,
+    max_pages: int = SOURCE_PREP_MAX_PAGES_PER_WORKER,
     limit: int = 50,
     stale_minutes: int = 360,
     statuses: list[str] | None = None,
@@ -3868,16 +4857,17 @@ def write_source_prep_batches(
     released_count = release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
     task_state = load_agent_task_state(paths.root)
     source_tasks = materialize_source_prep_tasks(paths.root, task_state)
+    effective_max_pages = min(max_pages, SOURCE_PREP_MAX_PAGES_PER_WORKER)
     batches = build_source_prep_batch_agent_tasks(
         source_tasks,
-        max_pages=max_pages,
+        max_pages=effective_max_pages,
         limit=limit,
         statuses=statuses,
     )
     queue_path = write_agent_queue(paths.root, queue_dir, "source-prep-batches", batches, {})
     log_message = (
         "source-prep-batches | "
-        f"Wrote {len(batches)} batch task(s), max {max_pages} page(s) each"
+        f"Wrote {len(batches)} batch task(s), max {effective_max_pages} page(s) each"
     )
     if released_count:
         log_message += f"; released {released_count} stale task(s)"
@@ -4436,7 +5426,7 @@ def materialize_source_prep_tasks(
 
 def build_source_prep_batch_agent_tasks(
     source_tasks: list[dict[str, object]],
-    max_pages: int = 8,
+    max_pages: int = SOURCE_PREP_MAX_PAGES_PER_WORKER,
     limit: int = 50,
     statuses: list[str] | None = None,
 ) -> list[dict[str, object]]:
@@ -4444,6 +5434,7 @@ def build_source_prep_batch_agent_tasks(
         raise ValueError("max_pages must be at least 1")
     if limit < 1:
         raise ValueError("limit must be at least 1")
+    max_pages = min(max_pages, SOURCE_PREP_MAX_PAGES_PER_WORKER)
     allowed_statuses = tuple(statuses or SOURCE_PREP_BATCHABLE_STATUSES)
     unknown_statuses = set(allowed_statuses).difference(SOURCE_PREP_BATCHABLE_STATUSES)
     if unknown_statuses:
@@ -4476,6 +5467,13 @@ def build_source_prep_batch_agent_tasks(
         last_page = 0
 
     for task in available:
+        if source_prep_task_requires_single_page_batch(task):
+            flush_current()
+            if len(batches) >= limit:
+                break
+            batches.append(build_source_prep_batch_task([task]))
+            continue
+
         page_number = int(task.get("page", 0) or 0)
         key = source_prep_batch_group_key(task)
         if (
@@ -4502,6 +5500,14 @@ def build_source_prep_batch_agent_tasks(
     if len(batches) < limit:
         flush_current()
     return batches
+
+
+def source_prep_task_requires_single_page_batch(task: dict[str, object]) -> bool:
+    if task.get("suspicious_readings"):
+        return True
+    action = str(task.get("recommended_action", ""))
+    relevance = str(task.get("family_relevance", ""))
+    return relevance == "critical" and action in {"reread-page", "reread-region", "hold-for-human"}
 
 
 def source_prep_batch_group_key(task: dict[str, object]) -> tuple[object, ...]:
@@ -4565,6 +5571,7 @@ def source_prep_batch_page_record(task: dict[str, object]) -> dict[str, object]:
         "quality_flags",
         "missing_sections",
         "qc_quality_flags",
+        "family_relevance",
         "matched_terms",
         "suspicious_readings",
     ):
@@ -5039,6 +6046,281 @@ def write_source_usability_report(
     return [output_path, markdown_path]
 
 
+def read_json_payload(path: Path, default: dict[str, object] | None = None) -> dict[str, object]:
+    if not path.exists():
+        return dict(default or {})
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return dict(default or {})
+    return payload if isinstance(payload, dict) else dict(default or {})
+
+
+def queue_summary(path: Path) -> dict[str, object]:
+    payload = read_json_payload(path, {"tasks": []})
+    tasks = payload.get("tasks", [])
+    if not isinstance(tasks, list):
+        tasks = []
+    return {
+        "path": str(path),
+        "task_count": len(tasks),
+        "status_counts": payload.get("status_counts", count_task_statuses([task for task in tasks if isinstance(task, dict)])),
+    }
+
+
+def write_cloud_source_prep_heartbeat_state(root: Path, summary: dict[str, object]) -> Path:
+    paths = WikiPaths(root.resolve())
+    output_path = paths.research / "_automation" / "cloud-source-prep-heartbeat-state.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    return output_path
+
+
+def cloud_source_prep_heartbeat(
+    root: Path,
+    *,
+    restore_raw: bool = True,
+    upload_assets: bool = True,
+    pages_per_job: int = 25,
+    batch_pages: int = 1,
+    queue_limit: int = 80,
+    stale_minutes: int = 360,
+    max_chars: int = 12000,
+    fastlane_limit: int = 0,
+    fastlane_scan_limit: int = 250,
+    dry_run: bool = False,
+) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    summary: dict[str, object] = {
+        "created": utc_timestamp(),
+        "mode": "cloud-first-source-prep-heartbeat",
+        "root": str(paths.root),
+        "r2": {
+            "restore_raw": restore_raw,
+            "upload_assets": upload_assets,
+        },
+        "settings": {
+            "pages_per_job": pages_per_job,
+            "batch_pages": batch_pages,
+            "queue_limit": queue_limit,
+            "stale_minutes": stale_minutes,
+            "fastlane_limit": fastlane_limit,
+            "dry_run": dry_run,
+        },
+        "steps": [],
+        "blockers": [],
+    }
+
+    def record_step(name: str, status: str, detail: object = "") -> None:
+        step: dict[str, object] = {"name": name, "status": status}
+        if detail:
+            step["detail"] = detail
+        cast_steps = summary.setdefault("steps", [])
+        if isinstance(cast_steps, list):
+            cast_steps.append(step)
+
+    if restore_raw:
+        try:
+            config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
+            if dry_run:
+                record_step("raw-cloud restore", "skipped-dry-run")
+            else:
+                report = restore_raw_from_cloud(paths.root, config)
+                record_step("raw-cloud restore", "ran", report)
+        except Exception as exc:
+            summary["blockers"].append(f"raw-cloud restore: {exc}")
+            record_step("raw-cloud restore", "failed", str(exc))
+
+    try:
+        prepared = prepare_raw_sources(
+            paths.root,
+            pages_per_job=pages_per_job,
+            max_chars=max_chars,
+        )
+        record_step("prepare-sources", "ran", {"prepared_sources": len(prepared)})
+    except Exception as exc:
+        summary["blockers"].append(f"prepare-sources: {exc}")
+        record_step("prepare-sources", "failed", str(exc))
+
+    try:
+        qc_paths = write_post_conversion_qc(paths.root)
+        record_step("conversion-qc", "ran", {"written": [relative_to_root(path, paths.root) for path in qc_paths]})
+    except Exception as exc:
+        summary["blockers"].append(f"conversion-qc: {exc}")
+        record_step("conversion-qc", "failed", str(exc))
+
+    try:
+        queue_paths = write_agent_queues(paths.root, stale_minutes=stale_minutes)
+        record_step("agent-queues", "ran", {"written": [relative_to_root(path, paths.root) for path in queue_paths]})
+    except Exception as exc:
+        summary["blockers"].append(f"agent-queues: {exc}")
+        record_step("agent-queues", "failed", str(exc))
+
+    try:
+        batch_path = write_source_prep_batches(
+            paths.root,
+            max_pages=batch_pages,
+            limit=queue_limit,
+            stale_minutes=stale_minutes,
+        )
+        record_step("source-prep-batches", "ran", {"written": relative_to_root(batch_path, paths.root)})
+    except Exception as exc:
+        summary["blockers"].append(f"source-prep-batches: {exc}")
+        record_step("source-prep-batches", "failed", str(exc))
+
+    if fastlane_limit > 0:
+        try:
+            if dry_run:
+                record_step("source-prep-fastlane", "skipped-dry-run")
+            else:
+                fastlane = source_prep_fastlane_run(
+                    paths.root,
+                    limit=fastlane_limit,
+                    scan_limit=fastlane_scan_limit,
+                    agent="cloud-source-prep-fastlane",
+                    stale_minutes=stale_minutes,
+                )
+                record_step("source-prep-fastlane", "ran", fastlane)
+        except Exception as exc:
+            summary["blockers"].append(f"source-prep-fastlane: {exc}")
+            record_step("source-prep-fastlane", "failed", str(exc))
+
+    try:
+        source_status_paths = write_source_usability_report(paths.root)
+        record_step(
+            "source-status",
+            "ran",
+            {"written": [relative_to_root(path, paths.root) for path in source_status_paths]},
+        )
+    except Exception as exc:
+        summary["blockers"].append(f"source-status: {exc}")
+        record_step("source-status", "failed", str(exc))
+
+    if upload_assets:
+        try:
+            config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
+            asset_report = upload_derived_assets_to_cloud(paths.root, config, dry_run=dry_run)
+            record_step("raw-cloud asset-upload", "ran", asset_report)
+        except Exception as exc:
+            summary["blockers"].append(f"raw-cloud asset-upload: {exc}")
+            record_step("raw-cloud asset-upload", "failed", str(exc))
+
+    queue_dir = paths.research / "_agent-queues"
+    summary["queues"] = {
+        "source_prep": queue_summary(queue_dir / "source-prep.json"),
+        "source_prep_batches": queue_summary(queue_dir / "source-prep-batches.json"),
+        "conversion_qa": queue_summary(queue_dir / "conversion-qa.json"),
+        "evidence_extraction": queue_summary(queue_dir / "evidence-extraction.json"),
+    }
+    summary["finished"] = utc_timestamp()
+    state_path = write_cloud_source_prep_heartbeat_state(paths.root, summary)
+    summary["state_path"] = relative_to_root(state_path, paths.root)
+    append_log(paths.research / "log.md", f"cloud-source-prep-heartbeat | Wrote {summary['state_path']}")
+    return summary
+
+
+GITHUB_DATABASE_INCLUDE_PATHS = (
+    "raw/source-prep-manifest.json",
+    "raw/r2-storage.json",
+    "raw/r2-raw-sources.json",
+    "raw/r2-derived-assets.json",
+    "raw/codex-conversion-jobs",
+    "raw/converted",
+    "raw/chunks",
+    "research",
+    "wiki",
+)
+GITHUB_DATABASE_FORBIDDEN_PREFIXES = (
+    "raw/sources/",
+    "raw/assets/",
+    "research/_assets/",
+    ".genealogy/",
+    "obsidian-offline/",
+)
+GITHUB_DATABASE_FORBIDDEN_JOB_FRAGMENTS = (
+    "/source/",
+    "/page-images/",
+    "/extracted-images/",
+    "/audio-transcription/",
+    "/video-frames/",
+)
+
+
+def run_git(root: Path, args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
+    result = subprocess.run(
+        ["git", *args],
+        cwd=root,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    if check and result.returncode != 0:
+        detail = (result.stderr or result.stdout).strip()
+        raise RuntimeError(f"git {' '.join(args)} failed: {detail}")
+    return result
+
+
+def github_database_forbidden_path(path: str) -> bool:
+    normalized = path.replace("\\", "/")
+    if any(normalized.startswith(prefix) for prefix in GITHUB_DATABASE_FORBIDDEN_PREFIXES):
+        return True
+    if normalized.startswith("raw/codex-conversion-jobs/"):
+        return any(fragment in normalized for fragment in GITHUB_DATABASE_FORBIDDEN_JOB_FRAGMENTS)
+    return False
+
+
+def sync_github_database(
+    root: Path,
+    *,
+    message: str = "",
+    dry_run: bool = False,
+    no_push: bool = False,
+) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    run_git(paths.root, ["rev-parse", "--show-toplevel"])
+    cached = run_git(paths.root, ["diff", "--cached", "--quiet"], check=False)
+    if cached.returncode != 0:
+        raise RuntimeError("Refusing to sync because staged changes already exist.")
+
+    existing = [path for path in GITHUB_DATABASE_INCLUDE_PATHS if (paths.root / path).exists()]
+    summary: dict[str, object] = {
+        "dry_run": dry_run,
+        "no_push": no_push,
+        "included": existing,
+        "staged": [],
+        "committed": False,
+        "pushed": False,
+    }
+    if not existing:
+        return summary
+
+    if dry_run:
+        planned = run_git(paths.root, ["add", "--dry-run", "-A", "--", *existing])
+        summary["planned"] = [line for line in planned.stdout.splitlines() if line.strip()]
+        return summary
+
+    run_git(paths.root, ["add", "-A", "--", *existing])
+    staged = run_git(paths.root, ["diff", "--cached", "--name-only"]).stdout.splitlines()
+    summary["staged"] = staged
+    if not staged:
+        return summary
+
+    forbidden = [path for path in staged if github_database_forbidden_path(path)]
+    if forbidden:
+        run_git(paths.root, ["restore", "--staged", "--", *forbidden], check=False)
+        raise RuntimeError("Refusing to commit R2-only or local-cache paths: " + ", ".join(forbidden))
+
+    if not message.strip():
+        message = f"Sync genealogy GitHub database {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+    run_git(paths.root, ["commit", "-m", message])
+    summary["committed"] = True
+    if not no_push:
+        run_git(paths.root, ["push"])
+        summary["pushed"] = True
+    return summary
+
+
 def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
     qc_blocked_by_source = load_qc_blocked_pages(root)
@@ -5104,6 +6386,7 @@ This page has an existing output file, but it is not trusted by the current sour
 - QC recommended action: `{task.get("recommended_action", "")}`
 - QC quality flags: {", ".join(str(flag) for flag in task.get("qc_quality_flags", [])) or "none"}
 - Matched family context: {", ".join(str(term) for term in task.get("matched_terms", [])) or "none"}
+- Suspicious readings: {format_suspicious_readings(task.get("suspicious_readings", []))}
 
 Overwrite the assigned page Markdown with a fresh visual conversion. Treat the old output, OCR, and PDF text layers only as hints.
 """
@@ -5136,8 +6419,8 @@ def build_source_prep_batch_agent_prompt(batch: dict[str, object]) -> str:
     task_ids = [str(task_id) for task_id in batch.get("task_ids", [])]
     quoted_task_ids = " ".join(f'"{task_id}"' for task_id in task_ids)
     page_lines = [
-        "| Page | Task ID | Page Image | Output Markdown | Extracted Images | Flags |",
-        "| --- | --- | --- | --- | --- | --- |",
+        "| Page | Task ID | Page Image | Output Markdown | Extracted Images | Flags | Suspicious Readings |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
     ]
     for page in batch.get("pages", []):
         if not isinstance(page, dict):
@@ -5149,6 +6432,7 @@ def build_source_prep_batch_agent_prompt(batch: dict[str, object]) -> str:
             )
         )
         combined_flags = ", ".join(flags) or "none"
+        suspicious_readings = format_suspicious_readings(page.get("suspicious_readings", []))
         page_lines.append(
             "| "
             f"{page.get('page', '')} | "
@@ -5156,7 +6440,8 @@ def build_source_prep_batch_agent_prompt(batch: dict[str, object]) -> str:
             f"`{page.get('page_image', '')}` | "
             f"`{page.get('output_path', '')}` | "
             f"`{page.get('image_output_dir', '')}` | "
-            f"{combined_flags} |"
+            f"{combined_flags} | "
+            f"{suspicious_readings} |"
         )
 
     repair_section = ""
@@ -5172,18 +6457,18 @@ These pages have existing output files, but they are not trusted by the current 
 Overwrite each assigned page Markdown with a fresh visual conversion. Treat old output, OCR, and PDF text layers only as hints.
 """
 
-    return f"""# Source Conversion Batch
+    return f"""# Source Conversion Page Assignment
 
 Use `$source-prep-pipeline` and `$historical-document-conversion`.
 
-This is a throughput batch, not a quality shortcut. Every page still needs visual inspection, page-level Markdown, extracted visual crops when present, uncertainty notes, and a completeness audit.
+This assignment is one page, not a quality shortcut. Throughput comes from running more workers, not from assigning multiple pages to one worker.
 
 ## Assignment
 
 - Role: `{batch["role"]}`
 - Job manifest: `{batch["job_manifest"]}`
 - Source: `{batch["source"]}`
-- Pages: {batch["first_page"]}-{batch["last_page"]} ({batch["page_count"]} page(s))
+- Page: {batch["first_page"]} ({batch["page_count"]} page)
 - Status: `{batch["status"]}`
 {repair_section}
 
@@ -5200,21 +6485,35 @@ genealogy-wiki agent-task claim {quoted_task_ids} --root . --agent "<worker-labe
 genealogy-wiki agent-task start {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
 ```
 
-After each page output passes the source-prep contract, complete only the page tasks that were actually finished:
+After the page output passes the source-prep contract, complete the page task:
 
 ```powershell
 genealogy-wiki agent-task complete {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
 ```
 
-If a page is too dense, handwritten, table-heavy, damaged, family-critical, or otherwise likely to lose accuracy in a batch pass, shrink the batch. Finish the pages you can convert accurately and release the rest with a note.
+If the page is too dense, handwritten, table-heavy, damaged, family-critical, or otherwise likely to lose accuracy in this run, release it with a note instead of guessing.
 
 ## Done When
 
-- Each completed page image has been visually converted, not OCR-copied blindly.
-- Each completed page has its own output Markdown and extracted-image folder populated as needed.
+- The page image has been visually converted, not OCR-copied blindly.
+- The page has its own output Markdown and extracted-image folder populated as needed.
 - Meaningful photos, signatures, seals, maps, stamps, charts, illustrations, and other visual evidence are cropped and referenced inline when present.
-- Literal transcription, translation, interpretation, uncertainty, genealogy leads, and completeness audit are separate on every completed page.
+- Literal transcription, translation, interpretation, uncertainty, genealogy leads, and completeness audit are separate.
 """
+
+
+def format_suspicious_readings(readings: object) -> str:
+    if not isinstance(readings, list) or not readings:
+        return "none"
+    formatted = []
+    for reading in readings:
+        if not isinstance(reading, dict):
+            continue
+        literal = str(reading.get("literal", "")).strip()
+        suspected = str(reading.get("suspected", "")).strip()
+        if literal and suspected:
+            formatted.append(f"{literal} -> {suspected}")
+    return ", ".join(formatted) or "none"
 
 
 def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
@@ -5343,7 +6642,9 @@ def relative_path(from_dir: Path, to_path: Path) -> str:
 
 def append_index_reference(index_path: Path, section: str, wiki_link: str) -> None:
     index_path.parent.mkdir(parents=True, exist_ok=True)
-    text = read_text(index_path) or INDEX_TEMPLATE
+    text = read_text(index_path)
+    if not text:
+        text = RESEARCH_INDEX_TEMPLATE if index_path.name == "index.md" and index_path.parent.name == "research" else INDEX_TEMPLATE
     entry = f"- {wiki_link}"
     if entry in text:
         return
@@ -5364,10 +6665,22 @@ def append_index_reference(index_path: Path, section: str, wiki_link: str) -> No
     index_path.write_text(text, encoding="utf-8")
 
 
+def claim_pages(paths: WikiPaths) -> list[Path]:
+    pages = list((paths.research / "claims").glob("*.md"))
+    pages.extend((paths.wiki / "claims").glob("*.md"))
+    return sorted(pages)
+
+
+def relationship_pages(paths: WikiPaths) -> list[Path]:
+    pages = list((paths.research / "relationships").glob("*.md"))
+    pages.extend((paths.wiki / "relationships").glob("*.md"))
+    return sorted(pages)
+
+
 def build_claim_index(root: Path) -> list[ClaimRecord]:
     paths = WikiPaths(root.resolve())
     records: list[ClaimRecord] = []
-    for page in sorted((paths.wiki / "claims").glob("*.md")):
+    for page in claim_pages(paths):
         text = read_text(page)
         frontmatter = parse_frontmatter(text)
         if frontmatter.get("type") != "claim":
@@ -5401,7 +6714,7 @@ def build_relationship_index(root: Path, claims: list[ClaimRecord] | None = None
     claims = claims if claims is not None else build_claim_index(paths.root)
     claim_lookup = {f"[[claims/{Path(record.path).stem}]]": record for record in claims}
     records: list[RelationshipRecord] = []
-    for page in sorted((paths.wiki / "relationships").glob("*.md")):
+    for page in relationship_pages(paths):
         text = read_text(page)
         frontmatter = parse_frontmatter(text)
         if frontmatter.get("type") != "relationship":
@@ -5497,7 +6810,7 @@ def generate_tree(root: Path, output: Path | None = None) -> Path:
     paths = WikiPaths(root.resolve())
     output = output or (paths.wiki / "Family Tree.md")
     output.parent.mkdir(parents=True, exist_ok=True)
-    relationship_pages = list((paths.wiki / "relationships").glob("*.md"))
+    pages = relationship_pages(paths)
 
     lines = [
         "---",
@@ -5506,14 +6819,14 @@ def generate_tree(root: Path, output: Path | None = None) -> Path:
         "tags: [tree]",
         "---",
         "",
-        "# Family Tree View",
+        "# Family Tree",
         "",
         "```mermaid",
         "flowchart TD",
     ]
     warnings: list[str] = []
     link_styles: list[str] = []
-    for page in relationship_pages:
+    for page in pages:
         frontmatter = parse_frontmatter(read_text(page))
         person_a = frontmatter.get("person_a")
         person_b = frontmatter.get("person_b")
@@ -5523,9 +6836,12 @@ def generate_tree(root: Path, output: Path | None = None) -> Path:
         if not person_a or not person_b:
             warnings.append(f"- Missing endpoint in {page.relative_to(paths.root).as_posix()}")
             continue
+        person_a_label = public_person_label(paths, person_a)
+        person_b_label = public_person_label(paths, person_b)
+        edge_label = family_tree_edge_label(relationship_type)
         lines.append(
-            f"  {node_id(person_a)}[{mermaid_label(person_a)}] -->|{relationship_type} {status} {confidence}| "
-            f"{node_id(person_b)}[{mermaid_label(person_b)}]"
+            f"  {node_id(person_a)}[\"{mermaid_node_label(person_a_label)}\"] -->|{edge_label}| "
+            f"{node_id(person_b)}[\"{mermaid_node_label(person_b_label)}\"]"
         )
         link_styles.append(edge_style(status, confidence))
 
@@ -5536,7 +6852,7 @@ def generate_tree(root: Path, output: Path | None = None) -> Path:
     lines.extend(["```", ""])
     if warnings:
         lines.extend(["## Duplicate Or Relationship Warnings", *warnings, ""])
-    lines.append("Generated from `wiki/relationships/`, not from a separate database.")
+    lines.append("This view shows the family connections currently represented in the wiki.")
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return output
 
@@ -5637,7 +6953,7 @@ def lint_claim_cross_references(root: Path, claims: list[ClaimRecord]) -> list[s
             target = wikilink_target(value)
             if required_prefix and not target.startswith(required_prefix):
                 issues.append(f"claim {claim.path} {field} should link to {required_prefix}: {value}")
-            target_root = paths.research if target.startswith(("sources/", "source-packets/")) else paths.wiki
+            target_root = paths.research if target.startswith(("sources/", "source-packets/", "claims/", "relationships/")) else paths.wiki
             if not wiki_target_exists(target_root, target):
                 issues.append(f"claim {claim.path} {field} target missing: {value}")
         for linked_claim in claim.supports + claim.conflicts_with:
@@ -5734,10 +7050,10 @@ def lint_identity_page(rel: str, text: str) -> list[str]:
     return issues
 
 
-def lint_chronology(wiki: Path) -> list[str]:
+def lint_chronology(paths: WikiPaths) -> list[str]:
     issues: list[str] = []
-    people = load_people(wiki / "people")
-    for page in (wiki / "relationships").glob("*.md"):
+    people = load_people(paths.wiki / "people")
+    for page in relationship_pages(paths):
         frontmatter = parse_frontmatter(read_text(page))
         relationship_type = frontmatter.get("relationship_type", "")
         if relationship_type not in {"parent_child", "proven_parent", "probable_parent"}:
@@ -5750,12 +7066,12 @@ def lint_chronology(wiki: Path) -> list[str]:
         child_birth = int_or_none(child.get("birth_year", ""))
         if parent_birth is None or child_birth is None:
             continue
-        rel = page.relative_to(wiki).as_posix()
+        rel = page.relative_to(paths.research if paths.research in page.parents else paths.wiki).as_posix()
         if parent_birth > child_birth:
             issues.append(f"chronology impossible, parent born after child: {rel}")
         if child_birth - parent_birth < 12:
             issues.append(f"chronology suspicious, parent younger than 12 at child birth: {rel}")
-    issues.extend(lint_event_chronology(wiki, people))
+    issues.extend(lint_event_chronology(paths.wiki, people))
     return issues
 
 
@@ -5872,6 +7188,58 @@ def node_id(value: str) -> str:
 
 def mermaid_label(value: str) -> str:
     value = value.replace("[[", "").replace("]]", "").split("/")[-1]
+    return title_from_slug(value).replace('"', "'")
+
+
+def title_from_slug(value: str) -> str:
+    value = value.replace("_", " ").replace("-", " ").strip()
+    if not value:
+        return ""
+    lower_particles = {"a", "da", "de", "del", "dos", "das", "la", "las", "los", "y", "of", "the"}
+    words = []
+    for index, word in enumerate(value.split()):
+        if index > 0 and word.lower() in lower_particles:
+            words.append(word.lower())
+        elif len(word) == 1:
+            words.append(word.upper())
+        else:
+            words.append(word[:1].upper() + word[1:])
+    return " ".join(words)
+
+
+def public_person_label(paths: WikiPaths, value: str) -> str:
+    if looks_like_wikilink(value):
+        target = wikilink_target(value)
+        if target.startswith("people/"):
+            page = paths.wiki / f"{target}.md"
+            if page.exists():
+                text = read_text(page)
+                frontmatter = parse_frontmatter(text)
+                return (
+                    frontmatter.get("display_name")
+                    or extract_markdown_title(text)
+                    or title_from_slug(Path(target).stem)
+                ).replace('"', "'")
+    return mermaid_label(value)
+
+
+def family_tree_edge_label(relationship_type: str) -> str:
+    return {
+        "parent_child": "parent of",
+        "proven_parent": "parent of",
+        "probable_parent": "probable parent of",
+        "possible_parent": "possible parent of",
+        "spouse": "spouse of",
+        "child": "child of",
+        "sibling": "sibling of",
+        "possible_sibling": "possible sibling of",
+        "household_member": "household member",
+        "same_person_candidate": "same person?",
+        "name_variant": "name variant",
+    }.get(relationship_type, "connected to")
+
+
+def mermaid_node_label(value: str) -> str:
     return value.replace('"', "'")
 
 
@@ -5934,7 +7302,13 @@ def calculate_relationship_confidence(
 def format_inline_list(values: list[str]) -> str:
     if not values:
         return "[]"
-    return "[" + ", ".join(values) + "]"
+    formatted = []
+    for value in values:
+        if any(char in value for char in "[],:{}#") or "," in value:
+            formatted.append('"' + value.replace('"', '\\"') + '"')
+        else:
+            formatted.append(value)
+    return "[" + ", ".join(formatted) + "]"
 
 
 def write_file(path: Path, content: str, force: bool, created: list[Path]) -> None:
@@ -6021,6 +7395,42 @@ def build_parser() -> argparse.ArgumentParser:
     prep_index_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     prep_index_parser.add_argument("--out", type=Path, help="Output JSON path. Default: raw/source-prep-manifest.json.")
 
+    raw_cloud_parser = subparsers.add_parser(
+        "raw-cloud",
+        help="Inventory, upload, verify, or restore raw source originals and binary derivatives using Cloudflare R2.",
+    )
+    raw_cloud_parser.add_argument(
+        "action",
+        choices=["inventory", "upload", "verify", "restore", "asset-inventory", "asset-upload", "cleanup-manifests"],
+    )
+    raw_cloud_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    raw_cloud_parser.add_argument("--env-file", type=Path, help="R2 env file. Default: .env.r2 when present.")
+    raw_cloud_parser.add_argument(
+        "--config",
+        type=Path,
+        help="Non-secret R2 config JSON. Default: raw/r2-storage.json.",
+    )
+    raw_cloud_parser.add_argument("--account-id", help="Cloudflare account id. Default comes from R2_ACCOUNT_ID or config.")
+    raw_cloud_parser.add_argument("--endpoint-url", help="R2 S3 endpoint URL. Default uses account id.")
+    raw_cloud_parser.add_argument("--bucket", help="R2 bucket name. Default comes from R2_BUCKET or config.")
+    raw_cloud_parser.add_argument("--prefix", help="Optional object key prefix. Default comes from R2_PREFIX or config.")
+    raw_cloud_parser.add_argument(
+        "--raw-dir",
+        type=Path,
+        default=Path("raw") / "sources",
+        help="Raw source directory to sync. Default: raw/sources.",
+    )
+    raw_cloud_parser.add_argument(
+        "--state-dir",
+        type=Path,
+        help="Local state/report directory. Default: .genealogy/raw-cloud.",
+    )
+    raw_cloud_parser.add_argument("--limit", type=int, help="Limit files for a test run.")
+    raw_cloud_parser.add_argument("--out", type=Path, help="Inventory output path for the inventory action.")
+    raw_cloud_parser.add_argument("--manifest", type=Path, help="Local manifest path to use for restore.")
+    raw_cloud_parser.add_argument("--dry-run", action="store_true", help="For upload, write a plan without network writes.")
+    raw_cloud_parser.add_argument("--force", action="store_true", help="Re-upload or overwrite restored files.")
+
     prepare_sources_parser = subparsers.add_parser(
         "prepare-sources",
         help="Queue Codex-agent conversion jobs for raw/sources and chunk completed conversions.",
@@ -6072,8 +7482,8 @@ def build_parser() -> argparse.ArgumentParser:
     source_prep_batches_parser.add_argument(
         "--max-pages",
         type=int,
-        default=8,
-        help="Maximum contiguous pages per batch prompt. Default: 8.",
+        default=SOURCE_PREP_MAX_PAGES_PER_WORKER,
+        help="Maximum contiguous pages per batch prompt; source-prep policy caps this at 1. Default: 1.",
     )
     source_prep_batches_parser.add_argument(
         "--limit",
@@ -6093,6 +7503,31 @@ def build_parser() -> argparse.ArgumentParser:
         choices=list(SOURCE_PREP_BATCHABLE_STATUSES),
         help="Task status to include in batches. May be repeated. Default: needs_reread and todo.",
     )
+
+    cloud_source_prep_parser = subparsers.add_parser(
+        "cloud-source-prep-heartbeat",
+        help="Cloud-first source-prep heartbeat: restore raw R2 cache, refresh GitHub queues, and upload binary derivatives.",
+    )
+    cloud_source_prep_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    cloud_source_prep_parser.add_argument("--pages-per-job", type=int, default=25, help="Maximum PDF pages per conversion job.")
+    cloud_source_prep_parser.add_argument("--batch-pages", type=int, default=1, help="Pages per source-prep batch. Capped at one.")
+    cloud_source_prep_parser.add_argument("--queue-limit", type=int, default=80, help="Maximum source-prep batches to materialize.")
+    cloud_source_prep_parser.add_argument("--stale-minutes", type=int, default=360, help="Release stale claimed tasks after this many minutes.")
+    cloud_source_prep_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
+    cloud_source_prep_parser.add_argument("--fastlane-limit", type=int, default=0, help="Optional deterministic born-digital PDF page limit.")
+    cloud_source_prep_parser.add_argument("--fastlane-scan-limit", type=int, default=250, help="Optional deterministic fastlane scan limit.")
+    cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
+    cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload page images/crops/assets to R2.")
+    cloud_source_prep_parser.add_argument("--dry-run", action="store_true", help="Skip R2 writes and raw restore; still refresh local queue outputs.")
+
+    sync_github_parser = subparsers.add_parser(
+        "sync-github-database",
+        help="Commit and optionally push GitHub-backed genealogy JSON/Markdown/code state without R2-only binaries.",
+    )
+    sync_github_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    sync_github_parser.add_argument("--message", default="", help="Commit message. Default includes a timestamp.")
+    sync_github_parser.add_argument("--dry-run", action="store_true", help="Show what would be added without staging or committing.")
+    sync_github_parser.add_argument("--no-push", action="store_true", help="Create a local commit but do not push.")
 
     source_prep_fastlane_parser = subparsers.add_parser(
         "source-prep-fastlane",
@@ -6189,6 +7624,24 @@ def build_parser() -> argparse.ArgumentParser:
         "--force",
         action="store_true",
         help="Overwrite existing editable transcription notes. Default preserves manual edits.",
+    )
+
+    promote_staged_parser = subparsers.add_parser(
+        "promote-staged",
+        help="Promote reviewed staging drafts into canonical source packets, claims, relationships, indexes, and tree.",
+    )
+    promote_staged_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    promote_staged_parser.add_argument("--force", action="store_true", help="Overwrite existing promoted pages.")
+    promote_staged_parser.add_argument("--dry-run", action="store_true", help="Report what would be promoted without writing.")
+    promote_staged_parser.add_argument(
+        "--include-revise",
+        action="store_true",
+        help="Also promote staged drafts whose recommendation is revise.",
+    )
+    promote_staged_parser.add_argument(
+        "--include-hold",
+        action="store_true",
+        help="Also promote staged drafts whose recommendation is hold or reject. Use only for manual recovery.",
     )
 
     claim_parser = subparsers.add_parser("claim", help="Create an atomic genealogy claim page.")
@@ -6311,6 +7764,108 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Wrote source preparation manifest {output_path}")
         return 0
 
+    if args.command == "raw-cloud":
+        needs_credentials = (
+            args.action in {"verify", "restore", "cleanup-manifests"}
+            or (args.action in {"upload", "asset-upload"} and not args.dry_run)
+        )
+        config = load_raw_cloud_config(
+            root=args.root,
+            env_file=args.env_file,
+            config_file=args.config,
+            endpoint_url=args.endpoint_url,
+            account_id=args.account_id,
+            bucket=args.bucket,
+            prefix=args.prefix,
+            raw_dir=args.raw_dir,
+            state_dir=args.state_dir,
+            require_credentials=needs_credentials,
+        )
+        if args.action == "inventory":
+            output_path = write_raw_cloud_inventory(args.root, config, limit=args.limit, out=args.out)
+            manifest = json.loads(output_path.read_text(encoding="utf-8"))
+            total_bytes = sum(item["bytes"] for item in manifest["files"])
+            print(f"Wrote raw cloud inventory {output_path}")
+            print(f"files={len(manifest['files'])} bytes={total_bytes}")
+            return 0
+        if args.action == "asset-inventory":
+            output_path = write_derived_asset_inventory(args.root, config, limit=args.limit, out=args.out)
+            manifest = json.loads(output_path.read_text(encoding="utf-8"))
+            total_bytes = sum(item["bytes"] for item in manifest["files"])
+            print(f"Wrote derived asset cloud inventory {output_path}")
+            print(f"files={len(manifest['files'])} bytes={total_bytes}")
+            return 0
+        if args.action == "upload":
+            summary = upload_raw_to_cloud(
+                args.root,
+                config,
+                dry_run=args.dry_run,
+                force=args.force,
+                limit=args.limit,
+            )
+            print(
+                "raw-cloud upload | "
+                f"files={summary['total_files']} bytes={summary['total_bytes']} "
+                f"uploaded={summary['uploaded']} skipped={summary['skipped']} "
+                f"planned={summary['planned']} dry_run={summary['dry_run']} "
+                f"errors={len(summary['errors'])}"
+            )
+            return 1 if summary["errors"] else 0
+        if args.action == "asset-upload":
+            summary = upload_derived_assets_to_cloud(
+                args.root,
+                config,
+                dry_run=args.dry_run,
+                force=args.force,
+                limit=args.limit,
+                out=args.out,
+            )
+            print(
+                "raw-cloud asset-upload | "
+                f"files={summary['total_files']} bytes={summary['total_bytes']} "
+                f"uploaded={summary['uploaded']} skipped={summary['skipped']} "
+                f"planned={summary['planned']} dry_run={summary['dry_run']} "
+                f"errors={len(summary['errors'])}"
+            )
+            return 1 if summary["errors"] else 0
+        if args.action == "cleanup-manifests":
+            report = cleanup_remote_json_manifests(config)
+            print(
+                "raw-cloud cleanup-manifests | "
+                f"deleted={len(report['deleted'])} missing={len(report['missing'])} "
+                f"remaining={len(report['remaining'])} errors={len(report['errors'])}"
+            )
+            for key in report["deleted"]:
+                print(f"deleted: {key}")
+            for key in report["missing"]:
+                print(f"missing: {key}")
+            for key in report["remaining"]:
+                print(f"remaining: {key}")
+            for item in report["errors"]:
+                print(f"error: {item['key']} {item['error']}")
+            return 1 if report["errors"] or report["remaining"] else 0
+        if args.action == "verify":
+            report = verify_raw_cloud(args.root, config, limit=args.limit)
+            print(
+                "raw-cloud verify | "
+                f"files={report['total_files']} verified={report['verified']} issues={len(report['issues'])}"
+            )
+            return 1 if report["issues"] else 0
+        if args.action == "restore":
+            report = restore_raw_from_cloud(
+                args.root,
+                config,
+                manifest_path=args.manifest,
+                force=args.force,
+                limit=args.limit,
+            )
+            print(
+                "raw-cloud restore | "
+                f"files={report['total_files']} restored={report['restored']} "
+                f"skipped={report['skipped']} errors={len(report['errors'])}"
+            )
+            return 1 if report["errors"] else 0
+
     if args.command == "prepare-sources":
         results = prepare_raw_sources(
             root=args.root,
@@ -6347,6 +7902,35 @@ def main(argv: list[str] | None = None) -> int:
             statuses=args.status,
         )
         print(f"Wrote source-prep batch queue {output_path}")
+        return 0
+
+    if args.command == "cloud-source-prep-heartbeat":
+        summary = cloud_source_prep_heartbeat(
+            root=args.root,
+            restore_raw=not args.no_restore,
+            upload_assets=not args.no_asset_upload,
+            pages_per_job=args.pages_per_job,
+            batch_pages=args.batch_pages,
+            queue_limit=args.queue_limit,
+            stale_minutes=args.stale_minutes,
+            max_chars=args.max_chars,
+            fastlane_limit=args.fastlane_limit,
+            fastlane_scan_limit=args.fastlane_scan_limit,
+            dry_run=args.dry_run,
+        )
+        print("cloud-source-prep-heartbeat | summary")
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return 1 if summary.get("blockers") else 0
+
+    if args.command == "sync-github-database":
+        summary = sync_github_database(
+            args.root,
+            message=args.message,
+            dry_run=args.dry_run,
+            no_push=args.no_push,
+        )
+        print("sync-github-database | summary")
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
         return 0
 
     if args.command == "source-prep-fastlane":
@@ -6430,6 +8014,35 @@ def main(argv: list[str] | None = None) -> int:
             print(f"Synced {len(written)} vault transcription index/page notes")
         else:
             print(f"Synced {len(written)} vault transcription index/page notes; existing page notes were preserved")
+        return 0
+
+    if args.command == "promote-staged":
+        summary = promote_staged_drafts(
+            args.root,
+            force=args.force,
+            dry_run=args.dry_run,
+            include_revise=args.include_revise,
+            include_hold=args.include_hold,
+        )
+        print(
+            "promote-staged | "
+            f"source_packets={len(summary_list(summary, 'source_packets'))} "
+            f"claims={len(summary_list(summary, 'claims'))} "
+            f"relationships={len(summary_list(summary, 'relationships'))} "
+            f"people={len(summary_list(summary, 'people'))} "
+            f"sources={len(summary_list(summary, 'sources'))} "
+            f"dry_run={summary['dry_run']}"
+        )
+        manifest = summary.get("manifest")
+        if manifest:
+            print(f"manifest: {manifest}")
+        skipped = summary_list(summary, "skipped")
+        if skipped:
+            print("skipped:")
+            for item in skipped[:25]:
+                print(f"- {item}")
+            if len(skipped) > 25:
+                print(f"- ... {len(skipped) - 25} more")
         return 0
 
     if args.command == "claim":

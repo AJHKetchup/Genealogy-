@@ -356,7 +356,7 @@ def test_agent_task_state_updates_multiple_tasks_in_one_write(tmp_path) -> None:
     assert payload["tasks"]["source-prep:job:p0002"]["note"] == "batch claim"
 
 
-def test_source_prep_batches_group_contiguous_available_pages(tmp_path) -> None:
+def test_source_prep_batches_emit_one_page_per_worker(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
     source = tmp_path / "raw" / "sources" / "archive.pdf"
@@ -376,11 +376,13 @@ def test_source_prep_batches_group_contiguous_available_pages(tmp_path) -> None:
     batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
     batches = batch_queue["tasks"]
 
-    assert [batch["page_count"] for batch in batches] == [2, 2]
+    assert [batch["page_count"] for batch in batches] == [1, 1, 1, 1]
     assert batches[0]["first_page"] == 1
-    assert batches[0]["last_page"] == 2
-    assert batches[1]["first_page"] == 4
-    assert batches[1]["last_page"] == 5
+    assert batches[0]["last_page"] == 1
+    assert batches[1]["first_page"] == 2
+    assert batches[1]["last_page"] == 2
+    assert batches[2]["first_page"] == 4
+    assert batches[2]["last_page"] == 4
     assert page_three_task not in batches[0]["task_ids"]
     prompt_text = (tmp_path / batches[0]["prompt_path"]).read_text(encoding="utf-8")
     assert "not a quality shortcut" in prompt_text

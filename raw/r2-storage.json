@@ -1,0 +1,9 @@
+{
+  "provider": "cloudflare-r2",
+  "account_id": "e49bd1edd9fe4f9384b9cae226f7bf8a",
+  "endpoint_url": "https://e49bd1edd9fe4f9384b9cae226f7bf8a.r2.cloudflarestorage.com",
+  "bucket": "genealogy",
+  "prefix": "",
+  "raw_dir": "raw/sources",
+  "state_dir": ".genealogy/raw-cloud"
+}

@@ -23,6 +23,10 @@ try {
 
     $includePaths = @(
         "raw/source-prep-manifest.json",
+        "raw/r2-storage.json",
+        "raw/r2-raw-sources.json",
+        "raw/r2-derived-assets.json",
+        "raw/codex-conversion-jobs",
         "raw/converted",
         "raw/chunks",
         "research",
@@ -56,11 +60,17 @@ try {
 
     $forbiddenPrefixes = @(
         "raw/sources/",
-        "raw/codex-conversion-jobs/",
         "raw/assets/",
-        "research/_agent-queues/",
+        "research/_assets/",
         ".genealogy/",
         "obsidian-offline/"
+    )
+    $forbiddenFragments = @(
+        "/source/",
+        "/page-images/",
+        "/extracted-images/",
+        "/audio-transcription/",
+        "/video-frames/"
     )
     $forbidden = @(
         $staged | Where-Object {
@@ -68,6 +78,13 @@ try {
             foreach ($prefix in $forbiddenPrefixes) {
                 if ($path.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) {
                     return $true
+                }
+            }
+            if ($path.StartsWith("raw/codex-conversion-jobs/", [StringComparison]::OrdinalIgnoreCase)) {
+                foreach ($fragment in $forbiddenFragments) {
+                    if ($path.IndexOf($fragment, [StringComparison]::OrdinalIgnoreCase) -ge 0) {
+                        return $true
+                    }
                 }
             }
             return $false
