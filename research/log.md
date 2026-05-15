@@ -7,3 +7,11 @@
 ## [2026-05-15] prepare-sources | Prepared 1 raw source(s)
 ## [2026-05-15] source-prep-batches | Wrote 1 batch task(s), max 1 page(s) each
 ## [2026-05-15] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-15] prepare-sources | Prepared 1 raw source(s)
+## [2026-05-15] source-prep-batches | Wrote 1 batch task(s), max 1 page(s) each
+## [2026-05-15] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-15] source-prep-batches | Wrote 1 batch task(s), max 1 page(s) each
+## [2026-05-15] gemini-source-prep | processed 0, completed 0, released 0, routes={}, dry_run=False
+## [2026-05-15] prepare-sources | Prepared 1 raw source(s)
+## [2026-05-15] source-prep-batches | Wrote 1 batch task(s), max 1 page(s) each
+## [2026-05-15] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
