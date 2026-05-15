@@ -7574,11 +7574,19 @@ def sync_github_database(
         return summary
 
     if dry_run:
-        planned = run_git(paths.root, ["add", "--dry-run", "-A", "--", *existing])
+        add_args = ["add", "--dry-run", "-A"]
+        if source_conversion_only:
+            add_args.append("-f")
+        add_args.extend(["--", *existing])
+        planned = run_git(paths.root, add_args)
         summary["planned"] = [line for line in planned.stdout.splitlines() if line.strip()]
         return summary
 
-    run_git(paths.root, ["add", "-A", "--", *existing])
+    add_args = ["add", "-A"]
+    if source_conversion_only:
+        add_args.append("-f")
+    add_args.extend(["--", *existing])
+    run_git(paths.root, add_args)
     staged = run_git(paths.root, ["diff", "--cached", "--name-only"]).stdout.splitlines()
     summary["staged"] = staged
     if not staged:
@@ -7587,7 +7595,13 @@ def sync_github_database(
     forbidden = [path for path in staged if github_database_forbidden_path(path)]
     if forbidden:
         run_git(paths.root, ["restore", "--staged", "--", *forbidden], check=False)
-        raise RuntimeError("Refusing to commit R2-only or local-cache paths: " + ", ".join(forbidden))
+        if not source_conversion_only:
+            raise RuntimeError("Refusing to commit R2-only or local-cache paths: " + ", ".join(forbidden))
+        summary["unstaged_forbidden"] = forbidden
+        staged = run_git(paths.root, ["diff", "--cached", "--name-only"]).stdout.splitlines()
+        summary["staged"] = staged
+        if not staged:
+            return summary
 
     if not message.strip():
         message = f"Sync genealogy GitHub database {datetime.now().strftime('%Y-%m-%d %H:%M')}"

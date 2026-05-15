@@ -1711,6 +1711,7 @@ def test_sync_github_database_source_conversion_only_limits_scope(tmp_path, monk
     assert "research/claims/unrelated.md" not in summary["included"]
     assert "wiki/index.md" not in summary["included"]
     dry_run_add = next(args for args in calls if args[:3] == ["add", "--dry-run", "-A"])
+    assert "-f" in dry_run_add
     assert "raw/converted" in dry_run_add
     assert "research/_agent-queues/task-state.json" in dry_run_add
     assert "research" not in dry_run_add
