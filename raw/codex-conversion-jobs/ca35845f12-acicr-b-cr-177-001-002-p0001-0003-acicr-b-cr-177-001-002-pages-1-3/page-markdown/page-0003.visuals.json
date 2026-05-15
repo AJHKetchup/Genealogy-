@@ -1,0 +1,105 @@
+{
+  "created": "2026-05-15T23:26:09Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+  "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+  "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+  "page": 3,
+  "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "handwriting-001",
+      "kind": "handwriting",
+      "caption_literal": "original + copie",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten note in the left margin, level with entries 47 and 48.",
+      "confidence": "high",
+      "inline_anchor": "vr-anchor-handwriting-001",
+      "bbox_pct": [
+        2.9,
+        45.3,
+        19.9,
+        48.5
+      ],
+      "bbox_pixels": [
+        31,
+        759,
+        241,
+        821
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-01-page-0003-handwriting-001.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-01-page-0003-handwriting-001.png",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md"
+    },
+    {
+      "region_id": "handwriting-002",
+      "kind": "handwriting",
+      "caption_literal": "ms",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten note in the left margin, level with entry 55.",
+      "confidence": "high",
+      "inline_anchor": "vr-anchor-handwriting-002",
+      "bbox_pct": [
+        10.5,
+        62.4,
+        14.9,
+        64.5
+      ],
+      "bbox_pixels": [
+        121,
+        1047,
+        182,
+        1091
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-02-page-0003-handwriting-002.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-02-page-0003-handwriting-002.png",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md"
+    },
+    {
+      "region_id": "handwriting-003",
+      "kind": "handwriting",
+      "caption_literal": "✓",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten checkmark to the left of the text for entry 43.",
+      "confidence": "high",
+      "inline_anchor": "vr-anchor-handwriting-003",
+      "bbox_pct": [
+        25.3,
+        35.8,
+        27.3,
+        37.5
+      ],
+      "bbox_pixels": [
+        298,
+        599,
+        330,
+        636
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-03-page-0003-handwriting-003.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-03-page-0003-handwriting-003.png",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md"
+    }
+  ],
+  "flags": []
+}

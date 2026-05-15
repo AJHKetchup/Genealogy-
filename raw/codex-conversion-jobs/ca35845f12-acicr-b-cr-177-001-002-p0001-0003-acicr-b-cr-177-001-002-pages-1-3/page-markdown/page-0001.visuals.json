@@ -1,0 +1,105 @@
+{
+  "created": "2026-05-15T23:23:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+  "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+  "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "handwritten_marginalia",
+      "caption_literal": "1 ann",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten annotation in the left margin, next to entry 4.",
+      "confidence": "high",
+      "inline_anchor": "[[vr-01]]",
+      "bbox_pct": [
+        5.5,
+        33.5,
+        10.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        62,
+        560,
+        129,
+        602
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-01-vr-01-handwritten-marginalia-1-ann.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-01-vr-01-handwritten-marginalia-1-ann.png",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md"
+    },
+    {
+      "region_id": "vr-02",
+      "kind": "handwritten_marginalia",
+      "caption_literal": "ms.+transcr.",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten annotation in the left margin, next to entry 5.",
+      "confidence": "high",
+      "inline_anchor": "[[vr-02]]",
+      "bbox_pct": [
+        5.5,
+        39.5,
+        14.5,
+        41.5
+      ],
+      "bbox_pixels": [
+        62,
+        662,
+        177,
+        703
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-02-vr-02-handwritten-marginalia-ms-transcr.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-02-vr-02-handwritten-marginalia-ms-transcr.png",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md"
+    },
+    {
+      "region_id": "vr-03",
+      "kind": "handwritten_marginalia",
+      "caption_literal": "1 enveloppe",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten annotation in the left margin, next to entry 16.",
+      "confidence": "high",
+      "inline_anchor": "[[vr-03]]",
+      "bbox_pct": [
+        5.5,
+        80.5,
+        15.5,
+        82.5
+      ],
+      "bbox_pixels": [
+        62,
+        1352,
+        189,
+        1394
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-03-vr-03-handwritten-marginalia-1-enveloppe.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-03-vr-03-handwritten-marginalia-1-enveloppe.png",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md"
+    }
+  ],
+  "flags": []
+}

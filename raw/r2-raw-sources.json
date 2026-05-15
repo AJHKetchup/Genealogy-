@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "created": "2026-05-15T23:22:38.552727+00:00",
+  "purpose": "Cloud object inventory for immutable raw genealogy source originals.",
+  "storage": {
+    "provider": "cloudflare-r2",
+    "account_id": "e49bd1edd9fe4f9384b9cae226f7bf8a",
+    "endpoint_url": "https://e49bd1edd9fe4f9384b9cae226f7bf8a.r2.cloudflarestorage.com",
+    "bucket": "genealogy",
+    "prefix": ""
+  },
+  "manifest_path": "raw/r2-raw-sources.json",
+  "raw_source_root": "raw/sources",
+  "source": "remote-r2-list",
+  "files": [
+    {
+      "path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "key": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "bytes": 808297,
+      "sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "key": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "bytes": 55819867,
+      "sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png",
+      "key": "raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png",
+      "bytes": 1903381,
+      "sha256": "db3e1a4b10817e6fda3e3ece8f55d0717d2806c802660cb9d3e4366affff6d1a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "key": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "bytes": 125615,
+      "sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "key": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "bytes": 904575504,
+      "sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Dario Arturo Pulgar (Interview 11-24-2024).m4a",
+      "key": "raw/sources/Dario Arturo Pulgar (Interview 11-24-2024).m4a",
+      "bytes": 30952755,
+      "sha256": "50f9e5701e9e76f652296e2315f2435272f9f8b5c77e97a4f9930586154ab565",
+      "media_type": "audio/mp4"
+    },
+    {
+      "path": "raw/sources/Decreto Exento N°5472.docx",
+      "key": "raw/sources/Decreto Exento N°5472.docx",
+      "bytes": 36980,
+      "sha256": "262fad212b16ccb4f3ea64c66b33e3f938000fbc67383960765fe67c5557b868",
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "path": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "key": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "bytes": 9929682,
+      "sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Ficha de turista, issued by the Brazilian Consulate on January 27, 1964.png",
+      "key": "raw/sources/Ficha de turista, issued by the Brazilian Consulate on January 27, 1964.png",
+      "bytes": 2947791,
+      "sha256": "8dc32ecbbc69ef8e55988365da762c2926f32265d15e12e8cb702a5cc806cdd2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Geneva Convention of July 27, 1929, Amelioration of the Condition of the Wounded and Sick of Armies in the Field.pdf",
+      "key": "raw/sources/Geneva Convention of July 27, 1929, Amelioration of the Condition of the Wounded and Sick of Armies in the Field.pdf",
+      "bytes": 752242,
+      "sha256": "550063aa70aae7676f59ecf504cebd2c09aaddd8a283b8a089baded15c6c065b",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
+      "key": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
+      "bytes": 9567649,
+      "sha256": "72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
+      "key": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
+      "bytes": 287214,
+      "sha256": "fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+      "key": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+      "bytes": 7997729,
+      "sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Introduction_Estates_General_of_Third_Ci.pdf",
+      "key": "raw/sources/Introduction_Estates_General_of_Third_Ci.pdf",
+      "bytes": 1012334,
+      "sha256": "27b2c98ae912a4eff87677549db827df0aca336960154f1a8572e38c1fb881c5",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.JPG",
+      "key": "raw/sources/La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.JPG",
+      "bytes": 2149340,
+      "sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
+      "key": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
+      "bytes": 1831639,
+      "sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
+      "key": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
+      "bytes": 1999311,
+      "sha256": "508bacd2448ae3a4a97e35dedaf975a65f4fe2e9155140203d52c7b051315da1",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "key": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "bytes": 1002991,
+      "sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png",
+      "key": "raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png",
+      "bytes": 3582176,
+      "sha256": "ccebfd8b8589a86a954826dec91d3ba8f755749eb297cd686fc9d6af65885d30",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928..png",
+      "key": "raw/sources/Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928..png",
+      "bytes": 8153554,
+      "sha256": "dfbbb3a344f111dd42d0974b6dce8f322118920f3254e0e0f809c9795804ab42",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png",
+      "key": "raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png",
+      "bytes": 3065233,
+      "sha256": "5a5078ab4b0d50fdd2cdefb4aa21ffaf6524824329254788ab4437bff500c6d3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg",
+      "bytes": 809852,
+      "sha256": "99541c195e4ec48320e5cafecc00e816585a4333aa495339cc5a5ad89197a8f5",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Conventions (Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left).jpg",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Conventions (Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left).jpg",
+      "bytes": 850347,
+      "sha256": "5d12f5af8db04e28e194d84b587ba4282eb5d6c72fe0846cd497a6e6083dc42d",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01820-01 (1).JPG",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01820-01 (1).JPG",
+      "bytes": 1862504,
+      "sha256": "58706dfdaf40c9173a0a86b26502d5f7c39d0f1f6c5de3b3f984872d8a7a1c2b",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01820-01.JPG",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01820-01.JPG",
+      "bytes": 1862504,
+      "sha256": "58706dfdaf40c9173a0a86b26502d5f7c39d0f1f6c5de3b3f984872d8a7a1c2b",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01821-16.JPG",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01821-16.JPG",
+      "bytes": 1807655,
+      "sha256": "b714f822dfa731e9cdbc94ac01381d1bc4f879c9de3ab1220942581c761cca4e",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-07A.JPG",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-07A.JPG",
+      "bytes": 2251615,
+      "sha256": "327c170fda815e9226dbef176e889611718d4ba89c088377a4092588778a6b9a",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-11A.JPG",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-11A.JPG",
+      "bytes": 1698983,
+      "sha256": "66eac2e7cb42ab0eba18a8df6d4eaeab37aef2b1d0e042a08a47f99c601ac6d6",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-12A.JPG",
+      "key": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-12A.JPG",
+      "bytes": 1870623,
+      "sha256": "351a8df2dc252be287699529cd73529f2065622f828459248cb8475f4fdb1637",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png",
+      "key": "raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png",
+      "bytes": 2249576,
+      "sha256": "9b2be8361b57a2def4a2eea42414cb0d69ff53b7deb65b3197316f6ac50bdd30",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg",
+      "key": "raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg",
+      "bytes": 110489,
+      "sha256": "ce81b8a6e2dc5bcab3b085c5cf0b759d00d9790c8d2d186a1606cd778fa27529",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Portrait Victor Manuel Pulgar-Arriagada.jpg",
+      "key": "raw/sources/Portrait Victor Manuel Pulgar-Arriagada.jpg",
+      "bytes": 28492,
+      "sha256": "07afd3f674f8b96aae7e05ff748de7ef31b8532b8a89d4e2927bd1714da40278",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/sources/Pústula maligna su tratamiento por inyecciones intravenosas de yodo.pdf",
+      "key": "raw/sources/Pústula maligna su tratamiento por inyecciones intravenosas de yodo.pdf",
+      "bytes": 71763,
+      "sha256": "ab4a1d7988b2c6b429851aa9286b31b690d2cb210ae1dc7b8d8e507fb64f4a42",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R3016-11A-2905-950.pdf",
+      "key": "raw/sources/R3016-11A-2905-950.pdf",
+      "bytes": 815091766,
+      "sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R3577-50-5569-5569-Jacket1.pdf",
+      "key": "raw/sources/R3577-50-5569-5569-Jacket1.pdf",
+      "bytes": 217285673,
+      "sha256": "db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "key": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "bytes": 551919630,
+      "sha256": "24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "key": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "bytes": 396022277,
+      "sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "key": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "bytes": 556385905,
+      "sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R3578-50-7801-5569.pdf",
+      "key": "raw/sources/R3578-50-7801-5569.pdf",
+      "bytes": 22580218,
+      "sha256": "6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R4302-9F-13323-11332.pdf",
+      "key": "raw/sources/R4302-9F-13323-11332.pdf",
+      "bytes": 52046050,
+      "sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R4749-11C-17499-5398.pdf",
+      "key": "raw/sources/R4749-11C-17499-5398.pdf",
+      "bytes": 375395765,
+      "sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/R4946-12-33387-8070.pdf",
+      "key": "raw/sources/R4946-12-33387-8070.pdf",
+      "bytes": 301172614,
+      "sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png",
+      "key": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png",
+      "bytes": 3334483,
+      "sha256": "aa0e304338ce3e1bf5ae9a1c695a405c862eb81fba66361d1874b7ca9da981b2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
+      "key": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
+      "bytes": 5233576,
+      "sha256": "05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/sources/Resolución 283, Ministerio de Vivienda y Urbanismo; Servicio de Vivienda y Urbanización; V Región de Valparaíso, January 15, 2001.pdf",
+      "key": "raw/sources/Resolución 283, Ministerio de Vivienda y Urbanismo; Servicio de Vivienda y Urbanización; V Región de Valparaíso, January 15, 2001.pdf",
+      "bytes": 25412,
+      "sha256": "d653020f98e975d872bd1999e7b645630647b07afbe1b2567c6c82818056fb39",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/S179-34-6.pdf",
+      "key": "raw/sources/S179-34-6.pdf",
+      "bytes": 216855408,
+      "sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/S495-2-2.pdf",
+      "key": "raw/sources/S495-2-2.pdf",
+      "bytes": 1286986218,
+      "sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/S519bis-26-4.pdf",
+      "key": "raw/sources/S519bis-26-4.pdf",
+      "bytes": 789191917,
+      "sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/sources/S522bis-29-3.pdf",
+      "key": "raw/sources/S522bis-29-3.pdf",
+      "bytes": 1577286732,
+      "sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "media_type": "application/pdf"
+    }
+  ]
+}
