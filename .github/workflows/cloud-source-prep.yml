@@ -6,9 +6,15 @@ on:
       limit:
         description: "Maximum pages to convert this run"
         required: false
-        default: "500"
-  schedule:
-    - cron: "*/15 * * * *"
+        default: "3"
+      raw_limit:
+        description: "Maximum raw R2 objects to restore during test prep"
+        required: false
+        default: "1"
+      pages:
+        description: "Page range for newly-created PDF jobs"
+        required: false
+        default: "1-3"
 
 concurrency:
   group: cloud-source-prep
@@ -20,7 +26,7 @@ permissions:
 jobs:
   source-prep:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 60
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -69,9 +75,11 @@ jobs:
           python -m historic_doc_ingest.genealogy_wiki cloud-source-prep-heartbeat
           --root .
           --conversion-only
+          --restore-limit "${{ github.event.inputs.raw_limit || '1' }}"
+          --pages "${{ github.event.inputs.pages || '1-3' }}"
           --pages-per-job 25
           --batch-pages 1
-          --queue-limit 1000
+          --queue-limit 20
           --stale-minutes 360
 
       - name: Convert missing pages with Gemini
@@ -79,8 +87,8 @@ jobs:
         run: >
           python -m historic_doc_ingest.genealogy_wiki gemini-source-prep
           --root .
-          --limit "${{ github.event.inputs.limit || '500' }}"
-          --queue-limit 1000
+          --limit "${{ github.event.inputs.limit || '3' }}"
+          --queue-limit 20
           --stale-minutes 360
           --lite-model gemini-2.5-flash-lite
           --pro-model gemini-2.5-pro
@@ -94,9 +102,11 @@ jobs:
           python -m historic_doc_ingest.genealogy_wiki cloud-source-prep-heartbeat
           --root .
           --conversion-only
+          --restore-limit "${{ github.event.inputs.raw_limit || '1' }}"
+          --pages "${{ github.event.inputs.pages || '1-3' }}"
           --pages-per-job 25
           --batch-pages 1
-          --queue-limit 1000
+          --queue-limit 20
           --stale-minutes 360
 
       - name: Publish conversion outputs

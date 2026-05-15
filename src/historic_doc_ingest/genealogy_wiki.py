@@ -7320,6 +7320,8 @@ def cloud_source_prep_heartbeat(
     upload_assets: bool = True,
     conversion_qc: bool = False,
     conversion_only: bool = False,
+    page_range: str | None = None,
+    restore_limit: int | None = None,
     pages_per_job: int = 25,
     batch_pages: int = 1,
     queue_limit: int = 80,
@@ -7341,6 +7343,8 @@ def cloud_source_prep_heartbeat(
         "settings": {
             "conversion_qc": conversion_qc,
             "conversion_only": conversion_only,
+            "page_range": page_range or "",
+            "restore_limit": restore_limit or 0,
             "pages_per_job": pages_per_job,
             "batch_pages": batch_pages,
             "queue_limit": queue_limit,
@@ -7366,7 +7370,7 @@ def cloud_source_prep_heartbeat(
             if dry_run:
                 record_step("raw-cloud restore", "skipped-dry-run")
             else:
-                report = restore_raw_from_cloud(paths.root, config)
+                report = restore_raw_from_cloud(paths.root, config, limit=restore_limit)
                 record_step("raw-cloud restore", "ran", report)
         except Exception as exc:
             summary["blockers"].append(f"raw-cloud restore: {exc}")
@@ -7375,6 +7379,7 @@ def cloud_source_prep_heartbeat(
     try:
         prepared = prepare_raw_sources(
             paths.root,
+            page_range=page_range,
             pages_per_job=pages_per_job,
             max_chars=max_chars,
         )
@@ -8792,6 +8797,8 @@ def build_parser() -> argparse.ArgumentParser:
         help="Cloud-first source-prep heartbeat: restore raw R2 cache, refresh GitHub queues, and upload binary derivatives.",
     )
     cloud_source_prep_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    cloud_source_prep_parser.add_argument("--pages", help="Optional page range for newly-created jobs, such as 1,3-5.")
+    cloud_source_prep_parser.add_argument("--restore-limit", type=int, help="Maximum raw R2 objects to restore for this run.")
     cloud_source_prep_parser.add_argument("--pages-per-job", type=int, default=25, help="Maximum PDF pages per conversion job.")
     cloud_source_prep_parser.add_argument("--batch-pages", type=int, default=1, help="Pages per source-prep batch. Capped at one.")
     cloud_source_prep_parser.add_argument("--queue-limit", type=int, default=80, help="Maximum source-prep batches to materialize.")
@@ -9305,6 +9312,8 @@ def main(argv: list[str] | None = None) -> int:
             upload_assets=not args.no_asset_upload,
             conversion_qc=args.conversion_qc,
             conversion_only=args.conversion_only,
+            page_range=args.pages,
+            restore_limit=args.restore_limit,
             pages_per_job=args.pages_per_job,
             batch_pages=args.batch_pages,
             queue_limit=args.queue_limit,
