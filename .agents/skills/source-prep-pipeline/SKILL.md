@@ -59,6 +59,14 @@ genealogy-wiki source-prep-batches --root . --max-pages 1 --limit 80
 
 This writes `research/_agent-queues/source-prep-batches.json` and prompt packets. Each source-prep worker gets one page. Run more workers for throughput instead of assigning multiple pages to one worker. Every page still requires visual conversion, full page Markdown, extracted visual crops when present, uncertainty notes, and a completeness audit.
 
+For Gemini-backed conversion, use the queue router instead of assigning pages to the general Codex chat:
+
+```powershell
+genealogy-wiki gemini-source-prep --root . --limit 25 --queue-limit 160
+```
+
+The router uses `gemini-2.5-flash-lite` for simple/basic pages, `gemini-2.5-pro` for complex pages, and `gemini-2.5-pro` plus zoom-crop inputs for pages marked high/critical family relevance or suspicious readings. It requires `GEMINI_API_KEY` or `GOOGLE_API_KEY` in the runtime environment; do not store API keys in repository files or automation prompts.
+
 Record task ownership through the CLI, not by hand-editing queue JSON:
 
 ```powershell

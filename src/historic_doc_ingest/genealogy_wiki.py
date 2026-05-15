@@ -1,12 +1,17 @@
 from __future__ import annotations
 
 import argparse
+import base64
+from contextlib import contextmanager
 import hashlib
 import json
 import os
 import re
 import shutil
 import subprocess
+import time
+import urllib.error
+import urllib.request
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -4504,6 +4509,51 @@ def agent_task_state_path(root: Path) -> Path:
     return root.resolve() / "research" / "_agent-queues" / "task-state.json"
 
 
+@contextmanager
+def agent_task_state_lock(root: Path, timeout_seconds: float = 60.0):
+    path = agent_task_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    lock_path = path.with_suffix(path.suffix + ".lock")
+    deadline = time.monotonic() + timeout_seconds
+
+    with lock_path.open("a+b") as lock_file:
+        lock_file.seek(0)
+        if not lock_file.read(1):
+            lock_file.write(b"0")
+            lock_file.flush()
+        lock_file.seek(0)
+
+        locked = False
+        while not locked:
+            try:
+                if os.name == "nt":
+                    import msvcrt
+
+                    msvcrt.locking(lock_file.fileno(), msvcrt.LK_NBLCK, 1)
+                else:
+                    import fcntl
+
+                    fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                locked = True
+            except OSError as exc:
+                if time.monotonic() >= deadline:
+                    raise TimeoutError(f"timed out waiting for task-state lock: {lock_path}") from exc
+                time.sleep(0.1)
+
+        try:
+            yield
+        finally:
+            lock_file.seek(0)
+            if os.name == "nt":
+                import msvcrt
+
+                msvcrt.locking(lock_file.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                import fcntl
+
+                fcntl.flock(lock_file.fileno(), fcntl.LOCK_UN)
+
+
 def read_agent_task_state_payload(root: Path) -> dict[str, object]:
     path = agent_task_state_path(root)
     if not path.exists():
@@ -4552,32 +4602,33 @@ def update_agent_task_states(
 ) -> Path:
     if status not in AGENT_TASK_STATE_STATUSES:
         raise ValueError(f"unsupported task status: {status}")
-    task_state = load_agent_task_state(root)
-    now = utc_timestamp()
-    for task_id in task_ids:
-        current = dict(task_state.get(task_id, {}))
-        current["status"] = status
-        current["updated_at"] = now
-        if agent:
-            current["agent"] = agent
-        if note:
-            current["note"] = note
-        if status in {"claimed", "in_progress"} and "claimed_at" not in current:
-            current["claimed_at"] = now
-        if status == "in_progress" and "started_at" not in current:
-            current["started_at"] = now
-        if status == "done":
-            current["completed_at"] = now
-        if status == "failed":
-            current["failed_at"] = now
-        if status == "released":
-            released_by = agent or str(current.get("agent", "")).strip()
-            if released_by:
-                current["released_by"] = released_by
-            current.pop("agent", None)
-            current["released_at"] = now
-        task_state[task_id] = current
-    return save_agent_task_state(root, task_state)
+    with agent_task_state_lock(root):
+        task_state = load_agent_task_state(root)
+        now = utc_timestamp()
+        for task_id in task_ids:
+            current = dict(task_state.get(task_id, {}))
+            current["status"] = status
+            current["updated_at"] = now
+            if agent:
+                current["agent"] = agent
+            if note:
+                current["note"] = note
+            if status in {"claimed", "in_progress"} and "claimed_at" not in current:
+                current["claimed_at"] = now
+            if status == "in_progress" and "started_at" not in current:
+                current["started_at"] = now
+            if status == "done":
+                current["completed_at"] = now
+            if status == "failed":
+                current["failed_at"] = now
+            if status == "released":
+                released_by = agent or str(current.get("agent", "")).strip()
+                if released_by:
+                    current["released_by"] = released_by
+                current.pop("agent", None)
+                current["released_at"] = now
+            task_state[task_id] = current
+        return save_agent_task_state(root, task_state)
 
 
 def update_agent_task_state(root: Path, task_id: str, status: str, agent: str = "", note: str = "") -> Path:
@@ -4587,41 +4638,42 @@ def update_agent_task_state(root: Path, task_id: str, status: str, agent: str = 
 def release_stale_agent_tasks(root: Path, stale_minutes: int = 360) -> int:
     if stale_minutes <= 0:
         return 0
-    task_state = load_agent_task_state(root)
-    if not task_state:
-        return 0
+    with agent_task_state_lock(root):
+        task_state = load_agent_task_state(root)
+        if not task_state:
+            return 0
 
-    now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(minutes=stale_minutes)
-    now_text = now.isoformat(timespec="seconds").replace("+00:00", "Z")
-    released_count = 0
-    for task_id, current in list(task_state.items()):
-        status = str(current.get("status", "")).strip()
-        if status not in {"claimed", "in_progress"}:
-            continue
-        last_update = (
-            parse_utc_timestamp(current.get("updated_at"))
-            or parse_utc_timestamp(current.get("started_at"))
-            or parse_utc_timestamp(current.get("claimed_at"))
-        )
-        if last_update is None or last_update > cutoff:
-            continue
-        updated = dict(current)
-        updated["status"] = "released"
-        released_by = str(updated.get("agent", "")).strip()
-        if released_by:
-            updated["released_by"] = released_by
-        updated.pop("agent", None)
-        updated["released_at"] = now_text
-        updated["updated_at"] = now_text
-        updated["stale_after_minutes"] = stale_minutes
-        updated["note"] = f"Released after no heartbeat/update for at least {stale_minutes} minutes."
-        task_state[task_id] = updated
-        released_count += 1
+        now = datetime.now(timezone.utc)
+        cutoff = now - timedelta(minutes=stale_minutes)
+        now_text = now.isoformat(timespec="seconds").replace("+00:00", "Z")
+        released_count = 0
+        for task_id, current in list(task_state.items()):
+            status = str(current.get("status", "")).strip()
+            if status not in {"claimed", "in_progress"}:
+                continue
+            last_update = (
+                parse_utc_timestamp(current.get("updated_at"))
+                or parse_utc_timestamp(current.get("started_at"))
+                or parse_utc_timestamp(current.get("claimed_at"))
+            )
+            if last_update is None or last_update > cutoff:
+                continue
+            updated = dict(current)
+            updated["status"] = "released"
+            released_by = str(updated.get("agent", "")).strip()
+            if released_by:
+                updated["released_by"] = released_by
+            updated.pop("agent", None)
+            updated["released_at"] = now_text
+            updated["updated_at"] = now_text
+            updated["stale_after_minutes"] = stale_minutes
+            updated["note"] = f"Released after no heartbeat/update for at least {stale_minutes} minutes."
+            task_state[task_id] = updated
+            released_count += 1
 
-    if released_count:
-        save_agent_task_state(root, task_state)
-    return released_count
+        if released_count:
+            save_agent_task_state(root, task_state)
+        return released_count
 
 
 def apply_agent_task_state(task: dict[str, object], state: dict[str, object]) -> None:
@@ -4707,6 +4759,13 @@ def review_source_prep_page_output(output_path: Path) -> dict[str, object]:
     flags = list(dict.fromkeys(flags))
     status = "needs_reread" if SOURCE_PREP_REPAIR_FLAGS.intersection(flags) else "done"
     return {"status": status, "quality_flags": flags, "missing_sections": missing_sections}
+
+
+def review_source_prep_page_output_for_cli(root: Path, output_path: Path) -> dict[str, object]:
+    path = output_path if output_path.is_absolute() else root.resolve() / output_path
+    review = review_source_prep_page_output(path)
+    review["path"] = relative_to_root(path, root.resolve())
+    return review
 
 
 def source_prep_page_cache_path(root: Path) -> Path:
@@ -5409,6 +5468,589 @@ def source_prep_fastlane_run(
         "converted_tasks": converted_tasks,
         "failed_tasks": failed_tasks,
     }
+
+
+GEMINI_SOURCE_PREP_LITE_MODEL = "gemini-2.5-flash-lite"
+GEMINI_SOURCE_PREP_PRO_MODEL = "gemini-2.5-pro"
+GEMINI_SOURCE_PREP_BATCHABLE_STATUSES = {"needs_reread", "todo"}
+GEMINI_SOURCE_PREP_RELEVANT_VALUES = {"high", "critical"}
+GEMINI_SOURCE_PREP_COMPLEX_FLAG_TOKENS = (
+    "handwrit",
+    "table",
+    "layout_loss",
+    "illegible",
+    "uncertain",
+    "ocr_garbage",
+    "mojibake",
+    "encoding",
+    "image_only",
+    "image_preserved",
+    "scan",
+    "stamp",
+    "seal",
+    "signature",
+    "marginal",
+    "column",
+)
+GEMINI_SOURCE_PREP_COMPLEX_TEXT_TOKENS = (
+    "passenger list",
+    "passenger and crew",
+    "registro de nacimientos",
+    "civil register",
+    "birth register",
+    "manifest",
+    "census",
+    "schedule",
+    "index card",
+    "ficha",
+)
+GEMINI_SOURCE_PREP_IMAGE_SIZE_COMPLEX_BYTES = 4 * 1024 * 1024
+
+
+def first_source_prep_batch_page(batch: dict[str, object]) -> dict[str, object]:
+    pages = batch.get("pages", [])
+    if isinstance(pages, list) and pages and isinstance(pages[0], dict):
+        return pages[0]
+    return {}
+
+
+def source_prep_gemini_task_id(batch: dict[str, object]) -> str:
+    task_ids = batch.get("task_ids", [])
+    if isinstance(task_ids, list) and task_ids:
+        return str(task_ids[0])
+    return str(batch.get("task_id", ""))
+
+
+def source_prep_gemini_combined_values(batch: dict[str, object], keys: tuple[str, ...]) -> list[str]:
+    page = first_source_prep_batch_page(batch)
+    values: list[str] = []
+    for source in (batch, page):
+        for key in keys:
+            value = source.get(key)
+            if isinstance(value, list):
+                values.extend(str(item) for item in value if str(item).strip())
+            elif value:
+                values.append(str(value))
+    return list(dict.fromkeys(values))
+
+
+def source_prep_gemini_pdf_profile(root: Path, batch: dict[str, object]) -> dict[str, object]:
+    source_path = root.resolve() / str(batch.get("source", ""))
+    if source_path.suffix.lower() != ".pdf" or not source_path.exists():
+        return {}
+    try:
+        import fitz
+    except ImportError:
+        return {}
+
+    page_number = int(batch.get("first_page", 0) or 0)
+    if page_number < 1:
+        return {}
+    try:
+        with fitz.open(source_path) as doc:
+            if page_number > len(doc):
+                return {}
+            return profile_source_prep_fastlane_pdf_page(doc[page_number - 1])
+    except Exception:
+        return {}
+
+
+def classify_gemini_source_prep_batch(
+    root: Path,
+    batch: dict[str, object],
+    *,
+    lite_model: str = GEMINI_SOURCE_PREP_LITE_MODEL,
+    pro_model: str = GEMINI_SOURCE_PREP_PRO_MODEL,
+) -> dict[str, object]:
+    page = first_source_prep_batch_page(batch)
+    reasons: list[str] = []
+    flags = [flag.lower() for flag in source_prep_gemini_combined_values(batch, ("quality_flags", "qc_quality_flags"))]
+    suspicious = source_prep_gemini_combined_values(batch, ("suspicious_readings",))
+    matched_terms = source_prep_gemini_combined_values(batch, ("matched_terms",))
+    relevance = str(page.get("family_relevance") or batch.get("family_relevance") or "").strip().lower()
+    recommended_action = str(batch.get("recommended_action", "")).strip().lower()
+    title_source_text = " ".join(
+        [
+            str(batch.get("title", "")),
+            str(batch.get("source", "")),
+            str(page.get("page_image", "")),
+            recommended_action,
+        ]
+    ).lower()
+
+    relevant = False
+    if relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES:
+        relevant = True
+        reasons.append(f"family_relevance:{relevance}")
+    if suspicious:
+        relevant = True
+        reasons.append("suspicious_readings")
+    if matched_terms and relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES.union({"medium"}):
+        relevant = True
+        reasons.append("matched_family_terms")
+
+    complex_page = False
+    if any(token in flag for flag in flags for token in GEMINI_SOURCE_PREP_COMPLEX_FLAG_TOKENS):
+        complex_page = True
+        reasons.append("complex_quality_flags")
+    if any(token in title_source_text for token in GEMINI_SOURCE_PREP_COMPLEX_TEXT_TOKENS):
+        complex_page = True
+        reasons.append("complex_source_type")
+    page_image = root.resolve() / str(page.get("page_image", ""))
+    try:
+        if page_image.exists() and page_image.stat().st_size >= GEMINI_SOURCE_PREP_IMAGE_SIZE_COMPLEX_BYTES:
+            complex_page = True
+            reasons.append("large_page_image")
+    except OSError:
+        pass
+
+    pdf_profile = source_prep_gemini_pdf_profile(root, batch)
+    profile_flags = [str(flag).lower() for flag in pdf_profile.get("flags", []) or []]
+    if profile_flags:
+        if any(flag in profile_flags for flag in ("table_like_layout", "full_page_image_scan", "possible_ocr_garbage")):
+            complex_page = True
+            reasons.append("pdf_profile_complex")
+    elif pdf_profile.get("eligible"):
+        reasons.append("pdf_native_text_safe")
+
+    if relevant:
+        return {
+            "tier": "pro_with_crops",
+            "model": pro_model,
+            "use_crops": True,
+            "relevant": True,
+            "complex": complex_page,
+            "reasons": list(dict.fromkeys(reasons)) or ["family_relevance"],
+        }
+    if complex_page:
+        return {
+            "tier": "pro",
+            "model": pro_model,
+            "use_crops": False,
+            "relevant": False,
+            "complex": True,
+            "reasons": list(dict.fromkeys(reasons)) or ["complex_page"],
+        }
+    return {
+        "tier": "lite",
+        "model": lite_model,
+        "use_crops": False,
+        "relevant": False,
+        "complex": False,
+        "reasons": list(dict.fromkeys(reasons)) or ["simple_page"],
+    }
+
+
+def source_prep_gemini_mime_type(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix in {".jpg", ".jpeg"}:
+        return "image/jpeg"
+    if suffix == ".png":
+        return "image/png"
+    if suffix == ".webp":
+        return "image/webp"
+    return "application/octet-stream"
+
+
+def create_gemini_source_prep_crops(
+    root: Path,
+    batch: dict[str, object],
+    *,
+    max_crops: int = 4,
+) -> list[Path]:
+    if max_crops <= 0:
+        return []
+    try:
+        from PIL import Image
+    except ImportError:
+        return []
+
+    page = first_source_prep_batch_page(batch)
+    page_number = int(page.get("page") or batch.get("first_page") or 0)
+    page_image = root.resolve() / str(page.get("page_image", ""))
+    if not page_image.exists():
+        return []
+    image_output_dir = root.resolve() / str(page.get("image_output_dir", ""))
+    if not str(image_output_dir).strip():
+        return []
+    crop_dir = image_output_dir / "_gemini-input-crops" / f"page-{page_number:04d}"
+    crop_dir.mkdir(parents=True, exist_ok=True)
+
+    with Image.open(page_image) as image:
+        width, height = image.size
+        if width < 100 or height < 100:
+            return []
+        if width > height * 1.25:
+            boxes = [
+                ("left", (0, 0, int(width * 0.52), height)),
+                ("center", (int(width * 0.24), 0, int(width * 0.76), height)),
+                ("right", (int(width * 0.48), 0, width, height)),
+                ("middle", (0, int(height * 0.20), width, int(height * 0.80))),
+            ]
+        else:
+            boxes = [
+                ("top", (0, 0, width, int(height * 0.38))),
+                ("middle", (0, int(height * 0.31), width, int(height * 0.69))),
+                ("bottom", (0, int(height * 0.62), width, height)),
+                ("center", (int(width * 0.15), int(height * 0.20), int(width * 0.85), int(height * 0.80))),
+            ]
+
+        written: list[Path] = []
+        for index, (name, box) in enumerate(boxes[:max_crops], start=1):
+            target = crop_dir / f"page-{page_number:04d}-gemini-crop-{index:02d}-{name}.png"
+            image.crop(box).save(target)
+            written.append(target)
+        return written
+
+
+def build_gemini_source_prep_prompt(batch: dict[str, object], route: dict[str, object], crop_paths: list[Path]) -> str:
+    page = first_source_prep_batch_page(batch)
+    flags = source_prep_gemini_combined_values(batch, ("quality_flags", "qc_quality_flags"))
+    matched_terms = source_prep_gemini_combined_values(batch, ("matched_terms",))
+    suspicious_items: list[object] = []
+    for source in (batch, page):
+        value = source.get("suspicious_readings")
+        if isinstance(value, list):
+            suspicious_items.extend(value)
+    suspicious = format_suspicious_readings(suspicious_items)
+    crop_note = (
+        "The first attached image is the full page. Additional attached images are zoom crops of the same page; "
+        "use them only to verify difficult or family-relevant details while preserving full-page reading order."
+        if crop_paths
+        else "The attached image is the full page."
+    )
+    return f"""Convert this genealogy source page into high-accuracy source-prep Markdown.
+
+{crop_note}
+
+## Assignment
+
+- Task id: `{source_prep_gemini_task_id(batch)}`
+- Model route: `{route.get("tier", "")}`
+- Route reasons: {", ".join(str(reason) for reason in route.get("reasons", []) or [])}
+- Source: `{batch.get("source", "")}`
+- Job manifest: `{batch.get("job_manifest", "")}`
+- Work order: `{page.get("work_order", "")}`
+- Page: {page.get("page") or batch.get("first_page")}
+- Output Markdown target: `{page.get("output_path", "")}`
+- Family relevance: `{page.get("family_relevance", "")}`
+- Recommended action: `{batch.get("recommended_action", "")}`
+- Quality flags: {", ".join(str(flag) for flag in flags) or "none"}
+- Matched family terms: {", ".join(str(term) for term in matched_terms) or "none"}
+- Suspicious readings: {suspicious}
+
+## Required Output
+
+Write Markdown using these exact top-level sections:
+
+## Page Metadata
+## Layout And Reading Order
+## Literal Transcription
+## Images, Captions, And Visual Notes
+## Translation
+## Interpretation
+## Uncertain Or Illegible
+## Extracted Genealogy Leads
+## Completeness Audit
+
+Accuracy rules:
+
+- Transcribe from the visible page image, not from old OCR or prior Markdown.
+- Preserve tables, forms, columns, captions, stamps, signatures, marginalia, and handwritten insertions in reading order.
+- Preserve original spelling, punctuation, capitalization, line breaks, and source language as much as possible.
+- Use `[?]` for uncertain readings and `[illegible]` only when no plausible reading is possible.
+- If the page is too dense to complete without truncation, convert the most relevant visible page region first and clearly state what remains unresolved in the completeness audit.
+- Do not invent missing text, dates, names, or relationships.
+- Keep translation, interpretation, genealogy leads, and uncertainty separate from the literal transcription.
+- Do not make genealogy conclusions. Preserve evidence for downstream claim extraction and proof review.
+"""
+
+
+def strip_markdown_code_fence(text: str) -> str:
+    stripped = text.strip()
+    if not stripped.startswith("```"):
+        return stripped
+    lines = stripped.splitlines()
+    if len(lines) >= 2 and lines[-1].strip().startswith("```"):
+        return "\n".join(lines[1:-1]).strip()
+    return stripped
+
+
+def call_gemini_generate_content(
+    *,
+    api_key: str,
+    model: str,
+    prompt: str,
+    media_paths: list[Path],
+    max_output_tokens: int,
+    timeout_seconds: int = 360,
+) -> dict[str, object]:
+    parts: list[dict[str, object]] = [{"text": prompt}]
+    for media_path in media_paths:
+        parts.append(
+            {
+                "inline_data": {
+                    "mime_type": source_prep_gemini_mime_type(media_path),
+                    "data": base64.b64encode(media_path.read_bytes()).decode("ascii"),
+                }
+            }
+        )
+    payload = {
+        "contents": [{"role": "user", "parts": parts}],
+        "generationConfig": {
+            "temperature": 0,
+            "maxOutputTokens": max_output_tokens,
+        },
+    }
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
+            response_payload = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Gemini HTTP {exc.code}: {detail[:800]}") from exc
+
+    candidate = (response_payload.get("candidates") or [{}])[0]
+    content = candidate.get("content", {}) if isinstance(candidate, dict) else {}
+    text = ""
+    if isinstance(content, dict):
+        for part in content.get("parts", []) or []:
+            if isinstance(part, dict) and part.get("text"):
+                text += str(part["text"])
+    return {
+        "text": strip_markdown_code_fence(text),
+        "finish_reason": str(candidate.get("finishReason", "")) if isinstance(candidate, dict) else "",
+        "usage": response_payload.get("usageMetadata", {}),
+    }
+
+
+def source_prep_gemini_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_automation" / "gemini-source-prep-state.json"
+
+
+def write_source_prep_gemini_state(root: Path, summary: dict[str, object]) -> Path:
+    path = source_prep_gemini_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def source_prep_gemini_run(
+    root: Path,
+    *,
+    limit: int = 25,
+    queue_limit: int = 160,
+    stale_minutes: int = 360,
+    api_key: str = "",
+    lite_model: str = GEMINI_SOURCE_PREP_LITE_MODEL,
+    pro_model: str = GEMINI_SOURCE_PREP_PRO_MODEL,
+    max_output_tokens_lite: int = 6000,
+    max_output_tokens_pro: int = 16000,
+    crop_relevance: bool = True,
+    crop_count: int = 4,
+    agent: str = "gemini-source-prep",
+    dry_run: bool = False,
+    refresh_queue: bool = True,
+) -> dict[str, object]:
+    if limit < 1:
+        raise ValueError("limit must be at least 1")
+    paths = WikiPaths(root.resolve())
+    if not api_key and not dry_run:
+        api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
+    if not api_key and not dry_run:
+        raise RuntimeError("GEMINI_API_KEY or GOOGLE_API_KEY is required for gemini-source-prep.")
+
+    if refresh_queue:
+        write_source_prep_batches(
+            paths.root,
+            max_pages=1,
+            limit=queue_limit,
+            stale_minutes=stale_minutes,
+        )
+
+    queue_path = paths.research / "_agent-queues" / "source-prep-batches.json"
+    queue_payload = read_json_payload(queue_path, {"tasks": []})
+    queue_tasks = queue_payload.get("tasks", [])
+    if not isinstance(queue_tasks, list):
+        queue_tasks = []
+
+    task_state = load_agent_task_state(paths.root)
+    summary: dict[str, object] = {
+        "created": utc_timestamp(),
+        "mode": "gemini-source-prep",
+        "dry_run": dry_run,
+        "limit": limit,
+        "queue": relative_to_root(queue_path, paths.root),
+        "models": {"lite": lite_model, "pro": pro_model},
+        "processed": 0,
+        "completed": 0,
+        "released": 0,
+        "skipped": 0,
+        "route_counts": {},
+        "tasks": [],
+        "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "total_tokens": 0},
+    }
+
+    def add_route_count(tier: str) -> None:
+        route_counts = summary.setdefault("route_counts", {})
+        if isinstance(route_counts, dict):
+            route_counts[tier] = int(route_counts.get(tier, 0)) + 1
+
+    for raw_task in queue_tasks:
+        if int(summary["processed"]) >= limit:
+            break
+        if not isinstance(raw_task, dict):
+            continue
+        if int(raw_task.get("page_count", 0) or 0) != 1:
+            summary["skipped"] = int(summary["skipped"]) + 1
+            continue
+        status = str(raw_task.get("status", "")).strip()
+        if status not in GEMINI_SOURCE_PREP_BATCHABLE_STATUSES:
+            continue
+        task_id = source_prep_gemini_task_id(raw_task)
+        state_status = str(task_state.get(task_id, {}).get("status", "")).strip()
+        if state_status in {"claimed", "in_progress", "done"}:
+            summary["skipped"] = int(summary["skipped"]) + 1
+            continue
+
+        page = first_source_prep_batch_page(raw_task)
+        page_image = paths.root / str(page.get("page_image", ""))
+        output_path = paths.root / str(page.get("output_path", ""))
+        if not page_image.exists():
+            task_report = {
+                "task_id": task_id,
+                "status": "skipped",
+                "reason": "page_image_missing",
+                "page_image": relative_to_root(page_image, paths.root),
+            }
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+            summary["skipped"] = int(summary["skipped"]) + 1
+            continue
+
+        route = classify_gemini_source_prep_batch(paths.root, raw_task, lite_model=lite_model, pro_model=pro_model)
+        if not crop_relevance:
+            route["use_crops"] = False
+            if route.get("tier") == "pro_with_crops":
+                route["tier"] = "pro"
+        add_route_count(str(route.get("tier", "")))
+        max_output_tokens = max_output_tokens_pro if str(route.get("model")) == pro_model else max_output_tokens_lite
+        task_report: dict[str, object] = {
+            "task_id": task_id,
+            "batch_task_id": raw_task.get("task_id", ""),
+            "route": route,
+            "page_image": relative_to_root(page_image, paths.root),
+            "output_path": relative_to_root(output_path, paths.root),
+        }
+
+        if dry_run:
+            task_report["status"] = "planned"
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+            summary["processed"] = int(summary["processed"]) + 1
+            continue
+
+        update_agent_task_state(paths.root, task_id, "claimed", agent=agent, note=f"Gemini route {route.get('tier')}")
+        update_agent_task_state(paths.root, task_id, "in_progress", agent=agent, note=f"Using {route.get('model')}")
+        crops = create_gemini_source_prep_crops(paths.root, raw_task, max_crops=crop_count) if route.get("use_crops") else []
+        prompt = build_gemini_source_prep_prompt(raw_task, route, crops)
+        media_paths = [page_image, *crops]
+        try:
+            response = call_gemini_generate_content(
+                api_key=api_key,
+                model=str(route.get("model")),
+                prompt=prompt,
+                media_paths=media_paths,
+                max_output_tokens=max_output_tokens,
+            )
+            usage = response.get("usage", {})
+            if isinstance(usage, dict):
+                summary_usage = summary.setdefault("usage", {})
+                if isinstance(summary_usage, dict):
+                    summary_usage["prompt_tokens"] = int(summary_usage.get("prompt_tokens", 0)) + int(usage.get("promptTokenCount", 0) or 0)
+                    summary_usage["candidate_tokens"] = int(summary_usage.get("candidate_tokens", 0)) + int(usage.get("candidatesTokenCount", 0) or 0)
+                    summary_usage["total_tokens"] = int(summary_usage.get("total_tokens", 0)) + int(usage.get("totalTokenCount", 0) or 0)
+            task_report["usage"] = usage
+            task_report["finish_reason"] = response.get("finish_reason", "")
+            if str(response.get("finish_reason", "")) == "MAX_TOKENS":
+                update_agent_task_state(
+                    paths.root,
+                    task_id,
+                    "released",
+                    agent=agent,
+                    note="Gemini output hit max tokens; split this page into smaller regions or escalate manually.",
+                )
+                task_report["status"] = "released"
+                task_report["reason"] = "max_tokens"
+                summary["released"] = int(summary["released"]) + 1
+                summary["processed"] = int(summary["processed"]) + 1
+                cast_tasks = summary.setdefault("tasks", [])
+                if isinstance(cast_tasks, list):
+                    cast_tasks.append(task_report)
+                continue
+
+            markdown = str(response.get("text", "")).strip()
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            output_path.write_text(markdown, encoding="utf-8")
+            review = review_source_prep_page_output(output_path)
+            task_report["review"] = review
+            if str(review.get("status", "")) == "done":
+                update_agent_task_state(
+                    paths.root,
+                    task_id,
+                    "done",
+                    agent=agent,
+                    note=f"Completed by Gemini route {route.get('tier')}",
+                )
+                task_report["status"] = "done"
+                summary["completed"] = int(summary["completed"]) + 1
+            else:
+                flags = ",".join(str(flag) for flag in review.get("quality_flags", []) or [])
+                update_agent_task_state(
+                    paths.root,
+                    task_id,
+                    "released",
+                    agent=agent,
+                    note=f"Gemini output failed source-prep review: {flags or 'missing contract sections'}",
+                )
+                task_report["status"] = "released"
+                task_report["reason"] = "review_failed"
+                summary["released"] = int(summary["released"]) + 1
+        except Exception as exc:
+            update_agent_task_state(
+                paths.root,
+                task_id,
+                "released",
+                agent=agent,
+                note=f"Gemini conversion error: {str(exc)[:220]}",
+            )
+            task_report["status"] = "released"
+            task_report["reason"] = "gemini_error"
+            task_report["error"] = str(exc)
+            summary["released"] = int(summary["released"]) + 1
+
+        summary["processed"] = int(summary["processed"]) + 1
+        cast_tasks = summary.setdefault("tasks", [])
+        if isinstance(cast_tasks, list):
+            cast_tasks.append(task_report)
+
+    summary["finished"] = utc_timestamp()
+    state_path = write_source_prep_gemini_state(paths.root, summary)
+    summary["state_path"] = relative_to_root(state_path, paths.root)
+    append_log(
+        paths.research / "log.md",
+        "gemini-source-prep | "
+        f"processed {summary['processed']}, completed {summary['completed']}, released {summary['released']}, "
+        f"routes={summary.get('route_counts', {})}, dry_run={dry_run}",
+    )
+    return summary
 
 
 def materialize_source_prep_tasks(
@@ -6418,6 +7060,7 @@ Use `$source-prep-pipeline` and `$historical-document-conversion`.
 def build_source_prep_batch_agent_prompt(batch: dict[str, object]) -> str:
     task_ids = [str(task_id) for task_id in batch.get("task_ids", [])]
     quoted_task_ids = " ".join(f'"{task_id}"' for task_id in task_ids)
+    validation_commands: list[str] = []
     page_lines = [
         "| Page | Task ID | Page Image | Output Markdown | Extracted Images | Flags | Suspicious Readings |",
         "| --- | --- | --- | --- | --- | --- | --- |",
@@ -6433,6 +7076,9 @@ def build_source_prep_batch_agent_prompt(batch: dict[str, object]) -> str:
         )
         combined_flags = ", ".join(flags) or "none"
         suspicious_readings = format_suspicious_readings(page.get("suspicious_readings", []))
+        output_path = str(page.get("output_path", "")).strip()
+        if output_path:
+            validation_commands.append(f'genealogy-wiki source-prep-review-page "{output_path}" --root .')
         page_lines.append(
             "| "
             f"{page.get('page', '')} | "
@@ -6478,14 +7124,20 @@ This assignment is one page, not a quality shortcut. Throughput comes from runni
 
 ## Task State
 
-Claim and start the page tasks before editing:
+If a dispatcher assigned this page and already claimed the task, do not run task-state commands; the dispatcher owns final task state so parallel workers cannot race. If running this prompt standalone, claim and start the page tasks before editing:
 
 ```powershell
 genealogy-wiki agent-task claim {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
 genealogy-wiki agent-task start {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
 ```
 
-After the page output passes the source-prep contract, complete the page task:
+Validate each page output before reporting completion:
+
+```powershell
+{chr(10).join(validation_commands)}
+```
+
+If running standalone and validation passes, complete the page task:
 
 ```powershell
 genealogy-wiki agent-task complete {quoted_task_ids} --root . --agent "<worker-label>" --no-refresh
@@ -7563,6 +8215,85 @@ def build_parser() -> argparse.ArgumentParser:
         help="Inspect and report eligible pages without writing page Markdown or task state.",
     )
 
+    source_prep_review_page_parser = subparsers.add_parser(
+        "source-prep-review-page",
+        help="Review one source-prep page Markdown output against the conversion contract.",
+    )
+    source_prep_review_page_parser.add_argument("output_path", type=Path, help="Page Markdown path to review.")
+    source_prep_review_page_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+
+    gemini_source_prep_parser = subparsers.add_parser(
+        "gemini-source-prep",
+        help="Convert queued one-page source-prep tasks with Gemini model routing.",
+    )
+    gemini_source_prep_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    gemini_source_prep_parser.add_argument("--limit", type=int, default=25, help="Maximum one-page tasks to process. Default: 25.")
+    gemini_source_prep_parser.add_argument(
+        "--queue-limit",
+        type=int,
+        default=160,
+        help="Maximum source-prep batch tasks to materialize before processing. Default: 160.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--stale-minutes",
+        type=int,
+        default=360,
+        help="Release stale claimed tasks after this many minutes. Default: 360.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--lite-model",
+        default=GEMINI_SOURCE_PREP_LITE_MODEL,
+        help=f"Model for simple/basic pages. Default: {GEMINI_SOURCE_PREP_LITE_MODEL}.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--pro-model",
+        default=GEMINI_SOURCE_PREP_PRO_MODEL,
+        help=f"Model for complex or family-relevant pages. Default: {GEMINI_SOURCE_PREP_PRO_MODEL}.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--max-output-tokens-lite",
+        type=int,
+        default=6000,
+        help="Max output tokens for lite-model pages. Default: 6000.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--max-output-tokens-pro",
+        type=int,
+        default=16000,
+        help="Max output tokens for pro-model pages. Default: 16000.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--crop-count",
+        type=int,
+        default=4,
+        help="Zoom crops to attach for Pro family-relevant pages. Default: 4.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--no-crops",
+        action="store_true",
+        help="Disable crop attachments for family-relevant Pro pages.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--agent",
+        default="gemini-source-prep",
+        help="Agent label recorded in task-state.json. Default: gemini-source-prep.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--api-key-env",
+        default="",
+        help="Optional environment variable name containing the Gemini API key. Defaults to GEMINI_API_KEY or GOOGLE_API_KEY.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--no-refresh-queue",
+        action="store_true",
+        help="Use the existing source-prep-batches queue instead of refreshing it first.",
+    )
+    gemini_source_prep_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Plan model routing without calling Gemini or writing outputs.",
+    )
+
     conversion_qc_parser = subparsers.add_parser(
         "conversion-qc",
         help="Write page-level post-conversion QC triage, reread queues, and suspected readings.",
@@ -7965,6 +8696,37 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"- {failure}")
             if len(failed_tasks) > 25:
                 print(f"- ... {len(failed_tasks) - 25} more")
+        return 0
+
+    if args.command == "source-prep-review-page":
+        review = review_source_prep_page_output_for_cli(args.root, args.output_path)
+        print(json.dumps(review, indent=2, ensure_ascii=False))
+        return 0 if str(review.get("status", "")) == "done" else 1
+
+    if args.command == "gemini-source-prep":
+        api_key = ""
+        if args.api_key_env:
+            api_key = os.environ.get(args.api_key_env, "")
+            if not api_key and not args.dry_run:
+                raise RuntimeError(f"{args.api_key_env} is required for gemini-source-prep.")
+        summary = source_prep_gemini_run(
+            root=args.root,
+            limit=args.limit,
+            queue_limit=args.queue_limit,
+            stale_minutes=args.stale_minutes,
+            api_key=api_key,
+            lite_model=args.lite_model,
+            pro_model=args.pro_model,
+            max_output_tokens_lite=args.max_output_tokens_lite,
+            max_output_tokens_pro=args.max_output_tokens_pro,
+            crop_relevance=not args.no_crops,
+            crop_count=args.crop_count,
+            agent=args.agent,
+            dry_run=args.dry_run,
+            refresh_queue=not args.no_refresh_queue,
+        )
+        print("gemini-source-prep | summary")
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
         return 0
 
     if args.command == "conversion-qc":

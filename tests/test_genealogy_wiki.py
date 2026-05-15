@@ -2,9 +2,12 @@ import json
 
 import pytest
 
+import historic_doc_ingest.genealogy_wiki as genealogy_wiki
+
 from historic_doc_ingest.genealogy_wiki import (
     build_claim_index,
     build_relationship_index,
+    classify_gemini_source_prep_batch,
     chunk_converted_markdown,
     compile_narrative,
     assemble_codex_conversion_job,
@@ -30,6 +33,7 @@ from historic_doc_ingest.genealogy_wiki import (
     prepare_raw_sources,
     source_prep_page_cache_path,
     source_prep_fastlane_run,
+    source_prep_gemini_run,
     sync_vault_transcriptions,
     update_agent_task_state,
     update_agent_task_states,
@@ -387,6 +391,77 @@ def test_source_prep_batches_emit_one_page_per_worker(tmp_path) -> None:
     prompt_text = (tmp_path / batches[0]["prompt_path"]).read_text(encoding="utf-8")
     assert "not a quality shortcut" in prompt_text
     assert "agent-task claim" in prompt_text
+
+
+def test_gemini_source_prep_routes_simple_complex_and_relevant_pages(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    base_batch = {
+        "task_id": "source-prep-batch:job:p0001",
+        "page_count": 1,
+        "status": "todo",
+        "source": "raw/sources/minutes.pdf",
+        "title": "Committee minutes",
+        "first_page": 1,
+        "task_ids": ["source-prep:job:p0001"],
+        "pages": [
+            {
+                "page": 1,
+                "page_image": "raw/codex-conversion-jobs/job/page-images/page-0001.jpg",
+                "output_path": "raw/codex-conversion-jobs/job/page-markdown/page-0001.md",
+                "image_output_dir": "raw/codex-conversion-jobs/job/extracted-images/page-0001",
+            }
+        ],
+    }
+
+    simple = classify_gemini_source_prep_batch(tmp_path, base_batch, lite_model="lite", pro_model="pro")
+    assert simple["tier"] == "lite"
+    assert simple["model"] == "lite"
+
+    complex_batch = dict(base_batch)
+    complex_batch["title"] = "Passenger list"
+    complex_batch["pages"] = [dict(base_batch["pages"][0], quality_flags=["possible_table_layout_loss"])]
+    complex_route = classify_gemini_source_prep_batch(tmp_path, complex_batch, lite_model="lite", pro_model="pro")
+    assert complex_route["tier"] == "pro"
+    assert complex_route["model"] == "pro"
+
+    relevant_batch = dict(base_batch)
+    relevant_batch["pages"] = [
+        dict(base_batch["pages"][0], family_relevance="critical", matched_terms=["Pulgar"], suspicious_readings=[])
+    ]
+    relevant_route = classify_gemini_source_prep_batch(tmp_path, relevant_batch, lite_model="lite", pro_model="pro")
+    assert relevant_route["tier"] == "pro_with_crops"
+    assert relevant_route["model"] == "pro"
+    assert relevant_route["use_crops"] is True
+
+
+def test_gemini_source_prep_run_writes_valid_page_output(tmp_path, monkeypatch) -> None:
+    init_genealogy_wiki(tmp_path)
+    Image = pytest.importorskip("PIL.Image")
+    source = tmp_path / "raw" / "sources" / "source-page.jpg"
+    Image.new("RGB", (100, 120), "white").save(source)
+    prepare_raw_sources(tmp_path)
+    write_agent_queues(tmp_path)
+    write_source_prep_batches(tmp_path, max_pages=1, limit=5)
+
+    def fake_gemini(**kwargs):
+        assert kwargs["api_key"] == "test-key"
+        assert kwargs["model"] == "gemini-2.5-flash-lite"
+        assert len(kwargs["media_paths"]) == 1
+        return {
+            "text": complete_page_markdown("Converted by Gemini."),
+            "finish_reason": "STOP",
+            "usage": {"promptTokenCount": 10, "candidatesTokenCount": 20, "totalTokenCount": 30},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+    summary = source_prep_gemini_run(tmp_path, limit=1, api_key="test-key")
+
+    assert summary["completed"] == 1
+    assert summary["route_counts"]["lite"] == 1
+    output_path = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/page-markdown/page-0001.md"))
+    assert "Converted by Gemini." in output_path.read_text(encoding="utf-8")
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    assert {state["status"] for state in task_state["tasks"].values()} == {"done"}
 
 
 def test_source_prep_fastlane_completes_born_digital_pdf_pages(tmp_path) -> None:

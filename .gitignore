@@ -44,5 +44,7 @@ raw/codex-conversion-jobs/**/video-frames/
 research/_agent-queues/parallel-worker-logs/
 research/_agent-queues/parallel-worker-prompts/
 research/_agent-queues/automation-supervisor-logs/
+research/_agent-queues/*.lock
 research/_agent-queues/*.lock.json
+research/_automation/*.lock
 research/_automation/*.lock.json
