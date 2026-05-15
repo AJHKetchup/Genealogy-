@@ -23,7 +23,7 @@ For the full quality checklist, read `references/conversion-quality-contract.md`
 genealogy-wiki cloud-source-prep-heartbeat --root . --pages-per-job 25 --batch-pages 1
 ```
 
-This restores raw originals from R2 into disposable local cache, inventories sources, splits PDFs into page-range jobs, creates missing conversion jobs, assembles fully completed jobs, chunks completed conversions, writes GitHub queue JSON/Markdown, and uploads binary derivatives back to R2.
+This restores raw originals from R2 into disposable local cache, inventories sources, splits PDFs into page-range jobs, creates missing conversion jobs, assembles fully completed jobs, chunks completed conversions, writes GitHub queue JSON/Markdown, and uploads binary derivatives back to R2. It does not run blanket conversion QA by default; research relevance feedback controls when pages get upgraded treatment.
 
 For a local-only dry run that does not touch R2:
 
@@ -66,6 +66,14 @@ genealogy-wiki gemini-source-prep --root . --limit 25 --queue-limit 160
 ```
 
 The router uses `gemini-2.5-flash-lite` for simple/basic pages, `gemini-2.5-pro` for complex pages, and `gemini-2.5-pro` plus zoom-crop inputs for pages marked high/critical family relevance or suspicious readings. It requires `GEMINI_API_KEY` or `GOOGLE_API_KEY` in the runtime environment; do not store API keys in repository files or automation prompts.
+
+Research agents can mark pages or sources for upgraded conversion as family context evolves:
+
+```powershell
+genealogy-wiki source-relevance mark --root . --source "raw/sources/source.pdf" --page 12 --relevance critical --treatment pro_with_crops --entity "Dario Pulgar" --term Pulgar --reason "May identify direct ancestor"
+```
+
+This writes `research/_agent-queues/source-relevance-feedback.json`. Source prep consumes those hints on the next queue refresh. A page already completed with cheap/basic treatment can be requeued as `needs_reread` when research marks it high or critical.
 
 Record task ownership through the CLI, not by hand-editing queue JSON:
 
@@ -122,17 +130,16 @@ Chunks are page-scoped by default and written under `raw/chunks/<converted-sourc
 genealogy-wiki prep-index --root .
 ```
 
-Stop source-prep work here. Before source packets or staged claims, run conversion QA triage into `research/_conversion-review/` for large, noisy, handwritten, multilingual, or family-relevant sources. For source packets, staged claims, proof review, identity analysis, or wiki promotion, switch to the post-conversion skills and write drafts under `research/_staging/`.
+Stop source-prep work here. Do not run blanket QC over every converted page. Use `source-relevance mark` when research agents discover that a page, source, name, place, or chunk matters enough to deserve Pro or Pro+crops reread. For source packets, staged claims, proof review, identity analysis, or wiki promotion, switch to the post-conversion skills and write drafts under `research/_staging/`.
 
 Check source readiness:
 
 ```powershell
-genealogy-wiki conversion-qc --root .
 genealogy-wiki agent-queues --root .
 genealogy-wiki source-status --root .
 ```
 
-The usability report shows which raw sources are still converting, which are usable for extraction, and which are usable except for specific QC-held pages. Evidence-extraction tasks that overlap held pages are blocked as `blocked_needs_reread`; unrelated chunks remain available.
+The usability report shows which raw sources are still converting, which are usable for extraction, and which pages have been requeued because research feedback requested upgraded treatment.
 
 Do not treat an old page output as done just because `page-markdown/page-####.md` exists. If the queue status is `needs_reread`, overwrite that page output with a fresh visual conversion that satisfies every required section in the work order.
 
@@ -157,7 +164,7 @@ Recommended roles:
 
 - `source_inventory`: read-only inventory and batching.
 - `source_converter`: page-scoped conversion and image cropping.
-- `source_quality_reviewer` or `conversion_qa_reviewer`: read-only comparison of Markdown, crops, chunks, provenance, suspicious readings, and family-relevant page queues.
+- `evidence_extractor`, `identity_researcher`, and narrative/wiki workers: read converted sources and chunks, then write `source-relevance mark` feedback when a page/source becomes more important than source prep could know up front.
 
 ## Rules
 

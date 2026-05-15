@@ -20,6 +20,7 @@ from historic_doc_ingest.genealogy_wiki import (
     find_suspicious_name_readings,
     init_genealogy_wiki,
     lint_genealogy_wiki,
+    mark_source_relevance_feedback,
     release_stale_agent_tasks,
     write_claim_index,
     write_relationship_graph,
@@ -432,6 +433,43 @@ def test_gemini_source_prep_routes_simple_complex_and_relevant_pages(tmp_path) -
     assert relevant_route["tier"] == "pro_with_crops"
     assert relevant_route["model"] == "pro"
     assert relevant_route["use_crops"] is True
+
+
+def test_source_relevance_feedback_requeues_done_page_for_pro_crops(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    Image = pytest.importorskip("PIL.Image")
+    source = tmp_path / "raw" / "sources" / "source-page.jpg"
+    Image.new("RGB", (100, 120), "white").save(source)
+    prepare_raw_sources(tmp_path)
+
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    task = source_queue["tasks"][0]
+    output_path = tmp_path / task["output_path"]
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(complete_page_markdown("Already converted cheaply."), encoding="utf-8")
+    update_agent_task_state(tmp_path, task["task_id"], "done", agent="lite")
+
+    mark_source_relevance_feedback(
+        tmp_path,
+        source=task["source"],
+        page=task["page"],
+        relevance="critical",
+        treatment="pro_with_crops",
+        reason="Research agent found this page may identify a direct ancestor.",
+        entities=["Dario Pulgar"],
+        terms=["Pulgar"],
+        agent="evidence-extractor",
+    )
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    task = source_queue["tasks"][0]
+
+    assert task["status"] == "needs_reread"
+    assert task["research_relevance"] == "critical"
+    assert task["requested_treatment"] == "pro_with_crops"
+    assert task["research_entities"] == ["Dario Pulgar"]
+    assert task["matched_terms"] == ["Pulgar"]
 
 
 def test_gemini_source_prep_run_writes_valid_page_output(tmp_path, monkeypatch) -> None:

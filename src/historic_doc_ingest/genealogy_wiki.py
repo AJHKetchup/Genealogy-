@@ -85,23 +85,22 @@ When a new source arrives:
 
 1. Add it to `raw/sources/`.
 2. Run `genealogy-wiki prepare-sources --root .` to inventory sources, split large PDFs into page-range jobs, create missing Codex conversion jobs, assemble completed jobs, and chunk completed conversions.
-3. Run `genealogy-wiki conversion-qc --root .` to write page-level triage, reread queues, and suspected reading notes.
-4. Run `genealogy-wiki agent-queues --root . --stale-minutes 360` to write source-prep, conversion-QA, and evidence-extraction queues plus per-task prompt packets, release abandoned task leases, and reuse cached page-output reviews.
+3. Run `genealogy-wiki agent-queues --root . --stale-minutes 360` to write source-prep and evidence-extraction queues plus per-task prompt packets, release abandoned task leases, and reuse cached page-output reviews.
+4. Research agents can run `genealogy-wiki source-relevance mark ...` when a page/source becomes newly important enough to deserve Pro or Pro+crops treatment.
 5. Run `genealogy-wiki source-status --root .` to see which raw sources are usable, still converting, or held only on specific pages.
 6. Let source-prep Codex agents and page/range subagents consume queued work orders using the project skills. Workers should use `agent-task ... --no-refresh` during a bounded batch, then refresh queues once at the end. OCR and PDF text layers are hints only, not the conversion authority.
-7. Run conversion QA triage into `research/_conversion-review/` for large, noisy, handwritten, multilingual, tabular, or family-relevant sources.
-8. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and QA page queues.
-9. Keep separated transcription, translation, interpretation, uncertainty, and promotion recommendation sections in staged drafts.
-10. Review staged claims for literal support, source path, chunk/page reference, uncertainty, status, confidence, and conflicts.
-11. Run `genealogy-wiki promote-staged --root .` after review to promote eligible staged material into `research/claims/`, `research/relationships/`, product person pages, indexes, and the generated family tree; source packets stay in `research/source-packets/`.
-12. Run `genealogy-wiki lint --root .` and fix canonical lint issues before moving on.
-13. Review the promotion manifest under `research/_staging/promotions/` and the backstage entry in `research/log.md`.
+7. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and research relevance feedback.
+8. Keep separated transcription, translation, interpretation, uncertainty, and promotion recommendation sections in staged drafts.
+9. Review staged claims for literal support, source path, chunk/page reference, uncertainty, status, confidence, and conflicts.
+10. Run `genealogy-wiki promote-staged --root .` after review to promote eligible staged material into `research/claims/`, `research/relationships/`, product person pages, indexes, and the generated family tree; source packets stay in `research/source-packets/`.
+11. Run `genealogy-wiki lint --root .` and fix canonical lint issues before moving on.
+12. Review the promotion manifest under `research/_staging/promotions/` and the backstage entry in `research/log.md`.
 
 ## Post-Conversion Agent Workflow
 
 After conversion, use this order:
 
-`raw/converted/` + `raw/chunks/` -> `genealogy-wiki conversion-qc` -> `research/_conversion-review/` QA triage -> `research/_staging/` source packets -> staged claims -> proof review -> research proof layer plus wiki product updates.
+`raw/converted/` + `raw/chunks/` -> research agents -> `source-relevance mark` feedback for important pages -> upgraded conversion when needed -> `research/_staging/` source packets -> staged claims -> proof review -> research proof layer plus wiki product updates.
 
 Staged outputs must include source path, chunk or page reference, literal support, uncertainty notes, proposed claim status, and a promotion recommendation. Canonical pages should cite reviewed staged evidence, not raw chunks directly. Parallel subagents are optional and must be explicitly requested by the user.
 
@@ -4841,7 +4840,12 @@ def cached_review_source_prep_page_output(
     return review, True
 
 
-def write_agent_queues(root: Path, output_dir: Path | None = None, stale_minutes: int = 360) -> list[Path]:
+def write_agent_queues(
+    root: Path,
+    output_dir: Path | None = None,
+    stale_minutes: int = 360,
+    include_conversion_qa: bool = True,
+) -> list[Path]:
     paths = WikiPaths(root.resolve())
     queue_dir = output_dir or (paths.research / "_agent-queues")
     if not queue_dir.is_absolute():
@@ -4852,11 +4856,13 @@ def write_agent_queues(root: Path, output_dir: Path | None = None, stale_minutes
     task_state = load_agent_task_state(paths.root)
     queues = {
         "source-prep": build_source_prep_agent_tasks(paths.root),
-        "conversion-qa": build_conversion_qa_agent_tasks(paths.root),
-        "evidence-extraction": build_evidence_extraction_agent_tasks(paths.root),
     }
+    queues["conversion-qa"] = build_conversion_qa_agent_tasks(paths.root) if include_conversion_qa else []
+    queues["evidence-extraction"] = build_evidence_extraction_agent_tasks(paths.root)
     written = [write_agent_queue(paths.root, queue_dir, name, tasks, task_state) for name, tasks in queues.items()]
     log_message = f"agent-queues | Wrote {len(written)} queue manifest(s)"
+    if not include_conversion_qa:
+        log_message += "; conversion QA queue disabled by source-prep settings"
     if released_count:
         log_message += f"; released {released_count} stale task(s)"
     append_log(paths.research / "log.md", log_message)
@@ -4898,6 +4904,218 @@ def write_agent_queue(
 SOURCE_PREP_BATCHABLE_STATUSES = ("needs_reread", "todo")
 SOURCE_PREP_BATCH_STATUS_PRIORITY = {"needs_reread": 0, "todo": 1}
 SOURCE_PREP_MAX_PAGES_PER_WORKER = 1
+SOURCE_RELEVANCE_VALUES = ("low", "medium", "high", "critical")
+SOURCE_RELEVANCE_PRIORITY = {value: index for index, value in enumerate(SOURCE_RELEVANCE_VALUES)}
+SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
+SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
+
+
+def source_relevance_feedback_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "source-relevance-feedback.json"
+
+
+def load_source_relevance_feedback(root: Path) -> dict[str, object]:
+    path = source_relevance_feedback_path(root)
+    if not path.exists():
+        return {
+            "created": utc_timestamp(),
+            "updated": utc_timestamp(),
+            "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
+            "hints": [],
+        }
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        payload = {}
+    if not isinstance(payload, dict):
+        payload = {}
+    hints = payload.get("hints", [])
+    if not isinstance(hints, list):
+        hints = []
+    payload["hints"] = [hint for hint in hints if isinstance(hint, dict)]
+    payload.setdefault("created", utc_timestamp())
+    payload.setdefault("purpose", "Research-to-conversion relevance hints for source-prep model routing.")
+    payload["updated"] = str(payload.get("updated") or utc_timestamp())
+    return payload
+
+
+def save_source_relevance_feedback(root: Path, payload: dict[str, object]) -> Path:
+    path = source_relevance_feedback_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload["updated"] = utc_timestamp()
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def source_relevance_hint_identity(hint: dict[str, object]) -> str:
+    values = [
+        str(hint.get("task_id", "")).strip(),
+        str(hint.get("job_manifest", "")).strip(),
+        str(hint.get("source_sha256", "")).strip(),
+        str(hint.get("source", "")).strip(),
+        str(hint.get("converted_file", "")).strip(),
+        str(hint.get("page", "")).strip(),
+    ]
+    digest = hashlib.sha256("|".join(values).encode("utf-8")).hexdigest()[:12]
+    return f"source-relevance:{digest}"
+
+
+def normalize_source_relevance(value: str) -> str:
+    normalized = value.strip().lower()
+    if normalized not in SOURCE_RELEVANCE_VALUES:
+        raise ValueError(f"unsupported source relevance: {value}")
+    return normalized
+
+
+def normalize_source_relevance_treatment(value: str) -> str:
+    normalized = value.strip().lower().replace("-", "_")
+    if normalized == "expensive":
+        normalized = "pro_with_crops"
+    if normalized not in SOURCE_RELEVANCE_TREATMENTS:
+        raise ValueError(f"unsupported source relevance treatment: {value}")
+    return normalized
+
+
+def mark_source_relevance_feedback(
+    root: Path,
+    *,
+    task_id: str = "",
+    job_manifest: str = "",
+    source: str = "",
+    source_sha256: str = "",
+    converted_file: str = "",
+    page: int = 0,
+    relevance: str = "high",
+    treatment: str = "pro_with_crops",
+    reason: str = "",
+    entities: list[str] | None = None,
+    terms: list[str] | None = None,
+    agent: str = "",
+) -> tuple[Path, dict[str, object]]:
+    if page < 0:
+        raise ValueError("page must be zero or positive")
+    if not any(str(value).strip() for value in (task_id, job_manifest, source, source_sha256, converted_file)):
+        raise ValueError("source-relevance mark requires a task id, job manifest, source path, source hash, or converted file")
+    now = utc_timestamp()
+    hint: dict[str, object] = {
+        "status": "active",
+        "created": now,
+        "updated": now,
+        "task_id": task_id.strip(),
+        "job_manifest": job_manifest.strip(),
+        "source": source.strip(),
+        "source_sha256": source_sha256.strip(),
+        "converted_file": converted_file.strip(),
+        "page": page,
+        "relevance": normalize_source_relevance(relevance),
+        "requested_treatment": normalize_source_relevance_treatment(treatment),
+        "reason": reason.strip(),
+        "entities": [entity.strip() for entity in entities or [] if entity.strip()],
+        "matched_terms": [term.strip() for term in terms or [] if term.strip()],
+        "agent": agent.strip(),
+    }
+    hint["id"] = source_relevance_hint_identity(hint)
+
+    payload = load_source_relevance_feedback(root)
+    hints = payload.setdefault("hints", [])
+    if not isinstance(hints, list):
+        hints = []
+        payload["hints"] = hints
+    replaced = False
+    for index, existing in enumerate(hints):
+        if isinstance(existing, dict) and str(existing.get("id", "")) == str(hint["id"]):
+            hint["created"] = str(existing.get("created") or now)
+            hints[index] = hint
+            replaced = True
+            break
+    if not replaced:
+        hints.append(hint)
+    path = save_source_relevance_feedback(root, payload)
+    append_log(root.resolve() / "research" / "log.md", f"source-relevance | Marked {hint['id']} {hint['relevance']} {hint['requested_treatment']}")
+    return path, hint
+
+
+def active_source_relevance_hints(root: Path) -> list[dict[str, object]]:
+    payload = load_source_relevance_feedback(root)
+    hints = payload.get("hints", [])
+    if not isinstance(hints, list):
+        return []
+    return [
+        hint
+        for hint in hints
+        if isinstance(hint, dict)
+        and str(hint.get("status", "active")).strip().lower() in SOURCE_RELEVANCE_ACTIVE_STATUSES
+    ]
+
+
+def source_relevance_hint_matches_task(hint: dict[str, object], task: dict[str, object]) -> bool:
+    try:
+        hint_page = int(hint.get("page", 0) or 0)
+    except (TypeError, ValueError):
+        hint_page = 0
+    try:
+        task_page = int(task.get("page", 0) or 0)
+    except (TypeError, ValueError):
+        task_page = 0
+    if hint_page and task_page and hint_page != task_page:
+        return False
+
+    comparisons = (
+        ("task_id", "task_id"),
+        ("job_manifest", "job_manifest"),
+        ("source_sha256", "source_sha256"),
+        ("source", "source"),
+        ("converted_file", "converted_file"),
+    )
+    for hint_key, task_key in comparisons:
+        hint_value = str(hint.get(hint_key, "")).strip()
+        task_value = str(task.get(task_key, "")).strip()
+        if hint_value and task_value and hint_value == task_value:
+            return True
+    return False
+
+
+def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[str, object]]) -> None:
+    matches = [hint for hint in hints if source_relevance_hint_matches_task(hint, task)]
+    if not matches:
+        return
+
+    strongest = max(
+        matches,
+        key=lambda hint: SOURCE_RELEVANCE_PRIORITY.get(str(hint.get("relevance", "")).strip().lower(), -1),
+    )
+    relevance = str(strongest.get("relevance", "high")).strip().lower()
+    treatment = normalize_source_relevance_treatment(str(strongest.get("requested_treatment", "pro_with_crops")))
+    reasons = [str(hint.get("reason", "")).strip() for hint in matches if str(hint.get("reason", "")).strip()]
+    entities = [
+        str(entity)
+        for hint in matches
+        for entity in (hint.get("entities", []) if isinstance(hint.get("entities", []), list) else [])
+        if str(entity).strip()
+    ]
+    matched_terms = [
+        str(term)
+        for hint in matches
+        for term in (hint.get("matched_terms", []) if isinstance(hint.get("matched_terms", []), list) else [])
+        if str(term).strip()
+    ]
+
+    task["research_relevance"] = relevance
+    task["requested_treatment"] = treatment
+    task["relevance_feedback_ids"] = [str(hint.get("id", "")) for hint in matches if str(hint.get("id", ""))]
+    if reasons:
+        task["research_relevance_reasons"] = list(dict.fromkeys(reasons))
+    if entities:
+        task["research_entities"] = list(dict.fromkeys(entities))
+    if matched_terms:
+        existing_terms = [str(term) for term in task.get("matched_terms", []) or []]
+        task["matched_terms"] = list(dict.fromkeys(existing_terms + matched_terms))
+
+    if str(task.get("status", "")) == "done" and (
+        treatment in {"pro", "pro_with_crops", "reread"} or relevance in {"high", "critical"}
+    ):
+        task["status"] = "needs_reread"
+        task["repair_reason"] = "research_relevance_feedback"
 
 
 def write_source_prep_batches(
@@ -5568,7 +5786,14 @@ def classify_gemini_source_prep_batch(
     flags = [flag.lower() for flag in source_prep_gemini_combined_values(batch, ("quality_flags", "qc_quality_flags"))]
     suspicious = source_prep_gemini_combined_values(batch, ("suspicious_readings",))
     matched_terms = source_prep_gemini_combined_values(batch, ("matched_terms",))
-    relevance = str(page.get("family_relevance") or batch.get("family_relevance") or "").strip().lower()
+    relevance = str(
+        page.get("research_relevance")
+        or batch.get("research_relevance")
+        or page.get("family_relevance")
+        or batch.get("family_relevance")
+        or ""
+    ).strip().lower()
+    requested_treatment = str(page.get("requested_treatment") or batch.get("requested_treatment") or "").strip().lower()
     recommended_action = str(batch.get("recommended_action", "")).strip().lower()
     title_source_text = " ".join(
         [
@@ -5582,15 +5807,21 @@ def classify_gemini_source_prep_batch(
     relevant = False
     if relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES:
         relevant = True
-        reasons.append(f"family_relevance:{relevance}")
+        reasons.append(f"research_relevance:{relevance}" if page.get("research_relevance") or batch.get("research_relevance") else f"family_relevance:{relevance}")
     if suspicious:
         relevant = True
         reasons.append("suspicious_readings")
     if matched_terms and relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES.union({"medium"}):
         relevant = True
         reasons.append("matched_family_terms")
+    if requested_treatment == "pro_with_crops":
+        relevant = True
+        reasons.append("requested_pro_with_crops")
 
     complex_page = False
+    if requested_treatment in {"pro", "reread"}:
+        complex_page = True
+        reasons.append(f"requested_{requested_treatment}")
     if any(token in flag for flag in flags for token in GEMINI_SOURCE_PREP_COMPLEX_FLAG_TOKENS):
         complex_page = True
         reasons.append("complex_quality_flags")
@@ -5735,6 +5966,10 @@ def build_gemini_source_prep_prompt(batch: dict[str, object], route: dict[str, o
 - Page: {page.get("page") or batch.get("first_page")}
 - Output Markdown target: `{page.get("output_path", "")}`
 - Family relevance: `{page.get("family_relevance", "")}`
+- Research relevance: `{page.get("research_relevance", "")}`
+- Requested treatment: `{page.get("requested_treatment", "")}`
+- Research relevance reasons: {", ".join(str(reason) for reason in page.get("research_relevance_reasons", []) or []) or "none"}
+- Research entities: {", ".join(str(entity) for entity in page.get("research_entities", []) or []) or "none"}
 - Recommended action: `{batch.get("recommended_action", "")}`
 - Quality flags: {", ".join(str(flag) for flag in flags) or "none"}
 - Matched family terms: {", ".join(str(term) for term in matched_terms) or "none"}
@@ -6149,6 +6384,8 @@ def build_source_prep_batch_agent_tasks(
 def source_prep_task_requires_single_page_batch(task: dict[str, object]) -> bool:
     if task.get("suspicious_readings"):
         return True
+    if task.get("relevance_feedback_ids") or task.get("requested_treatment"):
+        return True
     action = str(task.get("recommended_action", ""))
     relevance = str(task.get("family_relevance", ""))
     return relevance == "critical" and action in {"reread-page", "reread-region", "hold-for-human"}
@@ -6216,6 +6453,11 @@ def source_prep_batch_page_record(task: dict[str, object]) -> dict[str, object]:
         "missing_sections",
         "qc_quality_flags",
         "family_relevance",
+        "research_relevance",
+        "requested_treatment",
+        "research_relevance_reasons",
+        "research_entities",
+        "relevance_feedback_ids",
         "matched_terms",
         "suspicious_readings",
     ):
@@ -6231,6 +6473,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
     if not jobs_dir.exists():
         return tasks
     qc_repair_by_manifest = load_qc_repair_pages(root)
+    relevance_hints = active_source_relevance_hints(root)
     page_review_cache = load_source_prep_page_cache(root)
     page_review_cache_changed = False
     for manifest_path in sorted(jobs_dir.glob("*/manifest.json")):
@@ -6295,6 +6538,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
                         "chunk_manifest": qc_hold.get("chunk_manifest", ""),
                     }
                 )
+            apply_source_relevance_feedback(task, relevance_hints)
             task["prompt"] = build_source_prep_agent_prompt(task)
             tasks.append(task)
     if page_review_cache_changed:
@@ -6725,6 +6969,7 @@ def cloud_source_prep_heartbeat(
     *,
     restore_raw: bool = True,
     upload_assets: bool = True,
+    conversion_qc: bool = False,
     pages_per_job: int = 25,
     batch_pages: int = 1,
     queue_limit: int = 80,
@@ -6744,6 +6989,7 @@ def cloud_source_prep_heartbeat(
             "upload_assets": upload_assets,
         },
         "settings": {
+            "conversion_qc": conversion_qc,
             "pages_per_job": pages_per_job,
             "batch_pages": batch_pages,
             "queue_limit": queue_limit,
@@ -6786,15 +7032,18 @@ def cloud_source_prep_heartbeat(
         summary["blockers"].append(f"prepare-sources: {exc}")
         record_step("prepare-sources", "failed", str(exc))
 
-    try:
-        qc_paths = write_post_conversion_qc(paths.root)
-        record_step("conversion-qc", "ran", {"written": [relative_to_root(path, paths.root) for path in qc_paths]})
-    except Exception as exc:
-        summary["blockers"].append(f"conversion-qc: {exc}")
-        record_step("conversion-qc", "failed", str(exc))
+    if conversion_qc:
+        try:
+            qc_paths = write_post_conversion_qc(paths.root)
+            record_step("conversion-qc", "ran", {"written": [relative_to_root(path, paths.root) for path in qc_paths]})
+        except Exception as exc:
+            summary["blockers"].append(f"conversion-qc: {exc}")
+            record_step("conversion-qc", "failed", str(exc))
+    else:
+        record_step("conversion-qc", "skipped", "disabled; use source-relevance feedback for research-to-conversion routing")
 
     try:
-        queue_paths = write_agent_queues(paths.root, stale_minutes=stale_minutes)
+        queue_paths = write_agent_queues(paths.root, stale_minutes=stale_minutes, include_conversion_qa=conversion_qc)
         record_step("agent-queues", "ran", {"written": [relative_to_root(path, paths.root) for path in queue_paths]})
     except Exception as exc:
         summary["blockers"].append(f"agent-queues: {exc}")
@@ -8170,6 +8419,7 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
     cloud_source_prep_parser.add_argument("--fastlane-limit", type=int, default=0, help="Optional deterministic born-digital PDF page limit.")
     cloud_source_prep_parser.add_argument("--fastlane-scan-limit", type=int, default=250, help="Optional deterministic fastlane scan limit.")
+    cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts and queues. Default is off.")
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
     cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload page images/crops/assets to R2.")
     cloud_source_prep_parser.add_argument("--dry-run", action="store_true", help="Skip R2 writes and raw restore; still refresh local queue outputs.")
@@ -8295,6 +8545,35 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Plan model routing without calling Gemini or writing outputs.",
     )
+
+    source_relevance_parser = subparsers.add_parser(
+        "source-relevance",
+        help="Record or list research-to-conversion relevance feedback.",
+    )
+    source_relevance_parser.add_argument("action", choices=["mark", "list"], help="Action to run.")
+    source_relevance_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    source_relevance_parser.add_argument("--task-id", default="", help="Source-prep task id to target.")
+    source_relevance_parser.add_argument("--job-manifest", default="", help="Conversion job manifest path to target.")
+    source_relevance_parser.add_argument("--source", default="", help="Raw/source path to target.")
+    source_relevance_parser.add_argument("--source-sha256", default="", help="Source SHA-256 to target.")
+    source_relevance_parser.add_argument("--converted-file", default="", help="Converted Markdown file to target.")
+    source_relevance_parser.add_argument("--page", type=int, default=0, help="Page number to target. Use 0 for all pages on the target.")
+    source_relevance_parser.add_argument(
+        "--relevance",
+        choices=list(SOURCE_RELEVANCE_VALUES),
+        default="high",
+        help="Research relevance level. Default: high.",
+    )
+    source_relevance_parser.add_argument(
+        "--treatment",
+        choices=list(SOURCE_RELEVANCE_TREATMENTS),
+        default="pro_with_crops",
+        help="Requested conversion treatment. Default: pro_with_crops.",
+    )
+    source_relevance_parser.add_argument("--reason", default="", help="Concise reason the source/page matters.")
+    source_relevance_parser.add_argument("--entity", action="append", default=[], help="Family person/entity this hint relates to. May repeat.")
+    source_relevance_parser.add_argument("--term", action="append", default=[], help="Matched family term or search clue. May repeat.")
+    source_relevance_parser.add_argument("--agent", default="", help="Research agent label recording the hint.")
 
     conversion_qc_parser = subparsers.add_parser(
         "conversion-qc",
@@ -8642,6 +8921,7 @@ def main(argv: list[str] | None = None) -> int:
             root=args.root,
             restore_raw=not args.no_restore,
             upload_assets=not args.no_asset_upload,
+            conversion_qc=args.conversion_qc,
             pages_per_job=args.pages_per_job,
             batch_pages=args.batch_pages,
             queue_limit=args.queue_limit,
@@ -8729,6 +9009,30 @@ def main(argv: list[str] | None = None) -> int:
         )
         print("gemini-source-prep | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return 0
+
+    if args.command == "source-relevance":
+        if args.action == "list":
+            payload = load_source_relevance_feedback(args.root)
+            print(json.dumps(payload, indent=2, ensure_ascii=False))
+            return 0
+        path, hint = mark_source_relevance_feedback(
+            args.root,
+            task_id=args.task_id,
+            job_manifest=args.job_manifest,
+            source=args.source,
+            source_sha256=args.source_sha256,
+            converted_file=args.converted_file,
+            page=args.page,
+            relevance=args.relevance,
+            treatment=args.treatment,
+            reason=args.reason,
+            entities=args.entity,
+            terms=args.term,
+            agent=args.agent,
+        )
+        print(f"Wrote source relevance feedback {path}")
+        print(json.dumps(hint, indent=2, ensure_ascii=False))
         return 0
 
     if args.command == "conversion-qc":
