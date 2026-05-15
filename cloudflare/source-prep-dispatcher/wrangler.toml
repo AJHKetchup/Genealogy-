@@ -1,0 +1,41 @@
+name = "genealogy-source-prep-dispatcher"
+main = "worker.js"
+compatibility_date = "2026-05-15"
+
+workers_dev = true
+
+[vars]
+GITHUB_OWNER = "AJHKetchup"
+GITHUB_REPO = "Genealogy-"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[r2_buckets]]
+binding = "GENEALOGY_R2"
+bucket_name = "genealogy"
+
+[[secrets_store_secrets]]
+binding = "GEMINI_API_KEY"
+store_id = "798867afcd8147d98a66aaf90a5ccbc0"
+secret_name = "GEMINI_API_KEY"
+
+[[secrets_store_secrets]]
+binding = "GITHUB_TOKEN"
+store_id = "798867afcd8147d98a66aaf90a5ccbc0"
+secret_name = "GITHUB_TOKEN"
+
+[[secrets_store_secrets]]
+binding = "R2_ACCOUNT_ID"
+store_id = "798867afcd8147d98a66aaf90a5ccbc0"
+secret_name = "R2_ACCOUNT_ID"
+
+[[secrets_store_secrets]]
+binding = "R2_BUCKET"
+store_id = "798867afcd8147d98a66aaf90a5ccbc0"
+secret_name = "R2_BUCKET"
+
+[[secrets_store_secrets]]
+binding = "R2_ENDPOINT_URL"
+store_id = "798867afcd8147d98a66aaf90a5ccbc0"
+secret_name = "R2_ENDPOINT_URL"
