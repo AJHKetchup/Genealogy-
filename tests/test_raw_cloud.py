@@ -7,6 +7,7 @@ from historic_doc_ingest.raw_cloud import (
     RawCloudConfig,
     build_derived_asset_manifest,
     build_raw_cloud_manifest,
+    build_raw_cloud_manifest_from_remote,
     load_raw_cloud_config,
 )
 
@@ -137,3 +138,41 @@ def test_derived_asset_manifest_includes_binary_outputs_not_text_state(tmp_path)
         == "archive/derived/raw/codex-conversion-jobs/job-one/page-images/page-0001.jpg"
     )
     assert manifest["manifest_path"] == "raw/r2-derived-assets.json"
+
+
+def test_remote_raw_cloud_manifest_lists_r2_raw_sources(monkeypatch, tmp_path) -> None:
+    class FakeClient:
+        def __init__(self, config):
+            self.config = config
+
+        def list_objects(self, prefix):
+            assert prefix == "archive/raw/sources/"
+            return [
+                "archive/raw/sources/B.pdf",
+                "archive/raw/sources/A image.jpg",
+                "archive/derived/raw/codex-conversion-jobs/job/page-images/page-0001.jpg",
+            ]
+
+        def head_object(self, key):
+            return {
+                "content-length": "123",
+                "content-type": "application/pdf" if key.endswith(".pdf") else "image/jpeg",
+                "x-amz-meta-local-sha256": f"sha-for-{key.rsplit('/', 1)[-1]}",
+            }
+
+    monkeypatch.setattr("historic_doc_ingest.raw_cloud.R2Client", FakeClient)
+    config = RawCloudConfig(
+        endpoint_url=DEFAULT_ENDPOINT_URL,
+        bucket="genealogy",
+        access_key_id="test",
+        secret_access_key="test",
+        prefix="archive/",
+    )
+
+    manifest = build_raw_cloud_manifest_from_remote(tmp_path, config)
+
+    paths = [item["path"] for item in manifest["files"]]
+    assert paths == ["raw/sources/A image.jpg", "raw/sources/B.pdf"]
+    assert manifest["source"] == "remote-r2-list"
+    assert manifest["files"][0]["key"] == "archive/raw/sources/A image.jpg"
+    assert manifest["files"][0]["sha256"] == "sha-for-A image.jpg"

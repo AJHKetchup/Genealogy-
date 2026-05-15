@@ -279,6 +279,57 @@ def build_raw_cloud_manifest(
     }
 
 
+def build_raw_cloud_manifest_from_remote(
+    root: Path,
+    config: RawCloudConfig,
+    *,
+    limit: int | None = None,
+) -> dict[str, Any]:
+    """Build the GitHub-tracked raw manifest from R2 when local raw cache is empty."""
+    client = R2Client(config)
+    raw_prefix = f"{config.prefix}{config.raw_dir.as_posix().rstrip('/')}/"
+    keys = [
+        key
+        for key in client.list_objects(raw_prefix)
+        if key and not key.endswith("/") and key.startswith(raw_prefix)
+    ]
+    keys.sort(key=str.lower)
+    if limit is not None and limit > 0:
+        keys = keys[:limit]
+
+    files = []
+    for key in keys:
+        headers = client.head_object(key) or {}
+        rel = key[len(config.prefix) :] if config.prefix and key.startswith(config.prefix) else key
+        media_type = headers.get("content-type") or mimetypes.guess_type(rel)[0] or "application/octet-stream"
+        files.append(
+            {
+                "path": rel,
+                "key": key,
+                "bytes": int(headers.get("content-length", 0) or 0),
+                "sha256": headers.get("x-amz-meta-local-sha256", ""),
+                "media_type": media_type,
+            }
+        )
+
+    return {
+        "version": 1,
+        "created": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "purpose": "Cloud object inventory for immutable raw genealogy source originals.",
+        "storage": {
+            "provider": "cloudflare-r2",
+            "account_id": config.account_id,
+            "endpoint_url": config.endpoint_url,
+            "bucket": config.bucket,
+            "prefix": config.prefix,
+        },
+        "manifest_path": DEFAULT_RAW_CLOUD_MANIFEST_PATH.as_posix(),
+        "raw_source_root": config.raw_dir.as_posix(),
+        "source": "remote-r2-list",
+        "files": files,
+    }
+
+
 def raw_cloud_state_path(root: Path, config: RawCloudConfig, name: str) -> Path:
     state_dir = config.state_dir if config.state_dir.is_absolute() else root.resolve() / config.state_dir
     return state_dir / name
@@ -799,11 +850,10 @@ def restore_raw_from_cloud(
     else:
         local_manifest_path = root / DEFAULT_RAW_CLOUD_MANIFEST_PATH
         if not local_manifest_path.exists():
-            raise FileNotFoundError(
-                f"Missing GitHub-tracked raw cloud manifest: {local_manifest_path}. "
-                "Run raw-cloud inventory/upload from a workspace with raw cache first."
-            )
-        manifest = json.loads(local_manifest_path.read_text(encoding="utf-8"))
+            manifest = build_raw_cloud_manifest_from_remote(root, config)
+            write_json(local_manifest_path, manifest)
+        else:
+            manifest = json.loads(local_manifest_path.read_text(encoding="utf-8"))
 
     files = list(manifest.get("files", []))
     if limit is not None and limit > 0:
@@ -819,7 +869,8 @@ def restore_raw_from_cloud(
             continue
         output = root / rel
         if output.exists() and not force:
-            if file_sha256(output) == item.get("sha256"):
+            expected_sha = str(item.get("sha256", ""))
+            if not expected_sha or file_sha256(output) == expected_sha:
                 skipped += 1
                 continue
             errors.append({"path": item["path"], "issue": "local_file_differs_use_force"})
@@ -827,7 +878,8 @@ def restore_raw_from_cloud(
         try:
             client.get_file(item["key"], output)
             downloaded_sha = file_sha256(output)
-            if downloaded_sha != item.get("sha256"):
+            expected_sha = str(item.get("sha256", ""))
+            if expected_sha and downloaded_sha != expected_sha:
                 errors.append(
                     {
                         "path": item["path"],
