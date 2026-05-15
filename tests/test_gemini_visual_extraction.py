@@ -25,21 +25,9 @@ DARIO PULGAR SMITH
 
 The page contains a portrait photograph.
 
-## Translation
-
-Not needed.
-
-## Interpretation
-
-No interpretation added.
-
 ## Uncertain Or Illegible
 
 None noted.
-
-## Extracted Genealogy Leads
-
-The page names DARIO PULGAR SMITH.
 
 ## Completeness Audit
 

@@ -59,21 +59,9 @@ Single-page source read top to bottom.
 
 No separate visual regions identified.
 
-## Translation
-
-Not needed.
-
-## Interpretation
-
-No interpretation added.
-
 ## Uncertain Or Illegible
 
 None noted.
-
-## Extracted Genealogy Leads
-
-None.
 
 ## Completeness Audit
 

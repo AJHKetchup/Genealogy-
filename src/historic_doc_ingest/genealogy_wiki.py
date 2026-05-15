@@ -2540,7 +2540,8 @@ Preserve:
 - page numbers and visible page labels
 - titles, headers, mastheads, column order, captions, marginalia, stamps, signatures, and image positions
 - literal spelling, punctuation, line breaks where genealogically meaningful, and uncertain readings
-- separation between transcription, translation, interpretation, and uncertainty
+- separation between literal transcription, visual notes, uncertainty, and completeness notes
+- no translation, interpretation, summary, or genealogy claim extraction
 
 Extract images:
 
@@ -2564,13 +2565,7 @@ Use this page-level structure:
 
 Inline extracted images here, placed in reading order, with captions and crop uncertainty.
 
-## Translation
-
-## Interpretation
-
 ## Uncertain Or Illegible
-
-## Extracted Genealogy Leads
 
 ## Completeness Audit
 ```
@@ -4715,10 +4710,7 @@ SOURCE_PREP_REQUIRED_PAGE_SECTIONS = [
     "Layout And Reading Order",
     "Literal Transcription",
     "Images, Captions, And Visual Notes",
-    "Translation",
-    "Interpretation",
     "Uncertain Or Illegible",
-    "Extracted Genealogy Leads",
     "Completeness Audit",
 ]
 SOURCE_PREP_REPAIR_FLAGS = {
@@ -5419,21 +5411,9 @@ The page was accepted for the fast lane because the PDF exposes native text bloc
 
 No portrait, handwriting-only region, full-page scan layer, or damaged raster document image was accepted by this fast lane. Pages with those traits remain queued for visual Codex conversion.
 
-## Translation
-
-Not translated in source preparation. Any later translation should cite this literal transcription and the rendered page image.
-
-## Interpretation
-
-No genealogy conclusions are made in this conversion page. The page text is prepared for downstream source-packet, claim extraction, and proof review.
-
 ## Uncertain Or Illegible
 
 No uncertain readings were flagged by the deterministic safety profile. If downstream research finds a family-name conflict or a suspicious reading, queue this exact page for targeted visual reread.
-
-## Extracted Genealogy Leads
-
-Potential names, places, organizations, dates, titles, and events are preserved in the literal transcription for downstream extraction. This page does not assert identity, relationship, or event claims.
 
 ## Completeness Audit
 
@@ -5982,10 +5962,7 @@ Write Markdown using these exact top-level sections:
 ## Layout And Reading Order
 ## Literal Transcription
 ## Images, Captions, And Visual Notes
-## Translation
-## Interpretation
 ## Uncertain Or Illegible
-## Extracted Genealogy Leads
 ## Completeness Audit
 ## Visual Region Manifest
 
@@ -5995,10 +5972,9 @@ Accuracy rules:
 - Preserve tables, forms, columns, captions, stamps, signatures, marginalia, and handwritten insertions in reading order.
 - Preserve original spelling, punctuation, capitalization, line breaks, and source language as much as possible.
 - Use `[?]` for uncertain readings and `[illegible]` only when no plausible reading is possible.
-- If the page is too dense to complete without truncation, convert the most relevant visible page region first and clearly state what remains unresolved in the completeness audit.
+- If the page is too dense to complete without truncation, preserve the full-page reading order and clearly state what remains unresolved in the completeness audit.
 - Do not invent missing text, dates, names, or relationships.
-- Keep translation, interpretation, genealogy leads, and uncertainty separate from the literal transcription.
-- Do not make genealogy conclusions. Preserve evidence for downstream claim extraction and proof review.
+- Do not translate, summarize, interpret, or extract genealogy leads. Preserve evidence for downstream agents.
 
 Visual extraction rules:
 
@@ -6549,7 +6525,7 @@ def source_prep_gemini_run(
                     paths.root,
                     raw_task,
                     markdown,
-                    require_manifest=bool(route.get("use_crops")),
+                    require_manifest=True,
                 )
             except Exception as exc:
                 update_agent_task_state(
