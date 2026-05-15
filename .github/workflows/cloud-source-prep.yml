@@ -6,9 +6,9 @@ on:
       limit:
         description: "Maximum pages to convert this run"
         required: false
-        default: "80"
+        default: "500"
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
 
 concurrency:
   group: cloud-source-prep
@@ -20,7 +20,7 @@ permissions:
 jobs:
   source-prep:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 360
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -71,7 +71,7 @@ jobs:
           --conversion-only
           --pages-per-job 25
           --batch-pages 1
-          --queue-limit 240
+          --queue-limit 1000
           --stale-minutes 360
 
       - name: Convert missing pages with Gemini
@@ -79,8 +79,8 @@ jobs:
         run: >
           python -m historic_doc_ingest.genealogy_wiki gemini-source-prep
           --root .
-          --limit "${{ github.event.inputs.limit || '80' }}"
-          --queue-limit 240
+          --limit "${{ github.event.inputs.limit || '500' }}"
+          --queue-limit 1000
           --stale-minutes 360
           --lite-model gemini-2.5-flash-lite
           --pro-model gemini-2.5-pro
@@ -96,7 +96,7 @@ jobs:
           --conversion-only
           --pages-per-job 25
           --batch-pages 1
-          --queue-limit 240
+          --queue-limit 1000
           --stale-minutes 360
 
       - name: Publish conversion outputs
