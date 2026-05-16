@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T18:21:56Z",
+  "created": "2026-05-16T18:43:23Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
   "limit": 10,
@@ -9,13 +9,14 @@
     "lite": "gemini-2.5-flash-lite",
     "pro": "gemini-2.5-pro"
   },
-  "processed": 10,
-  "completed": 8,
-  "released": 2,
-  "skipped": 212,
-  "discovery_skipped": 212,
+  "processed": 4,
+  "completed": 4,
+  "released": 0,
+  "skipped": 348,
+  "discovery_skipped": 347,
+  "media_skipped": 1,
   "route_counts": {
-    "pro": 10
+    "pro": 4
   },
   "tasks": [
     {
@@ -322,6 +323,286 @@
     {
       "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63:p0063",
       "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63:p0063",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0064",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0064",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0065",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0065",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0066",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0066",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0067",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0067",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0068",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0068",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0069",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0069",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0070",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0070",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0071",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0071",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0072",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0072",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0073",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0073",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0074",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0074",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0075",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0075",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0076",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0076",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0077",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0077",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0078",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0078",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0079",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0079",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0080",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0080",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0081",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0081",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0082",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0082",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0083",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0083",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0084",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0084",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0085",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0085",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0086",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0086",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0087",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0087",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0088",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0088",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0089",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0089",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0090",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0090",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0091",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0091",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0092",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0092",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0093",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0093",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0094",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0094",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0095",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0095",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0096",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0096",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0097",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0097",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0098",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0098",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0099",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0099",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0100",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0100",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0101",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0101",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0102",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0102",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0103",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0103",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -866,11 +1147,299 @@
       "discovery_path": ""
     },
     {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0061",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0061",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0062",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0062",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0063",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0063",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0064",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0064",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0065",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0065",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0066",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0066",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0067",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0067",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0068",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0068",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0069",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0069",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0070",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0070",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0071",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0071",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0072",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0072",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0073",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0073",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0074",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0074",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0075",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0075",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0076",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0076",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0077",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0077",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0078",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0078",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0079",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0079",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0080",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0080",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0081",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0081",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0082",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0082",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0083",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0083",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0084",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0084",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0085",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0085",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0086",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0086",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0087",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0087",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0088",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0088",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0089",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0089",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0090",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0090",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0091",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0091",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0092",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0092",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0093",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0093",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0094",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0094",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0095",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0095",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0096",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0096",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0097",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0097",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0098",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0098",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0099",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0099",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0100",
+      "batch_task_id": "source-prep-batch:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0100",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
       "task_id": "source-prep:ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire:p0001",
       "batch_task_id": "source-prep-batch:ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire:p0001",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
+      "batch_task_id": "source-prep-batch:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
+      "status": "skipped",
+      "reason": "audio_media_pipeline",
+      "source": "raw/sources/Dario Arturo Pulgar (Interview 11-24-2024).m4a",
+      "page_image": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-images/dario-arturo-pulgar-interview-11-24-2024-50f9e5701e9e.m4a"
     },
     {
       "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004",
@@ -1503,145 +2072,389 @@
       "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0006.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0006.md",
-      "usage": {
-        "promptTokenCount": 1352,
-        "candidatesTokenCount": 1564,
-        "totalTokenCount": 5042,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1094
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 2126,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0006.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0061",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0061",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0007.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0007.md",
-      "usage": {
-        "promptTokenCount": 1352,
-        "candidatesTokenCount": 1149,
-        "totalTokenCount": 5885,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1094
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 3384,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0007.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0062",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0062",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
     },
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0008.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0008.md",
-      "usage": {
-        "promptTokenCount": 1352,
-        "candidatesTokenCount": 1256,
-        "totalTokenCount": 4680,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1094
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 2072,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0008.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0063",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0063",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0064",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0064",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0065",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0065",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0066",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0066",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0067",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0067",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0068",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0068",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0069",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0069",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0070",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0070",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0071",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0071",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0072",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0072",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0073",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0073",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0074",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0074",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0075",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0075",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0076",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0076",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0077",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0077",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0078",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0078",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0079",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0079",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0080",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0080",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0081",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0081",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0082",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0082",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0083",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0083",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0084",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0084",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0085",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0085",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0086",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0086",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0087",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0087",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0088",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0088",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0089",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0089",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0090",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0090",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0091",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0091",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0092",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0092",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0093",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0093",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0094",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0094",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0095",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0095",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0096",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0096",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0097",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0097",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0098",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0098",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0099",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0099",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0100",
+      "batch_task_id": "source-prep-batch:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0100",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d:p0001",
+      "batch_task_id": "source-prep-batch:ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d:p0001",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004:p0001",
+      "batch_task_id": "source-prep-batch:caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004:p0001",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge:p0001",
+      "batch_task_id": "source-prep-batch:cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge:p0001",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928:p0001",
+      "batch_task_id": "source-prep-batch:cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928:p0001",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0001",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0001",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0002",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0002",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0003",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0003",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0004",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0004",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0005",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0005",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0006",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0006",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0007",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0007",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0008",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0008",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0009",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0009",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0010",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0011",
+      "batch_task_id": "source-prep-batch:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0011",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
     },
     {
       "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009",
@@ -1653,26 +2466,27 @@
         "relevant": false,
         "complex": true,
         "reasons": [
+          "complex_quality_flags",
           "pdf_profile_complex"
         ]
       },
       "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0009.jpg",
       "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0009.md",
       "usage": {
-        "promptTokenCount": 1352,
-        "candidatesTokenCount": 1584,
-        "totalTokenCount": 9091,
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 1243,
+        "totalTokenCount": 7916,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1094
+            "tokenCount": 1106
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 6155,
+        "thoughtsTokenCount": 5309,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
@@ -1684,56 +2498,6 @@
         "flags": []
       },
       "review": {
-        "status": "needs_reread",
-        "quality_flags": [
-          "possible_table_layout_loss"
-        ],
-        "missing_sections": []
-      },
-      "status": "released",
-      "reason": "review_failed"
-    },
-    {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0010.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0010.md",
-      "usage": {
-        "promptTokenCount": 1353,
-        "candidatesTokenCount": 1078,
-        "totalTokenCount": 5140,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1095
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 2709,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0010.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
         "status": "done",
         "quality_flags": [],
         "missing_sections": []
@@ -1741,8 +2505,8 @@
       "status": "done"
     },
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011",
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0008",
+      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0008",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
@@ -1753,125 +2517,12 @@
           "pdf_profile_complex"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0011.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0011.md",
-      "usage": {
-        "promptTokenCount": 1353,
-        "candidatesTokenCount": 1149,
-        "totalTokenCount": 5862,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1095
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 3360,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0011.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    },
-    {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-images/page-0012.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0012.md",
-      "usage": {
-        "promptTokenCount": 1353,
-        "candidatesTokenCount": 863,
-        "totalTokenCount": 3897,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1095
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 1681,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0012.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    },
-    {
-      "task_id": "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
-      "batch_task_id": "source-prep-batch:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "large_page_image"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-images/dario-arturo-pulgar-interview-11-24-2024-50f9e5701e9e.m4a",
-      "output_path": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-markdown/page-0001.md",
-      "status": "released",
-      "reason": "gemini_error",
-      "error": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Unsupported MIME type: application/octet-stream\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004",
-      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0004.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0004.md",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0008.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0008.md",
       "usage": {
         "promptTokenCount": 1391,
-        "candidatesTokenCount": 234,
-        "totalTokenCount": 2364,
+        "candidatesTokenCount": 232,
+        "totalTokenCount": 2659,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -1882,12 +2533,12 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 739,
+        "thoughtsTokenCount": 1036,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0004.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0008.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -1901,8 +2552,8 @@
       "status": "done"
     },
     {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0006",
-      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0006",
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009",
+      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
@@ -1913,12 +2564,12 @@
           "pdf_profile_complex"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0006.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0006.md",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0009.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0009.md",
       "usage": {
         "promptTokenCount": 1391,
-        "candidatesTokenCount": 169,
-        "totalTokenCount": 2787,
+        "candidatesTokenCount": 356,
+        "totalTokenCount": 2377,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
@@ -1929,12 +2580,59 @@
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1227,
+        "thoughtsTokenCount": 630,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0006.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0009.visuals.json",
+        "declared": 0,
+        "cropped": 0,
+        "skipped": 0,
+        "flags": []
+      },
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      },
+      "status": "done"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0010",
+      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0010",
+      "route": {
+        "tier": "pro",
+        "model": "gemini-2.5-pro",
+        "use_crops": false,
+        "relevant": false,
+        "complex": true,
+        "reasons": [
+          "pdf_profile_complex"
+        ]
+      },
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0010.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0010.md",
+      "usage": {
+        "promptTokenCount": 1392,
+        "candidatesTokenCount": 520,
+        "totalTokenCount": 3514,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1134
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 258
+          }
+        ],
+        "thoughtsTokenCount": 1602,
+        "serviceTier": "standard"
+      },
+      "finish_reason": "STOP",
+      "visual_regions": {
+        "manifest_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0010.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -1949,15 +2647,15 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 12249,
-    "candidate_tokens": 9046,
-    "total_tokens": 44748
+    "prompt_tokens": 5538,
+    "candidate_tokens": 2351,
+    "total_tokens": 16466
   },
   "visual_regions": {
     "declared": 0,
     "cropped": 0,
     "skipped": 0,
-    "manifests": 9
+    "manifests": 4
   },
-  "finished": "2026-05-16T18:22:59Z"
+  "finished": "2026-05-16T18:44:08Z"
 }

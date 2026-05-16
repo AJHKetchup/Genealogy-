@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ce7320260023-P0001-01
+chunk_id: CHUNK-10ee907b1637-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: ce7320260023246cf622977173b86019438b44515ec3ba4d7163584e3fd249fc
+converted_sha256: 10ee907b163745de15a9f3ef17d44b2c9688bd9159462457d674e6614f1b2546
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -290,3 +290,8 @@ This page has been transcribed in its entirety. All typed text, handwritten marg
   "no_visual_regions_reason": "The page contains only typed and handwritten text, with no significant illustrations, photographs, or complex diagrams to warrant cropping."
 }
 ```
+
+## Page Metadata
+
+- Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009`
+- Page: 9

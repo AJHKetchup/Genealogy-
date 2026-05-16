@@ -66,7 +66,7 @@
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-          "sha256": "ce7320260023246cf622977173b86019438b44515ec3ba4d7163584e3fd249fc"
+          "sha256": "10ee907b163745de15a9f3ef17d44b2c9688bd9159462457d674e6614f1b2546"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
@@ -127,6 +127,20 @@
           "page_range": "24-43"
         },
         {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0084-0103",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 84-103",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/manifest.json",
+          "status": "prepared",
+          "page_range": "84-103"
+        },
+        {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0104-0123",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 104-123",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123/manifest.json",
+          "status": "prepared",
+          "page_range": "104-123"
+        },
+        {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0064-0083",
           "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 64-83",
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json",
@@ -142,6 +156,12 @@
           "sha256": "7935f644d3877e9f76c555e71e76fbc09763279d4841bd5d4379589adbc2bec2"
         },
         {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/manifest.json",
+          "sha256": "ce47acdf4681f4911505318b3e7996f76c334db14bde1cedc199e02cadec173b"
+        },
+        {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json",
@@ -152,6 +172,18 @@
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/manifest.json",
           "sha256": "9cc4e60c9719ce0edf0fbf1409e36555ee615a45054d072d7f159bfd6bb8ed6d"
+        },
+        {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json",
+          "sha256": "08e2dae588a3016069d1936d435ad7a3591bd9c5d8ccb564ad251b7bb7a7c1fe"
+        },
+        {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json",
+          "sha256": "27415e031382b534052f561049ad6be8cb96fc648fad4f42bdb1008fafd79cb2"
         }
       ],
       "cloud": {
@@ -259,11 +291,25 @@
           "page_range": "64-83"
         },
         {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0104-0123",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 104-123",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+          "status": "prepared",
+          "page_range": "104-123"
+        },
+        {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0001-0003",
           "title": "Cámara de Senadores de la Nación, 1936 pages 1-3",
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json",
           "status": "prepared",
           "page_range": "1-3"
+        },
+        {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0084-0103",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 84-103",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json",
+          "status": "prepared",
+          "page_range": "84-103"
         },
         {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0024-0043",
@@ -457,6 +503,13 @@
           "page_range": "1-20"
         },
         {
+          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0101-0115",
+          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 101-115",
+          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json",
+          "status": "prepared",
+          "page_range": "101-115"
+        },
+        {
           "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0041-0060",
           "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 41-60",
           "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
@@ -469,6 +522,13 @@
           "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json",
           "status": "prepared",
           "page_range": "21-40"
+        },
+        {
+          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0081-0100",
+          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 81-100",
+          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json",
+          "status": "prepared",
+          "page_range": "81-100"
         },
         {
           "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0061-0080",
@@ -530,6 +590,13 @@
           "page_range": "61-80"
         },
         {
+          "job_id": "CA47b759d1-historia-del-hospital-cl-p0081-0100",
+          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 81-100",
+          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/manifest.json",
+          "status": "prepared",
+          "page_range": "81-100"
+        },
+        {
           "job_id": "CA47b759d1-historia-del-hospital-cl-p0001-0020",
           "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 1-20",
           "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json",
@@ -542,6 +609,13 @@
           "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json",
           "status": "prepared",
           "page_range": "21-40"
+        },
+        {
+          "job_id": "CA47b759d1-historia-del-hospital-cl-p0101-0120",
+          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 101-120",
+          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/manifest.json",
+          "status": "prepared",
+          "page_range": "101-120"
         },
         {
           "job_id": "CA47b759d1-historia-del-hospital-cl-p0041-0060",
