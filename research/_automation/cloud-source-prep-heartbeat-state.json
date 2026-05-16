@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T10:36:41Z",
+  "created": "2026-05-16T10:56:50Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -75,7 +75,7 @@
       "name": "research-analyzer",
       "status": "ran",
       "detail": {
-        "version": 4,
+        "version": 5,
         "created": "2026-05-16",
         "mode": "research-analyzer",
         "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
@@ -97,6 +97,8 @@
         "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
         "research_leads": "research/_indexes/research-leads.json",
         "research_lead_queue": "research/_agent-queues/research-leads.json",
+        "external_research_requests": "research/_indexes/external-research-requests.json",
+        "external_research_queue": "research/_agent-queues/external-research.json",
         "staging_opportunity_pages": 2,
         "staging_recommendation_counts": {
           "claim": 2,
@@ -118,6 +120,14 @@
           "unresolved_lead": 11
         },
         "research_lead_tasks": 14,
+        "external_research_request_count": 3,
+        "external_research_status_counts": {
+          "blocked_pending_conversion_qa": 3
+        },
+        "external_research_review_status_counts": {
+          "repeated_unresolved_lead": 3
+        },
+        "external_research_tasks": 3,
         "blockers": [],
         "state": "research/_automation/research-analyzer-state.json"
       }
@@ -204,8 +214,15 @@
       "status_counts": {
         "blocked_pending_conversion_qa": 14
       }
+    },
+    "external_research": {
+      "path": "research/_agent-queues/external-research.json",
+      "task_count": 3,
+      "status_counts": {
+        "blocked_pending_conversion_qa": 3
+      }
     }
   },
-  "finished": "2026-05-16T10:36:41Z",
+  "finished": "2026-05-16T10:56:51Z",
   "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T10:36:41Z
+Generated: 2026-05-16T10:56:50Z
 
 ## Source Conversion
 
@@ -37,6 +37,8 @@ Generated: 2026-05-16T10:36:41Z
 - Analyzer lead page references: 18
 - Analyzer lead classifications: ambiguous_marker: 1, person_name: 3, titled_name: 11
 - Analyzer lead review statuses: low_signal: 1, repeated_unresolved_lead: 3, unresolved_lead: 11
+- Analyzer external research requests: 3
+- Analyzer external research statuses: blocked_pending_conversion_qa: 3
 - Staging drafts: claims: 0, identity: 0, relationships: 0, source_packets: 0
 
 ## Page Upgrades
@@ -50,7 +52,7 @@ Generated: 2026-05-16T10:36:41Z
 
 ## Next Actions
 
-- **high** `conversion_qa`: Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages. (4 converted source(s) are waiting for conversion-QA triage. 24 downstream task(s) are held by this gate.)
+- **high** `conversion_qa`: Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages. (4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate.)
 - **high** `evidence_extraction`: Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction. (8 evidence-extraction task(s) are blocked by the conversion-QA gate.)
 - **low** `source_conversion`: Prepare the next bounded raw-source batch while preserving originals in R2. (48 source(s) are registered but not yet converted.)
 
@@ -60,6 +62,7 @@ Generated: 2026-05-16T10:36:41Z
 | --- | ---: | --- |
 | conversion_qa | 4 | todo: 4 |
 | evidence_extraction | 8 | blocked_pending_conversion_qa: 8 |
+| external_research | 3 | blocked_pending_conversion_qa: 3 |
 | research_leads | 14 | blocked_pending_conversion_qa: 14 |
 | research_questions | 2 | blocked_pending_conversion_qa: 2 |
 | source_prep | 5 | done: 5 |
@@ -69,7 +72,7 @@ Generated: 2026-05-16T10:36:41Z
 
 | Blocker | Blocking Tasks | Blocked Tasks | Blocked Queues | Next Step |
 | --- | ---: | ---: | --- | --- |
-| pending_conversion_qa | 4 | 24 | evidence_extraction: 8, research_leads: 14, research_questions: 2 | Complete conversion-QA tasks, then regenerate queues to release extraction, lead, and research-question work. |
+| pending_conversion_qa | 4 | 27 | evidence_extraction: 8, external_research: 3, research_leads: 14, research_questions: 2 | Complete conversion-QA tasks, then regenerate queues to release extraction, lead, external-research, and research-question work. |
 
 ## Storage
 

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T10:36:41Z",
+  "created": "2026-05-16T10:56:50Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T10:36:41Z",
+    "created": "2026-05-16T10:56:50Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -55,6 +55,11 @@
       "unresolved_lead": 11
     },
     "research_leads": "research/_indexes/research-leads.json",
+    "analyzer_external_research_requests": 3,
+    "analyzer_external_research_statuses": {
+      "blocked_pending_conversion_qa": 3
+    },
+    "external_research_requests": "research/_indexes/external-research-requests.json",
     "staging_counts": {
       "source_packets": 0,
       "claims": 0,
@@ -111,19 +116,27 @@
       "status_counts": {
         "blocked_pending_conversion_qa": 14
       }
+    },
+    "external_research": {
+      "path": "research/_agent-queues/external-research.json",
+      "task_count": 3,
+      "status_counts": {
+        "blocked_pending_conversion_qa": 3
+      }
     }
   },
   "queue_blockers": {
     "pending_conversion_qa": {
       "blocking_queue": "research/_agent-queues/conversion-qa.json",
       "blocking_task_count": 4,
-      "blocked_task_count": 24,
+      "blocked_task_count": 27,
       "blocked_queues": {
         "evidence_extraction": 8,
         "research_questions": 2,
-        "research_leads": 14
+        "research_leads": 14,
+        "external_research": 3
       },
-      "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, and research-question work."
+      "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, external-research, and research-question work."
     }
   },
   "storage": {
@@ -155,7 +168,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T10:36:41Z",
+      "created": "2026-05-16T10:56:50Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },
@@ -183,7 +196,7 @@
     {
       "area": "conversion_qa",
       "priority": "high",
-      "reason": "4 converted source(s) are waiting for conversion-QA triage. 24 downstream task(s) are held by this gate.",
+      "reason": "4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate.",
       "next_step": "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
       "count": 4,
       "queue": "research/_agent-queues/conversion-qa.json"

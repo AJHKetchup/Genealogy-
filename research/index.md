@@ -37,6 +37,8 @@
 
 - [[research-leads]]
 
+- [[external-research-requests]]
+
 ## Questions
 
 - [[questions/rq-b4dc978311d3-p0001]]

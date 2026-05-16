@@ -207,6 +207,7 @@ Storage deaccession is allowed only when:
 - Implemented: research-analyzer genealogy lead index with page-level source provenance.
 - Implemented: research-analyzer lead classification and review-status counts for dashboard triage.
 - Implemented: research-analyzer lead review queue with conversion-QA gate blocking.
+- Implemented: research-analyzer external-research request artifacts and queue for repeated unresolved leads, with conversion-QA gates and R2 intake routing.
 - Implemented: research-analyzer staging-opportunity readiness gates from conversion QA and reread holds.
 - Implemented: research-analyzer question prompt packets that use the shared agent-queue/task-state contract.
 - Implemented: research-analyzer question tasks honor conversion-QA page holds before evidence extraction.

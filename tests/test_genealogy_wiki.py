@@ -1582,6 +1582,80 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert lead_queue_after_qa["tasks"][0]["status"] == "todo"
 
 
+def test_research_analyzer_queues_repeated_leads_for_external_research(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "repeated-lead.codex.md"
+    converted.write_text(
+        """# Repeated Lead Source
+
+# Page 1
+
+## Literal Transcription
+
+M. Werner appears in a professional list.
+
+## Extracted Genealogy Leads
+
+- **M. Werner**
+
+# Page 2
+
+## Literal Transcription
+
+M. Werner appears again in a related notice.
+
+## Extracted Genealogy Leads
+
+- **M. Werner**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    summary = research_analyzer_run(tmp_path, limit=3)
+
+    assert summary["external_research_request_count"] == 1
+    assert summary["external_research_status_counts"] == {"blocked_pending_conversion_qa": 1}
+    assert summary["external_research_tasks"] == 1
+    index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
+    assert index["external_research_requests"] == "research/_indexes/external-research-requests.json"
+    assert index["external_research_queue"] == "research/_agent-queues/external-research.json"
+    requests = json.loads(
+        (tmp_path / "research" / "_indexes" / "external-research-requests.json").read_text(encoding="utf-8")
+    )
+    assert requests["summary"]["request_count"] == 1
+    assert requests["summary"]["status_counts"] == {"blocked_pending_conversion_qa": 1}
+    request = requests["requests"][0]
+    assert request["lead"] == "M. Werner"
+    assert request["review_status"] == "repeated_unresolved_lead"
+    assert request["page_reference_count"] == 2
+    assert request["search_terms"] == ["M. Werner", "Werner"]
+    assert request["r2_intake_next_step"].startswith("If a search locates raw source")
+    request_text = (tmp_path / "research" / "external-research-requests.md").read_text(encoding="utf-8")
+    assert "External Research Requests" in request_text
+    assert "M. Werner" in request_text
+    assert "R2 raw-source inbox" in request_text
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "external-research.json").read_text())
+    assert queue["task_count"] == 1
+    assert queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
+    assert queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
+    assert queue["tasks"][0]["lead"] == "M. Werner"
+    prompt_text = (tmp_path / queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "Conversion QA Gate" in prompt_text
+    assert "R2 raw-source inbox" in prompt_text
+
+    update_agent_task_state(
+        tmp_path,
+        genealogy_wiki.conversion_qa_task_id_for_converted_file("raw/converted/repeated-lead.codex.md"),
+        "done",
+        agent="qa-1",
+    )
+    after_qa = research_analyzer_run(tmp_path, limit=3)
+    assert after_qa["external_research_status_counts"] == {"todo": 1}
+    queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "external-research.json").read_text())
+    assert queue_after_qa["tasks"][0]["status"] == "todo"
+
+
 def test_conversion_qa_prompt_includes_research_analyzer_context(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     converted = tmp_path / "raw" / "converted" / "qa-context-record.codex.md"
@@ -2160,6 +2234,8 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "Analyzer research leads" in dashboard_text
     assert "Analyzer lead classifications" in dashboard_text
     assert "Analyzer lead review statuses" in dashboard_text
+    assert "Analyzer external research requests" in dashboard_text
+    assert "Analyzer external research statuses" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Queue Blockers" in dashboard_text
     assert "## Storage" in dashboard_text

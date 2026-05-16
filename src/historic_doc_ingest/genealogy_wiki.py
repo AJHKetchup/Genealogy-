@@ -5189,7 +5189,7 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
-RESEARCH_ANALYZER_VERSION = 4
+RESEARCH_ANALYZER_VERSION = 5
 RESEARCH_ANALYZER_UPGRADE_SCORE = 50
 RESEARCH_ANALYZER_SIGNAL_SCORE = 20
 RESEARCH_ANALYZER_QUESTION_SCORE = 20
@@ -5817,6 +5817,18 @@ def research_analyzer_lead_queue_path(root: Path) -> Path:
     return root.resolve() / "research" / "_agent-queues" / "research-leads.json"
 
 
+def external_research_requests_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "external-research-requests.json"
+
+
+def external_research_requests_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "external-research-requests.md"
+
+
+def external_research_queue_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "external-research.json"
+
+
 def write_research_analyzer_state(root: Path, summary: dict[str, object]) -> Path:
     path = research_analyzer_state_path(root)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -6239,6 +6251,399 @@ def write_research_lead_review_queue(
     return path
 
 
+def external_research_request_id(lead: dict[str, object]) -> str:
+    lead_key = str(lead.get("lead_key", "")).strip() or slug(str(lead.get("lead", "")))
+    if not lead_key:
+        lead_key = hashlib.sha256(str(lead.get("lead", "")).encode("utf-8")).hexdigest()[:12]
+    return f"external-research:{lead_key}"
+
+
+def external_research_search_terms(lead: dict[str, object]) -> list[str]:
+    terms: list[str] = []
+
+    def add(value: object) -> None:
+        text = re.sub(r"\s+", " ", str(value)).strip()
+        if text and text not in terms:
+            terms.append(text)
+
+    lead_text = str(lead.get("lead", "")).strip()
+    add(lead_text)
+    stripped_title = re.sub(
+        r"(?i)^(m|mr|mrs|ms|mme|mlle|dr|prof|gen|general)\.?\s+",
+        "",
+        lead_text,
+    ).strip()
+    if stripped_title != lead_text:
+        add(stripped_title)
+    matched_family_terms = lead.get("matched_family_terms", [])
+    if isinstance(matched_family_terms, list):
+        for term in matched_family_terms:
+            add(term)
+    return terms[:12]
+
+
+def build_external_research_requests_payload(root: Path, leads_payload: dict[str, object]) -> dict[str, object]:
+    leads = leads_payload.get("leads", [])
+    if not isinstance(leads, list):
+        leads = []
+    task_state = load_agent_task_state(root)
+    qc_blocked_by_source = load_qc_blocked_pages(root)
+    requests = [
+        build_external_research_request(root, lead, task_state, qc_blocked_by_source)
+        for lead in leads
+        if isinstance(lead, dict) and str(lead.get("review_status", "")) == "repeated_unresolved_lead"
+    ]
+    requests.sort(
+        key=lambda request: (
+            external_research_status_sort_priority(str(request.get("status", ""))),
+            -safe_int(request.get("page_reference_count"), 0),
+            str(request.get("lead", "")).casefold(),
+        )
+    )
+    review_status_counts: dict[str, int] = {}
+    classification_counts: dict[str, int] = {}
+    for request in requests:
+        review_status = str(request.get("review_status", "unknown")).strip() or "unknown"
+        classification = str(request.get("lead_classification", "unknown")).strip() or "unknown"
+        review_status_counts[review_status] = review_status_counts.get(review_status, 0) + 1
+        classification_counts[classification] = classification_counts.get(classification, 0) + 1
+    return {
+        "version": RESEARCH_ANALYZER_VERSION,
+        "created": utc_timestamp(),
+        "purpose": (
+            "External-research handoffs generated from repeated unresolved genealogy leads in converted chunks. "
+            "These are source-discovery requests, not canonical claims or person identities."
+        ),
+        "inputs": {
+            "research_leads": relative_to_root(research_analyzer_leads_index_path(root), root),
+            "chunks": "raw/chunks/*/manifest.json",
+        },
+        "summary": {
+            "request_count": len(requests),
+            "page_reference_count": sum(safe_int(request.get("page_reference_count"), 0) for request in requests),
+            "source_count": len(
+                {
+                    source
+                    for request in requests
+                    for source in request.get("sources", [])
+                    if isinstance(source, str) and source.strip()
+                }
+            ),
+            "status_counts": count_task_statuses(requests),
+            "lead_review_status_counts": dict(sorted(review_status_counts.items())),
+            "lead_classification_counts": dict(sorted(classification_counts.items())),
+        },
+        "requests": requests,
+        "storage_contract": (
+            "GitHub stores this JSON/Markdown request map and queue prompts. R2 continues to hold raw originals "
+            "and durable binary assets; external raw-source finds must enter through the R2 raw-source inbox."
+        ),
+    }
+
+
+def external_research_status_sort_priority(status: str) -> int:
+    return {
+        "todo": 0,
+        "claimed": 1,
+        "in_progress": 2,
+        "blocked_needs_reread": 3,
+        "blocked_pending_conversion_qa": 4,
+    }.get(status, 5)
+
+
+def build_external_research_request(
+    root: Path,
+    lead: dict[str, object],
+    task_state: dict[str, dict[str, object]],
+    qc_blocked_by_source: dict[str, dict[int, dict[str, object]]],
+) -> dict[str, object]:
+    pages = lead.get("pages", [])
+    if not isinstance(pages, list):
+        pages = []
+    page_refs = [page for page in pages if isinstance(page, dict)]
+    converted_files = sorted(
+        {
+            str(page.get("converted_file", "")).strip()
+            for page in page_refs
+            if str(page.get("converted_file", "")).strip()
+        }
+    )
+    sources = sorted(
+        {str(page.get("source", "")).strip() for page in page_refs if str(page.get("source", "")).strip()}
+    )
+    qc_holds = []
+    for page in page_refs:
+        converted_file = str(page.get("converted_file", "")).strip()
+        page_number = safe_int(page.get("page"), 0)
+        hold = qc_blocked_by_source.get(converted_file, {}).get(page_number)
+        if hold:
+            qc_holds.append(
+                {
+                    "converted_file": converted_file,
+                    "page": page_number,
+                    "recommended_action": hold.get("recommended_action", ""),
+                    "quality_flags": hold.get("quality_flags", []),
+                }
+            )
+    pending_conversion_qa_files = [
+        converted_file for converted_file in converted_files if not conversion_qa_is_done(task_state, converted_file)
+    ]
+    status = (
+        "blocked_needs_reread"
+        if qc_holds
+        else "blocked_pending_conversion_qa"
+        if pending_conversion_qa_files
+        else "todo"
+    )
+    request = {
+        "request_id": external_research_request_id(lead),
+        "lead": str(lead.get("lead", "")),
+        "lead_key": str(lead.get("lead_key", "")),
+        "lead_classification": str(lead.get("lead_classification", "")),
+        "review_status": str(lead.get("review_status", "")),
+        "status": status,
+        "page_reference_count": safe_int(lead.get("page_reference_count"), 0),
+        "source_count": safe_int(lead.get("source_count"), 0),
+        "sources": sources,
+        "converted_files": converted_files,
+        "search_terms": external_research_search_terms(lead),
+        "reason": (
+            "The analyzer saw this unresolved genealogy lead on multiple converted pages, so it may deserve "
+            "external archive, database, or web searching after conversion QA confirms the readings."
+        ),
+        "next_step": (
+            "After conversion QA clears the cited source(s), search external repositories for the lead and record "
+            "candidate source descriptors without promoting claims."
+        ),
+        "r2_intake_next_step": (
+            "If a search locates raw source images, PDFs, or other binary evidence, place those originals in the "
+            "R2 raw-source inbox and let source-intake monitoring register them; keep only Markdown/JSON notes, "
+            "manifests, queues, and prompts in GitHub."
+        ),
+        "pages": [
+            {
+                "source": str(page.get("source", "")),
+                "source_sha256": str(page.get("source_sha256", "")),
+                "converted_file": str(page.get("converted_file", "")),
+                "chunk_manifest": str(page.get("chunk_manifest", "")),
+                "page": safe_int(page.get("page"), 0),
+                "chunks": page.get("chunks", []),
+                "score": safe_int(page.get("score"), 0),
+                "recommended_action": str(page.get("recommended_action", "")),
+                "reasons": page.get("reasons", []),
+            }
+            for page in page_refs
+        ],
+    }
+    if qc_holds:
+        request["block_reason"] = "post_conversion_qc_hold"
+        request["qc_holds"] = qc_holds
+    elif pending_conversion_qa_files:
+        request["block_reason"] = "pending_conversion_qa"
+        request["conversion_qa_task_ids"] = [
+            conversion_qa_task_id_for_converted_file(converted_file)
+            for converted_file in pending_conversion_qa_files
+        ]
+        request["conversion_qa_triage"] = [
+            f"research/_conversion-review/triage/{slug(Path(converted_file).stem)}.md"
+            for converted_file in pending_conversion_qa_files
+        ]
+    return request
+
+
+def build_external_research_request_tasks(
+    payload: dict[str, object],
+) -> list[dict[str, object]]:
+    requests = payload.get("requests", [])
+    if not isinstance(requests, list):
+        return []
+    tasks = []
+    for request in requests:
+        if not isinstance(request, dict):
+            continue
+        task = dict(request)
+        task["task_id"] = str(request.get("request_id", ""))
+        task["queue"] = "external-research"
+        task["role"] = "external_researcher"
+        task["skill"] = "external-source-discovery"
+        task["prompt"] = build_external_research_request_prompt(request)
+        tasks.append(task)
+    tasks.sort(
+        key=lambda task: (
+            external_research_status_sort_priority(str(task.get("status", ""))),
+            -safe_int(task.get("page_reference_count"), 0),
+            str(task.get("lead", "")).casefold(),
+        )
+    )
+    return tasks
+
+
+def build_external_research_request_prompt(request: dict[str, object]) -> str:
+    page_rows = [
+        "| Page | Score | Converted File | Chunks | Source |",
+        "| ---: | ---: | --- | --- | --- |",
+    ]
+    pages = request.get("pages", [])
+    if not isinstance(pages, list):
+        pages = []
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        chunks = page.get("chunks", [])
+        chunk_text = ", ".join(f"`{chunk}`" for chunk in chunks if str(chunk).strip()) if isinstance(chunks, list) else ""
+        page_rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(page.get("page", "")),
+                    markdown_table_cell(page.get("score", "")),
+                    markdown_table_cell(page.get("converted_file", "")),
+                    markdown_table_cell(chunk_text or "none"),
+                    markdown_table_cell(page.get("source", "")),
+                ]
+            )
+            + " |"
+        )
+    gate_section = ""
+    if str(request.get("status", "")) == "blocked_needs_reread":
+        gate_section = """
+
+## Conversion QA Gate
+
+This request touches page(s) with conversion-QA reread holds. Do not use these readings for external searching until the reread is resolved and queues are regenerated.
+""".rstrip()
+    elif str(request.get("status", "")) == "blocked_pending_conversion_qa":
+        task_ids = request.get("conversion_qa_task_ids", [])
+        triage = request.get("conversion_qa_triage", [])
+        gate_section = f"""
+
+## Conversion QA Gate
+
+This request is blocked until conversion QA confirms the cited converted source(s).
+
+- Status: `blocked_pending_conversion_qa`
+- Conversion QA tasks: {", ".join(f"`{task_id}`" for task_id in task_ids if str(task_id).strip()) or "`none`"}
+- Expected triage notes: {", ".join(f"`{path}`" for path in triage if str(path).strip()) or "`none`"}
+
+Do not search or derive claims from this lead until the conversion QA task is completed and the queue is regenerated.
+""".rstrip()
+    search_terms = request.get("search_terms", [])
+    search_term_text = ", ".join(f"`{term}`" for term in search_terms if str(term).strip()) if isinstance(search_terms, list) else "`none`"
+    return f"""# External Research Request
+
+Use this only for source discovery. Do not edit canonical wiki pages.
+
+## Assignment
+
+- Lead: `{request.get("lead", "")}`
+- Classification: `{request.get("lead_classification", "")}`
+- Review status: `{request.get("review_status", "")}`
+- Page references: {safe_int(request.get("page_reference_count"), 0)}
+- Search terms: {search_term_text}{gate_section}
+
+## Source Pages
+
+{chr(10).join(page_rows)}
+
+## Storage Contract
+
+Raw source images, PDFs, audio, video, or other binaries found externally belong in the R2 raw-source inbox. GitHub should receive only Markdown/JSON notes, manifests, queues, prompts, chunks, staging/proof data, and final HTML/build files.
+
+## Done When
+
+- You decide whether the lead deserves external archive, database, or web follow-up.
+- Candidate source descriptors and acquisition notes are recorded outside canonical wiki pages.
+- Any new raw source binaries are routed to R2 intake rather than committed to GitHub.
+"""
+
+
+def write_external_research_requests(
+    root: Path,
+    leads_payload: dict[str, object],
+    payload: dict[str, object] | None = None,
+) -> tuple[Path, Path, Path, list[dict[str, object]]]:
+    paths = WikiPaths(root.resolve())
+    payload = payload or build_external_research_requests_payload(paths.root, leads_payload)
+    json_path = external_research_requests_index_path(paths.root)
+    markdown_path = external_research_requests_markdown_path(paths.root)
+    queue_path = external_research_queue_path(paths.root)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_external_research_requests_markdown(payload), encoding="utf-8")
+    tasks = build_external_research_request_tasks(payload)
+    queue_path = write_agent_queue(
+        paths.root,
+        queue_path.parent,
+        "external-research",
+        tasks,
+        load_agent_task_state(paths.root),
+        purpose=(
+            "External source-discovery tasks generated from repeated unresolved research-analyzer leads. "
+            "Raw source binaries discovered by these tasks must enter through R2 intake."
+        ),
+    )
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[external-research-requests]]")
+    append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
+    append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(queue_path, paths.root)}")
+    return json_path, markdown_path, queue_path, tasks
+
+
+def build_external_research_requests_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    requests = payload.get("requests", [])
+    if not isinstance(requests, list):
+        requests = []
+    rows = [
+        "| Lead | Status | Review | Page Refs | Sources | Search Terms |",
+        "| --- | --- | --- | ---: | ---: | --- |",
+    ]
+    for request in requests:
+        if not isinstance(request, dict):
+            continue
+        search_terms = request.get("search_terms", [])
+        search_text = ", ".join(str(term) for term in search_terms if str(term).strip()) if isinstance(search_terms, list) else ""
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(request.get("lead", "")),
+                    markdown_table_cell(request.get("status", "")),
+                    markdown_table_cell(request.get("review_status", "")),
+                    markdown_table_cell(request.get("page_reference_count", "")),
+                    markdown_table_cell(request.get("source_count", "")),
+                    markdown_table_cell(search_text or "none"),
+                ]
+            )
+            + " |"
+        )
+    return f"""# External Research Requests
+
+Generated: {payload.get("created", "")}
+
+These are analyzer-generated source-discovery handoffs for repeated unresolved leads. They do not promote claims or edit canonical wiki pages.
+
+## Summary
+
+- Requests: {dict_value(summary, "request_count")}
+- Page references: {dict_value(summary, "page_reference_count")}
+- Sources: {dict_value(summary, "source_count")}
+- Statuses: {format_status_counts(dict_value(summary, "status_counts", {}))}
+- Lead review statuses: {format_status_counts(dict_value(summary, "lead_review_status_counts", {}))}
+- Lead classifications: {format_status_counts(dict_value(summary, "lead_classification_counts", {}))}
+
+## R2 Intake Rule
+
+External raw-source finds belong in the R2 raw-source inbox. GitHub stores only Markdown/JSON notes, manifests, queues, prompts, chunks, staging/proof data, and final HTML/build files.
+
+## Requests
+
+{chr(10).join(rows)}
+"""
+
+
 def build_research_analyzer_leads_markdown(payload: dict[str, object]) -> str:
     summary = payload.get("summary", {})
     if not isinstance(summary, dict):
@@ -6561,6 +6966,20 @@ def research_analyzer_run(
     leads_summary = leads_payload.get("summary", {})
     if not isinstance(leads_summary, dict):
         leads_summary = {}
+    external_payload = build_external_research_requests_payload(paths.root, leads_payload)
+    external_json_path = external_research_requests_index_path(paths.root)
+    external_markdown_path = external_research_requests_markdown_path(paths.root)
+    external_queue_path = external_research_queue_path(paths.root)
+    external_tasks = build_external_research_request_tasks(external_payload)
+    if not dry_run:
+        external_json_path, external_markdown_path, external_queue_path, external_tasks = write_external_research_requests(
+            paths.root,
+            leads_payload,
+            external_payload,
+        )
+    external_summary = external_payload.get("summary", {})
+    if not isinstance(external_summary, dict):
+        external_summary = {}
 
     index_payload = {
         "version": RESEARCH_ANALYZER_VERSION,
@@ -6583,6 +7002,9 @@ def research_analyzer_run(
         "research_leads": relative_to_root(leads_json_path, paths.root),
         "research_leads_markdown": relative_to_root(leads_markdown_path, paths.root),
         "research_lead_queue": relative_to_root(lead_queue_path, paths.root),
+        "external_research_requests": relative_to_root(external_json_path, paths.root),
+        "external_research_requests_markdown": relative_to_root(external_markdown_path, paths.root),
+        "external_research_queue": relative_to_root(external_queue_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
@@ -6591,6 +7013,10 @@ def research_analyzer_run(
         "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
         "research_lead_review_status_counts": leads_summary.get("lead_review_status_counts", {}),
         "research_lead_tasks": len(lead_review_tasks),
+        "external_research_request_count": safe_int(external_summary.get("request_count"), 0),
+        "external_research_status_counts": external_summary.get("status_counts", {}),
+        "external_research_review_status_counts": external_summary.get("lead_review_status_counts", {}),
+        "external_research_tasks": len(external_tasks),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -6618,6 +7044,8 @@ def research_analyzer_run(
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
         "research_leads": relative_to_root(leads_json_path, paths.root),
         "research_lead_queue": relative_to_root(lead_queue_path, paths.root),
+        "external_research_requests": relative_to_root(external_json_path, paths.root),
+        "external_research_queue": relative_to_root(external_queue_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
@@ -6626,6 +7054,10 @@ def research_analyzer_run(
         "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
         "research_lead_review_status_counts": leads_summary.get("lead_review_status_counts", {}),
         "research_lead_tasks": len(lead_review_tasks),
+        "external_research_request_count": safe_int(external_summary.get("request_count"), 0),
+        "external_research_status_counts": external_summary.get("status_counts", {}),
+        "external_research_review_status_counts": external_summary.get("lead_review_status_counts", {}),
+        "external_research_tasks": len(external_tasks),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
@@ -11050,6 +11482,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
         "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
         "research_leads": system_queue_summary(paths.root, queue_dir / "research-leads.json"),
+        "external_research": system_queue_summary(paths.root, queue_dir / "external-research.json"),
     }
     payload = {
         "created": utc_timestamp(),
@@ -11075,10 +11508,12 @@ def build_system_queue_blocker_summary(queues: dict[str, object]) -> dict[str, o
     evidence_extraction = queue_payload(queues, "evidence_extraction")
     research_questions = queue_payload(queues, "research_questions")
     research_leads = queue_payload(queues, "research_leads")
+    external_research = queue_payload(queues, "external_research")
     pending_conversion_qa_counts = {
         "evidence_extraction": queue_status_total(evidence_extraction, ("blocked_pending_conversion_qa",)),
         "research_questions": queue_status_total(research_questions, ("blocked_pending_conversion_qa",)),
         "research_leads": queue_status_total(research_leads, ("blocked_pending_conversion_qa",)),
+        "external_research": queue_status_total(external_research, ("blocked_pending_conversion_qa",)),
     }
     pending_conversion_qa_counts = {
         queue: count for queue, count in pending_conversion_qa_counts.items() if count
@@ -11091,7 +11526,7 @@ def build_system_queue_blocker_summary(queues: dict[str, object]) -> dict[str, o
             "blocking_task_count": queue_status_total(conversion_qa, ("todo", "claimed", "in_progress")),
             "blocked_task_count": pending_total,
             "blocked_queues": pending_conversion_qa_counts,
-            "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, and research-question work.",
+            "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, external-research, and research-question work.",
         }
     return blockers
 
@@ -11202,6 +11637,18 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
             "Work grouped lead prompt packets and keep any outputs in research/_staging.",
             count=lead_open,
             queue=str(research_leads.get("path", "")),
+        )
+
+    external_research = queue_payload(queues, "external_research")
+    external_open = queue_status_total(external_research, ("todo", "claimed", "in_progress"))
+    if external_open:
+        add(
+            "external_research",
+            "medium",
+            f"{external_open} external source-discovery request(s) are ready.",
+            "Search archives, databases, or the web; route new raw-source binaries through R2 intake.",
+            count=external_open,
+            queue=str(external_research.get("path", "")),
         )
 
     active_upgrades = safe_int(dict_value(page_upgrades, "active_request_count"), 0)
@@ -11366,6 +11813,11 @@ def build_system_research_readiness_summary(
         "analyzer_research_lead_classifications": research_analyzer.get("research_lead_classification_counts", {}),
         "analyzer_research_lead_review_statuses": research_analyzer.get("research_lead_review_status_counts", {}),
         "research_leads": research_analyzer.get("research_leads", ""),
+        "analyzer_external_research_requests": safe_int(
+            research_analyzer.get("external_research_request_count"), 0
+        ),
+        "analyzer_external_research_statuses": research_analyzer.get("external_research_status_counts", {}),
+        "external_research_requests": research_analyzer.get("external_research_requests", ""),
         "staging_counts": {
             "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
             "claims": count_markdown_files(root / "research" / "_staging" / "claims"),
@@ -11615,6 +12067,8 @@ Generated: {payload.get("created", "")}
 - Analyzer lead page references: {dict_value(research_readiness, "analyzer_research_lead_page_references")}
 - Analyzer lead classifications: {format_status_counts(dict_value(research_readiness, "analyzer_research_lead_classifications", {}))}
 - Analyzer lead review statuses: {format_status_counts(dict_value(research_readiness, "analyzer_research_lead_review_statuses", {}))}
+- Analyzer external research requests: {dict_value(research_readiness, "analyzer_external_research_requests")}
+- Analyzer external research statuses: {format_status_counts(dict_value(research_readiness, "analyzer_external_research_statuses", {}))}
 - Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
 
 ## Page Upgrades
@@ -12031,6 +12485,7 @@ def cloud_source_prep_heartbeat(
                     "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
                     "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
                     "research_leads": system_queue_summary(paths.root, queue_dir / "research-leads.json"),
+                    "external_research": system_queue_summary(paths.root, queue_dir / "external-research.json"),
                 }
             )
     if not conversion_only and system_status:

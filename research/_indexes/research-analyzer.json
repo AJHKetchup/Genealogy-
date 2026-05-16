@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "created": "2026-05-16",
   "purpose": "Automated research-analyzer signals from converted chunks, including page-level upgrade candidates and research-question work items.",
   "family_context_terms": [],
@@ -16,6 +16,9 @@
   "research_leads": "research/_indexes/research-leads.json",
   "research_leads_markdown": "research/research-leads.md",
   "research_lead_queue": "research/_agent-queues/research-leads.json",
+  "external_research_requests": "research/_indexes/external-research-requests.json",
+  "external_research_requests_markdown": "research/external-research-requests.md",
+  "external_research_queue": "research/_agent-queues/external-research.json",
   "staging_opportunity_pages": 2,
   "staging_recommendation_counts": {
     "claim": 2,
@@ -37,6 +40,14 @@
     "unresolved_lead": 11
   },
   "research_lead_tasks": 14,
+  "external_research_request_count": 3,
+  "external_research_status_counts": {
+    "blocked_pending_conversion_qa": 3
+  },
+  "external_research_review_status_counts": {
+    "repeated_unresolved_lead": 3
+  },
+  "external_research_tasks": 3,
   "dry_run": false,
   "pages": [
     {
