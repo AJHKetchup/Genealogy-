@@ -14089,9 +14089,11 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
                         "conversion_qa_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
                     }
                 )
-            task["prompt"] = build_evidence_extraction_agent_prompt(task)
             tasks.append(task)
     tasks.sort(key=evidence_extraction_task_sort_key)
+    apply_evidence_extraction_priority_metadata(tasks)
+    for task in tasks:
+        task["prompt"] = build_evidence_extraction_agent_prompt(task)
     return tasks
 
 
@@ -14114,6 +14116,28 @@ def evidence_extraction_task_sort_key(task: dict[str, object]) -> tuple[int, int
         safe_int(task.get("page_start"), 0),
         str(task.get("chunk_id", "")),
     )
+
+
+def apply_evidence_extraction_priority_metadata(tasks: list[dict[str, object]]) -> None:
+    for index, task in enumerate(tasks, start=1):
+        task["extraction_priority_rank"] = index
+        task["extraction_priority_reason"] = evidence_extraction_priority_reason(task)
+        backlog_items = task.get("research_staging_backlog_items", [])
+        if isinstance(backlog_items, list) and backlog_items:
+            task["research_staging_backlog_count"] = len(backlog_items)
+
+
+def evidence_extraction_priority_reason(task: dict[str, object]) -> str:
+    if task.get("research_staging_backlog_items"):
+        return "research_analyzer_staging_backlog"
+    status = str(task.get("status", "")).strip()
+    if status == "todo":
+        return "qa_cleared"
+    if status == "blocked_pending_conversion_qa":
+        return "pending_conversion_qa"
+    if status == "blocked_needs_reread":
+        return "post_conversion_qc_hold"
+    return status or "unspecified"
 
 
 def research_staging_backlog_items_by_converted_page(root: Path) -> dict[tuple[str, int], list[dict[str, object]]]:
@@ -14524,6 +14548,8 @@ Use `$genealogy-claim-extraction`.
 - Chunk manifest: `{task["chunk_manifest"]}`
 - Original source: `{task["source"]}`
 - Page range: {task["page_start"]}-{task["page_end"]}
+- Priority rank: {safe_int(task.get("extraction_priority_rank"), 0)}
+- Priority reason: `{task.get("extraction_priority_reason", "")}`
 - Staging area: `{task["staging_dir"]}`{section_gap}{staging_section}{hold_section}
 
 ## Done When

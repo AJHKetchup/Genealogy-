@@ -1112,6 +1112,12 @@ def test_evidence_extraction_sort_prioritizes_analyzer_handoffs() -> None:
     ]
 
     assert sorted_ids == ["ready", "high-score", "low-score", "generic"]
+    sorted_tasks = sorted(tasks, key=genealogy_wiki.evidence_extraction_task_sort_key)
+    genealogy_wiki.apply_evidence_extraction_priority_metadata(sorted_tasks)
+    assert [task["extraction_priority_rank"] for task in sorted_tasks] == [1, 2, 3, 4]
+    assert sorted_tasks[1]["extraction_priority_reason"] == "research_analyzer_staging_backlog"
+    assert sorted_tasks[1]["research_staging_backlog_count"] == 1
+    assert sorted_tasks[3]["extraction_priority_reason"] == "pending_conversion_qa"
 
 
 def test_agent_task_state_claims_and_releases_queue_tasks(tmp_path) -> None:
@@ -1709,10 +1715,14 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
         if task["converted_file"] == "raw/converted/generic-record.codex.md"
     )
     assert extraction_task["research_analyzer_score"] == 20
+    assert extraction_task["extraction_priority_rank"] == 1
+    assert extraction_task["extraction_priority_reason"] == "research_analyzer_staging_backlog"
+    assert extraction_task["research_staging_backlog_count"] == 1
     assert {item["type"] for item in extraction_task["staging_recommendations"]} == {"source_packet", "claim"}
     assert extraction_task["research_staging_backlog_items"][0]["status"] == "blocked_pending_conversion_qa"
     extraction_prompt = (tmp_path / extraction_task["prompt_path"]).read_text(encoding="utf-8")
     assert "Research Analyzer Staging Handoff" in extraction_prompt
+    assert "Priority reason: `research_analyzer_staging_backlog`" in extraction_prompt
     assert "`source_packet` -> `research/_staging/source-packets`" in extraction_prompt
 
     update_agent_task_state(

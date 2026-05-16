@@ -56,6 +56,9 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "extraction_priority_rank": 1,
+      "extraction_priority_reason": "research_analyzer_staging_backlog",
+      "research_staging_backlog_count": 1,
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0003-01.md"
     },
     {
@@ -108,6 +111,9 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "extraction_priority_rank": 2,
+      "extraction_priority_reason": "research_analyzer_staging_backlog",
+      "research_staging_backlog_count": 1,
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0001-01.md"
     },
     {
@@ -130,6 +136,8 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
+      "extraction_priority_rank": 3,
+      "extraction_priority_reason": "pending_conversion_qa",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d7d2f04f14d2-p0001-01.md"
     },
     {
@@ -152,6 +160,8 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
+      "extraction_priority_rank": 4,
+      "extraction_priority_reason": "pending_conversion_qa",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4f85160c43ba-p0001-01.md"
     },
     {
@@ -174,6 +184,8 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
+      "extraction_priority_rank": 5,
+      "extraction_priority_reason": "pending_conversion_qa",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4f85160c43ba-p0002-01.md"
     },
     {
@@ -196,6 +208,8 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "extraction_priority_rank": 6,
+      "extraction_priority_reason": "pending_conversion_qa",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0002-01.md"
     },
     {
@@ -218,6 +232,8 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
+      "extraction_priority_rank": 7,
+      "extraction_priority_reason": "pending_conversion_qa",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b88c946c7236-p0004-01.md"
     },
     {
@@ -240,6 +256,8 @@
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
+      "extraction_priority_rank": 8,
+      "extraction_priority_reason": "pending_conversion_qa",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b88c946c7236-p0005-01.md"
     }
   ]

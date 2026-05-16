@@ -1,6 +1,6 @@
 # Research Staging Opportunities
 
-Generated: 2026-05-16T14:20:45Z
+Generated: 2026-05-16T14:37:15Z
 
 These are analyzer recommendations for draft work. They do not promote claims or edit canonical wiki pages.
 

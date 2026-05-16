@@ -10,6 +10,8 @@ Use `$genealogy-claim-extraction`.
 - Chunk manifest: `raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json`
 - Original source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Page range: 3-3
+- Priority rank: 1
+- Priority reason: `research_analyzer_staging_backlog`
 - Staging area: `research/_staging`
 
 ## Research Analyzer Staging Handoff

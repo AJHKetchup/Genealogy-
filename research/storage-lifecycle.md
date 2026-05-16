@@ -1,6 +1,6 @@
 # Storage Lifecycle
 
-Generated: 2026-05-16T14:20:46Z
+Generated: 2026-05-16T14:37:15Z
 
 This report is non-destructive. It ranks source pages for retention and writes candidate records only; it does not delete R2 objects.
 

@@ -10,6 +10,8 @@ Use `$genealogy-claim-extraction`.
 - Chunk manifest: `raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json`
 - Original source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Page range: 4-4
+- Priority rank: 7
+- Priority reason: `pending_conversion_qa`
 - Staging area: `research/_staging`
 
 ## Conversion QA Gate
