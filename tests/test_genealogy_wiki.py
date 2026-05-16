@@ -1255,6 +1255,53 @@ def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation
     assert statuses == {"done"}
 
 
+def test_docling_discovery_revalidates_old_accepted_cache_and_requeues_for_gemini(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "stale-docling.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling baseline. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path, **kwargs: "Usable printed source text for Docling baseline. " * 8,
+    )
+
+    first = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert first["accepted"] == 1
+    discovery_path = tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json"
+    discovery = json.loads(discovery_path.read_text(encoding="utf-8"))
+    for entry in discovery["entries"].values():
+        entry["profile_version"] = 0
+    discovery_path.write_text(json.dumps(discovery), encoding="utf-8")
+
+    noisy_docling = """
+! Suplentes: don Alcides Guzman.
+
+- $ Dativo del Canto.
+
+S..
+
+The rest of this extracted page has enough readable words that the old gate might have passed it,
+but the current gate should send it to Gemini Flash before accepting the source-prep page Markdown.
+"""
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", lambda input_path, **kwargs: noisy_docling)
+
+    second = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert second["inspected"] == 1
+    assert second["unusable"] == 1
+    batch_path = write_source_prep_batches(tmp_path, limit=10)
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+    assert len(batch_queue["tasks"]) == 1
+    assert batch_queue["tasks"][0]["status"] == "needs_reread"
+
+
 def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None:
     captured: dict[str, object] = {}
 

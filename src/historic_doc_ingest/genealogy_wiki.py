@@ -5378,6 +5378,7 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
 
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
+SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 2
 SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
 SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
 SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
@@ -5392,6 +5393,17 @@ SOURCE_PREP_DISCOVERY_MIN_TEXT_CHARS = 120
 SOURCE_PREP_DISCOVERY_MIN_ALPHA_CHARS = 60
 SOURCE_PREP_DISCOVERY_MIN_WORDS = 18
 SOURCE_PREP_DISCOVERY_MAX_ODD_CHAR_RATIO = 0.08
+
+
+def source_prep_discovery_profile_is_current(entry: dict[str, object]) -> bool:
+    status = str(entry.get("status", "")).strip()
+    if status in {SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS, SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS}:
+        return safe_int(entry.get("profile_version"), 0) >= SOURCE_PREP_DISCOVERY_PROFILE_VERSION
+    return True
+
+
+def source_prep_discovery_cache_needs_revalidation(entry: object) -> bool:
+    return isinstance(entry, dict) and not source_prep_discovery_profile_is_current(entry)
 
 
 def source_prep_discovery_state_path(root: Path) -> Path:
@@ -5510,11 +5522,17 @@ def apply_source_prep_discovery_state(
     entry = source_prep_discovery_entry_for_task(root, task, entries)
     if not entry:
         return
-    task["rough_discovery_status"] = str(entry.get("status", "")).strip()
+    discovery_status = str(entry.get("status", "")).strip()
+    task["rough_discovery_status"] = discovery_status
     if entry.get("discovery_path"):
         task["rough_discovery_path"] = str(entry.get("discovery_path", ""))
     if entry.get("readability_flags"):
         task["rough_discovery_flags"] = entry.get("readability_flags")
+    if discovery_status == SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS and not source_prep_record_has_relevance_request(task):
+        task["status"] = "needs_reread"
+        task["repair_reason"] = "docling_discovery_unusable"
+        task["recommended_action"] = "gemini_fallback"
+        return
     if not source_prep_discovery_is_usable(root, entry):
         return
     if str(task.get("status", "")).strip() not in SOURCE_PREP_DISCOVERY_ALLOWED_STATUSES:
@@ -5948,6 +5966,7 @@ def run_source_prep_docling_task(
                 "status": status,
                 "discovery_path": relative_to_root(discovery_path, paths.root),
                 "readability_flags": profile.get("readability_flags", []),
+                "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
                 "text_chars": profile.get("text_chars", 0),
                 "extracted_image_count": len(extracted_images),
             }
@@ -5964,6 +5983,7 @@ def run_source_prep_docling_task(
             "discovery_path": relative_to_root(discovery_path, paths.root),
             "evidence_output_path": str(task.get("output_path", "")),
             "method": "docling",
+            "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
             "evidence_grade": False,
             "extracted_images": extracted_images,
             "extracted_image_count": len(extracted_images),
@@ -6030,12 +6050,17 @@ def source_prep_docling_discovery_run(
         entries = {}
         discovery_state["entries"] = entries
 
-    tasks = [
-        task
-        for task in materialize_source_prep_tasks(paths.root, task_state)
-        if str(task.get("status", "")).strip() in SOURCE_PREP_DISCOVERY_ALLOWED_STATUSES
-        and not source_prep_record_has_relevance_request(task)
-    ]
+    tasks: list[dict[str, object]] = []
+    for task in materialize_source_prep_tasks(paths.root, task_state):
+        if source_prep_record_has_relevance_request(task):
+            continue
+        status = str(task.get("status", "")).strip()
+        cache_key = source_prep_discovery_cache_key(task)
+        cached = entries.get(cache_key)
+        if status in SOURCE_PREP_DISCOVERY_ALLOWED_STATUSES or (
+            status == "done" and source_prep_discovery_cache_needs_revalidation(cached)
+        ):
+            tasks.append(task)
     tasks.sort(
         key=lambda task: (
             str(task.get("source", "")),
@@ -6146,7 +6171,11 @@ def source_prep_docling_discovery_run(
                 break
             cache_key = source_prep_discovery_cache_key(task)
             cached = entries.get(cache_key)
-            if isinstance(cached, dict) and str(cached.get("status", "")).strip() in SOURCE_PREP_DISCOVERY_TERMINAL_STATUSES:
+            if (
+                isinstance(cached, dict)
+                and str(cached.get("status", "")).strip() in SOURCE_PREP_DISCOVERY_TERMINAL_STATUSES
+                and not source_prep_discovery_cache_needs_revalidation(cached)
+            ):
                 count_skip(f"cached_{cached.get('status')}")
                 continue
 
