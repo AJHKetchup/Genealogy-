@@ -810,9 +810,13 @@ def test_cloud_source_prep_heartbeat_runs_r2_intake_without_raw_restore(monkeypa
 
     intake_step = next(step for step in summary["steps"] if step["name"] == "r2-source-intake")
     assert intake_step["status"] == "ran"
+    lifecycle_step = next(step for step in summary["steps"] if step["name"] == "storage-lifecycle")
+    assert lifecycle_step["status"] == "ran"
     assert all(step["name"] != "raw-cloud restore" for step in summary["steps"])
     assert summary["r2"]["source_intake_monitor"] is True
+    assert summary["settings"]["storage_lifecycle"] is True
     assert not summary["blockers"]
+    assert (tmp_path / "research" / "_indexes" / "storage-lifecycle.json").exists()
     source_manifest = json.loads((tmp_path / "raw" / "source-prep-manifest.json").read_text(encoding="utf-8"))
     sources_by_path = {source["raw_path"]: source for source in source_manifest["sources"]}
     assert sources_by_path["raw/sources/cloud-only-intake.pdf"]["status"] == "cloud_registered"
@@ -832,7 +836,30 @@ def test_cloud_source_prep_heartbeat_skips_r2_intake_without_credentials(tmp_pat
 
     intake_step = next(step for step in summary["steps"] if step["name"] == "r2-source-intake")
     assert intake_step["status"] == "skipped-missing-config"
+    lifecycle_step = next(step for step in summary["steps"] if step["name"] == "storage-lifecycle")
+    assert lifecycle_step["status"] == "ran"
     assert all(not str(blocker).startswith("r2-source-intake") for blocker in summary["blockers"])
+
+
+def test_cloud_source_prep_heartbeat_can_skip_storage_lifecycle(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+
+    summary = cloud_source_prep_heartbeat(
+        tmp_path,
+        r2_source_intake=False,
+        restore_raw=False,
+        upload_assets=False,
+        research_analyzer=False,
+        build_site=False,
+        system_status=False,
+        storage_lifecycle=False,
+    )
+
+    lifecycle_step = next(step for step in summary["steps"] if step["name"] == "storage-lifecycle")
+    assert lifecycle_step["status"] == "skipped"
+    assert lifecycle_step["detail"] == "disabled"
+    assert summary["settings"]["storage_lifecycle"] is False
+    assert not (tmp_path / "research" / "_indexes" / "storage-lifecycle.json").exists()
 
 
 def test_r2_source_intake_preflight_reports_missing_config(monkeypatch, tmp_path) -> None:

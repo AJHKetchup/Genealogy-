@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-16T05:28:37Z",
+  "created": "2026-05-16T12:51:13Z",
   "purpose": "Non-destructive page-level storage lifecycle ranking for R2 raw material. GitHub keeps these JSON/Markdown records; raw originals and durable binary assets remain in R2.",
   "inputs": {
     "chunks": "raw/chunks/*/manifest.json",
@@ -12,10 +12,11 @@
   "summary": {
     "page_count": 5,
     "retention_status_counts": {
-      "cold_retain": 5
+      "preserve_raw": 2,
+      "cold_retain": 3
     },
-    "preserve_raw_count": 0,
-    "cold_retain_count": 5,
+    "preserve_raw_count": 2,
+    "cold_retain_count": 3,
     "deaccession_candidate_count": 0,
     "deaccession_record_count": 0
   },
@@ -25,12 +26,12 @@
       "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
       "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
       "page": 1,
-      "retention_status": "cold_retain",
+      "retention_status": "preserve_raw",
       "retention_reasons": [
-        "Cold retained because the page has generic genealogy or research signals but no direct family match yet."
+        "Raw preserved because research/QC/citation signals make this page important or uncertain."
       ],
-      "relevance_score": 85,
-      "irrelevance_confidence": "medium",
+      "relevance_score": 90,
+      "irrelevance_confidence": "low",
       "usable_conversion": true,
       "conversion_blockers": [],
       "source_locator_strength": "strong",
@@ -59,12 +60,9 @@
         ],
         "relationship_cues": [],
         "life_event_cues": [],
-        "visual_kinds": [
-          "handwriting"
-        ],
-        "uncertainty_markers": 3,
+        "visual_kinds": [],
+        "uncertainty_markers": 0,
         "generic_genealogy_cues": [
-          "family",
           "genealogy"
         ],
         "relevance_hints": [],
@@ -91,12 +89,16 @@
             "relevance": "medium"
           },
           {
-            "score": 35,
+            "score": 20,
             "recommended_action": "record_signal",
             "relevance": "medium"
           }
         ],
-        "cited_in": []
+        "cited_in": [
+          "research/_staging/external-research/m-des-gouttes.md",
+          "research/_staging/external-research/m-dinichert.md",
+          "research/_staging/external-research/m-werner.md"
+        ]
       },
       "converted_files": [
         "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md",
@@ -111,15 +113,14 @@
       "chunks": [
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/page-0001-chunk-01.md",
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/page-0001-chunk-01.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-03.md"
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
       ],
       "source_manifests": [
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/manifest.json",
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json"
       ],
-      "chunk_chars": 31678,
+      "chunk_chars": 23600,
       "reacquisition": {
         "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
         "cloud_key": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -138,16 +139,16 @@
       }
     },
     {
-      "id": "SL-7c2f3ecd02f1-P0002",
+      "id": "SL-3de4c59d87eb-P0003",
       "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
       "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "page": 2,
-      "retention_status": "cold_retain",
+      "page": 3,
+      "retention_status": "preserve_raw",
       "retention_reasons": [
-        "Cold retained because the page has generic genealogy or research signals but no direct family match yet."
+        "Raw preserved because research/QC/citation signals make this page important or uncertain."
       ],
-      "relevance_score": 50,
-      "irrelevance_confidence": "medium",
+      "relevance_score": 195,
+      "irrelevance_confidence": "low",
       "usable_conversion": true,
       "conversion_blockers": [],
       "source_locator_strength": "strong",
@@ -179,14 +180,118 @@
         "visual_kinds": [
           "handwriting"
         ],
-        "uncertainty_markers": 4,
+        "uncertainty_markers": 0,
         "generic_genealogy_cues": [
           "family",
           "genealogy"
         ],
         "relevance_hints": [],
         "qc_holds": [],
-        "research_analyzer": [],
+        "research_analyzer": [
+          {
+            "score": 35,
+            "recommended_action": "record_signal",
+            "relevance": "medium"
+          },
+          {
+            "score": 35,
+            "recommended_action": "record_signal",
+            "relevance": "medium"
+          },
+          {
+            "score": 35,
+            "recommended_action": "record_signal",
+            "relevance": "medium"
+          }
+        ],
+        "cited_in": [
+          "research/_staging/external-research/m-des-gouttes.md",
+          "research/_staging/external-research/m-dinichert.md",
+          "research/_staging/external-research/m-werner.md"
+        ]
+      },
+      "converted_files": [
+        "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md"
+      ],
+      "chunk_manifests": [
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json"
+      ],
+      "chunks": [
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+      ],
+      "source_manifests": [
+        "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json"
+      ],
+      "chunk_chars": 12097,
+      "reacquisition": {
+        "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+        "cloud_key": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+        "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+        "source_manifests": [
+          "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json"
+        ],
+        "converted_files": [
+          "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md"
+        ],
+        "note": "Retain these GitHub records even if page-level raw material is later removed from R2."
+      }
+    },
+    {
+      "id": "SL-7c2f3ecd02f1-P0002",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "page": 2,
+      "retention_status": "cold_retain",
+      "retention_reasons": [
+        "Cold retained because the page has generic genealogy or research signals but no direct family match yet."
+      ],
+      "relevance_score": 10,
+      "irrelevance_confidence": "medium",
+      "usable_conversion": true,
+      "conversion_blockers": [],
+      "source_locator_strength": "strong",
+      "source_locator_notes": [
+        "cloud key: raw/sources/ACICR_B_CR_177_001_002.pdf",
+        "source SHA-256 present",
+        "conversion manifest present",
+        "converted Markdown present"
+      ],
+      "page_storage_unit": "whole_source_object",
+      "deaccession_allowed": false,
+      "deaccession_blockers": [],
+      "signals": {
+        "family_terms": [],
+        "suspicious_readings": [],
+        "genealogy_leads": [],
+        "relationship_cues": [],
+        "life_event_cues": [],
+        "visual_kinds": [],
+        "uncertainty_markers": 4,
+        "generic_genealogy_cues": [],
+        "relevance_hints": [],
+        "qc_holds": [],
+        "research_analyzer": [
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          }
+        ],
         "cited_in": []
       },
       "converted_files": [
@@ -198,15 +303,14 @@
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json"
       ],
       "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/page-0001-chunk-01.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-02.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-03.md"
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/page-0002-chunk-01.md",
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0002-chunk-01.md"
       ],
       "source_manifests": [
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json"
       ],
-      "chunk_chars": 26391,
+      "chunk_chars": 9083,
       "reacquisition": {
         "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
         "cloud_key": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -223,15 +327,15 @@
       }
     },
     {
-      "id": "SL-3de4c59d87eb-P0003",
+      "id": "SL-f4705f1fa0cc-P0004",
       "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
       "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "page": 3,
+      "page": 4,
       "retention_status": "cold_retain",
       "retention_reasons": [
         "Cold retained because the page has generic genealogy or research signals but no direct family match yet."
       ],
-      "relevance_score": 50,
+      "relevance_score": 0,
       "irrelevance_confidence": "medium",
       "usable_conversion": true,
       "conversion_blockers": [],
@@ -248,87 +352,6 @@
       "signals": {
         "family_terms": [],
         "suspicious_readings": [],
-        "genealogy_leads": [
-          "Général Marotte",
-          "M. Des Gouttes",
-          "M. Dinichert",
-          "M. Sakalauskas",
-          "M. Werner",
-          "M. de Pflügl",
-          "MM",
-          "MM. Audeoud",
-          "MM. Logoz"
-        ],
-        "relationship_cues": [],
-        "life_event_cues": [],
-        "visual_kinds": [
-          "handwriting"
-        ],
-        "uncertainty_markers": 1,
-        "generic_genealogy_cues": [
-          "family",
-          "genealogy"
-        ],
-        "relevance_hints": [],
-        "qc_holds": [],
-        "research_analyzer": [],
-        "cited_in": []
-      },
-      "converted_files": [
-        "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md"
-      ],
-      "chunk_manifests": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json"
-      ],
-      "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-02.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-03.md"
-      ],
-      "source_manifests": [
-        "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json"
-      ],
-      "chunk_chars": 17311,
-      "reacquisition": {
-        "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-        "cloud_key": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-        "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-        "source_manifests": [
-          "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json"
-        ],
-        "converted_files": [
-          "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md"
-        ],
-        "note": "Retain these GitHub records even if page-level raw material is later removed from R2."
-      }
-    },
-    {
-      "id": "SL-f4705f1fa0cc-P0004",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "page": 4,
-      "retention_status": "cold_retain",
-      "retention_reasons": [
-        "Cold retained because deaccession prerequisites are not all satisfied."
-      ],
-      "relevance_score": 0,
-      "irrelevance_confidence": "high",
-      "usable_conversion": true,
-      "conversion_blockers": [],
-      "source_locator_strength": "strong",
-      "source_locator_notes": [
-        "cloud key: raw/sources/ACICR_B_CR_177_001_002.pdf",
-        "source SHA-256 present",
-        "conversion manifest present",
-        "converted Markdown present"
-      ],
-      "page_storage_unit": "whole_source_object",
-      "deaccession_allowed": false,
-      "deaccession_blockers": [
-        "raw_source_is_not_page_level"
-      ],
-      "signals": {
-        "family_terms": [],
-        "suspicious_readings": [],
         "genealogy_leads": [],
         "relationship_cues": [],
         "life_event_cues": [],
@@ -337,7 +360,23 @@
         "generic_genealogy_cues": [],
         "relevance_hints": [],
         "qc_holds": [],
-        "research_analyzer": [],
+        "research_analyzer": [
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          }
+        ],
         "cited_in": []
       },
       "converted_files": [
@@ -347,12 +386,12 @@
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json"
       ],
       "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/page-0001-chunk-01.md"
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/page-0004-chunk-01.md"
       ],
       "source_manifests": [
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json"
       ],
-      "chunk_chars": 8696,
+      "chunk_chars": 4763,
       "reacquisition": {
         "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
         "cloud_key": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -373,10 +412,10 @@
       "page": 5,
       "retention_status": "cold_retain",
       "retention_reasons": [
-        "Cold retained because deaccession prerequisites are not all satisfied."
+        "Cold retained because the page has generic genealogy or research signals but no direct family match yet."
       ],
       "relevance_score": 0,
-      "irrelevance_confidence": "high",
+      "irrelevance_confidence": "medium",
       "usable_conversion": true,
       "conversion_blockers": [],
       "source_locator_strength": "strong",
@@ -388,9 +427,7 @@
       ],
       "page_storage_unit": "whole_source_object",
       "deaccession_allowed": false,
-      "deaccession_blockers": [
-        "raw_source_is_not_page_level"
-      ],
+      "deaccession_blockers": [],
       "signals": {
         "family_terms": [],
         "suspicious_readings": [],
@@ -402,7 +439,23 @@
         "generic_genealogy_cues": [],
         "relevance_hints": [],
         "qc_holds": [],
-        "research_analyzer": [],
+        "research_analyzer": [
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          },
+          {
+            "score": 0,
+            "recommended_action": "monitor",
+            "relevance": "medium"
+          }
+        ],
         "cited_in": []
       },
       "converted_files": [
@@ -412,12 +465,12 @@
         "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json"
       ],
       "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/page-0001-chunk-01.md"
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/page-0005-chunk-01.md"
       ],
       "source_manifests": [
         "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json"
       ],
-      "chunk_chars": 8696,
+      "chunk_chars": 4501,
       "reacquisition": {
         "raw_path": "raw/sources/ACICR_B_CR_177_001_002.pdf",
         "cloud_key": "raw/sources/ACICR_B_CR_177_001_002.pdf",

@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T12:38:32Z
+Generated: 2026-05-16T12:51:13Z
 
 ## Source Conversion
 
@@ -96,7 +96,7 @@ Generated: 2026-05-16T12:38:32Z
 - R2 durable derived asset bytes: 0
 - Storage lifecycle status: active
 - Storage lifecycle ranked pages: 5
-- Storage lifecycle retention: cold_retain: 5
+- Storage lifecycle retention: cold_retain: 3, preserve_raw: 2
 - Deaccession candidates: 0
 - Deaccession records: 0
 

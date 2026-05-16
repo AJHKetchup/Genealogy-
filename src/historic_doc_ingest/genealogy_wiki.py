@@ -13169,6 +13169,7 @@ def cloud_source_prep_heartbeat(
     research_question_limit: int = 5,
     build_site: bool = True,
     system_status: bool = True,
+    storage_lifecycle: bool = True,
     conversion_qc: bool = False,
     conversion_only: bool = False,
     page_range: str | None = None,
@@ -13201,6 +13202,7 @@ def cloud_source_prep_heartbeat(
             "research_question_limit": research_question_limit,
             "build_site": build_site,
             "system_status": system_status,
+            "storage_lifecycle": storage_lifecycle,
             "page_range": page_range or "",
             "restore_limit": restore_limit or 0,
             "pages_per_job": pages_per_job,
@@ -13379,6 +13381,22 @@ def cloud_source_prep_heartbeat(
         except Exception as exc:
             summary["blockers"].append(f"page-upgrades: {exc}")
             record_step("page-upgrades", "failed", str(exc))
+
+    if conversion_only:
+        record_step("storage-lifecycle", "skipped", "conversion-only run")
+    elif not storage_lifecycle:
+        record_step("storage-lifecycle", "skipped", "disabled")
+    else:
+        try:
+            lifecycle_paths = write_storage_lifecycle_report(paths.root)
+            record_step(
+                "storage-lifecycle",
+                "ran",
+                {"written": [relative_to_root(path, paths.root) for path in lifecycle_paths]},
+            )
+        except Exception as exc:
+            summary["blockers"].append(f"storage-lifecycle: {exc}")
+            record_step("storage-lifecycle", "failed", str(exc))
 
     if conversion_only:
         record_step("site-build", "skipped", "conversion-only run")
@@ -15568,6 +15586,7 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--research-question-limit", type=int, default=5, help="Maximum new research questions from the analyzer. Use -1 for no cap.")
     cloud_source_prep_parser.add_argument("--no-site-build", action="store_true", help="Skip rebuilding the final static HTML site.")
     cloud_source_prep_parser.add_argument("--no-system-status", action="store_true", help="Skip refreshing the whole-system dashboard artifacts.")
+    cloud_source_prep_parser.add_argument("--no-storage-lifecycle", action="store_true", help="Skip refreshing the non-destructive storage lifecycle report.")
     cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts. The conversion-QA gate queue is refreshed by default.")
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
     cloud_source_prep_parser.add_argument(
@@ -16235,6 +16254,7 @@ def main(argv: list[str] | None = None) -> int:
             research_question_limit=args.research_question_limit,
             build_site=not args.no_site_build,
             system_status=not args.no_system_status,
+            storage_lifecycle=not args.no_storage_lifecycle,
             conversion_qc=args.conversion_qc,
             conversion_only=args.conversion_only,
             page_range=args.pages,
