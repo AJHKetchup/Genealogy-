@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T13:07:54Z",
+  "created": "2026-05-16T13:22:57Z",
   "status": "ready",
   "purpose": "Final HTML genealogy site status and coverage report.",
   "site_root": "site",
@@ -8,6 +8,7 @@
   "search_index": "site/search-index.json",
   "search_index_exists": true,
   "search_entry_count": 2,
+  "search_index_missing": false,
   "storage_contract": "Final HTML, CSS, status, and build manifests stay in GitHub; raw originals and durable binary assets stay in R2.",
   "entrypoints": [
     {
@@ -19,23 +20,32 @@
       "name": "Family Tree",
       "output": "site/family-tree.html",
       "exists": true
+    },
+    {
+      "name": "Search",
+      "output": "site/search.html",
+      "exists": true
     }
   ],
   "missing_entrypoints": [],
   "missing_entrypoint_count": 0,
   "source_page_count": 2,
-  "manifest_page_count": 2,
-  "html_file_count": 2,
-  "asset_count": 1,
+  "manifest_page_count": 3,
+  "utility_page_count": 1,
+  "html_file_count": 3,
+  "asset_count": 2,
   "manifest_outputs": [
     "site/index.html",
-    "site/family-tree.html"
+    "site/family-tree.html",
+    "site/search.html"
   ],
   "html_outputs": [
     "site/family-tree.html",
-    "site/index.html"
+    "site/index.html",
+    "site/search.html"
   ],
   "asset_outputs": [
+    "site/assets/search.js",
     "site/assets/site.css"
   ],
   "source_pages": [

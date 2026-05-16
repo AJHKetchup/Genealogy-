@@ -424,3 +424,21 @@
 ## [2026-05-16] r2-source-intake-preflight | Wrote research/_indexes/r2-source-intake-preflight.json
 ## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
 ## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] agent-queues | Wrote 3 queue manifest(s)
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-16] research-analyzer | Wrote research/_indexes/research-staging-opportunities.json
+## [2026-05-16] research-analyzer | Wrote research/_indexes/research-leads.json
+## [2026-05-16] research-analyzer | Wrote research/_agent-queues/research-leads.json
+## [2026-05-16] research-analyzer | Wrote research/_indexes/external-research-requests.json
+## [2026-05-16] research-analyzer | Wrote research/_agent-queues/external-research.json
+## [2026-05-16] conversion-qa-context | Wrote research/_agent-queues/conversion-qa.json
+## [2026-05-16] page-upgrades | Wrote research/_indexes/page-upgrades.json
+## [2026-05-16] storage-lifecycle | Wrote research/_indexes/storage-lifecycle.json
+## [2026-05-16] final-site-status | Wrote research/_indexes/final-site-status.json
+## [2026-05-16] site-build | Wrote site/site-manifest.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/_indexes/conversion-qa-unblock-plan.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/conversion-qa-next.md
+## [2026-05-16] r2-source-intake-preflight | Wrote research/_indexes/r2-source-intake-preflight.json
+## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json

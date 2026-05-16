@@ -114,6 +114,46 @@ pre {
   color: var(--ink);
 }
 
+.search-form {
+  margin: 24px 0;
+}
+
+.search-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.search-form input {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font: inherit;
+  max-width: 520px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.search-results {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.search-results li {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+}
+
+.search-kind {
+  color: var(--muted);
+  display: block;
+  font-size: 0.88rem;
+  margin-top: 4px;
+}
+
 @media (max-width: 760px) {
   .site-shell {
     display: block;

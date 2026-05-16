@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T13:07:55Z
+Generated: 2026-05-16T13:22:57Z
 
 ## Source Conversion
 
@@ -107,8 +107,9 @@ Generated: 2026-05-16T13:07:55Z
 - Manifest: `site/site-manifest.json`
 - Search index: `site/search-index.json` (2 entries)
 - Source wiki pages: 2
-- Manifest pages: 2
-- HTML files: 2
+- Utility pages: 1
+- Manifest pages: 3
+- HTML files: 3
 - Missing entry points: 0
 - Missing manifest outputs: 0
 - Missing source pages from manifest: 0

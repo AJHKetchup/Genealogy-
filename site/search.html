@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Family Tree | Family History</title>
+  <title>Search | Family History</title>
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -17,13 +17,17 @@
       </ul>
     </nav>
     <main class="site-main">
-      <div class="source-note">Generated from wiki/Family Tree.md</div>
-      <h1 id="family-tree">Family Tree</h1>
-      <pre class="mermaid"><code>flowchart TD
-  empty[No relationship pages found]</code></pre>
-      <p>This view shows the family connections currently represented in the wiki.</p>
+      <div class="source-note">Generated from site/search-index.json</div>
+      <h1 id="search">Search</h1>
+      <p>Search the generated public family-history pages.</p>
+      <div class="search-form">
+        <label for="site-search-input">Search public pages</label>
+        <input id="site-search-input" type="search" autocomplete="off">
+      </div>
+      <ul id="site-search-results" class="search-results"></ul>
     </main>
   </div>
 
+  <script src="assets/search.js" defer></script>
 </body>
 </html>

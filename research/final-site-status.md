@@ -1,6 +1,6 @@
 # Final Site Status
 
-Generated: 2026-05-16T13:07:54Z
+Generated: 2026-05-16T13:22:57Z
 
 Status: ready
 
@@ -10,9 +10,10 @@ Status: ready
 - Manifest: `site/site-manifest.json`
 - Search index: `site/search-index.json` (2 entries)
 - Source wiki pages: 2
-- Manifest pages: 2
-- HTML files: 2
-- Assets: 1
+- Utility pages: 1
+- Manifest pages: 3
+- HTML files: 3
+- Assets: 2
 
 ## Entry Points
 
@@ -20,6 +21,7 @@ Status: ready
 | --- | --- | --- |
 | Home | `site/index.html` | yes |
 | Family Tree | `site/family-tree.html` | yes |
+| Search | `site/search.html` | yes |
 
 ## Coverage Gaps
 

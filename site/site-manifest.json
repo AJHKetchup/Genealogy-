@@ -1,12 +1,13 @@
 {
-  "created": "2026-05-16T13:07:54Z",
+  "created": "2026-05-16T13:22:57Z",
   "purpose": "Static HTML build manifest for the user-facing genealogy site.",
   "site_root": "site",
   "source_root": "wiki",
   "page_count": 2,
+  "utility_page_count": 1,
   "search_index": "site/search-index.json",
   "search_entry_count": 2,
-  "asset_count": 1,
+  "asset_count": 2,
   "storage_contract": "HTML, CSS, and build manifests are GitHub files; raw originals and durable binary assets remain in R2.",
   "pages": [
     {
@@ -18,6 +19,13 @@
       "title": "Family Tree",
       "source": "wiki/Family Tree.md",
       "output": "site/family-tree.html"
+    }
+  ],
+  "utility_pages": [
+    {
+      "title": "Search",
+      "source": "site/search-index.json",
+      "output": "site/search.html"
     }
   ]
 }

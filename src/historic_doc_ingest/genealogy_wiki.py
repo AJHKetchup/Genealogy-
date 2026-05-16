@@ -12784,6 +12784,7 @@ def build_system_final_site_summary(root: Path) -> dict[str, object]:
         "search_entry_count": safe_int(status_payload.get("search_entry_count"), 0),
         "source_page_count": safe_int(status_payload.get("source_page_count"), 0),
         "manifest_page_count": safe_int(status_payload.get("manifest_page_count"), 0),
+        "utility_page_count": safe_int(status_payload.get("utility_page_count"), 0),
         "html_file_count": safe_int(status_payload.get("html_file_count"), 0),
         "asset_count": safe_int(status_payload.get("asset_count"), 0),
         "missing_entrypoint_count": safe_int(status_payload.get("missing_entrypoint_count"), 0),
@@ -13029,6 +13030,7 @@ Generated: {payload.get("created", "")}
 - Manifest: `{dict_value(final_site, "manifest", "")}`
 - Search index: `{dict_value(final_site, "search_index", "")}` ({dict_value(final_site, "search_entry_count")} entries)
 - Source wiki pages: {dict_value(final_site, "source_page_count")}
+- Utility pages: {dict_value(final_site, "utility_page_count")}
 - Manifest pages: {dict_value(final_site, "manifest_page_count")}
 - HTML files: {dict_value(final_site, "html_file_count")}
 - Missing entry points: {dict_value(final_site, "missing_entrypoint_count")}
@@ -14459,6 +14461,46 @@ pre {
   color: var(--ink);
 }
 
+.search-form {
+  margin: 24px 0;
+}
+
+.search-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.search-form input {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font: inherit;
+  max-width: 520px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.search-results {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.search-results li {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+}
+
+.search-kind {
+  color: var(--muted);
+  display: block;
+  font-size: 0.88rem;
+  margin-top: 4px;
+}
+
 @media (max-width: 760px) {
   .site-shell {
     display: block;
@@ -14475,6 +14517,68 @@ pre {
 }
 """.strip()
 
+SITE_SEARCH_JS = """
+(async () => {
+  const input = document.getElementById("site-search-input");
+  const results = document.getElementById("site-search-results");
+  if (!input || !results) {
+    return;
+  }
+
+  const response = await fetch("search-index.json");
+  const payload = await response.json();
+  const entries = Array.isArray(payload.entries) ? payload.entries : [];
+
+  function entryText(entry) {
+    return [entry.title, entry.kind, entry.excerpt, ...(entry.terms || [])].join(" ").toLowerCase();
+  }
+
+  function render(matches) {
+    results.innerHTML = "";
+    if (!matches.length) {
+      const empty = document.createElement("li");
+      empty.textContent = "No matching public pages found.";
+      results.appendChild(empty);
+      return;
+    }
+    for (const entry of matches) {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = entry.output.replace(/^site\\//, "");
+      link.textContent = entry.title;
+      const kind = document.createElement("span");
+      kind.className = "search-kind";
+      kind.textContent = entry.kind;
+      const excerpt = document.createElement("p");
+      excerpt.textContent = entry.excerpt || "";
+      item.append(link, kind, excerpt);
+      results.appendChild(item);
+    }
+  }
+
+  function runSearch() {
+    const query = input.value.trim().toLowerCase();
+    if (!query) {
+      render(entries);
+      return;
+    }
+    const terms = query.split(/\\s+/).filter(Boolean);
+    render(entries.filter((entry) => terms.every((term) => entryText(entry).includes(term))));
+  }
+
+  input.addEventListener("input", runSearch);
+  render(entries);
+})().catch((error) => {
+  const results = document.getElementById("site-search-results");
+  if (results) {
+    results.innerHTML = "";
+    const item = document.createElement("li");
+    item.textContent = `Search index unavailable: ${error.message}`;
+    results.appendChild(item);
+  }
+});
+""".strip()
+
 
 def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     paths = WikiPaths(root.resolve())
@@ -14487,14 +14591,17 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
 
     tree_path = generate_tree(paths.root)
     pages = collect_site_pages(paths.root)
-    nav = build_site_nav(pages)
     written: list[Path] = [tree_path]
     css_path = assets_dir / "site.css"
     css_path.write_text(SITE_CSS + "\n", encoding="utf-8")
     written.append(css_path)
+    search_js_path = assets_dir / "search.js"
+    search_js_path.write_text(SITE_SEARCH_JS + "\n", encoding="utf-8")
+    written.append(search_js_path)
 
     page_records = []
     search_entries = []
+    nav = build_site_nav(pages, include_search=True)
     for page in pages:
         markdown_path = page["source"]
         output_path = site_dir / str(page["output"])
@@ -14531,17 +14638,40 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     search_index_path.write_text(json.dumps(search_index_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     written.append(search_index_path)
 
+    search_page_path = site_dir / "search.html"
+    search_page_path.write_text(
+        build_site_html_document(
+            title="Search",
+            body=build_site_search_page_body(),
+            nav=nav,
+            output_rel="search.html",
+            source_rel=relative_to_root(search_index_path, paths.root),
+            scripts=["assets/search.js"],
+        ),
+        encoding="utf-8",
+    )
+    written.append(search_page_path)
+    utility_pages = [
+        {
+            "title": "Search",
+            "source": relative_to_root(search_index_path, paths.root),
+            "output": relative_to_root(search_page_path, paths.root),
+        }
+    ]
+
     manifest = {
         "created": utc_timestamp(),
         "purpose": "Static HTML build manifest for the user-facing genealogy site.",
         "site_root": relative_to_root(site_dir, paths.root),
         "source_root": "wiki",
         "page_count": len(page_records),
+        "utility_page_count": len(utility_pages),
         "search_index": relative_to_root(search_index_path, paths.root),
         "search_entry_count": len(search_entries),
-        "asset_count": 1,
+        "asset_count": 2,
         "storage_contract": "HTML, CSS, and build manifests are GitHub files; raw originals and durable binary assets remain in R2.",
         "pages": page_records,
+        "utility_pages": utility_pages,
     }
     manifest_path = site_dir / "site-manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -14583,9 +14713,15 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
     manifest_pages = manifest.get("pages", []) if isinstance(manifest, dict) else []
     if not isinstance(manifest_pages, list):
         manifest_pages = []
+    utility_pages = manifest.get("utility_pages", []) if isinstance(manifest, dict) else []
+    if not isinstance(utility_pages, list):
+        utility_pages = []
+    all_manifest_pages = [
+        page for page in [*manifest_pages, *utility_pages] if isinstance(page, dict)
+    ]
     manifest_outputs = [
         str(page.get("output", "")).strip()
-        for page in manifest_pages
+        for page in all_manifest_pages
         if isinstance(page, dict) and str(page.get("output", "")).strip()
     ]
     manifest_sources = [
@@ -14619,6 +14755,7 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
     expected_entrypoints = [
         {"name": "Home", "output": relative_to_root(resolved_site_dir / "index.html", paths.root)},
         {"name": "Family Tree", "output": relative_to_root(resolved_site_dir / "family-tree.html", paths.root)},
+        {"name": "Search", "output": relative_to_root(resolved_site_dir / "search.html", paths.root)},
     ]
     for entrypoint in expected_entrypoints:
         entrypoint["exists"] = (paths.root / str(entrypoint["output"])).exists()
@@ -14630,9 +14767,10 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
     missing_manifest_outputs = sorted(output for output in manifest_outputs if output not in html_output_set)
     extra_html_outputs = sorted(output for output in html_outputs if output not in manifest_output_set)
     missing_source_pages = sorted(source for source in source_pages if source not in manifest_source_set)
+    search_index_missing = not search_index_path.exists()
     if not manifest_path.exists():
         status = "not_built"
-    elif missing_entrypoints or missing_manifest_outputs or missing_source_pages:
+    elif search_index_missing or missing_entrypoints or missing_manifest_outputs or missing_source_pages:
         status = "needs_rebuild"
     else:
         status = "ready"
@@ -14647,12 +14785,14 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
         "search_index": relative_to_root(search_index_path, paths.root),
         "search_index_exists": search_index_path.exists(),
         "search_entry_count": len(search_entries),
+        "search_index_missing": search_index_missing,
         "storage_contract": "Final HTML, CSS, status, and build manifests stay in GitHub; raw originals and durable binary assets stay in R2.",
         "entrypoints": expected_entrypoints,
         "missing_entrypoints": missing_entrypoints,
         "missing_entrypoint_count": len(missing_entrypoints),
         "source_page_count": len(source_pages),
         "manifest_page_count": len(manifest_outputs),
+        "utility_page_count": len(utility_pages),
         "html_file_count": len(html_outputs),
         "asset_count": len(asset_outputs),
         "manifest_outputs": manifest_outputs,
@@ -14712,6 +14852,7 @@ Status: {payload.get("status", "")}
 - Manifest: `{payload.get("manifest", "")}`
 - Search index: `{payload.get("search_index", "")}` ({dict_value(payload, "search_entry_count")} entries)
 - Source wiki pages: {dict_value(payload, "source_page_count")}
+- Utility pages: {dict_value(payload, "utility_page_count")}
 - Manifest pages: {dict_value(payload, "manifest_page_count")}
 - HTML files: {dict_value(payload, "html_file_count")}
 - Assets: {dict_value(payload, "asset_count")}
@@ -14846,8 +14987,21 @@ def site_output_rel_for_wiki_rel(rel: Path) -> str:
     return Path(*parts).as_posix()
 
 
-def build_site_nav(pages: list[dict[str, object]]) -> list[dict[str, str]]:
-    return [{"title": str(page["title"]), "output": str(page["output"])} for page in pages]
+def build_site_nav(pages: list[dict[str, object]], *, include_search: bool = False) -> list[dict[str, str]]:
+    nav = [{"title": str(page["title"]), "output": str(page["output"])} for page in pages]
+    if include_search:
+        nav.append({"title": "Search", "output": "search.html"})
+    return nav
+
+
+def build_site_search_page_body() -> str:
+    return """      <h1 id="search">Search</h1>
+      <p>Search the generated public family-history pages.</p>
+      <div class="search-form">
+        <label for="site-search-input">Search public pages</label>
+        <input id="site-search-input" type="search" autocomplete="off">
+      </div>
+      <ul id="site-search-results" class="search-results"></ul>"""
 
 
 def build_site_html_document(
@@ -14857,6 +15011,7 @@ def build_site_html_document(
     nav: list[dict[str, str]],
     output_rel: str,
     source_rel: str,
+    scripts: list[str] | None = None,
 ) -> str:
     css_href = site_relative_url(output_rel, "assets/site.css")
     nav_items = "\n".join(
@@ -14864,6 +15019,11 @@ def build_site_html_document(
         f'{html_lib.escape(item["title"])}</a></li>'
         for item in nav
     )
+    script_tags = "\n".join(
+        f'  <script src="{html_lib.escape(site_relative_url(output_rel, script), quote=True)}" defer></script>'
+        for script in (scripts or [])
+    )
+    script_block = f"\n{script_tags}" if script_tags else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -14885,6 +15045,7 @@ def build_site_html_document(
 {body}
     </main>
   </div>
+{script_block}
 </body>
 </html>
 """

@@ -3106,7 +3106,9 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert "site/family-tree.html" in written_names
     assert "site/people/dario-pulgar.html" in written_names
     assert "site/people/relative.html" in written_names
+    assert "site/search.html" in written_names
     assert "site/assets/site.css" in written_names
+    assert "site/assets/search.js" in written_names
     assert "site/site-manifest.json" in written_names
     assert "site/search-index.json" in written_names
     assert "research/_indexes/final-site-status.json" in written_names
@@ -3119,11 +3121,17 @@ See [[Family Tree]] and [[people/relative|a relative]].
     person_html = (tmp_path / "site" / "people" / "dario-pulgar.html").read_text(encoding="utf-8")
     assert '<a href="../family-tree.html">Family Tree</a>' in person_html
     assert '<a href="relative.html">a relative</a>' in person_html
+    assert '<a href="../search.html">Search</a>' in person_html
     assert "Generated from wiki/people/dario-pulgar.md" in person_html
+    search_html = (tmp_path / "site" / "search.html").read_text(encoding="utf-8")
+    assert 'id="site-search-input"' in search_html
+    assert '<script src="assets/search.js" defer></script>' in search_html
     manifest = json.loads((tmp_path / "site" / "site-manifest.json").read_text(encoding="utf-8"))
     assert manifest["page_count"] == 4
+    assert manifest["utility_page_count"] == 1
     assert manifest["search_index"] == "site/search-index.json"
     assert manifest["search_entry_count"] == 4
+    assert manifest["asset_count"] == 2
     assert manifest["storage_contract"].startswith("HTML, CSS, and build manifests are GitHub files")
     search_index = json.loads((tmp_path / "site" / "search-index.json").read_text(encoding="utf-8"))
     assert search_index["entry_count"] == 4
@@ -3138,9 +3146,10 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert status["search_index_exists"] is True
     assert status["search_entry_count"] == 4
     assert status["source_page_count"] == 4
-    assert status["manifest_page_count"] == 4
-    assert status["html_file_count"] == 4
-    assert status["asset_count"] == 1
+    assert status["utility_page_count"] == 1
+    assert status["manifest_page_count"] == 5
+    assert status["html_file_count"] == 5
+    assert status["asset_count"] == 2
     assert status["missing_entrypoint_count"] == 0
     assert status["missing_manifest_output_count"] == 0
     assert status["missing_source_page_count"] == 0
