@@ -2263,6 +2263,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "`source_prep`" in dashboard_text
     assert "## Queue Blockers" in dashboard_text
     assert "## Conversion QA Unblock Plan" in dashboard_text
+    assert "Next focus" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
@@ -2327,10 +2328,17 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert plan["tasks"][0]["blocked_queues"]["evidence_extraction"] >= 1
     assert (tmp_path / "research" / "_indexes" / "conversion-qa-unblock-plan.json").exists()
     assert (tmp_path / "research" / "conversion-qa-unblock-plan.md").exists()
+    next_focus_path = tmp_path / "research" / "conversion-qa-next.md"
+    assert next_focus_path.exists()
+    next_focus_text = next_focus_path.read_text(encoding="utf-8")
+    assert "Conversion QA Next" in next_focus_text
+    assert qa_task_id in next_focus_text
+    assert "Downstream tasks unlocked" in next_focus_text
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Queue Blockers" in dashboard_text
     assert "pending_conversion_qa" in dashboard_text
     assert "## Conversion QA Unblock Plan" in dashboard_text
+    assert "research/conversion-qa-next.md" in dashboard_text
     assert qa_task_id in dashboard_text
     assert "Start conversion-QA triage" in dashboard_text
     assert "conversion-QA triage" in dashboard_text

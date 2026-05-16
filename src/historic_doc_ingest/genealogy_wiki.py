@@ -11726,6 +11726,10 @@ def conversion_qa_unblock_markdown_path(root: Path) -> Path:
     return root.resolve() / "research" / "conversion-qa-unblock-plan.md"
 
 
+def conversion_qa_next_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "conversion-qa-next.md"
+
+
 def build_conversion_qa_unblock_plan_payload(root: Path) -> dict[str, object]:
     paths = WikiPaths(root.resolve())
     queue_dir = paths.research / "_agent-queues"
@@ -11822,6 +11826,7 @@ def build_conversion_qa_unblock_plan_payload(root: Path) -> dict[str, object]:
         ),
         "path": relative_to_root(conversion_qa_unblock_index_path(paths.root), paths.root),
         "markdown": relative_to_root(conversion_qa_unblock_markdown_path(paths.root), paths.root),
+        "next_focus": relative_to_root(conversion_qa_next_markdown_path(paths.root), paths.root),
         "inputs": {
             "conversion_qa_queue": relative_to_root(queue_files["conversion_qa"], paths.root),
             "evidence_extraction_queue": relative_to_root(queue_files["evidence_extraction"], paths.root),
@@ -11873,6 +11878,7 @@ def summarize_conversion_qa_unblock_for_status(payload: dict[str, object]) -> di
         "created": payload.get("created", ""),
         "path": payload.get("path", "research/_indexes/conversion-qa-unblock-plan.json"),
         "markdown": payload.get("markdown", "research/conversion-qa-unblock-plan.md"),
+        "next_focus": payload.get("next_focus", "research/conversion-qa-next.md"),
         "summary": payload.get("summary", {}),
         "top_tasks": top_tasks,
     }
@@ -11933,12 +11939,17 @@ def write_conversion_qa_unblock_plan(root: Path, payload: object | None = None) 
     plan = payload if isinstance(payload, dict) else build_conversion_qa_unblock_plan_payload(paths.root)
     json_path = conversion_qa_unblock_index_path(paths.root)
     markdown_path = conversion_qa_unblock_markdown_path(paths.root)
+    next_path = conversion_qa_next_markdown_path(paths.root)
     json_path.parent.mkdir(parents=True, exist_ok=True)
     markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    next_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(plan, indent=2, ensure_ascii=False), encoding="utf-8")
     markdown_path.write_text(build_conversion_qa_unblock_plan_markdown(plan), encoding="utf-8")
+    next_path.write_text(build_conversion_qa_next_markdown(plan), encoding="utf-8")
     append_index_reference(paths.research / "index.md", "Agent Work", "[[conversion-qa-unblock-plan]]")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[conversion-qa-next]]")
     append_log(paths.research / "log.md", f"conversion-qa-unblock-plan | Wrote {relative_to_root(json_path, paths.root)}")
+    append_log(paths.research / "log.md", f"conversion-qa-unblock-plan | Wrote {relative_to_root(next_path, paths.root)}")
     return json_path, markdown_path
 
 
@@ -11991,6 +12002,95 @@ This report ranks conversion-QA tasks by how many downstream tasks they currentl
 
 {chr(10).join(rows)}
 """
+
+
+def build_conversion_qa_next_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    task = first_conversion_qa_unblock_task(payload)
+    if not task:
+        return f"""# Conversion QA Next
+
+Generated: {payload.get("created", "")}
+
+No conversion-QA focus task is currently available.
+
+## Summary
+
+- Open conversion-QA tasks: {dict_value(summary, "open_conversion_qa_task_count")}
+- Blocked downstream tasks: {dict_value(summary, "blocked_task_count")}
+"""
+
+    blocked_queues = task.get("blocked_queues", {})
+    if not isinstance(blocked_queues, dict):
+        blocked_queues = {}
+    blocked_tasks = task.get("blocked_tasks", [])
+    if not isinstance(blocked_tasks, list):
+        blocked_tasks = []
+    rows = [
+        "| Queue | Task | Lead/Question | Prompt |",
+        "| --- | --- | --- | --- |",
+    ]
+    for blocked in blocked_tasks[:12]:
+        if not isinstance(blocked, dict):
+            continue
+        label = str(blocked.get("lead", "") or blocked.get("question_id", "") or blocked.get("page", "") or "")
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(blocked.get("queue", "")),
+                    markdown_table_cell(blocked.get("task_id", "")),
+                    markdown_table_cell(label or "none"),
+                    markdown_table_cell(blocked.get("prompt_path", "")),
+                ]
+            )
+            + " |"
+        )
+    return f"""# Conversion QA Next
+
+Generated: {payload.get("created", "")}
+
+This is the current highest-impact conversion-QA focus packet. It is an operational queue aid, not a source interpretation or canonical genealogy artifact.
+
+## Focus Task
+
+- Priority rank: {dict_value(task, "priority_rank")}
+- Task id: `{dict_value(task, "task_id", "")}`
+- Status: `{dict_value(task, "status", "")}`
+- Converted file: `{dict_value(task, "converted_file", "")}`
+- QA prompt: `{dict_value(task, "prompt_path", "")}`
+- Triage note: `{dict_value(task, "triage_note", "")}`
+- Page queue: `{dict_value(task, "page_queue", "")}`
+- Suspected readings: `{dict_value(task, "corrections", "")}`
+
+## Unblock Impact
+
+- Downstream tasks unlocked after QA completion and queue regeneration: {dict_value(task, "blocked_task_count")}
+- Blocked queues: {format_status_counts(blocked_queues)}
+
+## Downstream Examples
+
+{chr(10).join(rows)}
+
+## Done When
+
+- Complete the QA prompt listed above.
+- Write/refine conversion-QA artifacts under `research/_conversion-review/`.
+- Mark the conversion-QA task done in task state.
+- Regenerate queues so blocked extraction, lead, question, and external-research work can move forward.
+"""
+
+
+def first_conversion_qa_unblock_task(payload: dict[str, object]) -> dict[str, object]:
+    tasks = payload.get("tasks", [])
+    if not isinstance(tasks, list):
+        return {}
+    for task in tasks:
+        if isinstance(task, dict):
+            return task
+    return {}
 
 
 def top_conversion_qa_unblock_task(conversion_qa_unblock: object) -> dict[str, object]:
@@ -12592,6 +12692,7 @@ Generated: {payload.get("created", "")}
 ## Conversion QA Unblock Plan
 
 - Plan: `{dict_value(conversion_qa_unblock, "path", "research/_indexes/conversion-qa-unblock-plan.json")}`
+- Next focus: `{dict_value(conversion_qa_unblock, "next_focus", "research/conversion-qa-next.md")}`
 - Open conversion-QA tasks: {dict_value(dict_value(conversion_qa_unblock, "summary", {}), "open_conversion_qa_task_count")}
 - Blocked downstream tasks: {dict_value(dict_value(conversion_qa_unblock, "summary", {}), "blocked_task_count")}
 - Blocked queues: {format_status_counts(dict_value(dict_value(conversion_qa_unblock, "summary", {}), "blocked_queue_counts", {}))}

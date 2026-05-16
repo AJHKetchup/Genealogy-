@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T11:50:36Z
+Generated: 2026-05-16T12:06:35Z
 
 ## Source Conversion
 
@@ -78,6 +78,7 @@ Generated: 2026-05-16T11:50:36Z
 ## Conversion QA Unblock Plan
 
 - Plan: `research/_indexes/conversion-qa-unblock-plan.json`
+- Next focus: `research/conversion-qa-next.md`
 - Open conversion-QA tasks: 4
 - Blocked downstream tasks: 27
 - Blocked queues: evidence_extraction: 8, external_research: 3, research_leads: 14, research_questions: 2

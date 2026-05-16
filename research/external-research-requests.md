@@ -1,6 +1,6 @@
 # External Research Requests
 
-Generated: 2026-05-16T11:50:36Z
+Generated: 2026-05-16T12:06:35Z
 
 These are analyzer-generated source-discovery handoffs for repeated unresolved leads. They do not promote claims or edit canonical wiki pages.
 

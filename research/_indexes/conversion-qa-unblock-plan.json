@@ -1,8 +1,9 @@
 {
-  "created": "2026-05-16T11:50:36Z",
+  "created": "2026-05-16T12:06:35Z",
   "purpose": "Conversion-QA unblock priority plan. It maps each conversion-QA task to downstream tasks held by the conversion-QA gate.",
   "path": "research/_indexes/conversion-qa-unblock-plan.json",
   "markdown": "research/conversion-qa-unblock-plan.md",
+  "next_focus": "research/conversion-qa-next.md",
   "inputs": {
     "conversion_qa_queue": "research/_agent-queues/conversion-qa.json",
     "evidence_extraction_queue": "research/_agent-queues/evidence-extraction.json",
