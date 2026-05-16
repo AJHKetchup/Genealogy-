@@ -1469,6 +1469,33 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert queue_after_qa["tasks"][0]["status"] == "todo"
 
 
+def test_conversion_qa_prompt_includes_research_analyzer_context(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "qa-context-record.codex.md"
+    converted.write_text(
+        complete_gemini_page_markdown("M. Werner appears in a professional list.")
+        + """
+## Extracted Genealogy Leads
+
+- **M. Werner**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+    research_analyzer_run(tmp_path, limit=3)
+
+    write_agent_queues(tmp_path)
+
+    qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
+    task = qa_queue["tasks"][0]
+    assert task["research_analyzer_opportunities"][0]["page"] == 1
+    assert task["research_analyzer_opportunities"][0]["staging_recommendations"][0]["type"] == "source_packet"
+    prompt_text = (tmp_path / task["prompt_path"]).read_text(encoding="utf-8")
+    assert "## Research Analyzer Context" in prompt_text
+    assert "M. Werner" in prompt_text
+    assert "page-0001-chunk-01.md" in prompt_text
+
+
 def test_research_analyzer_blocks_question_tasks_for_qc_held_pages(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     converted = tmp_path / "raw" / "converted" / "held-record.codex.md"
@@ -1741,9 +1768,11 @@ def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
 
     analyzer_step = next(step for step in summary["steps"] if step["name"] == "research-analyzer")
     assert analyzer_step["status"] == "ran"
+    qa_context_step = next(step for step in summary["steps"] if step["name"] == "conversion-qa-context")
     site_step = next(step for step in summary["steps"] if step["name"] == "site-build")
     status_step = next(step for step in summary["steps"] if step["name"] == "system-status")
     page_upgrade_step = next(step for step in summary["steps"] if step["name"] == "page-upgrades")
+    assert qa_context_step["status"] == "ran"
     assert site_step["status"] == "ran"
     assert status_step["status"] == "ran"
     assert page_upgrade_step["status"] == "ran"
@@ -1755,6 +1784,9 @@ def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
     assert queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
     qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
     assert qa_queue["tasks"][0]["status"] == "todo"
+    qa_prompt_text = (tmp_path / qa_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "## Research Analyzer Context" in qa_prompt_text
+    assert "M. Werner" in qa_prompt_text
     assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
     assert (tmp_path / "research" / "_indexes" / "page-upgrades.json").exists()
     assert (tmp_path / "site" / "family-tree.html").exists()

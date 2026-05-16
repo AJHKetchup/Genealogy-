@@ -55,6 +55,79 @@
       "auto_qc_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "auto_qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "auto_qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "research_analyzer_opportunities": [
+        {
+          "page": 3,
+          "score": 35,
+          "recommended_action": "record_signal",
+          "readiness_status": "blocked_pending_conversion_qa",
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "genealogy_leads": [
+            "Général Marotte",
+            "M. Des Gouttes",
+            "M. Dinichert",
+            "M. Sakalauskas",
+            "M. Werner",
+            "M. de Pflügl",
+            "MM",
+            "MM. Audeoud",
+            "MM. Logoz"
+          ],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets"
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims"
+            }
+          ]
+        },
+        {
+          "page": 1,
+          "score": 20,
+          "recommended_action": "record_signal",
+          "readiness_status": "blocked_pending_conversion_qa",
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "genealogy_leads": [
+            "M. Boissier",
+            "M. Decencière",
+            "M. Des Gouttes",
+            "M. Dinichert",
+            "M. Huber",
+            "M. Lipiansky",
+            "M. Motta",
+            "M. Ratzenberger",
+            "M. Werner"
+          ],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets"
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims"
+            }
+          ]
+        }
+      ],
       "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md"
     },
     {

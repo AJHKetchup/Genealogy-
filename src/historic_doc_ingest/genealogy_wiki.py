@@ -5122,6 +5122,24 @@ def write_agent_queues(
     return written
 
 
+def write_conversion_qa_agent_queue(root: Path, output_dir: Path | None = None) -> Path:
+    paths = WikiPaths(root.resolve())
+    queue_dir = output_dir or (paths.research / "_agent-queues")
+    if not queue_dir.is_absolute():
+        queue_dir = paths.root / queue_dir
+    queue_dir.mkdir(parents=True, exist_ok=True)
+    task_state = load_agent_task_state(paths.root)
+    path = write_agent_queue(
+        paths.root,
+        queue_dir,
+        "conversion-qa",
+        build_conversion_qa_agent_tasks(paths.root),
+        task_state,
+    )
+    append_log(paths.research / "log.md", f"conversion-qa-context | Wrote {relative_to_root(path, paths.root)}")
+    return path
+
+
 def write_agent_queue(
     root: Path,
     queue_dir: Path,
@@ -5857,6 +5875,9 @@ def build_research_staging_opportunities_payload(root: Path, pages: list[dict[st
                 "recommended_action": action,
                 "chunks": page.get("chunks", []),
                 "reasons": page.get("reasons", []),
+                "matched_terms": page.get("matched_terms", []),
+                "genealogy_leads": page.get("genealogy_leads", []),
+                "suspicious_readings": page.get("suspicious_readings", []),
                 "staging_recommendations": recommendations,
                 "readiness": readiness,
             }
@@ -10076,9 +10097,61 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
             "auto_qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
             "auto_qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
         }
+        research_opportunities = conversion_qa_research_opportunities(root, converted_file)
+        if research_opportunities:
+            task["research_analyzer_opportunities"] = research_opportunities
         task["prompt"] = build_conversion_qa_agent_prompt(task)
         tasks.append(task)
     return tasks
+
+
+def conversion_qa_research_opportunities(root: Path, converted_file: str) -> list[dict[str, object]]:
+    if not converted_file.strip():
+        return []
+    payload = read_json_payload(research_staging_opportunities_index_path(root), {"opportunities": []})
+    opportunities = payload.get("opportunities", [])
+    if not isinstance(opportunities, list):
+        return []
+    results = []
+    for opportunity in opportunities:
+        if not isinstance(opportunity, dict):
+            continue
+        if str(opportunity.get("converted_file", "")) != converted_file:
+            continue
+        recommendations = opportunity.get("staging_recommendations", [])
+        if not isinstance(recommendations, list):
+            recommendations = []
+        readiness = opportunity.get("readiness", {})
+        if not isinstance(readiness, dict):
+            readiness = {}
+        results.append(
+            {
+                "page": safe_int(opportunity.get("page"), 0),
+                "score": safe_int(opportunity.get("score"), 0),
+                "recommended_action": str(opportunity.get("recommended_action", "")),
+                "readiness_status": str(readiness.get("status", "")),
+                "chunks": opportunity.get("chunks", []) if isinstance(opportunity.get("chunks", []), list) else [],
+                "reasons": opportunity.get("reasons", []) if isinstance(opportunity.get("reasons", []), list) else [],
+                "matched_terms": opportunity.get("matched_terms", [])
+                if isinstance(opportunity.get("matched_terms", []), list)
+                else [],
+                "genealogy_leads": opportunity.get("genealogy_leads", [])
+                if isinstance(opportunity.get("genealogy_leads", []), list)
+                else [],
+                "suspicious_readings": opportunity.get("suspicious_readings", [])
+                if isinstance(opportunity.get("suspicious_readings", []), list)
+                else [],
+                "staging_recommendations": [
+                    {
+                        "type": str(recommendation.get("type", "")),
+                        "target": str(recommendation.get("target", "")),
+                    }
+                    for recommendation in recommendations
+                    if isinstance(recommendation, dict)
+                ],
+            }
+        )
+    return sorted(results, key=lambda item: (-safe_int(item.get("score"), 0), safe_int(item.get("page"), 0)))
 
 
 def conversion_qa_task_id_for_converted_file(converted_file: str) -> str:
@@ -11255,6 +11328,18 @@ def cloud_source_prep_heartbeat(
             record_step("research-analyzer", "failed", str(exc))
 
     if conversion_only:
+        record_step("conversion-qa-context", "skipped", "conversion-only run")
+    elif not research_analyzer:
+        record_step("conversion-qa-context", "skipped", "research analyzer disabled")
+    else:
+        try:
+            qa_context_path = write_conversion_qa_agent_queue(paths.root)
+            record_step("conversion-qa-context", "ran", {"written": relative_to_root(qa_context_path, paths.root)})
+        except Exception as exc:
+            summary["blockers"].append(f"conversion-qa-context: {exc}")
+            record_step("conversion-qa-context", "failed", str(exc))
+
+    if conversion_only:
         record_step("page-upgrades", "skipped", "conversion-only run")
     else:
         try:
@@ -11688,6 +11773,61 @@ def format_suspicious_readings(readings: object) -> str:
 
 
 def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
+    research_opportunities = task.get("research_analyzer_opportunities", [])
+    if not isinstance(research_opportunities, list):
+        research_opportunities = []
+    opportunity_section = ""
+    if research_opportunities:
+        rows = [
+            "| Page | Score | Readiness | Signals | Suggested Outputs | Reasons | Chunks |",
+            "| ---: | ---: | --- | --- | --- | --- | --- |",
+        ]
+        for opportunity in research_opportunities:
+            if not isinstance(opportunity, dict):
+                continue
+            recommendations = opportunity.get("staging_recommendations", [])
+            if not isinstance(recommendations, list):
+                recommendations = []
+            rec_types = [
+                str(recommendation.get("type", "")).strip()
+                for recommendation in recommendations
+                if isinstance(recommendation, dict) and str(recommendation.get("type", "")).strip()
+            ]
+            reasons = opportunity.get("reasons", [])
+            if not isinstance(reasons, list):
+                reasons = []
+            chunks = opportunity.get("chunks", [])
+            if not isinstance(chunks, list):
+                chunks = []
+            signals = [
+                str(value)
+                for key in ("matched_terms", "genealogy_leads")
+                for value in (opportunity.get(key, []) if isinstance(opportunity.get(key, []), list) else [])
+                if str(value).strip()
+            ]
+            rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(opportunity.get("page", "")),
+                        markdown_table_cell(opportunity.get("score", "")),
+                        markdown_table_cell(opportunity.get("readiness_status", "")),
+                        markdown_table_cell(", ".join(dict.fromkeys(signals)) or "none"),
+                        markdown_table_cell(", ".join(rec_types) or "none"),
+                        markdown_table_cell("; ".join(str(reason) for reason in reasons) or "none"),
+                        markdown_table_cell(", ".join(str(chunk) for chunk in chunks) or "none"),
+                    ]
+                )
+                + " |"
+            )
+        opportunity_section = f"""
+
+## Research Analyzer Context
+
+These analyzer opportunities are waiting on this conversion-QA task before staged extraction can proceed.
+
+{chr(10).join(rows)}
+""".rstrip()
     return f"""# Conversion QA Task
 
 Use `$conversion-qa-triage`.
@@ -11701,7 +11841,7 @@ Use `$conversion-qa-triage`.
 - Output area: `{task["output_dir"]}`
 - Automatic QC triage: `{task["auto_qc_triage"]}`
 - Automatic page queue: `{task["auto_qc_page_queue"]}`
-- Automatic suspected readings: `{task["auto_qc_corrections"]}`
+- Automatic suspected readings: `{task["auto_qc_corrections"]}`{opportunity_section}
 
 ## Done When
 

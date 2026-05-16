@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "created": "2026-05-16T08:54:50Z",
+  "created": "2026-05-16T09:07:48Z",
   "purpose": "Page-level research-analyzer staging opportunities. These are instructions for draft work under research/_staging/ or conversion review, not canonical genealogy facts.",
   "inputs": {
     "chunks": "raw/chunks/*/manifest.json",
@@ -36,6 +36,19 @@
         "genealogy lead section names 9 candidate(s)",
         "visual evidence cue(s): handwriting"
       ],
+      "matched_terms": [],
+      "genealogy_leads": [
+        "Général Marotte",
+        "M. Des Gouttes",
+        "M. Dinichert",
+        "M. Sakalauskas",
+        "M. Werner",
+        "M. de Pflügl",
+        "MM",
+        "MM. Audeoud",
+        "MM. Logoz"
+      ],
+      "suspicious_readings": [],
       "staging_recommendations": [
         {
           "type": "source_packet",
@@ -71,6 +84,19 @@
       "reasons": [
         "genealogy lead section names 9 candidate(s)"
       ],
+      "matched_terms": [],
+      "genealogy_leads": [
+        "M. Boissier",
+        "M. Decencière",
+        "M. Des Gouttes",
+        "M. Dinichert",
+        "M. Huber",
+        "M. Lipiansky",
+        "M. Motta",
+        "M. Ratzenberger",
+        "M. Werner"
+      ],
+      "suspicious_readings": [],
       "staging_recommendations": [
         {
           "type": "source_packet",
