@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "created": "2026-05-16",
   "mode": "research-analyzer",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
@@ -18,5 +18,11 @@
   "index": "research/_indexes/research-analyzer.json",
   "feedback": "research/_agent-queues/source-relevance-feedback.json",
   "research_question_queue": "research/_agent-queues/research-questions.json",
+  "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
+  "staging_opportunity_pages": 2,
+  "staging_recommendation_counts": {
+    "claim": 2,
+    "source_packet": 2
+  },
   "blockers": []
 }

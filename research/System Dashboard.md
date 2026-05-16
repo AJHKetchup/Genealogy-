@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T07:21:34Z
+Generated: 2026-05-16T07:37:00Z
 
 ## Source Conversion
 
@@ -18,6 +18,8 @@ Generated: 2026-05-16T07:21:34Z
 - QC pages: 0
 - Analyzer pages scanned: 8
 - Analyzer upgrade candidates: 0
+- Analyzer staging opportunity pages: 2
+- Analyzer staging recommendations: claim: 2, source_packet: 2
 - Staging drafts: claims: 0, identity: 0, relationships: 0, source_packets: 0
 
 ## Page Upgrades

@@ -31,6 +31,8 @@
 
 - [[storage-lifecycle]]
 
+- [[staging-opportunities]]
+
 ## Questions
 
 - [[questions/rq-b4dc978311d3-p0001]]

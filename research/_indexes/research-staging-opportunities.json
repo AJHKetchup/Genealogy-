@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "created": "2026-05-16T07:36:57Z",
+  "purpose": "Page-level research-analyzer staging opportunities. These are instructions for draft work under research/_staging/ or conversion review, not canonical genealogy facts.",
+  "inputs": {
+    "chunks": "raw/chunks/*/manifest.json",
+    "research_analyzer": "research/_indexes/research-analyzer.json"
+  },
+  "summary": {
+    "opportunity_page_count": 2,
+    "recommendation_count": 4,
+    "recommendation_type_counts": {
+      "claim": 2,
+      "source_packet": 2
+    },
+    "recommended_action_counts": {
+      "record_signal": 2
+    }
+  },
+  "opportunities": [
+    {
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+      "page": 3,
+      "score": 35,
+      "recommended_action": "record_signal",
+      "chunks": [
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+      ],
+      "reasons": [
+        "genealogy lead section names 9 candidate(s)",
+        "visual evidence cue(s): handwriting"
+      ],
+      "staging_recommendations": [
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        },
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        }
+      ]
+    },
+    {
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+      "page": 1,
+      "score": 20,
+      "recommended_action": "record_signal",
+      "chunks": [
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+      ],
+      "reasons": [
+        "genealogy lead section names 9 candidate(s)"
+      ],
+      "staging_recommendations": [
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        },
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        }
+      ]
+    }
+  ],
+  "storage_contract": "GitHub stores this JSON/Markdown opportunity map. R2 continues to hold raw originals and durable binary assets."
+}

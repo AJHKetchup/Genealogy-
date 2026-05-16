@@ -1332,6 +1332,8 @@ status: stub
     summary = research_analyzer_run(tmp_path, limit=3)
 
     assert summary["upgrade_requests_written"] == 1
+    assert summary["staging_opportunity_pages"] == 1
+    assert summary["staging_recommendation_counts"]["relationship"] == 1
     feedback = json.loads((tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").read_text())
     hint = feedback["hints"][0]
     assert hint["converted_file"] == "raw/converted/dario-record.codex.md"
@@ -1349,6 +1351,14 @@ status: stub
     prompt_text = (tmp_path / queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
     assert "## Suggested Staging Outputs" in question_text
     assert "`relationship` -> `research/_staging/relationships`" in prompt_text
+    opportunities = json.loads(
+        (tmp_path / "research" / "_indexes" / "research-staging-opportunities.json").read_text(encoding="utf-8")
+    )
+    assert opportunities["summary"]["opportunity_page_count"] == 1
+    assert opportunities["summary"]["recommendation_type_counts"]["identity"] == 1
+    opportunities_text = (tmp_path / "research" / "staging-opportunities.md").read_text(encoding="utf-8")
+    assert "Research Staging Opportunities" in opportunities_text
+    assert "relationship" in opportunities_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 
@@ -1378,8 +1388,10 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
 
     assert summary["upgrade_candidates"] == 0
     assert summary["upgrade_requests_written"] == 0
+    assert summary["staging_recommendation_counts"] == {"claim": 1, "source_packet": 1}
     index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
     assert index["pages"][0]["recommended_action"] == "record_signal"
+    assert index["staging_opportunity_pages"] == 1
     assert not (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").exists()
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
     assert queue["task_count"] == 1
@@ -1890,6 +1902,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Source Conversion" in dashboard_text
     assert "## Next Actions" in dashboard_text
+    assert "Analyzer staging opportunity pages" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text

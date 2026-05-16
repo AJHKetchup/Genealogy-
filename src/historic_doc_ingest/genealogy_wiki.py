@@ -5171,7 +5171,7 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
-RESEARCH_ANALYZER_VERSION = 2
+RESEARCH_ANALYZER_VERSION = 3
 RESEARCH_ANALYZER_UPGRADE_SCORE = 50
 RESEARCH_ANALYZER_SIGNAL_SCORE = 20
 RESEARCH_ANALYZER_QUESTION_SCORE = 20
@@ -5579,6 +5579,14 @@ def research_analyzer_index_path(root: Path) -> Path:
     return root.resolve() / "research" / "_indexes" / "research-analyzer.json"
 
 
+def research_staging_opportunities_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "research-staging-opportunities.json"
+
+
+def research_staging_opportunities_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "staging-opportunities.md"
+
+
 def write_research_analyzer_state(root: Path, summary: dict[str, object]) -> Path:
     path = research_analyzer_state_path(root)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -5593,6 +5601,136 @@ def write_research_analyzer_index(root: Path, payload: dict[str, object], out: P
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     return path
+
+
+def write_research_staging_opportunities(
+    root: Path,
+    pages: list[dict[str, object]],
+    payload: dict[str, object] | None = None,
+) -> tuple[Path, Path]:
+    paths = WikiPaths(root.resolve())
+    payload = payload or build_research_staging_opportunities_payload(paths.root, pages)
+    json_path = research_staging_opportunities_index_path(paths.root)
+    markdown_path = research_staging_opportunities_markdown_path(paths.root)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_research_staging_opportunities_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[staging-opportunities]]")
+    append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
+    return json_path, markdown_path
+
+
+def build_research_staging_opportunities_payload(root: Path, pages: list[dict[str, object]]) -> dict[str, object]:
+    opportunities = []
+    type_counts: dict[str, int] = {}
+    action_counts: dict[str, int] = {}
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        recommendations = [
+            recommendation
+            for recommendation in page.get("staging_recommendations", [])
+            if isinstance(recommendation, dict)
+        ]
+        if not recommendations:
+            continue
+        for recommendation in recommendations:
+            rec_type = str(recommendation.get("type", "unknown")).strip() or "unknown"
+            type_counts[rec_type] = type_counts.get(rec_type, 0) + 1
+        action = str(page.get("recommended_action", "unknown")).strip() or "unknown"
+        action_counts[action] = action_counts.get(action, 0) + 1
+        opportunities.append(
+            {
+                "source": str(page.get("source", "")),
+                "source_sha256": str(page.get("source_sha256", "")),
+                "converted_file": str(page.get("converted_file", "")),
+                "chunk_manifest": str(page.get("chunk_manifest", "")),
+                "page": safe_int(page.get("page"), 0),
+                "score": safe_int(page.get("score"), 0),
+                "recommended_action": action,
+                "chunks": page.get("chunks", []),
+                "reasons": page.get("reasons", []),
+                "staging_recommendations": recommendations,
+            }
+        )
+    return {
+        "version": RESEARCH_ANALYZER_VERSION,
+        "created": utc_timestamp(),
+        "purpose": (
+            "Page-level research-analyzer staging opportunities. These are instructions for draft work under "
+            "research/_staging/ or conversion review, not canonical genealogy facts."
+        ),
+        "inputs": {
+            "chunks": "raw/chunks/*/manifest.json",
+            "research_analyzer": relative_to_root(research_analyzer_index_path(root), root),
+        },
+        "summary": {
+            "opportunity_page_count": len(opportunities),
+            "recommendation_count": sum(type_counts.values()),
+            "recommendation_type_counts": dict(sorted(type_counts.items())),
+            "recommended_action_counts": dict(sorted(action_counts.items())),
+        },
+        "opportunities": opportunities,
+        "storage_contract": (
+            "GitHub stores this JSON/Markdown opportunity map. R2 continues to hold raw originals and durable "
+            "binary assets."
+        ),
+    }
+
+
+def build_research_staging_opportunities_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    opportunities = payload.get("opportunities", [])
+    if not isinstance(opportunities, list):
+        opportunities = []
+    rows = [
+        "| Page | Score | Action | Suggested Outputs | Source |",
+        "| ---: | ---: | --- | --- | --- |",
+    ]
+    for opportunity in opportunities:
+        if not isinstance(opportunity, dict):
+            continue
+        recommendations = opportunity.get("staging_recommendations", [])
+        if not isinstance(recommendations, list):
+            recommendations = []
+        rec_types = [
+            str(recommendation.get("type", "")).strip()
+            for recommendation in recommendations
+            if isinstance(recommendation, dict) and str(recommendation.get("type", "")).strip()
+        ]
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(opportunity.get("page", "")),
+                    markdown_table_cell(opportunity.get("score", "")),
+                    markdown_table_cell(opportunity.get("recommended_action", "")),
+                    markdown_table_cell(", ".join(rec_types) or "none"),
+                    markdown_table_cell(opportunity.get("source", "")),
+                ]
+            )
+            + " |"
+        )
+    return f"""# Research Staging Opportunities
+
+Generated: {payload.get("created", "")}
+
+These are analyzer recommendations for draft work. They do not promote claims or edit canonical wiki pages.
+
+## Summary
+
+- Opportunity pages: {dict_value(summary, "opportunity_page_count")}
+- Recommendation count: {dict_value(summary, "recommendation_count")}
+- Recommendation types: {format_status_counts(dict_value(summary, "recommendation_type_counts", {}))}
+- Recommended actions: {format_status_counts(dict_value(summary, "recommended_action_counts", {}))}
+
+## Opportunities
+
+{chr(10).join(rows)}
+"""
 
 
 def research_analyzer_existing_feedback_ids(root: Path) -> set[str]:
@@ -5686,6 +5824,14 @@ def research_analyzer_run(
     question_queue_path = paths.research / "_agent-queues" / "research-questions.json"
     if not dry_run:
         write_research_question_queue(paths.root, pages)
+    staging_payload = build_research_staging_opportunities_payload(paths.root, pages)
+    staging_json_path = research_staging_opportunities_index_path(paths.root)
+    staging_markdown_path = research_staging_opportunities_markdown_path(paths.root)
+    if not dry_run:
+        staging_json_path, staging_markdown_path = write_research_staging_opportunities(paths.root, pages, staging_payload)
+    staging_summary = staging_payload.get("summary", {})
+    if not isinstance(staging_summary, dict):
+        staging_summary = {}
 
     index_payload = {
         "version": RESEARCH_ANALYZER_VERSION,
@@ -5704,6 +5850,9 @@ def research_analyzer_run(
         "research_questions_existing": len(existing_questions),
         "research_questions_refreshed": len(refreshed_questions),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
+        "staging_opportunities": relative_to_root(staging_json_path, paths.root),
+        "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
+        "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -5728,6 +5877,9 @@ def research_analyzer_run(
         "index": relative_to_root(index_path, paths.root),
         "feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
+        "staging_opportunities": relative_to_root(staging_json_path, paths.root),
+        "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
+        "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
@@ -10262,6 +10414,8 @@ def build_system_research_readiness_summary(
         "qc_page_count": len(qa_pages),
         "analyzer_pages_scanned": safe_int(research_analyzer.get("pages_scanned"), 0),
         "analyzer_upgrade_candidates": safe_int(research_analyzer.get("upgrade_candidates"), 0),
+        "analyzer_staging_opportunity_pages": safe_int(research_analyzer.get("staging_opportunity_pages"), 0),
+        "analyzer_staging_recommendations": research_analyzer.get("staging_recommendation_counts", {}),
         "staging_counts": {
             "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
             "claims": count_markdown_files(root / "research" / "_staging" / "claims"),
@@ -10460,6 +10614,8 @@ Generated: {payload.get("created", "")}
 - QC pages: {dict_value(research_readiness, "qc_page_count")}
 - Analyzer pages scanned: {dict_value(research_readiness, "analyzer_pages_scanned")}
 - Analyzer upgrade candidates: {dict_value(research_readiness, "analyzer_upgrade_candidates")}
+- Analyzer staging opportunity pages: {dict_value(research_readiness, "analyzer_staging_opportunity_pages")}
+- Analyzer staging recommendations: {format_status_counts(dict_value(research_readiness, "analyzer_staging_recommendations", {}))}
 - Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
 
 ## Page Upgrades

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "created": "2026-05-16",
   "purpose": "Automated research-analyzer signals from converted chunks, including page-level upgrade candidates and research-question work items.",
   "family_context_terms": [],
@@ -12,6 +12,12 @@
   "research_questions_existing": 2,
   "research_questions_refreshed": 2,
   "research_question_queue": "research/_agent-queues/research-questions.json",
+  "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
+  "staging_opportunity_pages": 2,
+  "staging_recommendation_counts": {
+    "claim": 2,
+    "source_packet": 2
+  },
   "dry_run": false,
   "pages": [
     {
