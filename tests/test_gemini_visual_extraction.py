@@ -139,6 +139,44 @@ def write_test_batch(root, *, requested_treatment: str = "") -> None:
     )
 
 
+def write_audio_media_batch(root) -> None:
+    queue_dir = root / "research" / "_agent-queues"
+    queue_dir.mkdir(parents=True, exist_ok=True)
+    page_dir = root / "raw" / "codex-conversion-jobs" / "audio-job"
+    media_path = page_dir / "page-images" / "interview.m4a"
+    media_path.parent.mkdir(parents=True, exist_ok=True)
+    media_path.write_bytes(b"not real audio")
+    queue = {
+        "tasks": [
+            {
+                "task_id": "source-prep-batch:audio-job:p0001",
+                "queue": "source-prep-batches",
+                "status": "todo",
+                "source": "raw/sources/interview.m4a",
+                "source_sha256": "audio123",
+                "job_manifest": "raw/codex-conversion-jobs/audio-job/manifest.json",
+                "job_id": "audio-job",
+                "title": "Oral history interview",
+                "first_page": 1,
+                "last_page": 1,
+                "page_count": 1,
+                "task_ids": ["source-prep:audio-job:p0001"],
+                "pages": [
+                    {
+                        "page": 1,
+                        "task_id": "source-prep:audio-job:p0001",
+                        "page_image": "raw/codex-conversion-jobs/audio-job/page-images/interview.m4a",
+                        "work_order": "raw/codex-conversion-jobs/audio-job/work-orders/page-0001.md",
+                        "output_path": "raw/codex-conversion-jobs/audio-job/page-markdown/page-0001.md",
+                        "image_output_dir": "raw/codex-conversion-jobs/audio-job/extracted-images/page-0001",
+                    }
+                ],
+            }
+        ]
+    }
+    (queue_dir / "source-prep-batches.json").write_text(json.dumps(queue), encoding="utf-8")
+
+
 def write_parallel_test_batches(root, page_count: int = 2) -> None:
     queue_dir = root / "research" / "_agent-queues"
     queue_dir.mkdir(parents=True, exist_ok=True)
@@ -191,6 +229,24 @@ def write_parallel_test_batches(root, page_count: int = 2) -> None:
             for page_number in range(1, page_count + 1)
         ],
     )
+
+
+def test_gemini_source_prep_skips_audio_for_media_pipeline(tmp_path, monkeypatch) -> None:
+    write_audio_media_batch(tmp_path)
+
+    def fail_gemini(**kwargs):
+        raise AssertionError("audio/video media must not enter the document Gemini fallback")
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fail_gemini)
+
+    summary = source_prep_gemini_run(tmp_path, limit=1, api_key="test-key", refresh_queue=False)
+
+    assert summary["processed"] == 0
+    assert summary["completed"] == 0
+    assert summary["released"] == 0
+    assert summary["skipped"] == 1
+    assert summary["media_skipped"] == 1
+    assert summary["tasks"][0]["reason"] == "audio_media_pipeline"
 
 
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:

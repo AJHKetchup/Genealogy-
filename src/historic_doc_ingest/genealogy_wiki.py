@@ -6904,6 +6904,48 @@ def source_prep_gemini_mime_type(path: Path) -> str:
     return "application/octet-stream"
 
 
+SOURCE_PREP_AUDIO_SUFFIXES = {
+    ".aac",
+    ".aif",
+    ".aiff",
+    ".flac",
+    ".m4a",
+    ".mp3",
+    ".ogg",
+    ".opus",
+    ".wav",
+    ".wma",
+}
+SOURCE_PREP_VIDEO_SUFFIXES = {
+    ".avi",
+    ".m4v",
+    ".mov",
+    ".mp4",
+    ".mpeg",
+    ".mpg",
+    ".webm",
+    ".wmv",
+}
+
+
+def source_prep_media_pipeline_skip_reason(batch: dict[str, object], page: dict[str, object]) -> str:
+    media_type = str(batch.get("media_type", "") or page.get("media_type", "")).strip().lower()
+    if media_type == "audio":
+        return "audio_media_pipeline"
+    if media_type == "video":
+        return "video_media_pipeline"
+
+    suffixes = {
+        Path(str(batch.get("source", ""))).suffix.lower(),
+        Path(str(page.get("page_image", ""))).suffix.lower(),
+    }
+    if suffixes & SOURCE_PREP_AUDIO_SUFFIXES:
+        return "audio_media_pipeline"
+    if suffixes & SOURCE_PREP_VIDEO_SUFFIXES:
+        return "video_media_pipeline"
+    return ""
+
+
 def create_gemini_source_prep_crops(
     root: Path,
     batch: dict[str, object],
@@ -7515,6 +7557,7 @@ def source_prep_gemini_run(
         "released": 0,
         "skipped": 0,
         "discovery_skipped": 0,
+        "media_skipped": 0,
         "route_counts": {},
         "tasks": [],
         "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "total_tokens": 0},
@@ -7534,6 +7577,7 @@ def source_prep_gemini_run(
         released: int = 0,
         skipped: int = 0,
         discovery_skipped: int = 0,
+        media_skipped: int = 0,
         usage: dict[str, object] | None = None,
         visual_regions: dict[str, object] | None = None,
     ) -> dict[str, object]:
@@ -7544,6 +7588,7 @@ def source_prep_gemini_run(
             "released": released,
             "skipped": skipped,
             "discovery_skipped": discovery_skipped,
+            "media_skipped": media_skipped,
             "usage": usage or {},
             "visual_regions": visual_regions or {},
         }
@@ -7559,6 +7604,7 @@ def source_prep_gemini_run(
         summary["released"] = int(summary["released"]) + int(result.get("released", 0) or 0)
         summary["skipped"] = int(summary["skipped"]) + int(result.get("skipped", 0) or 0)
         summary["discovery_skipped"] = int(summary["discovery_skipped"]) + int(result.get("discovery_skipped", 0) or 0)
+        summary["media_skipped"] = int(summary["media_skipped"]) + int(result.get("media_skipped", 0) or 0)
         usage = result.get("usage", {})
         if isinstance(usage, dict):
             summary_usage = summary.setdefault("usage", {})
@@ -7607,6 +7653,18 @@ def source_prep_gemini_run(
             continue
 
         page = first_source_prep_batch_page(raw_task)
+        media_skip_reason = source_prep_media_pipeline_skip_reason(raw_task, page)
+        if media_skip_reason:
+            task_report = {
+                "task_id": task_id,
+                "batch_task_id": raw_task.get("task_id", ""),
+                "status": "skipped",
+                "reason": media_skip_reason,
+                "source": raw_task.get("source", ""),
+                "page_image": page.get("page_image", ""),
+            }
+            apply_result(result_payload(task_report, skipped=1, media_skipped=1))
+            continue
         discovery_skip_reason = source_prep_discovery_batch_skip_reason(paths.root, raw_task, discovery_entries)
         if discovery_skip_reason:
             discovery_entry = source_prep_discovery_entry_for_task(
