@@ -199,6 +199,7 @@ Storage deaccession is allowed only when:
 - Implemented: meaningful crop extraction from Gemini-declared visual regions.
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
 - Implemented: automated research-analyzer chunk scan with page-level upgrade feedback.
+- Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Partial: research wiki and staging structure.
 - Partial: proof/QC and promotion structure.
 - Partial: deeper research analyzer extraction beyond page-upgrade routing.

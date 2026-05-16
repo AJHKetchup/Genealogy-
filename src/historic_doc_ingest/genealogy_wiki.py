@@ -21,6 +21,7 @@ from pathlib import Path
 
 from historic_doc_ingest.raw_cloud import (
     build_raw_cloud_manifest,
+    build_raw_cloud_manifest_from_remote,
     cleanup_remote_json_manifests,
     upload_derived_assets_to_cloud,
     load_raw_cloud_config,
@@ -3004,18 +3005,9 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
 
     jobs_by_hash = source_prep_jobs_by_hash(paths.root)
     conversions_by_hash = source_prep_conversions_by_hash(paths.root)
-    cloud_sources_by_path: dict[str, dict[str, object]] = {}
-    try:
-        cloud_config = load_raw_cloud_config(paths.root, require_credentials=False)
-        cloud_manifest = build_raw_cloud_manifest(paths.root, cloud_config)
-        cloud_sources_by_path = {
-            str(item.get("path", "")): item
-            for item in cloud_manifest.get("files", [])
-            if isinstance(item, dict)
-        }
-    except Exception:
-        cloud_sources_by_path = {}
+    cloud_sources_by_path = raw_cloud_sources_by_path(paths.root)
     sources = []
+    local_raw_paths: set[str] = set()
     for source in sorted((paths.raw / "sources").rglob("*")):
         if not source.is_file() or source.name == ".gitkeep":
             continue
@@ -3023,6 +3015,7 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
         jobs = jobs_by_hash.get(digest, [])
         conversions = conversions_by_hash.get(digest, [])
         raw_path = relative_to_root(source, paths.root)
+        local_raw_paths.add(raw_path)
         entry = {
             "id": f"SRC-{digest[:12]}",
             "title": source.stem,
@@ -3045,6 +3038,11 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
             }
         sources.append(entry)
 
+    for raw_path, cloud_entry in sorted(cloud_sources_by_path.items()):
+        if raw_path in local_raw_paths:
+            continue
+        sources.append(build_cloud_only_source_prep_entry(raw_path, cloud_entry, jobs_by_hash, conversions_by_hash))
+
     manifest = {
         "created": date.today().isoformat(),
         "source_root": "raw/sources",
@@ -3055,6 +3053,73 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     return output_path
+
+
+def raw_cloud_sources_by_path(root: Path) -> dict[str, dict[str, object]]:
+    sources_by_path: dict[str, dict[str, object]] = {}
+    try:
+        cloud_config = load_raw_cloud_config(root, require_credentials=False)
+        cloud_manifest = build_raw_cloud_manifest(root, cloud_config)
+        sources_by_path.update(raw_cloud_manifest_files_by_path(cloud_manifest))
+    except Exception:
+        pass
+    sources_by_path.update(raw_cloud_manifest_files_by_path(read_tracked_raw_cloud_manifest(root)))
+    return sources_by_path
+
+
+def read_tracked_raw_cloud_manifest(root: Path) -> dict[str, object]:
+    path = root.resolve() / "raw" / "r2-raw-sources.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def raw_cloud_manifest_files_by_path(manifest: dict[str, object]) -> dict[str, dict[str, object]]:
+    files = manifest.get("files", []) if isinstance(manifest, dict) else []
+    if not isinstance(files, list):
+        return {}
+    return {
+        str(item.get("path", "")).strip(): item
+        for item in files
+        if isinstance(item, dict) and str(item.get("path", "")).strip()
+    }
+
+
+def build_cloud_only_source_prep_entry(
+    raw_path: str,
+    cloud_entry: dict[str, object],
+    jobs_by_hash: dict[str, list[dict[str, str]]],
+    conversions_by_hash: dict[str, list[dict[str, str]]],
+) -> dict[str, object]:
+    digest = str(cloud_entry.get("sha256", "")).strip()
+    identity_digest = digest or hashlib.sha256(
+        f"{raw_path}|{cloud_entry.get('key', '')}".encode("utf-8")
+    ).hexdigest()
+    jobs = jobs_by_hash.get(digest, []) if digest else []
+    conversions = conversions_by_hash.get(digest, []) if digest else []
+    return {
+        "id": f"SRC-{identity_digest[:12]}",
+        "title": Path(raw_path).stem,
+        "raw_path": raw_path,
+        "media_type": detect_media_type(Path(raw_path)),
+        "bytes": safe_int(cloud_entry.get("bytes"), 0),
+        "sha256": digest,
+        "status": source_prep_status(jobs, conversions) if (jobs or conversions) else "cloud_registered",
+        "local_cache": "missing",
+        "conversion_jobs": jobs,
+        "converted_sources": conversions,
+        "cloud": {
+            "provider": "cloudflare-r2",
+            "key": cloud_entry.get("key", ""),
+            "sha256": digest,
+            "bytes": safe_int(cloud_entry.get("bytes"), 0),
+            "media_type": cloud_entry.get("media_type", ""),
+        },
+    }
 
 
 def chunk_converted_markdown(
@@ -8608,6 +8673,79 @@ def queue_summary(path: Path) -> dict[str, object]:
     }
 
 
+def r2_source_intake_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_automation" / "r2-source-intake-state.json"
+
+
+def write_r2_source_intake_state(root: Path, summary: dict[str, object]) -> Path:
+    output_path = r2_source_intake_state_path(root)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    return output_path
+
+
+def monitor_r2_source_intake(
+    root: Path,
+    *,
+    limit: int | None = None,
+    dry_run: bool = False,
+) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    config = load_raw_cloud_config(paths.root, require_credentials=True)
+    previous_manifest = read_tracked_raw_cloud_manifest(paths.root)
+    previous_by_path = raw_cloud_manifest_files_by_path(previous_manifest)
+    remote_manifest = build_raw_cloud_manifest_from_remote(paths.root, config, limit=limit)
+    remote_by_path = raw_cloud_manifest_files_by_path(remote_manifest)
+
+    new_paths = sorted(path for path in remote_by_path if path not in previous_by_path)
+    removed_paths = sorted(path for path in previous_by_path if path not in remote_by_path)
+    changed_paths = sorted(
+        path
+        for path, current in remote_by_path.items()
+        if path in previous_by_path and raw_cloud_file_changed(previous_by_path[path], current)
+    )
+
+    r2_manifest_path = paths.raw / "r2-raw-sources.json"
+    source_manifest_path = paths.raw / "source-prep-manifest.json"
+    if not dry_run:
+        r2_manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        r2_manifest_path.write_text(json.dumps(remote_manifest, indent=2, ensure_ascii=False), encoding="utf-8")
+        source_manifest_path = write_source_prep_index(paths.root)
+
+    summary: dict[str, object] = {
+        "created": utc_timestamp(),
+        "mode": "r2-source-intake",
+        "root": str(paths.root),
+        "dry_run": dry_run,
+        "limit": limit or 0,
+        "remote_file_count": len(remote_by_path),
+        "new_file_count": len(new_paths),
+        "changed_file_count": len(changed_paths),
+        "removed_file_count": len(removed_paths),
+        "new_files": [remote_by_path[path] for path in new_paths],
+        "changed_files": [remote_by_path[path] for path in changed_paths],
+        "removed_files": [previous_by_path[path] for path in removed_paths],
+        "r2_manifest": relative_to_root(r2_manifest_path, paths.root),
+        "source_prep_manifest": relative_to_root(source_manifest_path, paths.root),
+        "blockers": [],
+    }
+    if not dry_run:
+        state_path = write_r2_source_intake_state(paths.root, summary)
+        summary["state"] = relative_to_root(state_path, paths.root)
+        append_log(
+            paths.research / "log.md",
+            f"r2-source-intake | Registered {len(new_paths)} new, {len(changed_paths)} changed, {len(removed_paths)} removed remote source(s)",
+        )
+    return summary
+
+
+def raw_cloud_file_changed(previous: dict[str, object], current: dict[str, object]) -> bool:
+    for key in ("key", "bytes", "sha256", "media_type"):
+        if str(previous.get(key, "")).strip() != str(current.get(key, "")).strip():
+            return True
+    return False
+
+
 def write_cloud_source_prep_heartbeat_state(root: Path, summary: dict[str, object]) -> Path:
     paths = WikiPaths(root.resolve())
     output_path = paths.research / "_automation" / "cloud-source-prep-heartbeat-state.json"
@@ -8670,6 +8808,16 @@ def cloud_source_prep_heartbeat(
             cast_steps.append(step)
 
     if restore_raw:
+        try:
+            if dry_run:
+                record_step("r2-source-intake", "skipped-dry-run")
+            else:
+                intake_report = monitor_r2_source_intake(paths.root)
+                record_step("r2-source-intake", "ran", intake_report)
+        except Exception as exc:
+            summary["blockers"].append(f"r2-source-intake: {exc}")
+            record_step("r2-source-intake", "failed", str(exc))
+
         try:
             config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
             if dry_run:
@@ -10042,6 +10190,18 @@ def build_parser() -> argparse.ArgumentParser:
     raw_cloud_parser.add_argument("--dry-run", action="store_true", help="For upload, write a plan without network writes.")
     raw_cloud_parser.add_argument("--force", action="store_true", help="Re-upload or overwrite restored files.")
 
+    r2_source_intake_parser = subparsers.add_parser(
+        "r2-source-intake",
+        help="List R2 raw sources and register cloud-only source-prep manifest entries.",
+    )
+    r2_source_intake_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    r2_source_intake_parser.add_argument("--limit", type=int, help="Limit remote R2 objects for a bounded test run.")
+    r2_source_intake_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="List remote sources and report changes without writing manifests.",
+    )
+
     prepare_sources_parser = subparsers.add_parser(
         "prepare-sources",
         help="Queue Codex-agent conversion jobs for raw/sources and chunk completed conversions.",
@@ -10564,6 +10724,12 @@ def main(argv: list[str] | None = None) -> int:
         output_path = write_source_prep_index(args.root, args.out)
         print(f"Wrote source preparation manifest {output_path}")
         return 0
+
+    if args.command == "r2-source-intake":
+        summary = monitor_r2_source_intake(args.root, limit=args.limit, dry_run=args.dry_run)
+        print("r2-source-intake | summary")
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return 1 if summary.get("blockers") else 0
 
     if args.command == "raw-cloud":
         needs_credentials = (

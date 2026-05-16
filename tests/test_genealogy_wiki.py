@@ -21,6 +21,7 @@ from historic_doc_ingest.genealogy_wiki import (
     init_genealogy_wiki,
     lint_genealogy_wiki,
     mark_source_relevance_feedback,
+    monitor_r2_source_intake,
     release_stale_agent_tasks,
     research_analyzer_run,
     write_claim_index,
@@ -648,6 +649,114 @@ def test_prepare_raw_sources_queues_agent_conversion_jobs(tmp_path) -> None:
     jobs = list((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
     assert len(jobs) == 1
     assert next_codex_conversion_work_order(tmp_path, jobs[0]) is not None
+
+
+def test_source_prep_index_registers_cloud_only_r2_sources(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    (tmp_path / "raw" / "r2-raw-sources.json").write_text(
+        json.dumps(
+            {
+                "version": 1,
+                "files": [
+                    {
+                        "path": "raw/sources/cloud-only.pdf",
+                        "key": "archive/raw/sources/cloud-only.pdf",
+                        "bytes": 42,
+                        "sha256": "abc123",
+                        "media_type": "application/pdf",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    write_source_prep_index(tmp_path)
+
+    manifest = json.loads((tmp_path / "raw" / "source-prep-manifest.json").read_text(encoding="utf-8"))
+    assert manifest["sources"][0]["raw_path"] == "raw/sources/cloud-only.pdf"
+    assert manifest["sources"][0]["status"] == "cloud_registered"
+    assert manifest["sources"][0]["local_cache"] == "missing"
+    assert manifest["sources"][0]["media_type"] == "pdf"
+    assert manifest["sources"][0]["cloud"]["key"] == "archive/raw/sources/cloud-only.pdf"
+
+
+def test_r2_source_intake_monitor_writes_remote_manifest_and_registers_sources(monkeypatch, tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    (tmp_path / "raw" / "r2-raw-sources.json").write_text(
+        json.dumps(
+            {
+                "version": 1,
+                "files": [
+                    {
+                        "path": "raw/sources/existing.pdf",
+                        "key": "raw/sources/existing.pdf",
+                        "bytes": 1,
+                        "sha256": "old-sha",
+                        "media_type": "application/pdf",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setenv("R2_BUCKET", "genealogy")
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "test")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "test")
+
+    def fake_remote_manifest(root, config, limit=None):
+        assert limit == 10
+        return {
+            "version": 1,
+            "created": "2026-05-16T00:00:00+00:00",
+            "purpose": "Cloud object inventory for immutable raw genealogy source originals.",
+            "storage": {
+                "provider": "cloudflare-r2",
+                "account_id": config.account_id,
+                "endpoint_url": config.endpoint_url,
+                "bucket": config.bucket,
+                "prefix": config.prefix,
+            },
+            "manifest_path": "raw/r2-raw-sources.json",
+            "raw_source_root": "raw/sources",
+            "source": "remote-r2-list",
+            "files": [
+                {
+                    "path": "raw/sources/cloud-new.jpg",
+                    "key": "raw/sources/cloud-new.jpg",
+                    "bytes": 42,
+                    "sha256": "new-sha",
+                    "media_type": "image/jpeg",
+                },
+                {
+                    "path": "raw/sources/existing.pdf",
+                    "key": "raw/sources/existing.pdf",
+                    "bytes": 2,
+                    "sha256": "new-sha-existing",
+                    "media_type": "application/pdf",
+                },
+            ],
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "build_raw_cloud_manifest_from_remote", fake_remote_manifest)
+
+    summary = monitor_r2_source_intake(tmp_path, limit=10)
+
+    assert summary["remote_file_count"] == 2
+    assert summary["new_file_count"] == 1
+    assert summary["changed_file_count"] == 1
+    assert summary["removed_file_count"] == 0
+    assert (tmp_path / "research" / "_automation" / "r2-source-intake-state.json").exists()
+    r2_manifest = json.loads((tmp_path / "raw" / "r2-raw-sources.json").read_text(encoding="utf-8"))
+    assert [item["path"] for item in r2_manifest["files"]] == [
+        "raw/sources/cloud-new.jpg",
+        "raw/sources/existing.pdf",
+    ]
+    source_manifest = json.loads((tmp_path / "raw" / "source-prep-manifest.json").read_text(encoding="utf-8"))
+    sources_by_path = {source["raw_path"]: source for source in source_manifest["sources"]}
+    assert sources_by_path["raw/sources/cloud-new.jpg"]["status"] == "cloud_registered"
+    assert sources_by_path["raw/sources/cloud-new.jpg"]["media_type"] == "image"
+    assert sources_by_path["raw/sources/existing.pdf"]["cloud"]["sha256"] == "new-sha-existing"
 
 
 def test_prepare_raw_sources_splits_large_pdfs_into_agent_page_ranges(tmp_path) -> None:
