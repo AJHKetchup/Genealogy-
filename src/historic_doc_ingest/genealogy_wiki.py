@@ -10,6 +10,7 @@ import re
 import shutil
 import subprocess
 import time
+import tempfile
 import urllib.error
 import urllib.request
 from dataclasses import asdict, dataclass, field
@@ -5335,6 +5336,474 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
         task["repair_reason"] = "research_relevance_feedback"
 
 
+SOURCE_PREP_DISCOVERY_VERSION = 1
+SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
+SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
+SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
+SOURCE_PREP_DISCOVERY_TERMINAL_STATUSES = {
+    SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS,
+    SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS,
+    "error",
+    "skipped",
+}
+SOURCE_PREP_DISCOVERY_ALLOWED_STATUSES = {"todo"}
+SOURCE_PREP_DISCOVERY_MIN_TEXT_CHARS = 120
+SOURCE_PREP_DISCOVERY_MIN_ALPHA_CHARS = 60
+SOURCE_PREP_DISCOVERY_MIN_WORDS = 18
+SOURCE_PREP_DISCOVERY_MAX_ODD_CHAR_RATIO = 0.08
+
+
+def source_prep_discovery_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "source-prep-discovery.json"
+
+
+def source_prep_docling_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_automation" / "source-prep-docling-state.json"
+
+
+def load_source_prep_discovery_state(root: Path) -> dict[str, object]:
+    path = source_prep_discovery_state_path(root)
+    if not path.exists():
+        return {
+            "version": SOURCE_PREP_DISCOVERY_VERSION,
+            "created": utc_timestamp(),
+            "updated": utc_timestamp(),
+            "purpose": "Rough non-evidence Docling discovery outputs used for source triage and Gemini routing.",
+            "entries": {},
+        }
+    payload = read_json_payload(path, {})
+    if payload.get("version") != SOURCE_PREP_DISCOVERY_VERSION:
+        payload = {}
+    entries = payload.get("entries", {}) if isinstance(payload, dict) else {}
+    if not isinstance(entries, dict):
+        entries = {}
+    return {
+        "version": SOURCE_PREP_DISCOVERY_VERSION,
+        "created": str(payload.get("created") or utc_timestamp()) if isinstance(payload, dict) else utc_timestamp(),
+        "updated": str(payload.get("updated") or utc_timestamp()) if isinstance(payload, dict) else utc_timestamp(),
+        "purpose": "Rough non-evidence Docling discovery outputs used for source triage and Gemini routing.",
+        "entries": entries,
+    }
+
+
+def save_source_prep_discovery_state(root: Path, payload: dict[str, object]) -> Path:
+    path = source_prep_discovery_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    entries = payload.get("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+    output = {
+        "version": SOURCE_PREP_DISCOVERY_VERSION,
+        "created": str(payload.get("created") or utc_timestamp()),
+        "updated": utc_timestamp(),
+        "purpose": "Rough non-evidence Docling discovery outputs used for source triage and Gemini routing.",
+        "entries": entries,
+    }
+    path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def write_source_prep_docling_state(root: Path, summary: dict[str, object]) -> Path:
+    path = source_prep_docling_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def source_prep_discovery_key(task_id: str, source_sha256: str) -> str:
+    return f"{task_id.strip()}|{source_sha256.strip()}"
+
+
+def source_prep_discovery_cache_key(task: dict[str, object]) -> str:
+    return source_prep_discovery_key(
+        str(task.get("task_id", "")).strip(),
+        str(task.get("source_sha256", "")).strip(),
+    )
+
+
+def source_prep_discovery_output_path(root: Path, task: dict[str, object]) -> Path:
+    job_manifest = Path(str(task.get("job_manifest", "")).strip())
+    job_slug = job_manifest.parent.name if job_manifest.parent.name else str(task.get("job_id", "source"))
+    page_number = safe_int(task.get("page"), 1)
+    return root.resolve() / "raw" / "discovery" / "docling" / slug(job_slug) / f"page-{page_number:04d}.md"
+
+
+def source_prep_record_has_relevance_request(*records: dict[str, object]) -> bool:
+    for record in records:
+        relevance = str(record.get("research_relevance", "")).strip()
+        treatment = str(record.get("requested_treatment", "")).strip()
+        repair = str(record.get("repair_reason", "")).strip()
+        recommended_action = str(record.get("recommended_action", "")).strip()
+        if relevance or treatment or repair or recommended_action:
+            return True
+    return False
+
+
+def source_prep_discovery_entry_for_task(
+    root: Path,
+    task: dict[str, object],
+    entries: dict[str, object] | None = None,
+) -> dict[str, object] | None:
+    if entries is None:
+        entries = load_source_prep_discovery_state(root).get("entries", {})
+    if not isinstance(entries, dict):
+        return None
+    entry = entries.get(source_prep_discovery_cache_key(task))
+    return entry if isinstance(entry, dict) else None
+
+
+def source_prep_discovery_is_usable(root: Path, entry: dict[str, object] | None) -> bool:
+    if not entry or str(entry.get("status", "")).strip() != SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+        return False
+    discovery_path = str(entry.get("discovery_path", "")).strip()
+    if not discovery_path:
+        return False
+    return (root.resolve() / discovery_path).exists()
+
+
+def apply_source_prep_discovery_state(
+    root: Path,
+    task: dict[str, object],
+    entries: dict[str, object],
+) -> None:
+    entry = source_prep_discovery_entry_for_task(root, task, entries)
+    if not entry:
+        return
+    task["rough_discovery_status"] = str(entry.get("status", "")).strip()
+    if entry.get("discovery_path"):
+        task["rough_discovery_path"] = str(entry.get("discovery_path", ""))
+    if entry.get("readability_flags"):
+        task["rough_discovery_flags"] = entry.get("readability_flags")
+    if not source_prep_discovery_is_usable(root, entry):
+        return
+    if str(task.get("status", "")).strip() not in SOURCE_PREP_DISCOVERY_ALLOWED_STATUSES:
+        return
+    if source_prep_record_has_relevance_request(task):
+        return
+    task["status"] = SOURCE_PREP_DISCOVERY_TASK_STATUS
+
+
+def source_prep_discovery_batch_skip_reason(
+    root: Path,
+    batch: dict[str, object],
+    entries: dict[str, object],
+) -> str:
+    page = first_source_prep_batch_page(batch)
+    if str(batch.get("status", "")).strip() != "todo":
+        return ""
+    if source_prep_record_has_relevance_request(batch, page):
+        return ""
+    task_id = source_prep_gemini_task_id(batch)
+    source_sha256 = str(batch.get("source_sha256", "") or page.get("source_sha256", "")).strip()
+    entry = entries.get(source_prep_discovery_key(task_id, source_sha256)) if isinstance(entries, dict) else None
+    if isinstance(entry, dict) and source_prep_discovery_is_usable(root, entry):
+        return "rough_docling_discovery_available"
+    return ""
+
+
+def profile_source_prep_discovery_markdown(markdown: str) -> dict[str, object]:
+    text = re.sub(r"```.*?```", " ", markdown, flags=re.DOTALL)
+    text = re.sub(r"!\[[^\]]*\]\([^)]+\)", " ", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    stripped = re.sub(r"\s+", " ", text).strip()
+    nonspace = len(re.sub(r"\s+", "", stripped)) or 1
+    alpha_chars = len(re.findall(r"[A-Za-z\u00c0-\u017f]", stripped))
+    words = re.findall(r"[A-Za-z\u00c0-\u017f0-9][A-Za-z\u00c0-\u017f0-9'’-]*", stripped)
+    odd_chars = len(re.findall(r"[^A-Za-z0-9\u00c0-\u017f\s.,;:!?()\[\]{}'\"/\\\-+&%$#@*=<>|’‘“”áéíóúÁÉÍÓÚñÑüÜ]", stripped))
+    flags: list[str] = []
+    if len(stripped) < SOURCE_PREP_DISCOVERY_MIN_TEXT_CHARS:
+        flags.append("insufficient_text")
+    if alpha_chars < SOURCE_PREP_DISCOVERY_MIN_ALPHA_CHARS:
+        flags.append("insufficient_alpha_text")
+    if len(words) < SOURCE_PREP_DISCOVERY_MIN_WORDS:
+        flags.append("insufficient_words")
+    if any(marker in stripped for marker in MOJIBAKE_MARKERS):
+        flags.append("encoding_mojibake")
+    if odd_chars / nonspace > SOURCE_PREP_DISCOVERY_MAX_ODD_CHAR_RATIO:
+        flags.append("possible_ocr_garbage")
+    status = SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS if not flags else SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS
+    return {
+        "status": status,
+        "text_chars": len(stripped),
+        "alpha_chars": alpha_chars,
+        "word_count": len(words),
+        "odd_char_ratio": odd_chars / nonspace,
+        "readability_flags": flags,
+    }
+
+
+def build_source_prep_discovery_markdown(
+    task: dict[str, object],
+    docling_markdown: str,
+    profile: dict[str, object],
+) -> str:
+    page_number = safe_int(task.get("page"), 1)
+    fence = markdown_fence_for_text(docling_markdown)
+    status = str(profile.get("status", "")).strip()
+    flags = ", ".join(str(flag) for flag in profile.get("readability_flags", []) or []) or "none"
+    return f"""# Rough Docling Discovery: Page {page_number}
+
+> This is rough discovery text for browsing and triage only. It is not evidence-grade transcription and should not be cited as a source conversion.
+
+## Discovery Metadata
+
+- Task id: `{task.get("task_id", "")}`
+- Source title: {task.get("title", "")}
+- Source file: `{task.get("source", "")}`
+- Source SHA-256: `{task.get("source_sha256", "")}`
+- Job manifest: `{task.get("job_manifest", "")}`
+- Source page: {page_number}
+- Evidence-grade output target if upgraded: `{task.get("output_path", "")}`
+- Discovery method: Docling rough markdown export.
+- Discovery status: `{status}`
+- Readability flags: {flags}
+- Text characters: {profile.get("text_chars", 0)}
+- Alpha characters: {profile.get("alpha_chars", 0)}
+- Word count: {profile.get("word_count", 0)}
+
+## Rough Markdown
+
+{fence}markdown
+{docling_markdown.strip()}
+{fence}
+"""
+
+
+def source_prep_docling_input_path(root: Path, task: dict[str, object], temp_dir: Path) -> Path:
+    source_path = root.resolve() / str(task.get("source", ""))
+    manifest_path = root.resolve() / str(task.get("job_manifest", ""))
+    manifest = read_json_payload(manifest_path, {}) if manifest_path.exists() else {}
+    source_file = find_existing_source_file_for_job(root.resolve(), manifest) if manifest else None
+    if source_file is None and source_path.exists():
+        source_file = source_path
+    if source_file is None:
+        page_image = root.resolve() / str(task.get("page_image", ""))
+        if page_image.exists():
+            return page_image
+        raise FileNotFoundError(source_path)
+
+    media_type = str(manifest.get("media_type") or detect_media_type(source_file))
+    if media_type != "pdf":
+        page_image = root.resolve() / str(task.get("page_image", ""))
+        return page_image if page_image.exists() else source_file
+
+    try:
+        import fitz
+    except ImportError as exc:
+        raise RuntimeError("PyMuPDF is required to prepare page-scoped Docling PDF inputs.") from exc
+
+    page_number = safe_int(task.get("page"), 1)
+    page_spec = find_manifest_page_spec(manifest, page_number) if manifest else {}
+    source_page = safe_int(page_spec.get("source_page"), page_number)
+    if source_page < 1:
+        raise ValueError(f"invalid source page for {task.get('task_id', '')}: {source_page}")
+
+    target = temp_dir / f"{slug(str(task.get('task_id', 'page')))}.pdf"
+    with fitz.open(source_file) as doc:
+        if source_page > len(doc):
+            raise ValueError(f"source page {source_page} is outside {source_file}")
+        out_doc = fitz.open()
+        try:
+            out_doc.insert_pdf(doc, from_page=source_page - 1, to_page=source_page - 1)
+            out_doc.save(target)
+        finally:
+            out_doc.close()
+    return target
+
+
+def convert_source_with_docling(input_path: Path) -> str:
+    try:
+        from docling.document_converter import DocumentConverter
+    except ImportError as exc:
+        raise RuntimeError("Docling is required for source-prep discovery. Install with the discovery extra.") from exc
+
+    converter = DocumentConverter()
+    result = converter.convert(str(input_path))
+    document = getattr(result, "document", None)
+    if document is None:
+        raise RuntimeError("Docling returned no document.")
+    return str(document.export_to_markdown()).strip()
+
+
+def source_prep_docling_discovery_run(
+    root: Path,
+    *,
+    limit: int = 100,
+    scan_limit: int = 1000,
+    stale_minutes: int = 360,
+    agent: str = "source-prep-docling-discovery",
+    dry_run: bool = False,
+) -> dict[str, object]:
+    if limit < 1:
+        raise ValueError("limit must be at least 1")
+    if scan_limit < 1:
+        raise ValueError("scan_limit must be at least 1")
+
+    paths = WikiPaths(root.resolve())
+    release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
+    task_state = load_agent_task_state(paths.root)
+    discovery_state = load_source_prep_discovery_state(paths.root)
+    entries = discovery_state.setdefault("entries", {})
+    if not isinstance(entries, dict):
+        entries = {}
+        discovery_state["entries"] = entries
+
+    tasks = [
+        task
+        for task in materialize_source_prep_tasks(paths.root, task_state)
+        if str(task.get("status", "")).strip() in SOURCE_PREP_DISCOVERY_ALLOWED_STATUSES
+        and not source_prep_record_has_relevance_request(task)
+    ]
+    tasks.sort(
+        key=lambda task: (
+            str(task.get("source", "")),
+            str(task.get("job_manifest", "")),
+            safe_int(task.get("page"), 0),
+        )
+    )
+
+    summary: dict[str, object] = {
+        "created": utc_timestamp(),
+        "mode": "source-prep-docling-discovery",
+        "dry_run": dry_run,
+        "agent": agent,
+        "limit": limit,
+        "scan_limit": scan_limit,
+        "inspected": 0,
+        "accepted": 0,
+        "unusable": 0,
+        "errors": 0,
+        "skipped": {},
+        "tasks": [],
+        "blockers": [],
+    }
+    changed = False
+
+    def count_skip(reason: str) -> None:
+        skipped = summary.setdefault("skipped", {})
+        if isinstance(skipped, dict):
+            skipped[reason] = int(skipped.get(reason, 0)) + 1
+
+    with tempfile.TemporaryDirectory(prefix="source-prep-docling-") as tmp:
+        temp_dir = Path(tmp)
+        for task in tasks:
+            if int(summary["accepted"]) >= limit or int(summary["inspected"]) >= scan_limit:
+                break
+            task_id = str(task.get("task_id", "")).strip()
+            cache_key = source_prep_discovery_cache_key(task)
+            cached = entries.get(cache_key)
+            if isinstance(cached, dict) and str(cached.get("status", "")).strip() in SOURCE_PREP_DISCOVERY_TERMINAL_STATUSES:
+                count_skip(f"cached_{cached.get('status')}")
+                continue
+
+            summary["inspected"] = int(summary["inspected"]) + 1
+            task_report: dict[str, object] = {
+                "task_id": task_id,
+                "source": task.get("source", ""),
+                "page": task.get("page", 0),
+            }
+            try:
+                input_path = source_prep_docling_input_path(paths.root, task, temp_dir)
+                docling_markdown = convert_source_with_docling(input_path)
+                profile = profile_source_prep_discovery_markdown(docling_markdown)
+                status = str(profile.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
+                discovery_path = source_prep_discovery_output_path(paths.root, task)
+                discovery_markdown = build_source_prep_discovery_markdown(task, docling_markdown, profile)
+                task_report.update(
+                    {
+                        "status": status,
+                        "discovery_path": relative_to_root(discovery_path, paths.root),
+                        "readability_flags": profile.get("readability_flags", []),
+                        "text_chars": profile.get("text_chars", 0),
+                    }
+                )
+                if not dry_run:
+                    discovery_path.parent.mkdir(parents=True, exist_ok=True)
+                    discovery_path.write_text(discovery_markdown, encoding="utf-8")
+                    entries[cache_key] = {
+                        "status": status,
+                        "updated": utc_timestamp(),
+                        "agent": agent,
+                        "task_id": task_id,
+                        "source": str(task.get("source", "")),
+                        "source_sha256": str(task.get("source_sha256", "")),
+                        "job_manifest": str(task.get("job_manifest", "")),
+                        "page": safe_int(task.get("page"), 0),
+                        "discovery_path": relative_to_root(discovery_path, paths.root),
+                        "evidence_output_path": str(task.get("output_path", "")),
+                        "method": "docling",
+                        "evidence_grade": False,
+                        **profile,
+                    }
+                    changed = True
+                if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+                    summary["accepted"] = int(summary["accepted"]) + 1
+                else:
+                    summary["unusable"] = int(summary["unusable"]) + 1
+            except RuntimeError as exc:
+                if "Docling is required" in str(exc):
+                    summary["blockers"] = [str(exc)]
+                    task_report["status"] = "blocked"
+                    task_report["error"] = str(exc)
+                    cast_tasks = summary.setdefault("tasks", [])
+                    if isinstance(cast_tasks, list):
+                        cast_tasks.append(task_report)
+                    break
+                summary["errors"] = int(summary["errors"]) + 1
+                task_report["status"] = "error"
+                task_report["error"] = str(exc)
+                if not dry_run:
+                    entries[cache_key] = {
+                        "status": "error",
+                        "updated": utc_timestamp(),
+                        "agent": agent,
+                        "task_id": task_id,
+                        "source": str(task.get("source", "")),
+                        "source_sha256": str(task.get("source_sha256", "")),
+                        "job_manifest": str(task.get("job_manifest", "")),
+                        "page": safe_int(task.get("page"), 0),
+                        "error": str(exc)[:500],
+                        "evidence_grade": False,
+                    }
+                    changed = True
+            except Exception as exc:
+                summary["errors"] = int(summary["errors"]) + 1
+                task_report["status"] = "error"
+                task_report["error"] = str(exc)
+                if not dry_run:
+                    entries[cache_key] = {
+                        "status": "error",
+                        "updated": utc_timestamp(),
+                        "agent": agent,
+                        "task_id": task_id,
+                        "source": str(task.get("source", "")),
+                        "source_sha256": str(task.get("source_sha256", "")),
+                        "job_manifest": str(task.get("job_manifest", "")),
+                        "page": safe_int(task.get("page"), 0),
+                        "error": str(exc)[:500],
+                        "evidence_grade": False,
+                    }
+                    changed = True
+
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+
+    if changed and not dry_run:
+        discovery_path = save_source_prep_discovery_state(paths.root, discovery_state)
+        summary["discovery_state_path"] = relative_to_root(discovery_path, paths.root)
+    summary["finished"] = utc_timestamp()
+    state_path = write_source_prep_docling_state(paths.root, summary)
+    summary["state_path"] = relative_to_root(state_path, paths.root)
+    append_log(
+        paths.research / "log.md",
+        "source-prep-docling-discovery | "
+        f"inspected {summary['inspected']}, accepted {summary['accepted']}, unusable {summary['unusable']}, "
+        f"errors={summary['errors']}, dry_run={dry_run}",
+    )
+    return summary
+
+
 def write_source_prep_batches(
     root: Path,
     output_dir: Path | None = None,
@@ -6675,6 +7144,9 @@ def source_prep_gemini_run(
         queue_tasks = []
 
     task_state = load_agent_task_state(paths.root)
+    discovery_entries = load_source_prep_discovery_state(paths.root).get("entries", {})
+    if not isinstance(discovery_entries, dict):
+        discovery_entries = {}
     summary: dict[str, object] = {
         "created": utc_timestamp(),
         "mode": "gemini-source-prep",
@@ -6686,6 +7158,7 @@ def source_prep_gemini_run(
         "completed": 0,
         "released": 0,
         "skipped": 0,
+        "discovery_skipped": 0,
         "route_counts": {},
         "tasks": [],
         "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "total_tokens": 0},
@@ -6715,6 +7188,29 @@ def source_prep_gemini_run(
             continue
 
         page = first_source_prep_batch_page(raw_task)
+        discovery_skip_reason = source_prep_discovery_batch_skip_reason(paths.root, raw_task, discovery_entries)
+        if discovery_skip_reason:
+            discovery_entry = source_prep_discovery_entry_for_task(
+                paths.root,
+                {
+                    "task_id": task_id,
+                    "source_sha256": raw_task.get("source_sha256", "") or page.get("source_sha256", ""),
+                },
+                discovery_entries,
+            )
+            task_report = {
+                "task_id": task_id,
+                "batch_task_id": raw_task.get("task_id", ""),
+                "status": "skipped",
+                "reason": discovery_skip_reason,
+                "discovery_path": str(discovery_entry.get("discovery_path", "")) if discovery_entry else "",
+            }
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+            summary["skipped"] = int(summary["skipped"]) + 1
+            summary["discovery_skipped"] = int(summary["discovery_skipped"]) + 1
+            continue
         page_image = paths.root / str(page.get("page_image", ""))
         output_path = paths.root / str(page.get("output_path", ""))
         if not page_image.exists():
@@ -7081,6 +7577,9 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
         return tasks
     qc_repair_by_manifest = load_qc_repair_pages(root)
     relevance_hints = active_source_relevance_hints(root)
+    discovery_entries = load_source_prep_discovery_state(root).get("entries", {})
+    if not isinstance(discovery_entries, dict):
+        discovery_entries = {}
     page_review_cache = load_source_prep_page_cache(root)
     page_review_cache_changed = False
     for manifest_path in sorted(jobs_dir.glob("*/manifest.json")):
@@ -7117,6 +7616,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
                 "job_id": str(manifest.get("job_id", "")),
                 "title": str(manifest.get("title", "")),
                 "page": page_number,
+                "source_page": safe_int(page.get("source_page"), page_number),
                 "page_image": normalize_job_artifact_reference(
                     root,
                     manifest_path,
@@ -7146,6 +7646,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
                     }
                 )
             apply_source_relevance_feedback(task, relevance_hints)
+            apply_source_prep_discovery_state(root, task, discovery_entries)
             task["prompt"] = build_source_prep_agent_prompt(task)
             tasks.append(task)
     if page_review_cache_changed:
@@ -7745,6 +8246,7 @@ GITHUB_DATABASE_INCLUDE_PATHS = (
     "raw/r2-raw-sources.json",
     "raw/r2-derived-assets.json",
     "raw/codex-conversion-jobs",
+    "raw/discovery",
     "raw/converted",
     "raw/chunks",
     "research",
@@ -7756,9 +8258,11 @@ SOURCE_CONVERSION_INCLUDE_PATHS = (
     "raw/r2-raw-sources.json",
     "raw/r2-derived-assets.json",
     "raw/codex-conversion-jobs",
+    "raw/discovery",
     "raw/converted",
     "raw/chunks",
     "research/_agent-queues/source-prep-batches.json",
+    "research/_agent-queues/source-prep-discovery.json",
     "research/_agent-queues/task-state.json",
     "research/_automation",
     "research/log.md",
@@ -9128,6 +9632,40 @@ def build_parser() -> argparse.ArgumentParser:
         help="Inspect and report eligible pages without writing page Markdown or task state.",
     )
 
+    source_prep_docling_parser = subparsers.add_parser(
+        "source-prep-docling-discovery",
+        help="Write rough non-evidence Docling page discovery output for readable pages before Gemini.",
+    )
+    source_prep_docling_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    source_prep_docling_parser.add_argument(
+        "--limit",
+        type=int,
+        default=100,
+        help="Maximum readable rough-discovery pages to accept in this run. Default: 100.",
+    )
+    source_prep_docling_parser.add_argument(
+        "--scan-limit",
+        type=int,
+        default=1000,
+        help="Maximum queued pages to inspect before stopping. Default: 1000.",
+    )
+    source_prep_docling_parser.add_argument(
+        "--agent",
+        default="source-prep-docling-discovery",
+        help="Agent label recorded in discovery state. Default: source-prep-docling-discovery.",
+    )
+    source_prep_docling_parser.add_argument(
+        "--stale-minutes",
+        type=int,
+        default=360,
+        help="Release claimed/in-progress tasks with no update for this many minutes. Use 0 to disable. Default: 360.",
+    )
+    source_prep_docling_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Inspect and report pages without writing rough discovery output or discovery state.",
+    )
+
     source_prep_review_page_parser = subparsers.add_parser(
         "source-prep-review-page",
         help="Review one source-prep page Markdown output against the conversion contract.",
@@ -9652,6 +10190,32 @@ def main(argv: list[str] | None = None) -> int:
             if len(failed_tasks) > 25:
                 print(f"- ... {len(failed_tasks) - 25} more")
         return 0
+
+    if args.command == "source-prep-docling-discovery":
+        summary = source_prep_docling_discovery_run(
+            root=args.root,
+            limit=args.limit,
+            scan_limit=args.scan_limit,
+            agent=args.agent,
+            stale_minutes=args.stale_minutes,
+            dry_run=args.dry_run,
+        )
+        print(
+            "source-prep-docling-discovery | "
+            f"inspected={summary['inspected']} accepted={summary['accepted']} "
+            f"unusable={summary['unusable']} errors={summary['errors']} dry_run={summary['dry_run']}"
+        )
+        blockers = summary.get("blockers", [])
+        if isinstance(blockers, list) and blockers:
+            print("blockers:")
+            for blocker in blockers:
+                print(f"- {blocker}")
+        skipped = summary.get("skipped", {})
+        if isinstance(skipped, dict) and skipped:
+            print("skipped:")
+            for reason, count in sorted(skipped.items()):
+                print(f"- {reason}: {count}")
+        return 1 if summary.get("blockers") else 0
 
     if args.command == "source-prep-review-page":
         review = review_source_prep_page_output_for_cli(args.root, args.output_path)

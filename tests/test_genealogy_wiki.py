@@ -72,6 +72,20 @@ The visible page was reviewed against the page image.
 """
 
 
+def complete_gemini_page_markdown(transcription: str = "Converted by Gemini.") -> str:
+    return (
+        complete_page_markdown(transcription)
+        + """
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial standalone visual evidence."}
+```
+"""
+    )
+
+
 def test_init_genealogy_wiki_creates_operating_files(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
 
@@ -925,6 +939,117 @@ def test_source_prep_fastlane_skips_full_page_scan_pdf(tmp_path) -> None:
     write_agent_queues(tmp_path)
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
     assert queue["status_counts"]["todo"] == 1
+
+
+def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "printed-minutes.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    text = (
+        "Dario Pulgar Smith attended the meeting in Geneva. "
+        "The printed minutes list offices, dates, correspondents, places, and archive references. "
+    )
+    page.insert_textbox((36, 36, 324, 460), text * 4, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path)
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path: "# Printed Minutes\n\n" + text * 4,
+    )
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=1, scan_limit=10)
+
+    assert summary["accepted"] == 1
+    discovery_path = next((tmp_path / "raw" / "discovery" / "docling").glob("*/page-0001.md"))
+    discovery_text = discovery_path.read_text(encoding="utf-8")
+    assert "not evidence-grade transcription" in discovery_text
+    assert "Printed Minutes" in discovery_text
+    manifest_path = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    page_output = tmp_path / manifest["pages"][0]["output_path"]
+    assert not page_output.exists()
+
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    assert source_queue["status_counts"]["rough_discovery"] == 1
+    batch_path = write_source_prep_batches(tmp_path, limit=10)
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+    assert batch_queue["tasks"] == []
+
+
+def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "bad-scan.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_text((36, 100), "x")
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path)
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", lambda input_path: "???")
+
+    discovery = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=1, scan_limit=10)
+
+    assert discovery["unusable"] == 1
+    batch_path = write_source_prep_batches(tmp_path, limit=10)
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+    assert len(batch_queue["tasks"]) == 1
+
+    def fake_gemini(**kwargs):
+        return {
+            "text": complete_gemini_page_markdown("DARIO PULGAR SMITH"),
+            "finish_reason": "STOP",
+            "usage": {"promptTokenCount": 5, "candidatesTokenCount": 10, "totalTokenCount": 15},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    gemini = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, api_key="test-key")
+
+    assert gemini["completed"] == 1
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    assert {state["status"] for state in task_state["tasks"].values()} == {"done"}
+
+
+def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "browse-first.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    text = "This printed page has enough words for rough discovery and later page-level upgrade. "
+    page.insert_textbox((36, 36, 324, 460), text * 5, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path)
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    task_id = source_queue["tasks"][0]["task_id"]
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", lambda input_path: text * 5)
+
+    genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=1, scan_limit=10)
+    mark_source_relevance_feedback(
+        tmp_path,
+        task_id=task_id,
+        relevance="high",
+        treatment="pro",
+        reason="Research agent found this exact page relevant.",
+        agent="researcher",
+    )
+
+    batch_path = write_source_prep_batches(tmp_path, limit=10)
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+
+    assert len(batch_queue["tasks"]) == 1
+    assert batch_queue["tasks"][0]["pages"][0]["requested_treatment"] == "pro"
+    gemini_plan = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, dry_run=True)
+    assert gemini_plan["processed"] == 1
+    assert gemini_plan["tasks"][0]["route"]["tier"] == "pro_with_crops"
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:
