@@ -6,33 +6,37 @@ on:
       limit:
         description: "Maximum pages to convert this run"
         required: false
-        default: "3"
+        default: "8000"
       parallelism:
         description: "Maximum Gemini pages to convert at the same time"
         required: false
-        default: "1"
+        default: "128"
       raw_limit:
         description: "Maximum raw R2 objects to restore during test prep"
         required: false
-        default: "1"
+        default: "500"
       pages:
         description: "Page range for newly-created PDF jobs"
         required: false
-        default: "1-3"
+        default: ""
       new_pages_limit:
         description: "Maximum new missing PDF pages to job per source; 0 means no cap"
         required: false
-        default: "0"
+        default: "8000"
       discovery_limit:
-        description: "Maximum rough Docling discovery pages to accept before Gemini"
+        description: "Maximum Docling-usable pages to accept; 0 means no accepted-page cap"
         required: false
-        default: "25"
+        default: "0"
       discovery_scan_limit:
         description: "Maximum queued pages to inspect with Docling discovery"
         required: false
-        default: "80"
+        default: "12000"
+      discovery_parallelism:
+        description: "Maximum Docling pages to inspect concurrently"
+        required: false
+        default: "64"
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
 
 concurrency:
   group: cloud-source-prep
@@ -53,14 +57,15 @@ jobs:
       R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       PYTHONPATH: src
-      RUN_LIMIT: ${{ github.event_name == 'schedule' && '2000' || github.event.inputs.limit || '3' }}
-      RUN_PARALLELISM: ${{ github.event_name == 'schedule' && '64' || github.event.inputs.parallelism || '1' }}
-      RUN_RAW_LIMIT: ${{ github.event_name == 'schedule' && '10' || github.event.inputs.raw_limit || '1' }}
-      RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '1-3' }}
-      RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'schedule' && '3000' || github.event.inputs.new_pages_limit || '0' }}
-      RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '200' || github.event.inputs.discovery_limit || '25' }}
-      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '400' || github.event.inputs.discovery_scan_limit || '80' }}
-      RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '2400' || '20' }}
+      RUN_LIMIT: ${{ github.event_name == 'schedule' && '8000' || github.event.inputs.limit || '8000' }}
+      RUN_PARALLELISM: ${{ github.event_name == 'schedule' && '128' || github.event.inputs.parallelism || '128' }}
+      RUN_RAW_LIMIT: ${{ github.event_name == 'schedule' && '500' || github.event.inputs.raw_limit || '500' }}
+      RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '' }}
+      RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'schedule' && '8000' || github.event.inputs.new_pages_limit || '8000' }}
+      RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
+      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '12000' || github.event.inputs.discovery_scan_limit || '12000' }}
+      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '64' || github.event.inputs.discovery_parallelism || '64' }}
+      RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -109,17 +114,19 @@ jobs:
           --new-pages-limit "$RUN_NEW_PAGES_LIMIT"
           --batch-pages 1
           --queue-limit "$RUN_QUEUE_LIMIT"
+          --no-docling-discovery
+          --no-gemini-source-prep
           --stale-minutes 360
 
-      - name: Run rough Docling discovery
+      - name: Run Docling baseline on all queued pages
         if: steps.preflight.outputs.ready == 'true'
-        timeout-minutes: 4
-        continue-on-error: true
+        timeout-minutes: 90
         run: >
           python -m historic_doc_ingest.genealogy_wiki source-prep-docling-discovery
           --root .
           --limit "$RUN_DISCOVERY_LIMIT"
           --scan-limit "$RUN_DISCOVERY_SCAN_LIMIT"
+          --parallelism "$RUN_DISCOVERY_PARALLELISM"
           --stale-minutes 360
 
       - name: Convert missing pages with Gemini
@@ -149,6 +156,8 @@ jobs:
           --new-pages-limit "$RUN_NEW_PAGES_LIMIT"
           --batch-pages 1
           --queue-limit "$RUN_QUEUE_LIMIT"
+          --no-docling-discovery
+          --no-gemini-source-prep
           --stale-minutes 360
 
       - name: Publish conversion outputs

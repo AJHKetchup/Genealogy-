@@ -1453,6 +1453,45 @@ def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monke
     assert {state["status"] for state in task_state["tasks"].values()} == {"done"}
 
 
+def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "mixed-docling.pdf"
+    doc = fitz.open()
+    page_one = doc.new_page(width=360, height=500)
+    page_one.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling baseline. " * 8, fontsize=11)
+    page_two = doc.new_page(width=360, height=500)
+    page_two.insert_text((36, 100), "x")
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=2)
+    write_agent_queues(tmp_path)
+
+    def fake_docling(input_path, **kwargs):
+        if input_path.stem.endswith("p0001"):
+            return "Usable printed source text for Docling baseline. " * 8
+        return "???"
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        parallelism=2,
+    )
+
+    assert summary["inspected"] == 2
+    assert summary["accepted"] == 1
+    assert summary["unusable"] == 1
+    discovery = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").read_text(encoding="utf-8"))
+    statuses = {entry["status"] for entry in discovery["entries"].values()}
+    assert statuses == {"rough_ok", "rough_unusable"}
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    statuses = {state["status"] for state in task_state["tasks"].values()}
+    assert statuses == {"done"}
+
+
 def test_cloud_heartbeat_runs_source_prep_before_research(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

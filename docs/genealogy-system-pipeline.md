@@ -193,7 +193,8 @@ Storage deaccession is allowed only when:
 - Implemented: GitHub Markdown, JSON, queue, manifest, chunk, and automation state storage.
 - Implemented: page-level source-prep tasks.
 - Implemented: Docling rough discovery.
-- Implemented: cloud heartbeat runs Docling basic conversion before downstream research, writes accepted Docling page Markdown, extracts Docling picture images into page extracted-image folders, and routes Docling-unusable pages to Gemini Pro fallback.
+- Implemented: cloud source-prep dispatcher runs Docling baseline conversion before downstream research, writes accepted Docling page Markdown, extracts Docling picture images into page extracted-image folders, and routes Docling-unusable pages to Gemini Pro fallback.
+- Implemented: parallel Docling baseline dispatch and parallel Gemini elevation settings for the 8,000 pages/hour source-prep target.
 - Implemented: source-prep first gate blocks research-analyzer, conversion-QA context, page-upgrade, and final-site steps until registered sources and source-prep page tasks are converted.
 - Implemented: Gemini Lite/Pro conversion routing.
 - Implemented: parallel Gemini page conversion.
