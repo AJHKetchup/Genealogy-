@@ -12765,12 +12765,28 @@ def build_system_storage_summary(raw_cloud: dict[str, object], derived_assets: d
 
 
 def build_system_final_site_summary(root: Path) -> dict[str, object]:
-    candidates = [root / "site", root / "dist", root / "public"]
-    existing = [relative_to_root(path, root) for path in candidates if path.exists()]
+    status_path = final_site_status_index_path(root)
+    status_payload = read_json_payload(status_path, {})
+    if not status_payload:
+        status_payload = build_final_site_status_payload(root)
     return {
-        "status": "structure_present" if existing else "not_started",
-        "candidate_roots": existing,
-        "html_file_count": sum(count_files_with_suffix(path, ".html") for path in candidates if path.exists()),
+        "status": status_payload.get("status", "not_built"),
+        "index": relative_to_root(status_path, root) if status_path.exists() else "",
+        "markdown": (
+            relative_to_root(final_site_status_markdown_path(root), root)
+            if final_site_status_markdown_path(root).exists()
+            else ""
+        ),
+        "site_root": status_payload.get("site_root", "site"),
+        "manifest": status_payload.get("manifest", "site/site-manifest.json"),
+        "source_page_count": safe_int(status_payload.get("source_page_count"), 0),
+        "manifest_page_count": safe_int(status_payload.get("manifest_page_count"), 0),
+        "html_file_count": safe_int(status_payload.get("html_file_count"), 0),
+        "asset_count": safe_int(status_payload.get("asset_count"), 0),
+        "missing_entrypoint_count": safe_int(status_payload.get("missing_entrypoint_count"), 0),
+        "missing_manifest_output_count": safe_int(status_payload.get("missing_manifest_output_count"), 0),
+        "missing_source_page_count": safe_int(status_payload.get("missing_source_page_count"), 0),
+        "extra_html_output_count": safe_int(status_payload.get("extra_html_output_count"), 0),
     }
 
 
@@ -13006,7 +13022,14 @@ Generated: {payload.get("created", "")}
 ## Final Site
 
 - Status: {dict_value(final_site, "status")}
+- Status report: `{dict_value(final_site, "index", "") or "none"}`
+- Manifest: `{dict_value(final_site, "manifest", "")}`
+- Source wiki pages: {dict_value(final_site, "source_page_count")}
+- Manifest pages: {dict_value(final_site, "manifest_page_count")}
 - HTML files: {dict_value(final_site, "html_file_count")}
+- Missing entry points: {dict_value(final_site, "missing_entrypoint_count")}
+- Missing manifest outputs: {dict_value(final_site, "missing_manifest_output_count")}
+- Missing source pages from manifest: {dict_value(final_site, "missing_source_page_count")}
 
 ## Blockers
 
@@ -14486,8 +14509,180 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     manifest_path = site_dir / "site-manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     written.append(manifest_path)
+    written.extend(write_final_site_status(paths.root, site_dir=site_dir))
     append_log(paths.research / "log.md", f"site-build | Wrote {relative_to_root(manifest_path, paths.root)}")
     return written
+
+
+def final_site_status_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "final-site-status.json"
+
+
+def final_site_status_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "final-site-status.md"
+
+
+def write_final_site_status(root: Path, *, site_dir: Path | None = None) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    payload = build_final_site_status_payload(paths.root, site_dir=site_dir)
+    index_path = final_site_status_index_path(paths.root)
+    markdown_path = final_site_status_markdown_path(paths.root)
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    index_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    markdown_path.write_text(build_final_site_status_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[final-site-status]]")
+    append_log(paths.research / "log.md", f"final-site-status | Wrote {relative_to_root(index_path, paths.root)}")
+    return [index_path, markdown_path]
+
+
+def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    resolved_site_dir = site_dir or (paths.root / "site")
+    if not resolved_site_dir.is_absolute():
+        resolved_site_dir = paths.root / resolved_site_dir
+    manifest_path = resolved_site_dir / "site-manifest.json"
+    manifest = read_json_payload(manifest_path, {})
+    manifest_pages = manifest.get("pages", []) if isinstance(manifest, dict) else []
+    if not isinstance(manifest_pages, list):
+        manifest_pages = []
+    manifest_outputs = [
+        str(page.get("output", "")).strip()
+        for page in manifest_pages
+        if isinstance(page, dict) and str(page.get("output", "")).strip()
+    ]
+    manifest_sources = [
+        str(page.get("source", "")).strip()
+        for page in manifest_pages
+        if isinstance(page, dict) and str(page.get("source", "")).strip()
+    ]
+
+    html_outputs = sorted(
+        relative_to_root(path, paths.root)
+        for path in resolved_site_dir.rglob("*.html")
+        if resolved_site_dir.exists() and path.is_file()
+    )
+    assets_dir = resolved_site_dir / "assets"
+    asset_outputs = sorted(
+        relative_to_root(path, paths.root)
+        for path in assets_dir.rglob("*")
+        if assets_dir.exists() and path.is_file()
+    )
+    source_pages = [
+        relative_to_root(page["source"], paths.root)
+        for page in collect_site_pages(paths.root)
+        if isinstance(page.get("source"), Path)
+    ]
+    expected_entrypoints = [
+        {"name": "Home", "output": relative_to_root(resolved_site_dir / "index.html", paths.root)},
+        {"name": "Family Tree", "output": relative_to_root(resolved_site_dir / "family-tree.html", paths.root)},
+    ]
+    for entrypoint in expected_entrypoints:
+        entrypoint["exists"] = (paths.root / str(entrypoint["output"])).exists()
+
+    manifest_output_set = set(manifest_outputs)
+    html_output_set = set(html_outputs)
+    manifest_source_set = set(manifest_sources)
+    missing_entrypoints = [entrypoint for entrypoint in expected_entrypoints if not entrypoint.get("exists")]
+    missing_manifest_outputs = sorted(output for output in manifest_outputs if output not in html_output_set)
+    extra_html_outputs = sorted(output for output in html_outputs if output not in manifest_output_set)
+    missing_source_pages = sorted(source for source in source_pages if source not in manifest_source_set)
+    if not manifest_path.exists():
+        status = "not_built"
+    elif missing_entrypoints or missing_manifest_outputs or missing_source_pages:
+        status = "needs_rebuild"
+    else:
+        status = "ready"
+
+    return {
+        "created": utc_timestamp(),
+        "status": status,
+        "purpose": "Final HTML genealogy site status and coverage report.",
+        "site_root": relative_to_root(resolved_site_dir, paths.root),
+        "manifest": relative_to_root(manifest_path, paths.root),
+        "manifest_exists": manifest_path.exists(),
+        "storage_contract": "Final HTML, CSS, status, and build manifests stay in GitHub; raw originals and durable binary assets stay in R2.",
+        "entrypoints": expected_entrypoints,
+        "missing_entrypoints": missing_entrypoints,
+        "missing_entrypoint_count": len(missing_entrypoints),
+        "source_page_count": len(source_pages),
+        "manifest_page_count": len(manifest_outputs),
+        "html_file_count": len(html_outputs),
+        "asset_count": len(asset_outputs),
+        "manifest_outputs": manifest_outputs,
+        "html_outputs": html_outputs,
+        "asset_outputs": asset_outputs,
+        "source_pages": source_pages,
+        "missing_manifest_outputs": missing_manifest_outputs,
+        "missing_manifest_output_count": len(missing_manifest_outputs),
+        "extra_html_outputs": extra_html_outputs,
+        "extra_html_output_count": len(extra_html_outputs),
+        "missing_source_pages": missing_source_pages,
+        "missing_source_page_count": len(missing_source_pages),
+        "next_step": (
+            "Run the final site build to refresh missing or stale HTML outputs."
+            if status != "ready"
+            else "Final HTML site entry points and source-page coverage are current."
+        ),
+    }
+
+
+def build_final_site_status_markdown(payload: dict[str, object]) -> str:
+    entrypoint_rows = [
+        "| Entry Point | Output | Exists |",
+        "| --- | --- | --- |",
+    ]
+    entrypoints = payload.get("entrypoints", [])
+    if isinstance(entrypoints, list):
+        for entrypoint in entrypoints:
+            if not isinstance(entrypoint, dict):
+                continue
+            entrypoint_rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(entrypoint.get("name", "")),
+                        markdown_table_cell(f"`{entrypoint.get('output', '')}`"),
+                        markdown_table_cell("yes" if entrypoint.get("exists") else "no"),
+                    ]
+                )
+                + " |"
+            )
+    gap_lines = [
+        f"- Missing entry points: {dict_value(payload, 'missing_entrypoint_count')}",
+        f"- Missing manifest outputs: {dict_value(payload, 'missing_manifest_output_count')}",
+        f"- Missing source pages from manifest: {dict_value(payload, 'missing_source_page_count')}",
+        f"- Extra HTML outputs: {dict_value(payload, 'extra_html_output_count')}",
+    ]
+    return f"""# Final Site Status
+
+Generated: {payload.get("created", "")}
+
+Status: {payload.get("status", "")}
+
+## Summary
+
+- Site root: `{payload.get("site_root", "")}`
+- Manifest: `{payload.get("manifest", "")}`
+- Source wiki pages: {dict_value(payload, "source_page_count")}
+- Manifest pages: {dict_value(payload, "manifest_page_count")}
+- HTML files: {dict_value(payload, "html_file_count")}
+- Assets: {dict_value(payload, "asset_count")}
+
+## Entry Points
+
+{chr(10).join(entrypoint_rows)}
+
+## Coverage Gaps
+
+{chr(10).join(gap_lines)}
+
+## Storage Contract
+
+{payload.get("storage_contract", "")}
+
+Next step: {payload.get("next_step", "")}
+"""
 
 
 def collect_site_pages(root: Path) -> list[dict[str, object]]:

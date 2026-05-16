@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T12:26:42Z
+Generated: 2026-05-16T12:38:32Z
 
 ## Source Conversion
 
@@ -102,8 +102,15 @@ Generated: 2026-05-16T12:26:42Z
 
 ## Final Site
 
-- Status: structure_present
+- Status: ready
+- Status report: `research/_indexes/final-site-status.json`
+- Manifest: `site/site-manifest.json`
+- Source wiki pages: 2
+- Manifest pages: 2
 - HTML files: 2
+- Missing entry points: 0
+- Missing manifest outputs: 0
+- Missing source pages from manifest: 0
 
 ## Blockers
 

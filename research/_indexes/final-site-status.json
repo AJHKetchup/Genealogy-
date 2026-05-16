@@ -1,0 +1,49 @@
+{
+  "created": "2026-05-16T12:38:32Z",
+  "status": "ready",
+  "purpose": "Final HTML genealogy site status and coverage report.",
+  "site_root": "site",
+  "manifest": "site/site-manifest.json",
+  "manifest_exists": true,
+  "storage_contract": "Final HTML, CSS, status, and build manifests stay in GitHub; raw originals and durable binary assets stay in R2.",
+  "entrypoints": [
+    {
+      "name": "Home",
+      "output": "site/index.html",
+      "exists": true
+    },
+    {
+      "name": "Family Tree",
+      "output": "site/family-tree.html",
+      "exists": true
+    }
+  ],
+  "missing_entrypoints": [],
+  "missing_entrypoint_count": 0,
+  "source_page_count": 2,
+  "manifest_page_count": 2,
+  "html_file_count": 2,
+  "asset_count": 1,
+  "manifest_outputs": [
+    "site/index.html",
+    "site/family-tree.html"
+  ],
+  "html_outputs": [
+    "site/family-tree.html",
+    "site/index.html"
+  ],
+  "asset_outputs": [
+    "site/assets/site.css"
+  ],
+  "source_pages": [
+    "wiki/index.md",
+    "wiki/Family Tree.md"
+  ],
+  "missing_manifest_outputs": [],
+  "missing_manifest_output_count": 0,
+  "extra_html_outputs": [],
+  "extra_html_output_count": 0,
+  "missing_source_pages": [],
+  "missing_source_page_count": 0,
+  "next_step": "Final HTML site entry points and source-page coverage are current."
+}

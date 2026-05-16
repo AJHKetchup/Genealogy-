@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T12:26:42Z",
+  "created": "2026-05-16T12:38:32Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T12:26:42Z",
+    "created": "2026-05-16T12:38:31Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -150,7 +150,7 @@
     }
   },
   "conversion_qa_unblock": {
-    "created": "2026-05-16T12:26:42Z",
+    "created": "2026-05-16T12:38:32Z",
     "path": "research/_indexes/conversion-qa-unblock-plan.json",
     "markdown": "research/conversion-qa-unblock-plan.md",
     "next_focus": "research/conversion-qa-next.md",
@@ -214,11 +214,19 @@
     "contract": "R2 stores raw originals and durable binary assets; GitHub stores JSON, Markdown, manifests, queues, chunks, staging/proof data, and final HTML/build files."
   },
   "final_site": {
-    "status": "structure_present",
-    "candidate_roots": [
-      "site"
-    ],
-    "html_file_count": 2
+    "status": "ready",
+    "index": "research/_indexes/final-site-status.json",
+    "markdown": "research/final-site-status.md",
+    "site_root": "site",
+    "manifest": "site/site-manifest.json",
+    "source_page_count": 2,
+    "manifest_page_count": 2,
+    "html_file_count": 2,
+    "asset_count": 1,
+    "missing_entrypoint_count": 0,
+    "missing_manifest_output_count": 0,
+    "missing_source_page_count": 0,
+    "extra_html_output_count": 0
   },
   "storage_lifecycle": {
     "status": "active",
@@ -235,7 +243,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T12:26:42Z",
+      "created": "2026-05-16T12:38:31Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

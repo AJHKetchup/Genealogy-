@@ -231,6 +231,7 @@ Storage deaccession is allowed only when:
 - Implemented: conversion-QA next-focus packet gives the current highest-impact QA task as a stable Markdown handoff.
 - Implemented: static HTML final-site generator structure for product wiki pages.
 - Implemented: static HTML site build refreshes the generated Family Tree entry point.
+- Implemented: final-site status report with HTML entry-point and source-page coverage checks.
 - Implemented: non-destructive page-level storage lifecycle ranking and deaccession candidate records.
 - Partial: research wiki and staging structure.
 - Partial: proof/QC and promotion structure.

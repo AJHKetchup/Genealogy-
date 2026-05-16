@@ -2325,6 +2325,8 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert "Next focus" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text
+    assert "Status report" in dashboard_text
+    assert "Missing source pages from manifest" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert "[[System Dashboard]]" in research_index
     assert "[[r2-source-intake-preflight]]" in research_index
@@ -3078,6 +3080,8 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert "site/people/relative.html" in written_names
     assert "site/assets/site.css" in written_names
     assert "site/site-manifest.json" in written_names
+    assert "research/_indexes/final-site-status.json" in written_names
+    assert "research/final-site-status.md" in written_names
     assert not (tmp_path / "site" / "_templates" / "hidden.html").exists()
     assert not (tmp_path / "site" / "log.html").exists()
 
@@ -3090,6 +3094,19 @@ See [[Family Tree]] and [[people/relative|a relative]].
     manifest = json.loads((tmp_path / "site" / "site-manifest.json").read_text(encoding="utf-8"))
     assert manifest["page_count"] == 4
     assert manifest["storage_contract"].startswith("HTML, CSS, and build manifests are GitHub files")
+    status = json.loads((tmp_path / "research" / "_indexes" / "final-site-status.json").read_text(encoding="utf-8"))
+    assert status["status"] == "ready"
+    assert status["source_page_count"] == 4
+    assert status["manifest_page_count"] == 4
+    assert status["html_file_count"] == 4
+    assert status["asset_count"] == 1
+    assert status["missing_entrypoint_count"] == 0
+    assert status["missing_manifest_output_count"] == 0
+    assert status["missing_source_page_count"] == 0
+    assert status["storage_contract"].startswith("Final HTML, CSS, status, and build manifests stay in GitHub")
+    status_markdown = (tmp_path / "research" / "final-site-status.md").read_text(encoding="utf-8")
+    assert "Status: ready" in status_markdown
+    assert "Final HTML site entry points and source-page coverage are current." in status_markdown
 
 
 def test_compile_narrative_uses_only_accepted_or_probable_claims(tmp_path) -> None:
