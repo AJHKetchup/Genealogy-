@@ -11993,12 +11993,24 @@ This report ranks conversion-QA tasks by how many downstream tasks they currentl
 """
 
 
+def top_conversion_qa_unblock_task(conversion_qa_unblock: object) -> dict[str, object]:
+    if not isinstance(conversion_qa_unblock, dict):
+        return {}
+    top_tasks = conversion_qa_unblock.get("top_tasks", [])
+    if isinstance(top_tasks, list):
+        for task in top_tasks:
+            if isinstance(task, dict):
+                return task
+    return {}
+
+
 def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, object]]:
     queues = payload.get("queues", {})
     source_conversion = payload.get("source_conversion", {})
     page_upgrades = payload.get("page_upgrades", {})
     lifecycle = payload.get("storage_lifecycle", {})
     queue_blockers = payload.get("queue_blockers", {})
+    conversion_qa_unblock = payload.get("conversion_qa_unblock", {})
     actions: list[dict[str, object]] = []
 
     def add(
@@ -12009,6 +12021,7 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
         *,
         count: int = 0,
         queue: str = "",
+        **extra: object,
     ) -> None:
         action: dict[str, object] = {
             "area": area,
@@ -12020,6 +12033,9 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
             action["count"] = count
         if queue:
             action["queue"] = queue
+        for key, value in extra.items():
+            if value not in ("", None, [], {}):
+                action[key] = value
         actions.append(action)
 
     source_prep = queue_payload(queues, "source_prep")
@@ -12045,13 +12061,29 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
         reason = f"{conversion_qa_open} converted source(s) are waiting for conversion-QA triage."
         if blocked_by_gate:
             reason += f" {blocked_by_gate} downstream task(s) are held by this gate."
+        top_unblock_task = top_conversion_qa_unblock_task(conversion_qa_unblock)
+        top_task_id = str(top_unblock_task.get("task_id", "")).strip()
+        top_prompt = str(top_unblock_task.get("prompt_path", "")).strip()
+        top_unblock_count = safe_int(top_unblock_task.get("blocked_task_count"), 0)
+        next_step = "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages."
+        if top_task_id and top_unblock_count:
+            reason += f" Highest-impact QA task unlocks {top_unblock_count} downstream task(s)."
+            target = f"`{top_prompt}`" if top_prompt else f"`{top_task_id}`"
+            next_step = (
+                f"Start conversion-QA triage with {target}; mark `{top_task_id}` done when complete, then "
+                "regenerate agent queues."
+            )
         add(
             "conversion_qa",
             "high",
             reason,
-            "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
+            next_step,
             count=conversion_qa_open,
             queue=str(conversion_qa.get("path", "")),
+            top_unblock_task_id=top_task_id,
+            top_unblock_prompt=top_prompt,
+            top_unblock_count=top_unblock_count,
+            top_unblock_queues=top_unblock_task.get("blocked_queues", {}),
         )
 
     evidence_extraction = queue_payload(queues, "evidence_extraction")

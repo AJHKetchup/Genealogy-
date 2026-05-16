@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T11:36:17Z",
+  "created": "2026-05-16T11:50:36Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T11:36:17Z",
+    "created": "2026-05-16T11:50:36Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -141,7 +141,7 @@
     }
   },
   "conversion_qa_unblock": {
-    "created": "2026-05-16T11:36:17Z",
+    "created": "2026-05-16T11:50:36Z",
     "path": "research/_indexes/conversion-qa-unblock-plan.json",
     "markdown": "research/conversion-qa-unblock-plan.md",
     "summary": {
@@ -225,7 +225,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T11:36:17Z",
+      "created": "2026-05-16T11:50:36Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },
@@ -253,10 +253,19 @@
     {
       "area": "conversion_qa",
       "priority": "high",
-      "reason": "4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate.",
-      "next_step": "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
+      "reason": "4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate. Highest-impact QA task unlocks 22 downstream task(s).",
+      "next_step": "Start conversion-QA triage with `research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md`; mark `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md` done when complete, then regenerate agent queues.",
       "count": 4,
-      "queue": "research/_agent-queues/conversion-qa.json"
+      "queue": "research/_agent-queues/conversion-qa.json",
+      "top_unblock_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+      "top_unblock_prompt": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md",
+      "top_unblock_count": 22,
+      "top_unblock_queues": {
+        "evidence_extraction": 3,
+        "research_questions": 2,
+        "research_leads": 14,
+        "external_research": 3
+      }
     },
     {
       "area": "evidence_extraction",

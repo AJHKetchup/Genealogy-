@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T11:36:17Z
+Generated: 2026-05-16T11:50:36Z
 
 ## Source Conversion
 
@@ -53,7 +53,7 @@ Generated: 2026-05-16T11:36:17Z
 
 ## Next Actions
 
-- **high** `conversion_qa`: Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages. (4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate.)
+- **high** `conversion_qa`: Start conversion-QA triage with `research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md`; mark `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md` done when complete, then regenerate agent queues. (4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate. Highest-impact QA task unlocks 22 downstream task(s).)
 - **high** `evidence_extraction`: Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction. (8 evidence-extraction task(s) are blocked by the conversion-QA gate.)
 - **low** `source_conversion`: Prepare the next bounded raw-source batch while preserving originals in R2. (48 source(s) are registered but not yet converted.)
 

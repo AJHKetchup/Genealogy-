@@ -2301,6 +2301,7 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert payload["research_readiness"]["analyzer_research_lead_review_statuses"] == {"unresolved_lead": 1}
     areas = {action["area"] for action in payload["next_actions"]}
     assert {"conversion_qa", "evidence_extraction"} <= areas
+    conversion_action = next(action for action in payload["next_actions"] if action["area"] == "conversion_qa")
     assert payload["queues"]["evidence_extraction"]["status_counts"]["blocked_pending_conversion_qa"] >= 1
     blocker = payload["queue_blockers"]["pending_conversion_qa"]
     assert blocker["blocking_task_count"] == 1
@@ -2315,6 +2316,10 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert status_plan["summary"]["blocked_queue_counts"]["research_leads"] == 1
     assert status_plan["summary"]["blocked_task_count"] >= 3
     assert status_plan["top_tasks"][0]["task_id"] == qa_task_id
+    assert conversion_action["top_unblock_task_id"] == qa_task_id
+    assert conversion_action["top_unblock_count"] >= 3
+    assert conversion_action["top_unblock_prompt"].startswith("research/_agent-queues/prompts/conversion-qa/")
+    assert qa_task_id in conversion_action["next_step"]
     plan = json.loads(
         (tmp_path / "research" / "_indexes" / "conversion-qa-unblock-plan.json").read_text(encoding="utf-8")
     )
@@ -2327,6 +2332,7 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert "pending_conversion_qa" in dashboard_text
     assert "## Conversion QA Unblock Plan" in dashboard_text
     assert qa_task_id in dashboard_text
+    assert "Start conversion-QA triage" in dashboard_text
     assert "conversion-QA triage" in dashboard_text
     assert "regenerate agent queues" in dashboard_text
 
