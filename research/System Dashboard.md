@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T05:29:02Z
+Generated: 2026-05-16T05:38:43Z
 
 ## Source Conversion
 
@@ -16,7 +16,7 @@ Generated: 2026-05-16T05:29:02Z
 - Usable sources: 1
 - Sources needing conversion or page repair: 48
 - QC pages: 0
-- Analyzer pages scanned: 4
+- Analyzer pages scanned: 8
 - Analyzer upgrade candidates: 0
 - Staging drafts: claims: 0, identity: 0, relationships: 0, source_packets: 0
 
@@ -33,6 +33,7 @@ Generated: 2026-05-16T05:29:02Z
 | --- | ---: | --- |
 | conversion_qa | 0 | none |
 | evidence_extraction | 0 | none |
+| research_questions | 3 | todo: 3 |
 | source_prep | 0 | none |
 | source_prep_batches | 0 | none |
 

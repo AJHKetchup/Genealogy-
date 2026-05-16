@@ -5138,6 +5138,7 @@ SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
 RESEARCH_ANALYZER_VERSION = 1
 RESEARCH_ANALYZER_UPGRADE_SCORE = 50
 RESEARCH_ANALYZER_SIGNAL_SCORE = 20
+RESEARCH_ANALYZER_QUESTION_SCORE = 20
 RESEARCH_ANALYZER_MAX_REPORT_PAGES = 250
 RESEARCH_ANALYZER_RELATIONSHIP_CUES = {
     "aunt",
@@ -5570,10 +5571,11 @@ def research_analyzer_run(
     root: Path,
     *,
     limit: int = 5,
+    question_limit: int = 5,
     out: Path | None = None,
     dry_run: bool = False,
 ) -> dict[str, object]:
-    """Scan prepared chunks for research signals and request exact page upgrades."""
+    """Scan prepared chunks for research signals, upgrade requests, and research questions."""
     paths = WikiPaths(root.resolve())
     family_terms = build_family_context_terms(paths.root)
     pages = []
@@ -5620,15 +5622,46 @@ def research_analyzer_run(
         else:
             written_requests.append(request_id)
 
+    question_candidates = [
+        page for page in pages if safe_int(page.get("score"), 0) >= RESEARCH_ANALYZER_QUESTION_SCORE
+    ]
+    existing_question_ids = research_analyzer_existing_question_ids(paths.root)
+    written_questions = []
+    existing_questions = []
+    for candidate in question_candidates:
+        if question_limit >= 0 and len(written_questions) >= question_limit:
+            break
+        question_id = research_analyzer_question_id(candidate)
+        if question_id in existing_question_ids:
+            existing_questions.append(question_id)
+            continue
+        if not dry_run:
+            question_path = write_research_analyzer_question(paths.root, candidate, question_id)
+            written_questions.append(relative_to_root(question_path, paths.root))
+            existing_question_ids.add(question_id)
+        else:
+            written_questions.append(question_id)
+
+    question_queue_path = paths.research / "_agent-queues" / "research-questions.json"
+    if not dry_run:
+        write_research_question_queue(paths.root, pages)
+
     index_payload = {
         "version": RESEARCH_ANALYZER_VERSION,
         "created": date.today().isoformat(),
-        "purpose": "Automated research-analyzer signals from converted chunks, including page-level upgrade candidates.",
+        "purpose": (
+            "Automated research-analyzer signals from converted chunks, including page-level upgrade candidates "
+            "and research-question work items."
+        ),
         "family_context_terms": sorted(family_terms.values()),
         "pages_scanned": len(pages),
         "upgrade_candidates": len(upgrade_candidates),
         "upgrade_requests_written": len(written_requests),
         "upgrade_requests_existing": len(existing_requests),
+        "research_question_candidates": len(question_candidates),
+        "research_questions_written": len(written_questions),
+        "research_questions_existing": len(existing_questions),
+        "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -5640,19 +5673,26 @@ def research_analyzer_run(
         "root": str(paths.root),
         "dry_run": dry_run,
         "limit": limit,
+        "question_limit": question_limit,
         "pages_scanned": len(pages),
         "pages_with_signals": len([page for page in pages if safe_int(page.get("score"), 0) >= RESEARCH_ANALYZER_SIGNAL_SCORE]),
         "upgrade_candidates": len(upgrade_candidates),
         "upgrade_requests_written": len(written_requests),
         "upgrade_requests_existing": len(existing_requests),
+        "research_question_candidates": len(question_candidates),
+        "research_questions_written": len(written_questions),
+        "research_questions_existing": len(existing_questions),
         "index": relative_to_root(index_path, paths.root),
         "feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
+        "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
     summary["state"] = relative_to_root(state_path, paths.root)
     if written_requests and not dry_run:
         append_log(paths.research / "log.md", f"research-analyzer | Wrote {len(written_requests)} page upgrade request(s)")
+    if written_questions and not dry_run:
+        append_log(paths.research / "log.md", f"research-analyzer | Wrote {len(written_questions)} research question(s)")
     return summary
 
 
@@ -5669,12 +5709,17 @@ def research_analyzer_pages_from_manifest(
     for chunk in chunks:
         if not isinstance(chunk, dict):
             continue
-        page = safe_int(chunk.get("page_start"), 0)
-        if page <= 0:
-            page = research_analyzer_page_from_chunk_path(str(chunk.get("path", "")))
-        if page <= 0:
-            continue
-        grouped.setdefault(page, []).append(chunk)
+        chunk_rel_path = str(chunk.get("path", "")).strip()
+        chunk_path = Path(chunk_rel_path)
+        if chunk_rel_path and not chunk_path.is_absolute():
+            chunk_path = root / chunk_path
+        chunk_text = ""
+        if chunk_rel_path and chunk_path.exists():
+            chunk_text = chunk_path.read_text(encoding="utf-8")
+        pages = storage_lifecycle_pages_for_chunk(root, manifest, chunk, chunk_text)
+        for page in pages:
+            if page > 0:
+                grouped.setdefault(page, []).append(chunk)
 
     pages = []
     for page_number, page_chunks in sorted(grouped.items()):
@@ -5811,6 +5856,215 @@ def research_analyzer_upgrade_request(candidate: dict[str, object]) -> dict[str,
         "requested_treatment": str(candidate.get("requested_treatment", "pro")),
         "reason": "; ".join(reasons[:4]),
     }
+
+
+def research_analyzer_questions_dir(root: Path) -> Path:
+    return root.resolve() / "research" / "questions"
+
+
+def research_analyzer_question_queue_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "research-questions.json"
+
+
+def research_analyzer_question_id(candidate: dict[str, object]) -> str:
+    values = [
+        str(candidate.get("source_sha256", "")).strip(),
+        str(candidate.get("source", "")).strip(),
+        str(candidate.get("converted_file", "")).strip(),
+        str(candidate.get("page", "")).strip(),
+    ]
+    digest = hashlib.sha256("|".join(values).encode("utf-8")).hexdigest()[:12]
+    return f"RQ-{digest}-P{safe_int(candidate.get('page'), 0):04d}"
+
+
+def research_analyzer_existing_question_ids(root: Path) -> set[str]:
+    ids = set()
+    queue = read_json_payload(research_analyzer_question_queue_path(root), {"tasks": []})
+    tasks = queue.get("tasks", [])
+    if isinstance(tasks, list):
+        ids.update(
+            str(task.get("question_id", "")).strip()
+            for task in tasks
+            if isinstance(task, dict) and str(task.get("question_id", "")).strip()
+        )
+    for path in research_analyzer_questions_dir(root).glob("*.md") if research_analyzer_questions_dir(root).exists() else []:
+        text = read_text(path)
+        frontmatter = parse_frontmatter(text)
+        question_id = str(frontmatter.get("question_id", "")).strip()
+        ids.add(question_id or path.stem)
+    return ids
+
+
+def research_analyzer_question_path(root: Path, question_id: str) -> Path:
+    return research_analyzer_questions_dir(root) / f"{slug(question_id)}.md"
+
+
+def write_research_analyzer_question(root: Path, candidate: dict[str, object], question_id: str) -> Path:
+    path = research_analyzer_question_path(root, question_id)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(build_research_analyzer_question_markdown(candidate, question_id), encoding="utf-8")
+    return path
+
+
+def build_research_analyzer_question_markdown(candidate: dict[str, object], question_id: str) -> str:
+    page = safe_int(candidate.get("page"), 0)
+    question = research_analyzer_question_text(candidate)
+    reasons = candidate.get("reasons", [])
+    if not isinstance(reasons, list):
+        reasons = []
+    chunks = candidate.get("chunks", [])
+    if not isinstance(chunks, list):
+        chunks = []
+    matched_terms = candidate.get("matched_terms", [])
+    if not isinstance(matched_terms, list):
+        matched_terms = []
+    genealogy_leads = candidate.get("genealogy_leads", [])
+    if not isinstance(genealogy_leads, list):
+        genealogy_leads = []
+    return f"""---
+type: research_question
+status: todo
+question_id: {yaml_string(question_id)}
+source: {yaml_string(str(candidate.get("source", "")))}
+source_sha256: {yaml_string(str(candidate.get("source_sha256", "")))}
+converted_file: {yaml_string(str(candidate.get("converted_file", "")))}
+page: {page}
+analyzer_score: {safe_int(candidate.get("score"), 0)}
+recommended_action: {yaml_string(str(candidate.get("recommended_action", "")))}
+---
+
+# {question_id}: Page {page} Research Question
+
+## Question
+
+{question}
+
+## Source Context
+
+- Source: `{candidate.get("source", "")}`
+- Converted file: `{candidate.get("converted_file", "")}`
+- Chunk manifest: `{candidate.get("chunk_manifest", "")}`
+- Page: {page}
+- Chunks: {", ".join(f"`{chunk}`" for chunk in chunks) or "`none`"}
+
+## Analyzer Signals
+
+- Score: {safe_int(candidate.get("score"), 0)}
+- Recommended action: `{candidate.get("recommended_action", "")}`
+- Matched family terms: {", ".join(str(value) for value in matched_terms) or "none"}
+- Genealogy leads: {", ".join(str(value) for value in genealogy_leads) or "none"}
+- Reasons: {", ".join(str(value) for value in reasons) or "none"}
+
+## Next Action
+
+- Review the cited chunks and decide whether to create staged source packets, staged claims, relationship candidates, identity/conflict candidates, or an external archive/web search task.
+- Keep any derived drafts under `research/_staging/` until proof review.
+"""
+
+
+def research_analyzer_question_text(candidate: dict[str, object]) -> str:
+    page = safe_int(candidate.get("page"), 0)
+    source = Path(str(candidate.get("source", ""))).name or "this source"
+    matched_terms = [str(value) for value in candidate.get("matched_terms", []) if str(value).strip()]
+    suspicious = candidate.get("suspicious_readings", [])
+    genealogy_leads = [str(value) for value in candidate.get("genealogy_leads", []) if str(value).strip()]
+    relationship_cues = [str(value) for value in candidate.get("relationship_cues", []) if str(value).strip()]
+    life_event_cues = [str(value) for value in candidate.get("life_event_cues", []) if str(value).strip()]
+    if matched_terms:
+        return (
+            f"What evidence on page {page} of `{source}` supports or complicates the known family term(s) "
+            f"{', '.join(matched_terms[:6])}?"
+        )
+    if suspicious:
+        return f"Does page {page} of `{source}` contain a name-drift or transcription issue that changes a family identity clue?"
+    if genealogy_leads:
+        return (
+            f"Who are the genealogy leads named on page {page} of `{source}`, and do any connect to the family tree "
+            f"or known research gaps?"
+        )
+    if relationship_cues or life_event_cues:
+        cues = relationship_cues[:4] + life_event_cues[:4]
+        return f"Do the {', '.join(cues)} cue(s) on page {page} of `{source}` support a staged claim or relationship?"
+    return f"Does page {page} of `{source}` contain evidence worth staging, or can it remain a low-priority signal?"
+
+
+def build_research_question_task(root: Path, candidate: dict[str, object]) -> dict[str, object]:
+    question_id = research_analyzer_question_id(candidate)
+    question_path = research_analyzer_question_path(root, question_id)
+    return {
+        "task_id": f"research-question:{question_id}",
+        "queue": "research-questions",
+        "role": "evidence_extractor",
+        "skill": "genealogy-claim-extraction",
+        "status": "todo",
+        "question_id": question_id,
+        "question_path": relative_to_root(question_path, root),
+        "source": str(candidate.get("source", "")),
+        "source_sha256": str(candidate.get("source_sha256", "")),
+        "converted_file": str(candidate.get("converted_file", "")),
+        "chunk_manifest": str(candidate.get("chunk_manifest", "")),
+        "chunks": candidate.get("chunks", []),
+        "page": safe_int(candidate.get("page"), 0),
+        "score": safe_int(candidate.get("score"), 0),
+        "recommended_action": str(candidate.get("recommended_action", "")),
+        "prompt": build_research_question_task_prompt(candidate, question_id, question_path, root),
+    }
+
+
+def build_research_question_task_prompt(
+    candidate: dict[str, object],
+    question_id: str,
+    question_path: Path,
+    root: Path,
+) -> str:
+    return f"""# Research Question Task
+
+Use `$genealogy-claim-extraction` if evidence can be staged from the cited chunks.
+
+## Assignment
+
+- Question: `{relative_to_root(question_path, root)}`
+- Source: `{candidate.get("source", "")}`
+- Converted source: `{candidate.get("converted_file", "")}`
+- Page: {safe_int(candidate.get("page"), 0)}
+- Chunks: {", ".join(f"`{chunk}`" for chunk in candidate.get("chunks", []) if str(chunk).strip()) or "`none`"}
+
+## Done When
+
+- The question is answered in `research/_staging/` drafts or left as a documented hold.
+- Any staged draft includes source path, converted file, chunk/page reference, literal support, uncertainty notes, and promotion recommendation.
+- No canonical wiki page is edited directly.
+"""
+
+
+def write_research_question_queue(root: Path, pages: list[dict[str, object]]) -> Path:
+    candidates = [
+        page for page in pages if safe_int(page.get("score"), 0) >= RESEARCH_ANALYZER_QUESTION_SCORE
+    ]
+    tasks = [build_research_question_task(root, page) for page in candidates]
+    tasks.sort(
+        key=lambda task: (
+            -safe_int(task.get("score"), 0),
+            str(task.get("source", "")),
+            safe_int(task.get("page"), 0),
+            str(task.get("question_id", "")),
+        )
+    )
+    path = research_analyzer_question_queue_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "created": utc_timestamp(),
+        "purpose": "Research-analyzer questions queued for staged evidence extraction or external research follow-up.",
+        "task_count": len(tasks),
+        "status_counts": count_task_statuses(tasks),
+        "tasks": tasks,
+    }
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    for task in tasks:
+        question_path = root / str(task.get("question_path", ""))
+        if question_path.exists():
+            append_index_reference(root / "research" / "index.md", "Questions", f"[[questions/{question_path.stem}]]")
+    return path
 
 
 def extract_research_analyzer_genealogy_leads(page_text: str) -> list[str]:
@@ -9571,6 +9825,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "source_prep": system_queue_summary(paths.root, queue_dir / "source-prep.json"),
         "conversion_qa": system_queue_summary(paths.root, queue_dir / "conversion-qa.json"),
         "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
+        "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
     }
     return {
         "created": utc_timestamp(),
@@ -12181,6 +12436,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum new page-level upgrade requests to write. Use -1 for no cap. Default: 5.",
     )
     research_analyzer_parser.add_argument(
+        "--question-limit",
+        type=int,
+        default=5,
+        help="Maximum new research question pages to write. Use -1 for no cap. Default: 5.",
+    )
+    research_analyzer_parser.add_argument(
         "--out",
         type=Path,
         help="Output research-analyzer JSON index. Default: research/_indexes/research-analyzer.json.",
@@ -12743,7 +13004,13 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "research-analyzer":
-        summary = research_analyzer_run(args.root, limit=args.limit, out=args.out, dry_run=args.dry_run)
+        summary = research_analyzer_run(
+            args.root,
+            limit=args.limit,
+            question_limit=args.question_limit,
+            out=args.out,
+            dry_run=args.dry_run,
+        )
         print("research-analyzer | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return 1 if summary.get("blockers") else 0

@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import pytest
 
@@ -1330,6 +1331,77 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
     assert index["pages"][0]["recommended_action"] == "record_signal"
     assert not (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").exists()
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    assert queue["task_count"] == 1
+    assert queue["tasks"][0]["status"] == "todo"
+    assert (tmp_path / queue["tasks"][0]["question_path"]).exists()
+    research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
+    assert f"[[questions/{Path(queue['tasks'][0]['question_path']).stem}]]" in research_index
+
+
+def test_research_analyzer_recovers_original_pages_for_question_queue(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    source.write_bytes(b"%PDF-1.4 placeholder")
+    digest = genealogy_wiki.file_sha256(source)
+    manifest_path = tmp_path / "raw" / "codex-conversion-jobs" / "archive-pages-4-5" / "manifest.json"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "job_id": "archive-pages-4-5",
+                "source_file": source.relative_to(tmp_path).as_posix(),
+                "source_sha256": digest,
+                "media_type": "pdf",
+                "pages": [{"page": 4, "source_page": 4}, {"page": 5, "source_page": 5}],
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    converted = tmp_path / "raw" / "converted" / "archive-pages-4-5.codex.md"
+    converted.write_text(
+        f"""# Archive Pages 4-5
+
+## Conversion Metadata
+
+- Source: `{source.relative_to(tmp_path).as_posix()}`
+- Source SHA-256: `{digest}`
+- Manifest: `{manifest_path.relative_to(tmp_path).as_posix()}`
+
+## Page Metadata
+
+- Task id: `source-prep:archive-pages-4-5:p0004`
+- **Page number**: 4
+
+## Literal Transcription
+
+M. Werner appears in a professional list.
+
+## Page Metadata
+
+- Task id: `source-prep:archive-pages-4-5:p0005`
+
+## Literal Transcription
+
+M. Huber appears in a professional list.
+
+## Extracted Genealogy Leads
+
+- **M. Werner**
+- **M. Huber**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    summary = research_analyzer_run(tmp_path, limit=0, question_limit=10)
+
+    assert summary["research_questions_written"] == 2
+    index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text(encoding="utf-8"))
+    assert [page["page"] for page in index["pages"]] == [4, 5]
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text(encoding="utf-8"))
+    assert [task["page"] for task in queue["tasks"]] == [4, 5]
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:
