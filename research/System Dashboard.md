@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T11:07:47Z
+Generated: 2026-05-16T11:25:04Z
 
 ## Source Conversion
 
@@ -74,6 +74,15 @@ Generated: 2026-05-16T11:07:47Z
 | Blocker | Blocking Tasks | Blocked Tasks | Blocked Queues | Next Step |
 | --- | ---: | ---: | --- | --- |
 | pending_conversion_qa | 4 | 27 | evidence_extraction: 8, external_research: 3, research_leads: 14, research_questions: 2 | Complete conversion-QA tasks, then regenerate queues to release extraction, lead, external-research, and research-question work. |
+
+## Conversion QA Unblock Plan
+
+- Plan: `research/_indexes/conversion-qa-unblock-plan.json`
+- Open conversion-QA tasks: 4
+- Blocked downstream tasks: 27
+- Blocked queues: evidence_extraction: 8, external_research: 3, research_leads: 14, research_questions: 2
+- Top unblock task: `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`
+- Top unblock count: 22
 
 ## Storage
 

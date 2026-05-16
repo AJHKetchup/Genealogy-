@@ -2236,6 +2236,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert payload["r2_source_intake"]["changed_file_count"] == 1
     assert payload["storage"]["r2_derived_asset_count"] == 1
     assert payload["storage_lifecycle"]["status"] == "not_started"
+    assert payload["conversion_qa_unblock"]["summary"]["conversion_qa_task_count"] == 0
     assert {action["area"] for action in payload["next_actions"]} >= {"source_prep"}
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Source Conversion" in dashboard_text
@@ -2252,6 +2253,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "External research request notes" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Queue Blockers" in dashboard_text
+    assert "## Conversion QA Unblock Plan" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
@@ -2295,9 +2297,27 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert blocker["blocking_task_count"] == 1
     assert blocker["blocked_queues"]["evidence_extraction"] >= 1
     assert blocker["blocked_queues"]["research_questions"] == 1
+    status_plan = payload["conversion_qa_unblock"]
+    converted_file = assembled.relative_to(tmp_path).as_posix()
+    qa_task_id = genealogy_wiki.conversion_qa_task_id_for_converted_file(converted_file)
+    assert status_plan["summary"]["conversion_qa_task_count"] == 1
+    assert status_plan["summary"]["top_task_id"] == qa_task_id
+    assert status_plan["summary"]["blocked_queue_counts"]["research_questions"] == 1
+    assert status_plan["summary"]["blocked_queue_counts"]["research_leads"] == 1
+    assert status_plan["summary"]["blocked_task_count"] >= 3
+    assert status_plan["top_tasks"][0]["task_id"] == qa_task_id
+    plan = json.loads(
+        (tmp_path / "research" / "_indexes" / "conversion-qa-unblock-plan.json").read_text(encoding="utf-8")
+    )
+    assert plan["tasks"][0]["task_id"] == qa_task_id
+    assert plan["tasks"][0]["blocked_queues"]["evidence_extraction"] >= 1
+    assert (tmp_path / "research" / "_indexes" / "conversion-qa-unblock-plan.json").exists()
+    assert (tmp_path / "research" / "conversion-qa-unblock-plan.md").exists()
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Queue Blockers" in dashboard_text
     assert "pending_conversion_qa" in dashboard_text
+    assert "## Conversion QA Unblock Plan" in dashboard_text
+    assert qa_task_id in dashboard_text
     assert "conversion-QA triage" in dashboard_text
     assert "regenerate agent queues" in dashboard_text
 

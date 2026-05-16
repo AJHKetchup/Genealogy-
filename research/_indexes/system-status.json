@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T11:07:47Z",
+  "created": "2026-05-16T11:25:04Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T11:07:46Z",
+    "created": "2026-05-16T11:25:04Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -140,6 +140,62 @@
       "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, external-research, and research-question work."
     }
   },
+  "conversion_qa_unblock": {
+    "created": "2026-05-16T11:25:04Z",
+    "path": "research/_indexes/conversion-qa-unblock-plan.json",
+    "markdown": "research/conversion-qa-unblock-plan.md",
+    "summary": {
+      "conversion_qa_task_count": 4,
+      "open_conversion_qa_task_count": 4,
+      "blocked_task_count": 27,
+      "blocked_queue_counts": {
+        "evidence_extraction": 8,
+        "external_research": 3,
+        "research_leads": 14,
+        "research_questions": 2
+      },
+      "top_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+      "top_blocked_task_count": 22
+    },
+    "top_tasks": [
+      {
+        "priority_rank": 1,
+        "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+        "status": "todo",
+        "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+        "blocked_task_count": 22,
+        "blocked_queues": {
+          "evidence_extraction": 3,
+          "research_questions": 2,
+          "research_leads": 14,
+          "external_research": 3
+        },
+        "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md"
+      },
+      {
+        "priority_rank": 2,
+        "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex-md",
+        "status": "todo",
+        "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
+        "blocked_task_count": 2,
+        "blocked_queues": {
+          "evidence_extraction": 2
+        },
+        "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex-md.md"
+      },
+      {
+        "priority_rank": 3,
+        "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex-md",
+        "status": "todo",
+        "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
+        "blocked_task_count": 2,
+        "blocked_queues": {
+          "evidence_extraction": 2
+        },
+        "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex-md.md"
+      }
+    ]
+  },
   "storage": {
     "r2_raw_file_count": 49,
     "r2_raw_total_bytes": 8230789331,
@@ -169,7 +225,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T11:07:46Z",
+      "created": "2026-05-16T11:25:04Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

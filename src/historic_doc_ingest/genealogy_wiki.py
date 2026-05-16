@@ -11581,6 +11581,10 @@ def write_system_status_dashboard(
         except Exception as exc:
             blockers.append(f"source-status refresh: {exc}")
 
+    try:
+        write_conversion_qa_unblock_plan(paths.root)
+    except Exception as exc:
+        blockers.append(f"conversion-qa-unblock-plan: {exc}")
     payload = build_system_status_payload(paths.root, blockers)
     output_path = output or (paths.indexes / "system-status.json")
     markdown_path = markdown_output or (paths.research / "System Dashboard.md")
@@ -11616,6 +11620,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "research_leads": system_queue_summary(paths.root, queue_dir / "research-leads.json"),
         "external_research": system_queue_summary(paths.root, queue_dir / "external-research.json"),
     }
+    conversion_qa_unblock = build_conversion_qa_unblock_plan_payload(paths.root)
     payload = {
         "created": utc_timestamp(),
         "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
@@ -11625,6 +11630,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "page_upgrades": build_system_page_upgrade_summary(paths.root, relevance_feedback, research_analyzer),
         "queues": queues,
         "queue_blockers": build_system_queue_blocker_summary(queues),
+        "conversion_qa_unblock": summarize_conversion_qa_unblock_for_status(conversion_qa_unblock),
         "storage": build_system_storage_summary(raw_cloud, derived_assets),
         "final_site": build_system_final_site_summary(paths.root),
         "storage_lifecycle": build_system_lifecycle_summary(paths.root),
@@ -11661,6 +11667,281 @@ def build_system_queue_blocker_summary(queues: dict[str, object]) -> dict[str, o
             "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, external-research, and research-question work.",
         }
     return blockers
+
+
+def conversion_qa_unblock_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "conversion-qa-unblock-plan.json"
+
+
+def conversion_qa_unblock_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "conversion-qa-unblock-plan.md"
+
+
+def build_conversion_qa_unblock_plan_payload(root: Path) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    queue_dir = paths.research / "_agent-queues"
+    queue_files = {
+        "conversion_qa": queue_dir / "conversion-qa.json",
+        "evidence_extraction": queue_dir / "evidence-extraction.json",
+        "research_questions": queue_dir / "research-questions.json",
+        "research_leads": queue_dir / "research-leads.json",
+        "external_research": queue_dir / "external-research.json",
+    }
+    queues = {
+        name: read_json_payload(path, {"tasks": []})
+        for name, path in queue_files.items()
+    }
+    conversion_qa_tasks = queue_tasks(queues.get("conversion_qa", {}))
+    records_by_task_id: dict[str, dict[str, object]] = {}
+    for task in conversion_qa_tasks:
+        task_id = str(task.get("task_id", "")).strip()
+        if not task_id:
+            continue
+        records_by_task_id[task_id] = {
+            "task_id": task_id,
+            "status": str(task.get("status", "")),
+            "converted_file": str(task.get("converted_file", "")),
+            "source": str(task.get("source", "")),
+            "source_sha256": str(task.get("source_sha256", "")),
+            "chunk_manifest": str(task.get("chunk_manifest", "")),
+            "prompt_path": str(task.get("prompt_path", "")),
+            "triage_note": str(task.get("auto_qc_triage", "")),
+            "page_queue": str(task.get("auto_qc_page_queue", "")),
+            "corrections": str(task.get("auto_qc_corrections", "")),
+            "blocked_task_count": 0,
+            "blocked_queues": {},
+            "blocked_tasks": [],
+        }
+
+    for queue_name in ("evidence_extraction", "research_questions", "research_leads", "external_research"):
+        for task in queue_tasks(queues.get(queue_name, {})):
+            if str(task.get("status", "")) != "blocked_pending_conversion_qa":
+                continue
+            for qa_task_id in task_conversion_qa_ids(task):
+                record = records_by_task_id.setdefault(
+                    qa_task_id,
+                    {
+                        "task_id": qa_task_id,
+                        "status": "missing_from_conversion_qa_queue",
+                        "converted_file": str(task.get("converted_file", "")),
+                        "source": str(task.get("source", "")),
+                        "source_sha256": str(task.get("source_sha256", "")),
+                        "chunk_manifest": str(task.get("chunk_manifest", "")),
+                        "prompt_path": "",
+                        "triage_note": "",
+                        "page_queue": "",
+                        "corrections": "",
+                        "blocked_task_count": 0,
+                        "blocked_queues": {},
+                        "blocked_tasks": [],
+                    },
+                )
+                record["blocked_task_count"] = safe_int(record.get("blocked_task_count"), 0) + 1
+                blocked_queues = record.get("blocked_queues", {})
+                if isinstance(blocked_queues, dict):
+                    blocked_queues[queue_name] = safe_int(blocked_queues.get(queue_name), 0) + 1
+                blocked_tasks = record.get("blocked_tasks", [])
+                if isinstance(blocked_tasks, list):
+                    blocked_tasks.append(summarize_blocked_conversion_qa_task(queue_name, task))
+
+    records = list(records_by_task_id.values())
+    records.sort(
+        key=lambda record: (
+            -safe_int(record.get("blocked_task_count"), 0),
+            conversion_qa_unblock_status_priority(str(record.get("status", ""))),
+            str(record.get("converted_file", "")),
+            str(record.get("task_id", "")),
+        )
+    )
+    for index, record in enumerate(records, start=1):
+        record["priority_rank"] = index
+
+    downstream_counts: dict[str, int] = {}
+    for record in records:
+        blocked_queues = record.get("blocked_queues", {})
+        if not isinstance(blocked_queues, dict):
+            continue
+        for queue_name, count in blocked_queues.items():
+            downstream_counts[str(queue_name)] = downstream_counts.get(str(queue_name), 0) + safe_int(count, 0)
+
+    top = records[0] if records else {}
+    return {
+        "created": utc_timestamp(),
+        "purpose": (
+            "Conversion-QA unblock priority plan. It maps each conversion-QA task to downstream tasks held by "
+            "the conversion-QA gate."
+        ),
+        "path": relative_to_root(conversion_qa_unblock_index_path(paths.root), paths.root),
+        "markdown": relative_to_root(conversion_qa_unblock_markdown_path(paths.root), paths.root),
+        "inputs": {
+            "conversion_qa_queue": relative_to_root(queue_files["conversion_qa"], paths.root),
+            "evidence_extraction_queue": relative_to_root(queue_files["evidence_extraction"], paths.root),
+            "research_questions_queue": relative_to_root(queue_files["research_questions"], paths.root),
+            "research_leads_queue": relative_to_root(queue_files["research_leads"], paths.root),
+            "external_research_queue": relative_to_root(queue_files["external_research"], paths.root),
+        },
+        "summary": {
+            "conversion_qa_task_count": len(conversion_qa_tasks),
+            "open_conversion_qa_task_count": len(
+                [
+                    task for task in conversion_qa_tasks
+                    if str(task.get("status", "")) in {"todo", "claimed", "in_progress"}
+                ]
+            ),
+            "blocked_task_count": sum(safe_int(record.get("blocked_task_count"), 0) for record in records),
+            "blocked_queue_counts": dict(sorted(downstream_counts.items())),
+            "top_task_id": str(top.get("task_id", "")) if isinstance(top, dict) else "",
+            "top_blocked_task_count": safe_int(top.get("blocked_task_count"), 0) if isinstance(top, dict) else 0,
+        },
+        "tasks": records,
+        "storage_contract": (
+            "GitHub stores this JSON/Markdown unblock plan. R2 continues to hold raw originals and durable "
+            "binary assets."
+        ),
+    }
+
+
+def summarize_conversion_qa_unblock_for_status(payload: dict[str, object]) -> dict[str, object]:
+    tasks = payload.get("tasks", [])
+    if not isinstance(tasks, list):
+        tasks = []
+    top_tasks = []
+    for task in tasks[:3]:
+        if not isinstance(task, dict):
+            continue
+        top_tasks.append(
+            {
+                "priority_rank": safe_int(task.get("priority_rank"), 0),
+                "task_id": str(task.get("task_id", "")),
+                "status": str(task.get("status", "")),
+                "converted_file": str(task.get("converted_file", "")),
+                "blocked_task_count": safe_int(task.get("blocked_task_count"), 0),
+                "blocked_queues": task.get("blocked_queues", {}),
+                "prompt_path": str(task.get("prompt_path", "")),
+            }
+        )
+    return {
+        "created": payload.get("created", ""),
+        "path": payload.get("path", "research/_indexes/conversion-qa-unblock-plan.json"),
+        "markdown": payload.get("markdown", "research/conversion-qa-unblock-plan.md"),
+        "summary": payload.get("summary", {}),
+        "top_tasks": top_tasks,
+    }
+
+
+def queue_tasks(queue: object) -> list[dict[str, object]]:
+    if not isinstance(queue, dict):
+        return []
+    tasks = queue.get("tasks", [])
+    if not isinstance(tasks, list):
+        return []
+    return [task for task in tasks if isinstance(task, dict)]
+
+
+def task_conversion_qa_ids(task: dict[str, object]) -> list[str]:
+    ids = []
+    single = str(task.get("conversion_qa_task_id", "")).strip()
+    if single:
+        ids.append(single)
+    multi = task.get("conversion_qa_task_ids", [])
+    if isinstance(multi, list):
+        ids.extend(str(value).strip() for value in multi if str(value).strip())
+    return list(dict.fromkeys(ids))
+
+
+def summarize_blocked_conversion_qa_task(queue_name: str, task: dict[str, object]) -> dict[str, object]:
+    summary = {
+        "queue": queue_name,
+        "task_id": str(task.get("task_id", "")),
+        "status": str(task.get("status", "")),
+        "prompt_path": str(task.get("prompt_path", "")),
+        "converted_file": str(task.get("converted_file", "")),
+        "page": safe_int(task.get("page"), 0),
+    }
+    if str(task.get("lead", "")).strip():
+        summary["lead"] = str(task.get("lead", ""))
+    if str(task.get("question_id", "")).strip():
+        summary["question_id"] = str(task.get("question_id", ""))
+    if str(task.get("source", "")).strip():
+        summary["source"] = str(task.get("source", ""))
+    if str(task.get("request_note", "")).strip():
+        summary["request_note"] = str(task.get("request_note", ""))
+    return summary
+
+
+def conversion_qa_unblock_status_priority(status: str) -> int:
+    return {
+        "todo": 0,
+        "claimed": 1,
+        "in_progress": 2,
+        "missing_from_conversion_qa_queue": 3,
+        "done": 4,
+    }.get(status, 5)
+
+
+def write_conversion_qa_unblock_plan(root: Path, payload: object | None = None) -> tuple[Path, Path]:
+    paths = WikiPaths(root.resolve())
+    plan = payload if isinstance(payload, dict) else build_conversion_qa_unblock_plan_payload(paths.root)
+    json_path = conversion_qa_unblock_index_path(paths.root)
+    markdown_path = conversion_qa_unblock_markdown_path(paths.root)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(plan, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_conversion_qa_unblock_plan_markdown(plan), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[conversion-qa-unblock-plan]]")
+    append_log(paths.research / "log.md", f"conversion-qa-unblock-plan | Wrote {relative_to_root(json_path, paths.root)}")
+    return json_path, markdown_path
+
+
+def build_conversion_qa_unblock_plan_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    tasks = payload.get("tasks", [])
+    if not isinstance(tasks, list):
+        tasks = []
+    rows = [
+        "| Rank | Status | Blocked | Queues | Converted File | QA Prompt |",
+        "| ---: | --- | ---: | --- | --- | --- |",
+    ]
+    for task in tasks:
+        if not isinstance(task, dict):
+            continue
+        blocked_queues = task.get("blocked_queues", {})
+        blocked_queue_text = format_status_counts(blocked_queues if isinstance(blocked_queues, dict) else {})
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(task.get("priority_rank", "")),
+                    markdown_table_cell(task.get("status", "")),
+                    markdown_table_cell(task.get("blocked_task_count", 0)),
+                    markdown_table_cell(blocked_queue_text or "none"),
+                    markdown_table_cell(task.get("converted_file", "")),
+                    markdown_table_cell(task.get("prompt_path", "")),
+                ]
+            )
+            + " |"
+        )
+    return f"""# Conversion QA Unblock Plan
+
+Generated: {payload.get("created", "")}
+
+This report ranks conversion-QA tasks by how many downstream tasks they currently block. It is an operational queue aid, not a source interpretation or canonical genealogy artifact.
+
+## Summary
+
+- Conversion-QA tasks: {dict_value(summary, "conversion_qa_task_count")}
+- Open conversion-QA tasks: {dict_value(summary, "open_conversion_qa_task_count")}
+- Blocked downstream tasks: {dict_value(summary, "blocked_task_count")}
+- Blocked queues: {format_status_counts(dict_value(summary, "blocked_queue_counts", {}))}
+- Top unblock task: `{dict_value(summary, "top_task_id", "") or "none"}`
+- Top unblock count: {dict_value(summary, "top_blocked_task_count")}
+
+## Ranked Tasks
+
+{chr(10).join(rows)}
+"""
 
 
 def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, object]]:
@@ -12095,6 +12376,7 @@ def build_system_status_markdown(payload: dict[str, object]) -> str:
     storage = payload.get("storage", {})
     final_site = payload.get("final_site", {})
     lifecycle = payload.get("storage_lifecycle", {})
+    conversion_qa_unblock = payload.get("conversion_qa_unblock", {})
     blockers = payload.get("blockers", [])
     blocker_lines = [f"- {blocker}" for blocker in blockers] if isinstance(blockers, list) and blockers else ["- None"]
     next_actions = payload.get("next_actions", [])
@@ -12225,6 +12507,15 @@ Generated: {payload.get("created", "")}
 ## Queue Blockers
 
 {chr(10).join(blocker_rows)}
+
+## Conversion QA Unblock Plan
+
+- Plan: `{dict_value(conversion_qa_unblock, "path", "research/_indexes/conversion-qa-unblock-plan.json")}`
+- Open conversion-QA tasks: {dict_value(dict_value(conversion_qa_unblock, "summary", {}), "open_conversion_qa_task_count")}
+- Blocked downstream tasks: {dict_value(dict_value(conversion_qa_unblock, "summary", {}), "blocked_task_count")}
+- Blocked queues: {format_status_counts(dict_value(dict_value(conversion_qa_unblock, "summary", {}), "blocked_queue_counts", {}))}
+- Top unblock task: `{dict_value(dict_value(conversion_qa_unblock, "summary", {}), "top_task_id", "") or "none"}`
+- Top unblock count: {dict_value(dict_value(conversion_qa_unblock, "summary", {}), "top_blocked_task_count")}
 
 ## Storage
 
