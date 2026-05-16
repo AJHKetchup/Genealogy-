@@ -2745,6 +2745,7 @@ def prepare_raw_sources(
     page_range: str | None = None,
     image_scale: float = 2.0,
     pages_per_job: int = 50,
+    new_pages_limit: int = 0,
     max_chars: int = 12000,
 ) -> list[PreparedSourceResult]:
     """Create or advance Codex-agent conversion jobs for every raw source.
@@ -2769,6 +2770,7 @@ def prepare_raw_sources(
                 page_range=page_range,
                 image_scale=image_scale,
                 pages_per_job=pages_per_job,
+                new_pages_limit=new_pages_limit,
                 max_chars=max_chars,
             )
         )
@@ -2786,6 +2788,7 @@ def prepare_raw_source_for_agent_conversion(
     page_range: str | None = None,
     image_scale: float = 2.0,
     pages_per_job: int = 50,
+    new_pages_limit: int = 0,
     max_chars: int = 12000,
 ) -> PreparedSourceResult:
     paths = WikiPaths(root.resolve())
@@ -2795,29 +2798,24 @@ def prepare_raw_source_for_agent_conversion(
     warnings: list[str] = []
 
     jobs = source_prep_jobs_by_hash(paths.root).get(digest, [])
-    if jobs and not force and not (page_range and media_type == "pdf"):
+    if jobs and not force and media_type != "pdf":
         job_manifests = [paths.root / str(job["manifest"]) for job in jobs]
-    elif jobs and not force and page_range and media_type == "pdf":
-        existing_by_range = {str(job.get("page_range", "")): paths.root / str(job["manifest"]) for job in jobs}
+    elif jobs and not force and media_type == "pdf":
+        job_manifests = [paths.root / str(job["manifest"]) for job in jobs]
         page_count = pdf_page_count(source)
-        selected_pages = parse_page_range(page_range, page_count)
-        job_manifests = []
-        for group in group_pages_for_agent_jobs(selected_pages, pages_per_job):
-            group_range = format_page_range(group)
-            existing_manifest = existing_by_range.get(group_range)
-            if existing_manifest:
-                job_manifests.append(existing_manifest)
-                continue
-            job_id = f"{agent_conversion_job_id(source, digest)}-p{group[0]:04d}-{group[-1]:04d}"
-            title = f"{source.stem} pages {group_range}"
-            job_manifests.append(
-                create_codex_conversion_job(
+        existing_pages = existing_pdf_job_pages(jobs, page_count)
+        selected_pages = [page for page in parse_page_range(page_range, page_count) if page not in existing_pages]
+        if new_pages_limit > 0:
+            selected_pages = selected_pages[:new_pages_limit]
+        if selected_pages:
+            job_manifests.extend(
+                create_agent_conversion_jobs_for_pdf_pages(
                     paths.root,
                     source,
-                    job_id=job_id,
-                    title=title,
-                    page_range=group_range,
+                    digest=digest,
+                    pages=selected_pages,
                     image_scale=image_scale,
+                    pages_per_job=pages_per_job,
                     force=force,
                 )
             )
@@ -2829,6 +2827,7 @@ def prepare_raw_source_for_agent_conversion(
             page_range=page_range,
             image_scale=image_scale,
             pages_per_job=pages_per_job,
+            new_pages_limit=new_pages_limit,
             force=force,
         )
 
@@ -2867,6 +2866,7 @@ def create_agent_conversion_jobs_for_source(
     page_range: str | None,
     image_scale: float,
     pages_per_job: int,
+    new_pages_limit: int,
     force: bool,
 ) -> list[Path]:
     media_type = detect_media_type(source)
@@ -2885,7 +2885,44 @@ def create_agent_conversion_jobs_for_source(
 
     page_count = pdf_page_count(source)
     selected_pages = parse_page_range(page_range, page_count)
-    page_groups = group_pages_for_agent_jobs(selected_pages, pages_per_job)
+    if new_pages_limit > 0:
+        selected_pages = selected_pages[:new_pages_limit]
+    return create_agent_conversion_jobs_for_pdf_pages(
+        root,
+        source,
+        digest=digest,
+        pages=selected_pages,
+        image_scale=image_scale,
+        pages_per_job=pages_per_job,
+        force=force,
+    )
+
+
+def existing_pdf_job_pages(jobs: list[dict[str, str]], page_count: int) -> set[int]:
+    pages: set[int] = set()
+    for job in jobs:
+        page_range = str(job.get("page_range", "")).strip()
+        if not page_range or page_range == "all":
+            pages.update(range(1, page_count + 1))
+            continue
+        try:
+            pages.update(parse_page_range(page_range, page_count))
+        except (TypeError, ValueError):
+            continue
+    return pages
+
+
+def create_agent_conversion_jobs_for_pdf_pages(
+    root: Path,
+    source: Path,
+    *,
+    digest: str,
+    pages: list[int],
+    image_scale: float,
+    pages_per_job: int,
+    force: bool,
+) -> list[Path]:
+    page_groups = group_pages_for_agent_jobs(pages, pages_per_job)
     manifests: list[Path] = []
     for group in page_groups:
         group_range = format_page_range(group)
@@ -8099,6 +8136,7 @@ def cloud_source_prep_heartbeat(
     page_range: str | None = None,
     restore_limit: int | None = None,
     pages_per_job: int = 25,
+    new_pages_limit: int = 0,
     batch_pages: int = 1,
     queue_limit: int = 80,
     stale_minutes: int = 360,
@@ -8122,6 +8160,7 @@ def cloud_source_prep_heartbeat(
             "page_range": page_range or "",
             "restore_limit": restore_limit or 0,
             "pages_per_job": pages_per_job,
+            "new_pages_limit": new_pages_limit,
             "batch_pages": batch_pages,
             "queue_limit": queue_limit,
             "stale_minutes": stale_minutes,
@@ -8157,6 +8196,7 @@ def cloud_source_prep_heartbeat(
             paths.root,
             page_range=page_range,
             pages_per_job=pages_per_job,
+            new_pages_limit=new_pages_limit,
             max_chars=max_chars,
         )
         record_step("prepare-sources", "ran", {"prepared_sources": len(prepared)})
@@ -9530,6 +9570,12 @@ def build_parser() -> argparse.ArgumentParser:
         default=50,
         help="Maximum PDF pages per conversion job so agent workers can own manageable ranges. Default: 50.",
     )
+    prepare_sources_parser.add_argument(
+        "--new-pages-limit",
+        type=int,
+        default=0,
+        help="Maximum not-yet-jobed PDF pages to create jobs for per source. Use 0 for no cap. Default: 0.",
+    )
     prepare_sources_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
     prepare_sources_parser.add_argument("--force", action="store_true", help="Recreate existing conversion jobs.")
 
@@ -9593,6 +9639,7 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--pages", help="Optional page range for newly-created jobs, such as 1,3-5.")
     cloud_source_prep_parser.add_argument("--restore-limit", type=int, help="Maximum raw R2 objects to restore for this run.")
     cloud_source_prep_parser.add_argument("--pages-per-job", type=int, default=25, help="Maximum PDF pages per conversion job.")
+    cloud_source_prep_parser.add_argument("--new-pages-limit", type=int, default=0, help="Maximum not-yet-jobed PDF pages to create jobs for per source. Use 0 for no cap.")
     cloud_source_prep_parser.add_argument("--batch-pages", type=int, default=1, help="Pages per source-prep batch. Capped at one.")
     cloud_source_prep_parser.add_argument("--queue-limit", type=int, default=80, help="Maximum source-prep batches to materialize.")
     cloud_source_prep_parser.add_argument("--stale-minutes", type=int, default=360, help="Release stale claimed tasks after this many minutes.")
@@ -10109,6 +10156,7 @@ def main(argv: list[str] | None = None) -> int:
             page_range=args.pages,
             image_scale=args.image_scale,
             pages_per_job=args.pages_per_job,
+            new_pages_limit=args.new_pages_limit,
             max_chars=args.max_chars,
         )
         print(f"Prepared {len(results)} raw source(s)")
@@ -10150,6 +10198,7 @@ def main(argv: list[str] | None = None) -> int:
             page_range=args.pages,
             restore_limit=args.restore_limit,
             pages_per_job=args.pages_per_job,
+            new_pages_limit=args.new_pages_limit,
             batch_pages=args.batch_pages,
             queue_limit=args.queue_limit,
             stale_minutes=args.stale_minutes,

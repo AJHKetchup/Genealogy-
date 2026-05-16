@@ -690,10 +690,49 @@ def test_prepare_raw_sources_adds_requested_pdf_page_range_when_source_has_exist
     second = prepare_raw_sources(tmp_path, page_range="4-5", pages_per_job=25)
 
     assert len(first[0].conversion_jobs) == 1
-    assert len(second[0].conversion_jobs) == 1
+    assert len(second[0].conversion_jobs) == 2
     manifests = sorted((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
     page_ranges = sorted(json.loads(path.read_text(encoding="utf-8"))["chunking"]["page_range"] for path in manifests)
     assert page_ranges == ["1-2", "4-5"]
+
+
+def test_prepare_raw_sources_adds_next_missing_pdf_pages_with_limit(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 7):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, page_range="1-2", pages_per_job=25)
+    result = prepare_raw_sources(tmp_path, pages_per_job=2, new_pages_limit=3)[0]
+
+    manifests = sorted((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
+    page_ranges = sorted(json.loads(path.read_text(encoding="utf-8"))["chunking"]["page_range"] for path in manifests)
+
+    assert len(result.conversion_jobs) == 3
+    assert page_ranges == ["1-2", "3-4", "5"]
+
+
+def test_prepare_raw_sources_limits_new_pdf_initial_jobs(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 7):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    result = prepare_raw_sources(tmp_path, pages_per_job=2, new_pages_limit=3)[0]
+
+    manifests = sorted((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
+    page_ranges = sorted(json.loads(path.read_text(encoding="utf-8"))["chunking"]["page_range"] for path in manifests)
+
+    assert len(result.conversion_jobs) == 2
+    assert page_ranges == ["1-2", "3"]
 
 
 def test_write_agent_queues_creates_conversion_qa_and_extraction_tasks(tmp_path) -> None:
