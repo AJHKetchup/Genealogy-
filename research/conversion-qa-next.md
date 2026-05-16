@@ -1,6 +1,6 @@
 # Conversion QA Next
 
-Generated: 2026-05-16T15:08:14Z
+Generated: 2026-05-16T15:21:41Z
 
 This is the current highest-impact conversion-QA focus packet. It is an operational queue aid, not a source interpretation or canonical genealogy artifact.
 
@@ -22,11 +22,11 @@ This is the current highest-impact conversion-QA focus packet. It is an operatio
 
 ## Downstream Examples
 
-| Queue | Task | Lead/Question | Prompt |
+| Queue | Task | Lead/Question/Page | Prompt |
 | --- | --- | --- | --- |
-| evidence_extraction | evidence-extraction:CHUNK-83011af124e2-P0003-01 | none | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0003-01.md |
-| evidence_extraction | evidence-extraction:CHUNK-83011af124e2-P0001-01 | none | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0001-01.md |
-| evidence_extraction | evidence-extraction:CHUNK-83011af124e2-P0002-01 | none | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0002-01.md |
+| evidence_extraction | evidence-extraction:CHUNK-83011af124e2-P0003-01 | page 3 | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0003-01.md |
+| evidence_extraction | evidence-extraction:CHUNK-83011af124e2-P0001-01 | page 1 | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0001-01.md |
+| evidence_extraction | evidence-extraction:CHUNK-83011af124e2-P0002-01 | page 2 | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0002-01.md |
 | research_questions | research-question:RQ-9ae7e6a2ac30-P0003 | RQ-9ae7e6a2ac30-P0003 | research/_agent-queues/prompts/research-questions/research-question-rq-9ae7e6a2ac30-p0003.md |
 | research_questions | research-question:RQ-b4dc978311d3-P0001 | RQ-b4dc978311d3-P0001 | research/_agent-queues/prompts/research-questions/research-question-rq-b4dc978311d3-p0001.md |
 | research_leads | research-lead:m-des-gouttes | M. Des Gouttes | research/_agent-queues/prompts/research-leads/research-lead-m-des-gouttes.md |

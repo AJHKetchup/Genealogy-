@@ -21,9 +21,9 @@ Use `$conversion-qa-triage`.
 
 Completing this QA task and regenerating queues should release the downstream work summarized below.
 
-| Queue | Task | Lead/Question | Prompt |
+| Queue | Task | Lead/Question/Page | Prompt |
 | --- | --- | --- | --- |
-| evidence_extraction | evidence-extraction:CHUNK-d7d2f04f14d2-P0001-01 | none | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d7d2f04f14d2-p0001-01.md |
+| evidence_extraction | evidence-extraction:CHUNK-d7d2f04f14d2-P0001-01 | page 1 | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d7d2f04f14d2-p0001-01.md |
 
 ## Done When
 

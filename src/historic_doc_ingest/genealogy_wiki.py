@@ -12349,6 +12349,12 @@ def summarize_blocked_conversion_qa_task(queue_name: str, task: dict[str, object
         "converted_file": str(task.get("converted_file", "")),
         "page": safe_int(task.get("page"), 0),
     }
+    page_start = safe_int(task.get("page_start"), 0)
+    page_end = safe_int(task.get("page_end"), page_start)
+    if page_start:
+        summary["page_start"] = page_start
+        summary["page_end"] = page_end or page_start
+        summary["page_range"] = f"{page_start}-{page_end}" if page_end and page_end != page_start else str(page_start)
     if str(task.get("lead", "")).strip():
         summary["lead"] = str(task.get("lead", ""))
     if str(task.get("question_id", "")).strip():
@@ -12358,6 +12364,20 @@ def summarize_blocked_conversion_qa_task(queue_name: str, task: dict[str, object
     if str(task.get("request_note", "")).strip():
         summary["request_note"] = str(task.get("request_note", ""))
     return summary
+
+
+def blocked_conversion_qa_task_label(task: dict[str, object]) -> str:
+    for key in ("lead", "question_id"):
+        value = str(task.get(key, "")).strip()
+        if value:
+            return value
+    page_range = str(task.get("page_range", "")).strip()
+    if page_range:
+        return f"page {page_range}"
+    page = safe_int(task.get("page"), 0)
+    if page:
+        return f"page {page}"
+    return "none"
 
 
 def conversion_qa_unblock_status_priority(status: str) -> int:
@@ -12465,13 +12485,13 @@ No conversion-QA focus task is currently available.
     if not isinstance(blocked_tasks, list):
         blocked_tasks = []
     rows = [
-        "| Queue | Task | Lead/Question | Prompt |",
+        "| Queue | Task | Lead/Question/Page | Prompt |",
         "| --- | --- | --- | --- |",
     ]
     for blocked in blocked_tasks[:12]:
         if not isinstance(blocked, dict):
             continue
-        label = str(blocked.get("lead", "") or blocked.get("question_id", "") or blocked.get("page", "") or "")
+        label = blocked_conversion_qa_task_label(blocked)
         rows.append(
             "| "
             + " | ".join(
@@ -14689,13 +14709,13 @@ def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
     impact_section = ""
     if blocked_downstream_count:
         rows = [
-            "| Queue | Task | Lead/Question | Prompt |",
+            "| Queue | Task | Lead/Question/Page | Prompt |",
             "| --- | --- | --- | --- |",
         ]
         for blocked in blocked_downstream_examples:
             if not isinstance(blocked, dict):
                 continue
-            label = str(blocked.get("lead", "") or blocked.get("question_id", "") or blocked.get("page", "") or "")
+            label = blocked_conversion_qa_task_label(blocked)
             rows.append(
                 "| "
                 + " | ".join(

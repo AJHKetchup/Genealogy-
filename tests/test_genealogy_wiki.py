@@ -1642,6 +1642,8 @@ status: stub
     assert "## Unblock Impact" in qa_prompt_text
     assert "research-question:" in qa_prompt_text
     assert "research-lead:" in qa_prompt_text
+    assert "Lead/Question/Page" in qa_prompt_text
+    assert "page 1" in qa_prompt_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 
@@ -2592,6 +2594,14 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert plan["tasks"][0]["task_id"] == qa_task_id
     assert plan["tasks"][0]["blocked_queues"]["evidence_extraction"] >= 1
     assert plan["tasks"][0]["blocked_queues"]["research_staging_backlog"] == 1
+    extraction_example = next(
+        blocked
+        for blocked in plan["tasks"][0]["blocked_tasks"]
+        if blocked["queue"] == "evidence_extraction"
+    )
+    assert extraction_example["page_start"] == 1
+    assert extraction_example["page_end"] == 1
+    assert extraction_example["page_range"] == "1"
     assert (tmp_path / "research" / "_indexes" / "conversion-qa-unblock-plan.json").exists()
     assert (tmp_path / "research" / "conversion-qa-unblock-plan.md").exists()
     next_focus_path = tmp_path / "research" / "conversion-qa-next.md"
@@ -2600,6 +2610,8 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert "Conversion QA Next" in next_focus_text
     assert qa_task_id in next_focus_text
     assert "Downstream tasks unlocked" in next_focus_text
+    assert "Lead/Question/Page" in next_focus_text
+    assert "page 1" in next_focus_text
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Queue Blockers" in dashboard_text
     assert "pending_conversion_qa" in dashboard_text
