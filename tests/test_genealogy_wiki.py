@@ -1693,11 +1693,21 @@ def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
 
     analyzer_step = next(step for step in summary["steps"] if step["name"] == "research-analyzer")
     assert analyzer_step["status"] == "ran"
+    site_step = next(step for step in summary["steps"] if step["name"] == "site-build")
+    status_step = next(step for step in summary["steps"] if step["name"] == "system-status")
+    assert site_step["status"] == "ran"
+    assert status_step["status"] == "ran"
     assert summary["queues"]["research_questions"]["path"] == "research/_agent-queues/research-questions.json"
     assert summary["queues"]["research_questions"]["task_count"] == 1
+    assert summary["queues"]["conversion_qa"]["task_count"] == 1
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text(encoding="utf-8"))
     assert queue["task_count"] == 1
+    qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
+    assert qa_queue["tasks"][0]["status"] == "todo"
     assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
+    assert (tmp_path / "site" / "family-tree.html").exists()
+    status = json.loads((tmp_path / "research" / "_indexes" / "system-status.json").read_text(encoding="utf-8"))
+    assert status["final_site"]["html_file_count"] >= 2
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:

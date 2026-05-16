@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T06:06:41Z",
+  "created": "2026-05-16T08:23:00Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -12,6 +12,8 @@
     "research_analyzer": true,
     "research_analyzer_limit": 5,
     "research_question_limit": 5,
+    "build_site": true,
+    "system_status": true,
     "page_range": "",
     "restore_limit": 0,
     "pages_per_job": 25,
@@ -67,7 +69,7 @@
       "name": "research-analyzer",
       "status": "ran",
       "detail": {
-        "version": 1,
+        "version": 4,
         "created": "2026-05-16",
         "mode": "research-analyzer",
         "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
@@ -75,18 +77,51 @@
         "limit": 5,
         "question_limit": 5,
         "pages_scanned": 8,
-        "pages_with_signals": 3,
+        "pages_with_signals": 2,
         "upgrade_candidates": 0,
         "upgrade_requests_written": 0,
         "upgrade_requests_existing": 0,
-        "research_question_candidates": 3,
+        "research_question_candidates": 2,
         "research_questions_written": 0,
-        "research_questions_existing": 3,
+        "research_questions_existing": 2,
+        "research_questions_refreshed": 2,
         "index": "research/_indexes/research-analyzer.json",
         "feedback": "research/_agent-queues/source-relevance-feedback.json",
         "research_question_queue": "research/_agent-queues/research-questions.json",
+        "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
+        "staging_opportunity_pages": 2,
+        "staging_recommendation_counts": {
+          "claim": 2,
+          "source_packet": 2
+        },
+        "staging_readiness_counts": {
+          "blocked_pending_conversion_qa": 2
+        },
         "blockers": [],
         "state": "research/_automation/research-analyzer-state.json"
+      }
+    },
+    {
+      "name": "site-build",
+      "status": "ran",
+      "detail": {
+        "written": [
+          "wiki/Family Tree.md",
+          "site/assets/site.css",
+          "site/index.html",
+          "site/family-tree.html",
+          "site/site-manifest.json"
+        ]
+      }
+    },
+    {
+      "name": "system-status",
+      "status": "ran",
+      "detail": {
+        "written": [
+          "research/_indexes/system-status.json",
+          "research/System Dashboard.md"
+        ]
       }
     }
   ],
@@ -106,23 +141,26 @@
     },
     "conversion_qa": {
       "path": "research/_agent-queues/conversion-qa.json",
-      "task_count": 0,
-      "status_counts": {}
+      "task_count": 4,
+      "status_counts": {
+        "todo": 4
+      }
     },
     "evidence_extraction": {
       "path": "research/_agent-queues/evidence-extraction.json",
-      "task_count": 6,
+      "task_count": 8,
       "status_counts": {
-        "todo": 6
+        "blocked_pending_conversion_qa": 8
       }
     },
     "research_questions": {
       "path": "research/_agent-queues/research-questions.json",
-      "task_count": 3,
+      "task_count": 2,
       "status_counts": {
-        "todo": 3
+        "todo": 2
       }
     }
   },
-  "finished": "2026-05-16T06:06:41Z"
+  "finished": "2026-05-16T08:23:00Z",
+  "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

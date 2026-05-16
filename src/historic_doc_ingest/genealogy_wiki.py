@@ -10826,6 +10826,8 @@ def cloud_source_prep_heartbeat(
     research_analyzer: bool = True,
     research_analyzer_limit: int = 5,
     research_question_limit: int = 5,
+    build_site: bool = True,
+    system_status: bool = True,
     conversion_qc: bool = False,
     conversion_only: bool = False,
     page_range: str | None = None,
@@ -10855,6 +10857,8 @@ def cloud_source_prep_heartbeat(
             "research_analyzer": research_analyzer,
             "research_analyzer_limit": research_analyzer_limit,
             "research_question_limit": research_question_limit,
+            "build_site": build_site,
+            "system_status": system_status,
             "page_range": page_range or "",
             "restore_limit": restore_limit or 0,
             "pages_per_job": pages_per_job,
@@ -10928,7 +10932,7 @@ def cloud_source_prep_heartbeat(
         record_step("agent-queues", "skipped", "conversion-only run")
     else:
         try:
-            queue_paths = write_agent_queues(paths.root, stale_minutes=stale_minutes, include_conversion_qa=conversion_qc)
+            queue_paths = write_agent_queues(paths.root, stale_minutes=stale_minutes, include_conversion_qa=True)
             record_step("agent-queues", "ran", {"written": [relative_to_root(path, paths.root) for path in queue_paths]})
         except Exception as exc:
             summary["blockers"].append(f"agent-queues: {exc}")
@@ -10998,6 +11002,18 @@ def cloud_source_prep_heartbeat(
             summary["blockers"].append(f"research-analyzer: {exc}")
             record_step("research-analyzer", "failed", str(exc))
 
+    if conversion_only:
+        record_step("site-build", "skipped", "conversion-only run")
+    elif not build_site:
+        record_step("site-build", "skipped", "disabled")
+    else:
+        try:
+            site_paths = build_static_site(paths.root)
+            record_step("site-build", "ran", {"written": [relative_to_root(path, paths.root) for path in site_paths]})
+        except Exception as exc:
+            summary["blockers"].append(f"site-build: {exc}")
+            record_step("site-build", "failed", str(exc))
+
     if upload_assets:
         try:
             config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
@@ -11020,6 +11036,25 @@ def cloud_source_prep_heartbeat(
                     "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
                 }
             )
+    if not conversion_only and system_status:
+        summary["finished"] = utc_timestamp()
+        state_path = write_cloud_source_prep_heartbeat_state(paths.root, summary)
+        summary["state_path"] = relative_to_root(state_path, paths.root)
+    if conversion_only:
+        record_step("system-status", "skipped", "conversion-only run")
+    elif not system_status:
+        record_step("system-status", "skipped", "disabled")
+    else:
+        try:
+            status_paths = write_system_status_dashboard(paths.root, refresh_source_status=False)
+            record_step(
+                "system-status",
+                "ran",
+                {"written": [relative_to_root(path, paths.root) for path in status_paths]},
+            )
+        except Exception as exc:
+            summary["blockers"].append(f"system-status: {exc}")
+            record_step("system-status", "failed", str(exc))
     summary["finished"] = utc_timestamp()
     state_path = write_cloud_source_prep_heartbeat_state(paths.root, summary)
     summary["state_path"] = relative_to_root(state_path, paths.root)
@@ -12883,7 +12918,9 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--no-research-analyzer", action="store_true", help="Skip the automated research-analyzer pass.")
     cloud_source_prep_parser.add_argument("--research-analyzer-limit", type=int, default=5, help="Maximum new page-upgrade requests from the analyzer. Use -1 for no cap.")
     cloud_source_prep_parser.add_argument("--research-question-limit", type=int, default=5, help="Maximum new research questions from the analyzer. Use -1 for no cap.")
-    cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts and queues. Default is off.")
+    cloud_source_prep_parser.add_argument("--no-site-build", action="store_true", help="Skip rebuilding the final static HTML site.")
+    cloud_source_prep_parser.add_argument("--no-system-status", action="store_true", help="Skip refreshing the whole-system dashboard artifacts.")
+    cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts. The conversion-QA gate queue is refreshed by default.")
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
     cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload durable crops/assets to R2.")
@@ -13525,6 +13562,8 @@ def main(argv: list[str] | None = None) -> int:
             research_analyzer=not args.no_research_analyzer,
             research_analyzer_limit=args.research_analyzer_limit,
             research_question_limit=args.research_question_limit,
+            build_site=not args.no_site_build,
+            system_status=not args.no_system_status,
             conversion_qc=args.conversion_qc,
             conversion_only=args.conversion_only,
             page_range=args.pages,

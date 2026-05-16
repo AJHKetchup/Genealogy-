@@ -208,6 +208,8 @@ Storage deaccession is allowed only when:
 - Implemented: research-analyzer question tasks honor conversion-QA page holds before evidence extraction.
 - Implemented: evidence-extraction queue blocks on pending conversion-QA review before staged claim work.
 - Implemented: cloud heartbeat runs the research-analyzer loop and reports its research-question queue.
+- Implemented: cloud heartbeat keeps conversion-QA gate queues materialized by default.
+- Implemented: cloud heartbeat refreshes the final static site and whole-system dashboard artifacts.
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
 - Implemented: whole-system dashboard next-action guidance from queue blockers and readiness signals.
