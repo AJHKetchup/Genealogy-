@@ -11,7 +11,7 @@
       "media_type": "pdf",
       "bytes": 808297,
       "sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "status": "partially_converted",
+      "status": "converted",
       "conversion_jobs": [
         {
           "job_id": "CA35845f12-acicr-b-cr-177-001-002-p0006-0012",
@@ -63,6 +63,12 @@
           "sha256": "15a6e93bbc15c3306b64fa87ec845940ac9fe256f84817e0ac5ddc16942ae0f2"
         },
         {
+          "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
+          "sha256": "ce7320260023246cf622977173b86019438b44515ec3ba4d7163584e3fd249fc"
+        },
+        {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json",
@@ -93,6 +99,13 @@
       "status": "partially_converted",
       "conversion_jobs": [
         {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0044-0063",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 44-63",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json",
+          "status": "prepared",
+          "page_range": "44-63"
+        },
+        {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0001-0003",
           "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 1-3",
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/manifest.json",
@@ -112,9 +125,28 @@
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json",
           "status": "prepared",
           "page_range": "24-43"
+        },
+        {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0064-0083",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 64-83",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json",
+          "status": "prepared",
+          "page_range": "64-83"
         }
       ],
       "converted_sources": [
+        {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json",
+          "sha256": "7935f644d3877e9f76c555e71e76fbc09763279d4841bd5d4379589adbc2bec2"
+        },
+        {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json",
+          "sha256": "6fe9ae6e157e8fb779cbeef965b457c97bbf88321fb24ceb5e423f2d277e22a0"
+        },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -220,6 +252,13 @@
           "page_range": "4-23"
         },
         {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0064-0083",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 64-83",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json",
+          "status": "prepared",
+          "page_range": "64-83"
+        },
+        {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0001-0003",
           "title": "Cámara de Senadores de la Nación, 1936 pages 1-3",
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json",
@@ -232,6 +271,13 @@
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json",
           "status": "prepared",
           "page_range": "24-43"
+        },
+        {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0044-0063",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 44-63",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json",
+          "status": "prepared",
+          "page_range": "44-63"
         }
       ],
       "converted_sources": [
@@ -411,11 +457,25 @@
           "page_range": "1-20"
         },
         {
+          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0041-0060",
+          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 41-60",
+          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
+          "status": "prepared",
+          "page_range": "41-60"
+        },
+        {
           "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0021-0040",
           "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 21-40",
           "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json",
           "status": "prepared",
           "page_range": "21-40"
+        },
+        {
+          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0061-0080",
+          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 61-80",
+          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json",
+          "status": "prepared",
+          "page_range": "61-80"
         }
       ],
       "converted_sources": [],
@@ -463,6 +523,13 @@
       "status": "queued_for_agent_conversion",
       "conversion_jobs": [
         {
+          "job_id": "CA47b759d1-historia-del-hospital-cl-p0061-0080",
+          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 61-80",
+          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json",
+          "status": "prepared",
+          "page_range": "61-80"
+        },
+        {
           "job_id": "CA47b759d1-historia-del-hospital-cl-p0001-0020",
           "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 1-20",
           "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json",
@@ -475,6 +542,13 @@
           "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json",
           "status": "prepared",
           "page_range": "21-40"
+        },
+        {
+          "job_id": "CA47b759d1-historia-del-hospital-cl-p0041-0060",
+          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 41-60",
+          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json",
+          "status": "prepared",
+          "page_range": "41-60"
         }
       ],
       "converted_sources": [],
