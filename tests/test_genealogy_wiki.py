@@ -4,6 +4,7 @@ import pytest
 
 from historic_doc_ingest import genealogy_wiki
 from historic_doc_ingest.genealogy_wiki import (
+    build_static_site,
     build_source_prep_batch_agent_tasks,
     build_claim_index,
     build_relationship_index,
@@ -1972,6 +1973,47 @@ person_b: [[people/child]]
     tree_text = output.read_text(encoding="utf-8")
     assert 'n_people_parent["Parent"] -->|parent of| n_people_child["Child"]' in tree_text
     assert "accepted 9.0" not in tree_text
+
+
+def test_build_static_site_renders_public_wiki_pages(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    (tmp_path / "wiki" / "people").mkdir(parents=True, exist_ok=True)
+    (tmp_path / "wiki" / "people" / "dario-pulgar.md").write_text(
+        """---
+type: person
+status: draft
+---
+
+# Dario Pulgar
+
+See [[Family Tree]] and [[people/relative|a relative]].
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "wiki" / "people" / "relative.md").write_text("# Relative\n", encoding="utf-8")
+    (tmp_path / "wiki" / "_templates").mkdir(parents=True, exist_ok=True)
+    (tmp_path / "wiki" / "_templates" / "hidden.md").write_text("# Hidden Template\n", encoding="utf-8")
+    (tmp_path / "wiki" / "log.md").write_text("# Internal Log\n", encoding="utf-8")
+
+    written = build_static_site(tmp_path)
+
+    written_names = {path.relative_to(tmp_path).as_posix() for path in written}
+    assert "site/index.html" in written_names
+    assert "site/family-tree.html" in written_names
+    assert "site/people/dario-pulgar.html" in written_names
+    assert "site/people/relative.html" in written_names
+    assert "site/assets/site.css" in written_names
+    assert "site/site-manifest.json" in written_names
+    assert not (tmp_path / "site" / "_templates" / "hidden.html").exists()
+    assert not (tmp_path / "site" / "log.html").exists()
+
+    person_html = (tmp_path / "site" / "people" / "dario-pulgar.html").read_text(encoding="utf-8")
+    assert '<a href="../family-tree.html">Family Tree</a>' in person_html
+    assert '<a href="relative.html">a relative</a>' in person_html
+    assert "Generated from wiki/people/dario-pulgar.md" in person_html
+    manifest = json.loads((tmp_path / "site" / "site-manifest.json").read_text(encoding="utf-8"))
+    assert manifest["page_count"] == 4
+    assert manifest["storage_contract"].startswith("HTML, CSS, and build manifests are GitHub files")
 
 
 def test_compile_narrative_uses_only_accepted_or_probable_claims(tmp_path) -> None:

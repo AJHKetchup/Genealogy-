@@ -5,6 +5,7 @@ import base64
 import concurrent.futures
 from contextlib import contextmanager
 import hashlib
+import html as html_lib
 import json
 import os
 import re
@@ -10011,6 +10012,455 @@ def compile_narrative(root: Path, subject: str, output: Path | None = None) -> P
     return output
 
 
+SITE_EXCLUDED_WIKI_DIRS = {"_templates"}
+SITE_EXCLUDED_WIKI_FILES = {"log.md", "research-plan.md"}
+SITE_CSS = """
+:root {
+  color-scheme: light;
+  --ink: #17202a;
+  --muted: #5d6b7a;
+  --line: #d8dee5;
+  --paper: #f7f5ef;
+  --surface: #ffffff;
+  --accent: #315f72;
+  --accent-soft: #e6f0f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.58;
+}
+
+.site-shell {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.site-nav {
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  padding: 24px;
+}
+
+.site-nav h1 {
+  font-size: 1.1rem;
+  margin: 0 0 18px;
+}
+
+.site-nav a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  margin: 0 0 10px;
+}
+
+.site-main {
+  max-width: 900px;
+  width: 100%;
+  padding: 42px 48px 72px;
+}
+
+.source-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 28px;
+}
+
+a {
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0 0 16px;
+}
+
+h2 {
+  border-top: 1px solid var(--line);
+  margin-top: 34px;
+  padding-top: 22px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 18px 0;
+  background: var(--surface);
+}
+
+th,
+td {
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+pre {
+  background: #1e252b;
+  color: #f3f5f7;
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.mermaid {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+@media (max-width: 760px) {
+  .site-shell {
+    display: block;
+  }
+
+  .site-nav {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .site-main {
+    padding: 28px 20px 52px;
+  }
+}
+""".strip()
+
+
+def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    site_dir = output_dir or (paths.root / "site")
+    if not site_dir.is_absolute():
+        site_dir = paths.root / site_dir
+    site_dir.mkdir(parents=True, exist_ok=True)
+    assets_dir = site_dir / "assets"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+
+    pages = collect_site_pages(paths.root)
+    nav = build_site_nav(pages)
+    written: list[Path] = []
+    css_path = assets_dir / "site.css"
+    css_path.write_text(SITE_CSS + "\n", encoding="utf-8")
+    written.append(css_path)
+
+    page_records = []
+    for page in pages:
+        markdown_path = page["source"]
+        output_path = site_dir / str(page["output"])
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        text = markdown_path.read_text(encoding="utf-8")
+        title = str(page["title"])
+        body = site_markdown_to_html(text, str(page["output"]))
+        html_text = build_site_html_document(
+            title=title,
+            body=body,
+            nav=nav,
+            output_rel=str(page["output"]),
+            source_rel=relative_to_root(markdown_path, paths.root),
+        )
+        output_path.write_text(html_text, encoding="utf-8")
+        written.append(output_path)
+        page_records.append(
+            {
+                "title": title,
+                "source": relative_to_root(markdown_path, paths.root),
+                "output": relative_to_root(output_path, paths.root),
+            }
+        )
+
+    manifest = {
+        "created": utc_timestamp(),
+        "purpose": "Static HTML build manifest for the user-facing genealogy site.",
+        "site_root": relative_to_root(site_dir, paths.root),
+        "source_root": "wiki",
+        "page_count": len(page_records),
+        "asset_count": 1,
+        "storage_contract": "HTML, CSS, and build manifests are GitHub files; raw originals and durable binary assets remain in R2.",
+        "pages": page_records,
+    }
+    manifest_path = site_dir / "site-manifest.json"
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    written.append(manifest_path)
+    append_log(paths.research / "log.md", f"site-build | Wrote {relative_to_root(manifest_path, paths.root)}")
+    return written
+
+
+def collect_site_pages(root: Path) -> list[dict[str, object]]:
+    wiki = root / "wiki"
+    pages = []
+    if not wiki.exists():
+        return pages
+    for markdown_path in sorted(wiki.rglob("*.md")):
+        rel = markdown_path.relative_to(wiki)
+        if any(part in SITE_EXCLUDED_WIKI_DIRS for part in rel.parts):
+            continue
+        if markdown_path.name in SITE_EXCLUDED_WIKI_FILES:
+            continue
+        text = read_text(markdown_path)
+        title = extract_markdown_title(text) or title_from_slug(markdown_path.stem)
+        pages.append(
+            {
+                "source": markdown_path,
+                "wiki_rel": rel.as_posix(),
+                "output": site_output_rel_for_wiki_rel(rel),
+                "title": title,
+            }
+        )
+    return sorted(pages, key=site_page_sort_key)
+
+
+def site_page_sort_key(page: dict[str, object]) -> tuple[int, str]:
+    output = str(page.get("output", ""))
+    if output == "index.html":
+        return (0, output)
+    if output == "family-tree.html":
+        return (1, output)
+    return (2, output)
+
+
+def site_output_rel_for_wiki_rel(rel: Path) -> str:
+    if rel.as_posix() == "index.md":
+        return "index.html"
+    parts = list(rel.parts)
+    parts[-1] = f"{slug(Path(parts[-1]).stem)}.html"
+    if len(parts) == 1 and parts[0] == "family-tree.html":
+        return "family-tree.html"
+    return Path(*parts).as_posix()
+
+
+def build_site_nav(pages: list[dict[str, object]]) -> list[dict[str, str]]:
+    return [{"title": str(page["title"]), "output": str(page["output"])} for page in pages]
+
+
+def build_site_html_document(
+    *,
+    title: str,
+    body: str,
+    nav: list[dict[str, str]],
+    output_rel: str,
+    source_rel: str,
+) -> str:
+    css_href = site_relative_url(output_rel, "assets/site.css")
+    nav_items = "\n".join(
+        f'<li><a href="{html_lib.escape(site_relative_url(output_rel, item["output"]), quote=True)}">'
+        f'{html_lib.escape(item["title"])}</a></li>'
+        for item in nav
+    )
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html_lib.escape(title)} | Family History</title>
+  <link rel="stylesheet" href="{html_lib.escape(css_href, quote=True)}">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="site-nav" aria-label="Site navigation">
+      <h1>Family History</h1>
+      <ul>
+{nav_items}
+      </ul>
+    </nav>
+    <main class="site-main">
+      <div class="source-note">Generated from {html_lib.escape(source_rel)}</div>
+{body}
+    </main>
+  </div>
+</body>
+</html>
+"""
+
+
+def site_markdown_to_html(text: str, output_rel: str) -> str:
+    text = strip_frontmatter(text)
+    lines = text.splitlines()
+    html_lines: list[str] = []
+    paragraph: list[str] = []
+    in_list = False
+    index = 0
+
+    def flush_paragraph() -> None:
+        nonlocal paragraph
+        if paragraph:
+            html_lines.append(f"<p>{site_render_inline(' '.join(line.strip() for line in paragraph), output_rel)}</p>")
+            paragraph = []
+
+    def close_list() -> None:
+        nonlocal in_list
+        if in_list:
+            html_lines.append("</ul>")
+            in_list = False
+
+    while index < len(lines):
+        line = lines[index]
+        stripped = line.strip()
+        if not stripped:
+            flush_paragraph()
+            close_list()
+            index += 1
+            continue
+        if stripped.startswith("```"):
+            flush_paragraph()
+            close_list()
+            language = stripped.strip("`").strip()
+            code_lines = []
+            index += 1
+            while index < len(lines) and not lines[index].strip().startswith("```"):
+                code_lines.append(lines[index])
+                index += 1
+            index += 1
+            class_attr = ' class="mermaid"' if language == "mermaid" else ""
+            html_lines.append(f"<pre{class_attr}><code>{html_lib.escape(chr(10).join(code_lines))}</code></pre>")
+            continue
+        if is_markdown_table_start(lines, index):
+            flush_paragraph()
+            close_list()
+            table_lines = []
+            while index < len(lines) and lines[index].strip().startswith("|"):
+                table_lines.append(lines[index])
+                index += 1
+            html_lines.append(site_table_to_html(table_lines, output_rel))
+            continue
+        heading = re.match(r"^(#{1,6})\s+(.+)$", stripped)
+        if heading:
+            flush_paragraph()
+            close_list()
+            level = len(heading.group(1))
+            heading_text = heading.group(2).strip()
+            html_lines.append(
+                f'<h{level} id="{html_lib.escape(slug(heading_text), quote=True)}">'
+                f"{site_render_inline(heading_text, output_rel)}</h{level}>"
+            )
+            index += 1
+            continue
+        list_item = re.match(r"^-\s+(.+)$", stripped)
+        if list_item:
+            flush_paragraph()
+            if not in_list:
+                html_lines.append("<ul>")
+                in_list = True
+            html_lines.append(f"<li>{site_render_inline(list_item.group(1), output_rel)}</li>")
+            index += 1
+            continue
+        paragraph.append(line)
+        index += 1
+
+    flush_paragraph()
+    close_list()
+    return "\n".join(f"      {line}" for line in html_lines)
+
+
+def strip_frontmatter(text: str) -> str:
+    if not text.startswith("---"):
+        return text
+    match = re.match(r"---\s*\n.*?\n---\s*\n?", text, flags=re.DOTALL)
+    return text[match.end() :] if match else text
+
+
+def site_render_inline(text: str, output_rel: str) -> str:
+    escaped = html_lib.escape(text)
+
+    def replace_wikilink(match: re.Match[str]) -> str:
+        target, label = split_site_wikilink(match.group(1))
+        href = site_href_for_wikilink(output_rel, target)
+        return f'<a href="{html_lib.escape(href, quote=True)}">{html_lib.escape(label)}</a>'
+
+    escaped = re.sub(r"\[\[([^\]]+)\]\]", replace_wikilink, escaped)
+    escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
+    escaped = re.sub(
+        r"\[([^\]]+)\]\(([^)]+)\)",
+        lambda match: f'<a href="{html_lib.escape(match.group(2), quote=True)}">{match.group(1)}</a>',
+        escaped,
+    )
+    return escaped
+
+
+def split_site_wikilink(value: str) -> tuple[str, str]:
+    target, _, label = value.partition("|")
+    label = label or title_from_slug(target.split("/")[-1])
+    return target.strip(), label.strip()
+
+
+def site_href_for_wikilink(output_rel: str, target: str) -> str:
+    target, _, anchor = target.partition("#")
+    if not target:
+        href = output_rel
+    else:
+        target_rel = site_output_rel_for_target(target)
+        href = site_relative_url(output_rel, target_rel)
+    if anchor:
+        href = f"{href}#{slug(anchor)}"
+    return href
+
+
+def site_output_rel_for_target(target: str) -> str:
+    target = target.strip().strip("/")
+    if target.endswith(".md"):
+        target = target[:-3]
+    if target.lower() == "index":
+        return "index.html"
+    parts = [slug(part) for part in target.replace("\\", "/").split("/") if part.strip()]
+    if not parts:
+        return "index.html"
+    if len(parts) == 1 and parts[0] == "family-tree":
+        return "family-tree.html"
+    parts[-1] = f"{parts[-1]}.html"
+    return Path(*parts).as_posix()
+
+
+def site_relative_url(from_output_rel: str, to_output_rel: str) -> str:
+    start_dir = Path(from_output_rel).parent
+    rel = Path(os.path.relpath(to_output_rel, start_dir.as_posix() or ".")).as_posix()
+    return rel if rel != "." else Path(to_output_rel).name
+
+
+def is_markdown_table_start(lines: list[str], index: int) -> bool:
+    if index + 1 >= len(lines):
+        return False
+    current = lines[index].strip()
+    separator = lines[index + 1].strip()
+    return current.startswith("|") and separator.startswith("|") and bool(re.fullmatch(r"[\s|:-]+", separator))
+
+
+def site_table_to_html(table_lines: list[str], output_rel: str) -> str:
+    if len(table_lines) < 2:
+        return ""
+    header = split_markdown_table_row(table_lines[0])
+    body_rows = [split_markdown_table_row(line) for line in table_lines[2:]]
+    header_html = "".join(f"<th>{site_render_inline(cell, output_rel)}</th>" for cell in header)
+    body_html = "\n".join(
+        "<tr>" + "".join(f"<td>{site_render_inline(cell, output_rel)}</td>" for cell in row) + "</tr>"
+        for row in body_rows
+    )
+    return f"<table><thead><tr>{header_html}</tr></thead><tbody>{body_html}</tbody></table>"
+
+
+def split_markdown_table_row(line: str) -> list[str]:
+    return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+
 def lint_claim_page(rel: str, frontmatter: dict[str, str], text: str) -> list[str]:
     issues: list[str] = []
     for field in ["status", "confidence", "source"]:
@@ -11006,6 +11456,14 @@ def build_parser() -> argparse.ArgumentParser:
     tree_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     tree_parser.add_argument("--out", type=Path, help="Output Markdown path. Default: wiki/Family Tree.md.")
 
+    site_parser = subparsers.add_parser(
+        "site-build",
+        aliases=["build-site"],
+        help="Build the final user-facing static HTML genealogy site from wiki pages.",
+    )
+    site_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    site_parser.add_argument("--out-dir", type=Path, help="Output site directory. Default: site/.")
+
     narrative_parser = subparsers.add_parser("narrative", help="Compile a narrative from accepted/probable claim pages.")
     narrative_parser.add_argument("subject", help="Person, family, branch, or entity label to compile.")
     narrative_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
@@ -11530,6 +11988,12 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "tree":
         output = generate_tree(args.root, args.out)
         print(f"Wrote tree view {output}")
+        return 0
+
+    if args.command in {"site-build", "build-site"}:
+        written = build_static_site(args.root, args.out_dir)
+        print(f"Wrote static genealogy site files: {len(written)}")
+        print(f"manifest: {(args.out_dir or Path('site')) / 'site-manifest.json'}")
         return 0
 
     if args.command == "narrative":

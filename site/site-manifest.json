@@ -1,0 +1,16 @@
+{
+  "created": "2026-05-16T05:08:16Z",
+  "purpose": "Static HTML build manifest for the user-facing genealogy site.",
+  "site_root": "site",
+  "source_root": "wiki",
+  "page_count": 1,
+  "asset_count": 1,
+  "storage_contract": "HTML, CSS, and build manifests are GitHub files; raw originals and durable binary assets remain in R2.",
+  "pages": [
+    {
+      "title": "Genealogy Wiki Index",
+      "source": "wiki/index.md",
+      "output": "site/index.html"
+    }
+  ]
+}

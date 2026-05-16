@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T04:55:04Z",
+  "created": "2026-05-16T05:08:23Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -64,9 +64,11 @@
     "contract": "R2 stores raw originals and durable binary assets; GitHub stores JSON, Markdown, manifests, queues, chunks, staging/proof data, and final HTML/build files."
   },
   "final_site": {
-    "status": "not_started",
-    "candidate_roots": [],
-    "html_file_count": 0
+    "status": "structure_present",
+    "candidate_roots": [
+      "site"
+    ],
+    "html_file_count": 1
   },
   "storage_lifecycle": {
     "status": "not_started",
