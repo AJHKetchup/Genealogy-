@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T10:56:50Z",
+  "created": "2026-05-16T11:07:46Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -75,7 +75,7 @@
       "name": "research-analyzer",
       "status": "ran",
       "detail": {
-        "version": 5,
+        "version": 6,
         "created": "2026-05-16",
         "mode": "research-analyzer",
         "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
@@ -223,6 +223,6 @@
       }
     }
   },
-  "finished": "2026-05-16T10:56:51Z",
+  "finished": "2026-05-16T11:07:47Z",
   "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

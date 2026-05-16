@@ -1,12 +1,13 @@
 # External Research Requests
 
-Generated: 2026-05-16T10:56:50Z
+Generated: 2026-05-16T11:07:46Z
 
 These are analyzer-generated source-discovery handoffs for repeated unresolved leads. They do not promote claims or edit canonical wiki pages.
 
 ## Summary
 
 - Requests: 3
+- Request notes: 3
 - Page references: 6
 - Sources: 1
 - Statuses: blocked_pending_conversion_qa: 3
@@ -19,8 +20,8 @@ External raw-source finds belong in the R2 raw-source inbox. GitHub stores only 
 
 ## Requests
 
-| Lead | Status | Review | Page Refs | Sources | Search Terms |
-| --- | --- | --- | ---: | ---: | --- |
-| M. Des Gouttes | blocked_pending_conversion_qa | repeated_unresolved_lead | 2 | 1 | M. Des Gouttes, Des Gouttes |
-| M. Dinichert | blocked_pending_conversion_qa | repeated_unresolved_lead | 2 | 1 | M. Dinichert, Dinichert |
-| M. Werner | blocked_pending_conversion_qa | repeated_unresolved_lead | 2 | 1 | M. Werner, Werner |
+| Lead | Status | Review | Page Refs | Sources | Result Note | Search Terms |
+| --- | --- | --- | ---: | ---: | --- | --- |
+| M. Des Gouttes | blocked_pending_conversion_qa | repeated_unresolved_lead | 2 | 1 | research/_staging/external-research/m-des-gouttes.md | M. Des Gouttes, Des Gouttes |
+| M. Dinichert | blocked_pending_conversion_qa | repeated_unresolved_lead | 2 | 1 | research/_staging/external-research/m-dinichert.md | M. Dinichert, Dinichert |
+| M. Werner | blocked_pending_conversion_qa | repeated_unresolved_lead | 2 | 1 | research/_staging/external-research/m-werner.md | M. Werner, Werner |

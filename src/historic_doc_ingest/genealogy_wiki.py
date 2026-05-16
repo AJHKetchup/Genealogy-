@@ -5189,7 +5189,7 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
-RESEARCH_ANALYZER_VERSION = 5
+RESEARCH_ANALYZER_VERSION = 6
 RESEARCH_ANALYZER_UPGRADE_SCORE = 50
 RESEARCH_ANALYZER_SIGNAL_SCORE = 20
 RESEARCH_ANALYZER_QUESTION_SCORE = 20
@@ -5829,6 +5829,19 @@ def external_research_queue_path(root: Path) -> Path:
     return root.resolve() / "research" / "_agent-queues" / "external-research.json"
 
 
+def external_research_staging_dir(root: Path) -> Path:
+    return root.resolve() / "research" / "_staging" / "external-research"
+
+
+def external_research_request_note_path(root: Path, request: dict[str, object]) -> Path:
+    request_id = str(request.get("request_id", "")).strip()
+    note_key = request_id.split(":", 1)[-1] if ":" in request_id else request_id
+    note_key = note_key or str(request.get("lead_key", "")).strip() or slug(str(request.get("lead", "")))
+    if not note_key:
+        note_key = hashlib.sha256(str(request.get("lead", "")).encode("utf-8")).hexdigest()[:12]
+    return external_research_staging_dir(root) / f"{slug(note_key)}.md"
+
+
 def write_research_analyzer_state(root: Path, summary: dict[str, object]) -> Path:
     path = research_analyzer_state_path(root)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -6320,6 +6333,9 @@ def build_external_research_requests_payload(root: Path, leads_payload: dict[str
         },
         "summary": {
             "request_count": len(requests),
+            "request_note_count": len(
+                [request for request in requests if str(request.get("request_note", "")).strip()]
+            ),
             "page_reference_count": sum(safe_int(request.get("page_reference_count"), 0) for request in requests),
             "source_count": len(
                 {
@@ -6357,6 +6373,7 @@ def build_external_research_request(
     task_state: dict[str, dict[str, object]],
     qc_blocked_by_source: dict[str, dict[int, dict[str, object]]],
 ) -> dict[str, object]:
+    request_id = external_research_request_id(lead)
     pages = lead.get("pages", [])
     if not isinstance(pages, list):
         pages = []
@@ -6396,12 +6413,23 @@ def build_external_research_request(
         else "todo"
     )
     request = {
-        "request_id": external_research_request_id(lead),
+        "request_id": request_id,
         "lead": str(lead.get("lead", "")),
         "lead_key": str(lead.get("lead_key", "")),
         "lead_classification": str(lead.get("lead_classification", "")),
         "review_status": str(lead.get("review_status", "")),
         "status": status,
+        "request_note": relative_to_root(
+            external_research_request_note_path(
+                root,
+                {
+                    "request_id": request_id,
+                    "lead_key": str(lead.get("lead_key", "")),
+                    "lead": str(lead.get("lead", "")),
+                },
+            ),
+            root,
+        ),
         "page_reference_count": safe_int(lead.get("page_reference_count"), 0),
         "source_count": safe_int(lead.get("source_count"), 0),
         "sources": sources,
@@ -6529,6 +6557,7 @@ Do not search or derive claims from this lead until the conversion QA task is co
 """.rstrip()
     search_terms = request.get("search_terms", [])
     search_term_text = ", ".join(f"`{term}`" for term in search_terms if str(term).strip()) if isinstance(search_terms, list) else "`none`"
+    request_note = str(request.get("request_note", "")).strip() or "research/_staging/external-research/"
     return f"""# External Research Request
 
 Use this only for source discovery. Do not edit canonical wiki pages.
@@ -6539,7 +6568,8 @@ Use this only for source discovery. Do not edit canonical wiki pages.
 - Classification: `{request.get("lead_classification", "")}`
 - Review status: `{request.get("review_status", "")}`
 - Page references: {safe_int(request.get("page_reference_count"), 0)}
-- Search terms: {search_term_text}{gate_section}
+- Search terms: {search_term_text}
+- Result note: `{request_note}`{gate_section}
 
 ## Source Pages
 
@@ -6552,8 +6582,94 @@ Raw source images, PDFs, audio, video, or other binaries found externally belong
 ## Done When
 
 - You decide whether the lead deserves external archive, database, or web follow-up.
-- Candidate source descriptors and acquisition notes are recorded outside canonical wiki pages.
+- Candidate source descriptors and acquisition notes are recorded in `{request_note}`.
 - Any new raw source binaries are routed to R2 intake rather than committed to GitHub.
+"""
+
+
+def write_external_research_request_note(root: Path, request: dict[str, object]) -> tuple[Path, bool]:
+    path = external_research_request_note_path(root, request)
+    if path.exists():
+        return path, False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(build_external_research_request_note_markdown(request), encoding="utf-8")
+    return path, True
+
+
+def build_external_research_request_note_markdown(request: dict[str, object]) -> str:
+    search_terms = request.get("search_terms", [])
+    search_term_text = ", ".join(f"`{term}`" for term in search_terms if str(term).strip()) if isinstance(search_terms, list) else "none"
+    converted_files = request.get("converted_files", [])
+    converted_text = "\n".join(
+        f"- `{converted_file}`" for converted_file in converted_files if str(converted_file).strip()
+    ) if isinstance(converted_files, list) else "- None"
+    source_pages = [
+        "| Page | Converted File | Chunks | Source |",
+        "| ---: | --- | --- | --- |",
+    ]
+    pages = request.get("pages", [])
+    if not isinstance(pages, list):
+        pages = []
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        chunks = page.get("chunks", [])
+        chunk_text = ", ".join(f"`{chunk}`" for chunk in chunks if str(chunk).strip()) if isinstance(chunks, list) else ""
+        source_pages.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(page.get("page", "")),
+                    markdown_table_cell(page.get("converted_file", "")),
+                    markdown_table_cell(chunk_text or "none"),
+                    markdown_table_cell(page.get("source", "")),
+                ]
+            )
+            + " |"
+        )
+    return f"""---
+type: external_research_result
+status: todo
+request_id: {request.get("request_id", "")}
+lead: {request.get("lead", "")}
+storage_policy: r2_raw_source_inbox_for_binaries
+---
+
+# External Research: {request.get("lead", "")}
+
+This staging note is for source discovery only. Do not promote claims or edit canonical wiki pages from this note.
+
+## Request
+
+- Lead: `{request.get("lead", "")}`
+- Review status: `{request.get("review_status", "")}`
+- Classification: `{request.get("lead_classification", "")}`
+- Search terms: {search_term_text}
+- Queue status: `{request.get("status", "")}`
+
+## Conversion QA Gate
+
+If this request is blocked, wait for the cited conversion-QA task(s) to complete and regenerate queues before relying on these readings.
+
+## Source Pages
+
+{chr(10).join(source_pages)}
+
+## Converted Inputs
+
+{converted_text or "- None"}
+
+## Candidate Source Descriptors
+
+- None yet.
+
+## Acquisition Notes
+
+- None yet.
+
+## R2 Raw-Source Intake
+
+Do not attach raw source images, PDFs, audio, video, or other binaries to this GitHub note. Put any new raw-source originals in the R2 raw-source inbox and let source-intake monitoring register them.
 """
 
 
@@ -6571,6 +6687,15 @@ def write_external_research_requests(
     markdown_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     markdown_path.write_text(build_external_research_requests_markdown(payload), encoding="utf-8")
+    written_notes = []
+    requests = payload.get("requests", [])
+    if isinstance(requests, list):
+        for request in requests:
+            if not isinstance(request, dict):
+                continue
+            note_path, created = write_external_research_request_note(paths.root, request)
+            if created:
+                written_notes.append(note_path)
     tasks = build_external_research_request_tasks(payload)
     queue_path = write_agent_queue(
         paths.root,
@@ -6586,6 +6711,11 @@ def write_external_research_requests(
     append_index_reference(paths.research / "index.md", "Agent Work", "[[external-research-requests]]")
     append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
     append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(queue_path, paths.root)}")
+    if written_notes:
+        append_log(
+            paths.research / "log.md",
+            f"research-analyzer | Seeded {len(written_notes)} external research result note(s)",
+        )
     return json_path, markdown_path, queue_path, tasks
 
 
@@ -6597,8 +6727,8 @@ def build_external_research_requests_markdown(payload: dict[str, object]) -> str
     if not isinstance(requests, list):
         requests = []
     rows = [
-        "| Lead | Status | Review | Page Refs | Sources | Search Terms |",
-        "| --- | --- | --- | ---: | ---: | --- |",
+        "| Lead | Status | Review | Page Refs | Sources | Result Note | Search Terms |",
+        "| --- | --- | --- | ---: | ---: | --- | --- |",
     ]
     for request in requests:
         if not isinstance(request, dict):
@@ -6614,6 +6744,7 @@ def build_external_research_requests_markdown(payload: dict[str, object]) -> str
                     markdown_table_cell(request.get("review_status", "")),
                     markdown_table_cell(request.get("page_reference_count", "")),
                     markdown_table_cell(request.get("source_count", "")),
+                    markdown_table_cell(request.get("request_note", "")),
                     markdown_table_cell(search_text or "none"),
                 ]
             )
@@ -6628,6 +6759,7 @@ These are analyzer-generated source-discovery handoffs for repeated unresolved l
 ## Summary
 
 - Requests: {dict_value(summary, "request_count")}
+- Request notes: {dict_value(summary, "request_note_count")}
 - Page references: {dict_value(summary, "page_reference_count")}
 - Sources: {dict_value(summary, "source_count")}
 - Statuses: {format_status_counts(dict_value(summary, "status_counts", {}))}
@@ -11818,6 +11950,7 @@ def build_system_research_readiness_summary(
         ),
         "analyzer_external_research_statuses": research_analyzer.get("external_research_status_counts", {}),
         "external_research_requests": research_analyzer.get("external_research_requests", ""),
+        "external_research_request_notes": count_markdown_files(external_research_staging_dir(root)),
         "staging_counts": {
             "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
             "claims": count_markdown_files(root / "research" / "_staging" / "claims"),
@@ -12069,6 +12202,7 @@ Generated: {payload.get("created", "")}
 - Analyzer lead review statuses: {format_status_counts(dict_value(research_readiness, "analyzer_research_lead_review_statuses", {}))}
 - Analyzer external research requests: {dict_value(research_readiness, "analyzer_external_research_requests")}
 - Analyzer external research statuses: {format_status_counts(dict_value(research_readiness, "analyzer_external_research_statuses", {}))}
+- External research request notes: {dict_value(research_readiness, "external_research_request_notes")}
 - Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
 
 ## Page Upgrades

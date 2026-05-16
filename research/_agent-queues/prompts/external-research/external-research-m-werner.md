@@ -9,6 +9,7 @@ Use this only for source discovery. Do not edit canonical wiki pages.
 - Review status: `repeated_unresolved_lead`
 - Page references: 2
 - Search terms: `M. Werner`, `Werner`
+- Result note: `research/_staging/external-research/m-werner.md`
 
 ## Conversion QA Gate
 
@@ -34,5 +35,5 @@ Raw source images, PDFs, audio, video, or other binaries found externally belong
 ## Done When
 
 - You decide whether the lead deserves external archive, database, or web follow-up.
-- Candidate source descriptors and acquisition notes are recorded outside canonical wiki pages.
+- Candidate source descriptors and acquisition notes are recorded in `research/_staging/external-research/m-werner.md`.
 - Any new raw source binaries are routed to R2 intake rather than committed to GitHub.

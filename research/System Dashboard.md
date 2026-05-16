@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T10:56:50Z
+Generated: 2026-05-16T11:07:47Z
 
 ## Source Conversion
 
@@ -39,6 +39,7 @@ Generated: 2026-05-16T10:56:50Z
 - Analyzer lead review statuses: low_signal: 1, repeated_unresolved_lead: 3, unresolved_lead: 11
 - Analyzer external research requests: 3
 - Analyzer external research statuses: blocked_pending_conversion_qa: 3
+- External research request notes: 3
 - Staging drafts: claims: 0, identity: 0, relationships: 0, source_packets: 0
 
 ## Page Upgrades

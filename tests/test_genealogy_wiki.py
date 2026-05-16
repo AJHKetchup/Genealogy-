@@ -1624,25 +1624,37 @@ M. Werner appears again in a related notice.
         (tmp_path / "research" / "_indexes" / "external-research-requests.json").read_text(encoding="utf-8")
     )
     assert requests["summary"]["request_count"] == 1
+    assert requests["summary"]["request_note_count"] == 1
     assert requests["summary"]["status_counts"] == {"blocked_pending_conversion_qa": 1}
     request = requests["requests"][0]
     assert request["lead"] == "M. Werner"
     assert request["review_status"] == "repeated_unresolved_lead"
     assert request["page_reference_count"] == 2
+    assert request["request_note"] == "research/_staging/external-research/m-werner.md"
     assert request["search_terms"] == ["M. Werner", "Werner"]
     assert request["r2_intake_next_step"].startswith("If a search locates raw source")
     request_text = (tmp_path / "research" / "external-research-requests.md").read_text(encoding="utf-8")
     assert "External Research Requests" in request_text
+    assert "Request notes: 1" in request_text
     assert "M. Werner" in request_text
     assert "R2 raw-source inbox" in request_text
+    note_path = tmp_path / "research" / "_staging" / "external-research" / "m-werner.md"
+    assert note_path.exists()
+    note_text = note_path.read_text(encoding="utf-8")
+    assert "Candidate Source Descriptors" in note_text
+    assert "M. Werner" in note_text
+    assert "R2 raw-source inbox" in note_text
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "external-research.json").read_text())
     assert queue["task_count"] == 1
     assert queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
     assert queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
     assert queue["tasks"][0]["lead"] == "M. Werner"
+    assert queue["tasks"][0]["request_note"] == "research/_staging/external-research/m-werner.md"
     prompt_text = (tmp_path / queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
     assert "Conversion QA Gate" in prompt_text
     assert "R2 raw-source inbox" in prompt_text
+    assert "research/_staging/external-research/m-werner.md" in prompt_text
+    note_path.write_text(note_text + "\n## Manual Search Notes\n\n- Preserve me.\n", encoding="utf-8")
 
     update_agent_task_state(
         tmp_path,
@@ -1654,6 +1666,7 @@ M. Werner appears again in a related notice.
     assert after_qa["external_research_status_counts"] == {"todo": 1}
     queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "external-research.json").read_text())
     assert queue_after_qa["tasks"][0]["status"] == "todo"
+    assert "Preserve me." in note_path.read_text(encoding="utf-8")
 
 
 def test_conversion_qa_prompt_includes_research_analyzer_context(tmp_path) -> None:
@@ -2236,6 +2249,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "Analyzer lead review statuses" in dashboard_text
     assert "Analyzer external research requests" in dashboard_text
     assert "Analyzer external research statuses" in dashboard_text
+    assert "External research request notes" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Queue Blockers" in dashboard_text
     assert "## Storage" in dashboard_text
