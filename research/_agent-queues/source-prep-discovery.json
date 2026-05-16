@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "created": "2026-05-16T02:45:11Z",
+  "updated": "2026-05-16T02:46:48Z",
+  "purpose": "Rough non-evidence Docling discovery outputs used for source triage and Gemini routing.",
+  "entries": {
+    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001|35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35": {
+      "status": "rough_unusable",
+      "updated": "2026-05-16T02:45:49Z",
+      "agent": "source-prep-docling-discovery",
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
+      "page": 1,
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-0001.md",
+      "evidence_output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.md",
+      "method": "docling",
+      "evidence_grade": false,
+      "text_chars": 2412,
+      "alpha_chars": 1645,
+      "word_count": 449,
+      "odd_char_ratio": 0.007422068283028204,
+      "readability_flags": [
+        "encoding_mojibake"
+      ]
+    },
+    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002|35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35": {
+      "status": "rough_unusable",
+      "updated": "2026-05-16T02:46:10Z",
+      "agent": "source-prep-docling-discovery",
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
+      "page": 2,
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-0002.md",
+      "evidence_output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.md",
+      "method": "docling",
+      "evidence_grade": false,
+      "text_chars": 4789,
+      "alpha_chars": 1241,
+      "word_count": 436,
+      "odd_char_ratio": 0.008940852819807428,
+      "readability_flags": [
+        "encoding_mojibake"
+      ]
+    },
+    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002|35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35": {
+      "status": "rough_unusable",
+      "updated": "2026-05-16T02:46:30Z",
+      "agent": "source-prep-docling-discovery",
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json",
+      "page": 2,
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-0002.md",
+      "evidence_output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md",
+      "method": "docling",
+      "evidence_grade": false,
+      "text_chars": 4789,
+      "alpha_chars": 1241,
+      "word_count": 436,
+      "odd_char_ratio": 0.008940852819807428,
+      "readability_flags": [
+        "encoding_mojibake"
+      ]
+    },
+    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005|35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35": {
+      "status": "rough_unusable",
+      "updated": "2026-05-16T02:46:48Z",
+      "agent": "source-prep-docling-discovery",
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "job_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json",
+      "page": 5,
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-0005.md",
+      "evidence_output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0005.md",
+      "method": "docling",
+      "evidence_grade": false,
+      "text_chars": 3727,
+      "alpha_chars": 1064,
+      "word_count": 338,
+      "odd_char_ratio": 0.0026231419411250363,
+      "readability_flags": [
+        "encoding_mojibake"
+      ]
+    }
+  }
+}

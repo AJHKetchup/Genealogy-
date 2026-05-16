@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T00:39:04Z",
+  "created": "2026-05-16T02:46:50Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
   "limit": 1,
@@ -12,13 +12,14 @@
   "completed": 1,
   "released": 0,
   "skipped": 0,
+  "discovery_skipped": 0,
   "route_counts": {
     "pro": 1
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1:p0001",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1:p0001",
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001",
+      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
@@ -29,28 +30,28 @@
           "pdf_profile_complex"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-images/page-0001.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-markdown/page-0001.md",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-images/page-0001.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.md",
       "usage": {
-        "promptTokenCount": 1340,
-        "candidatesTokenCount": 1383,
-        "totalTokenCount": 4564,
+        "promptTokenCount": 1348,
+        "candidatesTokenCount": 1663,
+        "totalTokenCount": 4786,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1082
+            "tokenCount": 1090
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1841,
+        "thoughtsTokenCount": 1775,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-markdown/page-0001.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -58,16 +59,18 @@
       },
       "review": {
         "status": "done",
-        "quality_flags": [],
+        "quality_flags": [
+          "explicit_reread_needed"
+        ],
         "missing_sections": []
       },
       "status": "done"
     }
   ],
   "usage": {
-    "prompt_tokens": 1340,
-    "candidate_tokens": 1383,
-    "total_tokens": 4564
+    "prompt_tokens": 1348,
+    "candidate_tokens": 1663,
+    "total_tokens": 4786
   },
   "visual_regions": {
     "declared": 0,
@@ -75,5 +78,5 @@
     "skipped": 0,
     "manifests": 1
   },
-  "finished": "2026-05-16T00:39:32Z"
+  "finished": "2026-05-16T02:47:18Z"
 }

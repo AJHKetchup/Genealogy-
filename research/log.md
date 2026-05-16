@@ -27,3 +27,13 @@
 ## [2026-05-16] prepare-sources | Prepared 1 raw source(s)
 ## [2026-05-16] source-prep-batches | Wrote 2 batch task(s), max 1 page(s) each
 ## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json
+## [2026-05-16] prepare-sources | Prepared 1 raw source(s)
+## [2026-05-16] source-prep-batches | Wrote 4 batch task(s), max 1 page(s) each
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] source-prep-docling-discovery | inspected 4, accepted 0, unusable 4, errors=0, dry_run=False
+## [2026-05-16] source-prep-batches | Wrote 4 batch task(s), max 1 page(s) each
+## [2026-05-16] gemini-source-prep | processed 1, completed 1, released 0, routes={'pro': 1}, dry_run=False
+## [2026-05-16] prepare-sources | Prepared 1 raw source(s)
+## [2026-05-16] source-prep-batches | Wrote 3 batch task(s), max 1 page(s) each
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
