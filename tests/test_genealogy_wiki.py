@@ -1335,6 +1335,8 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert queue["task_count"] == 1
     assert queue["tasks"][0]["status"] == "todo"
     assert (tmp_path / queue["tasks"][0]["question_path"]).exists()
+    assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
+    assert "prompt" not in queue["tasks"][0]
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert f"[[questions/{Path(queue['tasks'][0]['question_path']).stem}]]" in research_index
 
@@ -1402,6 +1404,7 @@ M. Huber appears in a professional list.
     assert [page["page"] for page in index["pages"]] == [4, 5]
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text(encoding="utf-8"))
     assert [task["page"] for task in queue["tasks"]] == [4, 5]
+    assert all((tmp_path / task["prompt_path"]).exists() for task in queue["tasks"])
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:

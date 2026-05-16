@@ -200,6 +200,7 @@ Storage deaccession is allowed only when:
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
 - Implemented: automated research-analyzer chunk scan with page-level upgrade feedback.
 - Implemented: research-analyzer question queue and Markdown work items for page-level genealogy signals.
+- Implemented: research-analyzer question prompt packets that use the shared agent-queue/task-state contract.
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
 - Implemented: static HTML final-site generator structure for product wiki pages.

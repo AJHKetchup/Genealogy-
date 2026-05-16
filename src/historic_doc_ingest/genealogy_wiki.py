@@ -5100,6 +5100,7 @@ def write_agent_queue(
     name: str,
     tasks: list[dict[str, object]],
     task_state: dict[str, dict[str, object]] | None = None,
+    purpose: str = "",
 ) -> Path:
     task_state = task_state or {}
     prompts_dir = queue_dir / "prompts" / name
@@ -5122,6 +5123,8 @@ def write_agent_queue(
         "status_counts": count_task_statuses(serialized_tasks),
         "tasks": serialized_tasks,
     }
+    if purpose.strip():
+        payload["purpose"] = purpose.strip()
     queue_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     return queue_path
 
@@ -6051,15 +6054,15 @@ def write_research_question_queue(root: Path, pages: list[dict[str, object]]) ->
         )
     )
     path = research_analyzer_question_queue_path(root)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "created": utc_timestamp(),
-        "purpose": "Research-analyzer questions queued for staged evidence extraction or external research follow-up.",
-        "task_count": len(tasks),
-        "status_counts": count_task_statuses(tasks),
-        "tasks": tasks,
-    }
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    task_state = load_agent_task_state(root)
+    path = write_agent_queue(
+        root,
+        path.parent,
+        "research-questions",
+        tasks,
+        task_state,
+        purpose="Research-analyzer questions queued for staged evidence extraction or external research follow-up.",
+    )
     for task in tasks:
         question_path = root / str(task.get("question_path", ""))
         if question_path.exists():
