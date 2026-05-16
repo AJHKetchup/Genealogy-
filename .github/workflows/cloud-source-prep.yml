@@ -35,8 +35,8 @@ on:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
         default: "64"
-  schedule:
-    - cron: "*/5 * * * *"
+  # Schedule is paused while smoke-run outputs are reviewed.
+  # Re-enable after the Docling/Gemini routing and throughput settings are approved.
 
 concurrency:
   group: cloud-source-prep
