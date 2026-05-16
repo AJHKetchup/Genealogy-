@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T06:18:58Z",
+  "created": "2026-05-16T08:23:11Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -25,7 +25,7 @@
       "status": "ran",
       "detail": {
         "action": "restore",
-        "created": "2026-05-16T06:18:59.339753+00:00",
+        "created": "2026-05-16T08:23:12.057507+00:00",
         "total_files": 10,
         "restored": 0,
         "skipped": 10,
@@ -67,9 +67,9 @@
       "detail": {
         "action": "asset-upload",
         "dry_run": false,
-        "total_files": 1,
-        "total_bytes": 25850908,
-        "uploaded": 1,
+        "total_files": 0,
+        "total_bytes": 0,
+        "uploaded": 0,
         "skipped": 0,
         "planned": 0,
         "errors": [],
@@ -98,5 +98,5 @@
       }
     }
   },
-  "finished": "2026-05-16T06:19:03Z"
+  "finished": "2026-05-16T08:23:14Z"
 }
