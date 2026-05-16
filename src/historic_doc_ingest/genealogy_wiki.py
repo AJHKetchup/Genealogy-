@@ -86,7 +86,7 @@ When a new source arrives:
 1. Add it to `raw/sources/`.
 2. Run `genealogy-wiki prepare-sources --root .` to inventory sources, split large PDFs into page-range jobs, create missing Codex conversion jobs, assemble completed jobs, and chunk completed conversions.
 3. Run `genealogy-wiki agent-queues --root . --stale-minutes 360` to write source-prep and evidence-extraction queues plus per-task prompt packets, release abandoned task leases, and reuse cached page-output reviews.
-4. Research agents can run `genealogy-wiki source-relevance mark ...` when a page/source becomes newly important enough to deserve Pro or Pro+crops treatment. Converter jobs should only auto-upgrade for technical unreadability, not for genealogy importance.
+4. Research agents can run `genealogy-wiki source-relevance mark ...` when an exact page becomes newly important enough to deserve Pro or Pro+crops treatment. Converter jobs should only auto-upgrade for technical unreadability, not for genealogy importance.
 5. Run `genealogy-wiki source-status --root .` to see which raw sources are usable, still converting, or held only on specific pages.
 6. Let source-prep Codex agents and page/range subagents consume queued work orders using the project skills. Workers should use `agent-task ... --no-refresh` during a bounded batch, then refresh queues once at the end. OCR and PDF text layers are hints only, not the conversion authority.
 7. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and research relevance feedback.
@@ -100,7 +100,7 @@ When a new source arrives:
 
 After conversion, use this order:
 
-`raw/converted/` + `raw/chunks/` -> research agents -> `source-relevance mark` feedback for important pages -> upgraded conversion when needed -> `research/_staging/` source packets -> staged claims -> proof review -> research proof layer plus wiki product updates.
+`raw/converted/` + `raw/chunks/` -> research agents -> page-scoped `source-relevance mark` feedback for important pages -> upgraded conversion when needed -> `research/_staging/` source packets -> staged claims -> proof review -> research proof layer plus wiki product updates.
 
 Staged outputs must include source path, chunk or page reference, literal support, uncertainty notes, proposed claim status, and a promotion recommendation. Canonical pages should cite reviewed staged evidence, not raw chunks directly. Parallel subagents are optional and must be explicitly requested by the user.
 
@@ -5025,6 +5025,8 @@ SOURCE_PREP_MAX_PAGES_PER_WORKER = 1
 SOURCE_RELEVANCE_VALUES = ("low", "medium", "high", "critical")
 SOURCE_RELEVANCE_PRIORITY = {value: index for index, value in enumerate(SOURCE_RELEVANCE_VALUES)}
 SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
+SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
+SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
 
 
@@ -5094,6 +5096,65 @@ def normalize_source_relevance_treatment(value: str) -> str:
     return normalized
 
 
+def source_relevance_task_page_from_id(task_id: str) -> int:
+    match = re.search(r"(?:^|[:/_-])p(?:age[-_]?)?0*(\d+)(?:$|[:/_-])", task_id, flags=re.IGNORECASE)
+    if not match:
+        return 0
+    try:
+        return int(match.group(1))
+    except ValueError:
+        return 0
+
+
+def source_relevance_requires_page_scope(relevance: str, treatment: str) -> bool:
+    return relevance in SOURCE_RELEVANCE_PAGE_SCOPED_VALUES or treatment in SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS
+
+
+def source_relevance_page_numbers_for_target(
+    root: Path,
+    *,
+    task_id: str = "",
+    job_manifest: str = "",
+    source: str = "",
+    source_sha256: str = "",
+    converted_file: str = "",
+) -> list[int]:
+    root = root.resolve()
+    pages: set[int] = set()
+    if job_manifest.strip():
+        manifest_path = Path(job_manifest.strip())
+        if not manifest_path.is_absolute():
+            manifest_path = root / manifest_path
+        manifest = read_json_payload(manifest_path, {})
+        for page in manifest.get("pages", []) if isinstance(manifest.get("pages", []), list) else []:
+            if not isinstance(page, dict):
+                continue
+            page_number = safe_int(page.get("page"), 0)
+            if page_number > 0:
+                pages.add(page_number)
+
+    if pages:
+        return sorted(pages)
+
+    probe = {
+        "task_id": task_id.strip(),
+        "job_manifest": job_manifest.strip(),
+        "source": source.strip(),
+        "source_sha256": source_sha256.strip(),
+        "converted_file": converted_file.strip(),
+        "page": 0,
+    }
+    try:
+        for task in build_source_prep_agent_tasks(root):
+            if source_relevance_hint_matches_task(probe, task):
+                page_number = safe_int(task.get("page"), 0)
+                if page_number > 0:
+                    pages.add(page_number)
+    except Exception:
+        return []
+    return sorted(pages)
+
+
 def mark_source_relevance_feedback(
     root: Path,
     *,
@@ -5114,43 +5175,80 @@ def mark_source_relevance_feedback(
         raise ValueError("page must be zero or positive")
     if not any(str(value).strip() for value in (task_id, job_manifest, source, source_sha256, converted_file)):
         raise ValueError("source-relevance mark requires a task id, job manifest, source path, source hash, or converted file")
+    normalized_relevance = normalize_source_relevance(relevance)
+    normalized_treatment = normalize_source_relevance_treatment(treatment)
+    if page == 0:
+        page = source_relevance_task_page_from_id(task_id)
+    target_pages = [page] if page > 0 else [0]
+    if page < 1 and source_relevance_requires_page_scope(normalized_relevance, normalized_treatment):
+        target_pages = source_relevance_page_numbers_for_target(
+            root,
+            task_id=task_id,
+            job_manifest=job_manifest,
+            source=source,
+            source_sha256=source_sha256,
+            converted_file=converted_file,
+        )
+        if not target_pages:
+            raise ValueError(
+                "source-relevance mark for high/critical relevance or pro/pro_with_crops/reread treatment must become page-level orders. "
+                "Pass --page N, a page-scoped --task-id such as source-prep:job:p0001, or target a prepared job/source whose pages can be enumerated."
+            )
     now = utc_timestamp()
-    hint: dict[str, object] = {
-        "status": "active",
-        "created": now,
-        "updated": now,
-        "task_id": task_id.strip(),
-        "job_manifest": job_manifest.strip(),
-        "source": source.strip(),
-        "source_sha256": source_sha256.strip(),
-        "converted_file": converted_file.strip(),
-        "page": page,
-        "relevance": normalize_source_relevance(relevance),
-        "requested_treatment": normalize_source_relevance_treatment(treatment),
-        "reason": reason.strip(),
-        "entities": [entity.strip() for entity in entities or [] if entity.strip()],
-        "matched_terms": [term.strip() for term in terms or [] if term.strip()],
-        "agent": agent.strip(),
-    }
-    hint["id"] = source_relevance_hint_identity(hint)
 
     payload = load_source_relevance_feedback(root)
     hints = payload.setdefault("hints", [])
     if not isinstance(hints, list):
         hints = []
         payload["hints"] = hints
-    replaced = False
-    for index, existing in enumerate(hints):
-        if isinstance(existing, dict) and str(existing.get("id", "")) == str(hint["id"]):
-            hint["created"] = str(existing.get("created") or now)
-            hints[index] = hint
-            replaced = True
-            break
-    if not replaced:
-        hints.append(hint)
+    written_hints: list[dict[str, object]] = []
+    for target_page in target_pages:
+        hint: dict[str, object] = {
+            "status": "active",
+            "created": now,
+            "updated": now,
+            "task_id": task_id.strip(),
+            "job_manifest": job_manifest.strip(),
+            "source": source.strip(),
+            "source_sha256": source_sha256.strip(),
+            "converted_file": converted_file.strip(),
+            "page": target_page,
+            "relevance": normalized_relevance,
+            "requested_treatment": normalized_treatment,
+            "reason": reason.strip(),
+            "entities": [entity.strip() for entity in entities or [] if entity.strip()],
+            "matched_terms": [term.strip() for term in terms or [] if term.strip()],
+            "agent": agent.strip(),
+        }
+        hint["id"] = source_relevance_hint_identity(hint)
+        replaced = False
+        for index, existing in enumerate(hints):
+            if isinstance(existing, dict) and str(existing.get("id", "")) == str(hint["id"]):
+                hint["created"] = str(existing.get("created") or now)
+                hints[index] = hint
+                replaced = True
+                break
+        if not replaced:
+            hints.append(hint)
+        written_hints.append(hint)
     path = save_source_relevance_feedback(root, payload)
-    append_log(root.resolve() / "research" / "log.md", f"source-relevance | Marked {hint['id']} {hint['relevance']} {hint['requested_treatment']}")
-    return path, hint
+    if len(written_hints) == 1:
+        result_hint = written_hints[0]
+    else:
+        result_hint = {
+            "id": "source-relevance:expanded-pages",
+            "expanded": True,
+            "page_count": len(written_hints),
+            "pages": [hint["page"] for hint in written_hints],
+            "hint_ids": [hint["id"] for hint in written_hints],
+            "relevance": normalized_relevance,
+            "requested_treatment": normalized_treatment,
+        }
+    append_log(
+        root.resolve() / "research" / "log.md",
+        f"source-relevance | Marked {len(written_hints)} page hint(s) {normalized_relevance} {normalized_treatment}",
+    )
+    return path, result_hint
 
 
 def active_source_relevance_hints(root: Path) -> list[dict[str, object]]:
@@ -5175,8 +5273,9 @@ def source_relevance_hint_matches_task(hint: dict[str, object], task: dict[str, 
         task_page = int(task.get("page", 0) or 0)
     except (TypeError, ValueError):
         task_page = 0
-    if hint_page and task_page and hint_page != task_page:
-        return False
+    if hint_page:
+        if not task_page or task_page != hint_page:
+            return False
 
     comparisons = (
         ("task_id", "task_id"),
@@ -9119,7 +9218,15 @@ def build_parser() -> argparse.ArgumentParser:
     source_relevance_parser.add_argument("--source", default="", help="Raw/source path to target.")
     source_relevance_parser.add_argument("--source-sha256", default="", help="Source SHA-256 to target.")
     source_relevance_parser.add_argument("--converted-file", default="", help="Converted Markdown file to target.")
-    source_relevance_parser.add_argument("--page", type=int, default=0, help="Page number to target. Use 0 for all pages on the target.")
+    source_relevance_parser.add_argument(
+        "--page",
+        type=int,
+        default=0,
+        help=(
+            "Page number to target. For high/critical relevance or pro/pro_with_crops/reread treatment, "
+            "0 expands the prepared target into one hint per page."
+        ),
+    )
     source_relevance_parser.add_argument(
         "--relevance",
         choices=list(SOURCE_RELEVANCE_VALUES),

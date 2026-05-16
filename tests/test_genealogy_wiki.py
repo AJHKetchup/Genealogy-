@@ -20,6 +20,7 @@ from historic_doc_ingest.genealogy_wiki import (
     find_suspicious_name_readings,
     init_genealogy_wiki,
     lint_genealogy_wiki,
+    mark_source_relevance_feedback,
     release_stale_agent_tasks,
     write_claim_index,
     write_relationship_graph,
@@ -34,6 +35,7 @@ from historic_doc_ingest.genealogy_wiki import (
     promote_staged_drafts,
     source_prep_page_cache_path,
     source_prep_fastlane_run,
+    source_relevance_hint_matches_task,
     sync_vault_transcriptions,
     sync_github_database,
     update_agent_task_state,
@@ -792,6 +794,80 @@ def test_source_prep_batches_emit_one_page_per_worker(tmp_path) -> None:
     prompt_text = (tmp_path / batches[0]["prompt_path"]).read_text(encoding="utf-8")
     assert "not a quality shortcut" in prompt_text
     assert "agent-task claim" in prompt_text
+
+
+def test_source_relevance_expensive_document_mark_expands_to_page_hints(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 4):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    manifest_path = create_codex_conversion_job(
+        tmp_path,
+        source,
+        job_id="CJ003",
+        title="Important Archive Section",
+        page_range="1-3",
+    )
+
+    path, summary = mark_source_relevance_feedback(
+        tmp_path,
+        job_manifest=manifest_path.relative_to(tmp_path).as_posix(),
+        page=0,
+        relevance="high",
+        treatment="pro_with_crops",
+        reason="Research agent identified this section as relevant.",
+        agent="researcher",
+    )
+
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    assert summary["expanded"] is True
+    assert summary["pages"] == [1, 2, 3]
+    assert [hint["page"] for hint in payload["hints"]] == [1, 2, 3]
+    assert {hint["requested_treatment"] for hint in payload["hints"]} == {"pro_with_crops"}
+
+
+def test_source_relevance_page_hint_matches_only_that_page() -> None:
+    hint = {
+        "source": "raw/sources/archive.pdf",
+        "page": 20,
+    }
+
+    assert source_relevance_hint_matches_task(hint, {"source": "raw/sources/archive.pdf", "page": 20}) is True
+    assert source_relevance_hint_matches_task(hint, {"source": "raw/sources/archive.pdf", "page": 21}) is False
+    assert source_relevance_hint_matches_task(hint, {"source": "raw/sources/archive.pdf"}) is False
+
+
+def test_source_relevance_infers_page_from_page_scoped_task_id(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+
+    path, hint = mark_source_relevance_feedback(
+        tmp_path,
+        task_id="source-prep:archive:p0020",
+        relevance="critical",
+        treatment="pro",
+        reason="Research agent wants an evidence-grade reread.",
+    )
+
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    assert hint["page"] == 20
+    assert payload["hints"][0]["page"] == 20
+
+
+def test_source_relevance_rejects_unexpanded_expensive_source_scope(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+
+    with pytest.raises(ValueError, match="page-level orders"):
+        mark_source_relevance_feedback(
+            tmp_path,
+            source="raw/sources/not-prepared.pdf",
+            relevance="high",
+            treatment="pro",
+        )
 
 
 def test_source_prep_fastlane_completes_born_digital_pdf_pages(tmp_path) -> None:
