@@ -1585,6 +1585,7 @@ status: stub
     genealogy_wiki.write_conversion_qa_agent_queue(tmp_path)
     qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
     assert qa_queue["tasks"][0]["blocked_downstream_task_count"] >= 2
+    assert qa_queue["tasks"][0]["blocked_downstream_queues"]["research_staging_backlog"] == 1
     assert qa_queue["tasks"][0]["blocked_downstream_queues"]["research_questions"] == 1
     assert qa_queue["tasks"][0]["blocked_downstream_queues"]["research_leads"] == 1
     qa_prompt_text = (tmp_path / qa_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
@@ -2432,7 +2433,8 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert status_plan["summary"]["top_task_id"] == qa_task_id
     assert status_plan["summary"]["blocked_queue_counts"]["research_questions"] == 1
     assert status_plan["summary"]["blocked_queue_counts"]["research_leads"] == 1
-    assert status_plan["summary"]["blocked_task_count"] >= 3
+    assert status_plan["summary"]["blocked_queue_counts"]["research_staging_backlog"] == 1
+    assert status_plan["summary"]["blocked_task_count"] >= 4
     assert status_plan["top_tasks"][0]["task_id"] == qa_task_id
     assert conversion_action["top_unblock_task_id"] == qa_task_id
     assert conversion_action["top_unblock_count"] >= 3
@@ -2443,6 +2445,7 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     )
     assert plan["tasks"][0]["task_id"] == qa_task_id
     assert plan["tasks"][0]["blocked_queues"]["evidence_extraction"] >= 1
+    assert plan["tasks"][0]["blocked_queues"]["research_staging_backlog"] == 1
     assert (tmp_path / "research" / "_indexes" / "conversion-qa-unblock-plan.json").exists()
     assert (tmp_path / "research" / "conversion-qa-unblock-plan.md").exists()
     next_focus_path = tmp_path / "research" / "conversion-qa-next.md"

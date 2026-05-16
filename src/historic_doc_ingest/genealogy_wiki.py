@@ -11484,11 +11484,67 @@ def conversion_qa_downstream_unblock_impacts(root: Path, *, example_limit: int =
                 blocked_tasks = record.get("blocked_tasks", [])
                 if isinstance(blocked_tasks, list) and len(blocked_tasks) < example_limit:
                     blocked_tasks.append(summarize_blocked_conversion_qa_task(queue_name, task))
+    for item in conversion_qa_blocked_staging_backlog_items(root):
+        qa_task_id = str(item.get("conversion_qa_task_id", "")).strip()
+        if not qa_task_id:
+            continue
+        record = impacts.setdefault(
+            qa_task_id,
+            {"blocked_task_count": 0, "blocked_queues": {}, "blocked_tasks": []},
+        )
+        record["blocked_task_count"] = safe_int(record.get("blocked_task_count"), 0) + 1
+        blocked_queues = record.get("blocked_queues", {})
+        if isinstance(blocked_queues, dict):
+            blocked_queues["research_staging_backlog"] = safe_int(
+                blocked_queues.get("research_staging_backlog"),
+                0,
+            ) + 1
+        blocked_tasks = record.get("blocked_tasks", [])
+        if isinstance(blocked_tasks, list) and len(blocked_tasks) < example_limit:
+            blocked_tasks.append(summarize_blocked_staging_backlog_item(root, item))
     for record in impacts.values():
         blocked_queues = record.get("blocked_queues", {})
         if isinstance(blocked_queues, dict):
             record["blocked_queues"] = dict(sorted(blocked_queues.items()))
     return impacts
+
+
+def conversion_qa_blocked_staging_backlog_items(root: Path) -> list[dict[str, object]]:
+    payload = read_json_payload(research_staging_backlog_index_path(root), {"items": []})
+    items = payload.get("items", [])
+    if not isinstance(items, list):
+        return []
+    blocked = [
+        item
+        for item in items
+        if isinstance(item, dict)
+        and str(item.get("status", "")) == "blocked_pending_conversion_qa"
+        and str(item.get("conversion_qa_task_id", "")).strip()
+    ]
+    return sorted(
+        blocked,
+        key=lambda item: (
+            str(item.get("conversion_qa_task_id", "")),
+            -safe_int(item.get("score"), 0),
+            str(item.get("converted_file", "")),
+            safe_int(item.get("page"), 0),
+            str(item.get("backlog_id", "")),
+        ),
+    )
+
+
+def summarize_blocked_staging_backlog_item(root: Path, item: dict[str, object]) -> dict[str, object]:
+    return {
+        "queue": "research_staging_backlog",
+        "task_id": str(item.get("backlog_id", "")),
+        "status": str(item.get("status", "")),
+        "prompt_path": relative_to_root(research_staging_backlog_markdown_path(root), root),
+        "converted_file": str(item.get("converted_file", "")),
+        "page": safe_int(item.get("page"), 0),
+        "source": str(item.get("source", "")),
+        "recommendation_types": item.get("recommendation_types", []),
+        "staging_targets": item.get("staging_targets", []),
+    }
 
 
 def conversion_qa_research_opportunities(root: Path, converted_file: str) -> list[dict[str, object]]:
@@ -12093,6 +12149,39 @@ def build_conversion_qa_unblock_plan_payload(root: Path) -> dict[str, object]:
                 blocked_tasks = record.get("blocked_tasks", [])
                 if isinstance(blocked_tasks, list):
                     blocked_tasks.append(summarize_blocked_conversion_qa_task(queue_name, task))
+
+    for item in conversion_qa_blocked_staging_backlog_items(paths.root):
+        qa_task_id = str(item.get("conversion_qa_task_id", "")).strip()
+        if not qa_task_id:
+            continue
+        record = records_by_task_id.setdefault(
+            qa_task_id,
+            {
+                "task_id": qa_task_id,
+                "status": "missing_from_conversion_qa_queue",
+                "converted_file": str(item.get("converted_file", "")),
+                "source": str(item.get("source", "")),
+                "source_sha256": str(item.get("source_sha256", "")),
+                "chunk_manifest": str(item.get("chunk_manifest", "")),
+                "prompt_path": "",
+                "triage_note": str(item.get("conversion_qa_triage", "")),
+                "page_queue": str(item.get("conversion_qa_page_queue", "")),
+                "corrections": str(item.get("conversion_qa_corrections", "")),
+                "blocked_task_count": 0,
+                "blocked_queues": {},
+                "blocked_tasks": [],
+            },
+        )
+        record["blocked_task_count"] = safe_int(record.get("blocked_task_count"), 0) + 1
+        blocked_queues = record.get("blocked_queues", {})
+        if isinstance(blocked_queues, dict):
+            blocked_queues["research_staging_backlog"] = safe_int(
+                blocked_queues.get("research_staging_backlog"),
+                0,
+            ) + 1
+        blocked_tasks = record.get("blocked_tasks", [])
+        if isinstance(blocked_tasks, list):
+            blocked_tasks.append(summarize_blocked_staging_backlog_item(paths.root, item))
 
     records = list(records_by_task_id.values())
     records.sort(

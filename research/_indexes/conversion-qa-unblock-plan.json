@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T13:40:30Z",
+  "created": "2026-05-16T13:51:25Z",
   "purpose": "Conversion-QA unblock priority plan. It maps each conversion-QA task to downstream tasks held by the conversion-QA gate.",
   "path": "research/_indexes/conversion-qa-unblock-plan.json",
   "markdown": "research/conversion-qa-unblock-plan.md",
@@ -14,15 +14,16 @@
   "summary": {
     "conversion_qa_task_count": 4,
     "open_conversion_qa_task_count": 4,
-    "blocked_task_count": 27,
+    "blocked_task_count": 29,
     "blocked_queue_counts": {
       "evidence_extraction": 8,
       "external_research": 3,
       "research_leads": 14,
-      "research_questions": 2
+      "research_questions": 2,
+      "research_staging_backlog": 2
     },
     "top_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
-    "top_blocked_task_count": 22
+    "top_blocked_task_count": 24
   },
   "tasks": [
     {
@@ -36,12 +37,13 @@
       "triage_note": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "blocked_task_count": 22,
+      "blocked_task_count": 24,
       "blocked_queues": {
         "evidence_extraction": 3,
         "research_questions": 2,
         "research_leads": 14,
-        "external_research": 3
+        "external_research": 3,
+        "research_staging_backlog": 2
       },
       "blocked_tasks": [
         {
@@ -246,6 +248,40 @@
           "page": 0,
           "lead": "M. Werner",
           "request_note": "research/_staging/external-research/m-werner.md"
+        },
+        {
+          "queue": "research_staging_backlog",
+          "task_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0003",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/staging-backlog.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 3,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "recommendation_types": [
+            "claim",
+            "source_packet"
+          ],
+          "staging_targets": [
+            "research/_staging/claims",
+            "research/_staging/source-packets"
+          ]
+        },
+        {
+          "queue": "research_staging_backlog",
+          "task_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0001",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/staging-backlog.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 1,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "recommendation_types": [
+            "claim",
+            "source_packet"
+          ],
+          "staging_targets": [
+            "research/_staging/claims",
+            "research/_staging/source-packets"
+          ]
         }
       ],
       "priority_rank": 1

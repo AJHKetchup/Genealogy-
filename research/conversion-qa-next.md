@@ -1,6 +1,6 @@
 # Conversion QA Next
 
-Generated: 2026-05-16T13:40:30Z
+Generated: 2026-05-16T13:51:25Z
 
 This is the current highest-impact conversion-QA focus packet. It is an operational queue aid, not a source interpretation or canonical genealogy artifact.
 
@@ -17,8 +17,8 @@ This is the current highest-impact conversion-QA focus packet. It is an operatio
 
 ## Unblock Impact
 
-- Downstream tasks unlocked after QA completion and queue regeneration: 22
-- Blocked queues: evidence_extraction: 3, external_research: 3, research_leads: 14, research_questions: 2
+- Downstream tasks unlocked after QA completion and queue regeneration: 24
+- Blocked queues: evidence_extraction: 3, external_research: 3, research_leads: 14, research_questions: 2, research_staging_backlog: 2
 
 ## Downstream Examples
 

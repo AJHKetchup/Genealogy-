@@ -16,8 +16,8 @@ Use `$conversion-qa-triage`.
 ## Unblock Impact
 
 - Priority rank: 1
-- Downstream tasks blocked by this QA task: 22
-- Blocked queues: evidence_extraction: 3, external_research: 3, research_leads: 14, research_questions: 2
+- Downstream tasks blocked by this QA task: 24
+- Blocked queues: evidence_extraction: 3, external_research: 3, research_leads: 14, research_questions: 2, research_staging_backlog: 2
 
 Completing this QA task and regenerating queues should release the downstream work summarized below.
 

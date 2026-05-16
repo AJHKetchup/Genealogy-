@@ -94,12 +94,13 @@
           ]
         }
       ],
-      "blocked_downstream_task_count": 22,
+      "blocked_downstream_task_count": 24,
       "blocked_downstream_queues": {
         "evidence_extraction": 3,
         "external_research": 3,
         "research_leads": 14,
-        "research_questions": 2
+        "research_questions": 2,
+        "research_staging_backlog": 2
       },
       "blocked_downstream_examples": [
         {
