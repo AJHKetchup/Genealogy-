@@ -37,6 +37,7 @@ from historic_doc_ingest.genealogy_wiki import (
     write_agent_queues,
     write_source_prep_batches,
     write_post_conversion_qc,
+    write_page_upgrade_report,
     next_codex_conversion_work_order,
     prepare_raw_sources,
     promote_staged_drafts,
@@ -1295,6 +1296,47 @@ def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypa
     assert gemini_plan["tasks"][0]["route"]["tier"] == "pro_with_crops"
 
 
+def test_page_upgrade_report_lists_active_feedback_and_matching_source_prep_task(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    from PIL import Image
+
+    source = tmp_path / "raw" / "sources" / "register-page.jpg"
+    Image.new("RGB", (20, 10), "white").save(source)
+    prepare_raw_sources(tmp_path)
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    task = source_queue["tasks"][0]
+
+    mark_source_relevance_feedback(
+        tmp_path,
+        task_id=task["task_id"],
+        relevance="critical",
+        treatment="pro_with_crops",
+        reason="Signature may identify Dario Pulgar Smith.",
+        terms=["Dario Pulgar Smith"],
+        agent="research-analyzer",
+    )
+
+    written = write_page_upgrade_report(tmp_path)
+
+    assert {path.name for path in written} == {"page-upgrades.json", "page-upgrades.md"}
+    payload = json.loads((tmp_path / "research" / "_indexes" / "page-upgrades.json").read_text(encoding="utf-8"))
+    assert payload["summary"]["active_request_count"] == 1
+    assert payload["summary"]["critical_or_high_count"] == 1
+    assert payload["summary"]["pro_or_reread_count"] == 1
+    request = payload["requests"][0]
+    assert request["page"] == 1
+    assert request["relevance"] == "critical"
+    assert request["requested_treatment"] == "pro_with_crops"
+    assert request["matching_source_prep_tasks"][0]["task_id"] == task["task_id"]
+    assert request["matching_source_prep_tasks"][0]["status"] == "todo"
+    report_text = (tmp_path / "research" / "page-upgrades.md").read_text(encoding="utf-8")
+    assert "Page Upgrade Requests" in report_text
+    assert "Signature may identify Dario Pulgar Smith." in report_text
+    research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
+    assert "[[page-upgrades]]" in research_index
+
+
 def test_research_analyzer_marks_family_relevant_chunk_pages_for_upgrade(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     person_dir = tmp_path / "wiki" / "people"
@@ -1701,8 +1743,10 @@ def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
     assert analyzer_step["status"] == "ran"
     site_step = next(step for step in summary["steps"] if step["name"] == "site-build")
     status_step = next(step for step in summary["steps"] if step["name"] == "system-status")
+    page_upgrade_step = next(step for step in summary["steps"] if step["name"] == "page-upgrades")
     assert site_step["status"] == "ran"
     assert status_step["status"] == "ran"
+    assert page_upgrade_step["status"] == "ran"
     assert summary["queues"]["research_questions"]["path"] == "research/_agent-queues/research-questions.json"
     assert summary["queues"]["research_questions"]["task_count"] == 1
     assert summary["queues"]["conversion_qa"]["task_count"] == 1
@@ -1712,6 +1756,7 @@ def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
     qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
     assert qa_queue["tasks"][0]["status"] == "todo"
     assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
+    assert (tmp_path / "research" / "_indexes" / "page-upgrades.json").exists()
     assert (tmp_path / "site" / "family-tree.html").exists()
     status = json.loads((tmp_path / "research" / "_indexes" / "system-status.json").read_text(encoding="utf-8"))
     assert status["final_site"]["html_file_count"] >= 2

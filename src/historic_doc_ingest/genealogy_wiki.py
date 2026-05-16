@@ -5500,6 +5500,206 @@ def active_source_relevance_hints(root: Path) -> list[dict[str, object]]:
     ]
 
 
+def page_upgrade_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "page-upgrades.json"
+
+
+def page_upgrade_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "page-upgrades.md"
+
+
+def write_page_upgrade_report(
+    root: Path,
+    output: Path | None = None,
+    markdown_output: Path | None = None,
+) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    payload = build_page_upgrade_payload(paths.root)
+    output_path = output or page_upgrade_index_path(paths.root)
+    markdown_path = markdown_output or page_upgrade_markdown_path(paths.root)
+    if not output_path.is_absolute():
+        output_path = paths.root / output_path
+    if not markdown_path.is_absolute():
+        markdown_path = paths.root / markdown_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_page_upgrade_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[page-upgrades]]")
+    append_log(paths.research / "log.md", f"page-upgrades | Wrote {relative_to_root(output_path, paths.root)}")
+    return [output_path, markdown_path]
+
+
+def build_page_upgrade_payload(root: Path) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    feedback_path = source_relevance_feedback_path(paths.root)
+    feedback = load_source_relevance_feedback(paths.root)
+    research_analyzer = read_json_payload(research_analyzer_index_path(paths.root), {})
+    requests = [
+        page_upgrade_request_record(paths.root, hint)
+        for hint in active_source_relevance_hints(paths.root)
+    ]
+    requests.sort(key=page_upgrade_request_sort_key)
+    relevance_counts = count_records_by_key(requests, "relevance")
+    treatment_counts = count_records_by_key(requests, "requested_treatment")
+    status_counts = count_task_statuses(requests)
+    return {
+        "created": utc_timestamp(),
+        "purpose": (
+            "Page-level conversion upgrade request dashboard for research-to-conversion feedback. "
+            "These requests route exact source pages back through source preparation; they are not evidence claims."
+        ),
+        "inputs": {
+            "source_relevance_feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
+            "research_analyzer": relative_to_root(research_analyzer_index_path(paths.root), paths.root),
+        },
+        "summary": {
+            "active_request_count": len(requests),
+            "status_counts": status_counts,
+            "relevance_counts": relevance_counts,
+            "requested_treatment_counts": treatment_counts,
+            "critical_or_high_count": sum(relevance_counts.get(value, 0) for value in ("critical", "high")),
+            "pro_or_reread_count": sum(treatment_counts.get(value, 0) for value in ("pro", "pro_with_crops", "reread")),
+            "analyzer_upgrade_candidates": safe_int(research_analyzer.get("upgrade_candidates"), 0),
+            "analyzer_upgrade_requests_written": safe_int(research_analyzer.get("upgrade_requests_written"), 0),
+            "feedback_updated": str(feedback.get("updated", "")) if feedback_path.exists() and isinstance(feedback, dict) else "",
+        },
+        "requests": requests,
+        "storage_contract": (
+            "GitHub stores this JSON/Markdown page-upgrade dashboard and the source-relevance queue. "
+            "R2 continues to hold raw originals and durable binary assets."
+        ),
+    }
+
+
+def page_upgrade_request_record(root: Path, hint: dict[str, object]) -> dict[str, object]:
+    return {
+        "id": str(hint.get("id", "")),
+        "status": str(hint.get("status", "active")).strip().lower() or "active",
+        "source": str(hint.get("source", "")),
+        "source_sha256": str(hint.get("source_sha256", "")),
+        "converted_file": str(hint.get("converted_file", "")),
+        "job_manifest": str(hint.get("job_manifest", "")),
+        "page": safe_int(hint.get("page"), 0),
+        "relevance": str(hint.get("relevance", "")).strip().lower(),
+        "requested_treatment": str(hint.get("requested_treatment", "")).strip().lower(),
+        "reason": str(hint.get("reason", "")),
+        "entities": hint.get("entities", []) if isinstance(hint.get("entities", []), list) else [],
+        "matched_terms": hint.get("matched_terms", []) if isinstance(hint.get("matched_terms", []), list) else [],
+        "agent": str(hint.get("agent", "")),
+        "created": str(hint.get("created", "")),
+        "updated": str(hint.get("updated", "")),
+        "matching_source_prep_tasks": page_upgrade_matching_source_prep_tasks(root, hint),
+    }
+
+
+def page_upgrade_matching_source_prep_tasks(root: Path, hint: dict[str, object]) -> list[dict[str, object]]:
+    task_state = load_agent_task_state(root)
+    matches = []
+    try:
+        source_prep_tasks = build_source_prep_agent_tasks(root, write_page_review_cache=False)
+    except Exception:
+        return matches
+    for task in source_prep_tasks:
+        if not source_relevance_hint_matches_task(hint, task):
+            continue
+        task_copy = dict(task)
+        task_copy.pop("prompt", None)
+        apply_agent_task_state(task_copy, task_state.get(str(task_copy.get("task_id", "")), {}))
+        matches.append(
+            {
+                "task_id": str(task_copy.get("task_id", "")),
+                "status": str(task_copy.get("status", "")),
+                "page": safe_int(task_copy.get("page"), 0),
+                "source_page": safe_int(task_copy.get("source_page"), 0),
+                "work_order": str(task_copy.get("work_order", "")),
+                "output_path": str(task_copy.get("output_path", "")),
+                "requested_treatment": str(task_copy.get("requested_treatment", "")),
+                "relevance_feedback_ids": task_copy.get("relevance_feedback_ids", []),
+            }
+        )
+    return matches
+
+
+def page_upgrade_request_sort_key(request: dict[str, object]) -> tuple[int, int, str, int, str]:
+    status_rank = {"active": 0, "claimed": 1, "in_progress": 2, "done": 3, "resolved": 3}
+    return (
+        status_rank.get(str(request.get("status", "")).strip().lower(), 9),
+        -SOURCE_RELEVANCE_PRIORITY.get(str(request.get("relevance", "")).strip().lower(), -1),
+        str(request.get("source", "")),
+        safe_int(request.get("page"), 0),
+        str(request.get("id", "")),
+    )
+
+
+def count_records_by_key(records: list[dict[str, object]], key: str) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for record in records:
+        value = str(record.get(key, "")).strip() or "unknown"
+        counts[value] = counts.get(value, 0) + 1
+    return dict(sorted(counts.items()))
+
+
+def build_page_upgrade_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    requests = payload.get("requests", [])
+    if not isinstance(requests, list):
+        requests = []
+    rows = [
+        "| Status | Relevance | Treatment | Page | Matching Tasks | Source | Reason |",
+        "| --- | --- | --- | ---: | --- | --- | --- |",
+    ]
+    for request in requests:
+        if not isinstance(request, dict):
+            continue
+        matching_tasks = request.get("matching_source_prep_tasks", [])
+        if not isinstance(matching_tasks, list):
+            matching_tasks = []
+        task_labels = [
+            f"{task.get('task_id', '')} ({task.get('status', '')})"
+            for task in matching_tasks
+            if isinstance(task, dict)
+        ]
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(request.get("status", "")),
+                    markdown_table_cell(request.get("relevance", "")),
+                    markdown_table_cell(request.get("requested_treatment", "")),
+                    markdown_table_cell(request.get("page", "")),
+                    markdown_table_cell(", ".join(task_labels) or "none"),
+                    markdown_table_cell(request.get("source", "")),
+                    markdown_table_cell(request.get("reason", "")),
+                ]
+            )
+            + " |"
+        )
+    if not requests:
+        rows.append("| none | none | none | 0 | none | none | none |")
+    return f"""# Page Upgrade Requests
+
+Generated: {payload.get("created", "")}
+
+These are page-level conversion upgrade requests created by research feedback or the automated research analyzer. They route exact pages back through source preparation before deeper extraction.
+
+## Summary
+
+- Active requests: {dict_value(summary, "active_request_count")}
+- Status: {format_status_counts(dict_value(summary, "status_counts", {}))}
+- Relevance: {format_status_counts(dict_value(summary, "relevance_counts", {}))}
+- Requested treatment: {format_status_counts(dict_value(summary, "requested_treatment_counts", {}))}
+- Analyzer upgrade candidates last run: {dict_value(summary, "analyzer_upgrade_candidates")}
+- Analyzer requests written last run: {dict_value(summary, "analyzer_upgrade_requests_written")}
+
+## Requests
+
+{chr(10).join(rows)}
+"""
+
+
 def source_relevance_hint_matches_task(hint: dict[str, object], task: dict[str, object]) -> bool:
     try:
         hint_page = int(hint.get("page", 0) or 0)
@@ -10302,7 +10502,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
         "source_conversion": build_system_source_conversion_summary(prep_manifest, raw_cloud, source_usability),
         "research_readiness": build_system_research_readiness_summary(paths.root, source_usability, research_analyzer),
-        "page_upgrades": build_system_page_upgrade_summary(relevance_feedback, research_analyzer),
+        "page_upgrades": build_system_page_upgrade_summary(paths.root, relevance_feedback, research_analyzer),
         "queues": queues,
         "storage": build_system_storage_summary(raw_cloud, derived_assets),
         "final_site": build_system_final_site_summary(paths.root),
@@ -10519,6 +10719,7 @@ def build_system_research_readiness_summary(
 
 
 def build_system_page_upgrade_summary(
+    root: Path,
     relevance_feedback: dict[str, object],
     research_analyzer: dict[str, object],
 ) -> dict[str, object]:
@@ -10532,6 +10733,8 @@ def build_system_page_upgrade_summary(
         and str(hint.get("status", "active")).strip().lower() in SOURCE_RELEVANCE_ACTIVE_STATUSES
     ]
     return {
+        "index": relative_to_root(page_upgrade_index_path(root), root),
+        "markdown": relative_to_root(page_upgrade_markdown_path(root), root),
         "active_request_count": len(active_hints),
         "critical_or_high_count": len(
             [
@@ -10714,6 +10917,8 @@ Generated: {payload.get("created", "")}
 
 ## Page Upgrades
 
+- Index: `{dict_value(page_upgrades, "index", "")}`
+- Markdown: `{dict_value(page_upgrades, "markdown", "")}`
 - Active page upgrade requests: {dict_value(page_upgrades, "active_request_count")}
 - Critical or high relevance requests: {dict_value(page_upgrades, "critical_or_high_count")}
 - Pro/reread requests: {dict_value(page_upgrades, "pro_or_reread_count")}
@@ -11048,6 +11253,20 @@ def cloud_source_prep_heartbeat(
         except Exception as exc:
             summary["blockers"].append(f"research-analyzer: {exc}")
             record_step("research-analyzer", "failed", str(exc))
+
+    if conversion_only:
+        record_step("page-upgrades", "skipped", "conversion-only run")
+    else:
+        try:
+            upgrade_paths = write_page_upgrade_report(paths.root)
+            record_step(
+                "page-upgrades",
+                "ran",
+                {"written": [relative_to_root(path, paths.root) for path in upgrade_paths]},
+            )
+        except Exception as exc:
+            summary["blockers"].append(f"page-upgrades: {exc}")
+            record_step("page-upgrades", "failed", str(exc))
 
     if conversion_only:
         record_step("site-build", "skipped", "conversion-only run")
@@ -13229,6 +13448,23 @@ def build_parser() -> argparse.ArgumentParser:
         help="Output Markdown path. Default: research/source-usability.md.",
     )
 
+    page_upgrade_parser = subparsers.add_parser(
+        "page-upgrades",
+        aliases=["page-upgrade-report"],
+        help="Write a page-level conversion upgrade request dashboard from research feedback.",
+    )
+    page_upgrade_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    page_upgrade_parser.add_argument(
+        "--out",
+        type=Path,
+        help="Output JSON path. Default: research/_indexes/page-upgrades.json.",
+    )
+    page_upgrade_parser.add_argument(
+        "--markdown",
+        type=Path,
+        help="Output Markdown path. Default: research/page-upgrades.md.",
+    )
+
     system_status_parser = subparsers.add_parser(
         "system-status",
         aliases=["system-dashboard"],
@@ -13778,6 +14014,12 @@ def main(argv: list[str] | None = None) -> int:
         written = write_source_usability_report(args.root, args.out, args.markdown)
         for path in written:
             print(f"Wrote source usability report {path}")
+        return 0
+
+    if args.command in {"page-upgrades", "page-upgrade-report"}:
+        written = write_page_upgrade_report(args.root, args.out, args.markdown)
+        for path in written:
+            print(f"Wrote page upgrade report {path}")
         return 0
 
     if args.command in {"system-status", "system-dashboard"}:

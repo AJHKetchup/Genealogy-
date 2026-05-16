@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T08:36:18Z
+Generated: 2026-05-16T08:54:50Z
 
 ## Source Conversion
 
@@ -25,6 +25,8 @@ Generated: 2026-05-16T08:36:18Z
 
 ## Page Upgrades
 
+- Index: `research/_indexes/page-upgrades.json`
+- Markdown: `research/page-upgrades.md`
 - Active page upgrade requests: 0
 - Critical or high relevance requests: 0
 - Pro/reread requests: 0
