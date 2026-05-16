@@ -1058,11 +1058,14 @@ def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp
     manifest_path = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     page_output = tmp_path / manifest["pages"][0]["output_path"]
-    assert not page_output.exists()
+    assert page_output.exists()
+    page_text = page_output.read_text(encoding="utf-8")
+    assert "Conversion method: Docling basic conversion" in page_text
+    assert "## Literal Transcription" in page_text
 
     write_agent_queues(tmp_path)
     source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
-    assert source_queue["status_counts"]["rough_discovery"] == 1
+    assert source_queue["status_counts"]["done"] == 1
     batch_path = write_source_prep_batches(tmp_path, limit=10)
     batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
     assert batch_queue["tasks"] == []
@@ -1101,6 +1104,45 @@ def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monke
     assert gemini["completed"] == 1
     task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
     assert {state["status"] for state in task_state["tasks"].values()} == {"done"}
+
+
+def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "mixed-docling.pdf"
+    doc = fitz.open()
+    page_one = doc.new_page(width=360, height=500)
+    page_one.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling baseline. " * 8, fontsize=11)
+    page_two = doc.new_page(width=360, height=500)
+    page_two.insert_text((36, 100), "x")
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=2)
+    write_agent_queues(tmp_path)
+
+    def fake_docling(input_path, **kwargs):
+        if input_path.stem.endswith("p0001"):
+            return "Usable printed source text for Docling baseline. " * 8
+        return "???"
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        parallelism=2,
+    )
+
+    assert summary["inspected"] == 2
+    assert summary["accepted"] == 1
+    assert summary["unusable"] == 1
+    discovery = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").read_text(encoding="utf-8"))
+    statuses = {entry["status"] for entry in discovery["entries"].values()}
+    assert statuses == {"rough_ok", "rough_unusable"}
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    statuses = {state["status"] for state in task_state["tasks"].values()}
+    assert statuses == {"done"}
 
 
 def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypatch) -> None:

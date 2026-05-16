@@ -193,6 +193,8 @@ Storage deaccession is allowed only when:
 - Implemented: GitHub Markdown, JSON, queue, manifest, chunk, and automation state storage.
 - Implemented: page-level source-prep tasks.
 - Implemented: Docling rough discovery.
+- Implemented: cloud source-prep workflow runs Docling baseline conversion on all queued pages in the scan window, extracts Docling picture images, passes usable Docling pages forward, and automatically routes unusable pages to Gemini elevation.
+- Implemented: high-throughput cloud source-prep schedule every five minutes with parallel Docling baseline and parallel Gemini fallback settings targeting 8,000 pages/hour when capacity and API limits allow.
 - Implemented: Gemini Lite/Pro conversion routing.
 - Implemented: parallel Gemini page conversion.
 - Implemented: page-level upgrade feedback command and state file.

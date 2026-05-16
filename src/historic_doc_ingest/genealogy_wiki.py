@@ -24,6 +24,7 @@ from historic_doc_ingest.raw_cloud import (
     cleanup_remote_json_manifests,
     upload_derived_assets_to_cloud,
     load_raw_cloud_config,
+    long_fs_path,
     restore_raw_from_cloud,
     upload_raw_to_cloud,
     verify_raw_cloud,
@@ -5576,11 +5577,19 @@ def build_source_prep_discovery_markdown(
     task: dict[str, object],
     docling_markdown: str,
     profile: dict[str, object],
+    extracted_images: list[dict[str, object]] | None = None,
 ) -> str:
     page_number = safe_int(task.get("page"), 1)
     fence = markdown_fence_for_text(docling_markdown)
     status = str(profile.get("status", "")).strip()
     flags = ", ".join(str(flag) for flag in profile.get("readability_flags", []) or []) or "none"
+    extracted_images = extracted_images or []
+    image_lines = ["## Extracted Image Discovery", ""]
+    if extracted_images:
+        for image in extracted_images:
+            image_lines.append(f"- `{image.get('path', '')}`")
+    else:
+        image_lines.append("- No Docling picture images were extracted.")
     return f"""# Rough Docling Discovery: Page {page_number}
 
 > This is rough discovery text for browsing and triage only. It is not evidence-grade transcription and should not be cited as a source conversion.
@@ -5600,12 +5609,96 @@ def build_source_prep_discovery_markdown(
 - Text characters: {profile.get("text_chars", 0)}
 - Alpha characters: {profile.get("alpha_chars", 0)}
 - Word count: {profile.get("word_count", 0)}
+- Extracted picture images: {len(extracted_images)}
+
+{chr(10).join(image_lines)}
 
 ## Rough Markdown
 
 {fence}markdown
 {docling_markdown.strip()}
 {fence}
+"""
+
+
+def build_source_prep_docling_page_markdown(
+    root: Path,
+    task: dict[str, object],
+    docling_markdown: str,
+    profile: dict[str, object],
+    extracted_images: list[dict[str, object]],
+) -> str:
+    page_number = safe_int(task.get("page"), 1)
+    output_path = Path(str(task.get("output_path", "")))
+    output_dir = output_path.parent if output_path.parent.as_posix() != "." else Path(".")
+    image_lines = []
+    for index, image in enumerate(extracted_images, start=1):
+        image_path = Path(str(image.get("path", "")))
+        markdown_path = str(image.get("path", ""))
+        if markdown_path:
+            try:
+                absolute_image = image_path if image_path.is_absolute() else root.resolve() / image_path
+                absolute_output_dir = output_dir if output_dir.is_absolute() else root.resolve() / output_dir
+                markdown_path = relative_path(absolute_output_dir, absolute_image)
+            except Exception:
+                pass
+            caption = str(image.get("caption", "")).strip() or f"Docling extracted picture image {index}"
+            image_lines.append(f"- {caption}: ![{caption}]({markdown_path})")
+    if not image_lines:
+        image_lines.append("- No Docling picture regions were detected for this page.")
+    flags = ", ".join(str(flag) for flag in profile.get("readability_flags", []) or []) or "none"
+    fence = markdown_fence_for_text(docling_markdown)
+    return f"""# Page {page_number}
+
+## Page Metadata
+
+- Source: `{task.get("source", "")}`
+- Source SHA-256: `{task.get("source_sha256", "")}`
+- Conversion manifest: `{task.get("job_manifest", "")}`
+- Source page: {safe_int(task.get("source_page"), page_number)}
+- Page image: `{task.get("page_image", "")}`
+- Conversion method: Docling basic conversion
+- Docling readability status: `{profile.get("status", "")}`
+- Docling readability flags: {flags}
+- Extracted picture images: {len(extracted_images)}
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+{fence}markdown
+{docling_markdown.strip()}
+{fence}
+
+## Images, Captions, And Visual Notes
+
+{chr(10).join(image_lines)}
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: {flags}
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: {len(extracted_images)}.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 """
 
 
@@ -5651,7 +5744,14 @@ def source_prep_docling_input_path(root: Path, task: dict[str, object], temp_dir
     return target
 
 
-def convert_source_with_docling(input_path: Path, *, document_timeout: float = 90.0) -> str:
+def convert_source_with_docling(
+    input_path: Path,
+    *,
+    document_timeout: float = 90.0,
+    image_output_dir: Path | None = None,
+    image_prefix: str = "docling-image",
+    root: Path | None = None,
+) -> str | dict[str, object]:
     try:
         from docling.datamodel.base_models import InputFormat
         from docling.datamodel.pipeline_options import PdfPipelineOptions
@@ -5666,6 +5766,10 @@ def convert_source_with_docling(input_path: Path, *, document_timeout: float = 9
     pipeline_options.do_picture_classification = False
     pipeline_options.do_formula_enrichment = False
     pipeline_options.do_code_enrichment = False
+    if image_output_dir is not None:
+        pipeline_options.generate_page_images = True
+        pipeline_options.generate_picture_images = True
+        pipeline_options.images_scale = 2.0
     if hasattr(pipeline_options, "do_chart_extraction"):
         pipeline_options.do_chart_extraction = False
 
@@ -5678,7 +5782,187 @@ def convert_source_with_docling(input_path: Path, *, document_timeout: float = 9
     document = getattr(result, "document", None)
     if document is None:
         raise RuntimeError("Docling returned no document.")
-    return str(document.export_to_markdown()).strip()
+    markdown = str(document.export_to_markdown()).strip()
+    if image_output_dir is None:
+        return markdown
+    return {
+        "markdown": markdown,
+        "extracted_images": extract_docling_picture_images(
+            document,
+            image_output_dir=image_output_dir,
+            image_prefix=image_prefix,
+            root=root,
+        ),
+    }
+
+
+def extract_docling_picture_images(
+    document: object,
+    *,
+    image_output_dir: Path,
+    image_prefix: str,
+    root: Path | None = None,
+) -> list[dict[str, object]]:
+    pictures = getattr(document, "pictures", []) or []
+    if not isinstance(pictures, list):
+        return []
+    image_output_dir.mkdir(parents=True, exist_ok=True)
+    records: list[dict[str, object]] = []
+    for index, picture in enumerate(pictures, start=1):
+        image = None
+        try:
+            get_image = getattr(picture, "get_image", None)
+            if callable(get_image):
+                image = get_image(document)
+        except Exception:
+            image = None
+        if image is None:
+            image = getattr(picture, "image", None)
+        if image is None or not hasattr(image, "save"):
+            continue
+        output_path = image_output_dir / f"{image_prefix}-{index:02d}.png"
+        try:
+            image.save(long_fs_path(output_path))
+        except Exception:
+            continue
+        caption = ""
+        caption_value = getattr(picture, "caption_text", "")
+        try:
+            caption = str(caption_value(document) if callable(caption_value) else caption_value).strip()
+        except Exception:
+            caption = ""
+        record = {
+            "path": relative_to_root(output_path, root.resolve()) if root else output_path.as_posix(),
+            "filename": output_path.name,
+            "caption": caption,
+            "method": "docling_picture_image",
+        }
+        try:
+            record["bytes"] = output_path.stat().st_size
+            record["sha256"] = file_sha256(output_path)
+        except OSError:
+            pass
+        records.append(record)
+    return records
+
+
+def normalize_docling_conversion_result(result: object) -> tuple[str, list[dict[str, object]]]:
+    if isinstance(result, dict):
+        markdown = str(result.get("markdown", "") or result.get("text", "")).strip()
+        extracted_images = result.get("extracted_images", [])
+        if not isinstance(extracted_images, list):
+            extracted_images = []
+        return markdown, [item for item in extracted_images if isinstance(item, dict)]
+    return str(result).strip(), []
+
+
+def run_source_prep_docling_task(
+    paths: WikiPaths,
+    task: dict[str, object],
+    cache_key: str,
+    temp_dir: Path,
+    agent: str,
+) -> dict[str, object]:
+    task_id = str(task.get("task_id", "")).strip()
+    task_report: dict[str, object] = {
+        "task_id": task_id,
+        "source": task.get("source", ""),
+        "page": task.get("page", 0),
+    }
+    try:
+        input_path = source_prep_docling_input_path(paths.root, task, temp_dir)
+        image_output_dir = paths.root / str(task.get("image_output_dir", ""))
+        image_prefix = f"page-{safe_int(task.get('page'), 1):04d}-docling-image"
+        try:
+            docling_result = convert_source_with_docling(
+                input_path,
+                image_output_dir=image_output_dir,
+                image_prefix=image_prefix,
+                root=paths.root,
+            )
+        except TypeError as exc:
+            if "unexpected" not in str(exc) and "positional" not in str(exc):
+                raise
+            docling_result = convert_source_with_docling(input_path)
+        docling_markdown, extracted_images = normalize_docling_conversion_result(docling_result)
+        profile = profile_source_prep_discovery_markdown(docling_markdown)
+        status = str(profile.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
+        discovery_path = source_prep_discovery_output_path(paths.root, task)
+        discovery_markdown = build_source_prep_discovery_markdown(
+            task,
+            docling_markdown,
+            profile,
+            extracted_images,
+        )
+        page_output = paths.root / str(task.get("output_path", ""))
+        page_markdown = ""
+        if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+            page_markdown = build_source_prep_docling_page_markdown(
+                paths.root,
+                task,
+                docling_markdown,
+                profile,
+                extracted_images,
+            )
+        task_report.update(
+            {
+                "status": status,
+                "discovery_path": relative_to_root(discovery_path, paths.root),
+                "readability_flags": profile.get("readability_flags", []),
+                "text_chars": profile.get("text_chars", 0),
+                "extracted_image_count": len(extracted_images),
+            }
+        )
+        entry = {
+            "status": status,
+            "updated": utc_timestamp(),
+            "agent": agent,
+            "task_id": task_id,
+            "source": str(task.get("source", "")),
+            "source_sha256": str(task.get("source_sha256", "")),
+            "job_manifest": str(task.get("job_manifest", "")),
+            "page": safe_int(task.get("page"), 0),
+            "discovery_path": relative_to_root(discovery_path, paths.root),
+            "evidence_output_path": str(task.get("output_path", "")),
+            "method": "docling",
+            "evidence_grade": False,
+            "extracted_images": extracted_images,
+            "extracted_image_count": len(extracted_images),
+            **profile,
+        }
+        if page_markdown:
+            entry["basic_output_path"] = relative_to_root(page_output, paths.root)
+            task_report["basic_output_path"] = relative_to_root(page_output, paths.root)
+        return {
+            "result": "ok",
+            "cache_key": cache_key,
+            "task": task,
+            "task_report": task_report,
+            "status": status,
+            "entry": entry,
+            "discovery_path": discovery_path,
+            "discovery_markdown": discovery_markdown,
+            "page_output": page_output,
+            "page_markdown": page_markdown,
+            "task_id": task_id,
+        }
+    except RuntimeError as exc:
+        return {
+            "result": "runtime_error",
+            "cache_key": cache_key,
+            "task": task,
+            "task_report": {**task_report, "status": "blocked" if "Docling is required" in str(exc) else "error", "error": str(exc)},
+            "error": str(exc),
+            "docling_missing": "Docling is required" in str(exc),
+        }
+    except Exception as exc:
+        return {
+            "result": "error",
+            "cache_key": cache_key,
+            "task": task,
+            "task_report": {**task_report, "status": "error", "error": str(exc)},
+            "error": str(exc),
+        }
 
 
 def source_prep_docling_discovery_run(
@@ -5686,14 +5970,17 @@ def source_prep_docling_discovery_run(
     *,
     limit: int = 100,
     scan_limit: int = 1000,
+    parallelism: int = 1,
     stale_minutes: int = 360,
     agent: str = "source-prep-docling-discovery",
     dry_run: bool = False,
 ) -> dict[str, object]:
-    if limit < 1:
-        raise ValueError("limit must be at least 1")
+    if limit < 0:
+        raise ValueError("limit must be zero or greater")
     if scan_limit < 1:
         raise ValueError("scan_limit must be at least 1")
+    if parallelism < 1:
+        raise ValueError("parallelism must be at least 1")
 
     paths = WikiPaths(root.resolve())
     release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
@@ -5725,6 +6012,7 @@ def source_prep_docling_discovery_run(
         "agent": agent,
         "limit": limit,
         "scan_limit": scan_limit,
+        "parallelism": parallelism,
         "inspected": 0,
         "accepted": 0,
         "unusable": 0,
@@ -5740,12 +6028,83 @@ def source_prep_docling_discovery_run(
         if isinstance(skipped, dict):
             skipped[reason] = int(skipped.get(reason, 0)) + 1
 
+    def apply_docling_result(result: dict[str, object]) -> bool:
+        nonlocal changed
+        cache_key = str(result.get("cache_key", ""))
+        task = result.get("task", {})
+        if not isinstance(task, dict):
+            task = {}
+        task_report = result.get("task_report", {})
+        if not isinstance(task_report, dict):
+            task_report = {}
+        if result.get("docling_missing"):
+            summary["blockers"] = [str(result.get("error", ""))]
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+            return False
+        if result.get("result") != "ok":
+            summary["errors"] = int(summary["errors"]) + 1
+            if not dry_run:
+                entries[cache_key] = {
+                    "status": "error",
+                    "updated": utc_timestamp(),
+                    "agent": agent,
+                    "task_id": str(task.get("task_id", "")),
+                    "source": str(task.get("source", "")),
+                    "source_sha256": str(task.get("source_sha256", "")),
+                    "job_manifest": str(task.get("job_manifest", "")),
+                    "page": safe_int(task.get("page"), 0),
+                    "error": str(result.get("error", ""))[:500],
+                    "evidence_grade": False,
+                }
+                changed = True
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+            return True
+
+        status = str(result.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
+        if limit > 0 and status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS and int(summary["accepted"]) >= limit:
+            count_skip("accepted_limit_reached")
+            return True
+        if not dry_run:
+            discovery_path = result.get("discovery_path")
+            if isinstance(discovery_path, Path):
+                discovery_path.parent.mkdir(parents=True, exist_ok=True)
+                discovery_path.write_text(str(result.get("discovery_markdown", "")), encoding="utf-8")
+            entry = result.get("entry", {})
+            if isinstance(entry, dict):
+                entries[cache_key] = entry
+            if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+                page_output = result.get("page_output")
+                page_markdown = str(result.get("page_markdown", ""))
+                if isinstance(page_output, Path):
+                    page_output.parent.mkdir(parents=True, exist_ok=True)
+                    page_output.write_text(page_markdown, encoding="utf-8")
+                update_agent_task_state(
+                    paths.root,
+                    str(result.get("task_id", "")),
+                    "done",
+                    agent=agent,
+                    note="Docling basic conversion accepted; conversion QA still required.",
+                )
+            changed = True
+        if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+            summary["accepted"] = int(summary["accepted"]) + 1
+        else:
+            summary["unusable"] = int(summary["unusable"]) + 1
+        cast_tasks = summary.setdefault("tasks", [])
+        if isinstance(cast_tasks, list):
+            cast_tasks.append(task_report)
+        return True
+
     with tempfile.TemporaryDirectory(prefix="source-prep-docling-") as tmp:
         temp_dir = Path(tmp)
+        candidates: list[tuple[dict[str, object], str]] = []
         for task in tasks:
-            if int(summary["accepted"]) >= limit or int(summary["inspected"]) >= scan_limit:
+            if int(summary["inspected"]) >= scan_limit:
                 break
-            task_id = str(task.get("task_id", "")).strip()
             cache_key = source_prep_discovery_cache_key(task)
             cached = entries.get(cache_key)
             if isinstance(cached, dict) and str(cached.get("status", "")).strip() in SOURCE_PREP_DISCOVERY_TERMINAL_STATUSES:
@@ -5753,97 +6112,25 @@ def source_prep_docling_discovery_run(
                 continue
 
             summary["inspected"] = int(summary["inspected"]) + 1
-            task_report: dict[str, object] = {
-                "task_id": task_id,
-                "source": task.get("source", ""),
-                "page": task.get("page", 0),
-            }
-            try:
-                input_path = source_prep_docling_input_path(paths.root, task, temp_dir)
-                docling_markdown = convert_source_with_docling(input_path)
-                profile = profile_source_prep_discovery_markdown(docling_markdown)
-                status = str(profile.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
-                discovery_path = source_prep_discovery_output_path(paths.root, task)
-                discovery_markdown = build_source_prep_discovery_markdown(task, docling_markdown, profile)
-                task_report.update(
-                    {
-                        "status": status,
-                        "discovery_path": relative_to_root(discovery_path, paths.root),
-                        "readability_flags": profile.get("readability_flags", []),
-                        "text_chars": profile.get("text_chars", 0),
-                    }
-                )
-                if not dry_run:
-                    discovery_path.parent.mkdir(parents=True, exist_ok=True)
-                    discovery_path.write_text(discovery_markdown, encoding="utf-8")
-                    entries[cache_key] = {
-                        "status": status,
-                        "updated": utc_timestamp(),
-                        "agent": agent,
-                        "task_id": task_id,
-                        "source": str(task.get("source", "")),
-                        "source_sha256": str(task.get("source_sha256", "")),
-                        "job_manifest": str(task.get("job_manifest", "")),
-                        "page": safe_int(task.get("page"), 0),
-                        "discovery_path": relative_to_root(discovery_path, paths.root),
-                        "evidence_output_path": str(task.get("output_path", "")),
-                        "method": "docling",
-                        "evidence_grade": False,
-                        **profile,
-                    }
-                    changed = True
-                if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
-                    summary["accepted"] = int(summary["accepted"]) + 1
-                else:
-                    summary["unusable"] = int(summary["unusable"]) + 1
-            except RuntimeError as exc:
-                if "Docling is required" in str(exc):
-                    summary["blockers"] = [str(exc)]
-                    task_report["status"] = "blocked"
-                    task_report["error"] = str(exc)
-                    cast_tasks = summary.setdefault("tasks", [])
-                    if isinstance(cast_tasks, list):
-                        cast_tasks.append(task_report)
-                    break
-                summary["errors"] = int(summary["errors"]) + 1
-                task_report["status"] = "error"
-                task_report["error"] = str(exc)
-                if not dry_run:
-                    entries[cache_key] = {
-                        "status": "error",
-                        "updated": utc_timestamp(),
-                        "agent": agent,
-                        "task_id": task_id,
-                        "source": str(task.get("source", "")),
-                        "source_sha256": str(task.get("source_sha256", "")),
-                        "job_manifest": str(task.get("job_manifest", "")),
-                        "page": safe_int(task.get("page"), 0),
-                        "error": str(exc)[:500],
-                        "evidence_grade": False,
-                    }
-                    changed = True
-            except Exception as exc:
-                summary["errors"] = int(summary["errors"]) + 1
-                task_report["status"] = "error"
-                task_report["error"] = str(exc)
-                if not dry_run:
-                    entries[cache_key] = {
-                        "status": "error",
-                        "updated": utc_timestamp(),
-                        "agent": agent,
-                        "task_id": task_id,
-                        "source": str(task.get("source", "")),
-                        "source_sha256": str(task.get("source_sha256", "")),
-                        "job_manifest": str(task.get("job_manifest", "")),
-                        "page": safe_int(task.get("page"), 0),
-                        "error": str(exc)[:500],
-                        "evidence_grade": False,
-                    }
-                    changed = True
+            candidates.append((task, cache_key))
 
-            cast_tasks = summary.setdefault("tasks", [])
-            if isinstance(cast_tasks, list):
-                cast_tasks.append(task_report)
+        if parallelism == 1:
+            for task, cache_key in candidates:
+                if limit > 0 and int(summary["accepted"]) >= limit:
+                    break
+                result = run_source_prep_docling_task(paths, task, cache_key, temp_dir, agent)
+                if not apply_docling_result(result):
+                    break
+        elif candidates:
+            max_workers = min(parallelism, len(candidates))
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                futures = [
+                    executor.submit(run_source_prep_docling_task, paths, task, cache_key, temp_dir, agent)
+                    for task, cache_key in candidates
+                ]
+                for future in concurrent.futures.as_completed(futures):
+                    if not apply_docling_result(future.result()):
+                        break
 
     if changed and not dry_run:
         discovery_path = save_source_prep_discovery_state(paths.root, discovery_state)
@@ -7301,7 +7588,7 @@ def source_prep_gemini_run(
             continue
         task_id = source_prep_gemini_task_id(raw_task)
         state_status = str(task_state.get(task_id, {}).get("status", "")).strip()
-        if state_status in {"claimed", "in_progress", "done"}:
+        if state_status in {"claimed", "in_progress"} or (state_status == "done" and status != "needs_reread"):
             apply_result(
                 result_payload(
                     {"task_id": task_id, "batch_task_id": raw_task.get("task_id", ""), "status": "skipped", "reason": f"task_state_{state_status}"},
@@ -9812,13 +10099,19 @@ def build_parser() -> argparse.ArgumentParser:
         "--limit",
         type=int,
         default=100,
-        help="Maximum readable rough-discovery pages to accept in this run. Default: 100.",
+        help="Maximum Docling-usable pages to accept in this run. Use 0 for no accepted-page cap. Default: 100.",
     )
     source_prep_docling_parser.add_argument(
         "--scan-limit",
         type=int,
         default=1000,
         help="Maximum queued pages to inspect before stopping. Default: 1000.",
+    )
+    source_prep_docling_parser.add_argument(
+        "--parallelism",
+        type=int,
+        default=1,
+        help="Maximum concurrent Docling baseline conversions. Default: 1.",
     )
     source_prep_docling_parser.add_argument(
         "--agent",
@@ -10341,6 +10634,7 @@ def main(argv: list[str] | None = None) -> int:
             root=args.root,
             limit=args.limit,
             scan_limit=args.scan_limit,
+            parallelism=args.parallelism,
             agent=args.agent,
             stale_minutes=args.stale_minutes,
             dry_run=args.dry_run,
