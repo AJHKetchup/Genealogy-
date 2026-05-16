@@ -1,35 +1,158 @@
 {
-  "created": "2026-05-15T23:56:02Z",
+  "created": "2026-05-15T23:22:39Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
-  "limit": 2,
+  "limit": 3,
   "queue": "research/_agent-queues/source-prep-batches.json",
   "models": {
     "lite": "gemini-2.5-flash-lite",
     "pro": "gemini-2.5-pro"
   },
-  "processed": 0,
-  "completed": 0,
-  "released": 0,
-  "skipped": 1,
-  "route_counts": {},
+  "processed": 3,
+  "completed": 2,
+  "released": 1,
+  "skipped": 0,
+  "route_counts": {
+    "pro": 3
+  },
   "tasks": [
     {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001",
+      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001",
+      "route": {
+        "tier": "pro",
+        "model": "gemini-2.5-pro",
+        "use_crops": false,
+        "relevant": false,
+        "complex": true,
+        "reasons": [
+          "pdf_profile_complex"
+        ]
+      },
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md",
+      "usage": {
+        "promptTokenCount": 1285,
+        "candidatesTokenCount": 3149,
+        "totalTokenCount": 8347,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1027
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 258
+          }
+        ],
+        "thoughtsTokenCount": 3913,
+        "serviceTier": "standard"
+      },
+      "finish_reason": "STOP",
+      "visual_regions": {
+        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.visuals.json",
+        "declared": 3,
+        "cropped": 3,
+        "flags": []
+      },
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      },
+      "status": "done"
+    },
+    {
       "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
-      "status": "skipped",
-      "reason": "page_image_missing",
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg"
+      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
+      "route": {
+        "tier": "pro",
+        "model": "gemini-2.5-pro",
+        "use_crops": false,
+        "relevant": false,
+        "complex": true,
+        "reasons": [
+          "pdf_profile_complex"
+        ]
+      },
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md",
+      "usage": {
+        "promptTokenCount": 1285,
+        "totalTokenCount": 17282,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1027
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 258
+          }
+        ],
+        "thoughtsTokenCount": 15997,
+        "serviceTier": "standard"
+      },
+      "finish_reason": "MAX_TOKENS",
+      "status": "released",
+      "reason": "max_tokens"
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0003",
+      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0003",
+      "route": {
+        "tier": "pro",
+        "model": "gemini-2.5-pro",
+        "use_crops": false,
+        "relevant": false,
+        "complex": true,
+        "reasons": [
+          "pdf_profile_complex"
+        ]
+      },
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md",
+      "usage": {
+        "promptTokenCount": 1285,
+        "candidatesTokenCount": 3491,
+        "totalTokenCount": 8106,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1027
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 258
+          }
+        ],
+        "thoughtsTokenCount": 3330,
+        "serviceTier": "standard"
+      },
+      "finish_reason": "STOP",
+      "visual_regions": {
+        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.visuals.json",
+        "declared": 3,
+        "cropped": 3,
+        "flags": []
+      },
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      },
+      "status": "done"
     }
   ],
   "usage": {
-    "prompt_tokens": 0,
-    "candidate_tokens": 0,
-    "total_tokens": 0
+    "prompt_tokens": 3855,
+    "candidate_tokens": 6640,
+    "total_tokens": 33735
   },
   "visual_regions": {
-    "declared": 0,
-    "cropped": 0,
-    "manifests": 0
+    "declared": 6,
+    "cropped": 6,
+    "manifests": 2
   },
-  "finished": "2026-05-15T23:56:02Z"
+  "finished": "2026-05-15T23:26:09Z"
 }

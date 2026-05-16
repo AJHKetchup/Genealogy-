@@ -436,6 +436,34 @@ def write_derived_asset_inventory(
     return write_json(output, manifest)
 
 
+def read_existing_derived_asset_manifest(root: Path, out: Path | None = None) -> dict[str, Any]:
+    path = out or (root.resolve() / DEFAULT_DERIVED_ASSET_MANIFEST_PATH)
+    if not path.is_absolute():
+        path = root.resolve() / path
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def merge_derived_asset_manifests(existing: dict[str, Any], current: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(current)
+    by_path: dict[str, dict[str, Any]] = {}
+    for payload in (existing, current):
+        files = payload.get("files", []) if isinstance(payload, dict) else []
+        if not isinstance(files, list):
+            continue
+        for item in files:
+            if not isinstance(item, dict):
+                continue
+            path = str(item.get("path", "")).strip()
+            if path:
+                by_path[path] = item
+    merged["files"] = [by_path[path] for path in sorted(by_path)]
+    return merged
+
+
 class R2Client:
     def __init__(self, config: RawCloudConfig) -> None:
         self.config = config
@@ -706,6 +734,7 @@ def upload_derived_assets_to_cloud(
     out: Path | None = None,
 ) -> dict[str, Any]:
     manifest = build_derived_asset_manifest(root, config, limit=limit)
+    existing_manifest = read_existing_derived_asset_manifest(root, out=out)
     summary: dict[str, Any] = {
         "action": "asset-upload",
         "dry_run": dry_run,
@@ -716,10 +745,15 @@ def upload_derived_assets_to_cloud(
         "planned": 0,
         "errors": [],
     }
-    manifest_path = write_derived_asset_inventory(root, config, limit=limit, out=out)
+    output = out or (root.resolve() / DEFAULT_DERIVED_ASSET_MANIFEST_PATH)
+    if not output.is_absolute():
+        output = root.resolve() / output
 
     if dry_run:
         summary["planned"] = len(manifest["files"])
+        manifest = merge_derived_asset_manifests(existing_manifest, manifest)
+        manifest["upload_summary"] = summary
+        manifest_path = write_json(output, manifest)
         write_json(
             raw_cloud_state_path(root, config, "last-derived-asset-upload-plan.json"),
             {"summary": summary, "manifest": manifest},
@@ -742,12 +776,44 @@ def upload_derived_assets_to_cloud(
         except Exception as exc:  # pragma: no cover - exercised only against live object storage
             summary["errors"].append({"path": item["path"], "key": item["key"], "error": str(exc)})
 
+    manifest = merge_derived_asset_manifests(existing_manifest, manifest)
     manifest["upload_summary"] = summary
-    write_json(manifest_path, manifest)
+    manifest_path = write_json(output, manifest)
     write_json(
         raw_cloud_state_path(root, config, "last-derived-asset-upload-report.json"),
         {"summary": summary, "manifest": manifest},
     )
+    return summary
+
+
+def restore_derived_asset_from_cloud(
+    root: Path,
+    config: RawCloudConfig,
+    asset_path: Path,
+    *,
+    force: bool = False,
+) -> dict[str, Any]:
+    root = root.resolve()
+    local_path = asset_path if asset_path.is_absolute() else root / asset_path
+    rel_path = local_path.resolve().relative_to(root).as_posix()
+    key = derived_asset_key(local_path, root, config.prefix)
+    summary: dict[str, Any] = {
+        "action": "asset-restore",
+        "path": rel_path,
+        "key": key,
+        "restored": 0,
+        "skipped": 0,
+        "errors": [],
+    }
+    if local_path.exists() and not force:
+        summary["skipped"] = 1
+        return summary
+
+    try:
+        R2Client(config).get_file(key, local_path)
+        summary["restored"] = 1
+    except Exception as exc:  # pragma: no cover - exercised only against live object storage
+        summary["errors"].append({"path": rel_path, "key": key, "error": str(exc)})
     return summary
 
 

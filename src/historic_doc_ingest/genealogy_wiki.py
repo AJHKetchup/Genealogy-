@@ -21,6 +21,7 @@ from historic_doc_ingest.raw_cloud import (
     cleanup_remote_json_manifests,
     upload_derived_assets_to_cloud,
     load_raw_cloud_config,
+    restore_derived_asset_from_cloud,
     restore_raw_from_cloud,
     upload_raw_to_cloud,
     verify_raw_cloud,
@@ -2545,7 +2546,9 @@ Preserve:
 
 Extract images:
 
-- Crop every meaningful non-text visual region from the source image into the extracted image output folder.
+- Crop only substantial visuals likely to be useful as standalone wiki assets: portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts.
+- Do not crop marginal numbers, checkmarks, filing marks, short handwritten notes, ordinary stamps, seals, signatures, decorative rules, page labels, or tiny marks unless the visual itself is unusually important and cannot be captured by transcription.
+- Transcribe or describe minor marks in the Markdown instead of cropping them.
 - Name crops `page-{int(page["page"]):04d}-image-01.png`, `page-{int(page["page"]):04d}-image-02.png`, and so on.
 - Insert each crop inline in the Markdown near its source position using descriptive alt text and the visible caption when present.
 - If a visible image cannot be cropped confidently, add an uncertainty note with its approximate location and reason.
@@ -2696,8 +2699,32 @@ def prepare_raw_source_for_agent_conversion(
     warnings: list[str] = []
 
     jobs = source_prep_jobs_by_hash(paths.root).get(digest, [])
-    if jobs and not force:
+    if jobs and not force and not (page_range and media_type == "pdf"):
         job_manifests = [paths.root / str(job["manifest"]) for job in jobs]
+    elif jobs and not force and page_range and media_type == "pdf":
+        existing_by_range = {str(job.get("page_range", "")): paths.root / str(job["manifest"]) for job in jobs}
+        page_count = pdf_page_count(source)
+        selected_pages = parse_page_range(page_range, page_count)
+        job_manifests = []
+        for group in group_pages_for_agent_jobs(selected_pages, pages_per_job):
+            group_range = format_page_range(group)
+            existing_manifest = existing_by_range.get(group_range)
+            if existing_manifest:
+                job_manifests.append(existing_manifest)
+                continue
+            job_id = f"{agent_conversion_job_id(source, digest)}-p{group[0]:04d}-{group[-1]:04d}"
+            title = f"{source.stem} pages {group_range}"
+            job_manifests.append(
+                create_codex_conversion_job(
+                    paths.root,
+                    source,
+                    job_id=job_id,
+                    title=title,
+                    page_range=group_range,
+                    image_scale=image_scale,
+                    force=force,
+                )
+            )
     else:
         job_manifests = create_agent_conversion_jobs_for_source(
             paths.root,
@@ -4430,12 +4457,17 @@ def source_prep_jobs_by_hash(root: Path) -> dict[str, list[dict[str, str]]]:
         digest = manifest.get("source_sha256")
         if not digest:
             continue
+        chunking = manifest.get("chunking", {})
+        page_range = ""
+        if isinstance(chunking, dict):
+            page_range = str(chunking.get("page_range", ""))
         jobs.setdefault(digest, []).append(
             {
                 "job_id": str(manifest.get("job_id", "")),
                 "title": str(manifest.get("title", "")),
                 "manifest": relative_to_root(manifest_path, root),
                 "status": str(manifest.get("status", "")),
+                "page_range": page_range,
             }
         )
     return jobs
@@ -5978,7 +6010,10 @@ Accuracy rules:
 
 Visual extraction rules:
 
-- In `## Images, Captions, And Visual Notes`, describe every visible photo, portrait, headshot, signature, seal, stamp, map, chart, illustration, diagram, or other non-text visual evidence in reading order.
+- In `## Images, Captions, And Visual Notes`, describe meaningful visual evidence in reading order.
+- Create crop bounding boxes only for substantial visuals likely to be useful as standalone wiki assets: portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts.
+- Do not create crop boxes for marginal numbers, checkmarks, filing marks, short handwritten notes, ordinary stamps, seals, signatures, decorative rules, page labels, or tiny marks unless the visual itself is unusually important and cannot be captured by transcription.
+- Transcribe or describe minor marks in the Markdown instead of cropping them.
 - In `## Visual Region Manifest`, include exactly one fenced `json` object with a `visual_regions` array.
 - If there are no meaningful visual regions, return `{{"visual_regions": [], "no_visual_regions_reason": "..."}}`.
 - For each visual region, include: `region_id`, `kind`, `bbox_pct`, `caption_literal`, `caption_type`, `identity_basis`, `source_context`, `confidence`, `suggested_filename`, and `inline_anchor`.
@@ -6444,6 +6479,12 @@ def source_prep_gemini_run(
         page = first_source_prep_batch_page(raw_task)
         page_image = paths.root / str(page.get("page_image", ""))
         output_path = paths.root / str(page.get("output_path", ""))
+        if not page_image.exists():
+            try:
+                config = load_raw_cloud_config(paths.root, require_credentials=True)
+                restore_derived_asset_from_cloud(paths.root, config, page_image)
+            except Exception:
+                pass
         if not page_image.exists():
             task_report = {
                 "task_id": task_id,

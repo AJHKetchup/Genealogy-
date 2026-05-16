@@ -614,6 +614,26 @@ def test_prepare_raw_sources_splits_large_pdfs_into_agent_page_ranges(tmp_path) 
     assert len(index["sources"][0]["conversion_jobs"]) == 3
 
 
+def test_prepare_raw_sources_adds_requested_pdf_page_range_when_source_has_existing_jobs(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 6):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    first = prepare_raw_sources(tmp_path, page_range="1-2", pages_per_job=25)
+    second = prepare_raw_sources(tmp_path, page_range="4-5", pages_per_job=25)
+
+    assert len(first[0].conversion_jobs) == 1
+    assert len(second[0].conversion_jobs) == 1
+    manifests = sorted((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
+    page_ranges = sorted(json.loads(path.read_text(encoding="utf-8"))["chunking"]["page_range"] for path in manifests)
+    assert page_ranges == ["1-2", "4-5"]
+
+
 def test_write_agent_queues_creates_conversion_qa_and_extraction_tasks(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     from PIL import Image

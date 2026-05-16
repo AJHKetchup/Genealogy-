@@ -9,6 +9,8 @@ from historic_doc_ingest.raw_cloud import (
     build_raw_cloud_manifest,
     build_raw_cloud_manifest_from_remote,
     load_raw_cloud_config,
+    restore_derived_asset_from_cloud,
+    upload_derived_assets_to_cloud,
 )
 
 
@@ -176,3 +178,74 @@ def test_remote_raw_cloud_manifest_lists_r2_raw_sources(monkeypatch, tmp_path) -
     assert manifest["source"] == "remote-r2-list"
     assert manifest["files"][0]["key"] == "archive/raw/sources/A image.jpg"
     assert manifest["files"][0]["sha256"] == "sha-for-A image.jpg"
+
+
+def test_derived_asset_upload_preserves_existing_manifest_entries(monkeypatch, tmp_path) -> None:
+    existing = {
+        "version": 1,
+        "files": [
+            {
+                "path": "raw/codex-conversion-jobs/job/page-images/page-0001.jpg",
+                "key": "derived/raw/codex-conversion-jobs/job/page-images/page-0001.jpg",
+                "bytes": 123,
+                "sha256": "old-sha",
+                "media_type": "image/jpeg",
+            }
+        ],
+    }
+    manifest_path = tmp_path / "raw" / "r2-derived-assets.json"
+    manifest_path.parent.mkdir(parents=True)
+    manifest_path.write_text(json.dumps(existing), encoding="utf-8")
+
+    class FakeClient:
+        def __init__(self, config):
+            self.config = config
+
+    monkeypatch.setattr("historic_doc_ingest.raw_cloud.R2Client", FakeClient)
+    config = RawCloudConfig(
+        endpoint_url=DEFAULT_ENDPOINT_URL,
+        bucket="genealogy",
+        access_key_id="test",
+        secret_access_key="test",
+    )
+
+    summary = upload_derived_assets_to_cloud(tmp_path, config)
+
+    assert summary["total_files"] == 0
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert [item["path"] for item in manifest["files"]] == [
+        "raw/codex-conversion-jobs/job/page-images/page-0001.jpg"
+    ]
+
+
+def test_restore_derived_asset_uses_deterministic_r2_key(monkeypatch, tmp_path) -> None:
+    calls = []
+
+    class FakeClient:
+        def __init__(self, config):
+            self.config = config
+
+        def get_file(self, key, output):
+            calls.append((key, output.relative_to(tmp_path).as_posix()))
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_bytes(b"jpeg bytes")
+
+    monkeypatch.setattr("historic_doc_ingest.raw_cloud.R2Client", FakeClient)
+    config = RawCloudConfig(
+        endpoint_url=DEFAULT_ENDPOINT_URL,
+        bucket="genealogy",
+        access_key_id="test",
+        secret_access_key="test",
+        prefix="archive/",
+    )
+
+    target = tmp_path / "raw" / "codex-conversion-jobs" / "job" / "page-images" / "page-0002.jpg"
+    summary = restore_derived_asset_from_cloud(tmp_path, config, target)
+
+    assert summary["restored"] == 1
+    assert calls == [
+        (
+            "archive/derived/raw/codex-conversion-jobs/job/page-images/page-0002.jpg",
+            "raw/codex-conversion-jobs/job/page-images/page-0002.jpg",
+        )
+    ]

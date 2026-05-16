@@ -102,6 +102,7 @@ def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch)
 
     def fake_gemini(**kwargs):
         assert "Visual Region Manifest" in kwargs["prompt"]
+        assert "Do not create crop boxes for marginal numbers" in kwargs["prompt"]
         return {
             "text": complete_gemini_markdown(
                 json.dumps(
