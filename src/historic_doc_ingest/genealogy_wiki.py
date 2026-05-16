@@ -6187,6 +6187,10 @@ def source_prep_docling_discovery_run(
             ):
                 count_skip(f"cached_{cached.get('status')}")
                 continue
+            source_path = paths.root / str(task.get("source", ""))
+            if not source_path.exists():
+                count_skip("raw_source_not_restored")
+                continue
 
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))

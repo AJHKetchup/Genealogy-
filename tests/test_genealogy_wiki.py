@@ -1321,6 +1321,30 @@ but the current gate should send it to Gemini Flash before accepting the source-
     assert batch_queue["tasks"][0]["status"] == "needs_reread"
 
 
+def test_docling_discovery_skips_pages_when_raw_source_not_restored(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "missing-during-cloud-run.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling baseline. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+    source.unlink()
+
+    def fail_docling(input_path, **kwargs):
+        raise AssertionError("Docling should not run without the raw source restored")
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fail_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert summary["inspected"] == 0
+    assert summary["errors"] == 0
+    assert summary["skipped"]["raw_source_not_restored"] == 1
+
+
 def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None:
     captured: dict[str, object] = {}
 
