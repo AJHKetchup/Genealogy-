@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T09:37:00Z
+Generated: 2026-05-16T09:52:49Z
 
 ## Source Conversion
 
@@ -21,6 +21,8 @@ Generated: 2026-05-16T09:37:00Z
 - Analyzer staging opportunity pages: 2
 - Analyzer staging recommendations: claim: 2, source_packet: 2
 - Analyzer staging readiness: blocked_pending_conversion_qa: 2
+- Analyzer research leads: 15
+- Analyzer lead page references: 18
 - Staging drafts: claims: 0, identity: 0, relationships: 0, source_packets: 0
 
 ## Page Upgrades

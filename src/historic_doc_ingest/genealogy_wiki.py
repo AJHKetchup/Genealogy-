@@ -5805,6 +5805,14 @@ def research_staging_opportunities_markdown_path(root: Path) -> Path:
     return root.resolve() / "research" / "staging-opportunities.md"
 
 
+def research_analyzer_leads_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "research-leads.json"
+
+
+def research_analyzer_leads_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "research-leads.md"
+
+
 def write_research_analyzer_state(root: Path, summary: dict[str, object]) -> Path:
     path = research_analyzer_state_path(root)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -5837,6 +5845,193 @@ def write_research_staging_opportunities(
     append_index_reference(paths.research / "index.md", "Agent Work", "[[staging-opportunities]]")
     append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
     return json_path, markdown_path
+
+
+def write_research_analyzer_leads(
+    root: Path,
+    pages: list[dict[str, object]],
+    payload: dict[str, object] | None = None,
+) -> tuple[Path, Path]:
+    paths = WikiPaths(root.resolve())
+    payload = payload or build_research_analyzer_leads_payload(paths.root, pages)
+    json_path = research_analyzer_leads_index_path(paths.root)
+    markdown_path = research_analyzer_leads_markdown_path(paths.root)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_research_analyzer_leads_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[research-leads]]")
+    append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
+    return json_path, markdown_path
+
+
+def build_research_analyzer_leads_payload(root: Path, pages: list[dict[str, object]]) -> dict[str, object]:
+    leads_by_key: dict[str, dict[str, object]] = {}
+    all_sources = set()
+    recommended_action_counts: dict[str, int] = {}
+    staging_type_counts: dict[str, int] = {}
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        page_leads = [
+            str(lead).strip()
+            for lead in page.get("genealogy_leads", [])
+            if str(lead).strip()
+        ]
+        if not page_leads:
+            continue
+        page_leads = list(dict.fromkeys(page_leads))
+        source = str(page.get("source", ""))
+        if source:
+            all_sources.add(source)
+        action = str(page.get("recommended_action", "unknown")).strip() or "unknown"
+        recommended_action_counts[action] = recommended_action_counts.get(action, 0) + len(page_leads)
+        recommendations = [
+            recommendation
+            for recommendation in page.get("staging_recommendations", [])
+            if isinstance(recommendation, dict)
+        ]
+        recommendation_types = [
+            str(recommendation.get("type", "")).strip()
+            for recommendation in recommendations
+            if str(recommendation.get("type", "")).strip()
+        ]
+        for rec_type in recommendation_types:
+            staging_type_counts[rec_type] = staging_type_counts.get(rec_type, 0) + len(page_leads)
+        for lead in page_leads:
+            lead_key = slug(lead) or hashlib.sha256(lead.encode("utf-8")).hexdigest()[:12]
+            record = leads_by_key.setdefault(
+                lead_key,
+                {
+                    "lead": lead,
+                    "lead_key": lead_key,
+                    "page_reference_count": 0,
+                    "source_count": 0,
+                    "recommended_action_counts": {},
+                    "staging_recommendation_counts": {},
+                    "pages": [],
+                },
+            )
+            record["page_reference_count"] = safe_int(record.get("page_reference_count"), 0) + 1
+            action_counts = record.get("recommended_action_counts", {})
+            if isinstance(action_counts, dict):
+                action_counts[action] = safe_int(action_counts.get(action), 0) + 1
+            rec_counts = record.get("staging_recommendation_counts", {})
+            if isinstance(rec_counts, dict):
+                for rec_type in recommendation_types:
+                    rec_counts[rec_type] = safe_int(rec_counts.get(rec_type), 0) + 1
+            pages_list = record.get("pages", [])
+            if isinstance(pages_list, list):
+                pages_list.append(
+                    {
+                        "source": source,
+                        "source_sha256": str(page.get("source_sha256", "")),
+                        "converted_file": str(page.get("converted_file", "")),
+                        "chunk_manifest": str(page.get("chunk_manifest", "")),
+                        "page": safe_int(page.get("page"), 0),
+                        "chunks": page.get("chunks", []),
+                        "score": safe_int(page.get("score"), 0),
+                        "recommended_action": action,
+                        "reasons": page.get("reasons", []),
+                        "matched_terms": page.get("matched_terms", []),
+                        "suspicious_readings": page.get("suspicious_readings", []),
+                        "staging_recommendations": recommendations,
+                    }
+                )
+    lead_records = []
+    for record in leads_by_key.values():
+        pages_list = record.get("pages", [])
+        page_sources = {
+            str(page.get("source", ""))
+            for page in pages_list
+            if isinstance(page, dict) and str(page.get("source", "")).strip()
+        } if isinstance(pages_list, list) else set()
+        record["source_count"] = len(page_sources)
+        if isinstance(record.get("recommended_action_counts"), dict):
+            record["recommended_action_counts"] = dict(sorted(record["recommended_action_counts"].items()))
+        if isinstance(record.get("staging_recommendation_counts"), dict):
+            record["staging_recommendation_counts"] = dict(sorted(record["staging_recommendation_counts"].items()))
+        lead_records.append(record)
+    lead_records.sort(
+        key=lambda record: (
+            -safe_int(record.get("page_reference_count"), 0),
+            str(record.get("lead", "")).casefold(),
+        )
+    )
+    return {
+        "version": RESEARCH_ANALYZER_VERSION,
+        "created": utc_timestamp(),
+        "purpose": (
+            "Aggregated genealogy leads detected from converted chunks. These are research navigation signals, "
+            "not canonical claims or person identities."
+        ),
+        "inputs": {
+            "chunks": "raw/chunks/*/manifest.json",
+            "research_analyzer": relative_to_root(research_analyzer_index_path(root), root),
+        },
+        "summary": {
+            "lead_count": len(lead_records),
+            "page_reference_count": sum(safe_int(record.get("page_reference_count"), 0) for record in lead_records),
+            "source_count": len(all_sources),
+            "recommended_action_counts": dict(sorted(recommended_action_counts.items())),
+            "staging_recommendation_counts": dict(sorted(staging_type_counts.items())),
+        },
+        "leads": lead_records,
+        "storage_contract": (
+            "GitHub stores this JSON/Markdown lead map. R2 continues to hold raw originals and durable binary "
+            "assets."
+        ),
+    }
+
+
+def build_research_analyzer_leads_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    leads = payload.get("leads", [])
+    if not isinstance(leads, list):
+        leads = []
+    rows = [
+        "| Lead | Page Refs | Sources | Actions | Suggested Outputs | First Source |",
+        "| --- | ---: | ---: | --- | --- | --- |",
+    ]
+    for lead in leads:
+        if not isinstance(lead, dict):
+            continue
+        pages = lead.get("pages", [])
+        first_page = pages[0] if isinstance(pages, list) and pages and isinstance(pages[0], dict) else {}
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(lead.get("lead", "")),
+                    markdown_table_cell(lead.get("page_reference_count", "")),
+                    markdown_table_cell(lead.get("source_count", "")),
+                    markdown_table_cell(format_status_counts(lead.get("recommended_action_counts", {}))),
+                    markdown_table_cell(format_status_counts(lead.get("staging_recommendation_counts", {}))),
+                    markdown_table_cell(first_page.get("source", "")),
+                ]
+            )
+            + " |"
+        )
+    return f"""# Research Analyzer Leads
+
+Generated: {payload.get("created", "")}
+
+These are names and lead strings detected in converted chunks. They are research navigation signals, not accepted identities or canonical claims.
+
+## Summary
+
+- Leads: {dict_value(summary, "lead_count")}
+- Page references: {dict_value(summary, "page_reference_count")}
+- Sources: {dict_value(summary, "source_count")}
+- Recommended actions: {format_status_counts(dict_value(summary, "recommended_action_counts", {}))}
+- Suggested staging outputs: {format_status_counts(dict_value(summary, "staging_recommendation_counts", {}))}
+
+## Leads
+
+{chr(10).join(rows)}
+"""
 
 
 def build_research_staging_opportunities_payload(root: Path, pages: list[dict[str, object]]) -> dict[str, object]:
@@ -6096,6 +6291,14 @@ def research_analyzer_run(
     staging_summary = staging_payload.get("summary", {})
     if not isinstance(staging_summary, dict):
         staging_summary = {}
+    leads_payload = build_research_analyzer_leads_payload(paths.root, pages)
+    leads_json_path = research_analyzer_leads_index_path(paths.root)
+    leads_markdown_path = research_analyzer_leads_markdown_path(paths.root)
+    if not dry_run:
+        leads_json_path, leads_markdown_path = write_research_analyzer_leads(paths.root, pages, leads_payload)
+    leads_summary = leads_payload.get("summary", {})
+    if not isinstance(leads_summary, dict):
+        leads_summary = {}
 
     index_payload = {
         "version": RESEARCH_ANALYZER_VERSION,
@@ -6115,9 +6318,13 @@ def research_analyzer_run(
         "research_questions_refreshed": len(refreshed_questions),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
+        "research_leads": relative_to_root(leads_json_path, paths.root),
+        "research_leads_markdown": relative_to_root(leads_markdown_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
+        "research_lead_count": safe_int(leads_summary.get("lead_count"), 0),
+        "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -6143,9 +6350,12 @@ def research_analyzer_run(
         "feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
+        "research_leads": relative_to_root(leads_json_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
+        "research_lead_count": safe_int(leads_summary.get("lead_count"), 0),
+        "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
@@ -10813,6 +11023,11 @@ def build_system_research_readiness_summary(
         "analyzer_staging_opportunity_pages": safe_int(research_analyzer.get("staging_opportunity_pages"), 0),
         "analyzer_staging_recommendations": research_analyzer.get("staging_recommendation_counts", {}),
         "analyzer_staging_readiness": research_analyzer.get("staging_readiness_counts", {}),
+        "analyzer_research_leads": safe_int(research_analyzer.get("research_lead_count"), 0),
+        "analyzer_research_lead_page_references": safe_int(
+            research_analyzer.get("research_lead_page_references"), 0
+        ),
+        "research_leads": research_analyzer.get("research_leads", ""),
         "staging_counts": {
             "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
             "claims": count_markdown_files(root / "research" / "_staging" / "claims"),
@@ -11045,6 +11260,8 @@ Generated: {payload.get("created", "")}
 - Analyzer staging opportunity pages: {dict_value(research_readiness, "analyzer_staging_opportunity_pages")}
 - Analyzer staging recommendations: {format_status_counts(dict_value(research_readiness, "analyzer_staging_recommendations", {}))}
 - Analyzer staging readiness: {format_status_counts(dict_value(research_readiness, "analyzer_staging_readiness", {}))}
+- Analyzer research leads: {dict_value(research_readiness, "analyzer_research_leads")}
+- Analyzer lead page references: {dict_value(research_readiness, "analyzer_research_lead_page_references")}
 - Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
 
 ## Page Upgrades

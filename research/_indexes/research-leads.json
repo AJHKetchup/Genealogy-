@@ -1,0 +1,780 @@
+{
+  "version": 4,
+  "created": "2026-05-16T09:52:48Z",
+  "purpose": "Aggregated genealogy leads detected from converted chunks. These are research navigation signals, not canonical claims or person identities.",
+  "inputs": {
+    "chunks": "raw/chunks/*/manifest.json",
+    "research_analyzer": "research/_indexes/research-analyzer.json"
+  },
+  "summary": {
+    "lead_count": 15,
+    "page_reference_count": 18,
+    "source_count": 1,
+    "recommended_action_counts": {
+      "record_signal": 18
+    },
+    "staging_recommendation_counts": {
+      "claim": 18,
+      "source_packet": 18
+    }
+  },
+  "leads": [
+    {
+      "lead": "M. Des Gouttes",
+      "lead_key": "m-des-gouttes",
+      "page_reference_count": 2,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 2
+      },
+      "staging_recommendation_counts": {
+        "claim": 2,
+        "source_packet": 2
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        },
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Dinichert",
+      "lead_key": "m-dinichert",
+      "page_reference_count": 2,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 2
+      },
+      "staging_recommendation_counts": {
+        "claim": 2,
+        "source_packet": 2
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        },
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Werner",
+      "lead_key": "m-werner",
+      "page_reference_count": 2,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 2
+      },
+      "staging_recommendation_counts": {
+        "claim": 2,
+        "source_packet": 2
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        },
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "Général Marotte",
+      "lead_key": "g-n-ral-marotte",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Boissier",
+      "lead_key": "m-boissier",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. de Pflügl",
+      "lead_key": "m-de-pfl-gl",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Decencière",
+      "lead_key": "m-decenci-re",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Huber",
+      "lead_key": "m-huber",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Lipiansky",
+      "lead_key": "m-lipiansky",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Motta",
+      "lead_key": "m-motta",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Ratzenberger",
+      "lead_key": "m-ratzenberger",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 1,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+          ],
+          "score": 20,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "M. Sakalauskas",
+      "lead_key": "m-sakalauskas",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "MM",
+      "lead_key": "mm",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "MM. Audeoud",
+      "lead_key": "mm-audeoud",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lead": "MM. Logoz",
+      "lead_key": "mm-logoz",
+      "page_reference_count": 1,
+      "source_count": 1,
+      "recommended_action_counts": {
+        "record_signal": 1
+      },
+      "staging_recommendation_counts": {
+        "claim": 1,
+        "source_packet": 1
+      },
+      "pages": [
+        {
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+          "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+          "page": 3,
+          "chunks": [
+            "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
+          ],
+          "score": 35,
+          "recommended_action": "record_signal",
+          "reasons": [
+            "genealogy lead section names 9 candidate(s)",
+            "visual evidence cue(s): handwriting"
+          ],
+          "matched_terms": [],
+          "suspicious_readings": [],
+          "staging_recommendations": [
+            {
+              "type": "source_packet",
+              "target": "research/_staging/source-packets",
+              "reason": "Preserve page-level literal support and provenance before extracting claims."
+            },
+            {
+              "type": "claim",
+              "target": "research/_staging/claims",
+              "reason": "Names or life-event cues may support atomic fact drafts after source review."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "storage_contract": "GitHub stores this JSON/Markdown lead map. R2 continues to hold raw originals and durable binary assets."
+}

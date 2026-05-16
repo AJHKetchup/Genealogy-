@@ -204,6 +204,7 @@ Storage deaccession is allowed only when:
 - Implemented: research-analyzer page recommendations for staged source packets, claims, relationships, identity review, and conversion corrections.
 - Implemented: page-level upgrade request JSON and Markdown dashboard artifacts.
 - Implemented: research-analyzer staging-opportunities JSON and Markdown reports for queued draft work.
+- Implemented: research-analyzer genealogy lead index with page-level source provenance.
 - Implemented: research-analyzer staging-opportunity readiness gates from conversion QA and reread holds.
 - Implemented: research-analyzer question prompt packets that use the shared agent-queue/task-state contract.
 - Implemented: research-analyzer question tasks honor conversion-QA page holds before evidence extraction.

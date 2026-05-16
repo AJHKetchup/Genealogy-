@@ -13,6 +13,8 @@
   "research_questions_refreshed": 2,
   "research_question_queue": "research/_agent-queues/research-questions.json",
   "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
+  "research_leads": "research/_indexes/research-leads.json",
+  "research_leads_markdown": "research/research-leads.md",
   "staging_opportunity_pages": 2,
   "staging_recommendation_counts": {
     "claim": 2,
@@ -21,6 +23,8 @@
   "staging_readiness_counts": {
     "blocked_pending_conversion_qa": 2
   },
+  "research_lead_count": 15,
+  "research_lead_page_references": 18,
   "dry_run": false,
   "pages": [
     {
