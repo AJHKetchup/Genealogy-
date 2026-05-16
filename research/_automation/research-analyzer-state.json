@@ -30,5 +30,15 @@
   },
   "research_lead_count": 15,
   "research_lead_page_references": 18,
+  "research_lead_classification_counts": {
+    "ambiguous_marker": 1,
+    "person_name": 3,
+    "titled_name": 11
+  },
+  "research_lead_review_status_counts": {
+    "low_signal": 1,
+    "repeated_unresolved_lead": 3,
+    "unresolved_lead": 11
+  },
   "blockers": []
 }

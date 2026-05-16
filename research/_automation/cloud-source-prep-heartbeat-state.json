@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T09:52:48Z",
+  "created": "2026-05-16T10:07:38Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -106,6 +106,16 @@
         },
         "research_lead_count": 15,
         "research_lead_page_references": 18,
+        "research_lead_classification_counts": {
+          "ambiguous_marker": 1,
+          "person_name": 3,
+          "titled_name": 11
+        },
+        "research_lead_review_status_counts": {
+          "low_signal": 1,
+          "repeated_unresolved_lead": 3,
+          "unresolved_lead": 11
+        },
         "blockers": [],
         "state": "research/_automation/research-analyzer-state.json"
       }
@@ -187,6 +197,6 @@
       }
     }
   },
-  "finished": "2026-05-16T09:52:49Z",
+  "finished": "2026-05-16T10:07:39Z",
   "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

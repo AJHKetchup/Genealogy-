@@ -5939,6 +5939,8 @@ def build_research_analyzer_leads_payload(root: Path, pages: list[dict[str, obje
                     }
                 )
     lead_records = []
+    classification_counts: dict[str, int] = {}
+    review_status_counts: dict[str, int] = {}
     for record in leads_by_key.values():
         pages_list = record.get("pages", [])
         page_sources = {
@@ -5946,6 +5948,22 @@ def build_research_analyzer_leads_payload(root: Path, pages: list[dict[str, obje
             for page in pages_list
             if isinstance(page, dict) and str(page.get("source", "")).strip()
         } if isinstance(pages_list, list) else set()
+        matched_terms = sorted(
+            {
+                str(term).strip()
+                for page in pages_list
+                if isinstance(page, dict)
+                for term in (page.get("matched_terms", []) if isinstance(page.get("matched_terms", []), list) else [])
+                if str(term).strip()
+            }
+        ) if isinstance(pages_list, list) else []
+        classification = classify_research_lead(str(record.get("lead", "")))
+        review_status = research_lead_review_status(record, classification, matched_terms)
+        classification_counts[classification] = classification_counts.get(classification, 0) + 1
+        review_status_counts[review_status] = review_status_counts.get(review_status, 0) + 1
+        record["lead_classification"] = classification
+        record["review_status"] = review_status
+        record["matched_family_terms"] = matched_terms
         record["source_count"] = len(page_sources)
         if isinstance(record.get("recommended_action_counts"), dict):
             record["recommended_action_counts"] = dict(sorted(record["recommended_action_counts"].items()))
@@ -5954,6 +5972,7 @@ def build_research_analyzer_leads_payload(root: Path, pages: list[dict[str, obje
         lead_records.append(record)
     lead_records.sort(
         key=lambda record: (
+            research_lead_review_sort_priority(str(record.get("review_status", ""))),
             -safe_int(record.get("page_reference_count"), 0),
             str(record.get("lead", "")).casefold(),
         )
@@ -5975,6 +5994,8 @@ def build_research_analyzer_leads_payload(root: Path, pages: list[dict[str, obje
             "source_count": len(all_sources),
             "recommended_action_counts": dict(sorted(recommended_action_counts.items())),
             "staging_recommendation_counts": dict(sorted(staging_type_counts.items())),
+            "lead_classification_counts": dict(sorted(classification_counts.items())),
+            "lead_review_status_counts": dict(sorted(review_status_counts.items())),
         },
         "leads": lead_records,
         "storage_contract": (
@@ -5982,6 +6003,48 @@ def build_research_analyzer_leads_payload(root: Path, pages: list[dict[str, obje
             "assets."
         ),
     }
+
+
+def classify_research_lead(lead: str) -> str:
+    normalized = re.sub(r"\s+", " ", lead).strip()
+    lower = normalized.casefold().strip(".")
+    if not normalized or lower in {"m", "mm", "mme", "mlle", "mr", "mrs", "ms", "messrs", "monsieur", "messieurs"}:
+        return "ambiguous_marker"
+    if re.match(r"(?i)^(m|mr|mrs|ms|mme|mlle|dr|prof|gen|general)\.?\s+\S+", normalized):
+        return "titled_name"
+    name_tokens = [
+        token.strip(".,;:()[]{}\"'")
+        for token in re.split(r"\s+", normalized)
+        if token.strip(".,;:()[]{}\"'")[:1].isupper()
+        and any(char.isalpha() for char in token)
+        and len(token.strip(".,;:()[]{}\"'")) >= 2
+    ]
+    if len(name_tokens) >= 2:
+        return "person_name"
+    if len(name_tokens) == 1:
+        return "single_name"
+    return "unclassified"
+
+
+def research_lead_review_status(record: dict[str, object], classification: str, matched_terms: list[str]) -> str:
+    if classification == "ambiguous_marker":
+        return "low_signal"
+    if matched_terms:
+        return "known_context_match"
+    if safe_int(record.get("page_reference_count"), 0) > 1:
+        return "repeated_unresolved_lead"
+    if classification in {"person_name", "titled_name", "single_name"}:
+        return "unresolved_lead"
+    return "low_signal"
+
+
+def research_lead_review_sort_priority(review_status: str) -> int:
+    return {
+        "known_context_match": 0,
+        "repeated_unresolved_lead": 1,
+        "unresolved_lead": 2,
+        "low_signal": 3,
+    }.get(review_status, 4)
 
 
 def build_research_analyzer_leads_markdown(payload: dict[str, object]) -> str:
@@ -5992,8 +6055,8 @@ def build_research_analyzer_leads_markdown(payload: dict[str, object]) -> str:
     if not isinstance(leads, list):
         leads = []
     rows = [
-        "| Lead | Page Refs | Sources | Actions | Suggested Outputs | First Source |",
-        "| --- | ---: | ---: | --- | --- | --- |",
+        "| Lead | Review | Class | Page Refs | Sources | Actions | Suggested Outputs | First Source |",
+        "| --- | --- | --- | ---: | ---: | --- | --- | --- |",
     ]
     for lead in leads:
         if not isinstance(lead, dict):
@@ -6005,6 +6068,8 @@ def build_research_analyzer_leads_markdown(payload: dict[str, object]) -> str:
             + " | ".join(
                 [
                     markdown_table_cell(lead.get("lead", "")),
+                    markdown_table_cell(lead.get("review_status", "")),
+                    markdown_table_cell(lead.get("lead_classification", "")),
                     markdown_table_cell(lead.get("page_reference_count", "")),
                     markdown_table_cell(lead.get("source_count", "")),
                     markdown_table_cell(format_status_counts(lead.get("recommended_action_counts", {}))),
@@ -6027,6 +6092,8 @@ These are names and lead strings detected in converted chunks. They are research
 - Sources: {dict_value(summary, "source_count")}
 - Recommended actions: {format_status_counts(dict_value(summary, "recommended_action_counts", {}))}
 - Suggested staging outputs: {format_status_counts(dict_value(summary, "staging_recommendation_counts", {}))}
+- Lead classifications: {format_status_counts(dict_value(summary, "lead_classification_counts", {}))}
+- Review statuses: {format_status_counts(dict_value(summary, "lead_review_status_counts", {}))}
 
 ## Leads
 
@@ -6325,6 +6392,8 @@ def research_analyzer_run(
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
         "research_lead_count": safe_int(leads_summary.get("lead_count"), 0),
         "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
+        "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
+        "research_lead_review_status_counts": leads_summary.get("lead_review_status_counts", {}),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -6356,6 +6425,8 @@ def research_analyzer_run(
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
         "research_lead_count": safe_int(leads_summary.get("lead_count"), 0),
         "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
+        "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
+        "research_lead_review_status_counts": leads_summary.get("lead_review_status_counts", {}),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
@@ -11027,6 +11098,8 @@ def build_system_research_readiness_summary(
         "analyzer_research_lead_page_references": safe_int(
             research_analyzer.get("research_lead_page_references"), 0
         ),
+        "analyzer_research_lead_classifications": research_analyzer.get("research_lead_classification_counts", {}),
+        "analyzer_research_lead_review_statuses": research_analyzer.get("research_lead_review_status_counts", {}),
         "research_leads": research_analyzer.get("research_leads", ""),
         "staging_counts": {
             "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
@@ -11262,6 +11335,8 @@ Generated: {payload.get("created", "")}
 - Analyzer staging readiness: {format_status_counts(dict_value(research_readiness, "analyzer_staging_readiness", {}))}
 - Analyzer research leads: {dict_value(research_readiness, "analyzer_research_leads")}
 - Analyzer lead page references: {dict_value(research_readiness, "analyzer_research_lead_page_references")}
+- Analyzer lead classifications: {format_status_counts(dict_value(research_readiness, "analyzer_research_lead_classifications", {}))}
+- Analyzer lead review statuses: {format_status_counts(dict_value(research_readiness, "analyzer_research_lead_review_statuses", {}))}
 - Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
 
 ## Page Upgrades

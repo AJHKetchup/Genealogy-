@@ -1481,11 +1481,17 @@ status: stub
     assert "blocked_pending_conversion_qa" in opportunities_text
     leads = json.loads((tmp_path / "research" / "_indexes" / "research-leads.json").read_text(encoding="utf-8"))
     assert leads["summary"]["lead_count"] == 1
+    assert leads["summary"]["lead_classification_counts"] == {"person_name": 1}
+    assert leads["summary"]["lead_review_status_counts"] == {"known_context_match": 1}
     assert leads["leads"][0]["lead"] == "Dario Pulgar Smith"
+    assert leads["leads"][0]["lead_classification"] == "person_name"
+    assert leads["leads"][0]["review_status"] == "known_context_match"
+    assert "Dario" in leads["leads"][0]["matched_family_terms"]
     assert leads["leads"][0]["pages"][0]["staging_recommendations"][0]["type"] == "source_packet"
     leads_text = (tmp_path / "research" / "research-leads.md").read_text(encoding="utf-8")
     assert "Research Analyzer Leads" in leads_text
     assert "Dario Pulgar Smith" in leads_text
+    assert "known_context_match" in leads_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 
@@ -1525,6 +1531,8 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert index["research_leads"] == "research/_indexes/research-leads.json"
     leads = json.loads((tmp_path / "research" / "_indexes" / "research-leads.json").read_text(encoding="utf-8"))
     assert leads["leads"][0]["lead"] == "M. Werner"
+    assert leads["leads"][0]["lead_classification"] == "titled_name"
+    assert leads["leads"][0]["review_status"] == "unresolved_lead"
     assert leads["leads"][0]["pages"][0]["converted_file"] == "raw/converted/generic-record.codex.md"
     assert "M. Werner" in (tmp_path / "research" / "research-leads.md").read_text(encoding="utf-8")
     assert not (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").exists()
@@ -2107,6 +2115,8 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "Analyzer staging opportunity pages" in dashboard_text
     assert "Analyzer staging readiness" in dashboard_text
     assert "Analyzer research leads" in dashboard_text
+    assert "Analyzer lead classifications" in dashboard_text
+    assert "Analyzer lead review statuses" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Queue Blockers" in dashboard_text
     assert "## Storage" in dashboard_text
@@ -2143,6 +2153,8 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     payload = json.loads((tmp_path / "research" / "_indexes" / "system-status.json").read_text(encoding="utf-8"))
     assert payload["research_readiness"]["analyzer_research_leads"] == 1
     assert payload["research_readiness"]["analyzer_research_lead_page_references"] == 1
+    assert payload["research_readiness"]["analyzer_research_lead_classifications"] == {"person_name": 1}
+    assert payload["research_readiness"]["analyzer_research_lead_review_statuses"] == {"unresolved_lead": 1}
     areas = {action["area"] for action in payload["next_actions"]}
     assert {"conversion_qa", "evidence_extraction"} <= areas
     assert payload["queues"]["evidence_extraction"]["status_counts"]["blocked_pending_conversion_qa"] >= 1

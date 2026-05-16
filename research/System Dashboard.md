@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T09:52:49Z
+Generated: 2026-05-16T10:07:38Z
 
 ## Source Conversion
 
@@ -23,6 +23,8 @@ Generated: 2026-05-16T09:52:49Z
 - Analyzer staging readiness: blocked_pending_conversion_qa: 2
 - Analyzer research leads: 15
 - Analyzer lead page references: 18
+- Analyzer lead classifications: ambiguous_marker: 1, person_name: 3, titled_name: 11
+- Analyzer lead review statuses: low_signal: 1, repeated_unresolved_lead: 3, unresolved_lead: 11
 - Staging drafts: claims: 0, identity: 0, relationships: 0, source_packets: 0
 
 ## Page Upgrades
