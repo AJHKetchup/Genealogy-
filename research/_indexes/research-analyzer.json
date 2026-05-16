@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "created": "2026-05-16",
   "purpose": "Automated research-analyzer signals from converted chunks, including page-level upgrade candidates and research-question work items.",
   "family_context_terms": [],
@@ -51,7 +51,19 @@
       "visual_kinds": [
         "handwriting"
       ],
-      "uncertainty_markers": 0
+      "uncertainty_markers": 0,
+      "staging_recommendations": [
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        },
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
@@ -87,7 +99,19 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 0
+      "uncertainty_markers": 0,
+      "staging_recommendations": [
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        },
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        }
+      ]
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md",
@@ -111,7 +135,8 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 0
+      "uncertainty_markers": 0,
+      "staging_recommendations": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
@@ -135,7 +160,8 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 0
+      "uncertainty_markers": 0,
+      "staging_recommendations": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
@@ -159,7 +185,8 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 3
+      "uncertainty_markers": 3,
+      "staging_recommendations": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
@@ -183,7 +210,8 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 1
+      "uncertainty_markers": 1,
+      "staging_recommendations": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
@@ -207,7 +235,8 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 0
+      "uncertainty_markers": 0,
+      "staging_recommendations": []
     },
     {
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
@@ -231,7 +260,8 @@
       "relationship_cues": [],
       "life_event_cues": [],
       "visual_kinds": [],
-      "uncertainty_markers": 0
+      "uncertainty_markers": 0,
+      "staging_recommendations": []
     }
   ]
 }

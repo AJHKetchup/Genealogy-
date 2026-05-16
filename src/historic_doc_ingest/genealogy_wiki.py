@@ -5171,7 +5171,7 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
-RESEARCH_ANALYZER_VERSION = 1
+RESEARCH_ANALYZER_VERSION = 2
 RESEARCH_ANALYZER_UPGRADE_SCORE = 50
 RESEARCH_ANALYZER_SIGNAL_SCORE = 20
 RESEARCH_ANALYZER_QUESTION_SCORE = 20
@@ -5851,6 +5851,16 @@ def analyze_research_chunk_page(
     requested_treatment = "pro_with_crops" if visual_kinds else "pro"
     relevance = "critical" if score >= 80 and has_family_context else "high" if has_family_context else "medium"
     entities = sorted(set(matched_terms + [lead for lead in genealogy_leads if lead in matched_terms]))
+    staging_recommendations = research_analyzer_staging_recommendations(
+        score=score,
+        matched_terms=matched_terms,
+        suspicious_readings=suspicious_readings,
+        genealogy_leads=genealogy_leads,
+        relationship_cues=relationship_cues,
+        life_event_cues=life_event_cues,
+        visual_kinds=visual_kinds,
+        uncertainty_count=uncertainty_count,
+    )
     return {
         "converted_file": str(manifest.get("converted_file", "")),
         "chunk_manifest": relative_to_root(manifest_path, root),
@@ -5872,7 +5882,65 @@ def analyze_research_chunk_page(
         "life_event_cues": life_event_cues,
         "visual_kinds": visual_kinds,
         "uncertainty_markers": uncertainty_count,
+        "staging_recommendations": staging_recommendations,
     }
+
+
+def research_analyzer_staging_recommendations(
+    *,
+    score: int,
+    matched_terms: list[str],
+    suspicious_readings: list[dict[str, str]],
+    genealogy_leads: list[str],
+    relationship_cues: list[str],
+    life_event_cues: list[str],
+    visual_kinds: list[str],
+    uncertainty_count: int,
+) -> list[dict[str, str]]:
+    if score < RESEARCH_ANALYZER_SIGNAL_SCORE:
+        return []
+
+    recommendations = [
+        {
+            "type": "source_packet",
+            "target": "research/_staging/source-packets",
+            "reason": "Preserve page-level literal support and provenance before extracting claims.",
+        }
+    ]
+    if matched_terms or genealogy_leads or life_event_cues:
+        recommendations.append(
+            {
+                "type": "claim",
+                "target": "research/_staging/claims",
+                "reason": "Names or life-event cues may support atomic fact drafts after source review.",
+            }
+        )
+    if relationship_cues:
+        recommendations.append(
+            {
+                "type": "relationship",
+                "target": "research/_staging/relationships",
+                "reason": "Relationship language may support a relationship candidate after evidence extraction.",
+            }
+        )
+    identity_visuals = {"face", "photo", "photograph", "portrait", "signature"}
+    if suspicious_readings or (matched_terms and identity_visuals.intersection(set(visual_kinds))):
+        recommendations.append(
+            {
+                "type": "identity",
+                "target": "research/_staging/identity",
+                "reason": "Name drift or identity-linked visual evidence may require same-person analysis.",
+            }
+        )
+    if uncertainty_count and matched_terms:
+        recommendations.append(
+            {
+                "type": "conversion_review",
+                "target": "research/_conversion-review/corrections",
+                "reason": "Uncertain readings near known family terms should be checked before promotion.",
+            }
+        )
+    return recommendations
 
 
 def research_analyzer_page_sort_key(page: dict[str, object]) -> tuple[int, int, str, int]:
@@ -5977,6 +6045,7 @@ def build_research_analyzer_question_markdown(candidate: dict[str, object], ques
     genealogy_leads = candidate.get("genealogy_leads", [])
     if not isinstance(genealogy_leads, list):
         genealogy_leads = []
+    staging_lines = format_research_analyzer_staging_recommendations(candidate)
     return f"""---
 type: research_question
 status: todo
@@ -6010,6 +6079,10 @@ recommended_action: {yaml_string(str(candidate.get("recommended_action", "")))}
 - Matched family terms: {", ".join(str(value) for value in matched_terms) or "none"}
 - Genealogy leads: {", ".join(str(value) for value in genealogy_leads) or "none"}
 - Reasons: {", ".join(str(value) for value in reasons) or "none"}
+
+## Suggested Staging Outputs
+
+{staging_lines}
 
 ## Next Action
 
@@ -6070,6 +6143,7 @@ def build_research_question_task(
         "page": page,
         "score": safe_int(candidate.get("score"), 0),
         "recommended_action": str(candidate.get("recommended_action", "")),
+        "staging_recommendations": candidate.get("staging_recommendations", []),
         "prompt": build_research_question_task_prompt(candidate, question_id, question_path, root, qc_hold),
     }
     if qc_hold:
@@ -6093,6 +6167,7 @@ def build_research_question_task_prompt(
     root: Path,
     qc_hold: dict[str, object] | None = None,
 ) -> str:
+    staging_lines = format_research_analyzer_staging_recommendations(candidate)
     hold_section = ""
     if qc_hold:
         hold_section = f"""
@@ -6118,12 +6193,31 @@ Use `$genealogy-claim-extraction` if evidence can be staged from the cited chunk
 - Page: {safe_int(candidate.get("page"), 0)}
 - Chunks: {", ".join(f"`{chunk}`" for chunk in candidate.get("chunks", []) if str(chunk).strip()) or "`none`"}{hold_section}
 
+## Suggested Staging Outputs
+
+{staging_lines}
+
 ## Done When
 
 - The question is answered in `research/_staging/` drafts or left as a documented hold.
 - Any staged draft includes source path, converted file, chunk/page reference, literal support, uncertainty notes, and promotion recommendation.
 - No canonical wiki page is edited directly.
 """
+
+
+def format_research_analyzer_staging_recommendations(candidate: dict[str, object]) -> str:
+    recommendations = candidate.get("staging_recommendations", [])
+    if not isinstance(recommendations, list) or not recommendations:
+        return "- None"
+    lines = []
+    for recommendation in recommendations:
+        if not isinstance(recommendation, dict):
+            continue
+        rec_type = str(recommendation.get("type", "draft")).strip() or "draft"
+        target = str(recommendation.get("target", "research/_staging")).strip() or "research/_staging"
+        reason = str(recommendation.get("reason", "")).strip()
+        lines.append(f"- `{rec_type}` -> `{target}`: {reason}")
+    return "\n".join(lines) if lines else "- None"
 
 
 def write_research_question_queue(root: Path, pages: list[dict[str, object]]) -> Path:

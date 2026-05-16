@@ -1312,7 +1312,7 @@ status: stub
     converted = tmp_path / "raw" / "converted" / "dario-record.codex.md"
     converted.write_text(
         complete_gemini_page_markdown(
-            "Dario Pulgar Smith appears as son of Maria Smith and signed the register."
+            "Dario Pulgar Smith appears as father of Maria Smith, born in Lima, and signed the register."
         )
         + """
 ## Extracted Genealogy Leads
@@ -1341,6 +1341,14 @@ status: stub
     assert "Dario Pulgar Smith" in hint["matched_terms"]
     index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
     assert index["pages"][0]["recommended_action"] == "request_page_upgrade"
+    recommendation_types = {item["type"] for item in index["pages"][0]["staging_recommendations"]}
+    assert {"source_packet", "claim", "relationship", "identity"} <= recommendation_types
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    assert {item["type"] for item in queue["tasks"][0]["staging_recommendations"]} == recommendation_types
+    question_text = (tmp_path / queue["tasks"][0]["question_path"]).read_text(encoding="utf-8")
+    prompt_text = (tmp_path / queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "## Suggested Staging Outputs" in question_text
+    assert "`relationship` -> `research/_staging/relationships`" in prompt_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 
@@ -1376,6 +1384,7 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
     assert queue["task_count"] == 1
     assert queue["tasks"][0]["status"] == "todo"
+    assert {item["type"] for item in queue["tasks"][0]["staging_recommendations"]} == {"source_packet", "claim"}
     assert (tmp_path / queue["tasks"][0]["question_path"]).exists()
     assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
     assert "prompt" not in queue["tasks"][0]

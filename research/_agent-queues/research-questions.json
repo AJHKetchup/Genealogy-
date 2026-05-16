@@ -24,6 +24,18 @@
       "page": 3,
       "score": 35,
       "recommended_action": "record_signal",
+      "staging_recommendations": [
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        },
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        }
+      ],
       "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-9ae7e6a2ac30-p0003.md"
     },
     {
@@ -44,6 +56,18 @@
       "page": 1,
       "score": 20,
       "recommended_action": "record_signal",
+      "staging_recommendations": [
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        },
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        }
+      ],
       "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-b4dc978311d3-p0001.md"
     }
   ],
