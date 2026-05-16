@@ -207,6 +207,7 @@ Storage deaccession is allowed only when:
 - Implemented: cloud heartbeat runs the research-analyzer loop and reports its research-question queue.
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
+- Implemented: whole-system dashboard next-action guidance from queue blockers and readiness signals.
 - Implemented: static HTML final-site generator structure for product wiki pages.
 - Implemented: non-destructive page-level storage lifecycle ranking and deaccession candidate records.
 - Partial: research wiki and staging structure.

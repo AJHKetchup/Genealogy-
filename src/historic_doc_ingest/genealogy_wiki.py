@@ -9959,7 +9959,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
         "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
     }
-    return {
+    payload = {
         "created": utc_timestamp(),
         "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
         "source_conversion": build_system_source_conversion_summary(prep_manifest, raw_cloud, source_usability),
@@ -9972,6 +9972,134 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "recent_automation": build_system_recent_automation_summary(paths.root),
         "blockers": blockers or [],
     }
+    payload["next_actions"] = build_system_next_actions(payload)
+    return payload
+
+
+def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, object]]:
+    queues = payload.get("queues", {})
+    source_conversion = payload.get("source_conversion", {})
+    page_upgrades = payload.get("page_upgrades", {})
+    lifecycle = payload.get("storage_lifecycle", {})
+    actions: list[dict[str, object]] = []
+
+    def add(
+        area: str,
+        priority: str,
+        reason: str,
+        next_step: str,
+        *,
+        count: int = 0,
+        queue: str = "",
+    ) -> None:
+        action: dict[str, object] = {
+            "area": area,
+            "priority": priority,
+            "reason": reason,
+            "next_step": next_step,
+        }
+        if count:
+            action["count"] = count
+        if queue:
+            action["queue"] = queue
+        actions.append(action)
+
+    source_prep = queue_payload(queues, "source_prep")
+    source_prep_open = queue_status_total(
+        source_prep,
+        ("todo", "claimed", "in_progress", "rough_discovery", "needs_reread"),
+    )
+    if source_prep_open:
+        add(
+            "source_prep",
+            "high",
+            f"{source_prep_open} source-prep task(s) still need page-level conversion or review.",
+            "Complete source-prep work before downstream conversion QA and extraction can progress.",
+            count=source_prep_open,
+            queue=str(source_prep.get("path", "")),
+        )
+
+    conversion_qa = queue_payload(queues, "conversion_qa")
+    conversion_qa_open = queue_status_total(conversion_qa, ("todo", "claimed", "in_progress"))
+    if conversion_qa_open:
+        add(
+            "conversion_qa",
+            "high",
+            f"{conversion_qa_open} converted source(s) are waiting for conversion-QA triage.",
+            "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
+            count=conversion_qa_open,
+            queue=str(conversion_qa.get("path", "")),
+        )
+
+    evidence_extraction = queue_payload(queues, "evidence_extraction")
+    blocked_extraction = queue_status_total(evidence_extraction, ("blocked_pending_conversion_qa",))
+    if blocked_extraction:
+        add(
+            "evidence_extraction",
+            "high",
+            f"{blocked_extraction} evidence-extraction task(s) are blocked by the conversion-QA gate.",
+            "Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction.",
+            count=blocked_extraction,
+            queue=str(evidence_extraction.get("path", "")),
+        )
+    else:
+        extraction_open = queue_status_total(evidence_extraction, ("todo", "claimed", "in_progress"))
+        if extraction_open:
+            add(
+                "evidence_extraction",
+                "medium",
+                f"{extraction_open} reviewed chunk(s) are ready for staged source-packet or claim extraction.",
+                "Create staging drafts under research/_staging before proof review or canonical promotion.",
+                count=extraction_open,
+                queue=str(evidence_extraction.get("path", "")),
+            )
+
+    research_questions = queue_payload(queues, "research_questions")
+    question_open = queue_status_total(research_questions, ("todo", "claimed", "in_progress"))
+    if question_open:
+        add(
+            "research_questions",
+            "medium",
+            f"{question_open} research-analyzer question task(s) are queued.",
+            "Work the prompt packets and keep results in research questions or staging drafts.",
+            count=question_open,
+            queue=str(research_questions.get("path", "")),
+        )
+
+    active_upgrades = safe_int(dict_value(page_upgrades, "active_request_count"), 0)
+    if active_upgrades:
+        add(
+            "page_upgrades",
+            "medium",
+            f"{active_upgrades} page-level conversion upgrade request(s) are active.",
+            "Route high-value pages through advanced conversion or reread before deeper extraction.",
+            count=active_upgrades,
+        )
+
+    conversion_not_started = safe_int(
+        dict_value(dict_value(source_conversion, "usability_status_counts", {}), "conversion_not_started"),
+        0,
+    )
+    if conversion_not_started:
+        add(
+            "source_conversion",
+            "low",
+            f"{conversion_not_started} source(s) are registered but not yet converted.",
+            "Prepare the next bounded raw-source batch while preserving originals in R2.",
+            count=conversion_not_started,
+        )
+
+    deaccession_candidates = safe_int(dict_value(lifecycle, "deaccession_candidate_count"), 0)
+    if deaccession_candidates:
+        add(
+            "storage_lifecycle",
+            "low",
+            f"{deaccession_candidates} page(s) are marked as non-destructive deaccession candidates.",
+            "Review candidate records manually before any future R2 lifecycle action.",
+            count=deaccession_candidates,
+        )
+
+    return actions[:6]
 
 
 def build_system_source_conversion_summary(
@@ -10153,6 +10281,20 @@ def system_queue_summary(root: Path, path: Path) -> dict[str, object]:
     return summary
 
 
+def queue_payload(queues: object, name: str) -> dict[str, object]:
+    if not isinstance(queues, dict):
+        return {}
+    queue = queues.get(name, {})
+    return queue if isinstance(queue, dict) else {}
+
+
+def queue_status_total(queue: dict[str, object], statuses: tuple[str, ...]) -> int:
+    counts = queue.get("status_counts", {})
+    if not isinstance(counts, dict):
+        return 0
+    return sum(safe_int(counts.get(status), 0) for status in statuses)
+
+
 def count_files_with_suffix(path: Path, suffix: str) -> int:
     if not path.exists():
         return 0
@@ -10168,6 +10310,22 @@ def build_system_status_markdown(payload: dict[str, object]) -> str:
     lifecycle = payload.get("storage_lifecycle", {})
     blockers = payload.get("blockers", [])
     blocker_lines = [f"- {blocker}" for blocker in blockers] if isinstance(blockers, list) and blockers else ["- None"]
+    next_actions = payload.get("next_actions", [])
+    action_lines = [
+        "- **"
+        + str(dict_value(action, "priority", "medium"))
+        + "** `"
+        + str(dict_value(action, "area", "unknown"))
+        + "`: "
+        + str(dict_value(action, "next_step", ""))
+        + " ("
+        + str(dict_value(action, "reason", ""))
+        + ")"
+        for action in next_actions
+        if isinstance(action, dict)
+    ]
+    if not action_lines:
+        action_lines = ["- None"]
     queues = payload.get("queues", {})
     queue_rows = [
         "| Queue | Tasks | Status Counts |",
@@ -10216,6 +10374,10 @@ Generated: {payload.get("created", "")}
 - Critical or high relevance requests: {dict_value(page_upgrades, "critical_or_high_count")}
 - Pro/reread requests: {dict_value(page_upgrades, "pro_or_reread_count")}
 - Analyzer requests written last run: {dict_value(page_upgrades, "analyzer_upgrade_requests_written")}
+
+## Next Actions
+
+{chr(10).join(action_lines)}
 
 ## Queues
 

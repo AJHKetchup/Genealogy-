@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T06:51:41Z",
+  "created": "2026-05-16T07:07:05Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -121,5 +121,38 @@
       "blockers": []
     }
   },
-  "blockers": []
+  "blockers": [],
+  "next_actions": [
+    {
+      "area": "conversion_qa",
+      "priority": "high",
+      "reason": "4 converted source(s) are waiting for conversion-QA triage.",
+      "next_step": "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
+      "count": 4,
+      "queue": "research/_agent-queues/conversion-qa.json"
+    },
+    {
+      "area": "evidence_extraction",
+      "priority": "high",
+      "reason": "8 evidence-extraction task(s) are blocked by the conversion-QA gate.",
+      "next_step": "Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction.",
+      "count": 8,
+      "queue": "research/_agent-queues/evidence-extraction.json"
+    },
+    {
+      "area": "research_questions",
+      "priority": "medium",
+      "reason": "2 research-analyzer question task(s) are queued.",
+      "next_step": "Work the prompt packets and keep results in research questions or staging drafts.",
+      "count": 2,
+      "queue": "research/_agent-queues/research-questions.json"
+    },
+    {
+      "area": "source_conversion",
+      "priority": "low",
+      "reason": "48 source(s) are registered but not yet converted.",
+      "next_step": "Prepare the next bounded raw-source batch while preserving originals in R2.",
+      "count": 48
+    }
+  ]
 }

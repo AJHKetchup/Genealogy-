@@ -1877,12 +1877,40 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert payload["queues"]["source_prep"]["path"] == "research/_agent-queues/source-prep.json"
     assert payload["storage"]["r2_derived_asset_count"] == 1
     assert payload["storage_lifecycle"]["status"] == "not_started"
+    assert {action["area"] for action in payload["next_actions"]} >= {"source_prep"}
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Source Conversion" in dashboard_text
+    assert "## Next Actions" in dashboard_text
+    assert "`source_prep`" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert "[[System Dashboard]]" in research_index
+
+
+def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    from PIL import Image
+
+    source = tmp_path / "raw" / "sources" / "source-page.jpg"
+    Image.new("RGB", (20, 10), "white").save(source)
+    prepare_raw_sources(tmp_path)
+    manifest = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
+    page_output = manifest.parent / "page-markdown" / "page-0001.md"
+    page_output.write_text(complete_page_markdown("Dario Pulgar Smith appears in this page."), encoding="utf-8")
+    assembled = assemble_codex_conversion_job(tmp_path, manifest)
+    chunk_converted_markdown(tmp_path, assembled)
+    write_agent_queues(tmp_path)
+
+    write_system_status_dashboard(tmp_path)
+
+    payload = json.loads((tmp_path / "research" / "_indexes" / "system-status.json").read_text(encoding="utf-8"))
+    areas = {action["area"] for action in payload["next_actions"]}
+    assert {"conversion_qa", "evidence_extraction"} <= areas
+    assert payload["queues"]["evidence_extraction"]["status_counts"]["blocked_pending_conversion_qa"] >= 1
+    dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
+    assert "conversion-QA triage" in dashboard_text
+    assert "regenerate agent queues" in dashboard_text
 
 
 def test_storage_lifecycle_report_writes_page_level_deaccession_candidate(tmp_path) -> None:
