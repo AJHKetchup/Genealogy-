@@ -1,53 +1,11 @@
 {
   "created": "2026-05-16",
   "queue": "research-questions",
-  "task_count": 3,
+  "task_count": 2,
   "status_counts": {
-    "todo": 3
+    "todo": 2
   },
   "tasks": [
-    {
-      "task_id": "research-question:RQ-b4dc978311d3-P0001",
-      "queue": "research-questions",
-      "role": "evidence_extractor",
-      "skill": "genealogy-claim-extraction",
-      "status": "todo",
-      "question_id": "RQ-b4dc978311d3-P0001",
-      "question_path": "research/questions/rq-b4dc978311d3-p0001.md",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
-      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
-      "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-03.md"
-      ],
-      "page": 1,
-      "score": 35,
-      "recommended_action": "record_signal",
-      "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-b4dc978311d3-p0001.md"
-    },
-    {
-      "task_id": "research-question:RQ-9774509ee6c0-P0002",
-      "queue": "research-questions",
-      "role": "evidence_extractor",
-      "skill": "genealogy-claim-extraction",
-      "status": "todo",
-      "question_id": "RQ-9774509ee6c0-P0002",
-      "question_path": "research/questions/rq-9774509ee6c0-p0002.md",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
-      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
-      "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-02.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-03.md"
-      ],
-      "page": 2,
-      "score": 35,
-      "recommended_action": "record_signal",
-      "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-9774509ee6c0-p0002.md"
-    },
     {
       "task_id": "research-question:RQ-9ae7e6a2ac30-P0003",
       "queue": "research-questions",
@@ -61,13 +19,32 @@
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
       "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
       "chunks": [
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-02.md",
-        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-03.md"
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md"
       ],
       "page": 3,
       "score": 35,
       "recommended_action": "record_signal",
       "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-9ae7e6a2ac30-p0003.md"
+    },
+    {
+      "task_id": "research-question:RQ-b4dc978311d3-P0001",
+      "queue": "research-questions",
+      "role": "evidence_extractor",
+      "skill": "genealogy-claim-extraction",
+      "status": "todo",
+      "question_id": "RQ-b4dc978311d3-P0001",
+      "question_path": "research/questions/rq-b4dc978311d3-p0001.md",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+      "chunks": [
+        "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md"
+      ],
+      "page": 1,
+      "score": 20,
+      "recommended_action": "record_signal",
+      "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-b4dc978311d3-p0001.md"
     }
   ],
   "purpose": "Research-analyzer questions queued for staged evidence extraction or external research follow-up."

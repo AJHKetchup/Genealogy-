@@ -964,6 +964,34 @@ def test_agent_task_state_updates_multiple_tasks_in_one_write(tmp_path) -> None:
     assert payload["tasks"]["source-prep:job:p0002"]["note"] == "batch claim"
 
 
+def test_write_agent_queue_removes_stale_prompt_packets(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    queue_dir = tmp_path / "research" / "_agent-queues"
+    stale_dir = queue_dir / "prompts" / "demo"
+    stale_dir.mkdir(parents=True)
+    stale_prompt = stale_dir / "old-task.md"
+    stale_prompt.write_text("stale prompt", encoding="utf-8")
+
+    queue_path = genealogy_wiki.write_agent_queue(
+        tmp_path,
+        queue_dir,
+        "demo",
+        [
+            {
+                "task_id": "demo:new-task",
+                "status": "todo",
+                "prompt": "fresh prompt",
+            }
+        ],
+    )
+
+    queue = json.loads(queue_path.read_text(encoding="utf-8"))
+    prompt_path = tmp_path / queue["tasks"][0]["prompt_path"]
+    assert not stale_prompt.exists()
+    assert prompt_path.exists()
+    assert prompt_path.read_text(encoding="utf-8") == "fresh prompt"
+
+
 def test_source_prep_batches_emit_one_page_per_worker(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -1394,6 +1422,128 @@ def test_research_analyzer_blocks_question_tasks_for_qc_held_pages(tmp_path) -> 
     assert "Do not extract claims" in prompt_text
 
 
+def test_research_analyzer_refreshes_existing_todo_question_pages(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "refresh-record.codex.md"
+    converted.write_text(
+        complete_gemini_page_markdown("M. Werner appears in a professional list.")
+        + """
+## Extracted Genealogy Leads
+
+- **M. Werner**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+    first_summary = research_analyzer_run(tmp_path, limit=3)
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    question_path = tmp_path / queue["tasks"][0]["question_path"]
+    assert first_summary["research_questions_written"] == 1
+    assert "M. Werner" in question_path.read_text(encoding="utf-8")
+
+    converted.write_text(
+        complete_gemini_page_markdown("M. Huber appears in a professional list.")
+        + """
+## Extracted Genealogy Leads
+
+- **M. Huber**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+    second_summary = research_analyzer_run(tmp_path, limit=3)
+
+    assert second_summary["research_questions_written"] == 0
+    assert second_summary["research_questions_existing"] == 1
+    assert second_summary["research_questions_refreshed"] == 1
+    refreshed_text = question_path.read_text(encoding="utf-8")
+    assert "M. Huber" in refreshed_text
+    assert "M. Werner" not in refreshed_text
+
+
+def test_research_analyzer_removes_stale_todo_question_pages(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "stale-question.codex.md"
+    converted.write_text(
+        """# Stale Question
+
+## Conversion Metadata
+
+- Source: `raw/sources/source.pdf`
+- Source SHA-256: `abc123`
+- Manifest: `raw/codex-conversion-jobs/job/manifest.json`
+
+## Page Metadata
+- Page: 1
+
+## Literal Transcription
+
+M. Werner appears in a professional list.
+
+## Extracted Genealogy Leads
+
+- **M. Werner**
+
+## Page Metadata
+- Page: 2
+
+## Literal Transcription
+
+M. Huber appears in a professional list.
+
+## Extracted Genealogy Leads
+
+- **M. Huber**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+    research_analyzer_run(tmp_path, limit=3, question_limit=10)
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    stale_task = next(task for task in queue["tasks"] if task["page"] == 2)
+    stale_question_path = tmp_path / stale_task["question_path"]
+    stale_question_link = f"[[questions/{stale_question_path.stem}]]"
+    assert stale_question_path.exists()
+
+    converted.write_text(
+        """# Stale Question
+
+## Conversion Metadata
+
+- Source: `raw/sources/source.pdf`
+- Source SHA-256: `abc123`
+- Manifest: `raw/codex-conversion-jobs/job/manifest.json`
+
+## Page Metadata
+- Page: 1
+
+## Literal Transcription
+
+M. Werner appears in a professional list.
+
+## Extracted Genealogy Leads
+
+- **M. Werner**
+
+## Page Metadata
+- Page: 2
+
+## Literal Transcription
+
+No genealogy signal on this page.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+    research_analyzer_run(tmp_path, limit=3, question_limit=10)
+
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    assert [task["page"] for task in queue["tasks"]] == [1]
+    assert not stale_question_path.exists()
+    research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
+    assert stale_question_link not in research_index
+
+
 def test_research_analyzer_recovers_original_pages_for_question_queue(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     source = tmp_path / "raw" / "sources" / "archive.pdf"
@@ -1433,6 +1583,10 @@ def test_research_analyzer_recovers_original_pages_for_question_queue(tmp_path) 
 
 M. Werner appears in a professional list.
 
+## Extracted Genealogy Leads
+
+- **M. Werner**
+
 ## Page Metadata
 
 - Task id: `source-prep:archive-pages-4-5:p0005`
@@ -1443,7 +1597,6 @@ M. Huber appears in a professional list.
 
 ## Extracted Genealogy Leads
 
-- **M. Werner**
 - **M. Huber**
 """,
         encoding="utf-8",
@@ -2115,6 +2268,62 @@ Long line two.
     chunk_text = (manifest.parent / "page-0001-chunk-01.md").read_text(encoding="utf-8")
     assert "type: source_prep_chunk" in chunk_text
     assert "Short page." in chunk_text
+
+
+def test_chunk_converted_markdown_splits_page_metadata_sections(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "sample-metadata.codex.md"
+    converted.write_text(
+        """# Sample Source
+
+## Conversion Metadata
+
+- Source: `raw/sources/source.pdf`
+- Source SHA-256: `abc123`
+- Manifest: `raw/codex-conversion-jobs/job/manifest.json`
+
+## Page Metadata
+- **task_id**: `source-prep:job:p0001`
+- **page_number**: 1
+
+## Literal Transcription
+
+First page text.
+
+## Page Metadata
+- Task id: `source-prep:job:p0002`
+- Page: 2
+
+## Literal Transcription
+
+Second page text.
+
+## Page Metadata
+- Task id: `source-prep:job:p0003`
+
+## Literal Transcription
+
+Third page text.
+""",
+        encoding="utf-8",
+    )
+    output_dir = tmp_path / "raw" / "chunks" / "sample-metadata"
+    output_dir.mkdir(parents=True)
+    stale_chunk = output_dir / "page-0001-chunk-99.md"
+    stale_chunk.write_text("stale generated chunk", encoding="utf-8")
+
+    manifest_path = chunk_converted_markdown(tmp_path, converted, output_dir=output_dir, max_chars=1000)
+
+    assert not stale_chunk.exists()
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert [chunk["page_start"] for chunk in manifest["chunks"]] == [1, 2, 3]
+    assert [Path(chunk["path"]).name for chunk in manifest["chunks"]] == [
+        "page-0001-chunk-01.md",
+        "page-0002-chunk-01.md",
+        "page-0003-chunk-01.md",
+    ]
+    assert "Second page text." in (output_dir / "page-0002-chunk-01.md").read_text(encoding="utf-8")
+    assert "Third page text." in (output_dir / "page-0003-chunk-01.md").read_text(encoding="utf-8")
 
 
 def test_sync_vault_transcriptions_writes_editable_notes_and_preserves_manual_edits(tmp_path) -> None:

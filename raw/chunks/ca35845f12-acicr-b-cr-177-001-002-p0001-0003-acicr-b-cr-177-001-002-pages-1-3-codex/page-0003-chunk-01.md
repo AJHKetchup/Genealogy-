@@ -1,131 +1,15 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1e3cfd29a17e-P0001-02
+chunk_id: CHUNK-83011af124e2-P0003-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md
-converted_sha256: 1e3cfd29a17e50725c3ae0d35d2d41545da43d83cb29235abbbd3b8efe161794
+converted_sha256: 83011af124e218553dc01e4f0aa42f3013b7499ef9b271de58a2205a4b4c98fa
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json
-page_start: 1
-page_end: 1
-part: 2
+page_start: 3
+page_end: 3
+part: 1
 ---
-
-## Page Metadata
-- Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002`
-- Model route: `pro`
-- Route reasons: pdf_profile_complex
-- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/work-orders/page-0002.md`
-- Page: 2
-- Output Markdown target: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md`
-- External research relevance: ``
-- External requested treatment: ``
-- External relevance reasons: none
-- Recommended action: ``
-- Quality flags: none
-- Technical reread clues: none
-
-## Layout And Reading Order
-The page contains a single column of typed text. The reading order is from top to bottom. There are handwritten notes in the left margin corresponding to specific numbered entries.
-
-- **Header:** Located at the top right of the page.
-- **Main Content:** A numbered list of entries (17-37) continues from the previous page. Each entry consists of a number, a date, and a description.
-- **Marginalia:**
-    - "plié" is handwritten to the left of entry 20.
-    - "plié" is handwritten to the left of entry 26.
-    - "m s." is handwritten to the left of entry 32.
-
-## Literal Transcription
-```markdown
-Ch. 177 Conférence diplomatique, juin 1929 2.
-
-17.- 1.11.28. Répondons à 1/ ci-dessus,
-
-18.- 31.10.28. M. Decencière fait parvenir à M. Werner les épreuves de son
-cours sur les PG
-
-19.- 27.11.28. A.r. à 1/ ci-dessus, retournons épreuves et réclamons mise en
-pages.
-
-<!-- handwritten in left margin next to line 20 -->
-plié
-
-20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
-tion de Genève et du Code des PG
-
-21.- 12.12.28. Transmettons demande ci-dessus à M. Dinichert
-
-22.- 13.12.28. M. Dinichert nous envoie 10 ex, de chacun des projets
-
-23.- 14.12.28. Répondons à Alliance en envoyant 6 ex. de chacun des projets
-(20)
-
-24.- 14.12.28. Remercions M. Dinichert pour les 20 ex. et demandons autorisa-
-tion de publier dans le Bulletin la circ. du 2.7.28 (4)
-
-25.- 21.12.28. Département politique autorise publication de la circ. dans
-Bulletin (24)
-
-<!-- handwritten in left margin next to line 26 -->
-plié
-
-26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
-
-27.- 8.1.29. Envoyons à M. Lacroix les épreuves corrigées du tirage à part
-de l'étude de M. Werner sur PG.
-
-28.- 21.1.29. Librairie Hachette informe M. Werner que les 500 tirés à part
-couteront 2000 frs français.
-
-29.- 23.1.29. N/ 1/ à M. Motta au sujet représentation du CI à conférence diplo
-matique.
-
-30.- 24.1.29. M. Werner répond à 1/ du 21.1. (28) au sujet de ses tirés à part
-
-31.- 25.1.29. Librairie répond à 1/ ci-dessus. Toutes les indications de M.
-Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
-
-<!-- handwritten in left margin next to line 32 -->
-m s.
-
-32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
-
-33.- 29.1.29. A.r. à 1' ci-dessus. Prenons note que l'indication relative
-au CI ne pourra figurer sur la couverture des tirés à part.
-
-34.- 29.1.29. Remercions librairie Hachette pour 1/ du 25.1. (31)
-
-35.- 11.2.29. Infirmons M. Dinichert que M. Walter Yung pourrait fonctionner
-comme secrétaire avec M. des Gouttes
-
-36.- 13.2.29. Départ. politique nous informe que les Etats Unis s'opposent à
-ce que le CI prenne part à la collaboration du Code des PG
-
-37.- 25.2.29. A.r. de 1/ ci-dessus, sommes reconnaissants au Dép. politi. de.
-bien vouloir auprès des Etats-Unis p[illegible]
-```
-
-## Images, Captions, And Visual Notes
-There are no images, photographs, or significant illustrations on this page. There are minor handwritten annotations in the left margin:
-- "plié" is written next to entry 20.
-- "plié" is written next to entry 26.
-- "m s." is written next to entry 32.
-
-## Uncertain Or Illegible
-- **Entry 37:** The last part of the line is very faint and cut off at the bottom of the page, making it illegible. It begins with the letter 'p'.
-
-## Completeness Audit
-The transcription of this page is complete. The final line of text (entry 37) is physically cut off at the bottom of the page, and the visible portion has been transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and minor handwritten annotations, with no significant images, illustrations, or photographs that would warrant cropping."
-}
-```
 
 ## Page Metadata
 
@@ -301,4 +185,111 @@ is completely unaware of the July Conference...
 57.- 16.4.29. Polit. Dept. replies to the letter of 28.3. (45), We can send the
 Werner brochure to the governments participating in the Geneva conv., for
 July, 250 copies are sufficient,
+```
+
+## Interpretation
+
+This document is a chronological log of communications and actions taken by an organization, likely the International Committee of the Red Cross (ICRC), in preparation for a Diplomatic Conference to be held in July 1929. This conference was historically significant as it led to the adoption of two new Geneva Conventions: one relative to the Treatment of Prisoners of War (updating Hague regulations) and another for the Amelioration of the Condition of the Wounded and Sick in Armies in the Field.
+
+The log details correspondence with various individuals, national Red Cross (RC) societies (Italian, Belgian, Costa Rican), and government bodies (the Swiss Political Department, the US government).
+
+- **Abbreviations**:
+    - `CR`: Croix-Rouge (Red Cross).
+    - `CI`: Comité International (International Committee).
+    - `Départ. Polit.`: Département Politique (Political Department, likely the Swiss Federal Department of Foreign Affairs).
+    - `Conv.`: Convention.
+    - `Conf.`: Conférence (Conference).
+    - `Circ.`: Circulaire (Circular).
+    - `Tél.`: Télégramme (Telegram).
+    - `l/`: lettre (letter).
+    - `n/ l/`: notre lettre (our letter).
+    - `A.r.`: Accusé de réception (Acknowledgement of receipt).
+    - `PG`: Prisonniers de Guerre (Prisoners of War).
+- **Handwritten notes**:
+    - `original + copie`: Indicates that both the original and a copy of a document were handled.
+    - `ms`: Likely an abbreviation for `manuscrit` (manuscript), perhaps indicating a handwritten letter or note was received or filed.
+    - `✓`: A checkmark, indicating a task was completed or an item was noted.
+
+The entries show the logistical and diplomatic work involved, such as informing delegates, distributing documents, confirming dates, and coordinating with participating governments and organizations.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible portions of this document. The typewriting and handwriting are clear.
+
+## Extracted Genealogy Leads
+
+This document contains names of individuals involved in a professional, diplomatic capacity with the Red Cross and various governments in 1929. They are not presented in a family context, but could be leads for biographical research.
+
+- **M. de Pflügl**
+- **M. Des Gouttes**
+- **M. Sakalauskas** (in Kaunas, Lithuania)
+- **M. Dinichert**
+- **M. Werner** (author of a brochure on Prisoners of War)
+- **MM. Audeoud**
+- **MM. Logoz**
+- **Général Marotte**
+
+## Completeness Audit
+
+This page has been fully transcribed and analyzed. All text, including marginalia, is legible and included.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "handwriting-001",
+      "kind": "handwriting",
+      "bbox_pct": [
+        2.9,
+        45.3,
+        19.9,
+        48.5
+      ],
+      "caption_literal": "original + copie",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten note in the left margin, level with entries 47 and 48.",
+      "confidence": "high",
+      "suggested_filename": "page-0003-handwriting-001.jpg",
+      "inline_anchor": "vr-anchor-handwriting-001"
+    },
+    {
+      "region_id": "handwriting-002",
+      "kind": "handwriting",
+      "bbox_pct": [
+        10.5,
+        62.4,
+        14.9,
+        64.5
+      ],
+      "caption_literal": "ms",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten note in the left margin, level with entry 55.",
+      "confidence": "high",
+      "suggested_filename": "page-0003-handwriting-002.jpg",
+      "inline_anchor": "vr-anchor-handwriting-002"
+    },
+    {
+      "region_id": "handwriting-003",
+      "kind": "handwriting",
+      "bbox_pct": [
+        25.3,
+        35.8,
+        27.3,
+        37.5
+      ],
+      "caption_literal": "✓",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Handwritten checkmark to the left of the text for entry 43.",
+      "confidence": "high",
+      "suggested_filename": "page-0003-handwriting-003.jpg",
+      "inline_anchor": "vr-anchor-handwriting-003"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
 ```

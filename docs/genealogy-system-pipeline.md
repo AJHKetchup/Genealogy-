@@ -198,6 +198,7 @@ Storage deaccession is allowed only when:
 - Implemented: page-level upgrade feedback command and state file.
 - Implemented: meaningful crop extraction from Gemini-declared visual regions.
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
+- Implemented: page-metadata-aware chunking so multi-page conversions produce page-correct chunks and queues.
 - Implemented: automated research-analyzer chunk scan with page-level upgrade feedback.
 - Implemented: research-analyzer question queue and Markdown work items for page-level genealogy signals.
 - Implemented: research-analyzer question prompt packets that use the shared agent-queue/task-state contract.

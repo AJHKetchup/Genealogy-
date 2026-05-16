@@ -3142,6 +3142,9 @@ def chunk_converted_markdown(
     if not chunk_dir.is_absolute():
         chunk_dir = paths.root / chunk_dir
     chunk_dir.mkdir(parents=True, exist_ok=True)
+    for old_chunk in chunk_dir.glob("page-*-chunk-*.md"):
+        if old_chunk.is_file():
+            old_chunk.unlink()
 
     text = converted_file.read_text(encoding="utf-8")
     converted_hash = file_sha256(converted_file)
@@ -4530,6 +4533,18 @@ def extract_markdown_metadata_value(text: str, label: str) -> str:
 def split_page_markdown(text: str) -> list[tuple[int, str]]:
     matches = list(re.finditer(r"^# Page\s+(\d+)\s*$", text, flags=re.MULTILINE))
     if not matches:
+        metadata_matches = list(re.finditer(r"^## Page Metadata\s*$", text, flags=re.MULTILINE | re.IGNORECASE))
+        if metadata_matches:
+            pages: list[tuple[int, str]] = []
+            for index, match in enumerate(metadata_matches):
+                start = 0 if index == 0 else match.start()
+                end = metadata_matches[index + 1].start() if index + 1 < len(metadata_matches) else len(text)
+                page_text = text[start:end].strip()
+                page_number = markdown_page_number(page_text, index + 1)
+                if page_text:
+                    pages.append((page_number, page_text))
+            if pages:
+                return pages
         return [(1, text.strip())] if text.strip() else []
 
     pages: list[tuple[int, str]] = []
@@ -4538,6 +4553,19 @@ def split_page_markdown(text: str) -> list[tuple[int, str]]:
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         pages.append((int(match.group(1)), text[start:end].strip()))
     return pages
+
+
+def markdown_page_number(text: str, fallback: int) -> int:
+    for pattern in (
+        r"^\s*-\s*(?:\*\*)?(?:page[_ -]?number|page)(?:\*\*)?\s*:\s*`?(\d+)`?",
+        r":p0*(\d+)\b",
+    ):
+        match = re.search(pattern, text, flags=re.MULTILINE | re.IGNORECASE)
+        if match:
+            page = safe_int(match.group(1), 0)
+            if page > 0:
+                return page
+    return fallback
 
 
 def split_chunk_text(text: str, max_chars: int) -> list[str]:
@@ -5106,14 +5134,19 @@ def write_agent_queue(
     prompts_dir = queue_dir / "prompts" / name
     prompts_dir.mkdir(parents=True, exist_ok=True)
     serialized_tasks = []
+    expected_prompt_names: set[str] = set()
     for task in tasks:
         task_copy = dict(task)
         prompt = str(task_copy.pop("prompt"))
         prompt_path = prompts_dir / f"{slug(str(task_copy['task_id']))}.md"
         prompt_path.write_text(prompt, encoding="utf-8")
+        expected_prompt_names.add(prompt_path.name)
         task_copy["prompt_path"] = relative_to_root(prompt_path, root)
         apply_agent_task_state(task_copy, task_state.get(str(task_copy["task_id"]), {}))
         serialized_tasks.append(task_copy)
+    for prompt_path in prompts_dir.glob("*.md"):
+        if prompt_path.name not in expected_prompt_names:
+            prompt_path.unlink()
 
     queue_path = queue_dir / f"{name}.json"
     payload = {
@@ -5631,12 +5664,17 @@ def research_analyzer_run(
     existing_question_ids = research_analyzer_existing_question_ids(paths.root)
     written_questions = []
     existing_questions = []
+    refreshed_questions = []
     for candidate in question_candidates:
         if question_limit >= 0 and len(written_questions) >= question_limit:
             break
         question_id = research_analyzer_question_id(candidate)
         if question_id in existing_question_ids:
             existing_questions.append(question_id)
+            if not dry_run:
+                question_path = refresh_research_analyzer_question(paths.root, candidate, question_id)
+                if question_path:
+                    refreshed_questions.append(relative_to_root(question_path, paths.root))
             continue
         if not dry_run:
             question_path = write_research_analyzer_question(paths.root, candidate, question_id)
@@ -5664,6 +5702,7 @@ def research_analyzer_run(
         "research_question_candidates": len(question_candidates),
         "research_questions_written": len(written_questions),
         "research_questions_existing": len(existing_questions),
+        "research_questions_refreshed": len(refreshed_questions),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "dry_run": dry_run,
         "pages": report_pages,
@@ -5685,6 +5724,7 @@ def research_analyzer_run(
         "research_question_candidates": len(question_candidates),
         "research_questions_written": len(written_questions),
         "research_questions_existing": len(existing_questions),
+        "research_questions_refreshed": len(refreshed_questions),
         "index": relative_to_root(index_path, paths.root),
         "feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
@@ -5909,6 +5949,19 @@ def write_research_analyzer_question(root: Path, candidate: dict[str, object], q
     return path
 
 
+def refresh_research_analyzer_question(root: Path, candidate: dict[str, object], question_id: str) -> Path | None:
+    path = research_analyzer_question_path(root, question_id)
+    if not path.exists():
+        return write_research_analyzer_question(root, candidate, question_id)
+    frontmatter = parse_frontmatter(read_text(path))
+    if str(frontmatter.get("type", "")).strip() != "research_question":
+        return None
+    if str(frontmatter.get("status", "")).strip() not in {"", "todo"}:
+        return None
+    path.write_text(build_research_analyzer_question_markdown(candidate, question_id), encoding="utf-8")
+    return path
+
+
 def build_research_analyzer_question_markdown(candidate: dict[str, object], question_id: str) -> str:
     page = safe_int(candidate.get("page"), 0)
     question = research_analyzer_question_text(candidate)
@@ -6108,7 +6161,32 @@ def write_research_question_queue(root: Path, pages: list[dict[str, object]]) ->
         question_path = root / str(task.get("question_path", ""))
         if question_path.exists():
             append_index_reference(root / "research" / "index.md", "Questions", f"[[questions/{question_path.stem}]]")
+    cleanup_stale_research_analyzer_questions(
+        root,
+        {str(task.get("question_id", "")).strip() for task in tasks if str(task.get("question_id", "")).strip()},
+    )
     return path
+
+
+def cleanup_stale_research_analyzer_questions(root: Path, active_question_ids: set[str]) -> list[Path]:
+    removed = []
+    questions_dir = research_analyzer_questions_dir(root)
+    if not questions_dir.exists():
+        return removed
+    for question_path in sorted(questions_dir.glob("*.md")):
+        text = read_text(question_path)
+        frontmatter = parse_frontmatter(text)
+        if str(frontmatter.get("type", "")).strip() != "research_question":
+            continue
+        question_id = str(frontmatter.get("question_id", "")).strip() or question_path.stem
+        if question_id in active_question_ids:
+            continue
+        if str(frontmatter.get("status", "")).strip() not in {"", "todo"}:
+            continue
+        question_path.unlink()
+        remove_index_reference(root / "research" / "index.md", f"[[questions/{question_path.stem}]]")
+        removed.append(question_path)
+    return removed
 
 
 def extract_research_analyzer_genealogy_leads(page_text: str) -> list[str]:
@@ -10967,6 +11045,17 @@ def append_index_reference(index_path: Path, section: str, wiki_link: str) -> No
     after = text[insert_at:].lstrip("\n")
     text = f"{before}\n\n{entry}\n\n{after}" if after else f"{before}\n\n{entry}\n"
     index_path.write_text(text, encoding="utf-8")
+
+
+def remove_index_reference(index_path: Path, wiki_link: str) -> None:
+    text = read_text(index_path)
+    if not text:
+        return
+    entry = f"- {wiki_link}"
+    lines = [line for line in text.splitlines() if line.strip() != entry]
+    cleaned = "\n".join(lines).rstrip() + "\n"
+    if cleaned != text:
+        index_path.write_text(cleaned, encoding="utf-8")
 
 
 def claim_pages(paths: WikiPaths) -> list[Path]:
