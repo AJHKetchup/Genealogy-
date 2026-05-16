@@ -1,31 +1,719 @@
 {
-  "created": "2026-05-16T20:49:15Z",
+  "created": "2026-05-16T23:28:35Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
   "limit": 0,
-  "scan_limit": 1,
-  "parallelism": 1,
-  "inspected": 1,
-  "accepted": 1,
+  "scan_limit": 100,
+  "parallelism": 8,
+  "inspected": 100,
+  "accepted": 0,
   "unusable": 0,
-  "errors": 0,
+  "errors": 100,
   "skipped": {},
   "tasks": [
     {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0089",
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0094",
       "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 89,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/page-0089.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 675,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/page-markdown/page-0089.md"
+      "page": 94,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0092",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 92,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0090",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 90,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0091",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 91,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0093",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 93,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0096",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 96,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0095",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 95,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0097",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 97,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0099",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 99,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0103",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 103,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0106",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 106,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0102",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 102,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0108",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 108,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0104",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 104,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0100",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 100,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0098",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 98,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0105",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 105,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0107",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 107,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0113",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 113,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0109",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 109,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0101",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 101,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0110",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 110,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0117",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 117,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0112",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 112,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0115",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 115,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0111",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 111,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0116",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 116,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0114",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 114,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0119",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 119,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0118",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 118,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0124",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 124,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0122",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 122,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0125",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 125,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0123",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 123,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0120",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 120,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0128",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 128,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0121",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 121,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0127",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 127,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0129",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 129,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0130",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 130,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0126",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 126,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0132",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 132,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0135",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 135,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0131",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 131,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0133",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 133,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0134",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 134,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0137",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 137,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0138",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 138,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0136",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 136,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0141",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 141,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0139",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 139,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0142",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 142,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0145",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 145,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0143",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 143,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143:p0140",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 140,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0144",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 144,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0147",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 147,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0152",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 152,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0146",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 146,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0150",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 150,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0151",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 151,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0148",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 148,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0149",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 149,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0153",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 153,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0155",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 155,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0154",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 154,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0158",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 158,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0159",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 159,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0160",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 160,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0166",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 166,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0156",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 156,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0167",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 167,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0161",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 161,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0164",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 164,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0163",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 163,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0157",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 157,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163:p0162",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 162,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0165",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 165,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0171",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 171,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0169",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 169,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0168",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 168,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0172",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 172,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0176",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 176,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0170",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 170,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0173",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 173,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0179",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 179,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0174",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 174,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0175",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 175,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0177",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 177,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0178",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 178,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0181",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 181,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0184",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 184,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0183",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 183,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0186",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 186,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0182",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 182,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183:p0180",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 180,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0185",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 185,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0187",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 187,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0188",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 188,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0189",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 189,
+      "status": "error",
+      "error": "/home/runner/work/Genealogy-/Genealogy-/raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf"
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "finished": "2026-05-16T20:49:44Z"
+  "finished": "2026-05-16T23:28:35Z"
 }

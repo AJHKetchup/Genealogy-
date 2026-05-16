@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-16T20:50:03Z",
+  "updated": "2026-05-16T23:32:24Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -52,34 +52,32 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001": {
       "status": "done",
-      "updated_at": "2026-05-16T20:50:03Z",
+      "updated_at": "2026-05-16T23:28:48Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T02:46:50Z",
       "started_at": "2026-05-16T02:46:50Z",
-      "completed_at": "2026-05-16T20:50:03Z"
+      "completed_at": "2026-05-16T23:28:48Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-16T20:37:43Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T23:28:59Z",
+      "note": "Gemini output failed source-prep review: many_uncertain_readings",
       "claimed_at": "2026-05-16T03:01:17Z",
       "started_at": "2026-05-16T03:01:17Z",
       "completed_at": "2026-05-16T20:37:43Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T20:20:18Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-16T23:28:59Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005": {
-      "status": "done",
-      "updated_at": "2026-05-16T20:37:41Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T23:28:49Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T03:29:02Z",
       "started_at": "2026-05-16T03:29:02Z",
       "completed_at": "2026-05-16T20:37:41Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T20:20:15Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-16T23:28:49Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0001": {
       "status": "done",
@@ -728,72 +726,72 @@
       "completed_at": "2026-05-16T20:32:15Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006": {
-      "status": "done",
-      "updated_at": "2026-05-16T20:37:40Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T23:28:47Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "completed_at": "2026-05-16T20:37:40Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T20:20:19Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-16T23:28:47Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007": {
       "status": "done",
-      "updated_at": "2026-05-16T20:37:14Z",
+      "updated_at": "2026-05-16T23:28:47Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T20:37:14Z"
+      "completed_at": "2026-05-16T23:28:47Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008": {
-      "status": "done",
-      "updated_at": "2026-05-16T20:37:26Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T23:32:24Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "completed_at": "2026-05-16T20:37:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T20:20:26Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-16T23:32:24Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
-      "status": "released",
-      "updated_at": "2026-05-16T20:37:16Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-16T23:29:05Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-16T20:37:16Z",
-      "completed_at": "2026-05-16T18:44:08Z"
+      "completed_at": "2026-05-16T23:29:05Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010": {
       "status": "done",
-      "updated_at": "2026-05-16T20:37:22Z",
+      "updated_at": "2026-05-16T23:28:51Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T20:37:22Z"
+      "completed_at": "2026-05-16T23:28:51Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011": {
       "status": "done",
-      "updated_at": "2026-05-16T20:37:23Z",
+      "updated_at": "2026-05-16T23:28:59Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T20:37:23Z"
+      "completed_at": "2026-05-16T23:28:59Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012": {
-      "status": "done",
-      "updated_at": "2026-05-16T20:37:20Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "status": "released",
+      "updated_at": "2026-05-16T23:28:53Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
-      "completed_at": "2026-05-16T20:37:20Z"
+      "completed_at": "2026-05-16T20:37:20Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-16T23:28:53Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004": {
       "status": "done",
