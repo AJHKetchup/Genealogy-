@@ -1356,9 +1356,12 @@ status: stub
     )
     assert opportunities["summary"]["opportunity_page_count"] == 1
     assert opportunities["summary"]["recommendation_type_counts"]["identity"] == 1
+    assert opportunities["summary"]["readiness_status_counts"]["blocked_pending_conversion_qa"] == 1
+    assert opportunities["opportunities"][0]["readiness"]["block_reason"] == "pending_conversion_qa"
     opportunities_text = (tmp_path / "research" / "staging-opportunities.md").read_text(encoding="utf-8")
     assert "Research Staging Opportunities" in opportunities_text
     assert "relationship" in opportunities_text
+    assert "blocked_pending_conversion_qa" in opportunities_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 
@@ -1389,6 +1392,7 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert summary["upgrade_candidates"] == 0
     assert summary["upgrade_requests_written"] == 0
     assert summary["staging_recommendation_counts"] == {"claim": 1, "source_packet": 1}
+    assert summary["staging_readiness_counts"] == {"blocked_pending_conversion_qa": 1}
     index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
     assert index["pages"][0]["recommended_action"] == "record_signal"
     assert index["staging_opportunity_pages"] == 1
@@ -1402,6 +1406,19 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert "prompt" not in queue["tasks"][0]
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert f"[[questions/{Path(queue['tasks'][0]['question_path']).stem}]]" in research_index
+
+    update_agent_task_state(
+        tmp_path,
+        genealogy_wiki.conversion_qa_task_id_for_converted_file("raw/converted/generic-record.codex.md"),
+        "done",
+        agent="qa-1",
+    )
+    after_qa = research_analyzer_run(tmp_path, limit=3)
+    opportunities = json.loads(
+        (tmp_path / "research" / "_indexes" / "research-staging-opportunities.json").read_text(encoding="utf-8")
+    )
+    assert after_qa["staging_readiness_counts"] == {"ready_for_extraction": 1}
+    assert opportunities["opportunities"][0]["readiness"]["status"] == "ready_for_extraction"
 
 
 def test_research_analyzer_blocks_question_tasks_for_qc_held_pages(tmp_path) -> None:
@@ -1454,6 +1471,11 @@ def test_research_analyzer_blocks_question_tasks_for_qc_held_pages(tmp_path) -> 
     prompt_text = (tmp_path / task["prompt_path"]).read_text(encoding="utf-8")
     assert "QC Hold" in prompt_text
     assert "Do not extract claims" in prompt_text
+    opportunities = json.loads(
+        (tmp_path / "research" / "_indexes" / "research-staging-opportunities.json").read_text(encoding="utf-8")
+    )
+    assert opportunities["summary"]["readiness_status_counts"] == {"blocked_needs_reread": 1}
+    assert opportunities["opportunities"][0]["readiness"]["qc_quality_flags"] == ["possible_name_drift"]
 
 
 def test_research_analyzer_refreshes_existing_todo_question_pages(tmp_path) -> None:
@@ -1903,6 +1925,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "## Source Conversion" in dashboard_text
     assert "## Next Actions" in dashboard_text
     assert "Analyzer staging opportunity pages" in dashboard_text
+    assert "Analyzer staging readiness" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text

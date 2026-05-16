@@ -5171,7 +5171,7 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
-RESEARCH_ANALYZER_VERSION = 3
+RESEARCH_ANALYZER_VERSION = 4
 RESEARCH_ANALYZER_UPGRADE_SCORE = 50
 RESEARCH_ANALYZER_SIGNAL_SCORE = 20
 RESEARCH_ANALYZER_QUESTION_SCORE = 20
@@ -5622,9 +5622,12 @@ def write_research_staging_opportunities(
 
 
 def build_research_staging_opportunities_payload(root: Path, pages: list[dict[str, object]]) -> dict[str, object]:
+    qc_blocked_by_source = load_qc_blocked_pages(root)
+    task_state = load_agent_task_state(root)
     opportunities = []
     type_counts: dict[str, int] = {}
     action_counts: dict[str, int] = {}
+    readiness_counts: dict[str, int] = {}
     for page in pages:
         if not isinstance(page, dict):
             continue
@@ -5640,6 +5643,9 @@ def build_research_staging_opportunities_payload(root: Path, pages: list[dict[st
             type_counts[rec_type] = type_counts.get(rec_type, 0) + 1
         action = str(page.get("recommended_action", "unknown")).strip() or "unknown"
         action_counts[action] = action_counts.get(action, 0) + 1
+        readiness = research_staging_opportunity_readiness(page, qc_blocked_by_source, task_state)
+        readiness_status = str(readiness.get("status", "unknown")).strip() or "unknown"
+        readiness_counts[readiness_status] = readiness_counts.get(readiness_status, 0) + 1
         opportunities.append(
             {
                 "source": str(page.get("source", "")),
@@ -5652,6 +5658,7 @@ def build_research_staging_opportunities_payload(root: Path, pages: list[dict[st
                 "chunks": page.get("chunks", []),
                 "reasons": page.get("reasons", []),
                 "staging_recommendations": recommendations,
+                "readiness": readiness,
             }
         )
     return {
@@ -5670,12 +5677,46 @@ def build_research_staging_opportunities_payload(root: Path, pages: list[dict[st
             "recommendation_count": sum(type_counts.values()),
             "recommendation_type_counts": dict(sorted(type_counts.items())),
             "recommended_action_counts": dict(sorted(action_counts.items())),
+            "readiness_status_counts": dict(sorted(readiness_counts.items())),
         },
         "opportunities": opportunities,
         "storage_contract": (
             "GitHub stores this JSON/Markdown opportunity map. R2 continues to hold raw originals and durable "
             "binary assets."
         ),
+    }
+
+
+def research_staging_opportunity_readiness(
+    page: dict[str, object],
+    qc_blocked_by_source: dict[str, dict[int, dict[str, object]]],
+    task_state: dict[str, dict[str, object]],
+) -> dict[str, object]:
+    converted_file = str(page.get("converted_file", ""))
+    page_number = safe_int(page.get("page"), 0)
+    source_slug = slug(Path(converted_file).stem)
+    qc_hold = qc_blocked_by_source.get(converted_file, {}).get(page_number)
+    if qc_hold:
+        return {
+            "status": "blocked_needs_reread",
+            "block_reason": "post_conversion_qc_hold",
+            "qc_recommended_action": qc_hold.get("recommended_action", ""),
+            "qc_quality_flags": qc_hold.get("quality_flags", []),
+            "qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+            "qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+        }
+    if converted_file and not conversion_qa_is_done(task_state, converted_file):
+        return {
+            "status": "blocked_pending_conversion_qa",
+            "block_reason": "pending_conversion_qa",
+            "conversion_qa_task_id": conversion_qa_task_id_for_converted_file(converted_file),
+            "conversion_qa_triage": f"research/_conversion-review/triage/{source_slug}.md",
+            "conversion_qa_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+            "conversion_qa_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+        }
+    return {
+        "status": "ready_for_extraction",
+        "block_reason": "",
     }
 
 
@@ -5687,8 +5728,8 @@ def build_research_staging_opportunities_markdown(payload: dict[str, object]) ->
     if not isinstance(opportunities, list):
         opportunities = []
     rows = [
-        "| Page | Score | Action | Suggested Outputs | Source |",
-        "| ---: | ---: | --- | --- | --- |",
+        "| Page | Score | Action | Readiness | Suggested Outputs | Source |",
+        "| ---: | ---: | --- | --- | --- | --- |",
     ]
     for opportunity in opportunities:
         if not isinstance(opportunity, dict):
@@ -5708,6 +5749,7 @@ def build_research_staging_opportunities_markdown(payload: dict[str, object]) ->
                     markdown_table_cell(opportunity.get("page", "")),
                     markdown_table_cell(opportunity.get("score", "")),
                     markdown_table_cell(opportunity.get("recommended_action", "")),
+                    markdown_table_cell(dict_value(opportunity.get("readiness", {}), "status", "unknown")),
                     markdown_table_cell(", ".join(rec_types) or "none"),
                     markdown_table_cell(opportunity.get("source", "")),
                 ]
@@ -5725,6 +5767,7 @@ These are analyzer recommendations for draft work. They do not promote claims or
 - Opportunity pages: {dict_value(summary, "opportunity_page_count")}
 - Recommendation count: {dict_value(summary, "recommendation_count")}
 - Recommendation types: {format_status_counts(dict_value(summary, "recommendation_type_counts", {}))}
+- Readiness: {format_status_counts(dict_value(summary, "readiness_status_counts", {}))}
 - Recommended actions: {format_status_counts(dict_value(summary, "recommended_action_counts", {}))}
 
 ## Opportunities
@@ -5853,6 +5896,7 @@ def research_analyzer_run(
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
+        "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -5880,6 +5924,7 @@ def research_analyzer_run(
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
+        "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
@@ -10416,6 +10461,7 @@ def build_system_research_readiness_summary(
         "analyzer_upgrade_candidates": safe_int(research_analyzer.get("upgrade_candidates"), 0),
         "analyzer_staging_opportunity_pages": safe_int(research_analyzer.get("staging_opportunity_pages"), 0),
         "analyzer_staging_recommendations": research_analyzer.get("staging_recommendation_counts", {}),
+        "analyzer_staging_readiness": research_analyzer.get("staging_readiness_counts", {}),
         "staging_counts": {
             "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
             "claims": count_markdown_files(root / "research" / "_staging" / "claims"),
@@ -10616,6 +10662,7 @@ Generated: {payload.get("created", "")}
 - Analyzer upgrade candidates: {dict_value(research_readiness, "analyzer_upgrade_candidates")}
 - Analyzer staging opportunity pages: {dict_value(research_readiness, "analyzer_staging_opportunity_pages")}
 - Analyzer staging recommendations: {format_status_counts(dict_value(research_readiness, "analyzer_staging_recommendations", {}))}
+- Analyzer staging readiness: {format_status_counts(dict_value(research_readiness, "analyzer_staging_readiness", {}))}
 - Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
 
 ## Page Upgrades

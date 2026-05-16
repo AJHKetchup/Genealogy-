@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "created": "2026-05-16T07:36:57Z",
+  "version": 4,
+  "created": "2026-05-16T07:51:22Z",
   "purpose": "Page-level research-analyzer staging opportunities. These are instructions for draft work under research/_staging/ or conversion review, not canonical genealogy facts.",
   "inputs": {
     "chunks": "raw/chunks/*/manifest.json",
@@ -15,6 +15,9 @@
     },
     "recommended_action_counts": {
       "record_signal": 2
+    },
+    "readiness_status_counts": {
+      "blocked_pending_conversion_qa": 2
     }
   },
   "opportunities": [
@@ -44,7 +47,15 @@
           "target": "research/_staging/claims",
           "reason": "Names or life-event cues may support atomic fact drafts after source review."
         }
-      ]
+      ],
+      "readiness": {
+        "status": "blocked_pending_conversion_qa",
+        "block_reason": "pending_conversion_qa",
+        "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+        "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+        "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+        "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md"
+      }
     },
     {
       "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -71,7 +82,15 @@
           "target": "research/_staging/claims",
           "reason": "Names or life-event cues may support atomic fact drafts after source review."
         }
-      ]
+      ],
+      "readiness": {
+        "status": "blocked_pending_conversion_qa",
+        "block_reason": "pending_conversion_qa",
+        "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+        "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+        "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+        "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md"
+      }
     }
   ],
   "storage_contract": "GitHub stores this JSON/Markdown opportunity map. R2 continues to hold raw originals and durable binary assets."

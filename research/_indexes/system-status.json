@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T07:37:00Z",
+  "created": "2026-05-16T07:51:26Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -24,6 +24,9 @@
     "analyzer_staging_recommendations": {
       "claim": 2,
       "source_packet": 2
+    },
+    "analyzer_staging_readiness": {
+      "blocked_pending_conversion_qa": 2
     },
     "staging_counts": {
       "source_packets": 0,

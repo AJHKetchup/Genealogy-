@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "created": "2026-05-16",
   "mode": "research-analyzer",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
@@ -23,6 +23,9 @@
   "staging_recommendation_counts": {
     "claim": 2,
     "source_packet": 2
+  },
+  "staging_readiness_counts": {
+    "blocked_pending_conversion_qa": 2
   },
   "blockers": []
 }
