@@ -1655,6 +1655,21 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert "prompt" not in queue["tasks"][0]
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert f"[[questions/{Path(queue['tasks'][0]['question_path']).stem}]]" in research_index
+    write_agent_queues(tmp_path)
+    extraction_queue = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")
+    )
+    extraction_task = next(
+        task
+        for task in extraction_queue["tasks"]
+        if task["converted_file"] == "raw/converted/generic-record.codex.md"
+    )
+    assert extraction_task["research_analyzer_score"] == 20
+    assert {item["type"] for item in extraction_task["staging_recommendations"]} == {"source_packet", "claim"}
+    assert extraction_task["research_staging_backlog_items"][0]["status"] == "blocked_pending_conversion_qa"
+    extraction_prompt = (tmp_path / extraction_task["prompt_path"]).read_text(encoding="utf-8")
+    assert "Research Analyzer Staging Handoff" in extraction_prompt
+    assert "`source_packet` -> `research/_staging/source-packets`" in extraction_prompt
 
     update_agent_task_state(
         tmp_path,

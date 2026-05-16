@@ -12,6 +12,21 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 
+## Research Analyzer Staging Handoff
+
+The analyzer flagged page-level staged work for this chunk. Use these targets only after conversion QA clears the source.
+
+- Max analyzer score: 20
+
+Backlog items:
+
+- `staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0001` page 1, score 20, outputs: claim, source_packet
+
+Suggested staging outputs:
+
+- `claim` -> `research/_staging/claims`: Names or life-event cues may support atomic fact drafts after source review.
+- `source_packet` -> `research/_staging/source-packets`: Preserve page-level literal support and provenance before extracting claims.
+
 ## Conversion QA Gate
 
 - Status: `blocked_pending_conversion_qa`

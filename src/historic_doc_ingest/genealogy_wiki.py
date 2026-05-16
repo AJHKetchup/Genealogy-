@@ -14015,6 +14015,7 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
     tasks: list[dict[str, object]] = []
     qc_blocked_by_source = load_qc_blocked_pages(root)
     task_state = load_agent_task_state(root)
+    staging_backlog_by_page = research_staging_backlog_items_by_converted_page(root)
     for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -14057,6 +14058,18 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
                 "page_end": page_end,
                 "staging_dir": "research/_staging",
             }
+            backlog_items = evidence_extraction_staging_backlog_items(
+                staging_backlog_by_page,
+                converted_file,
+                page_start,
+                page_end,
+            )
+            if backlog_items:
+                task["research_staging_backlog_items"] = [
+                    summarize_evidence_staging_backlog_item(item) for item in backlog_items
+                ]
+                task["research_analyzer_score"] = max(safe_int(item.get("score"), 0) for item in backlog_items)
+                task["staging_recommendations"] = evidence_extraction_staging_recommendations(backlog_items)
             if blocked_pages:
                 task.update(
                     {
@@ -14079,6 +14092,100 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
             task["prompt"] = build_evidence_extraction_agent_prompt(task)
             tasks.append(task)
     return tasks
+
+
+def research_staging_backlog_items_by_converted_page(root: Path) -> dict[tuple[str, int], list[dict[str, object]]]:
+    payload = read_json_payload(research_staging_backlog_index_path(root), {"items": []})
+    items = payload.get("items", [])
+    if not isinstance(items, list):
+        return {}
+    by_page: dict[tuple[str, int], list[dict[str, object]]] = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        converted_file = str(item.get("converted_file", "")).strip()
+        page = safe_int(item.get("page"), 0)
+        if not converted_file or page <= 0:
+            continue
+        by_page.setdefault((converted_file, page), []).append(item)
+    for page_items in by_page.values():
+        page_items.sort(
+            key=lambda item: (
+                -safe_int(item.get("score"), 0),
+                str(item.get("backlog_id", "")),
+            )
+        )
+    return by_page
+
+
+def evidence_extraction_staging_backlog_items(
+    by_page: dict[tuple[str, int], list[dict[str, object]]],
+    converted_file: str,
+    page_start: int,
+    page_end: int,
+) -> list[dict[str, object]]:
+    if not converted_file or page_start <= 0:
+        return []
+    if page_end < page_start:
+        page_end = page_start
+    items = []
+    seen = set()
+    for page in range(page_start, page_end + 1):
+        for item in by_page.get((converted_file, page), []):
+            backlog_id = str(item.get("backlog_id", "")).strip()
+            key = backlog_id or f"{converted_file}:p{page}"
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append(item)
+    return sorted(
+        items,
+        key=lambda item: (
+            -safe_int(item.get("score"), 0),
+            safe_int(item.get("page"), 0),
+            str(item.get("backlog_id", "")),
+        ),
+    )
+
+
+def summarize_evidence_staging_backlog_item(item: dict[str, object]) -> dict[str, object]:
+    return {
+        "backlog_id": str(item.get("backlog_id", "")),
+        "status": str(item.get("status", "")),
+        "page": safe_int(item.get("page"), 0),
+        "score": safe_int(item.get("score"), 0),
+        "recommendation_types": item.get("recommendation_types", []),
+        "staging_targets": item.get("staging_targets", []),
+        "next_step": str(item.get("next_step", "")),
+    }
+
+
+def evidence_extraction_staging_recommendations(items: list[dict[str, object]]) -> list[dict[str, str]]:
+    recommendations: dict[tuple[str, str], dict[str, str]] = {}
+    for item in items:
+        raw_recommendations = item.get("staging_recommendations", [])
+        if not isinstance(raw_recommendations, list):
+            continue
+        for recommendation in raw_recommendations:
+            if not isinstance(recommendation, dict):
+                continue
+            rec_type = str(recommendation.get("type", "")).strip()
+            target = str(recommendation.get("target", "")).strip()
+            if not rec_type or not target:
+                continue
+            key = (rec_type, target)
+            recommendations.setdefault(
+                key,
+                {
+                    "type": rec_type,
+                    "target": target,
+                    "reason": str(recommendation.get("reason", "")).strip(),
+                },
+            )
+    return [
+        recommendations[key]
+        for key in sorted(recommendations, key=lambda item: (item[0], item[1]))
+    ]
 
 
 def build_source_prep_agent_prompt(task: dict[str, object]) -> str:
@@ -14357,6 +14464,8 @@ Use `$conversion-qa-triage`.
 
 
 def build_evidence_extraction_agent_prompt(task: dict[str, object]) -> str:
+    staging_section = build_evidence_extraction_staging_handoff_section(task)
+    section_gap = "" if staging_section else "\n"
     hold_section = ""
     if str(task.get("block_reason", "")) == "pending_conversion_qa":
         hold_section = f"""
@@ -14393,14 +14502,65 @@ Use `$genealogy-claim-extraction`.
 - Chunk manifest: `{task["chunk_manifest"]}`
 - Original source: `{task["source"]}`
 - Page range: {task["page_start"]}-{task["page_end"]}
-- Staging area: `{task["staging_dir"]}`
-{hold_section}
+- Staging area: `{task["staging_dir"]}`{section_gap}{staging_section}{hold_section}
 
 ## Done When
 
 - Relevant source packets, atomic claim drafts, relationship candidates, identity/conflict candidates, and research tasks are written under `research/_staging/`.
 - Every draft has source path, converted file, chunk/page reference, literal support, conversion confidence/QA concern, uncertainty, and promotion recommendation.
 - No canonical wiki pages are edited by this extraction task.
+"""
+
+
+def build_evidence_extraction_staging_handoff_section(task: dict[str, object]) -> str:
+    backlog_items = task.get("research_staging_backlog_items", [])
+    recommendations = task.get("staging_recommendations", [])
+    if not isinstance(backlog_items, list) or not backlog_items:
+        return ""
+    if not isinstance(recommendations, list):
+        recommendations = []
+    backlog_lines = []
+    for item in backlog_items:
+        if not isinstance(item, dict):
+            continue
+        rec_types = ", ".join(str(value) for value in item.get("recommendation_types", []) if str(value).strip())
+        backlog_lines.append(
+            "- `"
+            + str(item.get("backlog_id", ""))
+            + "` page "
+            + str(safe_int(item.get("page"), 0))
+            + ", score "
+            + str(safe_int(item.get("score"), 0))
+            + ", outputs: "
+            + (rec_types or "none")
+        )
+    recommendation_lines = []
+    for recommendation in recommendations:
+        if not isinstance(recommendation, dict):
+            continue
+        recommendation_lines.append(
+            "- `"
+            + str(recommendation.get("type", ""))
+            + "` -> `"
+            + str(recommendation.get("target", ""))
+            + "`: "
+            + str(recommendation.get("reason", ""))
+        )
+    return f"""
+
+## Research Analyzer Staging Handoff
+
+The analyzer flagged page-level staged work for this chunk. Use these targets only after conversion QA clears the source.
+
+- Max analyzer score: {safe_int(task.get("research_analyzer_score"), 0)}
+
+Backlog items:
+
+{chr(10).join(backlog_lines) if backlog_lines else "- None"}
+
+Suggested staging outputs:
+
+{chr(10).join(recommendation_lines) if recommendation_lines else "- None"}
 """
 
 

@@ -87,6 +87,36 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
+      "research_staging_backlog_items": [
+        {
+          "backlog_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0001",
+          "status": "blocked_pending_conversion_qa",
+          "page": 1,
+          "score": 20,
+          "recommendation_types": [
+            "claim",
+            "source_packet"
+          ],
+          "staging_targets": [
+            "research/_staging/claims",
+            "research/_staging/source-packets"
+          ],
+          "next_step": "Complete conversion-QA task `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`, then regenerate analyzer queues before extraction."
+        }
+      ],
+      "research_analyzer_score": 20,
+      "staging_recommendations": [
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        },
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        }
+      ],
       "block_reason": "pending_conversion_qa",
       "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
@@ -131,6 +161,36 @@
       "page_start": 3,
       "page_end": 3,
       "staging_dir": "research/_staging",
+      "research_staging_backlog_items": [
+        {
+          "backlog_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0003",
+          "status": "blocked_pending_conversion_qa",
+          "page": 3,
+          "score": 35,
+          "recommendation_types": [
+            "claim",
+            "source_packet"
+          ],
+          "staging_targets": [
+            "research/_staging/claims",
+            "research/_staging/source-packets"
+          ],
+          "next_step": "Complete conversion-QA task `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`, then regenerate analyzer queues before extraction."
+        }
+      ],
+      "research_analyzer_score": 35,
+      "staging_recommendations": [
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        },
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        }
+      ],
       "block_reason": "pending_conversion_qa",
       "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
       "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
