@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T10:22:45Z",
+  "created": "2026-05-16T10:36:41Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -13,6 +13,20 @@
       "usable_for_extraction": 1,
       "conversion_not_started": 48
     }
+  },
+  "r2_source_intake": {
+    "status": "skipped-missing-config",
+    "state": "",
+    "created": "2026-05-16T10:36:41Z",
+    "remote_file_count": 0,
+    "new_file_count": 0,
+    "changed_file_count": 0,
+    "removed_file_count": 0,
+    "r2_manifest": "raw/r2-raw-sources.json",
+    "source_prep_manifest": "raw/source-prep-manifest.json",
+    "last_heartbeat_status": "skipped-missing-config",
+    "last_heartbeat_detail": "Missing R2 configuration: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY. Put these in .env.r2 or export them before running upload, verify, or restore.",
+    "blockers": []
   },
   "research_readiness": {
     "usable_source_count": 1,
@@ -141,7 +155,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T10:22:45Z",
+      "created": "2026-05-16T10:36:41Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

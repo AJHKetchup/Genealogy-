@@ -11055,6 +11055,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "created": utc_timestamp(),
         "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
         "source_conversion": build_system_source_conversion_summary(prep_manifest, raw_cloud, source_usability),
+        "r2_source_intake": build_system_r2_source_intake_summary(paths.root),
         "research_readiness": build_system_research_readiness_summary(paths.root, source_usability, research_analyzer),
         "page_upgrades": build_system_page_upgrade_summary(paths.root, relevance_feedback, research_analyzer),
         "queues": queues,
@@ -11274,6 +11275,56 @@ def build_system_source_conversion_summary(
     }
 
 
+def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
+    state_path = r2_source_intake_state_path(root)
+    heartbeat_path = root / "research" / "_automation" / "cloud-source-prep-heartbeat-state.json"
+    heartbeat = read_json_payload(heartbeat_path, {})
+    heartbeat_step = latest_named_heartbeat_step(heartbeat, "r2-source-intake")
+    payload = read_json_payload(state_path, {}) if state_path.exists() else {}
+    if payload:
+        return {
+            "status": "active" if not payload.get("dry_run") else "dry_run",
+            "state": relative_to_root(state_path, root),
+            "created": payload.get("created", ""),
+            "remote_file_count": safe_int(payload.get("remote_file_count"), 0),
+            "new_file_count": safe_int(payload.get("new_file_count"), 0),
+            "changed_file_count": safe_int(payload.get("changed_file_count"), 0),
+            "removed_file_count": safe_int(payload.get("removed_file_count"), 0),
+            "r2_manifest": payload.get("r2_manifest", ""),
+            "source_prep_manifest": payload.get("source_prep_manifest", ""),
+            "last_heartbeat_status": heartbeat_step.get("status", ""),
+            "last_heartbeat_detail": heartbeat_step.get("detail", ""),
+            "blockers": payload.get("blockers", []),
+        }
+    status = str(heartbeat_step.get("status", "")).strip()
+    return {
+        "status": status or "not_started",
+        "state": "",
+        "created": heartbeat.get("created", "") if isinstance(heartbeat, dict) else "",
+        "remote_file_count": 0,
+        "new_file_count": 0,
+        "changed_file_count": 0,
+        "removed_file_count": 0,
+        "r2_manifest": "raw/r2-raw-sources.json",
+        "source_prep_manifest": "raw/source-prep-manifest.json",
+        "last_heartbeat_status": status,
+        "last_heartbeat_detail": heartbeat_step.get("detail", ""),
+        "blockers": [],
+    }
+
+
+def latest_named_heartbeat_step(payload: object, name: str) -> dict[str, object]:
+    if not isinstance(payload, dict):
+        return {}
+    steps = payload.get("steps", [])
+    if not isinstance(steps, list):
+        return {}
+    for step in reversed(steps):
+        if isinstance(step, dict) and str(step.get("name", "")).strip() == name:
+            return step
+    return {}
+
+
 def build_system_research_readiness_summary(
     root: Path,
     source_usability: dict[str, object],
@@ -11453,6 +11504,7 @@ def count_files_with_suffix(path: Path, suffix: str) -> int:
 
 def build_system_status_markdown(payload: dict[str, object]) -> str:
     source_conversion = payload.get("source_conversion", {})
+    r2_source_intake = payload.get("r2_source_intake", {})
     research_readiness = payload.get("research_readiness", {})
     page_upgrades = payload.get("page_upgrades", {})
     storage = payload.get("storage", {})
@@ -11536,6 +11588,18 @@ Generated: {payload.get("created", "")}
 - Conversion jobs: {dict_value(source_conversion, "conversion_job_count")}
 - Converted Markdown files: {dict_value(source_conversion, "converted_file_count")}
 - Usability: {format_status_counts(dict_value(source_conversion, "usability_status_counts", {}))}
+
+## R2 Source Intake
+
+- Status: {dict_value(r2_source_intake, "status")}
+- Last heartbeat status: {dict_value(r2_source_intake, "last_heartbeat_status") or "none"}
+- Remote raw files seen: {dict_value(r2_source_intake, "remote_file_count")}
+- New remote files: {dict_value(r2_source_intake, "new_file_count")}
+- Changed remote files: {dict_value(r2_source_intake, "changed_file_count")}
+- Removed remote files: {dict_value(r2_source_intake, "removed_file_count")}
+- R2 manifest: `{dict_value(r2_source_intake, "r2_manifest", "")}`
+- Source-prep manifest: `{dict_value(r2_source_intake, "source_prep_manifest", "")}`
+- State: `{dict_value(r2_source_intake, "state", "") or "none"}`
 
 ## Research Readiness
 

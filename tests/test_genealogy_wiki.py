@@ -2115,6 +2115,24 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
         ),
         encoding="utf-8",
     )
+    (tmp_path / "research" / "_automation").mkdir(parents=True, exist_ok=True)
+    (tmp_path / "research" / "_automation" / "r2-source-intake-state.json").write_text(
+        json.dumps(
+            {
+                "created": "2026-05-16T10:00:00Z",
+                "mode": "r2-source-intake",
+                "dry_run": False,
+                "remote_file_count": 3,
+                "new_file_count": 1,
+                "changed_file_count": 1,
+                "removed_file_count": 0,
+                "r2_manifest": "raw/r2-raw-sources.json",
+                "source_prep_manifest": "raw/source-prep-manifest.json",
+                "blockers": [],
+            }
+        ),
+        encoding="utf-8",
+    )
 
     written = write_system_status_dashboard(tmp_path)
 
@@ -2125,11 +2143,17 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert payload["source_conversion"]["usability_status_counts"]["conversion_in_progress"] == 1
     assert payload["queues"]["source_prep"]["task_count"] == 1
     assert payload["queues"]["source_prep"]["path"] == "research/_agent-queues/source-prep.json"
+    assert payload["r2_source_intake"]["status"] == "active"
+    assert payload["r2_source_intake"]["remote_file_count"] == 3
+    assert payload["r2_source_intake"]["new_file_count"] == 1
+    assert payload["r2_source_intake"]["changed_file_count"] == 1
     assert payload["storage"]["r2_derived_asset_count"] == 1
     assert payload["storage_lifecycle"]["status"] == "not_started"
     assert {action["area"] for action in payload["next_actions"]} >= {"source_prep"}
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Source Conversion" in dashboard_text
+    assert "## R2 Source Intake" in dashboard_text
+    assert "Remote raw files seen: 3" in dashboard_text
     assert "## Next Actions" in dashboard_text
     assert "Analyzer staging opportunity pages" in dashboard_text
     assert "Analyzer staging readiness" in dashboard_text

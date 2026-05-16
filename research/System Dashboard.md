@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T10:22:45Z
+Generated: 2026-05-16T10:36:41Z
 
 ## Source Conversion
 
@@ -10,6 +10,18 @@ Generated: 2026-05-16T10:22:45Z
 - Conversion jobs: 4
 - Converted Markdown files: 4
 - Usability: conversion_not_started: 48, usable_for_extraction: 1
+
+## R2 Source Intake
+
+- Status: skipped-missing-config
+- Last heartbeat status: skipped-missing-config
+- Remote raw files seen: 0
+- New remote files: 0
+- Changed remote files: 0
+- Removed remote files: 0
+- R2 manifest: `raw/r2-raw-sources.json`
+- Source-prep manifest: `raw/source-prep-manifest.json`
+- State: `none`
 
 ## Research Readiness
 
