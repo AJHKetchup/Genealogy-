@@ -11118,6 +11118,7 @@ def build_source_prep_agent_tasks(root: Path, *, write_page_review_cache: bool =
 
 def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
+    unblock_impacts = conversion_qa_downstream_unblock_impacts(root)
     for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -11125,8 +11126,9 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
             continue
         converted_file = str(manifest.get("converted_file", ""))
         source_slug = slug(Path(converted_file).stem)
+        task_id = conversion_qa_task_id_for_converted_file(converted_file)
         task = {
-            "task_id": conversion_qa_task_id_for_converted_file(converted_file),
+            "task_id": task_id,
             "queue": "conversion-qa",
             "role": "conversion_qa_reviewer",
             "skill": "conversion-qa-triage",
@@ -11144,9 +11146,56 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
         research_opportunities = conversion_qa_research_opportunities(root, converted_file)
         if research_opportunities:
             task["research_analyzer_opportunities"] = research_opportunities
-        task["prompt"] = build_conversion_qa_agent_prompt(task)
+        impact = unblock_impacts.get(task_id, {})
+        if impact:
+            task["blocked_downstream_task_count"] = safe_int(impact.get("blocked_task_count"), 0)
+            task["blocked_downstream_queues"] = impact.get("blocked_queues", {})
+            task["blocked_downstream_examples"] = impact.get("blocked_tasks", [])
         tasks.append(task)
+    tasks.sort(
+        key=lambda task: (
+            -safe_int(task.get("blocked_downstream_task_count"), 0),
+            str(task.get("converted_file", "")),
+            str(task.get("task_id", "")),
+        )
+    )
+    for index, task in enumerate(tasks, start=1):
+        if safe_int(task.get("blocked_downstream_task_count"), 0):
+            task["unblock_priority_rank"] = index
+        task["prompt"] = build_conversion_qa_agent_prompt(task)
     return tasks
+
+
+def conversion_qa_downstream_unblock_impacts(root: Path, *, example_limit: int = 8) -> dict[str, dict[str, object]]:
+    queue_dir = root.resolve() / "research" / "_agent-queues"
+    downstream_queues = {
+        "evidence_extraction": queue_dir / "evidence-extraction.json",
+        "research_questions": queue_dir / "research-questions.json",
+        "research_leads": queue_dir / "research-leads.json",
+        "external_research": queue_dir / "external-research.json",
+    }
+    impacts: dict[str, dict[str, object]] = {}
+    for queue_name, queue_path in downstream_queues.items():
+        for task in queue_tasks(read_json_payload(queue_path, {"tasks": []})):
+            if str(task.get("status", "")) != "blocked_pending_conversion_qa":
+                continue
+            for qa_task_id in task_conversion_qa_ids(task):
+                record = impacts.setdefault(
+                    qa_task_id,
+                    {"blocked_task_count": 0, "blocked_queues": {}, "blocked_tasks": []},
+                )
+                record["blocked_task_count"] = safe_int(record.get("blocked_task_count"), 0) + 1
+                blocked_queues = record.get("blocked_queues", {})
+                if isinstance(blocked_queues, dict):
+                    blocked_queues[queue_name] = safe_int(blocked_queues.get(queue_name), 0) + 1
+                blocked_tasks = record.get("blocked_tasks", [])
+                if isinstance(blocked_tasks, list) and len(blocked_tasks) < example_limit:
+                    blocked_tasks.append(summarize_blocked_conversion_qa_task(queue_name, task))
+    for record in impacts.values():
+        blocked_queues = record.get("blocked_queues", {})
+        if isinstance(blocked_queues, dict):
+            record["blocked_queues"] = dict(sorted(blocked_queues.items()))
+    return impacts
 
 
 def conversion_qa_research_opportunities(root: Path, converted_file: str) -> list[dict[str, object]]:
@@ -13302,6 +13351,47 @@ def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
     research_opportunities = task.get("research_analyzer_opportunities", [])
     if not isinstance(research_opportunities, list):
         research_opportunities = []
+    blocked_downstream_count = safe_int(task.get("blocked_downstream_task_count"), 0)
+    blocked_downstream_queues = task.get("blocked_downstream_queues", {})
+    if not isinstance(blocked_downstream_queues, dict):
+        blocked_downstream_queues = {}
+    blocked_downstream_examples = task.get("blocked_downstream_examples", [])
+    if not isinstance(blocked_downstream_examples, list):
+        blocked_downstream_examples = []
+    impact_section = ""
+    if blocked_downstream_count:
+        rows = [
+            "| Queue | Task | Lead/Question | Prompt |",
+            "| --- | --- | --- | --- |",
+        ]
+        for blocked in blocked_downstream_examples:
+            if not isinstance(blocked, dict):
+                continue
+            label = str(blocked.get("lead", "") or blocked.get("question_id", "") or blocked.get("page", "") or "")
+            rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(blocked.get("queue", "")),
+                        markdown_table_cell(blocked.get("task_id", "")),
+                        markdown_table_cell(label or "none"),
+                        markdown_table_cell(blocked.get("prompt_path", "")),
+                    ]
+                )
+                + " |"
+            )
+        impact_section = f"""
+
+## Unblock Impact
+
+- Priority rank: {safe_int(task.get("unblock_priority_rank"), 0)}
+- Downstream tasks blocked by this QA task: {blocked_downstream_count}
+- Blocked queues: {format_status_counts(blocked_downstream_queues)}
+
+Completing this QA task and regenerating queues should release the downstream work summarized below.
+
+{chr(10).join(rows)}
+""".rstrip()
     opportunity_section = ""
     if research_opportunities:
         rows = [
@@ -13367,7 +13457,7 @@ Use `$conversion-qa-triage`.
 - Output area: `{task["output_dir"]}`
 - Automatic QC triage: `{task["auto_qc_triage"]}`
 - Automatic page queue: `{task["auto_qc_page_queue"]}`
-- Automatic suspected readings: `{task["auto_qc_corrections"]}`{opportunity_section}
+- Automatic suspected readings: `{task["auto_qc_corrections"]}`{impact_section}{opportunity_section}
 
 ## Done When
 

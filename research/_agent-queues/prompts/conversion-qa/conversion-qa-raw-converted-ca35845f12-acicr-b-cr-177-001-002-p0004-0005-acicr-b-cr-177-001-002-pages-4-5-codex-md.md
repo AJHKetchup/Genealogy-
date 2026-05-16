@@ -13,6 +13,19 @@ Use `$conversion-qa-triage`.
 - Automatic page queue: `research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md`
 - Automatic suspected readings: `research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md`
 
+## Unblock Impact
+
+- Priority rank: 3
+- Downstream tasks blocked by this QA task: 2
+- Blocked queues: evidence_extraction: 2
+
+Completing this QA task and regenerating queues should release the downstream work summarized below.
+
+| Queue | Task | Lead/Question | Prompt |
+| --- | --- | --- | --- |
+| evidence_extraction | evidence-extraction:CHUNK-b88c946c7236-P0004-01 | none | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b88c946c7236-p0004-01.md |
+| evidence_extraction | evidence-extraction:CHUNK-b88c946c7236-P0005-01 | none | research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b88c946c7236-p0005-01.md |
+
 ## Done When
 
 - Automatic QC findings have been checked and refined where needed.

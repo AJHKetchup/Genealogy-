@@ -1,6 +1,6 @@
 # Conversion QA Unblock Plan
 
-Generated: 2026-05-16T11:25:04Z
+Generated: 2026-05-16T11:36:17Z
 
 This report ranks conversion-QA tasks by how many downstream tasks they currently block. It is an operational queue aid, not a source interpretation or canonical genealogy artifact.
 

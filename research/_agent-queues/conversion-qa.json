@@ -7,40 +7,6 @@
   },
   "tasks": [
     {
-      "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex-md",
-      "queue": "conversion-qa",
-      "role": "conversion_qa_reviewer",
-      "skill": "conversion-qa-triage",
-      "status": "todo",
-      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md",
-      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/manifest.json",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/manifest.json",
-      "output_dir": "research/_conversion-review",
-      "auto_qc_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
-      "auto_qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
-      "auto_qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
-      "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex-md.md"
-    },
-    {
-      "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex-md",
-      "queue": "conversion-qa",
-      "role": "conversion_qa_reviewer",
-      "skill": "conversion-qa-triage",
-      "status": "todo",
-      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
-      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
-      "output_dir": "research/_conversion-review",
-      "auto_qc_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
-      "auto_qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
-      "auto_qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
-      "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex-md.md"
-    },
-    {
       "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
       "queue": "conversion-qa",
       "role": "conversion_qa_reviewer",
@@ -128,7 +94,133 @@
           ]
         }
       ],
+      "blocked_downstream_task_count": 22,
+      "blocked_downstream_queues": {
+        "evidence_extraction": 3,
+        "external_research": 3,
+        "research_leads": 14,
+        "research_questions": 2
+      },
+      "blocked_downstream_examples": [
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-83011af124e2-P0001-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0001-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-83011af124e2-P0002-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0002-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-83011af124e2-P0003-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0003-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "research_questions",
+          "task_id": "research-question:RQ-9ae7e6a2ac30-P0003",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-9ae7e6a2ac30-p0003.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 3,
+          "question_id": "RQ-9ae7e6a2ac30-P0003",
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "research_questions",
+          "task_id": "research-question:RQ-b4dc978311d3-P0001",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-b4dc978311d3-p0001.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+          "page": 1,
+          "question_id": "RQ-b4dc978311d3-P0001",
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "research_leads",
+          "task_id": "research-lead:m-des-gouttes",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/research-leads/research-lead-m-des-gouttes.md",
+          "converted_file": "",
+          "page": 0,
+          "lead": "M. Des Gouttes"
+        },
+        {
+          "queue": "research_leads",
+          "task_id": "research-lead:m-dinichert",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/research-leads/research-lead-m-dinichert.md",
+          "converted_file": "",
+          "page": 0,
+          "lead": "M. Dinichert"
+        },
+        {
+          "queue": "research_leads",
+          "task_id": "research-lead:m-werner",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/research-leads/research-lead-m-werner.md",
+          "converted_file": "",
+          "page": 0,
+          "lead": "M. Werner"
+        }
+      ],
+      "unblock_priority_rank": 1,
       "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md"
+    },
+    {
+      "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex-md",
+      "queue": "conversion-qa",
+      "role": "conversion_qa_reviewer",
+      "skill": "conversion-qa-triage",
+      "status": "todo",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
+      "output_dir": "research/_conversion-review",
+      "auto_qc_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
+      "auto_qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
+      "auto_qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex.md",
+      "blocked_downstream_task_count": 2,
+      "blocked_downstream_queues": {
+        "evidence_extraction": 2
+      },
+      "blocked_downstream_examples": [
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-4f85160c43ba-P0001-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4f85160c43ba-p0001-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-4f85160c43ba-P0002-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4f85160c43ba-p0002-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        }
+      ],
+      "unblock_priority_rank": 2,
+      "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex-md.md"
     },
     {
       "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex-md",
@@ -145,7 +237,65 @@
       "auto_qc_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
       "auto_qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
       "auto_qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md",
+      "blocked_downstream_task_count": 2,
+      "blocked_downstream_queues": {
+        "evidence_extraction": 2
+      },
+      "blocked_downstream_examples": [
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-b88c946c7236-P0004-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b88c946c7236-p0004-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        },
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-b88c946c7236-P0005-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b88c946c7236-p0005-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        }
+      ],
+      "unblock_priority_rank": 3,
       "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex-md.md"
+    },
+    {
+      "task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex-md",
+      "queue": "conversion-qa",
+      "role": "conversion_qa_reviewer",
+      "skill": "conversion-qa-triage",
+      "status": "todo",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/manifest.json",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/manifest.json",
+      "output_dir": "research/_conversion-review",
+      "auto_qc_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
+      "auto_qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
+      "auto_qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md",
+      "blocked_downstream_task_count": 1,
+      "blocked_downstream_queues": {
+        "evidence_extraction": 1
+      },
+      "blocked_downstream_examples": [
+        {
+          "queue": "evidence_extraction",
+          "task_id": "evidence-extraction:CHUNK-d7d2f04f14d2-P0001-01",
+          "status": "blocked_pending_conversion_qa",
+          "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d7d2f04f14d2-p0001-01.md",
+          "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md",
+          "page": 0,
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf"
+        }
+      ],
+      "unblock_priority_rank": 4,
+      "prompt_path": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex-md.md"
     }
   ]
 }

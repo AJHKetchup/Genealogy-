@@ -225,6 +225,7 @@ Storage deaccession is allowed only when:
 - Implemented: whole-system dashboard next-action guidance from queue blockers and readiness signals.
 - Implemented: whole-system queue-blocker summary for conversion-QA-gated downstream work.
 - Implemented: conversion-QA unblock priority report mapping each QA task to blocked downstream extraction, question, lead, and external-research tasks.
+- Implemented: conversion-QA queue tasks include unblock-impact counts and priority context from downstream research queues.
 - Implemented: static HTML final-site generator structure for product wiki pages.
 - Implemented: static HTML site build refreshes the generated Family Tree entry point.
 - Implemented: non-destructive page-level storage lifecycle ranking and deaccession candidate records.

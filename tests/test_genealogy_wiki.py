@@ -1500,6 +1500,15 @@ status: stub
     lead_prompt_text = (tmp_path / lead_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
     assert "Research Lead Review Task" in lead_prompt_text
     assert "Dario Pulgar Smith" in lead_prompt_text
+    genealogy_wiki.write_conversion_qa_agent_queue(tmp_path)
+    qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
+    assert qa_queue["tasks"][0]["blocked_downstream_task_count"] >= 2
+    assert qa_queue["tasks"][0]["blocked_downstream_queues"]["research_questions"] == 1
+    assert qa_queue["tasks"][0]["blocked_downstream_queues"]["research_leads"] == 1
+    qa_prompt_text = (tmp_path / qa_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "## Unblock Impact" in qa_prompt_text
+    assert "research-question:" in qa_prompt_text
+    assert "research-lead:" in qa_prompt_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 

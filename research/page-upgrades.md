@@ -1,6 +1,6 @@
 # Page Upgrade Requests
 
-Generated: 2026-05-16T11:25:04Z
+Generated: 2026-05-16T11:36:17Z
 
 These are page-level conversion upgrade requests created by research feedback or the automated research analyzer. They route exact pages back through source preparation before deeper extraction.
 
