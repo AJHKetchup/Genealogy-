@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-15T23:26:09.270628+00:00",
+  "created": "2026-05-16T00:09:26.358201+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -85,14 +85,35 @@
       "bytes": 808297,
       "sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
       "media_type": "application/pdf"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0004.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0004.jpg",
+      "bytes": 199552,
+      "sha256": "31050f5c5b09497fc21cad549e29b96b47a9bb9a88ed6439e579991e6f8620df",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0005.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0005.jpg",
+      "bytes": 227874,
+      "sha256": "0cac380894011fad0d6ed64b954b56eec2dc9dd42395ca0e70dbfa8434436762",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
+      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
+      "bytes": 808297,
+      "sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "media_type": "application/pdf"
     }
   ],
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 10,
-    "total_bytes": 1610348,
-    "uploaded": 6,
+    "total_files": 4,
+    "total_bytes": 1483564,
+    "uploaded": 0,
     "skipped": 4,
     "planned": 0,
     "errors": []

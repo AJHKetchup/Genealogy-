@@ -1,0 +1,54 @@
+{
+  "job_id": "CA35845f12-acicr-b-cr-177-001-002-p0004-0005",
+  "title": "ACICR_B_CR_177_001_002 pages 4-5",
+  "source_file": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+  "local_staged_source_file": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
+  "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+  "source_bytes": 808297,
+  "media_type": "pdf",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "4-5",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 4,
+      "source_page": 4,
+      "image_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0004.jpg",
+      "width_px": 1193,
+      "height_px": 1685,
+      "image_bytes": 199552,
+      "image_sha256": "31050f5c5b09497fc21cad549e29b96b47a9bb9a88ed6439e579991e6f8620df",
+      "image_output_dir": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/extracted-images/page-0004",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0004.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/work-orders/page-0004.md",
+      "status": "todo"
+    },
+    {
+      "page": 5,
+      "source_page": 5,
+      "image_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0005.jpg",
+      "width_px": 1193,
+      "height_px": 1685,
+      "image_bytes": 227874,
+      "image_sha256": "0cac380894011fad0d6ed64b954b56eec2dc9dd42395ca0e70dbfa8434436762",
+      "image_output_dir": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/extracted-images/page-0005",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0005.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/work-orders/page-0005.md",
+      "status": "todo"
+    }
+  ]
+}
