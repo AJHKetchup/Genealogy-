@@ -36,6 +36,7 @@ from historic_doc_ingest.genealogy_wiki import (
     source_prep_page_cache_path,
     source_prep_fastlane_run,
     source_relevance_hint_matches_task,
+    review_source_prep_page_output,
     sync_vault_transcriptions,
     sync_github_database,
     update_agent_task_state,
@@ -939,6 +940,21 @@ def test_source_prep_fastlane_skips_full_page_scan_pdf(tmp_path) -> None:
     write_agent_queues(tmp_path)
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
     assert queue["status_counts"]["todo"] == 1
+
+
+def test_source_prep_review_ignores_empty_reread_metadata(tmp_path) -> None:
+    page_output = tmp_path / "page.md"
+    page_output.write_text(
+        complete_gemini_page_markdown("Transmettons à M. Ratzenberger du Département politique Fédéral.")
+        .replace("Page converted from the prepared page image.", "Page converted from the prepared page image.\n- Technical reread clues: none"),
+        encoding="utf-8",
+    )
+
+    review = review_source_prep_page_output(page_output)
+
+    assert review["status"] == "done"
+    assert "explicit_reread_needed" not in review["quality_flags"]
+    assert "encoding_mojibake" not in review["quality_flags"]
 
 
 def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp_path, monkeypatch) -> None:

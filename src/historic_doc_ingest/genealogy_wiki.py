@@ -3275,7 +3275,8 @@ def detect_conversion_text_flags(page_text: str) -> list[str]:
         flags.append("no_transcription")
     if page_text.count("[illegible]") + page_text.count("[?]") >= 5:
         flags.append("many_uncertain_readings")
-    if re.search(r"\b(second review|reread|re-read|before being treated as final)\b", lower_text):
+    reread_text = re.sub(r"(?m)^-\s*technical reread clues:\s*none\s*$", "", lower_text)
+    if re.search(r"\b(second review|reread|re-read|before being treated as final)\b", reread_text):
         flags.append("explicit_reread_needed")
     if re.search(r"\b[a-zA-Z]{25,}\b", page_text):
         flags.append("possible_ocr_garbage_token")
