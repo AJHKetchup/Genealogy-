@@ -13,6 +13,14 @@ Use `$conversion-qa-triage`.
 - Automatic page queue: `research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md`
 - Automatic suspected readings: `research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex.md`
 
+## Page Verification Artifacts
+
+Use these page-scoped artifacts to compare the converted Markdown against rendered page images and existing page-level conversion outputs.
+
+| Page | Source Page | Page Image | Page Markdown | Extracted Images | Work Order |
+| ---: | ---: | --- | --- | --- | --- |
+| 1 | 1 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-images/page-0001.jpg | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-markdown/page-0001.md | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/extracted-images/page-0001 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/work-orders/page-0001.md |
+
 ## Unblock Impact
 
 - Priority rank: 4

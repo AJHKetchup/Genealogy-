@@ -13,6 +13,16 @@ Use `$conversion-qa-triage`.
 - Automatic page queue: `research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md`
 - Automatic suspected readings: `research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md`
 
+## Page Verification Artifacts
+
+Use these page-scoped artifacts to compare the converted Markdown against rendered page images and existing page-level conversion outputs.
+
+| Page | Source Page | Page Image | Page Markdown | Extracted Images | Work Order |
+| ---: | ---: | --- | --- | --- | --- |
+| 1 | 1 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/work-orders/page-0001.md |
+| 2 | 2 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0002 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/work-orders/page-0002.md |
+| 3 | 3 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003 | raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/work-orders/page-0003.md |
+
 ## Unblock Impact
 
 - Priority rank: 1

@@ -1,6 +1,6 @@
 # Research Staging Backlog
 
-Generated: 2026-05-16T15:21:40Z
+Generated: 2026-05-16T15:36:13Z
 
 This backlog is the analyzer handoff between converted chunks and staged draft work. It is not proof review, and it does not promote claims or edit canonical wiki pages.
 

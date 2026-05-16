@@ -2554,6 +2554,15 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     chunk_converted_markdown(tmp_path, assembled)
     research_analyzer_run(tmp_path, limit=3)
     write_agent_queues(tmp_path)
+    qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
+    qa_task = qa_queue["tasks"][0]
+    assert qa_task["source_page_artifacts"][0]["page"] == 1
+    assert qa_task["source_page_artifacts"][0]["page_image"].endswith("page-images/page-0001.jpg")
+    assert qa_task["source_page_artifacts"][0]["page_markdown"].endswith("page-markdown/page-0001.md")
+    assert qa_task["source_page_artifacts"][0]["work_order"].endswith("work-orders/page-0001.md")
+    qa_prompt = (tmp_path / qa_task["prompt_path"]).read_text(encoding="utf-8")
+    assert "Page Verification Artifacts" in qa_prompt
+    assert "page-images/page-0001.jpg" in qa_prompt
 
     write_system_status_dashboard(tmp_path)
 

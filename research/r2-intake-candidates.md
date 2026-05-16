@@ -1,6 +1,6 @@
 # R2 Intake Candidates
 
-Generated: 2026-05-16T15:21:41Z
+Generated: 2026-05-16T15:36:13Z
 
 This report gathers raw-source candidates from external-research result notes. It does not store or request binary evidence in GitHub.
 

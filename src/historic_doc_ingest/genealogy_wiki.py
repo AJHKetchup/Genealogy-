@@ -11482,6 +11482,9 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
             "auto_qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
             "auto_qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
         }
+        page_artifacts = conversion_qa_source_page_artifacts(root, str(manifest.get("source_manifest", "")))
+        if page_artifacts:
+            task["source_page_artifacts"] = page_artifacts
         research_opportunities = conversion_qa_research_opportunities(root, converted_file)
         if research_opportunities:
             task["research_analyzer_opportunities"] = research_opportunities
@@ -11503,6 +11506,37 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
             task["unblock_priority_rank"] = index
         task["prompt"] = build_conversion_qa_agent_prompt(task)
     return tasks
+
+
+def conversion_qa_source_page_artifacts(root: Path, source_manifest: str) -> list[dict[str, object]]:
+    source_manifest = source_manifest.strip()
+    if not source_manifest:
+        return []
+    manifest_path = Path(source_manifest)
+    if not manifest_path.is_absolute():
+        manifest_path = root / manifest_path
+    manifest = read_json_payload(manifest_path, {})
+    pages = manifest.get("pages", []) if isinstance(manifest, dict) else []
+    if not isinstance(pages, list):
+        return []
+    artifacts = []
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        page_number = safe_int(page.get("page"), safe_int(page.get("source_page"), 0))
+        if page_number <= 0:
+            continue
+        artifacts.append(
+            {
+                "page": page_number,
+                "source_page": safe_int(page.get("source_page"), page_number),
+                "page_image": str(page.get("image_path", "")),
+                "page_markdown": str(page.get("output_path", "")),
+                "work_order": str(page.get("work_order_path", "")),
+                "extracted_images": str(page.get("image_output_dir", "")),
+            }
+        )
+    return sorted(artifacts, key=lambda item: safe_int(item.get("page"), 0))
 
 
 def conversion_qa_downstream_unblock_impacts(root: Path, *, example_limit: int = 8) -> dict[str, dict[str, object]]:
@@ -14699,6 +14733,9 @@ def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
     research_opportunities = task.get("research_analyzer_opportunities", [])
     if not isinstance(research_opportunities, list):
         research_opportunities = []
+    source_page_artifacts = task.get("source_page_artifacts", [])
+    if not isinstance(source_page_artifacts, list):
+        source_page_artifacts = []
     blocked_downstream_count = safe_int(task.get("blocked_downstream_task_count"), 0)
     blocked_downstream_queues = task.get("blocked_downstream_queues", {})
     if not isinstance(blocked_downstream_queues, dict):
@@ -14706,6 +14743,37 @@ def build_conversion_qa_agent_prompt(task: dict[str, object]) -> str:
     blocked_downstream_examples = task.get("blocked_downstream_examples", [])
     if not isinstance(blocked_downstream_examples, list):
         blocked_downstream_examples = []
+    page_artifact_section = ""
+    if source_page_artifacts:
+        rows = [
+            "| Page | Source Page | Page Image | Page Markdown | Extracted Images | Work Order |",
+            "| ---: | ---: | --- | --- | --- | --- |",
+        ]
+        for artifact in source_page_artifacts:
+            if not isinstance(artifact, dict):
+                continue
+            rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(artifact.get("page", "")),
+                        markdown_table_cell(artifact.get("source_page", "")),
+                        markdown_table_cell(artifact.get("page_image", "")),
+                        markdown_table_cell(artifact.get("page_markdown", "")),
+                        markdown_table_cell(artifact.get("extracted_images", "")),
+                        markdown_table_cell(artifact.get("work_order", "")),
+                    ]
+                )
+                + " |"
+            )
+        page_artifact_section = f"""
+
+## Page Verification Artifacts
+
+Use these page-scoped artifacts to compare the converted Markdown against rendered page images and existing page-level conversion outputs.
+
+{chr(10).join(rows)}
+""".rstrip()
     impact_section = ""
     if blocked_downstream_count:
         rows = [
@@ -14805,7 +14873,7 @@ Use `$conversion-qa-triage`.
 - Output area: `{task["output_dir"]}`
 - Automatic QC triage: `{task["auto_qc_triage"]}`
 - Automatic page queue: `{task["auto_qc_page_queue"]}`
-- Automatic suspected readings: `{task["auto_qc_corrections"]}`{impact_section}{opportunity_section}
+- Automatic suspected readings: `{task["auto_qc_corrections"]}`{page_artifact_section}{impact_section}{opportunity_section}
 
 ## Done When
 
