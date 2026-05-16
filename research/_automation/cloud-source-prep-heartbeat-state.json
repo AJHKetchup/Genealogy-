@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T13:22:56Z",
+  "created": "2026-05-16T13:40:29Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -96,6 +96,8 @@
         "feedback": "research/_agent-queues/source-relevance-feedback.json",
         "research_question_queue": "research/_agent-queues/research-questions.json",
         "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
+        "staging_backlog": "research/_indexes/research-staging-backlog.json",
+        "staging_backlog_markdown": "research/staging-backlog.md",
         "research_leads": "research/_indexes/research-leads.json",
         "research_lead_queue": "research/_agent-queues/research-leads.json",
         "external_research_requests": "research/_indexes/external-research-requests.json",
@@ -106,6 +108,12 @@
           "source_packet": 2
         },
         "staging_readiness_counts": {
+          "blocked_pending_conversion_qa": 2
+        },
+        "staging_backlog_items": 2,
+        "staging_backlog_ready_items": 0,
+        "staging_backlog_blocked_items": 2,
+        "staging_backlog_readiness_counts": {
           "blocked_pending_conversion_qa": 2
         },
         "research_lead_count": 15,
@@ -239,6 +247,6 @@
       }
     }
   },
-  "finished": "2026-05-16T13:22:57Z",
+  "finished": "2026-05-16T13:40:30Z",
   "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

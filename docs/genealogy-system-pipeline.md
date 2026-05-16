@@ -204,6 +204,7 @@ Storage deaccession is allowed only when:
 - Implemented: research-analyzer page recommendations for staged source packets, claims, relationships, identity review, and conversion corrections.
 - Implemented: page-level upgrade request JSON and Markdown dashboard artifacts.
 - Implemented: research-analyzer staging-opportunities JSON and Markdown reports for queued draft work.
+- Implemented: research-analyzer staging-backlog JSON and Markdown handoff with conversion-QA gate status.
 - Implemented: research-analyzer genealogy lead index with page-level source provenance.
 - Implemented: research-analyzer lead classification and review-status counts for dashboard triage.
 - Implemented: research-analyzer lead review queue with conversion-QA gate blocking.

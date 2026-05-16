@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T13:22:57Z",
+  "created": "2026-05-16T13:40:30Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T13:22:56Z",
+    "created": "2026-05-16T13:40:29Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -50,6 +50,17 @@
     },
     "analyzer_staging_readiness": {
       "blocked_pending_conversion_qa": 2
+    },
+    "research_staging_backlog": "research/_indexes/research-staging-backlog.json",
+    "analyzer_staging_backlog_items": 2,
+    "analyzer_staging_backlog_ready": 0,
+    "analyzer_staging_backlog_blocked": 2,
+    "analyzer_staging_backlog_readiness": {
+      "blocked_pending_conversion_qa": 2
+    },
+    "analyzer_staging_backlog_recommendations": {
+      "claim": 2,
+      "source_packet": 2
     },
     "analyzer_research_leads": 15,
     "analyzer_research_lead_page_references": 18,
@@ -150,7 +161,7 @@
     }
   },
   "conversion_qa_unblock": {
-    "created": "2026-05-16T13:22:57Z",
+    "created": "2026-05-16T13:40:30Z",
     "path": "research/_indexes/conversion-qa-unblock-plan.json",
     "markdown": "research/conversion-qa-unblock-plan.md",
     "next_focus": "research/conversion-qa-next.md",
@@ -248,7 +259,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T13:22:56Z",
+      "created": "2026-05-16T13:40:29Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

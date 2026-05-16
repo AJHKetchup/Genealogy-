@@ -5812,6 +5812,14 @@ def research_staging_opportunities_markdown_path(root: Path) -> Path:
     return root.resolve() / "research" / "staging-opportunities.md"
 
 
+def research_staging_backlog_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "research-staging-backlog.json"
+
+
+def research_staging_backlog_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "staging-backlog.md"
+
+
 def research_analyzer_leads_index_path(root: Path) -> Path:
     return root.resolve() / "research" / "_indexes" / "research-leads.json"
 
@@ -5879,6 +5887,24 @@ def write_research_staging_opportunities(
     json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     markdown_path.write_text(build_research_staging_opportunities_markdown(payload), encoding="utf-8")
     append_index_reference(paths.research / "index.md", "Agent Work", "[[staging-opportunities]]")
+    append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
+    return json_path, markdown_path
+
+
+def write_research_staging_backlog(
+    root: Path,
+    staging_payload: dict[str, object],
+    payload: dict[str, object] | None = None,
+) -> tuple[Path, Path]:
+    paths = WikiPaths(root.resolve())
+    payload = payload or build_research_staging_backlog_payload(paths.root, staging_payload)
+    json_path = research_staging_backlog_index_path(paths.root)
+    markdown_path = research_staging_backlog_markdown_path(paths.root)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_research_staging_backlog_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[staging-backlog]]")
     append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(json_path, paths.root)}")
     return json_path, markdown_path
 
@@ -6995,6 +7021,242 @@ These are analyzer recommendations for draft work. They do not promote claims or
 """
 
 
+def build_research_staging_backlog_payload(
+    root: Path,
+    staging_payload: dict[str, object],
+) -> dict[str, object]:
+    opportunities = staging_payload.get("opportunities", [])
+    if not isinstance(opportunities, list):
+        opportunities = []
+    items = []
+    readiness_counts: dict[str, int] = {}
+    recommendation_counts: dict[str, int] = {}
+    target_counts: dict[str, int] = {}
+    action_counts: dict[str, int] = {}
+    source_set = set()
+    converted_set = set()
+    conversion_qa_task_ids = set()
+
+    for opportunity in opportunities:
+        if not isinstance(opportunity, dict):
+            continue
+        item = research_staging_backlog_item(opportunity)
+        status = str(item.get("status", "unknown")).strip() or "unknown"
+        readiness_counts[status] = readiness_counts.get(status, 0) + 1
+        action = str(item.get("recommended_action", "unknown")).strip() or "unknown"
+        action_counts[action] = action_counts.get(action, 0) + 1
+        source = str(item.get("source", "")).strip()
+        converted_file = str(item.get("converted_file", "")).strip()
+        if source:
+            source_set.add(source)
+        if converted_file:
+            converted_set.add(converted_file)
+        task_id = str(item.get("conversion_qa_task_id", "")).strip()
+        if task_id:
+            conversion_qa_task_ids.add(task_id)
+        for rec_type in item.get("recommendation_types", []):
+            rec_key = str(rec_type).strip() or "unknown"
+            recommendation_counts[rec_key] = recommendation_counts.get(rec_key, 0) + 1
+        for target in item.get("staging_targets", []):
+            target_key = str(target).strip() or "unknown"
+            target_counts[target_key] = target_counts.get(target_key, 0) + 1
+        items.append(item)
+
+    items.sort(key=research_staging_backlog_sort_key)
+    return {
+        "version": RESEARCH_ANALYZER_VERSION,
+        "created": utc_timestamp(),
+        "purpose": (
+            "Operational backlog derived from research-analyzer staging opportunities. It preserves the "
+            "conversion-QA gate and points future workers to page-level staged draft work without promoting facts."
+        ),
+        "inputs": {
+            "staging_opportunities": relative_to_root(research_staging_opportunities_index_path(root), root),
+            "research_analyzer": relative_to_root(research_analyzer_index_path(root), root),
+        },
+        "summary": {
+            "backlog_item_count": len(items),
+            "ready_item_count": len(
+                [item for item in items if str(item.get("status", "")) == "ready_for_extraction"]
+            ),
+            "blocked_item_count": len(
+                [item for item in items if str(item.get("status", "")).startswith("blocked")]
+            ),
+            "readiness_status_counts": dict(sorted(readiness_counts.items())),
+            "recommendation_type_counts": dict(sorted(recommendation_counts.items())),
+            "staging_target_counts": dict(sorted(target_counts.items())),
+            "recommended_action_counts": dict(sorted(action_counts.items())),
+            "source_count": len(source_set),
+            "converted_file_count": len(converted_set),
+            "conversion_qa_task_count": len(conversion_qa_task_ids),
+        },
+        "items": items,
+        "storage_contract": (
+            "GitHub stores this JSON/Markdown backlog, manifests, queues, chunks, staging/proof data, and final "
+            "HTML/build files. R2 continues to hold raw originals and durable binary assets."
+        ),
+    }
+
+
+def research_staging_backlog_item(opportunity: dict[str, object]) -> dict[str, object]:
+    readiness = opportunity.get("readiness", {})
+    if not isinstance(readiness, dict):
+        readiness = {}
+    status = str(readiness.get("status", "unknown")).strip() or "unknown"
+    recommendations = [
+        recommendation
+        for recommendation in opportunity.get("staging_recommendations", [])
+        if isinstance(recommendation, dict)
+    ]
+    recommendation_types = sorted(
+        {
+            str(recommendation.get("type", "")).strip()
+            for recommendation in recommendations
+            if str(recommendation.get("type", "")).strip()
+        }
+    )
+    staging_targets = sorted(
+        {
+            str(recommendation.get("target", "")).strip()
+            for recommendation in recommendations
+            if str(recommendation.get("target", "")).strip()
+        }
+    )
+    converted_file = str(opportunity.get("converted_file", "")).strip()
+    page = safe_int(opportunity.get("page"), 0)
+    item = {
+        "backlog_id": f"staging-backlog:{slug(converted_file or str(opportunity.get('source', '')))}:p{page:04d}",
+        "status": status,
+        "block_reason": str(readiness.get("block_reason", "")).strip(),
+        "source": str(opportunity.get("source", "")),
+        "source_sha256": str(opportunity.get("source_sha256", "")),
+        "converted_file": converted_file,
+        "chunk_manifest": str(opportunity.get("chunk_manifest", "")),
+        "page": page,
+        "score": safe_int(opportunity.get("score"), 0),
+        "recommended_action": str(opportunity.get("recommended_action", "")),
+        "chunks": opportunity.get("chunks", []) if isinstance(opportunity.get("chunks", []), list) else [],
+        "reasons": opportunity.get("reasons", []) if isinstance(opportunity.get("reasons", []), list) else [],
+        "matched_terms": opportunity.get("matched_terms", [])
+        if isinstance(opportunity.get("matched_terms", []), list)
+        else [],
+        "genealogy_leads": opportunity.get("genealogy_leads", [])
+        if isinstance(opportunity.get("genealogy_leads", []), list)
+        else [],
+        "suspicious_readings": opportunity.get("suspicious_readings", [])
+        if isinstance(opportunity.get("suspicious_readings", []), list)
+        else [],
+        "recommendation_types": recommendation_types,
+        "staging_targets": staging_targets,
+        "staging_recommendations": recommendations,
+        "readiness": readiness,
+    }
+    for key in (
+        "conversion_qa_task_id",
+        "conversion_qa_triage",
+        "conversion_qa_page_queue",
+        "conversion_qa_corrections",
+        "qc_page_queue",
+        "qc_corrections",
+        "qc_recommended_action",
+    ):
+        if str(readiness.get(key, "")).strip():
+            item[key] = readiness.get(key, "")
+    if readiness.get("qc_quality_flags"):
+        item["qc_quality_flags"] = readiness.get("qc_quality_flags")
+    item["next_step"] = research_staging_backlog_next_step(item)
+    return item
+
+
+def research_staging_backlog_next_step(item: dict[str, object]) -> str:
+    status = str(item.get("status", "")).strip()
+    if status == "ready_for_extraction":
+        return (
+            "Create page-scoped drafts under research/_staging/ for the listed recommendation types; "
+            "do not edit canonical wiki pages."
+        )
+    if status == "blocked_pending_conversion_qa":
+        task_id = str(item.get("conversion_qa_task_id", "")).strip()
+        task_label = f" `{task_id}`" if task_id else ""
+        return f"Complete conversion-QA task{task_label}, then regenerate analyzer queues before extraction."
+    if status == "blocked_needs_reread":
+        page_queue = str(item.get("qc_page_queue", "")).strip()
+        queue_label = f" `{page_queue}`" if page_queue else ""
+        return f"Resolve the conversion-QA reread hold{queue_label}, then regenerate analyzer queues."
+    return "Review readiness status before assigning staged extraction work."
+
+
+def research_staging_backlog_sort_key(item: dict[str, object]) -> tuple[int, int, str, int, str]:
+    status_priority = {
+        "ready_for_extraction": 0,
+        "blocked_needs_reread": 1,
+        "blocked_pending_conversion_qa": 2,
+    }.get(str(item.get("status", "")), 3)
+    return (
+        status_priority,
+        -safe_int(item.get("score"), 0),
+        str(item.get("converted_file", "")),
+        safe_int(item.get("page"), 0),
+        str(item.get("backlog_id", "")),
+    )
+
+
+def build_research_staging_backlog_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    items = payload.get("items", [])
+    if not isinstance(items, list):
+        items = []
+    rows = [
+        "| Status | Page | Score | Recommendations | Gate | Source | Next Step |",
+        "| --- | ---: | ---: | --- | --- | --- | --- |",
+    ]
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        gate = (
+            str(item.get("conversion_qa_task_id", "")).strip()
+            or str(item.get("qc_page_queue", "")).strip()
+            or "none"
+        )
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(item.get("status", "")),
+                    markdown_table_cell(item.get("page", "")),
+                    markdown_table_cell(item.get("score", "")),
+                    markdown_table_cell(", ".join(str(value) for value in item.get("recommendation_types", [])) or "none"),
+                    markdown_table_cell(gate),
+                    markdown_table_cell(item.get("source", "")),
+                    markdown_table_cell(item.get("next_step", "")),
+                ]
+            )
+            + " |"
+        )
+    return f"""# Research Staging Backlog
+
+Generated: {payload.get("created", "")}
+
+This backlog is the analyzer handoff between converted chunks and staged draft work. It is not proof review, and it does not promote claims or edit canonical wiki pages.
+
+## Summary
+
+- Backlog items: {dict_value(summary, "backlog_item_count")}
+- Ready for extraction: {dict_value(summary, "ready_item_count")}
+- Blocked by gates: {dict_value(summary, "blocked_item_count")}
+- Readiness: {format_status_counts(dict_value(summary, "readiness_status_counts", {}))}
+- Recommendation types: {format_status_counts(dict_value(summary, "recommendation_type_counts", {}))}
+- Staging targets: {format_status_counts(dict_value(summary, "staging_target_counts", {}))}
+- Conversion-QA tasks referenced: {dict_value(summary, "conversion_qa_task_count")}
+
+## Backlog
+
+{chr(10).join(rows)}
+"""
+
+
 def research_analyzer_existing_feedback_ids(root: Path) -> set[str]:
     return {
         str(hint.get("id", "")).strip()
@@ -7094,6 +7356,18 @@ def research_analyzer_run(
     staging_summary = staging_payload.get("summary", {})
     if not isinstance(staging_summary, dict):
         staging_summary = {}
+    backlog_payload = build_research_staging_backlog_payload(paths.root, staging_payload)
+    backlog_json_path = research_staging_backlog_index_path(paths.root)
+    backlog_markdown_path = research_staging_backlog_markdown_path(paths.root)
+    if not dry_run:
+        backlog_json_path, backlog_markdown_path = write_research_staging_backlog(
+            paths.root,
+            staging_payload,
+            backlog_payload,
+        )
+    backlog_summary = backlog_payload.get("summary", {})
+    if not isinstance(backlog_summary, dict):
+        backlog_summary = {}
     leads_payload = build_research_analyzer_leads_payload(paths.root, pages)
     leads_json_path = research_analyzer_leads_index_path(paths.root)
     leads_markdown_path = research_analyzer_leads_markdown_path(paths.root)
@@ -7138,6 +7412,8 @@ def research_analyzer_run(
         "research_questions_refreshed": len(refreshed_questions),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
+        "staging_backlog": relative_to_root(backlog_json_path, paths.root),
+        "staging_backlog_markdown": relative_to_root(backlog_markdown_path, paths.root),
         "research_leads": relative_to_root(leads_json_path, paths.root),
         "research_leads_markdown": relative_to_root(leads_markdown_path, paths.root),
         "research_lead_queue": relative_to_root(lead_queue_path, paths.root),
@@ -7147,6 +7423,10 @@ def research_analyzer_run(
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
+        "staging_backlog_items": safe_int(backlog_summary.get("backlog_item_count"), 0),
+        "staging_backlog_ready_items": safe_int(backlog_summary.get("ready_item_count"), 0),
+        "staging_backlog_blocked_items": safe_int(backlog_summary.get("blocked_item_count"), 0),
+        "staging_backlog_readiness_counts": backlog_summary.get("readiness_status_counts", {}),
         "research_lead_count": safe_int(leads_summary.get("lead_count"), 0),
         "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
         "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
@@ -7181,6 +7461,8 @@ def research_analyzer_run(
         "feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
+        "staging_backlog": relative_to_root(backlog_json_path, paths.root),
+        "staging_backlog_markdown": relative_to_root(backlog_markdown_path, paths.root),
         "research_leads": relative_to_root(leads_json_path, paths.root),
         "research_lead_queue": relative_to_root(lead_queue_path, paths.root),
         "external_research_requests": relative_to_root(external_json_path, paths.root),
@@ -7188,6 +7470,10 @@ def research_analyzer_run(
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
+        "staging_backlog_items": safe_int(backlog_summary.get("backlog_item_count"), 0),
+        "staging_backlog_ready_items": safe_int(backlog_summary.get("ready_item_count"), 0),
+        "staging_backlog_blocked_items": safe_int(backlog_summary.get("blocked_item_count"), 0),
+        "staging_backlog_readiness_counts": backlog_summary.get("readiness_status_counts", {}),
         "research_lead_count": safe_int(leads_summary.get("lead_count"), 0),
         "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
         "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
@@ -12666,6 +12952,11 @@ def build_system_research_readiness_summary(
     qa_pages = read_json_payload(root / "research" / "_conversion-review" / "qc-pages.json", {"pages": []}).get("pages", [])
     if not isinstance(qa_pages, list):
         qa_pages = []
+    backlog_path = research_staging_backlog_index_path(root)
+    backlog_payload = read_json_payload(backlog_path, {"summary": {}})
+    backlog_summary = backlog_payload.get("summary", {})
+    if not isinstance(backlog_summary, dict):
+        backlog_summary = {}
     return {
         "usable_source_count": len(
             [
@@ -12689,6 +12980,31 @@ def build_system_research_readiness_summary(
         "analyzer_staging_opportunity_pages": safe_int(research_analyzer.get("staging_opportunity_pages"), 0),
         "analyzer_staging_recommendations": research_analyzer.get("staging_recommendation_counts", {}),
         "analyzer_staging_readiness": research_analyzer.get("staging_readiness_counts", {}),
+        "research_staging_backlog": (
+            relative_to_root(backlog_path, root)
+            if backlog_path.exists()
+            else research_analyzer.get("staging_backlog", "")
+        ),
+        "analyzer_staging_backlog_items": safe_int(
+            backlog_summary.get("backlog_item_count", research_analyzer.get("staging_backlog_items", 0)),
+            0,
+        ),
+        "analyzer_staging_backlog_ready": safe_int(
+            backlog_summary.get("ready_item_count", research_analyzer.get("staging_backlog_ready_items", 0)),
+            0,
+        ),
+        "analyzer_staging_backlog_blocked": safe_int(
+            backlog_summary.get("blocked_item_count", research_analyzer.get("staging_backlog_blocked_items", 0)),
+            0,
+        ),
+        "analyzer_staging_backlog_readiness": backlog_summary.get(
+            "readiness_status_counts",
+            research_analyzer.get("staging_backlog_readiness_counts", {}),
+        ),
+        "analyzer_staging_backlog_recommendations": backlog_summary.get(
+            "recommendation_type_counts",
+            research_analyzer.get("staging_recommendation_counts", {}),
+        ),
         "analyzer_research_leads": safe_int(research_analyzer.get("research_lead_count"), 0),
         "analyzer_research_lead_page_references": safe_int(
             research_analyzer.get("research_lead_page_references"), 0
@@ -12971,6 +13287,11 @@ Generated: {payload.get("created", "")}
 - Analyzer staging opportunity pages: {dict_value(research_readiness, "analyzer_staging_opportunity_pages")}
 - Analyzer staging recommendations: {format_status_counts(dict_value(research_readiness, "analyzer_staging_recommendations", {}))}
 - Analyzer staging readiness: {format_status_counts(dict_value(research_readiness, "analyzer_staging_readiness", {}))}
+- Analyzer staging backlog: `{dict_value(research_readiness, "research_staging_backlog", "") or "none"}`
+- Analyzer staging backlog items: {dict_value(research_readiness, "analyzer_staging_backlog_items")}
+- Analyzer staging backlog ready: {dict_value(research_readiness, "analyzer_staging_backlog_ready")}
+- Analyzer staging backlog blocked: {dict_value(research_readiness, "analyzer_staging_backlog_blocked")}
+- Analyzer staging backlog readiness: {format_status_counts(dict_value(research_readiness, "analyzer_staging_backlog_readiness", {}))}
 - Analyzer research leads: {dict_value(research_readiness, "analyzer_research_leads")}
 - Analyzer lead page references: {dict_value(research_readiness, "analyzer_research_lead_page_references")}
 - Analyzer lead classifications: {format_status_counts(dict_value(research_readiness, "analyzer_research_lead_classifications", {}))}

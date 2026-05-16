@@ -1527,6 +1527,7 @@ status: stub
     assert "Dario Pulgar Smith" in hint["matched_terms"]
     index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
     assert index["pages"][0]["recommended_action"] == "request_page_upgrade"
+    assert index["staging_backlog"] == "research/_indexes/research-staging-backlog.json"
     recommendation_types = {item["type"] for item in index["pages"][0]["staging_recommendations"]}
     assert {"source_packet", "claim", "relationship", "identity"} <= recommendation_types
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
@@ -1549,6 +1550,18 @@ status: stub
     assert "Research Staging Opportunities" in opportunities_text
     assert "relationship" in opportunities_text
     assert "blocked_pending_conversion_qa" in opportunities_text
+    backlog = json.loads(
+        (tmp_path / "research" / "_indexes" / "research-staging-backlog.json").read_text(encoding="utf-8")
+    )
+    assert backlog["summary"]["backlog_item_count"] == 1
+    assert backlog["summary"]["blocked_item_count"] == 1
+    assert backlog["summary"]["ready_item_count"] == 0
+    assert backlog["summary"]["recommendation_type_counts"]["relationship"] == 1
+    assert backlog["items"][0]["status"] == "blocked_pending_conversion_qa"
+    assert backlog["items"][0]["conversion_qa_task_id"].startswith("conversion-qa:")
+    backlog_text = (tmp_path / "research" / "staging-backlog.md").read_text(encoding="utf-8")
+    assert "Research Staging Backlog" in backlog_text
+    assert "Complete conversion-QA task" in backlog_text
     leads = json.loads((tmp_path / "research" / "_indexes" / "research-leads.json").read_text(encoding="utf-8"))
     assert leads["summary"]["lead_count"] == 1
     assert leads["summary"]["lead_classification_counts"] == {"person_name": 1}
@@ -1653,7 +1666,15 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
         (tmp_path / "research" / "_indexes" / "research-staging-opportunities.json").read_text(encoding="utf-8")
     )
     assert after_qa["staging_readiness_counts"] == {"ready_for_extraction": 1}
+    assert after_qa["staging_backlog_ready_items"] == 1
+    assert after_qa["staging_backlog_blocked_items"] == 0
     assert opportunities["opportunities"][0]["readiness"]["status"] == "ready_for_extraction"
+    backlog = json.loads(
+        (tmp_path / "research" / "_indexes" / "research-staging-backlog.json").read_text(encoding="utf-8")
+    )
+    assert backlog["summary"]["ready_item_count"] == 1
+    assert backlog["items"][0]["status"] == "ready_for_extraction"
+    assert "research/_staging/claims" in backlog["items"][0]["staging_targets"]
     queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
     assert queue_after_qa["tasks"][0]["status"] == "todo"
     lead_queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "research-leads.json").read_text())
@@ -2340,6 +2361,8 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert "## Next Actions" in dashboard_text
     assert "Analyzer staging opportunity pages" in dashboard_text
     assert "Analyzer staging readiness" in dashboard_text
+    assert "Analyzer staging backlog" in dashboard_text
+    assert "Analyzer staging backlog readiness" in dashboard_text
     assert "Analyzer research leads" in dashboard_text
     assert "Analyzer lead classifications" in dashboard_text
     assert "Analyzer lead review statuses" in dashboard_text
@@ -2390,6 +2413,10 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     assert payload["research_readiness"]["analyzer_research_lead_page_references"] == 1
     assert payload["research_readiness"]["analyzer_research_lead_classifications"] == {"person_name": 1}
     assert payload["research_readiness"]["analyzer_research_lead_review_statuses"] == {"unresolved_lead": 1}
+    assert payload["research_readiness"]["research_staging_backlog"] == "research/_indexes/research-staging-backlog.json"
+    assert payload["research_readiness"]["analyzer_staging_backlog_items"] == 1
+    assert payload["research_readiness"]["analyzer_staging_backlog_blocked"] == 1
+    assert payload["research_readiness"]["analyzer_staging_backlog_readiness"] == {"blocked_pending_conversion_qa": 1}
     areas = {action["area"] for action in payload["next_actions"]}
     assert {"conversion_qa", "evidence_extraction"} <= areas
     conversion_action = next(action for action in payload["next_actions"] if action["area"] == "conversion_qa")

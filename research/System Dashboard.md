@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T13:22:57Z
+Generated: 2026-05-16T13:40:30Z
 
 ## Source Conversion
 
@@ -36,6 +36,11 @@ Generated: 2026-05-16T13:22:57Z
 - Analyzer staging opportunity pages: 2
 - Analyzer staging recommendations: claim: 2, source_packet: 2
 - Analyzer staging readiness: blocked_pending_conversion_qa: 2
+- Analyzer staging backlog: `research/_indexes/research-staging-backlog.json`
+- Analyzer staging backlog items: 2
+- Analyzer staging backlog ready: 0
+- Analyzer staging backlog blocked: 2
+- Analyzer staging backlog readiness: blocked_pending_conversion_qa: 2
 - Analyzer research leads: 15
 - Analyzer lead page references: 18
 - Analyzer lead classifications: ambiguous_marker: 1, person_name: 3, titled_name: 11
