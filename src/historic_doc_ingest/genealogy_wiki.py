@@ -7963,11 +7963,7 @@ def build_source_prep_batch_agent_tasks(
         if str(task.get("status", "")).strip() in allowed_statuses
     ]
     available.sort(
-        key=lambda task: (
-            SOURCE_PREP_BATCH_STATUS_PRIORITY.get(str(task.get("status", "")), 99),
-            str(task.get("job_manifest", "")),
-            int(task.get("page", 0) or 0),
-        )
+        key=source_prep_batch_priority
     )
 
     batches: list[dict[str, object]] = []
@@ -8041,6 +8037,16 @@ def source_prep_batch_group_key(task: dict[str, object]) -> tuple[object, ...]:
     )
 
 
+def source_prep_batch_priority(task: dict[str, object]) -> tuple[int, int, str, int]:
+    discovery_priority = 0 if str(task.get("rough_discovery_status", "")).strip() == SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS else 1
+    return (
+        discovery_priority,
+        SOURCE_PREP_BATCH_STATUS_PRIORITY.get(str(task.get("status", "")), 99),
+        str(task.get("job_manifest", "")),
+        int(task.get("page", 0) or 0),
+    )
+
+
 def build_source_prep_batch_task(page_tasks: list[dict[str, object]]) -> dict[str, object]:
     first = page_tasks[0]
     last = page_tasks[-1]
@@ -8073,6 +8079,10 @@ def build_source_prep_batch_task(page_tasks: list[dict[str, object]]) -> dict[st
         batch["repair_reason"] = first["repair_reason"]
     if first.get("recommended_action"):
         batch["recommended_action"] = first["recommended_action"]
+    if first.get("rough_discovery_status"):
+        batch["rough_discovery_status"] = first["rough_discovery_status"]
+    if first.get("rough_discovery_flags"):
+        batch["rough_discovery_flags"] = first["rough_discovery_flags"]
     batch["prompt"] = build_source_prep_batch_agent_prompt(batch)
     return batch
 
@@ -8098,6 +8108,9 @@ def source_prep_batch_page_record(task: dict[str, object]) -> dict[str, object]:
         "relevance_feedback_ids",
         "matched_terms",
         "suspicious_readings",
+        "rough_discovery_status",
+        "rough_discovery_flags",
+        "readability_flags",
     ):
         value = task.get(key)
         if value:

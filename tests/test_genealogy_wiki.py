@@ -1671,6 +1671,37 @@ def test_source_prep_batches_keep_suspicious_name_pages_single() -> None:
     assert "David -> Dario" in batches[1]["prompt"]
 
 
+def test_source_prep_batches_prioritize_docling_unusable_pages_for_gemini_fallback() -> None:
+    base_task = {
+        "queue": "source-prep",
+        "role": "source_converter",
+        "status": "needs_reread",
+        "source": "raw/sources/archive.pdf",
+        "source_sha256": "abc123",
+        "job_manifest": "raw/codex-conversion-jobs/archive/manifest.json",
+        "job_id": "ARCHIVE",
+        "title": "Archive",
+        "work_order": "raw/codex-conversion-jobs/archive/work-orders/page-0001.md",
+        "page_image": "raw/codex-conversion-jobs/archive/page-images/page-0001.jpg",
+        "output_path": "raw/codex-conversion-jobs/archive/page-markdown/page-0001.md",
+        "image_output_dir": "raw/codex-conversion-jobs/archive/extracted-images/page-0001",
+    }
+    older_repair = {**base_task, "task_id": "source-prep:archive:p0001", "page": 1}
+    docling_failure = {
+        **base_task,
+        "task_id": "source-prep:archive:p0002",
+        "page": 2,
+        "rough_discovery_status": "rough_unusable",
+        "rough_discovery_flags": ["fragmented_short_lines"],
+    }
+
+    batches = build_source_prep_batch_agent_tasks([older_repair, docling_failure], max_pages=1, limit=2)
+
+    assert batches[0]["task_ids"] == ["source-prep:archive:p0002"]
+    assert batches[0]["rough_discovery_status"] == "rough_unusable"
+    assert batches[0]["pages"][0]["rough_discovery_flags"] == ["fragmented_short_lines"]
+
+
 def test_suspicious_name_readings_ignore_publication_words() -> None:
     terms = {"dario": "Dario", "pulgar": "Pulgar"}
 
