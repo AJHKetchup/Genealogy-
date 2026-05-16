@@ -1582,6 +1582,23 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
     assert captured["parallelism"] == 4
 
 
+def test_gemini_source_prep_skips_pages_without_docling_baseline(tmp_path) -> None:
+    from PIL import Image
+
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "source-page.jpg"
+    Image.new("RGB", (80, 100), "white").save(source)
+    prepare_raw_sources(tmp_path)
+    write_source_prep_batches(tmp_path, limit=10)
+
+    summary = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, dry_run=True, refresh_queue=False)
+
+    assert summary["processed"] == 0
+    assert summary["skipped"] == 1
+    assert summary["discovery_skipped"] == 1
+    assert summary["tasks"][0]["reason"] == "docling_discovery_missing"
+
+
 def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

@@ -6,6 +6,37 @@ from historic_doc_ingest import genealogy_wiki
 from historic_doc_ingest.genealogy_wiki import source_prep_gemini_run
 
 
+def write_docling_unusable_entries(root, entries: list[dict[str, object]]) -> None:
+    queue_dir = root / "research" / "_agent-queues"
+    discovery_dir = root / "raw" / "discovery" / "docling" / "job-one"
+    queue_dir.mkdir(parents=True, exist_ok=True)
+    discovery_dir.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "version": 1,
+        "purpose": "Test Docling discovery state for Gemini fallback routing.",
+        "entries": {},
+    }
+    for entry in entries:
+        task_id = str(entry["task_id"])
+        source_sha256 = str(entry["source_sha256"])
+        page = int(entry["page"])
+        discovery_path = f"raw/discovery/docling/job-one/page-{page:04d}.md"
+        (root / discovery_path).write_text(
+            "# Rough Docling Discovery\n\nDiscovery status: `rough_unusable`\n",
+            encoding="utf-8",
+        )
+        payload["entries"][genealogy_wiki.source_prep_discovery_key(task_id, source_sha256)] = {
+            "status": "rough_unusable",
+            "task_id": task_id,
+            "source": str(entry.get("source", "raw/sources/source.png")),
+            "source_sha256": source_sha256,
+            "page": page,
+            "discovery_path": discovery_path,
+            "readability_flags": ["test_docling_unusable"],
+        }
+    (queue_dir / "source-prep-discovery.json").write_text(json.dumps(payload), encoding="utf-8")
+
+
 def complete_gemini_markdown(visual_manifest: str) -> str:
     return f"""# Page 1
 
@@ -95,6 +126,17 @@ def write_test_batch(root, *, requested_treatment: str = "") -> None:
         ]
     }
     (queue_dir / "source-prep-batches.json").write_text(json.dumps(queue), encoding="utf-8")
+    write_docling_unusable_entries(
+        root,
+        [
+            {
+                "task_id": "source-prep:job-one:p0001",
+                "source_sha256": "abc123",
+                "page": 1,
+                "source": "raw/sources/source.png",
+            }
+        ],
+    )
 
 
 def write_parallel_test_batches(root, page_count: int = 2) -> None:
@@ -137,6 +179,18 @@ def write_parallel_test_batches(root, page_count: int = 2) -> None:
             }
         )
     (queue_dir / "source-prep-batches.json").write_text(json.dumps({"tasks": tasks}), encoding="utf-8")
+    write_docling_unusable_entries(
+        root,
+        [
+            {
+                "task_id": f"source-prep:job-one:p{page_number:04d}",
+                "source_sha256": f"abc123-{page_number}",
+                "page": page_number,
+                "source": "raw/sources/source.png",
+            }
+            for page_number in range(1, page_count + 1)
+        ],
+    )
 
 
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
