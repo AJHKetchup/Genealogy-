@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-15a6e93bbc15-P0001-01
+chunk_id: CHUNK-cf4fad08066e-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
-converted_sha256: 15a6e93bbc15c3306b64fa87ec845940ac9fe256f84817e0ac5ddc16942ae0f2
+converted_sha256: cf4fad08066ea79b2920793347511997369f8c380cb0c470ee32a15b234813ad
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json
@@ -22,202 +22,149 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/extracted-images`
 
 ## Page Metadata
-- Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001`
-- Model route: `pro`
-- Route reasons: pdf_profile_complex
+*   **Task id:** `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001`
+*   **Page number:** 1
+*   **Source file:** `raw/sources/ACICR_B_CR_177_001_002.pdf`
+
+## Layout And Reading Order
+
+The page contains a header at the top right and top center, followed by a numbered list of entries. Each entry consists of a number, a date, and a descriptive text. There are also three short handwritten marginal notes on the left side of the page, aligned with specific entries in the list.
+
+## Literal Transcription
+
+```
+CR 177 CONFERENCE DIPLOMATIQUE
+                                                              CR 177-1
+                                                              1.
+
+1.-24.6.28. Transmettons à M. Ratzenberger du Département politique Fédéral à
+              Berne 3 exemplaires des "Voeux et Résolutions votés à la XIIme
+              Conférence de 1925.
+2.- 26.5.28. Envoyons à M. Ratzenberger 3 ex. du No 57 de la Revue
+3.- 30.6.28. L/ de M. Boissier à M. Huber au sujet des fonctions du secrétaire
+              général de la Conférence, poste qu'occuperait M. des Gouttes.
+1 ann       4.- 2.7.28. L/ de M. Motta, informant que la Conférence diplomatique sera
+              convoquée pour la seconde quinzaine de Juin. Envoie note-circulaire
+              que le Département adresse aux Etats participants aux Conférences
+              de Genève.
+ms.+transcr.5.- 3.7.28. Note de M. Huber concernant la représentation du CI à la Conférence.
+6.- 6.7.28. Répondons à Département politique (4), remercions et collaborerons
+              au perfectionnement de la Convention.
+7.- 7.7.28. M. Boissier à M. Huber lui transmettons 1/ ci-dessus et 1/ du
+              département du 2.7. (4)
+8.- 7.7.28. Informons M. Dinichert que M. Des Gouttes a accepté d'être
+              secr. général de la Conférence. Désignerons délégués si Etats
+              acceptent que le CI soit invité à participer à Conférence.
+9.- 10.7.28. M. Dinichert remercie pour 1/ du 7.7. (8) est heureux de la
+              nomination de N. Des Gouttes. Ne pense pas qu'il y ait obstacle
+              à ce que sa fonction de secr. général le prive de sa participation
+              aux discussion en commissions.
+10.- 31.5.28. M. Motta rappelle n/ 1/ du 14.6.26 étendant à la guerre aérienne
+              les principes de la Convention de Genève. Crois devoir proposer au
+              Conseil Fédéral de renoncer à joindre au programme de la future
+              Conférence diplomatique la question de l'immunisation des avions
+              sanitaires.
+11.- 11.6.28. Répondons à 1/ ci-dessus, Partageons manière de voir.
+12.- 1.10.28. Demandons à M. Lipiansky de la librairie Hachette l'obtention d'un
+              tirage à part de 500 ex. du Cours de M. Werner sur les PG, publié
+              par cette librairie.
+13.- 1.10.28. Envoyons à M. Decencière à Paris la manuscrit de M. Werner sur PG
+14.- 8.10.28. Librairie Hachette répond à 1/ du 1.10. (12), transmet demande à
+              Conseil d'administration de l'Académie de droit international.
+15.- 14.10.28. Librairie Hachette informe que l'Académie de Droit intern. autori-
+              se les tirages à part, mais ne doivent pas être mis dans le com-
+              merce.
+1 enveloppe 16.- 17.10.28. Librairie Hachette informe M. Werner qu'elle va faire imprimer
+              le tirage à part de son cours.
+```
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+No text was illegible or uncertain.
+
+## Completeness Audit
+The transcription is complete and includes all visible text and marginalia.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor handwritten annotations that are fully captured by the literal transcription. There are no substantial visuals like portraits, maps, or diagrams that would warrant cropping."}
+```
+
+## Page Metadata
+- Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002`
+- Model route: `lite`
 - Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Job manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/work-orders/page-0001.md`
-- Page: 1
-- Output Markdown target: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.md`
+- Work order: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/work-orders/page-0002.md`
+- Page: 2
+- Output Markdown target: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.md`
 - External research relevance: ``
 - External requested treatment: ``
 - External relevance reasons: none
-- Recommended action: ``
+- Recommended action: `gemini_fallback`
 - Quality flags: none
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The document is a single-column, typed list. The reading order begins with the header information at the top right of the page, followed by the numbered list from 1 to 16. Handwritten notes are present in the left margin next to items 4, 5, and 16.
 
-- **Header**: A handwritten reference number `CR 177-1`, a typed title `CR 177 CONFERENCE DIPLOMATIQUE`, and a typed page number `1.`.
-- **Main Content**: A numbered list of 16 items, each with a date and a brief description of a correspondence or action.
-- **Marginalia**:
-    - `1 ann` next to item 4.
-    - `ms. + transcr.` next to item 5.
-    - `1 enveloppe` next to item 16.
+The page features a header at the top right, followed by a single column of numbered entries. Each entry consists of a number, a date, and a descriptive text. Some entries have marginal handwritten notes ("plié", "m s."). The content flows from top to bottom, following the numerical order of the entries.
 
 ## Literal Transcription
-```text
-CR 177-1
-CR 177 CONFERENCE DIPLOMATIQUE
-1.
 
-1.- 24.6.28. Transmettons à M. Ratzenberger du Département politique Fédéral à
-Berne 3 exemplaires des "Voeux et Résolutions votés à la XIIme
-Conférence de 1925.
-
-2.- 26.5.28. Envoyons à M. Ratzenberger 3 ex. du No 57 de la Revue
-
-3.- 30.6.28. L/ de M. Boissier à M. Huber au sujet des fonctions du secrétaire
-général de la Conférence, poste qu'occuperait M. Des Gouttes.
-
-> 1 ann
-
-4.- 2.7.28. L/ de M. Motta, informant que la Conférence diplomatique sera
-convoquée pour la seconde quinzaine de Juin. Envoie note-circulaire
-que le Département adresse aux Etats participants aux Conférences
-de Genève.
-
-> ms. + transcr.
-
-5.- 3.7.28. Note de M. Huber concernant la représentation du CI à la Conférence
-
-6.- 6.7.28. Répondons à Département politique (4), remercions et collaborerons
-au perfectionnement de la Convention.
-
-7.- 7.7.28. M. Boissier à M. Huber lui transmettons l/ ci-dessus et l/ du
-département du 2.7. (4)
-
-8.- 7.7.28. Informons M. Dinichert que M. Des Gouttes a accepté d'être
-secr. général de la Conférence. Désignerons délégués si Etats
-acceptent que le CI soit invité à participer à Conférence.
-
-9.- 10.7.28. M. Dinichert remercie pour l/ du 7.7. (8) est heureux de la
-nomination de M. Des Gouttes. Ne pense pas qu'il y ait obstacle
-à ce que sa fonction de secr. général le prive de sa participation
-aux discussions en commissions.
-
-10.- 31.5.28. M. Motta rappelle n/ l/ du 14.6.26 étendant à la guerre aérienne
-les principes de la Convention de Genève. Crois devoir proposer au
-Conseil fédéral de renoncer à joindre au programme de la future
-Conférence diplomatique la question de l'immunisation des avions
-sanitaires.
-
-11.- 11.6.28. Répondons à l/ ci-dessus, Partageons manière de voir.
-
-12.- 1.10.28. Demandons à M. Lipiansky de la librairie Hachette l'obtention d'un
-tirage à part de 500 ex. du Cours de M. Werner sur les PG, publié
-par cette librairie.
-
-13.- 1.10.28. Envoyons à M. Decencière à Paris la manuscrit de M. Werner sur PG
-
-14.- 8.10.28. Librairie Hachette répond à l/ du 1.10. (12), transmet demande à
-Conseil d'administration de l'Académie de droit international.
-
-15.- 14.10.28. Librairie Hachette informe que l'Académie de Droit intern. autori-
-se les tirages à part, mais ne doivent pas être mis dans le com-
-merce.
-
-> 1 enveloppe
-
-16.- 17.10.28. Librairie Hachette informe M. Werner qu'elle va faire imprimer
-le tirage à part de son cours.
-```
-
-## Images, Captions, And Visual Notes
-The page contains only text. There are handwritten annotations in the top right corner (`CR 177-1`) and in the left margin (`1 ann`, `ms. + transcr.`, `1 enveloppe`). These have been transcribed.
-
-## Uncertain Or Illegible
-There are no uncertain or illegible portions of this document.
-
-## Completeness Audit
-This page is complete. All text, including the header and all marginalia, has been transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists entirely of typed and handwritten text. There are no images, photographs, or other visual elements that would be useful as standalone assets."
-}
-```
-
-## Page Metadata
-- Page number: 2
-
-## Layout And Reading Order
-The page is a single column of text. The reading order is from top to bottom.
-
-The page contains a header at the top, followed by a numbered list of entries. Each entry consists of a number and a date in a left-hand column, and a description of an action or correspondence in a right-hand column.
-
-There are handwritten notes in the left margin next to entries 20, 26, and 32.
-
-## Literal Transcription
-```text
-Ch 177 Conférence diplomatique, juin 1929 2.
+Ch. 177 Conférence diplomatique, juin 1929 2.
 
 17.- 1.11.28. Répondons à l/ ci-dessus,
-
 18.- 31.10.28. M. Decencière fait parvenir à M. Werner les épreuves de son
-cours sur les PG
-
+                   cours sur les PG
 19.- 27.11.28. A.r. à l/ ci-dessus, retournons épreuves et réclamons mise en
-pages.
-
-plié 20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
-tion de Genève et du Code des PG
-
+                   pages.
+plié           20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
+                   tion de Genève et du Code des PG
 21.- 12.12.28. Transmettons demande ci-dessus à M. Dinichert
-
-22.- 13.12.28. M. Dinichert nous envoie 10 ex, de chacun des projets
-
+22.- 13.12.28. M. Dinichert nous envoie 10 ex. de chacun des projets
 23.- 14.12.28. Répondons à Alliance en envoyant 6 ex. de chacun des projets
-(20)
-
+                   (20)
 24.- 14.12.28. Remercions M. Dinichert pour les 20 ex. et demandons autorisa-
-tion de publier dans le Bulletin la circ. du 2.7.28 (4)
-
+                   tion de publier dans le Bulletin la circ. du 2.7.28 (4)
 25.- 21.12.28. Département politique autorise publication de la circ. dans
-Bulletin (24)
-
-plié 26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
-
-27.- 8.1.29. Envoyons à M. Lacroix les épreuves corrigées du tirage à part
-de l'étude de M. Werner sur PG.
-
+                   Bulletin (24)
+plié           26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
+27.- 8.1.29.   Envoyons à M. Lacroix les épreuves corrigées du tirage à part
+                   de l'étude de M. Werner sur PG.
 28.- 21.1.29. Librairie Hachette informe M. Werner que les 500 tirés à part
-couteront 2000 frs français.
-
-29.- 23.1.29. N/ l/ à M. Motta au sujet représentation du CI à conférence diplo
-matique.
-
+                   couteront 2000 frs français.
+29.- 23.1.29. M/ l/ à M. Motta au sujet représentation du CI à conférence diplo-
+                   matique.
 30.- 24.1.29. M. Werner répond à l/ du 21.1. (28) au sujet de ses tirés à part
-
 31.- 25.1.29. Librairie répond à l/ ci-dessus. Toutes les indications de M.
-Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
-
-m s. 32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
-
+                   Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
+m s.           32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
 33.- 29.1.29. A.r. à l' ci-dessus. Prenons note que l'indication relative
-au CI ne pourra figurer sur la couverture des tirés à part.
-
+                   au CI ne pourra figurer sur la couverture des tirés à part.
 34.- 29.1.29. Remercions librairie Hachette pour l/ du 25.1. (31)
-
 35.- 11.2.29. Infirmons M. Dinichert que M. Walter Yung pourrait fonctionner
-comme secrétaire avec M. Des Gouttes
-
+                   comme secrétaire avec M. des Gouttes
 36.- 13.2.29. Départ. politique nous informe que les Etats Unis s'opposent à
-ce que le CI prenne part à la collaboration du Code des PG
-
+                   ce que le CI prenne part à la collaboration du Code des PG
 37.- 25.2.29. A.r. de l/ ci-dessus, sommes reconnaissants au Dép. politi. de.
-bien vouloir auprès des Etats-Unis p[?] [illegible]
-```
+                   bien vouloir auprès des Etats-Unis [?]
 
 ## Images, Captions, And Visual Notes
-- In the left margin, next to entry 20, is the handwritten word "plié".
-- In the left margin, next to entry 26, is the handwritten word "plié".
-- In the left margin, next to entry 32, is the handwritten abbreviation "m s.".
+
+There are no substantial images, captions, or visual notes on this page that would be useful as standalone wiki assets. The page consists entirely of text and minor handwritten marginalia.
 
 ## Uncertain Or Illegible
-- Entry 37: The end of the line is very faint and difficult to read. It begins "p[?]" and the rest is illegible.
+
+- **Entry 37, last line:** The very end of the line "Etats-Unis [?]" is cut off and illegible.
 
 ## Completeness Audit
-The entire page has been transcribed.
+
+All visible text on the page has been transcribed, including the header, numbered entries, and marginal handwritten notes. The only exception is the very end of entry 37, which is cut off.
 
 ## Visual Region Manifest
+
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and minor handwritten marginalia, with no substantial images, illustrations, or photographs that would warrant cropping as standalone visual assets."
-}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text and minor handwritten marginalia."}
 ```

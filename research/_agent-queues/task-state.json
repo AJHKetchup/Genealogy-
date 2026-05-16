@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-16T19:58:38Z",
+  "updated": "2026-05-16T20:20:26Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -52,57 +52,59 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001": {
       "status": "done",
-      "updated_at": "2026-05-16T02:47:18Z",
+      "updated_at": "2026-05-16T20:20:16Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T02:46:50Z",
       "started_at": "2026-05-16T02:46:50Z",
-      "completed_at": "2026-05-16T02:47:18Z"
+      "completed_at": "2026-05-16T20:20:16Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-16T03:01:44Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T20:20:18Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T03:01:17Z",
       "started_at": "2026-05-16T03:01:17Z",
-      "completed_at": "2026-05-16T03:01:44Z"
+      "completed_at": "2026-05-16T03:01:44Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-16T20:20:18Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005": {
-      "status": "done",
-      "updated_at": "2026-05-16T03:29:35Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T20:20:15Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T03:29:02Z",
       "started_at": "2026-05-16T03:29:02Z",
-      "completed_at": "2026-05-16T03:29:35Z"
+      "completed_at": "2026-05-16T03:29:35Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-16T20:20:15Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0001": {
       "status": "done",
-      "updated_at": "2026-05-16T06:18:42Z",
+      "updated_at": "2026-05-16T20:20:03Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T06:18:42Z"
+      "completed_at": "2026-05-16T20:20:03Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0002": {
       "status": "done",
-      "updated_at": "2026-05-16T06:18:41Z",
+      "updated_at": "2026-05-16T20:20:10Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T06:18:41Z"
+      "completed_at": "2026-05-16T20:20:10Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0003": {
       "status": "done",
-      "updated_at": "2026-05-16T06:18:42Z",
+      "updated_at": "2026-05-16T20:20:04Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T06:18:42Z"
+      "completed_at": "2026-05-16T20:20:04Z"
     },
     "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001": {
       "status": "released",
@@ -160,108 +162,108 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0005": {
       "status": "done",
-      "updated_at": "2026-05-16T17:33:59Z",
+      "updated_at": "2026-05-16T20:10:40Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:33:59Z"
+      "completed_at": "2026-05-16T20:10:40Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0007": {
       "status": "done",
-      "updated_at": "2026-05-16T17:34:25Z",
+      "updated_at": "2026-05-16T20:10:36Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:34:25Z"
+      "completed_at": "2026-05-16T20:10:36Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0011": {
       "status": "done",
-      "updated_at": "2026-05-16T17:35:07Z",
+      "updated_at": "2026-05-16T20:10:10Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:35:07Z"
+      "completed_at": "2026-05-16T20:10:10Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0012": {
       "status": "done",
-      "updated_at": "2026-05-16T17:35:21Z",
+      "updated_at": "2026-05-16T20:10:19Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:35:21Z"
+      "completed_at": "2026-05-16T20:10:19Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0013": {
       "status": "done",
-      "updated_at": "2026-05-16T17:35:41Z",
+      "updated_at": "2026-05-16T20:11:23Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:35:41Z"
+      "completed_at": "2026-05-16T20:11:23Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0014": {
       "status": "done",
-      "updated_at": "2026-05-16T17:36:02Z",
+      "updated_at": "2026-05-16T20:11:34Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:36:02Z"
+      "completed_at": "2026-05-16T20:11:34Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0015": {
       "status": "done",
-      "updated_at": "2026-05-16T17:36:23Z",
+      "updated_at": "2026-05-16T20:11:49Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:36:23Z"
+      "completed_at": "2026-05-16T20:11:49Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0016": {
       "status": "done",
-      "updated_at": "2026-05-16T17:36:38Z",
+      "updated_at": "2026-05-16T20:11:36Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:36:38Z"
+      "completed_at": "2026-05-16T20:11:36Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0017": {
       "status": "done",
-      "updated_at": "2026-05-16T17:37:01Z",
+      "updated_at": "2026-05-16T20:12:38Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:37:01Z"
+      "completed_at": "2026-05-16T20:12:38Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0018": {
       "status": "done",
-      "updated_at": "2026-05-16T17:37:17Z",
+      "updated_at": "2026-05-16T20:12:24Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:37:17Z"
+      "completed_at": "2026-05-16T20:12:24Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0019": {
       "status": "done",
-      "updated_at": "2026-05-16T17:37:33Z",
+      "updated_at": "2026-05-16T20:12:33Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:37:33Z"
+      "completed_at": "2026-05-16T20:12:33Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0020": {
       "status": "done",
-      "updated_at": "2026-05-16T17:37:48Z",
+      "updated_at": "2026-05-16T20:12:47Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:37:48Z"
+      "completed_at": "2026-05-16T20:12:47Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0021": {
       "status": "done",
-      "updated_at": "2026-05-16T17:38:04Z",
+      "updated_at": "2026-05-16T20:13:14Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:38:04Z"
+      "completed_at": "2026-05-16T20:13:14Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0022": {
       "status": "done",
-      "updated_at": "2026-05-16T17:38:16Z",
+      "updated_at": "2026-05-16T20:13:12Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:38:16Z"
+      "completed_at": "2026-05-16T20:13:12Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0023": {
       "status": "done",
-      "updated_at": "2026-05-16T17:38:35Z",
+      "updated_at": "2026-05-16T20:13:38Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:38:35Z"
+      "completed_at": "2026-05-16T20:13:38Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004": {
       "status": "done",
@@ -349,12 +351,12 @@
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0004": {
       "status": "done",
-      "updated_at": "2026-05-16T17:41:19Z",
+      "updated_at": "2026-05-16T20:20:04Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T17:41:06Z",
       "started_at": "2026-05-16T17:41:06Z",
-      "completed_at": "2026-05-16T17:41:19Z"
+      "completed_at": "2026-05-16T20:20:04Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0011": {
       "status": "done",
@@ -439,94 +441,94 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0026": {
       "status": "done",
-      "updated_at": "2026-05-16T18:12:42Z",
+      "updated_at": "2026-05-16T20:14:10Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:12:42Z"
+      "completed_at": "2026-05-16T20:14:10Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0027": {
       "status": "done",
-      "updated_at": "2026-05-16T18:12:59Z",
+      "updated_at": "2026-05-16T20:14:37Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:12:59Z"
+      "completed_at": "2026-05-16T20:14:37Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0024": {
       "status": "done",
-      "updated_at": "2026-05-16T18:13:08Z",
+      "updated_at": "2026-05-16T20:14:03Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:13:08Z"
+      "completed_at": "2026-05-16T20:14:03Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0025": {
       "status": "done",
-      "updated_at": "2026-05-16T18:13:16Z",
+      "updated_at": "2026-05-16T20:14:39Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:13:16Z"
+      "completed_at": "2026-05-16T20:14:39Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0028": {
       "status": "done",
-      "updated_at": "2026-05-16T18:13:50Z",
+      "updated_at": "2026-05-16T20:15:07Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:13:50Z"
+      "completed_at": "2026-05-16T20:15:07Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0029": {
       "status": "done",
-      "updated_at": "2026-05-16T18:14:09Z",
+      "updated_at": "2026-05-16T20:15:24Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:14:09Z"
+      "completed_at": "2026-05-16T20:15:24Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0030": {
       "status": "done",
-      "updated_at": "2026-05-16T18:14:18Z",
+      "updated_at": "2026-05-16T20:15:45Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:14:18Z"
+      "completed_at": "2026-05-16T20:15:45Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0031": {
       "status": "done",
-      "updated_at": "2026-05-16T18:14:20Z",
+      "updated_at": "2026-05-16T20:15:47Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:14:20Z"
+      "completed_at": "2026-05-16T20:15:47Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0032": {
       "status": "done",
-      "updated_at": "2026-05-16T18:14:48Z",
+      "updated_at": "2026-05-16T20:16:07Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:14:48Z"
+      "completed_at": "2026-05-16T20:16:07Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0033": {
       "status": "done",
-      "updated_at": "2026-05-16T18:15:00Z",
+      "updated_at": "2026-05-16T20:16:19Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:15:00Z"
+      "completed_at": "2026-05-16T20:16:19Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0035": {
       "status": "done",
-      "updated_at": "2026-05-16T18:15:13Z",
+      "updated_at": "2026-05-16T20:16:41Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:15:13Z"
+      "completed_at": "2026-05-16T20:16:41Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0034": {
       "status": "done",
-      "updated_at": "2026-05-16T18:15:20Z",
+      "updated_at": "2026-05-16T20:16:50Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:15:20Z"
+      "completed_at": "2026-05-16T20:16:50Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0036": {
       "status": "done",
-      "updated_at": "2026-05-16T18:15:47Z",
+      "updated_at": "2026-05-16T20:17:03Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:15:47Z"
+      "completed_at": "2026-05-16T20:17:03Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0037": {
       "status": "done",
@@ -537,31 +539,31 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0039": {
       "status": "done",
-      "updated_at": "2026-05-16T18:16:13Z",
+      "updated_at": "2026-05-16T20:17:37Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:16:13Z"
+      "completed_at": "2026-05-16T20:17:37Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0038": {
       "status": "done",
-      "updated_at": "2026-05-16T18:16:29Z",
+      "updated_at": "2026-05-16T20:17:55Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:16:29Z"
+      "completed_at": "2026-05-16T20:17:55Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0040": {
       "status": "done",
-      "updated_at": "2026-05-16T18:16:40Z",
+      "updated_at": "2026-05-16T20:17:57Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:16:40Z"
+      "completed_at": "2026-05-16T20:17:57Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0041": {
       "status": "done",
-      "updated_at": "2026-05-16T18:17:13Z",
+      "updated_at": "2026-05-16T20:18:35Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:17:13Z"
+      "completed_at": "2026-05-16T20:18:35Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0042": {
       "status": "done",
@@ -572,45 +574,45 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0043": {
       "status": "done",
-      "updated_at": "2026-05-16T18:17:37Z",
+      "updated_at": "2026-05-16T20:19:02Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:17:37Z"
+      "completed_at": "2026-05-16T20:19:02Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0044": {
       "status": "done",
-      "updated_at": "2026-05-16T18:17:43Z",
+      "updated_at": "2026-05-16T20:19:01Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:17:43Z"
+      "completed_at": "2026-05-16T20:19:01Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0046": {
       "status": "done",
-      "updated_at": "2026-05-16T18:18:18Z",
+      "updated_at": "2026-05-16T20:19:44Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:18:18Z"
+      "completed_at": "2026-05-16T20:19:44Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0045": {
       "status": "done",
-      "updated_at": "2026-05-16T18:18:20Z",
+      "updated_at": "2026-05-16T20:19:45Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:18:20Z"
+      "completed_at": "2026-05-16T20:19:45Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0047": {
       "status": "done",
-      "updated_at": "2026-05-16T18:18:24Z",
+      "updated_at": "2026-05-16T20:19:46Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:18:24Z"
+      "completed_at": "2026-05-16T20:19:46Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0048": {
       "status": "done",
-      "updated_at": "2026-05-16T18:18:42Z",
+      "updated_at": "2026-05-16T20:19:52Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T18:18:42Z"
+      "completed_at": "2026-05-16T20:19:52Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0049": {
       "status": "done",
@@ -718,31 +720,33 @@
       "completed_at": "2026-05-16T18:21:52Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006": {
-      "status": "done",
-      "updated_at": "2026-05-16T18:22:23Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T20:20:19Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T18:22:23Z"
+      "completed_at": "2026-05-16T18:22:23Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-16T20:20:19Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007": {
       "status": "done",
-      "updated_at": "2026-05-16T18:22:30Z",
+      "updated_at": "2026-05-16T20:20:25Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T18:22:30Z"
+      "completed_at": "2026-05-16T20:20:25Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008": {
-      "status": "done",
-      "updated_at": "2026-05-16T18:22:23Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-16T20:20:26Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T18:22:23Z"
+      "completed_at": "2026-05-16T18:22:23Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-16T20:20:26Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
       "status": "done",

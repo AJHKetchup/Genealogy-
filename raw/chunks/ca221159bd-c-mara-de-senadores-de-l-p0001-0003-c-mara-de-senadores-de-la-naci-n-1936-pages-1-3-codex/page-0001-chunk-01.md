@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ce402727b732-P0001-01
+chunk_id: CHUNK-d1d83f7e1e75-P0001-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
-converted_sha256: ce402727b732e09a7981c55e927cac631dbce2234020bd67b75b333d1936d408
+converted_sha256: d1d83f7e1e752f4fc3402c51f357591e9291d11ef6d8111d35ea7e817750abc1
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json
@@ -22,127 +22,81 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images`
 
 ## Page Metadata
-- page_number: 1
-- page_type: cover
-- page_kind: blank
-- source_language: zxx
-- handwritten: yes
-- stamped: no
-- typed: no
-- printed: no
-- signed: no
-- folio_number: none
-- doc_type: unknown
-- marginalia: yes
+This page is largely blank, containing only a handwritten alphanumeric code in the top right corner. It appears to be an internal filing or cataloging mark.
 
 ## Layout And Reading Order
-The page is blank except for a single line of handwritten text in the upper right quadrant.
-
-- region_id: r1
-- region_type: handwritten
-- reading_order: 1
+The page contains a single handwritten alphanumeric code positioned in the top right quadrant. This is the only content on the page.
 
 ## Literal Transcription
-```markdown
-r1:
-COL16 S^bis / 147 / 4
-```
+COL16 S<sup>bis</sup>/147 / 4
 
 ## Images, Captions, And Visual Notes
-This page is blank except for a handwritten archival or filing number in the upper right quadrant. There are no images or other meaningful visual elements.
+The page is mostly blank except for a handwritten alphanumeric code in the top right corner. The code reads "COL16 S<sup>bis</sup>/147 / 4". The "bis" is written as a superscript above the "S".
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
+No uncertain or illegible text.
 
 ## Completeness Audit
-This page is complete and fully transcribed.
+The transcription is complete and captures all visible content on the page.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only a short handwritten archival note, which is fully transcribed. There are no other meaningful visual elements like photographs, illustrations, or maps."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small handwritten alphanumeric code, which is fully captured by the literal transcription and does not warrant a separate visual region crop."}
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0002`
-- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
-- Page: 2
+Page number: 2
 
 ## Layout And Reading Order
-The page is a blank cover or flyleaf. There is handwriting in the upper portion of the page. In the lower right quadrant, there is a torn piece of blue paper affixed to the page.
-
-The reading order is as follows:
-1. Handwritten text at the top.
+The page contains handwritten text in blue crayon/pencil at the top-left, followed by a handwritten signature or scribble. A blue, irregularly shaped sticker is affixed to the bottom-right corner of the page.
 
 ## Literal Transcription
-[Handwritten in blue crayon or pencil:]
 Registry
-
-[Handwritten signature in pencil or ink, below "Registry":]
-[illegible signature]
+SOB[Z/L]A x
 
 ## Images, Captions, And Visual Notes
-This page appears to be the back of a document or a blank interior page. It is made of tan-colored cardstock.
-
-At the top, the word "Registry" is written in a cursive script with what appears to be a blue wax pencil or crayon. Below it is an illegible signature in a darker pencil or ink.
-
-In the bottom right corner, there is a torn, irregularly shaped piece of light blue paper glued or stuck to the page.
-
-There are small holes near the bottom edge, possibly from staples or binding. A small piece of a staple is visible on the left edge.
+A blue, irregularly shaped sticker or piece of paper is affixed to the bottom right corner of the page. It appears crumpled.
 
 ## Uncertain Or Illegible
-- The signature below the word "Registry" is illegible. It is a highly stylized scrawl.
+The handwritten text below "Registry" is difficult to decipher with certainty. The most plausible reading is "SOB[Z/L]A x", where the third and fourth letters are particularly ambiguous.
 
 ## Completeness Audit
-This page is fully transcribed and described.
+The page is fully transcribed and described.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only minor handwriting and a piece of torn paper, neither of which constitutes a meaningful visual region for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only minor handwritten annotations and a simple sticker, none of which qualify as substantial visuals (portraits, maps, illustrations, etc.) for standalone wiki assets. These elements are adequately captured by literal transcription and visual notes."}
 ```
 
 ## Page Metadata
-
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0003`
-- Page: 3
+Page number: 3
 
 ## Layout And Reading Order
 
-The page is a single-column document, likely an enclosure slip or folder cover. The majority of the page is blank. All text is located in a block at the bottom of the page. The reading order is top to bottom.
+The page is a light-colored sheet, possibly a cover or backing page, with text printed and handwritten near the bottom. There are two small tears or holes near the bottom edge, suggesting it was previously bound or fastened. A horizontal line separates the upper blank area from the lower section containing text.
 
 ## Literal Transcription
-
-[Text is located in a block at the bottom of the page]
 
 BULKY DOCUMENT
 ENCLOSURE.
-
-[Handwritten]
 9A/31064/25420
-(Jacket 1)
-
-[Printed in the bottom-left corner]
+(jacket 1)
 3979-7.36-500
 
 ## Images, Captions, And Visual Notes
 
-The page is a light blue-grey paper slip, identified by printed text as a "BULKY DOCUMENT ENCLOSURE." It is creased horizontally and has two tears, possibly from staples or a binding mechanism, just above the text block. The text at the bottom includes both printed and handwritten reference numbers.
+The page contains no images, captions, or visual elements requiring specific description or cropping beyond the literal transcription of text. The tears/holes near the bottom are minor physical damage to the page itself.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of this page.
+None. All text is clearly legible.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
+The transcription is complete and includes all visible text and relevant visual notes from the page.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only simple printed and handwritten text on a slip of paper, with no significant visual elements like photographs, illustrations, or complex diagrams that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present on this page. The page contains only text and minor physical marks."}
 ```
