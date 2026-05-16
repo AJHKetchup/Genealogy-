@@ -206,6 +206,7 @@ Storage deaccession is allowed only when:
 - Implemented: research-analyzer staging-opportunity readiness gates from conversion QA and reread holds.
 - Implemented: research-analyzer question prompt packets that use the shared agent-queue/task-state contract.
 - Implemented: research-analyzer question tasks honor conversion-QA page holds before evidence extraction.
+- Implemented: research-analyzer question tasks block on pending conversion-QA review before staged extraction.
 - Implemented: evidence-extraction queue blocks on pending conversion-QA review before staged claim work.
 - Implemented: cloud heartbeat runs the research-analyzer loop and reports its research-question queue.
 - Implemented: cloud heartbeat keeps conversion-QA gate queues materialized by default.

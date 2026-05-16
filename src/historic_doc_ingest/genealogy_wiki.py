@@ -6318,18 +6318,26 @@ def build_research_question_task(
     root: Path,
     candidate: dict[str, object],
     qc_hold: dict[str, object] | None = None,
+    conversion_qa_done: bool = True,
 ) -> dict[str, object]:
     question_id = research_analyzer_question_id(candidate)
     question_path = research_analyzer_question_path(root, question_id)
     converted_file = str(candidate.get("converted_file", ""))
     source_slug = slug(Path(converted_file).stem)
     page = safe_int(candidate.get("page"), 0)
+    pending_conversion_qa = bool(converted_file) and not qc_hold and not conversion_qa_done
     task = {
         "task_id": f"research-question:{question_id}",
         "queue": "research-questions",
         "role": "evidence_extractor",
         "skill": "genealogy-claim-extraction",
-        "status": "blocked_needs_reread" if qc_hold else "todo",
+        "status": (
+            "blocked_needs_reread"
+            if qc_hold
+            else "blocked_pending_conversion_qa"
+            if pending_conversion_qa
+            else "todo"
+        ),
         "question_id": question_id,
         "question_path": relative_to_root(question_path, root),
         "source": str(candidate.get("source", "")),
@@ -6341,7 +6349,14 @@ def build_research_question_task(
         "score": safe_int(candidate.get("score"), 0),
         "recommended_action": str(candidate.get("recommended_action", "")),
         "staging_recommendations": candidate.get("staging_recommendations", []),
-        "prompt": build_research_question_task_prompt(candidate, question_id, question_path, root, qc_hold),
+        "prompt": build_research_question_task_prompt(
+            candidate,
+            question_id,
+            question_path,
+            root,
+            qc_hold,
+            pending_conversion_qa=pending_conversion_qa,
+        ),
     }
     if qc_hold:
         task.update(
@@ -6354,6 +6369,16 @@ def build_research_question_task(
                 "qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
             }
         )
+    elif pending_conversion_qa:
+        task.update(
+            {
+                "block_reason": "pending_conversion_qa",
+                "conversion_qa_task_id": conversion_qa_task_id_for_converted_file(converted_file),
+                "conversion_qa_triage": f"research/_conversion-review/triage/{source_slug}.md",
+                "conversion_qa_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+                "conversion_qa_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+            }
+        )
     return task
 
 
@@ -6363,6 +6388,8 @@ def build_research_question_task_prompt(
     question_path: Path,
     root: Path,
     qc_hold: dict[str, object] | None = None,
+    *,
+    pending_conversion_qa: bool = False,
 ) -> str:
     staging_lines = format_research_analyzer_staging_recommendations(candidate)
     hold_section = ""
@@ -6377,6 +6404,23 @@ This research question touches a page that is currently held by conversion QA.
 - QC quality flags: {", ".join(str(flag) for flag in qc_hold.get("quality_flags", []) or []) or "none"}
 
 Do not extract claims or create staged evidence from this page until the reread is resolved or the page is re-queued.
+""".rstrip()
+    elif pending_conversion_qa:
+        converted_file = str(candidate.get("converted_file", ""))
+        source_slug = slug(Path(converted_file).stem)
+        hold_section = f"""
+
+## Conversion QA Gate
+
+This research question touches a converted source that still needs conversion QA before staged evidence extraction.
+
+- Status: `blocked_pending_conversion_qa`
+- Conversion QA task: `{conversion_qa_task_id_for_converted_file(converted_file)}`
+- Expected triage note: `research/_conversion-review/triage/{source_slug}.md`
+- Expected page queue: `research/_conversion-review/page-queues/{source_slug}.md`
+- Expected suspected readings: `research/_conversion-review/corrections/{source_slug}.md`
+
+Do not extract claims or create staged evidence from this page until the conversion QA task is completed and the queue is regenerated.
 """.rstrip()
     return f"""# Research Question Task
 
@@ -6422,14 +6466,18 @@ def write_research_question_queue(root: Path, pages: list[dict[str, object]]) ->
         page for page in pages if safe_int(page.get("score"), 0) >= RESEARCH_ANALYZER_QUESTION_SCORE
     ]
     qc_blocked_by_source = load_qc_blocked_pages(root)
-    tasks = [
-        build_research_question_task(
-            root,
-            page,
-            qc_blocked_by_source.get(str(page.get("converted_file", "")), {}).get(safe_int(page.get("page"), 0)),
+    task_state = load_agent_task_state(root)
+    tasks = []
+    for page in candidates:
+        converted_file = str(page.get("converted_file", ""))
+        tasks.append(
+            build_research_question_task(
+                root,
+                page,
+                qc_blocked_by_source.get(converted_file, {}).get(safe_int(page.get("page"), 0)),
+                conversion_qa_done=conversion_qa_is_done(task_state, converted_file),
+            )
         )
-        for page in candidates
-    ]
     tasks.sort(
         key=lambda task: (
             -safe_int(task.get("score"), 0),
@@ -6439,7 +6487,6 @@ def write_research_question_queue(root: Path, pages: list[dict[str, object]]) ->
         )
     )
     path = research_analyzer_question_queue_path(root)
-    task_state = load_agent_task_state(root)
     path = write_agent_queue(
         root,
         path.parent,

@@ -1346,10 +1346,13 @@ status: stub
     recommendation_types = {item["type"] for item in index["pages"][0]["staging_recommendations"]}
     assert {"source_packet", "claim", "relationship", "identity"} <= recommendation_types
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    assert queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
+    assert queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
     assert {item["type"] for item in queue["tasks"][0]["staging_recommendations"]} == recommendation_types
     question_text = (tmp_path / queue["tasks"][0]["question_path"]).read_text(encoding="utf-8")
     prompt_text = (tmp_path / queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
     assert "## Suggested Staging Outputs" in question_text
+    assert "## Conversion QA Gate" in prompt_text
     assert "`relationship` -> `research/_staging/relationships`" in prompt_text
     opportunities = json.loads(
         (tmp_path / "research" / "_indexes" / "research-staging-opportunities.json").read_text(encoding="utf-8")
@@ -1399,7 +1402,8 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert not (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").exists()
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
     assert queue["task_count"] == 1
-    assert queue["tasks"][0]["status"] == "todo"
+    assert queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
+    assert queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
     assert {item["type"] for item in queue["tasks"][0]["staging_recommendations"]} == {"source_packet", "claim"}
     assert (tmp_path / queue["tasks"][0]["question_path"]).exists()
     assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
@@ -1419,6 +1423,8 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     )
     assert after_qa["staging_readiness_counts"] == {"ready_for_extraction": 1}
     assert opportunities["opportunities"][0]["readiness"]["status"] == "ready_for_extraction"
+    queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    assert queue_after_qa["tasks"][0]["status"] == "todo"
 
 
 def test_research_analyzer_blocks_question_tasks_for_qc_held_pages(tmp_path) -> None:
@@ -1702,6 +1708,7 @@ def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
     assert summary["queues"]["conversion_qa"]["task_count"] == 1
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text(encoding="utf-8"))
     assert queue["task_count"] == 1
+    assert queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
     qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
     assert qa_queue["tasks"][0]["status"] == "todo"
     assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()

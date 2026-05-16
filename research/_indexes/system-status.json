@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T08:23:00Z",
+  "created": "2026-05-16T08:36:18Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -73,7 +73,7 @@
       "path": "research/_agent-queues/research-questions.json",
       "task_count": 2,
       "status_counts": {
-        "todo": 2
+        "blocked_pending_conversion_qa": 2
       }
     }
   },
@@ -106,7 +106,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T08:23:00Z",
+      "created": "2026-05-16T08:36:18Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },
@@ -146,14 +146,6 @@
       "next_step": "Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction.",
       "count": 8,
       "queue": "research/_agent-queues/evidence-extraction.json"
-    },
-    {
-      "area": "research_questions",
-      "priority": "medium",
-      "reason": "2 research-analyzer question task(s) are queued.",
-      "next_step": "Work the prompt packets and keep results in research questions or staging drafts.",
-      "count": 2,
-      "queue": "research/_agent-queues/research-questions.json"
     },
     {
       "area": "source_conversion",

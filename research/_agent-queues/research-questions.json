@@ -3,7 +3,7 @@
   "queue": "research-questions",
   "task_count": 2,
   "status_counts": {
-    "todo": 2
+    "blocked_pending_conversion_qa": 2
   },
   "tasks": [
     {
@@ -11,7 +11,7 @@
       "queue": "research-questions",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "blocked_pending_conversion_qa",
       "question_id": "RQ-9ae7e6a2ac30-P0003",
       "question_path": "research/questions/rq-9ae7e6a2ac30-p0003.md",
       "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -36,6 +36,11 @@
           "reason": "Names or life-event cues may support atomic fact drafts after source review."
         }
       ],
+      "block_reason": "pending_conversion_qa",
+      "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+      "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-9ae7e6a2ac30-p0003.md"
     },
     {
@@ -43,7 +48,7 @@
       "queue": "research-questions",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "blocked_pending_conversion_qa",
       "question_id": "RQ-b4dc978311d3-P0001",
       "question_path": "research/questions/rq-b4dc978311d3-p0001.md",
       "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -68,6 +73,11 @@
           "reason": "Names or life-event cues may support atomic fact drafts after source review."
         }
       ],
+      "block_reason": "pending_conversion_qa",
+      "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+      "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "prompt_path": "research/_agent-queues/prompts/research-questions/research-question-rq-b4dc978311d3-p0001.md"
     }
   ],
