@@ -1342,6 +1342,58 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert f"[[questions/{Path(queue['tasks'][0]['question_path']).stem}]]" in research_index
 
 
+def test_research_analyzer_blocks_question_tasks_for_qc_held_pages(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "held-record.codex.md"
+    converted.write_text(
+        complete_gemini_page_markdown("M. Werner appears in a professional list.")
+        + """
+## Extracted Genealogy Leads
+
+- **M. Werner**
+""",
+        encoding="utf-8",
+    )
+    chunk_manifest = chunk_converted_markdown(tmp_path, converted)
+    qc_dir = tmp_path / "research" / "_conversion-review"
+    qc_dir.mkdir(parents=True, exist_ok=True)
+    qc_dir.joinpath("qc-pages.json").write_text(
+        json.dumps(
+            {
+                "pages": [
+                    {
+                        "page": 1,
+                        "recommended_action": "reread-page",
+                        "conversion_confidence": "low",
+                        "family_relevance": "medium",
+                        "quality_flags": ["possible_name_drift"],
+                        "matched_terms": ["Werner"],
+                        "converted_file": converted.relative_to(tmp_path).as_posix(),
+                        "chunk_manifest": chunk_manifest.relative_to(tmp_path).as_posix(),
+                    }
+                ]
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    summary = research_analyzer_run(tmp_path, limit=3)
+
+    assert summary["research_questions_written"] == 1
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
+    task = queue["tasks"][0]
+    assert queue["task_count"] == 1
+    assert task["status"] == "blocked_needs_reread"
+    assert task["block_reason"] == "post_conversion_qc_hold"
+    assert task["blocked_pages"] == [1]
+    assert task["qc_recommended_action"] == "reread-page"
+    assert task["qc_quality_flags"] == ["possible_name_drift"]
+    prompt_text = (tmp_path / task["prompt_path"]).read_text(encoding="utf-8")
+    assert "QC Hold" in prompt_text
+    assert "Do not extract claims" in prompt_text
+
+
 def test_research_analyzer_recovers_original_pages_for_question_queue(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     source = tmp_path / "raw" / "sources" / "archive.pdf"

@@ -5991,27 +5991,46 @@ def research_analyzer_question_text(candidate: dict[str, object]) -> str:
     return f"Does page {page} of `{source}` contain evidence worth staging, or can it remain a low-priority signal?"
 
 
-def build_research_question_task(root: Path, candidate: dict[str, object]) -> dict[str, object]:
+def build_research_question_task(
+    root: Path,
+    candidate: dict[str, object],
+    qc_hold: dict[str, object] | None = None,
+) -> dict[str, object]:
     question_id = research_analyzer_question_id(candidate)
     question_path = research_analyzer_question_path(root, question_id)
-    return {
+    converted_file = str(candidate.get("converted_file", ""))
+    source_slug = slug(Path(converted_file).stem)
+    page = safe_int(candidate.get("page"), 0)
+    task = {
         "task_id": f"research-question:{question_id}",
         "queue": "research-questions",
         "role": "evidence_extractor",
         "skill": "genealogy-claim-extraction",
-        "status": "todo",
+        "status": "blocked_needs_reread" if qc_hold else "todo",
         "question_id": question_id,
         "question_path": relative_to_root(question_path, root),
         "source": str(candidate.get("source", "")),
         "source_sha256": str(candidate.get("source_sha256", "")),
-        "converted_file": str(candidate.get("converted_file", "")),
+        "converted_file": converted_file,
         "chunk_manifest": str(candidate.get("chunk_manifest", "")),
         "chunks": candidate.get("chunks", []),
-        "page": safe_int(candidate.get("page"), 0),
+        "page": page,
         "score": safe_int(candidate.get("score"), 0),
         "recommended_action": str(candidate.get("recommended_action", "")),
-        "prompt": build_research_question_task_prompt(candidate, question_id, question_path, root),
+        "prompt": build_research_question_task_prompt(candidate, question_id, question_path, root, qc_hold),
     }
+    if qc_hold:
+        task.update(
+            {
+                "blocked_pages": [page],
+                "block_reason": "post_conversion_qc_hold",
+                "qc_recommended_action": qc_hold.get("recommended_action", ""),
+                "qc_quality_flags": qc_hold.get("quality_flags", []),
+                "qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+                "qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+            }
+        )
+    return task
 
 
 def build_research_question_task_prompt(
@@ -6019,7 +6038,21 @@ def build_research_question_task_prompt(
     question_id: str,
     question_path: Path,
     root: Path,
+    qc_hold: dict[str, object] | None = None,
 ) -> str:
+    hold_section = ""
+    if qc_hold:
+        hold_section = f"""
+
+## QC Hold
+
+This research question touches a page that is currently held by conversion QA.
+
+- QC recommended action: `{qc_hold.get("recommended_action", "")}`
+- QC quality flags: {", ".join(str(flag) for flag in qc_hold.get("quality_flags", []) or []) or "none"}
+
+Do not extract claims or create staged evidence from this page until the reread is resolved or the page is re-queued.
+""".rstrip()
     return f"""# Research Question Task
 
 Use `$genealogy-claim-extraction` if evidence can be staged from the cited chunks.
@@ -6030,7 +6063,7 @@ Use `$genealogy-claim-extraction` if evidence can be staged from the cited chunk
 - Source: `{candidate.get("source", "")}`
 - Converted source: `{candidate.get("converted_file", "")}`
 - Page: {safe_int(candidate.get("page"), 0)}
-- Chunks: {", ".join(f"`{chunk}`" for chunk in candidate.get("chunks", []) if str(chunk).strip()) or "`none`"}
+- Chunks: {", ".join(f"`{chunk}`" for chunk in candidate.get("chunks", []) if str(chunk).strip()) or "`none`"}{hold_section}
 
 ## Done When
 
@@ -6044,7 +6077,15 @@ def write_research_question_queue(root: Path, pages: list[dict[str, object]]) ->
     candidates = [
         page for page in pages if safe_int(page.get("score"), 0) >= RESEARCH_ANALYZER_QUESTION_SCORE
     ]
-    tasks = [build_research_question_task(root, page) for page in candidates]
+    qc_blocked_by_source = load_qc_blocked_pages(root)
+    tasks = [
+        build_research_question_task(
+            root,
+            page,
+            qc_blocked_by_source.get(str(page.get("converted_file", "")), {}).get(safe_int(page.get("page"), 0)),
+        )
+        for page in candidates
+    ]
     tasks.sort(
         key=lambda task: (
             -safe_int(task.get("score"), 0),
