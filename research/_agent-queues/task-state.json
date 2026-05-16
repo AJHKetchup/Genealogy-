@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-16T14:03:09Z",
+  "updated": "2026-05-16T15:19:22Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -106,12 +106,12 @@
     },
     "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001": {
       "status": "released",
-      "updated_at": "2026-05-16T14:03:09Z",
+      "updated_at": "2026-05-16T15:19:22Z",
       "note": "Gemini conversion error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Unsupported MIME type: application/octet-stream\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T14:03:09Z"
+      "released_at": "2026-05-16T15:19:22Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0001": {
       "status": "done",
