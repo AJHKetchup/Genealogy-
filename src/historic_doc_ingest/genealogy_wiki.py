@@ -10577,6 +10577,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "research_readiness": build_system_research_readiness_summary(paths.root, source_usability, research_analyzer),
         "page_upgrades": build_system_page_upgrade_summary(paths.root, relevance_feedback, research_analyzer),
         "queues": queues,
+        "queue_blockers": build_system_queue_blocker_summary(queues),
         "storage": build_system_storage_summary(raw_cloud, derived_assets),
         "final_site": build_system_final_site_summary(paths.root),
         "storage_lifecycle": build_system_lifecycle_summary(paths.root),
@@ -10587,11 +10588,36 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
     return payload
 
 
+def build_system_queue_blocker_summary(queues: dict[str, object]) -> dict[str, object]:
+    conversion_qa = queue_payload(queues, "conversion_qa")
+    evidence_extraction = queue_payload(queues, "evidence_extraction")
+    research_questions = queue_payload(queues, "research_questions")
+    pending_conversion_qa_counts = {
+        "evidence_extraction": queue_status_total(evidence_extraction, ("blocked_pending_conversion_qa",)),
+        "research_questions": queue_status_total(research_questions, ("blocked_pending_conversion_qa",)),
+    }
+    pending_conversion_qa_counts = {
+        queue: count for queue, count in pending_conversion_qa_counts.items() if count
+    }
+    pending_total = sum(pending_conversion_qa_counts.values())
+    blockers: dict[str, object] = {}
+    if pending_total:
+        blockers["pending_conversion_qa"] = {
+            "blocking_queue": str(conversion_qa.get("path", "")),
+            "blocking_task_count": queue_status_total(conversion_qa, ("todo", "claimed", "in_progress")),
+            "blocked_task_count": pending_total,
+            "blocked_queues": pending_conversion_qa_counts,
+            "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction and research-question work.",
+        }
+    return blockers
+
+
 def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, object]]:
     queues = payload.get("queues", {})
     source_conversion = payload.get("source_conversion", {})
     page_upgrades = payload.get("page_upgrades", {})
     lifecycle = payload.get("storage_lifecycle", {})
+    queue_blockers = payload.get("queue_blockers", {})
     actions: list[dict[str, object]] = []
 
     def add(
@@ -10633,10 +10659,15 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
     conversion_qa = queue_payload(queues, "conversion_qa")
     conversion_qa_open = queue_status_total(conversion_qa, ("todo", "claimed", "in_progress"))
     if conversion_qa_open:
+        pending_conversion_qa = dict_value(queue_blockers, "pending_conversion_qa", {})
+        blocked_by_gate = safe_int(dict_value(pending_conversion_qa, "blocked_task_count"), 0)
+        reason = f"{conversion_qa_open} converted source(s) are waiting for conversion-QA triage."
+        if blocked_by_gate:
+            reason += f" {blocked_by_gate} downstream task(s) are held by this gate."
         add(
             "conversion_qa",
             "high",
-            f"{conversion_qa_open} converted source(s) are waiting for conversion-QA triage.",
+            reason,
             "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
             count=conversion_qa_open,
             queue=str(conversion_qa.get("path", "")),
@@ -10963,6 +10994,34 @@ def build_system_status_markdown(payload: dict[str, object]) -> str:
                 )
                 + " |"
             )
+    queue_blockers = payload.get("queue_blockers", {})
+    blocker_rows = [
+        "| Blocker | Blocking Tasks | Blocked Tasks | Blocked Queues | Next Step |",
+        "| --- | ---: | ---: | --- | --- |",
+    ]
+    if isinstance(queue_blockers, dict):
+        for name, blocker in sorted(queue_blockers.items()):
+            if not isinstance(blocker, dict):
+                continue
+            blocked_queues = blocker.get("blocked_queues", {})
+            if not isinstance(blocked_queues, dict):
+                blocked_queues = {}
+            blocked_queue_text = ", ".join(f"{queue}: {count}" for queue, count in sorted(blocked_queues.items()))
+            blocker_rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(name),
+                        markdown_table_cell(blocker.get("blocking_task_count", 0)),
+                        markdown_table_cell(blocker.get("blocked_task_count", 0)),
+                        markdown_table_cell(blocked_queue_text or "none"),
+                        markdown_table_cell(blocker.get("next_step", "")),
+                    ]
+                )
+                + " |"
+            )
+    if len(blocker_rows) == 2:
+        blocker_rows.append("| none | 0 | 0 | none | none |")
     return f"""# System Dashboard
 
 Generated: {payload.get("created", "")}
@@ -11004,6 +11063,10 @@ Generated: {payload.get("created", "")}
 ## Queues
 
 {chr(10).join(queue_rows)}
+
+## Queue Blockers
+
+{chr(10).join(blocker_rows)}
 
 ## Storage
 

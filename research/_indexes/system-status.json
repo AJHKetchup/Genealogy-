@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T09:07:48Z",
+  "created": "2026-05-16T09:21:17Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -79,6 +79,18 @@
       }
     }
   },
+  "queue_blockers": {
+    "pending_conversion_qa": {
+      "blocking_queue": "research/_agent-queues/conversion-qa.json",
+      "blocking_task_count": 4,
+      "blocked_task_count": 10,
+      "blocked_queues": {
+        "evidence_extraction": 8,
+        "research_questions": 2
+      },
+      "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction and research-question work."
+    }
+  },
   "storage": {
     "r2_raw_file_count": 49,
     "r2_raw_total_bytes": 8230789331,
@@ -108,7 +120,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T09:07:48Z",
+      "created": "2026-05-16T09:21:17Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },
@@ -136,7 +148,7 @@
     {
       "area": "conversion_qa",
       "priority": "high",
-      "reason": "4 converted source(s) are waiting for conversion-QA triage.",
+      "reason": "4 converted source(s) are waiting for conversion-QA triage. 10 downstream task(s) are held by this gate.",
       "next_step": "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
       "count": 4,
       "queue": "research/_agent-queues/conversion-qa.json"

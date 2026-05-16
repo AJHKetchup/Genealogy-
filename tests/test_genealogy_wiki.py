@@ -2021,6 +2021,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "Analyzer staging opportunity pages" in dashboard_text
     assert "Analyzer staging readiness" in dashboard_text
     assert "`source_prep`" in dashboard_text
+    assert "## Queue Blockers" in dashboard_text
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
@@ -2036,9 +2037,18 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     prepare_raw_sources(tmp_path)
     manifest = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
     page_output = manifest.parent / "page-markdown" / "page-0001.md"
-    page_output.write_text(complete_page_markdown("Dario Pulgar Smith appears in this page."), encoding="utf-8")
+    page_output.write_text(
+        complete_gemini_page_markdown("Dario Pulgar Smith appears in this page.")
+        + """
+## Extracted Genealogy Leads
+
+- **Dario Pulgar Smith**
+""",
+        encoding="utf-8",
+    )
     assembled = assemble_codex_conversion_job(tmp_path, manifest)
     chunk_converted_markdown(tmp_path, assembled)
+    research_analyzer_run(tmp_path, limit=3)
     write_agent_queues(tmp_path)
 
     write_system_status_dashboard(tmp_path)
@@ -2047,7 +2057,13 @@ def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_pa
     areas = {action["area"] for action in payload["next_actions"]}
     assert {"conversion_qa", "evidence_extraction"} <= areas
     assert payload["queues"]["evidence_extraction"]["status_counts"]["blocked_pending_conversion_qa"] >= 1
+    blocker = payload["queue_blockers"]["pending_conversion_qa"]
+    assert blocker["blocking_task_count"] == 1
+    assert blocker["blocked_queues"]["evidence_extraction"] >= 1
+    assert blocker["blocked_queues"]["research_questions"] == 1
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
+    assert "## Queue Blockers" in dashboard_text
+    assert "pending_conversion_qa" in dashboard_text
     assert "conversion-QA triage" in dashboard_text
     assert "regenerate agent queues" in dashboard_text
 

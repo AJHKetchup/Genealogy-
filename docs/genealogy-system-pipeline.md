@@ -216,6 +216,7 @@ Storage deaccession is allowed only when:
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
 - Implemented: whole-system dashboard next-action guidance from queue blockers and readiness signals.
+- Implemented: whole-system queue-blocker summary for conversion-QA-gated downstream work.
 - Implemented: static HTML final-site generator structure for product wiki pages.
 - Implemented: static HTML site build refreshes the generated Family Tree entry point.
 - Implemented: non-destructive page-level storage lifecycle ranking and deaccession candidate records.

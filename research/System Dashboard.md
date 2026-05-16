@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T09:07:48Z
+Generated: 2026-05-16T09:21:17Z
 
 ## Source Conversion
 
@@ -34,7 +34,7 @@ Generated: 2026-05-16T09:07:48Z
 
 ## Next Actions
 
-- **high** `conversion_qa`: Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages. (4 converted source(s) are waiting for conversion-QA triage.)
+- **high** `conversion_qa`: Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages. (4 converted source(s) are waiting for conversion-QA triage. 10 downstream task(s) are held by this gate.)
 - **high** `evidence_extraction`: Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction. (8 evidence-extraction task(s) are blocked by the conversion-QA gate.)
 - **low** `source_conversion`: Prepare the next bounded raw-source batch while preserving originals in R2. (48 source(s) are registered but not yet converted.)
 
@@ -47,6 +47,12 @@ Generated: 2026-05-16T09:07:48Z
 | research_questions | 2 | blocked_pending_conversion_qa: 2 |
 | source_prep | 5 | done: 5 |
 | source_prep_batches | 0 | none |
+
+## Queue Blockers
+
+| Blocker | Blocking Tasks | Blocked Tasks | Blocked Queues | Next Step |
+| --- | ---: | ---: | --- | --- |
+| pending_conversion_qa | 4 | 10 | evidence_extraction: 8, research_questions: 2 | Complete conversion-QA tasks, then regenerate queues to release extraction and research-question work. |
 
 ## Storage
 
