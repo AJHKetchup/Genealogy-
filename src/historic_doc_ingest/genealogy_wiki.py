@@ -10669,6 +10669,7 @@ def main(argv: list[str] | None = None) -> int:
             root=args.root,
             limit=args.limit,
             scan_limit=args.scan_limit,
+            parallelism=args.parallelism,
             agent=args.agent,
             stale_minutes=args.stale_minutes,
             dry_run=args.dry_run,

@@ -1145,6 +1145,41 @@ def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation
     assert statuses == {"done"}
 
 
+def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    def fake_run(**kwargs):
+        captured.update(kwargs)
+        return {
+            "inspected": 0,
+            "accepted": 0,
+            "unusable": 0,
+            "errors": 0,
+            "dry_run": True,
+            "blockers": [],
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "source_prep_docling_discovery_run", fake_run)
+
+    result = genealogy_wiki.main(
+        [
+            "source-prep-docling-discovery",
+            "--root",
+            str(tmp_path),
+            "--limit",
+            "0",
+            "--scan-limit",
+            "40",
+            "--parallelism",
+            "4",
+            "--dry-run",
+        ]
+    )
+
+    assert result == 0
+    assert captured["parallelism"] == 4
+
+
 def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
