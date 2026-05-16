@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "updated": "2026-05-16T06:05:51Z",
+  "purpose": "Cached source-prep page output review keyed by page Markdown path, file size, and mtime.",
+  "entries": {
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-markdown/page-0001.md": {
+      "mtime_ns": 1778892065450681300,
+      "size": 4417,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0001.md": {
+      "mtime_ns": 1778899732740865900,
+      "size": 4865,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.md": {
+      "mtime_ns": 1778900615183118400,
+      "size": 3439,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0001.md": {
+      "mtime_ns": 1778888156150974500,
+      "size": 11684,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md": {
+      "mtime_ns": 1778902209535975500,
+      "size": 4812,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0003.md": {
+      "mtime_ns": 1778888156153741600,
+      "size": 11899,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0004.md": {
+      "mtime_ns": 1778890312295735800,
+      "size": 3795,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    },
+    "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0005.md": {
+      "mtime_ns": 1778902209538053400,
+      "size": 4077,
+      "review": {
+        "status": "done",
+        "quality_flags": [],
+        "missing_sections": []
+      }
+    }
+  }
+}

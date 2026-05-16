@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T05:50:25Z
+Generated: 2026-05-16T06:06:57Z
 
 ## Source Conversion
 
@@ -32,9 +32,9 @@ Generated: 2026-05-16T05:50:25Z
 | Queue | Tasks | Status Counts |
 | --- | ---: | --- |
 | conversion_qa | 0 | none |
-| evidence_extraction | 0 | none |
+| evidence_extraction | 6 | todo: 6 |
 | research_questions | 3 | todo: 3 |
-| source_prep | 0 | none |
+| source_prep | 5 | done: 5 |
 | source_prep_batches | 0 | none |
 
 ## Storage

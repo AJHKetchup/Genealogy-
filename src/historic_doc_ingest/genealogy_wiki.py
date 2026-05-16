@@ -10235,6 +10235,9 @@ def cloud_source_prep_heartbeat(
     *,
     restore_raw: bool = True,
     upload_assets: bool = True,
+    research_analyzer: bool = True,
+    research_analyzer_limit: int = 5,
+    research_question_limit: int = 5,
     conversion_qc: bool = False,
     conversion_only: bool = False,
     page_range: str | None = None,
@@ -10261,6 +10264,9 @@ def cloud_source_prep_heartbeat(
         "settings": {
             "conversion_qc": conversion_qc,
             "conversion_only": conversion_only,
+            "research_analyzer": research_analyzer,
+            "research_analyzer_limit": research_analyzer_limit,
+            "research_question_limit": research_question_limit,
             "page_range": page_range or "",
             "restore_limit": restore_limit or 0,
             "pages_per_job": pages_per_job,
@@ -10383,6 +10389,27 @@ def cloud_source_prep_heartbeat(
             summary["blockers"].append(f"source-status: {exc}")
             record_step("source-status", "failed", str(exc))
 
+    if conversion_only:
+        record_step("research-analyzer", "skipped", "conversion-only run")
+    elif not research_analyzer:
+        record_step("research-analyzer", "skipped", "disabled")
+    else:
+        try:
+            analyzer_summary = research_analyzer_run(
+                paths.root,
+                limit=research_analyzer_limit,
+                question_limit=research_question_limit,
+                dry_run=dry_run,
+            )
+            record_step("research-analyzer", "ran", analyzer_summary)
+            if analyzer_summary.get("blockers"):
+                summary["blockers"].extend(
+                    f"research-analyzer: {blocker}" for blocker in analyzer_summary.get("blockers", [])
+                )
+        except Exception as exc:
+            summary["blockers"].append(f"research-analyzer: {exc}")
+            record_step("research-analyzer", "failed", str(exc))
+
     if upload_assets:
         try:
             config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
@@ -10393,15 +10420,16 @@ def cloud_source_prep_heartbeat(
             record_step("raw-cloud asset-upload", "failed", str(exc))
 
     queue_dir = paths.research / "_agent-queues"
-    summary["queues"] = {"source_prep_batches": queue_summary(queue_dir / "source-prep-batches.json")}
+    summary["queues"] = {"source_prep_batches": system_queue_summary(paths.root, queue_dir / "source-prep-batches.json")}
     if not conversion_only:
         cast_queues = summary["queues"]
         if isinstance(cast_queues, dict):
             cast_queues.update(
                 {
-                    "source_prep": queue_summary(queue_dir / "source-prep.json"),
-                    "conversion_qa": queue_summary(queue_dir / "conversion-qa.json"),
-                    "evidence_extraction": queue_summary(queue_dir / "evidence-extraction.json"),
+                    "source_prep": system_queue_summary(paths.root, queue_dir / "source-prep.json"),
+                    "conversion_qa": system_queue_summary(paths.root, queue_dir / "conversion-qa.json"),
+                    "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
+                    "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
                 }
             )
     summary["finished"] = utc_timestamp()
@@ -12221,6 +12249,9 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
     cloud_source_prep_parser.add_argument("--fastlane-limit", type=int, default=0, help="Optional deterministic born-digital PDF page limit.")
     cloud_source_prep_parser.add_argument("--fastlane-scan-limit", type=int, default=250, help="Optional deterministic fastlane scan limit.")
+    cloud_source_prep_parser.add_argument("--no-research-analyzer", action="store_true", help="Skip the automated research-analyzer pass.")
+    cloud_source_prep_parser.add_argument("--research-analyzer-limit", type=int, default=5, help="Maximum new page-upgrade requests from the analyzer. Use -1 for no cap.")
+    cloud_source_prep_parser.add_argument("--research-question-limit", type=int, default=5, help="Maximum new research questions from the analyzer. Use -1 for no cap.")
     cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts and queues. Default is off.")
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
@@ -12860,6 +12891,9 @@ def main(argv: list[str] | None = None) -> int:
             root=args.root,
             restore_raw=not args.no_restore,
             upload_assets=not args.no_asset_upload,
+            research_analyzer=not args.no_research_analyzer,
+            research_analyzer_limit=args.research_analyzer_limit,
+            research_question_limit=args.research_question_limit,
             conversion_qc=args.conversion_qc,
             conversion_only=args.conversion_only,
             page_range=args.pages,

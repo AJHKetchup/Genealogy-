@@ -1,53 +1,50 @@
 {
-  "created": "2026-05-16T03:29:36Z",
+  "created": "2026-05-16T06:06:41Z",
   "mode": "cloud-first-source-prep-heartbeat",
-  "root": "/home/runner/work/Genealogy-/Genealogy-",
+  "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
-    "restore_raw": true,
-    "upload_assets": true
+    "restore_raw": false,
+    "upload_assets": false
   },
   "settings": {
     "conversion_qc": false,
-    "conversion_only": true,
-    "page_range": "1-4",
-    "restore_limit": 1,
+    "conversion_only": false,
+    "research_analyzer": true,
+    "research_analyzer_limit": 5,
+    "research_question_limit": 5,
+    "page_range": "",
+    "restore_limit": 0,
     "pages_per_job": 25,
-    "new_pages_limit": 4,
+    "new_pages_limit": 0,
     "batch_pages": 1,
-    "queue_limit": 20,
+    "queue_limit": 80,
     "stale_minutes": 360,
     "fastlane_limit": 0,
     "dry_run": false
   },
   "steps": [
     {
-      "name": "raw-cloud restore",
-      "status": "ran",
-      "detail": {
-        "action": "restore",
-        "created": "2026-05-16T03:29:36.041611+00:00",
-        "total_files": 1,
-        "restored": 0,
-        "skipped": 1,
-        "errors": []
-      }
-    },
-    {
       "name": "prepare-sources",
       "status": "ran",
       "detail": {
-        "prepared_sources": 1
+        "prepared_sources": 0
       }
     },
     {
       "name": "conversion-qc",
       "status": "skipped",
-      "detail": "conversion-only run"
+      "detail": "disabled; use source-relevance feedback for research-to-conversion routing"
     },
     {
       "name": "agent-queues",
-      "status": "skipped",
-      "detail": "conversion-only run"
+      "status": "ran",
+      "detail": {
+        "written": [
+          "research/_agent-queues/source-prep.json",
+          "research/_agent-queues/conversion-qa.json",
+          "research/_agent-queues/evidence-extraction.json"
+        ]
+      }
     },
     {
       "name": "source-prep-batches",
@@ -58,43 +55,74 @@
     },
     {
       "name": "source-status",
-      "status": "skipped",
-      "detail": "conversion-only run"
-    },
-    {
-      "name": "raw-cloud asset-upload",
       "status": "ran",
       "detail": {
-        "action": "asset-upload",
+        "written": [
+          "research/_indexes/source-usability.json",
+          "research/source-usability.md"
+        ]
+      }
+    },
+    {
+      "name": "research-analyzer",
+      "status": "ran",
+      "detail": {
+        "version": 1,
+        "created": "2026-05-16",
+        "mode": "research-analyzer",
+        "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
         "dry_run": false,
-        "total_files": 0,
-        "total_bytes": 0,
-        "uploaded": 0,
-        "skipped": 0,
-        "planned": 0,
-        "errors": [],
-        "deleted_disposable": 0,
-        "cleanup": {
-          "action": "cleanup-disposable-derived-assets",
-          "prefixes": [
-            "derived/raw/codex-conversion-jobs/",
-            "derived/research/_assets/conversions/"
-          ],
-          "scanned": 0,
-          "deleted": 0,
-          "skipped": 0,
-          "errors": []
-        }
+        "limit": 5,
+        "question_limit": 5,
+        "pages_scanned": 8,
+        "pages_with_signals": 3,
+        "upgrade_candidates": 0,
+        "upgrade_requests_written": 0,
+        "upgrade_requests_existing": 0,
+        "research_question_candidates": 3,
+        "research_questions_written": 0,
+        "research_questions_existing": 3,
+        "index": "research/_indexes/research-analyzer.json",
+        "feedback": "research/_agent-queues/source-relevance-feedback.json",
+        "research_question_queue": "research/_agent-queues/research-questions.json",
+        "blockers": [],
+        "state": "research/_automation/research-analyzer-state.json"
       }
     }
   ],
   "blockers": [],
   "queues": {
     "source_prep_batches": {
-      "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
+      "path": "research/_agent-queues/source-prep-batches.json",
       "task_count": 0,
       "status_counts": {}
+    },
+    "source_prep": {
+      "path": "research/_agent-queues/source-prep.json",
+      "task_count": 5,
+      "status_counts": {
+        "done": 5
+      }
+    },
+    "conversion_qa": {
+      "path": "research/_agent-queues/conversion-qa.json",
+      "task_count": 0,
+      "status_counts": {}
+    },
+    "evidence_extraction": {
+      "path": "research/_agent-queues/evidence-extraction.json",
+      "task_count": 6,
+      "status_counts": {
+        "todo": 6
+      }
+    },
+    "research_questions": {
+      "path": "research/_agent-queues/research-questions.json",
+      "task_count": 3,
+      "status_counts": {
+        "todo": 3
+      }
     }
   },
-  "finished": "2026-05-16T03:29:36Z"
+  "finished": "2026-05-16T06:06:41Z"
 }

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T05:50:25Z",
+  "created": "2026-05-16T06:06:57Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -42,8 +42,10 @@
     },
     "source_prep": {
       "path": "research/_agent-queues/source-prep.json",
-      "task_count": 0,
-      "status_counts": {}
+      "task_count": 5,
+      "status_counts": {
+        "done": 5
+      }
     },
     "conversion_qa": {
       "path": "research/_agent-queues/conversion-qa.json",
@@ -52,8 +54,10 @@
     },
     "evidence_extraction": {
       "path": "research/_agent-queues/evidence-extraction.json",
-      "task_count": 0,
-      "status_counts": {}
+      "task_count": 6,
+      "status_counts": {
+        "todo": 6
+      }
     },
     "research_questions": {
       "path": "research/_agent-queues/research-questions.json",
@@ -92,7 +96,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T03:29:36Z",
+      "created": "2026-05-16T06:06:41Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

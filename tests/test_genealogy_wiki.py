@@ -10,6 +10,7 @@ from historic_doc_ingest.genealogy_wiki import (
     build_claim_index,
     build_relationship_index,
     chunk_converted_markdown,
+    cloud_source_prep_heartbeat,
     compile_narrative,
     assemble_codex_conversion_job,
     create_claim,
@@ -1405,6 +1406,37 @@ M. Huber appears in a professional list.
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text(encoding="utf-8"))
     assert [task["page"] for task in queue["tasks"]] == [4, 5]
     assert all((tmp_path / task["prompt_path"]).exists() for task in queue["tasks"])
+
+
+def test_cloud_source_prep_heartbeat_runs_research_analyzer(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "heartbeat-record.codex.md"
+    converted.write_text(
+        complete_gemini_page_markdown("M. Werner appears in a professional list.")
+        + """
+## Extracted Genealogy Leads
+
+- **M. Werner**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    summary = cloud_source_prep_heartbeat(
+        tmp_path,
+        restore_raw=False,
+        upload_assets=False,
+        research_analyzer_limit=1,
+        research_question_limit=1,
+    )
+
+    analyzer_step = next(step for step in summary["steps"] if step["name"] == "research-analyzer")
+    assert analyzer_step["status"] == "ran"
+    assert summary["queues"]["research_questions"]["path"] == "research/_agent-queues/research-questions.json"
+    assert summary["queues"]["research_questions"]["task_count"] == 1
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text(encoding="utf-8"))
+    assert queue["task_count"] == 1
+    assert (tmp_path / queue["tasks"][0]["prompt_path"]).exists()
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:
