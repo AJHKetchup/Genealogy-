@@ -29,6 +29,14 @@
       "reason": "The analyzer saw this unresolved genealogy lead on multiple converted pages, so it may deserve external archive, database, or web searching after conversion QA confirms the readings.",
       "next_step": "After conversion QA clears the cited source(s), search external repositories for the lead and record candidate source descriptors without promoting claims.",
       "r2_intake_next_step": "If a search locates raw source images, PDFs, or other binary evidence, place those originals in the R2 raw-source inbox and let source-intake monitoring register them; keep only Markdown/JSON notes, manifests, queues, and prompts in GitHub.",
+      "r2_intake_register": "research/_staging/external-research/m-des-gouttes.md#r2-intake-candidate-register",
+      "r2_intake_candidate_fields": [
+        "candidate_source",
+        "repository_or_url",
+        "raw_object_needed",
+        "r2_inbox_status",
+        "intake_notes"
+      ],
       "pages": [
         {
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -98,6 +106,14 @@
       "reason": "The analyzer saw this unresolved genealogy lead on multiple converted pages, so it may deserve external archive, database, or web searching after conversion QA confirms the readings.",
       "next_step": "After conversion QA clears the cited source(s), search external repositories for the lead and record candidate source descriptors without promoting claims.",
       "r2_intake_next_step": "If a search locates raw source images, PDFs, or other binary evidence, place those originals in the R2 raw-source inbox and let source-intake monitoring register them; keep only Markdown/JSON notes, manifests, queues, and prompts in GitHub.",
+      "r2_intake_register": "research/_staging/external-research/m-dinichert.md#r2-intake-candidate-register",
+      "r2_intake_candidate_fields": [
+        "candidate_source",
+        "repository_or_url",
+        "raw_object_needed",
+        "r2_inbox_status",
+        "intake_notes"
+      ],
       "pages": [
         {
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
@@ -167,6 +183,14 @@
       "reason": "The analyzer saw this unresolved genealogy lead on multiple converted pages, so it may deserve external archive, database, or web searching after conversion QA confirms the readings.",
       "next_step": "After conversion QA clears the cited source(s), search external repositories for the lead and record candidate source descriptors without promoting claims.",
       "r2_intake_next_step": "If a search locates raw source images, PDFs, or other binary evidence, place those originals in the R2 raw-source inbox and let source-intake monitoring register them; keep only Markdown/JSON notes, manifests, queues, and prompts in GitHub.",
+      "r2_intake_register": "research/_staging/external-research/m-werner.md#r2-intake-candidate-register",
+      "r2_intake_candidate_fields": [
+        "candidate_source",
+        "repository_or_url",
+        "raw_object_needed",
+        "r2_inbox_status",
+        "intake_notes"
+      ],
       "pages": [
         {
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",

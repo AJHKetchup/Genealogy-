@@ -41,6 +41,14 @@ If this request is blocked, wait for the cited conversion-QA task(s) to complete
 
 - None yet.
 
+## R2 Intake Candidate Register
+
+| Candidate Source | Repository or URL | Raw Object Needed | R2 Inbox Status | Intake Notes |
+| --- | --- | --- | --- | --- |
+| None yet |  |  | not_started |  |
+
+Use this register for source-discovery descriptors only. Put raw-source originals in the R2 raw-source inbox; keep GitHub entries to Markdown/JSON intake notes and generated manifests.
+
 ## R2 Raw-Source Intake
 
 Do not attach raw source images, PDFs, audio, video, or other binaries to this GitHub note. Put any new raw-source originals in the R2 raw-source inbox and let source-intake monitoring register them.

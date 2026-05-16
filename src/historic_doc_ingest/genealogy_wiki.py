@@ -6438,6 +6438,17 @@ def build_external_research_request(
     pending_conversion_qa_files = [
         converted_file for converted_file in converted_files if not conversion_qa_is_done(task_state, converted_file)
     ]
+    request_note = relative_to_root(
+        external_research_request_note_path(
+            root,
+            {
+                "request_id": request_id,
+                "lead_key": str(lead.get("lead_key", "")),
+                "lead": str(lead.get("lead", "")),
+            },
+        ),
+        root,
+    )
     status = (
         "blocked_needs_reread"
         if qc_holds
@@ -6452,17 +6463,7 @@ def build_external_research_request(
         "lead_classification": str(lead.get("lead_classification", "")),
         "review_status": str(lead.get("review_status", "")),
         "status": status,
-        "request_note": relative_to_root(
-            external_research_request_note_path(
-                root,
-                {
-                    "request_id": request_id,
-                    "lead_key": str(lead.get("lead_key", "")),
-                    "lead": str(lead.get("lead", "")),
-                },
-            ),
-            root,
-        ),
+        "request_note": request_note,
         "page_reference_count": safe_int(lead.get("page_reference_count"), 0),
         "source_count": safe_int(lead.get("source_count"), 0),
         "sources": sources,
@@ -6481,6 +6482,14 @@ def build_external_research_request(
             "R2 raw-source inbox and let source-intake monitoring register them; keep only Markdown/JSON notes, "
             "manifests, queues, and prompts in GitHub."
         ),
+        "r2_intake_register": f"{request_note}#r2-intake-candidate-register",
+        "r2_intake_candidate_fields": [
+            "candidate_source",
+            "repository_or_url",
+            "raw_object_needed",
+            "r2_inbox_status",
+            "intake_notes",
+        ],
         "pages": [
             {
                 "source": str(page.get("source", "")),
@@ -6591,6 +6600,7 @@ Do not search or derive claims from this lead until the conversion QA task is co
     search_terms = request.get("search_terms", [])
     search_term_text = ", ".join(f"`{term}`" for term in search_terms if str(term).strip()) if isinstance(search_terms, list) else "`none`"
     request_note = str(request.get("request_note", "")).strip() or "research/_staging/external-research/"
+    r2_intake_register = str(request.get("r2_intake_register", "")).strip() or f"{request_note}#r2-intake-candidate-register"
     return f"""# External Research Request
 
 Use this only for source discovery. Do not edit canonical wiki pages.
@@ -6602,11 +6612,18 @@ Use this only for source discovery. Do not edit canonical wiki pages.
 - Review status: `{request.get("review_status", "")}`
 - Page references: {safe_int(request.get("page_reference_count"), 0)}
 - Search terms: {search_term_text}
-- Result note: `{request_note}`{gate_section}
+- Result note: `{request_note}`
+- R2 intake candidate register: `{r2_intake_register}`{gate_section}
 
 ## Source Pages
 
 {chr(10).join(page_rows)}
+
+## R2 Intake Handoff
+
+- Record candidate raw-source descriptors in the result note's `R2 Intake Candidate Register`.
+- Put acquired raw source images, PDFs, audio, video, or other binaries in the R2 raw-source inbox.
+- Leave enough repository, URL, filename/object, and intake-status detail for source-intake monitoring to register the source later.
 
 ## Storage Contract
 
@@ -6616,6 +6633,7 @@ Raw source images, PDFs, audio, video, or other binaries found externally belong
 
 - You decide whether the lead deserves external archive, database, or web follow-up.
 - Candidate source descriptors and acquisition notes are recorded in `{request_note}`.
+- The `R2 Intake Candidate Register` is updated for any source that may need raw binary acquisition.
 - Any new raw source binaries are routed to R2 intake rather than committed to GitHub.
 """
 
@@ -6623,10 +6641,36 @@ Raw source images, PDFs, audio, video, or other binaries found externally belong
 def write_external_research_request_note(root: Path, request: dict[str, object]) -> tuple[Path, bool]:
     path = external_research_request_note_path(root, request)
     if path.exists():
+        ensure_external_research_request_note_sections(path)
         return path, False
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(build_external_research_request_note_markdown(request), encoding="utf-8")
     return path, True
+
+
+def external_research_intake_register_section() -> str:
+    return """## R2 Intake Candidate Register
+
+| Candidate Source | Repository or URL | Raw Object Needed | R2 Inbox Status | Intake Notes |
+| --- | --- | --- | --- | --- |
+| None yet |  |  | not_started |  |
+
+Use this register for source-discovery descriptors only. Put raw-source originals in the R2 raw-source inbox; keep GitHub entries to Markdown/JSON intake notes and generated manifests.
+"""
+
+
+def ensure_external_research_request_note_sections(path: Path) -> bool:
+    text = read_text(path)
+    if "## R2 Intake Candidate Register" in text:
+        return False
+    section = external_research_intake_register_section().rstrip()
+    marker = "\n## R2 Raw-Source Intake"
+    if marker in text:
+        text = text.replace(marker, f"\n{section}\n{marker}", 1)
+    else:
+        text = text.rstrip() + f"\n\n{section}\n"
+    path.write_text(text, encoding="utf-8")
+    return True
 
 
 def build_external_research_request_note_markdown(request: dict[str, object]) -> str:
@@ -6699,6 +6743,8 @@ If this request is blocked, wait for the cited conversion-QA task(s) to complete
 ## Acquisition Notes
 
 - None yet.
+
+{external_research_intake_register_section().rstrip()}
 
 ## R2 Raw-Source Intake
 

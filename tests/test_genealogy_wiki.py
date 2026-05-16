@@ -1802,6 +1802,14 @@ M. Werner appears again in a related notice.
     assert request["request_note"] == "research/_staging/external-research/m-werner.md"
     assert request["search_terms"] == ["M. Werner", "Werner"]
     assert request["r2_intake_next_step"].startswith("If a search locates raw source")
+    assert request["r2_intake_register"] == "research/_staging/external-research/m-werner.md#r2-intake-candidate-register"
+    assert request["r2_intake_candidate_fields"] == [
+        "candidate_source",
+        "repository_or_url",
+        "raw_object_needed",
+        "r2_inbox_status",
+        "intake_notes",
+    ]
     request_text = (tmp_path / "research" / "external-research-requests.md").read_text(encoding="utf-8")
     assert "External Research Requests" in request_text
     assert "Request notes: 1" in request_text
@@ -1811,6 +1819,8 @@ M. Werner appears again in a related notice.
     assert note_path.exists()
     note_text = note_path.read_text(encoding="utf-8")
     assert "Candidate Source Descriptors" in note_text
+    assert "R2 Intake Candidate Register" in note_text
+    assert "Raw Object Needed" in note_text
     assert "M. Werner" in note_text
     assert "R2 raw-source inbox" in note_text
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "external-research.json").read_text())
@@ -1819,11 +1829,15 @@ M. Werner appears again in a related notice.
     assert queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
     assert queue["tasks"][0]["lead"] == "M. Werner"
     assert queue["tasks"][0]["request_note"] == "research/_staging/external-research/m-werner.md"
+    assert queue["tasks"][0]["r2_intake_register"].endswith("#r2-intake-candidate-register")
     prompt_text = (tmp_path / queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
     assert "Conversion QA Gate" in prompt_text
     assert "R2 raw-source inbox" in prompt_text
+    assert "R2 Intake Handoff" in prompt_text
+    assert "R2 intake candidate register" in prompt_text
     assert "research/_staging/external-research/m-werner.md" in prompt_text
-    note_path.write_text(note_text + "\n## Manual Search Notes\n\n- Preserve me.\n", encoding="utf-8")
+    legacy_note = note_text.replace(genealogy_wiki.external_research_intake_register_section().rstrip() + "\n\n", "")
+    note_path.write_text(legacy_note + "\n## Manual Search Notes\n\n- Preserve me.\n", encoding="utf-8")
 
     update_agent_task_state(
         tmp_path,
@@ -1835,7 +1849,9 @@ M. Werner appears again in a related notice.
     assert after_qa["external_research_status_counts"] == {"todo": 1}
     queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "external-research.json").read_text())
     assert queue_after_qa["tasks"][0]["status"] == "todo"
-    assert "Preserve me." in note_path.read_text(encoding="utf-8")
+    updated_note = note_path.read_text(encoding="utf-8")
+    assert "Preserve me." in updated_note
+    assert "R2 Intake Candidate Register" in updated_note
 
 
 def test_conversion_qa_prompt_includes_research_analyzer_context(tmp_path) -> None:
