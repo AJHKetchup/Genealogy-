@@ -92,6 +92,8 @@ jobs:
 
       - name: Run rough Docling discovery
         if: steps.preflight.outputs.ready == 'true'
+        timeout-minutes: 4
+        continue-on-error: true
         run: >
           python -m historic_doc_ingest.genealogy_wiki source-prep-docling-discovery
           --root .

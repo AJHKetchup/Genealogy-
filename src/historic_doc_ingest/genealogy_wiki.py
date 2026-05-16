@@ -5611,14 +5611,30 @@ def source_prep_docling_input_path(root: Path, task: dict[str, object], temp_dir
     return target
 
 
-def convert_source_with_docling(input_path: Path) -> str:
+def convert_source_with_docling(input_path: Path, *, document_timeout: float = 90.0) -> str:
     try:
-        from docling.document_converter import DocumentConverter
+        from docling.datamodel.base_models import InputFormat
+        from docling.datamodel.pipeline_options import PdfPipelineOptions
+        from docling.document_converter import DocumentConverter, PdfFormatOption
     except ImportError as exc:
         raise RuntimeError("Docling is required for source-prep discovery. Install with the discovery extra.") from exc
 
-    converter = DocumentConverter()
-    result = converter.convert(str(input_path))
+    pipeline_options = PdfPipelineOptions()
+    pipeline_options.document_timeout = document_timeout
+    pipeline_options.do_table_structure = False
+    pipeline_options.do_picture_description = False
+    pipeline_options.do_picture_classification = False
+    pipeline_options.do_formula_enrichment = False
+    pipeline_options.do_code_enrichment = False
+    if hasattr(pipeline_options, "do_chart_extraction"):
+        pipeline_options.do_chart_extraction = False
+
+    converter = DocumentConverter(
+        format_options={
+            InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options),
+        }
+    )
+    result = converter.convert(str(input_path), max_num_pages=1)
     document = getattr(result, "document", None)
     if document is None:
         raise RuntimeError("Docling returned no document.")
