@@ -1,18 +1,484 @@
 {
-  "created": "2026-05-16T16:30:51Z",
+  "created": "2026-05-16T17:31:02Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
-  "limit": 200,
-  "scan_limit": 400,
-  "inspected": 0,
-  "accepted": 0,
-  "unusable": 0,
+  "limit": 0,
+  "scan_limit": 40,
+  "parallelism": 1,
+  "inspected": 40,
+  "accepted": 27,
+  "unusable": 13,
   "errors": 0,
-  "skipped": {
-    "cached_error": 1
-  },
-  "tasks": [],
+  "skipped": {},
+  "tasks": [
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 6,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0006.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 4125,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 7,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0007.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 3886,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 8,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0008.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 4615,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 9,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0009.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 2011,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 10,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0010.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 2037,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 11,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0011.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 4712,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "page": 12,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-0012.md",
+      "readability_flags": [
+        "encoding_mojibake"
+      ],
+      "text_chars": 1120,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 4,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0004.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 0,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0005",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 5,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0005.md",
+      "readability_flags": [],
+      "text_chars": 590,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0005.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0006",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 6,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0006.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 0,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0007",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 7,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0007.md",
+      "readability_flags": [],
+      "text_chars": 682,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0007.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0008",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 8,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0008.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 0,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 9,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0009.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 64,
+      "extracted_image_count": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0010",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 10,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0010.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 2,
+      "extracted_image_count": 1
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0011",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 11,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0011.md",
+      "readability_flags": [],
+      "text_chars": 615,
+      "extracted_image_count": 1,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0011.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0012",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 12,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0012.md",
+      "readability_flags": [],
+      "text_chars": 885,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0012.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0013",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 13,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0013.md",
+      "readability_flags": [],
+      "text_chars": 1972,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0013.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0014",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 14,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0014.md",
+      "readability_flags": [],
+      "text_chars": 1899,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0014.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0015",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 15,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0015.md",
+      "readability_flags": [],
+      "text_chars": 1923,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0015.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0016",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 16,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0016.md",
+      "readability_flags": [],
+      "text_chars": 1088,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0016.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0017",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 17,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0017.md",
+      "readability_flags": [],
+      "text_chars": 2171,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0017.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0018",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 18,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0018.md",
+      "readability_flags": [],
+      "text_chars": 1101,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0018.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0019",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 19,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0019.md",
+      "readability_flags": [],
+      "text_chars": 1073,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0019.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0020",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 20,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0020.md",
+      "readability_flags": [],
+      "text_chars": 1243,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0020.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0021",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 21,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0021.md",
+      "readability_flags": [],
+      "text_chars": 1127,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0021.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0022",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 22,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0022.md",
+      "readability_flags": [],
+      "text_chars": 529,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0022.md"
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0023",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 23,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-0023.md",
+      "readability_flags": [],
+      "text_chars": 1583,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0023.md"
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 4,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-0004.md",
+      "readability_flags": [],
+      "text_chars": 3399,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md"
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 5,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-0005.md",
+      "readability_flags": [],
+      "text_chars": 2590,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md"
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 6,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-0006.md",
+      "readability_flags": [],
+      "text_chars": 2249,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md"
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 7,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-0007.md",
+      "readability_flags": [],
+      "text_chars": 3022,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md"
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 8,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-0008.md",
+      "readability_flags": [],
+      "text_chars": 2976,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0008.md"
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0009",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 9,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-0009.md",
+      "readability_flags": [],
+      "text_chars": 811,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0009.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0004",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 4,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0004.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 28,
+      "extracted_image_count": 1
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0005",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 5,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0005.md",
+      "readability_flags": [],
+      "text_chars": 146,
+      "extracted_image_count": 1,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0005.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0006",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 6,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0006.md",
+      "readability_flags": [],
+      "text_chars": 153,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0006.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0007",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 7,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0007.md",
+      "readability_flags": [],
+      "text_chars": 724,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0007.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0008",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 8,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0008.md",
+      "readability_flags": [],
+      "text_chars": 3290,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0008.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0009",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 9,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0009.md",
+      "readability_flags": [],
+      "text_chars": 3904,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0009.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0010",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 10,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-0010.md",
+      "readability_flags": [],
+      "text_chars": 3615,
+      "extracted_image_count": 0,
+      "basic_output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0010.md"
+    }
+  ],
   "blockers": [],
-  "finished": "2026-05-16T16:30:51Z"
+  "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
+  "finished": "2026-05-16T17:41:03Z"
 }

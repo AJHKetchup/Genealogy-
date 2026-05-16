@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-16T16:30:56.195257+00:00",
+  "created": "2026-05-16T17:42:15.281436+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -17,19 +17,47 @@
   ],
   "files": [
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images/page-0004/page-0004-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images/page-0004/page-0004-docling-image-01.png",
+      "bytes": 72164,
+      "sha256": "6e0b5880ebc4f792c365f0ed113b1cb288b0805339c31ad5a3e640399c1b5756",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images/page-0005/page-0005-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images/page-0005/page-0005-docling-image-01.png",
+      "bytes": 38485,
+      "sha256": "f7f80b323120b6c44f3e3528cc2a41738b9e8cbcb9dbb3d554e5566245d81881",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-p0001-img001-calves-in-field.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-p0001-img001-calves-in-field.png",
       "bytes": 25850908,
       "sha256": "7c966d03b7affcbbe57184429c9b67dfab98cffe4506aa217f237656c80f3204",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0010/page-0010-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0010/page-0010-docling-image-01.png",
+      "bytes": 34771,
+      "sha256": "a8dab50e7e96642422d1485b8bfdf4faea964a936abb2414e732a9a595fcfd68",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0011/page-0011-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0011/page-0011-docling-image-01.png",
+      "bytes": 80030,
+      "sha256": "9e3ca35bcc12f059080bdca1e0fa612464d66e1d46e3c7817590255a4c48f181",
       "media_type": "image/png"
     }
   ],
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 4,
+    "total_bytes": 225450,
+    "uploaded": 4,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -40,9 +68,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1,
+      "scanned": 5,
       "deleted": 0,
-      "skipped": 1,
+      "skipped": 5,
       "errors": []
     }
   }

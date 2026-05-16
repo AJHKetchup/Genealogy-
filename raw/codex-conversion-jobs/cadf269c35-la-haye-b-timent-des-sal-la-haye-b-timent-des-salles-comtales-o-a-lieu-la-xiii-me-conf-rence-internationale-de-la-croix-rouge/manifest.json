@@ -1,0 +1,41 @@
+{
+  "job_id": "CAdf269c35-la-haye-b-timent-des-sal",
+  "title": "La Haye. B\u00e2timent des Salles Comtales, o\u00f9 a lieu la XIII\u00e8me Conf\u00e9rence Internationale de la Croix-Rouge",
+  "source_file": "raw/sources/La Haye. B\u00e2timent des Salles Comtales, o\u00f9 a lieu la XIII\u00e8me Conf\u00e9rence Internationale de la Croix-Rouge.JPG",
+  "local_staged_source_file": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/source/la-haye-b-timent-des-salles-comtales-o-a-lieu-la-df269c355226.jpg",
+  "source_sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
+  "source_bytes": 2149340,
+  "media_type": "image",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "all",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/page-images/page-0001.jpg",
+      "width_px": 2823,
+      "height_px": 3500,
+      "image_bytes": 2149340,
+      "image_sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
+      "image_output_dir": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/work-orders/page-0001.md",
+      "status": "todo"
+    }
+  ]
+}

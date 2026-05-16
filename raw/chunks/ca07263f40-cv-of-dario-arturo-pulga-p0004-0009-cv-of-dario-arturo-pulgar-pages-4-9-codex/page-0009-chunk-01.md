@@ -1,0 +1,69 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-37cac508f847-P0009-01
+source_converted: raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
+converted_sha256: 37cac508f847c36ffa8bd0f19bc875e6074f01a4ad480994088108c251f8213f
+source: raw/sources/CV of Dario Arturo Pulgar.pdf
+source_sha256: 07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424
+source_manifest: raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
+page_start: 9
+page_end: 9
+part: 1
+---
+
+# Page 9
+
+## Page Metadata
+
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
+- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Source page: 9
+- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0009.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+| 1967 - 1968 : Stanford University. Stanford, California Fulbright Scholarship. M.A. Communications  1963 - 1966 : Universidad de Concepción, Escuela de Periodismo. Chile Journalism  1960 - 1963 : Universidad de Concepción, Escuela de Derecho. Chile Field of Study: Law  1954 - 1959 : Liceo Enrique Molina. Concepción, Chile Humanities, Baccalaureate   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+## LANGUAGES
+
+Spoken: Spanish, English, French, Italian, and Portuguese Written: Spanish, English, French
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

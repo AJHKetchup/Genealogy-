@@ -372,3 +372,62 @@
 ## [2026-05-16] prepare-sources | Prepared 10 raw source(s)
 ## [2026-05-16] source-prep-batches | Wrote 1 batch task(s), max 1 page(s) each
 ## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca550063aa-geneva-convention-of-jul-p0004-0018-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-4-18/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004/manifest.json
+## [2026-05-16] prepare-sources | Prepared 20 raw source(s)
+## [2026-05-16] source-prep-batches | Wrote 157 batch task(s), max 1 page(s) each
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] source-prep-docling-discovery | inspected 40, accepted 27, unusable 13, errors=0, dry_run=False
+## [2026-05-16] source-prep-batches | Wrote 130 batch task(s), max 1 page(s) each
+## [2026-05-16] gemini-source-prep | processed 10, completed 10, released 0, parallelism=4, routes={'pro': 10}, dry_run=False
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43/manifest.json
+## [2026-05-16] codex-conversion-job | Assembled raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
+## [2026-05-16] prep-chunk | Wrote raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3-codex/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json
+## [2026-05-16] codex-conversion-job | Prepared raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json
+## [2026-05-16] prepare-sources | Prepared 20 raw source(s)
+## [2026-05-16] source-prep-batches | Wrote 200 batch task(s), max 1 page(s) each
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json

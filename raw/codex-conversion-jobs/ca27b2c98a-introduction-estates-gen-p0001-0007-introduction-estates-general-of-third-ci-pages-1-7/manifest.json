@@ -1,0 +1,119 @@
+{
+  "job_id": "CA27b2c98a-introduction-estates-gen-p0001-0007",
+  "title": "Introduction_Estates_General_of_Third_Ci pages 1-7",
+  "source_file": "raw/sources/Introduction_Estates_General_of_Third_Ci.pdf",
+  "local_staged_source_file": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/source/introduction-estates-general-of-third-ci-27b2c98ae912.pdf",
+  "source_sha256": "27b2c98ae912a4eff87677549db827df0aca336960154f1a8572e38c1fb881c5",
+  "source_bytes": 1012334,
+  "media_type": "pdf",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "1-7",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0001.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 498598,
+      "image_sha256": "cbe484d8794fe5cbec94b09c176d95993f4bb3e99a0ebd92df97a2cd44ae405f",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0001.md",
+      "status": "todo"
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0002.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 527742,
+      "image_sha256": "6eca0cc4fa76d9135632d500798ef93200a3881e30e94894d8cf83068319120a",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0002",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0002.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0002.md",
+      "status": "todo"
+    },
+    {
+      "page": 3,
+      "source_page": 3,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0003.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 469338,
+      "image_sha256": "b794550186fe706be7bd67afea3345b616cc1eeb33860ecfacb0917763d18696",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0003",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0003.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0003.md",
+      "status": "todo"
+    },
+    {
+      "page": 4,
+      "source_page": 4,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0004.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 517664,
+      "image_sha256": "8e4265f163b07d4cff2c5ae5c82411830c9555099627f43a0e540ddb5701846f",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0004",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0004.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0004.md",
+      "status": "todo"
+    },
+    {
+      "page": 5,
+      "source_page": 5,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0005.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 402567,
+      "image_sha256": "3181e8f337ce85eb5942b0e2a163273753ca2d9e226f87879cc9deb7291b7ecc",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0005",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0005.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0005.md",
+      "status": "todo"
+    },
+    {
+      "page": 6,
+      "source_page": 6,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0006.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 409080,
+      "image_sha256": "dc028dfabdc6fb7375fd89e663e3b2635f954c65e256e53eb041b997e51ee360",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0006",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0006.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0006.md",
+      "status": "todo"
+    },
+    {
+      "page": 7,
+      "source_page": 7,
+      "image_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-images/page-0007.jpg",
+      "width_px": 1728,
+      "height_px": 1296,
+      "image_bytes": 484296,
+      "image_sha256": "1b74a9ebc42f5eb2598fb814f8abf70b494ece8fa32831b7ab22d520ff720cb3",
+      "image_output_dir": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0007",
+      "output_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/page-markdown/page-0007.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/work-orders/page-0007.md",
+      "status": "todo"
+    }
+  ]
+}
