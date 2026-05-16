@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T02:47:18Z",
+  "created": "2026-05-16T03:01:44Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -12,6 +12,7 @@
     "page_range": "1-2",
     "restore_limit": 1,
     "pages_per_job": 25,
+    "new_pages_limit": 0,
     "batch_pages": 1,
     "queue_limit": 20,
     "stale_minutes": 360,
@@ -24,7 +25,7 @@
       "status": "ran",
       "detail": {
         "action": "restore",
-        "created": "2026-05-16T02:47:18.173096+00:00",
+        "created": "2026-05-16T03:01:44.743019+00:00",
         "total_files": 1,
         "restored": 0,
         "skipped": 1,
@@ -91,11 +92,11 @@
   "queues": {
     "source_prep_batches": {
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
-      "task_count": 3,
+      "task_count": 2,
       "status_counts": {
-        "todo": 3
+        "todo": 2
       }
     }
   },
-  "finished": "2026-05-16T02:47:18Z"
+  "finished": "2026-05-16T03:01:45Z"
 }
