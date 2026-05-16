@@ -15,6 +15,7 @@ from historic_doc_ingest.genealogy_wiki import (
     create_material_packet,
     create_relationship,
     create_source_packet,
+    ensure_source_prep_page_image,
     generate_tree,
     find_suspicious_name_readings,
     init_genealogy_wiki,
@@ -567,6 +568,50 @@ def test_codex_conversion_job_prepares_image_work_order_and_assembles(tmp_path) 
     assert "Converted by Codex." in assembled_text
     assert "Source SHA-256" in assembled_text
     assert lint_genealogy_wiki(tmp_path) == []
+
+
+def test_source_prep_page_image_regenerates_from_raw_source(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 3):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    manifest_path = create_codex_conversion_job(
+        tmp_path,
+        source,
+        job_id="CJ002",
+        title="Regenerate Page Image",
+        page_range="2",
+    )
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    page = manifest["pages"][0]
+    page_image = tmp_path / page["image_path"]
+    staged_source = tmp_path / manifest["local_staged_source_file"]
+    page_image.unlink()
+    staged_source.unlink()
+
+    batch = {
+        "job_manifest": manifest_path.relative_to(tmp_path).as_posix(),
+        "first_page": 2,
+        "pages": [
+            {
+                "page": 2,
+                "page_image": page["image_path"],
+            }
+        ],
+    }
+
+    regenerated = ensure_source_prep_page_image(tmp_path, batch)
+
+    assert regenerated == page_image
+    assert page_image.exists()
+    updated = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert updated["pages"][0]["image_path"] == page["image_path"]
+    assert updated["pages"][0]["image_bytes"] == page_image.stat().st_size
 
 
 def test_prepare_raw_sources_queues_agent_conversion_jobs(tmp_path) -> None:

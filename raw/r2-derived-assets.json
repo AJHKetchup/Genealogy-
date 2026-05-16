@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-16T00:09:26.358201+00:00",
+  "created": "2026-05-16T00:34:19.189424+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -15,106 +15,14 @@
     "raw/assets",
     "research/_assets"
   ],
-  "files": [
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-01-vr-01-handwritten-marginalia-1-ann.png",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-01-vr-01-handwritten-marginalia-1-ann.png",
-      "bytes": 135,
-      "sha256": "0deae0bbb902a8392f5dc11495b68789db7a808bff64030c6129d563cc2515bf",
-      "media_type": "image/png"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-02-vr-02-handwritten-marginalia-ms-transcr.png",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-02-vr-02-handwritten-marginalia-ms-transcr.png",
-      "bytes": 174,
-      "sha256": "2c0e768457a7b0929c25442f90e20d53bff1e7f066b53339d890b46e81773da3",
-      "media_type": "image/png"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-03-vr-03-handwritten-marginalia-1-enveloppe.png",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0001/page-0001-image-03-vr-03-handwritten-marginalia-1-enveloppe.png",
-      "bytes": 175,
-      "sha256": "78ee78d6e619276a1dd51a3f9e98436b1a6a0f38c6d2109aab59c718f47461f2",
-      "media_type": "image/png"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-01-page-0003-handwriting-001.png",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-01-page-0003-handwriting-001.png",
-      "bytes": 751,
-      "sha256": "9c0e1b8aaa8d4fcf98446816ae4b6b54f9bb5faae0ee8e35de64cae2468f1b8f",
-      "media_type": "image/png"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-02-page-0003-handwriting-002.png",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-02-page-0003-handwriting-002.png",
-      "bytes": 1703,
-      "sha256": "d1d543932be33f30d734d884ff9a4ecb54ac570a404a4c5a50821675be0ac60a",
-      "media_type": "image/png"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-03-page-0003-handwriting-003.png",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/extracted-images/page-0003/page-0003-image-03-page-0003-handwriting-003.png",
-      "bytes": 968,
-      "sha256": "e9ec256f1ee98efceea0b12c30834504c8be13a2a3dc3fe8d8b592aed60c606f",
-      "media_type": "image/png"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0001.jpg",
-      "bytes": 289325,
-      "sha256": "302ea15efb2a5fd6505b0abbf5a5946ce15116dad98b36899ceef6c037c79860",
-      "media_type": "image/jpeg"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg",
-      "bytes": 247841,
-      "sha256": "908441ed4a5fb5cece63ec3d4a898c4ea3c143cf0caa35176550d61609acae05",
-      "media_type": "image/jpeg"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0003.jpg",
-      "bytes": 260979,
-      "sha256": "8232c0c66329784fbe2016797ee9d153653ee3be45594c334b0eec8c9c723515",
-      "media_type": "image/jpeg"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
-      "bytes": 808297,
-      "sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "media_type": "application/pdf"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0004.jpg",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0004.jpg",
-      "bytes": 199552,
-      "sha256": "31050f5c5b09497fc21cad549e29b96b47a9bb9a88ed6439e579991e6f8620df",
-      "media_type": "image/jpeg"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0005.jpg",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0005.jpg",
-      "bytes": 227874,
-      "sha256": "0cac380894011fad0d6ed64b954b56eec2dc9dd42395ca0e70dbfa8434436762",
-      "media_type": "image/jpeg"
-    },
-    {
-      "path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
-      "key": "derived/raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/source/acicr-b-cr-177-001-002-35845f12102b.pdf",
-      "bytes": 808297,
-      "sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "media_type": "application/pdf"
-    }
-  ],
+  "files": [],
   "upload_summary": {
     "action": "asset-upload",
-    "dry_run": false,
-    "total_files": 4,
-    "total_bytes": 1483564,
+    "dry_run": true,
+    "total_files": 0,
+    "total_bytes": 0,
     "uploaded": 0,
-    "skipped": 4,
+    "skipped": 0,
     "planned": 0,
     "errors": []
   }

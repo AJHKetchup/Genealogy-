@@ -57,6 +57,20 @@ DERIVED_ASSET_MEDIA_TYPES = {
     "application/pdf",
     "application/octet-stream",
 }
+DISPOSABLE_SOURCE_PREP_ASSET_MARKERS = (
+    "/page-images/",
+    "/_gemini-input-crops/",
+)
+LOW_VALUE_SOURCE_PREP_CROP_NAME_MARKERS = (
+    "handwritten-marginalia",
+    "handwriting",
+    "marginalia",
+    "marginal",
+    "checkmark",
+    "filing-mark",
+    "page-number",
+    "page_number",
+)
 
 
 @dataclass(frozen=True)
@@ -349,8 +363,24 @@ def write_raw_cloud_inventory(
     return write_json(output, manifest)
 
 
+def is_disposable_source_prep_asset(path: Path | str) -> bool:
+    normalized = str(path).replace("\\", "/")
+    if any(marker in normalized for marker in DISPOSABLE_SOURCE_PREP_ASSET_MARKERS):
+        return True
+    if "/raw/codex-conversion-jobs/" not in f"/{normalized.lstrip('/')}":
+        return False
+    if "/source/" in normalized:
+        return True
+    if "/extracted-images/" not in normalized:
+        return False
+    name = normalized.rsplit("/", 1)[-1].lower()
+    return any(marker in name for marker in LOW_VALUE_SOURCE_PREP_CROP_NAME_MARKERS)
+
+
 def is_derived_media_asset(path: Path) -> bool:
     if not path.is_file() or path.name == ".gitkeep":
+        return False
+    if is_disposable_source_prep_asset(path):
         return False
     if path.suffix.lower() in TEXT_OR_CODE_SUFFIXES:
         return False
@@ -458,10 +488,68 @@ def merge_derived_asset_manifests(existing: dict[str, Any], current: dict[str, A
             if not isinstance(item, dict):
                 continue
             path = str(item.get("path", "")).strip()
-            if path:
+            if path and not is_disposable_source_prep_asset(path):
                 by_path[path] = item
     merged["files"] = [by_path[path] for path in sorted(by_path)]
     return merged
+
+
+def derived_asset_rel_path_from_key(key: str, prefix: str) -> str:
+    normalized_key = normalize_key(key)
+    expected_prefix = normalize_key(f"{prefix}{normalize_prefix(DEFAULT_DERIVED_ASSET_KEY_PREFIX)}")
+    if expected_prefix and normalized_key.startswith(expected_prefix):
+        return normalized_key.removeprefix(expected_prefix)
+    return ""
+
+
+def cleanup_disposable_derived_assets_from_cloud(
+    root: Path,
+    config: RawCloudConfig,
+    *,
+    client: Any | None = None,
+    limit: int | None = None,
+) -> dict[str, Any]:
+    del root
+    r2 = client or R2Client(config)
+    prefixes = [
+        f"{config.prefix}{normalize_prefix(DEFAULT_DERIVED_ASSET_KEY_PREFIX)}raw/codex-conversion-jobs/",
+        f"{config.prefix}{normalize_prefix(DEFAULT_DERIVED_ASSET_KEY_PREFIX)}research/_assets/conversions/",
+    ]
+    summary: dict[str, Any] = {
+        "action": "cleanup-disposable-derived-assets",
+        "prefixes": prefixes,
+        "scanned": 0,
+        "deleted": 0,
+        "skipped": 0,
+        "errors": [],
+    }
+    for prefix in prefixes:
+        try:
+            keys = r2.list_objects(prefix)
+        except Exception as exc:  # pragma: no cover - exercised only against live object storage
+            summary["errors"].append({"prefix": prefix, "error": str(exc)})
+            continue
+
+        for key in keys:
+            rel_path = derived_asset_rel_path_from_key(key, config.prefix)
+            if not rel_path:
+                summary["skipped"] = int(summary["skipped"]) + 1
+                continue
+            summary["scanned"] = int(summary["scanned"]) + 1
+            if not is_disposable_source_prep_asset(rel_path):
+                summary["skipped"] = int(summary["skipped"]) + 1
+                continue
+            if limit is not None and limit > 0 and int(summary["deleted"]) >= limit:
+                summary["skipped"] = int(summary["skipped"]) + 1
+                continue
+            try:
+                if r2.delete_object(key):
+                    summary["deleted"] = int(summary["deleted"]) + 1
+                else:
+                    summary["skipped"] = int(summary["skipped"]) + 1
+            except Exception as exc:  # pragma: no cover - exercised only against live object storage
+                summary["errors"].append({"key": key, "path": rel_path, "error": str(exc)})
+    return summary
 
 
 class R2Client:
@@ -775,6 +863,10 @@ def upload_derived_assets_to_cloud(
             summary["uploaded"] += 1
         except Exception as exc:  # pragma: no cover - exercised only against live object storage
             summary["errors"].append({"path": item["path"], "key": item["key"], "error": str(exc)})
+
+    cleanup_report = cleanup_disposable_derived_assets_from_cloud(root, config, client=client)
+    summary["deleted_disposable"] = cleanup_report.get("deleted", 0)
+    summary["cleanup"] = cleanup_report
 
     manifest = merge_derived_asset_manifests(existing_manifest, manifest)
     manifest["upload_summary"] = summary

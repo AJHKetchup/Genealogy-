@@ -157,6 +157,52 @@ def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch)
     )
 
 
+def test_gemini_visual_manifest_skips_low_value_crop_regions(tmp_path, monkeypatch) -> None:
+    write_test_batch(tmp_path)
+
+    def fake_gemini(**kwargs):
+        return {
+            "text": complete_gemini_markdown(
+                json.dumps(
+                    {
+                        "visual_regions": [
+                            {
+                                "region_id": "margin-1",
+                                "kind": "handwritten_marginalia",
+                                "bbox_pct": [1, 1, 8, 20],
+                                "caption_literal": "2",
+                                "caption_type": "converter-description",
+                                "source_context": "Small marginal filing number.",
+                                "confidence": "high",
+                                "suggested_filename": "page-0001-margin-number.png",
+                            }
+                        ]
+                    }
+                )
+            ),
+            "finish_reason": "STOP",
+            "usage": {},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    summary = source_prep_gemini_run(tmp_path, limit=1, api_key="test-key", refresh_queue=False)
+
+    output_path = tmp_path / "raw" / "codex-conversion-jobs" / "job-one" / "page-markdown" / "page-0001.md"
+    visuals_path = output_path.with_suffix(".visuals.json")
+    crop_dir = tmp_path / "raw" / "codex-conversion-jobs" / "job-one" / "extracted-images" / "page-0001"
+
+    assert summary["completed"] == 1
+    assert summary["visual_regions"]["declared"] == 1
+    assert summary["visual_regions"]["cropped"] == 0
+    assert summary["visual_regions"]["skipped"] == 1
+    assert not list(crop_dir.glob("page-0001-image-*.png"))
+    assert "Pipeline-extracted visual crops" not in output_path.read_text(encoding="utf-8")
+    manifest = json.loads(visuals_path.read_text(encoding="utf-8"))
+    assert manifest["visual_regions"] == []
+    assert manifest["skipped_regions"][0]["reason"] == "low_value_visual_region_not_saved"
+
+
 def test_pro_with_crops_releases_when_visual_manifest_missing(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path, requested_treatment="pro_with_crops")
 
@@ -185,3 +231,70 @@ def test_gemini_source_prep_ignores_local_env_file(tmp_path, monkeypatch) -> Non
 
     with pytest.raises(RuntimeError, match="cloud automation environment"):
         source_prep_gemini_run(tmp_path, limit=1, refresh_queue=False)
+
+
+def test_gemini_route_ignores_converter_family_relevance_without_research_feedback(tmp_path) -> None:
+    batch = {
+        "source": "raw/sources/source.pdf",
+        "title": "Simple printed page",
+        "first_page": 1,
+        "family_relevance": "critical",
+        "matched_terms": ["Pulgar"],
+        "pages": [
+            {
+                "page": 1,
+                "family_relevance": "critical",
+                "matched_terms": ["Pulgar"],
+                "page_image": "raw/codex-conversion-jobs/job-one/page-images/page-0001.jpg",
+            }
+        ],
+    }
+
+    route = genealogy_wiki.classify_gemini_source_prep_batch(tmp_path, batch)
+
+    assert route["tier"] == "lite"
+    assert route["use_crops"] is False
+    assert route["relevant"] is False
+
+
+def test_gemini_route_uses_explicit_research_feedback_for_expensive_treatment(tmp_path) -> None:
+    batch = {
+        "source": "raw/sources/source.pdf",
+        "title": "Simple printed page",
+        "first_page": 1,
+        "pages": [
+            {
+                "page": 1,
+                "research_relevance": "high",
+                "requested_treatment": "pro_with_crops",
+                "page_image": "raw/codex-conversion-jobs/job-one/page-images/page-0001.jpg",
+            }
+        ],
+    }
+
+    route = genealogy_wiki.classify_gemini_source_prep_batch(tmp_path, batch)
+
+    assert route["tier"] == "pro_with_crops"
+    assert route["use_crops"] is True
+    assert route["relevant"] is True
+
+
+def test_gemini_route_uses_technical_failure_for_pro_without_crops(tmp_path) -> None:
+    batch = {
+        "source": "raw/sources/source.pdf",
+        "title": "Simple printed page",
+        "first_page": 1,
+        "quality_flags": ["ocr_garbage"],
+        "pages": [
+            {
+                "page": 1,
+                "page_image": "raw/codex-conversion-jobs/job-one/page-images/page-0001.jpg",
+            }
+        ],
+    }
+
+    route = genealogy_wiki.classify_gemini_source_prep_batch(tmp_path, batch)
+
+    assert route["tier"] == "pro"
+    assert route["use_crops"] is False
+    assert route["complex"] is True

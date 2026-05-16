@@ -21,7 +21,6 @@ from historic_doc_ingest.raw_cloud import (
     cleanup_remote_json_manifests,
     upload_derived_assets_to_cloud,
     load_raw_cloud_config,
-    restore_derived_asset_from_cloud,
     restore_raw_from_cloud,
     upload_raw_to_cloud,
     verify_raw_cloud,
@@ -63,6 +62,7 @@ This wiki follows the LLM-maintained wiki pattern, adapted for genealogical rese
 - Context research is allowed only when it explains the lived history of this family through a person, relationship, event, place, source, photo, or narrative chapter.
 - Every canonical person page should eventually have a narrative layer: a sourced life story in `wiki/narratives/` built only from accepted or probable claims plus relevant family-specific historical context.
 - Treat `raw/chunks/` as non-interpretive navigation aids. Chunks may repeat source text and provenance, but they must not add summaries, normalized facts, or claims.
+- Keep rough discovery/OCR/Docling output separate from evidence-grade conversion. Converter mechanisms may judge technical readability, but research agents decide research importance and request upgraded Gemini conversion when context makes a page matter.
 - Treat `research/_conversion-review/` as the quality gate between verbatim conversion and research extraction. Queue suspicious readings, likely name drift, and family-relevant pages there without editing converted Markdown.
 - Treat QC-held pages as page-specific extraction blocks. Do not freeze a whole archive when only exact pages or regions need reread.
 - Treat old OCR, text-layer, or image-only page outputs as repair inputs unless they satisfy the current full page conversion contract.
@@ -86,7 +86,7 @@ When a new source arrives:
 1. Add it to `raw/sources/`.
 2. Run `genealogy-wiki prepare-sources --root .` to inventory sources, split large PDFs into page-range jobs, create missing Codex conversion jobs, assemble completed jobs, and chunk completed conversions.
 3. Run `genealogy-wiki agent-queues --root . --stale-minutes 360` to write source-prep and evidence-extraction queues plus per-task prompt packets, release abandoned task leases, and reuse cached page-output reviews.
-4. Research agents can run `genealogy-wiki source-relevance mark ...` when a page/source becomes newly important enough to deserve Pro or Pro+crops treatment.
+4. Research agents can run `genealogy-wiki source-relevance mark ...` when a page/source becomes newly important enough to deserve Pro or Pro+crops treatment. Converter jobs should only auto-upgrade for technical unreadability, not for genealogy importance.
 5. Run `genealogy-wiki source-status --root .` to see which raw sources are usable, still converting, or held only on specific pages.
 6. Let source-prep Codex agents and page/range subagents consume queued work orders using the project skills. Workers should use `agent-task ... --no-refresh` during a bounded batch, then refresh queues once at the end. OCR and PDF text layers are hints only, not the conversion authority.
 7. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and research relevance feedback.
@@ -2494,6 +2494,101 @@ def render_codex_job_pages(
     ]
 
 
+def ensure_source_prep_page_image(root: Path, batch: dict[str, object]) -> Path | None:
+    paths = WikiPaths(root.resolve())
+    page = first_source_prep_batch_page(batch)
+    rel_page_image = str(page.get("page_image", "")).strip()
+    if not rel_page_image:
+        return None
+    page_image = paths.root / rel_page_image
+    if page_image.exists():
+        return page_image
+
+    manifest_rel = str(batch.get("job_manifest") or page.get("job_manifest") or "").strip()
+    if not manifest_rel:
+        return None
+    manifest_path = paths.root / manifest_rel
+    if not manifest_path.exists():
+        return None
+
+    manifest = read_json_payload(manifest_path, {})
+    page_number = safe_int(page.get("page") or batch.get("first_page"), 1)
+    page_spec = find_manifest_page_spec(manifest, page_number)
+    source_page = safe_int(page_spec.get("source_page") or page.get("source_page") or page_number, page_number)
+    source_file = find_existing_source_file_for_job(paths.root, manifest)
+    if source_file is None:
+        return None
+
+    media_type = str(manifest.get("media_type") or detect_media_type(source_file))
+    page_image.parent.mkdir(parents=True, exist_ok=True)
+    if media_type == "pdf":
+        try:
+            import fitz
+        except ImportError as exc:
+            raise RuntimeError("PyMuPDF is required to regenerate PDF page images.") from exc
+
+        doc = fitz.open(source_file)
+        try:
+            if source_page < 1 or source_page > len(doc):
+                return None
+            pix = doc[source_page - 1].get_pixmap(matrix=fitz.Matrix(2.0, 2.0), alpha=False)
+            if page_image.suffix.lower() in {".jpg", ".jpeg"}:
+                pix.save(page_image, jpg_quality=90)
+            else:
+                pix.save(page_image)
+            page_spec["width_px"] = pix.width
+            page_spec["height_px"] = pix.height
+        finally:
+            doc.close()
+    else:
+        if source_file.resolve() != page_image.resolve():
+            shutil.copy2(source_file, page_image)
+        width, height = image_dimensions(page_image)
+        page_spec["width_px"] = width
+        page_spec["height_px"] = height
+
+    if page_image.exists():
+        page_spec["image_path"] = relative_to_root(page_image, paths.root)
+        page_spec["image_bytes"] = page_image.stat().st_size
+        page_spec["image_sha256"] = file_sha256(page_image)
+        manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        return page_image
+    return None
+
+
+def safe_int(value: object, default: int) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def find_manifest_page_spec(manifest: dict[str, object], page_number: int) -> dict[str, object]:
+    pages = manifest.get("pages", [])
+    if isinstance(pages, list):
+        for page in pages:
+            if isinstance(page, dict) and safe_int(page.get("page"), -1) == page_number:
+                return page
+    page_spec: dict[str, object] = {"page": page_number, "source_page": page_number}
+    if isinstance(pages, list):
+        pages.append(page_spec)
+    else:
+        manifest["pages"] = [page_spec]
+    return page_spec
+
+
+def find_existing_source_file_for_job(root: Path, manifest: dict[str, object]) -> Path | None:
+    for key in ("source_file", "local_staged_source_file"):
+        value = str(manifest.get(key) or "").strip()
+        if not value:
+            continue
+        path = Path(value)
+        candidate = path if path.is_absolute() else root / path
+        if candidate.exists():
+            return candidate
+    return None
+
+
 def parse_page_range(page_range: str | None, page_count: int) -> list[int]:
     if page_count < 1:
         return []
@@ -2588,7 +2683,7 @@ Manifest: `{relative_to_root(manifest_path, root)}`
 Source: `{manifest["source_file"]}`
 Pages: {len(manifest["pages"])}
 {next_line}
-This job is designed for conversion by Codex in the local workspace. The page images are stable artifacts, and each completed page Markdown file can be assembled into a full converted document.
+This job is designed for conversion by Codex in the workspace. Page images are disposable render cache regenerated from the raw source when needed, and each completed page Markdown file can be assembled into a full converted document.
 """
 
 
@@ -5796,12 +5891,9 @@ def classify_gemini_source_prep_batch(
     reasons: list[str] = []
     flags = [flag.lower() for flag in source_prep_gemini_combined_values(batch, ("quality_flags", "qc_quality_flags"))]
     suspicious = source_prep_gemini_combined_values(batch, ("suspicious_readings",))
-    matched_terms = source_prep_gemini_combined_values(batch, ("matched_terms",))
     relevance = str(
         page.get("research_relevance")
         or batch.get("research_relevance")
-        or page.get("family_relevance")
-        or batch.get("family_relevance")
         or ""
     ).strip().lower()
     requested_treatment = str(page.get("requested_treatment") or batch.get("requested_treatment") or "").strip().lower()
@@ -5816,20 +5908,17 @@ def classify_gemini_source_prep_batch(
     ).lower()
 
     relevant = False
+    complex_page = False
     if relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES:
         relevant = True
-        reasons.append(f"research_relevance:{relevance}" if page.get("research_relevance") or batch.get("research_relevance") else f"family_relevance:{relevance}")
+        reasons.append(f"research_relevance:{relevance}")
     if suspicious:
-        relevant = True
+        complex_page = True
         reasons.append("suspicious_readings")
-    if matched_terms and relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES.union({"medium"}):
-        relevant = True
-        reasons.append("matched_family_terms")
     if requested_treatment == "pro_with_crops":
         relevant = True
         reasons.append("requested_pro_with_crops")
 
-    complex_page = False
     if requested_treatment in {"pro", "reread"}:
         complex_page = True
         reasons.append(f"requested_{requested_treatment}")
@@ -5863,7 +5952,7 @@ def classify_gemini_source_prep_batch(
             "use_crops": True,
             "relevant": True,
             "complex": complex_page,
-            "reasons": list(dict.fromkeys(reasons)) or ["family_relevance"],
+            "reasons": list(dict.fromkeys(reasons)) or ["research_relevance"],
         }
     if complex_page:
         return {
@@ -5949,7 +6038,6 @@ def create_gemini_source_prep_crops(
 def build_gemini_source_prep_prompt(batch: dict[str, object], route: dict[str, object], crop_paths: list[Path]) -> str:
     page = first_source_prep_batch_page(batch)
     flags = source_prep_gemini_combined_values(batch, ("quality_flags", "qc_quality_flags"))
-    matched_terms = source_prep_gemini_combined_values(batch, ("matched_terms",))
     suspicious_items: list[object] = []
     for source in (batch, page):
         value = source.get("suspicious_readings")
@@ -5976,15 +6064,12 @@ def build_gemini_source_prep_prompt(batch: dict[str, object], route: dict[str, o
 - Work order: `{page.get("work_order", "")}`
 - Page: {page.get("page") or batch.get("first_page")}
 - Output Markdown target: `{page.get("output_path", "")}`
-- Family relevance: `{page.get("family_relevance", "")}`
-- Research relevance: `{page.get("research_relevance", "")}`
-- Requested treatment: `{page.get("requested_treatment", "")}`
-- Research relevance reasons: {", ".join(str(reason) for reason in page.get("research_relevance_reasons", []) or []) or "none"}
-- Research entities: {", ".join(str(entity) for entity in page.get("research_entities", []) or []) or "none"}
+- External research relevance: `{page.get("research_relevance", "")}`
+- External requested treatment: `{page.get("requested_treatment", "")}`
+- External relevance reasons: {", ".join(str(reason) for reason in page.get("research_relevance_reasons", []) or []) or "none"}
 - Recommended action: `{batch.get("recommended_action", "")}`
 - Quality flags: {", ".join(str(flag) for flag in flags) or "none"}
-- Matched family terms: {", ".join(str(term) for term in matched_terms) or "none"}
-- Suspicious readings: {suspicious}
+- Technical reread clues: {suspicious}
 
 ## Required Output
 
@@ -6007,6 +6092,7 @@ Accuracy rules:
 - If the page is too dense to complete without truncation, preserve the full-page reading order and clearly state what remains unresolved in the completeness audit.
 - Do not invent missing text, dates, names, or relationships.
 - Do not translate, summarize, interpret, or extract genealogy leads. Preserve evidence for downstream agents.
+- Do not decide whether this page is genealogically important. Research agents decide relevance and may request upgraded conversion later.
 
 Visual extraction rules:
 
@@ -6033,8 +6119,35 @@ VISUAL_REGION_KIND_ALIASES = {
     "id_photo": "portrait",
     "id photo": "portrait",
     "photo": "photograph",
+    "group photo": "group_photograph",
+    "group_photo": "group_photograph",
     "image": "visual",
 }
+DURABLE_VISUAL_REGION_KINDS = {
+    "portrait",
+    "photograph",
+    "group_photograph",
+    "map",
+    "illustration",
+    "diagram",
+    "chart",
+    "drawing",
+    "painting",
+}
+DURABLE_VISUAL_REGION_KEYWORDS = (
+    "portrait",
+    "headshot",
+    "photograph",
+    "photo",
+    "group picture",
+    "group photo",
+    "map",
+    "illustration",
+    "diagram",
+    "chart",
+    "drawing",
+    "painting",
+)
 
 
 def strip_markdown_code_fence(text: str) -> str:
@@ -6161,6 +6274,16 @@ def normalize_visual_caption_type(value: object) -> str:
     return caption_type
 
 
+def is_durable_visual_region(region: dict[str, object], kind: str) -> bool:
+    if kind in DURABLE_VISUAL_REGION_KINDS:
+        return True
+    context = " ".join(
+        str(region.get(key) or "")
+        for key in ("caption_literal", "source_context", "identity_basis", "inline_anchor", "suggested_filename")
+    ).lower()
+    return any(keyword in context for keyword in DURABLE_VISUAL_REGION_KEYWORDS)
+
+
 def visual_region_filename(page_number: int, index: int, region: dict[str, object]) -> str:
     suggested = Path(str(region.get("suggested_filename") or "")).name
     suggested_stem = Path(suggested).stem if suggested else ""
@@ -6235,6 +6358,7 @@ def materialize_gemini_visual_regions(
 
     records: list[dict[str, object]] = []
     crop_flags: list[str] = []
+    skipped_regions: list[dict[str, object]] = []
     output_path.parent.mkdir(parents=True, exist_ok=True)
     if not raw_regions:
         payload = {
@@ -6249,6 +6373,7 @@ def materialize_gemini_visual_regions(
             "output_markdown": str(page.get("output_path", "")),
             "no_visual_regions_reason": str(parsed.get("no_visual_regions_reason") or "").strip(),
             "visual_regions": [],
+            "skipped_regions": [],
             "flags": [],
         }
         manifest_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -6258,6 +6383,7 @@ def materialize_gemini_visual_regions(
             "manifest_path": relative_to_root(manifest_path, root.resolve()),
             "region_count": 0,
             "declared_region_count": 0,
+            "skipped_region_count": 0,
         }
 
     try:
@@ -6273,11 +6399,22 @@ def materialize_gemini_visual_regions(
             if not isinstance(raw_region, dict):
                 crop_flags.append(f"visual_region_{index}_not_object")
                 continue
+            kind = normalize_visual_region_kind(raw_region.get("kind"))
+            if not is_durable_visual_region(raw_region, kind):
+                skipped_regions.append(
+                    {
+                        "region_id": str(raw_region.get("region_id") or f"VR-{page_number:04d}-{index:02d}"),
+                        "kind": kind,
+                        "reason": "low_value_visual_region_not_saved",
+                        "caption_literal": str(raw_region.get("caption_literal") or "").strip(),
+                        "source_context": str(raw_region.get("source_context") or "").strip(),
+                    }
+                )
+                continue
             bbox_pct, bbox_pixels, bbox_flags = coerce_visual_region_bbox(raw_region, width, height)
             if bbox_flags:
                 crop_flags.extend(f"visual_region_{index}_{flag}" for flag in bbox_flags)
                 continue
-            kind = normalize_visual_region_kind(raw_region.get("kind"))
             caption_type = normalize_visual_caption_type(raw_region.get("caption_type"))
             target = image_output_dir / visual_region_filename(page_number, index, {**raw_region, "kind": kind})
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -6319,6 +6456,7 @@ def materialize_gemini_visual_regions(
             {key: (str(value) if isinstance(value, Path) else value) for key, value in record.items()}
             for record in records
         ],
+        "skipped_regions": skipped_regions,
         "flags": crop_flags,
     }
     manifest_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -6330,6 +6468,7 @@ def materialize_gemini_visual_regions(
         "manifest_path": relative_to_root(manifest_path, root.resolve()),
         "region_count": len(records),
         "declared_region_count": len(raw_regions),
+        "skipped_region_count": len(skipped_regions),
     }
 
 
@@ -6451,7 +6590,7 @@ def source_prep_gemini_run(
         "route_counts": {},
         "tasks": [],
         "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "total_tokens": 0},
-        "visual_regions": {"declared": 0, "cropped": 0, "manifests": 0},
+        "visual_regions": {"declared": 0, "cropped": 0, "skipped": 0, "manifests": 0},
     }
 
     def add_route_count(tier: str) -> None:
@@ -6481,8 +6620,9 @@ def source_prep_gemini_run(
         output_path = paths.root / str(page.get("output_path", ""))
         if not page_image.exists():
             try:
-                config = load_raw_cloud_config(paths.root, require_credentials=True)
-                restore_derived_asset_from_cloud(paths.root, config, page_image)
+                regenerated = ensure_source_prep_page_image(paths.root, raw_task)
+                if regenerated is not None:
+                    page_image = regenerated
             except Exception:
                 pass
         if not page_image.exists():
@@ -6589,12 +6729,14 @@ def source_prep_gemini_run(
                 "manifest_path": visual_result.get("manifest_path", ""),
                 "declared": visual_result.get("declared_region_count", 0),
                 "cropped": visual_result.get("region_count", 0),
+                "skipped": visual_result.get("skipped_region_count", 0),
                 "flags": visual_result.get("flags", []),
             }
             visual_summary = summary.setdefault("visual_regions", {})
             if isinstance(visual_summary, dict):
                 visual_summary["declared"] = int(visual_summary.get("declared", 0)) + int(visual_result.get("declared_region_count", 0) or 0)
                 visual_summary["cropped"] = int(visual_summary.get("cropped", 0)) + int(visual_result.get("region_count", 0) or 0)
+                visual_summary["skipped"] = int(visual_summary.get("skipped", 0)) + int(visual_result.get("skipped_region_count", 0) or 0)
                 if visual_result.get("manifest_path"):
                     visual_summary["manifests"] = int(visual_summary.get("manifests", 0)) + 1
             records = visual_result.get("records", [])
@@ -8840,7 +8982,7 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts and queues. Default is off.")
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
-    cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload page images/crops/assets to R2.")
+    cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload durable crops/assets to R2.")
     cloud_source_prep_parser.add_argument("--dry-run", action="store_true", help="Skip R2 writes and raw restore; still refresh local queue outputs.")
 
     sync_github_parser = subparsers.add_parser(
