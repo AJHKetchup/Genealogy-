@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T07:51:26Z
+Generated: 2026-05-16T08:05:56Z
 
 ## Source Conversion
 
@@ -62,7 +62,7 @@ Generated: 2026-05-16T07:51:26Z
 ## Final Site
 
 - Status: structure_present
-- HTML files: 1
+- HTML files: 2
 
 ## Blockers
 

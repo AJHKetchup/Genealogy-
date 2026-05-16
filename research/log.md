@@ -128,3 +128,6 @@
 ## [2026-05-16] research-analyzer | Wrote research/_indexes/research-staging-opportunities.json
 ## [2026-05-16] source-status | Wrote research/_indexes/source-usability.json
 ## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
+## [2026-05-16] site-build | Wrote site/site-manifest.json
+## [2026-05-16] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-16] system-status | Wrote research/_indexes/system-status.json

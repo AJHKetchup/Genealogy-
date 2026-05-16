@@ -2602,6 +2602,7 @@ person_b: [[people/child]]
 
 def test_build_static_site_renders_public_wiki_pages(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
+    (tmp_path / "wiki" / "Family Tree.md").unlink()
     (tmp_path / "wiki" / "people").mkdir(parents=True, exist_ok=True)
     (tmp_path / "wiki" / "people" / "dario-pulgar.md").write_text(
         """---
@@ -2623,6 +2624,7 @@ See [[Family Tree]] and [[people/relative|a relative]].
     written = build_static_site(tmp_path)
 
     written_names = {path.relative_to(tmp_path).as_posix() for path in written}
+    assert "wiki/Family Tree.md" in written_names
     assert "site/index.html" in written_names
     assert "site/family-tree.html" in written_names
     assert "site/people/dario-pulgar.html" in written_names
@@ -2632,6 +2634,8 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert not (tmp_path / "site" / "_templates" / "hidden.html").exists()
     assert not (tmp_path / "site" / "log.html").exists()
 
+    tree_text = (tmp_path / "wiki" / "Family Tree.md").read_text(encoding="utf-8")
+    assert "No relationship pages found" in tree_text
     person_html = (tmp_path / "site" / "people" / "dario-pulgar.html").read_text(encoding="utf-8")
     assert '<a href="../family-tree.html">Family Tree</a>' in person_html
     assert '<a href="relative.html">a relative</a>' in person_html

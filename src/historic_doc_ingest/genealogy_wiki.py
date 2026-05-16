@@ -11952,9 +11952,10 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     assets_dir = site_dir / "assets"
     assets_dir.mkdir(parents=True, exist_ok=True)
 
+    tree_path = generate_tree(paths.root)
     pages = collect_site_pages(paths.root)
     nav = build_site_nav(pages)
-    written: list[Path] = []
+    written: list[Path] = [tree_path]
     css_path = assets_dir / "site.css"
     css_path.write_text(SITE_CSS + "\n", encoding="utf-8")
     written.append(css_path)
