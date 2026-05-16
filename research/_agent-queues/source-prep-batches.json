@@ -1,10 +1,10 @@
 {
   "created": "2026-05-16",
   "queue": "source-prep-batches",
-  "task_count": 697,
+  "task_count": 737,
   "status_counts": {
     "needs_reread": 27,
-    "todo": 670
+    "todo": 710
   },
   "tasks": [
     {
@@ -1019,6 +1019,9 @@
           "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/work-orders/page-0042.md",
           "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/page-markdown/page-0042.md",
           "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/extracted-images/page-0042",
+          "quality_flags": [
+            "duplicate_conversion_contract_sections"
+          ],
           "rough_discovery_status": "rough_unusable",
           "rough_discovery_flags": [
             "fragmented_short_lines"
@@ -8770,6 +8773,586 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283-p0283.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0284",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 284,
+      "last_page": 284,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0284"
+      ],
+      "pages": [
+        {
+          "page": 284,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0284",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0284.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0284.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0284.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0284"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0284.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0285",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 285,
+      "last_page": 285,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0285"
+      ],
+      "pages": [
+        {
+          "page": 285,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0285",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0285.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0285.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0285.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0285"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0285.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0286",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 286,
+      "last_page": 286,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0286"
+      ],
+      "pages": [
+        {
+          "page": 286,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0286",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0286.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0286.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0286.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0286"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0286.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0287",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 287,
+      "last_page": 287,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0287"
+      ],
+      "pages": [
+        {
+          "page": 287,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0287",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0287.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0287.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0287.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0287"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0287.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0288",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 288,
+      "last_page": 288,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0288"
+      ],
+      "pages": [
+        {
+          "page": 288,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0288",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0288.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0288.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0288.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0288"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0288.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0289",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 289,
+      "last_page": 289,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0289"
+      ],
+      "pages": [
+        {
+          "page": 289,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0289",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0289.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0289.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0289.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0289"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0289.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0290",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 290,
+      "last_page": 290,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0290"
+      ],
+      "pages": [
+        {
+          "page": 290,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0290",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0290.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0290.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0290.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0290"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0290.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0291",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 291,
+      "last_page": 291,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0291"
+      ],
+      "pages": [
+        {
+          "page": 291,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0291",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0291.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0291.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0291.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0291"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0291.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0292",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 292,
+      "last_page": 292,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0292"
+      ],
+      "pages": [
+        {
+          "page": 292,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0292",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0292.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0292.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0292.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0292"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0292.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0293",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+      "first_page": 293,
+      "last_page": 293,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0293"
+      ],
+      "pages": [
+        {
+          "page": 293,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0293",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-images/page-0293.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/work-orders/page-0293.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/page-markdown/page-0293.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/extracted-images/page-0293"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-p0293.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0294",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 294,
+      "last_page": 294,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0294"
+      ],
+      "pages": [
+        {
+          "page": 294,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0294",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0294.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0294.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0294.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0294"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0294.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0295",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 295,
+      "last_page": 295,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0295"
+      ],
+      "pages": [
+        {
+          "page": 295,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0295",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0295.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0295.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0295.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0295"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0295.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0296",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 296,
+      "last_page": 296,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0296"
+      ],
+      "pages": [
+        {
+          "page": 296,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0296",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0296.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0296.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0296.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0296"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0296.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0297",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 297,
+      "last_page": 297,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0297"
+      ],
+      "pages": [
+        {
+          "page": 297,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0297",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0297.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0297.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0297.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0297"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0297.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0298",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 298,
+      "last_page": 298,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0298"
+      ],
+      "pages": [
+        {
+          "page": 298,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0298",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0298.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0298.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0298.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0298"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0298.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0299",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 299,
+      "last_page": 299,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0299"
+      ],
+      "pages": [
+        {
+          "page": 299,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0299",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0299.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0299.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0299.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0299"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0299.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0300",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 300,
+      "last_page": 300,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0300"
+      ],
+      "pages": [
+        {
+          "page": 300,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0300",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0300.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0300.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0300.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0300"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0300.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0301",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 301,
+      "last_page": 301,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0301"
+      ],
+      "pages": [
+        {
+          "page": 301,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0301",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0301.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0301.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0301.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0301"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0301.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0302",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 302,
+      "last_page": 302,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0302"
+      ],
+      "pages": [
+        {
+          "page": 302,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0302",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0302.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0302.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0302.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0302"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0302.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0303",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+      "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+      "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+      "first_page": 303,
+      "last_page": 303,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0303"
+      ],
+      "pages": [
+        {
+          "page": 303,
+          "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303:p0303",
+          "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-images/page-0303.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/work-orders/page-0303.md",
+          "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/page-markdown/page-0303.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/extracted-images/page-0303"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303-p0303.md"
     },
     {
       "task_id": "source-prep-batch:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0001",
@@ -20111,6 +20694,586 @@
         }
       ],
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283-p0283.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0284",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 284,
+      "last_page": 284,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0284"
+      ],
+      "pages": [
+        {
+          "page": 284,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0284",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0284.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0284.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0284.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0284"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0284.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0285",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 285,
+      "last_page": 285,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0285"
+      ],
+      "pages": [
+        {
+          "page": 285,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0285",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0285.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0285.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0285.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0285.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0286",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 286,
+      "last_page": 286,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0286"
+      ],
+      "pages": [
+        {
+          "page": 286,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0286",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0286.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0286.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0286.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0286"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0286.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0287",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 287,
+      "last_page": 287,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0287"
+      ],
+      "pages": [
+        {
+          "page": 287,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0287",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0287.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0287.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0287.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0287"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0287.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0288",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 288,
+      "last_page": 288,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0288"
+      ],
+      "pages": [
+        {
+          "page": 288,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0288",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0288.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0288.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0288.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0288"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0288.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0289",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 289,
+      "last_page": 289,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0289"
+      ],
+      "pages": [
+        {
+          "page": 289,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0289",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0289.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0289.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0289.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0289"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0289.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0290",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 290,
+      "last_page": 290,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0290"
+      ],
+      "pages": [
+        {
+          "page": 290,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0290",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0290.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0290.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0290.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0290"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0290.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0291",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 291,
+      "last_page": 291,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0291"
+      ],
+      "pages": [
+        {
+          "page": 291,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0291",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0291.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0291.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0291.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0291"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0291.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0292",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 292,
+      "last_page": 292,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0292"
+      ],
+      "pages": [
+        {
+          "page": 292,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0292",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0292.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0292.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0292.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0292"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0292.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0293",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+      "first_page": 293,
+      "last_page": 293,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0293"
+      ],
+      "pages": [
+        {
+          "page": 293,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293:p0293",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0293.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/work-orders/page-0293.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-markdown/page-0293.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0293"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293-p0293.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0294",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 294,
+      "last_page": 294,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0294"
+      ],
+      "pages": [
+        {
+          "page": 294,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0294",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0294.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0294.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0294.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0294"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0294.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0295",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 295,
+      "last_page": 295,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0295"
+      ],
+      "pages": [
+        {
+          "page": 295,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0295",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0295.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0295.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0295.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0295"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0295.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0296",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 296,
+      "last_page": 296,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0296"
+      ],
+      "pages": [
+        {
+          "page": 296,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0296",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0296.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0296.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0296.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0296"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0296.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0297",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 297,
+      "last_page": 297,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0297"
+      ],
+      "pages": [
+        {
+          "page": 297,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0297",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0297.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0297.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0297.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0297"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0297.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0298",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 298,
+      "last_page": 298,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0298"
+      ],
+      "pages": [
+        {
+          "page": 298,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0298",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0298.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0298.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0298.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0298"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0298.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0299",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 299,
+      "last_page": 299,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0299"
+      ],
+      "pages": [
+        {
+          "page": 299,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0299",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0299.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0299.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0299.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0299"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0299.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0300",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 300,
+      "last_page": 300,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0300"
+      ],
+      "pages": [
+        {
+          "page": 300,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0300",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0300.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0300.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0300.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0300"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0300.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0301",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 301,
+      "last_page": 301,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0301"
+      ],
+      "pages": [
+        {
+          "page": 301,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0301",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0301.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0301.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0301.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0301"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0301.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0302",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 302,
+      "last_page": 302,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0302"
+      ],
+      "pages": [
+        {
+          "page": 302,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0302",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0302.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0302.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0302.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0302"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0302.md"
+    },
+    {
+      "task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0303",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+      "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+      "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+      "first_page": 303,
+      "last_page": 303,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0303"
+      ],
+      "pages": [
+        {
+          "page": 303,
+          "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303:p0303",
+          "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-images/page-0303.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/work-orders/page-0303.md",
+          "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/page-markdown/page-0303.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/extracted-images/page-0303"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-p0303.md"
     },
     {
       "task_id": "source-prep-batch:ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d:p0001",

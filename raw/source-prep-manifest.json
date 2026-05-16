@@ -60,7 +60,7 @@
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
-          "sha256": "e1498875dc30295159f8f95cd385237123bbcad0790559d307bb11689aaf6e66"
+          "sha256": "e802876d421b3814c4a8b1586ecc3ff0232d54b0d636ae32f56f5dbc0a2f7a5e"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
@@ -134,6 +134,13 @@
           "page_range": "24-43"
         },
         {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0294-0303",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 294-303",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+          "status": "prepared",
+          "page_range": "294-303"
+        },
+        {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0084-0103",
           "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 84-103",
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/manifest.json",
@@ -188,6 +195,13 @@
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183/manifest.json",
           "status": "prepared",
           "page_range": "164-183"
+        },
+        {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0284-0293",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 284-293",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json",
+          "status": "prepared",
+          "page_range": "284-293"
         },
         {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0144-0163",
@@ -364,6 +378,20 @@
           "page_range": "4-23"
         },
         {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0284-0293",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 284-293",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293/manifest.json",
+          "status": "prepared",
+          "page_range": "284-293"
+        },
+        {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0294-0303",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 294-303",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0294-0303-c-mara-de-senadores-de-la-naci-n-1936-pages-294-303/manifest.json",
+          "status": "prepared",
+          "page_range": "294-303"
+        },
+        {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0064-0083",
           "title": "Cámara de Senadores de la Nación, 1936 pages 64-83",
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json",
@@ -467,7 +495,7 @@
           "path": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md",
           "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json",
-          "sha256": "81a6f2d99d99d6203fa7dc591fb74b38a058ba24b22d860b9a119b72a522d8cd"
+          "sha256": "42b74cc0b20315f24199d6e1199efa7295c8e7f9290437c427790d201d6a20ba"
         }
       ],
       "cloud": {
@@ -620,343 +648,6 @@
         "sha256": "550063aa70aae7676f59ecf504cebd2c09aaddd8a283b8a089baded15c6c065b",
         "bytes": 752242,
         "media_type": "application/pdf"
-      }
-    },
-    {
-      "id": "SRC-72a88105e04d",
-      "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition",
-      "raw_path": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
-      "media_type": "pdf",
-      "bytes": 9567649,
-      "sha256": "72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0001-0020",
-          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 1-20",
-          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20/manifest.json",
-          "status": "prepared",
-          "page_range": "1-20"
-        },
-        {
-          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0101-0115",
-          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 101-115",
-          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json",
-          "status": "prepared",
-          "page_range": "101-115"
-        },
-        {
-          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0041-0060",
-          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 41-60",
-          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json",
-          "status": "prepared",
-          "page_range": "41-60"
-        },
-        {
-          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0021-0040",
-          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 21-40",
-          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json",
-          "status": "prepared",
-          "page_range": "21-40"
-        },
-        {
-          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0081-0100",
-          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 81-100",
-          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json",
-          "status": "prepared",
-          "page_range": "81-100"
-        },
-        {
-          "job_id": "CA72a88105-gu-a-m-dica-nacional-pro-p0061-0080",
-          "title": "Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition pages 61-80",
-          "manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json",
-          "status": "prepared",
-          "page_range": "61-80"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
-        "sha256": "72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874",
-        "bytes": 9567649,
-        "media_type": "application/pdf"
-      }
-    },
-    {
-      "id": "SRC-fbbc662e5567",
-      "title": "Habitat Revisited, Jim Carney, 2006",
-      "raw_path": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
-      "media_type": "pdf",
-      "bytes": 287214,
-      "sha256": "fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CAfbbc662e-habitat-revisited-jim-ca-p0001-0011",
-          "title": "Habitat Revisited, Jim Carney, 2006 pages 1-11",
-          "manifest": "raw/codex-conversion-jobs/cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11/manifest.json",
-          "status": "prepared",
-          "page_range": "1-11"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Habitat Revisited, Jim Carney, 2006.pdf",
-        "sha256": "fbbc662e55670a0ad524c3f13256eaef1e62ef32b2b5d1417d601cb40f3313d9",
-        "bytes": 287214,
-        "media_type": "application/pdf"
-      }
-    },
-    {
-      "id": "SRC-47b759d1532f",
-      "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional",
-      "raw_path": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
-      "media_type": "pdf",
-      "bytes": 7997729,
-      "sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0061-0080",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 61-80",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json",
-          "status": "prepared",
-          "page_range": "61-80"
-        },
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0081-0100",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 81-100",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/manifest.json",
-          "status": "prepared",
-          "page_range": "81-100"
-        },
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0001-0020",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 1-20",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json",
-          "status": "prepared",
-          "page_range": "1-20"
-        },
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0121-0127",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 121-127",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json",
-          "status": "prepared",
-          "page_range": "121-127"
-        },
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0021-0040",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 21-40",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json",
-          "status": "prepared",
-          "page_range": "21-40"
-        },
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0101-0120",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 101-120",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/manifest.json",
-          "status": "prepared",
-          "page_range": "101-120"
-        },
-        {
-          "job_id": "CA47b759d1-historia-del-hospital-cl-p0041-0060",
-          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 41-60",
-          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json",
-          "status": "prepared",
-          "page_range": "41-60"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
-        "sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
-        "bytes": 7997729,
-        "media_type": "application/pdf"
-      }
-    },
-    {
-      "id": "SRC-27b2c98ae912",
-      "title": "Introduction_Estates_General_of_Third_Ci",
-      "raw_path": "raw/sources/Introduction_Estates_General_of_Third_Ci.pdf",
-      "media_type": "pdf",
-      "bytes": 1012334,
-      "sha256": "27b2c98ae912a4eff87677549db827df0aca336960154f1a8572e38c1fb881c5",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA27b2c98a-introduction-estates-gen-p0001-0007",
-          "title": "Introduction_Estates_General_of_Third_Ci pages 1-7",
-          "manifest": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/manifest.json",
-          "status": "prepared",
-          "page_range": "1-7"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Introduction_Estates_General_of_Third_Ci.pdf",
-        "sha256": "27b2c98ae912a4eff87677549db827df0aca336960154f1a8572e38c1fb881c5",
-        "bytes": 1012334,
-        "media_type": "application/pdf"
-      }
-    },
-    {
-      "id": "SRC-df269c355226",
-      "title": "La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge",
-      "raw_path": "raw/sources/La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.JPG",
-      "media_type": "image",
-      "bytes": 2149340,
-      "sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CAdf269c35-la-haye-b-timent-des-sal",
-          "title": "La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge",
-          "manifest": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/manifest.json",
-          "status": "prepared",
-          "page_range": "all"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.JPG",
-        "sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
-        "bytes": 2149340,
-        "media_type": "image/jpeg"
-      }
-    },
-    {
-      "id": "SRC-90b8a8aabe55",
-      "title": "La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d",
-      "raw_path": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
-      "media_type": "image",
-      "bytes": 1831639,
-      "sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA90b8a8aa-la-haye-xiii-me-conf-ren",
-          "title": "La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d",
-          "manifest": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/manifest.json",
-          "status": "prepared",
-          "page_range": "all"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
-        "sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
-        "bytes": 1831639,
-        "media_type": "image/jpeg"
-      }
-    },
-    {
-      "id": "SRC-508bacd2448a",
-      "title": "La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire.",
-      "raw_path": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
-      "media_type": "image",
-      "bytes": 1999311,
-      "sha256": "508bacd2448ae3a4a97e35dedaf975a65f4fe2e9155140203d52c7b051315da1",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA508bacd2-la-haye-xiii-me-conf-ren",
-          "title": "La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire.",
-          "manifest": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/manifest.json",
-          "status": "prepared",
-          "page_range": "all"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
-        "sha256": "508bacd2448ae3a4a97e35dedaf975a65f4fe2e9155140203d52c7b051315da1",
-        "bytes": 1999311,
-        "media_type": "image/jpeg"
-      }
-    },
-    {
-      "id": "SRC-3a73408510b0",
-      "title": "Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog",
-      "raw_path": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
-      "media_type": "pdf",
-      "bytes": 1002991,
-      "sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA3a734085-osorio-h-toro-j-c-schorw-p0001-0010",
-          "title": "Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog pages 1-10",
-          "manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
-          "status": "prepared",
-          "page_range": "1-10"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
-        "sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
-        "bytes": 1002991,
-        "media_type": "application/pdf"
-      }
-    },
-    {
-      "id": "SRC-dfbbb3a344f1",
-      "title": "Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928.",
-      "raw_path": "raw/sources/Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928..png",
-      "media_type": "image",
-      "bytes": 8153554,
-      "sha256": "dfbbb3a344f111dd42d0974b6dce8f322118920f3254e0e0f809c9795804ab42",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CAdfbbb3a3-passenger-list-pacific-s",
-          "title": "Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928.",
-          "manifest": "raw/codex-conversion-jobs/cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928/manifest.json",
-          "status": "prepared",
-          "page_range": "all"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928..png",
-        "sha256": "dfbbb3a344f111dd42d0974b6dce8f322118920f3254e0e0f809c9795804ab42",
-        "bytes": 8153554,
-        "media_type": "image/png"
-      }
-    },
-    {
-      "id": "SRC-ccebfd8b8589",
-      "title": "Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004",
-      "raw_path": "raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png",
-      "media_type": "image",
-      "bytes": 3582176,
-      "sha256": "ccebfd8b8589a86a954826dec91d3ba8f755749eb297cd686fc9d6af65885d30",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CAccebfd8b-passenger-and-crew-lists",
-          "title": "Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004",
-          "manifest": "raw/codex-conversion-jobs/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004/manifest.json",
-          "status": "prepared",
-          "page_range": "all"
-        }
-      ],
-      "converted_sources": [],
-      "cloud": {
-        "provider": "cloudflare-r2",
-        "key": "raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png",
-        "sha256": "ccebfd8b8589a86a954826dec91d3ba8f755749eb297cd686fc9d6af65885d30",
-        "bytes": 3582176,
-        "media_type": "image/png"
       }
     }
   ]

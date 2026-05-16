@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-81a6f2d99d99-P0001-01
+chunk_id: CHUNK-42b74cc0b203-P0001-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
-converted_sha256: 81a6f2d99d99d6203fa7dc591fb74b38a058ba24b22d860b9a119b72a522d8cd
+converted_sha256: 42b74cc0b20315f24199d6e1199efa7295c8e7f9290437c427790d201d6a20ba
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json
@@ -48,24 +48,32 @@ The transcription is complete and captures all visible content on the page.
 Page number: 2
 
 ## Layout And Reading Order
-The page contains handwritten text in blue crayon/pencil at the top-left, followed by a handwritten signature or scribble. A blue, irregularly shaped sticker is affixed to the bottom-right corner of the page.
+
+The page contains handwritten text in the upper left quadrant and a piece of blue tape adhered to the lower right quadrant. The handwritten text is in two layers, with blue crayon/pencil on top and grey pencil below it.
 
 ## Literal Transcription
+
 Registry
-SOB[Z/L]A x
+S.O.B.Z.A.X [?]
 
 ## Images, Captions, And Visual Notes
-A blue, irregularly shaped sticker or piece of paper is affixed to the bottom right corner of the page. It appears crumpled.
+
+- A piece of blue tape or paper is adhered to the bottom right of the page, covering approximately 15% of the page area.
+- Handwritten text in blue crayon or pencil reads "Registry" in a cursive style, located in the upper left quadrant.
+- Below the blue "Registry" text, there is additional handwritten text in grey pencil, which appears to be a signature or abbreviation.
 
 ## Uncertain Or Illegible
-The handwritten text below "Registry" is difficult to decipher with certainty. The most plausible reading is "SOB[Z/L]A x", where the third and fourth letters are particularly ambiguous.
+
+- The grey handwritten text "S.O.B.Z.A.X" is highly uncertain due to its stylized cursive nature. The individual letters are difficult to discern definitively, particularly the middle section.
 
 ## Completeness Audit
-The page is fully transcribed and described.
+
+The page is fully transcribed and all visible elements have been noted.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only minor handwritten annotations and a simple sticker, none of which qualify as substantial visuals (portraits, maps, illustrations, etc.) for standalone wiki assets. These elements are adequately captured by literal transcription and visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a piece of tape, neither of which qualify as substantial visual assets for cropping according to the guidelines."}
 ```
 
 ## Page Metadata

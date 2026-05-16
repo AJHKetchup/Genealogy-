@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created": "2026-05-16T02:45:11Z",
-  "updated": "2026-05-16T20:36:46Z",
+  "updated": "2026-05-16T20:49:44Z",
   "purpose": "Rough non-evidence Docling discovery outputs used for source triage and Gemini routing.",
   "entries": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001|35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35": {
@@ -3088,7 +3088,7 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0089|753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d": {
       "status": "rough_ok",
-      "updated": "2026-05-16T18:40:44Z",
+      "updated": "2026-05-16T20:49:44Z",
       "agent": "source-prep-docling-discovery",
       "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103:p0089",
       "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -3098,6 +3098,7 @@
       "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/page-0089.md",
       "evidence_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/page-markdown/page-0089.md",
       "method": "docling",
+      "profile_version": 2,
       "evidence_grade": false,
       "extracted_images": [],
       "extracted_image_count": 0,
@@ -3105,6 +3106,8 @@
       "alpha_chars": 475,
       "word_count": 76,
       "odd_char_ratio": 0.030035335689045935,
+      "line_count": 36,
+      "short_line_ratio": 0.0,
       "readability_flags": [],
       "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103/page-markdown/page-0089.md"
     },
