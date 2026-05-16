@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T19:15:13Z",
+  "created": "2026-05-16T19:58:42Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
   "limit": 10,
@@ -12,8 +12,8 @@
   "processed": 0,
   "completed": 0,
   "released": 0,
-  "skipped": 430,
-  "discovery_skipped": 429,
+  "skipped": 470,
+  "discovery_skipped": 469,
   "media_skipped": 1,
   "route_counts": {},
   "tasks": [
@@ -881,6 +881,286 @@
     {
       "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143:p0143",
       "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143:p0143",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0144",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0144",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0145",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0145",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0146",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0146",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0147",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0147",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0148",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0148",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0149",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0149",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0150",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0150",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0151",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0151",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0152",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0152",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0153",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0153",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0154",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0154",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0155",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0155",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0156",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0156",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0157",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0157",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0158",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0158",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0159",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0159",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0160",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0160",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0161",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0161",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0162",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0162",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0163",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163:p0163",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0164",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0164",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0165",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0165",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0166",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0166",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0167",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0167",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0168",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0168",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0169",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0169",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0170",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0170",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0171",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0171",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0172",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0172",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0173",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0173",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0174",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0174",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0175",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0175",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0176",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0176",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0177",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0177",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0178",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0178",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0179",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0179",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0180",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0180",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0181",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0181",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0182",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0182",
+      "status": "skipped",
+      "reason": "docling_discovery_missing",
+      "discovery_path": ""
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0183",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0164-0183-c-mara-de-senadores-de-la-naci-n-1936-pages-164-183:p0183",
       "status": "skipped",
       "reason": "docling_discovery_missing",
       "discovery_path": ""
@@ -3040,5 +3320,5 @@
     "skipped": 0,
     "manifests": 0
   },
-  "finished": "2026-05-16T19:15:13Z"
+  "finished": "2026-05-16T19:58:42Z"
 }
