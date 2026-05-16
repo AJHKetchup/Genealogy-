@@ -1,0 +1,67 @@
+{
+  "job_id": "CA753b8b14-anales-de-la-universidad-p0001-0003",
+  "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 1-3",
+  "source_file": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "local_staged_source_file": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/source/anales-de-la-universidad-de-chile-session-of-the-753b8b140d94.pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "source_bytes": 55819867,
+  "media_type": "pdf",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "1-3",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-images/page-0001.jpg",
+      "width_px": 886,
+      "height_px": 1384,
+      "image_bytes": 459245,
+      "image_sha256": "546fe9b1be1602286e697bceb1066f2bd5566fba2192f832cc752545352458d6",
+      "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/work-orders/page-0001.md",
+      "status": "todo"
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "image_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-images/page-0002.jpg",
+      "width_px": 741,
+      "height_px": 1226,
+      "image_bytes": 46592,
+      "image_sha256": "fb48f0629f6f21cbb63f0bd0a4b56cc69e7c34857039121394b106e96c5998e9",
+      "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/extracted-images/page-0002",
+      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-markdown/page-0002.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/work-orders/page-0002.md",
+      "status": "todo"
+    },
+    {
+      "page": 3,
+      "source_page": 3,
+      "image_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-images/page-0003.jpg",
+      "width_px": 741,
+      "height_px": 1226,
+      "image_bytes": 46279,
+      "image_sha256": "b0968f9e69a5a8c992c422139f24c192b519f64d0aef348dfefec97d8844a2e5",
+      "image_output_dir": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/extracted-images/page-0003",
+      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-markdown/page-0003.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/work-orders/page-0003.md",
+      "status": "todo"
+    }
+  ]
+}

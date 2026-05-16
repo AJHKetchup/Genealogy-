@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-16T06:18:36Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png",
+  "source_sha256": "db3e1a4b10817e6fda3e3ece8f55d0717d2806c802660cb9d3e4366affff6d1a",
+  "job_manifest": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/page-images/page-0001.png",
+  "output_markdown": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "0001",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "MAR 30 '59 NYC",
+      "source_context": "Form I-94 B (Rev. 7-1-57) ARRIVAL-DEPARTURE RECORD"
+    },
+    {
+      "region_id": "0002",
+      "kind": "text_block",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "ANY HANDWRITTEN ENTRIES MUST BE IN BLOCK CAPITALS.",
+      "source_context": "Form I-94 B (Rev. 7-1-57) ARRIVAL-DEPARTURE RECORD"
+    }
+  ],
+  "flags": []
+}

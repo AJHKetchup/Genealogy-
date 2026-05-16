@@ -1,0 +1,67 @@
+{
+  "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0001-0003",
+  "title": "C\u00e1mara de Senadores de la Naci\u00f3n, 1936 pages 1-3",
+  "source_file": "raw/sources/C\u00e1mara de Senadores de la Naci\u00f3n, 1936.pdf",
+  "local_staged_source_file": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/source/c-mara-de-senadores-de-la-naci-n-1936-221159bd9b79.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "source_bytes": 904575504,
+  "media_type": "pdf",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "1-3",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-images/page-0001.jpg",
+      "width_px": 1273,
+      "height_px": 1779,
+      "image_bytes": 415888,
+      "image_sha256": "c510e514478665936e81710294d491ec07e8751e9cd1404d7afed5bd3046ef56",
+      "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/work-orders/page-0001.md",
+      "status": "todo"
+    },
+    {
+      "page": 2,
+      "source_page": 2,
+      "image_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-images/page-0002.jpg",
+      "width_px": 1240,
+      "height_px": 1927,
+      "image_bytes": 690737,
+      "image_sha256": "fa74b02f0107418e731f84e2232c8e47f27b091733f926dfcd992598de3a01a1",
+      "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images/page-0002",
+      "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-markdown/page-0002.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/work-orders/page-0002.md",
+      "status": "todo"
+    },
+    {
+      "page": 3,
+      "source_page": 3,
+      "image_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-images/page-0003.jpg",
+      "width_px": 526,
+      "height_px": 1179,
+      "image_bytes": 147921,
+      "image_sha256": "40a73b77fc256474c647c7802ff18bb5753e5ef1120fcfc4f911e781d5f1e0d8",
+      "image_output_dir": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images/page-0003",
+      "output_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-markdown/page-0003.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/work-orders/page-0003.md",
+      "status": "todo"
+    }
+  ]
+}

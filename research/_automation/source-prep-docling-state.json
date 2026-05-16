@@ -1,18 +1,217 @@
 {
-  "created": "2026-05-16T03:29:01Z",
+  "created": "2026-05-16T06:14:50Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
-  "limit": 2,
-  "scan_limit": 4,
-  "inspected": 0,
-  "accepted": 0,
-  "unusable": 0,
-  "errors": 0,
-  "skipped": {
-    "cached_rough_unusable": 2
-  },
-  "tasks": [],
+  "limit": 200,
+  "scan_limit": 400,
+  "inspected": 19,
+  "accepted": 10,
+  "unusable": 8,
+  "errors": 1,
+  "skipped": {},
+  "tasks": [
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0001",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 1,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-0001.md",
+      "readability_flags": [
+        "insufficient_text"
+      ],
+      "text_chars": 119
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0002",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 2,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-0002.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0003",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 3,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-0003.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 0
+    },
+    {
+      "task_id": "source-prep:cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959:p0001",
+      "source": "raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png",
+      "page": 1,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/page-0001.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 40
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0001-0003-cv-of-dario-arturo-pulgar-pages-1-3:p0001",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 1,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0001-0003-cv-of-dario-arturo-pulgar-pages-1-3/page-0001.md",
+      "readability_flags": [],
+      "text_chars": 3103
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0001-0003-cv-of-dario-arturo-pulgar-pages-1-3:p0002",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 2,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0001-0003-cv-of-dario-arturo-pulgar-pages-1-3/page-0002.md",
+      "readability_flags": [],
+      "text_chars": 2775
+    },
+    {
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0001-0003-cv-of-dario-arturo-pulgar-pages-1-3:p0003",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "page": 3,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca07263f40-cv-of-dario-arturo-pulga-p0001-0003-cv-of-dario-arturo-pulgar-pages-1-3/page-0003.md",
+      "readability_flags": [],
+      "text_chars": 3007
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0001",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 1,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-0001.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 9
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0002",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 2,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-0002.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0003",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 3,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-0003.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 40
+    },
+    {
+      "task_id": "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
+      "source": "raw/sources/Dario Arturo Pulgar (Interview 11-24-2024).m4a",
+      "page": 1,
+      "status": "error",
+      "error": "whisper is not installed. Please install it via `pip install openai-whisper` or do `uv sync --extra asr`."
+    },
+    {
+      "task_id": "source-prep:ca262fad21-decreto-exento-n-5472-decreto-exento-n-5472:p0001",
+      "source": "raw/sources/Decreto Exento N°5472.docx",
+      "page": 1,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca262fad21-decreto-exento-n-5472-decreto-exento-n-5472/page-0001.md",
+      "readability_flags": [],
+      "text_chars": 588
+    },
+    {
+      "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0001",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "page": 1,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/page-0001.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "text_chars": 10
+    },
+    {
+      "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0002",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "page": 2,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/page-0002.md",
+      "readability_flags": [],
+      "text_chars": 633
+    },
+    {
+      "task_id": "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0003",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "page": 3,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/page-0003.md",
+      "readability_flags": [],
+      "text_chars": 1018
+    },
+    {
+      "task_id": "source-prep:ca8dc32ecb-ficha-de-turista-issued-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964:p0001",
+      "source": "raw/sources/Ficha de turista, issued by the Brazilian Consulate on January 27, 1964.png",
+      "page": 1,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca8dc32ecb-ficha-de-turista-issued-ficha-de-turista-issued-by-the-brazilian-consulate-on-january-27-1964/page-0001.md",
+      "readability_flags": [],
+      "text_chars": 702
+    },
+    {
+      "task_id": "source-prep:ca550063aa-geneva-convention-of-jul-p0001-0003-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-1-3:p0001",
+      "source": "raw/sources/Geneva Convention of July 27, 1929, Amelioration of the Condition of the Wounded and Sick of Armies in the Field.pdf",
+      "page": 1,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca550063aa-geneva-convention-of-jul-p0001-0003-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-1-3/page-0001.md",
+      "readability_flags": [],
+      "text_chars": 2091
+    },
+    {
+      "task_id": "source-prep:ca550063aa-geneva-convention-of-jul-p0001-0003-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-1-3:p0002",
+      "source": "raw/sources/Geneva Convention of July 27, 1929, Amelioration of the Condition of the Wounded and Sick of Armies in the Field.pdf",
+      "page": 2,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca550063aa-geneva-convention-of-jul-p0001-0003-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-1-3/page-0002.md",
+      "readability_flags": [],
+      "text_chars": 2329
+    },
+    {
+      "task_id": "source-prep:ca550063aa-geneva-convention-of-jul-p0001-0003-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-1-3:p0003",
+      "source": "raw/sources/Geneva Convention of July 27, 1929, Amelioration of the Condition of the Wounded and Sick of Armies in the Field.pdf",
+      "page": 3,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca550063aa-geneva-convention-of-jul-p0001-0003-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-1-3/page-0003.md",
+      "readability_flags": [],
+      "text_chars": 1818
+    }
+  ],
   "blockers": [],
-  "finished": "2026-05-16T03:29:01Z"
+  "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
+  "finished": "2026-05-16T06:18:26Z"
 }

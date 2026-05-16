@@ -1,0 +1,42 @@
+{
+  "job_id": "CA50f9e570-dario-arturo-pulgar-inte",
+  "title": "Dario Arturo Pulgar (Interview 11-24-2024)",
+  "source_file": "raw/sources/Dario Arturo Pulgar (Interview 11-24-2024).m4a",
+  "local_staged_source_file": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/source/dario-arturo-pulgar-interview-11-24-2024-50f9e5701e9e.m4a",
+  "source_sha256": "50f9e5701e9e76f652296e2315f2435272f9f8b5c77e97a4f9930586154ab565",
+  "source_bytes": 30952755,
+  "media_type": "audio",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "1-3",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-images/dario-arturo-pulgar-interview-11-24-2024-50f9e5701e9e.m4a",
+      "width_px": null,
+      "height_px": null,
+      "image_bytes": 30952755,
+      "note": "Non-image source staged as a single work item.",
+      "image_sha256": "50f9e5701e9e76f652296e2315f2435272f9f8b5c77e97a4f9930586154ab565",
+      "image_output_dir": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/work-orders/page-0001.md",
+      "status": "todo"
+    }
+  ]
+}

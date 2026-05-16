@@ -1,7 +1,39 @@
 {
   "created": "2026-05-16",
   "queue": "source-prep-batches",
-  "task_count": 0,
-  "status_counts": {},
-  "tasks": []
+  "task_count": 1,
+  "status_counts": {
+    "todo": 1
+  },
+  "tasks": [
+    {
+      "task_id": "source-prep-batch:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
+      "queue": "source-prep-batches",
+      "role": "source_converter",
+      "skill": "historical-document-conversion",
+      "status": "todo",
+      "source": "raw/sources/Dario Arturo Pulgar (Interview 11-24-2024).m4a",
+      "source_sha256": "50f9e5701e9e76f652296e2315f2435272f9f8b5c77e97a4f9930586154ab565",
+      "job_manifest": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/manifest.json",
+      "job_id": "CA50f9e570-dario-arturo-pulgar-inte",
+      "title": "Dario Arturo Pulgar (Interview 11-24-2024)",
+      "first_page": 1,
+      "last_page": 1,
+      "page_count": 1,
+      "task_ids": [
+        "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "task_id": "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001",
+          "page_image": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-images/dario-arturo-pulgar-interview-11-24-2024-50f9e5701e9e.m4a",
+          "work_order": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/work-orders/page-0001.md",
+          "output_path": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/page-markdown/page-0001.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/extracted-images/page-0001"
+        }
+      ],
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024-p0001.md"
+    }
+  ]
 }
