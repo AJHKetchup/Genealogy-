@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b2f77124f2fb-P0001-01
+chunk_id: CHUNK-d40370036ff9-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: b2f77124f2fb6d06d108cd65c70a2bc7f72432eb0542e3a2859163b1c6820dda
+converted_sha256: d40370036ff9201870be69e25f43ed5a4873ad249936c0ca0d3a16b53d88c1cb
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -22,89 +22,108 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/extracted-images`
 
 ## Page Metadata
-Page number: 6
+
+- **Page number**: 6
+- **Document title**: CR 177 Conférence diplomatique
 
 ## Layout And Reading Order
-The page contains a header at the top right and a numbered list of entries, each with a number, a date, and a descriptive text. There are also a few handwritten marginal notes to the left of some entries. The content flows in a single column from top to bottom.
+
+The page is a single column of typewritten text. A header is at the top, with the document title "CR 177 Conférence diplomatique" on the left and the page number "6." on the right.
+
+The main content is a numbered list of items (103 to 121), each with a date and a brief description.
+
+There are four handwritten annotations in the left margin, each corresponding to a specific numbered item. The reading order is top-to-bottom, with the marginalia read alongside their corresponding entries.
 
 ## Literal Transcription
-CR 177 Conférence diplomatique 6.
+
+CR 177 Conférence diplomatique
+6.
 
 103.- 8.6.29. Transmettons à M. de Rougé communiqué sur la Conférence
-           diplomatique.
+diplomatique.
 
 104.- 10.6.29. Donnons à Département Politique composition de la délégation
-           du CI (102)
+du CI (102)
 
-105.- 10.6.29. Transmettons copie de la 1/ Thiébaut (101) à Département
-           Politique en le priant de répondre et de nous tenir au courant
-           de sa réponse.
+105.- 10.6.29. Transmettons copie de la l/ Thiébaut (101) à Département
+Politique en le priant de répondre et de nous tenir au courant
+de sa réponse.
 
-106.- 11.6.29. Extrait d'une 1/ de M. Huber informant CI que M. Draudt s'est
-           offert de soutenir les intérêts et les thèses du CI à prochaine
-           conférence diplomatique.
+106.- 11.6.29. Extrait d'une l/ de M. Huber informant CI que M. Draudt s'est
+offert de soutenir les intérêts et les thèses du CI à prochaine
+conférence diplomatique.
 
-ms. transcr.
+> `ms., transcr.`
+
 107.- 11.6.29. Note de M. Clouzot sur la participation éventuelle de Mme
-           Frick-Cramer au travail de la Conférence diplomatique.
+Frick-Cramer au travail de la Conférence diplomatique.
 
-ms.
 108.- 13.6.29. Note de M. PDG en réponse à la note ci-dessus.
 
-109.- 11.6.29. M. Huber recommande son neveu M. D.Schindler, qui sera un des
-           délégués à la Conférence diplomatique
+> `ms.`
 
-110.- 12.6.29. A.r. à 1/ de M. Thiébaut (101), l'informant que nous en trans-
-           mettons la copie à Départ. Politique à Berne
+109.- 11.6.29. M. Huber recommande son neveu M. D.Schindler, qui sera un des
+délégués à la Conférence diplomatique
+
+110.- 12.6.29. A.r. à l/ de M. Thiébaut (101), l'informant que nous en trans-
+mettons la copie à Départ. Politique à Berne
 
 111.- 12.6.29. LSCR remercie pour communiqué (103)
 
 112.- 12.6.29. CR néerlandaise demande documents
 
-113.- 13.6.29. A.r. à Reichsvereinigung... (100) Remettons document à
-           notre délégation à la Conf. diplomatique
+113.- 13.6.29. A.r. à Reichsvereinigung... (100) Remettrons document à
+notre délégation à la Conf. diplomatique
 
-fann.
-114.- 13.6.29. Département Politique nous envoie copie de la 1/ qu'il
-           adresse à M. Thiébaut
+> `f ann.`
+
+114.- 13.6.29. Département Politique nous envoie copie de la l/ qu'il
+adresse à M. Thiébaut
 
 115.- 14.6.29. Département Politique demande le No 35 de la revue de novembre
-           1921 dans laquelle a été publiée la proposition en français
-           de l'International Law Association.
+1921 dans laquelle a été publiée la proposition en français
+de l'International Law Association.
 
 116.- 14.6.29. Informons M. Huber qu'il recevra directement de Berne les
-           documents relatifs à Conf. diplomatique.
+documents relatifs à Conf. diplomatique.
 
 117.- 14.6.29. Demandons à Départ. Politique qu'il veuille bien envoyer les
-           documents à M. Huber
+documents à M. Huber
 
-118.- 14.6.29. A.r. à CR néerlandaise de sa 1/ du 12.6. (112) Avons transmis
-           sa demande à Berne
+118.- 14.6.29. A.r. à CR néerlandaise de sa l/ du 12.6. (112) Avons transmis
+sa demande à Berne
 
 119.- 14.6.29. Transmettons demande de la CR néerlandaise à Berne
 
-plié
+> `plié`
+
 120.- 15.6.29. CR de Dantzig demande renseignements
 
 121.- 15.6.29. Envoyons à M. Dinichert la revue demandée (115)
 
 ## Images, Captions, And Visual Notes
-- Handwritten note "ms. transcr." in the left margin next to entry 107.
-- Handwritten note "ms." in the left margin next to entry 109.
-- Handwritten note "fann." in the left margin next to entry 114.
-- Handwritten note "plié" in the left margin next to entry 120.
+
+There are no images on this page. There are four handwritten annotations in the left margin:
+
+- Next to item 107: `ms., transcr.`
+- Next to item 109: `ms.`
+- Next to item 114: `f ann.`
+- Next to item 120: `plié`
 
 ## Uncertain Or Illegible
-None.
+
+There are no uncertain or illegible portions of text on this page.
 
 ## Completeness Audit
-All visible text and marginalia on the page have been transcribed.
+
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present on this page. Minor handwritten notes are transcribed in the 'Images, Captions, And Visual Notes' section."
+  "no_visual_regions_reason": "The page contains only text and minor handwritten annotations, with no substantial images, illustrations, or diagrams."
 }
 ```
 
@@ -256,3 +275,11 @@ The transcription is complete and includes all typed text and handwritten margin
   "no_visual_regions_reason": "The page contains only typed text and minor handwritten annotations. There are no significant images, illustrations, or other visual elements that would warrant cropping as standalone assets."
 }
 ```
+
+## Page Metadata
+Page number: 9
+Source document title: CR 177 Conférence diplomatique
+
+## Layout And Reading Order
+
+The page presents a chronological list of entries, each identified by a sequential number, a date, and a descriptive text. The entries are arranged in a single column. Several handwritten marginal notes appear to the left of the main list, indicating categories or states of the entries. A handwritten reference number is also present in the top right margin.

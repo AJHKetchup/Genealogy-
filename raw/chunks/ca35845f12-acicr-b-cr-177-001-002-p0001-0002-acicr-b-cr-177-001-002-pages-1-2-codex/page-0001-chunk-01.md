@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2a860dfe008e-P0001-01
+chunk_id: CHUNK-534afbeab295-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
-converted_sha256: 2a860dfe008e828d99c78b6a0b6ad43c400d4ae4d636b0bdbdf1f1aed3552620
+converted_sha256: 534afbeab29544ffe9195cfa1150ac2ebe714a4b11b30c44abe3cf94956be007
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json
@@ -94,60 +94,91 @@ The transcription is complete and includes all visible text and marginalia.
 
 ## Page Metadata
 - Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002`
-- Page number: 2
-- Source file: `ACICR_B_CR_177_001_002.pdf`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
+- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/work-orders/page-0002.md`
+- Page: 2
+- Output Markdown target: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/page-markdown/page-0002.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `gemini_fallback`
+- Quality flags: many_uncertain_readings
+- Technical reread clues: none
 
 ## Layout And Reading Order
-The page contains a header at the top right and a numbered list of entries, each consisting of a number, a date, and a descriptive text. Some entries have marginal notes ("plié" or "m S."). The content flows in a single column from top to bottom.
+The page is a single column of text. The reading order is from top to bottom.
+
+The page contains a header at the top right. Below the header is a numbered list of entries, continuing from the previous page. Each entry consists of a number and a date on the left, followed by a description of an action or correspondence on the right.
+
+There are handwritten annotations in the left margin next to specific entries.
 
 ## Literal Transcription
 Ch. 177 Conférence diplomatique, juin 1929 2.
-17.- 1.11.28. Répondons à 1/ ci-dessus,
-18.- 31.10.28. M. Decencière fait parvenir à M. Werner les épreuves de son
-cours sur les PG
-19.- 27.11.28. A.r. à 1/ ci-dessus, retournons épreuves et réclamons mise en
-pages.
-plié 20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
-tion de Genève et du Code des PG
+
+17.- 1.11.28. Répondons à l/ ci-dessus,
+
+18.- 31.10.28. M. Decencière fait parvenir à M. Werner les épreuves de son cours sur les PG
+
+19.- 27.11.28. A.r. à l/ ci-dessus, retournons épreuves et réclamons mise en pages.
+
+> plié
+
+20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Convention de Genève et du Code des PG
+
 21.- 12.12.28. Transmettons demande ci-dessus à M. Dinichert
+
 22.- 13.12.28. M. Dinichert nous envoie 10 ex, de chacun des projets
-23.- 14.12.28. Répondons à Alliance en envoyant 6 ex. de chacun des projets
-(20)
-24.- 14.12.28. Remercions M. Dinichert pour les 20 ex. et demandons autorisa-
-tion de publier dans le Bulletin la circ. du 2.7.28 (4)
-25.- 21.12.28. Département politique autorise publication de la circ. dans
-Bulletin (24)
-plié 26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
-27.- 8.1.29. Envoyons à M. Lacroix les épreuves corrigées du tirage à part
-de l'étude de M. Werner sur PG.
-28.- 21.1.29. Librairie Hachette informe M. Werner que les 500 tirés à part
-couteront 2000 frs français.
-29.- 23.1.29. M/ 1/ à M. Motta au sujet représentation du CI à conférence diplo-
-matique.
-30.- 24.1.29. M. Werner répond à 1/ du 21.1. (30) au sujet de ses tirés à part
-31.- 25.1.29. Librairie répond à 1/ ci-dessus. Toutes les indications de M.
-Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
-m S. 32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
-33.- 29.1.29. A.r. à 1' ci-dessus. Prenons note que l'indication relative
-au CI ne pourra figurer sur la couverture des tirés à part.
-34.- 29.1.29. Remercions librairie Hachette pour 1/ du 25.1. (31)
-35.- 11.2.29. Infirmons M. Dinichert que M. Walter Yung pourrait fonctionner
-comme secrétaire avec M. des Gouttes
-36.- 13.2.29. Départ. politique nous informe que les Etats Unis s'opposent à
-ce que le CI prenne part à la collaboration du Code des PG
-37.- 25.2.29. A.r. de 1/ ci-dessus, sommes reconnaissants au Dép. politi. de.
-bien vouloir auprès des Etats-Unis pour [?] [?] [?]
+
+23.- 14.12.28. Répondons à Alliance en envoyant 6 ex. de chacun des projets (20)
+
+24.- 14.12.28. Remercions M. Dinichert pour les 20 ex. et demandons autorisation de publier dans le Bulletin la circ. du 2.7.28 (4)
+
+25.- 21.12.28. Département politique autorise publication de la circ. dans Bulletin (24)
+
+> plié
+
+26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (23)
+
+27.- 8.1.29. Envoyons à M. Lacroix les épreuves corrigées du tirage à part de l'étude de M. Werner sur PG.
+
+28.- 21.1.29. Librairie Hachette informe M. Werner que les 500 tirés à part couteront 2000 frs français.
+
+29.- 23.1.29. N/ l/ à M. Motta au sujet représentation du CI à conférence diplomatique.
+
+30.- 24.1.29. M. Werner répond à l/ du 21.1. (28) au sujet de ses tirés à part
+
+31.- 25.1.29. Librairie répond à l/ ci-dessus. Toutes les indications de M. Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
+
+> m s.
+
+32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
+
+33.- 29.1.29. A.r. à l' ci-dessus. Prenons note que l'indication relative au CI ne pourra figurer sur la couverture des tirés à part.
+
+34.- 29.1.29. Remercions librairie Hachette pour l/ du 25.1. (31)
+
+35.- 11.2.29. Infirmons M. Dinichert que M. Walter Yung pourrait fonctionner comme secrétaire avec M. des Gouttes
+
+36.- 13.2.29. Départ. politique nous informe que les Etats Unis s'opposent à ce que le CI prenne part à la collaboration du Code des PG
+
+37.- 25.2.29. A.r. de l/ ci-dessus, sommes reconnaissants au Dép. politi. de. bien vouloir auprès des Etats-Unis p[our] s'enquérir de leur attitude...
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page. The marginal notes "plié" and "m S." have been transcribed in the literal transcription.
+There are no images, photographs, or illustrations on this page.
 
 ## Uncertain Or Illegible
-- `37.- 25.2.29. ... bien vouloir auprès des Etats-Unis pour [?] [?] [?]`: The words following "pour" are very faint. A plausible reading for the first `[?]` is "obtenir", for the second `[?]` is "l'adhésion", and for the third `[?]` is "de l'H". However, due to extreme faintness, they are marked as uncertain.
+- **Item 37**: The second line of text for this entry is extremely faint and difficult to read. The transcription provided ("bien vouloir auprès des Etats-Unis p[our] s'enquérir de leur attitude...") is a plausible reading based on the visible letter forms and the diplomatic context, but it is rendered with low confidence. The line is also cut off at the end by the bottom edge of the page.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text, including the header and marginal notes, preserving line breaks and original formatting as much as possible.
+The transcription of this page is complete. All textual content, including the header, the numbered list, and marginalia, has been transcribed. The last line of text on the page is physically cut off.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page that would be useful as standalone assets."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of typewritten and handwritten text with no significant illustrations, photographs, or other visual elements that would warrant cropping."
+}
 ```
