@@ -200,13 +200,13 @@ Storage deaccession is allowed only when:
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
 - Implemented: automated research-analyzer chunk scan with page-level upgrade feedback.
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
+- Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
 - Partial: research wiki and staging structure.
 - Partial: proof/QC and promotion structure.
 - Partial: deeper research analyzer extraction beyond page-upgrade routing.
 - Not done: automated wiki maintainer producing final HTML.
 - Not done: external research agents feeding new R2 sources.
 - Not done: storage lifecycle ranking and deaccession workflow.
-- Not done: whole-system dashboard.
 
 ## Next Build Priorities
 

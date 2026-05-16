@@ -73,3 +73,5 @@
 ## [2026-05-16] prepare-sources | Prepared 1 raw source(s)
 ## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
 ## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-15] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-15] system-status | Wrote research/_indexes/system-status.json

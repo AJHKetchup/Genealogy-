@@ -8179,7 +8179,7 @@ def select_canonical_source_prep_tasks(tasks: list[dict[str, object]]) -> list[d
     return [task for _, task in sorted([*selected.values(), *unkeyed], key=lambda item: item[0])]
 
 
-def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
+def build_source_prep_agent_tasks(root: Path, *, write_page_review_cache: bool = True) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
     jobs_dir = root / "raw" / "codex-conversion-jobs"
     if not jobs_dir.exists():
@@ -8258,7 +8258,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
             apply_source_prep_discovery_state(root, task, discovery_entries)
             task["prompt"] = build_source_prep_agent_prompt(task)
             tasks.append(task)
-    if page_review_cache_changed:
+    if page_review_cache_changed and write_page_review_cache:
         save_source_prep_page_cache(root, page_review_cache)
     return select_canonical_source_prep_tasks(tasks)
 
@@ -8481,7 +8481,7 @@ def source_usability_status(
 
 def source_prep_task_counts_by_hash(root: Path) -> dict[str, dict[str, int]]:
     counts: dict[str, dict[str, int]] = {}
-    for task in build_source_prep_agent_tasks(root):
+    for task in build_source_prep_agent_tasks(root, write_page_review_cache=False):
         digest = str(task.get("source_sha256", ""))
         if not digest:
             continue
@@ -8649,6 +8649,344 @@ def write_source_usability_report(
     markdown_path.write_text(build_source_usability_markdown(payload), encoding="utf-8")
     append_log(paths.research / "log.md", f"source-status | Wrote {relative_to_root(output_path, paths.root)}")
     return [output_path, markdown_path]
+
+
+def write_system_status_dashboard(
+    root: Path,
+    output: Path | None = None,
+    markdown_output: Path | None = None,
+    *,
+    refresh_source_status: bool = True,
+) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    blockers: list[str] = []
+    if refresh_source_status:
+        try:
+            write_source_usability_report(paths.root)
+        except Exception as exc:
+            blockers.append(f"source-status refresh: {exc}")
+
+    payload = build_system_status_payload(paths.root, blockers)
+    output_path = output or (paths.indexes / "system-status.json")
+    markdown_path = markdown_output or (paths.research / "System Dashboard.md")
+    if not output_path.is_absolute():
+        output_path = paths.root / output_path
+    if not markdown_path.is_absolute():
+        markdown_path = paths.root / markdown_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_system_status_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[System Dashboard]]")
+    append_log(paths.research / "log.md", f"system-status | Wrote {relative_to_root(output_path, paths.root)}")
+    return [output_path, markdown_path]
+
+
+def build_system_status_payload(root: Path, blockers: list[str] | None = None) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    prep_manifest = read_json_payload(paths.raw / "source-prep-manifest.json", {"sources": []})
+    raw_cloud = read_json_payload(paths.raw / "r2-raw-sources.json", {"files": []})
+    derived_assets = read_json_payload(paths.raw / "r2-derived-assets.json", {"files": []})
+    source_usability = read_json_payload(paths.indexes / "source-usability.json", {})
+    research_analyzer = read_json_payload(paths.indexes / "research-analyzer.json", {})
+    relevance_feedback = load_source_relevance_feedback(paths.root)
+
+    queue_dir = paths.research / "_agent-queues"
+    queues = {
+        "source_prep_batches": system_queue_summary(paths.root, queue_dir / "source-prep-batches.json"),
+        "source_prep": system_queue_summary(paths.root, queue_dir / "source-prep.json"),
+        "conversion_qa": system_queue_summary(paths.root, queue_dir / "conversion-qa.json"),
+        "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
+    }
+    return {
+        "created": utc_timestamp(),
+        "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
+        "source_conversion": build_system_source_conversion_summary(prep_manifest, raw_cloud, source_usability),
+        "research_readiness": build_system_research_readiness_summary(paths.root, source_usability, research_analyzer),
+        "page_upgrades": build_system_page_upgrade_summary(relevance_feedback, research_analyzer),
+        "queues": queues,
+        "storage": build_system_storage_summary(raw_cloud, derived_assets),
+        "final_site": build_system_final_site_summary(paths.root),
+        "storage_lifecycle": build_system_lifecycle_summary(paths.root),
+        "recent_automation": build_system_recent_automation_summary(paths.root),
+        "blockers": blockers or [],
+    }
+
+
+def build_system_source_conversion_summary(
+    prep_manifest: dict[str, object],
+    raw_cloud: dict[str, object],
+    source_usability: dict[str, object],
+) -> dict[str, object]:
+    sources = prep_manifest.get("sources", [])
+    if not isinstance(sources, list):
+        sources = []
+    cloud_files = raw_cloud.get("files", [])
+    if not isinstance(cloud_files, list):
+        cloud_files = []
+    usability_summary = source_usability.get("summary", {}) if isinstance(source_usability, dict) else {}
+    status_counts = usability_summary.get("status_counts", {}) if isinstance(usability_summary, dict) else {}
+    if not isinstance(status_counts, dict):
+        status_counts = {}
+    return {
+        "source_count": len(sources),
+        "local_source_count": len([source for source in sources if isinstance(source, dict) and source.get("local_cache") != "missing"]),
+        "cloud_registered_count": len([source for source in sources if isinstance(source, dict) and source.get("local_cache") == "missing"]),
+        "r2_raw_file_count": len(cloud_files),
+        "r2_raw_total_bytes": sum(safe_int(item.get("bytes"), 0) for item in cloud_files if isinstance(item, dict)),
+        "converted_file_count": sum(
+            len(source.get("converted_sources", []))
+            for source in sources
+            if isinstance(source, dict) and isinstance(source.get("converted_sources", []), list)
+        ),
+        "conversion_job_count": sum(
+            len(source.get("conversion_jobs", []))
+            for source in sources
+            if isinstance(source, dict) and isinstance(source.get("conversion_jobs", []), list)
+        ),
+        "usability_status_counts": status_counts,
+    }
+
+
+def build_system_research_readiness_summary(
+    root: Path,
+    source_usability: dict[str, object],
+    research_analyzer: dict[str, object],
+) -> dict[str, object]:
+    sources = source_usability.get("sources", []) if isinstance(source_usability, dict) else []
+    if not isinstance(sources, list):
+        sources = []
+    qa_pages = read_json_payload(root / "research" / "_conversion-review" / "qc-pages.json", {"pages": []}).get("pages", [])
+    if not isinstance(qa_pages, list):
+        qa_pages = []
+    return {
+        "usable_source_count": len(
+            [
+                source
+                for source in sources
+                if isinstance(source, dict) and str(source.get("status", "")).startswith("usable")
+            ]
+        ),
+        "sources_needing_conversion_or_repair": len(
+            [
+                source
+                for source in sources
+                if isinstance(source, dict)
+                and str(source.get("status", ""))
+                in {"conversion_not_started", "conversion_in_progress", "needs_chunking", "usable_with_page_repairs"}
+            ]
+        ),
+        "qc_page_count": len(qa_pages),
+        "analyzer_pages_scanned": safe_int(research_analyzer.get("pages_scanned"), 0),
+        "analyzer_upgrade_candidates": safe_int(research_analyzer.get("upgrade_candidates"), 0),
+        "staging_counts": {
+            "source_packets": count_markdown_files(root / "research" / "_staging" / "source-packets"),
+            "claims": count_markdown_files(root / "research" / "_staging" / "claims"),
+            "relationships": count_markdown_files(root / "research" / "_staging" / "relationships"),
+            "identity": count_markdown_files(root / "research" / "_staging" / "identity"),
+        },
+    }
+
+
+def build_system_page_upgrade_summary(
+    relevance_feedback: dict[str, object],
+    research_analyzer: dict[str, object],
+) -> dict[str, object]:
+    hints = relevance_feedback.get("hints", []) if isinstance(relevance_feedback, dict) else []
+    if not isinstance(hints, list):
+        hints = []
+    active_hints = [
+        hint
+        for hint in hints
+        if isinstance(hint, dict)
+        and str(hint.get("status", "active")).strip().lower() in SOURCE_RELEVANCE_ACTIVE_STATUSES
+    ]
+    return {
+        "active_request_count": len(active_hints),
+        "critical_or_high_count": len(
+            [
+                hint
+                for hint in active_hints
+                if str(hint.get("relevance", "")).strip().lower() in {"critical", "high"}
+            ]
+        ),
+        "pro_or_reread_count": len(
+            [
+                hint
+                for hint in active_hints
+                if str(hint.get("requested_treatment", "")).strip().lower() in {"pro", "pro_with_crops", "reread"}
+            ]
+        ),
+        "analyzer_upgrade_candidates": safe_int(research_analyzer.get("upgrade_candidates"), 0),
+        "analyzer_upgrade_requests_written": safe_int(research_analyzer.get("upgrade_requests_written"), 0),
+    }
+
+
+def build_system_storage_summary(raw_cloud: dict[str, object], derived_assets: dict[str, object]) -> dict[str, object]:
+    raw_files = raw_cloud.get("files", []) if isinstance(raw_cloud, dict) else []
+    asset_files = derived_assets.get("files", []) if isinstance(derived_assets, dict) else []
+    if not isinstance(raw_files, list):
+        raw_files = []
+    if not isinstance(asset_files, list):
+        asset_files = []
+    return {
+        "r2_raw_file_count": len(raw_files),
+        "r2_raw_total_bytes": sum(safe_int(item.get("bytes"), 0) for item in raw_files if isinstance(item, dict)),
+        "r2_derived_asset_count": len(asset_files),
+        "r2_derived_asset_bytes": sum(safe_int(item.get("bytes"), 0) for item in asset_files if isinstance(item, dict)),
+        "contract": "R2 stores raw originals and durable binary assets; GitHub stores JSON, Markdown, manifests, queues, chunks, staging/proof data, and final HTML/build files.",
+    }
+
+
+def build_system_final_site_summary(root: Path) -> dict[str, object]:
+    candidates = [root / "site", root / "dist", root / "public"]
+    existing = [relative_to_root(path, root) for path in candidates if path.exists()]
+    return {
+        "status": "structure_present" if existing else "not_started",
+        "candidate_roots": existing,
+        "html_file_count": sum(count_files_with_suffix(path, ".html") for path in candidates if path.exists()),
+    }
+
+
+def build_system_lifecycle_summary(root: Path) -> dict[str, object]:
+    lifecycle_path = root / "research" / "_indexes" / "storage-lifecycle.json"
+    payload = read_json_payload(lifecycle_path, {})
+    pages = payload.get("pages", []) if isinstance(payload, dict) else []
+    if not isinstance(pages, list):
+        pages = []
+    return {
+        "status": "active" if lifecycle_path.exists() else "not_started",
+        "index": relative_to_root(lifecycle_path, root),
+        "page_rank_count": len(pages),
+        "deaccession_candidate_count": len(
+            [
+                page
+                for page in pages
+                if isinstance(page, dict) and str(page.get("retention_status", "")).strip() == "deaccession_candidate"
+            ]
+        ),
+    }
+
+
+def build_system_recent_automation_summary(root: Path) -> dict[str, object]:
+    automation_dir = root / "research" / "_automation"
+    states: dict[str, object] = {}
+    for path in sorted(automation_dir.glob("*.json")) if automation_dir.exists() else []:
+        payload = read_json_payload(path, {})
+        states[path.stem] = {
+            "path": relative_to_root(path, root),
+            "created": payload.get("created", ""),
+            "mode": payload.get("mode", ""),
+            "blockers": payload.get("blockers", []),
+        }
+    return states
+
+
+def system_queue_summary(root: Path, path: Path) -> dict[str, object]:
+    summary = queue_summary(path)
+    summary["path"] = relative_to_root(path, root)
+    return summary
+
+
+def count_files_with_suffix(path: Path, suffix: str) -> int:
+    if not path.exists():
+        return 0
+    return sum(1 for item in path.rglob(f"*{suffix}") if item.is_file())
+
+
+def build_system_status_markdown(payload: dict[str, object]) -> str:
+    source_conversion = payload.get("source_conversion", {})
+    research_readiness = payload.get("research_readiness", {})
+    page_upgrades = payload.get("page_upgrades", {})
+    storage = payload.get("storage", {})
+    final_site = payload.get("final_site", {})
+    lifecycle = payload.get("storage_lifecycle", {})
+    blockers = payload.get("blockers", [])
+    blocker_lines = [f"- {blocker}" for blocker in blockers] if isinstance(blockers, list) and blockers else ["- None"]
+    queues = payload.get("queues", {})
+    queue_rows = [
+        "| Queue | Tasks | Status Counts |",
+        "| --- | ---: | --- |",
+    ]
+    if isinstance(queues, dict):
+        for name, queue in sorted(queues.items()):
+            if not isinstance(queue, dict):
+                continue
+            queue_rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(name),
+                        markdown_table_cell(queue.get("task_count", 0)),
+                        markdown_table_cell(format_status_counts(queue.get("status_counts", {}))),
+                    ]
+                )
+                + " |"
+            )
+    return f"""# System Dashboard
+
+Generated: {payload.get("created", "")}
+
+## Source Conversion
+
+- Sources: {dict_value(source_conversion, "source_count")}
+- Local source cache entries: {dict_value(source_conversion, "local_source_count")}
+- Cloud-registered sources awaiting local cache: {dict_value(source_conversion, "cloud_registered_count")}
+- Conversion jobs: {dict_value(source_conversion, "conversion_job_count")}
+- Converted Markdown files: {dict_value(source_conversion, "converted_file_count")}
+- Usability: {format_status_counts(dict_value(source_conversion, "usability_status_counts", {}))}
+
+## Research Readiness
+
+- Usable sources: {dict_value(research_readiness, "usable_source_count")}
+- Sources needing conversion or page repair: {dict_value(research_readiness, "sources_needing_conversion_or_repair")}
+- QC pages: {dict_value(research_readiness, "qc_page_count")}
+- Analyzer pages scanned: {dict_value(research_readiness, "analyzer_pages_scanned")}
+- Analyzer upgrade candidates: {dict_value(research_readiness, "analyzer_upgrade_candidates")}
+- Staging drafts: {format_status_counts(dict_value(research_readiness, "staging_counts", {}))}
+
+## Page Upgrades
+
+- Active page upgrade requests: {dict_value(page_upgrades, "active_request_count")}
+- Critical or high relevance requests: {dict_value(page_upgrades, "critical_or_high_count")}
+- Pro/reread requests: {dict_value(page_upgrades, "pro_or_reread_count")}
+- Analyzer requests written last run: {dict_value(page_upgrades, "analyzer_upgrade_requests_written")}
+
+## Queues
+
+{chr(10).join(queue_rows)}
+
+## Storage
+
+- R2 raw files: {dict_value(storage, "r2_raw_file_count")}
+- R2 raw bytes: {dict_value(storage, "r2_raw_total_bytes")}
+- R2 durable derived assets: {dict_value(storage, "r2_derived_asset_count")}
+- R2 durable derived asset bytes: {dict_value(storage, "r2_derived_asset_bytes")}
+- Storage lifecycle status: {dict_value(lifecycle, "status")}
+- Storage lifecycle ranked pages: {dict_value(lifecycle, "page_rank_count")}
+- Deaccession candidates: {dict_value(lifecycle, "deaccession_candidate_count")}
+
+## Final Site
+
+- Status: {dict_value(final_site, "status")}
+- HTML files: {dict_value(final_site, "html_file_count")}
+
+## Blockers
+
+{chr(10).join(blocker_lines)}
+"""
+
+
+def dict_value(payload: object, key: str, default: object = 0) -> object:
+    if not isinstance(payload, dict):
+        return default
+    return payload.get(key, default)
+
+
+def format_status_counts(value: object) -> str:
+    if not isinstance(value, dict) or not value:
+        return "none"
+    return ", ".join(f"{key}: {value[key]}" for key in sorted(value))
 
 
 def read_json_payload(path: Path, default: dict[str, object] | None = None) -> dict[str, object]:
@@ -10552,6 +10890,28 @@ def build_parser() -> argparse.ArgumentParser:
         help="Output Markdown path. Default: research/source-usability.md.",
     )
 
+    system_status_parser = subparsers.add_parser(
+        "system-status",
+        aliases=["system-dashboard"],
+        help="Write a whole-system source, research, queue, storage, and site dashboard.",
+    )
+    system_status_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    system_status_parser.add_argument(
+        "--out",
+        type=Path,
+        help="Output JSON path. Default: research/_indexes/system-status.json.",
+    )
+    system_status_parser.add_argument(
+        "--markdown",
+        type=Path,
+        help="Output Markdown path. Default: research/System Dashboard.md.",
+    )
+    system_status_parser.add_argument(
+        "--no-refresh-source-status",
+        action="store_true",
+        help="Read existing source usability reports instead of refreshing them first.",
+    )
+
     agent_task_parser = subparsers.add_parser(
         "agent-task",
         help="Claim, start, complete, fail, or release an agent queue task.",
@@ -11038,6 +11398,17 @@ def main(argv: list[str] | None = None) -> int:
         written = write_source_usability_report(args.root, args.out, args.markdown)
         for path in written:
             print(f"Wrote source usability report {path}")
+        return 0
+
+    if args.command in {"system-status", "system-dashboard"}:
+        written = write_system_status_dashboard(
+            args.root,
+            output=args.out,
+            markdown_output=args.markdown,
+            refresh_source_status=not args.no_refresh_source_status,
+        )
+        for path in written:
+            print(f"Wrote system status dashboard {path}")
         return 0
 
     if args.command == "agent-task":

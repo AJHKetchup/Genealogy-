@@ -29,6 +29,7 @@ from historic_doc_ingest.genealogy_wiki import (
     write_relationship_index,
     write_source_prep_index,
     write_source_usability_report,
+    write_system_status_dashboard,
     write_agent_queues,
     write_source_prep_batches,
     write_post_conversion_qc,
@@ -1510,6 +1511,48 @@ def test_completed_qc_reread_hold_is_unblocked_when_page_passes_contract(tmp_pat
     assert usability["summary"]["status_counts"]["usable_for_extraction"] == 1
     assert usability["sources"][0]["qc_hold_count"] == 0
     assert usability["sources"][0]["page_repair_count"] == 0
+
+
+def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    from PIL import Image
+
+    source = tmp_path / "raw" / "sources" / "scan.jpg"
+    Image.new("RGB", (20, 10), "white").save(source)
+    prepare_raw_sources(tmp_path)
+    write_agent_queues(tmp_path)
+    write_source_prep_batches(tmp_path)
+    (tmp_path / "raw" / "r2-derived-assets.json").write_text(
+        json.dumps(
+            {
+                "files": [
+                    {
+                        "path": "raw/codex-conversion-jobs/job/extracted-images/page-0001/signature.png",
+                        "bytes": 12,
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    written = write_system_status_dashboard(tmp_path)
+
+    assert {path.name for path in written} == {"system-status.json", "System Dashboard.md"}
+    payload = json.loads((tmp_path / "research" / "_indexes" / "system-status.json").read_text(encoding="utf-8"))
+    assert payload["source_conversion"]["source_count"] == 1
+    assert payload["source_conversion"]["conversion_job_count"] == 1
+    assert payload["source_conversion"]["usability_status_counts"]["conversion_in_progress"] == 1
+    assert payload["queues"]["source_prep"]["task_count"] == 1
+    assert payload["queues"]["source_prep"]["path"] == "research/_agent-queues/source-prep.json"
+    assert payload["storage"]["r2_derived_asset_count"] == 1
+    assert payload["storage_lifecycle"]["status"] == "not_started"
+    dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
+    assert "## Source Conversion" in dashboard_text
+    assert "## Storage" in dashboard_text
+    assert "## Final Site" in dashboard_text
+    research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
+    assert "[[System Dashboard]]" in research_index
 
 
 def test_write_post_conversion_qc_flags_bad_and_suspicious_pages(tmp_path) -> None:

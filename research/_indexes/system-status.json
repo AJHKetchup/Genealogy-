@@ -1,0 +1,104 @@
+{
+  "created": "2026-05-16T04:55:04Z",
+  "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
+  "source_conversion": {
+    "source_count": 49,
+    "local_source_count": 0,
+    "cloud_registered_count": 49,
+    "r2_raw_file_count": 49,
+    "r2_raw_total_bytes": 8230789331,
+    "converted_file_count": 4,
+    "conversion_job_count": 4,
+    "usability_status_counts": {
+      "usable_for_extraction": 1,
+      "conversion_not_started": 48
+    }
+  },
+  "research_readiness": {
+    "usable_source_count": 1,
+    "sources_needing_conversion_or_repair": 48,
+    "qc_page_count": 0,
+    "analyzer_pages_scanned": 4,
+    "analyzer_upgrade_candidates": 0,
+    "staging_counts": {
+      "source_packets": 0,
+      "claims": 0,
+      "relationships": 0,
+      "identity": 0
+    }
+  },
+  "page_upgrades": {
+    "active_request_count": 0,
+    "critical_or_high_count": 0,
+    "pro_or_reread_count": 0,
+    "analyzer_upgrade_candidates": 0,
+    "analyzer_upgrade_requests_written": 0
+  },
+  "queues": {
+    "source_prep_batches": {
+      "path": "research/_agent-queues/source-prep-batches.json",
+      "task_count": 0,
+      "status_counts": {}
+    },
+    "source_prep": {
+      "path": "research/_agent-queues/source-prep.json",
+      "task_count": 0,
+      "status_counts": {}
+    },
+    "conversion_qa": {
+      "path": "research/_agent-queues/conversion-qa.json",
+      "task_count": 0,
+      "status_counts": {}
+    },
+    "evidence_extraction": {
+      "path": "research/_agent-queues/evidence-extraction.json",
+      "task_count": 0,
+      "status_counts": {}
+    }
+  },
+  "storage": {
+    "r2_raw_file_count": 49,
+    "r2_raw_total_bytes": 8230789331,
+    "r2_derived_asset_count": 0,
+    "r2_derived_asset_bytes": 0,
+    "contract": "R2 stores raw originals and durable binary assets; GitHub stores JSON, Markdown, manifests, queues, chunks, staging/proof data, and final HTML/build files."
+  },
+  "final_site": {
+    "status": "not_started",
+    "candidate_roots": [],
+    "html_file_count": 0
+  },
+  "storage_lifecycle": {
+    "status": "not_started",
+    "index": "research/_indexes/storage-lifecycle.json",
+    "page_rank_count": 0,
+    "deaccession_candidate_count": 0
+  },
+  "recent_automation": {
+    "cloud-source-prep-heartbeat-state": {
+      "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
+      "created": "2026-05-16T03:29:36Z",
+      "mode": "cloud-first-source-prep-heartbeat",
+      "blockers": []
+    },
+    "gemini-source-prep-state": {
+      "path": "research/_automation/gemini-source-prep-state.json",
+      "created": "2026-05-16T03:29:02Z",
+      "mode": "gemini-source-prep",
+      "blockers": []
+    },
+    "research-analyzer-state": {
+      "path": "research/_automation/research-analyzer-state.json",
+      "created": "2026-05-15",
+      "mode": "research-analyzer",
+      "blockers": []
+    },
+    "source-prep-docling-state": {
+      "path": "research/_automation/source-prep-docling-state.json",
+      "created": "2026-05-16T03:29:01Z",
+      "mode": "source-prep-docling-discovery",
+      "blockers": []
+    }
+  },
+  "blockers": []
+}
