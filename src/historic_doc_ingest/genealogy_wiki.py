@@ -5532,14 +5532,23 @@ def source_prep_discovery_batch_skip_reason(
     page = first_source_prep_batch_page(batch)
     if str(batch.get("status", "")).strip() != "todo":
         return ""
-    if source_prep_record_has_relevance_request(batch, page):
-        return ""
     task_id = source_prep_gemini_task_id(batch)
     source_sha256 = str(batch.get("source_sha256", "") or page.get("source_sha256", "")).strip()
     entry = entries.get(source_prep_discovery_key(task_id, source_sha256)) if isinstance(entries, dict) else None
-    if isinstance(entry, dict) and source_prep_discovery_is_usable(root, entry):
+    if not isinstance(entry, dict):
+        return "docling_discovery_missing"
+    discovery_status = str(entry.get("status", "")).strip()
+    if discovery_status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+        if not source_prep_discovery_is_usable(root, entry):
+            return "rough_docling_discovery_incomplete"
+        if source_prep_record_has_relevance_request(batch, page):
+            return ""
         return "rough_docling_discovery_available"
-    return ""
+    if discovery_status in {SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS, "error"}:
+        return ""
+    if source_prep_record_has_relevance_request(batch, page):
+        return ""
+    return f"docling_discovery_{discovery_status or 'not_terminal'}"
 
 
 def profile_source_prep_discovery_markdown(markdown: str) -> dict[str, object]:
