@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T05:08:23Z",
+  "created": "2026-05-16T05:29:02Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -71,10 +71,16 @@
     "html_file_count": 1
   },
   "storage_lifecycle": {
-    "status": "not_started",
+    "status": "active",
     "index": "research/_indexes/storage-lifecycle.json",
-    "page_rank_count": 0,
-    "deaccession_candidate_count": 0
+    "page_rank_count": 5,
+    "retention_status_counts": {
+      "cold_retain": 5
+    },
+    "preserve_raw_count": 0,
+    "cold_retain_count": 5,
+    "deaccession_candidate_count": 0,
+    "deaccession_record_count": 0
   },
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {

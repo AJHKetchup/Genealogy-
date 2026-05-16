@@ -30,6 +30,7 @@ from historic_doc_ingest.genealogy_wiki import (
     write_relationship_index,
     write_source_prep_index,
     write_source_usability_report,
+    write_storage_lifecycle_report,
     write_system_status_dashboard,
     write_agent_queues,
     write_source_prep_batches,
@@ -1554,6 +1555,173 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "## Final Site" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert "[[System Dashboard]]" in research_index
+
+
+def test_storage_lifecycle_report_writes_page_level_deaccession_candidate(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    from PIL import Image
+
+    source = tmp_path / "raw" / "sources" / "neutral-page.png"
+    Image.new("RGB", (20, 10), "white").save(source)
+    digest = genealogy_wiki.file_sha256(source)
+    manifest_path = tmp_path / "raw" / "codex-conversion-jobs" / "neutral-page" / "manifest.json"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "job_id": "neutral-page",
+                "source_file": source.relative_to(tmp_path).as_posix(),
+                "source_sha256": digest,
+                "media_type": "image",
+                "pages": [{"page": 1}],
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    converted = tmp_path / "raw" / "converted" / "neutral-page.codex.md"
+    neutral_text = "Office supply inventory lists paper, ink, envelopes, shelves, and repair notes. " * 20
+    converted.write_text(
+        f"""# Neutral Page
+
+## Conversion Metadata
+
+- Source: `{source.relative_to(tmp_path).as_posix()}`
+- Source SHA-256: `{digest}`
+- Manifest: `{manifest_path.relative_to(tmp_path).as_posix()}`
+
+{complete_gemini_page_markdown(neutral_text)}
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "raw" / "source-prep-manifest.json").write_text(
+        json.dumps(
+            {
+                "sources": [
+                    {
+                        "id": "SRC-neutral",
+                        "title": "Neutral Page",
+                        "raw_path": source.relative_to(tmp_path).as_posix(),
+                        "media_type": "image",
+                        "bytes": source.stat().st_size,
+                        "sha256": digest,
+                        "status": "converted",
+                        "conversion_jobs": [{"manifest": manifest_path.relative_to(tmp_path).as_posix()}],
+                        "converted_sources": [
+                            {
+                                "path": converted.relative_to(tmp_path).as_posix(),
+                                "source": source.relative_to(tmp_path).as_posix(),
+                                "source_manifest": manifest_path.relative_to(tmp_path).as_posix(),
+                                "sha256": genealogy_wiki.file_sha256(converted),
+                            }
+                        ],
+                    }
+                ]
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    written = write_storage_lifecycle_report(tmp_path)
+
+    assert {path.name for path in written} >= {"storage-lifecycle.json", "storage-lifecycle.md"}
+    payload = json.loads((tmp_path / "research" / "_indexes" / "storage-lifecycle.json").read_text(encoding="utf-8"))
+    page = payload["pages"][0]
+    assert payload["summary"]["page_count"] == 1
+    assert payload["summary"]["deaccession_candidate_count"] == 1
+    assert page["retention_status"] == "deaccession_candidate"
+    assert page["deaccession_allowed"] is True
+    assert page["page_storage_unit"] == "page_level_raw_object"
+    record_path = tmp_path / payload["deaccession_records"][0]
+    assert record_path.exists()
+    assert "No R2 object was deleted" in record_path.read_text(encoding="utf-8")
+
+    write_system_status_dashboard(tmp_path, refresh_source_status=False)
+    status = json.loads((tmp_path / "research" / "_indexes" / "system-status.json").read_text(encoding="utf-8"))
+    assert status["storage_lifecycle"]["status"] == "active"
+    assert status["storage_lifecycle"]["deaccession_record_count"] == 1
+
+
+def test_storage_lifecycle_recovers_original_pages_from_metadata(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    source.write_bytes(b"%PDF-1.4 placeholder")
+    digest = genealogy_wiki.file_sha256(source)
+    manifest_path = tmp_path / "raw" / "codex-conversion-jobs" / "archive-pages-4-5" / "manifest.json"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "job_id": "archive-pages-4-5",
+                "source_file": source.relative_to(tmp_path).as_posix(),
+                "source_sha256": digest,
+                "media_type": "pdf",
+                "pages": [{"page": 4, "source_page": 4}, {"page": 5, "source_page": 5}],
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    converted = tmp_path / "raw" / "converted" / "archive-pages-4-5.codex.md"
+    neutral_page_text = "Office inventory, meeting logistics, supply notes, shelf counts, and envelope labels. " * 12
+    converted.write_text(
+        f"""# Archive Pages 4-5
+
+## Conversion Metadata
+
+- Source: `{source.relative_to(tmp_path).as_posix()}`
+- Source SHA-256: `{digest}`
+- Manifest: `{manifest_path.relative_to(tmp_path).as_posix()}`
+
+## Page Metadata
+
+- Task id: `source-prep:archive-pages-4-5:p0004`
+- **Page number**: 4
+
+## Literal Transcription
+
+{neutral_page_text}
+
+## Page Metadata
+
+- Task id: `source-prep:archive-pages-4-5:p0005`
+
+## Literal Transcription
+
+{neutral_page_text}
+""",
+        encoding="utf-8",
+    )
+    (tmp_path / "raw" / "source-prep-manifest.json").write_text(
+        json.dumps(
+            {
+                "sources": [
+                    {
+                        "id": "SRC-archive",
+                        "title": "Archive",
+                        "raw_path": source.relative_to(tmp_path).as_posix(),
+                        "media_type": "pdf",
+                        "sha256": digest,
+                        "status": "converted",
+                        "conversion_jobs": [{"manifest": manifest_path.relative_to(tmp_path).as_posix()}],
+                        "converted_sources": [{"path": converted.relative_to(tmp_path).as_posix()}],
+                    }
+                ]
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    write_storage_lifecycle_report(tmp_path)
+
+    payload = json.loads((tmp_path / "research" / "_indexes" / "storage-lifecycle.json").read_text(encoding="utf-8"))
+    assert [page["page"] for page in payload["pages"]] == [4, 5]
+    assert {page["page_storage_unit"] for page in payload["pages"]} == {"whole_source_object"}
+    assert all("raw_source_is_not_page_level" in page["deaccession_blockers"] for page in payload["pages"])
 
 
 def test_write_post_conversion_qc_flags_bad_and_suspicious_pages(tmp_path) -> None:

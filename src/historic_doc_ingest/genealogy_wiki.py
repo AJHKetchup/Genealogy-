@@ -5195,6 +5195,38 @@ RESEARCH_ANALYZER_VISUAL_CROP_KINDS = {
     "seal",
     "signature",
 }
+STORAGE_LIFECYCLE_VERSION = 1
+STORAGE_LIFECYCLE_MIN_USABLE_CHARS = 200
+STORAGE_LIFECYCLE_HIGH_CONFIDENCE_CHARS = 600
+STORAGE_LIFECYCLE_DEACCESSION_STATUSES = {
+    "deaccession_candidate",
+}
+STORAGE_LIFECYCLE_PRESERVE_STATUSES = {
+    "preserve_raw",
+}
+STORAGE_LIFECYCLE_GENEALOGY_CUES = (
+    RESEARCH_ANALYZER_RELATIONSHIP_CUES
+    | RESEARCH_ANALYZER_LIFE_EVENT_CUES
+    | {
+        "ancestor",
+        "baptismal",
+        "cemetery",
+        "christened",
+        "civil register",
+        "certificate",
+        "family",
+        "genealogy",
+        "given name",
+        "godfather",
+        "godmother",
+        "index",
+        "maiden",
+        "surname",
+        "transcript",
+        "witness",
+    }
+)
+STORAGE_LIFECYCLE_PAGE_LEVEL_MEDIA_TYPES = {"image"}
 
 
 def source_relevance_feedback_path(root: Path) -> Path:
@@ -5823,6 +5855,847 @@ def research_analyzer_visual_kinds(page_text: str) -> list[str]:
 
 def research_analyzer_uncertainty_count(page_text: str) -> int:
     return page_text.count("[?]") + page_text.lower().count("[illegible]")
+
+
+def storage_lifecycle_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "storage-lifecycle.json"
+
+
+def write_storage_lifecycle_report(
+    root: Path,
+    output: Path | None = None,
+    markdown_output: Path | None = None,
+    record_dir: Path | None = None,
+) -> list[Path]:
+    """Write non-destructive page-level R2 retention rankings and candidate records."""
+    paths = WikiPaths(root.resolve())
+    page_records = build_storage_lifecycle_pages(paths.root)
+    page_records.sort(key=storage_lifecycle_sort_key)
+
+    candidate_records = []
+    candidate_dir = record_dir or (paths.research / "_staging" / "deaccession")
+    if not candidate_dir.is_absolute():
+        candidate_dir = paths.root / candidate_dir
+    for record in page_records:
+        if str(record.get("retention_status", "")) in STORAGE_LIFECYCLE_DEACCESSION_STATUSES:
+            candidate_path = write_storage_deaccession_record(paths.root, record, candidate_dir)
+            record["deaccession_record"] = relative_to_root(candidate_path, paths.root)
+            candidate_records.append(candidate_path)
+
+    output_path = output or storage_lifecycle_index_path(paths.root)
+    markdown_path = markdown_output or (paths.research / "storage-lifecycle.md")
+    if not output_path.is_absolute():
+        output_path = paths.root / output_path
+    if not markdown_path.is_absolute():
+        markdown_path = paths.root / markdown_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+
+    payload = {
+        "version": STORAGE_LIFECYCLE_VERSION,
+        "created": utc_timestamp(),
+        "purpose": (
+            "Non-destructive page-level storage lifecycle ranking for R2 raw material. "
+            "GitHub keeps these JSON/Markdown records; raw originals and durable binary assets remain in R2."
+        ),
+        "inputs": {
+            "chunks": "raw/chunks/*/manifest.json",
+            "source_prep_manifest": "raw/source-prep-manifest.json",
+            "source_relevance_feedback": "research/_agent-queues/source-relevance-feedback.json",
+            "conversion_qc_pages": "research/_conversion-review/qc-pages.json",
+            "research_analyzer": "research/_indexes/research-analyzer.json",
+        },
+        "summary": build_storage_lifecycle_summary(page_records, candidate_records),
+        "pages": page_records,
+        "deaccession_records": [relative_to_root(path, paths.root) for path in candidate_records],
+        "storage_contract": (
+            "R2 holds raw originals and durable binary assets. GitHub holds this lifecycle index, "
+            "candidate records, converted Markdown, chunks, manifests, queues, and final HTML/build files."
+        ),
+    }
+    output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_storage_lifecycle_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[storage-lifecycle]]")
+    append_log(paths.research / "log.md", f"storage-lifecycle | Wrote {relative_to_root(output_path, paths.root)}")
+    return [output_path, markdown_path, *candidate_records]
+
+
+def build_storage_lifecycle_pages(root: Path) -> list[dict[str, object]]:
+    paths = WikiPaths(root.resolve())
+    source_lookup = storage_lifecycle_source_lookup(paths.root)
+    family_terms = build_family_context_terms(paths.root)
+    relevance_hints = active_source_relevance_hints(paths.root)
+    qc_blocked = load_qc_blocked_pages(paths.root)
+    analyzer_pages = storage_lifecycle_research_analyzer_pages(paths.root)
+    reference_index = storage_lifecycle_reference_index(paths.root)
+
+    groups: dict[str, dict[str, object]] = {}
+    for manifest_path in sorted((paths.raw / "chunks").glob("*/manifest.json")):
+        manifest = read_json_payload(manifest_path, {})
+        chunks = manifest.get("chunks", [])
+        if not isinstance(chunks, list):
+            continue
+        source = str(manifest.get("source", "")).strip()
+        source_sha256 = str(manifest.get("source_sha256", "")).strip()
+        converted_file = str(manifest.get("converted_file", "")).strip()
+        source_manifest = str(manifest.get("source_manifest", "")).strip()
+        for chunk in chunks:
+            if not isinstance(chunk, dict):
+                continue
+            chunk_path = str(chunk.get("path", "")).strip()
+            text = storage_lifecycle_read_chunk_text(paths.root, chunk_path) if chunk_path else ""
+            page_numbers = storage_lifecycle_pages_for_chunk(paths.root, manifest, chunk, text)
+            for page_number in page_numbers:
+                key = storage_lifecycle_page_key(source_sha256, source, page_number)
+                group = groups.setdefault(
+                    key,
+                    {
+                        "source": source,
+                        "source_sha256": source_sha256,
+                        "page": page_number,
+                        "source_manifests": set(),
+                        "converted_files": set(),
+                        "chunk_manifests": set(),
+                        "chunks": set(),
+                        "chunk_chars": 0,
+                        "texts": [],
+                    },
+                )
+                if source_manifest:
+                    cast_set(group, "source_manifests").add(source_manifest)
+                if converted_file:
+                    cast_set(group, "converted_files").add(converted_file)
+                cast_set(group, "chunk_manifests").add(relative_to_root(manifest_path, paths.root))
+                if chunk_path:
+                    cast_set(group, "chunks").add(chunk_path)
+                    if text:
+                        group["texts"].append(text)
+                        group["chunk_chars"] = safe_int(group.get("chunk_chars"), 0) + len(text)
+
+    records = []
+    for group in groups.values():
+        records.append(
+            build_storage_lifecycle_page_record(
+                root=paths.root,
+                group=group,
+                source_lookup=source_lookup,
+                family_terms=family_terms,
+                relevance_hints=relevance_hints,
+                qc_blocked=qc_blocked,
+                analyzer_pages=analyzer_pages,
+                reference_index=reference_index,
+            )
+        )
+    return records
+
+
+def cast_set(group: dict[str, object], key: str) -> set[str]:
+    value = group.setdefault(key, set())
+    return value if isinstance(value, set) else set()
+
+
+def storage_lifecycle_page_key(source_sha256: str, source: str, page: int) -> str:
+    identity = source_sha256 or source
+    return f"{identity}|{page}"
+
+
+def storage_lifecycle_read_chunk_text(root: Path, chunk_path: str) -> str:
+    path = Path(chunk_path)
+    if not path.is_absolute():
+        path = root / path
+    try:
+        return path.read_text(encoding="utf-8")
+    except OSError:
+        return ""
+
+
+def storage_lifecycle_pages_for_chunk(
+    root: Path,
+    manifest: dict[str, object],
+    chunk: dict[str, object],
+    text: str,
+) -> list[int]:
+    text_pages = storage_lifecycle_original_pages_from_text(text)
+    if text_pages:
+        return text_pages
+
+    page_start = safe_int(chunk.get("page_start"), 0)
+    page_end = safe_int(chunk.get("page_end"), page_start)
+    if page_start <= 0:
+        page_start = research_analyzer_page_from_chunk_path(str(chunk.get("path", "")))
+        page_end = page_start
+    if page_start <= 0:
+        return []
+    if page_end < page_start:
+        page_end = page_start
+
+    manifest_pages = storage_lifecycle_source_manifest_pages(root, str(manifest.get("source_manifest", "")))
+    if manifest_pages:
+        if page_start == 1 and page_end == 1:
+            return manifest_pages
+        mapped = []
+        for page in range(page_start, page_end + 1):
+            index = page - 1
+            if 0 <= index < len(manifest_pages):
+                mapped.append(manifest_pages[index])
+        if mapped:
+            return sorted(set(mapped))
+
+    return list(range(page_start, page_end + 1))
+
+
+def storage_lifecycle_original_pages_from_text(text: str) -> list[int]:
+    pages = {
+        safe_int(value, 0)
+        for value in re.findall(r"(?:\*\*)?Page number(?:\*\*)?\s*:\s*(\d+)", text, flags=re.IGNORECASE)
+    }
+    pages.update(
+        safe_int(value, 0)
+        for value in re.findall(r":p0*(\d+)\b", text, flags=re.IGNORECASE)
+    )
+    return sorted(page for page in pages if page > 0)
+
+
+def storage_lifecycle_source_manifest_pages(root: Path, source_manifest: str) -> list[int]:
+    if not source_manifest:
+        return []
+    path = Path(source_manifest)
+    if not path.is_absolute():
+        path = root / path
+    manifest = read_json_payload(path, {})
+    pages = manifest.get("pages", [])
+    if not isinstance(pages, list):
+        return []
+    source_pages = []
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        page_number = safe_int(page.get("source_page"), safe_int(page.get("page"), 0))
+        if page_number > 0:
+            source_pages.append(page_number)
+    return sorted(set(source_pages))
+
+
+def build_storage_lifecycle_page_record(
+    *,
+    root: Path,
+    group: dict[str, object],
+    source_lookup: dict[str, dict[str, object]],
+    family_terms: dict[str, str],
+    relevance_hints: list[dict[str, object]],
+    qc_blocked: dict[str, dict[int, dict[str, object]]],
+    analyzer_pages: dict[str, dict[str, object]],
+    reference_index: list[dict[str, str]],
+) -> dict[str, object]:
+    source = str(group.get("source", "")).strip()
+    source_sha256 = str(group.get("source_sha256", "")).strip()
+    page = safe_int(group.get("page"), 0)
+    converted_files = sorted(cast_set(group, "converted_files"))
+    chunks = sorted(cast_set(group, "chunks"))
+    source_manifests = sorted(cast_set(group, "source_manifests"))
+    chunk_manifests = sorted(cast_set(group, "chunk_manifests"))
+    text = "\n\n".join(str(value) for value in group.get("texts", []) if str(value).strip())
+    source_entry = storage_lifecycle_source_entry(source_lookup, source_sha256, source)
+    signals = storage_lifecycle_page_signals(
+        text=text,
+        page=page,
+        source=source,
+        source_sha256=source_sha256,
+        converted_files=converted_files,
+        chunks=chunks,
+        family_terms=family_terms,
+        relevance_hints=relevance_hints,
+        qc_blocked=qc_blocked,
+        analyzer_pages=analyzer_pages,
+        reference_index=reference_index,
+    )
+    usable_conversion, conversion_blockers = storage_lifecycle_usable_conversion(text, converted_files, chunks, signals)
+    locator_strength, locator_notes = storage_lifecycle_locator_strength(
+        root,
+        source=source,
+        source_sha256=source_sha256,
+        converted_files=converted_files,
+        source_manifests=source_manifests,
+        source_entry=source_entry,
+    )
+    page_storage_unit = storage_lifecycle_page_storage_unit(source_entry, source)
+    relevance_score = storage_lifecycle_relevance_score(signals)
+    irrelevance_confidence = storage_lifecycle_irrelevance_confidence(text, usable_conversion, signals)
+    retention_status, retention_reasons, deaccession_allowed, deaccession_blockers = storage_lifecycle_retention_decision(
+        usable_conversion=usable_conversion,
+        conversion_blockers=conversion_blockers,
+        locator_strength=locator_strength,
+        page_storage_unit=page_storage_unit,
+        relevance_score=relevance_score,
+        irrelevance_confidence=irrelevance_confidence,
+        signals=signals,
+    )
+    record_id_digest = hashlib.sha256(storage_lifecycle_page_key(source_sha256, source, page).encode("utf-8")).hexdigest()
+    reacquisition = storage_lifecycle_reacquisition_record(source_entry, source, source_sha256, source_manifests, converted_files)
+    return {
+        "id": f"SL-{record_id_digest[:12]}-P{page:04d}",
+        "source": source,
+        "source_sha256": source_sha256,
+        "page": page,
+        "retention_status": retention_status,
+        "retention_reasons": retention_reasons,
+        "relevance_score": relevance_score,
+        "irrelevance_confidence": irrelevance_confidence,
+        "usable_conversion": usable_conversion,
+        "conversion_blockers": conversion_blockers,
+        "source_locator_strength": locator_strength,
+        "source_locator_notes": locator_notes,
+        "page_storage_unit": page_storage_unit,
+        "deaccession_allowed": deaccession_allowed,
+        "deaccession_blockers": deaccession_blockers,
+        "signals": signals,
+        "converted_files": converted_files,
+        "chunk_manifests": chunk_manifests,
+        "chunks": chunks,
+        "source_manifests": source_manifests,
+        "chunk_chars": safe_int(group.get("chunk_chars"), 0),
+        "reacquisition": reacquisition,
+    }
+
+
+def storage_lifecycle_source_lookup(root: Path) -> dict[str, dict[str, object]]:
+    payload = read_json_payload(root / "raw" / "source-prep-manifest.json", {"sources": []})
+    sources = payload.get("sources", [])
+    lookup: dict[str, dict[str, object]] = {}
+    if not isinstance(sources, list):
+        return lookup
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        digest = str(source.get("sha256", "")).strip()
+        raw_path = str(source.get("raw_path", "")).strip()
+        if digest:
+            lookup[f"sha:{digest}"] = source
+        if raw_path:
+            lookup[f"path:{raw_path}"] = source
+    return lookup
+
+
+def storage_lifecycle_source_entry(
+    lookup: dict[str, dict[str, object]],
+    source_sha256: str,
+    source: str,
+) -> dict[str, object]:
+    if source_sha256 and f"sha:{source_sha256}" in lookup:
+        return lookup[f"sha:{source_sha256}"]
+    if source and f"path:{source}" in lookup:
+        return lookup[f"path:{source}"]
+    return {}
+
+
+def storage_lifecycle_page_signals(
+    *,
+    text: str,
+    page: int,
+    source: str,
+    source_sha256: str,
+    converted_files: list[str],
+    chunks: list[str],
+    family_terms: dict[str, str],
+    relevance_hints: list[dict[str, object]],
+    qc_blocked: dict[str, dict[int, dict[str, object]]],
+    analyzer_pages: dict[str, dict[str, object]],
+    reference_index: list[dict[str, str]],
+) -> dict[str, object]:
+    matched_terms = find_family_context_matches(text, family_terms)
+    suspicious_readings = find_suspicious_name_readings(text, family_terms)
+    genealogy_leads = extract_research_analyzer_genealogy_leads(text)
+    relationship_cues = research_analyzer_matched_cues(text, RESEARCH_ANALYZER_RELATIONSHIP_CUES)
+    life_event_cues = research_analyzer_matched_cues(text, RESEARCH_ANALYZER_LIFE_EVENT_CUES)
+    visual_kinds = research_analyzer_visual_kinds(text)
+    uncertainty_markers = research_analyzer_uncertainty_count(text)
+    generic_cues = research_analyzer_matched_cues(text, STORAGE_LIFECYCLE_GENEALOGY_CUES)
+    page_hints = [
+        hint
+        for hint in relevance_hints
+        if storage_lifecycle_hint_matches_page(hint, page, source, source_sha256, converted_files)
+    ]
+    qc_pages = [
+        qc_blocked.get(converted_file, {}).get(page)
+        for converted_file in converted_files
+        if qc_blocked.get(converted_file, {}).get(page)
+    ]
+    analyzer_matches = [
+        analyzer_pages[key]
+        for key in storage_lifecycle_analyzer_keys(source_sha256, source, converted_files, page)
+        if key in analyzer_pages
+    ]
+    cited_in = storage_lifecycle_cited_in(reference_index, source, converted_files, chunks, page)
+    return {
+        "family_terms": matched_terms,
+        "suspicious_readings": suspicious_readings,
+        "genealogy_leads": genealogy_leads,
+        "relationship_cues": relationship_cues,
+        "life_event_cues": life_event_cues,
+        "visual_kinds": visual_kinds,
+        "uncertainty_markers": uncertainty_markers,
+        "generic_genealogy_cues": generic_cues,
+        "relevance_hints": [
+            {
+                "id": hint.get("id", ""),
+                "relevance": hint.get("relevance", ""),
+                "requested_treatment": hint.get("requested_treatment", ""),
+                "reason": hint.get("reason", ""),
+            }
+            for hint in page_hints
+        ],
+        "qc_holds": [
+            {
+                "recommended_action": page_payload.get("recommended_action", ""),
+                "quality_flags": page_payload.get("quality_flags", []),
+            }
+            for page_payload in qc_pages
+            if isinstance(page_payload, dict)
+        ],
+        "research_analyzer": [
+            {
+                "score": page_payload.get("score", 0),
+                "recommended_action": page_payload.get("recommended_action", ""),
+                "relevance": page_payload.get("relevance", ""),
+            }
+            for page_payload in analyzer_matches
+            if isinstance(page_payload, dict)
+        ],
+        "cited_in": cited_in,
+    }
+
+
+def storage_lifecycle_hint_matches_page(
+    hint: dict[str, object],
+    page: int,
+    source: str,
+    source_sha256: str,
+    converted_files: list[str],
+) -> bool:
+    hint_page = safe_int(hint.get("page"), 0)
+    if hint_page and hint_page != page:
+        return False
+    if str(hint.get("source_sha256", "")).strip() and str(hint.get("source_sha256", "")).strip() == source_sha256:
+        return True
+    if str(hint.get("source", "")).strip() and str(hint.get("source", "")).strip() == source:
+        return True
+    hint_converted = str(hint.get("converted_file", "")).strip()
+    return bool(hint_converted and hint_converted in converted_files)
+
+
+def storage_lifecycle_research_analyzer_pages(root: Path) -> dict[str, dict[str, object]]:
+    payload = read_json_payload(root / "research" / "_indexes" / "research-analyzer.json", {})
+    pages = payload.get("pages", [])
+    index: dict[str, dict[str, object]] = {}
+    if not isinstance(pages, list):
+        return index
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        page_number = safe_int(page.get("page"), 0)
+        if page_number <= 0:
+            continue
+        source_sha256 = str(page.get("source_sha256", "")).strip()
+        source = str(page.get("source", "")).strip()
+        converted_file = str(page.get("converted_file", "")).strip()
+        for key in storage_lifecycle_analyzer_keys(source_sha256, source, [converted_file], page_number):
+            index[key] = page
+    return index
+
+
+def storage_lifecycle_analyzer_keys(
+    source_sha256: str,
+    source: str,
+    converted_files: list[str],
+    page: int,
+) -> list[str]:
+    keys = []
+    if source_sha256:
+        keys.append(f"sha:{source_sha256}:p:{page}")
+    if source:
+        keys.append(f"source:{source}:p:{page}")
+    keys.extend(f"converted:{converted_file}:p:{page}" for converted_file in converted_files if converted_file)
+    return keys
+
+
+def storage_lifecycle_reference_index(root: Path) -> list[dict[str, str]]:
+    search_roots = [
+        root / "research" / "_staging",
+        root / "research" / "claims",
+        root / "research" / "relationships",
+        root / "research" / "source-packets",
+        root / "wiki",
+    ]
+    references = []
+    for search_root in search_roots:
+        if not search_root.exists():
+            continue
+        for path in sorted(search_root.rglob("*.md")):
+            try:
+                text = path.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            references.append({"path": relative_to_root(path, root), "text": text.lower()})
+    return references
+
+
+def storage_lifecycle_cited_in(
+    reference_index: list[dict[str, str]],
+    source: str,
+    converted_files: list[str],
+    chunks: list[str],
+    page: int,
+) -> list[str]:
+    targets = [source, *converted_files, *chunks]
+    lowered_targets = [target.lower() for target in targets if target]
+    page_markers = {
+        f"page {page}",
+        f"page: {page}",
+        f"page_start: {page}",
+        f"p{page:04d}",
+    }
+    cited = []
+    for reference in reference_index:
+        text = reference.get("text", "")
+        if not any(target in text for target in lowered_targets):
+            continue
+        if any(chunk.lower() in text for chunk in chunks if chunk):
+            cited.append(reference.get("path", ""))
+            continue
+        if any(marker in text for marker in page_markers):
+            cited.append(reference.get("path", ""))
+    return sorted(set(path for path in cited if path))
+
+
+def storage_lifecycle_usable_conversion(
+    text: str,
+    converted_files: list[str],
+    chunks: list[str],
+    signals: dict[str, object],
+) -> tuple[bool, list[str]]:
+    blockers = []
+    if not converted_files:
+        blockers.append("missing_converted_file")
+    if not chunks:
+        blockers.append("missing_page_chunks")
+    if len(text.strip()) < STORAGE_LIFECYCLE_MIN_USABLE_CHARS:
+        blockers.append("short_or_empty_conversion_text")
+    lower_text = text.lower()
+    if "[no visible text transcribed in this batch pass.]" in lower_text:
+        blockers.append("placeholder_transcription")
+    if signals.get("qc_holds"):
+        blockers.append("conversion_qc_hold")
+    return not blockers, blockers
+
+
+def storage_lifecycle_locator_strength(
+    root: Path,
+    *,
+    source: str,
+    source_sha256: str,
+    converted_files: list[str],
+    source_manifests: list[str],
+    source_entry: dict[str, object],
+) -> tuple[str, list[str]]:
+    notes = []
+    cloud = source_entry.get("cloud", {}) if isinstance(source_entry, dict) else {}
+    cloud_key = str(cloud.get("key", "")).strip() if isinstance(cloud, dict) else ""
+    local_source = root / source if source else Path()
+    has_source_locator = bool(cloud_key or (source and local_source.exists()))
+    if cloud_key:
+        notes.append(f"cloud key: {cloud_key}")
+    elif source and local_source.exists():
+        notes.append(f"local source path exists: {source}")
+    else:
+        notes.append("no cloud key or local source path available")
+    if source_sha256:
+        notes.append("source SHA-256 present")
+    if source_manifests:
+        notes.append("conversion manifest present")
+    if converted_files:
+        notes.append("converted Markdown present")
+    strong = bool(has_source_locator and source_sha256 and source_manifests and converted_files)
+    return ("strong" if strong else "weak"), notes
+
+
+def storage_lifecycle_page_storage_unit(source_entry: dict[str, object], source: str) -> str:
+    media_type = str(source_entry.get("media_type", "")).strip().lower()
+    if not media_type and source:
+        media_type = detect_media_type(Path(source))
+    if media_type in STORAGE_LIFECYCLE_PAGE_LEVEL_MEDIA_TYPES:
+        return "page_level_raw_object"
+    return "whole_source_object"
+
+
+def storage_lifecycle_relevance_score(signals: dict[str, object]) -> int:
+    score = 0
+    if signals.get("family_terms"):
+        score += 60
+    if signals.get("suspicious_readings"):
+        score += 55
+    if signals.get("qc_holds"):
+        score += 50
+    if signals.get("cited_in"):
+        score += 50
+    if signals.get("visual_kinds"):
+        score += 20
+    if signals.get("genealogy_leads"):
+        score += 20
+    if signals.get("relationship_cues"):
+        score += 16
+    if signals.get("life_event_cues"):
+        score += 16
+    if safe_int(signals.get("uncertainty_markers"), 0):
+        score += 10
+    for hint in signals.get("relevance_hints", []) if isinstance(signals.get("relevance_hints"), list) else []:
+        if not isinstance(hint, dict):
+            continue
+        relevance = str(hint.get("relevance", "")).strip().lower()
+        score += {"critical": 80, "high": 60, "medium": 30, "low": 5}.get(relevance, 0)
+    for page in signals.get("research_analyzer", []) if isinstance(signals.get("research_analyzer"), list) else []:
+        if isinstance(page, dict):
+            score += min(safe_int(page.get("score"), 0), 80)
+    return score
+
+
+def storage_lifecycle_irrelevance_confidence(
+    text: str,
+    usable_conversion: bool,
+    signals: dict[str, object],
+) -> str:
+    if not usable_conversion:
+        return "low"
+    if storage_lifecycle_has_preserve_signal(signals):
+        return "low"
+    if storage_lifecycle_has_research_signal(signals):
+        return "medium"
+    if len(text.strip()) >= STORAGE_LIFECYCLE_HIGH_CONFIDENCE_CHARS:
+        return "high"
+    return "medium"
+
+
+def storage_lifecycle_has_preserve_signal(signals: dict[str, object]) -> bool:
+    if signals.get("family_terms") or signals.get("suspicious_readings") or signals.get("qc_holds") or signals.get("cited_in"):
+        return True
+    for hint in signals.get("relevance_hints", []) if isinstance(signals.get("relevance_hints"), list) else []:
+        if isinstance(hint, dict) and str(hint.get("relevance", "")).strip().lower() in {"critical", "high"}:
+            return True
+    for page in signals.get("research_analyzer", []) if isinstance(signals.get("research_analyzer"), list) else []:
+        if isinstance(page, dict) and str(page.get("recommended_action", "")).strip() == "request_page_upgrade":
+            return True
+    return False
+
+
+def storage_lifecycle_has_research_signal(signals: dict[str, object]) -> bool:
+    signal_keys = (
+        "genealogy_leads",
+        "relationship_cues",
+        "life_event_cues",
+        "visual_kinds",
+        "generic_genealogy_cues",
+        "relevance_hints",
+        "research_analyzer",
+    )
+    if any(signals.get(key) for key in signal_keys):
+        return True
+    return safe_int(signals.get("uncertainty_markers"), 0) > 0
+
+
+def storage_lifecycle_retention_decision(
+    *,
+    usable_conversion: bool,
+    conversion_blockers: list[str],
+    locator_strength: str,
+    page_storage_unit: str,
+    relevance_score: int,
+    irrelevance_confidence: str,
+    signals: dict[str, object],
+) -> tuple[str, list[str], bool, list[str]]:
+    reasons = []
+    blockers = []
+    if not usable_conversion:
+        reasons.append("Raw preserved because the page does not yet have a safe usable conversion.")
+        blockers.extend(conversion_blockers)
+        return "preserve_raw", reasons, False, blockers
+    if storage_lifecycle_has_preserve_signal(signals):
+        reasons.append("Raw preserved because research/QC/citation signals make this page important or uncertain.")
+        return "preserve_raw", reasons, False, blockers
+    if storage_lifecycle_has_research_signal(signals) or relevance_score > 0:
+        reasons.append("Cold retained because the page has generic genealogy or research signals but no direct family match yet.")
+        return "cold_retain", reasons, False, blockers
+
+    if locator_strength != "strong":
+        blockers.append("weak_reacquisition_locator")
+    if irrelevance_confidence != "high":
+        blockers.append("irrelevance_confidence_not_high")
+    if page_storage_unit != "page_level_raw_object":
+        blockers.append("raw_source_is_not_page_level")
+    deaccession_allowed = not blockers
+    if deaccession_allowed:
+        reasons.append("Page has usable conversion, strong locator, high irrelevance confidence, and page-level raw storage.")
+        return "deaccession_candidate", reasons, True, []
+    reasons.append("Cold retained because deaccession prerequisites are not all satisfied.")
+    return "cold_retain", reasons, False, blockers
+
+
+def storage_lifecycle_reacquisition_record(
+    source_entry: dict[str, object],
+    source: str,
+    source_sha256: str,
+    source_manifests: list[str],
+    converted_files: list[str],
+) -> dict[str, object]:
+    cloud = source_entry.get("cloud", {}) if isinstance(source_entry, dict) else {}
+    return {
+        "raw_path": source,
+        "cloud_key": str(cloud.get("key", "")).strip() if isinstance(cloud, dict) else "",
+        "source_sha256": source_sha256,
+        "source_manifests": source_manifests,
+        "converted_files": converted_files,
+        "note": "Retain these GitHub records even if page-level raw material is later removed from R2.",
+    }
+
+
+def build_storage_lifecycle_summary(
+    page_records: list[dict[str, object]],
+    candidate_records: list[Path],
+) -> dict[str, object]:
+    status_counts = count_task_statuses(
+        [{"status": str(page.get("retention_status", "unknown"))} for page in page_records]
+    )
+    return {
+        "page_count": len(page_records),
+        "retention_status_counts": status_counts,
+        "preserve_raw_count": status_counts.get("preserve_raw", 0),
+        "cold_retain_count": status_counts.get("cold_retain", 0),
+        "deaccession_candidate_count": status_counts.get("deaccession_candidate", 0),
+        "deaccession_record_count": len(candidate_records),
+    }
+
+
+def storage_lifecycle_sort_key(page: dict[str, object]) -> tuple[int, str, int]:
+    status_rank = {"preserve_raw": 0, "cold_retain": 1, "deaccession_candidate": 2}
+    return (
+        status_rank.get(str(page.get("retention_status", "")), 9),
+        str(page.get("source", "")),
+        safe_int(page.get("page"), 0),
+    )
+
+
+def write_storage_deaccession_record(root: Path, record: dict[str, object], record_dir: Path) -> Path:
+    record_dir.mkdir(parents=True, exist_ok=True)
+    source_slug = slug(Path(str(record.get("source", "source"))).stem or "source")
+    page = safe_int(record.get("page"), 0)
+    path = record_dir / f"{source_slug}-page-{page:04d}.md"
+    text = build_storage_deaccession_markdown(record)
+    path.write_text(text, encoding="utf-8")
+    return path
+
+
+def build_storage_deaccession_markdown(record: dict[str, object]) -> str:
+    reacquisition = record.get("reacquisition", {})
+    if not isinstance(reacquisition, dict):
+        reacquisition = {}
+    reasons = record.get("retention_reasons", [])
+    if not isinstance(reasons, list):
+        reasons = []
+    blockers = record.get("deaccession_blockers", [])
+    if not isinstance(blockers, list):
+        blockers = []
+    converted_files = record.get("converted_files", [])
+    if not isinstance(converted_files, list):
+        converted_files = []
+    return f"""---
+type: storage-deaccession-candidate
+status: candidate
+source: {yaml_string(str(record.get("source", "")))}
+source_sha256: {yaml_string(str(record.get("source_sha256", "")))}
+page: {safe_int(record.get("page"), 0)}
+retention_status: {yaml_string(str(record.get("retention_status", "")))}
+---
+
+# Deaccession Candidate: {Path(str(record.get("source", "source"))).name} Page {safe_int(record.get("page"), 0)}
+
+This is a non-destructive candidate record. No R2 object was deleted by the lifecycle ranking command.
+
+## Decision
+
+- Status: `{record.get("retention_status", "")}`
+- Deaccession allowed: `{record.get("deaccession_allowed", False)}`
+- Irrelevance confidence: `{record.get("irrelevance_confidence", "")}`
+- Source locator strength: `{record.get("source_locator_strength", "")}`
+- Page storage unit: `{record.get("page_storage_unit", "")}`
+
+## Reasons
+
+{format_markdown_bullets(reasons)}
+
+## Blockers
+
+{format_markdown_bullets(blockers or ["None"])}
+
+## Reacquisition
+
+- Raw path: `{reacquisition.get("raw_path", "")}`
+- Cloud key: `{reacquisition.get("cloud_key", "")}`
+- Source SHA-256: `{reacquisition.get("source_sha256", "")}`
+- Conversion manifests: {", ".join(f"`{value}`" for value in reacquisition.get("source_manifests", []) if str(value).strip()) or "`none`"}
+- Converted files: {", ".join(f"`{value}`" for value in converted_files if str(value).strip()) or "`none`"}
+"""
+
+
+def build_storage_lifecycle_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    pages = payload.get("pages", [])
+    rows = [
+        "| Source | Page | Status | Relevance | Irrelevance | Deaccession Blockers |",
+        "| --- | ---: | --- | ---: | --- | --- |",
+    ]
+    if isinstance(pages, list):
+        for page in pages[:250]:
+            if not isinstance(page, dict):
+                continue
+            blockers = page.get("deaccession_blockers", [])
+            if not isinstance(blockers, list):
+                blockers = []
+            rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(page.get("source", "")),
+                        markdown_table_cell(page.get("page", "")),
+                        markdown_table_cell(page.get("retention_status", "")),
+                        markdown_table_cell(page.get("relevance_score", "")),
+                        markdown_table_cell(page.get("irrelevance_confidence", "")),
+                        markdown_table_cell(", ".join(str(value) for value in blockers) or "none"),
+                    ]
+                )
+                + " |"
+            )
+    return f"""# Storage Lifecycle
+
+Generated: {payload.get("created", "")}
+
+This report is non-destructive. It ranks source pages for retention and writes candidate records only; it does not delete R2 objects.
+
+## Summary
+
+- Pages ranked: {dict_value(summary, "page_count")}
+- Preserve raw: {dict_value(summary, "preserve_raw_count")}
+- Cold retain: {dict_value(summary, "cold_retain_count")}
+- Deaccession candidates: {dict_value(summary, "deaccession_candidate_count")}
+- Candidate records: {dict_value(summary, "deaccession_record_count")}
+
+## Ranked Pages
+
+{chr(10).join(rows)}
+"""
+
+
+def format_markdown_bullets(values: list[object]) -> str:
+    if not values:
+        return "- None"
+    return "\n".join(f"- {value}" for value in values)
 
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
@@ -8855,17 +9728,21 @@ def build_system_lifecycle_summary(root: Path) -> dict[str, object]:
     pages = payload.get("pages", []) if isinstance(payload, dict) else []
     if not isinstance(pages, list):
         pages = []
+    status_counts = count_task_statuses(
+        [{"status": str(page.get("retention_status", "unknown"))} for page in pages if isinstance(page, dict)]
+    )
+    candidate_records = payload.get("deaccession_records", []) if isinstance(payload, dict) else []
+    if not isinstance(candidate_records, list):
+        candidate_records = []
     return {
         "status": "active" if lifecycle_path.exists() else "not_started",
         "index": relative_to_root(lifecycle_path, root),
         "page_rank_count": len(pages),
-        "deaccession_candidate_count": len(
-            [
-                page
-                for page in pages
-                if isinstance(page, dict) and str(page.get("retention_status", "")).strip() == "deaccession_candidate"
-            ]
-        ),
+        "retention_status_counts": status_counts,
+        "preserve_raw_count": status_counts.get("preserve_raw", 0),
+        "cold_retain_count": status_counts.get("cold_retain", 0),
+        "deaccession_candidate_count": status_counts.get("deaccession_candidate", 0),
+        "deaccession_record_count": len(candidate_records),
     }
 
 
@@ -8965,7 +9842,9 @@ Generated: {payload.get("created", "")}
 - R2 durable derived asset bytes: {dict_value(storage, "r2_derived_asset_bytes")}
 - Storage lifecycle status: {dict_value(lifecycle, "status")}
 - Storage lifecycle ranked pages: {dict_value(lifecycle, "page_rank_count")}
+- Storage lifecycle retention: {format_status_counts(dict_value(lifecycle, "retention_status_counts", {}))}
 - Deaccession candidates: {dict_value(lifecycle, "deaccession_candidate_count")}
+- Deaccession records: {dict_value(lifecycle, "deaccession_record_count")}
 
 ## Final Site
 
@@ -11362,6 +12241,28 @@ def build_parser() -> argparse.ArgumentParser:
         help="Read existing source usability reports instead of refreshing them first.",
     )
 
+    storage_lifecycle_parser = subparsers.add_parser(
+        "storage-lifecycle",
+        aliases=["storage-ranking"],
+        help="Write non-destructive page-level storage lifecycle rankings and deaccession candidate records.",
+    )
+    storage_lifecycle_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    storage_lifecycle_parser.add_argument(
+        "--out",
+        type=Path,
+        help="Output JSON path. Default: research/_indexes/storage-lifecycle.json.",
+    )
+    storage_lifecycle_parser.add_argument(
+        "--markdown",
+        type=Path,
+        help="Output Markdown path. Default: research/storage-lifecycle.md.",
+    )
+    storage_lifecycle_parser.add_argument(
+        "--record-dir",
+        type=Path,
+        help="Output directory for candidate records. Default: research/_staging/deaccession.",
+    )
+
     agent_task_parser = subparsers.add_parser(
         "agent-task",
         help="Claim, start, complete, fail, or release an agent queue task.",
@@ -11867,6 +12768,17 @@ def main(argv: list[str] | None = None) -> int:
         )
         for path in written:
             print(f"Wrote system status dashboard {path}")
+        return 0
+
+    if args.command in {"storage-lifecycle", "storage-ranking"}:
+        written = write_storage_lifecycle_report(
+            args.root,
+            output=args.out,
+            markdown_output=args.markdown,
+            record_dir=args.record_dir,
+        )
+        for path in written:
+            print(f"Wrote storage lifecycle artifact {path}")
         return 0
 
     if args.command == "agent-task":

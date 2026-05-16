@@ -29,6 +29,8 @@
 
 - [[System Dashboard]]
 
+- [[storage-lifecycle]]
+
 ## Questions
 
 ## Tasks

@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T05:08:23Z
+Generated: 2026-05-16T05:29:02Z
 
 ## Source Conversion
 
@@ -42,9 +42,11 @@ Generated: 2026-05-16T05:08:23Z
 - R2 raw bytes: 8230789331
 - R2 durable derived assets: 0
 - R2 durable derived asset bytes: 0
-- Storage lifecycle status: not_started
-- Storage lifecycle ranked pages: 0
+- Storage lifecycle status: active
+- Storage lifecycle ranked pages: 5
+- Storage lifecycle retention: cold_retain: 5
 - Deaccession candidates: 0
+- Deaccession records: 0
 
 ## Final Site
 
