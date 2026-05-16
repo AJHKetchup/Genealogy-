@@ -3309,6 +3309,12 @@ def detect_conversion_text_flags(page_text: str) -> list[str]:
     ]
     if missing_sections:
         flags.append("missing_conversion_contract_sections")
+    required_section_counts = {
+        section: len(re.findall(rf"(?im)^##\s+{re.escape(section)}\s*$", page_text))
+        for section in SOURCE_PREP_REQUIRED_PAGE_SECTIONS
+    }
+    if any(count > 1 for count in required_section_counts.values()):
+        flags.append("duplicate_conversion_contract_sections")
     if len(alpha_words) < 15 and ("![source page]" in lower_text or "page image" in lower_text):
         flags.append("image_only_or_too_little_text")
     if len(alpha_words) < 8 and "[no automated transcription" in lower_text:
@@ -3320,9 +3326,11 @@ def detect_conversion_text_flags(page_text: str) -> list[str]:
         flags.append("explicit_reread_needed")
     if re.search(r"\b[a-zA-Z]{25,}\b", page_text):
         flags.append("possible_ocr_garbage_token")
+    if re.search(r"[\u2500-\u257f]", page_text) or re.search(r"([\u0400-\u04ff])\1{8,}", page_text):
+        flags.append("possible_ocr_garbage_token")
     if "\t" in text_outside_fences or re.search(r"\S\s{8,}\S", text_outside_fences):
         flags.append("possible_table_layout_loss")
-    return flags
+    return list(dict.fromkeys(flags))
 
 
 def strip_fenced_code_blocks(text: str) -> str:
@@ -4894,6 +4902,7 @@ SOURCE_PREP_REPAIR_FLAGS = {
     "many_uncertain_readings",
     "encoding_mojibake",
     "missing_conversion_contract_sections",
+    "duplicate_conversion_contract_sections",
 }
 SOURCE_PREP_PAGE_CACHE_VERSION = 1
 

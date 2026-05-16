@@ -1028,6 +1028,25 @@ def test_source_prep_review_ignores_empty_reread_metadata(tmp_path) -> None:
     assert "encoding_mojibake" not in review["quality_flags"]
 
 
+def test_source_prep_review_rejects_repeated_script_garbage_and_duplicate_sections(tmp_path) -> None:
+    page_output = tmp_path / "page.md"
+    page_output.write_text(
+        complete_gemini_page_markdown(
+            "328 BOLETIN DE INSTRUCCION P\u250cBLICA\n"
+            + ("\u0426" * 120)
+            + "\nThe rest of the page claims to be converted."
+        )
+        + "\n## Page Metadata\nDuplicate section that should not pass review.\n",
+        encoding="utf-8",
+    )
+
+    review = review_source_prep_page_output(page_output)
+
+    assert review["status"] == "needs_reread"
+    assert "possible_ocr_garbage_token" in review["quality_flags"]
+    assert "duplicate_conversion_contract_sections" in review["quality_flags"]
+
+
 def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
