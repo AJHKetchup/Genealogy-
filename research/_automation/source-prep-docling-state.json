@@ -1,18 +1,18 @@
 {
-  "created": "2026-05-16T03:01:17Z",
+  "created": "2026-05-16T03:29:01Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
   "limit": 2,
-  "scan_limit": 5,
+  "scan_limit": 4,
   "inspected": 0,
   "accepted": 0,
   "unusable": 0,
   "errors": 0,
   "skipped": {
-    "cached_rough_unusable": 3
+    "cached_rough_unusable": 2
   },
   "tasks": [],
   "blockers": [],
-  "finished": "2026-05-16T03:01:17Z"
+  "finished": "2026-05-16T03:29:01Z"
 }
