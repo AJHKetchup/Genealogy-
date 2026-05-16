@@ -203,6 +203,7 @@ Storage deaccession is allowed only when:
 - Implemented: research-analyzer question queue and Markdown work items for page-level genealogy signals.
 - Implemented: research-analyzer question prompt packets that use the shared agent-queue/task-state contract.
 - Implemented: research-analyzer question tasks honor conversion-QA page holds before evidence extraction.
+- Implemented: evidence-extraction queue blocks on pending conversion-QA review before staged claim work.
 - Implemented: cloud heartbeat runs the research-analyzer loop and reports its research-question queue.
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.

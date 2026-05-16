@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T06:45:02Z",
+  "created": "2026-05-16T06:51:41Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -58,7 +58,7 @@
       "path": "research/_agent-queues/evidence-extraction.json",
       "task_count": 8,
       "status_counts": {
-        "todo": 8
+        "blocked_pending_conversion_qa": 8
       }
     },
     "research_questions": {

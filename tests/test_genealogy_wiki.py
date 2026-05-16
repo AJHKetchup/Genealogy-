@@ -915,6 +915,19 @@ def test_write_agent_queues_creates_conversion_qa_and_extraction_tasks(tmp_path)
     assert qa_queue["tasks"][0]["role"] == "conversion_qa_reviewer"
     assert extraction_queue["task_count"] >= 1
     assert extraction_queue["tasks"][0]["role"] == "evidence_extractor"
+    assert extraction_queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
+    assert extraction_queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
+    prompt_text = (tmp_path / extraction_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "Conversion QA Gate" in prompt_text
+    assert "Do not extract claims" in prompt_text
+
+    update_agent_task_state(tmp_path, qa_queue["tasks"][0]["task_id"], "done", agent="qa-1")
+    write_agent_queues(tmp_path)
+    extraction_queue = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")
+    )
+    assert extraction_queue["tasks"][0]["status"] == "todo"
+    assert "block_reason" not in extraction_queue["tasks"][0]
 
 
 def test_agent_task_state_claims_and_releases_queue_tasks(tmp_path) -> None:
@@ -1814,6 +1827,9 @@ def test_completed_qc_reread_hold_is_unblocked_when_page_passes_contract(tmp_pat
     source_queue = json.loads(queue_path.read_text(encoding="utf-8"))
     assert source_queue["tasks"][0]["status"] == "done"
     assert source_queue["tasks"][0]["task_state_status"] == "done"
+    qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
+    update_agent_task_state(tmp_path, qa_queue["tasks"][0]["task_id"], "done", agent="qa-1")
+    write_agent_queues(tmp_path)
 
     extraction_queue = json.loads(
         (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")

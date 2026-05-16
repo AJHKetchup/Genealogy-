@@ -9523,7 +9523,7 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
         converted_file = str(manifest.get("converted_file", ""))
         source_slug = slug(Path(converted_file).stem)
         task = {
-            "task_id": f"conversion-qa:{slug(converted_file)}",
+            "task_id": conversion_qa_task_id_for_converted_file(converted_file),
             "queue": "conversion-qa",
             "role": "conversion_qa_reviewer",
             "skill": "conversion-qa-triage",
@@ -9541,6 +9541,16 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
         task["prompt"] = build_conversion_qa_agent_prompt(task)
         tasks.append(task)
     return tasks
+
+
+def conversion_qa_task_id_for_converted_file(converted_file: str) -> str:
+    return f"conversion-qa:{slug(converted_file)}"
+
+
+def conversion_qa_is_done(task_state: dict[str, dict[str, object]], converted_file: str) -> bool:
+    task_id = conversion_qa_task_id_for_converted_file(converted_file)
+    state = task_state.get(task_id, {})
+    return str(state.get("status", "")).strip() == "done"
 
 
 def load_qc_blocked_pages(root: Path) -> dict[str, dict[int, dict[str, object]]]:
@@ -10696,6 +10706,7 @@ def sync_github_database(
 def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
     qc_blocked_by_source = load_qc_blocked_pages(root)
+    task_state = load_agent_task_state(root)
     for manifest_path in sorted((root / "raw" / "chunks").glob("*/manifest.json")):
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -10703,6 +10714,7 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
             continue
         converted_file = str(manifest.get("converted_file", ""))
         source_slug = slug(Path(converted_file).stem)
+        conversion_qa_done = conversion_qa_is_done(task_state, converted_file)
         for chunk in manifest.get("chunks", []):
             if not isinstance(chunk, dict):
                 continue
@@ -10714,12 +10726,19 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
                 page_start,
                 page_end,
             )
+            pending_conversion_qa = not blocked_pages and not conversion_qa_done
             task = {
                 "task_id": f"evidence-extraction:{chunk_id}",
                 "queue": "evidence-extraction",
                 "role": "evidence_extractor",
                 "skill": "genealogy-claim-extraction",
-                "status": "blocked_needs_reread" if blocked_pages else "todo",
+                "status": (
+                    "blocked_needs_reread"
+                    if blocked_pages
+                    else "blocked_pending_conversion_qa"
+                    if pending_conversion_qa
+                    else "todo"
+                ),
                 "chunk_id": chunk_id,
                 "chunk_path": str(chunk.get("path", "")),
                 "converted_file": converted_file,
@@ -10737,6 +10756,16 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
                         "block_reason": "post_conversion_qc_hold",
                         "qc_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
                         "qc_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
+                    }
+                )
+            elif pending_conversion_qa:
+                task.update(
+                    {
+                        "block_reason": "pending_conversion_qa",
+                        "conversion_qa_task_id": conversion_qa_task_id_for_converted_file(converted_file),
+                        "conversion_qa_triage": f"research/_conversion-review/triage/{source_slug}.md",
+                        "conversion_qa_page_queue": f"research/_conversion-review/page-queues/{source_slug}.md",
+                        "conversion_qa_corrections": f"research/_conversion-review/corrections/{source_slug}.md",
                     }
                 )
             task["prompt"] = build_evidence_extraction_agent_prompt(task)
@@ -10925,7 +10954,19 @@ Use `$conversion-qa-triage`.
 
 def build_evidence_extraction_agent_prompt(task: dict[str, object]) -> str:
     hold_section = ""
-    if str(task.get("status", "")).startswith("blocked"):
+    if str(task.get("block_reason", "")) == "pending_conversion_qa":
+        hold_section = f"""
+## Conversion QA Gate
+
+- Status: `{task["status"]}`
+- Conversion QA task: `{task.get("conversion_qa_task_id", "")}`
+- Expected triage note: `{task.get("conversion_qa_triage", "")}`
+- Expected page queue: `{task.get("conversion_qa_page_queue", "")}`
+- Expected suspected readings: `{task.get("conversion_qa_corrections", "")}`
+
+Do not extract claims from this chunk until the conversion QA task is completed and the extraction queue is regenerated.
+"""
+    elif str(task.get("status", "")).startswith("blocked"):
         hold_section = f"""
 ## QC Hold
 

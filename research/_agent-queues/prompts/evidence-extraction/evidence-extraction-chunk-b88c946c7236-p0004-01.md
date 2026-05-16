@@ -12,6 +12,16 @@ Use `$genealogy-claim-extraction`.
 - Page range: 4-4
 - Staging area: `research/_staging`
 
+## Conversion QA Gate
+
+- Status: `blocked_pending_conversion_qa`
+- Conversion QA task: `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex-md`
+- Expected triage note: `research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md`
+- Expected page queue: `research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md`
+- Expected suspected readings: `research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex.md`
+
+Do not extract claims from this chunk until the conversion QA task is completed and the extraction queue is regenerated.
+
 
 ## Done When
 
