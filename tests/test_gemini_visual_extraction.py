@@ -437,8 +437,36 @@ def test_gemini_route_ignores_converter_family_relevance_without_research_feedba
     route = genealogy_wiki.classify_gemini_source_prep_batch(tmp_path, batch)
 
     assert route["tier"] == "lite"
+    assert route["model"] == "gemini-2.5-flash"
     assert route["use_crops"] is False
     assert route["relevant"] is False
+
+
+def test_gemini_route_starts_blank_or_encoding_failures_on_flash(tmp_path) -> None:
+    batch = {
+        "source": "raw/sources/source.pdf",
+        "title": "Blank separator page",
+        "first_page": 1,
+        "rough_discovery_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words",
+            "encoding_mojibake",
+        ],
+        "pages": [
+            {
+                "page": 1,
+                "page_image": "raw/codex-conversion-jobs/job-one/page-images/page-0001.jpg",
+            }
+        ],
+    }
+
+    route = genealogy_wiki.classify_gemini_source_prep_batch(tmp_path, batch)
+
+    assert route["tier"] == "lite"
+    assert route["model"] == "gemini-2.5-flash"
+    assert route["use_crops"] is False
+    assert route["complex"] is False
 
 
 def test_gemini_route_uses_explicit_research_feedback_for_expensive_treatment(tmp_path) -> None:
@@ -461,6 +489,29 @@ def test_gemini_route_uses_explicit_research_feedback_for_expensive_treatment(tm
     assert route["tier"] == "pro_with_crops"
     assert route["use_crops"] is True
     assert route["relevant"] is True
+
+
+def test_gemini_route_honors_explicit_pro_without_crops(tmp_path) -> None:
+    batch = {
+        "source": "raw/sources/source.pdf",
+        "title": "Simple printed page",
+        "first_page": 1,
+        "pages": [
+            {
+                "page": 1,
+                "research_relevance": "high",
+                "requested_treatment": "pro",
+                "page_image": "raw/codex-conversion-jobs/job-one/page-images/page-0001.jpg",
+            }
+        ],
+    }
+
+    route = genealogy_wiki.classify_gemini_source_prep_batch(tmp_path, batch)
+
+    assert route["tier"] == "pro"
+    assert route["model"] == "gemini-2.5-pro"
+    assert route["use_crops"] is False
+    assert route["complex"] is True
 
 
 def test_gemini_route_uses_technical_failure_for_pro_without_crops(tmp_path) -> None:

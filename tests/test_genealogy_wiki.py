@@ -1230,7 +1230,7 @@ def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypa
     assert batch_queue["tasks"][0]["pages"][0]["requested_treatment"] == "pro"
     gemini_plan = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, dry_run=True)
     assert gemini_plan["processed"] == 1
-    assert gemini_plan["tasks"][0]["route"]["tier"] == "pro_with_crops"
+    assert gemini_plan["tasks"][0]["route"]["tier"] == "pro"
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:

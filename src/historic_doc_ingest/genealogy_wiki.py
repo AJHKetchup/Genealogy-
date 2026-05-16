@@ -6715,7 +6715,7 @@ def source_prep_fastlane_run(
     }
 
 
-GEMINI_SOURCE_PREP_LITE_MODEL = "gemini-2.5-flash-lite"
+GEMINI_SOURCE_PREP_LITE_MODEL = "gemini-2.5-flash"
 GEMINI_SOURCE_PREP_PRO_MODEL = "gemini-2.5-pro"
 GEMINI_SOURCE_PREP_BATCHABLE_STATUSES = {"needs_reread", "todo"}
 GEMINI_SOURCE_PREP_RELEVANT_VALUES = {"high", "critical"}
@@ -6726,18 +6726,16 @@ GEMINI_SOURCE_PREP_COMPLEX_FLAG_TOKENS = (
     "illegible",
     "uncertain",
     "ocr_garbage",
-    "mojibake",
-    "encoding",
-    "image_only",
-    "image_preserved",
-    "scan",
     "stamp",
     "seal",
     "signature",
     "marginal",
     "column",
+    "damaged",
 )
 GEMINI_SOURCE_PREP_COMPLEX_TEXT_TOKENS = (
+    "handwritten",
+    "manuscript",
     "passenger list",
     "passenger and crew",
     "registro de nacimientos",
@@ -6809,7 +6807,13 @@ def classify_gemini_source_prep_batch(
 ) -> dict[str, object]:
     page = first_source_prep_batch_page(batch)
     reasons: list[str] = []
-    flags = [flag.lower() for flag in source_prep_gemini_combined_values(batch, ("quality_flags", "qc_quality_flags"))]
+    flags = [
+        flag.lower()
+        for flag in source_prep_gemini_combined_values(
+            batch,
+            ("quality_flags", "qc_quality_flags", "rough_discovery_flags", "readability_flags"),
+        )
+    ]
     suspicious = source_prep_gemini_combined_values(batch, ("suspicious_readings",))
     relevance = str(
         page.get("research_relevance")
@@ -6829,6 +6833,7 @@ def classify_gemini_source_prep_batch(
 
     relevant = False
     complex_page = False
+    explicit_pro_with_crops = False
     if relevance in GEMINI_SOURCE_PREP_RELEVANT_VALUES:
         relevant = True
         reasons.append(f"research_relevance:{relevance}")
@@ -6837,6 +6842,7 @@ def classify_gemini_source_prep_batch(
         reasons.append("suspicious_readings")
     if requested_treatment == "pro_with_crops":
         relevant = True
+        explicit_pro_with_crops = True
         reasons.append("requested_pro_with_crops")
 
     if requested_treatment in {"pro", "reread"}:
@@ -6848,38 +6854,30 @@ def classify_gemini_source_prep_batch(
     if any(token in title_source_text for token in GEMINI_SOURCE_PREP_COMPLEX_TEXT_TOKENS):
         complex_page = True
         reasons.append("complex_source_type")
-    page_image = root.resolve() / str(page.get("page_image", ""))
-    try:
-        if page_image.exists() and page_image.stat().st_size >= GEMINI_SOURCE_PREP_IMAGE_SIZE_COMPLEX_BYTES:
-            complex_page = True
-            reasons.append("large_page_image")
-    except OSError:
-        pass
-
     pdf_profile = source_prep_gemini_pdf_profile(root, batch)
     profile_flags = [str(flag).lower() for flag in pdf_profile.get("flags", []) or []]
     if profile_flags:
-        if any(flag in profile_flags for flag in ("table_like_layout", "full_page_image_scan", "possible_ocr_garbage")):
+        if any(flag in profile_flags for flag in ("table_like_layout", "possible_ocr_garbage")):
             complex_page = True
             reasons.append("pdf_profile_complex")
     elif pdf_profile.get("eligible"):
         reasons.append("pdf_native_text_safe")
 
-    if relevant:
+    if explicit_pro_with_crops:
         return {
             "tier": "pro_with_crops",
             "model": pro_model,
             "use_crops": True,
             "relevant": True,
             "complex": complex_page,
-            "reasons": list(dict.fromkeys(reasons)) or ["research_relevance"],
+            "reasons": list(dict.fromkeys(reasons)) or ["requested_pro_with_crops"],
         }
-    if complex_page:
+    if complex_page or relevant:
         return {
             "tier": "pro",
             "model": pro_model,
             "use_crops": False,
-            "relevant": False,
+            "relevant": relevant,
             "complex": True,
             "reasons": list(dict.fromkeys(reasons)) or ["complex_page"],
         }
