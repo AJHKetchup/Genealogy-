@@ -1,24 +1,24 @@
 {
-  "created": "2026-05-16T00:04:35Z",
+  "created": "2026-05-16T00:39:04Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
-  "limit": 2,
+  "limit": 1,
   "queue": "research/_agent-queues/source-prep-batches.json",
   "models": {
     "lite": "gemini-2.5-flash-lite",
     "pro": "gemini-2.5-pro"
   },
-  "processed": 2,
+  "processed": 1,
   "completed": 1,
-  "released": 1,
+  "released": 0,
   "skipped": 0,
   "route_counts": {
-    "pro": 2
+    "pro": 1
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
+      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1:p0001",
+      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1:p0001",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
@@ -29,49 +29,31 @@
           "pdf_profile_complex"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md",
-      "status": "released",
-      "reason": "gemini_error",
-      "error": "Remote end closed connection without response"
-    },
-    {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0004",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0004",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0004.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0004.md",
+      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-images/page-0001.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-markdown/page-0001.md",
       "usage": {
-        "promptTokenCount": 1342,
-        "candidatesTokenCount": 1119,
-        "totalTokenCount": 5038,
+        "promptTokenCount": 1340,
+        "candidatesTokenCount": 1383,
+        "totalTokenCount": 4564,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1084
+            "tokenCount": 1082
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 2577,
+        "thoughtsTokenCount": 1841,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0004.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1/page-markdown/page-0001.visuals.json",
         "declared": 0,
         "cropped": 0,
+        "skipped": 0,
         "flags": []
       },
       "review": {
@@ -83,14 +65,15 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 1342,
-    "candidate_tokens": 1119,
-    "total_tokens": 5038
+    "prompt_tokens": 1340,
+    "candidate_tokens": 1383,
+    "total_tokens": 4564
   },
   "visual_regions": {
     "declared": 0,
     "cropped": 0,
+    "skipped": 0,
     "manifests": 1
   },
-  "finished": "2026-05-16T00:09:26Z"
+  "finished": "2026-05-16T00:39:32Z"
 }

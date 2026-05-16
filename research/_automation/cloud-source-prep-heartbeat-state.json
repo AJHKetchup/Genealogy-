@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T00:09:26Z",
+  "created": "2026-05-16T00:39:32Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -9,7 +9,7 @@
   "settings": {
     "conversion_qc": false,
     "conversion_only": true,
-    "page_range": "4-5",
+    "page_range": "1-1",
     "restore_limit": 1,
     "pages_per_job": 25,
     "batch_pages": 1,
@@ -24,7 +24,7 @@
       "status": "ran",
       "detail": {
         "action": "restore",
-        "created": "2026-05-16T00:09:26.274378+00:00",
+        "created": "2026-05-16T00:39:32.193452+00:00",
         "total_files": 1,
         "restored": 0,
         "skipped": 1,
@@ -66,12 +66,24 @@
       "detail": {
         "action": "asset-upload",
         "dry_run": false,
-        "total_files": 4,
-        "total_bytes": 1483564,
+        "total_files": 0,
+        "total_bytes": 0,
         "uploaded": 0,
-        "skipped": 4,
+        "skipped": 0,
         "planned": 0,
-        "errors": []
+        "errors": [],
+        "deleted_disposable": 0,
+        "cleanup": {
+          "action": "cleanup-disposable-derived-assets",
+          "prefixes": [
+            "derived/raw/codex-conversion-jobs/",
+            "derived/research/_assets/conversions/"
+          ],
+          "scanned": 0,
+          "deleted": 0,
+          "skipped": 0,
+          "errors": []
+        }
       }
     }
   ],
@@ -85,5 +97,5 @@
       }
     }
   },
-  "finished": "2026-05-16T00:09:27Z"
+  "finished": "2026-05-16T00:39:32Z"
 }
