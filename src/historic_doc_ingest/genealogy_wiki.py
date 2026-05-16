@@ -7694,6 +7694,43 @@ def source_prep_batch_page_record(task: dict[str, object]) -> dict[str, object]:
     return record
 
 
+SOURCE_PREP_CANONICAL_TASK_STATUS_PRIORITY = {
+    "needs_reread": 0,
+    "done": 1,
+    SOURCE_PREP_DISCOVERY_TASK_STATUS: 2,
+    "todo": 3,
+}
+
+
+def source_prep_canonical_task_key(task: dict[str, object]) -> tuple[str, int] | None:
+    source_identity = str(task.get("source_sha256", "") or task.get("source", "")).strip()
+    source_page = safe_int(task.get("source_page"), safe_int(task.get("page"), 0))
+    if not source_identity or source_page < 1:
+        return None
+    return (source_identity, source_page)
+
+
+def source_prep_canonical_task_rank(task: dict[str, object]) -> tuple[int, int, str]:
+    status = str(task.get("status", "")).strip()
+    relevance_rank = 0 if task.get("relevance_feedback_ids") or task.get("requested_treatment") else 1
+    status_rank = SOURCE_PREP_CANONICAL_TASK_STATUS_PRIORITY.get(status, 9)
+    return (status_rank, relevance_rank, str(task.get("job_manifest", "")))
+
+
+def select_canonical_source_prep_tasks(tasks: list[dict[str, object]]) -> list[dict[str, object]]:
+    selected: dict[tuple[str, int], tuple[int, dict[str, object]]] = {}
+    unkeyed: list[tuple[int, dict[str, object]]] = []
+    for index, task in enumerate(tasks):
+        key = source_prep_canonical_task_key(task)
+        if key is None:
+            unkeyed.append((index, task))
+            continue
+        existing = selected.get(key)
+        if existing is None or source_prep_canonical_task_rank(task) < source_prep_canonical_task_rank(existing[1]):
+            selected[key] = (index, task)
+    return [task for _, task in sorted([*selected.values(), *unkeyed], key=lambda item: item[0])]
+
+
 def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
     tasks: list[dict[str, object]] = []
     jobs_dir = root / "raw" / "codex-conversion-jobs"
@@ -7775,7 +7812,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
             tasks.append(task)
     if page_review_cache_changed:
         save_source_prep_page_cache(root, page_review_cache)
-    return tasks
+    return select_canonical_source_prep_tasks(tasks)
 
 
 def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:

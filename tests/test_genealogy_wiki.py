@@ -696,6 +696,38 @@ def test_prepare_raw_sources_adds_requested_pdf_page_range_when_source_has_exist
     assert page_ranges == ["1-2", "4-5"]
 
 
+def test_source_prep_tasks_collapse_overlapping_pdf_jobs_to_one_task_per_source_page(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 4):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    create_codex_conversion_job(
+        tmp_path,
+        source,
+        job_id="ARCHIVE-P001-002",
+        title="Archive pages 1-2",
+        page_range="1-2",
+    )
+    create_codex_conversion_job(
+        tmp_path,
+        source,
+        job_id="ARCHIVE-P001-003",
+        title="Archive pages 1-3",
+        page_range="1-3",
+    )
+
+    tasks = genealogy_wiki.build_source_prep_agent_tasks(tmp_path)
+
+    assert len(tasks) == 3
+    assert sorted(int(task["source_page"]) for task in tasks) == [1, 2, 3]
+    assert len({(task["source_sha256"], task["source_page"]) for task in tasks}) == 3
+
+
 def test_prepare_raw_sources_adds_next_missing_pdf_pages_with_limit(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
