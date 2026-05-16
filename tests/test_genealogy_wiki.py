@@ -1448,6 +1448,7 @@ status: stub
     assert summary["staging_recommendation_counts"]["relationship"] == 1
     assert summary["research_lead_count"] == 1
     assert summary["research_lead_page_references"] == 1
+    assert summary["research_lead_tasks"] == 1
     feedback = json.loads((tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").read_text())
     hint = feedback["hints"][0]
     assert hint["converted_file"] == "raw/converted/dario-record.codex.md"
@@ -1492,6 +1493,13 @@ status: stub
     assert "Research Analyzer Leads" in leads_text
     assert "Dario Pulgar Smith" in leads_text
     assert "known_context_match" in leads_text
+    lead_queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-leads.json").read_text(encoding="utf-8"))
+    assert lead_queue["task_count"] == 1
+    assert lead_queue["tasks"][0]["review_status"] == "known_context_match"
+    assert lead_queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
+    lead_prompt_text = (tmp_path / lead_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "Research Lead Review Task" in lead_prompt_text
+    assert "Dario Pulgar Smith" in lead_prompt_text
 
     second_summary = research_analyzer_run(tmp_path, limit=3)
 
@@ -1525,16 +1533,25 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert summary["staging_readiness_counts"] == {"blocked_pending_conversion_qa": 1}
     assert summary["research_lead_count"] == 1
     assert summary["research_lead_page_references"] == 1
+    assert summary["research_lead_tasks"] == 1
     index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
     assert index["pages"][0]["recommended_action"] == "record_signal"
     assert index["staging_opportunity_pages"] == 1
     assert index["research_leads"] == "research/_indexes/research-leads.json"
+    assert index["research_lead_queue"] == "research/_agent-queues/research-leads.json"
     leads = json.loads((tmp_path / "research" / "_indexes" / "research-leads.json").read_text(encoding="utf-8"))
     assert leads["leads"][0]["lead"] == "M. Werner"
     assert leads["leads"][0]["lead_classification"] == "titled_name"
     assert leads["leads"][0]["review_status"] == "unresolved_lead"
     assert leads["leads"][0]["pages"][0]["converted_file"] == "raw/converted/generic-record.codex.md"
     assert "M. Werner" in (tmp_path / "research" / "research-leads.md").read_text(encoding="utf-8")
+    lead_queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-leads.json").read_text(encoding="utf-8"))
+    assert lead_queue["tasks"][0]["status"] == "blocked_pending_conversion_qa"
+    assert lead_queue["tasks"][0]["block_reason"] == "pending_conversion_qa"
+    assert lead_queue["tasks"][0]["lead"] == "M. Werner"
+    lead_prompt_text = (tmp_path / lead_queue["tasks"][0]["prompt_path"]).read_text(encoding="utf-8")
+    assert "Conversion QA Gate" in lead_prompt_text
+    assert "M. Werner" in lead_prompt_text
     assert not (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").exists()
     queue = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
     assert queue["task_count"] == 1
@@ -1561,6 +1578,8 @@ def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_reque
     assert opportunities["opportunities"][0]["readiness"]["status"] == "ready_for_extraction"
     queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "research-questions.json").read_text())
     assert queue_after_qa["tasks"][0]["status"] == "todo"
+    lead_queue_after_qa = json.loads((tmp_path / "research" / "_agent-queues" / "research-leads.json").read_text())
+    assert lead_queue_after_qa["tasks"][0]["status"] == "todo"
 
 
 def test_conversion_qa_prompt_includes_research_analyzer_context(tmp_path) -> None:

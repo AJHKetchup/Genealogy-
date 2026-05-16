@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T10:07:38Z",
+  "created": "2026-05-16T10:22:45Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -90,18 +90,26 @@
       "status_counts": {
         "blocked_pending_conversion_qa": 2
       }
+    },
+    "research_leads": {
+      "path": "research/_agent-queues/research-leads.json",
+      "task_count": 14,
+      "status_counts": {
+        "blocked_pending_conversion_qa": 14
+      }
     }
   },
   "queue_blockers": {
     "pending_conversion_qa": {
       "blocking_queue": "research/_agent-queues/conversion-qa.json",
       "blocking_task_count": 4,
-      "blocked_task_count": 10,
+      "blocked_task_count": 24,
       "blocked_queues": {
         "evidence_extraction": 8,
-        "research_questions": 2
+        "research_questions": 2,
+        "research_leads": 14
       },
-      "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction and research-question work."
+      "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, and research-question work."
     }
   },
   "storage": {
@@ -133,7 +141,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T10:07:38Z",
+      "created": "2026-05-16T10:22:45Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },
@@ -161,7 +169,7 @@
     {
       "area": "conversion_qa",
       "priority": "high",
-      "reason": "4 converted source(s) are waiting for conversion-QA triage. 10 downstream task(s) are held by this gate.",
+      "reason": "4 converted source(s) are waiting for conversion-QA triage. 24 downstream task(s) are held by this gate.",
       "next_step": "Run conversion-QA triage and mark completed tasks done so extraction can use reviewed pages.",
       "count": 4,
       "queue": "research/_agent-queues/conversion-qa.json"

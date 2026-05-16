@@ -5813,6 +5813,10 @@ def research_analyzer_leads_markdown_path(root: Path) -> Path:
     return root.resolve() / "research" / "research-leads.md"
 
 
+def research_analyzer_lead_queue_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_agent-queues" / "research-leads.json"
+
+
 def write_research_analyzer_state(root: Path, summary: dict[str, object]) -> Path:
     path = research_analyzer_state_path(root)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -6045,6 +6049,194 @@ def research_lead_review_sort_priority(review_status: str) -> int:
         "unresolved_lead": 2,
         "low_signal": 3,
     }.get(review_status, 4)
+
+
+def research_lead_review_task_id(lead: dict[str, object]) -> str:
+    lead_key = str(lead.get("lead_key", "")).strip() or slug(str(lead.get("lead", "")))
+    if not lead_key:
+        lead_key = hashlib.sha256(str(lead.get("lead", "")).encode("utf-8")).hexdigest()[:12]
+    return f"research-lead:{lead_key}"
+
+
+def build_research_lead_review_tasks(root: Path, leads_payload: dict[str, object]) -> list[dict[str, object]]:
+    leads = leads_payload.get("leads", [])
+    if not isinstance(leads, list):
+        return []
+    task_state = load_agent_task_state(root)
+    qc_blocked_by_source = load_qc_blocked_pages(root)
+    tasks = [
+        build_research_lead_review_task(root, lead, task_state, qc_blocked_by_source)
+        for lead in leads
+        if isinstance(lead, dict) and str(lead.get("review_status", "")) != "low_signal"
+    ]
+    tasks.sort(
+        key=lambda task: (
+            research_lead_review_sort_priority(str(task.get("review_status", ""))),
+            -safe_int(task.get("page_reference_count"), 0),
+            str(task.get("lead", "")).casefold(),
+        )
+    )
+    return tasks
+
+
+def build_research_lead_review_task(
+    root: Path,
+    lead: dict[str, object],
+    task_state: dict[str, dict[str, object]],
+    qc_blocked_by_source: dict[str, dict[int, dict[str, object]]],
+) -> dict[str, object]:
+    pages = [page for page in lead.get("pages", []) if isinstance(page, dict)]
+    converted_files = sorted({str(page.get("converted_file", "")).strip() for page in pages if str(page.get("converted_file", "")).strip()})
+    qc_holds = []
+    for page in pages:
+        converted_file = str(page.get("converted_file", "")).strip()
+        page_number = safe_int(page.get("page"), 0)
+        hold = qc_blocked_by_source.get(converted_file, {}).get(page_number)
+        if hold:
+            qc_holds.append(
+                {
+                    "converted_file": converted_file,
+                    "page": page_number,
+                    "recommended_action": hold.get("recommended_action", ""),
+                    "quality_flags": hold.get("quality_flags", []),
+                }
+            )
+    pending_conversion_qa_files = [
+        converted_file for converted_file in converted_files if not conversion_qa_is_done(task_state, converted_file)
+    ]
+    status = (
+        "blocked_needs_reread"
+        if qc_holds
+        else "blocked_pending_conversion_qa"
+        if pending_conversion_qa_files
+        else "todo"
+    )
+    task = {
+        "task_id": research_lead_review_task_id(lead),
+        "queue": "research-leads",
+        "role": "evidence_extractor",
+        "skill": "genealogy-claim-extraction",
+        "status": status,
+        "lead": str(lead.get("lead", "")),
+        "lead_key": str(lead.get("lead_key", "")),
+        "lead_classification": str(lead.get("lead_classification", "")),
+        "review_status": str(lead.get("review_status", "")),
+        "matched_family_terms": lead.get("matched_family_terms", []),
+        "page_reference_count": safe_int(lead.get("page_reference_count"), 0),
+        "source_count": safe_int(lead.get("source_count"), 0),
+        "converted_files": converted_files,
+        "pages": pages,
+        "staging_recommendation_counts": lead.get("staging_recommendation_counts", {}),
+    }
+    if qc_holds:
+        task["block_reason"] = "post_conversion_qc_hold"
+        task["qc_holds"] = qc_holds
+    elif pending_conversion_qa_files:
+        task["block_reason"] = "pending_conversion_qa"
+        task["conversion_qa_task_ids"] = [
+            conversion_qa_task_id_for_converted_file(converted_file)
+            for converted_file in pending_conversion_qa_files
+        ]
+        task["conversion_qa_triage"] = [
+            f"research/_conversion-review/triage/{slug(Path(converted_file).stem)}.md"
+            for converted_file in pending_conversion_qa_files
+        ]
+    task["prompt"] = build_research_lead_review_task_prompt(task)
+    return task
+
+
+def build_research_lead_review_task_prompt(task: dict[str, object]) -> str:
+    page_rows = [
+        "| Page | Score | Converted File | Chunks | Reasons |",
+        "| ---: | ---: | --- | --- | --- |",
+    ]
+    for page in task.get("pages", []) if isinstance(task.get("pages", []), list) else []:
+        if not isinstance(page, dict):
+            continue
+        chunks = page.get("chunks", [])
+        chunk_text = ", ".join(f"`{chunk}`" for chunk in chunks if str(chunk).strip()) if isinstance(chunks, list) else ""
+        reasons = page.get("reasons", [])
+        reason_text = ", ".join(str(reason) for reason in reasons if str(reason).strip()) if isinstance(reasons, list) else ""
+        page_rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(page.get("page", "")),
+                    markdown_table_cell(page.get("score", "")),
+                    markdown_table_cell(page.get("converted_file", "")),
+                    markdown_table_cell(chunk_text or "none"),
+                    markdown_table_cell(reason_text or "none"),
+                ]
+            )
+            + " |"
+        )
+    gate_section = ""
+    if str(task.get("status", "")) == "blocked_needs_reread":
+        gate_section = """
+
+## Conversion QA Gate
+
+This lead touches page(s) with conversion-QA reread holds. Do not extract claims or create staged evidence from those pages until the reread is resolved and queues are regenerated.
+""".rstrip()
+    elif str(task.get("status", "")) == "blocked_pending_conversion_qa":
+        task_ids = task.get("conversion_qa_task_ids", [])
+        triage = task.get("conversion_qa_triage", [])
+        gate_section = f"""
+
+## Conversion QA Gate
+
+This lead touches converted source(s) that still need conversion QA before staged evidence extraction.
+
+- Status: `blocked_pending_conversion_qa`
+- Conversion QA tasks: {", ".join(f"`{task_id}`" for task_id in task_ids if str(task_id).strip()) or "`none`"}
+- Expected triage notes: {", ".join(f"`{path}`" for path in triage if str(path).strip()) or "`none`"}
+
+Do not extract claims or create staged evidence from this lead until the conversion QA task is completed and the queue is regenerated.
+""".rstrip()
+    return f"""# Research Lead Review Task
+
+Use `$genealogy-claim-extraction` and keep any derived work in `research/_staging/`.
+
+## Assignment
+
+- Lead: `{task.get("lead", "")}`
+- Classification: `{task.get("lead_classification", "")}`
+- Review status: `{task.get("review_status", "")}`
+- Matched family terms: {", ".join(str(term) for term in task.get("matched_family_terms", []) if str(term).strip()) or "none"}
+- Page references: {safe_int(task.get("page_reference_count"), 0)}
+- Source count: {safe_int(task.get("source_count"), 0)}{gate_section}
+
+## Source Pages
+
+{chr(10).join(page_rows)}
+
+## Done When
+
+- Decide whether this lead deserves staged source-packet and claim drafts, an identity candidate, or a documented hold.
+- Each staged draft cites source path, converted file, chunk/page reference, literal support, uncertainty notes, and promotion recommendation.
+- No canonical wiki page is edited directly.
+"""
+
+
+def write_research_lead_review_queue(
+    root: Path,
+    leads_payload: dict[str, object],
+    tasks: list[dict[str, object]] | None = None,
+) -> Path:
+    paths = WikiPaths(root.resolve())
+    task_state = load_agent_task_state(paths.root)
+    tasks = tasks if tasks is not None else build_research_lead_review_tasks(paths.root, leads_payload)
+    path = research_analyzer_lead_queue_path(paths.root)
+    path = write_agent_queue(
+        paths.root,
+        path.parent,
+        "research-leads",
+        tasks,
+        task_state,
+        purpose="Research-analyzer lead review tasks grouped by detected genealogy lead.",
+    )
+    append_log(paths.research / "log.md", f"research-analyzer | Wrote {relative_to_root(path, paths.root)}")
+    return path
 
 
 def build_research_analyzer_leads_markdown(payload: dict[str, object]) -> str:
@@ -6361,8 +6553,11 @@ def research_analyzer_run(
     leads_payload = build_research_analyzer_leads_payload(paths.root, pages)
     leads_json_path = research_analyzer_leads_index_path(paths.root)
     leads_markdown_path = research_analyzer_leads_markdown_path(paths.root)
+    lead_review_tasks = build_research_lead_review_tasks(paths.root, leads_payload)
+    lead_queue_path = research_analyzer_lead_queue_path(paths.root)
     if not dry_run:
         leads_json_path, leads_markdown_path = write_research_analyzer_leads(paths.root, pages, leads_payload)
+        lead_queue_path = write_research_lead_review_queue(paths.root, leads_payload, lead_review_tasks)
     leads_summary = leads_payload.get("summary", {})
     if not isinstance(leads_summary, dict):
         leads_summary = {}
@@ -6387,6 +6582,7 @@ def research_analyzer_run(
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
         "research_leads": relative_to_root(leads_json_path, paths.root),
         "research_leads_markdown": relative_to_root(leads_markdown_path, paths.root),
+        "research_lead_queue": relative_to_root(lead_queue_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
@@ -6394,6 +6590,7 @@ def research_analyzer_run(
         "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
         "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
         "research_lead_review_status_counts": leads_summary.get("lead_review_status_counts", {}),
+        "research_lead_tasks": len(lead_review_tasks),
         "dry_run": dry_run,
         "pages": report_pages,
     }
@@ -6420,6 +6617,7 @@ def research_analyzer_run(
         "research_question_queue": relative_to_root(question_queue_path, paths.root),
         "staging_opportunities": relative_to_root(staging_json_path, paths.root),
         "research_leads": relative_to_root(leads_json_path, paths.root),
+        "research_lead_queue": relative_to_root(lead_queue_path, paths.root),
         "staging_opportunity_pages": safe_int(staging_summary.get("opportunity_page_count"), 0),
         "staging_recommendation_counts": staging_summary.get("recommendation_type_counts", {}),
         "staging_readiness_counts": staging_summary.get("readiness_status_counts", {}),
@@ -6427,6 +6625,7 @@ def research_analyzer_run(
         "research_lead_page_references": safe_int(leads_summary.get("page_reference_count"), 0),
         "research_lead_classification_counts": leads_summary.get("lead_classification_counts", {}),
         "research_lead_review_status_counts": leads_summary.get("lead_review_status_counts", {}),
+        "research_lead_tasks": len(lead_review_tasks),
         "blockers": blockers,
     }
     state_path = write_research_analyzer_state(paths.root, summary)
@@ -10850,6 +11049,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "conversion_qa": system_queue_summary(paths.root, queue_dir / "conversion-qa.json"),
         "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
         "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
+        "research_leads": system_queue_summary(paths.root, queue_dir / "research-leads.json"),
     }
     payload = {
         "created": utc_timestamp(),
@@ -10873,9 +11073,11 @@ def build_system_queue_blocker_summary(queues: dict[str, object]) -> dict[str, o
     conversion_qa = queue_payload(queues, "conversion_qa")
     evidence_extraction = queue_payload(queues, "evidence_extraction")
     research_questions = queue_payload(queues, "research_questions")
+    research_leads = queue_payload(queues, "research_leads")
     pending_conversion_qa_counts = {
         "evidence_extraction": queue_status_total(evidence_extraction, ("blocked_pending_conversion_qa",)),
         "research_questions": queue_status_total(research_questions, ("blocked_pending_conversion_qa",)),
+        "research_leads": queue_status_total(research_leads, ("blocked_pending_conversion_qa",)),
     }
     pending_conversion_qa_counts = {
         queue: count for queue, count in pending_conversion_qa_counts.items() if count
@@ -10888,7 +11090,7 @@ def build_system_queue_blocker_summary(queues: dict[str, object]) -> dict[str, o
             "blocking_task_count": queue_status_total(conversion_qa, ("todo", "claimed", "in_progress")),
             "blocked_task_count": pending_total,
             "blocked_queues": pending_conversion_qa_counts,
-            "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction and research-question work.",
+            "next_step": "Complete conversion-QA tasks, then regenerate queues to release extraction, lead, and research-question work.",
         }
     return blockers
 
@@ -10987,6 +11189,18 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
             "Work the prompt packets and keep results in research questions or staging drafts.",
             count=question_open,
             queue=str(research_questions.get("path", "")),
+        )
+
+    research_leads = queue_payload(queues, "research_leads")
+    lead_open = queue_status_total(research_leads, ("todo", "claimed", "in_progress"))
+    if lead_open:
+        add(
+            "research_leads",
+            "medium",
+            f"{lead_open} research lead review task(s) are ready.",
+            "Work grouped lead prompt packets and keep any outputs in research/_staging.",
+            count=lead_open,
+            queue=str(research_leads.get("path", "")),
         )
 
     active_upgrades = safe_int(dict_value(page_upgrades, "active_request_count"), 0)
@@ -11752,6 +11966,7 @@ def cloud_source_prep_heartbeat(
                     "conversion_qa": system_queue_summary(paths.root, queue_dir / "conversion-qa.json"),
                     "evidence_extraction": system_queue_summary(paths.root, queue_dir / "evidence-extraction.json"),
                     "research_questions": system_queue_summary(paths.root, queue_dir / "research-questions.json"),
+                    "research_leads": system_queue_summary(paths.root, queue_dir / "research-leads.json"),
                 }
             )
     if not conversion_only and system_status:

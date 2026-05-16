@@ -20,6 +20,7 @@
   "research_question_queue": "research/_agent-queues/research-questions.json",
   "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
   "research_leads": "research/_indexes/research-leads.json",
+  "research_lead_queue": "research/_agent-queues/research-leads.json",
   "staging_opportunity_pages": 2,
   "staging_recommendation_counts": {
     "claim": 2,
@@ -40,5 +41,6 @@
     "repeated_unresolved_lead": 3,
     "unresolved_lead": 11
   },
+  "research_lead_tasks": 14,
   "blockers": []
 }
