@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T12:06:35Z
+Generated: 2026-05-16T12:26:42Z
 
 ## Source Conversion
 
@@ -19,6 +19,9 @@ Generated: 2026-05-16T12:06:35Z
 - New remote files: 0
 - Changed remote files: 0
 - Removed remote files: 0
+- Preflight: `research/_indexes/r2-source-intake-preflight.json`
+- Preflight status: missing_config
+- Missing required config: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
 - R2 manifest: `raw/r2-raw-sources.json`
 - Source-prep manifest: `raw/source-prep-manifest.json`
 - State: `none`

@@ -43,6 +43,8 @@
 
 - [[conversion-qa-next]]
 
+- [[r2-source-intake-preflight]]
+
 ## Questions
 
 - [[questions/rq-b4dc978311d3-p0001]]

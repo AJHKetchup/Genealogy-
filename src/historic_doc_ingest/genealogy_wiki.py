@@ -21,6 +21,13 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from historic_doc_ingest.raw_cloud import (
+    DEFAULT_ACCOUNT_ID,
+    DEFAULT_CONFIG_PATH,
+    DEFAULT_DERIVED_ASSET_MANIFEST_PATH,
+    DEFAULT_ENDPOINT_URL,
+    DEFAULT_RAW_CLOUD_MANIFEST_PATH,
+    DEFAULT_RAW_SOURCE_DIR,
+    DEFAULT_STATE_DIR,
     build_raw_cloud_manifest,
     build_raw_cloud_manifest_from_remote,
     cleanup_remote_json_manifests,
@@ -11634,6 +11641,10 @@ def write_system_status_dashboard(
         write_conversion_qa_unblock_plan(paths.root)
     except Exception as exc:
         blockers.append(f"conversion-qa-unblock-plan: {exc}")
+    try:
+        write_r2_source_intake_preflight(paths.root)
+    except Exception as exc:
+        blockers.append(f"r2-source-intake-preflight: {exc}")
     payload = build_system_status_payload(paths.root, blockers)
     output_path = output or (paths.indexes / "system-status.json")
     markdown_path = markdown_output or (paths.research / "System Dashboard.md")
@@ -12316,14 +12327,287 @@ def build_system_source_conversion_summary(
     }
 
 
+def r2_source_intake_preflight_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "r2-source-intake-preflight.json"
+
+
+def r2_source_intake_preflight_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "r2-source-intake-preflight.md"
+
+
+def read_dotenv_values(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    values: dict[str, str] = {}
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return values
+    for raw_line in lines:
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        if line.startswith("export "):
+            line = line[len("export ") :].strip()
+        name, value = line.split("=", 1)
+        name = name.strip()
+        value = value.strip().strip('"').strip("'")
+        if name:
+            values[name] = value
+    return values
+
+
+def r2_config_source(
+    names: tuple[str, ...],
+    env_values: dict[str, str],
+    config: dict[str, object],
+    config_keys: tuple[str, ...] = (),
+) -> str:
+    for name in names:
+        if str(os.environ.get(name, "")).strip():
+            return "environment"
+    for name in names:
+        if str(env_values.get(name, "")).strip():
+            return ".env.r2"
+    for key in config_keys:
+        if str(config.get(key, "")).strip():
+            return DEFAULT_CONFIG_PATH.as_posix()
+    return ""
+
+
+def r2_non_secret_config_value(
+    names: tuple[str, ...],
+    env_values: dict[str, str],
+    config: dict[str, object],
+    config_key: str,
+    default: str = "",
+) -> dict[str, object]:
+    for name in names:
+        value = str(os.environ.get(name, "")).strip()
+        if value:
+            return {"value": value, "source": "environment"}
+    for name in names:
+        value = str(env_values.get(name, "")).strip()
+        if value:
+            return {"value": value, "source": ".env.r2"}
+    value = str(config.get(config_key, "")).strip()
+    if value:
+        return {"value": value, "source": DEFAULT_CONFIG_PATH.as_posix()}
+    if default:
+        return {"value": default, "source": "default"}
+    return {"value": "", "source": ""}
+
+
+def build_r2_source_intake_preflight_payload(root: Path) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    env_path = paths.root / ".env.r2"
+    config_path = paths.root / DEFAULT_CONFIG_PATH
+    env_values = read_dotenv_values(env_path)
+    config = read_json_payload(config_path, {})
+
+    bucket_source = r2_config_source(("R2_BUCKET",), env_values, config, ("bucket",))
+    access_key_source = r2_config_source(("R2_ACCESS_KEY_ID", "AWS_ACCESS_KEY_ID"), env_values, config)
+    secret_key_source = r2_config_source(("R2_SECRET_ACCESS_KEY", "AWS_SECRET_ACCESS_KEY"), env_values, config)
+    required_config = [
+        {
+            "name": "R2_BUCKET",
+            "present": bool(bucket_source),
+            "source": bucket_source,
+            "accepted_aliases": [],
+            "secret": False,
+        },
+        {
+            "name": "R2_ACCESS_KEY_ID",
+            "present": bool(access_key_source),
+            "source": access_key_source,
+            "accepted_aliases": ["AWS_ACCESS_KEY_ID"],
+            "secret": True,
+        },
+        {
+            "name": "R2_SECRET_ACCESS_KEY",
+            "present": bool(secret_key_source),
+            "source": secret_key_source,
+            "accepted_aliases": ["AWS_SECRET_ACCESS_KEY"],
+            "secret": True,
+        },
+    ]
+    missing_required = [str(item["name"]) for item in required_config if not item["present"]]
+
+    account_id = r2_non_secret_config_value(("R2_ACCOUNT_ID",), env_values, config, "account_id", DEFAULT_ACCOUNT_ID)
+    endpoint_default = f"https://{account_id['value']}.r2.cloudflarestorage.com" if account_id["value"] else DEFAULT_ENDPOINT_URL
+    non_secret_config = {
+        "account_id": account_id,
+        "endpoint_url": r2_non_secret_config_value(
+            ("R2_ENDPOINT_URL",),
+            env_values,
+            config,
+            "endpoint_url",
+            str(endpoint_default),
+        ),
+        "prefix": r2_non_secret_config_value(("R2_PREFIX",), env_values, config, "prefix"),
+        "raw_dir": {
+            "value": str(config.get("raw_dir") or DEFAULT_RAW_SOURCE_DIR.as_posix()),
+            "source": DEFAULT_CONFIG_PATH.as_posix() if config.get("raw_dir") else "default",
+        },
+        "state_dir": {
+            "value": str(config.get("state_dir") or DEFAULT_STATE_DIR.as_posix()),
+            "source": DEFAULT_CONFIG_PATH.as_posix() if config.get("state_dir") else "default",
+        },
+    }
+
+    expected_outputs = {
+        "r2_manifest": DEFAULT_RAW_CLOUD_MANIFEST_PATH.as_posix(),
+        "source_prep_manifest": "raw/source-prep-manifest.json",
+        "derived_asset_manifest": DEFAULT_DERIVED_ASSET_MANIFEST_PATH.as_posix(),
+        "r2_source_intake_state": relative_to_root(r2_source_intake_state_path(paths.root), paths.root),
+        "preflight_index": relative_to_root(r2_source_intake_preflight_index_path(paths.root), paths.root),
+        "preflight_markdown": relative_to_root(r2_source_intake_preflight_markdown_path(paths.root), paths.root),
+    }
+    return {
+        "created": utc_timestamp(),
+        "status": "ready" if not missing_required else "missing_config",
+        "purpose": "GitHub-safe preflight for automatic R2 raw-source intake monitoring.",
+        "storage_contract": (
+            "R2 stores raw originals and durable binary assets; GitHub stores code, JSON, Markdown, "
+            "manifests, queues, chunks, staging/proof data, and final HTML/build files."
+        ),
+        "secrets_policy": "Only presence and source location are recorded; secret values are never written.",
+        "config_files": {
+            "env_file": ".env.r2",
+            "env_file_exists": env_path.exists(),
+            "storage_config": DEFAULT_CONFIG_PATH.as_posix(),
+            "storage_config_exists": config_path.exists(),
+        },
+        "required_config": required_config,
+        "missing_required": missing_required,
+        "non_secret_config": non_secret_config,
+        "expected_outputs": expected_outputs,
+        "next_step": (
+            "Set missing R2 config in the environment or .env.r2, then rerun the cloud source-prep heartbeat."
+            if missing_required
+            else "R2 source intake can list remote raw sources and refresh GitHub manifests."
+        ),
+    }
+
+
+def build_r2_source_intake_preflight_markdown(payload: dict[str, object]) -> str:
+    required = payload.get("required_config", [])
+    rows = [
+        "| Setting | Present | Source | Accepted Aliases | Secret |",
+        "| --- | --- | --- | --- | --- |",
+    ]
+    if isinstance(required, list):
+        for item in required:
+            if not isinstance(item, dict):
+                continue
+            rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(item.get("name", "")),
+                        markdown_table_cell("yes" if item.get("present") else "no"),
+                        markdown_table_cell(item.get("source", "") or "missing"),
+                        markdown_table_cell(format_plain_list(item.get("accepted_aliases", []))),
+                        markdown_table_cell("yes" if item.get("secret") else "no"),
+                    ]
+                )
+                + " |"
+            )
+    non_secret = payload.get("non_secret_config", {})
+    non_secret_rows = [
+        "| Config | Value | Source |",
+        "| --- | --- | --- |",
+    ]
+    if isinstance(non_secret, dict):
+        for name, item in sorted(non_secret.items()):
+            if not isinstance(item, dict):
+                continue
+            non_secret_rows.append(
+                "| "
+                + " | ".join(
+                    [
+                        markdown_table_cell(name),
+                        markdown_table_cell(item.get("value", "")),
+                        markdown_table_cell(item.get("source", "") or "missing"),
+                    ]
+                )
+                + " |"
+            )
+    expected = payload.get("expected_outputs", {})
+    expected_lines = []
+    if isinstance(expected, dict):
+        expected_lines = [f"- {key}: `{value}`" for key, value in sorted(expected.items())]
+    if not expected_lines:
+        expected_lines = ["- None"]
+    missing = format_plain_list(payload.get("missing_required", []))
+    return f"""# R2 Source Intake Preflight
+
+Generated: {payload.get("created", "")}
+
+Status: {payload.get("status", "")}
+
+## Storage Contract
+
+{payload.get("storage_contract", "")}
+
+## Required Configuration
+
+Missing required config: {missing}
+
+{chr(10).join(rows)}
+
+## Non-Secret Configuration
+
+{chr(10).join(non_secret_rows)}
+
+## Expected GitHub Artifacts
+
+{chr(10).join(expected_lines)}
+
+## Safety
+
+{payload.get("secrets_policy", "")}
+
+Next step: {payload.get("next_step", "")}
+"""
+
+
+def write_r2_source_intake_preflight(root: Path) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    payload = build_r2_source_intake_preflight_payload(paths.root)
+    index_path = r2_source_intake_preflight_index_path(paths.root)
+    markdown_path = r2_source_intake_preflight_markdown_path(paths.root)
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    index_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_r2_source_intake_preflight_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[r2-source-intake-preflight]]")
+    append_log(paths.research / "log.md", f"r2-source-intake-preflight | Wrote {relative_to_root(index_path, paths.root)}")
+    return [index_path, markdown_path]
+
+
+def build_r2_source_intake_preflight_summary(root: Path) -> dict[str, object]:
+    index_path = r2_source_intake_preflight_index_path(root)
+    markdown_path = r2_source_intake_preflight_markdown_path(root)
+    payload = read_json_payload(index_path, {})
+    return {
+        "preflight": relative_to_root(index_path, root) if index_path.exists() else "",
+        "preflight_markdown": relative_to_root(markdown_path, root) if markdown_path.exists() else "",
+        "preflight_status": payload.get("status", "") if payload else "not_written",
+        "preflight_missing_required": payload.get("missing_required", []) if payload else [],
+        "preflight_next_step": payload.get("next_step", "") if payload else "",
+    }
+
+
 def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
     state_path = r2_source_intake_state_path(root)
     heartbeat_path = root / "research" / "_automation" / "cloud-source-prep-heartbeat-state.json"
     heartbeat = read_json_payload(heartbeat_path, {})
     heartbeat_step = latest_named_heartbeat_step(heartbeat, "r2-source-intake")
     payload = read_json_payload(state_path, {}) if state_path.exists() else {}
+    preflight = build_r2_source_intake_preflight_summary(root)
     if payload:
-        return {
+        summary = {
             "status": "active" if not payload.get("dry_run") else "dry_run",
             "state": relative_to_root(state_path, root),
             "created": payload.get("created", ""),
@@ -12337,8 +12621,10 @@ def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
             "last_heartbeat_detail": heartbeat_step.get("detail", ""),
             "blockers": payload.get("blockers", []),
         }
+        summary.update(preflight)
+        return summary
     status = str(heartbeat_step.get("status", "")).strip()
-    return {
+    summary = {
         "status": status or "not_started",
         "state": "",
         "created": heartbeat.get("created", "") if isinstance(heartbeat, dict) else "",
@@ -12352,6 +12638,9 @@ def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
         "last_heartbeat_detail": heartbeat_step.get("detail", ""),
         "blockers": [],
     }
+    summary.update(preflight)
+    return summary
+
 
 
 def latest_named_heartbeat_step(payload: object, name: str) -> dict[str, object]:
@@ -12645,6 +12934,9 @@ Generated: {payload.get("created", "")}
 - New remote files: {dict_value(r2_source_intake, "new_file_count")}
 - Changed remote files: {dict_value(r2_source_intake, "changed_file_count")}
 - Removed remote files: {dict_value(r2_source_intake, "removed_file_count")}
+- Preflight: `{dict_value(r2_source_intake, "preflight", "") or "none"}`
+- Preflight status: {dict_value(r2_source_intake, "preflight_status", "") or "not_written"}
+- Missing required config: {format_plain_list(dict_value(r2_source_intake, "preflight_missing_required", []))}
 - R2 manifest: `{dict_value(r2_source_intake, "r2_manifest", "")}`
 - Source-prep manifest: `{dict_value(r2_source_intake, "source_prep_manifest", "")}`
 - State: `{dict_value(r2_source_intake, "state", "") or "none"}`
@@ -12732,6 +13024,12 @@ def format_status_counts(value: object) -> str:
     if not isinstance(value, dict) or not value:
         return "none"
     return ", ".join(f"{key}: {value[key]}" for key in sorted(value))
+
+
+def format_plain_list(value: object) -> str:
+    if not isinstance(value, list) or not value:
+        return "none"
+    return ", ".join(str(item) for item in value)
 
 
 def read_json_payload(path: Path, default: dict[str, object] | None = None) -> dict[str, object]:

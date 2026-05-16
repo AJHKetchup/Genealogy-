@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-16T12:26:42Z",
+  "status": "missing_config",
+  "purpose": "GitHub-safe preflight for automatic R2 raw-source intake monitoring.",
+  "storage_contract": "R2 stores raw originals and durable binary assets; GitHub stores code, JSON, Markdown, manifests, queues, chunks, staging/proof data, and final HTML/build files.",
+  "secrets_policy": "Only presence and source location are recorded; secret values are never written.",
+  "config_files": {
+    "env_file": ".env.r2",
+    "env_file_exists": false,
+    "storage_config": "raw/r2-storage.json",
+    "storage_config_exists": false
+  },
+  "required_config": [
+    {
+      "name": "R2_BUCKET",
+      "present": false,
+      "source": "",
+      "accepted_aliases": [],
+      "secret": false
+    },
+    {
+      "name": "R2_ACCESS_KEY_ID",
+      "present": false,
+      "source": "",
+      "accepted_aliases": [
+        "AWS_ACCESS_KEY_ID"
+      ],
+      "secret": true
+    },
+    {
+      "name": "R2_SECRET_ACCESS_KEY",
+      "present": false,
+      "source": "",
+      "accepted_aliases": [
+        "AWS_SECRET_ACCESS_KEY"
+      ],
+      "secret": true
+    }
+  ],
+  "missing_required": [
+    "R2_BUCKET",
+    "R2_ACCESS_KEY_ID",
+    "R2_SECRET_ACCESS_KEY"
+  ],
+  "non_secret_config": {
+    "account_id": {
+      "value": "e49bd1edd9fe4f9384b9cae226f7bf8a",
+      "source": "default"
+    },
+    "endpoint_url": {
+      "value": "https://e49bd1edd9fe4f9384b9cae226f7bf8a.r2.cloudflarestorage.com",
+      "source": "default"
+    },
+    "prefix": {
+      "value": "",
+      "source": ""
+    },
+    "raw_dir": {
+      "value": "raw/sources",
+      "source": "default"
+    },
+    "state_dir": {
+      "value": ".genealogy/raw-cloud",
+      "source": "default"
+    }
+  },
+  "expected_outputs": {
+    "r2_manifest": "raw/r2-raw-sources.json",
+    "source_prep_manifest": "raw/source-prep-manifest.json",
+    "derived_asset_manifest": "raw/r2-derived-assets.json",
+    "r2_source_intake_state": "research/_automation/r2-source-intake-state.json",
+    "preflight_index": "research/_indexes/r2-source-intake-preflight.json",
+    "preflight_markdown": "research/r2-source-intake-preflight.md"
+  },
+  "next_step": "Set missing R2 config in the environment or .env.r2, then rerun the cloud source-prep heartbeat."
+}

@@ -1,6 +1,6 @@
 # Conversion QA Next
 
-Generated: 2026-05-16T12:06:35Z
+Generated: 2026-05-16T12:26:42Z
 
 This is the current highest-impact conversion-QA focus packet. It is an operational queue aid, not a source interpretation or canonical genealogy artifact.
 

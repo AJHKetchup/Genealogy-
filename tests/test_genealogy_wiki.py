@@ -835,6 +835,48 @@ def test_cloud_source_prep_heartbeat_skips_r2_intake_without_credentials(tmp_pat
     assert all(not str(blocker).startswith("r2-source-intake") for blocker in summary["blockers"])
 
 
+def test_r2_source_intake_preflight_reports_missing_config(monkeypatch, tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    for name in (
+        "R2_BUCKET",
+        "R2_ACCESS_KEY_ID",
+        "R2_SECRET_ACCESS_KEY",
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+    ):
+        monkeypatch.delenv(name, raising=False)
+
+    written = genealogy_wiki.write_r2_source_intake_preflight(tmp_path)
+
+    assert {path.name for path in written} == {"r2-source-intake-preflight.json", "r2-source-intake-preflight.md"}
+    payload = json.loads(
+        (tmp_path / "research" / "_indexes" / "r2-source-intake-preflight.json").read_text(encoding="utf-8")
+    )
+    assert payload["status"] == "missing_config"
+    assert payload["missing_required"] == ["R2_BUCKET", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY"]
+    assert payload["secrets_policy"] == "Only presence and source location are recorded; secret values are never written."
+    assert payload["expected_outputs"]["r2_manifest"] == "raw/r2-raw-sources.json"
+    markdown = (tmp_path / "research" / "r2-source-intake-preflight.md").read_text(encoding="utf-8")
+    assert "Missing required config: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY" in markdown
+    assert "[[r2-source-intake-preflight]]" in (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
+
+
+def test_r2_source_intake_preflight_does_not_write_secret_values(monkeypatch, tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    monkeypatch.setenv("R2_BUCKET", "genealogy-test")
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "test-access-key-id")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "test-secret-access-key")
+
+    genealogy_wiki.write_r2_source_intake_preflight(tmp_path)
+
+    text = (tmp_path / "research" / "_indexes" / "r2-source-intake-preflight.json").read_text(encoding="utf-8")
+    payload = json.loads(text)
+    assert payload["status"] == "ready"
+    assert payload["missing_required"] == []
+    assert "test-secret-access-key" not in text
+    assert "test-access-key-id" not in text
+
+
 def test_prepare_raw_sources_splits_large_pdfs_into_agent_page_ranges(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -2189,8 +2231,16 @@ def test_completed_qc_reread_hold_is_unblocked_when_page_passes_contract(tmp_pat
     assert usability["sources"][0]["page_repair_count"] == 0
 
 
-def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None:
+def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
+    for name in (
+        "R2_BUCKET",
+        "R2_ACCESS_KEY_ID",
+        "R2_SECRET_ACCESS_KEY",
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+    ):
+        monkeypatch.delenv(name, raising=False)
     from PIL import Image
 
     source = tmp_path / "raw" / "sources" / "scan.jpg"
@@ -2243,6 +2293,13 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert payload["r2_source_intake"]["remote_file_count"] == 3
     assert payload["r2_source_intake"]["new_file_count"] == 1
     assert payload["r2_source_intake"]["changed_file_count"] == 1
+    assert payload["r2_source_intake"]["preflight"] == "research/_indexes/r2-source-intake-preflight.json"
+    assert payload["r2_source_intake"]["preflight_status"] == "missing_config"
+    assert payload["r2_source_intake"]["preflight_missing_required"] == [
+        "R2_BUCKET",
+        "R2_ACCESS_KEY_ID",
+        "R2_SECRET_ACCESS_KEY",
+    ]
     assert payload["storage"]["r2_derived_asset_count"] == 1
     assert payload["storage_lifecycle"]["status"] == "not_started"
     assert payload["conversion_qa_unblock"]["summary"]["conversion_qa_task_count"] == 0
@@ -2251,6 +2308,8 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "## Source Conversion" in dashboard_text
     assert "## R2 Source Intake" in dashboard_text
     assert "Remote raw files seen: 3" in dashboard_text
+    assert "Preflight status: missing_config" in dashboard_text
+    assert "Missing required config: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY" in dashboard_text
     assert "## Next Actions" in dashboard_text
     assert "Analyzer staging opportunity pages" in dashboard_text
     assert "Analyzer staging readiness" in dashboard_text
@@ -2268,6 +2327,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(tmp_path) -> None
     assert "## Final Site" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert "[[System Dashboard]]" in research_index
+    assert "[[r2-source-intake-preflight]]" in research_index
 
 
 def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_path) -> None:
