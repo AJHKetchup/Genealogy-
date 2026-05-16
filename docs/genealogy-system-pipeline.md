@@ -214,6 +214,7 @@ Storage deaccession is allowed only when:
 - Implemented: cloud heartbeat keeps conversion-QA gate queues materialized by default.
 - Implemented: cloud heartbeat refreshes the final static site and whole-system dashboard artifacts.
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
+- Implemented: cloud heartbeat can run R2 source intake monitoring without restoring raw originals.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
 - Implemented: whole-system dashboard next-action guidance from queue blockers and readiness signals.
 - Implemented: whole-system queue-blocker summary for conversion-QA-gated downstream work.

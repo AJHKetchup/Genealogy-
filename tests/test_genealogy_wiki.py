@@ -765,6 +765,76 @@ def test_r2_source_intake_monitor_writes_remote_manifest_and_registers_sources(m
     assert sources_by_path["raw/sources/existing.pdf"]["cloud"]["sha256"] == "new-sha-existing"
 
 
+def test_cloud_source_prep_heartbeat_runs_r2_intake_without_raw_restore(monkeypatch, tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    monkeypatch.setenv("R2_BUCKET", "genealogy")
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "test")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "test")
+
+    def fake_remote_manifest(root, config, limit=None):
+        return {
+            "version": 1,
+            "created": "2026-05-16T00:00:00+00:00",
+            "purpose": "Cloud object inventory for immutable raw genealogy source originals.",
+            "storage": {
+                "provider": "cloudflare-r2",
+                "account_id": config.account_id,
+                "endpoint_url": config.endpoint_url,
+                "bucket": config.bucket,
+                "prefix": config.prefix,
+            },
+            "manifest_path": "raw/r2-raw-sources.json",
+            "raw_source_root": "raw/sources",
+            "source": "remote-r2-list",
+            "files": [
+                {
+                    "path": "raw/sources/cloud-only-intake.pdf",
+                    "key": "raw/sources/cloud-only-intake.pdf",
+                    "bytes": 99,
+                    "sha256": "cloud-sha",
+                    "media_type": "application/pdf",
+                }
+            ],
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "build_raw_cloud_manifest_from_remote", fake_remote_manifest)
+
+    summary = cloud_source_prep_heartbeat(
+        tmp_path,
+        restore_raw=False,
+        upload_assets=False,
+        research_analyzer=False,
+        build_site=False,
+        system_status=False,
+    )
+
+    intake_step = next(step for step in summary["steps"] if step["name"] == "r2-source-intake")
+    assert intake_step["status"] == "ran"
+    assert all(step["name"] != "raw-cloud restore" for step in summary["steps"])
+    assert summary["r2"]["source_intake_monitor"] is True
+    assert not summary["blockers"]
+    source_manifest = json.loads((tmp_path / "raw" / "source-prep-manifest.json").read_text(encoding="utf-8"))
+    sources_by_path = {source["raw_path"]: source for source in source_manifest["sources"]}
+    assert sources_by_path["raw/sources/cloud-only-intake.pdf"]["status"] == "cloud_registered"
+
+
+def test_cloud_source_prep_heartbeat_skips_r2_intake_without_credentials(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+
+    summary = cloud_source_prep_heartbeat(
+        tmp_path,
+        restore_raw=False,
+        upload_assets=False,
+        research_analyzer=False,
+        build_site=False,
+        system_status=False,
+    )
+
+    intake_step = next(step for step in summary["steps"] if step["name"] == "r2-source-intake")
+    assert intake_step["status"] == "skipped-missing-config"
+    assert all(not str(blocker).startswith("r2-source-intake") for blocker in summary["blockers"])
+
+
 def test_prepare_raw_sources_splits_large_pdfs_into_agent_page_ranges(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

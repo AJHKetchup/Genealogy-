@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T09:21:17Z",
+  "created": "2026-05-16T09:37:00Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -120,7 +120,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T09:21:17Z",
+      "created": "2026-05-16T09:37:00Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

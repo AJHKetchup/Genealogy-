@@ -11209,6 +11209,7 @@ def write_cloud_source_prep_heartbeat_state(root: Path, summary: dict[str, objec
 def cloud_source_prep_heartbeat(
     root: Path,
     *,
+    r2_source_intake: bool = True,
     restore_raw: bool = True,
     upload_assets: bool = True,
     research_analyzer: bool = True,
@@ -11236,6 +11237,7 @@ def cloud_source_prep_heartbeat(
         "mode": "cloud-first-source-prep-heartbeat",
         "root": str(paths.root),
         "r2": {
+            "source_intake_monitor": r2_source_intake,
             "restore_raw": restore_raw,
             "upload_assets": upload_assets,
         },
@@ -11269,17 +11271,27 @@ def cloud_source_prep_heartbeat(
         if isinstance(cast_steps, list):
             cast_steps.append(step)
 
-    if restore_raw:
+    if r2_source_intake:
         try:
             if dry_run:
                 record_step("r2-source-intake", "skipped-dry-run")
             else:
                 intake_report = monitor_r2_source_intake(paths.root)
                 record_step("r2-source-intake", "ran", intake_report)
+        except ValueError as exc:
+            message = str(exc)
+            if "Missing R2 configuration" in message:
+                record_step("r2-source-intake", "skipped-missing-config", message)
+            else:
+                summary["blockers"].append(f"r2-source-intake: {exc}")
+                record_step("r2-source-intake", "failed", str(exc))
         except Exception as exc:
             summary["blockers"].append(f"r2-source-intake: {exc}")
             record_step("r2-source-intake", "failed", str(exc))
+    else:
+        record_step("r2-source-intake", "skipped", "disabled")
 
+    if restore_raw:
         try:
             config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
             if dry_run:
@@ -13391,6 +13403,11 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--no-system-status", action="store_true", help="Skip refreshing the whole-system dashboard artifacts.")
     cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts. The conversion-QA gate queue is refreshed by default.")
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
+    cloud_source_prep_parser.add_argument(
+        "--no-r2-source-intake",
+        action="store_true",
+        help="Skip the R2 raw-source intake monitor. This is independent of --no-restore.",
+    )
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
     cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload durable crops/assets to R2.")
     cloud_source_prep_parser.add_argument("--dry-run", action="store_true", help="Skip R2 writes and raw restore; still refresh local queue outputs.")
@@ -14043,6 +14060,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "cloud-source-prep-heartbeat":
         summary = cloud_source_prep_heartbeat(
             root=args.root,
+            r2_source_intake=not args.no_r2_source_intake,
             restore_raw=not args.no_restore,
             upload_assets=not args.no_asset_upload,
             research_analyzer=not args.no_research_analyzer,
