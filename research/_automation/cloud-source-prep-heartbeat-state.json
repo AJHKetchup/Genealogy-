@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T15:36:13Z",
+  "created": "2026-05-16T16:23:04Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -8,6 +8,14 @@
     "upload_assets": false
   },
   "settings": {
+    "docling_discovery": true,
+    "docling_limit": 25,
+    "docling_scan_limit": 250,
+    "gemini_source_prep": true,
+    "gemini_limit": 10,
+    "gemini_parallelism": 1,
+    "gemini_queue_limit": 160,
+    "source_prep_gate": true,
     "conversion_qc": false,
     "conversion_only": false,
     "research_analyzer": true,
@@ -40,9 +48,96 @@
       }
     },
     {
+      "name": "source-prep-docling-discovery",
+      "status": "ran",
+      "detail": {
+        "created": "2026-05-16T16:23:04Z",
+        "mode": "source-prep-docling-discovery",
+        "dry_run": false,
+        "agent": "cloud-source-prep-docling",
+        "limit": 25,
+        "scan_limit": 250,
+        "inspected": 0,
+        "accepted": 0,
+        "unusable": 0,
+        "errors": 0,
+        "skipped": {},
+        "tasks": [],
+        "blockers": [],
+        "finished": "2026-05-16T16:23:04Z",
+        "state_path": "research/_automation/source-prep-docling-state.json"
+      }
+    },
+    {
+      "name": "gemini-source-prep",
+      "status": "ran",
+      "detail": {
+        "created": "2026-05-16T16:23:04Z",
+        "mode": "gemini-source-prep",
+        "dry_run": false,
+        "limit": 10,
+        "parallelism": 1,
+        "queue": "research/_agent-queues/source-prep-batches.json",
+        "models": {
+          "lite": "gemini-2.5-flash-lite",
+          "pro": "gemini-2.5-pro"
+        },
+        "processed": 0,
+        "completed": 0,
+        "released": 0,
+        "skipped": 0,
+        "discovery_skipped": 0,
+        "route_counts": {},
+        "tasks": [],
+        "usage": {
+          "prompt_tokens": 0,
+          "candidate_tokens": 0,
+          "total_tokens": 0
+        },
+        "visual_regions": {
+          "declared": 0,
+          "cropped": 0,
+          "skipped": 0,
+          "manifests": 0
+        },
+        "finished": "2026-05-16T16:23:04Z",
+        "state_path": "research/_automation/gemini-source-prep-state.json"
+      }
+    },
+    {
+      "name": "assemble-and-chunk",
+      "status": "ran",
+      "detail": {
+        "prepared_sources": 0
+      }
+    },
+    {
+      "name": "source-prep-first-gate",
+      "status": "blocked",
+      "detail": {
+        "ready": false,
+        "source_count": 49,
+        "source_status_counts": {
+          "converted": 1,
+          "cloud_registered": 48
+        },
+        "pending_source_statuses": {
+          "cloud_registered": 48
+        },
+        "pending_source_count": 48,
+        "source_prep_task_count": 5,
+        "source_prep_task_status_counts": {
+          "done": 5
+        },
+        "blocking_task_statuses": {},
+        "blocking_task_count": 0,
+        "next_step": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
+      }
+    },
+    {
       "name": "conversion-qc",
-      "status": "skipped",
-      "detail": "disabled; use source-relevance feedback for research-to-conversion routing"
+      "status": "skipped-source-prep-gate",
+      "detail": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
     },
     {
       "name": "agent-queues",
@@ -74,89 +169,18 @@
     },
     {
       "name": "research-analyzer",
-      "status": "ran",
-      "detail": {
-        "version": 6,
-        "created": "2026-05-16",
-        "mode": "research-analyzer",
-        "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
-        "dry_run": false,
-        "limit": 5,
-        "question_limit": 5,
-        "pages_scanned": 8,
-        "pages_with_signals": 2,
-        "upgrade_candidates": 0,
-        "upgrade_requests_written": 0,
-        "upgrade_requests_existing": 0,
-        "research_question_candidates": 2,
-        "research_questions_written": 0,
-        "research_questions_existing": 2,
-        "research_questions_refreshed": 2,
-        "index": "research/_indexes/research-analyzer.json",
-        "feedback": "research/_agent-queues/source-relevance-feedback.json",
-        "research_question_queue": "research/_agent-queues/research-questions.json",
-        "staging_opportunities": "research/_indexes/research-staging-opportunities.json",
-        "staging_backlog": "research/_indexes/research-staging-backlog.json",
-        "staging_backlog_markdown": "research/staging-backlog.md",
-        "research_leads": "research/_indexes/research-leads.json",
-        "research_lead_queue": "research/_agent-queues/research-leads.json",
-        "external_research_requests": "research/_indexes/external-research-requests.json",
-        "external_research_queue": "research/_agent-queues/external-research.json",
-        "staging_opportunity_pages": 2,
-        "staging_recommendation_counts": {
-          "claim": 2,
-          "source_packet": 2
-        },
-        "staging_readiness_counts": {
-          "blocked_pending_conversion_qa": 2
-        },
-        "staging_backlog_items": 2,
-        "staging_backlog_ready_items": 0,
-        "staging_backlog_blocked_items": 2,
-        "staging_backlog_readiness_counts": {
-          "blocked_pending_conversion_qa": 2
-        },
-        "research_lead_count": 15,
-        "research_lead_page_references": 18,
-        "research_lead_classification_counts": {
-          "ambiguous_marker": 1,
-          "person_name": 3,
-          "titled_name": 11
-        },
-        "research_lead_review_status_counts": {
-          "low_signal": 1,
-          "repeated_unresolved_lead": 3,
-          "unresolved_lead": 11
-        },
-        "research_lead_tasks": 14,
-        "external_research_request_count": 3,
-        "external_research_status_counts": {
-          "blocked_pending_conversion_qa": 3
-        },
-        "external_research_review_status_counts": {
-          "repeated_unresolved_lead": 3
-        },
-        "external_research_tasks": 3,
-        "blockers": [],
-        "state": "research/_automation/research-analyzer-state.json"
-      }
+      "status": "skipped-source-prep-gate",
+      "detail": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
     },
     {
       "name": "conversion-qa-context",
-      "status": "ran",
-      "detail": {
-        "written": "research/_agent-queues/conversion-qa.json"
-      }
+      "status": "skipped-source-prep-gate",
+      "detail": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
     },
     {
       "name": "page-upgrades",
-      "status": "ran",
-      "detail": {
-        "written": [
-          "research/_indexes/page-upgrades.json",
-          "research/page-upgrades.md"
-        ]
-      }
+      "status": "skipped-source-prep-gate",
+      "detail": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
     },
     {
       "name": "storage-lifecycle",
@@ -170,21 +194,8 @@
     },
     {
       "name": "site-build",
-      "status": "ran",
-      "detail": {
-        "written": [
-          "wiki/Family Tree.md",
-          "site/assets/site.css",
-          "site/assets/search.js",
-          "site/index.html",
-          "site/family-tree.html",
-          "site/search-index.json",
-          "site/search.html",
-          "site/site-manifest.json",
-          "research/_indexes/final-site-status.json",
-          "research/final-site-status.md"
-        ]
-      }
+      "status": "skipped-source-prep-gate",
+      "detail": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
     },
     {
       "name": "system-status",
@@ -198,6 +209,25 @@
     }
   ],
   "blockers": [],
+  "source_prep_gate": {
+    "ready": false,
+    "source_count": 49,
+    "source_status_counts": {
+      "converted": 1,
+      "cloud_registered": 48
+    },
+    "pending_source_statuses": {
+      "cloud_registered": 48
+    },
+    "pending_source_count": 48,
+    "source_prep_task_count": 5,
+    "source_prep_task_status_counts": {
+      "done": 5
+    },
+    "blocking_task_statuses": {},
+    "blocking_task_count": 0,
+    "next_step": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
+  },
   "queues": {
     "source_prep_batches": {
       "path": "research/_agent-queues/source-prep-batches.json",
@@ -247,6 +277,6 @@
       }
     }
   },
-  "finished": "2026-05-16T15:36:13Z",
+  "finished": "2026-05-16T16:23:05Z",
   "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

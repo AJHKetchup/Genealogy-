@@ -193,6 +193,8 @@ Storage deaccession is allowed only when:
 - Implemented: GitHub Markdown, JSON, queue, manifest, chunk, and automation state storage.
 - Implemented: page-level source-prep tasks.
 - Implemented: Docling rough discovery.
+- Implemented: cloud heartbeat runs Docling basic conversion before downstream research, writes accepted Docling page Markdown, extracts Docling picture images into page extracted-image folders, and routes Docling-unusable pages to Gemini Pro fallback.
+- Implemented: source-prep first gate blocks research-analyzer, conversion-QA context, page-upgrade, and final-site steps until registered sources and source-prep page tasks are converted.
 - Implemented: Gemini Lite/Pro conversion routing.
 - Implemented: parallel Gemini page conversion.
 - Implemented: page-level upgrade feedback command and state file.
@@ -242,6 +244,7 @@ Storage deaccession is allowed only when:
 - Implemented: static HTML site build refreshes the generated Family Tree entry point.
 - Implemented: final-site status report with HTML entry-point and source-page coverage checks.
 - Implemented: static final-site search index and search page generated from public wiki pages.
+- Implemented: static site utility page surfaces current agent workflow queues and flow-node status.
 - Implemented: non-destructive page-level storage lifecycle ranking and deaccession candidate records.
 - Implemented: cloud heartbeat refreshes the non-destructive storage lifecycle report by default.
 - Partial: research wiki and staging structure.

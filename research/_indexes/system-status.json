@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T15:36:13Z",
+  "created": "2026-05-16T16:23:05Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -14,10 +14,29 @@
       "conversion_not_started": 48
     }
   },
+  "source_prep_gate": {
+    "ready": false,
+    "source_count": 49,
+    "source_status_counts": {
+      "converted": 1,
+      "cloud_registered": 48
+    },
+    "pending_source_statuses": {
+      "cloud_registered": 48
+    },
+    "pending_source_count": 48,
+    "source_prep_task_count": 5,
+    "source_prep_task_status_counts": {
+      "done": 5
+    },
+    "blocking_task_statuses": {},
+    "blocking_task_count": 0,
+    "next_step": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
+  },
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T15:36:13Z",
+    "created": "2026-05-16T16:23:04Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -167,7 +186,7 @@
     }
   },
   "conversion_qa_unblock": {
-    "created": "2026-05-16T15:36:13Z",
+    "created": "2026-05-16T16:23:05Z",
     "path": "research/_indexes/conversion-qa-unblock-plan.json",
     "markdown": "research/conversion-qa-unblock-plan.md",
     "next_focus": "research/conversion-qa-next.md",
@@ -242,9 +261,9 @@
     "search_index_exists": true,
     "search_entry_count": 2,
     "source_page_count": 2,
-    "manifest_page_count": 3,
-    "utility_page_count": 1,
-    "html_file_count": 3,
+    "manifest_page_count": 4,
+    "utility_page_count": 2,
+    "html_file_count": 4,
     "asset_count": 2,
     "missing_entrypoint_count": 0,
     "missing_manifest_output_count": 0,
@@ -267,13 +286,13 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T15:36:13Z",
+      "created": "2026-05-16T16:23:04Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },
     "gemini-source-prep-state": {
       "path": "research/_automation/gemini-source-prep-state.json",
-      "created": "2026-05-16T03:29:02Z",
+      "created": "2026-05-16T16:23:04Z",
       "mode": "gemini-source-prep",
       "blockers": []
     },
@@ -285,7 +304,7 @@
     },
     "source-prep-docling-state": {
       "path": "research/_automation/source-prep-docling-state.json",
-      "created": "2026-05-16T03:29:01Z",
+      "created": "2026-05-16T16:23:04Z",
       "mode": "source-prep-docling-discovery",
       "blockers": []
     }
@@ -293,36 +312,10 @@
   "blockers": [],
   "next_actions": [
     {
-      "area": "conversion_qa",
+      "area": "source_prep_gate",
       "priority": "high",
-      "reason": "4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate. Highest-impact QA task unlocks 24 downstream task(s).",
-      "next_step": "Start conversion-QA triage with `research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md`; mark `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md` done when complete, then regenerate agent queues.",
-      "count": 4,
-      "queue": "research/_agent-queues/conversion-qa.json",
-      "top_unblock_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
-      "top_unblock_prompt": "research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md",
-      "top_unblock_count": 24,
-      "top_unblock_queues": {
-        "evidence_extraction": 3,
-        "research_questions": 2,
-        "research_leads": 14,
-        "external_research": 3,
-        "research_staging_backlog": 2
-      }
-    },
-    {
-      "area": "evidence_extraction",
-      "priority": "high",
-      "reason": "8 evidence-extraction task(s) are blocked by the conversion-QA gate.",
-      "next_step": "Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction.",
-      "count": 8,
-      "queue": "research/_agent-queues/evidence-extraction.json"
-    },
-    {
-      "area": "source_conversion",
-      "priority": "low",
-      "reason": "48 source(s) are registered but not yet converted.",
-      "next_step": "Prepare the next bounded raw-source batch while preserving originals in R2.",
+      "reason": "48 registered source(s) are not converted yet.",
+      "next_step": "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run.",
       "count": 48
     }
   ]

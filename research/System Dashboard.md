@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T15:36:13Z
+Generated: 2026-05-16T16:23:05Z
 
 ## Source Conversion
 
@@ -10,6 +10,17 @@ Generated: 2026-05-16T15:36:13Z
 - Conversion jobs: 4
 - Converted Markdown files: 4
 - Usability: conversion_not_started: 48, usable_for_extraction: 1
+
+## Source Prep First Gate
+
+- Gate ready: false
+- Registered sources: 49
+- Pending registered sources: 48
+- Source statuses: cloud_registered: 48, converted: 1
+- Source-prep page tasks: 5
+- Blocking page tasks: 0
+- Blocking task statuses: none
+- Next step: Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run.
 
 ## R2 Source Intake
 
@@ -65,9 +76,7 @@ Generated: 2026-05-16T15:36:13Z
 
 ## Next Actions
 
-- **high** `conversion_qa`: Start conversion-QA triage with `research/_agent-queues/prompts/conversion-qa/conversion-qa-raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md.md`; mark `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md` done when complete, then regenerate agent queues. (4 converted source(s) are waiting for conversion-QA triage. 27 downstream task(s) are held by this gate. Highest-impact QA task unlocks 24 downstream task(s).)
-- **high** `evidence_extraction`: Finish the matching conversion-QA tasks, then regenerate agent queues to release extraction. (8 evidence-extraction task(s) are blocked by the conversion-QA gate.)
-- **low** `source_conversion`: Prepare the next bounded raw-source batch while preserving originals in R2. (48 source(s) are registered but not yet converted.)
+- **high** `source_prep_gate`: Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run. (48 registered source(s) are not converted yet.)
 
 ## Queues
 
@@ -116,9 +125,9 @@ Generated: 2026-05-16T15:36:13Z
 - Manifest: `site/site-manifest.json`
 - Search index: `site/search-index.json` (2 entries)
 - Source wiki pages: 2
-- Utility pages: 1
-- Manifest pages: 3
-- HTML files: 3
+- Utility pages: 2
+- Manifest pages: 4
+- HTML files: 4
 - Missing entry points: 0
 - Missing manifest outputs: 0
 - Missing source pages from manifest: 0

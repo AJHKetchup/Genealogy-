@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T15:36:13Z",
+  "created": "2026-05-16T15:55:57Z",
   "status": "ready",
   "purpose": "Final HTML genealogy site status and coverage report.",
   "site_root": "site",
@@ -22,6 +22,11 @@
       "exists": true
     },
     {
+      "name": "Agent Workflows",
+      "output": "site/agent-workflows.html",
+      "exists": true
+    },
+    {
       "name": "Search",
       "output": "site/search.html",
       "exists": true
@@ -30,16 +35,18 @@
   "missing_entrypoints": [],
   "missing_entrypoint_count": 0,
   "source_page_count": 2,
-  "manifest_page_count": 3,
-  "utility_page_count": 1,
-  "html_file_count": 3,
+  "manifest_page_count": 4,
+  "utility_page_count": 2,
+  "html_file_count": 4,
   "asset_count": 2,
   "manifest_outputs": [
     "site/index.html",
     "site/family-tree.html",
+    "site/agent-workflows.html",
     "site/search.html"
   ],
   "html_outputs": [
+    "site/agent-workflows.html",
     "site/family-tree.html",
     "site/index.html",
     "site/search.html"

@@ -1,10 +1,10 @@
 {
-  "created": "2026-05-16T15:36:13Z",
+  "created": "2026-05-16T15:55:57Z",
   "purpose": "Static HTML build manifest for the user-facing genealogy site.",
   "site_root": "site",
   "source_root": "wiki",
   "page_count": 2,
-  "utility_page_count": 1,
+  "utility_page_count": 2,
   "search_index": "site/search-index.json",
   "search_entry_count": 2,
   "asset_count": 2,
@@ -22,6 +22,11 @@
     }
   ],
   "utility_pages": [
+    {
+      "title": "Agent Workflows",
+      "source": "research/_agent-queues/*.json",
+      "output": "site/agent-workflows.html"
+    },
     {
       "title": "Search",
       "source": "site/search-index.json",

@@ -33,6 +33,7 @@ from historic_doc_ingest.raw_cloud import (
     cleanup_remote_json_manifests,
     upload_derived_assets_to_cloud,
     load_raw_cloud_config,
+    long_fs_path,
     restore_raw_from_cloud,
     upload_raw_to_cloud,
     verify_raw_cloud,
@@ -9216,11 +9217,19 @@ def build_source_prep_discovery_markdown(
     task: dict[str, object],
     docling_markdown: str,
     profile: dict[str, object],
+    extracted_images: list[dict[str, object]] | None = None,
 ) -> str:
     page_number = safe_int(task.get("page"), 1)
     fence = markdown_fence_for_text(docling_markdown)
     status = str(profile.get("status", "")).strip()
     flags = ", ".join(str(flag) for flag in profile.get("readability_flags", []) or []) or "none"
+    extracted_images = extracted_images or []
+    image_lines = ["## Extracted Image Discovery", ""]
+    if extracted_images:
+        for image in extracted_images:
+            image_lines.append(f"- `{image.get('path', '')}`")
+    else:
+        image_lines.append("- No Docling picture images were extracted.")
     return f"""# Rough Docling Discovery: Page {page_number}
 
 > This is rough discovery text for browsing and triage only. It is not evidence-grade transcription and should not be cited as a source conversion.
@@ -9240,12 +9249,96 @@ def build_source_prep_discovery_markdown(
 - Text characters: {profile.get("text_chars", 0)}
 - Alpha characters: {profile.get("alpha_chars", 0)}
 - Word count: {profile.get("word_count", 0)}
+- Extracted picture images: {len(extracted_images)}
+
+{chr(10).join(image_lines)}
 
 ## Rough Markdown
 
 {fence}markdown
 {docling_markdown.strip()}
 {fence}
+"""
+
+
+def build_source_prep_docling_page_markdown(
+    root: Path,
+    task: dict[str, object],
+    docling_markdown: str,
+    profile: dict[str, object],
+    extracted_images: list[dict[str, object]],
+) -> str:
+    page_number = safe_int(task.get("page"), 1)
+    output_path = Path(str(task.get("output_path", "")))
+    output_dir = output_path.parent if output_path.parent.as_posix() != "." else Path(".")
+    image_lines = []
+    for index, image in enumerate(extracted_images, start=1):
+        image_path = Path(str(image.get("path", "")))
+        markdown_path = str(image.get("path", ""))
+        if markdown_path:
+            try:
+                absolute_image = image_path if image_path.is_absolute() else root.resolve() / image_path
+                absolute_output_dir = output_dir if output_dir.is_absolute() else root.resolve() / output_dir
+                markdown_path = relative_path(absolute_output_dir, absolute_image)
+            except Exception:
+                pass
+            caption = str(image.get("caption", "")).strip() or f"Docling extracted picture image {index}"
+            image_lines.append(f"- {caption}: ![{caption}]({markdown_path})")
+    if not image_lines:
+        image_lines.append("- No Docling picture regions were detected for this page.")
+    flags = ", ".join(str(flag) for flag in profile.get("readability_flags", []) or []) or "none"
+    fence = markdown_fence_for_text(docling_markdown)
+    return f"""# Page {page_number}
+
+## Page Metadata
+
+- Source: `{task.get("source", "")}`
+- Source SHA-256: `{task.get("source_sha256", "")}`
+- Conversion manifest: `{task.get("job_manifest", "")}`
+- Source page: {safe_int(task.get("source_page"), page_number)}
+- Page image: `{task.get("page_image", "")}`
+- Conversion method: Docling basic conversion
+- Docling readability status: `{profile.get("status", "")}`
+- Docling readability flags: {flags}
+- Extracted picture images: {len(extracted_images)}
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+{fence}markdown
+{docling_markdown.strip()}
+{fence}
+
+## Images, Captions, And Visual Notes
+
+{chr(10).join(image_lines)}
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: {flags}
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: {len(extracted_images)}.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 """
 
 
@@ -9291,7 +9384,14 @@ def source_prep_docling_input_path(root: Path, task: dict[str, object], temp_dir
     return target
 
 
-def convert_source_with_docling(input_path: Path, *, document_timeout: float = 90.0) -> str:
+def convert_source_with_docling(
+    input_path: Path,
+    *,
+    document_timeout: float = 90.0,
+    image_output_dir: Path | None = None,
+    image_prefix: str = "docling-image",
+    root: Path | None = None,
+) -> str | dict[str, object]:
     try:
         from docling.datamodel.base_models import InputFormat
         from docling.datamodel.pipeline_options import PdfPipelineOptions
@@ -9306,6 +9406,10 @@ def convert_source_with_docling(input_path: Path, *, document_timeout: float = 9
     pipeline_options.do_picture_classification = False
     pipeline_options.do_formula_enrichment = False
     pipeline_options.do_code_enrichment = False
+    if image_output_dir is not None:
+        pipeline_options.generate_page_images = True
+        pipeline_options.generate_picture_images = True
+        pipeline_options.images_scale = 2.0
     if hasattr(pipeline_options, "do_chart_extraction"):
         pipeline_options.do_chart_extraction = False
 
@@ -9318,7 +9422,76 @@ def convert_source_with_docling(input_path: Path, *, document_timeout: float = 9
     document = getattr(result, "document", None)
     if document is None:
         raise RuntimeError("Docling returned no document.")
-    return str(document.export_to_markdown()).strip()
+    markdown = str(document.export_to_markdown()).strip()
+    if image_output_dir is None:
+        return markdown
+    extracted_images = extract_docling_picture_images(
+        document,
+        image_output_dir=image_output_dir,
+        image_prefix=image_prefix,
+        root=root,
+    )
+    return {"markdown": markdown, "extracted_images": extracted_images}
+
+
+def extract_docling_picture_images(
+    document: object,
+    *,
+    image_output_dir: Path,
+    image_prefix: str,
+    root: Path | None = None,
+) -> list[dict[str, object]]:
+    pictures = getattr(document, "pictures", []) or []
+    if not isinstance(pictures, list):
+        return []
+    image_output_dir.mkdir(parents=True, exist_ok=True)
+    records: list[dict[str, object]] = []
+    for index, picture in enumerate(pictures, start=1):
+        image = None
+        try:
+            get_image = getattr(picture, "get_image", None)
+            if callable(get_image):
+                image = get_image(document)
+        except Exception:
+            image = None
+        if image is None:
+            image = getattr(picture, "image", None)
+        if image is None or not hasattr(image, "save"):
+            continue
+        output_path = image_output_dir / f"{image_prefix}-{index:02d}.png"
+        try:
+            image.save(long_fs_path(output_path))
+        except Exception:
+            continue
+        caption = ""
+        caption_value = getattr(picture, "caption_text", "")
+        try:
+            caption = str(caption_value(document) if callable(caption_value) else caption_value).strip()
+        except Exception:
+            caption = ""
+        record = {
+            "path": relative_to_root(output_path, root.resolve()) if root else output_path.as_posix(),
+            "filename": output_path.name,
+            "caption": caption,
+            "method": "docling_picture_image",
+        }
+        try:
+            record["bytes"] = output_path.stat().st_size
+            record["sha256"] = file_sha256(output_path)
+        except OSError:
+            pass
+        records.append(record)
+    return records
+
+
+def normalize_docling_conversion_result(result: object) -> tuple[str, list[dict[str, object]]]:
+    if isinstance(result, dict):
+        markdown = str(result.get("markdown", "") or result.get("text", "")).strip()
+        extracted_images = result.get("extracted_images", [])
+        if not isinstance(extracted_images, list):
+            extracted_images = []
+        return markdown, [item for item in extracted_images if isinstance(item, dict)]
+    return str(result).strip(), []
 
 
 def source_prep_docling_discovery_run(
@@ -9400,17 +9573,37 @@ def source_prep_docling_discovery_run(
             }
             try:
                 input_path = source_prep_docling_input_path(paths.root, task, temp_dir)
-                docling_markdown = convert_source_with_docling(input_path)
+                image_output_dir = paths.root / str(task.get("image_output_dir", ""))
+                image_prefix = f"page-{safe_int(task.get('page'), 1):04d}-docling-image"
+                try:
+                    docling_result = convert_source_with_docling(
+                        input_path,
+                        image_output_dir=image_output_dir,
+                        image_prefix=image_prefix,
+                        root=paths.root,
+                    )
+                except TypeError as exc:
+                    if "unexpected" not in str(exc) and "positional" not in str(exc):
+                        raise
+                    docling_result = convert_source_with_docling(input_path)
+                docling_markdown, extracted_images = normalize_docling_conversion_result(docling_result)
                 profile = profile_source_prep_discovery_markdown(docling_markdown)
                 status = str(profile.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
                 discovery_path = source_prep_discovery_output_path(paths.root, task)
-                discovery_markdown = build_source_prep_discovery_markdown(task, docling_markdown, profile)
+                discovery_markdown = build_source_prep_discovery_markdown(
+                    task,
+                    docling_markdown,
+                    profile,
+                    extracted_images,
+                )
+                page_output = paths.root / str(task.get("output_path", ""))
                 task_report.update(
                     {
                         "status": status,
                         "discovery_path": relative_to_root(discovery_path, paths.root),
                         "readability_flags": profile.get("readability_flags", []),
                         "text_chars": profile.get("text_chars", 0),
+                        "extracted_image_count": len(extracted_images),
                     }
                 )
                 if not dry_run:
@@ -9429,8 +9622,31 @@ def source_prep_docling_discovery_run(
                         "evidence_output_path": str(task.get("output_path", "")),
                         "method": "docling",
                         "evidence_grade": False,
+                        "extracted_images": extracted_images,
+                        "extracted_image_count": len(extracted_images),
                         **profile,
                     }
+                    if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+                        page_output.parent.mkdir(parents=True, exist_ok=True)
+                        page_output.write_text(
+                            build_source_prep_docling_page_markdown(
+                                paths.root,
+                                task,
+                                docling_markdown,
+                                profile,
+                                extracted_images,
+                            ),
+                            encoding="utf-8",
+                        )
+                        entries[cache_key]["basic_output_path"] = relative_to_root(page_output, paths.root)
+                        update_agent_task_state(
+                            paths.root,
+                            task_id,
+                            "done",
+                            agent=agent,
+                            note="Docling basic conversion accepted; conversion QA still required.",
+                        )
+                        task_report["basic_output_path"] = relative_to_root(page_output, paths.root)
                     changed = True
                 if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
                     summary["accepted"] = int(summary["accepted"]) + 1
@@ -9756,7 +9972,7 @@ def write_source_prep_fastlane_images(
             y1 = min(image.height, int(float(bbox[3]) * scale_y) + 8)
             if x1 <= x0 or y1 <= y0:
                 continue
-            image.crop((x0, y0, x1, y1)).save(target)
+            image.crop((x0, y0, x1, y1)).save(long_fs_path(target))
 
 
 def build_source_prep_fastlane_markdown(
@@ -10294,7 +10510,7 @@ def create_gemini_source_prep_crops(
         written: list[Path] = []
         for index, (name, box) in enumerate(boxes[:max_crops], start=1):
             target = crop_dir / f"page-{page_number:04d}-gemini-crop-{index:02d}-{name}.png"
-            image.crop(box).save(target)
+            image.crop(box).save(long_fs_path(target))
             written.append(target)
         return written
 
@@ -10682,7 +10898,7 @@ def materialize_gemini_visual_regions(
             caption_type = normalize_visual_caption_type(raw_region.get("caption_type"))
             target = image_output_dir / visual_region_filename(page_number, index, {**raw_region, "kind": kind})
             target.parent.mkdir(parents=True, exist_ok=True)
-            image.crop(bbox_pixels).save(target)
+            image.crop(bbox_pixels).save(long_fs_path(target))
             record = {
                 "region_id": str(raw_region.get("region_id") or f"VR-{page_number:04d}-{index:02d}"),
                 "kind": kind,
@@ -10825,8 +11041,6 @@ def source_prep_gemini_run(
     paths = WikiPaths(root.resolve())
     if not api_key and not dry_run:
         api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
-    if not api_key and not dry_run:
-        raise RuntimeError("GEMINI_API_KEY or GOOGLE_API_KEY is required in the cloud automation environment.")
 
     if refresh_queue:
         write_source_prep_batches(
@@ -10941,7 +11155,7 @@ def source_prep_gemini_run(
             continue
         task_id = source_prep_gemini_task_id(raw_task)
         state_status = str(task_state.get(task_id, {}).get("status", "")).strip()
-        if state_status in {"claimed", "in_progress", "done"}:
+        if state_status in {"claimed", "in_progress"} or (state_status == "done" and status != "needs_reread"):
             apply_result(
                 result_payload(
                     {"task_id": task_id, "batch_task_id": raw_task.get("task_id", ""), "status": "skipped", "reason": f"task_state_{state_status}"},
@@ -10952,15 +11166,16 @@ def source_prep_gemini_run(
 
         page = first_source_prep_batch_page(raw_task)
         discovery_skip_reason = source_prep_discovery_batch_skip_reason(paths.root, raw_task, discovery_entries)
+        source_sha256 = str(raw_task.get("source_sha256", "") or page.get("source_sha256", "")).strip()
+        discovery_entry = source_prep_discovery_entry_for_task(
+            paths.root,
+            {
+                "task_id": task_id,
+                "source_sha256": source_sha256,
+            },
+            discovery_entries,
+        )
         if discovery_skip_reason:
-            discovery_entry = source_prep_discovery_entry_for_task(
-                paths.root,
-                {
-                    "task_id": task_id,
-                    "source_sha256": raw_task.get("source_sha256", "") or page.get("source_sha256", ""),
-                },
-                discovery_entries,
-            )
             task_report = {
                 "task_id": task_id,
                 "batch_task_id": raw_task.get("task_id", ""),
@@ -10970,6 +11185,8 @@ def source_prep_gemini_run(
             }
             apply_result(result_payload(task_report, skipped=1, discovery_skipped=1))
             continue
+        if not api_key and not dry_run:
+            raise RuntimeError("GEMINI_API_KEY or GOOGLE_API_KEY is required in the cloud automation environment.")
         page_image = paths.root / str(page.get("page_image", ""))
         output_path = paths.root / str(page.get("output_path", ""))
         if not page_image.exists():
@@ -10990,6 +11207,17 @@ def source_prep_gemini_run(
             continue
 
         route = classify_gemini_source_prep_batch(paths.root, raw_task, lite_model=lite_model, pro_model=pro_model)
+        if isinstance(discovery_entry, dict) and str(discovery_entry.get("status", "")).strip() == SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS:
+            route = {
+                **route,
+                "tier": "pro_docling_fallback",
+                "model": pro_model,
+                "use_crops": crop_relevance,
+                "complex": True,
+                "reasons": list(
+                    dict.fromkeys([*route.get("reasons", []), "docling_unusable"])
+                ),
+            }
         if not crop_relevance:
             route["use_crops"] = False
             if route.get("tier") == "pro_with_crops":
@@ -12111,6 +12339,7 @@ def build_system_status_payload(root: Path, blockers: list[str] | None = None) -
         "created": utc_timestamp(),
         "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
         "source_conversion": build_system_source_conversion_summary(prep_manifest, raw_cloud, source_usability),
+        "source_prep_gate": build_source_prep_first_gate_status(paths.root),
         "r2_source_intake": build_system_r2_source_intake_summary(paths.root),
         "research_readiness": build_system_research_readiness_summary(paths.root, source_usability, research_analyzer),
         "page_upgrades": build_system_page_upgrade_summary(paths.root, relevance_feedback, research_analyzer),
@@ -12596,6 +12825,7 @@ def top_conversion_qa_unblock_task(conversion_qa_unblock: object) -> dict[str, o
 
 def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, object]]:
     queues = payload.get("queues", {})
+    source_prep_gate = payload.get("source_prep_gate", {})
     source_conversion = payload.get("source_conversion", {})
     r2_source_intake = payload.get("r2_source_intake", {})
     page_upgrades = payload.get("page_upgrades", {})
@@ -12630,6 +12860,18 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
         actions.append(action)
 
     source_prep = queue_payload(queues, "source_prep")
+    source_prep_gate_blocked = isinstance(source_prep_gate, dict) and not source_prep_gate.get("ready", True)
+    if source_prep_gate_blocked:
+        add(
+            "source_prep_gate",
+            "high",
+            (
+                f"{safe_int(source_prep_gate.get('pending_source_count'), 0)} registered source(s) "
+                "are not converted yet."
+            ),
+            str(source_prep_gate.get("next_step", "")),
+            count=safe_int(source_prep_gate.get("pending_source_count"), 0),
+        )
     source_prep_open = queue_status_total(
         source_prep,
         ("todo", "claimed", "in_progress", "rough_discovery", "needs_reread"),
@@ -12643,6 +12885,8 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
             count=source_prep_open,
             queue=str(source_prep.get("path", "")),
         )
+    if source_prep_gate_blocked:
+        return actions[:6]
 
     conversion_qa = queue_payload(queues, "conversion_qa")
     conversion_qa_open = queue_status_total(conversion_qa, ("todo", "claimed", "in_progress"))
@@ -13602,6 +13846,7 @@ def count_files_with_suffix(path: Path, suffix: str) -> int:
 
 def build_system_status_markdown(payload: dict[str, object]) -> str:
     source_conversion = payload.get("source_conversion", {})
+    source_prep_gate = payload.get("source_prep_gate", {})
     r2_source_intake = payload.get("r2_source_intake", {})
     research_readiness = payload.get("research_readiness", {})
     page_upgrades = payload.get("page_upgrades", {})
@@ -13687,6 +13932,17 @@ Generated: {payload.get("created", "")}
 - Conversion jobs: {dict_value(source_conversion, "conversion_job_count")}
 - Converted Markdown files: {dict_value(source_conversion, "converted_file_count")}
 - Usability: {format_status_counts(dict_value(source_conversion, "usability_status_counts", {}))}
+
+## Source Prep First Gate
+
+- Gate ready: {str(dict_value(source_prep_gate, "ready", False)).lower()}
+- Registered sources: {dict_value(source_prep_gate, "source_count")}
+- Pending registered sources: {dict_value(source_prep_gate, "pending_source_count")}
+- Source statuses: {format_status_counts(dict_value(source_prep_gate, "source_status_counts", {}))}
+- Source-prep page tasks: {dict_value(source_prep_gate, "source_prep_task_count")}
+- Blocking page tasks: {dict_value(source_prep_gate, "blocking_task_count")}
+- Blocking task statuses: {format_status_counts(dict_value(source_prep_gate, "blocking_task_statuses", {}))}
+- Next step: {dict_value(source_prep_gate, "next_step", "")}
 
 ## R2 Source Intake
 
@@ -13915,12 +14171,74 @@ def write_cloud_source_prep_heartbeat_state(root: Path, summary: dict[str, objec
     return output_path
 
 
+SOURCE_PREP_COMPLETE_SOURCE_STATUSES = {"converted"}
+SOURCE_PREP_BLOCKING_TASK_STATUSES = {"todo", "needs_reread", SOURCE_PREP_DISCOVERY_TASK_STATUS}
+
+
+def build_source_prep_first_gate_status(root: Path) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    manifest = read_json_payload(paths.raw / "source-prep-manifest.json", {"sources": []})
+    sources = manifest.get("sources", []) if isinstance(manifest, dict) else []
+    if not isinstance(sources, list):
+        sources = []
+    source_status_counts: dict[str, int] = {}
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        status = str(source.get("status", "")).strip() or "unknown"
+        source_status_counts[status] = source_status_counts.get(status, 0) + 1
+
+    tasks = build_source_prep_agent_tasks(paths.root, write_page_review_cache=False)
+    task_status_counts: dict[str, int] = {}
+    for task in tasks:
+        status = str(task.get("status", "")).strip() or "unknown"
+        task_status_counts[status] = task_status_counts.get(status, 0) + 1
+
+    pending_source_statuses = {
+        status: count
+        for status, count in source_status_counts.items()
+        if status not in SOURCE_PREP_COMPLETE_SOURCE_STATUSES
+    }
+    blocking_task_statuses = {
+        status: count
+        for status, count in task_status_counts.items()
+        if status in SOURCE_PREP_BLOCKING_TASK_STATUSES
+    }
+    pending_source_count = sum(pending_source_statuses.values())
+    blocking_task_count = sum(blocking_task_statuses.values())
+    ready = pending_source_count == 0 and blocking_task_count == 0
+    return {
+        "ready": ready,
+        "source_count": len([source for source in sources if isinstance(source, dict)]),
+        "source_status_counts": source_status_counts,
+        "pending_source_statuses": pending_source_statuses,
+        "pending_source_count": pending_source_count,
+        "source_prep_task_count": len(tasks),
+        "source_prep_task_status_counts": task_status_counts,
+        "blocking_task_statuses": blocking_task_statuses,
+        "blocking_task_count": blocking_task_count,
+        "next_step": (
+            "Source-prep gate is clear; downstream research agents may run."
+            if ready
+            else "Finish R2 restore/intake plus Docling/Gemini source conversion before downstream research agents run."
+        ),
+    }
+
+
 def cloud_source_prep_heartbeat(
     root: Path,
     *,
     r2_source_intake: bool = True,
     restore_raw: bool = True,
     upload_assets: bool = True,
+    docling_discovery: bool = True,
+    docling_limit: int = 100,
+    docling_scan_limit: int = 1000,
+    gemini_source_prep: bool = True,
+    gemini_limit: int = 25,
+    gemini_parallelism: int = 1,
+    gemini_queue_limit: int = 160,
+    source_prep_gate: bool = True,
     research_analyzer: bool = True,
     research_analyzer_limit: int = 5,
     research_question_limit: int = 5,
@@ -13952,6 +14270,14 @@ def cloud_source_prep_heartbeat(
             "upload_assets": upload_assets,
         },
         "settings": {
+            "docling_discovery": docling_discovery,
+            "docling_limit": docling_limit,
+            "docling_scan_limit": docling_scan_limit,
+            "gemini_source_prep": gemini_source_prep,
+            "gemini_limit": gemini_limit,
+            "gemini_parallelism": gemini_parallelism,
+            "gemini_queue_limit": gemini_queue_limit,
+            "source_prep_gate": source_prep_gate,
             "conversion_qc": conversion_qc,
             "conversion_only": conversion_only,
             "research_analyzer": research_analyzer,
@@ -14027,8 +14353,91 @@ def cloud_source_prep_heartbeat(
         summary["blockers"].append(f"prepare-sources: {exc}")
         record_step("prepare-sources", "failed", str(exc))
 
+    if docling_discovery:
+        try:
+            if dry_run:
+                record_step("source-prep-docling-discovery", "skipped-dry-run")
+            else:
+                docling_summary = source_prep_docling_discovery_run(
+                    paths.root,
+                    limit=docling_limit,
+                    scan_limit=docling_scan_limit,
+                    stale_minutes=stale_minutes,
+                    agent="cloud-source-prep-docling",
+                )
+                record_step("source-prep-docling-discovery", "ran", docling_summary)
+                if docling_summary.get("blockers"):
+                    summary["blockers"].extend(
+                        f"source-prep-docling-discovery: {blocker}"
+                        for blocker in docling_summary.get("blockers", [])
+                    )
+        except Exception as exc:
+            summary["blockers"].append(f"source-prep-docling-discovery: {exc}")
+            record_step("source-prep-docling-discovery", "failed", str(exc))
+    else:
+        record_step("source-prep-docling-discovery", "skipped", "disabled")
+
+    if gemini_source_prep:
+        try:
+            if dry_run:
+                gemini_summary = source_prep_gemini_run(
+                    paths.root,
+                    limit=gemini_limit,
+                    queue_limit=gemini_queue_limit,
+                    stale_minutes=stale_minutes,
+                    parallelism=gemini_parallelism,
+                    agent="cloud-gemini-source-prep",
+                    dry_run=True,
+                )
+                record_step("gemini-source-prep", "planned", gemini_summary)
+            else:
+                gemini_summary = source_prep_gemini_run(
+                    paths.root,
+                    limit=gemini_limit,
+                    queue_limit=gemini_queue_limit,
+                    stale_minutes=stale_minutes,
+                    parallelism=gemini_parallelism,
+                    agent="cloud-gemini-source-prep",
+                )
+                record_step("gemini-source-prep", "ran", gemini_summary)
+        except RuntimeError as exc:
+            if "GEMINI_API_KEY" in str(exc) or "GOOGLE_API_KEY" in str(exc):
+                record_step("gemini-source-prep", "skipped-missing-config", str(exc))
+            else:
+                summary["blockers"].append(f"gemini-source-prep: {exc}")
+                record_step("gemini-source-prep", "failed", str(exc))
+        except Exception as exc:
+            summary["blockers"].append(f"gemini-source-prep: {exc}")
+            record_step("gemini-source-prep", "failed", str(exc))
+    else:
+        record_step("gemini-source-prep", "skipped", "disabled")
+
+    try:
+        prepared = prepare_raw_sources(
+            paths.root,
+            page_range=page_range,
+            pages_per_job=pages_per_job,
+            new_pages_limit=0,
+            max_chars=max_chars,
+        )
+        record_step("assemble-and-chunk", "ran", {"prepared_sources": len(prepared)})
+    except Exception as exc:
+        summary["blockers"].append(f"assemble-and-chunk: {exc}")
+        record_step("assemble-and-chunk", "failed", str(exc))
+
+    source_prep_gate_status = build_source_prep_first_gate_status(paths.root)
+    summary["source_prep_gate"] = source_prep_gate_status
+    record_step(
+        "source-prep-first-gate",
+        "ready" if source_prep_gate_status.get("ready") else "blocked",
+        source_prep_gate_status,
+    )
+    downstream_ready = (not source_prep_gate) or bool(source_prep_gate_status.get("ready"))
+
     if conversion_only:
         record_step("conversion-qc", "skipped", "conversion-only run")
+    elif not downstream_ready:
+        record_step("conversion-qc", "skipped-source-prep-gate", source_prep_gate_status.get("next_step", ""))
     elif conversion_qc:
         try:
             qc_paths = write_post_conversion_qc(paths.root)
@@ -14094,6 +14503,8 @@ def cloud_source_prep_heartbeat(
 
     if conversion_only:
         record_step("research-analyzer", "skipped", "conversion-only run")
+    elif not downstream_ready:
+        record_step("research-analyzer", "skipped-source-prep-gate", source_prep_gate_status.get("next_step", ""))
     elif not research_analyzer:
         record_step("research-analyzer", "skipped", "disabled")
     else:
@@ -14115,6 +14526,8 @@ def cloud_source_prep_heartbeat(
 
     if conversion_only:
         record_step("conversion-qa-context", "skipped", "conversion-only run")
+    elif not downstream_ready:
+        record_step("conversion-qa-context", "skipped-source-prep-gate", source_prep_gate_status.get("next_step", ""))
     elif not research_analyzer:
         record_step("conversion-qa-context", "skipped", "research analyzer disabled")
     else:
@@ -14127,6 +14540,8 @@ def cloud_source_prep_heartbeat(
 
     if conversion_only:
         record_step("page-upgrades", "skipped", "conversion-only run")
+    elif not downstream_ready:
+        record_step("page-upgrades", "skipped-source-prep-gate", source_prep_gate_status.get("next_step", ""))
     else:
         try:
             upgrade_paths = write_page_upgrade_report(paths.root)
@@ -14157,6 +14572,8 @@ def cloud_source_prep_heartbeat(
 
     if conversion_only:
         record_step("site-build", "skipped", "conversion-only run")
+    elif not downstream_ready:
+        record_step("site-build", "skipped-source-prep-gate", source_prep_gate_status.get("next_step", ""))
     elif not build_site:
         record_step("site-build", "skipped", "disabled")
     else:
@@ -15572,6 +15989,67 @@ SITE_SEARCH_JS = """
 });
 """.strip()
 
+AGENT_WORKFLOW_FLOWCHART = """
+flowchart TD
+  A[Raw research files in R2]
+  B[Source intake and manifest]
+  C[Split into page or media tasks]
+  D{Can basic conversion work?}
+  E[Basic conversion]
+  F{Is basic output readable?}
+  G[Advanced conversion]
+  H[Converted source library]
+  I[Research analyzer]
+  J[Research outputs]
+  K{Need better conversion?}
+  L[Page-level upgrade request]
+  M[Proof and research QC]
+  N[Wiki maintainer]
+  O[Canonical genealogy wiki]
+  P[Product gaps]
+  Q[External research agents]
+  R[New sources]
+  S[Page-level relevance and retention ranking]
+  T{Keep raw R2 material?}
+  U[Preserve raw]
+  V[Cold retain]
+  W[Deaccession candidate]
+  X[Reacquisition path]
+
+  A --> B
+  B --> C
+  C --> D
+  D -->|yes| E
+  D -->|no| G
+  E --> F
+  F -->|yes| H
+  F -->|no| G
+  G --> H
+
+  H --> I
+  I --> J
+  J --> K
+  K -->|yes| L
+  L --> G
+  K -->|no| M
+  M --> N
+  N --> O
+  N --> P
+  P --> I
+
+  I --> Q
+  Q --> R
+  R --> A
+
+  H --> S
+  S --> T
+  T -->|important uncertain cited| U
+  T -->|low but not certain| V
+  T -->|very low and high confidence irrelevant| W
+  W --> X
+  X --> A
+""".strip()
+
 
 def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     paths = WikiPaths(root.resolve())
@@ -15594,7 +16072,13 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
 
     page_records = []
     search_entries = []
-    nav = build_site_nav(pages, include_search=True)
+    nav = build_site_nav(pages)
+    nav.extend(
+        [
+            {"title": "Agent Workflows", "output": "agent-workflows.html"},
+            {"title": "Search", "output": "search.html"},
+        ]
+    )
     for page in pages:
         markdown_path = page["source"]
         output_path = site_dir / str(page["output"])
@@ -15631,6 +16115,19 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     search_index_path.write_text(json.dumps(search_index_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     written.append(search_index_path)
 
+    agent_workflows_path = site_dir / "agent-workflows.html"
+    agent_workflows_path.write_text(
+        build_site_html_document(
+            title="Agent Workflows",
+            body=build_site_agent_workflows_page_body(paths.root),
+            nav=nav,
+            output_rel="agent-workflows.html",
+            source_rel="research/_agent-queues/*.json and docs/genealogy-system-pipeline.md",
+        ),
+        encoding="utf-8",
+    )
+    written.append(agent_workflows_path)
+
     search_page_path = site_dir / "search.html"
     search_page_path.write_text(
         build_site_html_document(
@@ -15645,6 +16142,11 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     )
     written.append(search_page_path)
     utility_pages = [
+        {
+            "title": "Agent Workflows",
+            "source": "research/_agent-queues/*.json",
+            "output": relative_to_root(agent_workflows_path, paths.root),
+        },
         {
             "title": "Search",
             "source": relative_to_root(search_index_path, paths.root),
@@ -15672,6 +16174,197 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     written.extend(write_final_site_status(paths.root, site_dir=site_dir))
     append_log(paths.research / "log.md", f"site-build | Wrote {relative_to_root(manifest_path, paths.root)}")
     return written
+
+
+def build_site_agent_workflows_page_body(root: Path) -> str:
+    payload = build_agent_workflow_site_payload(root)
+    queue_rows = [
+        "<tr><th>Queue</th><th>Tasks</th><th>Status Counts</th><th>Manifest</th></tr>",
+    ]
+    for queue in payload["queues"]:
+        queue_rows.append(
+            "<tr>"
+            f"<td>{html_lib.escape(str(queue['queue']))}</td>"
+            f"<td>{html_lib.escape(str(queue['task_count']))}</td>"
+            f"<td>{html_lib.escape(str(queue['status_summary']))}</td>"
+            f'<td><a href="{html_lib.escape(str(queue["href"]), quote=True)}">'
+            f"{html_lib.escape(str(queue['path']))}</a></td>"
+            "</tr>"
+        )
+    if len(queue_rows) == 1:
+        queue_rows.append("<tr><td colspan=\"4\">No queue manifests found.</td></tr>")
+
+    flow_rows = [
+        "<tr><th>Flow Node</th><th>Agent Surface</th><th>Status</th><th>Current Signal</th></tr>",
+    ]
+    for node in payload["flow_nodes"]:
+        flow_rows.append(
+            "<tr>"
+            f"<td>{html_lib.escape(str(node['node']))}</td>"
+            f"<td>{html_lib.escape(str(node['surface']))}</td>"
+            f"<td>{html_lib.escape(str(node['status']))}</td>"
+            f"<td>{html_lib.escape(str(node['signal']))}</td>"
+            "</tr>"
+        )
+
+    current_gate = html_lib.escape(str(payload["current_gate"]))
+    next_step = html_lib.escape(str(payload["next_step"]))
+    chart = html_lib.escape(AGENT_WORKFLOW_FLOWCHART)
+    return f"""      <h1 id="agent-workflows">Agent Workflows</h1>
+      <p>This page shows the operational agent pipeline behind the sparse public genealogy site. The public pages stay sparse until conversion QA, extraction, proof review, and wiki promotion create canonical content.</p>
+      <h2 id="current-gate">Current Gate</h2>
+      <p><strong>{current_gate}</strong></p>
+      <p>{next_step}</p>
+      <h2 id="queue-summary">Queue Summary</h2>
+      <table><tbody>
+      {chr(10).join(queue_rows)}
+      </tbody></table>
+      <h2 id="flow-status">Flow Status</h2>
+      <table><tbody>
+      {chr(10).join(flow_rows)}
+      </tbody></table>
+      <h2 id="architecture-flow">Architecture Flow</h2>
+      <pre class="mermaid"><code>{chart}</code></pre>"""
+
+
+def build_agent_workflow_site_payload(root: Path) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    queue_dir = paths.research / "_agent-queues"
+    queue_files = [
+        "source-prep.json",
+        "conversion-qa.json",
+        "evidence-extraction.json",
+        "research-questions.json",
+        "research-leads.json",
+        "external-research.json",
+    ]
+    queues = []
+    queue_payloads: dict[str, dict[str, object]] = {}
+    for queue_file in queue_files:
+        queue_path = queue_dir / queue_file
+        payload = read_json_payload(queue_path, {})
+        if not isinstance(payload, dict):
+            payload = {}
+        queue_name = str(payload.get("queue", queue_file.removesuffix(".json")))
+        status_counts = payload.get("status_counts", {})
+        if not isinstance(status_counts, dict):
+            status_counts = {}
+        queue_payloads[queue_name] = payload
+        queues.append(
+            {
+                "queue": queue_name,
+                "task_count": safe_int(payload.get("task_count"), 0),
+                "status_summary": ", ".join(
+                    f"{key}: {status_counts[key]}" for key in sorted(status_counts)
+                )
+                or "none",
+                "path": relative_to_root(queue_path, paths.root),
+                "href": site_relative_url("agent-workflows.html", f"../{relative_to_root(queue_path, paths.root)}"),
+            }
+        )
+
+    qa_counts = queue_payloads.get("conversion-qa", {}).get("status_counts", {})
+    if not isinstance(qa_counts, dict):
+        qa_counts = {}
+    qa_todo = safe_int(qa_counts.get("todo"), 0)
+    evidence_counts = queue_payloads.get("evidence-extraction", {}).get("status_counts", {})
+    if not isinstance(evidence_counts, dict):
+        evidence_counts = {}
+    blocked_extraction = safe_int(evidence_counts.get("blocked_pending_conversion_qa"), 0)
+    external_counts = queue_payloads.get("external-research", {}).get("status_counts", {})
+    if not isinstance(external_counts, dict):
+        external_counts = {}
+
+    source_manifest = paths.raw / "source-prep-manifest.json"
+    converted_count = len(list((paths.raw / "converted").glob("*.md"))) if (paths.raw / "converted").exists() else 0
+    chunk_manifest_count = (
+        len(list((paths.raw / "chunks").glob("*/manifest.json"))) if (paths.raw / "chunks").exists() else 0
+    )
+    page_upgrades = read_json_payload(paths.research / "_indexes" / "page-upgrades.json", {})
+    storage_lifecycle = read_json_payload(paths.research / "_indexes" / "storage-lifecycle.json", {})
+    r2_preflight = read_json_payload(paths.research / "_indexes" / "r2-source-intake-preflight.json", {})
+    r2_status = str(r2_preflight.get("status", "unknown")) if isinstance(r2_preflight, dict) else "unknown"
+    page_upgrade_summary = page_upgrades.get("summary", {}) if isinstance(page_upgrades, dict) else {}
+    if not isinstance(page_upgrade_summary, dict):
+        page_upgrade_summary = {}
+    storage_summary = storage_lifecycle.get("summary", {}) if isinstance(storage_lifecycle, dict) else {}
+    if not isinstance(storage_summary, dict):
+        storage_summary = {}
+
+    current_gate = (
+        f"Conversion QA has {qa_todo} ready task(s) and is blocking {blocked_extraction} extraction task(s)."
+        if qa_todo
+        else "No conversion-QA task is currently ready."
+    )
+    next_step = (
+        "Run the top conversion-QA prompt, write triage/page-queue/correction artifacts, then regenerate queues to unlock extraction and research agents."
+        if qa_todo
+        else "Regenerate queues after new conversion or QA output appears."
+    )
+
+    flow_nodes = [
+        {
+            "node": "A-B: R2 source intake",
+            "surface": "R2 preflight and source manifest",
+            "status": "blocked_config" if r2_status == "missing_config" else "live",
+            "signal": f"R2 preflight status: {r2_status}; source manifest exists: {source_manifest.exists()}",
+        },
+        {
+            "node": "C-G: conversion agents",
+            "surface": "source-prep queue, page work orders, Gemini conversion",
+            "status": "live",
+            "signal": f"{converted_count} converted source file(s), {chunk_manifest_count} chunk manifest(s)",
+        },
+        {
+            "node": "H-L: analyzer and upgrade loop",
+            "surface": "research analyzer, research questions, page upgrades",
+            "status": "live",
+            "signal": f"active page-upgrade requests: {safe_int(page_upgrade_summary.get('active_request_count'), 0)}",
+        },
+        {
+            "node": "M: proof and research QC",
+            "surface": "conversion-QA and evidence-extraction queues",
+            "status": "active_gate" if qa_todo else "waiting",
+            "signal": current_gate,
+        },
+        {
+            "node": "N-O: wiki maintainer and canonical site",
+            "surface": "canonical wiki pages and static site build",
+            "status": "partial",
+            "signal": f"canonical site source pages: {len(collect_site_pages(paths.root))}",
+        },
+        {
+            "node": "P-R: product gaps and external research",
+            "surface": "external-research queue and R2 intake candidates",
+            "status": "blocked_pending_conversion_qa"
+            if safe_int(external_counts.get("blocked_pending_conversion_qa"), 0)
+            else "waiting",
+            "signal": queues_status_signal(queue_payloads.get("external-research", {})),
+        },
+        {
+            "node": "S-X: storage lifecycle",
+            "surface": "storage lifecycle report and deaccession records",
+            "status": "live",
+            "signal": (
+                f"retention pages: {safe_int(storage_summary.get('page_count'), 0)}"
+                if isinstance(storage_lifecycle, dict)
+                else "storage lifecycle report not found"
+            ),
+        },
+    ]
+    return {
+        "queues": queues,
+        "flow_nodes": flow_nodes,
+        "current_gate": current_gate,
+        "next_step": next_step,
+    }
+
+
+def queues_status_signal(payload: dict[str, object]) -> str:
+    status_counts = payload.get("status_counts", {}) if isinstance(payload, dict) else {}
+    if not isinstance(status_counts, dict) or not status_counts:
+        return "no queued tasks"
+    return ", ".join(f"{key}: {status_counts[key]}" for key in sorted(status_counts))
 
 
 def final_site_status_index_path(root: Path) -> Path:
@@ -15748,6 +16441,7 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
     expected_entrypoints = [
         {"name": "Home", "output": relative_to_root(resolved_site_dir / "index.html", paths.root)},
         {"name": "Family Tree", "output": relative_to_root(resolved_site_dir / "family-tree.html", paths.root)},
+        {"name": "Agent Workflows", "output": relative_to_root(resolved_site_dir / "agent-workflows.html", paths.root)},
         {"name": "Search", "output": relative_to_root(resolved_site_dir / "search.html", paths.root)},
     ]
     for entrypoint in expected_entrypoints:
@@ -16835,6 +17529,14 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
     cloud_source_prep_parser.add_argument("--fastlane-limit", type=int, default=0, help="Optional deterministic born-digital PDF page limit.")
     cloud_source_prep_parser.add_argument("--fastlane-scan-limit", type=int, default=250, help="Optional deterministic fastlane scan limit.")
+    cloud_source_prep_parser.add_argument("--no-docling-discovery", action="store_true", help="Skip automatic Docling basic source-prep discovery/conversion.")
+    cloud_source_prep_parser.add_argument("--docling-limit", type=int, default=100, help="Maximum Docling-readable pages to accept in this run.")
+    cloud_source_prep_parser.add_argument("--docling-scan-limit", type=int, default=1000, help="Maximum queued pages Docling should inspect in this run.")
+    cloud_source_prep_parser.add_argument("--no-gemini-source-prep", action="store_true", help="Skip automatic Gemini fallback conversion for Docling-unusable or queued pages.")
+    cloud_source_prep_parser.add_argument("--gemini-limit", type=int, default=25, help="Maximum Gemini fallback source-prep pages to process.")
+    cloud_source_prep_parser.add_argument("--gemini-parallelism", type=int, default=1, help="Maximum concurrent Gemini fallback source-prep conversions.")
+    cloud_source_prep_parser.add_argument("--gemini-queue-limit", type=int, default=160, help="Maximum one-page source-prep batches materialized for Gemini.")
+    cloud_source_prep_parser.add_argument("--no-source-prep-gate", action="store_true", help="Allow downstream research/site steps even when source prep is incomplete.")
     cloud_source_prep_parser.add_argument("--no-research-analyzer", action="store_true", help="Skip the automated research-analyzer pass.")
     cloud_source_prep_parser.add_argument("--research-analyzer-limit", type=int, default=5, help="Maximum new page-upgrade requests from the analyzer. Use -1 for no cap.")
     cloud_source_prep_parser.add_argument("--research-question-limit", type=int, default=5, help="Maximum new research questions from the analyzer. Use -1 for no cap.")
@@ -17503,6 +18205,14 @@ def main(argv: list[str] | None = None) -> int:
             r2_source_intake=not args.no_r2_source_intake,
             restore_raw=not args.no_restore,
             upload_assets=not args.no_asset_upload,
+            docling_discovery=not args.no_docling_discovery,
+            docling_limit=args.docling_limit,
+            docling_scan_limit=args.docling_scan_limit,
+            gemini_source_prep=not args.no_gemini_source_prep,
+            gemini_limit=args.gemini_limit,
+            gemini_parallelism=args.gemini_parallelism,
+            gemini_queue_limit=args.gemini_queue_limit,
+            source_prep_gate=not args.no_source_prep_gate,
             research_analyzer=not args.no_research_analyzer,
             research_analyzer_limit=args.research_analyzer_limit,
             research_question_limit=args.research_question_limit,

@@ -673,3 +673,46 @@
 ## [2026-05-16] r2-intake-candidates | Wrote research/_indexes/r2-intake-candidates.json
 ## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
 ## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] final-site-status | Wrote research/_indexes/final-site-status.json
+## [2026-05-16] site-build | Wrote site/site-manifest.json
+## [2026-05-16] final-site-status | Wrote research/_indexes/final-site-status.json
+## [2026-05-16] site-build | Wrote site/site-manifest.json
+## [2026-05-16] source-prep-docling-discovery | inspected 0, accepted 0, unusable 0, errors=0, dry_run=False
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] gemini-source-prep | processed 0, completed 0, released 0, parallelism=1, routes={}, dry_run=False
+## [2026-05-16] agent-queues | Wrote 3 queue manifest(s)
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-16] storage-lifecycle | Wrote research/_indexes/storage-lifecycle.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/_indexes/conversion-qa-unblock-plan.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/conversion-qa-next.md
+## [2026-05-16] r2-source-intake-preflight | Wrote research/_indexes/r2-source-intake-preflight.json
+## [2026-05-16] r2-intake-candidates | Wrote research/_indexes/r2-intake-candidates.json
+## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] source-prep-docling-discovery | inspected 0, accepted 0, unusable 0, errors=0, dry_run=False
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] gemini-source-prep | processed 0, completed 0, released 0, parallelism=1, routes={}, dry_run=False
+## [2026-05-16] agent-queues | Wrote 3 queue manifest(s)
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-16] storage-lifecycle | Wrote research/_indexes/storage-lifecycle.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/_indexes/conversion-qa-unblock-plan.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/conversion-qa-next.md
+## [2026-05-16] r2-source-intake-preflight | Wrote research/_indexes/r2-source-intake-preflight.json
+## [2026-05-16] r2-intake-candidates | Wrote research/_indexes/r2-intake-candidates.json
+## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] source-prep-docling-discovery | inspected 0, accepted 0, unusable 0, errors=0, dry_run=False
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] gemini-source-prep | processed 0, completed 0, released 0, parallelism=1, routes={}, dry_run=False
+## [2026-05-16] agent-queues | Wrote 3 queue manifest(s)
+## [2026-05-16] source-prep-batches | Wrote 0 batch task(s), max 1 page(s) each
+## [2026-05-16] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-16] storage-lifecycle | Wrote research/_indexes/storage-lifecycle.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/_indexes/conversion-qa-unblock-plan.json
+## [2026-05-16] conversion-qa-unblock-plan | Wrote research/conversion-qa-next.md
+## [2026-05-16] r2-source-intake-preflight | Wrote research/_indexes/r2-source-intake-preflight.json
+## [2026-05-16] r2-intake-candidates | Wrote research/_indexes/r2-intake-candidates.json
+## [2026-05-16] system-status | Wrote research/_indexes/system-status.json
+## [2026-05-16] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json

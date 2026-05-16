@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Workflows | Family History</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="site-nav" aria-label="Site navigation">
+      <h1>Family History</h1>
+      <ul>
+<li><a href="index.html">Genealogy Wiki Index</a></li>
+<li><a href="family-tree.html">Family Tree</a></li>
+<li><a href="agent-workflows.html">Agent Workflows</a></li>
+<li><a href="search.html">Search</a></li>
+      </ul>
+    </nav>
+    <main class="site-main">
+      <div class="source-note">Generated from research/_agent-queues/*.json and docs/genealogy-system-pipeline.md</div>
+      <h1 id="agent-workflows">Agent Workflows</h1>
+      <p>This page shows the operational agent pipeline behind the sparse public genealogy site. The public pages stay sparse until conversion QA, extraction, proof review, and wiki promotion create canonical content.</p>
+      <h2 id="current-gate">Current Gate</h2>
+      <p><strong>Conversion QA has 4 ready task(s) and is blocking 8 extraction task(s).</strong></p>
+      <p>Run the top conversion-QA prompt, write triage/page-queue/correction artifacts, then regenerate queues to unlock extraction and research agents.</p>
+      <h2 id="queue-summary">Queue Summary</h2>
+      <table><tbody>
+      <tr><th>Queue</th><th>Tasks</th><th>Status Counts</th><th>Manifest</th></tr>
+<tr><td>source-prep</td><td>5</td><td>done: 5</td><td><a href="../research/_agent-queues/source-prep.json">research/_agent-queues/source-prep.json</a></td></tr>
+<tr><td>conversion-qa</td><td>4</td><td>todo: 4</td><td><a href="../research/_agent-queues/conversion-qa.json">research/_agent-queues/conversion-qa.json</a></td></tr>
+<tr><td>evidence-extraction</td><td>8</td><td>blocked_pending_conversion_qa: 8</td><td><a href="../research/_agent-queues/evidence-extraction.json">research/_agent-queues/evidence-extraction.json</a></td></tr>
+<tr><td>research-questions</td><td>2</td><td>blocked_pending_conversion_qa: 2</td><td><a href="../research/_agent-queues/research-questions.json">research/_agent-queues/research-questions.json</a></td></tr>
+<tr><td>research-leads</td><td>14</td><td>blocked_pending_conversion_qa: 14</td><td><a href="../research/_agent-queues/research-leads.json">research/_agent-queues/research-leads.json</a></td></tr>
+<tr><td>external-research</td><td>3</td><td>blocked_pending_conversion_qa: 3</td><td><a href="../research/_agent-queues/external-research.json">research/_agent-queues/external-research.json</a></td></tr>
+      </tbody></table>
+      <h2 id="flow-status">Flow Status</h2>
+      <table><tbody>
+      <tr><th>Flow Node</th><th>Agent Surface</th><th>Status</th><th>Current Signal</th></tr>
+<tr><td>A-B: R2 source intake</td><td>R2 preflight and source manifest</td><td>blocked_config</td><td>R2 preflight status: missing_config; source manifest exists: True</td></tr>
+<tr><td>C-G: conversion agents</td><td>source-prep queue, page work orders, Gemini conversion</td><td>live</td><td>4 converted source file(s), 4 chunk manifest(s)</td></tr>
+<tr><td>H-L: analyzer and upgrade loop</td><td>research analyzer, research questions, page upgrades</td><td>live</td><td>active page-upgrade requests: 0</td></tr>
+<tr><td>M: proof and research QC</td><td>conversion-QA and evidence-extraction queues</td><td>active_gate</td><td>Conversion QA has 4 ready task(s) and is blocking 8 extraction task(s).</td></tr>
+<tr><td>N-O: wiki maintainer and canonical site</td><td>canonical wiki pages and static site build</td><td>partial</td><td>canonical site source pages: 2</td></tr>
+<tr><td>P-R: product gaps and external research</td><td>external-research queue and R2 intake candidates</td><td>blocked_pending_conversion_qa</td><td>blocked_pending_conversion_qa: 3</td></tr>
+<tr><td>S-X: storage lifecycle</td><td>storage lifecycle report and deaccession records</td><td>live</td><td>retention pages: 5</td></tr>
+      </tbody></table>
+      <h2 id="architecture-flow">Architecture Flow</h2>
+      <pre class="mermaid"><code>flowchart TD
+  A[Raw research files in R2]
+  B[Source intake and manifest]
+  C[Split into page or media tasks]
+  D{Can basic conversion work?}
+  E[Basic conversion]
+  F{Is basic output readable?}
+  G[Advanced conversion]
+  H[Converted source library]
+  I[Research analyzer]
+  J[Research outputs]
+  K{Need better conversion?}
+  L[Page-level upgrade request]
+  M[Proof and research QC]
+  N[Wiki maintainer]
+  O[Canonical genealogy wiki]
+  P[Product gaps]
+  Q[External research agents]
+  R[New sources]
+  S[Page-level relevance and retention ranking]
+  T{Keep raw R2 material?}
+  U[Preserve raw]
+  V[Cold retain]
+  W[Deaccession candidate]
+  X[Reacquisition path]
+
+  A --&gt; B
+  B --&gt; C
+  C --&gt; D
+  D --&gt;|yes| E
+  D --&gt;|no| G
+  E --&gt; F
+  F --&gt;|yes| H
+  F --&gt;|no| G
+  G --&gt; H
+
+  H --&gt; I
+  I --&gt; J
+  J --&gt; K
+  K --&gt;|yes| L
+  L --&gt; G
+  K --&gt;|no| M
+  M --&gt; N
+  N --&gt; O
+  N --&gt; P
+  P --&gt; I
+
+  I --&gt; Q
+  Q --&gt; R
+  R --&gt; A
+
+  H --&gt; S
+  S --&gt; T
+  T --&gt;|important uncertain cited| U
+  T --&gt;|low but not certain| V
+  T --&gt;|very low and high confidence irrelevant| W
+  W --&gt; X
+  X --&gt; A</code></pre>
+    </main>
+  </div>
+
+</body>
+</html>

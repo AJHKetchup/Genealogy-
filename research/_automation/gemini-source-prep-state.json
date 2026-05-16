@@ -1,128 +1,31 @@
 {
-  "created": "2026-05-16T03:29:02Z",
+  "created": "2026-05-16T16:23:04Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
-  "limit": 2,
-  "parallelism": 2,
+  "limit": 10,
+  "parallelism": 1,
   "queue": "research/_agent-queues/source-prep-batches.json",
   "models": {
     "lite": "gemini-2.5-flash-lite",
     "pro": "gemini-2.5-pro"
   },
-  "processed": 2,
-  "completed": 2,
+  "processed": 0,
+  "completed": 0,
   "released": 0,
   "skipped": 0,
   "discovery_skipped": 0,
-  "route_counts": {
-    "pro": 2
-  },
-  "tasks": [
-    {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0002",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-images/page-0002.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.md",
-      "usage": {
-        "promptTokenCount": 1348,
-        "candidatesTokenCount": 1716,
-        "totalTokenCount": 5814,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1090
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 2750,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3/page-markdown/page-0002.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    },
-    {
-      "task_id": "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005",
-      "batch_task_id": "source-prep-batch:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-images/page-0005.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0005.md",
-      "usage": {
-        "promptTokenCount": 1348,
-        "candidatesTokenCount": 1469,
-        "totalTokenCount": 5271,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1090
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 2454,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/page-markdown/page-0005.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    }
-  ],
+  "route_counts": {},
+  "tasks": [],
   "usage": {
-    "prompt_tokens": 2696,
-    "candidate_tokens": 3185,
-    "total_tokens": 11085
+    "prompt_tokens": 0,
+    "candidate_tokens": 0,
+    "total_tokens": 0
   },
   "visual_regions": {
     "declared": 0,
     "cropped": 0,
     "skipped": 0,
-    "manifests": 2
+    "manifests": 0
   },
-  "finished": "2026-05-16T03:29:35Z"
+  "finished": "2026-05-16T16:23:04Z"
 }

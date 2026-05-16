@@ -1404,11 +1404,14 @@ def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp
     manifest_path = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     page_output = tmp_path / manifest["pages"][0]["output_path"]
-    assert not page_output.exists()
+    assert page_output.exists()
+    page_text = page_output.read_text(encoding="utf-8")
+    assert "Conversion method: Docling basic conversion" in page_text
+    assert "## Literal Transcription" in page_text
 
     write_agent_queues(tmp_path)
     source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
-    assert source_queue["status_counts"]["rough_discovery"] == 1
+    assert source_queue["status_counts"]["done"] == 1
     batch_path = write_source_prep_batches(tmp_path, limit=10)
     batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
     assert batch_queue["tasks"] == []
@@ -1445,8 +1448,64 @@ def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monke
     gemini = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, api_key="test-key")
 
     assert gemini["completed"] == 1
+    assert gemini["tasks"][0]["route"]["tier"] == "pro_docling_fallback"
     task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
     assert {state["status"] for state in task_state["tasks"].values()} == {"done"}
+
+
+def test_cloud_heartbeat_runs_source_prep_before_research(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "two-page-source.pdf"
+    doc = fitz.open()
+    page_one = doc.new_page(width=360, height=500)
+    page_one.insert_textbox((36, 36, 324, 460), "Dario Pulgar appears in printed minutes. " * 8, fontsize=11)
+    page_two = doc.new_page(width=360, height=500)
+    page_two.insert_text((36, 100), "x")
+    doc.save(source)
+
+    def fake_docling(input_path, **kwargs):
+        if input_path.stem.endswith("p0001"):
+            return {"markdown": "Dario Pulgar appears in printed minutes. " * 8, "extracted_images": []}
+        return "???"
+
+    def fake_gemini(**kwargs):
+        return {
+            "text": complete_gemini_page_markdown("DARIO PULGAR SMITH"),
+            "finish_reason": "STOP",
+            "usage": {"promptTokenCount": 5, "candidatesTokenCount": 10, "totalTokenCount": 15},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+
+    summary = cloud_source_prep_heartbeat(
+        tmp_path,
+        r2_source_intake=False,
+        restore_raw=False,
+        upload_assets=False,
+        build_site=False,
+        system_status=False,
+        research_analyzer_limit=1,
+        research_question_limit=1,
+    )
+
+    docling_step = next(step for step in summary["steps"] if step["name"] == "source-prep-docling-discovery")
+    gemini_step = next(step for step in summary["steps"] if step["name"] == "gemini-source-prep")
+    gate_step = next(step for step in summary["steps"] if step["name"] == "source-prep-first-gate")
+    analyzer_step = next(step for step in summary["steps"] if step["name"] == "research-analyzer")
+    assert docling_step["status"] == "ran"
+    assert docling_step["detail"]["accepted"] == 1
+    assert docling_step["detail"]["unusable"] == 1
+    assert gemini_step["status"] == "ran"
+    assert gemini_step["detail"]["completed"] == 1
+    assert gate_step["status"] == "ready"
+    assert analyzer_step["status"] == "ran"
+    manifest = json.loads((tmp_path / "raw" / "source-prep-manifest.json").read_text(encoding="utf-8"))
+    assert manifest["sources"][0]["status"] == "converted"
+    assert list((tmp_path / "raw" / "converted").glob("*.codex.md"))
+    assert (tmp_path / "raw" / "chunks").exists()
 
 
 def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypatch) -> None:
@@ -2478,6 +2537,9 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert payload["source_conversion"]["source_count"] == 1
     assert payload["source_conversion"]["conversion_job_count"] == 1
     assert payload["source_conversion"]["usability_status_counts"]["conversion_in_progress"] == 1
+    assert payload["source_prep_gate"]["ready"] is False
+    assert payload["source_prep_gate"]["pending_source_count"] == 1
+    assert payload["source_prep_gate"]["blocking_task_count"] == 1
     assert payload["queues"]["source_prep"]["task_count"] == 1
     assert payload["queues"]["source_prep"]["path"] == "research/_agent-queues/source-prep.json"
     assert payload["r2_source_intake"]["status"] == "active"
@@ -2497,9 +2559,11 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert payload["storage"]["r2_derived_asset_count"] == 1
     assert payload["storage_lifecycle"]["status"] == "not_started"
     assert payload["conversion_qa_unblock"]["summary"]["conversion_qa_task_count"] == 0
-    assert {action["area"] for action in payload["next_actions"]} >= {"source_prep"}
+    assert {action["area"] for action in payload["next_actions"]} >= {"source_prep", "source_prep_gate"}
     dashboard_text = (tmp_path / "research" / "System Dashboard.md").read_text(encoding="utf-8")
     assert "## Source Conversion" in dashboard_text
+    assert "## Source Prep First Gate" in dashboard_text
+    assert "Gate ready: false" in dashboard_text
     assert "## R2 Source Intake" in dashboard_text
     assert "Remote raw files seen: 3" in dashboard_text
     assert "Preflight status: missing_config" in dashboard_text
@@ -2517,6 +2581,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert "Analyzer external research requests" in dashboard_text
     assert "Analyzer external research statuses" in dashboard_text
     assert "External research request notes" in dashboard_text
+    assert "`source_prep_gate`" in dashboard_text
     assert "`source_prep`" in dashboard_text
     assert "## Queue Blockers" in dashboard_text
     assert "## Conversion QA Unblock Plan" in dashboard_text
@@ -3303,6 +3368,7 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert "site/family-tree.html" in written_names
     assert "site/people/dario-pulgar.html" in written_names
     assert "site/people/relative.html" in written_names
+    assert "site/agent-workflows.html" in written_names
     assert "site/search.html" in written_names
     assert "site/assets/site.css" in written_names
     assert "site/assets/search.js" in written_names
@@ -3318,18 +3384,27 @@ See [[Family Tree]] and [[people/relative|a relative]].
     person_html = (tmp_path / "site" / "people" / "dario-pulgar.html").read_text(encoding="utf-8")
     assert '<a href="../family-tree.html">Family Tree</a>' in person_html
     assert '<a href="relative.html">a relative</a>' in person_html
+    assert '<a href="../agent-workflows.html">Agent Workflows</a>' in person_html
     assert '<a href="../search.html">Search</a>' in person_html
     assert "Generated from wiki/people/dario-pulgar.md" in person_html
+    agent_html = (tmp_path / "site" / "agent-workflows.html").read_text(encoding="utf-8")
+    assert "Agent Workflows" in agent_html
+    assert "Current Gate" in agent_html
+    assert "Queue Summary" in agent_html
+    assert "Flow Status" in agent_html
+    assert "conversion-qa" in agent_html
+    assert "research/_agent-queues/conversion-qa.json" in agent_html
     search_html = (tmp_path / "site" / "search.html").read_text(encoding="utf-8")
     assert 'id="site-search-input"' in search_html
     assert '<script src="assets/search.js" defer></script>' in search_html
     manifest = json.loads((tmp_path / "site" / "site-manifest.json").read_text(encoding="utf-8"))
     assert manifest["page_count"] == 4
-    assert manifest["utility_page_count"] == 1
+    assert manifest["utility_page_count"] == 2
     assert manifest["search_index"] == "site/search-index.json"
     assert manifest["search_entry_count"] == 4
     assert manifest["asset_count"] == 2
     assert manifest["storage_contract"].startswith("HTML, CSS, and build manifests are GitHub files")
+    assert {page["title"] for page in manifest["utility_pages"]} == {"Agent Workflows", "Search"}
     search_index = json.loads((tmp_path / "site" / "search-index.json").read_text(encoding="utf-8"))
     assert search_index["entry_count"] == 4
     dario_entry = next(entry for entry in search_index["entries"] if entry["title"] == "Dario Pulgar")
@@ -3343,9 +3418,9 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert status["search_index_exists"] is True
     assert status["search_entry_count"] == 4
     assert status["source_page_count"] == 4
-    assert status["utility_page_count"] == 1
-    assert status["manifest_page_count"] == 5
-    assert status["html_file_count"] == 5
+    assert status["utility_page_count"] == 2
+    assert status["manifest_page_count"] == 6
+    assert status["html_file_count"] == 6
     assert status["asset_count"] == 2
     assert status["missing_entrypoint_count"] == 0
     assert status["missing_manifest_output_count"] == 0
