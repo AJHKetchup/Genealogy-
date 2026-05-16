@@ -12779,6 +12779,9 @@ def build_system_final_site_summary(root: Path) -> dict[str, object]:
         ),
         "site_root": status_payload.get("site_root", "site"),
         "manifest": status_payload.get("manifest", "site/site-manifest.json"),
+        "search_index": status_payload.get("search_index", "site/search-index.json"),
+        "search_index_exists": bool(status_payload.get("search_index_exists", False)),
+        "search_entry_count": safe_int(status_payload.get("search_entry_count"), 0),
         "source_page_count": safe_int(status_payload.get("source_page_count"), 0),
         "manifest_page_count": safe_int(status_payload.get("manifest_page_count"), 0),
         "html_file_count": safe_int(status_payload.get("html_file_count"), 0),
@@ -13024,6 +13027,7 @@ Generated: {payload.get("created", "")}
 - Status: {dict_value(final_site, "status")}
 - Status report: `{dict_value(final_site, "index", "") or "none"}`
 - Manifest: `{dict_value(final_site, "manifest", "")}`
+- Search index: `{dict_value(final_site, "search_index", "")}` ({dict_value(final_site, "search_entry_count")} entries)
 - Source wiki pages: {dict_value(final_site, "source_page_count")}
 - Manifest pages: {dict_value(final_site, "manifest_page_count")}
 - HTML files: {dict_value(final_site, "html_file_count")}
@@ -14490,6 +14494,7 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
     written.append(css_path)
 
     page_records = []
+    search_entries = []
     for page in pages:
         markdown_path = page["source"]
         output_path = site_dir / str(page["output"])
@@ -14513,6 +14518,18 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
                 "output": relative_to_root(output_path, paths.root),
             }
         )
+        search_entries.append(build_site_search_entry(page, text, paths.root, output_path))
+
+    search_index_path = site_dir / "search-index.json"
+    search_index_payload = {
+        "created": utc_timestamp(),
+        "purpose": "Static search index for generated public genealogy HTML pages.",
+        "storage_contract": "Search JSON is a GitHub build artifact generated from public wiki pages; raw originals and durable binary assets stay in R2.",
+        "entry_count": len(search_entries),
+        "entries": search_entries,
+    }
+    search_index_path.write_text(json.dumps(search_index_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    written.append(search_index_path)
 
     manifest = {
         "created": utc_timestamp(),
@@ -14520,6 +14537,8 @@ def build_static_site(root: Path, output_dir: Path | None = None) -> list[Path]:
         "site_root": relative_to_root(site_dir, paths.root),
         "source_root": "wiki",
         "page_count": len(page_records),
+        "search_index": relative_to_root(search_index_path, paths.root),
+        "search_entry_count": len(search_entries),
         "asset_count": 1,
         "storage_contract": "HTML, CSS, and build manifests are GitHub files; raw originals and durable binary assets remain in R2.",
         "pages": page_records,
@@ -14574,6 +14593,12 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
         for page in manifest_pages
         if isinstance(page, dict) and str(page.get("source", "")).strip()
     ]
+    search_index = str(manifest.get("search_index", "site/search-index.json")).strip() if manifest else "site/search-index.json"
+    search_index_path = paths.root / search_index if search_index else resolved_site_dir / "search-index.json"
+    search_payload = read_json_payload(search_index_path, {})
+    search_entries = search_payload.get("entries", []) if isinstance(search_payload, dict) else []
+    if not isinstance(search_entries, list):
+        search_entries = []
 
     html_outputs = sorted(
         relative_to_root(path, paths.root)
@@ -14619,6 +14644,9 @@ def build_final_site_status_payload(root: Path, *, site_dir: Path | None = None)
         "site_root": relative_to_root(resolved_site_dir, paths.root),
         "manifest": relative_to_root(manifest_path, paths.root),
         "manifest_exists": manifest_path.exists(),
+        "search_index": relative_to_root(search_index_path, paths.root),
+        "search_index_exists": search_index_path.exists(),
+        "search_entry_count": len(search_entries),
         "storage_contract": "Final HTML, CSS, status, and build manifests stay in GitHub; raw originals and durable binary assets stay in R2.",
         "entrypoints": expected_entrypoints,
         "missing_entrypoints": missing_entrypoints,
@@ -14682,6 +14710,7 @@ Status: {payload.get("status", "")}
 
 - Site root: `{payload.get("site_root", "")}`
 - Manifest: `{payload.get("manifest", "")}`
+- Search index: `{payload.get("search_index", "")}` ({dict_value(payload, "search_entry_count")} entries)
 - Source wiki pages: {dict_value(payload, "source_page_count")}
 - Manifest pages: {dict_value(payload, "manifest_page_count")}
 - HTML files: {dict_value(payload, "html_file_count")}
@@ -14725,6 +14754,77 @@ def collect_site_pages(root: Path) -> list[dict[str, object]]:
             }
         )
     return sorted(pages, key=site_page_sort_key)
+
+
+def build_site_search_entry(page: dict[str, object], text: str, root: Path, output_path: Path) -> dict[str, object]:
+    source_path = page.get("source")
+    source_rel = relative_to_root(source_path, root) if isinstance(source_path, Path) else ""
+    return {
+        "title": str(page.get("title", "")),
+        "kind": site_page_kind(str(page.get("wiki_rel", ""))),
+        "source": source_rel,
+        "output": relative_to_root(output_path, root),
+        "excerpt": site_search_excerpt(text),
+        "terms": site_search_terms(text),
+    }
+
+
+def site_page_kind(wiki_rel: str) -> str:
+    normalized = wiki_rel.replace("\\", "/").strip("/")
+    if normalized == "index.md":
+        return "index"
+    if normalized.lower() == "family tree.md":
+        return "family_tree"
+    parts = [part for part in normalized.split("/") if part]
+    if len(parts) > 1:
+        return parts[0]
+    return "page"
+
+
+def site_search_excerpt(text: str, *, max_chars: int = 220) -> str:
+    cleaned = site_search_plain_text(text)
+    return cleaned[: max_chars - 3].rstrip() + "..." if len(cleaned) > max_chars else cleaned
+
+
+def site_search_terms(text: str, *, limit: int = 24) -> list[str]:
+    cleaned = site_search_plain_text(text).lower()
+    stop_words = {
+        "about",
+        "after",
+        "and",
+        "are",
+        "before",
+        "for",
+        "from",
+        "into",
+        "not",
+        "the",
+        "this",
+        "was",
+        "were",
+        "with",
+    }
+    terms = []
+    for word in re.findall(r"[a-z0-9][a-z0-9'-]{2,}", cleaned):
+        if word in stop_words or word in terms:
+            continue
+        terms.append(word)
+        if len(terms) >= limit:
+            break
+    return terms
+
+
+def site_search_plain_text(text: str) -> str:
+    text = strip_frontmatter(text)
+    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)
+    text = re.sub(r"\[\[([^|\]]+)\|([^\]]+)\]\]", r"\2", text)
+    text = re.sub(r"\[\[([^\]]+)\]\]", lambda match: title_from_slug(match.group(1).split("/")[-1]), text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"^#{1,6}\s+", " ", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s*[-*]\s+", " ", text, flags=re.MULTILINE)
+    text = re.sub(r"[*_`>|]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
 
 def site_page_sort_key(page: dict[str, object]) -> tuple[int, str]:

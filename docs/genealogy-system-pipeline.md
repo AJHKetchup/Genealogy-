@@ -232,6 +232,7 @@ Storage deaccession is allowed only when:
 - Implemented: static HTML final-site generator structure for product wiki pages.
 - Implemented: static HTML site build refreshes the generated Family Tree entry point.
 - Implemented: final-site status report with HTML entry-point and source-page coverage checks.
+- Implemented: static final-site search index generated from public wiki pages.
 - Implemented: non-destructive page-level storage lifecycle ranking and deaccession candidate records.
 - Implemented: cloud heartbeat refreshes the non-destructive storage lifecycle report by default.
 - Partial: research wiki and staging structure.

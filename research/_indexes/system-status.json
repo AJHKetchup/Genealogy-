@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T12:51:13Z",
+  "created": "2026-05-16T13:07:55Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T12:51:12Z",
+    "created": "2026-05-16T13:07:54Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -150,7 +150,7 @@
     }
   },
   "conversion_qa_unblock": {
-    "created": "2026-05-16T12:51:13Z",
+    "created": "2026-05-16T13:07:55Z",
     "path": "research/_indexes/conversion-qa-unblock-plan.json",
     "markdown": "research/conversion-qa-unblock-plan.md",
     "next_focus": "research/conversion-qa-next.md",
@@ -219,6 +219,9 @@
     "markdown": "research/final-site-status.md",
     "site_root": "site",
     "manifest": "site/site-manifest.json",
+    "search_index": "site/search-index.json",
+    "search_index_exists": true,
+    "search_entry_count": 2,
     "source_page_count": 2,
     "manifest_page_count": 2,
     "html_file_count": 2,
@@ -244,7 +247,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T12:51:12Z",
+      "created": "2026-05-16T13:07:54Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

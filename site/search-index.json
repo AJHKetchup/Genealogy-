@@ -1,0 +1,58 @@
+{
+  "created": "2026-05-16T13:07:54Z",
+  "purpose": "Static search index for generated public genealogy HTML pages.",
+  "storage_contract": "Search JSON is a GitHub build artifact generated from public wiki pages; raw originals and durable binary assets stay in R2.",
+  "entry_count": 2,
+  "entries": [
+    {
+      "title": "Genealogy Wiki Index",
+      "kind": "index",
+      "source": "wiki/index.md",
+      "output": "site/index.html",
+      "excerpt": "Genealogy Wiki Index People No canonical person pages with promoted evidence were discoverable in the shared repository as of 2026-05-14. Branches Families Relationships Events Places Sources Source Packets Claims No...",
+      "terms": [
+        "genealogy",
+        "wiki",
+        "index",
+        "people",
+        "canonical",
+        "person",
+        "pages",
+        "promoted",
+        "evidence",
+        "discoverable",
+        "shared",
+        "repository",
+        "2026-05-14",
+        "branches",
+        "families",
+        "relationships",
+        "events",
+        "places",
+        "sources",
+        "source",
+        "packets",
+        "claims",
+        "accepted",
+        "probable"
+      ]
+    },
+    {
+      "title": "Family Tree",
+      "kind": "family_tree",
+      "source": "wiki/Family Tree.md",
+      "output": "site/family-tree.html",
+      "excerpt": "Family Tree This view shows the family connections currently represented in the wiki.",
+      "terms": [
+        "family",
+        "tree",
+        "view",
+        "shows",
+        "connections",
+        "currently",
+        "represented",
+        "wiki"
+      ]
+    }
+  ]
+}

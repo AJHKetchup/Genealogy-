@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T12:51:13Z
+Generated: 2026-05-16T13:07:55Z
 
 ## Source Conversion
 
@@ -105,6 +105,7 @@ Generated: 2026-05-16T12:51:13Z
 - Status: ready
 - Status report: `research/_indexes/final-site-status.json`
 - Manifest: `site/site-manifest.json`
+- Search index: `site/search-index.json` (2 entries)
 - Source wiki pages: 2
 - Manifest pages: 2
 - HTML files: 2

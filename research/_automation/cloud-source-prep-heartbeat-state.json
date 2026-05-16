@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T12:51:12Z",
+  "created": "2026-05-16T13:07:54Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
   "r2": {
@@ -169,6 +169,7 @@
           "site/assets/site.css",
           "site/index.html",
           "site/family-tree.html",
+          "site/search-index.json",
           "site/site-manifest.json",
           "research/_indexes/final-site-status.json",
           "research/final-site-status.md"
@@ -236,6 +237,6 @@
       }
     }
   },
-  "finished": "2026-05-16T12:51:13Z",
+  "finished": "2026-05-16T13:07:55Z",
   "state_path": "research/_automation/cloud-source-prep-heartbeat-state.json"
 }

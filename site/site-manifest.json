@@ -1,9 +1,11 @@
 {
-  "created": "2026-05-16T12:51:13Z",
+  "created": "2026-05-16T13:07:54Z",
   "purpose": "Static HTML build manifest for the user-facing genealogy site.",
   "site_root": "site",
   "source_root": "wiki",
   "page_count": 2,
+  "search_index": "site/search-index.json",
+  "search_entry_count": 2,
   "asset_count": 1,
   "storage_contract": "HTML, CSS, and build manifests are GitHub files; raw originals and durable binary assets remain in R2.",
   "pages": [

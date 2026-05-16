@@ -2353,6 +2353,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert "## Storage" in dashboard_text
     assert "## Final Site" in dashboard_text
     assert "Status report" in dashboard_text
+    assert "Search index" in dashboard_text
     assert "Missing source pages from manifest" in dashboard_text
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert "[[System Dashboard]]" in research_index
@@ -3107,6 +3108,7 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert "site/people/relative.html" in written_names
     assert "site/assets/site.css" in written_names
     assert "site/site-manifest.json" in written_names
+    assert "site/search-index.json" in written_names
     assert "research/_indexes/final-site-status.json" in written_names
     assert "research/final-site-status.md" in written_names
     assert not (tmp_path / "site" / "_templates" / "hidden.html").exists()
@@ -3120,9 +3122,21 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert "Generated from wiki/people/dario-pulgar.md" in person_html
     manifest = json.loads((tmp_path / "site" / "site-manifest.json").read_text(encoding="utf-8"))
     assert manifest["page_count"] == 4
+    assert manifest["search_index"] == "site/search-index.json"
+    assert manifest["search_entry_count"] == 4
     assert manifest["storage_contract"].startswith("HTML, CSS, and build manifests are GitHub files")
+    search_index = json.loads((tmp_path / "site" / "search-index.json").read_text(encoding="utf-8"))
+    assert search_index["entry_count"] == 4
+    dario_entry = next(entry for entry in search_index["entries"] if entry["title"] == "Dario Pulgar")
+    assert dario_entry["kind"] == "people"
+    assert dario_entry["output"] == "site/people/dario-pulgar.html"
+    assert "a relative" in dario_entry["excerpt"]
+    assert "status: draft" not in dario_entry["excerpt"]
     status = json.loads((tmp_path / "research" / "_indexes" / "final-site-status.json").read_text(encoding="utf-8"))
     assert status["status"] == "ready"
+    assert status["search_index"] == "site/search-index.json"
+    assert status["search_index_exists"] is True
+    assert status["search_entry_count"] == 4
     assert status["source_page_count"] == 4
     assert status["manifest_page_count"] == 4
     assert status["html_file_count"] == 4
@@ -3133,6 +3147,7 @@ See [[Family Tree]] and [[people/relative|a relative]].
     assert status["storage_contract"].startswith("Final HTML, CSS, status, and build manifests stay in GitHub")
     status_markdown = (tmp_path / "research" / "final-site-status.md").read_text(encoding="utf-8")
     assert "Status: ready" in status_markdown
+    assert "Search index: `site/search-index.json` (4 entries)" in status_markdown
     assert "Final HTML site entry points and source-page coverage are current." in status_markdown
 
 

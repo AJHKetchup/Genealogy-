@@ -1,10 +1,13 @@
 {
-  "created": "2026-05-16T12:51:13Z",
+  "created": "2026-05-16T13:07:54Z",
   "status": "ready",
   "purpose": "Final HTML genealogy site status and coverage report.",
   "site_root": "site",
   "manifest": "site/site-manifest.json",
   "manifest_exists": true,
+  "search_index": "site/search-index.json",
+  "search_index_exists": true,
+  "search_entry_count": 2,
   "storage_contract": "Final HTML, CSS, status, and build manifests stay in GitHub; raw originals and durable binary assets stay in R2.",
   "entrypoints": [
     {

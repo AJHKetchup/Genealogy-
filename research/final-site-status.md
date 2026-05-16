@@ -1,6 +1,6 @@
 # Final Site Status
 
-Generated: 2026-05-16T12:51:13Z
+Generated: 2026-05-16T13:07:54Z
 
 Status: ready
 
@@ -8,6 +8,7 @@ Status: ready
 
 - Site root: `site`
 - Manifest: `site/site-manifest.json`
+- Search index: `site/search-index.json` (2 entries)
 - Source wiki pages: 2
 - Manifest pages: 2
 - HTML files: 2
