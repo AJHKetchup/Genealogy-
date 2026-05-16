@@ -6406,7 +6406,7 @@ def source_prep_gemini_run(
     api_key: str = "",
     lite_model: str = GEMINI_SOURCE_PREP_LITE_MODEL,
     pro_model: str = GEMINI_SOURCE_PREP_PRO_MODEL,
-    max_output_tokens_lite: int = 16000,
+    max_output_tokens_lite: int = 65536,
     max_output_tokens_pro: int = 65536,
     crop_relevance: bool = True,
     crop_count: int = 4,
@@ -8925,8 +8925,8 @@ def build_parser() -> argparse.ArgumentParser:
     gemini_source_prep_parser.add_argument(
         "--max-output-tokens-lite",
         type=int,
-        default=16000,
-        help="Max output tokens for lite-model pages. Default: 16000.",
+        default=65536,
+        help="Max output tokens for lite-model pages. Default: 65536.",
     )
     gemini_source_prep_parser.add_argument(
         "--max-output-tokens-pro",
