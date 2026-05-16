@@ -106,6 +106,13 @@
           "page_range": "44-63"
         },
         {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0124-0143",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 124-143",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143/manifest.json",
+          "status": "prepared",
+          "page_range": "124-143"
+        },
+        {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0001-0003",
           "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 1-3",
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/manifest.json",
@@ -146,14 +153,33 @@
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83/manifest.json",
           "status": "prepared",
           "page_range": "64-83"
+        },
+        {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0144-0163",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 144-163",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163/manifest.json",
+          "status": "prepared",
+          "page_range": "144-163"
         }
       ],
       "converted_sources": [
+        {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143/manifest.json",
+          "sha256": "1b68a0ec26562ba9eb93d36cd786f345930f900a725a410681dc9a281e88bb21"
+        },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json",
           "sha256": "7935f644d3877e9f76c555e71e76fbc09763279d4841bd5d4379589adbc2bec2"
+        },
+        {
+          "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123.codex.md",
+          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123/manifest.json",
+          "sha256": "079b5739c8a3fa4b5628c0b2fd1b1c01484aeec1dfd9d4449a2eb5ab40c7063c"
         },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103.codex.md",
@@ -296,6 +322,20 @@
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
           "status": "prepared",
           "page_range": "104-123"
+        },
+        {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0144-0163",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 144-163",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163/manifest.json",
+          "status": "prepared",
+          "page_range": "144-163"
+        },
+        {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0124-0143",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 124-143",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143/manifest.json",
+          "status": "prepared",
+          "page_range": "124-143"
         },
         {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0001-0003",
@@ -602,6 +642,13 @@
           "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json",
           "status": "prepared",
           "page_range": "1-20"
+        },
+        {
+          "job_id": "CA47b759d1-historia-del-hospital-cl-p0121-0127",
+          "title": "Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional pages 121-127",
+          "manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json",
+          "status": "prepared",
+          "page_range": "121-127"
         },
         {
           "job_id": "CA47b759d1-historia-del-hospital-cl-p0021-0040",

@@ -1,0 +1,119 @@
+{
+  "job_id": "CA47b759d1-historia-del-hospital-cl-p0121-0127",
+  "title": "Historia del Hospital Cl\u00ednico Regional de Concepci\u00f3n, Carlos P\u00e9rez Arrau, September 2013, pp. 45\u201348, Appendix Directors of Hospital Cl\u00ednico Regional pages 121-127",
+  "source_file": "raw/sources/Historia del Hospital Cl\u00ednico Regional de Concepci\u00f3n, Carlos P\u00e9rez Arrau, September 2013, pp. 45\u201348, Appendix Directors of Hospital Cl\u00ednico Regional.pdf",
+  "local_staged_source_file": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/source/historia-del-hospital-cl-nico-regional-de-concep-47b759d1532f.pdf",
+  "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
+  "source_bytes": 7997729,
+  "media_type": "pdf",
+  "created": "2026-05-16",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "121-127",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 121,
+      "source_page": 121,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0121.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 207081,
+      "image_sha256": "4b72cfa7d6cc26d8f95e8d3a1cd73f851f69db04419bb01ae0b81bd4b1274191",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0121",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0121.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0121.md",
+      "status": "todo"
+    },
+    {
+      "page": 122,
+      "source_page": 122,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0122.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 236040,
+      "image_sha256": "7f205b2e5c04a01f03db454b6ff123eb6411fd90b0c79f58148c7f81c783b384",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0122",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0122.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0122.md",
+      "status": "todo"
+    },
+    {
+      "page": 123,
+      "source_page": 123,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0123.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 83233,
+      "image_sha256": "5eda240e5112864ff75304b71ccee5c36ffea495cd1a53180b1adbb07cfc40c5",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0123",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0123.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0123.md",
+      "status": "todo"
+    },
+    {
+      "page": 124,
+      "source_page": 124,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0124.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 450882,
+      "image_sha256": "d13b3fbb65e48a667d2570b822ba3d32aa42a4e6aec8436d9d5b91700fe2a9e8",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0124",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0124.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0124.md",
+      "status": "todo"
+    },
+    {
+      "page": 125,
+      "source_page": 125,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0125.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 222191,
+      "image_sha256": "c24ebcb953dca6357636e5007fe827ff6f2bd5583a50efb11fe860b7af2cdca8",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0125",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0125.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0125.md",
+      "status": "todo"
+    },
+    {
+      "page": 126,
+      "source_page": 126,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0126.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 370567,
+      "image_sha256": "598b94b40cc636b05d50fc65c7137a43ac35da5ff714bef2097af045ad94e085",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0126",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0126.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0126.md",
+      "status": "todo"
+    },
+    {
+      "page": 127,
+      "source_page": 127,
+      "image_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0127.jpg",
+      "width_px": 1225,
+      "height_px": 1585,
+      "image_bytes": 159732,
+      "image_sha256": "b8aed26be57fa94b6fb74789f030c4a6dc5db2aace987cff50e62f455813ffd2",
+      "image_output_dir": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images/page-0127",
+      "output_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-markdown/page-0127.md",
+      "work_order_path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0127.md",
+      "status": "todo"
+    }
+  ]
+}
