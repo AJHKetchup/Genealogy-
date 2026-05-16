@@ -60,19 +60,19 @@
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json",
-          "sha256": "cf4fad08066ea79b2920793347511997369f8c380cb0c470ee32a15b234813ad"
+          "sha256": "e1498875dc30295159f8f95cd385237123bbcad0790559d307bb11689aaf6e66"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
-          "sha256": "4ee6dacda738b3598e7c73c29342658bc35036402f70442e73a3f5f26ff5252c"
+          "sha256": "3f36c650cb98b1d4d53ba79d3cbb531761e250991c6ba3e0ee4773327e6436ef"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md",
           "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json",
-          "sha256": "9484eb15e97c186076f4bb1d534ea81aa96732cdcd828aef8de130bf3e0afbdf"
+          "sha256": "861dfa8695d078e6e523974052a02ecd58ebbbb4ef175800b854bc3508d603ad"
         },
         {
           "path": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md",
@@ -141,11 +141,25 @@
           "page_range": "84-103"
         },
         {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0264-0283",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 264-283",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283/manifest.json",
+          "status": "prepared",
+          "page_range": "264-283"
+        },
+        {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0104-0123",
           "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 104-123",
           "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123/manifest.json",
           "status": "prepared",
           "page_range": "104-123"
+        },
+        {
+          "job_id": "CA753b8b14-anales-de-la-universidad-p0244-0263",
+          "title": "Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918. pages 244-263",
+          "manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json",
+          "status": "prepared",
+          "page_range": "244-263"
         },
         {
           "job_id": "CA753b8b14-anales-de-la-universidad-p0064-0083",
@@ -201,7 +215,7 @@
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json",
-          "sha256": "7935f644d3877e9f76c555e71e76fbc09763279d4841bd5d4379589adbc2bec2"
+          "sha256": "23ed4d2eaf6fa2626f26b74f1ec70f55c1e5c8c22e0b645edd7a06925d0c4e69"
         },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123.codex.md",
@@ -225,19 +239,19 @@
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json",
-          "sha256": "6fe9ae6e157e8fb779cbeef965b457c97bbf88321fb24ceb5e423f2d277e22a0"
+          "sha256": "72b23b5da9a57a86df3bc8a6a1b82f82db722b469f83bfbbcc0f80e702575f6f"
         },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/manifest.json",
-          "sha256": "9cc4e60c9719ce0edf0fbf1409e36555ee615a45054d072d7f159bfd6bb8ed6d"
+          "sha256": "205d3635b85b3aeb879d81f1185d85c29678f4fe8e056e5a1c0cfb8a4a45de5f"
         },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md",
           "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json",
-          "sha256": "08e2dae588a3016069d1936d435ad7a3591bd9c5d8ccb564ad251b7bb7a7c1fe"
+          "sha256": "e6e625979676db5023607b9082176383c9ca2cd5da5cb5e49a4e1b4482d3954d"
         },
         {
           "path": "raw/converted/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183.codex.md",
@@ -282,7 +296,7 @@
           "path": "raw/converted/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959.codex.md",
           "source": "raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png",
           "source_manifest": "raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/manifest.json",
-          "sha256": "1b9c4f9af4950a42b4ec4e3968a086aaadb44542e3de2a888d88c79026826646"
+          "sha256": "e810fd7d5a0c5058392cba8b3ea5671100c36f3827f5e2241db3589c5d4f35ad"
         }
       ],
       "cloud": {
@@ -406,6 +420,13 @@
           "page_range": "204-223"
         },
         {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0244-0263",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 244-263",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/manifest.json",
+          "status": "prepared",
+          "page_range": "244-263"
+        },
+        {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0084-0103",
           "title": "Cámara de Senadores de la Nación, 1936 pages 84-103",
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json",
@@ -418,6 +439,13 @@
           "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/manifest.json",
           "status": "prepared",
           "page_range": "224-243"
+        },
+        {
+          "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0264-0283",
+          "title": "Cámara de Senadores de la Nación, 1936 pages 264-283",
+          "manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json",
+          "status": "prepared",
+          "page_range": "264-283"
         },
         {
           "job_id": "CA221159bd-c-mara-de-senadores-de-l-p0024-0043",
@@ -439,7 +467,7 @@
           "path": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md",
           "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json",
-          "sha256": "d1d83f7e1e752f4fc3402c51f357591e9291d11ef6d8111d35ea7e817750abc1"
+          "sha256": "81a6f2d99d99d6203fa7dc591fb74b38a058ba24b22d860b9a119b72a522d8cd"
         }
       ],
       "cloud": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-16T20:20:44.939491+00:00",
+  "created": "2026-05-16T20:41:29.105379+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -38,6 +38,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
+      "bytes": 27400000,
+      "sha256": "37f7082aaa8e2788ad76301d46d0b29dceef9dd59a90e055b632e7312523e475",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0010/page-0010-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0010/page-0010-docling-image-01.png",
       "bytes": 34771,
@@ -56,9 +63,9 @@
     "action": "asset-upload",
     "dry_run": false,
     "total_files": 1,
-    "total_bytes": 80030,
-    "uploaded": 0,
-    "skipped": 1,
+    "total_bytes": 27400000,
+    "uploaded": 1,
+    "skipped": 0,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -68,9 +75,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 5,
+      "scanned": 6,
       "deleted": 0,
-      "skipped": 5,
+      "skipped": 6,
       "errors": []
     }
   }

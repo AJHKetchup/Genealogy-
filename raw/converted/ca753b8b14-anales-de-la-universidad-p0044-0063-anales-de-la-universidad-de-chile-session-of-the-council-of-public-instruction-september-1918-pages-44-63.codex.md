@@ -1445,121 +1445,108 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-# Page 59
-
 ## Page Metadata
 
-- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
-- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
-- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json`
-- Source page: 59
-- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/page-images/page-0059.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- **Page number**: 59
+- **Page text**:
+- SESION DE 14 DE OCTUBRE DE 1918 345
+- Castellano
+- SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
+- Propietarios: don Samuel A. Lillo.
+- » Arcadio Ducoing.
+- » Eliodoro Flores.
+- Suplentes: » Ernesto Guzmán.
+- » Antonio Bórquez Solar.
+- Matemáticas
+- PRIMER AÑO
+- Propietarios: don Federico Arriagada.
+- » Manuel E. Aguilera.
+- » José María Ormazábal.
+- Suplentes: » Camilo Valenzuela.
+- » Francisco A. Medina Rivera.
+- Matemáticas
+- SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
+- Propietarios: don Ricardo Poenisch.
+- » Francisco Pröschle.
+- » Manuel Arancibia.
+- Suplentes: » Francisco A. Medina Rivera.
+- » Ramón Jiménez Villagrán.
+- Francés
+- PRIMER AÑO
+- Propietarios: don Julio Chávez.
+- » Carlos Montebruno.
+- » Max. Flores.
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page is a single column of text. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`). Within each subject, there are lists of personnel designated as `Propietarios` (permanent staff) and `Suplentes` (substitutes), further categorized by academic year(s). The reading order is from top to bottom.
 
 ## Literal Transcription
 
 ```markdown
-## Castellano
+SESION DE 14 DE OCTUBRE DE 1918 345
 
-SEGUNDO, TERCERO, CUARTO, QUINTO 1  SESTO AÑOS
+***
 
-Propietarios:
+**Castellano**
 
-don Samuel A. Lillo.
+SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
 
-- » Arcadio Ducomg.
+Propietarios: don Samuel A. Lillo.
+» Arcadio Ducoing.
+» Eliodoro Flores.
+Suplentes: » Ernesto Guzmán.
+» Antonio Bórquez Solar.
 
-- » Eliodoro Flores.
-
-Suplentes:
-
-- » Ernesto Guzmán.
-
-- » Antonio Bórquez Solar.
-
-## Matemáticas
+**Matemáticas**
 
 PRIMER AÑO
 
-P.opietarios:
+Propietarios: don Federico Arriagada.
+» Manuel E. Aguilera.
+» José María Ormazábal.
+Suplentes: » Camilo Valenzuela.
+» Francisco A. Medina Rivera.
 
-don Federico Arriagada.
+**Matemáticas**
 
-- » Manuel E.  Aguilera.
+SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
 
-- » José  María Ormazábal.
+Propietarios: don Ricardo Poenisch.
+» Francisco Pröschle.
+» Manuel Arancibia.
+Suplentes: » Francisco A. Medina Rivera.
+» Ramón Jiménez Villagrán.
 
-Suplentes:
-
-- » Camilo Valenzuela.
-
-- » Francisco A.  Medina Rivera.
-
-## Matemáticas
-
-SEGUNDO, TERCERO, CUARTO, QUINTO 1  SESTO AÑOS
-
-Propietarios:
-
-don Ricardo Poenisch.
-
-- » Francisco Próschle.
-
-- » Manuel Arancibia.
-
-Suplentes:
-
-- -» Francisco A.  Medina Rivera.
-
-- » Ramón  Jiménez  Villagrán.
-
-## Francés
+**Francés**
 
 PRIMER AÑO
 
-Propictarios:
-
-don Julio  Chávez.
-
-- » Carlos Montebruno.
-
-- » Max. Flores.
+Propietarios: don Julio Chávez.
+» Carlos Montebruno.
+» Max. Flores.
 ```
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, illustrations, or other visual elements on this page. The page consists entirely of printed text.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible parts of this page.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of printed text with no images, illustrations, or other significant visual elements."
+}
+```
 
 # Page 60
 

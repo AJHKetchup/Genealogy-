@@ -1,7 +1,7 @@
 {
   "created": "2026-05-16",
   "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md",
-  "converted_sha256": "6fe9ae6e157e8fb779cbeef965b457c97bbf88321fb24ceb5e423f2d277e22a0",
+  "converted_sha256": "72b23b5da9a57a86df3bc8a6a1b82f82db722b469f83bfbbcc0f80e702575f6f",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
   "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
   "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json",
@@ -12,204 +12,284 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0024-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0024-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0024-chunk-01.md",
       "page_start": 24,
       "page_end": 24,
       "part": 1,
       "chars": 4309,
-      "sha256": "9e3cf43e8913e0d041ee258a87689297149c869081ec8243ce261294a1f82269"
+      "sha256": "787c07eae55f14c1878d39e151de2af9bf0e639a63e6f7e8715e47ac594416eb"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0025-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0025-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0025-chunk-01.md",
       "page_start": 25,
       "page_end": 25,
       "part": 1,
       "chars": 4396,
-      "sha256": "e3b5424b9f6c9ae617acb32c3c55399da85ea745adfc60a80a9eda17b748e9d0"
+      "sha256": "0c01a35ec88b8d2ebf9c2ba56afa3b53856a69cb646eaba259c1449413be8616"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0026-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0026-01",
       "chunk_number": 3,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0026-chunk-01.md",
       "page_start": 26,
       "page_end": 26,
       "part": 1,
       "chars": 3085,
-      "sha256": "d8e83ced4561b5aedbd00b0fb1cc78517b00a1eeadc9eaf93dfadfaaa218e601"
+      "sha256": "dad629e5738f8ad69f631fcb3d50a6bace49b0a2ef9a3c2638f6782d40dd6204"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0027-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0027-01",
       "chunk_number": 4,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0027-chunk-01.md",
       "page_start": 27,
       "page_end": 27,
       "part": 1,
       "chars": 3160,
-      "sha256": "6a2c45ac44dc9de83747c1fad946a1b0a0da07825bdbdb6dd6ff5a742ad9321a"
+      "sha256": "178aba7ef4f63a56a011beee3276dd11874ee944cb8d646f817289544fb92653"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0028-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0028-01",
       "chunk_number": 5,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0028-chunk-01.md",
       "page_start": 28,
       "page_end": 28,
       "part": 1,
       "chars": 3669,
-      "sha256": "7ecc0b85ef1bec53120fd77358dae2b0e55aab27eef66f6846f1831243bf2766"
+      "sha256": "36d2931c3f77c1b3fa20b1ccbed3d789fa47bb8cb7a28179e04e52b4f02165fe"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0029-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0029-01",
       "chunk_number": 6,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0029-chunk-01.md",
       "page_start": 29,
       "page_end": 29,
       "part": 1,
       "chars": 3995,
-      "sha256": "856cf65661b439e37504f4918b5e041eadb9fe17bce3fb38df2fed08e43fdeb8"
+      "sha256": "d031e5d60ec62662ce32c43d275ffd1df5654df14bffdf029a736bdb996a0afb"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0030-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0030-01",
       "chunk_number": 7,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0030-chunk-01.md",
       "page_start": 30,
       "page_end": 30,
       "part": 1,
       "chars": 3903,
-      "sha256": "856a995dffb7bd49049b71998146aedbbf86339a3a2bf317c7477559b87b40ec"
+      "sha256": "d72898529db3c2f79f6054e577f7b4963f3071d0f0228f32d247c2d191cd9076"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0031-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0031-01",
       "chunk_number": 8,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0031-chunk-01.md",
       "page_start": 31,
       "page_end": 31,
       "part": 1,
       "chars": 3400,
-      "sha256": "1214fb3e11d68a6eed4783b47d01388867614de45c17ae34706e284f9ee59857"
+      "sha256": "872bbad1fbd50e3f0e4048ab748459afc46eebd6b6b3f070e6449f626b70ea67"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0032-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0032-01",
       "chunk_number": 9,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0032-chunk-01.md",
       "page_start": 32,
       "page_end": 32,
       "part": 1,
       "chars": 3187,
-      "sha256": "73a5c8bfd74ad33a0b8c290f26ad485fbbb5f3508ff261c9e178013fa332acd2"
+      "sha256": "2ca6e4858babb4abfaa10d42aff3bcff8ef7172156bd6dd1c7c6817c76430312"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0033-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0033-01",
       "chunk_number": 10,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0033-chunk-01.md",
       "page_start": 33,
       "page_end": 33,
       "part": 1,
       "chars": 3073,
-      "sha256": "a9aa249e477115cd26e2329ff0ed85524ac7834c064e934a91705b6d87ebf8cd"
+      "sha256": "e119b503d1fb17eb573149e43c50c3353b79e2656b76d75a75b85831852314d0"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0034-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0034-01",
       "chunk_number": 11,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0034-chunk-01.md",
       "page_start": 34,
       "page_end": 34,
       "part": 1,
       "chars": 3733,
-      "sha256": "d2b6d51a8a10170b0871bff8956aad960cf129e219da4ecada837e66b6811d5f"
+      "sha256": "14bae31e4d9ce3ce4c1297d7edafb855cd39f0e2975195bfcb1933a672b73499"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0035-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0035-01",
       "chunk_number": 12,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0035-chunk-01.md",
       "page_start": 35,
       "page_end": 35,
       "part": 1,
       "chars": 2917,
-      "sha256": "f5eeed3bec9180781bcf3e52947ae758cf7ed2fb8c20767b41eeb5507f622f82"
+      "sha256": "caad4f81a879402cc2a5ffabd4522038e3bc66d92ca01a4cf38102ea06549e64"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0036-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0036-01",
       "chunk_number": 13,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0036-chunk-01.md",
       "page_start": 36,
       "page_end": 36,
       "part": 1,
-      "chars": 3451,
-      "sha256": "f77451aeed273be46025611d7e0ae161010f881a7dffd6c0053a44ef5b0ba449"
+      "chars": 6096,
+      "sha256": "5b9282b76d6bdac111e8835edda23f60757024645a063dfba3605e53adb18406"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0037-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0038-01",
       "chunk_number": 14,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0037-chunk-01.md",
-      "page_start": 37,
-      "page_end": 37,
-      "part": 1,
-      "chars": 3838,
-      "sha256": "1e16b242f83bc8267b4a7b9c3f35b76c938dfbacf9e16c6ed9c14daf3fd26bac"
-    },
-    {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0038-01",
-      "chunk_number": 15,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0038-chunk-01.md",
       "page_start": 38,
       "page_end": 38,
       "part": 1,
       "chars": 4249,
-      "sha256": "9d16271e66a27fac7a07d4638aa0b56414a0074169b7282dd1b863b8172812dd"
+      "sha256": "83ce6c61227e9841c9e9211a768ecf701b55d88e9bdc58396090fa63270335f5"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0039-01",
-      "chunk_number": 16,
+      "chunk_id": "CHUNK-72b23b5da9a5-P0039-01",
+      "chunk_number": 15,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0039-chunk-01.md",
       "page_start": 39,
       "page_end": 39,
       "part": 1,
       "chars": 2933,
-      "sha256": "c25f1fc76233bff6d6239b2647ad3fcf2f82f31fbb580b0d8f899d5213fbbb0e"
+      "sha256": "a1572d7886f25de121bb6e26d73a0570897f48e80ebbfa55911ec6adf09b3f2f"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0040-01",
-      "chunk_number": 17,
+      "chunk_id": "CHUNK-72b23b5da9a5-P0040-01",
+      "chunk_number": 16,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0040-chunk-01.md",
       "page_start": 40,
       "page_end": 40,
       "part": 1,
       "chars": 3053,
-      "sha256": "0138ba019110bb18d35471a9684ab2013f8ebfc6870ca55723cb4fc75726f906"
+      "sha256": "70ac61cd1a578e4a23a79eff1d5ac38136237432e005873e2da75632c0217308"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0041-01",
-      "chunk_number": 18,
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-01",
+      "chunk_number": 17,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-01.md",
       "page_start": 41,
       "page_end": 41,
       "part": 1,
-      "chars": 3824,
-      "sha256": "d0235270c8123d248453c345ac873b89da384b0c9c46f411de1797576e17172c"
+      "chars": 4434,
+      "sha256": "8cd5ca42306bce7f0a05b4c5d5c485fde255a6eb11231978c61e0626acf36eb9"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0042-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-02",
+      "chunk_number": 18,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-02.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 2,
+      "chars": 24,
+      "sha256": "fb39e67b0ee3dc863e0679735c2f5cf74ffa2e8a6c85653b32b9c9cf0c9e51a6"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-03",
       "chunk_number": 19,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0042-chunk-01.md",
-      "page_start": 42,
-      "page_end": 42,
-      "part": 1,
-      "chars": 3450,
-      "sha256": "0a2bb78e539e0a6ce9d10a0761bbe41e9f9ec997490164e0b5d54a413491a55e"
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-03.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 3,
+      "chars": 38,
+      "sha256": "c906bace2d750a6991c213abc77490b4f52e2748261c6aef4f1b06e7f494f3ea"
     },
     {
-      "chunk_id": "CHUNK-6fe9ae6e157e-P0043-01",
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-04",
       "chunk_number": 20,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-04.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 4,
+      "chars": 92254,
+      "sha256": "e8b8328185d6eb6c65f1d8503eb54f958d42912e78b7e49c357a203e498db3b1"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-05",
+      "chunk_number": 21,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-05.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 5,
+      "chars": 3,
+      "sha256": "9901bda0e2a54e3d8a588958f60327ca815346a7b5d2b6e4472aff07d6e1a728"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-06",
+      "chunk_number": 22,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-06.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 6,
+      "chars": 628,
+      "sha256": "b82dff54ac15475bbb60fe976cd8f8ce3ae6e294b06886538e780984ce434da3"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-07",
+      "chunk_number": 23,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-07.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 7,
+      "chars": 24,
+      "sha256": "576de29354f1ec428ac5c42a7a189c9bfecec34cee0dbb2431f2db526eacaf88"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-08",
+      "chunk_number": 24,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-08.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 8,
+      "chars": 34,
+      "sha256": "8a228ecf5b0af7db6a870c62977d0e35bfad453ad7ba589090feb28a883ff08d"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-09",
+      "chunk_number": 25,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-09.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 9,
+      "chars": 12442,
+      "sha256": "fc47c3110e19c5007733d2d88605722b910d1fbee327f6094de9af29fdbc328c"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-10",
+      "chunk_number": 26,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-10.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 10,
+      "chars": 3,
+      "sha256": "8bf2c9c7200a2725b9950c971546deb9ba582064e6243cec4ecce933471608be"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0041-11",
+      "chunk_number": 27,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0041-chunk-11.md",
+      "page_start": 41,
+      "page_end": 41,
+      "part": 11,
+      "chars": 440,
+      "sha256": "dabe3afc63f2711328ca7a66f69d979a41d629ef176e58af6d23e9c0f66023db"
+    },
+    {
+      "chunk_id": "CHUNK-72b23b5da9a5-P0043-01",
+      "chunk_number": 28,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/page-0043-chunk-01.md",
       "page_start": 43,
       "page_end": 43,
       "part": 1,
       "chars": 3939,
-      "sha256": "d177a534989fa93a3860cbf486c0b6e803dcf089bfb7bb40d5786cf726f360b2"
+      "sha256": "751beae31c962d117ea329cb42651ec8f83ac0c22107a0f2dbd38e8f4b2b6c3b"
     }
   ]
 }

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6fe9ae6e157e-P0036-01
+chunk_id: CHUNK-72b23b5da9a5-P0036-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md
-converted_sha256: 6fe9ae6e157e8fb779cbeef965b457c97bbf88321fb24ceb5e423f2d277e22a0
+converted_sha256: 72b23b5da9a57a86df3bc8a6a1b82f82db722b469f83bfbbcc0f80e702575f6f
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json
@@ -84,3 +84,69 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 37
+
+## Layout And Reading Order
+
+The page contains a header with a session date and page number. Below this, there are two sections, "Clases" and "EJERCICIOS", each presenting a list of subjects with corresponding weekly hours, formatted like a table with a right-aligned column for hours and a total. Following these sections, there is a multi-paragraph block of text discussing an agreement regarding student enrollment, a new study plan, and communications from the Faculty of Mathematics concerning a budget project for the Astronomical Observatory.
+
+## Literal Transcription
+
+SESION DE 7 DE OCTUBRE DE 1918 323
+___
+
+Clases
+Horas
+semanales
+1. Jeometría del Espacio i Jeometría Descriptiva... 4
+2. Complementos de Jeometría Plana i Aljebra, con
+nociones de Aljebra Superior................... 4
+3. Trigonometría Plana i Esférica i Jeometría Ana-
+lítica....................................... 5
+4. Cosmografía.................................. 2
+5. Física....................................... 3
+6. Química Jeneral.............................. 3
+––––
+21
+
+EJERCICIOS:
+
+1. Dibujo i lavado............................... 2
+2. Química Jeneral.............................. 4
+3. Física....................................... 4
+4. Depurados.................................... 4
+5. Idiomas...................................... 3
+––––
+17
+
+Se acordó igualmente declarar que, para matricularse como
+alumno en el primer año del Curso de Injeniería, mientras esté
+en vijencia el nuevo plan de estudios en 6 años, bastará estar
+en posesion del título de Bachiller en Humanidades.
+3.º) De dos comunicaciones de la Facultad de Matemáticas.
+Con la primera remite un proyecto de presupuestos para el Ob-
+servatorio Astronómico; i en la segunda, pide que se suprima
+el puesto del astrónomo encargado de cuidar un anteojo meri-
+diano i un ecuatorial que aun quedan en las instalaciones que
+tuvo el Observatorio en la Quinta Normal de Agricultura, e
+insinúa la conveniencia de que dicho empleado pase a prestar
+sus servicios en el Estado Mayor del Ejército, el cual podría
+dedicarlo a las observaciones destinadas al cálculo de la varia-
+cion de la latitud.
+Se aprobó el Proyecto de Presupuestos para el Observatorio
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone assets. The page consists entirely of text."}
+```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-cf4fad08066e-P0001-01
+chunk_id: CHUNK-e1498875dc30-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
-converted_sha256: cf4fad08066ea79b2920793347511997369f8c380cb0c470ee32a15b234813ad
+converted_sha256: e1498875dc30295159f8f95cd385237123bbcad0790559d307bb11689aaf6e66
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json
@@ -94,7 +94,8 @@ The transcription is complete and includes all visible text and marginalia.
 
 ## Page Metadata
 - Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002`
-- Model route: `lite`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
 - Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
 - Job manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/manifest.json`
 - Work order: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2/work-orders/page-0002.md`
@@ -104,67 +105,93 @@ The transcription is complete and includes all visible text and marginalia.
 - External requested treatment: ``
 - External relevance reasons: none
 - Recommended action: `gemini_fallback`
-- Quality flags: none
+- Quality flags: possible_table_layout_loss
 - Technical reread clues: none
 
 ## Layout And Reading Order
+The page is a single column of text. The reading order is top to bottom.
 
-The page features a header at the top right, followed by a single column of numbered entries. Each entry consists of a number, a date, and a descriptive text. Some entries have marginal handwritten notes ("plié", "m s."). The content flows from top to bottom, following the numerical order of the entries.
+1.  A header is located at the top right of the page, containing a chapter number, a title, a date, and the page number.
+2.  The main body of the page consists of a numbered list of entries, from 17 to 37. Each entry includes a number, a date, and a description of an event or action.
+3.  There are handwritten annotations in the left margin next to entries 20, 26, and 32.
 
 ## Literal Transcription
-
+```markdown
 Ch. 177 Conférence diplomatique, juin 1929 2.
 
 17.- 1.11.28. Répondons à l/ ci-dessus,
+
 18.- 31.10.28. M. Decencière fait parvenir à M. Werner les épreuves de son
-                   cours sur les PG
+cours sur les PG
+
 19.- 27.11.28. A.r. à l/ ci-dessus, retournons épreuves et réclamons mise en
-                   pages.
-plié           20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
-                   tion de Genève et du Code des PG
+pages.
+
+plié
+20.- 7.12.28. Alliance de l'URSS demande 6 exemplaires du projets de la Conven-
+tion de Genève et du Code des PG
+
 21.- 12.12.28. Transmettons demande ci-dessus à M. Dinichert
-22.- 13.12.28. M. Dinichert nous envoie 10 ex. de chacun des projets
+
+22.- 13.12.28. M. Dinichert nous envoie 10 ex, de chacun des projets
+
 23.- 14.12.28. Répondons à Alliance en envoyant 6 ex. de chacun des projets
-                   (20)
+(20)
+
 24.- 14.12.28. Remercions M. Dinichert pour les 20 ex. et demandons autorisa-
-                   tion de publier dans le Bulletin la circ. du 2.7.28 (4)
+tion de publier dans le Bulletin la circ. du 2.7.28 (4)
+
 25.- 21.12.28. Département politique autorise publication de la circ. dans
-                   Bulletin (24)
-plié           26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
-27.- 8.1.29.   Envoyons à M. Lacroix les épreuves corrigées du tirage à part
-                   de l'étude de M. Werner sur PG.
+Bulletin (24)
+
+plié
+26.- 27.12.28. Alliance a.r. de l'envoi du 14.12. (20)
+
+27.- 8.1.29. Envoyons à M. Lacroix les épreuves corrigées du tirage à part
+de l'étude de M. Werner sur PG.
+
 28.- 21.1.29. Librairie Hachette informe M. Werner que les 500 tirés à part
-                   couteront 2000 frs français.
-29.- 23.1.29. M/ l/ à M. Motta au sujet représentation du CI à conférence diplo-
-                   matique.
+couteront 2000 frs français.
+
+29.- 23.1.29. M/ l/ à M. Motta au sujet représentation du CI à conférence diplo
+matique.
+
 30.- 24.1.29. M. Werner répond à l/ du 21.1. (28) au sujet de ses tirés à part
+
 31.- 25.1.29. Librairie répond à l/ ci-dessus. Toutes les indications de M.
-                   Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
-m s.           32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
+Werner ont été suivie, a envoyé le bon à tirer à l'imprimerie
+
+ms.
+32.- s.d. 29. L/ de l'Académie de droit intern. sur tirage à part de M. Werner
+
 33.- 29.1.29. A.r. à l' ci-dessus. Prenons note que l'indication relative
-                   au CI ne pourra figurer sur la couverture des tirés à part.
+au CI ne pourra figurer sur la couverture des tirés à part.
+
 34.- 29.1.29. Remercions librairie Hachette pour l/ du 25.1. (31)
+
 35.- 11.2.29. Infirmons M. Dinichert que M. Walter Yung pourrait fonctionner
-                   comme secrétaire avec M. des Gouttes
+comme secrétaire avec M. Des Gouttes
+
 36.- 13.2.29. Départ. politique nous informe que les Etats Unis s'opposent à
-                   ce que le CI prenne part à la collaboration du Code des PG
+ce que le CI prenne part à la collaboration du Code des PG
+
 37.- 25.2.29. A.r. de l/ ci-dessus, sommes reconnaissants au Dép. politi. de.
-                   bien vouloir auprès des Etats-Unis [?]
+bien vouloir auprès des Etats-Unis p. [illegible]
+```
 
 ## Images, Captions, And Visual Notes
-
-There are no substantial images, captions, or visual notes on this page that would be useful as standalone wiki assets. The page consists entirely of text and minor handwritten marginalia.
+The page is a typed document, likely a log of correspondence or actions. There are three handwritten annotations in the left margin: "plié" (folded) appears twice, and "ms." (manuscript) appears once. The text is clear except for the very last part of the final line, which is extremely faint.
 
 ## Uncertain Or Illegible
-
-- **Entry 37, last line:** The very end of the line "Etats-Unis [?]" is cut off and illegible.
+- In entry 37, the text following "auprès des Etats-Unis p." is extremely faint and illegible.
 
 ## Completeness Audit
-
-All visible text on the page has been transcribed, including the header, numbered entries, and marginal handwritten notes. The only exception is the very end of entry 37, which is cut off.
+The entire page has been transcribed to the best of my ability. The only part that could not be fully transcribed is the faint text at the end of the last line.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text and minor handwritten marginalia."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and minor marginalia, with no substantial images, illustrations, or diagrams that would warrant cropping as standalone visual assets."
+}
 ```
