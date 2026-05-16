@@ -97,6 +97,48 @@ def write_test_batch(root, *, requested_treatment: str = "") -> None:
     (queue_dir / "source-prep-batches.json").write_text(json.dumps(queue), encoding="utf-8")
 
 
+def write_parallel_test_batches(root, page_count: int = 2) -> None:
+    queue_dir = root / "research" / "_agent-queues"
+    queue_dir.mkdir(parents=True, exist_ok=True)
+    page_dir = root / "raw" / "codex-conversion-jobs" / "job-one"
+    pil_image = pytest.importorskip("PIL.Image")
+    tasks = []
+    for page_number in range(1, page_count + 1):
+        page_image = page_dir / "page-images" / f"page-{page_number:04d}.png"
+        image_output_dir = page_dir / "extracted-images" / f"page-{page_number:04d}"
+        output_path = page_dir / "page-markdown" / f"page-{page_number:04d}.md"
+        page_image.parent.mkdir(parents=True, exist_ok=True)
+        image_output_dir.mkdir(parents=True, exist_ok=True)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        pil_image.new("RGB", (120, 80), color="white").save(page_image)
+        page = {
+            "page": page_number,
+            "task_id": f"source-prep:job-one:p{page_number:04d}",
+            "page_image": f"raw/codex-conversion-jobs/job-one/page-images/page-{page_number:04d}.png",
+            "work_order": f"raw/codex-conversion-jobs/job-one/work-orders/page-{page_number:04d}.md",
+            "output_path": f"raw/codex-conversion-jobs/job-one/page-markdown/page-{page_number:04d}.md",
+            "image_output_dir": f"raw/codex-conversion-jobs/job-one/extracted-images/page-{page_number:04d}",
+        }
+        tasks.append(
+            {
+                "task_id": f"source-prep-batch:job-one:p{page_number:04d}",
+                "queue": "source-prep-batches",
+                "status": "todo",
+                "source": "raw/sources/source.png",
+                "source_sha256": f"abc123-{page_number}",
+                "job_manifest": "raw/codex-conversion-jobs/job-one/manifest.json",
+                "job_id": "job-one",
+                "title": "Parallel source",
+                "first_page": page_number,
+                "last_page": page_number,
+                "page_count": 1,
+                "task_ids": [f"source-prep:job-one:p{page_number:04d}"],
+                "pages": [page],
+            }
+        )
+    (queue_dir / "source-prep-batches.json").write_text(json.dumps({"tasks": tasks}), encoding="utf-8")
+
+
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
 
@@ -221,6 +263,38 @@ def test_pro_with_crops_releases_when_visual_manifest_missing(tmp_path, monkeypa
     assert summary["released"] == 1
     assert summary["tasks"][0]["reason"] == "visual_crop_extraction_failed"
     assert "visual_region_manifest_missing" in summary["tasks"][0]["error"]
+
+
+def test_gemini_source_prep_parallelism_completes_independent_pages(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=2)
+
+    def fake_gemini(**kwargs):
+        return {
+            "text": complete_gemini_markdown('{"visual_regions": [], "no_visual_regions_reason": "text only"}'),
+            "finish_reason": "STOP",
+            "usage": {"promptTokenCount": 1, "candidatesTokenCount": 2, "totalTokenCount": 3},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    summary = source_prep_gemini_run(tmp_path, limit=2, parallelism=2, api_key="test-key", refresh_queue=False)
+
+    assert summary["parallelism"] == 2
+    assert summary["processed"] == 2
+    assert summary["completed"] == 2
+    assert summary["usage"]["total_tokens"] == 6
+    for page_number in (1, 2):
+        assert (
+            tmp_path
+            / "raw"
+            / "codex-conversion-jobs"
+            / "job-one"
+            / "page-markdown"
+            / f"page-{page_number:04d}.md"
+        ).exists()
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    assert task_state["tasks"]["source-prep:job-one:p0001"]["status"] == "done"
+    assert task_state["tasks"]["source-prep:job-one:p0002"]["status"] == "done"
 
 
 def test_gemini_source_prep_ignores_local_env_file(tmp_path, monkeypatch) -> None:

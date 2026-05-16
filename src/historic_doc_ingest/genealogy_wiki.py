@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import concurrent.futures
 from contextlib import contextmanager
 import hashlib
 import json
@@ -11,6 +12,7 @@ import shutil
 import subprocess
 import time
 import tempfile
+import threading
 import urllib.error
 import urllib.request
 from dataclasses import asdict, dataclass, field
@@ -7171,12 +7173,15 @@ def source_prep_gemini_run(
     max_output_tokens_pro: int = 65536,
     crop_relevance: bool = True,
     crop_count: int = 4,
+    parallelism: int = 1,
     agent: str = "gemini-source-prep",
     dry_run: bool = False,
     refresh_queue: bool = True,
 ) -> dict[str, object]:
     if limit < 1:
         raise ValueError("limit must be at least 1")
+    if parallelism < 1:
+        raise ValueError("parallelism must be at least 1")
     paths = WikiPaths(root.resolve())
     if not api_key and not dry_run:
         api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
@@ -7206,6 +7211,7 @@ def source_prep_gemini_run(
         "mode": "gemini-source-prep",
         "dry_run": dry_run,
         "limit": limit,
+        "parallelism": min(parallelism, limit),
         "queue": relative_to_root(queue_path, paths.root),
         "models": {"lite": lite_model, "pro": pro_model},
         "processed": 0,
@@ -7224,13 +7230,71 @@ def source_prep_gemini_run(
         if isinstance(route_counts, dict):
             route_counts[tier] = int(route_counts.get(tier, 0)) + 1
 
+    def result_payload(
+        task_report: dict[str, object],
+        *,
+        processed: int = 0,
+        completed: int = 0,
+        released: int = 0,
+        skipped: int = 0,
+        discovery_skipped: int = 0,
+        usage: dict[str, object] | None = None,
+        visual_regions: dict[str, object] | None = None,
+    ) -> dict[str, object]:
+        return {
+            "task_report": task_report,
+            "processed": processed,
+            "completed": completed,
+            "released": released,
+            "skipped": skipped,
+            "discovery_skipped": discovery_skipped,
+            "usage": usage or {},
+            "visual_regions": visual_regions or {},
+        }
+
+    def apply_result(result: dict[str, object]) -> None:
+        task_report = result.get("task_report", {})
+        if isinstance(task_report, dict):
+            cast_tasks = summary.setdefault("tasks", [])
+            if isinstance(cast_tasks, list):
+                cast_tasks.append(task_report)
+        summary["processed"] = int(summary["processed"]) + int(result.get("processed", 0) or 0)
+        summary["completed"] = int(summary["completed"]) + int(result.get("completed", 0) or 0)
+        summary["released"] = int(summary["released"]) + int(result.get("released", 0) or 0)
+        summary["skipped"] = int(summary["skipped"]) + int(result.get("skipped", 0) or 0)
+        summary["discovery_skipped"] = int(summary["discovery_skipped"]) + int(result.get("discovery_skipped", 0) or 0)
+        usage = result.get("usage", {})
+        if isinstance(usage, dict):
+            summary_usage = summary.setdefault("usage", {})
+            if isinstance(summary_usage, dict):
+                summary_usage["prompt_tokens"] = int(summary_usage.get("prompt_tokens", 0)) + int(usage.get("promptTokenCount", 0) or 0)
+                summary_usage["candidate_tokens"] = int(summary_usage.get("candidate_tokens", 0)) + int(usage.get("candidatesTokenCount", 0) or 0)
+                summary_usage["total_tokens"] = int(summary_usage.get("total_tokens", 0)) + int(usage.get("totalTokenCount", 0) or 0)
+        visual_result = result.get("visual_regions", {})
+        if isinstance(visual_result, dict):
+            visual_summary = summary.setdefault("visual_regions", {})
+            if isinstance(visual_summary, dict):
+                visual_summary["declared"] = int(visual_summary.get("declared", 0)) + int(visual_result.get("declared_region_count", 0) or 0)
+                visual_summary["cropped"] = int(visual_summary.get("cropped", 0)) + int(visual_result.get("region_count", 0) or 0)
+                visual_summary["skipped"] = int(visual_summary.get("skipped", 0)) + int(visual_result.get("skipped_region_count", 0) or 0)
+                if visual_result.get("manifest_path"):
+                    visual_summary["manifests"] = int(visual_summary.get("manifests", 0)) + 1
+
+    state_lock = threading.Lock()
+
+    def update_task_status(task_id: str, status: str, note: str) -> None:
+        with state_lock:
+            update_agent_task_state(paths.root, task_id, status, agent=agent, note=note)
+
+    prepared_tasks: list[dict[str, object]] = []
+    selected_count = 0
     for raw_task in queue_tasks:
-        if int(summary["processed"]) >= limit:
+        if selected_count >= limit:
             break
         if not isinstance(raw_task, dict):
             continue
         if int(raw_task.get("page_count", 0) or 0) != 1:
-            summary["skipped"] = int(summary["skipped"]) + 1
+            apply_result(result_payload({"status": "skipped", "reason": "not_one_page_batch"}, skipped=1))
             continue
         status = str(raw_task.get("status", "")).strip()
         if status not in GEMINI_SOURCE_PREP_BATCHABLE_STATUSES:
@@ -7238,7 +7302,12 @@ def source_prep_gemini_run(
         task_id = source_prep_gemini_task_id(raw_task)
         state_status = str(task_state.get(task_id, {}).get("status", "")).strip()
         if state_status in {"claimed", "in_progress", "done"}:
-            summary["skipped"] = int(summary["skipped"]) + 1
+            apply_result(
+                result_payload(
+                    {"task_id": task_id, "batch_task_id": raw_task.get("task_id", ""), "status": "skipped", "reason": f"task_state_{state_status}"},
+                    skipped=1,
+                )
+            )
             continue
 
         page = first_source_prep_batch_page(raw_task)
@@ -7259,11 +7328,7 @@ def source_prep_gemini_run(
                 "reason": discovery_skip_reason,
                 "discovery_path": str(discovery_entry.get("discovery_path", "")) if discovery_entry else "",
             }
-            cast_tasks = summary.setdefault("tasks", [])
-            if isinstance(cast_tasks, list):
-                cast_tasks.append(task_report)
-            summary["skipped"] = int(summary["skipped"]) + 1
-            summary["discovery_skipped"] = int(summary["discovery_skipped"]) + 1
+            apply_result(result_payload(task_report, skipped=1, discovery_skipped=1))
             continue
         page_image = paths.root / str(page.get("page_image", ""))
         output_path = paths.root / str(page.get("output_path", ""))
@@ -7281,10 +7346,7 @@ def source_prep_gemini_run(
                 "reason": "page_image_missing",
                 "page_image": relative_to_root(page_image, paths.root),
             }
-            cast_tasks = summary.setdefault("tasks", [])
-            if isinstance(cast_tasks, list):
-                cast_tasks.append(task_report)
-            summary["skipped"] = int(summary["skipped"]) + 1
+            apply_result(result_payload(task_report, skipped=1))
             continue
 
         route = classify_gemini_source_prep_batch(paths.root, raw_task, lite_model=lite_model, pro_model=pro_model)
@@ -7302,20 +7364,37 @@ def source_prep_gemini_run(
             "output_path": relative_to_root(output_path, paths.root),
         }
 
+        selected_count += 1
         if dry_run:
             task_report["status"] = "planned"
-            cast_tasks = summary.setdefault("tasks", [])
-            if isinstance(cast_tasks, list):
-                cast_tasks.append(task_report)
-            summary["processed"] = int(summary["processed"]) + 1
+            apply_result(result_payload(task_report, processed=1))
             continue
 
-        update_agent_task_state(paths.root, task_id, "claimed", agent=agent, note=f"Gemini route {route.get('tier')}")
-        update_agent_task_state(paths.root, task_id, "in_progress", agent=agent, note=f"Using {route.get('model')}")
-        crops = create_gemini_source_prep_crops(paths.root, raw_task, max_crops=crop_count) if route.get("use_crops") else []
-        prompt = build_gemini_source_prep_prompt(raw_task, route, crops)
-        media_paths = [page_image, *crops]
+        update_task_status(task_id, "claimed", f"Gemini route {route.get('tier')}")
+        update_task_status(task_id, "in_progress", f"Using {route.get('model')}")
+        prepared_tasks.append(
+            {
+                "task_id": task_id,
+                "raw_task": raw_task,
+                "route": route,
+                "page_image": page_image,
+                "output_path": output_path,
+                "task_report": task_report,
+            }
+        )
+
+    def process_prepared_task(prepared_task: dict[str, object]) -> dict[str, object]:
+        task_id = str(prepared_task["task_id"])
+        raw_task = prepared_task["raw_task"]
+        route = prepared_task["route"]
+        page_image = prepared_task["page_image"]
+        output_path = prepared_task["output_path"]
+        task_report = dict(prepared_task["task_report"])
+        max_output_tokens = max_output_tokens_pro if str(route.get("model")) == pro_model else max_output_tokens_lite
         try:
+            crops = create_gemini_source_prep_crops(paths.root, raw_task, max_crops=crop_count) if route.get("use_crops") else []
+            prompt = build_gemini_source_prep_prompt(raw_task, route, crops)
+            media_paths = [page_image, *crops]
             response = call_gemini_generate_content(
                 api_key=api_key,
                 model=str(route.get("model")),
@@ -7324,30 +7403,17 @@ def source_prep_gemini_run(
                 max_output_tokens=max_output_tokens,
             )
             usage = response.get("usage", {})
-            if isinstance(usage, dict):
-                summary_usage = summary.setdefault("usage", {})
-                if isinstance(summary_usage, dict):
-                    summary_usage["prompt_tokens"] = int(summary_usage.get("prompt_tokens", 0)) + int(usage.get("promptTokenCount", 0) or 0)
-                    summary_usage["candidate_tokens"] = int(summary_usage.get("candidate_tokens", 0)) + int(usage.get("candidatesTokenCount", 0) or 0)
-                    summary_usage["total_tokens"] = int(summary_usage.get("total_tokens", 0)) + int(usage.get("totalTokenCount", 0) or 0)
             task_report["usage"] = usage
             task_report["finish_reason"] = response.get("finish_reason", "")
             if str(response.get("finish_reason", "")) == "MAX_TOKENS":
-                update_agent_task_state(
-                    paths.root,
+                update_task_status(
                     task_id,
                     "released",
-                    agent=agent,
-                    note="Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+                    "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
                 )
                 task_report["status"] = "released"
                 task_report["reason"] = "max_tokens"
-                summary["released"] = int(summary["released"]) + 1
-                summary["processed"] = int(summary["processed"]) + 1
-                cast_tasks = summary.setdefault("tasks", [])
-                if isinstance(cast_tasks, list):
-                    cast_tasks.append(task_report)
-                continue
+                return result_payload(task_report, processed=1, released=1, usage=usage if isinstance(usage, dict) else {})
 
             markdown = str(response.get("text", "")).strip()
             try:
@@ -7358,22 +7424,15 @@ def source_prep_gemini_run(
                     require_manifest=True,
                 )
             except Exception as exc:
-                update_agent_task_state(
-                    paths.root,
+                update_task_status(
                     task_id,
                     "released",
-                    agent=agent,
-                    note=f"Gemini visual crop extraction failed: {str(exc)[:180]}",
+                    f"Gemini visual crop extraction failed: {str(exc)[:180]}",
                 )
                 task_report["status"] = "released"
                 task_report["reason"] = "visual_crop_extraction_failed"
                 task_report["error"] = str(exc)
-                summary["released"] = int(summary["released"]) + 1
-                summary["processed"] = int(summary["processed"]) + 1
-                cast_tasks = summary.setdefault("tasks", [])
-                if isinstance(cast_tasks, list):
-                    cast_tasks.append(task_report)
-                continue
+                return result_payload(task_report, processed=1, released=1, usage=usage if isinstance(usage, dict) else {})
             task_report["visual_regions"] = {
                 "manifest_path": visual_result.get("manifest_path", ""),
                 "declared": visual_result.get("declared_region_count", 0),
@@ -7381,13 +7440,6 @@ def source_prep_gemini_run(
                 "skipped": visual_result.get("skipped_region_count", 0),
                 "flags": visual_result.get("flags", []),
             }
-            visual_summary = summary.setdefault("visual_regions", {})
-            if isinstance(visual_summary, dict):
-                visual_summary["declared"] = int(visual_summary.get("declared", 0)) + int(visual_result.get("declared_region_count", 0) or 0)
-                visual_summary["cropped"] = int(visual_summary.get("cropped", 0)) + int(visual_result.get("region_count", 0) or 0)
-                visual_summary["skipped"] = int(visual_summary.get("skipped", 0)) + int(visual_result.get("skipped_region_count", 0) or 0)
-                if visual_result.get("manifest_path"):
-                    visual_summary["manifests"] = int(visual_summary.get("manifests", 0)) + 1
             records = visual_result.get("records", [])
             if isinstance(records, list):
                 markdown = insert_visual_crop_references(markdown, records, output_path)
@@ -7396,44 +7448,62 @@ def source_prep_gemini_run(
             review = review_source_prep_page_output(output_path)
             task_report["review"] = review
             if str(review.get("status", "")) == "done":
-                update_agent_task_state(
-                    paths.root,
+                update_task_status(
                     task_id,
                     "done",
-                    agent=agent,
-                    note=f"Completed by Gemini route {route.get('tier')}",
+                    f"Completed by Gemini route {route.get('tier')}",
                 )
                 task_report["status"] = "done"
-                summary["completed"] = int(summary["completed"]) + 1
+                return result_payload(
+                    task_report,
+                    processed=1,
+                    completed=1,
+                    usage=usage if isinstance(usage, dict) else {},
+                    visual_regions=visual_result if isinstance(visual_result, dict) else {},
+                )
             else:
                 flags = ",".join(str(flag) for flag in review.get("quality_flags", []) or [])
-                update_agent_task_state(
-                    paths.root,
+                update_task_status(
                     task_id,
                     "released",
-                    agent=agent,
-                    note=f"Gemini output failed source-prep review: {flags or 'missing contract sections'}",
+                    f"Gemini output failed source-prep review: {flags or 'missing contract sections'}",
                 )
                 task_report["status"] = "released"
                 task_report["reason"] = "review_failed"
-                summary["released"] = int(summary["released"]) + 1
+                return result_payload(
+                    task_report,
+                    processed=1,
+                    released=1,
+                    usage=usage if isinstance(usage, dict) else {},
+                    visual_regions=visual_result if isinstance(visual_result, dict) else {},
+                )
         except Exception as exc:
-            update_agent_task_state(
-                paths.root,
+            update_task_status(
                 task_id,
                 "released",
-                agent=agent,
-                note=f"Gemini conversion error: {str(exc)[:220]}",
+                f"Gemini conversion error: {str(exc)[:220]}",
             )
             task_report["status"] = "released"
             task_report["reason"] = "gemini_error"
             task_report["error"] = str(exc)
-            summary["released"] = int(summary["released"]) + 1
+            return result_payload(task_report, processed=1, released=1)
 
-        summary["processed"] = int(summary["processed"]) + 1
-        cast_tasks = summary.setdefault("tasks", [])
-        if isinstance(cast_tasks, list):
-            cast_tasks.append(task_report)
+    if prepared_tasks:
+        max_workers = min(int(summary["parallelism"]), len(prepared_tasks))
+        if max_workers <= 1:
+            for prepared_task in prepared_tasks:
+                apply_result(process_prepared_task(prepared_task))
+        else:
+            completed_results: list[tuple[int, dict[str, object]]] = []
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_to_index = {
+                    executor.submit(process_prepared_task, prepared_task): index
+                    for index, prepared_task in enumerate(prepared_tasks)
+                }
+                for future in concurrent.futures.as_completed(future_to_index):
+                    completed_results.append((future_to_index[future], future.result()))
+            for _, result in sorted(completed_results, key=lambda item: item[0]):
+                apply_result(result)
 
     summary["finished"] = utc_timestamp()
     state_path = write_source_prep_gemini_state(paths.root, summary)
@@ -7442,7 +7512,7 @@ def source_prep_gemini_run(
         paths.research / "log.md",
         "gemini-source-prep | "
         f"processed {summary['processed']}, completed {summary['completed']}, released {summary['released']}, "
-        f"routes={summary.get('route_counts', {})}, dry_run={dry_run}",
+        f"parallelism={summary['parallelism']}, routes={summary.get('route_counts', {})}, dry_run={dry_run}",
     )
     return summary
 
@@ -9744,6 +9814,12 @@ def build_parser() -> argparse.ArgumentParser:
     gemini_source_prep_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     gemini_source_prep_parser.add_argument("--limit", type=int, default=25, help="Maximum one-page tasks to process. Default: 25.")
     gemini_source_prep_parser.add_argument(
+        "--parallelism",
+        type=int,
+        default=1,
+        help="Maximum Gemini page conversions to run at the same time. Default: 1.",
+    )
+    gemini_source_prep_parser.add_argument(
         "--queue-limit",
         type=int,
         default=160,
@@ -10306,6 +10382,7 @@ def main(argv: list[str] | None = None) -> int:
             max_output_tokens_pro=args.max_output_tokens_pro,
             crop_relevance=not args.no_crops,
             crop_count=args.crop_count,
+            parallelism=args.parallelism,
             agent=args.agent,
             dry_run=args.dry_run,
             refresh_queue=not args.no_refresh_queue,
