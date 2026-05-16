@@ -49,6 +49,8 @@
 
 - [[staging-backlog]]
 
+- [[r2-intake-candidates]]
+
 ## Questions
 
 - [[questions/rq-b4dc978311d3-p0001]]

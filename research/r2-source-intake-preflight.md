@@ -1,6 +1,6 @@
 # R2 Source Intake Preflight
 
-Generated: 2026-05-16T14:51:40Z
+Generated: 2026-05-16T15:08:14Z
 
 Status: missing_config
 
@@ -33,6 +33,7 @@ Missing required config: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
 - derived_asset_manifest: `raw/r2-derived-assets.json`
 - preflight_index: `research/_indexes/r2-source-intake-preflight.json`
 - preflight_markdown: `research/r2-source-intake-preflight.md`
+- r2_intake_candidates: `research/_indexes/r2-intake-candidates.json`
 - r2_manifest: `raw/r2-raw-sources.json`
 - r2_source_intake_state: `research/_automation/r2-source-intake-state.json`
 - source_prep_manifest: `raw/source-prep-manifest.json`

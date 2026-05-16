@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-16T14:51:40Z",
+  "created": "2026-05-16T15:08:15Z",
   "purpose": "Whole-system dashboard for the cloud-first genealogy research pipeline.",
   "source_conversion": {
     "source_count": 49,
@@ -17,7 +17,7 @@
   "r2_source_intake": {
     "status": "skipped-missing-config",
     "state": "",
-    "created": "2026-05-16T14:51:40Z",
+    "created": "2026-05-16T15:08:14Z",
     "remote_file_count": 0,
     "new_file_count": 0,
     "changed_file_count": 0,
@@ -35,7 +35,13 @@
       "R2_ACCESS_KEY_ID",
       "R2_SECRET_ACCESS_KEY"
     ],
-    "preflight_next_step": "Set missing R2 config in the environment or .env.r2, then rerun the cloud source-prep heartbeat."
+    "preflight_next_step": "Set missing R2 config in the environment or .env.r2, then rerun the cloud source-prep heartbeat.",
+    "intake_candidates": "research/_indexes/r2-intake-candidates.json",
+    "intake_candidates_markdown": "research/r2-intake-candidates.md",
+    "intake_candidate_count": 0,
+    "pending_intake_candidate_count": 0,
+    "intake_candidate_status_counts": {},
+    "intake_candidate_register_count": 3
   },
   "research_readiness": {
     "usable_source_count": 1,
@@ -161,7 +167,7 @@
     }
   },
   "conversion_qa_unblock": {
-    "created": "2026-05-16T14:51:40Z",
+    "created": "2026-05-16T15:08:15Z",
     "path": "research/_indexes/conversion-qa-unblock-plan.json",
     "markdown": "research/conversion-qa-unblock-plan.md",
     "next_focus": "research/conversion-qa-next.md",
@@ -261,7 +267,7 @@
   "recent_automation": {
     "cloud-source-prep-heartbeat-state": {
       "path": "research/_automation/cloud-source-prep-heartbeat-state.json",
-      "created": "2026-05-16T14:51:40Z",
+      "created": "2026-05-16T15:08:14Z",
       "mode": "cloud-first-source-prep-heartbeat",
       "blockers": []
     },

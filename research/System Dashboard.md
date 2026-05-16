@@ -1,6 +1,6 @@
 # System Dashboard
 
-Generated: 2026-05-16T14:51:40Z
+Generated: 2026-05-16T15:08:15Z
 
 ## Source Conversion
 
@@ -22,6 +22,10 @@ Generated: 2026-05-16T14:51:40Z
 - Preflight: `research/_indexes/r2-source-intake-preflight.json`
 - Preflight status: missing_config
 - Missing required config: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
+- Intake candidate report: `research/r2-intake-candidates.md`
+- Intake candidate registers: 3
+- Pending intake candidates: 0
+- Intake candidate statuses: none
 - R2 manifest: `raw/r2-raw-sources.json`
 - Source-prep manifest: `raw/source-prep-manifest.json`
 - State: `none`

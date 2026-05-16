@@ -12033,6 +12033,10 @@ def write_system_status_dashboard(
         write_r2_source_intake_preflight(paths.root)
     except Exception as exc:
         blockers.append(f"r2-source-intake-preflight: {exc}")
+    try:
+        write_r2_intake_candidates_report(paths.root)
+    except Exception as exc:
+        blockers.append(f"r2-intake-candidates: {exc}")
     payload = build_system_status_payload(paths.root, blockers)
     output_path = output or (paths.indexes / "system-status.json")
     markdown_path = markdown_output or (paths.research / "System Dashboard.md")
@@ -12539,6 +12543,7 @@ def top_conversion_qa_unblock_task(conversion_qa_unblock: object) -> dict[str, o
 def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, object]]:
     queues = payload.get("queues", {})
     source_conversion = payload.get("source_conversion", {})
+    r2_source_intake = payload.get("r2_source_intake", {})
     page_upgrades = payload.get("page_upgrades", {})
     lifecycle = payload.get("storage_lifecycle", {})
     queue_blockers = payload.get("queue_blockers", {})
@@ -12677,6 +12682,17 @@ def build_system_next_actions(payload: dict[str, object]) -> list[dict[str, obje
             queue=str(external_research.get("path", "")),
         )
 
+    pending_intake_candidates = safe_int(dict_value(r2_source_intake, "pending_intake_candidate_count"), 0)
+    if pending_intake_candidates:
+        add(
+            "r2_intake_candidates",
+            "medium",
+            f"{pending_intake_candidates} external raw-source candidate(s) need R2 intake follow-up.",
+            "Acquire or place raw objects in the R2 raw-source inbox, then rerun source-intake monitoring.",
+            count=pending_intake_candidates,
+            report=str(dict_value(r2_source_intake, "intake_candidates_markdown", "")),
+        )
+
     active_upgrades = safe_int(dict_value(page_upgrades, "active_request_count"), 0)
     if active_upgrades:
         add(
@@ -12754,6 +12770,14 @@ def r2_source_intake_preflight_index_path(root: Path) -> Path:
 
 def r2_source_intake_preflight_markdown_path(root: Path) -> Path:
     return root.resolve() / "research" / "r2-source-intake-preflight.md"
+
+
+def r2_intake_candidates_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "r2-intake-candidates.json"
+
+
+def r2_intake_candidates_markdown_path(root: Path) -> Path:
+    return root.resolve() / "research" / "r2-intake-candidates.md"
 
 
 def read_dotenv_values(path: Path) -> dict[str, str]:
@@ -12881,6 +12905,7 @@ def build_r2_source_intake_preflight_payload(root: Path) -> dict[str, object]:
         "source_prep_manifest": "raw/source-prep-manifest.json",
         "derived_asset_manifest": DEFAULT_DERIVED_ASSET_MANIFEST_PATH.as_posix(),
         "r2_source_intake_state": relative_to_root(r2_source_intake_state_path(paths.root), paths.root),
+        "r2_intake_candidates": relative_to_root(r2_intake_candidates_index_path(paths.root), paths.root),
         "preflight_index": relative_to_root(r2_source_intake_preflight_index_path(paths.root), paths.root),
         "preflight_markdown": relative_to_root(r2_source_intake_preflight_markdown_path(paths.root), paths.root),
     }
@@ -13007,6 +13032,215 @@ def write_r2_source_intake_preflight(root: Path) -> list[Path]:
     return [index_path, markdown_path]
 
 
+def markdown_table_cells(line: str) -> list[str]:
+    stripped = line.strip()
+    if not stripped.startswith("|"):
+        return []
+    return [cell.strip() for cell in stripped.strip("|").split("|")]
+
+
+def markdown_table_separator(cells: list[str]) -> bool:
+    return bool(cells) and all(re.fullmatch(r":?-{3,}:?", cell.strip()) for cell in cells)
+
+
+def frontmatter_value(text: str, key: str) -> str:
+    if not text.startswith("---"):
+        return ""
+    end = text.find("\n---", 3)
+    if end < 0:
+        return ""
+    for line in text[3:end].splitlines():
+        if ":" not in line:
+            continue
+        name, value = line.split(":", 1)
+        if name.strip() == key:
+            return value.strip()
+    return ""
+
+
+def r2_intake_candidate_status_done(status: str) -> bool:
+    normalized = status.strip().casefold().replace("-", "_").replace(" ", "_")
+    return normalized in {"registered", "source_registered", "source_prep_registered", "in_r2", "ingested", "done", "not_needed"}
+
+
+def build_r2_intake_candidates_payload(root: Path) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    notes = sorted(external_research_staging_dir(paths.root).glob("*.md"))
+    candidates: list[dict[str, object]] = []
+    register_count = 0
+    for note_path in notes:
+        text = read_text(note_path)
+        if "## R2 Intake Candidate Register" not in text:
+            continue
+        register_count += 1
+        request_id = frontmatter_value(text, "request_id")
+        lead = frontmatter_value(text, "lead")
+        section = text.split("## R2 Intake Candidate Register", 1)[1]
+        section = section.split("\n## ", 1)[0]
+        row_number = 0
+        for line in section.splitlines():
+            cells = markdown_table_cells(line)
+            if len(cells) < 5 or markdown_table_separator(cells):
+                continue
+            if cells[0].casefold() == "candidate source":
+                continue
+            row_number += 1
+            candidate_source, repository_or_url, raw_object_needed, r2_inbox_status, intake_notes = cells[:5]
+            placeholder = (
+                candidate_source.casefold() == "none yet"
+                and not repository_or_url
+                and not raw_object_needed
+                and not intake_notes
+            )
+            if placeholder:
+                continue
+            status = r2_inbox_status or "not_started"
+            candidate_id_source = f"{note_path.stem}:{row_number}:{candidate_source}:{repository_or_url}"
+            candidates.append(
+                {
+                    "candidate_id": f"r2-intake-candidate:{hashlib.sha256(candidate_id_source.encode('utf-8')).hexdigest()[:12]}",
+                    "request_id": request_id,
+                    "lead": lead,
+                    "note": relative_to_root(note_path, paths.root),
+                    "candidate_source": candidate_source,
+                    "repository_or_url": repository_or_url,
+                    "raw_object_needed": raw_object_needed,
+                    "r2_inbox_status": status,
+                    "intake_notes": intake_notes,
+                    "next_step": (
+                        "Confirm source-prep manifest registration and keep the GitHub note as the descriptor record."
+                        if r2_intake_candidate_status_done(status)
+                        else "Place the raw source object in the R2 raw-source inbox, then rerun source intake monitoring."
+                    ),
+                }
+            )
+    candidates.sort(
+        key=lambda item: (
+            r2_intake_candidate_status_done(str(item.get("r2_inbox_status", ""))),
+            str(item.get("lead", "")).casefold(),
+            str(item.get("candidate_source", "")).casefold(),
+        )
+    )
+    status_counts = count_task_statuses(
+        [{"status": str(candidate.get("r2_inbox_status", "not_started"))} for candidate in candidates]
+    )
+    pending_count = len(
+        [
+            candidate for candidate in candidates
+            if not r2_intake_candidate_status_done(str(candidate.get("r2_inbox_status", "")))
+        ]
+    )
+    return {
+        "created": utc_timestamp(),
+        "purpose": (
+            "GitHub-safe index of raw-source candidates recorded in external-research result notes. "
+            "Raw originals remain in R2; this report only tracks descriptors and intake status."
+        ),
+        "inputs": {
+            "external_research_notes": relative_to_root(external_research_staging_dir(paths.root), paths.root),
+            "external_research_requests": relative_to_root(external_research_requests_index_path(paths.root), paths.root),
+        },
+        "summary": {
+            "note_count": len(notes),
+            "register_count": register_count,
+            "candidate_count": len(candidates),
+            "pending_candidate_count": pending_count,
+            "status_counts": status_counts,
+        },
+        "candidates": candidates,
+        "storage_contract": (
+            "GitHub stores this candidate report and external-research notes. R2 stores any raw source images, "
+            "PDFs, audio, video, or other binary originals."
+        ),
+    }
+
+
+def build_r2_intake_candidates_markdown(payload: dict[str, object]) -> str:
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        summary = {}
+    candidates = payload.get("candidates", [])
+    if not isinstance(candidates, list):
+        candidates = []
+    rows = [
+        "| Status | Lead | Candidate Source | Repository or URL | Raw Object Needed | Note | Next Step |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        rows.append(
+            "| "
+            + " | ".join(
+                [
+                    markdown_table_cell(candidate.get("r2_inbox_status", "")),
+                    markdown_table_cell(candidate.get("lead", "")),
+                    markdown_table_cell(candidate.get("candidate_source", "")),
+                    markdown_table_cell(candidate.get("repository_or_url", "")),
+                    markdown_table_cell(candidate.get("raw_object_needed", "")),
+                    markdown_table_cell(candidate.get("note", "")),
+                    markdown_table_cell(candidate.get("next_step", "")),
+                ]
+            )
+            + " |"
+        )
+    if len(rows) == 2:
+        rows.append("| none | none | none | none | none | none | none |")
+    return f"""# R2 Intake Candidates
+
+Generated: {payload.get("created", "")}
+
+This report gathers raw-source candidates from external-research result notes. It does not store or request binary evidence in GitHub.
+
+## Summary
+
+- External-research notes scanned: {dict_value(summary, "note_count")}
+- Notes with intake registers: {dict_value(summary, "register_count")}
+- Candidate raw sources: {dict_value(summary, "candidate_count")}
+- Pending raw-source intake candidates: {dict_value(summary, "pending_candidate_count")}
+- Statuses: {format_status_counts(dict_value(summary, "status_counts", {}))}
+
+## Storage Contract
+
+{payload.get("storage_contract", "")}
+
+## Candidates
+
+{chr(10).join(rows)}
+"""
+
+
+def write_r2_intake_candidates_report(root: Path) -> list[Path]:
+    paths = WikiPaths(root.resolve())
+    payload = build_r2_intake_candidates_payload(paths.root)
+    index_path = r2_intake_candidates_index_path(paths.root)
+    markdown_path = r2_intake_candidates_markdown_path(paths.root)
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    markdown_path.parent.mkdir(parents=True, exist_ok=True)
+    index_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    markdown_path.write_text(build_r2_intake_candidates_markdown(payload), encoding="utf-8")
+    append_index_reference(paths.research / "index.md", "Agent Work", "[[r2-intake-candidates]]")
+    append_log(paths.research / "log.md", f"r2-intake-candidates | Wrote {relative_to_root(index_path, paths.root)}")
+    return [index_path, markdown_path]
+
+
+def build_r2_intake_candidates_summary(root: Path) -> dict[str, object]:
+    index_path = r2_intake_candidates_index_path(root)
+    markdown_path = r2_intake_candidates_markdown_path(root)
+    payload = read_json_payload(index_path, {})
+    summary = payload.get("summary", {}) if isinstance(payload, dict) else {}
+    if not isinstance(summary, dict):
+        summary = {}
+    return {
+        "intake_candidates": relative_to_root(index_path, root) if index_path.exists() else "",
+        "intake_candidates_markdown": relative_to_root(markdown_path, root) if markdown_path.exists() else "",
+        "intake_candidate_count": safe_int(summary.get("candidate_count"), 0),
+        "pending_intake_candidate_count": safe_int(summary.get("pending_candidate_count"), 0),
+        "intake_candidate_status_counts": summary.get("status_counts", {}),
+        "intake_candidate_register_count": safe_int(summary.get("register_count"), 0),
+    }
+
+
 def build_r2_source_intake_preflight_summary(root: Path) -> dict[str, object]:
     index_path = r2_source_intake_preflight_index_path(root)
     markdown_path = r2_source_intake_preflight_markdown_path(root)
@@ -13027,6 +13261,7 @@ def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
     heartbeat_step = latest_named_heartbeat_step(heartbeat, "r2-source-intake")
     payload = read_json_payload(state_path, {}) if state_path.exists() else {}
     preflight = build_r2_source_intake_preflight_summary(root)
+    candidates = build_r2_intake_candidates_summary(root)
     if payload:
         summary = {
             "status": "active" if not payload.get("dry_run") else "dry_run",
@@ -13043,6 +13278,7 @@ def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
             "blockers": payload.get("blockers", []),
         }
         summary.update(preflight)
+        summary.update(candidates)
         return summary
     status = str(heartbeat_step.get("status", "")).strip()
     summary = {
@@ -13060,6 +13296,7 @@ def build_system_r2_source_intake_summary(root: Path) -> dict[str, object]:
         "blockers": [],
     }
     summary.update(preflight)
+    summary.update(candidates)
     return summary
 
 
@@ -13408,6 +13645,10 @@ Generated: {payload.get("created", "")}
 - Preflight: `{dict_value(r2_source_intake, "preflight", "") or "none"}`
 - Preflight status: {dict_value(r2_source_intake, "preflight_status", "") or "not_written"}
 - Missing required config: {format_plain_list(dict_value(r2_source_intake, "preflight_missing_required", []))}
+- Intake candidate report: `{dict_value(r2_source_intake, "intake_candidates_markdown", "") or "none"}`
+- Intake candidate registers: {dict_value(r2_source_intake, "intake_candidate_register_count")}
+- Pending intake candidates: {dict_value(r2_source_intake, "pending_intake_candidate_count")}
+- Intake candidate statuses: {format_status_counts(dict_value(r2_source_intake, "intake_candidate_status_counts", {}))}
 - R2 manifest: `{dict_value(r2_source_intake, "r2_manifest", "")}`
 - Source-prep manifest: `{dict_value(r2_source_intake, "source_prep_manifest", "")}`
 - State: `{dict_value(r2_source_intake, "state", "") or "none"}`

@@ -223,6 +223,7 @@ Storage deaccession is allowed only when:
 - Implemented: R2 source intake monitoring that registers remote raw sources in GitHub manifests.
 - Implemented: cloud heartbeat can run R2 source intake monitoring without restoring raw originals.
 - Implemented: R2 source intake preflight report that records GitHub-safe readiness, missing config, and no secret values.
+- Implemented: R2 intake candidate report that rolls external-research raw-source finds into dashboard-visible JSON/Markdown.
 - Implemented: whole-system dashboard summarizes latest R2 source-intake status and counts.
 - Implemented: whole-system source, queue, research, storage, and site dashboard artifacts.
 - Implemented: whole-system dashboard next-action guidance from queue blockers and readiness signals.

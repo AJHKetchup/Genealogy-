@@ -1854,6 +1854,61 @@ M. Werner appears again in a related notice.
     assert "R2 Intake Candidate Register" in updated_note
 
 
+def test_r2_intake_candidate_report_reads_external_research_registers(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    note_dir = tmp_path / "research" / "_staging" / "external-research"
+    note_dir.mkdir(parents=True, exist_ok=True)
+    note = note_dir / "m-werner.md"
+    note.write_text(
+        """---
+type: external_research_result
+status: todo
+request_id: external-research:m-werner
+lead: M. Werner
+storage_policy: r2_raw_source_inbox_for_binaries
+---
+
+# External Research: M. Werner
+
+## R2 Intake Candidate Register
+
+| Candidate Source | Repository or URL | Raw Object Needed | R2 Inbox Status | Intake Notes |
+| --- | --- | --- | --- | --- |
+| None yet |  |  | not_started |  |
+| Werner personnel file | https://archive.example/werner | PDF original | not_started | likely match after QA |
+
+## R2 Raw-Source Intake
+
+Do not attach raw source binaries to this GitHub note.
+""",
+        encoding="utf-8",
+    )
+
+    written = genealogy_wiki.write_r2_intake_candidates_report(tmp_path)
+
+    assert {path.name for path in written} == {"r2-intake-candidates.json", "r2-intake-candidates.md"}
+    payload = json.loads((tmp_path / "research" / "_indexes" / "r2-intake-candidates.json").read_text())
+    assert payload["summary"]["note_count"] == 1
+    assert payload["summary"]["register_count"] == 1
+    assert payload["summary"]["candidate_count"] == 1
+    assert payload["summary"]["pending_candidate_count"] == 1
+    assert payload["summary"]["status_counts"] == {"not_started": 1}
+    candidate = payload["candidates"][0]
+    assert candidate["request_id"] == "external-research:m-werner"
+    assert candidate["lead"] == "M. Werner"
+    assert candidate["note"] == "research/_staging/external-research/m-werner.md"
+    assert candidate["candidate_source"] == "Werner personnel file"
+    assert candidate["repository_or_url"] == "https://archive.example/werner"
+    assert candidate["raw_object_needed"] == "PDF original"
+    assert candidate["next_step"].startswith("Place the raw source object in the R2 raw-source inbox")
+    report_text = (tmp_path / "research" / "r2-intake-candidates.md").read_text(encoding="utf-8")
+    assert "R2 Intake Candidates" in report_text
+    assert "Werner personnel file" in report_text
+    assert "R2 stores any raw source" in report_text
+    research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
+    assert "[[r2-intake-candidates]]" in research_index
+
+
 def test_conversion_qa_prompt_includes_research_analyzer_context(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     converted = tmp_path / "raw" / "converted" / "qa-context-record.codex.md"
@@ -2434,6 +2489,9 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
         "R2_ACCESS_KEY_ID",
         "R2_SECRET_ACCESS_KEY",
     ]
+    assert payload["r2_source_intake"]["intake_candidates"] == "research/_indexes/r2-intake-candidates.json"
+    assert payload["r2_source_intake"]["intake_candidates_markdown"] == "research/r2-intake-candidates.md"
+    assert payload["r2_source_intake"]["pending_intake_candidate_count"] == 0
     assert payload["storage"]["r2_derived_asset_count"] == 1
     assert payload["storage_lifecycle"]["status"] == "not_started"
     assert payload["conversion_qa_unblock"]["summary"]["conversion_qa_task_count"] == 0
@@ -2444,6 +2502,8 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     assert "Remote raw files seen: 3" in dashboard_text
     assert "Preflight status: missing_config" in dashboard_text
     assert "Missing required config: R2_BUCKET, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY" in dashboard_text
+    assert "Intake candidate report" in dashboard_text
+    assert "Pending intake candidates: 0" in dashboard_text
     assert "## Next Actions" in dashboard_text
     assert "Analyzer staging opportunity pages" in dashboard_text
     assert "Analyzer staging readiness" in dashboard_text
@@ -2467,6 +2527,7 @@ def test_system_status_dashboard_summarizes_pipeline_artifacts(monkeypatch, tmp_
     research_index = (tmp_path / "research" / "index.md").read_text(encoding="utf-8")
     assert "[[System Dashboard]]" in research_index
     assert "[[r2-source-intake-preflight]]" in research_index
+    assert "[[r2-intake-candidates]]" in research_index
 
 
 def test_system_status_dashboard_surfaces_conversion_qa_gate_next_actions(tmp_path) -> None:
