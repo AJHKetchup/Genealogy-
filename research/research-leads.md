@@ -1,6 +1,6 @@
 # Research Analyzer Leads
 
-Generated: 2026-05-16T14:10:47Z
+Generated: 2026-05-16T14:20:45Z
 
 These are names and lead strings detected in converted chunks. They are research navigation signals, not accepted identities or canonical claims.
 

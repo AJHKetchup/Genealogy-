@@ -7,6 +7,110 @@
   },
   "tasks": [
     {
+      "task_id": "evidence-extraction:CHUNK-83011af124e2-P0003-01",
+      "queue": "evidence-extraction",
+      "role": "evidence_extractor",
+      "skill": "genealogy-claim-extraction",
+      "status": "blocked_pending_conversion_qa",
+      "chunk_id": "CHUNK-83011af124e2-P0003-01",
+      "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "page_start": 3,
+      "page_end": 3,
+      "staging_dir": "research/_staging",
+      "research_staging_backlog_items": [
+        {
+          "backlog_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0003",
+          "status": "blocked_pending_conversion_qa",
+          "page": 3,
+          "score": 35,
+          "recommendation_types": [
+            "claim",
+            "source_packet"
+          ],
+          "staging_targets": [
+            "research/_staging/claims",
+            "research/_staging/source-packets"
+          ],
+          "next_step": "Complete conversion-QA task `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`, then regenerate analyzer queues before extraction."
+        }
+      ],
+      "research_analyzer_score": 35,
+      "staging_recommendations": [
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        },
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        }
+      ],
+      "block_reason": "pending_conversion_qa",
+      "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+      "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0003-01.md"
+    },
+    {
+      "task_id": "evidence-extraction:CHUNK-83011af124e2-P0001-01",
+      "queue": "evidence-extraction",
+      "role": "evidence_extractor",
+      "skill": "genealogy-claim-extraction",
+      "status": "blocked_pending_conversion_qa",
+      "chunk_id": "CHUNK-83011af124e2-P0001-01",
+      "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md",
+      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
+      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
+      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
+      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
+      "page_start": 1,
+      "page_end": 1,
+      "staging_dir": "research/_staging",
+      "research_staging_backlog_items": [
+        {
+          "backlog_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0001",
+          "status": "blocked_pending_conversion_qa",
+          "page": 1,
+          "score": 20,
+          "recommendation_types": [
+            "claim",
+            "source_packet"
+          ],
+          "staging_targets": [
+            "research/_staging/claims",
+            "research/_staging/source-packets"
+          ],
+          "next_step": "Complete conversion-QA task `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`, then regenerate analyzer queues before extraction."
+        }
+      ],
+      "research_analyzer_score": 20,
+      "staging_recommendations": [
+        {
+          "type": "claim",
+          "target": "research/_staging/claims",
+          "reason": "Names or life-event cues may support atomic fact drafts after source review."
+        },
+        {
+          "type": "source_packet",
+          "target": "research/_staging/source-packets",
+          "reason": "Preserve page-level literal support and provenance before extracting claims."
+        }
+      ],
+      "block_reason": "pending_conversion_qa",
+      "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
+      "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0001-01.md"
+    },
+    {
       "task_id": "evidence-extraction:CHUNK-d7d2f04f14d2-P0001-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
@@ -73,58 +177,6 @@
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4f85160c43ba-p0002-01.md"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-83011af124e2-P0001-01",
-      "queue": "evidence-extraction",
-      "role": "evidence_extractor",
-      "skill": "genealogy-claim-extraction",
-      "status": "blocked_pending_conversion_qa",
-      "chunk_id": "CHUNK-83011af124e2-P0001-01",
-      "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0001-chunk-01.md",
-      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
-      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "page_start": 1,
-      "page_end": 1,
-      "staging_dir": "research/_staging",
-      "research_staging_backlog_items": [
-        {
-          "backlog_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0001",
-          "status": "blocked_pending_conversion_qa",
-          "page": 1,
-          "score": 20,
-          "recommendation_types": [
-            "claim",
-            "source_packet"
-          ],
-          "staging_targets": [
-            "research/_staging/claims",
-            "research/_staging/source-packets"
-          ],
-          "next_step": "Complete conversion-QA task `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`, then regenerate analyzer queues before extraction."
-        }
-      ],
-      "research_analyzer_score": 20,
-      "staging_recommendations": [
-        {
-          "type": "claim",
-          "target": "research/_staging/claims",
-          "reason": "Names or life-event cues may support atomic fact drafts after source review."
-        },
-        {
-          "type": "source_packet",
-          "target": "research/_staging/source-packets",
-          "reason": "Preserve page-level literal support and provenance before extracting claims."
-        }
-      ],
-      "block_reason": "pending_conversion_qa",
-      "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
-      "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0001-01.md"
-    },
-    {
       "task_id": "evidence-extraction:CHUNK-83011af124e2-P0002-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
@@ -145,58 +197,6 @@
       "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0002-01.md"
-    },
-    {
-      "task_id": "evidence-extraction:CHUNK-83011af124e2-P0003-01",
-      "queue": "evidence-extraction",
-      "role": "evidence_extractor",
-      "skill": "genealogy-claim-extraction",
-      "status": "blocked_pending_conversion_qa",
-      "chunk_id": "CHUNK-83011af124e2-P0003-01",
-      "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/page-0003-chunk-01.md",
-      "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md",
-      "chunk_manifest": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json",
-      "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
-      "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
-      "page_start": 3,
-      "page_end": 3,
-      "staging_dir": "research/_staging",
-      "research_staging_backlog_items": [
-        {
-          "backlog_id": "staging-backlog:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md:p0003",
-          "status": "blocked_pending_conversion_qa",
-          "page": 3,
-          "score": 35,
-          "recommendation_types": [
-            "claim",
-            "source_packet"
-          ],
-          "staging_targets": [
-            "research/_staging/claims",
-            "research/_staging/source-packets"
-          ],
-          "next_step": "Complete conversion-QA task `conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md`, then regenerate analyzer queues before extraction."
-        }
-      ],
-      "research_analyzer_score": 35,
-      "staging_recommendations": [
-        {
-          "type": "claim",
-          "target": "research/_staging/claims",
-          "reason": "Names or life-event cues may support atomic fact drafts after source review."
-        },
-        {
-          "type": "source_packet",
-          "target": "research/_staging/source-packets",
-          "reason": "Preserve page-level literal support and provenance before extracting claims."
-        }
-      ],
-      "block_reason": "pending_conversion_qa",
-      "conversion_qa_task_id": "conversion-qa:raw-converted-ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex-md",
-      "conversion_qa_triage": "research/_conversion-review/triage/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "conversion_qa_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "conversion_qa_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex.md",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-83011af124e2-p0003-01.md"
     },
     {
       "task_id": "evidence-extraction:CHUNK-b88c946c7236-P0004-01",

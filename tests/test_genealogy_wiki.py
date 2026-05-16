@@ -1070,6 +1070,50 @@ def test_write_agent_queues_creates_conversion_qa_and_extraction_tasks(tmp_path)
     assert "block_reason" not in extraction_queue["tasks"][0]
 
 
+def test_evidence_extraction_sort_prioritizes_analyzer_handoffs() -> None:
+    tasks = [
+        {
+            "task_id": "generic",
+            "status": "blocked_pending_conversion_qa",
+            "converted_file": "raw/converted/a.codex.md",
+            "page_start": 1,
+            "chunk_id": "generic",
+        },
+        {
+            "task_id": "high-score",
+            "status": "blocked_pending_conversion_qa",
+            "converted_file": "raw/converted/b.codex.md",
+            "page_start": 3,
+            "chunk_id": "high-score",
+            "research_analyzer_score": 35,
+            "research_staging_backlog_items": [{"backlog_id": "b:p3"}],
+        },
+        {
+            "task_id": "ready",
+            "status": "todo",
+            "converted_file": "raw/converted/c.codex.md",
+            "page_start": 2,
+            "chunk_id": "ready",
+        },
+        {
+            "task_id": "low-score",
+            "status": "blocked_pending_conversion_qa",
+            "converted_file": "raw/converted/b.codex.md",
+            "page_start": 1,
+            "chunk_id": "low-score",
+            "research_analyzer_score": 20,
+            "research_staging_backlog_items": [{"backlog_id": "b:p1"}],
+        },
+    ]
+
+    sorted_ids = [
+        task["task_id"]
+        for task in sorted(tasks, key=genealogy_wiki.evidence_extraction_task_sort_key)
+    ]
+
+    assert sorted_ids == ["ready", "high-score", "low-score", "generic"]
+
+
 def test_agent_task_state_claims_and_releases_queue_tasks(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     from PIL import Image

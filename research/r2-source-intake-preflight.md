@@ -1,6 +1,6 @@
 # R2 Source Intake Preflight
 
-Generated: 2026-05-16T14:10:48Z
+Generated: 2026-05-16T14:20:46Z
 
 Status: missing_config
 

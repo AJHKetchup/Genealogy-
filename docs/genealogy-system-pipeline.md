@@ -230,6 +230,7 @@ Storage deaccession is allowed only when:
 - Implemented: conversion-QA unblock priority includes research-analyzer staging backlog items held by the QA gate.
 - Implemented: conversion-QA queue tasks include unblock-impact counts and priority context from downstream research queues.
 - Implemented: evidence-extraction tasks include research-analyzer staging backlog recommendations for matching pages.
+- Implemented: evidence-extraction queue ordering prioritizes QA-cleared and analyzer-backed staged extraction work.
 - Implemented: whole-system next actions point directly to the highest-impact conversion-QA prompt and unlock count.
 - Implemented: conversion-QA next-focus packet gives the current highest-impact QA task as a stable Markdown handoff.
 - Implemented: static HTML final-site generator structure for product wiki pages.

@@ -14091,7 +14091,29 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
                 )
             task["prompt"] = build_evidence_extraction_agent_prompt(task)
             tasks.append(task)
+    tasks.sort(key=evidence_extraction_task_sort_key)
     return tasks
+
+
+EVIDENCE_EXTRACTION_STATUS_PRIORITY = {
+    "todo": 0,
+    "claimed": 1,
+    "in_progress": 2,
+    "blocked_pending_conversion_qa": 3,
+    "blocked_needs_reread": 4,
+    "done": 5,
+}
+
+
+def evidence_extraction_task_sort_key(task: dict[str, object]) -> tuple[int, int, int, str, int, str]:
+    return (
+        EVIDENCE_EXTRACTION_STATUS_PRIORITY.get(str(task.get("status", "")), 9),
+        0 if task.get("research_staging_backlog_items") else 1,
+        -safe_int(task.get("research_analyzer_score"), 0),
+        str(task.get("converted_file", "")),
+        safe_int(task.get("page_start"), 0),
+        str(task.get("chunk_id", "")),
+    )
 
 
 def research_staging_backlog_items_by_converted_page(root: Path) -> dict[tuple[str, int], list[dict[str, object]]]:
