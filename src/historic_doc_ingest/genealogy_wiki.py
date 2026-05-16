@@ -5069,6 +5069,66 @@ SOURCE_RELEVANCE_TREATMENTS = ("lite", "pro", "pro_with_crops", "reread")
 SOURCE_RELEVANCE_PAGE_SCOPED_VALUES = {"high", "critical"}
 SOURCE_RELEVANCE_PAGE_SCOPED_TREATMENTS = {"pro", "pro_with_crops", "reread"}
 SOURCE_RELEVANCE_ACTIVE_STATUSES = {"active", "open", "todo"}
+RESEARCH_ANALYZER_VERSION = 1
+RESEARCH_ANALYZER_UPGRADE_SCORE = 50
+RESEARCH_ANALYZER_SIGNAL_SCORE = 20
+RESEARCH_ANALYZER_MAX_REPORT_PAGES = 250
+RESEARCH_ANALYZER_RELATIONSHIP_CUES = {
+    "aunt",
+    "brother",
+    "child",
+    "children",
+    "daughter",
+    "father",
+    "granddaughter",
+    "grandfather",
+    "grandmother",
+    "grandson",
+    "heir",
+    "hija",
+    "hijo",
+    "husband",
+    "madre",
+    "mother",
+    "padre",
+    "parent",
+    "parents",
+    "sibling",
+    "sister",
+    "spouse",
+    "uncle",
+    "wife",
+}
+RESEARCH_ANALYZER_LIFE_EVENT_CUES = {
+    "baptism",
+    "baptized",
+    "birth",
+    "born",
+    "burial",
+    "census",
+    "death",
+    "died",
+    "emigrated",
+    "immigrated",
+    "marriage",
+    "married",
+    "naturalization",
+    "obituary",
+    "probate",
+    "residence",
+    "resident",
+}
+RESEARCH_ANALYZER_VISUAL_CROP_KINDS = {
+    "certificate",
+    "face",
+    "handwriting",
+    "map",
+    "photo",
+    "photograph",
+    "portrait",
+    "seal",
+    "signature",
+}
 
 
 def source_relevance_feedback_path(root: Path) -> Path:
@@ -5374,6 +5434,329 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
     ):
         task["status"] = "needs_reread"
         task["repair_reason"] = "research_relevance_feedback"
+
+
+def research_analyzer_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_automation" / "research-analyzer-state.json"
+
+
+def research_analyzer_index_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_indexes" / "research-analyzer.json"
+
+
+def write_research_analyzer_state(root: Path, summary: dict[str, object]) -> Path:
+    path = research_analyzer_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def write_research_analyzer_index(root: Path, payload: dict[str, object], out: Path | None = None) -> Path:
+    path = out or research_analyzer_index_path(root)
+    if not path.is_absolute():
+        path = root.resolve() / path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def research_analyzer_existing_feedback_ids(root: Path) -> set[str]:
+    return {
+        str(hint.get("id", "")).strip()
+        for hint in active_source_relevance_hints(root)
+        if str(hint.get("id", "")).strip()
+    }
+
+
+def research_analyzer_run(
+    root: Path,
+    *,
+    limit: int = 5,
+    out: Path | None = None,
+    dry_run: bool = False,
+) -> dict[str, object]:
+    """Scan prepared chunks for research signals and request exact page upgrades."""
+    paths = WikiPaths(root.resolve())
+    family_terms = build_family_context_terms(paths.root)
+    pages = []
+    blockers: list[str] = []
+    for manifest_path in sorted((paths.raw / "chunks").glob("*/manifest.json")):
+        try:
+            pages.extend(research_analyzer_pages_from_manifest(paths.root, manifest_path, family_terms))
+        except Exception as exc:
+            blockers.append(f"{relative_to_root(manifest_path, paths.root)}: {exc}")
+
+    pages.sort(key=research_analyzer_page_sort_key)
+    report_pages = pages[:RESEARCH_ANALYZER_MAX_REPORT_PAGES]
+    upgrade_candidates = [
+        page for page in pages if str(page.get("recommended_action", "")) == "request_page_upgrade"
+    ]
+    existing_feedback_ids = research_analyzer_existing_feedback_ids(paths.root)
+    written_requests = []
+    existing_requests = []
+    for candidate in upgrade_candidates:
+        if limit >= 0 and len(written_requests) >= limit:
+            break
+        request = research_analyzer_upgrade_request(candidate)
+        request_id = source_relevance_hint_identity(request)
+        if request_id in existing_feedback_ids:
+            existing_requests.append(request_id)
+            continue
+        if not dry_run:
+            _, hint = mark_source_relevance_feedback(
+                paths.root,
+                job_manifest=str(request.get("job_manifest", "")),
+                source=str(request.get("source", "")),
+                source_sha256=str(request.get("source_sha256", "")),
+                converted_file=str(request.get("converted_file", "")),
+                page=safe_int(request.get("page"), 0),
+                relevance=str(request.get("relevance", "high")),
+                treatment=str(request.get("requested_treatment", "pro")),
+                reason=str(request.get("reason", "")),
+                entities=[str(value) for value in candidate.get("entities", []) if str(value).strip()],
+                terms=[str(value) for value in candidate.get("matched_terms", []) if str(value).strip()],
+                agent="research-analyzer",
+            )
+            written_requests.append(str(hint.get("id", request_id)) if isinstance(hint, dict) else request_id)
+            existing_feedback_ids.add(request_id)
+        else:
+            written_requests.append(request_id)
+
+    index_payload = {
+        "version": RESEARCH_ANALYZER_VERSION,
+        "created": date.today().isoformat(),
+        "purpose": "Automated research-analyzer signals from converted chunks, including page-level upgrade candidates.",
+        "family_context_terms": sorted(family_terms.values()),
+        "pages_scanned": len(pages),
+        "upgrade_candidates": len(upgrade_candidates),
+        "upgrade_requests_written": len(written_requests),
+        "upgrade_requests_existing": len(existing_requests),
+        "dry_run": dry_run,
+        "pages": report_pages,
+    }
+    index_path = write_research_analyzer_index(paths.root, index_payload, out)
+    summary: dict[str, object] = {
+        "version": RESEARCH_ANALYZER_VERSION,
+        "created": date.today().isoformat(),
+        "mode": "research-analyzer",
+        "root": str(paths.root),
+        "dry_run": dry_run,
+        "limit": limit,
+        "pages_scanned": len(pages),
+        "pages_with_signals": len([page for page in pages if safe_int(page.get("score"), 0) >= RESEARCH_ANALYZER_SIGNAL_SCORE]),
+        "upgrade_candidates": len(upgrade_candidates),
+        "upgrade_requests_written": len(written_requests),
+        "upgrade_requests_existing": len(existing_requests),
+        "index": relative_to_root(index_path, paths.root),
+        "feedback": relative_to_root(source_relevance_feedback_path(paths.root), paths.root),
+        "blockers": blockers,
+    }
+    state_path = write_research_analyzer_state(paths.root, summary)
+    summary["state"] = relative_to_root(state_path, paths.root)
+    if written_requests and not dry_run:
+        append_log(paths.research / "log.md", f"research-analyzer | Wrote {len(written_requests)} page upgrade request(s)")
+    return summary
+
+
+def research_analyzer_pages_from_manifest(
+    root: Path,
+    manifest_path: Path,
+    family_terms: dict[str, str],
+) -> list[dict[str, object]]:
+    manifest = read_json_payload(manifest_path, {})
+    chunks = manifest.get("chunks", [])
+    if not isinstance(chunks, list):
+        return []
+    grouped: dict[int, list[dict[str, object]]] = {}
+    for chunk in chunks:
+        if not isinstance(chunk, dict):
+            continue
+        page = safe_int(chunk.get("page_start"), 0)
+        if page <= 0:
+            page = research_analyzer_page_from_chunk_path(str(chunk.get("path", "")))
+        if page <= 0:
+            continue
+        grouped.setdefault(page, []).append(chunk)
+
+    pages = []
+    for page_number, page_chunks in sorted(grouped.items()):
+        chunk_texts = []
+        chunk_paths = []
+        for chunk in sorted(page_chunks, key=lambda item: safe_int(item.get("part"), safe_int(item.get("chunk_number"), 0))):
+            chunk_rel_path = str(chunk.get("path", "")).strip()
+            chunk_path = Path(chunk_rel_path)
+            if not chunk_path.is_absolute():
+                chunk_path = root / chunk_path
+            if not chunk_path.exists():
+                continue
+            chunk_paths.append(relative_to_root(chunk_path, root))
+            chunk_texts.append(chunk_path.read_text(encoding="utf-8"))
+        if not chunk_texts:
+            continue
+        pages.append(
+            analyze_research_chunk_page(
+                root=root,
+                manifest=manifest,
+                manifest_path=manifest_path,
+                page_number=page_number,
+                chunk_paths=chunk_paths,
+                page_text="\n\n".join(chunk_texts),
+                family_terms=family_terms,
+            )
+        )
+    return pages
+
+
+def research_analyzer_page_from_chunk_path(path: str) -> int:
+    match = re.search(r"page-0*(\d+)-chunk", path)
+    if not match:
+        return 0
+    return safe_int(match.group(1), 0)
+
+
+def analyze_research_chunk_page(
+    *,
+    root: Path,
+    manifest: dict[str, object],
+    manifest_path: Path,
+    page_number: int,
+    chunk_paths: list[str],
+    page_text: str,
+    family_terms: dict[str, str],
+) -> dict[str, object]:
+    matched_terms = find_family_context_matches(page_text, family_terms)
+    suspicious_readings = find_suspicious_name_readings(page_text, family_terms)
+    genealogy_leads = extract_research_analyzer_genealogy_leads(page_text)
+    relationship_cues = research_analyzer_matched_cues(page_text, RESEARCH_ANALYZER_RELATIONSHIP_CUES)
+    life_event_cues = research_analyzer_matched_cues(page_text, RESEARCH_ANALYZER_LIFE_EVENT_CUES)
+    visual_kinds = research_analyzer_visual_kinds(page_text)
+    uncertainty_count = research_analyzer_uncertainty_count(page_text)
+    score = 0
+    reasons = []
+
+    if matched_terms:
+        score += 50
+        reasons.append(f"matched known family term(s): {', '.join(matched_terms[:8])}")
+    if suspicious_readings:
+        score += 45
+        reasons.append("possible name drift near known family terms")
+    if genealogy_leads:
+        score += 20
+        reasons.append(f"genealogy lead section names {len(genealogy_leads)} candidate(s)")
+    if relationship_cues:
+        score += 12
+        reasons.append(f"relationship cue(s): {', '.join(relationship_cues[:8])}")
+    if life_event_cues:
+        score += 12
+        reasons.append(f"life event cue(s): {', '.join(life_event_cues[:8])}")
+    if visual_kinds:
+        score += 15
+        reasons.append(f"visual evidence cue(s): {', '.join(visual_kinds[:8])}")
+    if uncertainty_count and (matched_terms or suspicious_readings):
+        score += 10
+        reasons.append(f"uncertain reading marker(s): {uncertainty_count}")
+
+    has_family_context = bool(matched_terms or suspicious_readings)
+    recommended_action = "monitor"
+    if has_family_context and score >= RESEARCH_ANALYZER_UPGRADE_SCORE:
+        recommended_action = "request_page_upgrade"
+    elif score >= RESEARCH_ANALYZER_SIGNAL_SCORE:
+        recommended_action = "record_signal"
+    requested_treatment = "pro_with_crops" if visual_kinds else "pro"
+    relevance = "critical" if score >= 80 and has_family_context else "high" if has_family_context else "medium"
+    entities = sorted(set(matched_terms + [lead for lead in genealogy_leads if lead in matched_terms]))
+    return {
+        "converted_file": str(manifest.get("converted_file", "")),
+        "chunk_manifest": relative_to_root(manifest_path, root),
+        "source": str(manifest.get("source", "")),
+        "source_sha256": str(manifest.get("source_sha256", "")),
+        "source_manifest": str(manifest.get("source_manifest", "")),
+        "page": page_number,
+        "chunks": chunk_paths,
+        "score": score,
+        "relevance": relevance,
+        "recommended_action": recommended_action,
+        "requested_treatment": requested_treatment,
+        "reasons": reasons,
+        "matched_terms": matched_terms,
+        "entities": entities,
+        "genealogy_leads": genealogy_leads,
+        "suspicious_readings": suspicious_readings,
+        "relationship_cues": relationship_cues,
+        "life_event_cues": life_event_cues,
+        "visual_kinds": visual_kinds,
+        "uncertainty_markers": uncertainty_count,
+    }
+
+
+def research_analyzer_page_sort_key(page: dict[str, object]) -> tuple[int, int, str, int]:
+    action_priority = 0 if str(page.get("recommended_action", "")) == "request_page_upgrade" else 1
+    return (
+        action_priority,
+        -safe_int(page.get("score"), 0),
+        str(page.get("chunk_manifest", "")),
+        safe_int(page.get("page"), 0),
+    )
+
+
+def research_analyzer_upgrade_request(candidate: dict[str, object]) -> dict[str, object]:
+    reasons = [str(value) for value in candidate.get("reasons", []) if str(value).strip()]
+    return {
+        "status": "active",
+        "task_id": "",
+        "job_manifest": str(candidate.get("source_manifest", "")),
+        "source": str(candidate.get("source", "")),
+        "source_sha256": str(candidate.get("source_sha256", "")),
+        "converted_file": str(candidate.get("converted_file", "")),
+        "page": safe_int(candidate.get("page"), 0),
+        "relevance": str(candidate.get("relevance", "high")),
+        "requested_treatment": str(candidate.get("requested_treatment", "pro")),
+        "reason": "; ".join(reasons[:4]),
+    }
+
+
+def extract_research_analyzer_genealogy_leads(page_text: str) -> list[str]:
+    section = extract_section(page_text, "Extracted Genealogy Leads")
+    if not section:
+        return []
+    leads: list[str] = []
+    for value in re.findall(r"\*\*([^*]{2,120})\*\*", section):
+        cleaned = clean_research_analyzer_lead(value)
+        if cleaned:
+            leads.append(cleaned)
+    for value in re.findall(r"(?:^|\s)-\s+([^.;\n]{2,120})", section):
+        cleaned = clean_research_analyzer_lead(value)
+        if cleaned:
+            leads.append(cleaned)
+    return sorted(set(leads))[:25]
+
+
+def clean_research_analyzer_lead(value: str) -> str:
+    cleaned = re.sub(r"`|\[|\]|\(|\)|\*", "", value)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" :-")
+    if not cleaned or len(cleaned) < 2:
+        return ""
+    if cleaned.lower().startswith(("none", "no ", "not ")):
+        return ""
+    return cleaned
+
+
+def research_analyzer_matched_cues(page_text: str, cues: set[str]) -> list[str]:
+    lower_text = page_text.lower()
+    return sorted(cue for cue in cues if re.search(rf"\b{re.escape(cue)}\b", lower_text))
+
+
+def research_analyzer_visual_kinds(page_text: str) -> list[str]:
+    kinds = {
+        value.strip().lower()
+        for value in re.findall(r'"kind"\s*:\s*"([^"]+)"', page_text)
+        if value.strip()
+    }
+    return sorted(kinds & RESEARCH_ANALYZER_VISUAL_CROP_KINDS)
+
+
+def research_analyzer_uncertainty_count(page_text: str) -> int:
+    return page_text.count("[?]") + page_text.lower().count("[illegible]")
 
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
@@ -9959,6 +10342,28 @@ def build_parser() -> argparse.ArgumentParser:
     source_relevance_parser.add_argument("--term", action="append", default=[], help="Matched family term or search clue. May repeat.")
     source_relevance_parser.add_argument("--agent", default="", help="Research agent label recording the hint.")
 
+    research_analyzer_parser = subparsers.add_parser(
+        "research-analyzer",
+        help="Scan converted chunks for genealogy signals and write page-level upgrade requests.",
+    )
+    research_analyzer_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    research_analyzer_parser.add_argument(
+        "--limit",
+        type=int,
+        default=5,
+        help="Maximum new page-level upgrade requests to write. Use -1 for no cap. Default: 5.",
+    )
+    research_analyzer_parser.add_argument(
+        "--out",
+        type=Path,
+        help="Output research-analyzer JSON index. Default: research/_indexes/research-analyzer.json.",
+    )
+    research_analyzer_parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Write analyzer status without adding source-relevance feedback.",
+    )
+
     conversion_qc_parser = subparsers.add_parser(
         "conversion-qc",
         help="Write page-level post-conversion QC triage, reread queues, and suspected readings.",
@@ -10451,6 +10856,12 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Wrote source relevance feedback {path}")
         print(json.dumps(hint, indent=2, ensure_ascii=False))
         return 0
+
+    if args.command == "research-analyzer":
+        summary = research_analyzer_run(args.root, limit=args.limit, out=args.out, dry_run=args.dry_run)
+        print("research-analyzer | summary")
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+        return 1 if summary.get("blockers") else 0
 
     if args.command == "conversion-qc":
         written = write_post_conversion_qc(args.root, args.out_dir)

@@ -22,6 +22,7 @@ from historic_doc_ingest.genealogy_wiki import (
     lint_genealogy_wiki,
     mark_source_relevance_feedback,
     release_stale_agent_tasks,
+    research_analyzer_run,
     write_claim_index,
     write_relationship_graph,
     write_relationship_index,
@@ -1137,6 +1138,86 @@ def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypa
     gemini_plan = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, dry_run=True)
     assert gemini_plan["processed"] == 1
     assert gemini_plan["tasks"][0]["route"]["tier"] == "pro_with_crops"
+
+
+def test_research_analyzer_marks_family_relevant_chunk_pages_for_upgrade(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    person_dir = tmp_path / "wiki" / "people"
+    person_dir.mkdir(parents=True, exist_ok=True)
+    (person_dir / "pulgar-dario.md").write_text(
+        """---
+type: person
+status: stub
+---
+
+# Dario Pulgar Smith
+""",
+        encoding="utf-8",
+    )
+    converted = tmp_path / "raw" / "converted" / "dario-record.codex.md"
+    converted.write_text(
+        complete_gemini_page_markdown(
+            "Dario Pulgar Smith appears as son of Maria Smith and signed the register."
+        )
+        + """
+## Extracted Genealogy Leads
+
+- **Dario Pulgar Smith**
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [{"kind": "signature", "caption_literal": "Dario Pulgar Smith"}]}
+```
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    summary = research_analyzer_run(tmp_path, limit=3)
+
+    assert summary["upgrade_requests_written"] == 1
+    feedback = json.loads((tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").read_text())
+    hint = feedback["hints"][0]
+    assert hint["converted_file"] == "raw/converted/dario-record.codex.md"
+    assert hint["page"] == 1
+    assert hint["relevance"] == "critical"
+    assert hint["requested_treatment"] == "pro_with_crops"
+    assert "Dario Pulgar Smith" in hint["matched_terms"]
+    index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
+    assert index["pages"][0]["recommended_action"] == "request_page_upgrade"
+
+    second_summary = research_analyzer_run(tmp_path, limit=3)
+
+    assert second_summary["upgrade_requests_written"] == 0
+    assert second_summary["upgrade_requests_existing"] == 1
+    feedback_after_second_run = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").read_text()
+    )
+    assert len(feedback_after_second_run["hints"]) == 1
+
+
+def test_research_analyzer_records_generic_genealogy_leads_without_upgrade_request(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "generic-record.codex.md"
+    converted.write_text(
+        complete_gemini_page_markdown("M. Werner appears in a professional list.")
+        + """
+## Extracted Genealogy Leads
+
+- **M. Werner**
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    summary = research_analyzer_run(tmp_path, limit=3)
+
+    assert summary["upgrade_candidates"] == 0
+    assert summary["upgrade_requests_written"] == 0
+    index = json.loads((tmp_path / "research" / "_indexes" / "research-analyzer.json").read_text())
+    assert index["pages"][0]["recommended_action"] == "record_signal"
+    assert not (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").exists()
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:

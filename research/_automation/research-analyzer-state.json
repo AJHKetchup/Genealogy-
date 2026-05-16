@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "created": "2026-05-15",
+  "mode": "research-analyzer",
+  "root": "C:\\Users\\Big Al\\Documents\\New project-cloud-conversion-clean",
+  "dry_run": false,
+  "limit": 5,
+  "pages_scanned": 4,
+  "pages_with_signals": 1,
+  "upgrade_candidates": 0,
+  "upgrade_requests_written": 0,
+  "upgrade_requests_existing": 0,
+  "index": "research/_indexes/research-analyzer.json",
+  "feedback": "research/_agent-queues/source-relevance-feedback.json",
+  "blockers": []
+}

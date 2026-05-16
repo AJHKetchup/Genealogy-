@@ -198,9 +198,10 @@ Storage deaccession is allowed only when:
 - Implemented: page-level upgrade feedback command and state file.
 - Implemented: meaningful crop extraction from Gemini-declared visual regions.
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
+- Implemented: automated research-analyzer chunk scan with page-level upgrade feedback.
 - Partial: research wiki and staging structure.
 - Partial: proof/QC and promotion structure.
-- Not done: automated research analyzer loop.
+- Partial: deeper research analyzer extraction beyond page-upgrade routing.
 - Not done: automated wiki maintainer producing final HTML.
 - Not done: external research agents feeding new R2 sources.
 - Not done: storage lifecycle ranking and deaccession workflow.
