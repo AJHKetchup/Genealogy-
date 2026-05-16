@@ -5551,10 +5551,30 @@ def source_prep_discovery_batch_skip_reason(
     return f"docling_discovery_{discovery_status or 'not_terminal'}"
 
 
+SOURCE_PREP_DISCOVERY_MAX_SHORT_LINE_RATIO = 0.45
+SOURCE_PREP_DISCOVERY_FRAGMENT_MIN_LINES = 8
+SOURCE_PREP_DISCOVERY_FRAGMENT_MIN_WORDS = 45
+SOURCE_PREP_DISCOVERY_NOISE_PATTERNS = (
+    r"\bP\.opietarios\b",
+    r"\bdo\u0144a\b",
+    r"\bse\u0144or(?:a|es|itas?)?\b",
+    r"\ba\u0144os?\b",
+    r"(?m)^\s*[-\u2022]?\s*[!$]\s+",
+    r"(?m)^\s*[A-Z]\.\.\s*$",
+)
+
+
 def profile_source_prep_discovery_markdown(markdown: str) -> dict[str, object]:
     text = re.sub(r"```.*?```", " ", markdown, flags=re.DOTALL)
     text = re.sub(r"!\[[^\]]*\]\([^)]+\)", " ", text)
     text = re.sub(r"<[^>]+>", " ", text)
+    content_lines = [line.strip() for line in text.splitlines() if line.strip()]
+    short_lines = [
+        line
+        for line in content_lines
+        if len(re.sub(r"[\W_]+", "", line, flags=re.UNICODE)) <= 3 and re.search(r"[\w$!]", line)
+    ]
+    short_line_ratio = len(short_lines) / max(len(content_lines), 1)
     stripped = re.sub(r"\s+", " ", text).strip()
     nonspace = len(re.sub(r"\s+", "", stripped)) or 1
     alpha_chars = len(re.findall(r"[A-Za-z\u00c0-\u017f]", stripped))
@@ -5571,6 +5591,14 @@ def profile_source_prep_discovery_markdown(markdown: str) -> dict[str, object]:
         flags.append("encoding_mojibake")
     if odd_chars / nonspace > SOURCE_PREP_DISCOVERY_MAX_ODD_CHAR_RATIO:
         flags.append("possible_ocr_garbage")
+    if (
+        len(content_lines) >= SOURCE_PREP_DISCOVERY_FRAGMENT_MIN_LINES
+        and len(words) >= SOURCE_PREP_DISCOVERY_FRAGMENT_MIN_WORDS
+        and short_line_ratio > SOURCE_PREP_DISCOVERY_MAX_SHORT_LINE_RATIO
+    ):
+        flags.append("fragmented_short_lines")
+    if any(re.search(pattern, text, flags=re.IGNORECASE) for pattern in SOURCE_PREP_DISCOVERY_NOISE_PATTERNS):
+        flags.append("docling_layout_noise")
     status = SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS if not flags else SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS
     return {
         "status": status,
@@ -5578,6 +5606,8 @@ def profile_source_prep_discovery_markdown(markdown: str) -> dict[str, object]:
         "alpha_chars": alpha_chars,
         "word_count": len(words),
         "odd_char_ratio": odd_chars / nonspace,
+        "line_count": len(content_lines),
+        "short_line_ratio": short_line_ratio,
         "readability_flags": flags,
     }
 

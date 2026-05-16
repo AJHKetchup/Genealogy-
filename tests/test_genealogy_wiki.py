@@ -1071,6 +1071,116 @@ def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp
     assert batch_queue["tasks"] == []
 
 
+def test_docling_profile_keeps_clean_digital_native_text_usable() -> None:
+    markdown = (
+        "# Native PDF page\n\n"
+        "This digitally generated page has normal paragraph structure, complete sentences, "
+        "and enough names, dates, offices, places, and archive references to be useful without "
+        "a visual model pass. The text extraction is stable and does not show broken one-character "
+        "lines or layout noise.\n\n"
+        "A second paragraph preserves the same clean reading order for a digital-native PDF. "
+        "It should remain on the cheap Docling path instead of spending Gemini tokens."
+    )
+
+    profile = genealogy_wiki.profile_source_prep_discovery_markdown(markdown)
+
+    assert profile["status"] == "rough_ok"
+    assert profile["readability_flags"] == []
+
+
+def test_docling_profile_flags_docling_layout_noise_for_flash_elevation() -> None:
+    markdown = """
+A
+
+5
+
+5
+
+cd
+
+## Matemáticas 1.9, 2.%, 3.2 ¡ 4.2 años
+
+P.opietarios: don Federico Arriagada.
+
+- » Manuel E. Aguilera.
+
+doña Constanza Mogrovejo.
+
+Suplentes:
+
+don Camilo Valenzuela.
+
+- » Francisco A. Medina Rivera.
+
+## Francés 1.2 ¡ 2.2 años
+
+Propietarios: don Julio Chávez.
+
+- » Carlos Montebruno.
+
+doña Armida Acevedo de M.
+"""
+
+    profile = genealogy_wiki.profile_source_prep_discovery_markdown(markdown)
+
+    assert profile["status"] == "rough_unusable"
+    assert "docling_layout_noise" in profile["readability_flags"]
+
+
+def test_docling_profile_flags_line_level_layout_artifacts_for_flash_elevation() -> None:
+    markdown = """
+## Quillota
+
+! Suplentes: don Alcides Guzman.
+
+- $ Dativo del Canto.
+
+S..
+
+The rest of this extracted page has enough readable words that a token-count-only check would pass,
+but these standalone line artifacts show Docling damaged the page layout and should send it through
+Gemini Flash before the page becomes accepted source-prep Markdown.
+"""
+
+    profile = genealogy_wiki.profile_source_prep_discovery_markdown(markdown)
+
+    assert profile["status"] == "rough_unusable"
+    assert "docling_layout_noise" in profile["readability_flags"]
+
+
+def test_docling_profile_flags_fragmented_short_lines_for_flash_elevation() -> None:
+    markdown = """
+A
+
+5
+
+5
+
+cd
+
+7
+
+N
+
+S
+
+P
+
+Q
+
+R
+
+The page also contains enough normal OCR tokens that a pure word-count gate would pass even though
+the reading order is visibly shattered. This is the kind of Docling output that should be reread by
+Gemini Flash before it becomes source-prep page Markdown.
+"""
+
+    profile = genealogy_wiki.profile_source_prep_discovery_markdown(markdown)
+
+    assert profile["status"] == "rough_unusable"
+    assert "fragmented_short_lines" in profile["readability_flags"]
+
+
 def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
