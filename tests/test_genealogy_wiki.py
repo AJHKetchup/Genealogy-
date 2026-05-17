@@ -974,6 +974,17 @@ def test_cloud_workflow_refreshes_global_queue_after_source_filtered_run() -> No
     assert "--source \"$RUN_SOURCE\"" in workflow
 
 
+def test_cloud_workflow_has_continuous_schedule() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "schedule:" in workflow
+    assert 'cron: "*/15 * * * *"' in workflow
+    assert "Schedule is paused" not in workflow
+    assert "group: cloud-source-prep" in workflow
+    assert "cancel-in-progress: false" in workflow
+
+
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
