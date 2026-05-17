@@ -15,6 +15,7 @@ import tempfile
 import threading
 import urllib.error
 import urllib.request
+from collections.abc import Sequence
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -5977,6 +5978,58 @@ def source_prep_docling_pdf_text_layer_preview(root: Path, task: dict[str, objec
     }
 
 
+def source_prep_docling_pdf_text_layer_previews(
+    root: Path,
+    tasks: Sequence[dict[str, object]],
+) -> dict[str, dict[str, object]]:
+    try:
+        import fitz
+    except ImportError:
+        return {}
+
+    root = root.resolve()
+    grouped: dict[Path, list[tuple[str, int]]] = {}
+    for task in tasks:
+        source_path = root / str(task.get("source", ""))
+        manifest_path = root / str(task.get("job_manifest", ""))
+        manifest = read_json_payload(manifest_path, {}) if manifest_path.exists() else {}
+        source_file = find_existing_source_file_for_job(root, manifest) if manifest else None
+        if source_file is None and source_path.exists():
+            source_file = source_path
+        if source_file is None:
+            continue
+        media_type = str(manifest.get("media_type") or detect_media_type(source_file))
+        if media_type != "pdf":
+            continue
+        page_number = safe_int(task.get("page"), 1)
+        page_spec = find_manifest_page_spec(manifest, page_number) if manifest else {}
+        source_page = safe_int(page_spec.get("source_page"), page_number)
+        if source_page < 1:
+            continue
+        grouped.setdefault(source_file, []).append((source_prep_discovery_cache_key(task), source_page))
+
+    previews: dict[str, dict[str, object]] = {}
+    for source_file, page_refs in grouped.items():
+        try:
+            with fitz.open(source_file) as doc:
+                for cache_key, source_page in page_refs:
+                    if source_page > len(doc):
+                        continue
+                    text = doc[source_page - 1].get_text("text")
+                    alpha_chars = sum(1 for char in text if char.isalpha())
+                    previews[cache_key] = {
+                        "media_type": "pdf",
+                        "source_page": source_page,
+                        "text": text.strip(),
+                        "text_layer_chars": len(text),
+                        "text_layer_alpha_chars": alpha_chars,
+                        "has_meaningful_text_layer": alpha_chars >= SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS,
+                    }
+        except Exception:
+            continue
+    return previews
+
+
 def convert_source_with_docling(
     input_path: Path,
     *,
@@ -6329,6 +6382,7 @@ def source_prep_docling_discovery_run(
         "inspected": 0,
         "accepted": 0,
         "unusable": 0,
+        "fast_unusable": 0,
         "errors": 0,
         "extracted_images": 0,
         "skipped": {},
@@ -6408,6 +6462,8 @@ def source_prep_docling_discovery_run(
             summary["accepted"] = int(summary["accepted"]) + 1
         else:
             summary["unusable"] = int(summary["unusable"]) + 1
+            if bool(task_report.get("docling_no_ocr_fast_unusable")):
+                summary["fast_unusable"] = int(summary.get("fast_unusable", 0) or 0) + 1
         summary["extracted_images"] = int(summary.get("extracted_images", 0) or 0) + int(task_report.get("extracted_image_count", 0) or 0)
         cast_tasks = summary.setdefault("tasks", [])
         if isinstance(cast_tasks, list):
@@ -6436,6 +6492,38 @@ def source_prep_docling_discovery_run(
 
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
+
+        if not use_ocr and candidates:
+            previews = source_prep_docling_pdf_text_layer_previews(paths.root, [task for task, _cache_key in candidates])
+            filtered_candidates: list[tuple[dict[str, object], str]] = []
+            for task, cache_key in candidates:
+                preview = previews.get(cache_key)
+                if preview is not None and not bool(preview.get("has_meaningful_text_layer")):
+                    result = build_source_prep_docling_task_result(
+                        paths,
+                        task,
+                        cache_key,
+                        agent,
+                        str(preview.get("text", "")),
+                        [],
+                        extra_report={
+                            "docling_no_ocr_fast_unusable": True,
+                            "docling_unusable_reason": "pdf_text_layer_absent",
+                            "source_page": preview.get("source_page", 0),
+                            "text_layer_alpha_chars": preview.get("text_layer_alpha_chars", 0),
+                        },
+                        extra_entry={
+                            "method_detail": "docling_no_ocr_text_layer_absent",
+                            "source_page": preview.get("source_page", 0),
+                            "text_layer_chars": preview.get("text_layer_chars", 0),
+                            "text_layer_alpha_chars": preview.get("text_layer_alpha_chars", 0),
+                        },
+                    )
+                    if not apply_docling_result(result):
+                        break
+                    continue
+                filtered_candidates.append((task, cache_key))
+            candidates = filtered_candidates
 
         if parallelism == 1:
             for task, cache_key in candidates:
