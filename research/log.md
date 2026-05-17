@@ -1754,3 +1754,42 @@
 ## [2026-05-17] prepare-sources | Prepared 49 raw source(s)
 ## [2026-05-17] source-prep-batches | Wrote 9688 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-17] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0124-0143-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-124-143-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0084-0103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-84-103-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca753b8b14-anales-de-la-universidad-p0144-0163-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-144-163-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json
+## [2026-05-17] codex-conversion-job | Assembled raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
+## [2026-05-17] prep-chunk | Wrote raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3-codex/manifest.json
+## [2026-05-17] prepare-sources | Prepared 49 raw source(s)
+## [2026-05-17] source-prep-batches | Wrote 9688 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
+## [2026-05-17] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
