@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:16:22Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 31,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0031.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0031.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "Héla aquí, visitando a las “extras” de su primera pelícu-\nla, con la eterna sonrisa que aquí la hizo famosa.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The image shows a group of women, one prominent, on what appears to be a film set. The caption identifies the prominent woman as visiting \"extras\" on her first film, known for her \"eternal smile.\"",
+      "confidence": "1.0",
+      "inline_anchor": "Héla aquí, visitando a las “extras” de su primera pelícu-\nla, con la eterna sonrisa que aquí la hizo famosa.",
+      "bbox_pct": [
+        7.9,
+        4.4,
+        66.0,
+        15.5
+      ],
+      "bbox_pixels": [
+        105,
+        79,
+        914,
+        295
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-01-group-of-women-on-film-set-first-film.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-01-group-of-women-on-film-set-first-film.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0031.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 31,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0031.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "photograph",
+      "caption_literal": "Y en esta “pose” romántica nos de-\nmuestra que tiene verdadero ta-\nlento para la cámara.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The image shows a man and a woman in swimsuits in a posed, romantic manner. The caption states it demonstrates her true talent for the camera.",
+      "confidence": "1.0",
+      "inline_anchor": "Y en esta “pose” romántica nos de-\nmuestra que tiene verdadero ta-\nlento para la cámara.",
+      "bbox_pct": [
+        56.0,
+        16.0,
+        86.7,
+        25.0
+      ],
+      "bbox_pixels": [
+        768,
+        296,
+        1200,
+        474
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-02-man-and-woman-in-swimsuits-romantic-pose.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-02-man-and-woman-in-swimsuits-romantic-pose.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0031.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 31,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0031.md"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "photograph",
+      "caption_literal": "Antonio Moreno no podría faltar en\nesta fotografía, porque en la pe-\nlícula “el hace el amor” a Elvira.\n(Nada más en la película, por-\nque el señor Moreno es recién ca-\nsado.)",
+      "caption_type": "source-caption",
+      "identity_basis": "identified_in_caption",
+      "source_context": "The image shows a man and a woman standing together. The caption identifies the man as Antonio Moreno and mentions his role in a film with Elvira, noting he is recently married.",
+      "confidence": "1.0",
+      "inline_anchor": "Antonio Moreno no podría faltar en\nesta fotografía, porque en la pe-\nlícula “el hace el amor” a Elvira.\n(Nada más en la película, por-\nque el señor Moreno es recién ca-\nsado.)",
+      "bbox_pct": [
+        36.7,
+        18.0,
+        66.0,
+        40.5
+      ],
+      "bbox_pixels": [
+        502,
+        334,
+        914,
+        765
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-03-antonio-moreno-and-elvira-ortiz-standing.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-03-antonio-moreno-and-elvira-ortiz-standing.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0031.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 31,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0031.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

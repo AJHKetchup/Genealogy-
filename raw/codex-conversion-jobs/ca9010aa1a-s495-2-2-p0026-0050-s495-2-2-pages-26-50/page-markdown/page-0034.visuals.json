@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:44Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 34,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0034.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0034.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "La última fotografía de las Reales Infantas de España, en las cercanías del Palacio\nReal de Magdalena, pocos días antes de que estallara la revolución.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The photograph shows two young women on horseback. The caption identifies them as \"Reales Infantas de España\" (Royal Infantas of Spain).",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.0,
+        8.0,
+        88.0,
+        49.0
+      ],
+      "bbox_pixels": [
+        163,
+        146,
+        1225,
+        924
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0034/page-0034-image-01-reales-infantas-de-espana-on-horseback.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0034/page-0034-image-01-reales-infantas-de-espana-on-horseback.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0034.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 34,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0034.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

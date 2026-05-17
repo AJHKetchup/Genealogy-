@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-17T09:16:08Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 28,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0028.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0028.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "Señoras doña Amada Díaz\nde La Torre y doña Luz Díaz\nde Rincón Gallardo, al salir\nde la misa oficiada para hon-\nrar la memoria del General\nPorfirio Díaz.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The caption identifies the women as doña Amada Díaz de La Torre and doña Luz Díaz de Rincón Gallardo, leaving a mass for General Porfirio Díaz.",
+      "confidence": "0.95",
+      "inline_anchor": "Señoras doña Amada Díaz\nde La Torre y doña Luz Díaz\nde Rincón Gallardo, al salir\nde la misa oficiada para hon-\nrar la memoria del General\nPorfirio Díaz.",
+      "bbox_pct": [
+        9.0,
+        11.0,
+        29.0,
+        88.0
+      ],
+      "bbox_pixels": [
+        121,
+        202,
+        406,
+        1651
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-01-group-amada-diaz-luz-diaz-porfirio-diaz-mass.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-01-group-amada-diaz-luz-diaz-porfirio-diaz-mass.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0028.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 28,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0028.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "photograph",
+      "caption_literal": "Señora Charlotte\nD. de Rosen-\nblueth, bella da-\nma de la más\ndistinguida so-\nciedad de México.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The caption identifies the woman as Señora Charlotte D. de Rosenblueth.",
+      "confidence": "0.95",
+      "inline_anchor": "Señora Charlotte\nD. de Rosen-\nblueth, bella da-\nma de la más\ndistinguida so-\nciedad de México.",
+      "bbox_pct": [
+        32.0,
+        11.0,
+        59.0,
+        37.0
+      ],
+      "bbox_pixels": [
+        439,
+        202,
+        821,
+        697
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-02-portrait-charlotte-d-de-rosenblueth.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-02-portrait-charlotte-d-de-rosenblueth.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0028.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 28,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0028.md"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "photograph",
+      "caption_literal": "Niñitos Baltasar y\nMiguel, que en\nunión de sus es-\ntimables padres\ndon Baltasar\nMárquez y doña\nPiedad Cano de\nMárquez se em-\nbarcaron en Ve-\nracruz, a bordo\ndel “Cuba”, rum-\nbo a España,\ndonde van a co-\nnocer a sus res-\npetados abuelos\npaternos.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The caption identifies the children as Niñitos Baltasar and Miguel, traveling with their parents don Baltasar Márquez and doña Piedad Cano de Márquez.",
+      "confidence": "0.95",
+      "inline_anchor": "Niñitos Baltasar y\nMiguel, que en\nunión de sus es-\ntimables padres\ndon Baltasar\nMárquez y doña\nPiedad Cano de\nMárquez se em-\nbarcaron en Ve-\nracruz, a bordo\ndel “Cuba”, rum-\nbo a España,\ndonde van a co-\nnocer a sus res-\npetados abuelos\npaternos.",
+      "bbox_pct": [
+        32.0,
+        63.0,
+        59.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        439,
+        1175,
+        821,
+        1670
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-03-children-baltasar-miguel-marquez.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-03-children-baltasar-miguel-marquez.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0028.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 28,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0028.md"
+    },
+    {
+      "region_id": "visual_004",
+      "kind": "photograph",
+      "caption_literal": "Miembros de la Asociación Cristiana de Jóvenes que tomaron parte en las carreras organizadas por la Junta Privada de Fes-\ntejos de la sexta Demarcación, bajo la Presidencia del señor Carlos Gamboa. Los premios fueron ofrecidos por el señor\nLuis N. Morones y W. Mont.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The caption identifies the men as members of the Asociación Cristiana de Jóvenes (YMCA) who participated in races, mentioning Carlos Gamboa, Luis N. Morones, and W. Mont.",
+      "confidence": "0.95",
+      "inline_anchor": "Miembros de la Asociación Cristiana de Jóvenes que tomaron parte en las carreras organizadas por la Junta Privada de Fes-\ntejos de la sexta Demarcación, bajo la Presidencia del señor Carlos Gamboa. Los premios fueron ofrecidos por el señor\nLuis N. Morones y W. Mont.",
+      "bbox_pct": [
+        62.0,
+        11.0,
+        88.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        855,
+        202,
+        1223,
+        1670
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-04-group-ymca-members-races-gamboa-morones-mont.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-04-group-ymca-members-races-gamboa-morones-mont.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0028.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 28,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0028.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

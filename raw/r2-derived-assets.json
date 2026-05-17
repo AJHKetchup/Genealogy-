@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T09:03:57.701310+00:00",
+  "created": "2026-05-17T09:23:23.501980+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -21,6 +21,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-of-man-with-white-beard.png",
       "bytes": 151748,
       "sha256": "9ae3d2f7d3843070306f3ab259fec70d7d6ffda636956a3e1fac4b0397e7c9bd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-us-department-of-state.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-us-department-of-state.png",
+      "bytes": 77873,
+      "sha256": "94a86aa614461905bbebf3be249b9a63eb9d2b7aee7f17ca049a64131809b355",
       "media_type": "image/png"
     },
     {
@@ -108,6 +115,69 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-01-anatomy-pavilion-facade.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-01-anatomy-pavilion-facade.png",
+      "bytes": 86020,
+      "sha256": "c28f687e333c5cccf4cf2a5085ccb9d2e00db4bf10032082438e116698d2fa13",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-02-anatomy-pavilion-classroom.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-02-anatomy-pavilion-classroom.png",
+      "bytes": 83622,
+      "sha256": "a505ce4126781a28738bb04e6c6f6750f1c8f86143b1bfec44926150cae21e91",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-03-anatomy-pavilion-dissection-room.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-03-anatomy-pavilion-dissection-room.png",
+      "bytes": 100246,
+      "sha256": "fb92623721391f7e3180b88e075f92eeaa3573a30dac70aa71c7d8eca9fa46ac",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-04-anatomy-pavilion-dissection-students.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0006/page-0006-image-04-anatomy-pavilion-dissection-students.png",
+      "bytes": 127322,
+      "sha256": "1a2b69f11454afd2cbd7e973034243ca12a8ce099e35d31fe389a1a7425006b2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0008/page-0008-image-01-fig-4-anatomy-building-university-district-university-of-concepc.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0008/page-0008-image-01-fig-4-anatomy-building-university-district-university-of-concepc.png",
+      "bytes": 431,
+      "sha256": "e3f28c4d8f968425f0eef76fcd4a108f0a5f1007163cda3022e82943b9b8da03",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0009/page-0009-image-01-virg-nio-g-mez-room-cardiac-anatomy-class-1960s-dr-castillo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0009/page-0009-image-01-virg-nio-g-mez-room-cardiac-anatomy-class-1960s-dr-castillo.png",
+      "bytes": 315344,
+      "sha256": "704a6222763ee1004cb9608af86e840467ee4c62a0109d6b55e25534dcf5474b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-01-red-cross-illustration-1928.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-01-red-cross-illustration-1928.png",
+      "bytes": 304963,
+      "sha256": "7679564f81d77da0822674968a57b584854705482b8d98a555f9922baa64342f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-02-received-registry-stamp-1928.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-02-received-registry-stamp-1928.png",
+      "bytes": 22845,
+      "sha256": "23c24c305a412f9b8d6503e7c8c5229611e22a17a942ffc2b9595176e5302f65",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-boat-red-cross-sails.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-boat-red-cross-sails.png",
+      "bytes": 339946,
+      "sha256": "04e33a5da4de92d20263bd14519bafea143f911a362fb53e8be1e9847e2f9e99",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/extracted-images/page-0001/page-0001-image-01-hospital-clinico-regional-building.png",
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/extracted-images/page-0001/page-0001-image-01-hospital-clinico-regional-building.png",
       "bytes": 159425,
@@ -157,6 +227,48 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-from-cup.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-from-cup.png",
+      "bytes": 5722664,
+      "sha256": "2b85a5d48a0fd94f507b0bb35b49b8037ab6dc8bbb599aad99225b0db4826bc9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-portrait-man-with-cross.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-portrait-man-with-cross.png",
+      "bytes": 2645010,
+      "sha256": "67ec1de0ab7e310c70d47d218909d13d0dff6a6345c69bf0eccd9f4ae1565ebb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-full-page-landscape-with-cattle-and-water.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-full-page-landscape-with-cattle-and-water.png",
+      "bytes": 26555494,
+      "sha256": "dbf3c8c821473a9570468cbd188ab71dda79a9aac4a0a8f4283cae15aa505b99",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-with-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-with-ad.png",
+      "bytes": 3509904,
+      "sha256": "de02b2af913a64eef0f0c47da8c713efe785c5d99a27cd4de5e78e627f15680d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-el-ojos-del-salado-summit-climbers-1.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-el-ojos-del-salado-summit-climbers-1.png",
+      "bytes": 6843871,
+      "sha256": "b82a37d047ff7928cc6e845782483c6658bc07f832881de1bf13b703b60779c0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-el-ojos-del-salado-climbers-camp.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-el-ojos-del-salado-climbers-camp.png",
+      "bytes": 5631828,
+      "sha256": "055c272c70b9f9eccf1d489b7db40b1f6edcee88c7c24e19503e00fb2365d878",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca58706dfd-v-p-hist-01820-01-1-v-p-hist-01820-01-1/extracted-images/page-0001/page-0001-image-01-formal-assembly-hall-1929.png",
       "key": "derived/raw/codex-conversion-jobs/ca58706dfd-v-p-hist-01820-01-1-v-p-hist-01820-01-1/extracted-images/page-0001/page-0001-image-01-formal-assembly-hall-1929.png",
       "bytes": 6980175,
@@ -189,6 +301,811 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images/page-0011/page-0011-docling-image-01.png",
       "bytes": 80030,
       "sha256": "9e3ca35bcc12f059080bdca1e0fa612464d66e1d46e3c7817590255a4c48f181",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/extracted-images/page-0012/page-0012-image-01-embossed-seal-argentina-coat-of-arms.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/extracted-images/page-0012/page-0012-image-01-embossed-seal-argentina-coat-of-arms.png",
+      "bytes": 7984,
+      "sha256": "d8750321f10a6be2590d0949b0becbe96c96698e1b7749a65424653c0b6af40f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/extracted-images/page-0033/page-0033-image-01-clises-cyc-logo-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/extracted-images/page-0033/page-0033-image-01-clises-cyc-logo-illustration.png",
+      "bytes": 72631,
+      "sha256": "86bbea3fc644c4796cd116d4b5ead502fa504eb012bfcad4b97fd3752b2043b8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/extracted-images/page-0044/page-0044-image-01-d-luis-vernet-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/extracted-images/page-0044/page-0044-image-01-d-luis-vernet-portrait.png",
+      "bytes": 300836,
+      "sha256": "04ec9b845f32364b5b620a61eee6c78326bdb8b631660f0c2f45ab0acb5258b3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0003/page-0003-image-01-portrait-woman-jeweled-headpiece.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0003/page-0003-image-01-portrait-woman-jeweled-headpiece.png",
+      "bytes": 2673036,
+      "sha256": "000ebb63570a426a874e4df627dc0fd66d7c183a78419fc298290db479ed797e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0003/page-0003-image-02-beatrice-joy-logo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0003/page-0003-image-02-beatrice-joy-logo.png",
+      "bytes": 17590,
+      "sha256": "bb6b29cdd6307e4e2ddadd9d4826b291f14a56762c8cccb7149c593347718ab9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-01-vigor-sin-drogas-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-01-vigor-sin-drogas-illustration.png",
+      "bytes": 206518,
+      "sha256": "7b5158495c1c262300224525104df6406348655ddbf82fb7e0ae6581f6c76e32",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-03-calzado-americano-man-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-03-calzado-americano-man-illustration.png",
+      "bytes": 134793,
+      "sha256": "b7ed88bb9d9973a0ba33697602c168a87df48485b30e635d2cfd94251d619ca3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-01-adios-callos-man-with-foot.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-01-adios-callos-man-with-foot.png",
+      "bytes": 200537,
+      "sha256": "d1132a55b71848c490f676da506ccd72989101aa3e5bdfbb524b9b676fd62b70",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-02-el-derecho-de-todo-mundo-woman-hair.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-02-el-derecho-de-todo-mundo-woman-hair.png",
+      "bytes": 177969,
+      "sha256": "3933c8e5d2b885a45295c64a7b75ba082c41dfad2ac30ba6fef3892e016f73d1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-03-gets-it-foot-with-callus.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-03-gets-it-foot-with-callus.png",
+      "bytes": 26823,
+      "sha256": "8fa0a829d3157955dc25a5e1dbeda0d98d83d535818b864d6cad49ee4ee9ac20",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-04-el-derecho-de-todo-mundo-woman-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-04-el-derecho-de-todo-mundo-woman-portrait.png",
+      "bytes": 301818,
+      "sha256": "d66396288889a502561978114a66778ad819f7a4d4ae2a8ac4ba3d945ad92bfc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-05-pastillas-tonico-nervina-man-beard.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-05-pastillas-tonico-nervina-man-beard.png",
+      "bytes": 277612,
+      "sha256": "2ee2f6d43aaec8e269070476e0a49fd877dbd7e6eff4bce71cd5668d81e1ddb6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-06-solucion-pautauberge-woman-bottle.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-06-solucion-pautauberge-woman-bottle.png",
+      "bytes": 420060,
+      "sha256": "bdf39c748418357b55daee7377d23e7b64a5c2d902a3a3aabf405eafd03575ba",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-01-la-fosfatina-falieres-ad-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-01-la-fosfatina-falieres-ad-illustration.png",
+      "bytes": 564001,
+      "sha256": "4751b9446a4871180b7eff911fad23eff0770efa0e57d784d8347969afbbf723",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-02-ganga-de-impermeables-ad-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-02-ganga-de-impermeables-ad-illustration.png",
+      "bytes": 72086,
+      "sha256": "af126e294fcae647b4ce12c0ba035e9ad0d4158473f04f1237bb4c9f4f292003",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-mesa-directiva-camara-comercio-ensenada-1919.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-mesa-directiva-camara-comercio-ensenada-1919.png",
+      "bytes": 681766,
+      "sha256": "0389431c1ef2cf0614b76233cf085854e67d763f2c41215ca050154aeb13a221",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0010/page-0010-image-01-gilberto-padilla-y-hno-building.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0010/page-0010-image-01-gilberto-padilla-y-hno-building.png",
+      "bytes": 246951,
+      "sha256": "adcea2309fd483e9611b534bc456b239c12c5bc1d23c0cc15e0dffc7cd0dce97",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0011/page-0011-image-01-pioneer-transfer-company-calexico-paving-work-group-photo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0011/page-0011-image-01-pioneer-transfer-company-calexico-paving-work-group-photo.png",
+      "bytes": 1052417,
+      "sha256": "1a6207cb70c98fe58f0773a5f736197e8b28ddaa9cae75b7726c09650588e44d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0012/page-0012-image-01-cafe-imperial-dance-hall-interior.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0012/page-0012-image-01-cafe-imperial-dance-hall-interior.png",
+      "bytes": 1327154,
+      "sha256": "f8b3ec2989f63e0439591b587e5df1e083ffe54af736fa1502e89329269750c8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0013/page-0013-image-01-sr-lic-elsias-pallais-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0013/page-0013-image-01-sr-lic-elsias-pallais-portrait.png",
+      "bytes": 325798,
+      "sha256": "649263c0b9086912a87ffcf73983248cc4fc32865f4973fc46bcb00ad722f7bd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0013/page-0013-image-02-aduana-fronteriza-de-mexicali-group-photo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0013/page-0013-image-02-aduana-fronteriza-de-mexicali-group-photo.png",
+      "bytes": 1250423,
+      "sha256": "86ab3a55429d3e51bcb1b4646b4937f87fc212b5d59c25b5a9a1897de0bbccfa",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0014/page-0014-image-01-sr-presidente-municipal-de-ensenada-bc.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0014/page-0014-image-01-sr-presidente-municipal-de-ensenada-bc.png",
+      "bytes": 297658,
+      "sha256": "b33424b1817fa7a800c22e9c1a13a5f7ea82c0f82407543c8b53bc02554a3dae",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0015/page-0015-image-01-tijuana-jockey-club-horse-race-track.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0015/page-0015-image-01-tijuana-jockey-club-horse-race-track.png",
+      "bytes": 726275,
+      "sha256": "6df8612755be9c84b33185effc21a4bd35b1e6d37f1364e9fde48875851c935f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-01-cerveceria-de-mexicali-building.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-01-cerveceria-de-mexicali-building.png",
+      "bytes": 2430223,
+      "sha256": "7d78341c182a8550fd10ecd0e391699bda05d023fecb6b8e4a60eccee8af8c5e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-02-cerveceria-de-mexicali-men-group.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-02-cerveceria-de-mexicali-men-group.png",
+      "bytes": 620041,
+      "sha256": "167e712a7755870458c12a4fad61d77eb3e5b612ab72e4adadaae73e8b71e42f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0017/page-0017-image-01-group-with-vecera-banner.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0017/page-0017-image-01-group-with-vecera-banner.png",
+      "bytes": 1119283,
+      "sha256": "5c210ed467606b6ab40111d6cc33affe31b415f061554c8f57245146c6e3028b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-01-el-profesor-gallegos-en-trabajos-de-exploracion.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-01-el-profesor-gallegos-en-trabajos-de-exploracion.png",
+      "bytes": 248213,
+      "sha256": "41dd2b663e665976df1b8c21e7dd809cbd12a800c5579d40cb1cf814322b6436",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-02-diversos-y-hermosos-ejemplares-de-pajaros-disecados.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-02-diversos-y-hermosos-ejemplares-de-pajaros-disecados.png",
+      "bytes": 159596,
+      "sha256": "4a0b9e09791d747559bf840463c61bb95a72e70bfd0b769310429539461273ca",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-03-quiote-de-maguey-silvestre-en-el-desierto.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-03-quiote-de-maguey-silvestre-en-el-desierto.png",
+      "bytes": 186796,
+      "sha256": "3375060941686d7f93e3a35023491607e528aee351618c05aab4dec0aa14860e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-04-la-piel-de-un-elefante-marino-arrastrada-por-cinco-hombres.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-04-la-piel-de-un-elefante-marino-arrastrada-por-cinco-hombres.png",
+      "bytes": 172905,
+      "sha256": "58be9ce93a546ef6d9325f74f402e80d6d9328b7411e1c369c10e9fbf88f5391",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-05-pelicanos-en-la-isla-sur-de-todos-santos.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-05-pelicanos-en-la-isla-sur-de-todos-santos.png",
+      "bytes": 191852,
+      "sha256": "751532d0599afd2825f41a7d8397efceb87addf9823e404a0d81fb999905c2a5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-06-escuela-en-campo-mex.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-06-escuela-en-campo-mex.png",
+      "bytes": 202100,
+      "sha256": "49eaabe45422a21befd12776e2524332bd8dfde2da35df511dec2f73258d8797",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-01-durant-car-1920s-large.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-01-durant-car-1920s-large.png",
+      "bytes": 846408,
+      "sha256": "3c289f18b0a302a32f5020c2ab4e7da84b8acbb31e0c1eb1c7b2e1204b1edb46",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-02-star-car-sedan-2225.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-02-star-car-sedan-2225.png",
+      "bytes": 153390,
+      "sha256": "ac4fa8fd3e39490fea41ecbff190954defa11edfbef5c5ce4c6451a3f4c3144b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-03-star-car-touring-1600.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-03-star-car-touring-1600.png",
+      "bytes": 151750,
+      "sha256": "bd55d24673d1f4f52c6272eb5e332ea997e6a98de104b604cacb0dc1cea974a8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-04-star-car-coupe-2000.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-04-star-car-coupe-2000.png",
+      "bytes": 140450,
+      "sha256": "fbb654b193be0cd55ab68772d3cea069ee9b67bfbaa28e2e7bb67dffd816a845",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-05-star-car-roadster-1550.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-05-star-car-roadster-1550.png",
+      "bytes": 152675,
+      "sha256": "c93277000339299dc208ea2ad8703b51398628586f5cb412065e7c57f0f56880",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-01-la-femme-chic-doll-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-01-la-femme-chic-doll-illustration.png",
+      "bytes": 1693158,
+      "sha256": "6344cbda1f11bbe638878cbba168c8437fbdb701261527a62b5987b3baffc8df",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-02-ana-de-gomez-mayorga-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-02-ana-de-gomez-mayorga-portrait.png",
+      "bytes": 242459,
+      "sha256": "395eba4748b254e719b00b6c80e47845d4065948d44871c4e435abcddd22c105",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0023/page-0023-image-01-el-universal-ilustrado-masthead-woman-tree-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0023/page-0023-image-01-el-universal-ilustrado-masthead-woman-tree-1923.png",
+      "bytes": 1705867,
+      "sha256": "2c16b50223915487802f280d3e084a1b89462db0f1bf37460e8ecc8f9fe62a94",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0024/page-0024-image-01-p0024-001-obregon-de-la-huerta-serrano.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0024/page-0024-image-01-p0024-001-obregon-de-la-huerta-serrano.png",
+      "bytes": 2322759,
+      "sha256": "d629f700aaad7cc25b8be2b08229e431c9bafa1320ee036e793d5075a5d698ef",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0025/page-0025-image-01-rodolfo-gaona-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0025/page-0025-image-01-rodolfo-gaona-portrait.png",
+      "bytes": 1143993,
+      "sha256": "f9754830de883b3e31b7222314c1f140587a53c939bdce67135f45cdecae92a0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-01-military-parade-president-arrival.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-01-military-parade-president-arrival.png",
+      "bytes": 324831,
+      "sha256": "9e0861db66931df4def0a293d91fd1087f2f9ff1b8c20dc3a136929677e4764b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-02-crowd-palace-parade.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-02-crowd-palace-parade.png",
+      "bytes": 351394,
+      "sha256": "2bb8fa44d4a3bb29c00b8f5f0a39bb6e083a10b326320a80932915fd8f7fdc9b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-03-president-secretaries-diplomatic-corps-palace.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-03-president-secretaries-diplomatic-corps-palace.png",
+      "bytes": 277013,
+      "sha256": "defbc0abcb267446aee63e2c079d76131a1dea881ab6c2344a7603de7a21b93b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-04-palace-solemn-reception.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-04-palace-solemn-reception.png",
+      "bytes": 267604,
+      "sha256": "ca1fdd1fdd646a0cfccf79aaaaacec5c5184e582adbdb05a77f9b7517321bfcd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-05-sailors-parade-national-holidays.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-05-sailors-parade-national-holidays.png",
+      "bytes": 212542,
+      "sha256": "ab7d37feb201ae79f36ca1b35d9509e490e794ca1513e373022d76aebb45653d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-06-military-parade-scene.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-06-military-parade-scene.png",
+      "bytes": 211138,
+      "sha256": "3526253210d0d3fb47e64409e1aa326ee35ee6328eb3fa09b37dcda67d499ab6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-07-president-diplomatic-corps-cathedral-ceremony.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-07-president-diplomatic-corps-cathedral-ceremony.png",
+      "bytes": 205859,
+      "sha256": "529da5ec6bd7644e41177c20a9878d26c3c11df6ca14c2a08bb3c61a925735b0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-08-diplomatic-corps-cathedral-ceremony-2.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0026/page-0026-image-08-diplomatic-corps-cathedral-ceremony-2.png",
+      "bytes": 211752,
+      "sha256": "ae101aa0e43fe9aa3d486e6b2818ca254abaad46d8d0182cc2cb7eb59e7574fe",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0027/page-0027-image-01-illustration-racket-sport-garden.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0027/page-0027-image-01-illustration-racket-sport-garden.png",
+      "bytes": 441749,
+      "sha256": "52cf5207f4b271fcc3bdc6cb0cfb021ea16920f7bc754487c833c44c0e5d9c27",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0027/page-0027-image-02-illustration-men-with-dogs.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0027/page-0027-image-02-illustration-men-with-dogs.png",
+      "bytes": 259220,
+      "sha256": "e55ed5adfc9af8b2af4014d5d3f2399aa9ace22d2feb19a90c40bf12bb8973ad",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0027/page-0027-image-03-illustration-couple-reading-book.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0027/page-0027-image-03-illustration-couple-reading-book.png",
+      "bytes": 311506,
+      "sha256": "fd3915a1eb640134dc4907e4417f7e81e7dd1df0106a20bf0d1203a249f867e6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-01-group-amada-diaz-luz-diaz-porfirio-diaz-mass.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-01-group-amada-diaz-luz-diaz-porfirio-diaz-mass.png",
+      "bytes": 724037,
+      "sha256": "b521a2efefc3a6170a8f34475117fb5e987d6801a20b818e2f5eee72ae8c3fc3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-02-portrait-charlotte-d-de-rosenblueth.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-02-portrait-charlotte-d-de-rosenblueth.png",
+      "bytes": 362360,
+      "sha256": "ada0a655f99cf01d6635101c4d0dc39b31be6800afe41b4dec9b8e983d691290",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-03-children-baltasar-miguel-marquez.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-03-children-baltasar-miguel-marquez.png",
+      "bytes": 356208,
+      "sha256": "71137c8ea785140c438157c8229ba552600763a7d4ffef477557b15d8c4ebe4e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-04-group-ymca-members-races-gamboa-morones-mont.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0028/page-0028-image-04-group-ymca-members-races-gamboa-morones-mont.png",
+      "bytes": 988737,
+      "sha256": "b394a13445be56a9e9ff450795099ef8dfd2751726eff9ada5b35e72d22c318d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0029/page-0029-image-01-arturo-rubinstein-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0029/page-0029-image-01-arturo-rubinstein-portrait.png",
+      "bytes": 871501,
+      "sha256": "7609835787a8c04fc93da27c92e63b63e5330960137e4115471592cef77bb27f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0029/page-0029-image-02-decorative-woman-head-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0029/page-0029-image-02-decorative-woman-head-illustration.png",
+      "bytes": 72662,
+      "sha256": "69c4d53a80160bc4bdc748492fc30fc598eec50fd0afed074ea584b202adde7c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-01-elvira-ortiz-on-set-with-colleague.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-01-elvira-ortiz-on-set-with-colleague.png",
+      "bytes": 640798,
+      "sha256": "eb0a87b49934984d1666226f73a229b769647eaab79c5776bf729e73de96a568",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-02-elvirita-in-swimsuit-venice.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-02-elvirita-in-swimsuit-venice.png",
+      "bytes": 264285,
+      "sha256": "1fdf8581a9d42018bc517b855eebcb903f1e7ed9e6f56ce90da50d19b4590b9e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-03-elvira-ortiz-portrait-venice.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-03-elvira-ortiz-portrait-venice.png",
+      "bytes": 313440,
+      "sha256": "4fe6d8149105f17a47afe6319c07cd1668ae5f7d0eb5caf528336751ee362da5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-01-group-of-women-on-film-set-first-film.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-01-group-of-women-on-film-set-first-film.png",
+      "bytes": 276939,
+      "sha256": "3d697737e5731c5877e3335744e2e2b65788f40d02f372961de0f4885c0eac87",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-02-man-and-woman-in-swimsuits-romantic-pose.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-02-man-and-woman-in-swimsuits-romantic-pose.png",
+      "bytes": 151290,
+      "sha256": "e7ad76f2ee4a06ce25938fc827648c8682c7fdd46147de02ef5c663d906ab9af",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-03-antonio-moreno-and-elvira-ortiz-standing.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0031/page-0031-image-03-antonio-moreno-and-elvira-ortiz-standing.png",
+      "bytes": 318639,
+      "sha256": "5fb883dbf1d6b6457f045592221206d8b58849edc1c23ecc0b224d01bc13021e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0032/page-0032-image-01-manuel-maples-arce-in-his-library.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0032/page-0032-image-01-manuel-maples-arce-in-his-library.png",
+      "bytes": 1549887,
+      "sha256": "f9f155c894dd2a70ce4cec0c7816dc77f2057739a5f44001d27101e8afb00f16",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0033/page-0033-image-01-group-photo-german-liszt-arzubide-arqueles-vela-manuel-maples-ar.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0033/page-0033-image-01-group-photo-german-liszt-arzubide-arqueles-vela-manuel-maples-ar.png",
+      "bytes": 1410841,
+      "sha256": "04d359974a70ee7ef0dec797a2c243df7807ee0721e80252992337b84f81cf8e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0034/page-0034-image-01-reales-infantas-de-espana-on-horseback.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0034/page-0034-image-01-reales-infantas-de-espana-on-horseback.png",
+      "bytes": 1552593,
+      "sha256": "06ea41fa1a22fc141f20d4734ea0c3c01f2ec3f990970123020f3e7fc881a31a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-01-crowd-at-station-farewell-soldiers.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-01-crowd-at-station-farewell-soldiers.png",
+      "bytes": 860071,
+      "sha256": "529e99ece1398ecda30bd5699baf8e5d4ef86b09d30569fd877eed51a43aa1f6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-02-convoy-dar-quebdani-tifaudi.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-02-convoy-dar-quebdani-tifaudi.png",
+      "bytes": 927232,
+      "sha256": "cfb0a4cfba3c7b31db8d1e887022541a2c28be5225c69507bc52be746d915a3e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-01-illustration-woman-okeeffe-signature.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-01-illustration-woman-okeeffe-signature.png",
+      "bytes": 425933,
+      "sha256": "8f31f6d06eb07297a594effc09ea84d950667df3287d5a65bc809d3efb52b033",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-02-illustration-man-kneeling-money-bag.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-02-illustration-man-kneeling-money-bag.png",
+      "bytes": 866708,
+      "sha256": "7d6207ade7b349a791d72d49f4f64cec891dbdbb48982b79708f7778f90bfdc4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0037/page-0037-image-01-marion-davies-as-miss-maria-tudor.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0037/page-0037-image-01-marion-davies-as-miss-maria-tudor.png",
+      "bytes": 1563218,
+      "sha256": "e80c5a8c54e3fc865e7ac3c23b7577d4502345c980d06e54f0938fe3abb47957",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-01-se-orita-c-victoria.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-01-se-orita-c-victoria.png",
+      "bytes": 312604,
+      "sha256": "e68f0d370b8b9fabcc25d7381561582c22d96a4c0c228c11b8b778f1e6af9872",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-02-se-orita-e-golbaum.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-02-se-orita-e-golbaum.png",
+      "bytes": 576579,
+      "sha256": "4d9b0f80c4af2f46ee3bc4944e07ce44f25c6bfb1c1e849e4de761626a0d45be",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-03-se-orita-beatriz-cota.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-03-se-orita-beatriz-cota.png",
+      "bytes": 514258,
+      "sha256": "256b90f6a53a6f4bdbbb7cec351c5b9218ab8d22f33932c0cc778a36d2d081c5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-04-se-orita-maria-antonia-cota.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-04-se-orita-maria-antonia-cota.png",
+      "bytes": 211582,
+      "sha256": "89211c3f43accdf6567094b2d96b0f9cbf470273e4b03e9bde73cd9ae65f17c1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0039/page-0039-image-01-coastal-pier-construction.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0039/page-0039-image-01-coastal-pier-construction.png",
+      "bytes": 840197,
+      "sha256": "cdbf3a2a4de506d3b5704238b3d78a22810f2da085365513d31390ab8a1102e7",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0039/page-0039-image-02-aerial-view-of-town.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0039/page-0039-image-02-aerial-view-of-town.png",
+      "bytes": 796198,
+      "sha256": "32e40a09b5f177ab2db391dc581d6ce8b8cf3954bf57697654e600a9b93961ca",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0040/page-0040-image-01-illustration-women-with-pearls-bolanos-cacho.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0040/page-0040-image-01-illustration-women-with-pearls-bolanos-cacho.png",
+      "bytes": 2011862,
+      "sha256": "039469244e663e8794158756bdd4c86ba3f35c3aa86d81f68a3abe6eb438b358",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-01-illustration-person-examining-pearls.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-01-illustration-person-examining-pearls.png",
+      "bytes": 206235,
+      "sha256": "aecacfcc45e408cbe87f6047b691e339a85ff9fdc0aafc4843400c07a90e7448",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-02-illustration-lighthouse.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-02-illustration-lighthouse.png",
+      "bytes": 424454,
+      "sha256": "93f50ccc2336e442dbe593ac9db63858cb10e0d346a3d5e49527747fd2631fa1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-01-paisaje-rancho-el-rayo-el-pinal-bc.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-01-paisaje-rancho-el-rayo-el-pinal-bc.png",
+      "bytes": 580625,
+      "sha256": "f24c0237e96c90544563490bb50dfeb5ff445d061f187512a8c1c700a985de27",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-02-palacio-de-gobierno-mexicali-bc-1916.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-02-palacio-de-gobierno-mexicali-bc-1916.png",
+      "bytes": 496704,
+      "sha256": "342af9004c9e348ba635824fe79771f662911d2d939c534ae262197c73aa2b45",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-03-paisaje-californiano-palmas-taquito-abanico.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-03-paisaje-californiano-palmas-taquito-abanico.png",
+      "bytes": 616270,
+      "sha256": "738afb21b3e0d47f7c87cf8e4ea7e0f251d55c04c92722685373f504b10696c6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-01-fotografia-fiestas-campestres-san-telmo-bc.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-01-fotografia-fiestas-campestres-san-telmo-bc.png",
+      "bytes": 984775,
+      "sha256": "2d1e335a3d94f05eb9a5c4b5717d95aaddcc776a92ac787358b4eb36e6176e80",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-02-estatua-hidalgo-paseo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-02-estatua-hidalgo-paseo.png",
+      "bytes": 749418,
+      "sha256": "b7c0fcf2b1b726cd6a5f4f024251c5e31cd0293af0bdfafb04bfdf5fd36239d0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-03-lazando-herrando-becerros-el-pinal-bc.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-03-lazando-herrando-becerros-el-pinal-bc.png",
+      "bytes": 754797,
+      "sha256": "dd744820c3405543f0e35e585ef7b76e4a481d9f004727c0cc3bd27ab1c53557",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-01-portrait-senorita-belem-vega.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-01-portrait-senorita-belem-vega.png",
+      "bytes": 351245,
+      "sha256": "a36e66d11467dd948d4f881e748c39929a4ad308d29e5294b9def79ee7a9c78e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-02-portrait-senorita-dolores-sosa-y-silva.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-02-portrait-senorita-dolores-sosa-y-silva.png",
+      "bytes": 181135,
+      "sha256": "59c3af656ca44fd8965ef119e778fa7905839fc23459691517a178f6705572a3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-03-portrait-senora-catalina-l-de-verdugo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-03-portrait-senora-catalina-l-de-verdugo.png",
+      "bytes": 225022,
+      "sha256": "f54cc82c23322fd2a4fde6ecfd131958bbae5af7fff731990d74e3df345503cb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-04-portrait-senorita-emma-castillo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-04-portrait-senorita-emma-castillo.png",
+      "bytes": 106899,
+      "sha256": "551b8f91edcf2459c69f3f1af04cfae7715e4bd504cc9fd93103a6136ab6819c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-05-portrait-senorita-eustalia-esquer.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-05-portrait-senorita-eustalia-esquer.png",
+      "bytes": 116688,
+      "sha256": "77f788c0ea5641b5316b0a5ec69bfc68307da585f22d82517b6b5a2ba24dd352",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-06-portrait-senorita-maria-enriqueta-saravia.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-06-portrait-senorita-maria-enriqueta-saravia.png",
+      "bytes": 203407,
+      "sha256": "30b7bf8bdfec7f277ce47f7bf32ebb74b072a9d2e795f85c2c511bff6caf4274",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-01-p0045-i01-palacio-del-gobierno-mexicali.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-01-p0045-i01-palacio-del-gobierno-mexicali.png",
+      "bytes": 393236,
+      "sha256": "02e539cce1f8c1600c69a63a8dfaabfa47b9bd605b3fcd079891156d49e9a78c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-02-p0045-i02-calle-azueta-mexicali.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-02-p0045-i02-calle-azueta-mexicali.png",
+      "bytes": 481618,
+      "sha256": "d8cc3ebf73bfddb00d6533237b93d83750ba9c7ff499a8416fc42a2074da3ef6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-03-p0045-i03-escuela-cuauhtemoc-inauguration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-03-p0045-i03-escuela-cuauhtemoc-inauguration.png",
+      "bytes": 615544,
+      "sha256": "bb7c3f42996204d4b7b91d3cf862e0831c1e5585d687003fe0fc1fc153e1b121",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-04-p0045-i04-vista-parcial-mexicali-1917.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-04-p0045-i04-vista-parcial-mexicali-1917.png",
+      "bytes": 512879,
+      "sha256": "0511697d07fd245c18d6b2a7c1d94a8f620c5125d80fde6d1c9ac6b07174740e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-05-p0045-i05-calle-azueta-black-cat-bar.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-05-p0045-i05-calle-azueta-black-cat-bar.png",
+      "bytes": 644194,
+      "sha256": "d3b232856534348641290e2312ea3ae34aa1ed0fba9239c319e823302b9ff664",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-01-jack-dempsey-with-parents-1920s.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-01-jack-dempsey-with-parents-1920s.png",
+      "bytes": 704840,
+      "sha256": "31e1fceb74189e6dcbfa939001cdf9f8df0019b0d308d122749c1e5984808d22",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-02-jack-dempsey-portrait-ultimo-retrato-del-vencido.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-02-jack-dempsey-portrait-ultimo-retrato-del-vencido.png",
+      "bytes": 801389,
+      "sha256": "800bf3ba1c82182e83a589dce6f3786e4413d8e1b72e45362589d9d71e72b18b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-03-firpo-two-days-before-atlantic-city-fight.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-03-firpo-two-days-before-atlantic-city-fight.png",
+      "bytes": 469889,
+      "sha256": "894b38d4de7203765a89f3a93539fd10cd9143a5826e2dfc21d872b3bade7e8a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-01-severo-and-jose-castillo-on-ponies.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-01-severo-and-jose-castillo-on-ponies.png",
+      "bytes": 1271380,
+      "sha256": "380c4119c9ebf4fa7d91d131680fa7b90d70b2a70d1bb2b9145f7b459136e937",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-02-miguel-gonzalez.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-02-miguel-gonzalez.png",
+      "bytes": 481760,
+      "sha256": "6a373926b91fa401e2323fb774c79d4ef614ed1e3a0ea88be92529e5ac7697c5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-03-ricardo-gonzalez.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-03-ricardo-gonzalez.png",
+      "bytes": 494358,
+      "sha256": "34b18419503a19acf45f95d2a7bcaa2e25df25dadfaf28f402aa88f269543715",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-04-jorge-gonzalez.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-04-jorge-gonzalez.png",
+      "bytes": 186081,
+      "sha256": "2e3181b523eda02ec369b653ae768c9663e5e92efdc20d5de06cf647fc16ad3e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-01-parade-uncle-sam-charro-tijuana.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-01-parade-uncle-sam-charro-tijuana.png",
+      "bytes": 1069836,
+      "sha256": "34b4b64aba2c93b4c6f5368efa3e2585c059a981177d9cc81f8988fbc32e8df5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-02-parade-vintage-cars-san-diego.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-02-parade-vintage-cars-san-diego.png",
+      "bytes": 1026924,
+      "sha256": "64d38786447b260dafc073c9d65f4dd5c46c8cb68608570e5dce2e736410be1b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-01-carros-cargados-de-flor-de-algodon-tirados-por-un-tractor.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-01-carros-cargados-de-flor-de-algodon-tirados-por-un-tractor.png",
+      "bytes": 1008029,
+      "sha256": "a9b61a7ab1059fc42b66dd3d64504fca3080a3214a12f64a2df7019b9d681b9d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-02-portrait-sr-a-m-shenk.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-02-portrait-sr-a-m-shenk.png",
+      "bytes": 320017,
+      "sha256": "04035adf28e702580188a8f2332f65ed87fd4c1ca62e51e5db21d7dbce4b6c25",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-01-canal-alamo-rio-colorado-yuma-arizona.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-01-canal-alamo-rio-colorado-yuma-arizona.png",
+      "bytes": 204252,
+      "sha256": "dccba35671697ee7be2a0549985fc3249f35e6dfa95432a88c0719df649ce8bb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-02-first-cotton-gin-mexicali.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-02-first-cotton-gin-mexicali.png",
+      "bytes": 205406,
+      "sha256": "cdd0490207ebdba35631fe16b8e96bcf40b282bcdc9b84892bee8a3996c4be03",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-03-cotton-bales-ready-for-shipment.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-03-cotton-bales-ready-for-shipment.png",
+      "bytes": 234021,
+      "sha256": "b2405d6dbf55f4df23d070f95b2d5f0438793d4565ac1d9651bb319e72ea86cf",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-04-cotton-field-mexicali-mr-shenk.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-04-cotton-field-mexicali-mr-shenk.png",
+      "bytes": 306700,
+      "sha256": "8a22afefa78af8de627e9af468d6a717207990e9179e71a60e230687a2b1c61b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-05-dredge-ruth-irrigation-canal.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0050/page-0050-image-05-dredge-ruth-irrigation-canal.png",
+      "bytes": 285534,
+      "sha256": "4494f1c27b25c1bba2a6997bf7a4f95c6afa7ee3a60c43bb7c5897b80a7704ec",
       "media_type": "image/png"
     },
     {
@@ -230,10 +1147,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 135,
+    "total_bytes": 147398204,
+    "uploaded": 131,
+    "skipped": 4,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -243,9 +1160,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 30,
+      "scanned": 161,
       "deleted": 0,
-      "skipped": 30,
+      "skipped": 161,
       "errors": []
     }
   }

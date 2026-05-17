@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:15Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 40,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0040.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0040.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "illustration_001",
+      "kind": "illustration",
+      "caption_literal": "PERLAS DE CALIFORNIA\nDibujo de Bolaños Cacho",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "An illustration depicting two women, one holding pearls, accompanying an article about pearls from California. The artist's signature 'BOLAÑOS CACHO' is visible within the illustration.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.0,
+        14.0,
+        88.0,
+        70.0
+      ],
+      "bbox_pixels": [
+        190,
+        259,
+        1225,
+        1321
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0040/page-0040-image-01-illustration-women-with-pearls-bolanos-cacho.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0040/page-0040-image-01-illustration-women-with-pearls-bolanos-cacho.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0040.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 40,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0040.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

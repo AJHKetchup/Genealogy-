@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:19Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 33,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0033.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0033.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_region_0",
+      "kind": "photograph",
+      "caption_literal": "De izquierda a derecha: la silla de German Liszt Arzúbide, Arqueles Vela, Manuel Maples Arce, Salvador Gallardo y Luis Felipe Mena en el “CAFE DE NADIE”, don de se escribieron los “ANDAMIOS INTERIORES”, unas páginas de “LA SEÑORITA ETC.”",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Group photo of literary figures German Liszt Arzúbide, Arqueles Vela, Manuel Maples Arce, Salvador Gallardo, and Luis Felipe Mena at \"CAFE DE NADIE\".",
+      "confidence": "0.95",
+      "inline_anchor": "Image: group_photo_german_liszt_arzubide_arqueles_vela_manuel_maples_arce_salvador_gallardo_luis_felipe_mena_cafe_de_nadie",
+      "bbox_pct": [
+        8.5,
+        15.5,
+        91.5,
+        49.5
+      ],
+      "bbox_pixels": [
+        113,
+        288,
+        1266,
+        935
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0033/page-0033-image-01-group-photo-german-liszt-arzubide-arqueles-vela-manuel-maples-ar.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0033/page-0033-image-01-group-photo-german-liszt-arzubide-arqueles-vela-manuel-maples-ar.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0033.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 33,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0033.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

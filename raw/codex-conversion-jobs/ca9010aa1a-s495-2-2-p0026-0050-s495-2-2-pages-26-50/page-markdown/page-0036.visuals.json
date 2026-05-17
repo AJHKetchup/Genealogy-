@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:21Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 36,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0036.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0036.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "O'Keeffe",
+      "caption_type": "nearby-text",
+      "identity_basis": "signature",
+      "source_context": "Illustration of a woman, with a signature below her feet.",
+      "confidence": "0.9",
+      "inline_anchor": "The first illustration depicts a woman standing, facing right, with her head turned towards the viewer. She is wearing a turban-like head covering, a sleeveless top, and a long, flowing skirt. Her arms are adorned with bracelets. The signature \"O'Keeffe\" is visible below her feet.",
+      "bbox_pct": [
+        69.9,
+        42.0,
+        90.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        969,
+        785,
+        1257,
+        1694
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-01-illustration-woman-okeeffe-signature.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-01-illustration-woman-okeeffe-signature.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0036.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 36,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0036.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-description",
+      "source_context": "Illustration of a man kneeling and holding a money bag.",
+      "confidence": "0.9",
+      "inline_anchor": "The second illustration, positioned below the first, shows a man kneeling on one knee, facing left. He is wearing a suit and is holding a small bag with a dollar sign on it, presenting it with both hands. He has a wide smile on his face.",
+      "bbox_pct": [
+        50.0,
+        42.0,
+        90.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        692,
+        785,
+        1257,
+        1694
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-02-illustration-man-kneeling-money-bag.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0036/page-0036-image-02-illustration-man-kneeling-money-bag.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0036.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 36,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0036.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

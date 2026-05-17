@@ -1,0 +1,166 @@
+{
+  "created": "2026-05-17T09:16:04Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 20,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0020.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0020.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "DURANT, $3,000\n“Un coche verdaderamente bueno”",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "Large image of a car with its model and price.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.9,
+        13.9,
+        35.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        147,
+        257,
+        489,
+        1673
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-01-durant-car-1920s-large.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-01-durant-car-1920s-large.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0020.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 20,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0020.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "photograph",
+      "caption_literal": "STAR\n$2,225.00\n\nEl único automóvil chico con\ntodas las características de los\ngrandes.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "Small image of a Star car, likely a sedan or coupe, with its price and description.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        36.0,
+        13.9,
+        51.0,
+        35.0
+      ],
+      "bbox_pixels": [
+        495,
+        257,
+        710,
+        660
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-02-star-car-sedan-2225.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-02-star-car-sedan-2225.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0020.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 20,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0020.md"
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "photograph",
+      "caption_literal": "STAR\n$1,600.00\n\nEl único automóvil chico con\ntodas las características de los\ngrandes.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "Small image of a Star car, likely a touring car or roadster, with its price and description.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        36.0,
+        65.7,
+        51.0,
+        88.0
+      ],
+      "bbox_pixels": [
+        495,
+        1228,
+        710,
+        1654
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-03-star-car-touring-1600.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-03-star-car-touring-1600.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0020.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 20,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0020.md"
+    },
+    {
+      "region_id": "vr_4",
+      "kind": "photograph",
+      "caption_literal": "STAR\n$2,000.00\n\nEl único automóvil chico con\ntodas las características de los\ngrandes.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "Small image of a Star car, likely a coupe, with its price and description.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        54.5,
+        13.9,
+        69.5,
+        35.0
+      ],
+      "bbox_pixels": [
+        751,
+        257,
+        967,
+        660
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-04-star-car-coupe-2000.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-04-star-car-coupe-2000.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0020.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 20,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0020.md"
+    },
+    {
+      "region_id": "vr_5",
+      "kind": "photograph",
+      "caption_literal": "STAR\n$1,550.00\n\nEl único automóvil chico con\ntodas las características de los\ngrandes.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "Small image of a Star car, likely a roadster, with its price and description.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        54.5,
+        65.7,
+        69.5,
+        88.0
+      ],
+      "bbox_pixels": [
+        751,
+        1228,
+        967,
+        1654
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-05-star-car-roadster-1550.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0020/page-0020-image-05-star-car-roadster-1550.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0020.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 20,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0020.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

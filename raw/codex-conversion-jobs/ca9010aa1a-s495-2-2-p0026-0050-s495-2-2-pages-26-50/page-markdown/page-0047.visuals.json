@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-17T09:16:30Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 47,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0047.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0047.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "photo-1",
+      "kind": "photograph",
+      "caption_literal": "Niños Severo y José Castillo, de Mexicali, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The first part of the caption at the bottom of the page identifies the two boys in this photograph.",
+      "confidence": "high",
+      "inline_anchor": "[[photo-1]]",
+      "bbox_pct": [
+        12.5,
+        10.1,
+        87.5,
+        47.0
+      ],
+      "bbox_pixels": [
+        171,
+        185,
+        1226,
+        882
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-01-severo-and-jose-castillo-on-ponies.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-01-severo-and-jose-castillo-on-ponies.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0047.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 47,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0047.md"
+    },
+    {
+      "region_id": "photo-2",
+      "kind": "photograph",
+      "caption_literal": "Niño Miguel González, de Tijuana, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The second part of the caption at the bottom of the page identifies this child, following a top-to-bottom, left-to-right reading order of the photos.",
+      "confidence": "high",
+      "inline_anchor": "[[photo-2]]",
+      "bbox_pct": [
+        12.6,
+        53.2,
+        47.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        172,
+        990,
+        661,
+        1593
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-02-miguel-gonzalez.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-02-miguel-gonzalez.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0047.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 47,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0047.md"
+    },
+    {
+      "region_id": "photo-3",
+      "kind": "photograph",
+      "caption_literal": "Niño Ricardo González, de Tijuana, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The third part of the caption at the bottom of the page identifies this child, following a top-to-bottom, left-to-right reading order of the photos.",
+      "confidence": "high",
+      "inline_anchor": "[[photo-3]]",
+      "bbox_pct": [
+        53.0,
+        53.2,
+        87.4,
+        85.0
+      ],
+      "bbox_pixels": [
+        736,
+        990,
+        1225,
+        1593
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-03-ricardo-gonzalez.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-03-ricardo-gonzalez.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0047.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 47,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0047.md"
+    },
+    {
+      "region_id": "photo-4",
+      "kind": "photograph",
+      "caption_literal": "Niño Jorge Gonzál[ez].",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The fourth part of the caption at the bottom of the page identifies this child, following a top-to-bottom, left-to-right reading order of the photos.",
+      "confidence": "high",
+      "inline_anchor": "[[photo-4]]",
+      "bbox_pct": [
+        47.5,
+        64.6,
+        67.5,
+        85.0
+      ],
+      "bbox_pixels": [
+        660,
+        1203,
+        947,
+        1593
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-04-jorge-gonzalez.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0047/page-0047-image-04-jorge-gonzalez.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0047.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 47,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0047.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

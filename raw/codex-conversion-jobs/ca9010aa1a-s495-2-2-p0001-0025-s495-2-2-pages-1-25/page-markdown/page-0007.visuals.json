@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:21Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 7,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0007.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0007.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": ".... y para Bebe\nLA FOSFATINA\nFALIÈRES\nEl mejor alimento de los niños. Forma\ncon la leche una papilla deliciosa y forti-\nficante, necesaria para el destete y durante\nel desarrollo. Conviene á los estómagos\ndelicados.\nExigir la marca: FOSFATINA FALIÈRES\nEn todas las Farmacias y tiendas de\nComestibles.—París, 6, Rue de la Tacherie\nFALIÈRES JOUY BAIDER",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "Advertisement for La Fosfatina Falières, showing babies and product.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.44,
+        41.67,
+        64.44,
+        63.33
+      ],
+      "bbox_pixels": [
+        196,
+        774,
+        896,
+        1187
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-01-la-fosfatina-falieres-ad-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-01-la-fosfatina-falieres-ad-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0007.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 7,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0007.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "GANGA DE IMPERMEABLES\nDEL EJERCITO\nDE PESO LIVIANO Y RESISTENTES\nPRECIO REDUCIDO\n$4.85",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "Advertisement for 'Ganga de Impermeables', showing a man in a coat.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        72.22,
+        39.17,
+        83.33,
+        50.0
+      ],
+      "bbox_pixels": [
+        996,
+        728,
+        1158,
+        938
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-02-ganga-de-impermeables-ad-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0007/page-0007-image-02-ganga-de-impermeables-ad-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0007.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 7,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0007.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

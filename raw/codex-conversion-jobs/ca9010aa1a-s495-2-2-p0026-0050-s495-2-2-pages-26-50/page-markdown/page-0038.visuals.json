@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-17T09:16:05Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 38,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0038.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0038.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "Señorita C. Victoria.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Señorita C. Victoria.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        17.3,
+        15.0,
+        45.5,
+        41.9
+      ],
+      "bbox_pixels": [
+        238,
+        277,
+        640,
+        788
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-01-se-orita-c-victoria.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-01-se-orita-c-victoria.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0038.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 38,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0038.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "photograph",
+      "caption_literal": "Señorita E. Golbaum.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Señorita E. Golbaum.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        17.0,
+        59.5,
+        64.0,
+        90.5
+      ],
+      "bbox_pixels": [
+        233,
+        1110,
+        898,
+        1698
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-02-se-orita-e-golbaum.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-02-se-orita-e-golbaum.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0038.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 38,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0038.md"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "photograph",
+      "caption_literal": "Señorita Beatriz Cota.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Señorita Beatriz Cota.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        54.9,
+        13.0,
+        88.3,
+        47.9
+      ],
+      "bbox_pixels": [
+        763,
+        239,
+        1238,
+        901
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-03-se-orita-beatriz-cota.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-03-se-orita-beatriz-cota.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0038.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 38,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0038.md"
+    },
+    {
+      "region_id": "visual_004",
+      "kind": "photograph",
+      "caption_literal": "Señorita María Antonia Cota",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Señorita María Antonia Cota",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        62.5,
+        50.0,
+        83.0,
+        75.0
+      ],
+      "bbox_pixels": [
+        869,
+        932,
+        1164,
+        1408
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-04-se-orita-maria-antonia-cota.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0038/page-0038-image-04-se-orita-maria-antonia-cota.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0038.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 38,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0038.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

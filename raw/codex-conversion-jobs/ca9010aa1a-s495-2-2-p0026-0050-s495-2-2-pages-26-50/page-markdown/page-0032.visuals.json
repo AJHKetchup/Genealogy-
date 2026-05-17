@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:16Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 32,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0032.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0032.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Manuel Maples Arce, el revolucionario\nde nuestra poética, en una \"pose\" clásica\nde nuestro fotógrafo Fernando\nSosa.—El poeta creador del ESTRI-\nDENTISMO, en su biblioteca.",
+      "caption_type": "source-caption",
+      "identity_basis": "name-in-caption",
+      "source_context": "The caption identifies the man in the photograph as Manuel Maples Arce, a poet and creator of Estridentismo, in his library.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        24.5,
+        14.0,
+        75.5,
+        75.0
+      ],
+      "bbox_pixels": [
+        335,
+        259,
+        1050,
+        1415
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0032/page-0032-image-01-manuel-maples-arce-in-his-library.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0032/page-0032-image-01-manuel-maples-arce-in-his-library.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0032.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 32,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0032.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

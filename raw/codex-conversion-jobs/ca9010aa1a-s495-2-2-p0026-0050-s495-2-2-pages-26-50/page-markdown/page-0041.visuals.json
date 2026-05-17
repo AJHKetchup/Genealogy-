@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:14Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 41,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0041.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0041.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "BALANO\nCACHO",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a person examining pearls, with a signature below.",
+      "confidence": "0.95",
+      "inline_anchor": "The first illustration, located in the upper half of the page between the two text columns, depicts a person, possibly a jeweler or pearl merchant, seated at a table and examining pearls. Various tools and containers are on the table. Below the illustration, the name \"BALANO CACHO\" is written, likely a signature.",
+      "bbox_pct": [
+        16.9,
+        39.2,
+        35.0,
+        60.0
+      ],
+      "bbox_pixels": [
+        228,
+        733,
+        485,
+        1133
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-01-illustration-person-examining-pearls.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-01-illustration-person-examining-pearls.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0041.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 41,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0041.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a lighthouse.",
+      "confidence": "0.95",
+      "inline_anchor": "The second illustration, spanning both columns at the bottom of the page, shows a lighthouse on a rocky outcrop, with waves crashing around its base. A small boat or ship is visible in the distance to the right of the lighthouse.",
+      "bbox_pct": [
+        71.5,
+        29.0,
+        89.0,
+        79.0
+      ],
+      "bbox_pixels": [
+        978,
+        541,
+        1227,
+        1490
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-02-illustration-lighthouse.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0041/page-0041-image-02-illustration-lighthouse.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0041.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 41,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0041.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

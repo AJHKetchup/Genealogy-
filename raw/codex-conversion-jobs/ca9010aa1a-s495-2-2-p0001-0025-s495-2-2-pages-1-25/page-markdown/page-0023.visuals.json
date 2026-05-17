@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:22Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 23,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0023.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0023.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "el-universal-ilustrado-masthead-illustration",
+      "kind": "illustration",
+      "caption_literal": "Large illustration spanning the top of the page, featuring a woman seated on a bench, holding a flower, with a tree and foliage above her. The title 'EL UNIVERSAL ILUSTRADO' is integrated into the foliage. Below the woman, on the left, is a block of text: 'SEMANARIO ARTISTICO POPULAR'.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-elements",
+      "source_context": "Main masthead illustration for the publication.",
+      "confidence": "5",
+      "inline_anchor": "[[el-universal-ilustrado-masthead-illustration]]",
+      "bbox_pct": [
+        10.0,
+        8.0,
+        90.0,
+        50.0
+      ],
+      "bbox_pixels": [
+        134,
+        146,
+        1248,
+        942
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0023/page-0023-image-01-el-universal-ilustrado-masthead-woman-tree-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0023/page-0023-image-01-el-universal-ilustrado-masthead-woman-tree-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0023.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 23,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0023.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:04Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 21,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0021.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0021.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "illustration",
+      "caption_literal": "LA FEMME CHIC\nLA FEMME CHIC\nTIENE UN VESTIDO PARA MI\nD.T.P. EL UNIVERSAL\nGomez Linares",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration for 'LA FEMME CHIC' advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "The top advertisement features a large illustration of a stylized doll-like figure wearing a uniform with a hat and holding two large round boxes.",
+      "bbox_pct": [
+        15.0,
+        10.0,
+        85.0,
+        60.0
+      ],
+      "bbox_pixels": [
+        203,
+        184,
+        1179,
+        1129
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-01-la-femme-chic-doll-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-01-la-femme-chic-doll-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0021.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 21,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0021.md"
+    },
+    {
+      "region_id": "visreg_2",
+      "kind": "photograph",
+      "caption_literal": "Ana de Gómez Mayorga",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Portrait of Ana de Gómez Mayorga for her advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "The bottom advertisement includes a black and white portrait photograph of a woman, shown from the chest up, looking slightly to her right.",
+      "bbox_pct": [
+        9.9,
+        68.0,
+        30.0,
+        88.0
+      ],
+      "bbox_pixels": [
+        133,
+        1271,
+        419,
+        1654
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-02-ana-de-gomez-mayorga-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0021/page-0021-image-02-ana-de-gomez-mayorga-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0021.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 21,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0021.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

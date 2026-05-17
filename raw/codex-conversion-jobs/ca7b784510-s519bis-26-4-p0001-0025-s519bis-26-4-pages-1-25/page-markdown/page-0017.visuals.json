@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-17T09:19:36Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json",
+  "page": 17,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0017.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-markdown/page-0017.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "el Sr. Nopun [?] afelin [?]",
+      "source_context": "Handwritten inscription at the top of the page."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "decorative_element",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "",
+      "source_context": "Decorative emblem centered on the page."
+    }
+  ],
+  "flags": []
+}

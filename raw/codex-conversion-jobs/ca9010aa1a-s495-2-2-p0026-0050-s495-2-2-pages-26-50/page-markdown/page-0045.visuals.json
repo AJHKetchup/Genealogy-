@@ -1,0 +1,166 @@
+{
+  "created": "2026-05-17T09:16:38Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 45,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0045.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0045.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "p0045_i01",
+      "kind": "photograph",
+      "caption_literal": "Palacio del Gobierno de la\nciudad de Mexicali, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A photograph of the Government Palace in Mexicali, a large three-story building with a fountain.",
+      "confidence": "high",
+      "inline_anchor": "[SEE_VISUAL_p0045_i01]",
+      "bbox_pct": [
+        11.3,
+        11.3,
+        64.1,
+        26.2
+      ],
+      "bbox_pixels": [
+        151,
+        206,
+        882,
+        491
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-01-p0045-i01-palacio-del-gobierno-mexicali.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-01-p0045-i01-palacio-del-gobierno-mexicali.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0045.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 45,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0045.md"
+    },
+    {
+      "region_id": "p0045_i02",
+      "kind": "photograph",
+      "caption_literal": "Una vista de la calle de Azueta, de\nMexicali.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A high-angle photograph of Calle Azueta in Mexicali, showing buildings and an unpaved street.",
+      "confidence": "high",
+      "inline_anchor": "[SEE_VISUAL_p0045_i02]",
+      "bbox_pct": [
+        27.2,
+        27.2,
+        90.1,
+        42.1
+      ],
+      "bbox_pixels": [
+        369,
+        502,
+        1238,
+        787
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-02-p0045-i02-calle-azueta-mexicali.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-02-p0045-i02-calle-azueta-mexicali.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0045.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 45,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0045.md"
+    },
+    {
+      "region_id": "p0045_i03",
+      "kind": "photograph",
+      "caption_literal": "Un aspecto de los festivales cele-\nbrados en Mexicali, al inaugu-\nrarse la “Escuela Cuauhtemoc”.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A circular photograph showing a crowd and cars at the inauguration festival for the Escuela Cuauhtemoc.",
+      "confidence": "high",
+      "inline_anchor": "[SEE_VISUAL_p0045_i03]",
+      "bbox_pct": [
+        14.3,
+        29.2,
+        51.1,
+        62.1
+      ],
+      "bbox_pixels": [
+        192,
+        539,
+        704,
+        1159
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-03-p0045-i03-escuela-cuauhtemoc-inauguration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-03-p0045-i03-escuela-cuauhtemoc-inauguration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0045.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 45,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0045.md"
+    },
+    {
+      "region_id": "p0045_i04",
+      "kind": "photograph",
+      "caption_literal": "Vista parcial de\nla ciudad de\nMexicali.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A high-angle, partial view of the city of Mexicali, dated 1917.",
+      "confidence": "high",
+      "inline_anchor": "[SEE_VISUAL_p0045_i04]",
+      "bbox_pct": [
+        39.2,
+        50.1,
+        90.1,
+        71.1
+      ],
+      "bbox_pixels": [
+        533,
+        928,
+        1238,
+        1326
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-04-p0045-i04-vista-parcial-mexicali-1917.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-04-p0045-i04-vista-parcial-mexicali-1917.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0045.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 45,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0045.md"
+    },
+    {
+      "region_id": "p0045_i05",
+      "kind": "photograph",
+      "caption_literal": "Otra fotografía\nde la calle\nAzueta, la prin-\ncipal arteria de\nla ciudad de\nMexicali.",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A street-level photograph of Calle Azueta, showing buildings including the 'Black Cat Bar and Cabaret'.",
+      "confidence": "high",
+      "inline_anchor": "[SEE_VISUAL_p0045_i05]",
+      "bbox_pct": [
+        11.3,
+        65.2,
+        64.1,
+        90.1
+      ],
+      "bbox_pixels": [
+        151,
+        1209,
+        882,
+        1680
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-05-p0045-i05-calle-azueta-black-cat-bar.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0045/page-0045-image-05-p0045-i05-calle-azueta-black-cat-bar.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0045.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 45,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0045.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,204 @@
+{
+  "created": "2026-05-17T09:16:16Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 6,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Los Callos Huyen cuando son tocados con “Gets-It.” Como una esponja embebe el agua, “GETS-IT” absorbe todos los dolores.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Adios, Callos! Dice “Gets-It” advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a man with a pained expression, holding his foot, while a product is applied to a callus.",
+      "bbox_pct": [
+        15.0,
+        13.0,
+        33.0,
+        33.0
+      ],
+      "bbox_pixels": [
+        205,
+        239,
+        463,
+        620
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-01-adios-callos-man-with-foot.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-01-adios-callos-man-with-foot.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 6,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "Todas las personas pueden adquirir una cabellera abundante si cuidan su cabello científicamente. La ciencia moderna ofrece",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "El Derecho de Todo Mundo / Newbro’s Herpicide advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a woman with voluminous, styled hair, looking forward.",
+      "bbox_pct": [
+        47.0,
+        69.0,
+        66.0,
+        87.0
+      ],
+      "bbox_pixels": [
+        650,
+        1285,
+        923,
+        1629
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-02-el-derecho-de-todo-mundo-woman-hair.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-02-el-derecho-de-todo-mundo-woman-hair.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 6,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Adios, Callos! Dice “Gets-It” advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a bare foot with a callus, next to the text “GETS-IT”.",
+      "bbox_pct": [
+        33.0,
+        29.0,
+        42.0,
+        34.0
+      ],
+      "bbox_pixels": [
+        455,
+        538,
+        589,
+        639
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-03-gets-it-foot-with-callus.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-03-gets-it-foot-with-callus.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 6,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "illustration",
+      "caption_literal": "Todas las personas pueden adquirir una cabellera abundante si cuidan su cabello científicamente. La ciencia moderna ofrece",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "El Derecho de Todo Mundo / Newbro’s Herpicide advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a woman with voluminous, styled hair, looking forward.",
+      "bbox_pct": [
+        65.0,
+        13.0,
+        89.0,
+        37.0
+      ],
+      "bbox_pixels": [
+        901,
+        239,
+        1243,
+        695
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-04-el-derecho-de-todo-mundo-woman-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-04-el-derecho-de-todo-mundo-woman-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 6,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md"
+    },
+    {
+      "region_id": "region_5",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Pastillas Tónico-Nervina “Mitchella” advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a bearded man in profile, looking at a hand.",
+      "bbox_pct": [
+        65.0,
+        67.0,
+        90.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        901,
+        1248,
+        1257,
+        1667
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-05-pastillas-tonico-nervina-man-beard.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-05-pastillas-tonico-nervina-man-beard.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 6,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md"
+    },
+    {
+      "region_id": "region_6",
+      "kind": "illustration",
+      "caption_literal": "CATARROS antiguos y recientes TOSES, BRONQUITIS radicalmente CURADAS POR LA SOLUCION PAUTAUBERGE que procura Pulmones robustos, despierta el Apetito, aumenta las Fuerzas, seca las Secreciones y preserva de la TUBERCULOSIS",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "SOLUCION PAUTAUBERGE advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a woman holding a bottle of “SOLUCION PAUTAUBERGE”.",
+      "bbox_pct": [
+        40.0,
+        40.0,
+        73.0,
+        63.0
+      ],
+      "bbox_pixels": [
+        553,
+        743,
+        1020,
+        1181
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-06-solucion-pautauberge-woman-bottle.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0006/page-0006-image-06-solucion-pautauberge-woman-bottle.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0006.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 6,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0006.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_7",
+      "kind": "graphic",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "TONICO ORIENTAL Para el Cabello Perfuma, Suaviza y Hermosea el Cabello y la Barba",
+      "source_context": "TONICO ORIENTAL advertisement"
+    }
+  ],
+  "flags": []
+}

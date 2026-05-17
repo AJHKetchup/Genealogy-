@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:16:14Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 42,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0042.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0042.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Un paisaje del rancho “El Rayo”, en la sierra de “El Pinal”, B. C.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image is a landscape photograph with a caption identifying it as a scene from \"El Rayo\" ranch in the \"El Pinal\" mountain range, Baja California.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        12.5,
+        26.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        135,
+        230,
+        366,
+        1670
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-01-paisaje-rancho-el-rayo-el-pinal-bc.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-01-paisaje-rancho-el-rayo-el-pinal-bc.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0042.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 42,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0042.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "PALACIO DE GOBIERNO MEXICALI B. C. FOTO. 1916.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image is a photograph of a building with a caption identifying it as the Government Palace in Mexicali, B.C., taken in 1916.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        38.9,
+        13.7,
+        61.0,
+        62.0
+      ],
+      "bbox_pixels": [
+        538,
+        252,
+        854,
+        1165
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-02-palacio-de-gobierno-mexicali-bc-1916.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-02-palacio-de-gobierno-mexicali-bc-1916.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0042.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 42,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0042.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Uno de los más frecuentes paisajes en tierras californianas: con las palmas de taquito y abanico.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image is a landscape photograph with a caption describing it as a common Californian landscape with 'taquito' and 'abanico' palms.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        72.7,
+        14.0,
+        89.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        1009,
+        258,
+        1245,
+        1595
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-03-paisaje-californiano-palmas-taquito-abanico.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0042/page-0042-image-03-paisaje-californiano-palmas-taquito-abanico.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0042.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 42,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0042.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

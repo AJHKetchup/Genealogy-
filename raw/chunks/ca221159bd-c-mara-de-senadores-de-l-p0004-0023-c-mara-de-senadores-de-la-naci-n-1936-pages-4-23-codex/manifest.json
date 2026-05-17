@@ -1,0 +1,95 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23.codex.md",
+  "converted_sha256": "1d4d242aec8dafcd09328fd60a010d0e83171570d3266f02fdc99621513855d0",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0006-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0006-chunk-01.md",
+      "page_start": 6,
+      "page_end": 6,
+      "part": 1,
+      "chars": 1849,
+      "sha256": "fa3bef56af132fe6d960cecc5febde1ecb6661c88819f2172c6ae16d228e516b"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0007-01",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0007-chunk-01.md",
+      "page_start": 7,
+      "page_end": 7,
+      "part": 1,
+      "chars": 2427,
+      "sha256": "d73407af2099d6361a8f5f927662ac1985f4b17196fd963955d9fafab200a0f8"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0008-01",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0008-chunk-01.md",
+      "page_start": 8,
+      "page_end": 8,
+      "part": 1,
+      "chars": 4987,
+      "sha256": "5469d9e249f3737824859baeb04cd9909232655964a5d52293c47ec01d8a67aa"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0009-01",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0009-chunk-01.md",
+      "page_start": 9,
+      "page_end": 9,
+      "part": 1,
+      "chars": 5638,
+      "sha256": "e4f54280c9c15a397e715082e34a551e7be45ad873cfe1c7d6d80c1a66ad7d29"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0010-01",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0010-chunk-01.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 1,
+      "chars": 10585,
+      "sha256": "e1153012f439d11fed1130fcaa22fd2cd204c61cae8b15cc3d39a4ea27de6269"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0010-02",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0010-chunk-02.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 2,
+      "chars": 11664,
+      "sha256": "f7828d54534f6776463ebf8dce6c7a0ecb605473e675cdac62bb17a3a3c5af4f"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0010-03",
+      "chunk_number": 7,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0010-chunk-03.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 3,
+      "chars": 11761,
+      "sha256": "97c14fd45865daa981ca7bdd70013743355a53c3769c57f69f69e954c9f098d5"
+    },
+    {
+      "chunk_id": "CHUNK-1d4d242aec8d-P0010-04",
+      "chunk_number": 8,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex/page-0010-chunk-04.md",
+      "page_start": 10,
+      "page_end": 10,
+      "part": 4,
+      "chars": 10325,
+      "sha256": "4813147e71c9b244ccb15b6114ab37e5550d647c21eddadc0e3312366d04c8c9"
+    }
+  ]
+}

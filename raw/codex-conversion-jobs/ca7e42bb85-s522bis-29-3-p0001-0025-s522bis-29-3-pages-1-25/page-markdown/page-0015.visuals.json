@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-17T09:15:56Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json",
+  "page": 15,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/page-images/page-0015.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/page-markdown/page-0015.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vis_001",
+      "kind": "signature",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Juliánhoqueira",
+      "source_context": "The handwritten signature at the bottom right of the letter."
+    }
+  ],
+  "flags": []
+}

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:15Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 35,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0035.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0035.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "El pie de esta fotografía, que tomamos de un periódico español, dice así: \"Nuevamente en las estaciones se desarrollan las patéticas escenas de las despedidas... Parten los trenes llenos de soldados enardecidos de juvenil entusiasmo... Una vez más, a la labor negativa de los gobernantes, España responde generosamente, dando sus hijos para la guerra...\"",
+      "caption_type": "source-caption",
+      "identity_basis": "text",
+      "source_context": "Image showing a crowd at a station, described as farewells for soldiers.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        40.5,
+        7.5,
+        91.5,
+        40.5
+      ],
+      "bbox_pixels": [
+        556,
+        137,
+        1269,
+        765
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-01-crowd-at-station-farewell-soldiers.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-01-crowd-at-station-farewell-soldiers.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0035.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 35,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0035.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Otra vez se ha reanudado el episodio de los convoyes dramáticos.... Este que sale de Dar Quebdani para abastecer a Tifaudi, cercado, paga culpas de impericia con sangre de los soldados españoles.",
+      "caption_type": "source-caption",
+      "identity_basis": "text",
+      "source_context": "Image showing a convoy in a landscape, described as supplying Tifaudi.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.5,
+        67.5,
+        90.5,
+        90.5
+      ],
+      "bbox_pixels": [
+        141,
+        1264,
+        1255,
+        1704
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-02-convoy-dar-quebdani-tifaudi.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0035/page-0035-image-02-convoy-dar-quebdani-tifaudi.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0035.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 35,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0035.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

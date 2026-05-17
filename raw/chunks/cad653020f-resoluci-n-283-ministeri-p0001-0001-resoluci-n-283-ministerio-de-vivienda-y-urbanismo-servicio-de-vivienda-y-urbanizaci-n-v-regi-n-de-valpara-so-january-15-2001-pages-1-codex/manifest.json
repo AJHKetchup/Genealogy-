@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/cad653020f-resoluci-n-283-ministeri-p0001-0001-resoluci-n-283-ministerio-de-vivienda-y-urbanismo-servicio-de-vivienda-y-urbanizaci-n-v-regi-n-de-valpara-so-january-15-2001-pages-1.codex.md",
+  "converted_sha256": "a2273412e7b1406d53af3795aa596fad61b27faa7d56d0bbe6d4660b6c06156b",
+  "source": "raw/sources/Resolución 283, Ministerio de Vivienda y Urbanismo; Servicio de Vivienda y Urbanización; V Región de Valparaíso, January 15, 2001.pdf",
+  "source_sha256": "d653020f98e975d872bd1999e7b645630647b07afbe1b2567c6c82818056fb39",
+  "source_manifest": "raw/codex-conversion-jobs/cad653020f-resoluci-n-283-ministeri-p0001-0001-resoluci-n-283-ministerio-de-vivienda-y-urbanismo-servicio-de-vivienda-y-urbanizaci-n-v-regi-n-de-valpara-so-january-15-2001-pages-1/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-a2273412e7b1-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/cad653020f-resoluci-n-283-ministeri-p0001-0001-resoluci-n-283-ministerio-de-vivienda-y-urbanismo-servicio-de-vivienda-y-urbanizaci-n-v-regi-n-de-valpara-so-january-15-2001-pages-1-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 4168,
+      "sha256": "d778aef1232d7cc0cd4607108912c462d9de7e53ceb172a2c0404a1ef601dea1"
+    }
+  ]
+}

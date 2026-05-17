@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:15:29Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json",
+  "page": 38,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-images/page-0038.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-markdown/page-0038.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "A large, stylized illustration in red ink depicting multiple Red Cross symbols amidst swirling forms.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The main visual element at the top of the title page.",
+      "confidence": "1.0",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.9,
+        18.0,
+        31.0,
+        81.9
+      ],
+      "bbox_pixels": [
+        105,
+        256,
+        313,
+        1188
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-01-red-cross-illustration-1928.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-01-red-cross-illustration-1928.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-images/page-0038.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json",
+      "page": 38,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-markdown/page-0038.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "stamp",
+      "caption_literal": "RECEIVED\nREGISTRY\n27. OCT 1928",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Stamp overlaid on the top right of the illustration.",
+      "confidence": "1.0",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.0,
+        65.0,
+        22.0,
+        77.0
+      ],
+      "bbox_pixels": [
+        136,
+        936,
+        223,
+        1117
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-02-received-registry-stamp-1928.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/extracted-images/page-0038/page-0038-image-02-received-registry-stamp-1928.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-images/page-0038.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json",
+      "page": 38,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-markdown/page-0038.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

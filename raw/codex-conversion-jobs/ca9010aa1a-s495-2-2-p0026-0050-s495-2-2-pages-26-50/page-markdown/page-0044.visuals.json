@@ -1,0 +1,196 @@
+{
+  "created": "2026-05-17T09:16:26Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 44,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "Señorita Belem Vega.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption-text-match",
+      "source_context": "Top-left rectangular portrait.",
+      "confidence": "1.0",
+      "inline_anchor": "Portrait of Señorita Belem Vega",
+      "bbox_pct": [
+        14.01,
+        12.12,
+        41.33,
+        41.34
+      ],
+      "bbox_pixels": [
+        192,
+        221,
+        581,
+        773
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-01-portrait-senorita-belem-vega.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-01-portrait-senorita-belem-vega.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 44,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "photograph",
+      "caption_literal": "Señorita Dolores Sosa y Silva.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption-text-match",
+      "source_context": "Top-right rectangular portrait.",
+      "confidence": "1.0",
+      "inline_anchor": "Portrait of Señorita Dolores Sosa y Silva",
+      "bbox_pct": [
+        59.48,
+        13.54,
+        82.66,
+        32.79
+      ],
+      "bbox_pixels": [
+        827,
+        248,
+        1159,
+        614
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-02-portrait-senorita-dolores-sosa-y-silva.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-02-portrait-senorita-dolores-sosa-y-silva.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 44,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md"
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "photograph",
+      "caption_literal": "Señora Catalina L. de Verdugo.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption-text-match",
+      "source_context": "Middle-left oval portrait.",
+      "confidence": "1.0",
+      "inline_anchor": "Portrait of Señora Catalina L. de Verdugo",
+      "bbox_pct": [
+        14.11,
+        35.64,
+        41.33,
+        54.88
+      ],
+      "bbox_pixels": [
+        193,
+        659,
+        581,
+        1025
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-03-portrait-senora-catalina-l-de-verdugo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-03-portrait-senora-catalina-l-de-verdugo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 44,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md"
+    },
+    {
+      "region_id": "vr_4",
+      "kind": "photograph",
+      "caption_literal": "Señorita Emma Castillo.—Se- ñorita Eustalia Esquer.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption-text-match",
+      "source_context": "Middle-center-top oval portrait. The caption below the second central image lists two names, likely referring to this image and the one below it.",
+      "confidence": "0.9",
+      "inline_anchor": "Portrait of Señorita Emma Castillo",
+      "bbox_pct": [
+        44.35,
+        24.23,
+        58.47,
+        41.34
+      ],
+      "bbox_pixels": [
+        616,
+        447,
+        821,
+        773
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-04-portrait-senorita-emma-castillo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-04-portrait-senorita-emma-castillo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 44,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md"
+    },
+    {
+      "region_id": "vr_5",
+      "kind": "photograph",
+      "caption_literal": "Señorita Emma Castillo.—Se- ñorita Eustalia Esquer.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption-text-match",
+      "source_context": "Middle-center-bottom rectangular portrait. The caption below this image lists two names, likely referring to this image and the one above it.",
+      "confidence": "0.9",
+      "inline_anchor": "Portrait of Señorita Eustalia Esquer",
+      "bbox_pct": [
+        44.35,
+        44.19,
+        58.47,
+        61.3
+      ],
+      "bbox_pixels": [
+        616,
+        818,
+        821,
+        1144
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-05-portrait-senorita-eustalia-esquer.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-05-portrait-senorita-eustalia-esquer.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 44,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md"
+    },
+    {
+      "region_id": "vr_6",
+      "kind": "photograph",
+      "caption_literal": "Señorita María Enriqueta Saravia.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption-text-match",
+      "source_context": "Middle-right oval portrait.",
+      "confidence": "1.0",
+      "inline_anchor": "Portrait of Señorita María Enriqueta Saravia",
+      "bbox_pct": [
+        62.5,
+        35.64,
+        86.69,
+        54.88
+      ],
+      "bbox_pixels": [
+        869,
+        659,
+        1215,
+        1025
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-06-portrait-senorita-maria-enriqueta-saravia.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0044/page-0044-image-06-portrait-senorita-maria-enriqueta-saravia.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0044.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 44,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0044.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

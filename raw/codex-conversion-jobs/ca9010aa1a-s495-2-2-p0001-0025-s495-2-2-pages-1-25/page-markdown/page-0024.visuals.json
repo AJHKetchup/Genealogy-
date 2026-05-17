@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:23Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 24,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0024.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0024.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "p0024-001",
+      "kind": "photograph",
+      "caption_literal": "Esta fotografía—que pasará a la Historia—muestra al señor Presidente de la República, General Alvaro Obregón, con sus dos colaboradores, el señor De la Huerta y el General Serrano, pocos minutos después de haberse dado el “Grito”, la noche del 15 de septiembre último. Es, por tanto, la más reciente fotografía de nuestro Primer Magistrado. (Fot. Abitia.)",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The caption identifies the central figure as President General Alvaro Obregón, accompanied by his collaborators, Mr. De la Huerta and General Serrano.",
+      "confidence": "high",
+      "inline_anchor": "[[p0024-001]]",
+      "bbox_pct": [
+        14.5,
+        11.8,
+        85.5,
+        86.5
+      ],
+      "bbox_pixels": [
+        199,
+        217,
+        1198,
+        1621
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0024/page-0024-image-01-p0024-001-obregon-de-la-huerta-serrano.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0024/page-0024-image-01-p0024-001-obregon-de-la-huerta-serrano.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0024.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 24,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0024.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

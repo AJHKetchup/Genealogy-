@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:09Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 48,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0048.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0048.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "El paseo cívico de los festivales. Al\nfrente del cual se puede ver\nal Tío Sam y el charro mexicano,\npresidiendo el desfile fraterna-\nmente.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Top photograph on the page, depicting a parade led by figures representing Uncle Sam and a Mexican charro.",
+      "confidence": "0.95",
+      "inline_anchor": "El paseo cívico de los festivales. Al\nfrente del cual se puede ver\nal Tío Sam y el charro mexicano,\npresidiendo el desfile fraterna-\nmente.",
+      "bbox_pct": [
+        17.0,
+        11.0,
+        83.0,
+        40.0
+      ],
+      "bbox_pixels": [
+        229,
+        202,
+        1141,
+        752
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-01-parade-uncle-sam-charro-tijuana.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-01-parade-uncle-sam-charro-tijuana.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0048.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 48,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0048.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "photograph",
+      "caption_literal": "Un aspecto de los festivales que se ve-\nrificaron en San Diego, E. U., con\nmotivo del reconocimiento de nues-\ntro Gobierno.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Bottom photograph on the page, showing a parade with vintage cars in San Diego, E.U.",
+      "confidence": "0.95",
+      "inline_anchor": "Un aspecto de los festivales que se ve-\nrificaron en San Diego, E. U., con\nmotivo del reconocimiento de nues-\ntro Gobierno.",
+      "bbox_pct": [
+        17.0,
+        51.0,
+        83.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        229,
+        949,
+        1141,
+        1499
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-02-parade-vintage-cars-san-diego.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0048/page-0048-image-02-parade-vintage-cars-san-diego.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0048.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 48,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0048.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

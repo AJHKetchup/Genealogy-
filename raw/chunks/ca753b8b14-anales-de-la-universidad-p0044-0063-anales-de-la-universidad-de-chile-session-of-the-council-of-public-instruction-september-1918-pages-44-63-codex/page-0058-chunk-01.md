@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d35296a8e09b-P0058-01
+chunk_id: CHUNK-40803c322c10-P0058-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md
-converted_sha256: d35296a8e09bc33ebea4ebbab18ee4a6fe5bc37dd80753baa059c86da231bb55
+converted_sha256: 40803c322c10a3b84e147f8eeddde6cb02f3b0af55487f127fa236fa8739efd9
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json
@@ -116,28 +116,19 @@ No interpretation was produced by the Docling basic conversion pass.
 ## Page Metadata
 
 - **Page number**: 59
-- **Source identifier**: `anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63`
-- **Source page**: `p0059`
-- **Source type**: pdf
-- **Source language**: es
-- **Source page is**: single_sided
+- **Printed page number**: 345
 
 ## Layout And Reading Order
 
-The page is a single column of text. The reading order is from top to bottom.
-
-The content is structured by academic subject. Each subject heading is centered and bolded. Under each subject, there are subheadings for the academic year(s), which are also centered.
-
-Below the year subheadings are lists of individuals categorized as "Propietarios" (permanent members) and "Suplentes" (substitutes). The first name in each category is on the same line as the category label. Subsequent names in the list are on new lines, indented and preceded by a double angle quote (`»`).
-
-The page header contains the session date on the left and the page number (`345`) on the right, separated by a horizontal rule from the main content.
+The page is a single column of text. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`). Within each subject, lists of names are provided under the categories `Propietarios` (permanent staff) and `Suplentes` (substitutes), further broken down by academic year(s). The reading order is from top to bottom.
 
 ## Literal Transcription
 
+```text
 SESION DE 14 DE OCTUBRE DE 1918 345
-***
+___
 
-**Castellano**
+Castellano
 
 SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
 
@@ -147,7 +138,7 @@ Propietarios: don Samuel A. Lillo.
 Suplentes: » Ernesto Guzmán.
 » Antonio Bórquez Solar.
 
-**Matemáticas**
+Matemáticas
 
 PRIMER AÑO
 
@@ -157,7 +148,7 @@ Propietarios: don Federico Arriagada.
 Suplentes: » Camilo Valenzuela.
 » Francisco A. Medina Rivera.
 
-**Matemáticas**
+Matemáticas
 
 SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
 
@@ -167,21 +158,22 @@ Propietarios: don Ricardo Poenisch.
 Suplentes: » Francisco A. Medina Rivera.
 » Ramón Jiménez Villagrán.
 
-**Francés**
+Francés
 
 PRIMER AÑO
 
 Propietarios: don Julio Chávez.
 » Carlos Montebruno.
 » Max. Flores.
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images on this page. The page consists entirely of printed text. A horizontal rule separates the header from the main body of the text.
+There are no images, illustrations, or other significant visual elements on this page. The page consists entirely of printed text.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+There are no uncertain or illegible parts of this page.
 
 ## Completeness Audit
 
@@ -192,6 +184,6 @@ This page has been transcribed in its entirety.
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text and standard formatting elements like a horizontal rule. There are no images, illustrations, or other significant visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page contains only printed text and does not have any images, illustrations, or other visual elements suitable for cropping."
 }
 ```

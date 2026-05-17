@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:16:20Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 25,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0025.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0025.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "He aquí el curioso \"pie\" de esta fotografía\nque nos acaba de remitir la Agencia Un-\nderwood: \"Este es el retrato, obtenido a\nbordo del \"Aquitania\", del más famoso\ntorero mexicano Rodolfo Gaona, quien\nha trabajado en su profesión los últi-\nmos cinco meses en España, regresando\nahora a sus extensos ranchos en México.\nDe Gaona\", según se dice, vale un mi-\nllón de dólares.\"",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Rodolfo Gaona",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        20.0,
+        30.9,
+        79.9,
+        66.0
+      ],
+      "bbox_pixels": [
+        272,
+        574,
+        1108,
+        1238
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0025/page-0025-image-01-rodolfo-gaona-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0025/page-0025-image-01-rodolfo-gaona-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0025.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 25,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0025.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

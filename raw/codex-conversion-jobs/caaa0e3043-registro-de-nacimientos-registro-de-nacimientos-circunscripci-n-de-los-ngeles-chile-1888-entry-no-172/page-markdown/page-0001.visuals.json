@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T09:16:43Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png",
+  "source_sha256": "aa0e304338ce3e1bf5ae9a1c695a405c862eb81fba66361d1874b7ca9da981b2",
+  "job_manifest": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/page-images/page-0001.png",
+  "output_markdown": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "The page contains standard official stamps and signatures that are fully described in the transcription and visual notes. No standalone visual assets are necessary for genealogical interpretation.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

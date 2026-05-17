@@ -1,0 +1,91 @@
+{
+  "created": "2026-05-17T09:16:17Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 5,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0005.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0005.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "An illustration depicts a man and a woman in an embrace, appearing to kiss. The woman has dark, curly hair and is wearing a patterned dress. The man has short, dark hair and is wearing a collared shirt.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Advertisement for \"Vigor, Sin Drogas\"",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        55.0,
+        33.0,
+        71.0
+      ],
+      "bbox_pixels": [
+        134,
+        1020,
+        461,
+        1326
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-01-vigor-sin-drogas-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-01-vigor-sin-drogas-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0005.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 5,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0005.md"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "illustration",
+      "caption_literal": "An illustration shows a man wearing a suit, tie, and hat, with one hand in his pocket. He has a mustache.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Illustration for \"CALZADO Americano\" advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        45.0,
+        46.0,
+        59.0,
+        62.0
+      ],
+      "bbox_pixels": [
+        619,
+        853,
+        821,
+        1158
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-03-calzado-americano-man-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0005/page-0005-image-03-calzado-americano-man-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0005.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 5,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0005.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual_002",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "HAMILTON.BROWN SHOE CO. KEEP THE QUALITY UP",
+      "source_context": "Logo for \"CALZADO Americano\" advertisement"
+    },
+    {
+      "region_id": "visual_004",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "NO SEA DELGADO\nAumente de 3 a 8 Kilos\n{tomando\n{Pastillas CARNOL\nDE VENTA EN FARMACIAS Y DROGUERÍAS",
+      "source_context": "Advertisement for CARNOL"
+    }
+  ],
+  "flags": []
+}

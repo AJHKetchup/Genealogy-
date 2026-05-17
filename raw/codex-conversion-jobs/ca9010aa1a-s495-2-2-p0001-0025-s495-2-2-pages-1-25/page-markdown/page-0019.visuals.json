@@ -1,0 +1,196 @@
+{
+  "created": "2026-05-17T09:16:11Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 19,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "El profesor Gallegos, en trabajos de explo-ración.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "El profesor Gallegos",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.9,
+        13.9,
+        35.9,
+        34.9
+      ],
+      "bbox_pixels": [
+        175,
+        257,
+        501,
+        658
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-01-el-profesor-gallegos-en-trabajos-de-exploracion.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-01-el-profesor-gallegos-en-trabajos-de-exploracion.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 19,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Diversos y hermosos ejemplares de pájaros ya disecados para su exhibición en el Mu-seo de Historia Natural de esta Agencia.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Diversos y hermosos ejemplares de pájaros ya disecados",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.1,
+        65.0,
+        27.9,
+        89.9
+      ],
+      "bbox_pixels": [
+        219,
+        1215,
+        390,
+        1690
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-02-diversos-y-hermosos-ejemplares-de-pajaros-disecados.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-02-diversos-y-hermosos-ejemplares-de-pajaros-disecados.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 19,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "caption_literal": "Quiote de maguey silvestre en el desierto, frente a la Laguna Salada, lado Sureste.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Quiote de maguey silvestre",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        42.0,
+        12.9,
+        57.0,
+        35.0
+      ],
+      "bbox_pixels": [
+        578,
+        238,
+        793,
+        660
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-03-quiote-de-maguey-silvestre-en-el-desierto.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-03-quiote-de-maguey-silvestre-en-el-desierto.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 19,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "photograph",
+      "caption_literal": "La piel de un Elefante Marino tiene que ser arrastrada por cinco hombres.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "La piel de un Elefante Marino",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        42.9,
+        65.0,
+        55.0,
+        89.9
+      ],
+      "bbox_pixels": [
+        590,
+        1215,
+        766,
+        1690
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-04-la-piel-de-un-elefante-marino-arrastrada-por-cinco-hombres.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-04-la-piel-de-un-elefante-marino-arrastrada-por-cinco-hombres.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 19,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md"
+    },
+    {
+      "region_id": "region_5",
+      "kind": "photograph",
+      "caption_literal": "Pelícanos, en la Isla Sur de Todos Santos, la que tiene más vegetación.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Pelícanos, en la Isla Sur de Todos Santos",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        69.0,
+        12.9,
+        86.0,
+        35.0
+      ],
+      "bbox_pixels": [
+        952,
+        238,
+        1195,
+        660
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-05-pelicanos-en-la-isla-sur-de-todos-santos.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-05-pelicanos-en-la-isla-sur-de-todos-santos.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 19,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md"
+    },
+    {
+      "region_id": "region_6",
+      "kind": "photograph",
+      "caption_literal": "Escuela en “Campo Mex.”",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Escuela en “Campo Mex.”",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        70.9,
+        65.0,
+        87.0,
+        89.9
+      ],
+      "bbox_pixels": [
+        978,
+        1215,
+        1209,
+        1690
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-06-escuela-en-campo-mex.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0019/page-0019-image-06-escuela-en-campo-mex.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0019.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 19,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0019.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

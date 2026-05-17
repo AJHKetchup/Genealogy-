@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T09:15:12Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json",
+  "page": 6,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/page-images/page-0006.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/page-markdown/page-0006.md",
+  "no_visual_regions_reason": "The page contains only handwritten text on a piece of paper with a fold, which is fully captured by the literal transcription and visual notes. No substantial visual elements require cropping.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

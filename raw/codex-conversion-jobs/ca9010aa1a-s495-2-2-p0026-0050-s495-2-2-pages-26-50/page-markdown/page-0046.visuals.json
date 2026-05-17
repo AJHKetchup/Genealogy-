@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:16:19Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 46,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0046.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0046.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "EL CAMPEON ETERNO. JACK DEMPSEY = CON SUS PADRES",
+      "caption_type": "source-caption",
+      "identity_basis": "text",
+      "source_context": "The caption is in a decorative box positioned above the central portrait, but its content clearly refers to the group photo on the left, identifying the young man as Jack Dempsey and the older couple as his parents.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 1: Group photo of Jack Dempsey with his parents",
+      "bbox_pct": [
+        39.0,
+        54.0,
+        60.0,
+        94.0
+      ],
+      "bbox_pixels": [
+        1035,
+        994,
+        1602,
+        1742
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-01-jack-dempsey-with-parents-1920s.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-01-jack-dempsey-with-parents-1920s.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0046.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 46,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0046.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "ULTIMO RETRATO DEL VENCIDO",
+      "caption_type": "source-caption",
+      "identity_basis": "text",
+      "source_context": "The caption is in a decorative circular box directly below the portrait.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 2: Portrait of Jack Dempsey",
+      "bbox_pct": [
+        23.0,
+        49.0,
+        79.0,
+        66.0
+      ],
+      "bbox_pixels": [
+        609,
+        902,
+        2109,
+        1224
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-02-jack-dempsey-portrait-ultimo-retrato-del-vencido.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-02-jack-dempsey-portrait-ultimo-retrato-del-vencido.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0046.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 46,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0046.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "FIRPO DOS DIAS ANTES DE LA PELEA EN ATLANTIC CITI",
+      "caption_type": "source-caption",
+      "identity_basis": "text",
+      "source_context": "The caption is in a decorative circular box positioned to the left of the image of the two men running.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 3: Firpo and another man running",
+      "bbox_pct": [
+        39.0,
+        68.0,
+        60.0,
+        94.0
+      ],
+      "bbox_pixels": [
+        1035,
+        1253,
+        1602,
+        1742
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-03-firpo-two-days-before-atlantic-city-fight.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0046/page-0046-image-03-firpo-two-days-before-atlantic-city-fight.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0046.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 46,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0046.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

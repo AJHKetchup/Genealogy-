@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:06Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+  "page": 16,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0016.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0016.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "A large black and white photograph of the Cervecería de Mexicali building, with cars parked in front. The building has a clock tower with a Mexican flag. Text visible on the building includes \"ELABORACION\", \"BODEGA\", \"CERVECERIA MEXICALI S.A.\", and \"ENVASADO\".",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "The main image on the page, illustrating the Cervecería de Mexicali.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        15.0,
+        19.0,
+        97.0,
+        83.0
+      ],
+      "bbox_pixels": [
+        205,
+        351,
+        1356,
+        1557
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-01-cerveceria-de-mexicali-building.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-01-cerveceria-de-mexicali-building.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0016.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 16,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0016.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "A circular inset photograph showing a group of approximately eight men, likely employees or management, standing together.",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "An inset image within the main photograph, showing a group of men associated with the brewery.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        15.0,
+        53.0,
+        57.0,
+        82.0
+      ],
+      "bbox_pixels": [
+        205,
+        988,
+        799,
+        1538
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-02-cerveceria-de-mexicali-men-group.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0016/page-0016-image-02-cerveceria-de-mexicali-men-group.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0016.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/manifest.json",
+      "page": 16,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0016.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f8d91d358512-P0001-03
+chunk_id: CHUNK-41a19743ed75-P0001-03
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: f8d91d3585121dbbf57e4466a8cafb58cd21b82ec7f060d20e4ec414ac80cac5
+converted_sha256: 41a19743ed75b605cdc66678421bccacd5768072c3671068be9fe31975199198
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -10,33 +10,6 @@ page_start: 1
 page_end: 1
 part: 3
 ---
-
-## Images, Captions, And Visual Notes
-
-There are no substantial images or captions on this page. All visual information is captured in the literal transcription, including the handwritten marginal notes.
-
-## Uncertain Or Illegible
-
-- `juillez` in entry 208. The word appears to be `juillet` but the final 't' is missing or obscured.
-- `dipl matique` in entry 216. The word appears to be `diplomatique` but the 'o' is missing or obscured.
-- `mériolation` in entry 222. This is transcribed as written, though it is likely a misspelling of `amélioration`.
-- `s.d.` in entry 221. This is a common abbreviation for `sans date` (without date).
-
-## Completeness Audit
-
-The transcription is complete and includes all visible text and marginalia on the page.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present on the page that would require cropping. All relevant information is textual and has been captured in the literal transcription."}
-```
-
-## Page Metadata
-Page number: 12
-
-## Layout And Reading Order
-The page contains a header at the top right with a document identifier and page number. Below this, there is a list of numbered entries, each with a date and a descriptive text. Some entries span multiple lines. A handwritten "MS" appears in the left margin next to entry 228.
 
 ## Literal Transcription
 CR 177 Conférence diplomatique

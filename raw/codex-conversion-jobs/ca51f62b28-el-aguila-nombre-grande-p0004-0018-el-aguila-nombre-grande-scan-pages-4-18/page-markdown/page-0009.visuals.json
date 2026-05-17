@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:15:33Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+  "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+  "page": 9,
+  "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr1",
+      "kind": "photograph",
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE\nRECONFORMA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "The text directly to the left of the image states \"( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORMA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA\", identifying the person in the photo as Captain Gajardo.",
+      "confidence": "0.95",
+      "inline_anchor": "EL CAPITAN GAJARDO SE\nRECONFORMA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
+      "bbox_pct": [
+        17.0,
+        50.0,
+        60.0,
+        97.0
+      ],
+      "bbox_pixels": [
+        798,
+        3594,
+        2834,
+        6984
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-from-cup.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-from-cup.png",
+      "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+      "page": 9,
+      "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md"
+    },
+    {
+      "region_id": "vr2",
+      "kind": "portrait",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "no-source-identity",
+      "source_context": "This is a halftone portrait of a man, possibly a clergyman, wearing a dark coat with a cross visible on the left side of his chest. No explicit caption or direct identification is provided for this specific image, though it is adjacent to text discussing Fray Camilo Henriquez.",
+      "confidence": "0.8",
+      "inline_anchor": "LA AURORA DE CHILE\nEL 1º DE FEBRERO DE ESTE AÑO SE\nCELEBRÓ EL 144 ANIVERSARIO DE LA\nFUNDACION DEL PRIMER PERIÓDICO NACIONAL\nPOR FRAY CAMILO HENRIQUEZ EN EL AÑO\n1812 .",
+      "bbox_pct": [
+        53.0,
+        10.0,
+        94.0,
+        40.0
+      ],
+      "bbox_pixels": [
+        2495,
+        716,
+        4437,
+        2882
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-portrait-man-with-cross.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-portrait-man-with-cross.png",
+      "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
+      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+      "page": 9,
+      "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

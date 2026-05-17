@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-79ac9393aace-P0007-01
+chunk_id: CHUNK-099cb5016ad7-P0007-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
-converted_sha256: 79ac9393aace00edfd6284b4c4d4dc6bbbbd504662ec57237ec6cc9ed3a016ec
+converted_sha256: 099cb5016ad7d5f8918380f91da37e7b9627a8005b767efef278cc24b97ba3bd
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
@@ -113,27 +113,36 @@ The page is entirely blank. The transcription accurately reflects this.
 - task_id: `source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009`
 - page_number: 9
 - source_name: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
-- source_page_count: 20
-- source_type: `Journal`
-- source_language: `es`
+- source_id: `ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23`
+- page_ocr_quality: high
+- page_type: section_divider
 
 ## Layout And Reading Order
 
-The page contains a centered title block followed by a line of text in the lower-left corner. The reading order is from top to bottom.
+The page contains a single column of centered text that serves as a section title. There is also a line of text in the bottom-left corner. The reading order is from top to bottom.
+
+1.  **Title Block**: Centered text in the upper half of the page.
+2.  **Footer Text**: A single line of text in the bottom-left corner.
 
 ## Literal Transcription
 
+```text
 ACTAS DE LAS SESIONES
 
 DEL
 
 CONSEJO DE INSTRUCCION PÚBLICA
 
+
+
+
+
 ANALES ACTAS.—SET.—OCT.—6
+```
 
 ## Images, Captions, And Visual Notes
 
-This page is a text-only title page and contains no images, illustrations, or other visual elements.
+This page is a text-only section divider. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
@@ -148,56 +157,35 @@ This page has been transcribed in its entirety.
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page is a simple text-only title page with no images, illustrations, or other significant visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page is a simple text-only section divider with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```
 
 ## Page Metadata
-Page 10
+- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0010`
+- Page: 10
 
 ## Layout And Reading Order
-The page is largely blank, featuring a faint circular stamp in the upper-middle left section. There is also extremely faint, almost illegible text visible in the background, likely bleed-through from another page or a very light watermark. The reading order is the stamp, followed by the faint background text.
+This is a blank page with a library stamp in the upper left quadrant. There is significant text bleed-through from the reverse side of the page, which is almost entirely illegible. The only readable content is the stamp.
 
 ## Literal Transcription
-[Faint circular stamp, upper-middle left:]
-BRITISH MUSEUM
-NATURAL HISTORY
+[Stamp: A circular stamp with the Royal coat of arms of the United Kingdom in the center. The text around the circumference reads "BRITISH MUSEUM" at the top and "NATURAL HISTORY" at the bottom.]
 
-[Extremely faint text, mostly on the right side, possibly bleed-through or watermark:]
-ANALES DE LA UNIVERSIDAD [?]
-DE CHILE [?]
-SESION [?] DEL CONSEJO [?] DE INSTRUCCION [?] PUBLICA [?]
-SETIEMBRE [?] DE 1918 [?]
+[The rest of the page is blank, though there is heavy, illegible text bleed-through from the reverse side.]
 
 ## Images, Captions, And Visual Notes
-A faint, circular stamp is present in the upper-middle left of the page. It features the text "BRITISH MUSEUM" at the top and "NATURAL HISTORY" at the bottom, encircling a central crest which appears to be the Royal Arms of the United Kingdom.
+A circular library stamp from the "BRITISH MUSEUM / NATURAL HISTORY" is present in the upper left quadrant. The page is otherwise blank, but there is heavy text bleed-through from the reverse side, rendering the page background as a faint, illegible mirror image of the next page's text.
 
 ## Uncertain Or Illegible
-The background text is extremely faint and difficult to discern with certainty. Readings marked with `[?]` are highly uncertain.
+The text bleeding through from the reverse of the page is almost entirely illegible and has not been transcribed.
 
 ## Completeness Audit
-The transcription is complete. All visible text and the stamp have been captured.
+This page is a blank leaf containing only a library stamp. The significant text bleed-through from the reverse page has been noted but not transcribed due to its illegibility. The page is considered complete.
 
 ## Visual Region Manifest
 ```json
 {
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "stamp",
-      "bbox_pct": [
-        33.0,
-        26.0,
-        43.0,
-        43.0
-      ],
-      "caption_literal": "BRITISH MUSEUM\nNATURAL HISTORY",
-      "caption_type": "converter-description",
-      "identity_basis": "text-content",
-      "source_context": "A circular stamp with text 'BRITISH MUSEUM' and 'NATURAL HISTORY' and a crest.",
-      "confidence": 0.95,
-      "suggested_filename": "british_museum_natural_history_stamp"
-    }
-  ]
+  "visual_regions": [],
+  "no_visual_regions_reason": "The only visual element on this page is a standard library stamp, which is described in the transcription and does not warrant a separate crop."
 }
 ```

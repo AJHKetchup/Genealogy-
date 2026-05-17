@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:16:39Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 49,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0049.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0049.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Carros cargados de flor de algodón, tirados por un tractor",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The image shows wagons loaded with cotton, pulled by a tractor.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.5,
+        12.5,
+        87.5,
+        40.0
+      ],
+      "bbox_pixels": [
+        169,
+        231,
+        1216,
+        755
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-01-carros-cargados-de-flor-de-algodon-tirados-por-un-tractor.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-01-carros-cargados-de-flor-de-algodon-tirados-por-un-tractor.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0049.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 49,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0049.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "portrait",
+      "caption_literal": "Sr. A. M. Shenk",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Portrait of Sr. A. M. Shenk, mentioned in the surrounding text as an important figure in the region's development.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        38.0,
+        42.0,
+        62.0,
+        74.0
+      ],
+      "bbox_pixels": [
+        522,
+        785,
+        863,
+        1394
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-02-portrait-sr-a-m-shenk.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0049/page-0049-image-02-portrait-sr-a-m-shenk.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0049.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 49,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0049.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

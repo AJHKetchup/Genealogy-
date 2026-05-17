@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3d3ab761209f-P0001-01
+source_converted: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
+converted_sha256: 3d3ab761209fb351dce29fd110518d75087aa04075890da5943aa4f9d82bf175
+source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
+source_sha256: 05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545
+source_manifest: raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json
+page_start: 1
+page_end: 1
+part: 1
+---
+
+# Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513.
+
+## Conversion Metadata
+
+- Source: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`
+- Source SHA-256: `05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545`
+- Manifest: `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json`
+- Conversion method: Codex local vision workbench
+- Extracted images: `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/extracted-images`
+
+## Page Metadata
+
+- **Page number**: 172
+- **Document type**: Birth Register
+- **Year**: 1889
+- **Location**: Los Ángeles, Chile
+- **Language**: Spanish
+
+## Layout And Reading Order
+
+The document is a pre-printed register page with handwritten entries. The page is organized as a table with rows for individual birth records and columns for specific details. The page contains three full birth records, numbered 513, 514, and 515. The reading order is from left to right, top to bottom, following the records in numerical order. A column for annotations is on the far right, containing official stamps.
+
+## Literal Transcription
+
+**Páj. 172**
+
+**1889.—Rejistro de NACIMIENTOS en la Circunscripcion de** Los Angeles, **núm.** 1º **de** Julio
+
+| N.º de la Inscripcion | Fecha de la Inscripcion | Nombre i sexo | Fecha i lugar del nacimiento | Nombre, nacionalidad, profesion i domicilio del padre i de la madre, cuando fueren declarados | Nombre, etc., del compareciente | Comprobacion de la identidad del compareciente | Firma del oficial |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **513** | Julio veinte i dos de mil ochocientos ochenta i nueve | **Nombre.** Pulgar Amagada<br>José Luis<br>**Sexo.**<br>Masculino | **Fecha.**<br>Junio veinte i seis de mil ochocientos ochenta i nueve, a las cuatro i media de la tarde<br>**Lugar.**<br>Calle Colon | **Nombre del padre.**<br>José del Carmen Pulgar<br>**Nac.** Chileno **Prof.** Agricultor<br>**Domicilio.** Calle Colon<br>**Nombre de la madre.**<br>Juana de Dios Amagada de Pulgar<br>**Nac.** Chilena **Prof.** Labores de su sexo<br>**Domicilio.** Calle Colon | José del C. Pulgar<br>Padre<br>**Edad.** Cuarenta i siete Años<br>**Prof.** Agricultor<br>**Dom.** Calle Colon | **Por los testigos:**<br>El compareciente es<br>**Conocido del oficial.** | Emilio Larenas<br>O. de R. C. |
+| **514** | Julio veinte i dos de mil ochocientos ochenta i nueve | **Nombre.**<br>Riquelme Aviles<br>Juan Bautista<br>**Sexo.**<br>Masculino | **Fecha.**<br>Junio veinte i tres de mil ochocientos ochenta i nueve, a las nueve de la mañana<br>**Lugar.**<br>Calle Sanegueso | **Nombre del padre.**<br>Se ignora<br>**Nac.** **Prof.**<br>**Domicilio.**<br>**Nombre de la madre.**<br>Mercedes Riquelme<br>Pidió se consignara su nombre<br>**Nac.** Chilena **Prof.** Costurera<br>**Dom.** Calle Sanegueso | Mercedes Riquelme<br>Madre<br>No firma por no saber<br>**Edad.** Veintiun Años<br>**Prof.** Costurera<br>**Dom.** Calle Sanegueso | **Por los testigos:**<br>Benjamin Utiera<br>Ignacio Soto<br>No firmo por no saber | Emilio Larenas<br>O. de R. C. |
+| **515** | Julio veinte i tres de mil ochocientos ochenta i nueve | **Nombre.**<br>Neira Ulloa<br>Laura de la Cruz<br>**Sexo.**<br>Femenino | **Fecha.**<br>Julio diez i ocho de mil ochocientos ochenta i nueve, a las diez de la mañana<br>**Lugar.**<br>Calle Santiago | **Nombre del padre.**<br>Pedro Pablo Neira<br>**Nac.** Chileno **Prof.** Agricultor<br>**Domicilio.** Santiago<br>**Nombre de la madre.**<br>Carmen Ulloa<br>**Nac.** Chilena **Prof.** Labores de su sexo<br>**Domicilio.** Santiago | Pedro Pablo Neira<br>Padre<br>**Edad.** Veinte i seis Años<br>**Prof.** Agricultor<br>**Dom.** Santiago | **Por los testigos:**<br>Rosendo Ramirez H.<br>Santiago Perez | Neira=emendado=<br>vale=<br>Emilio Larenas<br>O. de R. C. |
+
+---
+**[Far Right Margin]**
+
+**ANOTACIONES**
+
+[Circular stamp: OFICINA DE LOS ANGELES / CHILE with coat of arms in the center, aligned with record 513]
+
+**513**
+
+[Circular stamp, partially visible, aligned with record 514]
+
+**514**
+
+**515**
+
+## Images, Captions, And Visual Notes
+
+The page is a standard tabular register for births. On the far right, in the "ANOTACIONES" column, there are two circular official stamps. The top stamp is fully visible and reads "OFICINA DE LOS ANGELES" around the top edge and "CHILE" at the bottom, with the Chilean coat of arms in the center. The second stamp below it is partially cut off but appears to be identical. The record numbers (513, 514, 515) are also present in the far right margin, aligned with their respective entries.
+
+## Uncertain Or Illegible
+
+- The surname of the witness in record 514 is transcribed as `Utiera`, but the handwriting is somewhat difficult to read.
+- The street name in record 514 is transcribed as `Sanegueso`, which is an unusual spelling. The handwriting is clear, but the name itself is uncommon.
+
+## Completeness Audit
+
+The transcription includes all visible text on the page. The page is from a bound volume and is cropped at the bottom, so there may be additional records on the physical page that are not visible in the image. Three complete records (513, 514, 515) have been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains standard official stamps and handwritten entries in a register. There are no substantial, standalone visual elements like photographs, maps, or complex illustrations that would warrant individual cropping."
+}
+```

@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:16:15Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+  "page": 43,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0043.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0043.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Fotografía de las típicas fiestas campestres que se organizan en las huertas de San Telmo, B. C.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image shows a rural scene with people and animals, described as a typical country fair in San Telmo.",
+      "confidence": "0.95",
+      "inline_anchor": "Fotografía de las típicas fiestas campestres que se organizan en las huertas de San Telmo, B. C.",
+      "bbox_pct": [
+        7.3,
+        3.8,
+        92.6,
+        30.4
+      ],
+      "bbox_pixels": [
+        96,
+        67,
+        1276,
+        573
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-01-fotografia-fiestas-campestres-san-telmo-bc.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-01-fotografia-fiestas-campestres-san-telmo-bc.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0043.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 43,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0043.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Estatua a Hidalgo en el paseo de su nombre.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "This image shows a statue of Hidalgo in a public space named after him.",
+      "confidence": "0.95",
+      "inline_anchor": "Estatua a Hidalgo en el paseo de su nombre.",
+      "bbox_pct": [
+        24.6,
+        36.3,
+        92.6,
+        60.0
+      ],
+      "bbox_pixels": [
+        334,
+        676,
+        1276,
+        1127
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-02-estatua-hidalgo-paseo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-02-estatua-hidalgo-paseo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0043.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 43,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0043.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Lazando y herrando becerros en la hacienda de “El Pinal”, B. C.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image depicts cowboys roping and branding calves at the \"El Pinal\" ranch.",
+      "confidence": "0.95",
+      "inline_anchor": "Lazando y herrando becerros en la hacienda de “El Pinal”, B. C.",
+      "bbox_pct": [
+        7.3,
+        69.0,
+        92.6,
+        88.1
+      ],
+      "bbox_pixels": [
+        96,
+        1288,
+        1276,
+        1653
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-03-lazando-herrando-becerros-el-pinal-bc.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0043/page-0043-image-03-lazando-herrando-becerros-el-pinal-bc.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0043.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
+      "page": 43,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0043.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}
