@@ -8317,6 +8317,22 @@ def call_gemini_generate_content(
     }
 
 
+def preflight_gemini_source_prep_api(
+    *,
+    api_key: str,
+    model: str,
+    timeout_seconds: int = 30,
+) -> dict[str, object]:
+    return call_gemini_generate_content(
+        api_key=api_key,
+        model=model,
+        prompt="Source-prep Gemini preflight. Reply with OK.",
+        media_paths=[],
+        max_output_tokens=16,
+        timeout_seconds=timeout_seconds,
+    )
+
+
 def source_prep_gemini_state_path(root: Path) -> Path:
     return root.resolve() / "research" / "_automation" / "gemini-source-prep-state.json"
 
@@ -8347,6 +8363,7 @@ def source_prep_gemini_run(
     refresh_queue: bool = True,
     source_filter: str = "",
     source_sha256: str = "",
+    preflight_api: bool = False,
 ) -> dict[str, object]:
     if limit < 1:
         raise ValueError("limit must be at least 1")
@@ -8401,6 +8418,7 @@ def source_prep_gemini_run(
             "source": source_filter.strip(),
             "source_sha256": source_sha256.strip(),
         },
+        "preflight_api": preflight_api,
         "processed": 0,
         "completed": 0,
         "released": 0,
@@ -8418,6 +8436,25 @@ def source_prep_gemini_run(
         route_counts = summary.setdefault("route_counts", {})
         if isinstance(route_counts, dict):
             route_counts[tier] = int(route_counts.get(tier, 0)) + 1
+
+    def fail_with_fatal_blocker(error: str) -> None:
+        summary["fatal_error"] = error
+        summary["finished"] = utc_timestamp()
+        state_path = write_source_prep_gemini_state(paths.root, summary)
+        summary["state_path"] = relative_to_root(state_path, paths.root)
+        append_log(
+            paths.research / "log.md",
+            "gemini-source-prep | fatal dependency blocker before page conversion",
+        )
+        raise RuntimeError(f"Gemini source-prep fatal blocker: {error}")
+
+    if preflight_api and not dry_run:
+        try:
+            preflight_gemini_source_prep_api(api_key=api_key, model=lite_model)
+        except GeminiSourcePrepFatalError as exc:
+            fail_with_fatal_blocker(str(exc))
+        except Exception as exc:
+            fail_with_fatal_blocker(f"Gemini preflight failed: {str(exc)[:800]}")
 
     def result_payload(
         task_report: dict[str, object],
@@ -11263,6 +11300,11 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Use the existing source-prep-batches queue instead of refreshing it first.",
     )
+    gemini_source_prep_parser.add_argument(
+        "--preflight-api",
+        action="store_true",
+        help="Make a short text-only Gemini call before page conversion to catch billing/auth blockers early.",
+    )
     gemini_source_prep_parser.add_argument("--source", default="", help="Only process this raw source path or basename.")
     gemini_source_prep_parser.add_argument("--source-sha256", default="", help="Only process this raw source SHA-256.")
     gemini_source_prep_parser.add_argument(
@@ -11807,6 +11849,7 @@ def main(argv: list[str] | None = None) -> int:
             refresh_queue=not args.no_refresh_queue,
             source_filter=args.source,
             source_sha256=args.source_sha256,
+            preflight_api=args.preflight_api,
         )
         print("gemini-source-prep | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))

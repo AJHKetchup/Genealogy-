@@ -285,6 +285,42 @@ def test_gemini_source_prep_stops_on_fatal_dependency_blocker(tmp_path, monkeypa
     assert {task["status"] for task in task_state["tasks"].values()} == {"released"}
 
 
+def test_gemini_source_prep_preflight_stops_before_page_claims(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=3)
+
+    def fail_preflight(**kwargs):
+        raise genealogy_wiki.GeminiSourcePrepFatalError(
+            "Gemini HTTP 429: RESOURCE_EXHAUSTED prepayment credits are depleted"
+        )
+
+    def fail_page_call(**kwargs):
+        raise AssertionError("page conversion should not run after fatal Gemini preflight")
+
+    monkeypatch.setattr(genealogy_wiki, "preflight_gemini_source_prep_api", fail_preflight)
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fail_page_call)
+
+    with pytest.raises(RuntimeError, match="Gemini source-prep fatal blocker"):
+        source_prep_gemini_run(
+            tmp_path,
+            limit=3,
+            parallelism=3,
+            api_key="test-key",
+            refresh_queue=False,
+            preflight_api=True,
+        )
+
+    state = json.loads(
+        (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").read_text(encoding="utf-8")
+    )
+    task_state_path = tmp_path / "research" / "_agent-queues" / "task-state.json"
+
+    assert state["processed"] == 0
+    assert state["released"] == 0
+    assert state["skipped"] == 0
+    assert "prepayment credits are depleted" in state["fatal_error"]
+    assert not task_state_path.exists()
+
+
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
 

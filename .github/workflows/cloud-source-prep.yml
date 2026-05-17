@@ -216,6 +216,7 @@ jobs:
           --max-output-tokens-lite 65536
           --max-output-tokens-pro 65536
           --crop-count 4
+          --preflight-api
 
       - name: Assemble converted Markdown
         if: steps.preflight.outputs.ready == 'true'
