@@ -1673,6 +1673,33 @@ Gemini Flash before it becomes source-prep page Markdown.
     assert "fragmented_short_lines" in profile["readability_flags"]
 
 
+def test_docling_profile_flags_moderate_fragmented_text_layer_noise() -> None:
+    markdown = """
+U
+
+i
+
+;
+
+'
+
+II-
+
+-wv
+
+SMI,
+
+This embedded OCR text layer has many standalone fragments before and between longer sentences.
+It contains enough normal-looking words that word-count and odd-character checks alone would pass,
+but the line structure is still fragmented enough that the page should go to Gemini Flash.
+"""
+
+    profile = genealogy_wiki.profile_source_prep_discovery_markdown(markdown)
+
+    assert profile["status"] == "rough_unusable"
+    assert "fragmented_short_lines" in profile["readability_flags"]
+
+
 def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
