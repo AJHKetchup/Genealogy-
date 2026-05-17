@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-49ffbcc87e08-P0001-02
+chunk_id: CHUNK-022c80160f7d-P0001-02
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 49ffbcc87e08fadeb8f32ae829f2e66456b297fecda9f534f91643eefe06da97
+converted_sha256: 022c80160f7d5a126943f7469a7f780fb6e01ea2f3401b6ef60c27674a14e8e9
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -10,56 +10,6 @@ page_start: 1
 page_end: 1
 part: 2
 ---
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "photograph",
-      "bbox_pct": [9.9, 33.9, 37.2, 73.0],
-      "caption_literal": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.",
-      "confidence": 0.95,
-      "suggested_filename": "english_electric_canberra_aircraft_hangar.png",
-      "inline_anchor": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
-    },
-    {
-      "region_id": "region_2",
-      "kind": "photograph",
-      "bbox_pct": [47.7, 84.0, 78.3, 73.0],
-      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.",
-      "confidence": 0.95,
-      "suggested_filename": "english_electric_locomotive_spain.png",
-      "inline_anchor": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países."
-    },
-    {
-      "region_id": "region_3",
-      "kind": "photograph",
-      "bbox_pct": [78.7, 34.0, 98.0, 37.9],
-      "caption_literal": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "This image shows a missile launch, described as a test launch of an English Electric guided missile.",
-      "confidence": 0.95,
-      "suggested_filename": "english_electric_missile_launch.png",
-      "inline_anchor": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC."
-    }
-  ]
-}
-```
-
-## Page Metadata
-Page number: 6
-
-## Layout And Reading Order
-The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.
 
 ## Literal Transcription
 NUMERO GIGANTE ENERO - - FEBRERO EL AGUILA
@@ -280,3 +230,60 @@ All visible text and significant markings on the page have been transcribed.
 
 ## Page Metadata
 Page number: 9
+
+## Layout And Reading Order
+The page features a two-column layout with a header across the top. The left column contains a block of text and an image below it. The right column contains a block of text and an image above it, aligned with the text in the left column. A handwritten page number "9" is present at the bottom right.
+
+## Literal Transcription
+UMERO GIGANTE EL AGUILA ENERO FEBRERO
+VOLVEMOS ATRAS
+
+L 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO , - 6 DE ELLOS
+EL MENCIONADO CAPITAN EL VICESARJENTO PRIMERO NEMESIO ZAMORA EL CABO
+ROLANDO GODOY EL FILMADOR VICENTE
+CHIARANDA Y EL INGENIERO WAYNE MILL ER
+ESCALARON EL MONTE "OJOS DEL SALADO,"
+EN LA CORDILLERA DE LOS ANDES SITUADO
+EN LA PROVINCIA DE ATACAMA DEPARTAMENTO
+DE COPIAPO , EL NEVADO MENCIONADO MIDE
+7084 METROS SOBRE PASANDO AL ACONCAGUA
+POR 29 METROS ./
+( EN LA FOTO ) EL CAPITAN GAJARDO SE
+RECONFORMA DESPUES DE HABER ESCALADO
+LA CUMBRE MAS ALTA DE AMERI DA
+
+LA AURORA DE CHILE
+EL 1º DE FEBRERO DE ESTE AÑO SE
+CELEBRO EL 144 ANIVERSARIO DE LA
+FUNDACION DEL PRIMER PERIODICO NACIONAL
+POR FRAY CAMILO HENRIQUEZ EN EL AÑO
+1812 . EL PUEBLO DE CHILE RECIBIO
+CON GRAN ESTUCIASMOS EL PRIMER NUMERO
+DE ESE DIARIO PARA ALENTAR A LOS HOMBRES
+HACIA SU LIBERTAD - EL DIARIO EL AGUILA
+CELEBRO CON UN COCTEL EN LA EMPRESA EL
+DIA DE LA PRENSA
+
+9
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![nearby-text: ( EN LA FOTO ) EL CAPITAN GAJARDO SE
+RECONFORMA DESPUES DE HABER ESCALADO
+LA CUMBRE MAS ALTA DE AMERI DA](../extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [50.0, 54.0, 95.0, 90.0]
+  - Source context: The text explicitly states 'EL CAPITAN GAJARDO' in relation to 'EN LA FOTO'.
+- ![nearby-text: POR FRAY CAMILO HENRIQUEZ EN EL AÑO
+1812](../extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png)
+  - Kind: portrait; label basis: nearby-text; bbox_pct: [10.0, 10.0, 45.0, 40.0]
+  - Source context: The text mentions 'FRAY CAMILO HENRIQUEZ' in the context of the founding of 'LA AURORA DE CHILE', which is a significant historical figure, making it highly probable this is his portrait.
+
+The page contains two images.
+The first image, located in the upper right, shows a man in uniform, identified as Captain Gajardo, drinking from a cup. The caption for this image is embedded within the text of the left column.
+The second image, located in the lower left, is a portrait of a man, likely Fray Camilo Henríquez, given the context of the adjacent text. There is no explicit caption directly below this image, but the surrounding text provides context.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and images on the page have been transcribed and described.

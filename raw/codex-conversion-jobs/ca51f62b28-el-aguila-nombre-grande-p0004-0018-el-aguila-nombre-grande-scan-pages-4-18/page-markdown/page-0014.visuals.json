@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:06:18Z",
+  "created": "2026-05-17T16:45:16Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -8,8 +8,30 @@
   "page": 14,
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0014.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0014.md",
-  "no_visual_regions_reason": "No substantial visual regions were identified. Handwritten notes and marks are transcribed in the text and described in visual notes.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "EL AGUILA",
+      "source_context": "Faint, large, handwritten text in red ink, partially obscured."
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "14",
+      "source_context": "Handwritten page number in red ink."
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "JR DARIO PULGARA",
+      "source_context": "Handwritten name in red ink."
+    }
+  ],
   "flags": []
 }

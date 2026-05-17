@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0b753089f55f-P0058-01
+chunk_id: CHUNK-2b3819b4138e-P0058-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md
-converted_sha256: 0b753089f55f81edb6eabefb418c8ef84841630735408e85801fd2e6bbda4392
+converted_sha256: 2b3819b4138e0bfa8e21b029a65ea903e66d64d798f5d1176d44cf22ff632958
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json
@@ -114,26 +114,17 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-
-- **Page number**: 59
-- **Source language**: es
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document type**: Periodical
-- **Publisher**: Universidad de Chile
-- **Publication date**: 1918
-- **Publication place**: Santiago, Chile
-- **Full page number**: 345
+- page_number: 59
+- page_header: SESION DE 14 DE OCTUBRE DE 1918 | 345
+- page_footer: 
 
 ## Layout And Reading Order
-
-The page is a single column of text. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`). Within each subject, there are sub-sections for specific school years and lists of individuals designated as `Propietarios` (permanent/tenured) or `Suplentes` (substitutes). The reading order is from top to bottom.
+This page follows a single-column layout. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`), then by academic year, and finally by role (`Propietarios` and `Suplentes`). The reading order is from top to bottom.
 
 ## Literal Transcription
-
 ```text
 SESION DE 14 DE OCTUBRE DE 1918 345
-
-***
+___
 
 **Castellano**
 
@@ -175,22 +166,18 @@ Propietarios: don Julio Chávez.
 ```
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, illustrations, or other significant visual elements on this page. The content consists entirely of printed text.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this page.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is complete and has been fully transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and no meaningful visual elements to crop."
+  "no_visual_regions_reason": "The page contains only text in a single-column layout. There are no images, illustrations, or other visual elements suitable for cropping."
 }
 ```

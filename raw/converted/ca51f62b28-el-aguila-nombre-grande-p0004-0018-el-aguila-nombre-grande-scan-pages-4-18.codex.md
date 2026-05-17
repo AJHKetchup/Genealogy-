@@ -86,7 +86,7 @@ All visible text and handwritten annotations on the page have been transcribed.
 Page number: 5
 
 ## Layout And Reading Order
-The page features a large bold title at the top, followed by an introductory paragraph. Below this, there are three images arranged vertically down the left side of the page. Each image has a corresponding caption. The first image (airplane) has its caption directly below it, spanning the width of the image. The second and third images (train and missile) share a multi-paragraph text block to their right, which serves as their combined caption. A handwritten page number "5" is present in the bottom right corner. The right side of the page also contains faint, illegible text, likely from the reverse side of the page or a bleed-through.
+The page features a large bold title at the top, followed by an introductory paragraph. Below this, there are three images arranged vertically down the left side of the page. The top image is of an airplane, followed by a short caption. The middle image is of a train, and the bottom image is of a missile. A multi-paragraph text block serves as the caption for both the train and missile images, positioned to their right. A handwritten number '5' is present in the bottom right corner.
 
 ## Literal Transcription
 .ENGLISH ELECTRIC
@@ -104,26 +104,24 @@ Bretaña, a la Red Nacional de Ferrocarriles de
 España. Las primeras conducen rápidamente
 pasajeros y pesados minerales, en una línea con
 una pendiente general de 1 en 50, con curvas
-cerradas, muchos túneles. Las locomotoras
+cerradas y muchos túneles. Las locomotoras
 ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
 —están satisfaciendo los requerimientos espec-
 iales de 29 países.
-
-PROYECTILES MANDADOS—velocidad super-
-sónica, energía atómica—solamente tres
+PROYECTILES MANDADOS —velocidad super-
+sónica, energía atómica— solamente tres
 campos en que el trabajo precursor ENGLISH
-ELECTRIC ha traído adelantos de impor-
-tancia. Esta foto muestra el lanzamiento de prueba de
+ELECTRIC ha traído adelantos de import-
+ancia. Esta foto muestra el lanzamiento de prueba de
 un proyectil mandado ENGLISH ELECTRIC.
-
 5
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
 - ![source-caption: EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC
-PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS](../extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [9.9, 33.9, 37.2, 73.0]
-  - Source context: This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.
+PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS](../extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [9.9, 33.9, 37.3, 72.9]
+  - Source context: airplane
 - ![source-caption: 3.600 H.P. EN ESPAÑA. Se están entregando
 60 de estas locomotoras eléctricas, las más
 potentes de su tipo jamás construídas en la Gran
@@ -131,39 +129,56 @@ Bretaña, a la Red Nacional de Ferrocarriles de
 España. Las primeras conducen rápidamente
 pasajeros y pesados minerales, en una línea con
 una pendiente general de 1 en 50, con curvas
-cerradas, muchos túneles. Las locomotoras
+cerradas y muchos túneles. Las locomotoras
 ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
 —están satisfaciendo los requerimientos espec-
-iales de 29 países.](../extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [47.7, 73.0, 78.3, 84.0]
-  - Source context: This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.
-- ![source-caption: PROYECTILES MANDADOS—velocidad super-
-sónica, energía atómica—solamente tres
+iales de 29 países.
+PROYECTILES MANDADOS —velocidad super-
+sónica, energía atómica— solamente tres
 campos en que el trabajo precursor ENGLISH
-ELECTRIC ha traído adelantos de impor-
-tancia. Esta foto muestra el lanzamiento de prueba de
-un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [78.7, 34.0, 98.0, 37.9]
-  - Source context: This image shows a missile launch, described as a test launch of an English Electric guided missile.
+ELECTRIC ha traído adelantos de import-
+ancia. Esta foto muestra el lanzamiento de prueba de
+un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-02-train-english-electric-7710.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [47.7, 8.4, 78.2, 73.4]
+  - Source context: train
+- ![source-caption: 3.600 H.P. EN ESPAÑA. Se están entregando
+60 de estas locomotoras eléctricas, las más
+potentes de su tipo jamás construídas en la Gran
+Bretaña, a la Red Nacional de Ferrocarriles de
+España. Las primeras conducen rápidamente
+pasajeros y pesados minerales, en una línea con
+una pendiente general de 1 en 50, con curvas
+cerradas y muchos túneles. Las locomotoras
+ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
+—están satisfaciendo los requerimientos espec-
+iales de 29 países.
+PROYECTILES MANDADOS —velocidad super-
+sónica, energía atómica— solamente tres
+campos en que el trabajo precursor ENGLISH
+ELECTRIC ha traído adelantos de import-
+ancia. Esta foto muestra el lanzamiento de prueba de
+un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [78.7, 8.6, 98.7, 37.9]
+  - Source context: missile
 
-The page features three distinct images, each with a caption.
+The page contains three black and white photographs.
 
-The first image shows a large aircraft, likely a bomber, inside a hangar. Several other aircraft are visible in the background, suggesting a manufacturing or maintenance facility. A person stands near the front of the aircraft.
-The caption for this image is: "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
+The first image, located in the upper left, shows an airplane inside a hangar, with several other aircraft visible in the background. A person stands near the front of the plane.
+Caption: "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
 
-The second image depicts a modern electric locomotive, numbered "7710" and marked "RFE", pulling a long train of freight cars on a curved track. The scene appears to be in an industrial or rail yard setting with multiple tracks.
-The caption for this image is part of a larger text block to its right, starting with: "3.600 H.P. EN ESPAÑA. Se están entregando 60 de estas locomotoras eléctricas, las más potentes de su tipo jamás construídas en la Gran Bretaña, a la Red Nacional de Ferrocarriles de España. Las primeras conducen rápidamente pasajeros y pesados minerales, en una línea con una pendiente general de 1 en 50, con curvas cerradas, muchos túneles. Las locomotoras ENGLISH ELECTRIC —eléctricas o diesel-eléctricas— están satisfaciendo los requerimientos especiales de 29 países."
+The second image, below the first, depicts a train, possibly an electric locomotive, on a track with several other tracks visible. The train has the number "7710" on its front.
+The caption for this image is combined with the one below it, starting with "3.600 H.P. EN ESPAÑA."
 
-The third image shows a missile launching into the sky, with a plume of smoke or exhaust visible at its base. The missile has fins and a pointed nose cone.
-The caption for this image is the second part of the text block to its right: "PROYECTILES MANDADOS—velocidad supersónica, energía atómica—solamente tres campos en que el trabajo precursor ENGLISH ELECTRIC ha traído adelantos de importancia. Esta foto muestra el lanzamiento de prueba de un proyectil mandado ENGLISH ELECTRIC."
+The third image, at the bottom left, shows a missile launching or in flight against a light sky.
+The caption for this image is combined with the one above it, starting with "PROYECTILES MANDADOS".
 
-A handwritten number "5" is present in red ink in the bottom right corner of the page.
+A handwritten red number "5" is present in the bottom right corner of the page.
 
 ## Uncertain Or Illegible
-There is faint, illegible text visible on the right side of the page, likely bleed-through from the reverse side. It is not part of the primary content of this page.
+None.
 
 ## Completeness Audit
-All visible text and images on the page have been transcribed and described. The layout and reading order have been preserved.
+All visible text and images on the page have been transcribed and described.
 
 ## Visual Region Manifest
 ```json
@@ -172,38 +187,38 @@ All visible text and images on the page have been transcribed and described. The
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [9.9, 33.9, 37.2, 73.0],
+      "bbox_pct": [9.9, 33.9, 37.3, 72.9],
       "caption_literal": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS",
       "caption_type": "source-caption",
       "identity_basis": null,
-      "source_context": "This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.",
+      "source_context": "airplane",
       "confidence": 0.95,
-      "suggested_filename": "english_electric_canberra_aircraft_hangar.png",
+      "suggested_filename": "airplane_canberra_english_electric.png",
       "inline_anchor": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
     },
     {
       "region_id": "region_2",
       "kind": "photograph",
-      "bbox_pct": [47.7, 84.0, 78.3, 73.0],
-      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.",
+      "bbox_pct": [47.7, 8.4, 78.2, 73.4],
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas y muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.\nPROYECTILES MANDADOS —velocidad super-\nsónica, energía atómica— solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de import-\nancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
       "caption_type": "source-caption",
       "identity_basis": null,
-      "source_context": "This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.",
+      "source_context": "train",
       "confidence": 0.95,
-      "suggested_filename": "english_electric_locomotive_spain.png",
-      "inline_anchor": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países."
+      "suggested_filename": "train_english_electric_7710.png",
+      "inline_anchor": "3.600 H.P. EN ESPAÑA."
     },
     {
       "region_id": "region_3",
       "kind": "photograph",
-      "bbox_pct": [78.7, 34.0, 98.0, 37.9],
-      "caption_literal": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
+      "bbox_pct": [78.7, 8.6, 98.7, 37.9],
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas y muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.\nPROYECTILES MANDADOS —velocidad super-\nsónica, energía atómica— solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de import-\nancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
       "caption_type": "source-caption",
       "identity_basis": null,
-      "source_context": "This image shows a missile launch, described as a test launch of an English Electric guided missile.",
+      "source_context": "missile",
       "confidence": 0.95,
-      "suggested_filename": "english_electric_missile_launch.png",
-      "inline_anchor": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC."
+      "suggested_filename": "missile_launch_english_electric.png",
+      "inline_anchor": "PROYECTILES MANDADOS"
     }
   ]
 }
@@ -525,43 +540,42 @@ All visible text and images on the page have been transcribed and described.
 ```
 
 ## Page Metadata
-- Page number: 10
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+Page number: 10
 
 ## Layout And Reading Order
-The page consists almost entirely of a single large color photograph. A handwritten page number is present at the bottom center of the page.
+The page features a single, full-page color photograph. A handwritten page number is present at the bottom center of the page.
 
 ## Literal Transcription
 10
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [3.0, 3.0, 97.0, 96.0]
-  - Source context: The main content of the page is this photograph.
+- ![converter-description: A full-page color photograph showing a herd of cattle near a watering hole, with a person on horseback in the mid-ground and another on a distant hill. The landscape features dry ground, sparse vegetation, and rolling hills under a hazy sky.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hills.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [0.0, 0.0, 100.0, 99.0]
+  - Source context: The primary visual content of the page.
 
-The page features a large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.
+The page is dominated by a full-page color photograph depicting a pastoral scene. In the foreground, a body of water (likely a pond or watering hole) is visible on the left, with dry, textured ground extending to the right. A herd of cattle, varying in color (brown, black, white, and spotted), is scattered across the ground, some appearing to be moving towards or away from the water. In the mid-ground, a person on horseback is visible among some sparse vegetation and rising terrain. Further back, rolling hills covered in scrub and some trees extend into the background under a hazy sky. Another person on horseback is visible higher up on the right side of the hill.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The page is complete.
+The page is fully transcribed and all visual elements are described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "vis-001",
       "kind": "photograph",
-      "bbox_pct": [0.03, 0.03, 0.97, 0.96],
-      "caption_literal": "A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.",
+      "bbox_pct": [0.0, 0.0, 100.0, 99.0],
+      "caption_literal": "A full-page color photograph showing a herd of cattle near a watering hole, with a person on horseback in the mid-ground and another on a distant hill. The landscape features dry ground, sparse vegetation, and rolling hills under a hazy sky.",
       "caption_type": "converter-description",
       "identity_basis": "visual-only",
-      "source_context": "The main content of the page is this photograph.",
+      "source_context": "The primary visual content of the page.",
       "confidence": "high",
-      "suggested_filename": "cattle_watering_hole_hilly_landscape"
+      "suggested_filename": "cattle_watering_hole_hills"
     }
   ]
 }
@@ -862,25 +876,26 @@ This page has been transcribed in its entirety. All text, including the glued-on
 ```
 
 ## Page Metadata
-Page 14
+Page number: 14
 
 ## Layout And Reading Order
-The page contains a single column of typed text, likely from a newspaper or magazine article, with a header across the top. Below the main article, there is a short section of promotional text. Several handwritten annotations are present on the page, including a large title, a page number, and a name.
+The page contains a single column of typewritten text in Spanish. At the top, there are several headers: "MERO GIGANTE", "ENERO", "FEBRERO", and "EL AGUILA", separated by horizontal lines. Below these headers, the main body of text begins with "ESCRIBE EL DIRECTOR" and continues with a detailed description of a property called "EL FUNDO LOS CUARTOS". Towards the bottom of the page, there is a concluding block of text related to the publisher "EL AGUILA". Several handwritten annotations in red ink are present at the bottom of the page, including a large, faint "EL AGUILA", the page number "14", and a name "JR DARIO PULGARA".
 
 ## Literal Transcription
-MERO GIGANTE ENERO FEBRERO EL AGUILA
----
+MERO GIGANTE
+ENERO FEBRERO EL AGUILA
+___
 ESCRIBE EL DIRECTOR
 EL FUNDO LOS CUARTOS
 EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
 DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
-FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
-SIRVIERON PARA AGRANDAR SU FUNDO AL CONPRAR 300 MAS Y JUNTAS FORMARON LA
+FUNDO ALLA POR EL AÑO 1917 SE COMPONIA SOLAMENTE DE 300 HECTAREAS QUE
+SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
 ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
 DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
 DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
-CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
+CON EL FUNDO " NATALIA " Y AL ESTE CON LOS "FUNDOS" SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
 NORTE /
@@ -892,52 +907,99 @@ CONCRETO. EN FUNDO TAMBIEN CONSTA CON BODEGAS Y GADPONES TAMBIEN DE CO
 NCRETO ../
 DENTRO DE POCO EL FUNDO CONSTARA CON LUS WLECTRICA DEL ABANICO EL
 PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.
----
+___
 EL PERIODICO DE LA EMPRESA EDITORA
 EL AGUILA
-
 HAGASE LECTOR
-
 ESCRIBA A NUESTRA EMPRESA O
 PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
 CHILE
 JR DARIO PULGARA
 
-[Handwritten, large, red ink, vertically oriented on left side of page:]
-EL AGUILA
-
-[Handwritten, red ink, bottom center:]
-14
-
 ## Images, Captions, And Visual Notes
-- A large, handwritten title "EL AGUILA" is written vertically in red ink along the left margin of the page.
-- The page number "14" is handwritten in red ink at the bottom center of the page.
-- The name "JR DARIO PULGARA" is handwritten in red ink below the promotional text at the bottom right of the page.
-- There are several small handwritten checkmarks or slashes in the typed text, indicating corrections or emphasis. These are transcribed as `/` or `.` where they appear to be part of the text flow.
+A large, faint, handwritten "EL AGUILA" in red ink is visible in the lower left quadrant of the page, partially obscured by the printed text and the handwritten page number.
+The page number "14" is handwritten in red ink at the bottom left.
+A handwritten name "JR DARIO PULGARA" in red ink is present at the bottom right of the page.
 
 ## Uncertain Or Illegible
-- "CONPONIA" might be "COMPONIA" (a common misspelling).
-- "CUIDAD" might be "CIUDAD" (a common misspelling).
-- "WLECTRICA" might be "ELECTRICA" (a common misspelling).
-- "GADPONES" might be "GALPONES" (a common misspelling).
+- "HEREDO´": The accent mark is present but slightly faded.
+- "LUS WLECTRICA": This appears to be a literal transcription, possibly a typo for "LUZ ELÉCTRICA".
+- "GADPONES": This appears to be a literal transcription, possibly a typo for "GALPONES".
 
 ## Completeness Audit
-All visible text and handwritten annotations have been transcribed.
+All visible text and handwritten annotations on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were identified. Handwritten notes and marks are transcribed in the text and described in visual notes."}
+{
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [
+        10.0,
+        55.0,
+        60.0,
+        70.0
+      ],
+      "caption_literal": "EL AGUILA",
+      "caption_type": "converter-description",
+      "identity_basis": "literal-text",
+      "source_context": "Faint, large, handwritten text in red ink, partially obscured.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_el_aguila_faint.png",
+      "inline_anchor": "A large, faint, handwritten \"EL AGUILA\" in red ink is visible"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [
+        20.0,
+        90.0,
+        25.0,
+        92.0
+      ],
+      "caption_literal": "14",
+      "caption_type": "converter-description",
+      "identity_basis": "literal-text",
+      "source_context": "Handwritten page number in red ink.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_page_number_14.png",
+      "inline_anchor": "The page number \"14\" is handwritten in red ink"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [
+        55.0,
+        95.0,
+        75.0,
+        97.0
+      ],
+      "caption_literal": "JR DARIO PULGARA",
+      "caption_type": "converter-description",
+      "identity_basis": "literal-text",
+      "source_context": "Handwritten name in red ink.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_name_jr_dario_pulgar_a.png",
+      "inline_anchor": "A handwritten name \"JR DARIO PULGARA\" in red ink is present"
+    }
+  ]
+}
 ```
 
 ## Page Metadata
 Page number: 15
+Source publication: El Aguila Nombre Grande
+Publication date: Enero Febrero 1956
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, resembling a newspaper or magazine article. There is a main header at the top, followed by three distinct text blocks, likely separate news items or paragraphs. A handwritten page number "15" is present at the bottom center.
+The page consists of a single column of text, with a header at the top, followed by three distinct articles, and a handwritten page number at the bottom. A horizontal line separates the header from the main content.
 
 ## Literal Transcription
 NUMERO GIGANTE
 EL " AGUILA " ENERO FEBRERO 1956
+---
 CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
@@ -947,21 +1009,22 @@ ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR.
 
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
-CON UN MODERNO Y CNFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
-UE CADA DIA ESTA TOMANDO MAS INPORTANCIA EN TODO ORDEN DE COSAS ASI LO
-SPERAMOS AUN QUE LA ENPRESA DE LOS FERROCARRILES SE ENCUENTRA AVOCADA A
-ARIOS CONPROMISOS QUE AFRONTAR DEBIDO A LA CONPLETA DESORGANISACION EN
-ODO ORDEN . DIOS QUIERA QUE ASI SEA Y QUE PRONTO TENGAMOS UN SERV IODO
+CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
+DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
+SPERAMOS AUN QUE LA EMPRESA DE LOS FERROCARRILES SE ENCUENTRA AVOCADA A
+ARIOS COMPROMISOS QUE AFRONTAR DEBIDO A LA COMPLETA DESORGANISACION EN
+ODO ORDEN . DIOS QUIERA QUE ASI SEA Y QUE PRONTO TENGAMOS UN SERV ICIO
 ERROVIARIO COMO LO PIDE "CHILE""
-"" PINCHASO ""
+" PINCHASO ""
+
 ATASTROFE
 A PRINCIPIOS DE FEBRERO SE PRODUJO UNA CATASTROFE FERROVIARIA SIMILAR
 A LA DE SAN BERNARDO EL SALDO FUE 24 "MUERTOS " Y UN CENTENAR DE HERIDOS
 EN EL KILOMETRO 7 DEL FERROCARRIL A CARTAGENA SE ENCONTRABA DETENIDO
-UN CONVOY REPLETO DE NINOS QUE SE DIRIGIAN A APROVECHAR UN DIA DE SOL.
-ACOMPAÑADOS DE SUS PADRES UN DESPERFECTO DE LOS FRENOS INPIDIO CONTINUSR
+UN CONVOY REPLETO DE NIÑOS QUE SE DIRIGIAN A APROVECHAR UN DIA DE SOL.
+ACOMPAÑADOS DE SUS PADRES UN DESPERFECTO DE LOS FRENOS IMPIDIO CONTINUAR
 EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA . ESCRIBIO WIMO
@@ -969,21 +1032,10 @@ FALLA HUMANA . ESCRIBIO WIMO
 15
 
 ## Images, Captions, And Visual Notes
-- A handwritten page number "15" is present at the bottom center of the page.
+- A handwritten number "15" is present at the bottom center of the page, indicating the page number.
 
 ## Uncertain Or Illegible
-- "INFLAMACION" is transcribed as seen, though the 'FL' combination is somewhat compressed.
-- "CNFORTABLE" is transcribed as seen, likely a typo for "CONFORTABLE".
-- "INPORTANCIA" is transcribed as seen, likely a typo for "IMPORTANCIA".
-- "ENPRESA" is transcribed as seen, likely a typo for "EMPRESA".
-- "CONPROMISOS" is transcribed as seen, likely a typo for "COMPROMISOS".
-- "CONPLETA" is transcribed as seen, likely a typo for "COMPLETA".
-- "DESORGANISACION" is transcribed as seen, likely an older spelling or typo for "DESORGANIZACION".
-- "SERV IODO" is transcribed as seen, likely a typo for "SERVICIO".
-- "TWLEGRAFO" is transcribed as seen, likely a typo for "TELEGRAFO".
-- "NINOS" is transcribed as seen, missing the tilde for "NIÑOS".
-- "INPIDIO" is transcribed as seen, likely a typo for "IMPIDIO".
-- "CONTINUSR" is transcribed as seen, likely a typo for "CONTINUAR".
+None.
 
 ## Completeness Audit
 All visible text and the handwritten page number have been transcribed.
@@ -991,8 +1043,19 @@ All visible text and the handwritten page number have been transcribed.
 ## Visual Region Manifest
 ```json
 {
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present. The handwritten page number is minor and described in the text."
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "number",
+      "bbox_pct": [49.9, 93.4, 54.2, 96.0],
+      "caption_literal": "15",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-supplied",
+      "source_context": "The handwritten page number at the bottom center of the page.",
+      "confidence": 5,
+      "suggested_filename": "page_number_15"
+    }
+  ]
 }
 ```
 
@@ -1045,121 +1108,97 @@ The transcription is complete and accurate.
 ```
 
 ## Page Metadata
-
-- Page: 17
+Page number: 17
 
 ## Layout And Reading Order
-
-The page contains a handwritten title at the top, followed by a large photograph with a caption printed underneath it. Below this is a second large photograph that takes up the bottom half of the page. The reading order is top to bottom.
-
-1.  Handwritten title at the top margin.
-2.  Top photograph. `[photo-1]`
-3.  Caption for the top photograph.
-4.  Bottom photograph. `[photo-2]`
+The page features handwritten text at the top, followed by two large photographs stacked vertically. A single caption is placed between the two photographs, describing both.
 
 ## Literal Transcription
-
-[Handwritten in the top margin, first line in red/pink ink, second line in blue/purple ink]
 EL "OJOS DEL SALADO"
 FUE ESCALADO
 
-[photo-1]
-
-[Caption below photo-1]
 LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.
-
-[photo-2]
+[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.
 
 ## Images, Captions, And Visual Notes
-
 Pipeline-extracted visual crops:
-- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [10.1, 11.1, 91.8, 52.4]
-  - Source context: Five climbers at the summit of Ojos del Salado.
-- ![converter-description: Climbers from the Ojos del Salado expedition.](../extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [10.1, 58.3, 91.8, 95.1]
-  - Source context: Climbers from the Ojos del Salado expedition.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [69.0, 34.0, 96.0, 65.0]
+  - Source context: A group of five climbers on a rocky mountain peak.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-02-climbers-group-with-tent.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [69.0, 66.0, 96.0, 97.0]
+  - Source context: A group of nine climbers standing in a desolate landscape with a tent.
 
-- **Handwritten title:** A title, "EL 'OJOS DEL SALADO' FUE ESCALADO" (THE "OJOS DEL SALADO" WAS CLIMBED), is written by hand in the top margin of the page.
-- **[photo-1]** A black and white photograph showing five climbers in heavy winter gear sitting and resting among large rocks at what appears to be a mountain summit.
-- **[photo-2]** A black and white photograph showing a group of at least nine climbers in full expedition gear standing in a snowy, mountainous landscape. A small tent is visible on the right.
+The top of the page has handwritten text in two lines. The first line, in red/orange ink, reads "EL "OJOS DEL SALADO"". The second line, in blue ink, reads "FUE ESCALADO".
+
+Below the handwritten text is a black and white photograph showing five individuals in winter climbing gear, sitting on a rocky, possibly snow-covered mountain peak. The background is a hazy sky. This image is anchored by the inline anchor `[[image_001_top_climbers]]`.
+
+Below the first photograph is a printed caption in Spanish. It describes the achievement of reaching the summit of El Salado, the highest mountain in America. It notes that six people reached the summit, but only five are visible in the photo, as the sixth person took the picture.
+
+Below the caption is a second black and white photograph showing a group of nine individuals in winter climbing gear standing in a desolate, open landscape with mountains in the background. A small tent is visible on the right side of the image. This image is anchored by the inline anchor `[[image_002_group_and_tent]]`.
 
 ## Uncertain Or Illegible
-
-- **Caption for photo-1:** The first word of the second line of the caption is partially obscured by the book's gutter. The visible portion reads "eron". The full word is likely "fueron".
+- The beginning of the second line of the printed caption is partially obscured or cut off. It appears to start with "eron", likely part of "Fueron". The transcription reflects the visible characters: `[?]eron seis los que llegaron`.
 
 ## Completeness Audit
-
-This page has been fully transcribed and all visual elements have been described.
+All visible text and images on the page have been transcribed and described.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "photo-1",
+      "region_id": "image_001_top_climbers",
       "kind": "photograph",
-      "bbox_pct": [
-        10.1,
-        11.1,
-        91.8,
-        52.4
-      ],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "bbox_pct": [69.0, 34.0, 96.0, 65.0],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\n[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
-      "identity_basis": "group",
-      "source_context": "Five climbers at the summit of Ojos del Salado.",
-      "confidence": "high",
-      "suggested_filename": "page-0017-photo-1.jpg",
-      "inline_anchor": "[photo-1]"
+      "identity_basis": null,
+      "source_context": "A group of five climbers on a rocky mountain peak.",
+      "confidence": 0.95,
+      "suggested_filename": "top_climbers_on_el_salado"
     },
     {
-      "region_id": "photo-2",
+      "region_id": "image_002_group_and_tent",
       "kind": "photograph",
-      "bbox_pct": [
-        10.1,
-        58.3,
-        91.8,
-        95.1
-      ],
-      "caption_literal": null,
-      "caption_type": "converter-description",
-      "identity_basis": "group",
-      "source_context": "Climbers from the Ojos del Salado expedition.",
-      "confidence": "high",
-      "suggested_filename": "page-0017-photo-2.jpg",
-      "inline_anchor": "[photo-2]"
+      "bbox_pct": [69.0, 66.0, 96.0, 97.0],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\n[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "A group of nine climbers standing in a desolate landscape with a tent.",
+      "confidence": 0.95,
+      "suggested_filename": "climbers_group_with_tent"
     }
   ]
 }
 ```
 
 ## Page Metadata
-Page 18
+Page Number: 18
 
 ## Layout And Reading Order
-The page contains handwritten text in red ink, arranged vertically down the center of the page. The text appears to be a title or introductory information for a document or ledger.
+The page contains handwritten text in red ink, centered vertically and horizontally on an aged, discolored paper. The text appears to be a title or introductory information for a document or ledger.
 
 ## Literal Transcription
 1956
 ENERO
-FERRERO
-JUSTICIA / VERDAD
-EL AGUILA.
-_
+FERREIO
+JUSTICIA / VIERDAD
+EL AGUILA. _
 
 ## Images, Captions, And Visual Notes
-The entire page consists of handwritten text in red ink on aged, discolored paper. There are no distinct images or captions to crop. The word "AGUILA" is underlined.
+The entire page consists of handwritten text in red ink on aged paper. There are no distinct images or captions separate from the main text. The word "AGUILA" is underlined.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+- The word "FERREIO" could potentially be "FEBRERO" given the context of "ENERO" (January), but the handwritten characters strongly resemble "FERREIO".
+- The word "VIERDAD" could potentially be "VERDAD", but the handwritten characters clearly show an 'I' after the 'V'.
 
 ## Completeness Audit
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like photos, maps, or complex diagrams. The page contains only handwritten text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present; the page contains only handwritten text."}
 ```

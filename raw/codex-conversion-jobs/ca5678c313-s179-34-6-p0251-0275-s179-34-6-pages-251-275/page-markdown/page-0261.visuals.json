@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:04Z",
+  "created": "2026-05-17T16:47:05Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "emblem_seal_001",
+      "region_id": "vr_1",
       "kind": "illustration",
-      "caption_literal": "Emblem/Seal",
+      "caption_literal": "Decorative crest or seal featuring a shield with a sunburst and branches.",
       "caption_type": "converter-description",
-      "identity_basis": "visual_appearance",
-      "source_context": "Central emblem on the title page, below the main title and above the publisher information.",
-      "confidence": "high",
+      "identity_basis": "converter-description",
+      "source_context": "Centered on the page, between the main title and publication details.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
+        49.0,
         40.0,
-        50.0,
-        60.0,
-        58.0
+        58.0,
+        53.0
       ],
       "bbox_pixels": [
-        388,
-        648,
-        592,
-        760
+        476,
+        517,
+        572,
+        695
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-emblem-seal-1906.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-emblem-seal-1906.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-decorative-crest-seal-page-261.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-decorative-crest-seal-page-261.png",
       "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/page-images/page-0261.jpg",
       "source": "raw/sources/S179-34-6.pdf",
       "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",

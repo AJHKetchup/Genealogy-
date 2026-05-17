@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:29:18Z",
+  "created": "2026-05-17T16:47:00Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,16 +8,8 @@
   "page": 187,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200/page-images/page-0187.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200/page-markdown/page-0187.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains a small, simple seal and a faint watermark, neither of which are substantial enough to warrant cropping as standalone visual assets.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "visual_001",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "INSPECCION SANITARIA\nDE LA\nPROSTITUCION\n☿",
-      "source_context": "This is a pre-printed stamp or logo on the top left of the page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

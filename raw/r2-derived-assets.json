@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T16:21:35.798778+00:00",
+  "created": "2026-05-17T16:53:28.080460+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -698,8 +698,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png",
-      "bytes": 1966168,
-      "sha256": "c52ac10dac585392c874d93a9cc98fe546105c769a5048b5d946add265d713b0",
+      "bytes": 2673207,
+      "sha256": "4dd8dbfaabd51883c94c93cc6508e16f1d14eb5f010e73ad9a099f8f35903ab4",
       "media_type": "image/png"
     },
     {
@@ -717,10 +717,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-train-english-electric-7710.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-train-english-electric-7710.png",
+      "bytes": 4995683,
+      "sha256": "78ad18531c4b3519dc28b59d7d33c8d9cdc73cfb9ccd1ff1bd551e32f9339f75",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
       "bytes": 85997,
       "sha256": "dd34124e25c92f527fdd566fbcd83acfa6a59a92fd9ab6ae243b073c5e707c7d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png",
+      "bytes": 704734,
+      "sha256": "5d2fcae33d84ff6fcc680fb1fff4ca2ddc969a2a48ab086add0bf7b62e7979e0",
       "media_type": "image/png"
     },
     {
@@ -1053,6 +1067,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-decorative-crest-seal-page-261.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-decorative-crest-seal-page-261.png",
+      "bytes": 26530,
+      "sha256": "953c549d3bb9a186da90d3e9ee5507f776e7e1a2220a823b68b10248daaf75da",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-emblem-seal-1906.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-emblem-seal-1906.png",
       "bytes": 41995,
@@ -1062,36 +1083,43 @@
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0262/page-0262-image-01-illustration-acne-sifilitico.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0262/page-0262-image-01-illustration-acne-sifilitico.png",
-      "bytes": 1066410,
-      "sha256": "c38ec7587c98e17336da02c36de17c2749228d2ec3cd4ac57d91b167e344bf13",
+      "bytes": 1020706,
+      "sha256": "a7dc07a6515a17cc7ededfa32099a6ad7f6508ba2e561ee4b6f25cbd49047894",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
-      "bytes": 863568,
-      "sha256": "ec0b84caa5d08ec80e264130331a51969fd35b8aca1c820723d5cbbc797ce638",
+      "bytes": 918442,
+      "sha256": "6a3d65df75bac3d171eb7d9c7c5f0b217ece3b45b69b559542f4becf707ccdb6",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0282/page-0282-image-01-illustration-sifilide-polimorfa.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0282/page-0282-image-01-illustration-sifilide-polimorfa.png",
-      "bytes": 1121939,
-      "sha256": "f0ff33e9470a459b76523aeb118e430eb93839286d27b9a7927e964592252662",
+      "bytes": 996184,
+      "sha256": "0092022883c10942dec2b29135f6878a1f934152433b6d2bbba64d483def61dd",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0285/page-0285-image-01-illustration-nariz-hundida-por-la-sifilis.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0285/page-0285-image-01-illustration-nariz-hundida-por-la-sifilis.png",
-      "bytes": 684587,
-      "sha256": "009d5410ebf4991a54bd927a409901b8e662acffba953045f0ecfaa925c562c6",
+      "bytes": 621531,
+      "sha256": "c25e2a7b615654f69c550545ef8af4ab484462384741ccccfe4dcdc9b2232e28",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
-      "bytes": 2372532,
-      "sha256": "c296039a29d47d892249aadb673ad83adf7a2f6afcce4693f298b89d8b748506",
+      "bytes": 2349001,
+      "sha256": "272b35dd9f646adf696230813f4b695ebaa77061a7be9770924cc16cbe3fa818",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0313/page-0313-image-01-hotel-crest.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0313/page-0313-image-01-hotel-crest.png",
+      "bytes": 22488,
+      "sha256": "b2ef87a8d85f6d60afdc45743f7fb465be86b3f480b2a3cb363ac453ce9fc1c6",
       "media_type": "image/png"
     },
     {
@@ -1176,6 +1204,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0323/page-0323-image-01-photograph-river-dock-distant-shore.png",
       "bytes": 93209,
       "sha256": "bb727fec3443cad3a4e169247122439a7d95c513eb19511a7876d23051d3630a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0325/page-0325-image-01-page-0325-portrait-man-foliage-background.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0325/page-0325-image-01-page-0325-portrait-man-foliage-background.png",
+      "bytes": 120406,
+      "sha256": "9f764cc5ec1db6428be127f6fee6cea5aef3f29374818dfd385bcde00de6e7d7",
       "media_type": "image/png"
     },
     {
@@ -1307,8 +1342,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0408/page-0408-image-01-panoramic-view-el-teniente-sewell-la-junta.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0408/page-0408-image-01-panoramic-view-el-teniente-sewell-la-junta.png",
-      "bytes": 401431,
-      "sha256": "c45bcb559b66c61dd8148abdb283cf89c25c8e9188c34840533a8ac5e8e320c3",
+      "bytes": 399053,
+      "sha256": "7f88d0956e19f4ff6b44e843f39e2459cdbf79aefc49334546aec2766b081036",
       "media_type": "image/png"
     },
     {
@@ -1452,10 +1487,31 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0471/page-0471-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0471/page-0471-docling-image-01.png",
+      "bytes": 44068,
+      "sha256": "774700bd99071cc64201f26329eac02426fed731aa223d78bb60077f548810f8",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0476/page-0476-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0476/page-0476-docling-image-01.png",
       "bytes": 55288,
       "sha256": "8e917fc0725cbdce16aceda2eee8abd8044430a23972d529411c15235de1795f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0603/page-0603-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0603/page-0603-docling-image-01.png",
+      "bytes": 26109,
+      "sha256": "8b2c29268086a31dc57f1db81fd24f879c6c0d44ed8d18d650879b3529e1d737",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0604/page-0604-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0604/page-0604-docling-image-01.png",
+      "bytes": 27443,
+      "sha256": "66c64152c6b881e33916339e8c4b93461651dcfc2f9c5dd01a3945fd61accbeb",
       "media_type": "image/png"
     },
     {
@@ -3366,10 +3422,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 51,
+    "total_bytes": 86988990,
+    "uploaded": 15,
+    "skipped": 36,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -3379,9 +3435,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 478,
+      "scanned": 486,
       "deleted": 0,
-      "skipped": 478,
+      "skipped": 486,
       "errors": []
     }
   }

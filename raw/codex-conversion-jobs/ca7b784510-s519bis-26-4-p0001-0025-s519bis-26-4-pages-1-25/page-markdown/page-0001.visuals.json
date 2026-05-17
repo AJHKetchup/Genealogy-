@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:09:07Z",
+  "created": "2026-05-17T16:47:47Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-images/page-0001.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "No substantial visual content to crop; all meaningful information is textual and captured in the transcription.",
+  "no_visual_regions_reason": "The page contains only handwritten text on a plain background; there are no substantial images, diagrams, or other visual elements suitable for cropping.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

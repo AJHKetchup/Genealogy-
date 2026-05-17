@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:46Z",
+  "created": "2026-05-17T16:47:25Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,8 +8,16 @@
   "page": 336,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0336.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0336.md",
-  "no_visual_regions_reason": "The page contains a single card with text. There are no substantial visual elements like portraits, maps, or diagrams that would warrant cropping as standalone assets. The card itself is the primary source item, and its content is captured by transcription.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "document",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "A light-colored card with handwritten text and faint embossed text. A small hole is punched in the top right corner.",
+      "source_context": "The entire visible page content is a single card."
+    }
+  ],
   "flags": []
 }

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:06:24Z",
+  "created": "2026-05-17T16:45:16Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -16,23 +16,23 @@
       "caption_literal": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
-      "source_context": "This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.",
+      "source_context": "airplane",
       "confidence": "0.95",
       "inline_anchor": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS",
       "bbox_pct": [
         9.9,
         33.9,
-        37.2,
-        73.0
+        37.3,
+        72.9
       ],
       "bbox_pixels": [
         466,
         2524,
-        1771,
-        5448
+        1775,
+        5441
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0005.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
@@ -43,26 +43,26 @@
     {
       "region_id": "region_2",
       "kind": "photograph",
-      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.",
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas y muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.\nPROYECTILES MANDADOS —velocidad super-\nsónica, energía atómica— solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de import-\nancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
-      "source_context": "This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.",
+      "source_context": "train",
       "confidence": "0.95",
-      "inline_anchor": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas, muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.",
+      "inline_anchor": "3.600 H.P. EN ESPAÑA.",
       "bbox_pct": [
         47.7,
-        73.0,
-        78.3,
-        84.0
+        8.4,
+        78.2,
+        73.4
       ],
       "bbox_pixels": [
         2261,
-        5440,
-        3722,
-        6269
+        622,
+        3718,
+        5478
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-train-english-electric-7710.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-train-english-electric-7710.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0005.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
@@ -73,26 +73,26 @@
     {
       "region_id": "region_3",
       "kind": "photograph",
-      "caption_literal": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas y muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.\nPROYECTILES MANDADOS —velocidad super-\nsónica, energía atómica— solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de import-\nancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
-      "source_context": "This image shows a missile launch, described as a test launch of an English Electric guided missile.",
+      "source_context": "missile",
       "confidence": "0.95",
-      "inline_anchor": "PROYECTILES MANDADOS—velocidad super-\nsónica, energía atómica—solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de impor-\ntancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
+      "inline_anchor": "PROYECTILES MANDADOS",
       "bbox_pct": [
         78.7,
-        34.0,
-        98.0,
+        8.6,
+        98.7,
         37.9
       ],
       "bbox_pixels": [
         3733,
-        2532,
-        4658,
+        637,
+        4691,
         2831
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0005.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",

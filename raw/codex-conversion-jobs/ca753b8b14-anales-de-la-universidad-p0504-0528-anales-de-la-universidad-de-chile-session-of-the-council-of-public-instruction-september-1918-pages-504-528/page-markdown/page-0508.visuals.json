@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:09:02Z",
+  "created": "2026-05-17T16:47:43Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "vr1",
       "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "BRITISH MUSEUM\nNATURAL HISTORY\n[Coat of Arms]\n1918",
-      "source_context": "A faint circular stamp in the center of the page."
+      "caption_literal": "BRITISH MUSEUM\nNATURAL HISTORY\n[circular stamp with a coat of arms in the center]",
+      "source_context": "A library or institutional stamp indicating ownership or provenance."
     }
   ],
   "flags": []

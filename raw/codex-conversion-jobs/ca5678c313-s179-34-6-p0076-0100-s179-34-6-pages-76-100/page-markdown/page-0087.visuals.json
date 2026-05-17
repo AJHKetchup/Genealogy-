@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:06:18Z",
+  "created": "2026-05-17T16:45:06Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,8 +8,39 @@
   "page": 87,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0087.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0087.md",
-  "no_visual_regions_reason": "The page contains only a small handwritten note on a slip of paper. The content is fully captured by transcription, and the visual itself does not meet the criteria for a standalone wiki asset (e.g., portrait, map, large illustration, or complex diagram).",
-  "visual_regions": [],
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "A small, light-colored piece of paper with handwritten text. The text reads \"Montevideo\" (underlined) and \"Police Dept. Force\". In the upper right corner, the number \"12\" is circled. The paper is creased and has a fold in the bottom right.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "The entire visible content of the page is a single piece of paper with handwritten notes.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        10.0,
+        89.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        83,
+        66,
+        776,
+        624
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0087/page-0087-image-01-handwritten-note-montevideo-police-dept-force-12.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0087/page-0087-image-01-handwritten-note-montevideo-police-dept-force-12.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0087.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 87,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0087.md"
+    }
+  ],
   "skipped_regions": [],
   "flags": []
 }

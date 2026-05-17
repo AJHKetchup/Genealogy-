@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:42Z",
+  "created": "2026-05-17T16:47:26Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -15,8 +15,8 @@
       "region_id": "vr_1",
       "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "EXPRESO INTERNACIONAL\n20 JUN 1924\n[?]",
-      "source_context": "A blue rectangular stamp with date and express service information."
+      "caption_literal": "EXPRESO INTERNACIONAL\n20 JUN 1924\nR.E.P. [?]",
+      "source_context": "A blue rectangular stamp in the lower-left corner of the page."
     }
   ],
   "flags": []

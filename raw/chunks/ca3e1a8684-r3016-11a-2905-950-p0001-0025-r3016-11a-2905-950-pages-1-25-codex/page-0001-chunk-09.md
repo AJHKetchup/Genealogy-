@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-53214ceeb9db-P0001-09
+chunk_id: CHUNK-7ffcbf6d4438-P0001-09
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25.codex.md
-converted_sha256: 53214ceeb9db0525d3dc5f46c39013816af5fd454b93a844591545c5b0be47a5
+converted_sha256: 7ffcbf6d443865be5ca4f18f183d388222f6d1bcb810282defe9d11c20ec1a92
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json
@@ -219,10 +219,14 @@ All visible text and structural elements of the form have been transcribed.
 ```
 
 ## Page Metadata
-Page number: 5
+- Page number: 5
+- Source publication year: 1935 (inferred from content)
+- Source publication title: [Unknown, likely related to a 1935 conference]
+- Document type: Handwritten note on a loose sheet of paper
+- Language: French
 
 ## Layout And Reading Order
-The page contains a single block of handwritten text in French, centered vertically and slightly to the left, followed by an underline. There is a hole punch in the top right corner of the page.
+The page contains a single handwritten note in French, occupying the upper-middle portion of the page. There is a hole punch in the top right corner.
 
 ## Literal Transcription
 Voir f das 2
@@ -230,24 +234,21 @@ la chemise
 les documents imprimés
 se rapportant à la
 1935 Conférence
-_______
+___
 
 ## Images, Captions, And Visual Notes
-A circular hole punch is present in the top right corner of the page.
+A circular hole punch is present in the top right corner of the page, approximately 0.5 cm from the top edge and 0.5 cm from the right edge.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete and captures all visible text and relevant visual features on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present for cropping. The page contains only handwritten text and a hole punch."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a minor hole punch, neither of which warrants a standalone visual crop."}
 ```
 
 ## Page Metadata
 Page number: 6
-
-## Layout And Reading Order
-The page contains a single column of typed text, resembling a memo or report. At the top left, there is a rectangular stamp with "RECEIVED" and a date, partially overlapping with handwritten notes. Additional handwritten notes and a filing number are present at the top center and right. The main body of the text is structured with an introductory paragraph, followed by two sections of numbered points, and then a concluding paragraph with bulleted references.

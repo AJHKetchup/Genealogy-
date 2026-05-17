@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:05:51Z",
+  "created": "2026-05-17T16:44:36Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "visreg_1",
+      "region_id": "region_1",
       "kind": "signature",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Le Secrétaire-Général\ndu Ministère des Affaires Etrangères des Pays-Bas\n[handwritten signature]",
-      "source_context": "The handwritten text identifies the signatory as 'Le Secrétaire-Général du Ministère des Affaires Etrangères des Pays-Bas'."
+      "caption_literal": "handwritten signature",
+      "source_context": "Le Secrétaire-Général du Ministère des Affaires Etrangères des Pays-Bas"
     }
   ],
   "flags": []

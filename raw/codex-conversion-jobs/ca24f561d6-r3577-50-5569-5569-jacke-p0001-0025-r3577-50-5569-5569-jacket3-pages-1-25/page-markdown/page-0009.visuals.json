@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:05:49Z",
+  "created": "2026-05-17T16:44:36Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
@@ -8,7 +8,7 @@
   "page": 9,
   "page_image": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/page-images/page-0009.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/page-markdown/page-0009.md",
-  "no_visual_regions_reason": "No substantial visuals to crop. The page contains only text and a minor hole punch mark.",
+  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The hole punch is a minor mark and does not warrant a crop box.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

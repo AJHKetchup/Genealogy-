@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dc214f379069-P0001-04
+chunk_id: CHUNK-b30d17c4b45e-P0001-04
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: dc214f379069f8c41c9fefd4227b677910d0c49efe97ead21b79694741a12f14
+converted_sha256: b30d17c4b45e99bf3f42ea292fcbfbbb354e164459ad07e73e7b0e3dc6c53771
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -10,6 +10,50 @@ page_start: 1
 page_end: 1
 part: 4
 ---
+
+## Completeness Audit
+The transcription is complete and accurate.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful images, captions, or visual notes."}
+```
+
+## Page Metadata
+Page number: 42
+
+## Layout And Reading Order
+The page contains a single block of typewritten text in French, presented in a single column. There are two binder holes visible on the left margin.
+
+## Literal Transcription
+de ces tendances dans un pays voisin des Etats-Unis,
+dont l'attitude ne peut pas leur être indifférente.
+Si M. Norman Davis trouve que ces idées générales
+sont conformes aux intérêts politiques et sociaux de son
+pays, il serait peut-être possible qu'il attire l'atten-
+tion de M. Stimson sur cette situation, afin que celui-ci
+donne nettement l'impression à M. Tellez, Ministre des
+Affaires Etrangères du Mexique, que les Etats-Unis n'ont
+pas le moindre intérêt à voir le Mexique s'éloigner de
+la Société des Nations. Une telle démarche serait pro-
+bablement suffisante, étant donné qu'il n'est pas impos-
+sible que M. Tellez croit faire plaisir aux Etats-Unis
+en adoptant une politique de désintéressement vis à vis
+de la Société.
+Il est possible que M. Tellez estime que, de
+cette façon, il pourrait faire effacer le mécontentement
+qu'éventuellement le Gouvernement mexicain aurait provoqué
+à Washington par sa déclaration sur la doctrine de Monroe
+au moment d'entrer dans la Société des Nations.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. Two circular binder holes are present on the left margin of the page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
@@ -133,41 +177,42 @@ The transcription is complete and accurate, capturing all text and significant v
 ```
 
 ## Page Metadata
-Page: 46
+- Page number: 46
 
 ## Layout And Reading Order
 
-The page contains two distinct blocks of text. The main block of text, occupying the upper two-thirds of the page, is printed upside down and mirrored. The second block of text, at the very bottom of the page, is printed right-side up. A punch hole is present at the top center of the page. The transcription follows this reading order.
+The page contains text printed in two distinct sections. The majority of the page, from the top down to about two-thirds of the way, features text that is printed upside down and mirrored. This text appears to be the title and subtitle information for a publication. Below this, at the very bottom of the page, there is a single line of text printed right-side up and in standard orientation, which appears to be publication information. There is also a single punch hole near the top center of the page.
 
 ## Literal Transcription
 
-EMBAJADA DE MEXICO EN ESPAÑA
-RELACIONES
-INTERNACIONALES
-IBEROAMERICANAS
-DISCURSOS PRONUNCIADOS
-CON MOTIVO DE LA
-PRESENTACION DE CRE-
-DENCIALES DEL EMBAJADOR
-DE LOS ESTADOS
-UNIDOS MEXICANOS ANTE
-EL GOBIERNO DE LA
-REPUBLICA ESPAÑOLA
+.AЯA92Ǝ ИƎ OƆIXƎM Ǝᗡ AᗡAƧABMƎ
+2ƎИOIƆALƎЯ
+2ƎLAVOIƆAVЯƎTИI
+2AИAƆIЯƎMAOЯƎBVI
+-MOIƆИUИOЯ9 2O2ЯUƆ2Iᗡ
+.V.L Ǝᗡ OVITOM ИOƆ 2Oᗡ
+-ƎЯƆ Ǝᗡ ИOIƆATИƎ2ƎЯ9
+ЯƎMIЯ9 LƎᗡ 2ƎLAIƆIᗡUᗡ
+-WƎИVᗡOЯ LƎᗡ 2O⅃ ЯOᗡAƧABMƎ
+-OƆIXƎM 2OᗡIИU 2OᗡAT
+OИЯƎIᗡOƗ LƎ ATИOƆ 2OИ
+-2Ǝ AƆILBU9ƎЯ AL Ǝᗡ
+AᗡOИAЯ
 
 Talleres tipográficos de Espasa-Calpe, S. A. — Ríos Rosas, 24. Madrid
 
 ## Images, Captions, And Visual Notes
-A circular punch hole is present at the top center of the page.
-The main block of text is printed upside down and mirrored.
+
+- A single circular punch hole is present near the top center of the page, approximately 1.5 cm from the top edge.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
+All visible text and significant visual elements on the page have been transcribed or noted. The inverted and mirrored text has been transcribed literally as it appears on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were identified for cropping. The punch hole is a minor mark and not considered a standalone wiki asset."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The punch hole is a minor mark and not cropped per instructions."}
 
 ## Page Metadata
 Page number: 47
@@ -308,43 +353,3 @@ Page 50
 
 ## Layout And Reading Order
 The page contains a single column of text, starting with a title, followed by a salutation, and then the main body of the discourse. There is a hole punch at the top left.
-
-## Literal Transcription
-DISCURSO DEL SR. ING. ALBERTO
-J. PANI, EMBAJADOR EXTRAORDINA-
-RIO Y PLENIPOTENCIARIO DE LOS
-ESTADOS UNIDOS MEXICANOS
-
-Señor Presidente:
-
-Es para mí motivo de alta honra y ocasión
-de justificado orgullo el haber sido desig-
-nado por mi Gobierno como el primer Emba-
-jador Extraordinario y Plenipotenciario ante
-el Gobierno de la naciente República Espa-
-ñola. Las palabras, que han venido gastán-
-dose de tanto ser repetidas en las acostum-
-bradas fórmulas protocolarias del convencio-
-nalismo diplomático, recobran su fuerza
-original en esta ceremonia, porque la eleva-
-ción de nuestras respectivas Legaciones al
-rango de Embajada — como efecto casi in-
-mediato, en el campo internacional, de la
-presente transformación política y social de
-España — tiene un significado que traspasa
-los límites de un simple acto de cortesía o
-conveniencia entre dos países amigos para
-
-## Images, Captions, And Visual Notes
-A circular hole punch is present at the top left of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The transcription ends mid-sentence as the text continues on the next page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping. The hole punch is a minor artifact and not a meaningful visual asset."}
-```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c70689e0dc0c-P0001-01
+chunk_id: CHUNK-fdce9ad1f64d-P0001-01
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127.codex.md
-converted_sha256: c70689e0dc0ca7b97cc8b701d310ab91c112c81813aaf9086b28ec0aa644fbdb
+converted_sha256: fdce9ad1f64d95029ad6b634ab8d2e195a583f6e12ad50a731430591c71274a0
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json
@@ -25,6 +25,10 @@ part: 1
 Page number: 121
 
 ## Layout And Reading Order
+The page consists of a page number at the top left, followed by a series of centered text blocks, and then a main body of text with a "Vistos" section and a "Considerando" section, which contains four numbered paragraphs. The text is in Spanish.
+
+## Literal Transcription
+121
 
 MINISTERIO DE SALUD
 SUBSECRETARIA DE REDES ASISTENCIALES
@@ -38,7 +42,7 @@ N° 471 exenta.-
 
 Santiago, 18 de mayo de 2007.-
 
-**Vistos:** Lo dispuesto en los artículos N° 4 y N°
+Vistos: Lo dispuesto en los artículos N° 4 y N°
 7 del decreto con fuerza de ley N° 1, de 2005, de esta Secretaría de Estado, que
 fija el texto refundido, coordinado y sistematizado del decreto ley N° 2.763 y de las
 leyes N° 18.933 y N° 18.469; en el decreto supremo N° 136, de 2004, Reglamento
@@ -46,7 +50,7 @@ Orgánico del Ministerio de Salud; en el decreto supremo N° 252, de 2000, del
 Ministerio de Educación; en la resolución exenta N° 609, de 2003, de esta Cartera;
 y en la resolución N° 520, de 1996, de la Contraloría General de la República.
 
-**Considerando:**
+Considerando:
 
 1. Que, el Gobierno de Chile, acogiendo la Declaración Universal de la Unesco
 sobre la Diversidad Cultural, que define al patrimonio como fuente de creatividad,
@@ -80,25 +84,28 @@ This page contains no images or captions.
 None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph is cut off at the bottom of the page.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
 ```
 
 ## Page Metadata
 Page number: 122
 
 ## Layout And Reading Order
-The page consists of a single column of text, primarily composed of numbered paragraphs (5 through 9). The text begins with an unnumbered sentence that appears to be a continuation or preamble to the numbered points.
+The page contains a page number "122" in the top-left corner. The main content consists of a single column of text, divided into numbered paragraphs (5 through 9), which appear to be a continuation of a larger document.
 
 ## Literal Transcription
+
+122
+
 elementos y objetos de valor patrimonial, probados y enriquecidos durante
 décadas en el trabajo permanente de atender y asistir a nuestros conciudadanos.
 
 5. Que, el Consejo de Monumentos Nacionales a diciembre de 2006 ha declarado
-como Monumentos Nacionales a nueve de nuestros establecimientos de salud, a
+como Monumentos Nacionales a nueve de nuestros establecimientos de Salud, a
 los que se ha agregado recientemente el antiguo Hospital de Angol del Servicio de
 Salud Araucanía Norte, encontrándose varios más en trámite de declaratoria.
 
@@ -139,7 +146,7 @@ alma que anima a nuestros trabajadores y funcionarios de la salud, en beneficio 
 nuestra población, dicto la siguiente,
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual notes on this page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
 None.
@@ -149,14 +156,14 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 ```
 
 ## Page Metadata
 Page number: 123
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a page number at the top left, followed by a heading "Resolución:" and two numbered points, and concluding with a closing statement and signature.
+The page contains a single column of text, starting with a heading "Resolución:", followed by two numbered points, and concluding with a statement and signature.
 
 ## Literal Transcription
 123
@@ -177,17 +184,17 @@ The page contains a single column of text, starting with a page number at the to
     Iroume, Ministra de Salud.
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+No images or captions are present on this page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
+None. All text is clear and legible.
 
 ## Completeness Audit
 All text content on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page contains only text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
 ## Page Metadata

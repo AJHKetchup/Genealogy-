@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:18Z",
+  "created": "2026-05-17T16:47:14Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -12,18 +12,25 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "vr1",
+      "region_id": "region_1",
       "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "GRAND HOTEL LANATA\nPEDRO GELÓS\n688-SARANDI-594\nMONTEVIDEO\n-PORTERIA-",
-      "source_context": "Hotel stamp on the envelope."
+      "source_context": "Purple oval stamp on the envelope."
     },
     {
-      "region_id": "vr2",
-      "kind": "postmark",
+      "region_id": "region_2",
+      "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "C\n11\n26.JUL.24\n9\nMONTEVIDEO\nURUGUAY",
-      "source_context": "Circular postmark and cancellation lines on the envelope."
+      "caption_literal": "MONTEVIDEO\nC\n11 9 H\n24 JUL 24",
+      "source_context": "Circular postmark on the envelope."
+    },
+    {
+      "region_id": "region_3",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Wavy cancellation lines",
+      "source_context": "Wavy lines used for mail cancellation on the envelope."
     }
   ],
   "flags": []

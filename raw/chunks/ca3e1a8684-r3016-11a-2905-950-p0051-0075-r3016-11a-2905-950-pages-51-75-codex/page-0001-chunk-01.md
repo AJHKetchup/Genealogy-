@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9f4858857812-P0001-01
+chunk_id: CHUNK-536477d11ee5-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 9f485885781287e131660bc972c382e61880b1d0ecd1124a40a20999eb12c3d6
+converted_sha256: 536477d11ee5b8dc4e94c498c35d1bdb22348788fd4ee9ddcdea04681847e552
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -126,42 +126,35 @@ All visible content on the page, including the central illustration, faint borde
 Page: 53
 
 ## Layout And Reading Order
-
-The page contains a handwritten note on a piece of blue paper, which appears to be torn along the top-left and bottom edges. The text is arranged in a letter format, followed by a date, a title, and then a note and another date at the bottom.
+The page contains a handwritten note on light blue paper. The text is arranged in a standard letter format, with an identifier at the top right, a salutation, body, closing, signature, and date, followed by additional handwritten notes below the signature block. The top left corner of the paper is torn.
 
 ## Literal Transcription
-
 11a / 2905 / 950
 
 Dear Dame Rachel,
 I send this thingh
 you. Please send it
 in to the S.S.
-Yours ever
+
+Yours evn
 Emil Collan
 16/10/28
 Secretary General.
 Noted & passed
-[circled A] 16. 10. 28.
+by. A. 16. 10. 28.
 
 ## Images, Captions, And Visual Notes
-
-The page itself is a piece of blue paper with handwritten text. The top-left and bottom edges of the paper are visibly torn.
+The page is a light blue piece of paper with handwritten text in dark ink. There is a tear in the top left corner of the paper. The signature "Emil Collan" and the date "16/10/28" are underlined.
 
 ## Uncertain Or Illegible
-
-- "thingh": The word appears to be "thingh" with an 'h' at the end, which might be a misspelling of "thing" or an unusual flourish.
-- "Emil Collan": This is the most plausible reading of the signature, but due to the cursive style, there is some inherent uncertainty.
+- "thingh": The last letter appears to be an 'h', though 'thing' would be more common. Transcribed as written.
+- "evn": Appears to be an abbreviation for "even". Transcribed as written.
 
 ## Completeness Audit
-
-All visible text and significant visual characteristics (torn paper) have been transcribed or noted.
+All visible text and significant visual elements have been transcribed or noted.
 
 ## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photographs, maps, or complex diagrams are present. The page contains only handwritten text on a piece of paper with torn edges, which is fully described in the transcription and visual notes."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present for cropping. The page contains only handwritten text on a piece of paper with minor damage."}
 
 ## Page Metadata
 Page number: 54
@@ -302,3 +295,6 @@ The page has been fully transcribed. All typed and handwritten text, including m
 
 ## Page Metadata
 Page number: 56
+
+## Layout And Reading Order
+The page consists of a single piece of blue paper with handwritten text. There is a hole punch at the top left corner. The text is arranged in a single column, with a name at the top, a short note, a date, and another name at the bottom.

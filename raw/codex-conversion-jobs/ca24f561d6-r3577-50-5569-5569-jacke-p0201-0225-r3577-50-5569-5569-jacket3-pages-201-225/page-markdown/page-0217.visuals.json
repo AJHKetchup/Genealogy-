@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:05:49Z",
+  "created": "2026-05-17T16:44:40Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
@@ -8,8 +8,16 @@
   "page": 217,
   "page_image": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225/page-images/page-0217.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225/page-markdown/page-0217.md",
-  "no_visual_regions_reason": "The page contains only text and a minor hole punch mark, neither of which qualify as substantial visual assets for cropping.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "text",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "IMPRIMERIE\nDU JOURNAL DE GENÈVE",
+      "source_context": "Centered text on the page."
+    }
+  ],
   "flags": []
 }

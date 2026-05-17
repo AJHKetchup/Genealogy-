@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:38Z",
+  "created": "2026-05-17T16:47:22Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,13 +11,13 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "visual_001",
       "kind": "photograph",
-      "caption_literal": "A sepia-toned photograph depicts a group of people standing on what appears to be a dock or shoreline next to a body of water. In the foreground, several individuals are visible, some in what look like uniforms. One person stands prominently near a small boat or canoe. In the background, across the water, there is a settlement with buildings and trees. A larger vessel is also visible on the water in the distance. The overall scene suggests a coastal or lakeside setting.",
+      "caption_literal": "A sepia-toned photograph showing a body of water with a shoreline in the foreground. Several people are on the shore, including one in uniform near a small boat. A larger vessel is on the water, and a town is visible on the distant shore.",
       "caption_type": "converter-description",
       "identity_basis": "converter-description",
-      "source_context": "The sole content of the page is this photograph.",
-      "confidence": "high",
+      "source_context": "The only content on page 332.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
         10.0,
@@ -31,8 +31,8 @@
         346,
         255
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-group-on-shoreline-with-boats-and-settlement-in-background.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-group-on-shoreline-with-boats-and-settlement-in-background.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-page-0332-photograph-water-shoreline-people-vessel-town.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-page-0332-photograph-water-shoreline-people-vessel-town.png",
       "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0332.jpg",
       "source": "raw/sources/S179-34-6.pdf",
       "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",

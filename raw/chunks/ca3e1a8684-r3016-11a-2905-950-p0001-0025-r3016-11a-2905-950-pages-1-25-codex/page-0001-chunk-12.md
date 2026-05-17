@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-53214ceeb9db-P0001-12
+chunk_id: CHUNK-7ffcbf6d4438-P0001-12
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25.codex.md
-converted_sha256: 53214ceeb9db0525d3dc5f46c39013816af5fd454b93a844591545c5b0be47a5
+converted_sha256: 7ffcbf6d443865be5ca4f18f183d388222f6d1bcb810282defe9d11c20ec1a92
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json
@@ -10,6 +10,80 @@ page_start: 1
 page_end: 1
 part: 12
 ---
+
+## Layout And Reading Order
+This page is a single-column typed letter in French on letterhead. The reading order is as follows:
+1.  A handwritten file number and notes at the top right corner.
+2.  A typed department name and initials at the top left.
+3.  A typed date below the handwritten notes on the right.
+4.  A handwritten doodle or initials in the center, above the salutation.
+5.  A handwritten note in the left margin, next to the first paragraph.
+6.  The typed salutation.
+7.  The body of the letter, consisting of three paragraphs.
+8.  The typed closing.
+9.  A handwritten signature.
+10. The typed recipient's name and address at the bottom left.
+11. A handwritten number in the bottom left corner.
+
+There are two punch holes on the left edge of the paper. There is a very faint, large, vertical stamp in the center of the page, and a faint circular stamp at the top left.
+
+## Literal Transcription
+```text
+[Handwritten in pencil at top right]
+HA72905/950
+17
+Schmieden
+14/11 [E?]
+
+[Typed at top left]
+CS/SP
+
+Section Economique & Financière
+
+[Typed at top right]
+Genève, le 7 novembre 1928
+
+[Handwritten doodle/initials in center]
+M ue
+
+[Handwritten in pencil in left margin]
+cher M. Pinels
+
+[Typed text]
+Mon cher Sénateur,
+
+Je vous remercie très vivement d'avoir bien voulu
+songer à m'envoyer un exemplaire du procès-verbal de la séance plénière de la 13ème Conférence Internationale de la Croix-Rouge. J'ai lu
+avec le plus grand intérêt votre remarquable rapport reproduit aux pages
+2 et suivantes. Je suis certain que les arguments convaincants et la
+manière dont ils ont été groupés ont grandement contribué à l'adoption
+unanime de la résolution que ce rapport avait pour but d'introduire.
+
+J'ai appris également avec grande satisfaction la
+réalisation de l'accord définitif entre le Comité International et la
+Ligue des Croix-Rouges et je m'en réjouis, car je pense pouvoir y trouver
+l'assurance d'une mise en vigueur relativement proche de la Convention
+de l'Union Internationale de Secours qui, sans cela, se fut probablement
+trouvée sérieusement compromise.
+
+A la demande de M. Külz, je joins à la présente une
+liste des signatures et ratifications de ladite Convention.
+
+Croyez-moi, je vous prie, mon cher Sénateur,
+
+Votre bien sincèrement dévoué,
+
+[Handwritten signature]
+C [Sires?]
+
+[Typed at bottom left]
+Monsieur le Sénateur FRANCOIS
+Avenue Ernestine
+Bruxelles
+
+[Handwritten in pencil at bottom left corner]
+93
+```
 
 ## Images, Captions, And Visual Notes
 - The page is a typed letter on thin, aged paper.
@@ -219,68 +293,3 @@ subjects:
 
 ## Completeness Audit
 All visible text, including typed, handwritten, and stamped content, has been transcribed. The layout and reading order have been preserved.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts. Minor marks, stamps, and handwritten notes are described in the 'Images, Captions, And Visual Notes' section."
-}
-```
-
-## Page Metadata
-Page 19
-
-## Layout And Reading Order
-
-The page contains typed text in a single column, resembling a memo or report. There's a header "MINUTE SHEET" at the top, followed by a page number "- 2 -". The main body consists of several paragraphs and a numbered list. A handwritten insertion appears within one of the paragraphs. A footer "(OVER)" is present at the bottom right.
-
-## Literal Transcription
-
-<pre>
-MINUTE SHEET
-
-- 2 -
-
-Before my arrival the Committee of Organisation had
-nominated me to this Committee. I did not attend it
-however as the only item of any real interest to the
-Secretariat was No. 5 and both the President of the
-Union International de Secours, M. Külz and M. Ciraolo
-attended this Committee and gave any information
-required. Presumably M. Külz will put in a report
-to you on Item 5.
-
-With regard to other items on the Agenda of
-a resolution passed on item 9.
-Committee No. 1, No. 8 may be of some interest to the
-Transit Section and I have therefore marked it on the
-attached minutes.
-
-Committee II dealt with three subjects only:
-7) the rôle of the Red Cross in the case of
-applications of sanctions, foreseen under Article
-16 of the Covenant of the League of Nations;
-8) amelioration in favour of certain categories
-of population during a blockade; and
-9) prohibition by international conventions
-of chemical and bacteriological warfare.
-I attach the minutes of the discussion that took
-place on these subjects in the Second Committee. I
-quite deliberately did not attend this Committee myself,
-as it seemed to me wiser to keep in close touch with
-two or three of the Government delegates and to see that
-they kept the discussion on a wise footing. For example,
-at one time it seemed extremely likely that the Committee
-would propose to the Conference a resolution asking the
-
-(OVER)
-</pre>
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page. The only visual note is a handwritten insertion.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text. The handwritten insertion is clear.

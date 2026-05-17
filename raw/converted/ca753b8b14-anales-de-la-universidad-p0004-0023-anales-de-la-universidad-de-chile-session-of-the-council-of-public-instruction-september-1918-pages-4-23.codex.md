@@ -15,20 +15,20 @@ Page number: 4
 The page is entirely blank.
 
 ## Literal Transcription
-[The page is blank.]
+The page is entirely blank.
 
 ## Images, Captions, And Visual Notes
-[The page is blank.]
+The page is entirely blank. There are no images, captions, or visual notes.
 
 ## Uncertain Or Illegible
-[The page is blank.]
+None. The page is blank.
 
 ## Completeness Audit
-The page is entirely blank, containing no text or images. The transcription is complete.
+The page is entirely blank and has been fully processed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank."}
 ```
 
 # Page 5
@@ -109,23 +109,23 @@ No interpretation was produced by the Docling basic conversion pass.
 Page number: 6
 
 ## Layout And Reading Order
-The page is entirely blank, appearing to be a blank verso or recto page within the document. There is no text, images, or other content.
+This page is entirely blank.
 
 ## Literal Transcription
-[The page is blank.]
+[This page is blank.]
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or visual notes on this page.
+[This page contains no images, captions, or visual notes.]
 
 ## Uncertain Or Illegible
-There is no content on this page to be uncertain or illegible.
+[This page contains no uncertain or illegible text.]
 
 ## Completeness Audit
-The page is completely blank. All visible content (or lack thereof) has been fully represented.
+The page is entirely blank.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content."}
+{"visual_regions": [], "no_visual_regions_reason": "This page is entirely blank and contains no meaningful visual content."}
 ```
 
 # Page 7
@@ -203,75 +203,67 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-This page is almost entirely blank. There is extremely faint, reversed text visible, which appears to be bleed-through from the reverse side or a previous page. This text reads "ANALES", "DE LA UNIVERSIDAD", and "DE CHILE".
+Page number: 8
+Source: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
 
 ## Layout And Reading Order
-The page is blank. The faint text is not part of the intended content of this page.
+The page is almost entirely blank. There is no discernible layout or reading order for content intended for this page. Faint, reversed text from the verso (previous page) is visible due to bleed-through.
 
 ## Literal Transcription
-[This page is blank. Extremely faint, reversed text is visible due to bleed-through from another page, reading "ANALES", "DE LA UNIVERSIDAD", and "DE CHILE".]
+The page is blank. Extremely faint, reversed text is visible due to bleed-through from the previous page. This text appears to be:
+ANALES
+DE LA UNIVERSIDAD
+DE CHILE
 
 ## Images, Captions, And Visual Notes
-There are no meaningful images, captions, or visual notes on this page.
+The page contains no images, captions, or visual notes intended as content for this page. The faint, reversed text visible is bleed-through from the previous page.
 
 ## Uncertain Or Illegible
-The faint, reversed text is difficult to read with certainty due to its ghost-like nature, but the words "ANALES", "DE LA UNIVERSIDAD", and "DE CHILE" are discernible.
+The faint, reversed text is difficult to read clearly due to its nature as bleed-through, but the words "ANALES", "DE LA UNIVERSIDAD", and "DE CHILE" are reasonably discernible.
 
 ## Completeness Audit
-The transcription is complete and accurately reflects the content of the page, which is blank apart from bleed-through text.
+The transcription is complete. The page is almost entirely blank, with only bleed-through text visible.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is blank, with only faint bleed-through text that does not constitute a meaningful visual region for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is almost entirely blank, with only faint bleed-through text from the previous page, which does not constitute a meaningful visual region for cropping."}
 ```
 
 ## Page Metadata
-
 - task_id: `source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009`
 - page_number: 9
 - source_language: Spanish
 - page_type: Title Page
 
 ## Layout And Reading Order
+The page contains a single column of centered text, which serves as a title or section divider. At the bottom left is a footer line. The reading order is from top to bottom.
 
-The page contains a single column of centered text. The reading order is from top to bottom.
-
-1. `[block-1]` Centered title text.
-2. `[block-2]` Text at the bottom left of the page.
+1.  `text_block_1`: The main title text.
+2.  `text_block_2`: The footer text.
 
 ## Literal Transcription
-
 ```text
-[block-1]
 ACTAS DE LAS SESIONES
 
 DEL
 
 CONSEJO DE INSTRUCCION PÚBLICA
 
-[block-2]
 ANALES ACTAS.—SET.—OCT.—6
 ```
 
 ## Images, Captions, And Visual Notes
-
-This page is a text-only title page and contains no images, illustrations, or other significant visual elements.
+There are no images, illustrations, or significant visual elements on this page. The page consists solely of printed text.
 
 ## Uncertain Or Illegible
-
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
 This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page is a text-only title page and contains no images, illustrations, or other visual elements suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only typographic elements and no images, illustrations, or other significant visual content."}
 ```
 
 ## Page Metadata

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dc775c1f37e3-P0001-04
+chunk_id: CHUNK-519482726d9d-P0001-04
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: dc775c1f37e31cc1d1edefbac27c1c236a725175f3610594e3ba7385c7ca0aae
+converted_sha256: 519482726d9d80d06fedebfb4a77d3aa78e4f11a6e560ed2635274a0d855208a
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -151,25 +151,25 @@ All visible text on the page has been transcribed.
 Page number: 9
 
 ## Layout And Reading Order
-The page contains faint, inverted text at the top, likely bleed-through from the previous page. In the center, there is a single line of printed text.
+The page contains very faint, upside-down text at the top, followed by a single line of printed text centered horizontally in the middle of the page.
 
 ## Literal Transcription
-(Faint, inverted text at the top, likely bleed-through from the previous page, not clearly legible enough to transcribe accurately.)
+[Faint, upside-down text at top, largely illegible, possibly a header or title from a previous page showing through. Appears to read something like "Séance du 1er janvier 1933" or similar, but very indistinct.]
 
 imp. du Journal de Genève
 
 ## Images, Captions, And Visual Notes
-A hole punch is present at the top right corner of the page.
+- A single hole punch is present at the top right corner of the page.
 
 ## Uncertain Or Illegible
-The faint, inverted text at the top of the page is largely illegible due to its faintness and bleed-through nature. It appears to be a header or title, possibly "Séance du 1er janvier 1933" or similar, but this is highly speculative and not confidently legible.
+- The faint, upside-down text at the top of the page is largely illegible due to its faintness and bleed-through nature. A possible reading is "Séance du 1er janvier 1933", but this is highly uncertain.
 
 ## Completeness Audit
-The transcription is complete for all clearly legible content on the page. The faint, inverted text at the top is noted as illegible.
+The transcription is complete. All visible text and relevant visual elements have been captured.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals to crop. The page contains only text and a minor hole punch mark."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The hole punch is a minor mark and does not warrant a crop box."}
 ```
 
 ## Page Metadata

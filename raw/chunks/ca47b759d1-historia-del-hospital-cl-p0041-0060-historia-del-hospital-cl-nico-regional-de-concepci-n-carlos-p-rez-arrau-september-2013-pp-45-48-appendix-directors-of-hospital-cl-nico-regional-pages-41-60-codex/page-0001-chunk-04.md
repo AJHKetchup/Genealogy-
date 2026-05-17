@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bdfda2dd85e1-P0001-04
+chunk_id: CHUNK-2aac21c6b1e7-P0001-04
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: bdfda2dd85e11613e5af427d0b51a36050012edf66f6173412d87f2ab4333200
+converted_sha256: 2aac21c6b1e768479497f5fe93998c7394fd5ff793dbc56f78e7ba88b7e0d63a
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json
@@ -137,8 +137,127 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-- Page number: 52
-- Source publication: Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
+Page number: 52
 
 ## Layout And Reading Order
-The page begins with a page number in the top-left corner. Below this, a newspaper masthead "EL SUR" is displayed, followed by the publication details (city, date). An article title is centered below the masthead. The main content of the page is presented in two columns, read from left to right. A partial line of text from the newspaper footer appears at the very bottom of the page.
+The page features a newspaper article. At the top left is the page number. Below that, centered, is the newspaper masthead "EL SUR" followed by a date line. The article title "El Hospital "Virginio Gómez González"" is centered below the date line. The main body of the article is presented in two columns, read from left to right. At the very bottom of the page, a footer line repeats the newspaper name and date.
+
+## Literal Transcription
+52
+
+EL SUR
+CONCEPCION, JUEVES 3 DE DICIEMBRE DE 1959
+
+El Hospital "Virginio Gómez González"
+
+N UNA CEREMONIA que ten-
+drá lugar en el día de hoy se
+dará el nombre del doctor Vir-
+ginio Gómez González al Hos-
+pital Clínico Regional de Concepción.
+La historia del hospital penquista se
+funde con la de la ciudad, pero fue
+preciso facultativo, con cuyo nom-
+bre se le designará en adelante, quien
+miró su modernización y quien im-
+pulsó la obra transformadora que ha-
+bría de convertirlo en la entidad que es
+en la actualidad. Nada más justo, pues,
+que darle el nombre de quien dio vida
+al hospital moderno.
+La mente visionaria del doctor Vir-
+ginio Gómez, abrasada de celo creador,
+iluminó con poderosos destellos el pa-
+norama de nuestro progreso regional en
+el transcurso de años augurales.
+Llegó a Concepción al promediar la
+segunda década de este siglo. Era un
+hombre joven, cuya inquietud genial
+de conocimientos adquiridos de dilatados
+estudios, y de la frecuentación de los
+centros más acreditados de la cultura
+europea, pero también había en él una
+sabiduría innata que prestaba todavía
+mayor brillo a su ciencia y a sus tras-
+cendentales iniciativas.
+El prestigio de que se rodeó rápi-
+damente en esta zona y en el ámbito más
+amplio de las esferas nacionales, fue el
+natural efluvio de su extraordinaria
+vergadura moral, de la solidez de su
+preparación y de la inspiración genui-
+namente superior que guió cada uno de
+sus pasos.
+Hombres como el doctor Virginio
+Gómez, son un privilegio del que muy
+tarde en tarde disfrutan las comuni-
+dades humanas, y cuya existencia se ve
+grabada por acontecimientos trascen-
+dentales de imperecedero beneficio para
+sus semejantes.
+Quizás si algunos pocos espíritus es-
+
+cepción, fuera quizás más propio ahon-
+dar en las iniciativas que vincularon di-
+rectamente al doctor Gómez con esta
+institución, pero, dicho sea en homenaje
+a una justicia elemental, estas frases de
+recuerdo no podrían circunscribirse a
+esta sola obra, en cuanto ella no fue si-
+no un aspecto — aunque muy importan-
+te, por cierto — de la grandiosa visión
+transformadora del medio regional, a la
+que el insigne ciudadano entregó sus
+mejores energías y capacidades.
+El espacio es breve, hemos de rese-
+ñar sin embargo, aun cuando sólo sea
+en sus líneas más generales, su extraor-
+dinaria tarea creadora. Al radicarse en
+Concepción, puso el doctor Gómez al
+servicio de esta zona, toda su cultura, su
+espíritu de trabajo y recia personalidad
+en una de las obras de más envergadu-
+ra que se ha conocido y hecho realidad
+en el país: la Universidad de Concep-
+ción, valioso aporte a la cultura chilena,
+a través del cual intuía, con su clari-
+videncia privilegiada, la más eficaz y per-
+durable herramienta para el logro cabal
+de todos los progresos que en los dis-
+tintos campos angustiaban su sensibili-
+dad de hombre superior, de médico, de
+auténtico filántropo.
+Tenía el claro convencimiento de
+que la gran aspiración de contar con un
+hospital moderno, cuya urgencia se ha-
+cía más y más angustiosa, prosperaría
+necesariamente, a parejas con el desen-
+volvimiento del nuevo plantel universi-
+tario, cómo sabía igualmente que era
+este último la vía más idónea para im-
+primir un poderoso impulso a todos los
+órdenes del desarrollo regional, al aunar,
+en un núcleo central de tanta trascen-
+dencia como es una Universidad, el haz
+de programas y de esfuerzos que se im-
+ponía desplegar en esas horas fecundas,
+cuando todo lo que es hoy realidad flo-
+reciente, no era sino sueños visionarios.
+Sintió, por cierto, en todas sus trá-
+gicas y dolorosas proyecciones lo que
+significaba un establecimiento hospita-
+lario atrasadísimo y de estructura colo-
+nial en esta zona. Lo apreció con todo
+el vigor de su ánimo progresista y su
+visión de médico eminente y se propuso
+impulsar, contra todos los obstáculos, la
+creación de un hospital moderno. Y su
+anhelo se realizó.
+Al dar el nombre del doctor Virgi-
+nio Gómez al Hospital penquista, Con-
+cepción tributa un unánime y renovado
+homenaje a su memoria y cumple con
+un deber de gratitud esencial hacia el
+hombre ilustre y su obra imperecedera.
+
+El Sur 3 de diciembre de 1959

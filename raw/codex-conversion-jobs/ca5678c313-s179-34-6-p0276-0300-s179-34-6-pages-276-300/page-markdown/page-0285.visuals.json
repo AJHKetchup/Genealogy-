@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:11Z",
+  "created": "2026-05-17T16:47:07Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,25 +11,25 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "illustration_001",
+      "region_id": "visual-anchor-1",
       "kind": "illustration",
       "caption_literal": "NARIZ HUNDIDA POR LA SÍFILIS",
       "caption_type": "source-caption",
-      "identity_basis": "source-context",
+      "identity_basis": "source-caption",
       "source_context": "The caption directly below the illustration describes its content.",
       "confidence": "high",
-      "inline_anchor": "illustration_001",
+      "inline_anchor": "",
       "bbox_pct": [
-        13.0,
+        13.2,
         19.0,
         63.0,
-        81.0
+        73.6
       ],
       "bbox_pixels": [
-        123,
+        125,
         246,
         621,
-        1070
+        973
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0285/page-0285-image-01-illustration-nariz-hundida-por-la-sifilis.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0285/page-0285-image-01-illustration-nariz-hundida-por-la-sifilis.png",

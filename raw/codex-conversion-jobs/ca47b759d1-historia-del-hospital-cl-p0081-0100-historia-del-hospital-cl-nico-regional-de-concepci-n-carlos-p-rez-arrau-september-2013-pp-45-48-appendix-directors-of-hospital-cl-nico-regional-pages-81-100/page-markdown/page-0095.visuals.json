@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:06:05Z",
+  "created": "2026-05-17T16:44:52Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -13,26 +13,26 @@
     {
       "region_id": "vr_1",
       "kind": "photograph",
-      "caption_literal": "",
+      "caption_literal": "A bust of a man, depicted from the chest up, wearing a jacket and a bow tie.",
       "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "A bust of a man, depicted from the chest up, wearing a jacket and bow tie.",
-      "confidence": "0.95",
+      "identity_basis": "visual-appearance",
+      "source_context": "This image is presented without an explicit caption on page 95. It is likely related to the 'Historia del Hospital Clínico Regional de Concepción' given the document context.",
+      "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
         11.62,
         20.0,
-        88.38,
-        79.9
+        90.0,
+        88.0
       ],
       "bbox_pixels": [
         138,
         313,
-        1087,
-        1270
+        1106,
+        1399
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man-page-95.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man-page-95.png",
       "page_image": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/page-images/page-0095.jpg",
       "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
       "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1d8514b2e379-P0001-01
+chunk_id: CHUNK-eb55e9860b44-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: 1d8514b2e3799cd5e0c96e2fe84adc88e8a08f93c41d20e79ce83a9d27ee7127
+converted_sha256: eb55e9860b44b30a2f5590d5a16289c890401447c4a1e3276f9ca771d17f4e8f
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -88,25 +88,18 @@ This page has been transcribed in its entirety.
 ```
 
 ## Page Metadata
-
 - **Page number**: 77
 - **Document type**: Handwritten note
-- **Language**: French
+- **Language(s)**: French
 
 ## Layout And Reading Order
-
-The page consists of a single handwritten note on a small, rectangular piece of paper. The reading order is from top to bottom. There are some notes in a different hand at the top right.
+The page consists of a single handwritten note on a small, rectangular piece of paper. The reading order is from top to bottom. There is a small annotation in a different hand or ink at the top right.
 
 ## Literal Transcription
-
 ```text
-[Handwritten in pencil at top right]
 Dr a parlé le 7-9-28
 Parlé avec M. Smets
-
-[Handwritten in ink]
 M Pietromarchi
-[Horizontal line]
 
 A la session de la Commission
 permanente de l'U.I.S M Werner
@@ -126,23 +119,19 @@ L Smets
 ```
 
 ## Images, Captions, And Visual Notes
-
-This page is a small, off-white, rectangular piece of paper with handwritten text in black ink. There are also two lines of handwritten notes in pencil at the top right corner. The paper has a small hole punched near the top left corner. The paper appears to be mounted on a darker, possibly black, background page.
+This page is a scan of a single, small, off-white piece of paper with handwritten text in dark ink. The paper appears to have been pinned or pierced, as there is a small hole near the top left. The handwriting is cursive and generally legible. There is a short, two-line annotation at the top right, possibly in a different hand or written at a different time. The main body of the note is signed at the bottom right.
 
 ## Uncertain Or Illegible
-
-- The first word in the pencil note at the top right, transcribed as `Dr`, is slightly difficult to read but is a plausible interpretation.
+- The name "Pietromarchi" is written with a flourish but is a plausible reading.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed.
+This page has been fully transcribed.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only handwritten text and does not have any significant images, illustrations, or photographs that would warrant cropping as standalone visual assets."
+  "no_visual_regions_reason": "The page contains only handwritten text with no significant illustrations, photographs, or other visual elements that would warrant cropping as standalone assets."
 }
 ```
 
@@ -151,7 +140,7 @@ The entire content of the page has been transcribed.
 - Page: 78
 
 ## Layout And Reading Order
-The page contains a single, handwritten note on a small slip of paper. The reading order is from top to bottom.
+This page contains a single, short, handwritten note on a small slip of paper. The reading order is from top to bottom.
 
 ## Literal Transcription
 ```text
@@ -160,26 +149,27 @@ M. Colban étant
 absent. prière de
 renvoyer ce dossier
 le 29 juin.
+
 L. Boitteau
 1916
-Jobed[?] M+B.[?]
+Jord MHB.
 ```
 
 ## Images, Captions, And Visual Notes
-The image shows a small, rectangular piece of off-white paper with handwritten text in black ink. A single hole has been punched near the top, below the word "Registry" and through the line drawn beneath it.
+The page consists of a single image of a handwritten note on a rectangular piece of paper. The paper has a hole punched in the upper left quadrant, below the word "Registry". The handwriting is in dark ink.
 
 ## Uncertain Or Illegible
-- The signature is difficult to read but appears to be `L. Boitteau`.
-- The final line of text is difficult to read but appears to be `Jobed[?] M+B.[?]`.
+- The signature could be "L. Boittan" or "L. Boitteau". "Boitteau" is the more likely reading.
+- The final line "Jord MHB." is difficult to read and the interpretation is uncertain.
 
 ## Completeness Audit
-The transcription is complete and represents all the text visible on the page.
+This page is complete and fully transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page consists of a single handwritten note on a small slip of paper. There are no distinct images, illustrations, or photographs to crop."
+  "no_visual_regions_reason": "The page contains only a short handwritten note, which is fully transcribed. There are no significant visual elements like photographs, illustrations, or complex diagrams that would warrant creating a separate visual region."
 }
 ```
 
@@ -194,24 +184,27 @@ The page contains a single block of handwritten text. The reading order is top t
 
 ## Literal Transcription
 
-[Handwritten note on a rectangular piece of blue paper with a hole punched at the top left.]
+[Handwritten note on a rectangular piece of blue paper with a hole punched in the top left corner]
 
 Mr Colban
+___
+
 I think
 this, perhaps,
 is of interest
 to you in view of
 Baron Drachenfels
 statement! [signature]
+
 18.6.28.
 
 ## Images, Captions, And Visual Notes
 
-The entire page consists of a single image: a handwritten note on a rectangular piece of blue paper. The paper has a single hole punched near the top left corner, likely for filing. The handwriting is in dark ink.
+The page consists of a single image of a handwritten note on a piece of blue paper. The paper is rectangular and has a single hole punched near the top left corner, likely for filing. The handwriting is in dark ink.
 
 ## Uncertain Or Illegible
 
-- **[signature]**: The signature after "statement!" is a single, stylized initial, possibly an 'R' or an 'A'.
+- The signature after "statement!" is a single, stylized initial, possibly an 'R' or an 'A'. It has been transcribed as `[signature]`.
 
 ## Completeness Audit
 
@@ -222,7 +215,7 @@ The entire content of the page has been transcribed.
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only a short handwritten note, which has been fully transcribed. There are no significant images, illustrations, or photographs to crop."
+  "no_visual_regions_reason": "The only content on the page is a short handwritten note, which has been fully transcribed. There are no photographs, illustrations, or other distinct visual elements that would warrant cropping."
 }
 ```
 

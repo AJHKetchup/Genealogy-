@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:41Z",
+  "created": "2026-05-17T16:47:25Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -9,15 +9,38 @@
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0337.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0337.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [],
-  "skipped_regions": [
+  "visual_regions": [
     {
-      "region_id": "visual_001",
-      "kind": "document",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Mme Matho\nATELIER DE HAUTE COUTURE\nROBES – MANTEAUX – TAILLEURS\nRio de Janeiro Brazil\nURUGUAYANA, 39\nTEL. C. 5475",
-      "source_context": "Business card for Mme Matho, an haute couture atelier."
+      "region_id": "page-0337-image-1",
+      "kind": "photograph",
+      "caption_literal": "Business card for Mme Matho, Atelier de Haute Couture, with handwritten location \"Rio de Janeiro Brazil\"",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The entire business card.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.9,
+        10.9,
+        85.1,
+        89.1
+      ],
+      "bbox_pixels": [
+        94,
+        44,
+        561,
+        399
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0337/page-0337-image-01-mme-matho-business-card.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0337/page-0337-image-01-mme-matho-business-card.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0337.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+      "page": 337,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0337.md"
     }
   ],
+  "skipped_regions": [],
   "flags": []
 }

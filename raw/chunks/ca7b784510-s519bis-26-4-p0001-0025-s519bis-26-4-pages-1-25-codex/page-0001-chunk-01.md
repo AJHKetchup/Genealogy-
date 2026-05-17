@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b8399832763d-P0001-01
+chunk_id: CHUNK-45b10d1e435a-P0001-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: b8399832763d92ea9938c995dd06902f16e00a02f0a728af5215400950f0dced
+converted_sha256: 45b10d1e435a68a7bc975d3fbcfc64a0044825fc764ab8be561f319112a11c37
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -22,31 +22,34 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/extracted-images`
 
 ## Page Metadata
-Page: 1
-Source: `raw/sources/S519bis-26-4.pdf`
+Page number: 1
 
 ## Layout And Reading Order
-The page is a plain brown cover sheet with several handwritten annotations. The annotations are arranged in the top-left, top-center, top-right, and middle-right areas of the page.
+The page contains several handwritten annotations on a plain brown background.
+1.  Top center-right: A handwritten identifier "S 519bis N°4" followed by "21-38" and a small crossed-out mark.
+2.  Top right: A handwritten number "4" enclosed in a circle.
+3.  Top left: A handwritten capital letter "P".
+4.  Mid-right: Another handwritten capital letter "P".
 
 ## Literal Transcription
 S 519bis N°4
-21-38 [illegible symbol, possibly a stylized 'N' or 'M']
+21-38
 P
 (4)
 P
 
 ## Images, Captions, And Visual Notes
-The page contains only handwritten text and marks, which are fully captured in the literal transcription. There are no substantial images or diagrams to crop.
+The page is a plain brown cover sheet with handwritten annotations. There are no images, diagrams, or other substantial visual elements to crop.
 
 ## Uncertain Or Illegible
-- The symbol next to "21-38" is a small, stylized mark that is difficult to definitively transcribe as a standard character. It appears to be a handwritten flourish or a non-standard letter, possibly an 'N' or 'M' with a line through it.
+The small mark next to "21-38" is a crossed-out symbol, possibly an 'N' or similar, but it is not clearly legible and does not appear to be a standard archival mark. It is not transcribed literally.
 
 ## Completeness Audit
-The transcription is complete and captures all visible content on the page.
+The page is fully transcribed and all visible content is represented.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content to crop; all meaningful information is textual and captured in the transcription."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text on a plain background; there are no substantial images, diagrams, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
@@ -88,17 +91,12 @@ The transcription is complete and captures all visible text and significant mark
 ```
 
 ## Page Metadata
-Page number: 3
+Page Number: 3
 
 ## Layout And Reading Order
-
-The page contains a formal letter, likely a printed letterhead with typewritten content and a handwritten signature.
-The letterhead "Senador de la Nación" is in a script font at the top right, with an embossed seal/crest to its left.
-Below the letterhead, the location and date are typewritten.
-The body of the letter is typewritten, with a handwritten signature placed above the beginning of the first line of the body text.
+The page contains a typewritten letter on what appears to be official stationery, indicated by the letterhead and an embossed seal. The text is arranged in a standard letter format, with the sender's title and location/date at the top, followed by the body of the letter. A handwritten signature or name is present above the main body of the text.
 
 ## Literal Transcription
-
 Senador de la Nación Buenos Aires 12 de Septiembre de 1938.
 
 Alfred Salac
@@ -108,15 +106,13 @@ de la Sociedad de las Naciones del 13 de Junio de 1938.
 Le agradece su gentileza.
 
 ## Images, Captions, And Visual Notes
-
-An embossed seal or crest is present in the top-left corner of the page, to the left of the "Senador de la Nación" letterhead. It appears to be a national emblem, possibly the coat of arms of Argentina.
+An embossed seal, likely the coat of arms of Argentina, is present in the top-left corner of the page.
 
 ## Uncertain Or Illegible
-
-The handwritten signature is read as "Alfred Salac". The last letter could potentially be an 'n' instead of a 'c', making it "Alfred Salan", but "Salac" seems a more likely interpretation of the penmanship.
+None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.
+All visible text and visual elements on the page have been transcribed and described.
 
 ## Visual Region Manifest
 ```json
@@ -125,14 +121,14 @@ All visible text and significant visual elements on the page have been transcrib
     {
       "region_id": "vr_1",
       "kind": "seal",
-      "bbox_pct": [9.9, 10.0, 16.0, 16.0],
-      "caption_literal": "Embossed seal/crest, likely the coat of arms of Argentina.",
+      "bbox_pct": [9.9, 10.0, 15.0, 15.0],
+      "caption_literal": "Embossed seal, likely the coat of arms of Argentina.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "Located to the left of the 'Senador de la Nación' letterhead.",
+      "source_context": "Top-left corner of the letterhead.",
       "confidence": "high",
-      "suggested_filename": "embossed_seal_argentina_1938.png",
-      "inline_anchor": "An embossed seal or crest is present in the top-left corner of the page"
+      "suggested_filename": "embossed_seal_argentina_coat_of_arms_1938.png",
+      "inline_anchor": null
     }
   ]
 }
@@ -316,3 +312,7 @@ The transcription is complete and includes all visible text and relevant visual 
 
 ## Page Metadata
 - Page number: 7
+
+## Layout And Reading Order
+
+The page contains a formal letter or note, likely from a Senator, printed on letterhead with an embossed seal. The content includes a handwritten signature, typed body text, and a typed recipient address. A small word is handwritten above the typed line.

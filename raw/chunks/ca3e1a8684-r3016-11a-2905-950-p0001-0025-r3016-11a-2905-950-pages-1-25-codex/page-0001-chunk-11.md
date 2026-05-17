@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-53214ceeb9db-P0001-11
+chunk_id: CHUNK-7ffcbf6d4438-P0001-11
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25.codex.md
-converted_sha256: 53214ceeb9db0525d3dc5f46c39013816af5fd454b93a844591545c5b0be47a5
+converted_sha256: 7ffcbf6d443865be5ca4f18f183d388222f6d1bcb810282defe9d11c20ec1a92
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json
@@ -10,6 +10,64 @@ page_start: 1
 page_end: 1
 part: 11
 ---
+
+## Literal Transcription
+```
+-5-
+
+par M. Kryński. Le seul commentaire qu'il ait ajouté
+est faux: "....du point de vue politique les Etats ont
+fait leur devoir en signant le Protocole de Genève de
+1925."
+
+M. Sabanine (URSS) dans une très heureuse in-
+tervention, a fait remarquer à M. Kryński qu'il n'était
+pas question de signer mais de ratifier le Protocole de
+Genève et il a proposé une résolution à cet effet, qu'il
+est intéressant de lire (document 45).
+
+Après un débat qui a occupé le reste de la
+séance du matin, la 2ème. Commission a adopté à sa séance
+de l'après-midi, sur la proposition de M. van Notten, la
+résolution suivante: (2ème. séance, 24 octobre, page 1)
+
+"La XIIIème. Conférence internationale de la Croix-
+Rouge, consciente de se faire l'interprète de l'opi-
+nion générale du monde civilisé en condamnant la
+guerre chimique et bactériologique, constatant que
+le protocole de Genève du 17 juin 1925 concernant
+la prohibition de l'emploi à la guerre de gaz as-
+phyxiants, toxiques ou similaires et de moyens bac-
+tériologiques, n'a été jusqu'ici ratifiée que par
+un nombre très restreint d'Etats, et
+"prie le Comité international de la Croix-
+Rouge d'attirer à nouveau l'attention des Gouver-
+nements sur l'intérêt hautement humanitaire qu'il
+y aurait à ce qu'ils puissent déclarer dans un
+avenir aussi rapproché que possible leur parti-
+cipation définitive au dit protocole."
+
+Cette proposition a été adoptée sans discussion
+à la séance plénière du 25 octobre (pages 23 et 24).
+
+X - La Croix-Rouge et la protection des populations
+civiles contre la guerre chimique.-
+
+Cet aspect du problème de la guerre chimique
+ne semble pas intéresser spécialement notre Section,
+excepté toutefois la résolution finale adoptée par la
+Conférence plénière le 26 octobre (page 4) sur la pro-
+position de la 3ème. Commission (1ère. séance, pages
+```
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page. The page number "-5-" is present in the top right corner.
+
+## Uncertain Or Illegible
+No uncertain or illegible text.
+
+## Completeness Audit
+The transcription is complete and accurate to the visible content of the page. The last line of text is cut off in the source image.
 
 ## Visual Region Manifest
 ```json
@@ -289,77 +347,3 @@ All visible text and significant visual elements have been transcribed or noted.
 ## Page Metadata
 - Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0015`
 - Page: 15
-
-## Layout And Reading Order
-This page is a single-column typed letter in French on letterhead. The reading order is as follows:
-1.  A handwritten file number and notes at the top right corner.
-2.  A typed department name and initials at the top left.
-3.  A typed date below the handwritten notes on the right.
-4.  A handwritten doodle or initials in the center, above the salutation.
-5.  A handwritten note in the left margin, next to the first paragraph.
-6.  The typed salutation.
-7.  The body of the letter, consisting of three paragraphs.
-8.  The typed closing.
-9.  A handwritten signature.
-10. The typed recipient's name and address at the bottom left.
-11. A handwritten number in the bottom left corner.
-
-There are two punch holes on the left edge of the paper. There is a very faint, large, vertical stamp in the center of the page, and a faint circular stamp at the top left.
-
-## Literal Transcription
-```text
-[Handwritten in pencil at top right]
-HA72905/950
-17
-Schmieden
-14/11 [E?]
-
-[Typed at top left]
-CS/SP
-
-Section Economique & Financière
-
-[Typed at top right]
-Genève, le 7 novembre 1928
-
-[Handwritten doodle/initials in center]
-M ue
-
-[Handwritten in pencil in left margin]
-cher M. Pinels
-
-[Typed text]
-Mon cher Sénateur,
-
-Je vous remercie très vivement d'avoir bien voulu
-songer à m'envoyer un exemplaire du procès-verbal de la séance plénière de la 13ème Conférence Internationale de la Croix-Rouge. J'ai lu
-avec le plus grand intérêt votre remarquable rapport reproduit aux pages
-2 et suivantes. Je suis certain que les arguments convaincants et la
-manière dont ils ont été groupés ont grandement contribué à l'adoption
-unanime de la résolution que ce rapport avait pour but d'introduire.
-
-J'ai appris également avec grande satisfaction la
-réalisation de l'accord définitif entre le Comité International et la
-Ligue des Croix-Rouges et je m'en réjouis, car je pense pouvoir y trouver
-l'assurance d'une mise en vigueur relativement proche de la Convention
-de l'Union Internationale de Secours qui, sans cela, se fut probablement
-trouvée sérieusement compromise.
-
-A la demande de M. Külz, je joins à la présente une
-liste des signatures et ratifications de ladite Convention.
-
-Croyez-moi, je vous prie, mon cher Sénateur,
-
-Votre bien sincèrement dévoué,
-
-[Handwritten signature]
-C [Sires?]
-
-[Typed at bottom left]
-Monsieur le Sénateur FRANCOIS
-Avenue Ernestine
-Bruxelles
-
-[Handwritten in pencil at bottom left corner]
-93
-```

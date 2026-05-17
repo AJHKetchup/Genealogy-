@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:28Z",
+  "created": "2026-05-17T16:47:19Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visual_001",
+      "region_id": "photo_01",
       "kind": "photograph",
-      "caption_literal": "",
+      "caption_literal": "A sepia-toned photograph depicting a landscape scene. In the foreground, a grassy bank slopes down towards a body of water, likely a lake or wide river. Across the water, a distant shoreline is visible, featuring what appears to be a small town or settlement with several buildings and trees. On the right side of the distant shore, some structures, possibly docks or piers, extend into the water.",
       "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "The photograph is the sole content of the page.",
+      "identity_basis": "visual-analysis",
+      "source_context": "The image is a standalone photograph on the page.",
       "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        10.0,
-        10.0,
-        89.0,
-        79.0
+        11.7,
+        12.2,
+        88.3,
+        87.8
       ],
       "bbox_pixels": [
-        35,
-        26,
-        350,
-        239
+        42,
+        32,
+        347,
+        266
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0322/page-0322-image-01-sepia-landscape-water-distant-shoreline.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0322/page-0322-image-01-sepia-landscape-water-distant-shoreline.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0322/page-0322-image-01-sepia-photo-water-shoreline-town.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0322/page-0322-image-01-sepia-photo-water-shoreline-town.png",
       "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0322.jpg",
       "source": "raw/sources/S179-34-6.pdf",
       "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",

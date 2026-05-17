@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:14Z",
+  "created": "2026-05-17T16:47:11Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,24 +11,24 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "region_1",
       "kind": "illustration",
-      "caption_literal": "SÍFILIDE PÚSTULO-CRUSTÁCEA, GENERALIZADA",
+      "caption_literal": "SIFÍLIDE PÚSTULO-CRUSTÁCEA, GENERALIZADA.",
       "caption_type": "source-caption",
-      "identity_basis": "source-context",
-      "source_context": "The illustration depicts a female figure with skin lesions, and the caption describes the medical condition.",
-      "confidence": "high",
+      "identity_basis": "source-caption",
+      "source_context": "The main illustration on the page.",
+      "confidence": "5",
       "inline_anchor": "",
       "bbox_pct": [
         10.0,
         13.0,
-        88.0,
+        87.0,
         87.0
       ],
       "bbox_pixels": [
         127,
         241,
-        1156,
+        1143,
         1645
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",

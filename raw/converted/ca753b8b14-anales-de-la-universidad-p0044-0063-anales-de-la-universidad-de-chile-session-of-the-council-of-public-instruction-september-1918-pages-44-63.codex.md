@@ -1446,26 +1446,17 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-
-- **Page number**: 59
-- **Source language**: es
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document type**: Periodical
-- **Publisher**: Universidad de Chile
-- **Publication date**: 1918
-- **Publication place**: Santiago, Chile
-- **Full page number**: 345
+- page_number: 59
+- page_header: SESION DE 14 DE OCTUBRE DE 1918 | 345
+- page_footer: 
 
 ## Layout And Reading Order
-
-The page is a single column of text. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`). Within each subject, there are sub-sections for specific school years and lists of individuals designated as `Propietarios` (permanent/tenured) or `Suplentes` (substitutes). The reading order is from top to bottom.
+This page follows a single-column layout. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`), then by academic year, and finally by role (`Propietarios` and `Suplentes`). The reading order is from top to bottom.
 
 ## Literal Transcription
-
 ```text
 SESION DE 14 DE OCTUBRE DE 1918 345
-
-***
+___
 
 **Castellano**
 
@@ -1507,23 +1498,19 @@ Propietarios: don Julio Chávez.
 ```
 
 ## Images, Captions, And Visual Notes
-
-This page contains only text. There are no images, illustrations, or other visual elements.
+There are no images, illustrations, or other significant visual elements on this page. The content consists entirely of printed text.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this page.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-This page is complete and has been fully transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text and no meaningful visual elements to crop."
+  "no_visual_regions_reason": "The page contains only text in a single-column layout. There are no images, illustrations, or other visual elements suitable for cropping."
 }
 ```
 

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dc214f379069-P0001-01
+chunk_id: CHUNK-b30d17c4b45e-P0001-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: dc214f379069f8c41c9fefd4227b677910d0c49efe97ead21b79694741a12f14
+converted_sha256: b30d17c4b45e99bf3f42ea292fcbfbbb354e164459ad07e73e7b0e3dc6c53771
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -268,18 +268,19 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-Page 31
+Page number: 31
 
 ## Layout And Reading Order
-The page is a plain, light brown sheet of paper. There is a hole punch in the top left corner. Handwritten text appears in the top right quadrant.
+The page is mostly blank, made of brown paper, with some handwritten text in the top right quadrant. There is a hole punch in the top left corner.
 
 ## Literal Transcription
-Ingegnero A. Pani
+Ingegniero A. Pani
 _______
 (4/2)
 
 ## Images, Captions, And Visual Notes
 A circular hole punch is present in the top left corner of the page.
+The text "Ingegniero A. Pani" is handwritten in cursive at the top right, underlined. Below the underline, the number "4/2" is handwritten and circled.
 
 ## Uncertain Or Illegible
 None.
@@ -289,7 +290,21 @@ All visible content on the page has been transcribed and described.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a hole punch, neither of which qualify as substantial visuals for cropping according to the guidelines. The handwritten text is fully captured by transcription."}
+{
+  "visual_regions": [
+    {
+      "region_id": "vr1",
+      "kind": "handwritten-text",
+      "bbox_pct": [48.0, 4.9, 90.0, 18.0],
+      "caption_literal": "Ingegniero A. Pani\n_______\n(4/2)",
+      "caption_type": "source-field",
+      "identity_basis": null,
+      "source_context": "Handwritten text at the top right of the page.",
+      "confidence": 0.95,
+      "suggested_filename": "handwritten_name_and_number"
+    }
+  ]
+}
 ```
 
 ## Page Metadata
@@ -297,31 +312,3 @@ Page: 32
 
 ## Layout And Reading Order
 The page presents a formal letter on official letterhead. The letterhead is at the top, followed by the date and location on the right. The recipient's address is on the left, followed by a salutation, the body of the letter in two paragraphs, a closing statement, and a handwritten signature at the bottom right. An embossed seal is visible on the top left.
-
-## Literal Transcription
-<p style="text-align: center;">SECRETARIA DE HACIENDA Y CREDITO PUBLICO</p>
-<p style="text-align: center;">SECRETARIO PARTICULAR</p>
-
-<p style="text-align: right;">México, D.F.</p>
-<p style="text-align: right;">29 de noviembre de 1932.</p>
-
-Sr. Julián Nogueira,
-Sociedad de Naciones,
-Ginebra, Suiza.
-
-Muy distinguido y fino amigo:
-
-He tenido el gusto de recibir su amable car-
-ta del 14 del actual y los documentos que me anunciaba
-usted en su anterior escrito del 21 de octubre.
-
-Me encarga el Sr. Ing. Pani dé a usted las
-más cumplidas gracias por el envío de dicha documenta-
-ción, así como por la que ulteriormente se sirva remi-
-tirle esa institución.
-
-Muy agradecido a su fineza, me complazco en
-saludarle y suscribirme como su amigo y seguro servi-
-dor:
-
-<p style="text-align: right;">[handwritten signature]</p>

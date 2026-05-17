@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b8399832763d-P0001-02
+chunk_id: CHUNK-45b10d1e435a-P0001-02
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: b8399832763d92ea9938c995dd06902f16e00a02f0a728af5215400950f0dced
+converted_sha256: 45b10d1e435a68a7bc975d3fbcfc64a0044825fc764ab8be561f319112a11c37
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -10,10 +10,6 @@ page_start: 1
 page_end: 1
 part: 2
 ---
-
-## Layout And Reading Order
-
-The page contains a formal letter or note, likely from a Senator, printed on letterhead with an embossed seal. The content includes a handwritten signature, typed body text, and a typed recipient address. A small word is handwritten above the typed line.
 
 ## Literal Transcription
 

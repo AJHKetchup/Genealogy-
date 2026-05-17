@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:05:49Z",
+  "created": "2026-05-17T16:44:35Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-images/page-0001.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "The page is mostly blank, with only a handwritten alphanumeric note that does not warrant a separate crop box.",
+  "no_visual_regions_reason": "The page contains only a small handwritten note, which is transcribed directly in the 'Literal Transcription' section. No substantial visual elements requiring cropping are present.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

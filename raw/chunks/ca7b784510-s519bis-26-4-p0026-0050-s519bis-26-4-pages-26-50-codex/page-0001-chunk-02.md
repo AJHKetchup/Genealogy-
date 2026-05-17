@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dc214f379069-P0001-02
+chunk_id: CHUNK-b30d17c4b45e-P0001-02
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: dc214f379069f8c41c9fefd4227b677910d0c49efe97ead21b79694741a12f14
+converted_sha256: b30d17c4b45e99bf3f42ea292fcbfbbb354e164459ad07e73e7b0e3dc6c53771
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -10,6 +10,34 @@ page_start: 1
 page_end: 1
 part: 2
 ---
+
+## Literal Transcription
+<p style="text-align: center;">SECRETARIA DE HACIENDA Y CREDITO PUBLICO</p>
+<p style="text-align: center;">SECRETARIO PARTICULAR</p>
+
+<p style="text-align: right;">México, D.F.</p>
+<p style="text-align: right;">29 de noviembre de 1932.</p>
+
+Sr. Julián Nogueira,
+Sociedad de Naciones,
+Ginebra, Suiza.
+
+Muy distinguido y fino amigo:
+
+He tenido el gusto de recibir su amable car-
+ta del 14 del actual y los documentos que me anunciaba
+usted en su anterior escrito del 21 de octubre.
+
+Me encarga el Sr. Ing. Pani dé a usted las
+más cumplidas gracias por el envío de dicha documenta-
+ción, así como por la que ulteriormente se sirva remi-
+tirle esa institución.
+
+Muy agradecido a su fineza, me complazco en
+saludarle y suscribirme como su amigo y seguro servi-
+dor:
+
+<p style="text-align: right;">[handwritten signature]</p>
 
 ## Images, Captions, And Visual Notes
 An embossed seal, likely the national emblem of Mexico, is present in the top-left corner of the page.
@@ -235,91 +263,53 @@ All visible text and significant visual elements on the page have been transcrib
 ```
 
 ## Page Metadata
-Page number: 36
+- Task id: `source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0036`
+- Page: 36
 
 ## Layout And Reading Order
-The page contains a single block of handwritten text in French, listing various publications or studies. There is also a handwritten note in blue ink vertically along the left margin. A hole punch is present on the left side of the page. The main text is read from top to bottom, left to right. The marginal note is read vertically from top to bottom.
+The page contains a single piece of blue paper with handwritten text. The main text is a list written horizontally in dark ink or pencil. Along the left margin, there is a vertical signature written in blue ink. The reading order is the vertical signature first, followed by the main horizontal text from top to bottom.
+
+- region 1: Vertical handwritten text on the left margin.
+- region 2: Main horizontal handwritten text.
 
 ## Literal Transcription
+```markdown
+[region 1]
+C. [illegible] Laloux
+
+[region 2]
 Les diff publications sur l'or
 Etude sur les Conseils économiques dans les
-differents pays du monde
-La Situation Economique Mondiale 1931-1932
-Annuaire Statistique de la S.d.N. 1930/31
-                                   1931/32
+différents pays du monde
+La Situation Economique mondiale 1931-1932
+Annuaire Statistique de la S.d.N. 1930/31, 1931/32
 La Crise agricole Vol I. Vol II
-Principes et methodes de l'oeuvre de restaurat financière
-prepare sous les ausf de la S.dn
+Principes et méthodes de l'oeuvre de restaurat financière
+préparé sous les ausp de la S.dN
 Les questions agricoles au p. de vue international
-
-[Left margin, vertical text in blue ink:]
-S.d.N. publications
+```
 
 ## Images, Captions, And Visual Notes
-- A hole punch is visible on the left side of the page, aligned with the line "prepare sous les ausf de la S.dn".
+The image shows a single piece of light blue paper, likely a note card, with a hole punch on the left side. The main text is a handwritten list in French, written in a dark, cursive script. A signature or note is written vertically along the left edge in blue ink, in a different, more fluid cursive hand.
 
 ## Uncertain Or Illegible
-- "ausf" in "prepare sous les ausf de la S.dn" might be an abbreviation or quick writing for "auspices". Transcribed as written.
-- "restaurat" in "Principes et methodes de l'oeuvre de restaurat financière" might be an abbreviation for "restauration". Transcribed as written.
+- The vertical signature on the left is difficult to decipher. It appears to start with "C." and end with "Laloux", but the middle part is illegible: `C. [illegible] Laloux`.
+- In the line "Principes et méthodes de l'oeuvre de restaurat financière", the word `restaurat` may be an abbreviation or misspelling of `restauration`.
+- In the line "Annuaire Statistique de la S.d.N. 1930/31, 1931/32", the years `1930/31` are written above the start of `1931/32`. They are transcribed here on a single line for clarity.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
+The transcription is complete and represents all the visible text on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a minor hole punch, which are fully captured by transcription and visual notes. No substantial visual elements require cropping."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists of a single handwritten note. There are no distinct images, photographs, or complex diagrams that would benefit from being cropped as separate visual assets."
+}
+```
 
 ## Page Metadata
 Page Number: 37
 
 ## Layout And Reading Order
 The page contains a typewritten letter in French, presented in a single column. The date is at the top right, followed by a salutation/recipient, the body of the letter, an indented list of publications, and a closing statement.
-
-## Literal Transcription
-5 octobre 1932
-
-M. HAPGOOD
-
-Après avoir eu une conversation avec Mr. Walters,
-je viens vous prier d'envoyer à M. IGNACIO de la TORRE,
-secrétaire particulier de M. Alberto PANI, Ministre des
-Finances du Mexique, les publications suivantes:
-
-Les différentes publications sur l'or,
-Etude sur les Conseils économiques dans les
-différents pays du monde,
-La situation économique mondiale, 1931-1932,
-Annuaire Statistique de la Société des Nations
-1930-31 et 1931-32.
-La crise agricole Volume I et Volume II.
-Principes et méthodes de l'oeuvre de restaura-
-tion financière entreprise sous les auspices de
-la Société des Nations.
-Les questions agricoles du point de vue inter-
-national.
-Le catalogue des publications de la Société
-des Nations.
-
-J'écrirai à M. de la TORRE pour lui annoncer
-l'envoi de ces publications.
-
-Avec mes remerciements,
-
-## Images, Captions, And Visual Notes
-There are no meaningful images or captions on this page. A small, dark circular mark is present in the top-left margin, likely a binder hole or similar artifact, but it is not a meaningful visual for extraction.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page contains only text."}
-```
-
-## Page Metadata
-Page number: 38
-
-## Layout And Reading Order
-The page contains a typewritten letter in Spanish, presented in a single column. The content includes a header, date, recipient address block, salutation, main body text with a numbered list, and a closing. The reading order is top-to-bottom, left-to-right.

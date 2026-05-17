@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-49ffbcc87e08-P0001-01
+chunk_id: CHUNK-022c80160f7d-P0001-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 49ffbcc87e08fadeb8f32ae829f2e66456b297fecda9f534f91643eefe06da97
+converted_sha256: 022c80160f7d5a126943f7469a7f780fb6e01ea2f3401b6ef60c27674a14e8e9
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -99,7 +99,7 @@ All visible text and handwritten annotations on the page have been transcribed.
 Page number: 5
 
 ## Layout And Reading Order
-The page features a large bold title at the top, followed by an introductory paragraph. Below this, there are three images arranged vertically down the left side of the page. Each image has a corresponding caption. The first image (airplane) has its caption directly below it, spanning the width of the image. The second and third images (train and missile) share a multi-paragraph text block to their right, which serves as their combined caption. A handwritten page number "5" is present in the bottom right corner. The right side of the page also contains faint, illegible text, likely from the reverse side of the page or a bleed-through.
+The page features a large bold title at the top, followed by an introductory paragraph. Below this, there are three images arranged vertically down the left side of the page. The top image is of an airplane, followed by a short caption. The middle image is of a train, and the bottom image is of a missile. A multi-paragraph text block serves as the caption for both the train and missile images, positioned to their right. A handwritten number '5' is present in the bottom right corner.
 
 ## Literal Transcription
 .ENGLISH ELECTRIC
@@ -117,26 +117,24 @@ Bretaña, a la Red Nacional de Ferrocarriles de
 España. Las primeras conducen rápidamente
 pasajeros y pesados minerales, en una línea con
 una pendiente general de 1 en 50, con curvas
-cerradas, muchos túneles. Las locomotoras
+cerradas y muchos túneles. Las locomotoras
 ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
 —están satisfaciendo los requerimientos espec-
 iales de 29 países.
-
-PROYECTILES MANDADOS—velocidad super-
-sónica, energía atómica—solamente tres
+PROYECTILES MANDADOS —velocidad super-
+sónica, energía atómica— solamente tres
 campos en que el trabajo precursor ENGLISH
-ELECTRIC ha traído adelantos de impor-
-tancia. Esta foto muestra el lanzamiento de prueba de
+ELECTRIC ha traído adelantos de import-
+ancia. Esta foto muestra el lanzamiento de prueba de
 un proyectil mandado ENGLISH ELECTRIC.
-
 5
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
 - ![source-caption: EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC
-PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS](../extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [9.9, 33.9, 37.2, 73.0]
-  - Source context: This image shows an aircraft in a hangar, identified as a Canberra built by English Electric.
+PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS](../extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [9.9, 33.9, 37.3, 72.9]
+  - Source context: airplane
 - ![source-caption: 3.600 H.P. EN ESPAÑA. Se están entregando
 60 de estas locomotoras eléctricas, las más
 potentes de su tipo jamás construídas en la Gran
@@ -144,36 +142,103 @@ Bretaña, a la Red Nacional de Ferrocarriles de
 España. Las primeras conducen rápidamente
 pasajeros y pesados minerales, en una línea con
 una pendiente general de 1 en 50, con curvas
-cerradas, muchos túneles. Las locomotoras
+cerradas y muchos túneles. Las locomotoras
 ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
 —están satisfaciendo los requerimientos espec-
-iales de 29 países.](../extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [47.7, 73.0, 78.3, 84.0]
-  - Source context: This image shows an electric locomotive, identified as one of 60 delivered to Spain by English Electric.
-- ![source-caption: PROYECTILES MANDADOS—velocidad super-
-sónica, energía atómica—solamente tres
+iales de 29 países.
+PROYECTILES MANDADOS —velocidad super-
+sónica, energía atómica— solamente tres
 campos en que el trabajo precursor ENGLISH
-ELECTRIC ha traído adelantos de impor-
-tancia. Esta foto muestra el lanzamiento de prueba de
-un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [78.7, 34.0, 98.0, 37.9]
-  - Source context: This image shows a missile launch, described as a test launch of an English Electric guided missile.
+ELECTRIC ha traído adelantos de import-
+ancia. Esta foto muestra el lanzamiento de prueba de
+un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-02-train-english-electric-7710.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [47.7, 8.4, 78.2, 73.4]
+  - Source context: train
+- ![source-caption: 3.600 H.P. EN ESPAÑA. Se están entregando
+60 de estas locomotoras eléctricas, las más
+potentes de su tipo jamás construídas en la Gran
+Bretaña, a la Red Nacional de Ferrocarriles de
+España. Las primeras conducen rápidamente
+pasajeros y pesados minerales, en una línea con
+una pendiente general de 1 en 50, con curvas
+cerradas y muchos túneles. Las locomotoras
+ENGLISH ELECTRIC —eléctricas o diesel-eléctricas
+—están satisfaciendo los requerimientos espec-
+iales de 29 países.
+PROYECTILES MANDADOS —velocidad super-
+sónica, energía atómica— solamente tres
+campos en que el trabajo precursor ENGLISH
+ELECTRIC ha traído adelantos de import-
+ancia. Esta foto muestra el lanzamiento de prueba de
+un proyectil mandado ENGLISH ELECTRIC.](../extracted-images/page-0005/page-0005-image-03-missile-launch-english-electric.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [78.7, 8.6, 98.7, 37.9]
+  - Source context: missile
 
-The page features three distinct images, each with a caption.
+The page contains three black and white photographs.
 
-The first image shows a large aircraft, likely a bomber, inside a hangar. Several other aircraft are visible in the background, suggesting a manufacturing or maintenance facility. A person stands near the front of the aircraft.
-The caption for this image is: "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
+The first image, located in the upper left, shows an airplane inside a hangar, with several other aircraft visible in the background. A person stands near the front of the plane.
+Caption: "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC PARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
 
-The second image depicts a modern electric locomotive, numbered "7710" and marked "RFE", pulling a long train of freight cars on a curved track. The scene appears to be in an industrial or rail yard setting with multiple tracks.
-The caption for this image is part of a larger text block to its right, starting with: "3.600 H.P. EN ESPAÑA. Se están entregando 60 de estas locomotoras eléctricas, las más potentes de su tipo jamás construídas en la Gran Bretaña, a la Red Nacional de Ferrocarriles de España. Las primeras conducen rápidamente pasajeros y pesados minerales, en una línea con una pendiente general de 1 en 50, con curvas cerradas, muchos túneles. Las locomotoras ENGLISH ELECTRIC —eléctricas o diesel-eléctricas— están satisfaciendo los requerimientos especiales de 29 países."
+The second image, below the first, depicts a train, possibly an electric locomotive, on a track with several other tracks visible. The train has the number "7710" on its front.
+The caption for this image is combined with the one below it, starting with "3.600 H.P. EN ESPAÑA."
 
-The third image shows a missile launching into the sky, with a plume of smoke or exhaust visible at its base. The missile has fins and a pointed nose cone.
-The caption for this image is the second part of the text block to its right: "PROYECTILES MANDADOS—velocidad supersónica, energía atómica—solamente tres campos en que el trabajo precursor ENGLISH ELECTRIC ha traído adelantos de importancia. Esta foto muestra el lanzamiento de prueba de un proyectil mandado ENGLISH ELECTRIC."
+The third image, at the bottom left, shows a missile launching or in flight against a light sky.
+The caption for this image is combined with the one above it, starting with "PROYECTILES MANDADOS".
 
-A handwritten number "5" is present in red ink in the bottom right corner of the page.
+A handwritten red number "5" is present in the bottom right corner of the page.
 
 ## Uncertain Or Illegible
-There is faint, illegible text visible on the right side of the page, likely bleed-through from the reverse side. It is not part of the primary content of this page.
+None.
 
 ## Completeness Audit
-All visible text and images on the page have been transcribed and described. The layout and reading order have been preserved.
+All visible text and images on the page have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "bbox_pct": [9.9, 33.9, 37.3, 72.9],
+      "caption_literal": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "airplane",
+      "confidence": 0.95,
+      "suggested_filename": "airplane_canberra_english_electric.png",
+      "inline_anchor": "EL CANBERRA CONSTRUIDO POR LA ENGLISH ELECTRIC\nPARA LA FUERZA AEREA DE LOS ESTADOS UNIDOS"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "bbox_pct": [47.7, 8.4, 78.2, 73.4],
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas y muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.\nPROYECTILES MANDADOS —velocidad super-\nsónica, energía atómica— solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de import-\nancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "train",
+      "confidence": 0.95,
+      "suggested_filename": "train_english_electric_7710.png",
+      "inline_anchor": "3.600 H.P. EN ESPAÑA."
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "bbox_pct": [78.7, 8.6, 98.7, 37.9],
+      "caption_literal": "3.600 H.P. EN ESPAÑA. Se están entregando\n60 de estas locomotoras eléctricas, las más\npotentes de su tipo jamás construídas en la Gran\nBretaña, a la Red Nacional de Ferrocarriles de\nEspaña. Las primeras conducen rápidamente\npasajeros y pesados minerales, en una línea con\nuna pendiente general de 1 en 50, con curvas\ncerradas y muchos túneles. Las locomotoras\nENGLISH ELECTRIC —eléctricas o diesel-eléctricas\n—están satisfaciendo los requerimientos espec-\niales de 29 países.\nPROYECTILES MANDADOS —velocidad super-\nsónica, energía atómica— solamente tres\ncampos en que el trabajo precursor ENGLISH\nELECTRIC ha traído adelantos de import-\nancia. Esta foto muestra el lanzamiento de prueba de\nun proyectil mandado ENGLISH ELECTRIC.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "missile",
+      "confidence": 0.95,
+      "suggested_filename": "missile_launch_english_electric.png",
+      "inline_anchor": "PROYECTILES MANDADOS"
+    }
+  ]
+}
+```
+
+## Page Metadata
+Page number: 6
+
+## Layout And Reading Order
+The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.

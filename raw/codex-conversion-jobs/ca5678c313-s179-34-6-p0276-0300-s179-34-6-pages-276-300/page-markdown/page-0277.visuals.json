@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T16:08:06Z",
+  "created": "2026-05-17T16:47:08Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,25 +11,25 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "fig-001",
+      "region_id": "visual_001",
       "kind": "illustration",
       "caption_literal": "SIFÍLIDE PAPULOSA GENERALIZADA",
       "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "Medical illustration depicting a man with generalized papular syphilis.",
+      "identity_basis": "none",
+      "source_context": "Illustration of a man's head and upper torso in profile, showing a generalized papular syphilide.",
       "confidence": "high",
-      "inline_anchor": "[Illustration of a man with syphilis]",
+      "inline_anchor": "illustration_001",
       "bbox_pct": [
-        18.0,
-        19.0,
-        84.0,
-        80.0
+        15.2,
+        10.5,
+        85.2,
+        70.5
       ],
       "bbox_pixels": [
-        174,
-        245,
-        834,
-        1050
+        146,
+        133,
+        846,
+        926
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",

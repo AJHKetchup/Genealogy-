@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:27:12Z",
+  "created": "2026-05-17T16:46:06Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,7 +8,7 @@
   "page": 147,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/page-images/page-0147.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/page-markdown/page-0147.md",
-  "no_visual_regions_reason": "The page contains only text and form fields, with no substantial images, diagrams, or other visual elements that would be useful as standalone assets.",
+  "no_visual_regions_reason": "The page contains only text and a form layout; there are no substantial images or diagrams to extract as visual regions.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []
