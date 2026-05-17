@@ -1095,7 +1095,10 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
         "github.event.inputs.discovery_parallelism || '8' }}"
     ) in workflow
-    assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '50'" in workflow
+    assert (
+        "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_max_pages_per_source || '10' }}"
+    ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
         "github.event.inputs.discovery_document_timeout || '90' }}"
@@ -1775,6 +1778,46 @@ def test_docling_no_ocr_marks_textless_pdf_unusable_without_docling_call(tmp_pat
     entry = next(iter(discovery["entries"].values()))
     assert entry["status"] == "rough_unusable"
     assert entry["method_detail"] == "docling_no_ocr_text_layer_absent"
+
+
+def test_docling_discovery_prioritizes_native_text_layer_without_ocr(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+
+    scan_source = tmp_path / "raw" / "sources" / "a-scanned-volume.pdf"
+    scan_doc = fitz.open()
+    scan_doc.new_page(width=360, height=500)
+    scan_doc.save(scan_source)
+
+    native_source = tmp_path / "raw" / "sources" / "z-native-volume.pdf"
+    native_doc = fitz.open()
+    page = native_doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Usable native PDF text layer for Docling baseline. " * 12, fontsize=11)
+    native_doc.save(native_source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=2)
+    write_agent_queues(tmp_path)
+
+    calls: list[dict[str, object]] = []
+
+    def fake_docling(input_path, **kwargs):
+        calls.append({"input_path": str(input_path), **kwargs})
+        return "Usable native PDF text layer for Docling baseline. " * 12
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=1,
+        use_ocr=True,
+    )
+
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 1
+    assert summary["tasks"][0]["source"].endswith("z-native-volume.pdf")
+    assert summary["tasks"][0]["docling_ocr"] is False
+    assert calls[0]["use_ocr"] is False
 
 
 def test_docling_discovery_caps_pages_per_source(tmp_path, monkeypatch) -> None:

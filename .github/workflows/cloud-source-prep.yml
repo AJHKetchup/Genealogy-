@@ -49,7 +49,7 @@ on:
       discovery_max_pages_per_source:
         description: "Maximum Docling-discovery pages per raw source per run"
         required: false
-        default: "50"
+        default: "10"
       discovery_document_timeout:
         description: "Docling per-page document timeout in seconds"
         required: false
@@ -93,7 +93,7 @@ jobs:
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '120' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '8' }}
-      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '50' || github.event.inputs.discovery_max_pages_per_source || '50' }}
+      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '10' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '90' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '120' }}
       RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}

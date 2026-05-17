@@ -6324,13 +6324,15 @@ def run_source_prep_docling_task(
     hard_timeout: float = 0.0,
 ) -> dict[str, object]:
     task_id = str(task.get("task_id", "")).strip()
+    effective_use_ocr = bool(task.get("_docling_use_ocr", use_ocr))
     task_report: dict[str, object] = {
         "task_id": task_id,
         "source": task.get("source", ""),
         "page": task.get("page", 0),
+        "docling_ocr": effective_use_ocr,
     }
     try:
-        if not use_ocr:
+        if not effective_use_ocr:
             text_layer = source_prep_docling_pdf_text_layer_preview(paths.root, task)
             if text_layer is not None and not bool(text_layer.get("has_meaningful_text_layer")):
                 return build_source_prep_docling_task_result(
@@ -6341,12 +6343,14 @@ def run_source_prep_docling_task(
                     str(text_layer.get("text", "")),
                     [],
                     extra_report={
+                        "docling_ocr": False,
                         "docling_no_ocr_fast_unusable": True,
                         "docling_unusable_reason": "pdf_text_layer_absent",
                         "source_page": text_layer.get("source_page", 0),
                         "text_layer_alpha_chars": text_layer.get("text_layer_alpha_chars", 0),
                     },
                     extra_entry={
+                        "docling_ocr": False,
                         "method_detail": "docling_no_ocr_text_layer_absent",
                         "source_page": text_layer.get("source_page", 0),
                         "text_layer_chars": text_layer.get("text_layer_chars", 0),
@@ -6365,7 +6369,7 @@ def run_source_prep_docling_task(
                     image_output_dir=image_output_dir,
                     image_prefix=image_prefix,
                     root=paths.root,
-                    use_ocr=use_ocr,
+                    use_ocr=effective_use_ocr,
                 )
             else:
                 docling_result = convert_source_with_docling(
@@ -6374,7 +6378,7 @@ def run_source_prep_docling_task(
                     image_output_dir=image_output_dir,
                     image_prefix=image_prefix,
                     root=paths.root,
-                    use_ocr=use_ocr,
+                    use_ocr=effective_use_ocr,
                 )
         except TypeError as exc:
             if "unexpected" not in str(exc) and "positional" not in str(exc):
@@ -6388,6 +6392,16 @@ def run_source_prep_docling_task(
             agent,
             docling_markdown,
             extracted_images,
+            extra_report={
+                "docling_ocr": effective_use_ocr,
+                "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+            },
+            extra_entry={
+                "docling_ocr": effective_use_ocr,
+                "text_layer_chars": task.get("_docling_text_layer_chars", 0),
+                "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                "method_detail": "docling_text_layer_no_ocr" if not effective_use_ocr else "docling_ocr",
+            },
         )
     except RuntimeError as exc:
         return {
@@ -6468,6 +6482,22 @@ def source_prep_docling_discovery_run(
             safe_int(task.get("page"), 0),
         )
     )
+    text_layer_previews = source_prep_docling_pdf_text_layer_previews(paths.root, tasks) if tasks else {}
+    if text_layer_previews:
+        tasks.sort(
+            key=lambda task: (
+                0
+                if bool(text_layer_previews.get(source_prep_discovery_cache_key(task), {}).get("has_meaningful_text_layer"))
+                else 1,
+                -safe_int(
+                    text_layer_previews.get(source_prep_discovery_cache_key(task), {}).get("text_layer_alpha_chars"),
+                    0,
+                ),
+                str(task.get("source", "")),
+                str(task.get("job_manifest", "")),
+                safe_int(task.get("page"), 0),
+            )
+        )
 
     summary: dict[str, object] = {
         "created": utc_timestamp(),
@@ -6604,14 +6634,20 @@ def source_prep_docling_discovery_run(
 
             if max_pages_per_source > 0 and source_key:
                 source_counts[source_key] = source_counts.get(source_key, 0) + 1
+            preview = text_layer_previews.get(cache_key)
+            if isinstance(preview, dict):
+                task = dict(task)
+                task["_docling_text_layer_chars"] = preview.get("text_layer_chars", 0)
+                task["_docling_text_layer_alpha_chars"] = preview.get("text_layer_alpha_chars", 0)
+                if use_ocr and bool(preview.get("has_meaningful_text_layer")):
+                    task["_docling_use_ocr"] = False
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
 
         if not use_ocr and candidates:
-            previews = source_prep_docling_pdf_text_layer_previews(paths.root, [task for task, _cache_key in candidates])
             filtered_candidates: list[tuple[dict[str, object], str]] = []
             for task, cache_key in candidates:
-                preview = previews.get(cache_key)
+                preview = text_layer_previews.get(cache_key)
                 if preview is not None and not bool(preview.get("has_meaningful_text_layer")):
                     result = build_source_prep_docling_task_result(
                         paths,
