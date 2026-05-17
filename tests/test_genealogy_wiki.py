@@ -1010,10 +1010,60 @@ def test_cloud_workflow_rebases_before_publishing() -> None:
     assert workflow.index("Rebase before publishing conversion outputs") < workflow.index("Publish conversion outputs")
 
 
+def test_cloud_workflow_publishes_preflight_state_when_blocked() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "source-prep-cloud-preflight" in workflow
+    assert "Publish source-prep preflight state" in workflow
+    assert "steps.preflight.outputs.ready != 'true' && steps.preflight.outputs.state_changed == 'true'" in workflow
+    assert "Cloud source prep preflight state" in workflow
+
+
+def test_source_prep_cloud_preflight_records_missing_secrets_without_rewriting(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    output_path = tmp_path / "github-output.txt"
+    step_summary_path = tmp_path / "github-summary.md"
+    env = {"R2_BUCKET": "bucket"}
+
+    first = genealogy_wiki.source_prep_cloud_preflight(
+        tmp_path,
+        env=env,
+        github_output=output_path,
+        github_step_summary=step_summary_path,
+    )
+    state_path = tmp_path / first["state_path"]
+    first_state_text = state_path.read_text(encoding="utf-8")
+
+    assert first["ready"] is False
+    assert first["state_changed"] is True
+    assert "R2_ACCESS_KEY_ID" in first["missing"]
+    assert "GEMINI_API_KEY_or_GOOGLE_API_KEY" in first["missing"]
+    assert "ready=false" in output_path.read_text(encoding="utf-8")
+    assert "state_changed=true" in output_path.read_text(encoding="utf-8")
+    assert "Missing:" in step_summary_path.read_text(encoding="utf-8")
+
+    second = genealogy_wiki.source_prep_cloud_preflight(
+        tmp_path,
+        env=env,
+        github_output=output_path,
+        github_step_summary=step_summary_path,
+    )
+
+    assert second["ready"] is False
+    assert second["state_changed"] is False
+    assert state_path.read_text(encoding="utf-8") == first_state_text
+    assert "state_changed=false" in output_path.read_text(encoding="utf-8")
+
+
 def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     automation = tmp_path / "research" / "_automation"
     automation.mkdir(parents=True, exist_ok=True)
+    (automation / "cloud-source-prep-preflight-state.json").write_text(
+        json.dumps({"ready": False, "missing": ["R2_BUCKET"]}),
+        encoding="utf-8",
+    )
     (automation / "source-prep-docling-state.json").write_text(
         json.dumps({"inspected": 9, "accepted": 3, "unusable": 5, "errors": 1, "extracted_images": 7, "skipped": {"claimed": 2}}),
         encoding="utf-8",
@@ -1054,6 +1104,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
 
     report = genealogy_wiki.build_source_prep_cloud_report(tmp_path)
 
+    assert "- Preflight ready: false" in report
     assert "- Queue scope: global" in report
     assert "- Queue tasks: 455" in report
     assert '- Queue statuses: {"needs_reread": 27, "todo": 428}' in report
@@ -1062,6 +1113,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- Extracted images: 7" in report
     assert '- Route counts: {"lite": 3, "pro": 2}' in report
     assert "- r2 credentials missing" in report
+    assert "- preflight missing: R2_BUCKET" in report
 
 
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:

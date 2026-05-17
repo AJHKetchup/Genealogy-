@@ -6440,6 +6440,89 @@ def write_source_prep_batch_queue_state(
     return output_path
 
 
+SOURCE_PREP_REQUIRED_SECRETS = (
+    "R2_ACCESS_KEY_ID",
+    "R2_SECRET_ACCESS_KEY",
+    "R2_BUCKET",
+)
+SOURCE_PREP_ALTERNATE_SECRET_GROUPS = (
+    ("GEMINI_API_KEY", "GOOGLE_API_KEY"),
+    ("R2_ACCOUNT_ID", "R2_ENDPOINT_URL"),
+)
+
+
+def source_prep_cloud_preflight_state_path(root: Path) -> Path:
+    return WikiPaths(root.resolve()).research / "_automation" / "cloud-source-prep-preflight-state.json"
+
+
+def source_prep_cloud_preflight(
+    root: Path,
+    *,
+    env: dict[str, str] | None = None,
+    github_output: Path | None = None,
+    github_step_summary: Path | None = None,
+) -> dict[str, object]:
+    paths = WikiPaths(root.resolve())
+    env_values = env if env is not None else os.environ
+    secret_presence = {name: bool(str(env_values.get(name, "")).strip()) for name in SOURCE_PREP_REQUIRED_SECRETS}
+    for group in SOURCE_PREP_ALTERNATE_SECRET_GROUPS:
+        for name in group:
+            secret_presence[name] = bool(str(env_values.get(name, "")).strip())
+
+    missing = [name for name in SOURCE_PREP_REQUIRED_SECRETS if not secret_presence[name]]
+    for group in SOURCE_PREP_ALTERNATE_SECRET_GROUPS:
+        if not any(secret_presence[name] for name in group):
+            missing.append("_or_".join(group))
+    ready = not missing
+
+    semantic_state = {
+        "ready": ready,
+        "missing": missing,
+        "secret_presence": secret_presence,
+        "required_secrets": list(SOURCE_PREP_REQUIRED_SECRETS),
+        "alternate_secret_groups": [list(group) for group in SOURCE_PREP_ALTERNATE_SECRET_GROUPS],
+    }
+    state_path = source_prep_cloud_preflight_state_path(paths.root)
+    existing = read_json_payload(state_path)
+    existing_semantic = {
+        "ready": existing.get("ready"),
+        "missing": existing.get("missing", []),
+        "secret_presence": existing.get("secret_presence", {}),
+        "required_secrets": existing.get("required_secrets", []),
+        "alternate_secret_groups": existing.get("alternate_secret_groups", []),
+    }
+    state_changed = semantic_state != existing_semantic
+    if state_changed:
+        state_path.parent.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "created": utc_timestamp(),
+            "mode": "cloud-source-prep-preflight",
+            **semantic_state,
+        }
+        state_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    else:
+        payload = existing
+    payload = dict(payload)
+    payload["state_path"] = relative_to_root(state_path, paths.root)
+    payload["state_changed"] = state_changed
+
+    if github_output is not None:
+        github_output.parent.mkdir(parents=True, exist_ok=True)
+        with github_output.open("a", encoding="utf-8") as handle:
+            handle.write(f"ready={str(ready).lower()}\n")
+            handle.write(f"state_changed={str(state_changed).lower()}\n")
+    if github_step_summary is not None:
+        github_step_summary.parent.mkdir(parents=True, exist_ok=True)
+        with github_step_summary.open("a", encoding="utf-8") as handle:
+            handle.write("## Cloud Source Prep Preflight\n\n")
+            if ready:
+                handle.write("- Ready: true\n\n")
+            else:
+                handle.write("- Ready: false\n")
+                handle.write(f"- Missing: {', '.join(missing)}\n\n")
+    return payload
+
+
 def source_prep_report_value(value: object, default: object = 0) -> object:
     if value is None or value == "":
         return default
@@ -6455,6 +6538,7 @@ def source_prep_report_json(value: object) -> str:
 def build_source_prep_cloud_report(root: Path) -> str:
     paths = WikiPaths(root.resolve())
     automation_dir = paths.research / "_automation"
+    preflight = read_json_payload(automation_dir / "cloud-source-prep-preflight-state.json")
     docling = read_json_payload(automation_dir / "source-prep-docling-state.json")
     gemini = read_json_payload(automation_dir / "gemini-source-prep-state.json")
     heartbeat = read_json_payload(automation_dir / "cloud-source-prep-heartbeat-state.json")
@@ -6464,14 +6548,18 @@ def build_source_prep_cloud_report(root: Path) -> str:
     heartbeat_blockers = heartbeat.get("blockers", []) if isinstance(heartbeat.get("blockers"), list) else []
     docling_blockers = docling.get("blockers", []) if isinstance(docling.get("blockers"), list) else []
     blockers = [str(item) for item in [*heartbeat_blockers, *docling_blockers] if str(item).strip()]
+    if preflight and preflight.get("ready") is False:
+        blockers.append("preflight missing: " + ", ".join(str(item) for item in preflight.get("missing", []) or []))
     filters = batches.get("filters", {}) if isinstance(batches.get("filters"), dict) else {}
     queue_scope = "global" if batches.get("global_queue") is True else "filtered"
     if not batches:
         queue_scope = "missing"
+    preflight_ready = preflight.get("ready", "unknown") if preflight else "unknown"
 
     lines = [
         "## Cloud Source Prep Summary",
         "",
+        f"- Preflight ready: {str(preflight_ready).lower()}",
         f"- Queue scope: {queue_scope}",
         f"- Queue tasks: {source_prep_report_value(queue_summary_payload.get('task_count'))}",
         f"- Queue statuses: {source_prep_report_json(queue_summary_payload.get('status_counts'))}",
@@ -10482,6 +10570,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     source_prep_report_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
 
+    source_prep_preflight_parser = subparsers.add_parser(
+        "source-prep-cloud-preflight",
+        help="Check required cloud source-prep secrets and write a repo-visible preflight state.",
+    )
+    source_prep_preflight_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    source_prep_preflight_parser.add_argument("--github-output", type=Path, help="Optional GitHub Actions output file path.")
+    source_prep_preflight_parser.add_argument("--github-step-summary", type=Path, help="Optional GitHub Actions step summary file path.")
+
     cloud_source_prep_parser = subparsers.add_parser(
         "cloud-source-prep-heartbeat",
         help="Cloud-first source-prep heartbeat: restore raw R2 cache, refresh GitHub queues, and upload binary derivatives.",
@@ -11065,6 +11161,16 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "source-prep-cloud-report":
         print(build_source_prep_cloud_report(args.root))
+        return 0
+
+    if args.command == "source-prep-cloud-preflight":
+        summary = source_prep_cloud_preflight(
+            args.root,
+            github_output=args.github_output,
+            github_step_summary=args.github_step_summary,
+        )
+        print("source-prep-cloud-preflight | summary")
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
         return 0
 
     if args.command == "cloud-source-prep-heartbeat":

@@ -105,25 +105,19 @@ jobs:
       - name: Preflight cloud secrets
         id: preflight
         shell: bash
+        run: >
+          python -m historic_doc_ingest.genealogy_wiki source-prep-cloud-preflight
+          --root .
+          --github-output "$GITHUB_OUTPUT"
+          --github-step-summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish source-prep preflight state
+        if: steps.preflight.outputs.ready != 'true' && steps.preflight.outputs.state_changed == 'true'
         run: |
-          missing=()
-          for name in R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY R2_BUCKET; do
-            if [ -z "${!name}" ]; then
-              missing+=("$name")
-            fi
-          done
-          if [ -z "$GEMINI_API_KEY" ] && [ -z "$GOOGLE_API_KEY" ]; then
-            missing+=("GEMINI_API_KEY_or_GOOGLE_API_KEY")
-          fi
-          if [ -z "$R2_ACCOUNT_ID" ] && [ -z "$R2_ENDPOINT_URL" ]; then
-            missing+=("R2_ACCOUNT_ID_or_R2_ENDPOINT_URL")
-          fi
-          if [ "${#missing[@]}" -gt 0 ]; then
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-            printf 'Missing cloud source-prep secret(s): %s\n' "${missing[*]}" >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          echo "ready=true" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main
+          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source prep preflight state"
 
       - name: Prepare conversion queue from R2
         if: steps.preflight.outputs.ready == 'true'
