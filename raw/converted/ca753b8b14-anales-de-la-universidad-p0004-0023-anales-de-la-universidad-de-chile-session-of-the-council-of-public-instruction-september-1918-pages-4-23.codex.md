@@ -9,8 +9,6 @@
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images`
 
 ## Page Metadata
-Page number: 4
-
 ## Layout And Reading Order
 The page is blank.
 
@@ -18,17 +16,17 @@ The page is blank.
 The page is blank.
 
 ## Images, Captions, And Visual Notes
-The page is blank. There are no images, captions, or visual notes.
+The page is blank.
 
 ## Uncertain Or Illegible
-The page is blank. There is no uncertain or illegible text.
+None. The page is blank.
 
 ## Completeness Audit
-The page is completely blank.
+The page is entirely blank. No content was found to transcribe or describe.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no visual content."}
+{"visual_regions": [], "no_visual_regions_reason": "Page is blank."}
 ```
 
 # Page 5
@@ -115,17 +113,17 @@ The page is entirely blank.
 [The page is blank.]
 
 ## Images, Captions, And Visual Notes
-The page contains no images, captions, or other meaningful visual content. It appears to be a blank page with a textured, yellowish-brown background.
+The page is blank and contains no images, captions, or other meaningful visual content.
 
 ## Uncertain Or Illegible
-No text or content is present to be uncertain or illegible.
+None. The page is blank.
 
 ## Completeness Audit
-The page is entirely blank. The conversion is complete and accurate.
+The page is entirely blank. The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content to extract."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content."}
 ```
 
 # Page 7
@@ -209,20 +207,20 @@ No interpretation was produced by the Docling basic conversion pass.
 The page is entirely blank.
 
 ## Literal Transcription
-[The page is blank.]
+(Page is blank)
 
 ## Images, Captions, And Visual Notes
-The page is entirely blank, with no discernible text, images, or markings. There are some extremely faint, ghosted impressions of text, likely from the reverse side of the page or a previous page, but they are not legible and do not constitute content on this page.
+The page is entirely blank. There are no images, captions, or other meaningful visual elements. Very faint, illegible ghosting from text on an adjacent page is visible in some areas, but it does not constitute content on this page.
 
 ## Uncertain Or Illegible
-None. The page is blank.
+No content to transcribe.
 
 ## Completeness Audit
 The page is entirely blank. The transcription accurately reflects this.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank with no discernible content to crop."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content to extract."}
 ```
 
 ## Page Metadata
@@ -230,36 +228,27 @@ The page is entirely blank. The transcription accurately reflects this.
 - task_id: `source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009`
 - page_number: 9
 - source_name: `Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.`
-- source_id: `ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23`
-- page_ocr_quality: high
-- page_type: section_divider
+- source_page_count: 20
+- source_type: `Journal`
+- source_language: `es`
 
 ## Layout And Reading Order
 
-The page contains a single column of centered text that serves as a section title. There is also a line of text in the bottom-left corner. The reading order is from top to bottom.
-
-1.  **Title Block**: Centered text in the upper half of the page.
-2.  **Footer Text**: A single line of text in the bottom-left corner.
+The page contains a centered title block followed by a line of text in the lower-left corner. The reading order is from top to bottom.
 
 ## Literal Transcription
 
-```text
 ACTAS DE LAS SESIONES
 
 DEL
 
 CONSEJO DE INSTRUCCION PÚBLICA
 
-
-
-
-
 ANALES ACTAS.—SET.—OCT.—6
-```
 
 ## Images, Captions, And Visual Notes
 
-This page is a text-only section divider. There are no images, illustrations, or other visual elements.
+This page is a text-only title page and contains no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 
@@ -274,7 +263,7 @@ This page has been transcribed in its entirety.
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page is a simple text-only section divider with no images, illustrations, or other significant visual elements suitable for cropping."
+  "no_visual_regions_reason": "The page is a simple text-only title page with no images, illustrations, or other significant visual elements suitable for cropping."
 }
 ```
 

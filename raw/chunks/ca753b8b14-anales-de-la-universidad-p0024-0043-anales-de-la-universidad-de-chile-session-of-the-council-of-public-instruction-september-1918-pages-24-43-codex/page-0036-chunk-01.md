@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-72b23b5da9a5-P0036-01
+chunk_id: CHUNK-3c23943fe320-P0036-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md
-converted_sha256: 72b23b5da9a57a86df3bc8a6a1b82f82db722b469f83bfbbcc0f80e702575f6f
+converted_sha256: 3c23943fe3201d49a61bb8d9f52be6c29b8a317a8992aea571a7034a465b7826
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json
@@ -89,37 +89,34 @@ No interpretation was produced by the Docling basic conversion pass.
 Page number: 37
 
 ## Layout And Reading Order
-
-The page contains a header with a session date and page number. Below this, there are two sections, "Clases" and "EJERCICIOS", each presenting a list of subjects with corresponding weekly hours, formatted like a table with a right-aligned column for hours and a total. Following these sections, there is a multi-paragraph block of text discussing an agreement regarding student enrollment, a new study plan, and communications from the Faculty of Mathematics concerning a budget project for the Astronomical Observatory.
+The page contains a header with a session date and page number, followed by two distinct sections detailing "Clases" (Classes) and "EJERCICIOS" (Exercises) with corresponding weekly hours, presented in a tabular/list format. Below these sections, there is a main paragraph of text, followed by a single concluding sentence.
 
 ## Literal Transcription
-
 SESION DE 7 DE OCTUBRE DE 1918 323
 ___
 
-Clases
-Horas
+Clases Horas
 semanales
 1. Jeometría del Espacio i Jeometría Descriptiva... 4
 2. Complementos de Jeometría Plana i Aljebra, con
-nociones de Aljebra Superior................... 4
+   nociones de Aljebra Superior................... 4
 3. Trigonometría Plana i Esférica i Jeometría Ana-
-lítica....................................... 5
-4. Cosmografía.................................. 2
-5. Física....................................... 3
-6. Química Jeneral.............................. 3
-––––
-21
+   lítica........................................ 5
+4. Cosmografía................................... 2
+5. Física........................................ 3
+6. Química Jeneral................................ 3
+                                                ___
+                                                21
 
 EJERCICIOS:
 
-1. Dibujo i lavado............................... 2
-2. Química Jeneral.............................. 4
-3. Física....................................... 4
-4. Depurados.................................... 4
-5. Idiomas...................................... 3
-––––
-17
+1. Dibujo i lavado................................ 2
+2. Química Jeneral................................ 4
+3. Física........................................ 4
+4. Depurados..................................... 4
+5. Idiomas....................................... 3
+                                                ___
+                                                17
 
 Se acordó igualmente declarar que, para matricularse como
 alumno en el primer año del Curso de Injeniería, mientras esté
@@ -138,7 +135,7 @@ cion de la latitud.
 Se aprobó el Proyecto de Presupuestos para el Observatorio
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+There are no images or significant visual elements on this page.
 
 ## Uncertain Or Illegible
 None.
@@ -148,5 +145,5 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone assets. The page consists entirely of text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
