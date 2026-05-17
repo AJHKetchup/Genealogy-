@@ -1074,6 +1074,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--no-job-source-copy" in workflow
     assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '500'" in workflow
     assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '32'" in workflow
+    assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '25'" in workflow
+    assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
     assert "--no-ocr" in workflow
     assert "--document-timeout 30" in workflow
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
@@ -1724,6 +1726,37 @@ def test_docling_no_ocr_marks_textless_pdf_unusable_without_docling_call(tmp_pat
     entry = next(iter(discovery["entries"].values()))
     assert entry["status"] == "rough_unusable"
     assert entry["method_detail"] == "docling_no_ocr_text_layer_absent"
+
+
+def test_docling_discovery_caps_pages_per_source(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "large-one-source.pdf"
+    doc = fitz.open()
+    for page_number in range(5):
+        page = doc.new_page(width=360, height=500)
+        page.insert_textbox((36, 36, 324, 460), f"Usable printed source text page {page_number}. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=5)
+    write_agent_queues(tmp_path)
+
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path, **kwargs: "Usable printed source text for Docling baseline. " * 8,
+    )
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        max_pages_per_source=2,
+    )
+
+    assert summary["inspected"] == 2
+    assert summary["accepted"] == 2
+    assert summary["skipped"]["max_pages_per_source_reached"] == 3
 
 
 def test_docling_discovery_revalidates_old_accepted_cache_and_requeues_for_gemini(tmp_path, monkeypatch) -> None:

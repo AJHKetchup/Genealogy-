@@ -46,6 +46,10 @@ on:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
         default: "32"
+      discovery_max_pages_per_source:
+        description: "Maximum Docling-discovery pages per raw source per run"
+        required: false
+        default: "25"
   schedule:
     - cron: "*/15 * * * *"
 
@@ -81,6 +85,7 @@ jobs:
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '500' || github.event.inputs.discovery_scan_limit || '500' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '32' || github.event.inputs.discovery_parallelism || '32' }}
+      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '25' || github.event.inputs.discovery_max_pages_per_source || '25' }}
       RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}
     steps:
       - name: Check out repository
@@ -168,6 +173,7 @@ jobs:
           --root .
           --limit "$RUN_DISCOVERY_LIMIT"
           --scan-limit "$RUN_DISCOVERY_SCAN_LIMIT"
+          --max-pages-per-source "$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE"
           --parallelism "$RUN_DISCOVERY_PARALLELISM"
           --no-ocr
           --document-timeout 30

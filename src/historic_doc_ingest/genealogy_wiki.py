@@ -6315,6 +6315,7 @@ def source_prep_docling_discovery_run(
     *,
     limit: int = 100,
     scan_limit: int = 1000,
+    max_pages_per_source: int = 0,
     parallelism: int = 1,
     stale_minutes: int = 360,
     agent: str = "source-prep-docling-discovery",
@@ -6328,6 +6329,8 @@ def source_prep_docling_discovery_run(
         raise ValueError("limit must be zero or greater")
     if scan_limit < 1:
         raise ValueError("scan_limit must be at least 1")
+    if max_pages_per_source < 0:
+        raise ValueError("max_pages_per_source must be zero or greater")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
 
@@ -6372,6 +6375,7 @@ def source_prep_docling_discovery_run(
         "agent": agent,
         "limit": limit,
         "scan_limit": scan_limit,
+        "max_pages_per_source": max_pages_per_source,
         "parallelism": parallelism,
         "use_ocr": use_ocr,
         "document_timeout": document_timeout,
@@ -6473,9 +6477,15 @@ def source_prep_docling_discovery_run(
     with tempfile.TemporaryDirectory(prefix="source-prep-docling-") as tmp:
         temp_dir = Path(tmp)
         candidates: list[tuple[dict[str, object], str]] = []
+        source_counts: dict[str, int] = {}
         for task in tasks:
             if int(summary["inspected"]) >= scan_limit:
                 break
+            source_key = str(task.get("source_sha256", "") or task.get("source", "")).strip()
+            if max_pages_per_source > 0 and source_key:
+                if source_counts.get(source_key, 0) >= max_pages_per_source:
+                    count_skip("max_pages_per_source_reached")
+                    continue
             cache_key = source_prep_discovery_cache_key(task)
             cached = entries.get(cache_key)
             if (
@@ -6490,6 +6500,8 @@ def source_prep_docling_discovery_run(
                 count_skip("raw_source_not_restored")
                 continue
 
+            if max_pages_per_source > 0 and source_key:
+                source_counts[source_key] = source_counts.get(source_key, 0) + 1
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
 
@@ -10953,6 +10965,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum queued pages to inspect before stopping. Default: 1000.",
     )
     source_prep_docling_parser.add_argument(
+        "--max-pages-per-source",
+        type=int,
+        default=0,
+        help="Maximum pages to inspect per raw source in one run. Use 0 for no cap. Default: 0.",
+    )
+    source_prep_docling_parser.add_argument(
         "--parallelism",
         type=int,
         default=1,
@@ -11518,6 +11536,7 @@ def main(argv: list[str] | None = None) -> int:
             root=args.root,
             limit=args.limit,
             scan_limit=args.scan_limit,
+            max_pages_per_source=args.max_pages_per_source,
             parallelism=args.parallelism,
             agent=args.agent,
             stale_minutes=args.stale_minutes,
