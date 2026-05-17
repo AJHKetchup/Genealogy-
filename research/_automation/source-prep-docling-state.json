@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T13:42:25Z",
+  "created": "2026-05-17T14:16:07Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -16,21 +16,40 @@
   },
   "inspected": 250,
   "accepted": 0,
-  "unusable": 10,
-  "fast_unusable": 10,
-  "errors": 240,
+  "unusable": 11,
+  "fast_unusable": 11,
+  "errors": 239,
   "extracted_images": 0,
   "skipped": {
-    "cached_error": 2936,
-    "max_pages_per_source_reached": 3028
+    "cached_error": 3176,
+    "max_pages_per_source_reached": 2803
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0406",
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0461",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 461,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478/page-0461.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 461,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0444",
       "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 406,
+      "page": 444,
       "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425/page-0406.md",
+      "discovery_path": "raw/discovery/docling/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/page-0444.md",
       "readability_flags": [
         "insufficient_text",
         "insufficient_alpha_text",
@@ -41,1862 +60,1856 @@
       "extracted_image_count": 0,
       "docling_no_ocr_fast_unusable": true,
       "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 406,
+      "source_page": 444,
       "text_layer_alpha_chars": 0
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0414",
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0434",
       "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 414,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425/page-0414.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 414,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0402",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 402,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0402.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 402,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0408",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 408,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0408.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 408,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0409",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 409,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0409.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 409,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0410",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 410,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0410.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 410,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0411",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 411,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0411.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 411,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0420",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 420,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0420.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 420,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0421",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 421,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0421.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 421,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0422",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 422,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-0422.md",
-      "readability_flags": [
-        "insufficient_text",
-        "insufficient_alpha_text",
-        "insufficient_words"
-      ],
-      "profile_version": 2,
-      "text_chars": 0,
-      "extracted_image_count": 0,
-      "docling_no_ocr_fast_unusable": true,
-      "docling_unusable_reason": "pdf_text_layer_absent",
-      "source_page": 422,
-      "text_layer_alpha_chars": 0
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0612",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 612,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0615",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 615,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0618",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 618,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0614",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 614,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0619",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 619,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0617",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 617,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0607",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 607,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0620",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 620,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0616",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 616,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0611",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 611,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0613",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 613,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0608",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 608,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0609",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 609,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0610",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 610,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0622",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 622,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0621",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 621,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0626",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 626,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0631",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 631,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0627",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 627,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0630",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 630,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0423",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 423,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0623",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 623,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0424",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 424,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0625",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 625,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0419",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 419,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0422",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 422,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0420",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 420,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0421",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 421,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0425",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0629",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 629,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0624",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 624,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0628",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 628,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0430",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 430,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0432",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 432,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0426",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 426,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0428",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 428,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0438",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 438,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0434",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "page": 434,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/page-0434.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 434,
+      "text_layer_alpha_chars": 0
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0435",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 435,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0451",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 451,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/page-0451.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 451,
+      "text_layer_alpha_chars": 0
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0431",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 431,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0429",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 429,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0429.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words",
+        "possible_ocr_garbage"
+      ],
+      "profile_version": 2,
+      "text_chars": 2,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 429,
+      "text_layer_alpha_chars": 1
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0433",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0433",
+      "source": "raw/sources/S519bis-26-4.pdf",
       "page": 433,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0433.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 433,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0435",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 435,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0435.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 435,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0445",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 445,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0445.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 445,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0446",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 446,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0446.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 446,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0448",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 448,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0448.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 448,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0449",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 449,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-0449.md",
+      "readability_flags": [
+        "insufficient_text",
+        "insufficient_alpha_text",
+        "insufficient_words"
+      ],
+      "profile_version": 2,
+      "text_chars": 0,
+      "extracted_image_count": 0,
+      "docling_no_ocr_fast_unusable": true,
+      "docling_unusable_reason": "pdf_text_layer_absent",
+      "source_page": 449,
+      "text_layer_alpha_chars": 0
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0640",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 640,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428:p0427",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 427,
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0639",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 639,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0437",
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0647",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 647,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0644",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 644,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0635",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 635,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0634",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 634,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0637",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 637,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0633",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 633,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0632",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 632,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0643",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 643,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0646",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 646,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0642",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 642,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0645",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 645,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0636",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 636,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0638",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 638,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0641",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 641,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0653",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 653,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0652",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 652,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0648",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 648,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0448",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 448,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0450",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 450,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0446",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 446,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0651",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 651,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678:p0655",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 655,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0447",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 447,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0445",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 445,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0449",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 449,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0649",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 649,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0629-0653-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-629-653:p0650",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 650,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0444",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 444,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678:p0656",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 656,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678:p0654",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "page": 654,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0454",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 454,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0452",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 452,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0458",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 458,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0457",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 457,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0459",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 459,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0455",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 455,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0453",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 453,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0451",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 451,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0464",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 464,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0460",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 460,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0463",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 463,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0456",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 456,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0462",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 462,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0465",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 465,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0466",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 466,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0467",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 467,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0468",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "page": 468,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0437",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
       "page": 437,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0440",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0433",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 433,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0431",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 431,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0434",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 434,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0432",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 432,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0440",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
       "page": 440,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0436",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 436,
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0444",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 444,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0441",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 441,
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0435",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 435,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0439",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0439",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
       "page": 439,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0429",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 429,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0406",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0438",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 406,
+      "page": 438,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0443",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0443",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
       "page": 443,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0415",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0442",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 415,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0409",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 409,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0410",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 410,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0408",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 408,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453:p0442",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "page": 442,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0417",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0436",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 417,
+      "page": 436,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0419",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0441",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 419,
+      "page": 441,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0413",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0445",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 413,
+      "page": 445,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0407",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0446",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 407,
+      "page": 446,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0418",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0448",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 418,
+      "page": 448,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0414",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0450",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 414,
+      "page": 450,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0412",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0449",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 412,
+      "page": 449,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0416",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475:p0454",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 416,
+      "page": 454,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0411",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475:p0451",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 411,
+      "page": 451,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0420",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475:p0453",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 420,
+      "page": 453,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0422",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 422,
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0431",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 431,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0426",
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475:p0452",
       "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 452,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0447",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 447,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0432",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 432,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0451-0475-r3016-11a-2905-950-pages-451-475:p0455",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 455,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0434",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 434,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0435",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 435,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0436",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 436,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0433",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 433,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0437",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 437,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0439",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 439,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0438",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 438,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0440",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 440,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0446",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 446,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0441",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 441,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0445",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 445,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0442",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 442,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0447",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 447,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0443",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 443,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0450",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 450,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0452",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 452,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0448",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 448,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0453",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 453,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0449",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 449,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0451",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 451,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0454",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 454,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0431",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 431,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0455",
+      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "page": 455,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0434",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 434,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0435",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 435,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0440",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 440,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0442",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 442,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0438",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 438,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0436",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 436,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0437",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 437,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0433",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 433,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0443",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 443,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0444",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 444,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0432",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 432,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0439",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 439,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0441",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 441,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0445",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 445,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0446",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 446,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0447",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 447,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0448",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 448,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0436",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 436,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475:p0453",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 453,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0431",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 431,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0450",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 450,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475:p0451",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 451,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475:p0455",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 455,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475:p0452",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 452,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0433",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 433,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0449",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 449,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0435",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 435,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0432",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 432,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475:p0454",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "page": 454,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0437",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 437,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0438",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 438,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0439",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 439,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0440",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 440,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0441",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 441,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0443",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 443,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0442",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 442,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0447",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 447,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0444",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 444,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0446",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 446,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0445",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 445,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0452",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 452,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0449",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 449,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0448",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 448,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0450",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 450,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0453",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 453,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0454",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 454,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0426",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
       "page": 426,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0428",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 428,
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0455",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "page": 455,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0425",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0423",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 423,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0430",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 430,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0409",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 409,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0421",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 421,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0427",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0427",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
       "page": 427,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0410",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 410,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0428",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 428,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450:p0429",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0429",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
       "page": 429,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425:p0424",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 424,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0430",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 430,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0408",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 408,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0433",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 433,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0407",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 407,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0431",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 431,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0411",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 411,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0434",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 434,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0412",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 412,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0436",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 436,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0414",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 414,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0438",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 438,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0413",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 413,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0432",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 432,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0420",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 420,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0437",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 437,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0423",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 423,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0435",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 435,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0421",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 421,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0439",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 439,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0417",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 417,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0440",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 440,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0415",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 415,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0442",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 442,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0419",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 419,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0441",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 441,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0426",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0443",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 443,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0444",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 444,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0445",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 445,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0446",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 446,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0450",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 450,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0426",
+      "source": "raw/sources/S495-2-2.pdf",
       "page": 426,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0427",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0429",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 429,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0448",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 448,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0427",
+      "source": "raw/sources/S495-2-2.pdf",
       "page": 427,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0418",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 418,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0422",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 422,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0424",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 424,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0416",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 416,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0425",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0428",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 428,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0430",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0430",
+      "source": "raw/sources/S495-2-2.pdf",
       "page": 430,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0429",
-      "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
-      "page": 429,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0447",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 447,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0411",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 411,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0428",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 428,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0409",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 409,
+      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0449",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "page": 449,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0406",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 406,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0431",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 431,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0410",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 410,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0432",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 432,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0414",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 414,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0433",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 433,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0416",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 416,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0434",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 434,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0412",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 412,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0435",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 435,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0418",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 418,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0440",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 440,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0407",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 407,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0438",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 438,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0413",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 413,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0437",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 437,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0415",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 415,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0436",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 436,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0408",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 408,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0442",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 442,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0417",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 417,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0439",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 439,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0419",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 419,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0441",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 441,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0421",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 421,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0445",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 445,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0429",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 429,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0444",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 444,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0422",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 422,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0443",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 443,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0424",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 424,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0446",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 446,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0420",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 420,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0447",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 447,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0423",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 423,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0449",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 449,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0425",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 425,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0448",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 448,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0408",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 408,
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0450",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 450,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0407",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 407,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0427",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 427,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0426",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0426",
+      "source": "raw/sources/S519bis-26-4.pdf",
       "page": 426,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0409",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 409,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0430",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
-      "page": 430,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450:p0428",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0428",
+      "source": "raw/sources/S519bis-26-4.pdf",
       "page": 428,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0406",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 406,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0410",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 410,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0411",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 411,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0417",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 417,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0416",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 416,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0419",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 419,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0418",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 418,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0413",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 413,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0422",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 422,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0424",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 424,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0415",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 415,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0412",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 412,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0421",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 421,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0420",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 420,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0425",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0426",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 426,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0423",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 423,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0427",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0427",
+      "source": "raw/sources/S519bis-26-4.pdf",
       "page": 427,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0429",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "page": 429,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0431",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 431,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0430",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0430",
+      "source": "raw/sources/S519bis-26-4.pdf",
       "page": 430,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0402",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 402,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0439",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 439,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0403",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 403,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0437",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 437,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0407",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 407,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0434",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 434,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0408",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 408,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0440",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 440,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0401",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 401,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0432",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 432,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0412",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 412,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0438",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 438,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0428",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0436",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 436,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0441",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 441,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0442",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 442,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0443",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 443,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0444",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 444,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0447",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 447,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450:p0450",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 450,
+      "status": "error",
+      "error": "Docling hard timeout after 20 seconds."
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0428",
+      "source": "raw/sources/S522bis-29-3.pdf",
       "page": 428,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0409",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 409,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0411",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 411,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0405",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 405,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0410",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 410,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0406",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 406,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0404",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 404,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0413",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 413,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0414",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 414,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0421",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 421,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0416",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 416,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0425",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0415",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 415,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0422",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 422,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0424",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 424,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0423",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 423,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0420",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 420,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0403",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 403,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0418",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 418,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0419",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 419,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0401",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 401,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0417",
-      "source": "raw/sources/R4749-11C-17499-5398.pdf",
-      "page": 417,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0402",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 402,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0404",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 404,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0405",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 405,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0407",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 407,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0408",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 408,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0411",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 411,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0415",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 415,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0409",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 409,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0410",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 410,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0416",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 416,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0414",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 414,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0406",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 406,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0413",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 413,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0412",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 412,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0417",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 417,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0419",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 419,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0418",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 418,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0420",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 420,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0421",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 421,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0422",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 422,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0423",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 423,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0401",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 401,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0405",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 405,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0425",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0406",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 406,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0403",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 403,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0415",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 415,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0424",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 424,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0404",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 404,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0414",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 414,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0407",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 407,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0413",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 413,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0412",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 412,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0416",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 416,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0417",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 417,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0419",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 419,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0418",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 418,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0424",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 424,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0402",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0430",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 402,
+      "page": 430,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0404",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0429",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 404,
+      "page": 429,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0403",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0427",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 403,
+      "page": 427,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0423",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 423,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0408",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0433",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 408,
+      "page": 433,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425:p0425",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0406",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0432",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 406,
+      "page": 432,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0401",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0426",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 401,
+      "page": 426,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0405",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0434",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 405,
+      "page": 434,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0409",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0435",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 409,
+      "page": 435,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0407",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0431",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 407,
+      "page": 431,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0410",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0436",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 410,
+      "page": 436,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0411",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0437",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 411,
+      "page": 437,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0412",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0438",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 412,
+      "page": 438,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0413",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0439",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 413,
+      "page": 439,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0414",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0440",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 414,
+      "page": 440,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0415",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0441",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 415,
+      "page": 441,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0416",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0443",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 416,
+      "page": 443,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0417",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0442",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 417,
+      "page": 442,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0419",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0447",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 419,
+      "page": 447,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0420",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0445",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 420,
+      "page": 445,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0418",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0448",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 418,
+      "page": 448,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0422",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0450",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 422,
+      "page": 450,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0423",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0444",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 423,
+      "page": 444,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0421",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0446",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 421,
+      "page": 446,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     },
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0425",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450:p0449",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 425,
-      "status": "error",
-      "error": "Docling hard timeout after 20 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425:p0424",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 424,
+      "page": 449,
       "status": "error",
       "error": "Docling hard timeout after 20 seconds."
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "finished": "2026-05-17T13:47:41Z"
+  "finished": "2026-05-17T14:21:36Z"
 }
