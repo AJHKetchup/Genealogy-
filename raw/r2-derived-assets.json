@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T08:49:42.875412+00:00",
+  "created": "2026-05-17T09:03:57.701310+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -230,9 +230,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 25,
-    "total_bytes": 90894713,
-    "uploaded": 25,
+    "total_files": 0,
+    "total_bytes": 0,
+    "uploaded": 0,
     "skipped": 0,
     "planned": 0,
     "errors": [],
