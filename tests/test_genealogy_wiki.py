@@ -1067,6 +1067,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "cache: \"pip\"" not in workflow
     assert "Install source-prep queue dependencies" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[pdf]"' in workflow
+    assert "Sync latest main before source-prep" in workflow
+    assert "git pull --ff-only origin main" in workflow
     assert "Install Docling discovery dependencies" in workflow
     assert "https://download.pytorch.org/whl/cpu" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
@@ -1080,6 +1082,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--no-ocr" in workflow
     assert "--document-timeout 10" in workflow
     assert "--hard-timeout \"$RUN_DISCOVERY_HARD_TIMEOUT\"" in workflow
+    assert workflow.index("Check out repository") < workflow.index("Sync latest main before source-prep")
+    assert workflow.index("Sync latest main before source-prep") < workflow.index("Prepare conversion queue from R2")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
 
