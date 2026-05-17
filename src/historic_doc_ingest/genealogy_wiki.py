@@ -5112,7 +5112,7 @@ def write_agent_queue(
     for task in tasks:
         task_copy = dict(task)
         prompt = str(task_copy.pop("prompt"))
-        prompt_path = prompts_dir / f"{slug(str(task_copy['task_id']))}.md"
+        prompt_path = prompts_dir / agent_prompt_filename(str(task_copy["task_id"]))
         prompt_path.write_text(prompt, encoding="utf-8")
         task_copy["prompt_path"] = relative_to_root(prompt_path, root)
         apply_agent_task_state(task_copy, task_state.get(str(task_copy["task_id"]), {}))
@@ -5128,6 +5128,18 @@ def write_agent_queue(
     }
     queue_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     return queue_path
+
+
+AGENT_PROMPT_FILENAME_MAX_STEM = 96
+
+
+def agent_prompt_filename(task_id: str) -> str:
+    task_slug = slug(task_id) or "task"
+    if len(task_slug) <= AGENT_PROMPT_FILENAME_MAX_STEM:
+        return f"{task_slug}.md"
+    digest = hashlib.sha1(task_id.encode("utf-8")).hexdigest()[:12]
+    compact_slug = task_slug[:AGENT_PROMPT_FILENAME_MAX_STEM].rstrip("-") or "task"
+    return f"{compact_slug}-{digest}.md"
 
 
 SOURCE_PREP_BATCHABLE_STATUSES = ("needs_reread", "todo")

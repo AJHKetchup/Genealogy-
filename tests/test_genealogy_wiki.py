@@ -26,6 +26,7 @@ from historic_doc_ingest.genealogy_wiki import (
     write_claim_index,
     write_relationship_graph,
     write_relationship_index,
+    write_agent_queue,
     write_source_prep_index,
     write_source_usability_report,
     write_agent_queues,
@@ -820,6 +821,30 @@ def test_write_agent_queues_creates_conversion_qa_and_extraction_tasks(tmp_path)
     assert qa_queue["tasks"][0]["role"] == "conversion_qa_reviewer"
     assert extraction_queue["task_count"] >= 1
     assert extraction_queue["tasks"][0]["role"] == "evidence_extractor"
+
+
+def test_write_agent_queue_compacts_long_prompt_filenames(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    queue_path = write_agent_queue(
+        tmp_path,
+        tmp_path / "research" / "_agent-queues",
+        "source-prep-batches",
+        [
+            {
+                "task_id": "source-prep-batch:" + "very-long-source-title-" * 20,
+                "status": "todo",
+                "prompt": "Convert the page.",
+            }
+        ],
+        {},
+    )
+
+    payload = json.loads(queue_path.read_text(encoding="utf-8"))
+    prompt_path = tmp_path / payload["tasks"][0]["prompt_path"]
+
+    assert prompt_path.exists()
+    assert len(prompt_path.name) <= 120
+    assert prompt_path.read_text(encoding="utf-8") == "Convert the page."
 
 
 def test_agent_task_state_claims_and_releases_queue_tasks(tmp_path) -> None:

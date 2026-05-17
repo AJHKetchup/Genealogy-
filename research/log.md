@@ -1099,3 +1099,4 @@
 ## [2026-05-17] prepare-sources | Prepared 1 raw source(s)
 ## [2026-05-17] source-prep-batches | Wrote 10 batch task(s), max 1 page(s) each
 ## [2026-05-17] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-16] source-prep-batches | Wrote 455 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
