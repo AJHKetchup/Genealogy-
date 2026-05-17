@@ -8446,7 +8446,7 @@ def source_prep_gemini_run(
             paths.research / "log.md",
             "gemini-source-prep | fatal dependency blocker before page conversion",
         )
-        raise RuntimeError(f"Gemini source-prep fatal blocker: {error}")
+        raise GeminiSourcePrepFatalError(f"Gemini source-prep fatal blocker: {error}")
 
     if preflight_api and not dry_run:
         try:
@@ -8801,7 +8801,7 @@ def source_prep_gemini_run(
         f"parallelism={summary['parallelism']}, routes={summary.get('route_counts', {})}, dry_run={dry_run}",
     )
     if str(summary.get("fatal_error", "") or "").strip():
-        raise RuntimeError(f"Gemini source-prep fatal blocker: {summary['fatal_error']}")
+        raise GeminiSourcePrepFatalError(f"Gemini source-prep fatal blocker: {summary['fatal_error']}")
     return summary
 
 
@@ -11831,26 +11831,31 @@ def main(argv: list[str] | None = None) -> int:
             api_key = os.environ.get(args.api_key_env, "")
             if not api_key and not args.dry_run:
                 raise RuntimeError(f"{args.api_key_env} is required for gemini-source-prep.")
-        summary = source_prep_gemini_run(
-            root=args.root,
-            limit=args.limit,
-            queue_limit=args.queue_limit,
-            stale_minutes=args.stale_minutes,
-            api_key=api_key,
-            lite_model=args.lite_model,
-            pro_model=args.pro_model,
-            max_output_tokens_lite=args.max_output_tokens_lite,
-            max_output_tokens_pro=args.max_output_tokens_pro,
-            crop_relevance=not args.no_crops,
-            crop_count=args.crop_count,
-            parallelism=args.parallelism,
-            agent=args.agent,
-            dry_run=args.dry_run,
-            refresh_queue=not args.no_refresh_queue,
-            source_filter=args.source,
-            source_sha256=args.source_sha256,
-            preflight_api=args.preflight_api,
-        )
+        try:
+            summary = source_prep_gemini_run(
+                root=args.root,
+                limit=args.limit,
+                queue_limit=args.queue_limit,
+                stale_minutes=args.stale_minutes,
+                api_key=api_key,
+                lite_model=args.lite_model,
+                pro_model=args.pro_model,
+                max_output_tokens_lite=args.max_output_tokens_lite,
+                max_output_tokens_pro=args.max_output_tokens_pro,
+                crop_relevance=not args.no_crops,
+                crop_count=args.crop_count,
+                parallelism=args.parallelism,
+                agent=args.agent,
+                dry_run=args.dry_run,
+                refresh_queue=not args.no_refresh_queue,
+                source_filter=args.source,
+                source_sha256=args.source_sha256,
+                preflight_api=args.preflight_api,
+            )
+        except GeminiSourcePrepFatalError as exc:
+            print("gemini-source-prep | fatal blocker")
+            print(str(exc))
+            return 1
         print("gemini-source-prep | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))
         return 0

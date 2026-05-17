@@ -201,25 +201,31 @@ jobs:
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source prep Docling checkpoint"
 
       - name: Convert missing pages with Gemini
+        id: gemini
         if: steps.preflight.outputs.ready == 'true'
-        run: >
-          python -m historic_doc_ingest.genealogy_wiki gemini-source-prep
-          --root .
-          --limit "$RUN_LIMIT"
-          --parallelism "$RUN_PARALLELISM"
-          --queue-limit "$RUN_QUEUE_LIMIT"
-          --source "$RUN_SOURCE"
-          --source-sha256 "$RUN_SOURCE_SHA256"
-          --stale-minutes 360
-          --lite-model gemini-2.5-flash
-          --pro-model gemini-2.5-pro
-          --max-output-tokens-lite 65536
-          --max-output-tokens-pro 65536
-          --crop-count 4
-          --preflight-api
+        shell: bash
+        run: |
+          set +e
+          python -m historic_doc_ingest.genealogy_wiki gemini-source-prep \
+            --root . \
+            --limit "$RUN_LIMIT" \
+            --parallelism "$RUN_PARALLELISM" \
+            --queue-limit "$RUN_QUEUE_LIMIT" \
+            --source "$RUN_SOURCE" \
+            --source-sha256 "$RUN_SOURCE_SHA256" \
+            --stale-minutes 360 \
+            --lite-model gemini-2.5-flash \
+            --pro-model gemini-2.5-pro \
+            --max-output-tokens-lite 65536 \
+            --max-output-tokens-pro 65536 \
+            --crop-count 4 \
+            --preflight-api
+          status=$?
+          echo "exit_code=$status" >> "$GITHUB_OUTPUT"
+          exit 0
 
       - name: Assemble converted Markdown
-        if: steps.preflight.outputs.ready == 'true'
+        if: steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code == '0'
         run: >
           python -m historic_doc_ingest.genealogy_wiki cloud-source-prep-heartbeat
           --root .
@@ -237,7 +243,7 @@ jobs:
           --stale-minutes 360
 
       - name: Refresh global queue after source-filtered validation
-        if: steps.preflight.outputs.ready == 'true'
+        if: steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code == '0'
         shell: bash
         run: |
           if [ -n "$RUN_SOURCE" ] || [ -n "$RUN_SOURCE_SHA256" ]; then
@@ -262,3 +268,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source conversion"
+
+      - name: Fail if Gemini source-prep failed
+        if: steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code != '0'
+        run: exit 1
