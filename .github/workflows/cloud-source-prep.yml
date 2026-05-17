@@ -112,7 +112,7 @@ jobs:
           --github-step-summary "$GITHUB_STEP_SUMMARY"
 
       - name: Publish source-prep preflight state
-        if: steps.preflight.outputs.ready != 'true' && steps.preflight.outputs.state_changed == 'true'
+        if: steps.preflight.outputs.state_changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

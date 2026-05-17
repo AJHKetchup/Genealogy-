@@ -1010,14 +1010,15 @@ def test_cloud_workflow_rebases_before_publishing() -> None:
     assert workflow.index("Rebase before publishing conversion outputs") < workflow.index("Publish conversion outputs")
 
 
-def test_cloud_workflow_publishes_preflight_state_when_blocked() -> None:
+def test_cloud_workflow_publishes_changed_preflight_state_immediately() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
 
     assert "source-prep-cloud-preflight" in workflow
     assert "Publish source-prep preflight state" in workflow
-    assert "steps.preflight.outputs.ready != 'true' && steps.preflight.outputs.state_changed == 'true'" in workflow
+    assert "steps.preflight.outputs.state_changed == 'true'" in workflow
     assert "Cloud source prep preflight state" in workflow
+    assert workflow.index("Publish source-prep preflight state") < workflow.index("Prepare conversion queue from R2")
 
 
 def test_source_prep_cloud_preflight_records_missing_secrets_without_rewriting(tmp_path) -> None:
