@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-931393f70275-P0001-01
+chunk_id: CHUNK-6fa7a5871c58-P0001-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75.codex.md
-converted_sha256: 931393f70275f9d3fa88fad496a35c48d2113bce5f06a28a1e9401a523f828d1
+converted_sha256: 6fa7a5871c58f48ae3c9497bccfa4b70a662431003eda88c061b68259e21dc8f
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json
@@ -178,24 +178,20 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-N/A
+Page 53
 
 ## Layout And Reading Order
 
-The page is a light blue, blank sheet with a centered block of text. The text block consists of two lines of text, "IMPRIMERIE" and "DU JOURNAL DE GENÈVE", framed by two horizontal rules—one above "IMPRIMERIE" and one below "DU JOURNAL DE GENÈVE". There is a hole punch in the top right corner of the page.
+The page contains a single block of centered text, framed by horizontal lines, in the upper-middle section of the page.
 
 ## Literal Transcription
 
-```
-_______
 IMPRIMERIE
 DU JOURNAL DE GENÈVE
-_______
-```
 
 ## Images, Captions, And Visual Notes
 
-A circular hole punch is present in the top right corner of the page.
+A small hole punch is visible in the top right corner of the page.
 
 ## Uncertain Or Illegible
 
@@ -208,7 +204,7 @@ All visible text and significant visual elements have been transcribed or noted.
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual assets like portraits, maps, or diagrams. The hole punch is a minor mark and not suitable for a standalone crop."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The hole punch is a minor filing mark and is described in the text."}
 ```
 
 ## Page Metadata

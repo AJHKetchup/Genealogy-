@@ -9,10 +9,10 @@
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images`
 
 ## Page Metadata
-This page is the front of a paper envelope or folder, likely used to contain documents.
+This page appears to be the front of a manila envelope or folder, containing handwritten notes.
 
 ## Layout And Reading Order
-The page displays handwritten text in the upper-middle section, arranged in three lines. The text is centered horizontally on the page.
+The page contains handwritten text in three lines, centrally located in the upper half of the page. The first line is in red ink, the second line combines red and black ink, and the third line is in blue ink.
 
 ## Literal Transcription
 Anexos a
@@ -20,39 +20,43 @@ Anexos a
 Argentina
 
 ## Images, Captions, And Visual Notes
-The page is an image of a light brown paper envelope or folder, showing signs of wear, creasing, and minor tears, particularly along the bottom edge and left side. There is a small punched hole near the top right corner. The text is handwritten in three different colors: "Anexos a" is in red ink, "9A/" and "/ 25420" are in red ink while "31064" is in black ink, and "Argentina" is in blue ink.
+The page is an image of a light brown paper envelope or folder. It shows signs of wear, including creases, folds, and a small tear on the left edge. There is a small hole punched near the top right corner. The text is handwritten in three distinct colors: red, black, and blue.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text and significant visual characteristics of the page have been transcribed and described.
+The transcription is complete and captures all visible text and relevant visual characteristics of the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is a simple document cover with handwritten text. There are no substantial visuals like portraits, maps, or diagrams that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists solely of handwritten text on an envelope, which is fully captured by the literal transcription and visual notes. There are no distinct images, diagrams, or other visual elements that would warrant separate cropping."}
 ```
 
 ## Page Metadata
-This page is the cover of a publication titled "LEY Y REGLAMENTO GENERAL DE LOS FERROCARRILES NACIONALES" from 1936. It features the main title, subtitle, publication details, and two official stamps, one indicating receipt in 1938 and another for "free distribution."
+Page number: 5
 
 ## Layout And Reading Order
-The page presents a centered title block within a double-line border. A handwritten mark is in the top right corner. A red ink stamp is present in the top left, rotated. The main title and subtitle are centrally aligned, followed by publication details. Another red ink stamp is in the lower middle, also rotated. Publisher information and the year are at the bottom center.
+The page is the cover of a publication, featuring a central title and subtitle, followed by publication details at the bottom. A decorative double-line border frames the entire text block. Several stamps and handwritten marks are present on the page, overlaid on the printed text. The reading order flows from top to bottom, addressing the handwritten marks, stamps, main title, and then publication information.
 
 ## Literal Transcription
 ① ✓
-WAR DEPT. REGISTRY
+WAR DEPT. PUBLICATIONS
+REGISTRY
 RECEIVED
 14 FEB 1938
 
 LEY
 Y
 REGLAMENTO GENERAL
+
 DE LOS
+
 FERROCARRILES NACIONALES
 •
 PUBLICACION OFICIAL
 
+[illegible red stamp text]
 Distribución gratuita
 
 BUENOS AIRES
@@ -60,59 +64,18 @@ COMPAÑIA IMPRESORA ARGENTINA, S. A., ALSINA, 2049
 1936
 
 ## Images, Captions, And Visual Notes
-- A red ink stamp is present in the top-left quadrant, rotated clockwise. It contains the text "WAR DEPT. REGISTRY RECEIVED 14 FEB 1938".
-- A handwritten mark, consisting of a circled "①" and a checkmark "✓", is in the top-right corner of the page.
-- A red ink stamp is present in the lower-middle section of the page, rotated clockwise. It contains the text "Distribución gratuita".
+- Top right corner: A handwritten mark consisting of a circled number "1" and a checkmark.
+- Upper left quadrant: A rectangular stamp in red ink, containing the text "WAR DEPT. PUBLICATIONS", "REGISTRY", "RECEIVED", and "14 FEB 1938".
+- Mid-page, slightly to the left: A faint, rectangular stamp in red ink with mostly illegible text. Overlaid on this stamp, handwritten in purple ink, is the phrase "Distribución gratuita".
 
 ## Uncertain Or Illegible
-None. All text is legible.
+- The red stamp in the middle of the page is largely illegible, with only its rectangular shape and red color clearly visible.
 
 ## Completeness Audit
 The transcription is complete and includes all visible text, stamps, and handwritten marks on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "stamp",
-      "bbox_pct": [10.9, 19.0, 27.0, 51.0],
-      "caption_literal": "WAR DEPT. REGISTRY RECEIVED 14 FEB 1938",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "Official stamp on the cover page.",
-      "confidence": 0.95,
-      "suggested_filename": "war_dept_registry_received_stamp_1938.png",
-      "inline_anchor": "WAR DEPT. REGISTRY\nRECEIVED\n14 FEB 1938"
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "handwritten-mark",
-      "bbox_pct": [4.0, 83.0, 6.0, 87.0],
-      "caption_literal": "① ✓",
-      "caption_type": "nearby-text",
-      "identity_basis": null,
-      "source_context": "Handwritten mark in the top right corner.",
-      "confidence": 0.9,
-      "suggested_filename": "handwritten_mark_top_right.png",
-      "inline_anchor": "① ✓"
-    },
-    {
-      "region_id": "vr_3",
-      "kind": "stamp",
-      "bbox_pct": [64.0, 36.0, 79.0, 68.0],
-      "caption_literal": "Distribución gratuita",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "Official stamp on the cover page.",
-      "confidence": 0.95,
-      "suggested_filename": "distribucion_gratuita_stamp.png",
-      "inline_anchor": "Distribución gratuita"
-    }
-  ]
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or complex diagrams are present. Stamps and handwritten marks are described in the transcription and visual notes."}
 
 # Page 6
 

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5943ed618218-P0001-04
+chunk_id: CHUNK-9f4858857812-P0001-04
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 5943ed6182185d6e9a750de9b148865c8008dea29833ca45f3e1dea07be01827
+converted_sha256: 9f485885781287e131660bc972c382e61880b1d0ecd1124a40a20999eb12c3d6
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -10,10 +10,6 @@ page_start: 1
 page_end: 1
 part: 4
 ---
-
-## Layout And Reading Order
-
-The page contains a single handwritten note on a rectangular slip of blue-grey paper. The reading order is from top to bottom. A filing number is written in the top right corner. A name is written at the top, underlined, followed by the body of the note. The note is incomplete and appears to be cut off at the bottom of the page.
 
 ## Literal Transcription
 
@@ -73,43 +69,46 @@ The transcription is complete for the visible text on the page. The last line of
 ```
 
 ## Page Metadata
-- Page number: 69
+Page 69
 
 ## Layout And Reading Order
 
-The page contains a single block of handwritten text in French, followed by a handwritten signature and a date. There is a punch hole near the top center of the page, affecting the second line of text.
+The page contains a single block of handwritten text in French, presented in a single column. A hole punch is visible near the top center of the page, affecting the text. The text includes a signature and a date at the bottom.
 
 ## Literal Transcription
 
 commission permanente
-aura la. bds Ses personnes
-qui' pourront eventuelle
+aura la [hole punch] des personnes
+qui pourront eventuelle
 ment fournir toutes
 explications utiles sur
 son fonctionnement ou
-des travaux et aussi
+les travaux et aussi
 rapporter de la Conference
 des indications utiles
 pour les travaux futurs
-de la Commission présidée
-par M Kuelz.
-
-L. S. Kuelz
-
-15 - X - 28
+de la commission présidée
+par M. Kuelz.
+L.S. Kuelz
+15-X-28
 
 ## Images, Captions, And Visual Notes
-- A circular punch hole is present at the top center of the page, partially obscuring the word "Ses" on the second line of text.
+
+- A circular hole punch is present near the top center of the page, partially obscuring the word "des".
+- The entire page content is handwritten in black ink on blue-grey paper.
 
 ## Uncertain Or Illegible
-- The abbreviation "bds" on the second line is unclear in its meaning, but transcribed literally as written.
+
+None.
 
 ## Completeness Audit
-The transcription is complete and represents all visible text and significant visual elements on the page.
+
+All visible text and significant visual elements have been transcribed or noted.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like photographs, maps, or complex diagrams. The page contains only handwritten text and a minor punch hole, which is described in the 'Images, Captions, And Visual Notes' section."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals to crop. The page contains only handwritten text and a hole punch, which are described in the transcription and visual notes."}
 ```
 
 ## Page Metadata
@@ -350,3 +349,6 @@ All visible text and significant visual elements on the page have been transcrib
 
 ## Page Metadata
 Page number: 75
+
+## Layout And Reading Order
+The page contains a typewritten letter in German, with some handwritten annotations and a stamped mark. The handwritten annotations are at the top left and top right. A large rectangular stamp is present in the upper left quadrant. The main body of the letter is presented in a single column, left-aligned, with a ragged right margin. The last line of the letter is truncated at the bottom right of the page.

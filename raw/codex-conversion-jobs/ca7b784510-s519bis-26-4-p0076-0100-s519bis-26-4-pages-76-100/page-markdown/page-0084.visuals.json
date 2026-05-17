@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:55Z",
+  "created": "2026-05-17T16:09:11Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -8,16 +8,8 @@
   "page": 84,
   "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0084.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0084.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page is a plain brown sheet with only handwritten annotations, which are transcribed in the literal transcription section. There are no substantial visuals that require cropping.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten_annotation",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Paradas\n(4/3)",
-      "source_context": "Handwritten text on a plain cover page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

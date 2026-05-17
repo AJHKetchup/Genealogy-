@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dfb69de4a74e-P0001-03
+chunk_id: CHUNK-7cfbb108bb7b-P0001-03
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: dfb69de4a74e0acbe1312bbdaa8bbe9b3564f9d6d4b05889b5f373a92c62a1f6
+converted_sha256: 7cfbb108bb7bf7d6e36954cd5455bba13652b2fca383b032f661039943a31fdd
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -10,6 +10,9 @@ page_start: 1
 page_end: 1
 part: 3
 ---
+
+## Layout And Reading Order
+The page contains a header at the top right with a document title and page number. The main content consists of a numbered list of entries, each with a number, a date, and a descriptive text in French. The entries are arranged vertically in a single column. There is a handwritten annotation "ms" in the left margin next to entry 228.
 
 ## Literal Transcription
 

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4c758b61f250-P0001-02
+chunk_id: CHUNK-49ffbcc87e08-P0001-02
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 4c758b61f25058b7da33d29bc343ec1ebfecf0265440bedcbf4529300c4b4755
+converted_sha256: 49ffbcc87e08fadeb8f32ae829f2e66456b297fecda9f534f91643eefe06da97
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -59,18 +59,16 @@ part: 2
 Page number: 6
 
 ## Layout And Reading Order
-
-The page consists of a single column of typewritten text, with a header at the top and a handwritten page number and continuation note at the bottom. The text is organized into three main sections, each with a heading.
+The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.
 
 ## Literal Transcription
-
 NUMERO GIGANTE ENERO - - FEBRERO EL AGUILA
 ___
 ACTIVIDADES
 ___
 LA COSECHA
 ___
-ESTE AÑO CONSTITUYO UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
+ESTE AÑO CONSTITUYÓ UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
 AUTOMOTRIS DE LA CORPORACION DE FOMENTO YA QUE EN OTROS AÑOS SE HABIA
 CORTADO A MANO EL TRIGO Y TRILLADO EN UNA MAQUINA TRILLADORA ESTACIONADA
 AUNQUE EL TRIGO ERA POCO SE ENPLEARON 25 HORAS A 3500 PESOS LA HORA.
@@ -79,12 +77,12 @@ A LAS 2 DE LA TARDE TAMBIEN EL DIA 28 DE 9 A '8 DE LA TARDE Y FINALI
 RON EL DIA 29 EN LA TARDE.
 ___
 LA MADERA Y EL ASERRABERO
-XXXXXXXXXXXXX
+XXXXXXXXXXXXXX
 EN EL FUNDO LOS CUARTOS HAY GRANDES CANTIDADES DE TERRENO PLANTADAS
-DE PINO, ES SSI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
-POCOS, SE CALCULA QUE SALDRAN 50.000 PILGADAS
+DE PINO; ES ASI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
+POCOS; SE CALCULA QUE SALDRAN 50.000 PULGADAS
 AL LLEGAR NOSOTROS AL FUNDO, YA HOMBRES ESPECIALISADOS HABIAN VOLTEADO
-TODO LOS PINOS QQUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
+TODO LOS PINOS QUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
 A PETROLEO LOS LLEVABA AL LUGAR DONDE ESTARIA EL ASERRADERO LUEGO UN
 DIA SE TRANSLADO AL FUNDO EL ASERRADERO DE PROPIEDAD DE LA INDUSTRIA
 MADERERA TELLERY Y CIA Y RAPIDAMENTE SURGIERON LAS COSAS DE LOS
@@ -92,22 +90,21 @@ OBREROS QUE PRONTO ENPESARON A TRABAJAR. SE ESPERA QUE SE TERMINARA
 DE ASERRAR A FINES DE MARZO.
 ___
 LA ELECTRICIDAD
-___
 DESPUES DE GRANDES DISCUSIONES LA ENDESA PROSEDIO A
 CONSTRUIR LA LINEA QUE ABASTECERIA A SANTA BARBARA POR SAN CARLOS. LA
 ENDESA ENTREGO LA LINEA U A UN CONTRATISTA, EL SR GRANIFO, INGENIRERO EN
 SANTIAGO Y EN LOS ANGELES OTRO ESPECIALISADO, UN TOPOGRAFO MARCO LA LINEA
-
 6
 Continua a página 11
 
 ## Images, Captions, And Visual Notes
-
-- A handwritten page number "6" is present at the bottom left of the page, in red ink.
-- A handwritten note "Continua a página 11" is present at the bottom center of the page, in blue ink.
+- A handwritten page number "6" is present at the bottom left of the page.
+- A handwritten note "Continua a página 11" (Continues on page 11) is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-None.
+- "3500" could potentially be "35oo" due to the font style, but "3500" is a more plausible numerical value.
+- "TRILLAR" is clear in context, but the 'LL' could be misread as 'T?'.
+- "MARCO" could have an accent mark (Marcó), but it's not clearly visible.
 
 ## Completeness Audit
 All visible text and significant handwritten notes on the page have been transcribed.
@@ -117,24 +114,24 @@ All visible text and significant handwritten notes on the page have been transcr
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
-      "kind": "handwritten-annotation",
-      "bbox_pct": [10.0, 80.0, 15.0, 85.0],
+      "region_id": "region_1",
+      "kind": "text",
+      "bbox_pct": [89.9, 14.9, 93.0, 19.0],
       "caption_literal": "6",
       "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Handwritten page number at the bottom left.",
+      "identity_basis": "converter-identified",
+      "source_context": "Handwritten page number.",
       "confidence": 0.95,
       "suggested_filename": "page_number_6"
     },
     {
-      "region_id": "vr_2",
-      "kind": "handwritten-annotation",
-      "bbox_pct": [30.0, 80.0, 60.0, 85.0],
+      "region_id": "region_2",
+      "kind": "text",
+      "bbox_pct": [90.0, 36.0, 93.0, 64.0],
       "caption_literal": "Continua a página 11",
       "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Handwritten continuation note at the bottom center.",
+      "identity_basis": "converter-identified",
+      "source_context": "Handwritten continuation note.",
       "confidence": 0.95,
       "suggested_filename": "continuation_note_page_11"
     }
@@ -144,7 +141,142 @@ All visible text and significant handwritten notes on the page have been transcr
 
 ## Page Metadata
 - Page number: 7
-- Source page: p0007
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is at the bottom center. There is one handwritten insertion in the main body of the text.
+This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. The text is an article about Dr. Virginio Gomes G. There are two handwritten insertions within the text.
+
+The reading order is from top to bottom.
+
+## Literal Transcription
+NUMERO GIGANTE ENERO FEBRERO EL AGUILA
+---
+ESCRIBEN LOS LECTORES
+LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
+ESTE DIARIO POR EL DR DARIO PULGAR.
+---
+_EL_DR_VIRGINIO_GOMES__G__
+
+EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
+" COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
+DE PUERTO MONTT, DESAPARECIÓ MISTERIOSAMENTE ESTE DISTINGUIDO
+FACULTATIVO QUE HONRÓ A LA MEDICINA CHILENA POR SU TALENTO Y POR
+SU AMPLIA CULTURA.
+NACIÓ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
+FAMILIA .
+EN POSECION DE SU TÍTULO FUÉ A EJERCER SU PROFECION EN IQUQUE Y LUEGO
+DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
+ACTUACION COMO MÉDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
+PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
+ALLA POR EL AÑO 1916 TRATÓ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
+CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
+ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL [handwritten insertion above line] que se convirtieron [/handwritten insertion]
+DEDICÓ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS[handwritten insertion] /EN UNA [/handwritten insertion]
+HERMOSA REALIDAD.
+EL DOCTOR GOMES DEJA UNA HUELLA LUMINOSA Y UN RECUERDO INPERESEDERO
+POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
+ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
+ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
+
+[centered at bottom of page]
+[handwritten] 7 [/handwritten]
+
+## Images, Captions, And Visual Notes
+There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. There are two handwritten insertions in black ink within the main body of text.
+
+## Uncertain Or Illegible
+- The first handwritten insertion, `que se convirtieron`, is somewhat faint but legible.
+- The second handwritten insertion, `/EN UNA`, is clear.
+
+## Completeness Audit
+This page has been fully transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only text. There are no photographs, maps, illustrations, or other significant visual elements that would warrant cropping."
+}
+```
+
+## Page Metadata
+Page 8
+
+## Layout And Reading Order
+
+The page features a header with publication details, followed by a main narrative text block. Below a horizontal rule, there is an advertisement section, which includes a main ad text and a smaller section with values and a closing signature. A handwritten page number is present in the bottom right corner.
+
+## Literal Transcription
+
+MERO GIGANTE
+ENERO FEBRERO EL AGUILA
+---
+6
+LA EMPRESA DE VACACIONES Y LOS TECNICOS TRABAJANDO.
+
+L 6 DE ENERO LA EMPRESA SALIO A VERANEAR AL FUNDO DEL DR PULGAR,
+ERO EL DIRECTOR DECIDIO´ IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
+LA POSADA " TOMAMOS EL NOCTURNO A SANTIAGO Y LUEGO EN SAN ROSENDO
+RANSBORDAMOS A UN AUTOMOTOR DIESEL ,, MIENTRAS TANTO LAS MAQUINAS DE
+SCRIBIR SE ENPAQUETABAN JUNTO CON LOS DEMAS UTILES PARA PRESENTAR E
+STE PERIODICO. LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
+UNDO LOS CUARTOS -- LEGAMOS A LOS ANGELES A LAS 11½ DE LA NOCHE DONDE
+OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO´ A SU
+UNDO YA MENCIONADO, DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
+L FUNDO "LA POSADA" DE 485 HECTAREAS MAS O MENOS EN PARETE REGADO POR
+L CANAL BIO-BIO NORTE. PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
+ARON AL FUNDO LOS CUARTOS DEL DR PULGAR DONDE ME ESPERABAN LAS MAQUINAS
+PARA LA PREPARACION DE ESTE DIARIO. POR MEDIO DE ESTE SENCILLONARTICULO
+AGO LLEGAR MIS AGRADECIMIENTOS ALOS ESPOSOS BARROS PULGAR POR LAS A
+IONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
+TIMO
+---
+ANUNCIO
+POLLA CHILENA DE BENEFICENCIA
+AGENCIA GENERAL EN LOS ANGELES COLO COLO 411 CASILLA 291
+
+PARA EL DOMINGO 11 DE MARZO HABRA UN SORTEO
+CON UN GORDO DE $$$ 25.000.000 Y MILES DE
+PREMIOS MAS
+CON UNA MODESTA SUMA DE DINERO PODRA UD SER
+UN MILLONARIO PROPORCIONANDOLE ATODA SU FAMILIA
+UNA GRAN FELICIDAD
+
+VALOR DEL ENTERO $ 2.000
+DEL VIGESIMO 100
+NO SE OLVIDE Y HAGALE PUNTA . EL EXITO ES DE LOS DECIDIDOS Y
+CONSTANTES
+ROMO ORMEÑO S. C.
+8
+
+## Images, Captions, And Visual Notes
+
+A handwritten number "8" is present in the bottom right corner of the page, indicating the page number.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant markings on the page have been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "other",
+      "bbox_pct": [89.9, 66.0, 93.0, 68.7],
+      "caption_literal": "8",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-supplied",
+      "source_context": "Handwritten page number.",
+      "confidence": 0.95,
+      "suggested_filename": "handwritten_page_number_8.png",
+      "inline_anchor": "8"
+    }
+  ]
+}
+```
+
+## Page Metadata
+Page number: 9

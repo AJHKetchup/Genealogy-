@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-19e5d1935bcc-P0001-01
+chunk_id: CHUNK-1467cf1d27c7-P0001-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83.codex.md
-converted_sha256: 19e5d1935bcc00601a249b979eb490b3e1529996d6b2599aa72d595a2197976f
+converted_sha256: 1467cf1d27c75590e52886fa27c4b8d602a5957d282e89da1c2ae9e181de78a6
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json
@@ -100,41 +100,32 @@ This page has been transcribed in its entirety.
 ```
 
 ## Page Metadata
-
-- **Page number**: 65
-- **Source language**: es-ES
+Page Number: 65
 
 ## Layout And Reading Order
 
-The page has a single column of text. The content appears to be a table of contents or an index for a legal or administrative document. The reading order is from top to bottom. There is some text bleed-through from the adjacent page visible on the right margin.
+The page presents a table of contents or index-like structure with main titles centered, followed by sub-sections. The main titles "TÍTULO III" and "TÍTULO IV" are centered and in larger font. Sub-sections like "POLICÍA SANITARIA" and "DISPOSICIONES PENALES" are also centered but in a smaller font. The actual content entries are left-aligned, with some indented using a ">" symbol. Page numbers and article ranges are provided for each entry. There is also some partial text visible on the right margin, likely from the adjacent page.
 
 ## Literal Transcription
 
-```text
 TÍTULO III
 
 POLICÍA SANITARIA
 
-Capítulo XI — HIGIENE. (Arts. 382 al 394, págs. 207 a 210.)
-» XII — TRANSPORTE DE CADÁVERES. (Arts. 395 al 398, págs. 210 a 211.)
-» XIII — PRODUCTOS ALIMENTICIOS. (Arts. 399 al 404, págs. 211 a 213.)
+Capítulo XI—HIGIENE. (Arts. 382 al 394, págs. 207 a 210.)
+> XII—TRANSPORTE DE CADÁVERES. (Arts. 395 al 398, págs. 210
+a 211.)
+> XIII—PRODUCTOS ALIMENTICIOS. (Arts. 399 al 404, págs. 211
+a 213.)
 
 TÍTULO IV
 
 DISPOSICIONES PENALES
 
-Capítulo Unico — (Arts. 405 al 417, págs. 214 a 217.)
+Capítulo Unico—(Arts. 405 al 417, págs. 214 a 217.)
 
-APÉNDICE. — (Pág. 219.)
-```
+APÉNDICE.—(Pág. 219.)
 
-***
-
-**Text from adjacent page (bleed-through)**
-
-The following text is visible along the right edge of the page, bleeding through from the next page.
-
-```text
 en
 no
 di
@@ -149,25 +140,18 @@ en
 ór
 pu
 cu
-```
 
 ## Images, Captions, And Visual Notes
-
-There are no images, captions, or other significant visual elements on this page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts in the main text of this page. The text bleeding through from the adjacent page is incomplete by nature.
+None.
 
 ## Completeness Audit
-
-This page has been fully transcribed.
+All visible text on the page, including the partial text in the right margin, has been transcribed. The layout and formatting have been preserved as accurately as possible in Markdown.
 
 ## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and has no images, illustrations, or other significant visual elements."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 
 ## Page Metadata
 Page number: 66

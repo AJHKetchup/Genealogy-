@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:26:46Z",
+  "created": "2026-05-17T16:06:20Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -9,38 +9,15 @@
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/page-images/page-0002.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/page-markdown/page-0002.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [
+  "visual_regions": [],
+  "skipped_regions": [
     {
-      "region_id": "visual_001",
-      "kind": "illustration",
+      "region_id": "region_1",
+      "kind": "document_part",
+      "reason": "low_value_visual_region_not_saved",
       "caption_literal": "URUGUAY\n(Complete Report).",
-      "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "The main title label on the cover of the document.",
-      "confidence": "0.95",
-      "inline_anchor": "",
-      "bbox_pct": [
-        30.0,
-        33.0,
-        39.0,
-        66.0
-      ],
-      "bbox_pixels": [
-        381,
-        571,
-        505,
-        1153
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/extracted-images/page-0002/page-0002-image-01-document-cover-title-label.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/extracted-images/page-0002/page-0002-image-01-document-cover-title-label.png",
-      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/page-images/page-0002.jpg",
-      "source": "raw/sources/S179-34-6.pdf",
-      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
-      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/manifest.json",
-      "page": 2,
-      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/page-markdown/page-0002.md"
+      "source_context": "Title label on the cover page of the report."
     }
   ],
-  "skipped_regions": [],
   "flags": []
 }

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:16Z",
+  "created": "2026-05-17T16:08:24Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visual_001",
+      "region_id": "page-0318_visual-01",
       "kind": "photograph",
-      "caption_literal": "Two side-by-side, nearly identical bust portraits of a man with a mustache, wearing a dark coat and a scarf or high collar, against a foliage background.",
+      "caption_literal": "A sepia-toned photograph shows two side-by-side bust portraits of a man. The man has a mustache and is wearing a dark coat and a scarf or high collar. He is looking directly at the camera. The background behind him is a dense leafy bush or tree. A distinct vertical line runs down the center, separating the two portraits, which appear to be of the same individual, possibly from a single photograph that has been split or duplicated.",
       "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "The entire page is a single photograph.",
+      "identity_basis": "unlabeled-person",
+      "source_context": "The only content on the page is this photograph.",
       "confidence": "high",
-      "inline_anchor": "",
+      "inline_anchor": "[Image of man]",
       "bbox_pct": [
-        10.0,
         15.0,
-        90.0,
-        80.0
+        15.0,
+        85.0,
+        85.0
       ],
       "bbox_pixels": [
-        50,
+        77,
         52,
-        493,
-        301
+        466,
+        319
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0318/page-0318-image-01-two-portraits-man-mustache-foliage-background.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0318/page-0318-image-01-two-portraits-man-mustache-foliage-background.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0318/page-0318-image-01-sepia-portrait-man-split-image.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0318/page-0318-image-01-sepia-portrait-man-split-image.png",
       "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0318.jpg",
       "source": "raw/sources/S179-34-6.pdf",
       "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",

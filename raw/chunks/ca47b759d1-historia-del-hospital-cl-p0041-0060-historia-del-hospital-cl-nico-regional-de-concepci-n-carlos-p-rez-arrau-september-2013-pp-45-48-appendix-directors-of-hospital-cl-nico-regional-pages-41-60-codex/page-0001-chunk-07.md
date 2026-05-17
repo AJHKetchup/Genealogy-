@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5ff3f6a1bc6c-P0001-07
+chunk_id: CHUNK-bdfda2dd85e1-P0001-07
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: 5ff3f6a1bc6c5d19b4b838cff389b134f344312017aed4dc6dff8987ba0fbb10
+converted_sha256: bdfda2dd85e11613e5af427d0b51a36050012edf66f6173412d87f2ab4333200
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json
@@ -17,11 +17,11 @@ part: 7
 99.—INFORME DE LA COMISION DE SALUD
 PUBLICA
 
-“Honorable Cámara:
+"Honorable Cámara:
 La Comisión de Salud Pública pasa a
 informar un proyecto de ley, en segundo
 trámite constitucional, que denomina
-“Guillermo Grant Benavente” al Hospital
+"Guillermo Grant Benavente" al Hospital
 Clínico Regional de Concepción.
 Escasos son los maestros y hombres de
 ciencia que han dedicado sus afanes, des-
@@ -38,7 +38,6 @@ tacada participación en el Comité pro
 Universidad y Hospital Clínico, firmando
 en calidad de socio fundador, el acta de
 constitución legal de esa Universidad.
-
 Desempeñó las Cátedras de Histología,
 de Patología Interna, de Fisiología y de
 Farmacología en la Facultad de Medicina
@@ -55,11 +54,11 @@ Honorario de la Universidad de Concep-
 ción en 1957.
 Asimismo, cabe hacer expresa mención
 de sus trabajos científicos, en especial de
-la obra “Compendio de Farmacia Galéni-
-ca y Química”, que escribiera en colabo-
+la obra "Compendio de Farmacia Galéni-
+ca y Química", que escribiera en colabo-
 ración con el Profesor Evans Weasson, y
-del libro “Lecciones de Patología Médi-
-ca”."
+del libro "Lecciones de Patología Médi-
+ca".
 
 Sin embargo, la actividad generosa des-
 plegada por tan eminente médico no que-
@@ -87,12 +86,11 @@ los siguientes:
 
 Proyecto de ley
 
-“Artículo único.—El Hospital Clínico
+"Artículo único.—El Hospital Clínico
 Regional de Concepción se denominará en
-lo futuro “Guillermo Grant Benavente”.”
+lo futuro "Guillermo Grant Benavente"."
 Sala de la Comisión, a 10 de septiembre
 de 1969.
-
 Acordado en sesión de fecha 10 de sep-
 tiembre del año en curso, con asistencia
 de los señores Cabello (Presidente); Jáu-
@@ -101,10 +99,10 @@ Héctor, y Sabat.
 Se designó Diputado informante a la
 señorita Lacoste, doña Graciela.
 (Fdo.): Eugenio Yávar Vallebuona,
-Secretario de Comisiones.”
+Secretario de Comisiones."
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+The page contains no images or captions.
 
 ## Uncertain Or Illegible
 None.
@@ -114,7 +112,7 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is text-only and contains no meaningful images, diagrams, or other visual elements that would warrant a crop."}
 ```
 
 ## Page Metadata

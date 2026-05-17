@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:30Z",
+  "created": "2026-05-17T16:08:33Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visual-region-1",
+      "region_id": "portrait_of_an_older_man_with_mustache_and_dark_jacket",
       "kind": "photograph",
-      "caption_literal": "A black and white portrait photograph of an older man with a mustache, wearing a dark jacket and a scarf or high-collared shirt. He is looking directly at the camera and is positioned in front of a dense, leafy background, possibly a bush or tree. The photograph has a white border.",
+      "caption_literal": "",
       "caption_type": "converter-description",
       "identity_basis": "converter-description",
-      "source_context": "The sole content of the page is this photograph.",
-      "confidence": "high",
-      "inline_anchor": "",
+      "source_context": "The image is a portrait of an older man.",
+      "confidence": "0.95",
+      "inline_anchor": "[[portrait_of_an_older_man_with_mustache_and_dark_jacket]]",
       "bbox_pct": [
-        19.0,
-        10.0,
-        81.0,
+        10.9,
+        10.9,
+        89.0,
         90.0
       ],
       "bbox_pixels": [
-        51,
-        37,
-        239,
+        28,
+        41,
+        262,
         372
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0328/page-0328-image-01-portrait-of-older-man-with-mustache.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0328/page-0328-image-01-portrait-of-older-man-with-mustache.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0328/page-0328-image-01-portrait-of-an-older-man-with-mustache-and-dark-jacket.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0328/page-0328-image-01-portrait-of-an-older-man-with-mustache-and-dark-jacket.png",
       "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0328.jpg",
       "source": "raw/sources/S179-34-6.pdf",
       "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",

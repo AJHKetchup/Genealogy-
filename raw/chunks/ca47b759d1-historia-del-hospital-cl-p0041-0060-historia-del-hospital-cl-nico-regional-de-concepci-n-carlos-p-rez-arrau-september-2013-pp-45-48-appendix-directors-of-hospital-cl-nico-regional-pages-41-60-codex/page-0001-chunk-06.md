@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5ff3f6a1bc6c-P0001-06
+chunk_id: CHUNK-bdfda2dd85e1-P0001-06
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: 5ff3f6a1bc6c5d19b4b838cff389b134f344312017aed4dc6dff8987ba0fbb10
+converted_sha256: bdfda2dd85e11613e5af427d0b51a36050012edf66f6173412d87f2ab4333200
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json
@@ -145,38 +145,40 @@ All visible text on the page has been transcribed. The last paragraph ends mid-s
 
 ## Page Metadata
 - Page number: 56
-- Source document page number: 56
+- Source publication year: 2013
 
 ## Layout And Reading Order
-The page contains a single column of text. At the top left is the page number "56". At the top right, within a decorative rule, is a header "SESION 31ª, (ANEXO DE DOCUMENTOS) 1747". Below this, centered, is the number "17" followed by a bolded title. The main content is a biographical text, followed by a "Proyecto de ley" section with a final article and signature. At the bottom right is the text "lo".
+The page contains a single column of text. At the top, there's a header with a session number and a document number. Below that, a centered number "17" precedes a multi-line title. The main content is a biographical text about Guillermo Grant Benavente, followed by a "Proyecto de ley" (Bill proposal) and a signature. The page number "lo" appears at the bottom right, which seems to be a partial or misread "56" given the "56" at the top left. I will use "56" as the primary page number.
 
 ## Literal Transcription
 56
-SESION 31ª, (ANEXO DE DOCUMENTOS) 1747
+SESION 31ª. (ANEXO DE DOCUMENTOS) 1747
+
 17
-**MOCION DEL SEÑOR AGUIRRE DOOLAN QUE DE-**
-**NOMINA "GUILLERMO GRANT BENAVENTE" AL HOS-**
-**PITAL CLINICO REGIONAL DE CONCEPCION.**
+
+MOCION DEL SEÑOR AGUIRRE DOOLAN QUE DENO-
+MINA "GUILLERMO GRANT BENAVENTE" AL HOS-
+PITAL CLINICO REGIONAL DE CONCEPCION.
 
 Santiago, 8 de agosto de 1961.
 Honorable Senado:
-El nombre del doctor Guillermo Grant Benavente se en-
-trechamente ligado al progreso médico de la ciudad de Con-
-cepción. Se recibió de médico en 1912 y en seguida viajó a Europa a
-especializarse. Allí hizo cursos de histología y de medicina interna con los me-
-jores catedráticos de la época. A su regreso al País, comenzó a ejercer su pro-
+El nombre del doctor Guillermo Grant Benavente se encuentra es-
+trechamente ligado al progreso médico de la ciudad de Concepción. Se
+recibió de médico en 1912 y en seguida viajó a Europa a especializarse.
+Allí hizo cursos de histología y de medicina interna con los mejores ca-
+tedráticos de la época. A su regreso al País, comenzó a ejercer su pro-
 fesión en Concepción como médico internista. En 1922 viajó nuevamente
 a Europa a hacer un curso con el célebre profesor Vásquez y, a su vuelta,
 introdujo el uso del manómetro de Pachon para tomar la presión arte-
-rial. Participó, desde las primeras deliberaciones, en el "Comité Pro Uni-
-versidad y Hospital Clínico de Concepción" y, en carácter de socio fun-
+rial. Participó, desde las primeras deliberaciones, en el “Comité pro Uni-
+versidad y Hospital Clínico de Concepción” y, en carácter de socio fun-
 dador, firmó, entre otros, en 1920, el acta de constitución legal de la
 Universidad. En 1921 se le designó director de ella, cargo que desem-
 peñó hasta 1950, largo período en el cual ejerció siempre su influencia
 honesta y creadora. Desde 1919 hasta 1930, fue Profesor de Histología
 de la Escuela Dental y de la Escuela de Medicina. En 1926 inició en el
 antiguo Hospital San Juan de Dios un curso de Patología Interna el cual,
-con el andar del tiempo y convirtió en el curso de clínica médica que
+con el andar del tiempo y convertido en el curso de clínica médica que
 mantiene hasta la actualidad. En 1926, mientras llegaba al País el Pro-
 fesor Lipschutz, quien había sido contratado en Europa, sirvió con brillo
 la Cátedra de Fisiología, e igual hizo en 1934, mientras llegaba el Pro-
@@ -194,9 +196,9 @@ Odontología de Concepción desde 1956, Miembro Honorario de la Univer-
 sidad de Concepción —con motivo de su jubilación— desde 1957; Pro-
 fesor Extraordinario por Méritos de la Facultad de Medicina, etc.
 De sus numerosos trabajos científicos, merecen destacarse su obra
-"Compendio de Farmacia Galénica y Química", escrita en colaboración
-con el Profesor Evans Weasson, y su libro "Lecciones de Patología Mé-
-dica".
+“Compendio de Farmacia Galénica y Química”, escrita en colaboración
+con el Profesor Evans Weasson, y su libro “Lecciones de Patología Mé-
+dica”.
 Sus alumnos suman centenares. En una época en que su prestigio pu-
 do atraerle la fortuna, prefirió dedicarse a la enseñanza antes que al
 ejercicio libre de su profesión.
@@ -205,27 +207,27 @@ en proponeros el siguiente
 
 Proyecto de ley:
 
-"Artículo único.—El Hospital Clínico Regional de Concepción se de-
-nominará en lo futuro "Guillermo Grant Benavente".
+“Artículo único.—El Hospital Clínico Regional de Concepción se de-
+nominará en lo futuro “Guillermo Grant Benavente”.
 (Fdo.): Humberto Aguirre Doolan.
 lo
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+The page contains no images or captions.
 
 ## Uncertain Or Illegible
-None.
+- The page number at the bottom right appears as "lo", which is likely a partial or misread "56". The clear page number "56" is at the top left.
 
 ## Completeness Audit
-All visible text on the page has been transcribed, including page numbers, headers, titles, main body text, and the concluding section.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful images or visual elements that would require cropping."}
 ```
 
 ## Page Metadata
 Page number: 57
 
 ## Layout And Reading Order
-The page features a two-column layout. The page number "57" is at the top left. The main content begins with a heading spanning the top of the left column, followed by a block of text in the left column. The right column contains a continuous block of text, including a sub-heading "Proyecto de ley" and a quoted section. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
+The page features a two-column layout. The left column contains a header "99.—INFORME DE LA COMISION DE SALUD PUBLICA" followed by six paragraphs of text. The right column contains two paragraphs of text, followed by a section titled "Proyecto de ley" which contains three more paragraphs. The content flows from the top of the left column, down to the bottom, then continues at the top of the right column, and proceeds downwards.

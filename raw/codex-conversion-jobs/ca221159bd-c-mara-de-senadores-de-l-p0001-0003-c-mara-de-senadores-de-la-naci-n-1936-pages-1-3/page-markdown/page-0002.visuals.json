@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:26:19Z",
+  "created": "2026-05-17T16:05:53Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -12,10 +12,10 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "vr1",
+      "region_id": "vr_1",
       "kind": "other",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "A piece of blue tape or paper is affixed to the bottom right corner of the page.",
+      "caption_literal": "A piece of blue tape or paper affixed to the lower right portion of the page.",
       "source_context": ""
     }
   ],

@@ -1,7 +1,7 @@
 {
   "created": "2026-05-17",
   "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
-  "converted_sha256": "dfb69de4a74e0acbe1312bbdaa8bbe9b3564f9d6d4b05889b5f373a92c62a1f6",
+  "converted_sha256": "7cfbb108bb7bf7d6e36954cd5455bba13652b2fca383b032f661039943a31fdd",
   "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
   "source_sha256": "35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35",
   "source_manifest": "raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json",
@@ -12,34 +12,34 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-dfb69de4a74e-P0001-01",
+      "chunk_id": "CHUNK-7cfbb108bb7b-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
-      "chars": 10190,
-      "sha256": "92bc886b8b1f65d734e44a46425ba9e89e151a88f23155a3e3af94f5bdc307a6"
+      "chars": 10068,
+      "sha256": "cb51aeccc65fd779ea229aedd8b10798c73186ae8b6f06637a378b891c5521c3"
     },
     {
-      "chunk_id": "CHUNK-dfb69de4a74e-P0001-02",
+      "chunk_id": "CHUNK-7cfbb108bb7b-P0001-02",
       "chunk_number": 2,
       "path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/page-0001-chunk-02.md",
       "page_start": 1,
       "page_end": 1,
       "part": 2,
-      "chars": 11186,
-      "sha256": "0c95c3c1ccf9563a7cbaa62bdb100d2481b231b392b372c20b97d75ee8702275"
+      "chars": 11780,
+      "sha256": "071fdf8fffd8a2772b7abab7111c4f118d34edfdb8839d15fe88f3e20bdc7b70"
     },
     {
-      "chunk_id": "CHUNK-dfb69de4a74e-P0001-03",
+      "chunk_id": "CHUNK-7cfbb108bb7b-P0001-03",
       "chunk_number": 3,
       "path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/page-0001-chunk-03.md",
       "page_start": 1,
       "page_end": 1,
       "part": 3,
-      "chars": 1651,
-      "sha256": "d03af6febc02337911e28e1ee3c5740cd7492a4959423425f97cc8de837616de"
+      "chars": 2015,
+      "sha256": "3ddf8457043d322856e9ec1290f197aeeb4983eac3ba059e2f01eff25c52a5f2"
     }
   ]
 }

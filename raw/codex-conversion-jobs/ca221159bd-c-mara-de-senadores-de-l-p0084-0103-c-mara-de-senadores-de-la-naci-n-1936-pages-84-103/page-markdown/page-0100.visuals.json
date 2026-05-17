@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:26:27Z",
+  "created": "2026-05-17T16:05:54Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_0",
+      "region_id": "visual_001",
       "kind": "illustration",
       "caption_literal": "a) Señal de distancia.",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "The illustration shows a red flag with a white chevron pointing right, on a pole, with a yellow circle to its right.",
-      "confidence": "high",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "a) Señal de distancia.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        20.0,
-        19.0,
-        40.0,
-        30.0
+        22.0,
+        15.0,
+        30.0,
+        32.0
       ],
       "bbox_pixels": [
+        169,
         153,
-        195,
-        319,
-        318
+        240,
+        339
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-de-distancia.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-de-distancia.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-flag-distance.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-flag-distance.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0100.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0100.md"
     },
     {
-      "region_id": "region_1",
+      "region_id": "visual_002",
       "kind": "illustration",
       "caption_literal": "b) Señales de entrada, salida o avanzada.",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "The illustration shows a red flag with a white vertical stripe, on a pole, with a red circle to its right.",
-      "confidence": "high",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "b) Señales de entrada, salida o avanzada.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        20.0,
-        38.0,
-        40.0,
-        49.0
+        37.0,
+        15.0,
+        45.0,
+        32.0
       ],
       "bbox_pixels": [
+        287,
         153,
-        394,
-        319,
-        518
+        358,
+        339
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-senales-de-entrada-salida-o-avanzada.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-senales-de-entrada-salida-o-avanzada.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-signal-flag-entry-exit-advanced.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-signal-flag-entry-exit-advanced.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0100.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -71,28 +71,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0100.md"
     },
     {
-      "region_id": "region_2",
+      "region_id": "visual_003",
       "kind": "illustration",
       "caption_literal": "c) Señales de entrada a desvíos.",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "The illustration shows a red flag with a black outlined 'O', on a pole, with a red circle to its right.",
-      "confidence": "high",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "c) Señales de entrada a desvíos.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        20.0,
-        57.0,
-        40.0,
-        68.0
+        54.0,
+        15.0,
+        62.0,
+        32.0
       ],
       "bbox_pixels": [
+        421,
         153,
-        593,
-        319,
-        717
+        492,
+        339
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-senales-de-entrada-a-desvios.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-senales-de-entrada-a-desvios.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-signal-flag-entry-to-sidings.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-signal-flag-entry-to-sidings.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0100.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -101,28 +101,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0100.md"
     },
     {
-      "region_id": "region_3",
+      "region_id": "visual_004",
       "kind": "illustration",
       "caption_literal": "d) Señales de maniobras.",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "The illustration shows a red flag with a black 'M', on a pole, with a red circle to its right.",
-      "confidence": "high",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "d) Señales de maniobras.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        20.0,
-        76.0,
-        40.0,
-        87.0
+        71.0,
+        15.0,
+        79.0,
+        32.0
       ],
       "bbox_pixels": [
+        555,
         153,
-        792,
-        319,
-        916
+        626,
+        339
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-senales-de-maniobras.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-senales-de-maniobras.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-signal-flag-maneuvers.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-signal-flag-maneuvers.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0100.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",

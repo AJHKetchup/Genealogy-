@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T14:23:40Z",
+  "created": "2026-05-17T16:06:17Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -8,7 +8,7 @@
   "page": 29,
   "page_image": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/page-images/page-0029.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/page-markdown/page-0029.md",
-  "no_visual_regions_reason": "The page contains only handwritten text in a ledger format. There are no standalone images, portraits, maps, or other significant visual elements that would warrant cropping.",
+  "no_visual_regions_reason": "The page contains only handwritten text in a ledger format with no significant illustrations, photographs, or other distinct visual elements.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:29Z",
+  "created": "2026-05-17T16:08:37Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -9,38 +9,15 @@
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0329.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0329.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [
+  "visual_regions": [],
+  "skipped_regions": [
     {
       "region_id": "vr_1",
-      "kind": "photograph",
-      "caption_literal": "Samuel Yudelson\n[illegible flourish/initials below Yudelson]",
-      "caption_type": "nearby-text",
-      "identity_basis": "name-in-image",
-      "source_context": "Handwritten name on a card.",
-      "confidence": "high",
-      "inline_anchor": "Samuel Yudelson",
-      "bbox_pct": [
-        20.0,
-        15.0,
-        79.0,
-        84.0
-      ],
-      "bbox_pixels": [
-        77,
-        39,
-        326,
-        245
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0329/page-0329-image-01-samuel-yudelson-handwritten-card.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0329/page-0329-image-01-samuel-yudelson-handwritten-card.png",
-      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0329.jpg",
-      "source": "raw/sources/S179-34-6.pdf",
-      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
-      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
-      "page": 329,
-      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0329.md"
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Samuel Yudelson\n[faint, stylized marks]",
+      "source_context": "The entire page is an image of a card with this handwritten name."
     }
   ],
-  "skipped_regions": [],
   "flags": []
 }

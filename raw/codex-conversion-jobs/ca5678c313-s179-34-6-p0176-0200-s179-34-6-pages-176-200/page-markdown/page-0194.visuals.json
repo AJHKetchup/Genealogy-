@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:29:23Z",
+  "created": "2026-05-17T16:07:46Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,7 +8,7 @@
   "page": 194,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200/page-images/page-0194.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200/page-markdown/page-0194.md",
-  "no_visual_regions_reason": "The page contains only text and a plain background; no substantial visuals like photographs, maps, or complex diagrams are present that would warrant cropping.",
+  "no_visual_regions_reason": "The only meaningful visual element is handwritten text on a tab, which is fully transcribed in the 'Literal Transcription' section. No separate crop is needed for this text or the plain paper background.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

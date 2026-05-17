@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:43Z",
+  "created": "2026-05-17T16:08:51Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-7801-5569.pdf",
@@ -8,7 +8,7 @@
   "page": 6,
   "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0006.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0006.md",
-  "no_visual_regions_reason": "No substantial visuals for cropping. The page contains only handwritten text on a piece of paper, with a minor physical hole noted in the visual notes.",
+  "no_visual_regions_reason": "The page contains only text and a minor visual element (hole punch) that does not warrant a separate crop.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

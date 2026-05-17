@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c29284dd7818-P0001-02
+chunk_id: CHUNK-43fa4283b82c-P0001-02
 source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33.codex.md
-converted_sha256: c29284dd7818a9a0c2c832cf4ec3dab804b475b8adc9accb3cb2c6f67498335b
+converted_sha256: 43fa4283b82cb4c10b8b3026c229e3741198440ad2c371ba74d2acadbc571182
 source: raw/sources/R3578-50-7801-5569.pdf
 source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
 source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/manifest.json
@@ -104,27 +104,26 @@ All visible text and significant visual elements have been transcribed or noted.
 ```
 
 ## Page Metadata
-Page 31 of the document is a brown, textured cover page with printed text in the center and a hole punch in the top right corner.
 
 ## Layout And Reading Order
-The page contains a central block of printed text, followed by a smaller line of numbers, and a hole punch in the top right corner.
+The page is a plain, textured brown sheet, likely a cover or divider. There is a hole punch in the top right corner. Centered horizontally on the page are two lines of text, with a horizontal rule above and below the first line.
 
 ## Literal Transcription
 Buchdruckerei Maretzke & Martin, Trebnitz i. Schles.
 885. 28
 
 ## Images, Captions, And Visual Notes
-A circular hole is punched through the paper in the top right corner of the page. The page itself is made of a light brown, fibrous paper, typical of a document cover.
+A circular hole punch is present in the top right corner of the page.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate. All visible text and relevant visual elements have been noted.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a minor hole punch, which are fully captured by transcription and visual notes without requiring specific crop boxes."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The hole punch is a minor visual detail described in the text."}
 ```
 
 ## Page Metadata
@@ -204,11 +203,15 @@ The entire page has been transcribed. All text, including pre-printed and handwr
 ```
 
 ## Page Metadata
-Page number: 33
+Page 33
 
 ## Layout And Reading Order
 
-The page is a light brown sheet, likely a cover or divider, with printed text organized into two main sections. The top section contains a single box with a date. The lower section is structured like a two-column table, with a header row and content below. There is a single punch hole at the top right corner of the page.
+The page is a brown paper sheet, likely a cover or filing page, with administrative information printed in black ink. There is a punch hole in the top right corner.
+
+The content is organized into two main sections:
+1.  A box in the upper-middle containing "DATE OF REGISTRATION" and a date.
+2.  A larger, table-like structure below it, divided into two main columns. The left column is labeled "CLASSEMENT" and contains "GENERAL AND MISCELLANEOUS" and a number "50". The right column is labeled "SERIES No.:" and contains a number "5569".
 
 ## Literal Transcription
 
@@ -216,22 +219,22 @@ DATE OF REGISTRATION
 13.OCT.1928
 
 CLASSEMENT
-GENERAL AND MISCELLANEOU
+GENERAL AND MISCELLANEOUS
 50
 
 SERIES No.:
 5569
 
 ## Images, Captions, And Visual Notes
-A single punch hole is present at the top right corner of the page.
+A single punch hole is visible in the top right corner of the page.
 
 ## Uncertain Or Illegible
-The word "MISCELLANEOUS" is partially visible, with the final 'S' cut off or obscured. It is transcribed as "MISCELLANEOU" to reflect what is visible.
+None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.
+All visible text and significant visual elements on the page have been transcribed and noted.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial images, portraits, maps, or diagrams are present on this page. The page contains only text and minor administrative markings."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The page contains only text and minor administrative marks."}
 ```

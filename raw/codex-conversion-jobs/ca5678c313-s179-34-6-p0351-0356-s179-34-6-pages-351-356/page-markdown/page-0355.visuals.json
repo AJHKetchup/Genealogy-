@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:45Z",
+  "created": "2026-05-17T16:08:50Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,16 +8,8 @@
   "page": 355,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356/page-images/page-0355.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356/page-markdown/page-0355.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page consists of a single, small, irregularly shaped slip of paper with handwritten text. The entire page is effectively a single document image, and there are no distinct 'substantial visuals' (like portraits, maps, or diagrams) that would warrant separate cropping as per the instructions.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "note_001",
-      "kind": "document",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Handwritten note with text: \"Uruguay\", a circled mark, \"Questionnaire\", \"V Answer To x\", and \"from Police\". A vertical reddish-brown line runs through the text.",
-      "source_context": "The entire page is a small, torn handwritten note."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

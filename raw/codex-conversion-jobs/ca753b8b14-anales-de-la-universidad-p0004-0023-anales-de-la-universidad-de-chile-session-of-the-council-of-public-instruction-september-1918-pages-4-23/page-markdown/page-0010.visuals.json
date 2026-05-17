@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:59Z",
+  "created": "2026-05-17T16:08:56Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -8,8 +8,16 @@
   "page": 10,
   "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-images/page-0010.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/page-markdown/page-0010.md",
-  "no_visual_regions_reason": "The only visual element on this page is a standard library stamp, which is described in the notes but does not meet the criteria for a cropped visual region.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "BRITISH MUSEUM\nNATURAL HISTORY",
+      "source_context": "A circular stamp with text and a crest."
+    }
+  ],
   "flags": []
 }

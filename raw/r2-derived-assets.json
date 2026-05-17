@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T15:43:04.844198+00:00",
+  "created": "2026-05-17T16:16:10.940038+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -59,10 +59,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-flag-distance.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-flag-distance.png",
+      "bytes": 18636,
+      "sha256": "9d9916cf55adf639068bf46d8532f358c89535ba4ec1952c363d466cbf5c3211",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-senales-de-entrada-salida-o-avanzada.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-senales-de-entrada-salida-o-avanzada.png",
       "bytes": 28301,
       "sha256": "fde8bbafdf46060571cd3d32a7a808668cb5671f02f5bb935039eb66e985e535",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-signal-flag-entry-exit-advanced.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-signal-flag-entry-exit-advanced.png",
+      "bytes": 18217,
+      "sha256": "a2b9a7d3d07f589d4d9cc68309736e8209c43ac7e1235a7ac2ac94d9c221b8b9",
       "media_type": "image/png"
     },
     {
@@ -73,10 +87,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-signal-flag-entry-to-sidings.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-signal-flag-entry-to-sidings.png",
+      "bytes": 18241,
+      "sha256": "0764882497477b2328af24b0bd7c568e9f4519d8551decc8305ae6563aeec6f2",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-senales-de-maniobras.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-senales-de-maniobras.png",
       "bytes": 28989,
       "sha256": "77e23b9fd6873d5a178dbe1258d1c25d73b14b018481cfb9f47d7527d7a06b65",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-signal-flag-maneuvers.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-signal-flag-maneuvers.png",
+      "bytes": 15872,
+      "sha256": "5f3e1cd79a765e149c830c26c69db4af04fe98e1e01a762d6944511bd62ebc99",
       "media_type": "image/png"
     },
     {
@@ -759,6 +787,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
+      "bytes": 24874037,
+      "sha256": "3e0c39a1ae4c44e6ff75efb57d9d2dc501dd449e559555c851ddc66e7c31d7cd",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-full-page-landscape-with-cattle-and-water.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-full-page-landscape-with-cattle-and-water.png",
       "bytes": 26555494,
@@ -817,8 +852,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png",
-      "bytes": 9308086,
-      "sha256": "d9fcf6329c2518cf0d9900e38094f4050817f36ba3da907b504fdb0ce525564f",
+      "bytes": 9277247,
+      "sha256": "c4ca8e240aa4ed735c8d0892a2513114b877df8d248740bf65cf198619326e10",
       "media_type": "image/png"
     },
     {
@@ -859,8 +894,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png",
-      "bytes": 9070071,
-      "sha256": "4513dc1f8f98caab8290a955ba2741c3136790e2258d854345fe251deaac4a41",
+      "bytes": 8907398,
+      "sha256": "582816d4f02dd1b683403849005c6c929c2160bd5180e18766c1f0976afe262a",
       "media_type": "image/png"
     },
     {
@@ -976,6 +1011,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0100/page-0100-image-01-pront-1513-1917-mugshot.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0100/page-0100-image-01-pront-1513-1917-mugshot.png",
+      "bytes": 471890,
+      "sha256": "aeab267f6744bd8eff8d9f8f59f83a206326351e15af8b95100c5102bad27dc7",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
       "bytes": 795123,
@@ -987,6 +1029,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-001-photograph-of-unidentified-woman.png",
       "bytes": 524897,
       "sha256": "95d5b37187c2d9fc6f7d4163ef252483f813899e5066bf297471d08eed671e0d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-01-unidentified-woman.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-01-unidentified-woman.png",
+      "bytes": 564033,
+      "sha256": "4822289e54e553a7db0d2009317b0fb2d13a3c3f231015d44e22fc6c0f01de3d",
       "media_type": "image/png"
     },
     {
@@ -1013,15 +1062,15 @@
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0262/page-0262-image-01-illustration-acne-sifilitico.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0262/page-0262-image-01-illustration-acne-sifilitico.png",
-      "bytes": 1020706,
-      "sha256": "a7dc07a6515a17cc7ededfa32099a6ad7f6508ba2e561ee4b6f25cbd49047894",
+      "bytes": 1066410,
+      "sha256": "c38ec7587c98e17336da02c36de17c2749228d2ec3cd4ac57d91b167e344bf13",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
-      "bytes": 918442,
-      "sha256": "6a3d65df75bac3d171eb7d9c7c5f0b217ece3b45b69b559542f4becf707ccdb6",
+      "bytes": 863568,
+      "sha256": "ec0b84caa5d08ec80e264130331a51969fd35b8aca1c820723d5cbbc797ce638",
       "media_type": "image/png"
     },
     {
@@ -1034,15 +1083,15 @@
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0285/page-0285-image-01-illustration-nariz-hundida-por-la-sifilis.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0285/page-0285-image-01-illustration-nariz-hundida-por-la-sifilis.png",
-      "bytes": 621531,
-      "sha256": "c25e2a7b615654f69c550545ef8af4ab484462384741ccccfe4dcdc9b2232e28",
+      "bytes": 684587,
+      "sha256": "009d5410ebf4991a54bd927a409901b8e662acffba953045f0ecfaa925c562c6",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
-      "bytes": 2349001,
-      "sha256": "272b35dd9f646adf696230813f4b695ebaa77061a7be9770924cc16cbe3fa818",
+      "bytes": 2372532,
+      "sha256": "c296039a29d47d892249aadb673ad83adf7a2f6afcce4693f298b89d8b748506",
       "media_type": "image/png"
     },
     {
@@ -1050,6 +1099,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0313/page-0313-image-01-imperial-hotel-crest.png",
       "bytes": 16622,
       "sha256": "d2b543f6565f1032f995b5c160d6a9c593d8ffc2d7186cb1a013e1ca7c4404dc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0318/page-0318-image-01-sepia-portrait-man-split-image.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0318/page-0318-image-01-sepia-portrait-man-split-image.png",
+      "bytes": 159838,
+      "sha256": "db1e7c4d5794680f3e8a0329233b9172a3fc27f80a9e6bd940208138d6507efb",
       "media_type": "image/png"
     },
     {
@@ -1074,10 +1130,31 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0320/page-0320-image-01-two-men-sepia-photo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0320/page-0320-image-01-two-men-sepia-photo.png",
+      "bytes": 117377,
+      "sha256": "4368ad35c4b95f80cb7e24c8eb267b7f273f5c28b167634c09cd414b3d89eaf3",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0321/page-0321-image-01-sepia-landscape-water-town-slope.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0321/page-0321-image-01-sepia-landscape-water-town-slope.png",
       "bytes": 87450,
       "sha256": "be378d761a7979cbe3935adc6e8519dfe0ff4e640cdf7846517eedab07f99e30",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0321/page-0321-image-01-sepia-landscape-with-water-and-distant-shoreline.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0321/page-0321-image-01-sepia-landscape-with-water-and-distant-shoreline.png",
+      "bytes": 77162,
+      "sha256": "724be0283035aabed93fd1cf837b98100aaaa56004a12de5140f544ce55a3cfd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0322/page-0322-image-01-sepia-landscape-water-distant-shoreline.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0322/page-0322-image-01-sepia-landscape-water-distant-shoreline.png",
+      "bytes": 92053,
+      "sha256": "3a1dd2f676a42718a681c260e7af2accc09a6222df0b7fa65978c149ad175d16",
       "media_type": "image/png"
     },
     {
@@ -1095,6 +1172,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0323/page-0323-image-01-photograph-river-dock-distant-shore.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0323/page-0323-image-01-photograph-river-dock-distant-shore.png",
+      "bytes": 93209,
+      "sha256": "bb727fec3443cad3a4e169247122439a7d95c513eb19511a7876d23051d3630a",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0325/page-0325-image-01-portrait-man-mustache-dark-coat-foliage.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0325/page-0325-image-01-portrait-man-mustache-dark-coat-foliage.png",
       "bytes": 80261,
@@ -1106,6 +1190,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0327/page-0327-image-01-sepia-photo-harbor-figures-distance.png",
       "bytes": 114022,
       "sha256": "84101f94b947a172f15dfcfd7dbb6c620a42cfefdb7a9690ef62f7fa310cc4b1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0328/page-0328-image-01-portrait-of-an-older-man-with-mustache-and-dark-jacket.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0328/page-0328-image-01-portrait-of-an-older-man-with-mustache-and-dark-jacket.png",
+      "bytes": 133503,
+      "sha256": "4b51a69fa951d0e707ffa0ee3fde483308d18e2a7afabc254efd4cbb8291fcbf",
       "media_type": "image/png"
     },
     {
@@ -1134,6 +1225,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0331/page-0331-image-01-plain-card-with-number-23.png",
       "bytes": 87704,
       "sha256": "ec777e851a8957c99d45e2b74de44c9a39776f9b4d00a5b801a678c06fb62810",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-group-on-shoreline-with-boats-and-settlement-in-background.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-group-on-shoreline-with-boats-and-settlement-in-background.png",
+      "bytes": 98645,
+      "sha256": "12e52f9ad521de7367f78432d39bea426229e262afc03dd809417163d4859de4",
       "media_type": "image/png"
     },
     {
@@ -1344,6 +1442,62 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0164/page-0164-image-01-dominican-republic-coat-of-arms-1932-publication.png",
       "bytes": 46538,
       "sha256": "9783de6de18c51d70ea69265f28e8ee0a5d50a8197f73a03960a8c4744a70c1b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0453/page-0453-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0453/page-0453-docling-image-01.png",
+      "bytes": 749648,
+      "sha256": "a050fad068249c9f5241f3d6ee48bdcad9aada354860a222744881a81e1f9919",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0476/page-0476-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0476/page-0476-docling-image-01.png",
+      "bytes": 55288,
+      "sha256": "8e917fc0725cbdce16aceda2eee8abd8044430a23972d529411c15235de1795f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0637/page-0637-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0637/page-0637-docling-image-01.png",
+      "bytes": 749513,
+      "sha256": "fb8909088577298a4396bcff12d47607cd34d9b8b4b555d6d535cf0185fa6228",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0637/page-0637-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0637/page-0637-docling-image-02.png",
+      "bytes": 3585,
+      "sha256": "f3ffe772bc662875d60ba9049156245984ac10aaa2362aec3e8ef5153f27ebe9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0746/page-0746-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0746/page-0746-docling-image-01.png",
+      "bytes": 18557,
+      "sha256": "a2b3aa152ccc65cf1193f5449bd38d9b61b1c32c7a438dd7699bca02f94ddc03",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0747/page-0747-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0747/page-0747-docling-image-01.png",
+      "bytes": 14109,
+      "sha256": "de2f69b4262f11f4efc843eefa48fcf396944381c92b6d276b44d14820b0ee0e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0764/page-0764-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0764/page-0764-docling-image-01.png",
+      "bytes": 1337497,
+      "sha256": "4687e5ed05b943cce097b252077387ca5bfb40d124b69dc54b2b393d647b68c5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0782/page-0782-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0782/page-0782-docling-image-01.png",
+      "bytes": 129499,
+      "sha256": "695a4ca80476dfcd93de0358a36bce5df716fc83dc2b4d5ac1f29bcc23c77786",
       "media_type": "image/png"
     },
     {
@@ -3212,10 +3366,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 52,
+    "total_bytes": 95567389,
+    "uploaded": 28,
+    "skipped": 24,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -3225,9 +3379,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 456,
+      "scanned": 478,
       "deleted": 0,
-      "skipped": 456,
+      "skipped": 478,
       "errors": []
     }
   }

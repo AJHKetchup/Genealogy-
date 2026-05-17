@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:27:01Z",
+  "created": "2026-05-17T16:06:28Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vis-001",
+      "region_id": "vr_1",
       "kind": "photograph",
-      "caption_literal": "A full-page color photograph showing a herd of cattle near a watering hole, with a person on horseback in the mid-ground and another on a distant hill. The landscape features dry ground, sparse vegetation, and rolling hills under a hazy sky.",
+      "caption_literal": "A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.",
       "caption_type": "converter-description",
       "identity_basis": "visual-only",
-      "source_context": "The primary visual content of the page.",
+      "source_context": "The main content of the page is this photograph.",
       "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        0.0,
-        0.0,
-        100.0,
-        99.0
+        3.0,
+        3.0,
+        97.0,
+        96.0
       ],
       "bbox_pixels": [
-        0,
-        0,
-        4666,
-        7106
+        136,
+        211,
+        4530,
+        6891
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hills.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hills.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0010.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",

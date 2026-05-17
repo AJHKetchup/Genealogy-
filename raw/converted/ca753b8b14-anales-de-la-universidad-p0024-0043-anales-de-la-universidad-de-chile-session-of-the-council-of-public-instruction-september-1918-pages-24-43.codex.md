@@ -975,72 +975,69 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-
-- **Page number**: 323
-- **Document**: Anales de la Universidad de Chile
-- **Date**: 7 de Octubre de 1918
+Page number: 37
 
 ## Layout And Reading Order
 
-The page is laid out in a single column. The reading order is as follows:
-1. A header at the top of the page with the session date "SESION DE 7 DE OCTUBRE DE 1918" on the left and the page number "323" on the right.
-2. A section titled "Clases", presented as a two-column table. The left column lists numbered subjects, and the right column, under the heading "Horas semanales", lists corresponding numbers. A total is provided at the bottom of the right column.
-3. A section titled "EJERCICIOS:", presented as a two-column table. The left column lists numbered items, and the right column lists corresponding numbers. A total is provided at the bottom of the right column.
-4. Two paragraphs of text detailing resolutions from the session. The second paragraph is at the very bottom of the page.
+The page begins with a header indicating the session date and a page number. Below this, there are two distinct sections, "Clases" and "EJERCICIOS", each listing subjects with corresponding weekly hours, followed by a total. The rest of the page consists of a single, continuous paragraph of text, followed by a short concluding sentence.
 
 ## Literal Transcription
 
-SESION DE 7 DE OCTUBRE DE 1918
-323
+SESION DE 7 DE OCTUBRE DE 1918 323
+___
 
-| Clases | Horas semanales |
-| :--- | :--- |
-| 1. Jeometría del Espacio i Jeometría Descriptiva... | 4 |
-| 2. Complementos de Jeometría Plana i Aljebra, con nociones de Aljebra Superior.................... | 4 |
-| 3. Trigonometría Plana i Esférica i Jeometría Analítica.................................................. | 5 |
-| 4. Cosmografía.................................................. | 2 |
-| 5. Física........................................................... | 3 |
-| 6. Química Jeneral............................................ | 3 |
-| | --- |
-| | 21 |
+Clases
+Horas
+semanales
+1. Jeometría del Espacio i Jeometría Descriptiva... 4
+2. Complementos de Jeometría Plana i Aljebra, con
+   nociones de Aljebra Superior................... 4
+3. Trigonometría Plana i Esférica i Jeometría Ana-
+   lítica....................................... 5
+4. Cosmografía.................................. 2
+5. Física....................................... 3
+6. Química Jeneral............................... 3
+                                                ---
+                                                21
 
 EJERCICIOS:
 
-| | |
-| :--- | :--- |
-| 1. Dibujo i lavado.............................................. | 2 |
-| 2. Química Jeneral............................................ | 4 |
-| 3. Física........................................................... | 4 |
-| 4. Depurados.................................................... | 4 |
-| 5. Idiomas........................................................ | 3 |
-| | --- |
-| | 17 |
+1. Dibujo i lavado............................... 2
+2. Química Jeneral.............................. 4
+3. Física....................................... 4
+4. Depurados................................... 4
+5. Idiomas..................................... 3
+                                                ---
+                                                17
 
-Se acordó igualmente declarar que, para matricularse como alumno en el primer año del Curso de Injeniería, miéntras esté en vijencia el nuevo plan de estudios en 6 años, bastará estar en posesion del título de Bachiller en Humanidades.
-
-3.º) De dos comunicaciones de la Facultad de Matemáticas. Con la primera remite un proyecto de presupuestos para el Observatorio Astronómico; i en la segunda, pide que se suprima el puesto del astrónomo encargado de cuidar un anteojo meridiano i un ecuatorial que aun quedan en las instalaciones que tuvo el Observatorio en la Quinta Normal de Agricultura, e insinúa la conveniencia de que dicho empleado pase a prestar sus servicios en el Estado Mayor del Ejército, el cual podria dedicarlo a las observaciones destinadas al cálculo de la variacion de la latitud.
-
+Se acordó igualmente declarar que, para matricularse como
+alumno en el primer año del Curso de Injeniería, mientras esté
+en vijencia el nuevo plan de estudios en 6 años, bastará estar
+en posesion del título de Bachiller en Humanidades.
+3.º) De dos comunicaciones de la Facultad de Matemáticas.
+Con la primera remite un proyecto de presupuestos para el Ob-
+servatorio Astronómico; i en la segunda, pide que se suprima
+el puesto del astrónomo encargado de cuidar un anteojo meri-
+diano i un ecuatorial que aun quedan en las instalaciones que
+tuvo el Observatorio en la Quinta Normal de Agricultura, e
+insinúa la conveniencia de que dicho empleado pase a prestar
+sus servicios en el Estado Mayor del Ejército, el cual podría
+dedicarlo a las observaciones destinadas al cálculo de la varia-
+cion de la latitud.
 Se aprobó el Proyecto de Presupuestos para el Observatorio
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-
-The entire page is legible and there are no uncertain readings.
+None.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed.
+The transcription is complete and includes all visible text and formatting from the page.
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and simple tabular layouts without any significant images, illustrations, or other visual elements that would warrant cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 ```
 
 # Page 38

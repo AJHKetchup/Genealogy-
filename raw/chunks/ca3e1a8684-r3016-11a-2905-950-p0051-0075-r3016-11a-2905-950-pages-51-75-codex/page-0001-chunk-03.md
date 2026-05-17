@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5943ed618218-P0001-03
+chunk_id: CHUNK-9f4858857812-P0001-03
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 5943ed6182185d6e9a750de9b148865c8008dea29833ca45f3e1dea07be01827
+converted_sha256: 9f485885781287e131660bc972c382e61880b1d0ecd1124a40a20999eb12c3d6
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -13,7 +13,7 @@ part: 3
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a single document with handwritten text and minor physical characteristics (hole punch, folded corner) that are adequately described in the transcription and visual notes. There are no substantial visuals like photographs, maps, or complex diagrams that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The page is a simple card with handwritten text and a punched hole, which are described in the transcription and visual notes."}
 ```
 
 ## Page Metadata
@@ -71,22 +71,19 @@ All visible text and significant visual elements have been transcribed or descri
 ```
 
 ## Page Metadata
-
-- **Page number**: 63
-- **Document type**: Handwritten note/routing slip
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0063`
+- Page: 63
 
 ## Layout And Reading Order
-
-The page consists of a single, narrow, vertical slip of paper with handwritten text. The reading order is from top to bottom.
+This page contains a single, handwritten note on a narrow, vertical slip of paper. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 ```text
 11a/2905/950
-[Signature: Mr. Smith]
-[Horizontal line]
 
-M. von Schuween[?]
+[Signature of Mr. Smith]
+
+M. von Schuw[?]en
 
 Voulez vous écrire à
 M. Ruly que ses dépenses
@@ -95,30 +92,27 @@ la S.S.N et envoyer
 ensuite la correspondance
 ci jointe au Registry
 
-[Signature: L. Turek[?]]
+[Signature of L. Turek]
 
 15-X-28
 ```
 
 ## Images, Captions, And Visual Notes
-
-The image shows a narrow, vertical slip of light blue-grey paper with handwritten text in black ink. The top left corner is torn, and there is a hole punched near the top center. The document appears to be an internal memo or routing slip.
+The page consists of a single document, a narrow slip of light blue-gray paper with handwritten text in black ink. The top left corner of the paper is torn. There is a single hole punched near the top center.
 
 ## Uncertain Or Illegible
-
-- `M. von Schuween[?]`: The last name is difficult to decipher. "Schuween" is a plausible reading.
-- `[Signature: L. Turek[?]]`: The signature is highly stylized and difficult to read. "L. Turek" is a plausible interpretation.
+- The surname of the addressee is difficult to read: `Schuw[?]en`. It could be `Schuwelen`, `Schuweden`, or similar.
+- The signature at the bottom is highly stylized and difficult to decipher. It appears to be `L. Turek` or something similar.
+- The name `Ruly` is also somewhat difficult to read and could be `Rulz`.
 
 ## Completeness Audit
-
-The entire content of the page has been transcribed.
+The transcription is complete and represents all the content on the page.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only handwritten text and signatures, which are fully transcribed. There are no substantial images, illustrations, or other visual elements that would warrant cropping as standalone assets."
+  "no_visual_regions_reason": "The page contains only a handwritten note with no significant images, illustrations, or photographs to crop."
 }
 ```
 
@@ -186,7 +180,7 @@ Page number: 65
 
 ## Layout And Reading Order
 
-The page is a narrow, light blue card with handwritten text in black ink. There is a hole punch at the top center. The text is arranged in a single column, starting with an identifier and a name at the top, followed by a main body of text, a signature, and a date at the bottom.
+The page is a small, light blue card with handwritten text in black ink. There is a hole punch at the top center. The text is arranged in a single column, starting with a reference number and a name at the top right, followed by a paragraph of text, a signature, and a date at the bottom.
 
 ## Literal Transcription
 
@@ -197,9 +191,9 @@ J'ignore à combien
 s'élèveront les frais de
 M. Huely mais je pense
 qu'ils seront en toutes
-inférieurs à 1000 frs.
-ce qui laisserait 6850 frs
-environ disponibles.
+inférieurs à 1000 fr.
+et qui laisserait 6850 fr.
+environ disponible.
 Cette somme me paraît
 suffisante pour tenir
 une réunion de la
@@ -211,18 +205,21 @@ L. Junch
 16-X-28
 
 ## Images, Captions, And Visual Notes
-- A hole punch is present at the top center of the card.
-- The name "M. Bieler" is underlined.
-- The signature "L. Junch" appears above the date.
+The page is a light blue card, approximately 8.5 cm wide by 21 cm high. There is a single circular hole punch near the top center of the card. All text on the page is handwritten in black ink.
 
 ## Uncertain Or Illegible
-- The signature appears to be "L. Junch" or possibly "L. Junck". "Junch" is chosen as the most plausible reading.
+None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and noted.
+The transcription is complete and includes all visible text and notable visual features.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photos, maps, or complex diagrams are present. The hole punch is a minor mark and the signature is transcribed as text."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page is a handwritten document, and there are no distinct images, photographs, or complex diagrams that would benefit from separate cropping. The entire page content is best represented by the literal transcription."
+}
+```
 
 ## Page Metadata
 - Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0066`
@@ -338,3 +335,7 @@ This page has been transcribed in its entirety.
 - **Page number**: 68
 - **Document type**: Handwritten note
 - **Language**: French
+
+## Layout And Reading Order
+
+The page contains a single handwritten note on a rectangular slip of blue-grey paper. The reading order is from top to bottom. A filing number is written in the top right corner. A name is written at the top, underlined, followed by the body of the note. The note is incomplete and appears to be cut off at the bottom of the page.

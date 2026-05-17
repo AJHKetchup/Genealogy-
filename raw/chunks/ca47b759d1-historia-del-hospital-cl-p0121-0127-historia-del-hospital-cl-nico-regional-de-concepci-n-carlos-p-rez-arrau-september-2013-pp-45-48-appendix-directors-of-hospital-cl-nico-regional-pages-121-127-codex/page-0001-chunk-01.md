@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2c2179ed6ba6-P0001-01
+chunk_id: CHUNK-c70689e0dc0c-P0001-01
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127.codex.md
-converted_sha256: 2c2179ed6ba6c52c2308901ddfef7fb12db22b9100f674d0e893c16d220207ee
+converted_sha256: c70689e0dc0ca7b97cc8b701d310ab91c112c81813aaf9086b28ec0aa644fbdb
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json
@@ -22,20 +22,9 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images`
 
 ## Page Metadata
-- Task id: `source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0121`
-- Model route: `lite`
-- Source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/work-orders/page-0121.md`
-- Page: 121
+Page number: 121
 
 ## Layout And Reading Order
-
-The page features a page number "121" at the top left. The main content is a document presented in a single column. It begins with a header for the Ministry of Health, followed by a title, publication details, an exemption number, and the date and place. Below this, there are sections titled "Vistos:" and "Considerando:", with the latter containing four numbered paragraphs. The text is consistently left-aligned.
-
-## Literal Transcription
-
-121
 
 MINISTERIO DE SALUD
 SUBSECRETARIA DE REDES ASISTENCIALES
@@ -85,19 +74,15 @@ integra, junto a los elementos intangibles y simbólicos, con la enorme riqueza 
 estructura arquitectónica extendida a todo lo largo y ancho del país y sus
 
 ## Images, Captions, And Visual Notes
-
-This page contains no images, captions, or visual notes.
+This page contains no images or captions.
 
 ## Uncertain Or Illegible
-
 None.
 
 ## Completeness Audit
-
-All visible text and layout elements on the page have been transcribed.
+All visible text on the page has been transcribed. The last paragraph is cut off at the bottom of the page.
 
 ## Visual Region Manifest
-
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 ```
@@ -171,7 +156,7 @@ All visible text on the page has been transcribed.
 Page number: 123
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a heading "Resolución:", followed by two numbered points, and concluding with a statement and signature.
+The page contains a single column of text, starting with a page number at the top left, followed by a heading "Resolución:" and two numbered points, and concluding with a closing statement and signature.
 
 ## Literal Transcription
 123
@@ -192,17 +177,17 @@ The page contains a single column of text, starting with a heading "Resolución:
     Iroume, Ministra de Salud.
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+No uncertain or illegible text was found on this page.
 
 ## Completeness Audit
 All text content on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page contains only text."}
 ```
 
 ## Page Metadata

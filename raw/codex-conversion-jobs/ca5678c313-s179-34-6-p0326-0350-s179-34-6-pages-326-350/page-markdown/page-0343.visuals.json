@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:40Z",
+  "created": "2026-05-17T16:08:44Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "card_image",
+      "region_id": "card_anita",
       "kind": "document",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "A small, light-colored card with handwritten and printed text. The card contains a mix of handwritten notes at the top, a printed name \"Anita\", a printed country \"RUMANIA\", a printed street \"LAVALLE\", and other handwritten details.",
-      "source_context": "The entire page is an image of a small card."
+      "caption_literal": "The Casino - 6/9/26\nBuenos Aires\n2e piso Anita Jpe. 7\n1346 RUMANIA LAVALLE [obscured rectangular mark]",
+      "source_context": "Small rectangular card with handwritten and printed text."
     }
   ],
   "flags": []

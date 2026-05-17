@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5943ed618218-P0001-01
+chunk_id: CHUNK-9f4858857812-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 5943ed6182185d6e9a750de9b148865c8008dea29833ca45f3e1dea07be01827
+converted_sha256: 9f485885781287e131660bc972c382e61880b1d0ecd1124a40a20999eb12c3d6
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -71,49 +71,54 @@ All visible text and layout elements have been transcribed.
 ```
 
 ## Page Metadata
-Page number: 52
+Page 52.
 
 ## Layout And Reading Order
-The page features a large, central illustration printed in red ink. There are faint red lines forming a border around the page. In the top left corner, there is a very faint, almost illegible, red design or text. A punched hole is present in the top right corner, and a small tear/fold is visible at the top edge, slightly left of center.
+The page is largely blank, featuring a central illustration printed in red ink. There is a very faint, light red border around the perimeter of the page. In the top-left corner, there is an extremely faint, light red, abstract pattern or ghosted print. A circular hole is punched in the top-right corner, and a small tear/fold is present near the top edge, slightly to the left of the hole.
 
 ## Literal Transcription
-(No legible text to transcribe, only faint design elements.)
+There is no legible text on this page.
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A stylized illustration of a ship with sails, some bearing a cross symbol, on waves, printed in red ink.](../extracted-images/page-0052/page-0052-image-01-stylized-ship-red-cross-sails.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [29.9, 25.0, 59.0, 70.9]
-  - Source context: Main illustration on the page.
+- ![converter-description: Central illustration on the page.](../extracted-images/page-0052/page-0052-image-01-stylized-ship-with-cross-sails-illustration.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [24.9, 35.0, 75.0, 65.0]
+  - Source context: Central illustration on the page.
 
-The main visual element is a large illustration printed in red ink, centered on the page. It depicts a stylized ship with multiple sails, some of which bear a cross symbol (resembling a Red Cross). The ship is shown amidst waves.
-There are faint red lines forming a rectangular border around the entire page.
-In the top left corner, there is a very faint, light red design or text, which is largely illegible. It appears to be a decorative element or a watermark.
-A circular hole is punched through the paper in the top right corner.
-A small tear or fold is present at the very top edge of the page, slightly to the left of the center.
+- A very faint, light red, abstract pattern or ghosted print is visible in the top-left corner of the page. It is too indistinct to transcribe or identify.
+- A small tear or fold is present on the top edge of the page, approximately 70% from the left edge.
+- A circular hole is punched through the page in the top-right corner.
+- [illustration of a ship] A prominent illustration, printed in red ink, is centered on the page. It depicts a stylized ship with multiple sails, several of which bear a cross symbol (resembling a Red Cross). The ship is shown amidst stylized waves.
+- A faint, thin red line forms a rectangular border around the entire page, approximately 0.5 inches from the edges.
 
 ## Uncertain Or Illegible
-The faint red design/text in the top left corner is illegible. It appears to be a decorative element or a very light print, possibly a watermark or part of a larger design.
+- The very faint, light red print/design in the top-left corner is illegible. It appears to be an abstract pattern or a ghosted impression of some design, but no specific characters or symbols can be discerned.
 
 ## Completeness Audit
-All visible content on the page, including the central illustration, faint border, faint top-left design, punched hole, and tear, has been described.
+All visible content on the page, including the central illustration, faint border, top-left faint print, and physical page marks (hole, tear), has been described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "visual_001",
+      "region_id": "visreg_0",
       "kind": "illustration",
-      "bbox_pct": [29.9, 25.0, 59.0, 70.9],
-      "caption_literal": "A stylized illustration of a ship with sails, some bearing a cross symbol, on waves, printed in red ink.",
+      "bbox_pct": [
+        24.9,
+        35.0,
+        75.0,
+        65.0
+      ],
+      "caption_literal": null,
       "caption_type": "converter-description",
-      "identity_basis": "visual_content",
-      "source_context": "Main illustration on the page.",
-      "confidence": 0.95,
-      "suggested_filename": "stylized_ship_red_cross_sails"
+      "identity_basis": "visual_appearance",
+      "source_context": "Central illustration on the page.",
+      "confidence": "high",
+      "suggested_filename": "stylized_ship_with_cross_sails_illustration",
+      "inline_anchor": "[illustration of a ship]"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
@@ -121,35 +126,42 @@ All visible content on the page, including the central illustration, faint borde
 Page: 53
 
 ## Layout And Reading Order
-The page contains a handwritten note on light blue paper. The text is arranged in a standard letter format, with an identifier at the top right, a salutation, body, closing, signature, and date, followed by additional handwritten notes below the signature block. The top left corner of the paper is torn.
+
+The page contains a handwritten note on a piece of blue paper, which appears to be torn along the top-left and bottom edges. The text is arranged in a letter format, followed by a date, a title, and then a note and another date at the bottom.
 
 ## Literal Transcription
+
 11a / 2905 / 950
 
 Dear Dame Rachel,
 I send this thingh
 you. Please send it
 in to the S.S.
-
-Yours evn
+Yours ever
 Emil Collan
 16/10/28
 Secretary General.
 Noted & passed
-by. A. 16. 10. 28.
+[circled A] 16. 10. 28.
 
 ## Images, Captions, And Visual Notes
-The page is a light blue piece of paper with handwritten text in dark ink. There is a tear in the top left corner of the paper. The signature "Emil Collan" and the date "16/10/28" are underlined.
+
+The page itself is a piece of blue paper with handwritten text. The top-left and bottom edges of the paper are visibly torn.
 
 ## Uncertain Or Illegible
-- "thingh": The last letter appears to be an 'h', though 'thing' would be more common. Transcribed as written.
-- "evn": Appears to be an abbreviation for "even". Transcribed as written.
+
+- "thingh": The word appears to be "thingh" with an 'h' at the end, which might be a misspelling of "thing" or an unusual flourish.
+- "Emil Collan": This is the most plausible reading of the signature, but due to the cursive style, there is some inherent uncertainty.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
+
+All visible text and significant visual characteristics (torn paper) have been transcribed or noted.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present for cropping. The page contains only handwritten text on a piece of paper with minor damage."}
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photographs, maps, or complex diagrams are present. The page contains only handwritten text on a piece of paper with torn edges, which is fully described in the transcription and visual notes."}
+```
 
 ## Page Metadata
 Page number: 54
@@ -290,6 +302,3 @@ The page has been fully transcribed. All typed and handwritten text, including m
 
 ## Page Metadata
 Page number: 56
-
-## Layout And Reading Order
-The page consists of a single piece of blue paper with handwritten text. There is a hole punch at the top left corner. The text is arranged in a single column, with a name at the top, a short note, a date, and another name at the bottom.

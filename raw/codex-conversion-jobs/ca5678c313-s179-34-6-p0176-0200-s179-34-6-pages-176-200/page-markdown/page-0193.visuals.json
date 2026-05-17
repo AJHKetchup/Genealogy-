@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:29:22Z",
+  "created": "2026-05-17T16:07:46Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,16 +8,8 @@
   "page": 193,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200/page-images/page-0193.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200/page-markdown/page-0193.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains a single handwritten note, which is fully transcribed. There are no substantial visual elements that require separate cropping as standalone assets.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten_note",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Official Letters\nRequesting\nInformation\n_______\n①",
-      "source_context": "The entire handwritten note on the page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

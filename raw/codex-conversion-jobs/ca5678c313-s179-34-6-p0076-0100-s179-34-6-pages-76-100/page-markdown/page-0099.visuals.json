@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:26:58Z",
+  "created": "2026-05-17T16:06:50Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -15,70 +15,70 @@
       "region_id": "vr_1",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Left thumb fingerprint impression",
+      "caption_literal": "Left thumbprint (PULGARES)",
       "source_context": "MANO IZQUIERDA, PULGARES"
     },
     {
       "region_id": "vr_2",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Left index finger fingerprint impression",
-      "source_context": "MANO IZQUIERDA, ÍNDICES"
+      "caption_literal": "Right thumbprint (PULGARES)",
+      "source_context": "MANO DERECHA, PULGARES"
     },
     {
       "region_id": "vr_3",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Left middle finger fingerprint impression",
-      "source_context": "MANO IZQUIERDA, MEDIOS"
+      "caption_literal": "Left index fingerprint (ÍNDICES)",
+      "source_context": "MANO IZQUIERDA, ÍNDICES"
     },
     {
       "region_id": "vr_4",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Left ring finger fingerprint impression",
-      "source_context": "MANO IZQUIERDA, ANULARES"
+      "caption_literal": "Right index fingerprint (ÍNDICES)",
+      "source_context": "MANO DERECHA, ÍNDICES"
     },
     {
       "region_id": "vr_5",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Left pinky finger fingerprint impression",
-      "source_context": "MANO IZQUIERDA, MEÑIQUES"
+      "caption_literal": "Left middle fingerprint (MEDIOS)",
+      "source_context": "MANO IZQUIERDA, MEDIOS"
     },
     {
       "region_id": "vr_6",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Right thumb fingerprint impression",
-      "source_context": "MANO DERECHA, PULGARES"
+      "caption_literal": "Right middle fingerprint (MEDIOS)",
+      "source_context": "MANO DERECHA, MEDIOS"
     },
     {
       "region_id": "vr_7",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Right index finger fingerprint impression",
-      "source_context": "MANO DERECHA, ÍNDICES"
+      "caption_literal": "Left ring fingerprint (ANULARES)",
+      "source_context": "MANO IZQUIERDA, ANULARES"
     },
     {
       "region_id": "vr_8",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Right middle finger fingerprint impression",
-      "source_context": "MANO DERECHA, MEDIOS"
+      "caption_literal": "Right ring fingerprint (ANULARES)",
+      "source_context": "MANO DERECHA, ANULARES"
     },
     {
       "region_id": "vr_9",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Right ring finger fingerprint impression",
-      "source_context": "MANO DERECHA, ANULARES"
+      "caption_literal": "Left little fingerprint (MEÑIQUES)",
+      "source_context": "MANO IZQUIERDA, MEÑIQUES"
     },
     {
       "region_id": "vr_10",
       "kind": "fingerprint",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Right pinky finger fingerprint impression",
+      "caption_literal": "Right little fingerprint (MEÑIQUES)",
       "source_context": "MANO DERECHA, MEÑIQUES"
     }
   ],

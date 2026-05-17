@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3c649a654e47-P0001-02
+chunk_id: CHUNK-dc214f379069-P0001-02
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: 3c649a654e47f37485f2c58f11c3311fb266287797aade10ca65576f3186f00c
+converted_sha256: dc214f379069f8c41c9fefd4227b677910d0c49efe97ead21b79694741a12f14
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -235,50 +235,38 @@ All visible text and significant visual elements on the page have been transcrib
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0036`
-- Page: 36
+Page number: 36
 
 ## Layout And Reading Order
-The page contains a single piece of blue paper with handwritten text. The main text is a list written horizontally in dark ink or pencil. Along the left margin, there is a vertical signature written in blue ink. The reading order is the vertical signature first, followed by the main horizontal text from top to bottom.
-
-- region 1: Vertical handwritten text on the left margin.
-- region 2: Main horizontal handwritten text.
+The page contains a single block of handwritten text in French, listing various publications or studies. There is also a handwritten note in blue ink vertically along the left margin. A hole punch is present on the left side of the page. The main text is read from top to bottom, left to right. The marginal note is read vertically from top to bottom.
 
 ## Literal Transcription
-```markdown
-[region 1]
-C. [illegible] Laloux
-
-[region 2]
 Les diff publications sur l'or
 Etude sur les Conseils économiques dans les
-différents pays du monde
-La Situation Economique mondiale 1931-1932
-Annuaire Statistique de la S.d.N. 1930/31, 1931/32
+differents pays du monde
+La Situation Economique Mondiale 1931-1932
+Annuaire Statistique de la S.d.N. 1930/31
+                                   1931/32
 La Crise agricole Vol I. Vol II
-Principes et méthodes de l'oeuvre de restaurat financière
-préparé sous les ausp de la S.dN
+Principes et methodes de l'oeuvre de restaurat financière
+prepare sous les ausf de la S.dn
 Les questions agricoles au p. de vue international
-```
+
+[Left margin, vertical text in blue ink:]
+S.d.N. publications
 
 ## Images, Captions, And Visual Notes
-The image shows a single piece of light blue paper, likely a note card, with a hole punch on the left side. The main text is a handwritten list in French, written in a dark, cursive script. A signature or note is written vertically along the left edge in blue ink, in a different, more fluid cursive hand.
+- A hole punch is visible on the left side of the page, aligned with the line "prepare sous les ausf de la S.dn".
 
 ## Uncertain Or Illegible
-- The vertical signature on the left is difficult to decipher. It appears to start with "C." and end with "Laloux", but the middle part is illegible: `C. [illegible] Laloux`.
-- In the line "Principes et méthodes de l'oeuvre de restaurat financière", the word `restaurat` may be an abbreviation or misspelling of `restauration`.
-- In the line "Annuaire Statistique de la S.d.N. 1930/31, 1931/32", the years `1930/31` are written above the start of `1931/32`. They are transcribed here on a single line for clarity.
+- "ausf" in "prepare sous les ausf de la S.dn" might be an abbreviation or quick writing for "auspices". Transcribed as written.
+- "restaurat" in "Principes et methodes de l'oeuvre de restaurat financière" might be an abbreviation for "restauration". Transcribed as written.
 
 ## Completeness Audit
-The transcription is complete and represents all the visible text on the page.
+All visible text and significant visual elements have been transcribed or noted.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page consists of a single handwritten note. There are no distinct images, photographs, or complex diagrams that would benefit from being cropped as separate visual assets."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a minor hole punch, which are fully captured by transcription and visual notes. No substantial visual elements require cropping."}
 
 ## Page Metadata
 Page Number: 37
@@ -332,3 +320,6 @@ The transcription is complete and includes all visible text on the page.
 
 ## Page Metadata
 Page number: 38
+
+## Layout And Reading Order
+The page contains a typewritten letter in Spanish, presented in a single column. The content includes a header, date, recipient address block, salutation, main body text with a numbered list, and a closing. The reading order is top-to-bottom, left-to-right.

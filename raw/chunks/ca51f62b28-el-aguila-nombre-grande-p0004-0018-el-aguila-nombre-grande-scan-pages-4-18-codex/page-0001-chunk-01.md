@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4c758b61f250-P0001-01
+chunk_id: CHUNK-49ffbcc87e08-P0001-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 4c758b61f25058b7da33d29bc343ec1ebfecf0265440bedcbf4529300c4b4755
+converted_sha256: 49ffbcc87e08fadeb8f32ae829f2e66456b297fecda9f534f91643eefe06da97
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -23,19 +23,30 @@ part: 1
 
 ## Page Metadata
 Page number: 4
+Source document title: El Aguila Nombre Grande
+Document type: Genealogy source page (typed document with handwritten annotations)
 
 ## Layout And Reading Order
 
-The page features a header with a title, date range, and a number, followed by a main content area divided into two sections, "ALMUERZO" and "MATRIMONIO," each containing a single paragraph of text. A handwritten page number "4" is present at the bottom center.
+The page contains typed text, organized into sections with headings. There are two main sections: "ALMUERZO" and "MATRIMONIO", both under a general "NOTAS" heading. A handwritten number "666" appears in the top left margin, and a handwritten "4" appears at the bottom center.
+
+The reading order is:
+1.  Top left: "NUMERO GIGANTE"
+2.  Top right: "ENERO - FEBRERO"
+3.  Top left margin: Handwritten "666"
+4.  Center: "NOTAS"
+5.  Left: "ALMUERZO" heading, followed by a paragraph of text.
+6.  Left: "MATRIMONIO" heading, followed by a paragraph of text.
+7.  Bottom center: Handwritten "4"
 
 ## Literal Transcription
 
-NUMERO GIGANTE
-ENERO - FEBRERO
+NUMERO GIGANTE ENERO - FEBRERO
 666
 NOTAS
 
 ALMUERZO
+---
 EL 1.º DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
 EFECTO UN ALMUERZO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
@@ -47,36 +58,41 @@ DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
 EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDO LA LIENSA DE NYLON DEL
 CARRETE.
 EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
-COMPROMISOS MARCHANDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
-SE QUEDÓ A LA ONCE MARCHANDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
+COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
+SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIAS DESPUES A CONCEPCION A CUMPLIR SUS OBLIGACIONES.
 
 MATRIMONIO.
+---
 EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
 LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
 DON JOSE MARIA Y DON CARLOS DE LA JARA. TAMBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
 ESPEJO TAMBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
-
 4
 
 ## Images, Captions, And Visual Notes
-- A handwritten number "4" is present at the bottom center of the page.
+
+-   A handwritten number "666" is present in the top left margin.
+-   A handwritten number "4" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-- "NOTAMOSLEAL" in the "MATRIMONIO" section might be "NOTAMOS LEAL" or "NOTAMOS LA". Given the context, "NOTAMOS LA" (we note the) seems plausible, but "NOTAMOSLEAL" is what is typed.
-- "CABALLER" in the "MATRIMONIO" section is likely an abbreviation or incomplete word for "CABALLEROS".
-- "TAMBIE" in the "MATRIMONIO" section is likely an abbreviation or incomplete word for "TAMBIEN".
-- "PROVIN CIA" in the "MATRIMONIO" section might be "PROVINCIA" or "PROVINCIAL".
+
+-   "NOTAMOSLEAL" in the "MATRIMONIO" section might be "NOTAMOS LA" or similar, but "NOTAMOSLEAL" is the most direct reading.
+-   "CABALLER" in the "MATRIMONIO" section is likely an abbreviation or incomplete word, possibly "CABALLEROS".
+-   "TAMBIE" in the "MATRIMONIO" section is likely an abbreviation or incomplete word, possibly "TAMBIEN".
+-   "PROVIN CIA" in the "MATRIMONIO" section might be "PROVINCIA" or "PROVINCIAL".
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed or noted.
+
+All visible text and handwritten annotations on the page have been transcribed.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were identified for cropping. The handwritten page number is noted in the transcription and visual notes but does not meet the criteria for a standalone wiki asset crop."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photos, maps, or complex diagrams are present. Handwritten numbers are transcribed in the text."}
 ```
 
 ## Page Metadata

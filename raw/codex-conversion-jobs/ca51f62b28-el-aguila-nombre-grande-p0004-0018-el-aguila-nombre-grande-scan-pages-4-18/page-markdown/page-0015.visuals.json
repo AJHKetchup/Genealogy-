@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:26:50Z",
+  "created": "2026-05-17T16:06:22Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -8,16 +8,8 @@
   "page": 15,
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0015.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0015.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present. The handwritten page number is minor and described in the text.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "number",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "15",
-      "source_context": "The handwritten page number at the bottom center of the page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

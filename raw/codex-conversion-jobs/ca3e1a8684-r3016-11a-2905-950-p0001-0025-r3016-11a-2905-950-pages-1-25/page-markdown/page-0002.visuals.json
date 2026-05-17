@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T14:23:19Z",
+  "created": "2026-05-17T16:06:05Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3016-11A-2905-950.pdf",
@@ -8,7 +8,7 @@
   "page": 2,
   "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/page-images/page-0002.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/page-markdown/page-0002.md",
-  "no_visual_regions_reason": "The page is a simple document cover with no significant images, illustrations, or photographs.",
+  "no_visual_regions_reason": "The page is a simple back cover with no significant images, illustrations, or complex visual elements.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

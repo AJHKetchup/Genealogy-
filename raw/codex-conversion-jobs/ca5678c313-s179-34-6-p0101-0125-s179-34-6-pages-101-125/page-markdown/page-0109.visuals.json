@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T14:24:34Z",
+  "created": "2026-05-17T16:06:35Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "p0109-001",
+      "region_id": "p0109-01",
       "kind": "photograph",
       "caption_literal": "Fotografía tomada en el mes de ................................. de 192",
-      "caption_type": "source-caption",
+      "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "page",
+      "source_context": "A damaged photograph showing two poses of an unidentified woman, glued to a form.",
       "confidence": "high",
-      "inline_anchor": "<!-- p0109-001 -->",
+      "inline_anchor": "photo-p0109-01",
       "bbox_pct": [
-        17.5,
+        17.0,
         16.0,
-        76.5,
-        38.5
+        83.0,
+        38.0
       ],
       "bbox_pixels": [
-        222,
+        216,
         303,
-        993,
-        744
+        1077,
+        734
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-001-photograph-of-unidentified-woman.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-001-photograph-of-unidentified-woman.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-01-unidentified-woman.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-01-unidentified-woman.png",
       "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-images/page-0109.jpg",
       "source": "raw/sources/S179-34-6.pdf",
       "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",

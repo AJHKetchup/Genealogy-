@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:30:53Z",
+  "created": "2026-05-17T16:09:04Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "stamp_001",
       "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Circular stamp with text \"BRITISH\" and \"NATURAL HISTORY\" and an indistinct emblem, followed by stamped text \"PRESENTED\" and \"3 SEP 1936.\"",
-      "source_context": "The entire page consists of this stamp and the associated text."
+      "caption_literal": "BRITISH NATURAL HISTORY PRESENTED 3 SEP 1936",
+      "source_context": "A circular stamp with the text 'BRITISH' at the top and 'NATURAL HISTORY' at the bottom, surrounding an emblem. Below the stamp, the text 'PRESENTED 3 SEP 1936' is printed."
     }
   ],
   "flags": []

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:29:41Z",
+  "created": "2026-05-17T16:07:58Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -15,8 +15,8 @@
       "region_id": "visual_001",
       "kind": "handwritten_annotation",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "ts & Miscellany",
-      "source_context": "Handwritten label on a manila folder tab."
+      "caption_literal": "ts &\nMiscellany",
+      "source_context": "Handwritten label on a folder tab."
     }
   ],
   "flags": []

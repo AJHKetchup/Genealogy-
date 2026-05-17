@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5943ed618218-P0001-02
+chunk_id: CHUNK-9f4858857812-P0001-02
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 5943ed6182185d6e9a750de9b148865c8008dea29833ca45f3e1dea07be01827
+converted_sha256: 9f485885781287e131660bc972c382e61880b1d0ecd1124a40a20999eb12c3d6
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -10,6 +10,9 @@ page_start: 1
 page_end: 1
 part: 2
 ---
+
+## Layout And Reading Order
+The page consists of a single piece of blue paper with handwritten text. There is a hole punch at the top left corner. The text is arranged in a single column, with a name at the top, a short note, a date, and another name at the bottom.
 
 ## Literal Transcription
 Cap tain Wallis.
@@ -281,7 +284,7 @@ The transcription is complete and includes all visible text, including handwritt
 Page number: 61
 
 ## Layout And Reading Order
-The page displays a single, rectangular piece of paper, possibly a tag or slip, with handwritten text in pencil. The text is arranged in a vertical block, starting near the top of the paper. There is a hole punched near the top center of the paper.
+The page contains a single grey card with handwritten text in pencil. The text is centered on the card. There is a punched hole at the top center of the card.
 
 ## Literal Transcription
 Registry
@@ -290,10 +293,10 @@ for put on file
 A. Kennedy
 
 ## Images, Captions, And Visual Notes
-The page is an image of a light grey paper slip. There is a circular hole punched near the top center of the slip. The top-left corner of the slip appears to be folded or slightly torn. The text is handwritten in pencil.
+The page is a grey card with a punched hole at the top center. The top left corner of the card is slightly torn/creased.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+None.
 
 ## Completeness Audit
-All visible text and significant visual details on the page have been transcribed and noted.
+All visible text and significant visual elements have been transcribed or noted.

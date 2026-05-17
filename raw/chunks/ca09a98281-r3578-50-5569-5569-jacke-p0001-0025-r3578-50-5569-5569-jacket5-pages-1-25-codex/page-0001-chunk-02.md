@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-245918cee5e0-P0001-02
+chunk_id: CHUNK-53ed5dd5f33f-P0001-02
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 245918cee5e067ad99d340849025fa5a5c07b5b397d56050958a900c17c293b7
+converted_sha256: 53ed5dd5f33f16b3c300e00d97fc6027addff4e6ac8e0c763cd2a32ca9cafa15
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -66,23 +66,22 @@ All visible text and significant visual elements have been transcribed or noted.
 - Technical reread clues: none
 
 ## Layout And Reading Order
-This page is the cover of a government publication. The reading order is from top to bottom.
-
-1.  A handwritten number is at the top center of the page: `50 /5509/5509`.
-2.  The main content is enclosed within a double-line border.
-3.  The title block is at the top, inside the border, and includes "TREATY SERIES, No. 846", "PRISONERS OF WAR", and "CONVENTION BETWEEN THE UNITED STATES OF AMERICA AND OTHER POWERS".
-4.  A block of text below the title provides details about the signing and ratification of the convention.
-5.  A purple rectangular stamp is overlaid on the right side of the title and details blocks. The stamp reads "COPY", "RECEIVED IN REGISTRY", and "19 NOV 1932".
-6.  The seal of the U.S. Department of State is in the center of the page.
-7.  The publisher information is below the seal: "UNITED STATES GOVERNMENT PRINTING OFFICE WASHINGTON : 1932".
-8.  A footer at the very bottom of the page, outside the border, provides sales information.
-9.  There is a single hole punch at the top left corner.
+The page is the cover of a government publication. The reading order is from top to bottom.
+1. A handwritten number at the top center.
+2. The main title block, which includes the series number, title, and parties involved.
+3. A purple rectangular stamp on the right side, partially overlapping the title block.
+4. A block of text detailing the signing and ratification dates.
+5. The seal of the U.S. Department of State in the center.
+6. Publication information at the bottom.
+7. A footer with sales information.
 
 ## Literal Transcription
-[handwritten] 50 /5509/5509 [/handwritten]
+[Handwritten at top center]
+50 /5509/5509
 
+[Printed text within a double-lined border]
 TREATY SERIES, No. 846
-***
+
 PRISONERS OF WAR
 —
 CONVENTION
@@ -98,37 +97,58 @@ Ratification of the United States of America deposited with the
 Government of Switzerland, February 4, 1932.
 Proclaimed by the President of the United States, August 4, 1932.
 
-[A purple rectangular stamp is placed diagonally over the right side of the text, from "CONVENTION" down to "1932.". The text on the stamp is transcribed in the Visual Notes section.]
-
-[SEAL-1]
+[Seal of the U.S. Department of State]
 
 UNITED STATES
 GOVERNMENT PRINTING OFFICE
 WASHINGTON : 1932
-***
+
+[Printed text below the main border]
 For sale by the Superintendent of Documents, Washington, D. C. - - - - - Price 10 cents
 
+[Purple rectangular stamp on the right side, partially overlapping the title block. A faint word "COPY" is stamped diagonally over "RECEIVED IN".]
+RECEIVED IN
+REGISTRY
+19 NOV 1932
+—
+
 ## Images, Captions, And Visual Notes
-1.  **[SEAL-1]** A circular seal in the center of the page depicts the Great Seal of the United States (an eagle with a shield, arrows, and an olive branch) surrounded by the text "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *".
-2.  A purple, rectangular stamp is applied diagonally over the right side of the main text block. It is enclosed in a single-line border and contains the following text:
-    ```
-    COPY
-    RECEIVED IN
-    REGISTRY
-    19 NOV 1932
-    ```
-    The word "COPY" is faint.
-3.  A handwritten notation in black ink is at the top of the page: `50 /5509/5509`.
+- **[Seal of the U.S. Department of State]** A circular seal is located in the center of the page. It features an eagle with a shield, holding an olive branch and arrows. The text around the perimeter reads "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *".
+- The page is the cover of a publication titled "TREATY SERIES, No. 846", concerning a convention on Prisoners of War.
+- There is a handwritten number `50 /5509/5509` at the top of the page.
+- A purple rectangular stamp is on the right side, indicating the document was received by the registry on "19 NOV 1932". A faint word "COPY" is also visible on the stamp.
+- A single hole punch is present in the top left corner.
 
 ## Uncertain Or Illegible
-There are no uncertain or illegible portions of this document.
+- The word "COPY" on the purple stamp is very faint and stamped over other text, making it slightly difficult to read.
 
 ## Completeness Audit
-This page is a single cover page and has been fully and accurately transcribed.
+This page has been fully transcribed and all visual elements have been described.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [{"region_id": "seal-of-the-department-of-state", "kind": "seal", "bbox_pct": [38.0, 53.0, 62.0, 67.0], "caption_literal": "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *", "caption_type": "source-field", "identity_basis": "label", "source_context": "page", "confidence": "high", "suggested_filename": "seal-of-the-department-of-state.jpg", "inline_anchor": "[SEAL-1]"}]}
+{
+  "visual_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "seal",
+      "bbox_pct": [
+        38.5,
+        53.5,
+        61.5,
+        67.5
+      ],
+      "caption_literal": "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "page",
+      "confidence": "high",
+      "suggested_filename": "us-department-of-state-seal-p0005.jpg",
+      "inline_anchor": "[Seal of the U.S. Department of State]"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
 ```
 
 ## Page Metadata
@@ -283,3 +303,6 @@ This page is fully transcribed.
   "no_visual_regions_reason": "The page contains only printed text and a minor page artifact (a punch hole), with no images, illustrations, or other significant visual elements."
 }
 ```
+
+## Page Metadata
+Page number: 3

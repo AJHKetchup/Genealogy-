@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3c649a654e47-P0001-04
+chunk_id: CHUNK-dc214f379069-P0001-04
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: 3c649a654e47f37485f2c58f11c3311fb266287797aade10ca65576f3186f00c
+converted_sha256: dc214f379069f8c41c9fefd4227b677910d0c49efe97ead21b79694741a12f14
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -10,15 +10,6 @@ page_start: 1
 page_end: 1
 part: 4
 ---
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page. Two circular binder holes are present on the left margin of the page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
@@ -142,42 +133,41 @@ The transcription is complete and accurate, capturing all text and significant v
 ```
 
 ## Page Metadata
-- Page number: 46
+Page: 46
 
 ## Layout And Reading Order
 
-The page contains text printed in two distinct sections. The majority of the page, from the top down to about two-thirds of the way, features text that is printed upside down and mirrored. This text appears to be the title and subtitle information for a publication. Below this, at the very bottom of the page, there is a single line of text printed right-side up and in standard orientation, which appears to be publication information. There is also a single punch hole near the top center of the page.
+The page contains two distinct blocks of text. The main block of text, occupying the upper two-thirds of the page, is printed upside down and mirrored. The second block of text, at the very bottom of the page, is printed right-side up. A punch hole is present at the top center of the page. The transcription follows this reading order.
 
 ## Literal Transcription
 
-.AЯA92Ǝ ИƎ OƆIXƎM Ǝᗡ AᗡAƧABMƎ
-2ƎИOIƆALƎЯ
-2ƎLAVOIƆAVЯƎTИI
-2AИAƆIЯƎMAOЯƎBVI
--MOIƆИUИOЯ9 2O2ЯUƆ2Iᗡ
-.V.L Ǝᗡ OVITOM ИOƆ 2Oᗡ
--ƎЯƆ Ǝᗡ ИOIƆATИƎ2ƎЯ9
-ЯƎMIЯ9 LƎᗡ 2ƎLAIƆIᗡUᗡ
--WƎИVᗡOЯ LƎᗡ 2O⅃ ЯOᗡAƧABMƎ
--OƆIXƎM 2OᗡIИU 2OᗡAT
-OИЯƎIᗡOƗ LƎ ATИOƆ 2OИ
--2Ǝ AƆILBU9ƎЯ AL Ǝᗡ
-AᗡOИAЯ
+EMBAJADA DE MEXICO EN ESPAÑA
+RELACIONES
+INTERNACIONALES
+IBEROAMERICANAS
+DISCURSOS PRONUNCIADOS
+CON MOTIVO DE LA
+PRESENTACION DE CRE-
+DENCIALES DEL EMBAJADOR
+DE LOS ESTADOS
+UNIDOS MEXICANOS ANTE
+EL GOBIERNO DE LA
+REPUBLICA ESPAÑOLA
 
 Talleres tipográficos de Espasa-Calpe, S. A. — Ríos Rosas, 24. Madrid
 
 ## Images, Captions, And Visual Notes
-
-- A single circular punch hole is present near the top center of the page, approximately 1.5 cm from the top edge.
+A circular punch hole is present at the top center of the page.
+The main block of text is printed upside down and mirrored.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed or noted. The inverted and mirrored text has been transcribed literally as it appears on the page.
+All visible text and significant visual elements have been transcribed or noted.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The punch hole is a minor mark and not cropped per instructions."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were identified for cropping. The punch hole is a minor mark and not considered a standalone wiki asset."}
 
 ## Page Metadata
 Page number: 47

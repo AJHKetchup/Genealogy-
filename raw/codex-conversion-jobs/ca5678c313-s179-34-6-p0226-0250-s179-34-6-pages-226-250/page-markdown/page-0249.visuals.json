@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T15:29:45Z",
+  "created": "2026-05-17T16:07:58Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,7 +8,7 @@
   "page": 249,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0226-0250-s179-34-6-pages-226-250/page-images/page-0249.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0226-0250-s179-34-6-pages-226-250/page-markdown/page-0249.md",
-  "no_visual_regions_reason": "The page is a text-heavy booklet cover with no substantial images, maps, or diagrams that would warrant cropping. The handwritten mark is minor and captured in the transcription.",
+  "no_visual_regions_reason": "The page is a text-based cover with no substantial visual elements like portraits, maps, or diagrams that would warrant cropping. The handwritten note is minor and described in the markdown.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []
