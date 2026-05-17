@@ -187,6 +187,18 @@ jobs:
           --queue-limit "$RUN_QUEUE_LIMIT"
           --stale-minutes 360
 
+      - name: Refresh global queue after source-filtered validation
+        if: steps.preflight.outputs.ready == 'true'
+        shell: bash
+        run: |
+          if [ -n "$RUN_SOURCE" ] || [ -n "$RUN_SOURCE_SHA256" ]; then
+            python -m historic_doc_ingest.genealogy_wiki source-prep-batches \
+              --root . \
+              --max-pages 1 \
+              --limit "$RUN_QUEUE_LIMIT" \
+              --stale-minutes 360
+          fi
+
       - name: Publish conversion outputs
         if: steps.preflight.outputs.ready == 'true'
         run: |

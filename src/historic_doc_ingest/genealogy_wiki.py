@@ -6329,6 +6329,13 @@ def write_source_prep_batches(
                 source_sha256=source_sha256,
             )
         ]
+    media_skipped_count = len(source_tasks)
+    source_tasks = [
+        task
+        for task in source_tasks
+        if not source_prep_task_media_skip_reason(task)
+    ]
+    media_skipped_count -= len(source_tasks)
     effective_max_pages = min(max_pages, SOURCE_PREP_MAX_PAGES_PER_WORKER)
     batches = build_source_prep_batch_agent_tasks(
         source_tasks,
@@ -6343,6 +6350,8 @@ def write_source_prep_batches(
     )
     if released_count:
         log_message += f"; released {released_count} stale task(s)"
+    if media_skipped_count:
+        log_message += f"; skipped {media_skipped_count} audio/video task(s)"
     append_log(paths.research / "log.md", log_message)
     return queue_path
 
@@ -7098,6 +7107,14 @@ def source_prep_media_pipeline_skip_reason(batch: dict[str, object], page: dict[
     if suffixes & SOURCE_PREP_VIDEO_SUFFIXES:
         return "video_media_pipeline"
     return ""
+
+
+def source_prep_task_media_skip_reason(task: dict[str, object]) -> str:
+    page = {
+        "media_type": task.get("media_type", ""),
+        "page_image": task.get("page_image", ""),
+    }
+    return source_prep_media_pipeline_skip_reason(task, page)
 
 
 def create_gemini_source_prep_crops(
@@ -8077,6 +8094,7 @@ def build_source_prep_batch_agent_tasks(
         task
         for task in source_tasks
         if str(task.get("status", "")).strip() in allowed_statuses
+        and not source_prep_task_media_skip_reason(task)
     ]
     available.sort(
         key=source_prep_batch_priority
@@ -8182,6 +8200,7 @@ def build_source_prep_batch_task(page_tasks: list[dict[str, object]]) -> dict[st
         "status": str(first.get("status", "")),
         "source": str(first.get("source", "")),
         "source_sha256": str(first.get("source_sha256", "")),
+        "media_type": str(first.get("media_type", "")),
         "job_manifest": str(first.get("job_manifest", "")),
         "job_id": str(first.get("job_id", "")),
         "title": str(first.get("title", "")),
@@ -8213,6 +8232,7 @@ def source_prep_batch_page_record(task: dict[str, object]) -> dict[str, object]:
         "image_output_dir": str(task.get("image_output_dir", "")),
     }
     for key in (
+        "media_type",
         "quality_flags",
         "missing_sections",
         "qc_quality_flags",
@@ -8313,6 +8333,7 @@ def build_source_prep_agent_tasks(root: Path) -> list[dict[str, object]]:
                 "status": status,
                 "source": str(manifest.get("source_file", "")),
                 "source_sha256": str(manifest.get("source_sha256", "")),
+                "media_type": str(manifest.get("media_type", "")),
                 "job_manifest": relative_to_root(manifest_path, root),
                 "job_id": str(manifest.get("job_id", "")),
                 "title": str(manifest.get("title", "")),

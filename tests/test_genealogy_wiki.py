@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import pytest
 
@@ -919,6 +920,33 @@ def test_source_prep_batches_can_target_one_source(tmp_path) -> None:
 
     assert len(batch_queue["tasks"]) == 2
     assert {batch["source"] for batch in batch_queue["tasks"]} == {"raw/sources/target.pdf"}
+
+
+def test_source_prep_batches_exclude_audio_video_sources(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    raw_sources = tmp_path / "raw" / "sources"
+    for filename in ("notes.txt", "voice.mp3", "clip.mp4"):
+        source = raw_sources / filename
+        source.write_bytes(f"{filename} sample".encode("utf-8"))
+        create_codex_conversion_job(tmp_path, source, f"job-{filename}", filename)
+
+    batch_path = write_source_prep_batches(tmp_path, limit=10)
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+
+    sources = {batch["source"] for batch in batch_queue["tasks"]}
+    assert sources == {"raw/sources/notes.txt"}
+    assert batch_queue["tasks"][0]["media_type"] == "text"
+    assert batch_queue["tasks"][0]["pages"][0]["media_type"] == "text"
+
+
+def test_cloud_workflow_refreshes_global_queue_after_source_filtered_run() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "Refresh global queue after source-filtered validation" in workflow
+    assert 'if [ -n "$RUN_SOURCE" ] || [ -n "$RUN_SOURCE_SHA256" ]; then' in workflow
+    assert "source-prep-batches" in workflow
+    assert "--source \"$RUN_SOURCE\"" in workflow
 
 
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
