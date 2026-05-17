@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:29:56Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
+  "page": 277,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-images/page-0277.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-markdown/page-0277.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "SIFÍLIDE PAPULOSA GENERALIZADA",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "Illustration of a man's head and upper torso in profile, showing a generalized papular syphilide.",
+      "confidence": "high",
+      "inline_anchor": "illustration_001",
+      "bbox_pct": [
+        15.2,
+        10.5,
+        85.2,
+        70.5
+      ],
+      "bbox_pixels": [
+        146,
+        133,
+        846,
+        926
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0277/page-0277-image-01-sifilide-papulosa-generalizada-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-images/page-0277.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
+      "page": 277,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-markdown/page-0277.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

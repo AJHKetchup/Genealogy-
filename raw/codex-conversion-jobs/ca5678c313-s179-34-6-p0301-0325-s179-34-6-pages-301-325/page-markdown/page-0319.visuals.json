@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:19Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+  "page": 319,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0319.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0319.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "page-0319_image-1",
+      "kind": "photograph",
+      "caption_literal": "A photographic negative showing a man standing outdoors. The man is seen from the waist up, facing forward, wearing a suit jacket and tie. He has light-colored hair and a mustache. The background appears to be dense foliage, possibly trees or bushes. The image is a negative, so colors are inverted (e.g., light areas appear dark, and dark areas appear light).",
+      "caption_type": "converter-description",
+      "identity_basis": "no-identity-in-source",
+      "source_context": "A photographic negative showing a man standing outdoors.",
+      "confidence": "high",
+      "inline_anchor": "[[page-0319_image-1]]",
+      "bbox_pct": [
+        25.5,
+        20.5,
+        74.5,
+        80.5
+      ],
+      "bbox_pixels": [
+        129,
+        117,
+        391,
+        478
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0319/page-0319-image-01-page-0319-photographic-negative-man-outdoors.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0319/page-0319-image-01-page-0319-photographic-negative-man-outdoors.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0319.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+      "page": 319,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0319.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

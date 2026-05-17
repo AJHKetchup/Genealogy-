@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:29:59Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
+  "page": 282,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-images/page-0282.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-markdown/page-0282.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "illustration",
+      "caption_literal": "SIFÍLIDE POLIMORFA",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-only",
+      "source_context": "Medical illustration of a face with a skin condition.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.8,
+        8.0,
+        85.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        139,
+        101,
+        824,
+        1057
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0282/page-0282-image-01-illustration-sifilide-polimorfa.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0282/page-0282-image-01-illustration-sifilide-polimorfa.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-images/page-0282.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
+      "page": 282,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-markdown/page-0282.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

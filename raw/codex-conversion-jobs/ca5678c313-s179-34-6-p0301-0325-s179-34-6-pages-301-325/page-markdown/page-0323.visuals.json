@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:23Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+  "page": 323,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0323.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0323.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The entire page is a single photograph.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        19.0,
+        14.0,
+        80.0,
+        86.0
+      ],
+      "bbox_pixels": [
+        74,
+        37,
+        334,
+        253
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0323/page-0323-image-01-photograph-river-bank-and-structure.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0323/page-0323-image-01-photograph-river-bank-and-structure.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0323.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+      "page": 323,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0323.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

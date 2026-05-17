@@ -1,7 +1,7 @@
 {
   "created": "2026-05-17",
   "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127.codex.md",
-  "converted_sha256": "c70689e0dc0ca7b97cc8b701d310ab91c112c81813aaf9086b28ec0aa644fbdb",
+  "converted_sha256": "2c2179ed6ba6c52c2308901ddfef7fb12db22b9100f674d0e893c16d220207ee",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
   "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
   "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json",
@@ -12,34 +12,34 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-c70689e0dc0c-P0001-01",
+      "chunk_id": "CHUNK-2c2179ed6ba6-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127-codex/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
-      "chars": 9104,
-      "sha256": "0c97694459d68e661c09ea1053711b3e9936c68a505b7bab8e619aa31e4a7b52"
+      "chars": 10413,
+      "sha256": "ee14ce451a78468c74eb0fc7ad81f0ec541179f4c7a23aa7e6092913da0a8a43"
     },
     {
-      "chunk_id": "CHUNK-c70689e0dc0c-P0001-02",
+      "chunk_id": "CHUNK-2c2179ed6ba6-P0001-02",
       "chunk_number": 2,
       "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127-codex/page-0001-chunk-02.md",
       "page_start": 1,
       "page_end": 1,
       "part": 2,
       "chars": 11357,
-      "sha256": "4977c20864565bbc7c0b984d6d43649584d3bfb30767338c2a9d09b757a08e19"
+      "sha256": "2b7a4759699be8a0d1f5f3b2625db86778b1a52e6020e335ec4d4afce1135004"
     },
     {
-      "chunk_id": "CHUNK-c70689e0dc0c-P0001-03",
+      "chunk_id": "CHUNK-2c2179ed6ba6-P0001-03",
       "chunk_number": 3,
       "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127-codex/page-0001-chunk-03.md",
       "page_start": 1,
       "page_end": 1,
       "part": 3,
       "chars": 1993,
-      "sha256": "145287bcb09a2bdf984555e344cf7f598692d9fb579482c5a6cca24027a9a491"
+      "sha256": "73133f11c5218d980c03af903e804e85cba5d6776b23ef84604f56478e4b648e"
     }
   ]
 }

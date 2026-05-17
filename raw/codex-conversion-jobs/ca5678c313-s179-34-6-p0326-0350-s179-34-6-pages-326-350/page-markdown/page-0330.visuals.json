@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:32Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+  "page": 330,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0330.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0330.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "photo-of-two-men-outdoors-1",
+      "kind": "photograph",
+      "caption_literal": "A black and white photograph shows two men standing outdoors, facing each other and smiling. The man on the left has light-colored hair and is wearing a dark coat over a collared shirt. The man on the right has dark, wavy hair and is wearing a suit jacket, shirt, and tie. The background consists of dense, dark foliage, possibly trees or large bushes. The image appears to be a candid shot.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-only",
+      "source_context": "The only content on the page is this photograph.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        15.0,
+        10.0,
+        85.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        58,
+        25,
+        354,
+        264
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0330/page-0330-image-01-photo-two-men-outdoors.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0330/page-0330-image-01-photo-two-men-outdoors.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0330.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+      "page": 330,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0330.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

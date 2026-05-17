@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c7ef9fee7a24-P0001-04
+chunk_id: CHUNK-c16905d3e7dc-P0001-04
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103.codex.md
-converted_sha256: c7ef9fee7a244fb1e39c70a343a2f2dd81ccafacc874b9823d06fb4067ec0b61
+converted_sha256: c16905d3e7dcdda044c8a657c31e25f49d4486eee0bc73b5de8467a2d9415270
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json
@@ -322,16 +322,13 @@ All visible text and images on the page have been transcribed and described.
 ```
 
 ## Page Metadata
-- Page number: 98
-- Source publication year: 1936
-- Source publication title: Cámara de Senadores de la Nación
-- Source document part: Unknown
-- Source page range: 84-103
+Page number: 98
 
 ## Layout And Reading Order
-The page displays a series of four railway signal diagrams, each accompanied by a lettered caption. The content is arranged in a single column, flowing from top to bottom.
+The page displays a series of four illustrations, each depicting a different type of railway signal. Each illustration is accompanied by a descriptive caption, labeled alphabetically from `e)` to `h)`. The illustrations are arranged vertically down the left side of the page, with their corresponding captions to their right.
 
 ## Literal Transcription
+```
 — 98 —
 
 e) Señal que autoriza a correr por
@@ -343,3 +340,4 @@ g) Señal automática.
 
 h) Brazos vistos
 de atrás.
+```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-64cc31ede4bf-P0001-01
+chunk_id: CHUNK-2071d6550c7d-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: 64cc31ede4bf972edc8b3ae0e4aef725a3408b425e496020541707b1088f1589
+converted_sha256: 2071d6550c7d09b6283132005be7a190012bed1a7b62e72269d88c1dbfafaa42
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -147,7 +147,7 @@ The entire content of the page has been transcribed.
 - Page: 78
 
 ## Layout And Reading Order
-This page contains a single, short, handwritten note on a small slip of paper. The reading order is from top to bottom.
+The page contains a single, handwritten note on a small slip of paper. The reading order is from top to bottom.
 
 ## Literal Transcription
 ```text
@@ -156,26 +156,26 @@ M. Colban étant
 absent. prière de
 renvoyer ce dossier
 le 29 juin.
-L. Boitteau[?]
+L. Boitteau
 1916
-Jord M+B.[?]
+Jobed[?] M+B.[?]
 ```
 
 ## Images, Captions, And Visual Notes
-This page consists of a single image of a small, rectangular piece of off-white paper with handwritten text in black ink. The paper has a single hole punched near the top, through a horizontal line drawn under the word "Registry".
+The image shows a small, rectangular piece of off-white paper with handwritten text in black ink. A single hole has been punched near the top, below the word "Registry" and through the line drawn beneath it.
 
 ## Uncertain Or Illegible
-- The signature is difficult to read but appears to be `L. Boitteau[?]`.
-- The final line of handwriting is also difficult to decipher but appears to be `Jord M+B.[?]`.
+- The signature is difficult to read but appears to be `L. Boitteau`.
+- The final line of text is difficult to read but appears to be `Jobed[?] M+B.[?]`.
 
 ## Completeness Audit
-This page has been fully transcribed.
+The transcription is complete and represents all the text visible on the page.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The entire page consists of a single handwritten note. There are no distinct visual elements like photographs, illustrations, or maps that would be useful as standalone assets."
+  "no_visual_regions_reason": "The page consists of a single handwritten note on a small slip of paper. There are no distinct images, illustrations, or photographs to crop."
 }
 ```
 
@@ -190,27 +190,24 @@ The page contains a single block of handwritten text. The reading order is top t
 
 ## Literal Transcription
 
-[Handwritten note on a rectangular piece of blue paper with a hole punched in the top left corner]
+[Handwritten note on a rectangular piece of blue paper with a hole punched at the top left.]
 
 Mr Colban
-___
-
 I think
 this, perhaps,
 is of interest
 to you in view of
 Baron Drachenfels
 statement! [signature]
-
 18.6.28.
 
 ## Images, Captions, And Visual Notes
 
-The page consists of a single image of a handwritten note on a piece of blue paper. The paper is rectangular and has a single hole punched near the top left corner, likely for filing. The handwriting is in dark ink.
+The entire page consists of a single image: a handwritten note on a rectangular piece of blue paper. The paper has a single hole punched near the top left corner, likely for filing. The handwriting is in dark ink.
 
 ## Uncertain Or Illegible
 
-- The signature after "statement!" is a single, stylized initial, possibly an 'R' or an 'A'. It has been transcribed as `[signature]`.
+- **[signature]**: The signature after "statement!" is a single, stylized initial, possibly an 'R' or an 'A'.
 
 ## Completeness Audit
 
@@ -221,7 +218,7 @@ The entire content of the page has been transcribed.
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The only content on the page is a short handwritten note, which has been fully transcribed. There are no photographs, illustrations, or other distinct visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page contains only a short handwritten note, which has been fully transcribed. There are no significant images, illustrations, or photographs to crop."
 }
 ```
 

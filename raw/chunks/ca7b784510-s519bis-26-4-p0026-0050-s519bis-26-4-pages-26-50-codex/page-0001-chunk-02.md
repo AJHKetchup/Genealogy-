@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e615f7f24381-P0001-02
+chunk_id: CHUNK-3c649a654e47-P0001-02
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: e615f7f24381a598ed9947b56ff79b9f5c3562515818f04e11490f252356adfc
+converted_sha256: 3c649a654e47f37485f2c58f11c3311fb266287797aade10ca65576f3186f00c
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -10,6 +10,13 @@ page_start: 1
 page_end: 1
 part: 2
 ---
+
+## Images, Captions, And Visual Notes
+An embossed seal, likely the national emblem of Mexico, is present in the top-left corner of the page.
+A handwritten signature is present below the closing text.
+
+## Uncertain Or Illegible
+None.
 
 ## Completeness Audit
 All visible text and meaningful visual elements have been transcribed or noted.
@@ -228,38 +235,49 @@ All visible text and significant visual elements on the page have been transcrib
 ```
 
 ## Page Metadata
-Page number: 36
+- Task id: `source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0036`
+- Page: 36
 
 ## Layout And Reading Order
-The page contains a single block of handwritten text in black ink, listing several publications or studies. There is also some handwritten text in blue ink in the left margin, running vertically. The text is presented as a list.
+The page contains a single piece of blue paper with handwritten text. The main text is a list written horizontally in dark ink or pencil. Along the left margin, there is a vertical signature written in blue ink. The reading order is the vertical signature first, followed by the main horizontal text from top to bottom.
+
+- region 1: Vertical handwritten text on the left margin.
+- region 2: Main horizontal handwritten text.
 
 ## Literal Transcription
+```markdown
+[region 1]
+C. [illegible] Laloux
+
+[region 2]
 Les diff publications sur l'or
 Etude sur les Conseils économiques dans les
 différents pays du monde
-La Situation Economique Mondiale 1931-1932
-Annuaire Statistique de la S.d.N. 1930/31
-                                    1931/32
+La Situation Economique mondiale 1931-1932
+Annuaire Statistique de la S.d.N. 1930/31, 1931/32
 La Crise agricole Vol I. Vol II
-Principes et méthodes de l'œuvre de restauration financière
-préparé sous les auspices de la S.d.N.
+Principes et méthodes de l'oeuvre de restaurat financière
+préparé sous les ausp de la S.dN
 Les questions agricoles au p. de vue international
-
-*(Left margin, handwritten in blue ink, vertically oriented)*
-C. R. P. [illegible signature/initials]
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions. The blue handwritten text in the left margin appears to be a signature or initials, but it is not a standalone visual asset for cropping.
+The image shows a single piece of light blue paper, likely a note card, with a hole punch on the left side. The main text is a handwritten list in French, written in a dark, cursive script. A signature or note is written vertically along the left edge in blue ink, in a different, more fluid cursive hand.
 
 ## Uncertain Or Illegible
-- The blue handwritten text in the left margin is largely illegible beyond "C. R. P.", appearing to be a stylized signature or initials.
+- The vertical signature on the left is difficult to decipher. It appears to start with "C." and end with "Laloux", but the middle part is illegible: `C. [illegible] Laloux`.
+- In the line "Principes et méthodes de l'oeuvre de restaurat financière", the word `restaurat` may be an abbreviation or misspelling of `restauration`.
+- In the line "Annuaire Statistique de la S.d.N. 1930/31, 1931/32", the years `1930/31` are written above the start of `1931/32`. They are transcribed here on a single line for clarity.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+The transcription is complete and represents all the visible text on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements are present on this page that would be useful as standalone wiki assets. The page consists entirely of handwritten text."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists of a single handwritten note. There are no distinct images, photographs, or complex diagrams that would benefit from being cropped as separate visual assets."
+}
 ```
 
 ## Page Metadata
@@ -314,6 +332,3 @@ The transcription is complete and includes all visible text on the page.
 
 ## Page Metadata
 Page number: 38
-
-## Layout And Reading Order
-The page contains a typewritten letter in Spanish, presented in a single column. The content includes a header, date, recipient address block, salutation, main body text with a numbered list, and a closing. The reading order is top-to-bottom, left-to-right.

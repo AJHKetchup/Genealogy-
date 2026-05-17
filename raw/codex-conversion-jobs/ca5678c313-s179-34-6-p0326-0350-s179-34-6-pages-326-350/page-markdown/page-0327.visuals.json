@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:31Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+  "page": 327,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0327.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0327.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "A sepia-toned photograph showing a body of water with land and buildings in the distance. Several figures, possibly men, are standing on the near shore or a dock. One figure appears to be in uniform, and another is holding a long, dark object.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-appearance",
+      "source_context": "The entire page is dedicated to this photograph.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        4.5,
+        10.5,
+        95.5,
+        90.0
+      ],
+      "bbox_pixels": [
+        13,
+        26,
+        368,
+        262
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0327/page-0327-image-01-sepia-photo-harbor-figures-distance.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0327/page-0327-image-01-sepia-photo-harbor-figures-distance.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0327.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+      "page": 327,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0327.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

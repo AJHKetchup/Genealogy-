@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T15:31:10Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json",
+  "page": 204,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/page-images/page-0204.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/page-markdown/page-0204.md",
+  "no_visual_regions_reason": "The page contains only a handwritten letter with a simple text-based letterhead. There are no significant images, illustrations, or photographs that would warrant cropping as standalone visual assets.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

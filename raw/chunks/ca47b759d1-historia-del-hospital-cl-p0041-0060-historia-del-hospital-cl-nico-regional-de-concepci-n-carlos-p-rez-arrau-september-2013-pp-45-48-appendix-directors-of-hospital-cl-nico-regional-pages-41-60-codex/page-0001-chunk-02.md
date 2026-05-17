@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e8d171944a6d-P0001-02
+chunk_id: CHUNK-5ff3f6a1bc6c-P0001-02
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: e8d171944a6d6bf3d3daaada1cf61327f826cc011d8ec01db8eec542a7979722
+converted_sha256: 5ff3f6a1bc6c5d19b4b838cff389b134f344312017aed4dc6dff8987ba0fbb10
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json

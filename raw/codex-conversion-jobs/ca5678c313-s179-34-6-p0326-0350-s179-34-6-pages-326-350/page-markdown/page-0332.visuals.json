@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:32Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+  "page": 332,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0332.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0332.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "A sepia-toned photograph showing a body of water with a shoreline in the foreground. Several people are on the shore, including one in uniform near a small boat. A larger vessel is on the water, and a town is visible on the distant shore.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The only content on page 332.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        10.0,
+        89.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        34,
+        24,
+        346,
+        255
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-page-0332-photograph-water-shoreline-people-vessel-town.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0332/page-0332-image-01-page-0332-photograph-water-shoreline-people-vessel-town.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0332.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+      "page": 332,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0332.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

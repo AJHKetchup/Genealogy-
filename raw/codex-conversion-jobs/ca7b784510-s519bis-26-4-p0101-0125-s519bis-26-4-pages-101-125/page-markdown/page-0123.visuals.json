@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:30:10Z",
+  "created": "2026-05-17T15:31:00Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "LEGACION DE LA REPUBLICA DOMINICANA\nDIOS PATRIA LIBERTAD\nPARIS",
-      "source_context": "The text within the circular stamp."
+      "caption_literal": "LEGACION DE LA REPUBLICA DOMINICANA\nPARIS\nDIOS PATRIA LIBERTAD",
+      "source_context": "A circular blue stamp in the upper right quadrant of the page."
     }
   ],
   "flags": []

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:34Z",
+  "created": "2026-05-17T15:30:42Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-images/page-0001.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "The page is a solid red color with no discernible text, images, or other meaningful visual content to extract.",
+  "no_visual_regions_reason": "The page is a solid red color, indicating it is likely a blank cover, endpaper, or separator page with no meaningful visual content to extract.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

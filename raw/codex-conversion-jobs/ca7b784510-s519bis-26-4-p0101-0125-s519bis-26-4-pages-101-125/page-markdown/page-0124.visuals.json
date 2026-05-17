@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:40Z",
+  "created": "2026-05-17T15:31:01Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "visreg_1",
+      "region_id": "card_dr_s_e_paradas",
       "kind": "document",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "DR S. E. PARADAS\nChargé d'Affaires p. e. de la République Dominicaine\n- Con sus mas atentos saludos -\n21, Av. de Messine.",
-      "source_context": "A card with printed and handwritten text."
+      "source_context": "The text on the card."
     }
   ],
   "flags": []

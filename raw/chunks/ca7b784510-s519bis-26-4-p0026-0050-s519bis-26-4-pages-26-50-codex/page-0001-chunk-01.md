@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e615f7f24381-P0001-01
+chunk_id: CHUNK-3c649a654e47-P0001-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: e615f7f24381a598ed9947b56ff79b9f5c3562515818f04e11490f252356adfc
+converted_sha256: 3c649a654e47f37485f2c58f11c3311fb266287797aade10ca65576f3186f00c
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -100,22 +100,22 @@ All visible text and the signature have been transcribed.
 Page: 28
 
 ## Layout And Reading Order
-The page contains a handwritten letter in Spanish, addressed to "Señor Julián Nogueira" and signed by "Alfredo Salazar". The text is arranged in paragraphs, with a date and address at the bottom left and right, respectively. A small hole punch is visible in the top left corner.
+The page contains a handwritten letter in Spanish, addressed to "Señor Milian Nogueira" and signed by "Alfredo Salazar." The text flows in a single column from top to bottom, with a date and address at the very bottom.
 
 ## Literal Transcription
-Señor Julián Nogueira -
+Señor Milian Nogueira –
 Mi distinguido amigo:
 En este instante recibo su
 amable carta a la que acompañan
 los primeros números del Diario de la Asamblea
 de la SOC. de la Nación.
-Le agradezco expresivamente su
+Le agradezco expresamente su
 gentileza.
-No se imagina lo cuanto he la-
-mentado no haber podido concur-
-rir al acto en Buenos Aires -
+No se imagine lo cuanto se la
+miento no haber podido cumplir
+lo solicitado en Buenos Aires –
 Suponía que permanecería más tiempo
-allí, y por eso demoré mi viaje.
+allí, y por eso demoré en visitarlo.
 De todas maneras, quiero que
 sepa que en este tiene Ud. un
 amigo de veras que se pone a
@@ -124,17 +124,17 @@ Alfredo Salazar
 B.A. Oct/927. S/c Charcas 4741.
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page. A small, dark circular mark (likely a hole punch) is present in the top-left corner of the page.
+There are no substantial images or captions on this page. The small black dot in the top-left corner appears to be a physical mark on the paper, possibly a binder hole or a stain, and is not considered a meaningful visual element for extraction.
 
 ## Uncertain Or Illegible
-None.
+No uncertain or illegible text was identified that could not be plausibly transcribed.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+The transcription is complete and includes all visible text on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for extraction. The page primarily contains handwritten text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily contains handwritten text."}
 ```
 
 ## Page Metadata
@@ -271,25 +271,25 @@ All visible text on the page has been transcribed.
 Page 31
 
 ## Layout And Reading Order
-The page contains handwritten text in the upper right quadrant. A single hole punch is present in the upper left corner.
+The page is a plain, light brown sheet of paper. There is a hole punch in the top left corner. Handwritten text appears in the top right quadrant.
 
 ## Literal Transcription
-Ingegniero A. Pani
+Ingegnero A. Pani
 _______
 (4/2)
 
 ## Images, Captions, And Visual Notes
-The page is a plain brown sheet of paper. In the upper right, the name "Ingegniero A. Pani" is handwritten in cursive, underlined, and below the underline, the number "4/2" is written and circled. A single hole punch is visible in the upper left corner of the page.
+A circular hole punch is present in the top left corner of the page.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+All visible content on the page has been transcribed and described.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The handwritten text is transcribed literally."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a hole punch, neither of which qualify as substantial visuals for cropping according to the guidelines. The handwritten text is fully captured by transcription."}
 ```
 
 ## Page Metadata
@@ -325,10 +325,3 @@ saludarle y suscribirme como su amigo y seguro servi-
 dor:
 
 <p style="text-align: right;">[handwritten signature]</p>
-
-## Images, Captions, And Visual Notes
-An embossed seal, likely the national emblem of Mexico, is present in the top-left corner of the page.
-A handwritten signature is present below the closing text.
-
-## Uncertain Or Illegible
-None.

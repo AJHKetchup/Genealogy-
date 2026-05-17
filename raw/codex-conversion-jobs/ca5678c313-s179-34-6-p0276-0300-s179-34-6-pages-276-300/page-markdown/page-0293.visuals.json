@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:04Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
+  "page": 293,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-images/page-0293.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-markdown/page-0293.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "SIFÍLIDE PÚSTULO-CRUSTÁCEA, GENERALIZADA.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The main illustration on the page.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        13.0,
+        87.0,
+        87.0
+      ],
+      "bbox_pixels": [
+        127,
+        241,
+        1143,
+        1645
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-images/page-0293.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json",
+      "page": 293,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/page-markdown/page-0293.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

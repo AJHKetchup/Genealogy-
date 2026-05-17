@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:31Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+  "page": 331,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0331.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0331.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "page-0331-image-1",
+      "kind": "photograph",
+      "caption_literal": "23",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "The image shows a plain, light-colored rectangular card or the back of a photograph, with the handwritten number '23' in the upper central area.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.9,
+        16.2,
+        89.1,
+        83.8
+      ],
+      "bbox_pixels": [
+        28,
+        63,
+        262,
+        351
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0331/page-0331-image-01-plain-card-with-number-23.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/extracted-images/page-0331/page-0331-image-01-plain-card-with-number-23.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-images/page-0331.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/manifest.json",
+      "page": 331,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350/page-markdown/page-0331.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

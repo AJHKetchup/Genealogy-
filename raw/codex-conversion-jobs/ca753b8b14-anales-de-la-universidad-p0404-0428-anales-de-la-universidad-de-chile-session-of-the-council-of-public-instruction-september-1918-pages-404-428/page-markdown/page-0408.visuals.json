@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:30:50Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/manifest.json",
+  "page": 408,
+  "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-images/page-0408.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-markdown/page-0408.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "photograph",
+      "caption_literal": "Vista panorámica del Mineral «El Teniente», «Sewell» i «La Junta»",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The caption describes the image as a panoramic view of the El Teniente mining district, including Sewell and La Junta.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.2,
+        26.4,
+        81.0,
+        81.9
+      ],
+      "bbox_pixels": [
+        72,
+        320,
+        604,
+        1008
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0408/page-0408-image-01-panoramic-view-el-teniente-sewell-la-junta.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0408/page-0408-image-01-panoramic-view-el-teniente-sewell-la-junta.png",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-images/page-0408.jpg",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/manifest.json",
+      "page": 408,
+      "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-markdown/page-0408.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

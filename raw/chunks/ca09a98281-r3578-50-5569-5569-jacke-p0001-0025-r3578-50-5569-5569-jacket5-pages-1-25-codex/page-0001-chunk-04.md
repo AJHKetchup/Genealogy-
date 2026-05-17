@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1075784a5d9b-P0001-04
+chunk_id: CHUNK-245918cee5e0-P0001-04
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 1075784a5d9b0d57eecbdf362eb510a70e2b738db53b30fc8ea2a7ef79b29e5a
+converted_sha256: 245918cee5e067ad99d340849025fa5a5c07b5b397d56050958a900c17c293b7
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -10,6 +10,12 @@ page_start: 1
 page_end: 1
 part: 4
 ---
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 7
 
 ## Layout And Reading Order
 The page contains a single column of text, primarily legal or regulatory articles, numbered sequentially. The articles are introduced by "ARTICLE" followed by a number, and there is a section title "TITRE II. DE LA CAPTURE." The page number "7" is centered at the top. A footer with a document number is at the bottom left.

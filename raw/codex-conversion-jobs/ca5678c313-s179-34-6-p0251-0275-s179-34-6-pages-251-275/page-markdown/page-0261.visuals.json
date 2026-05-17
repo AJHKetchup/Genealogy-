@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T15:29:51Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/manifest.json",
+  "page": 261,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/page-images/page-0261.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/page-markdown/page-0261.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "emblem_seal_001",
+      "kind": "illustration",
+      "caption_literal": "Emblem/Seal",
+      "caption_type": "converter-description",
+      "identity_basis": "visual_appearance",
+      "source_context": "Central emblem on the title page, below the main title and above the publisher information.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        40.0,
+        50.0,
+        60.0,
+        58.0
+      ],
+      "bbox_pixels": [
+        388,
+        648,
+        592,
+        760
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-emblem-seal-1906.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-emblem-seal-1906.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/page-images/page-0261.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/manifest.json",
+      "page": 261,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/page-markdown/page-0261.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

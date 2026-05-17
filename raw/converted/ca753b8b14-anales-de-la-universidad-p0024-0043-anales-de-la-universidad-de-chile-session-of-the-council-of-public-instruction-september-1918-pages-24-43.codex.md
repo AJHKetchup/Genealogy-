@@ -975,66 +975,72 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-Page number: 37
+
+- **Page number**: 323
+- **Document**: Anales de la Universidad de Chile
+- **Date**: 7 de Octubre de 1918
 
 ## Layout And Reading Order
-The page contains a header with a session date and page number, followed by two distinct sections detailing "Clases" (Classes) and "EJERCICIOS" (Exercises) with corresponding weekly hours, presented in a tabular/list format. Below these sections, there is a main paragraph of text, followed by a single concluding sentence.
+
+The page is laid out in a single column. The reading order is as follows:
+1. A header at the top of the page with the session date "SESION DE 7 DE OCTUBRE DE 1918" on the left and the page number "323" on the right.
+2. A section titled "Clases", presented as a two-column table. The left column lists numbered subjects, and the right column, under the heading "Horas semanales", lists corresponding numbers. A total is provided at the bottom of the right column.
+3. A section titled "EJERCICIOS:", presented as a two-column table. The left column lists numbered items, and the right column lists corresponding numbers. A total is provided at the bottom of the right column.
+4. Two paragraphs of text detailing resolutions from the session. The second paragraph is at the very bottom of the page.
 
 ## Literal Transcription
-SESION DE 7 DE OCTUBRE DE 1918 323
-___
 
-Clases Horas
-semanales
-1. Jeometría del Espacio i Jeometría Descriptiva... 4
-2. Complementos de Jeometría Plana i Aljebra, con
-   nociones de Aljebra Superior................... 4
-3. Trigonometría Plana i Esférica i Jeometría Ana-
-   lítica........................................ 5
-4. Cosmografía................................... 2
-5. Física........................................ 3
-6. Química Jeneral................................ 3
-                                                ___
-                                                21
+SESION DE 7 DE OCTUBRE DE 1918
+323
+
+| Clases | Horas semanales |
+| :--- | :--- |
+| 1. Jeometría del Espacio i Jeometría Descriptiva... | 4 |
+| 2. Complementos de Jeometría Plana i Aljebra, con nociones de Aljebra Superior.................... | 4 |
+| 3. Trigonometría Plana i Esférica i Jeometría Analítica.................................................. | 5 |
+| 4. Cosmografía.................................................. | 2 |
+| 5. Física........................................................... | 3 |
+| 6. Química Jeneral............................................ | 3 |
+| | --- |
+| | 21 |
 
 EJERCICIOS:
 
-1. Dibujo i lavado................................ 2
-2. Química Jeneral................................ 4
-3. Física........................................ 4
-4. Depurados..................................... 4
-5. Idiomas....................................... 3
-                                                ___
-                                                17
+| | |
+| :--- | :--- |
+| 1. Dibujo i lavado.............................................. | 2 |
+| 2. Química Jeneral............................................ | 4 |
+| 3. Física........................................................... | 4 |
+| 4. Depurados.................................................... | 4 |
+| 5. Idiomas........................................................ | 3 |
+| | --- |
+| | 17 |
 
-Se acordó igualmente declarar que, para matricularse como
-alumno en el primer año del Curso de Injeniería, mientras esté
-en vijencia el nuevo plan de estudios en 6 años, bastará estar
-en posesion del título de Bachiller en Humanidades.
-3.º) De dos comunicaciones de la Facultad de Matemáticas.
-Con la primera remite un proyecto de presupuestos para el Ob-
-servatorio Astronómico; i en la segunda, pide que se suprima
-el puesto del astrónomo encargado de cuidar un anteojo meri-
-diano i un ecuatorial que aun quedan en las instalaciones que
-tuvo el Observatorio en la Quinta Normal de Agricultura, e
-insinúa la conveniencia de que dicho empleado pase a prestar
-sus servicios en el Estado Mayor del Ejército, el cual podría
-dedicarlo a las observaciones destinadas al cálculo de la varia-
-cion de la latitud.
+Se acordó igualmente declarar que, para matricularse como alumno en el primer año del Curso de Injeniería, miéntras esté en vijencia el nuevo plan de estudios en 6 años, bastará estar en posesion del título de Bachiller en Humanidades.
+
+3.º) De dos comunicaciones de la Facultad de Matemáticas. Con la primera remite un proyecto de presupuestos para el Observatorio Astronómico; i en la segunda, pide que se suprima el puesto del astrónomo encargado de cuidar un anteojo meridiano i un ecuatorial que aun quedan en las instalaciones que tuvo el Observatorio en la Quinta Normal de Agricultura, e insinúa la conveniencia de que dicho empleado pase a prestar sus servicios en el Estado Mayor del Ejército, el cual podria dedicarlo a las observaciones destinadas al cálculo de la variacion de la latitud.
+
 Se aprobó el Proyecto de Presupuestos para el Observatorio
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-None.
+
+The entire page is legible and there are no uncertain readings.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and simple tabular layouts without any significant images, illustrations, or other visual elements that would warrant cropping."
+}
 ```
 
 # Page 38
@@ -1310,58 +1316,45 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-
-- **Page number**: 42
-- **Image number**: 42
-- **Source language**: es
-- **Document title**: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-- **Document page number**: 328
+Page number: 42
 
 ## Layout And Reading Order
 
-The page is laid out in a single column. The reading order is from top to bottom.
-
-1.  A header at the top of the page contains the page number "328" on the left and the title "BOLETIN DE INSTRUCCION PÚBLICA" on the right, separated by a horizontal rule.
-2.  A centered title: "1.er AÑO DE INJENIERÍA.—(Provisorio)".
-3.  A centered two-line subtitle: "PROYECTO DE DISTRIBUCION DE TIEMPO SEGUN EL NUEVO PRO-GRAMA DE ESTUDIOS EN 6 AÑOS".
-4.  A section detailing the curriculum for the first year of engineering, divided into "Clases" and "EJERCICIOS". This section is formatted as a two-column list, with the course/exercise on the left and the weekly hours ("Horas semanales") on the right. Each subsection has a subtotal of hours.
-5.  A letter addressed to the Rector, dated "Santiago, 30 de Setiembre de 1918." The letter continues onto the next page.
+The page features a header with a page number and publication title. Below this, there is a main section detailing a curriculum for the first year of engineering, divided into "Clases" and "EJERCICIOS," each with a list of subjects and corresponding weekly hours, presented in a two-column, table-like format. A total for hours is provided for each section. Following this, there is a date and a formal address to "Señor Rector," which introduces a paragraph of text that appears to be cut off at the bottom of the page.
 
 ## Literal Transcription
 
-```text
 328 BOLETIN DE INSTRUCCION PÚBLICA
-___
-
-1.er AÑO DE INJENIERÍA.—(Provisorio)
+—
+1.er AÑO DE INGENIERÍA.—(Provisorio)
 
 PROYECTO DE DISTRIBUCION DE TIEMPO SEGUN EL NUEVO PRO-
 GRAMA DE ESTUDIOS EN 6 AÑOS
 
-Clases                                       Horas sema-
-                                                   nales
-1. Jeometría del Espacio i Jeometría Descriptiva......     4
+Clases Horas sema-
+nales
+1. Jeometría del Espacio i Jeometría Descriptiva..... 4
 2. Complementos de Jeometría plana i Aljebra, con
-   nociones de Aljebra Superior.....................     4
+nociones de Aljebra Superior.................... 4
 3. Trigonometría plana i esférica i Jeometría Ana-
-   lítica.........................................     5
-4. Cosmografía......................................     2
-5. Física...........................................     3
-6. Química Jeneral..................................     3
-                                                   ----
-                                                     21
+lítica.......................................... 5
+4. Cosmografía.................................. 2
+5. Física....................................... 3
+6. Química Jeneral............................... 3
+—
+21
 
 EJERCICIOS:
 
-1. Dibujo i lavado..................................     2
-2. Química Jeneral.................................     4
-3. Física...........................................     4
-4. Depurados.......................................     4
-5. Idiomas.........................................     3
-                                                   ----
-                                                     17
+1. Dibujo i lavado............................... 2
+2. Química Jeneral............................... 4
+3. Física....................................... 4
+4. Depurados.................................... 4
+5. Idiomas...................................... 3
+—
+17
 
-          Santiago, 30 de Setiembre de 1918.
+Santiago, 30 de Setiembre de 1918.
 
 Señor Rector:
 
@@ -1370,28 +1363,20 @@ cultad de Matemáticas, un informe de la Comision que atiende
 los asuntos relacionados con el Observatorio Astronómico. Se
 refiere este informe al presupuesto de gastos del establecimien-
 to para 1919 i al plan de construccion de obras en el mismo.
-   Sobre el primero, la Facultad ha acordado solicitar la apro-
-```
+Sobre el primero, la Facultad ha acordado solicitar la apro-
 
 ## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page. The page consists entirely of printed text.
+There are no images or substantial visual elements on this page.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible parts of this page.
+None.
 
 ## Completeness Audit
-
-This page is fully transcribed.
+The transcription is complete for all visible text on the page. The last paragraph of text is cut off at the bottom of the page, as indicated by the incomplete word "apro-".
 
 ## Visual Region Manifest
-
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and simple formatting, with no images, illustrations, or other significant visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial images or visual elements are present on this page."}
 ```
 
 # Page 43

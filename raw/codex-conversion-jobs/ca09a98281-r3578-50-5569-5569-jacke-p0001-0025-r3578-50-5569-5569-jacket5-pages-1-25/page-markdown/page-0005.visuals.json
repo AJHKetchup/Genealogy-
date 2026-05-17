@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T14:22:56Z",
+  "created": "2026-05-17T15:26:15Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
@@ -9,38 +9,15 @@
   "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-images/page-0005.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-markdown/page-0005.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [
+  "visual_regions": [],
+  "skipped_regions": [
     {
-      "region_id": "vr1",
-      "kind": "illustration",
+      "region_id": "seal-of-the-department-of-state",
+      "kind": "seal",
+      "reason": "low_value_visual_region_not_saved",
       "caption_literal": "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *",
-      "caption_type": "source-caption",
-      "identity_basis": "label",
-      "source_context": "The seal is located in the center of the page, below the main text block and above the publisher information.",
-      "confidence": "high",
-      "inline_anchor": "<vr1>",
-      "bbox_pct": [
-        38.2,
-        53.5,
-        61.8,
-        67.2
-      ],
-      "bbox_pixels": [
-        343,
-        728,
-        565,
-        923
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-department-of-state.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-department-of-state.png",
-      "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-images/page-0005.jpg",
-      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
-      "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
-      "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json",
-      "page": 5,
-      "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/page-markdown/page-0005.md"
+      "source_context": "page"
     }
   ],
-  "skipped_regions": [],
   "flags": []
 }

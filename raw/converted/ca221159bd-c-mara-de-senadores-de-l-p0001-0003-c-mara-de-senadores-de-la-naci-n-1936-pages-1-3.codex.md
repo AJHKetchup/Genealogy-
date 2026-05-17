@@ -9,26 +9,26 @@
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images`
 
 ## Page Metadata
-This is the first page of the document. There is no printed page number.
+This page is mostly blank, containing only a handwritten alphanumeric code in the upper right quadrant.
 
 ## Layout And Reading Order
-The page is largely blank. A handwritten alphanumeric note appears in the top right quadrant of the page.
+The page contains a single handwritten note positioned towards the top right.
 
 ## Literal Transcription
-COL16 S^bis / 147 / 4
+COL16<sup>bis</sup> 147 / 4
 
 ## Images, Captions, And Visual Notes
-The only content on the page is a handwritten alphanumeric note in the top right corner, likely a filing or cataloging mark.
+There are no images or captions on this page. The only visual content is a handwritten alphanumeric code.
 
 ## Uncertain Or Illegible
-None.
+No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete and includes all visible content on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank, with only a handwritten alphanumeric note that does not warrant a separate crop box."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small handwritten note, which is transcribed directly in the 'Literal Transcription' section. No substantial visual elements requiring cropping are present."}
 ```
 
 ## Page Metadata

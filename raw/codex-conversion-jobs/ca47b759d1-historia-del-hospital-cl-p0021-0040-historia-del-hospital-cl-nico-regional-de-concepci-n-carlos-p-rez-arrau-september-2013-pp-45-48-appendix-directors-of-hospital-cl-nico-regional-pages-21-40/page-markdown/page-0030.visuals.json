@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T14:23:36Z",
+  "created": "2026-05-17T15:26:34Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -13,10 +13,10 @@
   "skipped_regions": [
     {
       "region_id": "vr_1",
-      "kind": "source_meaningful_diagram_chart",
+      "kind": "advertisement",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "CLINICA\nDEL\nHOSPICIO\nAvenida Victor Lamas 948.\nTeléfonos: 443 y 1038\nESTABLECIMIENTO DE\nBENEFICENCIA A DISPO-\nSICION DE TODOS LOS\nSEÑORES MEDICOS\nDirector: Luis Urrutia Man-\nzano.\nMédico Jefe: Doctor E.\nGonzález Pastor.\nMEDICOS DE PLANTA:\nDr. O. Wilhelm.\nDr. H. Maguire.\nDr. R. Caddeu.\nDr. C. Ferreira.\n\nRAYOS X\n\nINSTALACION PODEROSA\nY MODERNA\nRADIOSCOPIA (exámenes).\nRADIOGRAFIAS, RADIO-\nTERAPIA (tratamiento por\nRayos X).\nDIATERMIA: Regulación\ncompleta.\nENDOSCOPIA: exámenes es-\npeciales (cateterismo del ri-\nñón, etc.).\nFOTOTERAPIA: Lámparas\nultravioletas, Sollux, etc.\nLABORATORIO DIAGNOS-\nTICO DEL CANCER: a car-\ngo del Dr. O. Wilhelm.\nCastilla 797. O'Higgins 777.",
-      "source_context": "This is a framed advertisement or directory listing for a clinic, detailing its services and staff."
+      "caption_literal": "CLINICA\nDEL\nHOSPICIO\nAvenida Victor Lamas 948.\nTeléfonos: 443 y 1038\nESTABLECIMIENTO DE\nBENEFICENCIA A DISPO-\nSICION DE TODOS LOS\nSEÑORES MEDICOS.\nDirector: Luis Urrutia Man-\nzano.\nMédico Jefe: Doctor E.\nGonzález Pastor.\nMEDICOS DE PLANTA:\nDr. O. Wilhelm.\nDr. H. Maguire.\nDr. R. Caddeu.\nDr. C. Ferreira.\n\nRAYOS X\n\nINSTALACION PODEROSA\nY MODERNA\nRADIOSCOPIA (exámenes).\nRADIOGRAFIAS. RADIO-\nTERAPIA (tratamiento por\nRayos X).\nDIATERMIA: coagulación\ncompleta.\nENDOSCOPIA: exámenes es-\npeciales (cateterismo del ri-\nñón, etc.).\nFOTOTERAPIA: lámparas\nultravioletas, Sollux, etc.\nLABORATORIO DIAGNOS-\nTICO DEL CANCER: a car-\ngo del Dr. O. Wilhelm.\nCasilla 197. O'Higgins 717.",
+      "source_context": "This is a framed advertisement or listing for the 'CLINICA DEL HOSPICIO' detailing its services and staff."
     }
   ],
   "flags": []

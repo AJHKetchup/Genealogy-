@@ -197,16 +197,18 @@ All visible text and images on the page have been transcribed and described. The
 Page number: 6
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.
+
+The page consists of a single column of typewritten text, with a header at the top and a handwritten page number and continuation note at the bottom. The text is organized into three main sections, each with a heading.
 
 ## Literal Transcription
+
 NUMERO GIGANTE ENERO - - FEBRERO EL AGUILA
 ___
 ACTIVIDADES
 ___
 LA COSECHA
 ___
-ESTE AÑO CONSTITUYÓ UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
+ESTE AÑO CONSTITUYO UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
 AUTOMOTRIS DE LA CORPORACION DE FOMENTO YA QUE EN OTROS AÑOS SE HABIA
 CORTADO A MANO EL TRIGO Y TRILLADO EN UNA MAQUINA TRILLADORA ESTACIONADA
 AUNQUE EL TRIGO ERA POCO SE ENPLEARON 25 HORAS A 3500 PESOS LA HORA.
@@ -215,12 +217,12 @@ A LAS 2 DE LA TARDE TAMBIEN EL DIA 28 DE 9 A '8 DE LA TARDE Y FINALI
 RON EL DIA 29 EN LA TARDE.
 ___
 LA MADERA Y EL ASERRABERO
-XXXXXXXXXXXXXX
+XXXXXXXXXXXXX
 EN EL FUNDO LOS CUARTOS HAY GRANDES CANTIDADES DE TERRENO PLANTADAS
-DE PINO; ES ASI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
-POCOS; SE CALCULA QUE SALDRAN 50.000 PULGADAS
+DE PINO, ES SSI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
+POCOS, SE CALCULA QUE SALDRAN 50.000 PILGADAS
 AL LLEGAR NOSOTROS AL FUNDO, YA HOMBRES ESPECIALISADOS HABIAN VOLTEADO
-TODO LOS PINOS QUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
+TODO LOS PINOS QQUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
 A PETROLEO LOS LLEVABA AL LUGAR DONDE ESTARIA EL ASERRADERO LUEGO UN
 DIA SE TRANSLADO AL FUNDO EL ASERRADERO DE PROPIEDAD DE LA INDUSTRIA
 MADERERA TELLERY Y CIA Y RAPIDAMENTE SURGIERON LAS COSAS DE LOS
@@ -228,21 +230,22 @@ OBREROS QUE PRONTO ENPESARON A TRABAJAR. SE ESPERA QUE SE TERMINARA
 DE ASERRAR A FINES DE MARZO.
 ___
 LA ELECTRICIDAD
+___
 DESPUES DE GRANDES DISCUSIONES LA ENDESA PROSEDIO A
 CONSTRUIR LA LINEA QUE ABASTECERIA A SANTA BARBARA POR SAN CARLOS. LA
 ENDESA ENTREGO LA LINEA U A UN CONTRATISTA, EL SR GRANIFO, INGENIRERO EN
 SANTIAGO Y EN LOS ANGELES OTRO ESPECIALISADO, UN TOPOGRAFO MARCO LA LINEA
+
 6
 Continua a página 11
 
 ## Images, Captions, And Visual Notes
-- A handwritten page number "6" is present at the bottom left of the page.
-- A handwritten note "Continua a página 11" (Continues on page 11) is present at the bottom center of the page.
+
+- A handwritten page number "6" is present at the bottom left of the page, in red ink.
+- A handwritten note "Continua a página 11" is present at the bottom center of the page, in blue ink.
 
 ## Uncertain Or Illegible
-- "3500" could potentially be "35oo" due to the font style, but "3500" is a more plausible numerical value.
-- "TRILLAR" is clear in context, but the 'LL' could be misread as 'T?'.
-- "MARCO" could have an accent mark (Marcó), but it's not clearly visible.
+None.
 
 ## Completeness Audit
 All visible text and significant handwritten notes on the page have been transcribed.
@@ -252,24 +255,24 @@ All visible text and significant handwritten notes on the page have been transcr
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
-      "kind": "text",
-      "bbox_pct": [89.9, 14.9, 93.0, 19.0],
+      "region_id": "vr_1",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [10.0, 80.0, 15.0, 85.0],
       "caption_literal": "6",
       "caption_type": "converter-description",
-      "identity_basis": "converter-identified",
-      "source_context": "Handwritten page number.",
+      "identity_basis": null,
+      "source_context": "Handwritten page number at the bottom left.",
       "confidence": 0.95,
       "suggested_filename": "page_number_6"
     },
     {
-      "region_id": "region_2",
-      "kind": "text",
-      "bbox_pct": [90.0, 36.0, 93.0, 64.0],
+      "region_id": "vr_2",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [30.0, 80.0, 60.0, 85.0],
       "caption_literal": "Continua a página 11",
       "caption_type": "converter-description",
-      "identity_basis": "converter-identified",
-      "source_context": "Handwritten continuation note.",
+      "identity_basis": null,
+      "source_context": "Handwritten continuation note at the bottom center.",
       "confidence": 0.95,
       "suggested_filename": "continuation_note_page_11"
     }
@@ -542,13 +545,12 @@ The page is fully transcribed and all visual elements are described.
 
 ## Page Metadata
 Page number: 11
-Original document name: El Aguila Nombre Grande
-Original document page number: 11
 
 ## Layout And Reading Order
-The page consists of a main body of text presented in a single column. There are two header lines at the top, separated by a horizontal rule. Another horizontal rule separates a section title from the main text body. A handwritten note and page number are present at the bottom.
+The page consists of a single column of typewritten text, with a header at the top and two handwritten notes at the bottom. The text is divided into three main sections, separated by blank lines and a horizontal rule for the first section.
 
 ## Literal Transcription
+
 ERO GIGANTE ENERO FEBRERO EL AGUILA
 ---
 CONYINUACIO N DE ACTIVIDADES,
@@ -556,109 +558,180 @@ Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
 REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
 EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
 ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOS HOYOS
--QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
+QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
 COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
 LLEVO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
 NOS EXPLICO QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
 DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
-COLOCARION LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
-ELECTRICIDAD.
-LA ELECRISIDAD EN LOS CANPOS.
-LA ELECTRICIDAD PRESTA GRANDES USOS A LOS AGRICULTORES YA SEA EN SUS
+COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
+ELECTRISIDAD.
+LA ELECRISIDAD EN LOS CAMPOS.
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGRICULTORES YA SEA EN SUS
 CASA COMO EN LAS FAENAS MULTIPLES QUE SE PUEDEN REALISAR CON LA
-ELECTRICIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
-MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRICIDAD
+ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
+MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRISIDAD
 SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
 PODRA DAR LA LUZ.a
 ---
 LA LECHE Y LA CHIPRODAL
 EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRICA
 DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
-MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIONES
 NES QUE VIENEN DE TODAS PARTES CARGADOS CON LECHE. SE ACERCAN A UNA
-PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI DE CORRE
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI. DE CORRE
 SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
 EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
 Sigue Pag 12
 11
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. The horizontal lines are decorative rules separating sections of text. The numbers "11" and "12" and the text "Sigue Pag" are handwritten.
+- A handwritten note "Sigue Pag 12" appears at the bottom left of the page.
+- A handwritten page number "11" appears at the bottom right of the page.
 
 ## Uncertain Or Illegible
-No text is illegible. Some words appear to be misspelled in the original source, but they are transcribed as they appear.
+The following words appear to be misspellings or abbreviations in the original document, but have been transcribed literally:
+- "CONYINUACIO" (likely "CONTINUACION")
+- "PROBEDIO" (likely "PROCEDIO")
+- "CUADRUILLA" (likely "CUADRILLA")
+- "ENPRESA" (likely "EMPRESA")
+- "CAMARON" (unclear, possibly "REMOLQUE" or similar)
+- "PROSEDERI" (likely "PROCEDERIAN")
+- "DEND" (likely "DENTRO")
+- "ESPECIALISAD" (likely "ESPECIALIZADOS")
+- "COLOCARION" (likely "COLOCARAN")
+- "LOAS" (likely "LOS")
+- "ELECTRISIDAD" (likely "ELECTRICIDAD", appears multiple times)
+- "ELECRISIDAD" (likely "ELECTRICIDAD", appears once)
+- "REALISAR" (likely "REALIZAR")
+- "OPTUVO" (likely "OBTUVO")
+- "QUISAS" (likely "QUIZAS")
+- "ENTRGA" (likely "ENTREGA")
+- "NESTRE" (possibly "NESTLE" or a similar brand name)
+- "CHOPRODAL" (likely "CHIPRODAL")
+- "SA" (unclear, possibly "SE")
+- "ESPECI." (likely "ESPECIE")
+- "CORRE" (likely "CORREA" or "CORREDERA")
+- "TUVERIAS" (likely "TUBERIAS")
 
 ## Completeness Audit
 All visible text and handwritten notes on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page. Decorative rules and handwritten page numbers/notes are transcribed in the literal transcription section."}
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "handwritten-note",
+      "bbox_pct": [10.0, 90.0, 29.0, 93.0],
+      "caption_literal": "Sigue Pag 12",
+      "caption_type": "source-field",
+      "identity_basis": null,
+      "source_context": "Handwritten note at the bottom left of the page.",
+      "confidence": 0.95,
+      "suggested_filename": "handwritten_note_sigue_pag_12.png",
+      "inline_anchor": "Sigue Pag 12"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "handwritten-page-number",
+      "bbox_pct": [59.0, 90.0, 63.0, 93.0],
+      "caption_literal": "11",
+      "caption_type": "source-field",
+      "identity_basis": null,
+      "source_context": "Handwritten page number at the bottom right of the page.",
+      "confidence": 0.95,
+      "suggested_filename": "handwritten_page_number_11.png",
+      "inline_anchor": "11"
+    }
+  ]
+}
 ```
 
 ## Page Metadata
-Page number: 12
+- Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0012`
+- Model route: `pro`
+- Route reasons: simple_page, prior_max_tokens
+- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/work-orders/page-0012.md`
+- Page: 12
+- Output Markdown target: `raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0012.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `gemini_fallback`
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
+The page consists of a single column of typed text. The reading order is from top to bottom.
 
-The page contains text in a single column, resembling a typed document. There's a header, followed by two main paragraphs describing industrial processes (canning and baking), and a footer. A handwritten page number is present at the bottom right.
+1.  A header line at the top of the page.
+2.  A paragraph describing the process of making condensed milk.
+3.  A section titled "LA FABRICA DE TARROS" (The Can Factory), which includes a short horizontal rule and some stray characters, followed by a paragraph describing the can-making process.
+4.  A section titled "LA PANADERIA MODERNA" (The Modern Bakery), followed by a paragraph describing the bakery's process.
+5.  A short horizontal rule.
+6.  A centered line at the bottom: "CRONICAS POR EL PERIODISTA x".
+7.  A handwritten page number "12" at the bottom center of the page.
 
 ## Literal Transcription
-
-ERO GIGANTE
-ENERO FEBRERO EL AGUILA
+```text
+ERO GIGANTE ENERO FEBRERO EL AGUILA
 ---
+
 LEVAN A ENORMES TANBRES, LUEGO DE ESTOS TAMBORES PASA A OTROS TAMBORES
-ONDE HIERVE POR TIENPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
-ONDE SE ENFRIA LUEGO SE LE ECHA ALMÍBAR Y SE REVUELVE DESPUES PASA
+DONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
+DONDE SE ENFRIA LUEGO SE LE ECHA ALMÍBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
-YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
-CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
-PARA NO LLEVAR MICROVIOS. LOS TARROS SON HECHOS DE LATA HAY MISMO
-. LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
+YA PREPARADA. LOS TARROS ANTES DE SER LLEBADoS SON DESINFECTADOS POR
+CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
+PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAI MISMO
+. LOS TARROS SONTL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
 LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
 LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO.
+
 LA FABRICA DE TARROS
 6Y
 LSAS
+---
 LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
-PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
+PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA POME UNA TAPA LA DE ABAJO
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXHAX DE AHI A
 LLENARSE
+---
+
 LA PANADERIA MODERNA.
-LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
-QUIEN NOS ENSENO SU PANADERIA; UNA MAQUINA REVUELVE EL PANAN U LUEGO
-OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
+LA ENPRESA VISITÓ LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
+QUIEN NOS ENSEÑO SU PANADERIA; UNA MAQUINA REVUELVE EL PANAN U LUEGO
+OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MÁQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
 ---
+
 CRONICAS POR EL PERIODISTA x
 
+12
+```
+
 ## Images, Captions, And Visual Notes
-A handwritten number "12" is present at the bottom right corner of the page.
+The page contains only typed text. At the bottom center, the page number "12" is handwritten in red ink.
 
 ## Uncertain Or Illegible
-- "DETERM NADO": Could be "DETERMINADO" with a space or typo.
-- "LLECCHE": Likely a misspelling of "LECHE".
-- "SONL": Likely a misspelling of "SON".
-- "TODAD": Likely a misspelling of "TODA".
-- "6Y": Appears to be "6Y", possibly a page or section marker, or a typo.
-- "LSAS": Appears to be "LSAS", possibly an abbreviation or typo.
-- "PEDASOS": Likely a misspelling of "PEDAZOS".
-- "DEXHXX": The last three letters are very unclear, possibly "DEXHAY" or similar, but "DEXHXX" represents the most plausible visual interpretation of the characters.
-- "ENPRESA": Likely a misspelling of "EMPRESA".
-- "PANADERIS": Likely a misspelling of "PANADERIA".
-- "PANAN": Could be "PAN" or "MASA" or similar, but "PANAN" is the most direct reading.
-- "FESJA": Likely a misspelling of "FRANJA" or "REBANADA" or similar, but "FESJA" is the most direct reading.
-- "ENREGA": Likely a misspelling of "ENTREGA".
+- `DEXHAX`: This word is clearly typed but its meaning is obscure. It may be a significant typo.
 
 ## Completeness Audit
-All visible text and the handwritten page number have been transcribed.
+This page has been fully transcribed. All text, including headers, body content, and the handwritten page number, has been captured.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the transcription and visual notes."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and a handwritten page number, with no significant images, illustrations, or complex visual elements that would warrant cropping."
+}
+```
 
 ## Page Metadata
 - Page number: 13
@@ -755,25 +828,26 @@ This page has been fully transcribed. All text, including the glued-on calendar,
 ```
 
 ## Page Metadata
-Page 14
+Page number: 14
 
 ## Layout And Reading Order
-The page contains a single column of typed text, likely from a newspaper or magazine article, with a header across the top. Below the main article, there is a short section of promotional text. Several handwritten annotations are present on the page, including a large title, a page number, and a name.
+The page contains a single column of typewritten text in Spanish. At the top, there are several headers: "MERO GIGANTE", "ENERO", "FEBRERO", and "EL AGUILA", separated by horizontal lines. Below these headers, the main body of text begins with "ESCRIBE EL DIRECTOR" and continues with a detailed description of a property called "EL FUNDO LOS CUARTOS". Towards the bottom of the page, there is a concluding block of text related to the publisher "EL AGUILA". Several handwritten annotations in red ink are present at the bottom of the page, including a large, faint "EL AGUILA", the page number "14", and a name "JR DARIO PULGARA".
 
 ## Literal Transcription
-MERO GIGANTE ENERO FEBRERO EL AGUILA
----
+MERO GIGANTE
+ENERO FEBRERO EL AGUILA
+___
 ESCRIBE EL DIRECTOR
 EL FUNDO LOS CUARTOS
 EL FUNDO LOS CUARTOS PERTENECE COMO YA SE SABE AL DR DARIO PULGAR A,
 DISTINGUIDO FACULTATIVO DE CONCEPCION QUIEN HEREDO´ DE SUS PADRES ESTE
-FUNDO ALLA POR EL AÑO 1917 SE CONPONIA SOLAMENTE DE 300 HECTAREAS QUE
-SIRVIERON PARA AGRANDAR SU FUNDO AL CONPRAR 300 MAS Y JUNTAS FORMARON LA
+FUNDO ALLA POR EL AÑO 1917 SE COMPONIA SOLAMENTE DE 300 HECTAREAS QUE
+SIRVIERON PARA AGRANDAR SU FUNDO AL COMPRAR 300 MAS Y JUNTAS FORMARON LA
 SUPERFICIE ACTUAL DE 600 HECTAREAS.
 ESTA UBICADO EN LA PROVINCIA DE BIO-BIO A 22 KILOMETROS DE LA CUIDAD
 DE LOS ANGELES, EN EL CAMINO DE SAN CARLOS DE PUREN A SANTA BARBARA;
 DESLINDA AL SUR CON EL RIO BIO-BIO AL NOTE CON EL RIO DUQUILCO OESTE
-CON EL FUNDO " NATALIA " Y AL ESTE CON LOS"FUNDOS"SANTA INES"Y " LAS
+CON EL FUNDO " NATALIA " Y AL ESTE CON LOS "FUNDOS" SANTA INES"Y " LAS
 GARZAS " EXSISTEN PLANTACIONES DE PINOS QUE ACTUALMENTE SE EXPLOTAN ./
 DESDE EL AÑO 1938 SE RIEGA PARTE CON LAS AGUAS DEL CANAL BIO BIO
 NORTE /
@@ -785,52 +859,99 @@ CONCRETO. EN FUNDO TAMBIEN CONSTA CON BODEGAS Y GADPONES TAMBIEN DE CO
 NCRETO ../
 DENTRO DE POCO EL FUNDO CONSTARA CON LUS WLECTRICA DEL ABANICO EL
 PORVENIR DE ESTE FUNDO SON LOS PINOS Y LA LECHERIA.
----
+___
 EL PERIODICO DE LA EMPRESA EDITORA
 EL AGUILA
-
 HAGASE LECTOR
-
 ESCRIBA A NUESTRA EMPRESA O
 PONGASE EN CONTACTO CON NUESTRO AGENTE PARA TODO
 CHILE
 JR DARIO PULGARA
 
-[Handwritten, large, red ink, vertically oriented on left side of page:]
-EL AGUILA
-
-[Handwritten, red ink, bottom center:]
-14
-
 ## Images, Captions, And Visual Notes
-- A large, handwritten title "EL AGUILA" is written vertically in red ink along the left margin of the page.
-- The page number "14" is handwritten in red ink at the bottom center of the page.
-- The name "JR DARIO PULGARA" is handwritten in red ink below the promotional text at the bottom right of the page.
-- There are several small handwritten checkmarks or slashes in the typed text, indicating corrections or emphasis. These are transcribed as `/` or `.` where they appear to be part of the text flow.
+A large, faint, handwritten "EL AGUILA" in red ink is visible in the lower left quadrant of the page, partially obscured by the printed text and the handwritten page number.
+The page number "14" is handwritten in red ink at the bottom left.
+A handwritten name "JR DARIO PULGARA" in red ink is present at the bottom right of the page.
 
 ## Uncertain Or Illegible
-- "CONPONIA" might be "COMPONIA" (a common misspelling).
-- "CUIDAD" might be "CIUDAD" (a common misspelling).
-- "WLECTRICA" might be "ELECTRICA" (a common misspelling).
-- "GADPONES" might be "GALPONES" (a common misspelling).
+- "HEREDO´": The accent mark is present but slightly faded.
+- "LUS WLECTRICA": This appears to be a literal transcription, possibly a typo for "LUZ ELÉCTRICA".
+- "GADPONES": This appears to be a literal transcription, possibly a typo for "GALPONES".
 
 ## Completeness Audit
-All visible text and handwritten annotations have been transcribed.
+All visible text and handwritten annotations on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were identified. Handwritten notes and marks are transcribed in the text and described in visual notes."}
+{
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [
+        10.0,
+        55.0,
+        60.0,
+        70.0
+      ],
+      "caption_literal": "EL AGUILA",
+      "caption_type": "converter-description",
+      "identity_basis": "literal-text",
+      "source_context": "Faint, large, handwritten text in red ink, partially obscured.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_el_aguila_faint.png",
+      "inline_anchor": "A large, faint, handwritten \"EL AGUILA\" in red ink is visible"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [
+        20.0,
+        90.0,
+        25.0,
+        92.0
+      ],
+      "caption_literal": "14",
+      "caption_type": "converter-description",
+      "identity_basis": "literal-text",
+      "source_context": "Handwritten page number in red ink.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_page_number_14.png",
+      "inline_anchor": "The page number \"14\" is handwritten in red ink"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [
+        55.0,
+        95.0,
+        75.0,
+        97.0
+      ],
+      "caption_literal": "JR DARIO PULGARA",
+      "caption_type": "converter-description",
+      "identity_basis": "literal-text",
+      "source_context": "Handwritten name in red ink.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_name_jr_dario_pulgar_a.png",
+      "inline_anchor": "A handwritten name \"JR DARIO PULGARA\" in red ink is present"
+    }
+  ]
+}
 ```
 
 ## Page Metadata
 Page number: 15
+Source publication: El Aguila Nombre Grande
+Publication date: Enero Febrero 1956
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, resembling a newspaper or magazine article. There is a main header at the top, followed by three distinct text blocks, likely separate news items or paragraphs. A handwritten page number "15" is present at the bottom center.
+The page consists of a single column of text, with a header at the top, followed by three distinct articles, and a handwritten page number at the bottom. A horizontal line separates the header from the main content.
 
 ## Literal Transcription
 NUMERO GIGANTE
 EL " AGUILA " ENERO FEBRERO 1956
+---
 CENDIO " LE TOCO A LOS FERROCARRILES "
 SABADO 25 DE FEBRERO SE PRODUJO UN INCENDIO DE GRANDES PROPORCIONES.
 TRATA DE NUESTRO ANTIGUO EDIFICIO DE LA ESTACION DE FERROCARRILES
@@ -840,21 +961,22 @@ ON LA AYUDA DE LOS BOMBEROS QUE LLEGARON OPORTUNAMENTE Y DEL PERSONAL
 FERROCARRILES , SE PUDO SALVAR EL EQUIPAJE , TELEFONOS , TWLEGRAFO
 FELIZMENTE NO HUBO DESGRACIAS PERSONALES QUE LAMENTAR.
 
-"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS ""
+"" LOS INCENDIOS Y TERREMOTOS , TRAEN EL PROGRESO A LOS PUEBLOS """
 ON LA DESTRUCCION DEL EDIFICIO DE LA ESTACION PODREMOS CONTAR A CORTO PLAS
-CON UN MODERNO Y CNFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
-UE CADA DIA ESTA TOMANDO MAS INPORTANCIA EN TODO ORDEN DE COSAS ASI LO
-SPERAMOS AUN QUE LA ENPRESA DE LOS FERROCARRILES SE ENCUENTRA AVOCADA A
-ARIOS CONPROMISOS QUE AFRONTAR DEBIDO A LA CONPLETA DESORGANISACION EN
-ODO ORDEN . DIOS QUIERA QUE ASI SEA Y QUE PRONTO TENGAMOS UN SERV IODO
+CON UN MODERNO Y CONFORTABLE EDIFICIO DIGNO DE LA CAPITAL DE " BIO-BIO "
+DE CADA DIA ESTA TOMANDO MAS IMPORTANCIA EN TODO ORDEN DE COSAS ASI LO
+SPERAMOS AUN QUE LA EMPRESA DE LOS FERROCARRILES SE ENCUENTRA AVOCADA A
+ARIOS COMPROMISOS QUE AFRONTAR DEBIDO A LA COMPLETA DESORGANISACION EN
+ODO ORDEN . DIOS QUIERA QUE ASI SEA Y QUE PRONTO TENGAMOS UN SERV ICIO
 ERROVIARIO COMO LO PIDE "CHILE""
-"" PINCHASO ""
+" PINCHASO ""
+
 ATASTROFE
 A PRINCIPIOS DE FEBRERO SE PRODUJO UNA CATASTROFE FERROVIARIA SIMILAR
 A LA DE SAN BERNARDO EL SALDO FUE 24 "MUERTOS " Y UN CENTENAR DE HERIDOS
 EN EL KILOMETRO 7 DEL FERROCARRIL A CARTAGENA SE ENCONTRABA DETENIDO
-UN CONVOY REPLETO DE NINOS QUE SE DIRIGIAN A APROVECHAR UN DIA DE SOL.
-ACOMPAÑADOS DE SUS PADRES UN DESPERFECTO DE LOS FRENOS INPIDIO CONTINUSR
+UN CONVOY REPLETO DE NIÑOS QUE SE DIRIGIAN A APROVECHAR UN DIA DE SOL.
+ACOMPAÑADOS DE SUS PADRES UN DESPERFECTO DE LOS FRENOS IMPIDIO CONTINUAR
 EL TREN A SU DESTINO HABIA UN INTERVALO DE 10 MINUTOS CON OTRO TREN EL
 QUE PRODUJO LA TRAGEDIA " DIJO EL DIRECTOR DE LOS FF CC ES UNA INDISCUTIBLE
 FALLA HUMANA . ESCRIBIO WIMO
@@ -862,21 +984,10 @@ FALLA HUMANA . ESCRIBIO WIMO
 15
 
 ## Images, Captions, And Visual Notes
-- A handwritten page number "15" is present at the bottom center of the page.
+- A handwritten number "15" is present at the bottom center of the page, indicating the page number.
 
 ## Uncertain Or Illegible
-- "INFLAMACION" is transcribed as seen, though the 'FL' combination is somewhat compressed.
-- "CNFORTABLE" is transcribed as seen, likely a typo for "CONFORTABLE".
-- "INPORTANCIA" is transcribed as seen, likely a typo for "IMPORTANCIA".
-- "ENPRESA" is transcribed as seen, likely a typo for "EMPRESA".
-- "CONPROMISOS" is transcribed as seen, likely a typo for "COMPROMISOS".
-- "CONPLETA" is transcribed as seen, likely a typo for "COMPLETA".
-- "DESORGANISACION" is transcribed as seen, likely an older spelling or typo for "DESORGANIZACION".
-- "SERV IODO" is transcribed as seen, likely a typo for "SERVICIO".
-- "TWLEGRAFO" is transcribed as seen, likely a typo for "TELEGRAFO".
-- "NINOS" is transcribed as seen, missing the tilde for "NIÑOS".
-- "INPIDIO" is transcribed as seen, likely a typo for "IMPIDIO".
-- "CONTINUSR" is transcribed as seen, likely a typo for "CONTINUAR".
+None.
 
 ## Completeness Audit
 All visible text and the handwritten page number have been transcribed.
@@ -884,8 +995,19 @@ All visible text and the handwritten page number have been transcribed.
 ## Visual Region Manifest
 ```json
 {
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present. The handwritten page number is minor and described in the text."
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "number",
+      "bbox_pct": [49.9, 93.4, 54.2, 96.0],
+      "caption_literal": "15",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-supplied",
+      "source_context": "The handwritten page number at the bottom center of the page.",
+      "confidence": 5,
+      "suggested_filename": "page_number_15"
+    }
+  ]
 }
 ```
 
@@ -938,124 +1060,97 @@ The transcription is complete and accurate.
 ```
 
 ## Page Metadata
-
-- Page number: 17
-- Publication context: This page appears to be from a magazine or a scrapbook of clippings, detailing a mountaineering expedition.
-- Language: Spanish
+Page number: 17
 
 ## Layout And Reading Order
-
-The page is arranged vertically. At the top is a handwritten title. Below the title is a large photograph, followed by a two-line caption. Below the caption is a second, larger photograph that fills the rest of the page. The reading order is from top to bottom.
-
-1.  Handwritten title at the top margin.
-2.  Top photograph.
-3.  Caption for the top photograph.
-4.  Bottom photograph.
+The page features handwritten text at the top, followed by two large photographs stacked vertically. A single caption is placed between the two photographs, describing both.
 
 ## Literal Transcription
-
-[Handwritten title in red and blue pencil at the top of the page]
 EL "OJOS DEL SALADO"
 FUE ESCALADO
 
-[photo-1]
-
 LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-fueron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.
-
-[photo-2]
+[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.
 
 ## Images, Captions, And Visual Notes
-
 Pipeline-extracted visual crops:
 - ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
-fueron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [11.1, 10.1, 95.1, 52.0]
-  - Source context: A photograph showing five climbers on the summit of Ojos del Salado. The caption explains that a sixth climber took the photo.
-- ![converter-description: A photograph of a mountaineering expedition team in a high-altitude landscape, with a tent nearby.](../extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [10.9, 59.1, 95.1, 95.8]
-  - Source context: A photograph of a mountaineering expedition team in a high-altitude landscape, with a tent nearby.
+[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [69.0, 34.0, 96.0, 65.0]
+  - Source context: A group of five climbers on a rocky mountain peak.
+- ![source-caption: LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA
+[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.](../extracted-images/page-0017/page-0017-image-02-climbers-group-with-tent.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [69.0, 66.0, 96.0, 97.0]
+  - Source context: A group of nine climbers standing in a desolate landscape with a tent.
 
-- **Handwritten title:** A title written in colored pencil at the top of the page reads "EL 'OJOS DEL SALADO' FUE ESCALADO" ("The 'Ojos del Salado' was climbed"). "EL 'OJOS DEL SALADO'" is in red, and "FUE ESCALADO" is in blue.
-- **[photo-1]** A black and white photograph showing five mountaineers in heavy winter gear sitting among rocks on what appears to be a mountain summit.
-- **[photo-2]** A larger black and white photograph showing a group of at least nine mountaineers in full expedition gear, including goggles and face coverings, standing in a barren, high-altitude landscape. A small tent is visible on the right. In the background are snow-dusted mountains under a cloudy sky.
+The top of the page has handwritten text in two lines. The first line, in red/orange ink, reads "EL "OJOS DEL SALADO"". The second line, in blue ink, reads "FUE ESCALADO".
+
+Below the handwritten text is a black and white photograph showing five individuals in winter climbing gear, sitting on a rocky, possibly snow-covered mountain peak. The background is a hazy sky. This image is anchored by the inline anchor `[[image_001_top_climbers]]`.
+
+Below the first photograph is a printed caption in Spanish. It describes the achievement of reaching the summit of El Salado, the highest mountain in America. It notes that six people reached the summit, but only five are visible in the photo, as the sixth person took the picture.
+
+Below the caption is a second black and white photograph showing a group of nine individuals in winter climbing gear standing in a desolate, open landscape with mountains in the background. A small tent is visible on the right side of the image. This image is anchored by the inline anchor `[[image_002_group_and_tent]]`.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible readings on this page.
+- The beginning of the second line of the printed caption is partially obscured or cut off. It appears to start with "eron", likely part of "Fueron". The transcription reflects the visible characters: `[?]eron seis los que llegaron`.
 
 ## Completeness Audit
-
-This page has been transcribed in its entirety.
+All visible text and images on the page have been transcribed and described.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "photo-1",
+      "region_id": "image_001_top_climbers",
       "kind": "photograph",
-      "bbox_pct": [
-        11.1,
-        10.1,
-        95.1,
-        52.0
-      ],
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\nfueron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "bbox_pct": [69.0, 34.0, 96.0, 65.0],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\n[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
-      "identity_basis": "group",
-      "source_context": "A photograph showing five climbers on the summit of Ojos del Salado. The caption explains that a sixth climber took the photo.",
-      "confidence": "high",
-      "suggested_filename": "page-0017-photo-1.jpg",
-      "inline_anchor": "[photo-1]"
+      "identity_basis": null,
+      "source_context": "A group of five climbers on a rocky mountain peak.",
+      "confidence": 0.95,
+      "suggested_filename": "top_climbers_on_el_salado"
     },
     {
-      "region_id": "photo-2",
+      "region_id": "image_002_group_and_tent",
       "kind": "photograph",
-      "bbox_pct": [
-        10.9,
-        59.1,
-        95.1,
-        95.8
-      ],
-      "caption_literal": null,
-      "caption_type": "converter-description",
-      "identity_basis": "group",
-      "source_context": "A photograph of a mountaineering expedition team in a high-altitude landscape, with a tent nearby.",
-      "confidence": "high",
-      "suggested_filename": "page-0017-photo-2.jpg",
-      "inline_anchor": "[photo-2]"
+      "bbox_pct": [69.0, 66.0, 96.0, 97.0],
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\n[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "A group of nine climbers standing in a desolate landscape with a tent.",
+      "confidence": 0.95,
+      "suggested_filename": "climbers_group_with_tent"
     }
-  ],
-  "no_visual_regions_reason": null
+  ]
 }
 ```
 
 ## Page Metadata
-Page 18
+Page Number: 18
 
 ## Layout And Reading Order
-The page contains handwritten text in red ink, arranged vertically down the center of the page. The text appears to be a title or introductory information for a document or ledger.
+The page contains handwritten text in red ink, centered vertically and horizontally on an aged, discolored paper. The text appears to be a title or introductory information for a document or ledger.
 
 ## Literal Transcription
 1956
 ENERO
-FERRERO
-JUSTICIA / VERDAD
-EL AGUILA.
-_
+FERREIO
+JUSTICIA / VIERDAD
+EL AGUILA. _
 
 ## Images, Captions, And Visual Notes
-The entire page consists of handwritten text in red ink on aged, discolored paper. There are no distinct images or captions to crop. The word "AGUILA" is underlined.
+The entire page consists of handwritten text in red ink on aged paper. There are no distinct images or captions separate from the main text. The word "AGUILA" is underlined.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+- The word "FERREIO" could potentially be "FEBRERO" given the context of "ENERO" (January), but the handwritten characters strongly resemble "FERREIO".
+- The word "VIERDAD" could potentially be "VERDAD", but the handwritten characters clearly show an 'I' after the 'V'.
 
 ## Completeness Audit
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like photos, maps, or complex diagrams. The page contains only handwritten text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present; the page contains only handwritten text."}
 ```

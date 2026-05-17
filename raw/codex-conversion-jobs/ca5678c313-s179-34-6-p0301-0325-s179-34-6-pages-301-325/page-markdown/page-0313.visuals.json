@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T15:30:09Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+  "page": 313,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0313.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0313.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "Crest with crown, stars, and ship",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Part of the 'IMPERIAL HOTEL' letterhead.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        15.9,
+        16.9,
+        26.9,
+        25.9
+      ],
+      "bbox_pixels": [
+        142,
+        126,
+        250,
+        203
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0313/page-0313-image-01-imperial-hotel-crest.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0313/page-0313-image-01-imperial-hotel-crest.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0313.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+      "page": 313,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0313.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "CONCORDIA JUN 27 17 * 182",
+      "source_context": "Circular postmark in the top right."
+    }
+  ],
+  "flags": []
+}

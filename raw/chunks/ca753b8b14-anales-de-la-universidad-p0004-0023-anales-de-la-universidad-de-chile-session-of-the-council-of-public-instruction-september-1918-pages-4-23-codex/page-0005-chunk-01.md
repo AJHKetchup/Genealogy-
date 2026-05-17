@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6bddd74c8da7-P0005-01
+chunk_id: CHUNK-41302ef74381-P0005-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
-converted_sha256: 6bddd74c8da7e50f2ae359dc707a704de19ec773986f80e68a7e440d5fe23363
+converted_sha256: 41302ef743819eedc70385283ce939a7d056c86f7cf4e4121aa37a36ae8363c5
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
@@ -89,19 +89,19 @@ No interpretation was produced by the Docling basic conversion pass.
 Page number: 6
 
 ## Layout And Reading Order
-The page is entirely blank.
+The page is entirely blank, appearing to be a blank verso or recto page within the document. There is no text, images, or other content.
 
 ## Literal Transcription
 [The page is blank.]
 
 ## Images, Captions, And Visual Notes
-The page is blank and contains no images, captions, or other meaningful visual content.
+There are no images, captions, or visual notes on this page.
 
 ## Uncertain Or Illegible
-None. The page is blank.
+There is no content on this page to be uncertain or illegible.
 
 ## Completeness Audit
-The page is entirely blank. The transcription is complete and accurate.
+The page is completely blank. All visible content (or lack thereof) has been fully represented.
 
 ## Visual Region Manifest
 ```json

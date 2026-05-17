@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e615f7f24381-P0001-03
+chunk_id: CHUNK-3c649a654e47-P0001-03
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md
-converted_sha256: e615f7f24381a598ed9947b56ff79b9f5c3562515818f04e11490f252356adfc
+converted_sha256: 3c649a654e47f37485f2c58f11c3311fb266287797aade10ca65576f3186f00c
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json
@@ -10,6 +10,9 @@ page_start: 1
 page_end: 1
 part: 3
 ---
+
+## Layout And Reading Order
+The page contains a typewritten letter in Spanish, presented in a single column. The content includes a header, date, recipient address block, salutation, main body text with a numbered list, and a closing. The reading order is top-to-bottom, left-to-right.
 
 ## Literal Transcription
 SECCION DE INFORMACION
@@ -282,12 +285,3 @@ cette façon, il pourrait faire effacer le mécontentement
 qu'éventuellement le Gouvernement mexicain aurait provoqué
 à Washington par sa déclaration sur la doctrine de Monroe
 au moment d'entrer dans la Société des Nations.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page. Two circular binder holes are present on the left margin of the page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
