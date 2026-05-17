@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-150ad5e0b722-P0001-01
+chunk_id: CHUNK-ff99009970ca-P0001-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75.codex.md
-converted_sha256: 150ad5e0b722db8999950a1e65f2b074f7a3da3c8e9e8e03407a0ce0d575b0cf
+converted_sha256: ff99009970cac12ecd9c9f7d906fe90c6424753d62e2c8477e57a6d9d14455dc
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json
@@ -178,23 +178,24 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-Page number: 53
+N/A
 
 ## Layout And Reading Order
 
-The page is a light blue sheet with text centered vertically and horizontally. The text is enclosed by two horizontal lines, one above and one below. There is a small hole punch in the top right corner of the page.
+The page is a light blue, blank sheet with a centered block of text. The text block consists of two lines of text, "IMPRIMERIE" and "DU JOURNAL DE GENÈVE", framed by two horizontal rules—one above "IMPRIMERIE" and one below "DU JOURNAL DE GENÈVE". There is a hole punch in the top right corner of the page.
 
 ## Literal Transcription
 
 ```
+_______
 IMPRIMERIE
 DU JOURNAL DE GENÈVE
+_______
 ```
 
 ## Images, Captions, And Visual Notes
 
-- A small hole punch is visible in the top right corner of the page.
-- The text "IMPRIMERIE / DU JOURNAL DE GENÈVE" is centered on the page, with a horizontal line above "IMPRIMERIE" and another horizontal line below "DU JOURNAL DE GENÈVE".
+A circular hole punch is present in the top right corner of the page.
 
 ## Uncertain Or Illegible
 
@@ -202,12 +203,12 @@ None.
 
 ## Completeness Audit
 
-The transcription is complete and accurate.
+All visible text and significant visual elements have been transcribed or noted.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor marks (a hole punch and decorative lines) that do not warrant separate image crops. The text is fully transcribed."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual assets like portraits, maps, or diagrams. The hole punch is a minor mark and not suitable for a standalone crop."}
 ```
 
 ## Page Metadata

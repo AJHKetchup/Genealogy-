@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-17T13:49:23Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+  "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
+  "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225/manifest.json",
+  "page": 225,
+  "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225/page-images/page-0225.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225/page-markdown/page-0225.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "signature",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Le Secrétaire-Général\ndu Ministère des Affaires Etrangères des Pays-Bas\n[handwritten signature]",
+      "source_context": "The handwritten text identifies the signatory as 'Le Secrétaire-Général du Ministère des Affaires Etrangères des Pays-Bas'."
+    }
+  ],
+  "flags": []
+}

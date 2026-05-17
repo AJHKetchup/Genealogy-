@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:52Z",
+  "created": "2026-05-17T13:50:16Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_0",
+      "region_id": "region_1",
       "kind": "photograph",
-      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE\nRECONFORMA DESPUES DE HABER ESCALADO\nLA CUMBRE MAS ALTA DE AMERI DA",
+      "caption_literal": "( EN LA FOTO ) EL CAPITAN GAJARDO SE RECONFORMA DESPUES DE HABER ESCALADO LA CUMBRE MAS ALTA DE AMERI DA",
       "caption_type": "nearby-text",
       "identity_basis": "source-context",
-      "source_context": "The text explicitly identifies the person in the photo as Captain Gajardo.",
-      "confidence": "high",
-      "inline_anchor": "EL 5 DE FEBRERO 29 HOMBRES AL MANDO DEL CAPITAN GAJARDO",
+      "source_context": "El Capitan Gajardo",
+      "confidence": "0.9",
+      "inline_anchor": "",
       "bbox_pct": [
-        49.5,
-        15.0,
-        95.0,
-        55.0
+        59.0,
+        10.0,
+        94.0,
+        39.0
       ],
       "bbox_pixels": [
-        2330,
-        1075,
-        4484,
-        3962
+        2778,
+        716,
+        4437,
+        2810
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0009.md"
     },
     {
-      "region_id": "region_1",
+      "region_id": "region_2",
       "kind": "portrait",
-      "caption_literal": "Halftone portrait of a man, possibly a cleric, wearing a dark garment with a cross visible on his chest.",
+      "caption_literal": "",
       "caption_type": "converter-description",
-      "identity_basis": "visual-appearance",
-      "source_context": "No explicit caption or nearby text identifies the person in this image.",
-      "confidence": "high",
+      "identity_basis": "source-context",
+      "source_context": "Adjacent text mentions Fray Camilo Henriquez.",
+      "confidence": "0.7",
       "inline_anchor": "",
       "bbox_pct": [
-        5.0,
-        50.0,
-        45.0,
-        90.0
+        53.0,
+        39.0,
+        94.0,
+        45.0
       ],
       "bbox_pixels": [
-        232,
-        3594,
-        2126,
-        6480
+        2495,
+        2802,
+        4437,
+        3242
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-portrait-of-cleric.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-portrait-of-cleric.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-halftone-portrait-man-with-cross.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-halftone-portrait-man-with-cross.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0009.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",

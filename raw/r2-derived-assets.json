@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T13:41:18.773727+00:00",
+  "created": "2026-05-17T13:56:45.030065+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -52,6 +52,34 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-de-distancia.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-01-signal-de-distancia.png",
+      "bytes": 28458,
+      "sha256": "b427a2be3f87f3af54eaaa01c2f94740b512cd0096f7160b2f177e7d51f8cbc6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-senales-de-entrada-salida-o-avanzada.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-02-senales-de-entrada-salida-o-avanzada.png",
+      "bytes": 28301,
+      "sha256": "fde8bbafdf46060571cd3d32a7a808668cb5671f02f5bb935039eb66e985e535",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-senales-de-entrada-a-desvios.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-03-senales-de-entrada-a-desvios.png",
+      "bytes": 28784,
+      "sha256": "9a94b3130abb5f327373a0a2ce56957e06d17ba770117b7d1f4ed33ca7a967d5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-senales-de-maniobras.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0100/page-0100-image-04-senales-de-maniobras.png",
+      "bytes": 28989,
+      "sha256": "77e23b9fd6873d5a178dbe1258d1c25d73b14b018481cfb9f47d7527d7a06b65",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-diagram-signal-e.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-diagram-signal-e.png",
       "bytes": 23041,
@@ -66,10 +94,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-via-contraria.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-via-contraria.png",
+      "bytes": 29403,
+      "sha256": "9e43b8f4b31f1d4ccca17a91904bb85e508207670ca8df7d4086ec8e26787d79",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-diagram-signal-f.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-diagram-signal-f.png",
       "bytes": 33694,
       "sha256": "e639a778a0a4e8a78047b0617f417903a9b8314f230b53fdc732b82fb8195e1a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-llamada.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-llamada.png",
+      "bytes": 34197,
+      "sha256": "b9ff5d883dc658e891dd30efbdccd13b79211f23fe61c5f67afc229cce84a401",
       "media_type": "image/png"
     },
     {
@@ -84,6 +126,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-diagram-signal-g.png",
       "bytes": 25244,
       "sha256": "96a01d7a35d56c0f0cd33f7a7f4414c2a8cce0835cf0f6111f9e09b45dbfd620",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
+      "bytes": 26889,
+      "sha256": "5d4261e0bdacf0f1440eb3a820b72ac3e29cf0969c727361aad89c9c0b31eb13",
       "media_type": "image/png"
     },
     {
@@ -103,8 +152,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-signal-h-brazos-vistos-de-atras.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-signal-h-brazos-vistos-de-atras.png",
-      "bytes": 14812,
-      "sha256": "c5414589b9e2be63a8dc2cbd726affaefbcb866f3dc435d44dcf061a7ec0630a",
+      "bytes": 62385,
+      "sha256": "22bd35c2e7191a07d8a90381df744c75cf3db73e85ceec97206d45143ce27e69",
       "media_type": "image/png"
     },
     {
@@ -297,6 +346,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/extracted-images/page-0228/page-0228-image-01-decorative-emblem.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/extracted-images/page-0228/page-0228-image-01-decorative-emblem.png",
+      "bytes": 69804,
+      "sha256": "55f3fd73cc81bab4e3d16279c5e9a94075769e833c15b48ff21476216a24b9f6",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
       "key": "derived/raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
       "bytes": 7952626,
@@ -437,6 +493,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-ship-with-cross-sails-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-ship-with-cross-sails-illustration.png",
+      "bytes": 387978,
+      "sha256": "1904042653ce8e00d8f2ef64143a9ddb5a00f64e591cf2f7e9754dd06c5f2c89",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0061/page-0061-image-01-grey-card-with-handwritten-notes.png",
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0061/page-0061-image-01-grey-card-with-handwritten-notes.png",
       "bytes": 679561,
@@ -507,6 +570,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man.png",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man.png",
+      "bytes": 681094,
+      "sha256": "82fddfa9314d35034fc9c7f185d71ebf536ff91a44154d0b91d7ae16a031d402",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0104/page-0104-image-01-illustration-stack-of-books.png",
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0104/page-0104-image-01-illustration-stack-of-books.png",
       "bytes": 54676,
@@ -551,8 +621,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
-      "bytes": 27400000,
-      "sha256": "37f7082aaa8e2788ad76301d46d0b29dceef9dd59a90e055b632e7312523e475",
+      "bytes": 27411822,
+      "sha256": "c339401e187e9ed203dfa1e92e1d00fdec44b86aa8de27e7f3ef85138fe525a6",
       "media_type": "image/png"
     },
     {
@@ -563,17 +633,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-english-electric-canberra-aircraft-hangar.png",
+      "bytes": 2673450,
+      "sha256": "14be44c4ca89f600cbeb0a6082814c1762f5087d65e7b003463c4f7de6f85a06",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
-      "bytes": 938128,
-      "sha256": "a72da06e53275639422b75b679d76181b3591a71be57d49ea25591a26347af02",
+      "bytes": 939497,
+      "sha256": "ddcdc0440a6dc89d0e389fb94ea09933858fe552686513dd6cbffdaa66b19d3e",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
-      "bytes": 1050029,
-      "sha256": "51eb22793492d6afbe874aba3ec836d3658d60c79d44e70c51604c696c9d47d5",
+      "bytes": 85997,
+      "sha256": "dd34124e25c92f527fdd566fbcd83acfa6a59a92fd9ab6ae243b073c5e707c7d",
       "media_type": "image/png"
     },
     {
@@ -588,6 +665,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-from-cup.png",
       "bytes": 5722664,
       "sha256": "2b85a5d48a0fd94f507b0bb35b49b8037ab6dc8bbb599aad99225b0db4826bc9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
+      "bytes": 2182400,
+      "sha256": "6f4da6b80166ff8990632f77f8b865aacb925322eb43c81b55601a3371b4e7bb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-halftone-portrait-man-with-cross.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-halftone-portrait-man-with-cross.png",
+      "bytes": 629668,
+      "sha256": "7580e180698ca92550e52f0c109ebb496d56f8528740d0cbd2c02c8c630466eb",
       "media_type": "image/png"
     },
     {
@@ -612,6 +703,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hills.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hills.png",
+      "bytes": 27030669,
+      "sha256": "62786edeaa63d191d13bf2e4b4272bc2a841cbe21058ff05660a5d23fabe00f0",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-full-page-landscape-with-cattle-and-water.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-full-page-landscape-with-cattle-and-water.png",
       "bytes": 26555494,
@@ -630,6 +728,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-with-ad.png",
       "bytes": 3509904,
       "sha256": "de02b2af913a64eef0f0c47da8c713efe785c5d99a27cd4de5e78e627f15680d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-eagle-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-eagle-illustration.png",
+      "bytes": 2925311,
+      "sha256": "9e7d37cf8c7fbfec5c81fca09ab341c92099a553a7fd0afa293ccbef394e37be",
       "media_type": "image/png"
     },
     {
@@ -654,6 +759,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png",
+      "bytes": 2175267,
+      "sha256": "f37f46685d9e2ccc681cdd60f35b7c2cf044f3ad5ad55f29c73c502c4e0f47ac",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-group-with-tent.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-group-with-tent.png",
+      "bytes": 2300842,
+      "sha256": "eebe669396261d1d324cde172fea0f520ba610cd77461c416675916b4dee117b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-with-tent.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-with-tent.png",
       "bytes": 5596913,
@@ -672,6 +791,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-p0017-visual-region-2-expedition-group.png",
       "bytes": 9269419,
       "sha256": "53958e941c93c02e3205197c90896da1b2860ca72894660cac7130c8f16143f3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/extracted-images/page-0002/page-0002-image-01-document-cover-title-label.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/extracted-images/page-0002/page-0002-image-01-document-cover-title-label.png",
+      "bytes": 91605,
+      "sha256": "fb70f5cb1849c6b1cf9659682e8a62ae98f8883bb958a212f3b36094d770470f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0087/page-0087-image-01-handwritten-note-montevideo-police-dept-force-12.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0087/page-0087-image-01-handwritten-note-montevideo-police-dept-force-12.png",
+      "bytes": 615646,
+      "sha256": "936e289cffe6568bafb452ecf25667d11d804be8a76132d3edd0bfd1a6891f7c",
       "media_type": "image/png"
     },
     {
@@ -2820,9 +2953,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 23,
+    "total_bytes": 70468456,
+    "uploaded": 23,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -2833,9 +2966,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 400,
+      "scanned": 419,
       "deleted": 0,
-      "skipped": 400,
+      "skipped": 419,
       "errors": []
     }
   }

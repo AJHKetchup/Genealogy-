@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:38Z",
+  "created": "2026-05-17T13:49:27Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -8,8 +8,30 @@
   "page": 5,
   "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-images/page-0005.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0005.md",
-  "no_visual_regions_reason": "No substantial images, portraits, maps, or diagrams suitable for cropping. All relevant visual information (stamps, handwritten marks) is described in the 'Images, Captions, And Visual Notes' section.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "WAR DEPT. REGISTRY RECEIVED 14 FEB 1938",
+      "source_context": "Official stamp on the cover page."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "handwritten_mark",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "① ✓",
+      "source_context": "Handwritten mark in the top right corner."
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Distribución gratuita",
+      "source_context": "Official stamp on the cover page."
+    }
+  ],
   "flags": []
 }

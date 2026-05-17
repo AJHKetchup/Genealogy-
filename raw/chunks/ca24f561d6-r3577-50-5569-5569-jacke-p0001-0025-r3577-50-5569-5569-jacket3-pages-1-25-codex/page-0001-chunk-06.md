@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a6f8d1e52cbd-P0001-06
+chunk_id: CHUNK-519482726d9d-P0001-06
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: a6f8d1e52cbd9de783e0d205a34501a219dd061a41e01dc69e42c5a8f6e404fd
+converted_sha256: 519482726d9d80d06fedebfb4a77d3aa78e4f11a6e560ed2635274a0d855208a
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -10,10 +10,6 @@ page_start: 1
 page_end: 1
 part: 6
 ---
-
-## Layout And Reading Order
-
-The page contains a header at the top, followed by a series of transcribed speeches or discussions from a meeting. The text is presented in a single column. Speakers are identified by name and title, followed by their statements. There are also section titles like "RÈGLEMENT DE LA CONFÉRENCE" and "Article premier."
 
 ## Literal Transcription
 
@@ -275,3 +271,17 @@ Je rappelle que tout à l'heure l'Assemblée a bien voulu accepter la propositio
 
 ## Images, Captions, And Visual Notes
 There are no images, captions, or other visual elements on this page.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of printed text without any images, illustrations, or other visual elements."
+}
+```

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:36Z",
+  "created": "2026-05-17T13:50:19Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,16 +8,8 @@
   "page": 68,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/page-images/page-0068.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/page-markdown/page-0068.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page is a plain document cover with only handwritten text on a tab. There are no substantial images, photographs, maps, or diagrams to warrant cropping.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten_text",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Alto Uruguay, - SMA's Report",
-      "source_context": "Handwritten text on a folder tab."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

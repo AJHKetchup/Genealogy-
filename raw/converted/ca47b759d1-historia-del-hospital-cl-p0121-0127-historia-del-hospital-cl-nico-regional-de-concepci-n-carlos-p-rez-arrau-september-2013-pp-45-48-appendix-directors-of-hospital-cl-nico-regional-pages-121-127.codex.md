@@ -9,10 +9,10 @@
 - Extracted images: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/extracted-images`
 
 ## Page Metadata
-- Page number: 121
+Page number: 121
 
 ## Layout And Reading Order
-The page consists of a page number at the top left, followed by a series of centered headings and then a block of text in a single column. The text begins with "Vistos:" and continues with "Considerando:" followed by four numbered paragraphs.
+The page presents a formal document in a single-column layout. It begins with a header identifying the issuing ministry and subsecretariat, followed by the title of the document, publication details, and date. The main body consists of a "Vistos" section and a "Considerando" section, each containing multiple numbered paragraphs.
 
 ## Literal Transcription
 121
@@ -68,33 +68,31 @@ estructura arquitectónica extendida a todo lo largo y ancho del país y sus
 There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+All visible text on the page has been transcribed. The last paragraph of the "Considerando" section is cut off at the bottom of the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 ```
 
 ## Page Metadata
-- Page number: 122
-- Source publication: Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013
-- Source part: Appendix Directors of Hospital Clínico Regional
-- Page type: Text
+Page number: 122
 
 ## Layout And Reading Order
-The page contains a page number at the top left, followed by a series of numbered paragraphs (5 through 9) of text, presented in a single column. The reading order is top-to-bottom, left-to-right.
+The page contains a page number "122" in the top-left corner. The main content consists of a single column of text, divided into numbered paragraphs (5 through 9), which appear to be a continuation of a larger document.
 
 ## Literal Transcription
+
 122
 
 elementos y objetos de valor patrimonial, probados y enriquecidos durante
 décadas en el trabajo permanente de atender y asistir a nuestros conciudadanos.
 
 5. Que, el Consejo de Monumentos Nacionales a diciembre de 2006 ha declarado
-como Monumentos Nacionales a nueve de nuestros establecimientos de salud, a
+como Monumentos Nacionales a nueve de nuestros establecimientos de Salud, a
 los que se ha agregado recientemente el antiguo Hospital de Angol del Servicio de
 Salud Araucanía Norte, encontrándose varios más en trámite de declaratoria.
 
@@ -118,7 +116,8 @@ perspectiva de incorporar los objetivos sanitarios a la cultura ciudadana.
 
 8. Que, en virtud de lo obrado desde 2000 al 2006, el Ministerio de Salud ha
 aprendido el significado que el patrimonio cultural sanitario ha adquirido en la
-ciudadanía, más allá de las
+construcción de la identidad y solidez cultural de nuestras instituciones sanitarias,
+que percibimos tan fuertemente arraigadas en la ciudadanía, más allá de las
 contingencias históricas que el sector salud ha debido y deberá seguir
 enfrentando, particularmente cuando el gobierno que se proyecta al 2010, ha
 enunciado como síntesis de sus objetivos sectoriales una salud comprometida,
@@ -140,43 +139,45 @@ There are no images or captions on this page.
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate. All text and layout elements have been captured.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```
 
 ## Page Metadata
 Page number: 123
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a page number at the top left, followed by a section titled "Resolución:" and two numbered paragraphs, concluding with a final statement and signature.
+The page contains a single column of text, starting with a heading "Resolución:", followed by two numbered points, and concluding with a statement and signature.
 
 ## Literal Transcription
 123
 
 **Resolución:**
 
-1. Institúyese el último día domingo del mes de mayo de cada año, como Día del
-Patrimonio Cultural de la Salud en todos los organismos que constituyen el
-Sistema Nacional de Servicios de Salud.
+1.  Institúyese el último día domingo del mes de mayo de cada año, como Día del
+    Patrimonio Cultural de la Salud en todos los organismos que constituyen el
+    Sistema Nacional de Servicios de Salud.
 
-2. Las direcciones de los organismos del Sistema Nacional de Servicios de Salud,
-servicios autónomos y las Seremi de Salud deberán elaborar cada año, un
-programa de actividades para celebrar, en sus territorios de competencia
-respectivos, el Día del Patrimonio Cultural de la Salud, que será comunicado con
-la debida oportunidad a la Unidad de Patrimonio Cultural del Ministerio de Salud.
+2.  Las direcciones de los organismos del Sistema Nacional de Servicios de Salud,
+    servicios autónomos y las Seremi de Salud deberán elaborar cada año, un
+    programa de actividades para celebrar, en sus territorios de competencia
+    respectivos, el Día del Patrimonio Cultural de la Salud, que será comunicado con
+    la debida oportunidad a la Unidad de Patrimonio Cultural del Ministerio de Salud.
 
-Anótese, comuníquese y publíquese.- María Soledad Barría
-Iroume, Ministra de Salud.
+    Anótese, comuníquese y publíquese.- María Soledad Barría
+    Iroume, Ministra de Salud.
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+No images or captions are present on this page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
+None. All text is clear and legible.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+All text content on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json

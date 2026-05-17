@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-30f403098674-P0001-03
+chunk_id: CHUNK-aacaba049ffb-P0001-03
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 30f403098674a38d6bfe0d7c19cf521eb114872ecd62cfed26f357f75a1b9b4d
+converted_sha256: aacaba049ffbdf38dadaa7bc9ddbf497a165ccdfd3c20b1f3b7a6ef63da3f190
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -10,23 +10,6 @@ page_start: 1
 page_end: 1
 part: 3
 ---
-
-## Completeness Audit
-This page is fully transcribed.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text and a minor page artifact (a punch hole), with no images, illustrations, or other significant visual elements."
-}
-```
-
-## Page Metadata
-Page number: 3
-
-## Layout And Reading Order
-The page presents a single-column list of diplomatic representatives and officials, organized by country or entity. Each country/entity heading is in all caps, followed by an indented list of individuals and their titles/roles. The reading order is strictly top-to-bottom.
 
 ## Literal Transcription
 3
@@ -260,3 +243,83 @@ Page number: 6
 
 ## Layout And Reading Order
 The page presents text in a single column. It begins with a page number at the top, followed by a list of names and titles, grouped under country headings. This list is followed by an introductory sentence. The main body of the page then presents a title, an article heading, and the text of the article, which includes a section marked with an asterisk that functions as a detailed sub-section or footnote, containing numbered points and further paragraphs.
+
+## Literal Transcription
+6
+
+M. Roger de la Harpe, Lieutenant-Colonel des Troupes sanitaires,
+Médecin;
+M. Dietrich Schindler, Major de la Justice militaire, Professeur de
+Droit international à l'Université de Zurich;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE TCHÉCOSLOVAQUE:
+S. Exc. M. Zdeněk Fierlinger, Envoyé extraordinaire et Ministre
+plénipotentiaire de Tchécoslovaquie à Berne;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE TURQUE:
+S. Exc. Hassan Bey, Vice-Président de la Grande Assemblée
+nationale de Turquie, Vice-Président du Croissant-Rouge turc,
+S. Exc. Nusret Bey, Président du Conseil d'Etat de la République,
+Le Professeur Akil Moukhtar Bey, Dr en Médecine,
+Le Dr Abdulkadir Bey, Lieutenant-Colonel, Médecin militaire,
+Professeur à l'Ecole d'Application et à l'Hôpital de Gulhane;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE ORIENTALE DE L'URUGUAY:
+S. Exc. M. Alfredo de Castro, Envoyé extraordinaire et Ministre
+plénipotentiaire d'Uruguay à Berne;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE DES ÉTATS-UNIS DE VÉNÉZUÉLA:
+S. Exc. M. Caracciolo Parra-Pérez, Envoyé extraordinaire et
+Ministre plénipotentiaire de Vénézuéla à Rome,
+M. Ivan Manuel Hurtado-Machado, Chargé d'Affaires p.i. de
+Vénézuéla à Berne;
+
+Lesquels, après s'être communiqué leurs pleins pouvoirs, trouvés en
+bonne et due forme, sont convenus de ce qui suit:
+
+TITRE I. DISPOSITIONS GÉNÉRALES.
+
+ARTICLE PREMIER.
+
+La présente Convention s'appliquera, sans préjudice des stipula-
+tions du Titre VII:
+1) à toutes les personnes visées par les articles 1er, 2 et 3 du
+Règlement annexé à la Convention de La Haye concernant les lois et
+coutumes de la guerre sur terre, du 18 octobre 1907, et capturées par
+l'ennemi;*
+
+\* *Règlement annexé*: ART. 1er.—Les lois, les droits et les devoirs de la guerre
+ne s'appliquent pas seulement à l'armée, mais encore aux milices et aux corps de
+volontaires réunissant les conditions suivantes:
+1o d'avoir à leur tête une personne responsable pour ses subordonnés;
+2o d'avoir un signe distinctif fixe et reconnaissable à distance;
+3o de porter les armes ouvertement et
+4o de se conformer dans leurs opérations aux lois et aux coutumes de la
+guerre.
+
+Dans les pays où les milices ou des corps de volontaires constituent l'armée ou
+en font partie, ils sont compris sous la dénomination d'armée.
+ART. 2.—La population d'un territoire non occupé qui, à l'approche de l'ennemi,
+prend spontanément les armes pour combattre les troupes d'invasion, sans avoir
+eu le temps de s'organiser conformément à l'article premier, sera considérée
+comme belligérante si elle porte les armes ouvertement et si elle respecte les lois
+et coutumes de la guerre.
+ART. 3.—Les forces armées des Parties belligérantes peuvent se composer de
+combattants et de non-combattants. En cas de capture par l'ennemi les uns et
+les autres ont droit au traitement des prisonniers de guerre. [Footnote in the
+original.]
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 7

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-63a541d71290-P0001-01
+chunk_id: CHUNK-eaa21727560c-P0001-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
-converted_sha256: 63a541d712909acb8bcbe50c0c7f22433520684e2aacd42f0ad8585d97740c85
+converted_sha256: eaa21727560c4d49a6793175c6eb1b5b3c40ff209e3bafd8530e52d094d368cb
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json
@@ -22,69 +22,73 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images`
 
 ## Page Metadata
-No page-specific metadata is present on this page.
+This page is mostly blank, containing only a handwritten alphanumeric code in the upper right quadrant.
 
 ## Layout And Reading Order
-The page is mostly blank, with a handwritten alphanumeric code in the top right quadrant.
+The page contains a single handwritten note positioned towards the top right.
 
 ## Literal Transcription
-COL16 S^(bis) / 147 / 4
+COL16<sup>bis</sup> 147 / 4
 
 ## Images, Captions, And Visual Notes
-The page contains a handwritten alphanumeric code in the top right corner. It appears to be a filing or cataloging number.
+There are no images or captions on this page. The only visual content is a handwritten alphanumeric code.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The page is completely transcribed.
+The transcription is complete and includes all visible content on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The only visual content is a small handwritten note, which is fully captured in the literal transcription and does not warrant a separate crop box."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small handwritten note, which is transcribed directly in the 'Literal Transcription' section. No substantial visual elements requiring cropping are present."}
 ```
 
 ## Page Metadata
-Page number: 2
+This page is the back of a cover page or a blank page within a document, featuring handwritten notes and a piece of tape.
 
 ## Layout And Reading Order
-
-The page contains handwritten text in the upper left quadrant and a piece of blue tape adhered to the lower right quadrant. The handwritten text is in two layers, with blue crayon/pencil on top and grey pencil below it.
+The page contains handwritten text in the upper left quadrant, followed by a handwritten signature below it. A piece of blue tape is affixed to the lower right quadrant.
 
 ## Literal Transcription
-
 Registry
 S.O.B.Z.A.X [?]
 
 ## Images, Captions, And Visual Notes
-
-- A piece of blue tape or paper is adhered to the bottom right of the page, covering approximately 15% of the page area.
-- Handwritten text in blue crayon or pencil reads "Registry" in a cursive style, located in the upper left quadrant.
-- Below the blue "Registry" text, there is additional handwritten text in grey pencil, which appears to be a signature or abbreviation.
+A piece of blue tape or paper is affixed to the lower right portion of the page. It appears to be a repair or an intentional attachment, with visible creases and texture.
 
 ## Uncertain Or Illegible
-
-- The grey handwritten text "S.O.B.Z.A.X" is highly uncertain due to its stylized cursive nature. The individual letters are difficult to discern definitively, particularly the middle section.
+- The handwritten signature below "Registry" is difficult to decipher with certainty. The reading "S.O.B.Z.A.X" is a plausible interpretation, but parts are ambiguous.
 
 ## Completeness Audit
-
-The page is fully transcribed and all visible elements have been noted.
+The page is fully transcribed and described.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a piece of tape, neither of which qualify as substantial visual assets for cropping according to the guidelines."}
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "other",
+      "bbox_pct": [50.0, 73.0, 67.0, 93.0],
+      "caption_literal": "A piece of blue tape or paper affixed to the lower right portion of the page.",
+      "caption_type": "converter-description",
+      "identity_basis": null,
+      "source_context": null,
+      "confidence": 0.9,
+      "suggested_filename": "blue_tape_or_paper"
+    }
+  ]
+}
 ```
 
 ## Page Metadata
-Page number: 3
+This page is the third page of a document, but it does not contain a visible page number. It appears to be a cover sheet or an internal filing page.
 
 ## Layout And Reading Order
-
-The page is a light-colored sheet, possibly a cover or backing page, with text printed and handwritten near the bottom. There are two small tears or holes near the bottom edge, suggesting it was previously bound or fastened. A horizontal line separates the upper blank area from the lower section containing text.
+The page is a light-colored sheet of paper with text printed and handwritten towards the bottom. There is a horizontal line separating some of the printed text from the handwritten information. Two small tears or holes are visible near the bottom edge, above the horizontal line.
 
 ## Literal Transcription
-
 BULKY DOCUMENT
 ENCLOSURE.
 9A/31064/25420
@@ -92,19 +96,18 @@ ENCLOSURE.
 3979-7.36-500
 
 ## Images, Captions, And Visual Notes
-
-The page contains no images, captions, or visual elements requiring specific description or cropping beyond the literal transcription of text. The tears/holes near the bottom are minor physical damage to the page itself.
+The page is a plain sheet of paper, light blue/grey in color. There are two small, irregular tears or holes in the paper, one on the left and one on the right, approximately 15% from the bottom edge. A faint horizontal line is printed across the page, about 20% from the bottom edge.
 
 ## Uncertain Or Illegible
-
-None. All text is clearly legible.
+None.
 
 ## Completeness Audit
-
-The transcription is complete and includes all visible text and relevant visual notes from the page.
+All visible text and significant visual features have been transcribed or noted.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present on this page. The page contains only text and minor physical marks."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and minor physical marks (tears, faint line) that do not warrant separate image crops. The text is fully transcribed."
+}
 ```

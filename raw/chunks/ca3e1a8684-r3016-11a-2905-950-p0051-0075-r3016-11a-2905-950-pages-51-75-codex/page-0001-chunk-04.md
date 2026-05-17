@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f4a33d4d5470-P0001-04
+chunk_id: CHUNK-0056730f6673-P0001-04
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
+converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -74,15 +74,16 @@ The transcription is complete for the visible text on the page. The last line of
 
 ## Page Metadata
 - Page number: 69
-- Source: raw/sources/R3016-11A-2905-950.pdf
 
 ## Layout And Reading Order
-The page contains a single block of handwritten text, followed by a handwritten signature and a date. A hole punch is present near the top of the text block. The reading order is top-to-bottom.
+
+The page contains a single block of handwritten text in French, followed by a handwritten signature and a date. There is a punch hole near the top center of the page, affecting the second line of text.
 
 ## Literal Transcription
+
 commission permanente
-aura la liste des personnes
-qui pourront eventuelle
+aura la. bds Ses personnes
+qui' pourront eventuelle
 ment fournir toutes
 explications utiles sur
 son fonctionnement ou
@@ -90,7 +91,7 @@ des travaux et aussi
 rapporter de la Conference
 des indications utiles
 pour les travaux futurs
-de la commission présidée
+de la Commission présidée
 par M Kuelz.
 
 L. S. Kuelz
@@ -98,17 +99,17 @@ L. S. Kuelz
 15 - X - 28
 
 ## Images, Captions, And Visual Notes
-- A circular hole punch is present in the upper part of the page, slightly to the right of the center, obscuring a small part of the handwritten text.
+- A circular punch hole is present at the top center of the page, partially obscuring the word "Ses" on the second line of text.
 
 ## Uncertain Or Illegible
-None.
+- The abbreviation "bds" on the second line is unclear in its meaning, but transcribed literally as written.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and relevant visual notes.
+The transcription is complete and represents all visible text and significant visual elements on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping. The page contains only handwritten text and a minor hole punch."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like photographs, maps, or complex diagrams. The page contains only handwritten text and a minor punch hole, which is described in the 'Images, Captions, And Visual Notes' section."}
 ```
 
 ## Page Metadata
@@ -231,33 +232,33 @@ This page has been fully transcribed.
 Page number: 72
 
 ## Layout And Reading Order
-The page contains a single block of handwritten text, presented as a note or memo. The text is arranged in lines, with a title at the top, followed by an underlined separator, and then the main body of the text. The reading order is top-to-bottom, left-to-right.
+The page contains a single block of handwritten text in French, presented as a note. The text is centered vertically on the page. There is a horizontal line drawn beneath the first line of text. A small hole punch is present near the top left, partially obscuring the first letter of the title.
 
 ## Literal Transcription
 M. Amets
-_______
-dans le celle ci-anverée, M. Kuby nous
-informe qu'il a été
-invité à po, dans
+—
+dans la cellule ci-an
+nexée, M. Kuby nous
+informe qu’il a été
+invité à po[?], dans
 sa qualité de prési-
 dent de la Commission
-pour l'Union de Secours,
+pour l’Œuvre de Secours,
 à prendre part à la
 Conférence des Croix
-Rouge à la Haye -
+Rouges à la Haye –
 
 ## Images, Captions, And Visual Notes
-No substantial images or captions are present on this page. The page consists entirely of handwritten text.
+The page consists entirely of handwritten text on a light grey paper background. A small hole punch is visible in the upper left corner, slightly overlapping the initial 'A' of "Amets". A horizontal line is drawn beneath "M. Amets".
 
 ## Uncertain Or Illegible
-*   The phrase "dans le celle ci-anverée" is grammatically unusual ("le celle" instead of "la celle" or "la cellule") and the word "ci-anverée" is not a standard French word or common abbreviation. It is transcribed literally as it appears.
-*   The abbreviation "à po," is transcribed literally. Its full meaning is unclear from the context.
+- `po[?]`: The word "po" followed by a comma is clear, but its meaning or whether it's an abbreviation is uncertain in this context.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
+The transcription is complete and includes all visible text and relevant visual notes.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text, which is fully transcribed. There are no distinct images, photographs, maps, or complex diagrams that would warrant visual region extraction."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and minor marks (hole punch, line), none of which are substantial visuals suitable for standalone cropping."}
 
 ## Page Metadata
 - **Page type**: Handwritten note
@@ -298,19 +299,19 @@ This page has been fully transcribed.
 ```
 
 ## Page Metadata
-Page number: 74
+Page: 74
 
 ## Layout And Reading Order
-The page consists of a light-colored paper document, likely a memo or note, with a pre-printed red header and handwritten text in black ink. A blue ink mark is present over a handwritten name. A hole punch is visible near the top center. The content is presented in a single column.
+The page contains a stamped/printed header "URGENT" at the top, followed by handwritten text. The handwritten text includes a name with a blue mark, a date, a salutation, and the body of a letter. The content flows in a single column from top to bottom.
 
 ## Literal Transcription
-<span style="color:red">URGENT</span>
-M. Livets
+URGENT
+M. [?]vets
 * 12-X-28
 M. Pietromarchi
 Voudriez vous avoir l'obligeance
 de s'entendre au Marquis Taucher
-s'il pense que les frais du voyage
+et il pense que les frais du voyage
 de M. Hultz à la Haye devraient
 être supportés par la Société au
 cas où il accepterait l'invitation
@@ -318,23 +319,34 @@ qui lui a été adressée comme président
 de la Commission permanente pour l'AIS.
 
 ## Images, Captions, And Visual Notes
-- The word "URGENT" is pre-printed in red, uppercase letters at the top of the page.
-- A circular hole punch passes through the letter 'R' in "URGENT".
-- A handwritten signature or name, "M. Livets", is present below "URGENT", with a distinctive wavy underline and a blue ink checkmark or scribble over the "vets" portion of the name.
+- A prominent red stamp/print at the top of the page reads "URGENT". There is a hole punched through the "R" in "URGENT".
+- Below "URGENT", there is a handwritten name "M. [?]vets" with a blue ink mark (possibly a checkmark or scribble) over it.
 
 ## Uncertain Or Illegible
-- The handwritten name "M. Livets" is somewhat stylized, but "Livets" appears to be the most plausible reading.
+- `[?]vets`: The handwritten name "M. [?]vets" is somewhat difficult to decipher, particularly the first few letters after "M.". It could be "M. Livets" or "M. Luets" or similar.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
+All visible text and significant visual elements on the page have been transcribed and noted.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The 'URGENT' is a pre-printed word, and the signature is handwritten text. Minor marks like the hole punch and blue scribble are described in the transcription and visual notes."}
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "stamp",
+      "bbox_pct": [10.9, 29.9, 20.9, 69.9],
+      "caption_literal": "URGENT",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Header of the document",
+      "confidence": 0.95,
+      "suggested_filename": "urgent_stamp"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
 ```
 
 ## Page Metadata
 Page number: 75
-
-## Layout And Reading Order
-The page contains a typewritten letter in German, with some handwritten annotations and a stamped mark. The handwritten annotations are at the top left and top right. A large rectangular stamp is present in the upper left quadrant. The main body of the letter is presented in a single column, left-aligned, with a ragged right margin. The last line of the letter is truncated at the bottom right of the page.

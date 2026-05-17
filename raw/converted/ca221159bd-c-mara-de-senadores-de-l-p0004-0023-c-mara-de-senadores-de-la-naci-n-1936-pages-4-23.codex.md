@@ -9,12 +9,10 @@
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images`
 
 ## Page Metadata
-- Source: `Cámara de Senadores de la Nación, 1936.pdf`
-- Page: `4`
-- Page type: `Cover/Envelope`
+This page is the front of a paper envelope or folder, likely used to contain documents.
 
 ## Layout And Reading Order
-The page contains handwritten text on a brown paper envelope. The text is arranged in three lines, centered horizontally on the upper half of the page.
+The page displays handwritten text in the upper-middle section, arranged in three lines. The text is centered horizontally on the page.
 
 ## Literal Transcription
 Anexos a
@@ -22,35 +20,28 @@ Anexos a
 Argentina
 
 ## Images, Captions, And Visual Notes
-The page is an image of a worn, light brown paper envelope.
-- The text "Anexos a" and "9A/ [...] / 25420" are handwritten in red ink.
-- The number "31064" is handwritten in black ink.
-- The word "Argentina" is handwritten in blue ink.
-- There is a small hole punched near the top right corner of the envelope.
-- The envelope shows significant creasing and wear, particularly along the bottom edge and left side.
+The page is an image of a light brown paper envelope or folder, showing signs of wear, creasing, and minor tears, particularly along the bottom edge and left side. There is a small punched hole near the top right corner. The text is handwritten in three different colors: "Anexos a" is in red ink, "9A/" and "/ 25420" are in red ink while "31064" is in black ink, and "Argentina" is in blue ink.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and relevant visual details on the page.
+All visible text and significant visual characteristics of the page have been transcribed and described.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements (e.g., portraits, maps, diagrams) are present that would require cropping. The page primarily contains handwritten text on an envelope."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is a simple document cover with handwritten text. There are no substantial visuals like portraits, maps, or diagrams that would warrant cropping."}
 ```
 
 ## Page Metadata
-Page number: 5
+This page is the cover of a publication titled "LEY Y REGLAMENTO GENERAL DE LOS FERROCARRILES NACIONALES" from 1936. It features the main title, subtitle, publication details, and two official stamps, one indicating receipt in 1938 and another for "free distribution."
 
 ## Layout And Reading Order
-The page is the front cover of a publication. It features a central block of text, framed by a double-line border. There are two red ink stamps and a handwritten mark on the page. The text is centered vertically and horizontally within the frame. The spine of the book is visible on the left side, in a contrasting blue color.
+The page presents a centered title block within a double-line border. A handwritten mark is in the top right corner. A red ink stamp is present in the top left, rotated. The main title and subtitle are centrally aligned, followed by publication details. Another red ink stamp is in the lower middle, also rotated. Publisher information and the year are at the bottom center.
 
 ## Literal Transcription
 ① ✓
-[Red ink stamp, partially obscured, top left]
-WAR DEPT. [?]ATIONS
-REGISTRY
+WAR DEPT. REGISTRY
 RECEIVED
 14 FEB 1938
 
@@ -62,32 +53,64 @@ FERROCARRILES NACIONALES
 •
 PUBLICACION OFICIAL
 
-[Red ink stamp, bottom left, mostly an outline with faint, illegible text inside]
-[Purple ink, handwritten or stamped over the red stamp]
 Distribución gratuita
 
 BUENOS AIRES
-COMPAÑIA IMPRESORA ARGENTINA, S. A., ALSIÑA, 2049
+COMPAÑIA IMPRESORA ARGENTINA, S. A., ALSINA, 2049
 1936
 
 ## Images, Captions, And Visual Notes
-1.  **Handwritten mark**: In the top right corner, a handwritten circle containing the number "1" and a checkmark "✓".
-2.  **Red ink stamp (top)**: A rectangular stamp in red ink, partially overlapping the main title text. It contains the text "WAR DEPT. [?]ATIONS", "REGISTRY", "RECEIVED", and "14 FEB 1938".
-3.  **Red ink stamp (bottom)**: A rectangular stamp in red ink, similar in style to the top one, located in the bottom left quadrant. It is mostly an outline, with very faint and largely illegible text inside.
-4.  **Purple ink text**: The phrase "Distribución gratuita" is written or stamped in purple ink, diagonally across the bottom red ink stamp.
+- A red ink stamp is present in the top-left quadrant, rotated clockwise. It contains the text "WAR DEPT. REGISTRY RECEIVED 14 FEB 1938".
+- A handwritten mark, consisting of a circled "①" and a checkmark "✓", is in the top-right corner of the page.
+- A red ink stamp is present in the lower-middle section of the page, rotated clockwise. It contains the text "Distribución gratuita".
 
 ## Uncertain Or Illegible
--   The first line of the top red ink stamp is partially obscured and faded; "[?]ATIONS" is the most plausible reading for the end of the word. The beginning "WAR DEPT." is clear.
--   The text within the bottom red ink stamp is too faint and obscured to be legible.
+None. All text is legible.
 
 ## Completeness Audit
-All visible text and significant visual marks on the page have been transcribed or described.
+The transcription is complete and includes all visible text, stamps, and handwritten marks on the page.
 
 ## Visual Region Manifest
 ```json
 {
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial images, portraits, maps, or diagrams suitable for cropping. All relevant visual information (stamps, handwritten marks) is described in the 'Images, Captions, And Visual Notes' section."
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "stamp",
+      "bbox_pct": [10.9, 19.0, 27.0, 51.0],
+      "caption_literal": "WAR DEPT. REGISTRY RECEIVED 14 FEB 1938",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Official stamp on the cover page.",
+      "confidence": 0.95,
+      "suggested_filename": "war_dept_registry_received_stamp_1938.png",
+      "inline_anchor": "WAR DEPT. REGISTRY\nRECEIVED\n14 FEB 1938"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "handwritten-mark",
+      "bbox_pct": [4.0, 83.0, 6.0, 87.0],
+      "caption_literal": "① ✓",
+      "caption_type": "nearby-text",
+      "identity_basis": null,
+      "source_context": "Handwritten mark in the top right corner.",
+      "confidence": 0.9,
+      "suggested_filename": "handwritten_mark_top_right.png",
+      "inline_anchor": "① ✓"
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "stamp",
+      "bbox_pct": [64.0, 36.0, 79.0, 68.0],
+      "caption_literal": "Distribución gratuita",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Official stamp on the cover page.",
+      "confidence": 0.95,
+      "suggested_filename": "distribucion_gratuita_stamp.png",
+      "inline_anchor": "Distribución gratuita"
+    }
+  ]
 }
 ```
 

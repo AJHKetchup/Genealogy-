@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a6f8d1e52cbd-P0001-04
+chunk_id: CHUNK-519482726d9d-P0001-04
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: a6f8d1e52cbd9de783e0d205a34501a219dd061a41e01dc69e42c5a8f6e404fd
+converted_sha256: 519482726d9d80d06fedebfb4a77d3aa78e4f11a6e560ed2635274a0d855208a
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -151,30 +151,26 @@ All visible text on the page has been transcribed.
 Page number: 9
 
 ## Layout And Reading Order
-The page contains very faint, inverted, and mirrored text at the top, which is bleed-through from another side or page. Below this, in the middle of the page, there is a single line of clearly printed text. The rest of the page is blank. There is a punch hole in the top right corner.
+The page contains very faint, upside-down text at the top, followed by a single line of printed text centered horizontally in the middle of the page.
 
 ## Literal Transcription
-(Faint, inverted, and mirrored text, likely bleed-through from the reverse side or a previous page, transcribed as if read correctly):
-1933
-imp. du Journal de Genève
+[Faint, upside-down text at top, largely illegible, possibly a header or title from a previous page showing through. Appears to read something like "Séance du 1er janvier 1933" or similar, but very indistinct.]
 
-(Clear text in the middle of the page):
 imp. du Journal de Genève
----
 
 ## Images, Captions, And Visual Notes
-1.  **Punch Hole**: A circular punch hole is present in the top right corner of the page.
-2.  **Faint Text**: At the top of the page, there are two lines of very faint text. This text appears upside down and mirrored, strongly suggesting it is bleed-through from the reverse side of the page or a preceding page. The content, when mentally inverted and un-mirrored, appears to be "1933" and "imp. du Journal de Genève".
-3.  **Clear Text**: In the middle of the page, a single line of text is clearly printed: "imp. du Journal de Genève". This text is right-side up and not mirrored.
+- A single hole punch is present at the top right corner of the page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text beyond the general faintness and distortion of the bleed-through text, which has been noted. The content of the faint text is discernible.
+- The faint, upside-down text at the top of the page is largely illegible due to its faintness and bleed-through nature. A possible reading is "Séance du 1er janvier 1933", but this is highly uncertain.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and relevant visual notes.
+The transcription is complete. All visible text and relevant visual elements have been captured.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. Minor marks like the punch hole are described in visual notes."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The hole punch is a minor mark and does not warrant a crop box."}
+```
 
 ## Page Metadata
 Page number: 10
@@ -240,3 +236,20 @@ exprimé à ce sujet.
 
 La Conférence prend acte du rapport et des conclusions de la commission de vérification des
 pouvoirs.
+
+## Images, Captions, And Visual Notes
+A purple ink stamp is present on the right side of the page, partially overlapping the main title "CONFÉRENCE DIPLOMATIQUE". The stamp contains the text "RECEIVED IN REGISTRY A- 14-MR-1929".
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text and the description of the stamp.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photos, maps, or complex diagrams are present. The stamp is transcribed in the literal transcription and described in visual notes."}
+```
+
+## Page Metadata
+Page Number: 11

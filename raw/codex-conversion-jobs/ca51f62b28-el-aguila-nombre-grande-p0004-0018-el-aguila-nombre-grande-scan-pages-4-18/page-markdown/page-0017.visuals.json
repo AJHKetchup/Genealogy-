@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:52Z",
+  "created": "2026-05-17T13:50:25Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "image_001",
+      "region_id": "image_001_top_climbers",
       "kind": "photograph",
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\n[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
       "source_context": "A group of five climbers on a rocky mountain peak.",
-      "confidence": "1.0",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        11.7,
-        39.9,
-        53.0,
-        90.9
+        69.0,
+        34.0,
+        96.0,
+        65.0
       ],
       "bbox_pixels": [
-        590,
-        2852,
-        2694,
-        6511
+        3498,
+        2430,
+        4877,
+        4657
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-climbers-on-peak.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-climbers-on-peak.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0017.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0017.md"
     },
     {
-      "region_id": "image_002",
+      "region_id": "image_002_group_and_tent",
       "kind": "photograph",
-      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\neron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
+      "caption_literal": "LA CULMINACION DE LA PROEZA: EN LA CUMBRE DEL SALADO, EL MONTE MAS ALTO DE AMERICA\n[?]eron seis los que llegaron: en la foto aparecen sólo cinco: el sexto captó esta foto, que tiene valor histórico documental.",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
-      "source_context": "A group of eight climbers standing in a landscape with a tent.",
-      "confidence": "1.0",
+      "source_context": "A group of nine climbers standing in a desolate landscape with a tent.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        57.5,
-        39.9,
-        97.0,
-        90.9
+        69.0,
+        66.0,
+        96.0,
+        97.0
       ],
       "bbox_pixels": [
-        2915,
-        2852,
-        4928,
-        6511
+        3498,
+        4720,
+        4877,
+        6947
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-with-tent.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-with-tent.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-group-with-tent.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-climbers-group-with-tent.png",
       "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0017.jpg",
       "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
       "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",

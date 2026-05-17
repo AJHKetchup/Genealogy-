@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T13:49:25Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/manifest.json",
+  "page": 228,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/page-images/page-0228.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/page-markdown/page-0228.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "emblem_001",
+      "kind": "illustration",
+      "caption_literal": "A stylized, symmetrical emblem with intricate patterns, resembling a shield or a stylized animal head.",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Central decorative emblem on the page.",
+      "confidence": "high",
+      "inline_anchor": "decorative emblem",
+      "bbox_pct": [
+        40.0,
+        38.0,
+        58.0,
+        62.0
+      ],
+      "bbox_pixels": [
+        322,
+        393,
+        477,
+        651
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/extracted-images/page-0228/page-0228-image-01-decorative-emblem.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/extracted-images/page-0228/page-0228-image-01-decorative-emblem.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/page-images/page-0228.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/manifest.json",
+      "page": 228,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243/page-markdown/page-0228.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

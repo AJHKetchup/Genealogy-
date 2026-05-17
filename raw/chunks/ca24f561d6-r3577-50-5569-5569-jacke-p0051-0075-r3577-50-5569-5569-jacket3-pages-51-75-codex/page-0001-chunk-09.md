@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-150ad5e0b722-P0001-09
+chunk_id: CHUNK-ff99009970ca-P0001-09
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75.codex.md
-converted_sha256: 150ad5e0b722db8999950a1e65f2b074f7a3da3c8e9e8e03407a0ce0d575b0cf
+converted_sha256: ff99009970cac12ecd9c9f7d906fe90c6424753d62e2c8477e57a6d9d14455dc
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json
@@ -133,27 +133,34 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text."}
 
 ## Page Metadata
-Page number: 72
+Page: 72
 
 ## Layout And Reading Order
-The page is a plain blue cover sheet with centered text. There is a hole punch mark at the top right corner and some damage along the right edge.
+
+The page is mostly blank, featuring a centered text block with a printer's imprint. The text block is framed by two horizontal lines, one above and one below the text. A small hole punch is present near the top right corner, and there is some minor damage along the right edge of the page.
 
 ## Literal Transcription
+
+```
 IMPRIMERIE
 DU JOURNAL DE GENÈVE
+```
 
 ## Images, Captions, And Visual Notes
-The page is a plain blue sheet of paper, likely a cover or separator page. It features centered text indicating a printer. There is a single hole punch mark visible near the top right corner of the page. The right edge of the page shows some minor tearing or wear.
+
+*   A small, circular hole punch is visible near the top right corner of the page.
+*   The right edge of the page shows minor tearing and wear.
+*   The centered text block "IMPRIMERIE / DU JOURNAL DE GENÈVE" is visually framed by a short horizontal line above it and another short horizontal line below it.
 
 ## Uncertain Or Illegible
-None.
+None
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete and accurate, capturing all visible text and relevant visual details on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals likely to be useful as standalone wiki assets. The page contains only text and minor physical marks (hole punch, edge damage) which are described in the transcription and visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small text block (printer's imprint) and minor page damage/hole punch, none of which qualify as substantial visuals for cropping."}
 ```
 
 ## Page Metadata

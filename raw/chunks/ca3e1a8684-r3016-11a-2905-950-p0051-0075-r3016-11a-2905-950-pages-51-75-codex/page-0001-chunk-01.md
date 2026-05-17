@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f4a33d4d5470-P0001-01
+chunk_id: CHUNK-0056730f6673-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
+converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -71,91 +71,90 @@ All visible text and layout elements have been transcribed.
 ```
 
 ## Page Metadata
-Page number: 52
+Page 52.
 
 ## Layout And Reading Order
-The page features a large, central illustration printed in red ink. There is a very faint, light red graphic element in the top-left corner and a faint, thin red border outlining the page. A hole punch is present in the top-right corner, and a small tear/fold is visible on the top edge.
+The page is largely blank, featuring a central illustration printed in red ink. There is a very faint, light red border around the perimeter of the page. In the top-left corner, there is an extremely faint, light red, abstract pattern or ghosted print. A circular hole is punched in the top-right corner, and a small tear/fold is present near the top edge, slightly to the left of the hole.
 
 ## Literal Transcription
-(No literal text to transcribe on this page.)
+There is no legible text on this page.
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A stylized illustration in red ink depicting a boat or raft with multiple sails/flags, each bearing a Red Cross symbol, surrounded by waves and a circular, segmented border.](../extracted-images/page-0052/page-0052-image-01-red-cross-boat-illustration.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [29.9, 25.8, 59.9, 70.7]
+- ![converter-description: Central illustration on the page.](../extracted-images/page-0052/page-0052-image-01-stylized-ship-with-cross-sails-illustration.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [24.9, 35.0, 75.0, 65.0]
   - Source context: Central illustration on the page.
 
-A prominent illustration, printed in red ink, is centered on the page. It depicts a stylized boat or raft, possibly a life raft, with multiple sails or flags, each bearing a Red Cross symbol. The vessel is surrounded by stylized waves and a circular, segmented border that resembles a life preserver or a protective barrier.
-
-In the top-left corner, there is a very faint, light red graphic element, appearing as a subtle, almost ghosted, pattern or set of lines.
-
-A faint, thin red line forms a border around the entire page.
-
-A circular hole punch is present in the top-right corner of the page.
-
-A small tear or fold is visible on the top edge of the page, slightly to the right of the center.
+- A very faint, light red, abstract pattern or ghosted print is visible in the top-left corner of the page. It is too indistinct to transcribe or identify.
+- A small tear or fold is present on the top edge of the page, approximately 70% from the left edge.
+- A circular hole is punched through the page in the top-right corner.
+- [illustration of a ship] A prominent illustration, printed in red ink, is centered on the page. It depicts a stylized ship with multiple sails, several of which bear a cross symbol (resembling a Red Cross). The ship is shown amidst stylized waves.
+- A faint, thin red line forms a rectangular border around the entire page, approximately 0.5 inches from the edges.
 
 ## Uncertain Or Illegible
-None.
+- The very faint, light red print/design in the top-left corner is illegible. It appears to be an abstract pattern or a ghosted impression of some design, but no specific characters or symbols can be discerned.
 
 ## Completeness Audit
-All visible content on the page has been transcribed or described.
+All visible content on the page, including the central illustration, faint border, top-left faint print, and physical page marks (hole, tear), has been described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr1",
+      "region_id": "visreg_0",
       "kind": "illustration",
-      "bbox_pct": [29.9, 25.8, 59.9, 70.7],
-      "caption_literal": "A stylized illustration in red ink depicting a boat or raft with multiple sails/flags, each bearing a Red Cross symbol, surrounded by waves and a circular, segmented border.",
+      "bbox_pct": [
+        24.9,
+        35.0,
+        75.0,
+        65.0
+      ],
+      "caption_literal": null,
       "caption_type": "converter-description",
-      "identity_basis": "visual_content",
+      "identity_basis": "visual_appearance",
       "source_context": "Central illustration on the page.",
-      "confidence": 0.95,
-      "suggested_filename": "red_cross_boat_illustration"
+      "confidence": "high",
+      "suggested_filename": "stylized_ship_with_cross_sails_illustration",
+      "inline_anchor": "[illustration of a ship]"
     }
   ]
 }
 ```
 
 ## Page Metadata
-Page number: 53
+Page: 53
 
 ## Layout And Reading Order
-The page contains a handwritten note on light blue paper. The text is arranged in a letter format, with a salutation, body, closing, signature, and additional notes below the signature. There are also some reference numbers at the top right. The top left corner of the paper is torn.
+The page contains a handwritten note on light blue paper. The text is arranged in a standard letter format, with an identifier at the top right, a salutation, body, closing, signature, and date, followed by additional handwritten notes below the signature block. The top left corner of the paper is torn.
 
 ## Literal Transcription
 11a / 2905 / 950
 
 Dear Dame Rachel,
-I send this thing
+I send this thingh
 you. Please send it
 in to the S.S.
-Yours ever
-Eril Collen
+
+Yours evn
+Emil Collan
 16/10/28
 Secretary General.
 Noted & passed
-A. 16. 10. 28.
+by. A. 16. 10. 28.
 
 ## Images, Captions, And Visual Notes
-The page is a light blue piece of paper with handwritten text. The top left corner of the paper is torn, with a small irregular section missing.
+The page is a light blue piece of paper with handwritten text in dark ink. There is a tear in the top left corner of the paper. The signature "Emil Collan" and the date "16/10/28" are underlined.
 
 ## Uncertain Or Illegible
-- `Eril Collen`: The surname "Collen" is somewhat stylized and could potentially be read as "Colla" or similar, but "Collen" appears to be the most plausible reading.
+- "thingh": The last letter appears to be an 'h', though 'thing' would be more common. Transcribed as written.
+- "evn": Appears to be an abbreviation for "even". Transcribed as written.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and relevant visual notes.
+All visible text and significant visual elements have been transcribed or noted.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only handwritten text on a piece of paper with a torn corner. There are no substantial images, diagrams, or other visual elements that would warrant cropping as standalone assets."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present for cropping. The page contains only handwritten text on a piece of paper with minor damage."}
 
 ## Page Metadata
 Page number: 54
@@ -295,22 +294,7 @@ The page has been fully transcribed. All typed and handwritten text, including m
 ```
 
 ## Page Metadata
-Page: 56
+Page number: 56
 
 ## Layout And Reading Order
-The page consists of a single blue slip of paper with handwritten text in black ink. There is a punched hole at the top left. The text is arranged in a block, followed by a date, and then another line of text at the bottom of the slip.
-
-## Literal Transcription
-Captain Wallis.
-Please attach
-to the file with the
-P.Q. R.
-16. X. 28
-
-Captain Walters.
-
-## Images, Captions, And Visual Notes
-- A punched hole is present in the top-left corner of the blue slip of paper.
-
-## Uncertain Or Illegible
-None.
+The page consists of a single piece of blue paper with handwritten text. There is a hole punch at the top left corner. The text is arranged in a single column, with a name at the top, a short note, a date, and another name at the bottom.

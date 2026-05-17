@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:48Z",
+  "created": "2026-05-17T13:49:32Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vr1",
-      "kind": "diagram",
+      "region_id": "visrep_0",
+      "kind": "illustration",
       "caption_literal": "e) Señal que autoriza a correr por vía contraria.",
       "caption_type": "source-caption",
-      "identity_basis": "description",
-      "source_context": "Illustration of a railway signal described as authorizing movement on the opposite track.",
-      "confidence": "high",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration shows a signal with a red flag featuring a white 'X' and two red circular lights, corresponding to the caption describing a signal authorizing movement on the opposite track.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
         27.0,
-        10.67,
-        43.0,
-        17.33
+        15.0,
+        44.0,
+        27.0
       ],
       "bbox_pixels": [
         208,
-        108,
-        342,
-        185
+        153,
+        349,
+        286
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-autoriza-via-contraria.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-autoriza-via-contraria.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-via-contraria.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-via-contraria.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0101.md"
     },
     {
-      "region_id": "vr2",
-      "kind": "diagram",
+      "region_id": "visrep_1",
+      "kind": "illustration",
       "caption_literal": "f) Señal de llamada.",
       "caption_type": "source-caption",
-      "identity_basis": "description",
-      "source_context": "Illustration of railway signals described as a 'call signal'.",
-      "confidence": "high",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration shows two signals: one with a dashed outline of a flag and light, and another with a solid red and white striped flag and a red light, corresponding to the caption for a call signal.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
         27.0,
-        20.0,
-        43.0,
-        26.67
+        30.0,
+        44.0,
+        45.0
       ],
       "bbox_pixels": [
         208,
-        205,
-        342,
-        283
+        310,
+        349,
+        474
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-senal-de-llamada.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-senal-de-llamada.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-llamada.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-llamada.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -71,28 +71,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0101.md"
     },
     {
-      "region_id": "vr3",
-      "kind": "diagram",
+      "region_id": "visrep_2",
+      "kind": "illustration",
       "caption_literal": "g) Señal automática.",
       "caption_type": "source-caption",
-      "identity_basis": "description",
-      "source_context": "Illustration of a railway signal described as an 'automatic signal'.",
-      "confidence": "high",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration shows an arrow-shaped red flag with white chevron stripes and a red circular light, corresponding to the caption for an automatic signal.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
         27.0,
-        29.33,
-        43.0,
-        36.0
+        49.0,
+        44.0,
+        60.0
       ],
       "bbox_pixels": [
         208,
-        302,
-        342,
-        380
+        508,
+        349,
+        631
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-senal-automatica.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-senal-automatica.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -101,25 +101,25 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0101.md"
     },
     {
-      "region_id": "vr4",
-      "kind": "diagram",
+      "region_id": "visrep_3",
+      "kind": "illustration",
       "caption_literal": "h) Brazos vistos de atrás.",
       "caption_type": "source-caption",
-      "identity_basis": "description",
-      "source_context": "Illustrations of railway signal arms as seen from behind.",
-      "confidence": "high",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration shows two signals: one tilted with black and white stripes and a hook, and another horizontal with a black square on a white background, corresponding to the caption for arms viewed from behind.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
         27.0,
-        38.67,
-        43.0,
-        45.33
+        68.0,
+        60.0,
+        83.0
       ],
       "bbox_pixels": [
         208,
-        400,
-        342,
-        478
+        707,
+        475,
+        871
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-signal-h-brazos-vistos-de-atras.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-signal-h-brazos-vistos-de-atras.png",

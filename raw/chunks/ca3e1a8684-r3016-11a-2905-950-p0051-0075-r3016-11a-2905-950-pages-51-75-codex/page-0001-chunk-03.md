@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f4a33d4d5470-P0001-03
+chunk_id: CHUNK-0056730f6673-P0001-03
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
+converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -13,26 +13,7 @@ part: 3
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "photograph",
-      "bbox_pct": [
-        15.5,
-        0.5,
-        84.5,
-        99.5
-      ],
-      "caption_literal": "Front of a grey card with handwritten text: 'Registry', 'for put on file', 'A. H. Kennedy'. A hole punch is visible at the top center, and the top left corner is slightly creased.",
-      "caption_type": "converter-description",
-      "identity_basis": "visual-content",
-      "source_context": "The entire page is a photograph of this card.",
-      "confidence": "high",
-      "suggested_filename": "grey_card_with_handwritten_notes"
-    }
-  ]
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a single document with handwritten text and minor physical characteristics (hole punch, folded corner) that are adequately described in the transcription and visual notes. There are no substantial visuals like photographs, maps, or complex diagrams that would warrant cropping."}
 ```
 
 ## Page Metadata
@@ -90,54 +71,48 @@ All visible text and significant visual elements have been transcribed or descri
 ```
 
 ## Page Metadata
-
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0063`
 - Page: 63
 
 ## Layout And Reading Order
-
-The document is a single, handwritten note on a small, rectangular piece of paper. The reading order is from top to bottom.
+This page contains a single, handwritten note on a narrow, vertical slip of paper. The reading order is from top to bottom.
 
 ## Literal Transcription
-
 ```text
 11a/2905/950
-[signature] M. Smith
 
-M. von Schmuwen
+[Signature of Mr. Smith]
+
+M. von Schuw[?]en
 
 Voulez vous écrire à
 M. Ruly que ses dépenses
 seront remboursés par
-la S d N et envoyer
+la S.S.N et envoyer
 ensuite la correspondance
 ci jointe au Registry
 
-[signature] L [Tueck?]
+[Signature of L. Turek]
 
 15-X-28
 ```
 
 ## Images, Captions, And Visual Notes
-
-The image shows a small, rectangular piece of light blue-grey paper, possibly a memo or routing slip. It has a hole punched near the top center and the top-left corner is torn. The entire document consists of handwritten text in black ink.
+The page consists of a single document, a narrow slip of light blue-gray paper with handwritten text in black ink. The top left corner of the paper is torn. There is a single hole punched near the top center.
 
 ## Uncertain Or Illegible
-
-- The first initial of the signature "M. Smith" is stylized and could be interpreted differently, possibly as "H."
-- The name "Schmuwen" is difficult to read and is a best-effort transcription.
-- The name "Ruly" is a best-effort transcription.
-- The signature at the bottom is highly stylized. The first initial appears to be "L." The surname is difficult to decipher but might be "Tueck" or something similar.
+- The surname of the addressee is difficult to read: `Schuw[?]en`. It could be `Schuwelen`, `Schuweden`, or similar.
+- The signature at the bottom is highly stylized and difficult to decipher. It appears to be `L. Turek` or something similar.
+- The name `Ruly` is also somewhat difficult to read and could be `Rulz`.
 
 ## Completeness Audit
-
-This page is a complete transcription of all visible text.
+The transcription is complete and represents all the content on the page.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only handwritten text on a small slip of paper, with no significant illustrations, photographs, or other visual elements that would warrant cropping."
+  "no_visual_regions_reason": "The page contains only a handwritten note with no significant images, illustrations, or photographs to crop."
 }
 ```
 
@@ -201,21 +176,23 @@ All visible text and significant visual notes have been transcribed and describe
 ```
 
 ## Page Metadata
-- Page number: 65
+Page number: 65
 
 ## Layout And Reading Order
-The page consists of a small, light blue piece of paper with handwritten text in black ink. There is a hole punch at the top center. The text is arranged in a single column, starting with an identifier/date, followed by a name, then a paragraph of text, a signature, and a date.
+
+The page is a small, light blue card with handwritten text in black ink. There is a hole punch at the top center. The text is arranged in a single column, starting with a reference number and a name at the top right, followed by a paragraph of text, a signature, and a date at the bottom.
 
 ## Literal Transcription
+
 11a/2905/950
 M. Bieler
 ---
 J'ignore à combien
-s'éleveront les frais de
+s'élèveront les frais de
 M. Huely mais je pense
 qu'ils seront en toutes
-inférieurs à 1000 frs.
-ce qui laisserait 6850 frs
+inférieurs à 1000 fr.
+et qui laisserait 6850 fr.
 environ disponible.
 Cette somme me paraît
 suffisante pour tenir
@@ -224,21 +201,24 @@ Commission permanente
 avant la fin de l'année.
 
 L. Junch
+
 16-X-28
 
 ## Images, Captions, And Visual Notes
-- A hole punch is present at the top center of the paper.
-- The entire document is handwritten.
+The page is a light blue card, approximately 8.5 cm wide by 21 cm high. There is a single circular hole punch near the top center of the card. All text on the page is handwritten in black ink.
 
 ## Uncertain Or Illegible
-- The signature appears to be "L. Junch" but could potentially be "L. Junck" or similar.
+None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and significant visual elements on the page.
+The transcription is complete and includes all visible text and notable visual features.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals likely to be useful as standalone wiki assets. The hole punch is a minor visual element and the content is primarily handwritten text."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page is a handwritten document, and there are no distinct images, photographs, or complex diagrams that would benefit from separate cropping. The entire page content is best represented by the literal transcription."
+}
 ```
 
 ## Page Metadata

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:41Z",
+  "created": "2026-05-17T13:50:32Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -8,23 +8,8 @@
   "page": 11,
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0011.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0011.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains only typewritten text and minor handwritten notes, with no significant images, illustrations, or diagrams to warrant creating visual regions.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten_annotation",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Sigue Pag 12",
-      "source_context": "Handwritten note at the bottom left of the page."
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "handwritten_annotation",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "11",
-      "source_context": "Handwritten page number at the bottom right."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

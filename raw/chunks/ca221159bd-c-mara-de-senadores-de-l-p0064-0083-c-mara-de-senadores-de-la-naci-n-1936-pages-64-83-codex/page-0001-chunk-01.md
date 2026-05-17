@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-5ed4443d1a33-P0001-01
+chunk_id: CHUNK-1467cf1d27c7-P0001-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83.codex.md
-converted_sha256: 5ed4443d1a33eb1b65edc1dfca1d2a131f0928a80248b9ba3ae34ee215dcd21a
+converted_sha256: 1467cf1d27c75590e52886fa27c4b8d602a5957d282e89da1c2ae9e181de78a6
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json
@@ -100,60 +100,58 @@ This page has been transcribed in its entirety.
 ```
 
 ## Page Metadata
-Page number: 65
+Page Number: 65
 
 ## Layout And Reading Order
-The page presents a table of contents or index-like structure with main titles centered and sub-items indented. There are two main sections, "TÍTULO III" and "TÍTULO IV", each with a descriptive subtitle and a list of chapters/sections with corresponding article and page ranges. Some partial words are visible along the right margin, likely from the preceding or following page's content bleeding through or being partially visible due to the binding.
+
+The page presents a table of contents or index-like structure with main titles centered, followed by sub-sections. The main titles "TÍTULO III" and "TÍTULO IV" are centered and in larger font. Sub-sections like "POLICÍA SANITARIA" and "DISPOSICIONES PENALES" are also centered but in a smaller font. The actual content entries are left-aligned, with some indented using a ">" symbol. Page numbers and article ranges are provided for each entry. There is also some partial text visible on the right margin, likely from the adjacent page.
 
 ## Literal Transcription
-```
-                                TÍTULO III
 
-                              POLICÍA SANITARIA
+TÍTULO III
 
-Capítulo      XI—HIGIENE. (Arts. 382 al 394, págs. 207 a 210.)
-    »         XII—TRANSPORTE DE CADÁVERES. (Arts. 395 al 398, págs. 210
-                                a 211.)
-    »         XIII—PRODUCTOS ALIMENTICIOS. (Arts. 399 al 404, págs. 211
-                                a 213.)
+POLICÍA SANITARIA
 
-                                TÍTULO IV
+Capítulo XI—HIGIENE. (Arts. 382 al 394, págs. 207 a 210.)
+> XII—TRANSPORTE DE CADÁVERES. (Arts. 395 al 398, págs. 210
+a 211.)
+> XIII—PRODUCTOS ALIMENTICIOS. (Arts. 399 al 404, págs. 211
+a 213.)
 
-                            DISPOSICIONES PENALES
+TÍTULO IV
+
+DISPOSICIONES PENALES
 
 Capítulo Unico—(Arts. 405 al 417, págs. 214 a 217.)
 
 APÉNDICE.—(Pág. 219.)
-```
-Right margin (partial words):
-```
-                                                                                              en
-                                                                                              no
-                                                                                              di
-                                                                                              se
-                                                                                              de
 
-                                                                                              en
-                                                                                              los
-                                                                                              aq
-                                                                                              en
+en
+no
+di
+se
+de
 
-                                                                                              ór
-                                                                                              pu
-                                                                                              cu
-```
+en
+los
+aq
+en
+
+ór
+pu
+cu
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+None.
 
 ## Completeness Audit
-All visible text on the page, including the page number and partial words on the right margin, has been transcribed. The layout and reading order have been preserved.
+All visible text on the page, including the partial text in the right margin, has been transcribed. The layout and formatting have been preserved as accurately as possible in Markdown.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 
 ## Page Metadata
 Page number: 66
@@ -336,3 +334,21 @@ para asegurar la persona del delincuente, que será puesto a la
 disposición de la autoridad respectiva en la primera estación
 que se tocare, acompañándole de un parte detallado del hecho
 criminal, con expresión de las personas que lo presenciaron.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page."}
+
+## Page Metadata
+Page number: 69
+
+## Layout And Reading Order
+The page presents text in a single column, with a page number centered at the top. The content consists of legal articles and related explanatory paragraphs, with some headings in bold. The reading order is strictly top-to-bottom.

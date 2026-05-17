@@ -1,0 +1,42 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2251af451385-P0001-02
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25.codex.md
+converted_sha256: 2251af4513856298af47a6c7d8f2c7878966ab49af92a74d0923c0d76e6e8093
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json
+page_start: 1
+page_end: 1
+part: 2
+---
+
+## Literal Transcription
+```text
+[Handwritten in pencil at top left corner]
+R3016
+
+[Stamped in a box]
+JACKET 1
+
+[Printed in a box]
+ARCHIVES
+1928-1932
+
+[Stamped in a box]
+JACKET 1
+
+SOCIÉTÉ DES NATIONS.
+LEAGUE OF NATIONS.
+
+[In a table]
+| CLASSEMENT. | REGISTRY N° |
+| :--- | :--- |
+| [Stamped] SOCIAL | [Handwritten] 11A | 2905 | 950 |
+| [Stamped] GENERAL | |
+
+[In a form]
+| Expéditeur: | Sujet: |
+| :--- | :--- |
+| | [Handwritten] 13th International Red Cross |
+| Date: | [Handwritten] Conference. The Hague. October 1928 |

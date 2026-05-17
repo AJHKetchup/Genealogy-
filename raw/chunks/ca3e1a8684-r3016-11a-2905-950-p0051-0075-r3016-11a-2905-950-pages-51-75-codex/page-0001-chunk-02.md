@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f4a33d4d5470-P0001-02
+chunk_id: CHUNK-0056730f6673-P0001-02
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
+converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -11,11 +11,27 @@ page_end: 1
 part: 2
 ---
 
+## Literal Transcription
+Cap tain Wallis.
+Please attach
+the file with the
+S. G. R.
+16. X. 28
+
+Captain Walters.
+
+## Images, Captions, And Visual Notes
+- A circular hole punch is present in the top left corner of the page.
+- A small ink dot is visible in the upper middle section of the page.
+
+## Uncertain Or Illegible
+None.
+
 ## Completeness Audit
-The transcription is complete and accurate. All visible text and relevant visual details have been captured.
+All visible text and significant visual elements on the page have been transcribed or noted.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor marks (a punched hole) which do not warrant separate image crops."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping; only text and minor marks."}
 
 ## Page Metadata
 Page: 57
@@ -262,26 +278,22 @@ The transcription is complete and includes all visible text, including handwritt
 ```
 
 ## Page Metadata
-Not applicable.
+Page number: 61
 
 ## Layout And Reading Order
-The page displays a single, rectangular grey card with handwritten text in pencil. The text is arranged in three lines, centered horizontally on the upper half of the card. A single hole punch is present at the top center of the card. The reading order is top-to-bottom for the handwritten lines.
+The page displays a single, rectangular piece of paper, possibly a tag or slip, with handwritten text in pencil. The text is arranged in a vertical block, starting near the top of the paper. There is a hole punched near the top center of the paper.
 
 ## Literal Transcription
 Registry
+___
 for put on file
-A. H. Kennedy
+A. Kennedy
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![converter-description: Front of a grey card with handwritten text: 'Registry', 'for put on file', 'A. H. Kennedy'. A hole punch is visible at the top center, and the top left corner is slightly creased.](../extracted-images/page-0061/page-0061-image-01-grey-card-with-handwritten-notes.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [15.5, 0.5, 84.5, 99.5]
-  - Source context: The entire page is a photograph of this card.
-
-The page is a photograph of a grey card. The card has a hole punch at the top center. The text transcribed above is handwritten in pencil on the card. The top left corner of the card is slightly bent/creased.
+The page is an image of a light grey paper slip. There is a circular hole punched near the top center of the slip. The top-left corner of the slip appears to be folded or slightly torn. The text is handwritten in pencil.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.
+All visible text and significant visual details on the page have been transcribed and noted.

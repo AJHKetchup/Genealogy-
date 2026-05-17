@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1f1aa86b03aa-P0001-07
+chunk_id: CHUNK-eb52548aa6a0-P0001-07
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: 1f1aa86b03aa5c91860880bddd2d162fee9c95bd5ffb94ffe0a80e003c79fdb0
+converted_sha256: eb52548aa6a0694bd151eaf2e82d107dbc7965c88bb070b38f3f515e34d81587
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json
@@ -10,6 +10,14 @@ page_start: 1
 page_end: 1
 part: 7
 ---
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```
+
+## Page Metadata
+59
 
 ## Layout And Reading Order
 The page presents a single column of text. It begins with a page number at the top left, followed by several paragraphs discussing the career of Dr. Grant and the history of the School of Medicine, including a description of the "Arco de Medicina." The page concludes with a quote from Dr. Carlos Grant del Río about his grandfather.

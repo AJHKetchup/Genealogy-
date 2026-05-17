@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:46Z",
+  "created": "2026-05-17T13:50:09Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -15,15 +15,15 @@
       "region_id": "vr_1",
       "kind": "logo",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "UNIVERSIDAD DE CONCEPCIÓN",
-      "source_context": "University logo at the top right of the page."
+      "caption_literal": "University of Concepción seal/logo",
+      "source_context": "The seal is positioned next to the main title 'Universidad de Concepción Facultad de Medicina'."
     },
     {
       "region_id": "vr_2",
       "kind": "logo",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "UNIVERSIDAD ACREDITADA\n4 AÑOS | HASTA SEPTIEMBRE 2016\nGESTIÓN | DOCENCIA PREGRADO | DOCENCIA POSTGRADO\nINVESTIGACIÓN | VINCULACIÓN CON EL MEDIO",
-      "source_context": "Accreditation logo and text in the bottom right corner."
+      "caption_literal": "UNIVERSIDAD ACREDITADA\n4 AÑOS | HASTA SEPTIEMBRE 2016\nDOCENCIA PREGRADO - DOCENCIA POSTGRADO\nINVESTIGACIÓN - VINCULACIÓN CON EL MEDIO",
+      "source_context": "This logo is accompanied by text detailing the university's accreditation status."
     }
   ],
   "flags": []

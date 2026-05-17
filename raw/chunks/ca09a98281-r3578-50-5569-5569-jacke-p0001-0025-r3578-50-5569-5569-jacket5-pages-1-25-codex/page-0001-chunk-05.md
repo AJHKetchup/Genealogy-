@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-30f403098674-P0001-05
+chunk_id: CHUNK-aacaba049ffb-P0001-05
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 30f403098674a38d6bfe0d7c19cf521eb114872ecd62cfed26f357f75a1b9b4d
+converted_sha256: aacaba049ffbdf38dadaa7bc9ddbf497a165ccdfd3c20b1f3b7a6ef63da3f190
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -10,86 +10,6 @@ page_start: 1
 page_end: 1
 part: 5
 ---
-
-## Literal Transcription
-
-9
-
-CHAPITRE PREMIER.—De l'installation des camps.
-
-ARTICLE 10.
-
-Les prisonniers de guerre seront logés dans des bâtiments ou dans
-des baraquements présentant toutes garanties possibles d'hygiène et
-de salubrité.
-Les locaux devront être entièrement à l'abri de l'humidité, suffi-
-samment chauffés et éclairés. Toutes les précautions devront être
-prises contre les dangers d'incendie.
-Quant aux dortoirs: surface totale, cube d'air minimum, aménage-
-ment et matériel de couchage, les conditions seront les mêmes que
-pour les troupes de dépôt de la Puissance détentrice.
-
-CHAPITRE 2.—De la nourriture et de l'habillement des prisonniers de
-guerre.
-
-ARTICLE 11.
-
-La ration alimentaire des prisonniers de guerre sera équivalente en
-quantité et qualité à celle des troupes de dépôt.
-Les prisonniers recevront, en outre, les moyens de préparer eux-
-mêmes les suppléments dont ils disposeraient.
-De l'eau potable en suffisance leur sera fournie. L'usage du tabac
-sera autorisé. Les prisonniers pourront être employés aux cuisines.
-Toutes mesures disciplinaires collectives portant sur la nourriture
-sont interdites.
-
-ARTICLE 12.
-
-L'habillement, le linge et les chaussures seront fournis aux prison-
-niers de guerre par la Puissance détentrice. Le remplacement et les
-réparations de ces effets devront être assurés régulièrement. En
-outre, les travailleurs devront recevoir une tenue de travail partout
-où la nature du travail l'exigera.
-Dans tous les camps seront installées des cantines où les prisonniers
-pourront se procurer, aux prix du commerce local, des denrées ali-
-mentaires et des objets usuels.
-Les bénéfices procurés par les cantines aux administrations des
-camps seront utilisés au profit des prisonniers.
-
-CHAPITRE 3.—De l'hygiène dans les camps.
-
-ARTICLE 13.
-
-Les belligérants seront tenus de prendre toutes les mesures d'hygiène
-nécessaires pour assurer la propreté et la salubrité des camps et pour
-prévenir les épidémies.
-Les prisonniers de guerre disposeront, jour et nuit, d'installations
-conformes aux règles de l'hygiène et maintenues en état constant de
-propreté.
-En outre, et sans préjudice des bains et douches dont les camps
-seront pourvus dans la mesure du possible, il sera fourni aux
-prisonniers pour leurs soins de propreté corporelle une quantité d'eau
-suffisante.
-Ils devront avoir la possibilité de se livrer à des exercices physiques
-et de bénéficier du plein air.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected. The page contains only text."}
-
-## Page Metadata
-Page number: 10
-
-## Layout And Reading Order
-The page presents a single column of text, structured into articles and chapters, with the page number at the top right. The content consists of legal or regulatory text in French.
 
 ## Literal Transcription
 
@@ -318,3 +238,90 @@ propres à indemniser équitablement les victimes.
 
 ## Images, Captions, And Visual Notes
 There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
+
+## Page Metadata
+Page number: 13
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal articles in French, with headings for chapters and articles. The content flows from top to bottom.
+
+## Literal Transcription
+13
+
+CHAPITRE 2.—De l'organisation du travail.
+
+ARTICLE 28.
+
+La Puissance détentrice assumera l'entière responsabilité de l'en-
+tretien, des soins, du traitement et du paiement des salaires des
+prisonniers de guerre travaillant pour le compte de particuliers.
+
+ARTICLE 29.
+
+Aucun prisonnier de guerre ne pourra être employé à des travaux
+auxquels il est physiquement inapte.
+
+ARTICLE 30.
+
+La durée du travail journalier des prisonniers de guerre, y compris
+celle du trajet d'aller et de retour, ne sera pas excessive et ne devra,
+en aucun cas, dépasser celle admise pour les ouvriers civils de la
+région employés au même travail. Il sera accordé à chaque prison-
+nier un repos de vingt-quatre heures consécutives chaque semaine, de
+préférence le dimanche.
+
+CHAPITRE 3.—Du travail prohibé.
+
+ARTICLE 31.
+
+Les travaux fournis par les prisonniers de guerre n'auront aucun
+rapport direct avec les opérations de la guerre. En particulier, il est
+interdit d'employer des prisonniers à la fabrication et au transport
+d'armes ou de munitions de toute nature, ainsi qu'au transport de
+matériel destiné à des unités combattantes.
+
+En cas de violation des dispositions de l'alinéa précédent, les
+prisonniers ont la latitude, après exécution ou commencement d'exé-
+cution de l'ordre, de faire présenter leurs réclamations par l'intermé-
+diaire des hommes de confiance dont les fonctions sont prévues aux
+articles 43 et 44, ou, à défaut d'homme de confiance, par l'intermé-
+diaire des représentants de la Puissance protectrice.
+
+ARTICLE 32.
+
+Il est interdit d'employer des prisonniers de guerre à des travaux
+insalubres ou dangereux.
+
+Toute aggravation des conditions du travail par mesure disciplinaire
+est interdite.
+
+CHAPITRE 4.—Des détachements de travail.
+
+ARTICLE 33.
+
+Le régime des détachements de travail devra être semblable à celui
+des camps de prisonniers de guerre, en particulier en ce qui concerne
+les conditions hygiéniques, la nourriture, les soins en cas d'accident
+ou de maladie, la correspondance et la réception des colis.
+
+Tout détachement de travail relèvera d'un camp de prisonniers.
+Le commandant de ce camp sera responsable de l'observation, dans le
+détachement de travail, des dispositions de la présente Convention.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.

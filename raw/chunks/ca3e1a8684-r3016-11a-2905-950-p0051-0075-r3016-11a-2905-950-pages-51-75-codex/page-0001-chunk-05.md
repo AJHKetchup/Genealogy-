@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f4a33d4d5470-P0001-05
+chunk_id: CHUNK-0056730f6673-P0001-05
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
+converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -11,5 +11,5 @@ page_end: 1
 part: 5
 ---
 
-## Literal Transcription
-Dr. Külz
+## Layout And Reading Order
+The page contains a typewritten letter in German, with some handwritten annotations and a stamped mark. The handwritten annotations are at the top left and top right. A large rectangular stamp is present in the upper left quadrant. The main body of the letter is presented in a single column, left-aligned, with a ragged right margin. The last line of the letter is truncated at the bottom right of the page.

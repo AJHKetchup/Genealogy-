@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:43Z",
+  "created": "2026-05-17T13:50:41Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -9,38 +9,78 @@
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-images/page-0108.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-markdown/page-0108.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [
+  "visual_regions": [],
+  "skipped_regions": [
     {
-      "region_id": "vr_1",
-      "kind": "diagram",
-      "caption_literal": "Fingerprint chart showing prints for the left and right hands, categorized by finger type, with handwritten classification marks.",
-      "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "The main body of the form, containing the ten fingerprint impressions and their associated handwritten marks.",
-      "confidence": "0.95",
-      "inline_anchor": "",
-      "bbox_pct": [
-        9.8,
-        22.0,
-        90.0,
-        90.0
-      ],
-      "bbox_pixels": [
-        56,
-        286,
-        555,
-        1191
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
-      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-images/page-0108.jpg",
-      "source": "raw/sources/S179-34-6.pdf",
-      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
-      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/manifest.json",
-      "page": 108,
-      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-markdown/page-0108.md"
+      "region_id": "fingerprint-1",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Left Thumb Fingerprint",
+      "source_context": "Fingerprint for the left thumb (Pulgar Izquierdo)."
+    },
+    {
+      "region_id": "fingerprint-2",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Right Thumb Fingerprint",
+      "source_context": "Fingerprint for the right thumb (Pulgar Derecho)."
+    },
+    {
+      "region_id": "fingerprint-3",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Left Index Fingerprint",
+      "source_context": "Fingerprint for the left index finger (Indice Izquierdo)."
+    },
+    {
+      "region_id": "fingerprint-4",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Right Index Fingerprint",
+      "source_context": "Fingerprint for the right index finger (Indice Derecho)."
+    },
+    {
+      "region_id": "fingerprint-5",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Left Middle Fingerprint",
+      "source_context": "Fingerprint for the left middle finger (Medio Izquierdo)."
+    },
+    {
+      "region_id": "fingerprint-6",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Right Middle Fingerprint",
+      "source_context": "Fingerprint for the right middle finger (Medio Derecho)."
+    },
+    {
+      "region_id": "fingerprint-7",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Left Ring Fingerprint",
+      "source_context": "Fingerprint for the left ring finger (Anular Izquierdo)."
+    },
+    {
+      "region_id": "fingerprint-8",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Right Ring Fingerprint",
+      "source_context": "Fingerprint for the right ring finger (Anular Derecho)."
+    },
+    {
+      "region_id": "fingerprint-9",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Left Pinky Fingerprint",
+      "source_context": "Fingerprint for the left pinky finger (Meñique Izquierdo)."
+    },
+    {
+      "region_id": "fingerprint-10",
+      "kind": "fingerprint",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Right Pinky Fingerprint",
+      "source_context": "Fingerprint for the right pinky finger (Meñique Derecho)."
     }
   ],
-  "skipped_regions": [],
   "flags": []
 }

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1f1aa86b03aa-P0001-04
+chunk_id: CHUNK-eb52548aa6a0-P0001-04
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: 1f1aa86b03aa5c91860880bddd2d162fee9c95bd5ffb94ffe0a80e003c79fdb0
+converted_sha256: eb52548aa6a0694bd151eaf2e82d107dbc7965c88bb070b38f3f515e34d81587
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json
@@ -140,10 +140,9 @@ All visible text on the page has been transcribed.
 Page number: 52
 
 ## Layout And Reading Order
-The page contains a newspaper article with a main title, date, and then the article text presented in two columns. There is a footer with a date.
+The page features a newspaper article. At the top left is the page number. Below that, centered, is the newspaper masthead "EL SUR" followed by a date line. The article title "El Hospital "Virginio Gómez González"" is centered below the date line. The main body of the article is presented in two columns, read from left to right. At the very bottom of the page, a footer line repeats the newspaper name and date.
 
 ## Literal Transcription
-```
 52
 
 EL SUR
@@ -162,17 +161,15 @@ preciso facultativo, con cuyo nom-
 bre se le designará en adelante, quien
 miró su modernización y quien im-
 pulsó la obra transformadora que ha-
-bía de convertirlo en la entidad que es
+bría de convertirlo en la entidad que es
 en la actualidad. Nada más justo, pues,
 que darle el nombre de quien dio vida
 al hospital moderno.
-
 La mente visionaria del doctor Vir-
 ginio Gómez, abrasada de celo creador,
 iluminó con poderosos destellos el pa-
 norama de nuestro progreso regional en
 el transcurso de años augurales.
-
 Llegó a Concepción al promediar la
 segunda década de este siglo. Era un
 hombre joven, cuya inquietud genial
@@ -183,16 +180,14 @@ europea, pero también había en él una
 sabiduría innata que prestaba todavía
 mayor brillo a su ciencia y a sus tras-
 cendentales iniciativas.
-
 El prestigio de que se rodeó rápi-
 damente en esta zona y en el ámbito más
-allá de las esferas nacionales, fue el
+amplio de las esferas nacionales, fue el
 natural efluvio de su extraordinaria
 vergadura moral, de la solidez de su
 preparación y de la inspiración genui-
 namente superior que guió cada uno de
 sus pasos.
-
 Hombres como el doctor Virginio
 Gómez, son un privilegio del que muy
 tarde en tarde disfrutan las comuni-
@@ -200,9 +195,9 @@ dades humanas, y cuya existencia se ve
 grabada por acontecimientos trascen-
 dentales de imperecedero beneficio para
 sus semejantes.
-
 Quizás si algunos pocos espíritus es-
-cépticos, fuera quizás más propio ahon-
+
+cepción, fuera quizás más propio ahon-
 dar en las iniciativas que vincularon di-
 rectamente al doctor Gómez con esta
 institución, pero, dicho sea en homenaje
@@ -214,7 +209,6 @@ te, por cierto — de la grandiosa visión
 transformadora del medio regional, a la
 que el insigne ciudadano entregó sus
 mejores energías y capacidades.
-
 El espacio es breve, hemos de rese-
 ñar sin embargo, aun cuando sólo sea
 en sus líneas más generales, su extraor-
@@ -226,18 +220,17 @@ en una de las obras de más envergadu-
 ra que se ha conocido y hecho realidad
 en el país: la Universidad de Concep-
 ción, valioso aporte a la cultura chilena,
-a través del cual intuía, con su clarivi-
-dencia privilegiada, la más eficaz y per-
+a través del cual intuía, con su clari-
+videncia privilegiada, la más eficaz y per-
 durable herramienta para el logro cabal
 de todos los progresos que en los dis-
 tintos campos angustiaban su sensibili-
 dad de hombre superior, de médico, de
 auténtico filántropo.
-
 Tenía el claro convencimiento de
 que la gran aspiración de contar con un
 hospital moderno, cuya urgencia se ha-
-cía y más angustiosa, prosperaría
+cía más y más angustiosa, prosperaría
 necesariamente, a parejas con el desen-
 volvimiento del nuevo plantel universi-
 tario, cómo sabía igualmente que era
@@ -250,7 +243,6 @@ de programas y de esfuerzos que se im-
 ponía desplegar en esas horas fecundas,
 cuando todo lo que es hoy realidad flo-
 reciente, no era sino sueños visionarios.
-
 Sintió, por cierto, en todas sus trá-
 gicas y dolorosas proyecciones lo que
 significaba un establecimiento hospita-
@@ -261,7 +253,6 @@ visión de médico eminente y se propuso
 impulsar, contra todos los obstáculos, la
 creación de un hospital moderno. Y su
 anhelo se realizó.
-
 Al dar el nombre del doctor Virgi-
 nio Gómez al Hospital penquista, Con-
 cepción tributa un unánime y renovado
@@ -270,13 +261,3 @@ un deber de gratitud esencial hacia el
 hombre ilustre y su obra imperecedera.
 
 El Sur 3 de diciembre de 1959
-```
-
-## Images, Captions, And Visual Notes
-The page contains no images or captions.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.

@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-17T10:59:37Z",
+  "updated": "2026-05-17T13:54:38Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -52,63 +52,68 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:49:38Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T02:46:50Z",
       "started_at": "2026-05-16T02:46:50Z",
       "completed_at": "2026-05-17T10:26:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T13:49:38Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:40Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T03:01:17Z",
       "started_at": "2026-05-16T03:01:17Z",
-      "completed_at": "2026-05-17T10:27:13Z",
+      "completed_at": "2026-05-17T13:49:40Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:38Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T03:29:02Z",
       "started_at": "2026-05-16T03:29:02Z",
-      "completed_at": "2026-05-17T10:27:14Z",
+      "completed_at": "2026-05-17T13:49:38Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0001": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:19Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-17T10:26:34Z",
+      "completed_at": "2026-05-17T13:49:19Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0002": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:22Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:49:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0003": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:20Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-17T10:26:35Z",
+      "completed_at": "2026-05-17T13:49:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001": {
       "status": "released",
@@ -120,14 +125,15 @@
       "released_at": "2026-05-16T18:22:50Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0001": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:26Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-17T10:30:16Z",
+      "completed_at": "2026-05-17T13:50:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0001": {
       "status": "released",
@@ -317,14 +323,15 @@
       "completed_at": "2026-05-16T17:38:56Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0005": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
-      "completed_at": "2026-05-17T10:26:38Z",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:27Z",
+      "note": "Completed by Gemini route lite",
+      "completed_at": "2026-05-17T13:49:27Z",
       "claimed_at": "2026-05-17T08:42:02Z",
       "started_at": "2026-05-17T08:42:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0006": {
       "status": "done",
@@ -362,14 +369,15 @@
       "completed_at": "2026-05-16T17:41:03Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0004": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:22Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T17:41:06Z",
       "started_at": "2026-05-16T17:41:06Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:49:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0011": {
       "status": "done",
@@ -742,74 +750,80 @@
       "completed_at": "2026-05-16T20:32:15Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:37Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T10:26:54Z",
+      "completed_at": "2026-05-17T13:49:37Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:36Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T10:26:41Z",
+      "completed_at": "2026-05-17T13:49:36Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:55Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T09:49:58Z",
+      "completed_at": "2026-05-17T13:49:55Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:15Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "completed_at": "2026-05-17T09:49:26Z"
+      "completed_at": "2026-05-17T13:50:15Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:49:39Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "completed_at": "2026-05-17T10:26:46Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T13:49:39Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:38Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:49:38Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:48Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
-      "completed_at": "2026-05-17T09:49:01Z",
+      "completed_at": "2026-05-17T13:49:48Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004": {
       "status": "released",
@@ -1795,92 +1809,100 @@
       "released_at": "2026-05-17T10:59:15Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0005": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:16Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T08:42:01Z",
       "started_at": "2026-05-17T08:42:01Z",
-      "completed_at": "2026-05-17T09:49:16Z",
+      "completed_at": "2026-05-17T13:49:16Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0002": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:53:24Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T08:42:04Z",
       "started_at": "2026-05-17T08:42:04Z",
       "completed_at": "2026-05-17T10:26:45Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T13:53:24Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0004": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:35Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:05Z",
       "started_at": "2026-05-17T08:42:05Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep",
+      "completed_at": "2026-05-17T13:49:35Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0005": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:34Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:05Z",
       "started_at": "2026-05-17T08:42:05Z",
-      "completed_at": "2026-05-17T10:26:33Z",
+      "completed_at": "2026-05-17T13:49:34Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:07Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:09Z",
       "started_at": "2026-05-17T08:42:09Z",
-      "completed_at": "2026-05-17T10:26:45Z",
+      "completed_at": "2026-05-17T13:50:07Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T10:58:56Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0005": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:18Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:12Z",
       "started_at": "2026-05-17T08:42:12Z",
-      "completed_at": "2026-05-17T10:26:49Z",
+      "completed_at": "2026-05-17T13:50:18Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0006": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:14Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:14Z",
       "started_at": "2026-05-17T08:42:14Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:50:14Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0007": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:53:58Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T08:42:16Z",
       "started_at": "2026-05-17T08:42:16Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z"
+      "released_at": "2026-05-17T13:53:58Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0008": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:09Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:19Z",
       "started_at": "2026-05-17T08:42:19Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:50:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25:p0002": {
       "status": "released",
@@ -2672,222 +2694,241 @@
       "completed_at": "2026-05-17T08:42:51Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0065": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:21Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:18Z",
       "started_at": "2026-05-17T09:10:18Z",
-      "completed_at": "2026-05-17T10:26:38Z",
+      "completed_at": "2026-05-17T13:49:21Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0009": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:25Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:18Z",
       "started_at": "2026-05-17T09:10:18Z",
-      "completed_at": "2026-05-17T10:26:47Z",
+      "completed_at": "2026-05-17T13:49:25Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75:p0053": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:29Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:19Z",
       "started_at": "2026-05-17T09:10:19Z",
-      "completed_at": "2026-05-17T10:26:34Z",
+      "completed_at": "2026-05-17T13:49:29Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50:p0037": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:35Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
-      "completed_at": "2026-05-17T10:26:35Z",
+      "completed_at": "2026-05-17T13:49:35Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50:p0039": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:35Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
-      "completed_at": "2026-05-17T10:26:33Z",
+      "completed_at": "2026-05-17T13:49:35Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0052": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:41Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:49:41Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0053": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:42Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:49:42Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40:p0029": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:53:36Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T13:53:36Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40:p0030": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:54Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
-      "completed_at": "2026-05-17T10:26:40Z",
+      "completed_at": "2026-05-17T13:49:54Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0052": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:01Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:50:01Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0053": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:59Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
-      "completed_at": "2026-05-17T10:26:42Z",
+      "completed_at": "2026-05-17T13:49:59Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:16Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:39Z",
       "started_at": "2026-05-17T09:10:39Z",
-      "completed_at": "2026-05-17T10:26:52Z",
+      "completed_at": "2026-05-17T13:50:16Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z"
+      "released_at": "2026-05-17T10:58:57Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0010": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:27Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:41Z",
       "started_at": "2026-05-17T09:10:41Z",
-      "completed_at": "2026-05-17T10:26:54Z",
+      "completed_at": "2026-05-17T13:50:27Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:33Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:10:44Z",
       "started_at": "2026-05-17T09:10:44Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "completed_at": "2026-05-17T09:49:30Z"
+      "completed_at": "2026-05-17T13:50:33Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0012": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:15Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:46Z",
       "started_at": "2026-05-17T09:10:46Z",
-      "completed_at": "2026-05-17T10:26:44Z",
+      "completed_at": "2026-05-17T13:50:15Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z"
+      "released_at": "2026-05-17T10:58:57Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:14Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:10:50Z",
       "started_at": "2026-05-17T09:10:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T13:54:14Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:16Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:52Z",
       "started_at": "2026-05-17T09:10:52Z",
-      "completed_at": "2026-05-17T09:15:26Z",
+      "completed_at": "2026-05-17T13:50:16Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0015": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:58Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:20Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:55Z",
       "started_at": "2026-05-17T09:10:55Z",
-      "completed_at": "2026-05-17T10:26:42Z",
+      "completed_at": "2026-05-17T13:50:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:58Z"
+      "released_at": "2026-05-17T10:58:58Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0016": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:20Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:57Z",
       "started_at": "2026-05-17T09:10:57Z",
-      "completed_at": "2026-05-17T10:26:39Z",
+      "completed_at": "2026-05-17T13:50:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z"
+      "released_at": "2026-05-17T10:58:57Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0017": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:50:25Z",
+      "note": "Gemini output failed source-prep review: many_uncertain_readings",
       "claimed_at": "2026-05-17T09:11:00Z",
       "started_at": "2026-05-17T09:11:00Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z",
+      "released_at": "2026-05-17T13:50:25Z",
       "completed_at": "2026-05-17T10:26:52Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0018": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:21Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-17T10:26:39Z",
+      "completed_at": "2026-05-17T13:50:21Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z"
+      "released_at": "2026-05-17T10:58:57Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25:p0002": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:19Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-17T10:26:39Z",
+      "completed_at": "2026-05-17T13:50:19Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0006": {
       "status": "released",
@@ -10635,310 +10676,338 @@
       "completed_at": "2026-05-17T09:16:46Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100:p0092": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:21Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:38Z",
       "started_at": "2026-05-17T09:43:38Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "completed_at": "2026-05-17T10:26:46Z"
+      "completed_at": "2026-05-17T13:49:21Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0100": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:27Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:39Z",
       "started_at": "2026-05-17T09:43:39Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep",
+      "completed_at": "2026-05-17T13:49:27Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0101": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:32Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:40Z",
       "started_at": "2026-05-17T09:43:40Z",
-      "completed_at": "2026-05-17T10:26:48Z",
+      "completed_at": "2026-05-17T13:49:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75:p0072": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:26Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:40Z",
       "started_at": "2026-05-17T09:43:41Z",
-      "completed_at": "2026-05-17T10:26:34Z",
+      "completed_at": "2026-05-17T13:49:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0056": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:41Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:35Z",
+      "completed_at": "2026-05-17T13:49:41Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0061": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:51Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:38Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:37Z",
+      "completed_at": "2026-05-17T13:49:38Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:51Z"
+      "released_at": "2026-05-17T10:58:51Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0063": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:48Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:49:48Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0065": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:42Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:35Z",
+      "completed_at": "2026-05-17T13:49:42Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0069": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:43Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:39Z",
+      "completed_at": "2026-05-17T13:49:43Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0072": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:48Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:42Z",
+      "completed_at": "2026-05-17T13:49:48Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0074": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:44Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:38Z",
+      "completed_at": "2026-05-17T13:49:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0077": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:50Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
-      "completed_at": "2026-05-17T10:26:48Z",
+      "completed_at": "2026-05-17T13:49:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0078": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:51Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:49Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:43:45Z",
       "started_at": "2026-05-17T09:43:45Z",
-      "completed_at": "2026-05-17T10:26:40Z",
+      "completed_at": "2026-05-17T13:49:49Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:51Z"
+      "released_at": "2026-05-17T10:58:51Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0079": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:47Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:43:45Z",
       "started_at": "2026-05-17T09:43:45Z",
-      "completed_at": "2026-05-17T10:26:39Z",
+      "completed_at": "2026-05-17T13:49:47Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0105": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:46Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:45Z",
       "started_at": "2026-05-17T09:43:45Z",
-      "completed_at": "2026-05-17T10:26:39Z",
+      "completed_at": "2026-05-17T13:49:46Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0056": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:57Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
-      "completed_at": "2026-05-17T10:26:47Z",
+      "completed_at": "2026-05-17T13:49:57Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0057": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:58Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
-      "completed_at": "2026-05-17T10:26:41Z",
+      "completed_at": "2026-05-17T13:49:58Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0068": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:57Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
-      "completed_at": "2026-05-17T10:26:40Z",
+      "completed_at": "2026-05-17T13:49:57Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0078": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:56Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
-      "completed_at": "2026-05-17T10:26:41Z",
+      "completed_at": "2026-05-17T13:49:56Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0079": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:59Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:47Z",
       "started_at": "2026-05-17T09:43:47Z",
-      "completed_at": "2026-05-17T10:26:46Z",
+      "completed_at": "2026-05-17T13:49:59Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0080": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:59Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:47Z",
       "started_at": "2026-05-17T09:43:47Z",
-      "completed_at": "2026-05-17T10:26:40Z",
+      "completed_at": "2026-05-17T13:49:59Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0095": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:55Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:43:47Z",
       "started_at": "2026-05-17T09:43:47Z",
-      "completed_at": "2026-05-17T10:26:34Z",
+      "completed_at": "2026-05-17T13:49:55Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0067": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:32Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:44:25Z",
       "started_at": "2026-05-17T09:44:25Z",
-      "completed_at": "2026-05-17T10:26:42Z",
+      "completed_at": "2026-05-17T13:50:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0068": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:19Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:44:25Z",
       "started_at": "2026-05-17T09:44:25Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:50:19Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0083": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:22Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:44:26Z",
       "started_at": "2026-05-17T09:44:26Z",
-      "completed_at": "2026-05-17T10:26:37Z",
+      "completed_at": "2026-05-17T13:50:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0087": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:23Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:44:26Z",
       "started_at": "2026-05-17T09:44:26Z",
-      "completed_at": "2026-05-17T10:26:35Z",
+      "completed_at": "2026-05-17T13:50:23Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0090": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:11Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:44:26Z",
       "started_at": "2026-05-17T09:44:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z",
+      "released_at": "2026-05-17T13:54:11Z",
       "completed_at": "2026-05-17T10:26:52Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0094": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:11Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:11Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0096": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:26Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T13:54:26Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0099": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:53Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
-      "completed_at": "2026-05-17T10:26:44Z",
+      "completed_at": "2026-05-17T13:50:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0100": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:17Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T13:54:17Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263:p0260": {
       "status": "released",
@@ -17569,217 +17638,233 @@
       "completed_at": "2026-05-17T09:52:07Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150:p0133": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:22Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:17Z",
       "started_at": "2026-05-17T10:21:17Z",
-      "completed_at": "2026-05-17T10:26:37Z",
+      "completed_at": "2026-05-17T13:49:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket3-pages-126-150:p0128": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:25Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:20Z",
       "started_at": "2026-05-17T10:21:20Z",
-      "completed_at": "2026-05-17T10:26:34Z",
+      "completed_at": "2026-05-17T13:49:25Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0107": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:46Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:25Z",
       "started_at": "2026-05-17T10:21:25Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:49:46Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0108": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:53Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T10:21:25Z",
       "started_at": "2026-05-17T10:21:25Z",
-      "completed_at": "2026-05-17T10:26:42Z",
+      "completed_at": "2026-05-17T13:49:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150:p0144": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:56Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:25Z",
       "started_at": "2026-05-17T10:21:25Z",
-      "completed_at": "2026-05-17T10:26:42Z",
+      "completed_at": "2026-05-17T13:49:56Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120:p0107": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:52Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:09Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
-      "completed_at": "2026-05-17T10:26:46Z",
+      "completed_at": "2026-05-17T13:50:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:52Z"
+      "released_at": "2026-05-17T10:58:52Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120:p0109": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:07Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:50:07Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120:p0120": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:05Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
-      "completed_at": "2026-05-17T10:26:40Z",
+      "completed_at": "2026-05-17T13:50:05Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0121": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:04Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
-      "completed_at": "2026-05-17T10:26:37Z",
+      "completed_at": "2026-05-17T13:50:04Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0122": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:02Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
-      "completed_at": "2026-05-17T10:26:36Z",
+      "completed_at": "2026-05-17T13:50:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0123": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:59Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
-      "completed_at": "2026-05-17T10:26:35Z",
+      "completed_at": "2026-05-17T13:49:59Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0103": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:16Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T10:22:08Z",
       "started_at": "2026-05-17T10:22:08Z",
       "completed_at": "2026-05-17T10:26:37Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:16Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0105": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:29Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:22:08Z",
       "started_at": "2026-05-17T10:22:08Z",
-      "completed_at": "2026-05-17T10:26:37Z",
+      "completed_at": "2026-05-17T13:50:29Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T10:58:56Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0108": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:41Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:22:08Z",
       "started_at": "2026-05-17T10:22:08Z",
-      "completed_at": "2026-05-17T10:26:43Z",
+      "completed_at": "2026-05-17T13:50:41Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0109": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:31Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T10:22:09Z",
       "started_at": "2026-05-17T10:22:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:31Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0110": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:53:53Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
       "claimed_at": "2026-05-17T10:22:09Z",
       "started_at": "2026-05-17T10:22:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T13:53:53Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0112": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:29Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T10:22:09Z",
       "started_at": "2026-05-17T10:22:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:29Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0114": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:27Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T10:22:10Z",
       "started_at": "2026-05-17T10:22:10Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:27Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0116": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:27Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T10:22:10Z",
       "started_at": "2026-05-17T10:22:10Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:27Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0118": {
       "status": "released",
-      "updated_at": "2026-05-17T10:58:56Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "updated_at": "2026-05-17T13:54:38Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T10:22:10Z",
       "started_at": "2026-05-17T10:22:10Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:56Z"
+      "released_at": "2026-05-17T13:54:38Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0119": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:57Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:50:57Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
-      "completed_at": "2026-05-17T10:26:40Z",
+      "completed_at": "2026-05-17T13:50:57Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:57Z"
+      "released_at": "2026-05-17T10:58:57Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0131": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:55Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:53:04Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:55Z"
+      "released_at": "2026-05-17T10:58:55Z",
+      "agent": "gemini-source-prep",
+      "completed_at": "2026-05-17T13:53:04Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0132": {
       "status": "released",
@@ -23736,22 +23821,26 @@
       "completed_at": "2026-05-17T10:30:54Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175:p0163": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:54Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:23Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:53:00Z",
       "started_at": "2026-05-17T10:53:00Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:54Z"
+      "released_at": "2026-05-17T10:58:54Z",
+      "agent": "gemini-source-prep",
+      "completed_at": "2026-05-17T13:49:23Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200:p0193": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:58:53Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:27Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T10:53:04Z",
       "started_at": "2026-05-17T10:53:04Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:58:53Z"
+      "released_at": "2026-05-17T10:58:53Z",
+      "agent": "gemini-source-prep",
+      "completed_at": "2026-05-17T13:49:27Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0159": {
       "status": "released",
@@ -29584,6 +29673,168 @@
       "started_at": "2026-05-17T10:58:50Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:59:37Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225:p0216": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:21Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:50Z",
+      "started_at": "2026-05-17T13:47:50Z",
+      "completed_at": "2026-05-17T13:49:21Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225:p0225": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:23Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:50Z",
+      "started_at": "2026-05-17T13:47:50Z",
+      "completed_at": "2026-05-17T13:49:23Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket5-pages-251-275:p0251": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:20Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:50Z",
+      "started_at": "2026-05-17T13:47:50Z",
+      "completed_at": "2026-05-17T13:49:20Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300:p0291": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:22Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:51Z",
+      "started_at": "2026-05-17T13:47:51Z",
+      "completed_at": "2026-05-17T13:49:22Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375:p0375": {
+      "status": "released",
+      "updated_at": "2026-05-17T13:49:32Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "claimed_at": "2026-05-17T13:47:51Z",
+      "started_at": "2026-05-17T13:47:51Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T13:49:32Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0414": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:22Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:51Z",
+      "started_at": "2026-05-17T13:47:51Z",
+      "completed_at": "2026-05-17T13:49:22Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243:p0228": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:25Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:53Z",
+      "started_at": "2026-05-17T13:47:54Z",
+      "completed_at": "2026-05-17T13:49:25Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0286": {
+      "status": "released",
+      "updated_at": "2026-05-17T13:49:26Z",
+      "note": "Gemini output failed source-prep review: many_uncertain_readings",
+      "claimed_at": "2026-05-17T13:47:54Z",
+      "started_at": "2026-05-17T13:47:54Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T13:49:26Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225:p0216": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:25Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:56Z",
+      "started_at": "2026-05-17T13:47:56Z",
+      "completed_at": "2026-05-17T13:49:25Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225:p0217": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:26Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:56Z",
+      "started_at": "2026-05-17T13:47:57Z",
+      "completed_at": "2026-05-17T13:49:26Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250:p0236": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:27Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:57Z",
+      "started_at": "2026-05-17T13:47:57Z",
+      "completed_at": "2026-05-17T13:49:27Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275:p0252": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:26Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:57Z",
+      "started_at": "2026-05-17T13:47:57Z",
+      "completed_at": "2026-05-17T13:49:26Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300:p0294": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:28Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:58Z",
+      "started_at": "2026-05-17T13:47:58Z",
+      "completed_at": "2026-05-17T13:49:28Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325:p0313": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:28Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:58Z",
+      "started_at": "2026-05-17T13:47:58Z",
+      "completed_at": "2026-05-17T13:49:28Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0406": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:30Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:47:58Z",
+      "started_at": "2026-05-17T13:47:58Z",
+      "completed_at": "2026-05-17T13:49:30Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275:p0261": {
+      "status": "released",
+      "updated_at": "2026-05-17T13:49:50Z",
+      "note": "Gemini output failed source-prep review: many_uncertain_readings",
+      "claimed_at": "2026-05-17T13:48:06Z",
+      "started_at": "2026-05-17T13:48:06Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T13:49:50Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275:p0262": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:47Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:48:06Z",
+      "started_at": "2026-05-17T13:48:06Z",
+      "completed_at": "2026-05-17T13:49:47Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300:p0300": {
+      "status": "done",
+      "updated_at": "2026-05-17T13:49:47Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T13:48:06Z",
+      "started_at": "2026-05-17T13:48:07Z",
+      "completed_at": "2026-05-17T13:49:47Z"
     }
   }
 }
