@@ -1,169 +1,21 @@
 {
-  "created": "2026-05-17T00:11:38Z",
+  "created": "2026-05-17T00:27:12Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
   "limit": 0,
-  "scan_limit": 12,
-  "parallelism": 4,
+  "scan_limit": 1,
+  "parallelism": 1,
   "filters": {
-    "source": "",
+    "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
     "source_sha256": ""
   },
-  "inspected": 12,
-  "accepted": 12,
+  "inspected": 0,
+  "accepted": 0,
   "unusable": 0,
   "errors": 0,
-  "skipped": {
-    "cached_error": 6
-  },
-  "tasks": [
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0192",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 192,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0192.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 608,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0192.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0193",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 193,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0193.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 594,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0193.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0190",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 190,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0190.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 637,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0190.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0191",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 191,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0191.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 625,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0191.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0195",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 195,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0195.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 468,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0195.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0194",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 194,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0194.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 506,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0194.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0196",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 196,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0196.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 553,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0196.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0197",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 197,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0197.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 424,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0197.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0198",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 198,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0198.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 531,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0198.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0199",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 199,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0199.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 601,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0199.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0200",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 200,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0200.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 675,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0200.md"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0201",
-      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
-      "page": 201,
-      "status": "rough_ok",
-      "discovery_path": "raw/discovery/docling/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-0201.md",
-      "readability_flags": [],
-      "profile_version": 2,
-      "text_chars": 748,
-      "extracted_image_count": 0,
-      "basic_output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203/page-markdown/page-0201.md"
-    }
-  ],
+  "skipped": {},
+  "tasks": [],
   "blockers": [],
-  "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "finished": "2026-05-17T00:13:55Z"
+  "finished": "2026-05-17T00:27:12Z"
 }

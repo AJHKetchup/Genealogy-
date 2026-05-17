@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T00:18:14Z",
+  "created": "2026-05-17T00:27:24Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -9,16 +9,16 @@
   "settings": {
     "conversion_qc": false,
     "conversion_only": true,
-    "page_range": "1-20",
+    "page_range": "1",
     "restore_limit": 1,
     "pages_per_job": 25,
-    "new_pages_limit": 20,
+    "new_pages_limit": 1,
     "batch_pages": 1,
     "queue_limit": 10000,
     "stale_minutes": 360,
     "fastlane_limit": 0,
     "dry_run": false,
-    "source_filter": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+    "source_filter": "raw/sources/ACICR_B_CR_177_001_002.pdf",
     "source_sha256": ""
   },
   "steps": [
@@ -27,9 +27,9 @@
       "status": "ran",
       "detail": {
         "action": "restore",
-        "created": "2026-05-17T00:18:14.169500+00:00",
+        "created": "2026-05-17T00:27:24.570675+00:00",
         "filters": {
-          "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+          "source": "raw/sources/ACICR_B_CR_177_001_002.pdf",
           "source_sha256": ""
         },
         "total_files": 1,
@@ -98,12 +98,11 @@
   "queues": {
     "source_prep_batches": {
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
-      "task_count": 119,
+      "task_count": 10,
       "status_counts": {
-        "needs_reread": 11,
-        "todo": 108
+        "needs_reread": 10
       }
     }
   },
-  "finished": "2026-05-17T00:18:15Z"
+  "finished": "2026-05-17T00:27:25Z"
 }
