@@ -41,11 +41,11 @@ on:
       discovery_scan_limit:
         description: "Maximum queued pages to inspect with Docling discovery"
         required: false
-        default: "12000"
+        default: "2000"
       discovery_parallelism:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
-        default: "64"
+        default: "32"
   schedule:
     - cron: "*/15 * * * *"
 
@@ -79,8 +79,8 @@ jobs:
       RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '' }}
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'schedule' && '8000' || github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
-      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '12000' || github.event.inputs.discovery_scan_limit || '12000' }}
-      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '64' || github.event.inputs.discovery_parallelism || '64' }}
+      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '2000' || github.event.inputs.discovery_scan_limit || '2000' }}
+      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '32' || github.event.inputs.discovery_parallelism || '32' }}
       RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}
     steps:
       - name: Check out repository
