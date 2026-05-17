@@ -199,6 +199,10 @@ jobs:
               --stale-minutes 360
           fi
 
+      - name: Summarize source-prep run
+        if: always() && steps.preflight.outputs.ready == 'true'
+        run: python -m historic_doc_ingest.genealogy_wiki source-prep-cloud-report --root . >> "$GITHUB_STEP_SUMMARY"
+
       - name: Publish conversion outputs
         if: steps.preflight.outputs.ready == 'true'
         run: |

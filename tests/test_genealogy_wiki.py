@@ -993,6 +993,67 @@ def test_cloud_workflow_has_continuous_schedule() -> None:
     assert "cancel-in-progress: false" in workflow
 
 
+def test_cloud_workflow_writes_source_prep_step_summary() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "Summarize source-prep run" in workflow
+    assert "source-prep-cloud-report --root . >> \"$GITHUB_STEP_SUMMARY\"" in workflow
+
+
+def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    automation = tmp_path / "research" / "_automation"
+    automation.mkdir(parents=True, exist_ok=True)
+    (automation / "source-prep-docling-state.json").write_text(
+        json.dumps({"inspected": 9, "accepted": 3, "unusable": 5, "errors": 1, "skipped": {"claimed": 2}}),
+        encoding="utf-8",
+    )
+    (automation / "gemini-source-prep-state.json").write_text(
+        json.dumps(
+            {
+                "processed": 5,
+                "completed": 4,
+                "released": 1,
+                "discovery_skipped": 3,
+                "media_skipped": 0,
+                "route_counts": {"lite": 3, "pro": 2},
+                "visual_regions": {"cropped": 2},
+            }
+        ),
+        encoding="utf-8",
+    )
+    (automation / "cloud-source-prep-heartbeat-state.json").write_text(
+        json.dumps({"blockers": ["r2 credentials missing"]}),
+        encoding="utf-8",
+    )
+    (automation / "source-prep-batches-state.json").write_text(
+        json.dumps(
+            {
+                "global_queue": True,
+                "filters": {"source": "", "source_sha256": ""},
+                "summary": {
+                    "task_count": 455,
+                    "status_counts": {"needs_reread": 27, "todo": 428},
+                    "media_type_counts": {"pdf": 451, "image": 4},
+                },
+                "skipped_media_tasks": 1,
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    report = genealogy_wiki.build_source_prep_cloud_report(tmp_path)
+
+    assert "- Queue scope: global" in report
+    assert "- Queue tasks: 455" in report
+    assert '- Queue statuses: {"needs_reread": 27, "todo": 428}' in report
+    assert "- Accepted: 3" in report
+    assert "- Unusable: 5" in report
+    assert '- Route counts: {"lite": 3, "pro": 2}' in report
+    assert "- r2 credentials missing" in report
+
+
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

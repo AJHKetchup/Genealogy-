@@ -6438,6 +6438,74 @@ def write_source_prep_batch_queue_state(
     return output_path
 
 
+def source_prep_report_value(value: object, default: object = 0) -> object:
+    if value is None or value == "":
+        return default
+    return value
+
+
+def source_prep_report_json(value: object) -> str:
+    if not value:
+        return "{}"
+    return json.dumps(value, ensure_ascii=False, sort_keys=True)
+
+
+def build_source_prep_cloud_report(root: Path) -> str:
+    paths = WikiPaths(root.resolve())
+    automation_dir = paths.research / "_automation"
+    docling = read_json_payload(automation_dir / "source-prep-docling-state.json")
+    gemini = read_json_payload(automation_dir / "gemini-source-prep-state.json")
+    heartbeat = read_json_payload(automation_dir / "cloud-source-prep-heartbeat-state.json")
+    batches = read_json_payload(source_prep_batch_queue_state_path(paths.root))
+
+    queue_summary_payload = batches.get("summary", {}) if isinstance(batches.get("summary"), dict) else {}
+    heartbeat_blockers = heartbeat.get("blockers", []) if isinstance(heartbeat.get("blockers"), list) else []
+    docling_blockers = docling.get("blockers", []) if isinstance(docling.get("blockers"), list) else []
+    blockers = [str(item) for item in [*heartbeat_blockers, *docling_blockers] if str(item).strip()]
+    filters = batches.get("filters", {}) if isinstance(batches.get("filters"), dict) else {}
+    queue_scope = "global" if batches.get("global_queue") is True else "filtered"
+    if not batches:
+        queue_scope = "missing"
+
+    lines = [
+        "## Cloud Source Prep Summary",
+        "",
+        f"- Queue scope: {queue_scope}",
+        f"- Queue tasks: {source_prep_report_value(queue_summary_payload.get('task_count'))}",
+        f"- Queue statuses: {source_prep_report_json(queue_summary_payload.get('status_counts'))}",
+        f"- Queue media: {source_prep_report_json(queue_summary_payload.get('media_type_counts'))}",
+        f"- Audio/video skipped from queue: {source_prep_report_value(batches.get('skipped_media_tasks'))}",
+        f"- Queue filters: {source_prep_report_json(filters)}",
+        "",
+        "### Docling Baseline",
+        "",
+        f"- Inspected: {source_prep_report_value(docling.get('inspected'))}",
+        f"- Accepted: {source_prep_report_value(docling.get('accepted'))}",
+        f"- Unusable: {source_prep_report_value(docling.get('unusable'))}",
+        f"- Errors: {source_prep_report_value(docling.get('errors'))}",
+        f"- Skipped: {source_prep_report_json(docling.get('skipped'))}",
+        "",
+        "### Gemini Fallback",
+        "",
+        f"- Processed: {source_prep_report_value(gemini.get('processed'))}",
+        f"- Completed: {source_prep_report_value(gemini.get('completed'))}",
+        f"- Released: {source_prep_report_value(gemini.get('released'))}",
+        f"- Discovery-skipped: {source_prep_report_value(gemini.get('discovery_skipped'))}",
+        f"- Media-skipped: {source_prep_report_value(gemini.get('media_skipped'))}",
+        f"- Route counts: {source_prep_report_json(gemini.get('route_counts'))}",
+        f"- Visual regions: {source_prep_report_json(gemini.get('visual_regions'))}",
+        "",
+        "### Blockers",
+        "",
+    ]
+    if blockers:
+        lines.extend(f"- {blocker}" for blocker in blockers)
+    else:
+        lines.append("- none")
+    lines.append("")
+    return "\n".join(lines)
+
+
 SOURCE_PREP_FASTLANE_CACHE_VERSION = 1
 SOURCE_PREP_FASTLANE_MIN_TEXT_CHARS = 300
 SOURCE_PREP_FASTLANE_MAX_FULL_PAGE_IMAGE_RATIO = 0.55
@@ -10405,6 +10473,12 @@ def build_parser() -> argparse.ArgumentParser:
     source_prep_batches_parser.add_argument("--source", default="", help="Only queue this raw source path or basename.")
     source_prep_batches_parser.add_argument("--source-sha256", default="", help="Only queue this raw source SHA-256.")
 
+    source_prep_report_parser = subparsers.add_parser(
+        "source-prep-cloud-report",
+        help="Print a concise Markdown report from the latest source-prep cloud state files.",
+    )
+    source_prep_report_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+
     cloud_source_prep_parser = subparsers.add_parser(
         "cloud-source-prep-heartbeat",
         help="Cloud-first source-prep heartbeat: restore raw R2 cache, refresh GitHub queues, and upload binary derivatives.",
@@ -10984,6 +11058,10 @@ def main(argv: list[str] | None = None) -> int:
             source_sha256=args.source_sha256,
         )
         print(f"Wrote source-prep batch queue {output_path}")
+        return 0
+
+    if args.command == "source-prep-cloud-report":
+        print(build_source_prep_cloud_report(args.root))
         return 0
 
     if args.command == "cloud-source-prep-heartbeat":
