@@ -1072,9 +1072,9 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
-    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '100'" in workflow
-    assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '16'" in workflow
-    assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '5'" in workflow
+    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '2000'" in workflow
+    assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '64'" in workflow
+    assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '50'" in workflow
     assert "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'schedule' && '20'" in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
     assert "--no-ocr" in workflow
@@ -1398,6 +1398,21 @@ def test_source_prep_review_rejects_repeated_script_garbage_and_duplicate_sectio
     assert review["status"] == "needs_reread"
     assert "possible_ocr_garbage_token" in review["quality_flags"]
     assert "duplicate_conversion_contract_sections" in review["quality_flags"]
+
+
+def test_source_prep_review_rejects_visual_metadata_leaked_into_transcription(tmp_path) -> None:
+    page_output = tmp_path / "page.md"
+    page_output.write_text(
+        complete_gemini_page_markdown(
+            'Treaty title page text.\n```text\n,,,\n{"region_id": "stamp-01", "bbox": [1, 2, 3, 4], "layer": "stamps"}\n,,,\n```'
+        ),
+        encoding="utf-8",
+    )
+
+    review = review_source_prep_page_output(page_output)
+
+    assert review["status"] == "needs_reread"
+    assert "structured_visual_metadata_in_transcription" in review["quality_flags"]
 
 
 def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp_path, monkeypatch) -> None:

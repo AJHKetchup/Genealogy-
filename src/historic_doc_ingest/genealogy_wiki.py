@@ -3446,6 +3446,12 @@ def detect_conversion_text_flags(page_text: str) -> list[str]:
         flags.append("possible_ocr_garbage_token")
     if "\t" in text_outside_fences or re.search(r"\S\s{8,}\S", text_outside_fences):
         flags.append("possible_table_layout_loss")
+    literal_transcription = extract_markdown_section_body(page_text, "Literal Transcription")
+    if literal_transcription and re.search(
+        r'"(?:region_id|bbox|bbox_pct|visual_regions|parent_id|layer)"\s*:',
+        literal_transcription,
+    ):
+        flags.append("structured_visual_metadata_in_transcription")
     return list(dict.fromkeys(flags))
 
 
@@ -3821,6 +3827,7 @@ QUALITY_FLAG_DESCRIPTIONS = {
     "encoding_mojibake": "The text contains likely character encoding damage.",
     "missing_converted_markdown": "No assembled conversion exists for this page yet.",
     "missing_conversion_contract_sections": "The page output does not follow the required source-prep conversion sections.",
+    "structured_visual_metadata_in_transcription": "Visual-region metadata leaked into the literal transcription section.",
 }
 MOJIBAKE_MARKERS = ("\u00c3", "\u00c2", "\ufffd", "\u00e2\u20ac")
 
@@ -5019,6 +5026,7 @@ SOURCE_PREP_REPAIR_FLAGS = {
     "encoding_mojibake",
     "missing_conversion_contract_sections",
     "duplicate_conversion_contract_sections",
+    "structured_visual_metadata_in_transcription",
 }
 SOURCE_PREP_PAGE_CACHE_VERSION = 1
 
