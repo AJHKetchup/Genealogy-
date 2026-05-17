@@ -1,0 +1,41 @@
+{
+  "job_id": "CAce81b8a6-portrait-dario-jose-pulg",
+  "title": "Portrait Dario Jose Pulgar-Arriagada",
+  "source_file": "raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg",
+  "local_staged_source_file": "raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg",
+  "source_sha256": "ce81b8a6e2dc5bcab3b085c5cf0b759d00d9790c8d2d186a1606cd778fa27529",
+  "source_bytes": 110489,
+  "media_type": "image",
+  "created": "2026-05-17",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "all",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/page-images/page-0001.jpeg",
+      "width_px": 1200,
+      "height_px": 1600,
+      "image_bytes": 110489,
+      "image_sha256": "ce81b8a6e2dc5bcab3b085c5cf0b759d00d9790c8d2d186a1606cd778fa27529",
+      "image_output_dir": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/work-orders/page-0001.md",
+      "status": "todo"
+    }
+  ]
+}

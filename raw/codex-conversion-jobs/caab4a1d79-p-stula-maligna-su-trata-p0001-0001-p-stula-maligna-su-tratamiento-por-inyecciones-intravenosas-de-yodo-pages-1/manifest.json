@@ -1,0 +1,42 @@
+{
+  "job_id": "CAab4a1d79-p-stula-maligna-su-trata-p0001-0001",
+  "title": "P\u00fastula maligna su tratamiento por inyecciones intravenosas de yodo pages 1",
+  "source_file": "raw/sources/P\u00fastula maligna su tratamiento por inyecciones intravenosas de yodo.pdf",
+  "local_staged_source_file": "raw/sources/P\u00fastula maligna su tratamiento por inyecciones intravenosas de yodo.pdf",
+  "source_sha256": "ab4a1d7988b2c6b429851aa9286b31b690d2cb210ae1dc7b8d8e507fb64f4a42",
+  "source_bytes": 71763,
+  "media_type": "pdf",
+  "created": "2026-05-17",
+  "conversion_engine": "codex-thread-vision",
+  "status": "prepared",
+  "chunking": {
+    "unit": "page",
+    "max_pages_per_work_order": 1,
+    "page_range": "1",
+    "rationale": "Use one page per work order so massive sources can be converted, reviewed, and retried incrementally."
+  },
+  "extracted_images_dir": "raw/codex-conversion-jobs/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1/extracted-images",
+  "instructions": [
+    "Convert each page from the rendered page image using Codex vision in this workspace.",
+    "Write one Markdown file per page under page-markdown/.",
+    "Crop each meaningful photograph, illustration, seal, signature, chart, map, or other non-text visual region into extracted-images/ and reference it inline in the page Markdown.",
+    "Keep transcription, translation, interpretation, uncertainty, and image/caption notes separate.",
+    "Do not modernize spelling or silently repair source errors."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_page": 1,
+      "image_path": "raw/codex-conversion-jobs/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1/page-images/page-0001.jpg",
+      "width_px": null,
+      "height_px": null,
+      "image_bytes": 0,
+      "image_deferred": true,
+      "image_sha256": "",
+      "image_output_dir": "raw/codex-conversion-jobs/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1/extracted-images/page-0001",
+      "output_path": "raw/codex-conversion-jobs/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1/page-markdown/page-0001.md",
+      "work_order_path": "raw/codex-conversion-jobs/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1/work-orders/page-0001.md",
+      "status": "todo"
+    }
+  ]
+}
