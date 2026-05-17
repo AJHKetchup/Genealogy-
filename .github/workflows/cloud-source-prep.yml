@@ -69,6 +69,8 @@ jobs:
       R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       PYTHONPATH: src
+      PIP_NO_CACHE_DIR: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
       RUN_LIMIT: ${{ github.event_name == 'schedule' && '8000' || github.event.inputs.limit || '8000' }}
       RUN_PARALLELISM: ${{ github.event_name == 'schedule' && '128' || github.event.inputs.parallelism || '128' }}
       RUN_RAW_LIMIT: ${{ github.event_name == 'schedule' && '500' || github.event.inputs.raw_limit || '500' }}
@@ -99,11 +101,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
-          cache-dependency-path: "pyproject.toml"
 
-      - name: Install source-prep dependencies
-        run: python -m pip install -e ".[pdf,discovery]"
+      - name: Install source-prep queue dependencies
+        run: python -m pip install --no-cache-dir -e ".[pdf]"
 
       - name: Preflight cloud secrets
         id: preflight
@@ -145,6 +145,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source prep restore checkpoint"
+
+      - name: Install Docling discovery dependencies
+        if: steps.preflight.outputs.ready == 'true'
+        shell: bash
+        run: |
+          echo "Disk before Docling dependency install:"
+          df -h
+          python -m pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch torchvision
+          python -m pip install --no-cache-dir -e ".[discovery]"
+          python -m pip cache purge || true
+          echo "Disk after Docling dependency install:"
+          df -h
 
       - name: Run Docling baseline on all queued pages
         if: steps.preflight.outputs.ready == 'true'

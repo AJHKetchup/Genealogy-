@@ -1027,6 +1027,21 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
     assert workflow.index("Publish Docling checkpoint") < workflow.index("Convert missing pages with Gemini")
 
 
+def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert 'PIP_NO_CACHE_DIR: "1"' in workflow
+    assert "cache: \"pip\"" not in workflow
+    assert "Install source-prep queue dependencies" in workflow
+    assert 'python -m pip install --no-cache-dir -e ".[pdf]"' in workflow
+    assert "Install Docling discovery dependencies" in workflow
+    assert "https://download.pytorch.org/whl/cpu" in workflow
+    assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
+    assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
+    assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
+
+
 def test_cloud_workflow_publishes_changed_preflight_state_immediately() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
