@@ -1089,17 +1089,24 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '32' }}" in workflow
     assert (
         "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_scan_limit || '500' }}"
+        "github.event.inputs.discovery_scan_limit || '120' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_parallelism || '32' }}"
+        "github.event.inputs.discovery_parallelism || '8' }}"
     ) in workflow
     assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '50'" in workflow
-    assert "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'schedule' && '20'" in workflow
+    assert (
+        "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_document_timeout || '90' }}"
+    ) in workflow
+    assert (
+        "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_hard_timeout || '120' }}"
+    ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
-    assert "--no-ocr" in workflow
-    assert "--document-timeout 10" in workflow
+    assert "--no-ocr" not in workflow
+    assert "--document-timeout \"$RUN_DISCOVERY_DOCUMENT_TIMEOUT\"" in workflow
     assert "--hard-timeout \"$RUN_DISCOVERY_HARD_TIMEOUT\"" in workflow
     assert workflow.index("Check out repository") < workflow.index("Sync latest main before source-prep")
     assert workflow.index("Sync latest main before source-prep") < workflow.index("Prepare conversion queue from R2")
