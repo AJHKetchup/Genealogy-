@@ -1066,12 +1066,25 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
         encoding="utf-8",
     )
     (automation / "source-prep-docling-state.json").write_text(
-        json.dumps({"inspected": 9, "accepted": 3, "unusable": 5, "errors": 1, "extracted_images": 7, "skipped": {"claimed": 2}}),
+        json.dumps(
+            {
+                "created": "2026-05-17T00:00:00Z",
+                "finished": "2026-05-17T00:09:00Z",
+                "inspected": 9,
+                "accepted": 3,
+                "unusable": 5,
+                "errors": 1,
+                "extracted_images": 7,
+                "skipped": {"claimed": 2},
+            }
+        ),
         encoding="utf-8",
     )
     (automation / "gemini-source-prep-state.json").write_text(
         json.dumps(
             {
+                "created": "2026-05-17T00:10:00Z",
+                "finished": "2026-05-17T00:15:00Z",
                 "processed": 5,
                 "completed": 4,
                 "released": 1,
@@ -1112,6 +1125,8 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- Accepted: 3" in report
     assert "- Unusable: 5" in report
     assert "- Extracted images: 7" in report
+    assert "- Inspected pages/hour: 60.0" in report
+    assert "- Completed pages/hour: 48.0" in report
     assert '- Route counts: {"lite": 3, "pro": 2}' in report
     assert "- r2 credentials missing" in report
     assert "- preflight missing: R2_BUCKET" in report

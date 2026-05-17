@@ -6535,6 +6535,23 @@ def source_prep_report_json(value: object) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
+def source_prep_report_duration_seconds(payload: dict[str, object]) -> int | None:
+    started = parse_utc_timestamp(payload.get("created"))
+    finished = parse_utc_timestamp(payload.get("finished"))
+    if started is None or finished is None:
+        return None
+    seconds = int((finished - started).total_seconds())
+    return max(seconds, 0)
+
+
+def source_prep_report_pages_per_hour(payload: dict[str, object], count_key: str) -> str:
+    duration_seconds = source_prep_report_duration_seconds(payload)
+    if not duration_seconds:
+        return "unknown"
+    count = int(payload.get(count_key, 0) or 0)
+    return f"{(count * 3600 / duration_seconds):.1f}"
+
+
 def build_source_prep_cloud_report(root: Path) -> str:
     paths = WikiPaths(root.resolve())
     automation_dir = paths.research / "_automation"
@@ -6574,6 +6591,8 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Unusable: {source_prep_report_value(docling.get('unusable'))}",
         f"- Errors: {source_prep_report_value(docling.get('errors'))}",
         f"- Extracted images: {source_prep_report_value(docling.get('extracted_images'))}",
+        f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(docling), 'unknown')}",
+        f"- Inspected pages/hour: {source_prep_report_pages_per_hour(docling, 'inspected')}",
         f"- Skipped: {source_prep_report_json(docling.get('skipped'))}",
         "",
         "### Gemini Fallback",
@@ -6583,6 +6602,8 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Released: {source_prep_report_value(gemini.get('released'))}",
         f"- Discovery-skipped: {source_prep_report_value(gemini.get('discovery_skipped'))}",
         f"- Media-skipped: {source_prep_report_value(gemini.get('media_skipped'))}",
+        f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(gemini), 'unknown')}",
+        f"- Completed pages/hour: {source_prep_report_pages_per_hour(gemini, 'completed')}",
         f"- Route counts: {source_prep_report_json(gemini.get('route_counts'))}",
         f"- Visual regions: {source_prep_report_json(gemini.get('visual_regions'))}",
         "",
