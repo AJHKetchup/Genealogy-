@@ -1942,3 +1942,4 @@
 ## [2026-05-17] prepare-sources | Prepared 49 raw source(s)
 ## [2026-05-17] source-prep-batches | Wrote 9618 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-17] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-17] source-prep-docling-discovery | inspected 865, accepted 0, unusable 45, errors=820, dry_run=False
