@@ -8364,11 +8364,14 @@ def source_prep_gemini_run(
     source_filter: str = "",
     source_sha256: str = "",
     preflight_api: bool = False,
+    preflight_only: bool = False,
 ) -> dict[str, object]:
     if limit < 1:
         raise ValueError("limit must be at least 1")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
+    if preflight_only and not preflight_api:
+        raise ValueError("preflight_only requires preflight_api")
     paths = WikiPaths(root.resolve())
     if not api_key and not dry_run:
         api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
@@ -8419,6 +8422,7 @@ def source_prep_gemini_run(
             "source_sha256": source_sha256.strip(),
         },
         "preflight_api": preflight_api,
+        "preflight_only": preflight_only,
         "processed": 0,
         "completed": 0,
         "released": 0,
@@ -8455,6 +8459,12 @@ def source_prep_gemini_run(
             fail_with_fatal_blocker(str(exc))
         except Exception as exc:
             fail_with_fatal_blocker(f"Gemini preflight failed: {str(exc)[:800]}")
+        if preflight_only:
+            summary["finished"] = utc_timestamp()
+            state_path = write_source_prep_gemini_state(paths.root, summary)
+            summary["state_path"] = relative_to_root(state_path, paths.root)
+            append_log(paths.research / "log.md", "gemini-source-prep | preflight ok")
+            return summary
 
     def result_payload(
         task_report: dict[str, object],
@@ -11305,6 +11315,11 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Make a short text-only Gemini call before page conversion to catch billing/auth blockers early.",
     )
+    gemini_source_prep_parser.add_argument(
+        "--preflight-only",
+        action="store_true",
+        help="Run only the Gemini API preflight and write state without processing queued pages.",
+    )
     gemini_source_prep_parser.add_argument("--source", default="", help="Only process this raw source path or basename.")
     gemini_source_prep_parser.add_argument("--source-sha256", default="", help="Only process this raw source SHA-256.")
     gemini_source_prep_parser.add_argument(
@@ -11851,6 +11866,7 @@ def main(argv: list[str] | None = None) -> int:
                 source_filter=args.source,
                 source_sha256=args.source_sha256,
                 preflight_api=args.preflight_api,
+                preflight_only=args.preflight_only,
             )
         except GeminiSourcePrepFatalError as exc:
             print("gemini-source-prep | fatal blocker")

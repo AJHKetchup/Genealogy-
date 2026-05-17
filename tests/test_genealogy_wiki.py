@@ -1049,10 +1049,17 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
 
+    assert "Preflight Gemini API billing" in workflow
+    assert "--preflight-only" in workflow
     assert "Publish restore and queue checkpoint" in workflow
     assert "Cloud source prep restore checkpoint" in workflow
     assert "Publish Docling checkpoint" in workflow
     assert "Cloud source prep Docling checkpoint" in workflow
+    assert workflow.index("Preflight Gemini API billing") < workflow.index("Prepare conversion queue from R2")
+    assert (
+        "- name: Prepare conversion queue from R2\n"
+        "        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0'"
+    ) in workflow
     assert workflow.index("Prepare conversion queue from R2") < workflow.index("Publish restore and queue checkpoint")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Run Docling baseline on all queued pages")
     assert workflow.index("Run Docling baseline on all queued pages") < workflow.index("Publish Docling checkpoint")

@@ -321,6 +321,42 @@ def test_gemini_source_prep_preflight_stops_before_page_claims(tmp_path, monkeyp
     assert not task_state_path.exists()
 
 
+def test_gemini_source_prep_preflight_only_does_not_process_pages(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=3)
+    preflight_calls = 0
+
+    def ok_preflight(**kwargs):
+        nonlocal preflight_calls
+        preflight_calls += 1
+        return {"text": "OK", "finish_reason": "STOP", "usage": {}}
+
+    def fail_page_call(**kwargs):
+        raise AssertionError("preflight-only should not process queued pages")
+
+    monkeypatch.setattr(genealogy_wiki, "preflight_gemini_source_prep_api", ok_preflight)
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fail_page_call)
+
+    summary = source_prep_gemini_run(
+        tmp_path,
+        limit=3,
+        parallelism=3,
+        api_key="test-key",
+        refresh_queue=False,
+        preflight_api=True,
+        preflight_only=True,
+    )
+
+    task_state_path = tmp_path / "research" / "_agent-queues" / "task-state.json"
+
+    assert preflight_calls == 1
+    assert summary["processed"] == 0
+    assert summary["completed"] == 0
+    assert summary["released"] == 0
+    assert summary["skipped"] == 0
+    assert summary["preflight_only"] is True
+    assert not task_state_path.exists()
+
+
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
 
