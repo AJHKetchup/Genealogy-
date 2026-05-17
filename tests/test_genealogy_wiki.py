@@ -1085,8 +1085,16 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
-    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '2000'" in workflow
-    assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '64'" in workflow
+    assert "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '250' }}" in workflow
+    assert "RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '32' }}" in workflow
+    assert (
+        "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_scan_limit || '500' }}"
+    ) in workflow
+    assert (
+        "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_parallelism || '32' }}"
+    ) in workflow
     assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '50'" in workflow
     assert "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'schedule' && '20'" in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
