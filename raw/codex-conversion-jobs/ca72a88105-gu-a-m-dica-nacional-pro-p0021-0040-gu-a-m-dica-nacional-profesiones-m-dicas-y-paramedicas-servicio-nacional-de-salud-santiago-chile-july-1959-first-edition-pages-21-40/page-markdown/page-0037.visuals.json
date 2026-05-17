@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:15:55Z",
+  "created": "2026-05-17T09:49:30Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
@@ -8,7 +8,7 @@
   "page": 37,
   "page_image": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0037.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-markdown/page-0037.md",
-  "no_visual_regions_reason": "No substantial visuals present on the page.",
+  "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other visual elements that would be useful as standalone assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

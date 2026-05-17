@@ -1,0 +1,114 @@
+{
+  "created": "2026-05-17T09:50:56Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+  "page": 92,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Illustration of a man in a suit and glasses, pointing to a bottle labeled \"JARABE FAMEL\". This is part of a large advertisement for JARABE FAMEL.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        63.9,
+        64.0,
+        90.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        1626,
+        2100,
+        2300,
+        2634
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-jarabe-famel-man-pointing.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-jarabe-famel-man-pointing.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 92,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Illustration of a clown-like figure with a large ruffled collar and hat, holding mallets, standing next to an open gramophone. This is part of the \"DISCOS VICTOR\" advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        70.0,
+        73.0,
+        98.0,
+        97.0
+      ],
+      "bbox_pixels": [
+        1782,
+        2396,
+        2504,
+        3192
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-discos-victor-clown-gramophone.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-discos-victor-clown-gramophone.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 92,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "portrait",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "textual_context",
+      "source_context": "Small, framed portrait of a man, identified as Caruso in the surrounding text.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        70.7,
+        55.0,
+        75.0,
+        58.0
+      ],
+      "bbox_pixels": [
+        1800,
+        1804,
+        1917,
+        1910
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-enrico-caruso-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-enrico-caruso-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 92,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_4",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "",
+      "source_context": "Small circular logo with a dog listening to a gramophone (Nipper logo) within the \"Electrola Victor con Radio\" advertisement."
+    }
+  ],
+  "flags": []
+}

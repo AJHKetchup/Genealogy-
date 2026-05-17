@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:49:22Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+  "page": 110,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0110.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0110.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Figura 1",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The text refers to \"(Fig. 1.)\" when describing a signal indicating a clear track.",
+      "confidence": "0.95",
+      "inline_anchor": "Figura 1",
+      "bbox_pct": [
+        67.75,
+        21.0,
+        84.95,
+        33.9
+      ],
+      "bbox_pixels": [
+        529,
+        215,
+        673,
+        358
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0110/page-0110-image-01-figura-1-signal-green-indicator.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0110/page-0110-image-01-figura-1-signal-green-indicator.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0110.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 110,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0110.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "Figura 2",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The text refers to \"(Fig. 2.)\" when describing a signal indicating an obstructed track.",
+      "confidence": "0.95",
+      "inline_anchor": "Figura 2",
+      "bbox_pct": [
+        67.75,
+        58.9,
+        84.95,
+        71.8
+      ],
+      "bbox_pixels": [
+        529,
+        612,
+        673,
+        754
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0110/page-0110-image-02-figura-2-signal-red-indicator.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0110/page-0110-image-02-figura-2-signal-red-indicator.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0110.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 110,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0110.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

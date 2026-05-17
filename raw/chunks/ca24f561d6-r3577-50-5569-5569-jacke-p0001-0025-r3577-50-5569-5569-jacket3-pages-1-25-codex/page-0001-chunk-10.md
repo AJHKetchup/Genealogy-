@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-fce2e6c86dcd-P0001-10
+chunk_id: CHUNK-a6f8d1e52cbd-P0001-10
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: fce2e6c86dcd7009ef73870c0e44855bed888cc42ef3d66893a0f54ed1d88b45
+converted_sha256: a6f8d1e52cbd9de783e0d205a34501a219dd061a41e01dc69e42c5a8f6e404fd
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -10,99 +10,6 @@ page_start: 1
 page_end: 1
 part: 10
 ---
-
-## Literal Transcription
-
-SÉANCE DU 2 JUILLET 1929 5
-
-M. le Président :
-
-Vos applaudissements, qui me touchent beaucoup, sont prématurés, puisque vous ne m'avez
-pas donné l'occasion de vous faire quelques objections. Je n'ai pas besoin de dire combien je
-suis reconnaissant à M. Rhomberg de sa proposition; elle m'honore. Je l'accepte dans une
-certaine mesure, en ce sens que je suis d'accord avec M. Rhomberg lorsqu'il déclare que j'ai eu
-l'occasion de m'intéresser à ce sujet, ce qui est la vérité. Mais, je voudrais vous rappeler que
-vous m'avez déjà fait hier le très grand honneur de m'appeler à la présidence de la Conférence.
-On ne m'avait jamais dit que mes épaules étaient si puissantes que je puisse les charger déme-
-surément. Je serais donc extrêmement reconnaissant à la commission si elle voulait bien porter
-son choix sur une autre personnalité; elles sont nombreuses ici. Ce n'est pas que je ne veuille
-pas, c'est que je pense ne pas pouvoir me charger de trop de choses à la fois. Je vous prie donc
-de revenir sur vos acclamations et d'adresser à l'un ou l'autre d'entre vous un appel à la bonne
-volonté.
-
-Le Général Marotte (France) :
-
-Puisque M. le Ministre Dinichert décline une offre qui nous honorerait tous, il me semble
-qu'il y a au Bureau même une personnalité tout indiquée que vous avez appelée vous-même,
-M. le Président, le vétéran de 1906, qui pourrait présider cette commission c'est : M. Paul
-Des Gouttes, particulièrement qualifié pour diriger nos débats.
-
-M. Paul Des Gouttes :
-
-M. le Président, Messieurs, Je suis extrêmement reconnaissant au Général Marotte de sa
-proposition tout à fait honorable pour moi. Cependant je me permets de faire observer que je
-ne pense pas que ce soit le rôle d'un secrétaire général, puisque vous m'avez fait l'honneur de
-m'élire à cette fonction, de présider une commission. Le secrétaire général doit être à tous.
-Il doit être prêt à toutes les besognes. S'il est président d'une commission, il est immobilisé
-sur son siège.
-
-Tout en étant très reconnaissant au Général Marotte, que je me permettrai, étant donné
-les travaux que nous avons faits ensemble, d'appeler dans une certaine mesure et très res-
-pectueusement mon ami, de la proposition qu'il a faite et que j'apprécie tout particulièrement,
-je pense que la première proposition qui a été formulée était cependant la plus légitime et la plus
-normale et je me demande si elle ne devrait pas rencontrer l'approbation de la commission.
-Je serai toujours aux côtés du président de la Conférence pour le seconder dans la mesure de
-mes connaissances; il me paraît que c'est à lui que revient la présidence de la commission.
-
-M. le Président :
-
-Je n'ai sans doute pas de leçon à donner à M. Paul Des Gouttes. Il est évident que nous
-sommes tous du même avis; il serait, il eût été un président idéal pour cette commission. Mais
-si M. Paul Des Gouttes, lui aussi, demande à pouvoir se consacrer complètement à sa fonction
-de secrétaire général, à laquelle nous attribuons naturellement la plus haute importance —
-j'aurais pu hier encore ajouter aux titres qu'a M. Paul Des Gouttes, mais je ne voulais pas
-mettre sa modestie trop fortement à l'épreuve, la constatation qu'il nous faut, comme secré-
-taire général, une véritable cheville ouvrière, et que j'en connais peu qui pourrait rivaliser
-avec lui, étant donné les preuves qu'il a faites pendant plusieurs décades — si M. Paul Des
-Gouttes, dis-je, ne voit pas la possibilité d'assumer la présidence de cette Commission et pré-
-fère vouer toute son activité à sa mission de secrétaire général, je ne puis plus que l'appuyer ;
-je n'ai, en tout cas, pas le droit de lui faire violence.
-
-Dans ces conditions, M. Paul Des Gouttes, sera je pense, d'accord avec moi pour que je répète
-à la commission ma demande de présenter une autre proposition.
-
-M. Riad (Egypte) :
-
-Permettez-moi d'insister en faveur de la proposition de notre honorable collègue d'Alle-
-magne. Vraiment M. Dinichert a fait beaucoup dans ce domaine...
-
-M. Dinichert :
-
-Vous l'avez déjà dit hier.
-
-## Images, Captions, And Visual Notes
-
-There are no substantial images or captions on this page.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
-```
-
-## Page Metadata
-Page Number: 24
-
-## Layout And Reading Order
-The page presents a single-column layout with a header at the top indicating the page number, session, and date. The main content consists of a series of speeches or interventions, each introduced by the speaker's name and country in bold, followed by one or more paragraphs of text. Parenthetical notes, such as "(Applaudissements)", are included within the text.
 
 ## Literal Transcription
 6 SÉANCE DU 2 JUILLET 1929
@@ -186,3 +93,74 @@ The transcription is complete and includes all visible text from the page.
 
 ## Layout And Reading Order
 The page presents a transcript of a meeting, formatted in a single column. It includes a header with the meeting date and a page number, followed by a main title. The body consists of speaker attributions (e.g., "M. le Président :") followed by their statements. Some statements include parenthetical notes (e.g., "(Applaudissements)"). There is an italicized line indicating a decision. A horizontal rule separates two distinct parts of the meeting transcript.
+
+## Literal Transcription
+SÉANCE DU 2 JUILLET 1929
+7
+
+DÉSIGNATION DES DEUX VICE-PRÉSIDENTS.
+
+M. le Président :
+Nous avons fait, ce matin, l'expérience que la désignation d'un vice-président provoque
+certaines hésitations. C'est pourquoi je pourrais peut-être vous soumettre moi-même des pro-
+positions...
+
+M. Vasco de Quevedo (Portugal) :
+Plusieurs délégués m'ont prié de présenter en leur nom la candidature du Général Major
+Médecin Demolder, comme vice-président de la commission.
+
+M. le Président :
+Je pense que c'est là un candidat dont le nom en quelque sorte s'impose à vous. (Applau-
+dissements.)
+
+M. de Urrutia (Colombie) :
+Je propose comme second vice-président M. le Marquis de la Torrehermosa, Ministre
+d'Espagne à Berne, chef de la délégation espagnole à la Conférence. (Applaudissements).
+
+*Les deux vice-présidents proposés sont élus à l'unanimité.*
+
+M. le Président :
+Nous interromprons la séance pendant quelques minutes pour nous mettre à la disposition
+du photographe.
+
+---
+
+M. le Président :
+La séance est reprise. Je vous propose d'aborder l'ordre du jour de nos travaux.
+Je pense que vous serez d'accord de procéder comme ce matin, à une discussion générale
+d'entrée en matière. Nous pourrons en sortir assez rapidement, d'autant plus que nous n'avons
+pas, au point de vue documentaire, la même situation que ce matin. Nous sommes ici en face
+tout d'abord, d'une convention existante, convention qui a été, comme vous le savez,
+examinée en détails, en deux conférences successives de la Croix-Rouge, toujours en présence
+des délégués gouvernementaux. Ce projet, les Gouvernements que vous représentez, en ont
+connaissance depuis quatre années. Ils ont été appelés, notamment au cours de l'année dernière,
+à préciser leurs avis à ce sujet. C'est à cette occasion que toutes les propositions gouvernemen-
+tales, mêmes celles qui ont pris l'aspect d'un projet complet, se sont élaborées.
+Cela n'empêche qu'avant d'aborder la discussion de détails, nous pourrions chercher à nous
+rendre compte, dans une conversation d'ensemble, de quelques vues de caractère général.
+Il y a d'ailleurs, dans le plan des observations formulées par les Gouvernements, des obser-
+vations de caractère général, que, peut-être, l'un ou l'autre d'entre vous désirez reprendre
+ici. D'autres idées générales peuvent aussi surgir, qui font peut-être partie de vos instructions.
+Il y aurait donc une réelle utilité à nous livrer à un débat général, quoique bref. Nous
+avons vu, ce matin, qu'un débat de ce genre a toujours quelque avantage.
+Puis-je donc demander qui désire prendre la parole pour entamer ce débat général ?
+Je vois déjà deux orateurs qui s'annoncent. C'est avec plaisir que je donne la parole à
+M. le général Marotte.
+
+M. le Général Marotte (France) :
+Si j'ai demandé la parole dès le début de cette discussion générale, c'est pour soulever une
+question qu'il me semble utile de régler tout de suite : celle qui est relative à l'aviation sanitaire.
+En effet, si on consulte le texte de cette Convention de Genève, on n'y voit nulle part
+figurer la mention de l'aviation sanitaire. Cela se conçoit : on peut dire que l'aviation sanitaire
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions. A horizontal rule is present to visually separate sections of the text.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text, with a simple horizontal rule for separation, which does not warrant a visual region crop."}

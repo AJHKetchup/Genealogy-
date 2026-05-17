@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:51:12Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 96,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0096.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0096.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "El almirantazgo inglés se ha ocu-\npado recientemente de desarrollar la\nnavegación aérea de comercio, en\ncombinación con la navegación marí-\ntima. En el grabado que hoy publi-\ncamos se dibuja la forma en que, se-\ngún algunos de los proyectos que se\npodrían atracar las grandes na-\nves aéreas a las naves marítimas que\nsirvan de depósitos o hagan via-\njes en combinación con ellas. Las na-\nves aéreas lanzarían sus cordajes que\nserían tomados por las naves maríti-\nmas y servirían para amarrarlas a\nlo alto de los mástiles; y las cofas,\nque en los buques de guerra sirven\npara divisar al enemigo y colocar ca-\nñones en ellas, a gran altura, servi-\nrían para comunicar con la nave aé-\nrea y, acaso, para las cargas y des-\ncargas de mercaderías y para las\ngrandes redes colocadas en los buques\nharían menos fáciles. Los aeroplanos\nla posición en que se ve la nave aé-\nrea, o dirigible, con respecto a los\nbuques de guerra sirven que, se obtendría fácilmente para\namarrada aquélla a la cofa, y para\nponer el buque proa al viento.",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "The image illustrates the concept of commercial air navigation combined with maritime navigation, showing an airship tethered to a ship.",
+      "confidence": "0.95",
+      "inline_anchor": "A large, central image depicts a detailed illustration of an airship (dirigible) tethered to the mast of a large ship at sea.",
+      "bbox_pct": [
+        10.0,
+        32.0,
+        89.0,
+        67.0
+      ],
+      "bbox_pixels": [
+        251,
+        1146,
+        2274,
+        2411
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0096/page-0096-image-01-airship-tethered-to-ship-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0096/page-0096-image-01-airship-tethered-to-ship-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0096.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

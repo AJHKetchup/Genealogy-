@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:49:24Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+  "page": 114,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0114.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0114.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "Illustration depicting the rear of a train car with two circular signals on the upper corners, corresponding to item 2a 'De día'.",
+      "confidence": "0.95",
+      "inline_anchor": "a) De día: Colocado en los ángulos\nsuperiores del último vehículo,\ndos discos (uno a cada lado) pin-\ntados de blanco hacia adelante y\nrojo hacia atrás, excepto en los\ntrenes que estuvieren dotados to-\ntalmente de frenos continuos au-\ntomáticos.",
+      "bbox_pct": [
+        90.0,
+        79.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        704,
+        822,
+        787,
+        1046
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0114/page-0114-image-01-train-car-tail-signals-daytime.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0114/page-0114-image-01-train-car-tail-signals-daytime.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0114.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 114,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0114.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "Illustration depicting the rear of a train car with two circular signals on the upper corners and a central lamp, corresponding to item 2b 'De noche'.",
+      "confidence": "0.95",
+      "inline_anchor": "b) De noche: Colocados a cada uno\nde los costados, en los ángulos su-\nperiores del último vehículo, un\nfarol de costado proyectando luz\nblanca hacia adelante y roja ha-\ncia atrás.",
+      "bbox_pct": [
+        90.0,
+        79.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        704,
+        822,
+        787,
+        1046
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0114/page-0114-image-02-train-car-tail-signals-nighttime.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0114/page-0114-image-02-train-car-tail-signals-nighttime.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0114.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 114,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0114.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "Illustration depicting the rear of a train car or locomotive with a single central lamp, corresponding to item 3 'Cuando circulen solas las locomotoras o coches automotores'.",
+      "confidence": "0.95",
+      "inline_anchor": "3º Cuando circulen solas las locomo-\ntoras o coches automotores, llevarán\ncomo señal de cola, en la parte pos-\nterior del vehículo, durante la noche,\nun farol proyectando luz roja hacia\natrás.",
+      "bbox_pct": [
+        90.0,
+        79.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        704,
+        822,
+        787,
+        1046
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0114/page-0114-image-03-locomotive-tail-signal-single.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0114/page-0114-image-03-locomotive-tail-signal-single.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0114.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 114,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0114.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

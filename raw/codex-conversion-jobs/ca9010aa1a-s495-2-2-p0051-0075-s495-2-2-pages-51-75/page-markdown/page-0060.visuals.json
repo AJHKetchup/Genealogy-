@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:37Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 60,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0060.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0060.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "La sala del capítulo del convento de Char-\ntreuse. Los retratos que se ven al fon-\ndo ya no existen, eran de los 49 priores\nque formaban la orden. Al frente la esta-\ntua de San Bruno, fundador de la orden.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image is placed in the upper left of the page, next to a block of text and above the main article's two columns.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        13.7,
+        9.0,
+        38.0,
+        37.9
+      ],
+      "bbox_pixels": [
+        184,
+        164,
+        525,
+        713
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0060/page-0060-image-01-sala-capitulo-convento-chartreuse.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0060/page-0060-image-01-sala-capitulo-convento-chartreuse.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0060.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 60,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0060.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Un aspecto de la enorme cocina del convento.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This image is embedded in the right column of the main article.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        34.9,
+        38.9,
+        82.6,
+        60.9
+      ],
+      "bbox_pixels": [
+        474,
+        724,
+        1136,
+        1143
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0060/page-0060-image-02-cocina-convento.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0060/page-0060-image-02-cocina-convento.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0060.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 60,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0060.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

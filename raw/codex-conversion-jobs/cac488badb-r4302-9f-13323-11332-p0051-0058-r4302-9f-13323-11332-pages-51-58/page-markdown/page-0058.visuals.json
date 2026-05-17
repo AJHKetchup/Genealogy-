@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:50:51Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4302-9F-13323-11332.pdf",
+  "source_sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+  "job_manifest": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/manifest.json",
+  "page": 58,
+  "page_image": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-images/page-0058.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-markdown/page-0058.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_001",
+      "kind": "diagram",
+      "caption_literal": "DATE OF REGISTRATION / D'ENREGISTREMENT / 10.SEP.1974",
+      "caption_type": "source-field",
+      "identity_basis": "source-context",
+      "source_context": "This box is labeled 'DATE OF REGISTRATION / D'ENREGISTREMENT' and contains a stamped date.",
+      "confidence": "0.95",
+      "inline_anchor": "DATE OF REGISTRATION",
+      "bbox_pct": [
+        12.9,
+        18.0,
+        19.7,
+        48.9
+      ],
+      "bbox_pixels": [
+        188,
+        362,
+        298,
+        999
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/extracted-images/page-0058/page-0058-image-01-date-of-registration-box.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/extracted-images/page-0058/page-0058-image-01-date-of-registration-box.png",
+      "page_image": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-images/page-0058.jpg",
+      "source": "raw/sources/R4302-9F-13323-11332.pdf",
+      "source_sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+      "job_manifest": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/manifest.json",
+      "page": 58,
+      "output_markdown": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-markdown/page-0058.md"
+    },
+    {
+      "region_id": "region_002",
+      "kind": "diagram",
+      "caption_literal": "CLASSEMENT / CLASSIFICATION / TRANSIT / ROAD TRAFFIC / 9 F",
+      "caption_type": "source-field",
+      "identity_basis": "source-context",
+      "source_context": "This section of the table is labeled 'CLASSEMENT / CLASSIFICATION' and contains the stamped text 'TRANSIT' and 'ROAD TRAFFIC' along with '9 F'.",
+      "confidence": "0.95",
+      "inline_anchor": "CLASSEMENT",
+      "bbox_pct": [
+        29.9,
+        18.0,
+        41.8,
+        79.0
+      ],
+      "bbox_pixels": [
+        442,
+        362,
+        627,
+        1611
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/extracted-images/page-0058/page-0058-image-02-classification-section.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/extracted-images/page-0058/page-0058-image-02-classification-section.png",
+      "page_image": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-images/page-0058.jpg",
+      "source": "raw/sources/R4302-9F-13323-11332.pdf",
+      "source_sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+      "job_manifest": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/manifest.json",
+      "page": 58,
+      "output_markdown": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-markdown/page-0058.md"
+    },
+    {
+      "region_id": "region_003",
+      "kind": "diagram",
+      "caption_literal": "No DE SÉRIE: / SERIES No.: / 11332-",
+      "caption_type": "source-field",
+      "identity_basis": "source-context",
+      "source_context": "This section of the table is labeled 'No DE SÉRIE: / SERIES No.:' and contains the handwritten number '11332-'.",
+      "confidence": "0.95",
+      "inline_anchor": "No DE SÉRIE:",
+      "bbox_pct": [
+        29.9,
+        62.6,
+        41.8,
+        79.0
+      ],
+      "bbox_pixels": [
+        442,
+        1269,
+        627,
+        1611
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/extracted-images/page-0058/page-0058-image-03-series-number-section.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/extracted-images/page-0058/page-0058-image-03-series-number-section.png",
+      "page_image": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-images/page-0058.jpg",
+      "source": "raw/sources/R4302-9F-13323-11332.pdf",
+      "source_sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+      "job_manifest": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/manifest.json",
+      "page": 58,
+      "output_markdown": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-markdown/page-0058.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

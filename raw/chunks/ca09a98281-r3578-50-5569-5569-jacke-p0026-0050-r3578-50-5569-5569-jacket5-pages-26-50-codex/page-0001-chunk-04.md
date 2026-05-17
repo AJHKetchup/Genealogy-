@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dd9337f4b057-P0001-04
+chunk_id: CHUNK-931631d95699-P0001-04
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
-converted_sha256: dd9337f4b057e423fe11d9043e9a4c009c87a75bd7d09510d40729205171c2d7
+converted_sha256: 931631d956996b2ce82fdcf4c8ca53780d3af70053d391101ce1925d66ae967d
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
@@ -242,7 +242,9 @@ All visible text on the page, including the title, main body, footnote, and page
 ```
 
 ## Page Metadata
-Page number: 35
+
+- Page number: 35
 
 ## Layout And Reading Order
-The page presents a single column of text, structured as a list of countries or heads of state, each followed by an indented list of individuals and their titles/roles. The main headings are in all capital letters, and some sub-headings are also in all caps and bold.
+
+This page is a single column of printed text. The page number "35" is centered at the top. The text lists representatives from various countries. A circular hole punch mark is visible in the left margin. The reading order is top to bottom.

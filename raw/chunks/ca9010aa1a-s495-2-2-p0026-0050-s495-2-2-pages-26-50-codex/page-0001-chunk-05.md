@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-980ac6e3ed2a-P0001-05
+chunk_id: CHUNK-38044eb57912-P0001-05
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
-converted_sha256: 980ac6e3ed2a9b314a3f8588bae2c065087feb5fe5b18982f1e951f9b9da30ae
+converted_sha256: 38044eb57912bf98bd2647daed11d3aa95e2c9544a6bba80059a98dbeca18f6c
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
@@ -12,219 +12,95 @@ part: 5
 ---
 
 ## Literal Transcription
-Estimado señor Director:
-Esta semana no he querido tra-
-bajar. No he trabajado, pues. No
-tengo nada que enviarle. Sin em-
-bargo, las breves vacaciones que
-me he tomado han resultado fruc-
-tíferas: Paseando en Venice, ba-
-ñándome de sol y zambulléndome
-en las aguas del Pacífico, tropecé
-con Elvira Ortiz. Nunca hubiera
-sucedido tal cosa, exclamo por ella.
-Porqué, indiscretamente, disparé
-varias veces el obturador de mi cá-
-mara... Y he molestado a Elvi-
-ra hasta arrancarla un artículo:
-este artículo que envío a usted
-ahora, con las fotografías que lo-
-gró mi cámara feliz y con otras;
-otras que Elvira, nuestra triunfan-
-te amiga y compatriota, ha queri-
-do que acompañen a las primeras.
-Su compañero y amigo,
-JULIAN DEL ROBLE
-
-Elvira Ortiz, en pleno “set”, charlando con un compañero
-de labores antes de que la llame el Director a escena.
-
-DESDE
-MIS PRIMERAS EXPE
-
-Elvirita, después de sus labores, va
-a Venice y toma sus baños de
-mar. Ustedes verán que no está
-mal nuestra compatriota....
-
-E
-S difícil decir cómo entré a Las-
-ky. Cómo entré al cine. Porque,
-no obstante ser Lasky la compa-
-ñía más poderosa y rica del mundo, qui-
-zá hubiera sido igual para mi ambición y
-para mi ansia de aparecer en una pelí-
-cula yanqui—ya que son estos señores los
-que han hecho un arte de la cinematogra-
-fía, mejor que nadie—, el lograr “escu-
-rrirme” dentro de un “studio” pequeño.
-Este indiscreto y “molón” señor corres-
-ponsal de EL UNIVERSAL ILUSTRADO,
-Julián del Roble, insiste en que cuente a
-sus “numerosos” lectores—¡y es modes-
-to el señor!—de la forma en que llegué
-acá.
-Poco discernimiento tiene usted, señor
-corresponsal; pero hace usted una grave
-ofensa a “sus” lectores en suponerles tan
-estrechos de sesera como su indiscreta
-persona. ¿No sabe usted cómo llegué acá,
-a esta “su” espléndida tierra; a estos An-
-geles de usted; con cuya descripción me
-maravillara yo, a través de sus crónicas
-y desde mi modesto título de “estrella”
-mexicana? ¿No lo sabe usted?
-¡So tonto!, como diría una couplestis-
-ta a un viejo calvo, o a un niño “bien”,
-desde el escenario de uno de nuestros tea-
-
-POR
-una Tubau o cualquiera Pilar Conde—.
-Es otra cosa ya, si viene a preguntarme
-cómo entré a Lasky. O cómo entré al ci-
-ne de esta capital de Cinelandia.
-Llegué a Los Angeles en la misma dis-
-posición de ánimo con que llegaría usted,
-hace cuatro años, señor corresponsal. Tem-
-blorosa de emoción, suspirante de deseos
-de ver los “studios” de los cuales tuvié-
-ramos en México una copia en miniatura;
-ansiosa de contemplar de cerca, de tocar
-con la vista a mis “estrellas” favoritas:
-las “estrellas” favoritas que todos y to-
-das tenemos. Pisé el suelo de Los Ange-
-les con una inexplicable sensación. Ima-
-ginaba tropezar inmediatamente al des-
-cender del tren con Nita Naldi o con Mary
-Pickford... O con Charles Chaplin. Ima-
-ginaba encontrar en la primera bocacalle
-una cámara, un director y a Thomas Mei-
-ghan filmando una escena en la que domi-
-naran los puñetazos...
-No hubo nada de esto. Las calles no
-estaban congestionadas de “extras”, de
-primeros actores, de “estrellas” y de di-
-rectores. Hubiera sufrido una desilusión.
-Pero levanté la vista... Y encontré el sol,
-este rubio, divino sol de California, que
-usted, mi señor del Roble, divinizaba tan
-entusiastamente en sus crónicas. Este sol
-como el nuestro... Y hube de compren-
-der por qué Los Angeles es una ciudad
-blanca y luminosa y riente. Y me olvidé de
-que las calles, llenas de gente, estaban
-vacías de “estrellas”, de directores y de
-cámaras...
-Durante algunos días, no lo creerá us-
-ted, viví sólo para ver el sol; sólo veía el
-sol. Y todo lo que era producto de su ge-
-nerosidad y de su magnificencia: los pra-
-dos verdes, las casitas de rojas techum-
-bres, los caminos blancos... Me olvidaba
-de que aquella era la tierra del cine;
-el cine en sí. Me olvidaba de que había
-
-Y en Venice tiene actitudes lángui-
-das a la caída del sol...
-
-tros. Llegué, sencillamente, como usted:
-en el tren.
-Ya ve usted que la cosa es simple. Aun-
-que no tanto como me ha demostrado ser
-lo “usté”—como también podría decir
-28
+| Left Column | Right Column |
+| --- | --- |
+| Estimado señor Director:<br><br>Esta semana no he querido trabajar. No he trabajado, pues. No tengo nada que enviarle. Sin embargo, las breves vacaciones que me he tomado han resultado fructíferas: Paseando en Venice, bañándome de sol y zambulléndome en las aguas del Pacífico, tropecé con Elvira Ortiz. Nunca hubiera sucedido tal cosa, exclamo por ella. Porqué, indiscretamente, disparé varias veces el obturador de mi cámara... Y he molestado a Elvira hasta arrancarla un artículo: este artículo que envío a usted ahora, con las fotografías que logró mi cámara feliz y con otras; otras que Elvira, nuestra triunfante amiga y compatriota, ha querido que acompañen a las primeras.<br>Su compañero y amigo,<br>JULIAN DEL ROBLE | [SEE_IMAGE_001]<br><br>Elvira Ortiz, en pleno "set", charlando con un compañero de labores antes de que la llame el Director a escena.<br><br>D E S D E<br><br>MIS PRIMERAS EXPE<br><br>P O R<br><br>una Tubau o cualquiera Pilar Conde—. Es otra cosa ya, si viene a preguntarme cómo entré a Lasky. O cómo entré al cine de esta capital de Cinelandia.<br>Llegué a Los Angeles en la misma disposición de ánimo con que llegaría usted, hace cuatro años, señor corresponsal. Temblorosa de emoción, suspirante de deseos de ver los "studios" de los cuales tuviéramos en México una copia en miniatura; ansiosa de contemplar de cerca, de tocar con la vista a mis "estrellas" favoritas: las "estrellas" favoritas que todos y todas tenemos. Pisé el suelo de Los Angeles con una inexplicable sensación. Imaginaba tropezar inmediatamente al descender del tren con Nita Naldi o con Mary Pickford... O con Charles Chaplin. Imaginaba encontrar en la primera bocacalle una cámara, un director y a Thomas Meighan filmando una escena en la que dominaran los Luñetazos...<br>No hubo nada de esto. Las calles no estaban congestionadas de "extras", de primeros actores, de "estrellas" y de directores. Hubiera sufrido una desilusión. Pero levanté la vista... Y encontré el sol, este rubio, divino sol de California, que usted, mi señor del Roble, divinizaba tan entusiastamente en sus crónicas. Este sol como el nuestro... Y hube de comprender por qué Los Angeles es una ciudad blanca y luminosa y riente. Y me olvidé de que las calles, llenas de gente, estaban vacías de "estrellas", de directores y de cámaras... |
+| [SEE_IMAGE_002]<br><br>Elvirita, después de sus labores, va a Venice y toma sus baños de mar. Ustedes verán que no está mal nuestra compatriota.... | [SEE_IMAGE_003] |
+| ES difícil decir cómo entré a Lasky. Cómo entré al cine. Porque, no obstante ser Lasky la compañía más poderosa y rica del mundo, quizá hubiera sido igual para mi ambición y para mi ansia de aparecer en una película yanqui—ya que son estos señores los que han hecho un arte de la cinematografía, mejor que nadie—, el lograr "escurrirme" dentro de un "studio" pequeño.<br>Este indiscreto y "molón" señor corresponsal de EL UNIVERSAL ILUSTRADO, Julián del Roble, insiste en que cuente a sus "numerosos" lectores—¡y es modesto el señor!—de la forma en que llegué acá.<br>Poco discernimiento tiene usted, señor corresponsal; pero hace usted una grave ofensa a "sus" lectores en suponerles tan estrechos de sesera como su indiscreta persona. ¿No sabe usted cómo llegué acá, a esta "su" espléndida tierra; a estos Angeles de usted, con cuya descripción me maravillara yo, a través de sus crónicas y desde mi modesto título de "estrella" mexicana? ¿No lo sabe usted?<br>¡So tonto!, como diría una coupletista a un viejo calvo, o a un niño "bien", desde el escenario de uno de nuestros teatros. | Y en Venice tiene actitudes lánguidas a la caída del sol....<br><br>tros. Llegué, sencillamente, como usted: en el tren.<br>Ya ve usted que la cosa es simple. Aunque no tanto como me ha demostrado serlo "usté"—como también podría decir<br><br>Durante algunos días, no lo creerá usted, viví sólo para ver el sol; sólo veía el sol. Y todo lo que era producto de su generosidad y de su magnificencia: los prados verdes, las casitas de rojas techumbres, los caminos blancos... Me olvidaba de que aquella era la tierra del cine; el cine en sí. Me olvidaba de que había |
+| 28 | |
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![source-caption: Elvira Ortiz, en pleno “set”, charlando con un compañero
-de labores antes de que la llame el Director a escena.](../extracted-images/page-0030/page-0030-image-01-elvira-ortiz-on-set-with-colleague.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [37.5, 6.5, 90.5, 32.5]
-  - Source context: Elvira Ortiz on a film set with a colleague.
-- ![source-caption: Elvirita, después de sus labores, va
-a Venice y toma sus baños de
-mar. Ustedes verán que no está
-mal nuestra compatriota....](../extracted-images/page-0030/page-0030-image-02-elvirita-in-swimsuit-venice.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [13.5, 34.5, 42.5, 53.5]
-  - Source context: Elvirita in a swimsuit at Venice.
-- ![source-caption: Y en Venice tiene actitudes lángui-
-das a la caída del sol...](../extracted-images/page-0030/page-0030-image-03-elvira-ortiz-portrait-venice.png)
-  - Kind: photograph; label basis: source-caption; bbox_pct: [42.5, 52.5, 64.5, 83.5]
-  - Source context: Portrait of Elvira Ortiz in Venice.
+- ![source-caption: Elvira Ortiz, en pleno "set", charlando con un compañero de labores antes de que la llame el Director a escena.](../extracted-images/page-0030/page-0030-image-01-img-001-p0030-s495-2-2-elvira-ortiz-on-set.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [49.3, 7.1, 98.1, 33.2]
+  - Source context: article_photograph
+- ![source-caption: Elvirita, después de sus labores, va a Venice y toma sus baños de mar. Ustedes verán que no está mal nuestra compatriota....](../extracted-images/page-0030/page-0030-image-02-img-002-p0030-s495-2-2-elvirita-at-the-beach.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [8.3, 34.1, 48.2, 55.2]
+  - Source context: article_photograph
+- ![source-caption: Y en Venice tiene actitudes lánguidas a la caída del sol....](../extracted-images/page-0030/page-0030-image-03-img-003-p0030-s495-2-2-woman-in-dress.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [49.5, 56.1, 80.2, 85.2]
+  - Source context: article_photograph
 
-1.  A black and white photograph showing a film set. Several individuals in period costumes are visible, including a woman (Elvira Ortiz) and a man in a dark cloak in the foreground. A large, multi-level wooden structure, possibly scaffolding or part of a set, stands in the background.
-    *   **Caption**: Elvira Ortiz, en pleno “set”, charlando con un compañero
-        de labores antes de que la llame el Director a escena.
-2.  A black and white photograph of a woman (Elvirita) in a striped, one-piece swimsuit, standing on what appears to be a beach or by a pool. Other people are visible in the background, some seated.
-    *   **Caption**: Elvirita, después de sus labores, va
-        a Venice y toma sus baños de
-        mar. Ustedes verán que no está
-        mal nuestra compatriota....
-3.  A black and white portrait-style photograph of a woman (Elvira Ortiz) with dark hair, wearing a dark dress or cloak. She has a serious expression and is looking slightly to the side. The image shows her head and upper torso.
-    *   **Caption**: Y en Venice tiene actitudes lángui-
-        das a la caída del sol...
+- **Image 1:** [SEE_IMAGE_001] A black and white photograph showing several people in period costumes, possibly 16th or 17th century, on what appears to be a movie set with large scaffolding structures in the background. A man and a woman are in the foreground, with others, including a young boy in costume, nearby.
+  - **Caption:** `Elvira Ortiz, en pleno "set", charlando con un compañero de labores antes de que la llame el Director a escena.`
+- **Image 2:** [SEE_IMAGE_002] A black and white photograph of a woman in a 1920s-style swimsuit and bathing cap, standing on a beach with other beachgoers in the background.
+  - **Caption:** `Elvirita, después de sus labores, va a Venice y toma sus baños de mar. Ustedes verán que no está mal nuestra compatriota....`
+- **Image 3:** [SEE_IMAGE_003] A black and white photograph of a woman in a dark, off-the-shoulder dress with white trim, holding a small white dog or object.
+  - **Caption:** `Y en Venice tiene actitudes lánguidas a la caída del sol....`
 
 ## Uncertain Or Illegible
-- The title "MIS PRIMERAS EXPE" is truncated, likely "MIS PRIMERAS EXPERIENCIAS".
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-All visible text and images on the page have been transcribed and described. The page number visible on the page is 28, which differs from the job manifest's page number 30.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "img_001",
       "kind": "photograph",
       "bbox_pct": [
-        37.5,
-        6.5,
-        90.5,
-        32.5
+        49.3,
+        7.1,
+        98.1,
+        33.2
       ],
-      "caption_literal": "Elvira Ortiz, en pleno “set”, charlando con un compañero\nde labores antes de que la llame el Director a escena.",
+      "caption_literal": "Elvira Ortiz, en pleno \"set\", charlando con un compañero de labores antes de que la llame el Director a escena.",
       "caption_type": "source-caption",
-      "identity_basis": "name-in-caption",
-      "source_context": "Elvira Ortiz on a film set with a colleague.",
-      "confidence": 0.95,
-      "suggested_filename": "Elvira_Ortiz_on_set_with_colleague.png",
-      "inline_anchor": "Elvira Ortiz, en pleno “set”, charlando con un compañero\nde labores antes de que la llame el Director a escena."
+      "identity_basis": "named_in_caption",
+      "source_context": "article_photograph",
+      "confidence": "high",
+      "suggested_filename": "img_001_p0030_s495-2-2_elvira_ortiz_on_set.png",
+      "inline_anchor": "[SEE_IMAGE_001]"
     },
     {
-      "region_id": "region_2",
+      "region_id": "img_002",
       "kind": "photograph",
       "bbox_pct": [
-        13.5,
-        34.5,
-        42.5,
-        53.5
+        8.3,
+        34.1,
+        48.2,
+        55.2
       ],
-      "caption_literal": "Elvirita, después de sus labores, va\na Venice y toma sus baños de\nmar. Ustedes verán que no está\nmal nuestra compatriota....",
+      "caption_literal": "Elvirita, después de sus labores, va a Venice y toma sus baños de mar. Ustedes verán que no está mal nuestra compatriota....",
       "caption_type": "source-caption",
-      "identity_basis": "name-in-caption",
-      "source_context": "Elvirita in a swimsuit at Venice.",
-      "confidence": 0.95,
-      "suggested_filename": "Elvirita_in_swimsuit_Venice.png",
-      "inline_anchor": "Elvirita, después de sus labores, va\na Venice y toma sus baños de\nmar. Ustedes verán que no está\nmal nuestra compatriota...."
+      "identity_basis": "named_in_caption",
+      "source_context": "article_photograph",
+      "confidence": "high",
+      "suggested_filename": "img_002_p0030_s495-2-2_elvirita_at_the_beach.png",
+      "inline_anchor": "[SEE_IMAGE_002]"
     },
     {
-      "region_id": "region_3",
+      "region_id": "img_003",
       "kind": "photograph",
       "bbox_pct": [
-        42.5,
-        52.5,
-        64.5,
-        83.5
+        49.5,
+        56.1,
+        80.2,
+        85.2
       ],
-      "caption_literal": "Y en Venice tiene actitudes lángui-\ndas a la caída del sol...",
+      "caption_literal": "Y en Venice tiene actitudes lánguidas a la caída del sol....",
       "caption_type": "source-caption",
-      "identity_basis": "implied-in-caption",
-      "source_context": "Portrait of Elvira Ortiz in Venice.",
-      "confidence": 0.9,
-      "suggested_filename": "Elvira_Ortiz_portrait_Venice.png",
-      "inline_anchor": "Y en Venice tiene actitudes lángui-\ndas a la caída del sol..."
+      "identity_basis": "nearby-text",
+      "source_context": "article_photograph",
+      "confidence": "high",
+      "suggested_filename": "img_003_p0030_s495-2-2_woman_in_dress.png",
+      "inline_anchor": "[SEE_IMAGE_003]"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:49:21Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json",
+  "page": 102,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0102.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0102.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "a) Peligro.— El brazo en posición horizontal o luz roja,\nobliga a parar.\nEn las señales de distancia la luz roja será sustituída\npor la luz anaranjada, la cual obliga al maquinista a\nproceder de acuerdo con lo dispuesto en el artículo 109.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source_context",
+      "source_context": "Illustration of two-position railway signals for 'Peligro' (Danger).",
+      "confidence": "0.95",
+      "inline_anchor": "a) *Peligro.*— El brazo en posición horizontal o luz roja,\nobliga a parar.",
+      "bbox_pct": [
+        36.0,
+        14.9,
+        52.9,
+        84.7
+      ],
+      "bbox_pixels": [
+        279,
+        152,
+        420,
+        889
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0102/page-0102-image-01-railway-signals-two-positions-danger.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0102/page-0102-image-01-railway-signals-two-positions-danger.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0102.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json",
+      "page": 102,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0102.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "illustration",
+      "caption_literal": "b) Vía libre.— El brazo inclinado hacia abajo de la hori-\nzontal en un ángulo de 45º o luz verde, autoriza a seguir\nla marcha.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source_context",
+      "source_context": "Illustration of two-position railway signals for 'Vía libre' (Clear track).",
+      "confidence": "0.95",
+      "inline_anchor": "b) *Vía libre.*— El brazo inclinado hacia abajo de la hori-\nzontal en un ángulo de 45º o luz verde, autoriza a seguir\nla marcha.",
+      "bbox_pct": [
+        64.9,
+        22.0,
+        81.8,
+        84.7
+      ],
+      "bbox_pixels": [
+        507,
+        226,
+        648,
+        889
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0102/page-0102-image-02-railway-signals-two-positions-clear-track.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0102/page-0102-image-02-railway-signals-two-positions-clear-track.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0102.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/manifest.json",
+      "page": 102,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0102.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

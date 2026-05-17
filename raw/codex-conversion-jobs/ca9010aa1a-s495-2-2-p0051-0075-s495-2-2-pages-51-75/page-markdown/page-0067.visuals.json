@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:54:05Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 67,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0067.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0067.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "An illustration of a woman with short dark hair, wearing an apron, operating a hand-cranked ice cream maker.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Top advertisement illustration.",
+      "confidence": "1.0",
+      "inline_anchor": "An illustration of a woman with short dark hair, wearing an apron, operating a hand-cranked ice cream maker.",
+      "bbox_pct": [
+        10.0,
+        15.9,
+        48.0,
+        46.8
+      ],
+      "bbox_pixels": [
+        135,
+        294,
+        671,
+        882
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0067/page-0067-image-01-woman-with-ice-cream-maker.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0067/page-0067-image-01-woman-with-ice-cream-maker.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0067.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 67,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0067.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "An illustration of a tall glass filled with frothy beer.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Bottom advertisement illustration.",
+      "confidence": "1.0",
+      "inline_anchor": "An illustration of a tall glass filled with frothy beer.",
+      "bbox_pct": [
+        17.0,
+        56.8,
+        34.0,
+        82.0
+      ],
+      "bbox_pixels": [
+        232,
+        1061,
+        476,
+        1542
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0067/page-0067-image-02-glass-of-frothy-beer.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0067/page-0067-image-02-glass-of-frothy-beer.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0067.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 67,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0067.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-450c90a54da0-P0001-14
+chunk_id: CHUNK-892a0f66c256-P0001-14
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: 450c90a54da0e0b66f0d77d6a696a8abdfbf610719d3a796718558dca281f8d0
+converted_sha256: 892a0f66c2562ace1595eeac8926f41ef10b0bd60e2a137bb1abaa359ccead47
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -12,195 +12,198 @@ part: 14
 ---
 
 ## Literal Transcription
+nuestro resplandor ha tenido la vir-
+tualidad, de hacer visible a los ojos
+del más miope, la terrible realidad
+del problema de Cuba.
 
-al pueblo cubano la eterna servi-
-dumbre económica, son los grandes
-intereses extranjeros que han con-
-vertido a Cuba en una factoría. El
-obstáculo perpétuo a nuestra libera-
-ción económica, está en la tenaz in-
-gerencia en nuestros asuntos inte-
-riores, de la diplomacia norte-ame-
-ricana, ingerencia, que se ejerce in-
-variablemente en beneficio de esos
-intereses. Y el instrumento más ade-
-cuado a esos propósitos, lo han cons-
-tituído, esos políticos cubanos, que
-en el pasado se han prestado, y en el
-presente se siguen prestando, a la
-farsa ingerencista. Para todos ha si-
-do visible que Cuba no es una Nación
-políticamente independiente por más
-que lo digan los cañones del Wyom-
-ing. Y el crear en el pueblo cubano,
-el propósito de obtener sin cortapi-
-sas, esa independencia que nos per-
-mita, rescatar el poder político, de
-las manos extrañas, que actualmente
-lo manejan, para ponerlo al servicio
-de la causa de la liberación econó-
-mica del pueblo de Cuba, ha sido el
-resultado, más notable, y de mayor
-trascendencia del Gobierno del doc-
-tor Grau San Martín.
+La idea de que la lucha contra
+Machado no era una mera discusión
+política similar a otras anteriores,
+dió a esta lucha un carácter de gran-
+deza, desconocido hasta entonces en
+nuestras discordias civiles. La ju-
+ventud cubana dió a la lucha el ca-
+rácter de una cruzada por la conse-
+cución de la Patria que nunca he-
+mos tenido. En medio de los horro-
+res de la contienda surgió un con-
+cepto dignificador de nuestra políti-
+ca, quedando de lado a la mezqui-
+na y vacía lucha caudillista, aspiró
+a la obtención de fórmulas, que re-
+dimieran al pueblo cubano de su
+miseria política y social. Y a medi-
+da, que los paladines de la nueva
+doctrina, se iban adentrando en la
+contienda, se iba haciendo más visi-
+ble para ellos, que la misión histó-
+rica que el destino les deparaba, no
+era el simple derribo de Machado;
+sino el inicio de la lucha por la in-
+dependencia política y económica,
+que a consuno nos habían arrebata-
+do, la incapacidad propia y el inte-
+rés extraño.
 
-Para la consecución de este pro-
-pósito, para canalizar, movilizar y
-organizar, las masas cubanas, que
-se mueven al conjuro de esta aspira-
-ción, surge el Partido Revoluciona-
-rio Cubano. El Partido Revolucio-
-nario Cubano tiene pues, como pro-
-pósito básico, el poner el poder polí-
-tico, al servicio del pueblo de Cuba,
-y el utilizar los recursos de ese po-
-der, para conseguir la liberación
-económica de Cuba, mediante la
-aplicación de las medidas políticas,
-sociales y económicas, que constituí-
-rán los fundamentos de nuestro pro-
-grama.
+La inquebrantable tenacidad de la
+oposición, mantenida por los altos
+ideales, a que nos hemos referido en
+el párrafo anterior, llevó a Macha-
+do a adoptar las más extremas me-
+didas de represión. Su nombre re-
+sonó con eco siniestro en el mundo
+entero. La repulsa moral traspasó
+los límites de Cuba y se hizo univer-
+sal. En tales circunstancias la in-
+gerencia yanqui adoptó el aspecto
+providencial y tutelar, que ha asu-
+mido en distintas fases de nuestra
+historia. Summer Welles partió ha-
+cia Cuba, con la doble misión, de
+deshacerse de un servidor molesto,
+cuya siniestra fama resultaba ya em-
+barazosa para el buen nombre de
+los Estados Unidos, y mantener al
+mismo tiempo, el status que legal y
+económico del régimen machadista.
+La primera parte de su misión re-
+sultó relativamente fácil. Fiel a sus
+tradiciones, la oficialidad del ejér-
+cito, hasta aquel momento enérgico
+sostén del dictador, aclamó en Sum-
+mer Welles a su último caudillo. Des-
+amparado por sus dioses tutelares
 
-Para el logro de estos propósitos,
-los hombres que constituyen el Par-
-tido Revolucionario Cubano, han
-creído necesario la organización de
-una nueva fuerza política. Esta
-creencia está basada, en nuestra fir-
-me convicción, de la absoluta inca-
-pacidad de los sectores que usufruc-
-tan el poder y de sus hombres diri-
-gentes y representativos, para llevar
-a cabo ese propósito. Y esa convic-
-ción no está basada, en una presun-
-tuosa y petulante apreciación de
+Machado abandonó el poder, y escar-
+neció por última vez a la Nación
+con su retirada impune. Cumplida
+la primera parte de su misión, el
+procónsul yanqui se aplicó a la se-
+gunda. La oposición mediatizadora
+y la ingerencia extraña produjeron
+el Gobierno de Céspedes que trató
+de mantener el status legal de la Re-
+pública de Machado y que ante la
+repulsa pública trató de revivir la
+malograda República de 1901. En
+esta tarea, de escamotear al pueblo
+cubano, su oportunidad de renova-
+ción, se encontraba enfrascado cuan-
+do las trompetas rebeldes de Colum-
+bia abrieron las puertas a la Revo-
+lución.
 
-nuestro propio mérito; sino en la
-realidad indiscutible de la debilidad
-ajena. Los más de ellos son meros
-continuadores de la vieja política
-caudillista, vacía y mezquina, que
-limitaba sus aspiraciones al dis-
-frute del presupuesto nacional, en
-la ingestina de la ingerencia, que de
-desacierto en desacierto nos llevó a
-Ma-
-chado, y que hoy se oculta a la som-
-bra de pomposos de Acción Cu-
-bana, Conjunto Revolucionario,
-etc. Todos son culpables del pecado
-del ingerencismo. Ninguno posee la
-capacidad del pueblo cubano para
-resolver sobre sus propios destinos.
-Todos, en horas de peligro y crisis,
-han vuelto sus miradas implorantes
-hacia Washington. A los más de ellos
-les alcanza la inmensa responsabilidad
-en el período que preparó la apoteosis
-machadista. Algunos fueron decididos
-auxiliares de la dictadura, ejemplo:
-el General Menocal. El actual Presi-
-dente de la República, fué durante
-muchos años, miembro prominente
-de aquellos que él llamaba el “Gran
-Liberal”, y que realizó la campaña
-electoral de 1920, condenando su
-programa político en aquel extraor-
-dinario de “Tiburón salpica”; en de-
-dos recuerdos de Cuba, el General
-Machado ocupa el primer lugar, y
-el General Menocal, por derecho
-propio, el segundo. En cuanto al
-ABC desarticulado por sus directos
-de su propósito inicial, florón arro-
-jado a la Revolución por la inhabil-
-idad de Summer Welles sus directores
-han adquirido en la atmósfera de las
-Embajadas, el arte de vencer escrú-
-pulos programáticos, y a fuerza de
-obtener triunfos sobre su propia doc-
-trina, han logrado convertir a la or-
-ganización en flor de la ingerencia,
-en la garantía de la vida de los ma-
-chadistas y en la tropa de choque
-del Chase National Bank. Al mismo
-tiempo, aquel su primitivo llama-
-miento a los hombres de manos lim-
-pias, se ha hecho tan amplio y to-
-lerante, que cualquier machadista
-puede adquirir de un ventajista am-
-bulante, por veinte centavos. Una
-docena de navajas de afeitar, reci-
-biendo a guisa de propina una insig-
-nia del ABC, que colgada de su so-
-lapa lo eleva a la categoría de com-
-pañero, de aquellos, que con su ge-
-neroso sacrificio dieron prestigio y
-honor a esa insignia verde.
+Los hombres civiles, llamados la
+noche del cuatro de septiembre por
+el ejército sublevado, eran hombres
+procedentes de todos los sectores;
+pero que no pertenecían ya a ningu-
+no. El único núcleo visible era el
+Directorio Estudiantil. Pero existía
+un punto común a todos, que era
+el que justificaba su unión. Este
+punto era la repulsa al ingerencis-
+mo. La mediación los había arroja-
+do de los sectores en que habían lu-
+chado contra Machado. La noche del
+cuatro de septiembre los reunía en
+el propósito común de establecer
+por primera vez en Cuba un Go-
+bierno cuya constitución no depen-
+diera de la voluntad extraña, y aun
+conscientes de las enormes dificul-
+tades que a su empresa se opo-
+nían no vacilaron en aceptar la res-
+ponsabilidad histórica, que el desti-
+no les deparaba, y al asumir el Go-
+bierno, en contra de la voluntad del
+mediador extranjero, suscribieron
+una declaración universal del dere-
+cho del pueblo de Cuba a su absoluta
+independencia.
 
-Hemos creído igualmente, que la
-armonía del curso de la Revolu-
-ción era necesario, que el Partido
-Revolucionario Cubano apareciera
-ante Cuba como el continuador de
-la obra del Gobierno del Dr. Grau
-San Martín, truncada por la acción
-de la ingerencia. De esta manera,
-empeñamos ante el pueblo de Cuba
-nuestra palabra. de que la acción
-del Partido Revolucionario Cubano,
-estará inspirada en los mismos pro-
-pósitos que originaron esos decretos
-revolucionarios, tan arraigados ya
-en la conciencia popular de Cuba,
-que sobre ellos no ha osado levantar
-su mano destructora el gobierno de
-concentración.
+La ingerencia se encrespó sober-
+bia. De todos los puntos del hori-
+zonte sus lebreles grises enfilaron
+su proas hacia Cuba. En el horizon-
+te marítimo de la Capital refulgie-
+ron al sol los cañones desenfundados
+del Mississipi. Las ciudades cubanas
+presenciaron el desfile de las
+tropas que iban hacia Cuba. Pero la
+temperatura moral del mundo no era
+igual a aquella, en que fácilmente
+se producía el desembarco filibuste-
+ro de Port-Au-Prince o el bombar-
 
-Pero si las razones expuestas no
-fueran suficientes a justificar nues-
-tra constitución, el espectáculo ac-
-tual hace imperiosa necesidad, la
-movilización de Cuba alrededor de
-un principio netamente nacional.
-El gobierno de concentración, hijo
-legítimo de la ingerencia extraña,
-apenas instalado en el poder, ha
-desarrollado una desaten ada polí-
-tica de clase, tanto más odiosa cuan-
-to se ejerce en beneficio de intereses
-extranjeros, y en contra de las clases
-más míseras y desheredadas de la
-sociedad cubana. Amparado en los
-buenos oficios de la diplomacia del
-dóllar el Gobierno va por los ca-
-minos de la represión y la violencia
-al aplastamiento del movimiento
-obrero. En frente de ellos, prevale-
-ciéndose de la irritación y el desen-
-canto de las masas obreras, los par-
-tidarios de la solución extremista
-intensifican su esfuerzo, para con-
-gregar a los obreros cubanos, mé-
-dula actual de nuestra nacionalidad,
-alrededor del símbolo de la hoz y el
-martillo. Unos y otros, cada uno a
-su modo, precipitan la disolución de
-nuestra nacionalidad.
+deo impune de Veracruz. El alarde
+bélico no encontró ambiente, y ter-
+minó, cuando el Secretario Swanson,
+salido con aires de procónsul, se con-
+virtió en pacífico turista en la bahía
+de la Habana. Pero el ataque no hizo
+más que cambiar de aspecto. La
+Cancillería esgrimió el arma del no
+reconocimiento. Summer Welles se
+metió a conspirador, fué jefe de re-
+beldes en el Nacional, se hizo miem-
+bro honoris causa del ABC, deslizó
+en los oídos del jefe militar de la
+Revolución las más halagadoras su-
+gestiones. Se retiró en fin Su Exce-
+lencia, agotados ya los recursos de
+su fértil ingenio. Lo sustituyó mister
+Caffery. Este simplificó la tarea,
+desechando algunos de los escrúpu-
+los morales, que embarazaban a su
+antecesor. En fin de cuentas, lo im-
+portante para la Cancillería, era re-
+cuperar el control político de Cuba,
+y no la suerte que pudieran correr
+unos cuantos oficiales desplazados
+de sus puestos. Después de despejar
+este punto espinoso, le fué fácil ob-
+tener de sus clientes criollos, la clau-
+dicación de sus puntos de vista, apa-
+rentemente más arraigados. El diez
+y ocho de enero Su Excelencia rema-
+taba la obra maestra. El ejército
+descarriado el cuatro de septiembre,
+volvía a redil. La clientela de We-
+lles volvía al poder. Llevando esta
+vez a su cabeza al Coronel Carlos
+Mendieta, y la Cancillería reanuda-
+ba, para sosiego y regocijo de los
+intereses extranjeros y sus clientes
+criollos, su momentáneamente inte-
+rrumpido dominio sobre las cosas y
+los hombres de Cuba.
 
-Entre una y otra facción, extrañas
-ambas por igual a nuestra nacio-
-nalidad, el Partido Revolucionario
-Cubano levanta la bandera de Cu-
-ba. Proclama que en Cuba no hay
-una clase capitalista cubana, cuyos
-intereses tenga que defender este
-gobierno. Hay de un lado intereses
-extranjeros, a cuyo servicio está
-este gobierno de concentración, y
+Pero si el enviado yanqui había
+logrado, en un plazo relativamente
+breve, aplastar la tentativa de libre
+determinación, no le fué dable el im-
+pedir, que el principio que inspiró
+el movimiento del cuatro de sep-
+tiembre se hiciera familiar a la Na-
+ción entera. Por primera vez en la
+historia de Cuba, la ingerencia se
+había visto precisada, a despojarse
+de su máscara y presentarse, en su
+dura y descarnada realidad, ante el
+pueblo de Cuba. La misión histórica
+del Gobierno del doctor Gran San
+Martín ha sido plantear los verda-
+deros términos del problema Este no
+ha consistido, ni podía consistir, en
+el Gobierno de un tiranuelo tropical,
+al servicio de bancos extranjeros. El
+gran tirano de ayer, de hoy y de ma-
+ñana, el duro grillete, que condena
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+The page contains no images, captions, or other meaningful visual elements.
 
 ## Uncertain Or Illegible
 None.
@@ -209,6 +212,11 @@ None.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+
+## Page Metadata
+Page: 25
+
+## Layout And Reading Order
+
+The page contains two columns of text. The left column is slightly wider than the right column. The text flows from the top of the left column to the bottom, then from the top of the right column to the bottom. There are several distinct paragraphs within each column.

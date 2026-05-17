@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:50:30Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 58,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0058.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0058.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "En la Isla de Todos Santos, Baja California, existen los elefantes marinos, monstruos que han desaparecido casi completamente, por lo cual el gobierno nacional ha decre- tado severas penas para los que ex- terminen a los pocos ejemplares existentes, que se han recogido— como llevamos dicho—en la Isla de Todos Santos. He aquí varias foto- grafías de estos raros animales, ga- lantemente cedidas a este periódico por el señor ingeniero David Gold- baum.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "The caption describes 'elefantes marinos' (marine elephants) and mentions 'varias fotografías de estos raros animales'. This image is one of three depicting these animals.",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 3",
+      "bbox_pct": [
+        59.9,
+        65.0,
+        90.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        817,
+        1212,
+        1237,
+        1688
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0058/page-0058-image-01-elephant-seal-close-up-todos-santos.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0058/page-0058-image-01-elephant-seal-close-up-todos-santos.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0058.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 58,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0058.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "En la Isla de Todos Santos, Baja California, existen los elefantes marinos, monstruos que han desa- parecido casi completamente, por lo cual el gobierno nacional ha decre- tado severas penas para los que ex- terminen a los pocos ejemplares existentes, que se han recogido— como llevamos dicho—en la Isla de Todos Santos. He aquí varias foto- grafías de estos raros animales, ga- lantemente cedidas a este periódico por el señor ingeniero David Gold- baum.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "The caption describes 'elefantes marinos' (marine elephants) and mentions 'varias fotografías de estos raros animales'. This image is one of three depicting these animals.",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 1",
+      "bbox_pct": [
+        38.0,
+        12.0,
+        58.0,
+        91.0
+      ],
+      "bbox_pixels": [
+        517,
+        221,
+        799,
+        1707
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0058/page-0058-image-02-elephant-seal-in-water-todos-santos.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0058/page-0058-image-02-elephant-seal-in-water-todos-santos.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0058.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 58,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0058.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "caption_literal": "En la Isla de Todos Santos, Baja California, existen los elefantes marinos, monstruos que han desa- parecido casi completamente, por lo cual el gobierno nacional ha decre- tado severas penas para los que ex- terminen a los pocos ejemplares existentes, que se han recogido— como llevamos dicho—en la Isla de Todos Santos. He aquí varias foto- grafías de estos raros animales, ga- lantemente cedidas a este periódico por el señor ingeniero David Gold- baum.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "The caption describes 'elefantes marinos' (marine elephants) and mentions 'varias fotografías de estos raros animales'. This image is one of three depicting these animals.",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 2",
+      "bbox_pct": [
+        38.0,
+        12.0,
+        58.0,
+        91.0
+      ],
+      "bbox_pixels": [
+        517,
+        221,
+        799,
+        1707
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0058/page-0058-image-03-person-with-elephant-seal-todos-santos.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0058/page-0058-image-03-person-with-elephant-seal-todos-santos.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0058.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 58,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0058.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:16:30Z",
+  "created": "2026-05-17T09:49:19Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
@@ -8,16 +8,8 @@
   "page": 21,
   "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/page-images/page-0021.jpg",
   "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/page-markdown/page-0021.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains only typed text and a minor administrative stamp, neither of which requires a separate visual crop.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "visreg_001",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "ACTION\nREÇU\nREGISTRE\n14-MAI-1929",
-      "source_context": "A faint, purple-inked stamp is visible in the middle-right section of the page, overlapping the text \"(le reste sans changement)\"."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

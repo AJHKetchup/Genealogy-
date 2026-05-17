@@ -1,0 +1,55 @@
+{
+  "created": "2026-05-17T09:50:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 61,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0061.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0061.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "Universal\nIlustrado",
+      "caption_type": "source-caption",
+      "identity_basis": "text-in-image",
+      "source_context": "Masthead illustration at the top right of the page.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        70.0,
+        11.0,
+        89.0,
+        20.0
+      ],
+      "bbox_pixels": [
+        968,
+        202,
+        1240,
+        379
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0061/page-0061-image-01-universal-ilustrado-masthead.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0061/page-0061-image-01-universal-ilustrado-masthead.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0061.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 61,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0061.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": [
+    "visual_region_2_visual_region_bbox_too_small",
+    "visual_region_3_visual_region_bbox_too_small",
+    "visual_region_4_visual_region_bbox_too_small",
+    "visual_region_5_visual_region_bbox_too_small",
+    "visual_region_6_visual_region_bbox_too_small",
+    "visual_region_7_visual_region_bbox_too_small",
+    "visual_region_8_visual_region_bbox_too_small",
+    "visual_region_9_visual_region_bbox_too_small"
+  ]
+}

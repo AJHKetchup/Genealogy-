@@ -1,0 +1,346 @@
+{
+  "created": "2026-05-17T09:49:08Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+  "page": 99,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "diagram",
+      "caption_literal": "REPÚBLICA ORIENTAL DEL URUGUAY\nFICHA DE CANJE\nPOLICIA DE INVESTIGACIONES\nMONTEVIDEO\n\nMANO IZQUIERDA | MANO DERECHA\n---|---\n[Fingerprint] | PULGARES | [Fingerprint]\n[Fingerprint] | ÍNDICES | [Fingerprint]\nSECCIÓN | MEDIOS | [Fingerprint]\n[Fingerprint] | ANULARES | [Fingerprint]\n[Fingerprint] | MEÑIQUES | [Fingerprint]\n| SERIE |",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "The entire form is a fingerprint card.",
+      "confidence": "0.95",
+      "inline_anchor": "The entire form is a fingerprint card.",
+      "bbox_pct": [
+        10.8,
+        10.8,
+        89.8,
+        90.0
+      ],
+      "bbox_pixels": [
+        63,
+        142,
+        564,
+        1224
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-01-fingerprint-card-uruguay.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-01-fingerprint-card-uruguay.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Left Thumbprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO IZQUIERDA' and next to 'PULGARES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Left Thumbprint",
+      "bbox_pct": [
+        26.0,
+        33.0,
+        37.0,
+        56.0
+      ],
+      "bbox_pixels": [
+        158,
+        443,
+        235,
+        763
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-02-left-thumbprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-02-left-thumbprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "caption_literal": "Right Thumbprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO DERECHA' and next to 'PULGARES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Right Thumbprint",
+      "bbox_pct": [
+        26.0,
+        47.0,
+        37.0,
+        70.0
+      ],
+      "bbox_pixels": [
+        158,
+        633,
+        235,
+        953
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-03-right-thumbprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-03-right-thumbprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "photograph",
+      "caption_literal": "Left Index Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO IZQUIERDA' and next to 'ÍNDICES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Left Index Fingerprint",
+      "bbox_pct": [
+        39.0,
+        33.0,
+        50.0,
+        56.0
+      ],
+      "bbox_pixels": [
+        239,
+        443,
+        316,
+        763
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-04-left-index-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-04-left-index-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_5",
+      "kind": "photograph",
+      "caption_literal": "Right Index Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO DERECHA' and next to 'ÍNDICES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Right Index Fingerprint",
+      "bbox_pct": [
+        39.0,
+        47.0,
+        50.0,
+        70.0
+      ],
+      "bbox_pixels": [
+        239,
+        633,
+        316,
+        953
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-05-right-index-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-05-right-index-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_6",
+      "kind": "photograph",
+      "caption_literal": "Left Middle Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO IZQUIERDA' and next to 'MEDIOS'.",
+      "confidence": "0.95",
+      "inline_anchor": "Left Middle Fingerprint",
+      "bbox_pct": [
+        52.0,
+        33.0,
+        63.0,
+        56.0
+      ],
+      "bbox_pixels": [
+        320,
+        443,
+        397,
+        763
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-06-left-middle-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-06-left-middle-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_7",
+      "kind": "photograph",
+      "caption_literal": "Right Middle Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO DERECHA' and next to 'MEDIOS'.",
+      "confidence": "0.95",
+      "inline_anchor": "Right Middle Fingerprint",
+      "bbox_pct": [
+        52.0,
+        47.0,
+        63.0,
+        70.0
+      ],
+      "bbox_pixels": [
+        320,
+        633,
+        397,
+        953
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-07-right-middle-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-07-right-middle-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_8",
+      "kind": "photograph",
+      "caption_literal": "Left Ring Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO IZQUIERDA' and next to 'ANULARES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Left Ring Fingerprint",
+      "bbox_pct": [
+        65.0,
+        33.0,
+        76.0,
+        56.0
+      ],
+      "bbox_pixels": [
+        402,
+        443,
+        478,
+        763
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-08-left-ring-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-08-left-ring-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_9",
+      "kind": "photograph",
+      "caption_literal": "Right Ring Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO DERECHA' and next to 'ANULARES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Right Ring Fingerprint",
+      "bbox_pct": [
+        65.0,
+        47.0,
+        76.0,
+        70.0
+      ],
+      "bbox_pixels": [
+        402,
+        633,
+        478,
+        953
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-09-right-ring-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-09-right-ring-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_10",
+      "kind": "photograph",
+      "caption_literal": "Left Pinky Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO IZQUIERDA' and next to 'MEÑIQUES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Left Pinky Fingerprint",
+      "bbox_pct": [
+        78.0,
+        33.0,
+        89.0,
+        56.0
+      ],
+      "bbox_pixels": [
+        483,
+        443,
+        559,
+        763
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-10-left-pinky-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-10-left-pinky-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    },
+    {
+      "region_id": "region_11",
+      "kind": "photograph",
+      "caption_literal": "Right Pinky Fingerprint",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Fingerprint impression under 'MANO DERECHA' and next to 'MEÑIQUES'.",
+      "confidence": "0.95",
+      "inline_anchor": "Right Pinky Fingerprint",
+      "bbox_pct": [
+        78.0,
+        47.0,
+        89.0,
+        70.0
+      ],
+      "bbox_pixels": [
+        483,
+        633,
+        559,
+        953
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-11-right-pinky-fingerprint.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0099/page-0099-image-11-right-pinky-fingerprint.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-images/page-0099.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/manifest.json",
+      "page": 99,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/page-markdown/page-0099.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

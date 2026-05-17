@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:49:04Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
+  "page": 105,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-images/page-0105.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-markdown/page-0105.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_0",
+      "kind": "diagram",
+      "caption_literal": "DATE OF REGISTRATION\n21. 3. 28",
+      "caption_type": "source-field",
+      "identity_basis": "source-context",
+      "source_context": "The top box on the page, containing the date of registration.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.9,
+        20.9,
+        29.9,
+        50.9
+      ],
+      "bbox_pixels": [
+        256,
+        426,
+        463,
+        1051
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/extracted-images/page-0105/page-0105-image-01-date-of-registration-box.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/extracted-images/page-0105/page-0105-image-01-date-of-registration-box.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-images/page-0105.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
+      "page": 105,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-markdown/page-0105.md"
+    },
+    {
+      "region_id": "visreg_1",
+      "kind": "diagram",
+      "caption_literal": "CLASSEMENT\nSOCIAL 11A\nGENERAL\n\nSERIES No.:\n950",
+      "caption_type": "source-field",
+      "identity_basis": "source-context",
+      "source_context": "The larger box on the page, containing classification and series number information.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        27.0,
+        20.9,
+        39.0,
+        80.5
+      ],
+      "bbox_pixels": [
+        411,
+        426,
+        603,
+        1659
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/extracted-images/page-0105/page-0105-image-02-classification-and-series-number-box.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/extracted-images/page-0105/page-0105-image-02-classification-and-series-number-box.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-images/page-0105.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
+      "page": 105,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-markdown/page-0105.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

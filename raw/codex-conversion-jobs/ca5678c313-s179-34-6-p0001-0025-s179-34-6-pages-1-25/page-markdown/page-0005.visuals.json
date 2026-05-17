@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:15:37Z",
+  "created": "2026-05-17T09:49:26Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -8,7 +8,7 @@
   "page": 5,
   "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/page-images/page-0005.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25/page-markdown/page-0005.md",
-  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The small dark mark on the left margin is likely a binder hole or smudge and not a meaningful visual.",
+  "no_visual_regions_reason": "The page contains only typewritten text and does not have any images, illustrations, or other significant visual elements that would warrant creating a separate visual region.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d611c6269af2-P0001-01
+chunk_id: CHUNK-cf45879d7be7-P0001-01
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md
-converted_sha256: d611c6269af22017f788d47bd45116883af657b640644b4d8e8ffdde9a25bc4b
+converted_sha256: cf45879d7be7f5797c709888ee21a0804cede2e8cce8cb8a5c04537a6716c659
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5/manifest.json
@@ -112,97 +112,58 @@ This page is complete and has been fully transcribed.
 ```
 
 ## Page Metadata
-
-- **Page number**: 5
-- **Document title**: CR 177 Conférence diplomatique
+Page number: 5
+Document title: CR 177 Conférence diplomatique
 
 ## Layout And Reading Order
-
-The page contains a single column of typed text. The content is a numbered list of entries, from 81 to 102. There are three handwritten annotations in the left margin, corresponding to entries 89, 100, and 101. The reading order is sequential from top to bottom.
+The page presents a single column of text, primarily a numbered list of entries. Each entry consists of a number, a date, and a descriptive text. Some entries span multiple lines, with subsequent lines indented. There are also a few handwritten or stamped marginal notes next to specific entries.
 
 ## Literal Transcription
-
-```text
-CR 177 Conférence diplomatique
-5.
+CR 177 Conférence diplomatique 5.
 
 81.- 15.5.29. M. Brown transmet à M. Des Gouttes la 2me partie de son rapport
-concernant l'art. 5 de la Xme convention de la Haye de 1907.
-
+                 concernant l'art. 5 de la Xme convention de la Haye de 1907.
 82.- 15.5.29. L/ de M. Brown à M. de Fischer
-
 83.- 15.5.29. M. de Fischer a.r. à envoi ci-dessus
-
 84.- 15.5.29. M. Paulet demande programme pour conférence diplomatique.
-
 85.- 15.5.29. CR italienne a.r. à brochure Werner
-
 86.- 17.5.29. Répondons à M. Paulet (84)
-
 87.- 21.5.29. CR canadienne a.r. à brochure Werner
-
 88.- 24.5.29. CR de Belgique demande documents de la Conf. diplomatique.
-
 plié 89.- 24.5.29. Ministère des Aff. étrangères demande 5 ex. de la brochure
-Werner
-
-90.- 27.5.29. A.r. à l/ de la CR de Belgique (88), l'informons que nous
-transmettons sa demand à Berne
-
+                 Werner
+90.- 27.5.29. A.r. à 1/ de la CR de Belgique (88), l'informons que nous
+                 transmettons sa demand à Berne
 91.- 27.5.29. Transmettons à Départ. Politique demande de la CR de Belgique
-(88) en le priant de faire nécessaire.
-
+                 (88) en le priant de faire nécessaire.
 92.- 29.5.29. Départ. polit. envoie annexes aux documents présentés à
-Conférence
-
+                 Conférence
 93.- 30.5.29. A.r. à Dép. de l'envoi ci-dessus.
-
 94.- 3 .6.29. Envoyons 5 ex. de la brochure Werner à Ministère des Aff.
-étrangères à Rome (89)
-
+                 étrangères à Rome (89)
 95.- 4.6.29. CR autrichienne a.r. de la brochure Werner
-
 96.- 5.6.29. LSCR demande court communiqué pour Vers la Santé, relatif
-à conférence diplomatique.
-
-97.- 7.6.29. Répondons à l/ ci-dessus.
-
+                 à conférence diplomatique.
+97.- 7.6.29. Répondons à 1/ ci-dessus.
 98.- 28.5.29. CR brésilienne remercie pour brochure Werner
-
 99.- 28.5.29. CR japonaise do
-
-1ann. 100.- 31.5.29. Reichsvereinigung ehem. Kriegsgefangener E.V. à Berlin envoie
-document sur traitement des P.G.
-
-ms. 101.- 7.6.29. M. Thiébaut demande à B.Bouvier si les délégations gouvernementales
-compteront des représentants de leur CR ?
-
+1ann 100.- 31.5.29. Reichsvereinigung ehem. Kriegsgefangener E.V. à Berlin envoie
+                 document sur traitement des P.G.
+ms. 101.- 7.6.29. M. Thiébaut demande à B.Bouvier si les délégations gouverne-
+                 mentales compteront des représentants de leur CR ?
 102.- 8.6.29. Département Politique demande les noms des représentants du CI
-à Conférence diplomatique.
-```
+                 à Conférence diplomatique.
 
 ## Images, Captions, And Visual Notes
-
-There are three handwritten annotations in the left margin:
-- `plié` is written next to entry 89.
-- `1ann.` is written next to entry 100.
-- `ms.` is written next to entry 101.
-
-There are no other images or significant visual elements on this page.
+- A handwritten or stamped note "plié" appears to the left of entry 89.
+- A handwritten or stamped note "1ann" appears to the left of entry 100.
+- A handwritten or stamped note "ms." appears to the left of entry 101.
 
 ## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page.
+None.
 
 ## Completeness Audit
-
-This page has been transcribed in its entirety.
+All visible text and marginal notes on the page have been transcribed.
 
 ## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and minor handwritten annotations, which have been transcribed. There are no images, photographs, or other significant visual elements that would warrant creating a separate visual region."
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were detected on this page. Minor marks and handwritten notes are described in the 'Images, Captions, And Visual Notes' section."}

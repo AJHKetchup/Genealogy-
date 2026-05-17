@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-450c90a54da0-P0001-02
+chunk_id: CHUNK-892a0f66c256-P0001-02
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: 450c90a54da0e0b66f0d77d6a696a8abdfbf610719d3a796718558dca281f8d0
+converted_sha256: 892a0f66c2562ace1595eeac8926f41ef10b0bd60e2a137bb1abaa359ccead47
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -11,38 +11,47 @@ page_end: 1
 part: 2
 ---
 
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Handwritten notes are transcribed in the literal transcription section."}
+```
+
+## Page Metadata
+Page 5
+
 ## Layout And Reading Order
-The page contains a single handwritten note on what appears to be a folded piece of paper. The text is arranged in two main blocks, separated by a fold line, with some initials and dates written near the fold and at the bottom. The reading order is top-to-bottom, left-to-right.
+The page contains a single handwritten note on a piece of paper, which appears to have been folded horizontally across the middle. The text is in French. The reading order is from top to bottom, following the natural flow of the handwritten message.
 
 ## Literal Transcription
 M. Nogueira
-_________
+---
 Je n'ai pas un
 endroit où caser
 ceci.
 EH
 3/7
-Je crois que ces antécédents
+
+Je crois que ces antecedents
 peuvent être classés chez
-Mlle Jaussens quoiqu'ils
+Mlle. Jaussens quoiqu'ils
 soient des documents pu-
 bliques. Si elle n'en veut
 pas, vous pourrez les jeter
 au panier.
-26. VII. JM
+26 VII JM
 
 ## Images, Captions, And Visual Notes
-The entire page is a handwritten note on a piece of paper that appears to have been folded horizontally across the middle. The paper shows some signs of age and wear, including slight discoloration and a vertical crease on the right side.
+The page consists of a single handwritten note on a piece of paper. The paper shows a horizontal fold line across its middle. There are no distinct images or captions.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or described.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text on a piece of paper, with no distinct images, diagrams, or other visual elements that would warrant cropping as standalone assets."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a handwritten note on a piece of paper, which does not constitute a substantial visual asset for cropping."}
 ```
 
 ## Page Metadata
@@ -114,8 +123,7 @@ All visible text and significant visual elements on the page have been transcrib
 ```
 
 ## Page Metadata
-N/A
+This page is a single, light brown, rectangular piece of paper, likely a note or memo, with handwritten text in dark ink and a stamped date. There is a single hole punch in the top-left corner.
 
 ## Layout And Reading Order
-
-The page contains a handwritten note in French, a handwritten signature/initials with numbers, and a stamped date and number. A hole punch is present on the left side of the page. The reading order is from top-left to bottom-right, with the stamped information in the top-right corner.
+The page contains text arranged in a top-down reading order. A date stamp is in the top-right corner. The main body of the text is handwritten, starting from the top-left, below the hole punch, and continuing downwards and to the right. A signature-like mark and a numerical sequence are present in the bottom-right.

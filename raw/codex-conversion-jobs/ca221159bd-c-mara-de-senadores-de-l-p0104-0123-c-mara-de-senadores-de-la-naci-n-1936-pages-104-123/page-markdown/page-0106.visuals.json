@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:49:24Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+  "page": 106,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0106.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0106.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "diagram",
+      "caption_literal": "Normal\n(Ninguna indicación)",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "This diagram illustrates a signal in its 'Normal' state, indicating 'Ninguna indicación' (No indication).",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        23.0,
+        22.0,
+        43.0,
+        48.0
+      ],
+      "bbox_pixels": [
+        177,
+        226,
+        342,
+        506
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0106/page-0106-image-01-diagram-normal-signal.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0106/page-0106-image-01-diagram-normal-signal.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0106.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 106,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0106.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "diagram",
+      "caption_literal": "Vía Libre\n(Mostrando una cifra o una letra)",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "This diagram illustrates two examples of a 'Vía Libre' (Clear Track) signal, showing either a number ('3') or a letter ('A').",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        22.0,
+        57.0,
+        78.0,
+        88.0
+      ],
+      "bbox_pixels": [
+        169,
+        592,
+        618,
+        924
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0106/page-0106-image-02-diagram-via-libre-signals.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0106/page-0106-image-02-diagram-via-libre-signals.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0106.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 106,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0106.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

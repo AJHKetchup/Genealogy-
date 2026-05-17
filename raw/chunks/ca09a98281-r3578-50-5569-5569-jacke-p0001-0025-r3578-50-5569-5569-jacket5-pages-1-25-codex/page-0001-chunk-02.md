@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1eaefd9fbdba-P0001-02
+chunk_id: CHUNK-cddaf6bec23f-P0001-02
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 1eaefd9fbdbabad0011b7821b8dc83da8e3ea1a99026c6b0589fbea55eb5a46f
+converted_sha256: cddaf6bec23f08c23b6db259ef101fe1ad609a789748de5fe3c4cbae9dc7f367
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -56,32 +56,30 @@ All visible text and significant visual elements have been transcribed or noted.
   "page_num": 5,
   "page_side": "recto",
   "source_id": "R3578-50-5569-5569-Jacket5.pdf",
-  "quality_flags": [
-    "structured_visual_metadata_in_transcription"
-  ]
+  "source_page_label": "5",
+  "full_page_image_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS18-W91B-B?i=4&cat=201114"
 }
 ```
 
 ## Layout And Reading Order
-The page is the cover of a printed document. The content is arranged vertically, centered on the page, and enclosed within a double-ruled border.
+The page is a single-column document, which appears to be the cover of a treaty publication. The reading order is from top to bottom.
 
-The reading order is as follows:
-1. A handwritten number at the top right of the page.
-2. The series title and number.
-3. The main title block, which includes "PRISONERS OF WAR", "CONVENTION", and "BETWEEN THE UNITED STATES OF AMERICA AND OTHER POWERS".
-4. A purple rectangular stamp, applied at an angle, partially obscuring some text.
-5. A block of text detailing the signing, ratification, and proclamation dates.
-6. The seal of the U.S. Department of State.
-7. The publisher information: "UNITED STATES GOVERNMENT PRINTING OFFICE".
-8. A footer with sales information.
-
-A single hole punch is present at the top left corner.
+1.  A handwritten number is at the top right margin: `50 /5569/5569`.
+2.  The header section contains the series title and number: `TREATY SERIES, No. 846`.
+3.  The main title block follows, centered on the page: `PRISONERS OF WAR`, `CONVENTION BETWEEN THE UNITED STATES OF AMERICA AND OTHER POWERS`.
+4.  A block of text details the signing and ratification dates of the convention.
+5.  A purple, rectangular stamp is placed diagonally over the title and ratification details. It reads: `COPY RECEIVED IN REGISTRY 19 NOV 1932`.
+6.  In the center of the page is the seal of the Department of State.
+7.  Below the seal is the publisher information: `UNITED STATES GOVERNMENT PRINTING OFFICE WASHINGTON : 1932`.
+8.  A footer at the very bottom of the page provides sales information.
+9.  The main content is enclosed within a double-line border. A single hole punch is visible at the top left corner.
 
 ## Literal Transcription
 ```text
-[Handwritten at top right]
+[Handwritten in black ink at the top right:]
 50 /5569/5569
 
+[Printed text:]
 TREATY SERIES, No. 846
 
 PRISONERS OF WAR
@@ -91,13 +89,6 @@ BETWEEN THE UNITED STATES OF AMERICA
 AND OTHER POWERS
 —
 
-[A purple rectangular stamp, angled, is placed here. It reads:]
-[COPY]
-RECEIVED
-REGISTRY
-19 NOV 1932
-[End of stamp]
-
 Signed at Geneva, July 27, 1929.
 Ratification advised by the Senate of the United States, January 7,
 1932.
@@ -106,10 +97,15 @@ Ratification of the United States of America deposited with the
 Government of Switzerland, February 4, 1932.
 Proclaimed by the President of the United States, August 4, 1932.
 
-[[seal-of-the-us-department-of-state]]
-[Text within the seal:]
-DEPARTMENT OF STATE
-UNITED STATES OF AMERICA
+[A purple rectangular stamp is placed diagonally over the text, from "CONVENTION" down to "January 7, 1932".]
+COPY
+RECEIVED IN
+REGISTRY
+19 NOV 1932
+—
+
+[An illustration of the Seal of the Department of State is centered on the page.]
+<visual-region region_id="seal-of-the-department-of-state" />
 
 UNITED STATES
 GOVERNMENT PRINTING OFFICE
@@ -120,39 +116,38 @@ For sale by the Superintendent of Documents, Washington, D. C. - - - - - Price 1
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![source-field: DEPARTMENT OF STATE
-UNITED STATES OF AMERICA](../extracted-images/page-0005/page-0005-image-01-seal-of-the-us-department-of-state.png)
-  - Kind: illustration; label basis: source-field; bbox_pct: [38.1, 54.1, 61.9, 66.4]
-  - Source context: page
+- ![source-caption: DEPARTMENT OF STATE * UNITED STATES OF AMERICA *](../extracted-images/page-0005/page-0005-image-01-seal-of-the-department-of-state.png)
+  - Kind: illustration; label basis: source-caption; bbox_pct: [38.9, 53.9, 61.3, 67.2]
+  - Source context: The seal is located in the center of the page, below the proclamation details and above the publisher information.
 
-1.  **[[seal-of-the-us-department-of-state]]** A circular seal in the center of the page. It is the Great Seal of the U.S. Department of State, featuring an eagle with a shield, holding an olive branch and arrows. The text "DEPARTMENT OF STATE" is arched over the top, and "UNITED STATES OF AMERICA" is arched below.
+**seal-of-the-department-of-state**: This is the circular Seal of the Department of State of the United States. It features the Great Seal of the United States (an eagle with a shield, arrows, and an olive branch) in the center. The text around the perimeter reads "DEPARTMENT OF STATE" at the top and "* UNITED STATES OF AMERICA *" at the bottom.
 
 ## Uncertain Or Illegible
-The word "COPY" in the purple stamp is very faint but legible.
+There are no uncertain or illegible parts of this document. The word "COPY" in the purple stamp is slightly faint but readable.
 
 ## Completeness Audit
-This page has been transcribed in its entirety. All text, including handwritten notations, stamps, and text within the seal, has been captured. All significant visual elements have been described.
+This page has been fully transcribed and all visual elements have been described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "seal-of-the-us-department-of-state",
+      "region_id": "seal-of-the-department-of-state",
       "kind": "illustration",
       "bbox_pct": [
-        38.1,
-        54.1,
-        61.9,
-        66.4
+        38.9,
+        53.9,
+        61.3,
+        67.2
       ],
-      "caption_literal": "DEPARTMENT OF STATE\nUNITED STATES OF AMERICA",
-      "caption_type": "source-field",
+      "caption_literal": "DEPARTMENT OF STATE * UNITED STATES OF AMERICA *",
+      "caption_type": "source-caption",
       "identity_basis": "label",
-      "source_context": "page",
+      "source_context": "The seal is located in the center of the page, below the proclamation details and above the publisher information.",
       "confidence": "high",
-      "suggested_filename": "seal-of-the-us-department-of-state.jpg",
-      "inline_anchor": "[[seal-of-the-us-department-of-state]]"
+      "suggested_filename": "seal-of-the-department-of-state.jpg",
+      "inline_anchor": "<visual-region region_id=\"seal-of-the-department-of-state\" />"
     }
   ],
   "no_visual_regions_reason": null
@@ -230,87 +225,76 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 
 ## Page Metadata
-Page number: 2
+- `page_number`: 2
+- `page_order_in_source`: 7
+- `source_language`: fr
+- `doc_type`: Convention
+- `notes`: The page number printed at the top is "2", but the work order identifies this as page 7 of the source document.
 
 ## Layout And Reading Order
-
-The page contains a single column of text, primarily a list of names and titles, organized under headings for different countries or entities. The page number "2" is centered at the top. The text is presented in a hierarchical list format with main headings followed by indented sub-entries.
+The page consists of a single column of printed text. The page number "2" is centered at the top. The text lists the plenipotentiaries for a convention, organized by country or political entity. Each entity is introduced by a capitalized heading, followed by the names and titles of its representatives.
 
 ## Literal Transcription
+2
 
 ont résolu de conclure une Convention à cet effet, et ont nommé
 pour leurs Plénipotentiaires, savoir:
 
 LE PRÉSIDENT DU REICH ALLEMAND:
-    S. Exc. M. Edmund Rhomberg, Dʳ en Droit, Ministre en disponi-
-    bilité;
+S. Exc. M. Edmund Rhomberg, Dʳ en Droit, Ministre en disponi-
+bilité;
 
 LE PRÉSIDENT DES ÉTATS-UNIS D'AMÉRIQUE:
-    L'Honorable Eliot Wadsworth, ancien Secrétaire adjoint de la
-    Trésorerie;
-    S. Exc. l'Honorable Hugh R. Wilson, Envoyé extraordinaire et
-    Ministre plénipotentiaire des États-Unis d'Amérique à Berne;
+L'Honorable Eliot Wadsworth, ancien Secrétaire adjoint de la
+Trésorerie,
+S. Exc. l'Honorable Hugh R. Wilson, Envoyé extraordinaire et
+Ministre plénipotentiaire des États-Unis d'Amérique à Berne;
 
 LE PRÉSIDENT FÉDÉRAL DE LA RÉPUBLIQUE D'AUTRICHE:
-    M. Marc Leitmaier, Dʳ en Droit, Conseiller ministériel à la Chan-
-    cellerie fédérale, Département des Affaires étrangères;
+M. Marc Leitmaier, Dʳ en Droit, Conseiller ministériel à la Chan-
+cellerie fédérale, Département des Affaires étrangères;
 
 SA MAJESTÉ LE ROI DES BELGES:
-    M. Paul Demolder, Général Major Médecin, Commandant du
-    Service de Santé de la 1ʳᵉ Circonscription militaire,
-    M. Joseph de Ruelle, Jurisconsulte du Ministère des Affaires étran-
-    gères;
+M. Paul Demolder, Général Major Médecin, Commandant du
+Service de Santé de la 1re Circonscription militaire,
+M. Joseph de Ruelle, Jurisconsulte du Ministère des Affaires étran-
+gères;
 
 LE PRÉSIDENT DE LA RÉPUBLIQUE DE BOLIVIE:
-    S. Exc. M. Alberto Cortadellas, Ministre-Résident de Bolivie à
-    Berne;
+S. Exc. M. Alberto Cortadellas, Ministre-Résident de Bolivie à
+Berne;
 
 LE PRÉSIDENT DE LA RÉPUBLIQUE DES ÉTATS-UNIS DU BRÉSIL:
-    S. Exc. M. Raoul de Rio-Branco, Envoyé extraordinaire et Ministre
-    plénipotentiaire du Brésil à Berne;
+S. Exc. M. Raoul de Rio-Branco, Envoyé extraordinaire et Ministre
+plénipotentiaire du Brésil à Berne;
 
 SA MAJESTÉ LE ROI DE GRANDE-BRETAGNE, D'IRLANDE ET DES TERRI-
-TOIRES BRITANNIQUES AU DELÀ DES MERS, EMPEREUR DES
+TOIRES BRITANNIQUES AU DELA DES MERS, EMPEREUR DES
 INDES:
 
-    POUR LA GRANDE-BRETAGNE ET L'IRLANDE DU NORD, AINSI QUE
-    TOUTE PARTIE DE L'EMPIRE BRITANNIQUE NON MEMBRE SÉPARÉ
-    DE LA SOCIÉTÉ DES NATIONS:
-        Le Très Honorable Sir Horace Rumbold, G.C.M.G., M.V.O.,
-        Ambassadeur de Sa Majesté Britannique à Berlin;
+POUR LA GRANDE-BRETAGNE ET L'IRLANDE DU NORD, AINSI QUE
+TOUTE PARTIE DE L'EMPIRE BRITANNIQUE NON MEMBRE SÉPARÉ
+DE LA SOCIÉTÉ DES NATIONS:
+Le Très Honorable Sir Horace Rumbold, G.C.M.G., M.V.O.,
+Ambassadeur de Sa Majesté Britannique à Berlin;
 
-    POUR LE DOMINION DU CANADA:
-        M. Walter Alexandre Riddell, Conseiller permanent du Gouverne-
-        ment canadien auprès de la Société des Nations;
+POUR LE DOMINION DU CANADA:
+M. Walter Alexandre Riddell, Conseiller permanent du Gouverne-
+ment canadien auprès de la Société des Nations;
 
-    POUR LE COMMONWEALTH D'AUSTRALIE:
-        S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
-        plénipotentiaire de Sa Majesté Britannique à Berne;
+POUR LE COMMONWEALTH D'AUSTRALIE:
+S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
+plénipotentiaire de Sa Majesté Britannique à Berne;
 
-    POUR LE DOMINION DE LA NOUVELLE-ZÉLANDE:
-        S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
-        plénipotentiaire de Sa Majesté Britannique à Berne;
+POUR LE DOMINION DE LA NOUVELLE-ZÉLANDE:
+S. Exc. M. Claud Russell, Envoyé extraordinaire et Ministre
+plénipotentiaire de Sa Majesté Britannique à Berne;
 
 ## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
+This page contains only printed text. There is a circular punch hole near the top right margin.
 
 ## Uncertain Or Illegible
-
-No uncertain or illegible text was encountered.
+None.
 
 ## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
-
-## Page Metadata
-Page number: 3
-
-## Layout And Reading Order
-The page presents a single-column list of diplomatic representatives and officials, organized by country or entity. Each country/entity heading is in all caps, followed by an indented list of individuals and their titles/roles. The reading order is strictly top-to-bottom.
+This page is fully transcribed.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-475177092608-P0001-03
+chunk_id: CHUNK-9c336ccb4ed9-P0001-03
 source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25.codex.md
-converted_sha256: 47517709260851bb8de343e2139642c1768e8013859848c53c27737248ba1a96
+converted_sha256: 9c336ccb4ed9fcf639c678ac41cd45e324631a0b6a47268591577e6b778adc47
 source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
 source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
 source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json
@@ -86,52 +86,48 @@ All visible text and significant visual elements have been transcribed or descri
 ```
 
 ## Page Metadata
-Page Number: 10
+page_number: 10
+page_type: cover
 
 ## Layout And Reading Order
-
-The page features a title page layout with all text centered within a decorative border. A small document number is placed in the top right corner. A horizontal line separates the conference details from the main subject of the document.
+The page is a cover page. All text is contained within a decorative rectangular border. At the top right, inside the border, is the document number. The main body of text is centered on the page and consists of a title and subtitle for a diplomatic conference document.
 
 ## Literal Transcription
+[within a decorative border]
 
-<pre>
-                                                              DOCUMENT N° 1.
+DOCUMENT N° 1.
 
-                                                CONFÉRENCE DIPLOMATIQUE
+CONFÉRENCE DIPLOMATIQUE
+CONVOQUÉE POUR LE 1er JUILLET 1929, A GENÈVE
 
-                                CONVOQUÉE POUR LE 1er JUILLET 1929, A GENÈVE
+---
 
-                                                              —
+PROPOSITIONS ET OBSERVATIONS
+DES GOUVERNEMENTS
 
-                                        PROPOSITIONS ET OBSERVATIONS
+SUR LE PROJET DE REVISION
 
-                                            DES GOUVERNEMENTS
+DE LA
 
-                                            SUR LE PROJET DE REVISION
-
-                                                        DE LA
-
-                                    CONVENTION DE GENÈVE DU 6 JUILLET 1906
-
-                            POUR L'AMÉLIORATION DU SORT DES BLESSÉS ET MALADES
-
-                                        DANS LES ARMÉES EN CAMPAGNE
-</pre>
+CONVENTION DE GENÈVE DU 6 JUILLET 1906
+POUR L'AMÉLIORATION DU SORT DES BLESSÉS ET MALADES
+DANS LES ARMÉES EN CAMPAGNE
 
 ## Images, Captions, And Visual Notes
-
-- A decorative border, composed of small squares and lines, frames the entire text block.
-- A hole punch is visible in the bottom left corner of the page.
+The page is a tan-colored cover. The text is enclosed in a decorative border made of a repeating pattern of small squares and dashes. The left edge of the page appears to be part of a binding, showing some wear and discoloration. There is a small hole in the lower-left corner, possibly from a staple or fastener.
 
 ## Uncertain Or Illegible
-None.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
+This page is fully and accurately transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts are present. The decorative border and hole punch are noted in the 'Images, Captions, And Visual Notes' section."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and a simple decorative border, with no significant illustrations or photographs."
+}
 ```
 
 ## Page Metadata
@@ -250,7 +246,16 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-Page number: 13
+
+- Task id: `source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0013`
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Page: 13
 
 ## Layout And Reading Order
-The page contains text in a single column, centered horizontally. The content is structured with a main heading, subheadings (country names), article numbers, and paragraphs of text, some of which are marked as "Motifs". A page number is present at the top center.
+
+The page is a single column of printed text. The reading order is top to bottom.
+
+1.  A centered page number, `— 4 —`, is at the top.
+2.  A centered, all-caps heading, `PROPOSITIONS`, follows.
+3.  The main content consists of several sections, each introduced by a centered country name (`France.`, `Allemagne.`, `Espagne.`) and sometimes an article number (`ARTICLE PREMIER.`, `ARTICLE 2.`).
+4.  The text within each section consists of one or more paragraphs. Some paragraphs begin with the italicized word `Motifs :`.

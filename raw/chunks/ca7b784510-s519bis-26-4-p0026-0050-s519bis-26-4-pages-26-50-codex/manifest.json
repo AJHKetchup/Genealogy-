@@ -1,0 +1,55 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50.codex.md",
+  "converted_sha256": "e615f7f24381a598ed9947b56ff79b9f5c3562515818f04e11490f252356adfc",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-e615f7f24381-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 11982,
+      "sha256": "bd5a713385211d42ffdec0d6ffbc6d383621d0e9ab1a28203cb8612424d50d49"
+    },
+    {
+      "chunk_id": "CHUNK-e615f7f24381-P0001-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50-codex/page-0001-chunk-02.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 2,
+      "chars": 11098,
+      "sha256": "e41e6a220f8d446523da5c31cae7c59d30dd1facd1c1be84b057a03e2a9b1ed7"
+    },
+    {
+      "chunk_id": "CHUNK-e615f7f24381-P0001-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50-codex/page-0001-chunk-03.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 3,
+      "chars": 11958,
+      "sha256": "fe8b1adfd84b6ab415d5d93278a45c4ff21d5d84100b3f1f28186b9c5b4b9a06"
+    },
+    {
+      "chunk_id": "CHUNK-e615f7f24381-P0001-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50-codex/page-0001-chunk-04.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 4,
+      "chars": 10607,
+      "sha256": "93d80eecc670044ea1658c979cc1fb074532cafe93659793d44a18be7a30c8f9"
+    }
+  ]
+}

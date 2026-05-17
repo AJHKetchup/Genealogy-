@@ -1,0 +1,166 @@
+{
+  "created": "2026-05-17T09:50:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 75,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0075.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "PLANTIO DE ALGODON",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Image of a person in a cotton field.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 1",
+      "bbox_pct": [
+        14.4,
+        14.4,
+        42.9,
+        33.9
+      ],
+      "bbox_pixels": [
+        196,
+        266,
+        599,
+        640
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-01-plantio-de-algodon.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-01-plantio-de-algodon.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 75,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0075.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "VISTA\nDEL RANCHO\n\"LA HECHICERA\"",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Large rectangular image showing an overview of the ranch.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 2",
+      "bbox_pct": [
+        9.2,
+        38.1,
+        32.9,
+        88.9
+      ],
+      "bbox_pixels": [
+        124,
+        710,
+        461,
+        1671
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-02-vista-del-rancho-la-hechicera.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-02-vista-del-rancho-la-hechicera.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 75,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0075.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "DRAGA RUTH PARA\nLIMPIAR CANALES",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Rectangular image of a dredge in a canal.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 3",
+      "bbox_pct": [
+        30.9,
+        38.1,
+        43.9,
+        61.2
+      ],
+      "bbox_pixels": [
+        425,
+        710,
+        613,
+        1152
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-03-draga-ruth-para-limpiar-canales.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-03-draga-ruth-para-limpiar-canales.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 75,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0075.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "caption_literal": "CONDUCCION DEL ALGODON\nEN VAGONES\nA LA DESPEPITA DORA",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Rectangular image of wagons loaded with cotton.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 4",
+      "bbox_pct": [
+        43.9,
+        11.9,
+        61.9,
+        32.9
+      ],
+      "bbox_pixels": [
+        605,
+        219,
+        863,
+        621
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-04-conduccion-del-algodon-en-vagones.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-04-conduccion-del-algodon-en-vagones.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 75,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0075.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "photograph",
+      "caption_literal": "ALGODON EN\nCOMPLETA FLORACION",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Oval close-up image of cotton bolls.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 5",
+      "bbox_pct": [
+        43.9,
+        64.9,
+        61.9,
+        88.9
+      ],
+      "bbox_pixels": [
+        605,
+        1213,
+        863,
+        1671
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-05-algodon-en-completa-floracion.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0075/page-0075-image-05-algodon-en-completa-floracion.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0075.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 75,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0075.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

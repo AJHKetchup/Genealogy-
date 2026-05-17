@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:35Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 65,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0065.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0065.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "El cuerpo de motociclistas creado por el Departamento de Tráfico para hacer más efectiva la vigilancia de los vehículos en las calzadas.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "The image shows a group of men on motorcycles, likely a traffic enforcement unit, which is described by the adjacent text.",
+      "confidence": "0.95",
+      "inline_anchor": "El cuerpo de motociclistas creado por el Departamento de Tráfico para hacer más efectiva la vigilancia de los vehículos en las calzadas",
+      "bbox_pct": [
+        7.8,
+        6.2,
+        41.3,
+        17.3
+      ],
+      "bbox_pixels": [
+        104,
+        112,
+        578,
+        328
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0065/page-0065-image-01-group-of-motorcyclists-traffic-enforcement.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0065/page-0065-image-01-group-of-motorcyclists-traffic-enforcement.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0065.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 65,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0065.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Un aspecto del Zócalo cuando todavía las tranvías de todas líneas se estacionaban en ese sitio.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "The image depicts a busy street scene with trams and vehicles, identified as the Zócalo by the adjacent text.",
+      "confidence": "0.95",
+      "inline_anchor": "Un aspecto del Zócalo cuando todavía las tranvías de todas líneas se estacionaban en ese sitio.",
+      "bbox_pct": [
+        25.7,
+        19.5,
+        59.1,
+        27.6
+      ],
+      "bbox_pixels": [
+        353,
+        362,
+        825,
+        522
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0065/page-0065-image-02-zocalo-street-scene-trams.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0065/page-0065-image-02-zocalo-street-scene-trams.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0065.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 65,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0065.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

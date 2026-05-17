@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:44Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 70,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0070.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0070.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "El Consejo Del Doctor\nNo obstante los otros alimentos que Ud. come—Avena Quaker\nOats es un requisito indispensable, pues contiene los 16 elementos\nnecesarios para el vigor, la vitalidad y el desarrollo físico y cere-\nbral—esencial tanto para los adultos como para los pequeños.\n\nPosee el doble de la energía nutritiva de carne (sin las moles-\ntias digestivas que resultan de carne), y al mismo tiempo es\ndeliciosamente agradable y de fácil asimilación, siendo uno de los\nmás digeribles entre todos los alimentos.\n\nPara adultos ó para pequeños, para cualquier estado de salud,\nAvena Quaker Oats verdaderamente representa el alimento ideal.\nMillones de padres en todas partes del mundo lo preparan para\nsus hijitos, asegurando así su crecimiento robusto y el desarrollo\nsaludable de sus energías físicas y cerebrales.\n\nSe vende en forma comprimida, en latas selladas\nherméticamente—el único envase que asegura la\nretención indefinida de su frescura y delicioso sabor.\n\nAvena\nQuaker Oats\n\nRepresentantes\nHermanos Fernandez, México D. F., Apartado 1983",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "This is the main illustration within the large advertisement for Quaker Oats, showing three people at a table.",
+      "confidence": "0.95",
+      "inline_anchor": "quaker_oats_family_meal",
+      "bbox_pct": [
+        44.0,
+        44.0,
+        63.0,
+        84.0
+      ],
+      "bbox_pixels": [
+        599,
+        821,
+        867,
+        1579
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0070/page-0070-image-01-quaker-oats-family-meal.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0070/page-0070-image-01-quaker-oats-family-meal.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0070.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 70,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0070.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "illustration",
+      "caption_literal": "Se vende en forma comprimida, en latas selladas\nherméticamente—el único envase que asegura la\nretención indefinida de su frescura y delicioso sabor.",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "This is a smaller illustration of the Quaker Oats man figure, accompanying text about the product packaging.",
+      "confidence": "0.95",
+      "inline_anchor": "quaker_oats_man_figure",
+      "bbox_pct": [
+        79.0,
+        70.0,
+        86.0,
+        76.0
+      ],
+      "bbox_pixels": [
+        1078,
+        1308,
+        1182,
+        1429
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0070/page-0070-image-02-quaker-oats-man-figure.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0070/page-0070-image-02-quaker-oats-man-figure.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0070.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 70,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0070.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

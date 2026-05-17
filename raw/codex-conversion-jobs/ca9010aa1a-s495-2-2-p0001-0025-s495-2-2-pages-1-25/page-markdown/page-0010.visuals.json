@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:16:04Z",
+  "created": "2026-05-17T09:49:17Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visual_001",
+      "region_id": "img-001",
       "kind": "photograph",
-      "caption_literal": "GILBERTO PADILLA Y HNO. ABARROTES, LICORES Y TABACO VERNON TEL. 42",
-      "caption_type": "source-field",
-      "identity_basis": "text-on-image",
-      "source_context": "Photograph of the building for Gilberto Padilla y Hno. within their advertisement.",
+      "caption_literal": "GILBERTO PADILLA Y HNO.\nABARROTES, LICORES\nY TABACOS\nFABRICACION DE PAN",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "A photograph of the Gilberto Padilla y Hno. storefront, featured in an advertisement for the business.",
       "confidence": "high",
-      "inline_anchor": "(See image of Gilberto Padilla y Hno. building)",
+      "inline_anchor": "[img-001]",
       "bbox_pct": [
-        14.5,
-        10.5,
-        47.5,
-        25.5
+        13.2,
+        8.3,
+        48.1,
+        25.1
       ],
       "bbox_pixels": [
-        198,
-        193,
-        666,
-        481
+        180,
+        151,
+        675,
+        474
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0010/page-0010-image-01-gilberto-padilla-y-hno-building.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0010/page-0010-image-01-gilberto-padilla-y-hno-building.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0010/page-0010-image-01-gilberto-padilla-y-hno-storefront.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0010/page-0010-image-01-gilberto-padilla-y-hno-storefront.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0010.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

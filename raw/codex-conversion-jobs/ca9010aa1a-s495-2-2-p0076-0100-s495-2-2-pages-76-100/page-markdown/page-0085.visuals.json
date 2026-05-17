@@ -1,0 +1,84 @@
+{
+  "created": "2026-05-17T09:51:07Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 85,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0085.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0085.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a decorative perfume bottle or container, with text \"LT. PIVER\", \"AZUREA\", \"POMPEIA\", \"GERBERA\", \"FLORAMYE\", \"ESSENCES\", \"POUDRES · SAVONS · LOTIONS\" integrated into its design.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Advertisement for LT. PIVER products.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        39.0,
+        29.0,
+        66.0,
+        66.0
+      ],
+      "bbox_pixels": [
+        540,
+        541,
+        924,
+        1245
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0085/page-0085-image-01-lt-piver-perfume-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0085/page-0085-image-01-lt-piver-perfume-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0085.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 85,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0085.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a crucifix.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Illustration within the \"POR MAS DE 20 AÑOS\" advertisement for Culver Pan American.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        26.0,
+        79.0,
+        35.0,
+        86.0
+      ],
+      "bbox_pixels": [
+        358,
+        1482,
+        492,
+        1622
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0085/page-0085-image-03-culver-pan-american-crucifix-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0085/page-0085-image-03-culver-pan-american-crucifix-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0085.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 85,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0085.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "product_image",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Product box labeled \"PILDORAS de BRISTOL Seguras-Eficaces\".",
+      "source_context": "Advertisement for PILDORAS de BRISTOL."
+    }
+  ],
+  "flags": []
+}

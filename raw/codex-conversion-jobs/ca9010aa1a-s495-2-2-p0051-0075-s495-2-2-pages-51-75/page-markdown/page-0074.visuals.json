@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T09:50:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 74,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0074.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0074.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "map_gulf_california_shipping_route",
+      "kind": "map",
+      "caption_literal": "Illustration of a steamship and a map showing the shipping route of the \"LINEA DE NAVEGACION DEL GOLFO DE CALIFORNIA\" with stops at STA. ROSALIA, GUAYMAS, LA PAZ, and TOPOLOBAMPO.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "The image illustrates the shipping line and its routes, as described in the adjacent text.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        20.0,
+        10.0,
+        85.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        270,
+        184,
+        1169,
+        1600
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0074/page-0074-image-01-map-gulf-california-shipping-route.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0074/page-0074-image-01-map-gulf-california-shipping-route.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0074.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 74,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0074.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

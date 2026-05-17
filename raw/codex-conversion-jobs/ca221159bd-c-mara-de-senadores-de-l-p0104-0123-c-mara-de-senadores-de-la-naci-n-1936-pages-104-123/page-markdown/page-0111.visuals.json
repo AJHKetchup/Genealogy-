@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-17T09:49:25Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+  "page": 111,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0111.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0111.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "diagram",
+      "caption_literal": "2º Señales enanas: Las señales enanas serán de la misma forma que las señales de brazos no automáticas, pero de dimensiones más reducidas, y se harán con ellas las mismas indicaciones que con las señales de brazos de dos posiciones",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Two illustrations of dwarf signals, one angled down with a green light, the other horizontal with a red light.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.0,
+        24.0,
+        27.0,
+        50.0
+      ],
+      "bbox_pixels": [
+        106,
+        248,
+        216,
+        528
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-01-dwarf-signals.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-01-dwarf-signals.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0111.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 111,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0111.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "diagram",
+      "caption_literal": "A vía recta",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Two illustrations of switch indicators, both showing a straight track configuration.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        34.0,
+        24.0,
+        43.0,
+        40.0
+      ],
+      "bbox_pixels": [
+        263,
+        248,
+        342,
+        423
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-02-switch-indicators-straight-track.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-02-switch-indicators-straight-track.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0111.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 111,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0111.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "diagram",
+      "caption_literal": "A desvío",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Two illustrations of switch indicators, both showing a diverging track configuration with arrows.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        46.0,
+        24.0,
+        55.0,
+        50.0
+      ],
+      "bbox_pixels": [
+        357,
+        248,
+        436,
+        528
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-03-switch-indicators-diverging-track.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-03-switch-indicators-diverging-track.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0111.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 111,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0111.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "diagram",
+      "caption_literal": "a) Discos de aproximación: Cuando se usen discos de aproximación, éstos se colocarán como mínimo a 1400 metros afuera del primer cambio de las estaciones, desvíos, empalme, etc., con el fin de permitir a los conductores de trenes orientarse de noche o cuando haya neblina, etc. La cara de estos discos, expuesta a los trenes que se aproximan a la estación, etc., será pintada de blanco, la otra de negro y no llevarán luz alguna.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "An illustration of a circular disc on a post, representing an approach disc.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        70.0,
+        24.0,
+        81.0,
+        30.0
+      ],
+      "bbox_pixels": [
+        546,
+        248,
+        640,
+        318
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-04-approach-disc.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0111/page-0111-image-04-approach-disc.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0111.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 111,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0111.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

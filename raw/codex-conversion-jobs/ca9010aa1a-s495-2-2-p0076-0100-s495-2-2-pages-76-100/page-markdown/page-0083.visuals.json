@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T09:50:35Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 83,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0083.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0083.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Una mujer bella, afeada por defectos cutá-neos provoca un sentimiento de commise-ración.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a woman in an advertisement for 'UNGÜENTO QUIMATOSA'.",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a woman",
+      "bbox_pct": [
+        47.9,
+        43.2,
+        67.7,
+        62.9
+      ],
+      "bbox_pixels": [
+        664,
+        807,
+        948,
+        1185
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-unguento-quimatosa-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-unguento-quimatosa-ad.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0083.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 83,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0083.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "label",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "POLVO DE ARROZ DORINA",
+      "source_context": "Product label for 'POLVO DE ARROZ DORINA'."
+    }
+  ],
+  "flags": []
+}

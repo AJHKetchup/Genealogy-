@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:16:50Z",
+  "created": "2026-05-17T09:49:26Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4749-11C-17499-5398.pdf",
@@ -8,16 +8,8 @@
   "page": 14,
   "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-images/page-0014.jpg",
   "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-markdown/page-0014.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains only text and two standard official stamps with a signature, none of which are substantial enough to warrant cropping as standalone visual assets.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "region_0",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "MINISTERIO DE RELACIONES EXTERIORES Y CULTO REPUBLICA ARGENTINA",
-      "source_context": "Circular stamp on the left margin."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

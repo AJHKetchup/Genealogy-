@@ -1,7 +1,7 @@
 {
   "created": "2026-05-17",
   "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3.codex.md",
-  "converted_sha256": "205d3635b85b3aeb879d81f1185d85c29678f4fe8e056e5a1c0cfb8a4a45de5f",
+  "converted_sha256": "5da94e5716f6ef81fd28942b82a45914ced5050c0354c7c791f768e6e9f6ed70",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
   "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
   "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/manifest.json",
@@ -12,14 +12,14 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-205d3635b85b-P0001-01",
+      "chunk_id": "CHUNK-5da94e5716f6-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3-codex/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
-      "chars": 3205,
-      "sha256": "3772a4e38912bf91e272f295ac7416d027364afa37df98d4c941fec929d98bed"
+      "chars": 3153,
+      "sha256": "10abb6be5e262ff6f98ad0917df61b8405612b62bce89095fa535647d6e7e9e0"
     }
   ]
 }

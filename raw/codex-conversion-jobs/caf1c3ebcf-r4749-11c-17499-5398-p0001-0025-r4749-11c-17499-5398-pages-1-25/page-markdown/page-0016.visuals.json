@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:16:47Z",
+  "created": "2026-05-17T09:49:17Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4749-11C-17499-5398.pdf",
@@ -8,7 +8,7 @@
   "page": 16,
   "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-images/page-0016.jpg",
   "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/page-markdown/page-0016.md",
-  "no_visual_regions_reason": "No substantial visuals for cropping. Handwritten notes are transcribed in the literal transcription and described in visual notes.",
+  "no_visual_regions_reason": "The page contains only typed text, a small header, and minor handwritten annotations, none of which qualify as substantial visual regions for cropping.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

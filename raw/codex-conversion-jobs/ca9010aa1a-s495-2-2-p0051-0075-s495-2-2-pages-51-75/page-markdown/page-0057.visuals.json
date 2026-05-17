@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T09:50:32Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 57,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0057.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0057.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Detalle de la cabeza de un elefante marino.",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "The caption block below the middle-right image describes this as 'Detalle de la cabeza de un elefante marino.'",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 1",
+      "bbox_pct": [
+        13.0,
+        12.5,
+        41.5,
+        36.9
+      ],
+      "bbox_pixels": [
+        176,
+        230,
+        579,
+        694
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0057/page-0057-image-01-elephant-seal-head-detail.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0057/page-0057-image-01-elephant-seal-head-detail.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0057.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 57,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0057.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "dos elefantes marinos luchando en el mar.",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "The caption block below this image describes 'dos elefantes marinos luchando en el mar.' One seal has its mouth open, suggesting interaction or 'lucha'.",
+      "confidence": "0.9",
+      "inline_anchor": "Visual 2",
+      "bbox_pct": [
+        42.9,
+        38.0,
+        61.4,
+        62.0
+      ],
+      "bbox_pixels": [
+        590,
+        707,
+        854,
+        1164
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0057/page-0057-image-02-two-elephant-seals-interacting.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0057/page-0057-image-02-two-elephant-seals-interacting.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0057.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 57,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0057.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Un primoroso detalle de varios elefantes marinos en reposo",
+      "caption_type": "source-caption",
+      "identity_basis": "visual-content",
+      "source_context": "The caption block below the middle-right image describes this as 'Un primoroso detalle de varios elefantes marinos en reposo'.",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 3",
+      "bbox_pct": [
+        68.0,
+        13.0,
+        87.0,
+        61.9
+      ],
+      "bbox_pixels": [
+        938,
+        239,
+        1209,
+        1162
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0057/page-0057-image-03-group-of-elephant-seals-resting.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0057/page-0057-image-03-group-of-elephant-seals-resting.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0057.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 57,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0057.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

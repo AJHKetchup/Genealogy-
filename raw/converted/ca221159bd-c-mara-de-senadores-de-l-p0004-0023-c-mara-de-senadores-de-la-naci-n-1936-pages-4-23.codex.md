@@ -9,36 +9,27 @@
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images`
 
 ## Page Metadata
-- Source: `Cámara de Senadores de la Nación, 1936.pdf`
-- Page: `4`
-- Page type: `Cover/Envelope`
+This page is the front cover of a paper folder or envelope, showing handwritten annotations.
 
 ## Layout And Reading Order
-The page contains handwritten text on a brown paper envelope. The text is arranged in three lines, centered horizontally on the upper half of the page.
+The page contains handwritten text in the upper central area. The text is arranged in three lines.
 
 ## Literal Transcription
 Anexos a
-9A/ 31064 / 25420
+9A/31064 / 25420
 Argentina
 
 ## Images, Captions, And Visual Notes
-The page is an image of a worn, light brown paper envelope.
-- The text "Anexos a" and "9A/ [...] / 25420" are handwritten in red ink.
-- The number "31064" is handwritten in black ink.
-- The word "Argentina" is handwritten in blue ink.
-- There is a small hole punched near the top right corner of the envelope.
-- The envelope shows significant creasing and wear, particularly along the bottom edge and left side.
+The page is a light brown paper folder or envelope, heavily creased and worn, with some tears along the edges, particularly the bottom. There is a small circular hole punched near the top right corner. The text "Anexos a" and "9A/31064 / 25420" is handwritten in red ink. The word "Argentina" is handwritten in blue ink below the red text.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and relevant visual details on the page.
+The page is complete and all visible text has been transcribed.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements (e.g., portraits, maps, diagrams) are present that would require cropping. The page primarily contains handwritten text on an envelope."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The handwritten text is transcribed directly."}
 
 ## Page Metadata
 Page number: 5

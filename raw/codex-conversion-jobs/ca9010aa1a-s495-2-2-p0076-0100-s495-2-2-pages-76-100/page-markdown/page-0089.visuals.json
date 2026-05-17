@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T09:50:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 89,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0089.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0089.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "A large hand closing a lock, with a box labeled \"BAYASPIRINA\" below it, set against a background of vertical bars.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Main illustration at the top of the page.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        9.9,
+        9.9,
+        90.0,
+        40.0
+      ],
+      "bbox_pixels": [
+        132,
+        179,
+        1244,
+        744
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0089/page-0089-image-01-illustration-hand-closing-lock-bayaspirina.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0089/page-0089-image-01-illustration-hand-closing-lock-bayaspirina.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0089.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 89,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0089.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual_002",
+      "kind": "advertisement_box",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Este es el original y legítimo\n“SOBRE BAYER”\nLimpio Cómodo\n[BAYER logo]\nHigiénico Seguro\n[BAYASPIRINA box image]\nDos Tabletas BAYER de ASPIRINA\n(½ gramo c/u)",
+      "source_context": "Boxed section on the right side of the page."
+    }
+  ],
+  "flags": []
+}

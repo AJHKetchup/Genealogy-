@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-17T09:51:13Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4302-9F-13323-11332.pdf",
+  "source_sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+  "job_manifest": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/manifest.json",
+  "page": 56,
+  "page_image": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-images/page-0056.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58/page-markdown/page-0056.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_region_1",
+      "kind": "seal",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "COMANDANCIA DEL TRANSITO NACIONAL * GUATEMALA, C. A. *",
+      "source_context": "The seal is located in the top-left corner of the document and represents the official body that produced the report."
+    }
+  ],
+  "flags": []
+}

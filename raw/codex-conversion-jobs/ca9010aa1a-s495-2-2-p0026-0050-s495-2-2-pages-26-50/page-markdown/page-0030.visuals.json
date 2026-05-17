@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:16:21Z",
+  "created": "2026-05-17T09:50:17Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "img_001",
       "kind": "photograph",
-      "caption_literal": "Elvira Ortiz, en pleno “set”, charlando con un compañero\nde labores antes de que la llame el Director a escena.",
+      "caption_literal": "Elvira Ortiz, en pleno \"set\", charlando con un compañero de labores antes de que la llame el Director a escena.",
       "caption_type": "source-caption",
-      "identity_basis": "name-in-caption",
-      "source_context": "Elvira Ortiz on a film set with a colleague.",
-      "confidence": "0.95",
-      "inline_anchor": "Elvira Ortiz, en pleno “set”, charlando con un compañero\nde labores antes de que la llame el Director a escena.",
+      "identity_basis": "named_in_caption",
+      "source_context": "article_photograph",
+      "confidence": "high",
+      "inline_anchor": "[SEE_IMAGE_001]",
       "bbox_pct": [
-        37.5,
-        6.5,
-        90.5,
-        32.5
+        49.3,
+        7.1,
+        98.1,
+        33.2
       ],
       "bbox_pixels": [
-        520,
-        118,
-        1268,
-        614
+        685,
+        129,
+        1374,
+        627
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-01-elvira-ortiz-on-set-with-colleague.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-01-elvira-ortiz-on-set-with-colleague.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-01-img-001-p0030-s495-2-2-elvira-ortiz-on-set.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-01-img-001-p0030-s495-2-2-elvira-ortiz-on-set.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0030.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0030.md"
     },
     {
-      "region_id": "region_2",
+      "region_id": "img_002",
       "kind": "photograph",
-      "caption_literal": "Elvirita, después de sus labores, va\na Venice y toma sus baños de\nmar. Ustedes verán que no está\nmal nuestra compatriota....",
+      "caption_literal": "Elvirita, después de sus labores, va a Venice y toma sus baños de mar. Ustedes verán que no está mal nuestra compatriota....",
       "caption_type": "source-caption",
-      "identity_basis": "name-in-caption",
-      "source_context": "Elvirita in a swimsuit at Venice.",
-      "confidence": "0.95",
-      "inline_anchor": "Elvirita, después de sus labores, va\na Venice y toma sus baños de\nmar. Ustedes verán que no está\nmal nuestra compatriota....",
+      "identity_basis": "named_in_caption",
+      "source_context": "article_photograph",
+      "confidence": "high",
+      "inline_anchor": "[SEE_IMAGE_002]",
       "bbox_pct": [
-        13.5,
-        34.5,
-        42.5,
-        53.5
+        8.3,
+        34.1,
+        48.2,
+        55.2
       ],
       "bbox_pixels": [
-        185,
-        644,
-        598,
-        1009
+        112,
+        636,
+        677,
+        1041
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-02-elvirita-in-swimsuit-venice.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-02-elvirita-in-swimsuit-venice.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-02-img-002-p0030-s495-2-2-elvirita-at-the-beach.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-02-img-002-p0030-s495-2-2-elvirita-at-the-beach.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0030.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
@@ -71,28 +71,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0030.md"
     },
     {
-      "region_id": "region_3",
+      "region_id": "img_003",
       "kind": "photograph",
-      "caption_literal": "Y en Venice tiene actitudes lángui-\ndas a la caída del sol...",
+      "caption_literal": "Y en Venice tiene actitudes lánguidas a la caída del sol....",
       "caption_type": "source-caption",
-      "identity_basis": "implied-in-caption",
-      "source_context": "Portrait of Elvira Ortiz in Venice.",
-      "confidence": "0.9",
-      "inline_anchor": "Y en Venice tiene actitudes lángui-\ndas a la caída del sol...",
+      "identity_basis": "nearby-text",
+      "source_context": "article_photograph",
+      "confidence": "high",
+      "inline_anchor": "[SEE_IMAGE_003]",
       "bbox_pct": [
-        42.5,
-        52.5,
-        64.5,
-        83.5
+        49.5,
+        56.1,
+        80.2,
+        85.2
       ],
       "bbox_pixels": [
-        590,
-        982,
-        905,
-        1572
+        688,
+        1050,
+        1124,
+        1604
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-03-elvira-ortiz-portrait-venice.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-03-elvira-ortiz-portrait-venice.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-03-img-003-p0030-s495-2-2-woman-in-dress.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/extracted-images/page-0030/page-0030-image-03-img-003-p0030-s495-2-2-woman-in-dress.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-images/page-0030.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:49:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json",
+  "page": 92,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-images/page-0092.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-markdown/page-0092.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "illustration_holland_map_woman_1928",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a map of Holland with a woman in traditional Dutch dress and the year 1928. Small initials 'RIOS AM/M' are visible near the woman's elbow.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Main illustration on the cover page.",
+      "confidence": "0.95",
+      "inline_anchor": "illustration_holland_map_woman_1928",
+      "bbox_pct": [
+        12.5,
+        39.5,
+        87.5,
+        88.0
+      ],
+      "bbox_pixels": [
+        110,
+        566,
+        802,
+        1274
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/extracted-images/page-0092/page-0092-image-01-illustration-holland-map-woman-1928.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/extracted-images/page-0092/page-0092-image-01-illustration-holland-map-woman-1928.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-images/page-0092.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json",
+      "page": 92,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-markdown/page-0092.md"
+    },
+    {
+      "region_id": "stamp_action_copy_received_1928",
+      "kind": "stamp",
+      "caption_literal": "ACTION COPY\nRECEIVED IN\nREGISTRY\n21 JUN 1928",
+      "caption_type": "source-field",
+      "identity_basis": "source-field",
+      "source_context": "Stamp overlaid on the illustration.",
+      "confidence": "1.0",
+      "inline_anchor": "stamp_action_copy_received_1928",
+      "bbox_pct": [
+        57.0,
+        40.0,
+        83.0,
+        57.0
+      ],
+      "bbox_pixels": [
+        516,
+        573,
+        761,
+        827
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/extracted-images/page-0092/page-0092-image-02-stamp-action-copy-received-1928.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/extracted-images/page-0092/page-0092-image-02-stamp-action-copy-received-1928.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-images/page-0092.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json",
+      "page": 92,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-markdown/page-0092.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

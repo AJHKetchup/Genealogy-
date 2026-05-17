@@ -1,7 +1,7 @@
 {
   "created": "2026-05-17",
   "converted_file": "raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md",
-  "converted_sha256": "fce2e6c86dcd7009ef73870c0e44855bed888cc42ef3d66893a0f54ed1d88b45",
+  "converted_sha256": "a6f8d1e52cbd9de783e0d205a34501a219dd061a41e01dc69e42c5a8f6e404fd",
   "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
   "source_sha256": "24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91",
   "source_manifest": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json",
@@ -12,114 +12,104 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-01",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
       "chars": 11500,
-      "sha256": "a14f12b7f2b396bc0220a9df751f0467111895cd8aed4103a29d0e69941022bc"
+      "sha256": "1a3ad48f220549418f34be75f8839b6641b15e4ff5fa629d3844252aed091294"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-02",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-02",
       "chunk_number": 2,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-02.md",
       "page_start": 1,
       "page_end": 1,
       "part": 2,
       "chars": 10704,
-      "sha256": "cb3e8d254216664234264599426a147dd8d16145520f923f16f9598f8dd33e82"
+      "sha256": "81360c9e673b3801e3112922c714653e5d34be8af90217daae0c79bf795bbb2f"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-03",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-03",
       "chunk_number": 3,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-03.md",
       "page_start": 1,
       "page_end": 1,
       "part": 3,
       "chars": 11818,
-      "sha256": "f285fd1b6047496f99f011b68ac71be2964ffe5b271895b864e974fca2140690"
+      "sha256": "4541f0f7392473252244e32152f9131c4b294078f94c2ea97bc7df4d3fefd9a1"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-04",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-04",
       "chunk_number": 4,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-04.md",
       "page_start": 1,
       "page_end": 1,
       "part": 4,
-      "chars": 11801,
-      "sha256": "8a2b39827f0a0bfb5e8e3d2312254b751e8a4f04519afe7b348205a31c7096dd"
+      "chars": 11895,
+      "sha256": "f24a159e2c3118bc4d2d064aba03c19099ab5083c5f922902cf9f4fc18a8de5d"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-05",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-05",
       "chunk_number": 5,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-05.md",
       "page_start": 1,
       "page_end": 1,
       "part": 5,
-      "chars": 11453,
-      "sha256": "7945c2f0299a44bf32512f7bb18714cd8c1111d6231ce82788d349dcfa162492"
+      "chars": 11781,
+      "sha256": "b233a904d7818d9108ba7055d086e8da089b958ef5b4220cf72dca167dce54b5"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-06",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-06",
       "chunk_number": 6,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-06.md",
       "page_start": 1,
       "page_end": 1,
       "part": 6,
-      "chars": 9515,
-      "sha256": "0f76aa542d7a6b2aa289fc025587f99edc2bc8fa892dc74663c6873a5638dca4"
+      "chars": 11974,
+      "sha256": "4746bc76f7306a3a03447abd658bc4e15e9dce3a046a5c351223f046041eb6c0"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-07",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-07",
       "chunk_number": 7,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-07.md",
       "page_start": 1,
       "page_end": 1,
       "part": 7,
-      "chars": 8879,
-      "sha256": "4453927bd03ada111bf3f659833c63e77579570125ff1b456248e4e7ac999aaa"
+      "chars": 10936,
+      "sha256": "a6577ba6fd6a6fa7f2b157e34e9950fb25db3c225b9c438ce617bcf3e5363f6b"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-08",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-08",
       "chunk_number": 8,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-08.md",
       "page_start": 1,
       "page_end": 1,
       "part": 8,
-      "chars": 10729,
-      "sha256": "b1fea797fedadc4827d27fc6b58ed95165db3e99b1ae62cef86ba616892ccfba"
+      "chars": 11339,
+      "sha256": "b13828d234ba6cfe9597cb45503ced3ab10d1d8258b303cdbb8221ed08809d69"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-09",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-09",
       "chunk_number": 9,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-09.md",
       "page_start": 1,
       "page_end": 1,
       "part": 9,
-      "chars": 10324,
-      "sha256": "f27d74b046dbb7bf392a9b784a7c5c99b5b27836142161288efe3c37c728fc45"
+      "chars": 9460,
+      "sha256": "ea6fe22c3acf40f4b1989d5578d9873b614e5df5614baa55813ba835fa0ea040"
     },
     {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-10",
+      "chunk_id": "CHUNK-a6f8d1e52cbd-P0001-10",
       "chunk_number": 10,
       "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-10.md",
       "page_start": 1,
       "page_end": 1,
       "part": 10,
-      "chars": 9838,
-      "sha256": "68a7369929fe95948a99baf480ae8f1196bd2281a9ba8134410c4b60d64cbe9b"
-    },
-    {
-      "chunk_id": "CHUNK-fce2e6c86dcd-P0001-11",
-      "chunk_number": 11,
-      "path": "raw/chunks/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex/page-0001-chunk-11.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 11,
-      "chars": 3668,
-      "sha256": "11f87e06cd7ce9378d3847e73bee5bbe5e8d64d554e96c86d91663808ed0ab62"
+      "chars": 8695,
+      "sha256": "c63c37c3f11c4f3d16c4eedce12738036fc27106f18c99ed410b7954b6c4e78c"
     }
   ]
 }

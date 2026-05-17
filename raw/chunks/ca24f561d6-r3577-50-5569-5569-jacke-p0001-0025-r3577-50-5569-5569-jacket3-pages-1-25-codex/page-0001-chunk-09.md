@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-fce2e6c86dcd-P0001-09
+chunk_id: CHUNK-a6f8d1e52cbd-P0001-09
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: fce2e6c86dcd7009ef73870c0e44855bed888cc42ef3d66893a0f54ed1d88b45
+converted_sha256: a6f8d1e52cbd9de783e0d205a34501a219dd061a41e01dc69e42c5a8f6e404fd
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -10,191 +10,6 @@ page_start: 1
 page_end: 1
 part: 9
 ---
-
-## Literal Transcription
-
-<div style="text-align: center;">
-SÉANCE DU 2 JUILLET 1929
-</div>
-<div style="text-align: right;">
-I
-</div>
-<div style="text-align: center;">
-**PROVISOIRE**
-</div>
-<div style="text-align: center;">
-**CONFÉRENCE DIPLOMATIQUE**
-</div>
-<div style="text-align: center;">
-**PREMIÈRE COMMISSION**
-</div>
-<div style="text-align: center;">
-**Révision de la Convention de Genève**
-</div>
-<div style="text-align: center;">
-PREMIÈRE SÉANCE.
-</div>
-<div style="text-align: center;">
-Mardi 2 juillet 1929, à 15 h. 30.
-</div>
-
-Présidence de M. P. DINICHERT, président de la Conférence.
-
-**M. le Président :**
-Comme ce matin, nous avons pris la permission de nous installer provisoirement ici, jusqu'à
-ce que la commission soit constituée.
-Je fais d'abord une constatation à la fois réjouissante et un peu déconcertante, c'est qu'il
-me semble que cette salle est un peu petite pour cette grande commission. Cela veut dire
-que nous ne nous étions pas attendus à un tel concours.
-Puisque nous sommes ici, restons-y pour cet après-midi. Si à la fin de cette première
-séance, nous arrivons à la conclusion que nous serions mieux dans la grande salle, qui n'est pas
-occupée, nous déciderons que notre commission tiendra ses séances dans la grande salle.
-C'est peut-être la conclusion à laquelle nous arriverons. Je vous demanderai votre sentiment
-lorsque vous aurez fait l'essai de cette salle. La grande salle, comme celle-ci, a ses avantages
-et ses inconvénients. Ici, nous travaillerons avec plus de facilité.
-Je vous propose de procéder comme ce matin pour la constitution de la commission et
-je prie les délégations de bien vouloir nous dire quels seront les membres désignés pour faire
-partie de la première Commission.
-
-Il est procédé à l'appel des délégations.
-
-AFRIQUE DU SUD :
-M. E. H. LOUW,
-M. S. Y. EALES,
-
-ALLEMAGNE :
-M. RHOMBERG,
-M. ALBRECHT,
-Le Lieut-Colonel FONCK,
-Le Général Major Médecin RIEMER,
-Le Lieutenant-Colonel DRAUDT.
-
-ETATS-UNIS D'AMERIQUE :
-L'Honorable Eliot WADSWORTH,
-M. Joseph R. BAKER,
-Le Major John P. FLETCHER,
-Le Capitaine Frank L. PLEADWELL,
-M. Pierrepont MOFFAT.
-
-## Images, Captions, And Visual Notes
-
-A purple ink stamp is present on the upper right side of the page, partially overlapping the title "CONFÉRENCE DIPLOMATIQUE". The stamp contains text indicating it's a received document with a date.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text.
-
-## Completeness Audit
-
-All visible text and meaningful visual elements on the page have been transcribed and described.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "stamp",
-      "bbox_pct": [
-        6.9,
-        25.9,
-        35.9,
-        84.9
-      ],
-      "caption_literal": "RECEIVED\nREGISTRY\n14 JUL 1929",
-      "caption_type": "source-caption",
-      "identity_basis": "text-in-image",
-      "source_context": "A purple ink stamp on the upper right of the page.",
-      "confidence": 0.95,
-      "suggested_filename": "stamp_received_registry_14_jul_1929.png",
-      "inline_anchor": "A purple ink stamp is present on the upper right side of the page"
-    }
-  ]
-}
-```
-
-## Page Metadata
-Page number: 20
-
-## Layout And Reading Order
-
-The page presents a list of countries, each followed by the names and titles of individuals associated with that country. The content is structured as a single column, with country names acting as headings, followed by one or more indented lines for the associated individuals. Some countries have multiple individuals listed, sometimes on the same line, sometimes on separate lines, maintaining a left-aligned and right-aligned appearance for pairs of names.
-
-## Literal Transcription
-
-```
-2                               SÉANCE DU 2 JUILLET 1929
-
-AUSTRALIE :
-    Le Major-Général Honorable Sir Granville de Laune RYRIE.
-
-AUTRICHE :
-    M. Nikolaus NUERNBERGER.
-
-BELGIQUE :
-    Le Général Major Médecin Paul DEMOLDER.
-
-BOLIVIE :
-    S. E. M. Alberto CORTADELLAS.
-
-BRÉSIL :
-    S. E. M. Raoul do Rio BRANCO.
-
-BULGARIE :
-    M. Dimitri MIKOFF,                               M. Stéphane N. LAFTCHIEFF.
-
-CANADA :
-    M. W. A. RIDDELL,                               Le Lieutenant-Colonel G. P. VANIER.
-
-CHILI :
-    Le Colonel Guillermo NOVOA-SEPULVEDA.
-
-CHINE :
-    M. Chi Yung HSIAO.
-
-COLOMBIE :
-    S. E. M. Francisco José de URRUTIA,             M. Rafeal BERNAL-JIMEREZ.
-
-CUBA :
-    S. E. M. Carlos de ARMENTEROS Y de CARDENAS,    M. Carlos BLANCO.
-
-DANEMARK :
-    M. Gustav RASMUSSEN.
-
-RÉPUBLIQUE DOMINICAINE :
-    M. Charles ACKERMANN.
-
-ÉGYPTE :
-    M. Mohammed Abdel Moneim RIAD,                  M. Henri SIMAIKA.
-
-ESPAGNE :
-    S. E. M. le Marquis de LA TORREHERMOSA, Le Commandant Don Fernando Garcia LOYGORRI.
-    M. le Médecin Major Don Jesus ILARRI ZAMBORAY.
-
-ESTONIE :
-    M. H. LEESMENT.
-```
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
-
-## Completeness Audit
-The transcription is complete and accurate, capturing all text and maintaining the original layout and line breaks.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
-
-## Page Metadata
-Page number: 21
-
-## Layout And Reading Order
-The page presents a list of countries, each followed by a list of individuals associated with that country. The names are generally presented in a two-column format, with some countries having only one name listed or a more complex multi-name line. The page header includes a session date and a page number.
 
 ## Literal Transcription
 SÉANCE DU 2 JUILLET 1920 3
@@ -346,3 +161,96 @@ Work order: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001
 ## Layout And Reading Order
 
 The page contains a header with "SÉANCE DU 2 JUILLET 1929" and the page number "5". Below this, the main content consists of a series of speeches or statements, each introduced by a speaker's name or title, followed by their transcribed words. The text is presented in a single column.
+
+## Literal Transcription
+
+SÉANCE DU 2 JUILLET 1929 5
+
+M. le Président :
+
+Vos applaudissements, qui me touchent beaucoup, sont prématurés, puisque vous ne m'avez
+pas donné l'occasion de vous faire quelques objections. Je n'ai pas besoin de dire combien je
+suis reconnaissant à M. Rhomberg de sa proposition; elle m'honore. Je l'accepte dans une
+certaine mesure, en ce sens que je suis d'accord avec M. Rhomberg lorsqu'il déclare que j'ai eu
+l'occasion de m'intéresser à ce sujet, ce qui est la vérité. Mais, je voudrais vous rappeler que
+vous m'avez déjà fait hier le très grand honneur de m'appeler à la présidence de la Conférence.
+On ne m'avait jamais dit que mes épaules étaient si puissantes que je puisse les charger déme-
+surément. Je serais donc extrêmement reconnaissant à la commission si elle voulait bien porter
+son choix sur une autre personnalité; elles sont nombreuses ici. Ce n'est pas que je ne veuille
+pas, c'est que je pense ne pas pouvoir me charger de trop de choses à la fois. Je vous prie donc
+de revenir sur vos acclamations et d'adresser à l'un ou l'autre d'entre vous un appel à la bonne
+volonté.
+
+Le Général Marotte (France) :
+
+Puisque M. le Ministre Dinichert décline une offre qui nous honorerait tous, il me semble
+qu'il y a au Bureau même une personnalité tout indiquée que vous avez appelée vous-même,
+M. le Président, le vétéran de 1906, qui pourrait présider cette commission c'est : M. Paul
+Des Gouttes, particulièrement qualifié pour diriger nos débats.
+
+M. Paul Des Gouttes :
+
+M. le Président, Messieurs, Je suis extrêmement reconnaissant au Général Marotte de sa
+proposition tout à fait honorable pour moi. Cependant je me permets de faire observer que je
+ne pense pas que ce soit le rôle d'un secrétaire général, puisque vous m'avez fait l'honneur de
+m'élire à cette fonction, de présider une commission. Le secrétaire général doit être à tous.
+Il doit être prêt à toutes les besognes. S'il est président d'une commission, il est immobilisé
+sur son siège.
+
+Tout en étant très reconnaissant au Général Marotte, que je me permettrai, étant donné
+les travaux que nous avons faits ensemble, d'appeler dans une certaine mesure et très res-
+pectueusement mon ami, de la proposition qu'il a faite et que j'apprécie tout particulièrement,
+je pense que la première proposition qui a été formulée était cependant la plus légitime et la plus
+normale et je me demande si elle ne devrait pas rencontrer l'approbation de la commission.
+Je serai toujours aux côtés du président de la Conférence pour le seconder dans la mesure de
+mes connaissances; il me paraît que c'est à lui que revient la présidence de la commission.
+
+M. le Président :
+
+Je n'ai sans doute pas de leçon à donner à M. Paul Des Gouttes. Il est évident que nous
+sommes tous du même avis; il serait, il eût été un président idéal pour cette commission. Mais
+si M. Paul Des Gouttes, lui aussi, demande à pouvoir se consacrer complètement à sa fonction
+de secrétaire général, à laquelle nous attribuons naturellement la plus haute importance —
+j'aurais pu hier encore ajouter aux titres qu'a M. Paul Des Gouttes, mais je ne voulais pas
+mettre sa modestie trop fortement à l'épreuve, la constatation qu'il nous faut, comme secré-
+taire général, une véritable cheville ouvrière, et que j'en connais peu qui pourrait rivaliser
+avec lui, étant donné les preuves qu'il a faites pendant plusieurs décades — si M. Paul Des
+Gouttes, dis-je, ne voit pas la possibilité d'assumer la présidence de cette Commission et pré-
+fère vouer toute son activité à sa mission de secrétaire général, je ne puis plus que l'appuyer ;
+je n'ai, en tout cas, pas le droit de lui faire violence.
+
+Dans ces conditions, M. Paul Des Gouttes, sera je pense, d'accord avec moi pour que je répète
+à la commission ma demande de présenter une autre proposition.
+
+M. Riad (Egypte) :
+
+Permettez-moi d'insister en faveur de la proposition de notre honorable collègue d'Alle-
+magne. Vraiment M. Dinichert a fait beaucoup dans ce domaine...
+
+M. Dinichert :
+
+Vous l'avez déjà dit hier.
+
+## Images, Captions, And Visual Notes
+
+There are no substantial images or captions on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+The transcription is complete and accurate.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+```
+
+## Page Metadata
+Page Number: 24
+
+## Layout And Reading Order
+The page presents a single-column layout with a header at the top indicating the page number, session, and date. The main content consists of a series of speeches or interventions, each introduced by the speaker's name and country in bold, followed by one or more paragraphs of text. Parenthetical notes, such as "(Applaudissements)", are included within the text.

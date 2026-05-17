@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-980ac6e3ed2a-P0001-04
+chunk_id: CHUNK-38044eb57912-P0001-04
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
-converted_sha256: 980ac6e3ed2a9b314a3f8588bae2c065087feb5fe5b18982f1e951f9b9da30ae
+converted_sha256: 38044eb57912bf98bd2647daed11d3aa95e2c9544a6bba80059a98dbeca18f6c
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
@@ -264,7 +264,26 @@ All visible text and images on the page have been transcribed and described.
 ```
 
 ## Page Metadata
-Page number: 28
+- Task id: `source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0030`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
+- Source: `raw/sources/S495-2-2.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/work-orders/page-0030.md`
+- Page: 30
+- Output Markdown target: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0030.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: possible_table_layout_loss
+- Technical reread clues: none
 
 ## Layout And Reading Order
-The page features a multi-column layout with interspersed images and text blocks. A letter from Julián del Roble occupies the top-left. A large photograph with a caption spans the top-right, extending across the width of the two main text columns. Below this, the main article begins with a title on the right, "DESDE MIS PRIMERAS EXPE", and continues in two columns. A smaller photograph with a caption is embedded in the middle-left column. Another smaller photograph with a caption is embedded in the bottom-right column. The main article text wraps around these images. The page number is at the bottom-left.
+This page has a two-column layout. The content includes a letter, a main article, and three photographs with captions. The reading order is complex due to the layout.
+
+- **Column 1 (Left):** Contains a letter from "JULIAN DEL ROBLE" at the top. Below the letter is a photograph of a woman in a swimsuit, followed by its caption. The rest of the column contains an article that appears to be a response to the letter. The page number "28" is at the bottom of this column.
+- **Column 2 (Right):** Begins with a large photograph of people in historical costumes on a movie set, followed by its caption. Below this is the title of an article, "DESDE MIS PRIMERAS EXPE POR". The text of this article follows, flowing around a third photograph of a woman in a dress. This third photograph has its own caption.
+- **Complex Text Flow:** The text flow is non-standard. The article in the left column, a response to Julian del Roble, appears to continue in the right column, immediately below the caption of the third photograph. This continuation is then followed by the continuation of the main article from the right column.
+
+To preserve the spatial layout, the transcription is presented in a two-column table. The reading order within each column is top-to-bottom.

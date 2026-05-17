@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-475177092608-P0001-04
+chunk_id: CHUNK-9c336ccb4ed9-P0001-04
 source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25.codex.md
-converted_sha256: 47517709260851bb8de343e2139642c1768e8013859848c53c27737248ba1a96
+converted_sha256: 9c336ccb4ed9fcf639c678ac41cd45e324631a0b6a47268591577e6b778adc47
 source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
 source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
 source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json
@@ -12,99 +12,103 @@ part: 4
 ---
 
 ## Literal Transcription
-<pre>
-                                    — 4 —
 
-                                PROPOSITIONS
+— 4 —
 
-                                    **France.**
+PROPOSITIONS
+
+**France.**
 
 Un renvoi paraît utile, dans le titre, après le mot « blessés », avec, au bas de la page, la note suivante :
-« Le terme de « blessés » s’applique indistinctement aux victimes de l’action d’une arme de guerre quelconque,
-y compris l’action offensive éventuelle des gaz de combat. »
-    *Motifs* : Il semble, en effet, nécessaire de mentionner, au moins une fois, l’intervention toujours possible, dans
-l’avenir, des gaz de combat.
+« Le terme de « blessés » s'applique indistinctement aux victimes de l'action d'une arme de guerre quelconque, y compris l'action offensive éventuelle des gaz de combat. »
+*Motifs :* Il semble, en effet, nécessaire de mentionner, au moins une fois, l'intervention toujours possible, dans l'avenir, des gaz de combat.
 
-                                ARTICLE PREMIER.
-                                  **Allemagne.**
+ARTICLE PREMIER.
 
-Eclaircir la portée du mot « respectés », en précisant à certains égards le traitement auquel ont droit les blessés
-et malades.
-    Ajouter après les mots « aux armées » les mots « ainsi que les individus qui suivent les armées sans en faire partie,
-tels que les correspondants et les reporters de journaux, les vivandiers, les fournisseurs ».
+**Allemagne.**
 
-                                  ARTICLE 2.
-                                  **Allemagne.**
+Eclaircir la portée du mot « respectés », en précisant à certains égards le traitement auquel ont droit les blessés et malades.
+Ajouter après les mots « aux armées » les mots « ainsi que les individus qui suivent les armées sans en faire partie, tels que les correspondants et les reporters de journaux, les vivandiers, les fournisseurs ».
 
-Ajouter à la fin du dernier alinéa, après le mot « interner », les mots « au plus tard jusqu’à la fin des hostilités ».
+ARTICLE 2.
 
-                                   **Espagne.**
+**Allemagne.**
 
-A la fin de l’article, conserver les mots « jusqu’à la fin des hostilités ».
-    *Motifs* : Les blessés et malades internés en pays neutre ne doivent pas être restitués à leur pays d’origine avant la
-fin de la guerre.
-</pre>
+Ajouter à la fin du dernier alinéa, après le mot « interner », les mots « au plus tard jusqu'à la fin des hostilités ».
+
+**Espagne.**
+
+A la fin de l'article, conserver les mots « jusqu'à la fin des hostilités ».
+*Motifs :* Les blessés et malades internés en pays neutre ne doivent pas être restitués à leur pays d'origine avant la fin de la guerre.
 
 ## Images, Captions, And Visual Notes
-A staple mark is visible in the bottom left corner of the page.
+
+A metal fastener is visible at the bottom left corner, binding the pages of the document.
 
 ## Uncertain Or Illegible
-None.
+
+There are no uncertain or illegible parts of this page.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping. The page contains only text and minor marks like a staple."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and no significant visual elements like photographs, illustrations, or maps that would warrant cropping."
+}
 ```
 
 ## Page Metadata
-Page number: 14
+- Task id: `source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0014`
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Page: 14
 
 ## Layout And Reading Order
-The page presents text in a single column, centered horizontally. A page number is centered at the top. The content consists of two articles, each with multiple paragraphs.
+The page contains a single column of printed text. The reading order is linear, from top to bottom. It begins with a page number, followed by "ARTICLE 3." and its associated text, and then "ARTICLE 4." with its associated text.
 
 ## Literal Transcription
-<pre>
-                                                                — 5 —
+— 5 —
 
-                                                              ARTICLE 3.
+ARTICLE 3.
 
 Après chaque combat, l'occupant du champ de bataille prendra des mesures pour rechercher les blessés et pour les
 faire protéger, ainsi que les morts, contre le pillage et les mauvais traitements.
-    <b>L'occupant du champ de bataille</b> veillera à ce que l'inhumation ou l'incinération des morts soit précédée d'un
+L'occupant du champ de bataille veillera à ce que l'inhumation ou l'incinération des morts soit précédée d'un
 examen attentif de leurs cadavres.
-
-Toutes les fois que les circonstances militaires le permettront, des interruptions de feu seront convenues pour permettre
+Toutes les fois que les circonstances militaires le permettront, des interruptions de jeu seront convenues pour permettre
 l'exécution de ces mesures.
 
-                                                              ARTICLE 4.
+ARTICLE 4.
 
-Les belligérants se feront <b>connaître réciproquement</b>, dans le plus bref délai possible, le nom des blessés et malades qu'ils
+Les belligérants se feront connaître réciproquement, dans le plus bref délai possible, le nom des blessés et malades qu'ils
 auront recueillis. Ils se tiendront réciproquement au courant des internements et des mutations, ainsi que des entrées dans les
-hôpitaux, des blessés et des malades tombés en leur pouvoir. Ils <b>s'aviseront, au plus tôt</b>, des décès de prisonniers et de la
-découverte des adversaires tombés sur le champ de bataille, et <b>signaleront les éléments</b> pouvant servir à les <b>identifier ainsi
-que l'emplacement</b> précis des tombes. Dès le <b>début des hostilités</b>, les belligérants organiseront le service <b>officiel</b> des tombes.
+hôpitaux, des blessés et des malades tombés en leur pouvoir. Ils s'aviseront, au plus tôt, des décès de prisonniers et de la
+découverte des adversaires tombés sur le champ de bataille, et signaleront les éléments pouvant servir à les identifier ainsi
+que l'emplacement précis des tombes. Dès le début des hostilités, les belligérants organiseront un service officiel des tombes.
 Ils recueilleront tous les objets d'un usage personnel, valeurs, livrets individuels, médailles d'identité, etc., qui seront trouvés
 sur le champ de bataille ou délaissés par les mourants, pour les faire transmettre au plus tôt aux intéressés par les autorités
 de leurs pays.
-    Les belligérants prendront soin que les <b>morts soient enterrés honorablement</b>, et que les tombes et monuments des mili-
+Les belligérants prendront soin que les morts soient enterrés honorablement, et que les tombes et monuments des mili-
 taires ensevelis en leur territoire ou en territoire occupé par eux soient traités avec respect, convenablement entretenus, et portent
 toutes les indications propres à faire retrouver les cadavres.
-</pre>
 
 ## Images, Captions, And Visual Notes
-The page number "- 5 -" is centered at the top of the page.
+There are no images, illustrations, or significant visual elements on this page. There is a single hole punch near the bottom right corner.
 
 ## Uncertain Or Illegible
-None.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains only printed text with no illustrations, photographs, or other significant visual elements."}
+```
 
 ## Page Metadata
 Page number: 15

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:32Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 55,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0055.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0055.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Un precioso abrigo corto, con bocamangas y cintu- rón de piel de mono, creación para la nueva tem- porada del modisto Stern. (De nuestros servicios exclusivos).—Un sencillísimo vestido de Stern, con aplicaciones bordadas de oro y rojo, muy propio y bello para señorita. (De nuestros servicios exclusi- vos.)",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The caption describes a fur coat by modisto Stern, which is consistent with the image. It also describes a dress by Stern not explicitly shown in this image.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        41.6,
+        7.9,
+        91.8,
+        49.5
+      ],
+      "bbox_pixels": [
+        572,
+        144,
+        1275,
+        931
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0055/page-0055-image-01-woman-in-fur-coat-and-hat-by-stern.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0055/page-0055-image-01-woman-in-fur-coat-and-hat-by-stern.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0055.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 55,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0055.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "This image is an illustration within the article's flow, depicting a woman in a dark dress/suit. No direct caption is provided for this specific image.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        51.0,
+        88.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        134,
+        951,
+        1223,
+        1689
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0055/page-0055-image-02-woman-in-dark-dress-suit.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0055/page-0055-image-02-woman-in-dark-dress-suit.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0055.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 55,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0055.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

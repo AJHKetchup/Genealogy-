@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:51:24Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 93,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0093.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0093.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Este grabado es reproducción de una fotografía tomada desde un balcón del Palacio de Invierno, hotel de turistas, situado sobre la orilla derecha del Nilo. Del otro lado del río se ve la orilla fértil, y luego las montañas en que están excavadas las tumbas de los faraones, entre ellas la de Tut-Ankh-Amon, y las de las reinas y príncipes del antiguo Egipto.",
+      "caption_type": "source-caption",
+      "identity_basis": "explicit",
+      "source_context": "Large image spanning middle and right columns, below the main headline.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        23.0,
+        32.0,
+        48.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        583,
+        1146,
+        1228,
+        2878
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0093/page-0093-image-01-egipto-valle-tumbas-reyes-nile-view.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0093/page-0093-image-01-egipto-valle-tumbas-reyes-nile-view.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0093.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 93,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0093.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Otra fotografía del baúl de Tut-Ankh-Amon que se encontró con ropas del rey.",
+      "caption_type": "source-caption",
+      "identity_basis": "explicit",
+      "source_context": "Small image in the left column, under the 'DE TUT-ANKH-AMON' sub-headline.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        50.0,
+        32.0,
+        66.0,
+        54.0
+      ],
+      "bbox_pixels": [
+        1272,
+        1146,
+        1688,
+        1944
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0093/page-0093-image-02-tutankhamon-chest-with-clothes.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0093/page-0093-image-02-tutankhamon-chest-with-clothes.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0093.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 93,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0093.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

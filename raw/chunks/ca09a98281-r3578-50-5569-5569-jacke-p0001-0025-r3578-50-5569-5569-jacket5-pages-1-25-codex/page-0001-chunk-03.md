@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1eaefd9fbdba-P0001-03
+chunk_id: CHUNK-cddaf6bec23f-P0001-03
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: 1eaefd9fbdbabad0011b7821b8dc83da8e3ea1a99026c6b0589fbea55eb5a46f
+converted_sha256: cddaf6bec23f08c23b6db259ef101fe1ad609a789748de5fe3c4cbae9dc7f367
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -10,6 +10,20 @@ page_start: 1
 page_end: 1
 part: 3
 ---
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only printed text and a minor page artifact (a punch hole), with no images, illustrations, or other significant visual elements."
+}
+```
+
+## Page Metadata
+Page number: 3
+
+## Layout And Reading Order
+The page presents a single-column list of diplomatic representatives and officials, organized by country or entity. Each country/entity heading is in all caps, followed by an indented list of individuals and their titles/roles. The reading order is strictly top-to-bottom.
 
 ## Literal Transcription
 3
@@ -308,18 +322,3 @@ ART. 3.—Les forces armées des Parties belligérantes peuvent se composer de
 combattants et de non-combattants. En cas de capture par l'ennemi les uns et
 les autres ont droit au traitement des prisonniers de guerre. [Footnote in the
 original.]
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-
-## Page Metadata
-Page number: 7

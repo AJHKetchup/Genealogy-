@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-450c90a54da0-P0001-01
+chunk_id: CHUNK-892a0f66c256-P0001-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: 450c90a54da0e0b66f0d77d6a696a8abdfbf610719d3a796718558dca281f8d0
+converted_sha256: 892a0f66c2562ace1595eeac8926f41ef10b0bd60e2a137bb1abaa359ccead47
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -22,26 +22,26 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/extracted-images`
 
 ## Page Metadata
-Page number: 1
+This page is the first page of a document identified as `S522bis-29-3`.
 
 ## Layout And Reading Order
-The page is mostly blank, with a handwritten alphanumeric string in the bottom right corner.
+The page is largely blank. A handwritten alphanumeric string is present in the bottom right corner.
 
 ## Literal Transcription
 S522bis/29/3
 
 ## Images, Captions, And Visual Notes
-A handwritten alphanumeric string "S522bis/29/3" is present in the bottom right corner of the page.
+The page is mostly blank. There is a handwritten alphanumeric string in the bottom right corner.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+The transcription is complete.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a handwritten alphanumeric string, which is fully captured in the literal transcription. There are no substantial visuals like portraits, maps, or diagrams that would warrant a separate crop."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only a handwritten alphanumeric string, which is transcribed directly and does not warrant a visual crop."}
 ```
 
 ## Page Metadata
@@ -49,29 +49,35 @@ Page: 2
 Source: `raw/sources/S522bis-29-3.pdf`
 
 ## Layout And Reading Order
-The page is a brown paper cover with text typed and handwritten in blue ink in the upper-middle section. There is a red handwritten circle around one line of text and a small handwritten circle around a page number in the bottom right. A hole punch is present in the top left corner.
+The page is a light brown paper with text typed and handwritten in the upper-middle section. There is a hole punch in the top-left corner. A red circle highlights one line of text. A small, circled number '3' is present to the right of the main text block.
 
 ## Literal Transcription
+```
 Iles Falkland.
 Argentine.
 (M. Nogueira)
 S 522 N°3
 21.9 - 38
-3
+```
 
 ## Images, Captions, And Visual Notes
-- A red handwritten circle surrounds the typed word "Argentine.".
-- A hole punch is visible in the top left corner of the page.
-- A small handwritten circle surrounds the number "3" in the bottom right corner.
+- A circular hole punch is present in the top-left corner of the page, approximately at `[8.5, 7.5, 10.5, 9.5]` relative to the page dimensions.
+- A red handwritten circle surrounds the word "Argentine."
+- A small, handwritten circle encloses the number "3" in the lower right portion of the main text block.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and relevant visual annotations.
+All visible text and significant visual annotations have been transcribed and described.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photographs, maps, or complex diagrams are present. Minor annotations like circles and a hole punch are described in the 'Images, Captions, And Visual Notes' section."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visual elements like photographs, maps, or complex diagrams are present. Minor annotations (hole punch, red circle, circled number) are described in the 'Images, Captions, And Visual Notes' section."
+}
+```
 
 ## Page Metadata
 Page number: 3
@@ -367,11 +373,3 @@ None.
 
 ## Completeness Audit
 All visible text and layout elements on the page have been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Handwritten notes are transcribed in the literal transcription section."}
-```
-
-## Page Metadata
-Page number: 5

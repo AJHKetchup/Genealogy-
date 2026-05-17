@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-17T09:50:09Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+  "page": 86,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0086.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0086.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "\"Listin Diario\"\nSanto Domingo\n19-XI-1930",
+      "source_context": "Handwritten note at the top right of the page."
+    },
+    {
+      "region_id": "region_1",
+      "kind": "clipping",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "La Sociedad de Naciones y\nel Dolor Dominicano.\n\nCARTA DEL SECRETARIO GENERAL\n\nLa distinguida señorita Lic. A-\nna Teresa Paradas, Miembro Co-\rrespondiente del Secretariado de\rla Sociedad de Naciones en la Re-\rpública Dominicana, comunicó a la\rLiga, primero, el cambio de go-\rbierno, y más luego, la catástrofe\rque nos visitó a principios de Sep-\rtiembre. A esto contestó el Secre-\rtario General, Sir Eric Drummond\rcon la carta siguiente:\r\"Ginebra, 22 de Octubre, 1930.\rSeñorita: Acabo de recibir su\rcarta del 29 de Agosto en la cual\rme comunica usted la constitución\rdel nuevo gobierno de la Repúbli-\rca Dominicana, y la del 29 de Sep-\rtiembre en la cual confirma usted\rel telegrama enviado el 9 del mis-\rmo mes por mediación del señor\rNogueira, evocando la terrible ca-\rtástrofe que se abatió sobre la\rciudad de Santo Domingo el 3 de\rSeptiembre último.\rPermítame expresarle, señorita,\rla profunda emoción por todos los\rmienbros de la Secretaría, y yo\rmismo, experimentamos al conocer\rla noticia del desastre, así como\rla simpatía con la cual nos hemos\rasociado al dolor resentido por\rvuestro país.\n\nSu Excelencia el señor Dantés\rBellegarde, Delegado de Haití, hi-\rzose intérprete elocuente del sen-\rtimiento compartido por todos los\rmienbros de la Sociedad de Na-\rciones en la sesión de la Asamblea\rdel 11 de Septiembre último, y yo\rme permito esperar que ese testi-\rmonio de solidaridad tendrá una\rfeliz repercusión en el seno del\rGobierno y del pueblo dominicanos.\rSírvase aceptar, señorita, la ex-\rpresión de mis sentimientos más\rdistinguidos.\r(Fdo). ERIC DRUMMOND.\n\nSeñorita Lic. Ana Teresa Paradas,\rMiembro Correspondiente del\rSecretariado de la Sociedad de\rNaciones en la República Domi-\rnicana.—Santo Domingo.",
+      "source_context": "Newspaper clipping affixed to the center of the page."
+    }
+  ],
+  "flags": []
+}

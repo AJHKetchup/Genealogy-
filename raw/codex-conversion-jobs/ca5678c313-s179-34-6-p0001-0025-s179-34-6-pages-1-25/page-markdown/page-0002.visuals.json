@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:15:14Z",
+  "created": "2026-05-17T09:49:03Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S179-34-6.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "label_uruguay",
-      "kind": "label",
+      "region_id": "uruguay_complete_report_label",
+      "kind": "document_title",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "URUGUAY\n(Complete Report).",
-      "source_context": "The main title label on the cover page."
+      "source_context": "Title label on the cover page."
     }
   ],
   "flags": []

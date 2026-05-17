@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:17:24Z",
+  "created": "2026-05-17T09:49:29Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4946-12-33387-8070.pdf",
@@ -8,7 +8,7 @@
   "page": 48,
   "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/page-images/page-0048.jpg",
   "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/page-markdown/page-0048.md",
-  "no_visual_regions_reason": "No meaningful visual regions present.",
+  "no_visual_regions_reason": "The page contains only typed text and simple tabular data. There are no images, illustrations, or other visual elements that would be useful as standalone assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:32Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 72,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0072.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0072.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_001",
+      "kind": "photograph",
+      "caption_literal": "WM. GUNTERMANN\nVicepresidente\nD. A. LEONARD\nPresidente\nJ. M. HERNANDEZ A.\nGerente",
+      "caption_type": "nearby-text",
+      "identity_basis": "explicitly_labeled",
+      "source_context": "Photograph of five men, identified as WM. GUNTERMANN (Vicepresidente), D. A. LEONARD (Presidente), and J. M. HERNANDEZ A. (Gerente). A small inscription 'Foto 1912' is visible on the desk.",
+      "confidence": "0.95",
+      "inline_anchor": "A photograph of five men in an office setting",
+      "bbox_pct": [
+        20.0,
+        27.0,
+        35.0,
+        72.0
+      ],
+      "bbox_pixels": [
+        269,
+        502,
+        482,
+        1354
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0072/page-0072-image-01-mercantile-banking-company-directors-1912.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0072/page-0072-image-01-mercantile-banking-company-directors-1912.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0072.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 72,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0072.md"
+    },
+    {
+      "region_id": "visreg_002",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "implied",
+      "source_context": "Exterior view of a brick building with a car parked in front, likely the Mercantile Banking Company building.",
+      "confidence": "0.9",
+      "inline_anchor": "A photograph of the exterior of a brick building",
+      "bbox_pct": [
+        63.0,
+        27.0,
+        82.0,
+        72.0
+      ],
+      "bbox_pixels": [
+        857,
+        502,
+        1125,
+        1354
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0072/page-0072-image-02-mercantile-banking-company-building.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0072/page-0072-image-02-mercantile-banking-company-building.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0072.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 72,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0072.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

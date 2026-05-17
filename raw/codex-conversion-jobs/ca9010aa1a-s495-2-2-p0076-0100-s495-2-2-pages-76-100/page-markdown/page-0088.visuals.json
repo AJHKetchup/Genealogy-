@@ -1,0 +1,84 @@
+{
+  "created": "2026-05-17T09:50:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 88,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0088.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0088.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_0",
+      "kind": "diagram",
+      "caption_literal": "NEGRAS, 8 PIEZAS\nBLANCAS, 10 PIEZAS\nLas blancas dan mate en dos jugadas.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Chess problem by A. Van Eelde.",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 1",
+      "bbox_pct": [
+        12.5,
+        10.5,
+        36.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        165,
+        193,
+        498,
+        671
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0088/page-0088-image-01-chess-problem-van-eelde-88-1.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0088/page-0088-image-01-chess-problem-van-eelde-88-1.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0088.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 88,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0088.md"
+    },
+    {
+      "region_id": "visreg_1",
+      "kind": "diagram",
+      "caption_literal": "NEGRAS, 9 PIEZAS\nBLANCAS, 10 PIEZAS\nLas blancas dan mate en dos jugadas.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Chess problem by H. E. C. J. Bettmann.",
+      "confidence": "0.95",
+      "inline_anchor": "Visual 2",
+      "bbox_pct": [
+        63.5,
+        10.5,
+        87.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        855,
+        193,
+        1188,
+        671
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0088/page-0088-image-02-chess-problem-bettmann-88-2.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0088/page-0088-image-02-chess-problem-bettmann-88-2.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0088.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 88,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0088.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visreg_2",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "DESTRUYA EL VELLO\nSUPERFLUO CON LA RAIZ\nRadicalmente y sin dolor con\nDepiblitz\nMARCA IND. REGISTRADA Nº 20402.\nINSTANTANEO. COMODO.\nAROMATICO. INOFENSIVO\nCOSTO PARA SIEMPRE\n$5.00\nAGENCIA GENERAL\nAPARTADO POSTAL 364. GUADALAJARA JAL. MEX\nREMITIMOS POR CORREO REEMBOLSO LIBRE DE GASTOS",
+      "source_context": "Advertisement for Depiblitz hair removal product."
+    }
+  ],
+  "flags": []
+}

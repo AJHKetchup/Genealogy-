@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:48Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 56,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0056.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0056.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Portrait of a man in profile, facing right. Likely one of the boxers mentioned in the article.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-appearance-only",
+      "source_context": "The image is placed next to the main title \"La trascendencia del combate Dempsey-Firpo\" and the text discusses the boxers.",
+      "confidence": "0.9",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.5,
+        15.0,
+        31.0,
+        34.0
+      ],
+      "bbox_pixels": [
+        140,
+        277,
+        429,
+        640
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0056/page-0056-image-01-portrait-man-profile-right.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0056/page-0056-image-01-portrait-man-profile-right.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0056.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 56,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0056.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Portrait of a man in profile, facing left. Likely one of the boxers mentioned in the article.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-appearance-only",
+      "source_context": "The image is placed next to the main title \"La trascendencia del combate Dempsey-Firpo\" and the text discusses the boxers.",
+      "confidence": "0.9",
+      "inline_anchor": "",
+      "bbox_pct": [
+        68.5,
+        15.0,
+        89.0,
+        34.0
+      ],
+      "bbox_pixels": [
+        934,
+        277,
+        1223,
+        640
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0056/page-0056-image-02-portrait-man-profile-left.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0056/page-0056-image-02-portrait-man-profile-left.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0056.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 56,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0056.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:15:33Z",
+  "created": "2026-05-17T09:49:22Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3016-11A-2905-950.pdf",
@@ -8,30 +8,8 @@
   "page": 15,
   "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/page-images/page-0015.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/page-markdown/page-0015.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains a typed letter with some handwritten annotations, signatures, and faint stamps. None of these elements are substantial enough or visually distinct enough to warrant cropping as standalone assets. They are better captured through transcription and description.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "handwritten_annotation",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "HK129051/950\n17\nSchmieden\n14/11 [symbol]",
-      "source_context": "Handwritten notes at the top right of the page."
-    },
-    {
-      "region_id": "region_2",
-      "kind": "handwritten_annotation",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "cher M. Pinds[?]",
-      "source_context": "Handwritten marginal note next to the salutation."
-    },
-    {
-      "region_id": "region_3",
-      "kind": "signature",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "C. [?]mes",
-      "source_context": "Handwritten signature below the closing of the letter."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

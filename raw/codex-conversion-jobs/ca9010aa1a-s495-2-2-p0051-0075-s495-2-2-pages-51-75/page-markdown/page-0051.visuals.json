@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T09:50:37Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 51,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0051.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0051.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Varios miembros de la troupe liliputiense alemana que acaba de desembar-\ncar en Nueva York, donde perma necerá dando funciones durante un\naño.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "This caption, though physically located below the second image, describes the group of people in this image as members of a German Lilliputian troupe disembarking in New York.",
+      "confidence": "0.95",
+      "inline_anchor": "2. **Image**: A black and white photograph depicting a group of people, some appearing to be children, standing on what looks like a ship's deck or gangway, with some waving.",
+      "bbox_pct": [
+        38.0,
+        13.0,
+        88.0,
+        38.0
+      ],
+      "bbox_pixels": [
+        519,
+        240,
+        1215,
+        716
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0051/page-0051-image-01-group-of-german-lilliputian-troupe-members-in-new-york.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0051/page-0051-image-01-group-of-german-lilliputian-troupe-members-in-new-york.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0051.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 51,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0051.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Una fotografía de Tokio, después de\nla terrible catástrofe que destruyó\nla gran ciudad nipona. Los transeun-\ntes huyen del fuego que des-\ntruyó las principales arterias de la\ncapital del Imperio.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "This caption, though physically located below the first image, describes this image as a photograph of Tokyo after a catastrophe, showing people fleeing fire.",
+      "confidence": "0.95",
+      "inline_anchor": "3. **Image**: A black and white photograph showing a busy street scene with many people, some carrying banners, and a tram. Buildings line the street, and there appears to be some damage or debris.",
+      "bbox_pct": [
+        13.0,
+        33.0,
+        62.0,
+        74.0
+      ],
+      "bbox_pixels": [
+        175,
+        615,
+        857,
+        1392
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0051/page-0051-image-02-tokyo-street-scene-after-catastrophe.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0051/page-0051-image-02-tokyo-street-scene-after-catastrophe.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0051.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 51,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0051.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-17T09:50:43Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+  "page": 89,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0089.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0089.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "LCDO. ARTURO NAPOLEON ALVAREZ\nABOGADO\nAvica a su clientela, que se encuentra en condiciones\nde prestar sus servicios profesionales EN TODO EL\nPAIS.\nSanto Domingo, R. D.\n3a. (21663) 3 ps. Pte.",
+      "source_context": "Advertisement for a lawyer."
+    }
+  ],
+  "flags": []
+}

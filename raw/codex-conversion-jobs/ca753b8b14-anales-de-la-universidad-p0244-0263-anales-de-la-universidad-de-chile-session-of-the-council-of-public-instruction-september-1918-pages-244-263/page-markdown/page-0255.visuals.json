@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:15:52Z",
+  "created": "2026-05-17T09:49:19Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -8,7 +8,7 @@
   "page": 255,
   "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0255.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-markdown/page-0255.md",
-  "no_visual_regions_reason": "No substantial visual content was detected on this page.",
+  "no_visual_regions_reason": "The page contains only text and minor decorative lines, with no substantial images, illustrations, or other visual elements that would warrant cropping.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

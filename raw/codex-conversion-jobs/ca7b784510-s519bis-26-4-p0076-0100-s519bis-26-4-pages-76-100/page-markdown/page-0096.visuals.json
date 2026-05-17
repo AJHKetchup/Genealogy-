@@ -1,0 +1,256 @@
+{
+  "created": "2026-05-17T09:50:43Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+  "page": 96,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Small illustration to the left of 'LA MODA AL DIA' title.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.0,
+        14.0,
+        22.0,
+        20.0
+      ],
+      "bbox_pixels": [
+        353,
+        457,
+        565,
+        663
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-01-illustration-la-moda-al-dia-left.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-01-illustration-la-moda-al-dia-left.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Small illustration to the right of 'LA MODA AL DIA' title.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        22.0,
+        14.0,
+        29.0,
+        20.0
+      ],
+      "bbox_pixels": [
+        557,
+        457,
+        744,
+        663
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-02-illustration-la-moda-al-dia-right.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-02-illustration-la-moda-al-dia-right.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "EL RUBI COMO JOYA EXCLUSIVA",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Photograph of a woman wearing jewelry.",
+      "confidence": "0.98",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.0,
+        20.0,
+        29.0,
+        47.0
+      ],
+      "bbox_pixels": [
+        353,
+        655,
+        744,
+        1552
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-03-photograph-woman-with-ruby-jewelry.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-03-photograph-woman-with-ruby-jewelry.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "Complete este dibujo tra-zando la línea por cada uno de los pun-tos, comenzando con el 1 y si-guiendo hasta el último y obtendrá la figura deseada.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Connect-the-dots puzzle for children.",
+      "confidence": "0.98",
+      "inline_anchor": "",
+      "bbox_pct": [
+        29.0,
+        20.0,
+        42.0,
+        43.0
+      ],
+      "bbox_pixels": [
+        736,
+        655,
+        1075,
+        1420
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-04-puzzle-connect-the-dots.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-04-puzzle-connect-the-dots.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "illustration",
+      "caption_literal": "¡Esa maldita tos! No tardará usted en verse libre de ella si recurre a la SOLUCION PAUTAUBERGE que cica-triza las lesiones de los pulmones y de los bronquios y aumenta el apetito y las fuerzas.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Illustration of a man coughing for a cough remedy advertisement.",
+      "confidence": "0.98",
+      "inline_anchor": "",
+      "bbox_pct": [
+        62.0,
+        14.0,
+        70.0,
+        26.0
+      ],
+      "bbox_pixels": [
+        1578,
+        457,
+        1790,
+        860
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-05-illustration-man-coughing.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-05-illustration-man-coughing.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_5",
+      "kind": "photograph",
+      "caption_literal": "SIEMPRE QUE SALGA USTED DE VIAJE Lleve Consigo CHEQUES DEL NATIONAL CITY BANK PARA VIAJEROS.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Photograph of people boarding an airplane, part of a bank advertisement.",
+      "confidence": "0.98",
+      "inline_anchor": "",
+      "bbox_pct": [
+        62.0,
+        26.0,
+        90.0,
+        58.0
+      ],
+      "bbox_pixels": [
+        1578,
+        852,
+        2300,
+        1915
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-06-photograph-people-boarding-airplane-national-city-bank.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-06-photograph-people-boarding-airplane-national-city-bank.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_6",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Small illustration of a person's head with a hat, next to 'REGALO ESTOS DOS SECRETOS' ad.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.0,
+        79.0,
+        20.0,
+        84.0
+      ],
+      "bbox_pixels": [
+        353,
+        2598,
+        514,
+        2771
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-07-illustration-head-with-hat-regalo-secretos.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-07-illustration-head-with-hat-regalo-secretos.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    },
+    {
+      "region_id": "region_7",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Small illustration of a man's head with a mustache, next to 'La FLOREINA' ad.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        62.0,
+        80.0,
+        68.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        1578,
+        2631,
+        1739,
+        2804
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-08-illustration-man-with-mustache-la-floreina.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0096/page-0096-image-08-illustration-man-with-mustache-la-floreina.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0096.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 96,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0096.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:16:36Z",
+  "created": "2026-05-17T09:49:16Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
@@ -8,23 +8,8 @@
   "page": 49,
   "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/page-images/page-0049.jpg",
   "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket4-pages-26-50/page-markdown/page-0049.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains a standard administrative stamp and punch holes, which are described in the transcription and visual notes but do not warrant cropping as standalone visual assets.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "ACTION COPY",
-      "source_context": "Top right corner, a rectangular stamp."
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "RECEIVED IN REGISTRY 14-AOUT-1929",
-      "source_context": "Below and overlapping the 'ACTION COPY' stamp, a rectangular stamp."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

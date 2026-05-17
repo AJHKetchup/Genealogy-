@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-fce2e6c86dcd-P0001-07
+chunk_id: CHUNK-a6f8d1e52cbd-P0001-07
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: fce2e6c86dcd7009ef73870c0e44855bed888cc42ef3d66893a0f54ed1d88b45
+converted_sha256: a6f8d1e52cbd9de783e0d205a34501a219dd061a41e01dc69e42c5a8f6e404fd
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -11,80 +11,18 @@ page_end: 1
 part: 7
 ---
 
-## Literal Transcription
-6                                                               SÉANCE DU 1er JUILLET 1929
-
-faire l'objet d'une discussion en séance plénière, d'en saisir le bureau pour une séance particulière à
-laquelle participeraient les délégations des gouvernements qui attachent à cette question une importance
-spéciale.
-    Est-ce que la Conférence est d'accord avec ces modalités ? Puis-je considérer l'article premier comme
-accepté dans sa teneur ?
-
-**M. De Marcilly** (France) :
-    Le Gouvernement français a, sur ce point, la même opinion que celle qui a été exprimée par le
-délégué de la Grande-Bretagne.
-
-**M. le Président** :
-    Je constate que l'article premier est adopté dans la teneur proposée et au bénéfice des explications
-qui viennent d'être fournies.
-    (Adopté).
-
-                                                                Article 2.
-                                                                (Lecture de l'article)
-
-**M. le Président** :
-    Cet article est déjà en partie appliqué. Je ne pense pas qu'il soulève des objections.
-    (Adopté).
-
-                                                                Article 3.
-                                                                (Lecture de l'article)
-
-**M. le Président** :
-    L'article 3 soulève-t-il des objections ? Ce n'est pas le cas.
-    (Adopté).
-
-                                                                Article 4.
-                                                                (Lecture de l'article)
-
-**M. le Président** :
-    J'ai à peine besoin d'attirer l'attention de la Conférence sur le fait qu'il s'agit là d'un article, je
-dirai essentiel, au point de vue de la méthode de travail que nous préconiserions.
-    (Adopté).
-
-                                                                Articles 5, 6, 7.
-                                                                (Adoptés successivement après lecture, sans commentaire).
-
-                                                                Article 8.
-                                                                (Lecture de l'article)
-
-**M. le Président** :
-    J'attire votre attention sur ces dispositions. Elles sont un peu impérieuses. Je crois qu'elles sont
-utiles à la bonne marche et à la rapidité de nos travaux. Pas d'objection ? Je constate qu'on est d'accord.
-    (Adopté).
-
-                                                                Article 9.
-                                                                (Lecture de l'article).
-
-**M. le Président** :
-    Nous accepterions, si vous voulez bien, cet article, commenté par notre discussion de tout à l'heure.
-    (Adopté).
-
-**Sir Granville de Laune Rydie** (Australie) (*traduction*) :
-    Je rappelle que tout à l'heure l'Assemblée a bien voulu accepter la proposition de désigner un
-interprète privé. Je demande si cet interprète pourra parler à la tribune.
-
-## Images, Captions, And Visual Notes
-There are no images, captions, or other significant visual elements on this page.
-
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of printed text without any images, illustrations, or other visual elements."
+}
 ```
 
 ## Page Metadata
@@ -174,3 +112,82 @@ Page number: 8
 
 ## Layout And Reading Order
 The page presents a transcript of a meeting, laid out in a single column. It includes a page number and date at the top, followed by a series of speeches or statements. Each speaker's name is indicated by "M. le Président", "M. Wadsworth", or "M. Riad", followed by a colon, and then their statement. Some statements include parenthetical notes indicating audience reactions or decisions.
+
+## Literal Transcription
+8 SÉANCE DU 1er JUILLET 1929
+
+discours était en proportion de la distance des pays représentés, la délégation suisse, et surtout les
+Genevois ne pourraient pas faire de discours du tout. (Rires).
+Une autre question se pose. Les délégués des pays où l’on parle français ou anglais se trouvent dans
+une situation privilégiée, car ils peuvent parler leur propre langue, tandis que nous, qui ne sommes ni
+Français ni Anglais, sommes obligés de parler une langue qui n’est pas la nôtre. C’est donc une injustice.
+Nous ne nous plaignons pas, mais il serait peut-être juste d’obliger chaque délégué anglais de parler
+français et chaque délégué français de parler anglais. De cette façon, personne ne parlerait sa langue
+maternelle. La justice serait rétablie. (Rires). Cette façon de procéder aurait encore un avantage :
+on n’est éloquent que dans sa propre langue. Si l’on procédait comme je viens de l’indiquer, on s’expri-
+merait d’une façon très brève, et on réfléchirait davantage à ce qu’on dit. (Rires. Applaudissements).
+
+M. le Président :
+M. de Hevesy me permettra de lui dire, en ma qualité de président qu’il ne m’a pas encore paru
+jusqu’ici que, dans cette Conférence, la longueur des discours m’ait obligé à intervenir, si toutefois j’en
+ai la compétence. Je puis donc considérer pour ce soir cette question comme réglée.
+A M. Louw, je dirai que nous sommes bien d’accord. La demande de principe a été agréée. On
+s’efforcera, comme il a bien voulu l’indiquer tout à l’heure, par des résumés aussi succincts et aussi précis
+que possible, de faciliter les choses.
+
+*Les articles 9, 10 et 11 sont adoptés.*
+*Le règlement est adopté dans son ensemble.*
+
+M. le Président :
+L’ordre du jour proprement dit de la Conférence serait épuisé. Il est bon, cependant, que nous
+songions au lendemain. Vous avez adopté une disposition qui prévoit la constitution de deux commis-
+sions que nous appellerons générales parce que tous les pays représentés dans la Conférence sont censés
+y être représentés également. L’une de ces commissions s’occupera de la revision de la Convention de
+Genève, l’autre de la codification du droit concernant les prisonniers de guerre. Nous constatons une fois
+de plus qu’en réalité ces deux commissions générales sont deux conférences en miniature et que, par
+conséquent, il ne semble pas y avoir intérêt à se livrer dans la conférence plénière à un débat général
+sur les deux sujets que nous avons à traiter en quelque sorte à la fois. Ma proposition tend donc à
+réserver cette discussion générale pour chacune de ces deux commissions. (Approbation.)
+De cette façon ces deux commissions pourraient se réunir dès demain.
+La commission N° I (revision de la Convention de Genève), se réunirait l’après-midi ; la commission
+N° II (Code des prisonniers de guerre), se réunirait le matin. Nous avons pensé vous proposer cette
+procédure parce que nous envisageons que la Commission N° I aura un programme quelque peu plus
+chargé que la commission N° II. Si nous constatons que nous nous sommes trompés, il sera toujours
+facile d’intervertir les rôles.
+Je vous propose que la commission N° II se réunisse demain matin à 9 heures 30. (Adopté.)
+
+M. Wadsworth (Etats-Unis) (traduction) :
+A quelle heure se réunirait la commission N° I ?
+
+M. le Président :
+J’avais pensé vous proposer 15 heures 30. D’autre part, nous avions pensé que la commission
+pourrait siéger le matin jusqu’à 12 heures 30, l’après-midi jusqu’à 18 heures 30. Il est bien évident
+que nous n’avons pas de prescription à vous faire et que les commissions restent absolument souveraines.
+En ce qui concerne la composition des commissions, je simplifier, je vous propose de procéder
+de la manière suivante : Chacune des commissions commencerait par constater, par l’appel des déléga-
+tions, quels sont les pays qui désirent être représentés. Elles procèderaient ensuite à la constitution de
+leur bureau. Il est bien entendu que les délégations sont libres d’envoyer qui elles entendent aux com-
+missions. D’ailleurs des changements peuvent intervenir au gré des délégations.
+
+M. Riad (Egypte) :
+Monsieur le président, Messieurs. Avant la clôture de la séance plénière, je me permets d’exprimer
+au nom de mon pays mes hommages à cette Conférence, à son éminent président et de souhaiter à tous
+un très beau séjour dans cette jolie ville de Genève.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page Number: 18
+
+## Layout And Reading Order
+The page consists of a single column of text. At the top, there is a header with the session date on the left and the page number on the right. The main content is a series of paragraphs, followed by a sub-heading and more paragraphs, concluding with a final statement about the session's adjournment.

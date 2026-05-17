@@ -1,0 +1,114 @@
+{
+  "created": "2026-05-17T09:50:53Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 84,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0084.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0084.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual-1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Illustration of two men in suits, placed within the article text about Futurism.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        19.0,
+        40.0,
+        40.0,
+        50.0
+      ],
+      "bbox_pixels": [
+        256,
+        747,
+        551,
+        943
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0084/page-0084-image-01-illustration-two-men-suits.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0084/page-0084-image-01-illustration-two-men-suits.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0084.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 84,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0084.md"
+    },
+    {
+      "region_id": "visual-2",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Illustration of a man with glasses holding a bottle, associated with the 'D. D. D.' advertisement.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        44.0,
+        50.0,
+        60.0,
+        60.0
+      ],
+      "bbox_pixels": [
+        597,
+        935,
+        824,
+        1131
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0084/page-0084-image-02-illustration-man-with-bottle.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0084/page-0084-image-02-illustration-man-with-bottle.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0084.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 84,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0084.md"
+    },
+    {
+      "region_id": "visual-4",
+      "kind": "illustration",
+      "caption_literal": "PATINES RICHARDSON",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "Illustration of roller skates, part of the 'PATINES RICHARDSON' advertisement.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        73.0,
+        79.0,
+        89.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        994,
+        1480,
+        1221,
+        1675
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0084/page-0084-image-04-illustration-roller-skates.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0084/page-0084-image-04-illustration-roller-skates.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0084.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 84,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0084.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual-3",
+      "kind": "product_packaging",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "GRATIS\nMARCA DE FABRICA\nPATENTE ABRIL 1909\nTODA LA SUPERFICIE SUPERIOR DE LOS PLAPAO-PADS ESTA CUBIERTA CON UN ADHESIVO MEDICINAL CON EL PROPOSITO DE MANTENER EL DISPOSITIVO FIRMEMENTE EN SU LUGAR CONTRA EL CUERPO PARA QUE EL TRATAMIENTO CONTINUADO.",
+      "source_context": "Product packaging for 'STUART'S ADHESIF PLAPAO-PADS' in the hernia advertisement."
+    }
+  ],
+  "flags": []
+}

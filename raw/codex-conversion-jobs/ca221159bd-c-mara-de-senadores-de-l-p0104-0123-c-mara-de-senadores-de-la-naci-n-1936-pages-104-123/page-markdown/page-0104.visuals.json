@@ -1,0 +1,346 @@
+{
+  "created": "2026-05-17T09:49:30Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+  "page": 104,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "diagram",
+      "caption_literal": "Peligro.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de dos aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 1 (Peligro - two aspects):",
+      "bbox_pct": [
+        10.5,
+        28.5,
+        14.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        79,
+        294,
+        118,
+        375
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-01-signal-diagram-peligro-two-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-01-signal-diagram-peligro-two-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "diagram",
+      "caption_literal": "Vía libre.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de dos aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 2 (Vía libre - two aspects):",
+      "bbox_pct": [
+        24.5,
+        28.5,
+        28.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        189,
+        294,
+        228,
+        375
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-02-signal-diagram-via-libre-two-aspects-1.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-02-signal-diagram-via-libre-two-aspects-1.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "diagram",
+      "caption_literal": "Precaución.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de dos aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 3 (Precaución - two aspects):",
+      "bbox_pct": [
+        45.5,
+        28.5,
+        49.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        354,
+        294,
+        394,
+        375
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-03-signal-diagram-precaucion-two-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-03-signal-diagram-precaucion-two-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_4",
+      "kind": "diagram",
+      "caption_literal": "Vía libre.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de dos aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 4 (Vía libre - two aspects):",
+      "bbox_pct": [
+        60.5,
+        28.5,
+        64.5,
+        35.5
+      ],
+      "bbox_pixels": [
+        472,
+        294,
+        512,
+        375
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-04-signal-diagram-via-libre-two-aspects-2.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-04-signal-diagram-via-libre-two-aspects-2.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_5",
+      "kind": "diagram",
+      "caption_literal": "Peligro",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de tres aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 5 (Peligro - three aspects):",
+      "bbox_pct": [
+        10.5,
+        49.5,
+        14.5,
+        58.5
+      ],
+      "bbox_pixels": [
+        79,
+        513,
+        118,
+        615
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-05-signal-diagram-peligro-three-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-05-signal-diagram-peligro-three-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_6",
+      "kind": "diagram",
+      "caption_literal": "Precaución",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de tres aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 6 (Precaución - three aspects):",
+      "bbox_pct": [
+        37.5,
+        49.5,
+        41.5,
+        58.5
+      ],
+      "bbox_pixels": [
+        291,
+        513,
+        331,
+        615
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-06-signal-diagram-precaucion-three-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-06-signal-diagram-precaucion-three-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_7",
+      "kind": "diagram",
+      "caption_literal": "Vía libre",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de tres aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 7 (Vía libre - three aspects):",
+      "bbox_pct": [
+        60.5,
+        49.5,
+        64.5,
+        58.5
+      ],
+      "bbox_pixels": [
+        472,
+        513,
+        512,
+        615
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-07-signal-diagram-via-libre-three-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-07-signal-diagram-via-libre-three-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_8",
+      "kind": "diagram",
+      "caption_literal": "Peligro",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de cuatro aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 8 (Peligro - four aspects):",
+      "bbox_pct": [
+        10.5,
+        70.5,
+        14.5,
+        81.5
+      ],
+      "bbox_pixels": [
+        79,
+        733,
+        118,
+        856
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-08-signal-diagram-peligro-four-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-08-signal-diagram-peligro-four-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_9",
+      "kind": "diagram",
+      "caption_literal": "Precaución",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de cuatro aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 9 (Precaución - four aspects):",
+      "bbox_pct": [
+        29.5,
+        70.5,
+        33.5,
+        81.5
+      ],
+      "bbox_pixels": [
+        228,
+        733,
+        268,
+        856
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-09-signal-diagram-precaucion-four-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-09-signal-diagram-precaucion-four-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_10",
+      "kind": "diagram",
+      "caption_literal": "Prec. avanzada",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de cuatro aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 10 (Prec. avanzada - four aspects):",
+      "bbox_pct": [
+        48.5,
+        70.5,
+        52.5,
+        81.5
+      ],
+      "bbox_pixels": [
+        378,
+        733,
+        417,
+        856
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-10-signal-diagram-prec-avanzada-four-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-10-signal-diagram-prec-avanzada-four-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    },
+    {
+      "region_id": "vr_11",
+      "kind": "diagram",
+      "caption_literal": "Vía libre",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Señales de cuatro aspectos",
+      "confidence": "0.95",
+      "inline_anchor": "Signal Diagram 11 (Vía libre - four aspects):",
+      "bbox_pct": [
+        67.5,
+        70.5,
+        71.5,
+        81.5
+      ],
+      "bbox_pixels": [
+        527,
+        733,
+        567,
+        856
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-11-signal-diagram-via-libre-four-aspects.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/extracted-images/page-0104/page-0104-image-11-signal-diagram-via-libre-four-aspects.png",
+      "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-images/page-0104.jpg",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+      "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/manifest.json",
+      "page": 104,
+      "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123/page-markdown/page-0104.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

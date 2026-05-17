@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-17T09:50:42Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 77,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0077.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0077.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Casa de don Miguel Go n'ález, en 1909, cuando se fundó la “Compa- ñía Comercial de Ca lifornia”.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "This image shows the original building of the \"Compañía Comercial de California\" founded by Miguel González.",
+      "confidence": "0.95",
+      "inline_anchor": "Casa de don Miguel Go n'ález, en 1909, cuando se fundó la “Compa- ñía Comercial de Ca lifornia”.",
+      "bbox_pct": [
+        11.8,
+        10.5,
+        48.5,
+        32.5
+      ],
+      "bbox_pixels": [
+        159,
+        193,
+        676,
+        613
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-01-casa-miguel-gonzalez-1909.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-01-casa-miguel-gonzalez-1909.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0077.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 77,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0077.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Edificio general de la “Compañía Comercial de California”, en la actualidad.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "This image shows the current general building of the \"Compañía Comercial de California\".",
+      "confidence": "0.95",
+      "inline_anchor": "Edificio general de la “Compañía Comercial de California”, en la actualidad.",
+      "bbox_pct": [
+        51.5,
+        10.5,
+        88.5,
+        32.5
+      ],
+      "bbox_pixels": [
+        709,
+        193,
+        1230,
+        613
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-02-edificio-compania-comercial-california-actual.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-02-edificio-compania-comercial-california-actual.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0077.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 77,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0077.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "portrait",
+      "caption_literal": "Señor don Miguel González, fundador y pro- pietario de la “Compañía Comercial de Ca- lifornia”.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "Portrait of Miguel González, founder and owner of \"Compañía Comercial de California\".",
+      "confidence": "0.95",
+      "inline_anchor": "Señor don Miguel González, fundador y pro- pietario de la “Compañía Comercial de Ca- lifornia”.",
+      "bbox_pct": [
+        11.8,
+        45.5,
+        36.5,
+        72.5
+      ],
+      "bbox_pixels": [
+        159,
+        849,
+        510,
+        1363
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-03-portrait-miguel-gonzalez.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-03-portrait-miguel-gonzalez.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0077.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 77,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0077.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "portrait",
+      "caption_literal": "Heraclio Ochoa, vicepresidente y tesorero de la “Compañía Comercial de California”.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "Portrait of Heraclio Ochoa, vice president and treasurer of \"Compañía Comercial de California\".",
+      "confidence": "0.95",
+      "inline_anchor": "Heraclio Ochoa, vicepresidente y tesorero de la “Compañía Comercial de California”.",
+      "bbox_pct": [
+        63.5,
+        45.5,
+        88.5,
+        72.5
+      ],
+      "bbox_pixels": [
+        875,
+        849,
+        1230,
+        1363
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-04-portrait-heraclio-ochoa.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0077/page-0077-image-04-portrait-heraclio-ochoa.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0077.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 77,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0077.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}
