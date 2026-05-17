@@ -1072,12 +1072,14 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
-    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '500'" in workflow
-    assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '32'" in workflow
-    assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '25'" in workflow
+    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '100'" in workflow
+    assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '16'" in workflow
+    assert "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '5'" in workflow
+    assert "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'schedule' && '20'" in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
     assert "--no-ocr" in workflow
-    assert "--document-timeout 30" in workflow
+    assert "--document-timeout 10" in workflow
+    assert "--hard-timeout \"$RUN_DISCOVERY_HARD_TIMEOUT\"" in workflow
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
 
@@ -1855,19 +1857,25 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
             "0",
             "--scan-limit",
             "40",
+            "--max-pages-per-source",
+            "3",
             "--parallelism",
             "4",
             "--no-ocr",
             "--document-timeout",
             "30",
+            "--hard-timeout",
+            "35",
             "--dry-run",
         ]
     )
 
     assert result == 0
     assert captured["parallelism"] == 4
+    assert captured["max_pages_per_source"] == 3
     assert captured["use_ocr"] is False
     assert captured["document_timeout"] == 30
+    assert captured["hard_timeout"] == 35
 
 
 def test_gemini_source_prep_skips_pages_without_docling_baseline(tmp_path) -> None:

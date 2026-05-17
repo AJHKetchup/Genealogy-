@@ -41,15 +41,19 @@ on:
       discovery_scan_limit:
         description: "Maximum queued pages to inspect with Docling discovery"
         required: false
-        default: "500"
+        default: "100"
       discovery_parallelism:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
-        default: "32"
+        default: "16"
       discovery_max_pages_per_source:
         description: "Maximum Docling-discovery pages per raw source per run"
         required: false
-        default: "25"
+        default: "5"
+      discovery_hard_timeout:
+        description: "Hard timeout per Docling page in seconds"
+        required: false
+        default: "20"
   schedule:
     - cron: "*/15 * * * *"
 
@@ -83,9 +87,10 @@ jobs:
       RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '' }}
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'schedule' && '8000' || github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
-      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '500' || github.event.inputs.discovery_scan_limit || '500' }}
-      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '32' || github.event.inputs.discovery_parallelism || '32' }}
-      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '25' || github.event.inputs.discovery_max_pages_per_source || '25' }}
+      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '100' || github.event.inputs.discovery_scan_limit || '100' }}
+      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '16' || github.event.inputs.discovery_parallelism || '16' }}
+      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'schedule' && '5' || github.event.inputs.discovery_max_pages_per_source || '5' }}
+      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'schedule' && '20' || github.event.inputs.discovery_hard_timeout || '20' }}
       RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}
     steps:
       - name: Check out repository
@@ -176,7 +181,8 @@ jobs:
           --max-pages-per-source "$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE"
           --parallelism "$RUN_DISCOVERY_PARALLELISM"
           --no-ocr
-          --document-timeout 30
+          --document-timeout 10
+          --hard-timeout "$RUN_DISCOVERY_HARD_TIMEOUT"
           --source "$RUN_SOURCE"
           --source-sha256 "$RUN_SOURCE_SHA256"
           --stale-minutes 360

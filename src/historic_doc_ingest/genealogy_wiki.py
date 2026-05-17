@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import base64
 import concurrent.futures
+import contextlib
 from contextlib import contextmanager
 import hashlib
 import json
@@ -6145,6 +6146,83 @@ def normalize_docling_conversion_result(result: object) -> tuple[str, list[dict[
     return str(result).strip(), []
 
 
+def _docling_conversion_worker(payload: dict[str, object], queue: object) -> None:
+    try:
+        image_output_dir_value = str(payload.get("image_output_dir", "") or "")
+        root_value = str(payload.get("root", "") or "")
+        result = convert_source_with_docling(
+            Path(str(payload.get("input_path", ""))),
+            document_timeout=float(payload.get("document_timeout", 90.0) or 90.0),
+            image_output_dir=Path(image_output_dir_value) if image_output_dir_value else None,
+            image_prefix=str(payload.get("image_prefix", "docling-image")),
+            root=Path(root_value) if root_value else None,
+            use_ocr=bool(payload.get("use_ocr", True)),
+        )
+        queue.put({"ok": True, "result": result})
+    except Exception as exc:
+        queue.put(
+            {
+                "ok": False,
+                "error": str(exc),
+                "docling_missing": "Docling is required" in str(exc),
+            }
+        )
+
+
+def convert_source_with_docling_hard_timeout(
+    input_path: Path,
+    *,
+    hard_timeout: float,
+    document_timeout: float,
+    image_output_dir: Path | None,
+    image_prefix: str,
+    root: Path | None,
+    use_ocr: bool,
+) -> str | dict[str, object]:
+    import multiprocessing as mp
+    import queue
+
+    if hard_timeout <= 0:
+        return convert_source_with_docling(
+            input_path,
+            document_timeout=document_timeout,
+            image_output_dir=image_output_dir,
+            image_prefix=image_prefix,
+            root=root,
+            use_ocr=use_ocr,
+        )
+
+    ctx = mp.get_context("spawn")
+    result_queue = ctx.Queue(maxsize=1)
+    payload = {
+        "input_path": str(input_path),
+        "document_timeout": document_timeout,
+        "image_output_dir": str(image_output_dir) if image_output_dir else "",
+        "image_prefix": image_prefix,
+        "root": str(root) if root else "",
+        "use_ocr": use_ocr,
+    }
+    process = ctx.Process(target=_docling_conversion_worker, args=(payload, result_queue))
+    process.start()
+    process.join(hard_timeout)
+    if process.is_alive():
+        process.terminate()
+        process.join(5)
+        if process.is_alive():
+            with contextlib.suppress(Exception):
+                process.kill()
+            process.join(2)
+        raise RuntimeError(f"Docling hard timeout after {hard_timeout:g} seconds.")
+    try:
+        payload_result = result_queue.get_nowait()
+    except queue.Empty as exc:
+        raise RuntimeError(f"Docling subprocess exited without a result (exit code {process.exitcode}).") from exc
+    if isinstance(payload_result, dict) and payload_result.get("ok"):
+        return payload_result.get("result", "")
+    error = str(payload_result.get("error", "Docling subprocess failed.")) if isinstance(payload_result, dict) else "Docling subprocess failed."
+    raise RuntimeError(error)
+
+
 def build_source_prep_docling_task_result(
     paths: WikiPaths,
     task: dict[str, object],
@@ -6235,6 +6313,7 @@ def run_source_prep_docling_task(
     agent: str,
     use_ocr: bool = True,
     document_timeout: float = 90.0,
+    hard_timeout: float = 0.0,
 ) -> dict[str, object]:
     task_id = str(task.get("task_id", "")).strip()
     task_report: dict[str, object] = {
@@ -6270,14 +6349,25 @@ def run_source_prep_docling_task(
         image_output_dir = paths.root / str(task.get("image_output_dir", ""))
         image_prefix = f"page-{safe_int(task.get('page'), 1):04d}-docling-image"
         try:
-            docling_result = convert_source_with_docling(
-                input_path,
-                document_timeout=document_timeout,
-                image_output_dir=image_output_dir,
-                image_prefix=image_prefix,
-                root=paths.root,
-                use_ocr=use_ocr,
-            )
+            if hard_timeout > 0:
+                docling_result = convert_source_with_docling_hard_timeout(
+                    input_path,
+                    hard_timeout=hard_timeout,
+                    document_timeout=document_timeout,
+                    image_output_dir=image_output_dir,
+                    image_prefix=image_prefix,
+                    root=paths.root,
+                    use_ocr=use_ocr,
+                )
+            else:
+                docling_result = convert_source_with_docling(
+                    input_path,
+                    document_timeout=document_timeout,
+                    image_output_dir=image_output_dir,
+                    image_prefix=image_prefix,
+                    root=paths.root,
+                    use_ocr=use_ocr,
+                )
         except TypeError as exc:
             if "unexpected" not in str(exc) and "positional" not in str(exc):
                 raise
@@ -6324,6 +6414,7 @@ def source_prep_docling_discovery_run(
     source_sha256: str = "",
     use_ocr: bool = True,
     document_timeout: float = 90.0,
+    hard_timeout: float = 0.0,
 ) -> dict[str, object]:
     if limit < 0:
         raise ValueError("limit must be zero or greater")
@@ -6333,6 +6424,8 @@ def source_prep_docling_discovery_run(
         raise ValueError("max_pages_per_source must be zero or greater")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
+    if hard_timeout < 0:
+        raise ValueError("hard_timeout must be zero or greater")
 
     paths = WikiPaths(root.resolve())
     release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
@@ -6379,6 +6472,7 @@ def source_prep_docling_discovery_run(
         "parallelism": parallelism,
         "use_ocr": use_ocr,
         "document_timeout": document_timeout,
+        "hard_timeout": hard_timeout,
         "filters": {
             "source": source_filter.strip(),
             "source_sha256": source_sha256.strip(),
@@ -6549,6 +6643,7 @@ def source_prep_docling_discovery_run(
                     agent,
                     use_ocr=use_ocr,
                     document_timeout=document_timeout,
+                    hard_timeout=hard_timeout,
                 )
                 if not apply_docling_result(result):
                     break
@@ -6565,6 +6660,7 @@ def source_prep_docling_discovery_run(
                         agent,
                         use_ocr,
                         document_timeout,
+                        hard_timeout,
                     )
                     for task, cache_key in candidates
                 ]
@@ -11003,6 +11099,12 @@ def build_parser() -> argparse.ArgumentParser:
         default=90.0,
         help="Docling per-page document timeout in seconds. Default: 90.",
     )
+    source_prep_docling_parser.add_argument(
+        "--hard-timeout",
+        type=float,
+        default=0.0,
+        help="Hard process timeout per Docling page in seconds. Use 0 to disable. Default: 0.",
+    )
     source_prep_docling_parser.add_argument("--source", default="", help="Only inspect this raw source path or basename.")
     source_prep_docling_parser.add_argument("--source-sha256", default="", help="Only inspect this raw source SHA-256.")
 
@@ -11572,6 +11674,7 @@ def main(argv: list[str] | None = None) -> int:
             root=args.root,
             limit=args.limit,
             scan_limit=args.scan_limit,
+            max_pages_per_source=args.max_pages_per_source,
             parallelism=args.parallelism,
             agent=args.agent,
             stale_minutes=args.stale_minutes,
@@ -11580,6 +11683,7 @@ def main(argv: list[str] | None = None) -> int:
             source_sha256=args.source_sha256,
             use_ocr=not args.no_ocr,
             document_timeout=args.document_timeout,
+            hard_timeout=args.hard_timeout,
         )
         print(
             "source-prep-docling-discovery | "
