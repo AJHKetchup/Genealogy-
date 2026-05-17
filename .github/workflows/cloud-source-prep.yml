@@ -244,7 +244,7 @@ jobs:
           exit 0
 
       - name: Assemble converted Markdown
-        if: steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code == '0'
+        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0' && steps.gemini.outputs.exit_code == '0'
         run: >
           python -m historic_doc_ingest.genealogy_wiki cloud-source-prep-heartbeat
           --root .
@@ -262,7 +262,7 @@ jobs:
           --stale-minutes 360
 
       - name: Refresh global queue after source-filtered validation
-        if: steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code == '0'
+        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0' && steps.gemini.outputs.exit_code == '0'
         shell: bash
         run: |
           if [ -n "$RUN_SOURCE" ] || [ -n "$RUN_SOURCE_SHA256" ]; then

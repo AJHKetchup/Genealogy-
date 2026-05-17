@@ -1060,6 +1060,10 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
         "- name: Prepare conversion queue from R2\n"
         "        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0'"
     ) in workflow
+    assert (
+        "- name: Assemble converted Markdown\n"
+        "        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0' && steps.gemini.outputs.exit_code == '0'"
+    ) in workflow
     assert workflow.index("Prepare conversion queue from R2") < workflow.index("Publish restore and queue checkpoint")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Run Docling baseline on all queued pages")
     assert workflow.index("Run Docling baseline on all queued pages") < workflow.index("Publish Docling checkpoint")
