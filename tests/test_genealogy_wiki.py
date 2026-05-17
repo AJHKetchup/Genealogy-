@@ -986,6 +986,9 @@ def test_cloud_workflow_has_continuous_schedule() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
 
+    assert "push:" in workflow
+    assert "branches:" in workflow
+    assert "- main" in workflow
     assert "schedule:" in workflow
     assert 'cron: "*/15 * * * *"' in workflow
     assert "Schedule is paused" not in workflow
