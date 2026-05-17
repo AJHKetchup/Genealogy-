@@ -1693,6 +1693,39 @@ def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation
     assert statuses == {"done"}
 
 
+def test_docling_no_ocr_marks_textless_pdf_unusable_without_docling_call(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "scan-without-text-layer.pdf"
+    doc = fitz.open()
+    doc.new_page(width=360, height=500)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+    write_agent_queues(tmp_path)
+
+    def fail_docling(input_path, **kwargs):
+        raise AssertionError("textless no-OCR PDF should not invoke Docling conversion")
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fail_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        use_ocr=False,
+    )
+
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 0
+    assert summary["unusable"] == 1
+    assert summary["tasks"][0]["docling_no_ocr_fast_unusable"] is True
+    discovery = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").read_text(encoding="utf-8"))
+    entry = next(iter(discovery["entries"].values()))
+    assert entry["status"] == "rough_unusable"
+    assert entry["method_detail"] == "docling_no_ocr_text_layer_absent"
+
+
 def test_docling_discovery_revalidates_old_accepted_cache_and_requeues_for_gemini(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

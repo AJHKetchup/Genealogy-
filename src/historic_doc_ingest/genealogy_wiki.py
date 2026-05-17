@@ -5528,6 +5528,7 @@ SOURCE_PREP_DISCOVERY_MIN_TEXT_CHARS = 120
 SOURCE_PREP_DISCOVERY_MIN_ALPHA_CHARS = 60
 SOURCE_PREP_DISCOVERY_MIN_WORDS = 18
 SOURCE_PREP_DISCOVERY_MAX_ODD_CHAR_RATIO = 0.08
+SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS = 20
 
 
 def source_prep_discovery_profile_is_current(entry: dict[str, object]) -> bool:
@@ -5936,6 +5937,46 @@ def source_prep_docling_input_path(root: Path, task: dict[str, object], temp_dir
     return target
 
 
+def source_prep_docling_pdf_text_layer_preview(root: Path, task: dict[str, object]) -> dict[str, object] | None:
+    source_path = root.resolve() / str(task.get("source", ""))
+    manifest_path = root.resolve() / str(task.get("job_manifest", ""))
+    manifest = read_json_payload(manifest_path, {}) if manifest_path.exists() else {}
+    source_file = find_existing_source_file_for_job(root.resolve(), manifest) if manifest else None
+    if source_file is None and source_path.exists():
+        source_file = source_path
+    if source_file is None:
+        return None
+
+    media_type = str(manifest.get("media_type") or detect_media_type(source_file))
+    if media_type != "pdf":
+        return None
+
+    try:
+        import fitz
+    except ImportError:
+        return None
+
+    page_number = safe_int(task.get("page"), 1)
+    page_spec = find_manifest_page_spec(manifest, page_number) if manifest else {}
+    source_page = safe_int(page_spec.get("source_page"), page_number)
+    if source_page < 1:
+        return None
+
+    with fitz.open(source_file) as doc:
+        if source_page > len(doc):
+            return None
+        text = doc[source_page - 1].get_text("text")
+    alpha_chars = sum(1 for char in text if char.isalpha())
+    return {
+        "media_type": "pdf",
+        "source_page": source_page,
+        "text": text.strip(),
+        "text_layer_chars": len(text),
+        "text_layer_alpha_chars": alpha_chars,
+        "has_meaningful_text_layer": alpha_chars >= SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS,
+    }
+
+
 def convert_source_with_docling(
     input_path: Path,
     *,
@@ -6051,6 +6092,88 @@ def normalize_docling_conversion_result(result: object) -> tuple[str, list[dict[
     return str(result).strip(), []
 
 
+def build_source_prep_docling_task_result(
+    paths: WikiPaths,
+    task: dict[str, object],
+    cache_key: str,
+    agent: str,
+    docling_markdown: str,
+    extracted_images: list[dict[str, object]],
+    *,
+    extra_report: dict[str, object] | None = None,
+    extra_entry: dict[str, object] | None = None,
+) -> dict[str, object]:
+    task_id = str(task.get("task_id", "")).strip()
+    profile = profile_source_prep_discovery_markdown(docling_markdown)
+    status = str(profile.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
+    discovery_path = source_prep_discovery_output_path(paths.root, task)
+    discovery_markdown = build_source_prep_discovery_markdown(
+        task,
+        docling_markdown,
+        profile,
+        extracted_images,
+    )
+    page_output = paths.root / str(task.get("output_path", ""))
+    page_markdown = ""
+    if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
+        page_markdown = build_source_prep_docling_page_markdown(
+            paths.root,
+            task,
+            docling_markdown,
+            profile,
+            extracted_images,
+        )
+    task_report: dict[str, object] = {
+        "task_id": task_id,
+        "source": task.get("source", ""),
+        "page": task.get("page", 0),
+        "status": status,
+        "discovery_path": relative_to_root(discovery_path, paths.root),
+        "readability_flags": profile.get("readability_flags", []),
+        "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
+        "text_chars": profile.get("text_chars", 0),
+        "extracted_image_count": len(extracted_images),
+    }
+    if extra_report:
+        task_report.update(extra_report)
+    entry = {
+        "status": status,
+        "updated": utc_timestamp(),
+        "agent": agent,
+        "task_id": task_id,
+        "source": str(task.get("source", "")),
+        "source_sha256": str(task.get("source_sha256", "")),
+        "job_manifest": str(task.get("job_manifest", "")),
+        "page": safe_int(task.get("page"), 0),
+        "discovery_path": relative_to_root(discovery_path, paths.root),
+        "evidence_output_path": str(task.get("output_path", "")),
+        "method": "docling",
+        "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
+        "evidence_grade": False,
+        "extracted_images": extracted_images,
+        "extracted_image_count": len(extracted_images),
+        **profile,
+    }
+    if extra_entry:
+        entry.update(extra_entry)
+    if page_markdown:
+        entry["basic_output_path"] = relative_to_root(page_output, paths.root)
+        task_report["basic_output_path"] = relative_to_root(page_output, paths.root)
+    return {
+        "result": "ok",
+        "cache_key": cache_key,
+        "task": task,
+        "task_report": task_report,
+        "status": status,
+        "entry": entry,
+        "discovery_path": discovery_path,
+        "discovery_markdown": discovery_markdown,
+        "page_output": page_output,
+        "page_markdown": page_markdown,
+        "task_id": task_id,
+    }
+
+
 def run_source_prep_docling_task(
     paths: WikiPaths,
     task: dict[str, object],
@@ -6067,6 +6190,29 @@ def run_source_prep_docling_task(
         "page": task.get("page", 0),
     }
     try:
+        if not use_ocr:
+            text_layer = source_prep_docling_pdf_text_layer_preview(paths.root, task)
+            if text_layer is not None and not bool(text_layer.get("has_meaningful_text_layer")):
+                return build_source_prep_docling_task_result(
+                    paths,
+                    task,
+                    cache_key,
+                    agent,
+                    str(text_layer.get("text", "")),
+                    [],
+                    extra_report={
+                        "docling_no_ocr_fast_unusable": True,
+                        "docling_unusable_reason": "pdf_text_layer_absent",
+                        "source_page": text_layer.get("source_page", 0),
+                        "text_layer_alpha_chars": text_layer.get("text_layer_alpha_chars", 0),
+                    },
+                    extra_entry={
+                        "method_detail": "docling_no_ocr_text_layer_absent",
+                        "source_page": text_layer.get("source_page", 0),
+                        "text_layer_chars": text_layer.get("text_layer_chars", 0),
+                        "text_layer_alpha_chars": text_layer.get("text_layer_alpha_chars", 0),
+                    },
+                )
         input_path = source_prep_docling_input_path(paths.root, task, temp_dir)
         image_output_dir = paths.root / str(task.get("image_output_dir", ""))
         image_prefix = f"page-{safe_int(task.get('page'), 1):04d}-docling-image"
@@ -6084,69 +6230,14 @@ def run_source_prep_docling_task(
                 raise
             docling_result = convert_source_with_docling(input_path)
         docling_markdown, extracted_images = normalize_docling_conversion_result(docling_result)
-        profile = profile_source_prep_discovery_markdown(docling_markdown)
-        status = str(profile.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))
-        discovery_path = source_prep_discovery_output_path(paths.root, task)
-        discovery_markdown = build_source_prep_discovery_markdown(
+        return build_source_prep_docling_task_result(
+            paths,
             task,
+            cache_key,
+            agent,
             docling_markdown,
-            profile,
             extracted_images,
         )
-        page_output = paths.root / str(task.get("output_path", ""))
-        page_markdown = ""
-        if status == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS:
-            page_markdown = build_source_prep_docling_page_markdown(
-                paths.root,
-                task,
-                docling_markdown,
-                profile,
-                extracted_images,
-            )
-        task_report.update(
-            {
-                "status": status,
-                "discovery_path": relative_to_root(discovery_path, paths.root),
-                "readability_flags": profile.get("readability_flags", []),
-                "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
-                "text_chars": profile.get("text_chars", 0),
-                "extracted_image_count": len(extracted_images),
-            }
-        )
-        entry = {
-            "status": status,
-            "updated": utc_timestamp(),
-            "agent": agent,
-            "task_id": task_id,
-            "source": str(task.get("source", "")),
-            "source_sha256": str(task.get("source_sha256", "")),
-            "job_manifest": str(task.get("job_manifest", "")),
-            "page": safe_int(task.get("page"), 0),
-            "discovery_path": relative_to_root(discovery_path, paths.root),
-            "evidence_output_path": str(task.get("output_path", "")),
-            "method": "docling",
-            "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
-            "evidence_grade": False,
-            "extracted_images": extracted_images,
-            "extracted_image_count": len(extracted_images),
-            **profile,
-        }
-        if page_markdown:
-            entry["basic_output_path"] = relative_to_root(page_output, paths.root)
-            task_report["basic_output_path"] = relative_to_root(page_output, paths.root)
-        return {
-            "result": "ok",
-            "cache_key": cache_key,
-            "task": task,
-            "task_report": task_report,
-            "status": status,
-            "entry": entry,
-            "discovery_path": discovery_path,
-            "discovery_markdown": discovery_markdown,
-            "page_output": page_output,
-            "page_markdown": page_markdown,
-            "task_id": task_id,
-        }
     except RuntimeError as exc:
         return {
             "result": "runtime_error",
