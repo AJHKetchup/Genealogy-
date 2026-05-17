@@ -1175,13 +1175,23 @@ def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
         lambda input_path: "# Printed Page\n\nReadable source text with enough words to pass the basic gate. " * 5,
     )
 
-    summary = genealogy_wiki.source_prep_docling_discovery_run(
-        tmp_path,
-        limit=0,
-        scan_limit=10,
-        source_filter="target.pdf",
+    exit_code = genealogy_wiki.main(
+        [
+            "source-prep-docling-discovery",
+            "--root",
+            str(tmp_path),
+            "--limit",
+            "0",
+            "--scan-limit",
+            "10",
+            "--source",
+            "target.pdf",
+        ]
     )
+    summary = json.loads((tmp_path / "research" / "_automation" / "source-prep-docling-state.json").read_text(encoding="utf-8"))
 
+    assert exit_code == 0
+    assert summary["filters"]["source"] == "target.pdf"
     assert summary["inspected"] == 1
     assert summary["accepted"] == 1
     tasks = summary["tasks"]

@@ -10964,6 +10964,8 @@ def main(argv: list[str] | None = None) -> int:
             agent=args.agent,
             stale_minutes=args.stale_minutes,
             dry_run=args.dry_run,
+            source_filter=args.source,
+            source_sha256=args.source_sha256,
         )
         print(
             "source-prep-docling-discovery | "
