@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:42:52Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.JPG",
+  "source_sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
+  "job_manifest": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "building-exterior",
+      "kind": "photograph",
+      "caption_literal": "La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The main subject of the photograph.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        3.9,
+        4.9,
+        96.0,
+        94.9
+      ],
+      "bbox_pixels": [
+        106,
+        168,
+        2714,
+        3326
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/extracted-images/page-0001/page-0001-image-01-la-haye-batiment-des-salles-comtales-xiiieme-conference-internat.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/extracted-images/page-0001/page-0001-image-01-la-haye-batiment-des-salles-comtales-xiiieme-conference-internat.png",
+      "page_image": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/page-images/page-0001.jpg",
+      "source": "raw/sources/La Haye. Bâtiment des Salles Comtales, où a lieu la XIIIème Conférence Internationale de la Croix-Rouge.JPG",
+      "source_sha256": "df269c35522607068ee49d50574540e5d67aadf0b1d0ddf9bc39b9de67c20462",
+      "job_manifest": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

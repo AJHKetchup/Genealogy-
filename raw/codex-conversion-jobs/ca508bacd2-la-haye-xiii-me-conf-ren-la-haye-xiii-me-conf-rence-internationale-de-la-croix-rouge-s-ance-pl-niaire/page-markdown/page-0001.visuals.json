@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T08:43:00Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
+  "source_sha256": "508bacd2448ae3a4a97e35dedaf975a65f4fe2e9155140203d52c7b051315da1",
+  "job_manifest": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "A wide-angle photograph of a large indoor conference or plenary session, with many delegates seated at tables facing a head table on a raised platform. The room is ornate with chandeliers and potted plants.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual_content",
+      "source_context": "The main content of the page.",
+      "confidence": "0.95",
+      "inline_anchor": "A wide-angle photograph of a large indoor conference or plenary session",
+      "bbox_pct": [
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        0,
+        0,
+        3500,
+        2600
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/extracted-images/page-0001/page-0001-image-01-la-haye-xiiieme-conference-internationale-de-la-croix-rouge-sean.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/extracted-images/page-0001/page-0001-image-01-la-haye-xiiieme-conference-internationale-de-la-croix-rouge-sean.png",
+      "page_image": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/page-images/page-0001.jpg",
+      "source": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. Séance pléniaire..JPG",
+      "source_sha256": "508bacd2448ae3a4a97e35dedaf975a65f4fe2e9155140203d52c7b051315da1",
+      "job_manifest": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "sign",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "[illegible, possibly two lines of text]",
+      "source_context": "A small sign visible in the background, above the seated delegates."
+    }
+  ],
+  "flags": []
+}

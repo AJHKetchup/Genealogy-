@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-42b74cc0b203-P0001-01
+chunk_id: CHUNK-c10f1074cad7-P0001-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3.codex.md
-converted_sha256: 42b74cc0b20315f24199d6e1199efa7295c8e7f9290437c427790d201d6a20ba
+converted_sha256: c10f1074cad7f24da04847575ca71944ebe83f649bb5b2a3349b813b6a84eb89
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/manifest.json
@@ -22,58 +22,50 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images`
 
 ## Page Metadata
-This page is largely blank, containing only a handwritten alphanumeric code in the top right corner. It appears to be an internal filing or cataloging mark.
+No page-specific metadata is present on this page.
 
 ## Layout And Reading Order
-The page contains a single handwritten alphanumeric code positioned in the top right quadrant. This is the only content on the page.
+The page is mostly blank, with a handwritten alphanumeric code in the top right quadrant.
 
 ## Literal Transcription
-COL16 S<sup>bis</sup>/147 / 4
+COL16 S^(bis) / 147 / 4
 
 ## Images, Captions, And Visual Notes
-The page is mostly blank except for a handwritten alphanumeric code in the top right corner. The code reads "COL16 S<sup>bis</sup>/147 / 4". The "bis" is written as a superscript above the "S".
+The page contains a handwritten alphanumeric code in the top right corner. It appears to be a filing or cataloging number.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and captures all visible content on the page.
+The page is completely transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small handwritten alphanumeric code, which is fully captured by the literal transcription and does not warrant a separate visual region crop."}
+{"visual_regions": [], "no_visual_regions_reason": "The only visual content is a small handwritten note, which is fully captured in the literal transcription and does not warrant a separate crop box."}
 ```
 
 ## Page Metadata
 Page number: 2
 
 ## Layout And Reading Order
-
-The page contains handwritten text in the upper left quadrant and a piece of blue tape adhered to the lower right quadrant. The handwritten text is in two layers, with blue crayon/pencil on top and grey pencil below it.
+The page contains handwritten text in blue crayon/pencil at the top-left, followed by a handwritten signature or scribble. A blue, irregularly shaped sticker is affixed to the bottom-right corner of the page.
 
 ## Literal Transcription
-
 Registry
-S.O.B.Z.A.X [?]
+SOB[Z/L]A x
 
 ## Images, Captions, And Visual Notes
-
-- A piece of blue tape or paper is adhered to the bottom right of the page, covering approximately 15% of the page area.
-- Handwritten text in blue crayon or pencil reads "Registry" in a cursive style, located in the upper left quadrant.
-- Below the blue "Registry" text, there is additional handwritten text in grey pencil, which appears to be a signature or abbreviation.
+A blue, irregularly shaped sticker or piece of paper is affixed to the bottom right corner of the page. It appears crumpled.
 
 ## Uncertain Or Illegible
-
-- The grey handwritten text "S.O.B.Z.A.X" is highly uncertain due to its stylized cursive nature. The individual letters are difficult to discern definitively, particularly the middle section.
+The handwritten text below "Registry" is difficult to decipher with certainty. The most plausible reading is "SOB[Z/L]A x", where the third and fourth letters are particularly ambiguous.
 
 ## Completeness Audit
-
-The page is fully transcribed and all visible elements have been noted.
+The page is fully transcribed and described.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and a piece of tape, neither of which qualify as substantial visual assets for cropping according to the guidelines."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only minor handwritten annotations and a simple sticker, none of which qualify as substantial visuals (portraits, maps, illustrations, etc.) for standalone wiki assets. These elements are adequately captured by literal transcription and visual notes."}
 ```
 
 ## Page Metadata

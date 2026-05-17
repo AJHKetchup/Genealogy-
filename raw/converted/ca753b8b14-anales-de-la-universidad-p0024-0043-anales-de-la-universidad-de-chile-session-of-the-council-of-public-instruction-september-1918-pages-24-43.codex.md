@@ -975,40 +975,46 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-Page number: 37
+- **Page number**: 323
 
 ## Layout And Reading Order
-The page contains a header with a session date and page number, followed by two distinct sections detailing "Clases" (Classes) and "EJERCICIOS" (Exercises) with corresponding weekly hours, presented in a tabular/list format. Below these sections, there is a main paragraph of text, followed by a single concluding sentence.
+The page is laid out in a single column.
+1.  A header at the top center reads "SESION DE 7 DE OCTUBRE DE 1918".
+2.  The page number "323" is in the top right corner.
+3.  A section titled "Clases" lists six subjects in a two-column format with the subject on the left and "Horas semanales" (weekly hours) on the right. A total is provided at the bottom.
+4.  A section titled "EJERCICIOS:" lists five items in a similar two-column format, with a total at the bottom.
+5.  Three paragraphs of text follow, discussing university matters. The last paragraph is cut off at the bottom of the page.
 
 ## Literal Transcription
+```text
 SESION DE 7 DE OCTUBRE DE 1918 323
-___
 
-Clases Horas
-semanales
-1. Jeometría del Espacio i Jeometría Descriptiva... 4
+                                                    Horas
+Clases                                              semanales
+
+1. Jeometría del Espacio i Jeometría Descriptiva...       4
 2. Complementos de Jeometría Plana i Aljebra, con
-   nociones de Aljebra Superior................... 4
+   nociones de Aljebra Superior...................       4
 3. Trigonometría Plana i Esférica i Jeometría Ana-
-   lítica........................................ 5
-4. Cosmografía................................... 2
-5. Física........................................ 3
-6. Química Jeneral................................ 3
-                                                ___
-                                                21
+   lítica...........................................       5
+4. Cosmografía......................................       2
+5. Física...........................................       3
+6. Química Jeneral..................................       3
+                                                    ------
+                                                       21
 
 EJERCICIOS:
 
-1. Dibujo i lavado................................ 2
-2. Química Jeneral................................ 4
-3. Física........................................ 4
-4. Depurados..................................... 4
-5. Idiomas....................................... 3
-                                                ___
-                                                17
+1. Dibujo i lavado..................................       2
+2. Química Jeneral..................................       4
+3. Física...........................................       4
+4. Depurados........................................       4
+5. Idiomas..........................................       3
+                                                    ------
+                                                       17
 
 Se acordó igualmente declarar que, para matricularse como
-alumno en el primer año del Curso de Injeniería, mientras esté
+alumno en el primer año del Curso de Injenería, miéntras esté
 en vijencia el nuevo plan de estudios en 6 años, bastará estar
 en posesion del título de Bachiller en Humanidades.
 3.º) De dos comunicaciones de la Facultad de Matemáticas.
@@ -1018,23 +1024,27 @@ el puesto del astrónomo encargado de cuidar un anteojo meri-
 diano i un ecuatorial que aun quedan en las instalaciones que
 tuvo el Observatorio en la Quinta Normal de Agricultura, e
 insinúa la conveniencia de que dicho empleado pase a prestar
-sus servicios en el Estado Mayor del Ejército, el cual podría
+sus servicios en el Estado Mayor del Ejército, el cual podria
 dedicarlo a las observaciones destinadas al cálculo de la varia-
 cion de la latitud.
 Se aprobó el Proyecto de Presupuestos para el Observatorio
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-None.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+This page is a complete transcription. The last line of text appears to be the beginning of a sentence that continues on the next page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text."
+}
 ```
 
 # Page 38

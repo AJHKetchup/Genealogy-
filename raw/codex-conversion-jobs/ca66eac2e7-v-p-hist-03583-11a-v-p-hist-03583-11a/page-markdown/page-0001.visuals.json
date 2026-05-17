@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:43:06Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-11A.JPG",
+  "source_sha256": "66eac2e7cb42ab0eba18a8df6d4eaeab37aef2b1d0e042a08a47f99c601ac6d6",
+  "job_manifest": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "A wide-angle black and white photograph of a large assembly hall or conference room filled with many men seated at long rows of desks. The men are mostly dressed in dark suits. On the left wall, two large tapestries or framed artworks are visible, with a round clock between them. A raised balcony with a decorative balustrade runs along the upper right side of the room. Bright light emanates from a large window or light source on the far right. Some desks have faint numbers visible, such as '20', '14', '8', and '26'.",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "The entire page is this photograph.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        1.5,
+        1.5,
+        98.5,
+        98.5
+      ],
+      "bbox_pixels": [
+        48,
+        35,
+        3452,
+        2538
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/extracted-images/page-0001/page-0001-image-01-large-conference-assembly-room-with-delegates.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/extracted-images/page-0001/page-0001-image-01-large-conference-assembly-room-with-delegates.png",
+      "page_image": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/page-images/page-0001.jpg",
+      "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-11A.JPG",
+      "source_sha256": "66eac2e7cb42ab0eba18a8df6d4eaeab37aef2b1d0e042a08a47f99c601ac6d6",
+      "job_manifest": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

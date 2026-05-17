@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T08:42:50Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
+  "source_sha256": "72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874",
+  "job_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "The only visual element is a small decorative star, which does not meet the criteria for cropping as it is a minor decorative mark and its content is fully captured by transcription.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

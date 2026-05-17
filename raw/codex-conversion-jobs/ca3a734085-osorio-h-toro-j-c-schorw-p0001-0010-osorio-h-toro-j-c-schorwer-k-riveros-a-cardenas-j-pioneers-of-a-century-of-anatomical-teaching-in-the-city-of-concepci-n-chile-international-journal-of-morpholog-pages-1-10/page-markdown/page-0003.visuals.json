@@ -1,0 +1,166 @@
+{
+  "created": "2026-05-17T08:43:01Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+  "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+  "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+  "page": 3,
+  "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0003.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0003.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "A: Dr. Virginio Gómez Gonzalez.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Fig. 1. Pioneering teachers in the development of anatomy in Concepción. A: Dr. Virginio Gómez Gonzalez. B: Drs. Enrique Gonzalez Pastor, C: Maestro Dr. Enrique Solervicens Castel. D: Dr. Edgardo Enriquez Fröden and E: Dr. Mario Echeverría Monardes.",
+      "confidence": "0.95",
+      "inline_anchor": "A",
+      "bbox_pct": [
+        10.9,
+        19.9,
+        32.0,
+        48.0
+      ],
+      "bbox_pixels": [
+        129,
+        306,
+        394,
+        753
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-01-dr-virginio-gomez-gonzalez-a.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-01-dr-virginio-gomez-gonzalez-a.png",
+      "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0003.jpg",
+      "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+      "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0003.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "photograph",
+      "caption_literal": "B: Drs. Enrique Gonzalez Pastor",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Fig. 1. Pioneering teachers in the development of anatomy in Concepción. A: Dr. Virginio Gómez Gonzalez. B: Drs. Enrique Gonzalez Pastor, C: Maestro Dr. Enrique Solervicens Castel. D: Dr. Edgardo Enriquez Fröden and E: Dr. Mario Echeverría Monardes.",
+      "confidence": "0.95",
+      "inline_anchor": "B",
+      "bbox_pct": [
+        34.0,
+        19.9,
+        55.0,
+        48.0
+      ],
+      "bbox_pixels": [
+        410,
+        306,
+        674,
+        753
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-02-drs-enrique-gonzalez-pastor-b.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-02-drs-enrique-gonzalez-pastor-b.png",
+      "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0003.jpg",
+      "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+      "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0003.md"
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "photograph",
+      "caption_literal": "C: Maestro Dr. Enrique Solervicens Castel.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Fig. 1. Pioneering teachers in the development of anatomy in Concepción. A: Dr. Virginio Gómez Gonzalez. B: Drs. Enrique Gonzalez Pastor, C: Maestro Dr. Enrique Solervicens Castel. D: Dr. Edgardo Enriquez Fröden and E: Dr. Mario Echeverría Monardes.",
+      "confidence": "0.95",
+      "inline_anchor": "C",
+      "bbox_pct": [
+        57.0,
+        19.9,
+        89.0,
+        38.0
+      ],
+      "bbox_pixels": [
+        690,
+        306,
+        1088,
+        597
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-03-maestro-dr-enrique-solervicens-castel-c.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-03-maestro-dr-enrique-solervicens-castel-c.png",
+      "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0003.jpg",
+      "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+      "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0003.md"
+    },
+    {
+      "region_id": "vr_4",
+      "kind": "photograph",
+      "caption_literal": "D: Dr. Edgardo Enriquez Fröden",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Fig. 1. Pioneering teachers in the development of anatomy in Concepción. A: Dr. Virginio Gómez Gonzalez. B: Drs. Enrique Gonzalez Pastor, C: Maestro Dr. Enrique Solervicens Castel. D: Dr. Edgardo Enriquez Fröden and E: Dr. Mario Echeverría Monardes.",
+      "confidence": "0.95",
+      "inline_anchor": "D",
+      "bbox_pct": [
+        10.9,
+        50.0,
+        32.0,
+        78.0
+      ],
+      "bbox_pixels": [
+        129,
+        776,
+        394,
+        1221
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-04-dr-edgardo-enriquez-froden-d.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-04-dr-edgardo-enriquez-froden-d.png",
+      "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0003.jpg",
+      "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+      "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0003.md"
+    },
+    {
+      "region_id": "vr_5",
+      "kind": "photograph",
+      "caption_literal": "E: Dr. Mario Echeverría Monardes.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "Fig. 1. Pioneering teachers in the development of anatomy in Concepción. A: Dr. Virginio Gómez Gonzalez. B: Drs. Enrique Gonzalez Pastor, C: Maestro Dr. Enrique Solervicens Castel. D: Dr. Edgardo Enriquez Fröden and E: Dr. Mario Echeverría Monardes.",
+      "confidence": "0.95",
+      "inline_anchor": "E",
+      "bbox_pct": [
+        34.0,
+        50.0,
+        55.0,
+        78.0
+      ],
+      "bbox_pixels": [
+        410,
+        776,
+        674,
+        1221
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-05-dr-mario-echeverria-monardes-e.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-05-dr-mario-echeverria-monardes-e.png",
+      "page_image": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0003.jpg",
+      "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+      "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+      "job_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+      "page": 3,
+      "output_markdown": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-markdown/page-0003.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

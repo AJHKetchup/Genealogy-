@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d.codex.md",
+  "converted_sha256": "2c6c1272040d52b095aa4767ce66a64a73afedb7f3f764c6b77e24a88e9963f7",
+  "source": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
+  "source_sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
+  "source_manifest": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-2c6c1272040d-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 3647,
+      "sha256": "1a90afce20bb155ab8df11315728ac6df9dad310dc1d07e7d1067201ffdba7aa"
+    }
+  ]
+}

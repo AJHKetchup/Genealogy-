@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada.codex.md",
+  "converted_sha256": "e3855d4906024f7c6e4420ea21bcb29788837e318cdb3e8427fd5e3bbf20ccd4",
+  "source": "raw/sources/Portrait Victor Manuel Pulgar-Arriagada.jpg",
+  "source_sha256": "07afd3f674f8b96aae7e05ff748de7ef31b8532b8a89d4e2927bd1714da40278",
+  "source_manifest": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-e3855d490602-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 2450,
+      "sha256": "c181e8f878f2f88f3bec7288f5bcc8fb0d0a477c16fa8455e19e4e047cb383c9"
+    }
+  ]
+}

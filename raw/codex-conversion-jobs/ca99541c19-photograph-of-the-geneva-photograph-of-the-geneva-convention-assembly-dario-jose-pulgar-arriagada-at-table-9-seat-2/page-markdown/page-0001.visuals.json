@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:42:59Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg",
+  "source_sha256": "99541c195e4ec48320e5cafecc00e816585a4333aa495339cc5a5ad89197a8f5",
+  "job_manifest": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "A black and white photograph captures a large assembly hall, likely during the 1929 Geneva Convention. Numerous men, predominantly in dark suits, are seated at long, angled tables arranged in rows. Papers and documents are visible on the tables. The hall features tall windows on the left wall and decorative tapestries or large paintings on the right wall. A balcony with ornate railings runs along the top of the hall. Visible table numbers include '7' in the foreground, '9' in the mid-ground, and '19' further back on the right. According to the source context, Dario Jose Pulgar-Arriagada is seated at Table 9, Seat 2.",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2)",
+      "confidence": "1.0",
+      "inline_anchor": "",
+      "bbox_pct": [
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        0,
+        0,
+        1980,
+        2599
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/extracted-images/page-0001/page-0001-image-01-geneva-convention-assembly-1929.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/extracted-images/page-0001/page-0001-image-01-geneva-convention-assembly-1929.png",
+      "page_image": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/page-images/page-0001.jpg",
+      "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg",
+      "source_sha256": "99541c195e4ec48320e5cafecc00e816585a4333aa495339cc5a5ad89197a8f5",
+      "job_manifest": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

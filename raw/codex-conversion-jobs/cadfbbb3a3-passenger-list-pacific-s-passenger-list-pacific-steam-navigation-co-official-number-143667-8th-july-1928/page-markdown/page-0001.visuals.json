@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T08:43:34Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Passenger List, Pacific Steam Navigation Co., Official Number 143667, 8th July 1928..png",
+  "source_sha256": "dfbbb3a344f111dd42d0974b6dce8f322118920f3254e0e0f809c9795804ab42",
+  "job_manifest": "raw/codex-conversion-jobs/cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928/page-images/page-0001.png",
+  "output_markdown": "raw/codex-conversion-jobs/cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "The document is a standard form with tabular data and text. There are no significant illustrations, photographs, or complex diagrams that would warrant cropping as standalone visual assets.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

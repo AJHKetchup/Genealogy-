@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-17T00:27:24Z",
+  "updated": "2026-05-17T08:47:12Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -52,61 +52,59 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001": {
       "status": "done",
-      "updated_at": "2026-05-17T00:27:24Z",
+      "updated_at": "2026-05-17T08:42:55Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T02:46:50Z",
       "started_at": "2026-05-16T02:46:50Z",
-      "completed_at": "2026-05-17T00:27:24Z"
+      "completed_at": "2026-05-17T08:42:55Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-16T23:39:35Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:57Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T03:01:17Z",
       "started_at": "2026-05-16T03:01:17Z",
       "completed_at": "2026-05-16T23:39:35Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T23:28:59Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-17T08:42:57Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005": {
-      "status": "done",
-      "updated_at": "2026-05-16T23:39:20Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:54Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T03:29:02Z",
       "started_at": "2026-05-16T03:29:02Z",
       "completed_at": "2026-05-16T23:39:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T23:28:49Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-17T08:42:54Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0001": {
       "status": "done",
-      "updated_at": "2026-05-16T20:49:51Z",
+      "updated_at": "2026-05-17T08:42:47Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T20:49:51Z"
+      "completed_at": "2026-05-17T08:42:47Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0002": {
       "status": "done",
-      "updated_at": "2026-05-16T20:49:54Z",
+      "updated_at": "2026-05-17T08:42:52Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T20:49:54Z"
+      "completed_at": "2026-05-17T08:42:52Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0003": {
       "status": "done",
-      "updated_at": "2026-05-16T20:49:53Z",
+      "updated_at": "2026-05-17T08:42:49Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T20:49:53Z"
+      "completed_at": "2026-05-17T08:42:49Z"
     },
     "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001": {
       "status": "released",
@@ -119,48 +117,48 @@
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0001": {
       "status": "done",
-      "updated_at": "2026-05-16T20:41:12Z",
+      "updated_at": "2026-05-17T08:43:13Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-16T20:41:12Z"
+      "completed_at": "2026-05-17T08:43:13Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0001": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:07Z",
+      "updated_at": "2026-05-17T08:42:47Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
-      "completed_at": "2026-05-17T00:14:07Z"
+      "completed_at": "2026-05-17T08:42:47Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0002": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:07Z",
+      "updated_at": "2026-05-17T08:42:46Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
-      "completed_at": "2026-05-17T00:14:07Z"
+      "completed_at": "2026-05-17T08:42:46Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0003": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:06Z",
+      "updated_at": "2026-05-17T08:42:47Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
-      "completed_at": "2026-05-17T00:14:06Z"
+      "completed_at": "2026-05-17T08:42:47Z"
     },
     "source-prep:cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959:p0001": {
       "status": "done",
-      "updated_at": "2026-05-16T20:37:42Z",
+      "updated_at": "2026-05-17T08:42:52Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
-      "completed_at": "2026-05-16T20:37:42Z"
+      "completed_at": "2026-05-17T08:42:52Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0005": {
       "status": "done",
@@ -311,10 +309,12 @@
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0005": {
       "status": "done",
-      "updated_at": "2026-05-16T17:39:16Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:39:16Z"
+      "updated_at": "2026-05-17T08:42:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "completed_at": "2026-05-17T08:42:49Z",
+      "claimed_at": "2026-05-17T08:42:02Z",
+      "started_at": "2026-05-17T08:42:02Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0006": {
       "status": "done",
@@ -353,12 +353,12 @@
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0004": {
       "status": "done",
-      "updated_at": "2026-05-16T20:49:55Z",
+      "updated_at": "2026-05-17T08:42:47Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T17:41:06Z",
       "started_at": "2026-05-16T17:41:06Z",
-      "completed_at": "2026-05-16T20:49:55Z"
+      "completed_at": "2026-05-17T08:42:47Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0011": {
       "status": "done",
@@ -533,14 +533,15 @@
       "completed_at": "2026-05-16T20:17:03Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0037": {
-      "status": "released",
-      "updated_at": "2026-05-17T00:14:16Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
-      "completed_at": "2026-05-16T20:37:34Z",
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:03Z",
+      "note": "Completed by Gemini route pro",
+      "completed_at": "2026-05-17T08:43:03Z",
       "claimed_at": "2026-05-16T20:37:00Z",
       "started_at": "2026-05-16T20:37:00Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T00:14:16Z"
+      "released_at": "2026-05-17T00:14:16Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0039": {
       "status": "done",
@@ -572,13 +573,13 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0042": {
       "status": "released",
-      "updated_at": "2026-05-17T00:18:00Z",
+      "updated_at": "2026-05-17T08:46:30Z",
       "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
       "completed_at": "2026-05-16T20:40:45Z",
       "claimed_at": "2026-05-16T20:37:00Z",
       "started_at": "2026-05-16T20:37:00Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T00:18:00Z"
+      "released_at": "2026-05-17T08:46:30Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0043": {
       "status": "done",
@@ -694,10 +695,10 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0059": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:36Z",
+      "updated_at": "2026-05-17T08:43:01Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
-      "completed_at": "2026-05-17T00:14:36Z",
+      "completed_at": "2026-05-17T08:43:01Z",
       "claimed_at": "2026-05-16T20:37:01Z",
       "started_at": "2026-05-16T20:37:01Z"
     },
@@ -730,91 +731,91 @@
       "completed_at": "2026-05-16T20:32:15Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006": {
-      "status": "done",
-      "updated_at": "2026-05-16T23:39:22Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "completed_at": "2026-05-16T23:39:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T23:28:47Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-17T08:42:52Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007": {
       "status": "done",
-      "updated_at": "2026-05-16T23:39:19Z",
+      "updated_at": "2026-05-17T08:42:53Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T23:39:19Z"
+      "completed_at": "2026-05-17T08:42:53Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008": {
       "status": "released",
-      "updated_at": "2026-05-16T23:43:07Z",
+      "updated_at": "2026-05-17T08:46:32Z",
       "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "completed_at": "2026-05-16T20:37:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-16T23:43:07Z"
+      "released_at": "2026-05-17T08:46:32Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
-      "status": "released",
-      "updated_at": "2026-05-16T23:39:30Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:29Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-16T23:39:30Z",
-      "completed_at": "2026-05-16T23:29:05Z"
+      "completed_at": "2026-05-17T08:43:29Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010": {
       "status": "done",
-      "updated_at": "2026-05-16T23:39:36Z",
+      "updated_at": "2026-05-17T08:42:57Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T23:39:36Z"
+      "completed_at": "2026-05-17T08:42:57Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011": {
       "status": "done",
-      "updated_at": "2026-05-16T23:39:42Z",
+      "updated_at": "2026-05-17T08:42:55Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-16T23:39:42Z"
+      "completed_at": "2026-05-17T08:42:55Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012": {
       "status": "done",
-      "updated_at": "2026-05-16T23:40:00Z",
-      "note": "Completed by Gemini route pro",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
-      "completed_at": "2026-05-16T23:40:00Z",
+      "completed_at": "2026-05-17T08:42:50Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-16T23:28:53Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:07Z",
+      "updated_at": "2026-05-17T08:42:48Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
-      "completed_at": "2026-05-17T00:14:07Z"
+      "completed_at": "2026-05-17T08:42:48Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0006": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:10Z",
+      "updated_at": "2026-05-17T08:42:46Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:59Z",
       "started_at": "2026-05-16T18:21:59Z",
-      "completed_at": "2026-05-17T00:14:10Z"
+      "completed_at": "2026-05-17T08:42:46Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83:p0067": {
       "status": "done",
@@ -1098,30 +1099,31 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0008": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:11Z",
+      "updated_at": "2026-05-17T08:42:48Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:43:24Z",
       "started_at": "2026-05-16T18:43:24Z",
-      "completed_at": "2026-05-17T00:14:11Z"
+      "completed_at": "2026-05-17T08:42:48Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009": {
       "status": "done",
-      "updated_at": "2026-05-17T00:14:17Z",
+      "updated_at": "2026-05-17T08:42:55Z",
       "agent": "gemini-source-prep",
       "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:43:25Z",
       "started_at": "2026-05-16T18:43:25Z",
-      "completed_at": "2026-05-17T00:14:17Z"
+      "completed_at": "2026-05-17T08:42:55Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0010": {
-      "status": "done",
-      "updated_at": "2026-05-17T00:14:12Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:49Z",
+      "note": "Gemini output failed source-prep review: many_uncertain_readings",
       "claimed_at": "2026-05-16T18:43:25Z",
       "started_at": "2026-05-16T18:43:25Z",
-      "completed_at": "2026-05-17T00:14:12Z"
+      "completed_at": "2026-05-17T00:14:12Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:49Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0105": {
       "status": "done",
@@ -1769,12 +1771,867 @@
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0184": {
       "status": "released",
-      "updated_at": "2026-05-17T00:18:13Z",
+      "updated_at": "2026-05-17T08:46:59Z",
       "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
       "claimed_at": "2026-05-17T00:14:04Z",
       "started_at": "2026-05-17T00:14:04Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T00:18:13Z"
+      "released_at": "2026-05-17T08:46:59Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:05Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:01Z",
+      "started_at": "2026-05-17T08:42:01Z",
+      "completed_at": "2026-05-17T08:43:05Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:04Z",
+      "started_at": "2026-05-17T08:42:04Z",
+      "completed_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0004": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:46:55Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+      "claimed_at": "2026-05-17T08:42:05Z",
+      "started_at": "2026-05-17T08:42:05Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:46:55Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:05Z",
+      "started_at": "2026-05-17T08:42:05Z",
+      "completed_at": "2026-05-17T08:42:49Z"
+    },
+    "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:57Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:09Z",
+      "started_at": "2026-05-17T08:42:09Z",
+      "completed_at": "2026-05-17T08:42:57Z"
+    },
+    "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:05Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:12Z",
+      "started_at": "2026-05-17T08:42:12Z",
+      "completed_at": "2026-05-17T08:43:05Z"
+    },
+    "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0006": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:56Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:14Z",
+      "started_at": "2026-05-17T08:42:14Z",
+      "completed_at": "2026-05-17T08:42:56Z"
+    },
+    "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0007": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:46:34Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+      "claimed_at": "2026-05-17T08:42:16Z",
+      "started_at": "2026-05-17T08:42:16Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:46:34Z"
+    },
+    "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0008": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:58Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:19Z",
+      "started_at": "2026-05-17T08:42:19Z",
+      "completed_at": "2026-05-17T08:42:58Z"
+    },
+    "source-prep:cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:25Z",
+      "started_at": "2026-05-17T08:42:25Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:47Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:25Z",
+      "started_at": "2026-05-17T08:42:25Z",
+      "completed_at": "2026-05-17T08:42:47Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:01Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:25Z",
+      "started_at": "2026-05-17T08:42:25Z",
+      "completed_at": "2026-05-17T08:43:01Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:36Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:26Z",
+      "started_at": "2026-05-17T08:42:26Z",
+      "completed_at": "2026-05-17T08:43:36Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:35Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:26Z",
+      "started_at": "2026-05-17T08:42:26Z",
+      "completed_at": "2026-05-17T08:43:35Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:26Z",
+      "started_at": "2026-05-17T08:42:26Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:06Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:27Z",
+      "started_at": "2026-05-17T08:42:27Z",
+      "completed_at": "2026-05-17T08:43:06Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:57Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:27Z",
+      "started_at": "2026-05-17T08:42:27Z",
+      "completed_at": "2026-05-17T08:42:57Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:27Z",
+      "started_at": "2026-05-17T08:42:27Z",
+      "completed_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:28Z",
+      "started_at": "2026-05-17T08:42:28Z",
+      "completed_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:00Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:28Z",
+      "started_at": "2026-05-17T08:42:28Z",
+      "completed_at": "2026-05-17T08:43:00Z"
+    },
+    "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0001": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:43:00Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "claimed_at": "2026-05-17T08:42:28Z",
+      "started_at": "2026-05-17T08:42:28Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:43:00Z"
+    },
+    "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0002": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "claimed_at": "2026-05-17T08:42:28Z",
+      "started_at": "2026-05-17T08:42:28Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0003": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:43:03Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:43:03Z"
+    },
+    "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0004": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:56Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:56Z"
+    },
+    "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0005": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:56Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:56Z"
+    },
+    "source-prep:ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:58Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "completed_at": "2026-05-17T08:42:58Z"
+    },
+    "source-prep:ca351a8df2-v-p-hist-03583-12a-v-p-hist-03583-12a:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:04Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "completed_at": "2026-05-17T08:43:04Z"
+    },
+    "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:57Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "completed_at": "2026-05-17T08:42:57Z"
+    },
+    "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "completed_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:01Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:29Z",
+      "started_at": "2026-05-17T08:42:29Z",
+      "completed_at": "2026-05-17T08:43:01Z"
+    },
+    "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:30Z",
+      "started_at": "2026-05-17T08:42:30Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:01Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:30Z",
+      "started_at": "2026-05-17T08:42:30Z",
+      "completed_at": "2026-05-17T08:43:01Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0001": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:47:12Z",
+      "note": "Gemini conversion error: Remote end closed connection without response",
+      "claimed_at": "2026-05-17T08:42:30Z",
+      "started_at": "2026-05-17T08:42:30Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:47:12Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "completed_at": "2026-05-17T08:43:53Z"
+    },
+    "source-prep:ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "completed_at": "2026-05-17T08:42:49Z"
+    },
+    "source-prep:ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20:p0003": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:51Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:51Z"
+    },
+    "source-prep:ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:51Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "completed_at": "2026-05-17T08:42:51Z"
+    },
+    "source-prep:ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:00Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "completed_at": "2026-05-17T08:43:00Z"
+    },
+    "source-prep:ca550063aa-geneva-convention-of-jul-p0004-0018-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-4-18:p0004": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "claimed_at": "2026-05-17T08:42:31Z",
+      "started_at": "2026-05-17T08:42:31Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:ca550063aa-geneva-convention-of-jul-p0004-0018-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-4-18:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:ca550063aa-geneva-convention-of-jul-p0004-0018-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-4-18:p0006": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:54Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:42:54Z"
+    },
+    "source-prep:ca550063aa-geneva-convention-of-jul-p0004-0018-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-4-18:p0007": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:ca550063aa-geneva-convention-of-jul-p0004-0018-geneva-convention-of-july-27-1929-amelioration-of-the-condition-of-the-wounded-and-sick-of-armies-in-the-field-pages-4-18:p0008": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca58706dfd-v-p-hist-01820-01-1-v-p-hist-01820-01-1:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:04Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:43:04Z"
+    },
+    "source-prep:ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:38Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:43:38Z"
+    },
+    "source-prep:ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:06Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:43:06Z"
+    },
+    "source-prep:ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:06Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:32Z",
+      "started_at": "2026-05-17T08:42:32Z",
+      "completed_at": "2026-05-17T08:43:06Z"
+    },
+    "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:06Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:33Z",
+      "started_at": "2026-05-17T08:42:33Z",
+      "completed_at": "2026-05-17T08:43:06Z"
+    },
+    "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:33Z",
+      "started_at": "2026-05-17T08:42:33Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:02Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:33Z",
+      "started_at": "2026-05-17T08:42:33Z",
+      "completed_at": "2026-05-17T08:43:02Z"
+    },
+    "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:54Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:33Z",
+      "started_at": "2026-05-17T08:42:33Z",
+      "completed_at": "2026-05-17T08:42:54Z"
+    },
+    "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0005": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:46:42Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+      "claimed_at": "2026-05-17T08:42:34Z",
+      "started_at": "2026-05-17T08:42:34Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:46:42Z"
+    },
+    "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:34Z",
+      "started_at": "2026-05-17T08:42:34Z",
+      "completed_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20:p0002": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:46:28Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+      "claimed_at": "2026-05-17T08:42:34Z",
+      "started_at": "2026-05-17T08:42:34Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:46:28Z"
+    },
+    "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:48Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:34Z",
+      "started_at": "2026-05-17T08:42:34Z",
+      "completed_at": "2026-05-17T08:42:48Z"
+    },
+    "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:55Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:34Z",
+      "started_at": "2026-05-17T08:42:34Z",
+      "completed_at": "2026-05-17T08:42:55Z"
+    },
+    "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0001-0020-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-1-20:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:56Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:34Z",
+      "started_at": "2026-05-17T08:42:34Z",
+      "completed_at": "2026-05-17T08:42:56Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0185": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:35Z",
+      "started_at": "2026-05-17T08:42:35Z",
+      "completed_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0186": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:36Z",
+      "started_at": "2026-05-17T08:42:36Z",
+      "completed_at": "2026-05-17T08:42:49Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0187": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "claimed_at": "2026-05-17T08:42:36Z",
+      "started_at": "2026-05-17T08:42:36Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0188": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:02Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:36Z",
+      "started_at": "2026-05-17T08:42:36Z",
+      "completed_at": "2026-05-17T08:43:02Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0189": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:03Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:37Z",
+      "started_at": "2026-05-17T08:42:37Z",
+      "completed_at": "2026-05-17T08:43:03Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0202": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:46:27Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+      "claimed_at": "2026-05-17T08:42:37Z",
+      "started_at": "2026-05-17T08:42:37Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:46:27Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0184-0203-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-184-203:p0203": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:38Z",
+      "started_at": "2026-05-17T08:42:38Z",
+      "completed_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223:p0204": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:57Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:38Z",
+      "started_at": "2026-05-17T08:42:38Z",
+      "completed_at": "2026-05-17T08:42:57Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223:p0205": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:38Z",
+      "started_at": "2026-05-17T08:42:38Z",
+      "completed_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0204-0223-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-204-223:p0206": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "completed_at": "2026-05-17T08:42:49Z"
+    },
+    "source-prep:ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:02Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "completed_at": "2026-05-17T08:43:02Z"
+    },
+    "source-prep:ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:59Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "completed_at": "2026-05-17T08:42:59Z"
+    },
+    "source-prep:ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:58Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "completed_at": "2026-05-17T08:42:58Z"
+    },
+    "source-prep:caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:03Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "completed_at": "2026-05-17T08:43:03Z"
+    },
+    "source-prep:cab714f822-v-p-hist-01821-16-v-p-hist-01821-16:p0001": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:46:33Z",
+      "note": "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:46:33Z"
+    },
+    "source-prep:cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:06Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:39Z",
+      "started_at": "2026-05-17T08:42:39Z",
+      "completed_at": "2026-05-17T08:43:06Z"
+    },
+    "source-prep:cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:40Z",
+      "started_at": "2026-05-17T08:42:40Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:06Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:40Z",
+      "started_at": "2026-05-17T08:42:40Z",
+      "completed_at": "2026-05-17T08:43:06Z"
+    },
+    "source-prep:cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:40Z",
+      "started_at": "2026-05-17T08:42:40Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:14Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:40Z",
+      "started_at": "2026-05-17T08:42:40Z",
+      "completed_at": "2026-05-17T08:43:14Z"
+    },
+    "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:40Z",
+      "started_at": "2026-05-17T08:42:40Z",
+      "completed_at": "2026-05-17T08:42:49Z"
+    },
+    "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:41Z",
+      "started_at": "2026-05-17T08:42:41Z",
+      "completed_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:50Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:41Z",
+      "started_at": "2026-05-17T08:42:41Z",
+      "completed_at": "2026-05-17T08:42:50Z"
+    },
+    "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:51Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:41Z",
+      "started_at": "2026-05-17T08:42:41Z",
+      "completed_at": "2026-05-17T08:42:51Z"
+    },
+    "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:54Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:42Z",
+      "started_at": "2026-05-17T08:42:42Z",
+      "completed_at": "2026-05-17T08:42:54Z"
+    },
+    "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:37Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:42Z",
+      "started_at": "2026-05-17T08:42:42Z",
+      "completed_at": "2026-05-17T08:43:37Z"
+    },
+    "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:54Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:42Z",
+      "started_at": "2026-05-17T08:42:42Z",
+      "completed_at": "2026-05-17T08:42:54Z"
+    },
+    "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:02Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:42Z",
+      "started_at": "2026-05-17T08:42:42Z",
+      "completed_at": "2026-05-17T08:43:02Z"
+    },
+    "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25:p0005": {
+      "status": "released",
+      "updated_at": "2026-05-17T08:42:54Z",
+      "note": "Gemini visual crop extraction failed: visual_region_manifest_json_invalid:Expecting value",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T08:42:54Z"
+    },
+    "source-prep:cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:cadfbbb3a3-passenger-list-pacific-s-passenger-list-pacific-steam-navigation-co-official-number-143667-8th-july-1928:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:43:34Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:43:34Z"
+    },
+    "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0001": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:52Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:42:52Z"
+    },
+    "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0002": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:51Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:42:51Z"
+    },
+    "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0003": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0004": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:53Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:42:53Z"
+    },
+    "source-prep:cafbbc662e-habitat-revisited-jim-ca-p0001-0011-habitat-revisited-jim-carney-2006-pages-1-11:p0005": {
+      "status": "done",
+      "updated_at": "2026-05-17T08:42:51Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route lite",
+      "claimed_at": "2026-05-17T08:42:43Z",
+      "started_at": "2026-05-17T08:42:43Z",
+      "completed_at": "2026-05-17T08:42:51Z"
     }
   }
 }

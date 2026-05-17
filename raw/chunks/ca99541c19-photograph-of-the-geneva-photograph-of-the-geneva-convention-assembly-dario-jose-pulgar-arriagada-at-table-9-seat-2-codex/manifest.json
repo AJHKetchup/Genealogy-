@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2.codex.md",
+  "converted_sha256": "ec55a788042590ac45b453116c0881c277772481a8c3f50277221a62dbcc8caf",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg",
+  "source_sha256": "99541c195e4ec48320e5cafecc00e816585a4333aa495339cc5a5ad89197a8f5",
+  "source_manifest": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-ec55a7880425-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 4578,
+      "sha256": "b20eb94c666465ef38b16b9ea4637db89c8e4d5a802938abb9214d7d47aeaec9"
+    }
+  ]
+}

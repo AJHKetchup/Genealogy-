@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T08:43:38Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png",
+  "source_sha256": "5a5078ab4b0d50fdd2cdefb4aa21ffaf6524824329254788ab4437bff500c6d3",
+  "job_manifest": "raw/codex-conversion-jobs/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953/page-images/page-0001.png",
+  "output_markdown": "raw/codex-conversion-jobs/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "The page consists of a passenger list in a tabular format with no significant illustrations, photographs, or other visual elements suitable for individual cropping.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

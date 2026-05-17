@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T00:14:07Z",
+  "created": "2026-05-17T08:42:46Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -8,7 +8,7 @@
   "page": 2,
   "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-images/page-0002.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3/page-markdown/page-0002.md",
-  "no_visual_regions_reason": "The page contains only a handwritten number, which is transcribed directly in the 'Literal Transcription' section. There are no substantial visuals (like portraits, maps, or diagrams) that would benefit from a separate crop.",
+  "no_visual_regions_reason": "The only visual content is a handwritten number, which is fully captured by transcription and does not require a separate crop.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

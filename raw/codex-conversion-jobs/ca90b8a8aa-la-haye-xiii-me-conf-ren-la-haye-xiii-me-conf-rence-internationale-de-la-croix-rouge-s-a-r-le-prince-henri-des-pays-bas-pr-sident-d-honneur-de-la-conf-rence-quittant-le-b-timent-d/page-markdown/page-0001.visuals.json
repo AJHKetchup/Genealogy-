@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:43:02Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
+  "source_sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
+  "job_manifest": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "La Haye. XIIIme Conférence Internationale de la Croix-Rouge.\nS.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence,\nquittant le bâtiment d[?].",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The photograph shows S.A.R. le Prince Henri des Pays-Bas, president d'honneur of the XIIIme Conférence Internationale de la Croix-Rouge, leaving a building.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        3.0,
+        2.0,
+        97.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        79,
+        66,
+        2677,
+        3154
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/extracted-images/page-0001/page-0001-image-01-la-haye-xiiime-conference-internationale-de-la-croix-rouge-princ.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/extracted-images/page-0001/page-0001-image-01-la-haye-xiiime-conference-internationale-de-la-croix-rouge-princ.png",
+      "page_image": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/page-images/page-0001.jpg",
+      "source": "raw/sources/La Haye. XIIIème Conférence Internationale de la Croix-Rouge. S.A.R. le Prince Henri des Pays-Bas, président d'honneur de la Conférence, quittant le bâtiment d.JPG",
+      "source_sha256": "90b8a8aabe5584a1f12060b6dafd922cf08ea7390a368e2b551ecbf2f5f11f5b",
+      "job_manifest": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

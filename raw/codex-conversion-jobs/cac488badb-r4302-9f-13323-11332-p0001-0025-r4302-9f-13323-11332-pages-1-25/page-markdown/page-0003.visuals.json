@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-17T08:42:52Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4302-9F-13323-11332.pdf",
+  "source_sha256": "c488badb34544a38449366dd164f50ff441793025a4c5a473d7ee73fd782ed15",
+  "job_manifest": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25/manifest.json",
+  "page": 3,
+  "page_image": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25/page-images/page-0003.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cac488badb-r4302-9f-13323-11332-p0001-0025-r4302-9f-13323-11332-pages-1-25/page-markdown/page-0003.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "LEAGUE OF NATIONS\nREGISTRY\nRECEIVED\n-1. MAR. 1938",
+      "source_context": "A red stamp indicating receipt by the League of Nations Registry."
+    }
+  ],
+  "flags": []
+}

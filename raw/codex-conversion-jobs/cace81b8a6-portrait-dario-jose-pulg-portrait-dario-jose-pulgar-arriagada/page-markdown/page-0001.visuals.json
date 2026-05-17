@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:42:52Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg",
+  "source_sha256": "ce81b8a6e2dc5bcab3b085c5cf0b759d00d9790c8d2d186a1606cd778fa27529",
+  "job_manifest": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/page-images/page-0001.jpeg",
+  "output_markdown": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "portrait-man-suit-boater-hat",
+      "kind": "portrait",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "unlabeled-person",
+      "source_context": "A sepia-toned portrait photograph of a man seated, wearing a suit, tie, and a straw boater hat. He is looking directly at the camera. His hands are clasped in his lap, and he wears a ring on his left ring finger.",
+      "confidence": "high",
+      "inline_anchor": "portrait-man-suit-boater-hat",
+      "bbox_pct": [
+        8.0,
+        9.0,
+        92.0,
+        98.0
+      ],
+      "bbox_pixels": [
+        92,
+        140,
+        1108,
+        1572
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-man-suit-boater-hat.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-man-suit-boater-hat.png",
+      "page_image": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/page-images/page-0001.jpeg",
+      "source": "raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg",
+      "source_sha256": "ce81b8a6e2dc5bcab3b085c5cf0b759d00d9790c8d2d186a1606cd778fa27529",
+      "job_manifest": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

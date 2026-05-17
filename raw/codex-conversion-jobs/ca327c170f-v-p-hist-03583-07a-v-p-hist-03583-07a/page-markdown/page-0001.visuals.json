@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:42:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-07A.JPG",
+  "source_sha256": "327c170fda815e9226dbef176e889611718d4ba89c088377a4092588778a6b9a",
+  "job_manifest": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "photograph_1",
+      "kind": "photograph",
+      "caption_literal": "A group of men and women gathered outdoors, with a building covered in ivy in the background and a table with drinks to the right.",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "A black and white photograph showing a group of people, mostly men, dressed in formal attire, standing on a gravel path in front of an ivy-covered building. A table with beverages and glasses is visible on the right side of the image.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        0,
+        0,
+        3500,
+        2435
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
+      "page_image": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/page-images/page-0001.jpg",
+      "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-03583-07A.JPG",
+      "source_sha256": "327c170fda815e9226dbef176e889611718d4ba89c088377a4092588778a6b9a",
+      "job_manifest": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

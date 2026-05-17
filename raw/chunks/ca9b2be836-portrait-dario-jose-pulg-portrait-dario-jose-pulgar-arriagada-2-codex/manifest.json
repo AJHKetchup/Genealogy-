@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2.codex.md",
+  "converted_sha256": "209967debfb4653aeb2a67e4e0f81986e9688797459cb90f3da7d80621803050",
+  "source": "raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png",
+  "source_sha256": "9b2be8361b57a2def4a2eea42414cb0d69ff53b7deb65b3197316f6ac50bdd30",
+  "source_manifest": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-209967debfb4-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 2743,
+      "sha256": "c163ed56e458a18132274b25f77be7f7e739c9dfa19d88b3857b316db89a73bf"
+    }
+  ]
+}

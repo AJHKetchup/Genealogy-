@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953.codex.md",
+  "converted_sha256": "a4cd3c3e5c1604d295d42e136dc2a26fd517d55606b5f6fab87d2f618c40ffee",
+  "source": "raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png",
+  "source_sha256": "5a5078ab4b0d50fdd2cdefb4aa21ffaf6524824329254788ab4437bff500c6d3",
+  "source_manifest": "raw/codex-conversion-jobs/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-a4cd3c3e5c16-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 7210,
+      "sha256": "38d890bd47e3da2f71285a8ed0c78712d7887bea28450585e5d584858e678367"
+    }
+  ]
+}

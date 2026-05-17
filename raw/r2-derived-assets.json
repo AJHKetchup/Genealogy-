@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T08:38:44.379930+00:00",
+  "created": "2026-05-17T08:49:42.875412+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -17,6 +17,13 @@
   ],
   "files": [
     {
+      "path": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-of-man-with-white-beard.png",
+      "key": "derived/raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-of-man-with-white-beard.png",
+      "bytes": 151748,
+      "sha256": "9ae3d2f7d3843070306f3ab259fec70d7d6ffda636956a3e1fac4b0397e7c9bd",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images/page-0004/page-0004-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images/page-0004/page-0004-docling-image-01.png",
       "bytes": 72164,
@@ -31,6 +38,90 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
+      "key": "derived/raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
+      "bytes": 7952626,
+      "sha256": "e2bd2ba216233af52231238a77752bf067912bd094d16ddcf746e7d1ba7f3608",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca351a8df2-v-p-hist-03583-12a-v-p-hist-03583-12a/extracted-images/page-0001/page-0001-image-01-assembly-hall-conference-1929-geneva-convention.png",
+      "key": "derived/raw/codex-conversion-jobs/ca351a8df2-v-p-hist-03583-12a-v-p-hist-03583-12a/extracted-images/page-0001/page-0001-image-01-assembly-hall-conference-1929-geneva-convention.png",
+      "bytes": 7159201,
+      "sha256": "3f1dcd13aeb790e6d7af6737f0fbbaf68e6ae062b73f103fd567157d467d1ba5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0001/page-0001-image-01-andres-sebastian-riveros-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0001/page-0001-image-01-andres-sebastian-riveros-portrait.png",
+      "bytes": 1699,
+      "sha256": "f2b67c0c5f5b395e5286490e9581a0bd5259b4f4cd483036a0f04048627fa0a8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0001/page-0001-image-02-julio-luis-cardenas-valenzuela-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0001/page-0001-image-02-julio-luis-cardenas-valenzuela-portrait.png",
+      "bytes": 1681,
+      "sha256": "fc63d00571c16342de464f2ce53b6bb277ea3196a73a5ea196f970db93fa4b20",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-01-dr-virginio-gomez-gonzalez-a.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-01-dr-virginio-gomez-gonzalez-a.png",
+      "bytes": 107954,
+      "sha256": "71eee433da3f4e429bfeebec3d4179afa7541790629ba23b1e6d53b2b38c284c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-02-drs-enrique-gonzalez-pastor-b.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-02-drs-enrique-gonzalez-pastor-b.png",
+      "bytes": 115618,
+      "sha256": "4832633c4366b03986d0f5cc63994c7c97b68b69b4fdd4910863977f6939bfb5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-03-maestro-dr-enrique-solervicens-castel-c.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-03-maestro-dr-enrique-solervicens-castel-c.png",
+      "bytes": 111826,
+      "sha256": "fa27a0e46327e08e15015ae4cf589887c6edd6111a01f63f1f10554e14432190",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-04-dr-edgardo-enriquez-froden-d.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-04-dr-edgardo-enriquez-froden-d.png",
+      "bytes": 103665,
+      "sha256": "344f1fdfbe553536a261fcd960d0d70b8bfac74b9ffb8587b6258c2ce4075882",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-05-dr-mario-echeverria-monardes-e.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0003/page-0003-image-05-dr-mario-echeverria-monardes-e.png",
+      "bytes": 109558,
+      "sha256": "0cd125df6c98d67e06933d9c318742916d77143703ea8492a3781dfe3bbf3495",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0004/page-0004-image-01-first-installations-anatomy-dentistry-ohiggins-tucapel.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/extracted-images/page-0004/page-0004-image-01-first-installations-anatomy-dentistry-ohiggins-tucapel.png",
+      "bytes": 97,
+      "sha256": "3a75e7d7264e1645860e96b6a7bb4ea796ad33e1e9a762f19c17bbedf47886a4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/extracted-images/page-0001/page-0001-image-01-hospital-clinico-regional-building.png",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/extracted-images/page-0001/page-0001-image-01-hospital-clinico-regional-building.png",
+      "bytes": 159425,
+      "sha256": "d5ad2f6b74b3374716e5825bd376c92ffdbd7ebbbc432879e7f278ccb209b120",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/extracted-images/page-0001/page-0001-image-01-la-haye-xiiieme-conference-internationale-de-la-croix-rouge-sean.png",
+      "key": "derived/raw/codex-conversion-jobs/ca508bacd2-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-ance-pl-niaire/extracted-images/page-0001/page-0001-image-01-la-haye-xiiieme-conference-internationale-de-la-croix-rouge-sean.png",
+      "bytes": 7448483,
+      "sha256": "7e34bbf13c0e54ed850829cb13867feb9db8c851c73893400b4b5aa9ae428f37",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-p0001-img001-calves-in-field.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-p0001-img001-calves-in-field.png",
       "bytes": 25850908,
@@ -40,8 +131,50 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-field.png",
-      "bytes": 27400000,
-      "sha256": "37f7082aaa8e2788ad76301d46d0b29dceef9dd59a90e055b632e7312523e475",
+      "bytes": 25279014,
+      "sha256": "c42b58d9834b26863125cc3a621e405912a54ab03b2a732372b4e997cc2041f4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-01-airplane-canberra-english-electric.png",
+      "bytes": 1966168,
+      "sha256": "c52ac10dac585392c874d93a9cc98fe546105c769a5048b5d946add265d713b0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-02-english-electric-locomotive-spain.png",
+      "bytes": 938128,
+      "sha256": "a72da06e53275639422b75b679d76181b3591a71be57d49ea25591a26347af02",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0005/page-0005-image-03-english-electric-missile-launch.png",
+      "bytes": 1050029,
+      "sha256": "51eb22793492d6afbe874aba3ec836d3658d60c79d44e70c51604c696c9d47d5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca58706dfd-v-p-hist-01820-01-1-v-p-hist-01820-01-1/extracted-images/page-0001/page-0001-image-01-formal-assembly-hall-1929.png",
+      "key": "derived/raw/codex-conversion-jobs/ca58706dfd-v-p-hist-01820-01-1-v-p-hist-01820-01-1/extracted-images/page-0001/page-0001-image-01-formal-assembly-hall-1929.png",
+      "bytes": 6980175,
+      "sha256": "935bee09bdb6c84898f57726360579dbbb8fb2771285fafefbc404dca0431a05",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/extracted-images/page-0001/page-0001-image-01-geneva-conventions-assembly-hall-1929.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/extracted-images/page-0001/page-0001-image-01-geneva-conventions-assembly-hall-1929.png",
+      "bytes": 5124959,
+      "sha256": "c696fc8fd8de5fcfe4ebb73cfe6d807c9910e3cff8aff707af58ff500d63f950",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/extracted-images/page-0001/page-0001-image-01-large-conference-assembly-room-with-delegates.png",
+      "key": "derived/raw/codex-conversion-jobs/ca66eac2e7-v-p-hist-03583-11a-v-p-hist-03583-11a/extracted-images/page-0001/page-0001-image-01-large-conference-assembly-room-with-delegates.png",
+      "bytes": 6446901,
+      "sha256": "03a62044b9e85c1ce080e11cdf0c5fa3f83de7e2169e5d506a1ba1354841851c",
       "media_type": "image/png"
     },
     {
@@ -57,14 +190,49 @@
       "bytes": 80030,
       "sha256": "9e3ca35bcc12f059080bdca1e0fa612464d66e1d46e3c7817590255a4c48f181",
       "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/extracted-images/page-0001/page-0001-image-01-la-haye-xiiime-conference-internationale-de-la-croix-rouge-princ.png",
+      "key": "derived/raw/codex-conversion-jobs/ca90b8a8aa-la-haye-xiii-me-conf-ren-la-haye-xiii-me-conf-rence-internationale-de-la-croix-rouge-s-a-r-le-prince-henri-des-pays-bas-pr-sident-d-honneur-de-la-conf-rence-quittant-le-b-timent-d/extracted-images/page-0001/page-0001-image-01-la-haye-xiiime-conference-internationale-de-la-croix-rouge-princ.png",
+      "bytes": 5869436,
+      "sha256": "2aff6b9a574c9602a5e0fe0d8647f028d1f221397238c12e981e415078b7498b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/extracted-images/page-0001/page-0001-image-01-geneva-convention-assembly-1929.png",
+      "key": "derived/raw/codex-conversion-jobs/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2/extracted-images/page-0001/page-0001-image-01-geneva-convention-assembly-1929.png",
+      "bytes": 5143319,
+      "sha256": "0cb70d218120f1d1303b15057bc25d522409be033a7c5764d4a5f51d6426ed81",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/extracted-images/page-0001/page-0001-image-01-unidentified-man-portrait-circular-frame.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/extracted-images/page-0001/page-0001-image-01-unidentified-man-portrait-circular-frame.png",
+      "bytes": 1319899,
+      "sha256": "5590b8052f5a2b323b4549d3cb55b1fbefb32602e1c1d52d9a298439286dee5c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-man-suit-boater-hat.png",
+      "key": "derived/raw/codex-conversion-jobs/cace81b8a6-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-man-suit-boater-hat.png",
+      "bytes": 400424,
+      "sha256": "6784bde661456b1ad9691e4246698b8ca34203e77dfc7371c1d34793e57263c3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/extracted-images/page-0001/page-0001-image-01-la-haye-batiment-des-salles-comtales-xiiieme-conference-internat.png",
+      "key": "derived/raw/codex-conversion-jobs/cadf269c35-la-haye-b-timent-des-sal-la-haye-b-timent-des-salles-comtales-o-a-lieu-la-xiii-me-conf-rence-internationale-de-la-croix-rouge/extracted-images/page-0001/page-0001-image-01-la-haye-batiment-des-salles-comtales-xiiieme-conference-internat.png",
+      "bytes": 6952680,
+      "sha256": "8a69e32e1c14cfa7c0cb80c8d91738497a2df84ca42266358c8454f4b954f6e1",
+      "media_type": "image/png"
     }
   ],
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 25,
+    "total_bytes": 90894713,
+    "uploaded": 25,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -75,9 +243,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 6,
+      "scanned": 30,
       "deleted": 0,
-      "skipped": 6,
+      "skipped": 30,
       "errors": []
     }
   }

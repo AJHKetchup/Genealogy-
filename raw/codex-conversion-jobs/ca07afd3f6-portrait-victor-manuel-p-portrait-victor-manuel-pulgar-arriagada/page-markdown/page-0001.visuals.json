@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:42:47Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Portrait Victor Manuel Pulgar-Arriagada.jpg",
+  "source_sha256": "07afd3f674f8b96aae7e05ff748de7ef31b8532b8a89d4e2927bd1714da40278",
+  "job_manifest": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "portrait",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-only",
+      "source_context": "A black and white portrait photograph of an older man with white hair and a white beard and mustache. He is wearing a striped shirt and a patterned tie under a dark suit jacket. The man is looking directly at the camera.",
+      "confidence": "4",
+      "inline_anchor": "",
+      "bbox_pct": [
+        1.8,
+        1.8,
+        98.2,
+        98.2
+      ],
+      "bbox_pixels": [
+        3,
+        5,
+        400,
+        495
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-of-man-with-white-beard.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/extracted-images/page-0001/page-0001-image-01-portrait-of-man-with-white-beard.png",
+      "page_image": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/page-images/page-0001.jpg",
+      "source": "raw/sources/Portrait Victor Manuel Pulgar-Arriagada.jpg",
+      "source_sha256": "07afd3f674f8b96aae7e05ff748de7ef31b8532b8a89d4e2927bd1714da40278",
+      "job_manifest": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

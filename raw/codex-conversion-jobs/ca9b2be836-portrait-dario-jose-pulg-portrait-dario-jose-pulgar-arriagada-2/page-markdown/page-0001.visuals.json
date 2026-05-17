@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T08:42:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png",
+  "source_sha256": "9b2be8361b57a2def4a2eea42414cb0d69ff53b7deb65b3197316f6ac50bdd30",
+  "job_manifest": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/page-images/page-0001.png",
+  "output_markdown": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "portrait_001",
+      "kind": "portrait",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "unidentified",
+      "source_context": "A head-and-shoulders portrait of a man with a mustache, wearing a suit and tie, presented within a circular frame.",
+      "confidence": "high",
+      "inline_anchor": "portrait_of_man_001",
+      "bbox_pct": [
+        8.0,
+        8.0,
+        92.0,
+        92.0
+      ],
+      "bbox_pixels": [
+        137,
+        120,
+        1627,
+        1436
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/extracted-images/page-0001/page-0001-image-01-unidentified-man-portrait-circular-frame.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/extracted-images/page-0001/page-0001-image-01-unidentified-man-portrait-circular-frame.png",
+      "page_image": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/page-images/page-0001.png",
+      "source": "raw/sources/Portrait Dario Jose Pulgar-Arriagada 2.png",
+      "source_sha256": "9b2be8361b57a2def4a2eea42414cb0d69ff53b7deb65b3197316f6ac50bdd30",
+      "job_manifest": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca9b2be836-portrait-dario-jose-pulg-portrait-dario-jose-pulgar-arriagada-2/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T08:42:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
+  "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
+  "page": 8,
+  "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0008.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0008.md",
+  "no_visual_regions_reason": "No substantial visual elements are present on this page that would be useful as standalone wiki assets. The page consists entirely of text and a handwritten page number.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

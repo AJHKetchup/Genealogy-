@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b982e22b449c-P0005-01
+chunk_id: CHUNK-79ac9393aace-P0005-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23.codex.md
-converted_sha256: b982e22b449c7db2be799ec46ec8f8e43aa0385a6fa09589fbfb09c6fccda543
+converted_sha256: 79ac9393aace00edfd6284b4c4d4dc6bbbbd504662ec57237ec6cc9ed3a016ec
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/manifest.json
@@ -95,15 +95,15 @@ The page is entirely blank.
 [The page is blank.]
 
 ## Images, Captions, And Visual Notes
-The page is blank and contains no images, captions, or other meaningful visual content.
+The page contains no images, captions, or other meaningful visual content. It appears to be a blank page with a textured, yellowish-brown background.
 
 ## Uncertain Or Illegible
-None. The page is blank.
+No text or content is present to be uncertain or illegible.
 
 ## Completeness Audit
-The page is entirely blank. The transcription is complete and accurate.
+The page is entirely blank. The conversion is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content to extract."}
 ```

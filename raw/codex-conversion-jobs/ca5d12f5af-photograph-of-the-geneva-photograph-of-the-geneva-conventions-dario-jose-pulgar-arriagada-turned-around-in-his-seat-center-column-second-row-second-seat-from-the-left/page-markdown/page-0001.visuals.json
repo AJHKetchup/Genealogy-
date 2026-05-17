@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T08:43:06Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Conventions (Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left).jpg",
+  "source_sha256": "5d12f5af8db04e28e194d84b587ba4282eb5d6c72fe0846cd497a6e6083dc42d",
+  "job_manifest": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "Photograph of the Geneva Conventions (Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left).",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "The full page image is a photograph of the Geneva Conventions, as described in the provided filename.",
+      "confidence": "1.0",
+      "inline_anchor": "",
+      "bbox_pct": [
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        0,
+        0,
+        2977,
+        2102
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/extracted-images/page-0001/page-0001-image-01-geneva-conventions-assembly-hall-1929.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/extracted-images/page-0001/page-0001-image-01-geneva-conventions-assembly-hall-1929.png",
+      "page_image": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/page-images/page-0001.jpg",
+      "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Conventions (Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left).jpg",
+      "source_sha256": "5d12f5af8db04e28e194d84b587ba4282eb5d6c72fe0846cd497a6e6083dc42d",
+      "job_manifest": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "person",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left.",
+      "source_context": "The individual identified in the filename as Dario Jose Pulgar-Arriagada, located in the central block of seating, second row from the front, second seat from the left, turned around in their seat."
+    }
+  ],
+  "flags": []
+}
