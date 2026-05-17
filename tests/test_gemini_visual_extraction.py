@@ -249,6 +249,42 @@ def test_gemini_source_prep_skips_audio_for_media_pipeline(tmp_path, monkeypatch
     assert summary["tasks"][0]["reason"] == "audio_media_pipeline"
 
 
+def test_gemini_source_prep_stops_on_fatal_dependency_blocker(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=3)
+    calls = 0
+
+    def fail_gemini(**kwargs):
+        nonlocal calls
+        calls += 1
+        raise genealogy_wiki.GeminiSourcePrepFatalError(
+            "Gemini HTTP 429: RESOURCE_EXHAUSTED prepayment credits are depleted"
+        )
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fail_gemini)
+
+    with pytest.raises(RuntimeError, match="Gemini source-prep fatal blocker"):
+        source_prep_gemini_run(tmp_path, limit=3, parallelism=3, api_key="test-key", refresh_queue=False)
+
+    state = json.loads(
+        (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").read_text(encoding="utf-8")
+    )
+    task_state = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8")
+    )
+
+    assert calls == 1
+    assert state["processed"] == 1
+    assert state["released"] == 1
+    assert state["skipped"] == 2
+    assert "prepayment credits are depleted" in state["fatal_error"]
+    assert state["tasks"][0]["reason"] == "fatal_gemini_dependency"
+    assert [task["reason"] for task in state["tasks"][1:]] == [
+        "gemini_fatal_dependency_unattempted",
+        "gemini_fatal_dependency_unattempted",
+    ]
+    assert {task["status"] for task in task_state["tasks"].values()} == {"released"}
+
+
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
 

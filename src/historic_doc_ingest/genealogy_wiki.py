@@ -8244,6 +8244,23 @@ def materialize_gemini_visual_regions(
     }
 
 
+class GeminiSourcePrepFatalError(RuntimeError):
+    """Raised when Gemini source-prep cannot make progress without human action."""
+
+
+def is_fatal_gemini_http_error(code: int, detail: str) -> bool:
+    normalized = detail.lower()
+    if code in {401, 403}:
+        return True
+    if code == 429 and "resource_exhausted" in normalized and (
+        "prepayment credits are depleted" in normalized
+        or "billing" in normalized
+        or "quota has been exceeded" in normalized
+    ):
+        return True
+    return False
+
+
 def call_gemini_generate_content(
     *,
     api_key: str,
@@ -8281,7 +8298,10 @@ def call_gemini_generate_content(
             response_payload = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Gemini HTTP {exc.code}: {detail[:800]}") from exc
+        message = f"Gemini HTTP {exc.code}: {detail[:800]}"
+        if is_fatal_gemini_http_error(exc.code, detail):
+            raise GeminiSourcePrepFatalError(message) from exc
+        raise RuntimeError(message) from exc
 
     candidate = (response_payload.get("candidates") or [{}])[0]
     content = candidate.get("content", {}) if isinstance(candidate, dict) else {}
@@ -8391,6 +8411,7 @@ def source_prep_gemini_run(
         "tasks": [],
         "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "total_tokens": 0},
         "visual_regions": {"declared": 0, "cropped": 0, "skipped": 0, "manifests": 0},
+        "fatal_error": "",
     }
 
     def add_route_count(tier: str) -> None:
@@ -8409,6 +8430,7 @@ def source_prep_gemini_run(
         media_skipped: int = 0,
         usage: dict[str, object] | None = None,
         visual_regions: dict[str, object] | None = None,
+        fatal_error: str = "",
     ) -> dict[str, object]:
         return {
             "task_report": task_report,
@@ -8420,6 +8442,7 @@ def source_prep_gemini_run(
             "media_skipped": media_skipped,
             "usage": usage or {},
             "visual_regions": visual_regions or {},
+            "fatal_error": fatal_error,
         }
 
     def apply_result(result: dict[str, object]) -> None:
@@ -8434,6 +8457,9 @@ def source_prep_gemini_run(
         summary["skipped"] = int(summary["skipped"]) + int(result.get("skipped", 0) or 0)
         summary["discovery_skipped"] = int(summary["discovery_skipped"]) + int(result.get("discovery_skipped", 0) or 0)
         summary["media_skipped"] = int(summary["media_skipped"]) + int(result.get("media_skipped", 0) or 0)
+        fatal_error = str(result.get("fatal_error", "") or "").strip()
+        if fatal_error and not str(summary.get("fatal_error", "") or "").strip():
+            summary["fatal_error"] = fatal_error
         usage = result.get("usage", {})
         if isinstance(usage, dict):
             summary_usage = summary.setdefault("usage", {})
@@ -8660,6 +8686,16 @@ def source_prep_gemini_run(
                     usage=usage if isinstance(usage, dict) else {},
                     visual_regions=visual_result if isinstance(visual_result, dict) else {},
                 )
+        except GeminiSourcePrepFatalError as exc:
+            update_task_status(
+                task_id,
+                "released",
+                f"Gemini fatal dependency blocker: {str(exc)[:220]}",
+            )
+            task_report["status"] = "released"
+            task_report["reason"] = "fatal_gemini_dependency"
+            task_report["error"] = str(exc)
+            return result_payload(task_report, processed=1, released=1, fatal_error=str(exc))
         except Exception as exc:
             update_task_status(
                 task_id,
@@ -8671,22 +8707,52 @@ def source_prep_gemini_run(
             task_report["error"] = str(exc)
             return result_payload(task_report, processed=1, released=1)
 
+    def release_unattempted_after_fatal(
+        remaining_tasks: list[dict[str, object]],
+        fatal_error: str,
+    ) -> None:
+        for remaining_task in remaining_tasks:
+            task_id = str(remaining_task["task_id"])
+            task_report = dict(remaining_task["task_report"])
+            update_task_status(
+                task_id,
+                "released",
+                "Gemini fatal dependency blocker before this page was attempted; retry after the blocker clears.",
+            )
+            task_report["status"] = "skipped"
+            task_report["reason"] = "gemini_fatal_dependency_unattempted"
+            task_report["error"] = fatal_error
+            apply_result(result_payload(task_report, skipped=1))
+
     if prepared_tasks:
         max_workers = min(int(summary["parallelism"]), len(prepared_tasks))
         if max_workers <= 1:
-            for prepared_task in prepared_tasks:
-                apply_result(process_prepared_task(prepared_task))
-        else:
-            completed_results: list[tuple[int, dict[str, object]]] = []
-            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-                future_to_index = {
-                    executor.submit(process_prepared_task, prepared_task): index
-                    for index, prepared_task in enumerate(prepared_tasks)
-                }
-                for future in concurrent.futures.as_completed(future_to_index):
-                    completed_results.append((future_to_index[future], future.result()))
-            for _, result in sorted(completed_results, key=lambda item: item[0]):
+            for index, prepared_task in enumerate(prepared_tasks):
+                result = process_prepared_task(prepared_task)
                 apply_result(result)
+                fatal_error = str(result.get("fatal_error", "") or "").strip()
+                if fatal_error:
+                    release_unattempted_after_fatal(prepared_tasks[index + 1 :], fatal_error)
+                    break
+        else:
+            first_result = process_prepared_task(prepared_tasks[0])
+            apply_result(first_result)
+            first_fatal_error = str(first_result.get("fatal_error", "") or "").strip()
+            if first_fatal_error:
+                release_unattempted_after_fatal(prepared_tasks[1:], first_fatal_error)
+                max_workers = 0
+            remaining_tasks = prepared_tasks[1:] if max_workers else []
+            completed_results: list[tuple[int, dict[str, object]]] = []
+            if remaining_tasks:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    future_to_index = {
+                        executor.submit(process_prepared_task, prepared_task): index
+                        for index, prepared_task in enumerate(remaining_tasks)
+                    }
+                    for future in concurrent.futures.as_completed(future_to_index):
+                        completed_results.append((future_to_index[future], future.result()))
+                for _, result in sorted(completed_results, key=lambda item: item[0]):
+                    apply_result(result)
 
     summary["finished"] = utc_timestamp()
     state_path = write_source_prep_gemini_state(paths.root, summary)
@@ -8697,6 +8763,8 @@ def source_prep_gemini_run(
         f"processed {summary['processed']}, completed {summary['completed']}, released {summary['released']}, "
         f"parallelism={summary['parallelism']}, routes={summary.get('route_counts', {})}, dry_run={dry_run}",
     )
+    if str(summary.get("fatal_error", "") or "").strip():
+        raise RuntimeError(f"Gemini source-prep fatal blocker: {summary['fatal_error']}")
     return summary
 
 
