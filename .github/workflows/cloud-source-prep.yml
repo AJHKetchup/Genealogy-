@@ -133,6 +133,8 @@ jobs:
           --source-sha256 "$RUN_SOURCE_SHA256"
           --pages "$RUN_PAGES"
           --pages-per-job 25
+          --defer-page-images
+          --no-job-source-copy
           --new-pages-limit "$RUN_NEW_PAGES_LIMIT"
           --batch-pages 1
           --queue-limit "$RUN_QUEUE_LIMIT"
@@ -207,6 +209,8 @@ jobs:
           --source-sha256 "$RUN_SOURCE_SHA256"
           --pages "$RUN_PAGES"
           --pages-per-job 25
+          --defer-page-images
+          --no-job-source-copy
           --new-pages-limit "$RUN_NEW_PAGES_LIMIT"
           --batch-pages 1
           --queue-limit "$RUN_QUEUE_LIMIT"

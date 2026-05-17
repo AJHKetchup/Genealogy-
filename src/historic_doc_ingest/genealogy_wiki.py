@@ -2387,6 +2387,8 @@ def create_codex_conversion_job(
     page_range: str | None = None,
     image_scale: float = 2.0,
     force: bool = False,
+    render_page_images: bool = True,
+    stage_source_copy: bool = True,
 ) -> Path:
     paths = WikiPaths(root.resolve())
     original_source = source_file.resolve()
@@ -2411,11 +2413,20 @@ def create_codex_conversion_job(
 
     source_sha256 = file_sha256(original_source)
     staged_source = source_dir / staged_source_filename(original_source, source_sha256)
+    if not stage_source_copy:
+        try:
+            original_source.relative_to(paths.root)
+            staged_source = original_source
+        except ValueError:
+            pass
     if original_source != staged_source.resolve():
         shutil.copy2(original_source, staged_source)
 
     media_type = detect_media_type(staged_source)
-    page_specs = render_codex_job_pages(staged_source, pages_dir, media_type, page_range, image_scale)
+    if media_type == "pdf" and not render_page_images:
+        page_specs = deferred_pdf_page_specs(staged_source, pages_dir, page_range)
+    else:
+        page_specs = render_codex_job_pages(staged_source, pages_dir, media_type, page_range, image_scale)
     manifest_source = original_source
     try:
         manifest_source.relative_to(paths.root)
@@ -2455,7 +2466,7 @@ def create_codex_conversion_job(
         page_image_path = Path(str(spec["image_path"]))
         page_image_output_dir = extracted_images_dir / f"page-{page_no:04d}"
         page_image_output_dir.mkdir(parents=True, exist_ok=True)
-        spec["image_sha256"] = file_sha256(page_image_path)
+        spec["image_sha256"] = file_sha256(page_image_path) if page_image_path.exists() else ""
         spec["image_path"] = relative_to_root(page_image_path, paths.root)
         spec["image_output_dir"] = relative_to_root(page_image_output_dir, paths.root)
         spec["output_path"] = relative_to_root(output_path, paths.root)
@@ -2534,6 +2545,29 @@ def render_codex_job_pages(
             "image_bytes": copied_path.stat().st_size,
             "note": "Non-image source staged as a single work item.",
         }
+    ]
+
+
+def deferred_pdf_page_specs(source_file: Path, pages_dir: Path, page_range: str | None) -> list[dict[str, object]]:
+    """Create page records without rendering disposable full-page images yet."""
+    try:
+        import fitz
+    except ImportError as exc:
+        raise RuntimeError("PyMuPDF is required to prepare PDF conversion jobs.") from exc
+
+    with fitz.open(source_file) as doc:
+        selected_pages = parse_page_range(page_range, len(doc))
+    return [
+        {
+            "page": page_no,
+            "source_page": page_no,
+            "image_path": (pages_dir / f"page-{page_no:04d}.jpg").as_posix(),
+            "width_px": None,
+            "height_px": None,
+            "image_bytes": 0,
+            "image_deferred": True,
+        }
+        for page_no in selected_pages
     ]
 
 
@@ -2791,6 +2825,8 @@ def prepare_raw_sources(
     max_chars: int = 12000,
     source_filter: str = "",
     source_sha256: str = "",
+    defer_page_images: bool = False,
+    stage_source_copy: bool = True,
 ) -> list[PreparedSourceResult]:
     """Create or advance Codex-agent conversion jobs for every raw source.
 
@@ -2835,6 +2871,8 @@ def prepare_raw_sources(
                 pages_per_job=pages_per_job,
                 new_pages_limit=new_pages_limit,
                 max_chars=max_chars,
+                defer_page_images=defer_page_images,
+                stage_source_copy=stage_source_copy,
             )
         )
 
@@ -2853,6 +2891,8 @@ def prepare_raw_source_for_agent_conversion(
     pages_per_job: int = 50,
     new_pages_limit: int = 0,
     max_chars: int = 12000,
+    defer_page_images: bool = False,
+    stage_source_copy: bool = True,
 ) -> PreparedSourceResult:
     paths = WikiPaths(root.resolve())
     source = source.resolve()
@@ -2880,6 +2920,8 @@ def prepare_raw_source_for_agent_conversion(
                     image_scale=image_scale,
                     pages_per_job=pages_per_job,
                     force=force,
+                    render_page_images=not defer_page_images,
+                    stage_source_copy=stage_source_copy,
                 )
             )
     else:
@@ -2892,6 +2934,8 @@ def prepare_raw_source_for_agent_conversion(
             pages_per_job=pages_per_job,
             new_pages_limit=new_pages_limit,
             force=force,
+            render_page_images=not defer_page_images,
+            stage_source_copy=stage_source_copy,
         )
 
     job_statuses: list[str] = []
@@ -2931,6 +2975,8 @@ def create_agent_conversion_jobs_for_source(
     pages_per_job: int,
     new_pages_limit: int,
     force: bool,
+    render_page_images: bool = True,
+    stage_source_copy: bool = True,
 ) -> list[Path]:
     media_type = detect_media_type(source)
     if media_type != "pdf":
@@ -2943,6 +2989,8 @@ def create_agent_conversion_jobs_for_source(
                 page_range=page_range,
                 image_scale=image_scale,
                 force=force,
+                render_page_images=render_page_images,
+                stage_source_copy=stage_source_copy,
             )
         ]
 
@@ -2958,6 +3006,8 @@ def create_agent_conversion_jobs_for_source(
         image_scale=image_scale,
         pages_per_job=pages_per_job,
         force=force,
+        render_page_images=render_page_images,
+        stage_source_copy=stage_source_copy,
     )
 
 
@@ -2984,6 +3034,8 @@ def create_agent_conversion_jobs_for_pdf_pages(
     image_scale: float,
     pages_per_job: int,
     force: bool,
+    render_page_images: bool = True,
+    stage_source_copy: bool = True,
 ) -> list[Path]:
     page_groups = group_pages_for_agent_jobs(pages, pages_per_job)
     manifests: list[Path] = []
@@ -3000,6 +3052,8 @@ def create_agent_conversion_jobs_for_pdf_pages(
                 page_range=group_range,
                 image_scale=image_scale,
                 force=force,
+                render_page_images=render_page_images,
+                stage_source_copy=stage_source_copy,
             )
         )
     return manifests
@@ -9076,6 +9130,8 @@ def cloud_source_prep_heartbeat(
     dry_run: bool = False,
     source_filter: str = "",
     source_sha256: str = "",
+    defer_page_images: bool = False,
+    stage_source_copy: bool = True,
 ) -> dict[str, object]:
     paths = WikiPaths(root.resolve())
     summary: dict[str, object] = {
@@ -9100,6 +9156,8 @@ def cloud_source_prep_heartbeat(
             "dry_run": dry_run,
             "source_filter": source_filter.strip(),
             "source_sha256": source_sha256.strip(),
+            "defer_page_images": defer_page_images,
+            "stage_source_copy": stage_source_copy,
         },
         "steps": [],
         "blockers": [],
@@ -9142,6 +9200,8 @@ def cloud_source_prep_heartbeat(
             max_chars=max_chars,
             source_filter=source_filter,
             source_sha256=source_sha256,
+            defer_page_images=defer_page_images,
+            stage_source_copy=stage_source_copy,
         )
         record_step("prepare-sources", "ran", {"prepared_sources": len(prepared)})
         if (source_filter.strip() or source_sha256.strip()) and not prepared:
@@ -10620,6 +10680,8 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
     cloud_source_prep_parser.add_argument("--no-asset-upload", action="store_true", help="Do not upload durable crops/assets to R2.")
+    cloud_source_prep_parser.add_argument("--defer-page-images", action="store_true", help="Create PDF page work orders without rendering disposable full-page images up front.")
+    cloud_source_prep_parser.add_argument("--no-job-source-copy", action="store_true", help="Point job manifests at restored raw sources instead of copying large originals into every job folder.")
     cloud_source_prep_parser.add_argument("--dry-run", action="store_true", help="Skip R2 writes and raw restore; still refresh local queue outputs.")
 
     sync_github_parser = subparsers.add_parser(
@@ -11214,6 +11276,8 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             source_filter=args.source,
             source_sha256=args.source_sha256,
+            defer_page_images=args.defer_page_images,
+            stage_source_copy=not args.no_job_source_copy,
         )
         print("cloud-source-prep-heartbeat | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))

@@ -697,6 +697,38 @@ def test_prepare_raw_sources_splits_large_pdfs_into_agent_page_ranges(tmp_path) 
     assert len(index["sources"][0]["conversion_jobs"]) == 3
 
 
+def test_prepare_raw_sources_can_defer_pdf_page_image_rendering(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    for page_number in range(1, 4):
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"Page {page_number}")
+    doc.save(source)
+
+    results = prepare_raw_sources(tmp_path, pages_per_job=3, defer_page_images=True, stage_source_copy=False)
+
+    assert len(results) == 1
+    manifest_path = tmp_path / results[0].conversion_jobs[0]
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert manifest["local_staged_source_file"] == "raw/sources/archive.pdf"
+    assert not any((manifest_path.parent / "source").iterdir())
+    assert [page["image_deferred"] for page in manifest["pages"]] == [True, True, True]
+    for page in manifest["pages"]:
+        page_image = tmp_path / page["image_path"]
+        assert page["image_sha256"] == ""
+        assert page["image_bytes"] == 0
+        assert not page_image.exists()
+
+    batch_path = write_source_prep_batches(tmp_path, max_pages=1, limit=1)
+    batch = json.loads(batch_path.read_text(encoding="utf-8"))["tasks"][0]
+    regenerated = ensure_source_prep_page_image(tmp_path, batch)
+
+    assert regenerated is not None
+    assert regenerated.exists()
+
+
 def test_prepare_raw_sources_adds_requested_pdf_page_range_when_source_has_existing_jobs(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -1038,6 +1070,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "Install Docling discovery dependencies" in workflow
     assert "https://download.pytorch.org/whl/cpu" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
+    assert "--defer-page-images" in workflow
+    assert "--no-job-source-copy" in workflow
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
 
