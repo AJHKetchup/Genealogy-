@@ -1,0 +1,55 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83.codex.md",
+  "converted_sha256": "5ed4443d1a33eb1b65edc1dfca1d2a131f0928a80248b9ba3ae34ee215dcd21a",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "source_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-5ed4443d1a33-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 11938,
+      "sha256": "06f37caf0d8eb82d60fd251bfdc67f54c8d6b18a6a7215180a2396ad4bae36f9"
+    },
+    {
+      "chunk_id": "CHUNK-5ed4443d1a33-P0001-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83-codex/page-0001-chunk-02.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 2,
+      "chars": 11983,
+      "sha256": "50051ee9eb3c2533b96d8be566b765e1ad2911159fc434157138ebf4c8a38aa1"
+    },
+    {
+      "chunk_id": "CHUNK-5ed4443d1a33-P0001-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83-codex/page-0001-chunk-03.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 3,
+      "chars": 10532,
+      "sha256": "fb340de1903c39bf3e3bb747b5676fe6ae520c54085c7078c8b4a9088c0ce2ab"
+    },
+    {
+      "chunk_id": "CHUNK-5ed4443d1a33-P0001-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83-codex/page-0001-chunk-04.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 4,
+      "chars": 10925,
+      "sha256": "3441aba8a544dada51f256e8c0023df0b5ec4097d4318d6fd9b9b360f7836e5b"
+    }
+  ]
+}

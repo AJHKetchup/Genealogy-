@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-cddaf6bec23f-P0001-06
+chunk_id: CHUNK-30f403098674-P0001-06
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: cddaf6bec23f08c23b6db259ef101fe1ad609a789748de5fe3c4cbae9dc7f367
+converted_sha256: 30f403098674a38d6bfe0d7c19cf521eb114872ecd62cfed26f357f75a1b9b4d
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -10,6 +10,93 @@ page_start: 1
 page_end: 1
 part: 6
 ---
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
+
+## Page Metadata
+Page number: 13
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal articles in French, with headings for chapters and articles. The content flows from top to bottom.
+
+## Literal Transcription
+13
+
+CHAPITRE 2.—De l'organisation du travail.
+
+ARTICLE 28.
+
+La Puissance détentrice assumera l'entière responsabilité de l'en-
+tretien, des soins, du traitement et du paiement des salaires des
+prisonniers de guerre travaillant pour le compte de particuliers.
+
+ARTICLE 29.
+
+Aucun prisonnier de guerre ne pourra être employé à des travaux
+auxquels il est physiquement inapte.
+
+ARTICLE 30.
+
+La durée du travail journalier des prisonniers de guerre, y compris
+celle du trajet d'aller et de retour, ne sera pas excessive et ne devra,
+en aucun cas, dépasser celle admise pour les ouvriers civils de la
+région employés au même travail. Il sera accordé à chaque prison-
+nier un repos de vingt-quatre heures consécutives chaque semaine, de
+préférence le dimanche.
+
+CHAPITRE 3.—Du travail prohibé.
+
+ARTICLE 31.
+
+Les travaux fournis par les prisonniers de guerre n'auront aucun
+rapport direct avec les opérations de la guerre. En particulier, il est
+interdit d'employer des prisonniers à la fabrication et au transport
+d'armes ou de munitions de toute nature, ainsi qu'au transport de
+matériel destiné à des unités combattantes.
+
+En cas de violation des dispositions de l'alinéa précédent, les
+prisonniers ont la latitude, après exécution ou commencement d'exé-
+cution de l'ordre, de faire présenter leurs réclamations par l'intermé-
+diaire des hommes de confiance dont les fonctions sont prévues aux
+articles 43 et 44, ou, à défaut d'homme de confiance, par l'intermé-
+diaire des représentants de la Puissance protectrice.
+
+ARTICLE 32.
+
+Il est interdit d'employer des prisonniers de guerre à des travaux
+insalubres ou dangereux.
+
+Toute aggravation des conditions du travail par mesure disciplinaire
+est interdite.
+
+CHAPITRE 4.—Des détachements de travail.
+
+ARTICLE 33.
+
+Le régime des détachements de travail devra être semblable à celui
+des camps de prisonniers de guerre, en particulier en ce qui concerne
+les conditions hygiéniques, la nourriture, les soins en cas d'accident
+ou de maladie, la correspondance et la réception des colis.
+
+Tout détachement de travail relèvera d'un camp de prisonniers.
+Le commandant de ce camp sera responsable de l'observation, dans le
+détachement de travail, des dispositions de la présente Convention.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
@@ -198,91 +285,3 @@ Page number: 16
 
 ## Layout And Reading Order
 The page consists of a single column of text, primarily legal or regulatory articles in French. The page number "16" is centered at the top. The text is structured with chapter and article headings, followed by paragraphs of content. A small alphanumeric code appears at the bottom right.
-
-## Literal Transcription
-16
-
-Même si elles sont reconnues non fondées, elles ne pourront donner
-lieu à aucune punition.
-
-CHAPITRE 2.—Des représentants des prisonniers de guerre.
-
-ARTICLE 43.
-
-Dans toute localité où se trouveront des prisonniers de guerre,
-ceux-ci seront autorisés à désigner des hommes de confiance chargés
-de les représenter vis-à-vis des autorités militaires et des Puissances
-protectrices.
-
-Cette désignation sera soumise à l'approbation de l'autorité mili-
-taire.
-
-Les hommes de confiance seront chargés de la réception et de la
-répartition des envois collectifs. De même, au cas où les prisonniers
-décideraient d'organiser entre eux un système d'assistance mutuelle,
-cette organisation serait de la compétence des hommes de confiance.
-D'autre part, ceux-ci pourront prêter leurs offices aux prisonniers pour
-faciliter leurs relations avec les sociétés de secours mentionnées à
-l'article 78.
-
-Dans les camps d'officiers et assimilés, l'officier prisonnier de guerre
-le plus ancien dans le grade le plus élevé sera reconnu comme inter-
-médiaire entre les autorités du camp et les officiers et assimilés prison-
-niers. A cet effet, il aura la faculté de désigner un officier prisonnier
-pour l'assister en qualité d'interprète au cours des conférences avec les
-autorités du camp.
-
-ARTICLE 44.
-
-Lorsque les hommes de confiance seront employés comme travail-
-leurs, leur activité comme représentants des prisonniers de guerre
-devra être comptée dans la durée obligatoire du travail.
-
-Toutes facilités seront accordées aux hommes de confiance pour
-leur correspondance avec les autorités militaires et avec la Puissance
-protectrice. Cette correspondance ne sera pas limitée.
-
-Aucun représentant des prisonniers ne pourra être transféré sans
-que le temps nécessaire lui ait été laissé pour mettre ses successeurs
-au courant des affaires en cours.
-
-CHAPITRE 3.—Des sanctions pénales à l'égard des prisonniers de guerre.
-
-1.—DISPOSITIONS GÉNÉRALES.
-
-ARTICLE 45.
-
-Les prisonniers de guerre seront soumis aux lois, règlements et
-ordres en vigueur dans les armées de la Puissance détentrice.
-
-Tout acte d'insubordination autorisera à leur égard les mesures
-prévues par ces lois, règlements et ordres.
-
-Demeurent réservées, toutefois, les dispositions du présent chapitre.
-
-ARTICLE 46.
-
-Les prisonniers de guerre ne pourront être frappés par les autorités
-militaires et les tribunaux de la Puissance détentrice d'autres peines
-que celles qui sont prévues pour les mêmes faits à l'égard des militaires
-des armées nationales.
-
-E—201881
-
-## Images, Captions, And Visual Notes
-No meaningful images or visual notes are present on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text and markings on the page.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page. The page primarily contains text."}
-
-## Page Metadata
-- Page number: 17
-
-## Layout And Reading Order
-The page contains a single column of text, primarily composed of articles with multiple paragraphs. The page number "17" is centered at the top. The text flows from top to bottom, presenting legal articles in a structured manner.

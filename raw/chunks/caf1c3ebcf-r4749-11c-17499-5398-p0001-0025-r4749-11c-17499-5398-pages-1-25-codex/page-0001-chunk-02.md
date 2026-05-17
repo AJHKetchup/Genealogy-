@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a1c4fb3e2686-P0001-02
+chunk_id: CHUNK-df0d8db38b1f-P0001-02
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: a1c4fb3e26864710dc8987fd04a58280750fac090977d7a778ae457103262f83
+converted_sha256: df0d8db38b1fc6076333e3fa53b80733d53ef8e89b5259df68435b56da6850f6
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -10,6 +10,34 @@ page_start: 1
 page_end: 1
 part: 2
 ---
+
+## Literal Transcription
+
+```
+                                                                - 2 -
+
+                                        Je vous remercie de m'avoir fait parvenir le
+texte de la Loi N° 12.558 sur la protection des enfants
+d'âge scolaire; ce document sera également traduit et publié
+par les soins du Centre d'information. Quant au texte des
+projets de lois soumis actuellement au Congrès national pour
+établir le "régime de protection légale des mineurs" et la
+"protection des mineurs et l'extension de la compétence des
+tribunaux pour mineurs", ils seront déposés aux archives
+du Secrétariat, et il en sera fait mention dans le Rapport
+annuel en matière de protection de l'enfance qui sera publié
+en vue de la session de 1940 de la Commission consultative
+des questions sociales. J'espère que vous voudrez bien me
+prévenir si d'ici là ces projets sont devenus des lois.
+                                        Veuillez agréer, Monsieur le Ministre, les
+assurances de ma haute considération.
+
+                                        Pour le Secrétaire général,
+                                        Le Directeur des Sections du Trafic de l'opium
+                                        et des Questions sociales,
+
+                                        ERIC EINAR EKSTRAND
+```
 
 ## Images, Captions, And Visual Notes
 
@@ -251,41 +279,3 @@ Original page number: 2
 ## Layout And Reading Order
 
 The page contains a single column of typewritten text, primarily legal or administrative in nature, with articles and sub-points. A circular stamp is present on the left side of the page, overlapping the main text area. The text flows from top to bottom.
-
-## Literal Transcription
-
-```
-- 2 -
-
-///
-a), b) y c) del artículo anterior, estarán bajo la dirección
-de médicos y odontólogos, que serán designados preferentemen
-te de entre los profesionales de la región.- Las demás fun-
-ciones serán desempeñadas por los maestros y las visitadoras
-de higiene.- El personal afectado a estos servicios será
-permanente o temporario y será designado por el Poder Eje-
-cutivo a propuesta de la comisión y su remuneración se fija-
-rá por mes o de acuerdo con los servicios efectivos prestados
-o en ambas formas, según lo determine la comisión en cada ca
-so.-
-
-Art. 4º- El Consejo Nacional de Educación arbitrará los
-medios necesarios para asegurar la preparación de los maes-
-tros de su dependencia, a fin de que puedan practicar cura-
-ciones a los niños de su grado, si fueran enfermos de traco
-ma o de otras enfermedades de fácil tratamiento, bajo la
-vigilancia técnica correspondiente.-
-El servicio sanitario a cargo de los maestros se cumplirá
-de acuerdo a las instrucciones que impartirá la comisión.-
-
-Art. 5º- La comisión está facultada para:
-a) Convenir con los gobernadores de provincia o repar-
-ticiones encargadas de la educación pública, munici
-pios, instituciones nacionales y particulares de
-asistencia social, la obra sanitaria a realizar de
-acuerdo a las normas que se establezcan;
-b) Acordar todas las medidas tendientes a hacer más
-eficaz la ayuda a los escolares necesitados y esti-
-mular la acción de las sociedades cooperadoras que
-///
-```

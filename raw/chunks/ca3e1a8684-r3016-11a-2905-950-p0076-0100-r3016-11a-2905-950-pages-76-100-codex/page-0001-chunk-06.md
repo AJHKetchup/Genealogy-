@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3f9e61ea9836-P0001-06
+chunk_id: CHUNK-37db5cb4859d-P0001-06
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: 3f9e61ea9836509528ef52c75270e531bc23754ed8ed611e4227d238fa940953
+converted_sha256: 37db5cb4859d58c4fcf1097f84874f480b54480ddbdc983203f675aaec59c002
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -12,295 +12,209 @@ part: 6
 ---
 
 ## Literal Transcription
-
-X. La Croix-Rouge et la protection des populations civiles contre la guerre chimique
-(proposé par le Comité international de la Croix-Rouge et la Croix-Rouge des Serbes, Croates
-et Slovènes).
-
-XI. L'aviation et la Croix-Rouge (proposé par la Croix-Rouge italienne).
-
-XII. L'Institut International d'étude de matériel sanitaire (proposé par le Comité inter-
-national de la Croix-Rouge).
-
-XIII. Standardisation du matériel sanitaire (proposé par le Comité international de la
-Croix-Rouge).
-
-XIV. Etude des mesures propres à diminuer le nombre des disparus en temps de guerre
-(proposé par le Comité international de la Croix-Rouge).
-
-XV. Recrutement et formation des infirmières (proposé par le Comité international de la
-Croix-Rouge et la Croix-Rouge italienne).
-
-XVI. Proposition de munir le matériel des Sociétés nationales de la Croix-Rouge d'une
-marque d'identité reproduisant le nom et les initiales de la Société à laquelle appartient le
-matériel (proposé par la Croix-Rouge suédoise).
-
-XVII. Mode de protection de l'emblème de la Croix-Rouge en tout ce qui touche au
-personnel et au matériel sanitaire des services de santé des parties belligérantes (proposé par la
-Croix-Rouge polonaise).
-
-XVIII. Organisation internationale de la Croix-Rouge (proposé par le Comité international
-de la Croix-Rouge et nombre de Croix-Rouges nationales).
-
-Veuillez agréer, Monsieur le Ministre, l'expression de notre considération la plus distinguée.
-
-Pour le Comité central de la Croix-Rouge néerlandaise,
-
-HENRI,
-PRINCE DES PAYS-BAS,
-Président,
-G. VAN SLOOTEN,
-Secrétaire général.
-
-## Images, Captions, And Visual Notes
-There are small, faint handwritten marks in blue and red ink on the right margin of the page, next to items X, XI, and XIV. These appear to be checkmarks or underlines.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and relevant minor marks have been transcribed or noted.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content present on the page that would be useful as a standalone asset."}
-
-## Page Metadata
-Page number: 92
-
-## Layout And Reading Order
-The page is a cover for a publication, likely a booklet or pamphlet. It features a large, centrally aligned block of text providing the title and publisher information in three languages (English, French, and German/Dutch). Below this text block is a large illustration depicting a map of Holland and a woman in traditional Dutch attire, with the year "1928" prominently displayed. A stamp is overlaid on the upper right portion of this illustration. A small line of text at the very bottom indicates the printer. A hole is punched in the top left corner of the page.
-
-## Literal Transcription
-2905
-
-LIST of HOTELS in HOLLAND
-PUBLISHED BY
-The Official Tourist Office, The Hague, 102 Lange Voorhout
-
-LISTE d'HÔTELS en HOLLANDE
-PUBLIÉE PAR
-Le Bureau Officiel du Tourisme, La Haye, 102 Lange Voorhout
-
-HOTELVERZEICHNIS von HOLLAND
-HERAUSGEGEBEN VOM
-Offiziellen Verkehrsverein, Haag, Lange Voorhout 102
-
-[Illustration of map of Holland and woman in traditional dress]
-[Overlaid stamp:]
-ACTION
-COPY
-RECEIVED IN
-REGISTRY
-21 JUN 1928
-
-1928
-
-PRINTED BY EDUARD IJDO, LEIDEN-HOLLAND.
+| HOTELS. | N. | C. 1<br>Min. | C. 1<br>Max. | C. 2<br>Min. | C. 2<br>Max. | B. 1<br>Min. | B. 1<br>Max. | B. 2<br>Min. | B. 2<br>Max. | P. 1<br>Min. | P. 1<br>Max. | P. 2 | L. | D. |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **ALKMAAR.** | | | | | | | | | | | | | | |
+| de Burg .......... | 24 | — | 3.50 | — | 7.— | — | — | — | — | — | 8.— | — | 2.50 | 3.50 |
+| † Guldenvlies ...... | 14 | 2.50 | 5.— | — | 6.— | — | — | — | — | 4.50 | 5.— | — | 1.50 | 2.50 |
+| Proot * .......... | 24 | 4.— | 5.— | 8.— | 10.— | 5.— | 6.— | 10.— | 12.— | 8.— | — | — | 2.50 | 2.50 |
+| **ALMELO.** | | | | | | | | | | | | | | |
+| de Gouden Leeuw * | 31 | — | 3.50 | — | 7.— | — | — | — | — | — | — | — | 2.50 | — |
+| Grimme .......... | 16 | 2.50 | — | — | — | — | — | — | — | 4.50 | — | — | 1.— | 2.— |
+| Vastert * ........ | 30 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | — | — | — | 3.— | — |
+| **AMERSFOORT.** | | | | | | | | | | | | | | |
+| Berg * ............ | 35 | — | 3.50 | — | 7.— | — | 4.50 | — | 8.— | — | 7.— | 6.— | 2.— | 3.— |
+| Monopole * ........ | 40 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 2.— |
+| Nationaal ........ | 9 | — | 3.— | — | 6.— | — | — | — | — | — | 6.— | — | 1.25 | 2.— |
+| de Witte * ........ | 18 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 1.75 |
+| de Zwaan ........ | 20 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 2.— |
+| **AMSTERDAM.** | | | | | | | | | | | | | | |
+| American * ........<br>28 Leidscheplein. | 100 | 3.— | 5.— | 6.— | 10.— | 5.50 | 8.— | 10.— | 14.— | — | — | — | 2.50 | 4.50 |
+| Amstel * ..........<br>1 Tulpplein | 182 | 7.75 | 10.75 | 15.50 | 21.50 | 10.75 | 11.75 | 21.— | 26.— | 15.— | 20.— | — | 3.— | 5.— |
+| Boston * ..........<br>93 Leidschekade. | 70 | 3.25 | 4.50 | 7.— | 9.— | — | — | 10.— | 12.— | 7.— | 9.— | — | 2.— | 2.50 |
+| Brack's Doelen * ..<br>24 N. Doelenstraat. | 100 | 6.50 | 9.50 | 13.— | 16.— | 11.50 | 14.— | 19.— | 25.— | 15.— | — | — | 3.— | 4.— |
+| City * ............<br>46 Rembrandtplein | 30 | 4.— | 5.— | — | 10.— | — | — | — | 11.— | 10.— | 12.50 | — | 2.— | 3.— |
+| du Commerce ......<br>45 Kalvestraat. | 50 | 3.— | 5.— | 6.— | 10.— | — | — | — | — | 7.— | 10.— | — | 1.50 | 1.75 |
+| de l'Europe * ......<br>2 Doelenstraat. | 135 | 6.— | 10.— | 16.— | 20.— | 11.50 | 15.— | 21.— | 25.50 | 12.50 | 16.— | 11.50 | 2.50 | 4.— |
+| Fleissig * ........<br>123 Warmoesstraat. | 120 | 3.50 | 4.50 | 7.— | 9.— | 5.— | 6.— | 10.— | 12.— | — | — | — | 1.75 | 1.75 |
+| de Haas * ........<br>23 Tesselschadestr. | 58 | 4.— | 7.50 | 8.— | 16.— | 5.— | 8.50 | 16.— | 20.— | 8.— | 12.— | — | 2.— | 2.75 |
+| Krasnapolsky * ....<br>171 Warmoesstraat. | 135 | 4.50 | 5.50 | 9.— | 11.— | 7.50 | 9.— | 12.50 | 14.— | 9.50 | — | — | 2.— | 3.— |
+| Métropole * ......<br>22 Rembrandtplein. | 28 | 2.50 | 3.— | 5.— | 6.— | 3.25 | 3.75 | 6.50 | 7.50 | 5.— | 6.— | — | 0.90 | 1.50 |
+| Neuf * ............<br>41 Kalverstraat. | 35 | 3.75 | 4.— | — | — | — | — | — | — | — | — | — | 1.50 | 1.75 |
+| des Pays-Bas * ....<br>11 Doelenstraat. | 80 | 8.50 | 9.50 | 14.— | 15.50 | 10.— | 11.— | 18.— | 21.50 | 15.50 | 16.50 | — | 2.50 | 4.50 |
+| Polen * ..........<br>Rokin/Kalverstr. | 85 | 4.— | 7.— | 8.— | 12.— | — | — | — | — | 8.50 | 11.25 | — | 1.75 | 2.50 |
+| de Roemer ........<br>39 Heiligenweg. | 12 | 3.— | — | 6.— | — | — | — | — | — | 6.25 | 7.— | — | 1.50 | 1.75 |
+| de Roode Leeuw *<br>93 Damrak. | 89 | 4.50 | — | 9.— | — | — | — | — | — | — | — | — | 2.— | 3.— |
+| Rotterdam ........<br>14-16 Weesperplein | 45 | 2.50 | 3.— | 5.— | 6.— | — | — | — | — | — | — | — | 1.50 | 1.75 |
+| Schiller * ........<br>28 Rembrandtplein | 110 | 4.50 | 5.50 | 8.— | 9.— | 5.50 | 6.50 | — | 11.50 | 10.— | — | — | 2.50 | — |
+| Stadt Elberfeld * ..<br>141 O.Z. Achterbw. | 50 | 3.— | 4.— | 6.— | 8.— | 4.— | 5.— | 8.— | 10.— | 6.50 | 7.50 | — | 1.75 | 2.50 |
+| Suisse * ..........<br>22-26 Kalverstraat. | 120 | 3.50 | 4.50 | 8.— | 9.— | — | — | — | 11.— | — | 9.— | — | 1.75 | 2.75 |
+| Terminus * ........<br>111 Warmoesstraat | 75 | 3.— | 4.— | 6.— | 8.— | — | — | — | — | 6.— | 7.50 | — | 1.50 | 1.75 |
+| Victoria * ........<br>1 Damrak. | 300 | 4.50 | 10.— | 9.— | 16.— | 11.— | 15.— | 16.— | 25.— | — | — | — | 3.— | 5.— |
 
 ## Images, Captions, And Visual Notes
-Pipeline-extracted visual crops:
-- ![converter-description: Illustration of a map of Holland with a woman in traditional Dutch dress and the year 1928. Small initials 'RIOS AM/M' are visible near the woman's elbow.](../extracted-images/page-0092/page-0092-image-01-illustration-holland-map-woman-1928.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [12.5, 39.5, 87.5, 88.0]
-  - Source context: Main illustration on the cover page.
-- ![source-field: ACTION COPY
-RECEIVED IN
-REGISTRY
-21 JUN 1928](../extracted-images/page-0092/page-0092-image-02-stamp-action-copy-received-1928.png)
-  - Kind: stamp; label basis: source-field; bbox_pct: [57.0, 40.0, 83.0, 57.0]
-  - Source context: Stamp overlaid on the illustration.
-
-The page features a large illustration (inline_anchor: `illustration_holland_map_woman_1928`) that occupies the majority of the lower half of the page. It shows a stylized map of the Netherlands in the background. In the foreground, to the right, is a woman dressed in traditional Dutch clothing, including a cap, a dark dress, an apron, and wooden clogs. Her hands are on her hips. To the lower left of the illustration, the year "1928" is printed in large, bold numbers. Near the woman's right elbow, there are small initials or a signature that appears to read "RIOS" above "AM/M".
-
-Overlaid on the upper right portion of this illustration is a rectangular stamp (inline_anchor: `stamp_action_copy_received_1928`). The stamp contains the text "ACTION COPY", "RECEIVED IN", "REGISTRY", and the date "21 JUN 1928".
+There are no images, illustrations, or photographs on this page. The page consists entirely of a printed table.
 
 ## Uncertain Or Illegible
-The small initials/signature near the woman in the illustration are somewhat stylized and could be interpreted slightly differently, but "RIOS AM/M" seems the most plausible reading.
+The entire page is clearly printed and fully legible.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.
+This page has been fully and completely transcribed.
 
 ## Visual Region Manifest
 ```json
 {
-  "visual_regions": [
-    {
-      "region_id": "illustration_holland_map_woman_1928",
-      "kind": "illustration",
-      "bbox_pct": [12.5, 39.5, 87.5, 88.0],
-      "caption_literal": "Illustration of a map of Holland with a woman in traditional Dutch dress and the year 1928. Small initials 'RIOS AM/M' are visible near the woman's elbow.",
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Main illustration on the cover page.",
-      "confidence": 0.95,
-      "suggested_filename": "illustration_holland_map_woman_1928.png",
-      "inline_anchor": "illustration_holland_map_woman_1928"
-    },
-    {
-      "region_id": "stamp_action_copy_received_1928",
-      "kind": "stamp",
-      "bbox_pct": [57.0, 40.0, 83.0, 57.0],
-      "caption_literal": "ACTION COPY\nRECEIVED IN\nREGISTRY\n21 JUN 1928",
-      "caption_type": "source-field",
-      "identity_basis": null,
-      "source_context": "Stamp overlaid on the illustration.",
-      "confidence": 1.0,
-      "suggested_filename": "stamp_action_copy_received_1928.png",
-      "inline_anchor": "stamp_action_copy_received_1928"
-    }
-  ]
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only a large table of printed text and has no images, illustrations, or other distinct visual elements."
 }
 ```
 
 ## Page Metadata
-Page number: 93
+- Page number: 95
 
 ## Layout And Reading Order
-
-The page presents information in two main columns. The left column, which occupies about two-thirds of the page width, contains a large block of text detailing travel arrangements and hotel abbreviations, followed by contact information in three languages. The right column, occupying the remaining third, is mostly cut off, but appears to contain a list of names or establishments, likely hotels, with associated addresses or numbers. The content is structured with headings, subheadings, and bulleted/numbered lists.
+This page is a two-column table listing hotels and their prices in various cities in the Netherlands. The left column is fully visible, while the right column is partially cut off. The reading order is top-to-bottom for the left column, then top-to-bottom for the right column. A footnote is present at the bottom of the left column.
 
 ## Literal Transcription
+<div class="grid-container" style="--grid-columns: 2; --grid-gap: 2rem;">
+<div class="grid-item">
 
-For your travelarrangements in Holland
-apply to
-**THE NATIONAL TOURIST ORGANISATIONS:**
+| HOTELS. | N. | C. 1 | | C. 2 | | B. 1 | | B. 2 | | P. 1 | | P. 2 | L. | D. |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| | | Min. | Max. | Min. | Max. | Min. | Max. | Min. | Max. | Min. | Max. | | | |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **APELDOORN.** | | | | | | | | | | | | | | |
+| Bloemink * ............ | 100 | — | 4.— | — | 8.— | — | 5.— | — | 10.— | 7.— | 7.50 | 6.50 | 2.25 | 3.50 |
+| van der Burg * ........ | 60 | 3.50 | 7.— | 7.— | 12.— | — | — | — | — | — | — | — | 2.50 | 3.50 |
+| de l'Europe ............ | 20 | 3.— | — | 6.— | — | — | — | — | — | — | — | — | 1.75 | 2.50 |
+| de Keizerskroon * ..... | 60 | 4.50 | 5.— | 9.— | 10.— | — | — | — | — | 7.— | 9.— | — | 2.50 | 3.50 |
+| Zeelandia .............. | 28 | 2.75 | — | 5.50 | — | — | — | — | — | 5.— | — | — | 1.75 | 2.25 |
+| **ARNHEM.** | | | | | | | | | | | | | | |
+| Bristol * .............. | 60 | 3.25 | 3.75 | 6.50 | 7.50 | — | — | — | — | 6.— | 7.50 | — | 2.— | 2.— |
+| Continental * ......... | 40 | 3.— | 3.50 | 6.— | 7.— | 4.— | 4.25 | 7.50 | 8.50 | — | — | — | 1.50 | 2.50 |
+| Oranje Nassau * ....... | 70 | 3.75 | 5.50 | 7.50 | 12.— | 5.50 | 6.50 | 10.— | 12.50 | 8.— | 9.50 | — | 2.50 | 3.— |
+| de Pauw ................ | 50 | 3.— | — | 5.50 | — | — | — | — | — | 5.— | — | 5.— | 1.75 | 2.75 |
+| des Pays-Bas * ........ | 110 | 3.50 | 5.— | 7.— | 10.— | 7.— | 9.— | 12.— | 14.— | 6.— | 10.— | — | 2.50 | 2.50 |
+| Plaza .................. | 30 | 2.50 | 3.50 | 5.— | 6.— | — | — | — | — | 5.— | — | 4.— | 1.10 | 1.75 |
+| Riche * ................ | 45 | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | — | — | — | 1.50 | 2.— |
+| du Soleil * ............ | 75 | 3.50 | 6.— | 7.— | 12.— | 6.— | 7.50 | 11.— | 14.50 | 7.— | 8.50 | — | 1.75 | 2.50 |
+| Sonsbeek ............... | 38 | 4.50 | 5.— | 9.— | 10.— | — | — | — | — | 7.50 | 10.— | 6.— | 2.25 | 3.50 |
+| **ASSEN.** | | | | | | | | | | | | | | |
+| de Jonge ............... | 16 | — | 2.50 | — | 5.— | — | — | — | — | 3.75 | 4.50 | — | 1.25 | 2.25 |
+| Park * ................. | 70 | — | 3.50 | 7.— | — | 4.50 | — | 8.— | — | 5.— | 6.50 | — | 1.50 | 2.25 |
+| Somer ...................| 30 | 3.— | 3.50 | 6.— | 6.50 | 3.75 | — | 6.75 | 7.25 | 4.50 | 5.— | — | 1.25 | 2.— |
+| Stationskoffiehuis. .... | 12 | — | 3.— | — | 6.— | — | — | — | — | 5.— | — | 1.— | 2.25 |
+| **BAARN.** | | | | | | | | | | | | | | |
+| Central ................ | 60 | 3.— | 4.— | 6.— | 8.— | — | — | — | — | 6.50 | 7.50 | — | 2.— | 2.50 |
+| Zeiler * ............... | 60 | 3.50 | 5.— | 7.— | 10.— | — | — | — | — | 7.— | 9.— | — | 2.50 | 3.50 |
+| **BENNEKOM.** | | | | | | | | | | | | | | |
+| Neder-Veluwe * ......... | 42 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.50 | 6.50 | 5.— | 2.— | 3.— |
+| **BERG EN DAL.** | | | | | | | | | | | | | | |
+| Groot Berg en Dal ..... | 200 | 4.— | 5.— | 8.— | 10.— | — | — | — | — | 7.— | 10.— | 6.50 | 2.50 | 3.50 |
+| **BERGEN a/ZEE 1).** | | | | | | | | | | | | | | |
+| Nassau-Bergen * ....... | 110 | 3.25 | 6.25 | 7.50 | 12.50 | — | — | 12.— | 16.50 | 8.— | 13.— | 7.— | 2.50 | 4.50 |
+| Trianon * .............. | 36 | 3.50 | — | 7.— | 10.— | — | — | — | — | 8.— | 10.— | 6.— | 2.50 | 3.50 |
+| **BERGEN (N.H.)** | | | | | | | | | | | | | | |
+| Erica .................. | 40 | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | 6.50 | 7.50 | 5.— | 2.— | 2.50 |
+| Kreb * ................. | 55 | 4.— | 5.— | 8.— | 10.— | — | — | — | — | 7.— | 9.— | 6.— | 2.50 | 3.50 |
+| Oranje ................. | | | | | | | | | | | | | | |
+| **BERGEN OP ZOOM** | | | | | | | | | | | | | | |
+| de Gouden Leeuw* ...... | 28 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.— | 5.50 | — | — | 2.50 |
+| **BLOEMENDAAL.** | | | | | | | | | | | | | | |
+| Duin en Daal * ........ | 110 | 4.— | 6.— | 7.— | 12.— | 7.50 | 10.— | 10.— | 14.— | 7.— | 10.— | 6.— | 2.25 | 3.50 |
+| Iepenhove * ............ | 30 | 2.50 | 3.— | 5.— | 6.— | — | — | 7.— | 7.— | 5.— | 5.— | — | 1.50 | 2.50 |
+| **BOSKOOP.** | | | | | | | | | | | | | | |
+| Klaassen ............... | 10 | 3.50 | — | 7.— | — | — | — | — | — | 6.50 | — | — | 2.50 | 3.— |
+| **BREDA.** | | | | | | | | | | | | | | |
+| Cosmopolite ............ | 50 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 6.— | 6.— | — | 1.75 | 2.50 |
+| de Kroon * ............. | 55 | 3.50 | 5.— | 7.— | 10.— | — | — | — | — | 6.50 | 7.— | — | — | 2.75 |
+| Oranje * ............... | 28 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.50 | — | — | 1.75 | 2.50 |
+| de Schuur * ............ | 21 | 2.50 | 3.— | 6.— | 6.— | — | — | — | — | 5.— | 5.— | — | 1.75 | 2.— |
+| **BRIELLE.** | | | | | | | | | | | | | | |
+| de Nymph ............... | 22 | 2.50 | 2.75 | 5.— | 5.50 | — | — | — | — | — | — | — | — | 2.— |
+| | | | | | | | | | | | | | | |
+| 1) Season July 15th—Sept. 1st. | | | | | | | | | | | | | | |
 
-| Lissone & Son's Travelbureau Ltd | Lindeman's Tourist Offices Ltd. |
-| :------------------------------- | :------------------------------ |
-| Head office: Leidschestraat 5    | Head office: Groenmarkt 22      |
-|                                  | **— THE HAGUE. —**              |
-| Branch office: Dam 10            | Branch offices:                 |
-| **— AMSTERDAM —**                | Rotterdam, Utrecht,             |
-|                                  | Arnhem, Haarlem, Groningen,     |
-|                                  | Leeuwarden.                     |
+</div>
+<div class="grid-item">
 
-General-Agents for Holland of the Netherlands Railways.
-Ticket-depositories to all European Railways.
-Sightseeing in Amsterdam and The Hague by char-a-bancs.
-Excursions. – Private Motorboats.
-Automobiles de Luxe. – - Lecturer-Guides. -
-Change.
-ALL INFORMATION GRATIS.
+| H |
+|---|
+| **DEN B** |
+| de Linc |
+| Texel |
+| |
+| **B** |
+| Bosch v |
+| Nieuw |
+| de Roz |
+| |
+| **D** |
+| de Zwaa |
+| |
+| **D** |
+| Central |
+| Wilhelm |
+| |
+| **DEV** |
+| de Enge |
+| de Wer |
+| het Wil |
+| van We |
+| |
+| **D** |
+| de Kroo |
+| de Nieu |
+| |
+| **DOET** |
+| Heerenlo |
+| |
+| **DOM** |
+| Badhote |
+| Hotel d |
+| Juliana |
+| het Sch |
+| Strandh |
+| |
+| **D** |
+| Cecil * |
+| Pabst |
+| |
+| **DOR** |
+| Bellevue |
+| N. A. B |
+| Ponsen * |
+| |
+| **EDE** |
+| Buitenzo |
+| Welgeleg |
+| |
+| **EIND** |
+| du Comm |
+| Royal * |
+| |
+| **ELL** |
+| Brinkhor |
+| |
+| 1) Se |
 
-This list is in alphabetic order.
-
-**HOTELS IN HOLLAND.**
-ABREVIATIONS:
-
-N. = Nombre de lits = Number of beds = Anzahl Betten.
-
-C. 1. = Chambre à un lit avec petit dejeuner = Single bedroom with continen-
-tal breakfast = Zimmer mit einem Bette, einschlieszlich Frühstück.
-
-C. 2. = Chambre à deux lits avec petit dejeuner = Double bedroom with conti-
-nental breakfast = Zimmer mit zwei Betten, einschlieszlich Frühstück.
-
-B. 1. = Chambre à un lit et chambre à bain avec petit dejeuner = Single
-bedroom with bathroom and continental breakfast = Zimmer mit einem
-Bette, Badezimmer einschlieszlich Frühstück.
-
-B. 2. = Chambre à deux lits et chambre à bain avec petit dejeuner = Double
-bedroom with bathroom and continental breakfast = Zimmer mit zwei
-Betten, Badezimmer einschlieszlich Frühstück.
-
-P. 1. = Chambre avec pension par jour = Pension (board and lodging) per
-day, room included = Zimmer mit pension pro Tag.
-
-P. 2. = Chambre avec pension par jour avant et après la saison = Pension
-(board and lodging) per day, room included, before and after season =
-Zimmer mit pension pro Tag, vor und nach der Hochsaison.
-
-L. = Déjeuner = Luncheon = Gabelfrühstück.
-
-D. = Diner = Dinner = Diner (Abendessen).
-\* Eau courante = Running water = Fliesendes Wasser.
-
-1 Florin = 20 d. (approx) = $0,4 (approx) = Goldmark 1.70.
-
-Pour toutes informations ou plaintes s'adresser au Bureau Officiel du
-Tourisme, 102 Lange Voorhout, La Haye.
-
-For information or complaints please apply to the Official Information
-Office for Tourists, 102 Lange Voorhout, The Hague.
-
-Für Auskunft oder Beschwerden wird man gebeten sich zu wenden an
-das Offizielle Verkehrsbüro, Lange Voorhout 102, Haag.
-
-**[Right Column - Partial]**
-H
-AL
-de Bur
-'t Guld
-Proot \*
-AL
-de Gou
-Grimm
-Vastert
-AME
-Berg \*
-Monopo
-Nationa
-de Wit
-de Zwa
-AMS
-Americ
-28 Le
-Amstel
-1 Tulp
-Boston
-93 Le
-Brack's
-24 N.
-City \*
-46 Re
-du Con
-45 Ka
-de l'Eu
-2 Doe
-Fleissig
-123 W
-de Haa
-23 Tes
-Krasnap
-171 W
-Métropo
-22 Ke
-Neuf \*
-41 Ka
-des Pay
-11 Doe
-Polen \*
-Rokin/
-de Roe
-39 He
-Schiller
-28 Re
-Stadt
-141 O
-Suisse
-123 W
-Terminu
-111 W
-Victoria
-1 Dam
+</div>
+</div>
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+The page consists of a two-column table listing hotels and their prices. The paper has a yellowish tint, indicating age. There are no images, illustrations, or photographs on this page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+There are no uncertain or illegible parts on the visible portion of the page. The right-hand column is physically cut off, making the text in that column incomplete.
 
 ## Completeness Audit
-The transcription is complete for all visible text on the page. The right-hand column is significantly cut off, and only partial entries could be transcribed.
+The visible content of the page has been fully transcribed. The right-hand column is incomplete due to being cut off in the source image.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like portraits, maps, or diagrams. The page consists primarily of text and structured textual information."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a tabular format. There are no images, illustrations, or other visual elements that would be useful as standalone assets."}
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0094`
-- Source: `raw/sources/R3016-11A-2905-950.pdf`
-- Page: 94
-
-## Layout And Reading Order
-The page consists of a single, large table listing hotels and their rates in various Dutch cities. The reading order is from top to bottom, row by row. City names act as section headers within the table.
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0096`
+- Page: 96

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4cda26f3ff48-P0001-05
+chunk_id: CHUNK-46e6363fc501-P0001-05
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md
-converted_sha256: 4cda26f3ff483bb470c57ba259f310e74ad54a799f68c053792825e1f7098f62
+converted_sha256: 46e6363fc501073b50de16dd83f0bde83d2babb80eb9329dd93b0a81282d4d1b
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json
@@ -11,74 +11,71 @@ page_end: 1
 part: 5
 ---
 
-## Layout And Reading Order
-
-The page presents a two-column list of names, addresses, and associated cities. The content flows from the top of the left column to the bottom, then continues at the top of the right column. A page number is present at the bottom right of the page.
-
 ## Literal Transcription
 
-| Name                                | Address                           | City          |
-| :---------------------------------- | :-------------------------------- | :------------ |
-| Talma Oyaneder, Rafael              | Independencia 667                 | Linares       |
-| Tallman Valenzuela, Benjamín        | Curicó 15, Depto. 9               | Santiago      |
-| Tallman Valenzuela, Eduardo         | Avda. Gral. Bustamante 208 B      | Santiago      |
-| Tallman Villalón, Eduardo           | Edificio Prales Dep. 203          | Valparaíso    |
-| Tamargo Iribarría, Arturo           | J. Victorino Lastarria 16         | Santiago      |
-| Tamargo Iribarría, Juan             | Avda. Pocuro 2850                 | Santiago      |
-| Tannenbaum Berman, Adolfo           | Agua Santa 765                    | Valdivia      |
-| Tapia Araya, Ana I.                 | Porvenir 372                      | Santiago      |
-| Tapia Araya, Aniceto                | Parcela Tocornal Nº 8             | Puente Alto   |
-| Tapia Caballero, Mario              | San Antonio 427, Dp. 716          | Santiago      |
-| Tapia Carrasco, Jorge               | Juan Antonio Ríos 33              | Santiago      |
-| Tapia Carrasco, Julio               | Avda. Francia 1566                | Santiago      |
-| Tapia Cavanilla, Miguel             | Luis Pereira 487                  | Santiago      |
-| Tapia Chávez, Raúl                  | Gamero 1270                       | Santiago      |
-| Tapia de la Maza, Miguel            | José Tomás Rider 1122             | Santiago      |
-| Tapia Fernández, Carlos             | Avda. Gral. Bustamante 32, Depto. 3 | Santiago      |
-| Tapia Ite, Andrés                   | Caupolicán 200                    | Los Vilos     |
-| Tapia Jiménez, Jorge                | Arturo Prat 798                   | Santiago      |
-| Tapia Mercado, Octavio              | Condell 1530, Of. 43              | Valparaíso    |
-| Tapia Muñoz, Luis                   | Granada 2119                      | Santiago      |
-| Tapia Romero, Alfredo               | 3 Oriente 1676                    | Talca         |
-| Tapia Salgado, René                 | Aldunate 469                      | Castro        |
-| Taricco Salazar, Domingo            | 5 de Abril 507                    | Chillán       |
-| Taucher Schrettenbrunner, Erica     | Carmen Silva 2343                 | Santiago      |
-| Teitelman Germán, Angel             | Cóndor 856                        | Tocopilla     |
-| Tejeda Lawrence, Alvaro             | Hospital                          | Santiago      |
-| Tejeda Moreira, Luis                | Carmen 340                        | Santiago      |
-| Telchi Giacomán, Jorge              | Miguel Claro 963 A                | Santiago      |
-| Téllez Aguirre, Rafael              | M. L. Santander 0261              | Santiago      |
-| Téllez Magaña, Juan                 | Paraguay 461                      | Santiago      |
-| Téllez Meneses, Agustín             | San Martín 149                    | Santiago      |
-| Tello Constanzo, Manuel             | Miguel Claro 645                  | Santiago      |
-| Tello Tello, Arturo                 | Monjitas 779                      | Santiago      |
-| Terrazas Orellana, Julio A.         | Pérez 234                         | Traiguén      |
-| Teuber Teuber, Wilfredo             | San Francisco 688                 | Puerto Varas  |
-| Tezanos-Pinto Schomburgh, Sergio de | Condell 1190, 5º Piso             | Valparaíso    |
-| Thénot Carret, Jacques              | Eliecer Parada 1445               | Santiago      |
-| Thibaut Figuelist, René             | Sotomayor 401                     | Coronel       |
-| Thierry Sorenson, Ida               | Santa Lucía 344 C                 | Santiago      |
-| Thomsen Martínez, José A.           | Los Plátanos 2602                 | Viña del Mar  |
-| Thomsen Martínez, Pablo             | Bellavista 284                    | Santiago      |
-| Thomsen Potts, Juan                 | 3 Norte 549                       | Viña del Mar  |
-|                                     |                                   | — 97          |
+| Name | Address | Location |
+| :--- | :--- | :--- |
+| Talma Oyaneder, Rafael | Independencia 667 | Linares |
+| Tallman Valenzuela, Benjamín | Curicó 15, Depto. 9 | Santiago |
+| Tallman Valenzuela, Eduardo | Avda. Gral. Bustamante<br>208 B | Santiago |
+| Tallman Villalón, Eduardo | Edificio Prales Dep. 203 | Valparaíso |
+| Tamargo Iribarría, Arturo | J. Victorino Lastarria 16 | Santiago |
+| Tamargo Iribarría, Juan | Avda. Pocuro 2850 | Santiago |
+| Tannenbaum Berman, Adolfo | Agua Santa 765 | Valdivia |
+| Tapia Araya, Ana I. | Porvenir 372 | Santiago |
+| Tapia Araya, Aniceto | Parcela Tocornal Nº 8 | Puente Alto |
+| Tapia Caballero, Mario | San Antonio 427, Dp. 716 | Santiago |
+| Tapia Carrasco, Jorge | Juan Antonio Ríos 33 | Santiago |
+| Tapia Carrasco, Julio | Avda. Francia 1566 | Santiago |
+| Tapia Cavanilla, Miguel | Luis Pereira 487 | Santiago |
+| Tapia Chávez, Raúl | Gamero 1270 | Santiago |
+| Tapia de la Maza, Miguel | José Tomás Rider 1122 | Santiago |
+| Tapia Fernández, Carlos | Avda. Gral. Bustamante<br>32, Depto. 3 | Santiago |
+| Tapia Ite, Andrés | Caupolicán 200 | Los Vilos |
+| Tapia Jiménez, Jorge | Arturo Prat 798 | Santiago |
+| Tapia Mercado, Octavio | Condell 1530, Of. 43 | Valparaíso |
+| Tapia Muñoz, Luis | Granada 2119 | Santiago |
+| Tapia Romero, Alfredo | 3 Oriente 1676 | Talca |
+| Tapia Salgado, René | Aldunate 469 | Castro |
+| Taricco Salazar, Domingo | 5 de Abril 507 | Chillán |
+| Taucher Schrettenbrunner, Erica | Carmen Silva 2343 | Santiago |
+| Teitelman Germán, Angel | Cóndor 856 | Santiago |
+| Tejeda Lawrence, Alvaro | Hospital | Tocopilla |
+| Tejeda Moreira, Luis | Carmen 340 | Santiago |
+| Telchi Giacomán, Jorge | Miguel Claro 963 A | Santiago |
+| Téllez Aguirre, Rafael | M. L. Santander 0261 | Santiago |
+| Téllez Magaña, Juan | Paraguay 461 | Santiago |
+| Téllez Meneses, Agustín | San Martín 149 | Santiago |
+| Tello Constanzo, Manuel | Miguel Claro 645 | Santiago |
+| Tello Tello, Arturo | Monjitas 779 | Santiago |
+| Terrazas Orellana, Julio A. | Pérez 234 | Traiguén |
+| Teuber Teuber, Wilfredo | San Francisco 688 | Puerto Varas |
+| Tezanos-Pinto Schomburgh,<br>Sergio de | Condell 1190, 5º Piso | Valparaíso |
+| Thénot Carret, Jacques | Eliecer Parada 1445 | Santiago |
+| Thibaut Figuelist, René | Sotomayor 401 | Coronel |
+| Thierry Sorenson, Ida | Santa Lucía 344 C | Santiago |
+| Thomsen Martínez, José A. | Los Plátanos 2602 | Viña del Mar |
+| Thomsen Martínez, Pablo | Bellavista 284 | Santiago |
+| Thomsen Potts, Juan | 3 Norte 549 | Viña del Mar |
+
+— 97
 
 ## Images, Captions, And Visual Notes
 
-A page number, "— 97", is present at the bottom right corner of the page.
+There are no images, captions, or other visual elements on this page beyond the text itself.
 
 ## Uncertain Or Illegible
 
-None.
+There are no uncertain or illegible portions of text on this page.
 
 ## Completeness Audit
 
-The transcription is complete and accurate, capturing all visible text and maintaining the original layout and reading order.
+The transcription is a complete and accurate representation of all text on the page.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page number is transcribed in the 'Images, Captions, And Visual Notes' section."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only textual data in a directory format with no significant visual elements like photographs, illustrations, or maps."}
 ```
 
 ## Page Metadata
@@ -261,8 +258,21 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
 ## Page Metadata
-Page number: 97
+
+- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0097`
+- Page: 100
 
 ## Layout And Reading Order
 
-The page presents a two-column directory listing. The left column contains names, and the right column contains corresponding addresses and cities. There is a horizontal separator "V" in the middle of the page, dividing the main list into two sections. At the bottom left, there is a page number.
+The page is a single column of text. The content is a directory listing of medical professionals, organized alphabetically. The page contains entries for surnames beginning with 'U' and 'V'.
+
+Each entry is arranged in three columns:
+1.  Name (Last Name, First Name)
+2.  Address
+3.  City
+
+A large, centered letter 'V' separates the 'U' entries from the 'V' entries.
+
+The page number "100" is at the bottom left corner.
+
+The reading order is top-to-bottom, following the alphabetical list.

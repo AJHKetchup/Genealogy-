@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-cddaf6bec23f-P0001-04
+chunk_id: CHUNK-30f403098674-P0001-04
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25.codex.md
-converted_sha256: cddaf6bec23f08c23b6db259ef101fe1ad609a789748de5fe3c4cbae9dc7f367
+converted_sha256: 30f403098674a38d6bfe0d7c19cf521eb114872ecd62cfed26f357f75a1b9b4d
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/manifest.json
@@ -10,6 +10,71 @@ page_start: 1
 page_end: 1
 part: 4
 ---
+
+## Literal Transcription
+6
+
+M. Roger de la Harpe, Lieutenant-Colonel des Troupes sanitaires,
+Médecin;
+M. Dietrich Schindler, Major de la Justice militaire, Professeur de
+Droit international à l'Université de Zurich;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE TCHÉCOSLOVAQUE:
+S. Exc. M. Zdeněk Fierlinger, Envoyé extraordinaire et Ministre
+plénipotentiaire de Tchécoslovaquie à Berne;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE TURQUE:
+S. Exc. Hassan Bey, Vice-Président de la Grande Assemblée
+nationale de Turquie, Vice-Président du Croissant-Rouge turc,
+S. Exc. Nusret Bey, Président du Conseil d'Etat de la République,
+Le Professeur Akil Moukhtar Bey, Dr en Médecine,
+Le Dr Abdulkadir Bey, Lieutenant-Colonel, Médecin militaire,
+Professeur à l'Ecole d'Application et à l'Hôpital de Gulhane;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE ORIENTALE DE L'URUGUAY:
+S. Exc. M. Alfredo de Castro, Envoyé extraordinaire et Ministre
+plénipotentiaire d'Uruguay à Berne;
+
+LE PRÉSIDENT DE LA RÉPUBLIQUE DES ÉTATS-UNIS DE VÉNÉZUÉLA:
+S. Exc. M. Caracciolo Parra-Pérez, Envoyé extraordinaire et
+Ministre plénipotentiaire de Vénézuéla à Rome,
+M. Ivan Manuel Hurtado-Machado, Chargé d'Affaires p.i. de
+Vénézuéla à Berne;
+
+Lesquels, après s'être communiqué leurs pleins pouvoirs, trouvés en
+bonne et due forme, sont convenus de ce qui suit:
+
+TITRE I. DISPOSITIONS GÉNÉRALES.
+
+ARTICLE PREMIER.
+
+La présente Convention s'appliquera, sans préjudice des stipula-
+tions du Titre VII:
+1) à toutes les personnes visées par les articles 1er, 2 et 3 du
+Règlement annexé à la Convention de La Haye concernant les lois et
+coutumes de la guerre sur terre, du 18 octobre 1907, et capturées par
+l'ennemi;*
+
+\* *Règlement annexé*: ART. 1er.—Les lois, les droits et les devoirs de la guerre
+ne s'appliquent pas seulement à l'armée, mais encore aux milices et aux corps de
+volontaires réunissant les conditions suivantes:
+1o d'avoir à leur tête une personne responsable pour ses subordonnés;
+2o d'avoir un signe distinctif fixe et reconnaissable à distance;
+3o de porter les armes ouvertement et
+4o de se conformer dans leurs opérations aux lois et aux coutumes de la
+guerre.
+
+Dans les pays où les milices ou des corps de volontaires constituent l'armée ou
+en font partie, ils sont compris sous la dénomination d'armée.
+ART. 2.—La population d'un territoire non occupé qui, à l'approche de l'ennemi,
+prend spontanément les armes pour combattre les troupes d'invasion, sans avoir
+eu le temps de s'organiser conformément à l'article premier, sera considérée
+comme belligérante si elle porte les armes ouvertement et si elle respecte les lois
+et coutumes de la guerre.
+ART. 3.—Les forces armées des Parties belligérantes peuvent se composer de
+combattants et de non-combattants. En cas de capture par l'ennemi les uns et
+les autres ont droit au traitement des prisonniers de guerre. [Footnote in the
+original.]
 
 ## Images, Captions, And Visual Notes
 There are no images or captions on this page.
@@ -205,83 +270,3 @@ Page 9
 
 ## Layout And Reading Order
 The page consists of a single column of text, primarily legal or regulatory articles in French, divided into chapters and articles. The page number "9" is centered at the top.
-
-## Literal Transcription
-
-9
-
-CHAPITRE PREMIER.—De l'installation des camps.
-
-ARTICLE 10.
-
-Les prisonniers de guerre seront logés dans des bâtiments ou dans
-des baraquements présentant toutes garanties possibles d'hygiène et
-de salubrité.
-Les locaux devront être entièrement à l'abri de l'humidité, suffi-
-samment chauffés et éclairés. Toutes les précautions devront être
-prises contre les dangers d'incendie.
-Quant aux dortoirs: surface totale, cube d'air minimum, aménage-
-ment et matériel de couchage, les conditions seront les mêmes que
-pour les troupes de dépôt de la Puissance détentrice.
-
-CHAPITRE 2.—De la nourriture et de l'habillement des prisonniers de
-guerre.
-
-ARTICLE 11.
-
-La ration alimentaire des prisonniers de guerre sera équivalente en
-quantité et qualité à celle des troupes de dépôt.
-Les prisonniers recevront, en outre, les moyens de préparer eux-
-mêmes les suppléments dont ils disposeraient.
-De l'eau potable en suffisance leur sera fournie. L'usage du tabac
-sera autorisé. Les prisonniers pourront être employés aux cuisines.
-Toutes mesures disciplinaires collectives portant sur la nourriture
-sont interdites.
-
-ARTICLE 12.
-
-L'habillement, le linge et les chaussures seront fournis aux prison-
-niers de guerre par la Puissance détentrice. Le remplacement et les
-réparations de ces effets devront être assurés régulièrement. En
-outre, les travailleurs devront recevoir une tenue de travail partout
-où la nature du travail l'exigera.
-Dans tous les camps seront installées des cantines où les prisonniers
-pourront se procurer, aux prix du commerce local, des denrées ali-
-mentaires et des objets usuels.
-Les bénéfices procurés par les cantines aux administrations des
-camps seront utilisés au profit des prisonniers.
-
-CHAPITRE 3.—De l'hygiène dans les camps.
-
-ARTICLE 13.
-
-Les belligérants seront tenus de prendre toutes les mesures d'hygiène
-nécessaires pour assurer la propreté et la salubrité des camps et pour
-prévenir les épidémies.
-Les prisonniers de guerre disposeront, jour et nuit, d'installations
-conformes aux règles de l'hygiène et maintenues en état constant de
-propreté.
-En outre, et sans préjudice des bains et douches dont les camps
-seront pourvus dans la mesure du possible, il sera fourni aux
-prisonniers pour leurs soins de propreté corporelle une quantité d'eau
-suffisante.
-Ils devront avoir la possibilité de se livrer à des exercices physiques
-et de bénéficier du plein air.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected. The page contains only text."}
-
-## Page Metadata
-Page number: 10
-
-## Layout And Reading Order
-The page presents a single column of text, structured into articles and chapters, with the page number at the top right. The content consists of legal or regulatory text in French.

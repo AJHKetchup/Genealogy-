@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6c1ac68a2681-P0001-06
+chunk_id: CHUNK-68d58dd6b55a-P0001-06
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75.codex.md
-converted_sha256: 6c1ac68a26813338b54873e7f6d5b94d3ff89b3cc5f557c9e6c78d213808e9c2
+converted_sha256: 68d58dd6b55acbd8f0e55c4f150ff653871ca2ce2aec9c7db4d258a9ad64fde5
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json
@@ -170,49 +170,51 @@ The transcription is complete and accurate. All text and visible formatting have
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were found on this page. The small mark in the margin is not significant enough to warrant a crop box."}
 
 ## Page Metadata
-Page 71
+
+- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75:p0071`
+- Page: 71
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
 
 ## Layout And Reading Order
-The page contains a block of typewritten text in French, centered on the upper half of the page, followed by a purple stamped name below the closing remarks.
+
+The page contains a single block of typed text, which appears to be the closing of a letter. The reading order is from top to bottom.
+
+1.  A block of typed text.
+2.  A stamped name below the text.
 
 ## Literal Transcription
+
 dans l'annexe au Recueil des Traités.
 
 Veuillez agréer, Monsieur le Ministre, les
 assurances de ma haute considération.
 
 Pour le Secrétaire Général,
+
 Le Conseiller Juridique
 du Secrétariat,
 
-J.A. BURRO[?]
+[STAMP]
+J.A. Bu[r?]eo
 
 ## Images, Captions, And Visual Notes
-A purple stamp appears below the closing remarks, containing the name "J.A. BURRO[?]". The last letter is faded and difficult to discern with certainty, but appears to be an 'O'.
+
+- A rectangular stamp in purple ink is present below the typed text. It contains the name "J.A. Bu[r?]eo". The last name is very faint.
 
 ## Uncertain Or Illegible
-- The last letter of the name in the purple stamp is faded and difficult to read. It appears to be an 'O', but could potentially be an 'S'. Transcribed as "BURRO[?]".
+
+- `Bu[r?]eo`: The last name in the stamp is very faint and difficult to read with certainty. Other possible readings include `Burgo`, `Burno`, or `Burns`.
 
 ## Completeness Audit
-All visible text and visual elements have been transcribed or noted.
+
+This page has been fully transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
-  "visual_regions": [
-    {
-      "region_id": "stamp_001",
-      "kind": "stamp",
-      "bbox_pct": [33.3, 53.0, 37.0, 74.9],
-      "caption_literal": "J.A. BURRO[?]",
-      "caption_type": "source-field",
-      "identity_basis": "name",
-      "source_context": "Purple stamp containing a name below the closing remarks.",
-      "confidence": "medium",
-      "suggested_filename": "stamp_J_A_BURRO",
-      "inline_anchor": "J.A. BURRO[?]"
-    }
-  ]
+  "visual_regions": [],
+  "no_visual_regions_reason": "The only visual element is a small, faded name stamp, which is transcribed in the text and does not warrant a separate crop."
 }
 ```
 
@@ -269,3 +271,6 @@ de la Société des Nations
 - The text within the purple stamp above "REGISTRY" is partially obscured and illegible, possibly "SECTION".
 - The signature is illegible.
 - The handwritten note "Coll'é" to the left of the signature is slightly faded but legible.
+
+## Completeness Audit
+All visible text and significant visual elements on the page have been transcribed or described.

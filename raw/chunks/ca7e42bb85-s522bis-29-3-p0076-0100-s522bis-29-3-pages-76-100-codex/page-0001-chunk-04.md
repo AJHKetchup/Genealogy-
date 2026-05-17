@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ec9d78878adc-P0001-04
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-04
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ec9d78878adcc8475176c0af7c31afe36fdfa029cb06428fdc10047cf0941515
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -174,153 +174,55 @@ The transcription is complete and includes all visible text on the page, preserv
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100:p0082`
-- Page: 82
+
+- **Page number**: 82
+- **Source identifier**: S522bis-29-3
+- **Image filename**: `ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100_p0082.png`
+- **Page dimensions**: 3300x4200
+- **Extraction date**: 2024-06-13 16:00:00
+- **Conversion engine**: `anthropic-claude-3.5-sonnet-20240620`
+- **Reviewer**: `system`
 
 ## Layout And Reading Order
-The page features a header at the top, followed by the main content presented in two columns. The reading order proceeds from the left column to the right column, top to bottom.
 
-## Literal Transcription
-1694                                CAMARA DE DIPUTADOS                                Septiembre 21/
+This page is a two-column document. The reading order is from top to bottom of the left column, followed by the top to bottom of the right column.
 
-ximo, y que a las 5 de la tarde el presidente
-ponga a votación las modificaciones hechas por
-la comisión a objeto de que no se haga ningu-
-na discusión al respecto. Así a las 5 y 10 po-
-dríamos terminar con este asunto. Es esta una
-cuestión que los señores diputados deben haber
-estudiado y seguido en la discusión del senado.
-Se trata de reformas de mucha importancia
-en que todos los diputados deben tener ya un
-criterio jurídico hecho, que no vendrán a co-
-nocer aquí en la cámara desde que se trata
-de un parlamento de personas ilustradas, y
-discutir largamente el asunto después de la
-discusión básica hecha al sancionar el proyec-
-to sería perder lamentablemente el tiempo. Mi
-moción no sería pues una moción mordaza: a
-las 5 de la tarde podría ser tratado sin dis-
-cusión.
-Sr. Rodeyro. — Pido la palabra.
-Sr. Demaría. — Yo no puedo aceptar, y sien-
-to mucho que no pueda dar mi voto por la indi-
-cación del señor diputado Ferreyra. Compren-
-do que es exacto lo que él dice...
-Sr. Presidente (Goyeneche). — Permítame
-el señor diputado. Había solicitado la palabra
-el señor diputado por la Capital.
-Sr. Rodeyro. — Cuando hice la moción de
-que se tratara hoy el código penal, lo hice en
-el deseo de que la cámara le diera su sanción de
-inmediato. Hecha la moción el señor diputado
-Ferreyra vendría a concordar con mi propósi-
-to y a facilitar que ella tuviera mayoría en la
-cámara si como ha dicho el señor diputado De-
-maría por una enorme mayoría la cámara ha
-resuelto tratar las pensiones, esa mayoría, una
-vez aprobado el código penal no ha de modi-
-ficarse en el concepto de que no se traten
-las pensiones. Si ha habido mayoría para que
-se traten una vez despachado este asunto esa
-mayoría ha de subsistir y han de seguir tra-
-tándose esas pensiones. Si la discusión del
-código penal tomara una o dos horas ello no
-vendría a ser un obstáculo para que las pensio-
-nes fueran aprobadas por una enorme mayo-
-ría, como decía el señor diputado Demaría, y
-lo prueba la votación nominal realizada. De
-manera que sin que la cámara vaya a variar su
-criterio, trataría el código penal por enorme
-mayoría en breve lapso de tiempo y con esa
-enorme mayoría de 60 votos, que en la votación
-nominal ha querido manifestarse a favor de las
-pensiones, se mantendrá dentro del recinto y
-hará que las pensiones se voten de acuerdo con
-los deseos de los señores diputados que han
-votado la moción.
-Sr. Demaría. — Pido la palabra.
-Si es difícil ponerse de acuerdo sobre los
-hechos pasados y presentes, es más difícil coin-
-cidir en profecías.
-El señor diputado decía que eso no obstrui-
-rá las pensiones y yo que no soy profeta pro-
-fesional, pero algunas experiencias tengo de
+- **h1**: Header containing the page number, title, and date.
+- **c1**: The left column of text.
+- **c2**: The right column of text.
 
-las cosas que suceden en la cámara, y en el
-deseo de prever — no voy a dar las razones —
-diré que creo que si se intercala otro asunto
-nos quedaremos sin que se concluyan las pen-
-siones. Por eso es que sostengo que facilito la
-sanción del código penal ofreciendo mi voto
-para una moción que se trate después de ter-
-minadas las pensiones. Y aquí he terminado
-con el señor diputado Rodeyro.
-Sr. Rodeyro. — El señor diputado no puede
-pensar que los miembros de la cámara que lo
-han acompañado a él en la votación nominal
-van a prestarse al juego de interrumpir la vo-
-tación de las pensiones.
-Sr. Demaría. — El señor diputado — y eso
-que no es de los más presidencialistas — quie-
-re adueñarse hasta de mi pensamiento, de lo
-que pueda o no pueda yo pensar. Yo creo que
-se va a obstruir la consideración de las pensio-
-nes, y pienso así con muy buenas razones, que
-no voy a dar, pero que todos los señores dipu-
-tados conocen y que la mayoría comparte.
-Quiero hacer ahora una observación a las pa-
-labras del señor diputado Ferreyra, cuando pi-
-dió que se votase a hora fija, manifestando
-que nadie debía discutir estos asuntos, porque
-todos los señores diputados tienen la obliga-
-ción de conocerlos y de tenerlos estudiados.
-Eso es cierto cuando se trata de cuestiones
-doctrinarias conocidas; pero en este enorme
-despacho hay innúmeras modificaciones intro-
-ducidas por el senado, que son susceptibles de
-discusión. Si fuera eso cierto, los diputados de
-esta cámara tendrían que estudiar los asuntos
-en su casa y venir al recinto a votarlos en silen-
-cio; pero precisamente se discuten los asuntos
-porque, en cuestiones que no son grandes, hay
-la esperanza — tal vez ingenua para muchos
-— de que con buenas razones se puede arras-
-trar el voto de los que no las han profundi-
-zado.
-De manera que tratándose de un despacho
-que tiene tantas modificaciones, no acepto en
-ninguna forma que se establezca que ha de
-votarse en una votación, sin discusión o a hora
-fija. Con este último temperamento debo ob-
-servar que bastaría que un diputado hablase
-hasta esa hora para que impidiese que los de-
-más hiciesen conocer su opinión.
-Para el caso, pues, de que sean rechazadas
-estas mociones, formulo la siguiente: que el
-despacho de la comisión sobre el código penal
-sea considerado inmediatamente después de
-terminada la sanción de los despachos sobre
-pensiones.
-Sr. Presidente (Goyeneche). — Pero a este
-paso no se va a atratar ni el código penal ni las
-pensiones. Llevamos más de dos horas de dis-
-cusión.
-Sr. Parry. — Pido la palabra.
-La votación de esta tarde ha demostrado
-que la cámara no quiere tratar hoy el código
-penal, nero no ha demostrado bajo ningún
-
-## Images, Captions, And Visual Notes
-The page contains no images, captions, or other substantial visual elements.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete and accurate, capturing all text from the page in the correct reading order.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-
-## Page Metadata
-- Page: 83
+```json
+{
+  "reading_order": [
+    {
+      "id": "h1",
+      "bbox_pct": [6.06, 5.4, 93.94, 8.19],
+      "children": []
+    },
+    {
+      "id": "c1",
+      "bbox_pct": [6.06, 9.81, 49.09, 94.5],
+      "children": []
+    },
+    {
+      "id": "c2",
+      "bbox_pct": [51.52, 9.81, 93.94, 94.5],
+      "children": []
+    }
+  ],
+  "regions": {
+    "h1": {
+      "bbox_pct": [6.06, 5.4, 93.94, 8.19],
+      "type": "header"
+    },
+    "c1": {
+      "bbox_pct": [6.06, 9.81, 49.09, 94.5],
+      "type": "column"
+    },
+    "c2": {
+      "bbox_pct": [51.52, 9.81, 93.94, 94.5],
+      "type": "column"
+    }
+  }
+}
+```

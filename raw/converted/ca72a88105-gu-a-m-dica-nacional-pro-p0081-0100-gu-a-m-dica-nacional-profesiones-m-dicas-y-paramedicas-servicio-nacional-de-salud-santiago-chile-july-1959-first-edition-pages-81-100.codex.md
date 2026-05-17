@@ -631,76 +631,88 @@ All visible text and the page number have been transcribed. The two-column layou
 ```
 
 ## Page Metadata
-Page number: 90
+
+- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0087`
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Page: 87
 
 ## Layout And Reading Order
 
-The page presents a list of individuals, their addresses, and associated cities, organized into three logical columns. The content is structured like a directory or registry. The names are in bold, followed by their address and then the city. There is a page number at the bottom left.
+The page is a single column of text with a page number "87" at the top right. The main content is a directory listing formatted into three columns: Name, Address, and Location. The names are alphabetized by surname and are printed in bold. There are visual breaks (blank lines) between different alphabetical groupings of names. At the bottom left of the page is the number "90 —". The reading order is from top to bottom.
 
 ## Literal Transcription
 
-| Name                                   | Address                                 | City          |
-| :------------------------------------- | :-------------------------------------- | :------------ |
-| **Salleres Pérez, Alberto**            | Andrés Bello 23                         | Santiago      |
-| **San Cristóbal Muñoz, Diego**         | Matías Cousiño 150,                     | Santiago      |
-|                                        | Of. 816                                 |               |
-| **San Martín Bozán, Sergio**           | Avda. Bustos 2145                       | Santiago      |
-| **San Martín Ferrari, Hernán**         | Cochrane 1247                           | Concepción    |
-| **San Martín Rissetti, Lisandro**      | Avda. Matucana 891                      | Santiago      |
-| **San Martín Rodena, Joel**            | 1.a Avenida 1239                        | Santiago      |
-| **San Martín Tapia, Oscar**            | Hospital                                | Mejillones    |
-| **San Pedro Valenzuela, Osvaldo**      | Padre Orellana 2042                     | Santiago      |
-| **Sánchez Beguiristain, Basilio**      | Casa de Socorro                         | Pichilemu     |
-| **Sánchez Cavieres, Víctor**           | Pucará 4143                             | Santiago      |
-| **Sánchez Díaz, Liborio**              | Avda. Italia 1045                       | Santiago      |
-| **Sánchez San Cristóbal, Vicente**     | El Coigüe 4000                          | Santiago      |
-| **Sánchez Soto, Delfina**              | Bascuñán Guerrero 494                   | Santiago      |
-| **Sánchez Stephan, Jorge**             | Juan Sebastián Bach 237                 | Santiago      |
-| **Sánchez Vidal, Miguel**              | Mackenna 692                            | Osorno        |
-| **Sandoval Hernández, José**           | Vallejos 455                            | Copiapó       |
-| **Sandoval Rivas, Luis**               | O'Higgins 542                           | Chillán       |
-| **Sandoval Smart, Luis**               | Rosas 1388                              | Santiago      |
-| **Sangueza Fajardo, Mario**            | Casilla 170                             | Rengo         |
-| **Sanhuenza Alvarez, Héctor**          | Plaza de Armas                          | Doñihue       |
-| **Sanhuenza Conlledo, Lautaro**        | Avda. Colón 459                         | Punta Arenas  |
-| **Sanhuenza Cruz, Jorge**              | Avda. Providencia 309                   | Santiago      |
-| **Sanhuenza Cruz, Pedro H.**           | Merced 180                              | Santiago      |
-| **Sanhuenza Donoso, Fernando**         | Gertrudis Echeñique 260,                | Santiago      |
-|                                        | Depto. A                                |               |
-| **Sanhuenza Donoso, Hernán**           | Las Carretas 2166                       | Santiago      |
-| **Sanhuenza Flores, Manuel**           | Cochrane 1200                           | Concepción    |
-| **Sanhuenza Fuenzalida, Jorge**        | Joel Rodríguez 992                      | Santiago      |
-| **Sanoja Valladares, Marcos**          | Av. J. Pedro Alessandri                 | Santiago      |
-|                                        | 295                                     |               |
-| **Sansone Jonieaux, Sergio**           | Saavedra 583                            | Lebu          |
-| **Santa María Henríquez, Alfredo**     | Alcázar 113                             | Lebu          |
-| **Santa María Santa Cruz, Julio**      | Carlos Antúnez 2092                     | Santiago      |
-| **Santander Gilbert, Alberto**         | Av. R. Cumming 715                      | Santiago      |
-| **Santander Guerrero, J. Daniel**      | Eleodoro Yáñez 1637                     | Valdivia      |
-| **Santapau Solar, Omar**               | Rosas 910                               | Santiago      |
-| **Santelices Valenzuela, Guillermina** | Merced 116, Depto. B, 6º                | Santiago      |
-|                                        | Piso                                    |               |
-| **Santelices Zamorano, Alfredo**       | Carmen 566                              | Santiago      |
-| **Santiagos Veas, Raquel**             | Purísima 344                            | Santiago      |
-| **Santibáñez Miranda, Manuel**         | O'Carrol 293                            | Rancagua      |
-| **Santiváñez Barrios, Jaime**          | Avda. Manuel Montt 1141                 | Santiago      |
-| **Santos Ascarza, Raquel**             | Avda. Manuel Montt 1141                 | Santiago      |
-| **Santos Gálmez, Evaristo**            | La Brabanzón 2778                       | Santiago      |
+87
+
+| Name | Address | Location |
+|---|---|---|
+| **Salleres Pérez, Alberto** | Andrés Bello 23 | Santiago |
+| **San Cristóbal Muñoz, Diego** | Matías Cousiño 150,<br>Of. 816 | Santiago |
+| | | |
+| **San Martín Bozán, Sergio** | Avda. Bustos 2145 | Santiago |
+| **San Martín Ferrari, Hernán** | Cochrane 1247 | Concepción |
+| **San Martín Rissetti, Lisandro** | Avda. Matucana 891 | Santiago |
+| **San Martín Rodena, Joel** | 1.a Avenida 1239 | Santiago |
+| **San Martín Tapia, Oscar** | Hospital | Mejillones |
+| **San Pedro Valenzuela, Osvaldo** | Padre Orellana 2042 | Santiago |
+| **Sánchez Beguiristain, Basilio** | Casa de Socorro | Pichilemu |
+| **Sánchez Cavieres, Víctor** | Pucará 4143 | Santiago |
+| **Sánchez Díaz, Liborio** | Avda. Italia 1045 | Santiago |
+| **Sánchez San Cristóbal, Vicente** | El Coigüe 4000 | Santiago |
+| **Sánchez Soto, Delfina** | Bascuñán Guerrero 494 | Santiago |
+| **Sánchez Stephan, Jorge** | Juan Sebastián Bach 237 | Santiago |
+| **Sánchez Vidal, Miguel** | Mackenna 692 | Osorno |
+| **Sandoval Hernández, José** | Vallejos 455 | Copiapó |
+| **Sandoval Rivas, Luis** | O'Higgins 542 | Chillán |
+| **Sandoval Smart, Luis** | Rosas 1388 | Santiago |
+| **Sangueza Fajardo, Mario** | Casilla 170 | Rengo |
+| **Sanhueza Alvarez, Héctor** | Plaza de Armas | Doñihue |
+| **Sanhueza Conlledo, Lautaro** | Avda. Colón 459 | Punta Arenas |
+| **Sanhueza Cruz, Jorge** | Avda. Providencia 309 | Santiago |
+| **Sanhueza Cruz, Pedro H.** | Merced 180 | Santiago |
+| **Sanhueza Donoso, Fernando** | Gertrudis Echeñíque 260,<br>Depto. A | Santiago |
+| | | |
+| **Sanhueza Donoso, Hernán** | Las Carretas 2166 | Santiago |
+| **Sanhueza Flores, Manuel** | Cochrane 1200 | Concepción |
+| **Sanhueza Fuenzalida, Jorge** | Joel Rodríguez 992 | Santiago |
+| **Sanoja Valladares, Marcos** | Av. J. Pedro Alessandri<br>295 | Santiago |
+| | | |
+| **Sansone Jonieaux, Sergio** | Saavedra 583 | Lebu |
+| **Santa María Henríquez, Alfredo** | Alcázar 113 | Lebu |
+| **Santa María Santa Cruz, Julio** | Carlos Antúnez 2092 | Santiago |
+| **Santander Gilbert, Alberto** | Av. R. Cumming 715 | Santiago |
+| **Santander Guerrero, J. Daniel** | Eleodoro Yáñez 1637 | Valdivia |
+| **Santapau Solar, Omar** | Rosas 910 | Santiago |
+| **Santelices Valenzuela, Guillermina** | Merced 116, Depto. B, 6º<br>Piso | Santiago |
+| | | |
+| **Santelices Zamorano, Alfredo** | Carmen 566 | Santiago |
+| **Santiagos Veas, Raquel** | Purísima 344 | Santiago |
+| **Santibáñez Miranda, Manuel** | O'Carrol 293 | Rancagua |
+| **Santiváñez Barrios, Jaime** | Avda. Manuel Montt 1141 | Santiago |
+| **Santos Ascarza, Raquel** | Avda. Manuel Montt 1141 | Santiago |
+| **Santos Gálmez, Evaristo** | La Brabanzón 2778 | Santiago |
 
 90 —
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+There are no images, illustrations, or captions on this page.
 
 ## Uncertain Or Illegible
-None.
+
+The text on this page is clear and legible. There are no uncertain or illegible portions.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images or other substantial visual content that would require cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other visual elements that would warrant cropping."
+}
 ```
 
 ## Page Metadata
@@ -1380,78 +1392,84 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
 ## Page Metadata
-Page number: 94
-Source publication: Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.
-Source document page number: 94
+
+- **Page number**: 94
+- **Note**: The page number printed on the bottom right of the image is `97`. The work order specifies page `94`. The transcription reflects the number visible on the page.
 
 ## Layout And Reading Order
 
-The page presents a two-column list of names, addresses, and associated cities. The content flows from the top of the left column to the bottom, then continues at the top of the right column. A page number is present at the bottom right of the page.
+The page is a single block of text arranged in a three-column directory format. The columns are:
+1.  Name of the professional (last name first).
+2.  Street address.
+3.  City or locality.
+
+The reading order is from left to right, top to bottom, row by row. A page number is present at the bottom right corner.
 
 ## Literal Transcription
 
-| Name                                | Address                           | City          |
-| :---------------------------------- | :-------------------------------- | :------------ |
-| Talma Oyaneder, Rafael              | Independencia 667                 | Linares       |
-| Tallman Valenzuela, Benjamín        | Curicó 15, Depto. 9               | Santiago      |
-| Tallman Valenzuela, Eduardo         | Avda. Gral. Bustamante 208 B      | Santiago      |
-| Tallman Villalón, Eduardo           | Edificio Prales Dep. 203          | Valparaíso    |
-| Tamargo Iribarría, Arturo           | J. Victorino Lastarria 16         | Santiago      |
-| Tamargo Iribarría, Juan             | Avda. Pocuro 2850                 | Santiago      |
-| Tannenbaum Berman, Adolfo           | Agua Santa 765                    | Valdivia      |
-| Tapia Araya, Ana I.                 | Porvenir 372                      | Santiago      |
-| Tapia Araya, Aniceto                | Parcela Tocornal Nº 8             | Puente Alto   |
-| Tapia Caballero, Mario              | San Antonio 427, Dp. 716          | Santiago      |
-| Tapia Carrasco, Jorge               | Juan Antonio Ríos 33              | Santiago      |
-| Tapia Carrasco, Julio               | Avda. Francia 1566                | Santiago      |
-| Tapia Cavanilla, Miguel             | Luis Pereira 487                  | Santiago      |
-| Tapia Chávez, Raúl                  | Gamero 1270                       | Santiago      |
-| Tapia de la Maza, Miguel            | José Tomás Rider 1122             | Santiago      |
-| Tapia Fernández, Carlos             | Avda. Gral. Bustamante 32, Depto. 3 | Santiago      |
-| Tapia Ite, Andrés                   | Caupolicán 200                    | Los Vilos     |
-| Tapia Jiménez, Jorge                | Arturo Prat 798                   | Santiago      |
-| Tapia Mercado, Octavio              | Condell 1530, Of. 43              | Valparaíso    |
-| Tapia Muñoz, Luis                   | Granada 2119                      | Santiago      |
-| Tapia Romero, Alfredo               | 3 Oriente 1676                    | Talca         |
-| Tapia Salgado, René                 | Aldunate 469                      | Castro        |
-| Taricco Salazar, Domingo            | 5 de Abril 507                    | Chillán       |
-| Taucher Schrettenbrunner, Erica     | Carmen Silva 2343                 | Santiago      |
-| Teitelman Germán, Angel             | Cóndor 856                        | Tocopilla     |
-| Tejeda Lawrence, Alvaro             | Hospital                          | Santiago      |
-| Tejeda Moreira, Luis                | Carmen 340                        | Santiago      |
-| Telchi Giacomán, Jorge              | Miguel Claro 963 A                | Santiago      |
-| Téllez Aguirre, Rafael              | M. L. Santander 0261              | Santiago      |
-| Téllez Magaña, Juan                 | Paraguay 461                      | Santiago      |
-| Téllez Meneses, Agustín             | San Martín 149                    | Santiago      |
-| Tello Constanzo, Manuel             | Miguel Claro 645                  | Santiago      |
-| Tello Tello, Arturo                 | Monjitas 779                      | Santiago      |
-| Terrazas Orellana, Julio A.         | Pérez 234                         | Traiguén      |
-| Teuber Teuber, Wilfredo             | San Francisco 688                 | Puerto Varas  |
-| Tezanos-Pinto Schomburgh, Sergio de | Condell 1190, 5º Piso             | Valparaíso    |
-| Thénot Carret, Jacques              | Eliecer Parada 1445               | Santiago      |
-| Thibaut Figuelist, René             | Sotomayor 401                     | Coronel       |
-| Thierry Sorenson, Ida               | Santa Lucía 344 C                 | Santiago      |
-| Thomsen Martínez, José A.           | Los Plátanos 2602                 | Viña del Mar  |
-| Thomsen Martínez, Pablo             | Bellavista 284                    | Santiago      |
-| Thomsen Potts, Juan                 | 3 Norte 549                       | Viña del Mar  |
-|                                     |                                   | — 97          |
+| Name | Address | Location |
+| :--- | :--- | :--- |
+| Talma Oyaneder, Rafael | Independencia 667 | Linares |
+| Tallman Valenzuela, Benjamín | Curicó 15, Depto. 9 | Santiago |
+| Tallman Valenzuela, Eduardo | Avda. Gral. Bustamante<br>208 B | Santiago |
+| Tallman Villalón, Eduardo | Edificio Prales Dep. 203 | Valparaíso |
+| Tamargo Iribarría, Arturo | J. Victorino Lastarria 16 | Santiago |
+| Tamargo Iribarría, Juan | Avda. Pocuro 2850 | Santiago |
+| Tannenbaum Berman, Adolfo | Agua Santa 765 | Valdivia |
+| Tapia Araya, Ana I. | Porvenir 372 | Santiago |
+| Tapia Araya, Aniceto | Parcela Tocornal Nº 8 | Puente Alto |
+| Tapia Caballero, Mario | San Antonio 427, Dp. 716 | Santiago |
+| Tapia Carrasco, Jorge | Juan Antonio Ríos 33 | Santiago |
+| Tapia Carrasco, Julio | Avda. Francia 1566 | Santiago |
+| Tapia Cavanilla, Miguel | Luis Pereira 487 | Santiago |
+| Tapia Chávez, Raúl | Gamero 1270 | Santiago |
+| Tapia de la Maza, Miguel | José Tomás Rider 1122 | Santiago |
+| Tapia Fernández, Carlos | Avda. Gral. Bustamante<br>32, Depto. 3 | Santiago |
+| Tapia Ite, Andrés | Caupolicán 200 | Los Vilos |
+| Tapia Jiménez, Jorge | Arturo Prat 798 | Santiago |
+| Tapia Mercado, Octavio | Condell 1530, Of. 43 | Valparaíso |
+| Tapia Muñoz, Luis | Granada 2119 | Santiago |
+| Tapia Romero, Alfredo | 3 Oriente 1676 | Talca |
+| Tapia Salgado, René | Aldunate 469 | Castro |
+| Taricco Salazar, Domingo | 5 de Abril 507 | Chillán |
+| Taucher Schrettenbrunner, Erica | Carmen Silva 2343 | Santiago |
+| Teitelman Germán, Angel | Cóndor 856 | Santiago |
+| Tejeda Lawrence, Alvaro | Hospital | Tocopilla |
+| Tejeda Moreira, Luis | Carmen 340 | Santiago |
+| Telchi Giacomán, Jorge | Miguel Claro 963 A | Santiago |
+| Téllez Aguirre, Rafael | M. L. Santander 0261 | Santiago |
+| Téllez Magaña, Juan | Paraguay 461 | Santiago |
+| Téllez Meneses, Agustín | San Martín 149 | Santiago |
+| Tello Constanzo, Manuel | Miguel Claro 645 | Santiago |
+| Tello Tello, Arturo | Monjitas 779 | Santiago |
+| Terrazas Orellana, Julio A. | Pérez 234 | Traiguén |
+| Teuber Teuber, Wilfredo | San Francisco 688 | Puerto Varas |
+| Tezanos-Pinto Schomburgh,<br>Sergio de | Condell 1190, 5º Piso | Valparaíso |
+| Thénot Carret, Jacques | Eliecer Parada 1445 | Santiago |
+| Thibaut Figuelist, René | Sotomayor 401 | Coronel |
+| Thierry Sorenson, Ida | Santa Lucía 344 C | Santiago |
+| Thomsen Martínez, José A. | Los Plátanos 2602 | Viña del Mar |
+| Thomsen Martínez, Pablo | Bellavista 284 | Santiago |
+| Thomsen Potts, Juan | 3 Norte 549 | Viña del Mar |
+
+— 97
 
 ## Images, Captions, And Visual Notes
 
-A page number, "— 97", is present at the bottom right corner of the page.
+There are no images, captions, or other visual elements on this page beyond the text itself.
 
 ## Uncertain Or Illegible
 
-None.
+There are no uncertain or illegible portions of text on this page.
 
 ## Completeness Audit
 
-The transcription is complete and accurate, capturing all visible text and maintaining the original layout and reading order.
+The transcription is a complete and accurate representation of all text on the page.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page number is transcribed in the 'Images, Captions, And Visual Notes' section."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only textual data in a directory format with no significant visual elements like photographs, illustrations, or maps."}
 ```
 
 ## Page Metadata
@@ -1634,115 +1652,100 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
 ## Page Metadata
-Page number: 97
+
+- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0097`
+- Page: 100
 
 ## Layout And Reading Order
 
-The page presents a two-column directory listing. The left column contains names, and the right column contains corresponding addresses and cities. There is a horizontal separator "V" in the middle of the page, dividing the main list into two sections. At the bottom left, there is a page number.
+The page is a single column of text. The content is a directory listing of medical professionals, organized alphabetically. The page contains entries for surnames beginning with 'U' and 'V'.
+
+Each entry is arranged in three columns:
+1.  Name (Last Name, First Name)
+2.  Address
+3.  City
+
+A large, centered letter 'V' separates the 'U' entries from the 'V' entries.
+
+The page number "100" is at the bottom left corner.
+
+The reading order is top-to-bottom, following the alphabetical list.
 
 ## Literal Transcription
 
-Undurraga Donoso, Inés
-Undurraga Tornero, Hernán
-Urbina Figueroa, Germán J.
-Urbina Gajardo, Táfer
-Urbina Olivari, Adriana
-Urdangarín Halabide, Luis H.
-Ureta Beytía, Miguel
-Ureta Latorre, Osvaldo
-Uribe Barra, Luis
-Uribe Concha, Alejandro
-Uribe Concha, Pedro
-Uribe Herrera, Victoriano
-Uribe Palacios, Eduardo
-Urízar Espinosa, Rodrigo
-Urquieta Tognarelli, Bernardo
-Urra Garín, Fernando
-Urrizola Bermúdez, Alfonso
-Urrutia Cifuentes, Sergio
-Urrutia Muñoz, Domingo
-Urrutia Muñoz, Julio
-Urrutia Paut, Fidel
-Urrutia Urrutia, Carlos
-Urzúa Ahumada, Rafael
-Urzúa Casas-Cordero, Rafael
-Urzúa Corvalán, Ramón Edgardo
-Urzúa Ligerón, Rafael
-Urzúa Merino, Hernán
-Urzúa Souper, Oscar
-Urzúa Stokes, María
-Urzúa Terán, René
-Urzúa Urzúa, Alejandro
+| | | |
+|---|---|---|
+| Undurraga Donoso, Inés | Nataniel 210, 5º Piso | Santiago |
+| Undurraga Tornero, Hernán | Monjitas 834, Depto. 51 | Santiago |
+| Urbina Figueroa, Germán J. | Fuenzalida 251 | Mulchén |
+| Urbina Gajardo, Táfer | Walker Martínez 1009 | Peumo |
+| Urbina Olivari, Adriana | Matta 1514 | Tocopilla |
+| Urdangarín Halabide, Luis H. | Hosp. Chile Exploration | Antofagasta |
+| Ureta Beytía, Miguel | Plaza Bulnes 1302, 7º piso | Santiago |
+| Ureta Latorre, Osvaldo | Toro Mazote 268 | Santiago |
+| Uribe Barra, Luis | Darío Urzúa 1813 | Santiago |
+| Uribe Concha, Alejandro | Condell 1190, Depto. 125 | Valparaíso |
+| Uribe Concha, Pedro | Berger 2654 | Viña del Mar |
+| Uribe Herrera, Victóriano | Teatinos 379 | Santiago |
+| Uribe Palacios, Eduardo | Carrera 168 | Coronel |
+| Urízar Espinosa, Rodrigo | Seminario 32 | Santiago |
+| Urquieta Tognarelli, Bernardo | Huérfanos 1147, Of. 536 | Santiago |
+| Urra Garín, Fernando | San Martín 587 | Concepción |
+| Urrizola Bermúdez, Alfonso | Chacabuco 552 | Concepción |
+| Urrutia Cifuentes, Sergio | Agustinas 972, Of. 642 | Santiago |
+| Urrutia Muñoz, Domingo | Teatinos 20, Depto. 97 | Santiago |
+| Urrutia Muñoz, Julio | Sazié 1885 | Santiago |
+| Urrutia Faut, Fidel | I. Valdés Vergara 640 | Santiago |
+| Urrutia Urrutia, Carlos | Antonio Varas 248 | Santiago |
+| Urzúa Ahumada, Rafael | Merced 293, 6º Piso | Santiago |
+| Urzúa Casas-Cordero, Rafael | Orrego Luco 87, Depto. 5 | Santiago |
+| Urzúa Corvalán, Ramón Edgardo | Marín 396 B | Santiago |
+| Urzúa Ligerón, Rafael | Hospital | Chuquicamata |
+| Urzúa Merino, Hernán | República de Israel 1000 | Santiago |
+| Urzúa Souper, Oscar | Obispo Donoso 5, Dep. 44 | Santiago |
+| Urzúa Stokes, María | Astaburuaga 312 | Santiago |
+| Urzúa Terán, René | Victoria 52 | Santiago |
+| Urzúa Urzúa, Alejandro | Huérfanos 786, Of. 117 | Santiago |
 
+<br>
+
+<div style="text-align: center;">
 V
+</div>
 
-Vaccarezza Sturla, Atilio
-Vaccaro Cosovich, Hugo
-Vaisman Berensohn, Bernardo
-Vaisman Berensohn, José
-Vaisman Berensohn, Samuel
-Valderrama de la Cruz, Genoveva
-Valdés Basterrica, Julio
-Valdés Browne, Salvador
-Valdés Castaño, Eduardo
+<br>
+
+| | | |
+|---|---|---|
+| Vaccarezza Sturla, Atilio | Avda. Holanda 3712 | Santiago |
+| Vaccaro Cosovich, Hugo | Avda. Santa María 0410 | Santiago |
+| Vaisman Berensohn, Bernardo | Nataniel 149 | Santiago |
+| Vaisman Berensohn, José | Vicuña Mackenna 461 | Ovalle |
+| Vaisman Berensohn, Samuel | Plaza Bulnes 80, Dep. 78 | Santiago |
+| Valderrama de la Cruz, Genoveva | Adra. Undurraga 207 H | Santiago |
+| Valdés Basterrica, Julio | La Serena 810 | Santiago |
+| Valdés Browne, Salvador | Londres 88 | Santiago |
+| Valdés Castaño, Eduardo | 3 Norte 963 | Viña del Mar |
 
 100 —
 
-| | |
-| :-------------------------------- | :------------------------------------------------ |
-| Nataniel 210, 5º Piso             | Santiago                                          |
-| Monjitas 834, Depto. 51           | Santiago                                          |
-| Fuenzalida 251                    | Mulchén                                           |
-| Walker Martínez 1009              | Peumo                                             |
-| Matta 1514                        | Tocopilla                                         |
-| Hosp. Chile Exploration           | Antofagasta                                       |
-| Plaza Bulnes 1302, 7º piso        | Santiago                                          |
-| Toro Mazote 268                   | Santiago                                          |
-| Darío Urzúa 1813                  | Santiago                                          |
-| Condell 1190, Depto. 125          | Valparaíso                                        |
-| Berger 2654                       | Viña del Mar                                      |
-| Teatinos 379                      | Santiago                                          |
-| Carrera 168                       | Coronel                                           |
-| Seminario 32                      | Santiago                                          |
-| Huérfanos 1147, Of. 536           | Santiago                                          |
-| San Martín 587                    | Concepción                                        |
-| Chacabuco 552                     | Concepción                                        |
-| Agustinas 972, Of. 642            | Santiago                                          |
-| Teatinos 20, Depto. 97            | Santiago                                          |
-| Sazié 1885                        | Santiago                                          |
-| I. Valdés Vergara 640             | Santiago                                          |
-| Antonio Varas 248                 | Santiago                                          |
-| Merced 293, 6º Piso               | Santiago                                          |
-| Orrego Luco 87, Depto. 5          | Santiago                                          |
-| Marín 396 B                       | Santiago                                          |
-| Hospital                          | Chuquicamata                                      |
-| República de Israel 1000          | Santiago                                          |
-| Obispo Donoso 5, Dep. 44          | Santiago                                          |
-| Astaburuaga 312                   | Santiago                                          |
-| Victoria 52                       | Santiago                                          |
-| Huérfanos 786, Of. 117            | Santiago                                          |
-| | |
-| Avda. Holanda 3712                | Santiago                                          |
-| Avda. Santa María 0410            | Santiago                                          |
-| Nataniel 149                      | Santiago                                          |
-| Vicuña Mackenna 461               | Ovalle                                            |
-| Plaza Bulnes 80, Dep. 78          | Santiago                                          |
-| Adra. Undurraga 207 H             | Santiago                                          |
-| La Serena 810                     | Santiago                                          |
-| Londres 88                        | Santiago                                          |
-| 3 Norte 963                       | Viña del Mar                                      |
-
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+There are no images, illustrations, or other visual elements on this page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+
+The full content of the page has been transcribed. The page number printed on the image is "100", which differs from the page number "97" specified in the work order's file naming convention. The transcription reflects the content of the provided image.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were present on this page."}
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other visual elements that would be useful as standalone assets."}
+```
 
 ## Page Metadata
 Page number: 101

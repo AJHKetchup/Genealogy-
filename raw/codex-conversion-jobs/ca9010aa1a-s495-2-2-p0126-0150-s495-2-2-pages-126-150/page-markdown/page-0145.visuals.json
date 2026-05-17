@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:48Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+  "page": 145,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0145.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0145.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "JEP\nLAS\nPIERNAS\nPESADAS\nIndican un estado\nvaricoso en plena evo-\nlución. La circulación es\nmás lenta. Una sangre espesa,\ncargada de impurezas, dilata las\nvenas, que, de un momento a otro,\npueden romperse y engendrar una úlcera de las piernas\nó un eczema varicoso, o provocar una flebias. El\nDepurativo Richelet\nese potente purificador de la sangre, restablecerá la cir-\nculación defectuosa; hará que desaparezca rápida-\nla hinchazón de las varices. La pierna, descongestionada,\nrecuperará el aspecto no mal que tenía, y la pesadez\ndel miembro se cambiará en un verdadero bienestar.\nEl tratamiento Richelet se encuentra en todas las farmacias\nL. Richelet, de Sedán, 6, rue de Belfort. Bayonne (Francia).",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Advertisement for Depurativo Richelet, featuring an illustration of a leg with varicose veins.",
+      "confidence": "0.95",
+      "inline_anchor": "JEP\nLAS\nPIERNAS\nPESADAS",
+      "bbox_pct": [
+        19.9,
+        13.7,
+        89.0,
+        83.7
+      ],
+      "bbox_pixels": [
+        223,
+        215,
+        1019,
+        1341
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0145/page-0145-image-01-depurativo-richelet-ad-leg-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0145/page-0145-image-01-depurativo-richelet-ad-leg-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0145.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+      "page": 145,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0145.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

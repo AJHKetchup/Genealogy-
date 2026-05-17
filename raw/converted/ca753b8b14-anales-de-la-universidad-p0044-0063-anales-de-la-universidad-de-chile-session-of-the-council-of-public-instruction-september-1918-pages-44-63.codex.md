@@ -1448,19 +1448,47 @@ No interpretation was produced by the Docling basic conversion pass.
 ## Page Metadata
 
 - **Page number**: 59
-- **Printed page number**: 345
+- **Page text**:
+- SESION DE 14 DE OCTUBRE DE 1918 345
+- Castellano
+- SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
+- Propietarios: don Samuel A. Lillo.
+- » Arcadio Ducoing.
+- » Eliodoro Flores.
+- Suplentes: » Ernesto Guzmán.
+- » Antonio Bórquez Solar.
+- Matemáticas
+- PRIMER AÑO
+- Propietarios: don Federico Arriagada.
+- » Manuel E. Aguilera.
+- » José María Ormazábal.
+- Suplentes: » Camilo Valenzuela.
+- » Francisco A. Medina Rivera.
+- Matemáticas
+- SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
+- Propietarios: don Ricardo Poenisch.
+- » Francisco Pröschle.
+- » Manuel Arancibia.
+- Suplentes: » Francisco A. Medina Rivera.
+- » Ramón Jiménez Villagrán.
+- Francés
+- PRIMER AÑO
+- Propietarios: don Julio Chávez.
+- » Carlos Montebruno.
+- » Max. Flores.
 
 ## Layout And Reading Order
 
-The page is a single column of text. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`). Within each subject, lists of names are provided under the categories `Propietarios` (permanent staff) and `Suplentes` (substitutes), further broken down by academic year(s). The reading order is from top to bottom.
+The page is a single column of text. The content is organized by academic subject (`Castellano`, `Matemáticas`, `Francés`). Within each subject, there are lists of personnel designated as `Propietarios` (permanent staff) and `Suplentes` (substitutes), further categorized by academic year(s). The reading order is from top to bottom.
 
 ## Literal Transcription
 
-```text
+```markdown
 SESION DE 14 DE OCTUBRE DE 1918 345
-___
 
-Castellano
+***
+
+**Castellano**
 
 SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
 
@@ -1470,7 +1498,7 @@ Propietarios: don Samuel A. Lillo.
 Suplentes: » Ernesto Guzmán.
 » Antonio Bórquez Solar.
 
-Matemáticas
+**Matemáticas**
 
 PRIMER AÑO
 
@@ -1480,7 +1508,7 @@ Propietarios: don Federico Arriagada.
 Suplentes: » Camilo Valenzuela.
 » Francisco A. Medina Rivera.
 
-Matemáticas
+**Matemáticas**
 
 SEGUNDO, TERCERO, CUARTO, QUINTO I SESTO AÑOS
 
@@ -1490,7 +1518,7 @@ Propietarios: don Ricardo Poenisch.
 Suplentes: » Francisco A. Medina Rivera.
 » Ramón Jiménez Villagrán.
 
-Francés
+**Francés**
 
 PRIMER AÑO
 
@@ -1501,7 +1529,7 @@ Propietarios: don Julio Chávez.
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other significant visual elements on this page. The page consists entirely of printed text.
+There are no images, illustrations, or other visual elements on this page. The page consists entirely of printed text.
 
 ## Uncertain Or Illegible
 
@@ -1516,7 +1544,7 @@ This page has been transcribed in its entirety.
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only printed text and does not have any images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "The page consists entirely of printed text with no images, illustrations, or other significant visual elements."
 }
 ```
 

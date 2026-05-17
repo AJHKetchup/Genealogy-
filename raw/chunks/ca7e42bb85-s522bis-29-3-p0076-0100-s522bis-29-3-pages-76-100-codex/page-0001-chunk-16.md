@@ -1,0 +1,156 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-16
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
+page_start: 1
+page_end: 1
+part: 16
+---
+
+## Literal Transcription
+712 CAMARA DE DIPUTADO, Septiembre 21
+
+tina para los hijos de todas las creencias!
+científico el presupuesto de culto con un sen-
+timiento hondamente cristiano. Si se estudia
+la historia de esa gran doctrina, se la verá
+aparecer en todo momento como desligada de
+los poderes políticos y como doctrina de rei-
+vindicación social. Como rebeldes han sido
+juzgados en todas las épocas sus apóstoles, los
+hombres que predicaron sus virtudes cardina-
+les! Desde la justa igualitaria en el centro
+de la dominación del mundo, Roma, hasta el
+surgimiento de las democracias sociales en
+América, ni un solo momento ha dejado de
+influir el cristianismo, imprimiendo a los acon-
+tecimientos el sello de los Arnaldos de Bres-
+cia — Sea en honor de Italia, hoy — de Savo-
+narola, de Lutero, y después, mucho después,
+en esta tierra de Fray Bartolomé de Las
+Casas y Fray Cayetano Rodríguez, austeros
+varones de la iglesia, que cristianizaron al
+catolicismo en momento de perversión y de
+degradación de la iglesia, buscando las fuen-
+tes primeras del evangelio, que no han de en-
+contrarse con seguridad en los palacios del
+favor fácil donde las Magdalenas no se arre-
+pienten o si se arrepienten, es por no haber
+traficado bastante (Risas) y donde los Judas
+(¡Muy bien! Risas).
+
+Yo desearía ver a la religión de mis mayo-
+res, que yo ya no profeso — no sé si para mi
+bien o para mi mal — desearía ver la religión
+de mis padres con sacerdotes ejemplares, ilu-
+minados por la belleza del ideal místico y co-
+mo en esta ocasión, dándole la espalda a las
+dadivas del presupuesto, para estar frente a la
+inspiración del Creador. (¡Muy bien! ¡Muy
+bien! Aplausos).
+
+**Sr. de Tomaso** — Pido la palabra.
+
+Deseo, señor presidente, plantear a la co-
+misión de presupuesto y al poder ejecutivo un
+asunto relativo a las relaciones exteriores del
+país. Lo haga ahora, al tratarse el anexo de re-
+laciones exteriores, porque no he tenido, en el
+transcurso del año parlamentario, oportunidad
+de hacerlo, y lamento en este momento la au-
+sencia del señor ministro de relaciones exte-
+riores, porque creo que los datos que yo voy a
+pedir, y que son indispensables a los señores di-
+putados, no me van a poder ser ofrecidos por
+la comisión de presupuesto, la cual respecto de
+este asunto, creo que ignora la verdad de las
+cosas, como la ignoramos oficialmente todos los
+señores diputados, como la ignora el Congreso
+de la Nación.
+
+La comisión de presupuesto no nos propone
+ninguna modificación en el inciso 4o., que se re-
+fiere a partidas para poder cumplir las conven-
+ciones internacionales que ha subscripto la Re-
+pública, ni modifica tampoco la cantidad que
+
+se destina para gastos eventuales de la repre-
+sentación interior y exterior. Esto me mueve a
+solicitar del gobierno que aclare un asunto que
+yo creo de una importancia trascendental, y
+que desgraciadamente todavía el congreso no
+ha tratado ni siquiera en una forma ligera o su-
+perficial. Me refiero a la situación de la Repú-
+blica Argentina en la sociedad de las naciones.
+
+Yo no pretendo ahora, de ninguna manera,
+en una cámara que discute el presupuesto para
+los meses que faltan del año 1921, en estas cir-
+cunstancias, bajo la presión del tiempo, pro-
+mover una discusión a fondo y extensa, como el
+asunto merece. Creo que esa discusión tendrá
+que venir, que el Congreso tendrá que despe-
+jar alguna vez la incógnita y establecer cuál
+es, en todo sentido, la situación de la Repúbli-
+ca Argentina frente a la sociedad o liga de las
+naciones; pero no deseo dejar pasar la oca-
+sión sin hacer algunas preguntas relativas al
+aspecto financiero del asunto, el único que yo
+puedo tocar en este momento sin que los se-
+ñores diputados me observen que estoy fuera
+de la discusión.
+
+\* La República Argentina ha estado represen-
+tada en la primera asamblea de la Liga crea-
+da por el Pacto de Versalles; la República Ar-
+gentina ha hecho gastos para concurrir a esa
+asamblea internacional, en la cual ha adoptado
+la actitud que todo el mundo conoce y que es-
+tá explicada en una serie de telegramas dados
+a la publicidad por el ministerio de relaciones
+exteriores. Hemos podido creer, por esa docu-
+mentación, que la República Argentina forma-
+ba parte de la Liga, que había adherido a ese
+pensamiento que representa, a pesar de todas
+sus limitaciones y de todos sus defectos, la pri-
+mera tentativa seria de crear una organización
+jurídica internacional tendiente a contribuir al
+mantenimiento de la paz mundial, creación en
+la cual están interesados principalmente los
+países pequeños, incipientes, débiles o de rela-
+tiva o ninguna capacidad guerrera, entre los
+cuales está, por muchos conceptos, la República
+Argentina. Pero hemos oído hablar posterior-
+mente de la situación de la República Argenti-
+na en la Liga, sosteniéndose los criterios más
+extraordinarios. La prensa discute sobre si es-
+tamos o no en la Liga de las naciones. Hace po-
+co he tenido oportunidad de leer en un diario
+francés muy autorizado en los ambientes ofi-
+ciales — “Le Temps” —, con verdadera sor-
+presa, por no decir con verdadero desagrado
+como ciudadano argentino, una información
+de carácter oficial sobre los asuntos que se ha-
+bían discutido en una de las sesiones de las co-
+misiones internas de la Liga: se estableció la
+lista de las naciones que no habían pagado su
+contribución a la sociedad y se citaban algunos
+pequeños países sudamericanos que por cierto
+ocupan un rango muy inferior por diversos mo-
+tivos, colocando al lado de ellos a la República,
+
+## Images, Captions, And Visual Notes
+The page contains only text and no meaningful images or visual elements that require cropping or detailed description.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful images or visual elements."}

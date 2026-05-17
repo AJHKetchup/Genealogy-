@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T10:30:15Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+  "source_sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+  "job_manifest": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/manifest.json",
+  "page": 121,
+  "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-images/page-0121.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-markdown/page-0121.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "illustration",
+      "caption_literal": "Decorative logo featuring an intertwined, stylized design within a circle.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-appearance",
+      "source_context": "Centered on the page, below the author's information.",
+      "confidence": "certain",
+      "inline_anchor": "",
+      "bbox_pct": [
+        44.0,
+        47.0,
+        56.0,
+        53.0
+      ],
+      "bbox_pixels": [
+        444,
+        705,
+        575,
+        803
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/extracted-images/page-0121/page-0121-image-02-decorative-logo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/extracted-images/page-0121/page-0121-image-02-decorative-logo.png",
+      "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-images/page-0121.jpg",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "source_sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+      "job_manifest": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/manifest.json",
+      "page": 121,
+      "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-markdown/page-0121.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "BIBLIOTHÈQUE\nDE LA PAIX\n24-JUIN-1929",
+      "source_context": "Stamp in the upper right corner of the title page."
+    }
+  ],
+  "flags": []
+}

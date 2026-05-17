@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T10:30:55Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/manifest.json",
+  "page": 117,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-images/page-0117.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-markdown/page-0117.md",
+  "no_visual_regions_reason": "No substantial visual regions were identified. Minor marks like stamps and handwritten notes are described in the 'Images, Captions, And Visual Notes' section.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

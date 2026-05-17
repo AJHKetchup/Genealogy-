@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:51:25Z",
+  "created": "2026-05-17T10:28:30Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "doc-1",
+      "region_id": "vr-01",
       "kind": "document",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "documento que reproduce nuestro grabado, dirigido por el virrey, marqués de Loreto, al gobernador español.",
-      "source_context": "This is a reproduction of a 1784 letter from the Viceroy of Buenos Aires, Marquis de Loreto, to the Spanish governor Antonio Valdés y Bazán, concerning the administration of the Malvinas (Falkland) Islands."
+      "caption_literal": "Handwritten letter from the Marqués de Loreto to Antonio Valdés y Bazán, dated 10 October 1784.",
+      "source_context": "The printed text on the page identifies this as a letter from the Viceroy of Buenos Aires, Marqués de Loreto, to Don Antonio Valdés y Bazán, dated 10 October 1784, concerning the administration of the Malvinas (Falkland) Islands."
     }
   ],
   "flags": []

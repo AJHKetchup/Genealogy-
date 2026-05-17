@@ -9,26 +9,26 @@
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3/extracted-images`
 
 ## Page Metadata
-This page is largely blank, containing only a handwritten alphanumeric code in the top right corner. It appears to be an internal filing or cataloging mark.
+No page-specific metadata is present on this page.
 
 ## Layout And Reading Order
-The page contains a single handwritten alphanumeric code positioned in the top right quadrant. This is the only content on the page.
+The page is mostly blank, with a handwritten alphanumeric code in the top right quadrant.
 
 ## Literal Transcription
-COL16 S<sup>bis</sup>/147 / 4
+COL16 S^(bis) / 147 / 4
 
 ## Images, Captions, And Visual Notes
-The page is mostly blank except for a handwritten alphanumeric code in the top right corner. The code reads "COL16 S<sup>bis</sup>/147 / 4". The "bis" is written as a superscript above the "S".
+The page contains a handwritten alphanumeric code in the top right corner. It appears to be a filing or cataloging number.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and captures all visible content on the page.
+The page is completely transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small handwritten alphanumeric code, which is fully captured by the literal transcription and does not warrant a separate visual region crop."}
+{"visual_regions": [], "no_visual_regions_reason": "The only visual content is a small handwritten note, which is fully captured in the literal transcription and does not warrant a separate crop box."}
 ```
 
 ## Page Metadata
@@ -64,11 +64,11 @@ The page is fully transcribed and all visible elements have been noted.
 ```
 
 ## Page Metadata
-Not applicable.
+Page number: 3
 
 ## Layout And Reading Order
 
-The page is a light blue sheet of paper, likely a document cover or separator. The top two-thirds of the page are blank. Near the bottom of this blank area, there are two staple holes, one on the left and one on the right, and a horizontal crease runs across the page below them. The bottom third of the page contains printed text in a block, followed by handwritten text, and a small printed number in the bottom left corner. The reading order is top-to-bottom.
+The page is a light-colored sheet, possibly a cover or backing page, with text printed and handwritten near the bottom. There are two small tears or holes near the bottom edge, suggesting it was previously bound or fastened. A horizontal line separates the upper blank area from the lower section containing text.
 
 ## Literal Transcription
 
@@ -80,13 +80,18 @@ ENCLOSURE.
 
 ## Images, Captions, And Visual Notes
 
-The page is a light blue sheet of paper. There are two small, torn holes, consistent with staple removal, located approximately 60% down the page, one on the left and one on the right. A prominent horizontal crease runs across the page just below these holes. The text "BULKY DOCUMENT ENCLOSURE." is printed in a block, followed by a handwritten number "9A/31064/25420" and a handwritten note "(jacket 1)". In the bottom left corner, a small printed number "3979-7.36-500" is present.
+The page contains no images, captions, or visual elements requiring specific description or cropping beyond the literal transcription of text. The tears/holes near the bottom are minor physical damage to the page itself.
 
 ## Uncertain Or Illegible
-None.
+
+None. All text is clearly legible.
 
 ## Completeness Audit
-The transcription is complete and accurate.
+
+The transcription is complete and includes all visible text and relevant visual notes from the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor physical marks (staple holes, creases) that do not warrant cropping as standalone visual assets."}
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present on this page. The page contains only text and minor physical marks."}
+```

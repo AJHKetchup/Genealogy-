@@ -1,0 +1,45 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303.codex.md",
+  "converted_sha256": "e51b6ff143e36758690d62bb95d4e5419e221a7de0e3f9ce952f0846466537a5",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 10529,
+      "sha256": "386b979dbdd271cb6bf6e24fe80657eb5ac2b5c997f6b966eacded42ab7b2076"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0001-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-codex/page-0001-chunk-02.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 2,
+      "chars": 11706,
+      "sha256": "d1998ff63dd52ced8759a8c26f82339004358aa5740fa8f4dada3b3098911848"
+    },
+    {
+      "chunk_id": "CHUNK-e51b6ff143e3-P0001-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0294-0303-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-294-303-codex/page-0001-chunk-03.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 3,
+      "chars": 1960,
+      "sha256": "cbda266b7c5dc3c09da46ac80cb2cdc7abe8f13f79609faa6a5b67ad2c5a00be"
+    }
+  ]
+}

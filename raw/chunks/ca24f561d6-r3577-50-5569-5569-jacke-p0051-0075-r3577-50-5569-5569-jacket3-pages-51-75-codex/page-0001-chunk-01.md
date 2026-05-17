@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-21069de95d90-P0001-01
+chunk_id: CHUNK-150ad5e0b722-P0001-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75.codex.md
-converted_sha256: 21069de95d90178087649e57fb1bdae754756c2c1c6db1d749a6be9a180a3d43
+converted_sha256: 150ad5e0b722db8999950a1e65f2b074f7a3da3c8e9e8e03407a0ce0d575b0cf
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json
@@ -181,24 +181,33 @@ All visible text on the page has been transcribed.
 Page number: 53
 
 ## Layout And Reading Order
-The page contains a single block of centered text. A small hole punch is visible in the top right corner of the page.
+
+The page is a light blue sheet with text centered vertically and horizontally. The text is enclosed by two horizontal lines, one above and one below. There is a small hole punch in the top right corner of the page.
 
 ## Literal Transcription
+
+```
 IMPRIMERIE
 DU JOURNAL DE GENÈVE
+```
 
 ## Images, Captions, And Visual Notes
-A small, circular hole punch is present in the top right corner of the page.
+
+- A small hole punch is visible in the top right corner of the page.
+- The text "IMPRIMERIE / DU JOURNAL DE GENÈVE" is centered on the page, with a horizontal line above "IMPRIMERIE" and another horizontal line below "DU JOURNAL DE GENÈVE".
 
 ## Uncertain Or Illegible
+
 None.
 
 ## Completeness Audit
+
 The transcription is complete and accurate.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a minor hole punch, neither of which are suitable for standalone visual crops according to the guidelines."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor marks (a hole punch and decorative lines) that do not warrant separate image crops. The text is fully transcribed."}
 ```
 
 ## Page Metadata

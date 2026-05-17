@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3f9e61ea9836-P0001-01
+chunk_id: CHUNK-37db5cb4859d-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: 3f9e61ea9836509528ef52c75270e531bc23754ed8ed611e4227d238fa940953
+converted_sha256: 37db5cb4859d58c4fcf1097f84874f480b54480ddbdc983203f675aaec59c002
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -22,72 +22,99 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/extracted-images`
 
 ## Page Metadata
-Page number: 76
 
-## Layout And Reading Order
-The page contains a typed letter fragment in German, followed by a handwritten signature. The text is centered on the upper half of the page. The rest of the page is blank. There is a hole punch in the top right corner.
-
-## Literal Transcription
-serordentlich dankbar sein, wenn
-bei den zuständigen Herren des Völkerbundes ( Dr. Haas oder Dr. Smets)
-sondieren wollten.
-                                Mit ergebensten Dank für Ihre Bemühungen und mit
-verbindlichster Empfehlung
-                                                                Ihr
-                                                        ganz ergebener
-                                                                H. Pany
-
-## Images, Captions, And Visual Notes
-The page features a handwritten signature at the bottom of the typed letter fragment.
-
-## Uncertain Or Illegible
-*   `H. Pany`: The last letter of the surname in the signature could potentially be a 'g' or 'y' with a flourish. "Pany" is the most plausible reading.
-
-## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed or noted.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "signature_001",
-      "kind": "signature",
-      "bbox_pct": [50.0, 66.0, 60.0, 69.0],
-      "caption_literal": "H. Pany",
-      "caption_type": "source-field",
-      "identity_basis": "literal-text",
-      "source_context": "Handwritten signature at the end of the letter.",
-      "confidence": "medium",
-      "suggested_filename": "signature_H_Pany",
-      "inline_anchor": "H. Pany"
-    }
-  ]
-}
-```
-
-## Page Metadata
-
-- **Page number**: 77
-- **Document type**: Handwritten note
-- **Language**: French
+- **Page:** 76
 
 ## Layout And Reading Order
 
-The document is a single handwritten note on a small piece of paper. The reading order is from top to bottom. There are some notes at the top, followed by the main body of the text, and a signature at the end.
+The page contains the end of a typewritten letter in a single column. The text concludes with a closing, a typed valediction, and a handwritten signature. The paper is creased from being folded into quarters. There is a faint, mirrored stamp or text bleeding through from the reverse side.
 
 ## Literal Transcription
 
 ```text
+serordentlich dankbar sein, wenn Sie in dieser Angelegenheit einmal
+bei den zuständigen Herren des Völkerbundes ( Dr. Haas oder Dr.Smets)
+sondieren wollten.
+
+Mit ergebensten Dank für Ihre Bemühungen und mit
+verbindlichster Empfehlung
+
+Ihr
+ganz ergebener
+
+[[vr-01]] H. Pring
+```
+
+## Images, Captions, And Visual Notes
+
+- **vr-01:** A handwritten signature, "H. Pring", in dark ink.
+- There is a faint, mirrored text block visible, likely bleed-through from the reverse side of the page. The mirrored text appears to read "ACTION" and "DE V...".
+- A single hole punch is present in the upper right corner of the page.
+- The page has significant horizontal and vertical creases from being folded.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts on this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "signature",
+      "bbox_pct": [
+        65.5,
+        40.5,
+        77.0,
+        46.0
+      ],
+      "caption_literal": "H. Pring",
+      "caption_type": "source-field",
+      "identity_basis": "name-in-signature",
+      "source_context": "This is the handwritten signature at the closing of a letter.",
+      "confidence": "high",
+      "suggested_filename": "page-0076-signature-h-pring.jpg",
+      "inline_anchor": "[[vr-01]]"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
+```
+
+## Page Metadata
+- Page number: 77
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0077`
+
+## Layout And Reading Order
+This page contains a single, handwritten note on a small slip of paper. The reading order is from top to bottom.
+
+1.  A handwritten annotation in the top right corner.
+2.  A name, possibly the recipient, written in a large, stylized script.
+3.  The main body of the note, consisting of three paragraphs.
+4.  A signature at the bottom right.
+
+## Literal Transcription
+```text
+[Handwritten note at top right]
 Dr a parlé 7-9-28
 Scalzi avec M. Smets
-M Pietromarchi
+
+[Handwritten text]
+M Tretromarchetiv[?]
+___
 
 A la session de la Commission
 permanente de l'U.I.S M Werner
 avait exprimé le désir que je puisse
 assister à la Conférence de la L.C.R.
 en Octobre à La Haye.
+
 Vous remarquerez que les points V
 et XVIII de l'ordre du jour présentent
 le plus grand intérêt pour nous et
@@ -96,76 +123,85 @@ et son représentant du Cté d'Hygiène
 il serait indiqué que le S.G. désignat
 un membre de section au courant
 des affaires de l'U.I.S
+
 Voulez vous en parler au marquis Paulucci
 L Smets
 ```
 
 ## Images, Captions, And Visual Notes
-
-The page contains a single handwritten note on a piece of light-colored paper, which has been mounted on a dark background. There is a small hole punched near the top left corner. The handwriting is in dark ink.
+This page consists of a single image of a handwritten note on a small, light-colored slip of paper. The writing is in dark ink. There is a small hole punched near the top left corner.
 
 ## Uncertain Or Illegible
-
-- The name "Scalzi" in the second line is a plausible reading of the handwriting but is not perfectly clear.
+- `M Tretromarchetiv[?]`: This name is written in a highly stylized, cursive script and is difficult to decipher with certainty.
 
 ## Completeness Audit
-
-This page is a single, short handwritten note. The transcription is complete and captures all text on the page.
+This page has been fully transcribed.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of a handwritten note. There are no distinct images, illustrations, or other visual elements that would warrant cropping as separate assets."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a handwritten note with no significant illustrations, photographs, or other distinct visual elements that would warrant cropping."}
 ```
 
 ## Page Metadata
-- Page: 78
+
+- Page number: 78
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0078`
 
 ## Layout And Reading Order
-The page consists of a single, small, rectangular piece of paper with handwritten text. The reading order is top to bottom.
 
-- Region 1: A handwritten note.
+The page contains a single, short, handwritten note on a small rectangular piece of paper. The reading order is from top to bottom. A hole has been punched through the paper near the top.
 
 ## Literal Transcription
-```text
-[region 1]
+
+[Handwritten note in black ink]
+
 Registry
+[A horizontal line is drawn under "Registry", with a hole punched through the line]
+
 M. Colban étant
 absent. prière de
 renvoyer ce dossier
 le 29 juin.
+
 f. Boitteau
+[A horizontal line is drawn under the signature]
 1916
-Jobd M+B.
-```
+
+Jord M+B.
 
 ## Images, Captions, And Visual Notes
-The image shows a small, rectangular piece of off-white paper, likely a memo slip, with handwritten text in black ink. A hole has been punched through the paper near the top, below the word "Registry". The handwriting is cursive.
+
+The entire page consists of a single image of a handwritten note on a small, light-colored piece of paper, set against a dark background. The note has a hole punched in it near the top. The writing is in black ink.
 
 ## Uncertain Or Illegible
-- The signature `f. Boitteau` could also be read as `f. Boisseau` or similar.
-- The final line `Jobd M+B.` is difficult to decipher and is a best-effort transcription. It could be `Jord M+B.` or other combinations of letters.
+
+- The signature could be `f. Boitteau` or similar. The surname is not perfectly clear.
+- The final line of text, `Jord M+B.`, is difficult to decipher and the reading is uncertain.
 
 ## Completeness Audit
-This page is a single, simple document that has been fully and accurately transcribed.
+
+This page has been fully transcribed.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a short handwritten note with no significant illustrations, photographs, or other distinct visual elements that would warrant cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The entire page is a single handwritten note. There are no distinct visual elements like photographs, maps, or illustrations that would be useful as standalone assets."
+}
 ```
 
 ## Page Metadata
 
 - Page number: 79
-- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0079`
 
 ## Layout And Reading Order
 
-The page contains a single handwritten note on a blue slip of paper. The reading order is from top to bottom.
+The page contains a single handwritten note on a blue slip of paper. The reading order is top to bottom.
 
 ## Literal Transcription
 
-[Handwritten note on a blue slip of paper with a hole punch at the top left]
+[Handwritten note on a blue slip of paper]
 
 Mr Colban
 I think
@@ -174,15 +210,16 @@ is of interest
 to you in view of
 Baron Drachenfels
 statement! [signature]
+
 18.6.28.
 
 ## Images, Captions, And Visual Notes
 
-The page consists of a single handwritten note on a blue paper tag or slip. There is a circular hole punched near the top left corner. The handwriting is in dark ink. The signature is a single initial, possibly an 'A' or 'R', with a flourish.
+The page consists of a single handwritten note on a rectangular blue slip of paper. There is a hole punched near the top left corner. The signature is a single stylized initial, possibly an 'A' or 'R'.
 
 ## Uncertain Or Illegible
 
-- The signature is a stylized initial and is difficult to decipher. It has been transcribed as `[signature]`.
+- The signature is a stylized initial and is not clearly legible.
 
 ## Completeness Audit
 

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:38Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 123,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0123.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0123.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "portrait",
+      "caption_literal": "Autocaricatura del conocido pintor y caricaturista español\nValero Lecha\nEl Sr. Lecha es un artista consumado en el arte pictórico; sus\nobras exhibidas en la reciente exposición llevada a cabo\nen el Teatro Variedades, llamaron mucho la\natención de los conocedores",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The image is a drawing of a man with a mustache, smoking a pipe. A signature 'J. AGUILAR ROZO' is visible in the lower left of the drawing. The caption identifies the subject as Valero Lecha and the image as his self-caricature.",
+      "confidence": "high",
+      "inline_anchor": "[Image of Valero Lecha]",
+      "bbox_pct": [
+        24.0,
+        10.0,
+        75.0,
+        60.0
+      ],
+      "bbox_pixels": [
+        269,
+        156,
+        856,
+        966
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0123/page-0123-image-01-portrait-valero-lecha-autocaricatura.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0123/page-0123-image-01-portrait-valero-lecha-autocaricatura.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0123.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 123,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0123.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

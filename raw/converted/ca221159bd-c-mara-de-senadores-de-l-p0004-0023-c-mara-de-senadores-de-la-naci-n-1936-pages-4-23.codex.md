@@ -9,38 +9,47 @@
 - Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/extracted-images`
 
 ## Page Metadata
-This page is the front cover of a paper folder or envelope, showing handwritten annotations.
+- Source: `Cámara de Senadores de la Nación, 1936.pdf`
+- Page: `4`
+- Page type: `Cover/Envelope`
 
 ## Layout And Reading Order
-The page contains handwritten text in the upper central area. The text is arranged in three lines.
+The page contains handwritten text on a brown paper envelope. The text is arranged in three lines, centered horizontally on the upper half of the page.
 
 ## Literal Transcription
 Anexos a
-9A/31064 / 25420
+9A/ 31064 / 25420
 Argentina
 
 ## Images, Captions, And Visual Notes
-The page is a light brown paper folder or envelope, heavily creased and worn, with some tears along the edges, particularly the bottom. There is a small circular hole punched near the top right corner. The text "Anexos a" and "9A/31064 / 25420" is handwritten in red ink. The word "Argentina" is handwritten in blue ink below the red text.
+The page is an image of a worn, light brown paper envelope.
+- The text "Anexos a" and "9A/ [...] / 25420" are handwritten in red ink.
+- The number "31064" is handwritten in black ink.
+- The word "Argentina" is handwritten in blue ink.
+- There is a small hole punched near the top right corner of the envelope.
+- The envelope shows significant creasing and wear, particularly along the bottom edge and left side.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The page is complete and all visible text has been transcribed.
+The transcription is complete and captures all visible text and relevant visual details on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The handwritten text is transcribed directly."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements (e.g., portraits, maps, diagrams) are present that would require cropping. The page primarily contains handwritten text on an envelope."}
+```
 
 ## Page Metadata
 Page number: 5
 
 ## Layout And Reading Order
-The page is the cover of a document, featuring a decorative double-line border. The text is centrally aligned within this border, presenting the title, subtitle, and publication details. There are also two stamps and a handwritten mark on the page.
+The page is the front cover of a publication. It features a central block of text, framed by a double-line border. There are two red ink stamps and a handwritten mark on the page. The text is centered vertically and horizontally within the frame. The spine of the book is visible on the left side, in a contrasting blue color.
 
 ## Literal Transcription
 ① ✓
-[red stamp, partially visible, top left]
-WAR DEPT. LIBRARY
+[Red ink stamp, partially obscured, top left]
+WAR DEPT. [?]ATIONS
 REGISTRY
 RECEIVED
 14 FEB 1938
@@ -53,27 +62,34 @@ FERROCARRILES NACIONALES
 •
 PUBLICACION OFICIAL
 
-[purple stamp, partially visible, bottom center]
+[Red ink stamp, bottom left, mostly an outline with faint, illegible text inside]
+[Purple ink, handwritten or stamped over the red stamp]
 Distribución gratuita
 
 BUENOS AIRES
-COMPAÑIA IMPRESORA ARGENTINA, S. A., ALSINA, 2049
+COMPAÑIA IMPRESORA ARGENTINA, S. A., ALSIÑA, 2049
 1936
 
 ## Images, Captions, And Visual Notes
-- A handwritten mark "① ✓" is present in the top right corner of the page.
-- A red ink stamp, partially visible, is located in the top left quadrant, overlapping the main title. It reads "WAR DEPT. LIBRARY REGISTRY RECEIVED 14 FEB 1938".
-- A purple ink stamp, partially visible, is located in the bottom center quadrant, overlapping the publisher information. It reads "Distribución gratuita".
-- The entire page content is framed by a decorative double-line border.
+1.  **Handwritten mark**: In the top right corner, a handwritten circle containing the number "1" and a checkmark "✓".
+2.  **Red ink stamp (top)**: A rectangular stamp in red ink, partially overlapping the main title text. It contains the text "WAR DEPT. [?]ATIONS", "REGISTRY", "RECEIVED", and "14 FEB 1938".
+3.  **Red ink stamp (bottom)**: A rectangular stamp in red ink, similar in style to the top one, located in the bottom left quadrant. It is mostly an outline, with very faint and largely illegible text inside.
+4.  **Purple ink text**: The phrase "Distribución gratuita" is written or stamped in purple ink, diagonally across the bottom red ink stamp.
 
 ## Uncertain Or Illegible
-None.
+-   The first line of the top red ink stamp is partially obscured and faded; "[?]ATIONS" is the most plausible reading for the end of the word. The beginning "WAR DEPT." is clear.
+-   The text within the bottom red ink stamp is too faint and obscured to be legible.
 
 ## Completeness Audit
-All visible text and marks on the page have been transcribed.
+All visible text and significant visual marks on the page have been transcribed or described.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts. Stamps and handwritten marks are minor and described in the transcription."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial images, portraits, maps, or diagrams suitable for cropping. All relevant visual information (stamps, handwritten marks) is described in the 'Images, Captions, And Visual Notes' section."
+}
+```
 
 # Page 6
 

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:51:13Z",
+  "created": "2026-05-17T10:27:36Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "p0053-001",
+      "region_id": "p0053-01",
       "kind": "photograph",
-      "caption_literal": "VALE\n25c\nORO AMERICANO\nEL EJEMPLAR\nBaja California, Distrito Norte\nEdición del Mes de Septiembre 1923",
+      "caption_literal": "VALE\n25c\nORO AMERICANO\nEL EJEMPLAR\nBaja California, Distrito Norte\nEdicion del Mes de Septiembre 1923",
       "caption_type": "nearby-text",
       "identity_basis": "none",
-      "source_context": "A photograph of a large monument, featuring a column topped by a winged statue.",
+      "source_context": "A photograph of a monument, likely the Angel of Independence, is placed centrally on the page, illustrating an article about journalism in Baja California.",
       "confidence": "high",
-      "inline_anchor": "[p0053-001]",
+      "inline_anchor": "<div id=\"p0053-01\"></div>",
       "bbox_pct": [
-        33.3,
-        48.3,
-        66.3,
-        93.5
+        37.3,
+        49.1,
+        62.2,
+        89.2
       ],
       "bbox_pixels": [
-        457,
-        900,
-        922,
-        1754
+        513,
+        915,
+        865,
+        1674
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-001-monument.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-001-monument.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0053.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

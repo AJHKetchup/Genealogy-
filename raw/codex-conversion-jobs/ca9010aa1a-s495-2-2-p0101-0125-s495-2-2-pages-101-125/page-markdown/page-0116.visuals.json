@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:33Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 116,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0116.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0116.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Doña Paca de Toledo López, bella y distinguida dama que celebró su cumpleaños el día 4 del corriente. Esta estimable y culta señora, tan admirada y querida en nuestra buena sociedad, fue muy felicitada el día de San Francisco por las numerosas amistades con que cuenta entre nosotros. Aunque tarde, le enviamos nosotros también nuestras cordiales felicitaciones, haciendo votos por que pueda celebrar por muchos años, siempre feliz, siempre dichosa, el aniversario de su natalicio.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-text",
+      "source_context": "The text immediately adjacent to the image identifies the person as Doña Paca de Toledo López.",
+      "confidence": "high",
+      "inline_anchor": "Doña Paca de Toledo López,",
+      "bbox_pct": [
+        14.4,
+        17.5,
+        37.9,
+        40.0
+      ],
+      "bbox_pixels": [
+        160,
+        276,
+        436,
+        644
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0116/page-0116-image-01-do-a-paca-de-toledo-l-pez-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0116/page-0116-image-01-do-a-paca-de-toledo-l-pez-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0116.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 116,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0116.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

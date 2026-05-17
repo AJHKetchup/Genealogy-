@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:49Z",
+  "created": "2026-05-17T10:26:59Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3016-11A-2905-950.pdf",
@@ -8,30 +8,8 @@
   "page": 84,
   "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-images/page-0084.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-markdown/page-0084.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains a standard rectangular stamp and a simple Red Cross logo. These elements are fully described in the transcription and visual notes and do not warrant individual cropping as standalone assets.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "ACTION COPY",
-      "source_context": "Stamp at the top left of the page."
-    },
-    {
-      "region_id": "region_2",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "RECEIVED IN REGISTRY 27 AVR 1928",
-      "source_context": "Stamp below \"ACTION COPY\" at the top left of the page."
-    },
-    {
-      "region_id": "region_3",
-      "kind": "logo",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "[Red Cross logo]",
-      "source_context": "Large red cross symbol positioned to the right of the stamps and above the main title."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

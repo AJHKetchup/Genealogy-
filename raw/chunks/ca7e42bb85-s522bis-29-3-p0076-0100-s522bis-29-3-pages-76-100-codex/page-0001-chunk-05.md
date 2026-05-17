@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ec9d78878adc-P0001-05
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-05
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ec9d78878adcc8475176c0af7c31afe36fdfa029cb06428fdc10047cf0941515
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -10,6 +10,92 @@ page_start: 1
 page_end: 1
 part: 5
 ---
+
+## Literal Transcription
+
+***
+
+<div id="h1" style="padding: 1rem; border: 1px solid black;">
+
+1694
+<br>
+CAMARA DE DIPUTADOS
+<br>
+Septiembre 21/
+
+</div>
+
+***
+
+<div id="c1" style="float: left; width: 45%; padding-right: 2%;">
+
+ximo, y que a las 5 de la tarde el presidente ponga a votación las modificaciones hechas por la comisión a objeto de que no se haga ninguna discusión al respecto. Así a las 5 y 10 podríamos terminar con este asunto. Es esta una cuestión que los señores diputados deben haber estudiado y seguido en la discusión del senado. Se trata de reformas de mucha importancia en que todos los diputados deben tener ya un criterio jurídico hecho, que no vendrán a conocer aquí en la cámara desde que se trata de un parlamento de personas ilustradas, y discutir largamente el asunto después de la discusión básica hecha al sancionar el proyecto sería perder lamentablemente el tiempo. Mi moción no sería pues una moción mordaza: a las 5 de la tarde podría ser tratado sin discusión.
+<br>
+Sr. Rodeyro. — Pido la palabra.
+<br>
+Sr. Demaría. — Yo no puedo aceptar, y siento mucho que no pueda dar mi voto por la indicación del señor diputado Ferreyra. Comprendo que es exacto lo que él dice...
+<br>
+Sr. Presidente (Goyeneche). — Permítame el señor diputado. Había solicitado la palabra el señor diputado por la Capital.
+<br>
+Sr. Rodeyro. — Cuando hice la moción de que se tratara hoy el código penal, lo hice en el deseo de que la cámara le diera su sanción de inmediato. Hecha la moción el señor diputado Ferreyra vendría a concordar con mi propósito y a facilitar que ella tuviera mayoría en la cámara si como ha dicho el señor diputado Demaría por una enorme mayoría la cámara ha resuelto tratar las pensiones, esa mayoría, una vez aprobado el código penal no ha de modificarse en el concepto de que no se traten las pensiones. Si ha habido mayoría para que se traten una vez despachado este asunto esa mayoría ha de subsistir y han de seguir tratándose esas pensiones. Si la discusión del código penal tomara una o dos horas ello no vendría a ser un obstáculo para que las pensiones fueran aprobadas por una enorme mayoría, como decía el señor diputado Demaría, y lo prueba la votación nominal realizada. De manera que sin que la cámara vaya a variar su criterio, trataría el código penal por enorme mayoría en breve lapso de tiempo y con esa enorme mayoría de 60 votos, que en la votación nominal ha querido manifestarse a favor de las pensiones, se mantendrá dentro del recinto y hará que las pensiones se voten de acuerdo con los deseos de los señores diputados que han votado la moción.
+<br>
+Sr. Demaría. — Pido la palabra.
+<br>
+Si es difícil ponerse de acuerdo sobre los hechos pasados y presentes, es más difícil coincidir en profecías.
+<br>
+El señor diputado decía que eso no obstruirá las pensiones y yo que no soy profeta profesional, pero algunas experiencias tengo de
+
+</div>
+
+<div id="c2" style="float: right; width: 45%; padding-left: 2%;">
+
+las cosas que suceden en la cámara, y en el deseo de prever — no voy a dar las razones — diré que creo que si se intercala otro asunto nos quedaremos sin que se concluyan las pensiones. Por eso es que sostengo que facilito la sanción del código penal ofreciendo mi voto para una moción que se trate después de terminadas las pensiones. Y aquí he terminado con el señor diputado Rodeyro.
+<br>
+Sr. Rodeyro. — El señor diputado no puede pensar que los miembros de la cámara que lo han acompañado a él en la votación nominal van a prestarse al juego de interrumpir la votación de las pensiones.
+<br>
+Sr. Demaría. — El señor diputado — y eso que no es de los más presidencialistas — quiere adueñarse hasta de mi pensamiento, de lo que pueda o no pueda yo pensar. Yo creo que se va a obstruir la consideración de las pensiones, y pienso así con muy buenas razones, que no voy a dar, pero que todos los señores diputados conocen y que la mayoría comparte.
+<br>
+Quiero hacer ahora una observación a las palabras del señor diputado Ferreyra, cuando pidió que se votase a hora fija, manifestando que nadie debía discutir estos asuntos, porque todos los señores diputados tienen la obligación de conocerlos y de tenerlos estudiados.
+<br>
+Eso es cierto cuando se trata de cuestiones doctrinarias conocidas; pero en este enorme despacho hay innúmeras modificaciones introducidas por el senado, que son susceptibles de discusión. Si fuera eso cierto, los diputados de esta cámara tendrían que estudiar los asuntos en su casa y venir al recinto a votarlos en silencio; pero precisamente se discuten los asuntos porque, en cuestiones que no son grandes, hay la esperanza — tal vez ingenua para muchos — de que con buenas razones se puede arrastrar el voto de los que no las han profundizado.
+<br>
+De manera que tratándose de un despacho que tiene tantas modificaciones, no acepto en ninguna forma que se establezca que ha de votarse en una votación, sin discusión o a hora fija. Con este último temperamento debo observar que bastaría que un diputado hablase hasta esa hora para que impidiese que los demás hiciesen conocer su opinión.
+<br>
+Para el caso, pues, de que sean rechazadas estas mociones, formulo la siguiente: que el despacho de la comisión sobre el código penal sea considerado inmediatamente después de terminada la sanción de los despachos sobre pensiones.
+<br>
+Sr. Presidente (Goyeneche). — Pero a este paso no se va a tratar ni el código penal ni las pensiones. Llevamos más de dos horas de discusión.
+<br>
+Sr. Parry. — Pido la palabra.
+<br>
+La votación de esta tarde ha demostrado que la cámara no quiere tratar hoy el código penal, pero no ha demostrado bajo ningún
+
+</div>
+
+<div style="clear: both;"></div>
+
+## Images, Captions, And Visual Notes
+
+This page contains no images, illustrations, or other visual elements.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of printed text in a standard two-column format. There are no images, illustrations, photographs, maps, or other distinct visual elements that would warrant cropping."
+}
+```
+
+## Page Metadata
+- Page: 83
 
 ## Layout And Reading Order
 The page presents text in two columns. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom. The page header "CÁMARA DE DIPUTADOS" and "1695" are at the top of the right column, while "de 1921" is at the top of the left column. Speaker names are bolded.
@@ -152,164 +238,3 @@ All visible text on the page has been transcribed.
 
 ## Page Metadata
 - Page number: 84
-
-## Layout And Reading Order
-The page is laid out in two columns. The top of the page contains a header "CÁMARA DE DIPUTADOS" on the left and "Septiembre 21" on the right, with "1696" below the left part. The main content consists of parliamentary proceedings, with speaker names and their statements. There are two numbered sections, "6" and "7", acting as sub-headings. Text flows from the top of the left column to the bottom, then continues at the top of the right column.
-
-## Literal Transcription
-1696
-CÁMARA DE DIPUTADOS
-Septiembre 21
-
-**Sr. Ferreyra.** — Que se rectifique la vota-
-ción.
-
-—Rectificada, resulta igualmente negativa
-de 21 votos.
-
-**Sr. Presidente (Goyeneche).** — Se va a vo-
-tar si se pasa a la orden del día.
-
-—Resulta afirmativa.
-
-6
-
-DESPACHO DE ASUNTOS MIXTOS
-
-**Sr. Fernández (J.)** — Hace dos horas, señor
-presidente que había pedido la palabra para
-referirme a un asunto de mecanismo interno.
-Quería decir que entre los numerosos asun-
-tos que tiene a estudio la comisión de peticio-
-nes figuran algunos presentados por diferentes
-señores diputados, acordando sumas de dinero
-como subsidio para la erección de monumen-
-tos. Estas sumas importan alrededor de tres-
-cientos mil pesos. La comisión se encuentra in-
-habilitada para despachar estos asuntos porque
-no se conoce todavía el cálculo de recursos y,
-tratándose de sumas de tal importancia, con-
-sidera conveniente que sean estudiados con el
-concurso de la comisión de hacienda y presu-
-puesto. Hago indicación en ese sentido.
-
-Los asuntos a que me he referido son los si-
-guientes:
-
-Un monumento a don Bernardino Rivada-
-via, pesos 200.000.
-
-Sepulcro al poeta Martín Coronado, pesos
-5.000.
-
-Subsidio a la viuda e hijos del maquinista
-Carlos Gallini, pesos 10.000.
-
-Subsidio al agente de policía Antonio Ray-
-mundo, pesos 20.000.
-
-Monumento al doctor Guillermo Rawson, pe-
-sos 45.000.
-
-—Apoyado.
-
-**Sr. Presidente (Goyeneche).** — No habiendo
-oposición por parte de los señores diputados,
-serán estudiadas conjuntamente por las comi-
-siones de presupuesto y hacienda y peticiones,
-los asuntos a que se refiere el señor diputado.
-
-7
-
-PRESUPUESTO E IMPUESTOS PARA 1921
-
-**Sr. Presidente (Goyeneche).** — Se pasará a
-la orden del día.
-
-Tiene la palabra el señor diputado por Cór-
-doba.
-
-**Sr. Cafferata.** — No había pensado interve-
-nir en este debate, pero las proyecciones que
-él ha asumido al referirse al culto, desbordando
-los límites propios de ese anexo para hacer una
-cuestión de fondo, me obligan a hacer algunas
-consideraciones para fijar mi posición en él.
-He de ser breve, para no abusar de la gentileza
-de los señores diputados, y porque después de
-los elocuentes discursos de los señores diputados
-por Tucumán y por Córdoba me parece que han
-quedado suficientemente contestadas las impug-
-naciones de los diputados del sector de la iz-
-quierda. He de hacerlo también con la altura
-y con la serenidad con que deben discutirse las
-ideas, y con el respeto que me merecen todos los
-miembros de esta honorable cámara, aun aque-
-llos cuyos principios filosóficos están en abier-
-ta contraposición con los míos; creo que la dis-
-cusión de las ideas no debe dar lugar nunca a
-confusiones ni a agravios.
-
-Cada vez que se ha discutido en esta cáma-
-ra el anexo de culto, los señores diputados del
-sector socialista le han llevado su más caluro-
-sa impugnación, y cada vez se les ha contestado
-con el artículo 2o. de la Constitución nacional,
-que, mientras él subsista en nuestra carta fun-
-damental, el parlamento y el pueblo están en
-el deber de respetar y acatar.
-
-Yo encontraría más lógico que los diputados
-que impugnan este anexo, en vez de esa oposi-
-ción, presentaran un proyecto de reforma a la
-constitución pidiendo la derogación del artículo
-2o. Y no se diga, señor presidente, que se man-
-tiene el respeto a ese artículo pidiendo — como
-se hace — la diminución hasta una cantidad
-ínfima, porque si eso pudiera estar de acuerdo
-con la letra de la constitución, repugnaría se-
-guramente a su espíritu. ¿Qué puede suprimir-
-se de un presupuesto que representa apenas la
-500a. parte del presupuesto total? Voy a re-
-cordar algo que con motivo de la misma discu-
-sión tuvo lugar en otras oportunidades.
-
-Recuerdo la discusión del año 1913. El señor
-diputado Palacios decía en aquella ocasión: “La
-carta fundamental ordena, es cierto, sostener el
-culto católico; la prescripción es anacrónica,
-atrasada; tuvo su razón de ser cuando se dictó
-la constitución pero no ahora. Sin embargo, es
-una prescripción constitucional y todos le de-
-bemos el acatamiento que ella exige”. Y como
-el señor diputado Palacios insistiera en que el
-presupuesto era de 4 millones y pico, el señor
-diputado Miguel Padilla le demostraba que ape-
-nas alcanzaba a un millón.
-
-El señor diputado Conforti, conocido en esta
-cámara por su ideas adversas a la religión ca-
-tólica, y autor de un proyecto de separación de
-la iglesia y del estado anterior al de los diputa-
-dos socialistas, dejó constancia de que mientras
-subsistiera el artículo 2o. de la constitución la
-
-## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as portraits, maps, or diagrams that would require cropping. The content is primarily text from parliamentary proceedings."}
-```
-
-## Page Metadata
-Page number: 85
-
-## Layout And Reading Order
-The page is laid out in two columns. The left column begins with "DE 1921" and the right column begins with "CÁMARA DE DIPUTADOS" and "1697". The text flows from the top of the left column to the bottom, then continues at the top of the right column to the bottom.

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:50:56Z",
+  "created": "2026-05-17T10:28:51Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr-001",
       "kind": "illustration",
       "caption_literal": "",
       "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "Illustration of a man in a suit and glasses, pointing to a bottle labeled \"JARABE FAMEL\". This is part of a large advertisement for JARABE FAMEL.",
-      "confidence": "0.95",
-      "inline_anchor": "",
+      "identity_basis": "none",
+      "source_context": "Part of an advertisement for 'JARABE FAMEL' for pulmonary affections.",
+      "confidence": "95",
+      "inline_anchor": "inline_anchor-002",
       "bbox_pct": [
-        63.9,
-        64.0,
-        90.0,
-        80.0
+        65.5,
+        13.5,
+        80.5,
+        30.0
       ],
       "bbox_pixels": [
-        1626,
-        2100,
-        2300,
-        2634
+        1667,
+        440,
+        2058,
+        990
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-jarabe-famel-man-pointing.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-jarabe-famel-man-pointing.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-s519bis-26-4-p0092-vr-001-jarabe-famel-doctor.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-s519bis-26-4-p0092-vr-001-jarabe-famel-doctor.png",
       "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
       "source": "raw/sources/S519bis-26-4.pdf",
       "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
@@ -41,58 +41,58 @@
       "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
     },
     {
-      "region_id": "region_2",
-      "kind": "illustration",
-      "caption_literal": "",
-      "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "Illustration of a clown-like figure with a large ruffled collar and hat, holding mallets, standing next to an open gramophone. This is part of the \"DISCOS VICTOR\" advertisement.",
-      "confidence": "0.95",
-      "inline_anchor": "",
-      "bbox_pct": [
-        70.0,
-        73.0,
-        98.0,
-        97.0
-      ],
-      "bbox_pixels": [
-        1782,
-        2396,
-        2504,
-        3192
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-discos-victor-clown-gramophone.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-discos-victor-clown-gramophone.png",
-      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
-      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
-      "page": 92,
-      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
-    },
-    {
-      "region_id": "region_3",
+      "region_id": "vr-002",
       "kind": "portrait",
-      "caption_literal": "",
+      "caption_literal": "ESCUCHE la voz inmortal de Caruso en la interpretación de la conocida aria de Vesti la giubba de Los Payasos, una creación estupenda del gran tenor...",
       "caption_type": "nearby-text",
-      "identity_basis": "textual_context",
-      "source_context": "Small, framed portrait of a man, identified as Caruso in the surrounding text.",
-      "confidence": "0.95",
-      "inline_anchor": "",
+      "identity_basis": "named-in-caption",
+      "source_context": "Part of an advertisement for 'DISCOS VICTOR' featuring the recordings of Enrico Caruso.",
+      "confidence": "98",
+      "inline_anchor": "inline_anchor-003",
       "bbox_pct": [
-        70.7,
-        55.0,
-        75.0,
-        58.0
+        52.5,
+        70.5,
+        62.0,
+        78.5
       ],
       "bbox_pixels": [
-        1800,
-        1804,
-        1917,
-        1910
+        1335,
+        2313,
+        1586,
+        2584
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-enrico-caruso-portrait.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-enrico-caruso-portrait.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-s519bis-26-4-p0092-vr-002-enrico-caruso.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-s519bis-26-4-p0092-vr-002-enrico-caruso.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 92,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
+    },
+    {
+      "region_id": "vr-003",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "Part of an advertisement for 'DISCOS VICTOR' and the 'Electrola Victor con Radio'.",
+      "confidence": "95",
+      "inline_anchor": "inline_anchor-004",
+      "bbox_pct": [
+        75.0,
+        52.0,
+        95.5,
+        78.0
+      ],
+      "bbox_pixels": [
+        1909,
+        1705,
+        2440,
+        2568
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-s519bis-26-4-p0092-vr-003-victor-records-jester.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-s519bis-26-4-p0092-vr-003-victor-records-jester.png",
       "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0092.jpg",
       "source": "raw/sources/S519bis-26-4.pdf",
       "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
@@ -101,14 +101,6 @@
       "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0092.md"
     }
   ],
-  "skipped_regions": [
-    {
-      "region_id": "region_4",
-      "kind": "logo",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "",
-      "source_context": "Small circular logo with a dog listening to a gramophone (Nipper logo) within the \"Electrola Victor con Radio\" advertisement."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

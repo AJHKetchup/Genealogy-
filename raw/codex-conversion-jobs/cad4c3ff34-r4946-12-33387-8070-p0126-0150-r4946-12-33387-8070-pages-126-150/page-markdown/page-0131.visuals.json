@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:29:39Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+  "page": 131,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0131.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0131.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "illustration",
+      "caption_literal": "Arrendajo, n. v.—Cacicus cristatus.\nDib.: “Die Vögel!”, von Dr. Alfred G. Brehm.\n1er. Band, p. 377—1900. Leipzig und Wien. Bibliographisches Institut.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Illustration of two birds, identified as 'Arrendajo' or 'Cacicus cristatus', with source details.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        5.0,
+        37.0,
+        94.0,
+        87.0
+      ],
+      "bbox_pixels": [
+        68,
+        692,
+        1353,
+        1640
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0131/page-0131-image-01-arrendajo-cacicus-cristatus-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0131/page-0131-image-01-arrendajo-cacicus-cristatus-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0131.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 131,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0131.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

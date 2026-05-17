@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:00Z",
+  "created": "2026-05-17T10:26:38Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -8,7 +8,7 @@
   "page": 5,
   "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-images/page-0005.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/page-markdown/page-0005.md",
-  "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts. Stamps and handwritten marks are minor and described in the transcription.",
+  "no_visual_regions_reason": "No substantial images, portraits, maps, or diagrams suitable for cropping. All relevant visual information (stamps, handwritten marks) is described in the 'Images, Captions, And Visual Notes' section.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

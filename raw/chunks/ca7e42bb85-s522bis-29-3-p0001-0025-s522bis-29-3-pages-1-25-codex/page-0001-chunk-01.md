@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-892a0f66c256-P0001-01
+chunk_id: CHUNK-a702ab3ebb2a-P0001-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: 892a0f66c2562ace1595eeac8926f41ef10b0bd60e2a137bb1abaa359ccead47
+converted_sha256: a702ab3ebb2a0e01c1221337dffc957e1904a4568f056c65e97b2868c36c4154
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -22,26 +22,26 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/extracted-images`
 
 ## Page Metadata
-This page is the first page of a document identified as `S522bis-29-3`.
+Page number: 1
 
 ## Layout And Reading Order
-The page is largely blank. A handwritten alphanumeric string is present in the bottom right corner.
+The page is mostly blank, with a handwritten alphanumeric string in the bottom right corner.
 
 ## Literal Transcription
 S522bis/29/3
 
 ## Images, Captions, And Visual Notes
-The page is mostly blank. There is a handwritten alphanumeric string in the bottom right corner.
+A handwritten alphanumeric string "S522bis/29/3" is present in the bottom right corner of the page.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete.
+The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only a handwritten alphanumeric string, which is transcribed directly and does not warrant a visual crop."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a handwritten alphanumeric string, which is fully captured in the literal transcription. There are no substantial visuals like portraits, maps, or diagrams that would warrant a separate crop."}
 ```
 
 ## Page Metadata

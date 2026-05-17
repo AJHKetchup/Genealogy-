@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d29b422254ef-P0001-03
+chunk_id: CHUNK-12985122c308-P0001-03
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50.codex.md
-converted_sha256: d29b422254efe1cae3155ea985473c279fa8e591ab20e548d7eb7dc36b38408d
+converted_sha256: 12985122c3087f002626bc958ae9ddf5af7387cde8665d98a192fe1182972798
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/manifest.json
@@ -11,12 +11,41 @@ page_end: 1
 part: 3
 ---
 
+## Page Metadata
+
+- Task id: `source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50:p0030`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/work-orders/page-0030.md`
+- Page: 30
+- Output Markdown target: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/page-markdown/page-0030.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: possible_table_layout_loss
+- Technical reread clues: none
+
+## Layout And Reading Order
+
+The page consists of a single column of printed text. The reading order is from top to bottom.
+
+A header at the top of the page contains the page number "12" on the left and the session date "SÉANCE DU 2 JUILLET 1929" on the right, separated from the main text by a horizontal rule.
+
+The main text is a transcript of a meeting, with speakers identified in bold. The spoken text is presented in indented paragraphs.
+
 ## Literal Transcription
-12                               SÉANCE DU 2 JUILLET 1929
 
-S.E.M. Castillo Najera (Mexique) :
+12
+SÉANCE DU 2 JUILLET 1929
 
-M. le Président. Il ne me semble pas nécessaire de procéder à une discussion générale.
+***
+
+**S. E. M. Castillo Najera (Mexique) :**
+
+> M. le Président. Il ne me semble pas nécessaire de procéder à une discussion générale.
 En effet, cette commission a été convoquée pour reviser la Convention de 1906. La proposition
 du Général Marotte est donc tout à fait pertinente, parce qu'il s'agit d'un objet nouveau qui
 n'est pas traité dans les conventions antérieures. Si l'on continue de cette façon, on risque de
@@ -26,67 +55,81 @@ commission pour traiter la question de l'aviation sanitaire. Ensuite nous pourri
 de nous engager dans la discussion de l'avant-projet accepté par la XIe Conférence de la Croix-
 Rouge. Nous avons sur ce projet des modifications et des amendements présentés par les
 Gouvernements.
-En procédant de la sorte, nous pourrions travailler rapidement sur des bases certaines.
+>
+> En procédant de la sorte, nous pourrions travailler rapidement sur des bases certaines.
 
-M. le Président :
+**M. le Président :**
 
-Nous sommes tout à fait d'accord d'abréger nos discussions dans la mesure du possible.
+> Nous sommes tout à fait d'accord d'abréger nos discussions dans la mesure du possible.
 Cependant j'estime qu'au début d'un travail comme celui dans lequel nous nous engageons, ce
 n'est pas perdre notre temps que de nous livrer à une discussion d'un caractère tout à fait
 général nous permettant de nous rendre compte des vues des Gouvernements.
-Nous aurions pu entrer en matière dès cet après-midi sur l'article 1er de la Convention
+>
+> Nous aurions pu entrer en matière dès cet après-midi sur l'article 1er de la Convention
 de 1906 et examiner les propositions présentées, mais je crois préférable de procéder à une
 discussion générale.
-En ce qui concerne l'aviation sanitaire, je pense que, d'une manière générale, on se ralliera
+>
+> En ce qui concerne l'aviation sanitaire, je pense que, d'une manière générale, on se ralliera
 à l'idée que cette question est digne d'examen. Elle a été soulevée par plusieurs Gouver-
 nements dans les remarques qu'ils ont faites à propos du projet. Nous verrons tout à l'heure
 de quelle manière nous pourrons donner suite à cette idée. De même que la question de l'avia-
 tion sanitaire a surgi dans la discussion générale, il est possible que d'autres questions connexes
-soient soulevées. J'espère qu'il n'y aura pas d'objections
-à ce que nous poursuivions la discussion générale
+à la Convention de la Croix-Rouge soient soulevées. J'espère qu'il n'y aura pas d'objections
+de principe de la part de la Commission à ce que nous poursuivions la discussion générale
 jusqu'à ce que, personne ne prenant plus la parole, nous sachions qu'elle est épuisée. Je souhaite,
 pour ma part, qu'elle le soit cet après-midi.
+>
+> Personne ne demande plus la parole dans la discussion générale.
 
-    Personne ne demande plus la parole dans la discussion générale.
+**M. le Président :**
 
-M. le Président :
-
-Nous pouvons considérer la discussion générale comme terminée.
-Nous en revenons à la proposition formulée tout à l'heure par le Général Marotte et que
+> Nous pouvons considérer la discussion générale comme terminée.
+>
+> Nous en revenons à la proposition formulée tout à l'heure par le Général Marotte et que
 M. Warner a d'ores et déjà appuyée. La Commission estime-t-elle qu'il y a lieu d'aborder plus
 ou moins dans son ensemble la question de l'aviation sanitaire, non point qu'il s'agisse néces-
 sairement que toutes les questions soulevées par celle de l'aviation sanitaire soient réglées
-aujourd'hui, mais que nous introduisions cet élément nouveau. Veut-on, dans la Convention
-future, parler de l'aviation sanitaire, du matériel, du personnel et même de son activité?
+aujourd'hui, mais que nous introduisions cet élément nouveau, Veut-on, dans la Convention
+de Genève, parler de l'aviation sanitaire, du matériel, du personnel et même de son activité?
 C'est ainsi que, pour le moment, la question se pose devant la Commission.
-En résumé, la Commission veut-elle entrer dans une discussion générale, qui pourra être
+>
+> En résumé, la Commission veut-elle entrer dans une discussion générale, qui pourra être
 très courte, afin d'exprimer son avis sur l'opportunité d'introduire la question de l'aviation
 sanitaire sous une forme quelconque dans la nouvelle Convention. Si, comme je suis porté à
 l'admettre, la Commission décide que cette question est, en effet, digne d'examen et que nota-
 ment la Conférence ne doit pas se séparer sans l'avoir abordée, je demanderais à la Commission
-de désigner dès à présent une sous-commission qui abor-
-derait l'examen préalable de cette question et rapporterait
-le plus tôt possible sur les conclusions auxquelles elle serait arrivée.
+si elle est d'accord avec la proposition de désigner dès à présent une sous-commission qui abor-
+derait l'examen préalable de cette question et rapporterait dans un délai aussi rapproché que
+possible sur les conclusions auxquelles elle serait arrivée.
 
-M. Paul des Gouttes (Secrétaire général) :
+**M. Paul des Gouttes (Secrétaire général) :**
 
-Le Général Marotte m'a fait l'honneur tout à l'heure, de rappeler les travaux préparatoires
+> Le Général Marotte m'a fait l'honneur tout à l'heure, de rappeler les travaux préparatoires
 que nous avons faits au cours de la XIe Conférence et ailleurs également pour arriver à appli-
 quer à la guerre aérienne les principes de la Convention de Genève. J'avais été chargé par le
 comité international d'élaborer un projet, qui a été soumis à la XIIe Conférence. Ce projet
 fut transmis au Conseil fédéral, selon la décision de cette conférence. Il a paru à plusieurs
 
 ## Images, Captions, And Visual Notes
-There are no meaningful images or captions on this page.
+
+There are no images, illustrations, or photographs on this page.
 
 ## Uncertain Or Illegible
+
 None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last line of the page is cut off, indicating the continuation of text on the next page.
+
+This page is fully transcribed.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual content was detected on this page."}
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and standard typographical elements."
+}
+```
 
 ## Page Metadata
 Page 31
@@ -180,6 +223,3 @@ All visible text on the page has been transcribed.
 ## Page Metadata
 - Page number: 14
 - Date: 2 Juillet 1929
-
-## Layout And Reading Order
-The page features a header with the page number "14" on the top left and "SÉANCE DU 2 JUILLET 1929" on the top right. The main content is presented in a single column, consisting of a transcript of a meeting. Speakers' names are bolded and followed by their country in parentheses. The text flows chronologically by speaker. A handwritten mark is present in the left margin.

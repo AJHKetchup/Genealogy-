@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3f9e61ea9836-P0001-05
+chunk_id: CHUNK-37db5cb4859d-P0001-05
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: 3f9e61ea9836509528ef52c75270e531bc23754ed8ed611e4227d238fa940953
+converted_sha256: 37db5cb4859d58c4fcf1097f84874f480b54480ddbdc983203f675aaec59c002
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -11,253 +11,186 @@ page_end: 1
 part: 5
 ---
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "logo",
-      "bbox_pct": [6.0, 10.0, 10.0, 13.8],
-      "caption_literal": "Red Cross logo",
-      "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": "Part of the letterhead for 'HOOFDBESTUUR VAN HET NEDERLANDSCHE ROODE KRUIS'",
-      "confidence": 0.95,
-      "suggested_filename": "red_cross_logo"
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "stamp",
-      "bbox_pct": [23.0, 23.0, 30.0, 30.0],
-      "caption_literal": "ACTION COPY",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "Vertical stamp on the left side of the page.",
-      "confidence": 0.95,
-      "suggested_filename": "action_copy_stamp"
-    },
-    {
-      "region_id": "vr_3",
-      "kind": "stamp",
-      "bbox_pct": [23.0, 30.0, 40.0, 39.0],
-      "caption_literal": "RECEIVED IN\nREGISTRY\n21-AVR-1928",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "Rectangular stamp below the 'ACTION COPY' stamp.",
-      "confidence": 0.95,
-      "suggested_filename": "received_in_registry_stamp"
-    }
-  ]
-}
-```
-
-## Page Metadata
-- Page: 88
-
-## Layout And Reading Order
-This page is a pre-printed form, likely a file cover or divider, with handwritten entries. The layout consists of several boxes at the top and a two-column section below.
-
-1.  **Top Right Boxes**: Two adjacent boxes for "Dossier No." and "Doct. No".
-2.  **Main Section**: Divided into a narrow left column and a wider right column.
-    - **Left Column**: Contains the pre-printed labels "EXPEDITEUR." and "DATE." with handwritten entries below each.
-    - **Right Column**: Contains a handwritten description of the document's subject.
-3.  **Bottom Center**: A pre-printed label "[COMMENTAIRES.]".
-
-The reading order is from the top boxes, then the left column entries, followed by the right column entries, and finally the label at the bottom.
-
 ## Literal Transcription
-[The page is a form with printed and handwritten text. The structure is represented below.]
+2905
 
-| | Dossier No. | Doct. No |
-| :--- | :--- | :--- |
-| | `11a /` 2905 `|` `2905/950` | 1 |
+LIST of HOTELS in HOLLAND
+PUBLISHED BY
+The Official Tourist Office, The Hague, 102 Lange Voorhout
 
----
+LISTE d'HÔTELS en HOLLANDE
+PUBLIÉE PAR
+Le Bureau Officiel du Tourisme, La Haye, 102 Lange Voorhout
 
-| EXPEDITEUR. | XIIIme Conférence Internationale de la Croix-Rouge. La Haye. Octobre 1928. |
-| :--- | :--- |
-| Comité central de la Croix-Rouge Néerlandaise La Haye. | Transmet le programme provisoire de cette Conférence. |
-| DATE. | |
-| 12 Mars, 1928 | |
+HOTELVERZEICHNIS von HOLLAND
+HERAUSGEGEBEN VOM
+Offiziellen Verkehrsverein, Haag, Lange Voorhout 102
 
----
+[Illustration of map of Holland and woman in traditional dress]
+[Overlaid stamp:]
+ACTION
+COPY
+RECEIVED IN
+REGISTRY
+21 JUN 1928
 
-[COMMENTAIRES.]
+1928
 
-## Images, Captions, And Visual Notes
-There are no images, photographs, or significant illustrations on this page. It is a textual document on a pre-printed form.
-
-## Uncertain Or Illegible
-There are no uncertain or illegible words on this page.
-
-## Completeness Audit
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page consists of a pre-printed form with handwritten text and contains no significant images, illustrations, or photographs."
-}
-```
-
-## Page Metadata
-Page number: 89
-
-## Layout And Reading Order
-The page contains a formal letter or circular, primarily in French, with a large Red Cross logo at the top center. There are handwritten annotations at the top right and a stamped annotation in the left margin. The text is structured with a main title, date and address information, a salutation, and two numbered sections of body text.
-
-## Literal Transcription
-119/2905 | 2950 | 1
-
-<img src="image_placeholder_red_cross_logo.png" alt="Red Cross logo" />
-
-XIIIme Conférence Internationale de la Croix-Rouge.
-(octobre 1928).
-
-<img src="image_placeholder_action_copy_stamp.png" alt="ACTION COPY RECEIVED IN REGISTRY 21-MAR-1928 stamp" />
-
-LA HAYE, le 12 mars 1928.
-27 Princessegracht.
-
-Au Secrétariat de la Société des Nations,
-~~A Monsieur les Ministres des Affaires Etrangères~~
-à Genève (Suisse).
-
-Monsieur le Ministre,
-
-Confirmant sa circulaire du 26 septembre 1927 et se référant à la 271me circulaire du
-Comité international de la Croix-Rouge en date du 10 août 1927, le Comité central de la
-Croix-Rouge néerlandaise a l'honneur de vous adresser le programme provisoire de la XIIIme
-Conférence internationale de la Croix-Rouge, ainsi que diverses communications.
-
-I. Ouverture. La date fixée pour l'ouverture de la XIIIme Conférence est le mardi 23 octobre
-1928 à 14 heures 30, à La Haye, au „Ridderzaal" (Binnenhof).
-La Commission spéciale des délégués se réunira auparavant le mardi 23 octobre 1928 à
-10 heures 30 dans la petite salle de Justice du Palais de la Paix.
-Il est prévu que la séance de clôture de la Conférence aura lieu le vendredi 26 octobre 1928.
-Les journées du 24 et 25 octobre seront réservées aux travaux des Commissions.
-Tous les participants, délégués et invités, sont instamment priés de venir s'inscrire au
-Secrétariat de la Conférence au Palais de la Paix et de venir y retirer leurs cartes ainsi que les
-documents préparés pour eux, dès le lundi 22 octobre, à 14 heures et avant le commencement des
-séances. Ils y trouveront toutes informations utiles et ils recevront le programme définitif et les
-documents officiels de la Conférence.
-
-II. Délégués. Nous distribuerons la première édition de la liste des délégués à l'ouverture
-de la Conférence. Nous prions instamment les Gouvernements et les Sociétés nationales de la Croix-
-Rouge qui ne nous ont pas encore informés de la composition de leurs délégations, de bien vouloir
-le faire le plus tôt possible et en tout cas avant le 1er octobre 1928.
+PRINTED BY EDUARD IJDO, LEIDEN-HOLLAND.
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Red Cross logo](../extracted-images/page-0089/page-0089-image-01-red-cross-logo.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [30.0, 44.0, 35.0, 49.0]
-  - Source context: Red Cross logo
+- ![converter-description: Illustration of a map of Holland with a woman in traditional Dutch dress and the year 1928. Small initials 'RIOS AM/M' are visible near the woman's elbow.](../extracted-images/page-0092/page-0092-image-01-illustration-holland-map-woman-1928.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [12.5, 39.5, 87.5, 88.0]
+  - Source context: Main illustration on the cover page.
+- ![source-field: ACTION COPY
+RECEIVED IN
+REGISTRY
+21 JUN 1928](../extracted-images/page-0092/page-0092-image-02-stamp-action-copy-received-1928.png)
+  - Kind: stamp; label basis: source-field; bbox_pct: [57.0, 40.0, 83.0, 57.0]
+  - Source context: Stamp overlaid on the illustration.
 
-- A prominent red cross logo is centered near the top of the page.
-- A rectangular stamp in the left margin reads "ACTION COPY RECEIVED IN REGISTRY 21-MAR-1928".
-- Handwritten numbers "119/2905 | 2950 | 1" are present at the top right of the page.
-- A handwritten squiggle or signature is present to the left of "LA HAYE, le 12 mars 1928."
+The page features a large illustration (inline_anchor: `illustration_holland_map_woman_1928`) that occupies the majority of the lower half of the page. It shows a stylized map of the Netherlands in the background. In the foreground, to the right, is a woman dressed in traditional Dutch clothing, including a cap, a dark dress, an apron, and wooden clogs. Her hands are on her hips. To the lower left of the illustration, the year "1928" is printed in large, bold numbers. Near the woman's right elbow, there are small initials or a signature that appears to read "RIOS" above "AM/M".
+
+Overlaid on the upper right portion of this illustration is a rectangular stamp (inline_anchor: `stamp_action_copy_received_1928`). The stamp contains the text "ACTION COPY", "RECEIVED IN", "REGISTRY", and the date "21 JUN 1928".
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+The small initials/signature near the woman in the illustration are somewhat stylized and could be interpreted slightly differently, but "RIOS AM/M" seems the most plausible reading.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed or noted.
+All visible text and significant visual elements on the page have been transcribed and described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_0",
+      "region_id": "illustration_holland_map_woman_1928",
       "kind": "illustration",
-      "bbox_pct": [30.0, 44.0, 35.0, 49.0],
-      "caption_literal": null,
+      "bbox_pct": [12.5, 39.5, 87.5, 88.0],
+      "caption_literal": "Illustration of a map of Holland with a woman in traditional Dutch dress and the year 1928. Small initials 'RIOS AM/M' are visible near the woman's elbow.",
       "caption_type": "converter-description",
       "identity_basis": null,
-      "source_context": "Red Cross logo",
+      "source_context": "Main illustration on the cover page.",
       "confidence": 0.95,
-      "suggested_filename": "red_cross_logo"
+      "suggested_filename": "illustration_holland_map_woman_1928.png",
+      "inline_anchor": "illustration_holland_map_woman_1928"
     },
     {
-      "region_id": "region_1",
+      "region_id": "stamp_action_copy_received_1928",
       "kind": "stamp",
-      "bbox_pct": [29.0, 68.0, 40.0, 80.0],
-      "caption_literal": "ACTION COPY RECEIVED IN REGISTRY 21-MAR-1928",
-      "caption_type": "source-caption",
+      "bbox_pct": [57.0, 40.0, 83.0, 57.0],
+      "caption_literal": "ACTION COPY\nRECEIVED IN\nREGISTRY\n21 JUN 1928",
+      "caption_type": "source-field",
       "identity_basis": null,
-      "source_context": "Stamp in left margin",
-      "confidence": 0.95,
-      "suggested_filename": "action_copy_stamp"
+      "source_context": "Stamp overlaid on the illustration.",
+      "confidence": 1.0,
+      "suggested_filename": "stamp_action_copy_received_1928.png",
+      "inline_anchor": "stamp_action_copy_received_1928"
     }
   ]
 }
 ```
 
 ## Page Metadata
-Page number: 90
+
+- **Page number**: 93
 
 ## Layout And Reading Order
-The page contains text presented in a single column. It begins with two introductory paragraphs, followed by two numbered sections (III and IV) with sub-paragraphs. The main body of the page is then dedicated to a prominent heading "ORDRE DU JOUR PROVISOIRE" followed by a nine-item numbered list.
+
+The page is a single column of text. The top section is enclosed in a decorative box and contains information about travel organizations. This box has a two-column layout for the main offices, followed by several lines of text spanning the full width of the box.
+
+Below this box, the main content begins with the title "HOTELS IN HOLLAND." followed by a list of abbreviations and their meanings in French, English, and German.
+
+At the bottom of the page, there is a currency conversion note and contact information for inquiries, provided in French, English, and German.
+
+The reading order is from top to bottom.
 
 ## Literal Transcription
 
-Les Sociétés nationales de la Croix-Rouge voudront bien aussi nous indiquer lequel de
-leurs délégués est désigné pour faire partie de la Commission spéciale des délégués prévue aux
-articles 12 et suivants du Règlement des Conférences.
-Il paraît opportun, comme aux Conférences précédentes de limiter à un délégué par pays
-le nombre des membres de cette Commission, en vue de faciliter son travail et de rendre plus
-rapides ses délibérations.
+```markdown
+| For your travelarrangements in Holland |
+| :--- |
+| apply to |
+| **THE NATIONAL TOURIST ORGANISATIONS:** |
 
-III. **Rapports généraux** et **Rapports spéciaux**. Il importe que les rapports généraux,
-de même que les rapports spéciaux sur les questions figurant à l'ordre du jour, nous parviennent
-avant le **1er octobre 1928** s'ils sont imprimés, avant le **1er août 1928** s'ils sont manuscrits, faute
-de quoi ils risqueraient de n'être point discutés à la Conférence.
-Le nombre d'exemplaires qu'il est nécessaire de mettre à notre disposition pour la distribution
-aux délégués à la Conférence est de 250 pour chaque rapport.
+| Lissone & Son's Travelbureau Ltd | Lindeman's Tourist Offices Ltd. |
+| :--- | :--- |
+| Headoffice: Leidschestraat 5 | Headoffice: Groenmarkt 22 |
+| Branchoffice: Dam 10 | — **THE HAGUE.** — |
+| — **AMSTERDAM** — | Branchoffices: |
+| | Rotterdam, Utrecht, |
+| | Arnhem, Haarlem, Groningen, |
+| | Leeuwarden. |
 
-IV. **Logement**. Messieurs les délégués sont priés de réserver eux-mêmes leurs chambres
-d'hôtel. Une liste des principaux hôtels de La Haye se trouve ci-jointe.
+General-Agents for Holland of the Netherlands Railways.
+Ticket-depositories to all European Railways.
+Sightseeing in Amsterdam and The Hague by char-a-bancs.
+Excursions. - Private Motorboats.
+Automobiles de Luxe. - Lecturer-Guides.
+Change.
+**ALL INFORMATION GRATIS.**
 
-ORDRE DU JOUR PROVISOIRE.
+This list is in alphabetic order.
 
-I. Rapport du Comité international de la Croix-Rouge sur les fonds qu'il administre.
-II. Rapport du Comité international de la Croix-Rouge sur son activité pendant la période
-de 1925 à 1928.
-III. Franchise des transports et exemption des frais de douane pour le matériel expédié à l'Institut
-International d'étude de matériel sanitaire et à la Commission internationale de Standardisation
-(proposé par la Croix-Rouge polonaise).
-IV. Utilisation de la Croix-Rouge pour les secours aux victimes de la guerre maritime
-(renvoyé par la XIIme Conférence).
-V. L'union Internationale de Secours et les Sociétés nationales de la Croix-Rouge (proposé
-par la Croix-Rouge italienne).
-VI. Proposition Boland visant la création d'une flottille internationale de secours de la
-Croix-Rouge (proposé par la Croix-Rouge néerlandaise).
-VII. Le rôle de la Croix-Rouge en cas d'application des sanctions prévues à l'article
-XVI du pacte de la Société des Nations (proposé par le Comité international de la Croix-Rouge).
-VIII. Adoucissement des conséquences du blocus en faveur de certaines catégories de la
-population (proposé par la Croix-Rouge suédoise, danoise, bulgare).
-IX. Prohibition de la guerre chimique et bactériologique par la voie des conventions
-internationales (proposé par la Croix-Rouge polonaise).
+# HOTELS IN HOLLAND.
+
+## ABREVIATIONS:
+
+N. = Nombre de lits = Number of beds = Anzahl Betten
+
+C. 1. = Chambre à un lit avec petit dejeuner = Single bedroom with continental breakfast = Zimmer mit einem Bette, einschlieszlich Frühstück.
+
+C. 2. = Chambre à deux lits avec petit dejeuner = Double bedroom with continental breakfast = Zimmer mit zwei Betten, einschlieszlich Frühstück.
+
+B. 1. = Chambre à un lit et chambre à bain avec petit dejeuner = Single bedroom with bathroom and continental breakfast = Zimmer mit einem Bette, Badezimmer einschlieszlich Frühstück.
+
+B. 2. = Chambre à deux lits et chambre à bain avec petit dejeuner = Double bedroom with bathroom and continental breakfast = Zimmer mit zwei Betten, Badezimmer einschlieszlich Frühstück.
+
+P. 1. = Chambre avec pension par jour = Pension (board and lodging) per day, room included = Zimmer mit pension pro Tag.
+
+P. 2. = Chambre avec pension par jour avant et après la saison = Pension (board and lodging) per day, room included, before and after season = Zimmer mit pension pro Tag, vor und nach der Hochsaison.
+
+L. = Déjeuner = Luncheon = Gabelfrühstück.
+
+D. = Diner = Dinner = Diner (Abendessen).
+
+\* Eau courante = Running water = Flieszendes Wasser.
+
+1 Florin = 20 d. (approx) = $ 0,4 (approx) = Goldmark 1,70.
+
+Pour toutes informations ou plaintes s'adresser au Bureau Officiel du Tourisme, 102 Lange Voorhout, La Haye.
+
+For information or complaints please apply to the Official Information Office for Tourists, 102 Lange Voorhout, The Hague.
+
+Für Auskunft oder Beschwerden wird man gebeten sich zu wenden an das Offizielle Verkehrsbüro, Lange Voorhout 102, Haag.
+```
 
 ## Images, Captions, And Visual Notes
-- A small, dark circular mark is present in the top right margin of the page.
-- Several small, handwritten arrow-like marks are present in the left margin next to items IV, VI, VII, VIII, and IX of the "ORDRE DU JOUR PROVISOIRE" list.
+
+There are no images, photographs, or significant illustrations on this page. The content is entirely textual, organized within a decorative border at the top and as a standard text block below.
 
 ## Uncertain Or Illegible
-None.
+
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and relevant visual notes.
+
+This page is fully transcribed.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements are present on this page that would be useful as standalone wiki assets. Minor handwritten marks are described in the 'Images, Captions, And Visual Notes' section."}
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text and simple decorative borders, with no images, photographs, or other significant visual elements suitable for cropping."
+}
+```
 
 ## Page Metadata
-Page: 91
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0094`
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Page: 94
 
 ## Layout And Reading Order
-
-The page contains a numbered list from X to XVIII, followed by a formal closing statement and two signatures with titles. The text is centrally aligned for the closing and signatures.
+The page consists of a single, large table listing hotels and their rates in various Dutch cities. The reading order is from top to bottom, row by row. City names act as section headers within the table.

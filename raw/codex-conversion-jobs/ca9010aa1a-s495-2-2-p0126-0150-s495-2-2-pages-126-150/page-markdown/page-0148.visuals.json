@@ -1,0 +1,61 @@
+{
+  "created": "2026-05-17T10:28:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+  "page": 148,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0148.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0148.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Three panels illustrating men shaving in different settings (outdoors, bathroom, bedroom), part of a Gillette razor advertisement.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        19.5,
+        17.5,
+        40.5,
+        86.5
+      ],
+      "bbox_pixels": [
+        221,
+        275,
+        471,
+        1385
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0148/page-0148-image-01-gillette-shaving-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0148/page-0148-image-01-gillette-shaving-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0148.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+      "page": 148,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0148.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "product_image",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "",
+      "source_context": "An open Gillette razor case containing a razor and blades, featured in a Gillette advertisement."
+    },
+    {
+      "region_id": "region_3",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Gillette",
+      "source_context": "Large stylized 'Gillette' logo with 'TRADE' and 'MARK' on a diamond shape, at the bottom of the advertisement."
+    }
+  ],
+  "flags": []
+}

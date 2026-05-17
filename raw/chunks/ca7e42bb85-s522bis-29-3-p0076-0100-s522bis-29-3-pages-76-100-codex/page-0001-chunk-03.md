@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ec9d78878adc-P0001-03
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-03
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ec9d78878adcc8475176c0af7c31afe36fdfa029cb06428fdc10047cf0941515
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -146,150 +146,86 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-Page number: 80
+- Task id: `source-prep:ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100:p0080`
+- Source: `raw/sources/S522bis-29-3.pdf`, page 80
+- Page number: 1692
 
 ## Layout And Reading Order
-The page features a two-column layout. The header "1892 CAMARA DE DIPUTADOS Septiembre 21" spans across the top of both columns. The main content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom.
+This page has a two-column layout. The reading order is the header, followed by the left column from top to bottom, and then the right column from top to bottom.
 
 ## Literal Transcription
-1892                                CAMARA DE DIPUTADOS                                Septiembre 21
+[Header, across both columns]
+`1692 CAMARA DE DIPUTADOS Septiembre 21`
 
-Sr. Presidente (Goyeneche). — Se va a votar
-la indicación del señor diputado por Jujuy,
-doctor Sánchez de Bustamante, en el sentido
-de que en el orden de las preferencias se trate
-el despacho relativo a desagües fluviales en la
-Capital.
+[Left column]
+**Sr. Presidente** (Goyenenche). — Se va a votar la indicación del señor diputado por Jujuy, doctor Sánchez de Bustamante, en el sentido de que en el orden de las preferencias se trate el despacho relativo a desagües fluviales en la Capital.
 
 —Resulta afirmativa.
 
-Sr. Presidente (Goyeneche). — Se va a votar
-la indicación del señor diputado doctor Ro-
-deyro respecto del despacho de la comisión es-
-pecial de código penal, para que sea trata-
-do...
-Sr. Ferreyra. — Creyendo interpretar el pen-
-samiento de muchos señores diputados que tie-
-nen interés de sancionar el código penal pero
-que los ha tomado de sorpresa la indicación de
-votarlo inmediatamente, voy a pedir al señor
-diputado Rodeyro que, a objeto de que la mo-
-ción prospere y pueda ser una realidad la san-
-ción de este código, que tratemos como primer
-asunto en la sesión del viernes, el despacho de
-la comisión, a fin de que todos puedan enterar-
-se de ese despacho y vengan preparados para
-votar sobre esta cuestión que es fundamental.
-Sr. Rodeyro. — Si me permite...
-Yo aceptaría siempre que fuera en la sesión
-del viernes o en la siguiente.
-Sr. Ferreyra. — Lo más importante es que
-todos los señores diputados se enteren de las
-reformas que han sido hechas por el honorable
-senado, para que tengan un criterio hecho, y
-en caso que esas reformas fueran rechazadas
-pueda pasar inmediatamente al senado y no
-se haga mayor discusión sobre este asunto.
-Sr. Demaría. — Yo acepto la indicación
-porque no he tenido en ningún momento la
-idea de oponerme a que se trate el código penal,
-sino que se nos dé a los diputados que quere-
-mos votar conscientemente, el tiempo necesa-
-rio para conocer el despacho.
-Yo votaría la moción del señor diputado
-Ferreyra si el señor diputado acepta modifi-
-carla en el sentido de que ese asunto se trate
-en la sesión del viernes, o en la subsiguiente
-si en esa sesión no pudiese ser tratado, siem-
-pre que se hubiera terminado de considerar
-las preferencias que la cámara ha sancionado.
-De lo contrario vendría a quedar sin efecto la
-sanción que la cámara, por una gran mayoría,
-ha manifestado la voluntad de realizar. Creo
-que el señor diputado Ferreyra no tiene el
-propósito de dejar las pensiones a media san-
-ción.
-Sr. Ferreyra. — En realidad el señor dipu-
-tado me ha hecho una interrupción, porque
-yo no había terminado.
-Los señores diputados deben considerar si
-las reformas hechas por el senado son de tal
-importancia que puedan perjudicar el gran
-pensamiento que ha tenido la cámara de dipu-
-tados al sancionar el nuevo código penal. Hay
-que tener en cuenta que en caso de que nos-
-otros las rechazáramos es posible que este año
-no tuviéramos el nuevo código.
-Me parece que si los señores diputados es-
-tudian este asunto y vienen ya con un criterio
-hecho, la discusión no absorberá a la cámara
-más de una hora, pues según tengo entendido
-el informe de la comisión ha de ser muy
-breve.
-No puedo aceptar la indicación del señor di-
-putado, porque podría dar lugar a que nos que-
-dáramos sin el código penal. En caso de que
-la discusión sobre este asunto llevara más de
-dos horas, se podría pasar nuevamente a las
-pensiones; pero creo que eso no ha de suceder
-si los señores diputados estudian las reformas
-sancionadas por el senado, porque así podrá
-resolverse rápidamente el asunto sin necesidad
-de discursos doctrinarios.
-Sr. Presidente (Goyeneche). — ¿Acepta la
-indicación el señor diputado?
-Sr. Rodeyro. — Acepto que sea para la se-
-sión del viernes o subsiguiente.
-Sr. Ferreyra. — Como primer asunto con
-exclusión de cualquier otro.
-Sr. Demaría. — Lo que yo no quiero — y
-lo siento mucho porque no quiero aparecer co-
-mo adversario de que se trate el código penal
-— es que queden en suspenso los despachos de
-pensiones porque llegue el momento de tratar
-el código penal.
-No tengo inconveniente en que se haga una
-sesión especial el sábado, siempre que se es-
-tablezca que ese asunto se tratará después de
-terminadas las pensiones.
-Sr. Rodríguez (J. R.) — Voy a pedir que se
-fije una sesión especial, el día sábado para tra-
-tar el despacho sobre código penal.
-Varios señores diputados. — ¡No! ¡No!
-Sr Rodríguez (J.R.) — De esa manera nos
-evitaremos las discusiones sobre si corresponde
-que se trate antes o después de las pensiones.
-Sr. de Tomaso. — Pido la palabra.
-El señor diputado Demaría dice que no quie-
-re aparecer como adversario del código penal.
-Yo estoy dispuesto a creerlo, pero debo decir-
-le con toda franqueza que la moción que él for-
-mula y los reparos que pone a otras parecería
-indicar todo lo contrario.
-Sr. Demaría. — Siento mucho.
-Sr. de Tomaso. — Yo también lo siento, por-
-que desearía que el señor diputado acompaña-
-ra este pensamiento, hasta por razones de soli-
-daridad con su excélega el doctor Rodolfo Mo-
-reno, que tanto trabajó en la reforma del có-
-digo penal, que en su oportunidad aconsejó en
-nombre de la comisión se sancionara a libro
-cerrado, lo que el señor diputado votó junto
-con muchos colegas de su sector. Recuerdo
-perfectamente el hecho. El señor diputado De-
-maría no debe insistir en poner reparos a la
+**Sr. Presidente** (Goyenenche). — Se va a votar la indicación del señor diputado doctor Rodeyro respecto del despacho de la comisión especial de código penal, para que sea tratado...
+
+**Sr. Ferreyra.** — Creyendo interpretar el pensamiento de muchos señores diputados que tienen interés de sancionar el código penal pero que los ha tomado de sorpresa la indicación de votarlo inmediatamente, voy a pedir al señor diputado Rodeyro que, a objeto de que la moción prospere y pueda ser una realidad la sanción de este código, que tratemos como primer asunto en la sesión del viernes, el despacho de la comisión, a fin de que todos puedan enterarse de ese despacho y vengan preparados para votar sobre esta cuestión que es fundamental.
+
+**Sr. Rodeyro.** — Si me permite...
+Yo aceptaría siempre que fuera en la sesión del viernes o en la siguiente.
+
+**Sr. Ferreyra.** — Lo más importante es que todos los señores diputados se enteren de las reformas que han sido hechas por el honorable senado, para que tengan un criterio hecho, y en caso que esas reformas fueran rechazadas pueda pasar inmediatamente al senado y no se haga mayor discusión sobre este asunto.
+
+**Sr. Demaría.** — Yo acepto la indicación porque no he tenido en ningún momento la idea de oponerme a que se trate el código penal, sino que se nos dé a los diputados que queremos votar conscientemente, el tiempo necesario para conocer el despacho.
+
+Yo votaría la moción del señor diputado Ferreyra si el señor diputado acepta modificarla en el sentido de que ese asunto se trate en la sesión del viernes, o en la subsiguiente si en esa sesión no pudiese ser tratado, siempre que se hubiera terminado de considerar las preferencias que la cámara ha sancionado. De lo contrario vendría a quedar sin efecto la sanción que la cámara, por una gran mayoría, ha manifestado la voluntad de realizar. Creo que el señor diputado Ferreyra no tiene el propósito de dejar las pensiones a media sanción.
+
+**Sr. Ferreyra.** — En realidad el señor diputado me ha hecho una interrupción, porque yo no había terminado.
+
+Los señores diputados deben considerar si las reformas hechas por el senado son de tal importancia que puedan perjudicar el gran pensamiento que ha tenido la cámara de dipu-
+
+[Right column]
+tados al sancionar el nuevo código penal. Hay que tener en cuenta que en caso de que nosotros las rechazáramos es posible que este año no tuviéramos el nuevo código.
+
+Me parece que si los señores diputados estudian este asunto y vienen ya con un criterio hecho, la discusión no absorberá a la cámara más de una hora, pues según tengo entendido el informe de la comisión ha de ser muy breve.
+
+No puedo aceptar la indicación del señor diputado, porque podría dar lugar a que nos quedáramos sin el código penal. En caso de que la discusión sobre este asunto llevara más de dos horas, se podría pasar nuevamente a las pensiones; pero creo que eso no ha de suceder si los señores diputados estudian las reformas sancionadas por el senado, porque así podrá resolverse rápidamente el asunto sin necesidad de discursos doctrinarios.
+
+**Sr. Presidente** (Goyenenche). — ¿Acepta la indicación el señor diputado?
+
+**Sr. Rodeyro.** — Acepto que sea para la sesión del viernes o subsiguiente.
+
+**Sr. Ferreyra.** — Como primer asunto con exclusión de cualquier otro.
+
+**Sr. Demaría.** — Lo que yo no quiero, y lo siento mucho porque no quiero aparecer como adversario de que se trate el código penal — es que queden en suspenso los despachos de pensiones porque llegue el momento de tratar el código penal.
+
+No tengo inconveniente en que se haga una sesión especial el sábado, siempre que se establezca que ese asunto se tratará después de terminadas las pensiones.
+
+**Sr. Rodríguez** (J. R.) — Voy a pedir que se fije una sesión especial, el día sábado para tratar el despacho sobre código penal.
+
+**Varios señores diputados.** — ¡No! ¡No!
+
+**Sr Rodríguez** (J.R.) — De esa manera nos evitaremos las discusiones sobre si corresponde que se trate antes o después de las pensiones.
+
+**Sr. de Tomaso.** — Pido la palabra.
+
+El señor diputado Demaría dice que no quiere aparecer como adversario del código penal Yo estoy dispuesto a creerlo, pero debo decirle con toda franqueza que la moción que él formula y los reparos que pone a otras parecería indicar todo lo contrario.
+
+**Sr. Demaría.** — Siento mucho.
+
+**Sr. de Tomaso.** — Yo también lo siento, porque desearía que el señor diputado acompañara este pensamiento, hasta por razones de solidaridad con su excolega el doctor Rodolfo Moreno, que tanto trabajó en la reforma del código penal, que en su oportunidad aconsejó en nombre de la comisión se sancionara a libro cerrado, lo que el señor diputado votó junto con muchos colegas de su sector. Recuerdo perfectamente el hecho. El señor diputado Demaría no debe insistir en poner reparos a la
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+There are no images, captions, or other visual elements on this page beyond the text layout.
 
 ## Uncertain Or Illegible
-None.
+There are no uncertain or illegible parts of this page.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page contains only text from a legislative record, with no images, illustrations, or other significant visual elements."
+}
+```
 
 ## Page Metadata
 Page number: 81

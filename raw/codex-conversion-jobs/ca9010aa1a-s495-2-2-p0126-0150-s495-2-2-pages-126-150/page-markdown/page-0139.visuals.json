@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:51Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+  "page": 139,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0139.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0139.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "¡Corre, corre,\nque te pican!\nObtendrá alivio inmediato si se\nfricciona con Mentholatum en\ndonde la piel esté enferma o envenenada\npor la picadura de los insectos, plantas\nvenenosas u otras causas semejantes; des-\ntruye los gérmenes peligrosos y quita el\ndolor rápida y completamente. En uso por\nmillones de personas en todo el mundo.\nUNA CREMA SANATIVA\nMentholatum\nIndispensable en el Hogar\nAplíquese para el dolor de cabeza, neu-\nralgia, golpes contusos, dolor de músculos,\neczema, irritaciones e inflamaciones de la\npiel, catarro, cortadas, refriados, etc.\nDe venta en las Boticas y Droguerías.\nUnicos Fabricantes:\nTHE MENTHOLATUM CO.,\nBUFFALO, N. Y., E. U. A.",
+      "caption_type": "source-caption",
+      "identity_basis": "advertisement",
+      "source_context": "This is a large advertisement for Mentholatum, featuring an illustration of people being stung by bees and the product's benefits.",
+      "confidence": "0.95",
+      "inline_anchor": "¡Corre, corre,\nque te pican!",
+      "bbox_pct": [
+        10.0,
+        49.5,
+        64.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        110,
+        792,
+        734,
+        1452
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0139/page-0139-image-01-mentholatum-ad-page-139.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0139/page-0139-image-01-mentholatum-ad-page-139.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0139.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+      "page": 139,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0139.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

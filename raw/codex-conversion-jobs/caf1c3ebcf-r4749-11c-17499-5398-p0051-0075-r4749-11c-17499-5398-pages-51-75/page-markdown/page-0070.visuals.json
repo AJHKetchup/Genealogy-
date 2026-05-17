@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-17T10:30:48Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/manifest.json",
+  "page": 70,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/page-images/page-0070.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/page-markdown/page-0070.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "Embossed national emblem",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Top left, above the printed text 'Ministerio de Relaciones Exteriores y Culto'.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.9,
+        10.0,
+        16.9,
+        14.9
+      ],
+      "bbox_pixels": [
+        139,
+        193,
+        226,
+        298
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/extracted-images/page-0070/page-0070-image-01-embossed-national-emblem-70.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/extracted-images/page-0070/page-0070-image-01-embossed-national-emblem-70.png",
+      "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/page-images/page-0070.jpg",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/manifest.json",
+      "page": 70,
+      "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/page-markdown/page-0070.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "MINISTERIO DE RELACIONES EXTERIORES Y CULTO REPUBLICA ARGENTINA [National Emblem]",
+      "source_context": "Circular blue ink stamp in the bottom left margin."
+    }
+  ],
+  "flags": []
+}

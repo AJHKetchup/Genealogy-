@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:50:28Z",
+  "created": "2026-05-17T10:27:28Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -13,26 +13,26 @@
     {
       "region_id": "region_1",
       "kind": "illustration",
-      "caption_literal": "",
+      "caption_literal": "‘NAPOLEON’",
       "caption_type": "nearby-text",
-      "identity_basis": "visual-content",
-      "source_context": "Illustration for 'Napoleon' suits advertisement.",
-      "confidence": "0.95",
-      "inline_anchor": "",
+      "identity_basis": "none",
+      "source_context": "A cartoon illustration for an advertisement for 'NAPOLEON' brand suits.",
+      "confidence": "1.0",
+      "inline_anchor": "[illustration of a man in a top hat holding a large pair of scissors]",
       "bbox_pct": [
-        10.0,
-        11.0,
-        40.0,
-        47.0
+        9.8,
+        8.2,
+        49.8,
+        48.3
       ],
       "bbox_pixels": [
-        133,
-        202,
-        551,
-        885
+        130,
+        150,
+        685,
+        910
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-01-illustration-man-with-scissors.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-01-illustration-man-with-scissors.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-01-page-0066-region-1-napoleon-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-01-page-0066-region-1-napoleon-ad.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0066.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
@@ -45,24 +45,24 @@
       "kind": "illustration",
       "caption_literal": "Modelo No. 5.",
       "caption_type": "source-caption",
-      "identity_basis": "visual-content",
-      "source_context": "Illustration for 'Tonophone' phonograph advertisement.",
-      "confidence": "0.95",
-      "inline_anchor": "",
+      "identity_basis": "none",
+      "source_context": "An illustration of a phonograph for a 'TONOPHONE' advertisement.",
+      "confidence": "1.0",
+      "inline_anchor": "[illustration of a phonograph cabinet]",
       "bbox_pct": [
-        59.0,
-        9.0,
-        90.0,
-        47.0
+        66.2,
+        9.2,
+        91.8,
+        48.2
       ],
       "bbox_pixels": [
-        803,
-        165,
-        1234,
-        885
+        901,
+        168,
+        1259,
+        908
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-02-illustration-tonophone-model-5.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-02-illustration-tonophone-model-5.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-02-page-0066-region-2-tonophone.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0066/page-0066-image-02-page-0066-region-2-tonophone.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0066.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

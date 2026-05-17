@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:30:12Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+  "source_sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+  "job_manifest": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/manifest.json",
+  "page": 123,
+  "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-images/page-0123.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-markdown/page-0123.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_001",
+      "kind": "illustration",
+      "caption_literal": "A circular emblem featuring a stylized, intertwined design, possibly representing letters or a symbolic motif, enclosed within a double circle.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-elements",
+      "source_context": "Centered on the page, below the author's information.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        47.0,
+        44.9,
+        52.9,
+        50.9
+      ],
+      "bbox_pixels": [
+        463,
+        675,
+        530,
+        774
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/extracted-images/page-0123/page-0123-image-01-emblem-intertwined-design.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/extracted-images/page-0123/page-0123-image-01-emblem-intertwined-design.png",
+      "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-images/page-0123.jpg",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+      "source_sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+      "job_manifest": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/manifest.json",
+      "page": 123,
+      "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket4-pages-101-125/page-markdown/page-0123.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

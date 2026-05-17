@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a1c4fb3e2686-P0001-05
+chunk_id: CHUNK-df0d8db38b1f-P0001-05
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: a1c4fb3e26864710dc8987fd04a58280750fac090977d7a778ae457103262f83
+converted_sha256: df0d8db38b1fc6076333e3fa53b80733d53ef8e89b5259df68435b56da6850f6
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -10,6 +10,9 @@ page_start: 1
 page_end: 1
 part: 5
 ---
+
+## Layout And Reading Order
+The page contains a typed document with a page number at the top right. The main content consists of several numbered articles, preceded by a horizontal rule. This is followed by a list of names aligned to the right. A circular stamp with a signature and a "Es Copia" note is present on the left side, below the main text. Two small punch holes are visible on the left margin.
 
 ## Literal Transcription
 ```
@@ -231,43 +234,3 @@ The transcription is complete and includes all visible text from the page.
 
 ## Layout And Reading Order
 The page presents a single column of typewritten text, formatted as a series of numbered articles. A header with departmental information is at the top left, and a page number is at the top right. The text flows continuously from top to bottom.
-
-## Literal Transcription
-DIRECCION GENERAL DE MATERNIDAD E INFANCIA
-DEPARTAMENTO NACIONAL DE HIGIENE
-- 5 -
-
-de Educación, a los fines de su reconocimiento.
-Artículo 13.-- Donde las necesidades de los escolares
-lo requieran, el Consejo Nacional de Educación, en representa-
-ción del Estado, asumirá la responsabilidad de proveer de alimen-
-tos a los niños, en comedores escolares.
-Artículo 14.-- El Poder Ejecutivo, previo asesoramien-
-to del Consejo Nacional de Educación, procurará la instalación
-de comedores escolares, en los cuarteles de los regimientos en
-que fuera apropiado prestar dicho servicio.
-Artículo 15.-- El Consejo Nacional de Educación proce-
-derá a la creación de hogares escuelas en aquellas regiones de
-la República, donde la dispersión de la población, dificultad de
-las comunicaciones o falta de recursos de los padres, mala ali-
-mentación de los niños u otros factores, las hagan necesarias, a
-juicio de sus autoridades.
-Artículo 16.-- Los hogares escuelas se establecerán en
-ambientes higiénicos apropiados, con superficie de tierra apta
-para el cultivo y corrientes naturales u otra agua potable.
-Artículo 17.-- Los hogares escuelas funcionarán en lo-
-cales económicos y sencillos, que consulten las exigencias medi-
-copedagógicas, debiendo utilizarse en su construcción, en cuanto
-sea posible, materiales de la región. Tendrán las condiciones de
-comodidad, que determinará para cada clima, la Dirección de Ar-
-quitectura del Consejo Nacional del Consejo Nacional de Educación.
-Artículo 18.-- En los hogares escuelas, que estarán re-
-gidos por el sistema del internado, habrá servicio médico permanen-
-te, si el Consejo Nacional de Educación lo creyere necesario, y la
-alimentación será científicamente administrada.
-Artículo 19.-- En los hogares escuelas se impartirá la
-enseñanza primaria exigida por los programas oficiales del Conse-
-jo Nacional de Educación. Además se impartirá una enseñanza com-
-plementaria que inicie a los niños en la educación por el trabajo.
-Artículo 20.-- La dirección de cada hogar escuela, es-
-tará a cargo de un docente casado, que deberá vivir en el estable-

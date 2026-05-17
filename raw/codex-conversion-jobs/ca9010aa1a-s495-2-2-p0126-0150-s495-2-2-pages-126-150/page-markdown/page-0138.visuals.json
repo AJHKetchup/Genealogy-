@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-17T10:28:50Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+  "page": 138,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0138.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0138.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "“Gets-It” Cura Callos\nLos callos se desprenden\ntan facilmente como se desprende la\ncáscara del plátano, cuando Ud. los toca\ncon 2 o 3 gotas de “Gets-It.” El seguro,\nfácil y pronto destructor de callos. No\ncausa peligrosas cortaduras. Instantaneo\nalivio del dolor. Puesta una bagatela—\ndondequiera. Fabricado por E. Lawrence\n& Co., Chicago, E. U. A.",
+      "source_context": "Advertisement for a corn remover product."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "QUINA-LAROCHE\nTÓNICO, RECONSTITUYENTE y FEBRÍFUGO\nRecomendado por todos los Médicos.\nLa QUINA-LAROCHE es de sabor muy\nagradable y contiene todos los principios de las\ntres mejores especies de quina. Es superior con\nmucho á todos los demás vinos de quina y está\nreconocida por las celebridades médicas del mundo\nentero como el Tónico y el Reconstituyente\npor excelencia en los casos de:\nDEBILIDAD, AGOTAMIENTO\nFALTA DE APETITO, DISPEPSIA\nCONVALECENCIAS, CALENTURAS\nDE VENTA EN TODA BUENA FARMACIA\nExíjase la VERDADERA QUINA-LAROCHE\n1079",
+      "source_context": "Advertisement for a tonic and febrifuge product."
+    }
+  ],
+  "flags": []
+}

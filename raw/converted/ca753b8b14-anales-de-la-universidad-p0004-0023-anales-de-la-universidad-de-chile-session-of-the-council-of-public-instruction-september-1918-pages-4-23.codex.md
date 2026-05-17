@@ -9,6 +9,8 @@
 - Extracted images: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23/extracted-images`
 
 ## Page Metadata
+Page number: 4
+
 ## Layout And Reading Order
 The page is blank.
 
@@ -16,17 +18,17 @@ The page is blank.
 The page is blank.
 
 ## Images, Captions, And Visual Notes
-The page is blank.
+The page is blank. There are no images, captions, or visual notes.
 
 ## Uncertain Or Illegible
-None. The page is blank.
+The page is blank. There is no uncertain or illegible text.
 
 ## Completeness Audit
-The page is entirely blank. No content was found to transcribe or describe.
+The page is completely blank.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "Page is blank."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no visual content."}
 ```
 
 # Page 5
@@ -113,17 +115,17 @@ The page is entirely blank.
 [The page is blank.]
 
 ## Images, Captions, And Visual Notes
-The page contains no images, captions, or other meaningful visual content. It appears to be a blank page with a textured, yellowish-brown background.
+The page is blank and contains no images, captions, or other meaningful visual content.
 
 ## Uncertain Or Illegible
-No text or content is present to be uncertain or illegible.
+None. The page is blank.
 
 ## Completeness Audit
-The page is entirely blank. The conversion is complete and accurate.
+The page is entirely blank. The transcription is complete and accurate.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content to extract."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content."}
 ```
 
 # Page 7
@@ -207,20 +209,20 @@ No interpretation was produced by the Docling basic conversion pass.
 The page is entirely blank.
 
 ## Literal Transcription
-(Page is blank)
+[The page is blank.]
 
 ## Images, Captions, And Visual Notes
-The page is entirely blank. There are no images, captions, or other meaningful visual elements. Very faint, illegible ghosting from text on an adjacent page is visible in some areas, but it does not constitute content on this page.
+The page is entirely blank, with no discernible text, images, or markings. There are some extremely faint, ghosted impressions of text, likely from the reverse side of the page or a previous page, but they are not legible and do not constitute content on this page.
 
 ## Uncertain Or Illegible
-No content to transcribe.
+None. The page is blank.
 
 ## Completeness Audit
 The page is entirely blank. The transcription accurately reflects this.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank and contains no meaningful visual content to extract."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely blank with no discernible content to crop."}
 ```
 
 ## Page Metadata
@@ -268,37 +270,48 @@ This page has been transcribed in its entirety.
 ```
 
 ## Page Metadata
-No explicit page number is visible on this page.
+Page 10
 
 ## Layout And Reading Order
-The page is mostly blank, featuring a circular stamp in the upper-middle left and some extremely faint, illegible text in the background. The reading order is from the stamp to the background text.
+The page is largely blank, featuring a faint circular stamp in the upper-middle left section. There is also extremely faint, almost illegible text visible in the background, likely bleed-through from another page or a very light watermark. The reading order is the stamp, followed by the faint background text.
 
 ## Literal Transcription
+[Faint circular stamp, upper-middle left:]
 BRITISH MUSEUM
 NATURAL HISTORY
-[Extremely faint, illegible text in the background, possibly bleed-through from another page.]
+
+[Extremely faint text, mostly on the right side, possibly bleed-through or watermark:]
+ANALES DE LA UNIVERSIDAD [?]
+DE CHILE [?]
+SESION [?] DEL CONSEJO [?] DE INSTRUCCION [?] PUBLICA [?]
+SETIEMBRE [?] DE 1918 [?]
 
 ## Images, Captions, And Visual Notes
-A circular stamp is present on the page, featuring the text "BRITISH MUSEUM" at the top arc and "NATURAL HISTORY" at the bottom arc, encircling a crest. The crest appears to be the Royal Arms of the United Kingdom. The stamp is faint and appears to be a library or institutional mark.
+A faint, circular stamp is present in the upper-middle left of the page. It features the text "BRITISH MUSEUM" at the top and "NATURAL HISTORY" at the bottom, encircling a central crest which appears to be the Royal Arms of the United Kingdom.
 
 ## Uncertain Or Illegible
-The text in the background is extremely faint and illegible. It appears to be printed text, possibly from the reverse side of the page or a very light watermark, but no characters can be discerned with certainty.
+The background text is extremely faint and difficult to discern with certainty. Readings marked with `[?]` are highly uncertain.
 
 ## Completeness Audit
-The transcription and description are complete for all visible and discernible content on the page. The faint background text has been noted as illegible.
+The transcription is complete. All visible text and the stamp have been captured.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "visual_001",
+      "region_id": "vr_1",
       "kind": "stamp",
-      "bbox_pct": [29.9, 26.4, 43.4, 43.0],
+      "bbox_pct": [
+        33.0,
+        26.0,
+        43.0,
+        43.0
+      ],
       "caption_literal": "BRITISH MUSEUM\nNATURAL HISTORY",
-      "caption_type": "source-caption",
-      "identity_basis": "text-on-visual",
-      "source_context": "A circular stamp with text and a crest.",
+      "caption_type": "converter-description",
+      "identity_basis": "text-content",
+      "source_context": "A circular stamp with text 'BRITISH MUSEUM' and 'NATURAL HISTORY' and a crest.",
       "confidence": 0.95,
       "suggested_filename": "british_museum_natural_history_stamp"
     }

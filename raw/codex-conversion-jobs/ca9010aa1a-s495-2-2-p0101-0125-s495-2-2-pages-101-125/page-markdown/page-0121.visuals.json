@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:38Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 121,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0121.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0121.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "El niño Daniel Fortín,\nhijo del distinguido caballero don Arturo\nFortín y su bella y culta señora esposa\ndoña Margarita Lardizábal de Fortín.\nDanielito cumplió el primer aniversario\nde su nacimiento ayer día 29. Que pueda\ncumplir mushos más siempre feliz y rodea-\ndo siempre del afecto de sus cariñosos\npadres, son nuestros deseos.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "The image is a portrait of a baby, identified by the caption as Daniel Fortín.",
+      "confidence": "0.95",
+      "inline_anchor": "El niño Daniel Fortín,",
+      "bbox_pct": [
+        37.3,
+        40.6,
+        52.9,
+        57.9
+      ],
+      "bbox_pixels": [
+        426,
+        643,
+        613,
+        927
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0121/page-0121-image-01-el-ni-o-daniel-fort-n-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0121/page-0121-image-01-el-ni-o-daniel-fort-n-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0121.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 121,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0121.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

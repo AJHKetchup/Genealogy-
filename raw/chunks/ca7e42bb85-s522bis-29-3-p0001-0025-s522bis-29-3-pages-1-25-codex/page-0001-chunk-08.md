@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-892a0f66c256-P0001-08
+chunk_id: CHUNK-a702ab3ebb2a-P0001-08
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: 892a0f66c2562ace1595eeac8926f41ef10b0bd60e2a137bb1abaa359ccead47
+converted_sha256: a702ab3ebb2a0e01c1221337dffc957e1904a4568f056c65e97b2868c36c4154
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -11,333 +11,193 @@ page_end: 1
 part: 8
 ---
 
-## Literal Transcription
-
-Buenos Aires, 26 de julio de 1935
-
-**Las Malvinas en la Cámara de
-los Comunes**
-
-En la sesión celebrada ayer por
-la Cámara de los Comunes pre-
-guntó el diputado Mr. Sandeman
-Allen si la cancillería de Londres
-entablará o no una reclamación
-ante nuestro gobierno por haber
-"secuestrado los documentos de
-identidad" de un ciudadano naci-
-do en las islas Malvinas en virtud
-de alegar la Argentina derechos
-de propiedad sobre ese territorio.
-Mr. Eden contestó en nombre del
-ministro de Relaciones Exteriores
-que nunca se dejó subsistente una
-duda para el gobierno argentino
-respecto de lo que piensa el go-
-bierno británico en este sentido y
-para el cual los Malvinas son un
-territorio británico y ciudadanos
-británicos los que nacen en su
-suelo. Comencemos por desvana-
-cer la grave y absurda tergi-
-versación en que incurrió el di-
-putado interpelante. El caso con-
-creto a que se refiere se dilucidó
-hace muy poco tiempo ante la
-justicia federal. Tratabase de un
-ciudadano, a quien nombra aquel
-legislador, que solicitó su enro-
-lamiento y documentación co-
-rrespondiente, de la cual carecía,
-porque había nacido en las Mal-
-vinas. Según se ve, estamos lejos
-del secuestro. No puede sorpren-
-dernos, ciertamente, la declara-
-ción del ministro Eden, ya que esa
-actitud es la que siempre observó
-Gran Bretaña en lo que concier-
-ne a esas islas. Esa actitud ha
-sido constantemente contradicha
-por lo que sostiene el gobierno
-argentino, que es precisamente
-lo opuesto, esto es, que dicho te-
-rritorio ha sido ocupado por la
-fuerza sin que se haya legitimado
-tácita o explícitamente por nues-
-tra parte esa ocupación, como
-lo demuestran los antecedentes
-diplomáticos de este antiguo asun-
-to. Desde que las islas fueron
-substraídas a nuestro dominio
-en enero de 1833, el país no
-dejó de protestar contra esa ocu-
-pación ni de probar su buen
-derecho. Ese territorio no se per-
-dió en una discusión jurídica cuyo
-resultado hubiese sido favorable
-al actual poseedor. Se perdió en
-una usurpación, es decir, en un
-acto de prepotencia violenta, y a
-partir de ese momento se sostuvo
-invariablemente que esas islas nos
-pertenecían. Desde el memorial
-famoso de D. Manuel Moreno, re-
-presentante argentino en Londres
-cuando se produjo esa invasión,
-hasta las últimas presentaciones
-de la misma índole, las gestiones
-atestiguan las ideas que profesa-
-ron en esa controversia los go-
-biernos argentinos, sin atenua-
-ción ni discrepancia. Y de acuerdo
-con esas ideas, con la certidum-
-bre de que nos asiste un derecho
-incontestable, la superioridad de
-la fuerza puede desconocer,
-pero no borrar, se ha considerado,
-en toda época, que los nacidos en
-las Malvinas son ciudadanos ar-
-gentinos. Es ésta una línea de
-conducta que se ha observado con
-inalterable continuidad y lo de-
-muestra un episodio que podrá ser
-ilustrativo, tanto para el diputado
-que hizo la interpelación en los
-Comunes como para el gobierno
-británico. Efectivamente, en sep-
-tiembre de 1934 solicitó carta de
-ciudadanía en el juzgado de Santa
-Cruz una persona oriunda de las
-Malvinas. El magistrado, en vez de
-otorgarla, rechazó la solicitud por-
-que lo que correspondía era darle
-documentos de ciudadano nativo,
-puesto que provenía de un lugar
-que para nosotros no es ni es po-
-sible que se le considere como tie-
-rra ajena por más que la de-
-tente una potencia extranjera. Es
-como el problema se plantea y se
-mantiene. Para la Argentina es
-argentino cualquiera que nazca en
-las Malvinas, como son argentinas
-las islas aunque el gobierno de la
-República no ejerza allí su sobe-
-ranía. Es una cuestión que el go-
-bierno británico puede discutir;
-lo que no puede es desconocer
-nuestra doctrina, ya que su aban-
-dono implicaría aceptar definiti-
-vamente posesión extraña. Desis-
-tir de lo que sostenemos tradicio-
-nalmente comportaría profesar
-sentimientos que la Argentina no
-profesa y equivaldría al recono-
-cimiento de las consecuencias de
-la usurpación de 1833, que jamás
-estuvo ni estará en su espíritu.
-
-LA NACION, B. Aires
-26 Julio 1935.
-
-26 AOUT 1935 / 99
-
-Mna. Jauregui
-M. Prunas
-
-## Images, Captions, And Visual Notes
-- A handwritten number "6" is present in the top right corner of the page.
-- Handwritten text "Mna. Jauregui" and "M. Prunas" is present in the left margin.
-- A stamped date "26 AOUT 1935" with a handwritten number "/ 99" is present in the right column.
-
-## Uncertain Or Illegible
-- None.
-
-## Completeness Audit
-The transcription is complete and includes all visible text and significant handwritten marks.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present; all meaningful content is text or minor handwritten annotations captured by transcription."}
-```
-
-## Page Metadata
-- Page number: 13
-- Source: `raw/sources/S522bis-29-3.pdf`
-
 ## Layout And Reading Order
-The page presents a typewritten letter in French, with handwritten annotations at the top and a handwritten signature at the bottom right. The reading order is from top to bottom, left to right.
+The page features a main title, a subtitle, and a heading, followed by three columns of text. The reading order proceeds from left to right, top to bottom within each column, then moves to the next column. There is a handwritten number in the top right corner and two small holes at the top of the page.
 
 ## Literal Transcription
-22 AOÛT 1935 / 198
-6
-22 août, 1935.
+Partido Revolucionario Cubano
+Manifiesto
 
-M. Abraham
+AL PUEBLO DE CUBA:
 
-Je vous remets ci-joint une coupure de
-"La Nación" de Buenos Aires du 20 juillet qui peut
-vous intéresser, afin d'être versée dans le dossier
-des Iles Falkland.
+La intervención de los Estados
+Unidos de Norte América en la lu-
+cha, casi secular, que el pueblo de
+Cuba mantenía contra su metrópoli
+marca el final de nuestra lucha con-
+tra España y el inicio del dominio
+económico en nuestra Isla por la po-
+tencia interventora. La lucha arma-
+da conocida con el nombre de gue-
+rra Hispano Americana y de la cual
+surgió nuestra nominal independen-
+cia estaba originada por la creciente
+expansión de los Estados Unidos.
+El carácter de esta expansión había
+sufrido radical transformación en
+los finales del siglo XIX. No era
+ya la necesidad de nuevos territo-
+rios en que colocar el excedente
+de población y que había determina-
+do la incorporación de la Luisiana
+y de los grandes territorios del Oes-
+te. El nuevo excedente que requería
+la expansión era un excedente de
+producción que demandaba nuevos
+mercados y un sobrante de capital,
+que demandaba nuevas fuentes de
+explotación. Los Estados Unidos no
+buscaban ya nuevos estados, que in-
+corporar a la Unión. Buscaban zo-
+nas de influencia, en las cuales sus
+productos pudieran ser colocados,
+con preferencia a otros competido-
+res, y sus capitales invertidos con
+garantías para su máxima explota-
+ción. La formidable expansión in-
+dustrial del final del siglo, conver-
+tía pues, a los Estados Unidos en
+potencia imperialista, y las influen-
+cias de este hecho transformaban de
+modo decisivo su interés por Cuba.
+Este interés no tenía ya como base
+el motivo estratégico, que tanto in-
+fluyó en los estadistas norte-ameri-
+canos del principio del siglo, ni el
+esclavista, que había sido liquidado
+con la guerra de Secesión. Los nue-
+vos factores económicos, predomi-
+nantes ya en la política internacio-
+nal de los Estados Unidos, veían en
+Cuba, y en las restantes colonias es-
+pañolas zonas propicias a su expan-
+sión capitalista. Este interés deter-
+minó la guerra Hispano-Americana.
 
-Juliánhoqueing
+que es una de las guerras típica-
+mente imperialistas de la Historia. Su
+verdadero carácter está determina-
+do, no por la romántica e ineficaz
+Resolución Conjunta; sino por la
+anexión de Puerto Rico y Filipinas
+y las subsiguientes aplicaciones a Cu-
+ba de la Enmienda Platt.
+
+El nacimiento de nuestra Repúbli-
+ca, coincidió pues fatalmente, con
+la aurora del imperialismo de Norte
+América. Conjuntamente con el si-
+glo se iniciaba el período histórico,
+que había de culminar, en conver-
+tir a los Estados Unidos en acree-
+dor universal. La Constituyente de
+1901 y los hombres que posterior-
+mente se hicieron cargo del Gobier-
+no ignoraron, o prefirieron ignorar
+este hecho, y se limitaron al mante-
+nimiento de una soberanía nominal,
+que abandonaba el dominio económi-
+co de Cuba al interés extranje-
+ro. Con rapidez casi fulminante, el capi-
+talismo norteamericano se erigió en ar-
+bitrio de la vida social, política y
+económica de la nueva república.
+Los sucesivos gobiernos republica-
+nos resultaron, cada vez en mayor
+escala, meros ejecutores de la vo-
+luntad de los grandes intereses ex-
+tranjeros. La vida económica de
+Cuba estuvo regida por los intereses
+azucareros hasta la catástrofe eco-
+nómica de 1920, y a partir de esa
+fecha, lo ha estado por los intereses
+bancarios, entre los cuales descuella
+el Chase National Bank. La vida
+política ha estado en todo tiempo
+regida por la Cancillería Norte Ame-
+ricana, que ha gobernado a Cuba en
+forma irresponsable. Taft en 1906,
+el período de la "intervención pre-
+ventiva" de Mr. Knox, la acción
+desembozada de Mr. González, la
+"actuación educadora" de mister
+Crowder, la constante importa-
+ción de técnicos y expertos de toda clase,
+constituye las fases más visibles de
+este dominio. En el orden social, el
+latifundismo azucarero y la acción
+
+de las grandes empresas extranjeras
+ha desplazado al cubano de todas las
+fuentes de producción y del disfru-
+te de toda propiedad. Las masas
+proletarias han sido sometidas a un
+régimen feudal de explotación y su
+nivel de vida rebajado, mediante la
+imposición de grandes masas de bra-
+ceros haitianos y jamaiquinos. La
+triple acción, política, social y eco-
+nómica de la penetración del capital
+norte-americano, ha llegado a diluir
+los propios fundamentos de nuestra
+nacionalidad. Al alborear el año
+1925, la República, creada por la
+Constituyente de 1901 era una mera
+ficción legal, mantenida como un
+tópico de propaganda del supuesto
+desinterés romántico de Norte-Amé-
+rica.
+
+El encargado de redactar la es-
+quela de defunción, fué Gerardo Ma-
+chado. Sin encontrar apenas resis-
+tencia en la podrida armazón re-
+publicana, el audaz tiranuelo des-
+trozó de un papirotazo los últimos
+vestigios del engendro romántico de
+1901, y sobre sus ruinas erigió un
+régimen personal, cuyo más sólido
+fundamento consistía, en poner to-
+dos los resortes del Gobierno al ser-
+vicio de los grandes intereses ex-
+tranjeros, e imponer despiadada-
+mente al pueblo de Cuba la contri-
+bución, que de él exigían esos inte-
+reses. Satisfechos estos con encon-
+trar, en una época de penuria, un
+tan enérgico agente de cobranza co-
+mo resultaba ser el dictador cubano,
+hicieron de éste su hombre de con-
+fianza. La Cancillería lo elevó a la
+categoría de garantizador de la paz
+y el orden. Baron Judah y mister
+Guggenheim fueron muestras pal-
+pables de esta favorable opinión. Con
+tan sólido respaldo, Machado esqui-
+lmó, pisoteó y asesinó consagrando
+para siempre el horror de su nom-
+bre. Pero el golpear despiadado de
+su pezuña de hierro acabó por en-
+cender inmensa hoguera de odio en
+el alma cubana, hoguera cuyo si-
 
 ## Images, Captions, And Visual Notes
-- A handwritten circled number "6" is present in the top right corner of the page.
-- A handwritten date and number "22 AOÛT 1935 / 198" are at the top center of the page.
-- A handwritten signature, "Juliánhoqueing", is present at the bottom right of the letter.
-
-## Uncertain Or Illegible
-- The handwritten signature "Juliánhoqueing" is transcribed as it appears, but the exact spelling might be subject to interpretation due to the cursive style.
-
-## Completeness Audit
-The transcription is complete and includes all visible text and significant handwritten marks on the page.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. Only minor handwritten annotations and a signature, which are handled by transcription."}
-
-## Page Metadata
-- Page number: 14
-- Source: S522bis-29-3.pdf
-
-## Layout And Reading Order
-The page contains a header at the top, followed by a single column of text, which appears to be an article or editorial.
-
-## Literal Transcription
-"LA NACION" Buenos Aires - 20 Julio 1935.
-
-**La ciudadanía y las Malvinas**
-La justicia federal acaba de resol-
-ver satisfactoriamente la causa for-
-mada a un ciudadano por infracción
-a las disposiciones de la ley 11.386,
-en lo que se refiere al enrolamiento
-militar. El sobreseimiento definitivo
-recaído en el acusado con la declara-
-ción expresa de que la formación del
-proceso no afecta su buen nombre y
-honor, resulta perfectamente justo si
-se atiende a los motivos valederos que
-han impedido al infractor cumplir
-con la referida obligación legal. Se
-trata, en efecto, de un ciudadano na-
-cido en las Islas Malvinas, donde no
-existe oficina enroladora argentina
-que le permitiera llevar a cabo ese
-trámite, que tampoco pudo efectuar
-en los consulados argentinos durante
-su permanencia en Europa, por ca-
-recer de documentos emanados de au-
-toridades de este país que justifica-
-sen su nacionalidad. El hecho de ha-
-berse presentado luego espontánea-
-mente el interesado ante el juez fe-
-deral solicitando su enrolamiento y
-esclareciendo su situación, mediante
-los legítimos descargos aludidos, evi-
-dencia que no ha habido en él ánimo
-delictivo y sí, por el contrario, el de-
-seo de reivindicar la ciudadanía que
-indiscutiblemente le corresponde. La
-incidencia es, por lo demás significa-
-tiva, en cuanto concurre a afirmar
-una vez más la conciencia, que debe
-formarse en los nativos de las Islas
-Malvinas, de que, siendo éstas parte
-integrante de nuestro territorio, per-
-tenecen ellos, según la doctrina aquí
-prevaleciente del "jus soli" a la na-
-cionalidad argentina. La actitud del
-ciudadano a que nos referimos impli-
-ca el reconocimiento de esta verdad
-y, como quiera que no pueda respon-
-sabilizársele de no haberla asumido
-antes, en virtud de los impedimentos
-mencionados, su absolución por la
-justicia es procedente y su enrola-
-miento un hecho satisfactorio.
-
-## Images, Captions, And Visual Notes
-A handwritten number "15" is present in the top right corner of the page, likely indicating a folio or subsequent page number.
+- A handwritten number "27044" is present in the top right corner of the page.
+- Two small circular holes are visible at the top of the page, likely from a binder.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+The transcription is complete and accurate, capturing all text and relevant visual notes from the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content requiring cropping. The handwritten page number '15' is a minor mark and not a significant visual asset for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals likely to be useful as standalone wiki assets were found. Minor marks like handwritten numbers and binder holes are noted in the 'Images, Captions, And Visual Notes' section."}
 ```
 
 ## Page Metadata
-- Page number: 15
-- Source publication year: 1935
+Page number: 24
 
 ## Layout And Reading Order
-The page contains a typewritten letter in French, dated March 1935. The text is presented in a standard letter format, with a date and reference number at the top right, a recipient's name on the left, followed by the body of the letter, and a handwritten signature at the bottom right. There is also a handwritten page number in the top right corner.
-
-## Literal Transcription
-20 MARS 1935 /12
-18 mars 1935.
-(4)
-
-M. ABRAHAM
-
-Je vous remets ci-joint un éditorial de "LA PRENSA"
-de Buenos Aires, en date du 24 février, intitulé "La natio-
-nalité des personnes nées aux Iles Falkland".
-
-Le contenu de cet éditorial peut se résumer ainsi:
-
-"Etant donné les faits sur lesquels le
-Ministère de l'Intérieur de la République Argenti-
-ne a basé sa résolution pour annuler les cédules
-d'identité des deux personnes nées aux Iles Fal-
-kland et auxquelles on avait attribué la nationa-
-lité anglaise, le journal signale l'utilité d'évi-
-ter et de corriger des erreurs semblables qui sont
-peut-être fréquentes dans les territoires méridio-
-naux de l'Argentine".
-
-Juliánhoqueira
-
-## Images, Captions, And Visual Notes
-A handwritten signature appears at the bottom right of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vis_001",
-      "kind": "signature",
-      "bbox_pct": [60.0, 57.0, 67.0, 80.0],
-      "caption_literal": "Juliánhoqueira",
-      "caption_type": "nearby-text",
-      "identity_basis": "transcribed",
-      "source_context": "The handwritten signature at the bottom right of the letter.",
-      "confidence": 0.95,
-      "suggested_filename": "signature_Julianhoqueira_1935.png",
-      "inline_anchor": "Juliánhoqueira"
-    }
-  ]
-}
-```
-
-## Page Metadata
-- Page number: 16
-- Source publication: LA PRENSA
-- Publication date: 24 février 1935
-- Source language: Spanish
-
-## Layout And Reading Order
-
-The page features a header at the top, followed by two columns of text. The left column is longer than the right column. The content flows from the top of the left column, then to the top of the right column, and continues downwards in each column.
+The page is laid out in two columns of justified text. The reading order is from left to right, top to bottom within each column, then to the top of the next column.

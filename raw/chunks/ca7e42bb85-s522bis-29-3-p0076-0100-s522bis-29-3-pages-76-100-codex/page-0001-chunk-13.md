@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ec9d78878adc-P0001-13
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-13
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ec9d78878adcc8475176c0af7c31afe36fdfa029cb06428fdc10047cf0941515
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -11,161 +11,296 @@ page_end: 1
 part: 13
 ---
 
+## Literal Transcription
+de 1921 CAMARA DE DIPUTADOS 1707
+
+tro país, crisol de todas las razas y de todos
+los hombres, el futuro argentino, basándolo so-
+bre la libertad, la igualdad y la fraternidad
+bien entendidas.
+Nada más. (¡Muy bien! ¡Muy bien! Aplau-
+sos).
+Sr. Rodeyro. — Pido la palabra.
+Este debate se ha generalizado, señor presi-
+dente, y diputados de diversos sectores se han
+creído en la necesidad de hacer una defensa del
+presupuesto de culto, y con ese motivo se han
+hecho algunas afirmaciones en el recinto, que
+es interesante desvirtuar, para colocar el asun-
+to en sus verdaderos términos.
+Como muy bien han dicho algunos señores di-
+putados, ésta es una de las ocasiones en que la
+honorable cámara puede entrar a esta discu-
+sión. Ella podría desde luego haberse encara-
+do con una reforma de la constitución en lo que
+se refiere al culto; pero para movilizar un de-
+bate de esa índole no se iba a circunscribir ex-
+clusivamente alrededor de la cláusula constitu-
+cional que manda sostener el culto católico.
+Nuestra constitución tiene algunos puntos so-
+bre los cuales ya varios señores diputados con
+proyectos presentados a la honorable cámara,
+han demostrado hasta la evidencia que su re-
+forma es necesaria. La forma en que se ha plan-
+teado la votación del presupuesto para 1920 en
+una sola votación excluyendo desde luego la
+posibilidad de manifestar por medio de una vo-
+tación por separado la oposición de cada dipu-
+tado sobre cada partida o cada inciso con el que
+no esté de acuerdo por sus ideas públicamente
+manifestadas lo que obliga a salvar situaciones
+de carácter personal frente a la forma de vo-
+tación.
+Se ha dicho en la honorable cámara que los
+sacerdotes habían intervenido en política. Es
+una afirmación perfectamente exacta. Los sa-
+cerdotes pertenecientes a la iglesia católica, man-
+tenida con los dineros del estado intervienen
+en política en forma pública. Lo han hecho en
+las últimas elecciones de convencionales en la
+provincia de Santa Fe desde el púlpito y en to-
+da forma llevando campañas contra los hom-
+bres que profesaban ideas liberales y podían
+hacerlas triunfar con una mayoría dentro de
+la convención de Santa Fe. Han movilizado to-
+das las personas que pudieran influir a los efec-
+tos de que esa sanción no fuera llevada a la
+práctica. En la Capital Federal, señor presi-
+dente, en las últimas elecciones nacionales, se
+notó el mismo hecho como tuve ocasión de ma-
+nifestarlo en forma concreta, en un ligero inci-
+dente que tuve con el señor diputado doctor
+Bas. El diario "El Pueblo" órgano católico,
+aconsejó se votara por determinada lista de
+candidatos haciendo una salvedad: que no de-
+bían votarse aquellos hombres que públicamen-
+te hubieran hecho profesión de fe liberal. "El
+Pueblo" se refería a algunos candidatos de la
+
+lista radical, entre los cuales estaba incluído el
+diputado que habla.
+El cura párroco de una parroquia bastante
+populosa de la metrópoli en conversación pri-
+vada con alguna persona de mi amistad, pudo
+comprobar que, en efecto, en la parroquia de
+San Carlos los sacerdotes hacían pública pro-
+paganda en el sentido de que no se votasen de-
+terminados candidatos radicales que pudieran
+substentar ideas liberales. Se referían a mí y a
+otros compañeros de lista.
+Como se ve, señores diputados, los católicos
+no se mueven por un color político determi-
+nado; movilizan sus huestes con el fin exclusivo
+de atacar a todo hombre que profese ideas li-
+berales, cualquiera sea su filiación. Esta pro-
+paganda la han sistematizado, poniéndola al
+servicio de una mal entendida defensa de los in-
+tereses de la iglesia defensa mal entendida por-
+que en esta forma lo único que se consigue es
+establecer mayor encono en los que sostienen que
+la acción de los católicos excesivamente cleri-
+cales es una acción contraria a la libertad y a
+la tolerancia, a esa santa tolerancia, como decía
+desde estas bancas hace algún tiempo un señor
+diputado, a esa santa tolerancia que hace a los
+hombres más buenos.
+Los defensores del presupuesto de culto plan-
+tean una cuestión pequeña a mi modo de ver:
+creen que pueden ligar las altas orientaciones
+de un país y los altos intereses colectivos me-
+diante la votación de determinadas sumas de di-
+nero para cumplir este precepto constitucional
+que, como ha sido demostrado ya, fué arranca-
+do en un momento de nuestra historia por una
+serie de transacciones a los hombres que que-
+rían ver reconstruída la nacionalidad, armoni-
+zando intereses contrapuestos y contemplando la
+situación de algunas conciencias pusilánimes y
+con el fin de evitar desgarramientos.
+Y fuera del parlamento ha sido y es un fac-
+tor que ha detenido muchos progresos de orden
+liberal, la hábil penetración del clero a nuestros
+hogares. Es en nuestros hogares donde día a
+día y hora por hora, cada vez que un hombre
+se encuentra en situación, con su voto o ac-
+titud, poner de manifiesto lo que es la unani-
+midad o la mayoría del pensamiento de nuestro
+país, recibe todo tipo de solicitaciones y de
+presiones. Es en nuestros hogares, en nuestras
+madres, en nuestras hermanas, en nuestras mu-
+jeres donde el sentimiento religioso golpea con
+más fuerza para poder torcer o desvirtuar el
+pensamiento de la santa tolerancia que los hom-
+bres que profesamos las ideas liberales quere-
+mos hacer triunfar una vez que llegamos a una
+posición política.
+Estas ideas no pertenecen a ningún partido.
+El señor diputado Justo el otro día decía que el
+señor presidente de la República había mani-
+festado ideas excesivamente católicas, y que eso
+lo hacía con fines electorales, y que a pesar de
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or other substantial visual elements on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page, preserving the original layout and line breaks.
+
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is entirely text-based and does not contain any meaningful images, diagrams, or other visual elements that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page. The page primarily consists of text."}
 ```
 
 ## Page Metadata
-Page number: 97
-Source publication: S522bis-29-3
+Page number: 96
 
 ## Layout And Reading Order
-The page is presented in a two-column layout. The left column begins with "de 1921" and continues with the main body of text. The right column begins with "CÁMARA DE DIPUTADOS" and the page number "1709", followed by the continuation of the main body of text. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
+
+The page features a two-column layout with a running header at the top. The header contains a number, the title "CÁMARA DE DIPUTADOS", and a date. The main content is presented in two columns of text, read from left to right, top to bottom.
 
 ## Literal Transcription
-de 1921
-tado González Iramain, cuando decía con toda
-verdad, que en las humildes regiones de La
-Rioja acaso haría mayor bien que un obispo,
-un austero fraile y lo decía con una unción
-realmente hermosa, que en momentos llegó a
-conmoverme, para enseñar la verdad y la vir-
-tud como las enseñaran los primeros apóstoles
-de la cristiandad y los primeros predicadores
-y evangelizadores de nuestro país.
-El señor diputado Dickmann me ha hecho el
-altísimo honor de reconocer que algo he ade-
-lantado desde 1914 hasta la fecha. Yo creo tam-
-bién retribuirle la gentil declaración, manifes-
-tándole, que yo observo igualmente que el se-
-ñor diputado ha adelantado bastante, y mu-
-cho, sobre todo en tolerancia y en respeto, co-
-mo en general la mayoría de los otros diputa-
-dos, compañeros de su grupo.
-Con esta ligera observación de carácter ge-
-neral, pasaré a formular algunas pequeñas rec-
-tificaciones de índole concreta.
-El señor diputado Dickmann hablaba de mis
-afirmaciones acerca de la importancia del pre-
-supuesto de culto.
-Debo desde luego hacer esta aclaración: los
-señores diputados habrán observado que no he
-dado yo tampoco importancia a la materialidad
-del presupuesto referido.
-He dicho y lo repito, que creo que el pre-
-supuesto de culto es una migaja del gran ban-
-quete del presupuesto nacional, siendo absolu-
-tamente irritante, completamente depresiva la
-situación a que se le tiene sometida a trueque
-de ese plato de lentejas, cuya falta en ningún
-caso podría detener su prosperidad y su gran-
-deza.
-El presupuesto de culto está allí escrito en
-las diferentes partidas del presupuesto; 900.000
-pesos en el anexo de culto; 300 o 400.000 pe-
-sos más en partidas de capellanes, hermanas
-de caridad etc., las distribuidas en los otros
-ministerios.
-Yo no puedo aceptar —y le voy a decir por
-qué— el que se incluya en el presupuesto de
-culto, los subsidios de beneficencia las asigna-
-ciones a establecimientos de índole educacio-
-nal.
-La mayor parte de las asignaciones referi-
-das tienden a favorecer, a ampliar la acción
-y el desarrollo de las escuelas privadas, lo que
-lejos de constituir para el tesoro público una
-carga en beneficio de los intereses católicos,
-se representa precisamente el origen del sal-
-do mayor del estado hacia los hombres y las
-instituciones de ese credo. Los números son
-números e irrefutables y por eso me he de
-referir a los mismos.
-Tengo aquí la memoria del Consejo nacional
-de Educación del año 1920, que acaba de re-
-partirse hace pocos días, y encuentro en ella,
 
-CÁMARA DE DIPUTADOS
-1709
-que el promedio del costo por alumno de pri-
-mera enseñanza, es de 107 pesos al año.
-¿Sabe el señor diputado cuántos niños de
-enseñanza primaria asisten a los estableci-
-mientos católicos costeados y sostenidos por
-el peculio de los mismos?: Ciento veinte mil, se-
-ñor diputado; de tal modo que multiplicando
-esa cifra por 107 pesos, que cuesta al estado
-la educación de cada uno de esos niños, tene-
-mos 14 millones de pesos más o menos ahorra-
-dos al estado anualmente por la educación pri-
-maria realizada con el peculio católico, en los
-propios establecimientos que él crea y sostiene.
-¿Sabe el señor diputado Dickmann cuánto
-cuesta término medio, la educación de cada
-alumno de colegio nacional y colegios secun-
-darios de artes y oficios?: 605 pesos al año,
-según los datos estadísticos que aquí tengo,
-sacados de los cuadros del presupuesto.
-Y en los establecimientos católicos de ense-
-ñanza secundaria y de artes y oficios se edu-
-can 8.000 alumnos; que con el gasto de 605
-pesos anuales, representan 5 millones de pesos
-economizados anualmente al estado: Es decir,
-en síntesis señor diputado, que la escuela ca-
-tólica ahorra al estado, por la educación que
-presta con su peculio propio en sus estableci-
-mientos de primaria y secundaria enseñanza
-diez y nueve millones de pesos anuales, más o
-menos.
-Pero eso no es todo, señor diputado: De más
-está expresar, que las familias católicas no
-mandan sus hijos a las escuelas primarias ni
-secundarias del estado y costean su educación
-en establecimientos formados de su credo, lo
-hacen porque la enseñanza de la escuela pú-
-blica laica, contraría fundamentalmente la li-
-bertad de conciencia, y que el padre, de convic-
-ciones profundamente católicas, no puede
-mandar tranquilamente a su hijo a la escuela
-sin religión, pues, como ayer dijera, no hay
-escuela neutra; o es religiosa o antirreligiosa.
-Si eso es axiomático en el estudio de las cien-
-cias filosóficas y morales lo es también en las
-ciencias naturales, pues apenas el hombre
-quiere penetrar al examen del principio, del
-origen de los seres, tiene fatalmente que cho-
-car en una cuestión de carácter religiosa: el
-señor diputado Dickman, por ejemplo, si fue-
-ra maestro de la escuela laica, acaso diría que
-el origen del hombre es el mono... (risas) pe-
-ro el maestro católico, enseñará a sus alumnos,
-que el origen del hombre es la creación de
-Dios sacándolo de la nada y colocándolo en el
-paraíso terrenal.
-No puede haber escuela neutra. Vuelvo a
-repetirlo, la escuela es necesariamente religio-
-sa o antirreligiosa. El padre, para no sentir
-molestada su conciencia, lleva a sus hijos a
-costa de los mayores sacrificios a la escuela,
+1708 CÁMARA DE DIPUTADOS Septiembre 21
+
+ello había defensores oficiosos de las ideas libe-
+rales en este recinto. En interrupciones que tu-
+vo a bien permitírseme salvé lo que a mí se refie-
+re, pero ya que los señores diputados que profe-
+san ideas católicas y que se han pronunciado sus
+ardientes defensores en este recinto amplían el
+debate, y obligan a cada uno a pronunciarse,
+he de dejar perfectamente establecido que en el
+partido Radical no se ha hecho nunca cuestión
+de ideas religiosas; que nadie, por más alto que
+esté colocado, puede sostener en ningún momen-
+to que la masa radical profese una idea religio-
+sa determinada; que nadie, por más alto que
+esté colocado, puede arrogarse el derecho de in-
+vocar sentimientos religiosos a nombre del par-
+tido Radical.
+
+Vuelvo a insistir. Aunque se encuentre en la
+primera magistratura del estado y haya salido
+de nuestras filas y haya podido tener una in-
+fluencia preponderante en el partido, no puede
+en ningún momento nadie hacer ningún acto pú-
+blico que comprometa la acción general del par-
+tido a este respecto. Habemos, dentro de la agru-
+pación política, muchos hombres que hemos lle-
+gado a posiciones electivas sin haber ocultado
+nuestras ideas respecto a este punto, y si el elec-
+torado nos ha votado ha sido con conocimiento
+de cuáles eran nuestras ideas y cuáles serían
+nuestras actitudes cuando estos asuntos se deba-
+tieran. Y si el presidente de la República o
+cualquier diputado o senador miembro del par-
+tido Radical presentara proyectos o defendiera
+el presupuesto de culto desde el punto de vista
+religioso — no el constitucional — lo que haga
+va de su cuenta y no compromete absolutamen-
+te la acción del partido Radical.
+
+Demás está decir que yo he de votar inva-
+riablemente en contra de cualquier proposición
+como la de creación de obispados, y asimismo en
+contra del presupuesto de culto. Creo, efecti-
+vamente, que una forma de salvar el escollo
+constitucional sería reducir a una suma insig-
+nificante el actual presupuesto de culto, y en esa
+forma estaríamos en condiciones de poder más
+adelante afrontar la reforma constitucional, no
+sólo en este punto sino en otros en que la dis-
+cusión de las leyes está poniendo en evidencia
+que es necesaria la reforma.
+
+De modo que la ardorosa y entusiasta defen-
+sa religiosa del señor diputado Bas y de otros
+diputados obliga a que el presupuesto no se
+discute por partes, a pronunciarse salvando los
+reparos que el presupuesto de culto sugiere a
+espíritus que se preocupan seriamente de estas
+cuestiones. Aquí, como se ha dicho hasta el can-
+sancio por otros señores diputados, se debate
+una cuestión seria y fundamental, una cues-
+tión de libertad absoluta de pensamiento, en el
+sentido más amplio y tolerante, y en ese concep-
+to, yo deseo que quede constancia de esto para
+estar siempre en concordancia frente al presu-
+puesto de culto.
+Nada más.
+Sr. Frugoni. — Pido la palabra.
+Sr. Bas. — Pido la palabra.
+He oído con verdadera complacencia al se-
+ñor diputado por la Capital, doctor Dickmann,
+sobre todo, en el hermoso final de su exposi-
+ción, donde ha hecho dos cantos magníficos:
+uno a la Biblia, a Jesús, a los primeros apósto-
+les, y el otro, a los progresos de la ciencia.
+Desde luego, puedo adelantar al señor dipu-
+tado que subscribo complacido esos dos magní-
+ficos elogios a dos órdenes de relaciones, cada
+una de las cuales dentro de su orden, represen-
+ta al supremo bien, al supremo ideal del
+hombre. Son la mejor consagración del concep-
+to espiritual y la idea religiosa, la cual dijo
+Thiers fue impresa por Dios en el hombre jun-
+tamente cuando iluminó con la razón a su es-
+píritu.
+
+Por eso puedo yo perfectamente decir — y a
+eso quería referirme cuando le pedí permiso
+para interrumpirlo — cómo una infinidad de
+sabios, entre otros Pasteur — indiscutiblemen-
+te el más grande, el que más bien ha hecho a
+la humanidad con sus magníficos descubrimien-
+tos en el orden científico — fueron también
+grandes creyentes. Y al lado de Pasteur me se-
+ría dable recordar otra pléyade de sabios, para
+concluir cómo no hay contradicción entre la
+ciencia y la fe, cómo hay una perfecta armonía
+entre las mismas, cómo ambas se complemen-
+tan y se abrillantan.
+
+Puedo, como decía, entonces, subscribir, las
+dos evocaciones del señor diputado a la Bi-
+blia, representación del concepto espiritualista,
+y de verdad revelada y a la ciencia, a la in-
+vestigación, que, como ha dicho el señor dipu-
+tado, citando a Renán representa sólo un pe-
+queño punto en ese mundo inmenso de lo des-
+conocido.
+
+Bien, señor diputado: la ciencia irá siempre
+evolucionando, irá siempre adelantando, pero
+jamás llegará a colmar ese claro, porque ese
+claro pertenece al infinito, porque ese claro
+pertenece a Dios!!!
+
+No puedo sino complacerme al observar có-
+mo el señor diputado ha adelantado mucho des-
+de la época en que por primera vez iniciara sus
+tareas legislativas hasta hoy.
+Debo también declarar que me fue muy gra-
+to oir ayer al señor diputado González Ira-
+main, defendiendo valientemente sus ideas,
+porque yo me siento mucho más cómodo, señor
+presidente, con los conceptos que frente a fren-
+te definen sus conceptos que con aquellos en
+presencia de los cuales uno no sabe cómo ha-
+blar ni cómo proceder, porque ocultan astuta-
+mente el origen y la finalidad de sus orienta-
+ciones.
+
+Por eso me era agradable oir al señor diputa-
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
+The page contains no images, captions, or other meaningful visual elements.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+None.
 
 ## Completeness Audit
 All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text in a two-column layout."}
-```
-
-## Page Metadata
-- Page number: 98
-- Source: `raw/sources/S522bis-29-3.pdf`
-
-## Layout And Reading Order
-The page features a two-column layout with a header spanning both columns. The reading order is from left to right, top to bottom within each column.

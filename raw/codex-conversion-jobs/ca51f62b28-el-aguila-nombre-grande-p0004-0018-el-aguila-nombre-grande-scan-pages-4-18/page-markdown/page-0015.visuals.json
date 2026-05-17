@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:52:07Z",
+  "created": "2026-05-17T10:26:42Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -13,17 +13,10 @@
   "skipped_regions": [
     {
       "region_id": "vr_1",
-      "kind": "other",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "\" \" PINCHASO \" \"",
-      "source_context": "This is a short, quoted phrase, possibly a subheading or a concluding remark for the preceding text block."
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "handwritten_annotation",
+      "kind": "handwritten_mark",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "15",
-      "source_context": "Handwritten page number at the bottom of the page."
+      "source_context": "Page number"
     }
   ],
   "flags": []

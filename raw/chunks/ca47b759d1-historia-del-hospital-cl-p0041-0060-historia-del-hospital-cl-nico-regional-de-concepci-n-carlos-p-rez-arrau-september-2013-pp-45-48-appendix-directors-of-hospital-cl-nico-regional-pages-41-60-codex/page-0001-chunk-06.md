@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d32b84297d3c-P0001-06
+chunk_id: CHUNK-1f1aa86b03aa-P0001-06
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md
-converted_sha256: d32b84297d3cd730fa5b7a98e8759052195facad45260e6dda71b65b454dd37f
+converted_sha256: 1f1aa86b03aa5c91860880bddd2d162fee9c95bd5ffb94ffe0a80e003c79fdb0
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json
@@ -97,7 +97,7 @@ All visible text on the page has been transcribed.
 Page number: 57
 
 ## Layout And Reading Order
-The page features a two-column layout. The content begins with a heading in the first column, followed by several paragraphs of text. The reading order proceeds down the first column, then continues at the top of the second column, and concludes at the bottom of the second column.
+The page features a two-column layout. The left column contains a report section, followed by biographical information about Professor Guillermo Grant Benavente. The right column continues the report, discussing the recognition of Dr. Grant Benavente and concluding with a "Proyecto de ley" (Draft Law) and related resolutions. The content flows from the top of the left column, down to its bottom, then from the top of the right column, down to its bottom.
 
 ## Literal Transcription
 57
@@ -111,11 +111,13 @@ informar un proyecto de ley, en segundo
 trámite constitucional, que denomina
 “Guillermo Grant Benavente” al Hospital
 Clínico Regional de Concepción.
+
 Escasos son los maestros y hombres de
 ciencia que han dedicado sus afanes, des-
 velos y sacrificios a aspectos tan múlti-
 ples de la medicina como el Profesor Gui-
 llermo Grant Benavente.
+
 Recibido de médico el año 1912, viajó a
 Europa donde siguió cursos de histología
 y de medicina interna, con los mejores
@@ -126,12 +128,14 @@ tacada participación en el Comité pro
 Universidad y Hospital Clínico, firmando
 en calidad de socio fundador, el acta de
 constitución legal de esa Universidad.
+
 Desempeñó las Cátedras de Histología,
 de Patología Interna, de Fisiología y de
 Farmacología en la Facultad de Medicina
 de la Universidad de Concepción, a las
 que dedicara sus mejores afanes y es-
 fuerzos.
+
 Numerosas fueron las distinciones que
 recibió por sus relevantes condiciones, en-
 tre otras, las de Miembro Académico de
@@ -140,6 +144,7 @@ bro Académico de la Facultad de Odonto-
 logía de Concepción en 1956, y Miembro
 Honorario de la Universidad de Concep-
 ción en 1957.
+
 Asimismo, cabe hacer expresa mención
 de sus trabajos científicos, en especial de
 la obra “Compendio de Farmacia Galéni-
@@ -161,6 +166,7 @@ cuales dejó impreso el ejemplo de su ili-
 mitada ecuanimidad y de su inagotable
 preocupación de los problemas que afec-
 taron a sus conciudadanos.
+
 La Comisión de Salud Pública ha coin-
 cidido plenamente con el Honorable Sena-
 do en reconocer la abnegada y meritoria
@@ -179,18 +185,21 @@ Regional de Concepción se denominará en
 lo futuro “Guillermo Grant Benavente”.”
 Sala de la Comisión, a 10 de septiembre
 de 1969.
+
 Acordado en sesión de fecha 10 de sep-
 tiembre del año en curso, con asistencia
 de los señores Cabello (Presidente); Jáu-
 regui, señorita Lacoste, Ortega, Ríos, don
 Héctor, y Sabat.
+
 Se designó Diputado informante a la
 señorita Lacoste, doña Graciela.
+
 (Fdo.): Eugenio Yávar Vallebuona,
 Secretario de Comisiones.”
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
 None.
@@ -200,7 +209,7 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images or other substantial visual elements that would require cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
 ## Page Metadata

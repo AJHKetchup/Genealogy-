@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-99872d4f5ac7-P0001-03
+chunk_id: CHUNK-29479e7d4e8a-P0001-03
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
-converted_sha256: 99872d4f5ac70d26e502f5fc673ee29463f2541d0a196966d88a977856814956
+converted_sha256: 29479e7d4e8a9eb95af910fbfced958aa4474644e11d0a0f395054e1c652b05e
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
@@ -10,22 +10,6 @@ page_start: 1
 page_end: 1
 part: 3
 ---
-
-## Completeness Audit
-The transcription is complete and accurate, preserving the columnar layout and all visible text.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements are present on this page that require cropping. The page number is a marginal number and is captured by transcription."}
-```
-
-## Page Metadata
-Page: 67
-Task id: source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0067
-Source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
-
-## Layout And Reading Order
-The page features a centered header "N" at the top. The main content is presented in a three-column tabular format, listing names, addresses, and corresponding cities. The content reads from left to right, top to bottom. A page number "70 -" is located at the bottom left of the page.
 
 ## Literal Transcription
 N
@@ -377,3 +361,105 @@ Page number: 70
 ## Layout And Reading Order
 
 The page presents a two-column layout for the main content, which is a directory of names, addresses, and cities. The left column lists names, and the right column contains corresponding addresses and cities, effectively creating a three-column logical structure (Name | Address | City). Below this main section, there is a heading "P" followed by another smaller directory section with the same three-column logical structure. A page number is present at the bottom right.
+
+## Literal Transcription
+
+Ortiz Cruzat, Jorge
+Ortiz Gutmann, Carlos I.
+Ortiz Segura, Alfonso E.
+Ortiz Valdivia, Moisés
+Ortúzar Escobar, Ramón
+Ortúzar Garrido, José M.
+Ortúzar Rojas, Jorge
+Ortúzar Varas, Jorge
+Osnovikoff Pizarenko, Bernardo
+Osorio Buitano, Fernando
+Osorio Mesa, Aníbal
+Osorio Munita, Arturo
+Ossa Abel, Gonzalo
+Ossa Ossa, Armando
+Ossandón Guzmán, Miguel
+Otaiza Molina, Eliseo
+Otero Soto, Juana del Pilar
+
+Otte Gabler, Jorge
+Otto Müller, Julio
+Ovalle Rodríguez, Alfonso
+Ovalle Ugarte, Ignacio
+Oviedo Bastías, Héctor
+Oviedo Melo, Mario
+Oviedo Zárate, Carlos
+Oxman Serebrinsky, Gregorio
+Oyanedel Farías, Ernesto
+Oyanedel Grebe, Abraham
+Oyaneder Luna, Alfonso
+Oyanguren Moya, Hernán
+Oyarce Rojas, Pedro
+Oyarzún Briceño, Rubén A.
+Oyarzún Day, Jorge
+Oyarzún Gallegos, Orlando
+Oyarzún Ossa, Jorge
+Oyarzún Palominos, Manuel
+Oyarzún Peña, Fernando
+Oyarzún Suárez, René
+
+P
+
+Pablo Rubio, Joaquín de
+
+Pabst Feller, Ivonne
+Pacheco Aravena, Germán
+Diagonal Oriente 4208 Santiago
+Sarmiento 1053 Punta Arenas
+Ahumada 6, 3.er Piso Santiago
+Avda. Errázuriz 2332 Valparaíso
+Marcoleta 367 Santiago
+Talcahuano 645 San Fernando
+Minas “El Tofo” La Serena
+O’Higgins 233 Puerto Montt
+21 de Mayo 218 Arica
+IV Centenario 3890 Santiago
+Silvina Hurtado 1691 Santiago
+Suárez Mujica 428 Santiago
+Colipí 690 Copiapó
+Avda. Pocuro 3018 Santiago
+Avda. Italia 1393 Santiago
+Vicuña Mackenna 58, Santiago
+Depto. 136
+
+Avda. Santa María 0578 Santiago
+O’Higgins s/n Maullín
+Merced 533 Santiago
+Avda. El Bosque 1211 Santiago
+Ramírez 1450 Vallenar
+Simón Bolívar 2580 Santiago
+Colipí 635 Copiapó
+Velásquez 692 Arica
+Ahumada 254, Of. 806 Santiago
+Antonio Varas 248 Santiago
+Huérfanos 1175, Of. 601 Santiago
+Almagro 2818 Santiago
+Huérfanos 1147, Of. 804 Santiago
+Los Plátanos 2810 Santiago
+Condell 1190, 4º Piso Valparaíso
+Nueva San Martín 1546 Santiago
+Estado 360 Santiago
+Santa Rosa 1493 Santiago
+Andrés de Fuenzalida 144 Santiago
+Chiloé 1525 Santiago
+
+Avda. Santa María 0316, Santiago
+Depto. 106
+Galvarino Gallardo 1812 Santiago
+1 Oriente 1058 Talca
+
+— 73
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.

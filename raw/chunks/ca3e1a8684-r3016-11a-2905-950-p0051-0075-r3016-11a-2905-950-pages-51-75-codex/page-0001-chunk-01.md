@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9225b5fb7917-P0001-01
+chunk_id: CHUNK-f4a33d4d5470-P0001-01
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 9225b5fb7917c54116e51be954dc72b8a65b2ce4ff40ba74a6c23567c2be827b
+converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -74,42 +74,47 @@ All visible text and layout elements have been transcribed.
 Page number: 52
 
 ## Layout And Reading Order
-The page features a central illustration in red ink. There is also a very faint red pattern in the top-left corner.
+The page features a large, central illustration printed in red ink. There is a very faint, light red graphic element in the top-left corner and a faint, thin red border outlining the page. A hole punch is present in the top-right corner, and a small tear/fold is visible on the top edge.
 
 ## Literal Transcription
-There is no literal text to transcribe on this page.
+(No literal text to transcribe on this page.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: Stylized boat or raft with multiple sails, each bearing a cross symbol, surrounded by waves and a curved barrier.](../extracted-images/page-0052/page-0052-image-01-stylized-boat-red-cross-sails.png)
-  - Kind: illustration; label basis: converter-description; bbox_pct: [29.9, 25.4, 60.0, 70.7]
+- ![converter-description: A stylized illustration in red ink depicting a boat or raft with multiple sails/flags, each bearing a Red Cross symbol, surrounded by waves and a circular, segmented border.](../extracted-images/page-0052/page-0052-image-01-red-cross-boat-illustration.png)
+  - Kind: illustration; label basis: converter-description; bbox_pct: [29.9, 25.8, 59.9, 70.7]
+  - Source context: Central illustration on the page.
 
-A prominent illustration in red ink is centered on the page. It depicts a stylized boat or raft with multiple sails, each bearing a cross symbol (resembling a Red Cross emblem). The boat appears to be on water, indicated by waves, and is partially enclosed by a curved, segmented barrier or wreath-like structure.
+A prominent illustration, printed in red ink, is centered on the page. It depicts a stylized boat or raft, possibly a life raft, with multiple sails or flags, each bearing a Red Cross symbol. The vessel is surrounded by stylized waves and a circular, segmented border that resembles a life preserver or a protective barrier.
 
-In the top-left corner of the page, there is a very faint, almost transparent, red printed pattern or texture. It is too indistinct to describe in detail.
+In the top-left corner, there is a very faint, light red graphic element, appearing as a subtle, almost ghosted, pattern or set of lines.
 
-A circular hole punch is present in the top-right corner of the page. A small tear or fold is visible on the top edge, slightly to the left of the page's center.
+A faint, thin red line forms a border around the entire page.
+
+A circular hole punch is present in the top-right corner of the page.
+
+A small tear or fold is visible on the top edge of the page, slightly to the right of the center.
 
 ## Uncertain Or Illegible
-The faint red printing in the top-left corner is very indistinct and its exact nature or pattern is uncertain.
+None.
 
 ## Completeness Audit
-All visible content on the page has been described.
+All visible content on the page has been transcribed or described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vis_001",
+      "region_id": "vr1",
       "kind": "illustration",
-      "bbox_pct": [29.9, 25.4, 60.0, 70.7],
-      "caption_literal": "Stylized boat or raft with multiple sails, each bearing a cross symbol, surrounded by waves and a curved barrier.",
+      "bbox_pct": [29.9, 25.8, 59.9, 70.7],
+      "caption_literal": "A stylized illustration in red ink depicting a boat or raft with multiple sails/flags, each bearing a Red Cross symbol, surrounded by waves and a circular, segmented border.",
       "caption_type": "converter-description",
-      "identity_basis": null,
-      "source_context": null,
-      "confidence": "high",
-      "suggested_filename": "stylized_boat_red_cross_sails"
+      "identity_basis": "visual_content",
+      "source_context": "Central illustration on the page.",
+      "confidence": 0.95,
+      "suggested_filename": "red_cross_boat_illustration"
     }
   ]
 }
@@ -309,12 +314,3 @@ Captain Walters.
 
 ## Uncertain Or Illegible
 None.
-
-## Completeness Audit
-The transcription is complete and accurate. All visible text and relevant visual details have been captured.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor marks (a punched hole) which do not warrant separate image crops."}
-
-## Page Metadata
-Page: 57

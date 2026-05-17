@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9225b5fb7917-P0001-02
+chunk_id: CHUNK-f4a33d4d5470-P0001-02
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 9225b5fb7917c54116e51be954dc72b8a65b2ce4ff40ba74a6c23567c2be827b
+converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -10,6 +10,15 @@ page_start: 1
 page_end: 1
 part: 2
 ---
+
+## Completeness Audit
+The transcription is complete and accurate. All visible text and relevant visual details have been captured.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor marks (a punched hole) which do not warrant separate image crops."}
+
+## Page Metadata
+Page: 57
 
 ## Layout And Reading Order
 The page contains a typed memo, followed by a handwritten signature and date, and then a longer handwritten note with its own date. There is a hole punch at the top left of the page.
@@ -253,50 +262,26 @@ The transcription is complete and includes all visible text, including handwritt
 ```
 
 ## Page Metadata
-Page number: 61
+Not applicable.
 
 ## Layout And Reading Order
-The page consists of a single grey card with handwritten text in the upper half and a punched hole at the top center. The text is arranged in three lines, with the first line underlined.
+The page displays a single, rectangular grey card with handwritten text in pencil. The text is arranged in three lines, centered horizontally on the upper half of the card. A single hole punch is present at the top center of the card. The reading order is top-to-bottom for the handwritten lines.
 
 ## Literal Transcription
 Registry
-___
 for put on file
 A. H. Kennedy
 
 ## Images, Captions, And Visual Notes
-The page displays a grey card with a punched hole near the top center. Handwritten text in pencil is present on the card.
+Pipeline-extracted visual crops:
+- ![converter-description: Front of a grey card with handwritten text: 'Registry', 'for put on file', 'A. H. Kennedy'. A hole punch is visible at the top center, and the top left corner is slightly creased.](../extracted-images/page-0061/page-0061-image-01-grey-card-with-handwritten-notes.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [15.5, 0.5, 84.5, 99.5]
+  - Source context: The entire page is a photograph of this card.
+
+The page is a photograph of a grey card. The card has a hole punch at the top center. The text transcribed above is handwritten in pencil on the card. The top left corner of the card is slightly bent/creased.
 
 ## Uncertain Or Illegible
-None.
+No uncertain or illegible text.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and relevant visual details from the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is a simple document with handwritten text on a card. There are no substantial visual elements (like photographs, maps, or complex diagrams) that would warrant individual cropping."}
-```
-
-## Page Metadata
-- Page number: 62
-
-## Layout And Reading Order
-The page contains typed German text, a stamped date, and handwritten annotations in the top right corner. The typed text forms a short memo or note, with the recipient/subject on the left and location/sender on the right. A circular hole punch is present in the top left.
-
-## Literal Transcription
-IIA/2905/1950
-Cella 17.8.
-17/X/28
-
-RECEIVED IN
-REGISTRY
-17-OCT-1928 A
-
-Reichsminister Kuelz
-Henzestr 12 Dresden
-Auf Anfrage vom Zehnten an Untergeneralsekretär Dufour
-Kosten Ihrer Reise zum Haag traegt Sekretariat
-antragsgemaess
-Vertretung
-Schmieden
+All visible text and significant visual elements on the page have been transcribed and described.

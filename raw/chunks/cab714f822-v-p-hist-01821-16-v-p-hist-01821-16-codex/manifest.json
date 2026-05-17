@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-17",
+  "converted_file": "raw/converted/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16.codex.md",
+  "converted_sha256": "89b78eb9e14d0469537f2645de2c6a4eb0b6d0940ebdc6fb25c83e3d48edb35f",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01821-16.JPG",
+  "source_sha256": "b714f822dfa731e9cdbc94ac01381d1bc4f879c9de3ab1220942581c761cca4e",
+  "source_manifest": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-89b78eb9e14d-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 4127,
+      "sha256": "5675e95a64b95a6df5bc625cab62598d1d8f9e0ac39dd991f75a3e1ce9ed02b1"
+    }
+  ]
+}

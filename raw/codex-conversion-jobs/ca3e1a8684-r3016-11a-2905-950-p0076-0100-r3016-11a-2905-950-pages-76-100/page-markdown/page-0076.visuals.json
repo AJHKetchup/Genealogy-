@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:29Z",
+  "created": "2026-05-17T10:26:56Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3016-11A-2905-950.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "signature_001",
+      "region_id": "vr-01",
       "kind": "signature",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "H. Pany",
-      "source_context": "Handwritten signature at the end of the letter."
+      "caption_literal": "H. Pring",
+      "source_context": "This is the handwritten signature at the closing of a letter."
     }
   ],
   "flags": []

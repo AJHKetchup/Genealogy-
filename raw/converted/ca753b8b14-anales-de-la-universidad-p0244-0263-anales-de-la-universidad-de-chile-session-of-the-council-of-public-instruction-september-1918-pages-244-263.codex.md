@@ -1040,7 +1040,7 @@ All visible text and the horizontal rule have been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
 ## Page Metadata
-- Page number: 260
+Page number: 260
 
 ## Layout And Reading Order
 The page is entirely blank.
@@ -1049,13 +1049,13 @@ The page is entirely blank.
 [The page is blank.]
 
 ## Images, Captions, And Visual Notes
-The page is blank. There are no images, captions, or other meaningful visual elements to describe.
+The page contains no images, captions, or visual notes.
 
 ## Uncertain Or Illegible
-None. The page is blank.
+[The page is blank.]
 
 ## Completeness Audit
-The transcription is complete. The page is entirely blank.
+The page is entirely blank. There is no content to transcribe.
 
 ## Visual Region Manifest
 ```json

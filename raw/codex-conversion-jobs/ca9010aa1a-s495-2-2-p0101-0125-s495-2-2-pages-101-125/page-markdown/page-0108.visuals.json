@@ -1,0 +1,121 @@
+{
+  "created": "2026-05-17T10:29:19Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 108,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0108.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0108.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "Establecida en 1879 Teléfono: 5044 Spring\nRelojería y Joyería\nFRANCO-ESPAÑOLA\nALBERTO C. SARTORELLI\n168 B'ecker Street\nCerca de las Estaciones del Elevado de la\n6a. Ave. y del Subway",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Two circular logos resembling clocks or watches flank the 'FRANCO-ESPAÑOLA' text in the advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "Two circular logos resembling clocks or watches",
+      "bbox_pct": [
+        10.0,
+        68.9,
+        48.0,
+        72.9
+      ],
+      "bbox_pixels": [
+        135,
+        2266,
+        669,
+        2405
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-01-franco-espanola-clock-logos.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-01-franco-espanola-clock-logos.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0108.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 108,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0108.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "product_image",
+      "caption_literal": "SORTIJAS\nDE $15\nEN ADELANTE\nA Plazos y al Contado\nDiamantes azules legítimos\nmontados en sortijas de oro\nblanco de 18 kilates\nCOMPRE DIRECTAMENTE DE\nLA FABRICA Y AHORRE\nDINERO\nOrdenes por Correo\nProntamente Atendidas.\nREPARACIONES DE TODAS\nCLASES\nMontura de diamantes en el acto\nConsolidated Jewelry Mfg. Co.\n504 6TH AVENUE,\n1er. piso, cerca de la calle 30\nNEW YORK CITY",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Two illustrations of rings are shown in the 'SORTIJAS DE $15' advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "Two illustrations of rings",
+      "bbox_pct": [
+        74.0,
+        30.0,
+        85.0,
+        34.0
+      ],
+      "bbox_pixels": [
+        1022,
+        984,
+        1182,
+        1124
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-04-sortijas-rings.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-04-sortijas-rings.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0108.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 108,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0108.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "illustration",
+      "caption_literal": "Este especialista usa ex-\ntensamente los grandes\nmétodos naturales, llama-\ndos\nELECTRO THERAPY",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "An illustration of a man undergoing treatment with a large machine, labeled 'ELECTRO THERAPY,' is featured in the 'Dr. J. B. VAN TINE' advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "An illustration of a man undergoing treatment with a large machine, labeled \"ELECTRO THERAPY,\"",
+      "bbox_pct": [
+        53.0,
+        67.0,
+        93.0,
+        79.0
+      ],
+      "bbox_pixels": [
+        731,
+        2203,
+        1293,
+        2606
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-05-dr-van-tine-electro-therapy-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-05-dr-van-tine-electro-therapy-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0108.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 108,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0108.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "ACABADOS DE RECIBIR\nNUEVOS DISCOS ODEON\nIMPORTADOS DE ESPAÑA\nCantados por los famosos Artistas\nEL COJO DE MALAGA —SCACENA— LA RUBIA DE\nLAS PERLAS—NISA MEDINA—LA NISA DE LOS PEL-\nNuevos pasodobles, tangos, jotas, sevillanas y mareluas tocadas\npor las más famosas bandas de España.\nREGIMIENTO DE BARCELONA, BANDA ALCANTARA, CAZADORES DE\nMERIDA, REGIMIENTO BADAJOZ, COBLA ELS MOTGRINS\nVenga en seguida y oiga estos discos, o envíenos su dirección y le remitiremos\nnuestro nuevo catálogo 1924.\nI. FARHI Phonograph CO.\nDOS TIENDAS 347—3rd Ave., Cerca 25 Street NEW YORK\n145 E. 42—Cerca 3d Ave.\nABIERTO TODAS LAS NOCHES Y LOS DOMINGOS",
+      "source_context": "A circular logo with the word 'ODEON' and 'Imported Record Quality' is present in the 'NUEVOS DISCOS ODEON' advertisement."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "symbol",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "AGENCIA FUNERARIA\nEn caso de Defunción\nLlame a “Columbus 8200”\nFRANK E. CAMPBELL\n“THE FUNERAL CHURCH” INC.\nBROADWAY Y 66th STREET",
+      "source_context": "An ornate urn or funeral symbol is depicted next to the 'AGENCIA FUNERARIA' text."
+    }
+  ],
+  "flags": []
+}

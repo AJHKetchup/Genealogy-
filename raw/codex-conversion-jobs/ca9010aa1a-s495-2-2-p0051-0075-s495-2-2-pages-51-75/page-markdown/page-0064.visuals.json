@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T10:28:38Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+  "page": 64,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0064.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0064.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Image embedded in the right column, illustrating the article about traffic in Mexico City.",
+      "confidence": "0.95",
+      "inline_anchor": "capital, por la buena voluntad del señor\ningeniero Luis G. Margain, que se preo-\ncupa del adelanto y de que por ningún mo-\ntivo se estanque el tráfico citadino.",
+      "bbox_pct": [
+        36.4,
+        13.7,
+        85.5,
+        36.7
+      ],
+      "bbox_pixels": [
+        494,
+        252,
+        1173,
+        691
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0064/page-0064-image-01-street-scene-cars-pedestrians-buildings.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0064/page-0064-image-01-street-scene-cars-pedestrians-buildings.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0064.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 64,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0064.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Image embedded in the left column, illustrating the article about traffic in Mexico City. The caption below Image 3 refers to 'two aspects of traffic' which might include this image.",
+      "confidence": "0.95",
+      "inline_anchor": "to y mejoría. Es también a él que se de-",
+      "bbox_pct": [
+        10.3,
+        30.4,
+        35.2,
+        55.7
+      ],
+      "bbox_pixels": [
+        137,
+        565,
+        485,
+        1047
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0064/page-0064-image-02-street-scene-carriages-automobiles-pedestrians.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0064/page-0064-image-02-street-scene-carriages-automobiles-pedestrians.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0064.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 64,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0064.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Dos aspectos del tráfico en la ciudad antes\nde que usaran los nuevos semáforos.—El\ndel cruce de las calles 16 de septiembre y\n5 de Febrero, en donde se ha estado pro-\nbando el nuevo semáforo, el cual ha da-\ndo muy buenos resultados para la nor-\nmalización del tráfico.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Image embedded in the left column, below Image 2. The caption describes 'two aspects of traffic' and specifically mentions the intersection of 16 de septiembre and 5 de Febrero.",
+      "confidence": "0.95",
+      "inline_anchor": "malización del tráfico.",
+      "bbox_pct": [
+        10.3,
+        56.5,
+        35.2,
+        84.4
+      ],
+      "bbox_pixels": [
+        137,
+        1054,
+        485,
+        1584
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0064/page-0064-image-03-street-corner-pedestrians-signs-5-de-febrero.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0064/page-0064-image-03-street-corner-pedestrians-signs-5-de-febrero.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0064.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 64,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0064.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-17T10:26:42Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/manifest.json",
+  "page": 144,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/page-images/page-0144.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150/page-markdown/page-0144.md",
+  "no_visual_regions_reason": "No substantial visual elements suitable for cropping were identified on this page. The page contains only handwritten text and minor incidental marks.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

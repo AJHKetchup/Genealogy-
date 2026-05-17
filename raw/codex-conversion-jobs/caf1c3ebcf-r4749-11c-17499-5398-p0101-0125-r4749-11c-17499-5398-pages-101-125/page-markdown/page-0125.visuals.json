@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-17T10:30:52Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/manifest.json",
+  "page": 125,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-images/page-0125.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-markdown/page-0125.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "15 FEV 1937 [faint text along arcs, possibly DELEGACION PERMANENTE and REPUBLICA ARGENTINA]",
+      "source_context": "A circular red stamp overlapping the typed text 'M E M O R A N D U M', 'Republique Argentine', and 'Mesures d'ordre Legislatives'."
+    }
+  ],
+  "flags": []
+}

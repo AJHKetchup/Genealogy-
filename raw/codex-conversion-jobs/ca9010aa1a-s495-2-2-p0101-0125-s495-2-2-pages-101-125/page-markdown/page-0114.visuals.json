@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T10:28:33Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 114,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0114.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0114.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_0_0",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a military-style band playing instruments outdoors, with palm trees and a large building in the background.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Main illustration of the advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        23.4,
+        44.5,
+        76.6,
+        90.5
+      ],
+      "bbox_pixels": [
+        264,
+        707,
+        883,
+        1449
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0114/page-0114-image-01-band-playing-outdoors-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0114/page-0114-image-01-band-playing-outdoors-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0114.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 114,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0114.md"
+    },
+    {
+      "region_id": "visual_0_1",
+      "kind": "logo",
+      "caption_literal": "Victor\n“LA VOZ DEL AMO”\nREG. U. S. PAT. OFF.",
+      "caption_type": "source-caption",
+      "identity_basis": "text-in-image",
+      "source_context": "Embedded within the main illustration, the iconic 'His Master's Voice' logo.",
+      "confidence": "0.98",
+      "inline_anchor": "",
+      "bbox_pct": [
+        59.0,
+        79.0,
+        73.0,
+        87.5
+      ],
+      "bbox_pixels": [
+        673,
+        1258,
+        841,
+        1401
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0114/page-0114-image-02-victor-his-masters-voice-logo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0114/page-0114-image-02-victor-his-masters-voice-logo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0114.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 114,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0114.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

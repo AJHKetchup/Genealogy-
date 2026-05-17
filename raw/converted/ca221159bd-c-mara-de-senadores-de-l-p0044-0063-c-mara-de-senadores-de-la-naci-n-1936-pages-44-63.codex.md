@@ -1,0 +1,1392 @@
+# Cámara de Senadores de la Nación, 1936 pages 44-63
+
+## Conversion Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/manifest.json`
+- Conversion method: Codex local vision workbench
+- Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/extracted-images`
+
+## Page Metadata
+
+- **Source ID**: `ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63`
+- **Page number**: `40`
+- **Original page number**: `40`
+- **Full page image URL**: `https://images.archive.org/details/ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63/page/n43/mode/1up`
+
+## Layout And Reading Order
+
+The page contains a single column of printed text. The reading order is from top to bottom. The page number is centered at the top. The text is organized into articles, a chapter heading, a subheading, and a list of article summaries followed by the full text of those articles.
+
+## Literal Transcription
+
+— 40 —
+
+Art. 90. — La policía de orden interno de las estaciones y de los trenes se establecerá en un reglamento especial formado por las empresas y aprobado por el P. E. Nacional o Provincial, según que se trate de ferrocarriles nacionales o provinciales.
+
+CAPITULO II
+
+DE LAS FALTAS COMETIDAS POR LAS EMPRESAS
+
+Art. 91. — Responsabilidad por acto u omisiones contrarios a la ley y reglamentos.
+Art. 92. — Multas por infracciones cometidas.
+Art. 93. — Multas en caso de reincidencia.
+
+Art. 91. — Las empresas de ferrocarriles son responsables de los actos u omisiones contrarias a la presente ley y a los reglamentos dictados en su consecuencia, sin poder declinar su responsabilidad en sus empleados.
+
+Art. 92. — Cada infracción cometida por las empresas será castigada con multa de quinientos a diez mil pesos, debiendo considerarse como una infracción distinta cada día que dejen transcurrir sin ponerse en las condiciones de la ley después de la orden que al efecto hubieran recibido de la Inspección gubernativa.
+
+Art. 93. — En caso de reincidencia, la multa autorizada por el artículo anterior se duplicará.
+
+## Images, Captions, And Visual Notes
+
+There are no images, illustrations, or other visual elements on this page.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible words on this page.
+
+## Completeness Audit
+
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page consists entirely of printed text with no images, illustrations, or other significant visual elements."
+}
+```
+
+## Page Metadata
+Page number: 45
+
+## Layout And Reading Order
+The page begins with a centered page number at the top. Below this, there is a main title "TITULO VI" followed by a subtitle "Disposiciones diversas". Underneath the subtitle, there is an indented list of articles (Art. 94 through Art. 101) with brief descriptive phrases. Following this list, the full text of articles 94 through 98 is presented in a single column. Text is also visible on the left margin, but it is cut off and incomplete. The reading order flows from top to bottom, left to right within the main content block.
+
+## Literal Transcription
+
+— 41 —
+
+TITULO VI
+
+**Disposiciones diversas**
+
+Art. 94.—Multas por infracción de los reglamentos.
+Art. 95.—Destino de las multas.
+Art. 96.—Presentación de la cuenta de garantías.
+Art. 97.—Obligación de hablar el castellano.
+Art. 98.—Interrupción de la navegación.
+Art. 99.—Derogación de la Ley 531.
+Art. 100.—Vigencia de las prescripciones sobre la marcha de los trenes.
+Art. 101.—Transportes por agua.
+
+Art. 94.—El Poder Ejecutivo establecerá multas de cien a
+mil pesos para castigar las infracciones de los reglamentos que
+dicte o apruebe, especialmente las que importen falta o des-
+atención hacia los pasajeros y cargadores por parte de las em-
+presas y sus empleados.
+Art. 95.—El importe de las multas que se impongan con
+motivo de la aplicación de esta ley a los ferrocarriles nacio-
+nales, será destinado a formar un fondo especial para la funda-
+ción y sostenimiento de una escuela de maquinistas y foguistas.
+Art. 96.—Toda cuenta por garantía que deba pagar el
+Gobierno Nacional, deberá ser presentada a la Dirección Ge-
+neral de Ferrocarriles, para que ésta la eleve al Ministerio del
+Interior, con el resultado de las operaciones que le incumben
+por el artículo 71, inciso 16.
+Art. 97.—Los empleados de las empresas que presten sus
+servicios en las estaciones y en los trenes y todos los que por la
+naturaleza de sus funciones se hallen en comunicación necesaria
+con el público y con las autoridades, deberán hablar castellano.
+Art. 98.—Cuando un ferrocarril atravesare ríos navegables
+deberá ser construído de manera que no embarace la navega-
+ción. Si atravesare otra clase de ríos, esteros o canales de riego,
+las obras se ejecutarán de manera que no perjudiquen el uso
+de las aguas.
+
+nes y
+for-
+nal o
+les o
+
+y re-
+
+es de
+egla-
+res-
+
+será
+endo
+ejen
+pués
+ción
+
+por
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The text on the left margin is cut off and incomplete, but what is visible has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+
+## Page Metadata
+Page number: 46
+Original document page number: 42
+
+## Layout And Reading Order
+The page contains a single column of text, starting with a paragraph, followed by a series of numbered articles. Below these articles, there is a date and location, followed by two columns of names and titles. A "Por tanto" section precedes a final block of two names.
+
+## Literal Transcription
+— 42 —
+
+Por resolución Ministerial de 23 Junio 1919, comunicada por circular Nº 45
+de 31 Agosto 1920, se ordena que las reparticiones del Ministerio de Obras Públicas,
+que por una causa u otra tengan que efectuar obras de carácter hidráulico fluvial,
+pasarán previamente los expedientes respectivos antes de los trámites aprobatorios
+a informe de la Dirección General de Irrigación.
+
+Art. 99. — Queda derogada la Ley de ferrocarriles de 18 de
+Septiembre de 1872 y todas las disposiciones que se opongan
+a la presente ley.
+Art. 100. — No obstante lo dispuesto en el artículo anterior,
+continuarán vigentes las prescripciones relativas a la formación
+y marcha de los trenes, hasta que el Poder Ejecutivo dicte los
+reglamentos necesarios para cumplir esta ley en esa parte.
+Art. 101. — Mientras se dicte una ley especial sobre trans-
+portes por agua, éstos se regirán por las disposiciones de la pre-
+sente ley que les fueren aplicables.
+Art. 102. — Comuníquese al Poder Ejecutivo.
+
+Dada en la Sala de Sesiones del Congreso Argentino, en Buenos Aires, a 18 de
+Noviembre de 1891.
+
+MIGUEL M. NOUGUÉS
+*Benigno Ocampo*
+Secretario del Senado
+
+BENJAMÍN ZORRILLA
+*Uladislao S. Frías*
+Secretario de la C. de DD.
+
+Por tanto:
+
+Téngase por Ley de la Nación, cúmplase, comuníquese, pu-
+blíquese y dése al Registro Nacional.
+
+PELLEGRINI.
+JOSÉ V. ZAPATA.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page."}
+
+## Page Metadata
+Page number: 47
+
+## Layout And Reading Order
+
+The page features a central block of text, primarily a decree, with a page number centered at the top. There is also a partially visible column of text in the left margin, likely from a preceding or parallel document. The main content flows in a single column.
+
+## Literal Transcription
+
+```
+                                — 43 —
+
+№ 45
+lias,
+vial,
+torios
+
+Exp.: 7489-J-935.
+
+                                                Buenos Aires, Abril 15 de 1935.
+
+3 de
+gan
+ior,
+ción
+los
+
+Visto el informe producido por la Junta Honoraria nombra-
+da para el estudio de la situación económica y financiera de
+los ferrocarriles; atentas “las conclusiones” y “recomendacio-
+nes” formuladas por la misma, una de las cuales aconseja la
+revisión de la ley y reglamentos en vigor: y
+
+CONSIDERANDO:
+
+ans-
+pre-
+
+Que es un deber del Poder Ejecutivo tomar todas las medi-
+das que, a su juicio, puedan concurrir a mejorar la situación
+económico-financiera de las empresas ferroviarias de propie-
+dad particular, sin desmedro para los intereses de la colecti-
+vidad y el servicio público que prestan;
+Que hay verdadera conveniencia en estudiar las reformas
+necesarias a la ley y reglamentos en vigor para amoldar sus
+disposiciones a las exigencias y modalidades del presente;
+
+de
+
+El Presidente de la Nación Argentina,
+
+DECRETA:
+
+ou-
+
+Artículo 1º—Nómbrase una Comisión compuesta por el Di-
+rector General de Ferrocarriles, ingeniero don Manuel García
+Torre; Subadministrador de los Ferrocarriles del Estado, in-
+geniero don Augusto Krause Arnin; Secretario de la Junta
+Consultiva de Abogados de los Ferrocarriles, doctor José Bel-
+trame y Asesor Letrado de la Dirección General de Ferroca-
+rriles, doctor Horacio L. Perrando, para el estudio y prepa-
+ración de las reformas que se considere conveniente introdu-
+cir a la ley y reglamentos de ferrocarriles en vigencia.
+Art. 2º—La Comisión de que se trata actuará bajo la presi-
+dencia del ingeniero don Manuel García Torre y secretaría del
+```
+
+## Images, Captions, And Visual Notes
+
+The left margin contains fragments of text from a previous column or page, which are transcribed in the "Literal Transcription" section. These fragments are not part of the main document on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page, including marginal fragments, has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present on the page that would be useful as standalone assets. Marginal text fragments are transcribed inline."}
+
+## Page Metadata
+Page number: 44
+
+## Layout And Reading Order
+The page presents a single column of text, primarily composed of official correspondence or decrees. It begins with a continuation of a previous text, followed by a signature block, a decree number, a date and location, an address, a salutation, and a lengthy paragraph of text.
+
+## Literal Transcription
+— 44 —
+
+doctor Horacio L. Perrando, pudiendo designar subcomisiones
+encargadas de practicar los estudios y preparar los informes
+sobre los diversos aspectos técnicos y económicos del problema.
+Art. 3º — Las conclusiones a que arribe, así como los ante-
+proyectos de reformas que formule, terminado su cometido,
+serán sometidos a consideración del Poder Ejecutivo por inter-
+medio del Ministerio de Obras Públicas.
+Art. 4º — Comuníquese, publíquese, dése al Registro Nacional
+y pase a la expresada Comisión a sus efectos.
+
+JUSTO
+M. R. ALVARADO.
+
+Decreto Nº 59.406.
+
+Buenos Aires, Junio de 1936.
+
+_A S. E. el señor Ministro de Obras Públicas de la Nación,_
+_D. Manuel Alvarado.—S/D._
+
+Excmo. señor:
+
+Esta Comisión, al elevar a V. E. el 15 de agosto del año
+pasado su proyecto de reforma a la Ley General de Ferrocarriles
+Nº 2873, anunció que procedería de inmediato a la revi-
+sión integral del Reglamento General de Ferrocarriles, tarea
+que constituiría la segunda etapa del plan de trabajo, que se
+había trazado. Tal método venía a constituir la consecuencia
+lógica de los motivos que originaron el decreto del 15 de abril
+de 1935, derivados de la necesidad, urgente e impostergable,
+de adoptar la legislación vigente a las nuevas formas de la eco-
+nomía y de la explotación ferroviaria, impuestas, en muchos
+aspectos, por acción directa de la crisis general y por función
+de los modernos adelantos técnicos en materia de transportes.
+Cumplida la labor propuesta, esta Comisión tiene el honor de
+elevar a consideración del Poder Ejecutivo, por vuestro digno
+intermedio, el proyecto de Reglamento General de la Ley núme-
+ro 2873, que se adjunta.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+
+## Page Metadata
+Page number: 49
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number "45" is centered at the top of the page, above the main text block. The text flows continuously from top to bottom.
+
+## Literal Transcription
+— 45 —
+
+La medida de la responsabilidad que nos ha correspondido,
+así como también del esfuerzo realizado, podrá apreciarse debi-
+damente, si se recuerda el informe de la Comisión de Legisla-
+ción de la Honorable Cámara de Diputados de la Nación, inte-
+grada por los señores Osvaldo Magnasco, Ernesto Pellegrini y
+Manuel B. Gonnet, al fundar su despacho relativo a la Ley
+de Ferrocarriles Nº 2873, en la sesión del 17 de noviembre de
+1891, como consta en el Diario de Sesiones a pág. 559, en la
+parte en que se hace esta atinada observación:
+“No hemos de dar por terminada nuestra delicada tarea
+“sin antes recordar al Poder Ejecutivo que los reglamentos
+“de una Ley de ferrocarriles valen más que la ley misma.
+“Esta no puede salir del círculo estricto de las generalida-
+“des; sus lineamientos son los de todo acto legislativo; no
+“penetran al detalle, a las menudencias importantes; esbozan el
+“asunto dando el plan y el sistema”.
+El Reglamento vigente ha llenado la importante misión que
+aquellas palabras le atribuyeron. Los ferrocarriles nacionales
+adaptaron a sus minuciosas disposiciones las distintas modali-
+dades de sus servicios, resultando de la aplicación permanente
+de sus normas preceptivas, desde que fuera sancionado en el
+año 1894 hasta la fecha, un sistema orgánico general de explo-
+tación ferroviaria con caracteres propios y dotado de un alto
+grado de definición acerca de derechos y obligaciones respec-
+tivas entre Administración, público y empresas.
+La jurisprudencia judicial y administrativa ha contribuído
+también a fijar la aplicación e interpretación de sus diferentes
+disposiciones.
+En consecuencia, la Comisión ha procedido con un criterio
+restrictivo y prudente en materia de innovaciones, limitándolas
+a los puntos indispensables para hacer que el derecho se adapte
+a los nuevos hechos surgidos, de modo de conservar la regula-
+ción adoptada, cuyo buen resultado tiene la confirmación de
+una larga experiencia.
+Por otra parte, mientras la Ley 2873 no sea reformada, es
+evidente que la reglamentación debe encuadrarse dentro del
+marco de sus bases fundamentales.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```
+
+## Page Metadata
+Page number: 46
+
+## Layout And Reading Order
+
+The page contains a single column of text, with a page number centered at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+
+```
+— 46 —
+
+De ahí, pues, que V. E., al analizar el proyecto que acompa-
+ñamos, comprobará que no hay en él alteraciones profundas
+con respecto al vigente. Se ha mantenido su plan y su estruc-
+tura, pero se ha aclarado y mejorado una gran cantidad de
+sus disposiciones. Se han suprimido las más inconvenientes y
+definido muchos puntos dudosos, que antes daban lugar a con-
+troversias reiteradas en lo judicial o en lo administrativo.
+La Comisión ha puesto especial cuidado en procurar que el
+Reglamento sea lo que debe ser: *un valioso instrumento legal
+para garantizar la regularidad, seguridad y eficacia del ser-
+vicio público a que concierne*. Las variantes y complejas for-
+mas de los servicios ferroviarios, exigen que la regulación legal
+aplicable tenga la suficiente elasticidad para adaptarse a sus
+distintos aspectos a fin de que en ningún caso pueda darse
+el absurdo que el cumplimiento estricto de un reglamento ten-
+ga por resultado la anormalidad del servicio ferroviario o la
+afectación de los intereses del público.
+V. E. comprobará que, con este fin, se ha suprimido la
+rigidez de muchas disposiciones del Reglamento vigente, se ha
+dado lugar a la previsión para casos de emergencia y se han
+caracterizado más las normas tendientes a proteger la seguri-
+dad, continuidad y normalidad del transporte ferroviario.
+En algunos otros puntos, como en lo relativo a los plazos del
+transporte, la Comisión ha creído conveniente atenerse a recien-
+tes decretos del Poder Ejecutivo, en cuanto subsisten, a su
+juicio, en gran parte los factores económicos desfavorables que
+le dieron origen.
+El nuevo Reglamento comprende 417 artículos; está dividi-
+do en 4 títulos; subdivididos a su vez, en 14 capítulos.
+Además, y dado que tanto el público como el personal ferro-
+viario tienen el hábito de guiarse por el Reglamento General
+de Ferrocarriles para decidir sus relaciones, la Comisión ha
+mantenido incorporados o ha incorporado a éste varios artícu-
+los de la Ley 2873, del Código de Comercio y del Código Penal,
+para facilitar a todos el dominio de sus respectivas situaciones.
+Tales artículos, así reproducidos, tienen al final la indicación
+de su fuente respectiva. La unidad de la materia lleva, natural
+```
+
+## Images, Captions, And Visual Notes
+
+The page contains no images, captions, or other substantial visual elements.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+The transcription is complete and accurate.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+```
+
+## Page Metadata
+Page 51
+
+## Layout And Reading Order
+The page features a centered page number at the top. Below this, the content is presented in two columns. The left column is very narrow and contains only partial words, likely remnants of a previous page's content or a marginal index. The main content is in a wider right column, flowing continuously from top to bottom. The reading order is the page number, then the partial words in the left column from top to bottom, followed by the main text in the right column from top to bottom.
+
+## Literal Transcription
+- 47 -
+
+mpa
+ndas
+true
+de
+tes y
+con
+que el
+legal
+ser-
+for
+legal
+sus
+darse
+ten-
+o la
+o la
+e ha
+han
+guri
+o del
+cien-
+su
+que
+vidi
+rro-
+eral
+ha
+ficu-
+mal,
+nes.
+ción
+ural
+
+y gradualmente a la reunión, en un solo cuerpo, del conjunto
+de normas que rigen a los ferrocarriles, propendiendo a la for-
+mación de un Derecho Ferroviario como una rama específica del
+derecho.
+
+No creemos necesario incluir en esta nota la motivación de
+cada enmienda o reforma introducida. Sería darle una exten-
+sión inusitada, a más de innecesaria, por cuanto del propio
+texto de cada disposición fluye, en general, su finalidad y
+alcance, ya que todas se ajustan a los propósitos fundamenta-
+les enunciados más arriba. Sólo haremos, a continuación, bre-
+ves y sintéticos comentarios sobre los distintos capítulos del
+Reglamento.
+
+En el primer Capítulo del Título I, referente a la explotación
+técnica de los ferrocarriles, la Comisión ha precisado los dere-
+chos y deberes recíprocos de las empresas y su personal, tenien-
+do presente que, si una de las partes ha recibido delegación del
+Estado para encargarse de la gestión de un servicio público,
+la otra, al adscribirse al mismo, asume también una función
+en cierto modo pública, de manera que a todos por igual incum-
+be el deber de asegurar la regularidad, continuidad y eficacia
+del servicio, tal como lo enseñan sin discrepancia los tratadis-
+tas de derecho administrativo y lo consignan actos legislativos
+y judiciales entre nosotros y el extranjero.
+
+En el segundo capítulo del mismo título se ha tenido en
+cuenta los adelantos de la técnica aplicada al material rodante
+de los ferrocarriles y se han reformado numerosas disposicio-
+nes del Reglamento, a fin de que no surjan inconvenientes en
+su aplicación o adoptación.
+
+La organización y formación de los trenes según el número,
+calidad y posición de sus diferentes elementos, la circulación
+y preferencia entre aquéllos, el número de ejes que pueden
+comprender, los casos de maniobras, de combinaciones, etc., han
+sido tratados con las previsiones necesarias ante los mayores
+poderes de tracción y los aumentos de velocidad en los servi-
+cios, sin descuidar los requisitos de seguridad, que se han
+determinado minuciosamente.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The partial words in the narrow left column have been included.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+
+## Page Metadata
+Page number: 48
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number "48" is centered at the top of the page, above the main text block. The text is organized into several paragraphs, with some paragraphs starting with an indented first line.
+
+## Literal Transcription
+— 48 —
+
+Contemplando la extensa función de control que la Ley ha
+asignado a la Dirección General de Ferrocarriles, se ha esta-
+blecido que las empresas la informen sobre todos los acciden-
+tes o incidentes, que puedan producirse dentro de la zona de
+los ferrocarriles. Pero al mismo tiempo, con el propósito de
+evitar tramitaciones y gastos relativos innecesarios, se ha cir-
+cunscripto la obligación de complementar los avisos a los casos
+de gravedad actual o potencial, reservándose a dicha Dirección
+la facultad de requerir informaciones amplias en aquellas cir-
+cunstancias que lo juzgare necesario.
+
+El tercer capítulo relativo a los medios y sistemas de seña-
+lización y su funcionamiento, ha sido objeto de un atento exa-
+men. Las enmiendas introducidas a las disposiciones actual-
+mente en vigencia han tenido por objeto modernizarlas y mejo-
+rarlas, acentuando su eficacia para la protección y desarrollo
+rápido y normal del tráfico.
+
+El título II abarca el régimen general del servicio público,
+en cuanto se vincula a las relaciones de las empresas y los usua-
+rios de los ferrocarriles. El aspecto económico asume aquí
+mayor importancia que el técnico, por donde el conjunto de
+disposiciones del título se han reunido bajo el rubro de “Ex-
+plotación económica”.
+
+La importancia y el carácter delicado de las cuestiones, que
+abarca y plantea, es de suyo evidente y la Comisión ha ponde-
+rado cuidadosamente las reformas que ha proyectado, tendien-
+do a respetar los intereses legítimos del público y, simultánea-
+mente, a propender a que no graviten sobre los ferrocarriles
+gravámenes excesivos.
+
+La Comisión ha agrupado en el capítulo I de este título,
+las normas que conciernen al transporte, contemplado en su
+conjunto, es decir, aplicable tanto al servicio de pasajeros como
+a la conducción de las cargas y demás prestaciones accesorias.
+Al proceder así ha juzgado que la ordenación metódica o
+sistemática de las cláusulas reglamentarias sería de utilidad
+para consultas y facilitaría la familiarización del público con
+cuestiones que afectan de cerca los intereses colectivos.
+
+## Images, Captions, And Visual Notes
+- The page number "48" is centered at the top of the page, flanked by two short horizontal dashes.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page number is transcribed in the literal transcription and noted in visual notes."}
+```
+
+## Page Metadata
+Page number: 49
+
+## Layout And Reading Order
+The page features a two-column layout. The left column contains partial text from the preceding page, while the right column contains the main body of text for this page. The reading order is from the top of the left column, then to the top of the right column, and down each column. The page number is centered at the top.
+
+## Literal Transcription
+```
+y ha
+esta
+den
+a de
+o de
+cir
+easos
+ación
+n cir
+
+eña
+exa
+ctual
+mejo
+rollo
+
+lieo.
+sua
+aquí
+de
+Ex
+
+que
+nde
+ien
+riles
+
+ulo
+su
+omo
+ias.
+a o
+dad
+con
+                                                                — 49 —
+
+Entre esas disposiciones nos limitaremos a destacar la que
+se refiere a la clasificación de las líneas y ramales en dos cate-
+gorías.
+    La Comisión ha juzgado que correspondía dar proyecciones
+más amplias al decreto del Poder Ejecutivo del 28 de abril de
+1934, por la propia naturaleza de las cosas y en vista de la
+utilidad que de ello puede derivarse para el interés público.
+    Ha proyectado, en consecuencia, una disposición de carácter
+general determinando que las líneas y ramales serán clasifi-
+cados en esas dos categorías por el Poder Ejecutivo “a los
+efectos de la explotación técnica y comercial”.
+    Esta cláusula hará posible realizar, en parte, el ideal de la
+explotación económica de los ferrocarriles, medio necesario para
+evitar el recargo de tarifas y suplir los déficit de líneas im-
+productivas.
+    El título II versa sobre el transporte de pasajeros. Son
+numerosas las enmiendas de detalle que la Comisión ha pro-
+yectado para dar precisión a los preceptos vigentes o ampliar-
+los de acuerdo con los requerimientos de la época moderna.
+    En primer lugar, aun cuando la Ley General de Ferrocarrí-
+les no se refiere a la conducción de menores y si bien la legis-
+lación de la mayoría de los países limita la concesión del pago
+de medio pasaje a los menores de siete años, la Comisión ha
+preferido mantener en vigencia la cláusula liberal de nuestro
+Reglamento, que acuerda la gratuidad a los menores de tres
+años y al medio boleto a los menores de tres a doce años.
+    Se ha reglamentado con prolijidad la parte concerniente a la
+expedición y uso de los boletos y todas las demás cuestiones
+concomitantes, como uso parcial de los pasajes, reserva de asien-
+tos, prolongación de viajes sin boleto, etc., y se ha tratado
+de prevenir el abuso eventual consistente en viajar sin boleto.
+    El precepto que pone a disposición del público el Libro de
+Quejas, creado por la Ley Nº 2873, ha sido mantenido más o
+menos con su estructura actual, por considerar que ese expe-
+diente es de utilidad común para el público y las propias em-
+presas, en el sentido que las habilita a menudo a adoptar opor-
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None. All text is clearly legible.
+
+## Completeness Audit
+All visible text on the page, including the partial left column and the main right column, has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 50
+
+## Layout And Reading Order
+The page consists of a single column of text, with a page number centered at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+```
+— 50 —
+
+tunamente las medidas adecuadas para que el servicio se preste
+a satisfacción del público.
+Otro punto importante es el relativo a la responsabilidad por
+pérdida o avería de equipaje.
+El artículo 38 de la Ley General de Ferrocarriles adoptó en
+materia de pérdida o avería de los equipajes, el criterio de la
+responsabilidad objetiva, es decir, independiente de la situa-
+ción personal del pasajero, estableciendo que la indemnización
+se hará efectiva en esos casos “con arreglo a la tarifa de ava-
+lúos que se haya fijado en el Reglamento...”.
+Los ferrocarriles, al percibir por la conducción de pasajeros
+precios idénticos en situaciones idénticas, con prescindencia de
+la posición económica de los usuarios, deben estar sometidos a
+idéntica responsabilidad frente a los mismos.
+Por ello, a falta de declaración de valor, el riesgo queda limi-
+tado a una suma prudencial, fijada en cien pesos, lo que cons-
+tituye el riesgo objetivo ya mencionado. En cambio, con la
+declaración del valor la responsabilidad se hace amplia, dán-
+dose opción a la empresa para efectuar el transporte con o sin
+seguro. La Comisión ha aplicado análogo temperamento a la
+responsabilidad por pérdida, averías o retardo en el transporte
+de encomiendas, lo que se ajusta a lo que fué la mente de
+las disposiciones de la Ley y Reglamento actuales.
+La importancia que reviste el régimen de las tarifas ha
+determinado la formación de un capítulo especial.
+Siguiendo la tendencia de los principales países, que han
+procurado hacer más flexible el régimen tarifario, permitiendo
+a los ferrocarriles una adaptación rápida a las contingencias del
+momento, la Comisión ha abreviado los términos que para la
+comunicación y aprobación de las tarifas ordinarias y espe-
+ciales fijan las disposiciones actuales.
+Al efecto se ha establecido un distingo entre la implanta-
+ción de un nuevo sistema de tarifas o la modificación total o
+substancial del vigente, y la implantación de una o varias tari-
+fas, teniendo en cuenta que la diversidad de situaciones requie-
+re para los estudios administrativos plazos diversos.
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None. The text is clear and legible.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```
+
+## Page Metadata
+Page number: 55
+
+## Layout And Reading Order
+The page features a single main column of text, with a page number centered at the top. There is also a partial, narrow column of text visible along the left margin, which appears to be a continuation from a previous page or a parallel column. The reading order is the page number, then the marginal text from top to bottom, followed by the main column text from top to bottom.
+
+## Literal Transcription
+```
+— 51 —
+
+reste
+por
+
+en
+e la
+tua-
+ción
+ava-
+
+eros
+de
+os a
+
+mi-
+ons-
+la
+sin
+la
+rte
+de
+
+ha
+
+an
+do
+del
+la
+
+ca-
+o
+ri-
+e
+
+En la primera hipótesis se ha fijado para la comunicación
+el plazo de 90 días de anticipación a la fecha en que las tarifas
+hayan de ser puestas en conocimiento del público y en la
+segunda los plazos de 40 y 30 días, según se trate de tarifas
+ordinarias o especiales.
+Además se ha consignado que los términos legales de publi-
+cidad podrán ser reducidos por el Poder Ejecutivo o la Direc-
+ción General de Ferrocarriles, según el caso, si fuera de inte-
+rés público.
+Se ha incorporado también al Reglamento el sistema de la
+vigencia provisional de las tarifas cuando no fueran observa-
+das dentro de esos plazos y se ha confirmado el régimen de la
+aprobación tácita por el mero transcurso de los mismos.
+Dos disposiciones han sido dedicadas al régimen de las tari-
+fas de competencia: la primera para el caso de competencia
+entre empresas de ferrocarriles y la segunda para el de com-
+petencia entre los ferrocarriles y otros medios de transporte.
+Para esta última situación se ha establecido que, a fin de
+evitar la pérdida de tráfico, las empresas podrán proponer la
+emisión de una tarifa especial respecto de la cual la Dirección
+deberá pronunciarse dentro del plazo de 15 días, pudiendo, sin
+autorización expresa, ponerse en vigor la tarifa provisionalmen-
+te por un plazo de 30 días, si no hubiera sido observada. Y
+si dentro de este plazo no se dictare resolución aprobándola
+o rechazándola se considerará tácita y definitivamente apro-
+bada.
+La Comisión ha proyectado, además, un artículo según el
+cual toda tarifa especial que no tenga fecha de vencimiento
+no podrá, en principio, ser dejada sin efecto sin previo aviso
+al público con 90 días de anticipación. Pero, teniendo presente
+que lo categórico de ese precepto podría resultar en determi-
+nados casos incompatible con las necesidades reales, se ha agre-
+gado que el P. E. o la Dirección General podrán autorizar la
+reducción o supresión de dicho término si fuese de interés
+público.
+Mediante otra disposición se ha legalizado dándole cabida
+en el Reglamento, la aplicación de las tarifas que las empresas
+```
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or other substantial visual content.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The text in the left margin is incomplete as it is a partial column cut off by the page edge.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no images, captions, or other substantial visual content."}
+```
+
+## Page Metadata
+Page 56
+
+## Layout And Reading Order
+
+The page features a centered page number at the top, followed by a single column of justified text. The text consists of several paragraphs, each indented.
+
+## Literal Transcription
+
+— 52 —
+
+perciben por servicios accesorios o complementarios del trans-
+porte, sometiendo su comunicación, aprobación y publicidad a
+las disposiciones pertinentes del capítulo de que nos venimos
+ocupando.
+En lo demás, se han mantenido casi inalterados los artículos
+del Reglamento.
+El capítulo que concierne al transporte de cargas ha sido
+ante todo ordenado con criterio lógico, para enmendar la anar-
+quía que presenta en el Reglamento actual.
+Esa ordenación se ha hecho siguiendo en lo posible el pro-
+ceso cronológico del fenómeno del transporte, a través de sus
+distintos momentos, que van desde el registro de la carga, al
+ser presentada para su conducción, hasta su retiro de confor-
+midad en destino. La Comisión ha tenido, además, en cuenta
+las diversas incidencias que pueden ocurrir en el curso de ese
+proceso y las ha analizado aportando las enmiendas que ha
+juzgado convenientes.
+Se ha reglamentado prolijamente la confección y los requi-
+sitos del título legal del transporte, la carta de porte, defi-
+niendo al mismo tiempo el momento preciso de la conclusión
+del contrato, a fin de colocar sobre bases definidas los dere-
+chos recíprocos de las partes.
+En cuanto a la responsabilidad de las empresas por pérdidas
+o averías de las cargas frágiles y perecederas, se ha manteni-
+do el precepto del artículo 177 del Código de Comercio, com-
+pletándolo con la enunciación de los casos más corrientes de
+presunción de irresponsabilidad de parte de las empresas.
+El registro de llegada de las cargas “ha dado lugar, den-
+tro de las controversias judiciales, a numerosas dificultades.
+La Comisión lo ha reglamentado con especial atención, a fin
+de que por la claridad de los preceptos queden eliminados los
+motivos de conflictos.
+El capítulo que contempla la conducción de las cargas de
+peligro, ha sido objeto de estudio para ponerlo en consonancia
+con las exigencias presentes de esa clase de tráfico.
+El Reglamento dedica su capítulo X al transporte de ganado.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content."}
+```
+
+## Page Metadata
+Page number: 57
+
+## Layout And Reading Order
+The page consists of a single column of text. A page number is centered at the top. The text flows continuously, with the last paragraph ending mid-word, indicating continuation on the next page.
+
+## Literal Transcription
+— 53 —
+
+La imperfecta redacción de los artículos vigentes en relación
+a los plazos del transporte de haciendas, ha dado lugar a inter-
+pretaciones y fallos judiciales algunas veces contradictorios.
+La Comisión prestó consideración meticulosa a este punto, con-
+vencida de la necesidad de aclarar y sistematizar esas disposi-
+ciones, para evitar perjuicios al público o a las mismas em-
+presas, derivados de aquel inconveniente.
+En virtud de ello ha sometido todos los plazos, sea para
+trenes de horario, para trenes mixtos o para trenes especiales,
+no mediando convención especial de esta última clase, a los
+establecidos en el nuevo artículo 366, ha hecho una excepción
+para los transportes de ganado en trenes de carga, conside-
+rando que por sus propias modalidades o por exigencias de sus
+horarios, no podrían adaptarse a aquellos plazos, y por ello
+los ha aumentado en un 50 % en relación a los de la tabla,
+modificando así la jurisprudencia de Tribunales que le atri-
+buían los plazos para la carga del artículo 222, excesivamente
+amplios.
+Para todos los casos, la Comisión ha decidido que el mo-
+mento a partir del cual correrán los plazos será el del actual
+art. 351º, o sea desde las dos horas de efectuado el embarque
+de la hacienda. Se ha considerado que contar los plazos desde
+las 24 horas, en modo inflexible para todos los casos, sería
+enervar la facultad del Poder Ejecutivo para fijar plazos me-
+nores para el transporte, de acuerdo a la Ley Nº 2873 y al
+Código de Comercio.
+La Comisión contempló la posibilidad de reducir los plazos
+en esta clase de transporte, especialmente en lo que hace a los
+trenes de horario. Pero al profundizar las investigaciones y
+estudios relativos vió que se encontraba frente a un problema
+que no era fácil resolver en forma unilateral, por cuanto las
+empresas están forzadas a adaptarse a las condiciones de fun-
+cionamiento, instalaciones, etc., de los mercados públicos de
+hacienda. El número limitado de horas en que funcionan, dan
+por resultado que frecuentemente quede bloqueada la descarga
+de hacienda, aparte del tiempo requerido por la inspección
+veterinaria. De ahí que muchos trenes llegados en horas tem-
+
+## Images, Captions, And Visual Notes
+None.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last word of the page is hyphenated, indicating the text continues on the subsequent page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 54
+
+## Layout And Reading Order
+The page consists of a single column of text. It begins with a page number centered at the top. The main content is a series of paragraphs, followed by a list of names and titles, a salutation, and then more paragraphs.
+
+## Literal Transcription
+```
+— 54 —
+
+pranas no puedan tener acceso para la descarga hasta varias
+horas más tarde.
+    Por lo tanto, la solución del problema deberá buscarse en
+formas bilaterales mediante la contribución que cada parte de-
+berá poner de acuerdo a las situaciones de hecho existentes.
+    Otras reformas interesantes incluídas en este Capítulo, res-
+ponden a necesidades reales y a propósitos que se deducen de
+la redacción dada a los artículos correspondientes.
+    El Título III sobre “Policía Sanitaria” se divide en tres
+capítulos: el primero se denomina “Higiene de los Ferrocarrí-
+les” y comprende disposiciones destinadas a asegurarla; el se-
+gundo trata de “Transporte de Cadáveres” y el tercero versa
+sobre “Policía de los Productos Alimenticios”.
+    Finalmente el último Título del Reglamento reproduce, con-
+cordándolas, disposiciones penales consagradas en la Ley núme-
+ro 2873 y el Código Penal, que con posterioridad ha introdu-
+cido en ella importantes modificaciones.
+    Saludamos a V. E. con nuestra consideración más distinguida.
+
+        Ing. M. García Torre, Presidente.
+        Dr. Horacio L. Perrando, Secretario.
+        Vocales { Dr. J. Beltrame.
+                Ing. A. Krause Arnin.
+
+Señor Ministro de Obras Públicas de la Nación, doctor Manuel
+    M. Alvarado. — S/D.
+
+    Excmo. señor:
+
+    Esta Comisión, al estudiar el régimen de transporte aplica-
+ble a las cargas llamadas “perecederas” de que se ocupa el
+artículo 220 del Reglamento vigente, ha considerado indispen-
+sable proceder a una revisión completa del mismo.
+    Ante todo, se determinó el alcance o la interpretación que
+correspondía dar al artículo 46 de la Ley 2873. Esta norma
+contiene una excepción al principio de orden público que domi-
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 55
+
+## Layout And Reading Order
+The page presents a single column of text, with a centered page number at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+— 55 —
+
+na todo el régimen ferroviario: la expedición de las cargas
+por riguroso orden de registro. En consecuencia, su interpre-
+tación debió ser restrictiva, y por ello, las preferencias estable-
+cidas en cuanto al inciso 1º de dicho artículo, no pueden ir
+más allá del concepto de “frutos y provisiones”, necesarios al
+consumo diario de las poblaciones.
+Por lo tanto, los artículos 246 y 247 que substituyen al ante-
+rior artículo 220 del Reglamento, se someten a esa base.
+Pero atendiendo a que para algunas de esas sustancias por
+su naturaleza fácilmente perecedera, no es suficiente la prefe-
+rencia en la expedición, sino que además es indispensable fijar-
+les menor plazo de transporte para asegurar su llegada a des-
+tino en buenas condiciones para el consumo, se han estableci-
+do dos categorías: las de la primera, se transportarán en los
+tiempos de la tabla del artículo 366 y las de la segunda, que
+lo serán en los mismos tiempos más el 50 %.
+La dificultad mayor se ha presentado en cuanto a la deter-
+minación de las sustancias a incluir o excluir de dichas clases.
+La Comisión ha confeccionado la lista que adjunta, basándose
+en estudios efectuados por una comisión especial designada al
+efecto y que se constituyó de la siguiente manera: Ingenieros,
+Alfonso Amoroso y Arturo Noni, por la Dirección General de
+Ferrocarriles; ingeniero agrónomo Adrián Alivier, por el Mi-
+nisterio de Agricultura de la Nación y los señores Humberto
+Paganini, Hipólito Giardini, Santiago Ferreri y Félix Miotti,
+por las empresas ferroviarias y los Ferrocarriles del Estado.
+Dicha Comisión, celebró varias sesiones y en definitiva elevó
+su informe con las actas correspondientes, tomándose del mis-
+mo la lista adjunta, no sin antes resolver el punto relativo a
+los tiempos para ciertas cargas, como papas, cebollas no verdes,
+zapallos, caña de azúcar, etc., en contra de la creación de un
+tercer tiempo de transporte que complicaría enormemente la
+explotación ferroviaria y dejándolas sujetas a los plazos co-
+munes.
+En cuanto a los frutos incluídos en la lista de sustancias de
+la 2ª categoría, debemos dejar constancia que si se someten
+a otro plazo distinto, al de sustancias análogas de la 1ª cate-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+
+## Page Metadata
+Page number: 56
+
+## Layout And Reading Order
+
+The page contains a single column of text, starting with a paragraph, followed by several more paragraphs, and concluding with a formal closing and a signature. The page number "— 56 —" is centered at the top.
+
+## Literal Transcription
+
+— 56 —
+
+goría, ello responde a las costumbres ya implantadas por los
+cargadores en cuanto al estado de esos frutos al tiempo de
+iniciar los transportes, lo que permite una tolerancia de mayor
+plazo, como lo prueba la implantación y uso de tarifas espe-
+ciales vigentes aplicables con el 50 % de mayor plazo al de
+la tabla del artículo 349 anterior, equivalente al nuevo artícu-
+lo 366.
+
+Las demás disposiciones particulares del artículo 247 pro-
+yectadas por esta Comisión, se explican de por sí y deter-
+minan la adaptación de esos transportes a las modalidades
+impuestas por la práctica y los hechos.
+
+Como complemento de la reforma es indispensable la sanción
+por Decreto de la lista de clasificaciones adjunta, evitándose
+con ello motivos de controversia y pleitos entre cargadores y
+empresas.
+
+Se aconseja este temperamento para seguir la práctica esta-
+blecida y por cuanto su inclusión en el Reglamento de Ferro-
+carriles, resultaría inconveniente para los casos de inclusiones
+o exclusiones que a gestión de parte o de oficio, pudieran resol-
+verse más adelante.
+
+Dios guarde a V. E.
+
+M. García Torre.
+
+## Images, Captions, And Visual Notes
+
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+```
+
+## Page Metadata
+Page number: 61
+
+## Layout And Reading Order
+The page features a single-column layout with a page number centered at the top. The main content consists of two distinct sections, each with sub-sections or bullet points. There is also a date and an "Exp." number. A partial column of text is visible on the left margin, cut off by the page edge.
+
+## Literal Transcription
+```
+— 57 —
+
+r los
+o de
+mayor
+espe-
+al de
+tícu-
+pro-
+eter-
+ades
+ción
+dose
+es y
+esta-
+rro-
+ones
+esol-
+e.
+
+NOMINA DE SUSTANCIAS DE PRIMERA Y SEGUNDA CATEGORIA
+CUYO TRANSPORTE DEBE EFECTUARSE DE ACUERDO A LO
+DISPUESTO EN EL ARTICULO 247 DEL REGLAMENTO GENERAL
+DE FERROCARRILES:
+
+PRIMERA CATEGORÍA.—Frutas, verduras y legumbres frescas,
+excepto zapallos, cebollas no verdes, ajo seco, papas, batatas,
+remolacha forrajera o azucarera, cocos y caña de azúcar, que se
+transportarán en los plazos ordinarios.
+
+Leche, crema, manteca, quesos, cuajos y levaduras frescas.
+Pescados y mariscos frescos, carnes frescas o congeladas,
+hielo.
+Aves y otros animales, excepto ganado, cuyo transporte se re-
+girá por las disposiciones vigentes.
+
+SEGUNDA CATEGORÍA.—Ananás, bananas, granadas, limones,
+limas, mandarinas, manzanas, melones, membrillos, naranjas,
+pomelos, sandías, árboles y plantas vivas, huevos frescos y tepes.
+
+Exp.: 18.286 - FF - 936
+
+Buenos Aires, Septiembre 12 de 1936.
+
+Visto que la Comisión designada por decreto de 15 de abril
+de 1935 ha dado término a la revisión integral del “Reglamento
+General de Ferrocarriles” concretando sus conclusiones en el
+proyecto que acompaña y que somete a la aprobación del P. E.,
+Teniendo en cuenta:
+Que, en la labor realizada, se ha procedido con criterio res-
+trictivo y prudente en materia de innovaciones, limitándolas a
+lo indispensable para hacer que el derecho se adapte a los hechos
+nuevos que han surgido, conservando una regulación cuya efi-
+cacia y buen resultado tiene la confirmación de una larga ex-
+periencia;
+Que se ha mejorado y aclarado gran cantidad de disposiciones,
+definiendo muchos puntos dudosos y procurado, de un modo
+```
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page.
+
+## Uncertain Or Illegible
+The text on the left margin is partially visible and cut off by the page edge. It is transcribed as literally as possible, but its full content and context are not available.
+
+## Completeness Audit
+The page is complete, with all visible text transcribed. The partial text on the left margin has been noted.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+```
+
+## Page Metadata
+Page number: 58
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number "— 58 —" is centered at the top. The main content begins with a paragraph, followed by a heading, a decree statement, and then two articles, the second of which contains a numbered list of three points.
+
+## Literal Transcription
+```
+                                    — 58 —
+
+    especial, que el reglamento sea un valioso instrumento para
+garantizar la regularidad, seguridad y eficacia del servicio pú-
+blico a que concierne;
+    Visto, asimismo, que por razones de método conviene incluir
+previsiones, incorporadas en la actualidad al art. 343 del “Re-
+glamento General”, en el de “Medidas Unitarias para el tren
+rodante de los ferrocarriles nacionales”, cuya revisión deberá
+efectuar la Dirección General de Ferrocarriles;
+
+    El Presidente de la Nación Argentina,
+
+                                DECRETA:
+
+    Artículo 1º—Apruébase el proyecto de “Reglamento General
+de Ferrocarriles” a que se deja hecho referencia y cuyas dispo-
+siciones, en sustitución de las comprendidas en el que actual-
+mente está en vigencia, comenzarán a regir desde el 1º de
+enero de 1937.
+    Art. 2º—Sustitúyese el último párrafo del título “Vagones”
+del actual Reglamento de Medidas Unitarias, por lo siguiente:
+    “El material rodante para el transporte de ganado deberá
+sujetarse a las prescripciones siguientes:
+
+        1º Los vagones tendrán un piso que impedirá el resbala-
+        miento longitudinal y lateral de los animales dando fácil
+        salida a los residuos.
+        2º Los paramentos internos serán hechos de modo que las
+        ensambladuras correspondan a un solo plano vertical, sin
+        ganchos, tuercas u otros salientes que puedan dañar a los
+        animales, y los frentes serán munidos de dos paragolpes
+        con elásticos.
+        3º El enganche de los vagones para animales se hará con
+        ganchos de roscas, provistos de sus respectivos elásticos de
+        tracción o por otros medios que en adelante se inventaren
+        para reemplazarlos con ventaja; pero en ningún caso
+        podrá el atalaje o tornillo ser substituído por otro sin auto-
+        rización previa de la Dirección General de Ferrocarriles.
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 63
+
+## Layout And Reading Order
+The page features a main content area with a page number centered at the top. The main content consists of several numbered paragraphs and articles, followed by a closing signature block. A narrow, partial column of text is visible along the left edge of the page, indicating it's a continuation from a previous page or column. The reading order is top-to-bottom, left-to-right, starting with the page number, then the left marginal text, then the main body text.
+
+## Literal Transcription
+
+— 59 —
+
+4° Los pisos y paramentos de los vagones para animales de-
+berán ser construídos de manera que unidos por sus ex-
+tremidades abiertas a los efectos de la carga, no presenten
+solución de continuidad de más de cinco centímetros, que-
+dando absolutamente prohibido a las empresas el uso de
+tablas sueltas de unión u otros objetos que no estén per-
+fectamente asegurados.
+5° Los vagones que en adelante se construyan para el trá-
+fico de ganado deberán serlo con arreglo a los requisitos
+exigidos en este artículo, y se asentarán sobre bogies u
+otro sistema de suspensión equivalente, aceptado por la
+Dirección General de Ferrocarriles.”
+
+Art. 3°—La Dirección General de Ferrocarriles procederá a
+la revisión del Reglamento de Medidas Unitarias para el tren
+rodante de los Ferrocarriles Nacionales, sometiendo a conside-
+ración del Poder Ejecutivo las conclusiones a que arribe.
+Art. 4°—Publíquese, tómese conocimiento a sus efectos por la
+Dirección General de Ferrocarriles y archívese.
+
+JUSTO.
+M. R. ALVARADO.
+
+**Left Marginal Text:**
+para
+o pú-
+cluir
+“Re-
+tren
+eberá
+neral
+dispo-
+cual-
+e de
+nes”
+nte:
+berá
+ala-
+fácil
+las
+sin
+los
+pes
+con
+de
+ren
+aso
+to-
+les.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page, including the page number, main body text, and the partial left marginal column, has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page contains only text."}
+```

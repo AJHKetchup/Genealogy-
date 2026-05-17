@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:00Z",
+  "created": "2026-05-17T10:26:37Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -8,16 +8,8 @@
   "page": 98,
   "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0098.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0098.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains only handwritten text and a hole punch, which are fully captured by transcription and description. There are no substantial visual elements like photographs, maps, or complex diagrams that would warrant cropping.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten_annotation",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "E. Paradal\n(4/4)",
-      "source_context": "Handwritten text in the top right corner of the page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

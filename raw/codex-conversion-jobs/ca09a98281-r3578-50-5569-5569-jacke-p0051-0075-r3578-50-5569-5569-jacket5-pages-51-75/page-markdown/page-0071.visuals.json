@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:10Z",
+  "created": "2026-05-17T10:26:50Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
@@ -8,16 +8,8 @@
   "page": 71,
   "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/page-images/page-0071.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/page-markdown/page-0071.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The only visual element is a small, faded name stamp, which is transcribed in the text and does not warrant a separate crop.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "stamp_001",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "J.A. BURRO[?]",
-      "source_context": "Purple stamp containing a name below the closing remarks."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

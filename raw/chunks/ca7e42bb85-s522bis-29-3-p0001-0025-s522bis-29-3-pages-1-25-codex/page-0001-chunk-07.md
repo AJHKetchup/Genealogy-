@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-892a0f66c256-P0001-07
+chunk_id: CHUNK-a702ab3ebb2a-P0001-07
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md
-converted_sha256: 892a0f66c2562ace1595eeac8926f41ef10b0bd60e2a137bb1abaa359ccead47
+converted_sha256: a702ab3ebb2a0e01c1221337dffc957e1904a4568f056c65e97b2868c36c4154
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json
@@ -11,317 +11,357 @@ page_end: 1
 part: 7
 ---
 
-## Completeness Audit
-All text on the page has been transcribed. No content was truncated.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were detected. The page contains only text and a simple hole punch."}
-
-## Page Metadata
-Page number: 9
-
-## Layout And Reading Order
-The page contains a single newspaper article presented in a single column. The article begins with a header indicating the newspaper name and date, followed by a main headline, two sub-headlines, and then the body text divided into several paragraphs. There is also a small header at the very top left of the page with the newspaper name and date.
-
 ## Literal Transcription
-"LA PRENSA" - 28 mayo 1937.
 
-LA PRENSA — Viernes 28 de mayo de 1937
+DETERMINATION, he undoubtedly fail-
+ed to prevent implanting into the
+minds of the population, the princi-
+ples which engendered the movement
+of September 4th. For the first time
+in the history of Cuba was foreign
+interference compelled to unmask it-
+self and appear in its true light be-
+fore the Cuban people. The historical
+mission of Dr. RAMON GRAU SAN
+MARTIN'S Government was that of
+enunciating this problem in its prop-
+er terms. This has not consisted—nor
+could it consist—in a government by
+a tropical tyrant placed at the service
+of foreign banks. The great tyrant of
+yesterday, to-day and tomorrow—the
+iron shackle which confines the Cu-
+ban people to eternal economic servi-
+tude—is the powerful foreign inter-
+ests which have converted this coun-
+try into a mere factory. The perpe-
+tual obstacle to our economic libera-
+tion is foreign intermeddling in our
+domestic affairs; in North-American
+interference which invariably has
+been enforced in benefit of the United
+States. And the most handy instru-
+ment for the continuance of this in-
+miscuation is the subserviency of
+those Cuban politicians who have al-
+ways lent themselves as actors in the
+farce of foreign intervention. To no
+one is it unknown that Cuba is not
+politically independent, and the crea-
+tion of the desire on the part of the
+Cuban nation to obtain, without
+LIMITATIONS, the political and eco-
+nomic independence which it seeks,
+has been the most remarkable achieve-
+ment and the one of greatest tran-
+scendence of the Government presid-
+ed over by DR. RAMON GRAU SAN
+MARTIN.
 
-SUSCITOSE UNA INCIDENCIA EN
-MONTEVIDEO SOBRE VISACION DE
-PASAPORTES PARA LAS MALVINAS
+The coming into being of the Cu-
+ban Revolutionary Party had for its
+foremost object the directing into
+proper channels and the mobilizing
+and organizing of the masses of our
+countrymen, who, convinced that
+change was necessary, were automat-
+ically impelled to move along these
+lines. The Party's fundamental ob-
+jects are the following:
 
-El cónsul Viñas se negó a visar dos documentos de
-personas nacidas en dichas islas en los que aqué-
-llas figuraban como británicas
+1) Establishing the supremacy
+of Civil Authority for the
+government of the people.
 
-GESTION DEL MINISTRO INGLES EN MONTEVIDEO
+2) Utilizing that authority for
+obtaining the economic liber-
+ation of Cuba, through the
+application of political, so-
+cial and economic measures
+which will constitute the
+foundations of our program.
 
-Montevideo, mayo 27 (Especial)—Se ha producido en esta capital
-un hecho de carácter diplomático relacionado con las islas Malvinas.
-Ayer, en las últimas horas de la tarde, concurrieron al consu-
-lado general argentino dos ciudadanos nacidos en las islas Mal-
-vinas y solicitaron la visación de sus pasaportes, pues pensaban
-trasladarse a Buenos Aires. Exhibieron los documentos en los que
-constaba que los interesados habían nacido en las islas nombradas
-y establecían como nacionalidad la británica.
-Ante esta circunstancia, el cónsul general, doctor Alberto Viñas,
-expresó a los referidos señores que por el hecho de haber nacido en
-las Malvinas su nacionalidad era argentina y que en tal virtud no
-podían ser visados sus documentos, debiéndoseles otorgar, en cam-
-bio, un pasaporte argentino.
-Esto no fué aceptado por los recurrentes, quienes se dirigieron
-entonces a la legación de Gran Bretaña en Montevideo. El
-señor Millington Drake, se puso en comunicación inmediata-
-mente con el encargado de negocios de la República Argentina, doctor Lu-
-dovico Loizaga, a fin de consultarle respecto al modo en que se
-podría resolver el asunto que planteaba la negativa del cónsul gene-
-ral, doctor Viñas.
-El doctor Loizaga, después de informarse de los ante-
-cedentes existentes sobre el particular, le manifestó que, efectiva-
-mente, rigen disposiciones que determinan la posición del país ante los ciu-
-dadanos nacidos en las Malvinas.
-El ministro inglés se interesó por conocer si esas dispo-
-siciones regían exclusivamente para los nacidos en las Malvinas o eran de
-carácter general, especialmente en lo referente al retiro de pasapor-
-tes, y el doctor Loizaga le contestó que, en el caso concreto, se había
-hecho lo que correspondía, ante los antecedentes producidos en aná-
-logas circunstancias.
+For the attainment of these ob-
+jects, the EXECUTIVE of the Cuban Revolu-
+tionary Party has found necessary
+the organization of a new political
+force. This belief is based upon a
+firm conviction that the various poli-
+tical sectors and their leaders, who
+now enjoy the usufruct of power, are
+absolutely incapable of accomplishing
+the objects which the nation strives to
+achieve. And this conviction is
+founded upon any presumptuous
+flippant appreciation of our own mer-
+its, but upon the unquestionable qual-
+ity of incompetence existing in the
+older politicians and their anti-na-
+tional tendencies. Among those now in
+power we find the majority to be
+merely of continuers of the political
+tenets of the past, guided by one or
+another of the old time leaders. Such
+politics has always been characteriz-
+ed by its hollowness and meanness. Its
+highest aim has been the misappro-
+priation and dilapidation of the na-
+tional Treasury. This has provided
+cause for the never ending foreign
+interference and continuous chain of
+blunders which eventually paved the
+way for Machado, and which to-day
+is concealed under the pompous titles
+of "Accion Republicana" (Repub-
+lican Action), "Conjunto Revolucio-
+nario", etc., etc. Of these not one
+possesses sufficient faith in the cap-
+acity of the Cuban people to wield its
+own destiny. All in the hour of dan-
+ger and crisis have turned their im-
+perious eyes to Washington. To most
+of them pertains the immense respon-
+sibility for the deification of Macha-
+do. Some, like Menocal, were whole-
+hearted auxiliaries of the dictator-
+ship. The actual President of the Re-
+public was for years a prominent
+member of the sector which he then
+called the "Great Liberal Party".
+This sector took part in the electoral
+campaign of 1920 and condensed its
+program to conform to the well-
+known popular saying: "Tiburon se
+baña pero salpica." (The shark
+baths, but also permits grabbing. The
+dent grabs, but also permits grab-
+bing.) The ABC, once a flower
+of the revolution, was plucked from
+the twig by the skilful hands of Mr.
+Sumner Wells. As a revolutionary
+organization, it has been disarticulat-
+ed by its leaders and deviated from
+its original objective. In the atmos-
+phere of the Embassies, it has acquir-
+ed the art of overcoming program-
+matic scruples, and by dint of ob-
+taining victories over its own doc-
+trine, has succeeded in converting the
+organization into the choice flower of
+foreign intervention, and making of
+it the guarantors of the lives of ma-
+chadist assassins and the shock troops
+of the CHASE NATIONAL BANK. At the
+same time, it has not failed to in-
+tensify its original clamor for enlist-
+ment into its ranks, of men of "clean
+hands". The call has been made so
+ample and tolerant, that any macha-
+dist fanatic whatever may purchase
+of a peddler for 20 cts. a dozen razor
+blades, and as a "tip" receive an
+emblem of the ABC, which when pin-
+ned to the lapel of the coat, uplifts
+the wearer to the standing of a com-
+rade of those who, with liberal sacri-
+fice, gave prestige and honor to the
+"Green Insignia" of the once splen-
+did revolutionary organization.
+
+We have thought also, that for the
+sake of harmony in the course of the
+Revolution, the Cuban Revolutionary
+Party should appear before the coun-
+try as the continuer of the work be-
+gun under the Government of Doctor
+RAMON GRAU SAN MARTIN, but
+which was truncated by the action of
+the foreign intervention. To this ef-
+fect we pledge to the Cuban people
+our word, that the action of the CU-
+BAN REVOLUTIONARY PARTY
+will be inspired in the same ideals
+which originated the decrees enacted
+by the Grau San Martin Government,
+and which have become so deeply and
+firmly rooted in the minds of our
+countrymen.
+
+But should these reasons be insuf-
+ficient to justify the constitution of
+our Party, the spectacle which on
+every side we contemplate makes the
+mobilization of Cuba around a fixed
+national principle a problem which
+urgently must be solved. The con-
+CENTRATION GOVERNMENT—off spring
+of foreign interference—following
+immediately upon its ascendancy to
+power, commenced the promotion of
+class politics of the most idiotic char-
+acter. While more apparently this ef-
+fort of the government has been exer-
+cised for the benefit of foreign inter-
+ests, to the detriment of the poorest
+classes of Cuban citizens, the more in-
+tensely hateful has it become. Bol-
+stered by the good offices of "dollar
+diplomacy", the government chooses
+the method of repression and violence
+for the crushing of every movement
+of the laboring classes. Against such
+methods, and availing themselves of
+the disappointment of the working
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or visual elements on this page. The small header "LA PRENSA" - 28 mayo 1937. at the top left is a minor textual element.
+There are no meaningful images or captions on this page.
 
 ## Uncertain Or Illegible
-None. All text is clearly legible.
+None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+The transcription is complete and accurate to the visible page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text from a newspaper article."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 ```
 
 ## Page Metadata
-Page number: 10
+- Page number: 22
 
 ## Layout And Reading Order
+The page presents text in a multi-column layout, followed by a centered title, two columns of names, and a final three-line centered statement.
 
-The page features a single main column of text, with a header block positioned in the upper right corner. The reading order begins with the header block, followed by the main title, subtitle, and then the body text, which flows in a single column from top to bottom.
+The reading order is:
+1. Three columns of main text, read left-to-right, top-to-bottom.
+2. A date and location at the end of the third column.
+3. A centered title.
+4. Two columns of names, read left-to-right, top-to-bottom.
+5. A final three-line centered statement.
 
 ## Literal Transcription
 
-"LA PRENSA" B. A.
-29 mayo 1937.
+classes, the partisans of a solution by
+the employment of extreme measures
+intensify their efforts to congregate
+the Cuban laborers—vertebra of our
+national life—around the symbol of
+the “sickle and the hammer”. One
+and the other, each in a different way,
+precipitate the dissolution of our na-
+tionality.
 
-ACTUALIDAD
+In the midst of one faction and the
+other, both equally foreign to our na-
+tionality, the CUBAN REVOLUTIONARY
+PARTY uplifts its country’s banner
+and proclaims that here in the “Pearl
+of the Antilles” there is no Cuban
+capitalist class whose interests this
+Government is under obligation to
+defend. On the one side there are the
+foreign interests, at the service of
+which is the Concentration Govern-
+ment; and on the other, a people mer-
+cilessly exploited by those interests,
+without distinction of classes. It is to
+that people that we address our ap-
+peal in order that their union may
+be effected, without distinctness of
+classes, and so that the great object
+of national liberation may be accom-
+plished. Union, for the future foun-
+dation of our country, cannot be bas-
+ed on the resignation of the dis-
+ited and of those actually subjugat-
+ed; but in the equitable dispensation
+of social justice.
 
-Derecho argentino sobre las
-Malvinas
+We cannot in closing omit to state
+that while in the course of this lengthy
+dissertation we have been compelled
+to mention the large American Cor-
+porations and their exploitation, as
+those preëminently responsible for
+crime in Cuba, and referred also to
+the type of diplomacy that has acted
+as their accomplice, there is no feel-
+ing of antagonism in our minds, nor
+has there existed in the past such feel-
+ing toward the great North-American
+Democracy. Our contention is limit-
+ed to the influences that are hostile to
+Cuba—hostility which was engender-
+ed by financial interests foreign to
+the broad-minded American people,
+whom we regard as our friends. We
+admire that splendid nation which
+glories in equity and justice and con-
+sider it to be our natural ally. We
+know that the men of North-Amer-
+ican nationality who rushed to the
+storming of San Juan Hill were free
+from the spirit of imperialism with
+which their government was imbued.
+Those valiant warriors followed a
+noble object that was foreign to the
+Platt Amendment. And it would be
+easy for us to impart to the grand-
+children of those who fought at
+Bunker Hill, the supreme right of a
+people who, on struggling to obtain
+its independence, battles also for its
+legitimate right to survive.
 
-La soberanía nacional sobre las
-islas Malvinas es un principio al
-que nuestro país no ha renunciado
-en ningún momento. Desde que el
-gobernador que actuaba allí hasta
-hace poco más de cien años en re-
-presentación del gobierno de Bue-
-nos Aires, fue violentamente des-
-pojado del mando que ejercía y en-
-arbolado el pabellón británico en
-sustitución del argentino, quedó
-consumado un hecho material, pe-
-ro la protesta de la República, rei-
-terada explícita o implícitamente
-en cada oportunidad propicia, man-
-tiene incólume el derecho que al-
-guna vez, según lo hemos expresa-
-do, habrá de prevalecer sobre el
-imperio de la fuerza.
+Havanna, February, 1934.
 
-Mientras tanto, incidencias de di-
-versa naturaleza han renovado de
-tiempo en tiempo la cuestión para
-darle actualidad, bien que sin el re-
-sultado ulterior a que ellas se vincu-
-lan —la reincorporación de aquellas
-tierras a la jurisdicción a que legí-
-timamente debieran estar someti-
-das—, por lo menos para no dar lu-
-gar en ningún caso a actitudes sus-
-ceptibles de interpretarse como un
-consentimiento tácito sobre el hecho
-consumado.
+Executive of the Cuban Revolutionary Party.
 
-Las más recientes manifestaciones
-oficiales, concretas y expresas a ese
-respecto, habían sido, en 1935, las
-provenientes de sendas sentencias
-judiciales en los expedientes relacio-
-nados con la nacionalidad de dos
-ciudadanos nacidos en las Malvinas.
-Apárentes infractores a la ley de
-enrolamiento, sometidos a proceso
-ante la justicia federal, ésta resol-
-vió sobreseer definitivamente en los
-mismos, no por considerarlos ex-
-tranjeros, sino por encontrar pro-
-bado que su residencia en aquel lu-
-gar no les había permitido, por la
-situación conocida, cumplir con la
-obligación legal. Se dispuso, en con-
-secuencia, que se los enrolara en el
-ejército argentino y se les expedie-
-ran las correspondientes libretas.
+Dr. Ramón Grau San Martin; Dr. Jo-
+se Miguel Irizarri; Ingeniero Carlos
+Hevia; Rubén León; Carlos Prío So-
+carrás; Aurelio Alvarez; Enrique C.
+Henríquez; María T. Freyre de An-
+drade; Edgardo Buttari; Ing. Gus-
+tavo Moreno; Dr. Antonio María
+Rubio; Dr. Ramiro Capablanca; Dr.
+Carlos Finlay; Lincoln Rodón; Dr.
+Félix Lancís; Ing. Luis Martínez
+Sáenz; Manuel A. de Varona; Enri-
+que Fernández; Luis Barreras; Pe-
+dro Vizcaíno; Dr. Pablo Carrera
+Jústiz; Otilia André; Dr. Florencio
+Hernández Coto; Inocente Alvarez;
+Alfredo del Valle; Armando Rodas;
+Dr. José Fresneda; Antonio del Va-
+lle; Dr. Jorge López; Dr. Rafael
+Trejo; Manuel Arán; Alberto Cruz;
+Roberto Coloma; Fidelio Durán; Ing.
+Pablo Beola; Benjamín Rodríguez;
+Ignacio Hernández; Ciro Quintana;
+Ivo Fernández Sánchez; Enrique Pe-
+rozo; Segundo Ceballos; Dr. Salva-
+dor Massip.
 
-Anteriormente, y con motivo de la
-reunión de congresos postales de ca-
-rácter internacional, en 1928 y en
-1932, nuestro gobierno, al resolver
-sobre la autorización de intercam-
-bio postal, telegráfico y radiotelegrá-
-fico con las islas y sobre aplicación
-de tarifas solicitada por dos com-
-pañías, lo hizo "con la reserva for-
-mal y declaración previa de que tal
-hecho no aminora en absoluto el
-derecho de la soberanía argentina
-sobre las islas Malvinas, ni podrá
-ser invocado por país alguno en su
-desmedro".
-
-Ahora, el cónsul argentino en
-Montevideo acaba de ser requerido
-para visar los pasaportes de dos via-
-jeros, oriundos de las Malvinas, quie-
-nes se dirigían a Buenos Aires y
-en cuyos documentos se hacía cons-
-tar su nacionalidad inglesa.
-
-El mencionado funcionario se abs-
-tuvo de llenar la formalidad que se
-le solicitaba por considerar que el
-pasaporte, en las condiciones de
-su otorgamiento original, importa-
-ba un acto de soberanía de auto-
-ridades no argentinas, ejercido en
-territorio que debe considerarse ar-
-gentino.
-
-La incidencia habrá de tener su
-desenlace de cualquier otro modo
-—no nos anticipamos ni presuntiva-
-mente, a lo que haya de ocurrir—
-pero la reafirmación de nuestros de-
-rechos encontraba una nueva oca-
-sión de manifestarse categóricamen-
-te y así correspondía hacerlo para
-no incurrir en la conformidad tá-
-cita con una ocupación cuya legi-
-timidad hemos negado invariable-
-mente y ninguna circunstancia nue-
-va autoriza a aceptar por parte de
-la Nación.
+Against Foreign Exploitation and for the
+Liberation of the Native.
+Authentic Revolutionists.
 
 ## Images, Captions, And Visual Notes
-
-The page contains no meaningful images or visual elements beyond the text itself.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
-```
-
-## Page Metadata
-Page 11
-
-## Layout And Reading Order
-
-The page contains a handwritten note at the top, followed by a single column of printed text. The printed text appears to be a news article or official statement.
-
-## Literal Transcription
-
-La Nación, B. A. 20. 5. 37
-
-30/3/Posición indeclinable
-Dos personas nacidas en las islas
-Malvinas, que deseaban trasladarse a
-Buenos Aires, se presentaron en nues-
-tro consulado en Montevideo, pidien-
-do la visación de sus pasaportes, que
-habían sido expedidos por las autori-
-dades británicas residentes en aqué-
-llas. El cónsul general, de acuerdo
-con precedentes establecidos en ca-
-sos análogos, les manifestó que debían
-dejar en su poder esos documentos, en
-substitución de los cuales se les en-
-tregarían otros que acreditarían su
-condición de ciudadanos argentinos,
-de modo que podrían realizar su pro-
-pósito de entrar y circular en nuestro
-territorio, quedando librada a su pro-
-pio criterio la actitud que asumirían
-posteriormente a los efectos de esta-
-blecer su nacionalidad.
-
-Este punto de vista del represen-
-tante argentino no fué compartido
-por los viajeros; intervino el plenipo-
-tenciario británico en el Uruguay, y
-el asunto llegó en consulta al Minis-
-terio de Relaciones Exteriores, quien
-dió las normas para resolverlo en
-forma que conciliara los pareceres
-opuestos. Ella consiste en autorizar
-al consulado en Montevideo para vi-
-sar esos pasaportes expedidos por
-funcionarios británicos, pero dando a
-la visación el carácter de una sim-
-ple facilidad circunstancialmente otor-
-gada, que ni sienta precedente ni
-afecta en lo más mínimo la salva-
-guardia de nuestros derechos a la so-
-beranía sobre las islas Malvinas. Es-
-tos, por el contrario, se dejan expre-
-samente establecidos en la legaliza-
-ción.
-
-La Cancillería no ha dado a la pu-
-blicidad los fundamentos de su reso-
-lución, ni se ha referido a las razo-
-nes momentáneas que la determinen,
-ni a lo que ella pueda significar en
-cuanto al concepto permanente con
-que se ha encarado o se seguirá en-
-carando una situación que induda-
-blemente ha de repetirse. Pero lo im-
-portante en el episodio es que se ha-
-ya dejado a salvo el principio de que
-la Nación no puede reconocer ni im-
-plícitamente lo que desde hace cien
-años juzga como una usurpación vio-
-lenta de su derecho. Dejarlo a sal-
-vo, como una apelación a la concien-
-cia jurídica del mundo, es un deber al
-que no deben substraerse en circuns-
-tancia alguna las autoridades argen-
-tinas, y en este sentido es satisfacto-
-rio que el caso ahora resuelto, opor-
-tunamente planteado por el cónsul
-general en el Uruguay, haya servido
-para reafirmar una vez más nuestra
-posición indeclinable.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+There are no images, captions, or other meaningful visual notes on this page.
 
 ## Uncertain Or Illegible
-The "30/3/" at the beginning of the printed text's title appears to be a handwritten annotation or a partial date, possibly obscuring a printed number. It is transcribed as seen.
+No text on this page is uncertain or illegible.
 
 ## Completeness Audit
-All visible text and markings on the page have been transcribed.
+All visible text and layout elements on the page have been transcribed and described.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page primarily contains text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone wiki assets."}
 ```
 
 ## Page Metadata
-- Page number: 12
+- Page number: 23
 - Source: S522bis-29-3.pdf
-- Date: 26 de julio de 1935
-
-## Layout And Reading Order
-
-The page presents a newspaper clipping with two main content areas. The left area contains an article titled "Las Malvinas en la Cámara de los Comunes," preceded by a date and location. The right area contains a newspaper masthead, a date, and a handwritten archival stamp. There is also handwritten text in the left margin. The reading order is: article header, article title, article body (left column), then the masthead, date, and handwritten stamp (right column), and finally the handwritten notes in the left margin.

@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T10:29:27Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+  "page": 117,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0117.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0117.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Grieta o Puente de Icononzo (Según un dibujo\nde actualidad).\n\nNótense las diferencias sustanciales que exis-\nten entre este dibujo y el grabado de la obra\nde Humboldt, especialmente en lo que hace\nreferencia a los dos puentes, que en el graba-\ndo de Humboldt aparecen colocados separada-\nmente, cuando en realidad están superpuestos.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This illustration depicts a gorge with a bridge and waterfall, described as a current drawing of the Icononzo Gorge or Bridge.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 1",
+      "bbox_pct": [
+        11.5,
+        11.5,
+        41.5,
+        51.5
+      ],
+      "bbox_pixels": [
+        151,
+        212,
+        564,
+        970
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0117/page-0117-image-01-illustration-grieta-puente-icononzo-dibujo-actualidad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0117/page-0117-image-01-illustration-grieta-puente-icononzo-dibujo-actualidad.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0117.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 117,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0117.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "Grieta o Puente de Icononzo (Según un grabado de la\nobra de Humboldt: \"Vistas de las Cordilleras\"—\"Voyage\naux regions equinoxiales\")",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This illustration depicts the Icononzo Gorge or Bridge, based on an engraving from Humboldt's work.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 2",
+      "bbox_pct": [
+        49.0,
+        43.0,
+        82.0,
+        82.0
+      ],
+      "bbox_pixels": [
+        657,
+        802,
+        1110,
+        1542
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0117/page-0117-image-02-illustration-grieta-puente-icononzo-humboldt-engraving.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0117/page-0117-image-02-illustration-grieta-puente-icononzo-humboldt-engraving.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0117.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 117,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0117.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "caption_literal": "Guácharo (Steatornis)—Del Museo de La Salle, Bogotá.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "A photograph of a Guácharo (Steatornis) specimen from the La Salle Museum in Bogotá.",
+      "confidence": "0.95",
+      "inline_anchor": "Image 3",
+      "bbox_pct": [
+        11.5,
+        62.0,
+        41.5,
+        83.0
+      ],
+      "bbox_pixels": [
+        151,
+        1158,
+        564,
+        1560
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0117/page-0117-image-03-photograph-guacharo-steatornis-museo-la-salle.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0117/page-0117-image-03-photograph-guacharo-steatornis-museo-la-salle.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0117.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 117,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0117.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

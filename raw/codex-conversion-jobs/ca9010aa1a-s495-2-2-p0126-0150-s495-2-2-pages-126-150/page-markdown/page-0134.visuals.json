@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T10:28:48Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+  "page": 134,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0134.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0134.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_0_0",
+      "kind": "illustration",
+      "caption_literal": "KOLYNOS Dental Cream advertisement, including product tube, descriptive text, and vendor list.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-provided",
+      "source_context": "The entire Kolynos advertisement block.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        14.75,
+        44.25,
+        85.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        164,
+        695,
+        974,
+        1425
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0134/page-0134-image-01-kolynos-dental-cream-ad-page-134.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0134/page-0134-image-01-kolynos-dental-cream-ad-page-134.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0134.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+      "page": 134,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0134.md"
+    },
+    {
+      "region_id": "visual_0_1",
+      "kind": "product_image",
+      "caption_literal": "KOLYNOS DENTAL CREAM tube with text: 'A SCIENTIFIC DENTAL CREAM FORMULA OF DR. JENKINS, D.D.S. CLEANSING GERMICIDAL DELICIOUS SOLE MANUFACTURERS THE KOLYNOS CO. NEW HAVEN, CONN. U. S. A.'",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "Illustration of the Kolynos dental cream tube within the larger advertisement.",
+      "confidence": "5",
+      "inline_anchor": "",
+      "bbox_pct": [
+        17.88,
+        49.88,
+        35.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        200,
+        784,
+        403,
+        1346
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0134/page-0134-image-02-kolynos-dental-cream-tube-page-134.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0134/page-0134-image-02-kolynos-dental-cream-tube-page-134.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0134.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/manifest.json",
+      "page": 134,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0134.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

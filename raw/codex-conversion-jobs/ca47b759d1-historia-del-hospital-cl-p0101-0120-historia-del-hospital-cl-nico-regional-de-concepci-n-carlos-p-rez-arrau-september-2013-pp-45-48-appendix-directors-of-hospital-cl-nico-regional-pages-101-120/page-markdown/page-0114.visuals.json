@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:27:23Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+  "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
+  "job_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/manifest.json",
+  "page": 114,
+  "page_image": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/page-images/page-0114.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/page-markdown/page-0114.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_001",
+      "kind": "illustration",
+      "caption_literal": "HOSPITAL",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a hospital building with an ambulance, labeled 'HOSPITAL' on the building.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        39.9,
+        32.0,
+        85.9,
+        65.0
+      ],
+      "bbox_pixels": [
+        485,
+        503,
+        1056,
+        1034
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-01-hospital-building-and-ambulance.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-01-hospital-building-and-ambulance.png",
+      "page_image": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/page-images/page-0114.jpg",
+      "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+      "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
+      "job_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/manifest.json",
+      "page": 114,
+      "output_markdown": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/page-markdown/page-0114.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:27:45Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json",
+  "page": 125,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-images/page-0125.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-markdown/page-0125.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "DIOS PATRIA LIBERTAD",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Coat of arms of the Dominican Republic, with the motto 'DIOS PATRIA LIBERTAD' on a banner above the shield.",
+      "confidence": "0.95",
+      "inline_anchor": "A coat of arms is centered on the page, below the main title information and above the publisher's imprint. It features a shield with a cross and various symbols, flanked by laurel and palm branches, with a ribbon below and a banner above that reads \"DIOS PATRIA LIBERTAD\".",
+      "bbox_pct": [
+        39.0,
+        36.0,
+        66.0,
+        63.0
+      ],
+      "bbox_pixels": [
+        342,
+        501,
+        589,
+        889
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0125/page-0125-image-01-dominican-republic-coat-of-arms-1933.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0125/page-0125-image-01-dominican-republic-coat-of-arms-1933.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-images/page-0125.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json",
+      "page": 125,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-markdown/page-0125.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3f9e61ea9836-P0001-07
+chunk_id: CHUNK-37db5cb4859d-P0001-07
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md
-converted_sha256: 3f9e61ea9836509528ef52c75270e531bc23754ed8ed611e4227d238fa940953
+converted_sha256: 37db5cb4859d58c4fcf1097f84874f480b54480ddbdc983203f675aaec59c002
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json
@@ -11,210 +11,215 @@ page_end: 1
 part: 7
 ---
 
+## Layout And Reading Order
+This page is a tabular listing of hotels in the Netherlands, organized by city. The page is laid out as a single, multi-column table.
+
+The table has a two-line header. The first header line contains the main categories: `D.`, `HOTELS.`, `N.`, `C. 1`, `C. 2`, `B. 1`, `B. 2`, `P. 1`, `P. 2`, `L.`, and `D.`. The second header line provides sub-column labels `Min.` and `Max.` for the categories C. 1, C. 2, B. 1, B. 2, and P. 1.
+
+The body of the table lists cities in all-caps, followed by the hotels available in that city. Each hotel entry is on its own row with corresponding data for room prices and other services.
+
+At the bottom of the page, there are two numbered footnotes corresponding to markers in the table.
+
+The reading order is from top to bottom, following the rows of the table.
+
 ## Literal Transcription
-| HOTELS. | N. | C. 1<br>Min. | C. 1<br>Max. | C. 2<br>Min. | C. 2<br>Max. | B. 1<br>Min. | B. 1<br>Max. | B. 2<br>Min. | B. 2<br>Max. | P. 1<br>Min. | P. 1<br>Max. | P. 2 | L. | D. |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **ALKMAAR.** | | | | | | | | | | | | | | |
-| de Burg .......... | 24 | — | 3.50 | — | 7.— | — | — | — | — | — | 8.— | — | 2.50 | 3.50 |
-| † Guldenvlies ...... | 14 | 2.50 | 5.— | — | 6.— | — | — | — | — | 4.50 | 5.— | — | 1.50 | 2.50 |
-| Proot * .......... | 24 | 4.— | 5.— | 8.— | 10.— | 5.— | 6.— | 10.— | 12.— | 8.— | — | — | 2.50 | 2.50 |
-| **ALMELO.** | | | | | | | | | | | | | | |
-| de Gouden Leeuw * | 31 | — | 3.50 | — | 7.— | — | — | — | — | — | — | — | 2.50 | — |
-| Grimme .......... | 16 | 2.50 | — | — | — | — | — | — | — | 4.50 | — | — | 1.— | 2.— |
-| Vastert * ........ | 30 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | — | — | — | 3.— | — |
-| **AMERSFOORT.** | | | | | | | | | | | | | | |
-| Berg * ............ | 35 | — | 3.50 | — | 7.— | — | 4.50 | — | 8.— | — | 7.— | 6.— | 2.— | 3.— |
-| Monopole * ........ | 40 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 2.— |
-| Nationaal ........ | 9 | — | 3.— | — | 6.— | — | — | — | — | — | 6.— | — | 1.25 | 2.— |
-| de Witte * ........ | 18 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 1.75 |
-| de Zwaan ........ | 20 | 3.— | — | 6.— | — | — | — | — | — | — | 6.— | — | 1.50 | 2.— |
-| **AMSTERDAM.** | | | | | | | | | | | | | | |
-| American * ........<br>28 Leidscheplein. | 100 | 3.— | 5.— | 6.— | 10.— | 5.50 | 8.— | 10.— | 14.— | — | — | — | 2.50 | 4.50 |
-| Amstel * ..........<br>1 Tulpplein | 182 | 7.75 | 10.75 | 15.50 | 21.50 | 10.75 | 11.75 | 21.— | 26.— | 15.— | 20.— | — | 3.— | 5.— |
-| Boston * ..........<br>93 Leidschekade. | 70 | 3.25 | 4.50 | 7.— | 9.— | — | — | 10.— | 12.— | 7.— | 9.— | — | 2.— | 2.50 |
-| Brack's Doelen * ..<br>24 N. Doelenstraat. | 100 | 6.50 | 9.50 | 13.— | 16.— | 11.50 | 14.— | 19.— | 25.— | 15.— | — | — | 3.— | 4.— |
-| City * ............<br>46 Rembrandtplein | 30 | 4.— | 5.— | — | 10.— | — | — | — | 11.— | 10.— | 12.50 | — | 2.— | 3.— |
-| du Commerce ......<br>45 Kalvestraat. | 50 | 3.— | 5.— | 6.— | 10.— | — | — | — | — | 7.— | 10.— | — | 1.50 | 1.75 |
-| de l'Europe * ......<br>2 Doelenstraat. | 135 | 6.— | 10.— | 16.— | 20.— | 11.50 | 15.— | 21.— | 25.50 | 12.50 | 16.— | 11.50 | 2.50 | 4.— |
-| Fleissig * ........<br>123 Warmoesstraat. | 120 | 3.50 | 4.50 | 7.— | 9.— | 5.— | 6.— | 10.— | 12.— | — | — | — | 1.75 | 1.75 |
-| de Haas * ........<br>23 Tesselschadestr. | 58 | 4.— | 7.50 | 8.— | 16.— | 5.— | 8.50 | 16.— | 20.— | 8.— | 12.— | — | 2.— | 2.75 |
-| Krasnapolsky * ....<br>171 Warmoesstraat. | 135 | 4.50 | 5.50 | 9.— | 11.— | 7.50 | 9.— | 12.50 | 14.— | 9.50 | — | — | 2.— | 3.— |
-| Métropole * ......<br>22 Rembrandtplein. | 28 | 2.50 | 3.— | 5.— | 6.— | 3.25 | 3.75 | 6.50 | 7.50 | 5.— | 6.— | — | 0.90 | 1.50 |
-| Neuf * ............<br>41 Kalverstraat. | 35 | 3.75 | 4.— | — | — | — | — | — | — | — | — | — | 1.50 | 1.75 |
-| des Pays-Bas * ....<br>11 Doelenstraat. | 80 | 8.50 | 9.50 | 14.— | 15.50 | 10.— | 11.— | 18.— | 21.50 | 15.50 | 16.50 | — | 2.50 | 4.50 |
-| Polen * ..........<br>Rokin/Kalverstr. | 85 | 4.— | 7.— | 8.— | 12.— | — | — | — | — | 8.50 | 11.25 | — | 1.75 | 2.50 |
-| de Roemer ........<br>39 Heiligenweg. | 12 | 3.— | — | 6.— | — | — | — | — | — | 6.25 | 7.— | — | 1.50 | 1.75 |
-| de Roode Leeuw *<br>93 Damrak. | 89 | 4.50 | — | 9.— | — | — | — | — | — | — | — | — | 2.— | 3.— |
-| Rotterdam ........<br>14-16 Weesperplein | 45 | 2.50 | 3.— | 5.— | 6.— | — | — | — | — | — | — | — | 1.50 | 1.75 |
-| Schiller * ........<br>28 Rembrandtplein | 110 | 4.50 | 5.50 | 8.— | 9.— | 5.50 | 6.50 | — | 11.50 | 10.— | — | — | 2.50 | — |
-| Stadt Elberfeld * ..<br>141 O.Z. Achterbw. | 50 | 3.— | 4.— | 6.— | 8.— | 4.— | 5.— | 8.— | 10.— | 6.50 | 7.50 | — | 1.75 | 2.50 |
-| Suisse * ..........<br>22-26 Kalverstraat. | 120 | 3.50 | 4.50 | 8.— | 9.— | — | — | — | 11.— | — | 9.— | — | 1.75 | 2.75 |
-| Terminus * ........<br>111 Warmoesstraat | 75 | 3.— | 4.— | 6.— | 8.— | — | — | — | — | 6.— | 7.50 | — | 1.50 | 1.75 |
-| Victoria * ........<br>1 Damrak. | 300 | 4.50 | 10.— | 9.— | 16.— | 11.— | 15.— | 16.— | 25.— | — | — | — | 3.— | 5.— |
+| D. | HOTELS. | N. | C. 1 | | C. 2 | | B. 1 | | B. 2 | | P. 1 | | P. 2 | L. | D. |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | Min. | Max. | Min. | Max. | Min. | Max. | Min. | Max. | Min. | Max. | | | |
+| | **DEN BURG (Texel)** | | | | | | | | | | | | | | |
+| 3.50 | de Lindeboom * | 40 | 3.— | — | 6.— | — | — | — | — | — | 5.50 | — | — | 1.50 | 2.50 |
+| 3.50 | Texel | 28 | 3.— | — | 6.— | — | — | — | — | — | 5.— | — | — | 1.50 | 2.50 |
+| | **BUSSUM.** | | | | | | | | | | | | | | |
+| 2.— | Bosch van Bredius* | 75 | 5.— | 6.50 | 8.— | 12.— | 7.— | 8.50 | 15.— | 17.— | 8.50 | 13.— | 8.— | 2.50 | 3.50 |
+| 2.50 | Nieuw Bussum *... | 60 | 4.— | — | 8.— | — | 5.— | — | 10.— | — | 8.— | — | — | 2.25 | 3.— |
+| 3.— | de Rozenboom | 16 | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | 7.50 | 8.— | — | 2.— | 3.50 |
+| | **DELDEN.** | | | | | | | | | | | | | | |
+| 1.75 | de Zwaan * | 30 | 3.— | 3.50 | 6.— | 7.— | 4.— | — | — | — | 5.50 | — | — | 1.75 | 3.— |
+| | **DELFT.** | | | | | | | | | | | | | | |
+| 2.25 | Central | 40 | 3.— | — | 6.— | — | 3.75 | — | — | — | 5.— | — | — | 1.— | 1.50 |
+| 2.25 | Wilhelmina * | 40 | 3.50 | 4.75 | 7.— | 9.50 | — | — | — | — | 8.50 | 9.75 | — | 1.50 | 1.50 |
+| | **DEVENTER.** | | | | | | | | | | | | | | |
+| 2.25 | de Engel * | 28 | 3.50 | — | 7.— | — | — | — | — | — | 6.— | — | — | 1.75 | 2.25 |
+| 2.50 | de Wereld * | 23 | 3.— | — | 6.— | — | 4.— | — | 7.50 | — | 5.50 | — | — | 1.75 | 2.50 |
+| 3.50 | het Witte Huis * | 24 | 3.— | — | 6.— | — | 4.— | — | 7.50 | — | 5.— | 6.— | — | 2.— | 2.25 |
+| 3.— | van Wely * | 40 | 3.50 | — | 7.— | — | 4.50 | — | 9.— | — | — | — | — | 1.75 | 2.— |
+| | **DIEREN.** | | | | | | | | | | | | | | |
+| 3.50 | de Kroon * | 40 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.— | 6.— | — | 1.50 | 2.50 |
+| | de Nieuwe Kroon... | | | | | | | | | | | | | | |
+| | **DOETINCHEM.** | | | | | | | | | | | | | | |
+| 3.50 | Heerenlogement | | | | | | | | | | | | | | |
+| | **DOMBURG 1).** | | | | | | | | | | | | | | |
+| 4.50 | Badhotel | 110 | 3.50 | 4.50 | 7.— | 9.— | — | — | — | — | 7.— | 9.— | 6.50 | 2.50 | 3.50 |
+| 3.50 | Hotel de l'Europe | | | | | | | | | | | | | | |
+| | Juliana | | 2.75 | — | — | — | — | — | — | — | 5.— | 6.— | — | — | — |
+| | het Schuttershof 2) | 50 | 3.— | — | 6.— | — | — | — | — | — | 6.— | 7.— | — | 2.25 | 3.50 |
+| 2.50 | Strandhotel | 60 | 3.50 | 4.50 | 7.— | 9.— | — | — | — | — | 7.— | 9.— | 6.50 | 2.50 | 3.50 |
+| | **DOORN.** | | | | | | | | | | | | | | |
+| 2.50 | Cecil * | 40 | 3.— | — | 6.— | — | — | — | — | — | 5.— | 6.— | — | 1.50 | 2.— |
+| | Pabst | | 3.50 | — | 7.— | — | — | — | — | — | 6.50 | 7.— | — | 2.25 | 3.50 |
+| | **DORDRECHT.** | | | | | | | | | | | | | | |
+| 3.50 | Bellevue * | 50 | 3.— | 4.50 | 6.— | 8.— | — | — | — | — | 6.— | 9.— | — | 1.75 | 2.75 |
+| 2.50 | N. A. B. * | 16 | 3.— | — | 6.— | — | — | — | — | — | 6.— | 6.— | — | 1.50 | 2.50 |
+| | Ponsen * | 46 | 3.50 | 5.— | 7.— | 10.— | 6.— | 7.50 | 11.— | 12.50 | 7.— | 9.— | — | 2.50 | 3.50 |
+| | **EDE (Geld.).** | | | | | | | | | | | | | | |
+| 2.50 | Buitenzorg * | 42 | 3.— | — | 6.— | — | — | — | — | — | 5.— | — | — | 1.75 | 2.50 |
+| 3.— | Welgelegen | 22 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.— | — | — | — | 2.50 |
+| | **EGMOND a. ZEE.** | | | | | | | | | | | | | | |
+| 2.50 | Trompenberg * | 45 | 2.50 | 3.50 | 5.— | 7.— | — | — | — | — | 4.— | 6.— | — | 1.75 | 2.50 |
+| 2.75 | Welgelegen | 100 | — | 4.— | — | 7.— | — | — | — | — | 5.— | — | — | 1.75 | 3.— |
+| | **EINDHOVEN.** | | | | | | | | | | | | | | |
+| 2.— | du Commerce * | 50 | 3.— | 4.50 | 6.— | 10.— | 4.— | 5.50 | 8.— | 12.— | 6.— | 8.— | — | 1.75 | 2.25 |
+| | Royal * | 20 | 4.— | 6.— | 7.— | 12.— | 6.50 | 8.— | 10.— | 15.— | — | — | — | 2.50 | 3.— |
+| | **ELLECOM.** | | | | | | | | | | | | | | |
+| 2.— | Brinkhorst | 40 | 3.50 | — | — | — | — | — | — | — | 6.— | — | — | 2.— | 3.50 |
+
+1) Season June 1st—Oct. 1st. 2) Season July and August.
 
 ## Images, Captions, And Visual Notes
-There are no images, illustrations, or photographs on this page. The page consists entirely of a printed table.
+This page contains no images, illustrations, or other visual elements beyond the tabular text.
 
 ## Uncertain Or Illegible
-The entire page is clearly printed and fully legible.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-This page has been fully and completely transcribed.
+This page has been fully and accurately transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only a large table of printed text and has no images, illustrations, or other distinct visual elements."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of a text-based table and does not contain any images, illustrations, or other visual elements suitable for cropping."}
 ```
 
 ## Page Metadata
-- Page number: 95
+- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0097`
+- Model route: `pro`
+- Route reasons: complex_quality_flags, pdf_profile_complex
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/work-orders/page-0097.md`
+- Page: 97
+- Output Markdown target: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100/page-markdown/page-0097.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: many_uncertain_readings
+- Technical reread clues: none
 
 ## Layout And Reading Order
-This page is a two-column table listing hotels and their prices in various cities in the Netherlands. The left column is fully visible, while the right column is partially cut off. The reading order is top-to-bottom for the left column, then top-to-bottom for the right column. A footnote is present at the bottom of the left column.
+The page is laid out in two columns. The left column, which occupies approximately two-thirds of the page width, contains a table listing hotels and their prices. The right column, which is partially cut off, contains a list of what appear to be hotel or place names. The reading order is top to bottom for the table in the left column, followed by the partial list in the right column.
 
 ## Literal Transcription
-<div class="grid-container" style="--grid-columns: 2; --grid-gap: 2rem;">
-<div class="grid-item">
+***
+**Left Column (Table)**
 
-| HOTELS. | N. | C. 1 | | C. 2 | | B. 1 | | B. 2 | | P. 1 | | P. 2 | L. | D. |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| | | Min. | Max. | Min. | Max. | Min. | Max. | Min. | Max. | Min. | Max. | | | |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **APELDOORN.** | | | | | | | | | | | | | | |
-| Bloemink * ............ | 100 | — | 4.— | — | 8.— | — | 5.— | — | 10.— | 7.— | 7.50 | 6.50 | 2.25 | 3.50 |
-| van der Burg * ........ | 60 | 3.50 | 7.— | 7.— | 12.— | — | — | — | — | — | — | — | 2.50 | 3.50 |
-| de l'Europe ............ | 20 | 3.— | — | 6.— | — | — | — | — | — | — | — | — | 1.75 | 2.50 |
-| de Keizerskroon * ..... | 60 | 4.50 | 5.— | 9.— | 10.— | — | — | — | — | 7.— | 9.— | — | 2.50 | 3.50 |
-| Zeelandia .............. | 28 | 2.75 | — | 5.50 | — | — | — | — | — | 5.— | — | — | 1.75 | 2.25 |
-| **ARNHEM.** | | | | | | | | | | | | | | |
-| Bristol * .............. | 60 | 3.25 | 3.75 | 6.50 | 7.50 | — | — | — | — | 6.— | 7.50 | — | 2.— | 2.— |
-| Continental * ......... | 40 | 3.— | 3.50 | 6.— | 7.— | 4.— | 4.25 | 7.50 | 8.50 | — | — | — | 1.50 | 2.50 |
-| Oranje Nassau * ....... | 70 | 3.75 | 5.50 | 7.50 | 12.— | 5.50 | 6.50 | 10.— | 12.50 | 8.— | 9.50 | — | 2.50 | 3.— |
-| de Pauw ................ | 50 | 3.— | — | 5.50 | — | — | — | — | — | 5.— | — | 5.— | 1.75 | 2.75 |
-| des Pays-Bas * ........ | 110 | 3.50 | 5.— | 7.— | 10.— | 7.— | 9.— | 12.— | 14.— | 6.— | 10.— | — | 2.50 | 2.50 |
-| Plaza .................. | 30 | 2.50 | 3.50 | 5.— | 6.— | — | — | — | — | 5.— | — | 4.— | 1.10 | 1.75 |
-| Riche * ................ | 45 | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | — | — | — | 1.50 | 2.— |
-| du Soleil * ............ | 75 | 3.50 | 6.— | 7.— | 12.— | 6.— | 7.50 | 11.— | 14.50 | 7.— | 8.50 | — | 1.75 | 2.50 |
-| Sonsbeek ............... | 38 | 4.50 | 5.— | 9.— | 10.— | — | — | — | — | 7.50 | 10.— | 6.— | 2.25 | 3.50 |
-| **ASSEN.** | | | | | | | | | | | | | | |
-| de Jonge ............... | 16 | — | 2.50 | — | 5.— | — | — | — | — | 3.75 | 4.50 | — | 1.25 | 2.25 |
-| Park * ................. | 70 | — | 3.50 | 7.— | — | 4.50 | — | 8.— | — | 5.— | 6.50 | — | 1.50 | 2.25 |
-| Somer ...................| 30 | 3.— | 3.50 | 6.— | 6.50 | 3.75 | — | 6.75 | 7.25 | 4.50 | 5.— | — | 1.25 | 2.— |
-| Stationskoffiehuis. .... | 12 | — | 3.— | — | 6.— | — | — | — | — | 5.— | — | 1.— | 2.25 |
-| **BAARN.** | | | | | | | | | | | | | | |
-| Central ................ | 60 | 3.— | 4.— | 6.— | 8.— | — | — | — | — | 6.50 | 7.50 | — | 2.— | 2.50 |
-| Zeiler * ............... | 60 | 3.50 | 5.— | 7.— | 10.— | — | — | — | — | 7.— | 9.— | — | 2.50 | 3.50 |
-| **BENNEKOM.** | | | | | | | | | | | | | | |
-| Neder-Veluwe * ......... | 42 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.50 | 6.50 | 5.— | 2.— | 3.— |
-| **BERG EN DAL.** | | | | | | | | | | | | | | |
-| Groot Berg en Dal ..... | 200 | 4.— | 5.— | 8.— | 10.— | — | — | — | — | 7.— | 10.— | 6.50 | 2.50 | 3.50 |
-| **BERGEN a/ZEE 1).** | | | | | | | | | | | | | | |
-| Nassau-Bergen * ....... | 110 | 3.25 | 6.25 | 7.50 | 12.50 | — | — | 12.— | 16.50 | 8.— | 13.— | 7.— | 2.50 | 4.50 |
-| Trianon * .............. | 36 | 3.50 | — | 7.— | 10.— | — | — | — | — | 8.— | 10.— | 6.— | 2.50 | 3.50 |
-| **BERGEN (N.H.)** | | | | | | | | | | | | | | |
-| Erica .................. | 40 | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | 6.50 | 7.50 | 5.— | 2.— | 2.50 |
-| Kreb * ................. | 55 | 4.— | 5.— | 8.— | 10.— | — | — | — | — | 7.— | 9.— | 6.— | 2.50 | 3.50 |
-| Oranje ................. | | | | | | | | | | | | | | |
-| **BERGEN OP ZOOM** | | | | | | | | | | | | | | |
-| de Gouden Leeuw* ...... | 28 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.— | 5.50 | — | — | 2.50 |
-| **BLOEMENDAAL.** | | | | | | | | | | | | | | |
-| Duin en Daal * ........ | 110 | 4.— | 6.— | 7.— | 12.— | 7.50 | 10.— | 10.— | 14.— | 7.— | 10.— | 6.— | 2.25 | 3.50 |
-| Iepenhove * ............ | 30 | 2.50 | 3.— | 5.— | 6.— | — | — | 7.— | 7.— | 5.— | 5.— | — | 1.50 | 2.50 |
-| **BOSKOOP.** | | | | | | | | | | | | | | |
-| Klaassen ............... | 10 | 3.50 | — | 7.— | — | — | — | — | — | 6.50 | — | — | 2.50 | 3.— |
-| **BREDA.** | | | | | | | | | | | | | | |
-| Cosmopolite ............ | 50 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 6.— | 6.— | — | 1.75 | 2.50 |
-| de Kroon * ............. | 55 | 3.50 | 5.— | 7.— | 10.— | — | — | — | — | 6.50 | 7.— | — | — | 2.75 |
-| Oranje * ............... | 28 | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 5.50 | — | — | 1.75 | 2.50 |
-| de Schuur * ............ | 21 | 2.50 | 3.— | 6.— | 6.— | — | — | — | — | 5.— | 5.— | — | 1.75 | 2.— |
-| **BRIELLE.** | | | | | | | | | | | | | | |
-| de Nymph ............... | 22 | 2.50 | 2.75 | 5.— | 5.50 | — | — | — | — | — | — | — | — | 2.— |
-| | | | | | | | | | | | | | | |
-| 1) Season July 15th—Sept. 1st. | | | | | | | | | | | | | | |
+| HOTELS. | N. | C. 1 Min. | C. 1 Max. | C. 2 Min. | C. 2 Max. | B. 1 Min. | B. 1 Max. | B. 2 Min. | B. 2 Max. | P. 1 Min. | P. 1 Max. | P. 2 | L. | D. |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **ENKHUIZEN.** | | | | | | | | | | | | | | |
+| de Oranjezaal ...... | 9³ | 3.— | — | 6.— | — | — | — | — | — | 5.— | — | — | 2.— | 2.50 |
+| die Port van Cleve | 18³ | 3.— | — | 6.— | — | — | — | — | — | 5.— | 6.— | — | — | 3.50 |
+| **ENSCHEDÉ.** | | | | | | | | | | | | | | |
+| Zwijnenberg ...... | 25³ | 3.— | — | 6.— | — | — | — | — | — | 5.— | — | — | 1.75 | 2.50 |
+| **EPE.** | | | | | | | | | | | | | | |
+| het Wapen van Epe | 40 | — | 2.50 | — | 5.— | — | — | — | — | 4.50 | 6.— | — | 1.50 | 2.50 |
+| **FLUSHING (Flessingue) (Vlissingen)** | | | | | | | | | | | | | | |
+| Albion * ......... | 105³ | 3.— | 6.— | 6.— | 10.— | 6.— | 10.— | 9.— | 12.— | 7.50 | — | — | 1.50 | 3.— |
+| Beachhouse ....... | 40³ | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | 7.50 | — | — | 2.— | 2.50 |
+| Britannia Grand * | 270⁴ | 4.50 | 6.— | 8.— | 10.— | 7.50 | 9.— | 12.— | 14.— | 7.50 | 9.— | — | 2.25 | 3.50 |
+| Noordzeeboulevard* | 53³ | 3.— | 6.— | 6.— | 10.— | 6.— | 10.— | 9.— | 12.— | 7.50 | — | — | 1.50 | 3.— |
+| Zeeland * ........ | 68³ | 3.— | 6.— | 6.— | 10.— | 6.— | 10.— | 9.— | 12.— | 7.50 | — | — | 1.50 | 3.— |
+| **FREDERIKSOORD** | | | | | | | | | | | | | | |
+| Frederiksoord .... | 14² | 2.50 | 3.— | 5.— | 6.— | — | — | — | — | 5.— | 5.— | — | 1.75 | 2.50 |
+| **GELDERMALSEN.** | | | | | | | | | | | | | | |
+| het Wapen van Gelderland * | 27³ | 3.— | 4.— | 6.— | 7.— | 4.— | 5.— | 7.— | 8.— | 5.— | 7.— | — | 1.25 | 2.— |
+| **GOES.** | | | | | | | | | | | | | | |
+| Central * ........ | 28³ | 3.— | 3.50 | 6.— | 7.— | — | — | — | — | 6.50 | — | — | 1.50 | 2.25 |
+| de Korenbeurs * .. | 48³ | 3.— | 5.— | 6.— | 10.— | 4.— | 6.— | 8.— | 11.— | 6.50 | — | — | 1.75 | 3.— |
+| **GORINCHEM.** | | | | | | | | | | | | | | |
+| Métropole * ...... | 16 | — | 3.50 | — | 7.— | — | — | — | 8.— | 5.— | 6.— | — | — | 3.— |
+| **GORSSEL.** | | | | | | | | | | | | | | |
+| de Roskam ........ | 25 | — | 2.75 | — | 5.50 | — | 3.50 | — | — | — | 5.— | — | 1.— | 2.25 |
+| **GOUDA.** | | | | | | | | | | | | | | |
+| de la Station .... | 20³ | 3.— | 3.50 | — | — | — | — | — | — | 5.— | 7.50 | — | 1.75 | 2.50 |
+| de Zalm * ........ | 35 | — | 4.— | — | 8.— | — | 4.75 | — | — | — | 7.— | — | 1.50 | 3.25 |
+| **GRONINGEN.** | | | | | | | | | | | | | | |
+| de Doelen * ...... | 100⁴ | 4.— | 5.— | 8.— | 10.— | 5.— | 6.— | 10.— | 12.— | 8.— | 10.— | — | 1.75 | 3.— |
+| Elzenga * ........ | 35³ | 3.— | — | 6.— | — | — | — | — | — | 5.— | — | — | 1.50 | 1.75 |
+| Frigge * ......... | 62² | 2.75 | 4.50 | 6.— | 8.50 | — | — | — | — | 7.50 | — | — | 1.75 | 2.25 |
+| **GROUW.** | | | | | | | | | | | | | | |
+| Oostergoo * ...... | 25 | — | 3.— | — | 6.— | — | — | — | — | — | 5.— | — | 1.50 | 2.50 |
+| **LA HAYE (The Hague) (Haag).** | | | | | | | | | | | | | | |
+| Americain .......<br>*41 Wagenstraat.* | 70³ | 3.— | 4.50 | 6.— | 9.— | — | — | — | — | 6.— | 8.— | — | 1.50 | 1.75 |
+| Bellevue * ......<br>*15 Bezuidenhout.* | 100⁵ | 5.25 | 6.75 | 10.50 | 13.— | 8.75 | 10.25 | 15.50 | 17.50 | 11.50 | 15.— | — | 2.50 | 3.50 |
+| Central * ........<br>*18 Lange Pôten.* | 225⁵ | 5.50 | 11.— | 9.— | 14.— | 9.50 | 13.50 | 13.— | 17.— | — | — | — | 2.50 | 3.— |
+| des Deux Villes *<br>*20 Buitenhof.* | 108⁶ | 6.25 | — | 12.50 | — | 8.75 | — | 15.— | — | 11.50 | — | — | 2.50 | 3.50 |
+| Duinoord * .......<br>*13 Sweelinckplein.* | 60⁴ | 4.25 | 4.75 | 8.50 | 9.50 | 8.— | — | 12.50 | 12.50 | 8.— | — | — | 2.— | 2.50 |
+| de l'Europe * ....<br>*26 Molenstraat.* | 32³ | 3.50 | 4.— | 7.— | 8.— | — | — | — | — | 6.— | 8.— | — | 1.25 | 2.50 |
+| de Hertenkamp * ..<br>*19 Bezuidenhout.* | 50⁴ | 4.— | 5.— | 8.— | 10.— | — | — | — | — | 7.— | 8.— | — | 1.50 | 2.— |
+| des Indes * ......<br>*54 Lange Voorhout* | 120⁹ | 9.50 | 11.50 | 15.— | 18.— | 11.50 | 16.50 | 18.— | 25.— | 15.— | 17.— | — | 3.— | 5.— |
 
-</div>
-<div class="grid-item">
+***
+**Right Column (Partial)**
 
-| H |
-|---|
-| **DEN B** |
-| de Linc |
-| Texel |
-| |
-| **B** |
-| Bosch v |
-| Nieuw |
-| de Roz |
-| |
-| **D** |
-| de Zwaa |
-| |
-| **D** |
-| Central |
-| Wilhelm |
-| |
-| **DEV** |
-| de Enge |
-| de Wer |
-| het Wil |
-| van We |
-| |
-| **D** |
-| de Kroo |
-| de Nieu |
-| |
-| **DOET** |
-| Heerenlo |
-| |
-| **DOM** |
-| Badhote |
-| Hotel d |
-| Juliana |
-| het Sch |
-| Strandh |
-| |
-| **D** |
-| Cecil * |
-| Pabst |
-| |
-| **DOR** |
-| Bellevue |
-| N. A. B |
-| Ponsen * |
-| |
-| **EDE** |
-| Buitenzo |
-| Welgeleg |
-| |
-| **EIND** |
-| du Comm |
-| Royal * |
-| |
-| **ELL** |
-| Brinkhor |
-| |
-| 1) Se |
+Kastee[?]
+Wass[?]
+Koning[?]
+mina[?]
+du Pas[?]
+31 P[?]
+Paulez[?]
+2 Ko[?]
+Pays-B[?]
+102 P[?]
+Pomon[?]
+53 M[?]
+de la V[?]
+21 O[?]
+Termin[?]
+80 St[?]
+Victori[?]
+16 Sp[?]
+du Vie[?]
+6 To[?]
+Witteb[?]
+251 [?]
+de Za[?]
+49 M[?]
 
-</div>
-</div>
+Sche[?]
+see [?]
+
+HA[?]
+Funckl[?]
+den H[?]
+de Lee[?]
+Lion d[?]
+Royal[?]
+
+HAAR[?]
+Paars [?]
+Monop[?]
+
+HER[?]
+Vernin[?]
+
+H[?]
+Cloot [?]
+
+H[?]
+Bellevu[?]
+den Bu[?]
+
+H[?]
+de Ha[?]
+'t Lan[?]
+
+s HERT[?]
+(Bo[?]
+Centra[?]
+du Co[?]
+de Gou[?]
+Noord-[?]
+Orang[?]
 
 ## Images, Captions, And Visual Notes
-The page consists of a two-column table listing hotels and their prices. The paper has a yellowish tint, indicating age. There are no images, illustrations, or photographs on this page.
-
-## Uncertain Or Illegible
-There are no uncertain or illegible parts on the visible portion of the page. The right-hand column is physically cut off, making the text in that column incomplete.
-
-## Completeness Audit
-The visible content of the page has been fully transcribed. The right-hand column is incomplete due to being cut off in the source image.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a tabular format. There are no images, illustrations, or other visual elements that would be useful as standalone assets."}
-```
-
-## Page Metadata
-- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0096`
-- Page: 96
+- A hole punch is present in the top right of the table, obscuring the data in the `P.2` column for the `Zwijnenberg` hotel entry.

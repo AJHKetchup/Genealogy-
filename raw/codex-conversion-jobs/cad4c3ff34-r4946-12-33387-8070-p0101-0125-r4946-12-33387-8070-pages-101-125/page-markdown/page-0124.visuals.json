@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T10:29:36Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+  "page": 124,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0124.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0124.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "figura-1a",
+      "kind": "diagram",
+      "caption_literal": "Figura 1a.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The diagram labeled 'Figura 1a' shows an ellipse with various points and lines.",
+      "confidence": "0.95",
+      "inline_anchor": "![Figura 1a](image-1.png)",
+      "bbox_pct": [
+        20.0,
+        23.0,
+        35.0,
+        55.0
+      ],
+      "bbox_pixels": [
+        284,
+        428,
+        508,
+        1037
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0124/page-0124-image-01-figura-1a.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0124/page-0124-image-01-figura-1a.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0124.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 124,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0124.md"
+    },
+    {
+      "region_id": "figura-2a",
+      "kind": "diagram",
+      "caption_literal": "Figura 2a.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The diagram labeled 'Figura 2a' shows a curved line segment with points and angles.",
+      "confidence": "0.95",
+      "inline_anchor": "![Figura 2a](image-2.png)",
+      "bbox_pct": [
+        20.0,
+        55.0,
+        35.0,
+        89.0
+      ],
+      "bbox_pixels": [
+        284,
+        1029,
+        508,
+        1676
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0124/page-0124-image-02-figura-2a.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0124/page-0124-image-02-figura-2a.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0124.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 124,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0124.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

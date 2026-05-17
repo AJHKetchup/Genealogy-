@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:00Z",
+  "created": "2026-05-17T10:26:40Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -8,8 +8,16 @@
   "page": 30,
   "page_image": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/page-images/page-0030.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/page-markdown/page-0030.md",
-  "no_visual_regions_reason": "The main visual element is a framed text block, which is fully captured by the literal transcription. No distinct images, photos, or complex graphics are present that would warrant a separate crop.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "ad_clinica_del_hospicio",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "An advertisement for \"CLINICA DEL HOSPICIO\" listing its address, phone numbers, director, medical staff, and services.",
+      "source_context": "The entire framed text block on the page."
+    }
+  ],
   "flags": []
 }

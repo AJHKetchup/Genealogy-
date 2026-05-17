@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a1c4fb3e2686-P0001-06
+chunk_id: CHUNK-df0d8db38b1f-P0001-06
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: a1c4fb3e26864710dc8987fd04a58280750fac090977d7a778ae457103262f83
+converted_sha256: df0d8db38b1fc6076333e3fa53b80733d53ef8e89b5259df68435b56da6850f6
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -10,6 +10,46 @@ page_start: 1
 page_end: 1
 part: 6
 ---
+
+## Literal Transcription
+DIRECCION GENERAL DE MATERNIDAD E INFANCIA
+DEPARTAMENTO NACIONAL DE HIGIENE
+- 5 -
+
+de Educación, a los fines de su reconocimiento.
+Artículo 13.-- Donde las necesidades de los escolares
+lo requieran, el Consejo Nacional de Educación, en representa-
+ción del Estado, asumirá la responsabilidad de proveer de alimen-
+tos a los niños, en comedores escolares.
+Artículo 14.-- El Poder Ejecutivo, previo asesoramien-
+to del Consejo Nacional de Educación, procurará la instalación
+de comedores escolares, en los cuarteles de los regimientos en
+que fuera apropiado prestar dicho servicio.
+Artículo 15.-- El Consejo Nacional de Educación proce-
+derá a la creación de hogares escuelas en aquellas regiones de
+la República, donde la dispersión de la población, dificultad de
+las comunicaciones o falta de recursos de los padres, mala ali-
+mentación de los niños u otros factores, las hagan necesarias, a
+juicio de sus autoridades.
+Artículo 16.-- Los hogares escuelas se establecerán en
+ambientes higiénicos apropiados, con superficie de tierra apta
+para el cultivo y corrientes naturales u otra agua potable.
+Artículo 17.-- Los hogares escuelas funcionarán en lo-
+cales económicos y sencillos, que consulten las exigencias medi-
+copedagógicas, debiendo utilizarse en su construcción, en cuanto
+sea posible, materiales de la región. Tendrán las condiciones de
+comodidad, que determinará para cada clima, la Dirección de Ar-
+quitectura del Consejo Nacional del Consejo Nacional de Educación.
+Artículo 18.-- En los hogares escuelas, que estarán re-
+gidos por el sistema del internado, habrá servicio médico permanen-
+te, si el Consejo Nacional de Educación lo creyere necesario, y la
+alimentación será científicamente administrada.
+Artículo 19.-- En los hogares escuelas se impartirá la
+enseñanza primaria exigida por los programas oficiales del Conse-
+jo Nacional de Educación. Además se impartirá una enseñanza com-
+plementaria que inicie a los niños en la educación por el trabajo.
+Artículo 20.-- La dirección de cada hogar escuela, es-
+tará a cargo de un docente casado, que deberá vivir en el estable-
 
 ## Images, Captions, And Visual Notes
 No meaningful visual evidence on this page.
@@ -254,51 +294,3 @@ None.
 
 ## Completeness Audit
 All visible text has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-
-## Page Metadata
-Page number: 23
-
-## Layout And Reading Order
-
-The page contains a single column of text, primarily legal definitions and articles, presented in a list format. There is a page number "III-" at the top center. The text is organized into two main sections, each with sub-points labeled alphabetically.
-
-## Literal Transcription
-
-III-
-
-abandonados:
-    a) Los comprendidos en los artículos 106, 107 y 108 del
-    Código Penal;
-    b) Los que no tienen domicilio, ni medios de subsisten-
-    cia por muerte o desaparición de los padres o por no
-    ser éstos conocidos;
-    c) Los que eventualmente se encuentran sin domicilio o
-    medios de subsistencia por enfermedad, extrema indi-
-    gencia o detención de los padres, tutor o guardador;
-    d) Cuando los padres, tutor o guardador, tuviesen a los
-    hijos o pupilos en habitaciones perjudiciales a su
-    salud o en promiscuidad moral;
-    e) Los niños en edad de lactancia y todo menor de 12 a-
-    ños, cuando los padres u otras personas los tengan
-    consigo ejerciendo la mendicidad;
-    f) Cuando el padre, tutor o guardador, que tiene la pa-
-    tria potestad, tutela o guarda, hubiera sido condena-
-    do a más de tres años de prisión o reclusión, confor-
-    me a lo dispuesto en el artículo 12 del Código Penal,
-    y siempre que por cualquier motivo la madre no estu-
-    viere en condiciones de ejercer la patria potestad.
-    Artículo 8º.— Se consideran moralmente abandona-
-dos o en peligro moral:
-    a) Cuando los padres, tutor o guardador, hubieran sido
-    condenados por cualquier delito en perjuicio de algu-
-    no de sus hijos o pupilos o por los delitos de viola-
-    ción, estupro, corrupción, rapto o abuso deshonesto
-    en perjuicio de algún menor; en tales casos, si hubie-
-    re recaído sobreseimiento o absolución, el Tribunal
-    de Menores podrá asimismo resolver sobre la tenencia
-    del menor;
-    b) Cuando los padres, tutor o guardador, sean delincuen-
-    tes habituales, personas viciosas o de mala vida;

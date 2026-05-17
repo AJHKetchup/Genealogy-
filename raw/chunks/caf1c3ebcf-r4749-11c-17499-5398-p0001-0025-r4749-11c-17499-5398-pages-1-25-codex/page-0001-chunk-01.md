@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a1c4fb3e2686-P0001-01
+chunk_id: CHUNK-df0d8db38b1f-P0001-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: a1c4fb3e26864710dc8987fd04a58280750fac090977d7a778ae457103262f83
+converted_sha256: df0d8db38b1fc6076333e3fa53b80733d53ef8e89b5259df68435b56da6850f6
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -96,10 +96,10 @@ All visible text and structural elements have been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page consists of a pre-printed form with handwritten entries. There are no substantial standalone images, photographs, maps, or complex diagrams that would warrant individual cropping."}
 
 ## Page Metadata
-Page Number: 2
+Page 2
 
 ## Layout And Reading Order
-The page consists of a plain, light brown sheet of paper. A white fabric binding strip runs vertically along the right edge of the page, featuring a single punch hole near the top. A handwritten notation is present in the upper-middle section of the page.
+The page consists of a plain, light brown sheet of paper. A white binding strip is visible along the right edge, with a single hole punched through its top portion. Handwritten text is present in the upper-middle section of the brown paper.
 
 ## Literal Transcription
 ```
@@ -107,17 +107,17 @@ The page consists of a plain, light brown sheet of paper. A white fabric binding
 ```
 
 ## Images, Captions, And Visual Notes
-The page is a plain, light brown sheet of paper. A white fabric binding strip is present along the right edge, secured with a single punch hole at the top. The handwritten text "11ᶜ / 3.1." is located in the upper-middle portion of the page.
+The page is a plain, light brown sheet of paper. A white fabric or paper binding strip runs along the right edge of the page. A single circular hole is punched through the top right corner of the binding strip and the page itself, suggesting it was part of a bound volume or folder. The handwritten text "11ᶜ / 3.1." is located in the upper-middle section of the brown paper.
 
 ## Uncertain Or Illegible
-None.
+The superscript 'c' in "11ᶜ" is slightly stylized but appears to be a 'c'. The rest of the text is clear.
 
 ## Completeness Audit
 All visible text and significant visual elements on the page have been transcribed and described.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only a small handwritten note and a binding strip, neither of which warrant a standalone crop box."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only minor handwritten text and a binding strip, which do not constitute substantial visual assets for cropping."}
 ```
 
 ## Page Metadata
@@ -278,31 +278,3 @@ Page number: 5
 ## Layout And Reading Order
 
 The page contains a single block of typewritten text, followed by a closing and a printed name, all in a single column layout. A page number is centered at the top.
-
-## Literal Transcription
-
-```
-                                                                - 2 -
-
-                                        Je vous remercie de m'avoir fait parvenir le
-texte de la Loi N° 12.558 sur la protection des enfants
-d'âge scolaire; ce document sera également traduit et publié
-par les soins du Centre d'information. Quant au texte des
-projets de lois soumis actuellement au Congrès national pour
-établir le "régime de protection légale des mineurs" et la
-"protection des mineurs et l'extension de la compétence des
-tribunaux pour mineurs", ils seront déposés aux archives
-du Secrétariat, et il en sera fait mention dans le Rapport
-annuel en matière de protection de l'enfance qui sera publié
-en vue de la session de 1940 de la Commission consultative
-des questions sociales. J'espère que vous voudrez bien me
-prévenir si d'ici là ces projets sont devenus des lois.
-                                        Veuillez agréer, Monsieur le Ministre, les
-assurances de ma haute considération.
-
-                                        Pour le Secrétaire général,
-                                        Le Directeur des Sections du Trafic de l'opium
-                                        et des Questions sociales,
-
-                                        ERIC EINAR EKSTRAND
-```

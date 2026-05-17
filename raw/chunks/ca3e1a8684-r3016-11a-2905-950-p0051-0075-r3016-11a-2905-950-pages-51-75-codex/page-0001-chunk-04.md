@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9225b5fb7917-P0001-04
+chunk_id: CHUNK-f4a33d4d5470-P0001-04
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 9225b5fb7917c54116e51be954dc72b8a65b2ce4ff40ba74a6c23567c2be827b
+converted_sha256: f4a33d4d54706e80544b46bc77327ee6d78584f1e571796b9e8a4bd8af08a83d
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -10,6 +10,45 @@ page_start: 1
 page_end: 1
 part: 4
 ---
+
+## Layout And Reading Order
+
+The page contains a single handwritten note on a rectangular slip of blue-grey paper. The reading order is from top to bottom. A filing number is written in the top right corner. A name is written at the top, underlined, followed by the body of the note. The note is incomplete and appears to be cut off at the bottom of the page.
+
+## Literal Transcription
+
+```text
+[Handwritten in top right corner:] 11a/2905/950 10a)
+
+[Handwritten note:]
+M Von Schweißen
+__________
+
+En présence des difficultés
+d'ordre budgétaires, si
+j'avais à exprimer un
+avis sur l'utilité de la
+présence de M. le Ministre
+Huetz à la Conférence de la
+Croix Rouge à La Haye, je
+dirais que l'emploi d'une
+partie des fonds prévus au
+budget de 1928 pour
+l'U.I.S pour couvrir
+les frais de voyage du
+Président de la Commission
+permanente ne me parait
+pas être conforme aux
+intentions qui a présidé
+à l'octroi du crédit.
+D'ailleurs je sais que deux
+des membres de la dite
+Commission MM Ciraolo
+et François se trouveront à
+La Haye en qualité de Délégués
+des Croix Rouges italienne et
+belge de sorte qu'en fait la
+```
 
 ## Images, Captions, And Visual Notes
 

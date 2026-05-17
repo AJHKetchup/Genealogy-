@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:27:33Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/manifest.json",
+  "page": 149,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/page-images/page-0149.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/page-markdown/page-0149.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Decorative flourish centered on the page.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        38.8,
+        49.9,
+        54.2,
+        53.2
+      ],
+      "bbox_pixels": [
+        231,
+        407,
+        332,
+        442
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/extracted-images/page-0149/page-0149-image-01-decorative-flourish-1922.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/extracted-images/page-0149/page-0149-image-01-decorative-flourish-1922.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/page-images/page-0149.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/manifest.json",
+      "page": 149,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150/page-markdown/page-0149.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

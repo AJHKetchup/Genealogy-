@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:26:43Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/manifest.json",
+  "page": 108,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-images/page-0108.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-markdown/page-0108.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "diagram",
+      "caption_literal": "Fingerprint chart showing prints for the left and right hands, categorized by finger type, with handwritten classification marks.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The main body of the form, containing the ten fingerprint impressions and their associated handwritten marks.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        9.8,
+        22.0,
+        90.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        56,
+        286,
+        555,
+        1191
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-images/page-0108.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/manifest.json",
+      "page": 108,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/page-markdown/page-0108.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

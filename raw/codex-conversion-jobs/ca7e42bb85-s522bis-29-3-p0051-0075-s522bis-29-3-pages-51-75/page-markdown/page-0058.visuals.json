@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:49:02Z",
+  "created": "2026-05-17T10:26:42Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,8 +8,23 @@
   "page": 58,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/page-images/page-0058.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/page-markdown/page-0058.md",
-  "no_visual_regions_reason": "The page contains only handwritten text and minor handwritten annotations (a circled number and underlines) which are fully captured by literal transcription and visual notes. No substantial images, diagrams, or forms are present that would warrant cropping.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "handwritten_text",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "La situacion\nArgentina\nEstudios de Gimenez Zapiola\ny J. G. Buero\nDocs oficiales Argentinos\nde 1919 y 1920\nAvis Consultatif de\nla Corte S/ Sauzzy y BIT",
+      "source_context": "Handwritten title and content description on the cover page."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "handwritten_mark",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "(3/1)",
+      "source_context": "Circled number in the top right corner of the cover page."
+    }
+  ],
   "flags": []
 }

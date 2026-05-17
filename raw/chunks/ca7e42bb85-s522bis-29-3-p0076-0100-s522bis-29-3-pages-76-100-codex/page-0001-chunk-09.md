@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ec9d78878adc-P0001-09
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-09
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ec9d78878adcc8475176c0af7c31afe36fdfa029cb06428fdc10047cf0941515
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -11,140 +11,283 @@ page_end: 1
 part: 9
 ---
 
-## Page Metadata
-Page number: 90
-
-## Layout And Reading Order
-The page has a two-column layout. The header "1702 CAMARA DE DIPUTADOS" is at the top left, and "Septiembre 21" is at the top right. The main content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom.
-
 ## Literal Transcription
-1702 CAMARA DE DIPUTADOS Septiembre 21
+2700 CÁMARA DE DIPUTADOS Septiembre 21
 
-cementerios, todo eso ha encontrado resisten-
-cias enormes de parte de la iglesia oficial. Y
-cuanto más sencillo, más fácil, más honesto
-mentalmente, sería que en este país cuyo pre-
-ámbulo lo abre para todos los hombres libres
-del mundo, todos los hombres libres del mun-
-do profesaran libremente el culto que quisie-
-ran.
-La separación de la iglesia del estado ven-
-drá, señor diputado Cafferata, y vendrá por-
-que estoy convencido de ello, porque el señor
-diputado Bas, espíritu perspicaz y penetrante,
-que preve el porvenir, que vislumbra lo que
-va a suceder y quiere adelantarse a lo inevi-
-table, ha tenido el gusto y el honor de con-
-fesarnos, al diputado Justo y a mí, que es par-
-tidario de la separación de la Iglesia del
-Estado. Todo es, pues, cuestión de buscar la
-transacción... (Risas).
-Sr. Bas. — ¿Me permite el señor diputado,
-para aclarar?
-Sr. Dickmann. — Sí, señor. Con mucho gus-
-to.
-Sr. Bas. — Como se trata de una cuestión
-realmente interesante y delicada, me complace
-la referencia que ha hecho el señor diputado,
-que me permite fijar de una manera precisa mi
-concepto al respecto.
-En una conversación que, efectivamente tu-
-ve con los señores diputados Justo y Dick-
-mann, y que yo he de completar, porque en esa
-oportunidad el señor diputado Dickmann se
-manifestó mucho más amplio que el señor di-
-putado Justo, efectivamente recuerdo, que, ha-
-ce más o menos un año...
-Sr. Dickmann. — Cuando se incorporó esta
-vez a la cámara el señor diputado.
-Sr. Bas. — Exactamente; iba a decir eso, pre-
-cisamente.
-Al iniciarse las sesiones del año pasado me
-encontré con los señores diputados, con los cua-
-les en períodos anteriores había tenido ciertas
-dificultades que nos habían alejado un tanto;
-recuerdo que tocamos diferentes puntos de vis-
-ta. Me parece que fué la materia de legislación
-social, la cuestión de los trusts, y coincidimos
-realmente — como hemos coincidido aquí, en
-la cámara — en la forma de abordar esos in-
-teresantes problemas, llamados a resolver de
-una manera clara y precisa las relaciones entre
-el capital y el trabajo, para evitar convulsiones
-violentas y dar verdaderas soluciones de armo-
-nía basadas en principios de justicia.
-Pero recuerdo que después de esa conversa-
-ción, el señor diputado Justo, con esa habili-
-dad que le caracteriza, me dijo: ¡Pero siempre
-nos queda ese asunto de la iglesia, del culto, de
-la protección del culto, de las relaciones de la
-iglesia con el estado. — Me parece — le dije
-— que aun en esa materia no nos hemos de en-
-contrar muy lejos. Sostengo que en principio
-deben existir relaciones entre la iglesia y el
-estado, es decir, que como concepto fundamen-
-tal y filosófico, el estado y la iglesia son dos po-
-deres que se complementan, para el cumpli-
-miento pleno de los respectivos fines, a cada
-uno de ellos encomendados.
-Sr. Dickmann. — ¿Si me permite?
-Yo desearía que la interrupción del señor
-diputado sea breve, porque si va a intercalar
-un discurso en el mío... Me place mucho oir
-al señor diputado, pero...
-Sr. Bas. — Voy a concluir en seguida.
-Pero sostengo también — agregué a los se-
-ñores diputados — que esas relaciones que en-
-tre la iglesia y el estado que deben en princi-
-pio sostenerse, pueden, deben hacerse desapa-
-recer cuando ellas sean notoriamente perjudi-
-ciales a los intereses de la iglesia. Y ese es mi
-concepto acerca de la situación de la Iglesia
-argentina en la actualidad.
-Entonces el señor diputado Justo me dijo:
-— Me parece muy bien. — Naturalmente — le
-agregué —, siempre que se haga una separa-
-ción de la iglesia y el estado, dentro de un con-
-cepto amplio de verdadera libertad, como la se-
-paración en los Estados Unidos y el Brasil, pe-
-ro no la de otros países, a base de confiscación
-de bienes y de despotismo.
-El señor diputado Justo me replicó, que esa
-es una cuestión que habría que ver, porque in-
-dudablemente esos bienes, cuya mayor parte
-han sido adquiridos — dijo — con subsidios
-del estado, habría que resolver en qué situa-
-ción quedarían.
-El señor diputado Dickmann agregó que ese
-es un asunto que habría que abordar con toda
-amplitud; dejando a la Iglesia la totalidad de
-sus bienes — y yo le puedo citar — agregó —
-el caso de Rusia, donde precisamente, se ha he-
-cho la separación dejando a la iglesia amplitud
-absoluta en el dominio de sus bienes.
-Esas son las referencias que entonces yo hi-
-ciera y que ratifico en este momento.
-Sr. Dickmann. — Me place la aclaración del
-señor diputado. Al comenzar mi exposición he
-afirmado una verdad que él habrá percibido
-bien: que después de la supresión del presu-
-puesto de culto y de la separación de la igle-
-sia y el estado, seremos más amigos que antes.
-A propósito del presupuesto de culto, el se-
-ñor diputado Cafferatta se refirió a que en
-realidad no se trata de un presupuesto, sino
-una indemnización por las propiedades que
-fueron confiscadas a la iglesia en el año 1822,
-bajo el gobierno del general Martín Rodrí-
-guez, siendo ministro Rivadavia. Posiblemen-
-te por este pecado tremendo de su ministro
-Rivadavia, este ilustre gobernante argentino
-todavía no tiene estatua...
-Sr. Frugoni. — ¡Habiéndose dictado más
-de diez leyes!
+Nadie será jamás delicado, fino, ni siquiera presen-
+te, sin nociones religiosas.
+"Esta carta te sorprenderá; estoy persuadido de ello;
+es necesario, hijo mío, que un padre diga siempre la
+verdad a sus hijos. Ningún compromiso, podría excu-
+sarme si permitiese que tu instrucción fuese incomple-
+ta, y tu educación insuficiente".
+
+Señor presidente, he formulado estas obser-
+vaciones contestando a la impugnación que se
+ha hecho al anexo del culto, y respondiendo a
+mi convicción de católico, hondamente arrai-
+gada que me complazco en ratificar, desde
+esta tribuna la más alta del país. (¡Muy bien!
+¡Muy bien!).
+
+—Ocupa la presidencia el señor diputado Sán-
+chez de Bustamante.
+
+**Sr. Dickmann.** — Pido la palabra.
+No hubiera participado en este debate, se-
+ñor presidente, por razones de tiempo y opor-
+tunidad si el señor diputado por Córdoba no
+hubiera hablado en la sesión de hoy.
+
+Como la cámara fijó la sesión de hoy para
+discutir y sancionar el presupuesto y las leyes
+impositivas he creído que podría ampliarse es-
+te debate, que se va ampliando cada vez más,
+en la próxima discusión del presupuesto; pero
+las palabras del señor diputado por Córdoba
+me estimulan y me obligan a contestarle. Tra-
+taré de hacerlo con la brevedad que me sea
+posible.
+
+Habrá visto la honorable cámara que de año
+en año la diputación socialista discute el pre-
+supuesto de culto, propone su supresión o su
+reducción a una mínima expresión, y habrá
+notado también que de año en año esta discu-
+sión se amplía, se ahonda y se agranda. Por-
+que como bien lo dijo el diputado Justo en su
+discurso y en su réplica al señor diputado Bas,
+no es éste para la diputación socialista un asun-
+to solamente de presupuesto ni un asunto eco-
+nómico; es un asunto de alta importancia mo-
+ral y de gran trascendencia ética, complejo y
+completo, y la diputación socialista no des-
+cansará hasta no conseguir la supresión del
+presupuesto de culto y la separación de la
+iglesia y del estado, para quedarnos después
+posiblemente más cerca en algunos asuntos de
+orden social, de los diputados que representan
+en este momento la tendencia clerical.
+
+Hemos encarado esta cuestión en otros de-
+bates bajo el punto de vista general. El diputa-
+do Justo lo ha encarado esta vez con un espí-
+ritu práctico actual, sin dejar de hacer consi-
+deraciones fundamentales de orden general;
+y para que no haya ningún equívoco al res-
+pecto, para que en esta cuestión haya la ma-
+yor claridad, para que no se preste a ningún
+mal entendido es necesario reafirmar nueva-
+mente nuestro punto de vista fundamental.
+No discutimos la religión, señores diputa-
+dos, no discutimos el espíritu religioso. Se pue-
+de creer que el espíritu religioso es una infe-
+rioridad, se puede creer que es una superiori-
+dad. Se puede creer que la religión es indis-
+pensable para la moral, se puede creer que
+sin religión también la moral puede existir.
+Pero no es esto lo que queremos debatir. De-
+jamos eso para debates de otra índole, en
+otros sitios, para el eterno e inacabable debate
+entre la verdad científica y el dogma religio-
+so. Vamos a hacer ahora una cuestión concre-
+ta y clara, que es necesario que los señores
+diputados y el pueblo de la República conoz-
+can bien. Tolerantes en el máximo grado con
+todo espíritu religioso, tolerantes en máximo
+grado con toda libertad religiosa, en nombre
+de esa tolerancia y de esa libertad exigimos
+que el estado no tenga ninguna religión y
+que el pueblo, compuesto de religiosos y de
+ateos, que el pueblo, compuesto de distintas
+tendencias religiosas, no pague de su peculio
+para mantener una religión dada. Se trata, se-
+ñores diputados, de afirmar de una vez para
+siempre la más absoluta libertad religiosa.
+Se ha usado a mi entender con alguna im-
+propiedad las palabras tolerancia religiosa. No
+es la tolerancia la que nosotros buscamos, por-
+que en realidad ella existe en la República.
+Al lado de la iglesia oficial, al lado del culto
+sostenido por el presupuesto, se toleran las
+otras religiones. La tolerancia religiosa es una
+inferioridad. Es la libertad religiosa la que nos-
+otros queremos; que cada hombre, cada grupo
+humano que quiere profesar tal o cual creen-
+cia, que quiere realizar su culto en una capi-
+lla, en una sinagoga, en una catedral o en una
+mezquita, pueda hacerlo con toda libertad y
+que el presupuesto nacional no sostenga a nin-
+guno de estos cultos ni a ninguna de estas sec-
+tas.
+
+Cuando los diputados socialistas sostenemos
+con esta precisión y claridad este punto de
+vista, que no va contra la libertad religiosa,
+sino en su favor, y contra un culto oficial, que
+ahora niega esta libertad, se nos sale con el
+artículo 2o. de la Constitución nacional. El se-
+ñor diputado Bas se ha referido ayer rápida-
+mente a este artículo, y el señor diputado Ca-
+fferata hoy se ha detenido con más amplitud
+en él. Cómo, se dice los señores diputados so-
+cialistas quieren que se suprima el presupues-
+to de culto de la nación, cuando hay una pres-
+cripción terminante que ordena el sostenimien-
+to del culto católico, apostólico, romano! A!
+mi entender es un argumento que no cabe bien
+en boca de hombres creyentes. Si yo fuera ca-
+tólico, apostólico, romano hubiera rechazado
+el presupuesto de culto. Me parecería rebajar
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page that require cropping or detailed description.
+No substantial images, maps, or diagrams are present on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all visible text and layout elements from the source page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+```
+
+## Page Metadata
+Page number: 89
+
+## Layout And Reading Order
+The page is laid out in two columns. The left column contains the running header "de 1921" and the main body of text. The right column contains the running header "CÁMARA DE DIPUTADOS" and "1701" at the top, followed by the continuation of the main body of text. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
+
+## Literal Transcription
+de 1921
+mi propio culto sostenerlo con dinero de here-
+jes, de judíos, de mahometanos, de turcos, de
+creyentes de toda naturaleza. (Risas). Quisic-
+ra sostenerlo yo, y los que creen como yo. De
+manera que aun existiendo este artículo, me
+parece un argumento flojo en boca de creyen-
+tes sinceros. Pero aún admitiendo que hay
+que atenerse a la letra del artículo, tengo mo-
+tivos y antecedentes para sostener que den-
+tro de la letra del artículo cabe reducir el
+presupuesto del culto a su mínima expresión.
+La Constitución ordena el sostenimiento, pero
+no establece que se vote un millón o tres o
+cuatro millones, como veremos que en realidad
+se votan para el sostenimiento de culto. Se
+puede, pro fórmula, y para cumplir con la pres-
+cripción constitucional, votar una pequeña su-
+ma, y para ello me baso en un argumento que
+me suministra el señor diputado Bas, autoridad
+en la materia.
+Sr. Bas. — Le quedo agradecido.
+Sr. Dickmann. — En el año 1913, en la se-
+sión del 14 de mayo, a propósito de la discu-
+sión de las dietas de los diputados, la diputa-
+ción socialista, insistiendo en un propósito
+firme propuso la reducción de la dieta a mil
+pesos. Se produjo un debate en la cámara. Pi-
+dió la palabra el señor diputado Bas y dijo lo
+siguiente:
+“Para pedir al señor diputado — se refería al señor
+diputado Delfor del Valle que se adhería también a la
+indicación socialista — para pedir al señor diputado
+que acaba de solicitar la rebaja de la dieta que acepte
+una modificación a su moción en el sentido de la su-
+presión completa de la misma. Y como quizás podría
+hacerse alguna observación de orden constitucional so-
+bre el particular, haría indicación para que se pusiera
+la cantidad de cincuenta pesos, por ejemplo, con lo
+que quedaría salvada esa dificultad. — Sr. del Valle—
+Eso no lo puedo aceptar porque la constitución se
+opone. — Sr. Bas. — Por eso indicaba al propio tiem-
+po al señor diputado que para evitar el óbice cons-
+titucional se votara una pequeña cantidad. — Sr. del
+Valle. — Propóngalo el señor diputado y estoy dis-
+puesto a acompañarlo. — Sr. Cafferata. — Yo tam-
+bién lo acompaño. (Risas).
+Como se ve, señores diputados, la razón
+constitucional se puede obviar, fácilmente. Yo
+propongo cincuenta pesos para el presupuesto
+de culto (Risas). El señor diputado Bas y el
+señor diputado Cafferata deben acompañarme,
+porque son hombres consecuentes con sus pro-
+pias ideas. (Risas).
+Queda, pues, establecido, señor presidente,
+que lo que la diputación socialista pide no es
+la abolición de ningún culto. No es la intole-
+rancia religiosa de ninguna especie, no es la
+persecución de ninguna secta ni creencia reli-
+giosa lo que nos mueve, sino la más amplia
+
+CÁMARA DE DIPUTADOS
+1701
+libertad religiosa. En nuestro país, señor pre-
+sidente, esto se impone por razones múltiples.
+Todavía en países de larga e histórica tradi-
+ción, de homogeneidad de razas, de prejuicios
+seculares o milenarios, todavía allí se puede,
+con cierto viso de razón aparente, sostener que
+una religión dada es necesaria, que se impone
+porque es la creencia de la inmensa mayoría
+del pueblo en el pasado y en el presente.
+Entre nosotros, señor presidente, no hay tal
+cosa y me toca a mí decirlo porque en cierto
+modo represento en este, como en muchos
+debates, la opinión de millones de hombres
+que se han incorporado, que se han fundido
+en el viejo tronco nacional cuyas raíces están
+en el pasado, pero cuyo presente, labran ra-
+zas de todas las nacionalidades y de todas las
+creencias y de cuyo crisol saldrá el tipo ar-
+gentino del porvenir. Por esta razón funda-
+mental habría también que instituir de una
+vez la libertad religiosa en el país, sino fuera
+porque la misma tradición de la revolución
+argentina es eminentemente de espíritu liberal.
+Saben los señores diputados, tanto o más que
+yo, que el espíritu laico argentino ha tenido
+que luchar desde el momento de la emancipa-
+ción contra el espíritu dogmático y tradicio-
+nal de la iglesia oficial. El señor diputado Caf-
+ferata nos ha hecho desfilar una serie de
+frailes ilustres partidarios de la emancipación;
+pero son la minoría, señor diputado Cafferata;
+sabe el señor diputado Cafferata — ¡cómo no
+lo va a saber! — que en nombre de la iglesia
+católica, apostólica romana, en nombre del
+Vaticano, se ha sostenido por ilustres prelados
+que residían en la Argentina, que mientras
+haya un solo español en cualquier rincón del
+mundo todas las colonias americanas le perte-
+necen! Sabe también que la independencia
+argentina ha sido reconocida por el Vaticano
+en último término: que sostenía, después de
+muchos años de la independencia argentina, el
+derecho de la corona de España sobre estas
+colonias... Pero, ¿para qué hacer desfilar
+toda la historia argentina, que los señores di-
+putados conocen mejor que yo, como conocen
+todo lo que el espíritu laico ha tenido que
+luchar contra el dogma, contra la supersti-
+ción, contra las creencias arcaicas?
+Y si se ha establecido, como lo ha hecho
+notar el señor diputado Justo, una serie de
+reformas, encontramos siempre la oposición te-
+naz y a veces violenta de la iglesia oficial.
+Este mismo artículo 2o. de la constitución es
+un artículo transaccional; fue una transac-
+ción entre el espíritu dogmático y el liberal
+de la constituyente del Paraná; como el ar-
+tículo 8o. de la ley 1420, que introduce o que
+permite la enseñanza religiosa en las escuelas,
+fué un artículo transaccional.
+El matrimonio civil, la secularización de los
+
+## Images, Captions, And Visual Notes
+No substantial images or captions are present on this page.
 
 ## Uncertain Or Illegible
 None.
@@ -153,148 +296,4 @@ None.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
-
-## Page Metadata
-Page: 91
-
-## Layout And Reading Order
-
-The page is laid out in two columns. The top of the page contains a header with "DE 1921" on the left, "CAMARA DE DIPUTADOS" in the center, and "1703" on the right. The main content consists of parliamentary debate text, with speakers identified by "Sr. Dickmann" and "Sr. Bas". The reading order is from the top of the left column to the bottom, then from the top of the right column to the bottom.
-
-## Literal Transcription
-
-DE 1921 CAMARA DE DIPUTADOS 1703
-
-Sr. Dickmann.— Posiblemente no tiene esta-
-tua por eso. Y como el señor diputado Bas se ha
-referido, precisamente en la sesión de hoy, a las
-propiedades de la iglesia, yo no me pondría a
-regatear con la iglesia sus propiedades.
-El señor diputado Bas apunta un antece-
-dente muy importante: que los mismos bol-
-chevistas de Rusia han respetado las propie-
-dades de la iglesia.
-Sr. Bas.— Es el señor diputado Diekmann
-el que lo ha invocado. Yo no he hecho más
-que repetir sus palabras.
-Sr. Dickmann.— Pero debo decir al señor
-diputado que el estado argentino no sabe lo
-que posee la iglesia católica en el país. Por el
-censo en la República Argentina se conocen
-todas las propiedades particulares y públicas,
-menos las de la iglesia, porque ésta no acata
-las leyes de la nación. Ya verán los señores
-diputados cómo la iglesia oculta sus bienes
-para el censo nacional. En el tomo que está
-en mis manos, de junio de 1914, tomo núme-
-ro IX, del censo, donde se registran los bienes
-del estado, en la página 349, se registra lo si-
-guiente: “Bienes de la iglesia”. Es interesan-
-te que los señores diputados lo conozcan y me
-permitirá la presidencia que lea esta página
-porque es muy intructiva. Dice:
-
-“La comisión que dirigió el levantamiento del pri-
-mer censo de los bienes del estado, manifestó en el
-libro en que dejó constancia de sus trabajos que:
-de los bienes de la nación aplicados al culto, que se
-hallan en manos o bajo la dependencia del clero,
-sólo ha sido posible inventariar tres propiedades,
-una en la Capital, otra en Córdoba y otra en Paraná.
-Las autoridades eclesiásticas, a quienes la comisión
-se ha dirigido en demanda de datos para el censo,
-han contestado que no se hallaban en posesión de
-bienes de ninguna clase pertenecientes a la nación.
-Es posible que, de una investigación más prolija, re-
-sulte la necesidad de rectificar en esta parte los re-
-sultados que arroja el censo; pero hoy por hoy ha
-habido que atenerse a lo manifestado en sus comuni-
-caciones por el clero de la República.
-
-“En posesión de este antecedente, la comisión que
-tuvo a su cargo la formación del segundo censo de
-los bienes del estado, cuando llegó el momento opor-
-tuno se dirigió al jefe de la iglesia nacional, mani-
-festándole: el poder ejecutivo nacional, al reglamen-
-tar la ley número 9108, que ordena la formación del
-tercer censo nacional, dispuso que conjuntamente
-con el censo de la población, se levantara el de los
-bienes del estado; y a este fin dictó el decreto de
-fecha 17 de mayo del corriente año (1915) que
-acompaña a la presente.
-
-“Con este motivo ruego a su señoría ilustrísima
-que, dentro de los límites de la jurisdicción de su
-respetable autoridad eclesiástica, existan bienes in-
-muebles y muebles que deben ser comprendidos en
-
-el mencionado censo, se digne disponer lo convenien-
-te para el despacho de las planillas adjuntas.
-“El señor arzobispo, doctor Mariano A. Espinosa,
-a quien fué dirigida la nota anterior, la contestó
-manifestando que “no tenía conocimiento de que a
-cargo de ese arzobispado, existiesen bienes muebles,
-inmuebles o semovientes, de propiedad del estado o
-adquiridos con dinero del estado”.
-“Algunos edificios existen, agregó, particularmen-
-te de los destinados al culto público, para cuya cons-
-trucción, reforma o conservación, ha recibido este
-arzobispado algunas subvenciones del estado (en
-cumplimiento de la prescripción constitucional, ar-
-tículo 2o.) y que me complazco en reconocer y agra-
-decer una vez más; por esto, y porque el monto de
-dichas subvenciones no estuvo en ningún caso en
-proporción con el valor real de esos inmuebles, no
-pueden afectar el título legal en virtud del cual per-
-tenecen a la iglesia.
-“En vista de esta declaración, así como del ante-
-cedente ya recordado, la comisión del censo desistió
-de llevar a cabo ninguna investigación sobre este
-punto, y es por esta razón que en el presente censo
-de los bienes del estado, no aparece ninguno admi-
-nistrado por la iglesia”
-
-Y bien, señores diputados. La iglesia cató-
-lica ha negado a la comisión del censo sus pro-
-piedades porque esconde los bienes que tiene,
-porque no quiere que el estado, ni el parla-
-mento ni el pueblo sepan lo que posee; y si
-llegara el día de discutirse la separación de
-la iglesia del estado no sabríamos a qué ate-
-nernos al respecto.
-Es un grave alzamiento contra la ley y con-
-tra la verdad que en esta materia debe primar
-a todo interés particular como a toda institu-
-ción pública.
-Han insistido los señores diputados Bas y
-Cafferata en que el presupuesto de culto es
-una cosa insignificante, que apenas alcanza a
-un millón de pesos. El señor diputado Bas ca-
-lifica esa suma como “migajas del festín del
-presupuesto nacional”, y yo aseguro a los se-
-ñores diputados que el presupuesto de culto
-excede en mucho de un millón de pesos; sube
-a varios millones de pesos...
-Sr. Bas.— Asegura mal el señor diputado.
-Sr. Dickmann.— ... ya verá el señor dipu-
-tado que es exacto lo que yo afirmo.
-El presupuesto de culto, que forma el inciso
-5o. del ministerio de relaciones exteriores, su-
-ma 974 192 pesos con 84 centavos.
-No ignorarán los señores diputados que ade-
-más de esta suma, en las casi 900 páginas del
-tomo del presupuesto, hay otras muchas miga-
-jas para la iglesia católica apostólica romana.
-Ya el inciso 6 fija con subvenciones a los tem-
-plos, etcétera, en las provincias que forman una
-gruesa suma: 103.275 pesos.
-Sería ahora una tarea larga y engorrosa re-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-99872d4f5ac7-P0001-04
+chunk_id: CHUNK-29479e7d4e8a-P0001-04
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
-converted_sha256: 99872d4f5ac70d26e502f5fc673ee29463f2541d0a196966d88a977856814956
+converted_sha256: 29479e7d4e8a9eb95af910fbfced958aa4474644e11d0a0f395054e1c652b05e
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
@@ -10,108 +10,6 @@ page_start: 1
 page_end: 1
 part: 4
 ---
-
-## Literal Transcription
-
-Ortiz Cruzat, Jorge
-Ortiz Gutmann, Carlos I.
-Ortiz Segura, Alfonso E.
-Ortiz Valdivia, Moisés
-Ortúzar Escobar, Ramón
-Ortúzar Garrido, José M.
-Ortúzar Rojas, Jorge
-Ortúzar Varas, Jorge
-Osnovikoff Pizarenko, Bernardo
-Osorio Buitano, Fernando
-Osorio Mesa, Aníbal
-Osorio Munita, Arturo
-Ossa Abel, Gonzalo
-Ossa Ossa, Armando
-Ossandón Guzmán, Miguel
-Otaiza Molina, Eliseo
-Otero Soto, Juana del Pilar
-
-Otte Gabler, Jorge
-Otto Müller, Julio
-Ovalle Rodríguez, Alfonso
-Ovalle Ugarte, Ignacio
-Oviedo Bastías, Héctor
-Oviedo Melo, Mario
-Oviedo Zárate, Carlos
-Oxman Serebrinsky, Gregorio
-Oyanedel Farías, Ernesto
-Oyanedel Grebe, Abraham
-Oyaneder Luna, Alfonso
-Oyanguren Moya, Hernán
-Oyarce Rojas, Pedro
-Oyarzún Briceño, Rubén A.
-Oyarzún Day, Jorge
-Oyarzún Gallegos, Orlando
-Oyarzún Ossa, Jorge
-Oyarzún Palominos, Manuel
-Oyarzún Peña, Fernando
-Oyarzún Suárez, René
-
-P
-
-Pablo Rubio, Joaquín de
-
-Pabst Feller, Ivonne
-Pacheco Aravena, Germán
-Diagonal Oriente 4208 Santiago
-Sarmiento 1053 Punta Arenas
-Ahumada 6, 3.er Piso Santiago
-Avda. Errázuriz 2332 Valparaíso
-Marcoleta 367 Santiago
-Talcahuano 645 San Fernando
-Minas “El Tofo” La Serena
-O’Higgins 233 Puerto Montt
-21 de Mayo 218 Arica
-IV Centenario 3890 Santiago
-Silvina Hurtado 1691 Santiago
-Suárez Mujica 428 Santiago
-Colipí 690 Copiapó
-Avda. Pocuro 3018 Santiago
-Avda. Italia 1393 Santiago
-Vicuña Mackenna 58, Santiago
-Depto. 136
-
-Avda. Santa María 0578 Santiago
-O’Higgins s/n Maullín
-Merced 533 Santiago
-Avda. El Bosque 1211 Santiago
-Ramírez 1450 Vallenar
-Simón Bolívar 2580 Santiago
-Colipí 635 Copiapó
-Velásquez 692 Arica
-Ahumada 254, Of. 806 Santiago
-Antonio Varas 248 Santiago
-Huérfanos 1175, Of. 601 Santiago
-Almagro 2818 Santiago
-Huérfanos 1147, Of. 804 Santiago
-Los Plátanos 2810 Santiago
-Condell 1190, 4º Piso Valparaíso
-Nueva San Martín 1546 Santiago
-Estado 360 Santiago
-Santa Rosa 1493 Santiago
-Andrés de Fuenzalida 144 Santiago
-Chiloé 1525 Santiago
-
-Avda. Santa María 0316, Santiago
-Depto. 106
-Galvarino Gallardo 1812 Santiago
-1 Oriente 1058 Talca
-
-— 73
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
@@ -264,8 +162,83 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-- Page number: 73
+- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0073`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/work-orders/page-0073.md`
+- Page: 73
+- Output Markdown target: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/page-markdown/page-0073.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: possible_table_layout_loss
+- Technical reread clues: none
 
 ## Layout And Reading Order
+The page is a single block of text formatted as a three-column directory. The columns list names, addresses, and cities, respectively. The reading order is from left to right, top to bottom, for each entry. A page number is present at the bottom left of the page.
 
-The page presents a directory-style list of names, addresses, and cities, organized into three conceptual columns. The first column lists names, the second lists addresses, and the third lists cities. There are two main blocks of entries, separated by a slight vertical space. A header row appears at the top, labeling the first name, an address, and a city. A page number is present at the bottom left.
+## Literal Transcription
+| Name | Address | City |
+| :--- | :--- | :--- |
+| Pellissier Ferhman, Guy | Hernando de Aguirre 4233 | Santiago |
+| Pellicer Latzague, René | Valdivia 222 | Los Angeles |
+| Péndola Martínez, Luis | Recinto Papelera | Laja |
+| Penna Miranda, Mario | Serrano 20 | Santiago |
+| Penróz Valenzuela, Lucía | 1 Poniente 898 | Talca |
+| Pensa Clavijo, Augusto | Darío Urzúa 1655 | Santiago |
+| Peña Cereceda, Jorge | Recoleta 796 | Santiago |
+| Peña Delgado, Jorge | Rengo 357, Of. 202 | Concepción |
+| Peña Díaz, Ernestina | Luis Zegers 270 | Santiago |
+| Peña Díaz, Humberto | Chacabuco 827 | San Fernando |
+| Peña Jofré, Raúl ´ | Agustinas 509 | Santiago |
+| Peña Fernández, Tomás | Aldunate 1353 | Coquimbo |
+| Peña Monsalve, Juan Manuel | Pucará 5069 | Santiago |
+| Peña Moreno, Graciela | Olivos 1037 | Santiago |
+| Peña Núñez, Oscar H. | General Salvo 307 | Santiago |
+| Peña Ramos, Eleodoro | Rengo 357, Of. 220 | Concepción |
+| Peña Rocha, Heriberto | Paicaví 348 | Concepción |
+| Peña Vega, Caupolicán | Balmaceda 895 | La Serena |
+| Peña y Lillo Lacassie, Sergio | Siglo XX 375 | Santiago |
+| Peragallo Meza, Abel | Av. Manuel A. Matta 80 | Santiago |
+| Perales Arestizábal, Luis | Avda. Italia 875 | Santiago |
+| Perales Rodríguez, Jorge | Chiloé 1107 C | Santiago |
+| Peralta Guajardo, Arturo | Estado 42, Depto. 404 | Santiago |
+| Peralta Vallejos, Oscar | Hernán Cortés 2394 | Santiago |
+| Peralta Varela, Darío | Santa Filomena 553 | Santiago |
+| Peralta Varela, Octavio | Amunátegui 75, Depto. 1 | Santiago |
+| Peralta Zepeda, Oscar | Viena 864 | Villa Alemana |
+| Perdomo Salinas, Gerardo | Avda. Roosevelt 1608 | Concepción |
+| Perea Espinosa, Patricio A. | San Ignacio 3792 | Santiago |
+| Pereda Oviedo, Enrique | Avda. Providencia 2457,<br>Depto. 311 | Santiago |
+| Peredo Román, Santiago | Balmaceda 82 | Llay-Llay |
+| Pereira Coello, Alfredo | Paseo Valle 347 | Viña del Mar |
+| Pereira Díaz, Marco | Pablo Rubio 108 | Rancagua |
+| Pereira Ramírez, Eduardo | Sanatorio Valparaíso | Valparaíso |
+| Pérez Acevedo, Patricio | Gay 2033 | Santiago |
+| Pérez Becerra, César | 2 Oriente 1086 | Talca |
+| Pérez Carreño, Manuel | Baquedano 1335 | Iquique |
+| Pérez Cerda, Oscar E. | Emilio Delporte 1374 | Santiago |
+| Pérez Corey, Fernando | Pedro de Valdivia 2652 | Santiago |
+| Pérez de Arce del Canto, Gonzalo | Manuel Rodríguez 84 | Santiago |
+| Pérez de Arce Jaramillo, Alberto | Sanatorio “El Pino” | San Bernardo |
+| Pérez Donoso, Fernando | Bandera 84, Of. 405 | Santiago |
+| Pérez Durán, Jaime | Gamero 1703 | Santiago |
+
+76 —
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or other visual elements on this page.
+
+## Uncertain Or Illegible
+There are no uncertain or illegible portions of this document.
+
+## Completeness Audit
+This page has been transcribed in its entirety.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains only text in a directory format and has no images, illustrations, or other visual elements."}
+```

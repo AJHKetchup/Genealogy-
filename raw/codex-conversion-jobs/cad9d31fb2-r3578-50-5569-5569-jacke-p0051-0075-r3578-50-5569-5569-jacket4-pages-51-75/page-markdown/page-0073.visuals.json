@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:51:15Z",
+  "created": "2026-05-17T10:26:58Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
@@ -8,16 +8,8 @@
   "page": 73,
   "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket4-pages-51-75/page-images/page-0073.jpg",
   "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket4-pages-51-75/page-markdown/page-0073.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains no substantial visual assets like photographs, maps, or illustrations that would warrant cropping. The only visual element is a standard administrative stamp, which has been fully transcribed.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "ACTION\nCOPY\nRECEIVED IN\nREGISTRY\n14-AVR-1929",
-      "source_context": "A stamp indicating receipt and action."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

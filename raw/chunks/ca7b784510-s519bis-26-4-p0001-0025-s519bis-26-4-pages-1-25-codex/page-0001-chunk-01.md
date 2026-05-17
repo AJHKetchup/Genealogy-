@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-18aea4a25816-P0001-01
+chunk_id: CHUNK-1cec39e48675-P0001-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 18aea4a258161404469e224bf464a7a2c30b78f5b5466283705fde601497f4ef
+converted_sha256: 1cec39e486751f61824cd209c176b2a9d3e57efb26c94d3eeae362aca5591810
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -22,42 +22,37 @@ part: 1
 - Extracted images: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/extracted-images`
 
 ## Page Metadata
-This page is a brown, textured sheet of paper, likely a cover or separator page within a larger document or archival collection. It contains several handwritten annotations in dark blue/black and red ink.
+This page is a plain, light brown/orange sheet of paper with several handwritten annotations. It appears to be a cover page or a blank page within a document.
 
 ## Layout And Reading Order
-The page contains handwritten text placed in various locations:
-1.  Top right corner: A series identifier and a date range.
-2.  Top left corner: A single capital letter.
-3.  Middle right: A single capital letter.
-4.  Top right, circled: A page or item number.
+The page contains handwritten text in various locations:
+1. Top right corner, a block of text.
+2. To the right of the first block, a circled number.
+3. Top left corner, a large capital letter.
+4. Middle right, a smaller capital letter.
 
 ## Literal Transcription
-S 519bis N°4
-21-38
+S 519 N°4
+21-38 ℵ
+(4)
 P
 P
-④
 
 ## Images, Captions, And Visual Notes
--   **Handwritten text (dark blue/black ink)**:
-    -   In the top right corner, the text "S 519bis N°4" is written. The "bis" is written very small and compactly, almost like a superscript 's'.
-    -   Below "S 519bis N°4", the numbers "21-38" are written.
-    -   In the top left corner, a large capital "P" is written.
-    -   In the middle right section of the page, another capital "P" is written.
-    -   In the upper right quadrant, a circled number "4" is present.
--   **Handwritten mark (red ink)**:
-    -   Next to the "21-38" in the top right, there is a stylized mark in red ink, resembling a capital 'M' or a cross-out symbol.
+The page is a plain, light brown/orange sheet of paper, showing signs of age and wear (creases, slight discoloration). All visible content consists of handwritten text.
 
 ## Uncertain Or Illegible
--   The small character after "519" in "S 519bis N°4" is written very compactly and could be interpreted as a small 's' or 'b'. Given the job manifest, "bis" is the most likely reading.
--   The red mark next to "21-38" is a stylized symbol, possibly an 'M' or a cross-out, and its exact meaning is uncertain without further context.
+- The symbol next to "21-38" is a stylized mark, possibly a cancellation or a specific archival notation. It resembles a stylized 'N' or a 'No' symbol with a line through it. Transcribed as 'ℵ' for now, but its exact meaning or character is uncertain.
 
 ## Completeness Audit
-All visible handwritten text and marks on the page have been transcribed and described.
+The transcription is complete. All visible text and relevant visual characteristics have been captured.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only handwritten text and marks, which are fully captured by the literal transcription and visual notes. There are no substantial images, diagrams, or other visual elements that would benefit from cropping."}
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only handwritten text annotations on a plain background, which are fully captured in the literal transcription. There are no substantial visuals (e.g., portraits, maps, diagrams) that would be useful as standalone wiki assets."
+}
 ```
 
 ## Page Metadata
@@ -89,10 +84,10 @@ All visible text and significant visual elements have been transcribed or noted.
 ```
 
 ## Page Metadata
-Page number: 3
+- Page number: 3
 
 ## Layout And Reading Order
-The page contains a formal letter, likely a pre-printed letterhead with typed content and a handwritten signature. The reading order is from top-left to top-right, then down the page.
+The page contains a typewritten letter on what appears to be official letterhead, featuring an embossed seal in the top-left corner. The letter includes a handwritten signature. The reading order is from top-left to top-right, then line by line from left to right.
 
 ## Literal Transcription
 Senador de la Nación Buenos Aires 12 de Septiembre de 1938.
@@ -104,14 +99,13 @@ de la Sociedad de las Naciones del 13 de Junio de 1938.
 Le agradece su gentileza.
 
 ## Images, Captions, And Visual Notes
-An embossed seal, likely a national emblem or coat of arms, is present in the top-left corner of the page. It appears to be the Coat of Arms of Argentina.
-A handwritten signature, "Alfred Salac", is present above the typed body of the letter.
+An embossed seal, likely the coat of arms of Argentina, is present in the top-left corner of the page. It is circular and features a sun, a Phrygian cap on a pike, and two clasped hands.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+- The handwritten signature is read as "Alfred Salac". The last letter of the surname could potentially be an 'n' instead of a 'c', but 'c' seems more likely given the stroke.
 
 ## Completeness Audit
-All visible text and significant visual elements have been transcribed or noted.
+All visible text and significant visual elements on the page have been transcribed or described.
 
 ## Visual Region Manifest
 ```json
@@ -120,10 +114,10 @@ All visible text and significant visual elements have been transcribed or noted.
     {
       "region_id": "vr_1",
       "kind": "seal",
-      "bbox_pct": [9.9, 9.7, 15.0, 16.0],
-      "caption_literal": "Embossed seal, likely the Coat of Arms of Argentina.",
+      "bbox_pct": [8.9, 8.8, 14.9, 13.9],
+      "caption_literal": "Embossed seal, likely the coat of arms of Argentina.",
       "caption_type": "converter-description",
-      "identity_basis": null,
+      "identity_basis": "visual-elements",
       "source_context": "Top-left corner of the letterhead.",
       "confidence": "high",
       "suggested_filename": "embossed_seal_argentina_coat_of_arms"
@@ -310,3 +304,7 @@ The transcription is complete and includes all visible text and relevant visual 
 
 ## Page Metadata
 - Page number: 7
+
+## Layout And Reading Order
+
+The page contains a formal letter or note, likely from a Senator, printed on letterhead with an embossed seal. The content includes a handwritten signature, typed body text, and a typed recipient address. A small word is handwritten above the typed line.

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:39Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 120,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0120.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0120.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Los niños Margarita y René Sempé,\nhijos del estimable caballero don Fer-\nnando Sempé y su distinguida señora es-\nposa doña Carmen Connor de Sempé.\nPreciosos y encantadores estos dos ni-\nñitos son la alegría de un hogar y el\norgullo de sus padres.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The caption identifies the children in the photograph.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        13.7,
+        19.4,
+        48.0,
+        48.0
+      ],
+      "bbox_pixels": [
+        151,
+        305,
+        545,
+        769
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0120/page-0120-image-01-children-margarita-and-rene-sempe.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0120/page-0120-image-01-children-margarita-and-rene-sempe.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0120.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 120,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0120.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

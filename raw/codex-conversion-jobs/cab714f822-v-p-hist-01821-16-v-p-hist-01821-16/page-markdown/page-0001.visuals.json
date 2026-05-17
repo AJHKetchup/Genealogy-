@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:28:56Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01821-16.JPG",
+  "source_sha256": "b714f822dfa731e9cdbc94ac01381d1bc4f879c9de3ab1220942581c761cca4e",
+  "job_manifest": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/manifest.json",
+  "page": 1,
+  "page_image": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/page-images/page-0001.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/page-markdown/page-0001.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "main_photo",
+      "kind": "group_photograph",
+      "caption_literal": "A large group of men seated in a conference hall, with some chairs and tables displaying numbers. The setting appears to be a formal assembly or convention.",
+      "caption_type": "converter-description",
+      "identity_basis": "none",
+      "source_context": "The entire page is a single photograph.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        0.0,
+        0.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        0,
+        0,
+        3500,
+        2629
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/extracted-images/page-0001/page-0001-image-01-conference-hall-assembly-1929-geneva-convention-group-photo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/extracted-images/page-0001/page-0001-image-01-conference-hall-assembly-1929-geneva-convention-group-photo.png",
+      "page_image": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/page-images/page-0001.jpg",
+      "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/V-P-HIST-01821-16.JPG",
+      "source_sha256": "b714f822dfa731e9cdbc94ac01381d1bc4f879c9de3ab1220942581c761cca4e",
+      "job_manifest": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/manifest.json",
+      "page": 1,
+      "output_markdown": "raw/codex-conversion-jobs/cab714f822-v-p-hist-01821-16-v-p-hist-01821-16/page-markdown/page-0001.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

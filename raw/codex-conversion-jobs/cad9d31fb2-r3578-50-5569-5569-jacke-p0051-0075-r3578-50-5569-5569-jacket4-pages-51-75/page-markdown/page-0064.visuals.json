@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:51:13Z",
+  "created": "2026-05-17T10:27:01Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
@@ -8,16 +8,8 @@
   "page": 64,
   "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket4-pages-51-75/page-images/page-0064.jpg",
   "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket4-pages-51-75/page-markdown/page-0064.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "The page contains only typewritten text and a standard administrative stamp, neither of which qualifies as a substantial visual region for cropping.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "stamp",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "ACTION\nCOPY\nRECEIVED IN\nREGISTRY\n14-AOUT-1929",
-      "source_context": "Top right corner of the page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

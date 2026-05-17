@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ec9d78878adc-P0001-14
+chunk_id: CHUNK-e0ca2df5ebe4-P0001-14
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: ec9d78878adcc8475176c0af7c31afe36fdfa029cb06428fdc10047cf0941515
+converted_sha256: e0ca2df5ebe4cbe587d36404f9cfe8019c6644ba029084c72be5fa28d767eb76
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -11,282 +11,146 @@ page_end: 1
 part: 14
 ---
 
-## Literal Transcription
-1710 CAMARA DE DIPUTADOS Septiembre 21
-
-en que ha de enseñárseles lo que él entiende
-por verdad.
-Ese es el concepto de tal libertad subsidiada;
-es el que tiene Bélgica y Holanda, el que impo-
-ne la Constitución de Alemania, el que está
-establecido en los tratados de Saint Germain,
-Versalles y otros celebrados a raíz de la gran
-conflagración reconociendo el derecho de la
-escuela confesional a los pueblos católicos, lo
-que ratificó Clemeneau en una magnífica car-
-ta dirigida a los jefes de tales estados.
-Los católicos no solamente contribuyen con
-19 millones de pesos al año para la instruc-
-ción primaria y secundaria, sino también, que
-al concurrir a formar el tesoro común, se ven
-obligados a entregar sus dineros, para costear
-escuelas del estado que no utilizan y que re-
-pudian.
-Es muy fácil establecer, el monto de tal
-contribución. Nos basta recorrer los diferentes
-presupuestos, y encontramos: que el conjunto
-de los gastos de instrucción pública importan
-83 millones de pesos al año, más o menos, que
-divididos entre ocho millones y pico de habi-
-tantes, hacen llegar a diez pesos por año y
-por habitante la contribución para sufragar
-los gastos de la enseñanza oficial de la nación.
-Yo no quiero traer la cuestión, de si la ma-
-yoría de los habitantes del país es católica o
-no; supongamos que solo fuera la mitad; su-
-pongamos que lo fuera la cuarta parte, es de-
-cir, dos millones.
-¿Creo que lo aceptarán los señores diputa-
-dos?
-A razón de diez pesos por cada uno de esos
-dos millones de católicos, resultan veinte mi-
-llones de pesos, con que ellos contribuyen en
-el presupuesto nacional, para costear escue-
-las contrarias a sus convicciones, y a las cua-
-les no mandan a sus hijos, porque enten-
-derían torturar sus conciencias, y encaminarlas
-por la senda del error.
-Representa muy poca cosa entonces la can-
-tidad de 1.268.000 pesos, que he mencionado,
-o la de 1.500.000 ó 1.800.000, según lo afirma
-el señor diputado Diekmann, como contribu-
-ción del estado para sostener el culto católi-
-co, al lado de los 18.000.000 que los católicos
-entregamos, economizamos al estado al edu-
-car 120.000 niños de primera enseñanza y 8
-mil de enseñanza secundaria y profesional, tan-
-to más cuando entregamos también para cos-
-tear la educación pública en el país, veinte mi-
-llones de pesos destinados a sostener colegios en
-los cuales, en nuestro sentir, se contraria fun-
-damentalmente "la libertad de conciencia".
-El señor diputado Diekmann ha hecho otra
-referencia a la cual me voy a concretar para
-terminar. Ha tratado el señor diputado de ri-
-diculizar, presentándola en términos realmen-
-
-te mortificantes, la situación del capellán en el
-ejército y en las cárceles de encausados.
-Me propongo hacerle una brevísima contes-
-tación, valiéndome de los prestigios de un fun-
-cionario a quien el señor diputado Justo atri-
-buyó ayer gran autoridad. Me refiero al primer
-ministro francés M. Arístedes Briand y a M.
-Millerand, sostenedores ambos en 1905 de la
-separación de la iglesia y el estado.
-Subscriben ambos el interesante decreto so-
-bre capellanes militares, a que he de refe-
-rirme.
-Conviene hacer notar una circunstancia es-
-pecialísima: como es notorio y lo saben los se-
-ñores diputados, en Francia existe la absolu-
-ta separación de la iglesia y el estado. Supon-
-go que los señores diputados, tan bien versa-
-dos en toda clase de materias, no ignoran el
-sistema generalmente empleado en Francia
-para la preparación de los decretos. Se tratan
-en acuerdo de ministros, y una vez que se ob-
-tiene allí el asentimiento general, el ministro
-del ramo envía una comunicación dirigida al
-presidente, proponiendo el decreto y expre-
-sando las razones en que se funda.
-Bien; con relación precisamente a este asun-
-to de los capellanes militares, como he dicho,
-con fecha 13 de mayo de 1921, dirigió el mi-
-nistro de la guerra la siguiente comunicación
-al gobierno, que con el permiso de la honora-
-ble cámara voy a leer:
-"Parece necesario, bajo todo punto de vista, crear
-en el ejército francés del Rhin un puesto de capellán
-militar, para el culto católico, cuyo título sea reves-
-tido con la dignidad episcopal. Esta creación presen-
-tará muchas ventajas. Ella tendrá por efecto regu-
-larizar las tareas religiosas de los capellanes mili-
-tares de culto católico, concordar y dirigir su acción,
-uniformar y centralizar todas las cuestiones relati-
-vas a los capellanes militares que se encuentren o
-puedan encontrarse en el ejército francés del Rhin.
-"Por otra parte, el decreto de 5 de mayo de 1913
-ha especificado que los capellanes militares tienen
-derecho durante la duración de sus funciones a pres-
-taciones en dinero y de otra naturaleza. Ahora, en
-razón de las funciones importantes que serán dadas
-al capellán inspector para todo el culto católico en
-el ejército francés en el Rhin, cuya creación apa-
-rece indispensable, y de la dignidad eclesiástica de
-que está revestido, conviene atribuirle durante la du-
-ración de sus funciones el derecho a prestaciones en
-dinero.
-"El proyecto de decreto más arriba establecido,
-aprobado por el consejo de estado, tiene por fin rea-
-lizar la medida arriba indicada. Si lo aprobáis en
-sus disposiciones, tendré el honor de rogaros subs-
-cribirlo con vuestra firma".
-El presidente de la república francesa dictó
-el siguiente decreto, que lleva las firmas de Mi-
-llerand y de Briand:
-
-## Images, Captions, And Visual Notes
-There are no substantial images, captions, or visual notes on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The two-column layout and header have been preserved in the transcription.
-
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is entirely text-based and does not contain any meaningful images, diagrams, or other visual elements that would warrant cropping."}
 ```
 
 ## Page Metadata
-Page number: 99
+Page number: 97
+Source publication: S522bis-29-3
 
 ## Layout And Reading Order
-The page presents text in two columns. The reading order is from the top of the left column to the bottom, then from the top of the right column to the bottom. Page numbers and headers are at the top of each column.
+The page is presented in a two-column layout. The left column begins with "de 1921" and continues with the main body of text. The right column begins with "CÁMARA DE DIPUTADOS" and the page number "1709", followed by the continuation of the main body of text. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
 
 ## Literal Transcription
-DE 1921
-"Artículo 10. — Créase en el ejército francés del
-Rhin y para el culto católico un puesto de capellán
-inspector.
-"Art. 20. — Este capellán inspector tiene derecho
-durante la duración de sus funciones a las presta-
-ciones en dinero y de otra naturaleza atribuídas a
-un general de brigada.
-"Art. 30. — El ministerio de la guerra dictará las
-disposiciones correspondientes.
-"París, mayo 13 de 1921".
-
-Bien, señor presidente. No es el caso de alar-
-gar demasiado la discusión. Creo haberme re-
-ferido en general a las observaciones hechas
-por el señor diputado señor Diekmann recti-
-ficando, sobre todo, lo que se refiere a la im-
-portancia que el señor diputado atribuye a la
-contribución del pueblo general de la Repú-
-blica en beneficio de la iglesia católica, sin
-haber tomado en cuenta los servicios que a
-la inversa, la iglesia presta al tesoro nacional
-economizándole al estado sumas enormes de
-dinero.
-Voy a terminar, señor presidente, y desde
-luego quiero hacer esta observación: las ma-
-nifestaciones que hago, de índole religiosa,
-son absolutamente personales.
-No he pretendido, por ningún momento, y
-creo que los señores diputados son los mejores
-testigos, invocar mi carácter de miembro de
-la Unión Cívica Radical. Lo hago dentro de la
-absoluta libertad de conciencia y dentro del
-programa del partido, que acepta que cada uno
-piense como quiera en estas cuestiones.
-Sr. Dickmann. — Pido la palabra.
-Algunas afirmaciones del señor diputado
-respecto del presupuesto de instrucción públi-
-ca deseo destruirlas, pero he de contestarlas
-en otra oportunidad, analizando los datos que
-ha mencionado.
-Sr. Bas. — Me sería muy grato; estas discu-
-siones, a la altura que se llevan, son muy in-
-teresantes.
-Sr. Frugoni. — Pido la palabra.
-Esa libertad de criterio y de opinión que la
-Unión Cívica Radical permite a sus miembros
-la revela este debate sobre el presupuesto de
-culto. Honra esto de verdad a su hombres, el
-señor diputado Bas defendiendo con tanto calor,
-con tanta pasión sus ideales místicos y los
-diputados de la Unión Cívica Radical doctor
-Rodeyro y el que habla, que fué el primero que
-señalara su punto de vista respecto al presu-
-puesto de culto.
-Pero en todo este debate, señor, no ha ha-
-bido una sola alusión molesta que hiriera la
-fé de los señores diputados.
-De ahí que me han sorprendido en extremo
-las apreciaciones del señor diputado por Cór-
-doba, doctor Cafferata, tan culto, tan gentil,
-tan subyugador... Tan es así, que hablo sub-
+de 1921
+tado González Iramain, cuando decía con toda
+verdad, que en las humildes regiones de La
+Rioja acaso haría mayor bien que un obispo,
+un austero fraile y lo decía con una unción
+realmente hermosa, que en momentos llegó a
+conmoverme, para enseñar la verdad y la vir-
+tud como las enseñaran los primeros apóstoles
+de la cristiandad y los primeros predicadores
+y evangelizadores de nuestro país.
+El señor diputado Dickmann me ha hecho el
+altísimo honor de reconocer que algo he ade-
+lantado desde 1914 hasta la fecha. Yo creo tam-
+bién retribuirle la gentil declaración, manifes-
+tándole, que yo observo igualmente que el se-
+ñor diputado ha adelantado bastante, y mu-
+cho, sobre todo en tolerancia y en respeto, co-
+mo en general la mayoría de los otros diputa-
+dos, compañeros de su grupo.
+Con esta ligera observación de carácter ge-
+neral, pasaré a formular algunas pequeñas rec-
+tificaciones de índole concreta.
+El señor diputado Dickmann hablaba de mis
+afirmaciones acerca de la importancia del pre-
+supuesto de culto.
+Debo desde luego hacer esta aclaración: los
+señores diputados habrán observado que no he
+dado yo tampoco importancia a la materialidad
+del presupuesto referido.
+He dicho y lo repito, que creo que el pre-
+supuesto de culto es una migaja del gran ban-
+quete del presupuesto nacional, siendo absolu-
+tamente irritante, completamente depresiva la
+situación a que se le tiene sometida a trueque
+de ese plato de lentejas, cuya falta en ningún
+caso podría detener su prosperidad y su gran-
+deza.
+El presupuesto de culto está allí escrito en
+las diferentes partidas del presupuesto; 900.000
+pesos en el anexo de culto; 300 o 400.000 pe-
+sos más en partidas de capellanes, hermanas
+de caridad etc., las distribuidas en los otros
+ministerios.
+Yo no puedo aceptar —y le voy a decir por
+qué— el que se incluya en el presupuesto de
+culto, los subsidios de beneficencia las asigna-
+ciones a establecimientos de índole educacio-
+nal.
+La mayor parte de las asignaciones referi-
+das tienden a favorecer, a ampliar la acción
+y el desarrollo de las escuelas privadas, lo que
+lejos de constituir para el tesoro público una
+carga en beneficio de los intereses católicos,
+se representa precisamente el origen del sal-
+do mayor del estado hacia los hombres y las
+instituciones de ese credo. Los números son
+números e irrefutables y por eso me he de
+referir a los mismos.
+Tengo aquí la memoria del Consejo nacional
+de Educación del año 1920, que acaba de re-
+partirse hace pocos días, y encuentro en ella,
 
 CÁMARA DE DIPUTADOS
-1711
-yugado por las palabras del señor diputado...
-Decía el señor diputado que hemos comba-
-tido las creencias, armonizando ese criterio
-con el de un redactor del diario “El Pueblo”,
-diario católico de la Capital, que me hacía apa-
-recer como arremetiendo contra las creencias
-religiosas.
-Sr. Cafferata. — No me he referido al señor
-diputado Frugoni.
-Sr. Frugoni. — Pero el diario oficial de la
-creencia a que pertenece el señor diputado se
-ha referido a mí...
-Sr. Cafferata. — No he leído el artículo a
-que se refiere el señor diputado; pero al ha-
-blar de iglesia no me refería al señor diputado
-sino a los diputados de la extrema izquierda.
-Sr. Bas. — No hay diario oficial, puedo ga-
-rantizarlo.
-Sr. Frugoni. — El diario oficial del catoli-
-cismo.
-Sr. Quinteros. — No hay diario oficial del
-partido.
-Sr. Frugoni. — ¿A qué partido se refiere el
-señor diputado?... He dicho que me refiero
-al diario oficial del catolicismo.
-Es un aporte inteligente el de mi correligio-
-nario por Córdoba rebatíéndome. Me felicito
-de haber extremado la nota colocándolo a mi
-correligionario el señor diputado por Córdoba
-en el campo que se merece, opuesto a mis
-creencias.
-Continúo, señor presidente. Para dar funda-
-mento a mi exposición de días pasados citaba
-a una autoridad incontrovertible a mi juicio:
-a Spencer. Dije en la sesión del viernes que
-en su siempre célebre sentencia Spencer nos
-dijo que la ciencia no había despejado la incóg-
-nita del problema de las religiones; que lo que
-había hecho era profundizar ese problema, y
-citaba también, haciéndole el honor que toda-
-vía no le ha hecho la historia de nuestro país,
-al primer sabio, abanderado de la ciencia ar-
-gentina: don Florentino Ameghino. Cuando en
-su “Credo” claro, sencillo y profundo como
-todo lo genial, decía que ningún hombre debe
-desechar una creencia si no tiene suficiente
-fundamento para reemplazarla por otra.
-¡Religión! ¡qué complejo es el significado
-de esa palabra! Es religión la ciencia para el
-sabio. El arte para el esteta, es religión; y
-religión la educación para el maestro! Y si se
-ha de plantar la choza definitiva, para que
-converjan hacia ella todas las razas, todos los
-pueblos, ha de ser la escuela, señores, ese techo
-del hogar común! Allí no habrá sectas, allí no
-habrá dogmas, allí no se predicará el odio re-
-ligioso del oriente contra el occidente, ni del
-occidente contra el oriente, allí el maestro dará
-la bendición por igual a los hijos de todos los
-hombres, que vengan a ocupar un pedazo de
-tierra al amparo de la bandera inmortal de
-Belgrano. Esa será obra de la escuela argen-
+1709
+que el promedio del costo por alumno de pri-
+mera enseñanza, es de 107 pesos al año.
+¿Sabe el señor diputado cuántos niños de
+enseñanza primaria asisten a los estableci-
+mientos católicos costeados y sostenidos por
+el peculio de los mismos?: Ciento veinte mil, se-
+ñor diputado; de tal modo que multiplicando
+esa cifra por 107 pesos, que cuesta al estado
+la educación de cada uno de esos niños, tene-
+mos 14 millones de pesos más o menos ahorra-
+dos al estado anualmente por la educación pri-
+maria realizada con el peculio católico, en los
+propios establecimientos que él crea y sostiene.
+¿Sabe el señor diputado Dickmann cuánto
+cuesta término medio, la educación de cada
+alumno de colegio nacional y colegios secun-
+darios de artes y oficios?: 605 pesos al año,
+según los datos estadísticos que aquí tengo,
+sacados de los cuadros del presupuesto.
+Y en los establecimientos católicos de ense-
+ñanza secundaria y de artes y oficios se edu-
+can 8.000 alumnos; que con el gasto de 605
+pesos anuales, representan 5 millones de pesos
+economizados anualmente al estado: Es decir,
+en síntesis señor diputado, que la escuela ca-
+tólica ahorra al estado, por la educación que
+presta con su peculio propio en sus estableci-
+mientos de primaria y secundaria enseñanza
+diez y nueve millones de pesos anuales, más o
+menos.
+Pero eso no es todo, señor diputado: De más
+está expresar, que las familias católicas no
+mandan sus hijos a las escuelas primarias ni
+secundarias del estado y costean su educación
+en establecimientos formados de su credo, lo
+hacen porque la enseñanza de la escuela pú-
+blica laica, contraría fundamentalmente la li-
+bertad de conciencia, y que el padre, de convic-
+ciones profundamente católicas, no puede
+mandar tranquilamente a su hijo a la escuela
+sin religión, pues, como ayer dijera, no hay
+escuela neutra; o es religiosa o antirreligiosa.
+Si eso es axiomático en el estudio de las cien-
+cias filosóficas y morales lo es también en las
+ciencias naturales, pues apenas el hombre
+quiere penetrar al examen del principio, del
+origen de los seres, tiene fatalmente que cho-
+car en una cuestión de carácter religiosa: el
+señor diputado Dickman, por ejemplo, si fue-
+ra maestro de la escuela laica, acaso diría que
+el origen del hombre es el mono... (risas) pe-
+ro el maestro católico, enseñará a sus alumnos,
+que el origen del hombre es la creación de
+Dios sacándolo de la nada y colocándolo en el
+paraíso terrenal.
+No puede haber escuela neutra. Vuelvo a
+repetirlo, la escuela es necesariamente religio-
+sa o antirreligiosa. El padre, para no sentir
+molestada su conciencia, lleva a sus hijos a
+costa de los mayores sacrificios a la escuela,
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+There are no substantial images or captions on this page.
 
 ## Uncertain Or Illegible
 No uncertain or illegible text was encountered.
@@ -295,10 +159,13 @@ No uncertain or illegible text was encountered.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text in a two-column layout."}
+```
 
 ## Page Metadata
-Page number: 100
+- Page number: 98
+- Source: `raw/sources/S522bis-29-3.pdf`
 
 ## Layout And Reading Order
-The page presents text in a two-column layout. The header includes a page number on the left, a legislative body name in the center, and a date on the right. The main content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom.
+The page features a two-column layout with a header spanning both columns. The reading order is from left to right, top to bottom within each column.

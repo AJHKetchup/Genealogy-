@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:50:24Z",
+  "created": "2026-05-17T10:28:28Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,148 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_001",
-      "kind": "illustration",
-      "caption_literal": "Universal Ilustrado",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "Masthead/logo at the top of the page.",
+      "region_id": "visreg_001",
+      "kind": "portrait",
+      "caption_literal": "Señorita Evelia Verdugo",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "This is a portrait of Señorita Evelia Verdugo.",
       "confidence": "0.95",
-      "inline_anchor": "",
+      "inline_anchor": "Señorita Evelia Verdugo",
       "bbox_pct": [
-        10.0,
-        44.0,
-        15.0,
-        56.0
+        11.5,
+        19.5,
+        49.5,
+        61.5
       ],
       "bbox_pixels": [
-        133,
-        820,
-        210,
-        1052
+        154,
+        361,
+        682,
+        1155
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-universal-ilustrado-masthead.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-universal-ilustrado-masthead.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-portrait-se-orita-evelia-verdugo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-portrait-se-orita-evelia-verdugo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0054.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 54,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0054.md"
+    },
+    {
+      "region_id": "visreg_002",
+      "kind": "portrait",
+      "caption_literal": "Srita. Guadalupe Verdugo",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "This is a portrait of Srita. Guadalupe Verdugo.",
+      "confidence": "0.95",
+      "inline_anchor": "Srita. Guadalupe Verdugo",
+      "bbox_pct": [
+        61.5,
+        12.5,
+        82.5,
+        34.5
+      ],
+      "bbox_pixels": [
+        839,
+        230,
+        1134,
+        650
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-02-portrait-srita-guadalupe-verdugo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-02-portrait-srita-guadalupe-verdugo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0054.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 54,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0054.md"
+    },
+    {
+      "region_id": "visreg_003",
+      "kind": "portrait",
+      "caption_literal": "Señorita Conchita Cota",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "This is a portrait of Señorita Conchita Cota.",
+      "confidence": "0.95",
+      "inline_anchor": "Señorita Conchita Cota",
+      "bbox_pct": [
+        52.5,
+        36.5,
+        79.5,
+        62.5
+      ],
+      "bbox_pixels": [
+        715,
+        679,
+        1093,
+        1174
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-03-portrait-se-orita-conchita-cota.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-03-portrait-se-orita-conchita-cota.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0054.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 54,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0054.md"
+    },
+    {
+      "region_id": "visreg_004",
+      "kind": "portrait",
+      "caption_literal": "Señorita Raquel Lugo",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "This is a portrait of Señorita Raquel Lugo.",
+      "confidence": "0.95",
+      "inline_anchor": "Señorita Raquel Lugo",
+      "bbox_pct": [
+        20.5,
+        66.5,
+        47.5,
+        92.5
+      ],
+      "bbox_pixels": [
+        277,
+        1241,
+        655,
+        1736
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-04-portrait-se-orita-raquel-lugo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-04-portrait-se-orita-raquel-lugo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0054.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json",
+      "page": 54,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-markdown/page-0054.md"
+    },
+    {
+      "region_id": "visreg_005",
+      "kind": "portrait",
+      "caption_literal": "Señorita Emma Lugo",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "This is a portrait of Señorita Emma Lugo.",
+      "confidence": "0.95",
+      "inline_anchor": "Señorita Emma Lugo",
+      "bbox_pct": [
+        58.5,
+        66.5,
+        85.5,
+        92.5
+      ],
+      "bbox_pixels": [
+        797,
+        1241,
+        1175,
+        1736
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-05-portrait-se-orita-emma-lugo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-05-portrait-se-orita-emma-lugo.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0054.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
@@ -42,11 +162,5 @@
     }
   ],
   "skipped_regions": [],
-  "flags": [
-    "visual_region_2_visual_region_bbox_too_small",
-    "visual_region_3_visual_region_bbox_too_small",
-    "visual_region_4_visual_region_bbox_too_small",
-    "visual_region_5_visual_region_bbox_too_small",
-    "visual_region_6_visual_region_bbox_too_small"
-  ]
+  "flags": []
 }

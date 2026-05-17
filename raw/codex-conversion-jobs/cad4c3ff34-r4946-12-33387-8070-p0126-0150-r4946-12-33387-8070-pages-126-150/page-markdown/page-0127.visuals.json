@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-17T10:29:48Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+  "page": 127,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0127.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0127.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "photograph",
+      "caption_literal": "Fig. A — Espeletia Jimenez-Quesadae Cuatr.",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "Photograph of several large Espeletia Jimenez-Quesadae plants on a grassy hillside.",
+      "confidence": "high",
+      "inline_anchor": "image-1",
+      "bbox_pct": [
+        12.6,
+        12.6,
+        54.6,
+        59.4
+      ],
+      "bbox_pixels": [
+        165,
+        232,
+        735,
+        1116
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-01-espeletia-jimenez-quesadae-cuatr.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-01-espeletia-jimenez-quesadae-cuatr.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0127.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 127,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0127.md"
+    },
+    {
+      "region_id": "vr-02",
+      "kind": "photograph",
+      "caption_literal": "Fig. C — Espeletia Lopezii Cuatr.",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "Photograph showing a close-up of Espeletia Lopezii plants on rocky ground.",
+      "confidence": "high",
+      "inline_anchor": "image-2",
+      "bbox_pct": [
+        57.6,
+        24.7,
+        88.4,
+        52.4
+      ],
+      "bbox_pixels": [
+        767,
+        458,
+        1188,
+        985
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-02-espeletia-lopezii-cuatr.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-02-espeletia-lopezii-cuatr.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0127.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 127,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0127.md"
+    },
+    {
+      "region_id": "vr-03",
+      "kind": "photograph",
+      "caption_literal": "Fig. B — Espeletia Arbelaezii Cuatr.",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "Photograph of a wide landscape showing a high plain covered with Espeletia Arbelaezii plants, with mountains in the background.",
+      "confidence": "high",
+      "inline_anchor": "image-3",
+      "bbox_pct": [
+        12.6,
+        64.6,
+        54.6,
+        83.4
+      ],
+      "bbox_pixels": [
+        165,
+        1205,
+        735,
+        1565
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-03-espeletia-arbelaezii-cuatr.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-03-espeletia-arbelaezii-cuatr.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0127.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 127,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0127.md"
+    },
+    {
+      "region_id": "vr-04",
+      "kind": "photograph",
+      "caption_literal": "Fig. D — Espeletia colombiana Cuatr.",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "Photograph showing a close-up of a few Espeletia colombiana plants on bare ground.",
+      "confidence": "high",
+      "inline_anchor": "image-4",
+      "bbox_pct": [
+        57.6,
+        70.6,
+        93.4,
+        88.4
+      ],
+      "bbox_pixels": [
+        767,
+        1318,
+        1255,
+        1659
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-04-espeletia-colombiana-cuatr.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0127/page-0127-image-04-espeletia-colombiana-cuatr.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0127.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 127,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0127.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-17T10:27:15Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
+  "page": 110,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-images/page-0110.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-markdown/page-0110.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "Red Cross emblem",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Centered above the main title 'XIIIme Conférence Internationale de la Croix-Rouge.'",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        11.3,
+        11.3,
+        16.9,
+        15.9
+      ],
+      "bbox_pixels": [
+        143,
+        183,
+        225,
+        267
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/extracted-images/page-0110/page-0110-image-01-red-cross-emblem-1928.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/extracted-images/page-0110/page-0110-image-01-red-cross-emblem-1928.png",
+      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-images/page-0110.jpg",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/manifest.json",
+      "page": 110,
+      "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125/page-markdown/page-0110.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

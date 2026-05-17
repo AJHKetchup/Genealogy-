@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-17T10:29:26Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+  "page": 120,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0120.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0120.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_001",
+      "kind": "photograph",
+      "caption_literal": "3—Aspecto parcial del sitio donde arranca la arca-da del Puente natural, tomada desde la posición que presenta la foto No. 2.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "This image is labeled as '3' and described as a partial view of the site where the arch of the natural bridge begins, taken from the position shown in photo No. 2.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        39.9,
+        50.0,
+        83.3,
+        88.0
+      ],
+      "bbox_pixels": [
+        529,
+        936,
+        1116,
+        1658
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0120/page-0120-image-01-photo-aspecto-parcial-puente-natural.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0120/page-0120-image-01-photo-aspecto-parcial-puente-natural.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0120.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 120,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0120.md"
+    },
+    {
+      "region_id": "visreg_002",
+      "kind": "photograph",
+      "caption_literal": "2—Borde del precipicio, hacia la derecha. Aspecto de la grieta, complementario del que muestra la foto No. 1.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "This image is labeled as '2' and described as the edge of the precipice, showing an aspect of the gorge complementary to photo No. 1.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        35.7,
+        5.0,
+        64.1,
+        45.0
+      ],
+      "bbox_pixels": [
+        473,
+        90,
+        860,
+        850
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0120/page-0120-image-02-photo-borde-precipicio-grieta.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0120/page-0120-image-02-photo-borde-precipicio-grieta.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0120.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 120,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0120.md"
+    },
+    {
+      "region_id": "visreg_003",
+      "kind": "photograph",
+      "caption_literal": "1—Fondo de la grieta de Sumapaz, bajo el Puente natural, por donde corre el río del mismo nombre. Vista tomada con la cámara vuelta hacia el fondo del precipicio en dirección casi vertical. El río apenas si se nota desde arriba.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "This image is labeled as '1' and described as the bottom of the Sumapaz gorge, under the natural bridge, showing the river. The view is taken with the camera turned towards the bottom of the almost vertical precipice.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        11.0,
+        47.5,
+        39.9,
+        88.0
+      ],
+      "bbox_pixels": [
+        143,
+        889,
+        537,
+        1658
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0120/page-0120-image-03-photo-fondo-grieta-sumapaz.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/extracted-images/page-0120/page-0120-image-03-photo-fondo-grieta-sumapaz.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-images/page-0120.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/manifest.json",
+      "page": 120,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125/page-markdown/page-0120.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

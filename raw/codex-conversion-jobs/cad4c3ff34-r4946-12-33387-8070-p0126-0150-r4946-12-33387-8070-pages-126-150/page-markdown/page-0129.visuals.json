@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-17T10:29:41Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+  "page": 129,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0129.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0129.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_0",
+      "kind": "illustration",
+      "caption_literal": "Fig. 5.—*Espeletia colombiana* Cuatr.: A, flor periférica; B, C, bráctea del invólucro; D, pajita del receptáculo (X 3 del natural).",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "Fig. 5",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        20.0,
+        25.0,
+        33.8,
+        56.5
+      ],
+      "bbox_pixels": [
+        283,
+        465,
+        489,
+        1063
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0129/page-0129-image-01-espeletia-colombiana-botanical-illustration-fig-5.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0129/page-0129-image-01-espeletia-colombiana-botanical-illustration-fig-5.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0129.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 129,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0129.md"
+    },
+    {
+      "region_id": "visreg_1",
+      "kind": "illustration",
+      "caption_literal": "Fig. 6.—Perfiles de las hojas: A, de *E. Jimenez-Quesadae*; B y C, de *E. colombiana*; D, de *E. Lopezii*, y E, de *E. Arbelaezii*. Todas reducidas a 1/5 del tamaño natural.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "Fig. 6",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        23.4,
+        65.8,
+        44.7,
+        87.9
+      ],
+      "bbox_pixels": [
+        332,
+        1230,
+        645,
+        1652
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0129/page-0129-image-02-leaf-profiles-espeletia-species-botanical-illustration-fig-6.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0129/page-0129-image-02-leaf-profiles-espeletia-species-botanical-illustration-fig-6.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0129.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json",
+      "page": 129,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-markdown/page-0129.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}
