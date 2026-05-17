@@ -1001,6 +1001,15 @@ def test_cloud_workflow_writes_source_prep_step_summary() -> None:
     assert "source-prep-cloud-report --root . >> \"$GITHUB_STEP_SUMMARY\"" in workflow
 
 
+def test_cloud_workflow_rebases_before_publishing() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "Rebase before publishing conversion outputs" in workflow
+    assert "git pull --rebase --autostash origin main" in workflow
+    assert workflow.index("Rebase before publishing conversion outputs") < workflow.index("Publish conversion outputs")
+
+
 def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     automation = tmp_path / "research" / "_automation"
