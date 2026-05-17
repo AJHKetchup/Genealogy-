@@ -169,6 +169,8 @@ jobs:
           --limit "$RUN_DISCOVERY_LIMIT"
           --scan-limit "$RUN_DISCOVERY_SCAN_LIMIT"
           --parallelism "$RUN_DISCOVERY_PARALLELISM"
+          --no-ocr
+          --document-timeout 30
           --source "$RUN_SOURCE"
           --source-sha256 "$RUN_SOURCE_SHA256"
           --stale-minutes 360

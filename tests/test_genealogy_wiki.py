@@ -1072,6 +1072,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
+    assert "--no-ocr" in workflow
+    assert "--document-timeout 30" in workflow
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
 
@@ -1787,12 +1789,17 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
             "40",
             "--parallelism",
             "4",
+            "--no-ocr",
+            "--document-timeout",
+            "30",
             "--dry-run",
         ]
     )
 
     assert result == 0
     assert captured["parallelism"] == 4
+    assert captured["use_ocr"] is False
+    assert captured["document_timeout"] == 30
 
 
 def test_gemini_source_prep_skips_pages_without_docling_baseline(tmp_path) -> None:

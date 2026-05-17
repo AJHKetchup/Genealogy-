@@ -5943,6 +5943,7 @@ def convert_source_with_docling(
     image_output_dir: Path | None = None,
     image_prefix: str = "docling-image",
     root: Path | None = None,
+    use_ocr: bool = True,
 ) -> str | dict[str, object]:
     try:
         from docling.datamodel.base_models import InputFormat
@@ -5953,6 +5954,8 @@ def convert_source_with_docling(
 
     pipeline_options = PdfPipelineOptions()
     pipeline_options.document_timeout = document_timeout
+    if hasattr(pipeline_options, "do_ocr"):
+        pipeline_options.do_ocr = use_ocr
     pipeline_options.do_table_structure = False
     pipeline_options.do_picture_description = False
     pipeline_options.do_picture_classification = False
@@ -6054,6 +6057,8 @@ def run_source_prep_docling_task(
     cache_key: str,
     temp_dir: Path,
     agent: str,
+    use_ocr: bool = True,
+    document_timeout: float = 90.0,
 ) -> dict[str, object]:
     task_id = str(task.get("task_id", "")).strip()
     task_report: dict[str, object] = {
@@ -6068,9 +6073,11 @@ def run_source_prep_docling_task(
         try:
             docling_result = convert_source_with_docling(
                 input_path,
+                document_timeout=document_timeout,
                 image_output_dir=image_output_dir,
                 image_prefix=image_prefix,
                 root=paths.root,
+                use_ocr=use_ocr,
             )
         except TypeError as exc:
             if "unexpected" not in str(exc) and "positional" not in str(exc):
@@ -6170,6 +6177,8 @@ def source_prep_docling_discovery_run(
     dry_run: bool = False,
     source_filter: str = "",
     source_sha256: str = "",
+    use_ocr: bool = True,
+    document_timeout: float = 90.0,
 ) -> dict[str, object]:
     if limit < 0:
         raise ValueError("limit must be zero or greater")
@@ -6220,6 +6229,8 @@ def source_prep_docling_discovery_run(
         "limit": limit,
         "scan_limit": scan_limit,
         "parallelism": parallelism,
+        "use_ocr": use_ocr,
+        "document_timeout": document_timeout,
         "filters": {
             "source": source_filter.strip(),
             "source_sha256": source_sha256.strip(),
@@ -6339,14 +6350,31 @@ def source_prep_docling_discovery_run(
             for task, cache_key in candidates:
                 if limit > 0 and int(summary["accepted"]) >= limit:
                     break
-                result = run_source_prep_docling_task(paths, task, cache_key, temp_dir, agent)
+                result = run_source_prep_docling_task(
+                    paths,
+                    task,
+                    cache_key,
+                    temp_dir,
+                    agent,
+                    use_ocr=use_ocr,
+                    document_timeout=document_timeout,
+                )
                 if not apply_docling_result(result):
                     break
         elif candidates:
             max_workers = min(parallelism, len(candidates))
             with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
                 futures = [
-                    executor.submit(run_source_prep_docling_task, paths, task, cache_key, temp_dir, agent)
+                    executor.submit(
+                        run_source_prep_docling_task,
+                        paths,
+                        task,
+                        cache_key,
+                        temp_dir,
+                        agent,
+                        use_ocr,
+                        document_timeout,
+                    )
                     for task, cache_key in candidates
                 ]
                 for future in concurrent.futures.as_completed(futures):
@@ -10767,6 +10795,17 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Inspect and report pages without writing rough discovery output or discovery state.",
     )
+    source_prep_docling_parser.add_argument(
+        "--no-ocr",
+        action="store_true",
+        help="Run Docling without OCR so scanned pages fall through quickly to Gemini fallback.",
+    )
+    source_prep_docling_parser.add_argument(
+        "--document-timeout",
+        type=float,
+        default=90.0,
+        help="Docling per-page document timeout in seconds. Default: 90.",
+    )
     source_prep_docling_parser.add_argument("--source", default="", help="Only inspect this raw source path or basename.")
     source_prep_docling_parser.add_argument("--source-sha256", default="", help="Only inspect this raw source SHA-256.")
 
@@ -11341,6 +11380,8 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             source_filter=args.source,
             source_sha256=args.source_sha256,
+            use_ocr=not args.no_ocr,
+            document_timeout=args.document_timeout,
         )
         print(
             "source-prep-docling-discovery | "
