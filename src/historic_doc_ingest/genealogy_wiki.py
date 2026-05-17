@@ -6174,6 +6174,7 @@ def source_prep_docling_discovery_run(
         "accepted": 0,
         "unusable": 0,
         "errors": 0,
+        "extracted_images": 0,
         "skipped": {},
         "tasks": [],
         "blockers": [],
@@ -6251,6 +6252,7 @@ def source_prep_docling_discovery_run(
             summary["accepted"] = int(summary["accepted"]) + 1
         else:
             summary["unusable"] = int(summary["unusable"]) + 1
+        summary["extracted_images"] = int(summary.get("extracted_images", 0) or 0) + int(task_report.get("extracted_image_count", 0) or 0)
         cast_tasks = summary.setdefault("tasks", [])
         if isinstance(cast_tasks, list):
             cast_tasks.append(task_report)
@@ -6483,6 +6485,7 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Accepted: {source_prep_report_value(docling.get('accepted'))}",
         f"- Unusable: {source_prep_report_value(docling.get('unusable'))}",
         f"- Errors: {source_prep_report_value(docling.get('errors'))}",
+        f"- Extracted images: {source_prep_report_value(docling.get('extracted_images'))}",
         f"- Skipped: {source_prep_report_json(docling.get('skipped'))}",
         "",
         "### Gemini Fallback",

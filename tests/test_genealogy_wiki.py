@@ -1015,7 +1015,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     automation = tmp_path / "research" / "_automation"
     automation.mkdir(parents=True, exist_ok=True)
     (automation / "source-prep-docling-state.json").write_text(
-        json.dumps({"inspected": 9, "accepted": 3, "unusable": 5, "errors": 1, "skipped": {"claimed": 2}}),
+        json.dumps({"inspected": 9, "accepted": 3, "unusable": 5, "errors": 1, "extracted_images": 7, "skipped": {"claimed": 2}}),
         encoding="utf-8",
     )
     (automation / "gemini-source-prep-state.json").write_text(
@@ -1059,6 +1059,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert '- Queue statuses: {"needs_reread": 27, "todo": 428}' in report
     assert "- Accepted: 3" in report
     assert "- Unusable: 5" in report
+    assert "- Extracted images: 7" in report
     assert '- Route counts: {"lite": 3, "pro": 2}' in report
     assert "- r2 credentials missing" in report
 
@@ -1298,6 +1299,35 @@ def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp
     batch_path = write_source_prep_batches(tmp_path, limit=10)
     batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
     assert batch_queue["tasks"] == []
+
+
+def test_docling_discovery_summarizes_extracted_images(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "printed-with-image.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling baseline. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path)
+
+    def fake_docling(input_path, **kwargs):
+        return {
+            "markdown": "Usable printed source text for Docling baseline. " * 8,
+            "extracted_images": [
+                {"path": "raw/codex-conversion-jobs/job/extracted-images/page-0001/docling-image-01.png"},
+                {"path": "raw/codex-conversion-jobs/job/extracted-images/page-0001/docling-image-02.png"},
+            ],
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=1, scan_limit=10)
+
+    assert summary["accepted"] == 1
+    assert summary["extracted_images"] == 2
+    assert summary["tasks"][0]["extracted_image_count"] == 2
 
 
 def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
