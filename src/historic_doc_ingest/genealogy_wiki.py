@@ -6977,6 +6977,7 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Processed: {source_prep_report_value(gemini.get('processed'))}",
         f"- Completed: {source_prep_report_value(gemini.get('completed'))}",
         f"- Released: {source_prep_report_value(gemini.get('released'))}",
+        f"- Failed/held: {source_prep_report_value(gemini.get('failed'))}",
         f"- Discovery-skipped: {source_prep_report_value(gemini.get('discovery_skipped'))}",
         f"- Media-skipped: {source_prep_report_value(gemini.get('media_skipped'))}",
         f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(gemini), 'unknown')}",
@@ -7695,6 +7696,29 @@ def classify_gemini_source_prep_batch(
     }
 
 
+def source_prep_gemini_prior_max_tokens(state: dict[str, object]) -> bool:
+    note = str(state.get("note", "") or "").lower()
+    return "max token" in note or "max_tokens" in note
+
+
+def source_prep_gemini_force_pro_after_max_tokens(
+    route: dict[str, object],
+    *,
+    pro_model: str,
+) -> dict[str, object]:
+    if str(route.get("model", "")) == pro_model:
+        return route
+    upgraded = dict(route)
+    upgraded["tier"] = "pro"
+    upgraded["model"] = pro_model
+    upgraded["use_crops"] = False
+    upgraded["complex"] = True
+    reasons = [str(reason) for reason in upgraded.get("reasons", []) or []]
+    reasons.append("prior_max_tokens")
+    upgraded["reasons"] = list(dict.fromkeys(reasons))
+    return upgraded
+
+
 def source_prep_gemini_mime_type(path: Path) -> str:
     suffix = path.suffix.lower()
     if suffix in {".jpg", ".jpeg"}:
@@ -7862,6 +7886,7 @@ Accuracy rules:
 - Preserve original spelling, punctuation, capitalization, line breaks, and source language as much as possible.
 - Use `[?]` for uncertain readings and `[illegible]` only when no plausible reading is possible.
 - If the page is too dense to complete without truncation, preserve the full-page reading order and clearly state what remains unresolved in the completeness audit.
+- Never loop, repeat the same table/text block, or continue writing filler to reach the token budget; stop after the visible page content is represented once.
 - Do not invent missing text, dates, names, or relationships.
 - Do not translate, summarize, interpret, or extract genealogy leads. Preserve evidence for downstream agents.
 - Do not decide whether this page is genealogically important. Research agents decide relevance and may request upgraded conversion later.
@@ -8426,6 +8451,7 @@ def source_prep_gemini_run(
         "processed": 0,
         "completed": 0,
         "released": 0,
+        "failed": 0,
         "skipped": 0,
         "discovery_skipped": 0,
         "media_skipped": 0,
@@ -8472,6 +8498,7 @@ def source_prep_gemini_run(
         processed: int = 0,
         completed: int = 0,
         released: int = 0,
+        failed: int = 0,
         skipped: int = 0,
         discovery_skipped: int = 0,
         media_skipped: int = 0,
@@ -8484,6 +8511,7 @@ def source_prep_gemini_run(
             "processed": processed,
             "completed": completed,
             "released": released,
+            "failed": failed,
             "skipped": skipped,
             "discovery_skipped": discovery_skipped,
             "media_skipped": media_skipped,
@@ -8501,6 +8529,7 @@ def source_prep_gemini_run(
         summary["processed"] = int(summary["processed"]) + int(result.get("processed", 0) or 0)
         summary["completed"] = int(summary["completed"]) + int(result.get("completed", 0) or 0)
         summary["released"] = int(summary["released"]) + int(result.get("released", 0) or 0)
+        summary["failed"] = int(summary["failed"]) + int(result.get("failed", 0) or 0)
         summary["skipped"] = int(summary["skipped"]) + int(result.get("skipped", 0) or 0)
         summary["discovery_skipped"] = int(summary["discovery_skipped"]) + int(result.get("discovery_skipped", 0) or 0)
         summary["media_skipped"] = int(summary["media_skipped"]) + int(result.get("media_skipped", 0) or 0)
@@ -8606,6 +8635,8 @@ def source_prep_gemini_run(
             continue
 
         route = classify_gemini_source_prep_batch(paths.root, raw_task, lite_model=lite_model, pro_model=pro_model)
+        if source_prep_gemini_prior_max_tokens(task_state.get(task_id, {})):
+            route = source_prep_gemini_force_pro_after_max_tokens(route, pro_model=pro_model)
         if not crop_relevance:
             route["use_crops"] = False
             if route.get("tier") == "pro_with_crops":
@@ -8662,14 +8693,23 @@ def source_prep_gemini_run(
             task_report["usage"] = usage
             task_report["finish_reason"] = response.get("finish_reason", "")
             if str(response.get("finish_reason", "")) == "MAX_TOKENS":
+                if str(route.get("model", "")) == lite_model:
+                    update_task_status(
+                        task_id,
+                        "released",
+                        "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+                    )
+                    task_report["status"] = "released"
+                    task_report["reason"] = "max_tokens_retry_pro"
+                    return result_payload(task_report, processed=1, released=1, usage=usage if isinstance(usage, dict) else {})
                 update_task_status(
                     task_id,
-                    "released",
-                    "Gemini output hit max tokens; retry full-page conversion with a higher output budget or targeted crop attachments.",
+                    "failed",
+                    "Gemini Pro hit max tokens; hold for page-region splitting instead of repeating full-page conversion.",
                 )
-                task_report["status"] = "released"
-                task_report["reason"] = "max_tokens"
-                return result_payload(task_report, processed=1, released=1, usage=usage if isinstance(usage, dict) else {})
+                task_report["status"] = "failed"
+                task_report["reason"] = "max_tokens_requires_region_split"
+                return result_payload(task_report, processed=1, failed=1, usage=usage if isinstance(usage, dict) else {})
 
             markdown = str(response.get("text", "")).strip()
             try:

@@ -515,6 +515,83 @@ def test_gemini_source_prep_parallelism_completes_independent_pages(tmp_path, mo
     assert task_state["tasks"]["source-prep:job-one:p0002"]["status"] == "done"
 
 
+def test_gemini_flash_max_tokens_retries_next_as_pro(tmp_path, monkeypatch) -> None:
+    write_test_batch(tmp_path)
+
+    def fake_gemini(**kwargs):
+        assert kwargs["model"] == "gemini-2.5-flash"
+        assert kwargs["max_output_tokens"] == 65536
+        return {
+            "text": "",
+            "finish_reason": "MAX_TOKENS",
+            "usage": {
+                "promptTokenCount": 1000,
+                "candidatesTokenCount": 64000,
+                "thoughtsTokenCount": 500,
+                "totalTokenCount": 65500,
+            },
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    summary = source_prep_gemini_run(tmp_path, limit=1, api_key="test-key", refresh_queue=False)
+
+    assert summary["completed"] == 0
+    assert summary["released"] == 1
+    assert summary["failed"] == 0
+    assert summary["tasks"][0]["reason"] == "max_tokens_retry_pro"
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    state = task_state["tasks"]["source-prep:job-one:p0001"]
+    assert state["status"] == "released"
+    assert "Flash hit max tokens" in state["note"]
+
+    plan = source_prep_gemini_run(tmp_path, limit=1, dry_run=True, refresh_queue=False)
+
+    assert plan["processed"] == 1
+    assert plan["tasks"][0]["route"]["tier"] == "pro"
+    assert plan["tasks"][0]["route"]["model"] == "gemini-2.5-pro"
+    assert "prior_max_tokens" in plan["tasks"][0]["route"]["reasons"]
+
+
+def test_gemini_pro_max_tokens_holds_for_region_split(tmp_path, monkeypatch) -> None:
+    write_test_batch(tmp_path)
+    genealogy_wiki.update_agent_task_state(
+        tmp_path,
+        "source-prep:job-one:p0001",
+        "released",
+        agent="gemini-source-prep",
+        note="Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+    )
+
+    def fake_gemini(**kwargs):
+        assert kwargs["model"] == "gemini-2.5-pro"
+        assert kwargs["max_output_tokens"] == 65536
+        return {
+            "text": "",
+            "finish_reason": "MAX_TOKENS",
+            "usage": {
+                "promptTokenCount": 1000,
+                "candidatesTokenCount": 64000,
+                "thoughtsTokenCount": 500,
+                "totalTokenCount": 65500,
+            },
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    summary = source_prep_gemini_run(tmp_path, limit=1, api_key="test-key", refresh_queue=False)
+
+    assert summary["completed"] == 0
+    assert summary["released"] == 0
+    assert summary["failed"] == 1
+    assert summary["tasks"][0]["route"]["tier"] == "pro"
+    assert summary["tasks"][0]["reason"] == "max_tokens_requires_region_split"
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    state = task_state["tasks"]["source-prep:job-one:p0001"]
+    assert state["status"] == "failed"
+    assert "page-region splitting" in state["note"]
+
+
 def test_gemini_source_prep_ignores_local_env_file(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
     (tmp_path / ".env").write_text("GEMINI_API_KEY=local-only-key\n", encoding="utf-8")
