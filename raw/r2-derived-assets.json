@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-17T14:14:59.660656+00:00",
+  "created": "2026-05-17T14:31:15.757965+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -26,8 +26,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-department-of-state.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-department-of-state.png",
-      "bytes": 79078,
-      "sha256": "7329f80bfd252bd90bd371baa6bd4b19e9ade335a099a1c37d36f4e10678cfc0",
+      "bytes": 83213,
+      "sha256": "18d7a59d66d43e3f3c6b9d6af2c0138b946b241d46f957a941ebf7237d051c56",
       "media_type": "image/png"
     },
     {
@@ -87,6 +87,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-autoriza-via-contraria.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-autoriza-via-contraria.png",
+      "bytes": 21286,
+      "sha256": "c731f8c1237af5f5fdf7d3d4e3f5161e2e2a0f6aa0a7fb7503138d9ea26c72fa",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-autoriza-via-contraria.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-autoriza-via-contraria.png",
       "bytes": 13766,
@@ -105,6 +112,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-diagram-signal-f.png",
       "bytes": 33694,
       "sha256": "e639a778a0a4e8a78047b0617f417903a9b8314f230b53fdc732b82fb8195e1a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-de-llamada.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-de-llamada.png",
+      "bytes": 35364,
+      "sha256": "c9393f148354799073dc2e50c7d12c79ba75a706b35e14dc9cf213ea995f9581",
       "media_type": "image/png"
     },
     {
@@ -129,6 +143,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-automatica.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-automatica.png",
+      "bytes": 24437,
+      "sha256": "ce8209cca850cafbeb209f644270f46f0cc96600401e2d9132ae455b5b31e98b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
       "bytes": 26889,
@@ -140,6 +161,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-senal-automatica.png",
       "bytes": 15316,
       "sha256": "02069bf3afaab7971931771f9568f0638f19900d90040970f617d7fa65de9019",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-brazos-vistos-de-atras.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-brazos-vistos-de-atras.png",
+      "bytes": 31572,
+      "sha256": "69b3b5744f1ee6d7729b04f6a953699419785efc6bd03eec971714a092619af7",
       "media_type": "image/png"
     },
     {
@@ -493,6 +521,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-ship-red-cross-sails.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-ship-red-cross-sails.png",
+      "bytes": 332503,
+      "sha256": "a65e1d03a41c310b44bae36a244a19663936e3a9fb44bbac478a31567013b007",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-ship-with-cross-sails-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/extracted-images/page-0052/page-0052-image-01-stylized-ship-with-cross-sails-illustration.png",
       "bytes": 387978,
@@ -567,6 +602,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-a-man.png",
       "bytes": 483034,
       "sha256": "96a1c2e3688cc48b1e6c5961d90330cdbf8f7f56fe40ac5323e2037ee2d9dc93",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man-page-95.png",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-man-page-95.png",
+      "bytes": 734121,
+      "sha256": "f490a231cc1c27a59f7f90b70310bbcfdeed68b092c78dbabff03c3c6edce033",
       "media_type": "image/png"
     },
     {
@@ -656,8 +698,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
-      "bytes": 4133612,
-      "sha256": "de9258306a33cb7bcf535ca6ab983d255fd4a9557321e41e240f6b4b022bf17d",
+      "bytes": 3352631,
+      "sha256": "8c028d954c49cf1666972dc5915d23836e39086710c5904bf31a08709800f294",
       "media_type": "image/png"
     },
     {
@@ -672,6 +714,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-el-capitan-gajardo-drinking-from-cup.png",
       "bytes": 2182400,
       "sha256": "6f4da6b80166ff8990632f77f8b865aacb925322eb43c81b55601a3371b4e7bb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
+      "bytes": 1968621,
+      "sha256": "c68ec7f8caa98877f0438de4e63c7aac7987a7ee37abda6b3f84c78771b80f05",
       "media_type": "image/png"
     },
     {
@@ -717,6 +766,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-1956.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-1956.png",
+      "bytes": 2685951,
+      "sha256": "8112f114625ac64bd362a0a047dbf192bf1a8fa375a71d215aa91a629d1bcc03",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-ad-1956.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-stylized-bird-figure-ad-1956.png",
       "bytes": 3811571,
@@ -759,6 +815,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png",
+      "bytes": 9308086,
+      "sha256": "d9fcf6329c2518cf0d9900e38094f4050817f36ba3da907b504fdb0ce525564f",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-top-climbers-on-el-salado.png",
       "bytes": 2175267,
@@ -791,6 +854,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-p0017-visual-region-2-expedition-group.png",
       "bytes": 9269419,
       "sha256": "53958e941c93c02e3205197c90896da1b2860ca72894660cac7130c8f16143f3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png",
+      "bytes": 9070071,
+      "sha256": "4513dc1f8f98caab8290a955ba2741c3136790e2258d854345fe251deaac4a41",
       "media_type": "image/png"
     },
     {
@@ -899,10 +969,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0100/page-0100-image-01-p0100-vr01-id-1513.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100/extracted-images/page-0100/page-0100-image-01-p0100-vr01-id-1513.png",
+      "bytes": 533218,
+      "sha256": "5a37a30ba767562ce25b50dba1415adcc6e9222a19049553f442c97c453a48d9",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0108/page-0108-image-01-uruguay-police-fingerprint-card-chart-108.png",
       "bytes": 795123,
       "sha256": "5f8a47a1b99db067f6d6de64cc3989ece31fda7642ab35eff4e84b92fca87e42",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-001-photograph-of-unidentified-woman.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125/extracted-images/page-0109/page-0109-image-01-p0109-001-photograph-of-unidentified-woman.png",
+      "bytes": 524897,
+      "sha256": "95d5b37187c2d9fc6f7d4163ef252483f813899e5066bf297471d08eed671e0d",
       "media_type": "image/png"
     },
     {
@@ -2953,10 +3037,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 25,
+    "total_bytes": 87647388,
+    "uploaded": 14,
+    "skipped": 11,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -2966,9 +3050,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 419,
+      "scanned": 431,
       "deleted": 0,
-      "skipped": 419,
+      "skipped": 431,
       "errors": []
     }
   }

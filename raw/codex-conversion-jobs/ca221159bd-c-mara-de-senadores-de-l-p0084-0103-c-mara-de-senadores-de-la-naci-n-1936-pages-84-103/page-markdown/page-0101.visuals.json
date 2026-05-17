@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T13:49:32Z",
+  "created": "2026-05-17T14:23:08Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visrep_0",
-      "kind": "illustration",
+      "region_id": "visual_001",
+      "kind": "diagram",
       "caption_literal": "e) Señal que autoriza a correr por vía contraria.",
       "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "The illustration shows a signal with a red flag featuring a white 'X' and two red circular lights, corresponding to the caption describing a signal authorizing movement on the opposite track.",
-      "confidence": "0.95",
+      "identity_basis": "visual-appearance",
+      "source_context": "Diagram of a railway signal with a red flag, X pattern, and two red lights.",
+      "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        27.0,
         15.0,
-        44.0,
-        27.0
+        27.5,
+        27.0,
+        43.0
       ],
       "bbox_pixels": [
-        208,
-        153,
-        349,
-        286
+        114,
+        283,
+        216,
+        453
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-via-contraria.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-e-via-contraria.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-autoriza-via-contraria.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-01-signal-autoriza-via-contraria.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0101.md"
     },
     {
-      "region_id": "visrep_1",
-      "kind": "illustration",
+      "region_id": "visual_002",
+      "kind": "diagram",
       "caption_literal": "f) Señal de llamada.",
       "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "The illustration shows two signals: one with a dashed outline of a flag and light, and another with a solid red and white striped flag and a red light, corresponding to the caption for a call signal.",
-      "confidence": "0.95",
+      "identity_basis": "visual-appearance",
+      "source_context": "Diagram of two railway signal configurations, one outlined and one with a red flag and white stripe.",
+      "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        27.0,
-        30.0,
-        44.0,
-        45.0
+        32.0,
+        27.5,
+        49.0,
+        43.0
       ],
       "bbox_pixels": [
-        208,
-        310,
-        349,
-        474
+        247,
+        283,
+        389,
+        453
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-llamada.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-f-llamada.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-de-llamada.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-02-signal-de-llamada.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -71,28 +71,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0101.md"
     },
     {
-      "region_id": "visrep_2",
-      "kind": "illustration",
+      "region_id": "visual_003",
+      "kind": "diagram",
       "caption_literal": "g) Señal automática.",
       "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "The illustration shows an arrow-shaped red flag with white chevron stripes and a red circular light, corresponding to the caption for an automatic signal.",
-      "confidence": "0.95",
+      "identity_basis": "visual-appearance",
+      "source_context": "Diagram of a railway signal with a red arrow-shaped flag and white chevrons.",
+      "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        27.0,
-        49.0,
-        44.0,
-        60.0
+        54.0,
+        27.5,
+        66.0,
+        43.0
       ],
       "bbox_pixels": [
-        208,
-        508,
-        349,
-        631
+        420,
+        283,
+        522,
+        453
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-g-automatica.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-automatica.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-03-signal-automatica.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
@@ -101,28 +101,28 @@
       "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-markdown/page-0101.md"
     },
     {
-      "region_id": "visrep_3",
-      "kind": "illustration",
+      "region_id": "visual_004",
+      "kind": "diagram",
       "caption_literal": "h) Brazos vistos de atrás.",
       "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "The illustration shows two signals: one tilted with black and white stripes and a hook, and another horizontal with a black square on a white background, corresponding to the caption for arms viewed from behind.",
-      "confidence": "0.95",
+      "identity_basis": "visual-appearance",
+      "source_context": "Diagram of two railway signal arms, one striped and tilted, the other with a black square.",
+      "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        27.0,
-        68.0,
-        60.0,
-        83.0
+        71.0,
+        27.5,
+        88.0,
+        43.0
       ],
       "bbox_pixels": [
-        208,
-        707,
-        475,
-        871
+        553,
+        283,
+        695,
+        453
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-signal-h-brazos-vistos-de-atras.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-signal-h-brazos-vistos-de-atras.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-brazos-vistos-de-atras.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/extracted-images/page-0101/page-0101-image-04-brazos-vistos-de-atras.png",
       "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103/page-images/page-0101.jpg",
       "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
       "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",

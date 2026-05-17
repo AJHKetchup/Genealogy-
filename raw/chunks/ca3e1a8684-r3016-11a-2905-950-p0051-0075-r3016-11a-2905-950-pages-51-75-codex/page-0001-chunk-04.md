@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0056730f6673-P0001-04
+chunk_id: CHUNK-57efe5e13fa0-P0001-04
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
+converted_sha256: 57efe5e13fa09804ecc6e8f593a64460c31bf559d99252d7d7da2756a09adb06
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -10,10 +10,6 @@ page_start: 1
 page_end: 1
 part: 4
 ---
-
-## Layout And Reading Order
-
-The page contains a single handwritten note on a rectangular slip of blue-grey paper. The reading order is from top to bottom. A filing number is written in the top right corner. A name is written at the top, underlined, followed by the body of the note. The note is incomplete and appears to be cut off at the bottom of the page.
 
 ## Literal Transcription
 
@@ -350,3 +346,6 @@ All visible text and significant visual elements on the page have been transcrib
 
 ## Page Metadata
 Page number: 75
+
+## Layout And Reading Order
+The page contains a typewritten letter in German, with some handwritten annotations and a stamped mark. The handwritten annotations are at the top left and top right. A large rectangular stamp is present in the upper left quadrant. The main body of the letter is presented in a single column, left-aligned, with a ragged right margin. The last line of the letter is truncated at the bottom right of the page.

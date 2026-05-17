@@ -766,10 +766,11 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-Page number: 52
+- Page number: 52
+- Source publication: Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 
 ## Layout And Reading Order
-The page features a newspaper article. At the top left is the page number. Below that, centered, is the newspaper masthead "EL SUR" followed by a date line. The article title "El Hospital "Virginio Gómez González"" is centered below the date line. The main body of the article is presented in two columns, read from left to right. At the very bottom of the page, a footer line repeats the newspaper name and date.
+The page begins with a page number in the top-left corner. Below this, a newspaper masthead "EL SUR" is displayed, followed by the publication details (city, date). An article title is centered below the masthead. The main content of the page is presented in two columns, read from left to right. A partial line of text from the newspaper footer appears at the very bottom of the page.
 
 ## Literal Transcription
 52
@@ -789,7 +790,7 @@ funde con la de la ciudad, pero fue
 preciso facultativo, con cuyo nom-
 bre se le designará en adelante, quien
 miró su modernización y quien im-
-pulsó la obra transformadora que ha-
+puso la obra transformadora que ha-
 bría de convertirlo en la entidad que es
 en la actualidad. Nada más justo, pues,
 que darle el nombre de quien dio vida
@@ -825,7 +826,21 @@ grabada por acontecimientos trascen-
 dentales de imperecedero beneficio para
 sus semejantes.
 Quizás si algunos pocos espíritus es-
-
+tériles, que vibraron junto a él en
+torno a los magnos proyectos de bien
+colectivo que alentaba, advirtieron con
+exactitud en la realidad de esos años
+de la lejana, la cabal estatura espi-
+ritual del doctor Virginio Gómez y las
+proyecciones insospechadas que su ac-
+ción, siempre silenciosa, tendría para el
+futuro de Concepción.
+En esta oportunidad en que la ciu-
+dadanía de esta zona rinde un merecido
+y justo homenaje a la memoria del
+insigne facultativo, cuando con unáni-
+me aplauso se da su nombre ilustre al
+que es varias veces secular Hospital de Con-
 cepción, fuera quizás más propio ahon-
 dar en las iniciativas que vincularon di-
 rectamente al doctor Gómez con esta
@@ -892,31 +907,36 @@ hombre ilustre y su obra imperecedera.
 El Sur 3 de diciembre de 1959
 
 ## Images, Captions, And Visual Notes
-The page features a newspaper masthead/banner at the top, including the newspaper name "EL SUR" and the date line.
+The page contains a reproduction of a newspaper article. The header "EL SUR" is prominently displayed in a stylized font, typical of newspaper mastheads.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.
+The page is complete and all visible text has been transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "vr1",
       "kind": "masthead",
-      "bbox_pct": [23.0, 11.0, 78.0, 20.0],
-      "caption_literal": "EL SUR\nCONCEPCION, JUEVES 3 DE DICIEMBRE DE 1959",
-      "caption_type": "source-caption",
-      "identity_basis": null,
-      "source_context": "Newspaper masthead and date line.",
+      "bbox_pct": [
+        23.0,
+        10.0,
+        77.0,
+        15.0
+      ],
+      "caption_literal": "EL SUR",
+      "caption_type": "source-field",
+      "identity_basis": "text-content",
+      "source_context": "Newspaper masthead at the top of the page.",
       "confidence": 0.95,
-      "suggested_filename": "El_Sur_Masthead_1959-12-03.png",
-      "inline_anchor": null
+      "suggested_filename": "EL_SUR_masthead"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
@@ -924,7 +944,7 @@ All visible text and significant visual elements on the page have been transcrib
 Page number: 53
 
 ## Layout And Reading Order
-The page features a newspaper-style header at the top, indicating the publication name, location, and date. Below this, a main title "Un Hecho Insólito" is centered. The main content is a single-column article, starting with a large dropped capital 'L' for the first paragraph. The article continues in several paragraphs, some of which have small dash-like marks in the left margin, indicating new sections or emphasis. The text flows continuously down the page.
+The page features a newspaper-style header at the top, followed by a main article with a prominent title. The article text is presented in a single column, beginning with a large initial capital letter.
 
 ## Literal Transcription
 ```
@@ -934,29 +954,28 @@ EL SUR. — Concepción, viernes 4 de diciembre de 1959
 
 Un Hecho Insólito
 
-L
-A CEREMONIA en la cual se iba a dar el nom-
-bre del doctor Virginio Gómez González, al Hos-
-pital Clínico Regional, anunciada oficialmente por
-la Jefatura Provincial del Servicio Nacional de Sa-
-lud para la mañana de ayer, no tuvo lugar.
-Se ignora si el hecho de no haberse efectuado este acto
+L A CEREMONIA en la cual se iba a dar el nom-
+    bre del doctor Virginio Gómez González, al Hos-
+    pital Clínico Regional, anunciada oficialmente por
+    la Jefatura Provincial del Servicio Nacional de Sa-
+    lud para la mañana de ayer, no tuvo lugar.
+    Se ignora si el hecho de no haberse efectuado este acto
 deriva de una postergación de la misma o simplemente de
 la circunstancia de haberse dejado sin efecto la medida
 anunciada. Al menos no hubo ninguna advertencia previa en
 fuentes oficiales ni tampoco una explicación posterior que
 permita saber a qué atenerse al respecto.
-En todo caso, cualquiera que haya sido la causa que
+    En todo caso, cualquiera que haya sido la causa que
 motivó la supresión de la ceremonia referida, se advierte, en
 primer lugar, de parte de las autoridades responsables, una
 falta de deferencia elemental hacia la ciudadanía que me-
 rece y debe estar informada acerca de acontecimientos de
 esta índole.
-La insólita manera de proceder de los jefes del Servicio
+    La insólita manera de proceder de los jefes del Servicio
 Nacional de Salud en esta oportunidad ha motivado la con-
 siguiente perplejidad en la opinión pública que no acierta a
 comprender las causas de lo ocurrido.
-Con fecha 23 de noviembre, la autoridad correspondiente
+    Con fecha 23 de noviembre, la autoridad correspondiente
 del SNS dio a conocer oficialmente a los representantes de
 la prensa local, en el curso de la reunión informativa que
 tuvo lugar ese día, la resolución en virtud de la cual se da-
@@ -964,7 +983,7 @@ ría al Hospital Clínico Regional de Concepción, el nombre
 del ilustre médico inspirador de la Universidad de Concep-
 ción y creador del referido establecimiento hospitalario, con
 sus características actuales.
-De acuerdo con este anuncio, la noticia, que inmediata-
+    De acuerdo con este anuncio, la noticia, que inmediata-
 mente fue acogida con unánime beneplácito en todas las es-
 feras, comenzó a ser ampliamente difundida por los órganos
 de la prensa local. Esta difusión, como era lógico, continuó
@@ -974,7 +993,7 @@ alguno, escrito ni verbal, de ninguna autoridad del Servi-
 cio Nacional de Salud, facultada para ello, ni de ninguna
 otra autoridad o persona que hubiera podido tener derecho
 a hacerlo.
-Plena razón tiene, por tanto, la opinión pública, para
+    Plena razón tiene, por tanto, la opinión pública, para
 juzgar ahora que lo sucedido constituye un hecho insólito,
 cuya gravedad no es posible disminuir, en cuanto represen-
 ta una burla para la ciudadanía en sus legítimos derechos
@@ -982,7 +1001,7 @@ a ser oportunamente informada y una ofensa gratuita e in-
 calificable a la memoria de un personero que, por muchos
 y muy altos conceptos, merece el respeto y la gratitud más
 profunda de todos los habitantes del país.
-No en vano la ciudadanía consciente, que conoce y apre-
+    No en vano la ciudadanía consciente, que conoce y apre-
 cia la magnitud de la obra desarrollada por el doctor Gómez
 González en beneficio de Concepción y los méritos extraordi-
 narios que adornaron la existencia de este hombre, desde
@@ -991,26 +1010,26 @@ noticia de que se daría su nombre al Hospital de Concep-
 ción. Estas mismas personas tienen ahora, justo motivo pa-
 ra demostrar su repudio ante un suceso que constituye una
 afrenta flagrante al recto sentir de los habitantes de la zona.
-Como hemos señalado, no sería posible eludir la grave-
+    Como hemos señalado, no sería posible eludir la grave-
 dad que entraña este penoso acontecimiento; gravedad que
 plantea la necesidad imperiosa de una explicación a la opi-
 nión pública y los actos de adecuada reparación a la me-
-moria del ilustre repúblico que, de manera realmente in-
+moria del ilustre republico que, de manera realmente in-
 concebible, aparece ahora gratuitamente vejada.
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page. Small dash-like marks appear in the left margin next to some paragraphs, serving as minor layout elements.
+The page contains no images or captions. The text is presented as a single article.
 
 ## Uncertain Or Illegible
 None. All text is clearly legible.
 
 ## Completeness Audit
-All visible text on the page has been transcribed, including the header, title, and the full article content. The reading order and paragraph structure have been preserved.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor decorative layout elements (small dashes in the margin) that are not substantial enough to be considered meaningful visual regions for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial visual elements that would warrant cropping."}
 ```
 
 ## Page Metadata
@@ -1238,7 +1257,7 @@ All visible text on the page has been transcribed.
 Page number: 57
 
 ## Layout And Reading Order
-The page features a two-column layout. The page number "57" is at the top left. The main content begins with a heading spanning the top of the left column, followed by a block of text in the left column. The right column contains a continuous block of text, including a sub-heading "Proyecto de ley" and a quoted section. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
+The page features a two-column layout. The left column contains a header "99.—INFORME DE LA COMISION DE SALUD PUBLICA" followed by six paragraphs of text. The right column contains two paragraphs of text, followed by a section titled "Proyecto de ley" which contains three more paragraphs. The content flows from the top of the left column, down to the bottom, then continues at the top of the right column, and proceeds downwards.
 
 ## Literal Transcription
 57
@@ -1246,11 +1265,11 @@ The page features a two-column layout. The page number "57" is at the top left. 
 99.—INFORME DE LA COMISION DE SALUD
 PUBLICA
 
-“Honorable Cámara:
+"Honorable Cámara:
 La Comisión de Salud Pública pasa a
 informar un proyecto de ley, en segundo
 trámite constitucional, que denomina
-“Guillermo Grant Benavente” al Hospital
+"Guillermo Grant Benavente" al Hospital
 Clínico Regional de Concepción.
 Escasos son los maestros y hombres de
 ciencia que han dedicado sus afanes, des-
@@ -1267,7 +1286,6 @@ tacada participación en el Comité pro
 Universidad y Hospital Clínico, firmando
 en calidad de socio fundador, el acta de
 constitución legal de esa Universidad.
-
 Desempeñó las Cátedras de Histología,
 de Patología Interna, de Fisiología y de
 Farmacología en la Facultad de Medicina
@@ -1284,11 +1302,11 @@ Honorario de la Universidad de Concep-
 ción en 1957.
 Asimismo, cabe hacer expresa mención
 de sus trabajos científicos, en especial de
-la obra “Compendio de Farmacia Galéni-
-ca y Química”, que escribiera en colabo-
+la obra "Compendio de Farmacia Galéni-
+ca y Química", que escribiera en colabo-
 ración con el Profesor Evans Weasson, y
-del libro “Lecciones de Patología Médi-
-ca”."
+del libro "Lecciones de Patología Médi-
+ca".
 
 Sin embargo, la actividad generosa des-
 plegada por tan eminente médico no que-
@@ -1316,12 +1334,11 @@ los siguientes:
 
 Proyecto de ley
 
-“Artículo único.—El Hospital Clínico
+"Artículo único.—El Hospital Clínico
 Regional de Concepción se denominará en
-lo futuro “Guillermo Grant Benavente”.”
+lo futuro "Guillermo Grant Benavente"."
 Sala de la Comisión, a 10 de septiembre
 de 1969.
-
 Acordado en sesión de fecha 10 de sep-
 tiembre del año en curso, con asistencia
 de los señores Cabello (Presidente); Jáu-
@@ -1330,10 +1347,10 @@ Héctor, y Sabat.
 Se designó Diputado informante a la
 señorita Lacoste, doña Graciela.
 (Fdo.): Eugenio Yávar Vallebuona,
-Secretario de Comisiones.”
+Secretario de Comisiones."
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+The page contains no images or captions.
 
 ## Uncertain Or Illegible
 None.
@@ -1343,7 +1360,7 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is text-only and contains no meaningful images, diagrams, or other visual elements that would warrant a crop."}
 ```
 
 ## Page Metadata

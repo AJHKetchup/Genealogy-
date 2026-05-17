@@ -12,10 +12,6 @@
 Page number: 121
 
 ## Layout And Reading Order
-The page presents a formal document in a single-column layout. It begins with a header identifying the issuing ministry and subsecretariat, followed by the title of the document, publication details, and date. The main body consists of a "Vistos" section and a "Considerando" section, each containing multiple numbered paragraphs.
-
-## Literal Transcription
-121
 
 MINISTERIO DE SALUD
 SUBSECRETARIA DE REDES ASISTENCIALES
@@ -65,13 +61,13 @@ integra, junto a los elementos intangibles y simbólicos, con la enorme riqueza 
 estructura arquitectónica extendida a todo lo largo y ancho del país y sus
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+This page contains no images or captions.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph of the "Considerando" section is cut off at the bottom of the page.
+All visible text on the page has been transcribed. The last paragraph is cut off at the bottom of the page.
 
 ## Visual Region Manifest
 ```json
@@ -82,17 +78,14 @@ All visible text on the page has been transcribed. The last paragraph of the "Co
 Page number: 122
 
 ## Layout And Reading Order
-The page contains a page number "122" in the top-left corner. The main content consists of a single column of text, divided into numbered paragraphs (5 through 9), which appear to be a continuation of a larger document.
+The page consists of a single column of text, primarily composed of numbered paragraphs (5 through 9). The text begins with an unnumbered sentence that appears to be a continuation or preamble to the numbered points.
 
 ## Literal Transcription
-
-122
-
 elementos y objetos de valor patrimonial, probados y enriquecidos durante
 décadas en el trabajo permanente de atender y asistir a nuestros conciudadanos.
 
 5. Que, el Consejo de Monumentos Nacionales a diciembre de 2006 ha declarado
-como Monumentos Nacionales a nueve de nuestros establecimientos de Salud, a
+como Monumentos Nacionales a nueve de nuestros establecimientos de salud, a
 los que se ha agregado recientemente el antiguo Hospital de Angol del Servicio de
 Salud Araucanía Norte, encontrándose varios más en trámite de declaratoria.
 
@@ -133,7 +126,7 @@ alma que anima a nuestros trabajadores y funcionarios de la salud, en beneficio 
 nuestra población, dicto la siguiente,
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+There are no images, captions, or other substantial visual notes on this page.
 
 ## Uncertain Or Illegible
 None.
@@ -143,14 +136,14 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 ```
 
 ## Page Metadata
 Page number: 123
 
 ## Layout And Reading Order
-The page contains a single column of text, starting with a heading "Resolución:", followed by two numbered points, and concluding with a statement and signature.
+The page contains a single column of text, starting with a page number at the top left, followed by a heading "Resolución:" and two numbered points, and concluding with a closing statement and signature.
 
 ## Literal Transcription
 123
@@ -171,17 +164,17 @@ The page contains a single column of text, starting with a heading "Resolución:
     Iroume, Ministra de Salud.
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+No uncertain or illegible text was found on this page.
 
 ## Completeness Audit
 All text content on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page contains only text."}
 ```
 
 ## Page Metadata

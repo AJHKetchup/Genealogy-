@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T13:50:01Z",
+  "created": "2026-05-17T14:23:49Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "vr1",
       "kind": "masthead",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "EL SUR\nCONCEPCION, JUEVES 3 DE DICIEMBRE DE 1959",
-      "source_context": "Newspaper masthead and date line."
+      "caption_literal": "EL SUR",
+      "source_context": "Newspaper masthead at the top of the page."
     }
   ],
   "flags": []

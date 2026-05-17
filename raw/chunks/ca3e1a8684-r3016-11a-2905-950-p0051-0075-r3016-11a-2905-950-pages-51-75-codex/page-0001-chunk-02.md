@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0056730f6673-P0001-02
+chunk_id: CHUNK-57efe5e13fa0-P0001-02
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md
-converted_sha256: 0056730f6673812e70436a1536144d54e8bf5e36bbc8343e2857f86b410312f2
+converted_sha256: 57efe5e13fa09804ecc6e8f593a64460c31bf559d99252d7d7da2756a09adb06
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75/manifest.json
@@ -281,7 +281,7 @@ The transcription is complete and includes all visible text, including handwritt
 Page number: 61
 
 ## Layout And Reading Order
-The page displays a single, rectangular piece of paper, possibly a tag or slip, with handwritten text in pencil. The text is arranged in a vertical block, starting near the top of the paper. There is a hole punched near the top center of the paper.
+The page contains a single grey card with handwritten text in pencil. The text is centered on the card. There is a punched hole at the top center of the card.
 
 ## Literal Transcription
 Registry
@@ -290,10 +290,18 @@ for put on file
 A. Kennedy
 
 ## Images, Captions, And Visual Notes
-The page is an image of a light grey paper slip. There is a circular hole punched near the top center of the slip. The top-left corner of the slip appears to be folded or slightly torn. The text is handwritten in pencil.
+The page is a grey card with a punched hole at the top center. The top left corner of the card is slightly torn/creased.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+None.
 
 ## Completeness Audit
-All visible text and significant visual details on the page have been transcribed and noted.
+All visible text and significant visual elements have been transcribed or noted.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. The page is a simple card with handwritten text and a punched hole, which are described in the transcription and visual notes."}
+```
+
+## Page Metadata
+- Page number: 62

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2251af451385-P0001-09
+chunk_id: CHUNK-8055fbd80404-P0001-09
 source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25.codex.md
-converted_sha256: 2251af4513856298af47a6c7d8f2c7878966ab49af92a74d0923c0d76e6e8093
+converted_sha256: 8055fbd80404f92198f2ff9f8fe5d4f3fa2714fb66ad3f057f21e65d23487a10
 source: raw/sources/R3016-11A-2905-950.pdf
 source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
 source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25/manifest.json
@@ -30,37 +30,34 @@ The entire page has been transcribed, including all pre-printed text, handwritte
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0002`
-- Page: 2
+- page_number: 2
+- page_type: cover
+- document_type: file_folder
 
 ## Layout And Reading Order
-The page is a simple document cover. The reading order is:
-1. A faint, stamped, two-line title at the top center of the page.
-2. A handwritten number in the bottom right corner.
+This page is the back cover of a file folder. The layout consists of a single column. There is a faint, stamped text block near the top center of the page. In the bottom right corner, there is a handwritten number. A white fabric binding strip is visible along the left edge, with a single hole punch near the top.
 
 ## Literal Transcription
-[Stamped text, very faint, at top center]
-TO ARTICLES OF [INCORPORATION?]
---------------------------
+```text
+[text block 1, top center, stamped, very faint]
+[illegible] ARTICULO [illegible]
 
-[Handwritten in pencil or green ink, bottom right corner]
+[text block 2, bottom right, handwritten]
 908c
+```
 
 ## Images, Captions, And Visual Notes
-This page is the brown paper cover of a document or folder. A white cloth binding strip is attached to the left edge, containing one hole punch near the top. The paper is creased and aged.
+The image shows the back of a tan or brown paper file folder. The paper is creased and aged. A white fabric binding is attached to the left side, containing a single hole punch.
 
 ## Uncertain Or Illegible
-- The stamped text at the top of the page is extremely faint and difficult to read. The reading "TO ARTICLES OF INCORPORATION?" is a plausible interpretation but is not certain.
+- The stamped text at the top of the page is extremely faint and mostly illegible. A possible partial reading is `[illegible] ARTICULO [illegible]`.
 
 ## Completeness Audit
-All visible text and significant visual features on the page have been transcribed and described.
+This page is a simple document cover and has been fully transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page is a simple document cover with no significant images, illustrations, or photographs that would warrant creating a separate visual region."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page is a simple document cover with no significant images, illustrations, or photographs."}
 ```
 
 ## Page Metadata
@@ -166,43 +163,34 @@ The page is fully transcribed. All pre-printed text, handwritten entries, stamps
 ```
 
 ## Page Metadata
-- Page number: 4
-- Source publication year: [Unknown]
-- Source publication place: [Unknown]
-- Document type: Form
-- Language: French, English
+Not applicable.
 
 ## Layout And Reading Order
-The page is a pre-printed form, oriented vertically. At the top, there is a hole punch. The form is structured with a header section containing three labeled fields, followed by a second header row with two labeled fields. The main body of the form consists of two vertical columns, each containing multiple horizontal dashed lines for entries.
+The page is a pre-printed form, oriented vertically. At the top, there is a punched hole. Below the hole, there is a header section with three labeled fields arranged horizontally. Below this, there is a second header section with two labeled fields, also arranged horizontally. The main body of the form consists of two vertical columns, each containing multiple dashed lines for entries, separated by a solid vertical line. A solid horizontal line marks the bottom of the entry area.
 
 ## Literal Transcription
-[Hole punch at top center]
-
-| Section No. | Document No. | Dossier No. |
-| :---------- | :----------- | :---------- |
-| REMETTRE CE DOCUMENT A- | DATE. |
-
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
----------- | ----------
+Section No. | Document No. | Dossier No.
+:------------|:-------------|:-----------
+REMETTRE CE DOCUMENT A- | DATE.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+________________________________________________________________________________
 
 ## Images, Captions, And Visual Notes
-- A circular hole punch is present at the top center of the page, indicating it was likely part of a bound document or file.
-- The page is a pre-printed form with ruled lines and dashed lines for data entry.
+A circular hole is punched at the top center of the page, likely for filing purposes.
 
 ## Uncertain Or Illegible
 None.
@@ -212,7 +200,7 @@ All visible text and structural elements of the form have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only a pre-printed form with text and lines, and a hole punch. No substantial visual elements like photographs, maps, or complex diagrams are present that would warrant cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a simple form layout with text and lines, and a filing hole. No substantial visual elements like photographs, maps, or complex diagrams are present that would warrant cropping."}
 ```
 
 ## Page Metadata
