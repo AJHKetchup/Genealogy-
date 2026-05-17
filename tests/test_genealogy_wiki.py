@@ -945,6 +945,10 @@ def test_source_prep_batches_can_target_one_source(tmp_path) -> None:
 
     assert len(batch_queue["tasks"]) == 2
     assert {batch["source"] for batch in batch_queue["tasks"]} == {"raw/sources/target.pdf"}
+    state = json.loads((tmp_path / "research" / "_automation" / "source-prep-batches-state.json").read_text(encoding="utf-8"))
+    assert state["global_queue"] is False
+    assert state["filters"]["source"] == "target.pdf"
+    assert state["summary"]["task_count"] == 2
 
 
 def test_source_prep_batches_exclude_audio_video_sources(tmp_path) -> None:
@@ -962,6 +966,10 @@ def test_source_prep_batches_exclude_audio_video_sources(tmp_path) -> None:
     assert sources == {"raw/sources/notes.txt"}
     assert batch_queue["tasks"][0]["media_type"] == "text"
     assert batch_queue["tasks"][0]["pages"][0]["media_type"] == "text"
+    state = json.loads((tmp_path / "research" / "_automation" / "source-prep-batches-state.json").read_text(encoding="utf-8"))
+    assert state["global_queue"] is True
+    assert state["summary"]["media_type_counts"] == {"text": 1}
+    assert state["skipped_media_tasks"] == 2
 
 
 def test_cloud_workflow_refreshes_global_queue_after_source_filtered_run() -> None:

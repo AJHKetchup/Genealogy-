@@ -6356,6 +6356,19 @@ def write_source_prep_batches(
         statuses=statuses,
     )
     queue_path = write_agent_queue(paths.root, queue_dir, "source-prep-batches", batches, {})
+    write_source_prep_batch_queue_state(
+        paths.root,
+        queue_path,
+        batches,
+        max_pages=effective_max_pages,
+        limit=limit,
+        stale_minutes=stale_minutes,
+        statuses=statuses,
+        source_filter=source_filter,
+        source_sha256=source_sha256,
+        released_count=released_count,
+        media_skipped_count=media_skipped_count,
+    )
     log_message = (
         "source-prep-batches | "
         f"Wrote {len(batches)} batch task(s), max {effective_max_pages} page(s) each"
@@ -6366,6 +6379,63 @@ def write_source_prep_batches(
         log_message += f"; skipped {media_skipped_count} audio/video task(s)"
     append_log(paths.research / "log.md", log_message)
     return queue_path
+
+
+def source_prep_batch_queue_state_path(root: Path) -> Path:
+    return WikiPaths(root.resolve()).research / "_automation" / "source-prep-batches-state.json"
+
+
+def count_source_prep_batch_media_types(batches: list[dict[str, object]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for batch in batches:
+        media_type = str(batch.get("media_type", "") or "unknown")
+        counts[media_type] = counts.get(media_type, 0) + 1
+    return dict(sorted(counts.items()))
+
+
+def write_source_prep_batch_queue_state(
+    root: Path,
+    queue_path: Path,
+    batches: list[dict[str, object]],
+    *,
+    max_pages: int,
+    limit: int,
+    stale_minutes: int,
+    statuses: list[str] | None,
+    source_filter: str,
+    source_sha256: str,
+    released_count: int,
+    media_skipped_count: int,
+) -> Path:
+    paths = WikiPaths(root.resolve())
+    output_path = source_prep_batch_queue_state_path(paths.root)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    filters = {
+        "source": source_filter.strip(),
+        "source_sha256": source_sha256.strip(),
+    }
+    payload = {
+        "created": utc_timestamp(),
+        "queue": "source-prep-batches",
+        "path": relative_to_root(queue_path, paths.root),
+        "global_queue": not filters["source"] and not filters["source_sha256"],
+        "filters": filters,
+        "settings": {
+            "max_pages": max_pages,
+            "limit": limit,
+            "stale_minutes": stale_minutes,
+            "statuses": list(statuses or SOURCE_PREP_BATCHABLE_STATUSES),
+        },
+        "summary": {
+            "task_count": len(batches),
+            "status_counts": count_task_statuses(batches),
+            "media_type_counts": count_source_prep_batch_media_types(batches),
+        },
+        "released_stale_tasks": released_count,
+        "skipped_media_tasks": media_skipped_count,
+    }
+    output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return output_path
 
 
 SOURCE_PREP_FASTLANE_CACHE_VERSION = 1

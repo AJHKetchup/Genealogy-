@@ -1,0 +1,32 @@
+{
+  "created": "2026-05-17T01:09:01Z",
+  "queue": "source-prep-batches",
+  "path": "research/_agent-queues/source-prep-batches.json",
+  "global_queue": true,
+  "filters": {
+    "source": "",
+    "source_sha256": ""
+  },
+  "settings": {
+    "max_pages": 1,
+    "limit": 10000,
+    "stale_minutes": 360,
+    "statuses": [
+      "needs_reread",
+      "todo"
+    ]
+  },
+  "summary": {
+    "task_count": 455,
+    "status_counts": {
+      "needs_reread": 27,
+      "todo": 428
+    },
+    "media_type_counts": {
+      "image": 4,
+      "pdf": 451
+    }
+  },
+  "released_stale_tasks": 0,
+  "skipped_media_tasks": 1
+}
