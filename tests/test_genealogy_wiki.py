@@ -1072,7 +1072,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
-    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '2000'" in workflow
+    assert "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'schedule' && '500'" in workflow
     assert "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'schedule' && '32'" in workflow
     assert "--no-ocr" in workflow
     assert "--document-timeout 30" in workflow
