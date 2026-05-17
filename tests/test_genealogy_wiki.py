@@ -649,6 +649,25 @@ def test_prepare_raw_sources_queues_agent_conversion_jobs(tmp_path) -> None:
     assert next_codex_conversion_work_order(tmp_path, jobs[0]) is not None
 
 
+def test_prepare_raw_sources_can_target_one_source(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    from PIL import Image
+
+    target = tmp_path / "raw" / "sources" / "target-page.jpg"
+    other = tmp_path / "raw" / "sources" / "other-page.jpg"
+    Image.new("RGB", (20, 10), "white").save(target)
+    Image.new("RGB", (20, 10), "white").save(other)
+
+    results = prepare_raw_sources(tmp_path, source_filter="target-page.jpg")
+
+    assert len(results) == 1
+    assert results[0].source == "raw/sources/target-page.jpg"
+    jobs = sorted((tmp_path / "raw" / "codex-conversion-jobs").glob("*/manifest.json"))
+    assert len(jobs) == 1
+    manifest = json.loads(jobs[0].read_text(encoding="utf-8"))
+    assert manifest["source_file"] == "raw/sources/target-page.jpg"
+
+
 def test_prepare_raw_sources_splits_large_pdfs_into_agent_page_ranges(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -882,6 +901,55 @@ def test_source_prep_batches_emit_one_page_per_worker(tmp_path) -> None:
     assert "agent-task claim" in prompt_text
 
 
+def test_source_prep_batches_can_target_one_source(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    for filename in ("target.pdf", "other.pdf"):
+        source = tmp_path / "raw" / "sources" / filename
+        doc = fitz.open()
+        for page_number in range(1, 3):
+            page = doc.new_page(width=72, height=72)
+            page.insert_text((8, 36), f"{filename} page {page_number}")
+        doc.save(source)
+
+    prepare_raw_sources(tmp_path, pages_per_job=2)
+
+    batch_path = write_source_prep_batches(tmp_path, limit=10, source_filter="target.pdf")
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+
+    assert len(batch_queue["tasks"]) == 2
+    assert {batch["source"] for batch in batch_queue["tasks"]} == {"raw/sources/target.pdf"}
+
+
+def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    for filename in ("target.pdf", "other.pdf"):
+        source = tmp_path / "raw" / "sources" / filename
+        doc = fitz.open()
+        page = doc.new_page(width=72, height=72)
+        page.insert_text((8, 36), f"{filename} page 1")
+        doc.save(source)
+
+    prepare_raw_sources(tmp_path)
+
+    summary = genealogy_wiki.source_prep_gemini_run(
+        tmp_path,
+        limit=5,
+        dry_run=True,
+        source_filter="target.pdf",
+    )
+
+    assert summary["processed"] == 0
+    assert summary["discovery_skipped"] == 1
+    tasks = summary["tasks"]
+    assert isinstance(tasks, list)
+    assert all("target" in str(task["task_id"]) for task in tasks)
+    assert all("other" not in str(task["task_id"]) for task in tasks)
+    batch_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-batches.json").read_text(encoding="utf-8"))
+    assert {batch["source"] for batch in batch_queue["tasks"]} == {"raw/sources/target.pdf"}
+
+
 def test_source_relevance_expensive_document_mark_expands_to_page_hints(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -1088,6 +1156,37 @@ def test_docling_discovery_writes_rough_output_and_removes_page_from_batches(tmp
     batch_path = write_source_prep_batches(tmp_path, limit=10)
     batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
     assert batch_queue["tasks"] == []
+
+
+def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    for filename in ("target.pdf", "other.pdf"):
+        source = tmp_path / "raw" / "sources" / filename
+        doc = fitz.open()
+        page = doc.new_page(width=360, height=500)
+        page.insert_textbox((36, 36, 324, 460), f"{filename} readable text. " * 20, fontsize=11)
+        doc.save(source)
+
+    prepare_raw_sources(tmp_path)
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path: "# Printed Page\n\nReadable source text with enough words to pass the basic gate. " * 5,
+    )
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        source_filter="target.pdf",
+    )
+
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 1
+    tasks = summary["tasks"]
+    assert isinstance(tasks, list)
+    assert {task["source"] for task in tasks} == {"raw/sources/target.pdf"}
 
 
 def test_docling_profile_keeps_clean_digital_native_text_usable() -> None:

@@ -999,6 +999,8 @@ def restore_raw_from_cloud(
     manifest_path: Path | None = None,
     force: bool = False,
     limit: int | None = None,
+    source: str = "",
+    source_sha256: str = "",
 ) -> dict[str, Any]:
     root = root.resolve()
     client = R2Client(config)
@@ -1013,7 +1015,11 @@ def restore_raw_from_cloud(
         else:
             manifest = json.loads(local_manifest_path.read_text(encoding="utf-8"))
 
-    files = list(manifest.get("files", []))
+    files = [
+        item
+        for item in list(manifest.get("files", []))
+        if raw_cloud_manifest_item_matches_source_filter(item, source=source, source_sha256=source_sha256)
+    ]
     if limit is not None and limit > 0:
         files = files[:limit]
 
@@ -1054,6 +1060,10 @@ def restore_raw_from_cloud(
     report = {
         "action": "restore",
         "created": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "filters": {
+            "source": source.strip(),
+            "source_sha256": source_sha256.strip(),
+        },
         "total_files": len(files),
         "restored": restored,
         "skipped": skipped,
@@ -1061,3 +1071,42 @@ def restore_raw_from_cloud(
     }
     write_json(raw_cloud_state_path(root, config, "last-restore-report.json"), report)
     return report
+
+
+def normalize_raw_cloud_source_filter(value: str) -> str:
+    return value.strip().strip("`").replace("\\", "/").removeprefix("./").lower()
+
+
+def raw_cloud_source_filter_matches_value(candidate: object, source: str) -> bool:
+    normalized_source = normalize_raw_cloud_source_filter(source)
+    if not normalized_source:
+        return True
+    normalized_candidate = normalize_raw_cloud_source_filter(str(candidate or ""))
+    if not normalized_candidate:
+        return False
+    if normalized_candidate == normalized_source:
+        return True
+    if normalized_candidate.endswith("/" + normalized_source):
+        return True
+    if normalized_source.endswith("/" + normalized_candidate):
+        return True
+    candidate_name = normalized_candidate.rsplit("/", 1)[-1]
+    source_name = normalized_source.rsplit("/", 1)[-1]
+    return bool(candidate_name and source_name and candidate_name == source_name)
+
+
+def raw_cloud_manifest_item_matches_source_filter(
+    item: dict[str, Any],
+    *,
+    source: str = "",
+    source_sha256: str = "",
+) -> bool:
+    expected_sha = source_sha256.strip().lower()
+    if expected_sha and str(item.get("sha256", "")).strip().lower() != expected_sha:
+        return False
+    if not source.strip():
+        return True
+    return any(
+        raw_cloud_source_filter_matches_value(item.get(key, ""), source)
+        for key in ("path", "key")
+    )

@@ -10,6 +10,8 @@ from historic_doc_ingest.raw_cloud import (
     build_raw_cloud_manifest_from_remote,
     cleanup_disposable_derived_assets_from_cloud,
     load_raw_cloud_config,
+    raw_cloud_manifest_item_matches_source_filter,
+    restore_raw_from_cloud,
     restore_derived_asset_from_cloud,
     upload_derived_assets_to_cloud,
 )
@@ -190,6 +192,74 @@ def test_remote_raw_cloud_manifest_lists_r2_raw_sources(monkeypatch, tmp_path) -
     assert manifest["source"] == "remote-r2-list"
     assert manifest["files"][0]["key"] == "archive/raw/sources/A image.jpg"
     assert manifest["files"][0]["sha256"] == "sha-for-A image.jpg"
+
+
+def test_raw_cloud_restore_filters_manifest_to_requested_source(monkeypatch, tmp_path) -> None:
+    restored = []
+    keep_bytes = b"keep source"
+    skip_bytes = b"skip source"
+    manifest_path = tmp_path / "raw" / "r2-raw-sources.json"
+    manifest_path.parent.mkdir(parents=True)
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "files": [
+                    {
+                        "path": "raw/sources/keep.pdf",
+                        "key": "archive/raw/sources/keep.pdf",
+                        "bytes": len(keep_bytes),
+                        "sha256": hashlib.sha256(keep_bytes).hexdigest(),
+                    },
+                    {
+                        "path": "raw/sources/skip.pdf",
+                        "key": "archive/raw/sources/skip.pdf",
+                        "bytes": len(skip_bytes),
+                        "sha256": hashlib.sha256(skip_bytes).hexdigest(),
+                    },
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    class FakeClient:
+        def __init__(self, config):
+            self.config = config
+
+        def get_file(self, key, output):
+            restored.append((key, output.relative_to(tmp_path).as_posix()))
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_bytes(keep_bytes)
+
+    monkeypatch.setattr("historic_doc_ingest.raw_cloud.R2Client", FakeClient)
+    config = RawCloudConfig(
+        endpoint_url=DEFAULT_ENDPOINT_URL,
+        bucket="genealogy",
+        access_key_id="test",
+        secret_access_key="test",
+        prefix="archive/",
+    )
+
+    report = restore_raw_from_cloud(tmp_path, config, manifest_path=manifest_path, source="keep.pdf")
+
+    assert report["total_files"] == 1
+    assert report["restored"] == 1
+    assert restored == [("archive/raw/sources/keep.pdf", "raw/sources/keep.pdf")]
+    assert (tmp_path / "raw" / "sources" / "keep.pdf").exists()
+    assert not (tmp_path / "raw" / "sources" / "skip.pdf").exists()
+
+
+def test_raw_cloud_manifest_item_matches_source_sha_and_path() -> None:
+    item = {
+        "path": "raw/sources/nested/record.pdf",
+        "key": "archive/raw/sources/nested/record.pdf",
+        "sha256": "ABC123",
+    }
+
+    assert raw_cloud_manifest_item_matches_source_filter(item, source="record.pdf", source_sha256="abc123")
+    assert raw_cloud_manifest_item_matches_source_filter(item, source="raw/sources/nested/record.pdf")
+    assert not raw_cloud_manifest_item_matches_source_filter(item, source="other.pdf")
+    assert not raw_cloud_manifest_item_matches_source_filter(item, source_sha256="def456")
 
 
 def test_derived_asset_upload_prunes_disposable_existing_manifest_entries(monkeypatch, tmp_path) -> None:

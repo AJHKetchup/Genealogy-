@@ -1740,6 +1740,45 @@ def normalize_source_reference(value: str) -> str:
     return value.removesuffix(".md") + (".md" if value.endswith(".md") else "")
 
 
+def normalize_source_filter(value: str) -> str:
+    return value.strip().strip("`").replace("\\", "/").removeprefix("./").lower()
+
+
+def source_filter_matches_value(candidate: object, source: str) -> bool:
+    normalized_source = normalize_source_filter(source)
+    if not normalized_source:
+        return True
+    normalized_candidate = normalize_source_filter(str(candidate or ""))
+    if not normalized_candidate:
+        return False
+    if normalized_candidate == normalized_source:
+        return True
+    if normalized_candidate.endswith("/" + normalized_source):
+        return True
+    if normalized_source.endswith("/" + normalized_candidate):
+        return True
+    candidate_name = normalized_candidate.rsplit("/", 1)[-1]
+    source_name = normalized_source.rsplit("/", 1)[-1]
+    return bool(candidate_name and source_name and candidate_name == source_name)
+
+
+def source_prep_record_matches_source_filter(
+    record: dict[str, object],
+    *,
+    source: str = "",
+    source_sha256: str = "",
+) -> bool:
+    expected_sha = source_sha256.strip().lower()
+    if expected_sha and str(record.get("source_sha256", "")).strip().lower() != expected_sha:
+        return False
+    if not source.strip():
+        return True
+    return any(
+        source_filter_matches_value(record.get(key, ""), source)
+        for key in ("source", "source_file", "raw_file", "converted_file")
+    )
+
+
 def find_existing_source_page(paths: WikiPaths, source_ref: str) -> Path | None:
     if not source_ref:
         return None
@@ -2750,6 +2789,8 @@ def prepare_raw_sources(
     pages_per_job: int = 50,
     new_pages_limit: int = 0,
     max_chars: int = 12000,
+    source_filter: str = "",
+    source_sha256: str = "",
 ) -> list[PreparedSourceResult]:
     """Create or advance Codex-agent conversion jobs for every raw source.
 
@@ -2765,6 +2806,25 @@ def prepare_raw_sources(
     for source in sorted(raw_sources.rglob("*")):
         if not source.is_file() or source.name == ".gitkeep":
             continue
+        source_record = {
+            "source": relative_to_root(source, paths.root),
+            "source_file": relative_to_root(source, paths.root),
+            "source_sha256": "",
+        }
+        if not source_prep_record_matches_source_filter(
+            source_record,
+            source=source_filter,
+            source_sha256="",
+        ):
+            continue
+        if source_sha256:
+            source_record["source_sha256"] = file_sha256(source)
+            if not source_prep_record_matches_source_filter(
+                source_record,
+                source="",
+                source_sha256=source_sha256,
+            ):
+                continue
         results.append(
             prepare_raw_source_for_agent_conversion(
                 paths.root,
@@ -6042,6 +6102,8 @@ def source_prep_docling_discovery_run(
     stale_minutes: int = 360,
     agent: str = "source-prep-docling-discovery",
     dry_run: bool = False,
+    source_filter: str = "",
+    source_sha256: str = "",
 ) -> dict[str, object]:
     if limit < 0:
         raise ValueError("limit must be zero or greater")
@@ -6061,6 +6123,12 @@ def source_prep_docling_discovery_run(
 
     tasks: list[dict[str, object]] = []
     for task in materialize_source_prep_tasks(paths.root, task_state):
+        if not source_prep_record_matches_source_filter(
+            task,
+            source=source_filter,
+            source_sha256=source_sha256,
+        ):
+            continue
         if source_prep_record_has_relevance_request(task):
             continue
         status = str(task.get("status", "")).strip()
@@ -6086,6 +6154,10 @@ def source_prep_docling_discovery_run(
         "limit": limit,
         "scan_limit": scan_limit,
         "parallelism": parallelism,
+        "filters": {
+            "source": source_filter.strip(),
+            "source_sha256": source_sha256.strip(),
+        },
         "inspected": 0,
         "accepted": 0,
         "unusable": 0,
@@ -6235,6 +6307,8 @@ def write_source_prep_batches(
     limit: int = 50,
     stale_minutes: int = 360,
     statuses: list[str] | None = None,
+    source_filter: str = "",
+    source_sha256: str = "",
 ) -> Path:
     paths = WikiPaths(root.resolve())
     queue_dir = output_dir or (paths.research / "_agent-queues")
@@ -6245,6 +6319,16 @@ def write_source_prep_batches(
     released_count = release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
     task_state = load_agent_task_state(paths.root)
     source_tasks = materialize_source_prep_tasks(paths.root, task_state)
+    if source_filter.strip() or source_sha256.strip():
+        source_tasks = [
+            task
+            for task in source_tasks
+            if source_prep_record_matches_source_filter(
+                task,
+                source=source_filter,
+                source_sha256=source_sha256,
+            )
+        ]
     effective_max_pages = min(max_pages, SOURCE_PREP_MAX_PAGES_PER_WORKER)
     batches = build_source_prep_batch_agent_tasks(
         source_tasks,
@@ -7585,6 +7669,8 @@ def source_prep_gemini_run(
     agent: str = "gemini-source-prep",
     dry_run: bool = False,
     refresh_queue: bool = True,
+    source_filter: str = "",
+    source_sha256: str = "",
 ) -> dict[str, object]:
     if limit < 1:
         raise ValueError("limit must be at least 1")
@@ -7602,6 +7688,8 @@ def source_prep_gemini_run(
             max_pages=1,
             limit=queue_limit,
             stale_minutes=stale_minutes,
+            source_filter=source_filter,
+            source_sha256=source_sha256,
         )
 
     queue_path = paths.research / "_agent-queues" / "source-prep-batches.json"
@@ -7609,6 +7697,17 @@ def source_prep_gemini_run(
     queue_tasks = queue_payload.get("tasks", [])
     if not isinstance(queue_tasks, list):
         queue_tasks = []
+    if source_filter.strip() or source_sha256.strip():
+        queue_tasks = [
+            task
+            for task in queue_tasks
+            if isinstance(task, dict)
+            and source_prep_record_matches_source_filter(
+                task,
+                source=source_filter,
+                source_sha256=source_sha256,
+            )
+        ]
 
     task_state = load_agent_task_state(paths.root)
     discovery_entries = load_source_prep_discovery_state(paths.root).get("entries", {})
@@ -7622,6 +7721,10 @@ def source_prep_gemini_run(
         "parallelism": min(parallelism, limit),
         "queue": relative_to_root(queue_path, paths.root),
         "models": {"lite": lite_model, "pro": pro_model},
+        "filters": {
+            "source": source_filter.strip(),
+            "source_sha256": source_sha256.strip(),
+        },
         "processed": 0,
         "completed": 0,
         "released": 0,
@@ -8688,6 +8791,8 @@ def cloud_source_prep_heartbeat(
     fastlane_limit: int = 0,
     fastlane_scan_limit: int = 250,
     dry_run: bool = False,
+    source_filter: str = "",
+    source_sha256: str = "",
 ) -> dict[str, object]:
     paths = WikiPaths(root.resolve())
     summary: dict[str, object] = {
@@ -8710,6 +8815,8 @@ def cloud_source_prep_heartbeat(
             "stale_minutes": stale_minutes,
             "fastlane_limit": fastlane_limit,
             "dry_run": dry_run,
+            "source_filter": source_filter.strip(),
+            "source_sha256": source_sha256.strip(),
         },
         "steps": [],
         "blockers": [],
@@ -8729,8 +8836,16 @@ def cloud_source_prep_heartbeat(
             if dry_run:
                 record_step("raw-cloud restore", "skipped-dry-run")
             else:
-                report = restore_raw_from_cloud(paths.root, config, limit=restore_limit)
+                report = restore_raw_from_cloud(
+                    paths.root,
+                    config,
+                    limit=restore_limit,
+                    source=source_filter,
+                    source_sha256=source_sha256,
+                )
                 record_step("raw-cloud restore", "ran", report)
+                if (source_filter.strip() or source_sha256.strip()) and int(report.get("total_files", 0) or 0) == 0:
+                    summary["blockers"].append("raw-cloud restore: source filter matched no R2 raw objects")
         except Exception as exc:
             summary["blockers"].append(f"raw-cloud restore: {exc}")
             record_step("raw-cloud restore", "failed", str(exc))
@@ -8742,8 +8857,12 @@ def cloud_source_prep_heartbeat(
             pages_per_job=pages_per_job,
             new_pages_limit=new_pages_limit,
             max_chars=max_chars,
+            source_filter=source_filter,
+            source_sha256=source_sha256,
         )
         record_step("prepare-sources", "ran", {"prepared_sources": len(prepared)})
+        if (source_filter.strip() or source_sha256.strip()) and not prepared:
+            summary["blockers"].append("prepare-sources: source filter matched no restored raw sources")
     except Exception as exc:
         summary["blockers"].append(f"prepare-sources: {exc}")
         record_step("prepare-sources", "failed", str(exc))
@@ -8776,6 +8895,8 @@ def cloud_source_prep_heartbeat(
             max_pages=batch_pages,
             limit=queue_limit,
             stale_minutes=stale_minutes,
+            source_filter=source_filter,
+            source_sha256=source_sha256,
         )
         record_step("source-prep-batches", "ran", {"written": relative_to_root(batch_path, paths.root)})
     except Exception as exc:
@@ -10093,6 +10214,8 @@ def build_parser() -> argparse.ArgumentParser:
     raw_cloud_parser.add_argument("--limit", type=int, help="Limit files for a test run.")
     raw_cloud_parser.add_argument("--out", type=Path, help="Inventory output path for the inventory action.")
     raw_cloud_parser.add_argument("--manifest", type=Path, help="Local manifest path to use for restore.")
+    raw_cloud_parser.add_argument("--source", default="", help="Raw source path or basename to restore.")
+    raw_cloud_parser.add_argument("--source-sha256", default="", help="Raw source SHA-256 to restore.")
     raw_cloud_parser.add_argument("--dry-run", action="store_true", help="For upload, write a plan without network writes.")
     raw_cloud_parser.add_argument("--force", action="store_true", help="Re-upload or overwrite restored files.")
 
@@ -10121,6 +10244,8 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum not-yet-jobed PDF pages to create jobs for per source. Use 0 for no cap. Default: 0.",
     )
     prepare_sources_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
+    prepare_sources_parser.add_argument("--source", default="", help="Only prepare this raw source path or basename.")
+    prepare_sources_parser.add_argument("--source-sha256", default="", help="Only prepare this raw source SHA-256.")
     prepare_sources_parser.add_argument("--force", action="store_true", help="Recreate existing conversion jobs.")
 
     agent_queues_parser = subparsers.add_parser(
@@ -10174,6 +10299,8 @@ def build_parser() -> argparse.ArgumentParser:
         choices=list(SOURCE_PREP_BATCHABLE_STATUSES),
         help="Task status to include in batches. May be repeated. Default: needs_reread and todo.",
     )
+    source_prep_batches_parser.add_argument("--source", default="", help="Only queue this raw source path or basename.")
+    source_prep_batches_parser.add_argument("--source-sha256", default="", help="Only queue this raw source SHA-256.")
 
     cloud_source_prep_parser = subparsers.add_parser(
         "cloud-source-prep-heartbeat",
@@ -10190,6 +10317,8 @@ def build_parser() -> argparse.ArgumentParser:
     cloud_source_prep_parser.add_argument("--max-chars", type=int, default=12000, help="Chunk size for completed conversions.")
     cloud_source_prep_parser.add_argument("--fastlane-limit", type=int, default=0, help="Optional deterministic born-digital PDF page limit.")
     cloud_source_prep_parser.add_argument("--fastlane-scan-limit", type=int, default=250, help="Optional deterministic fastlane scan limit.")
+    cloud_source_prep_parser.add_argument("--source", default="", help="Only restore, prepare, and queue this raw source path or basename.")
+    cloud_source_prep_parser.add_argument("--source-sha256", default="", help="Only restore, prepare, and queue this raw source SHA-256.")
     cloud_source_prep_parser.add_argument("--conversion-qc", action="store_true", help="Run legacy conversion-QC artifacts and queues. Default is off.")
     cloud_source_prep_parser.add_argument("--conversion-only", action="store_true", help="Only prepare/assemble source conversions; skip research/QC/status queues.")
     cloud_source_prep_parser.add_argument("--no-restore", action="store_true", help="Do not restore raw originals from R2 first.")
@@ -10279,6 +10408,8 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Inspect and report pages without writing rough discovery output or discovery state.",
     )
+    source_prep_docling_parser.add_argument("--source", default="", help="Only inspect this raw source path or basename.")
+    source_prep_docling_parser.add_argument("--source-sha256", default="", help="Only inspect this raw source SHA-256.")
 
     source_prep_review_page_parser = subparsers.add_parser(
         "source-prep-review-page",
@@ -10359,6 +10490,8 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Use the existing source-prep-batches queue instead of refreshing it first.",
     )
+    gemini_source_prep_parser.add_argument("--source", default="", help="Only process this raw source path or basename.")
+    gemini_source_prep_parser.add_argument("--source-sha256", default="", help="Only process this raw source SHA-256.")
     gemini_source_prep_parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -10697,6 +10830,8 @@ def main(argv: list[str] | None = None) -> int:
                 manifest_path=args.manifest,
                 force=args.force,
                 limit=args.limit,
+                source=args.source,
+                source_sha256=args.source_sha256,
             )
             print(
                 "raw-cloud restore | "
@@ -10714,6 +10849,8 @@ def main(argv: list[str] | None = None) -> int:
             pages_per_job=args.pages_per_job,
             new_pages_limit=args.new_pages_limit,
             max_chars=args.max_chars,
+            source_filter=args.source,
+            source_sha256=args.source_sha256,
         )
         print(f"Prepared {len(results)} raw source(s)")
         for result in results:
@@ -10740,6 +10877,8 @@ def main(argv: list[str] | None = None) -> int:
             limit=args.limit,
             stale_minutes=args.stale_minutes,
             statuses=args.status,
+            source_filter=args.source,
+            source_sha256=args.source_sha256,
         )
         print(f"Wrote source-prep batch queue {output_path}")
         return 0
@@ -10762,6 +10901,8 @@ def main(argv: list[str] | None = None) -> int:
             fastlane_limit=args.fastlane_limit,
             fastlane_scan_limit=args.fastlane_scan_limit,
             dry_run=args.dry_run,
+            source_filter=args.source,
+            source_sha256=args.source_sha256,
         )
         print("cloud-source-prep-heartbeat | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))
@@ -10868,6 +11009,8 @@ def main(argv: list[str] | None = None) -> int:
             agent=args.agent,
             dry_run=args.dry_run,
             refresh_queue=not args.no_refresh_queue,
+            source_filter=args.source,
+            source_sha256=args.source_sha256,
         )
         print("gemini-source-prep | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))
