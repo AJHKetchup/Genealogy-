@@ -1013,6 +1013,20 @@ def test_cloud_workflow_rebases_before_publishing() -> None:
     assert workflow.index("Rebase before publishing conversion outputs") < workflow.index("Publish conversion outputs")
 
 
+def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "Publish restore and queue checkpoint" in workflow
+    assert "Cloud source prep restore checkpoint" in workflow
+    assert "Publish Docling checkpoint" in workflow
+    assert "Cloud source prep Docling checkpoint" in workflow
+    assert workflow.index("Prepare conversion queue from R2") < workflow.index("Publish restore and queue checkpoint")
+    assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Run Docling baseline on all queued pages")
+    assert workflow.index("Run Docling baseline on all queued pages") < workflow.index("Publish Docling checkpoint")
+    assert workflow.index("Publish Docling checkpoint") < workflow.index("Convert missing pages with Gemini")
+
+
 def test_cloud_workflow_publishes_changed_preflight_state_immediately() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
