@@ -1095,6 +1095,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--hard-timeout \"$RUN_DISCOVERY_HARD_TIMEOUT\"" in workflow
     assert workflow.index("Check out repository") < workflow.index("Sync latest main before source-prep")
     assert workflow.index("Sync latest main before source-prep") < workflow.index("Prepare conversion queue from R2")
+    assert workflow.index("Preflight Gemini API billing") < workflow.index("Free runner disk for source-prep cache")
+    assert workflow.index("Free runner disk for source-prep cache") < workflow.index("Prepare conversion queue from R2")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
 
