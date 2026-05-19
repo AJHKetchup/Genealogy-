@@ -69,7 +69,7 @@ on:
       gemini_fallback_policy:
         description: "Gemini fallback policy: all or large_corpus_relevance"
         required: false
-        default: "large_corpus_relevance"
+        default: "all"
       economy_large_source_pages:
         description: "Large-corpus page-task threshold for holding unrequested Gemini fallback"
         required: false
@@ -233,6 +233,7 @@ jobs:
           --scan-limit "$RUN_DISCOVERY_SCAN_LIMIT"
           --max-pages-per-source "$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE"
           --parallelism "$RUN_DISCOVERY_PARALLELISM"
+          --checkpoint-every 25
           --document-timeout "$RUN_DISCOVERY_DOCUMENT_TIMEOUT"
           --hard-timeout "$RUN_DISCOVERY_HARD_TIMEOUT"
           --source "$RUN_SOURCE"
@@ -240,7 +241,7 @@ jobs:
           --stale-minutes 360
 
       - name: Publish Docling checkpoint
-        if: steps.preflight.outputs.ready == 'true'
+        if: always() && steps.preflight.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -1189,10 +1189,13 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
         "github.event.inputs.economy_large_source_pages || '50' }}"
     ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
+    assert "--checkpoint-every 25" in workflow
     assert "--fastlane-limit \"$RUN_FASTLANE_LIMIT\"" in workflow
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
+    assert "default: \"all\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
+    assert "if: always() && steps.preflight.outputs.ready == 'true'" in workflow
     assert "--no-preflight-success-state" in workflow
     assert "--no-ocr" not in workflow
     assert "--document-timeout \"$RUN_DISCOVERY_DOCUMENT_TIMEOUT\"" in workflow
@@ -1889,6 +1892,48 @@ def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation
     assert statuses == {"done"}
 
 
+def test_docling_discovery_checkpoints_during_long_runs(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "checkpoint-docling.pdf"
+    doc = fitz.open()
+    for page_number in range(2):
+        page = doc.new_page(width=360, height=500)
+        page.insert_textbox((36, 36, 324, 460), f"Usable Docling checkpoint text page {page_number}. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=2)
+    write_agent_queues(tmp_path)
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path, **kwargs: "Usable printed source text for Docling baseline. " * 8,
+    )
+    original_write_state = genealogy_wiki.write_source_prep_docling_state
+    write_calls: list[tuple[int, object]] = []
+
+    def spy_write_state(root, summary):
+        write_calls.append((int(summary["accepted"]), summary.get("finished")))
+        return original_write_state(root, summary)
+
+    monkeypatch.setattr(genealogy_wiki, "write_source_prep_docling_state", spy_write_state)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        checkpoint_every=1,
+    )
+
+    assert summary["accepted"] == 2
+    assert len(write_calls) >= 3
+    assert write_calls[0][0] == 1
+    assert write_calls[-1][0] == 2
+    assert write_calls[-1][1]
+    discovery = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").read_text(encoding="utf-8"))
+    assert len(discovery["entries"]) == 2
+
+
 def test_docling_no_ocr_marks_textless_pdf_unusable_without_docling_call(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -2150,6 +2195,8 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
             "30",
             "--hard-timeout",
             "35",
+            "--checkpoint-every",
+            "7",
             "--dry-run",
         ]
     )
@@ -2160,6 +2207,7 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
     assert captured["use_ocr"] is False
     assert captured["document_timeout"] == 30
     assert captured["hard_timeout"] == 35
+    assert captured["checkpoint_every"] == 7
 
 
 def test_gemini_source_prep_skips_pages_without_docling_baseline(tmp_path) -> None:

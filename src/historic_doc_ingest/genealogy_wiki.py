@@ -6477,6 +6477,7 @@ def source_prep_docling_discovery_run(
     scan_limit: int = 1000,
     max_pages_per_source: int = 0,
     parallelism: int = 1,
+    checkpoint_every: int = 25,
     stale_minutes: int = 360,
     agent: str = "source-prep-docling-discovery",
     dry_run: bool = False,
@@ -6494,6 +6495,8 @@ def source_prep_docling_discovery_run(
         raise ValueError("max_pages_per_source must be zero or greater")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
+    if checkpoint_every < 0:
+        raise ValueError("checkpoint_every must be zero or greater")
     if hard_timeout < 0:
         raise ValueError("hard_timeout must be zero or greater")
 
@@ -6556,6 +6559,7 @@ def source_prep_docling_discovery_run(
         "scan_limit": scan_limit,
         "max_pages_per_source": max_pages_per_source,
         "parallelism": parallelism,
+        "checkpoint_every": checkpoint_every,
         "use_ocr": use_ocr,
         "document_timeout": document_timeout,
         "hard_timeout": hard_timeout,
@@ -6574,14 +6578,23 @@ def source_prep_docling_discovery_run(
         "blockers": [],
     }
     changed = False
+    processed_since_checkpoint = 0
 
     def count_skip(reason: str) -> None:
         skipped = summary.setdefault("skipped", {})
         if isinstance(skipped, dict):
             skipped[reason] = int(skipped.get(reason, 0)) + 1
 
+    def write_checkpoint() -> None:
+        if changed and not dry_run:
+            discovery_path = save_source_prep_discovery_state(paths.root, discovery_state)
+            summary["discovery_state_path"] = relative_to_root(discovery_path, paths.root)
+        summary["checkpointed"] = utc_timestamp()
+        state_path = write_source_prep_docling_state(paths.root, summary)
+        summary["state_path"] = relative_to_root(state_path, paths.root)
+
     def apply_docling_result(result: dict[str, object]) -> bool:
-        nonlocal changed
+        nonlocal changed, processed_since_checkpoint
         cache_key = str(result.get("cache_key", ""))
         task = result.get("task", {})
         if not isinstance(task, dict):
@@ -6653,6 +6666,10 @@ def source_prep_docling_discovery_run(
         cast_tasks = summary.setdefault("tasks", [])
         if isinstance(cast_tasks, list):
             cast_tasks.append(task_report)
+        processed_since_checkpoint += 1
+        if checkpoint_every > 0 and processed_since_checkpoint >= checkpoint_every:
+            write_checkpoint()
+            processed_since_checkpoint = 0
         return True
 
     with tempfile.TemporaryDirectory(prefix="source-prep-docling-") as tmp:
@@ -6761,12 +6778,8 @@ def source_prep_docling_discovery_run(
                     if not apply_docling_result(future.result()):
                         break
 
-    if changed and not dry_run:
-        discovery_path = save_source_prep_discovery_state(paths.root, discovery_state)
-        summary["discovery_state_path"] = relative_to_root(discovery_path, paths.root)
     summary["finished"] = utc_timestamp()
-    state_path = write_source_prep_docling_state(paths.root, summary)
-    summary["state_path"] = relative_to_root(state_path, paths.root)
+    write_checkpoint()
     append_log(
         paths.research / "log.md",
         "source-prep-docling-discovery | "
@@ -11480,6 +11493,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum concurrent Docling baseline conversions. Default: 1.",
     )
     source_prep_docling_parser.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=25,
+        help="Write Docling discovery checkpoint state after this many completed pages. Use 0 to disable. Default: 25.",
+    )
+    source_prep_docling_parser.add_argument(
         "--agent",
         default="source-prep-docling-discovery",
         help="Agent label recorded in discovery state. Default: source-prep-docling-discovery.",
@@ -12136,6 +12155,7 @@ def main(argv: list[str] | None = None) -> int:
             scan_limit=args.scan_limit,
             max_pages_per_source=args.max_pages_per_source,
             parallelism=args.parallelism,
+            checkpoint_every=args.checkpoint_every,
             agent=args.agent,
             stale_minutes=args.stale_minutes,
             dry_run=args.dry_run,
