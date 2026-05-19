@@ -251,7 +251,7 @@ jobs:
 
       - name: Convert missing pages with Gemini
         id: gemini
-        if: always() && steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0'
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0'
         shell: bash
         run: |
           set +e
@@ -276,7 +276,7 @@ jobs:
           exit 0
 
       - name: Assemble converted Markdown
-        if: always() && steps.preflight.outputs.ready == 'true'
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'
         run: >
           python -m historic_doc_ingest.genealogy_wiki cloud-source-prep-heartbeat
           --root .
@@ -294,7 +294,7 @@ jobs:
           --stale-minutes 360
 
       - name: Refresh global queue after source-filtered validation
-        if: always() && steps.preflight.outputs.ready == 'true'
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'
         shell: bash
         run: |
           if [ -n "$RUN_SOURCE" ] || [ -n "$RUN_SOURCE_SHA256" ]; then
@@ -310,16 +310,16 @@ jobs:
         run: python -m historic_doc_ingest.genealogy_wiki source-prep-cloud-report --root . >> "$GITHUB_STEP_SUMMARY"
 
       - name: Rebase before publishing conversion outputs
-        if: always() && steps.preflight.outputs.ready == 'true'
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'
         run: git pull --rebase --autostash origin main
 
       - name: Publish conversion outputs
-        if: always() && steps.preflight.outputs.ready == 'true'
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source conversion"
 
       - name: Fail if Gemini source-prep failed
-        if: always() && steps.preflight.outputs.ready == 'true' && (steps.gemini_api.outputs.exit_code != '0' || steps.gemini.outputs.exit_code != '0')
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true' && (steps.gemini_api.outputs.exit_code != '0' || steps.gemini.outputs.exit_code != '0')
         run: exit 1

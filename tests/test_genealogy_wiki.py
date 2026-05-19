@@ -1121,7 +1121,7 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
     ) in workflow
     assert (
         "- name: Assemble converted Markdown\n"
-        "        if: always() && steps.preflight.outputs.ready == 'true'"
+        "        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'"
     ) in workflow
     assert workflow.index("Prepare conversion queue from R2") < workflow.index("Publish restore and queue checkpoint")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Run Docling baseline on all queued pages")
@@ -1198,8 +1198,9 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "default: \"all\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
     assert "if: always() && steps.preflight.outputs.ready == 'true'" in workflow
+    assert "if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'" in workflow
     assert (
-        "if: always() && steps.preflight.outputs.ready == 'true' && "
+        "if: always() && !cancelled() && steps.preflight.outputs.ready == 'true' && "
         "steps.gemini_api.outputs.exit_code == '0'"
     ) in workflow
     assert "--no-preflight-success-state" in workflow
