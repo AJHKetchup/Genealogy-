@@ -11,3 +11,10 @@ output/
 outputs/
 raw/codex-conversion-jobs/
 raw/converted/*.codex.md
+
+# Local/generated worker runtime. Queue JSON/Markdown remains GitHub state.
+research/_agent-queues/post-conversion-worker-logs/
+research/_agent-queues/post-conversion-worker-prompts/
+research/_agent-queues/*.lock
+research/_agent-queues/*.lock.json
+research/_automation/*.lock.json

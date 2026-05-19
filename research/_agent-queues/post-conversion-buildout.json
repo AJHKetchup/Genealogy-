@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "updated": "2026-05-17",
+  "name": "post-conversion-buildout",
+  "scope": "Automatic post-conversion genealogy buildout architecture. The post-conversion lane is API-free and follows the Karpathy LLM Wiki pattern: durable Markdown/JSON queues plus a non-API agent runtime.",
+  "hosted_cron": {
+    "automation": "post-conversion-genealogy-buildout",
+    "status": "paused_blocked",
+    "schedule": "hourly",
+    "execution_environment": "worktree",
+    "pc_dependency": "blocked_by_windows_logon_context",
+    "blocker": "Codex app worktree automation fails before repo code runs with CreateProcessWithLogonW 1326.",
+    "preferred_parallel_tasks_per_run": 3,
+    "max_parallel_tasks_per_run": 6
+  },
+  "pc_off_runner": {
+    "status": "configured_pending_secret_and_default_branch",
+    "workflow": ".github/workflows/internal-research-agents.yml",
+    "runner": "GitHub-hosted windows-latest",
+    "schedule": "hourly at minute 17",
+    "auth": "ChatGPT-managed Codex auth from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
+    "provider_api_keys": "forbidden",
+    "activation_requirements": [
+      "Workflow committed to the repository default branch.",
+      "Private repository secret CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON exists."
+    ],
+    "docs": "docs/internal_research_agents_pc_off.md",
+    "default_parallelism": 3
+  },
+  "api_policy": {
+    "provider_api_keys_forbidden_for_post_conversion": true,
+    "forbidden_keys": [
+      "OPENAI_API_KEY",
+      "ANTHROPIC_API_KEY",
+      "GOOGLE_GENERATIVE_AI_API_KEY",
+      "GEMINI_API_KEY"
+    ],
+    "allowed_runtimes": [
+      "subscription-backed agent session without repository API keys",
+      "local/open-weight model harness",
+      "human-started agent session consuming queue prompts"
+    ],
+    "pc_off_codex_requirement": "Use a Codex-hosted execution environment that does not use the local Windows worktree sandbox."
+  },
+  "privacy_policy": {
+    "updated": "2026-05-17",
+    "summary": "Living-family privacy is not a standalone hold for this internal family project; the user explicitly approved internal use.",
+    "still_required": [
+      "source support",
+      "proof review",
+      "conservative status and confidence labels",
+      "promotion explicitly enabled before canonical wiki edits"
+    ]
+  },
+  "adaptive_conversion": {
+    "scoring_model": "research/_automation/evidence-scoring-model.json",
+    "feedback_file": "research/_agent-queues/source-relevance-feedback.json",
+    "summary": "High-confidence, high-relevance pages request higher-fidelity conversion. High/critical relevance gets Pro; high/critical plus complexity or suspicious readings gets Pro with crops.",
+    "idempotency": "Do not repeat the same source/page/conversion tier once fulfilled; escalate only to a higher tier or retry released/failed work.",
+    "context_rule": "Family context is a verification hypothesis, not a correction. Example: if prior conversion says David Pulgar and project context suggests Dario Pulgar, the converter must verify visible letters and preserve uncertainty.",
+    "hard_boundary": "Ask the converter to double-check suspected readings; do not instruct it to change literal transcription to match outside evidence unless the visible source supports that reading."
+  },
+  "probability_model": {
+    "summary": "Proof is scored by probability and evidence weight, not promoted/not-promoted as a truth binary.",
+    "review_fields": [
+      "source_quality_score",
+      "conversion_confidence_score",
+      "evidence_quantity_score",
+      "agreement_score",
+      "identity_confidence_score",
+      "claim_probability",
+      "relevance_level",
+      "relevance_confidence",
+      "canonical_readiness"
+    ]
+  },
+  "startup_budget": [
+    "git status --short",
+    "research/_agent-queues/post-conversion-buildout.json",
+    "research/_conversion-review/qc-index.json",
+    "research/_conversion-review/qc-pages.json",
+    "research/_indexes/source-usability.json",
+    "research/_automation/post-conversion-architecture.json",
+    "research/_agent-queues/post-conversion-controller-state.json",
+    "research/_agent-queues/proof-review.json",
+    "research/_agent-queues/wiki-promotion.json",
+    "changed files from the current batch"
+  ],
+  "known_workspace_gap": {
+    "summary": "Several existing source packets reference raw/converted, raw/chunks, and raw/codex-conversion-jobs paths that are not present in this checkout. Current usable evidence starts from research/source-packets, research/claims, research/sources, and research/_assets/conversions.",
+    "impact": "Do proof review conservatively and mark claims that depend on missing converted/chunk artifacts as hold or needs-derivative-restoration when full source recheck is required."
+  },
+  "lanes": [
+    {
+      "id": "conversion-qa-gate",
+      "status": "in_progress",
+      "next": "API-free agent runner refreshes conversion-qc, records page relevance/confidence, and writes upgrade feedback for high-value pages."
+    },
+    {
+      "id": "adaptive-conversion-upgrades",
+      "status": "in_progress",
+      "next": "Source-relevance feedback escalates high-value pages to Pro or Pro with crops without repeating fulfilled tiers; this lane records the request but does not call a provider API."
+    },
+    {
+      "id": "staging-completeness",
+      "status": "in_progress",
+      "next": "A non-API agent runner claims bounded evidence_extractor work from research/_agent-queues/evidence-extraction.json; local heartbeat does not extract manually."
+    },
+    {
+      "id": "identity-analysis",
+      "status": "in_progress",
+      "next": "identity_researcher workers compare staged identity/conflict candidates and write scored analysis notes under research/_staging/identity-analysis/ without merging canonical people."
+    },
+    {
+      "id": "proof-review",
+      "status": "in_progress",
+      "next": "A non-API agent runner generates/uses research/_agent-queues/proof-review.json from staged drafts and claims independent claim_reviewer tasks."
+    },
+    {
+      "id": "wiki-product",
+      "status": "hold",
+      "next": "Promotion queue remains disabled unless the controller is run with -AllowPromotion and review notes explicitly recommend promotion."
+    }
+  ],
+  "current_batch": {
+    "id": "2026-05-17-architecture",
+    "claimed": [
+      "Create post-conversion autopilot architecture",
+      "Add controller that refreshes queues, leases tasks, writes worker prompts, and launches Codex workers",
+      "Replace local heartbeat execution with durable queue-and-agent architecture"
+    ],
+    "done": [
+      "Created scripts/post-conversion-agent-controller.ps1",
+      "Created research/_automation/post-conversion-architecture.json",
+      "Created docs/post_conversion_autopilot.md",
+      "Updated Post-Conversion Dashboard with controller commands",
+      "Generated proof-review and disabled wiki-promotion queues without launching workers",
+      "Paused the failing Codex app worktree automation after Windows sandbox launch errors",
+      "Set post-conversion policy to no provider model API keys",
+      "Documented hosted parallelism: prefer 3 independent tasks per run, up to 6 when disjoint and low-risk"
+    ],
+    "blockers": [
+      "raw/converted, raw/chunks, and raw/codex-conversion-jobs paths cited by some existing packets are absent in this checkout; the controller can still manage queues, but workers must hold claims when source derivatives are unavailable."
+    ]
+  }
+}

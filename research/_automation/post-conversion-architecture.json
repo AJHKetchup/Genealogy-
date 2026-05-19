@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "updated": "2026-05-17",
+  "name": "post-conversion-autopilot",
+  "purpose": "Coordinate post-conversion genealogy work using the Karpathy LLM Wiki pattern: durable Markdown/JSON state, immutable sources, schema-guided agents, and no provider API keys for the post-conversion lane.",
+  "path_note": "C:/Users/Big Al/Documents/New project is a junction to C:/Users/Big Al/Documents/Genealogy; Python may print the resolved target path while operating on the same files.",
+  "entrypoint": "API-free agent harness over durable queues",
+  "scoring_model": "research/_automation/evidence-scoring-model.json",
+  "pc_off_runner": {
+    "status": "configured_pending_secret_and_default_branch",
+    "workflow": ".github/workflows/internal-research-agents.yml",
+    "runner": "GitHub-hosted windows-latest",
+    "schedule": "hourly at minute 17",
+    "auth": "ChatGPT-managed Codex auth restored from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
+    "provider_api_keys": "forbidden",
+    "activation_requirements": [
+      "Workflow committed to the repository default branch.",
+      "Private repository secret CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON exists."
+    ],
+    "docs": "docs/internal_research_agents_pc_off.md",
+    "default_parallelism": 3,
+    "default_run_minutes": 45
+  },
+  "api_policy": {
+    "provider_api_keys_forbidden": true,
+    "forbidden_for_post_conversion": ["OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GOOGLE_GENERATIVE_AI_API_KEY", "GEMINI_API_KEY"],
+    "allowed_model_runtimes": [
+      "A subscription-backed agent session that does not require repository API keys.",
+      "A local/open-weight model harness such as Ollama or llama.cpp running where the agent executes.",
+    "A human-started Codex/Claude/OpenCode/Pi style agent session reading the same queue prompts."
+    ],
+    "pc_off_runner_requirement": "Use the GitHub-hosted Internal Research Agents workflow or another trusted non-local runner. The observed blocker was the Codex app Windows worktree runner, not Codex's ability to perform queue tasks.",
+    "deterministic_without_model": "Queue refresh, status indexes, task leasing, linting, and issue/log bookkeeping can run without a model. Evidence extraction, proof review, and identity judgment require an active non-API agent runtime."
+  },
+  "hosted_cron": {
+    "automation_id": "post-conversion-genealogy-buildout",
+    "status": "paused_blocked",
+    "execution_environment": "worktree",
+    "schedule": "hourly",
+    "cwd": ".",
+    "pc_dependency": "blocked_by_windows_logon_context",
+    "blocker": "Codex app worktree cron fails before repository code runs with CreateProcessWithLogonW 1326.",
+    "runner_contract": "Do not use this cron as the no-PC runner until it is a true non-API hosted agent runtime. Do not replace it with OpenAI API, Gemini API, Anthropic API, or any other provider API workflow.",
+    "parallelism": {
+      "strategy": "claim a bounded batch of independent queue tasks per hourly hosted run",
+      "preferred_batch_size": 3,
+      "max_batch_size": 6,
+      "rules": [
+        "Prefer independent proof-review tasks first when already staged.",
+        "Do not claim two tasks that write the same file or same staged draft review.",
+        "Do not mix wiki promotion with QA, extraction, or proof-review in the same hosted run.",
+        "Release unsafe or blocked tasks with a concise blocker instead of guessing."
+      ]
+    }
+  },
+  "local_controller": {
+    "entrypoint": "scripts/post-conversion-agent-controller.ps1",
+    "status": "optional local accelerator",
+    "recommended_command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -Once -MaxWorkers 3 -QueueLimit 12",
+    "note": "Use this only when the local PC is available; it is not the no-PC architecture."
+  },
+  "global_rules": [
+    "Do not require or call provider model APIs for post-conversion QA, evidence extraction, proof review, identity analysis, or promotion.",
+    "Do not edit raw/sources, raw/converted, raw/chunks, or conversion job page Markdown.",
+    "Do not perform external research.",
+    "Do not create source decisions in a local heartbeat thread; hosted scheduled runs must claim queue tasks and write only assigned output paths.",
+    "Living-family privacy is not a standalone hold for this internal family project; user approval was recorded on 2026-05-17. Still require source support, proof review, and conservative confidence/status labels.",
+    "Keep promotion disabled unless AllowPromotion is explicitly set and review notes recommend promote."
+  ],
+  "adaptive_conversion": {
+    "principle": "Research relevance and confidence determine conversion fidelity.",
+    "tiers": ["docling", "flash", "pro", "pro_with_crops"],
+    "rules": [
+      "High or critical relevance requests at least pro conversion.",
+      "High or critical relevance plus complexity, suspicious readings, handwriting, tables, images, signatures, seals, stamps, marginalia, or low conversion confidence requests pro_with_crops.",
+      "Never send the same source/page through the same tier twice after that tier is fulfilled.",
+      "A higher tier may supersede a lower tier when relevance or complexity increases.",
+      "Upgrade prompts include family-context hypotheses for verification, not silent correction.",
+      "Hard boundary: ask the converter to double-check a suspected reading; never tell it to change the literal transcription to match outside evidence unless the visible source supports that reading."
+    ],
+    "feedback_file": "research/_agent-queues/source-relevance-feedback.json",
+    "example_context": "If prior conversion reads David Pulgar but project context suggests Dario Pulgar is consistent with the record, ask the converter to verify the visible letters and preserve uncertainty rather than assuming either name."
+  },
+  "lanes": [
+    {
+      "id": "conversion-qa",
+      "queue": "research/_agent-queues/conversion-qa.json",
+      "role": "conversion_qa_reviewer",
+      "skill": "conversion-qa-triage",
+      "writes": [
+        "research/_conversion-review/triage/",
+        "research/_conversion-review/page-queues/",
+        "research/_conversion-review/corrections/",
+        "research/_conversion-review/qc-pages.json"
+      ],
+      "blocked_statuses": ["claimed", "in_progress", "done", "failed", "blocked_needs_reread"]
+    },
+    {
+      "id": "evidence-extraction",
+      "queue": "research/_agent-queues/evidence-extraction.json",
+      "role": "evidence_extractor",
+      "skill": "genealogy-claim-extraction",
+      "writes": [
+        "research/_staging/source-packets/",
+        "research/_staging/claims/",
+        "research/_staging/relationships/",
+        "research/_staging/identity/",
+        "research/_staging/conflicts/",
+        "research/_staging/tasks/"
+      ],
+      "blocked_statuses": ["claimed", "in_progress", "done", "failed", "blocked_needs_reread"]
+    },
+    {
+      "id": "identity-analysis",
+      "queue": "research/_agent-queues/identity-analysis.json",
+      "role": "identity_researcher",
+      "skill": "genealogy-proof-review",
+      "writes": [
+        "research/_staging/identity-analysis/"
+      ],
+      "source": "generated from staged identity and conflict drafts",
+      "blocked_statuses": ["claimed", "in_progress", "done", "failed"]
+    },
+    {
+      "id": "proof-review",
+      "queue": "research/_agent-queues/proof-review.json",
+      "role": "claim_reviewer",
+      "skill": "genealogy-proof-review",
+      "writes": ["research/_staging/reviews/"],
+      "source": "generated by scripts/post-conversion-agent-controller.ps1 from staged drafts",
+      "blocked_statuses": ["claimed", "in_progress", "done", "failed"]
+    },
+    {
+      "id": "wiki-promotion",
+      "queue": "research/_agent-queues/wiki-promotion.json",
+      "role": "wiki_promoter",
+      "default_status": "disabled_requires_allow_promotion",
+      "enabled_by": "scripts/post-conversion-agent-controller.ps1 -AllowPromotion",
+      "writes": [
+        "research/source-packets/",
+        "research/claims/",
+        "research/relationships/",
+        "wiki/",
+        "research/_staging/promotions/",
+        "research/log.md"
+      ]
+    }
+  ],
+  "runtime_state": {
+    "task_state": "research/_agent-queues/task-state.json",
+    "controller_state": "research/_agent-queues/post-conversion-controller-state.json",
+    "worker_prompts": "research/_agent-queues/post-conversion-worker-prompts/",
+    "worker_logs": "research/_agent-queues/post-conversion-worker-logs/",
+    "lock": "research/_agent-queues/post-conversion-controller.lock.json"
+  },
+  "operator_commands": {
+    "dry_run": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -Once -DryRun -NoRefresh -NoWorkers",
+    "once": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -Once -MaxWorkers 3 -QueueLimit 12",
+    "continuous": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -RunMinutes 60 -MaxWorkers 3 -QueueLimit 12",
+    "promotion_once": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -Once -AllowPromotion -MaxWorkers 1 -QueueLimit 3",
+    "api_free_refresh": "PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki conversion-qc --root . && PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki agent-queues --root . --stale-minutes 360 && PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-status --root ."
+  }
+}
