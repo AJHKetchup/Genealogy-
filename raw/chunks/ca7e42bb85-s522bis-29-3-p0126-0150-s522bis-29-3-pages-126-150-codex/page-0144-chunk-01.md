@@ -1,0 +1,151 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-975a4584d5b0-P0144-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
+converted_sha256: 975a4584d5b0dd5cd00b69f7a9780634561e33536b390e0c77395d4b9225a1f1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
+page_start: 144
+page_end: 144
+part: 1
+---
+
+# Page 144
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
+- Source page: 144
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-images/page-0144.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ser pariente del doctor Figueroa Aleorta?
+
+Sr. Justo. - Me liabia parecido entenderlo asi de su propia exposicion. Tanto ha liablado el senor diputado de su pariente Figueroa Alcorta, diciendo que no querîa ser ni abogado bajo la presidencia de Figueroa Aleorta, que yo dije: lo ûnico que querîa ser es diputado. (Risas).
+
+Sr. .Pena. - Al t-ravés do ese razonaiuieuto la câmara podrâ ver cuâl es la relojeria cere¬ bral del senor diputado. (R.isas).
+
+Sr. Justo. - Pero résulté diputado de todos modos.
+
+Sr. Pena. - Cuando yo vine a esta câm ara vine proelaroado por nna nsamblea de mi provineia.
+
+Sr. Justo. - j&gt;,Por un decreto del panai?
+
+Sr. Pena. - Yo no vengé de esos tiempos, Ninguno de mi familia fué del. Panai.
+
+Sr. Justo. - i, Ni siquiera Figueroa Al-
+
+corta ?
+
+Sr. Pena. - No es de mi familia. No es pa¬ riente mio. Hay vinculaeiones de familia, pe¬ ro eso no implica que sea pariente. Naturalmente, no voy a entrai' en esas minueias, pero
+
+hago la afirmaciôn.
+
+Hay aqui muchos testimonies verdaderamente representativos de opinion publiea de mi provincia, a qnienes les eonsta que se me dé¬ signé a raiz de liaber presentado yo mi renuneia, mi renuneia de la junta del partido dos dias antes de reunirse, por incidentes que tuvimos, que tuve pûblicamente con el interventor en la provincia, censurandome. Apelo al testimonio del doctor Rodriguez y podrîa también apelar al testimonio del doctor Bas, si ostuviera presente, y al del doctor Maidana. No veo otro de los que formaron parte de la nsamblea ; pero los que he mencionado pueden decirle al senor diputado por la Capital, doc¬ tor Justo, si yo vine eomo diputado en aquella ocasién por ser pariente del présidente Figue¬ roa Aleorta, o por otros conceptos o por otros motivos.
+
+Me interesaba dar este desmentido a la afirmaciôn audaz del senor diputado por la Ca¬ pital, doctor Justo.
+
+Nada mas.
+
+Sr. Présidente (Sanchez de Bustamante).Si ningun senor diputado hace uso de la pa¬ labra, se va a votar los agregados. propuestos.
+
+## Sr. Pinedo. - Pido la palabra,
+
+Algunos senores diputados me ban indicado la eonveniencia de considérailos agregados propuestos después de aprobarsé el articulo 2o. Como eso va a facilitaila votacion, propondria al senor présidente que se postergara la votacion ciue ha de recaer sobre los agrega¬
+
+dos propuestos por nuestra parte basta después
+
+que se trate diclio -articulo.
+
+Sr. Présidente (Sanchez do Bustamante).Se
+
+votarâ, entonces, el articulo 2o.
+
+Sr. Secretario (Zambrano). - La propos! ■ cion del senor diputado Pereyra Rozas es la
+
+siguiente :
+
+Incorporate al presupuesto de gastos, anexo F., inciso 7o., a continuaoiou de la partida 4, las siguientes: Personal de sastreria, 4, a un liquidador, 400 pesos ; un tenedor de libros, 380 ; un eajero, 320; un encargado de depôsito, 300; un corresponsal, 280 ; un encargado de pedidos. 280; un encargado de cartas jr cuentas corrientes, 270; un encargado de facturas y saldos, 280; un encargado de venta,s, 230; auxiliar de liquidaeiôn, 240; auxiliar de depôsito, 210; au¬ xiliar de libros, 220; auxiliar de pedidos, 220; auxiliar de cuentas eorrientes, 200; auxiliar de ventas, 200 ; auxiliar de tenedor de libros, 200 ; otro auxiliar de libro, 200; encargado de expediciôn, 220; mayordomo, 180; un director profesional con obligaeiôn de eortar, 500; un cortador, 400; otro cortador, 350; otro, 300; un kepisero, 240; encargado profesional de zapateria, 200; un cortador, 220; un cortador y
+
+lustrador de suelas, 180.
+
+Sr. Présidente (Sanchez de Bustamante). --
+
+jLa comision acepta?
+
+Sr, Rodriguez (C. J.). - La comision ba expresado ya su opinion por boca del miembro informante y déjà al eriterio de la honorable câmara esta indicaeiôn del senor diputado por Buenos Aires.
+
+Sr. Dickmann.
+
+- Pido la palabra.
+
+Los argumentos dados por el senor diputado por San Luis me pareeen eonvincentes para que la honorable câmara no aeepte el agregado propuesto por el senor diputado por Buenos Ai¬ res .
+
+Por otra parte, considère que la proposieiôn del senor diputado Pereyra Rozas es una reconsideraciôn del articulo lo., que ya ha sido votado. Aumentar gastos y proponer nuevos empleos es una évidente reconsideracién. En tal sentido eonsidero que el senor présidente debe someterlo a la votacion de la honorable câmara eomo una reconsideracién.
+
+Sr. Bermudez. - No bay tal reconsidera¬ cién .
+
+Es una excepciôn anâloga al articulo 2o. que se esta por votar. El articulo 2o. del despacho de la comision hace una excepciôn respecto de très articules, y entonces, la proposieiôn del se¬ nor diputado Pereyra Rozas puede también en¬ traien el mismo articulo.
+
+Sr. Ortiz. - Entiendo que no es ni siquiera una excepciôn. No se ba propuesto un gasto nuevo, porque ese personal ya existe en el nu¬ méro expresado en la planilla presentada por el senor diputado por Buenos Aires y se seguirâ. pagando en la misma forma en one se naga ac-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+- Task id: `source-prep:ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150:p0145`
+- Model route: `lite`
+- Route reasons: simple_page
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/work-orders/page-0145.md`
+- Page: 145
+- Output Markdown target: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-markdown/page-0145.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
+
+## Layout And Reading Order
+The page presents text in two columns. The header contains a date, the legislative body, and a page number. The main content consists of a transcript of a parliamentary debate, with speaker names preceding their statements. The reading order proceeds from the top of the left column downwards, then from the top of the right column downwards.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-821c232c3119-P0065-01
+chunk_id: CHUNK-1f00ba65c3d6-P0065-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
-converted_sha256: 821c232c3119275b618d3421e12cbabf36530bba99801e5eaa72c51b77583526
+converted_sha256: 1f00ba65c3d6db86b67ed509d1ff8f8ea2779687f7db1265b20ddbe6b48fec55
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## PLAN DE REALIZACION DE LOS ESTUDIOS
 
 Por el artlculo segundo del adjunto proyecto de ley, se establece que los estudios de la obra se liarân por cuatro coraisiones técnicas encai'gadas de realizarlos en las provincias de Buenos Aires, San¬ ta Fe, Santiago del Estero y Tucumân,* respectivamente.
@@ -99,10 +98,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 66
-
-## Layout And Reading Order
-
-The page features a two-column layout. The top of the page contains a header with a number, a title, and a date. The main content is split into two columns of text. The left column contains a continuation of a discussion, followed by a sub-heading "CONSIDERACIONES FINALES" and more text. The right column continues the discussion, then presents a short note, a number, a heading "LICENCIAS", a Roman numeral, and a letter followed by a resolution. The content should be read from left to right, top to bottom, within each column.

@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7f021205f9c1-P0759-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778.codex.md
+converted_sha256: 7f021205f9c1d69b84058e5a880beb8ebdf4241db37eccc799b6b2500cb40e05
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json
+page_start: 759
+page_end: 759
+part: 1
+---
+
+# Page 759
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
+- Source page: 759
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0759.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+la Capital de la Repûblica, en su carâcter de persona jurîdiea es el représentante del antiguo municipio de la Municipalidad de Buenos Ai¬ res».
+
+Se ve, pues, con esta resena esquemâtica de las disposiciones constitucionales legales, lo que dije al principio: que el municipio de la ciudad de Buenos Aires tiene una existencia anterior a la Constitution y a la ley. Al discutirse la ley de la Corporation Orgâniea Municipal el diputado Goyena dijo: «Cuando la Constitucion habla en el senti do a que me refiero de législation exclusiva en todo el territorio de la Capital de la Nation, i a que legislaciôn, a qué disposition de carâcter obligatorio se refiere? Sin duda a aquello que por su naturaleza elevada y trascendente, se dériva de facultades asignadas en todas partes a un cuerpo como el Congreso de la Nation, como las Câmaras de las provincias. No se puede con perfecta seriedad sostener que la Constitucion lia querido hacer del Congreso el Concejo Délibérante Municipal - como estamos baciendo esta nocbe, agrego yo. - «Bsto no se demuestra ·- terminaba el diputado Goye¬ na -, se apoya, se insiste, se enuncia y basta pa¬ ra que asi se comprenda».
+
+Tero aunque no Jiubiera sido establecido en la Constitucion y en la ley, séria, por simple criterio lôgico, eonveniente dejar que este asunto lo resolviera la Municipalidad de la Ca¬
+
+pital.
+
+Cooley en su tratado, refiriéndose a estos asuntos en Estados Unidos dice : «Es axiomâtico que el manejo de los asuntos puramente locales pertenecen al pueblo, interesado no solo porque se trata de sus asuntos propios, sino porque los cntenderân mejor y han de ser mas compe¬ tentes
+
+para manejarlos.
+
+«La existencia continuada permanente del gobierno local, es por consiguiente aceptada en todas las constitueiones de estado y es materia de derecho constitutional aun en los casos en los que no se prevé expresamente.»
+
+El Concejo Délibérante de la Capital Fede¬ ral, reiteradamente ha resuelto y lia reclamado la consideration de este asunto por ser de su exclusiva competencia ; pero hay un documente interesante que la comision especial ha tenido en sus manos, pero desde luego no ha hecho mention porque no interesaba a la tesis que venia sustentando.
+
+El informe de la comision especial designada por la Intendencia Municipal de la ciudad de ïîuenos Aires, para el estudio de la organiza¬ tion y eoordinaciôn de transporte colectivo, dentro de la mjsma zona de influencia, se ex- pidiô en mayoria y minoria. La minoria es en mi eoncepto la que enfoeô con mâs acierto el asunto, estuvo constituida por el ingeniero An¬ tonio Rebuelto y por el ingeniero Horatio J. Yreglia. Considerô con toda amplitud el asun¬ to y lo resolviô con completo acierto ; pero yo me voy a permitir leer las conclusiones ; di¬ ce asi:
+
+«Una primera disidencia estriba en que con¬ sidéra inneeesario involucrar en la soluciôn del problema que nos ocupa, las cuestiones relativas al trâfico que se efectua fuera de la Capi¬ tal. En efecto, el problema cuya soluciôn se ha estudiado es, a juicio de la minoria, un proble¬ ma local y esencialmente urbano. El transpor¬ te colectivo de pasajeros, es sin duda, un servicio pûblico neeesario a todas las ciudades, pero solo en las grandes agrupaciones urbanas es donde las neeesidades a que debe satisfacer, adquieren tanta intensidad, que lo convierten en un servicio pûblico de vital importancia pa¬ ra el desarrollo regular de las actividades de la poblaeiôn.
+
+«La Capital Federal con sus 2.210.000 aimas y 18.600 heetâreas de superficie, no ha escapado a esta ley general, y es en ella donde, por su numéro de habitantes y por su extension, las exigencias del transporte de millares de empleados, estudiantes y obreros, causan la aglomeraciôn de vehiculos y el entorpeeimiento del trâfico en determinadas horas; es en ella donde las neeesidades de la poblaeiôn agudizan la gravedad del problema del transporte, que es de importancia primordial para los ba¬ rrios apartados y es la ciudad misma la que en su desenvolvimiento graduai exige el mejoramiento de los sistemas en uso, imponiendo, cada dia con mayor apremio, el establecimiento de servicios de implantation costosa, como son los tranvias subterrâneos, medio ineludible pa¬ ra conseguir, mediante la reduction del tran¬ site superficial, la descongestiôn del trâfico en la zona céntrica de la ciudad.
+
+«Es cierto que los diferentes pueblos que rodean a la ciudad de Buenos Aires albergan un numéro de habitantes no despreciable, cuyas actividades durante el dia se desarrollan en la Capital, y que para su transporte, ademâs de los servicios ferroviarios, existen tran¬ vias, omnibus y microômnibus con recorridos que penetran en la provineia para servir a la poblaeiôn radicada en dichos pueblos, y es cierto también conforme acertadamente pre¬ vé el decreto de 19 de enero de 1933 que designô a esta comision, ese trâfico suburbano y todas las cuestiones vinculadas con el trans-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:14:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/manifest.json",
+  "page": 162,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-images/page-0162.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-markdown/page-0162.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The photograph depicts a long hallway with patterned flooring, framed pictures on the walls, and arched doorways leading into the distance. A table with plants is visible on the left, and large windows or glass-paned doors are on the right.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.0,
+        17.5,
+        81.0,
+        85.5
+      ],
+      "bbox_pixels": [
+        273,
+        204,
+        1409,
+        1018
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0162/page-0162-image-01-hallway-interior-photograph.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0162/page-0162-image-01-hallway-interior-photograph.png",
+      "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-images/page-0162.jpg",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/manifest.json",
+      "page": 162,
+      "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-markdown/page-0162.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

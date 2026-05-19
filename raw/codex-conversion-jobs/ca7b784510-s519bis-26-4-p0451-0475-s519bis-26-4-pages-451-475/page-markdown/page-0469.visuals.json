@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:11:59Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/manifest.json",
+  "page": 469,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-images/page-0469.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-markdown/page-0469.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "advertisement",
+      "caption_literal": "LO MAS CHIC, NOVEDOSO\ny ORIGINAL\n\nlo encontrará Vd. a precios muy moderados, en\nla TIENDA SAN MARTIN, verdadera especia-\nlista en la interpretación de la MODA FEME-\nNINA.\n\nVESTTIDOS de espumilla de\npura seda, modelos de riguro-\nsa moda, desde . . . . . . . . . $\n39.-",
+      "caption_type": "source-caption",
+      "identity_basis": "text-content",
+      "source_context": "Advertisement for 'TIENDA SAN MARTIN' selling dresses, featuring a decorative border and a drawing of a woman's head in profile.",
+      "confidence": "0.95",
+      "inline_anchor": "LO MAS CHIC, NOVEDOSO",
+      "bbox_pct": [
+        6.5,
+        58.5,
+        58.5,
+        95.5
+      ],
+      "bbox_pixels": [
+        66,
+        689,
+        633,
+        1136
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0469/page-0469-image-01-advertisement-tienda-san-martin-dresses-page-469.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0469/page-0469-image-01-advertisement-tienda-san-martin-dresses-page-469.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-images/page-0469.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/manifest.json",
+      "page": 469,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-markdown/page-0469.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

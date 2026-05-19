@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dded07b70e0b-P0723-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md
+converted_sha256: dded07b70e0bdc944aea94a7a31a6e71176c554127e899245debf6a31592a5fb
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json
+page_start: 723
+page_end: 723
+part: 1
+---
+
+# Page 723
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
+- Source page: 723
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0723.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ma la expropiaciôn por zonas, a cuyo respeeto su disertaciôn fué definitiva y coneluyente. Cito los casos relativos a la utilidad publiea fundada en la conveniencia de eonstruir obras de saneamiento, de casas para obreros, de re¬ distribution de la propiedad imçroductiva de mejoramiento estricto o liigiénico de edificios pûblieos, de la division de «los vinculados», y «manos muertas», de los servicios publicos por el Estadp, etcetera. Pero no enunciô el caso de expropiaciôn de los bienes de una empresa pri¬
+
+vada, en benefieio de otra.
+
+Pero el doctor Gonzalez en esa amplîsima reseua de casos posibîes para el ejercicio de la facultad del .Congreso, no llega a citar el caso de bienes de una empresa privada expropiados en benefieio de otra u otras empresas privadas y dudo mueho que aquel ilustre hombre publico liubiese dado su voto al despaclio de la mayoria de la comisiôn en esta
+
+parte.
+
+Pero yo no hago, sëiior présidente, de esta objeciôn de earâcter eonstitucional un reclucto insalvable en mi disidencia, tanto mas euanto que se refiere a la amplitud de una facultad legislativa y euanto que soy también, en principio, partidario de la interpretation amplia y
+
+evolutiva.
+
+Y digo, entonees, que mientras nuis discretio¬ nal sea la facultad del Congreso para expropiar por razones de utilidad publiea, mientras mâs amplia e ilimitada sea, es mayor su deber de obrar con prudeneia y con pleno conoeimiento de las cosas y de contemplai' los intereses en juego, sobre todo cuando hay medios para 11egar al fin buscado, sin pasar por sobre esos derechos
+
+privados.
+
+Este propôsito de la eoordinaeiôn del trans¬ porte colectivo de Pmenos Aires, se logra en su finalidad esenciaî, sin necesidad de someter a las empresas privadas, que no quieran ineorporarse a la nueva entidad, al procedimiento de la expropiaciôn forzosa. Nada obsta, ningun impedimento esenciaî podria senalarse para concederles la situaciôn optional que yo propongo en mi disidencia, es decir, autorizarlas a vender a la corporaciôn sus bienes, y sus elementos de trâfico, por el precio que fijaran los tribunales, de acuerçlo con el procedimiento establecido Por la ley numéro 189; u bien coneederles un plazo eomplementario o de gracia de dos anos Mas, durante los cuales podrian disponerse a una liquidaciôn privada, sin los perjuicios que les ha de comportai1 una expropiaciôn o una liquidaciôn
+
+perentoria.
+
+Esas empresas privadas tienen en buena Pacte sus bienes afectados al pago de créditos.
+
+Muchos de elles son por el precio de esos bie¬ nes o elementos de transporte y tienen garantia prendaria sobre ellos.
+
+Ademâs de los acreedores, hay una sérié de industrias vineuladas a esos medios de trans¬ porte, que resultarian también directamente afectadas por la sanciôn de esta parte del proyecto, taies como los fabricantes de carrnajes, las casas de pintura, los vendedores de nafta, etc. El mismo personal de esas empresas, que se niegan a ingresar en la corporaciôn, tendria que ser en buena parte arrojado a la calle, porque si bien es eierto que la ley les ofrece perspectivas de ingresar a la nueva entidad, es iududable que ésta ha de requérir esos servieios en una proporeiôn muy inferior a los que existen actualmente.
+
+La Comisiôn Especial proyeetada para aprobar los estatutos de la nueva entidad y para establecer las bases definitivas de su organizaciôn, tardarâ seis meses, prorrogables, en su estudio. Ademâs de los seis meses se demorarâ un aiïo, y dos mâs en la adoption de todas esas medidas preparatorias, y aun en las tramitaciones de las mismas expropiaeiones aùtorizadas por la lev. No se observa, enfonces, ningun motivo apreciable para negar a las empresas ese mismo plazo enla continuaeiôn de los ser¬ vices y en la liquidaciôn voluntaria y regular de sus bienes.
+
+En las ciudades donde se ha logrado la eoordinaeiôn de los transportes colectivos, Londres, Méjico, por ejemplo, esa coordinaciôn no se ha establecido definitivamente, sino después de algunos anos, y lo mismo va a pa¬ sar entre nosotros. Nada impide, entonees, para autorizar a estas empresas a continuar sus servicios, o vender privada y voluntaria-: mente sus lineas.
+
+La Asociaciôn de Carroeeros y Afines ha dirigido.al Senado una nota que se ha publicado.en el Diario de Sesiones, por mi indication, apoyando mi disidencia. Dice esa nota en la
+
+parte pertinente:
+
+«Las fâbrieas y talleres de carrocerias y toda la industria y comercio conexos a los transportes automotores, viven, salvo muy contadas excepciones, de la fabrication o repara¬ tion de carrocerias para autos colectivos y omnibus. Saneionada la lev y creada la corpo¬ raciôn, se centralizan todas las actividades del transporte, la demanda y el consumo. Ello nos crearâ una situaciôn de suma gravedad arro.jândonos a una liquidaciôn desastrosa e injusta y eortândonos toda iniciativa y fuente de trabajo.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

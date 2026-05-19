@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a0b722c5df59-P0001-01
+chunk_id: CHUNK-c987ad81085e-P0001-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: a0b722c5df59d4572b4ca2dec137e813da45368d2f7d7d4aebf3b308ab278ef7
+converted_sha256: c987ad81085e11341a26eaa4c7aea98888e4917bdcd24d45979f96159e21c96b
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -23,30 +23,19 @@ part: 1
 
 ## Page Metadata
 Page number: 4
-Source document title: El Aguila Nombre Grande
-Document type: Genealogy source page (typed document with handwritten annotations)
 
 ## Layout And Reading Order
 
-The page contains typed text, organized into sections with headings. There are two main sections: "ALMUERZO" and "MATRIMONIO", both under a general "NOTAS" heading. A handwritten number "666" appears in the top left margin, and a handwritten "4" appears at the bottom center.
-
-The reading order is:
-1.  Top left: "NUMERO GIGANTE"
-2.  Top right: "ENERO - FEBRERO"
-3.  Top left margin: Handwritten "666"
-4.  Center: "NOTAS"
-5.  Left: "ALMUERZO" heading, followed by a paragraph of text.
-6.  Left: "MATRIMONIO" heading, followed by a paragraph of text.
-7.  Bottom center: Handwritten "4"
+The page features a header with a title, date range, and a number, followed by a main content area divided into two sections, "ALMUERZO" and "MATRIMONIO," each containing a single paragraph of text. A handwritten page number "4" is present at the bottom center.
 
 ## Literal Transcription
 
-NUMERO GIGANTE ENERO - FEBRERO
+NUMERO GIGANTE
+ENERO - FEBRERO
 666
 NOTAS
 
 ALMUERZO
----
 EL 1.º DE FEBRERO DEL PRESENTE AÑO EN EL FUNDO LOS CUARTOS SE LLEVÓ A
 EFECTO UN ALMUERZO AL CUAL CONCURRIERON EL DISTINGUIDO FACULTATIVO
 DE CONCEPCION Y DECANO DE LA FACULTAD DE MEDICINA DE LA UNIVERSIDAD
@@ -58,41 +47,36 @@ DOCTOR HERMANSEN DURANTE LA TARDE SE DEDICÓ A LA PESCA DE SALMON EN
 EL RIO BIO-BIO PERO LA MALA SUERTE LE ENREDO LA LIENSA DE NYLON DEL
 CARRETE.
 EL DOCTOR PETERSEN DEBIÓ MARCHARSE A LOS ANGELES A CUMPLIR ALGUNOS C
-COMPROMISOS MARCHÁNDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
-SE QUEDÓ A LA ONCE MARCHÁNDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
+COMPROMISOS MARCHANDOSE ANTES DE ONCE. EN CAMBIO EL DOCTOR HERMANSEN
+SE QUEDÓ A LA ONCE MARCHANDOSE APROXIMADAMENTE A LAS 8 DE LA TARDE
 AL FUNDO DEL DOCTOR PETERSEN DONDE SE HOSPEDABA PARA MARCHARSE DOS
 DIAS DESPUES A CONCEPCION A CUMPLIR SUS OBLIGACIONES.
 
 MATRIMONIO.
----
 EL SABADO 14 DE ENERO PASADO SE LLEVO AFECTO, PRIVADAMENTE EN LA CASA DE
 LA NOVIA EL MATRIMONIO DE LA SEÑORITA LUCIA ARRIGADA CON EL SEÑOR
 LEOPOLDO PASCUAL BAILAC. NOTAMOSLEAL PRESENCIA DE DOS ANTIGUOS CABALLER
 DON JOSE MARIA Y DON CARLOS DE LA JARA. TAMBIE AL PRESIDENTE DE LA CORTE
 DE APELACIONES DON LUCAS SANHUEZA Y EL MINISTRO DE LA CORTE SEÑOR
 ESPEJO TAMBIEN AL INGENIERO DE PROVIN CIA SR PIMENTEL
+
 4
 
 ## Images, Captions, And Visual Notes
-
--   A handwritten number "666" is present in the top left margin.
--   A handwritten number "4" is present at the bottom center of the page.
+- A handwritten number "4" is present at the bottom center of the page.
 
 ## Uncertain Or Illegible
-
--   "NOTAMOSLEAL" in the "MATRIMONIO" section might be "NOTAMOS LA" or similar, but "NOTAMOSLEAL" is the most direct reading.
--   "CABALLER" in the "MATRIMONIO" section is likely an abbreviation or incomplete word, possibly "CABALLEROS".
--   "TAMBIE" in the "MATRIMONIO" section is likely an abbreviation or incomplete word, possibly "TAMBIEN".
--   "PROVIN CIA" in the "MATRIMONIO" section might be "PROVINCIA" or "PROVINCIAL".
+- "NOTAMOSLEAL" in the "MATRIMONIO" section might be "NOTAMOS LEAL" or "NOTAMOS LA". Given the context, "NOTAMOS LA" (we note the) seems plausible, but "NOTAMOSLEAL" is what is typed.
+- "CABALLER" in the "MATRIMONIO" section is likely an abbreviation or incomplete word for "CABALLEROS".
+- "TAMBIE" in the "MATRIMONIO" section is likely an abbreviation or incomplete word for "TAMBIEN".
+- "PROVIN CIA" in the "MATRIMONIO" section might be "PROVINCIA" or "PROVINCIAL".
 
 ## Completeness Audit
-
-All visible text and handwritten annotations on the page have been transcribed.
+All visible text and significant visual elements on the page have been transcribed or noted.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like photos, maps, or complex diagrams are present. Handwritten numbers are transcribed in the text."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were identified for cropping. The handwritten page number is noted in the transcription and visual notes but does not meet the criteria for a standalone wiki asset crop."}
 ```
 
 ## Page Metadata
@@ -241,5 +225,4 @@ All visible text and images on the page have been transcribed and described.
 Page number: 6
 
 ## Layout And Reading Order
-
-The page consists of a single column of typewritten text, with a header at the top and a handwritten page number and continuation note at the bottom. The text is organized into three main sections, each with a heading.
+The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.

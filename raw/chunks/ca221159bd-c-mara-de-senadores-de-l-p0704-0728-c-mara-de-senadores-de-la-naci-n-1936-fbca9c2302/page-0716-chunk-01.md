@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-dded07b70e0b-P0716-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md
+converted_sha256: dded07b70e0bdc944aea94a7a31a6e71176c554127e899245debf6a31592a5fb
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json
+page_start: 716
+page_end: 716
+part: 1
+---
+
+# Page 716
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json`
+- Source page: 716
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-images/page-0716.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+cion mas costosa, la adquisicicin de vehiculos y materiales de reparation y renovation cuyo costo mayor sera eargado a la cuenta «Capital» y servido por las tarifas el orden interno del pais, eon tin mayor endeudamiejito de la. Na¬ tion en el orden externo, porqne los capitales extranjeros que conservait su fisonomia y su raigambre extranjera, conducen inevitablemente a ese resultado.
+
+En su «Balance de Pagos para los afios 1923125», don Carlos Àlfredo Tornquist explica muy bien este mecanismo. «Los empréstitos publicos y nuevas inversion es de capitales ex¬ trait,jeros que ban contribuido a nivelar el balance de pagos presente, escribe, son factoïes de carâcter pasivo para el pais porque finalmente alimentait el endeudamieiito ciel pais al exterior».
+
+Pero bay algo peor todavia que el endeudamiento: es la désintégration de los elemcntos fundamentales que eonstituyen una nation. Monopolizar nuestros transportes a favor de In glat erra es impedir que las energias de la Kacion se orienten por si ntismas a la fortnacion de tin
+
+conjunto organieo.
+
+Muchas ocasiones liernos perdido en el transeurso de nuestra historia economica de libé¬ râmes de las influeneias y de las protecciones extranas. La pasada guerra europea filé una de esas ocasiones perdidas. El eataclismo irreparable pudo liabernos servido para manumitimos de la servidumbre del capital ex¬ tranjero, para conquistar los ferrocarriles nacionales que estait en manos de extranjeros, para reabsorber la direction cotnercial que es¬ ta en manos del capital extranjero.
+
+En una eonferencia pronunciada en el Ins¬ titute Popular y publicada en «La Prensa» ciel 21 de agosto de 1918, el doctor Enrique Uriburu expresaba esta misma esperanza que yo reeojo altora. Decia: «Me séria doloroso creer que en estos momentos en que todo se renueva al influjo de la terrible tragedia, tiosotros vamos a quedar sin hacer nada eternamepte, bajo el dominio del capital y de las industrial
+
+extranjeras».
+
+N° hicimos nada, sin embargo, y quedamos bajo el influjo del capital y de las industrias
+
+extranjeras.
+
+La aparicion del automotor nos abrio perspectivas inusitadas. No hemos sido capaces liasta ahora de readquirir la propiedad de nuestros ferrocarriles y el nuevo medio de lo¬ comotion nos abrio posibilidades de libera¬ le11No se me oculta que ese nuevo medio esta amparado por un capitalisme rival del capita¬
+
+lisme britânico, pero pudimos y aun podemos encauzarlo, aprovechando el velticulo sin permitir la intromisiôn de su voluntad que lo eons-
+
+truyô y lo vendiô.
+
+Tenemos una patria cuyos organos funda¬ mentales no nos perteiiecen. El organismo econémico es del extranjero, y extranjeros son los tnedios de comunicacion y transporte. Una nacion cuyos instrumentes insuplantables de ci rculaeion cotnercial y vital son extranjeros, no es todavia una nation : es la esperanza de una nation. Por eso yo'llatno a la reflexion para que no nos encadenemos voluntariamente, para que no nos cerremos las perspectivas, para que no cedamos ante pretensiones que no estân justificadas en
+
+ningûn campo. ,
+
+Dos preveneiones cou tnuclio aire de amenaza se ciernen sobre nosotros con carâcter de presion. Una es el perjuicio que suffira nuestro crédito, otra es el entorpecimiento a nuestros envios de materias alimenticias, de carne, sobre todo.
+
+Basta analizar râpidamente esas preveneiones para que pierdan su facultad de intimidacién. I.as lesiones al crédito es la amenaza de nue se ban valido siempre los financistas ingleses pa¬ ra obtener libre circulation de sus pretensiones. Con esa amenaza los ferrocarriles ingleses se lticieron pagar garantias superiores a las determinadas en los contratos y dejaron de ctintplir sus compromisos, especificados en esos mismos contratos.
+
+llace mucltos anos que Inglaterra nos cerro prâcticainente el crédito. Hace mucltos anos que no nos remite fondos, aunque nosotros no bentos dejado un solo ano de girarle los nuestros, sea por servicios finaneieros, sea en concepto de ganancia en las empresas suyas establecidas aqui. El ultimo empréstito que' nos concediô Inglate¬ rra. es de octubre de 1921. Su monto es de £ 496.031*. Nos presto ese dinero para que nos¬ otros se lo cediéramos al Ferrocjirril Trasandino, propiedad de una empresa inglesa. No cuento el empréstito de desbloqueo porque creo que esa opcracion cle prestarnos a nosotros mismos, pero en tnoneda extranjera, - sobre cuyos servi¬ cios debemos altora cargar las diferencias de cambio, fué, ante todo, una operacion beneficiosa para los comerciantes financistas ingleses cpte aqui operan.
+
+La otra prevencion es la de que Inglaterra se dispondrâ a entorpercer el consumo de alimentos que de nuestro pats importa. Es tan eandorosa la prevencion que no me detendré muebo tiempo en examinarla. A pesar de todos los esfuei'zos heclios
+
+por Inglaterra para dismtnuir
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

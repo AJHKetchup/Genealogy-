@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:50:35Z",
+  "created": "2026-05-19T12:13:32Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "visual_001",
       "kind": "illustration",
       "caption_literal": "Una mujer bella, afeada por defectos cutá-neos provoca un sentimiento de commise-ración.",
       "caption_type": "nearby-text",
-      "identity_basis": "source-context",
-      "source_context": "Illustration of a woman in an advertisement for 'UNGÜENTO QUIMATOSA'.",
-      "confidence": "0.95",
-      "inline_anchor": "An illustration of a woman",
+      "identity_basis": "nearby-text",
+      "source_context": "Advertisement for UNGÜENTO QUIMATOSA",
+      "confidence": "high",
+      "inline_anchor": "",
       "bbox_pct": [
-        47.9,
-        43.2,
-        67.7,
-        62.9
+        48.0,
+        43.0,
+        67.5,
+        63.3
       ],
       "bbox_pixels": [
-        664,
-        807,
-        948,
-        1185
+        665,
+        804,
+        945,
+        1193
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-unguento-quimatosa-ad.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-unguento-quimatosa-ad.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-woman-with-dish-unguento-quimatosa-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-woman-with-dish-unguento-quimatosa-ad.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0083.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
@@ -43,11 +43,11 @@
   ],
   "skipped_regions": [
     {
-      "region_id": "region_2",
-      "kind": "label",
+      "region_id": "visual_002",
+      "kind": "logo",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "POLVO DE ARROZ DORINA",
-      "source_context": "Product label for 'POLVO DE ARROZ DORINA'."
+      "caption_literal": "POLVO DE ARROZ\nDORINA",
+      "source_context": "Advertisement for DORINA rice powder"
     }
   ],
   "flags": []

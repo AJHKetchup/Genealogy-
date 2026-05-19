@@ -1,0 +1,141 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a5744f2cb4b4-P0486-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500.codex.md
+converted_sha256: a5744f2cb4b49a5c1af2c91451a686ab0d03c10f605f145fde76ff4cc869e514
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json
+page_start: 486
+page_end: 486
+part: 1
+---
+
+# Page 486
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json`
+- Source page: 486
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/page-images/page-0486.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- y oHeKHBaay a&amp;Kjbyne&amp;a peneHHx cnopa3yMa, narpa^a 3a paA 3apo6jb€HHKa oApeAnhe ce npeMa;'cjieflehHM iiopMaMa:
+- а) PaAOBH BpmenH 3a Hp*aBy njiahahe ce npeMa TapiKjmia Koje Bawe 3a Bojna jmpa AOMahe Bojcice Koja BpuiH HCTe pa,AOBe, hjih, ano TaKBiix HeMa, npeMa neKo.i Tapwpii Koja HMa Be3e ca iiBBpmeHHM paaoBHAia.
+- б) Ako ce paAOBH Bpme 3a panyH Apyrnx jaBHnx aAMHHHCTpaij,nja. hjih 3a npHBaTHa Jiirna. ycjiOBH ibhxobh peryjiHcahe ce cnopa3yMiio ca bojhom BJiainhy.
+
+CajTAo Kojn ocTaHe y nopncT 3apo6jbeHHKa npeAahe My ce Ha saiipnieTiiy ineroBor poncTBa. y cjiyvajy cmpth, iicth he ce AHiuiOMaTCKiiM nyTeM AOCTaBHTII HaCJieAHHHHMa IIOKOJHHK.OBHM.
+
+## OflEJbAK IV.
+
+## O OAHocHMa paTHHx 3apo6A&gt;eHiiKa ca cnojbHHM CBeTOM.
+
+## HjiaH 35.
+
+Phm oTnonny HenpnjaTejbCTBa, 3apaheHe CTpane ofijaBiihe Mepe npeABHijene 3a Bpiueibc oApeAada OBora OAejbKa.
+
+## HjiaH 36.
+
+CBaKa oa 3apaheHiix cTpaHa OApeAnhe nepnoAHHno 6poj nncaMa h noniTaHCKHx iiapaTa Koje he paTHH eapofi.JteHHHH pa3HHx KaTeropnja cmcth nmjtaTH MecenHo. h iioTii(|)HKOBahe Taj 6poj ohoj Apyroj sapahenoj CTpaHH. Ta nncMa 11 Te icapTe Hehe ce Mohn 3aApataBarrH hh OAy3HMaTn H3 ahcii,hiijihhckhx paajiora.
+
+y pony oa HajBHme jeAHe ceAMiipe no npncnehy y Jiorop n Tano hcto y cjiynajy dojiecTH, CBann he eapofi.jbeHHK, 6hth cTaBJteH y MoryhirocT Aa cBojoj (J&gt;amhjihJh ynyTH jeAHy noniTaHCKy napTy K.ojoM je 06aBeniTaBa: 0 cbomc aapofuLaBainy h 0 CTaiby cBora BApaB.Jta. Penene iioiiiTaHce icapTe AocTaBJbahe ce cbom MoryhnoM 6p3HH0M n Hehe ce Mohn hh Ha kojh hahhii
+
+3aApjKaBaTH.
+
+no onniTen npaBn.Ty, npenucKa 3apo6jbemiKa Bpmnhe ce na ibiixobom MaTepmeM je3HK.y. 3apaheHe CTpaHe Mohn he AonyniTaTH npenHcny Ha ApyniM je-
+
+## HjiaH 37.
+
+PaTHHM 3apo()JbeHHHHMa onhe AonyniTeHO Aa jihhho npHMajy noniTancKe naneTe Kojn caApate skhBOTiie naMHpiiHpe h Apyre npeAMeTe naMeaeHe h&gt;hxoboJ HCxpaHii hah ihixobom oAeBaifcy. naneTH he ce npHMaopuMa H3AaBaTH y3 npn3HaHHn;y.
+
+## HjiaH
+
+## 38.
+
+nncMa h HOBnaiie hjih BpeAiiocHe nouiHjBKe, Kao 11 noniTaHCKii naneTH naMeibeiiH paTHHM 3apo6jneHHPHMa hjih Koje ohh inaJBy, 6hjio AnpeKTHO, 6hjio npeiio ofiaBeniTajHHx 6npo-a npeABH^eiinx y njiaHy 77. 6nhe ocJiofioijeHii cbhx noniTaHCKHx Taiica. KaKo y 3eMJtH nopenjia h 36M.rbH onpeAejnema Taiio h y 3eMJBaMa
+
+Kpo3 Ttoje npojiase.
+
+^apoBn h noMohn y HaTypn HaMeibenn 3a,po6jbenuniiMa duhe tuko hcto ocjrodo^eim cbhx yB03Hiix h
+
+3nipiMa.
+
+En attendant la conclusion des dits accords, la retribution du travail des prisonniers sera fixee selon les normes ci-dessous:
+
+- a) Les travax faits pour l'Etat seront payes d'apres les tarifs en vigueur pour les militaires de l'armee na¬ tional executant les memes travaux, ou, s'il n'en existe pas, d'apres un tarif en rapport avec les travaux executes.
+- b) Lorsque les travaux ont lieu pour le compte d'autres administrations publiques ou pour des particuliers, les conditions en seront reglees d'accord avec l'autorite militaire.
+
+Le solde restant au credit du prisonnier lui sera rernis a la fin de sa captivite. En cas de deces, il sera transmis par la voie diplomatique aux heritiers du defunt.
+
+## SECTION
+
+## IV.
+
+## Des relations des prisonniers de guerre avec I'exterieur.
+
+## Article
+
+## 35.
+
+Des le debut des hostilites, les belligerants publieront les mesures prevues pour l'execution des disposi¬ tions de la presente section.
+
+## Article 36.
+
+Chacun des belligerants fixera periodiquement le nombre des lettres et des cartes postales que les prison¬ niers de guerre des diverses categories seront autorises a expedier par mois, et notifiera ce nombre a l'autre belligerant. Ces lettres et cartes seront transmises par la poste suivant la voie la plus courte. Elies ne pourront etre retardees ni retenues pour motifs de dis¬ cipline.
+
+Dans le delai maximum d'une semaine apres son arrivee au camp et de meme en cas de maladie, chaque prisonnier sera mis en mesure d'adresser a sa famille une carte postale l'informant de sa capture et de 1'etat de sa sante. Les dites cartes postales seront transmises avec toute la rapidite possible et ne pourront etre retar¬ dees d'aucune maniere.
+
+En regie generate, la correspondance des prison¬ niers sera redigee dans la langue maternelle de ceux-ci. Les belligerants pourront autoriser la correspondance en d'autres langues.
+
+## Article 37.
+
+Les prisonniers de guerre seront autorises a recevoir individuellement des colis postaux contenant des denrees alimentaires et d'autres articles destines a leur ravitaillement ou a leur habillement. Les colis seront remis aux destinataires contre quittance.
+
+## Article 38.
+
+Les lettres et envois d'argent ou de valeurs, ainsi que les colis postaux destines aux prisonniers de guerre ou expedies par eux, soit directement, soit par l'intermediaire des bureaux de renseignements prevus a l'article 77, seront affranchis de toutes taxes postales, aussi bien dans les pays d'origine et de destination que dans les
+
+pays intermediaires.
+
+Les dons et secours en nature destines aux prison¬ niers seront pareillement affranchis de tous droits
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

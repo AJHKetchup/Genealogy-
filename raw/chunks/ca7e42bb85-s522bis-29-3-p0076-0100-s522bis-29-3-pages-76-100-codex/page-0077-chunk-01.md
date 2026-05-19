@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-06d71981ef43-P0077-01
+chunk_id: CHUNK-ce41262ffb14-P0077-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
-converted_sha256: 06d71981ef43f8d16ce2ba875a0f55b7695bdcc6c18e531e460b00dcb4d2d976
+converted_sha256: ce41262ffb14eb1425584f79293e4c2ce0fb4ab2b849846bb7e81100da1e52f0
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
@@ -88,9 +88,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 78
-
-## Layout And Reading Order
-The page features a header with a number on the left, a title in the center, and a date on the right. The main content is presented in two columns, with text flowing from the top of the left column to the bottom, then continuing at the top of the right column. Speaker names are often bolded or set apart, followed by their statements.

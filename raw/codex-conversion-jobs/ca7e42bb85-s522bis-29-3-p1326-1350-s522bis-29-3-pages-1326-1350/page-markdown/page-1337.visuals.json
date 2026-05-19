@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T12:12:57Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350/manifest.json",
+  "page": 1337,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350/page-images/page-1337.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350/page-markdown/page-1337.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Ang",
+      "source_context": "Handwritten note in top right corner."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "2/VII/32",
+      "source_context": "Handwritten date below header."
+    }
+  ],
+  "flags": []
+}

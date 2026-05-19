@@ -1,0 +1,174 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-403d530f79ad-P0046-02
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
+converted_sha256: 403d530f79ad28ea51960143971a8a02e3ccd1e208ed5c007c5c35c1e6b28893
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
+page_start: 46
+page_end: 46
+part: 2
+---
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "photo-1",
+      "kind": "photograph",
+      "bbox_pct": [
+        12.5,
+        10.1,
+        87.5,
+        47.0
+      ],
+      "caption_literal": "Niños Severo y José Castillo, de Mexicali, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The first part of the caption at the bottom of the page identifies the two boys in this photograph.",
+      "confidence": "high",
+      "suggested_filename": "severo-and-jose-castillo-on-ponies.jpg",
+      "inline_anchor": "[[photo-1]]"
+    },
+    {
+      "region_id": "photo-2",
+      "kind": "photograph",
+      "bbox_pct": [
+        12.6,
+        53.2,
+        47.0,
+        85.0
+      ],
+      "caption_literal": "Niño Miguel González, de Tijuana, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The second part of the caption at the bottom of the page identifies this child, following a top-to-bottom, left-to-right reading order of the photos.",
+      "confidence": "high",
+      "suggested_filename": "miguel-gonzalez.jpg",
+      "inline_anchor": "[[photo-2]]"
+    },
+    {
+      "region_id": "photo-3",
+      "kind": "photograph",
+      "bbox_pct": [
+        53.0,
+        53.2,
+        87.4,
+        85.0
+      ],
+      "caption_literal": "Niño Ricardo González, de Tijuana, B. C.",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The third part of the caption at the bottom of the page identifies this child, following a top-to-bottom, left-to-right reading order of the photos.",
+      "confidence": "high",
+      "suggested_filename": "ricardo-gonzalez.jpg",
+      "inline_anchor": "[[photo-3]]"
+    },
+    {
+      "region_id": "photo-4",
+      "kind": "photograph",
+      "bbox_pct": [
+        47.5,
+        64.6,
+        67.5,
+        85.0
+      ],
+      "caption_literal": "Niño Jorge Gonzál[ez].",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "The fourth part of the caption at the bottom of the page identifies this child, following a top-to-bottom, left-to-right reading order of the photos.",
+      "confidence": "high",
+      "suggested_filename": "jorge-gonzalez.jpg",
+      "inline_anchor": "[[photo-4]]"
+    }
+  ],
+  "no_visual_regions_reason": null
+}
+```
+
+## Page Metadata
+- Page number: 47
+- Source publication: S495-2-2
+- Source type: Genealogy source page
+- Original language: Spanish
+
+## Layout And Reading Order
+The page features a large title at the top, "GRAFICAS DE TIJUANA". Below the title are two large photographs, one above the other, separated by a decorative border. Each photograph has an associated caption presented in a decorative speech bubble shape. The top photograph's caption is to its right, while the bottom photograph's caption is below and to its right. The page number "47" is located at the bottom right corner of the page.
+
+## Literal Transcription
+GRAFICAS DE TIJUANA
+
+El paseo cívico de los festivales. Al
+frente del cual se puede ver
+al Tío Sam y el charro mexicano,
+presidiendo el desfile fraterna-
+mente.
+
+Un aspecto de los festivales que se ve-
+rificaron en San Diego, E. U., con
+motivo del reconocimiento de nues-
+tro Gobierno.
+
+47
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![source-caption: El paseo cívico de los festivales. Al
+frente del cual se puede ver
+al Tío Sam y el charro mexicano,
+presidiendo el desfile fraterna-
+mente.](../extracted-images/page-0048/page-0048-image-01-parade-uncle-sam-charro-tijuana.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [17.0, 11.0, 83.0, 40.0]
+  - Source context: Top photograph on the page, depicting a parade led by figures representing Uncle Sam and a Mexican charro.
+- ![source-caption: Un aspecto de los festivales que se ve-
+rificaron en San Diego, E. U., con
+motivo del reconocimiento de nues-
+tro Gobierno.](../extracted-images/page-0048/page-0048-image-02-parade-vintage-cars-san-diego.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [17.0, 51.0, 83.0, 80.0]
+  - Source context: Bottom photograph on the page, showing a parade with vintage cars in San Diego, E.U.
+
+The page contains two large photographs depicting street scenes with parades and crowds.
+
+The first image, located at the top of the page, shows a street lined with buildings, some decorated with American flags. A large crowd of people is visible on both sides of the street. In the foreground of the parade, two figures are prominent: one dressed as Uncle Sam and another as a Mexican charro, leading the procession.
+The second image, located below the first, also shows a street scene with a parade. Crowds line the street, and buildings are decorated with American flags. This image features several vintage automobiles participating in the parade.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and images on the page have been transcribed and described. The page number is correctly identified as 47.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "bbox_pct": [17.0, 11.0, 83.0, 40.0],
+      "caption_literal": "El paseo cívico de los festivales. Al\nfrente del cual se puede ver\nal Tío Sam y el charro mexicano,\npresidiendo el desfile fraterna-\nmente.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Top photograph on the page, depicting a parade led by figures representing Uncle Sam and a Mexican charro.",
+      "confidence": 0.95,
+      "suggested_filename": "parade_uncle_sam_charro_tijuana.png",
+      "inline_anchor": "El paseo cívico de los festivales. Al\nfrente del cual se puede ver\nal Tío Sam y el charro mexicano,\npresidiendo el desfile fraterna-\nmente."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "photograph",
+      "bbox_pct": [17.0, 51.0, 83.0, 80.0],
+      "caption_literal": "Un aspecto de los festivales que se ve-\nrificaron en San Diego, E. U., con\nmotivo del reconocimiento de nues-\ntro Gobierno.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Bottom photograph on the page, showing a parade with vintage cars in San Diego, E.U.",
+      "confidence": 0.95,
+      "suggested_filename": "parade_vintage_cars_san_diego.png",
+      "inline_anchor": "Un aspecto de los festivales que se ve-\nrificaron en San Diego, E. U., con\nmotivo del reconocimiento de nues-\ntro Gobierno."
+    }
+  ]
+}
+```

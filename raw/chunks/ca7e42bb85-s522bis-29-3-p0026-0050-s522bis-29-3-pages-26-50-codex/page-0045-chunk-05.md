@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-94a64f589756-P0045-05
+chunk_id: CHUNK-b97e9b9a9516-P0045-05
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md
-converted_sha256: 94a64f5897560a80e90052bbcac683f020a275bb5300a2361b3036462a74501f
+converted_sha256: b97e9b9a9516ab8dd47e8e150f5b556fed660016eb48e4dad2986f249814ea5b
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json
@@ -12,49 +12,46 @@ part: 5
 ---
 
 ## Images, Captions, And Visual Notes
-- A handwritten note "La Prensa - B.A. 7. Febrero 932." is present at the top left of the page.
-- The article begins with a large drop cap 'C'.
+The page contains no images or substantial visual elements. The large initial 'C' at the beginning of the first paragraph is a drop cap and is transcribed as part of the text.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text and handwritten notes on the page.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements like portraits, maps, or diagrams are present. The drop cap 'C' is a stylistic text element and not cropped as a standalone image."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 ```
 
 ## Page Metadata
 Page number: 49
 
 ## Layout And Reading Order
-The page features a header with location and date, followed by a handwritten note. Below this is a main title and a subtitle. The main content is presented in two columns of justified text, with a footnote at the bottom of the second column. The reading order is left column top to bottom, then right column top to bottom, followed by the footnote.
+The page features a two-column layout for the main body text, preceded by a header, a main title, and a subtitle. Handwritten notes are present in the top right margin. The text flows from the bottom of the left column to the top of the right column. A footnote is located at the bottom right of the page.
 
 ## Literal Transcription
 MONTEVIDEO - 9 de noviembre 1931
-Malvinas
-arg
 
-SOBRE "DERECHOS NORTEAMERICANOS"
+SOBRE “DERECHOS NORTEAMERICANOS”
 A LAS MALVINAS
 
 Respondiendo a William Sherwell
 
 Firmado William Sherwell, se nos
-pide opinión "sobre los derechos nor-
+pide opinión “sobre los derechos nor-
 teamericanos a las Islas Malvinas
 (Faekland Islands) en su relación con
-los derechos ingleses y argentinos".
+los derechos ingleses y argentinos”.
 Respondemos:
 Si William Sherwell es ciudadano
 de los Estados Unidos de Norte Amé-
 rica y no ha leído el libro de su com-
 patriota Julius Goebel, profesor de la
 Universidad de Columbia, titulado
-"The Struggle for the Faekland Is-
-lands", sírvale de respuesta esta re-
+“The Struggle for the Faekland Is-
+lands”, sírvale de respuesta esta re-
 lación sucinta sobre la ocupación de
 las mencionadas islas, hoy británi-
 cas (1).
@@ -63,7 +60,7 @@ una colonia en las Islas Malvinas en
 1828, cuando nadie ocupaba sus terri-
 torios evacuados voluntariamente por
 Inglaterra en 1774, en cumplimiento
-de la "promesa secreta" formulada a
+de la “promesa secreta” formulada a
 España.
 Las Malvinas habían estado ocupa-
 das por España desde 1776 a 1806 y
@@ -86,7 +83,7 @@ nas, hubo en cambio en 1820 un acto
 de toma de posesión hecho por las
 Provincias Unidas del Río de la Pla-
 ta, cuyo gobierno mandó al efecto la
-fragata "La Heroica", bajo las órde-
+fragata “La Heroica”, bajo las órde-
 nes del coronel Daniel Jewett, el cual
 encontró no menos de sesenta barcos
 de diversas nacionalidades, balleneros
@@ -103,18 +100,17 @@ dor titular argentino de las Islas Mal-
 vinas en 1829, notificó nuevamente a
 todos los capitanes que por allí se ha-
 llaban que cesasen en sus actividades,
-y como la goleta norteamericana "Ha-
-rriet" despreció la intimación y volvió
+y como la goleta norteamericana “Ha-
+rriet” despreció la intimación y volvió
 algún tiempo después, fué apresada
 junto con otros dos barcos norteame-
 ricanos en 1831.
 Mientras se tramitaba una recla-
-mación norteamericana por esos apre-
 samiento, que fueron hechos de acuer-
 do con las leyes de las Provincias Uni-
 das del Río de la Plata o República
 Argentina, la fragata de guerra nor-
-teamericana "Lexington", enarbolan-
+teamericana “Lexington”, enarbolan-
 do bandera francesa, fondeó en el
 puerto de la Soledad, el principal del
 archipiélago; desembarcó tropas, cla-
@@ -122,13 +118,13 @@ vó los cañones, se apoderó de las ar-
 mas, quemó la pólvora, saqueó las vi-
 viendas y arrestó a casi todos los ha-
 bitantes. Por último declaró a la is-
-la "libre de todo gobierno", y zarpó
+la “libre de todo gobierno”, y zarpó
 llevándose engrillados a siete ciuda-
 danos argentinos.
 La República Argentina protestó
 del atropello y la cancillería de Wás-
-hington declaró "que las Malvinas no
-pertenecían a nadie".
+hington declaró “que las Malvinas no
+pertenecían a nadie”.
 Dos años después — aprovechando,
 sin duda alguna, la situación creada
 por la actitud norteamericana — In-
@@ -136,24 +132,24 @@ glaterra se apoderó de las islas.
 Recientemente, en ocasión de las
 cuestiones planteadas entre la Argen-
 tina y la Gran Bretaña sobre la po-
-sesión de las referidas islas, y las de
+sesión de las referidas islas, y de la
 Georgia del Sur y Orcadas del Sur,
 algunos diarios de Nueva York y de
 Washington formularon comentarios
 en los cuales se citó la doctrina Mon-
 roe.
-Uno de aquellos diarios, "The New
-York Herald Tribune", al terminar la
+Uno de aquellos diarios, “The New
+York Herald Tribune”, al terminar la
 histórica reseña de la ocupación de
 las islas, decía:
-"Debido a los balleneros norteame-
+“Debido a los balleneros norteame-
 ricanos, los Estados Unidos se incli-
 naron al partido de los británicos
 más que a invocar la doctrina de Mon-
 roe contra ellos.
 El mundo mira hacia el Antártico
 y hace notar que aún cuando Georgia
-del Sur, las Islas Shetlands y las Is-
+del Sur, las Islas Shetlands y las is-
 las Orkney están marcadas en los ma-
 pas británicos como dependencias de
 las Malvinas, la Argentina tiene, des-
@@ -162,7 +158,7 @@ marlas como lo puede tener la Gran
 Bretaña. Debido a ello las Malvinas
 se hallan en un estado anormal, pues-
 to que son cuatro las naciones que re-
-claman haberlas descubierto".
+claman haberlas descubierto”.
 En el mismo editorial del órgano
 neoyorkino se citaban los casos en que
 franceses, ingleses, españoles y argen-
@@ -173,12 +169,13 @@ Sherwell que la República Argentina
 considera suyas no sólo las Malvinas,
 sino también todas las tierras antárti-
 cas y aún las polares.
-(1) De un editorial del "La Prensa" de
+
+(1) De un editorial de “La Prensa” de
 Buenos Aires, en nuestro archivo, de febre-
 ro 26 de 1929.
 
 ## Images, Captions, And Visual Notes
-A handwritten note "Malvinas arg" is present in the top right corner of the page.
+- In the top right margin, handwritten text reads "Malvinas" and "arg".
 
 ## Uncertain Or Illegible
 None.
@@ -187,21 +184,4 @@ None.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten-annotation",
-      "bbox_pct": [74.9, 4.7, 90.9, 8.9],
-      "caption_literal": "Malvinas\narg",
-      "caption_type": "nearby-text",
-      "identity_basis": null,
-      "source_context": "Handwritten note in the top right corner of the page, above the main title.",
-      "confidence": 0.95,
-      "suggested_filename": "handwritten_note_malvinas_arg.png",
-      "inline_anchor": null
-    }
-  ]
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text, with minor handwritten annotations that are described in the 'Images, Captions, And Visual Notes' section."}

@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-fef1eaf3adee-P0748-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753.codex.md
+converted_sha256: fef1eaf3adee72168259d0bf272dc2b78670ccc9330be89dacf6815aa1dec817
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json
+page_start: 748
+page_end: 748
+part: 1
+---
+
+# Page 748
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json`
+- Source page: 748
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/page-images/page-0748.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+vos actualmente - liago una suposiciôn, entiéndase bien ; yo no me animo a entraien cifras, porque, eomo ya dije, esta es tarea de la eomisiôn especial -· y ol mâximo de 50 centavos, hay la probabilidad de que manteniendo esas mismas tarifas que rigen para el transporte de pasajeros en la Capital, segûn los sistemas enr pleados, la corporation tenga una utilidad suficiente como para realizar el programa econômico
+
+que prevé la ley para estos casos.
+
+Ademâs, tiene la venta,ja de ae.ordar a todo el personal de obreros y empleados de las empresas en eomun, los salarios sufieientes y conclîciones de trabajo en armonia eon las nuevas leyes sociales y la posibilidad de resolver el problema de la Caja de Jubilaciones y Pensiones, estipulando, por ejemplo, que la corporacion deberâ hacerse cargo de los aportes patronales a efectuar a la caja para el conjunto de su personal y previendo también que tomarâ a su cargo lo que las companîas actuates dejaron de aportar a la caja, do, euyo pago fueron exoneradas por los tribunales, debiendo la corpora¬ cion amortizar la rnora en un perîodo razonable de
+
+tiempo que se fijarâ.
+
+Se podrâ salvar asi de la quiebra a la Caja de Jubilaciones y asegurar sus ventajas a todo el personal de obreros y empleados utilizados en la Corporacion. Actualmente, las ventajas so¬ ciales de la jubilaciôn benefician solamente al personal de las companîas de tranvîas y existe el grave peligro de que la Caja de Jubilaciones se encuentre en la imposibilidad de continuai* pagando las jubilaciones y pensiones. Los béné¬ ficies de jubilaciôn se extenderân, como lo he dieho, a todos los empleados de los omnibus y colectivos. Y la posibilidad - cosa muy impor¬ tante, senor présidente, para nosotros los defensores del capitalisme, pero que no ha de interesar a los que no quieren los capitales para nada --la posibilidad de encontrar los capitales uecegarios para efectuar la rénovation y moderni¬ zation del material rodante y fijo que las enipresas actuates no pueden mantener en buen estado y rénovai* en forma suficiente, a consecuencia de sus dificultades financieras, y que se encuentran hoy en un estado indigno de una ciudad de la importancia de Buenos Aires; la posibilidad de encontrar los capitales necesarios para afrontar las ampliaciones de los servicios, taies como la construction de una red coordinada de nueVos subterrâneos ; la posibilidad de eonseguir nuevos capitales para este vasto pro¬ grama. de renovation, de modernization y de
+
+trabajo, exige evidentemente que esta corpora¬
+
+cion esté constituîda sobre sôlidas bases finaneieras que inspiren confianza al ahorro nacional y extranjero y aseguren a los capitales invertidos, antiguos y nuevos, un renclimiento equitativo.
+
+Otra ventaja de la coordination, al menos para la mayoria de la comisiôn, que podria deeirse una ventaja romântica, puesto que no se traduce en un tanto por ciento, es la de nacionalizar los transportes urbanos, creando una sociedad argentina en cnyo capital las autoridades tendrân una participation importan¬ te e intervendrân en su administraciôn, di¬ rection
+
+y control.
+
+No saneionado este proyecto de ley, los se-, nores senadores que se oponen y a cuya influencia y talento séria debido el voto adver¬ se del Scnado, contraerian a si mismos y an¬ te la opinion, la responsabilidad de haber mantenido en poder del capitalisme extranjej'o, - yo le llamo companîas extraujeras --el servieio de transportes de la mayor parte de la ciudad de Buenos Aires.
+
+Se puede resumir lo que antecede afirmando que la creaciôn de la corporacion que centralizarâ bajo la misma administraciôn todos los medios de trasporte, salvaguardarâ los in¬ tereses en juego, Jos cuales hay que contem¬ plaiequitativamente, senor présidente: los del piîblico, los de las autoridades, los de las
+
+empresas y los del personal.
+
+Nosotros, la mayoria de la. comisiôn, eneont.ramos que los intereses de las empresas que ban servido durante tanto tiempo el trans¬ porte de Buenos Aires, si pueden ser protegi-, dos en forma conveniente, deben ser protegidos. No participâmes del criterio que déjà abandonar o déjà abandonados a su suerte contraria, a, intereses en los cuales, por las' propias leyes de eoncesiôn, suele tener parte el poder piiblico. El capitalisme extranjero ha sido el propulsor importante del progreso del pais y un sentimiento explicable en quie-, nés piensan de esta manera no los hacen ver ni con indifereneia, ni con alegria» que esas grau-, des empresas que sirvieron por tanto tiempo, los intereses publicos, caigan despiadadamente bajo el martillo del rematador.
+
+Podemos estaiequivoeados, pero confesamos lealmente nuestra
+
+equivoeaciôn.
+
+Se obtendrâ, pues, realizada la corporation los siguientes resultados: El publico dispondra de una cordinaciôn rational de los diterentes medios de transporte, tendra un servieio î-âpido, eômodo y seguro y siempre a la altura de los ûltimos
+
+progresos de la técnica,
+
+-
+
+-
+
+7
+
+j
+
+*
+
+I
+
+I*
+
+I
+
+|
+
+,
+
+,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:15:07Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/manifest.json",
+  "page": 180,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-images/page-0180.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-markdown/page-0180.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "photograph",
+      "caption_literal": "A group of young men in overalls working at vises on long wooden workbenches in a workshop.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual_content",
+      "source_context": "The image is the sole content of the page.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.5,
+        16.0,
+        83.5,
+        84.0
+      ],
+      "bbox_pixels": [
+        281,
+        185,
+        1448,
+        999
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/extracted-images/page-0180/page-0180-image-01-workshop-students-at-benches.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/extracted-images/page-0180/page-0180-image-01-workshop-students-at-benches.png",
+      "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-images/page-0180.jpg",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/manifest.json",
+      "page": 180,
+      "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-markdown/page-0180.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

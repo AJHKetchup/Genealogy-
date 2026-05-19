@@ -1,0 +1,182 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-cc88664a12e8-P0102-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125.codex.md
+converted_sha256: cc88664a12e8d23d6b62471e88eba49ce6a4f18a131f2caa568b5fcba804cf97
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125/manifest.json
+page_start: 102
+page_end: 102
+part: 1
+---
+
+# Page 102
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125/manifest.json`
+- Source page: 102
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125/page-images/page-0102.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+
+## M. le Président :
+
+Est-ce qu'après les explications si claires que vient de vous donner le Secrétaire Général
+
+quelqu'un désire prendre part encore à la discussion générale ?
+
+## M. Ciraolo (Italie)
+
+:
+
+M. le Président, Messieurs : Permettez-moi d'émettre mon opinion au sujet des observa¬ tions qui ont été portées à cette tribune. L'éminent délégué des Etats-Unis a parfaitement raison quand, au nom de la logique, il trouve que les mots « et ne peuvent pas être retenues » sont un pléonasme par rapport aux termes précédents « elles sont exemptes de capture ».
+
+J'avais moi-même réfléchi avant d'accepter la formule qu'il refuse et je dois lui déclarer les raisons pour lesquelles j'ai préféré les conserver. Ce sont les raisons que j'ai eu l'honneur de soumettre à la Conférence dans les premiers jours de sa réunion générale. Nous avons tous fait l'expérience que plusieurs des dispositions de cette Convention de Genève, pendant la guerre de 1914-1918, ont été foulées aux pieds par les belligérants. Je préfère donc que les dis¬ positions de la Convention, même au risque de comporter une répétition, soient reproduites le plus énergiquement possible, pour établir, devant la conscience des chefs des armées, qu'il y a une volonté, non seulement dans un article de loi quelconque, mais que cette volonté est réelle.
+
+Je me permets de présenter cette observation à M. Wadsworth.
+
+A propos du paragraphe suivant, M. le délégué de la Suisse a présenté une proposition tendant à remplacer le mot « belligérants » par le mot « l'Etat ». M. le Secrétaire général et quelques autres orateurs ont objecté que peut-être les mots « autorité militaire » qui se trouvent dans lejjexte original du C.I.Ç.R. seraient plus expressifs. La raison pour laquelle la délégation d'Italie a préféré conservé le mot «belligérants» est la suivante : si vous dîtes «l'autorité militaire », vous vous heurterez à cette difficulté. Dans les hiérarchies des armées, l'autorité militaire dont relève un officier, c'est son régiment. Or, il se peut que ce régiment, pour des raisons stratégiques, soit obligé de se déplacer et qu'il s'éloigne tellement de son ancien quartier que le renvoi d'un prisonnier rencontre des difficultés insurmontables.
+
+Nous pourrions ainsi donner à l'armée capturante des prétextes valables pour ne pas ren¬ voyer un prisonnier par suite de motifs stratégiques. C'est pour cette raison qu'il serait préfé¬ rable de
+
+remplacer « l'autorité militaire » par « belligérants » ou même « l'Etat ».
+
+Au troisième paragraphe, nous sommes en présence d'un amendement de M. de Castro auquel je me rallie entièrement, parce qu'en fait la propriété des armes n'existe pas. Les armes appartiennent toujours en principe à l'Etat, quelle que soit. . . (dénégations de M. le Médecin Général Marotte) Je ne suis pas militaire, mais je croyais que les armes d'un officier appartenaient en principe à l'Etat. Un Etat bien organisé rembourse toujours le prix des armes à ses officiers. S'il en est autrement, je n'ai aucune raison à ne pas me soumettre à votre très haute expérience. Dans tous les cas, je pense qu'on peut adopter les termes proposés par le délégué de l'Uruguay, qui donnent à tous satisfaction.
+
+J'ai ouï dire par l'éminent représentant de la Grande-Bretagne qu'il faudrait peut-être supprimer cette reconnaissance des armes pour les médecins.
+
+Permettez-moi, en homme de Croix-Rouge, de donner à ce sujet quelques éclaircissements. Je pense que les quelques armes qu'un médecin peut retenir sur sa personne, un revolver, ne sont pas destinés à combattre l'ennemi ; il s'agit d'une simple précaution que tout être humain se trouvant dans la mêlée, parmi des hommes complètement armés, a le droit de prendre. Les représentants de la religion peuvent, eux, se présenter dans les armées avec une arme mystique, la croix par exemple. Ce signe mystique peut faire baisser les armes à des personnes ayant des intentions hostiles. Mais quel serait le sort d'un médecin ou d'un chirurgien qui se trouve être surpris de nuit par des personnes qui ne peuvent pas voir son brassard ou qui sont dans un état d'esprit tel qu'elles refusent de s'incliner devant la profession supé¬ rieure et humanitaire d'un médecin ou d'un chirurgien. Il se peut qu'en dernière instance, le médecin ou le chirurgien soit obligé de se défendre. J'estime qu'on ne peut pas lui mécon¬ naître le droit de porter au moins une arme.
+
+De plus, le signe mystique de la Croix-Rouge a, lui aussi, quelquefois besoin d'être défendu car on ne trouve pas toujours des hommes disposés à le combattre par des arguments logiques. Il se peut que dans un moment de colère patriotique, pour défendre des blessés, un médecin soit dans
+
+l'obligation de faire usage de son arme.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 15
+Date: 8 JUILLET 1929
+
+## Layout And Reading Order
+The page presents a transcript of a meeting, laid out in a single column. The header includes the session date and page number. The main content consists of dialogue from various speakers, identified by their name and country, followed by their statements. The text flows from top to bottom.
+
+## Literal Transcription
+SÉANCE DU 8 JUILLET 1929
+15
+
+**M. Warner (Grande-Bretagne)**:
+Je vous demande pardon, mais il me semble que vous ne m'avez pas bien compris. J'ai
+dit que l'officier du personnel sanitaire ne doit pas garder son revolver après sa capture. Je
+n'ai pas voulu dire qu'un tel officier ne devait pas être armé.
+
+**M. Ciraolo (Italie)**:
+Je vous demande pardon. De ma place, il m'est quelquefois difficile d'entendre. Je profite
+de l'occasion pour demander la permission à M. le Président, d'occuper une place qui soit
+plus près de la tribune.
+
+**M. Warner (Grande-Bretagne)**:
+Je m'excuse de ne pas avoir parlé plus haut.
+
+**M. Ciraolo (Italie)**:
+Je suis d'accord avec M. le Médecin Général Marotte en ce qui concerne le dernier para-
+graphe. Je le remercie d'avoir voulu présenter sa proposition en l'intitulant, ce qui me fait
+un très grand plaisir, proposition franco-italienne. Je m'en remets à son jugement au sujet
+de la question des nationalités. Je pense qu'on pourrait réfléchir au sujet de la proposition
+du Secrétaire général, à savoir s'il vaudrait mieux conserver cette notion ou la modifier selon
+notre amendement.
+Puisque la question me semble mûre, je voudrais demander à M. le Président de mettre
+aux voix, paragraphe par paragraphe, l'article en question, en réservant peut-être le vote
+de l'article dans son ensemble.
+
+**M. Wadsworth (Etats-Unis). Traduction**:
+Je suis tout à fait disposé à voter paragraphe par paragraphe. Je crois toutefois que la
+phrase serait plus claire si l'on disait : « sont exemptes de capture et doivent être renvoyées ».
+En ce qui concerne une observation du Secrétaire général, il me semble que le personnel
+sanitaire a le droit de demander à être employé d'abord à soigner ses nationaux, ensuite ses
+alliés et qu'ensuite seulement la décision soit laissée aux autorités militaires de l'Etat capteur.
+Je suis disposé à laisser tomber les mots « les armes » dans le dernier alinéa.
+
+**M. le Président**:
+Permettez-moi de résumer la situation. Je comprends, étant donné le cours de la discussion,
+que l'idée de renvoyer cet article à une sous-commission ait pu surgir, mais si j'ai bien saisi
+les propositions qui ont été faites, il y a deux questions que l'on pourrait appeler de fond,
+toutes les autres étant d'un caractère purement rédactionnel.
+Si la commission pouvait se prononcer sur les deux questions de fond, nous pourrions
+ensuite renvoyer l'ensemble de l'article, sur la base de ces deux décisions, au Secrétaire général
+qui, sur cette base et au moyen du procès-verbal sténographique établirait une rédaction
+qu'il nous soumettrait. Il n'est pas nécessaire de désigner une sous-commission pour faire
+ce travail rédactionnel. Le Secrétaire général nous apporterait un texte sur lequel nous pour-
+rions voter alinéa par alinéa.
+J'ai des scrupules à vous soumettre ce projet alinéa par alinéa dès maintenant, parce
+que la rédaction qui n'est pas au point.
+Les deux questions de fond sont les suivantes :
+1. Le personnel sanitaire doit-il donner des soins exclusivement aux blessés et malades
+de son parti ? Le Secrétaire général vous a dit excellemment les raisons pour lesquelles à son
+avis on ne doit pas faire de différence de nationalité. J'ajouterai que si vous liez le personnel
+sanitaire aux militaires qu'il soignait auparavant, il peut y avoir une contradiction entre ce
+lien que nous établissons ainsi et l'obligation de renvoyer le personnel sanitaire au plus tôt
+dans son pays.
+2. Voulons-nous qu'il y ait en somme deux conditions pour le renvoi du personnel sani-
+taire : les possibilités militaires et l'indispensabilité au point de vue des soins à fournir.
+
+## Images, Captions, And Visual Notes
+There are no images or significant visual elements on this page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+The transcription is complete and includes all visible text from the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The content is primarily text-based."}
+```
+
+## Page Metadata
+Page number: 16
+Header: SÉANCE DU 8 JUILLET 1929
+
+## Layout And Reading Order
+The page presents a single column of text, formatted as a transcript of a meeting. It includes a header with the session date, a page number, and several paragraphs of discussion, interspersed with speaker attributions. The reading order is strictly top-to-bottom, left-to-right.

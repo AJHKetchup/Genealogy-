@@ -1,0 +1,94 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a4f3f5a64c83-P0144-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: a4f3f5a64c830bbf7197a9b54d3398d5859d9e449a0425cc03b3c5c18c151cba
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 144
+page_end: 144
+part: 1
+---
+
+# Page 144
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json`
+- Source page: 144
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0144.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+dria para el sistema solar una estabilidad inconcebible. Por eso otro colega nuestro de esta época, Poincaré, considéra tal unidad fundamental, a pesar de las pruebas multiples y en apariencia irréfuta¬ bles que se han dado de ella, como un concepto enganoso debido a la relativa brevedad del periodo -algunos miles de anos apenas- al cual se extienden nuestras observaciones.
+
+"En presencia, pues, de todos los grandes fenômenos de la naturaleza, estamos en la situaciôn de un matemâtico que conociera solamente un elemento in¬ finitesimal de una curva, elemento que en la prâctica se confunde con la tangente, o, lo que es lo mismo, que no estuviera en posesiôn sino del primer término del desarrollo en serie de la ecuaciôn de dicha curva. Querer calcular un segundo término es, ciertamente, una ambiciôn plausible ; pero para que ella sea légi¬ tima se imponen dos coudiciones : 1* Que la hipôtesis que sirva de fundamento a la nueva teoria que lo permita, no contrarie manifiestamente al buen sentido, ûnico criterio de que disponemos para distinguir lo falso de lo verdadero ; y 2* Que ella suministre de ciertos hechos observados una explicaciôn que sea imposible obtener de otra manera" (*).
+
+PARMENIDES.-Pevmiteme que te interrumpa, i oh Cristias ! ; pero esto no reza con la ûnica doctrina absoluta que lia hallado la formula definitiva del universo, como dije antes. Porque los discipulos de Einstein, que gozan de mis mâs vivas simpatias, no tienen por qué fundamentarse en hechos, ni atenerse a la intuiciôn, que tu llamas buen sentido, ya que generalizan la relatividad de todas las cosas hasta el punto de encontrar incompatibles la representaciôn objetiva con la realidad abstracta y matemâtica de los
+
+conceptos.
+
+GORGIAS.-Esto tampoco es nuevo, pues escuelas griegas hubo en las cuales se tenia horror a la realidad objetiva ; de modo diferente, pero en la misma cuerda, de lo que sucede ahora. Bien dice Cris¬ tias: Nihil novum sub sole.
+
+CRISTIAS.-Ciertamente puede ser como lo piensa Parménides. Pero si no nos atenemos a los hechos de la experiencia, como lo quiso en épocas oscuras Galileo, £qué criterio de verdad habrâ de guiarnos en el
+
+conocimiento que buscamos de las cosas?
+
+PARMENIDES.-El criterio absolutamente temâtico.
+
+ma¬
+
+TIMŒVS (Que hasta ese momento guardara silencio).-Esto es lo que mâs me admira en la época que vivimos, tan distinta de la nuestra, helénica y armoniosa por toda pondération. ^Por qué, si la Ciencia ha de ser exclusivamente matemâtica, la teo¬ ria de la relatividad, imaginada por Einstein, ha suscitado tan increible apasionamiento entre multitud de personas enteramente ajenas a las disciplinas matemâticas? Por cuanto lo sorprendente no es que cerebros como el tuyo, Parménides, se aislen de la realidad fisica, sino que tântas gentes incapaces de comprender las mâs sencillas relaciones del numéro, se entusiasmen en forma tan desusada por esta teo¬ ria, de orden exclusivamente matemâtico y metafisico, hermana de las Geometrias trascendentes de ahora, que al apartarse del postulado de Euclides, admiten, entre otras cosas, la posibilidad de hacer pasar por un punto varias paralelas a una recta. En verdad, es este un liecho muy curioso : la teoria de la relatividad ha nacido en cerebros habituados a razonar principalmente de un modo abstracto y en lo absoluto, y ha encontrado acogida entusiasta, precisamente entre aquellos que, a pesar de la realidad y de la experiencia, creen en lo absoluto de la na¬ turaleza y son esencialmente imaginativos y sensoriales.
+
+(*) "La teoria de la relatividad y las experiences del Profeaor
+
+MiUer"-Charles Lallemaod.
+
+GORGIAS.-No te admire que esto ocurra en los tiempos actuales, cuando el progreso de las ciencias aplicadas ha puesto a todo el mundo en contacto con fenômenos cuya intimidad se ignora totalmente, pues ya de antano fue moda humana el querer tanto mâs una cosa cuanto mâs compleja y misteriosa apareciere. Anteriormente a nosotros pensaron Xenofanes, Parménides de Elea y Herâclito, y tû bien sabes que fueron creidos por sus contemporâneos, precisamente porque entonces nadie pudo comprenderlos ni desentranar lo inextricable de sus perpétuas contradicciones. iQué dijo Parménides de Elea, el antecesor de nuestro amigo, para explicar el misterio de los seres, cuando considéré inaccesible al pensamiento humano el paso de la nada al sér o el regreso del sér a la nada? "No hay espacio vacio, dijo, todo estâ lleno del sér, y asi no hay posibilidad de movimiento. La realidad es un plenum continuo, inmôvil, aparentemente finito y esférico. Asi, el cambio y el movimiento no son posibles, y la misma existencia de lo discontinuo, discreto e individual es ilusoria".
+
+Pero Herâclito penso de otra manera al concebir la materia como esencialmente mudable, al aceptar el cambio permanente y al considerar el movimiento como la esencia misma del sér. Y, sin embargo, He¬ râclito y Parménides fueron creidos por sus contem¬ porâneos, como lo fue Xenofanes, quien sostuvo la unidad absoluta del sér como realidad ûltima.
+
+CRISTIAS.-En mi concepto esto sucede por la tendencia general de los humanos a anticiparse a los hechos, a querer explicarlo todo basândose en ob¬ servaciones incompletas. ^Qué debe ser la realidad para nosotros sino el resultado de nuestra propia observaciôn? Y qué es la hipôtesis sino la soluciôn anticipada de una cuestiôn para cuyo estudio poseemos sôlo observaciones incompletas y no viene en nuestro auxilio la experiencia? Para mi tengo que toda teoria cientifica o filosôfica debe basarse en hechos, y que una hipôtesis nueva sôlo puede justificarse, como lo tengo dicho, cuando no contrarie manifiestamente al bxœn sentido, ûnico criterio de que disponemos para distinguir lo falso de lo verda¬ dero, y cuando ella suministre de ciertos hechos ob¬ servados una explicaciôn que sea imposible obtener
+
+de otra manera.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-975a4584d5b0-P0143-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
+converted_sha256: 975a4584d5b0dd5cd00b69f7a9780634561e33536b390e0c77395d4b9225a1f1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
+page_start: 143
+page_end: 143
+part: 1
+---
+
+# Page 143
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
+- Source page: 143
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-images/page-0143.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+y minueiosamentc como excelentes proyectos, dos veees votados por esta câmara, previo maduro estudio de la c.omisiôn de presupuesto, antes del desgraciado reingreso del senor diputado entre nosotros (Risas), fraeasaron en ul¬ tima instaneia debido a su intervention ligera e intempestiva, que, sin eonoeimiento del asunto ni estudio previo de los proyectos, sc mani¬ festo aqui con gestieulaciones y frases bana¬ les, que se explican en el vicepresidente de la Confederation del eomereio, la industria y la produeeiôn, como creo que se titula el senor diputado (Risas), Asociaeiôn de. empresarios de la industria y del eomereio argentinos, liabit.uados a mirar la masa popular y liasta a los hombres de la masa popular que quieren iniciarse en la obra técnica y économisa mas o menos autônoma, como masa explotable a su merced y misericordia, y que ven complacidos perpetuar en el pais el sistema de impuestos bajo el cual ellos se ban enriquecido, inclusive el impuesto de patentes, al cual le t.iene tanto amor el senor diputado, porque es un permiso para trabajar, una especie de rescate que pa¬ gan en este pais todos los hombres que quie¬ ren llegar a la situaciôn de trabajar sin pa¬ tron, y eso es lo que no quieren, los senores de la Confederation del eomereio, de la indus¬ tria y de la produeeiôn, que sea fâcil. Ellos prefieren que haya que pagar un alto permiso para ser patron como ellos y ser su compe-
+
+tidor.
+
+Debo ahora déclaraicon verdadero dolor que, a pesar de mi esfuerzo y de liaber traido este libro novîsimo, que no es una revista barata, senores diputados, - insisto en que es el ultimo anuario de ese pais tan interesante que se llama Nueva Zelandia - siento muclio no haber conseguido liacerle entender al senor di¬ putado que una manera de aumentar el rendimiento de ciertos impuestos es rebajar la tasa.
+
+Esta en el eonoeimiento de la enorme mavoria de los senores diputados, que altos gravâmenes de aduana sobre un articulo determinado de uso general y corriente, se traducen en una rnerrna de la entrada aduanera produeida por ese articulo, y lo lie demostrado con las eifras de todo un periodo histôrico de aquel pais tan interesante, y que, en mas de un sentido, puede servirnos de modelo.
+
+Me lie complacido, a pesar de la liora y de la fatiga, en haeer notar que a inedida que jdeseendia en un largo periodo de 25 anos la j tasa por ciento del gravamen aduanero sobre la importaciôn total de Nueva Zelandia, aumentaba el rendimiento absoluto aduanero y también por cabeza de poblaeiôn. Erân dos rasgos que seguian una direcciôn completamente inversa.
+
+No quiero detenerme mas sobre las ligerezas eu que ha ineurrîdo el senor diputado, y sôlo be de recordarle que él, - que habla tanto de su punto de vista, federal y con tan poca oportunidad, oponiendo siempre su falso federalismo, que él no respeta cuando se trata de conseguir ventajas para su provincia a expensas del erario national, - no ha comprendido cuân pesado es el gravamen a la exportaciôn para su provincia.
+
+La provincia de Cordoba paga una buena par¬ te del impuesto a la exportaciôn sus produetos principales, que son produetos de orden agrieola y ganadero, estân sujetos', en cuauto les aleanza cl arancel fijado el primero de cada mes por el ministro de hacienda, aunque no haya ley vigente al respecto, estân sujetos al pago de gravâmenes que desmerecen el valor que présen¬ tai! esos produetos para sus productores en la provincia de Côrdoba y a la larga, como lo dije aqui cuando se tratô el impuesto a la exportaeiôn, se traducen en una merma de la renta del suelo de la provincia de Côrdoba, por donde van a salir perjudicados los, senores que tienen algo mas de cinco hectâreas en aquella provincia y (pie no dejan-todo el produeto en manos del
+
+quintero. (Risas).
+
+Pero yo no creo que esto de dejar los duraznos para el quintero nos autorice a estrujar permanentemente al pueblo, a sangrarle sin mise¬ ricordia con toda clase de malos impuestos, con gabelas y extorsiones de todo género. Por eso estoy seguro de que los senores diputados pasarân por alto sobre ese argumento del senor dipu¬ tado Pena.
+
+Esperemos que alguna vez el senor diputado Pena saïga de esa manera suya de ser, de las gestieulaciones, de la vaciedad, de la deelamaciôn, en que habla tanto de, si mismo y no de lo que haee, porque no nos ha citado un solo heeho positivo, salvo que él fué el primero en la câmara que discutiô en general el presupuesto, lo que es poner un estigma mâs sobre el régimen en que él naciô a la vida politica. Pué neeesario que el senor diputado Pena viniera a esta câ¬ mara como pariente del senor Figueroa Alcorta, para que discutiei'a por primera vez en general la ley de gastos de la naciôn, alguna disputa en¬ tre contadores. Espero que aprenderâ algo el se¬ nor diputado de los hechos nuevos, no sôlo ar¬ gentinos, sino del mundo y de las eifras gruesas que aqui le presentamos, y reeonoeerâ la justicia con que protestamos contra su obra reaceionaria en alianza eon los pcores elementos dei actual gobierno.
+
+Nada mâs.
+
+Varios senores diputados. - Que se vote. Sr. Pena. - Pido la palabra, para una rec-
+
+tificaciôn.
+
+Yo vine a esta câmara por ser pariente d&lt;£ doctor Figueroa Alcorta. i Créé el senor dip*» tado en eso que ha dicho? jCree el senor di¬ putado que yo he llegado a esta câmara por
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

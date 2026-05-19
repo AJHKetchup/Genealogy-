@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-083f55ea7f18-P0001-04
+chunk_id: CHUNK-19c86eef6a28-P0001-04
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25.codex.md
-converted_sha256: 083f55ea7f1810bff2b250bda714d7ff4e409b701d4c04717a640840dbac7731
+converted_sha256: 19c86eef6a28149cc4d428d56a4dbe87e1abfdfa4e97eab184e0c1f4970aa2ef
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket4-pages-1-25/manifest.json
@@ -206,7 +206,7 @@ All visible text on the page has been transcribed.
 
 ## Layout And Reading Order
 
-The page contains a centered text block enclosed in a double-line rectangular border. The rest of the page is blank except for a hole punch in the top right corner.
+The page contains a central text block enclosed in a decorative border. There is a hole punch in the top right corner of the page.
 
 ## Literal Transcription
 
@@ -217,7 +217,7 @@ DU JOURNAL DE GENÈVE
 
 ## Images, Captions, And Visual Notes
 
-A hole punch is present in the top right corner of the page.
+The page features a central text block, "IMPRIMERIE DU JOURNAL DE GENÈVE", enclosed within a double-lined rectangular border. A circular hole punch is visible in the top right corner of the page.
 
 ## Uncertain Or Illegible
 
@@ -225,24 +225,23 @@ None.
 
 ## Completeness Audit
 
-The transcription is complete and accurate. All visible text and significant visual elements have been noted.
+The transcription is complete and accurate. All visible text and relevant visual elements have been captured.
 
 ## Visual Region Manifest
-
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "text_block",
-      "bbox_pct": [44.0, 43.0, 48.0, 56.9],
+      "bbox_pct": [43.9, 40.7, 48.2, 59.2],
       "caption_literal": "IMPRIMERIE\nDU JOURNAL DE GENÈVE",
       "caption_type": "source-caption",
       "identity_basis": null,
-      "source_context": "The main text block on the page, enclosed in a double-line border.",
+      "source_context": "The central text block on the page.",
       "confidence": 0.95,
       "suggested_filename": "imprimerie_du_journal_de_geneve_text_block.png",
-      "inline_anchor": null
+      "inline_anchor": "IMPRIMERIE\nDU JOURNAL DE GENÈVE"
     }
   ],
   "no_visual_regions_reason": null

@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a4f3f5a64c83-P0147-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: a4f3f5a64c830bbf7197a9b54d3398d5859d9e449a0425cc03b3c5c18c151cba
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 147
+page_end: 147
+part: 1
+---
+
+# Page 147
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json`
+- Source page: 147
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0147.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+en el siglo XIX, cuando la Mecânica racional tenia contacto directo con la experimentaciôn de nuestros sentidos y, lo mismo que la Geometria, era una intuiciôn de nuestro cerebro, influenciado secularmente por el medio, a través de las generaciones. Ciertamente, en nuestra época, de claridad sencilla y luminosa como el cielo bajo el cual nacimos, en el Atica amable, la concepciôn del éter habria sido imposible.
+
+PARMENIDES.-Por todo lo que acabas de decir, ; oh Cristias ! es por lo que nosotros, los relativistas, hemos concluido por rechazar la hipôtesis etérea, considerândola, in pectore, absurda y funesta.
+
+GORGIAS.-Pero no ves, Parménides, que entonces caéis en la mas formidable contradiction, pues los experimentos de Michelson y Morley no tienen sentido alguno si el éter no existe. Y, precisamente, sobre dichos experimentos habéis fundado el famoso postulado de la velocidad absoluta de la luz. En realidad de verdad, Xenofanes, Parménides de Elea, Herâclito, y cuantos escribieron en el mundo antiguo sobre la naturaleza y sus misterios, fueron mas claros que el agua lustral de nuestros ritos de antano, comparados con los sabios de ahora, para quienes no debiera haber nada oscuro ni misterioso.
+
+PARMENIDES.-No nos andemos por las ramas: ya he dicho que no creo en los hechos sino en las expresiones matemâticas. Por eso quisiera haceros una exposition matemâtica y breve de la relatividad. I Queréis oirla?
+
+GORGIAS, CRISTIAS y TIMŒUS (Hablando a una) :-Que nos place. Somos todo oidos.
+
+PARMENIDES.-Partamos del principio de que aceptamos el éter de los fisicos neoclâsicos, y de que nadie puede dudar de los experimentos de Michelson y Morley, tan cuidadosamente repetidos y discutidos, experimentos que tuvieron por objeto descubrir el movimiento de la tierra a través de ese éter. El fracaso aparente de taies experimentos, que demostraron que sobre la superficie terrestre la luz se propaga con igual velocidad en todos sentidos, ha dado origen a dos teorias completamente diversas: la de la contracciôn de los cuerpos sôlidos, por rigidos que se consideren, en la direcciôn del movimien¬
+
+<!-- formula-not-decoded -->
+
+(v velocidad del cuerpo : c velocidad absoluta de la luz). Esta hipôtesis es la propuesta por Fitzgerald y Lorentz, y es la preferida, segun expresiôn de Righi, "por aquellos a quienes el hâbito de las ciencias expérimentales hace un poco reacios a todas las especulaciones de resabio metafisico". La otra teoria es la de la relatividad de Einstein. Cuantitativamente, sin embargo, ambas teorias llevan a las mismas célébrés formulas, denominadas por los fi¬ sicos ultramodernos, de transformaciôn de LorentzEinstein. (Toma el estilete y escribe râpidamente sobre las tablillas enceradas, a medida que habla).
+
+La primera manera de deducirlas es por la hipô¬ tesis de la contracciôn y del tiempo local. Si suponemos dos sistemas coordenados, uno que llamare- mos fijo: 0/v,y,z,t y otro de ejes paralelos que denominaremos môvil: O'x'y'z't' animado, este ûltimo, de un movimiento rectilineo y uniforme en la direcciôn y sentido positivo del eje de las x con la velocidad v, las fôrmulas de paso no son las de la transformaciôn simple de Galileo. Por razôn de la contracciôn dicha, sin advertirlo el obser¬ vador môvil con el sistema O'x'y'z't' los elementos de medida de que él dispone sufren esa contrac¬ ciôn en la direcciôn OV. Asi, una medida x' de la abscisa sera para el observador fijo con el siste¬
+
+<!-- formula-not-decoded -->
+
+en vez de x' - x - vt tenemos :
+
+<!-- formula-not-decoded -->
+
+que es la expresiôn matemâtica de la hipôtesis de la contracciôn.
+
+Supongamos, ademâs, que ambos observadores, fijo y môvil, se ponen de acuerdo para adoptar la misma velocidad c para la luz. Esto équivale a suponer que ni uno ni otro estân en capacidad de comprobar cuâl de los dos es el fijo o el môvil en el éter, y, por lo tanto, en el espacio absoluto. Si, por consiguiente, al observador fijo le parecen contraidos los objetos y medidas del observador môvil, en la
+
+<!-- formula-not-decoded -->
+
+lo mismo le han de parecer al observador môvil las del fijo; de tal manera que si aquél se creyô autorizado para escribir la ecuaciôn (1), éste se creerâ, con la misma razôn, autorizado para poner:
+
+<!-- formula-not-decoded -->
+
+ya que para él, el observador 0,x,y,z,t se mueve en la direcciôn O'x', pero en sentido opuesto, con velocidad v, y de ahi el signo -que afecta a v en (1').
+
+Eliminando a x' entre (1) y (1') y despejando a t' résulta:
+
+<!-- formula-not-decoded -->
+
+Y de la misma manera, eliminando a x entre (1) y (1') y despejando a t résulta:
+
+<!-- formula-not-decoded -->
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

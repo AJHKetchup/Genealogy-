@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-19T12:14:47Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+  "source_sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+  "job_manifest": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300/manifest.json",
+  "page": 284,
+  "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300/page-images/page-0284.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300/page-markdown/page-0284.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "other",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "IMPRIMERIE\nDU JOURNAL DE GENÈVE",
+      "source_context": "The central box containing the printer's information."
+    }
+  ],
+  "flags": []
+}

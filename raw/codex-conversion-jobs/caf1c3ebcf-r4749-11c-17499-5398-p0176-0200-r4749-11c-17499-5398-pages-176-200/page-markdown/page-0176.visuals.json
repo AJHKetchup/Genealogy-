@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:15:02Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/manifest.json",
+  "page": 176,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-images/page-0176.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-markdown/page-0176.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "photograph",
+      "caption_literal": "A photograph depicting a science laboratory or classroom with several people, likely students and an instructor, engaged in activities at lab benches. Laboratory equipment such as glassware and balances are visible.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The entire page is dedicated to this single image.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.9,
+        17.6,
+        82.2,
+        86.0
+      ],
+      "bbox_pixels": [
+        288,
+        204,
+        1424,
+        1020
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/extracted-images/page-0176/page-0176-image-01-science-laboratory-classroom.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/extracted-images/page-0176/page-0176-image-01-science-laboratory-classroom.png",
+      "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-images/page-0176.jpg",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/manifest.json",
+      "page": 176,
+      "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-markdown/page-0176.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

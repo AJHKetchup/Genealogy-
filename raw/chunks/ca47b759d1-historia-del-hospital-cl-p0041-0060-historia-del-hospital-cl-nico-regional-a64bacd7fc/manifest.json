@@ -1,7 +1,7 @@
 {
   "created": "2026-05-19",
   "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60.codex.md",
-  "converted_sha256": "2aac21c6b1e768479497f5fe93998c7394fd5ff793dbc56f78e7ba88b7e0d63a",
+  "converted_sha256": "9d3dc36c6ccbc037067e8906918eed14b4e19a8dc3562c0167786432c0dcd9e0",
   "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
   "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
   "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60/manifest.json",
@@ -12,74 +12,14 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-01",
+      "chunk_id": "CHUNK-9d3dc36c6ccb-P0060-01",
       "chunk_number": 1,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-01.md",
-      "page_start": 1,
-      "page_end": 1,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0060-chunk-01.md",
+      "page_start": 60,
+      "page_end": 60,
       "part": 1,
-      "chars": 11996,
-      "sha256": "b6cbec1e4cdf64a5690eba1000642d502cd3c7fe7fe98462962df1374512357e"
-    },
-    {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-02",
-      "chunk_number": 2,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-02.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 2,
-      "chars": 11068,
-      "sha256": "e5c7f52ed0acd705f8f0f69ee812632d996565b8ff621529e3034aa32518787d"
-    },
-    {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-03",
-      "chunk_number": 3,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-03.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 3,
-      "chars": 11535,
-      "sha256": "6a782ee8e73879a904f398af4391e6e80dd510d47d80cfe337d696b2b1584ef8"
-    },
-    {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-04",
-      "chunk_number": 4,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-04.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 4,
-      "chars": 11907,
-      "sha256": "7901c61407ae409195586f04336991dd292a3973d4ce21e1882e7e0ba7fdb024"
-    },
-    {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-05",
-      "chunk_number": 5,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-05.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 5,
-      "chars": 11928,
-      "sha256": "bd4f0a86f29c191efde6e863f563fbc7f47172e1b16e2bbd9b53ceba4e277d19"
-    },
-    {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-06",
-      "chunk_number": 6,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-06.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 6,
-      "chars": 11871,
-      "sha256": "efba418a6be83c1c28198608a194506f17b5451d663bf9760673113252951d01"
-    },
-    {
-      "chunk_id": "CHUNK-2aac21c6b1e7-P0001-07",
-      "chunk_number": 7,
-      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-a64bacd7fc/page-0001-chunk-07.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 7,
-      "chars": 8254,
-      "sha256": "49b26ab39a2b6d41d57c5004d0110403578b7179e4109a39cea873736c1cf68c"
+      "chars": 5869,
+      "sha256": "f8c718489767df0d985a18c2b9014f53cdab864542601a95b28a10a949aa9b05"
     }
   ]
 }

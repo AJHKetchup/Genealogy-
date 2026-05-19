@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-821c232c3119-P0056-02
+chunk_id: CHUNK-1f00ba65c3d6-P0056-02
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
-converted_sha256: 821c232c3119275b618d3421e12cbabf36530bba99801e5eaa72c51b77583526
+converted_sha256: 1f00ba65c3d6db86b67ed509d1ff8f8ea2779687f7db1265b20ddbe6b48fec55
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
@@ -11,58 +11,20 @@ page_end: 56
 part: 2
 ---
 
-## Literal Transcription
-```
-La situacion
-Argentina
-Estudios de Gimenez Zapiola
-y J. G. Buero
-Docs oficiales Argentinos
-de 1919 y 1920
-Avis Consultatif de
-la Corte S/ Sauzzy y BIT
-```
-(3/1)
-
 ## Images, Captions, And Visual Notes
-The page consists entirely of handwritten text on a plain paper cover. The text is written in blue ink. There are three horizontal lines drawn under "Argentina", "J. G. Buero", and "1920" respectively. A number `(3/1)` is circled in the top right corner.
+The page contains only handwritten text. There are no images, captions, or other visual elements requiring specific description or cropping. The number "(3/1)" is circled in the top right corner.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+The handwriting is generally clear.
+- The name "Bucro" is a plausible reading, though the 'c' could potentially be interpreted as an 'e' or 'o' in some handwriting styles. Given the context, "Bucro" is the most likely reading.
+- The name "Sauzzy" is stylized but readable.
 
 ## Completeness Audit
 All visible text and markings on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten-text",
-      "bbox_pct": [29.0, 28.0, 84.0, 92.0],
-      "caption_literal": "La situacion\nArgentina\nEstudios de Gimenez Zapiola\ny J. G. Buero\nDocs oficiales Argentinos\nde 1919 y 1920\nAvis Consultatif de\nla Corte S/ Sauzzy y BIT",
-      "caption_type": "converter-description",
-      "identity_basis": "text-content",
-      "source_context": "Handwritten title and content description on the cover page.",
-      "confidence": 0.98,
-      "suggested_filename": "Handwritten_Cover_Text_La_Situacion_Argentina",
-      "inline_anchor": null
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "handwritten-mark",
-      "bbox_pct": [16.0, 83.0, 20.0, 87.0],
-      "caption_literal": "(3/1)",
-      "caption_type": "converter-description",
-      "identity_basis": "text-content",
-      "source_context": "Circled number in the top right corner of the cover page.",
-      "confidence": 0.99,
-      "suggested_filename": "Circled_Number_3_1",
-      "inline_anchor": null
-    }
-  ]
-}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists primarily of handwritten text on a plain background, with no images, diagrams, or other graphical elements that would warrant cropping."}
 ```
 
 ## Page Metadata

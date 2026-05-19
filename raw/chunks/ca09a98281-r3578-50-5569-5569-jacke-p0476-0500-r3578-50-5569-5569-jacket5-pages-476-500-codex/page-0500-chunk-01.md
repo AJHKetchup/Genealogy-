@@ -1,0 +1,178 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a5744f2cb4b4-P0500-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500.codex.md
+converted_sha256: a5744f2cb4b49a5c1af2c91451a686ab0d03c10f605f145fde76ff4cc869e514
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json
+page_start: 500
+page_end: 500
+part: 1
+---
+
+# Page 500
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json`
+- Source page: 500
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/page-images/page-0500.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+caiia y me cbhx 3e,\ia.Jba upeTCTaBJBeHHX i-ia KoH$e-
+
+pennHjK Koja je oTnonejia paA y JKeHeBH 1 jyjia 1929.
+
+## HjiaH 91.
+
+OBa KoHBeHni-i.ja Cube paxii fJiHKOBana hum to 6yne
+
+MoryhHO.
+
+PaTHtJjHKapHje nenoHOBahe ce y BepHy.
+
+0 nerroHOBaifcy cBaKor hhcrpyMeHTa paTHijiHKaitHje caminihe ce 3anHCHHi;. tihJh he oBepem npennc mBajpapcKo (jieAepajiHo Behe aocthbuth Bjia^axia cbhx 3eMajba y HHje hmo KoiiBeHpHja 6y%e noTimcaHa hjih HOTnc|)HKOBaH|o npHCTynaiBe HCToj.
+
+## HjiaH
+
+## 92.
+
+OBa KoHBeHpHja cTynnhe Ha chary Ha inecT Meceipi TiouiTo CyAy AenoHOBana HajMaHbe ABa HHcxpyMeHTa
+
+paTH(J)HKan;Hje.
+
+Ilocjie Tora, OHa he 3a cBaiiy Bhcokv OTpaHy yroBopiinny CTyiiHTH Ha CHary Ha mecT Mecepn nocne AenoHOBafta aeHor
+
+hhcxpyHeHTa paTHijiHKapHje.
+
+## HjiaH
+
+## 93.
+
+IIoHeB oa AaHa ibeHor cTynaita Ha CHary, OBa KohBeHipija dnhe oTBopeHa 3a iipHCTyiiaBba Aa/ra y HMe GBaKe 3eMJte y HHje hmb OBa KoHBeHpHja He dyAe 6njia HOTnHcaHa.
+
+## HjiaH 94.
+
+llpHCTynaaa HOTH(})HKOBahe ce riHCMeHo HiBajpap. ckom (J)eAepanHOM Behy h Aodnhe CBoje AejciBO Ha rnecT MeceiiH nocjie OHora Aana KaAa My 6yAy crarjia.
+
+IIlBajpapcKo (jieAepajino Behe caonuiTHhe npncTyiiaaa BnaAaMa cbhx 3eMajta y HHje HMe KoHBP.rniHja 6yAe 6njia moTraicaHa huh npncTyn HCToj hothiJihKOBaH.
+
+## Hjih 95.
+
+PaTHO CTaiie CTBopnhe OAMax AejcTBo AenoHOBaHHM paTH(|)HKail,HjaMa H HOTII(J)HKOBaHHM npHcxyHHMa oa CTpaHe 3apaheHHX Chuia npe hjih nocjie noneTKa HeupHjaTejbCTaBa. IIlBajpapcKio (JieAepajiHo Behe caonmxaBahe HajdpsKHM riyxeM paTHijiHKapHje hjih npncTynasa npHMJteHe oa Cnjia Koje ce Hana3e y paTHOM cxaifcy.
+
+## Hjian 96.
+
+CBaita oa Bhcokhx CipaHa yroBopHHqa HMahe moryhHocT Aa OTKajKe OBy KoHBeHipijy. 0xKa3 he mara AejcTBo Ten Ha jeAHy roAHHy AaHa noniTo je HOTHijiHKau,Hja HCTora HanncMeHO dHJia yHHH&gt;eHa niBajpapcKOM cfieAepajiHOM Behy. Obo he Ty HOTHijiHKapHjy caonihthth cbhx Bhcokhx
+
+B.naAaMa OTpaHa yroBopHHpa,
+
+OTKa3 BajKnhe caMo y noraeAy OHe Bhcokc Opane
+
+yroBopHHpe Koja ra 6yAe HOTH(|)HKOBajia.
+
+CeM Tora, Taj 0TKa3 nehe BaamrH y Tony jeAHora paTa y Kojn 6h 6njia yMeniaHa Cnjia Koja je OTKa3 ynnHHna. y tom cjiynajy, OBa KoHBeiipHja he BasKHra h HHAajBe, npeK.o pona oa roAHHe AaHa, CBe ao 3aKJByiieH&gt;a MHpa h, y cbhkom cjiynajy, CBe aok ne dyqy 3aBpineHe onepaunje panaxpupaiba.
+
+## HjlaH 97.
+
+JeAaH oBepeHH npennc OBe KoHBeHipje AenoHoBahe ce y apxHBH /IpyiuTBa HapoAa CTapaaeM nreaj- au nom de tous les pays represents a la Conference qui s'est ouverte a Geneve le 1-er juillet 1929.
+
+## Article 91.
+
+La presente Convention sera ratifiee aussitot que possible.
+
+Les ratifications seront deposees a Berne.
+
+II sera dresse du depot de chaque instrument de ratification un proces-verbal dont une copie, certifiee conforme, sera remise par le Conseil federal suisse aux Gouvernements de tous les pays au nom de qui la Convention aura ete
+
+signee ou l'adhesion notifiee.
+
+## Article 92.
+
+La presente Convention entrera en vigueur six mois apres que deux instruments de ratification au moins auront ete
+
+deposes.
+
+Ulterieurement, elle entrera en vigueur pour chaque Haute Partie Contractante six mois apres le
+
+depot de son instrument de ratification.
+
+## Article
+
+## 93.
+
+A partir de la date de sa mise en vigueur, la pre¬ sente Convention sera ouverte aux adhesions donnees au nom de tout pays au nom duquel cette Convention n'aura pas ete signee.
+
+## Article 94.
+
+Les adhesions seront notifiees par ecrit au Conseil federal suisse et produiront leurs effets six mois apres la date a
+
+laquelle elles lui seront parvenues.
+
+Le Conseil federal suisse communiquera les adhe¬ sions aux Gouvernements de tous les pays au nom de qui la Convention aura ete signee ou l'adhesion
+
+notifiee.
+
+## Article 95.
+
+L'etat de guerre donnera effet immediat aux rati¬ fications deposees et aux adhesions notifiees par les Puissances belligerantes avant ou apres le debut des hostiiites. La communication des ratifications ou adhe¬ sions re?ues des Puissances en etat de guerre sera faite par le Conseil federal suisse par la voie la plus rapide.
+
+## Article 96.
+
+Chacune des Hautes Parties Contractantes aura la faculte de denoncer la presente Convention. La denonciation ne produira ses effets qu'un an apres que la notification en aura ete faite par ecrit au Conseil federal suisse. Celui-ci communiquera cette notification aux Gouvernements de toutes les Hautes Parties Con¬
+
+tractantes.
+
+La denonciation ne vaudra qu'a l'egard de la Haute Partie Contractante
+
+qui l'aura notifiee.
+
+En outre, cette denonciation ne produira pas ses effets au cours d'une guerre dans laquelle serait impliquee la Puissance denongante. En ce cas, la presente Convention continuera a produire ses effets, au dela du delai d'un an, jusqu'a la conclusion de la paix et, en tout cas, jusqu'a ce que les operations du rapatriement soient terminees.
+
+## Article 97.
+
+Une copie certifiee conforme de la presente Con¬ vention sera
+
+deposee aux archives de la Societe des
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

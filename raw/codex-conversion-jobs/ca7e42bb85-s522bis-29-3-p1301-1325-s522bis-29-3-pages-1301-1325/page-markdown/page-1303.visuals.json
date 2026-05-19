@@ -1,0 +1,51 @@
+{
+  "created": "2026-05-19T12:13:28Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+  "page": 1303,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1303.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1303.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual-region-1",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Arg",
+      "source_context": "Handwritten note at the top right of the page."
+    },
+    {
+      "region_id": "visual-region-2",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Pero el pacto\nargentinos\ncontra la\nguerra contie\nne sanciones.",
+      "source_context": "Handwritten note in the right margin, next to the second paragraph of the right column."
+    },
+    {
+      "region_id": "visual-region-3",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Y ese pacto\nestá abierto\na la firma\nde países\nno ameri-\ncanos!",
+      "source_context": "Handwritten note in the right margin, below the previous note and next to the second paragraph of the right column."
+    },
+    {
+      "region_id": "visual-region-4",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "¡En el fondo\ntodo esto\nrevela el\ncriterio de\nestar a\nlas ma-\nduras, pe\nro no a\nlas verdes!",
+      "source_context": "Handwritten note in the right margin, below the previous note and next to the end of the second paragraph and beginning of the third paragraph of the right column."
+    },
+    {
+      "region_id": "visual-region-5",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "¿Es esa,\nacaso,\nla tradi-\nción ar-\ngentina?\nEso tiene\notro\nnombre.",
+      "source_context": "Handwritten note in the right margin, below the previous note and next to the third paragraph of the right column."
+    }
+  ],
+  "flags": []
+}

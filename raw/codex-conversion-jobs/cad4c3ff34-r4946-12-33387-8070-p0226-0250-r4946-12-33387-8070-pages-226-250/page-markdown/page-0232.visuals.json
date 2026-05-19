@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T12:14:33Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/manifest.json",
+  "page": 232,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-images/page-0232.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-markdown/page-0232.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "illustration",
+      "caption_literal": "LAELIA PRAESTANS",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration depicts a large purple orchid with green leaves and detailed line drawings of its parts. The caption is printed vertically to the right of the illustration.",
+      "confidence": "high",
+      "inline_anchor": "LAELIA PRAESTANS",
+      "bbox_pct": [
+        9.5,
+        7.5,
+        90.5,
+        50.0
+      ],
+      "bbox_pixels": [
+        123,
+        137,
+        1212,
+        942
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0232/page-0232-image-01-illustration-laelia-praestans.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0232/page-0232-image-01-illustration-laelia-praestans.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-images/page-0232.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/manifest.json",
+      "page": 232,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-markdown/page-0232.md"
+    },
+    {
+      "region_id": "visreg_2",
+      "kind": "illustration",
+      "caption_literal": "MASDEVALLIA FENESTRATA",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration shows a plant with multiple smaller purple flowers, green leaves, and roots, accompanied by line drawings of its parts. The caption is printed vertically to the left of the illustration.",
+      "confidence": "high",
+      "inline_anchor": "MASDEVALLIA FENESTRATA",
+      "bbox_pct": [
+        9.5,
+        50.0,
+        90.5,
+        92.0
+      ],
+      "bbox_pixels": [
+        123,
+        934,
+        1212,
+        1729
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0232/page-0232-image-02-illustration-masdevallia-fenestrata.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0232/page-0232-image-02-illustration-masdevallia-fenestrata.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-images/page-0232.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/manifest.json",
+      "page": 232,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-markdown/page-0232.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

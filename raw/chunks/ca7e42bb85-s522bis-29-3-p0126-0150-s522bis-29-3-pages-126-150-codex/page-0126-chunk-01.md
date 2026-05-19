@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-975a4584d5b0-P0126-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
+converted_sha256: 975a4584d5b0dd5cd00b69f7a9780634561e33536b390e0c77395d4b9225a1f1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
+page_start: 126
+page_end: 126
+part: 1
+---
+
+# Page 126
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
+- Source page: 126
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-images/page-0126.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+\_ Esa ley de aduana que proyeetaba la comisiôn, y que nosotros hacenlos nuestra, aumenta los derechos de aduana al 50 por ciento de los siguientes articulos que antes pagaban 25 por ciento : articulos de bronce que no sean para fines industriales, las confeceiones de seda, la plateria, las plumas-que el senor ministro sc quejaba de que pagan poco impuesto por estai- mal aforadas-, la plata y la electro plata. Aumenta a 40 por ciento el de 25 que antes pagaban las alfombras y tripes, las mayôlieas, porcelanas, eristales y terracotas ; au¬ menta dereehos insignifiantes a articulos como bastones y pipas, pero en cambio disminuye en el inciso 7o. los impuestos de una sérié de articulos utiles e iinprescindibles, sobre todo, en estos momentos en que la edifieaçiôn se liace necesâria y en que ya la prensa conservadora del pais réclama para los propietarios la compensaciôn de menores tributes, a fin de que se resarzan de las pérdidas que pueda ocasionarles la nueva ley de alquileres.
+
+leyes impositivas.
+
+Hago notar a los senores diputados que el despacbo a la consideracion de la câmara tiene en este inciso el significado de una pequeiia inüdelidad de sus autores, porque se créa un pequeno derecho para articulos que esta câmara déclaré exentos de impuestos al discutirse las
+
+Figuran entre esos articulos, cuyo impuesto disminuye el proyecto que nosotros propiciamos, las bombas, malacates, los ejes y bujes para carros y earruajes, los canos de bierro galvanizado y hierro de otras clases, columnas de bierro, que antes pagaban 25 por ciento, es decir, 32, y que ahora pagarian 15, es decir 17 por ciento.
+
+Se bajan los derechos de aduana para arti¬ cules indispensables para la industria como los colores de anilina, el âeido acético, el bicromato de potasio, que alguien propuso en la comisiôn que fueran disminuidos en beneficio de la industria nacional, y se baja también el derecho al jabôn respecto del cual debo hacer una consideracion que creo pportuna
+
+En las estadisticas de la nacion figuran a veces cosas extraordinarias ; por ejemplo en el boletin del comercio exterior argentino, numé¬ ro 184 del ano pasado, en la pâg. 109, figura esta maravilla: articulos productives y articu¬ los improductivos que se importan al pais, unos merecen la simpatia de la nacion y otros que deben en lo posible no ser importados. Y fi¬ guran entre los articulos productives los especificos para curaila sarna de las ovejas, y en¬ tre los articulos improductivos los que sirven para limpiar y curai* las enfermedades de la gente entre los cuales esta el jabôn. De manera que es productivo aeâ que las ovejas estén limpias, y es improductive aue estén limpios los hombres.
+
+La comisiôn de presupuesto anterior dismi¬ ss0 también los derecbos que pesaron sobre el asfalto y roeâ asfalto, sobre ladfijias refractarios al fùego, tramos de hierro para puentes y alcaiitarillas y llevô a la categoria de libres de derecbos a algunos articulos muy importantes, sobre todo de los que antes se coüsignaban en el inciso referente a derechos especificos. Han desaparecido de ese inciso, unos para ir a los que pagan 5 por ciento, y otros para ir a la categoria de exentos de derechos, el almidôn, las arverjas, la cebada, el centeno, huevos, lentejas, manteca, mani. niiez, queso y pescado.
+
+Todas esas no son medidas insignificantes que puedan considerarse que no tengan importancia para que la câmara no las considé¬ ré; son medidas de alta politica enca»3Înadas a disminuir en lo posible el encareeimiento de la vida popular, y que no pueden considerarse como que tratan de perjudicar a la industrie
+
+nacional.
+
+La aduana argentina si algmia vez ba podido considerarse como un factor de estimulc para las industrias, es dificil que se la pueda considéraiasi en este momento en que gra¬ va a las dos grandes industrias madrés del pais, a la agricultura y a la ganaderia, con fuertes derechos a la exportaciôn, tribute tan pesado que llega a ser el 33 por ciento del producido de la aduana, que ha dado 96 millones en 1920. a mas del famoso impuesto adicional al fijo euyos brillantes resultados la câmara ba £&gt;odido constataien la exposiciôn que es ba hecho bace un momento. La aduana es entonces cualquier cosa menos protectora; es un instrumente sôrdido fiscal que obtiene dipero donde lo encuentre, y que es necesari» reducir a limites tolérables.
+
+Esta es una iniciativa nuestra en la que insistimos con mucha tenacidad, acaso porque sea uno de los mas grandes honores del partido soeialista haberla propieiado. Somos el grnpo politico que con mas autoridad podemos hablar de estas cosas en la câmara. Ninguno de nosotros ba venido a proponer medidas contra¬ rias al progreso, aumentando las barreras aduaneras, en cambio todos los nuestros, en toda su acciôn parlamentaria y politica, ban contribuido con efieaeia a la disminuciôn pro¬ gressa de estos derecbos, cosa que no ban he¬ cho los distintos grapos politicos que aqui tie-
+
+nen-representaciôn.
+
+Pesa como la responsabilidad mâs grande so¬ bre el partido gobemante baber conspirado contra el bienestar popular eneareciendo los consumes eon un doble juego de medidas : una politica fiscal y una politica monetaria desastrosa, vergonzosa que ha puesto el honor del pais a un nivel muy bajo, que ha comprometido considerablemente la fe nacional, y al mismo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

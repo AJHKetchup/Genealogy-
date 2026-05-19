@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:15:06Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4749-11C-17499-5398.pdf",
+  "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+  "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/manifest.json",
+  "page": 178,
+  "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-images/page-0178.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-markdown/page-0178.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "A sepia-toned photograph of a classroom with male students seated at desks and an instructor near a blackboard. The blackboard displays a verb conjugation exercise in English and Latin.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-elements",
+      "source_context": "The photograph depicts a classroom setting, likely from an educational institution. The blackboard text provides context for the subject being taught.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.99,
+        17.3,
+        81.99,
+        85.7
+      ],
+      "bbox_pixels": [
+        289,
+        201,
+        1420,
+        1019
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/extracted-images/page-0178/page-0178-image-01-classroom-verb-conjugation-exercise.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/extracted-images/page-0178/page-0178-image-01-classroom-verb-conjugation-exercise.png",
+      "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-images/page-0178.jpg",
+      "source": "raw/sources/R4749-11C-17499-5398.pdf",
+      "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",
+      "job_manifest": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/manifest.json",
+      "page": 178,
+      "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0176-0200-r4749-11c-17499-5398-pages-176-200/page-markdown/page-0178.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

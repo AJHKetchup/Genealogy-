@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a4f3f5a64c83-P0146-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: a4f3f5a64c830bbf7197a9b54d3398d5859d9e449a0425cc03b3c5c18c151cba
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 146
+page_end: 146
+part: 1
+---
+
+# Page 146
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json`
+- Source page: 146
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0146.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+trellas; y 4° de los cambios de nuestro conjunto estelar (la Galâctica) en el espacio, con relaciôn a otras nebulosas. En mi concepto pareciera dificil tal determinaciôn, por cuanto aûn ignoramos el va¬ lor real de algunos de estos movimientos. Asi, pues, el deslizamiento total que pretendian poner de manifiesto los expérimentes de Michelson no se bizo présente, a pesar de los sinceros deseos de éste, porque ello nos habria conducido a conceptos aûn mâs caôticos que aquellos a que dio lugar la pretendida contradicciôn entre el fenômeno de la aberraciôn y la teoria ondulatoria. Asi algunos espiritus sagaces se atrevieron a pensar cuando supieron de esos ex¬ perimentos: "No tenemos derecho de suponer en reposo absoluto el medio en el cual se propaga la luz; puede éste quizâs desalojarse en el espacio cou nuestra Via Lâctea, con relaciôn al vehiculo que trasmite la gravitaciôn, por ejemplo" (*).
+
+Ademâs, esos espiritus tuvieron que pensar, a priori, y con anterioridad al experimento de Michelson, en el arrastre total del éter, porque sabian que el aire es dieléctrico, y la existencia del dieléctrico no se puede imaginai* sino con el arrastre total del éter.
+
+PARMENIDES.-l'ero, ^enfonces olvidas el expe¬ rimento clâsico de Fizeau?
+
+GORGIAS.-En forma alguna, y aun cuando la precision de él no me convence del todo, el pretendido arrastre parcial del éter por el sistema diôptrico en movimiento, que de ese experimento quiso sacarse, no es otra cosa que el fenômeno de la aberraciôn. "Se ha logrado recientemente demostrar de manera rigurosa que tal experiencia, al interpretarla con la teoria mecânica de la refracciôn de la luz en el caso de dos medios diâfanos en movimiento relativo, no confirma la liipôtesis de Fresnel respecto del arras¬ tre parcial del éter por la materia, sino todo lo con¬ trario. La teoria geométrica de la refracciôn debida a Huyghens, y aceptada por Fresnel, no concordaba, en el caso del movimiento de medios diâfanos, con el principio de la menor acciôn, ni tampoco con la experiencia, pues no explica la aberraciôn de la luz. La hipôtesis de Fresnel (arrastre parcial) tendia a enmendar el error. Asi la experiencia de Fizeau pré¬ senta, como es natural, el fenômeno de la aberraciôn de la luz, y al interprétai' dicha experiencia por la teoria geométrica, se manifiesta la aberraciôn bajo la apariencia de arrastre parcial, como deberia suceder"
+
+(**).
+
+Desde luego, pues, indica el buen sentido que no hay tal deslizamiento total del éter a través de los medios diâfanos en movimiento, ni tampoco arras¬ tre parcial del misino por esos medios, sino arrastre total. Pero, «rquién cree ahora en el buen sentido?
+
+CRISTIAS.-Y esto aceptando la existencia del éter, ente metafisico al cual hay que dotai' de las mâs insôlitas y contradictorias cualidades. Segun los fisicos modernos, el término éter se refiere de modo general a "cierta entidad
+
+especial que llena todo el espacio, sin separaciôn, cavidad, ni vacîo alguno, en forma de una realidad fisica omniprésente, y de la cual la materia misma es una de sus modificaciones en el universo material".
+
+(*) "La paradoja de la Optica matemâtica"-Julio Garavito A. (**) "La
+
+paradoja de la Optica matemâtica"-Julio Garavito A.
+
+Evidentemente, esta definiciôn es tan vaga, tan metafisica y abstracta, que se escapa a toda concepciôn nuesfra por los sentidos, que son los medios de contacto, como lo expresa Locke, entre nuestro entendimiento y el inundo externo (*). Asi, de las propiedades del éter podemos tener la idea que nos venga en gana, ya que ellas estân por encima de todo el mundo fisico. Si se trata de la densidad y de la elasticidad, por ejemplo, de este fluido misterioso imponderable, llegamos a la conclusiôn de la Fisica moderna que adopta la materializaciôn electromagnética del âtomo de Rutherford, de que hablaré luégo, de que en términos de propiedades materiales, la inercia del éter es del orden de las masas de 1.000 toneladas por milimetro cûbico, siendo su elasticidad igual a su densidad multiplicada por el cuadrado de la velocidad de la luz. Ademâs de esta fantâstica densidad y de su elasticidad mâs fantâstica e inconcebible, el éter debe poseer una transparencia perfecta, no disipando energia alguna a través de su masa, pues de lo contrario las nebu¬ losas espirales situadas a distancias énormes de nosotros, no podrian enviarnos su luz. No puede haber fricciôn alguna entre el éter y la materia, pues al haberla, el movimiento planetario sufriria modifi¬ caciones que ya la Mecânica celeste hubiera puesto en evidencia. En el éter no puede haber, pues, viscosidad, ni fricciôn fluida alguna; no hay calor, ni sonido, ni manifestaciôn elâstica alguna distinta de la que aparece en la propagaciôn por ondas de la energia a una velocidad constante y definida que debe ser, segun algunos, la velocidad de la luz, la ve¬ locidad universal. De acuerdo, pues, con la Fisica moderna, y hablando en términos concretes, el éter es un fluido imponderable y continuo de una den¬ sidad infinita, de una elasticidad infinita, de una movilidad absoluta y de una tenuidad infinita, pues¬ to que pasa a través del espacio interelectrônico que constituye el âtomo, con la misma facilidad con que lo hiciera a través de los espacios interplanetarios. Ademâs de esto, es infinitamente diâfano y diatérmano, puesto que transmite el calor y la luz, por radiaciôn sin absorciôn alguna en los espacios infini¬ tes, y posee toda la energia eléctrica potencial, y la magnética, en los campos de fuerza de lineas rnagnéticas y eléctricas concadenadas, tal como se ex¬ plica la propagaciôn de la luz en la teoria electro¬ magnética de Maxwell. Ciertamente, parece imposible que de tal fluido inmaterial y esencialmente misterioso, podamos formarnos idea fisica aceptable, y enfonces al imaginarlo los fisicos han colmado una laguna insondable en la posibilidad de nuestros conocimientos reaies, con una hipôtesis metafisica de carâcter teolôgico incompatible con los métodos ex¬ périmentales de investigaciôn usados anteriormente,
+
+(*) "Nihil est in intellectu quod primum non fuerit in sensu".
+
+Aristôteles.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

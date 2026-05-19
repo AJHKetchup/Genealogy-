@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a0b722c5df59-P0001-03
+chunk_id: CHUNK-c987ad81085e-P0001-03
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: a0b722c5df59d4572b4ca2dec137e813da45368d2f7d7d4aebf3b308ab278ef7
+converted_sha256: c987ad81085e11341a26eaa4c7aea98888e4917bdcd24d45979f96159e21c96b
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -44,43 +44,42 @@ part: 3
 ```
 
 ## Page Metadata
-- Page number: 10
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+Page number: 10
 
 ## Layout And Reading Order
-The page consists almost entirely of a single large color photograph. A handwritten page number is present at the bottom center of the page.
+The page features a single, full-page color photograph. A handwritten page number is present at the bottom center of the page.
 
 ## Literal Transcription
 10
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [3.0, 3.0, 97.0, 96.0]
-  - Source context: The main content of the page is this photograph.
+- ![converter-description: A full-page color photograph showing a herd of cattle near a watering hole, with a person on horseback in the mid-ground and another on a distant hill. The landscape features dry ground, sparse vegetation, and rolling hills under a hazy sky.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hills.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [0.0, 0.0, 100.0, 99.0]
+  - Source context: The primary visual content of the page.
 
-The page features a large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.
+The page is dominated by a full-page color photograph depicting a pastoral scene. In the foreground, a body of water (likely a pond or watering hole) is visible on the left, with dry, textured ground extending to the right. A herd of cattle, varying in color (brown, black, white, and spotted), is scattered across the ground, some appearing to be moving towards or away from the water. In the mid-ground, a person on horseback is visible among some sparse vegetation and rising terrain. Further back, rolling hills covered in scrub and some trees extend into the background under a hazy sky. Another person on horseback is visible higher up on the right side of the hill.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-The page is complete.
+The page is fully transcribed and all visual elements are described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "vis-001",
       "kind": "photograph",
-      "bbox_pct": [0.03, 0.03, 0.97, 0.96],
-      "caption_literal": "A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.",
+      "bbox_pct": [0.0, 0.0, 100.0, 99.0],
+      "caption_literal": "A full-page color photograph showing a herd of cattle near a watering hole, with a person on horseback in the mid-ground and another on a distant hill. The landscape features dry ground, sparse vegetation, and rolling hills under a hazy sky.",
       "caption_type": "converter-description",
       "identity_basis": "visual-only",
-      "source_context": "The main content of the page is this photograph.",
+      "source_context": "The primary visual content of the page.",
       "confidence": "high",
-      "suggested_filename": "cattle_watering_hole_hilly_landscape"
+      "suggested_filename": "cattle_watering_hole_hills"
     }
   ]
 }
@@ -192,6 +191,7 @@ All visible text and handwritten notes on the page have been transcribed.
 ```
 
 ## Page Metadata
+
 - Task id: `source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0012`
 - Model route: `pro`
 - Route reasons: simple_page, prior_max_tokens
@@ -208,32 +208,25 @@ All visible text and handwritten notes on the page have been transcribed.
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The reading order is from top to bottom.
 
-1.  A header line at the top of the page.
-2.  A paragraph describing the process of making condensed milk.
-3.  A section titled "LA FABRICA DE TARROS" (The Can Factory), which includes a short horizontal rule and some stray characters, followed by a paragraph describing the can-making process.
-4.  A section titled "LA PANADERIA MODERNA" (The Modern Bakery), followed by a paragraph describing the bakery's process.
-5.  A short horizontal rule.
-6.  A centered line at the bottom: "CRONICAS POR EL PERIODISTA x".
-7.  A handwritten page number "12" at the bottom center of the page.
+The page contains a single column of typewritten text. The content is divided into three main sections, each describing an industrial process. A centered byline appears below the main text. A handwritten page number is at the bottom center of the page.
 
 ## Literal Transcription
+
 ```text
 ERO GIGANTE ENERO FEBRERO EL AGUILA
 ---
 
-LEVAN A ENORMES TANBRES, LUEGO DE ESTOS TAMBORES PASA A OTROS TAMBORES
+LEVAN A ENORMES TAMBRES, LUEGO DE ESTOS TAMBORES PASA A OTROS TAMBORES
 DONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
 DONDE SE ENFRIA LUEGO SE LE ECHA ALMÍBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
-YA PREPARADA. LOS TARROS ANTES DE SER LLEBADoS SON DESINFECTADOS POR
+YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
 CALOR,LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
 PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAI MISMO
-. LOS TARROS SONTL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
+, LOS TARROS SONTL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
 LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
-LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO.
-
+LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCABRIL CERCANO.
 LA FABRICA DE TARROS
 6Y
 LSAS
@@ -245,9 +238,8 @@ PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA POME UNA TAPA LA DE ABAJO
 LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXHAX DE AHI A
 LLENARSE
 ---
-
 LA PANADERIA MODERNA.
-LA ENPRESA VISITÓ LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
+LA ENPRESA VISITÓ LA PANADERIA MODERNA DE LOS ANGELES DEL SR RINCON
 QUIEN NOS ENSEÑO SU PANADERIA; UNA MAQUINA REVUELVE EL PANAN U LUEGO
 OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MÁQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
@@ -260,27 +252,30 @@ CRONICAS POR EL PERIODISTA x
 ```
 
 ## Images, Captions, And Visual Notes
-The page contains only typed text. At the bottom center, the page number "12" is handwritten in red ink.
+
+- The page is typewritten on aged, yellowish paper.
+- A handwritten page number, "12", is present at the bottom center of the page in what appears to be red ink or pencil.
 
 ## Uncertain Or Illegible
-- `DEXHAX`: This word is clearly typed but its meaning is obscure. It may be a significant typo.
+
+- `DETERM NADO`: Appears to be "DETERMINADO" with a space in the middle.
+- `LLECCHE`: Likely a typo for "LECHE".
+- `LLEBADOS`: Likely a typo for "LLEVADOS".
+- `MICROVIOS`: Likely a typo for "MICROBIOS".
+- `HAI`: Likely a typo for "AHI".
+- `SONTL`: Likely a typo for "SON".
+- `TODAD`: Likely a typo for "TODA".
+- `ENBALADOS`: Likely a typo for "EMBALADOS".
+- `6Y` and `LSAS`: These appear between "LA FABRICA DE TARROS" and the horizontal line. Their meaning is unclear; they may be typos or stray characters.
+- `ENVACESE`: Likely a typo for "ENVASE".
+- `POME`: Likely a typo for "PONE".
+- `ESTERELISADOR`: Likely a typo for "ESTERILIZADOR".
+- `DEXHAX`: Likely a typo, possibly for "DEJAN".
+- `ENPRESA`: Likely a typo for "EMPRESA".
+- `PANAN U`: Likely a typo for "PAN Y".
+- `FESJA`: Likely a typo, possibly for "DEJA".
+- `ENREGA`: Likely a typo for "ENTREGA".
 
 ## Completeness Audit
-This page has been fully transcribed. All text, including headers, body content, and the handwritten page number, has been captured.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and a handwritten page number, with no significant images, illustrations, or complex visual elements that would warrant cropping."
-}
-```
-
-## Page Metadata
-- Page number: 13
-- Publication: EL AGUILA
-- Edition: EDICION GIGANTE
-- Date: ENERO - FEBRERO
-
-## Layout And Reading Order
-This page is a single column of typewritten text. It begins with a header, followed by several short articles or notes. A small calendar for February 1956 is glued to the bottom portion of the page. The page number "13" is visible at the bottom right.
+The page has been fully transcribed. All text, including headers, body content, byline, and the handwritten page number, has been captured.

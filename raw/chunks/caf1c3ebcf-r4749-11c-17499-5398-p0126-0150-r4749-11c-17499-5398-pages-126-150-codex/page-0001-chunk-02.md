@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-7dc9cb03a5ca-P0001-02
+chunk_id: CHUNK-0ff64b8cae25-P0001-02
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150.codex.md
-converted_sha256: 7dc9cb03a5cacdd22afec220b360f561419c8e3dea712720f39d979a132690ed
+converted_sha256: 0ff64b8cae251310dbb8d00a6243c760c9bbb3220c734156da8dedf2e590425f
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/manifest.json
@@ -60,32 +60,34 @@ All visible text and significant visual elements on the page have been transcrib
 ```
 
 ## Page Metadata
-Page 131
+- Page number: 131
 
 ## Layout And Reading Order
-The page contains a single handwritten note on a small, light-colored piece of paper with a perforated top edge. The text is arranged in seven lines, with some text struck through and a punched hole affecting the second line.
+The page contains a single, small, rectangular piece of paper with handwritten text. The top edge of the paper is perforated. There is a hole punched through the paper near the top left. The text is written in French, with one line struck through.
 
 ## Literal Transcription
 Miss Ray
 Quel dossier préférez-vous
 pour cette lettre s.v.p. ?
-~~H.A. 29910.25170~~
+~~HA. 29910.25170~~
 ou TIC. 17499. 5398 // ici s'il y a E.
-(ce dernier est chez vous).
-bon.
+(ce dernier est chez vous). bon.
 
 ## Images, Captions, And Visual Notes
-The document is a small, rectangular piece of paper, light tan in color, with a perforated top edge. There is a circular punched hole in the paper, located on the second line of text, partially obscuring the letter 'd' in "dossier".
+- The page displays a small, light-colored rectangular slip of paper with a perforated top edge.
+- A circular hole is punched through the paper, located approximately at the coordinates [29, 29] relative to the top-left of the slip.
+- All text is handwritten in dark ink.
+- One line of text, "HA. 29910.25170", is struck through with two horizontal lines.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and significant visual features.
+The transcription is complete and captures all visible text and significant visual features on the page.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains a single handwritten note. The punched hole and perforated edge are physical characteristics of the document itself, not separate visual assets to be cropped."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a small slip of paper with handwritten text. The visual elements (perforated edge, hole, strikethrough) are described in the 'Images, Captions, And Visual Notes' section and do not warrant separate crop boxes as they are integral to the document's physical form rather than standalone visual assets."}
 ```
 
 ## Page Metadata
@@ -322,6 +324,3 @@ This page has been fully transcribed. All typed text, handwritten notes, signatu
 
 ## Page Metadata
 - Page number: 135
-
-## Layout And Reading Order
-The page contains a single column of typed text in French, with a handwritten note and a red stamp in the top-left corner. The text is structured with a main title, subtitle, date, section title, and several paragraphs, including a bulleted list (a-e).

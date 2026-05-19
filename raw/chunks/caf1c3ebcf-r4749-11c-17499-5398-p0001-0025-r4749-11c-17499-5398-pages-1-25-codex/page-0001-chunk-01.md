@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-df0d8db38b1f-P0001-01
+chunk_id: CHUNK-9da3cf8c6823-P0001-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: df0d8db38b1fc6076333e3fa53b80733d53ef8e89b5259df68435b56da6850f6
+converted_sha256: 9da3cf8c68235175b9eb9dfb3c0078fdd2e7888a49e686b9382dbadf79f31566
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -99,25 +99,31 @@ All visible text and structural elements have been transcribed.
 Page 2
 
 ## Layout And Reading Order
-The page consists of a plain, light brown sheet of paper. A white binding strip is visible along the right edge, with a single hole punched through its top portion. Handwritten text is present in the upper-middle section of the brown paper.
+
+The page is a light brown, mostly blank sheet of paper. There is a handwritten note in the upper-middle section of the page. Along the right edge, there is a white fabric binding strip with a single punched hole at the top.
 
 ## Literal Transcription
+
 ```
-11ᶜ / 3.1.
+//c/3.1.
 ```
 
 ## Images, Captions, And Visual Notes
-The page is a plain, light brown sheet of paper. A white fabric or paper binding strip runs along the right edge of the page. A single circular hole is punched through the top right corner of the binding strip and the page itself, suggesting it was part of a bound volume or folder. The handwritten text "11ᶜ / 3.1." is located in the upper-middle section of the brown paper.
+
+The page features a white fabric binding strip along the right edge, which is part of the document's physical construction. At the top of this binding strip, there is a single circular hole, likely for binding the pages together.
 
 ## Uncertain Or Illegible
-The superscript 'c' in "11ᶜ" is slightly stylized but appears to be a 'c'. The rest of the text is clear.
+
+None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.
+
+All visible content on the page, including the handwritten note and the physical characteristics of the page (binding strip, hole), has been transcribed and described.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only minor handwritten text and a binding strip, which do not constitute substantial visual assets for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only a handwritten note and a binding strip, neither of which are substantial visuals requiring cropping."}
 ```
 
 ## Page Metadata

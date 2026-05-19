@@ -1,0 +1,120 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-975a4584d5b0-P0128-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
+converted_sha256: 975a4584d5b0dd5cd00b69f7a9780634561e33536b390e0c77395d4b9225a1f1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
+page_start: 128
+page_end: 128
+part: 1
+---
+
+# Page 128
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
+- Source page: 128
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-images/page-0128.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+'
+
+cado de dos dîas de Bahia Blanca y prefiera que comamos corbina fresea de Montevideo.
+
+Sr. Molina. - Es exacta la cita del senor diputado; pero el senor diputado ha debido olvidar o no leer un proyecto general mio en ese mismo Diario de Sesiones. El senor diputado ha encontrado un détail© y lo menciona sin acordarse de que en ese mismo tomo se encuentra un proyecto del diputado Molina pidiendo la rebaja de los derechos al azûca.r y a todos los articulos de consumo en
+
+general.
+
+Al protéger la madera del pais, he tratado de protéger al artîculo mas usado en las construceiones econômicas, baratas, y era una ûnica excepciôn que yo liaeia - y si el senor dipu¬ tado lee el proyecto general puede eomprobarlo :-a la
+
+rebaja general.
+
+Sr. Pinedo. - Le lie oklo al senor diputado un consejo que, dada su edad y la mîa, lie creîdo conveniente aceptarlo. Me ha dicho el senor diputado, repitiendo una viejisima frase, que el liombrc es el unico animal que aprende, que cambia de opinion, y que debiamos cambiar de
+
+opinion euando encontremos una mejor.
+
+-El senor diputado Molina hace interrupciôn en voz baja, que no sq alcanza a pereibip,
+
+Celebro que el senor diputado Molina sea un sosteneuor entusiasta de la reforma impositiva. Si he traîdo este ejemplo de un diputado del prestigio del senor diputado por la Capital, es para ver si en algun otro diputado se insinua el propôsito de que de aqui veinte o treinta anos le reeordemos su evoluciôn, festejando algun nuevo progreso de la legislaciôn general del pais. He traido el ejemplo de un legislador tan considerado por sus colegas, para hacer comprender a los senores diputados que me escuchan que no sera ningun pecado el que los seno¬ res diputados abandonen una politica financiera que no conduce a buenos resultados y adopten el fruto de la experiencia de antiguos legisladores, que nunca han descuidado los intereses de la industria .nacional y que hoy abogan con tanto entusiasmo, como se ve, porque aun los derechos sobre el fierro por el que antes
+
+pedian protecciôn -- sean suprimidos.
+
+Propongo, entonees, en conereto que se agreguen al artîculo que se ha votado estos dos agregados: uno estableciendo la obligaciôn del poder ejecutivo del pago sin quebranto de la ileuda pûblica en el inciso I) del despacho votado; y el otro en lo que se refiere a las leyes de aduana exceptuando esas leyes de las que se prorroga por el artîculo votado y reproducieudo el del despacho de la comision que presidîa el senor
+
+diputado Molina.
+
+Nada mas.
+
+SrPereyr-a Rozas. --Pido la palabra.
+
+.
+
+Para proponer como agregado al artîculo lo., un asunto que es de justieia y que ha de ser simpâtico.
+
+El agregado que voy a leer, y que explicaré brevemente. es el siguiente : incorpôrase al presupuesto de gastos, anexo F, inciso 7, a continuacion de la partida 4, las siguientes. Antes de leerlas, debo decir que eorresponden a 27 einpleados que prestan sus servicios en la sastrerîa militar.
+
+Esos servidores, que tienen desde un mes de servicios hasta, algunos, 18 afios, no son empleados nacionales. de modo que estos servicios se pierden para ellos y no tienen, a medida que los anos avanzan y van teniendo el mismo numéro de anos que otros servidores o trabajadores va sean oficiales o de los distintos gremios, los derechos correspondientes a la jubilacion, no obstante dependen directamente del ministerio de guerra. Es esta omisiôn de los servicios de 27 empleados subalter¬ nes de 27 trabajadores la que yo propongo re¬ médiai', incorporândolos al presupuesto.
+
+Se trata, de los siguientes puestos: un liquidador, 400 pesos; un tenedor de libros, 880; un cajero, 320; un encargado de depôsito, 308' un corresponsal, 260; un encargado de pedidos, £80 ; un encargado de cartas y euentas corrientes, 270; un encargado de facturas y saldos, 280; un encargado de ventas, 230; un aUxiliar de liquidaciôn, 240; idem de depôsito, 210 ; idem de libros, 220 ; idem de pedidos, 220; idem de euentas corrientes, 200; idem de ventas, 200 ; idem de libros, 200 ; otro idem de libros, 200 ; un encargado de expediciôn,
+
+220; un mayordomo, 180.
+
+Ademâs: un director profesional con obligaciôn de cortar, 500; un cortador, 400; otro, 350; otro, 350; un kepisero, 270; un encarga¬ do profesional de zapaterîa, 300; un cortador,
+
+250 ; rui cortador y lustrador de suelas, 160.
+
+Esto importa al ano la cantidad de pesos
+
+87.560.00.
+
+Por una omisiôn, cuya causa no conozco ni me interesa, porque solo me preocupa el propôsito de remedialesta situaciôn que es de liecho, estos servidores no estân incorporados al presupuesto, quizâs porque hace cuatro aüos que el presupuesto no se trata con muchc detenimiento en estos asuntos o quizii poi omisiones que no es del caso ir a investigar. Como son servicios prestados desde un ano, hasta sois, siete, ocho, diez, once, doce, diez y siete y dieciocho anos de servicios efectivos, incorporando al presujmesto a quienes los han prestado y lmciéndoles los descuentos qorrespondientes para llevar los «portes necesarios a la caja, podrîan, como los demâs servidores dtl estado y de los gremios, gozar do la jubila¬ cion y del mereeido descango que tan legîtimamente merecen todos los trabajadores.
+
+,
+
+·
+
+f
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

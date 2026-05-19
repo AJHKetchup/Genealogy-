@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:41Z",
+  "created": "2026-05-19T12:11:47Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,7 +8,7 @@
   "page": 30,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/page-images/page-0030.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/page-markdown/page-0030.md",
-  "no_visual_regions_reason": "The page contains only handwritten text and a minor hole punch, which are fully captured by the literal transcription and visual notes. No substantial visual elements require cropping.",
+  "no_visual_regions_reason": "No substantial visual elements like photographs, maps, or complex diagrams are present. The hole punch is a minor detail not suitable for a standalone crop.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

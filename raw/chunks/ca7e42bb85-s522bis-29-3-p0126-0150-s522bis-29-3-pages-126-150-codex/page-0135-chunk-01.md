@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-975a4584d5b0-P0135-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
+converted_sha256: 975a4584d5b0dd5cd00b69f7a9780634561e33536b390e0c77395d4b9225a1f1
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
+page_start: 135
+page_end: 135
+part: 1
+---
+
+# Page 135
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json`
+- Source page: 135
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/page-images/page-0135.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+i
+
+■ ■ ., 'Los diputados socialistas se lian opuesto a la franquicia a las liariuas en la ley de irapnesto a la exportation y han conseguido abolir ese favor fiscal concedido a las empresas molineras a expensas de los prbduçtores de t ri pro y de los consumidores de pan'.
+
+'Por iniciativa socialista, se library de con¬ tribution directa los nuevos edificios que se eons truyan, medida urgente para facilitar la edilicatiôn de habitaeiories'.
+
+'Por iniciativa socialista se barâ este ano, si cl senado aprueba la ioy va votada por la câmara, una nueva valuation de la propiedad rais de la Capital y de los territorios, vaiuando separadamente el suelo y las eonstrucciones o mejoras'. Pero esto, senores diputados, votado por esta câmara y sancionado también por el senado de la naciôn, no lia sido realizaclo por el poder ejeeutivo. No ban tonido tiempo el présidente Irigoyen ni su imnistro Salaberry, de ordenar que se procéda a una nueva valuaciôn de la pr'opiedad raiz en la Capital y territorios ; y asi la contribuciôn territorial siguc cobrândose por valores iulimos, infinitfunente inferiores al valor real de la propiedad, esto por obra de un gobierno que tomô la iniciativa de clevar 20 por eiento l'I aforo rie todos los articulos que entran al pais'.
+
+'Por iniciativa socialista las tabernas pagan nna patente national minima de 200 pesos, las de eervezas y vinos, y de 500 pesos las de bebidas alcohôlieas màs fuertes, impuesto que lia tenido la virtud de liacer terraimâs de mil tabernas y dar al mismo tiempo mâs de dos millones de pesos al tiseo. Para el ano corriente, por iniciativa socialista, la câmara de diputados lia elevado csa patente a 800 y 600 pesos respectivamente ', Esta reformita ha merecido también la aprobaciôn del senado, que ha liecho de ella ley de la naciôn.
+
+'Por iniciativa socialista - deeiinos después, - estân sujet-os a alta patente los subarreudadores de oarapos, que se interponen entre los terratenientes y los agrieultores, pa¬ ra explotar nias n éstos',
+
+8e retiere después el papel a la iniciativa nnestra de elevar el gravamen aduanero so¬ bre ciertos articulos de lnjo. va mencionados por el diputado Pinedo.
+
+Y decimos después que 'por iniciativa so¬ cialista se ha gravado con un sello de mil pesos la vanidad de pedir autorizaciôn ai congreso para usar condecoraciones', la que ban pagado ya el gobernador y el vicegobernador de Côrdoba, y uno de sus ministres.
+
+'La cliputaeiôn socialista lia votado en ge¬ neral el proyeeto de impuesto sobre la renta. Pero lia indieado una fuente mucbb mâs im¬ portante y adecuada de recursos fiscales para
+
+rAemnlazar.- los inalns-imDuestn.s .aue. boy, ri-
+
+J
+
+j
+
+j
+
+gen; lia preseutado un proyeeto Complete de impuesto territorial nacional progresivo y de
+
+Excuse la lectura de las ultimas palabras del volante.
+
+impuesto nacional al mayor valor del suelo'.
+
+Como se ve, senores diputados, aunque lal domostraeiôn baya sido un poeo pesada y mo¬ lesta, no merece todo este trabajo la calificaeiôn ligera, superficial y banal, que se perrnitiô darle el senor diputado Pefia, por Côrdo¬ ba, que no lui iLeciie nuiiea la mener obra de reforma benéliea i u materia de impuestos y gastos publiées, q.uc siempre se lia dado por funeiôn esencial lu de mautener todos los gas¬ tos, considerândolos bucnos porque Servian intereses ereados, y la de mantener también to¬ dos los malos impuestos, que por el liecho de pagarst rutiruiriainente, ya muclios ni los
+
+sien ten. Ahora, tontinuando en la eonsideraciôn de la obra del actual gobierno de la nation en materia de impuestos, liaré notaique el dereclio de exportaciôn, que se immtiene con todo rigor eomo fut votado a principles del ano 18, sobre lo que se llamô entonces el mayor va¬ lor, es decir el excederile deL precio de los ar¬ ticulos de exportaciôn sobre ,el precio que tenian antes de Ja guerra, boy ha perdîdo toda su razôn de ser y .se cobra sobre un mayor va¬ lor fictieio, eomo lo licmos dicho y repetido. Los pretios bâsieo.s a que se refiére osa ley eran precios expresados en pesos de 44 centavos oro, y los precios de que boy se sieve el senor ministre) Salabcrrv para continuaihaeiendo esa extorsion a los produçtores rurales del pais son precios expresados en pesos de 30 a 33 centavos. Luego, el gravamen reçue sobre lin mayor valor licticio, que debiera ser dejado libre, de imposition nacional.
+
+En materia de impuestos internos el gobierno del senor Irigoyen lia niantenido todos los malos impuestos que rigen, inclusive el impuesto interno sobre lo seguros, eosa muy propia de un gobierno que fomenta y toléra el juego en muebas de sus manifestaciones, aun¬ que liaya tenido la afeetaeiôn de vetar la ley de carreras en dîas jueves, que pudo mny bien evitar fuera votaâa en esta câmara si Irabiera liecho en oportunidad una simple indicaciôn a aiguno de sus amigos, con lo que les hubiera prestado un verdadero servicio, ahorrândoles la reprimenda vergonzosa de que después bizo objeto a' los diputados que habîan votado la
+
+ley.
+
+Es muy propio de un pais clonde cl fisco saca ingentes recursos de la gran casa de juego nacional, Ja loteria, el imponer un grava¬ men a los seguros, gravamen que bajo el ac¬ tual . gobierno, en sus eifras absolutas se ha triplicado. En el ano 1920, el impuesto a los seguros ha produeido 1.603.000 pesos monedS
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/cad4c3ff34-r4946-12-33387-8070-p0251-0251-r4946-12-33387-8070-pages-251.codex.md",
+  "converted_sha256": "f21ac8e94c0bc97a53b075fb10ba27a9aceb7a528fbea2ccd65a39473c95fc28",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "source_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0251-0251-r4946-12-33387-8070-pages-251/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-f21ac8e94c0b-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/cad4c3ff34-r4946-12-33387-8070-p0251-0251-r4946-12-33387-8070-pages-251-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 1649,
+      "sha256": "fe6fca9f609ce669de6c8353a88319608af9a1b198cf8b8775a2d8b6cdecba8f"
+    }
+  ]
+}

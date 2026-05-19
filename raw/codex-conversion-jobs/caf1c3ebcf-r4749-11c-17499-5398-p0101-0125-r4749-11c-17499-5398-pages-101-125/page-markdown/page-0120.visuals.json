@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:41Z",
+  "created": "2026-05-19T12:14:47Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4749-11C-17499-5398.pdf",
@@ -8,7 +8,7 @@
   "page": 120,
   "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-images/page-0120.jpg",
   "output_markdown": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0101-0125-r4749-11c-17499-5398-pages-101-125/page-markdown/page-0120.md",
-  "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts are present. The handwritten text and dashed line are captured by transcription.",
+  "no_visual_regions_reason": "The page contains only handwritten text and a dashed line, which are best represented by literal transcription rather than as standalone visual assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

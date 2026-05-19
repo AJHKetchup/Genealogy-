@@ -1,0 +1,228 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7f021205f9c1-P0768-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778.codex.md
+converted_sha256: 7f021205f9c1d69b84058e5a880beb8ebdf4241db37eccc799b6b2500cb40e05
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json
+page_start: 768
+page_end: 768
+part: 1
+---
+
+# Page 768
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
+- Source page: 768
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0768.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+el aumento de sus tarifas y salvar asî su situacién.
+
+Voy a dar aliora algnnas cifras estadisticas que fijarân la posicién de las argumentaeiones sost'enidas. La investigaciôn de la co¬ ncision téenica municipal fija en $ 321.563.788 el valor de los capitales invertidos a fines do 1932, en todo el transporte urbano. Esa cantidad se dividia en los
+
+siguientes capitulos:
+
+Tranvias a nivel Anglo Argentina, pesos 131.570.160, que viene a représentai- el 40,92 °/o ; Compania Lacroze, $ 46.163.184, es decir, el 14,36 % ; Compania Eléctricos del Sud, $ 5.928.010, que représenta'el 1,84 %; Puerto yCiudad de Buenos Aires, $ 6.321.402, o sea, 1,97 % ; Tranvîa Subterrâneo Anglo Argen¬ tina, $ 50.695.369, lo que représenta el 15,76 %; Ferrocarril Terminal Central de Bue¬ nos Aires, subterrâneo Lacroze, $ 40.708.683, es decir, 12,66 % ; companias de omnibus, $ 34.782.337, que représenta el 10,82 % ; y los eolectivos, $ 5.394.643, es decir, el 1,68 %. Quiere decir, en definitiva, que la Compania Anglo Argentina viene a représentai-, mâs o menos, el 56 % del total de los capitales inver¬ tidos. Por eso el desenvolvimiento de su gestion y de su actuacién es interesante para fijar la posicion de cada uno en este asunto.
+
+Es interesante destacar la relacion que hay entre el aumento de la poblaeiôn de la Capi¬ tal Federal, durante cierto numéro de anos, con el de la extension kilométrica de vias de los tranvias a
+
+nivel, y el nûmero de pasajeros.
+
+En el ano 1904, eon una poblacién de 979.325 habitantes, existian 464 kilometros de vias férreas, eon un conjunto de tranvias a nivel de 1.875 y un nûmero de pasajeros annales de 169.000.000. En 1914, la poblacion llega a · 584.106 habitantes, los kilometros de vias son 807, el nûmero de tranvias a nivel 3.200 y el nûmero de pasajeros 380.000.000. En 1933 la poblaeiôn de Buenos Aires es de 2.200.000 habitantes, el nûmero de kilémetros de vias es 884, el nûmero de tranvias a nivel 3.200 y el nûmero de pasajeros 437.000.000.
+
+Quiere decir que las empresas tranviarias tenian en el ano 1933, casi 20 anos después de 1914, la misma extensién de vias y el mismo nûmero de tranvias a nivel. De manera que nada habian lieclio por mejorar su red y sus servieios.
+
+En el ano 1933 el kilometraje en conjunto îel sistema del riel, vale decir, tranvias y sublerrâneos, y a nivel, es de 884, frente a un ki'trnetraje en extensién de los automotores, de 4.000 kilémetros. El numéro de
+
+vahiçulos pa¬
+
+ra los tranvias a nivel y subterrâneos es de 3.400 frente a 4.408 automotores, y el nûmero de pasajeros es para los tranvias de 437 y 637 para los automotores, todo referido en millones.
+
+En cuanto al costo de explotacion, daré eifras que conviene destacar para el desarrollo ulterior de esta exposieion, porque se ha lie-' cho acâ por el miembro informante de la mayoria de la comisiôn una sérié de eonsideraciones un tanto raras, olvidando la importancia que tiene el capital de iniciacion y el costo de explotacion y que es mayor el primero en las redes tranviarias y menor en los automotores, pero muclio mayor el costo de explotacion de los automotores
+
+que el ciel sistema tranviario.
+
+El Boletin Municipal nûmero 3.671, en la pagina 1.112, publieé el adjunto euadro referente a los costos de explotacion de los cuatro medios de transporte de la ciudad de Buenos Aires, referidos a los anos 1928 -32.
+
+En las lineas a nivel el costo de explotacién en el ano 1928 es de $ 38.416.154, es decir, el 61 %. En el ano 1932 es de $ 33.667.689, lo que viene a représentaien el total el 33,03 %.
+
+El subterrâneo da para el ano 1928 $ 3.343.589, lo que significa en el conjunto el 5,31 %. Y en el ano 1932 la cifra de $ 5.631.251, que re¬
+
+présenta el 5,52 % sobre el total.
+
+Los omnibus dan un costo de explotacion pa¬ ra el ano 1928 de $ 20.605.858, que représenta el 32,72 °/o. Y en el ano 1932 esos gastos ascienden a la cifra de $ 48.112.478, que repré¬ senta el 47,20 %, superando asi a los tran¬ vias a nivel y al subterrâneo.
+
+Los eolectivos dan para el ano 1928, como costo de explotacién, $ 605.229, que représen¬ ta un 0,96 %. Y el ano 1932 dan $ 14.509.149, que représenta el 14,25 % como porcentaje.
+
+Finalmente - y son las ûltimas cifras que a este respecto voy a dar-, conviene senalar el numéro de vehieuïos que ascienden por eada uno de estos sistemas y los pasajeros transportados, para ver como el pûblico ha significado su preferencia por el sistema de transporte de automotores. Estas cifras corresponden al ano 1933. El nûmero de vehiculos correspondantes a ese ano es de 3.400, en el sistema de rieles; de émnibus, 1.600; microomnibus y otros eolec¬ tivos 2.808. En conjunto de todos los sistemas, 5.732.
+
+Los pasajeros transportados - doy las cifras en millones-por el sistema del riel, son $ 365.000 ; por el sistema de omnibus y eolectivos 437 mi¬ llones. Sobre el conjunto de 1.074.000.000 para todos, nos cia este porcentaje de pasajeros trans-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+- Page number: 769
+- Source: `Cámara de Senadores de la Nación, 1936.pdf`
+
+## Layout And Reading Order
+
+The page features a header with "de 1936" on the left, "CAMARA DE SENADORES DE LA NACION" in the center, and "1361" on the right. There is a handwritten number "72" in the top right corner. The main content is presented in two columns of text, read from left to right, then top to bottom within each column.
+
+## Literal Transcription
+
+de 1936 CAMARA DE SENADORES DE LA NACION 1361
+portados: 68 % para el sistema de automotores
+y 32 % para el sistema de tranvías.
+Quiere decir, que el público de la ciudad de
+Buenos Aires decididamente se ha inclinado por
+el sistema del transporte automotor.
+Voy a considerar ahora la situación del Anglo
+Argentino, que, como ya he señalado, represen-
+ta el grupo más importante, con casi el 55 %
+sobre el total del valor de las empresas ferro-
+viarias.
+Los señores concejales socialistas en la sesión
+del 15 de mayo de 1934, presentaron al conce-
+jo un proyecto estableciendo lo siguiente: «Que
+es previo a la solución del problema de los
+transportes colectivos el conocimiento de los ca-
+pitales reales de las empresas; que la fijación
+de los capitales de las empresas, sujetando su
+determinación a normas fundadas en el inte-
+rés público, tales como las adoptadas por el
+Poder Ejecutivo nacional para los ferrocarri-
+les, es tanto más necesaria cuanto que los capi-
+tales declarados han sido objetados fundada-
+mente; que en el caso particular de la Compa-
+ñía Anglo Argentina se han denunciado y pro-
+bado aguamientos considerables de su capital,
+entre otros los siguientes:
+«1º — Transformación de 260.007 acciones de
+primera preferencia, de 6 %, que representaban
+1.300.035 £ en 1.733.380 debentures de 4 %,
+con un aumento en la capitalización de £ 433.345,
+cuyo valor en pesos moneda nacional, en el año
+1909, es de $ 4.961.825.
+«2º — Transformación de 320.000 acciones de
+segunda preferencia del 10 %, o sea £ 1.600.000,
+en 640.000 acciones de primera preferencia, del
+5 %, con un aguamiento de £ 1.600.000, cuyo
+valor en pesos moneda nacional era de pesos
+18.320.000 moneda nacional.
+«3º — Transformación de £ 266.600, al 6 %,
+en £ 413.320, en obligaciones de 4 %, con un
+aguamiento de £ 146.630, cuyo valor en pesos
+moneda nacional era, en el año 1909, de pesos
+1.678.913,50 moneda nacional.
+«(Estos aguamientos, que suman 24.960.713,75
+pesos moneda nacional, fueron comprobados por
+la comisión de estudio designada por el gobier-
+no defacto).
+«Que además, con motivo de la absorción de
+distintas empresas de tranvías por la Compañía
+Anglo Argentina, se han realizado maniobras
+financieras que abultaron artificialmente su ca-
+pital; maniobras denunciadas en el seno de es-
+te Honorable Concejo, una de las cuales, reali-
+zada con motivo de la compra de la Buenos
+Aires Electric Tramways Co., significó para la
+Compañía Anglo Argentina un recargo de pre-
+cio de £ 1.179.965, que en pesos moneda nacio-
+nal importaron un aguamiento (año 1918) de
+$ 13.510.599,25.
+«Que como consecuencia de estos aguamien-
+tos, la Compañía Anglo Argentina ha percibido,
+durante largos años, fuertes sumas en concep-
+to de intereses y dividendos, por capitales que
+nunca fueron incorporados a la economía del
+país; sumas que, en realidad, fueron restadas
+a las amortizaciones que normalmente exigía la
+explotación, y a las extraordinarias que debían
+preverse, dada la rápida evolución técnica de
+los transportes.»
+Este es un aspecto del asunto; pero hay
+otros que son realmente interesantes y que
+tienen que ser insospechables para los seño-
+res representantes del sector de la mayoría.
+El concejal doctor Germinal Rodríguez, so-
+cialista independiente, vale decir, de la Con-
+cordancia, dijo el 13 de junio en el Concejo
+Deliberante, página 428 del Diario de Sesio-
+nes: «El Anglo hace una cuenta capital bien
+sencilla: cada vez que incorporaba un peso a
+su acervo, lo agregaba a la cuenta capital;
+de manera que en ésta — que es la que da
+los 20.000.000 de libras, para el año 1923 —
+figuran hasta los caballos muertos en el año
+1901».
+Estas son esas empresas serias, esos capi-
+tales benévolos y altruístas a quienes cantaba
+loas el señor senador por Buenos Aires.
+Pero hay más, todavía. En la sesión del 11
+de junio el señor concejal Justo, decía esto:
+«En el año 1907, y en algunos años anterio-
+res, se produce la concentración, en el Anglo
+Argentino, de las distintas empresas tranvia-
+rias de la ciudad, con excepción de la Compa-
+ñía Lacroze. En esa oportunidad comenzó la
+Compañía Anglo Argentina el proceso de ca-
+pitalización ficticia, que habría de llevarla a
+la situación actual. Debo de reconocer que
+los hombres que manejaban esa compañía te-
+nían un completo conocimiento del porvenir
+del país, porque se atrevieron a emitir pape-
+les sin valor, en cantidades formidables, con
+la seguridad de que el crecimiento de la ciudad
+les habría de permitir pagar, durante largos
+años, dividendos a esos capitales ficticios. Es-
+ta es la realidad, que pueden comprobar los
+señores concejales con los distintos documen-
+tos que voy a mencionar.
+«¿Cómo se realizó la concentración de las
+distintas empresas en el Anglo Argentino?
+Es un punto interesante que ha sido perfec-
+tamente aclarado por un ex concejal que no
+era socialista, por un ex concejal radical, el

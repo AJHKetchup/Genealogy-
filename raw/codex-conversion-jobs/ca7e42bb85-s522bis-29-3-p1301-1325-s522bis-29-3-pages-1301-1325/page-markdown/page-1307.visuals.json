@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:13:16Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+  "page": 1307,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1307.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1307.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "map",
+      "caption_literal": "Map of a region in Ethiopia/Sudan with place names including TESSENEI, Gondar (M. Condighers), BARENTU, ADDI ABBO, and OLCAIT. Includes a scale bar '0 10'.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "The map is located to the right of the main article text, illustrating the geographical context of the news reports.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        52.0,
+        50.0,
+        98.0,
+        90.0
+      ],
+      "bbox_pixels": [
+        642,
+        840,
+        1221,
+        1524
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1307/page-1307-image-01-map-ethiopia-sudan-region.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1307/page-1307-image-01-map-ethiopia-sudan-region.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1307.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1307,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1307.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

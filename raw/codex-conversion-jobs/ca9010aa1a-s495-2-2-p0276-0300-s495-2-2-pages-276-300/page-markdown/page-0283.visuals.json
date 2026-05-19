@@ -1,0 +1,48 @@
+{
+  "created": "2026-05-19T12:14:15Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+  "page": 283,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0283.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0283.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "ciones en nuestra imprenta\ndo la sición del público hasta el día 30\nLATA del corriente.\nUNA El contínuo desfile de personas\no de que ha presenciado esta casa desda\nl día e' momento en que se inició la eu-\nentra trega del sencillo, pero significativo\no en obsequio, demuestra con toda eviden-\nfren- cia los deseos de gran parte de\nesén- nuestra población de poseer para el\nllosa futuro un testimonio gráfico de la\npa- exteriorización del sentimiento pa-\ntriótico en el día en que la inspira-\ngala- ción de Zanelli, se levantó materia-\npre- lizada á desafiar el tiempo y á re-\nmos- cordar á las generaciones del por-\nr- venir las hazañas épicas del pre-\n- cursor de nuestra nacionalidad.",
+      "caption_type": "nearby-text",
+      "identity_basis": "converter-description",
+      "source_context": "A photograph of a crowd, described in the adjacent text as a 'contínuo desfile de personas' and a 'testimonio gráfico de la exteriorización del sentimiento patriótico'.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        69.0,
+        84.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        729,
+        2995,
+        1062,
+        3570
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0283/page-0283-image-01-crowd-patriotic-sentiment.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0283/page-0283-image-01-crowd-patriotic-sentiment.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0283.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+      "page": 283,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0283.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": [
+    "visual_region_2_visual_region_bbox_too_small"
+  ]
+}

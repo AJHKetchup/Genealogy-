@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T08:42:57Z",
+  "created": "2026-05-19T12:10:54Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
@@ -8,8 +8,16 @@
   "page": 2,
   "page_image": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/page-images/page-0002.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/page-markdown/page-0002.md",
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams. Minor stamps and handwritten notes are described in the text.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "RECEIVED IN REGISTRY 14-NOV-1929",
+      "source_context": "A stamp overlapping the main title and subtitle."
+    }
+  ],
   "flags": []
 }

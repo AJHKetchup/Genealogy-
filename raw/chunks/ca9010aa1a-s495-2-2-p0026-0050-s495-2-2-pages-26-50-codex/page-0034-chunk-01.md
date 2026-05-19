@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4b9b0e627f10-P0034-01
+chunk_id: CHUNK-403d530f79ad-P0034-01
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
-converted_sha256: 4b9b0e627f10530447b2d16dd12fb22d7720d02c55d8f1620f8ca65a648dac76
+converted_sha256: 403d530f79ad28ea51960143971a8a02e3ccd1e208ed5c007c5c35c1e6b28893
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
@@ -128,9 +128,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 1.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 35
-
-## Layout And Reading Order
-The page features a two-column layout. The main text begins in the upper left column, continues to the upper right column, then resumes in the lower left column, and finally concludes in the lower right column. Two images are present: one large image occupies the upper right portion of the page, spanning both columns visually, with its caption placed below it in the right column. The second large image is positioned at the bottom of the page, also spanning both columns, with its caption directly beneath it.

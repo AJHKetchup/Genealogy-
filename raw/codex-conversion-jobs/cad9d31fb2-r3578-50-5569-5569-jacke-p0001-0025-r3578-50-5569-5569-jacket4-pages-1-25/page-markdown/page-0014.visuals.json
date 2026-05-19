@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:39Z",
+  "created": "2026-05-19T12:14:33Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "text_block",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "IMPRIMERIE\nDU JOURNAL DE GENÈVE",
-      "source_context": "The main text block on the page, enclosed in a double-line border."
+      "source_context": "The central text block on the page."
     }
   ],
   "flags": []

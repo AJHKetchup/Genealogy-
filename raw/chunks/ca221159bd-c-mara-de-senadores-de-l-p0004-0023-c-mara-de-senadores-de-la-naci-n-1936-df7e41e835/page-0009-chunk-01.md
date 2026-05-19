@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-6927d368a593-P0009-01
+chunk_id: CHUNK-27a310cdc474-P0009-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23.codex.md
-converted_sha256: 6927d368a5937a7de72ee37e983c181d63d982e2b6dede27a7349048938b7906
+converted_sha256: 27a310cdc474427fd0b958e55c427c6da2a0a8c1f21ffec38592bdd20d5e590b
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23/manifest.json
@@ -32,73 +32,7 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-a-
-
-na
-
-en
-
-ci-
-
-0
-
-ce-
-
-ria
-
-an-
-
-rril
-
-Na-
-
-he:
-
-en-
-
-rO-
-
-En
-
-irse
-
-que
-
-ara
-
-Di-
-
-das
-
-rrO-
-
-la
-
-ara
-
-Asi,
-
-sito
-
-20
-
-dles-
-
-ias,
-
-oor-
-
-con-
-
-ber
-
-ar8
-
-Go-
-
-lon-
-
-se La circular N? 25 de 26 de Julio de 1910, transcribiô el Decreto de 15 de Julio de 1910, por el cual se declaraba que el P. E. de la Naciôn no reconocerâ como vâlida la concesiôn otorgada por la Legislatura de la Provincia de Santa Fe para la construcciôn de una via férrea que cruzaba la del Ferrocarril Central Norte. Se encargaba también a la Direcciôn General de Ferrocarriles, que vigüara para que, de acuerdo con el Decreto de 15 de Octubre 1909, no se intentaran obras de empalme u otras anâlogas.
+La circular N? 25 de 26 de Julio de 1910, transcribiô el Decreto de 15 de Julio de 1910, por el cual se declaraba que el P. E. de la Naciôn no reconocerâ como vâlida la concesiôn otorgada por la Legislatura de la Provincia de Santa Fe para la construcciôn de una via férrea que cruzaba la del Ferrocarril Central Norte. Se encargaba también a la Direcciôn General de Ferrocarriles, que vigüara para que, de acuerdo con el Decreto de 15 de Octubre 1909, no se intentaran obras de empalme u otras anâlogas.
 
 El material rodante perteneciente a lineas que no estân bajo la jurisdicciôn nacional no puede circular sobre las lineas nacionales. A este respecto, la circular N? 24 de 26 Julio 1910, transcribia un Decreto de 21 Julio 1910, por el cual no se hacia lugar a lo solicitado por el Ferrocarril Midland de Buenos Aires para hacer correr su material rodante sobre las lineas de jurisdicciôn nacional: y se notificaba a las Empresas de ferrocarriles nacionales que en lo sucesivo no deberân permitir por ningun concepto que vagones de ferrocarriles provinciales o de otras lineas, ramales o desvios que no estuvieran bajo la jurisdicciôn nacional corran sobre sus vias.
 

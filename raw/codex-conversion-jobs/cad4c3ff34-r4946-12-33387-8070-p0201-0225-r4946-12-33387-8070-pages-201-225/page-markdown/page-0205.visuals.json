@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T12:14:23Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R4946-12-33387-8070.pdf",
+  "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+  "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/manifest.json",
+  "page": 205,
+  "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/page-images/page-0205.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/page-markdown/page-0205.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "8—Ocreatus underwoodi underwoodi Les.\n9—Oxypogon guerini Boiss.\n10—Ramphomicron microrhynchum Boiss.\n11—Lophornis verreauxi verreauxi Bourc.\n12—Chaetocercus mulsanti Bourc.\n13—Klais guimeti Bourc. & Muls.\n14—Lophornis strictolophus Salv. & Elliot.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration depicts various hummingbird species, identified by the accompanying legend.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        3.0,
+        3.0,
+        97.0,
+        76.0
+      ],
+      "bbox_pixels": [
+        52,
+        37,
+        1820,
+        1032
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-01-plate-ii-hummingbirds-and-flowers.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-01-plate-ii-hummingbirds-and-flowers.png",
+      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/page-images/page-0205.jpg",
+      "source": "raw/sources/R4946-12-33387-8070.pdf",
+      "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
+      "job_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/manifest.json",
+      "page": 205,
+      "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/page-markdown/page-0205.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

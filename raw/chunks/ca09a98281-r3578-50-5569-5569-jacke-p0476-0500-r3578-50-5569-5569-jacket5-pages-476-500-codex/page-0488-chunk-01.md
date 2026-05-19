@@ -1,0 +1,158 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a5744f2cb4b4-P0488-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500.codex.md
+converted_sha256: a5744f2cb4b49a5c1af2c91451a686ab0d03c10f605f145fde76ff4cc869e514
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json
+page_start: 488
+page_end: 488
+part: 1
+---
+
+# Page 488
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json`
+- Source page: 488
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/page-images/page-0488.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+BepemiKe ca sa^aTKOM Aa 6yAy ibhxobh npeTCTaBHHH,H upe/i BojHHM BjiacTHMa h koa Cnjia 3aniTHTHHii,a,
+
+To OApe^HBaae noAJiesKahe OAoCpemy BojHe BJiaCTH.
+
+noBepeHHU,H HMahe AyacHOCT Aa npHMajy h Aa pacnopetjyjy KOJieKTHBHe noniHJLKe. TaKo hcto, y CJiyqajy aKO 6h 3apo6ji&gt;eHHii,H oatTimih Aa HBMetjy cede op'raHM3Hjy jeAaH ciicTe.M y3ajaMHor noMaraaa, to opraHH30BaH&gt;e cnaAa.no 611 y naAnejKHocT noBepeHHKa. 0 Apyre CTpane. obh he Mohn yKa3HBa™ CBojy noMoh 3apo6jbeHHiJ,HMa, Aa 611 hm ojiaKinann H&gt;HXOBy Be3y ca ApyniTBHMa 3a noMoh noMeHyTHM y nnaHy 78.
+
+y noropHMa ocjiHgHpa n iiHMa paBHnx, ocftHpiip pairra 3apo6jBeHHK HajcTapnjH y najBeheM umiy 6nhe npH3HaT Kao noopeAHHK H3Mel)y noropcKnx BJiacTH n 3apo6n&gt;eHHx o^mnrpa h inuMa paBHnx. y Ty CBpxy oh he Mohn oapcahth jeAHor 3apo6jBeHor oijiHUHpa Aa 6u My noMarao nao Tynan y TOK.y ROHifiepeHpHja ca no-
+
+TOpCKHM BJiaCTHMa.
+
+## ^InaH 44.
+
+Ako ce noBepeHHHH ynoTpebe Kao paAHHpu. h&gt;hxob pan y cboJctbv npeTCTaBHHKa paranx 3apo6n&gt;e-
+
+HHKa Mopahe ce ypanyHaTH y o6aBe3Ho Tpajaae paAa.
+
+One OJiaKuiHiie Aabahe ce noBepeHHiiHMa paAH h&gt;hxoBe npemiCKe ca bojhhm BnacTHMa h ca Ch,hom 3aiiiththhh;om. Ta npenncKa Hehe 6hth orpaHnneHa.
+
+Hh jeAaH npeTCTaBHHK PapoojbeiiHKa Hehe Mohn ohth npeMeniTeH, a Aa My ce hp ocTaBii noTpebHo BpeM-e Aa 6h Morao yBecm cBoje HacneAHHKe y Tenyhe noonoBe.
+
+TjiaBa 3. - O Ka3HSHMM caHKgujaMa y norjiegy
+
+paTHHx 3apo6jbemiKa.
+
+1. - OnuiTe OApenSe.
+
+## Hnan 45.
+
+PaTHH 3apo6n.eHHHH 6nhe noABpi'HyTH 3aK0HHMa, 11paBHnHHH,HMa h HapeA0aMa uojn Baste y apMujana Cnne Koja hx apskh.
+
+CBaKH aKT HenoKopaBaH&gt;a Aahe npaBa Aa ce npena iBHMa npeAy3My Mepe npeABH^eHe thm 3aK0HHMa,
+
+TtpaBHnHHpHMa h HapeA^aMa.
+
+OcTajy Hnait pesepBHcaHe OApeAbe oBe rnaBe.
+
+## HnaH 46.
+
+(
+
+PaTHH 3apo6n&gt;eHHipi Mohn he ce KaatmaBaTH oa cipaHe boJhhx BnacTH h cyAOBa Care Koja. hx apskh caMo ohhm Ka3HaMa Koje cy npeABH^eHe 3a HCTa Ae.ua c norneAOM Ha Bojua jmu,a AOMahnx apMHja,
+
+IIpeMa jeAHaKocTH HHHa, o(|)hhhph, noAotjiHpHpii hhh BojHHiiH pa,THH Bapob.JBeimipi KHA H3ApsKaBajy AHcminnHHCKy Ka3Hy Hehe 6hth noABprHyTH nocTynamy Maine noBOJwioM Hero iiito je oho Koje je npeABHi)eHo, c norneAOM Ha new naany. y apMHjaMa Cnne
+
+Koja ap&gt;kh 3apo6n&gt;eHHKe.
+
+SabpameHa je cBaKa TenecHa KasHa, cBaKO 3aTBapame y npocTopnjaMa Koje micy ocBeTJteHe ahbbhom cBeTnoinhy 11, yonniTe. cBaitn Ma Kaican o6jihk cbh-
+
+penocTH.
+
+des homines de confiance charges de les representer vis-a-vis des autorites miiitaires et des Puissances
+
+protectrices.
+
+Cette designation sera soumise a l'approbation de i'autorite militaire.
+
+Les hommes de confiance seront charges de la reception et de la repartition des envois collectifs. De meme, au cas ou les prisonniers decideraient d'organiser entre eux un systeme d'assistance mutuelle, cette organisation serait de la competence des hommes de confiance. D'autre part, ceux-ci pourront prefer leurs offices aux prisonniers pour faciliter leurs relations avec les societes de secours mentionnees a Particle 78.
+
+Dans les camps d'officiers et assimiles, l'officier prisonnier de guerre le plus ancien dans le grade le plus eleve sera reconnu comme intermediate entre les autorites du camp et les officiers et assimiles prison¬ niers. A cet effet, il aura la faculte de designer un officier prisonnier pour l'assister en qualite d'interprete au cours des conferences avec les autorites du
+
+## Article 44.
+
+Lorsque les hommes de confiance seront employes comme travailleurs, leur activite comme representants des prisonniers de guerre devra etre comptee dans la duree obligatoire du travail.
+
+Toutes facilites seront accordees aux hommes de confiance pour leur correspondance avec les autorites miiitaires et avec la Puissance protectrice. Cette corres¬ pondance ne sera pas limitee.
+
+Aucun representant des prisonniers ne pourra etre transfere sans que le temps necessaire lui ait ete laisse pour mettre ses successeurs au courant des affaires en cours.
+
+Chapitre 3. - Des sanctions penales a l'egard des
+
+prisonniers de guerre.
+
+1.
+
+## - Dispositions generales.
+
+## Article 45.
+
+Les prisonniers de guerre seront soumis aux lois, reglements et ordres en vigueur dans les arrnees de la Puissance detentrice.
+
+Tout acte d'insubordination autorisera a leur egard les mesures prevues par ces lois, reglements et ordres.
+
+Demeurent reservees, toutefois les dispositions du
+
+present chapitre.
+
+camp.
+
+## Article 46.
+
+Les prisonniers de guerre ne pourront etre frappes par les autorites miiitaires et les tribunaux de la Puis¬ sance detentrice d'autres peines que celles qui sont prevues pour les memes faits a l'egard des miiitaires des arrnees nationales.
+
+A identite de grade, les officiers, sous-officiers ou prisonniers de guerre subissant une peine disciplinaire ne seront pas soumis a un traitement moins favorable que celui prevu, en ce qui concerne la meme peine, dans les arrnees de la Puissance detentrice.
+
+Sont interdites toute peine corporelle, toute incar¬ ceration dans des locaux non eclaires par la lumiere du jour et, d'une maniere generale, toute forme quelconque de cruaute.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

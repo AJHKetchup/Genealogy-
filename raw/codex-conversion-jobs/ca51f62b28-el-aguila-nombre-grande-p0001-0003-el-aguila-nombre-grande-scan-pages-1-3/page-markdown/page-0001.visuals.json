@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T03:14:11Z",
+  "created": "2026-05-19T12:12:32Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -11,23 +11,23 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "vr1",
       "kind": "photograph",
-      "caption_literal": "A color photograph showing two calves in a grassy field. One dark calf is standing and grazing, while a lighter calf is lying down in the foreground.",
+      "caption_literal": "",
       "caption_type": "converter-description",
-      "identity_basis": "visual-content",
-      "source_context": "Main image on the page.",
+      "identity_basis": "converter-description",
+      "source_context": "Main visual content of the page.",
       "confidence": "0.95",
-      "inline_anchor": "",
+      "inline_anchor": "[[two_calves_in_field]]",
       "bbox_pct": [
-        0.108,
         0.0,
+        16.8,
         100.0,
         100.0
       ],
       "bbox_pixels": [
-        1,
         0,
+        1111,
         5000,
         6638
       ],

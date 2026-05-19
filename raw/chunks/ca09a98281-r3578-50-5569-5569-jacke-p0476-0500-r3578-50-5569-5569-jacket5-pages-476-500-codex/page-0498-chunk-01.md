@@ -1,0 +1,162 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a5744f2cb4b4-P0498-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500.codex.md
+converted_sha256: a5744f2cb4b49a5c1af2c91451a686ab0d03c10f605f145fde76ff4cc869e514
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json
+page_start: 498
+page_end: 498
+part: 1
+---
+
+# Page 498
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/manifest.json`
+- Source page: 498
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500/page-images/page-0498.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Tepir. OapaKepii. jiHcpepanTH, Kojn na/uiy y pyice iienpiijaxejby h 3a Koje OBaj onenn m nx Tpeda 3aApJitaTH. HJiahe upaBo ria nocTyni&amp;e Kao ca paniHM 3apo6jbeHHU,HMa, hoa ycjiOBOM ;ia byAy CHadAeneiiH jieniTiiMapHjoM 03 cTpane Bojue BJfacxH opysitaHnx CHara Koje cy nparajiH.
+
+## AEO VIII.
+
+## O H3BPLLIEI-by OBE
+
+## KOHBEHIJHJE.
+
+OflEJbAK I.
+
+## OnuiTe oapende.
+
+## Hjiaii 82.
+
+Bhcoko CTpaHe yroBopm-mc xiopahe y CBHMa iipn·jiiiKaMa noniTOBaTii o.xpeAde OBe KoHBenniije.
+
+y c.iy'ia.jy ai;o, 3a Bpexie paia. neKa oa aapahehhx cxpaiia lie 611 6n.ua yueciiHK y KoiiBenmijii. merie o.xpe.xde unai; he ocTaxii obaBesHe M3Mefj.y aapaheimx cipana iioje y iboj yuecTByjy.
+
+## Mjian 83.
+
+Bi-icoKe Cxpane yroBopmme aaApjKaBa.jv cebii upaBo aaKJby'iHBaisa cnemijajiHHx KoiiBeimiija 0 cbhMa nnxaibHMa Koja ce xnuy paxirax 3apofwi&gt;eHHKa h sa Koja 6h hh H3r,xeAajio onopTyHo Aa hx iiapounxo pe-
+
+ryjiimiy.
+
+Paxmr sapod.xniKHH yatHBahe Kopncxn H3 ti-ix crropaayMa CBe ao 3aBpmexKa panaxpHpama, cen aKO He on Tiocxojajie Hspeune npoxHBue oApeAde y nanpeA noMeHyxHM cnopasyMHMa hjih y naKH'aAHHM cnopasyMHMa, hjih, Tano hcxo. aKo He 6h jeAHa hjih Apyra oa aapahemix Ciuia npeAysejia noBO.ibHH.je Mepe v nor.xeAy
+
+3apodjbenHKa Koje 011a ap®h.
+
+y HHJLy Aa ce odeadeAH. c jeAHe h c Apyre CTpane. npmreHa OApeAada OBe KoHBe.HHH.je h Aa ce ojiaKina 3aKJbyrHBaibe cneu;HjajiHHX KOHBeiiHHja HanpeA npeABHbeiinx, aapahene cxpaHe Mohn he. hhm OTmraiy nenpn.jaxejbCTBa. oAodpiixii cacxaHKe npeACTaBHHKa pecneKTHBHHX B.xacxH KojHMa je cxaB.ibeiia y Ay®nocT ynpana naA paxmiM sapodjbeHHiiHMa,
+
+## BjiaH
+
+## 84.
+
+Teixcx OBe KoiiBeimH.je h cnenn.ja.XHHX KoiiBeHiiH.ja npeABi-iheHHX y npexxoAHOM ujiany dnhe ncxaKiiyx, yKOJiiiKo je Moryhno Ha naxepibeM jeaHKy paxHiix sapodibeHHKa, na MecxHMa rAe ra irory iipoyuaBaTH cbh sapod.jbeiiHHH.
+
+TeKCT xhx KOHBeHHH.ja caonmxiihe ce, Ha hhixob aaxxe.B. oiihm aapodJbemimiMa, koJh dn Ghjih y HeMO-
+
+ryhHocxn Aa npime k nnamy HcxaKHyxn xeKcx.
+
+## BjiaH 85.
+
+Biicone Cxpane yroBopuniie caonmxiihe jeAHa Apyroj npeKo niBajiiapcKor caBeanor Beha cjiyntdeHe npeBo.xe OBe KoiiBeimH.je. Kao h 3ai;one 11 npaBHJiHHKe Koje 6h one Mor.xe 6hxh npmiybeHe ycBojimi pa^H ode3deAe npiiMene OBe KoiiBeHiiHje.
+
+## OflEJbAK II.
+
+## O opraHH30BaH&gt;y KOHTpojie.
+
+## BjiaH 86.
+
+Biicone CxpaHe yroBopiiHii,e yBHhjajy Aa he npaBHJiiia npHiiena OBe KoHBeHiiHje Hahn rapanxHjy y mo.
+
+dants, les reporters de journaux, les vivandiers, les fournisseurs, qui tomberont au pouvoir de l'ennemi et que celui-ci jugera utile de detenir, auront droit au traitement des prisonniers de guerre, a condition qu'ils soient munis d'une legitimation de l'autorite militaire des forces armees qu'ils accompagnaient.
+
+## TITRE VIII.
+
+## DE L'EXECUTION DE LA CONVENTION.
+
+SECTION I.
+
+## Dispositions generates.
+
+## Article 82.
+
+Les dispositions de la presente Convention devront etre respectees par les Hautes Parties Contractantes et toutes circonstances.
+
+Au cas oil, en temps de guerre, un des beiligerants ne serait pas partie ii la Convention, ses dispositions demeureront neanmoins obligatoires entre les belligerants qui y participent.
+
+## Article 83.
+
+Les Hautes Parties Contractantes se reservent le droit de conclure des conventions speciales sur toutes questions relatives aux prisonniers de guerre qu'il leur paraitrait opportun de regler particulierement.
+
+Les prisonniers de guerre resteront au benefice de ces accords jusqu'ii l'achevement du rapatriement, sauf stipulations expresses contraires contenues dans les susdits accords ou dans des accords ulterieurs, ou egalement sauf mesures plus favorables prises par l'une ou l'autre des Puissances belligerantes a 1'egard des
+
+prisonniers qu'elles detiennent.
+
+En vue d'assurer l'application, de part et d'autre, des stipulations de la presente Convention, et de faciliter la conclusion des conventions speciales prevues ci-dessus, les beiligerants pourront autoriser, des le debut des hostilites, des reunions de representants des autorites respectives chargees de l'administration des prisonniers de guerre.
+
+## Article 84.
+
+Le texte de la presente Convention et des conven¬ tions speciales prevues a Particle precedent sera affiche, autant que possible dans la langue maternelle des prisonniers de guerre, a des emplacements ou il pourra etre consulte par tous les prisonniers.
+
+Le texte de ces conventions sera communique, sur leur demande, aux prisonniers qui se trouveraient dans l'impossibilite de prendre connaissance du texte affiche.
+
+## Article 85.
+
+Les Hautes Parties Contractantes se communiqueront par l'intermediaire du Conseil federal suisse les traductions officielles de la presente Convention, ainsi que les lois et reglements qu'elles pourront etre amenees a adopter pour assurer l'application de la presente Convention.
+
+## SECTION II.
+
+## De
+
+## I'organisation du controle.
+
+## Article 86.
+
+Les Hautes Parties Contractantes reconnaissent que l'application reguliere de la presente Convention
+
+4
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

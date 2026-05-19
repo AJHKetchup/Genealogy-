@@ -13,7 +13,9 @@
 
 ## Layout And Reading Order
 
-The page displays a form titled "ARRIVAL-DEPARTURE RECORD" (Form I-94 B). The form is structured with various fields for personal information, travel details, and official stamps, arranged in a typical top-to-bottom, left-to-right reading order. A vertical note runs along the right margin.
+The page displays a form titled "ARRIVAL-DEPARTURE RECORD" (Form I-94 B). The form is structured with several labeled fields for personal and travel information, arranged in a grid-like layout. A vertical text block runs along the right side of the form. There are also two sections on the right for official annotations.
+
+The reading order proceeds from top-left to bottom-right, field by field, then addresses the vertical text and the official annotation sections.
 
 ## Literal Transcription
 
@@ -31,7 +33,7 @@ Permanent Address
 Box 1244 CONCEPCION, CHILE
 
 Visa Issued At
-I RIOV
+IQUIQUE
 
 Date Visa Issued
 
@@ -49,39 +51,41 @@ DARIO
 Birthplace
 CHILE
 
-Authorized pursuant to agreement under
-Sec. 238(d) of Immigration Act.
-
-MAR 30 '59 NYC
-
-Carrier directed to detain alien during
-transit and remove from United States via
-KL 492 NY
-(Carrier) (Departure Port)
-3/30/59 97
-(Date) (Initial)
-
 Initial
 A
+
+Passport Number
+258 /V26
 
 Birthdate
 1 JUN 1942
 
 ANY HANDWRITTEN ENTRIES MUST BE IN CAPITAL LETTERS
-Passport Number
-258 [?]
+
+Authorized pursuant to agreement under
+Sec. 238(d) of Immigration Act.
+MAR 30 '59 N Y C
+
+Carrier directed to detain alien during
+transit and remove from United States via
+N-1492 N Y
+(Departure Port)
+3/30/59
+(Date)
+97
+(Immig. Officer)
 ```
 
 ## Images, Captions, And Visual Notes
-The page consists solely of a form with handwritten entries and stamps. There are no distinct images or illustrations that would warrant separate cropping.
+No meaningful visual regions were detected on this page.
 
 ## Uncertain Or Illegible
-- The symbol after "258" in the "Passport Number" field is unclear, possibly "V26" or similar, marked as `[?]`.
+- Passport Number: The characters `/V26` after `258` are somewhat faint and could be interpreted differently, but `/V26` is the most plausible reading.
 
 ## Completeness Audit
 All visible text and form fields on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present on the page. The page contains a form with text and handwritten entries."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page."}
 ```

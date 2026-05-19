@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T12:11:51Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/manifest.json",
+  "page": 451,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-images/page-0451.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-markdown/page-0451.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "portrait",
+      "caption_literal": "DE MIGUEL CERRATO",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "The portrait is part of an advertisement for 'Casa Buglione \"Almafuerte\"' and is placed next to the text 'DE MIGUEL CERRATO'.",
+      "confidence": "0.9",
+      "inline_anchor": "",
+      "bbox_pct": [
+        7.9,
+        80.4,
+        14.9,
+        87.4
+      ],
+      "bbox_pixels": [
+        143,
+        1908,
+        282,
+        2082
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-01-portrait-miguel-cerrato.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-01-portrait-miguel-cerrato.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-images/page-0451.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/manifest.json",
+      "page": 451,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-markdown/page-0451.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "Tractores Deering - Camiones International",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "The illustration depicts a tractor with 'DEERING' visible on its side, and the caption directly below it identifies it as a 'Deering' tractor.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        67.4,
+        47.0,
+        92.9,
+        92.7
+      ],
+      "bbox_pixels": [
+        1253,
+        1114,
+        1737,
+        2208
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-02-illustration-deering-tractor.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-02-illustration-deering-tractor.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-images/page-0451.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/manifest.json",
+      "page": 451,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/page-markdown/page-0451.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

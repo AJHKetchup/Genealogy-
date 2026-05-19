@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-821c232c3119-P0056-01
+chunk_id: CHUNK-1f00ba65c3d6-P0056-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
-converted_sha256: 821c232c3119275b618d3421e12cbabf36530bba99801e5eaa72c51b77583526
+converted_sha256: 1f00ba65c3d6db86b67ed509d1ff8f8ea2779687f7db1265b20ddbe6b48fec55
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
@@ -201,4 +201,19 @@ All visible text and significant visual elements on the page have been transcrib
 Page number: 58
 
 ## Layout And Reading Order
-The page is a light brown paper cover with handwritten text in blue ink. The text is centered vertically and horizontally, forming a single block of information. A circled number `(3/1)` is present in the top right corner.
+The page is a simple cover sheet with handwritten text in blue ink on a light brown paper background. The text is arranged in a top-to-bottom reading order, with a circled number in the top right corner.
+
+## Literal Transcription
+La situación
+Argentina
+
+Estudios de Gimenez Zapiola
+y J. G. Bucro
+
+Docs oficiales Argentinos
+de 1919 y 1920
+
+Avis Consultatif de
+la Corte S/ Sauzzy y BIT
+
+(3/1)

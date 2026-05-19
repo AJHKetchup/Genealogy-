@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T10:15:31Z",
+  "created": "2026-05-19T12:19:29Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -16,7 +16,7 @@
     "batch_pages": 1,
     "queue_limit": 10000,
     "stale_minutes": 360,
-    "fastlane_limit": 8000,
+    "fastlane_limit": 0,
     "dry_run": false,
     "source_filter": "",
     "source_sha256": "",
@@ -29,14 +29,14 @@
       "status": "ran",
       "detail": {
         "action": "restore",
-        "created": "2026-05-19T10:16:48.283612+00:00",
+        "created": "2026-05-19T12:20:36.877264+00:00",
         "filters": {
           "source": "",
           "source_sha256": ""
         },
         "total_files": 49,
-        "restored": 49,
-        "skipped": 0,
+        "restored": 0,
+        "skipped": 49,
         "errors": []
       }
     },
@@ -65,22 +65,6 @@
       }
     },
     {
-      "name": "source-prep-fastlane",
-      "status": "ran",
-      "detail": {
-        "inspected": 6843,
-        "converted": 0,
-        "dry_run": false,
-        "skipped": {
-          "full_page_image_scan": 6840,
-          "not_pdf": 2,
-          "possible_ligature_text_loss": 1
-        },
-        "converted_tasks": [],
-        "failed_tasks": []
-      }
-    },
-    {
       "name": "source-status",
       "status": "skipped",
       "detail": "conversion-only run"
@@ -91,10 +75,10 @@
       "detail": {
         "action": "asset-upload",
         "dry_run": false,
-        "total_files": 0,
-        "total_bytes": 0,
-        "uploaded": 0,
-        "skipped": 0,
+        "total_files": 195,
+        "total_bytes": 155925777,
+        "uploaded": 185,
+        "skipped": 10,
         "planned": 0,
         "errors": [],
         "deleted_disposable": 0,
@@ -104,9 +88,9 @@
             "derived/raw/codex-conversion-jobs/",
             "derived/research/_assets/conversions/"
           ],
-          "scanned": 535,
+          "scanned": 718,
           "deleted": 0,
-          "skipped": 535,
+          "skipped": 718,
           "errors": []
         }
       }
@@ -116,12 +100,12 @@
   "queues": {
     "source_prep_batches": {
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
-      "task_count": 6842,
+      "task_count": 6293,
       "status_counts": {
-        "needs_reread": 246,
-        "todo": 6596
+        "needs_reread": 297,
+        "todo": 5996
       }
     }
   },
-  "finished": "2026-05-19T10:21:03Z"
+  "finished": "2026-05-19T12:28:17Z"
 }

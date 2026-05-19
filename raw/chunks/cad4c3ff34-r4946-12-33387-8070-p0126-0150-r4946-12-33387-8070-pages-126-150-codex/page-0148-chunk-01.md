@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a4f3f5a64c83-P0148-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: a4f3f5a64c830bbf7197a9b54d3398d5859d9e449a0425cc03b3c5c18c151cba
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 148
+page_end: 148
+part: 1
+---
+
+# Page 148
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json`
+- Source page: 148
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0148.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Las fôrmulas (2) y (2') expresan matemâticamente la hipôtesis del tiempo local y substituyen a las dos ûltimas ecuaciones de la transformaciôn de Galileo t' = t. Como en los sentidos Oy y Oz no hay contracciôn, se conservan las otras dos ecuaciones y - y' y z - z' de dicha transfor¬
+
+maciôn. Poniendo, pues, el doble sistema:
+
+<!-- formula-not-decoded -->
+
+tenemos las formulas de paso de las coordenadas 0,x,y^,t del observador fijo, a las coordenadas O'x'y'z't' del observador môvil, cuando ellos estân animados de una velocidad relativa v en la direc¬ tion del eje comun Ox, O'x'.
+
+Ahora, hagamos una comparaciôn entre las apreciaciones de
+
+tiempo de ambos observadores....
+
+CRISTIAS.--Excusa una interruption, que me parece indispensable. Ciertamente, a tus fôrmulas de correcciôn algebrâica impecable, no se puede formu¬ lai' objeciôn alguna, pero, qué es eso de tiempo lo¬ cal? iQué quieres decir al définir la position de un punto en el espacio por sus coordenadas, cuando agregas una t que me parece sospechosa ? i Se trata, por ventura, de una cuarta dimension, y nos vas a llevar a la metafisica de que el tiempo es una cuarta dimension del espacio? Porque, querido Parménides, agrupas en tan cortas lineas tântas hipô¬ tesis endiabladamente complicadas, que, francamente, se necesita cabeza mejor sentada que la mia, para
+
+comprenderte.
+
+En primer lugar, eso de la contracciôn de los cuerpos que se mueven, en el sentido de la direction del movimiento, se me hace un poco fuerte. I)e dôncle saliô tan peregrina hipôtesis? iDel experimento de Michelson, por ventura? iQué experiencia tenemos realmente fundamentada en la observation del mundo fisico, que a ello nos conduzca? ^No répugna al buen sentido la concepciôn de esos cuerpos rigidos contrayéndose en una sola dimension, orientada segûn el movimiento, por la sola virtud de que se mue¬ ven?
+
+Ya tenemos un postulado: el de la velocidad absoluta de la luz; £ quieres que agreguemos otro: el de la contracciôn de los cuerpos en movimiento rectilineo y uniforme?
+
+Ademâs, para justificar la no simultaneidad de los fenômenos, dando al tiempo un carâcter conven¬ tional, menester serâ engolfarnos en la mâs enmaranada metafisica, ajena por completo a nuestro genio
+
+griego, tan claro como armonioso.
+
+GORGIAiS.-Ciertamente, hay que convenir en que las pruebas reaies que se den de una teoria tan
+
+complicada, deben ser de un peso experimental abru- mador, pues, de lo contrario, estamos haciendo pura tautologia.
+
+PARMENIDES.-Ya os he dicho que las hay. Mas dejadme proseguir para que veais lo claro de estos razonamientos. Habiendoos expuesto como se liallan las fôrmulas de transformaciôn de Lorentz-Einstein, paso a explicar que el procedimiento de Einstein consiste en buscar una transformaciôn lineal entre xt y x't' que deje invariante la velocidad c de la luz, por lo cual se echa de ver que ésta juega en la teoria de la relatividad restringida el papel privilegiado que desempenaba el tiempo absoluto en la teoria clâsica, o sea en la transformaciôn de GalileoNewton. "Por esto los modernos geômetras denominan a la expresiôn matemâtica de la ley de la pro¬ pagation de la luz, el elemento nulo de la métrica del
+
+espacio-tiempo" (*).
+
+GORGIAS.-No, Parménides ! Es imposible que te dejemos proseguir por ese camino, sin que nos des pruebas expérimentales de las nuevas teorias; pues, si asi fuere, desquiciarias gratuitamente nuestros cerebros, que al fin son de hombres mortales, como los de los humanos de ahora.
+
+PARMENIDES.-Hace rato que las enumeré, pero vuelvo a repetirlas. Por medio de la teoria de la relatividad generalizada se explica perfectamente la anomalia anotada en el movimiento del perihelio de Mercurio, no explicada por la Mecânica clâsica. La nueva teoria se confirma por la deflexion de la luz en los campos gravitacionales del sol y de las estrellas. Y, por ultimo, solo con esta teoria es posible explicar el desalojamiento hacia el rojo de las lineas de los
+
+espectros de la luz del sol y de las estrellas.
+
+GRISTIAS.-Dentro de las ideas que te expuse no ha mucho para demostrarte que de antano creiamos nosotros en lo relativo como norma de la naturaleza, para la cual parece no haber nada preciso, debo decirte que si es verdad que la Mecânica celeste clâ¬ sica ha demostrado que la gravitaciôn es en realidad la fuerza motriz de los cuerpos celestes, por medio de tablas basadas en la ley de Newton, y que han alcanzado un altisimo grado de precision, también es cierto que para esa ciencia clâsica quedan aun dos pequenos residuos, referente el uno al movimien¬ to del perihelio de Mercurio, y el otro a una fluc¬ tuation que présenta el movimiento medio de la luna. El desalojamiento del perihelio de Mercurio es en un siglo de 577 segundos de arco, segun lo ha indicado la observation; mientras que el câlculo basado en la ley de Newton, solo le asigna 536. Hay, por tanto, una diferencia de 41 segundos por siglo. Para subsanar esta pequena diferencia bastaria cambiar el exponente 2 de la ley newtoniana por 2 - e siendo e igual a 0.000000151. Lo cual prueba que la acciôn perturbadora, causa de este error, es insignificante respecto de la gravitaciôn misma. La desigualdad que présenta la longitud media de la luna alcanza a 13 segundos de arco y su periodo es de
+
+(*) "Nociones de Mecânica clâsica y relativista"-P. Enrique de Rafael.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

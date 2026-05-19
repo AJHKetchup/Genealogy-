@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T12:14:27Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+  "page": 273,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0273.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0273.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "'Antirreumático Bravo'\nLo único que verdaderamen-\nte cura toda clase de reumas;\nsus resultados son maravillo-\nsos; no sufra más,\nEN DROGUERIAS Y BOTICAS $2.50",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Advertisement for 'Antirreumático Bravo' featuring an illustration of a man.",
+      "confidence": "0.95",
+      "inline_anchor": "Image of a man in a long coat",
+      "bbox_pct": [
+        10.0,
+        60.0,
+        20.0,
+        88.0
+      ],
+      "bbox_pixels": [
+        173,
+        1462,
+        358,
+        2154
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0273/page-0273-image-01-antirreumatico-bravo-man-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0273/page-0273-image-01-antirreumatico-bravo-man-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0273.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+      "page": 273,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0273.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "ELIXIR PAYAS\nCURA EL REUMATISMO\nRADICALMENTE Y ES-\nUN PODEROSO DEPURATIVO\nDE LA SANGRE",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Advertisement for 'ELIXIR PAYAS' featuring an illustration of an eagle.",
+      "confidence": "0.95",
+      "inline_anchor": "Image of an eagle with a shield",
+      "bbox_pct": [
+        27.0,
+        76.0,
+        40.0,
+        92.0
+      ],
+      "bbox_pixels": [
+        474,
+        1853,
+        712,
+        2252
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0273/page-0273-image-02-elixir-payas-eagle-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0273/page-0273-image-02-elixir-payas-eagle-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0273.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+      "page": 273,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0273.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

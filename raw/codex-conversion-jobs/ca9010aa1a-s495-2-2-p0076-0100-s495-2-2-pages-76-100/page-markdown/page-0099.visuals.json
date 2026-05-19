@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:41Z",
+  "created": "2026-05-19T12:13:41Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -8,8 +8,16 @@
   "page": 99,
   "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0099.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0099.md",
-  "no_visual_regions_reason": "The page contains only handwritten text, which is fully transcribed in the 'Literal Transcription' section. There are no substantial visuals like photographs, maps, or complex diagrams that would warrant a separate visual region crop.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "handwritten_text",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Handwritten text in blue ink, oriented vertically, reading \"Voyage C[h?]ogueira\" with an underline.",
+      "source_context": "The only content on the page is this handwritten note."
+    }
+  ],
   "flags": []
 }

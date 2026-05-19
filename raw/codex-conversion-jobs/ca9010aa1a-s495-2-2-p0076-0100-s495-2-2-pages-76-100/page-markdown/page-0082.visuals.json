@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T09:50:35Z",
+  "created": "2026-05-19T12:13:42Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vr_1",
-      "kind": "photograph",
-      "caption_literal": "AGENCIA DE INHUMACIONES\n\"EUSEBIO GAYOSSO\"",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "Advertisement for Eusebio Gayosso funeral agency, showing their office building.",
-      "confidence": "high",
-      "inline_anchor": "",
+      "region_id": "region_1",
+      "kind": "visual",
+      "caption_literal": "AGENCIA DE INHUMACIONES\n\"EUSEBIO GAYOSSO\"\nUnico Despacho: AVENIDA HIDALGO, 13\nNo se deje sorprender, esta casa no tiene sucursales",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Advertisement for a funeral home with an illustration of a building.",
+      "confidence": "0.95",
+      "inline_anchor": "### AGENCIA DE INHUMACIONES",
       "bbox_pct": [
-        49.5,
-        13.5,
-        78.5,
-        38.5
+        39.9,
+        13.9,
+        80.0,
+        86.0
       ],
       "bbox_pixels": [
-        671,
-        250,
-        1075,
-        727
+        540,
+        257,
+        1095,
+        1619
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-building.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-building.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-funeral-home-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-funeral-home-ad.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0082.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
@@ -41,6 +41,14 @@
       "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0082.md"
     }
   ],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "visual",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "VALLEY LUMBER\nCOMPANY\nEVERYTHING IN BUILDING\nMATERIAL\nMexicali, B. C.\nCALEXICO AND EL CENTRO,\nCALIF.\nEL CENTRO CALEXICO & MEXICALI\nJ. S. JONES, W. C. JONES,\nManager Manager",
+      "source_context": "Advertisement for Valley Lumber Company with a decorative border."
+    }
+  ],
   "flags": []
 }

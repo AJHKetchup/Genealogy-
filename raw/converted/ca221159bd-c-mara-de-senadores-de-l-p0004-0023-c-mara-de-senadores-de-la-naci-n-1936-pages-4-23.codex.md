@@ -317,73 +317,7 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-a-
-
-na
-
-en
-
-ci-
-
-0
-
-ce-
-
-ria
-
-an-
-
-rril
-
-Na-
-
-he:
-
-en-
-
-rO-
-
-En
-
-irse
-
-que
-
-ara
-
-Di-
-
-das
-
-rrO-
-
-la
-
-ara
-
-Asi,
-
-sito
-
-20
-
-dles-
-
-ias,
-
-oor-
-
-con-
-
-ber
-
-ar8
-
-Go-
-
-lon-
-
-se La circular N? 25 de 26 de Julio de 1910, transcribiô el Decreto de 15 de Julio de 1910, por el cual se declaraba que el P. E. de la Naciôn no reconocerâ como vâlida la concesiôn otorgada por la Legislatura de la Provincia de Santa Fe para la construcciôn de una via férrea que cruzaba la del Ferrocarril Central Norte. Se encargaba también a la Direcciôn General de Ferrocarriles, que vigüara para que, de acuerdo con el Decreto de 15 de Octubre 1909, no se intentaran obras de empalme u otras anâlogas.
+La circular N? 25 de 26 de Julio de 1910, transcribiô el Decreto de 15 de Julio de 1910, por el cual se declaraba que el P. E. de la Naciôn no reconocerâ como vâlida la concesiôn otorgada por la Legislatura de la Provincia de Santa Fe para la construcciôn de una via férrea que cruzaba la del Ferrocarril Central Norte. Se encargaba también a la Direcciôn General de Ferrocarriles, que vigüara para que, de acuerdo con el Decreto de 15 de Octubre 1909, no se intentaran obras de empalme u otras anâlogas.
 
 El material rodante perteneciente a lineas que no estân bajo la jurisdicciôn nacional no puede circular sobre las lineas nacionales. A este respecto, la circular N? 24 de 26 Julio 1910, transcribia un Decreto de 21 Julio 1910, por el cual no se hacia lugar a lo solicitado por el Ferrocarril Midland de Buenos Aires para hacer correr su material rodante sobre las lineas de jurisdicciôn nacional: y se notificaba a las Empresas de ferrocarriles nacionales que en lo sucesivo no deberân permitir por ningun concepto que vagones de ferrocarriles provinciales o de otras lineas, ramales o desvios que no estuvieran bajo la jurisdicciôn nacional corran sobre sus vias.
 

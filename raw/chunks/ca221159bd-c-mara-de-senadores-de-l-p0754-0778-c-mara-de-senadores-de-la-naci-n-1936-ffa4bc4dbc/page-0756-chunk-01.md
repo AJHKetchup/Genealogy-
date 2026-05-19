@@ -1,0 +1,110 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7f021205f9c1-P0756-01
+source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778.codex.md
+converted_sha256: 7f021205f9c1d69b84058e5a880beb8ebdf4241db37eccc799b6b2500cb40e05
+source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
+source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
+source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json
+page_start: 756
+page_end: 756
+part: 1
+---
+
+# Page 756
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/manifest.json`
+- Source page: 756
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778/page-images/page-0756.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+La corporacion se forma, entre otrôs, con el capital reconocido a la Naciôn y a la rnunicipalidad por los impuestos que las empresas de transportes deben pagar a estos gobièrnos, considerândolos como el interes de un capital que se les reconoce como aporte. Ademâs, esc capital esta formado por las sumas que han déjàcio de pagar en virtuel de las obligaciones contraîdas por el eumplimieuto de leyes socia¬ les. Yo entiendo que es necesario aclarar que la corporacion no estarâ eximida de todo impuesto, sino que esa exenciôn se correlaciona cstrecliamente eon esa formaciôn de capitales. A nuestro entender la corporacion esta obligada a pagar los impuestos indirectos, como los de acluana
+
+y sellado.
+
+Y ahora voy a contestai" a mi distinguido amigo el senor senador por San Luis, porque creo que esta equivoeado en el aspecto constitucional de su
+
+argumentacion.
+
+El senor senador por San Luis eneontraba objetable que una ley expropiara el bien de un particular para dârselo a otro particular; creo que entendîa que acaso no estuviera muy de aeuerdo con el artîculo respectivo de la Constitueiôn esa expropiacion. Agregaba el senor senador que aun en el caso de que esto jpudiera ser considerado dent.ro de las faeuHades del Congreso, la propia amplitud de esa facultad debia liacer que el Congreso fuera parco en su
+
+ejercicio.
+
+Desde este punto de vista me pareee que el senor senador por San Luis incurre en una equivocaciôn. En, realidad, lo que el artîculo propone no es la expropiacion de un bien par¬ ticular para entregârselo a otro particular. Lo que se expropia - y aliora vamos a ver cuâles son las caracterîsticas de la llamada expropiaeion - son bienes de un particular que una corporacion instituîda para un servicio publico considéra necesario utrlizar. Es exaetamente, sin variaiun adarme, el caso de las expropiaeiones que las leyes de construccion de obras publicas, digamos las leyes de los ferrocarriles autorizan para construir el ferrocarril. Se expropia el bien, de un parti¬ cular y se lo entrega a otra companîa parti¬ cular, pero no es una companîa particular que usa de ellos para fines exelusivamente particulares. Lo que a mi modo de ver justi¬ fied en este caso la expropiacion, es el carâcter de utilidad pûblica del servicio que presta a la empresa a cuyo favor se expro¬
+
+pia.
+
+La empresa de la corporacion es una em¬ presa de servicio
+
+pûblico, es como una em¬
+
+presa de ferrocarril, es una empresa transportadora; por consignante, esta completamente justifieado que baya una calificacion de utilidad pûblica en los bienes que esta em¬ presa necesita y desde este punto de vista es que liago la equiparacion con el ferrocarril.
+
+Por otra parte, la expropiacion en este caso esta cstablecida - y es un aspecto que el senor senador por San Luis no clebe olvidar -en favor del expropiado y no. en favor del expropiantc. Y cligo que esta establecida por los heclios y no por la ley. Y esta establecida por los hechos porque la situaciôn es la siguiente: el colectivero, el empresario - y disculpen los senores senadores y, desde luego las honorables personas que pudieran sentirse afectadas por la expresion - doy el refrân por el refrân, porque me pareee' que traduce claramente mi pensamiento - estos senores que no quieren fusionarse con la corporacion ; estos senores que no quieren tener regîmenes autonomos clependientes de la corporacion ; es¬ tos senores que quieren actuar por su cuenta, son los perros del hortelano, que no eomen ni dejan corner al amo.
+
+Y, entonces, en presencia de esta situaciôn en que por a, por b, o por c, no quieren adherirse. ..
+
+Sr. Landaburu. - En la mayor parte de los casos no
+
+pueden hacerlo, senor senador.
+
+Sr. Sanchez Sorondo. --Yeremos. Pero el senor senador se ha referido a todas; no ha heclio
+
+excepciôn en su artîculo.
+
+Sr. Landaburu. - lie dicho que de 65 lîneas de colectivos solo 11 pueden acogerse a los bé¬ néficies del régimen autônomo.
+
+Sr. Sanchez Sorondo. - Muy bien; pero to¬ das
+
+pueden ineorporarse a la corporacion.
+
+Sr. Landaburu. - Eso sî.
+
+Sr. Sanchez Sorondo. - No lo quieren hacer, constituyendo desde el punto de vista de los autores dôl proyeeto, de los defensores deL proyeeto, un obstâculo para el funcionamiento de la corporacion.
+
+En ese caso se autoriza la expropiacion y, de heeho, en beneficio ciel expropiado porque es includable que los bienes sujetos a la expropia¬ cion son los elementos, los coches que estas em¬ presas utilizan en sus servicios, y es de suponer que la Corporacion de Transportes de la Ciudad de Buenos Aires, llegado el caso de establecer servicios de automoviles colectivos, preferirâ comprar automoviles colectivos nuevos, come¬ dos, seguros, râpidos, y no comprar los autffi» moviles gastados y viejos de los colectiveros a los precios que pueda comprarios.
+
+'
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

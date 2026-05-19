@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4b9b0e627f10-P0029-01
+chunk_id: CHUNK-403d530f79ad-P0029-01
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
-converted_sha256: 4b9b0e627f10530447b2d16dd12fb22d7720d02c55d8f1620f8ca65a648dac76
+converted_sha256: 403d530f79ad28ea51960143971a8a02e3ccd1e208ed5c007c5c35c1e6b28893
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
@@ -133,28 +133,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 2.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Task id: `source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0030`
-- Model route: `pro`
-- Route reasons: complex_quality_flags
-- Source: `raw/sources/S495-2-2.pdf`
-- Job manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json`
-- Work order: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/work-orders/page-0030.md`
-- Page: 30
-- Output Markdown target: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/page-markdown/page-0030.md`
-- External research relevance: ``
-- External requested treatment: ``
-- External relevance reasons: none
-- Recommended action: ``
-- Quality flags: possible_table_layout_loss
-- Technical reread clues: none
-
-## Layout And Reading Order
-This page has a two-column layout. The content includes a letter, a main article, and three photographs with captions. The reading order is complex due to the layout.
-
-- **Column 1 (Left):** Contains a letter from "JULIAN DEL ROBLE" at the top. Below the letter is a photograph of a woman in a swimsuit, followed by its caption. The rest of the column contains an article that appears to be a response to the letter. The page number "28" is at the bottom of this column.
-- **Column 2 (Right):** Begins with a large photograph of people in historical costumes on a movie set, followed by its caption. Below this is the title of an article, "DESDE MIS PRIMERAS EXPE POR". The text of this article follows, flowing around a third photograph of a woman in a dress. This third photograph has its own caption.
-- **Complex Text Flow:** The text flow is non-standard. The article in the left column, a response to Julian del Roble, appears to continue in the right column, immediately below the caption of the third photograph. This continuation is then followed by the continuation of the main article from the right column.
-
-To preserve the spatial layout, the transcription is presented in a two-column table. The reading order within each column is top-to-bottom.

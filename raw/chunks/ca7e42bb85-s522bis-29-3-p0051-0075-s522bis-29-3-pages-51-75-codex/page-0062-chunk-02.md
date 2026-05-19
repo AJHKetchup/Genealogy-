@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-821c232c3119-P0062-02
+chunk_id: CHUNK-1f00ba65c3d6-P0062-02
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
-converted_sha256: 821c232c3119275b618d3421e12cbabf36530bba99801e5eaa72c51b77583526
+converted_sha256: 1f00ba65c3d6db86b67ed509d1ff8f8ea2779687f7db1265b20ddbe6b48fec55
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
@@ -12,38 +12,40 @@ part: 2
 ---
 
 ## Literal Transcription
-DE 1921
+de 1921
+
 Ocupándose de esa importante obra de vialidad,
 dice uno de nuestros más grandes órganos de pu-
 blicidad:
-“Calculando que, término medio, cada línea de
+"Calculando que, término medio, cada línea de
 las 400 existentes toque una decena de zonas o re-
 giones, tenemos 4.000 lugares reanimados, ligados
 a las grandes corrientes de la actividad nacional,
 vigorizados todos los días por esta próvida circula-
 ción mecánica que cumple, respecto a ellos, la misma
 función vital que ejerce la circulación sanguínea en
-los organismos”.
-“Las 400 líneas están dispuestas respondiendo a
+los organismos".
+"Las 400 líneas están dispuestas respondiendo a
 un plan preestablecido, alrededor de Italia, siguien-
 do la configuración de sus montañas y de sus valles,
 desde los Alpes a la cadena de los Apeninos; a las
-Madonias en Sicilia”.
-“¡Que viaje encantador será para el turista el re-
-correrlo todo!”.
-“Que variedad linda de visiones, y que profundos
-conocimientos adquirirá así, de los innumerables y
+Madonias en Sicilia".
+"Que viaje encantador será para el turista el re-
+correrlo todo!".
+"Que variedad linda de visiones, y que profundos
 desconocidos tesoros de arte, de belleza, de sue-
 ño, profusos en las pequeñas ciudades provinciales,
 en las distantes villas, en las apartadas aldeas, y
 en los ignorados remotos rincones a los que el auto-
-móvil lleva el flujo de su vida!”.
+móvil lleva el flujo de su vida!".
+
 Fué necesario, entre nosotros, que se produjera
 en 1917 la gran huelga ferroviaria, para que recién
 pudiéramos apreciar concluyentemente, la falta de
 buenos y extensos caminos carreteros que permitieran
 al automóvil suplir los servicios que nos prestaba el fe-
 rrocarril en su organización normal.
+
 Detenido el país bruscamente, en su actividad
 más fundamental, todos apelaron al automóvil y una
 institución meritoria — el Touring Club Argentino,
@@ -55,30 +57,35 @@ excursionistas que surgieron en todas partes, en
 grandes cantidades, los antecedentes necesarios que
 les permitieran orientarse hacia los distintos rum-
 bos del país.
+
 En los primeros días del movimiento huelguista,
-los grandes cen.ros de población sólo pudieron estar
+los grandes centros de población sólo pudieron estar
 informados de los sucesos nacionales y extranjeros,
 por medio del telégrafo, en las partes donde exis-
 tían líneas nacionales; los demás, permanecieron
 permanentemente aislados, pues los hilos telegráfi-
 cos fueron cortados y el servicio había quedado to-
 talmente anulado.
+
 El correo con su escaso material de transportes
 automóviles, sólo alcanzó a distribuir corresponden-
 cia en los pueblos circunvecinos a la Capital Fe-
 deral. Pero, en un bello gesto aplaudido en su hora,
 tres de nuestros más importantes órganos de publi-
-cidad — “La Prensa”, “La Nación” y “La Razón”,
+cidad — "La Prensa", "La Nación" y "La Razón",
 — se ofrecieron a la administración general de co-
 rreos para transportar correspondencia en sus au-
 tomóviles a las ciudades y pueblos más importantes
 de las provincias de Buenos Aires, Santa Fe y Cór-
 doba, ofrecimiento que aceptara el correo v que
 
-CÁMARA DE DIPUTADOS 1675
+CÁMARA DE DIPUTADOS
+1675
+
 permitió romper el aislamiento postal en que se
 hallaba el país.
-De todos esos “raids” automovilísticos, dos fue-
+
+De todos esos "raids" automovilísticos, dos fue-
 ron los más importantes, por las distancias recorri-
 das y los obstáculos vencidos: uno, a las provincias
 de Buenos Aires, Santa Fe, Santiago del Estero y
@@ -90,6 +97,7 @@ y el otro, a las provincias de Córdoba, San Luis y
 Mendoza, a cargo del veterano periodista don Tito
 Livio Foppa, con un recorrido total de cerca de
 2.000 kilómetros.
+
 Bueno es entonces aprovechar esa lección que
 sugirió la gran huelga ferroviaria de 1917, para que
 nos ocupemos de construir grandes caminos pavi-
@@ -101,7 +109,9 @@ dido a la difusión de los transportes a tracción me-
 cánica, facilitando enormemente el acarreo de nuestros
 productos e incorporando una obra de progreso que ha
 de ser saludada entusiastamente por todo el país.
+
 ANTERIORES INICIATIVAS PARLAMENTARIAS
+
 El exdiputado nacional por la provincia de Bue-
 nos Aires, doctor Manuel B. Gonnet, en la sesión
 del 14 de mayo de 1913, presentó a la considera-
@@ -115,6 +125,7 @@ la de Santa Fe; 200, en cada una de las de Cór-
 doba, Entre Ríos y Corrientes; y 100, en las de
 San Luis, Mendoza, Tucumán, San Juan, Catamarca,
 Santiago del Estero, La Rioja y Jujuy.
+
 Indudablemente, se trataba de un gran proyecto,
 al cual le rindo toda la admiración que merece, ya
 que le correspondía el honor de la iniciativa parla-
@@ -135,21 +146,20 @@ los mismos, cuando lo que persigue mi proyecto es
 precisamente la implantación de una ruta fija, di-
 recta, perfectamente unida que permita su total
 recorrido de uno a otro extremo.
+
 Conociendo como conocemos nuestra idiosincra-
 sia, las obras públicas aisladas, cualquiera que sea
 
 ## Images, Captions, And Visual Notes
-- A small, decorative, vertical line graphic is present in the left margin, running alongside the text. It does not appear to be a meaningful visual asset for cropping.
+A small decorative element, possibly a stylized floral design, is present in the left margin, extending from approximately the second paragraph down to the fifth paragraph. It is not a substantial visual asset for cropping.
 
 ## Uncertain Or Illegible
-- "cen.ros" in the left column, approximately two-thirds down the page, appears to be an abbreviation or typo for "centros". Transcribed as written.
-- The last word in the left column, "v que", appears to be cut off. Transcribed as written.
-- The last word in the right column, "sea", appears to be cut off. Transcribed as written.
+None.
 
 ## Completeness Audit
-The transcription is complete and captures all visible text and layout elements from the page.
+All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements were identified for cropping. Minor decorative elements are described in 'Images, Captions, And Visual Notes'."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements were identified for cropping. A small decorative element in the left margin is not considered a substantial visual asset."}
 ```

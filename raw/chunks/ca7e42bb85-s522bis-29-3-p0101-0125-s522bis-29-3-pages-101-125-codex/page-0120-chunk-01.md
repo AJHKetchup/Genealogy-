@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-69e09733a0c2-P0120-01
+chunk_id: CHUNK-801c21f5cbc4-P0120-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
-converted_sha256: 69e09733a0c255f5a3359942329056cad2900eecb634933adab020b2f85d751b
+converted_sha256: 801c21f5cbc46055b1ba1f642e3d7ad615f4808ad622a5d6b54e9fee7b448bda
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
@@ -110,9 +110,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 121
-
-## Layout And Reading Order
-The page is laid out in two columns. The content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom. A header with "DE 1921", "CAMARA DE DIPUTADOS", and "1729" spans the top of both columns.
