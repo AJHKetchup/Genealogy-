@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-022c80160f7d-P0001-02
+chunk_id: CHUNK-a0b722c5df59-P0001-02
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 022c80160f7d5a126943f7469a7f780fb6e01ea2f3401b6ef60c27674a14e8e9
+converted_sha256: a0b722c5df59d4572b4ca2dec137e813da45368d2f7d7d4aebf3b308ab278ef7
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -12,13 +12,14 @@ part: 2
 ---
 
 ## Literal Transcription
+
 NUMERO GIGANTE ENERO - - FEBRERO EL AGUILA
 ___
 ACTIVIDADES
 ___
 LA COSECHA
 ___
-ESTE AÑO CONSTITUYÓ UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
+ESTE AÑO CONSTITUYO UNA NOVEDAD EN EL FUNDO EL EMPLEO DE COSECHADORA
 AUTOMOTRIS DE LA CORPORACION DE FOMENTO YA QUE EN OTROS AÑOS SE HABIA
 CORTADO A MANO EL TRIGO Y TRILLADO EN UNA MAQUINA TRILLADORA ESTACIONADA
 AUNQUE EL TRIGO ERA POCO SE ENPLEARON 25 HORAS A 3500 PESOS LA HORA.
@@ -27,12 +28,12 @@ A LAS 2 DE LA TARDE TAMBIEN EL DIA 28 DE 9 A '8 DE LA TARDE Y FINALI
 RON EL DIA 29 EN LA TARDE.
 ___
 LA MADERA Y EL ASERRABERO
-XXXXXXXXXXXXXX
+XXXXXXXXXXXXX
 EN EL FUNDO LOS CUARTOS HAY GRANDES CANTIDADES DE TERRENO PLANTADAS
-DE PINO; ES ASI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
-POCOS; SE CALCULA QUE SALDRAN 50.000 PULGADAS
+DE PINO, ES SSI COMO ESTE AÑO SU PROPIETARIO DECIDIO EXPLOTAR UNOS
+POCOS, SE CALCULA QUE SALDRAN 50.000 PILGADAS
 AL LLEGAR NOSOTROS AL FUNDO, YA HOMBRES ESPECIALISADOS HABIAN VOLTEADO
-TODO LOS PINOS QUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
+TODO LOS PINOS QQUE SE ENCONTRABAN APILADOS, DESPUES QUE UN TRACTOR MAN
 A PETROLEO LOS LLEVABA AL LUGAR DONDE ESTARIA EL ASERRADERO LUEGO UN
 DIA SE TRANSLADO AL FUNDO EL ASERRADERO DE PROPIEDAD DE LA INDUSTRIA
 MADERERA TELLERY Y CIA Y RAPIDAMENTE SURGIERON LAS COSAS DE LOS
@@ -40,21 +41,22 @@ OBREROS QUE PRONTO ENPESARON A TRABAJAR. SE ESPERA QUE SE TERMINARA
 DE ASERRAR A FINES DE MARZO.
 ___
 LA ELECTRICIDAD
+___
 DESPUES DE GRANDES DISCUSIONES LA ENDESA PROSEDIO A
 CONSTRUIR LA LINEA QUE ABASTECERIA A SANTA BARBARA POR SAN CARLOS. LA
 ENDESA ENTREGO LA LINEA U A UN CONTRATISTA, EL SR GRANIFO, INGENIRERO EN
 SANTIAGO Y EN LOS ANGELES OTRO ESPECIALISADO, UN TOPOGRAFO MARCO LA LINEA
+
 6
 Continua a página 11
 
 ## Images, Captions, And Visual Notes
-- A handwritten page number "6" is present at the bottom left of the page.
-- A handwritten note "Continua a página 11" (Continues on page 11) is present at the bottom center of the page.
+
+- A handwritten page number "6" is present at the bottom left of the page, in red ink.
+- A handwritten note "Continua a página 11" is present at the bottom center of the page, in blue ink.
 
 ## Uncertain Or Illegible
-- "3500" could potentially be "35oo" due to the font style, but "3500" is a more plausible numerical value.
-- "TRILLAR" is clear in context, but the 'LL' could be misread as 'T?'.
-- "MARCO" could have an accent mark (Marcó), but it's not clearly visible.
+None.
 
 ## Completeness Audit
 All visible text and significant handwritten notes on the page have been transcribed.
@@ -64,24 +66,24 @@ All visible text and significant handwritten notes on the page have been transcr
 {
   "visual_regions": [
     {
-      "region_id": "region_1",
-      "kind": "text",
-      "bbox_pct": [89.9, 14.9, 93.0, 19.0],
+      "region_id": "vr_1",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [10.0, 80.0, 15.0, 85.0],
       "caption_literal": "6",
       "caption_type": "converter-description",
-      "identity_basis": "converter-identified",
-      "source_context": "Handwritten page number.",
+      "identity_basis": null,
+      "source_context": "Handwritten page number at the bottom left.",
       "confidence": 0.95,
       "suggested_filename": "page_number_6"
     },
     {
-      "region_id": "region_2",
-      "kind": "text",
-      "bbox_pct": [90.0, 36.0, 93.0, 64.0],
+      "region_id": "vr_2",
+      "kind": "handwritten-annotation",
+      "bbox_pct": [30.0, 80.0, 60.0, 85.0],
       "caption_literal": "Continua a página 11",
       "caption_type": "converter-description",
-      "identity_basis": "converter-identified",
-      "source_context": "Handwritten continuation note.",
+      "identity_basis": null,
+      "source_context": "Handwritten continuation note at the bottom center.",
       "confidence": 0.95,
       "suggested_filename": "continuation_note_page_11"
     }
@@ -93,58 +95,56 @@ All visible text and significant handwritten notes on the page have been transcr
 - Page number: 7
 
 ## Layout And Reading Order
-This page contains a single column of typewritten text. A handwritten page number, "7", is at the bottom center of the page. The text is an article about Dr. Virginio Gomes G. There are two handwritten insertions within the text.
-
-The reading order is from top to bottom.
+This page contains a single column of typewritten text. The reading order is from top to bottom. A handwritten page number is present at the bottom of the page.
 
 ## Literal Transcription
+```text
 NUMERO GIGANTE ENERO FEBRERO EL AGUILA
----
+----------------------------------------------------------------
 ESCRIBEN LOS LECTORES
 LA EMPRESA TIENE EL AGRADO DE PUBLICAR UN ARTICULO ESCRITO PARA
 ESTE DIARIO POR EL DR DARIO PULGAR.
----
+---------------------------------
 _EL_DR_VIRGINIO_GOMES__G__
 
 EN CIRCUNSTANSTAS QUE VIAJABA ABORDO DEL BUQUE " ALONDRA" DE LA
 " COMPAÑIA MARITIMA DEL ESTADO "CON RUMBO A MAGALLANES A LA ALTURA
-DE PUERTO MONTT, DESAPARECIÓ MISTERIOSAMENTE ESTE DISTINGUIDO
-FACULTATIVO QUE HONRÓ A LA MEDICINA CHILENA POR SU TALENTO Y POR
+DE PUERTO MONTT, DESAPARECION MISTERIOSAMENTE ESTE DISTINGUIDO
+FACULTATIVO QUE HONRO´ A LA MEDICINA CHILENA POR SU TALENTO Y POR
 SU AMPLIA CULTURA.
-NACIÓ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
+NACIO´ EN LA CUIDAD DE LOS ANGELES, PERTENECIA A UNA RESPETABLE
 FAMILIA .
 EN POSECION DE SU TÍTULO FUÉ A EJERCER SU PROFECION EN IQUQUE Y LUEGO
 DESPUES EN CONCEPCION DONDE TUVO UNA DESTACADA Y BRILLANTE
-ACTUACION COMO MÉDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
+ACTUACION COMO MEDICO Y COMO PRINCIPAL FUNDADOR DE LA UNIVERSIDAD
 PENQUISTA . DESIGNADO DIRECTOR DEL ANTIGUO HOSPITAL "SAN JUAN DE DIOS
-ALLA POR EL AÑO 1916 TRATÓ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
+ALLA POR EL AÑO 1916 TRATO´ DE MODERNISARLO Y CONVERTIRLO EN UN HOSPITAL
 CLINICO QUE LLEVABA APAREJADA LA IDEA DE LA FUNDACION EDE UNA E
-ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL [handwritten insertion above line] que se convirtieron [/handwritten insertion]
-DEDICÓ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS[handwritten insertion] /EN UNA [/handwritten insertion]
+ESCUELA DE MEDICINA Y DE LA UNIVERSIDAD QUE ERA SU IDEAL Y A LA CUAL {handwritten} que se convirtieron {/handwritten}
+DEDICO´ SUS MAYORES ENERGIAS Y ENTUSIASMOS HASTA SUS DESEOS{handwritten}/{/handwritten}EN UNA
 HERMOSA REALIDAD.
-EL DOCTOR GOMES DEJA UNA HUELLA LUMINOSA Y UN RECUERDO INPERESEDERO
+EL DOCTOR GOMES DEJA UNA HUELLA LUMUNOSA Y UN RECUERDO INPERESEDERO
 POR SUS CONDICIONES DE HOMBRE DE BIEN Y PROFECIONAL DISTINGUIDO Y
-ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO EL BIEN A MANO LLENA
+ALTUISTA. NO ANBICIONO FORTUNA ALGUNA; PRODIGIO´ EL BIEN A MANO LLENA
 ENTRE SU NUMEROSA CLIENTELA DE TODOS LOS CIRCULOS SOCIALES .
 
-[centered at bottom of page]
-[handwritten] 7 [/handwritten]
+{handwritten} 7 {/handwritten}
+```
 
 ## Images, Captions, And Visual Notes
-There are no images on this page. The page number "7" is handwritten in red ink at the bottom center. There are two handwritten insertions in black ink within the main body of text.
+There are no images on this page. The page consists of typewritten text with two handwritten insertions and a handwritten page number at the bottom.
 
 ## Uncertain Or Illegible
-- The first handwritten insertion, `que se convirtieron`, is somewhat faint but legible.
-- The second handwritten insertion, `/EN UNA`, is clear.
+There are no uncertain or illegible portions of this document.
 
 ## Completeness Audit
-This page has been fully transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only text. There are no photographs, maps, illustrations, or other significant visual elements that would warrant cropping."
+  "no_visual_regions_reason": "This page contains only text and minor handwritten marks, with no significant visual elements like photographs, maps, or illustrations that would warrant cropping."
 }
 ```
 

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-022c80160f7d-P0001-01
+chunk_id: CHUNK-a0b722c5df59-P0001-01
 source_converted: raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md
-converted_sha256: 022c80160f7d5a126943f7469a7f780fb6e01ea2f3401b6ef60c27674a14e8e9
+converted_sha256: a0b722c5df59d4572b4ca2dec137e813da45368d2f7d7d4aebf3b308ab278ef7
 source: raw/sources/El Aguila Nombre Grande Scan.pdf
 source_sha256: 51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1
 source_manifest: raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json
@@ -241,4 +241,5 @@ All visible text and images on the page have been transcribed and described.
 Page number: 6
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a header at the top, followed by a main section title "ACTIVIDADES", and then three subsections: "LA COSECHA", "LA MADERA Y EL ASERRABERO", and "LA ELECTRICIDAD". There is a handwritten page number and a continuation note at the bottom.
+
+The page consists of a single column of typewritten text, with a header at the top and a handwritten page number and continuation note at the bottom. The text is organized into three main sections, each with a heading.

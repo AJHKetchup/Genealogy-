@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-19T03:12:21Z",
+  "updated": "2026-05-19T03:17:56Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -51,68 +51,73 @@
       "completed_at": "2026-05-16T00:39:32Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0001": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:44:49Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-19T03:13:45Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T02:46:50Z",
       "started_at": "2026-05-16T02:46:50Z",
-      "completed_at": "2026-05-17T16:06:11Z",
+      "completed_at": "2026-05-19T03:13:45Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:44:49Z"
+      "released_at": "2026-05-17T16:44:49Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2:p0002": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:45:04Z",
-      "note": "Gemini output failed source-prep review: many_uncertain_readings",
+      "status": "done",
+      "updated_at": "2026-05-19T03:14:17Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T03:01:17Z",
       "started_at": "2026-05-16T03:01:17Z",
-      "completed_at": "2026-05-17T13:49:40Z",
+      "completed_at": "2026-05-19T03:14:17Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:45:04Z"
+      "released_at": "2026-05-17T16:45:04Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5:p0005": {
       "status": "done",
-      "updated_at": "2026-05-17T16:44:49Z",
+      "updated_at": "2026-05-19T03:13:58Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T03:29:02Z",
       "started_at": "2026-05-16T03:29:02Z",
-      "completed_at": "2026-05-17T16:44:49Z",
+      "completed_at": "2026-05-19T03:13:58Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:09:42Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0001": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:35Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
       "completed_at": "2026-05-17T16:44:35Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:38Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
       "completed_at": "2026-05-17T16:44:38Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3:p0003": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:36Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
       "completed_at": "2026-05-17T16:44:36Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024:p0001": {
       "status": "released",
@@ -125,47 +130,50 @@
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3:p0001": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:20Z",
+      "updated_at": "2026-05-19T03:14:11Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T06:18:28Z",
       "started_at": "2026-05-16T06:18:28Z",
-      "completed_at": "2026-05-17T16:45:20Z",
+      "completed_at": "2026-05-19T03:14:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0001": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:32Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
       "completed_at": "2026-05-17T16:47:32Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:32Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
       "completed_at": "2026-05-17T16:47:32Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1-3:p0003": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:31Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T06:18:29Z",
       "started_at": "2026-05-16T06:18:29Z",
       "completed_at": "2026-05-17T16:47:31Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959:p0001": {
       "status": "released",
@@ -325,15 +333,16 @@
       "completed_at": "2026-05-16T17:38:56Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0005": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:44:37Z",
       "claimed_at": "2026-05-17T08:42:02Z",
       "started_at": "2026-05-17T08:42:02Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0006": {
       "status": "done",
@@ -371,15 +380,16 @@
       "completed_at": "2026-05-16T17:41:03Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0004": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:36Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T17:41:06Z",
       "started_at": "2026-05-16T17:41:06Z",
       "completed_at": "2026-05-17T16:44:36Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23:p0011": {
       "status": "done",
@@ -554,15 +564,16 @@
       "completed_at": "2026-05-16T20:17:03Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0037": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:58Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:47:58Z",
       "claimed_at": "2026-05-16T20:37:00Z",
       "started_at": "2026-05-16T20:37:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:09:00Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0039": {
       "status": "done",
@@ -593,14 +604,16 @@
       "completed_at": "2026-05-16T20:18:35Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0042": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:00Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:08:59Z",
       "claimed_at": "2026-05-16T20:37:00Z",
       "started_at": "2026-05-16T20:37:00Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:48:00Z"
+      "released_at": "2026-05-17T16:48:00Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43:p0043": {
       "status": "done",
@@ -715,15 +728,16 @@
       "completed_at": "2026-05-16T20:31:25Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0059": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:48Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:47:48Z",
       "claimed_at": "2026-05-16T20:37:01Z",
       "started_at": "2026-05-16T20:37:01Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63:p0060": {
       "status": "done",
@@ -755,99 +769,102 @@
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0006": {
       "status": "done",
-      "updated_at": "2026-05-17T16:44:48Z",
+      "updated_at": "2026-05-19T03:13:56Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T16:44:48Z",
+      "completed_at": "2026-05-19T03:13:56Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0007": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:27Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-19T03:13:56Z",
+      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
       "completed_at": "2026-05-17T16:45:27Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:05:58Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-19T03:13:56Z"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0008": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:44:51Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
-      "claimed_at": "2026-05-16T18:21:57Z",
-      "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T16:05:59Z",
-      "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:44:51Z"
-    },
-    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:08Z",
+      "updated_at": "2026-05-19T03:14:08Z",
       "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
+      "completed_at": "2026-05-19T03:14:08Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:05:59Z",
-      "completed_at": "2026-05-17T16:45:08Z",
+      "released_at": "2026-05-17T16:44:51Z",
       "agent": "gemini-source-prep"
     },
-    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010": {
+    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0009": {
       "status": "released",
-      "updated_at": "2026-05-17T16:44:51Z",
+      "updated_at": "2026-05-19T03:13:56Z",
       "note": "Gemini output failed source-prep review: possible_table_layout_loss",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T16:06:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:44:51Z"
+      "released_at": "2026-05-19T03:13:56Z",
+      "completed_at": "2026-05-17T16:45:08Z"
+    },
+    "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010": {
+      "status": "done",
+      "updated_at": "2026-05-19T03:14:24Z",
+      "note": "Completed by Gemini route pro",
+      "claimed_at": "2026-05-16T18:21:57Z",
+      "started_at": "2026-05-16T18:21:57Z",
+      "completed_at": "2026-05-19T03:14:24Z",
+      "released_by": "gemini-source-prep",
+      "released_at": "2026-05-17T16:44:51Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0011": {
       "status": "done",
-      "updated_at": "2026-05-17T16:44:51Z",
+      "updated_at": "2026-05-19T03:13:58Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-16T18:21:57Z",
       "started_at": "2026-05-16T18:21:57Z",
-      "completed_at": "2026-05-17T16:44:51Z",
+      "completed_at": "2026-05-19T03:13:58Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:44:46Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-19T03:14:14Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
-      "completed_at": "2026-05-17T16:05:57Z",
+      "completed_at": "2026-05-19T03:14:14Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:44:46Z"
+      "released_at": "2026-05-17T16:44:46Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0004": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:32Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T18:21:58Z",
       "started_at": "2026-05-16T18:21:58Z",
       "completed_at": "2026-05-17T16:47:32Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0006": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:33Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T18:21:59Z",
       "started_at": "2026-05-16T18:21:59Z",
       "completed_at": "2026-05-17T16:47:33Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0064-0083-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-64-83:p0067": {
       "status": "done",
@@ -1130,37 +1147,40 @@
       "completed_at": "2026-05-16T18:43:20Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0008": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:35Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T18:43:24Z",
       "started_at": "2026-05-16T18:43:24Z",
       "completed_at": "2026-05-17T16:47:35Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0009": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:41Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T18:43:25Z",
       "started_at": "2026-05-16T18:43:25Z",
       "completed_at": "2026-05-17T16:47:41Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0004-0023-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-4-23:p0010": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:36Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-16T18:43:25Z",
       "started_at": "2026-05-16T18:43:25Z",
       "completed_at": "2026-05-17T16:47:36Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0104-0123-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-104-123:p0105": {
       "status": "done",
@@ -1816,98 +1836,104 @@
       "released_at": "2026-05-17T10:59:15Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0005": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:32Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T08:42:01Z",
       "started_at": "2026-05-17T08:42:01Z",
       "completed_at": "2026-05-17T16:44:32Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0002": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:26Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T08:42:04Z",
       "started_at": "2026-05-17T08:42:04Z",
       "completed_at": "2026-05-17T16:06:05Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:48:26Z"
+      "released_at": "2026-05-17T16:48:26Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0004": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:44Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T08:42:05Z",
       "started_at": "2026-05-17T08:42:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:44:44Z"
+      "completed_at": "2026-05-17T16:44:44Z",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0005": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:44Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T08:42:05Z",
       "started_at": "2026-05-17T08:42:05Z",
       "completed_at": "2026-05-17T16:44:44Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0004": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:01Z",
+      "updated_at": "2026-05-19T03:13:55Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:09Z",
       "started_at": "2026-05-17T08:42:09Z",
-      "completed_at": "2026-05-17T16:45:01Z",
+      "completed_at": "2026-05-19T03:13:55Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:56Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0005": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:16Z",
+      "updated_at": "2026-05-19T03:14:06Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:12Z",
       "started_at": "2026-05-17T08:42:12Z",
-      "completed_at": "2026-05-17T16:45:16Z",
+      "completed_at": "2026-05-19T03:14:06Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0006": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:08Z",
+      "updated_at": "2026-05-19T03:14:01Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:14Z",
       "started_at": "2026-05-17T08:42:14Z",
-      "completed_at": "2026-05-17T16:45:08Z",
+      "completed_at": "2026-05-19T03:14:01Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0007": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:46Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-19T03:14:10Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T08:42:16Z",
       "started_at": "2026-05-17T08:42:16Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:46Z",
-      "completed_at": "2026-05-17T16:06:34Z"
+      "completed_at": "2026-05-19T03:14:10Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0008": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:02Z",
+      "updated_at": "2026-05-19T03:13:55Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T08:42:19Z",
       "started_at": "2026-05-17T08:42:19Z",
-      "completed_at": "2026-05-17T16:45:02Z",
+      "completed_at": "2026-05-19T03:13:55Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
@@ -2702,352 +2728,374 @@
       "completed_at": "2026-05-17T08:42:51Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83:p0065": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:17Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:18Z",
       "started_at": "2026-05-17T09:10:18Z",
       "completed_at": "2026-05-17T16:05:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:48:17Z"
+      "released_at": "2026-05-17T16:48:17Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0009": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:36Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:18Z",
       "started_at": "2026-05-17T09:10:18Z",
       "completed_at": "2026-05-17T16:44:36Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75:p0053": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:39Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:19Z",
       "started_at": "2026-05-17T09:10:19Z",
       "completed_at": "2026-05-17T16:44:39Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50:p0037": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:43Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
       "completed_at": "2026-05-17T16:44:43Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50:p0039": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:43Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
       "completed_at": "2026-05-17T16:44:43Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0052": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:49Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
       "completed_at": "2026-05-17T16:44:49Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0053": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:45Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:21Z",
       "started_at": "2026-05-17T09:10:21Z",
       "completed_at": "2026-05-17T16:44:45Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40:p0029": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:49Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:49Z",
-      "completed_at": "2026-05-17T16:06:17Z"
+      "completed_at": "2026-05-17T16:06:17Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40:p0030": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:54Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
       "completed_at": "2026-05-17T16:44:54Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0052": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:03Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
       "completed_at": "2026-05-17T16:45:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0053": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:59Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:10:22Z",
       "started_at": "2026-05-17T09:10:22Z",
       "completed_at": "2026-05-17T16:44:59Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0009": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:15Z",
+      "updated_at": "2026-05-19T03:14:03Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:39Z",
       "started_at": "2026-05-17T09:10:39Z",
-      "completed_at": "2026-05-17T16:45:15Z",
+      "completed_at": "2026-05-19T03:14:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0010": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:20Z",
+      "updated_at": "2026-05-19T03:14:07Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:41Z",
       "started_at": "2026-05-17T09:10:41Z",
-      "completed_at": "2026-05-17T16:45:20Z",
+      "completed_at": "2026-05-19T03:14:07Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0011": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:10Z",
+      "updated_at": "2026-05-19T03:14:00Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:44Z",
       "started_at": "2026-05-17T09:10:44Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "completed_at": "2026-05-17T16:45:10Z",
+      "completed_at": "2026-05-19T03:14:00Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0012": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:20Z",
-      "note": "Completed by Gemini route pro",
+      "status": "released",
+      "updated_at": "2026-05-19T03:17:56Z",
+      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
       "claimed_at": "2026-05-17T09:10:46Z",
       "started_at": "2026-05-17T09:10:46Z",
       "completed_at": "2026-05-17T16:45:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:10:02Z",
-      "agent": "gemini-source-prep"
+      "released_at": "2026-05-19T03:17:56Z"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0013": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:50Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-19T03:14:16Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:10:50Z",
       "started_at": "2026-05-17T09:10:50Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:50Z",
-      "completed_at": "2026-05-17T16:06:37Z"
+      "completed_at": "2026-05-19T03:14:16Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0014": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:16Z",
+      "updated_at": "2026-05-19T03:13:54Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:52Z",
       "started_at": "2026-05-17T09:10:52Z",
-      "completed_at": "2026-05-17T16:45:16Z",
+      "completed_at": "2026-05-19T03:13:54Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0015": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:11Z",
+      "updated_at": "2026-05-19T03:14:00Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:55Z",
       "started_at": "2026-05-17T09:10:55Z",
-      "completed_at": "2026-05-17T16:45:11Z",
+      "completed_at": "2026-05-19T03:14:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0016": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:11Z",
+      "updated_at": "2026-05-19T03:13:56Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:10:57Z",
       "started_at": "2026-05-17T09:10:57Z",
-      "completed_at": "2026-05-17T16:45:11Z",
+      "completed_at": "2026-05-19T03:13:56Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0017": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:45:15Z",
-      "note": "Gemini output failed source-prep review: many_uncertain_readings",
+      "status": "done",
+      "updated_at": "2026-05-19T03:14:14Z",
+      "note": "Completed by Gemini route pro",
       "claimed_at": "2026-05-17T09:11:00Z",
       "started_at": "2026-05-17T09:11:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:45:15Z",
-      "completed_at": "2026-05-17T16:06:41Z"
+      "completed_at": "2026-05-19T03:14:14Z",
+      "agent": "gemini-source-prep"
     },
     "source-prep:ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18:p0018": {
       "status": "done",
-      "updated_at": "2026-05-17T16:45:08Z",
+      "updated_at": "2026-05-19T03:13:52Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-17T16:45:08Z",
+      "completed_at": "2026-05-19T03:13:52Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca5678c313-s179-34-6-p0001-0025-s179-34-6-pages-1-25:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:07Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
       "completed_at": "2026-05-17T16:45:07Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0006": {
       "status": "done",
-      "updated_at": "2026-05-17T16:47:31Z",
+      "updated_at": "2026-05-19T03:13:51Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-17T16:47:31Z",
+      "completed_at": "2026-05-19T03:13:51Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0031": {
       "status": "done",
-      "updated_at": "2026-05-17T16:47:29Z",
+      "updated_at": "2026-05-19T03:13:49Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:02Z",
       "started_at": "2026-05-17T09:11:02Z",
-      "completed_at": "2026-05-17T16:47:29Z",
+      "completed_at": "2026-05-19T03:13:49Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0033": {
       "status": "done",
-      "updated_at": "2026-05-17T16:47:32Z",
+      "updated_at": "2026-05-19T03:13:50Z",
       "note": "Completed by Gemini route lite",
       "claimed_at": "2026-05-17T09:11:03Z",
       "started_at": "2026-05-17T09:11:03Z",
-      "completed_at": "2026-05-17T16:47:32Z",
+      "completed_at": "2026-05-19T03:13:50Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25:p0001": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:47Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:09Z",
       "started_at": "2026-05-17T09:11:09Z",
       "completed_at": "2026-05-17T16:47:47Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25:p0002": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:47Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:09Z",
       "started_at": "2026-05-17T09:11:09Z",
       "completed_at": "2026-05-17T16:47:47Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25:p0003": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:49Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:09Z",
       "started_at": "2026-05-17T09:11:09Z",
       "completed_at": "2026-05-17T16:47:49Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0028": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:54Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:10Z",
       "started_at": "2026-05-17T09:11:10Z",
       "completed_at": "2026-05-17T16:47:54Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:59Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0031": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:49Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:10Z",
       "started_at": "2026-05-17T09:11:10Z",
       "completed_at": "2026-05-17T16:47:49Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:59Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0036": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:48:06Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:10Z",
       "started_at": "2026-05-17T09:11:10Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:09:10Z",
       "completed_at": "2026-05-17T16:48:06Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0026-0050-s519bis-26-4-pages-26-50:p0046": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:55Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:11:10Z",
       "started_at": "2026-05-17T09:11:10Z",
       "completed_at": "2026-05-17T16:47:55Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:59Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25:p0001": {
       "status": "released",
@@ -10696,362 +10744,399 @@
       "completed_at": "2026-05-17T09:16:46Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100:p0092": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:35Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:38Z",
       "started_at": "2026-05-17T09:43:38Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
       "completed_at": "2026-05-17T16:44:35Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0100": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:43Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:39Z",
       "started_at": "2026-05-17T09:43:39Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:44:43Z"
+      "completed_at": "2026-05-17T16:44:43Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103:p0101": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:43Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:40Z",
       "started_at": "2026-05-17T09:43:40Z",
       "completed_at": "2026-05-17T16:44:43Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75:p0072": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:39Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:40Z",
       "started_at": "2026-05-17T09:43:41Z",
       "completed_at": "2026-05-17T16:44:39Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0056": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:46Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:46Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0061": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:45Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:45Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:51Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0063": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:52Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:37Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:52Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T15:31:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:37Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0065": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:48Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:48Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0069": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:47Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:47Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0072": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:46Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:46Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75:p0074": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:50Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:50Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0077": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:53Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:44Z",
       "started_at": "2026-05-17T09:43:44Z",
       "completed_at": "2026-05-17T16:44:53Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0078": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:51Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:45Z",
       "started_at": "2026-05-17T09:43:45Z",
       "completed_at": "2026-05-17T16:44:51Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:51Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100:p0079": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:51Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:45Z",
       "started_at": "2026-05-17T09:43:45Z",
       "completed_at": "2026-05-17T16:44:51Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0105": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:48Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:45Z",
       "started_at": "2026-05-17T09:43:45Z",
       "completed_at": "2026-05-17T16:44:48Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0056": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:05Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
       "completed_at": "2026-05-17T16:45:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0041-0060-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-41-60:p0057": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:59Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
       "completed_at": "2026-05-17T16:44:59Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0068": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:57Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
       "completed_at": "2026-05-17T16:44:57Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0078": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:59Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:46Z",
       "started_at": "2026-05-17T09:43:46Z",
       "completed_at": "2026-05-17T16:44:59Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0079": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:59Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:47Z",
       "started_at": "2026-05-17T09:43:47Z",
       "completed_at": "2026-05-17T16:44:59Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80:p0080": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:59Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:47Z",
       "started_at": "2026-05-17T09:43:47Z",
       "completed_at": "2026-05-17T16:44:59Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100:p0095": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:52Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:43:47Z",
       "started_at": "2026-05-17T09:43:47Z",
       "completed_at": "2026-05-17T16:44:52Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0067": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:17Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:25Z",
       "started_at": "2026-05-17T09:44:25Z",
       "completed_at": "2026-05-17T16:45:17Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0068": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:04Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:25Z",
       "started_at": "2026-05-17T09:44:25Z",
       "completed_at": "2026-05-17T16:45:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0083": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:04Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:26Z",
       "started_at": "2026-05-17T09:44:26Z",
       "completed_at": "2026-05-17T16:45:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0087": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:06Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:26Z",
       "started_at": "2026-05-17T09:44:26Z",
       "completed_at": "2026-05-17T16:45:06Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0090": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:49Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:26Z",
       "started_at": "2026-05-17T09:44:26Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:49Z",
-      "completed_at": "2026-05-17T10:26:52Z"
+      "completed_at": "2026-05-17T10:26:52Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0094": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:49:08Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:49:08Z"
+      "released_at": "2026-05-17T16:49:08Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0096": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:49:05Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:49:05Z",
-      "completed_at": "2026-05-17T16:06:29Z"
+      "completed_at": "2026-05-17T16:06:29Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0099": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:14Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "completed_at": "2026-05-17T16:45:14Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0100": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:53Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:27Z",
       "started_at": "2026-05-17T09:44:27Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:53Z",
-      "completed_at": "2026-05-17T16:06:56Z"
+      "completed_at": "2026-05-17T16:06:56Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263:p0260": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:35Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:34Z",
       "started_at": "2026-05-17T09:44:34Z",
       "completed_at": "2026-05-17T16:47:35Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100:p0084": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:52Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T09:44:36Z",
       "started_at": "2026-05-17T09:44:36Z",
       "completed_at": "2026-05-17T16:47:52Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:59Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100:p0098": {
       "status": "done",
@@ -17663,394 +17748,443 @@
       "completed_at": "2026-05-17T09:52:07Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150:p0133": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:17Z",
       "started_at": "2026-05-17T10:21:17Z",
       "completed_at": "2026-05-17T16:44:37Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket3-pages-126-150:p0128": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:20Z",
       "started_at": "2026-05-17T10:21:20Z",
       "completed_at": "2026-05-17T16:44:37Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0107": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:50Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:25Z",
       "started_at": "2026-05-17T10:21:25Z",
       "completed_at": "2026-05-17T16:44:50Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125:p0108": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:01Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:25Z",
       "started_at": "2026-05-17T10:21:25Z",
       "completed_at": "2026-05-17T16:45:01Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0126-0150-r3016-11a-2905-950-pages-126-150:p0144": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:49:06Z",
-      "note": "Gemini conversion error: Remote end closed connection without response",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:25Z",
       "started_at": "2026-05-17T10:21:25Z",
       "completed_at": "2026-05-17T15:26:41Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:49:06Z"
+      "released_at": "2026-05-17T16:49:06Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120:p0107": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:05Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
       "completed_at": "2026-05-17T16:45:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:52Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120:p0109": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:02Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
       "completed_at": "2026-05-17T16:45:02Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120:p0120": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:00Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
       "completed_at": "2026-05-17T16:45:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0121": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:56Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
       "completed_at": "2026-05-17T16:44:56Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:06:08Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0122": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:56Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
       "completed_at": "2026-05-17T16:44:56Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127:p0123": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:54Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:39Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:21:28Z",
       "started_at": "2026-05-17T10:21:28Z",
       "completed_at": "2026-05-17T16:44:54Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:39Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0103": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:51Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:08Z",
       "started_at": "2026-05-17T10:22:08Z",
       "completed_at": "2026-05-17T16:07:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:48:51Z"
+      "released_at": "2026-05-17T16:48:51Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0105": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:44Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:08Z",
       "started_at": "2026-05-17T10:22:08Z",
       "completed_at": "2026-05-17T16:06:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:48:44Z"
+      "released_at": "2026-05-17T16:48:44Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0108": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:22Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:08Z",
       "started_at": "2026-05-17T10:22:08Z",
       "completed_at": "2026-05-17T16:45:22Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0109": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:54Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:09Z",
       "started_at": "2026-05-17T10:22:09Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:54Z",
-      "completed_at": "2026-05-17T16:06:35Z"
+      "completed_at": "2026-05-17T16:06:35Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0110": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:34Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_json_invalid:Expecting value",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:09Z",
       "started_at": "2026-05-17T10:22:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:34Z"
+      "released_at": "2026-05-17T16:46:34Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0112": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:21Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:09Z",
       "started_at": "2026-05-17T10:22:09Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:23Z",
       "completed_at": "2026-05-17T16:45:21Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0114": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:51Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:10Z",
       "started_at": "2026-05-17T10:22:10Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:18Z",
       "completed_at": "2026-05-17T16:45:51Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0116": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:50Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:10Z",
       "started_at": "2026-05-17T10:22:10Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:10Z",
       "completed_at": "2026-05-17T16:45:50Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0118": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:21Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:10Z",
       "started_at": "2026-05-17T10:22:10Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:06:28Z",
       "completed_at": "2026-05-17T16:45:21Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0119": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:14Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "completed_at": "2026-05-17T16:45:14Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0131": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:13Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:06:51Z",
       "completed_at": "2026-05-17T16:47:13Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0132": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:49:35Z",
-      "note": "Gemini conversion error: Remote end closed connection without response",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:49:35Z"
+      "released_at": "2026-05-17T16:49:35Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0133": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:04Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:17Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:04Z"
+      "released_at": "2026-05-17T16:46:04Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:17Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0134": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:49:03Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:49:03Z",
-      "completed_at": "2026-05-17T16:07:01Z"
+      "completed_at": "2026-05-17T16:07:01Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0136": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:49:20Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:49:20Z"
+      "released_at": "2026-05-17T16:49:20Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0137": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:30Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T15:28:23Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:45:30Z"
+      "completed_at": "2026-05-17T16:45:30Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0138": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:18Z",
-      "note": "Gemini output failed source-prep review: duplicate_conversion_contract_sections",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:11Z",
       "started_at": "2026-05-17T10:22:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:18Z"
+      "released_at": "2026-05-17T16:46:18Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0139": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:21Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "completed_at": "2026-05-17T16:46:21Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:11:17Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0140": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:07Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:30Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:07Z"
+      "completed_at": "2026-05-17T16:46:07Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0142": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:45Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:07:28Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:45Z"
+      "completed_at": "2026-05-17T16:46:45Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0143": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:45:31Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:12:29Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:45:31Z"
+      "completed_at": "2026-05-17T16:45:31Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0144": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:25Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:55Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:25Z"
+      "completed_at": "2026-05-17T16:46:25Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0147": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:06Z",
-      "note": "Gemini output failed source-prep review: missing_conversion_contract_sections,duplicate_conversion_contract_sections",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "completed_at": "2026-05-17T10:27:12Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:06Z"
+      "released_at": "2026-05-17T16:46:06Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0126-0150-s179-34-6-pages-126-150:p0148": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:22Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:12Z",
       "started_at": "2026-05-17T10:22:12Z",
       "completed_at": "2026-05-17T15:30:43Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:22Z"
+      "released_at": "2026-05-17T16:46:22Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328:p0322": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:37Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:20Z",
       "started_at": "2026-05-17T10:22:20Z",
       "completed_at": "2026-05-17T16:47:37Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328:p0326": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:37Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:22:20Z",
       "started_at": "2026-05-17T10:22:20Z",
       "completed_at": "2026-05-17T16:47:37Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125:p0105": {
       "status": "done",
@@ -23870,251 +24004,285 @@
       "completed_at": "2026-05-17T10:30:54Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175:p0163": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:38Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:53:00Z",
       "started_at": "2026-05-17T10:53:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:54Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:44:38Z"
+      "completed_at": "2026-05-17T16:44:38Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200:p0193": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:39Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:53:04Z",
       "started_at": "2026-05-17T10:53:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:53Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:44:39Z"
+      "completed_at": "2026-05-17T16:44:39Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0159": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:01Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:11:25Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:47:01Z"
+      "completed_at": "2026-05-17T16:47:01Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0160": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:05Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:46:05Z",
-      "completed_at": "2026-05-17T16:08:36Z"
+      "completed_at": "2026-05-17T16:08:36Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0161": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:40Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:48:40Z"
+      "released_at": "2026-05-17T16:48:40Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0162": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:56Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:56Z"
+      "released_at": "2026-05-17T16:46:56Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0164": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:06Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T15:28:11Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:06Z"
+      "completed_at": "2026-05-17T16:46:06Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0166": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:50:24Z",
-      "note": "Gemini conversion error: Remote end closed connection without response",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:50:24Z"
+      "released_at": "2026-05-17T16:50:24Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0167": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:50:25Z",
-      "note": "Gemini conversion error: Remote end closed connection without response",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:50:25Z"
+      "released_at": "2026-05-17T16:50:25Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0168": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:47:23Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:02Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:47:23Z"
+      "released_at": "2026-05-17T16:47:23Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0170": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:04Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:53Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:47:04Z"
+      "completed_at": "2026-05-17T16:47:04Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0172": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:50:02Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:50:02Z",
-      "completed_at": "2026-05-17T16:08:31Z"
+      "completed_at": "2026-05-17T16:08:31Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0173": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:56Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:46:56Z"
+      "released_at": "2026-05-17T16:46:56Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0174": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:41Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:18Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T15:30:00Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:41Z"
+      "completed_at": "2026-05-17T16:46:41Z",
+      "held_at": "2026-05-19T03:13:18Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0151-0175-s179-34-6-pages-151-175:p0175": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:46:34Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:46:34Z",
-      "completed_at": "2026-05-17T16:07:32Z"
+      "completed_at": "2026-05-17T16:07:32Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0177": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:05Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:47:05Z"
+      "completed_at": "2026-05-17T16:47:05Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0178": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:50:54Z",
-      "note": "Gemini conversion error: Remote end closed connection without response",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:03Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:50:54Z"
+      "released_at": "2026-05-17T16:50:54Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0179": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:39Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:03Z",
       "started_at": "2026-05-17T10:54:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:39Z"
+      "completed_at": "2026-05-17T16:46:39Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0180": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:45Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:04Z",
       "started_at": "2026-05-17T10:54:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:45Z"
+      "completed_at": "2026-05-17T16:46:45Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0183": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:57Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:04Z",
       "started_at": "2026-05-17T10:54:04Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:13:37Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:57Z"
+      "completed_at": "2026-05-17T16:46:57Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0187": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:00Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:04Z",
       "started_at": "2026-05-17T10:54:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:11:34Z",
       "completed_at": "2026-05-17T16:47:00Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0193": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:49Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:05Z",
       "started_at": "2026-05-17T10:54:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:49Z"
+      "completed_at": "2026-05-17T16:46:49Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0194": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:46:52Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:05Z",
       "started_at": "2026-05-17T10:54:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:57Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:46:52Z"
+      "completed_at": "2026-05-17T16:46:52Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428:p0406": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:38Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T10:54:14Z",
       "started_at": "2026-05-17T10:54:14Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:58:58Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:47:38Z"
+      "completed_at": "2026-05-17T16:47:38Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175:p0164": {
       "status": "done",
@@ -29753,688 +29921,767 @@
       "released_at": "2026-05-17T10:59:37Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225:p0216": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:36Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:50Z",
       "started_at": "2026-05-17T13:47:50Z",
-      "completed_at": "2026-05-17T16:44:36Z"
+      "completed_at": "2026-05-17T16:44:36Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225:p0225": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:36Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:50Z",
       "started_at": "2026-05-17T13:47:50Z",
-      "completed_at": "2026-05-17T16:44:36Z"
+      "completed_at": "2026-05-17T16:44:36Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket5-pages-251-275:p0251": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:35Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:50Z",
       "started_at": "2026-05-17T13:47:50Z",
-      "completed_at": "2026-05-17T16:44:35Z"
+      "completed_at": "2026-05-17T16:44:35Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket5-pages-276-300:p0291": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:51Z",
       "started_at": "2026-05-17T13:47:51Z",
       "completed_at": "2026-05-17T16:44:37Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T15:27:28Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375:p0375": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:49Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:51Z",
       "started_at": "2026-05-17T13:47:51Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:10:30Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T16:44:49Z"
+      "completed_at": "2026-05-17T16:44:49Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0414": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:36Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:51Z",
       "started_at": "2026-05-17T13:47:51Z",
-      "completed_at": "2026-05-17T16:44:36Z"
+      "completed_at": "2026-05-17T16:44:36Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0224-0243-c-mara-de-senadores-de-la-naci-n-1936-pages-224-243:p0228": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:53Z",
       "started_at": "2026-05-17T13:47:54Z",
-      "completed_at": "2026-05-17T16:44:37Z"
+      "completed_at": "2026-05-17T16:44:37Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293:p0286": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:44:46Z",
-      "note": "Gemini output failed source-prep review: many_uncertain_readings",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:54Z",
       "started_at": "2026-05-17T13:47:54Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:44:46Z",
-      "completed_at": "2026-05-17T16:06:03Z"
+      "completed_at": "2026-05-17T16:06:03Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225:p0216": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:39Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:56Z",
       "started_at": "2026-05-17T13:47:56Z",
-      "completed_at": "2026-05-17T16:44:39Z"
+      "completed_at": "2026-05-17T16:44:39Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225:p0217": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:40Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:56Z",
       "started_at": "2026-05-17T13:47:57Z",
-      "completed_at": "2026-05-17T16:44:40Z"
+      "completed_at": "2026-05-17T16:44:40Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250:p0236": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:39Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:57Z",
       "started_at": "2026-05-17T13:47:57Z",
-      "completed_at": "2026-05-17T16:44:39Z"
+      "completed_at": "2026-05-17T16:44:39Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275:p0252": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:41Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:57Z",
       "started_at": "2026-05-17T13:47:57Z",
-      "completed_at": "2026-05-17T16:44:41Z"
+      "completed_at": "2026-05-17T16:44:41Z",
+      "held_at": "2026-05-19T03:12:35Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300:p0294": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:40Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:58Z",
       "started_at": "2026-05-17T13:47:58Z",
-      "completed_at": "2026-05-17T16:44:40Z"
+      "completed_at": "2026-05-17T16:44:40Z",
+      "held_at": "2026-05-19T03:12:35Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325:p0313": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:39Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:58Z",
       "started_at": "2026-05-17T13:47:58Z",
-      "completed_at": "2026-05-17T16:44:39Z"
+      "completed_at": "2026-05-17T16:44:39Z",
+      "held_at": "2026-05-19T03:12:35Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425:p0406": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:40Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:47:58Z",
       "started_at": "2026-05-17T13:47:58Z",
-      "completed_at": "2026-05-17T16:44:40Z"
+      "completed_at": "2026-05-17T16:44:40Z",
+      "held_at": "2026-05-19T03:12:35Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275:p0261": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:55Z",
-      "note": "Completed by Gemini route lite",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:48:06Z",
       "started_at": "2026-05-17T13:48:06Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T15:26:34Z",
       "completed_at": "2026-05-17T16:44:55Z",
-      "agent": "gemini-source-prep"
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275:p0262": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:52Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:48:06Z",
       "started_at": "2026-05-17T13:48:06Z",
-      "completed_at": "2026-05-17T16:44:52Z"
+      "completed_at": "2026-05-17T16:44:52Z",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300:p0300": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:49Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T13:48:06Z",
       "started_at": "2026-05-17T13:48:07Z",
-      "completed_at": "2026-05-17T16:44:49Z"
+      "completed_at": "2026-05-17T16:44:49Z",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450:p0434": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T14:21:45Z",
       "started_at": "2026-05-17T14:21:45Z",
-      "completed_at": "2026-05-17T16:44:37Z"
+      "completed_at": "2026-05-17T16:44:37Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0451": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:37Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T14:21:46Z",
       "started_at": "2026-05-17T14:21:46Z",
-      "completed_at": "2026-05-17T16:44:37Z"
+      "completed_at": "2026-05-17T16:44:37Z",
+      "held_at": "2026-05-19T03:12:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478:p0461": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:44:49Z",
-      "note": "Gemini output failed source-prep review: many_uncertain_readings",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T14:21:49Z",
       "started_at": "2026-05-17T14:21:49Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:44:49Z"
+      "released_at": "2026-05-17T16:44:49Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0444": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:40Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T14:21:53Z",
       "started_at": "2026-05-17T14:21:53Z",
-      "completed_at": "2026-05-17T16:44:40Z"
+      "completed_at": "2026-05-17T16:44:40Z",
+      "held_at": "2026-05-19T03:12:35Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503:p0495": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:48:30Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:24:18Z",
       "started_at": "2026-05-17T15:24:18Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:48:30Z",
-      "completed_at": "2026-05-17T16:05:57Z"
+      "completed_at": "2026-05-17T16:05:57Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225:p0205": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:04Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:25Z",
       "started_at": "2026-05-17T15:25:25Z",
-      "completed_at": "2026-05-17T16:47:04Z"
+      "completed_at": "2026-05-17T16:47:04Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225:p0223": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:03Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:26Z",
       "started_at": "2026-05-17T15:25:26Z",
-      "completed_at": "2026-05-17T16:47:03Z"
+      "completed_at": "2026-05-17T16:47:03Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0226-0250-s179-34-6-pages-226-250:p0227": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:50:49Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:26Z",
       "started_at": "2026-05-17T15:25:26Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T16:50:49Z",
-      "completed_at": "2026-05-17T16:08:12Z"
+      "completed_at": "2026-05-17T16:08:12Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0226-0250-s179-34-6-pages-226-250:p0248": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:02Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:27Z",
       "started_at": "2026-05-17T15:25:27Z",
-      "completed_at": "2026-05-17T16:47:02Z"
+      "completed_at": "2026-05-17T16:47:02Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0226-0250-s179-34-6-pages-226-250:p0249": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:03Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:27Z",
       "started_at": "2026-05-17T15:25:27Z",
-      "completed_at": "2026-05-17T16:47:03Z"
+      "completed_at": "2026-05-17T16:47:03Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275:p0261": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:05Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:27Z",
       "started_at": "2026-05-17T15:25:27Z",
-      "completed_at": "2026-05-17T16:47:05Z"
+      "completed_at": "2026-05-17T16:47:05Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275:p0262": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:07Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:27Z",
       "started_at": "2026-05-17T15:25:27Z",
-      "completed_at": "2026-05-17T16:47:07Z"
+      "completed_at": "2026-05-17T16:47:07Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300:p0277": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:08Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:27Z",
       "started_at": "2026-05-17T15:25:27Z",
-      "completed_at": "2026-05-17T16:47:08Z"
+      "completed_at": "2026-05-17T16:47:08Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300:p0282": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:07Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:28Z",
       "started_at": "2026-05-17T15:25:28Z",
-      "completed_at": "2026-05-17T16:47:07Z"
+      "completed_at": "2026-05-17T16:47:07Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300:p0285": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:07Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:28Z",
       "started_at": "2026-05-17T15:25:28Z",
-      "completed_at": "2026-05-17T16:47:07Z"
+      "completed_at": "2026-05-17T16:47:07Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300:p0293": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:11Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:28Z",
       "started_at": "2026-05-17T15:25:28Z",
-      "completed_at": "2026-05-17T16:47:11Z"
+      "completed_at": "2026-05-17T16:47:11Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300:p0296": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:24Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:28Z",
       "started_at": "2026-05-17T15:25:28Z",
-      "completed_at": "2026-05-17T16:47:24Z"
+      "completed_at": "2026-05-17T16:47:24Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0313": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:14Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:14Z"
+      "completed_at": "2026-05-17T16:47:14Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0314": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:14Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:14Z"
+      "completed_at": "2026-05-17T16:47:14Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0317": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:10Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:19Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:10Z"
+      "completed_at": "2026-05-17T16:47:10Z",
+      "held_at": "2026-05-19T03:13:19Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0318": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:15Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:15Z"
+      "completed_at": "2026-05-17T16:47:15Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0319": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:14Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:14Z"
+      "completed_at": "2026-05-17T16:47:14Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0320": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:13Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:13Z"
+      "completed_at": "2026-05-17T16:47:13Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0321": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:16Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:16Z"
+      "completed_at": "2026-05-17T16:47:16Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0322": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:20Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:29Z",
-      "completed_at": "2026-05-17T16:47:20Z"
+      "completed_at": "2026-05-17T16:47:20Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0323": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:16Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:29Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:16Z"
+      "completed_at": "2026-05-17T16:47:16Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0324": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:16Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:16Z"
+      "completed_at": "2026-05-17T16:47:16Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325:p0325": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:17Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:17Z"
+      "completed_at": "2026-05-17T16:47:17Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0326": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:17Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:17Z"
+      "completed_at": "2026-05-17T16:47:17Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0327": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:22Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:22Z"
+      "completed_at": "2026-05-17T16:47:22Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0328": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:22Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:22Z"
+      "completed_at": "2026-05-17T16:47:22Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0329": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:22Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:22Z"
+      "completed_at": "2026-05-17T16:47:22Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0330": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:22Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:22Z"
+      "completed_at": "2026-05-17T16:47:22Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0331": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:21Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:21Z"
+      "completed_at": "2026-05-17T16:47:21Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0332": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:22Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:22Z"
+      "completed_at": "2026-05-17T16:47:22Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0336": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:25Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:30Z",
       "started_at": "2026-05-17T15:25:30Z",
-      "completed_at": "2026-05-17T16:47:25Z"
+      "completed_at": "2026-05-17T16:47:25Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0337": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:25Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:31Z",
       "started_at": "2026-05-17T15:25:31Z",
-      "completed_at": "2026-05-17T16:47:25Z"
+      "completed_at": "2026-05-17T16:47:25Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0338": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:24Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:31Z",
       "started_at": "2026-05-17T15:25:31Z",
-      "completed_at": "2026-05-17T16:47:24Z"
+      "completed_at": "2026-05-17T16:47:24Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0342": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:26Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:31Z",
       "started_at": "2026-05-17T15:25:31Z",
-      "completed_at": "2026-05-17T16:47:26Z"
+      "completed_at": "2026-05-17T16:47:26Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0343": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:28Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:31Z",
       "started_at": "2026-05-17T15:25:31Z",
-      "completed_at": "2026-05-17T16:47:28Z"
+      "completed_at": "2026-05-17T16:47:28Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0345": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:26Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:31Z",
       "started_at": "2026-05-17T15:25:31Z",
-      "completed_at": "2026-05-17T16:47:26Z"
+      "completed_at": "2026-05-17T16:47:26Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0346": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:34Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:31Z",
       "started_at": "2026-05-17T15:25:31Z",
-      "completed_at": "2026-05-17T16:47:34Z"
+      "completed_at": "2026-05-17T16:47:34Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0347": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:28Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:20Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:32Z",
       "started_at": "2026-05-17T15:25:32Z",
-      "completed_at": "2026-05-17T16:47:28Z"
+      "completed_at": "2026-05-17T16:47:28Z",
+      "held_at": "2026-05-19T03:13:20Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0348": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:41Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:21Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:32Z",
       "started_at": "2026-05-17T15:25:32Z",
-      "completed_at": "2026-05-17T16:47:41Z"
+      "completed_at": "2026-05-17T16:47:41Z",
+      "held_at": "2026-05-19T03:13:21Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0349": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:28Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:21Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:32Z",
       "started_at": "2026-05-17T15:25:32Z",
-      "completed_at": "2026-05-17T16:47:28Z"
+      "completed_at": "2026-05-17T16:47:28Z",
+      "held_at": "2026-05-19T03:13:21Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356:p0352": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:29Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:21Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:32Z",
       "started_at": "2026-05-17T15:25:32Z",
-      "completed_at": "2026-05-17T16:47:29Z"
+      "completed_at": "2026-05-17T16:47:29Z",
+      "held_at": "2026-05-19T03:13:21Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356:p0355": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:31Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:21Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:32Z",
       "started_at": "2026-05-17T15:25:32Z",
-      "completed_at": "2026-05-17T16:47:31Z"
+      "completed_at": "2026-05-17T16:47:31Z",
+      "held_at": "2026-05-19T03:13:21Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428:p0408": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:40Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:42Z",
       "started_at": "2026-05-17T15:25:42Z",
-      "completed_at": "2026-05-17T16:47:40Z"
+      "completed_at": "2026-05-17T16:47:40Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503:p0500": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:44Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:42Z",
       "started_at": "2026-05-17T15:25:42Z",
-      "completed_at": "2026-05-17T16:47:44Z"
+      "completed_at": "2026-05-17T16:47:44Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528:p0504": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:39Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:42Z",
       "started_at": "2026-05-17T15:25:42Z",
-      "completed_at": "2026-05-17T16:47:39Z"
+      "completed_at": "2026-05-17T16:47:39Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528:p0506": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:42Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:43Z",
       "started_at": "2026-05-17T15:25:43Z",
-      "completed_at": "2026-05-17T16:47:42Z"
+      "completed_at": "2026-05-17T16:47:42Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528:p0508": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:43Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:43Z",
       "started_at": "2026-05-17T15:25:43Z",
-      "completed_at": "2026-05-17T16:47:43Z"
+      "completed_at": "2026-05-17T16:47:43Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0579-0603-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-579-603:p0580": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:43Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:22Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:44Z",
       "started_at": "2026-05-17T15:25:44Z",
-      "completed_at": "2026-05-17T16:47:43Z"
+      "completed_at": "2026-05-17T16:47:43Z",
+      "held_at": "2026-05-19T03:13:22Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0579-0603-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-579-603:p0600": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:44Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:44Z",
       "started_at": "2026-05-17T15:25:44Z",
-      "completed_at": "2026-05-17T16:47:44Z"
+      "completed_at": "2026-05-17T16:47:44Z",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678:p0666": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:43Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:44Z",
       "started_at": "2026-05-17T15:25:44Z",
-      "completed_at": "2026-05-17T16:47:43Z"
+      "completed_at": "2026-05-17T16:47:43Z",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703:p0680": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:45Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:45Z",
       "started_at": "2026-05-17T15:25:45Z",
-      "completed_at": "2026-05-17T16:47:45Z"
+      "completed_at": "2026-05-17T16:47:45Z",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0704-0728-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-704-728:p0706": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:45Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T15:25:45Z",
       "started_at": "2026-05-17T15:25:45Z",
-      "completed_at": "2026-05-17T16:47:45Z"
+      "completed_at": "2026-05-17T16:47:45Z",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225:p0204": {
       "status": "done",
@@ -30514,13 +30761,14 @@
       "completed_at": "2026-05-17T16:29:09Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0696": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:43Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:44:43Z",
       "claimed_at": "2026-05-17T16:42:34Z",
-      "started_at": "2026-05-17T16:42:34Z"
+      "started_at": "2026-05-17T16:42:34Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0637": {
       "status": "done",
@@ -30530,13 +30778,14 @@
       "completed_at": "2026-05-17T16:29:07Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0629": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:42Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:44:42Z",
       "claimed_at": "2026-05-17T16:42:32Z",
-      "started_at": "2026-05-17T16:42:32Z"
+      "started_at": "2026-05-17T16:42:32Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750:p0736": {
       "status": "done",
@@ -30560,13 +30809,14 @@
       "completed_at": "2026-05-17T16:30:28Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0631": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:43Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:44:43Z",
       "claimed_at": "2026-05-17T16:42:32Z",
-      "started_at": "2026-05-17T16:42:32Z"
+      "started_at": "2026-05-17T16:42:32Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0635": {
       "status": "done",
@@ -30590,13 +30840,14 @@
       "completed_at": "2026-05-17T16:31:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0647": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:48Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "completed_at": "2026-05-17T16:44:48Z",
       "claimed_at": "2026-05-17T16:42:33Z",
-      "started_at": "2026-05-17T16:42:33Z"
+      "started_at": "2026-05-17T16:42:33Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0634": {
       "status": "done",
@@ -31012,40 +31263,44 @@
       "completed_at": "2026-05-17T16:42:15Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0628": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:42Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T16:03:51Z",
       "started_at": "2026-05-17T16:03:51Z",
-      "completed_at": "2026-05-17T16:44:42Z"
+      "completed_at": "2026-05-17T16:44:42Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0633": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:47Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T16:03:52Z",
       "started_at": "2026-05-17T16:03:52Z",
-      "completed_at": "2026-05-17T16:44:47Z"
+      "completed_at": "2026-05-17T16:44:47Z",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825:p0825": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:44:58Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:38Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T16:04:04Z",
       "started_at": "2026-05-17T16:04:04Z",
-      "completed_at": "2026-05-17T16:44:58Z"
+      "completed_at": "2026-05-17T16:44:58Z",
+      "held_at": "2026-05-19T03:12:38Z"
     },
     "source-prep:ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928:p0912": {
-      "status": "done",
-      "updated_at": "2026-05-17T16:47:53Z",
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T16:05:20Z",
       "started_at": "2026-05-17T16:05:20Z",
-      "completed_at": "2026-05-17T16:47:53Z"
+      "completed_at": "2026-05-17T16:47:53Z",
+      "held_at": "2026-05-19T03:13:23Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0471": {
       "status": "done",
@@ -31090,13 +31345,15 @@
       "completed_at": "2026-05-17T16:36:21Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0640": {
-      "status": "released",
-      "updated_at": "2026-05-17T16:44:46Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-17T16:42:33Z",
       "started_at": "2026-05-17T16:42:33Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T16:44:46Z"
+      "released_at": "2026-05-17T16:44:46Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-19T03:12:34Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0969": {
       "status": "done",
@@ -31636,6 +31893,34 @@
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "completed_at": "2026-05-19T03:12:21Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0648": {
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-19T03:12:34Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0649": {
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-19T03:12:34Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0651": {
+      "status": "held",
+      "updated_at": "2026-05-19T03:12:34Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-19T03:12:34Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0879-0903-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-879-903:p0884": {
+      "status": "held",
+      "updated_at": "2026-05-19T03:13:23Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-19T03:13:23Z"
     }
   }
 }

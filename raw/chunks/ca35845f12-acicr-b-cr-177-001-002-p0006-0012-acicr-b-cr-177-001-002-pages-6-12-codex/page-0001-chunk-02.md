@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-362253130227-P0001-02
+chunk_id: CHUNK-3e451371cea4-P0001-02
 source_converted: raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
-converted_sha256: 362253130227560dc1c7b127ac62cac3770a2ecb016c2b82ece3a56639efd044
+converted_sha256: 3e451371cea46ed2e9d00580b6207e3b53af7170ba2f311755471d74a4501e31
 source: raw/sources/ACICR_B_CR_177_001_002.pdf
 source_sha256: 35845f12102b00f57d2c57bbbe3aa7889066781e2eda27c2fad01a4ce0dcff35
 source_manifest: raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json
@@ -12,127 +12,156 @@ part: 2
 ---
 
 ## Literal Transcription
-
 CR 177 Conférence diplomatique 9.
 
-| | | |
-| :--- | :--- | :--- |
-| | 162.- 20.7.29. | Remercions pour l/ ci-dessus (161) |
-| | 163.- 30.7.29. | Tél. de M. Huber remerciant et félicitant membres et secrétariat pour collaboration conférence diplomatique |
-| | 164.- 1.8.29. | Remercions pour tél. ci-dessus, M. Huber |
-| | 165.- 8.7.29. | CR vénézuélienne remercie pour brochure Werner |
-| plié | 166.- 13.7.29. | CR des Indes do |
-| | | <br>CR 177-2 |
-| | 167.- 29.7.29. | LSCR réclame le compte rendu de la 3me séance de la Conférence diplomatique. |
-| | 168.- 31.7.29. | M. Bagotzky demande compte rendu de la Conférence diplomatique. |
-| ms. | 169.- 2.8.29. | M. Vansteenberghe à St-Omer demande compte rendu de la Conférence diplomatique, |
-| | 170.- 5.8.29. | Envoyons compte rendu à M. Vansteenberghe à St Omer |
-| | 171.- 5.8.29. | Prions Direction générale des Postes de faire suivre à Berne la correspondance qui arriverait pour la Conférence diplomatique. |
-| | 172.- 6.8.29. | Envoyons procès-verbaux demandés à LSCR ✓ |
-| | 173.- 6.8.29. | LSCR remercie pour procès-verbaux envoyés. |
-| 2 ann. | 174.- 8.8.29. | LSCR envoie l/ de M. Vansteenberghen qui regarde le CI . |
-| | 175.- 8.8.29. | Envoyons au général Demolder épreuve de son discours avec prière de la corriger. |
-| | 176.- 8.8.29. | Direction des postes à Genève a.r. de n/ l/ du 5.8. 171) a pris bonne note de son contenu. |
-| ms. | 177.- 11.8.29. | Général Demolder retourne épreuve corrigée. |
-| Carte ms | 178.- 12.8.29. | M. Werner demande quelques exemplaires de son rapport. |
-| | 179.- 12.8.29. | Répondons à Dr Bagotzky (168), les Nos de juillet et août de la Revue publieront les principaux documents relatifs à conf. diplom. |
-| | 180.- 12.8.29. | M. Clouzot répond à carte de M. Werner (178) |
-| | 181.- 16.8.29. | Informons le général Demolder que ses corrections sont arrivées trop tard. |
-| plié | 182.- 17.8.29. | L/ de M. Ciraolo au sujet de ses procès-verbaux corrigés. |
-| | 183.- 19.8.29. | L/ du Reichsvereinigung ehem. Kriegsgefangener E.V. au sujet documents sur PG. |
+162.- 20.7.29. Remercions pour l/ ci-dessus (161)
+163.- 30.7.29. Tél. de M. Huber remerciant et félicitant membres et secréta-
+                   riat pour collaboration conférence diplomatique.
+164.- 1.8.29. Remercions pour tél. ci-dessus, M. Huber.
+165.- 8.7.29. CR vénézuélienne remercie pour brochure Werner.
+plié
+166.- 13.7.29. CR des Indes. do CR 177-2
+167.- 29.7.29. LSCR réclame le compte rendu de la 3me séance de la Conférence
+                   diplomatique.
+ms.
+168.- 31.7.29. M. Bagotzky demande compterendu de la Conférence diplomatique.
+169.- 2.8.29. M. Vansteenberghe à St-Omer demande compte rendu de la Conférence
+                   diplomatique.
+170.- 5.8.29. Envoyons compte rendu à M. Vansteenberghe à St Omer.
+171.- 5.8.29. Prions Direction générale des Postes de faire suivre à Berne -
+                   la correspondance qui arriverait pour la Conférence diplomatique.
+172.- 6.8.29. Envoyons procès-verbaux demandés à LSCR.
+173.- 6.8.29. LSCR remercie pour procès-verbaux envoyés.
+2 ann. 174.- 8.8.29. LSCR envoie l/ de M. Vansteenberghen qui regarde le CI.
+175.- 8.8.29. Envoyons au général Demolder épreuve de son discours avec prière
+                   de la corriger.
+176.- 8.8.29. Direction des postes à Genève a.r. de n/ l/ du 5.8. (171)
+                   a pris bonne note de son contenu.
+ms.
+177.- 11.8.29. Général Demolder retourne épreuve corrigée.
+Carte ms
+178.- 12.8.29. M. Werner demande quelques exemplaires de son rapport.
+179.- 12.8.29. Répondons à Dr Bagotzky (168), les Nos de juillet et août de la
+                   Revue publieront les principaux documents relatifs à conf. diplom.
+180.- 12.8.29. M. Clouzot répond à carte de M. Werner (178).
+181.- 16.8.29. Informons le général Demolder que ses corrections sont arrivées
+                   trop tard.
+plié
+182.- 17.8.29. L/ de M. Giraolo au sujet de ses procès-verbaux corrigés.
+183.- 19.8.29. L/ du Reichsvereinigung ehem. Kriegsgefangener E.V. au sujet
+                   documents sur PG.
 
 ## Images, Captions, And Visual Notes
-
-- A large handwritten annotation "CR 177-2" is written in dark ink in the upper right quadrant of the page, between entries 166 and 167.
-- Handwritten marginalia in pencil appears to the left of several entries:
-  - "plié" next to entry 166.
-  - "ms." next to entry 169.
-  - "2 ann." next to entry 174.
-  - "ms." next to entry 177.
-  - "Carte ms" next to entry 178.
-  - "plié" next to entry 182.
-- A handwritten checkmark (✓) appears at the end of the line for entry 172.
-- A faint, smudged, and illegible mark, possibly from a rubber stamp, is present at the very bottom right of the page.
+- A handwritten annotation "CR 177-2" is present in the right margin next to entry 166.
 
 ## Uncertain Or Illegible
-
-- The smudged mark at the bottom right of the page is entirely illegible.
-
-## Completeness Audit
-
-The entire content of the page, including all typed text and handwritten annotations, has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text. Minor handwritten annotations and marks are fully transcribed or described in the markdown and do not require separate visual regions."
-}
-```
-
-## Page Metadata
-Page number: 10
-
-## Layout And Reading Order
-
-The page contains a header at the top right and a main body of text presented as a numbered list. Each list item consists of a number, a date, and a descriptive phrase. Some list items have handwritten marginalia to their left. The text is in French.
-
-## Literal Transcription
-
-CR 177 Conférence diplomatique 10.
-
-184.- 21.8.29. H/ 1/ à M. Wackeben à Berlin au sujet du livre de M. Georges Cahe
-                  Salvador
-185.- 23.8.29. M. Wackeben répond à 1/ ci-dessus.
-186.- 29.8.29. J/ de M. Brown à Dr Wehberg à propos du livre de M. Cahen-Salvado
-187.- 29.8.29. Départ. Politique à Berne nous envoie documents sur Conf. diploma
-                  tique
-ms.       188.- 4.9.29. L/ de M. Paul Des Gouttes à propos des procès-verbaux corrigés pa
-                  par M. Ciraolo.
-ms.       189.- 4.9.29. Note de M. Huber sur le livre de M. Werner ✓
-190.- 9.9.29. Note de M. Clouzot à M. Huber au sujet du livre de M. Werner.
-191.- 9.9.29. A.r. à 1/ du Départ. politique (107) remercions pour documents
-                  et envoyons corrections du général Demolder.
-192.- 9.9.29. M. Clouzot répond à M. Des Gouttes (108) .
-ms.       193.- 10.9.29. M. Des Gouttes répond à 1/ ci-dessus.
-194.- 10.9.29. Départ. Politique envoie: le rapport du général Demolder et
-                  le Rapport de M. Werner ✓
-ms.       195.- 16.9.29. Note de M. Huber sur sa note sur le livre de M. Werner ,
-196.- 18.9.29. A.r. à Départ. politique 109) des documents et remercions.
-197.- 25.9.29. M. Bagotzky demande 2-3 ex. des protocoles de la Conférence
-                  concernant les PG ✓
-198.- 26.9.29. Répondons à 1/ ci-dessus: les demandes doivent être adressées
-                  à Département Politique à Berne ✓
-199.- 20.8.29. L/ de M. Clouzot à M. Ciraolo au sujet de la Conf. diplomatique ,
-ms. 1 ann. ms. 200.- 23.10.29. BIT réclame documents pour Dr Hillin. ✓
-201.- 4.11.29. M. Draudt demande si l'on pourrait traduire en allemand, anglais
-                  et espagnol, le texte de la convention et l'expédier aux Stés
-                  nationales avec circulaires conjointes ✓
-202.- 5.11.29. Note à M. Huber au sujet des traductions des convention de
-                  juillet dernier. ✓
-plé       203.- 21.11.29. Légation de thhécocoslovaquie demande si texte des conventions de
-                  juillet ont déjà paru dans Revue.
-204.- 22.11.29. Répondons à 1/ ci-dessus ✓
-
-## Images, Captions, And Visual Notes
-
-- Handwritten "ms." appears in the left margin next to entries 188, 189, 193, and 195.
-- Handwritten "ms. 1 ann. ms." appears in the left margin next to entry 200.
-- Handwritten "plé" appears in the left margin next to entry 203.
-- Several entries (189, 194, 197, 198, 200, 201, 202, 204) end with a handwritten checkmark (✓).
-
-## Uncertain Or Illegible
-
 None.
 
 ## Completeness Audit
-
-All visible text and significant handwritten marks on the page have been transcribed.
+All visible text and significant annotations on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present. The page contains only text and minor handwritten annotations/marks that are captured in the transcription and visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like photos, maps, or complex diagrams. Handwritten marginalia and annotations are transcribed in the literal transcription section."}
+```
+
+## Page Metadata
+- Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0010`
+- Model route: `pro`
+- Route reasons: complex_quality_flags
+- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/work-orders/page-0010.md`
+- Page: 10
+- Output Markdown target: `raw/codex-conversion-jobs/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12/page-markdown/page-0010.md`
+- External research relevance: ``
+- External requested treatment: ``
+- External relevance reasons: none
+- Recommended action: `gemini_fallback`
+- Quality flags: possible_table_layout_loss
+- Technical reread clues: none
+
+## Layout And Reading Order
+The page contains a single-column, typed list of numbered and dated entries. A header is located at the top right of the page. The main content consists of two conceptual columns: the first contains the entry number and date, and the second contains a description. There are several handwritten annotations in the left margin, aligned with specific entries. Some entries have handwritten additions or checkmarks/slashes at the end of the line. The reading order is from top to bottom.
+
+## Literal Transcription
+```text
+CR 177 Conférence diplomatique 10.
+
+184.- 21.8.29. L/ a M. Mackeben à Berlin au sujet du livre de M. Georges Cahe
+Salvador
+
+185.- 28.8.29. M. Mackeben répond à l/ ci-dessus.
+
+186.- 29.8.29. L/ de M. Brown à Dr Wehberg à propos du livre de M. Cahen-Salvado
+
+187.- 29.8.29. Départ. Politique à Berne nous envoie documents sur Conf. diploma
+tique.
+
+ms. 188.- 4.9.29. L/ de M. Paul Des Gouttes à propos des procès-verbaux corrigés pa
+par M. Ciraolo.
+
+ms. 189.- 4.9.29. Note de M. Huber sur le livre de M. Werner ✓
+
+190.- 9.9.29. Note de M. Clouzot à M. Huber au sujet du livre de M. Werner.
+
+191.- 9.9.29. A.r. à l/ du Départ. politique (107) remercions pour documents
+et envoyons corrections du général Demolder.
+
+192.- 9.9.29. M. Clouzot répond à M. Des Gouttes (108).
+
+ms. 193.- 10.9.29. M. Des Gouttes répond à l/ ci-dessus.
+
+194.- 10.9.29. Départ. Politique envoie: le rapport du général Demolder et
+le Rapport de M. Werner ✓
+
+ms. 195.- 16.9.29. Note de M. Huber sur sa note sur le livre de M. Werner ✓
+
+196.- 18.9.29. A.r. à Départ. politique 108) des documents et remercions.
+
+197.- 25.9.29. M. Bagotzky demande 2-3 ex, des protocoles de la Conférence
+concernant les PG ✓
+
+198.- 26.9.29. Répondons à l/ ci-dessus: les demandes doivent être adressées
+à Département Politique à Berne ✓
+
+199.- 20.8.29. L/ de M. Clouzot à M. Ciraolo au sujet de la Conf. diplomatique.
+
+ms. 1 ann. ms 200.- 23.10.29. BIT réclame documents pour Dr Millin.✓
+
+201.- 4.11.29. M. Draudt demande si l'on pourrait traduire en allemand, anglais
+et espagnol, le texte de la convention et l'expédier aux Stés
+nationales avec circulaires conjointes/
+
+202.- 5.11.29. Note à M. Huber au sujet des traductions des convention de
+juillet dernier. /
+
+plé } 203.- 21.11.29. Légation de thhécoslovaquie demande si texte des conventions de
+juillet ont déjà paru dans Revue. ✓
+
+204.- 22.11.29. Répondons à l/ ci-dessus/
+```
+
+## Images, Captions, And Visual Notes
+This page is a typed document with several handwritten annotations.
+- In the left margin, the abbreviation "ms." appears next to entries 188, 189, 193, and 195.
+- Next to entry 200, the handwritten note "ms. 1 ann. ms" is present.
+- Next to entry 203, the handwritten note "plé" is followed by a curly brace `{` that points to the entry.
+- Within the text, handwritten numbers in parentheses, `(107)` and `(108)`, are inserted in entries 191 and 192 respectively. A partial `108)` is in entry 196.
+- Several lines end with a handwritten checkmark (`✓`) or a slash (`/`).
+
+## Uncertain Or Illegible
+There are no uncertain or illegible portions of this document.
+
+## Completeness Audit
+The entire page has been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only text. Handwritten annotations are minor and have been transcribed directly into the text or described in the visual notes section."
+}
 ```
 
 ## Page Metadata
@@ -208,33 +237,15 @@ All visible text, including marginalia and page numbers, has been transcribed.
 ```
 
 ## Page Metadata
-Page number: 12
-Source document page number: 12
+- Task id: `source-prep:ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12:p0012`
+- Source: `raw/sources/ACICR_B_CR_177_001_002.pdf`
+- Page: 12
 
 ## Layout And Reading Order
-The page consists of a header at the top right and a main body of text. The main body is a numbered list of entries, each starting with a number, a date, and then a descriptive text. Some entries span multiple lines. There is a handwritten annotation "MS" in the left margin next to one of the entries.
+The page contains a header and a list of numbered entries. The header consists of "CR 177 Conférence diplomatique" on the left and the page number "12." on the right.
 
-## Literal Transcription
-CR 177 Conférence diplomatique 12.
+The main content is a list of entries, numbered 224 to 232. Each entry is formatted in two columns: the left column contains the entry number and a date, and the right column contains a descriptive text.
 
-224.- 18.8.30. LSCR remercie pour les 6 ex. de la Convention de Genève (223) ✓
-225.- 12.9.30. Départ. Politique envoie le Message du Conseil fédéral concer-
-                 nant l'approbation de la convention de Genève et du code des PG. ✓
-226.- 15.9.30. Transmettons à M. de Fischer le volume relié des procès-verbaux
-                 des sous-commissions de la Conférence de 1929. Constate qu'il
-                 en manque. Prions de nous les procurer si possible.
-227.- 16.9.30. Remercions Départ. Politique pour message (225) ✓
-MS
-228.- 17.9.30. M. de Fischer a.r. du volume (226). Signale les procès-verbaux
-                 manquant. Nous envoie ceux qu'il a en double et enverra son
-                 volume pour prendre copie de ceux qui nous manquent ✓
-229.- 19.9.30. A.r. à 1/ ci-dessus, remercions d'avance.
-230.- 9.10.30. M. de Fischer envoie son volume pour que nous mettions le nôtre
-                 à jour. Prie de le soigner et de le retourner après usage.✓
-231.-20.10.30. Remercions pour envoie ci-dessus. Retournons volume. ✓
-232.- 7.3.44. Conférence diplomatique 12929, révision des Conventions de Genève
-                 1906 - Participation de la Russie.- ✓
+There is handwritten marginalia "MS" to the left of entry 228. Several entries have handwritten marks (checkmarks, slashes, commas, or dashes) at the end of the text.
 
-## Images, Captions, And Visual Notes
-- A handwritten "MS" is present in the left margin next to entry 228.
-- Small handwritten checkmarks or ticks are present at the end of entries 224, 225, 227, 228, 230, 231, and 232.
+The reading order is from top to bottom, following the numerical sequence of the entries.
