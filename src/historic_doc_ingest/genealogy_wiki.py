@@ -7054,6 +7054,13 @@ def source_prep_report_pages_per_hour(payload: dict[str, object], count_key: str
     return f"{(count * 3600 / duration_seconds):.1f}"
 
 
+def source_prep_report_compact_error(value: object, *, max_chars: int = 240) -> str:
+    text = " ".join(str(value or "").split())
+    if len(text) <= max_chars:
+        return text
+    return text[: max_chars - 3].rstrip() + "..."
+
+
 def build_source_prep_cloud_report(root: Path) -> str:
     paths = WikiPaths(root.resolve())
     automation_dir = paths.research / "_automation"
@@ -7069,6 +7076,9 @@ def build_source_prep_cloud_report(root: Path) -> str:
     blockers = [str(item) for item in [*heartbeat_blockers, *docling_blockers] if str(item).strip()]
     if preflight and preflight.get("ready") is False:
         blockers.append("preflight missing: " + ", ".join(str(item) for item in preflight.get("missing", []) or []))
+    gemini_fatal_error = source_prep_report_compact_error(gemini.get("fatal_error"))
+    if gemini_fatal_error:
+        blockers.append(f"gemini fatal: {gemini_fatal_error}")
     filters = batches.get("filters", {}) if isinstance(batches.get("filters"), dict) else {}
     queue_scope = "global" if batches.get("global_queue") is True else "filtered"
     if not batches:

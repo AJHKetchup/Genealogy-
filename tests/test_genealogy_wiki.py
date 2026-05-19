@@ -1183,7 +1183,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.gemini_fallback_policy || 'all' }}"
+        "github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}"
     ) in workflow
     assert (
         "RUN_ECONOMY_LARGE_SOURCE_PAGES: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1198,7 +1198,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--fastlane-limit \"$RUN_FASTLANE_LIMIT\"" in workflow
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
-    assert "default: \"all\"" in workflow
+    assert "default: \"large_corpus_relevance\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
     assert "if: always() && steps.preflight.outputs.ready == 'true'" in workflow
     assert "if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'" in workflow
@@ -1304,6 +1304,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
                 "media_skipped": 0,
                 "route_counts": {"lite": 3, "pro": 2},
                 "visual_regions": {"cropped": 2},
+                "fatal_error": "Gemini HTTP 429: prepayment credits are depleted",
             }
         ),
         encoding="utf-8",
@@ -1342,6 +1343,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert '- Route counts: {"lite": 3, "pro": 2}' in report
     assert "- r2 credentials missing" in report
     assert "- preflight missing: R2_BUCKET" in report
+    assert "- gemini fatal: Gemini HTTP 429: prepayment credits are depleted" in report
 
 
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
