@@ -1661,6 +1661,39 @@ def test_docling_wrapper_keeps_table_structure_enabled() -> None:
     assert "pipeline_options.do_table_structure = False" not in source
 
 
+def test_local_visual_region_fallback_extracts_embedded_scan_block(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    Image = pytest.importorskip("PIL.Image")
+    ImageDraw = pytest.importorskip("PIL.ImageDraw")
+
+    scan = Image.new("RGB", (800, 1000), "white")
+    draw = ImageDraw.Draw(scan)
+    draw.text((80, 80), "Scanned source page with text above a visual block.", fill="black")
+    draw.rectangle((120, 470, 520, 850), outline="black", width=5, fill=(226, 226, 226))
+    draw.text((205, 635), "photo or illustration", fill="black")
+    png_path = tmp_path / "scan.png"
+    scan.save(png_path)
+
+    pdf_path = tmp_path / "scan.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=800, height=1000)
+    page.insert_image(page.rect, filename=str(png_path))
+    doc.save(pdf_path)
+    doc.close()
+
+    image_output_dir = tmp_path / "raw" / "codex-conversion-jobs" / "job" / "extracted-images" / "page-0001"
+    records = genealogy_wiki.extract_local_visual_regions_from_pdf(
+        pdf_path,
+        image_output_dir=image_output_dir,
+        image_prefix="page-0001-docling-image",
+        root=tmp_path,
+    )
+
+    assert records
+    assert records[0]["method"] == "local_visual_region"
+    assert (tmp_path / records[0]["path"]).exists()
+
+
 def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

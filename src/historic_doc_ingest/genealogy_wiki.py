@@ -6150,14 +6150,22 @@ def convert_source_with_docling(
     markdown = str(document.export_to_markdown()).strip()
     if image_output_dir is None:
         return markdown
-    return {
-        "markdown": markdown,
-        "extracted_images": extract_docling_picture_images(
-            document,
+    extracted_images = extract_docling_picture_images(
+        document,
+        image_output_dir=image_output_dir,
+        image_prefix=image_prefix,
+        root=root,
+    )
+    if not extracted_images:
+        extracted_images = extract_local_visual_regions_from_pdf(
+            input_path,
             image_output_dir=image_output_dir,
             image_prefix=image_prefix,
             root=root,
-        ),
+        )
+    return {
+        "markdown": markdown,
+        "extracted_images": extracted_images,
     }
 
 
@@ -6208,6 +6216,148 @@ def extract_docling_picture_images(
         except OSError:
             pass
         records.append(record)
+    return records
+
+
+def extract_local_visual_regions_from_pdf(
+    input_path: Path,
+    *,
+    image_output_dir: Path,
+    image_prefix: str,
+    root: Path | None = None,
+    max_regions: int = 4,
+) -> list[dict[str, object]]:
+    try:
+        import fitz
+        from PIL import Image
+    except ImportError:
+        return []
+
+    try:
+        with fitz.open(input_path) as doc:
+            if len(doc) < 1:
+                return []
+            pix = doc[0].get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False)
+            image = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    except Exception:
+        return []
+    return extract_local_visual_regions_from_image(
+        image,
+        image_output_dir=image_output_dir,
+        image_prefix=image_prefix,
+        root=root,
+        max_regions=max_regions,
+    )
+
+
+def extract_local_visual_regions_from_image(
+    image: object,
+    *,
+    image_output_dir: Path,
+    image_prefix: str,
+    root: Path | None = None,
+    max_regions: int = 4,
+) -> list[dict[str, object]]:
+    try:
+        from PIL import Image as PILImage
+    except ImportError:
+        return []
+    if not isinstance(image, PILImage.Image):
+        return []
+
+    original = image.convert("RGB")
+    original_width, original_height = original.size
+    if original_width < 1 or original_height < 1:
+        return []
+    analysis = original.convert("L")
+    max_dimension = 900
+    scale = min(1.0, max_dimension / max(original_width, original_height))
+    if scale < 1.0:
+        analysis = analysis.resize((max(1, int(original_width * scale)), max(1, int(original_height * scale))))
+    width, height = analysis.size
+    pixels = analysis.load()
+    threshold = 245
+    mask = bytearray(width * height)
+    for y in range(height):
+        row = y * width
+        for x in range(width):
+            if int(pixels[x, y]) < threshold:
+                mask[row + x] = 1
+
+    visited = bytearray(width * height)
+    page_area = width * height
+    min_box_area = max(900, int(page_area * 0.02))
+    max_box_area = int(page_area * 0.72)
+    min_width = max(30, int(width * 0.12))
+    min_height = max(30, int(height * 0.08))
+    candidates: list[tuple[int, int, int, int, int]] = []
+
+    for index, value in enumerate(mask):
+        if not value or visited[index]:
+            continue
+        stack = [index]
+        visited[index] = 1
+        area = 0
+        min_x = width
+        min_y = height
+        max_x = 0
+        max_y = 0
+        while stack:
+            current = stack.pop()
+            area += 1
+            x = current % width
+            y = current // width
+            if x < min_x:
+                min_x = x
+            if y < min_y:
+                min_y = y
+            if x > max_x:
+                max_x = x
+            if y > max_y:
+                max_y = y
+            for neighbor in (current - 1, current + 1, current - width, current + width):
+                if neighbor < 0 or neighbor >= len(mask) or visited[neighbor] or not mask[neighbor]:
+                    continue
+                if (neighbor == current - 1 and x == 0) or (neighbor == current + 1 and x == width - 1):
+                    continue
+                visited[neighbor] = 1
+                stack.append(neighbor)
+        box_width = max_x - min_x + 1
+        box_height = max_y - min_y + 1
+        box_area = box_width * box_height
+        if box_area < min_box_area or box_area > max_box_area:
+            continue
+        if box_width < min_width or box_height < min_height:
+            continue
+        fill_ratio = area / box_area if box_area else 0.0
+        if fill_ratio < 0.18:
+            continue
+        candidates.append((box_area, min_x, min_y, max_x, max_y))
+
+    candidates.sort(reverse=True)
+    image_output_dir.mkdir(parents=True, exist_ok=True)
+    records: list[dict[str, object]] = []
+    for region_index, (_, min_x, min_y, max_x, max_y) in enumerate(candidates[:max_regions], start=1):
+        pad = max(4, int(8 / max(scale, 0.01)))
+        left = max(0, int(min_x / scale) - pad)
+        top = max(0, int(min_y / scale) - pad)
+        right = min(original_width, int((max_x + 1) / scale) + pad)
+        bottom = min(original_height, int((max_y + 1) / scale) + pad)
+        if right - left < 40 or bottom - top < 40:
+            continue
+        output_path = image_output_dir / f"{image_prefix}-local-visual-{region_index:02d}.png"
+        try:
+            original.crop((left, top, right, bottom)).save(long_fs_path(output_path))
+        except Exception:
+            continue
+        records.append(
+            {
+                "path": relative_to_root(output_path, root.resolve()) if root else output_path.as_posix(),
+                "caption": "",
+                "method": "local_visual_region",
+                "page_region": f"{left},{top},{right},{bottom}",
+            }
+        )
     return records
 
 
