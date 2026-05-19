@@ -5888,3 +5888,4 @@
 ## [2026-05-19] source-prep-batches | Wrote 7534 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-19] source-prep-fastlane | inspected 5000, converted 0, dry_run=False, skipped={'full_page_image_scan': 4975, 'not_pdf': 2, 'insufficient_native_text': 5, 'possible_ligature_text_loss': 6}, failed=12
 ## [2026-05-19] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-19] source-prep-docling-discovery | inspected 100, accepted 79, unusable 11, errors=10, dry_run=False
