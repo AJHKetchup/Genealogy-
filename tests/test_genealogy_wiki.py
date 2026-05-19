@@ -1190,7 +1190,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
         "github.event.inputs.economy_large_source_pages || '50' }}"
     ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
-    assert "--checkpoint-every 25" in workflow
+    assert "--checkpoint-every 1" in workflow
     assert "continue-on-error: true" in workflow
     assert "timeout 90m python -m historic_doc_ingest.genealogy_wiki source-prep-docling-discovery" in workflow
     assert "docling_exit_code=$status" in workflow
@@ -2017,7 +2017,7 @@ def test_docling_discovery_prioritizes_native_text_layer_without_ocr(tmp_path, m
     assert calls[0]["use_ocr"] is False
 
 
-def test_docling_discovery_keeps_ocr_for_scanned_page_with_text_layer(tmp_path, monkeypatch) -> None:
+def test_docling_discovery_keeps_ocr_for_noisy_scanned_text_layer(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     Image = pytest.importorskip("PIL.Image")
     init_genealogy_wiki(tmp_path)
@@ -2029,7 +2029,8 @@ def test_docling_discovery_keeps_ocr_for_scanned_page_with_text_layer(tmp_path, 
     doc = fitz.open()
     page = doc.new_page(width=360, height=500)
     page.insert_image(page.rect, filename=str(image_path))
-    page.insert_textbox((36, 36, 324, 460), "Usable OCR overlay text for Docling baseline. " * 12, fontsize=11)
+    noisy_overlay = "\n".join(["A"] * 20 + ["Usable OCR overlay text for Docling baseline. " * 12])
+    page.insert_textbox((36, 36, 324, 460), noisy_overlay, fontsize=11)
     doc.save(source)
 
     prepare_raw_sources(tmp_path, new_pages_limit=1)
@@ -2054,6 +2055,7 @@ def test_docling_discovery_keeps_ocr_for_scanned_page_with_text_layer(tmp_path, 
     assert summary["accepted"] == 1
     assert summary["tasks"][0]["docling_ocr"] is True
     assert summary["tasks"][0]["likely_full_page_scan"] is True
+    assert summary["tasks"][0]["text_layer_flags"]
     assert calls[0]["use_ocr"] is True
 
 

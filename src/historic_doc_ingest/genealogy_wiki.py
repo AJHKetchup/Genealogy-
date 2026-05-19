@@ -6463,12 +6463,14 @@ def run_source_prep_docling_task(
                 "docling_ocr": effective_use_ocr,
                 "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
                 "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
+                "text_layer_flags": task.get("_docling_text_layer_flags", []),
             },
             extra_entry={
                 "docling_ocr": effective_use_ocr,
                 "text_layer_chars": task.get("_docling_text_layer_chars", 0),
                 "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
                 "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
+                "text_layer_flags": task.get("_docling_text_layer_flags", []),
                 "method_detail": "docling_text_layer_no_ocr" if not effective_use_ocr else "docling_ocr",
             },
         )
@@ -6724,14 +6726,13 @@ def source_prep_docling_discovery_run(
             preview = text_layer_previews.get(cache_key)
             if isinstance(preview, dict):
                 task = dict(task)
+                preview_profile = profile_source_prep_discovery_markdown(str(preview.get("text", "")))
+                preview_flags = [str(flag) for flag in preview_profile.get("readability_flags", []) or []]
                 task["_docling_text_layer_chars"] = preview.get("text_layer_chars", 0)
                 task["_docling_text_layer_alpha_chars"] = preview.get("text_layer_alpha_chars", 0)
                 task["_docling_likely_full_page_scan"] = bool(preview.get("likely_full_page_scan"))
-                if (
-                    use_ocr
-                    and bool(preview.get("has_meaningful_text_layer"))
-                    and not bool(preview.get("likely_full_page_scan"))
-                ):
+                task["_docling_text_layer_flags"] = preview_flags
+                if use_ocr and bool(preview.get("has_meaningful_text_layer")) and not preview_flags:
                     task["_docling_use_ocr"] = False
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
