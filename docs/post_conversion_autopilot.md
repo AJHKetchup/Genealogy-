@@ -11,11 +11,11 @@ Primary model:
 ```text
 State: Git-tracked Markdown and JSON queues
 Agent interface: AGENTS.md, skills, queue prompts, task-state leases
-Model runtime: a non-API agent session or local/open-weight model harness
+Model runtime: GitHub-hosted Codex CLI with ChatGPT-managed auth, or an equivalent non-API agent session
 Provider API keys: forbidden for this post-conversion lane
 ```
 
-The previous Codex app automation `post-conversion-genealogy-buildout` is paused. It attempted to launch a Windows worktree shell and failed before repository code could run (`CreateProcessWithLogonW 1326`). Do not replace it with an OpenAI API or other provider API workflow.
+The legacy Codex app automation `post-conversion-genealogy-buildout` is retired and removed from the app automation registry. It attempted to launch a Windows worktree shell and failed before repository code could run; it is kept out of the active architecture because it depends on the local desktop process launcher. Do not replace it with an OpenAI API or other provider API workflow.
 
 The PC-off runner is now the GitHub-hosted workflow:
 
@@ -44,8 +44,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agen
 1. Reads `AGENTS.md`, this document, and `research/_automation/post-conversion-architecture.json`.
 2. Runs the post-conversion refresh commands:
    - `PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki conversion-qc --root .`
-   - `PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki agent-queues --root . --stale-minutes 360`
-   - `PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-status --root .`
+   - `PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki agent-queues --root . --stale-minutes 360 --post-conversion-only`
+   - `PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-status --root . --no-refresh-index --no-source-prep-task-refresh`
 3. Reads queue manifests and `research/_agent-queues/task-state.json`.
 4. Claims a bounded set of available tasks from conversion QA, evidence extraction, identity analysis, or proof review.
 5. Performs the assigned worker task through the active non-API agent runtime, writing only the task's allowed output paths.
@@ -58,7 +58,7 @@ If no non-API model runtime is available, automation may refresh queues and inde
 
 The no-provider-API worker path is a Codex or Codex-equivalent agent session consuming the durable queue prompts. The GitHub workflow uses Codex CLI with ChatGPT-managed auth, not a provider API key.
 
-For Codex specifically, the problem observed on 2026-05-17 is the Codex app `worktree` runner, not the Codex agent model. The worktree cron failed before repository code ran because the Windows process launcher returned `CreateProcessWithLogonW 1326`. A current-thread Codex session can still consume the queues. A no-PC Codex runner needs a Codex-hosted execution environment that does not use the local Windows worktree sandbox.
+For Codex specifically, the problem observed on 2026-05-17 was the Codex app `worktree` runner, not the Codex agent model. The active no-PC runner is the GitHub-hosted workflow, which checks out the repository, restores ChatGPT-managed Codex auth from a repository secret, starts bounded workers, waits for them, and commits allowed outputs back to the repo.
 
 ## Parallelism
 
@@ -109,8 +109,8 @@ The PowerShell controller is an optional local accelerator. It is useful while t
 
 1. Runs the post-conversion refresh commands with the resolved workspace root:
    - `genealogy-wiki conversion-qc --root <workspace>`
-   - `genealogy-wiki agent-queues --root <workspace> --stale-minutes <n>`
-   - `genealogy-wiki source-status --root <workspace>`
+   - `genealogy-wiki agent-queues --root <workspace> --stale-minutes <n> --post-conversion-only`
+   - `genealogy-wiki source-status --root <workspace> --no-refresh-index --no-source-prep-task-refresh`
 2. Builds `research/_agent-queues/proof-review.json` from staged drafts.
 3. Builds a disabled-by-default `research/_agent-queues/wiki-promotion.json`.
 4. Reads queue status plus `research/_agent-queues/task-state.json`.
@@ -151,4 +151,4 @@ Promotion is disabled unless the controller is run with `-AllowPromotion`.
 
 ## Automation Behavior
 
-The `post-conversion-genealogy-buildout` Codex app automation is paused because it is not currently a working no-PC runner in this Windows workspace. The API-free architecture remains the queue-and-agent harness: durable tasks, task leases, prompt packets, staging outputs, proof review, and logs. It should not be converted to an API-key workflow. It should not be converted back to a local thread heartbeat unless the user explicitly accepts that the PC must remain on.
+GitHub Actions is the active no-PC automation surface for post-conversion internal research. The old Codex app heartbeat/crons for this lane are retired and removed because they are local desktop jobs. The API-free architecture remains the queue-and-agent harness: durable tasks, task leases, prompt packets, staging outputs, proof review, and logs. It should not be converted to an API-key workflow. It should not be converted back to a local thread heartbeat unless the user explicitly accepts that the PC must remain on.

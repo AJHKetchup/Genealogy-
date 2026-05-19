@@ -11,7 +11,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 
 ## Current State
 
-- Paused Codex app automation state: [[_agent-queues/post-conversion-buildout]]
+- Retired Codex app automation state: [[_agent-queues/post-conversion-buildout]]
 - Autopilot architecture: `research/_automation/post-conversion-architecture.json`
 - Evidence scoring model: `research/_automation/evidence-scoring-model.json`
 - Source relevance feedback: [[_agent-queues/source-relevance-feedback]]
@@ -40,8 +40,9 @@ This dashboard is the restart point for automatic work that is not conversion an
 - Schedule: hourly at minute 17, plus manual dispatch
 - Execution: Codex CLI with ChatGPT-managed auth from repository secret
 - Provider API dependency: none; provider API keys are forbidden for post-conversion work
-- Current blocked runner: `post-conversion-genealogy-buildout` is paused because the Codex app worktree runner failed with `CreateProcessWithLogonW 1326` before repo code ran.
-- Diagnosis: Codex can do the queue work; the blocked component is the Codex app `worktree` process launcher on Windows.
+- Active runner: `.github/workflows/internal-research-agents.yml`
+- Retired local runner: `post-conversion-genealogy-buildout` was removed from the app automation registry because Codex app worktree crons depend on this desktop's process launcher.
+- Diagnosis: Codex can do the queue work; GitHub Actions is the no-PC execution surface.
 - Parallelism: claim a bounded batch of 3 independent queue tasks per run, up to 6 when write paths are disjoint and risk is low.
 - Conversion fidelity: do not repeat the same source/page/tier once fulfilled; escalate only to a higher tier when relevance or complexity justifies it.
 - Context boundary: outside evidence can ask for a careful reread, but literal transcription changes only when the visible source supports the reading.

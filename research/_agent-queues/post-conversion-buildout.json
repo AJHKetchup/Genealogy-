@@ -1,28 +1,29 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-17",
+  "updated": "2026-05-19",
   "name": "post-conversion-buildout",
   "scope": "Automatic post-conversion genealogy buildout architecture. The post-conversion lane is API-free and follows the Karpathy LLM Wiki pattern: durable Markdown/JSON queues plus a non-API agent runtime.",
-  "hosted_cron": {
+  "retired_codex_app_cron": {
     "automation": "post-conversion-genealogy-buildout",
-    "status": "paused_blocked",
+    "status": "retired_removed_from_app_registry",
     "schedule": "hourly",
     "execution_environment": "worktree",
-    "pc_dependency": "blocked_by_windows_logon_context",
-    "blocker": "Codex app worktree automation fails before repo code runs with CreateProcessWithLogonW 1326.",
+    "pc_dependency": "local_desktop_process_launcher",
+    "replacement": ".github/workflows/internal-research-agents.yml",
+    "retired_reason": "The Codex app automation was a local desktop job and was superseded by the GitHub-hosted Internal Research Agents workflow.",
     "preferred_parallel_tasks_per_run": 3,
     "max_parallel_tasks_per_run": 6
   },
   "pc_off_runner": {
-    "status": "configured_pending_secret_and_default_branch",
+    "status": "active_on_default_branch",
     "workflow": ".github/workflows/internal-research-agents.yml",
     "runner": "GitHub-hosted windows-latest",
     "schedule": "hourly at minute 17",
     "auth": "ChatGPT-managed Codex auth from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
     "provider_api_keys": "forbidden",
     "activation_requirements": [
-      "Workflow committed to the repository default branch.",
-      "Private repository secret CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON exists."
+      "Workflow is present on the repository default branch.",
+      "Private repository secret CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON exists and is rotated when Codex auth expires."
     ],
     "docs": "docs/internal_research_agents_pc_off.md",
     "default_parallelism": 3
@@ -40,7 +41,7 @@
       "local/open-weight model harness",
       "human-started agent session consuming queue prompts"
     ],
-    "pc_off_codex_requirement": "Use a Codex-hosted execution environment that does not use the local Windows worktree sandbox."
+    "pc_off_codex_requirement": "Use the GitHub-hosted Internal Research Agents workflow or another trusted non-local execution environment that does not depend on this PC."
   },
   "privacy_policy": {
     "updated": "2026-05-17",
@@ -104,7 +105,7 @@
     {
       "id": "staging-completeness",
       "status": "in_progress",
-      "next": "A non-API agent runner claims bounded evidence_extractor work from research/_agent-queues/evidence-extraction.json; local heartbeat does not extract manually."
+      "next": "The GitHub-hosted internal research controller claims bounded evidence_extractor work from research/_agent-queues/evidence-extraction.json; local heartbeat threads do not extract manually."
     },
     {
       "id": "identity-analysis",
@@ -124,6 +125,8 @@
   ],
   "current_batch": {
     "id": "2026-05-17-architecture",
+    "status": "archived_superseded_by_pc_off_workflow",
+    "superseded_by": ".github/workflows/internal-research-agents.yml",
     "claimed": [
       "Create post-conversion autopilot architecture",
       "Add controller that refreshes queues, leases tasks, writes worker prompts, and launches Codex workers",

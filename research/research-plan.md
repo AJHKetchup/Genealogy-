@@ -19,8 +19,8 @@
   - `raw/chunks/`
   - `raw/chunks/*/manifest.json`
   - `research/_conversion-review/`
-- Local execution access was unavailable during this run (`CreateProcessWithLogonW failed: 1326`), preventing inspection of local-only workspace files.
+- Legacy local execution blockers are no longer the internal automation path; no-PC post-conversion work is routed through `.github/workflows/internal-research-agents.yml`.
 
 ## Follow-Up Search
 
-- Verify whether the newer source-prep/chunking workflow exists on another branch and needs to be pushed into the shared repository before this automation can resume normal triage.
+- Verify whether any remaining source-prep/chunking artifacts need to be published into the shared repository before scheduled triage can process them.

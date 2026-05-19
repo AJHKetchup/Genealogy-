@@ -94,13 +94,14 @@ When a new source arrives:
 3. Run `genealogy-wiki agent-queues --root . --stale-minutes 360` to write source-prep and evidence-extraction queues plus per-task prompt packets, release abandoned task leases, and reuse cached page-output reviews.
 4. Research agents can run `genealogy-wiki source-relevance mark ...` when an exact page becomes newly important enough to deserve Pro or Pro+crops treatment. Converter jobs should only auto-upgrade for technical unreadability, not for genealogy importance.
 5. Run `genealogy-wiki source-status --root .` to see which raw sources are usable, still converting, or held only on specific pages.
-6. Let source-prep Codex agents and page/range subagents consume queued work orders using the project skills. Workers should use `agent-task ... --no-refresh` during a bounded batch, then refresh queues once at the end. OCR and PDF text layers are hints only, not the conversion authority.
-7. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and research relevance feedback.
-8. Keep separated transcription, translation, interpretation, uncertainty, and promotion recommendation sections in staged drafts.
-9. Review staged claims for literal support, source path, chunk/page reference, uncertainty, status, confidence, and conflicts.
-10. Run `genealogy-wiki promote-staged --root .` after review to promote eligible staged material into `research/claims/`, `research/relationships/`, product person pages, indexes, and the generated family tree; source packets stay in `research/source-packets/`.
-11. Run `genealogy-wiki lint --root .` and fix canonical lint issues before moving on.
-12. Review the promotion manifest under `research/_staging/promotions/` and the backstage entry in `research/log.md`.
+6. Post-conversion-only automation uses `agent-queues --post-conversion-only` and `source-status --no-refresh-index --no-source-prep-task-refresh` so internal research does not mutate source-prep state.
+7. Let source-prep Codex agents and page/range subagents consume queued work orders using the project skills. Workers should use `agent-task ... --no-refresh` during a bounded batch, then refresh queues once at the end. OCR and PDF text layers are hints only, not the conversion authority.
+8. Create staged source packets and staged claim drafts under `research/_staging/` from `raw/converted/`, `raw/chunks/`, and research relevance feedback.
+9. Keep separated transcription, translation, interpretation, uncertainty, and promotion recommendation sections in staged drafts.
+10. Review staged claims for literal support, source path, chunk/page reference, uncertainty, status, confidence, and conflicts.
+11. Run `genealogy-wiki promote-staged --root .` after review to promote eligible staged material into `research/claims/`, `research/relationships/`, product person pages, indexes, and the generated family tree; source packets stay in `research/source-packets/`.
+12. Run `genealogy-wiki lint --root .` and fix canonical lint issues before moving on.
+13. Review the promotion manifest under `research/_staging/promotions/` and the backstage entry in `research/log.md`.
 
 ## Post-Conversion Agent Workflow
 
