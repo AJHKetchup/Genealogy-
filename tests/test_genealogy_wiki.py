@@ -1084,6 +1084,7 @@ def test_cloud_workflow_has_continuous_schedule() -> None:
     assert "Schedule is paused" not in workflow
     assert "group: cloud-source-prep" in workflow
     assert "cancel-in-progress: false" in workflow
+    assert "timeout-minutes: 360" in workflow
 
 
 def test_cloud_workflow_writes_source_prep_step_summary() -> None:
