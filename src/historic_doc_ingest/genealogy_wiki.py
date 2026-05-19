@@ -5565,7 +5565,7 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
 
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
-SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 3
+SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 4
 SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
 SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
 SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
@@ -5585,7 +5585,7 @@ SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS = 20
 
 def source_prep_discovery_profile_is_current(entry: dict[str, object]) -> bool:
     status = str(entry.get("status", "")).strip()
-    if status in {SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS, SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS}:
+    if status in {SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS, SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS, "error"}:
         return safe_int(entry.get("profile_version"), 0) >= SOURCE_PREP_DISCOVERY_PROFILE_VERSION
     return True
 
@@ -6602,6 +6602,7 @@ def source_prep_docling_discovery_run(
                     "job_manifest": str(task.get("job_manifest", "")),
                     "page": safe_int(task.get("page"), 0),
                     "error": str(result.get("error", ""))[:500],
+                    "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
                     "evidence_grade": False,
                 }
                 changed = True
