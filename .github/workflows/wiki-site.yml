@@ -60,6 +60,50 @@ jobs:
           PYTHONPATH: src
         run: python -m historic_doc_ingest.genealogy_wiki site --root . --out site
 
+      - name: Ensure Pages is configured for Actions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+
+          repo = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GITHUB_TOKEN"]
+          url = f"https://api.github.com/repos/{repo}/pages"
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {token}",
+              "User-Agent": "genealogy-wiki-site",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          request = urllib.request.Request(url, headers=headers, method="GET")
+          try:
+              with urllib.request.urlopen(request) as response:
+                  payload = json.load(response)
+                  print(f"Pages already configured: {payload.get('html_url') or payload.get('url')}")
+                  raise SystemExit(0)
+          except urllib.error.HTTPError as error:
+              if error.code != 404:
+                  raise
+
+          body = json.dumps({"build_type": "workflow"}).encode("utf-8")
+          request = urllib.request.Request(url, data=body, headers={**headers, "Content-Type": "application/json"}, method="POST")
+          try:
+              with urllib.request.urlopen(request) as response:
+                  payload = json.load(response)
+                  print(f"Created Pages site: {payload.get('html_url') or payload.get('url')}")
+          except urllib.error.HTTPError as error:
+              if error.code in {409, 422}:
+                  print("Pages already exists or is being configured by another run.")
+              else:
+                  raise
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
