@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-06d71981ef43-P0093-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
+converted_sha256: 06d71981ef43f8d16ce2ba875a0f55b7695bdcc6c18e531e460b00dcb4d2d976
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
+page_start: 93
+page_end: 93
+part: 1
+---
+
+# Page 93
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json`
+- Source page: 93
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/page-images/page-0093.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+,
+
+la produeciôn, y obtener la armonia del capi¬ tal con la mano de obra, entendemos y soste¬ nemos, que pueden y deben existir sindicatos obreros, absolutamente separados de los sindicatos capitaUstas; y que puede y debe y ha de haber luehas entre ellos. Pero esa lucha eonsideramos que lia de manteuerse dentro de los limites del derecho que a cada uno pertenece.
+
+Al hablar del derecho, quiero expresar mas claramente cuâl sea nuestro concepto sobre el mismo, porque podria decirse : j qué lucha prac¬ tice es posible, entre el capitalista y el pobre trabajador que obligado a conseguir el pan para sus hijos se ve necesitado a recibir el salario sea cual fuere, que se le quiera dar en la fâbrica?
+
+No, senor présidente : nosotros entendemos y sostenemos que esta lucha de clases autoriza la formacion de los sindicatos de obreros con derecho a imponerse por todos los medios legitimos, con derecho a imponerse con la huelga, si fuera. necesario senor diputado.
+
+° La huelga parcial y pacifica es perfectamente légitima, senor diputado, dentro del eriterio catôlico, porque cada uno tiene el derecho, individual y eoleetivamente de abandonar el trabajo cuando no se le proporciona por cl todo lo que realmente constituye la componsacion cfectiva de los sacrificios que le im-
+
+pone. Sr. Dickmann. - Le ruego al senor diputa¬ do breve en su interrupciôn.
+
+que sea Sr. Bas. - No solamente no compartimos sino que aceptamos, sostenemos y propieiamos,^ de todas maneras, la formacion de sindicatos obre¬ ros, absolutamenie separados de los capitalistas, con el derecho de presentarse ante los ultimos para discutir, trente a trente, y con igualdad de facultades, la forma de fijar en definitiva las relaciones entre el capital y el tiabajo ; hoy para el aumento de salario, para la diminuciôn de las horas de trabajo ; ^ manana para concertai' las bases de la participaciôn en los beneficios.
+
+Sr. Dickmann. - Mc place mucho haber provocado esta aclaracion del senor diputa¬ do...
+
+Sr. Bas. - Que he de mantener en toda opor-
+
+tunidad.
+
+Sr. Dickmann. - La ereo muy importante. En el fondo ha aceptado el senor diputado la lucha de clases. Y me place mucho felicitarlo porque desde su diputaciôn del ano 12 hasta ahora reconozco ÿ declaim que ha progresado muchisiino.
+
+Sr. Bas. - Es évidente ; i desgraciado el hombre que en el transcurso de su vida no ha ade-
+
+lantado algo!
+
+Sr. Dickmann. .-Lo reconozco. Volviendo àl tema, senor présidente, queda estableeido lo Eègœente ;s\_gue los\_. diputados socialistas pedi- mos la separaciôn de la iglesia del estado, empezando por la supresiôn o la redueciôn de su presupuesto, en nombre de la libertad re¬ ligiose.
+
+Demasiado sabemos que la conquista de la libertad religiosa ha costado rios de lâgrimas y torrentes de sangres a la humanidad, para que los socialistas retrocedamos a épocas pasadas estableciendo una opresiôn o persecuciôn para tal o cual culto.
+
+El caso que ha citado el senor diputado Bas, de Rusia, es muy ilustrativo al respeeto. Se ha\_ perseguido todo en Rusia menos a la iglesia. Y a' propôsito me viene a la memoria un episodio, relatado por un viajero inglés que ha visitado la Repûblica de los soviets a mcdiados del ano 1919 : Mr. Ramson. Hay un libro que se vende en todas las librerias que se titula: 'Mis seis semanas en la Rusia de los soviets'. En él cuenta el siguiente episodio su autor: Dice que viô en Moseu, la Meca del comunismo moderno, que todas las iglesias estaban abiertas y funcionaban como antes dé la revoluciôn y dice que viô un campesino llegado de las afueras, trayendo sus productos al mercado, que en aquel entonces era clandestino para el comercio, y que pasaba delante de una iglesia en cuya puerta estaba prendida una vela a un santo. El campesino, como buen creyente, se persignô delante del santo y al lado viô una inscripciôn en la pared, con grandes letras rojas. Co¬ mo no sabia leer se dijo que lo que estaba al lado del santo habia de ser también una cosa santa, y se persignô delante de la inscripciôn. Y dice el viajero iglés que csa inscripciôn, hecha por mano de un bolseviki, decia: la reli¬ gion es el opio do los pueblos ; y asi aquel campesino, ignorante y supersticioso, se persignô ante el santo de la religion y después anfe la leyenda de que la religion era cl opio de los pueblos.
+
+Afirmamos y sostenemos, senores diputados, que la libertad en todo sentido prospéra mas y mejor en los paises donde existe libertad re¬ ligiosa. Esas cosas que nos han leido el senor diputado Cafferata y el senor diputado Bas en la sesiôn de ayer, de que los laboristas en Inglaterra y en otros paises inician a veces sus sesiones con ceremonias y con plegarias j qué es lo que tal hecho significa, senor présidente? Significa que alli reina un profundo espiritu religioso. i Quién puede negar a la raza anglo sajona su profundo es¬ piritu religioso? Yo me acuerdo de una eneuesta que se ha hecho ën Inglaterra. Se ha preguntado a muchos obreros que libros salvarian ellos el dîa que1 se les quemara la ca¬ sa. Y algunos eontestaron : En primer término, la Biblia. Si, senores diputados, la Biblia. Es ;in libro hermoso. Yo les afirmo que es uno de mis libros predileetos. Lo le» con grau ire-, Auencia, pues en el espiritu del evangelio ea-i
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

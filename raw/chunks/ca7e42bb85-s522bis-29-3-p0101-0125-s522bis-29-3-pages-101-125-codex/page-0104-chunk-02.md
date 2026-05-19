@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-e19823bbf746-P0104-02
+chunk_id: CHUNK-69e09733a0c2-P0104-02
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
-converted_sha256: e19823bbf746c67fb5312724a5e183c2caee1d81b8807576168f8d2a020f7691
+converted_sha256: 69e09733a0c255f5a3359942329056cad2900eecb634933adab020b2f85d751b
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
@@ -379,10 +379,3 @@ The transcription is complete and accurate.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals likely to be useful as standalone wiki assets were found on this page."}
 ```
-
-## Page Metadata
-- Page number: 106
-- Source: S522bis-29-3.pdf
-
-## Layout And Reading Order
-The page features a two-column layout with a header at the top. The content consists of a parliamentary transcript, with speakers identified. A handwritten note is present in the left margin.

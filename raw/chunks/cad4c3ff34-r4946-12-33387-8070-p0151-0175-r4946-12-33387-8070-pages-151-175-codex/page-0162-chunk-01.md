@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-28444ed42d4d-P0162-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175.codex.md
+converted_sha256: 28444ed42d4d66655c229b2b16a87b5264c551bc8ad522e841a7324afc1a3a8b
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175/manifest.json
+page_start: 162
+page_end: 162
+part: 1
+---
+
+# Page 162
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175/manifest.json`
+- Source page: 162
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0151-0175-r4946-12-33387-8070-pages-151-175/page-images/page-0162.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Como parece que vimos atrâs en esta discusiôn, tue Lorentz quien tratô de reconstruir toda la teoria electromagnética introduciendo en ella sistemâticamente los electrones, y para dar vigor a sus asertos en este respecto previô, o aparentô prever, el efecto Zeemann, sin imaginarse que posteriormente su prevision iba a dar lugar a muchas contradicciones de que me oeuparé luégo.
+
+GORGIAS.-Excûsa que te interrumpa para hacerte ver que la prevision de los tripletes y dobletes del efecto Zeemann, confirmatoria de las ideas de Lorentz, suministrô una nueva prueba de que la ma¬ teria contiene electrones negativos, permitiendo una primera avaluaciôn de la relaciôn que liga su carga a su masa. Ahora, también, quiero recordarte que la teoria electrônica permitiô liallar las leyes de la dispersion y de la difusiôn; previô ciertos fenômenos electro-ôpticos y magneto-ôpticos ; interprété varias propiedades eléctricas y calorificas de los metales, y, por la teoria de la onda de aceleraciôn, nos mostrô claramente cômo las radiaciones proceden del movimiento de cargas eléctricas contenidas en la materia.
+
+Asi, puedo juzgar como maravillosa la creaciôn del âtomo fundada en esa teoria electrônica. Como tu mismo lo has diclio, a principios del siglo XX los fisicos que ya tenian la certidumbre de que los cuerpos materiales estân constituidos por âtomos, se preocuparon de la representaciôn estructural de esos âtomos. Y para ello vino en su ayuda la experiencia que prueba con qué facilidad y en qué condiciones tan diversas se puede sacar de la materia torrentes de electrones. Esto, evidentemente, indica que el electron debe ser una de las piezas esenciales de la arquitectura atômica, y esto mismo sirviô a Ruther¬ ford para idear, como antes lo habia hecho Thomson, su modelo del âtomo.
+
+Segûn lo debes saber, Rutherford, estudiando las desviaciones de los rayos X, al pasar a través de la materia, hallô la prueba de que existe en el centro del âtomo un nûcleo cargado positivamente y de dimensiones muy pequenas en relaciôn con el conjunto atômico. Asi pudo él imaginarse los âtomos como sistemas planetarios en miniatura, con un sol central dotado de una carga eléctrica positiva, igual y de signo contrario, a un multiplo entero de la carga electrônica. Alrededor de ese centro girarlan los electrones como lo hacen los planetas alrededor del sol, formando en el estado normal un sistema eléctrico neutro. Segûn Rutherford, al pasar de un elemento quimico al siguiente, la carga del nûcleo aumentaria en una unidad, y en una unidad creceria igualmente el numéro de electrones-planetas.
+
+Como ves, esta creaciôn armoniosa y magnifica, que nos transporta ordenadamente de los espacios sidérales al ûltimo elemento constitutivo de la ma¬ teria, juzgado por los fisicos primitivos como indi¬ visible, représenta una conquista de la Ciencia tan importante como el concepto de Copérnico explicativo del movimiento planetario. Asi, no fue de ad¬
+
+miraique esta representaciôn del âtomo interpretara maravillosamente todas las caracteristicas de los âtomos reaies, de acuerdo con las experiencias de que hemos hablado.
+
+CRISTIAS.-No te entusiasmes tan prematuramente, y jûzga de los hechos con la réserva del caso. En primer lugar, te advierto que este sistema planetario-atômico requiere, para su concepciôn, la existencia del éter dotado de las misteriosas propie¬ dades de que hablé atrâs. En segundo lugar, no acierto a comprender cômo los electrones inter-atômicos que describen ôrbitas planetarias alrededor del sol positivo central, bajo la acciôn de una fuerza misteriosa, mâs misteriosa que la de Coulomb, se vieran privados de la facultad de moverse segûn una infinidad de movimientos diferentes, irradiando constantemente energia bajo la forma de radiaciones de frecuencias continuamente variables. Creo que al hablar asi interpreto los puntos de vista mâs ortodoxos de los fisicos ultramodernos, y los resultados générales de la teoria de los electrones.
+
+Ademâs, paréceme que al concebir vuestro famoso sistema planetario no habéis hecho sino trasladar las dificultades que se encuentran en cualquiera explicaciôn referente a la gravitaciôn, de lo infinitamente grande a lo infinitamente pequeno. Porque, l qué otra cosa son esos electrones girando alrede¬ dor del nûcleo segûn ôrbitas definidas sino verdaderas masas mecânicas a las cuales hay que someter a la acciôn de la fuerza centrifuga y de la atracciôn central? Ciertamente, los fisicos de ahora han olvidado las afirmaciones de Zenôn y de Herâclito res¬ pecto de lo continuo y de lo discontinuo, por cuanto dentro de su âtomo existe lo continuo que es el éter, que debe colmar los espacios inter-electrônicos, y lo discreto que son los electrones, ûltima particula divisible de la materia. Para los inventores de la teoria atômica, el âtomo constituia el ûltimo ele¬ mento material absolutamente indivisible y conti¬ nuo; dentro de él no podia suponerse movimiento alguno, de acuerdo con nuestras viejas doctrinas, y asi el âtomo de la Mecânica clâsica podia juzgarse como el ûltimo refugio de la mente en ese proceso de subdivision indefinida (dichtomia) que en la teo¬ ria electrônica se ha llevado hasta el electron. Correctamente hablando, el âtomo de ahora es un conjunto esencialmente divisible, y desde el punto de vista de la Metafisica, ha dejado de ser âtomo. Aho¬ ra, poniéndome en el terreno de las Mecânicas nuevas, quiero criticar vuestro sistema planetario atô¬ mico con las propias palabras de un critico insospechable para vosotros. Dice él asi: "Mas no tardaron en proyectarse algunas sombras sobre el armonioso cuadro de la teoria electrônica. La mâs inquié¬ tante de ellas surgiô del estudio teôrico de la radiaciôn en el equilibrio térmico. La teoria de los elec¬ trones permitia, en efecto, calculai* cuâl debe ser la reparticiôn de las energias entre diversas frecuen¬ cias en la radiàciôn que existe normalmente en el interior de un recinto cerrado mantenido a una tem-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

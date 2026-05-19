@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-69e09733a0c2-P0120-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
+converted_sha256: 69e09733a0c255f5a3359942329056cad2900eecb634933adab020b2f85d751b
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
+page_start: 120
+page_end: 120
+part: 1
+---
+
+# Page 120
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json`
+- Source page: 120
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/page-images/page-0120.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+'
+
+.-mum.
+
+-
+
+Le liubiera Gostado 60 pesos por tonelada. Luego, en este negocio dc la molienda gratuita el g'obierno ha perdido en 140.000 tone¬ ladas, 3.472.000 pesos : segundo snmando.
+
+La harina. Ya estaruns en la harina. Se entrcgaba a los moliperos ejcn kilos de harina, qué le costaha al gohierno 20 pesos, pero que este aforaba a 16. Perdia el gohierno, pues, 4 pesos por eada 100 kilos quo entregaha. a los molineros para la molienda. En 140.000 tone-
+
+ladas, el gohierno perdia 5.600,000 pesos.
+
+Es yerdad que no e@ justo computar como pérdida estos 5,600.000 si le eomputamos la diferencia del primer snmando, porque en el caso de que el gohierno pudiera haber eomprado a 16 pesos hahna entregado a 16 y no hubiera perdido nada. De tal manera que yo en la soma general le reste este snmando de 5.600.000 pesos.
+
+Del trig'o eomprado sc ban perdido o no se han utilizado, liasta la fecha, 4.500 toneladas, que al precio de 200 pesos la tonelada, equivalen a 900.000 pesos. De la harina molida se han perdido totalmente 10.000 toneladas, que a 24 centavos el kilo, snman 2.400.000 pesos.
+
+Y aqui he de detenerme un momento, porque en esta curiosa administraciôn de la ley 11.014, este es el caso que yo lie caüficado de inexplicable, al extremo de que hay que suponer que algo ha pasado por la mente de los hombres del gohierno. Desde febrero de 1921 hasta la fecha - y oiga bien la honorable câmara, porque esto parece increible --· los distintos niolinos que tienen en su poder, depositada la harina perteneciente al gohierno, cuyo almaeenaje esta ya pago hasta el lo. de enero de 1922, se han cansado do pasar notas al senor ministro de hacienda eomnnicândole paulatina y sucesivamente las circunstancias y las eondiciones en que se iba encontrando la ha¬ rina. En la primera le dijeron: 'Senor; aqui esta la harina; jqué hacemos con ella?' No les contostaha el gohierno. Después le dijeron : 'Senor; esta harina se esta averiando; ya hay do un 15 a un 20 por ciento de pérdida'. No les constestaba. Después le dijeron : El 20 es ahora el 30 por ciento de pérdida. No eontestaba. Después: el 30 es el 40 por ciento, el 40 es ol 50 por ciento, el 50 es el 80 por ciento, el 80 es el 100 por ciento. Once notas le ha pnsndo la més fuerte de las empresas que tie¬ ns en sus depositos harina del gohierno, pidiéndole desde febrero hasta hoy que le re¬ tire esa harina, pero no ha recibido contes¬
+
+ta ei^n.
+
+Y ha oenrrido lo que nature Impute tenia que ocurrir: de esa harina, se ha ido apoderando el gorgojo ; hoy esa harina esta agorgojada y este animaïito, gorgojo, senor pré¬ sidente, debera ser considerado eomo el sim-
+
+\
+
+--~
+
+.
+
+holo del celo con que cl poder ejecutivo ad¬ ministra los intereses de la naciôn.
+
+Hoy esa harina esta totalmente ag'orgojada, y las empresas, los molinos, se ven en este caso; unos de tomarla y ponerla a la intempérie, pa¬ ra évitaique cl gorgojo se pase de las boisas do harina oficiales a las harinas que estân confeccionaudo por su propia cuenta los molinos, y otros piden al gohierno como ultimo reeurso, el retiro inmediato bajo apercibimiento de pedic
+
+depositaries jndiciales.
+
+/.Por qué causa el gohierno haee esto? /Qué negocio hay alii? Alli no hay ningun negoeio, h Qué negocio puede haber en tener 10.000 to¬ neladas de harina perdiéndose sin provecho pa¬ ra nadie cuando el trigo esta pago, cuando la molienda esta paga, cuando el deposito esta
+
+pago...
+
+Sr, Demaria. --Y cuando los gorgojos no, votan. (Bisas).
+
+Sr. Sanchez Sorondo. - ... cuando los gor¬ gojos no votan, por el momento.
+
+Esto es inexplicable, esto es el colmo de la desidia, el colmo de la incuria, el colmo del desquicio, el colmo de la ineptitud administrativa.
+
+Pero es que nosotros tenemos que reeordar las grandes palabras con que el poder ejecutivo en sus mensajes y el ministro de hacienda en es¬ te reeinto, pretendian presiouar la conciencia de los diputadps, para arrancar como arrancô, la sanciôn de la ley de dereehos a la expqrtaciôn del trigo. i Grandes palabras !
+
+; Es necesario aliviar la miseria del pueblo !, decia el senor ministro de hacienda - lo mismo que dijo después eon el azucar- ; es necesa¬ rio darle pan barato, es necesario condenar a los acaparadores y espeeuladores que prosperan a costa del pobre ; haremos pan barato, haremos harina barata, alimentai-emos al pueblo... Asy ha alimentado el poder ejecutivo al pueblo con gorgojos. Consecuencia o filosofia: la etemai simulaciôn, la eterna ausencia de sinceridad; la necesidad que tiene este poder ejecutivo de enganar, ya sea eon vistas électorales, ya sea eon otras vistas que por el momento no quiero profundizar; ya eneontraremos otras oportunidad'es para pouerlas de manifiesto.
+
+Asi, pues, senor présidente, saldo de ]a administracion de la ley 11.014: diferencia a que se ha podido eomprar trigo, 16 pesos, y a que se ha comprado, 20 pesos, en 140.000 toneladas, 8.400.000 pesos. Diferencia en el costo de la llamada molienda gratuita: 3.472.000 pesos. Di¬ ferencia entre el precio pagado, 200 pesos, y el entregado, 16, a los molinos, 5,600,000. Cuatro mil quinientas toneladas de trigo perdidas o no nt.ilizadas, a 200 pesos, 900.000. Diez mil toneladas de harina totalmente perdidas, a 24 cen¬ tavos el kilo, 2.400.000. Total del admirable ne¬ gocio administrado por el poder ejecutivo en la aplicaeiôn de la ley 11.014: 20.772.000 pesos, de los cuales deduzco, por las razones que an-.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+- Page number: 121
+
+## Layout And Reading Order
+The page is laid out in two columns. The content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom. A header with "DE 1921", "CAMARA DE DIPUTADOS", and "1729" spans the top of both columns.

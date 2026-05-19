@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-225ca1f7d5aa-P0049-01
+chunk_id: CHUNK-4b9b0e627f10-P0049-01
 source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
-converted_sha256: 225ca1f7d5aa0edb49f5739f1874173e9862db92e9d12e65967596238ad8cf3a
+converted_sha256: 4b9b0e627f10530447b2d16dd12fb22d7720d02c55d8f1620f8ca65a648dac76
 source: raw/sources/S495-2-2.pdf
 source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
 source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
@@ -107,9 +107,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 2.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-- Page number: 50
-
-## Layout And Reading Order
-The page features a two-column layout for the main text, interspersed with five images, each accompanied by a caption. The reading order flows from the top-left image and its caption, then to the top-right image and its caption. Below these, the text continues in two columns. The left column contains two paragraphs, a heading, and two more paragraphs. The right column contains two paragraphs, a heading, and a partial paragraph. A middle image with its caption spans both columns. Below this, the right column continues with a heading, a long paragraph, and a note indicating continuation. Finally, two more images with their captions are placed at the bottom, one in the left column area and one in the right column area. The page number is at the bottom right.

@@ -517,128 +517,79 @@ All visible text and images on the page have been transcribed and described.
 }
 ```
 
+# Page 5
+
 ## Page Metadata
-Page number: 5
+
+- Source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
+- Source SHA-256: `3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json`
+- Source page: 5
+- Page image: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0005.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page features a two-column layout for the main body text, with a single-line header at the very top and another single-line header below it containing author and journal information. The content flows from the top of the left column to the top of the right column, then continues down the left column, and then down the right column. A page number is present at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Machine Translated by Google
 
-OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+```markdown
+OSORIO,   H.;   TORO,   JC;   SCHORWER,   K.;   RIVEROS,   A.   &amp;   CARDENAS,   J. Pioneers   of   a   century   of   anatomical   teaching   in   the   city   of   Concepción. Int.   J.   Morphol., 38(3):650-658,   2020.
 
-This pavilion was used solely for Dentistry in 1922 and 1923, under the
-teaching of Dr. Humberto Rojas Troncoso, accompanied by important
-assistants such as Darío Pastene and Oscar Duarte. In 1924, this
-pavilion was demolished and replaced by a larger one that housed the
-dissection work of the first anatomy course for the nascent School of
-Medicine (Solervicens; Muñoz, 1993).
+This   pavilion   was   used   solely   for   Dentistry   in   1922   and   1923,   under   the teaching   of   Dr.   Humberto   Rojas   Troncoso,   accompanied   by   important assistants   such   as   Darío Pastene   and   Oscar   Duarte.   In   1924,   this pavilion   was   demolished   and   replaced   by   a   larger   one   that   housed   the dissection   work   of   the   first   anatomy   course   for   the   nascent   School   of Medicine   (Solervicens;   Muñoz, 1993).
 
-**Beginning of the School of Medicine.** In April 1924, an important
-milestone for the teaching and development of Chilean medicine took
-place; in fact, the first year of Medicine was created in Concepción, and
-the news was communicated to the country.
-While the inauguration of the School was taking place in Concepción, in
-Santiago the high enrollments quadrupled in just a few years. An
-example of this is that in that same year, the number of first-year medical
-students at the University of Chile was 312, of which 271 were recent
-entrants and 41 were repeaters (Wilhelm, 1966; Jaramillo, 1924). This
-milestone presented even greater difficulties than the foundation of the
-University of Concepción itself. Already in 1921 the Rector of the
-University of Concepción, Mr. Enrique Molina sent a telegram to the
-then Dean of the Faculty of Medicine of the University of Chile, Dr.
-Gregorio Amunátegui, requesting approval of the project to create the
-first two years of the School of Medicine in Concepción; this request
-was not successful. It was not until late 1923, when Santiago was still
-facing teaching difficulties due to the huge number of students, that Dr.
-Amunátegui, now Rector of the University of Chile, and the Dean of the
-Faculty of Medicine, Dr. Roberto Aguirre Luco, took steps to authorize
-the University of Concepción to teach the first two years of the School
-of Medicine. The first of these two years included the following courses:
-a) Botany taught by Dr. Alcibíades Santa Cruz, b) Physics taught by Mr.
-Humberto Vergara, c) Chemistry taught by Mr. Salvador Gálvez, and d)
-Medical Zoology taught by Dr. Ottmar Wilhelm, who was then a pupil of
-Dr. Juan Noé. The anatomy course was assigned to Dr. Enrique
-González Pastor (Wilhelm, 1966).
+Beginning   of   the   School   of   Medicine. In   April   1924,   an   important milestone   for   the   teaching   and   development   of   Chilean   medicine   took place;   in   fact,   the   first   year   of   Medicine   was   created   in   Concepción,   and the   news   was   communicated   to   the   country.
 
-**Dr. Enrique Gonzalez Pastor** (Fig. 1B) was born in Concepción on
-January 2, 1889. In 1913 he graduated with honors as a surgeon from
-the University of Chile, writing a thesis on organ transplantation. With
-a scholarship from the Chilean government, he was in Paris studying
-urology and general surgery. Returning to Chile, he settled in
-Concepción and was an active member of the Pró University
-Committee. His ties to anatomy were important, since in 1919 he
-collaborated with Dr. Gomez on the anatomy course for the Dentistry
-degree, and later, between 1924 and 1927, he directed the anatomy
-course for the recently created Medicine degree. In 1927 he left the
-anatomy chair to teach the course of Surgical Pathology, which he
-taught until his retirement in 1945. It should be noted that during his
-academic life, Dr. Gonzalez also developed research activities where
-his monographs on abdominal pain and vesicovaginal fistulas stood
-out. After a long battle against a chronic disease, Dr. Gonzalez died in
-September 1957.
+While   the   inauguration   of   the   School   was   taking   place   in   Concepción,   in Santiago   the   high   enrollments   quadrupled   in   just   a   few   years.   An example   of   this   is   that   in   that   same   year,   the   number   of   first-year   medical students   at   the   University   of   Chile   was   312,   of   which   271   were   recent entrants   and   41   were   repeaters   (Wilhelm,   1966;   Jaramillo,   1924).   This milestone   presented   even   greater   difficulties   than   the   foundation   of   the University   of   Concepción   itself.   Already   in   1921   the   Rector   of   the University   of   Concepción,   Mr.   Enrique   Molina   sent   a   telegram   to   the then   Dean   of   the   Faculty   of   Medicine   of   the   University   of   Chile,   Dr. Gregorio   Amunátegui, requesting   approval   of   the   project   to   create   the
 
-(Solervicens; Muñoz, 1993; Archives of the Department of Normal
-Anatomy and Legal Medicine, University of Concepción, 2019).
+first   two   years   of   the   School   of   Medicine   in   Concepción;   this   request was   not   successful.   It   was   not   until   late   1923,   when   Santiago   was   still facing   teaching   difficulties   due   to   the   huge   number   of   students,   that   Dr. now   Rector   of   the   University   of   Chile,   and   the   Dean   of   the of   Medicine.   The   first   of   these   two   years   included   the   following   courses: Santa   Cruz,   b)   Physics   taught   by   Mr. and   d) Medical   Zoology   taught   by   Dr.   Ottmar   Wilhelm,   who   was   then   a   pupil   of
 
-The inauguration of this School of Medicine was attended by a
-massive crowd. On the morning of April 26, 1924, guests from all over
-the country arrived, including authorities such as Pedro Aguirre Cerda,
-then Senator for the province, Gregorio Amunátegui and Roberto
-Aguirre Luco, who were joined by Edmundo Jaramillo, Director of the
-School of Medicine of the University of Chile, accompanied by important
-professors such as Eugenio Díaz, Luis Vargas, Juan Noé and Carlos
-Charlín, among others (Wilhelm, 1966). Officially, classes at the new
-School of Medicine of the University of Concepción began with the start
-of the course on Medical Zoology, taught by Professor Ottmar Wilhelm.
-Later, Dr. Charlín gave a tribute speech: “Pasteur, the man”, as the
-inauguration of the course on Medicine in Concepción, held in the
-auditorium of the Men’s High School. In the evening, during the honorary
-banquet, Dr. Aguirre Luco in a speech pointed out the joy and satisfaction
-that the inauguration of the new school provokes in the Faculty of
-Medicine of the University of Chile: “... I greet, on behalf of the Faculty
-of Medicine of Santiago, the distinguished colleagues who will have the
-direction of the medicine courses in Concepción; I know them, they will
-honor the chair and will surely remember with gratitude and affection
-the common mother, the old one, the beloved School of Medicine of the
-University of Chile, who feels proud to have such children.”
+(Solervicens;   Muñoz, 1993;   Archives   of   the   Department   of   Normal Anatomy   and   Legal   Medicine,   University   of   Concepción,   2019).
 
-For his part, Salvador Gálvez, the first Director of the School of
-Medicine of the University of Concepción, said: “... Five years ago, the
-first courses of the schools created by the University of Concepción
-were inaugurated in a modest and silent manner. Today, finding
-ourselves stronger, with more confidence in the future, we have allowed
-ourselves to clap our hands, announcing the birth of a school that was
-the dream of the leaders of the local University and the region.”
+The   inauguration   of   this   School   of   Medicine   was   attended   by   a massive   crowd.   On   the   morning   of   April   26,   1924,   guests   from   all   over the   country   arrived,   including   authorities   such   as   Pedro   Aguirre   Cerda, then   Senator   for   the   province,   Gregorio   Amunátegui and   Roberto Aguirre   Luco,   who   were   joined   by   Edmundo   Jaramillo,   Director   of   the School   of   Medicine   of   the   University   of   Chile,   accompanied   by   important professors   such   as   Eugenio   Díaz, Luis   Vargas,   Juan   Noé and   Carlos Charlín, among   others   (Wilhelm,   1966).   Officially,   classes   at   the   new School   of   Medicine   of   the   University   of   Concepción   began   with   the   start of   the   course   on   Medical   Zoology,   taught   by   Professor   Ottmar   Wilhelm. Later,   Dr.   Charlín gave   a   tribute   speech:   'Pasteur,   the   man',   as   the inauguration   of   the   course   on   Medicine   in   Concepción,   held   in   the auditorium   of   the   Men's   High   School.   In   the   evening,   during   the   honorary banquet,   Dr.   Aguirre   Luco   in   a   speech   pointed   out   the   joy   and   satisfaction that   the   inauguration   of   the   new   school   provokes   in   the   Faculty   of Medicine   of   the   University   of   Chile:   '… I   greet,   on   behalf   of   the   Faculty of   Medicine   of   Santiago,   the   distinguished   colleagues   who   will   have   the direction   of   the   medicine   courses   in   Concepción;   I   know   them,   they   will honor   the   chair   and   will   surely   remember   with   gratitude   and   affection the   common   mother,   the   old   one,   the   beloved   School   of   Medicine   of   the University   of   Chile,   who   feels   proud   to   have   such   children .'
 
-This new School of Medicine opened with the idea that the first
-two years of the degree would be offered in Concepción, followed by
-the Bachelor’s degree in Santiago. Its first course, which was taught in
-accordance with the programs of the University of Chile, began with 55
-students, including 4 women. At the end of the academic year, 38
-students took the exams, with 42% passing, a percentage higher than
-in Santiago, an aspect to consider, taking into account that the
-examining committee was from the Faculty of Medicine of the University
-of Chile.
-This anatomy course was taught by Dr. Gonzalez accompanied by
-[illegible] whom stood out a young man
+For   his   part,   Salvador   Gálvez, the   first   Director   of   the   School   of Medicine   of   the   University   of   Concepción,   said:   '… Five   years   ago,   the first   courses   of   the   schools   created   by   the   University   of   Concepción were   inaugurated   in   a   modest   and   silent   manner.   Today,   finding ourselves   stronger,   with   more   confidence   in   the   future,   we   have   allowed ourselves   to   clap   our   hands,   announcing   the   birth   of   a   school   that   was the   dream   of   the   leaders   of   the   local   University   and   the   region.'
 
-653
+Amunátegui, Faculty   of   Medicine,   Dr.   Roberto   Aguirre   Luco,   took   steps   to   authorize the   University   of   Concepción   to   teach   the   first   two   years   of   the   School a)   Botany   taught   by   Dr.   Alcibíades Humberto   Vergara,   c)   Chemistry   taught   by   Mr.   Salvador   Gálvez, Dr.   Juan   Noé. The   anatomy   course   was   assigned   to   Dr.   Enrique González Pastor   (Wilhelm,   1966).
+
+**   Dr.   Enrique   Gonzalez   Pastor   (Fig.   1B)   was   born   in   Concepción   on January   2,   1889.   In   1913   he   graduated   with   honors   as   a   surgeon   from the   University   of   Chile,   writing   a   thesis   on   organ   transplantation.   With a   scholarship   from   the   Chilean   government,   he   was   in   Paris   studying urology   and   general   surgery.   Returning   to   Chile,   he   settled   in Concepción   and   was   an   active   member   of   the   Pro   University Committee.   His   ties   to   anatomy   were   important,   since   in   1919   he collaborated   with   Dr.   Gomez   on   the   anatomy   course   for   the   Dentistry degree,   and   later,   between   1924   and   1927,   he   directed   the   anatomy course   for   the   recently   created   Medicine   degree.   In   1927   he   left   the anatomy   chair   to   teach   the   course   of   Surgical   Pathology,   which   he taught   until   his   retirement   in   1945.   It   should   be   noted   that   during   his academic   life,   Dr.   Gonzalez   also   developed   research   activities   where his   monographs   on   abdominal   pain   and   vesicovaginal   fistulas   stood This   new   School   of   Medicine   opened   with   the   idea   that   the   first two   years   of   the   degree   would   be   offered   in   Concepción,   followed   by the   Bachelor's   degree   in   Santiago.   Its   first   course,   which   was   taught   in accordance   with   the   programs   of   the   University   of   Chile,   began   with   55 students,   including   4   women.   At   the   end   of   the   academic   year,   38 students   took   the   exams,   with   42%   passing,   a   percentage   higher   than in   Santiago,   an   aspect   to   consider,   taking   into   account   that   the examining   committee   was   from   the   Faculty   of   Medicine   of   the   University of   Chile.
+
+out.   After   a   long   battle   against   a   chronic   disease,   Dr.   Gonzalez   died   in   September   1957.
+
+This   anatomy   course   was   taught   by   Dr.   Gonzalez   accompanied   by assistants   among   whom   stood   out   a   young   man
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or visual elements on this page that require cropping or detailed description.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-The last word of the second to last line in the right column, last paragraph, is cut off. It appears to be "assistants" but the bottom of the letters are missing, so it is marked as `[illegible]`.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed, and the layout has been preserved. The page number is included.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other visual elements that are suitable for extraction."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 654
@@ -785,142 +736,82 @@ All visible text and images on the page have been transcribed and described.
 }
 ```
 
+# Page 7
+
 ## Page Metadata
-Page number: 7
+
+- Source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
+- Source SHA-256: `3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json`
+- Source page: 7
+- Page image: `raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/page-images/page-0007.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page begins with a "Machine Translated by Google" header, followed by the article's citation header. The main content is presented in a two-column layout. The left column contains three distinct text blocks, the first two being continuous narrative and the third starting with a bolded section title. The right column contains a table with its caption and footnotes, followed by two more text blocks, the second of which starts with a narrative introduction to a new topic. The page number "655" is located at the bottom right corner.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Machine Translated by Google
-OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):658-658, 2020.
 
-**Dr.'s role in the development of anatomy**
-Enrique Solervicens (Fig. 1C) is indisputable, proof of this was that
-on September 3, 1987, the Chilean Society of Anatomy posthumously
-named him Master of Chilean Anatomy (Cárdenas-Valenzuela &
-Rodríguez-Torres, 2018).
-He was born in Mulchen on December 17, 1899. He studied
-Medicine at the University of Chile, graduating on June
-8, 1925. During his time as a student, he was a disciple of Dr. David
-Benavente, and in 1923 was appointed prosector. He arrived in
-Concepción in 1924 to complete a year of compulsory internship at
-the Hospital of Concepción. That same year, he was appointed by
-Dr. González as head of practical work, a job that he did in parallel
-with that of interim professor of the anatomy for dentistry course.
+```markdown
+OSORIO,   H.;   TORO,   JC;   SCHORWER,   K.;   RIVEROS,   A.   &amp;   CARDENAS,   J. Pioneers   of   a   century   of   anatomical   teaching   in   the   city   of   Concepción. Int.   J.   Morphol., 38(3):658-658,   2020.
 
-His role quickly became noticeable: in 1927 he was appointed to
-the chair of anatomy for Medicine. In 1929 he was named Director
-of the nascent Institute and later Department of Anatomy (Table I).
-During his 38 years of teaching work he managed to raise the level
-of anatomy in Concepción, highlighting the construction of the
-building of the Department of Normal Anatomy and the creation of
-the Museum of Normal Anatomy and Legal Medicine. Additionally
-he worked as Dean of the Faculty of Medicine for two periods,
-1941-1942 and 1943-1944. His work in the area of research was
-also important; among his works were: Variations of the vertebral
-column among Chileans (1940); Observations of the aortic orifice
-of the diaphragm (1942), Anastomosis of the intercostal nerves
-(1944); Contribution to the study of the veins of the sympathetic
-(1944); Contribution to the study of solar plexus variations (1944),
-Considerations on a case of atlanto-occipital fusion (1952) and
-Techniques for the preparation of lymphatics (1955), among others
-(Cicarelli, 1964). To this he added the organization of congresses
-and events for scientific dissemination. He retired in September
-1961 and died in Santiago on July 12, 1967. (Solervicens; Muñoz,
-1993; Archives of the Department of Normal Anatomy and Legal
-Medicine, University of Concepción).
+**   Dr.'s   role   in   the   development   of   anatomy
 
-**Anatomy Building, Definitive House and Consolidation of
-Anatomical Activity.** Entering the 1930s, the Rector Mr. Enrique Molina
-began to realize the long-awaited project of a University Campus
-crowned with a bell tower. This university city project was carried out on
-the land of the La Toma property. The building destined for anatomy
-activities replaced the Venetian Pavilion and was the third to be built.
-Previously, the buildings of the Dental School and the Industrial
-Chemistry School were completed. The construction of the definitive
-pavilion was entrusted to the architects Carlos Miranda and Enrique
-San Martín who followed the guidelines known as the "Bruner Plan"
-(Muñoz, 1993; García). The architecture of this building followed a line
-marked by an eclectic style with clear influences of Art Deco (Fig. 4). Its
+Enrique   Solervicens   (Fig.   1C)   is   indisputable,   proof   of   this   was   that on   September   3,   1987,   the   Chilean   Society   of   Anatomy   posthumously named   him   Master   of   Chilean   Anatomy   (CárdenasValenzuela   &amp; Rodríguez- Torres,   2018).
 
-Table I. Directors of the Department of Normal Anatomy and Legal
-Medicine, University of Concepción, Chile.
-| Teacher | Year |
-| :---------------------------------------------------- | :-------------------------- |
-| Dr. Enrique Solervicens Castel Dr. Dr. | 1929 – 1961* |
-| Edgardo Enriquez Fröden Mario | 1961 – 1969 |
-| Echeverría Monardes 1970 – 1974 Dr. Eduardo Bustos Valdés | 1974 – 1982 / 1990 – 1992** |
-| Dr. Nidia Epelde-Aguirre Dr. Luis | 1982 – 1990 |
-| Vielma Bustamante | 1992 – 1998 |
-| Dr. Hernan Tapia Rubilar Dr. | 1998 – 2002 |
-| Horacio Osorio Urbina | 2002 – to date |
-* The Department of Anatomy was created in 1958.
-** The Department changed its name to the Department of Normal Anatomy
-and Legal Medicine in 1990.
+He   was   born   in   Mulchen   on   December   17,   1899.   He   studied He   studied   Medicine   at   the   University   of   Chile,   graduating   on   June 8,   1925.   During   his   time   as   a   student,   he   was   a   disciple   of   Dr.   David Benavente,   and   in   1923   was   appointed   prosector.   He   arrived   in Concepción   in   1924   to   complete   a   year   of   compulsory   internship   at the   Hospital   of   Concepción.   That   same   year,   he   was   appointed   by Dr.   González as   head   of   practical   work,   a   job   that   he   did   in   parallel with   that   of   interim   professor   of   the   anatomy   for   dentistry   course.
 
-Construction began in 1932 and it was inaugurated at the end of 1933.
-It has withstood multiple earthquakes; the first one, in 1939, devastated
-the city and had to be used as an emergency hospital. It withstood the
-1960 earthquake without major inconvenience, which caused a fire and
-subsequent demolition of the Dental School building. The last of the
-earthquakes, in 2010, caused minor damage that was repaired that
-same year. Between 2015 and 2017 it underwent a restoration project
-that allowed the modernization of the corpse handling systems. Its
-classrooms and laboratories were also renovated. This allowed the
-publication in the Official Gazette on February 13, 2017 of the decree
-by which the National Monuments Council declared the area of the first
-buildings of the Campus of the University of Concepción, an area that
-includes the anatomy building, as a National Monument in the Historic
-Monument category (Official Gazette of the Republic of Chile, 2017).
-Dr. Solervicens described it as follows: "The facilities of this new location
-offered several advantages, not only because it was heated, but it also
-significantly improved the hygienic conditions of the dissection work,
-both due to more careful cleaning and the prior fixing of the cadaveric
-material and the consequent overcoming of infections and bad odors."
+His   role   quickly   became   noticeable;   in   1927   he   was   appointed   to the   chair   of   anatomy   for   Medicine.   In   1929   he   was   named   Director of   the   nascent   Institute   and   later   Department   of   Anatomy   (Table   I). During   his   38   years   of   teaching   work   he   managed   to   raise   the   level of   anatomy   in   Concepción,   highlighting   the   construction   of   the building   of   the   Department   of   Normal   Anatomy   and   the   creation   of the   Museum   of   Normal   Anatomy   and   Legal   Medicine.   Additionally he   worked   as   Dean   of   the   Faculty   of   Medicine   for   two   periods, 1941-1942   and   1943-1944.   His   work   in   the   area   of   research   was also   important;   among   his   works   were:   Variations   of   the   vertebral column   among   Chileans   (1940);   Observations   of   the   aortic   orifice of   the   diaphragm   (1942),   Anastomosis   of   the   intercostal   nerves (1944);   Contribution   to   the   study   of   the   veins   of   the   sympathetic (1944);   Contribution   to   the   study   of   solar   plexus   variations   (1944), Considerations   on   a   case   of   atlanto-occipital   fusion   (1952)   and Techniques   for   the   preparation   of   lymphatics   (1955),   among   others (Cicarelli,   1964).   To   this   he   added   the   organization   of   congresses and   events   for   scientific   dissemination.   He   retired   in   September 1961   and   died   in   Santiago   on   July   12,   1967. (Solervicens;   Muñoz, 1993;   Archives   of   the   Department   of   Normal   Anatomy   and   Legal Medicine,   University   of   Concepción).
 
-Regarding the consolidation of anatomical activity,
-this was based on three aspects: the exclusive dedication
-of the Director of the Department, the diversification of
-techniques for the preparation of cadaveric material and the
-beginning of the academic career within the unit. In this regard, Dr.
-Since 1929, Solervicens has worked exclusively at the Institute of
-Anatomy, which allowed him to study and practice a number of
-anatomical techniques. An example of this is the acquisition of
-magnifying glasses for better dissection and the development of
-cadaveric conservation methods such as diaphanization and repletion-
-corrosion, among others. All of the above had a positive impact on the
-quality of teaching and incipient research. Likewise, since 1947, the
+## Anatomy   Building,   Definitive   House   and   Consolidation   of
 
-655
+Anatomical   Activity. Entering   the   1930s,   the   Rector   Mr.   Enrique   Molina began   to   realize   the   long-awaited   project   of   a   University   Campus crowned   with   a   bell   tower.   This   university   city   project   was   carried   out   on the   land   of   the   La   Toma   property.   The   building   destined   for   anatomy activities   replaced   the   Venetian   Pavilion   and   was   the   third   to   be   built. Previously,   the   buildings   of   the   Dental   School   and   the   Industrial Chemistry   School   were   completed.   The   construction   of   the   definitive pavilion   was   entrusted   to   the   architects   Carlos   Miranda   and   Enrique San   Martín who   followed   the   guidelines   known   as   the   'Bruner   Plan' (Muñoz, 1993;   García). The   architecture   of   this   building   followed   a   line marked   by   an   eclectic   style   with   clear   influences   of   Art   Deco   (Fig.   4).   Its
+
+Table   I.   Directors   of   the   Department   of   Normal   Anatomy   and   Legal Medicine,   University   of   Concepción,   Chile.
+
+| Dr.   Enrique   Solervicens   Castel   Dr.   Dr.  Edgardo   Enriquez   Fröden   Mario  Echeverría  Monardes   1970   -   1974   Dr.   Eduardo   Bustos   Valdés  1974   -   1982 /   1990   -   1992**  Dr.   Hernan   Tapia   Rubilar   Dr.  Horacio   Osorio   Urbina  Dr.   Nidia   Epelde-Aguirre   Dr.   Luis  Vielma   Bustamante  1998   -   2002  2002   -   to   date  1929   -   1961*  1961   -   1969  Year  Teacher  1992   -   1998  1982   -   1990   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+*   The   Department   of   Anatomy   was   created   in   1958.
+
+**   The   Department   changed   its   name   to   the   Department   of   Normal   Anatomy and   Legal   Medicine   in   1990.
+
+Construction   began   in   1932   and   it   was   inaugurated   at   the   end   of   1933. It   has   withstood   multiple   earthquakes;   the   first   one,   in   1939,   devastated the   city   and   had   to   be   used   as   an   emergency   hospital.   It   withstood   the 1960   earthquake   without   major   inconvenience,   which   caused   a   fire   and subsequent   demolition   of   the   Dental   School   building.   The   last   of   the earthquakes,   in   2010,   caused   minor   damage   that   was   repaired   that same   year.   Between   2015   and   2017   it   underwent   a   restoration   project that   allowed   the   modernization   of   the   corpse   handling   systems.   Its classrooms   and   laboratories   were   also   renovated.   This   allowed   the publication   in   the   Official   Gazette   on   February   13,   2017   of   the   decree by   which   the   National   Monuments   Council   declared   the   area   of   the   first buildings   of   the   Campus   of   the   University   of   Concepción,   an   area   that includes   the   anatomy   building,   as   a   National   Monument   in   the   Historic Monument   category   (Official   Gazette   of   the   Republic   of   Chile,   2017). Dr.   Solervicens   described   it   as   follows: 'The   facilities   of   this   new   location offered   several   advantages,   not   only   because   it   was   heated,   but   it   also significantly   improved   the   hygienic   conditions   of   the   dissection   work, both   due   to   more   careful   cleaning   and   the   prior   fixing   of   the   cadaveric material   and   the   consequent   overcoming   of   infections   and   bad   odors.'
+
+Since   1929,   Solervicens   has   worked   exclusively   at   the   Institute   of Anatomy,   which   allowed   him   to   study   and   practice   a   number   of anatomical   techniques.   An   example   of   this   is   the   acquisition   of magnifying   glasses   for   better   dissection   and   the   development   of cadaveric   conservation   methods   such   as   diaphanization   and   repletioncorrosion,   among   others.   All   of   the   above   had   a   positive   impact   on   the quality   of   teaching   and   incipient   research.   Likewise,   since   1947,   the Regarding   the   consolidation   of   anatomical   activity, this   was   based   on   three   aspects:   the   exclusive   dedication of   the   Director   of   the   Department,   the   diversification   of techniques   for   the   preparation   of   cadaveric   material   and   the beginning   of   the   academic   career   within   the   unit.   In   this   regard,   Dr.
+```
 
 ## Images, Captions, And Visual Notes
-- **Table I. Directors of the Department of Normal Anatomy and Legal Medicine, University of Concepción, Chile.** This table lists the teachers and their respective years of service. It includes footnotes indicated by asterisks.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the table on the page have been transcribed.
 
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "region_1",
-      "kind": "table",
-      "bbox_pct": [50.0, 52.0, 64.0, 90.0],
-      "caption_literal": "Table I. Directors of the Department of Normal Anatomy and Legal\nMedicine, University of Concepción, Chile.",
-      "caption_type": "source-caption",
-      "identity_basis": "caption",
-      "source_context": "Table I. Directors of the Department of Normal Anatomy and Legal Medicine, University of Concepción, Chile.",
-      "confidence": 0.95,
-      "suggested_filename": "table_i_directors_of_the_department_of_normal_anatomy_and_legal_medicine"
-    }
-  ]
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 8

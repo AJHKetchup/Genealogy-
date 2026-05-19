@@ -1,0 +1,146 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-69e09733a0c2-P0111-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
+converted_sha256: 69e09733a0c255f5a3359942329056cad2900eecb634933adab020b2f85d751b
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
+page_start: 111
+page_end: 111
+part: 1
+---
+
+# Page 111
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json`
+- Source page: 111
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/page-images/page-0111.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+U 3 r-nr,Aitimüij-de-.la. Repfiblica, para [ tarse R la. T.iwa-cLfe.Jaa..na&lt;flftB|es.
+
+presen-
+
+Por consiguiente creo que la representacion o que la aetuacion de la Republica Argentina o que el gobierno argentino en la Liga de las naeiones ha sitlo un colado y nada mâs, y que en realidad no pudo tampoeo proponer ningüna pàrtida de gastos en el presupuesto para sufragar orogaciones causa ds s por la Liga de las naciones, no formando parte de cil as ni la collusion de presupuesto-, corao es natural, ha podido âprobar semejante partida, ni cl senado lia po¬ dido prestar aquel acuerdo que presto, demasiado coinplacientemeide sin chuia, para un en vieel eongreso aprobado los tratados, con cuya laprobaciôn previa y solo asî la Republica Ar¬
+
+i do extraordin.ario ante la a'samblea, no habiendo i gentina pudo presentarse en esa asamblea.
+
+Nada mas.
+
+Sr. Presidents (Sanchez de Bustamante). Invito a los senores diputados a pasar a cuarto intermedio.
+
+-Es la hora 20 y 50.
+
+-Vuelven a sus asientos los sonores dipu-
+
+tados a la hora 22 y 40.
+
+Sr. Présidente (Sanchez de Bustamante). -
+
+'Continua la sesiôn.
+
+*""*■ Sr.
+
+Anastasi. - Pido la palabra.
+
+Solamente para que no queden sin reclamaeiôn por nuestra parte algunos coneeptos que han sido proferidos en este debate, voy a ba¬ ser uso -de la palabra.
+
+Me pareee haber oido - y no lie podido corroborarlo porque todavîa no existe la ver¬ sion taquigrâfica de los diseursos de los se¬ nores diputados - me pareee haber oido desarrollar el coneepto de que es el honorable eongreso el que dirijc la polîtica exterior del
+
+pais.
+
+Varios senores diputados. - jNo! iNo!
+
+<!-- image -->
+
+Sr. Anastasi. - Si tal manifestaciôn no se hubiera. proferido - lo que por otra parte celebro - siempre estarîa pendiente la cuestiôn planteada por algunos de los^senores \_di-putados respecto al por que de la ïhterveneiôn exclusiva del poder ejecutivo con motivo del convenio de la Liga de las naeiones.
+
+Este no es absolutamente el momento de hacer un disenrso sobre el punto ni de desarrollar teorias constitucionales. Voy a limitarme a con¬ testai' a esa pregunta invoeando simplemente los textos de la. constituciôn que confieren al poder ejecutivo exclusivamente el derecho' de Tepresentar en el exterior a la Naciôn Argen¬
+
+tina.
+
+Este derecho que existe dentro de la constituciôn, para nuestro poder ejeeutivo es un de¬ recho que le pertenece, aun en los regîmenes parlamentarios en aue el eiecut.ivo es una es-
+
+i
+
+.peeie de automata de la representacion naeioi nal.
+
+Los senores diputados eonocen las conveneioues ocurrklas entre 1ns aliados que preeedieron al tratado de Versalles. Ninguno de esos epnvenios fué sometido a la ratificacion de los respectives parlamentos. Los senores di¬ putados conoeen, sin duda, algunos antécéden¬ tes del derecho publico suizo que es el pais al eual me lie referido, en que cl poder ejecutivo es casi diremos un simple servidor de la voluntad de la asamblea nacional. Pues bien hasta en Suiza en esta materia el poder ejecutivo obra solo; présenta en todo enso a la representaciôn nacional, eomo ahora al pueblo por una ultima reforma, constitutional, el hecho concluido, el tratado ya concluido y negociado aeabadamente en todas sus elâusulas, para que la représentation nacional lo apruebe o
+
+desapruebe.
+
+Sr. de Tomaso, - jY el poder ejecutivo qué lia traîdo sobre este asuutoif jQué tratado eon-
+
+eîuido puede traer?
+
+Sr. Anastasi. --Ahora le voy a eontestar al 'senor diputado, porque el poder ejecutivo no ha traido concluido ningûn tratado. La respuesta es porque a mi entender no existe ton davia tratado concluido.
+
+Sr. de Tomaso. - jY va a existir algun dia? Sr. Anastasi. - Eso se lo voy a expliear en!
+
+seguida al senor diputado.
+
+El carâcter de la adhésion argentina que me interesa précisai' en osté momento, omitiendo tan solo opiniones que son en todo casé de personas que han eserito sobre el punto, no conozco la opinion del poder ejeeutivo y, el medio mas oportiuio de obtenerla hubiera sido' exigir en su hora las explicaieiones neeesarias...
+
+Sr. Sanchez Sorondo. - Entonees el senor diputado no va a poder precisar nada; si no conoee las opiniones del poder ejecutivo no podrâ dar en esta materia sum una opinion personal. jComo va a precisar la opinion del
+
+présidente de la Republica?
+
+Sr Anastasi. - El hecho de que no conozea eon precision las opiniones del poder ejecuti¬ vo, no quiere decir que yo no pueda inferir una de toda la documentation publicada, so¬ bre el punto. I
+
+Sr. Sânehez Sorondo. - Serâ may respetable, pero serâ personal.
+
+Sr. Anastasi. - Es mi punto de vista perso¬ nal sobre lo que entiendo que lia sido la actitud del poder ejeeutivo sobre este asunto.
+
+Sr. de Tomaso. -- No es esa la cuestiôn qué se ha planteado.
+
+Sr. Anastasi. - Pero se lia preguntado si la' Repiiblica Argentina esta o no esta adherida a la Liga de las naeiones.
+
+Sr. de Tomaso. - Eso si
+
+Sr. Anastasi.
+
+- De manera cine intercsa attife*
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0111/page-0111-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

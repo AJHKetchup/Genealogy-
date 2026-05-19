@@ -1,0 +1,131 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-06d71981ef43-P0099-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md
+converted_sha256: 06d71981ef43f8d16ce2ba875a0f55b7695bdcc6c18e531e460b00dcb4d2d976
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json
+page_start: 99
+page_end: 99
+part: 1
+---
+
+# Page 99
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/manifest.json`
+- Source page: 99
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100/page-images/page-0099.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+'Arüculo lo. - Créase en el cjército francés del Ilhiïi y para el culto catrtlico lin puesto de capellân
+
+inspector.
+
+'Art. 2o. - Este capellân inspector tiene dërecho .durante la duraciôn de sus funciones a las prestaciones en dinero y de otra naturàleza atribuldas a un
+
+general de brigada.
+
+'Art. 3o. - El ministerio do la guerra dictarâ l'as disposiciones correspondientcs,
+
+'Paris, mayo 13 de 1921'v
+
+Bien, senor présidente. Xo es el caso de alargar demasiado la diseusiôn. Creo haberme referido en general a las observaciones bêchas por el senor diputado senor Dickmann rectificando, sobre todo, lo que se refiere a la importancia que el senor diputado atribuye a la cont.ribuciôn del pueblo general de la Republica en beneficio de la iglesia eatolica, sin baber tornado en cueuta los servicios que a la inversa, la iglesia presta al tesoro nacional economizândole al estado sumas énormes de
+
+dinero.
+
+Voy a terminai', senor présidente, y desde luego quiero hacer esta observaeiôn: las m#nifestaeiones que bago, de îndole religiosa, son absolutamente personates.
+
+No he pretendido, por ningûn momento, y creo que fos sonores diputados son los mejores testigos, invocar mi carâcter de miembro de la Union Cîviea Radical. Lo bago dentro de la absoluta libertad de conciencia y dentro del programa del partido, que acepta que cada uno pieuse couio quiera en estas cuestiones.
+
+Sr. Dickmann. - Pido la palabra.
+
+Algunas afirmaciones del senor diputado respecto del presupuesto de instruccion publica deseo destruirlas, pero lie de contestaVlas en otra oportunidad, analizando los datos que
+
+lia mencionado.
+
+Sr. Bas. - Me séria muy grato ; estas diseusiones, a la altura que se llevan, son muy interesantes.
+
+Sr. Frugoni. - Piclo la palabra.
+
+Esa libertad de criterio y de opinion que la Union Cîviea Radical permite a sus miembros la révéla este debate sobre el presupuesto de culto. Honra esto de verdad a su bombres, el verlos aparecer en dos campos tan diametralmente opuestos. El senor diputado Bas defendiendo con tanto ealor, con tanta pasién sus idéales mistieos y los diputados de la Union Cîviea Radical doctor Rodeyro y el que habla, que tué el primero que senalara su punto de
+
+vista respecto al presupuesto de culto.
+
+Pero en todo este debate, senor, no ha haliido una sola alusiôn molesta que hiriera la ie senores
+
+de los diputados.
+
+De abî que me ban sorprendido en extremo las apreciaeùfhes del senor diputado por Cor¬ doba, doctor Cafferata, tan culto, tan gentil, .tan
+
+subyugador. -..-Tan es asî, que bablo sub- yugado por las palabras del senor diputado...-., Decîa el senor diputado que hemos combatido las creencias, armonizando ese criterio con el de un redactor del diario 'El Pueblo', diario catôlico de la Capital, que me hacia apareeer eomo arremetiendo contra las creencias religibsas...
+
+Sr. Cafferata. - No me he referido al senor;
+
+diputado Frugoni.
+
+Sr. Frugoni. -· Pero el diario oficial de la creencia a que perteneee el senor diputado se ba referido a mi...
+
+Sr. Cafferata. - No be leido el artieulo a que se refiere el senor diputado ; pero al ha¬ blar de iglesia no me referia al senor diputado sino a los diputados de la extrema izquierda.
+
+- Sr. Bas. - No hay diario oficial, puedo garantizarlo.
+- Sr. Frugoni. - El diario oficial del catoli-
+
+cismo.
+
+- Sr. Quinteros. - No bay diario oficial del
+
+partido.
+
+Sr. Frugoni. - j A que partido se refiere el senor diputado?... Pie dieho que me refiero al diario oficial del catolicismo.
+
+Es un aporte inteligente el de mi correligionario por Côrdoba rebatiéndome. Mc felicito de baber extremado la nota coloeândolo a mi eorreligionario el senor diputado por Cordoba en el campo que se mei'ece, opuesto a mis creencias.
+
+Continuo, senor présidente. Para dar fundamento a mi exposieiôn de dias pasados eitaba a una'autoridad incontrovertible a mi juicio: a Spencer. Dije en la sesiôn del viornes que en su siempre célébré senteneia Spencer nos dijo que la ciencia no lia.bia despejado la incog¬ nita del probleroa do las religiones ; que lo que hnbia h echo era profundizar ose problema, y eitaba también, baeiéndolc el honor que todavia no le ba heeho la bistoria de nuestro pais, al primer sabio. abanderado de la ciencia argentina: don Florgntino Ameghino. cuando en su 'Credo'' claro, seucillo y profundo como todo lo genial, decia que ningxui hombre debe deseehar una creencia si no tiene sufieiente fundamento
+
+para reemplazarla por otra.
+
+iReligion! ;qué complejo es el significado de esa nala.bra ! Es religion la ciencia para el sabio. El arte para el esteta, es religion; y religion la educaciôn para el maestro! Y si se ha de plantar la choza · definitiva, para que converjan haeia ella todas las razas, todos los pueblos, ha de ser la escuela, senores, ese techo del hogar comun! Alii no habra sectas, alli no habrâ dogmas, alli no se prediearâ el odio. religioso del oriente contra el oecidente, ni del oceidente contra el oriente, alli el maestro darâ la bendiciôn por igual a los bijos de todos los bombres, que vengan a ocupar un pedazo de tierra al amparo de la bandera inmortal de Belgrano. Esa sera obra de la escuela argon-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

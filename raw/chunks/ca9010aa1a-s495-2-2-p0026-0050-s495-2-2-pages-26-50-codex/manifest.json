@@ -1,7 +1,7 @@
 {
   "created": "2026-05-19",
   "converted_file": "raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md",
-  "converted_sha256": "225ca1f7d5aa0edb49f5739f1874173e9862db92e9d12e65967596238ad8cf3a",
+  "converted_sha256": "4b9b0e627f10530447b2d16dd12fb22d7720d02c55d8f1620f8ca65a648dac76",
   "source": "raw/sources/S495-2-2.pdf",
   "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
   "source_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
@@ -12,104 +12,174 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-01",
+      "chunk_id": "CHUNK-4b9b0e627f10-P0029-01",
       "chunk_number": 1,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0029-chunk-01.md",
+      "page_start": 29,
+      "page_end": 29,
+      "part": 1,
+      "chars": 9860,
+      "sha256": "8e3a942a6e3393a643e07f03ab5a51652370c102ca5b3382d97362a573530649"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0029-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0029-chunk-02.md",
+      "page_start": 29,
+      "page_end": 29,
+      "part": 2,
+      "chars": 8984,
+      "sha256": "43d806d2280a37ab3b794bddaca08efc4e09e9789c0400db7b22ba1443b37fab"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0029-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0029-chunk-03.md",
+      "page_start": 29,
+      "page_end": 29,
+      "part": 3,
+      "chars": 10209,
+      "sha256": "138d1a12118c74fc05e4886c9723ebbd815ce12e6da82a6a8700cd17463509d4"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0029-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0029-chunk-04.md",
+      "page_start": 29,
+      "page_end": 29,
+      "part": 4,
+      "chars": 10956,
+      "sha256": "576f174ed1fbea4adc21f3de7325f0ff909470c9f4d7adabf52ef0f091124166"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0029-05",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0029-chunk-05.md",
+      "page_start": 29,
+      "page_end": 29,
+      "part": 5,
+      "chars": 1077,
+      "sha256": "e0e6f5227543b4e6916812d41ea2f807ff4174eebff9007fa253950a53ba8859"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0034-01",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0034-chunk-01.md",
+      "page_start": 34,
+      "page_end": 34,
+      "part": 1,
+      "chars": 8561,
+      "sha256": "23f9149294650b1c2cc1111ce89585b7d4957e8e1d3ff3a6a1b16e357833b688"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0034-02",
+      "chunk_number": 7,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0034-chunk-02.md",
+      "page_start": 34,
+      "page_end": 34,
+      "part": 2,
+      "chars": 8571,
+      "sha256": "81789c7d4078317ede3cfa7a8f1c23a0bb4a68983f5ee361c93b12ce105d6cc6"
+    },
+    {
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-01",
+      "chunk_number": 8,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-01.md",
       "page_start": 36,
       "page_end": 36,
       "part": 1,
       "chars": 11917,
-      "sha256": "4129fc831b58ea96dba19534b04823fceb4a523a0c3c08423697382d189ed0eb"
+      "sha256": "e684d4c577a51ffec7dc41074f7046700d8b43239761f6a85b0375e55485b5fb"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-02",
-      "chunk_number": 2,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-02",
+      "chunk_number": 9,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-02.md",
       "page_start": 36,
       "page_end": 36,
       "part": 2,
       "chars": 11939,
-      "sha256": "0311ace330492a819da38b0e81c843d7ef9aa871b088a42e9932177390472ad5"
+      "sha256": "397d85f212132ea33c02e0effc3b329bd514686464f7d26fd2b30481f57b6d31"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-03",
-      "chunk_number": 3,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-03",
+      "chunk_number": 10,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-03.md",
       "page_start": 36,
       "page_end": 36,
       "part": 3,
       "chars": 11166,
-      "sha256": "5a86209de44eea7f6bebcb1c16b7416c46dac2fa8441082011b87dca2f86a1b9"
+      "sha256": "b520deaf81a1ab80899b436f5b282a8d31b459ae24e98b3c1f5dea604c687f99"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-04",
-      "chunk_number": 4,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-04",
+      "chunk_number": 11,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-04.md",
       "page_start": 36,
       "page_end": 36,
       "part": 4,
       "chars": 11884,
-      "sha256": "65573a03a8290943b4d5a761048053988fd11f39b06112259d1dd409d62b33e2"
+      "sha256": "a757d3ab756ffdb2475a3282966a118a6a20123863c7f8254430ac9f6a4d8088"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-05",
-      "chunk_number": 5,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-05",
+      "chunk_number": 12,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-05.md",
       "page_start": 36,
       "page_end": 36,
       "part": 5,
       "chars": 11537,
-      "sha256": "f3602e957686033d2679166b72dbd8e00e2fdbd678e137e1a365bae7830b93a4"
+      "sha256": "46926d06f2cc6e5e8739584972e7007bbc665c678473cb5d4f6eb43180e063a8"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-06",
-      "chunk_number": 6,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-06",
+      "chunk_number": 13,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-06.md",
       "page_start": 36,
       "page_end": 36,
       "part": 6,
       "chars": 9238,
-      "sha256": "1a4fdb29e3d2c55c4ba04b2e2b02551d0baae64ac3a38e189c41bbcceff5402b"
+      "sha256": "e5faeb483c29feb2a98d27c665fc0a1c309ca99ae6cb019da77efa48644e649e"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-07",
-      "chunk_number": 7,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-07",
+      "chunk_number": 14,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-07.md",
       "page_start": 36,
       "page_end": 36,
       "part": 7,
       "chars": 11019,
-      "sha256": "940bb807640a522ed084877d139a8d16c19848322b126dbd6d8dd8537028d0df"
+      "sha256": "16396927f519ea9bfd5f5975af1801abcdfecf5857d9d8c1f824220a9164deb7"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0036-08",
-      "chunk_number": 8,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0036-08",
+      "chunk_number": 15,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0036-chunk-08.md",
       "page_start": 36,
       "page_end": 36,
       "part": 8,
       "chars": 9713,
-      "sha256": "d327acfe37a1b48c086acfd26328c318fc9423fcfdb2894daa34658f5b745947"
+      "sha256": "7ade2255ad1c4dc96e9c5b5472b6e63e09c057e344f26de682743cc0dbcb349e"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0049-01",
-      "chunk_number": 9,
+      "chunk_id": "CHUNK-4b9b0e627f10-P0049-01",
+      "chunk_number": 16,
       "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0049-chunk-01.md",
       "page_start": 49,
       "page_end": 49,
       "part": 1,
-      "chars": 9287,
-      "sha256": "e18977125e723a5a40a09049d5385518f93238c413ba1bfa5e00d80c4b8f9b80"
+      "chars": 8456,
+      "sha256": "85447a9d1a71f4167298ae1acde071f1a05079cfce0db48b8de2a984e2b8ea40"
     },
     {
-      "chunk_id": "CHUNK-225ca1f7d5aa-P0049-02",
-      "chunk_number": 10,
-      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0049-chunk-02.md",
-      "page_start": 49,
-      "page_end": 49,
-      "part": 2,
-      "chars": 11476,
-      "sha256": "87929c4ba3d562bdddf6da2e33c88077c441c309abdf9d6c72a3619c37a2eada"
+      "chunk_id": "CHUNK-4b9b0e627f10-P0050-01",
+      "chunk_number": 17,
+      "path": "raw/chunks/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50-codex/page-0050-chunk-01.md",
+      "page_start": 50,
+      "page_end": 50,
+      "part": 1,
+      "chars": 8067,
+      "sha256": "a9dd48e88758bb388e0bd2534109651a8a769d80322f6c3ce594a5a5b8a128e6"
     }
   ]
 }
