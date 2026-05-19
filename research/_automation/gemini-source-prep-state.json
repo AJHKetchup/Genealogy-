@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T00:13:14Z",
+  "created": "2026-05-19T02:44:58Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
   "limit": 1,
@@ -15,9 +15,12 @@
   },
   "preflight_api": true,
   "preflight_only": true,
+  "fallback_policy": "all",
+  "economy_large_source_pages": 50,
   "processed": 0,
   "completed": 0,
   "released": 0,
+  "held": 0,
   "failed": 0,
   "skipped": 0,
   "discovery_skipped": 0,
@@ -35,6 +38,6 @@
     "skipped": 0,
     "manifests": 0
   },
-  "fatal_error": "Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n",
-  "finished": "2026-05-19T00:13:14Z"
+  "fatal_error": "",
+  "finished": "2026-05-19T02:44:59Z"
 }
