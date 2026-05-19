@@ -9693,9 +9693,23 @@ def write_source_usability_report(
     refresh_source_prep_tasks: bool = True,
 ) -> list[Path]:
     paths = WikiPaths(root.resolve())
-    if refresh_index:
-        write_source_prep_index(paths.root)
     prep_manifest_path = paths.raw / "source-prep-manifest.json"
+    existing_manifest_sources: list[object] = []
+    try:
+        existing_manifest = json.loads(prep_manifest_path.read_text(encoding="utf-8"))
+        raw_sources = existing_manifest.get("sources", []) if isinstance(existing_manifest, dict) else []
+        if isinstance(raw_sources, list):
+            existing_manifest_sources = raw_sources
+    except (OSError, json.JSONDecodeError):
+        existing_manifest_sources = []
+
+    raw_source_files = [
+        source
+        for source in (paths.raw / "sources").rglob("*")
+        if source.is_file() and source.name != ".gitkeep"
+    ]
+    if refresh_index and (raw_source_files or not existing_manifest_sources):
+        write_source_prep_index(paths.root)
     try:
         prep_manifest = json.loads(prep_manifest_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
@@ -9712,6 +9726,7 @@ def write_source_usability_report(
     for source in sources:
         if not isinstance(source, dict):
             continue
+        media_type = str(source.get("media_type", "")).strip()
         conversion_jobs = [job for job in source.get("conversion_jobs", []) if isinstance(job, dict)]
         converted_sources = [item for item in source.get("converted_sources", []) if isinstance(item, dict)]
         converted_files = [str(item.get("path", "")) for item in converted_sources if item.get("path")]
@@ -9735,20 +9750,25 @@ def write_source_usability_report(
                         "suspicious_readings": page.get("suspicious_readings", []),
                     }
                 )
-        status = source_usability_status(
-            str(source.get("status", "")),
-            conversion_jobs,
-            converted_files,
-            chunk_manifests,
-            len(qc_holds),
-            prep_task_counts.get(str(source.get("sha256", "")), {}).get("needs_reread", 0),
+        page_repair_count = prep_task_counts.get(str(source.get("sha256", "")), {}).get("needs_reread", 0)
+        status = (
+            "skipped_media"
+            if media_type in {"audio", "video"}
+            else source_usability_status(
+                str(source.get("status", "")),
+                conversion_jobs,
+                converted_files,
+                chunk_manifests,
+                len(qc_holds),
+                page_repair_count,
+            )
         )
         source_task_counts = prep_task_counts.get(str(source.get("sha256", "")), {})
         entries.append(
             {
                 "id": source.get("id", ""),
                 "raw_path": source.get("raw_path", ""),
-                "media_type": source.get("media_type", ""),
+                "media_type": media_type,
                 "status": status,
                 "source_prep_status": source.get("status", ""),
                 "conversion_job_count": len(conversion_jobs),
@@ -9756,7 +9776,7 @@ def write_source_usability_report(
                 "chunk_manifest_count": len(chunk_manifests),
                 "qc_hold_count": len(qc_holds),
                 "source_prep_task_counts": source_task_counts,
-                "page_repair_count": source_task_counts.get("needs_reread", 0),
+                "page_repair_count": page_repair_count,
                 "conversion_jobs": conversion_jobs,
                 "converted_files": converted_files,
                 "chunk_manifests": chunk_manifests,

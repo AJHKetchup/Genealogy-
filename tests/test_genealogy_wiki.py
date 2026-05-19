@@ -2570,6 +2570,68 @@ def test_source_usability_can_read_existing_manifest_without_refresh(tmp_path) -
     assert usability["inputs"]["source_prep_task_counts"] == "skipped"
 
 
+def test_source_usability_preserves_cloud_manifest_when_raw_cache_is_empty(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    manifest_path = tmp_path / "raw" / "source-prep-manifest.json"
+    manifest = {
+        "created": "2026-05-19",
+        "source_root": "raw/sources",
+        "sources": [
+            {
+                "id": "SRC-cloud-only",
+                "title": "Cloud-only source",
+                "raw_path": "raw/sources/cloud-only.pdf",
+                "media_type": "pdf",
+                "sha256": "def456",
+                "status": "partially_converted",
+                "conversion_jobs": [{"manifest": "raw/codex-conversion-jobs/job/manifest.json"}],
+                "converted_sources": [],
+            }
+        ],
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+
+    write_source_usability_report(tmp_path, refresh_source_prep_tasks=False)
+
+    assert json.loads(manifest_path.read_text(encoding="utf-8")) == manifest
+    usability = json.loads((tmp_path / "research" / "_indexes" / "source-usability.json").read_text(encoding="utf-8"))
+    assert usability["summary"]["total_sources"] == 1
+    assert usability["summary"]["status_counts"]["conversion_in_progress"] == 1
+
+
+def test_source_usability_treats_stale_audio_manifest_as_skipped_media(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    manifest_path = tmp_path / "raw" / "source-prep-manifest.json"
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "created": "2026-05-19",
+                "source_root": "raw/sources",
+                "sources": [
+                    {
+                        "id": "SRC-audio",
+                        "title": "Interview",
+                        "raw_path": "raw/sources/interview.m4a",
+                        "media_type": "audio",
+                        "sha256": "audio123",
+                        "status": "conversion_not_started",
+                        "conversion_jobs": [],
+                        "converted_sources": [],
+                    }
+                ],
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    write_source_usability_report(tmp_path, refresh_source_prep_tasks=False)
+
+    usability = json.loads((tmp_path / "research" / "_indexes" / "source-usability.json").read_text(encoding="utf-8"))
+    assert usability["summary"]["status_counts"]["skipped_media"] == 1
+    assert usability["sources"][0]["status"] == "skipped_media"
+
+
 def test_write_post_conversion_qc_flags_bad_and_suspicious_pages(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     person = tmp_path / "wiki" / "people" / "dario-pulgar.md"
