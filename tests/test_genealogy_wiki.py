@@ -1175,11 +1175,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.fastlane_limit || '8000' }}"
+        "github.event.inputs.fastlane_limit || '0' }}"
     ) in workflow
     assert (
         "RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.fastlane_scan_limit || '12000' }}"
+        "github.event.inputs.fastlane_scan_limit || '0' }}"
     ) in workflow
     assert (
         "RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1197,6 +1197,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "timeout-minutes: 90" not in workflow
     assert "--fastlane-limit \"$RUN_FASTLANE_LIMIT\"" in workflow
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
+    assert "default: \"0\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
     assert "default: \"large_corpus_relevance\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow

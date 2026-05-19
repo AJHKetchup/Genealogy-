@@ -59,13 +59,13 @@ on:
         required: false
         default: "120"
       fastlane_limit:
-        description: "Maximum born-digital PDF pages to convert deterministically before Docling/Gemini"
+        description: "Optional deterministic born-digital PDF pages to convert before Docling/Gemini; 0 keeps Docling as the universal first gate"
         required: false
-        default: "2000"
+        default: "0"
       fastlane_scan_limit:
         description: "Maximum queued pages to inspect for deterministic born-digital conversion"
         required: false
-        default: "5000"
+        default: "0"
       gemini_fallback_policy:
         description: "Gemini fallback policy: all or large_corpus_relevance"
         required: false
@@ -112,8 +112,8 @@ jobs:
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '90' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '120' }}
-      RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '8000' }}
-      RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_scan_limit || '12000' }}
+      RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '0' }}
+      RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_scan_limit || '0' }}
       RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}
       RUN_ECONOMY_LARGE_SOURCE_PAGES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.economy_large_source_pages || '50' }}
       RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}
