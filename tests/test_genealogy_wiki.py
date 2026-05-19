@@ -1192,6 +1192,9 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
     assert "--checkpoint-every 25" in workflow
     assert "continue-on-error: true" in workflow
+    assert "timeout 90m python -m historic_doc_ingest.genealogy_wiki source-prep-docling-discovery" in workflow
+    assert "docling_exit_code=$status" in workflow
+    assert "timeout-minutes: 90" not in workflow
     assert "--fastlane-limit \"$RUN_FASTLANE_LIMIT\"" in workflow
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
