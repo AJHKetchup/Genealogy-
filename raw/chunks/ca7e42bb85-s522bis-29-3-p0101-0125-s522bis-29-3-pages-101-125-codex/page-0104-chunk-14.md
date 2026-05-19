@@ -1,0 +1,162 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e19823bbf746-P0104-14
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
+converted_sha256: e19823bbf746c67fb5312724a5e183c2caee1d81b8807576168f8d2a020f7691
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
+page_start: 104
+page_end: 104
+part: 14
+---
+
+## Literal Transcription
+1732
+ro, el más grande de los que tiene que abonar
+la nación, que importaría una pérdida conside-
+rable si se hiciera en la forma que actualmente
+lo hace el poder ejecutivo.
+Muy vinculado al desbarajuste monetario ar-
+gentino, que tantas veces hemos recordado a la
+cámara sobre el cual tantas veces hemos pre-
+gonado la urgencia de tomar medidas radicales
+sin conseguir la atención de este cuerpo, ni la
+del poder ejecutivo, ni la del senado de la na-
+ción; muy vinculado al desbarajuste monetario
+argentino, decía, esta otra cuestión que me mue-
+ve a hacer un nuevo agregado al artículo 1o.
+que acaba de votar la cámara.
+Cuando se puso en discusión en particular
+este proyecto de ley que discutimos, el señor
+diputado Molina anunció que pediría se votase
+por partes el artículo, para que las leyes impo-
+sitivas se tratasen por separado y pudiera ser
+modificado un régimen tributario que él, con
+mucha razón, consideraba atrasado y que no
+podía postergarse.
+Derrotados por la cámara en la votación de
+hoy, no hemos de insistir en que todo el régi-
+men impositivo sea discutido por este cuerpo,
+pero vamos a hacer un agregado respecto a la
+ley de aduana. Yo no sé si es una redacción se-
+ria para un proyecto de ley la que trae la co-
+misión cuando nos dice que en vez de tal dis-
+pacho de la comisión de presupuesto, el despacho
+de la comisión de presupuesto. Creo que la comi-
+sión podría tomarse el trabajo de enumerar las
+medidas que propone.
+Sr. Rodríguez (C. J.). — Eso se refiere al
+artículo 2o.
+Sr. Pinedo. — Haciendo uso de aquel dere-
+cho que se ha permitido la comisión, yo propongo
+entonces que, como agregado al artículo 1o., ya
+votado, se diga: como leyes de impuestos regirá
+el despacho de la comisión de presupuesto, que
+todo el mundo conoce y que puede transcribirse
+para mejor perfección de la ley.
+Si la situación monetaria del país no fuera
+mala, siempre sería oportuno modificar los dere-
+chos de aduana; pero siendo nuestra situación
+monetaria mala, es mucho más urgente. El des-
+barajuste monetario argentino obra como un
+formidable derecho de aduana. Pagamos un
+treinta o cuarenta por ciento de más por todo
+lo que se importa al país, lo que ha de obligar-
+nos a considerar con más atención este enorme
+tributo, que no tiende a modificarse en las fi-
+nanzas argentinas y que, según lo que ha afir-
+mado la Contaduría de la nación, a requisición
+de los señores diputados, ha producido el año
+pasado, 1920, incluyendo las tasas portuarias,
+296 millones de pesos, es decir, el 61 por ciento
+de las entradas globales, incluyendo las entra-
+das por servicios, lo que hace un porcentaje mu-
+cho más alto si sólo se le relaciona con el im-
+puesto.
+Y es tanto más necesario considerar este pun-
+CAMARA DE DIPUTADOS
+Septiembre 21
+to cuanto que las postergaciones que ya ha su-
+frido no admiten repetición. Desde que se ha
+hablado aquí en serio de modificar el régimen
+aduanero, la discusión de esta ley no se ha he-
+cho; siempre se ha postergado, poniéndose en
+vigencia leyes del año anterior.
+En 1918, por ejemplo, desapareció la vieja
+comisión de presupuesto, después de la renova-
+ción de la cámara que trajo una fuerte mayo-
+ría radical a este cuerpo y entró a presidir la
+comisión de presupuesto el señor diputado Mo-
+lina, que hizo un proyecto de reformas muy ati-
+nado, de gran importancia, sensiblemente pa-
+recido al proyecto vigente, salvo algunas cosas
+en que después se ha mejorado el despacho, por
+ejemplo, en la diminución de los derechos a los
+carruajes, que en el primer proyecto figuraba
+con 40 por ciento y después ha pasado a otro
+inciso, los derechos a los sulkis, que fueron dis-
+minuídos al diez por ciento, y una gran canti-
+dad de artículos alimenticios cuyo derecho se
+propuso fueran de 5 por ciento y que en los
+proyectos posteriores se ha solicitado que sean
+declarados exentos, así como algunos materia-
+les de construcción e implementos necesarios
+para la industria y la agricultura.
+El proyecto para 1920 que es el que más se
+ha estudiado en esta cámara y que mereció su
+aprobación y fué enmendado por el senado de
+acuerdo con el ministro Salaberry, ha de servir
+de base a la exposición que voy a hacer porque
+el proyecto para 1921 sólo lo modifica, en pe-
+queños detalles, mejorándolo. Por eso propone-
+mos que se tome como base de la legislación
+aduanera futura ese proyecto.
+Quiere decir, señores diputados, que volvere-
+mos a estar, sino se aprueba el agregado que
+proponemos, bajo la vigencia de la ley 4933 y
+las leyes que la han empeorado. Se ha denun-
+ciado ya muchas veces la ley 4933 de 1905 co-
+mo una ley aduanera feroz, como una ley adua-
+nera terriblemente extorsiva, sobre todo para
+las cosas más necesarias. No había artículo im-
+prescindible para los consumos populares o pa-
+ra el desarrollo económico del país que no es-
+tuviera allí fuertemente gravado. Aquella ley
+imponía a los artículos de lujo las mismas tra-
+bas que a los más indispensables consumos po-
+pulares, como el caso típico del algodón y la
+seda. Ya se ha dicho que esa ley establecía para
+los automóviles, que usarí la gente rica mejor
+tratamiento que para los sulkis, que son nece-
+sarios para la población del campo.
+Esa ley ha sido justificada, sosteniéndose que
+partiendo de viejos aforos tal cual los establece
+la tarifa de avalúos, en realidad los derechos
+han disminuído desde que hoy la tarifa está
+anticuada y no corresponde a la realidad. Des-
+de luego negamos en la forma más terminante
+que cuando suben los precios de las cosas de-
+ban subirse los impuestos. En todo caso, sería
+esto motivo para disminuírlos. desde que serán
+
+## Images, Captions, And Visual Notes
+There are no substantial images, captions, or visual notes on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, preserving line breaks and original formatting.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+```
+
+## Page Metadata
+- Page number: 125
+- Source: S522bis-29-3.pdf
+
+## Layout And Reading Order
+The page features a two-column layout. The reading order proceeds from the top of the left column to its bottom, then from the top of the right column to its bottom. A header is present at the top of the page, with "de 1921" on the left and "CAMARA DE DIPUTADOS 1733" on the right.

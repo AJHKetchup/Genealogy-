@@ -1,0 +1,75 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40.codex.md",
+  "converted_sha256": "3f501196d66f7a123b6cc4784391baf4cf1c8f37a95de4019e9a4e3f2c2c1ac0",
+  "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+  "source_sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
+  "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-3f501196d66f-P0027-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/page-0027-chunk-01.md",
+      "page_start": 27,
+      "page_end": 27,
+      "part": 1,
+      "chars": 11638,
+      "sha256": "0cce829072e49798610191ab7199fee4edaa95741f812d2e052af930fe1764d7"
+    },
+    {
+      "chunk_id": "CHUNK-3f501196d66f-P0027-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/page-0027-chunk-02.md",
+      "page_start": 27,
+      "page_end": 27,
+      "part": 2,
+      "chars": 10059,
+      "sha256": "4bbcf7721105083c31288bd3c907d4d76ed43354f583d833b4e05208a49daeaf"
+    },
+    {
+      "chunk_id": "CHUNK-3f501196d66f-P0027-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/page-0027-chunk-03.md",
+      "page_start": 27,
+      "page_end": 27,
+      "part": 3,
+      "chars": 11463,
+      "sha256": "3e9955261c2ab94bfd9640fe5d402a5c1d5efc7b88806c72c13a1cd814563d94"
+    },
+    {
+      "chunk_id": "CHUNK-3f501196d66f-P0027-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/page-0027-chunk-04.md",
+      "page_start": 27,
+      "page_end": 27,
+      "part": 4,
+      "chars": 3374,
+      "sha256": "d5ea4170da71d2ae8e42c7751f932493ab3099879ef14dbbcc4fc7752e2914c2"
+    },
+    {
+      "chunk_id": "CHUNK-3f501196d66f-P0037-01",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/page-0037-chunk-01.md",
+      "page_start": 37,
+      "page_end": 37,
+      "part": 1,
+      "chars": 9219,
+      "sha256": "8c63588178fc5267c12bc53727eeab50a428b720c29e69543fac98c7235608b1"
+    },
+    {
+      "chunk_id": "CHUNK-3f501196d66f-P0039-01",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-fe2696c2cb/page-0039-chunk-01.md",
+      "page_start": 39,
+      "page_end": 39,
+      "part": 1,
+      "chars": 9752,
+      "sha256": "6cdea03fb16985c4deddbaa011c14350baf4293899e86e4355ac151e7fba0e77"
+    }
+  ]
+}

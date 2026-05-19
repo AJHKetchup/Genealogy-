@@ -1,0 +1,287 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-225ca1f7d5aa-P0049-02
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md
+converted_sha256: 225ca1f7d5aa0edb49f5739f1874173e9862db92e9d12e65967596238ad8cf3a
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json
+page_start: 49
+page_end: 49
+part: 2
+---
+
+## Literal Transcription
+### Canal “Alamo”, á la entrada de Río Colorado, cerca de Yuma,
+### Arizona, y que abastece de agua al Valle Imperial.
+
+año, cuando se presentan las cosechas de la
+fruta, después de ella son vilmente abando-
+nados á su propia suerte, en tanto que aquí
+se les garantiza un trabajo para todo el año,
+pagándoseles sueldos bastante altos en re-
+lación con la importancia de los productos.
+La fruta en California produce mayores uti-
+lidades proporcionalmente que el algodón en
+Mexicali. En muchos ranchos se están cons-
+truyendo habitaciones bastante cómodas e
+higiénicas, escuelas e iglesias y se trabaja,
+porque vengan familias que hagan su ho-
+gar y su patria, por lo demás es seguro que
+en ninguna parte del país los trabajadores
+ganan los salarios que aquí. Se prefiere la
+colonización mexicana y se detesta la china
+o japonesa, que es fatal; estos individuos de
+razas inferiores son generalmente viciosos,
+haraganes y ladrones.
+
+Mr. Shenk estima que una manera de dar
+trabajo a los mexicanos no es permitir por
+ningún motivo el desembarco de asiáticos,
+como se ha permitido hasta ahora por todos
+los gobiernos.
+
+EN QUE FORMA PUEDE EL GOBIERNO
+MEXICANO AYUDAR AL DESARROLLO
+DE LA BAJA CALIFORNIA
+
+El algodón de la Baja California es de su-
+perior calidad y como ya hemos dicho, tiene
+gran demanda en el extranjero, en su mayor
+parte es consumido en Estados Unidos; la
+única salida de él es por territorio america-
+no, pues dentro de la península son com-
+pletamente desconocidas las vías de comu-
+nicación. Fomentar la construcción de vías
+férreas y de caminos es la obra más patrió-
+tica y que geniplificaría nuestra importan-
+cia. Es cierto que los mejores caminos de
+México están en la Baja California, pero son
+poquísimos y no basta la iniciativa particu-
+lar; no hay suficientes elementos para ex-
+tenderlos y cuidarlos. Durante la adminis-
+tración del coronel Cantú, se construyó el
+camino nacional que une Mexicali con En-
+senada, esta hermosa obra que sería de gran
+utilidad y que alcanzó un costo de varios
+centenares de miles, en la actualidad casi
+ha desaparecido, está intransitable y es una
+obra colosal y de belleza increíbles. Ferro-
+carriles aquí que no pasan de ser simples
+proyectos, cada vez que cambia el gobierno
+se cambia de idea y los miles de pesos que
+eroga el fisco se desperdician para modificar
+numerosos pequeños agricultores sujetos
+
+### Una despepitadora en Mexicali, la primera que se construyó.
+
+constantemente a las repentinas alteraciones
+hacendarias, a disposiciones arbitrarias que
+quizá por no conocerse sus condiciones par-
+ticulares no se evitan. Casi siempre los co-
+lonos son simples favoritos que nada
+hacen para ayudar y cumplir con su mi-
+sión o bien sujetan su labor a determina-
+dos planes políticos. Estamos seguros que
+en México son enteramente desconocidas las
+circunstancias particulares y generales de la
+península o se tienen enteramente parciales
+y deficientes. El día que el Gobierno fije sus
+ojos en esta porción del suelo patrio y quie-
+ra favorecerla, lo que produce y lo que es la
+Baja California habrá de asombrar al mundo.
+
+ció, y á él se debe la construcción de los
+almacenes y patios de la Colorado Ginn Co.,
+en Mexicali; esto disminuyó enormemente
+los impuestos y los gravámenes. En resumen,
+el valor de la industria algodonera ascien-
+de ya a algunos millones de dólares. Se está
+construyendo una empacadora, con un cos-
+to de $350,000 y un molino de aceite de al-
+godón, cuyo valor será sin duda también
+muy elevado. Las ventajas de estas mejo-
+ras podrán apreciarse ya en la cosecha de
+este año.
+
+NUESTRAS IMPRESIONES
+
+Mr. Shenk es un hombre joven, alto y ru-
+
+### Pacas de algodón listas para ser embarcadas.
+
+LA CUESTION INDUSTRIAL
+
+A pesar de las condiciones reinantes y de
+la falta de braceros y de la falta de caminos
+y de la falta de todo, se nota que la Baja
+California progresa. Primero se ha limitado
+el agricultor a cultivar el campo y el indus-
+trial a enriquecer la agricultura. Se ha ido
+proveyendo a la región de lo que va nece-
+sitando; en 1916 se construyó la primera des-
+pepitadora. En 1918, deb’do a la iniciativa
+de Mr. Shenk, se construyó una más, “La Na-
+cional, S. A.” y la “Mexican Chiness Ginn
+Co., S. A.” La industria ha pasado por gra-
+ves crisis, que muchas veces han tratado de
+hacerla desaparecer, una de ellas ha sido el
+monopolio: el algodón no podía ser almace-
+nado en territorio mexicano y Mr. Shenk in-
+bio, de simpática y agradable fisonomía, de
+nacionalidad americana, y cuando ve por
+primera vez revela una tendencia marcada
+de análisis, sus azules ojos tratan de son-
+dear y penetrar el fondo de cada persona
+que recibe; es cortés y de carácter alegre,
+muy partidario de los mexicanos, y dice lle-
+no de orgullo que también ha sido periodis-
+ta. He aquí algunas de las declaraciones que
+se sirvió hacernos:
+“Estoy orgulloso y satisfecho de mi nacio-
+nalidad, pero fuera de mi patria no creo que
+pueda haber otra más hermosa y más sim-
+pática que México; yo he sido y seré siem-
+pre un defensor de los mexicanos. He vivido
+entre ellos más de veinte años y conozco
+
+(Sigue en la página 68)
+
+### Un campo algodonero en Mexicali, propiedad del señor Shenk.
+
+### Draga “Ruth”, trabajando en el canal que irriga gran parte
+### de los campos algodoneros.
+
+40
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![source-caption: Canal “Alamo”, á la entrada de Río Colorado, cerca de Yuma,
+Arizona, y que abastece de agua al Valle Imperial.](../extracted-images/page-0050/page-0050-image-01-canal-alamo-rio-colorado-yuma-arizona.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [10.0, 11.0, 47.0, 23.0]
+  - Source context: Canal “Alamo” in Río Colorado, near Yuma, Arizona, supplying water to the Imperial Valley.
+- ![source-caption: Una despepitadora en Mexicali, la primera que se construyó.](../extracted-images/page-0050/page-0050-image-02-first-cotton-gin-mexicali.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [52.0, 11.0, 89.0, 23.0]
+  - Source context: First cotton gin built in Mexicali.
+- ![source-caption: Pacas de algodón listas para ser embarcadas.](../extracted-images/page-0050/page-0050-image-03-cotton-bales-ready-for-shipment.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [37.0, 42.0, 89.0, 52.0]
+  - Source context: Cotton bales ready for shipment.
+- ![source-caption: Un campo algodonero en Mexicali, propiedad del señor Shenk.](../extracted-images/page-0050/page-0050-image-04-cotton-field-mexicali-mr-shenk.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [10.0, 70.0, 47.0, 87.0]
+  - Source context: Cotton field in Mexicali, owned by Mr. Shenk.
+- ![source-caption: Draga “Ruth”, trabajando en el canal que irriga gran parte
+de los campos algodoneros.](../extracted-images/page-0050/page-0050-image-05-dredge-ruth-irrigation-canal.png)
+  - Kind: photograph; label basis: source-caption; bbox_pct: [52.0, 70.0, 89.0, 87.0]
+  - Source context: Dredge named “Ruth” working in an irrigation canal for cotton fields.
+
+1.  **inline_anchor: image-1**
+    A black and white photograph showing a wide, calm canal or river with banks lined by sparse vegetation. In the distance, there are some buildings and what appears to be a bridge or structure crossing the water.
+    **Caption**: Canal “Alamo”, á la entrada de Río Colorado, cerca de Yuma,
+    Arizona, y que abastece de agua al Valle Imperial.
+2.  **inline_anchor: image-2**
+    A black and white photograph depicting a collection of industrial buildings, possibly a factory complex, with several smaller structures and open ground around them. There are some utility poles and what looks like a fence in the foreground.
+    **Caption**: Una despepitadora en Mexicali, la primera que se construyó.
+3.  **inline_anchor: image-3**
+    A black and white photograph showing numerous large, rectangular bales (pacas) of cotton stacked in an open area, possibly a loading dock or storage yard. In the background, there are some buildings and a fence.
+    **Caption**: Pacas de algodón listas para ser embarcadas.
+4.  **inline_anchor: image-4**
+    A black and white photograph of a vast, flat agricultural field, likely a cotton field, with rows of plants visible. In the far distance, there are some low-lying structures or hills.
+    **Caption**: Un campo algodonero en Mexicali, propiedad del señor Shenk.
+5.  **inline_anchor: image-5**
+    A black and white photograph showing a large piece of machinery, possibly a dredge or tractor, operating in a shallow body of water, likely a canal. The machine has a large scoop or arm.
+    **Caption**: Draga “Ruth”, trabajando en el canal que irriga gran parte
+    de los campos algodoneros.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and images on the page have been transcribed and described. The continuation note "(Sigue en la página 68)" is preserved.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "image-1",
+      "kind": "photograph",
+      "bbox_pct": [
+        10.0,
+        11.0,
+        47.0,
+        23.0
+      ],
+      "caption_literal": "Canal “Alamo”, á la entrada de Río Colorado, cerca de Yuma,\nArizona, y que abastece de agua al Valle Imperial.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Canal “Alamo” in Río Colorado, near Yuma, Arizona, supplying water to the Imperial Valley.",
+      "confidence": 1.0,
+      "suggested_filename": "canal_alamo_rio_colorado_yuma_arizona"
+    },
+    {
+      "region_id": "image-2",
+      "kind": "photograph",
+      "bbox_pct": [
+        52.0,
+        11.0,
+        89.0,
+        23.0
+      ],
+      "caption_literal": "Una despepitadora en Mexicali, la primera que se construyó.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "First cotton gin built in Mexicali.",
+      "confidence": 1.0,
+      "suggested_filename": "first_cotton_gin_mexicali"
+    },
+    {
+      "region_id": "image-3",
+      "kind": "photograph",
+      "bbox_pct": [
+        37.0,
+        42.0,
+        89.0,
+        52.0
+      ],
+      "caption_literal": "Pacas de algodón listas para ser embarcadas.",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "Cotton bales ready for shipment.",
+      "confidence": 1.0,
+      "suggested_filename": "cotton_bales_ready_for_shipment"
+    },
+    {
+      "region_id": "image-4",
+      "kind": "photograph",
+      "bbox_pct": [
+        10.0,
+        70.0,
+        47.0,
+        87.0
+      ],
+      "caption_literal": "Un campo algodonero en Mexicali, propiedad del señor Shenk.",
+      "caption_type": "source-caption",
+      "identity_basis": "named_person",
+      "source_context": "Cotton field in Mexicali, owned by Mr. Shenk.",
+      "confidence": 1.0,
+      "suggested_filename": "cotton_field_mexicali_mr_shenk"
+    },
+    {
+      "region_id": "image-5",
+      "kind": "photograph",
+      "bbox_pct": [
+        52.0,
+        70.0,
+        89.0,
+        87.0
+      ],
+      "caption_literal": "Draga “Ruth”, trabajando en el canal que irriga gran parte\nde los campos algodoneros.",
+      "caption_type": "source-caption",
+      "identity_basis": "named_object",
+      "source_context": "Dredge named “Ruth” working in an irrigation canal for cotton fields.",
+      "confidence": 1.0,
+      "suggested_filename": "dredge_ruth_irrigation_canal"
+    }
+  ]
+}
+```

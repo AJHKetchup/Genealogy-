@@ -1384,7 +1384,7 @@
       "media_type": "pdf",
       "bytes": 7997729,
       "sha256": "47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da",
-      "status": "partially_converted",
+      "status": "converted",
       "conversion_jobs": [
         {
           "job_id": "CA47b759d1-historia-del-hospital-cl-p0061-0080",
@@ -1437,6 +1437,30 @@
         }
       ],
       "converted_sources": [
+        {
+          "path": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40.codex.md",
+          "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/manifest.json",
+          "sha256": "3f501196d66f7a123b6cc4784391baf4cf1c8f37a95de4019e9a4e3f2c2c1ac0"
+        },
+        {
+          "path": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100.codex.md",
+          "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/manifest.json",
+          "sha256": "8d6f00ea9c7158341dc81f9cc60c5ad6e82884be3a6031faf92df1304b256f88"
+        },
+        {
+          "path": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120.codex.md",
+          "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/manifest.json",
+          "sha256": "97dff1c254e812303b6ddfcbe693febcbb64f86232115fb90c492dbed8fcf631"
+        },
+        {
+          "path": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex.md",
+          "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json",
+          "sha256": "a37b6e8914e3c14f8ec6ea6b6db37eb286f4131c26ab03487a6c6060de973c60"
+        },
         {
           "path": "raw/converted/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127.codex.md",
           "source": "raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf",
@@ -1611,7 +1635,7 @@
           "path": "raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md",
           "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
-          "sha256": "3c401841738366f0686b39699ef6f2446e93f3577b04e0d3b7cc2092357b32e1"
+          "sha256": "2f9270a498f4e4c41acb6812566cc0e19e9becc1c14432214a78dcc913c851b0"
         }
       ],
       "cloud": {
@@ -3899,7 +3923,7 @@
           "path": "raw/converted/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50.codex.md",
           "source": "raw/sources/S495-2-2.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50/manifest.json",
-          "sha256": "38044eb57912bf98bd2647daed11d3aa95e2c9544a6bba80059a98dbeca18f6c"
+          "sha256": "225ca1f7d5aa0edb49f5739f1874173e9862db92e9d12e65967596238ad8cf3a"
         }
       ],
       "cloud": {
@@ -4190,7 +4214,7 @@
           "path": "raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md",
           "source": "raw/sources/S519bis-26-4.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json",
-          "sha256": "45b10d1e435a68a7bc975d3fbcfc64a0044825fc764ab8be561f319112a11c37"
+          "sha256": "3381d7d649e0dbc9770ea896bdb913e8a946b98926424a6d531537bf0235173f"
         }
       ],
       "cloud": {
@@ -4626,16 +4650,22 @@
       ],
       "converted_sources": [
         {
+          "path": "raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md",
+          "source": "raw/sources/S522bis-29-3.pdf",
+          "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json",
+          "sha256": "64cf11a66db4aa1f4d39d052cf6f96f0b3ceb15af1cb0ef39565fc9361fe6c35"
+        },
+        {
           "path": "raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md",
           "source": "raw/sources/S522bis-29-3.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json",
-          "sha256": "8ae46164d6f3efc39a7e8b9aab98773430a73580d433ada34302cda5c881147f"
+          "sha256": "e19823bbf746c67fb5312724a5e183c2caee1d81b8807576168f8d2a020f7691"
         },
         {
           "path": "raw/converted/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25.codex.md",
           "source": "raw/sources/S522bis-29-3.pdf",
           "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25/manifest.json",
-          "sha256": "a702ab3ebb2a0e01c1221337dffc957e1904a4568f056c65e97b2868c36c4154"
+          "sha256": "d88bfb3812d1c20d1fd397b903b64ab019bb7b96ae5fbab48859e36e662ff3a2"
         },
         {
           "path": "raw/converted/ca7e42bb85-s522bis-29-3-p0076-0100-s522bis-29-3-pages-76-100.codex.md",

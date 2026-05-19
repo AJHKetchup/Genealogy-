@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a37b6e8914e3-P0071-04
+source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex.md
+converted_sha256: a37b6e8914e3c14f8ec6ea6b6db37eb286f4131c26ab03487a6c6060de973c60
+source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
+source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
+source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json
+page_start: 71
+page_end: 71
+part: 4
+---
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+```
+
+## Page Metadata
+Page number: 80
+
+## Layout And Reading Order
+The page consists of a single column of text, with the page number "80" in the top left corner. The text flows continuously from top to bottom.
+
+## Literal Transcription
+80
+
+exclusiva con chícharos en zonas cercanas a Concepción, tema de la tesis del entonces
+futuro médico forense Dr. **César Reyes**; y las inquietudes pedagógicas del gastroenterólogo
+Dr. Elso Schiappacasse.
+No faltaron las visitas periódicas del librero Walter Blunck que desde Santiago traía en su
+inmenso auto las últimas novedades y recientes ediciones de libros de medicina que
+exponía a la venta en la Biblioteca.
+Las visitas ilustres que llegaban al Hospital para ofrecer conferencias y asistir a reuniones
+de la Sociedad Médica siempre pasaban a conocer la Biblioteca. Fue así como conservo una
+carta muy conceptuosa que me envió el Profesor Armas Cruz elogiando nuestra diligencia
+por haberle conseguido unos documentos que no había logrado conseguir en Santiago.
+Los quince años de trabajo en el ambiente médico también nos abrieron las oportunidades
+de hacer grandes amigos: Del área Hospital-Universidad de Concepción los ya nombrados,
+Daniel Campos Menchaca; Guillermo Repetto Dapelo; Exequiel González, Jaime Frías,
+Enrique Beckdorf, Raúl Melo, René Riquelme, Rodrigo Fernández, los hermanos Martínez
+Gaensly y tantos otros.
+A comienzos de los años sesenta apareció en la Biblioteca del Hospital un grupo de
+representantes del Sindicato de la Compañía de Acero del Pacífico, invitándome a formar
+una biblioteca de ingeniería metalúrgica en la planta siderúrgica de Huachipato. Luego nos
+invitó a tomar té en su casa Américo Albala, Ingeniero Jefe de la planta, para reforzar dicho
+ofrecimiento con una remuneración muy atractiva. “Te dejo libertad para cumplir esa
+misión…” Acepté el desafío y puse manos a la obra…
+Cumplí esa tarea y participé con la colega Blanca Matas en la preparación de un listado tipo
+Tesauro para bibliotecas de ingeniería, y bajo el alero de CONICYT en la confección de un
+catálogo colectivo nacional de publicaciones periódicas y otras actividades. Se estaba
+fortaleciendo la gestión de la compañía con cursos de la entonces nueva disciplina, la
+Investigación Operacional que me cupo apoyar con documentación. Se instaló el primer
+computador central en la planta, acompañamos el continuo desarrollo tecnológico con
+medios documentarios, y cumplí quince años a cargo de la Biblioteca Central de la planta
+siderúrgica de Huachipato.
+En 1974 y recomendada por el Dr. K. Lahiri, un especialista en la carbonización de
+carbones para la obtención de coque, me invitó el Instituto Latinoamericano del Hierro y el
+Acero (ILAFA) para organizar y desarrollar un Centro de Información y Documentación
+que luego se amplió a una red siderúrgica latinoamericana enfocada a los requerimientos de
+la Región: ILAFA era el centro neurálgico alimentado por sus pares nacionales de
+Argentina, Brasil, Chile, Colombia, México, Perú y Venezuela.
+Al cumplir setenta años de edad en 1994 y habiéndome sentido parte del avance de las
+tecnologías de información a nivel internacional, la accesibilidad a nivel mundial de la
+información y el paso a los métodos de conservación y obtención documentaria en
+microformato u otros soportes, di por terminada mi carrera de bibliotecaria documentalista,
+y me he dedicado desde entonces a las traducciones en el escritorio de mi casa y a gozar sin
+límites horarias a mis hijos, nietos y bisnietos.
+
+## Images, Captions, And Visual Notes
+The page contains no images, captions, or other significant visual elements.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered on this page.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no images, maps, diagrams, or other substantial visual content suitable for cropping."}
