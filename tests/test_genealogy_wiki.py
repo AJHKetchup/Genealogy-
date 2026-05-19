@@ -1343,6 +1343,24 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
         ),
         encoding="utf-8",
     )
+    discovery_dir = tmp_path / "research" / "_agent-queues"
+    discovery_dir.mkdir(parents=True, exist_ok=True)
+    (discovery_dir / "source-prep-discovery.json").write_text(
+        json.dumps(
+            {
+                "version": genealogy_wiki.SOURCE_PREP_DISCOVERY_VERSION,
+                "entries": {
+                    "old-error": {"status": "error", "profile_version": 1},
+                    "old-unusable": {"status": "rough_unusable", "profile_version": 1},
+                    "current-ok": {
+                        "status": "rough_ok",
+                        "profile_version": genealogy_wiki.SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
+                    },
+                },
+            }
+        ),
+        encoding="utf-8",
+    )
 
     report = genealogy_wiki.build_source_prep_cloud_report(tmp_path)
 
@@ -1357,6 +1375,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- Text-layer/no-OCR pages: 2" in report
     assert "- Textless no-OCR fast-unusable pages: 1" in report
     assert '- Extracted image methods: {"docling_picture_image": 1, "local_visual_region": 1}' in report
+    assert '- Cached entries needing retry: {"error": 1, "rough_unusable": 1}' in report
     assert "- Inspected pages/hour: 60.0" in report
     assert "- Completed pages/hour: 48.0" in report
     assert '- Route counts: {"lite": 3, "pro": 2}' in report

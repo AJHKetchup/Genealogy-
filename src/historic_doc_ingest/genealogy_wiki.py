@@ -5575,7 +5575,7 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
 
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
-SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 4
+SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 5
 SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
 SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
 SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
@@ -7254,6 +7254,20 @@ def source_prep_report_extracted_image_methods(payload: dict[str, object]) -> di
     return counts
 
 
+def source_prep_report_stale_discovery_entries(root: Path) -> dict[str, int]:
+    discovery_state = load_source_prep_discovery_state(root)
+    entries = discovery_state.get("entries", {})
+    if not isinstance(entries, dict):
+        return {}
+    counts: dict[str, int] = {}
+    for entry in entries.values():
+        if not source_prep_discovery_cache_needs_revalidation(entry):
+            continue
+        status = str(entry.get("status", "unknown") if isinstance(entry, dict) else "unknown").strip() or "unknown"
+        counts[status] = counts.get(status, 0) + 1
+    return counts
+
+
 def source_prep_report_gemini_usage(payload: dict[str, object]) -> dict[str, int]:
     raw_usage = payload.get("usage", {})
     usage = raw_usage if isinstance(raw_usage, dict) else {}
@@ -7308,6 +7322,7 @@ def build_source_prep_cloud_report(root: Path) -> str:
         queue_scope = "missing"
     preflight_ready = preflight.get("ready", "unknown") if preflight else "unknown"
     gemini_usage = source_prep_report_gemini_usage(gemini)
+    stale_discovery_entries = source_prep_report_stale_discovery_entries(paths.root)
 
     lines = [
         "## Cloud Source Prep Summary",
@@ -7331,6 +7346,7 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Text-layer/no-OCR pages: {source_prep_report_task_bool_count(docling, 'docling_ocr', False)}",
         f"- Textless no-OCR fast-unusable pages: {source_prep_report_task_bool_count(docling, 'docling_no_ocr_fast_unusable', True)}",
         f"- Extracted image methods: {source_prep_report_json(source_prep_report_extracted_image_methods(docling))}",
+        f"- Cached entries needing retry: {source_prep_report_json(stale_discovery_entries)}",
         f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(docling), 'unknown')}",
         f"- Inspected pages/hour: {source_prep_report_pages_per_hour(docling, 'inspected')}",
         f"- Skipped: {source_prep_report_json(docling.get('skipped'))}",
