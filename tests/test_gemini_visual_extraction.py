@@ -380,6 +380,18 @@ def test_gemini_source_prep_preflight_success_can_skip_state_write(tmp_path, mon
     assert not (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").exists()
 
 
+def test_gemini_source_prep_dry_run_does_not_write_state_or_log(tmp_path) -> None:
+    write_test_batch(tmp_path)
+
+    summary = source_prep_gemini_run(tmp_path, limit=1, dry_run=True, refresh_queue=False)
+
+    assert summary["dry_run"] is True
+    assert summary["processed"] == 1
+    assert "state_path" not in summary
+    assert not (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").exists()
+    assert not (tmp_path / "research" / "log.md").exists()
+
+
 def test_gemini_preflight_only_fatal_preserves_last_conversion_state(tmp_path, monkeypatch) -> None:
     write_parallel_test_batches(tmp_path, page_count=1)
     automation = tmp_path / "research" / "_automation"

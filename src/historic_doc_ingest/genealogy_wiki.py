@@ -9324,6 +9324,8 @@ def source_prep_gemini_run(
                     apply_result(result)
 
     summary["finished"] = utc_timestamp()
+    if dry_run:
+        return summary
     state_path = write_source_prep_gemini_state(paths.root, summary)
     summary["state_path"] = relative_to_root(state_path, paths.root)
     append_log(
