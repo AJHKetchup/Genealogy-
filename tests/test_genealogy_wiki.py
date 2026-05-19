@@ -2823,6 +2823,36 @@ def test_write_source_prep_index_inventories_raw_sources_and_links_jobs(tmp_path
     assert manifest.relative_to(tmp_path).as_posix() in text
 
 
+def test_write_source_prep_index_marks_audio_video_as_skipped_media(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "interview.m4a"
+    source.write_bytes(b"audio belongs to the media pipeline")
+    source_hash = genealogy_wiki.file_sha256(source)
+
+    job_manifest = tmp_path / "raw" / "codex-conversion-jobs" / "audio-job" / "manifest.json"
+    job_manifest.parent.mkdir(parents=True)
+    job_manifest.write_text(
+        json.dumps(
+            {
+                "job_id": "AUDIO001",
+                "title": "Interview",
+                "source_sha256": source_hash,
+                "status": "prepared",
+                "chunking": {"page_range": "1-3"},
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    index = json.loads(write_source_prep_index(tmp_path).read_text(encoding="utf-8"))
+    entry = next(item for item in index["sources"] if item["raw_path"] == "raw/sources/interview.m4a")
+
+    assert entry["media_type"] == "audio"
+    assert entry["status"] == "skipped_media"
+    assert entry["conversion_jobs"] == []
+    assert entry["converted_sources"] == []
+
+
 def test_chunk_converted_markdown_writes_page_scoped_chunks(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     converted = tmp_path / "raw" / "converted" / "sample.codex.md"

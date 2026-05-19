@@ -3140,17 +3140,21 @@ def write_source_prep_index(root: Path, output: Path | None = None) -> Path:
         if not source.is_file() or source.name == ".gitkeep":
             continue
         digest = file_sha256(source)
+        media_type = detect_media_type(source)
         jobs = jobs_by_hash.get(digest, [])
         conversions = conversions_by_hash.get(digest, [])
         raw_path = relative_to_root(source, paths.root)
+        if media_type in {"audio", "video"}:
+            jobs = []
+            conversions = []
         entry = {
             "id": f"SRC-{digest[:12]}",
             "title": source.stem,
             "raw_path": raw_path,
-            "media_type": detect_media_type(source),
+            "media_type": media_type,
             "bytes": source.stat().st_size,
             "sha256": digest,
-            "status": source_prep_status(jobs, conversions),
+            "status": "skipped_media" if media_type in {"audio", "video"} else source_prep_status(jobs, conversions),
             "conversion_jobs": jobs,
             "converted_sources": conversions,
         }

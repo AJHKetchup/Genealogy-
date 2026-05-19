@@ -1131,16 +1131,8 @@
       "media_type": "audio",
       "bytes": 30952755,
       "sha256": "50f9e5701e9e76f652296e2315f2435272f9f8b5c77e97a4f9930586154ab565",
-      "status": "queued_for_agent_conversion",
-      "conversion_jobs": [
-        {
-          "job_id": "CA50f9e570-dario-arturo-pulgar-inte",
-          "title": "Dario Arturo Pulgar (Interview 11-24-2024)",
-          "manifest": "raw/codex-conversion-jobs/ca50f9e570-dario-arturo-pulgar-inte-dario-arturo-pulgar-interview-11-24-2024/manifest.json",
-          "status": "prepared",
-          "page_range": "1-3"
-        }
-      ],
+      "status": "skipped_media",
+      "conversion_jobs": [],
       "converted_sources": [],
       "cloud": {
         "provider": "cloudflare-r2",
