@@ -2401,10 +2401,10 @@ def test_large_corpus_economy_holds_unrequested_docling_fallback(tmp_path, monke
         limit=2,
         queue_limit=10,
         api_key="test-key",
-        fallback_policy="large_corpus_relevance",
         economy_large_source_pages=2,
     )
 
+    assert summary["fallback_policy"] == "large_corpus_relevance"
     assert summary["processed"] == 0
     assert summary["held"] == 2
     assert summary["skipped"] == 2

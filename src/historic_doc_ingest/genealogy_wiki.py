@@ -8800,7 +8800,7 @@ def source_prep_gemini_run(
     preflight_api: bool = False,
     preflight_only: bool = False,
     preflight_success_state: bool = True,
-    fallback_policy: str = "all",
+    fallback_policy: str = "large_corpus_relevance",
     economy_large_source_pages: int = GEMINI_SOURCE_PREP_DEFAULT_ECONOMY_LARGE_SOURCE_PAGES,
 ) -> dict[str, object]:
     if limit < 1:
@@ -11925,7 +11925,7 @@ def build_parser() -> argparse.ArgumentParser:
     gemini_source_prep_parser.add_argument(
         "--fallback-policy",
         choices=sorted(GEMINI_SOURCE_PREP_FALLBACK_POLICIES),
-        default="all",
+        default="large_corpus_relevance",
         help=(
             "Gemini fallback policy. 'all' preserves automatic fallback for every Docling-unusable page; "
             "'large_corpus_relevance' holds large-corpus fallback pages until relevance feedback requests Gemini."
