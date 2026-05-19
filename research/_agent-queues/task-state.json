@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-19T06:20:43Z",
+  "updated": "2026-05-19T07:52:59Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -2048,13 +2048,15 @@
       "released_at": "2026-05-17T10:59:10Z"
     },
     "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0002": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:59:10Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-19T07:52:16Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T08:42:28Z",
       "started_at": "2026-05-17T08:42:28Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:59:10Z"
+      "released_at": "2026-05-17T10:59:10Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-19T07:52:16Z"
     },
     "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0003": {
       "status": "released",
@@ -2066,13 +2068,15 @@
       "released_at": "2026-05-17T10:59:10Z"
     },
     "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0004": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:59:10Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-19T07:50:17Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T08:42:29Z",
       "started_at": "2026-05-17T08:42:29Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:59:10Z"
+      "released_at": "2026-05-17T10:59:10Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-19T07:50:17Z"
     },
     "source-prep:ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7:p0005": {
       "status": "released",
@@ -4630,12 +4634,12 @@
     },
     "source-prep:ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10:p0010": {
       "status": "done",
-      "updated_at": "2026-05-17T09:15:49Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:52:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:11:51Z",
       "started_at": "2026-05-17T09:11:51Z",
-      "completed_at": "2026-05-17T09:15:49Z"
+      "completed_at": "2026-05-19T07:52:21Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0001-0025-r3016-11a-2905-950-pages-1-25:p0006": {
       "status": "done",
@@ -7227,12 +7231,12 @@
     },
     "source-prep:ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25:p0008": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:04Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:42:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:06Z",
       "started_at": "2026-05-17T09:13:06Z",
-      "completed_at": "2026-05-17T09:16:04Z"
+      "completed_at": "2026-05-19T07:42:28Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25:p0009": {
       "status": "done",
@@ -7701,21 +7705,21 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25:p0020": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:00Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:45:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:20Z",
       "started_at": "2026-05-17T09:13:20Z",
-      "completed_at": "2026-05-17T09:16:00Z"
+      "completed_at": "2026-05-19T07:45:45Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25:p0021": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:06Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:46:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:20Z",
       "started_at": "2026-05-17T09:13:20Z",
-      "completed_at": "2026-05-17T09:16:06Z"
+      "completed_at": "2026-05-19T07:46:26Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25:p0022": {
       "status": "done",
@@ -7737,21 +7741,21 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25:p0024": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:01Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:52:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:21Z",
       "started_at": "2026-05-17T09:13:21Z",
-      "completed_at": "2026-05-17T09:16:01Z"
+      "completed_at": "2026-05-19T07:52:50Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0001-0025-s522bis-29-3-pages-1-25:p0025": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:00Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:52:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:22Z",
       "started_at": "2026-05-17T09:13:22Z",
-      "completed_at": "2026-05-17T09:16:00Z"
+      "completed_at": "2026-05-19T07:52:59Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0026": {
       "status": "done",
@@ -7847,12 +7851,12 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0037": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:16Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:46:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:25Z",
       "started_at": "2026-05-17T09:13:25Z",
-      "completed_at": "2026-05-17T09:16:16Z"
+      "completed_at": "2026-05-19T07:46:07Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0038": {
       "status": "done",
@@ -7864,31 +7868,33 @@
       "completed_at": "2026-05-17T09:16:16Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0039": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:59:21Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-19T07:42:26Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:26Z",
       "started_at": "2026-05-17T09:13:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:59:21Z"
+      "released_at": "2026-05-17T10:59:21Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-19T07:42:26Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0040": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:41Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:21:09Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:26Z",
       "started_at": "2026-05-17T09:13:26Z",
-      "completed_at": "2026-05-17T09:16:41Z"
+      "completed_at": "2026-05-19T07:21:09Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0041": {
       "status": "done",
-      "updated_at": "2026-05-17T09:18:58Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:31:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:27Z",
       "started_at": "2026-05-17T09:13:27Z",
-      "completed_at": "2026-05-17T09:18:58Z"
+      "completed_at": "2026-05-19T07:31:41Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0042": {
       "status": "done",
@@ -7910,12 +7916,12 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0044": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:29Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:18:05Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:28Z",
       "started_at": "2026-05-17T09:13:28Z",
-      "completed_at": "2026-05-17T09:16:29Z"
+      "completed_at": "2026-05-19T07:18:05Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50:p0045": {
       "status": "done",
@@ -8013,12 +8019,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25:p0007": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:21Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:46:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:32Z",
       "started_at": "2026-05-17T09:13:32Z",
-      "completed_at": "2026-05-17T09:16:21Z"
+      "completed_at": "2026-05-19T07:46:55Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25:p0008": {
       "status": "released",
@@ -8177,12 +8183,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25:p0025": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:20Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:46:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:39Z",
       "started_at": "2026-05-17T09:13:39Z",
-      "completed_at": "2026-05-17T09:16:20Z"
+      "completed_at": "2026-05-19T07:46:50Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0026": {
       "status": "done",
@@ -8278,12 +8284,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0036": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:21Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:51:05Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:44Z",
       "started_at": "2026-05-17T09:13:44Z",
-      "completed_at": "2026-05-17T09:16:21Z"
+      "completed_at": "2026-05-19T07:51:05Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0037": {
       "status": "done",
@@ -8395,12 +8401,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0049": {
       "status": "done",
-      "updated_at": "2026-05-17T09:16:39Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:49:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:13:49Z",
       "started_at": "2026-05-17T09:13:49Z",
-      "completed_at": "2026-05-17T09:16:39Z"
+      "completed_at": "2026-05-19T07:49:23Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0026-0050-s495-2-2-pages-26-50:p0050": {
       "status": "done",
@@ -15020,21 +15026,21 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75:p0052": {
       "status": "done",
-      "updated_at": "2026-05-17T09:51:22Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:41:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:02Z",
       "started_at": "2026-05-17T09:47:02Z",
-      "completed_at": "2026-05-17T09:51:22Z"
+      "completed_at": "2026-05-19T07:41:39Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75:p0053": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:22Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:38:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:02Z",
       "started_at": "2026-05-17T09:47:02Z",
-      "completed_at": "2026-05-17T09:50:22Z"
+      "completed_at": "2026-05-19T07:38:23Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75:p0054": {
       "status": "released",
@@ -15047,21 +15053,21 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75:p0055": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:17Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:42:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:03Z",
       "started_at": "2026-05-17T09:47:03Z",
-      "completed_at": "2026-05-17T09:50:17Z"
+      "completed_at": "2026-05-19T07:42:12Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75:p0056": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:15Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:51:56Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:03Z",
       "started_at": "2026-05-17T09:47:03Z",
-      "completed_at": "2026-05-17T09:50:15Z"
+      "completed_at": "2026-05-19T07:51:56Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75:p0057": {
       "status": "done",
@@ -15507,12 +15513,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0056": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:48Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:49:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:21Z",
       "started_at": "2026-05-17T09:47:21Z",
-      "completed_at": "2026-05-17T09:50:48Z"
+      "completed_at": "2026-05-19T07:49:39Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0057": {
       "status": "done",
@@ -15619,21 +15625,21 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0068": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:36Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:34:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:25Z",
       "started_at": "2026-05-17T09:47:25Z",
-      "completed_at": "2026-05-17T09:50:36Z"
+      "completed_at": "2026-05-19T07:34:15Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0069": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:44Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:36:09Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:25Z",
       "started_at": "2026-05-17T09:47:26Z",
-      "completed_at": "2026-05-17T09:50:44Z"
+      "completed_at": "2026-05-19T07:36:09Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0070": {
       "status": "done",
@@ -15736,14 +15742,14 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0081": {
       "status": "done",
-      "updated_at": "2026-05-17T10:28:34Z",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:26:50Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:30Z",
       "started_at": "2026-05-17T09:47:30Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T09:54:16Z",
-      "agent": "gemini-source-prep",
-      "completed_at": "2026-05-17T10:28:34Z"
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-19T07:26:50Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0082": {
       "status": "done",
@@ -15765,21 +15771,21 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0084": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:53Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:45:13Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:31Z",
       "started_at": "2026-05-17T09:47:31Z",
-      "completed_at": "2026-05-17T09:50:53Z"
+      "completed_at": "2026-05-19T07:45:13Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0085": {
       "status": "done",
-      "updated_at": "2026-05-17T09:51:07Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:45:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:32Z",
       "started_at": "2026-05-17T09:47:32Z",
-      "completed_at": "2026-05-17T09:51:07Z"
+      "completed_at": "2026-05-19T07:45:21Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0086": {
       "status": "done",
@@ -15801,12 +15807,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0088": {
       "status": "done",
-      "updated_at": "2026-05-17T09:50:58Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:45:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:33Z",
       "started_at": "2026-05-17T09:47:33Z",
-      "completed_at": "2026-05-17T09:50:58Z"
+      "completed_at": "2026-05-19T07:45:08Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0089": {
       "status": "done",
@@ -15827,13 +15833,15 @@
       "released_at": "2026-05-17T10:59:24Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0091": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:59:24Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-19T07:40:16Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:34Z",
       "started_at": "2026-05-17T09:47:34Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:59:24Z"
+      "released_at": "2026-05-17T10:59:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-19T07:40:16Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0092": {
       "status": "released",
@@ -15900,12 +15908,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100:p0100": {
       "status": "done",
-      "updated_at": "2026-05-17T09:51:03Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:41:27Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:44Z",
       "started_at": "2026-05-17T09:47:44Z",
-      "completed_at": "2026-05-17T09:51:03Z"
+      "completed_at": "2026-05-19T07:41:27Z"
     },
     "source-prep:cac488badb-r4302-9f-13323-11332-p0051-0058-r4302-9f-13323-11332-pages-51-58:p0054": {
       "status": "released",
@@ -21392,30 +21400,30 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125:p0102": {
       "status": "done",
-      "updated_at": "2026-05-17T10:28:08Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:40:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:24:40Z",
       "started_at": "2026-05-17T10:24:40Z",
-      "completed_at": "2026-05-17T10:28:08Z"
+      "completed_at": "2026-05-19T07:40:04Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125:p0103": {
       "status": "done",
-      "updated_at": "2026-05-17T10:28:13Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:31:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:24:40Z",
       "started_at": "2026-05-17T10:24:40Z",
-      "completed_at": "2026-05-17T10:28:13Z"
+      "completed_at": "2026-05-19T07:31:39Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125:p0104": {
       "status": "done",
-      "updated_at": "2026-05-17T10:28:03Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:33:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:24:41Z",
       "started_at": "2026-05-17T10:24:41Z",
-      "completed_at": "2026-05-17T10:28:03Z"
+      "completed_at": "2026-05-19T07:33:12Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125:p0105": {
       "status": "done",
@@ -21896,12 +21904,12 @@
     },
     "source-prep:ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125:p0108": {
       "status": "done",
-      "updated_at": "2026-05-17T10:29:19Z",
-      "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "updated_at": "2026-05-19T07:22:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:06Z",
       "started_at": "2026-05-17T10:25:06Z",
-      "completed_at": "2026-05-17T10:29:19Z"
+      "completed_at": "2026-05-19T07:22:08Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125:p0109": {
       "status": "released",
@@ -28667,13 +28675,15 @@
       "released_at": "2026-05-17T10:59:30Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0194": {
-      "status": "released",
-      "updated_at": "2026-05-17T10:59:30Z",
-      "note": "Gemini conversion error: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-19T07:51:41Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:04Z",
       "started_at": "2026-05-17T10:58:04Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-17T10:59:30Z"
+      "released_at": "2026-05-17T10:59:30Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-19T07:51:41Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0195": {
       "status": "released",
@@ -30772,17 +30782,17 @@
     },
     "source-prep:ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750:p0746": {
       "status": "done",
-      "updated_at": "2026-05-17T16:28:57Z",
+      "updated_at": "2026-05-19T07:25:40Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:28:57Z"
+      "completed_at": "2026-05-19T07:25:40Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0453": {
       "status": "done",
-      "updated_at": "2026-05-17T16:29:09Z",
+      "updated_at": "2026-05-19T07:30:10Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:29:09Z"
+      "completed_at": "2026-05-19T07:30:10Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0696": {
       "status": "held",
@@ -30796,10 +30806,10 @@
     },
     "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0637": {
       "status": "done",
-      "updated_at": "2026-05-17T16:29:07Z",
+      "updated_at": "2026-05-19T07:37:01Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:29:07Z"
+      "completed_at": "2026-05-19T07:37:01Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0629": {
       "status": "held",
@@ -30813,24 +30823,24 @@
     },
     "source-prep:ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750:p0736": {
       "status": "done",
-      "updated_at": "2026-05-17T16:28:47Z",
+      "updated_at": "2026-05-19T07:38:51Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:28:47Z"
+      "completed_at": "2026-05-19T07:38:51Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625:p0611": {
       "status": "done",
-      "updated_at": "2026-05-17T16:30:10Z",
+      "updated_at": "2026-05-19T07:40:15Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:30:10Z"
+      "completed_at": "2026-05-19T07:40:15Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500:p0476": {
       "status": "done",
-      "updated_at": "2026-05-17T16:30:28Z",
+      "updated_at": "2026-05-19T07:44:45Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:30:28Z"
+      "completed_at": "2026-05-19T07:44:45Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0631": {
       "status": "held",
@@ -30844,10 +30854,10 @@
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0635": {
       "status": "done",
-      "updated_at": "2026-05-17T16:30:44Z",
+      "updated_at": "2026-05-19T07:52:37Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:30:44Z"
+      "completed_at": "2026-05-19T07:52:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0630": {
       "status": "done",
@@ -31328,17 +31338,17 @@
     },
     "source-prep:ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475:p0471": {
       "status": "done",
-      "updated_at": "2026-05-17T16:30:38Z",
+      "updated_at": "2026-05-19T07:45:27Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:30:38Z"
+      "completed_at": "2026-05-19T07:45:27Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625:p0603": {
       "status": "done",
-      "updated_at": "2026-05-17T16:30:49Z",
+      "updated_at": "2026-05-19T07:45:37Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-17T16:30:49Z"
+      "completed_at": "2026-05-19T07:45:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0646": {
       "status": "done",
@@ -31381,31 +31391,31 @@
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0969": {
       "status": "done",
-      "updated_at": "2026-05-19T02:55:37Z",
+      "updated_at": "2026-05-19T07:11:44Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T02:55:37Z"
+      "completed_at": "2026-05-19T07:11:44Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1357": {
       "status": "done",
-      "updated_at": "2026-05-19T02:57:49Z",
+      "updated_at": "2026-05-19T07:15:23Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T02:57:49Z"
+      "completed_at": "2026-05-19T07:15:23Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0471": {
       "status": "done",
-      "updated_at": "2026-05-19T02:58:30Z",
+      "updated_at": "2026-05-19T07:43:28Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T02:58:30Z"
+      "completed_at": "2026-05-19T07:43:28Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0470": {
       "status": "done",
-      "updated_at": "2026-05-19T02:58:53Z",
+      "updated_at": "2026-05-19T07:49:18Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T02:58:53Z"
+      "completed_at": "2026-05-19T07:49:18Z"
     },
     "source-prep:ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775:p0767": {
       "status": "done",
@@ -31945,6 +31955,580 @@
       "agent": "gemini-source-prep",
       "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "held_at": "2026-05-19T03:13:23Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0449": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:08:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:08:39Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0282": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:12:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:12:14Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275:p0272": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:12:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:12:29Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0250": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:14:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:14:12Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0333": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:15:56Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:15:56Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1006": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:16:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:16:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1319": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:17:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:17:58Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1001": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:18:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:18:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1344": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:19:42Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:19:42Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1375": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:21:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:21:35Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1313": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:23:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:23:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1366": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:24:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:24:21Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1281": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:24:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:24:57Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1368": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:25:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:25:26Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0280": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:25:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:25:32Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1377": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:25:51Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:25:51Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0985": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:26:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:26:53Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1317": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:27:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:27:14Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0245": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:28:11Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:28:11Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0244": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:28:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:28:36Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0246": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:29:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:29:35Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0243": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:30:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:30:15Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0953": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:30:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:30:46Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0968": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:31:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:31:08Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0242": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:31:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:31:58Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0241": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:32:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:32:32Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1293": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:32:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:32:46Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0247": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:33:03Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:33:03Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1376": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:33:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:33:55Z"
+    },
+    "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0416": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:34:11Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:34:11Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0714": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:34:52Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:34:52Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0707": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:35:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:35:32Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0713": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:35:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:35:45Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1327": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:35:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:35:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0711": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:36:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:36:10Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0716": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:36:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:36:53Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0715": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:37:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:37:07Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0709": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:37:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:37:07Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1363": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:37:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:37:21Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0708": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:37:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:37:28Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1310": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:37:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:37:33Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0706": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:37:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:37:38Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0710": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:38:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:38:29Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1335": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:38:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:38:53Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0712": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:38:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:38:57Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1378": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:39:42Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:39:42Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1391": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:39:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:39:44Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1268": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:40:49Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:40:49Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1361": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:41:05Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:41:05Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1294": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:41:06Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:41:06Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1318": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:42:13Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:42:13Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1309": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:42:54Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:42:54Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1101-1125-s522bis-29-3-pages-1101-1125:p1104": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:43:00Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:43:00Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225:p1209": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:43:34Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:43:34Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1320": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:43:42Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:43:42Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1301": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:44:13Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:44:13Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1353": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:44:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:44:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1004": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:45:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:45:10Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1002": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:46:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:46:35Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p1000": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:46:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:46:41Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0723": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:46:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:46:58Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1331": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:47:20Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:47:20Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050:p1046": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:47:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:47:28Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1278": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:47:56Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:47:56Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1101-1125-s522bis-29-3-pages-1101-1125:p1105": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:47:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:47:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225:p1208": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:48:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:48:14Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0724": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:48:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:48:17Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0726-0750-s522bis-29-3-pages-726-750:p0728": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:48:20Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:48:20Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1101-1125-s522bis-29-3-pages-1101-1125:p1106": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:48:47Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:48:47Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1007": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:48:48Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:48:48Z"
+    },
+    "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0248": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:49:16Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:49:16Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0999": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:49:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:49:36Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1020": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:49:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:49:53Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325:p1322": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:50:13Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:50:13Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1276": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:50:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:50:35Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0987": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:50:43Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:50:43Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1101-1125-s522bis-29-3-pages-1101-1125:p1108": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:51:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:51:12Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225:p0223": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:51:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:51:14Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1012": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:51:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:51:15Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1299": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:51:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:51:31Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1291": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:52:00Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:52:00Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1101-1125-s522bis-29-3-pages-1101-1125:p1109": {
+      "status": "done",
+      "updated_at": "2026-05-19T07:52:25Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-19T07:52:25Z"
     }
   }
 }
