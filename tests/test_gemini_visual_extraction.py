@@ -357,6 +357,29 @@ def test_gemini_source_prep_preflight_only_does_not_process_pages(tmp_path, monk
     assert not task_state_path.exists()
 
 
+def test_gemini_source_prep_preflight_success_can_skip_state_write(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=1)
+
+    def ok_preflight(**kwargs):
+        return {"text": "OK", "finish_reason": "STOP", "usage": {}}
+
+    monkeypatch.setattr(genealogy_wiki, "preflight_gemini_source_prep_api", ok_preflight)
+
+    summary = source_prep_gemini_run(
+        tmp_path,
+        limit=1,
+        api_key="test-key",
+        refresh_queue=False,
+        preflight_api=True,
+        preflight_only=True,
+        preflight_success_state=False,
+    )
+
+    assert summary["preflight_only"] is True
+    assert "state_path" not in summary
+    assert not (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").exists()
+
+
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
 

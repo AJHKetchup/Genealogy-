@@ -1193,6 +1193,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
+    assert "--no-preflight-success-state" in workflow
     assert "--no-ocr" not in workflow
     assert "--document-timeout \"$RUN_DISCOVERY_DOCUMENT_TIMEOUT\"" in workflow
     assert "--hard-timeout \"$RUN_DISCOVERY_HARD_TIMEOUT\"" in workflow

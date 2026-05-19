@@ -167,7 +167,8 @@ jobs:
             --lite-model gemini-2.5-flash \
             --pro-model gemini-2.5-pro \
             --preflight-api \
-            --preflight-only
+            --preflight-only \
+            --no-preflight-success-state
           status=$?
           echo "exit_code=$status" >> "$GITHUB_OUTPUT"
           exit 0

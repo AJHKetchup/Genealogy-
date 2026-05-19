@@ -8540,6 +8540,7 @@ def source_prep_gemini_run(
     source_sha256: str = "",
     preflight_api: bool = False,
     preflight_only: bool = False,
+    preflight_success_state: bool = True,
     fallback_policy: str = "all",
     economy_large_source_pages: int = GEMINI_SOURCE_PREP_DEFAULT_ECONOMY_LARGE_SOURCE_PAGES,
 ) -> dict[str, object]:
@@ -8655,8 +8656,9 @@ def source_prep_gemini_run(
             fail_with_fatal_blocker(f"Gemini preflight failed: {str(exc)[:800]}")
         if preflight_only:
             summary["finished"] = utc_timestamp()
-            state_path = write_source_prep_gemini_state(paths.root, summary)
-            summary["state_path"] = relative_to_root(state_path, paths.root)
+            if preflight_success_state:
+                state_path = write_source_prep_gemini_state(paths.root, summary)
+                summary["state_path"] = relative_to_root(state_path, paths.root)
             append_log(paths.research / "log.md", "gemini-source-prep | preflight ok")
             return summary
 
@@ -11603,6 +11605,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Run only the Gemini API preflight and write state without processing queued pages.",
     )
     gemini_source_prep_parser.add_argument(
+        "--no-preflight-success-state",
+        action="store_true",
+        help="Do not overwrite gemini-source-prep-state.json after a successful preflight-only check.",
+    )
+    gemini_source_prep_parser.add_argument(
         "--fallback-policy",
         choices=sorted(GEMINI_SOURCE_PREP_FALLBACK_POLICIES),
         default="all",
@@ -12187,6 +12194,7 @@ def main(argv: list[str] | None = None) -> int:
                 source_sha256=args.source_sha256,
                 preflight_api=args.preflight_api,
                 preflight_only=args.preflight_only,
+                preflight_success_state=not args.no_preflight_success_state,
                 fallback_policy=args.fallback_policy,
                 economy_large_source_pages=args.economy_large_source_pages,
             )
