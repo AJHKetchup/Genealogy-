@@ -1,0 +1,198 @@
+{
+  "purpose": "isolated no-api comparison of free/local source-prep extraction layers",
+  "mutates_live_pipeline": false,
+  "api_credit_usage": "none",
+  "dependencies": {
+    "fitz": true,
+    "PIL": true,
+    "docling": true,
+    "easyocr": true,
+    "pdfplumber": true,
+    "pytesseract": true,
+    "tesseract_binary": false
+  },
+  "settings": {
+    "sample_limit": 0,
+    "document_timeout": 45.0,
+    "skip_docling": false
+  },
+  "samples": [
+    {
+      "sample_id": "synthetic_native_pdf",
+      "kind": "synthetic_native_pdf",
+      "source": "generated locally",
+      "methods": [
+        {
+          "method": "pymupdf_text",
+          "seconds": 0.043,
+          "status": "rough_ok",
+          "text_chars": 363,
+          "alpha_chars": 287,
+          "word_count": 52,
+          "line_count": 15,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "Dario Arturo Pulgar - native text source-prep sample\nThis born-digital page has selectable text, dates, places, and a small table. A free native-text extractor\nshould accept it without OCR or any Gemini call.\nYear\nPlace\nRole\n1972\nSantiago, Chile\nProducer\n1978\nMontreal, Canada\nAudio Visual Consultant\n1982\nNairobi, Kenya\nDevelopment Support Communications Officer",
+          "page_count": 1,
+          "embedded_image_count": 0
+        },
+        {
+          "method": "pdfplumber_text",
+          "seconds": 0.207,
+          "status": "rough_ok",
+          "text_chars": 363,
+          "alpha_chars": 287,
+          "word_count": 52,
+          "line_count": 7,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "Dario Arturo Pulgar - native text source-prep sample\nThis born-digital page has selectable text, dates, places, and a small table. A free native-text extractor\nshould accept it without OCR or any Gemini call.\nYear Place Role\n1972 Santiago, Chile Producer\n1978 Montreal, Canada Audio Visual Consultant\n1982 Nairobi, Kenya Development Support Communications Officer"
+        },
+        {
+          "method": "docling_ocr_off_tables_off",
+          "seconds": 23.527,
+          "status": "rough_ok",
+          "text_chars": 211,
+          "alpha_chars": 167,
+          "word_count": 32,
+          "line_count": 2,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "## Dario Arturo Pulgar - native text source-prep sample\n\nThis born-digital page has selectable text, dates, places, and a small table. A free native-text extractor should accept it without OCR or any Gemini call.",
+          "picture_count": 0,
+          "table_count": 1
+        },
+        {
+          "method": "docling_ocr_on_tables_off",
+          "seconds": 5.206,
+          "status": "rough_ok",
+          "text_chars": 211,
+          "alpha_chars": 167,
+          "word_count": 32,
+          "line_count": 2,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "## Dario Arturo Pulgar - native text source-prep sample\n\nThis born-digital page has selectable text, dates, places, and a small table. A free native-text extractor should accept it without OCR or any Gemini call.",
+          "picture_count": 0,
+          "table_count": 1
+        },
+        {
+          "method": "docling_ocr_on_tables_on",
+          "seconds": 6.99,
+          "status": "rough_ok",
+          "text_chars": 473,
+          "alpha_chars": 287,
+          "word_count": 52,
+          "line_count": 7,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "## Dario Arturo Pulgar - native text source-prep sample\n\nThis born-digital page has selectable text, dates, places, and a small table. A free native-text extractor should accept it without OCR or any Gemini call.\n\n|   Year | Place            | Role                                       |\n|--------|------------------|--------------------------------------------|\n|   1972 | Santiago, Chile  | Producer                                   |\n|   1978 | Montreal, Canada | Audio Visual Consultant        ",
+          "picture_count": 0,
+          "table_count": 1
+        }
+      ]
+    },
+    {
+      "sample_id": "synthetic_scanned_pdf",
+      "kind": "synthetic_scanned_pdf",
+      "source": "generated locally",
+      "methods": [
+        {
+          "method": "pymupdf_text",
+          "seconds": 0.024,
+          "status": "rough_unusable",
+          "text_chars": 0,
+          "alpha_chars": 0,
+          "word_count": 0,
+          "line_count": 0,
+          "short_line_ratio": 0.0,
+          "readability_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ],
+          "error": "",
+          "preview": "",
+          "page_count": 1,
+          "embedded_image_count": 1
+        },
+        {
+          "method": "pdfplumber_text",
+          "seconds": 0.012,
+          "status": "rough_unusable",
+          "text_chars": 0,
+          "alpha_chars": 0,
+          "word_count": 0,
+          "line_count": 0,
+          "short_line_ratio": 0.0,
+          "readability_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ],
+          "error": "",
+          "preview": ""
+        },
+        {
+          "method": "docling_ocr_off_tables_off",
+          "seconds": 2.257,
+          "status": "rough_unusable",
+          "text_chars": 0,
+          "alpha_chars": 0,
+          "word_count": 0,
+          "line_count": 0,
+          "short_line_ratio": 0.0,
+          "readability_flags": [
+            "insufficient_text",
+            "insufficient_alpha_text",
+            "insufficient_words"
+          ],
+          "error": "",
+          "preview": "",
+          "picture_count": 0,
+          "table_count": 0
+        },
+        {
+          "method": "docling_ocr_on_tables_off",
+          "seconds": 33.155,
+          "status": "rough_ok",
+          "text_chars": 304,
+          "alpha_chars": 242,
+          "word_count": 51,
+          "line_count": 6,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "## Scanned page source-prep sample\n\nDario Arturo Pulgar appears in a printed paragraph.\n\nThe page includes a date, a place; and a non-text visual block.\n\nThis sample should require local OCR before any Gemini fallback.\n\nIf the OCR layer is weak; the pipeline can hold it for later review.\n\nembedded photo area",
+          "picture_count": 0,
+          "table_count": 0
+        },
+        {
+          "method": "docling_ocr_on_tables_on",
+          "seconds": 33.162,
+          "status": "rough_ok",
+          "text_chars": 304,
+          "alpha_chars": 242,
+          "word_count": 51,
+          "line_count": 6,
+          "short_line_ratio": 0.0,
+          "readability_flags": [],
+          "error": "",
+          "preview": "## Scanned page source-prep sample\n\nDario Arturo Pulgar appears in a printed paragraph.\n\nThe page includes a date, a place; and a non-text visual block.\n\nThis sample should require local OCR before any Gemini fallback.\n\nIf the OCR layer is weak; the pipeline can hold it for later review.\n\nembedded photo area",
+          "picture_count": 0,
+          "table_count": 0
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    "Use PyMuPDF native-text extraction as a zero-token fastlane before OCR for born-digital PDFs.",
+    "Use Docling OCR as the main free scanned-page layer before any Gemini fallback.",
+    "Keep a measured table-structure Docling variant available for tabular pages before spending Gemini tokens."
+  ]
+}

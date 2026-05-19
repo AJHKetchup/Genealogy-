@@ -1083,6 +1083,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "Install Docling discovery dependencies" in workflow
     assert "https://download.pytorch.org/whl/cpu" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
+    pyproject = (Path(__file__).resolve().parents[1] / "pyproject.toml").read_text(encoding="utf-8")
+    assert "easyocr>=1.7.2" in pyproject
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
     assert "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '250' }}" in workflow

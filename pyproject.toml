@@ -8,7 +8,7 @@ dependencies = []
 [project.optional-dependencies]
 pdf = ["pymupdf>=1.24.0", "pillow>=10.0.0"]
 ocr = ["pytesseract>=0.3.10"]
-discovery = ["docling>=2.0.0"]
+discovery = ["docling>=2.0.0", "easyocr>=1.7.2"]
 dev = ["pytest>=8.0.0"]
 
 [project.scripts]
