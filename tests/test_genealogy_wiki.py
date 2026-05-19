@@ -2288,10 +2288,22 @@ def test_docling_discovery_dry_run_does_not_write_state_or_log(tmp_path, monkeyp
     prepare_raw_sources(tmp_path, new_pages_limit=1)
     log_path = tmp_path / "research" / "log.md"
     original_log = log_path.read_text(encoding="utf-8") if log_path.exists() else ""
+
+    def fake_docling(input_path, **kwargs):
+        image_output_dir = Path(kwargs["image_output_dir"])
+        assert tmp_path not in image_output_dir.parents
+        image_output_dir.mkdir(parents=True, exist_ok=True)
+        marker = image_output_dir / "dry-run-image.png"
+        marker.write_bytes(b"not a real png")
+        return {
+            "markdown": "Usable printed source text for Docling baseline. " * 8,
+            "extracted_images": [{"path": marker.as_posix(), "method": "docling_picture_image"}],
+        }
+
     monkeypatch.setattr(
         genealogy_wiki,
         "convert_source_with_docling",
-        lambda input_path, **kwargs: "Usable printed source text for Docling baseline. " * 8,
+        fake_docling,
     )
 
     summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10, dry_run=True)
@@ -2301,6 +2313,7 @@ def test_docling_discovery_dry_run_does_not_write_state_or_log(tmp_path, monkeyp
     assert "state_path" not in summary
     assert not (tmp_path / "research" / "_automation" / "source-prep-docling-state.json").exists()
     assert not (tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").exists()
+    assert not list((tmp_path / "raw" / "codex-conversion-jobs").glob("**/dry-run-image.png"))
     assert (log_path.read_text(encoding="utf-8") if log_path.exists() else "") == original_log
 
 

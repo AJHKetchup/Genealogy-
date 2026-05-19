@@ -6548,6 +6548,7 @@ def run_source_prep_docling_task(
     use_ocr: bool = True,
     document_timeout: float = 90.0,
     hard_timeout: float = 0.0,
+    dry_run: bool = False,
 ) -> dict[str, object]:
     task_id = str(task.get("task_id", "")).strip()
     effective_use_ocr = bool(task.get("_docling_use_ocr", use_ocr))
@@ -6584,7 +6585,11 @@ def run_source_prep_docling_task(
                     },
                 )
         input_path = source_prep_docling_input_path(paths.root, task, temp_dir)
-        image_output_dir = paths.root / str(task.get("image_output_dir", ""))
+        image_output_dir = (
+            temp_dir / "dry-run-extracted-images" / slug(task_id)
+            if dry_run
+            else paths.root / str(task.get("image_output_dir", ""))
+        )
         image_prefix = f"page-{safe_int(task.get('page'), 1):04d}-docling-image"
         try:
             if hard_timeout > 0:
@@ -6940,6 +6945,7 @@ def source_prep_docling_discovery_run(
                     use_ocr=use_ocr,
                     document_timeout=document_timeout,
                     hard_timeout=hard_timeout,
+                    dry_run=dry_run,
                 )
                 if not apply_docling_result(result):
                     break
@@ -6957,6 +6963,7 @@ def source_prep_docling_discovery_run(
                         use_ocr,
                         document_timeout,
                         hard_timeout,
+                        dry_run,
                     )
                     for task, cache_key in candidates
                 ]
