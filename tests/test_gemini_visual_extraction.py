@@ -579,6 +579,7 @@ def test_gemini_flash_max_tokens_retries_next_as_pro(tmp_path, monkeypatch) -> N
     def fake_gemini(**kwargs):
         assert kwargs["model"] == "gemini-2.5-flash"
         assert kwargs["max_output_tokens"] == 65536
+        assert kwargs["thinking_budget"] == 0
         return {
             "text": "",
             "finish_reason": "MAX_TOKENS",
@@ -624,6 +625,7 @@ def test_gemini_pro_max_tokens_holds_for_region_split(tmp_path, monkeypatch) -> 
     def fake_gemini(**kwargs):
         assert kwargs["model"] == "gemini-2.5-pro"
         assert kwargs["max_output_tokens"] == 65536
+        assert kwargs["thinking_budget"] is None
         return {
             "text": "",
             "finish_reason": "MAX_TOKENS",

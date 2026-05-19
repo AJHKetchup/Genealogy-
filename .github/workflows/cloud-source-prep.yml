@@ -271,6 +271,7 @@ jobs:
             --pro-model gemini-2.5-pro \
             --max-output-tokens-lite 65536 \
             --max-output-tokens-pro 65536 \
+            --thinking-budget-lite 0 \
             --crop-count 4 \
             --fallback-policy "$RUN_GEMINI_FALLBACK_POLICY" \
             --economy-large-source-pages "$RUN_ECONOMY_LARGE_SOURCE_PAGES" \

@@ -8684,6 +8684,7 @@ def call_gemini_generate_content(
     prompt: str,
     media_paths: list[Path],
     max_output_tokens: int,
+    thinking_budget: int | None = None,
     timeout_seconds: int = 360,
 ) -> dict[str, object]:
     parts: list[dict[str, object]] = [{"text": prompt}]
@@ -8703,6 +8704,8 @@ def call_gemini_generate_content(
             "maxOutputTokens": max_output_tokens,
         },
     }
+    if thinking_budget is not None:
+        payload["generationConfig"]["thinkingConfig"] = {"thinkingBudget": thinking_budget}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     request = urllib.request.Request(
         url,
@@ -8737,6 +8740,7 @@ def preflight_gemini_source_prep_api(
     *,
     api_key: str,
     model: str,
+    thinking_budget: int | None = 0,
     timeout_seconds: int = 30,
 ) -> dict[str, object]:
     return call_gemini_generate_content(
@@ -8745,6 +8749,7 @@ def preflight_gemini_source_prep_api(
         prompt="Source-prep Gemini preflight. Reply with OK.",
         media_paths=[],
         max_output_tokens=16,
+        thinking_budget=thinking_budget,
         timeout_seconds=timeout_seconds,
     )
 
@@ -8782,6 +8787,8 @@ def source_prep_gemini_run(
     pro_model: str = GEMINI_SOURCE_PREP_PRO_MODEL,
     max_output_tokens_lite: int = 65536,
     max_output_tokens_pro: int = 65536,
+    thinking_budget_lite: int | None = 0,
+    thinking_budget_pro: int | None = None,
     crop_relevance: bool = True,
     crop_count: int = 4,
     parallelism: int = 1,
@@ -8860,6 +8867,7 @@ def source_prep_gemini_run(
         "parallelism": min(parallelism, limit),
         "queue": relative_to_root(queue_path, paths.root),
         "models": {"lite": lite_model, "pro": pro_model},
+        "thinking_budgets": {"lite": thinking_budget_lite, "pro": thinking_budget_pro},
         "filters": {
             "source": source_filter.strip(),
             "source_sha256": source_sha256.strip(),
@@ -8905,7 +8913,11 @@ def source_prep_gemini_run(
 
     if preflight_api and not dry_run:
         try:
-            preflight_gemini_source_prep_api(api_key=api_key, model=lite_model)
+            preflight_gemini_source_prep_api(
+                api_key=api_key,
+                model=lite_model,
+                thinking_budget=thinking_budget_lite,
+            )
         except GeminiSourcePrepFatalError as exc:
             fail_with_fatal_blocker(str(exc))
         except Exception as exc:
@@ -9146,6 +9158,7 @@ def source_prep_gemini_run(
         output_path = prepared_task["output_path"]
         task_report = dict(prepared_task["task_report"])
         max_output_tokens = max_output_tokens_pro if str(route.get("model")) == pro_model else max_output_tokens_lite
+        thinking_budget = thinking_budget_pro if str(route.get("model")) == pro_model else thinking_budget_lite
         try:
             crops = create_gemini_source_prep_crops(paths.root, raw_task, max_crops=crop_count) if route.get("use_crops") else []
             prompt = build_gemini_source_prep_prompt(raw_task, route, crops)
@@ -9156,6 +9169,7 @@ def source_prep_gemini_run(
                 prompt=prompt,
                 media_paths=media_paths,
                 max_output_tokens=max_output_tokens,
+                thinking_budget=thinking_budget,
             )
             usage = response.get("usage", {})
             task_report["usage"] = usage
@@ -11851,6 +11865,21 @@ def build_parser() -> argparse.ArgumentParser:
         help="Max output tokens for pro-model pages. Default: 65536.",
     )
     gemini_source_prep_parser.add_argument(
+        "--thinking-budget-lite",
+        type=int,
+        default=0,
+        help=(
+            "Thinking token budget for lite-model pages. Default: 0, which keeps Flash fallback cheap "
+            "while preserving the full output-token ceiling."
+        ),
+    )
+    gemini_source_prep_parser.add_argument(
+        "--thinking-budget-pro",
+        type=int,
+        default=None,
+        help="Optional thinking token budget for pro-model pages. Default: unset, leaving Pro at provider default.",
+    )
+    gemini_source_prep_parser.add_argument(
         "--crop-count",
         type=int,
         default=4,
@@ -12467,6 +12496,8 @@ def main(argv: list[str] | None = None) -> int:
                 pro_model=args.pro_model,
                 max_output_tokens_lite=args.max_output_tokens_lite,
                 max_output_tokens_pro=args.max_output_tokens_pro,
+                thinking_budget_lite=args.thinking_budget_lite,
+                thinking_budget_pro=args.thinking_budget_pro,
                 crop_relevance=not args.no_crops,
                 crop_count=args.crop_count,
                 parallelism=args.parallelism,

@@ -1200,6 +1200,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
     assert "default: \"large_corpus_relevance\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
+    assert "--thinking-budget-lite 0" in workflow
     assert "if: always() && steps.preflight.outputs.ready == 'true'" in workflow
     assert "if: always() && !cancelled() && steps.preflight.outputs.ready == 'true'" in workflow
     assert (
