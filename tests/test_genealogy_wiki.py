@@ -1146,8 +1146,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "easyocr>=1.7.2" in pyproject
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
-    assert "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '250' }}" in workflow
-    assert "RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '32' }}" in workflow
+    assert "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}" in workflow
+    assert "RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '128' }}" in workflow
     assert "RUN_RAW_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.raw_limit || '500' }}" in workflow
     assert (
         "RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1159,7 +1159,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_parallelism || '8' }}"
+        "github.event.inputs.discovery_parallelism || '64' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && "

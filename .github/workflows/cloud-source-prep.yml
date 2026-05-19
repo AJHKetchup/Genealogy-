@@ -9,15 +9,15 @@ on:
       limit:
         description: "Maximum pages to convert this run"
         required: false
-        default: "250"
+        default: "8000"
       parallelism:
         description: "Maximum Gemini pages to convert at the same time"
         required: false
-        default: "32"
+        default: "128"
       raw_limit:
         description: "Maximum raw R2 objects to restore during test prep"
         required: false
-        default: "100"
+        default: "500"
       source:
         description: "Optional raw source path or basename to restore/prepare/convert"
         required: false
@@ -41,11 +41,11 @@ on:
       discovery_scan_limit:
         description: "Maximum queued pages to inspect with Docling discovery"
         required: false
-        default: "120"
+        default: "12000"
       discovery_parallelism:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
-        default: "8"
+        default: "64"
       discovery_max_pages_per_source:
         description: "Maximum Docling-discovery pages per raw source per run"
         required: false
@@ -99,8 +99,8 @@ jobs:
       PYTHONPATH: src
       PIP_NO_CACHE_DIR: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
-      RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '250' }}
-      RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '32' }}
+      RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}
+      RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '128' }}
       RUN_RAW_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.raw_limit || '500' }}
       RUN_SOURCE: ${{ github.event_name == 'schedule' && '' || github.event.inputs.source || '' }}
       RUN_SOURCE_SHA256: ${{ github.event_name == 'schedule' && '' || github.event.inputs.source_sha256 || '' }}
@@ -108,7 +108,7 @@ jobs:
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '12000' }}
-      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '8' }}
+      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '64' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '90' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '120' }}
