@@ -32,8 +32,10 @@ https://genealogy-wiki-site.ajh-genealogy.workers.dev/
 Required GitHub Actions secrets:
 
 - `CLOUDFLARE_ACCOUNT_ID` or `R2_ACCOUNT_ID`
-- `CLOUDFLARE_API_TOKEN` or `R2_TOKEN_VALUE`
+- `CLOUDFLARE_API_TOKEN`
 
-The token must be able to deploy Workers. If the existing `R2_TOKEN_VALUE` is R2-only, replace it or add `CLOUDFLARE_API_TOKEN` with Workers deploy permission.
+`R2_TOKEN_VALUE` is intentionally not used for the wiki deploy. R2-only tokens can upload bucket objects but cannot create or update the Worker that serves the private-repo wiki site.
+
+Create `CLOUDFLARE_API_TOKEN` as a Cloudflare user API token that can deploy Workers. Cloudflare's own Workers build token includes Account Settings read, Workers Scripts edit, Workers KV edit, Workers R2 edit, Workers Routes edit, and User Details/Memberships read. The required part for this site deploy is Workers Scripts edit on the account, with account/user read permissions useful for Wrangler diagnostics.
 
 The site is generated from durable Markdown and JSON state. Do not hand-edit generated `site/` output; change the wiki/research Markdown or the generator instead.
