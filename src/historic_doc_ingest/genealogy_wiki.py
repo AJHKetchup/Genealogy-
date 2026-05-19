@@ -11792,6 +11792,11 @@ def build_parser() -> argparse.ArgumentParser:
     tree_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     tree_parser.add_argument("--out", type=Path, help="Output Markdown path. Default: wiki/Family Tree.md.")
 
+    site_parser = subparsers.add_parser("site", help="Build a static HTML viewer for the genealogy wiki.")
+    site_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
+    site_parser.add_argument("--out", type=Path, default=Path("site"), help="Output directory. Default: site.")
+    site_parser.add_argument("--wiki-only", action="store_true", help="Render only wiki/ pages and skip research pages.")
+
     narrative_parser = subparsers.add_parser("narrative", help="Compile a narrative from accepted/probable claim pages.")
     narrative_parser.add_argument("subject", help="Person, family, branch, or entity label to compile.")
     narrative_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
@@ -12349,6 +12354,13 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "tree":
         output = generate_tree(args.root, args.out)
         print(f"Wrote tree view {output}")
+        return 0
+
+    if args.command == "site":
+        from historic_doc_ingest.wiki_site import build_wiki_site
+
+        output = build_wiki_site(args.root, args.out, include_research=not args.wiki_only)
+        print(f"Wrote wiki site {output}")
         return 0
 
     if args.command == "narrative":
