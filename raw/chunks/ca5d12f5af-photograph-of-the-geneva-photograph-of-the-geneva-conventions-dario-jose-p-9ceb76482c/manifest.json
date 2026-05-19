@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left.codex.md",
+  "converted_sha256": "1050f9b542e03d3ad90db34bb2f077609d8ae46d38e105df31001b972f0bf998",
+  "source": "raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Conventions (Dario Jose Pulgar-Arriagada turned around in his seat, center column, second row, second seat from the left).jpg",
+  "source_sha256": "5d12f5af8db04e28e194d84b587ba4282eb5d6c72fe0846cd497a6e6083dc42d",
+  "source_manifest": "raw/codex-conversion-jobs/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-pulgar-arriagada-turned-around-in-his-seat-center-column-second-row-second-seat-from-the-left/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-1050f9b542e0-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca5d12f5af-photograph-of-the-geneva-photograph-of-the-geneva-conventions-dario-jose-p-9ceb76482c/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 4733,
+      "sha256": "01f9918f0f5e9f66f96ebfd042ba1d04036d060e823607b49038a85812cc1df6"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9c5ce9e3368b-P0030-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43.codex.md
+converted_sha256: 9c5ce9e3368b26a7f975ec16018c505b9807a60955d555f2e42710b197c3f29a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json
+page_start: 30
+page_end: 30
+part: 1
+---
+
+# Page 30
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/manifest.json`
+- Source page: 30
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0024-0043-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-24-43/page-images/page-0030.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+
+de  dicho  decreto,  que,  en  su  concepto,  envuelve  una grave insion  de  las  atribuciones esclusivas  de  la  Corporacion;  i pide  que en el  acta  se  deje  constancia de  sus  palabras,  porque  él  estima que  la  creacion  de  nuevos  cursos  o  de nuevas  clases  en  la Escuela  de  Derecho  i en  el  Instituto Pedagójico,  no  podria  ser  decretada  por  el  Supremo  Gobierno, sin  previo  acuerdo del  Consejo de  Instruccion Pública. a
+
+- 3.9)  De  un oficio de  don  Alejandro Álvarez en que  acepta  i agradece su  designacion  como Miembro Académico de  la  Facultad de  Leyes  1 Ciencias Políticas.
+- 4.9)  De  una  nota  de  don  Valentin Letelier en  que  espresa  su
+- agradecimiento a  la  Corporacion, por habeise suscrito con la cantidad  de  $ 5,000  a  la  publicacion  de su  obra  «Oríjenes  Sociales del-  Derecho».
+- 5.9)  De  dos  telegramas  del  Rector  del  Liceo  de Tacna  en  que a  dos  alum1  a  una  ex-alumna  del  Liceo  de  NiFalMa-
+- solicita autorizacion del  Consejo  para matricular nas  en  las  clases  del  4. año, ñas  de  Valdivia, en las  clases del  5.0  año:  señoritas Ester coni García, Juana Sagornaga Ibarra i Elena Honorato queira. E
+
+-Se acordó  autorizarlo  para  que  proceda  en  la forma  indicada,  1 de candidatos  presentada  por  el de  Con-
+
+6.0)  De  la  siguiente  nómina señor  Rector  para  desempeñar  el  Rectorado del  Liceo cepcion,  miéntras el  propietario esté  ausente del  peis:
+
+Don  Abraham Melo Pena.
+
+- » Alberto
+- Coddou.
+- » Julio  Parada Benavente.
+- » Anibal Pincheira,
+- 1
+- » Arturo Pardo Correa.
+
+A  continuacion se  tomaron  los  siguientes  acuerdos:
+
+- a)  Proveer  en  propiedad,  a  propuesta  en  terna del  Cuerpo  de Profesores,  la  clase  de  Filosofía  del  Derecho  del  Curso  de  Leyes
+2. de  Concepcion, 1
+- b)  Pecmitir a  las  alumnas del  6.0  año  del  Liceo  de  Niñas  de
+4. Iquique  i a  los  estudiantes  que  rindieron en 1917,  los  exámenes del  5. año  de  Humanidades,  que  se  presenten  a  rendir  las prue-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

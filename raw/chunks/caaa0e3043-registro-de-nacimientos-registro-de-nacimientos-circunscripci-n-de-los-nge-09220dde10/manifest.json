@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172.codex.md",
+  "converted_sha256": "b8f4f0490a36d838c04400174e89d8c22b73e59109785c89dcb0fe13b095013f",
+  "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1888, Entry No. 172;.png",
+  "source_sha256": "aa0e304338ce3e1bf5ae9a1c695a405c862eb81fba66361d1874b7ca9da981b2",
+  "source_manifest": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-b8f4f0490a36-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-09220dde10/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 7347,
+      "sha256": "e3a8176e7173c23d8c3c9cd746d60fc889ec1c65236946455a9118ba2db3a0eb"
+    }
+  ]
+}

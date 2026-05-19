@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1.codex.md",
+  "converted_sha256": "08ac3b7230ca8fabec6cc5a3a690fd1663dd103f8b97d66e8c2fdcb70f1b33f1",
+  "source": "raw/sources/Pústula maligna su tratamiento por inyecciones intravenosas de yodo.pdf",
+  "source_sha256": "ab4a1d7988b2c6b429851aa9286b31b690d2cb210ae1dc7b8d8e507fb64f4a42",
+  "source_manifest": "raw/codex-conversion-jobs/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-inyecciones-intravenosas-de-yodo-pages-1/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-08ac3b7230ca-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/caab4a1d79-p-stula-maligna-su-trata-p0001-0001-p-stula-maligna-su-tratamiento-por-iny-a09fd70c12/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 2822,
+      "sha256": "6583ec3a29ea8eeb000bef0629800c7d0835e0cbb6adbe54006df92999a9d97f"
+    }
+  ]
+}

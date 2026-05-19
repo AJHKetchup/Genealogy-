@@ -1,0 +1,95 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md",
+  "converted_sha256": "3c401841738366f0686b39699ef6f2446e93f3577b04e0d3b7cc2092357b32e1",
+  "source": "raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf",
+  "source_sha256": "3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16",
+  "source_manifest": "raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 11016,
+      "sha256": "0d1bbc4ac58afdecc849805ae6077916ddadf2e2c1e02af529424b5d7f7d353e"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-02.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 2,
+      "chars": 9730,
+      "sha256": "361da0dbf479686b5997f064a2d8a087eeac74668e0c2e0b90f9280ffcfb07f7"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-03.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 3,
+      "chars": 6038,
+      "sha256": "584a23c3d70f5032dfb6427c3464981fe0ad75a16e2e8c65bdc6285a6563d21b"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-04.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 4,
+      "chars": 10105,
+      "sha256": "0436ebe8b9cc625fd4710f109da2590180d2c88fd61c46d9c05393181b9a454b"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-05",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-05.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 5,
+      "chars": 6967,
+      "sha256": "d2c0d0c67563eb111b48e2a6c307262e430f8b9d86af434cf5595279227122d0"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-06",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-06.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 6,
+      "chars": 11541,
+      "sha256": "4284aefc625f98b6be78a73adc94917be3d848d5accfe0644e7c56daa8cb53e6"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-07",
+      "chunk_number": 7,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-07.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 7,
+      "chars": 10960,
+      "sha256": "1ec1d335260bceda22bf4e5a14f9e93eee08c9f2f86ad8939007ae81dbc7a0e7"
+    },
+    {
+      "chunk_id": "CHUNK-3c4018417383-P0001-08",
+      "chunk_number": 8,
+      "path": "raw/chunks/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-1cbe9f3841/page-0001-chunk-08.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 8,
+      "chars": 7312,
+      "sha256": "ffa884e2bf2c3eab76373f6297c2e4a79152f3f56c9e8b73f72478d01d8f1e7f"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3c4018417383-P0001-04
+source_converted: raw/converted/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10.codex.md
+converted_sha256: 3c401841738366f0686b39699ef6f2446e93f3577b04e0d3b7cc2092357b32e1
+source: raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf
+source_sha256: 3a73408510b0c2052341e77030a4f84fdaa56899261a9d30d76aa00e63c49f16
+source_manifest: raw/codex-conversion-jobs/ca3a734085-osorio-h-toro-j-c-schorw-p0001-0010-osorio-h-toro-j-c-schorwer-k-riveros-a-cardenas-j-pioneers-of-a-century-of-anatomical-teaching-in-the-city-of-concepci-n-chile-international-journal-of-morpholog-pages-1-10/manifest.json
+page_start: 1
+page_end: 1
+part: 4
+---
+
+## Literal Transcription
+Machine Translated by Google
+
+OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):650-658, 2020.
+
+This pavilion was used solely for Dentistry in 1922 and 1923, under the
+teaching of Dr. Humberto Rojas Troncoso, accompanied by important
+assistants such as Darío Pastene and Oscar Duarte. In 1924, this
+pavilion was demolished and replaced by a larger one that housed the
+dissection work of the first anatomy course for the nascent School of
+Medicine (Solervicens; Muñoz, 1993).
+
+**Beginning of the School of Medicine.** In April 1924, an important
+milestone for the teaching and development of Chilean medicine took
+place; in fact, the first year of Medicine was created in Concepción, and
+the news was communicated to the country.
+While the inauguration of the School was taking place in Concepción, in
+Santiago the high enrollments quadrupled in just a few years. An
+example of this is that in that same year, the number of first-year medical
+students at the University of Chile was 312, of which 271 were recent
+entrants and 41 were repeaters (Wilhelm, 1966; Jaramillo, 1924). This
+milestone presented even greater difficulties than the foundation of the
+University of Concepción itself. Already in 1921 the Rector of the
+University of Concepción, Mr. Enrique Molina sent a telegram to the
+then Dean of the Faculty of Medicine of the University of Chile, Dr.
+Gregorio Amunátegui, requesting approval of the project to create the
+first two years of the School of Medicine in Concepción; this request
+was not successful. It was not until late 1923, when Santiago was still
+facing teaching difficulties due to the huge number of students, that Dr.
+Amunátegui, now Rector of the University of Chile, and the Dean of the
+Faculty of Medicine, Dr. Roberto Aguirre Luco, took steps to authorize
+the University of Concepción to teach the first two years of the School
+of Medicine. The first of these two years included the following courses:
+a) Botany taught by Dr. Alcibíades Santa Cruz, b) Physics taught by Mr.
+Humberto Vergara, c) Chemistry taught by Mr. Salvador Gálvez, and d)
+Medical Zoology taught by Dr. Ottmar Wilhelm, who was then a pupil of
+Dr. Juan Noé. The anatomy course was assigned to Dr. Enrique
+González Pastor (Wilhelm, 1966).
+
+**Dr. Enrique Gonzalez Pastor** (Fig. 1B) was born in Concepción on
+January 2, 1889. In 1913 he graduated with honors as a surgeon from
+the University of Chile, writing a thesis on organ transplantation. With
+a scholarship from the Chilean government, he was in Paris studying
+urology and general surgery. Returning to Chile, he settled in
+Concepción and was an active member of the Pró University
+Committee. His ties to anatomy were important, since in 1919 he
+collaborated with Dr. Gomez on the anatomy course for the Dentistry
+degree, and later, between 1924 and 1927, he directed the anatomy
+course for the recently created Medicine degree. In 1927 he left the
+anatomy chair to teach the course of Surgical Pathology, which he
+taught until his retirement in 1945. It should be noted that during his
+academic life, Dr. Gonzalez also developed research activities where
+his monographs on abdominal pain and vesicovaginal fistulas stood
+out. After a long battle against a chronic disease, Dr. Gonzalez died in
+September 1957.
+
+(Solervicens; Muñoz, 1993; Archives of the Department of Normal
+Anatomy and Legal Medicine, University of Concepción, 2019).
+
+The inauguration of this School of Medicine was attended by a
+massive crowd. On the morning of April 26, 1924, guests from all over
+the country arrived, including authorities such as Pedro Aguirre Cerda,
+then Senator for the province, Gregorio Amunátegui and Roberto
+Aguirre Luco, who were joined by Edmundo Jaramillo, Director of the
+School of Medicine of the University of Chile, accompanied by important
+professors such as Eugenio Díaz, Luis Vargas, Juan Noé and Carlos
+Charlín, among others (Wilhelm, 1966). Officially, classes at the new
+School of Medicine of the University of Concepción began with the start
+of the course on Medical Zoology, taught by Professor Ottmar Wilhelm.
+Later, Dr. Charlín gave a tribute speech: “Pasteur, the man”, as the
+inauguration of the course on Medicine in Concepción, held in the
+auditorium of the Men’s High School. In the evening, during the honorary
+banquet, Dr. Aguirre Luco in a speech pointed out the joy and satisfaction
+that the inauguration of the new school provokes in the Faculty of
+Medicine of the University of Chile: “... I greet, on behalf of the Faculty
+of Medicine of Santiago, the distinguished colleagues who will have the
+direction of the medicine courses in Concepción; I know them, they will
+honor the chair and will surely remember with gratitude and affection
+the common mother, the old one, the beloved School of Medicine of the
+University of Chile, who feels proud to have such children.”
+
+For his part, Salvador Gálvez, the first Director of the School of
+Medicine of the University of Concepción, said: “... Five years ago, the
+first courses of the schools created by the University of Concepción
+were inaugurated in a modest and silent manner. Today, finding
+ourselves stronger, with more confidence in the future, we have allowed
+ourselves to clap our hands, announcing the birth of a school that was
+the dream of the leaders of the local University and the region.”
+
+This new School of Medicine opened with the idea that the first
+two years of the degree would be offered in Concepción, followed by
+the Bachelor’s degree in Santiago. Its first course, which was taught in
+accordance with the programs of the University of Chile, began with 55
+students, including 4 women. At the end of the academic year, 38
+students took the exams, with 42% passing, a percentage higher than
+in Santiago, an aspect to consider, taking into account that the
+examining committee was from the Faculty of Medicine of the University
+of Chile.
+This anatomy course was taught by Dr. Gonzalez accompanied by
+[illegible] whom stood out a young man
+
+653
+
+## Images, Captions, And Visual Notes
+There are no images or visual elements on this page that require cropping or detailed description.
+
+## Uncertain Or Illegible
+The last word of the second to last line in the right column, last paragraph, is cut off. It appears to be "assistants" but the bottom of the letters are missing, so it is marked as `[illegible]`.
+
+## Completeness Audit
+All visible text on the page has been transcribed, and the layout has been preserved. The page number is included.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other visual elements that are suitable for extraction."}
+```
+
+## Page Metadata
+Page number: 654
+
+## Layout And Reading Order
+
+The page begins with a header containing a machine translation notice and publication details. Below this, the main content is presented in two columns of text. Following the text columns, there is a block of four black and white photographs arranged in a 2x2 grid, labeled A, B, C, and D. A single caption describes all four images. The page number "654" is located at the bottom left.
+
+## Literal Transcription
+
+Machine Translated by Google
+OSORIO, H.; TORO, JC; SCHORWER, K.; RIVEROS, A. & CARDENAS, J. Pioneers of a century of anatomical teaching in the city of Concepción. Int. J. Morphol., 38(3):658-658, 2020.
+
+Enrique Solervicens, a medical student from Santiago who was in his
+final year at the San Juan de Dios Hospital. As this course was biannual,
+it occupied a significant part of the timetable of the first and second year
+of the degree (Muñoz, 1993). In the first year, the musculoskeletal
+system was studied and in the second year, the remaining systems and
+apparatus were studied. This course also included theoretical and
+practical activities. The former consisted of lectures accompanied by
+slides, drawings and cadaver preparations made by assistants. The
+practical part of this course was controlled by assistants and consisted
+of each student making a minimum of 25 cadaver preparations for each
+year of this course (Solervicens).
+
+**Venetian Pavilion.** Once the anatomy course for Medicine had begun, the
+new pavilion allowed for the correct development of these courses. Dr.
+Solervicens described it as follows: “*This new pavilion already offered
+certain working comforts, since it had a stepped classroom, a large
+dissection room, a small professor’s room, a small dissection room for
+assistants, a concrete storage room for the corpses, hygienic facilities and
+washrooms*” (Fig. 3). Despite the comforts already described,
+
+Professor Dr. Gonzalez christened this pavilion as the “Venetian Pavilion.”
+This baptism was evidence of the winter in Concepción, as the rains caused
+the property to be completely surrounded by water, so the professor, his
+assistant and the students had to be rescued by horse-drawn carriages.
+The water flooded the outside of the pavilion, rising up to 60 cm because
+there were two open channels; the one that came from Ecuador Park on
+Victor Lamas Street and the one that ran on Edmundo Larenas Street.
+
+In 1927, the Board of Directors of the University of Concepción
+approved the organization of the Schools into Faculties, and Dr.
+
+Alejandro Lipschütz, the above did not consider the interruption of his
+relationship with the University of Chile. From that year onwards, a process
+of consolidation of academic activity by the nascent anatomy unit began. A
+key man in this development was Dr. Enrique Solervicens Castel, who, as
+a result of the departure of Dr.
+
+Gonzalez was in charge of the anatomy course for Medicine, adding the
+anatomy course for Dentistry that he had already been teaching since 1924
+(Muñoz, 1993).
+
+Fig. 3. Anatomy Pavilion 1924 – 1933, christened as the “Venetian Pavilion”. A: Facade, B: Classroom, C: Dissection room, D:
+Dissection performed by students and supervised by assistants (Photographic archive of the University of Concepción AFUdeC).
+654

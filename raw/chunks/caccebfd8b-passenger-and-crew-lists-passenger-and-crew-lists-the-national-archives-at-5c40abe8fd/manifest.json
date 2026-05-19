@@ -1,0 +1,25 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004.codex.md",
+  "converted_sha256": "585b6f62d4848c880360c0c73e7691c64d1e30415547378362842ae3681a7638",
+  "source": "raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png",
+  "source_sha256": "ccebfd8b8589a86a954826dec91d3ba8f755749eb297cd686fc9d6af65885d30",
+  "source_manifest": "raw/codex-conversion-jobs/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-585b6f62d484-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-5c40abe8fd/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 3763,
+      "sha256": "83013793b57ad2a075917cd74c49625d5c8a37bae2fcec9c4a199447c1a6dd8c"
+    }
+  ]
+}
