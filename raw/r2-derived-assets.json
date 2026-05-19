@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-19T05:38:47.522654+00:00",
+  "created": "2026-05-19T06:21:40.857521+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -423,6 +423,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0006/page-0006-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0006/page-0006-image-01-full-page-audit.jpg",
+      "bytes": 409080,
+      "sha256": "dc028dfabdc6fb7375fd89e663e3b2635f954c65e256e53eb041b997e51ee360",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0006/page-0006-image-02-native-image-block.png",
+      "key": "derived/raw/codex-conversion-jobs/ca27b2c98a-introduction-estates-gen-p0001-0007-introduction-estates-general-of-third-ci-pages-1-7/extracted-images/page-0006/page-0006-image-02-native-image-block.png",
+      "bytes": 509868,
+      "sha256": "4e736b918d14f062c490f1df88482a403b9deced80fdda468566a656fab9c115",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
       "key": "derived/raw/codex-conversion-jobs/ca327c170f-v-p-hist-03583-07a-v-p-hist-03583-07a/extracted-images/page-0001/page-0001-image-01-group-at-outdoor-event-1929.png",
       "bytes": 7952626,
@@ -640,6 +654,55 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/extracted-images/page-0027/page-0027-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/extracted-images/page-0027/page-0027-image-01-full-page-audit.jpg",
+      "bytes": 381258,
+      "sha256": "d332459657cd0422b3c6abb5d9bfa123015c7a5b7d6119d999a0a2f091fd443a",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/extracted-images/page-0037/page-0037-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/extracted-images/page-0037/page-0037-image-01-full-page-audit.jpg",
+      "bytes": 325425,
+      "sha256": "4208cd77ee187ba0340e6a99fcb5739baff26b4e9e12af0417dc73342bd17d54",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/extracted-images/page-0039/page-0039-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0021-0040-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-21-40/extracted-images/page-0039/page-0039-image-01-full-page-audit.jpg",
+      "bytes": 399963,
+      "sha256": "9ab29c0d9722e1b1c780b5353063f5642bffcb0a7dfe7c2cbc9e537d4ecd0e49",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/extracted-images/page-0064/page-0064-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/extracted-images/page-0064/page-0064-image-01-full-page-audit.jpg",
+      "bytes": 261178,
+      "sha256": "f44d828118bbe3618afbc40a7b656b21b079ad446dea0c939a0f1f17a96b87e0",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/extracted-images/page-0071/page-0071-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/extracted-images/page-0071/page-0071-image-01-full-page-audit.jpg",
+      "bytes": 302460,
+      "sha256": "da222ad39b47d364df74d5e5d61965685956d8d0eb609f0e3af7fa3cf5553f02",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0086/page-0086-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0086/page-0086-image-01-full-page-audit.jpg",
+      "bytes": 369625,
+      "sha256": "cf1f7fe82d1770e05ed2d4f04d840392b86adba58d785c1cf819f61e6189686f",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0090/page-0090-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0090/page-0090-image-01-full-page-audit.jpg",
+      "bytes": 356875,
+      "sha256": "b6091089489176c4e1de13fc85d319e50e2765b3cd4b463a14791f6a3adc2644",
+      "media_type": "image/jpeg"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-a-man.png",
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0081-0100-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-81-100/extracted-images/page-0095/page-0095-image-01-bust-of-a-man.png",
       "bytes": 483034,
@@ -661,6 +724,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0101/page-0101-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0101/page-0101-image-01-full-page-audit.jpg",
+      "bytes": 296698,
+      "sha256": "b426c015cffa083036b9539de45265688d1ed953cf0e42c837949404f2ac3ec4",
+      "media_type": "image/jpeg"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0104/page-0104-image-01-illustration-stack-of-books.png",
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0104/page-0104-image-01-illustration-stack-of-books.png",
       "bytes": 54676,
@@ -668,10 +738,38 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0105/page-0105-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0105/page-0105-image-01-full-page-audit.jpg",
+      "bytes": 165425,
+      "sha256": "b293e6fc7a5fb0e4e94388c2b6a614abd412a3e91145716166e19a229362c19d",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0106/page-0106-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0106/page-0106-image-01-full-page-audit.jpg",
+      "bytes": 259952,
+      "sha256": "413849bf56d1c1204363ac80ea38aeaa9cecc264781aafe2092d6aa10247a68d",
+      "media_type": "image/jpeg"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-01-full-page-audit.jpg",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-01-full-page-audit.jpg",
+      "bytes": 117833,
+      "sha256": "be1ede54109a47f3e21dd17edd61cf4385ed6608df6e8c60aeb3dd977eb00962",
+      "media_type": "image/jpeg"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-01-hospital-building-and-ambulance.png",
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-01-hospital-building-and-ambulance.png",
       "bytes": 60750,
       "sha256": "ac6f3b4ee9e9c149b5213a8f704d14fdd62a7e42f1dbea54ea82ec7167460e24",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-02-native-image-block.png",
+      "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0101-0120-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-101-120/extracted-images/page-0114/page-0114-image-02-native-image-block.png",
+      "bytes": 67355,
+      "sha256": "e34d6f105d432743d7ac5feb75d362b36a779761db84554b47caca8d582f61c0",
       "media_type": "image/png"
     },
     {
@@ -3667,9 +3765,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 14,
+    "total_bytes": 4222995,
+    "uploaded": 14,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -3680,9 +3778,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 521,
+      "scanned": 535,
       "deleted": 0,
-      "skipped": 521,
+      "skipped": 535,
       "errors": []
     }
   }
