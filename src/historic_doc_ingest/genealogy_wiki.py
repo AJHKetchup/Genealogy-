@@ -6896,7 +6896,12 @@ def source_prep_docling_discovery_run(
                 task["_docling_text_layer_alpha_chars"] = preview.get("text_layer_alpha_chars", 0)
                 task["_docling_likely_full_page_scan"] = bool(preview.get("likely_full_page_scan"))
                 task["_docling_text_layer_flags"] = preview_flags
-                if use_ocr and bool(preview.get("has_meaningful_text_layer")) and not preview_flags:
+                if (
+                    use_ocr
+                    and bool(preview.get("has_meaningful_text_layer"))
+                    and not bool(preview.get("likely_full_page_scan"))
+                    and not preview_flags
+                ):
                     task["_docling_use_ocr"] = False
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
