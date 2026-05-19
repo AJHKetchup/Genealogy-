@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T19:05:00Z",
+  "created": "2026-05-19T20:41:35Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -16,7 +16,7 @@
     "batch_pages": 1,
     "queue_limit": 10000,
     "stale_minutes": 360,
-    "fastlane_limit": 8000,
+    "fastlane_limit": 0,
     "dry_run": false,
     "source_filter": "",
     "source_sha256": "",
@@ -29,14 +29,14 @@
       "status": "ran",
       "detail": {
         "action": "restore",
-        "created": "2026-05-19T19:06:42.569689+00:00",
+        "created": "2026-05-19T20:42:14.747261+00:00",
         "filters": {
           "source": "",
           "source_sha256": ""
         },
         "total_files": 49,
-        "restored": 49,
-        "skipped": 0,
+        "restored": 0,
+        "skipped": 49,
         "errors": []
       }
     },
@@ -62,22 +62,6 @@
       "status": "ran",
       "detail": {
         "written": "research/_agent-queues/source-prep-batches.json"
-      }
-    },
-    {
-      "name": "source-prep-fastlane",
-      "status": "ran",
-      "detail": {
-        "inspected": 4209,
-        "converted": 0,
-        "dry_run": false,
-        "skipped": {
-          "full_page_image_scan": 4206,
-          "not_pdf": 2,
-          "possible_ligature_text_loss": 1
-        },
-        "converted_tasks": [],
-        "failed_tasks": []
       }
     },
     {
@@ -123,5 +107,5 @@
       }
     }
   },
-  "finished": "2026-05-19T19:10:16Z"
+  "finished": "2026-05-19T20:44:10Z"
 }
