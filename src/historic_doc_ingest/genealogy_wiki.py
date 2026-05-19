@@ -4775,7 +4775,40 @@ def source_prep_status(jobs: list[dict[str, str]], conversions: list[dict[str, s
     return "raw"
 
 
-AGENT_TASK_STATE_STATUSES = {"claimed", "in_progress", "done", "failed", "released"}
+AGENT_TASK_STATE_STATUSES = {"claimed", "in_progress", "done", "failed", "released", "held"}
+
+
+def source_prep_record_has_explicit_model_request(*records: dict[str, object]) -> bool:
+    """Return true for human/research/QC requests, not routine Docling fallback."""
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        if record.get("relevance_feedback_ids"):
+            return True
+        if str(record.get("research_relevance", "")).strip():
+            return True
+        if str(record.get("requested_treatment", "")).strip():
+            return True
+        if record.get("suspicious_readings"):
+            return True
+        if str(record.get("family_relevance", "")).strip().lower() in {"high", "critical"}:
+            return True
+
+        repair_reason = str(record.get("repair_reason", "")).strip().lower()
+        if repair_reason and repair_reason not in {"docling_discovery_unusable"}:
+            return True
+        recommended_action = str(record.get("recommended_action", "")).strip().lower()
+        if recommended_action and recommended_action not in {"gemini_fallback"}:
+            return True
+    return False
+
+
+def source_prep_task_has_explicit_model_request(task: dict[str, object]) -> bool:
+    records = [task]
+    pages = task.get("pages", [])
+    if isinstance(pages, list):
+        records.extend(page for page in pages if isinstance(page, dict))
+    return source_prep_record_has_explicit_model_request(*records)
 
 
 def utc_timestamp() -> str:
@@ -4915,6 +4948,8 @@ def update_agent_task_states(
                 current["completed_at"] = now
             if status == "failed":
                 current["failed_at"] = now
+            if status == "held":
+                current["held_at"] = now
             if status == "released":
                 released_by = agent or str(current.get("agent", "")).strip()
                 if released_by:
@@ -4986,6 +5021,7 @@ def apply_agent_task_state(task: dict[str, object], state: dict[str, object]) ->
         "completed_at",
         "failed_at",
         "released_at",
+        "held_at",
         "updated_at",
     ):
         if state_status == "released" and key == "agent":
@@ -4994,6 +5030,12 @@ def apply_agent_task_state(task: dict[str, object], state: dict[str, object]) ->
             task[key] = state[key]
 
     base_status = str(task.get("status", "todo"))
+    if state_status == "held":
+        task["task_state_status"] = state_status
+        if source_prep_task_has_explicit_model_request(task):
+            return
+        task["status"] = "held"
+        return
     if (
         state_status == "released"
         or base_status == "done"
@@ -7010,10 +7052,13 @@ def build_source_prep_cloud_report(root: Path) -> str:
         "",
         "### Gemini Fallback",
         "",
+        f"- Fallback policy: {source_prep_report_value(gemini.get('fallback_policy'), 'unknown')}",
+        f"- Economy large-source threshold: {source_prep_report_value(gemini.get('economy_large_source_pages'), 'unknown')}",
         f"- Processed: {source_prep_report_value(gemini.get('processed'))}",
         f"- Completed: {source_prep_report_value(gemini.get('completed'))}",
         f"- Released: {source_prep_report_value(gemini.get('released'))}",
-        f"- Failed/held: {source_prep_report_value(gemini.get('failed'))}",
+        f"- Held for relevance: {source_prep_report_value(gemini.get('held'))}",
+        f"- Failed: {source_prep_report_value(gemini.get('failed'))}",
         f"- Discovery-skipped: {source_prep_report_value(gemini.get('discovery_skipped'))}",
         f"- Media-skipped: {source_prep_report_value(gemini.get('media_skipped'))}",
         f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(gemini), 'unknown')}",
@@ -7559,6 +7604,8 @@ def source_prep_fastlane_run(
 GEMINI_SOURCE_PREP_LITE_MODEL = "gemini-2.5-flash"
 GEMINI_SOURCE_PREP_PRO_MODEL = "gemini-2.5-pro"
 GEMINI_SOURCE_PREP_BATCHABLE_STATUSES = {"needs_reread", "todo"}
+GEMINI_SOURCE_PREP_FALLBACK_POLICIES = {"all", "large_corpus_relevance"}
+GEMINI_SOURCE_PREP_DEFAULT_ECONOMY_LARGE_SOURCE_PAGES = 50
 GEMINI_SOURCE_PREP_RELEVANT_VALUES = {"high", "critical"}
 GEMINI_SOURCE_PREP_COMPLEX_FLAG_TOKENS = (
     "handwrit",
@@ -7589,6 +7636,63 @@ GEMINI_SOURCE_PREP_COMPLEX_TEXT_TOKENS = (
     "ficha",
 )
 GEMINI_SOURCE_PREP_IMAGE_SIZE_COMPLEX_BYTES = 4 * 1024 * 1024
+
+
+def normalize_gemini_source_prep_fallback_policy(value: str) -> str:
+    normalized = value.strip().lower().replace("-", "_")
+    if normalized in {"large_corpus", "economy", "relevance", "relevance_only"}:
+        normalized = "large_corpus_relevance"
+    if normalized not in GEMINI_SOURCE_PREP_FALLBACK_POLICIES:
+        raise ValueError(f"unsupported Gemini fallback policy: {value}")
+    return normalized
+
+
+def source_prep_gemini_batch_source_key(batch: dict[str, object]) -> str:
+    page = first_source_prep_batch_page(batch)
+    return str(
+        batch.get("source_sha256")
+        or page.get("source_sha256")
+        or batch.get("source")
+        or page.get("source")
+        or ""
+    ).strip()
+
+
+def source_prep_prepared_page_counts_by_source(root: Path) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    jobs_dir = root.resolve() / "raw" / "codex-conversion-jobs"
+    if not jobs_dir.exists():
+        return counts
+    for manifest_path in sorted(jobs_dir.glob("*/manifest.json")):
+        manifest = read_json_payload(manifest_path, {})
+        source_key = str(manifest.get("source_sha256") or manifest.get("source_file") or "").strip()
+        if not source_key:
+            continue
+        pages = manifest.get("pages", [])
+        if not isinstance(pages, list):
+            continue
+        counts[source_key] = counts.get(source_key, 0) + sum(1 for page in pages if isinstance(page, dict))
+    return counts
+
+
+def source_prep_gemini_economy_hold_reason(
+    batch: dict[str, object],
+    discovery_entry: dict[str, object] | None,
+    source_task_counts: dict[str, int],
+    *,
+    economy_large_source_pages: int,
+) -> str:
+    if source_prep_task_has_explicit_model_request(batch):
+        return ""
+    source_key = source_prep_gemini_batch_source_key(batch)
+    if not source_key or source_task_counts.get(source_key, 0) < economy_large_source_pages:
+        return ""
+    if not isinstance(discovery_entry, dict):
+        return ""
+    discovery_status = str(discovery_entry.get("status", "")).strip()
+    if discovery_status not in {SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS, "error"}:
+        return ""
+    return "large_corpus_docling_fallback_held_for_relevance"
 
 
 def first_source_prep_batch_page(batch: dict[str, object]) -> dict[str, object]:
@@ -8426,13 +8530,18 @@ def source_prep_gemini_run(
     source_sha256: str = "",
     preflight_api: bool = False,
     preflight_only: bool = False,
+    fallback_policy: str = "all",
+    economy_large_source_pages: int = GEMINI_SOURCE_PREP_DEFAULT_ECONOMY_LARGE_SOURCE_PAGES,
 ) -> dict[str, object]:
     if limit < 1:
         raise ValueError("limit must be at least 1")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
+    if economy_large_source_pages < 1:
+        raise ValueError("economy_large_source_pages must be at least 1")
     if preflight_only and not preflight_api:
         raise ValueError("preflight_only requires preflight_api")
+    fallback_policy = normalize_gemini_source_prep_fallback_policy(fallback_policy)
     paths = WikiPaths(root.resolve())
     if not api_key and not dry_run:
         api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
@@ -8465,6 +8574,16 @@ def source_prep_gemini_run(
                 source_sha256=source_sha256,
             )
         ]
+    source_task_counts = source_prep_prepared_page_counts_by_source(paths.root)
+    queue_source_counts: dict[str, int] = {}
+    for task in queue_tasks:
+        if not isinstance(task, dict):
+            continue
+        source_key = source_prep_gemini_batch_source_key(task)
+        if source_key:
+            queue_source_counts[source_key] = queue_source_counts.get(source_key, 0) + 1
+    for source_key, count in queue_source_counts.items():
+        source_task_counts[source_key] = max(source_task_counts.get(source_key, 0), count)
 
     task_state = load_agent_task_state(paths.root)
     discovery_entries = load_source_prep_discovery_state(paths.root).get("entries", {})
@@ -8484,9 +8603,12 @@ def source_prep_gemini_run(
         },
         "preflight_api": preflight_api,
         "preflight_only": preflight_only,
+        "fallback_policy": fallback_policy,
+        "economy_large_source_pages": economy_large_source_pages,
         "processed": 0,
         "completed": 0,
         "released": 0,
+        "held": 0,
         "failed": 0,
         "skipped": 0,
         "discovery_skipped": 0,
@@ -8534,6 +8656,7 @@ def source_prep_gemini_run(
         processed: int = 0,
         completed: int = 0,
         released: int = 0,
+        held: int = 0,
         failed: int = 0,
         skipped: int = 0,
         discovery_skipped: int = 0,
@@ -8547,6 +8670,7 @@ def source_prep_gemini_run(
             "processed": processed,
             "completed": completed,
             "released": released,
+            "held": held,
             "failed": failed,
             "skipped": skipped,
             "discovery_skipped": discovery_skipped,
@@ -8565,6 +8689,7 @@ def source_prep_gemini_run(
         summary["processed"] = int(summary["processed"]) + int(result.get("processed", 0) or 0)
         summary["completed"] = int(summary["completed"]) + int(result.get("completed", 0) or 0)
         summary["released"] = int(summary["released"]) + int(result.get("released", 0) or 0)
+        summary["held"] = int(summary.get("held", 0) or 0) + int(result.get("held", 0) or 0)
         summary["failed"] = int(summary["failed"]) + int(result.get("failed", 0) or 0)
         summary["skipped"] = int(summary["skipped"]) + int(result.get("skipped", 0) or 0)
         summary["discovery_skipped"] = int(summary["discovery_skipped"]) + int(result.get("discovery_skipped", 0) or 0)
@@ -8651,6 +8776,45 @@ def source_prep_gemini_run(
             }
             apply_result(result_payload(task_report, skipped=1, discovery_skipped=1))
             continue
+        discovery_entry = source_prep_discovery_entry_for_task(
+            paths.root,
+            {
+                "task_id": task_id,
+                "source_sha256": raw_task.get("source_sha256", "") or page.get("source_sha256", ""),
+            },
+            discovery_entries,
+        )
+        if fallback_policy == "large_corpus_relevance":
+            economy_hold_reason = source_prep_gemini_economy_hold_reason(
+                raw_task,
+                discovery_entry,
+                source_task_counts,
+                economy_large_source_pages=economy_large_source_pages,
+            )
+            if economy_hold_reason:
+                source_key = source_prep_gemini_batch_source_key(raw_task)
+                task_report = {
+                    "task_id": task_id,
+                    "batch_task_id": raw_task.get("task_id", ""),
+                    "status": "held",
+                    "reason": economy_hold_reason,
+                    "source": raw_task.get("source", ""),
+                    "source_task_count": source_task_counts.get(source_key, 0),
+                    "economy_large_source_pages": economy_large_source_pages,
+                    "discovery_path": str(discovery_entry.get("discovery_path", "")) if discovery_entry else "",
+                }
+                selected_count += 1
+                if not dry_run:
+                    update_task_status(
+                        task_id,
+                        "held",
+                        (
+                            "Economy mode: large-corpus Docling fallback held until source-relevance "
+                            "feedback or targeted validation requests Gemini."
+                        ),
+                    )
+                apply_result(result_payload(task_report, skipped=1, held=1, discovery_skipped=1))
+                continue
         page_image = paths.root / str(page.get("page_image", ""))
         output_path = paths.root / str(page.get("output_path", ""))
         if not page_image.exists():
@@ -8884,7 +9048,8 @@ def source_prep_gemini_run(
         paths.research / "log.md",
         "gemini-source-prep | "
         f"processed {summary['processed']}, completed {summary['completed']}, released {summary['released']}, "
-        f"parallelism={summary['parallelism']}, routes={summary.get('route_counts', {})}, dry_run={dry_run}",
+        f"held {summary.get('held', 0)}, parallelism={summary['parallelism']}, "
+        f"routes={summary.get('route_counts', {})}, fallback_policy={fallback_policy}, dry_run={dry_run}",
     )
     if str(summary.get("fatal_error", "") or "").strip():
         raise GeminiSourcePrepFatalError(f"Gemini source-prep fatal blocker: {summary['fatal_error']}")
@@ -9001,9 +9166,11 @@ def source_prep_batch_group_key(task: dict[str, object]) -> tuple[object, ...]:
     )
 
 
-def source_prep_batch_priority(task: dict[str, object]) -> tuple[int, int, str, int]:
+def source_prep_batch_priority(task: dict[str, object]) -> tuple[int, int, int, str, int]:
+    relevance_priority = 0 if source_prep_task_has_explicit_model_request(task) else 1
     discovery_priority = 0 if str(task.get("rough_discovery_status", "")).strip() == SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS else 1
     return (
+        relevance_priority,
         discovery_priority,
         SOURCE_PREP_BATCH_STATUS_PRIORITY.get(str(task.get("status", "")), 99),
         str(task.get("job_manifest", "")),
@@ -11396,6 +11563,24 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Run only the Gemini API preflight and write state without processing queued pages.",
     )
+    gemini_source_prep_parser.add_argument(
+        "--fallback-policy",
+        choices=sorted(GEMINI_SOURCE_PREP_FALLBACK_POLICIES),
+        default="all",
+        help=(
+            "Gemini fallback policy. 'all' preserves automatic fallback for every Docling-unusable page; "
+            "'large_corpus_relevance' holds large-corpus fallback pages until relevance feedback requests Gemini."
+        ),
+    )
+    gemini_source_prep_parser.add_argument(
+        "--economy-large-source-pages",
+        type=int,
+        default=GEMINI_SOURCE_PREP_DEFAULT_ECONOMY_LARGE_SOURCE_PAGES,
+        help=(
+            "Source page-task count at which large_corpus_relevance starts holding unrequested Docling fallbacks. "
+            f"Default: {GEMINI_SOURCE_PREP_DEFAULT_ECONOMY_LARGE_SOURCE_PAGES}."
+        ),
+    )
     gemini_source_prep_parser.add_argument("--source", default="", help="Only process this raw source path or basename.")
     gemini_source_prep_parser.add_argument("--source-sha256", default="", help="Only process this raw source SHA-256.")
     gemini_source_prep_parser.add_argument(
@@ -11471,9 +11656,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     agent_task_parser = subparsers.add_parser(
         "agent-task",
-        help="Claim, start, complete, fail, or release an agent queue task.",
+        help="Claim, start, complete, fail, release, or hold an agent queue task.",
     )
-    agent_task_parser.add_argument("action", choices=["claim", "start", "complete", "fail", "release"])
+    agent_task_parser.add_argument("action", choices=["claim", "start", "complete", "fail", "release", "hold"])
     agent_task_parser.add_argument("task_id", nargs="+", help="Task id from a queue manifest. May be repeated for batch updates.")
     agent_task_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     agent_task_parser.add_argument("--agent", default="", help="Agent or worker label to record.")
@@ -11943,6 +12128,8 @@ def main(argv: list[str] | None = None) -> int:
                 source_sha256=args.source_sha256,
                 preflight_api=args.preflight_api,
                 preflight_only=args.preflight_only,
+                fallback_policy=args.fallback_policy,
+                economy_large_source_pages=args.economy_large_source_pages,
             )
         except GeminiSourcePrepFatalError as exc:
             print("gemini-source-prep | fatal blocker")
@@ -11994,6 +12181,7 @@ def main(argv: list[str] | None = None) -> int:
             "complete": "done",
             "fail": "failed",
             "release": "released",
+            "hold": "held",
         }
         state_path = update_agent_task_states(
             args.root,

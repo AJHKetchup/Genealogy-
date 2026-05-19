@@ -178,6 +178,8 @@ Advanced conversion is triggered by:
 - The wiki maintainer identifies a product gap requiring more source detail.
 - The page contains meaningful visual evidence worth extracting.
 
+For large archival corpora, the scheduled source-prep workflow may hold unrequested Gemini fallback after Docling/basic discovery. This keeps the corpus searchable and page-addressable at very low cost while preserving the raw R2 source and the page-level upgrade path. Exact pages marked by research relevance, QC, or targeted validation still bypass the hold and receive Gemini Flash/Pro treatment as needed.
+
 Storage deaccession is allowed only when:
 
 - The page has a usable conversion.
@@ -197,6 +199,8 @@ Storage deaccession is allowed only when:
 - Implemented: high-throughput cloud source-prep schedule every five minutes with parallel Docling baseline and parallel Gemini fallback settings targeting 8,000 pages/hour when capacity and API limits allow.
 - Implemented: Gemini Lite/Pro conversion routing.
 - Implemented: parallel Gemini page conversion.
+- Implemented: large-corpus economy fallback mode, where Docling/basic outputs and page locators are preserved but unrequested Gemini fallback on very large archival sources is held until research relevance or targeted validation asks for it.
+- Implemented: deterministic born-digital PDF fastlane before paid Gemini fallback.
 - Implemented: page-level upgrade feedback command and state file.
 - Implemented: meaningful crop extraction from Gemini-declared visual regions.
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.

@@ -1058,11 +1058,11 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
     assert workflow.index("Preflight Gemini API billing") < workflow.index("Prepare conversion queue from R2")
     assert (
         "- name: Prepare conversion queue from R2\n"
-        "        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0'"
+        "        if: steps.preflight.outputs.ready == 'true'"
     ) in workflow
     assert (
         "- name: Assemble converted Markdown\n"
-        "        if: steps.preflight.outputs.ready == 'true' && steps.gemini_api.outputs.exit_code == '0' && steps.gemini.outputs.exit_code == '0'"
+        "        if: steps.preflight.outputs.ready == 'true'"
     ) in workflow
     assert workflow.index("Prepare conversion queue from R2") < workflow.index("Publish restore and queue checkpoint")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Run Docling baseline on all queued pages")
@@ -1107,13 +1107,37 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
         "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
         "github.event.inputs.discovery_hard_timeout || '120' }}"
     ) in workflow
+    assert (
+        "RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.fastlane_limit || '2000' }}"
+    ) in workflow
+    assert (
+        "RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.fastlane_scan_limit || '5000' }}"
+    ) in workflow
+    assert (
+        "RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}"
+    ) in workflow
+    assert (
+        "RUN_ECONOMY_LARGE_SOURCE_PAGES: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.economy_large_source_pages || '50' }}"
+    ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
+    assert "--fastlane-limit \"$RUN_FASTLANE_LIMIT\"" in workflow
+    assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
+    assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
+    assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
     assert "--no-ocr" not in workflow
     assert "--document-timeout \"$RUN_DISCOVERY_DOCUMENT_TIMEOUT\"" in workflow
     assert "--hard-timeout \"$RUN_DISCOVERY_HARD_TIMEOUT\"" in workflow
     assert workflow.index("Check out repository") < workflow.index("Sync latest main before source-prep")
     assert workflow.index("Sync latest main before source-prep") < workflow.index("Prepare conversion queue from R2")
-    assert workflow.index("Preflight Gemini API billing") < workflow.index("Free runner disk for source-prep cache")
+    assert "Free runner disk for source-prep cache" in workflow
+    assert (
+        "- name: Free runner disk for source-prep cache\n"
+        "        if: steps.preflight.outputs.ready == 'true'"
+    ) in workflow
     assert workflow.index("Free runner disk for source-prep cache") < workflow.index("Prepare conversion queue from R2")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
@@ -2046,6 +2070,93 @@ def test_relevance_feedback_overrides_rough_docling_discovery(tmp_path, monkeypa
     gemini_plan = genealogy_wiki.source_prep_gemini_run(tmp_path, limit=1, dry_run=True)
     assert gemini_plan["processed"] == 1
     assert gemini_plan["tasks"][0]["route"]["tier"] == "pro"
+
+
+def test_large_corpus_economy_holds_unrequested_docling_fallback(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "large-red-cross-volume.pdf"
+    doc = fitz.open()
+    for _ in range(3):
+        page = doc.new_page(width=360, height=500)
+        page.insert_text((36, 100), "x")
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=3)
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", lambda input_path, **kwargs: "???")
+    discovery = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert discovery["unusable"] == 3
+
+    def fail_gemini(**kwargs):
+        raise AssertionError("economy mode should hold unrequested large-corpus fallback before Gemini")
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fail_gemini)
+
+    summary = genealogy_wiki.source_prep_gemini_run(
+        tmp_path,
+        limit=2,
+        queue_limit=10,
+        api_key="test-key",
+        fallback_policy="large_corpus_relevance",
+        economy_large_source_pages=2,
+    )
+
+    assert summary["processed"] == 0
+    assert summary["held"] == 2
+    assert summary["skipped"] == 2
+    assert {task["reason"] for task in summary["tasks"]} == {"large_corpus_docling_fallback_held_for_relevance"}
+    task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
+    assert sum(1 for state in task_state["tasks"].values() if state["status"] == "held") == 2
+
+
+def test_large_corpus_economy_allows_relevance_feedback_to_use_pro(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "large-red-cross-relevant.pdf"
+    doc = fitz.open()
+    for _ in range(2):
+        page = doc.new_page(width=360, height=500)
+        page.insert_text((36, 100), "x")
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=2)
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    task_id = source_queue["tasks"][0]["task_id"]
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", lambda input_path, **kwargs: "???")
+    genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+    mark_source_relevance_feedback(
+        tmp_path,
+        task_id=task_id,
+        relevance="high",
+        treatment="pro",
+        reason="Research agent found this exact page relevant.",
+        agent="researcher",
+    )
+
+    def fake_gemini(**kwargs):
+        return {
+            "text": complete_gemini_page_markdown("Relevant Red Cross page converted by Gemini Pro."),
+            "finish_reason": "STOP",
+            "usage": {"promptTokenCount": 10, "candidatesTokenCount": 20, "totalTokenCount": 30},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    summary = genealogy_wiki.source_prep_gemini_run(
+        tmp_path,
+        limit=1,
+        queue_limit=10,
+        api_key="test-key",
+        fallback_policy="large_corpus_relevance",
+        economy_large_source_pages=2,
+    )
+
+    assert summary["processed"] == 1
+    assert summary["completed"] == 1
+    assert summary["held"] == 0
+    assert summary["tasks"][0]["route"]["tier"] == "pro"
 
 
 def test_agent_queue_releases_stale_claims(tmp_path) -> None:
