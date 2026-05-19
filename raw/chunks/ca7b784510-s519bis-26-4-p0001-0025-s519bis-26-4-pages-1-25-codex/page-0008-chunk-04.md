@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-3381d7d649e0-P0008-04
+chunk_id: CHUNK-9e421c25767c-P0008-04
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25.codex.md
-converted_sha256: 3381d7d649e0dbc9770ea896bdb913e8a946b98926424a6d531537bf0235173f
+converted_sha256: 9e421c25767c189b22fd03aff672b2653e85acd48bafd39c746be68e93d5d491
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/manifest.json
@@ -159,77 +159,3 @@ All visible text on the page has been transcribed. The last paragraph appears to
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content. It is composed entirely of text."}
 ```
-
-## Page Metadata
-- Page number: 21
-- Source publication year: 1926
-
-## Layout And Reading Order
-The page consists of a single column of text, with a centered page number at the top. The text flows continuously from top to bottom.
-
-## Literal Transcription
-<pre>
-- 6 -
-
-toda la humanidad, no obstante manifestarse fieles creyentes del cristianismo
-cuya índole es esencialmente universalista. Les sustenta la contradicción en
-lugar de perturbarles. Lo único que les perturba es cualquier indicio hu-
-mano que perciban en los productores de la riqueza. Los substituirían de
-buena gana por autómatas para desterrar en absoluto el arte
-de pensar. Han puesto el fin de la vida en el disfrute pacífico y bestial de
-las riquezas acumuladas. Se han embriagado con el poder y estiman su úni-
-co Dios al signo que lo produce. Para conquistarlo, adoptan la máxima je-
-suítica de que el fin justifica todos los medios.
-
-Así, en los países pobres encarcelan y destierran a sus adversarios, til-
-dándoles de enemigos de la patria y de las instituciones, mientras pisotean
-a éstas y entregan la nación al extranjero. Y en los ricos y potentes, como
-el vuestro, se erigen en defensores del derecho universal y los ideales pa-
-trios, y en nombre de ambos someten a los pueblos desvalidos, sujetándoles
-al yugo de sus propios intereses; y cubren de oprobio el nombre de su país,
-manchándole con el estigma que merecen los pueblos desleales y opresores
-que proceden cual los malhechores públicos.
-
-Vuestro actual Presidente Coolidge es ejemplo representativo de esto
-último. Quienquiera que haya leído su libro *El precio de la libertad* le habrá
-considerado un paladín de los derechos humanos, de la moral y de la jus-
-ticia, y habrá admirado en él su clara visión de que el peligro real de los
-Estados Unidos no consiste en el debilitamiento del poder, "sino en las
-intenciones que rijan el uso de un gran poder". Habrá observado, también,
-que se da cuenta de que "a menos que los americanos no continúen viviendo
-en algo *más grande que lo presente, que no sean dirigidos por algo más que*
-*por las ventajas materiales*... perecerán como han perecido otras naciones.
-Un pueblo dotado de una gran fuerza moral". Lógico es, en con-
-secuencia, que el lector de ese libro haya supuesto que tal hombre se hallaba
-destinado a realizar un cambio fundamental en el proceder político de Norte-
-América, a convertirse en agente y campeón de la solidaridad continental.
-Mas, he aquí que ese apóstol ferviente de la moral, del derecho y la justicia
-humana, utiliza su cargo de Presidente de la nación más fuerte del mundo
-para ejecutar el acto más arbitrario e injusto que se pueda concebir, *movido*
-*por intereses materiales*, contra un pueblo indefenso de la América; hasta el
-punto de no hallar excusas valederas, ni siquiera ante sus mismos compatrio-
-tas, que lo reprueban abiertamente. Y atrae sobre su nación con ese acto,
-el ludibrio de la historia y el anatema y el odio de todos los hombres libres.
-
-Tal es la manera típica de proceder de esa gastada generación, a la
-cual me vengo refiriendo. Se manifiesta, en teoría, genuina defensora de los
-ideales consagrados y en la práctica resulta obedeciendo a los intereses más
-contrarios a la esencia del derecho.
-
-Esa irreconciliable contradicción entre las doctrinas y la realidad, es el
-patrimonio universal de la generación que ahora declina, y abre un abismo
-de oposición antagónica entre la masa y sus dirigentes. Ese abismo de des-
-confianza hostil lo debemos suprimir nosotros, los que encarnamos la nueva
-generación espiritual. Hemos de reconquistar la fe del pueblo haciendo que
-nuestros actos sean la materialización de nuestras palabras. Si la esencia de
-la realidad no se aviene con nuestras doctrinas será porque éstas son falsas;
-</pre>
-
-## Images, Captions, And Visual Notes
-- The page number "- 6 -" is centered at the top of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.

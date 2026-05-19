@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-128acc5db0eb-P0052-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md
+converted_sha256: 128acc5db0eb9f1dd235d9c444e9012690e898e9168f3cb2238caaecc127ddc6
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json
+page_start: 52
+page_end: 52
+part: 1
+---
+
+# Page 52
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json`
+- Source page: 52
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0052.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 3
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Myrtle Stedmnn, la bêlai art riz de cine que acaba de lanzar en Cinelanclia la moda del ··Traie de Muneca s', todas las art 1st as de Hollywood estân comprando trajes semejante s. La bella .artriz estrenarA este traie en la prOxima pellenla 'Flaihlng Youth'.
+
+<!-- image -->
+
+<!-- image -->
+
+IX) QUE TIENE Y LO QUE NO TIENE POLA
+
+Cl ADA vez que la pantalla refleja la figura de Pola Negri en una nue-/ va obra, me afirmo con mayor fuerza en mi convencimiento de que Pola Negri, lejos de ser la actriz genial por la que los criticos yanquis-y algunos nuestros un poco mâs humildes-la tienen, es una mala intérprete, de expresiôn vulgar y fea y del mâs falso ademân.
+
+Es en esta su primera pelfcula hecha en los Estados Unidos, que la brinda un argumento de un romanticismo imbécil, en donde, en la carencia de verdaderas situaciones se manifiesta mâs olaro que nun¬ ca lo que falta a Pola Negri.
+
+Porque Pola hace y harâ siempre lo mismo: para expresar ese cansancio, ese ahurrimiento en que la sume el fervoroso, plâcido amor de su marido, tendrâ manana, como tiene hoy en 'Bella Donna', un gesto inexpreslvo, 'standard', volviendo los ojos hacla arriba; el mismo gesto inexpreslvo que pondria una afielonada sin talento, cualquiera senorita que hubie- se triunfado en un concurso popular. Pola tendrâ siempre, como tuvo ayer y como lo tiene hoy, el ademân falso de sus falsos personajes y de su falsa feminidad: el estüpido rictus de los labios, el mâs inocente recurso de todas las novicias; el estiramiento de los brazos, la primera idea que ocurre a una mala intérprete en su deseo de expresar dolor o repulsiôn o cual¬ quiera de todos los sentimientos que abundan en el mundo y que el senor director tenga a bien indicarle.
+
+Robert E. Sherwood clama contra su3 compatriotas porque 'han pervertido a Pola', porque 'la han robado de su per¬ sonalidad'. De esa personalidad que ellos resumen en dos palabras: su 'continen¬ tal flavor'. Y no es Robert E. Sherwood el ûnico que eleva su voz quejumbrosa y de protesta por esta transformaciôn 'nicua de que Jesse L. Lasky ha hecho victlma a Pola Negri; tamblén los otros respetables sefiores que escriben en los periôdicos lloran porque se ha traido a los Estados Unidos a la actriz polaca a filmar 'Bella Donna', 'The Cheat' y lo que siga.
+
+Pero Robert E. Sherwood y sus cole- gas no se han dado cuenta de que Pola no se ha echado a perder en los 'studios" de Los Angeles. Pola es la misma ahora que lo era ayer; es inütil exigirle lo que no ha tenido nunca. Pola no es una intérprete del cine; la falta verdad. Y hasta la falta expresiôn; porque aim siendo fal¬ sa, su expresiôn no es lo bastante vigorosa para admirarla siquiera como una mujer de imaginaciôn. No ha perdido Pola Negri, amigos. En cambio, encontramos que ha ganado en juventud y en belleza La Pola Negri de 'Bella Donna' es mâs joven y mâs bella que la Pola de 'El Ca¬ rrousel de la Vida'.
+
+<!-- image -->
+
+Lo que la han visto los püblicos, lo que les atrae en ella, son sus ojos sensuales, su groseria cinica, su descaradamente prostituida personalidad. Es también eso lo que la han visto los criticos yanquis; lo que no encuentran en sus mujeres, o mâs sencillas, o mâs ingenuamente atrevidas. Los criticos yanquis, como nuestras muchachillas y nuestras solteronas, se han quedado embobados ante Po¬ la Negri desde que el apasionado Luis XVI de Emil Jannings en 'Madame Dubarry' la besara el pie desnudo. Gesto que habrâ constituido para ellos como para ellas, el colmo de la desvergüenza.
+
+Es inütil buscar en Pola Negri otra cosa. Es sdlo un espejismo. Lo que es apenas una visiôn de grosera sensualidad, adquiere para los criticos ingenuos y para las agrias solteronas de cuarenta afios, rasgos de gesto genial. Pero es necesario ver lo que en verdad hay en el fondo de eso. La cosa no es tan dificil como pudiera pareeerles. No hace falta mâs de un poco de buena voluntad. Los criticos yan¬ quis habrân de desterrar la influencia que tiene para ellos el hecho de que Pola es polaca y se atreve a hacer lo que sus mujeres no se atreverian nunca a hacer, por¬ que no estâ dentro de su espiritu y ni siquiera dentro de su cuerpo. Y nuestras muchachitas, como nuestras viejas solteronas y las muchachitas de los Estados Unidos, tendrân que sacudirse del embobamiento en que las sume Pola Negri por¬ que asume aspectos de mujer diferente, be-: lia, exôtica, atrevida. Tendrân que reir de la groseria cinica, de la estüpida sensua¬ lidad de Pola Negri, que ahora despierta toda su admiraciôn. Los criticos como todas esas muchachitas, deberân darse cuen-
+
+(Sigue en la pAgina 69)
+```
+
+## Images, Captions, And Visual Notes
+
+- Myrtle Stedmnn, la bêlai art riz de cine que acaba de lanzar en Cinelanclia la moda del ··Traie de Muneca s', todas las art 1st as de Hollywood estân comprando trajes semejante s. La bella .artriz estrenarA este traie en la prOxima pellenla 'Flaihlng Youth'.: ![Myrtle Stedmnn, la bêlai art riz de cine que acaba de lanzar en Cinelanclia la moda del ··Traie de Muneca s', todas las art 1st as de Hollywood estân comprando trajes semejante s. La bella .artriz estrenarA este traie en la prOxima pellenla 'Flaihlng Youth'.](../extracted-images/page-0052/page-0052-docling-image-01.png)
+- Docling extracted picture image 2: ![Docling extracted picture image 2](../extracted-images/page-0052/page-0052-docling-image-02.png)
+- Docling extracted picture image 3: ![Docling extracted picture image 3](../extracted-images/page-0052/page-0052-docling-image-03.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 3.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+- Task id: `source-prep:ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75:p0053`
+- Page: 53
+
+## Layout And Reading Order
+The page is a single column of text with a large central image that splits the text into two columns around it. The top of the page features a collage of mastheads and headlines from various newspapers. The reading order is as follows:
+
+1.  The collage of newspaper mastheads and articles at the top of the page, read from left to right, top to bottom.
+2.  The main article title, "El Periodismo en la Baja California".
+3.  The left column of the main article, beginning with a large decorative "Q".
+4.  The page number "52" at the bottom of the left column.
+5.  The central image and its caption.
+6.  The right column of the main article.

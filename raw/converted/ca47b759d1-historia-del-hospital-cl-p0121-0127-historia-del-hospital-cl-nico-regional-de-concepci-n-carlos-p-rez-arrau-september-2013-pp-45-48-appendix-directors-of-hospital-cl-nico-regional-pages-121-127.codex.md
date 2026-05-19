@@ -184,76 +184,73 @@ All text content on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 124
+
 ## Page Metadata
-- Page number: 124
+
+- Source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
+- Source SHA-256: `47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da`
+- Conversion manifest: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/manifest.json`
+- Source page: 124
+- Page image: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0121-0127-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-121-127/page-images/page-0124.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a single column of text. It begins with a page number in the top left, followed by a main title, an introductory paragraph, a sub-title, and then six paragraphs of narrative text. The last paragraph appears to be cut off at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-124
 
-LAS TÚNICAS VERDES Y LAS TÚNICAS BLANCAS.
+```markdown
+## LAS TÚNICAS VERDES Y LAS TÚNICAS BLANCAS.
 
-Entre tanto dato histórico en relación a nuestro Hospital, me permito transcribir una
-curiosa historia acontecida años ha, que me ha hecho llegar el funcionario del establecimiento
-que lleva el mismo nombre del novelista francés: Alejandro Dumas. He aquí el relato:
+Entre  tanto  dato  histórico  en  relación  a  nuestro  Hospital,  me  permito  transcribir  una curiosa historia acontecida años ha, que me ha hecho llegar el funcionario del establecimiento que lleva el mismo nombre del novelista francés:  Alejandro Dumas.  He aquí el relato:
 
-“BREVE Y DRAMÁTICO RELATO DE LA TÚNICA VERDE”.
+## 'BREVE Y DRAMÁTICO RELATO DE LA TÚNICA VERDE'.
 
-*En la Torre del Olimpo existieron amplias y complejas instalaciones llamadas pabellones
-o cenáculos. Estaban llenos de artilugios e instalaciones diversas. Las deidades distraían su
-ocio matinal en estos hiperacondicionados lugares; cumplían con algunas ritualidades
-nosománticas y discurrían el resto de su tiempo decidiendo sobre el destino de los mortales.
-Según los rígidos codicilos de la época, los moradores de estos lugares debían usar en forma
-obligada TÚNICA DE COLOR VERDE, la que debían quitarse al salir del divino recinto. Su
-contrapartida eran los dioses de túnica blanca, que podían circular por todas las demás
-dependencias del Olimpo, menos por los pabellones.*
+En la Torre del Olimpo existieron amplias y complejas instalaciones llamadas pabellones o  cenáculos.  Estaban  llenos  de  artilugios  e  instalaciones  diversas.  Las  deidades  distraían  su ocio matinal en estos hiperacondicionados lugares; cumplían con algunas ritualidades nosománticas  y  discurrían  el  resto  de  su  tiempo  decidiendo  sobre  el  destino  de  los  mortales. Según los rígidos codicilos de la época, los moradores de estos lugares debían usar en forma obligada Túnica dE COLOr vErdE ,  la  que  debían  quitarse  al  salir  del  divino  recinto. Su contrapartida eran los dioses de túnica blanca, que podían circular por todas las demás dependencias del Olimpo, menos por los pabellones.
 
-*Esta diferenciación, si bien por un lado ponía coto a la libre circulación, llevó a frecuentes
-roces por amojonamiento territorial entre las deidades DE TÚNICA VERDE, vs. los que la lucían de
-color blanco. Muy comentada fue, por ejemplo, la disputa por un lugar de privilegio en el
-aparcamiento de carruajes, protagonizada por el jefe de los de TÚNICA VERDE cuando un túnica
-blanca lo quiso desplazar desdeñosamente de su estacionamiento. El incidente fue de tales
-proporciones que se ventiló en palacio y llegó a oídos del mismísimo Zeus, quien resolvió a favor
-del primero.*
+Esta diferenciación, si bien por un lado ponía coto a la libre circulación, llevó a frecuentes roces por amojonamiento territorial entre las deidades dE  Túnica  vErdE, vs. los que la lucían de color  blanco. Muy  comentada  fue,  por  ejemplo,  la  disputa  por  un  lugar  de  privilegio  en  el aparcamiento de carruajes, protagonizada por el jefe de los de Túnica  vErdE cuando un túnica blanca  lo  quiso  desplazar  desdeñosamente  de  su  estacionamiento.  El  incidente  fue  de  tales proporciones que se ventiló en palacio y llegó a oídos del mismísimo Zeus, quien resolvió a favor del primero.
 
-*Esas mismas crónicas coinciden en señalar que la esplendidez de la TÚNICA VERDE tuvo
-tales efectos que sus influjos benéficos llegaron a favorecer, incluso, al personal de servicios
-menores. Así era tal la valía, tal la dignidad y tal la apostura clásica estatuaria que adquirían los
-detentores de tan magníficas prendas que, independientemente de cuáles fueran sus
-valimientos, - dioses, semidioses o simples mortales -, o tal su apariencia física – prototipo
-caucásico, perfil estereotipado griego o totémico americano -, que hacía que los que de esta laya
-lucían, mirasen con aire sempiterno y altanero a quienes no se mostraren ataviados con tan
-magnífica indumentaria.*
+Esas mismas crónicas coinciden en señalar que la esplendidez de la Túnica vErdE tuvo tales  efectos  que  sus  influjos  benéficos  llegaron  a  favorecer,  incluso,  al  personal  de  servicios menores. Así era tal la valía, tal la dignidad y tal la apostura clásica estatuaria que adquirían los detentores de tan magníficas prendas que, independientemente de cuáles fueran sus valimientos,  -  dioses,  semidioses  o  simples  mortales  -,  o  tal  su  apariencia  física  -  prototipo caucásico, perfil estereotipado griego o totémico americano -, que hacía que los que de esta laya lucían,  mirasen  con  aire  sempiterno  y  altanero  a  quienes  no  se  mostraren  ataviados  con  tan magnífica indumentaria.
 
-*Así, la democracia olímpica adquirió un carácter aristócrata que hizo que se perdiera la
-armonía entre las deidades. Esto dio leso motivo para que los gremios olímpicos protestaran
-porque había dioses que según el color de su indumentaria tenían más derechos que otros.
-Paralelamente, agregan los escritos, los dicterios de la moda olímpica impusieron que la TÚNICA
-VERDE, y por asimilación todas las prendas de ese color, pasaran a tener gran abundancia y
-diversidad de usos, llegando a convertirse en una verdadera panacea al interior del palacio.*
+Así, la democracia olímpica adquirió un carácter aristócrata que hizo que se perdiera la armonía  entre  las  deidades.  Esto  dio  leso  motivo  para  que  los  gremios  olímpicos  protestaran porque  había  dioses  que  según  el  color  de  su  indumentaria  tenían  más  derechos  que  otros. Paralelamente, agregan los escritos, los dicterios de la moda olímpica impusieron que la  Túnica vErdE ,  y  por  asimilación  todas  las  prendas  de  ese  color,  pasaran  a  tener  gran  abundancia  y diversidad de usos, llegando a convertirse en una verdadera panacea al interior del palacio.
 
-*Quiso el cruel destino que la fácil disposición y general aplicación de esta prenda
-degenerara su uso. Época hubo que fueron usadas para estar “in” o a la moda, para romper filas
-en casinos y bancos, cubrir los alimentos, protegerse para pintar, secarse en los baños públicos,
-secar el arsenal nosomántico, limpiar y trapear superficies y pisos marmóreos, etc.*
+Quiso  el  cruel  destino  que  la  fácil  disposición  y  general  aplicación  de  esta  prenda degenerara su uso. Época hubo que fueron usadas para estar 'in' o a la moda, para romper filas en casinos y bancos, cubrir los alimentos, protegerse para pintar, secarse en los baños públicos, secar el arsenal nosomántico, limpiar y trapear superficies y pisos marmóreos, etc.
 
-*De esta manera, la gran popularidad adquirida por esta vestimenta fue el corolario de su
-propio fin. El uso nosomántico quedó relegado a un tercer plano. Su escasez llegó a tal extremo
-que originó situaciones críticas en palacio: ¡¡no había indumentaria verde, por lo tanto los dioses*
+De esta manera, la gran popularidad adquirida por esta vestimenta fue el corolario de su propio fin. El uso nosomántico quedó relegado a un tercer plano. Su escasez llegó a tal extremo que originó situaciones críticas en palacio: ¡¡no había indumentaria verde, por lo tanto los dioses
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph is incomplete as it is cut off at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 125

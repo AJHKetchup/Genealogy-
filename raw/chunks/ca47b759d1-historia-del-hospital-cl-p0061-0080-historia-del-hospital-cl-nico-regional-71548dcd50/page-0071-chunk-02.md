@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-a37b6e8914e3-P0071-02
+chunk_id: CHUNK-fdffdc11bc51-P0071-02
 source_converted: raw/converted/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex.md
-converted_sha256: a37b6e8914e3c14f8ec6ea6b6db37eb286f4131c26ab03487a6c6060de973c60
+converted_sha256: fdffdc11bc519c10cadc492c8ab60954212ba17cfcbdbc183bd2ed09f835e596
 source: raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf
 source_sha256: 47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da
 source_manifest: raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80/manifest.json
@@ -130,78 +130,3 @@ The transcription is complete and accurate for all visible text on the page. The
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page contains no images, captions, or other substantial visual elements."}
 ```
-
-## Page Metadata
-- Page number: 76
-
-## Layout And Reading Order
-The page consists of a single column of text. The page number "76" is in the top left corner. The main content is a series of paragraphs, some of which are direct quotes, describing events related to a hospital during and after an earthquake.
-
-## Literal Transcription
-rápido, pero todo se fue dando de manera normal; nacieron sin ningún problema (...) y fueron
-dadas de alta al día siguiente”.
-
-“(...) las otras pacientes fueron evacuadas vestidas o con frazadas a los
-estacionamientos, gracias a las matronas y paramédicos de la sección, con ayuda de los internos
-de Medicina. Las fuertes réplicas que se sucedían, sumado a la falta de suministros básicos y
-mala comunicación, aumentaba la angustia, pero logramos salir airosos gracias al trabajo de
-todo el personal de turno ese día”.
-
-“En las horas siguientes, concurrieron al Hospital el Jefe de Servicio Gonzalo Cuevas y el
-Jefe de Pediatría Jaime Tapia, quienes querían conocer la situación, evaluar daños y trazar el
-plan a seguir. De esta forma, a quienes seguían trabajando en el Hospital, con la angustia de no
-saber nada de sus familiares y amigos, se sumaban nuevas personas que ponían en riesgo sus
-propias vidas para salvar la de los demás”
-
-La prensa de esos días informó con grandes titulares los daños materiales del megasismo
-que ocurrió en la ciudad, y también del “terremoto social” (saqueos a gran escala por gente de
-todos los niveles...), saliendo a nivel nacional e internacional esta mancha negra del
-comportamiento de ciertos grupos de chilenos. Pero no todo fue tan negro: en esos días se
-vieron gestos de solidaridad que pocos conocieron y que no ocuparon las principales portadas de
-los diarios.
-
-Otro relato en relación al terremoto lo hace la funcionaria Patricia Beltrán en el Boletín del
-Hospital Guillermo Grant Benavente del 1 de Abril 2010: Ella estaba sola en la Central Telefónica
-ubicada en el sexto piso de la Torre cumpliendo con su turno de noche “respondiendo un llamado
-del Hospital de Los Ángeles cuando todo empezó a moverse. Intenté pararme, pero me caí. El
-escritorio se desplazó hasta la puerta y me dejó atrapada. Recuerdo el ruido del terremoto y el de
-los equipos de Informática cayendo al suelo. Yo estaba sola y a oscuras en el sexto piso de la
-Torre. Después subieron los guardias a rescatarme y yo estaba muy angustiada. Me llevaron a la
-Urgencia donde estaba la Directora del Hospital que me dijo: “Patricia, hay mucho que hacer,
-cooperemos en lo que podamos”. Entonces ayudé a evacuar a los enfermos de Urgencias y
-después me quedé acompañando a un paciente en el área de Estacionamiento”.
-
-En el mismo Boletín se alude a dos mujeres, Ruth Troncoso y Sandra Soto, las primeras
-voluntarias en ponerse a disposición y a ellas les siguieron profesionales de la salud y otras
-áreas, estudiantes universitarios, estudiantes de Enseñanza Media, ciudadanos extranjeros y
-muchos funcionarios del Hospital, que al ver paralizadas sus funciones habituales, no dudaron en
-permanecer días y noches trasladando enfermos, asistiendo en Urgencias, en Archivo,
-Lavandería o Alimentación, e incluso amasando y cociendo el pan para los enfermos.
-
-En la cuenta pública sobre la gestión de 2010 que rinde el Dr. Boris Oportus, Director del
-Hospital, hace un reconocimiento muy especial a la labor de Bomberos, Carabineros, Ejército,
-Essbío y Radio Bío Bío, por la estrecha colaboración que tuvieron inmediatamente de ocurrido el
-terremoto. Pero también hubo personas particulares que se acercaron al hospital a entregar su
-valiosa ayuda, y citó algunos ejemplos:
-
-“El Sr. Héctor Zapata Bustos : Se presentó en la mañana del sábado 27 de Febrero en el
-Hospital y ofreció su panadería y los insumos necesarios para fabricar 60 kilos de pan diarios
-para alimentación de los pacientes de este hospital. Desde esa mañana, y a diario por varios
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph is cut off at the bottom of the page.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-
-## Page Metadata
-Page number: 77
-
-## Layout And Reading Order
-The page consists of a single column of text. The page number "77" is at the top left. The content begins with a paragraph, followed by a block quote, another paragraph, and then a section heading "27. LA EX BIBLIOTECA DEL HOSPITAL" which is underlined. The rest of the page continues with several paragraphs, including another block quote, all in a single column.

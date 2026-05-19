@@ -487,78 +487,59 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 9
+
 ## Page Metadata
-- Page number: 9
+
+- Source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
+- Source SHA-256: `47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da`
+- Conversion manifest: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json`
+- Source page: 9
+- Page image: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/page-images/page-0009.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with the page number "9" in the top left corner. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-9
 
-La sangría, citando a Ferrer, “era aplicada a troche y moche, sin obedecimiento a reglas
-(...) tanto en la fiebre como en las anemias, en las apoplejías como en los tísicos, en los partos
-como en los síncopes, en los heridos como en las convalescencias, tanto en los ancianos como
-en los niños, sin tasa ni medida, pues si una sangría no bastaba para aparentar alivio, se
-seguían otras y otras, hasta dejar al pobre paciente exangüe y exánime”.
+```markdown
+La sangría, citando a Ferrer, ' era aplicada a troche y moche, sin obedecimiento a reglas (…) tanto en la fiebre como en las anemias, en las apoplejías como en los tísicos, en los partos como en los síncopes, en los heridos como en las convalescencias, tanto en los ancianos como en  los  niños,  sin  tasa  ni  medida,  pues  si  una  sangría  no  bastaba  para  aparentar  alivio,  se seguían otras y otras, hasta dejar al pobre paciente exangüe y exánime'. También  hace  su  aporte  en  ese  sentido  don  Benjamín  Vicuña  Mackena:  la  sangría 'usábase  en  todos  los  casos  este  método  que  pobló  los  cementerios  de  Chile  de  escuálidos cadáveres'. Don Benjamín, como historiador, tuvo la oportunidad de ver el original de una carta dirigida por don Juan de la Cerda a su padre el 30 de Noviembre de 1702: ' muy mala ha estado doña María - escribía de su esposa un gran abogado de Santiago a su padre en 1702 - y a mí me ha tenido con gran cuidado, y hoy se ha reconocido mejoría con la sangría de los brazos que ayer se le dio una y hoy otra por no haberla aprovechado dos que se le hicieron en los tobillos '. ¡Cuatro sangrías en 24 horas! Y, ¿cómo serían ellas y la hercúlea dama que las soportó y quedó con sangre y con vida?. El año 1565 fue muy especial para Concepción. Es bueno que recordemos o  sepamos que nuestra ciudad ostenta con orgullo el honor de haber sido la ciudad donde se constituyó el primer  Alto  Tribunal  de  Justicia,  denominado  Real  Audiencia.        Esto  fue  el  27  de  Agosto de 1565. A esta institución, que estuvo aquí hasta 1563, le correspondía el gobierno de todo el Reino de Chile. Luego de una decena de gobernadores, llega don Alonso de Rivera. Basándonos en lo que  nos  cuenta  don  Carlos  Oliver  en  su  libro  'Libro  de  Oro  de  la  Historia  de  Concepción', podemos señalar que don Alonso de Rivera era aficionado al lujo y a la vida alegre, y   llevaba una vida licenciosa que causaba escándalo en toda la población. Un  buen  día  de  1602,  el  Gobernador  contrajo  matrimonio  con  la  joven  y  linda  Inés Fernández  de  Córdova  y  Aguilera. Por precipitación u olvido, don  Alonso no pidió el consentimiento al Rey, como era de rigor, y este olvido le costó más tarde su alto puesto. Cuentan los cronistas  de  la  época  que,  como habían  sido  tantas  las  diabluras  de  este simpático  y  alegre  gobernador,  y  vuelto  ya  a  una  vida  ordenada  y  religiosa,  en  pago  de  sus pecados  decidió  reedificar y restablecer el hospital,  que  fue  su  regalo  de bodas para Concepción, incluyendo dotación de 30 camas, de medicina, de cirujano, mayordomo, sacerdote y servidumbre. Para su mantención le regaló una viña y mil ovejas. En una carta especial que dirige al Rey el gobernador  Alonso de Rivera, le dice: '…..ay un  hospital  que  cuando  yo  llegué  aquí  estaba  por  el  suelo,  (por  el  terremoto  de  1570)  casi perdida la memoria del y de las haciendas que tenía y yo lo he comenzado a levantar y e puesto en él casas, medicina y lo necesario para curar la gente aun que tiene gran falta de que entienda la cura de los enfermos y lo propio es en todo el reino, porque no hay ningún doctor en medicina en él' ( Según  dice  Víctor  Hugo  Figueroa  en  su  libro,  este  hospital  se  construyó  en  un  solar ubicado próximo al estero y cerca de la playa, en lo que hoy sería calle Penco, entre Freire y la prolongación de Cochrane, detrás de 'La Planchada'. ) Así  es  que,  gracias  a  los  pecados  y  diabluras  cometidas  por  Alonso  de Rivera en su juventud, Concepción tuvo su primer hospital.   Este se construye en 1616, y se
 
-También hace su aporte en ese sentido don Benjamín Vicuña Mackena: la sangría
-“usábase en todos los casos este método que pobló los cementerios de Chile de escuálidos
-cadáveres”. Don Benjamín, como historiador, tuvo la oportunidad de ver el original de una carta
-dirigida por don Juan de la Cerda a su padre el 30 de Noviembre de 1702: “_muy mala ha estado
-doña María – escribía de su esposa un gran abogado de Santiago a su padre en 1702 – y a mí
-me ha tenido con gran cuidado, y hoy se ha reconocido mejoría con la sangría de los brazos que
-ayer se le dio una y hoy otra por no haberla aprovechado dos que se le hicieron en los tobillos_”.
-¡Cuatro sangrías en 24 horas! Y, ¿cómo serían ellas y la hercúlea dama que las soportó y quedó
-con sangre y con vida?.
-
-El año 1565 fue muy especial para Concepción. Es bueno que recordemos o sepamos
-que nuestra ciudad ostenta con orgullo el honor de haber sido la ciudad donde se constituyó el
-primer Alto Tribunal de Justicia, denominado Real Audiencia. Esto fue el 27 de Agosto
-de 1565. A esta institución, que estuvo aquí hasta 1563, le correspondía el gobierno de todo el
-Reino de Chile.
-
-Luego de una decena de gobernadores, llega don Alonso de Rivera. Basándonos en lo
-que nos cuenta don Carlos Oliver en su libro “Libro de Oro de la Historia de Concepción”,
-podemos señalar que don Alonso de Rivera era aficionado al lujo y a la vida alegre, y llevaba
-una vida licenciosa que causaba escándalo en toda la población.
-
-Un buen día de 1602, el Gobernador contrajo matrimonio con la joven y linda Inés
-Fernández de Córdova y Aguilera. Por precipitación u olvido, don Alonso no pidió el
-consentimiento al Rey, como era de rigor, y este olvido le costó más tarde su alto puesto.
-
-Cuentan los cronistas de la época que, como habían sido tantas las diabluras de este
-simpático y alegre gobernador, y vuelto ya a una vida ordenada y religiosa, en pago de sus
-pecados decidió reedificar y restablecer el hospital, que fue su regalo de bodas para
-Concepción, incluyendo dotación de 30 camas, de medicina, de cirujano, mayordomo, sacerdote
-y servidumbre. Para su mantención le regaló una viña y mil ovejas.
-
-En una carta especial que dirige al Rey el gobernador Alonso de Rivera, le dice: “_....ay
-un hospital que cuando yo llegué aquí estaba por el suelo, (por el terremoto de 1570) casi
-perdida la memoria del y de las haciendas que tenía y yo lo he comenzado a levantar y e puesto
-en él casas, medicina y lo necesario para curar la gente aun que tiene gran falta de que entienda
-la cura de los enfermos y lo propio es en todo el reino, porque no hay ningún doctor en medicina
-en él_”
-
-(Según dice Víctor Hugo Figueroa en su libro, este hospital se construyó en un solar
-ubicado próximo al estero y cerca de la playa, en lo que hoy sería calle Penco, entre Freire y la
-prolongación de Cochrane, detrás de “La Planchada”.)
-
-Oliver dice: “_Así es que, gracias a los pecados y diabluras cometidas por Alonso de
-Rivera en su juventud, Concepción tuvo su primer hospital. Este se construye en 1616, y se
-llamó Hospital Real de Nuestra Señora de la Misericordia_”. (Sin embargo, es evidente que
+Oliver  dice:  ' llamó  Hospital  Real  de  Nuestra  Señora  de  la  Misericordia'. (Sin  embargo, es  evidente  que
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or visual elements other than text.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed. The last paragraph appears to be cut off at the bottom of the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no images or visual elements other than text."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 10
@@ -847,78 +828,69 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 14
+
 ## Page Metadata
-- Page number: 14
+
+- Source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
+- Source SHA-256: `47b759d1532f12fd7ddaa72d37254664a95fd7b2f2b8ddbe209c2409bbe5d5da`
+- Conversion manifest: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/manifest.json`
+- Source page: 14
+- Page image: `raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/page-images/page-0014.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with the page number "14" in the top left corner. The text is organized into several paragraphs, presenting historical information.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-14
 
-El 8 de Julio de 1730 sobreviene un nuevo terremoto con salida de mar, que termina por
-destruirlo totalmente. Oliver dice en su libro: “Se retiró el mar de su nivel común, para volver
-en 3 gigantescas olas destructoras, a arruinar completamente la antigua Concepción. Tenía
-Concepción en ese entonces más de 200 casas, que fueron más arruinadas por el agua que por
-el remezón”.
+```markdown
+El 8 de Julio de 1730 sobreviene un nuevo terremoto con salida de mar, que termina por destruirlo totalmente.    Oliver dice en su libro: ' Se retiró el mar de su nivel común, para volver en  3  gigantescas  olas  destructoras,  a  arruinar  completamente  la  antigua  Concepción.  Tenía Concepción en ese entonces más de 200 casas, que fueron más arruinadas por el agua que por el remezón'.
 
-Veintiun años más tarde, siendo Gobernador de Chile don Domingo Ortiz de Rozas,
-ocurre el terrible terremoto, seguido de maremoto, del 25 de Mayo de 1751, que sería de gran
-trascendencia para el futuro de Concepción.
+Veintiun  años  más  tarde,  siendo  Gobernador  de  Chile  don  Domingo  Ortiz  de  Rozas, ocurre el terrible terremoto, seguido de maremoto, del 25 de Mayo de 1751, que sería de gran trascendencia para el futuro de Concepción.
 
-En el libro “Plazas de Concepción”, de Bernardo Rebolledo y Karen Sánchez, aparece un
-corto relato sobre el terror de los penquistas en esa ocasión: “A la una de la mañana tembló de
-nuevo, y poco después sobrevino el terremoto, que solo de oír los bramidos que la tierra daba,
-apenas había quien se estuviera fuera de sí. Al terror cerval se unió la seguridad de la salida del
-mar, agravada esta vez porque muchos infelices estaban aprisionados entre los escombros. Los
-más animosos no creían llegar a mañana”.
+En el libro 'Plazas de Concepción', de Bernardo Rebolledo y Karen Sánchez, aparece un corto relato sobre el terror de los penquistas en esa ocasión: 'A la una de la mañana tembló de nuevo, y poco después sobrevino el terremoto, que solo de oír los bramidos que la tierra daba, apenas había quien se estuviera fuera de sí. Al terror cerval se unió la seguridad de la salida del mar, agravada esta vez porque muchos infelices estaban aprisionados entre los escombros. Los más animosos no creían llegar a mañana'.
 
-Por su parte el penquista, historiador y sacerdote jesuita Felipe Gómez de Vidaurre (1748-
-1818), citado por Fernando Campos Harriet en su libro, dice: “Cuasi toda la parte austral del reino
-quedó destrozada. La Concepción pereció casi toda, porque lo que no derribó el temblor lo echó
-a tierra el mar, que a pocas horas, bañó toda la ciudad. Los habitantes (...) empezaron a clamar
-por mudarse a otro sitio e que se considerasen por lo menos libres de ese elemento. El
-Gobernador (...) vió por sí mismo todos los lugares que le proponían (...) y para no dejar
-descontentos, ordenó que en Cabildo Abierto, cada uno diese su voto por uno de estos tres y
-aquel que saliese con más, ése había de ser. Los lugares fueron: la Loma de la Parra
-(correspondía al sector de Punta de Parra, cercano a Tomé); el Llano de Landa (un sector al sur
-de Penco), y el Valle de la Mocha, entre los ríos Andalién y Bío Bío.”
+Por su parte el penquista, historiador y sacerdote jesuita Felipe Gómez de Vidaurre (17481818), citado por Fernando Campos Harriet en su libro, dice: ' Cuasi toda la parte austral del reino quedó destrozada.   La Concepción pereció casi toda, porque lo que no derribó el temblor lo echó a tierra el mar, que a pocas horas, bañó toda la ciudad. Los habitantes (…) empezaron a clamar por  mudarse  a  otro  sitio  e  que  se  considerasen  por  lo  menos  libres  de  ese  elemento.  El Gobernador  (…)  vió  por  sí  mismo  todos  los  lugares  que  le  proponían  (…)  y  para  no dejar descontentos, ordenó que en Cabildo Abierto, cada uno diese su voto por uno de estos tres y aquel  que  saliese  con  más,  ése  había  de  ser.  Los  lugares  fueron:  la  Loma  de  la  Parra (correspondía al sector de Punta de Parra, cercano a Tomé); el Llano de Landa ( un sector al sur de Penco) , y el Valle de la Mocha, entre los ríos Andalién y Bío Bío.'
 
-Luego de varias sesiones del Cabildo de Concepción para pronunciarse sobre el sitio a
-elegir para la nueva ubicación, el Gobernador Ortiz de Rozas dicta el 25 de Diciembre de 1751
-el histórico Bando (extraído del “Libro de Oro de Concepción”) en que elegía “usando de tal
-facultad que le compete, el lugar de La Mocha, para que se funde y establezca la nueva ciudad
-de La Concepción”.
+Luego de varias sesiones del Cabildo de Concepción para pronunciarse sobre el sitio a elegir para la nueva ubicación, el Gobernador Ortiz de Rozas dicta   el 25 de Diciembre de 1751 el  histórico  Bando  (extraído  del  'Libro  de  Oro  de  Concepción')  en  que  elegía 'usando  de  tal facultad que le compete, el lugar de La Mocha, para que se funde y establezca la nueva ciudad de La Concepción'.
 
-Quien se opuso tenazmente a este proyecto de traslado fue el sacerdote, abogado y
-Obispo, don José de Toro y Zambrano Ureta (tío del joven Mateo de Toro y Zambrano Romo,
-Conde de la Conquista, unos 50 años menor), calificando a este valle de “enfermísimo por la
-mucha humedad, las continuas nieblas, por ser un lugar bajo y circunvalado de lagunas en que
-se crían varias sabandijas”. En carta el Rey, del 2 de Febrero de 1752, escribe: “se trata de
-mudar la situación de esta ciudad (...) en un lugar nombrado La Mocha, situado entre dos ríos,
-(...), lugar de arenas, falto de agua, muy húmedo y casi imposible de que en él puedan pasar los
-pobres vecinos el invierno por la inopia grande en que han quedado”.
+Quien  se  opuso  tenazmente  a  este  proyecto  de  traslado  fue  el  sacerdote,  abogado  y Obispo, don José de Toro y Zambrano Ureta (tío del joven Mateo de Toro y Zambrano Romo, Conde de la Conquista, unos 50 años menor), calificando a este valle de  ' enfermísimo por la mucha humedad, las continuas nieblas, por ser un lugar bajo y circunvalado de lagunas en que se  crían  varias  sabandijas '.  En  carta  el  Rey,  del  2  de  Febrero  de  1752,  escribe:  ' se  trata  de mudar la situación de esta ciudad (…) en un lugar nombrado La Mocha, situado entre dos ríos, (…), lugar de arenas, falto de agua, muy húmedo y casi imposible de que en él puedan pasar los pobres vecinos el invierno por la inopia grande en que han quedado'.
 
-Otras razones que daba el Obispo para oponerse era que “era necesario atravesar el
-Andalién para ir a La Mocha; que en la nueva ciudad escaseaba el agua para el sustento;
-que el puente que se construyó sobre el Andalién más tarde era malo”. Fue tal la oposición
-del Obispo al traslado de Concepción, que llegó a amenazar con la excomunión a los que
-violentaban a los ciudadanos a irse a La Mocha. Tuvo que intervenir la Real Audiencia, presidida
-por Martínez de Rozas, para que el Obispo desistiera de esta amenaza.
+Otras  razones  que  daba  el  Obispo  para  oponerse  era  que  ' era  necesario  atravesar  el Andalién  para  ir  a  La  Mocha;  que  en  la  nueva  ciudad  escaseaba  el  agua  para  el  sustento; que el puente que se construyó sobre el Andalién más tarde era malo', etc. Fue tal la oposición del  Obispo  al  traslado  de  Concepción,  que  llegó  a  amenazar  con  la  excomunión  a  los  que violentaban a los ciudadanos a irse a La Mocha. Tuvo que intervenir la Real Audiencia, presidida por Martínez de Rozas, para que el Obispo desistiera de esta amenaza.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 15

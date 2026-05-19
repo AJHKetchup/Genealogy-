@@ -1,0 +1,217 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-128acc5db0eb-P0071-01
+source_converted: raw/converted/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75.codex.md
+converted_sha256: 128acc5db0eb9f1dd235d9c444e9012690e898e9168f3cb2238caaecc127ddc6
+source: raw/sources/S495-2-2.pdf
+source_sha256: 9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027
+source_manifest: raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json
+page_start: 71
+page_end: 71
+part: 1
+---
+
+# Page 71
+
+## Page Metadata
+
+- Source: `raw/sources/S495-2-2.pdf`
+- Source SHA-256: `9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027`
+- Conversion manifest: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/manifest.json`
+- Source page: 71
+- Page image: `raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0071.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 2
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+
+## Un Aspecto Desconocido de....
+
+. (Signe de la piïgina 27)
+
+-Sf, es indispensable. Yo exijo que sea original.
+
+-Va de anéedotas, pues, ya que la m.âlsana curiosidad del publico nos exije m poco de indiscreciôn. Titulo de ia,. aventu¬ ra.: El milagro dinâmico de una cita de attior. Después de d'ar un concierto en Montevideo, traté de embarcarme e$a misma noche en el ünico vapqr que zarpa diâriamente, a las diéz ' de la noche, para Buenos Aires, donde tenia urgencia de arribar. El entusiasmo del püblico me liizo perder el vapor. Entonces contraté un remolcador para alcanzarlo; pero todo fus en vano. Desesperado, mohino, acudi en demanda de auxilio a mi buen amigo Nogueira, que a la sazôn trabajaba en '.'El Dfa', de Montevideo. Séria la una de la mairugada cuando.riniciamos una sérié de gestiones encaminâdas a contratar un aeroplano. Despertamos al Présidente de la Repübli'Ca. al Miniatro de la Guerra y al Director de los Talleres de Aviaciôn. ; El debèr que tiraniza,!.. . .-comeritaban admirados-. Y' yo. atormentado con la ob.sesiûn de una informalidad inexplicable, pensaba en silencio: 'iOh, Rubinstein, como te esçlaviza ,el ajnor, de una,nujer, cuando es'bella 'y-se a"ellida Bezzanzoni:'
+
+Nogueira se entusiasma. Narra aquel viaje fantàstico en un aviôn que atravesd el mar de noche. para llevar al pianis'a a una cita'de amor. . a la eterna cita que obsesiona el temperamento de este ar+ista admirable, cuya vida gira en .torno de la mujer.
+
+XXX
+
+Ta char'a salta el Atlântico:
+
+Pais de sol, de toros, de manzanilla.
+
+. . -Nunca podrâ el box act bar con los toros. iNunca! Yo soy aficionado a las co¬ rridas; he visto muchas. porque siendo amigo de Joselito, de Belmonte y del Ga¬ llo-de ese estupendo gitano que. es ad¬ mirable hasta en la cobardia-, comprendo el aima:de Espana y puedo interpretar su maravillqsa müsica. En Valencia tuve oportunidad de visitar el mâs grande, el mâs completo museo taurino que se co¬ noce. Es de un 'viejo aficionado' que paga a precio de oro las reliquias mâs famosas de los ruedos: taleguillas trâgicas, cabezas de toros asesinos,' muletas mâglcas empanadas de cloroformo. . .
+
+--;Qué maravilla es el Corpus Gristi de Sevilla, comprendido por Albéniz y glosa-
+
+## Lo que es y lo que Sera la....
+
+(Signe (3e la pagina 37)^
+
+de una verdadera iocura de reproducciôn, y sus bellas mujeres que tienen el esplritu lleno de fuertes visiones de mar y de cielo. '
+
+Séria injusto que, como mexicanos, pasaran por alto estas paginas nuestros leetores. No bemos deséado.Vpor cierto, atiborrar este numéro con cifras enojosas- y artlculos inmensos y estallantes de seriedad. Es, apenas, una visiôn grâfica\_ y amable de esa tierra de maravilla, îan olvidada injustamente por nosotros, y cuyas inmensas posibilidades de riqueza pueden sospecharse, pâlidamentey-en las pâginas que siguen.
+
+Damos las 'gracias püblicamente ^ a nuestros représentantes, los sepores E)iaz Encinas, a cuya actividâd y talento periodfstico se debe este numérota las^ajjto-/ ridades del Distrito 'Norte;""a'la 'prenSa de Baja California, que con tanto entu¬ siasmo acoeid la idea de îanzar este-'iuime=-\_ ro, y a todos quellos que, por amor a la 'patria cbica', nos dieron alguna luz so¬ bre esas tierras. alucmautes . y fnagnlfi.cas.\_
+
+v
+
+<!-- image -->
+
+Lnm/Kâ 1 DIRES MIDY', 4 Hue au Colonel lvioli, Hans, ne.
+
+do eu saetas dolorosas! ;Qué éxito el de ahora, maestro!-comenta el periodista uruguàyo, refiriéndose al pasado concierto.
+
+xxx
+
+Después, hablamos de Francia, de Rusia ... '
+
+-El éxito reciente de mi carrera artistica lo obtuve en Paris, en el teatro de los Ca/mpos Ellseos, donde se reunieron para oirme mâs de doscientas celebridades mundiales: musicos, politicos de renom¬ bre, novelistas, pintores... Todos los esplritus del cosmopolitismo; los inquietos trota-mundos que reune Paris en mayo. Y ante ese pûblico tan difîcil, logré imponorme', m'ercéd a la alentadora eficacia de un aplauso oportuno. Toqué de prefereacia müsica rusa: motivos de Stravinsky y de Prokofiëff, que dan nuevas orientaciones al sentido musical, pues lo que tratan de. producir. los alemanes después de Brahms es inconsistente. El mismo Strauss al querer superar a Wagner sélo demostrô su impotencia. iProyectos?. .. Pronto eje- cutaré una ôbra maestra del compositor brasileno Villalobos, basada en un simbolism.o curioso: son los diversos caractè¬ res de los munecos que manoseamos en nuestra infancia; la negrita y el currutaco, la criada de trenzas luengas y la viejita aplanchada hasta en el espiritu. .. Estos motivos estân marginados con canci )nes populares y pintorescas que tienen un cercano parentesco con la musica negra de los Estadôs IJnidos, porque ambas tie¬ nen un nexo fatal: la tierra africana...
+
+xxx
+
+En la calle se proyecta un crepûsculo lento... Un viento belado se lleva el fes¬ ton del entusiasmo popular. Y en una esquina tumultuosa, Rubinstein partiô en pos de una mujer imaginaria, husipeando entre la multitud de tranquilos burgues.es endomingados.
+
+Después del mutis, la noche dejô caer oportunamente su telôn de sombras.
+
+Oscar U0BLANO
+
+<!-- image -->
+
+-
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0071/page-0071-docling-image-01.png)
+- Docling extracted picture image 2: ![Docling extracted picture image 2](../extracted-images/page-0071/page-0071-docling-image-02.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 2.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 71
+
+## Layout And Reading Order
+The page features a decorative double-line border with small ornamental elements. Inside this border, the content is centered.
+At the top, there is a photograph of five men in an office setting. Below this photograph, three names and their respective titles are listed in a horizontal arrangement.
+Following this, the name of the banking company and its location are presented in large, bold capital letters.
+Below the company name, two lines of text describe the company's affiliations.
+Next, two paragraphs detail the banking services offered.
+Finally, at the bottom of the page, there is another photograph, depicting the exterior of a brick building with a car parked in front.
+The page number "71" is located at the bottom right corner, outside the main decorative border.
+
+## Literal Transcription
+WM. GUNTERMANN
+Vicepresidente
+
+D. A. LEONARD
+Presidente
+
+J. M. HERNANDEZ A.
+Gerente
+
+MERCANTILE BANKING COMPANY, S. A.
+MEXICALI, B. C. MEXICO
+
+Miembros de la American Bankers Association
+Corresponsales de la Comisión Monetaria.
+
+Expedimos giros directamente sobre cualquier plaza de México, los Estados Unidos del Norte y
+Europa, así como sobre China y Japón.
+
+Hacemos toda clase de operaciones bancarias y aceptamos depósitos tanto en moneda mexicana
+como americana.
+
+71
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![nearby-text: WM. GUNTERMANN
+Vicepresidente
+D. A. LEONARD
+Presidente
+J. M. HERNANDEZ A.
+Gerente](../extracted-images/page-0072/page-0072-image-01-mercantile-banking-company-directors-1912.png)
+  - Kind: photograph; label basis: nearby-text; bbox_pct: [20.0, 27.0, 35.0, 72.0]
+  - Source context: Photograph of five men, identified as WM. GUNTERMANN (Vicepresidente), D. A. LEONARD (Presidente), and J. M. HERNANDEZ A. (Gerente). A small inscription 'Foto 1912' is visible on the desk.
+- ![converter-description: Exterior view of a brick building with a car parked in front, likely the Mercantile Banking Company building.](../extracted-images/page-0072/page-0072-image-02-mercantile-banking-company-building.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [63.0, 27.0, 82.0, 72.0]
+  - Source context: Exterior view of a brick building with a car parked in front, likely the Mercantile Banking Company building.
+
+- A photograph of five men in an office setting, likely the directors of the bank. A small, faint inscription "Foto 1912" is visible on the desk in the foreground.
+- A photograph of the exterior of a brick building, presumably the Mercantile Banking Company, with a vintage car parked in front.
+
+## Uncertain Or Illegible
+No uncertain or illegible text.
+
+## Completeness Audit
+All text and significant visual elements on the page have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "visreg_001",
+      "kind": "photograph",
+      "bbox_pct": [20.0, 27.0, 35.0, 72.0],
+      "caption_literal": "WM. GUNTERMANN\nVicepresidente\nD. A. LEONARD\nPresidente\nJ. M. HERNANDEZ A.\nGerente",
+      "caption_type": "nearby-text",
+      "identity_basis": "explicitly_labeled",
+      "source_context": "Photograph of five men, identified as WM. GUNTERMANN (Vicepresidente), D. A. LEONARD (Presidente), and J. M. HERNANDEZ A. (Gerente). A small inscription 'Foto 1912' is visible on the desk.",
+      "confidence": 0.95,
+      "suggested_filename": "Mercantile_Banking_Company_Directors_1912",
+      "inline_anchor": "A photograph of five men in an office setting"
+    },
+    {
+      "region_id": "visreg_002",
+      "kind": "photograph",
+      "bbox_pct": [63.0, 27.0, 82.0, 72.0],
+      "caption_literal": null,
+      "caption_type": "converter-description",
+      "identity_basis": "implied",
+      "source_context": "Exterior view of a brick building with a car parked in front, likely the Mercantile Banking Company building.",
+      "confidence": 0.9,
+      "suggested_filename": "Mercantile_Banking_Company_Building",
+      "inline_anchor": "A photograph of the exterior of a brick building"
+    }
+  ]
+}
+```
+
+## Page Metadata
+- Page number: 72
+
+## Layout And Reading Order
+The page features two main sections, each describing a different company. Both sections begin with a company name and capital, followed by descriptive text. The second section also includes a large photograph of the company's facilities. The content is presented in a two-column layout for the descriptive text within each section. A decorative border runs along the left, top, and right edges of the page.
