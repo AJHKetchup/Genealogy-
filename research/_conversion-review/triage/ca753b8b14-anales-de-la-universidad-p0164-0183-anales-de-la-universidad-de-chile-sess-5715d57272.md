@@ -1,0 +1,30 @@
+# Conversion QC Triage: ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183.codex
+
+- Converted file: `raw/converted/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183.codex.md`
+- Chunk manifest: `raw/chunks/ca753b8b14-anales-de-la-universidad-p0164-0183-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-164-183-codex/manifest.json`
+- Rule: do not edit converted Markdown here; queue exact pages or regions for reread.
+
+## Page Summary
+
+| Page | Relevance | Confidence | Action | Flags | Matched Terms |
+| --- | --- | --- | --- | --- | --- |
+| 164 | none | high | pass | none | none |
+| 165 | none | high | pass | none | none |
+| 166 | none | high | pass | none | none |
+| 167 | none | high | pass | none | none |
+| 168 | none | high | pass | none | none |
+| 169 | none | high | pass | none | none |
+| 170 | none | high | pass | none | none |
+| 171 | none | high | pass | none | none |
+| 172 | none | high | pass | none | none |
+| 173 | none | high | pass | none | none |
+| 174 | none | high | pass | none | none |
+| 175 | none | high | pass | none | none |
+| 176 | none | high | pass | none | none |
+| 177 | none | high | pass | none | none |
+| 178 | none | high | pass | none | none |
+| 179 | none | high | pass | none | none |
+| 180 | none | high | pass | none | none |
+| 181 | none | high | pass | none | none |
+| 182 | none | high | pass | none | none |
+| 183 | none | high | pass | none | none |

@@ -855,6 +855,38 @@ def test_write_agent_queues_creates_conversion_qa_and_extraction_tasks(tmp_path)
     assert extraction_queue["tasks"][0]["role"] == "evidence_extractor"
 
 
+def test_write_agent_queues_can_skip_source_prep_for_post_conversion(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted" / "sample.codex.md"
+    converted.write_text(
+        """# Sample
+
+# Page 1
+
+## Literal Transcription
+
+Dario Pulgar is named in this converted source.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    written = write_agent_queues(tmp_path, include_source_prep=False)
+
+    rel_written = {path.relative_to(tmp_path).as_posix() for path in written}
+    assert rel_written == {
+        "research/_agent-queues/conversion-qa.json",
+        "research/_agent-queues/evidence-extraction.json",
+    }
+    assert not (tmp_path / "research" / "_agent-queues" / "source-prep.json").exists()
+    qa_queue = json.loads((tmp_path / "research" / "_agent-queues" / "conversion-qa.json").read_text(encoding="utf-8"))
+    extraction_queue = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text(encoding="utf-8")
+    )
+    assert qa_queue["task_count"] == 1
+    assert extraction_queue["task_count"] >= 1
+
+
 def test_write_agent_queue_compacts_long_prompt_filenames(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     queue_path = write_agent_queue(
@@ -2401,6 +2433,36 @@ def test_completed_qc_reread_hold_is_unblocked_when_page_passes_contract(tmp_pat
     assert usability["sources"][0]["page_repair_count"] == 0
 
 
+def test_source_usability_can_read_existing_manifest_without_refresh(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    manifest_path = tmp_path / "raw" / "source-prep-manifest.json"
+    manifest = {
+        "created": "2026-05-19",
+        "source_root": "raw/sources",
+        "sources": [
+            {
+                "id": "SRC-existing",
+                "title": "Existing source",
+                "raw_path": "raw/sources/missing-locally.pdf",
+                "media_type": "pdf",
+                "sha256": "abc123",
+                "status": "converted",
+                "conversion_jobs": [],
+                "converted_sources": [],
+            }
+        ],
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+
+    write_source_usability_report(tmp_path, refresh_index=False, refresh_source_prep_tasks=False)
+
+    assert json.loads(manifest_path.read_text(encoding="utf-8")) == manifest
+    assert not source_prep_page_cache_path(tmp_path).exists()
+    usability = json.loads((tmp_path / "research" / "_indexes" / "source-usability.json").read_text(encoding="utf-8"))
+    assert usability["summary"]["total_sources"] == 1
+    assert usability["inputs"]["source_prep_task_counts"] == "skipped"
+
+
 def test_write_post_conversion_qc_flags_bad_and_suspicious_pages(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
     person = tmp_path / "wiki" / "people" / "dario-pulgar.md"
@@ -2452,6 +2514,36 @@ The record names David Pulgar as a delegate.
     page_two = next(page for page in qc_pages["pages"] if page["page"] == 2)
     assert page_two["recommended_action"] == "reread-page"
     assert page_two["conversion_confidence"] == "low"
+
+
+def test_write_post_conversion_qc_compacts_long_artifact_names(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    long_name = (
+        "anales-de-la-universidad-p0001-0003-anales-de-la-universidad-de-chile-session-"
+        "of-the-council-of-public-instruction-september-1918-pages-1-3-codex"
+    )
+    converted = tmp_path / "raw" / "converted" / f"{long_name}.md"
+    converted.write_text(
+        """# Long Source
+
+# Page 1
+
+## Literal Transcription
+
+The record names no family members.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, converted)
+
+    write_post_conversion_qc(tmp_path)
+
+    qc_index = json.loads((tmp_path / "research" / "_conversion-review" / "qc-index.json").read_text(encoding="utf-8"))
+    source = qc_index["sources"][0]
+    for key in ("triage", "page_queue", "corrections"):
+        rel = source[key]
+        assert len(Path(rel).name) <= 100
+        assert (tmp_path / rel).exists()
 
 
 def test_suspicious_name_readings_ignore_common_lowercase_near_matches() -> None:

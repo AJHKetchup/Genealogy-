@@ -6239,3 +6239,6 @@
 ## [2026-05-19] source-prep-batches | Wrote 7236 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-19] source-prep-fastlane | inspected 5000, converted 0, dry_run=False, skipped={'full_page_image_scan': 4980, 'not_pdf': 2, 'possible_ligature_text_loss': 6}, failed=12
 ## [2026-05-19] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-18] conversion-qc | Wrote 218 QC artifact(s)
+## [2026-05-18] agent-queues | Wrote 2 queue manifest(s); source-prep queue disabled by post-conversion settings
+## [2026-05-18] source-status | Wrote research/_indexes/source-usability.json

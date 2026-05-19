@@ -3189,7 +3189,7 @@ def chunk_converted_markdown(
     if not converted_file.exists():
         raise FileNotFoundError(converted_file)
 
-    chunk_dir = output_dir or (paths.raw / "chunks" / slug(converted_file.stem))
+    chunk_dir = output_dir or (paths.raw / "chunks" / compact_slug(converted_file.stem, max_length=96))
     if not chunk_dir.is_absolute():
         chunk_dir = paths.root / chunk_dir
     chunk_dir.mkdir(parents=True, exist_ok=True)
@@ -3280,7 +3280,7 @@ def write_post_conversion_qc(root: Path, output_dir: Path | None = None) -> list
         if not converted_file.exists():
             continue
         page_reviews = analyze_converted_source_pages(paths.root, converted_file, manifest_path, family_terms)
-        source_slug = slug(converted_file.stem)
+        source_slug = qc_artifact_stem(converted_file, paths.root)
         for review in page_reviews:
             page_index_entries.append(
                 {
@@ -5180,6 +5180,7 @@ def write_agent_queues(
     output_dir: Path | None = None,
     stale_minutes: int = 360,
     include_conversion_qa: bool = True,
+    include_source_prep: bool = True,
 ) -> list[Path]:
     paths = WikiPaths(root.resolve())
     queue_dir = output_dir or (paths.research / "_agent-queues")
@@ -5189,15 +5190,17 @@ def write_agent_queues(
 
     released_count = release_stale_agent_tasks(paths.root, stale_minutes=stale_minutes)
     task_state = load_agent_task_state(paths.root)
-    queues = {
-        "source-prep": build_source_prep_agent_tasks(paths.root),
-    }
+    queues = {}
+    if include_source_prep:
+        queues["source-prep"] = build_source_prep_agent_tasks(paths.root)
     queues["conversion-qa"] = build_conversion_qa_agent_tasks(paths.root) if include_conversion_qa else []
     queues["evidence-extraction"] = build_evidence_extraction_agent_tasks(paths.root)
     written = [write_agent_queue(paths.root, queue_dir, name, tasks, task_state) for name, tasks in queues.items()]
     log_message = f"agent-queues | Wrote {len(written)} queue manifest(s)"
     if not include_conversion_qa:
         log_message += "; conversion QA queue disabled by source-prep settings"
+    if not include_source_prep:
+        log_message += "; source-prep queue disabled by post-conversion settings"
     if released_count:
         log_message += f"; released {released_count} stale task(s)"
     append_log(paths.research / "log.md", log_message)
@@ -9382,7 +9385,7 @@ def build_conversion_qa_agent_tasks(root: Path) -> list[dict[str, object]]:
         except (OSError, json.JSONDecodeError):
             continue
         converted_file = str(manifest.get("converted_file", ""))
-        source_slug = slug(Path(converted_file).stem)
+        source_slug = qc_artifact_stem(root / converted_file, root)
         task = {
             "task_id": f"conversion-qa:{slug(converted_file)}",
             "queue": "conversion-qa",
@@ -9661,9 +9664,12 @@ def write_source_usability_report(
     root: Path,
     output: Path | None = None,
     markdown_output: Path | None = None,
+    refresh_index: bool = True,
+    refresh_source_prep_tasks: bool = True,
 ) -> list[Path]:
     paths = WikiPaths(root.resolve())
-    write_source_prep_index(paths.root)
+    if refresh_index:
+        write_source_prep_index(paths.root)
     prep_manifest_path = paths.raw / "source-prep-manifest.json"
     try:
         prep_manifest = json.loads(prep_manifest_path.read_text(encoding="utf-8"))
@@ -9672,7 +9678,7 @@ def write_source_usability_report(
 
     chunks_by_converted = chunk_manifests_by_converted_file(paths.root)
     qc_blocked_by_source = load_qc_blocked_pages(paths.root)
-    prep_task_counts = source_prep_task_counts_by_hash(paths.root)
+    prep_task_counts = source_prep_task_counts_by_hash(paths.root) if refresh_source_prep_tasks else {}
     entries = []
     sources = prep_manifest.get("sources", []) if isinstance(prep_manifest, dict) else []
     if not isinstance(sources, list):
@@ -9740,6 +9746,7 @@ def write_source_usability_report(
         "inputs": {
             "source_prep_manifest": relative_to_root(prep_manifest_path, paths.root),
             "qc_pages": "research/_conversion-review/qc-pages.json",
+            "source_prep_task_counts": "refreshed" if refresh_source_prep_tasks else "skipped",
         },
         "summary": {
             "total_sources": len(entries),
@@ -10131,7 +10138,7 @@ def build_evidence_extraction_agent_tasks(root: Path) -> list[dict[str, object]]
         except (OSError, json.JSONDecodeError):
             continue
         converted_file = str(manifest.get("converted_file", ""))
-        source_slug = slug(Path(converted_file).stem)
+        source_slug = qc_artifact_stem(root / converted_file, root)
         for chunk in manifest.get("chunks", []):
             if not isinstance(chunk, dict):
                 continue
@@ -10993,6 +11000,26 @@ def slug(value: str) -> str:
     return value.strip("-") or "untitled"
 
 
+def compact_slug(value: str, *, max_length: int = 96) -> str:
+    value_slug = slug(value)
+    if len(value_slug) <= max_length:
+        return value_slug
+    digest = hashlib.sha256(value_slug.encode("utf-8")).hexdigest()[:10]
+    prefix_length = max(1, max_length - len(digest) - 1)
+    return f"{value_slug[:prefix_length].rstrip('-')}-{digest}"
+
+
+def qc_artifact_stem(converted_file: Path, root: Path | None = None) -> str:
+    try:
+        if root is not None:
+            source = relative_to_root(converted_file, root)
+        else:
+            source = converted_file.as_posix()
+    except ValueError:
+        source = converted_file.as_posix()
+    return compact_slug(Path(source).stem, max_length=96)
+
+
 def node_id(value: str) -> str:
     return "n_" + slug(value).replace("-", "_")
 
@@ -11288,6 +11315,11 @@ def build_parser() -> argparse.ArgumentParser:
         type=int,
         default=360,
         help="Release claimed/in-progress tasks with no update for this many minutes. Use 0 to disable. Default: 360.",
+    )
+    agent_queues_parser.add_argument(
+        "--post-conversion-only",
+        action="store_true",
+        help="Write only post-conversion conversion-QA and evidence-extraction queues; do not touch source-prep state.",
     )
 
     source_prep_batches_parser = subparsers.add_parser(
@@ -11654,6 +11686,16 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         help="Output Markdown path. Default: research/source-usability.md.",
     )
+    source_status_parser.add_argument(
+        "--no-refresh-index",
+        action="store_true",
+        help="Read existing raw/source-prep-manifest.json instead of rebuilding it.",
+    )
+    source_status_parser.add_argument(
+        "--no-source-prep-task-refresh",
+        action="store_true",
+        help="Do not rebuild source-prep task counts while writing the source usability report.",
+    )
 
     agent_task_parser = subparsers.add_parser(
         "agent-task",
@@ -11956,7 +11998,12 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "agent-queues":
-        written = write_agent_queues(args.root, args.out_dir, stale_minutes=args.stale_minutes)
+        written = write_agent_queues(
+            args.root,
+            args.out_dir,
+            stale_minutes=args.stale_minutes,
+            include_source_prep=not args.post_conversion_only,
+        )
         for path in written:
             print(f"Wrote agent queue {path}")
         return 0
@@ -12170,7 +12217,13 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command in {"source-status", "source-usability"}:
-        written = write_source_usability_report(args.root, args.out, args.markdown)
+        written = write_source_usability_report(
+            args.root,
+            args.out,
+            args.markdown,
+            refresh_index=not args.no_refresh_index,
+            refresh_source_prep_tasks=not args.no_source_prep_task_refresh,
+        )
         for path in written:
             print(f"Wrote source usability report {path}")
         return 0
