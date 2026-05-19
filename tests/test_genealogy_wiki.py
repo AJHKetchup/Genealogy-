@@ -1309,8 +1309,13 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
                 "discovery_skipped": 3,
                 "media_skipped": 0,
                 "route_counts": {"lite": 3, "pro": 2},
+                "usage": {"prompt_tokens": 100, "candidate_tokens": 200, "total_tokens": 320},
                 "visual_regions": {"cropped": 2},
                 "fatal_error": "Gemini HTTP 429: prepayment credits are depleted",
+                "tasks": [
+                    {"usage": {"thoughtsTokenCount": 12}},
+                    {"usage": {"thoughtsTokenCount": 8}},
+                ],
             }
         ),
         encoding="utf-8",
@@ -1355,6 +1360,9 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- Inspected pages/hour: 60.0" in report
     assert "- Completed pages/hour: 48.0" in report
     assert '- Route counts: {"lite": 3, "pro": 2}' in report
+    assert '- Token usage: {"candidate_tokens": 200, "prompt_tokens": 100, "thoughts_tokens": 20, "total_tokens": 320}' in report
+    assert "- Total tokens/completed page: 80.0" in report
+    assert "- Total tokens/processed page: 64.0" in report
     assert "- r2 credentials missing" in report
     assert "- preflight missing: R2_BUCKET" in report
     assert "- gemini fatal: Gemini HTTP 429: prepayment credits are depleted" in report

@@ -610,6 +610,7 @@ def test_gemini_flash_max_tokens_retries_next_as_pro(tmp_path, monkeypatch) -> N
     assert summary["completed"] == 0
     assert summary["released"] == 1
     assert summary["failed"] == 0
+    assert summary["usage"]["thoughts_tokens"] == 500
     assert summary["tasks"][0]["reason"] == "max_tokens_retry_pro"
     task_state = json.loads((tmp_path / "research" / "_agent-queues" / "task-state.json").read_text(encoding="utf-8"))
     state = task_state["tasks"]["source-prep:job-one:p0001"]

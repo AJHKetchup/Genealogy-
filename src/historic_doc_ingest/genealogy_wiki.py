@@ -7213,6 +7213,16 @@ def source_prep_report_pages_per_hour(payload: dict[str, object], count_key: str
     return f"{(count * 3600 / duration_seconds):.1f}"
 
 
+def source_prep_report_tokens_per_page(payload: dict[str, object], usage: dict[str, int], count_key: str) -> str:
+    count = int(payload.get(count_key, 0) or 0)
+    if count < 1:
+        return "unknown"
+    total_tokens = int(usage.get("total_tokens", 0) or 0)
+    if total_tokens < 1:
+        return "unknown"
+    return f"{(total_tokens / count):.1f}"
+
+
 def source_prep_report_compact_error(value: object, *, max_chars: int = 240) -> str:
     text = " ".join(str(value or "").split())
     if len(text) <= max_chars:
@@ -7244,6 +7254,32 @@ def source_prep_report_extracted_image_methods(payload: dict[str, object]) -> di
     return counts
 
 
+def source_prep_report_gemini_usage(payload: dict[str, object]) -> dict[str, int]:
+    raw_usage = payload.get("usage", {})
+    usage = raw_usage if isinstance(raw_usage, dict) else {}
+    summary = {
+        "prompt_tokens": int(usage.get("prompt_tokens", 0) or 0),
+        "candidate_tokens": int(usage.get("candidate_tokens", 0) or 0),
+        "thoughts_tokens": int(usage.get("thoughts_tokens", 0) or 0),
+        "total_tokens": int(usage.get("total_tokens", 0) or 0),
+    }
+    missing = {key for key, value in summary.items() if value == 0}
+    if missing:
+        for task in source_prep_report_tasks(payload):
+            task_usage = task.get("usage", {})
+            if not isinstance(task_usage, dict):
+                continue
+            if "prompt_tokens" in missing:
+                summary["prompt_tokens"] += int(task_usage.get("promptTokenCount", 0) or 0)
+            if "candidate_tokens" in missing:
+                summary["candidate_tokens"] += int(task_usage.get("candidatesTokenCount", 0) or 0)
+            if "thoughts_tokens" in missing:
+                summary["thoughts_tokens"] += int(task_usage.get("thoughtsTokenCount", 0) or 0)
+            if "total_tokens" in missing:
+                summary["total_tokens"] += int(task_usage.get("totalTokenCount", 0) or 0)
+    return summary
+
+
 def build_source_prep_cloud_report(root: Path) -> str:
     paths = WikiPaths(root.resolve())
     automation_dir = paths.research / "_automation"
@@ -7271,6 +7307,7 @@ def build_source_prep_cloud_report(root: Path) -> str:
     if not batches:
         queue_scope = "missing"
     preflight_ready = preflight.get("ready", "unknown") if preflight else "unknown"
+    gemini_usage = source_prep_report_gemini_usage(gemini)
 
     lines = [
         "## Cloud Source Prep Summary",
@@ -7312,6 +7349,9 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(gemini), 'unknown')}",
         f"- Completed pages/hour: {source_prep_report_pages_per_hour(gemini, 'completed')}",
         f"- Route counts: {source_prep_report_json(gemini.get('route_counts'))}",
+        f"- Token usage: {source_prep_report_json(gemini_usage)}",
+        f"- Total tokens/completed page: {source_prep_report_tokens_per_page(gemini, gemini_usage, 'completed')}",
+        f"- Total tokens/processed page: {source_prep_report_tokens_per_page(gemini, gemini_usage, 'processed')}",
         f"- Visual regions: {source_prep_report_json(gemini.get('visual_regions'))}",
         "",
         "### Blockers",
@@ -8886,7 +8926,7 @@ def source_prep_gemini_run(
         "media_skipped": 0,
         "route_counts": {},
         "tasks": [],
-        "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "total_tokens": 0},
+        "usage": {"prompt_tokens": 0, "candidate_tokens": 0, "thoughts_tokens": 0, "total_tokens": 0},
         "visual_regions": {"declared": 0, "cropped": 0, "skipped": 0, "manifests": 0},
         "fatal_error": "",
     }
@@ -8983,6 +9023,7 @@ def source_prep_gemini_run(
             if isinstance(summary_usage, dict):
                 summary_usage["prompt_tokens"] = int(summary_usage.get("prompt_tokens", 0)) + int(usage.get("promptTokenCount", 0) or 0)
                 summary_usage["candidate_tokens"] = int(summary_usage.get("candidate_tokens", 0)) + int(usage.get("candidatesTokenCount", 0) or 0)
+                summary_usage["thoughts_tokens"] = int(summary_usage.get("thoughts_tokens", 0)) + int(usage.get("thoughtsTokenCount", 0) or 0)
                 summary_usage["total_tokens"] = int(summary_usage.get("total_tokens", 0)) + int(usage.get("totalTokenCount", 0) or 0)
         visual_result = result.get("visual_regions", {})
         if isinstance(visual_result, dict):
