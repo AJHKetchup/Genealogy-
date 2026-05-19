@@ -6965,13 +6965,14 @@ def source_prep_docling_discovery_run(
                         break
 
     summary["finished"] = utc_timestamp()
-    write_checkpoint()
-    append_log(
-        paths.research / "log.md",
-        "source-prep-docling-discovery | "
-        f"inspected {summary['inspected']}, accepted {summary['accepted']}, unusable {summary['unusable']}, "
-        f"errors={summary['errors']}, dry_run={dry_run}",
-    )
+    if not dry_run:
+        write_checkpoint()
+        append_log(
+            paths.research / "log.md",
+            "source-prep-docling-discovery | "
+            f"inspected {summary['inspected']}, accepted {summary['accepted']}, unusable {summary['unusable']}, "
+            f"errors={summary['errors']}, dry_run={dry_run}",
+        )
     return summary
 
 

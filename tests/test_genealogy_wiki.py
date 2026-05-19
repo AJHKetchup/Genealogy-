@@ -2276,6 +2276,34 @@ def test_docling_discovery_revalidates_old_error_cache_after_dependency_fix(tmp_
     assert entry["profile_version"] == genealogy_wiki.SOURCE_PREP_DISCOVERY_PROFILE_VERSION
 
 
+def test_docling_discovery_dry_run_does_not_write_state_or_log(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "docling-dry-run.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling baseline. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+    log_path = tmp_path / "research" / "log.md"
+    original_log = log_path.read_text(encoding="utf-8") if log_path.exists() else ""
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path, **kwargs: "Usable printed source text for Docling baseline. " * 8,
+    )
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10, dry_run=True)
+
+    assert summary["dry_run"] is True
+    assert summary["accepted"] == 1
+    assert "state_path" not in summary
+    assert not (tmp_path / "research" / "_automation" / "source-prep-docling-state.json").exists()
+    assert not (tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").exists()
+    assert (log_path.read_text(encoding="utf-8") if log_path.exists() else "") == original_log
+
+
 def test_docling_discovery_skips_pages_when_raw_source_not_restored(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
