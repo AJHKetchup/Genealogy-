@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:39:48Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 181,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0181.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0181.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "SU MAJESTAD EL REY JORGE V",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "The caption explicitly identifies the subject as King George V. The surrounding text discusses his birthday celebration.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        29.0,
+        37.3,
+        74.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        331,
+        593,
+        859,
+        1364
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0181/page-0181-image-01-king-george-v-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0181/page-0181-image-01-king-george-v-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0181.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 181,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0181.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:13:25Z",
+  "created": "2026-05-19T18:34:11Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,8 +8,16 @@
   "page": 51,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/page-images/page-0051.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/page-markdown/page-0051.md",
-  "no_visual_regions_reason": "The page contains a facsimile of a historical document, which is fully transcribed. There are no photographs, illustrations, or other visual elements that would be useful as standalone assets.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr-01",
+      "kind": "document",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "documento que reproduce nuestro grabado, dirigido por el virrey, marqués de Loreto, al gobernador español.",
+      "source_context": "The image is a reproduction of a handwritten letter. The accompanying printed article identifies it as a communication from the Viceroy, Marqués de Loreto, dated 10 October 1784, concerning the Malvinas Islands."
+    }
+  ],
   "flags": []
 }

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-975a4584d5b0-P0131-01
+chunk_id: CHUNK-d5c4d6b19f8e-P0131-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150.codex.md
-converted_sha256: 975a4584d5b0dd5cd00b69f7a9780634561e33536b390e0c77395d4b9225a1f1
+converted_sha256: d5c4d6b19f8e725dfd40b2b382fdf986c1ae9338512b24982e01c19dd6e0f6fb
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150/manifest.json
@@ -98,8 +98,11 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 132
-- Source: S522bis-29-3.pdf
+
+- Task id: `source-prep:ca7e42bb85-s522bis-29-3-p0126-0150-s522bis-29-3-pages-126-150:p0132`
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Page: 132
 
 ## Layout And Reading Order
-The page is laid out in two columns. The reading order is from left to right for the header, then top to bottom for the left column, followed by top to bottom for the right column.
+
+This page is a single-page document with a header and two columns of text. The reading order is from the top of the left column to its bottom, followed by the top of the right column to its bottom.

@@ -1,0 +1,84 @@
+{
+  "created": "2026-05-19T18:39:55Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/manifest.json",
+  "page": 981,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-images/page-0981.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0981.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Algunos miembros de la Comisión Internacional Legal nombrada para de-terminar las responsabilidades en el incendio del Reichstag, reunidos en la Law Society, en Londres.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Group of members of the International Legal Commission.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        17.0,
+        18.0,
+        44.0
+      ],
+      "bbox_pixels": [
+        198,
+        546,
+        367,
+        1429
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-01-group-international-legal-commission.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-01-group-international-legal-commission.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-images/page-0981.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/manifest.json",
+      "page": 981,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0981.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "portrait",
+      "caption_literal": "Otro de los aboga-dos que han tomado parte en el proceso: \"Maître\" Moro Glaf-feri, famoso en el foro francés.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Portrait of \"Maître\" Moro Glafferi.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.0,
+        44.0,
+        18.0,
+        58.0
+      ],
+      "bbox_pixels": [
+        198,
+        1421,
+        367,
+        1882
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-02-portrait-maitre-moro-glafferi.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-02-portrait-maitre-moro-glafferi.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-images/page-0981.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/manifest.json",
+      "page": 981,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0981.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_3",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "No tenemos\nNo lo conocemos\n\nson expresiones muy comunes en farmacia. Son\ntantos los remedios que exige la terapéutica mo-\nderna, que es muy difícil conseguir, sobre todo en\nel interior del país, lo que los médicos recetan.\n\nCuando no encuentre el remedio que necesita, venga\na nuestra casa, o escríbanos enseguida, se lo remi-\ntiremos por\ncontra reembolso.\n\nTenemos todo lo que a\nla farmacia se refiere y somos\nlos que vendemos\nmás barato en el país.\nFarmacia Franco-Inglesa\nLA MAYOR DEL MUNDO\nSarmiento y Florida Buenos Aires",
+      "source_context": "Advertisement for Farmacia Franco-Inglesa."
+    }
+  ],
+  "flags": []
+}

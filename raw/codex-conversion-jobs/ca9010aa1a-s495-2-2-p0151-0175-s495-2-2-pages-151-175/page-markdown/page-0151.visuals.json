@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-19T18:39:52Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+  "page": 151,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0151.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0151.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "labeled_illustration",
+      "caption_literal": "LINIMENTO DE SLOAN PARA USO CASERO\nMarca de Fábrica registrada\nMATA DOLORES",
+      "caption_type": "source-caption",
+      "identity_basis": "text-in-image",
+      "source_context": "Advertisement for Linimento de Sloan, showing the product packaging and an illustrative figure.",
+      "confidence": "0.95",
+      "inline_anchor": "[Image: Product box for Linimento de Sloan with an illustration of a man]",
+      "bbox_pct": [
+        14.0,
+        14.0,
+        29.0,
+        38.0
+      ],
+      "bbox_pixels": [
+        135,
+        220,
+        291,
+        612
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0151/page-0151-image-01-linimento-de-sloan-product-box-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0151/page-0151-image-01-linimento-de-sloan-product-box-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0151.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+      "page": 151,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0151.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "MATA DOLORES",
+      "source_context": "Small oval stamp within the Linimento de Sloan advertisement, next to a testimonial."
+    }
+  ],
+  "flags": []
+}

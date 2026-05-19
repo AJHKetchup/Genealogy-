@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:38:46Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/manifest.json",
+  "page": 357,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/page-images/page-0357.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/page-markdown/page-0357.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "Cliché G. L. Manuel Frères.\nS. Exc. M. Joaquim Paredès\nMinistre du Salvador à Paris\nS. Exc. M. Joaquim Paredès, qui s'emplissait à Paris depuis plusieurs années\nles fonctions de Chargé d'Affaires de la République du Salvador, vient d'être\nnommé Ministre ; il a été reçu jeudi en audience officielle par le Président de la\nRépublique à qui il a remis ses lettres de créances.",
+      "caption_type": "source-caption",
+      "identity_basis": "name-in-caption",
+      "source_context": "Portrait of S. Exc. M. Joaquim Paredès, Ministre du Salvador à Paris.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        24.4,
+        30.8,
+        57.2,
+        67.9
+      ],
+      "bbox_pixels": [
+        272,
+        432,
+        651,
+        965
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/extracted-images/page-0357/page-0357-image-01-portrait-joaquim-paredes.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/extracted-images/page-0357/page-0357-image-01-portrait-joaquim-paredes.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/page-images/page-0357.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/manifest.json",
+      "page": 357,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/page-markdown/page-0357.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9da3cf8c6823-P0001-07
+chunk_id: CHUNK-dfe979a1b58e-P0001-07
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: 9da3cf8c68235175b9eb9dfb3c0078fdd2e7888a49e686b9382dbadf79f31566
+converted_sha256: dfe979a1b58e3bd3d477c4e30a3dbe373abaf840a36e4a7050c80fd5dbdabd12
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -10,54 +10,6 @@ page_start: 1
 page_end: 1
 part: 7
 ---
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-
-## Page Metadata
-Page number: 23
-
-## Layout And Reading Order
-
-The page contains a single column of text, primarily legal definitions and articles, presented in a list format. There is a page number "III-" at the top center. The text is organized into two main sections, each with sub-points labeled alphabetically.
-
-## Literal Transcription
-
-III-
-
-abandonados:
-    a) Los comprendidos en los artículos 106, 107 y 108 del
-    Código Penal;
-    b) Los que no tienen domicilio, ni medios de subsisten-
-    cia por muerte o desaparición de los padres o por no
-    ser éstos conocidos;
-    c) Los que eventualmente se encuentran sin domicilio o
-    medios de subsistencia por enfermedad, extrema indi-
-    gencia o detención de los padres, tutor o guardador;
-    d) Cuando los padres, tutor o guardador, tuviesen a los
-    hijos o pupilos en habitaciones perjudiciales a su
-    salud o en promiscuidad moral;
-    e) Los niños en edad de lactancia y todo menor de 12 a-
-    ños, cuando los padres u otras personas los tengan
-    consigo ejerciendo la mendicidad;
-    f) Cuando el padre, tutor o guardador, que tiene la pa-
-    tria potestad, tutela o guarda, hubiera sido condena-
-    do a más de tres años de prisión o reclusión, confor-
-    me a lo dispuesto en el artículo 12 del Código Penal,
-    y siempre que por cualquier motivo la madre no estu-
-    viere en condiciones de ejercer la patria potestad.
-    Artículo 8º.— Se consideran moralmente abandona-
-dos o en peligro moral:
-    a) Cuando los padres, tutor o guardador, hubieran sido
-    condenados por cualquier delito en perjuicio de algu-
-    no de sus hijos o pupilos o por los delitos de viola-
-    ción, estupro, corrupción, rapto o abuso deshonesto
-    en perjuicio de algún menor; en tales casos, si hubie-
-    re recaído sobreseimiento o absolución, el Tribunal
-    de Menores podrá asimismo resolver sobre la tenencia
-    del menor;
-    b) Cuando los padres, tutor o guardador, sean delincuen-
-    tes habituales, personas viciosas o de mala vida;
 
 ## Images, Captions, And Visual Notes
 The page contains no images or captions.

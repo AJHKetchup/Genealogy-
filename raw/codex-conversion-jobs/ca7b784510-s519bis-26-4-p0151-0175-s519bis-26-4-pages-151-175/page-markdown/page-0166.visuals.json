@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:38:13Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json",
+  "page": 166,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0166.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-markdown/page-0166.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "photograph",
+      "caption_literal": "Gral. don Rafael L. Trujillo Molina,\nPresidente de la República Dominicana,\nférvido propulsor del progreso nacional y cooperador eficacísimo\nde las Cámaras de Comercio, Industria y Agricultura en la\nprovechosa labor que éstas realizan.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-text",
+      "source_context": "The caption directly below the image identifies the subject.",
+      "confidence": "0.95",
+      "inline_anchor": "A black and white portrait photograph of a man identified as Gral. don Rafael L. Trujillo Molina.",
+      "bbox_pct": [
+        15.0,
+        15.0,
+        85.0,
+        75.0
+      ],
+      "bbox_pixels": [
+        133,
+        209,
+        778,
+        1068
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0166/page-0166-image-01-gral-don-rafael-l-trujillo-molina-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0166/page-0166-image-01-gral-don-rafael-l-trujillo-molina-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0166.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json",
+      "page": 166,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-markdown/page-0166.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

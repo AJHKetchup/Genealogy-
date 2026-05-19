@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:10:54Z",
+  "created": "2026-05-19T18:32:46Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3577-50-5569-5569-Jacket3.pdf",
@@ -12,11 +12,11 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vr_1",
       "kind": "stamp",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "RECEIVED IN REGISTRY 14-NOV-1929",
-      "source_context": "A stamp overlapping the main title and subtitle."
+      "caption_literal": "RECEIVED IN\nREGISTRY\n14-NOV-1929",
+      "source_context": "A stamp on the page."
     }
   ],
   "flags": []

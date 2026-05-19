@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T18:37:12Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356/manifest.json",
+  "page": 351,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356/page-images/page-0351.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0351-0356-s179-34-6-pages-351-356/page-markdown/page-0351.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "TELEGRAFO NACIONAL\n25 ENE 1924",
+      "source_context": "Circular stamp in the center of the document."
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "seal",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "REPÚBLICA O. DEL URUGUAY\nTELEGRAFO NACIONAL\n[Coat of Arms]",
+      "source_context": "Circular seal at the bottom right corner of the document."
+    }
+  ],
+  "flags": []
+}

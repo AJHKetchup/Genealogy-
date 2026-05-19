@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9be978636dc9-P0372-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375.codex.md
+converted_sha256: 9be978636dc99909b2c5b23e14ec85d485c55475a9b3b62b4a2762ecf78fce21
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375/manifest.json
+page_start: 372
+page_end: 372
+part: 1
+---
+
+# Page 372
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375/manifest.json`
+- Source page: 372
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375/page-images/page-0372.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+fort de voir les belligérants tomber dans un cercle sans issue, les premières représailles en entraînant d'autres. Les seules victimes, mais les victimes très malheureuses, seraient les
+
+prisonniers.
+
+Il est de beaucoup préférable de laisser à la Croix-Rouge ou au Comité international -dont il est parlé au titre VIII de l'avant-projet - le soin de surveiller la stricte observation desclauses
+
+de la Convention.
+
+Nous sommes donc d'avis de laisser l'article tel qu'il a été proposé par le Comité de la
+
+Croix-Rouge.
+
+## M. Wilson (Etats-Unis) Traduction :
+
+Je reconnais que l'exposé fait par le délégué turc repose sur une base logique certaine. Lorsqu'il y a un contrat entre deux Etats, le principe de la réciprocité doit évidemment être à la base de ce contrat.
+
+Mais dans le cas qui nous occupe, il faut tenir compte du fait que l'aspect humanitaire de la question dépasse son aspect purement juridique.
+
+Je ne veux pas ajouter à l'exposé très clair du délégué de la Finlande. Je me rallie au ■ texte proposé par le Comité international.
+
+Il est vrai qu'un Gouvernement peut considérer qu'en exerçant une pression sur les pri¬ sonniers en son pouvoir, il peut tendre à obtenir en faveur de ses hommes prisonniers de l'ennemi un traitement plus humain. Mais on ne pense peut-être pas assez que le projet actuellement soumis à notre étude envisage des mesures très rigoureuses de contrôle et de surveillance et prévoit une inspection sévère et une grande publicité des résultats de cette inspection. C'est sur cette publicité faite dans le monde entier qu'il faut compter plutôt que sur les représailles. Si une guerre devait éclater de nouveau, le poids de l'opinion publique forcerait les gouver¬ nements à traiter les
+
+prisonniers de guerre d'une façon humanitaire.
+
+D'ailleurs, étant donné les sentiments qui régnent actuellement dans le monde, il serait difficile d'insérer dans une Convention une clause permettant à un Etat de se venger sur les prisonniers de guerre des mesures prises contre ses ressortissants.
+
+## M. Leitmaier (Autriche) :
+
+- Le Gouvernement fédéral autrichien propose d'insérer à l'article 2, comme premier alinéa, la
+- « La captivité a le seul but d'empêcher les prisonniers de guerre de continuer à prendre part aux hostilités.
+- phrase suivante :
+- « A partir du moment de la capture, tout acte hostile, tant de la part des prisonniers que
+- dirigé contre eux, est interdit. »
+
+En ce qui concerne la première de ces deux phrases il n'y aura sans doute pas d'objection sur le fond de cette proposition. Il est évident que la captivité ne saurait être envisagée comme une peine privative de liberté destinée à punir les militaires d'avoir accompli leur devoir. Le but de la captivité ne peut être que de diminuer les forces armées de l'ennemi en empêchant
+
+les prisonniers capturés de continuer à prendre part aux hostilités.
+
+de guerre ne dépasseront pas la mesure nécessitée par le but de la captivité.
+
+Reste la question de savoir s'il est opportun ou non de définir ce but dans la Convention. De l'avis de mon Gouvernement, il faut répondre affirmativement à cette question. Vous verrez l'effet pratique de notre proposition lorsque nous traiterons de l'article 3. Ayant défini le but de la captivité, il nous sera possible de dire que les restrictions imposées aux prisonniers
+
+Quant à la seconde phrase proposée par mon Gouvernement, l'expérience de la guerre mondiale a démontré combien il est utile de stipuler que la capture doit mettre fin à tout acte d'hostilité. De nombreueses mesures de contrainte ont été prises en considération du fait que des prisonniers de guerre se sont crus obligés, malgré l'insuffisance des moyens dont ils dispo¬ saient, de se montrer hostiles. Leur attitude était sans doute dictée par le désir de servir 'leur pays malgré leur captivité, mais leurs efforts ont eu en général pour seul effet des mesures de précaution prises par l'Etat capteur en vue d'empêcher des actes de sabotage. De telles mesures ont
+
+empiré le sort des prisonniers.
+
+## M. Sottile (Nicaragua) :
+
+M.' le président et Messieurs, Il y a certains Etats qui n'ont pas encore signé la Convention de 1906 que nous sommes en train de reviser. Il y aura certainement des Etats qui ne signeront
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-19T18:38:41Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json",
+  "page": 325,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/page-images/page-0325.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/page-markdown/page-0325.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "clipping",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "El ministro de Bolivia\n\nMONTEVIDEO, 5 (Esp.).— El mi-\nnistro de Bolivia, Dr. Arturo Pinto\nEscalier, que se halla en estos mo-\nmentos en Buenos Aires, regresará a\nMontevideo en el transcurso de la\nsemana para despedirse del Gobierno\ny de sus amistades, pues será desig-\nnado subsecretario del Ministerio de\nRelaciones Exteriores de su país.\nEs probable que la representación\ndiplomática de Bolivia en ésta no sea\nprovista durante algún tiempo.",
+      "source_context": "Newspaper clipping about the Bolivian minister, Dr. Arturo Pinto Escalier."
+    }
+  ],
+  "flags": []
+}

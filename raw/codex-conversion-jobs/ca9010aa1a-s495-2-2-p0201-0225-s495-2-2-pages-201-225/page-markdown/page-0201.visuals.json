@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:40:07Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 201,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0201.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0201.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "Influenza\nLa Miel de Alquitrán de Pinc\ndel Dr. Bell, previene la inva-\nsión de la boca y garganta de los\ngérmenes que causan muchas\nenfermedades contagiosas.\nPor más de 40 años se ha\nusado como gárgara y como ex-\npectorante para combatir todas\nlas afecciones de la garganta y\nvías respiratorias. Cura la tos\nen todas sus formas. La re-\ncomiendan los médicos de\nmuchos países.\nTómese á la primera señal\nde ataque.\nEn las farmacias\nMIEL Y\nALQUITRAN\nDE PINO DEL\nDR. BELL\nALCOHOL 4%\nCOMPUESTO DE LAUREL, MENTOL,\nEUCALIPTO, PINO, ALQUITRAN,\nGUAIACOL, CREOSOTA, CLORO-\nFORMO, BALSAMO DE TOLU,\nCAPSICUM, AMONIO, GLICERINA,\nAZUCAR, AGUA, ALCOHOL.\n[Bell logo]\nPara tratar la tos\ne irritación\nbronquial produci-\nda por los catarros\nPREPARADA UNICAMENTE POR\nTHE DR. BELL WONDER MEDICINE CO.\nNEW YORK, ST. LOUIS, U. S. A.\n8. Bell & Co.\nPara niños o adultos; agradable al paladar.\nMIEL Y ALQUITRAN DE PINO DEL DR. BELL\nMiel de Pino del\nAlquitran Dr. Bell",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Advertisement for a medicinal product.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.5,
+        42.0,
+        88.0,
+        88.0
+      ],
+      "bbox_pixels": [
+        113,
+        660,
+        985,
+        1396
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-01-advertisement-miel-y-alquitran-dr-bell.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-01-advertisement-miel-y-alquitran-dr-bell.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0201.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 201,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0201.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "product_shot",
+      "caption_literal": "MIEL Y\nALQUITRAN\nDE PINO DEL\nDR. BELL\nALCOHOL 4%\nCOMPUESTO DE LAUREL, MENTOL,\nEUCALIPTO, PINO, ALQUITRAN,\nGUAIACOL, CREOSOTA, CLORO-\nFORMO, BALSAMO DE TOLU,\nCAPSICUM, AMONIO, GLICERINA,\nAZUCAR, AGUA, ALCOHOL.\n[Bell logo]\nPara tratar la tos\ne irritación\nbronquial produci-\nda por los catarros\nPREPARADA UNICAMENTE POR\nTHE DR. BELL WONDER MEDICINE CO.\nNEW YORK, ST. LOUIS, U. S. A.\n8. Bell & Co.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Product label on an illustration within an advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        53.0,
+        43.0,
+        70.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        587,
+        676,
+        784,
+        1270
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-02-product-label-miel-y-alquitran-dr-bell.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-02-product-label-miel-y-alquitran-dr-bell.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0201.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 201,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0201.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

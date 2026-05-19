@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-801c21f5cbc4-P0121-01
+chunk_id: CHUNK-0f44a9e32d31-P0121-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
-converted_sha256: 801c21f5cbc46055b1ba1f642e3d7ad615f4808ad622a5d6b54e9fee7b448bda
+converted_sha256: 0f44a9e32d31e266452ad43653e637c07b14dbeea4c06c65e36ecb08e28361bd
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
@@ -154,14 +154,16 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-Page number: 122
+Page: 122
 
 ## Layout And Reading Order
-The page is presented in two columns. The header spans both columns. The main content flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
+
+The page is divided into two columns. The left column contains a transcript of parliamentary debate, including speaker names and their statements, followed by a list of names. The right column contains the date, a continuation of the list of names, a summary of voting results, and a longer speech by Sr. Pinedo. The content should be read from top to bottom in the left column, then from top to bottom in the right column.
 
 ## Literal Transcription
-1730 CAMARA DE DIPUTADOS Septiembre 21
 
+1730
+CÁMARA DE DIPUTADOS
 Sr. Bermúdez. — En que se dé por termina-
 do el debate y se vote el presupuesto.
 Sr. Presidente (Sánchez de Bustamante). —
@@ -190,9 +192,7 @@ Sr. Molinas. — Ya es miércoles.
 Sr. Presidente (Sánchez de Bustamante). —
 Se va a votar si se cierra el debate sobre el
 artículo 1o. del presupuesto.
-
 —Resulta afirmativa.
-
 Sr. Justo. — Pedimos rectificación nominal.
 Sr. Demaría. — Hay que plantear bien la
 cuestión. ¿Es la moción de cerrar el debate lo
@@ -201,13 +201,10 @@ Sr. Presidente (Sánchez de Bustamante). —
 Sí, señor diputado, sobre el artículo 1o.
 Sr. Ortiz. — No vamos a estar rectificando
 toda la noche.
-
 —Resulta suficientemente apoyada la in-
 dicación de votación nominal.
-
 Sr. Presidente (Sánchez de Bustamante). —
 Se va a proceder a rectificar nominalmente.
-
 —Votan por la afirmativa los señores di-
 putados Agüero Vera, Albarracín, Aldao,
 Anello, Aramburu, Aráoz, Barrera Ni-
@@ -222,29 +219,27 @@ Araujo, Moreno, Mouesca, Noriega, Núñez,
 O'Farrell, Ortiz, Otamendi, Quinteros,
 Remonda Mingrand, Rodríguez (C.), Ro-
 dríguez (J. R.), Rubilar, Santa María,
+
+Septiembre 21
 Tamborini, Tomaszewsky, del Valle y
 Yolde.
-
 —Votan por la negativa los señores dipu-
 tados de Andrés, Aranda, Astrada, Cár-
 cano, Constanti, Correa, Daneri, Demaría,
 Díaz de Vivar, Dickmann, Escobar, Fer-
-nández (D.), Ferraretti, González Ira-
+nández (D.), Ferrarotti, González Ira-
 main, Justo, Lagos, Leguizamón, Méndez
 Casariego, Míguez, Molinas, Muzio, Pa-
 dilla, Parodi, Peña, Pinedo, Pintos, Re-
 petto, Rodeyro, Sánchez Sorondo, Taboa-
 da, Tierney y de Tomaso.
-
 Sr. Secretario (González Bonorino). — Han
 votado por la afirmativa 50 señores diputados
 y por la negativa, 32.
 Sr. Presidente (Sánchez de Bustamante). —
 Queda cerrado el debate. Se va a votar el ar-
 tículo 1o. del despacho de la comisión.
-
 —Se vota y resulta afirmativa.
-
 Sr. Pinedo. — Pido la palabra.
 Para proponer un agregado al artículo 1o. El
 artículo que acaba de tratar la cámara dice:
@@ -287,12 +282,13 @@ aproveche, despilfarro por pura ignorancia o sea
 No meaningful images, captions, or visual notes were detected on this page.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+The last word of the second-to-last paragraph in the right column is "a!". It appears to be "al" but the 'l' is cut off or very faint. Transcribed as "a!".
+The last word of the page is "o sea". It is cut off, but "o sea" is a common phrase. Transcribed as "o sea".
 
 ## Completeness Audit
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful images, captions, or visual notes were detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful images, only text."}
 ```

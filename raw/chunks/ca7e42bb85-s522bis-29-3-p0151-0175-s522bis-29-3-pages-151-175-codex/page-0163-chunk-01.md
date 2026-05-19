@@ -1,0 +1,123 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-84e2ec81cd36-P0163-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md
+converted_sha256: 84e2ec81cd361b0a39383bc851eb99453457d94ddeb9b2b9470aeee691ef4f29
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json
+page_start: 163
+page_end: 163
+part: 1
+---
+
+# Page 163
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json`
+- Source page: 163
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/page-images/page-0163.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+po atrâs. Todos tienen terrenos cedidos por los gobiernos de provincia o por las municipalidades, que estân eseriturados a favor de la naciôn. Todo esta listo para poder comenzar de inmediato las eonstruceiones y falta solamente que la acciôn del parlamento se haga sentir, cuando menos para afirmar su pensamiento y su voluntad de dar a los eonseriptos, que van a Las filas, en cumplimiento de un deber, alojamiento conveniente para que tengan la seguridad compléta de que su salud no sera nunca comprometida y puedan asi sus hogares. estaitranquilos en la convicciôn de que sus liijos no han de padecer sufrimientos por falta de alojamientos decentes.
+
+- Sr. Présidente (Goyeneche). - à Para referirse a la indieaciôn ciel seîior diputado?
+
+Sr. Rodeyro. - Pido la palabra.
+
+Sr. Rodeyro. - Si, senor.
+
+- Sr. Présidente (Goyeneche). - Tiene la pa¬ labra el senor diputado.
+- Sr. Rodeyro. Deseo que el senor diputado me diga si el ministerio de guerra 'ha formulado el plan correspondiente. Supongo que la ubicaciôn de los cuarteles no se va a liaeer sola¬ mente por el pedido de un diputado, sino que debe responder a un plan y a una hnanciaciôn formulados por el ministerio respectivo. Me parece que la hora en que estamos, seis de la manana, no es a propôsito para discutir la construcciôn de cuarteles.
+
+Sr. Gatica. - Los diputados no somos res¬ ponsables de que a esta hora se estén discutiendo estas cuestiones. Poco importa la hora ; debe tenerse en cuenta la razôn y la justicia del pe¬
+
+dido.
+
+Debo manifestai' al senor diputado que esta no es una improvisaciôn. Tengo aqui los pianos formulados por la secciôn respectiva del minis¬ terio de guerra, pianos que calculan los cuar¬ teles de infanteria como de un eosto de pesos
+
+900.000 y los de caballeria en uno de 1.100.000.
+
+Sr. Demarîa. - Pido la palabra.
+
+La ubicaciôn de esos cuarteles ha sido indieada por la organizaciôn militar del pais. Yo no vengo a improvisar. Solo traigo la expresion de un gran anhelo sentido no solo por aquellas regiones a que me he referido, sino por el pais entero.
+
+- Sr. Rodeyro. ■-Tengo entendido que el se¬ nor diputado Albarracin en oportunidad ha presentado un proyecto al respecto, estableeiendo hasta una nueva tasa militar para las eonstruceiones a que se refiere. Es un pensa¬ miento orgânico, perfectamente meditado, pero que no obstante puede ser modifieado por la comision que estudie el proyecto.
+
+Sr. Présidente (Goyeneche). - Creo que los senores diputados han oido que el senor dipu¬
+
+tado Demarîa ha pedido la palabra.
+
+Sr. Demarîa. - Era simplemente para hacer una aelaraciôn, que creo que corresponde por la hora en que nos encontramos: prescindiendo de toda otra consideraciôn, vov a votaien contra de toda proposieiôn cuyo autor para fundarla emplee mâs de einco minutos. (Bisas).
+
+Sr. Franeioni. - Deseo saber que item se
+
+esta discutiendo.
+
+Sr. Présidente (Goyeneche). - Es un item nuevo que sera 4 1|2, si es aprobado.
+
+diputado por San Luis.
+
+Se va a leer la partida propuesta por el se¬ nor
+
+-Se loe:
+
+"Departamento de guerra. Item 4 1|2: Para m«eiar la construcciôn de cuarteles para los regimientos 10, 11, 12, 16 y el 15 de inïanterîa, segundo batallôn, en la ciudad de Gualeguay, Rosario, Santa Fe, San Luis y La Rioja, segundo batallôn de zapadores pontoneros en el Azul, del regimiento 3, 4, 6 y 11 de caballeria en las ciudades de Gualeguay, Mercedes, Concordia y Curuzû - Cuatiâ, a razôn d* 200.000 pesos cada uno, con excepciôn del cuartel de La Rioja, pesos 100.000., Total, 1.900.000 peso» moneda naeional'.
+
+## Sr.
+
+## Rodeyro. - Pido la palabra.
+
+Para preguntar en qué comision sc encuentra el proyecto ciel senor diputado Albarracin. Es interesante saber si bay despacho sobre ese asunto, porque es un plan orgânico perfecta¬ mente estudiado y no en la forma que lo pré¬ senta el senor diputado Gatiea. Entonees la câmara, informada por la comision, puede saber en qué forma va a orientar su voto.
+
+Sr. Gatica. - Es un asunto perfectamente
+
+explicado por el poder ejecutivo.
+
+Sr. Albarracin. - Pido la palabra.
+
+Efectivamente, he presentado un proyecto sobre construcciôn de ■cuarteles militares a ba* se de una modificaciôn a la legislaeiôn militar, es decir, a la ley 4707. Ese proyecto ha sido despachado por la comision de guerra y marina y se encuentra liace ya como dos anos figurando en la orclen del dia nûmero 23. La premura del tiempo y finalizando ya las sesiones ordinarias, me han decidido a no pedir prefereneia para este asunto.
+
+Indudablemente este proyecto présenta la cuestiôn de construir cuarteles militares en una forma orgânica. En primer lugar pensaba yo que en vez de pedir una cantidad de dinero determinada para la construcciôn de los euarteles era mâs conveniente pensaien la financiaciôn de la obra. Esa financiaciôn de la obra se ha hecho modificando la tasa militar que hoy se aplica en una forma completamente injusta y arbitraria, porque pagan la tasa mili tar los inutiles y los enfermos, que no debe; pagarla, y por las modificaciones que he pre¬ sentado deben pagarla loe sanos y aqueUos que sean exceptuados del servicio.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T03:14:16Z",
+  "created": "2026-05-19T18:33:02Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
@@ -9,38 +9,15 @@
   "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md",
   "no_visual_regions_reason": "",
-  "visual_regions": [
+  "visual_regions": [],
+  "skipped_regions": [
     {
-      "region_id": "p0013-calendar-1956",
-      "kind": "illustration",
-      "caption_literal": "CALENDAPIO 1956 OBSEQUI O DE LA ENPRESA",
-      "caption_type": "nearby-text",
-      "identity_basis": "none",
-      "source_context": "A small calendar for February 1956 is glued to the page.",
-      "confidence": "high",
-      "inline_anchor": "[[p0013-calendar-1956.jpg]]",
-      "bbox_pct": [
-        21.8,
-        77.2,
-        68.8,
-        95.2
-      ],
-      "bbox_pixels": [
-        1186,
-        6461,
-        3758,
-        7976
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-calendar-1956.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0013/page-0013-image-01-p0013-calendar-1956.png",
-      "page_image": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-images/page-0013.jpg",
-      "source": "raw/sources/El Aguila Nombre Grande Scan.pdf",
-      "source_sha256": "51f62b286f5311b9c8a752d59dc9b93f2fc39cbaab41f67387347af2ab3929d1",
-      "job_manifest": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/manifest.json",
-      "page": 13,
-      "output_markdown": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/page-markdown/page-0013.md"
+      "region_id": "vr-01",
+      "kind": "table",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "CALENDARIO 1956 OBSEQUIO DE LA EMPRESA",
+      "source_context": "A small, printed calendar for February 1956 is glued to the bottom of the page."
     }
   ],
-  "skipped_regions": [],
   "flags": []
 }

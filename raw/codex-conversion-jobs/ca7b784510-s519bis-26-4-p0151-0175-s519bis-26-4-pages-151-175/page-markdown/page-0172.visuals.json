@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:38:12Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json",
+  "page": 172,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0172.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-markdown/page-0172.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "Sr. don Alfredo Ricart Olives,\nPresidente de la Cámara de Comercio, Industria y Agricultura de Santo Domingo.\n(R. D.), al finalizar el año 1932 y quien presidió la Asamblea General del 30 de\ndiciembre de ese año. El Sr. Ricart Olives fué reelecto en el mismo cargo, para su\nejercicio durante el año 1933.",
+      "caption_type": "source-caption",
+      "identity_basis": "name_from_caption",
+      "source_context": "The caption identifies the subject of the photograph.",
+      "confidence": "0.95",
+      "inline_anchor": "Sr. don Alfredo Ricart Olives,",
+      "bbox_pct": [
+        11.6,
+        9.0,
+        81.0,
+        86.7
+      ],
+      "bbox_pixels": [
+        101,
+        124,
+        737,
+        1237
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0172/page-0172-image-01-sr-don-alfredo-ricart-olives-portrait.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0172/page-0172-image-01-sr-don-alfredo-ricart-olives-portrait.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-images/page-0172.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/manifest.json",
+      "page": 172,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/page-markdown/page-0172.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

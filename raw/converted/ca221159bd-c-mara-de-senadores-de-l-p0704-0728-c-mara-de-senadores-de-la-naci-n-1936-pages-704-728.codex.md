@@ -925,17 +925,24 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 714
+- **Task id**: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0714`
+- **Page number**: 714
+- **Source**: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 
 ## Layout And Reading Order
-The page is presented in a two-column layout. The content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom. There is a header at the top of the page with a page number on the left, the name of the institution in the center, and a date on the right. A small table is embedded within the text in the left column, and another small list of financial figures is in the right column.
+The page is laid out in a two-column format. A header spans the top of the page, containing the page number `1306` on the left, the title `CAMARA DE SENADORES DE LA NACION` in the center, and the date `Septiembre 29 y 30` on the right.
+
+The reading order is as follows:
+1.  Header.
+2.  Left column, from top to bottom. This column contains a small table.
+3.  Right column, from top to bottom. This column contains a small, indented list with numerical values.
 
 ## Literal Transcription
-1306 CAMARA DE SENADORES DE LA NACION septiembre 29 y 30
+```text
+1306 CAMARA DE SENADORES DE LA NACION Septiembre 29 y 30
 
 cambio a la par, da un capital ficticio, exce-
 dente de 13.282.000.
-
 Las transferencias de propiedades son tam-
 bién puntos que deben aclararse hasta tener
 la certeza de que las inversiones que su adqui-
@@ -952,27 +959,27 @@ luciones trascendentales en asuntos cuya docu-
 mentación no ha sido presentada en forma
 completa e imparcial a la consideración del
 Senado.
-
 Veamos las diferencias fáciles de establecer
 entre los precios de transferencias anotados
 por la Compañía Anglo Argentina y los que fi-
 guran en los registros que fueron del escribano
 nacional Pedro Zamit.
 
-| Nombre de la Compañía transferida | Año de la transferencia | Precio según los cómputos del Anglo Arg. | Precio según escrituras públicas del esc. Zamit |
-| :-------------------------------- | :---------------------- | :--------------------------------------- | :------------------------------------- |
-| Vía. Tranvías                     |                         |                                          |                                        |
-| Bs. As. y Belgrano                | 1907                    | £ 1.600.000                              | £ 1.350.000                            |
-| La Belga Argentina                | 1909                    | 1.400.000                                | 375.000                                |
-| La Capital.                       | 1909                    | 1.152.000                                | 1.152.970                              |
-| La Gran Nacional.                 | 1909                    | 847.030                                  | 597.300                                |
-| La Metropolitana.                 | 1910                    | 353.087                                  | 360.000                                |
-|                                   |                         | 5.352.117                                | 3.835.270                              |
+| Nombre de la Compañía<br>transferida | Año de la<br>transfe-<br>rencia | Precio según<br>los cómputos<br>del Anglo Arg. | Precio según<br>escrituras<br>públicas del<br>esc. Zamit |
+| :--- | :--- | ---: | ---: |
+| Cía. Tranvías | | £ | £ |
+| Bs. As. y Belgrano . . | 1907 | 1.600.000 | 1.350.000 |
+| La Belga Argentina . | 1909 | 1.400.000 | 375.000 |
+| La Capital . . . . . . . | 1909 | 1.152.000 | 1.152.970 |
+| La Gran Nacional . . | 1909 | 847.030 | 597.300 |
+| La Metropolitana . . . | 1910 | 353.087 | 360.000 |
+| | | --- | --- |
+| | | 5.352.117 | 3.835.270 |
 
 Diferencia entre ambas cuentas £ 1.516.847.
 
 Tendríamos, pues, que estas diferencias por
-contabilización exagerada de los precios «de
+contabilización exagerada de los precios de
 compra de las compañías que hoy integran la
 red de la Anglo Argentina que aparecen en las
 páginas 93, 94, 95, 96 y 97 del Diario de Se-
@@ -982,7 +989,6 @@ país, como capital invertido, sumas que supe-
 ran a las efectivas en £ 1.516.847, que al cam-
 bio par de $ m/n. 11,45 por libra, valen pe-
 sos moneda nacional 17.367.898.
-
 De este rápido exámen que no toma en cuen-
 ta los quebrantos en las emisiones, los pagos
 hechos por cuenta capital que debieron hacer-
@@ -994,15 +1000,14 @@ cido de simples combinaciones de contabilidad
 y de inversiones reales en la República Argen-
 tina, según:
 
-|                                     | $ m/n.       |
-| :---------------------------------- | :----------- |
-| Aguamiento en las acciones pre-     |              |
-| feridas . . . . . . . . . . . . . . | 13.282.000   |
-| Aguamiento en las obligaciones.     | 5.961.800    |
-| ” ” transferencias                  | 17.367.898   |
-
-Total de aguamientos ina-
-ceptables a primera vista 35.860.120
+| | $ m/n. |
+| :--- | ---: |
+| Aguamiento en las acciones pre- | |
+| feridas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .- | 13.282.000 |
+| Aguamiento en las obligaciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .- | 5.961.800 |
+| " " transferencias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .- | 17.367.898 |
+| Total de aguamientos ina- | |
+| ceptables a primera vista . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .- | 35.860.120 |
 
 Es decir, que el capital declarado por la
 Compañía Anglo Argentina, ofrece sin entrar
@@ -1013,17 +1018,15 @@ corias financieras y proceda a una retasa y re-
 valorización de sus papeles para ajustarlos al
 valor venal de sus bienes, es imperativo que esta
 Cámara no puede eludir.
-
 Pero hay más. El inciso c) del índice 4 del
 apartado c) del artículo 2º, dice el procedimien-
 to para fijar las tarifas: Deberá dar origen a
-recursos suficientes para: c) asegurar al capi-
+recursos suficientes para: c) «asegurar al capi-
 tal representado hasta un 7 % y su amortiza-
-ción. a cuyo efecto la corporación, deberá po-
+ción, a cuyo efecto la corporación, deberá po-
 ner a disposición de la comisión de control
 los libros y documentos que prueben sus en-
 tradas».
-
 En síntesis, los términos de la ley aseguran
 un interés del 7 % a los capitales actuales de
 la Anglo Argentina, puesto que según he demos-
@@ -1034,29 +1037,37 @@ no hay ni una previsión que autorice a inter-
 venir y a controlar los libros de la Compañía
 Anglo Argentina de Tranvías y anular esas par-
 tidas improcedentes.
-
 Voy a detenerme un momento en el análisis
 de las ventajas financieras que la indetermi-
-nación de la ley permite ganar no tiene
+nación de la ley presenta para la Compañía
+Anglo Argentina. Descubriremos la posibilidad
+de operaciones que anunciaré sin calificarlas.
+El 7 % que la ley permite ganar no tiene
 en realidad contralor alguno, puesto que el
-exámen de los gastos estará vedado a los miem-
+examen de los gastos estará vedado a los miem-
 bros de la Comisión de Control y a través de
 los gastos se pueden filtrar muy voluminosas
 ganancias. Pero no haremos hincapié en ese
 punto, cuya arbitrariedad ya he destacado a
 los señores senadores,
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+The page contains only text, arranged in a two-column layout. There are two small tables embedded within the text, which have been transcribed. There are no illustrations, photographs, or other significant visual elements.
 
 ## Uncertain Or Illegible
-None.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-All visible text and tabular data on the page has been transcribed.
+The entire page, including the header and all text in both columns, has been transcribed.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of text and two small, simple tables which are fully transcribed in the literal transcription section. There are no images, illustrations, or other visual elements that would warrant cropping."
+}
+```
 
 ## Page Metadata
 Page number: 715
@@ -2153,11 +2164,10 @@ No interpretation was produced by the Docling basic conversion pass.
 Page number: 726
 
 ## Layout And Reading Order
-The page presents text in two columns. The first column begins with the page number and a header, followed by the main body of text. The second column begins with a date header, followed by the continuation of the main body of text. The reading order flows from the top of the first column to the bottom, then from the top of the second column to the bottom.
+The page is laid out in two columns. The left column contains the page number "1318" and the header "CAMARA DE SENADORES DE LA NACION". The right column contains the header "Septiembre 29 y 30". The main content flows from top to bottom in the left column, then continues from top to bottom in the right column.
 
 ## Literal Transcription
-1318
-CÁMARA DE SENADORES DE LA NACIÓN
+1318 CAMARA DE SENADORES DE LA NACION Septiembre 29 y 30
 
 vías que nos ha citado hace un instante el se-
 ñor senador por San Luis, que necesariamente
@@ -2220,8 +2230,6 @@ No han aportado elementos de juicio suficien-
 tes respecto de las cuestiones fundamentales en
 este asunto. Todo lo que se refiere a la coordi-
 
-Septiembre 29 y 30
-
 nación en sí misma queda en una gran va-
 guedad.
 
@@ -2230,6 +2238,7 @@ y que se mejorará, pero no prueba que el ser-
 vicio no sea bueno. Y es que, señores senado-
 res, el servicio es bueno y sólo necesita una re-
 glamentación más completa y eficiente que la
+
 que tiene.
 
 Lo que llama «coordinación», no es tal coor-
@@ -2287,7 +2296,7 @@ san a estar garantizados por el pueblo de la Ca-
 pital, al que se subirán las tarifas en la pro-
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+None.
 
 ## Uncertain Or Illegible
 None.
@@ -2296,9 +2305,7 @@ None.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
 
 # Page 727
 

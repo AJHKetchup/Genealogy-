@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:12:48Z",
+  "created": "2026-05-19T18:33:20Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,16 +8,8 @@
   "page": 957,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/page-images/page-0957.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/page-markdown/page-0957.md",
-  "no_visual_regions_reason": "",
+  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The handwritten note is minor and captured by transcription.",
   "visual_regions": [],
-  "skipped_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten_note",
-      "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "La Nación, B.A. 10.10.35. Arg",
-      "source_context": "Handwritten note at the top of the page."
-    }
-  ],
+  "skipped_regions": [],
   "flags": []
 }

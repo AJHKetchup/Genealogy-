@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:34:16Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+  "page": 109,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0109.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0109.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr1",
+      "kind": "illustration",
+      "caption_literal": "VIVA CAGUILA!",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "This political cartoon appears within the article 'ACOTACIONES DEL MOMENTO | MEXICO, MAESTRO DE REVOLUCIONES'. The cartoon is signed 'CAS.' at the top right of the article.",
+      "confidence": "100",
+      "inline_anchor": "[Image of a political cartoon]",
+      "bbox_pct": [
+        37.8,
+        21.9,
+        52.1,
+        32.9
+      ],
+      "bbox_pixels": [
+        679,
+        525,
+        945,
+        798
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0109/page-0109-image-01-vr1-cartoon-viva-caguila.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0109/page-0109-image-01-vr1-cartoon-viva-caguila.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-images/page-0109.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/manifest.json",
+      "page": 109,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/page-markdown/page-0109.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

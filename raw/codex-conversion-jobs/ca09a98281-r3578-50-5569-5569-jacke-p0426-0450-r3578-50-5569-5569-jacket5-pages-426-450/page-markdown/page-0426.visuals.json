@@ -1,0 +1,61 @@
+{
+  "created": "2026-05-19T18:34:03Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+  "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
+  "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/manifest.json",
+  "page": 426,
+  "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/page-images/page-0426.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/page-markdown/page-0426.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "Swiss Cross",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Letterhead emblem",
+      "confidence": "0.9",
+      "inline_anchor": "",
+      "bbox_pct": [
+        6.25,
+        5.75,
+        9.75,
+        9.88
+      ],
+      "bbox_pixels": [
+        74,
+        96,
+        126,
+        176
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/extracted-images/page-0426/page-0426-image-01-swiss-cross-emblem.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/extracted-images/page-0426/page-0426-image-01-swiss-cross-emblem.png",
+      "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/page-images/page-0426.jpg",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
+      "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/manifest.json",
+      "page": 426,
+      "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/page-markdown/page-0426.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "vr_2",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "ACTUAL COPY RECEIVED IN REGISTRY - 8 AOUT 1932",
+      "source_context": "Registry stamp on letter"
+    },
+    {
+      "region_id": "vr_3",
+      "kind": "signature",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "",
+      "source_context": "Handwritten squiggle below the date"
+    }
+  ],
+  "flags": []
+}

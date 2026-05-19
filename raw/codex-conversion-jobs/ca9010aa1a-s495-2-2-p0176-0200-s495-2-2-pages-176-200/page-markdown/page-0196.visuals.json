@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-19T18:39:53Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 196,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0196.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0196.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "photograph",
+      "caption_literal": "Walk-Over",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "BAZAR UNION advertisement for men's clothing and accessories, featuring shoes.",
+      "confidence": "0.95",
+      "inline_anchor": "A circular image of two men's dress shoes, one slightly overlapping the other, with the brand name \"Walk-Over\" above them.",
+      "bbox_pct": [
+        47.8,
+        35.9,
+        62.0,
+        70.9
+      ],
+      "bbox_pixels": [
+        539,
+        573,
+        709,
+        1143
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0196/page-0196-image-01-bazar-union-walk-over-shoes.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0196/page-0196-image-01-bazar-union-walk-over-shoes.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0196.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 196,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0196.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "product_image",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "",
+      "source_context": "EL LAXANTE TÓNICO DEL DR. BELL advertisement."
+    }
+  ],
+  "flags": []
+}

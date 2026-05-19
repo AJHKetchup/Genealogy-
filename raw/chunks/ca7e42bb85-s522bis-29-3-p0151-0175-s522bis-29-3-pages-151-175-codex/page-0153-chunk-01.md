@@ -1,0 +1,128 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-84e2ec81cd36-P0153-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175.codex.md
+converted_sha256: 84e2ec81cd361b0a39383bc851eb99453457d94ddeb9b2b9470aeee691ef4f29
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json
+page_start: 153
+page_end: 153
+part: 1
+---
+
+# Page 153
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/manifest.json`
+- Source page: 153
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0151-0175-s522bis-29-3-pages-151-175/page-images/page-0153.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+T
+
+produeciôn y las plazas de eonsumo, no nos trae situ* gravisimas pcrturbacioues porque nos ha lieeho perder toda la fe, todo lo que aseguraba la vida propiu, para esperanzarnps en lo que nos traerla barato, segûu se creîa, el ferrocamJ, lo iinieo que lia lieeho y lo ûnico que han't tnienfcras no se produce una red meditada; mientras no se busqué para osas regiones -salidas al Pacîfico, sera, quitarnos nuestra gente y llevarnos los articulos de primera necesidad a preeios uni)' cnros.
+
+Se trata de regiones de produeciôn, de parve¬ nir, sobre todo en materias minérales, y agregaria mâs, que una voz que pensemos seriamente en el apartamiento de los fletes, elles tendrait que repercutir en formas saludable e inieiati-
+
+yas en aquellas regiones.
+
+Ta que de productos naeionales estoy tratanido, quiero intercalai' una aclaraciôn que se imponia, que ya iiizo la eoraisiôn anterior y que fué firmada por todos sus eomponenles le los distint,os sectores.
+
+Me refiero a una modificaciôn que introducia la eotnisiôn que présidia el doctor Molina a la ley 11024, que en su articulo (io. decîa aelarandb el eoneepto de esta ley: 'Cuando en la elaboraciim de la eerveza se emplee eebada del pats el impuesto se reducirîa a la mitad. Esta reclucciôn se'îtarâ en proporciôn a la cantidad de materia prima nacional empleada y de acuerdo con el sistema de comprobaeiôn que estableeerâ el poder ejecutivo'. Como se trata de una aclaraciôn, bêcha por medio de un miembro infor¬ mante, y dada la voïuntad maiïifiesta de la câmara, bastarâ esta aclaraciôn para fijar con-
+
+cepto obligatorio a la oficina respectiva.
+
+Esta aclaraciôn, se imponia precisamente pa¬ ra que tenga un criterio la oficina que lia de recaudar este impuesto, lo repito. El esfuerzo que se hace en"esta materia como en todo lo que tiende a .producir y a aprovecbar la produeciôn no sera nunea perdida. Hasta aquî desgracia damente se ha seguido la polîtica del remmeio. Nada de lo nuestro ha valido y nada de lo nuestro es lia aprovecliado, y las materias primas se exportan en un 80 por ciento mâs o menos y puede afirmarse que casi todos los productos elaborados nos vieuen del extranjero y da. pena, para uno que conoce el pais y lo recoure y estudia, recorrer nuestra lista de adnana. Nuestras importaciones son fabulosas de materias que producimos en gran cantidad, y no me he de eansar de repetir que hemos pensado en el abaratamiento de lo que nos viene de afuera y deseuidado en absoluto, como cosa. ajena, los productos que podrîamos aprovecliar dentro de nuestro
+
+propio pais.
+
+Quiero vincular la polîtica de la obra piibli.ea del aprovechamiento de la produeciôn nacio¬ nal, a todas estas grandes y generosas inieiativas que nos vieuen de los distintos sect ores de la câmara, y que tienden a soluÿonar el nro- blema econômico y social del pais, que tiende a elevar cl indice de vida, puesto que creo y sostengo siucerarneiite que si no se toma en cuenta, mas seriamente que hasta. ahora el factor produciôn nacional, no podremos llegar uunca ci una solueiôn verdadera y radical de los pro¬ blèmes linancieros Nada mâs.
+
+y sociales del pais.
+
+8
+
+## MOCION
+
+Sr. Sanchez Sorondo. - Pido la
+
+Sr. Raffo de la lista, - Pido la palabra.
+
+palabra.
+
+diputado.
+
+Sr. Presidents (Goyeneche). - La ban solieitado los senores diputados por Çôrdoba y por Buenos Aires. En seguida se la eonoederé al sefior
+
+Sr. Sanchez Sorondo. - Solicité la palabra para haeer una indicaciôn en cierta manera, de orden. Entiendo que la comisiôn de negocios constd.ucicnales ha producido dictamen en el caso que le hemos sometklo con motivo de la Cornisiôn investigadora de las boisas. No sé si
+
+estoy equîvocodo.
+
+Sr. Présidente (Goyeneche). - Si, senor di¬ putado.
+
+Sr. Sanchez Sorondo, - ... en caso afirmativo, baria indicaciôn primero, para que se autorice a la presidencia a darle entrada y segundo, para que la câmara lo considère en la sesiôn de boy, después de eoncluir con el presupuesto, con mantenimiento de quorum.
+
+-Apoyado.
+
+Sr. Présidente (Goyeneche). - La indica¬ ciôn del senor diputado se considerarâ cuando termine el
+
+presupuesto.
+
+Sr. Sanchez Sorondo. - No, senor présiden¬ te, precisamente mi interrupciôn respondia al deseo de aprovecliar de esta meefida de msrtener el
+
+quorum a que estamos sometidos.
+
+Sr. Présidente (Goyenc-che). - Muy bien, senor diputado ; una vez que se termine el presupuesto, el quorum se nmntendrâ y se considerarâ la indicaciôn del senor
+
+diputado,
+
+Tiene la palabra el seüor diputado ,por Cor¬ doba.
+
+9
+
+## PRESUPUESTO E IMPUESTOS PARA 1020
+
+Sr. Martinez (E.). - Para decir muy pocaa. La partida îrûmero 31. aconsejada por la co¬ misiôn, tiene un error de. redacciôn, y espero
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

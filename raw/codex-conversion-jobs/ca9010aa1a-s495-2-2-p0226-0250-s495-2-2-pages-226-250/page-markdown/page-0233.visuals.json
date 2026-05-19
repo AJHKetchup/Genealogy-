@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:40:11Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/manifest.json",
+  "page": 233,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-images/page-0233.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-markdown/page-0233.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "An illustration of a person riding a Harley-Davidson motorcycle with a sidecar, parked under a tree next to a body of water. The image is framed by decorative borders on the left and right.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "This image is part of the Harley-Davidson advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        18.9,
+        26.9,
+        37.9,
+        76.4
+      ],
+      "bbox_pixels": [
+        208,
+        422,
+        428,
+        1213
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-01-harley-davidson-motorcycle-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-01-harley-davidson-motorcycle-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-images/page-0233.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/manifest.json",
+      "page": 233,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-markdown/page-0233.md"
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "illustration",
+      "caption_literal": "A detailed illustration of a bottle labeled \"QUINA LAROCHE\".",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "This image is part of the Quina-Laroche advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        51.4,
+        22.9,
+        84.9,
+        34.9
+      ],
+      "bbox_pixels": [
+        572,
+        358,
+        955,
+        556
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-02-quina-laroche-bottle-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-02-quina-laroche-bottle-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-images/page-0233.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/manifest.json",
+      "page": 233,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-markdown/page-0233.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

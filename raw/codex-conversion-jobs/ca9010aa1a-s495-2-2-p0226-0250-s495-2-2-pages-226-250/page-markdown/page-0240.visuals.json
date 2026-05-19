@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:41:54Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/manifest.json",
+  "page": 240,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-images/page-0240.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-markdown/page-0240.md",
+  "no_visual_regions_reason": "The page consists entirely of text, primarily advertisements. There are no photographs, illustrations, maps, or other significant visual elements that would warrant cropping as standalone assets.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

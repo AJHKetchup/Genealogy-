@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:37:05Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json",
+  "page": 323,
+  "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0323.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-markdown/page-0323.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Decorative header at the top of the page.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        8.0,
+        6.9,
+        15.5,
+        84.9
+      ],
+      "bbox_pixels": [
+        55,
+        81,
+        119,
+        1045
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/extracted-images/page-0323/page-0323-image-01-decorative-header-323.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/extracted-images/page-0323/page-0323-image-01-decorative-header-323.png",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0323.jpg",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json",
+      "page": 323,
+      "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-markdown/page-0323.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

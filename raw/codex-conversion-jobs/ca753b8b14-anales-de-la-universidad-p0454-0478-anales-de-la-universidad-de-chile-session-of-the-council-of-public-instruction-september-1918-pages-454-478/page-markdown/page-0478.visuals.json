@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:37:31Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json",
+  "page": 478,
+  "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0478.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-markdown/page-0478.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "TYPE B HOUSES - SEWELL\n40-42",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The image itself contains the caption 'TYPE B HOUSES - SEWELL' printed along its side, and a handwritten annotation '40-42' in the corner.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.8,
+        11.5,
+        80.6,
+        87.6
+      ],
+      "bbox_pixels": [
+        91,
+        137,
+        601,
+        1078
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/extracted-images/page-0478/page-0478-image-01-type-b-houses-sewell-40-42.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/extracted-images/page-0478/page-0478-image-01-type-b-houses-sewell-40-42.png",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0478.jpg",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json",
+      "page": 478,
+      "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-markdown/page-0478.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

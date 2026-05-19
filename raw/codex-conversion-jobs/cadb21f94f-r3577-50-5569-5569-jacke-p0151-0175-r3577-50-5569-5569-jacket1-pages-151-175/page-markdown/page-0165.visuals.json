@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:38Z",
+  "created": "2026-05-19T18:33:00Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R3577-50-5569-5569-Jacket1.pdf",
@@ -15,8 +15,8 @@
       "region_id": "vr_1",
       "kind": "other",
       "reason": "low_value_visual_region_not_saved",
-      "caption_literal": "Circular, orange-brown paper reinforcement ring around a punched hole.",
-      "source_context": ""
+      "caption_literal": "A circular, orange-brown paper reinforcement ring around a punched hole.",
+      "source_context": "Physical feature of the document."
     }
   ],
   "flags": []

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:56Z",
+  "created": "2026-05-19T18:33:00Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4749-11C-17499-5398.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vr1",
+      "region_id": "region_1",
       "kind": "photograph",
       "caption_literal": "",
       "caption_type": "converter-description",
       "identity_basis": "converter-description",
-      "source_context": "The image depicts a large, multi-story building with a porch and surrounding grounds. It is presented without a caption on the page.",
-      "confidence": "high",
+      "source_context": "The image shows a large, multi-story building with a prominent central section, wings, a tiled roof, and a covered porch. It is set on a lawn with garden beds and surrounded by trees.",
+      "confidence": "0.95",
       "inline_anchor": "",
       "bbox_pct": [
-        16.62,
+        16.9,
         18.0,
-        79.94,
-        85.44
+        81.2,
+        85.4
       ],
       "bbox_pixels": [
-        284,
+        289,
         210,
-        1390,
+        1412,
         1019
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-grounds.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-grounds.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-garden.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-garden.png",
       "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-images/page-0160.jpg",
       "source": "raw/sources/R4749-11C-17499-5398.pdf",
       "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",

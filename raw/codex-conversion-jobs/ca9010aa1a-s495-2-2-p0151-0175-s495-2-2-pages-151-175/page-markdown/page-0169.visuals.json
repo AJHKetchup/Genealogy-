@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:39:43Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+  "page": 169,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0169.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0169.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Chalet \"LA GEISHA\"\nLA MEJOR CANTINA EN AMAPALA\npor su gran surtido de Licores, exquisitos Refrescos\ny gran variedad de Sandwiches\nESPECIALIDAD EN PREPARACION DE TISTES, SABROSA\nBEBIDA NICARAGUENSE",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "Advertisement for Justo Abarca R.",
+      "confidence": "0.95",
+      "inline_anchor": "Image of a building by the water with a mountain in the background",
+      "bbox_pct": [
+        39.9,
+        22.8,
+        61.8,
+        74.6
+      ],
+      "bbox_pixels": [
+        445,
+        360,
+        699,
+        1195
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0169/page-0169-image-01-chalet-la-geisha-amapala.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0169/page-0169-image-01-chalet-la-geisha-amapala.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0169.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+      "page": 169,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0169.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

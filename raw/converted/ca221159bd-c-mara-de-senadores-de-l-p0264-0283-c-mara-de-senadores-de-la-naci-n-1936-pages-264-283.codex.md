@@ -1,0 +1,1310 @@
+# Cámara de Senadores de la Nación, 1936 pages 264-283
+
+## Conversion Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Conversion method: Codex local vision workbench
+- Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/extracted-images`
+
+## Page Metadata
+Page number: 264
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily a continuation of a numbered list, followed by a heading and a final article. A page number "5" is present in the bottom right corner.
+
+## Literal Transcription
+
+ferir poderes para las tramitaciones judiciales y administra-
+tivas que sean necesarias;
+b) Llevar el inventario general de todos los valores pertene-
+cientes a la institución y tener los fondos depositados en el
+Banco de la Nación, en efectivo o en títulos de la deuda
+pública nacional;
+c) Celebrar convenios de compraventa o locación de bienes
+inmuebles. Celebrar contratos para adquisición de mate-
+riales o ejecución de obras con licitación pública; y sin ella
+hasta un máximo de veinte mil pesos moneda nacional. En
+las reparaciones y conservación de pavimentos y caminos
+la Dirección Nacional de Vialidad podrá realizar las obras
+o trabajos por vía administrativa, por administración con-
+tratada o por licitación pública.
+En la adquisición de materiales se dará preferencia a
+los de producción nacional en igualdad de condiciones, ca-
+lidad y precio;
+d) Preparar anualmente el presupuesto general de gastos y
+cálculo de recursos, que elevará al Poder Ejecutivo, el que
+lo remitirá al Congreso, para su aprobación, y en caso de
+que el Congreso, antes del 1º de enero, no pudiera aprobar
+el presupuesto, quedará en vigencia por la sola aprobación
+del Poder Ejecutivo;
+e) No podrá invertir en remuneración del Directorio y sueldos
+del personal técnico y administrativo más del 8 % del pre-
+supuesto de la institución;
+f) No podrá apartarse de las autorizaciones de gastos conte-
+nidas en el presupuesto aprobado;
+g) Nombrar, ascender y remover en los casos de mala con-
+ducta o mal desempeño de sus funciones o necesidades del
+servicio al personal administrativo o técnico, previo informe
+del ingeniero Jefe.
+Establecerá el escalafón para sus empleados, aseguran-
+do en el reglamento respectivo su estabilidad. Las vacantes
+de los cargos técnicos de todas las oficinas serán provistas
+por concurso.
+
+INGENIERO JEFE
+
+Art. 7º — El Ingeniero Jefe será un funcionario cuyo nombra-
+miento y remoción estarán a cargo del Poder Ejecutivo a propuesta
+
+5
+
+## Images, Captions, And Visual Notes
+
+The page number "5" is present in the bottom right corner.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text and the page number have been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page number is a minor mark and not cropped."}
+```
+
+## Page Metadata
+Page number: 6
+
+## Layout And Reading Order
+The page presents text in a single column. It begins with a paragraph, followed by a lettered list of duties. Two main headings, "CONSEJO TECNICO" and "CONTABILIDAD", introduce subsequent articles (Art. 8° and Art. 9°). A page number "6" is present at the bottom left.
+
+## Literal Transcription
+
+del Directorio. Será un profesional especializado en carreteras y ten-
+drá las siguientes atribuciones y deberes:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Proyectar la organización técnica de la Dirección;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Preparar y someter a la resolución del Directorio los estu-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dios económicos y técnicos y llevar las estadísticas que sir-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;van de base para proyectar el plan de construcción de la
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;red troncal de caminos nacionales por un período de cinco
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;años y proponer el orden de preferencia de cada uno de sus
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tramos en provincias y territorios;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Estudiar los planes camineros de ayuda federal y someter
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;las conclusiones al Directorio;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Ejecutar todas las disposiciones del Directorio, siendo res-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ponsable ante el mismo, de la marcha de la Repartición y
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de los trabajos que se efectúen directa o indirectamente,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bajo su contralor;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e) Proponer al Directorio nombramientos, ascensos y remocio-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nes del personal de acuerdo con lo establecido en la regla-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mentación correspondiente y previa su consideración por el
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consejo Técnico;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f) Asesorar al Directorio en todas las cuestiones técnicas que
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;se planteen, previa su consideración por el Consejo Técnico;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g) Presidir el Consejo Técnico;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h) Asistir a las reuniones del Directorio con voz, pero sin voto.
+
+CONSEJO TECNICO
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 8° — El Consejo Técnico estará formado por los jefes de
+las divisiones u oficinas principales de la Dirección, según lo esta-
+blezca la reglamentación que dicte el Directorio, con el fin de ase-
+sorar al Ingeniero Jefe.
+
+CONTABILIDAD
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 9° — Los ejercicios financieros de la Dirección Nacional
+de Vialidad se cerrarán al 31 de diciembre de cada año. El Direc-
+torio elevará al Poder Ejecutivo, dentro del primer trimestre si-
+guiente, la Memoria correspondiente al ejercicio terminado conjun-
+tamente con la rendición completa y detallada de las cuentas para
+su conocimiento por la Contaduría General de la Nación, la que exa-
+minará el balance antes de ser publicado y elevado con la Memoria
+al Congreso.
+
+6
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+
+## Page Metadata
+- Page: 266
+- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283:p0266`
+
+## Layout And Reading Order
+The page contains a main text block, structured with articles and numbered points, preceded by a chapter heading and a section title. A page number is present at the bottom right. The reading order is top-to-bottom, left-to-right.
+
+## Literal Transcription
+Art. 10° — La Contaduría General de la Nación intervendrá en
+la aprobación de las cuentas de gastos e inversión de fondos auto-
+rizados por la Dirección Nacional de Vialidad, quedando facultada
+para examinar libros y documentos, designar interventores y orde-
+nar los arqueos e inventarios que juzgue convenientes.
+
+CAPITULO III
+
+**FONDO NACIONAL DE VIALIDAD**
+
+Art. 11° — Créase un fondo nacional de vialidad destinado al
+estudio, trazado, construcción, mejoramiento, conservación, repara-
+ción y reconstrucción de caminos y obras anexas. Estos fondos se
+aplicarán exclusivamente a la ejecución de las obras dispuestas por
+la presente ley.
+
+Art. 12° — El fondo nacional de vialidad se formará con los si-
+guientes recursos:
+
+1° Impuesto adicional, durante 15 años, de 0,05 $ m/n por
+litro a la nafta y de 15 % al valor sobre el precio de venta
+por mayor que corresponda por kilogramo, a los aceites
+lubricantes de motores a explosión. Estos impuestos debe-
+rán ser abonados por las empresas productoras o expende-
+doras desde la fecha y en la forma que lo establezca esta
+Ley y lo reglamente el Poder Ejecutivo;
+2° Contribución del artículo 8° de la Ley 5315 hasta el 1° de
+enero de 1947, incorporando el saldo existente que arroje la
+contabilidad de esa Ley en la fecha de sanción de la presen-
+te. Los fondos provenientes de la Ley 5315 serán invertidos
+de acuerdo con lo estatuído en las mismas y su contabili-
+dad se llevará por separado;
+3° Aportes de rentas generales no inferior a pesos 10.000.000
+moneda nacional que fije el presupuesto general de la Na-
+ción;
+4° El producto de la tasa por contribución de mejoras a la
+tierra rural en los territorios nacionales, beneficiada por los
+caminos;
+5° Multas por incumplimiento de contratos de obras de via-
+lidad o de infracciones a la presente Ley;
+6° Donaciones, legados o aportes;
+
+7
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The number "7" at the bottom right is a page number.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all text and the page number as presented on the source image.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+
+## Page Metadata
+- Page number: 267
+- Source publication year: 1936
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily legal or administrative articles, presented in a hierarchical structure with numbered points and articles, some of which contain lettered sub-points. A page number is centered at the bottom.
+
+## Literal Transcription
+7º Negociación de títulos que se autorice a emitir para obras
+de vialidad;
+8º Rentas de títulos o intereses por sumas acreedoras.
+
+Art. 13º — El Poder Ejecutivo queda autorizado a emitir, a
+propuesta de la Dirección Nacional de Vialidad, “Bonos de obras de
+vialidad” hasta la suma de 200.000.000 de $ m/n, con destino a la
+construcción de caminos, los que serán servidos con los recursos
+creados por la presente Ley. Estos bonos serán títulos de la deuda
+pública y no podrán ser colocados a un tipo inferior del 90 % ni a
+un interés mayor del 6 % anual.
+Art. 14º — Todos los recursos serán depositados en cuenta es-
+pecial y al interés corriente en el Banco de la Nación Argentina, a
+la orden y disposición de la Dirección Nacional de Vialidad en la
+forma que lo establecen los distintos incisos del presente artículo, y
+su inversión se hará de acuerdo con las disposiciones de esta Ley:
+a) La Tesorería General de la Nación depositará mensualmen-
+te en el Banco de la Nación, en la cuenta de la Dirección
+Nacional de Vialidad, las sumas correspondientes a la con-
+tribución de rentas generales, establecidas en el inciso 3º
+del artículo 12º de esta Ley;
+b) La Administración General de Impuestos Internos llevará
+una cuenta especial denominada “Impuestos nacionales a
+los combustibles y lubricantes” y depositará mensualmente
+en el Banco de la Nación, a la orden de la Dirección Na-
+cional de Vialidad, las sumas percibidas de los fondos crea-
+dos por el artículo 12, inciso 1º de esta Ley.
+
+Art. 15º — Promulgada la presente Ley, a partir del 1º de enero
+de 1933, quedan sin efecto los convenios celebrados con anterioridad
+entre el Poder Ejecutivo de la Nación y las empresas expendedo-
+ras de combustibles y desde la misma fecha quedará suprimido el
+impuesto interno a la nafta creado por la Ley de impuestos Nº 11.582.
+
+Los saldos existentes en la fecha de promulgación de la presen-
+te Ley se transferirán a la orden de la Dirección Nacional de Via-
+lidad.
+
+8
+
+## Images, Captions, And Visual Notes
+The page number "8" is centered at the bottom of the page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the page number have been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on this page that would require cropping."}
+
+## Page Metadata
+Page number: 268
+
+## Layout And Reading Order
+
+The page contains a main heading, a subheading, and several numbered articles with sub-points, all presented in a single column. There is a page number at the bottom right.
+
+## Literal Transcription
+
+CAPITULO IV
+
+TRAZADO. — INVERSION Y DISTRIBUCION DE FONDOS
+
+Art. 16º — De acuerdo con lo que establece el artículo 3º de la
+presente Ley, la Dirección Nacional de Vialidad proyectará la red
+troncal de caminos nacionales y sus ampliaciones sucesivas. Declá-
+rase de utilidad pública todos los terrenos necesarios para la cons-
+trucción de dicha red, quedando facultada la Dirección Nacional de
+Vialidad para entablar los juicios de expropiación correspondientes,
+pudiendo celebrar arreglos directos con los propietarios para la ad-
+quisición de los terrenos indispensables a ese fin.
+
+Art. 17º — La Dirección Nacional de Vialidad establecerá las
+condiciones generales de trazado y ancho de los caminos nacionales
+de acuerdo con los siguientes principios:
+
+a) Los caminos de la red troncal tendrán un ancho uniforme y
+    mínimo de 30 metros donde las condiciones topográficas y
+    económicas lo permitan.
+b) El trazado de los caminos se hará, en lo posible, siguiendo
+    la menor distancia entre los puntos extremos o entre las lo-
+    calidades intermedias de importancia, con las desviaciones
+    impuestas por la topografía del suelo y conveniencia del
+    transporte.
+
+Art. 18º — Los caminos nacionales así como los ensanches y
+obras anexas a los mismos serán de propiedad exclusiva de la Na-
+ción, a cuyo efecto la Dirección Nacional de Vialidad obtendrá la
+escrituración correspondiente de las tierras necesarias, previa cesión
+o expropiación de las mismas y la demolición de las construcciones
+existentes. Este derecho de propiedad no afectará el derecho de las
+provincias y municipalidades dentro de sus respectivas jurisdicciones.
+
+Art. 19º — El 60 % del fondo nacional de vialidad se destinará
+a los caminos nacionales y se invertirá, previa deducción de los gas-
+tos de administración, servicio de títulos y recursos para conserva-
+ción de caminos, en cuenta separada para la Capital, Provincias y
+Territorios Nacionales en la siguiente forma:
+
+    20 % en proporción a la superficie
+    40 „ „ „ „ población; y
+    40 „ „ al consumo de nafta.
+
+9
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+```
+
+## Page Metadata
+- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283:p0269`
+- Page: 269
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily legislative articles and sub-points. There is a chapter title and a section title. A page number is present at the bottom left.
+
+## Literal Transcription
+
+Estas proporciones serán establecidas con relación a la superficie
+y población generales del país, comparadas con las de cada provin-
+cia y territorio. La población y el consumo de nafta se establecerán
+de acuerdo a la estadística oficial del año precedente.
+Art. 20º — La Dirección Nacional de Vialidad podrá convenir,
+si lo considera conveniente, que la construcción y reparación de los
+caminos en los Territorios Nacionales sean efectuados por interme-
+dio de las municipalidades, consorcios, u otros organismos locales de
+vialidad interesados, estableciendo los pactos necesarios.
+Art. 21º — En los Territorios Nacionales donde la Dirección
+Nacional de Vialidad construya calzadas de tránsito permanente, el
+Poder Ejecutivo fijará la proporción y distribución de la contribu-
+ción de mejoras con que deben participar las propiedades territoria-
+les beneficiadas, ajustándose a las siguientes normas:
+    a) Dos años después de librados los caminos al servicio público
+        se procederá a establecer el mayor valor recibido por las
+        propiedades territoriales, mediante una revaluación de las
+        mismas, excluídas las mejoras. Esta valuación se hará por
+        unidades de superficie imponible hasta cinco kilómetros a
+        cada lado del camino.
+    b) Todas las propiedades que hayan recibido un mayor valor
+        contribuirán al pago de la obra efectuada con una suma no
+        inferior al 65 % del mayor valor recibido por cada una.
+        La contribución de las mejoras de las propiedades te-
+        rritoriales se cobrará en cuotas anuales, de manera que el
+        importe total con sus intereses quede cancelado en el térmi-
+        no de diez años debiendo la Dirección Nacional de Vialidad
+        asegurar la transitabilidad permanente de los mismos du-
+        rante dicho período:
+    c) El contribuyente que pagare al contado gozará de un
+        descuento del 10 %.
+
+CAPITULO V
+
+AYUDA FEDERAL A LAS PROVINCIAS
+
+Art. 22º — La Dirección Nacional de Vialidad acordará del
+fondo nacional de vialidad, una ayuda a las provincias para la cons-
+trucción de caminos, de acuerdo con lo que se establece en el presente
+capítulo.
+Art. 23º — Toda provincia que desee acogerse a los beneficios
+
+10
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+The transcription is complete and accurate.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone assets."}
+```
+
+## Page Metadata
+Page number: 270
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily legal or administrative in nature, structured with an introductory paragraph, a lettered list, and a numbered list nested within one of the lettered items. An article number and its associated text follow. A page number is present at the bottom right.
+
+## Literal Transcription
+establecidos en este capítulo deberá hacerlo por ley provincial que
+servirá de convenio entre la provincia y la Nación, y con las siguien-
+tes disposiciones:
+
+a) Creación de un organismo encargado de la administración
+de todo lo referente a la vialidad provincial en general, y
+en particular a la aplicación de las disposiciones de las le-
+yes-convenios sobre vialidad y administración de los fondos
+que se creen;
+
+b) Creación de un fondo provincial de vialidad con recursos
+propios, entre los que se cuenten los siguientes:
+1° Producto de los impuestos provinciales creados o que se
+crearen a la nafta, debiendo establecerse que se comprome-
+ten a no gravar con más de pesos 0,02 por litro a la nafta y
+no gravar a los lubricantes con impuesto alguno. Este com-
+promiso alcanza también a las municipalidades;
+2° El producto de la contribución de mejoras sobre la propie-
+dad territorial beneficiada por la construcción de caminos
+afirmados nacionales y de ayuda federal;
+3° El producto de los impuestos creados o a crearse con
+destino a caminos u obras de vialidad en general.
+
+c) Estableciendo las garantías legales necesarias para que el
+tránsito a través de las jurisdicciones locales incluídas en el
+trazado de los caminos provinciales no sufra obstrucciones
+indebidas, legales o de hecho, de acuerdo con lo dispuesto en
+el artículo 35° de esta Ley;
+
+d) Las provincias deberán imponer una contribución de mejo-
+ras sobre las propiedades territoriales beneficiadas por la
+construcción de los caminos nacionales, debiendo figurar
+ésta en la Ley-convenio;
+
+e) Las provincias que no cumplan con las presentes disposicio-
+nes serán consideradas como no habiéndose acogido a los
+beneficios de esta Ley y no recibirán, por lo tanto, ayuda
+federal.
+
+Art. 24° — Una vez establecidos los trazados de los caminos
+provinciales, complementarios de la red nacional que han de reci-
+bir ayuda federal, deberán ser comunicados a la Dirección Nacional
+de Vialidad, la cual podrá formular las observaciones correspon-
+dientes, no pudiendo efectuarse obra alguna con ayuda federal en
+ningún camino, mientras que su trazado y demás características no
+hayan sido aprobadas por esta Dirección.
+
+11
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+
+## Page Metadata
+Page number: 271
+
+## Layout And Reading Order
+The page contains a single column of text, consisting of several articles (Art. 25°, Art. 26°, Art. 27°, Art. 28°) and their sub-sections, along with a bolded heading. A page number "12" is present at the bottom left.
+
+## Literal Transcription
+
+Art. 25° — La Dirección Nacional de Vialidad distribuirá entre
+las provincias que se acojan a los beneficios de esta Ley, deducidos
+los gastos de administración, servicio de títulos y recursos para
+conservación de todos los caminos de la red nacional y excluído el
+producto del artículo 8° de la Ley 5315 y el producto del impuesto a
+la tierra en los territorios nacionales:
+
+a) Por partes iguales el 5 % de las sumas que ingresen anual-
+mente por todo concepto al fondo nacional de vialidad. La
+suma que se obtenga en este concepto ingresará en el fondo
+provincial para caminos y quedará excluído del inciso b),
+a los efectos del prorrateo;
+b) El 35 % restante de los recursos a prorratearse en la si-
+guiente forma:
+La tercera parte en proporción al presupuesto anual efec-
+tivo para la construcción de caminos de cada provincia;
+La tercera parte en proporción a la población;
+La tercera parte en proporción al consumo de nafta.
+Estas proporciones se tomarán en relación a las sumas de
+los respectivos parciales de todas las provincias. El presu-
+puesto anual efectivo y el consumo de nafta serán los del
+año inmediato anterior.
+
+Art. 26° — La ayuda federal no excederá del 50 % del total
+invertido en obras de caminos y no sobrepasará la suma que le co-
+rresponda a cada provincia de acuerdo con el prorrateo que estable-
+ce el inciso b) del artículo 25°. La contribución por kilómetro de ca-
+mino no será mayor de 30.000 pesos moneda nacional.
+
+**PROCEDIMIENTO PARA PERCIBIR LA AYUDA FEDERAL**
+
+Art. 27° — La Dirección Nacional de Vialidad comunicará anual-
+mente a cada provincia la suma disponible para la misma en concep-
+to de ayuda federal de acuerdo a las proporciones establecidas en
+esta Ley.
+
+Art. 28° — Para hacer efectiva la ayuda federal destinada a la
+construcción de los caminos provinciales, cada provincia deberá:
+
+a) Presentar a la Dirección Nacional de Vialidad un plan de
+caminos a construirse de acuerdo con las determinaciones de
+esta Ley;
+b) Especificar la situación y kilometraje del o los caminos
+cuya construcción se propone realizar durante el año;
+
+12
+
+## Images, Captions, And Visual Notes
+No meaningful visuals are present on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the page number have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visuals present."}
+```
+
+## Page Metadata
+Page number: 272
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily legal or administrative articles, followed by a page number at the bottom right.
+
+## Literal Transcription
+c) Para percibir las sumas establecidas en el inciso b) del
+artículo 25° se deberá, además, especificar en qué caminos
+o secciones de caminos se efectuarán las obras que se pro-
+yectan y la naturaleza de las mismas.
+Art. 29° — Las especificaciones establecidas en el artículo pre-
+cedente deberán ser aprobadas por la Dirección Nacional de Via-
+lidad, la que podrá hacer las observaciones que considere con-
+veniente.
+Art. 30° — Todas las obras con ayuda federal deberán esr efec-
+tuadas por licitación pública y los pagos de las sumas establecidas
+en el inciso b) del artículo 25°, se harán contra la presentación de
+certificados de obra terminada, previa conformidad del ingeniero
+representante de la Dirección Nacional de Vialidad en cada pro-
+vincia.
+La Dirección Nacional de Vialidad tendrá el derecho de ins-
+peccionar y fiscalizar en cualquier momento todos los trabajos
+efectuados con ayuda federal.
+Las provincias podrán convenir la construcción y conservación
+de los caminos de ayuda federal por intermedio de la Dirección
+Nacional de Vialidad.
+Art. 31° — Las provincias están obilgadas a mantener en per-
+fecto estado de conservación los caminos provinciales construídos
+con ayuda federal, efectuando todas las reparaciones que sean ne-
+cesarias con sus fondos propios.
+En caso de no cumplirse las disposiciones de este artículo, la
+Dirección Nacional de Vialidad procederá a efectuar directamente
+las reparaciones necesarias, previa intimación perentoria, cargan-
+do el costo de las mismas a la cuota que le corresponda a cada pro-
+vincia según el inciso b) del artículo 25°, y suspenderá la aproba-
+ción de nuevas obras en la misma hasta el reintegro total de esas
+sumas, las que serán de inmediato redistribuídas entre las demás
+provincias acogidas a esta Ley.
+Art. 32° — Las provincias están obligadas a rendir cuenta
+anualmente del desarrollo total del plan de trabajo efectuado con
+ayuda federal. En caso de no cumplirse las disposiciones de este
+artículo, la Dirección Nacional de Vialidad, previa notificación,
+suspenderá la ayuda federal a esa provincia, corriendo mientras
+tanto la prescripción que establece el artículo siguiente.
+Art. 33° — El derecho a las sumas correspondientes a la ayuda
+federal termina a los dos años de haberse hecho la comunicación
+a que se refiere el artículo 27 de esta Ley, aunque se hubiesen
+
+13
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was found.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text."}
+```
+
+## Page Metadata
+Page number: 273
+Source publication year: 1936
+
+## Layout And Reading Order
+The page contains a single column of text, continuing a paragraph from the previous page, followed by several articles (`Art. 34°` to `Art. 39°`) under the heading `CAPITULO VI.` and subheading `Disposiciones generales`. A page number `14` is present at the bottom center.
+
+## Literal Transcription
+
+percibido parcialmente. Si en el transcurso de dos años las provin-
+cias no hubieran utilizado los fondos de ayuda federal que le co-
+rrespondieren pasarán nuevamente al fondo general de vialidad.
+    Art. 34° — La Dirección Nacional de Vialidad sólo podrá in-
+vertir fondos en territorios provinciales, en los caminos pertene-
+cientes a la red troncal nacional y en los de ayuda federal de
+acuerdo a lo que se establece en el capítulo respectivo de esta Ley
+o en la ejecución de lo dispuesto en el artículo 8° de la Ley 5315.
+
+CAPITULO VI.
+
+Disposiciones generales
+
+    Art. 35° — La Dirección Nacional de Vialidad efectuará el se-
+ñalamiento y numeración de los caminos nacionales y propenderá a
+la adopción para todo el país de un sistema uniforme.
+    Art. 36° — La Dirección Nacional de Vialidad hará levantar
+y publicar un plano general y los planos detallados que considere
+necesarios de los caminos de la República, haciendo constar sus ca-
+racterísticas de mayor importancia. A ese efecto podrá ponerse de
+acuerdo con las instituciones públicas o privadas que crea conve-
+niente.
+    Art. 37° — La Dirección Nacional de Vialidad preparará la re-
+glamentación general del tráfico para los caminos nacionales y pro-
+penderá a la adopción para toda la Nación de los principios que la
+informen, poniéndose de acuerdo para ello con los organismos pro-
+vinciales de vialidad.
+    Esta reglamentación será sometida a la aprobación del Poder
+Ejecutivo.
+    Art. 38° — Cuando los Ministerios de Guerra y Marina crean
+conveniente la construcción o estudio de un camino de interés mili-
+tar, podrán confiar estas tareas a la Dirección Nacional de Vialidad
+y las inversiones que se hagan en este concepto serán provistas con
+fondos del Ministerio respectivo.
+    Art. 39° — Todas las maquinarias y equipos para la construc-
+ción y conservación de caminos, puentes y demás obras de arte nece-
+sarias, que se adquieran en el extranjero por la Dirección Nacional
+de Vialidad o los gobiernos de provincias y municipios, estarán exen-
+tos de derechos de aduana.
+
+14
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+```
+
+## Page Metadata
+Page number: 274
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal or official document content, followed by signatures and a concluding statement. A page number is present in the bottom right corner.
+
+## Literal Transcription
+
+Art. 40° — El Ministerio de Agricultura facilitará sin cargo, a
+la Dirección Nacional de Vialidad, todos los elementos necesarios y
+posibles para el arbolado y embellecimiento de los caminos.
+Art. 41° — En cada pliego de bases y condiciones para los lla-
+mados a licitación, la Dirección Nacional de Vialidad establecerá el
+jornal mínimo que las empresas deberán abonar a sus obreros.
+Art. 42° — El Poder Ejecutivo reglamentará la aplicación de
+esta Ley dentro de los 60 días de promulgada.
+Art. 43. — Deróganse todas las disposiciones de otras leyes que
+se opongan a la presente.
+Art. 44. — Comuníquese al Poder Ejecutivo.
+
+Dada en la Sala de Sesiones del Congreso Argentino, en Buenos Aires,
+a treinta días del mes de septiembre del año mil novecientos
+treinta y dos.
+
+JULIO A. ROCA
+Gustavo Figueroa
+
+JUAN F. CAFFERATA
+D. Zambrano
+
+POR TANTO:
+
+Téngase por Ley de la Nación, cúmplase, dése al Registro Na-
+cional y archívese.
+
+JUSTO
+M. R. ALVARADO
+
+15
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and the page number have been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
+
+## Page Metadata
+- Page number: 16
+- Source publication year: 1936
+
+## Layout And Reading Order
+The page presents a single column of text, primarily legal or regulatory in nature. It begins with a title, followed by a decree number, date, an introductory paragraph, a signature line, a section header, an article, another section header, and a second article which continues onto the next page. A page number "16" is present at the bottom left.
+
+## Literal Transcription
+Reglamento de la Ley Nacional de Vialidad
+
+(Decreto Nº 14.137)
+
+Buenos Aires, diciembre 5 de 1932.
+
+En cumplimiento de lo dispuesto en el artículo 42 de la Ley
+11.658 que ordena la reglamentación dentro de los 60 días de haber
+sido promulgada, y en uso de la facultad conferida por el artículo 86,
+inciso 2º de la Constitución Nacional:
+
+*El Presidente de la Nación Argentina en Acuerdo de Ministros—*
+
+DECRETA:
+
+Artículo 1º — La Administración de la Dirección Nacional de
+Vialidad será ejercida por su Directorio, dentro de las prescripciones
+de la Ley 11.658 y del presente Decreto reglamentario.
+
+DEL DIRECTORIO
+
+Art. 2º — El Directorio sesionará ordinariamente no menos de
+una vez por semana y extraordinariamente siempre que sea convoca-
+do por el Presidente en ejercicio, a iniciativa propia o a pedido de
+dos de sus miembros.
+El quórum se formará con la presencia de cuatro Directores in-
+cluso el Presidente o su reemplazante. Las resoluciones del Directo-
+rio serán adoptadas en todos los casos por mayoría de votos presen-
+tes. El Presidente tendrá voz y voto en las deliberaciones y doble
+voto en caso de empate. Producido éste y reabierta la discusión, el
+
+16
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last paragraph of Article 2 is cut off at the bottom of the page, indicating it continues on the subsequent page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+```
+
+## Page Metadata
+Page number: 17
+
+## Layout And Reading Order
+The page contains a single column of text, continuing from a previous page, followed by several numbered articles (Art. 3º to Art. 8º). Article 8º includes a list of five sub-points labeled a) through e). The page number "17" is centered at the bottom.
+
+## Literal Transcription
+Presidente fundamentará su opinión en el caso de ser ella decisiva.
+Los Directores no podrán abstenerse de votar, pudiendo dejar cons-
+tancia de los fundamentos de su voto en el acta respectiva.
+    Art. 3º — El Directorio elegirá de su seno un Vicepresidente,
+que reemplazará al Presidente en los casos que prevea el Reglamento
+interno.
+    Art. 4º — De las sesiones que realice se labrará acta circunstan-
+ciada. Los testimonios de las mismas, refrendados por el Presidente
+y Secretario, harán fe a los efectos legales y administrativos.
+    El libro de actas será encuadernado y foliado, debiendo certifi-
+car el Subsecretario del Ministerio de Obras Públicas sobre las con-
+diciones del mismo y rubricar cada una de sus páginas, sellándolas
+con el sello del Ministerio.
+    Art. 5º — Las reconsideraciones sólo podrán tener lugar en se-
+siones con quórum igual o mayor al de aquella en que se aprobó el
+punto a reconsiderar, necesitándose para su admisión 2/3 de votos
+de los miembros presentes y no menos de cuatro votos favorables.
+    Art. 6º — Todas las facultades del Directorio serán ejercidas por
+intermedio del Presidente. Ningún miembro del Directorio tendrá
+funciones ejecutivas sino por expresa delegación del mismo.
+    Art. 7º — La adopción de resoluciones que importen inversión de
+fondos, en los casos en que no se recurra a licitación pública o priva-
+da, y la determinación del carácter de urgencia de obras o adquisi-
+ción de materiales, aun cuando el presupuesto no exceda de $ 20.000
+moneda nacional, requerirá un mínimum de cuatro votos, y la
+revisión o modificación de estas resoluciones, cinco votos de los
+miembros del Directorio.
+    Art. 8º — El Directorio dictará los reglamentos internos, en los
+que se determinarán:
+        a) Las normas de su propio funcionamiento;
+        b) La organización y funcionamiento de las diversas depen-
+            dencias;
+        c) La fijación y el deslinde de las atribuciones, deberes y res-
+            ponsabilidades del Ingeniero Jefe, del Consejo Técnico y
+            de la Contaduría;
+        d) Las bases de los concursos para ingreso y ascensos de per-
+            sonal. Al formular estas bases deberá contemplarse la facul-
+            tad acordada en la Ley al Ingeniero Jefe en lo que al per-
+            sonal técnico de su dependencia se refiere;
+        e) El escalafón de empleados;
+
+17
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
+
+## Page Metadata
+Page number: 277
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily consisting of articles and a list of duties. The text is structured with article numbers, a centered heading, and an indented, lettered list. A page number "18" is present at the bottom left.
+
+## Literal Transcription
+
+f) Las normas y condiciones a que deberán ajustarse las licita-
+ciones de obras y adquisiciones de materiales.
+
+Art. 9º — El Directorio hará levantar un inventario general de
+las existencias de la Repartición, inventario que deberá ser verificado
+anualmente.
+
+Art. 10º — Antes del 30 de marzo de cada año el Directorio ele-
+vará al Poder Ejecutivo la Memoria resumiendo la labor de la Re-
+partición, correspondiente al año precedente.
+
+DEL PRESIDENTE
+
+Art. 11º — El Presidente del Directorio es el Jefe superior de
+la Repartición e inviste la representación legal de ella. Son deberes
+y atribuciones del Presidente:
+
+a) Hacer observar la Ley, los reglamentos y las resoluciones
+del Directorio;
+b) Presidir las sesiones de éste, mantener el orden y regulari-
+dad de sus discusiones, informarlo de todas las disposicio-
+nes y asuntos que puedan interesarle y proponer los acuer-
+dos y resoluciones que estime convenientes;
+c) Representar a la Repartición en todos los actos o contratos
+que correspondan a sus fines, por sí o por apoderados con
+mandato legal en forma;
+d) Designar las Comisiones que el Directorio resuelva nombrar
+para el estudio de los asuntos, de las que será miembro
+nato;
+e) Autorizar el movimiento de fondos;
+f) Firmar las órdenes de pago, comunicaciones oficiales, reso-
+luciones, escrituras y todo otro documento que requiera su
+intervención;
+g) Adoptar las medidas cuya urgencia no admita dilación, dan-
+do cuenta de ellas al Directorio en la primera reunión;
+h) Disponer el otorgamiento de las órdenes de pasajes y de
+transporte que se requieran para el funcionamiento de los
+servicios o construcciones a cargo de la Dirección;
+i) Remover, nombrar, suspender o destituir, de acuerdo con
+los reglamentos, al personal cuyo sueldo sea inferior de
+$ 300 m|n. mensuales, dando cuenta inmediata al Directorio;
+j) Conceder las licencias reglamentarias;
+k) Proponer al Directorio el letrado y demás personal que
+haya de constituir la Asesoría Legal y oficina de Asuntos
+
+18
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page. The number "18" appears at the bottom left of the page, indicating the page number.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "No substantial visual content was detected on this page. The page number '18' is present but does not warrant a crop box."
+}
+```
+
+## Page Metadata
+Page number: 278
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily legal or administrative articles and their subsections. The text is structured with main articles, lettered subsections, and numbered points. A centered heading "DE LOS CAMINOS" breaks the flow. The page number "19" is right-aligned at the bottom.
+
+## Literal Transcription
+Judiciales, los que dependerán directamente de la Presiden-
+cia con arreglo a la reglamentación que se dicte a los fines
+de su organización y desenvolvimiento;
+l) Ordenar las investigaciones y sumarios administrativos que
+fueren necesarios, dictando en cada caso las resoluciones e
+instrucciones correspondientes.
+m) Requerir el auxilio de la fuerza pública en los casos pre-
+vistos por las leyes y reglamentos.
+Art. 12º — 51 Presidente podrá, asimismo, con sujeción a las
+normas que fije el Directorio:
+a) Autorizar las enajenaciones del material que se considere
+fuera de uso, debiendo el producido ingresar al fondo ge-
+neral;
+b) Celebrar dentro de los presupuestos de la Repartición, con-
+venios de compraventa, licitaciones y contratos que fueran
+reclamados por las necesidades de la misma;
+c) Resolver todas las cuestiones que se susciten con los em-
+pleados y obreros.
+
+DE LOS CAMINOS
+
+Art. 13º — Para el mejor cumplimiento de lo dispuesto en el
+artículo 3º de la Ley, se clasificarán los caminos de la República en
+cuatro categorías, a saber: caminos nacionales, caminos provinciales,
+caminos vecinales y caminos de carácter especial.
+Al determinar los caminos nacionales que constituirán la red
+troncal, se tendrá preferentemente en cuenta: los que unan provin-
+cias y territorios nacionales; los de acceso a los países limítrofes; los
+radiales a los puertos; los que intercomuniquen ciudades y centros de
+producción importantes; los de acceso a estaciones ferroviarias, y
+los que se construyan con fines estratégicos.
+Los caminos provinciales serán determinados de acuerdo con los
+gobiernos locales en los planes a que se refiere el inciso a) del
+artículo 28º de la Ley. Estos caminos podrán gozar de la ayuda
+federal.
+Serán caminos de carácter especial los que deban ejecutarse en
+virtud de leyes y recursos propios, como ser los de la ley 5.315, los
+de interés exclusivamente militar u otros.
+Se reputarán caminos vecinales los que no figuren en las cate-
+gorías precedentes.
+
+19
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+- Page number: 279
+
+## Layout And Reading Order
+The page contains a series of numbered articles (Art. 14° to Art. 18°) under a main heading "NORMAS GENERALES". The text is presented in a single column. A page number "20" is at the bottom left.
+
+## Literal Transcription
+
+Art. 14° — La Dirección Nacional de Vialidad procederá a pre-
+parar un plan de obras a desarrollar en el primer período quinquenal
+de su funcionamiento, ejecutando de inmediato, por licitación o ad-
+ministración, según corresponda, las consideradas de mayor urgen-
+cia y que se hallen en condiciones de ser iniciadas, sin perjuicio de
+realizar el plan adoptado en el mínimo de tiempo posible.
+Art. 15° — El trazado de los caminos especiales de interés exclu-
+sivamente militar se determinará con la intervención de los Ministe-
+rios de Guerra y Marina, y para su construcción y conservación se
+establecerá en el presupuesto de gastos la cuota con que contribuirán
+dichos Departamentos.
+
+**NORMAS GENERALES**
+
+Art. 16° — La norma general que deberá ajustarse la Dirección
+Nacional de Vialidad para la ejecución de todas las obras, será la
+licitación pública.
+La obra cuyo costo total no exceda de $ 20.000 m|n., podrá eje-
+cutarse por administración, siempre que razones de urgencia o evi-
+dentes conveniencias económicas lo aconsejen.
+En los presupuestos anuales se incluirá una partida global pre-
+ventiva para estas obras y para las adquisiciones que las mismas
+exijan y revistan análogo carácter. El monto total de estas inversio-
+nes no podrá exceder la partida preventiva fijada en el presupuesto
+anual.
+En la reparación y conservación de obras camineras podrá recu-
+rrirse al método de “administración contratada” previsto por el ar-
+tículo 6°, inciso c) de la Ley, de acuerdo con la reglamentación que
+previamente hará el Directorio.
+Art. 17° — La Dirección Nacional de Vialidad publicará semes-
+tralmente un estado de las obras en ejecución, especificando lo inver-
+tido en cada una de ellas y los saldos disponibles, tanto en lo que se
+refiere a los caminos de la red nacional como a los que se ejecuten
+con la ayuda federal. Las provincias acogidas a la Ley deberán faci-
+litar a ese efecto, en su debida oportunidad, los elementos necesarios
+para el cumplimiento de esta disposición.
+Art. 18° — La Dirección Nacional de Vialidad preparará y ele-
+vará al Ministerio de Obras Públicas, anualmente, antes del 1° de
+agosto, el proyecto de Presupuesto para el año siguiente, el que
+estudiado y aprobado por el Poder Ejecutivo será remitido a con-
+sideración del H. Congreso.
+
+20
+
+## Images, Captions, And Visual Notes
+None.
+
+## Uncertain Or Illegible
+- `m|n.` in "20.000 m|n." is a common abbreviation for "moneda nacional" (national currency) and is clearly legible.
+
+## Completeness Audit
+The transcription is complete and includes all visible text and formatting from the page.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The page contains only text."}
+```
+
+## Page Metadata
+- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283:p0280`
+- Model route: `lite`
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283/work-orders/page-0280.md`
+- Page: 280
+
+## Layout And Reading Order
+
+The page contains a main title "AYUDA FEDERAL" followed by several articles (Art. 19° through Art. 25°) of text, presented in a single column. A page number "21" is located at the bottom right.
+
+## Literal Transcription
+
+Art. 19° — A los efectos del inciso b) del artículo 21° de la Ley,
+la Dirección Nacional de Vialidad dispondrá la conservación de las
+obras por el término que en él se establece.
+
+**AYUDA FEDERAL**
+
+Art. 20° — Queda facultada la Dirección Nacional de Vialidad
+para celebrar los convenios que requiera el cumplimiento de las
+prescripciones del Capítulo V de la Ley N° 11.658.
+Art. 21° — De acuerdo con lo que establece el tercer párrafo del
+artículo 13° de esta Reglamentación y al acogerse a los beneficios de
+la ayuda federal, las provincias presentarán a la Dirección Nacional
+de Vialidad un primer plan general de caminos con las característi-
+cas que permitan establecer su clasificación.
+Determinada la red y su clasificación, cada provincia especifi-
+cará, a los efectos del inciso b) del artículo 28° de la Ley, qué caminos
+propone construir durante el año con la ayuda federal, y a los fines
+del inciso c) del mismo artículo, las obras a realizar.
+En caso de que alguna provincia no se acoja a la Ley N° 11.658,
+la Dirección Nacional de Vialidad procederá por sí a determinar
+cuáles son los caminos nacionales concernientes a la misma.
+Art. 22° — Al celebrar los convenios con las provincias se estu-
+diará, tanto en los caminos nacionales como en los provinciales, las
+situaciones de hecho existentes a la fecha de la sanción de esta Ley,
+por obras o secciones de obras contratadas o no ejecutadas, para
+adoptar, a su respecto, las providencias que se estimen convenientes.
+Art. 23° — A los efectos del inciso c) del artículo 23° de la Ley,
+la Dirección Nacional de Vialidad deberá establecer en los convenios
+a celebrar con las provincias, las bases reglamentarias a las cuales
+deberá ajustarse el tráfico general y el uso de los caminos por con-
+cesionarios de servicios públicos, transportes de carácter comercial,
+privado y servicios auxiliares, permanentes o transitorios, procuran-
+do la uniformidad de la reglamentación en toda la red caminera del
+país. En el caso del artículo 37° de la Ley, los convenios serán some-
+tidos a la aprobación del Poder Ejecutivo.
+Art. 24° — La contribución de mejoras a que se refiere el inci-
+so d) del artículo 23 de la Ley N° 11.658, podrá consistir en un por-
+centaje similar al establecido por el artículo 21° de la misma o no
+inferior al 40 % del costo de la obra.
+Art. 25° — Los recursos para conservación de caminos de la red
+
+21
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page. The number "21" appears at the bottom right, indicating the page number.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+```
+
+## Page Metadata
+Page number: 281
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily legal or administrative articles, followed by a section heading and more articles. A page number is present at the bottom left.
+
+## Literal Transcription
+nacional a que se refiere el artículo 25° de la Ley, serán deducidos
+del fondo de ayuda federal cuando no alcanzaran los señalados en el
+artículo 19° de la misma.
+
+Art. 26° — Las disposiciones de los artículos 25 y 26 de la Ley
+Nº 11.658 fijan el crédito anual máximo de cada provincia por con-
+cepto de ayuda federal, pero la entrega de fondos a que se refiere
+el inciso *b)* del artículo 25 no podrá ser mayor que el monto de las
+inversiones del Tesoro provincial en obras de construcción, mejora
+o conservación de caminos durante el año anterior (excluído gastos
+de administración).
+
+Los créditos no utilizados dentro del ejercicio o en los plazos
+que fija el artículo 33° de la Ley o en los que el Directorio estipule,
+se harán figurar en el cálculo de recursos de la Dirección Nacio-
+nal de Vialidad del año inmediato siguiente.
+
+Art. 27° — En los presupuestos de las obras a ejecutar me-
+diante la ayuda federal (artículo 30 de la Ley) se aceptará una par-
+tida de 2 % como máximo para los gastos provinciales de proyec-
+tos y fiscalización.
+
+Art. 28° — A los efectos de lo dispuesto en el artículo 32° de la
+Ley, la rendición de cuentas anual, deberá ser hecha antes del 1°
+de marzo, sin perjuicio de las rendiciones de cuentas especiales re-
+lativas a cada obra, que deberán efectuarse dentro del mes subsi-
+guiente a la recepción provisional y a la definitiva.
+
+Art. 29° — Las provincias deberán concurrir al cumplimiento
+de las disposiciones de los artículos 35° y 36° de la Ley y otras que
+requieran su colaboración para la más rápida y eficaz observancia
+de las mismas.
+
+MOVIMIENTOS DE FONDOS
+
+Art. 30° — A partir del 1° de enero de 1933, y en virtud de lo
+dispuesto en el inciso 2° del artículo 12° de la Ley 11.658, serán
+depositados en el Banco de la Nación Argentina, a la orden de la
+Dirección Nacional de Vialidad, en cuenta especial que se denomi-
+nará “Ley 5315”, los fondos provenientes del artículo 8° de es-
+ta Ley.
+
+Art. 31° — Por lo menos el 90 % de los fondos de la Ley
+Nº 5315 será invertido en obras efectivas, no pudiendo exceder del
+10 % los gastos administrativos, en los que estará incluído el per-
+sonal de control adscripto a la Dirección General de Ferrocarriles.
+
+22
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 282
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily consisting of articles from a legal document. There is a main heading "DISPOSICIONES TRANSITORIAS" centered on the page, separating two sections of articles. A page number "23" is present at the bottom right corner.
+
+## Literal Transcription
+
+Art. 32º — La Administración General de Impuestos Internos,
+a cuyo cargo se halla la percepción y fiscalización de los impues-
+tos internos nacionales a la nafta y lubricantes, procederá a su
+recaudación y fiscalización a partir del 1º de enero de 1933, de
+acuerdo con las disposiciones legales y reglamentarias del régimen
+fiscal de impuestos internos y, en especial, con lo establecido en -
+el título XII de su reglamentación general.
+
+Art. 33º — La Administración General de Impuestos Internos
+enviará mensualmente a la Dirección Nacional de Vialidad las pla-
+nillas detalladas de las recaudaciones y los comprobantes de depó-
+sito efectuados de acuerdo a lo dispuesto en el inciso *b*) del artículo
+14 de la Ley 11.658. La Dirección Nacional de Vialidad efectuará
+el control concurrente a los fines de la percepción y estadística re-
+querida por los artículos 19 y 25 de la misma Ley.
+
+Art. 34º — Para conocimiento de la Administración General
+de Contribución Territorial, Patentes y Sellos, y a los efectos de lo
+dispuesto en el artículo 21º, inciso *a*) de la Ley, el Directorio elevará
+anualmente al Ministro de Obras Públicas los antecedentes de las
+obras realizadas en los Territorios Nacionales.
+
+El monto de lo recaudado por mayor valor será depositado di-
+rectamente a la orden de la Dirección Nacional de Vialidad, en las
+condiciones establecidas en el artículo 14 de la misma.
+
+**DISPOSICIONES TRANSITORIAS**
+
+Art. 35º — La transferencia de fondos a que se refiere el 2º
+párrafo del artículo 15º de la Ley, se hará efectiva con los saldos
+existentes al 31 de diciembre de 1932.
+
+La Dirección Nacional de Vialidad atenderá el pago de los
+sueldos, haberes, materiales, transportes y demás gastos originados
+hasta esa fecha, que hayan sido autorizados por el Poder Ejecutivo
+de conformidad a la Ley 11.584 (artículos 11 y 12) y a la 11.658.
+
+Art. 36º — Para la entrega de los fondos de la ayuda federal
+correspondientes al año 1933, no se aplicarán las disposiciones de
+la primera parte del artículo 26 de este Reglamento.
+
+Art. 37º — La Dirección Nacional de Vialidad designará den-
+tro del personal de la Repartición, una comisión especial encargada
+de continuar las obras y contratos existentes a la fecha, que no se
+incorporen al régimen de la Ley 11.658 y sus reglamentaciones.
+
+23
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page. The number "23" appears in the bottom right corner, indicating the page number.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping. The page contains only text and a page number."}
+```
+
+## Page Metadata
+- Page number: 283
+- Source publication: Cámara de Senadores de la Nación, 1936.
+- Document type: Official document/report
+
+## Layout And Reading Order
+
+The page contains a block of text followed by a centered heading and a list of names, all in a single column. A page number is present at the bottom left.
+
+## Literal Transcription
+
+Dichas obras y contratos deberán liquidarse antes del 1º de
+julio de 1933.
+La Dirección Nacional de Vialidad presentará al Ministerio
+de Obras Públicas una Memoria y balance especial respecto a ellas.
+El presupuesto de 1933 fijará las partidas correspondientes
+para estas obras y para el personal designado.
+Art. 38. — Comuníquese, publíquese, dése al Registro Nacio-
+nal y archívese.
+
+JUSTO
+
+M. R. Alvarado. — Alberto
+Hueyo. — M. A. Rodrí-
+guez. — P. S. Casal. —
+A. de Tomaso.
+
+24
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate, capturing all text and its layout from the provided page image.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page that requires cropping."}

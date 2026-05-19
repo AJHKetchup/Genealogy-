@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bbbe65285b23-P0184-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200.codex.md
+converted_sha256: bbbe65285b235c6e042d72b0b8ca39d867990e32f1859790052bcb416d4e23eb
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json
+page_start: 184
+page_end: 184
+part: 1
+---
+
+# Page 184
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json`
+- Source page: 184
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-images/page-0184.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Dès que le projet a été porté à la connaissance des sociétés nationales, un grand nombre d'entre elles se sont déclarées, au moins officieusement, prêtés à voir dans le projet une solution acceptable, plusieurs se sont prononcées inconditionnellement en faveur du texte du projet, d'autres ont fait certaines suggestions ou ont exprimé le désir de voir éclaircir lors des présentes délibérations, par des interprétations, certaines dispositions. Mais toutes les suggestions qui ont été faites se sont inspirées de la pensée de ne toucher à aucun des éléments essentiels du projet et de le maintenir autant que possible même dans ses détails. Cette attitude bienveillante de nombreuses sociétés nationales et de ceux de leurs dirigeants qui -s'intéressent particulièrement à la question de l'organisation inter¬ nationale a été un précieux encouragement pour les auteurs du projet. Il leur a été ainsi possiblede procéder à un nouvel examen déjà avant la Conférence, avec le plus grand soin, à la lumière des suggestions et avis qui leur ont été adressés et d'envisager certaines modifications du texte qui d'une part tiennent compte des suggestions qui ont été faites, mais qui d'autre part, ne touchent ni à l'économie générale ni aux dispositions essentielles du
+
+projet qui a rencontré l'approbation de principe de tant de sociétés.
+
+Ces propositions de modification, du reste peu nombreuses, viennent d'êire soumises au Conseil des Gouverneurs et à la Commission des délégués et ont été incorporées dans le texte soumis maintenant à la Conférence plénière.
+
+En dehors de ces quelques modifications d'ordre matériel, une série de modifications de pure forme ont été introduites dans l'intérêt de la précision et de l'élégance de la langue et d'une disposition plus claire et plus logique de certains articles. La plupart de ces retouches sont dues à des suggestions que la Croix-Rouge française a bien voulu faire aux auteurs du projet du 11 mai et dont ceux-ci lui sont sincèrement reconnaissants. C'est de cette manière que le texte sur lequel la Conférence va statuer s'est formé.
+
+Le Conseil des Gouverneurs de la Ligue s'est déjà déclaré prêt, au nom de cette institution, à prendre des dispositions conformes au texte du projet pour le cas où il serait adopté par la Conférence internationale. La voie est donc entièrement libre pour une décision de la Conférence qui pourra, dans la plénitude de ses pouvoirs, trancher d'une manière définitive ce grand problème.
+
+Il paraît convenable que le présent rapport fournisse certaines explications au sujet de chaque article, en particulier sur des points soulevés par des sociétés nationales et qu'il relève notamment les divergences que le texte que vous avez sous les yeux présente par rapport au texte du 11 mai. Des divergences de pure forme qui ne tendent nullement à altérer le fond ne seront toutefois pas mentionnées.
+
+Passons maintenant à l'examen de chaque article du projet.
+
+Article premier. - Examinons, si vous voulez bien, l'article premier du document qui vient de vous être distribué. La Conférence internationale sera l'autorité délibérante la plus haute de la Croix-Rouge internationale.
+
+Dans cette Conférence, à côté des représentants des Gouvernements et des sociétés nationales, la Ligue sera désormais représentée comme le Comité international. La Ligue, se voyant ainsi associée aux délibérations de la Conférence internationale, consentirait à supprimer son Assemblée générale comme telle. Une clause des dispositions transitoires constate cette suppression. En effet, un des buts de la nouvelle organisation est d'éviter les doubles emplois et des réunions inutiles qui entrainent des- charges non justifiées pour les sociétés nationales et donnent facilement lieu à des conflits de compétence.
+
+L'expression 'sociétés nationales" signifie en conformité avec le Règlement, les sociétés reconnues par le Comité international auxquelles s'ajoutent toutefois les autres sociétés qui sont actuellement membres de la Ligue.
+
+L'expression 'Etats participants aux Conventions de Genève", a été préférée à celle de 'Etats signataires" de la Convention de Genève employée dans le Règlement de la Con¬ férence pour tenir compte d'une part des différentes modalités pour les Etats d'accepter les obligations résultant de la Convention de Genève (signature et ratification ou adhésion) et
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

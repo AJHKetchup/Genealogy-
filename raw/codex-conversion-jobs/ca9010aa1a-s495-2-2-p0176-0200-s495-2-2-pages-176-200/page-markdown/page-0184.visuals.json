@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:39:59Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 184,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0184.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0184.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "image_001",
+      "kind": "photograph",
+      "caption_literal": "Arriba. De izquierda a derecha del lector: Excmo. Sr. Dr. don Alberto Uclés, Ministro de Relaciones Exteriores; [de pie] Dn. Mario Ribas, Director de RENACIMIENTO; Dña. Mariana Γ. de Corrales, Dña. María B. de Medina Planas; Coronel don Héctor Medina Planas, Director de Patria; señorita Carmen Licona, señorita Lily Bier; Excmo. Sr. Dr. don Miguel A. Montalvo, Encargado de Negocios de El Salvador.\nAbajo. De izquierda a derecha, sentados: Don Julio Villars, Cónsul de Francia; Dn. Ernesto Lazarus; Dn. Guillermo Bustillo Reina; Excmo. Sr. Dr. don Marcial Lagos, Ministro de Fomento, Obras Públicas y Agricultura; Coronel don Salomón Sorto, Diputado al Congreso Nacional; Excmo. Sr. Doctor y General don Miguel Oquelí Bustillo, Presidente del Congreso Nacional, Segundo Designado a la Presidencia de la República y Magistrado de la Corte Suprema de Justicia; Dn. Angel M. Cisneros Diputado al Congreso Nacional De pie: Sr. E du B. Lukis; Dn. Pedro Casanova, Vice-Cónsul de Inglaterra en Amapala; Dn. José Walter, Vice-Cónsul de Inglaterra en Tegucigalpa.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Arriba. De izquierda a derecha del lector: Excmo. Sr. Dr. don Alberto Uclés, Ministro de Relaciones Exteriores; [de pie] Dn. Mario Ribas, Director de RENACIMIENTO; Dña. Mariana Γ. de Corrales, Dña. María B. de Medina Planas; Coronel don Héctor Medina Planas, Director de Patria; señorita Carmen Licona, señorita Lily Bier; Excmo. Sr. Dr. don Miguel A. Montalvo, Encargado de Negocios de El Salvador.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.8,
+        13.0,
+        89.5,
+        47.0
+      ],
+      "bbox_pixels": [
+        118,
+        202,
+        1011,
+        748
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-01-image-001-group-at-garden-party-top.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-01-image-001-group-at-garden-party-top.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0184.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 184,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0184.md"
+    },
+    {
+      "region_id": "image_002",
+      "kind": "photograph",
+      "caption_literal": "Arriba. De izquierda a derecha del lector: Excmo. Sr. Dr. don Alberto Uclés, Ministro de Relaciones Exteriores; [de pie] Dn. Mario Ribas, Director de RENACIMIENTO; Dña. Mariana Γ. de Corrales, Dña. María B. de Medina Planas; Coronel don Héctor Medina Planas, Director de Patria; señorita Carmen Licona, señorita Lily Bier; Excmo. Sr. Dr. don Miguel A. Montalvo, Encargado de Negocios de El Salvador.\nAbajo. De izquierda a derecha, sentados: Don Julio Villars, Cónsul de Francia; Dn. Ernesto Lazarus; Dn. Guillermo Bustillo Reina; Excmo. Sr. Dr. don Marcial Lagos, Ministro de Fomento, Obras Públicas y Agricultura; Coronel don Salomón Sorto, Diputado al Congreso Nacional; Excmo. Sr. Doctor y General don Miguel Oquelí Bustillo, Presidente del Congreso Nacional, Segundo Designado a la Presidencia de la República y Magistrado de la Corte Suprema de Justicia; Dn. Angel M. Cisneros Diputado al Congreso Nacional De pie: Sr. E du B. Lukis; Dn. Pedro Casanova, Vice-Cónsul de Inglaterra en Amapala; Dn. José Walter, Vice-Cónsul de Inglaterra en Tegucigalpa.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-context",
+      "source_context": "Abajo. De izquierda a derecha, sentados: Don Julio Villars, Cónsul de Francia; Dn. Ernesto Lazarus; Dn. Guillermo Bustillo Reina; Excmo. Sr. Dr. don Marcial Lagos, Ministro de Fomento, Obras Públicas y Agricultura; Coronel don Salomón Sorto, Diputado al Congreso Nacional; Excmo. Sr. Doctor y General don Miguel Oquelí Bustillo, Presidente del Congreso Nacional, Segundo Designado a la Presidencia de la República y Magistrado de la Corte Suprema de Justicia; Dn. Angel M. Cisneros Diputado al Congreso Nacional De pie: Sr. E du B. Lukis; Dn. Pedro Casanova, Vice-Cónsul de Inglaterra en Amapala; Dn. José Walter, Vice-Cónsul de Inglaterra en Tegucigalpa.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.8,
+        48.0,
+        89.5,
+        82.0
+      ],
+      "bbox_pixels": [
+        118,
+        756,
+        1011,
+        1303
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-02-image-002-group-at-garden-party-bottom.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-02-image-002-group-at-garden-party-bottom.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0184.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 184,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0184.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

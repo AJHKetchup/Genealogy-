@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:13:48Z",
+  "created": "2026-05-19T18:33:22Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,7 +8,7 @@
   "page": 1356,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375/page-images/page-1356.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375/page-markdown/page-1356.md",
-  "no_visual_regions_reason": "The page consists of newspaper text and classified ads. There are no significant images, illustrations, or photographs that would warrant cropping as standalone visual assets.",
+  "no_visual_regions_reason": "The page consists of text from a newspaper, including classified ads and an article. There are no significant images, illustrations, or photographs that would warrant cropping as standalone visual assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b97e9b9a9516-P0045-05
+chunk_id: CHUNK-996e4b1c05ce-P0045-05
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md
-converted_sha256: b97e9b9a9516ab8dd47e8e150f5b556fed660016eb48e4dad2986f249814ea5b
+converted_sha256: 996e4b1c05ceb3b12f766707e5923aa72bd606005456a89253be48b5a91482fa
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json
@@ -12,7 +12,7 @@ part: 5
 ---
 
 ## Images, Captions, And Visual Notes
-The page contains no images or substantial visual elements. The large initial 'C' at the beginning of the first paragraph is a drop cap and is transcribed as part of the text.
+The page contains no substantial images or visual elements beyond the text itself and the handwritten note at the top.
 
 ## Uncertain Or Illegible
 None.
@@ -22,17 +22,20 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor decorative elements, none of which are substantial enough to be considered meaningful visual regions for cropping."}
 ```
 
 ## Page Metadata
 Page number: 49
 
 ## Layout And Reading Order
-The page features a two-column layout for the main body text, preceded by a header, a main title, and a subtitle. Handwritten notes are present in the top right margin. The text flows from the bottom of the left column to the top of the right column. A footnote is located at the bottom right of the page.
+The page features a header with "MONTEVIDEO - 9 de noviembre 1931" on the left. In the top right corner, there are two handwritten words, "Malvinas" and "arg". The main content begins with a prominent title, followed by a subtitle, and then two columns of text. The reading order proceeds down the left column, then down the right column, and concludes with a footnote at the bottom right.
 
 ## Literal Transcription
 MONTEVIDEO - 9 de noviembre 1931
+
+Malvinas
+arg
 
 SOBRE “DERECHOS NORTEAMERICANOS”
 A LAS MALVINAS
@@ -106,6 +109,7 @@ algún tiempo después, fué apresada
 junto con otros dos barcos norteame-
 ricanos en 1831.
 Mientras se tramitaba una recla-
+mación norteamericana por esos apre-
 samiento, que fueron hechos de acuer-
 do con las leyes de las Provincias Uni-
 das del Río de la Plata o República
@@ -146,10 +150,10 @@ las islas, decía:
 ricanos, los Estados Unidos se incli-
 naron al partido de los británicos
 más que a invocar la doctrina de Mon-
-roe contra ellos.
+roe contra ellos.”
 El mundo mira hacia el Antártico
 y hace notar que aún cuando Georgia
-del Sur, las Islas Shetlands y las is-
+del Sur, las islas Shetlands y las is-
 las Orkney están marcadas en los ma-
 pas británicos como dependencias de
 las Malvinas, la Argentina tiene, des-
@@ -175,13 +179,18 @@ Buenos Aires, en nuestro archivo, de febre-
 ro 26 de 1929.
 
 ## Images, Captions, And Visual Notes
-- In the top right margin, handwritten text reads "Malvinas" and "arg".
+-   Handwritten text "Malvinas" is present in the top right corner of the page.
+-   Handwritten text "arg" is present below "Malvinas" in the top right corner.
+-   Two small circular punch holes are visible along the left margin of the page, one near the top and one near the bottom.
 
 ## Uncertain Or Illegible
-None.
+-   The character `q'` in "trastornos q' para las autoridades españolas" is transcribed literally as it appears, possibly a shorthand for "que".
+-   The spelling "Faekland Islands" appears twice in the text. This has been transcribed as written, preserving the original spelling which may be a typo for "Falkland Islands".
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
+All visible text and handwritten annotations on the page have been transcribed or noted.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of text, with minor handwritten annotations that are described in the 'Images, Captions, And Visual Notes' section."}
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor handwritten annotations that are not substantial enough to warrant separate image crops."}
+```

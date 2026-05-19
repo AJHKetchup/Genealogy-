@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-19T18:39:42Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+  "page": 154,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0154.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0154.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "Illustration of four men, one standing, three seated at a table, possibly outdoors",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "The main visual element of the advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "Illustration of four men, one standing, three seated at a table, possibly outdoors",
+      "bbox_pct": [
+        10.0,
+        26.0,
+        42.0,
+        78.0
+      ],
+      "bbox_pixels": [
+        109,
+        413,
+        478,
+        1254
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0154/page-0154-image-01-illustration-four-men-suits-table.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0154/page-0154-image-01-illustration-four-men-suits-table.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0154.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+      "page": 154,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0154.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual_002",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Palm Beach\nREG. U. S. PAT. OFF.\nTHE GENUINE CLOTH\nMFD. ONLY BY GOODALL WORSTED CO.",
+      "source_context": "Brand logo for 'Palm Beach' with associated registration and manufacturing details."
+    }
+  ],
+  "flags": []
+}

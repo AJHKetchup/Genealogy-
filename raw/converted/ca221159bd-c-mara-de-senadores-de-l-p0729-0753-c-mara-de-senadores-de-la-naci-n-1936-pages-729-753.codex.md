@@ -2184,14 +2184,19 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 1344
-- Running header: CAMARA DE SENADORES DE LA NACION Septiembre 29 y 30
+- Page number: 752
+- Source publication year: 1936
+- Source publication title: Cámara de Senadores de la Nación
+- Running headers:
+  - Left: 1344
+  - Center: CAMARA DE SENADORES DE LA NACION
+  - Right: Septiembre 29 y 30
 
 ## Layout And Reading Order
-The page consists of two columns of text. The reading order is from the top of the left column to the bottom, then from the top of the right column to the bottom.
+The page is presented in a two-column format. The reading order proceeds down the left column, then down the right column.
 
 ## Literal Transcription
-
+1344
 petuidad, el apartado 1º del inciso e, del ar-
 tículo 2º, las tomas en cuenta de una manera
 equitativa, ¿por qué? Por una razón muy sen-
@@ -2254,9 +2259,12 @@ Yo no he comprendido bien el argumento del
 señor senador, debo declararlo con toda franque-
 za. Yo creo que cuando una empresa hace trein-
 ta años le compró a otra sus instalaciones para
+
+CAMARA DE SENADORES DE LA NACION
+Septiembre 29 y 30
 hacer su negocio, le ha pagado el precio que ella
 creía que debía pagarle, y que no le ha pagado
-un precio en vista del agniamiento del capital,
+un precio en vista del agniamiento al capital,
 para engañar a una comisión especial que va a
 organizar el transporte 30 ó 40 años después.
 Entiendo que si la empresa del Anglo le ha com-
@@ -2322,7 +2330,7 @@ sible que un estudio más detenido de la comi-
 sión especial pudiera encontrar que la obliga-
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+No substantial images or captions are present on this page.
 
 ## Uncertain Or Illegible
 None.
@@ -2331,9 +2339,7 @@ None.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
 # Page 753
 

@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:11:39Z",
+  "created": "2026-05-19T18:32:43Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -8,7 +8,7 @@
   "page": 446,
   "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-images/page-0446.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/page-markdown/page-0446.md",
-  "no_visual_regions_reason": "No substantial images, maps, or diagrams are present on this page. The page consists primarily of text and minor marks (punched holes).",
+  "no_visual_regions_reason": "The page is a postcard with handwritten and printed text. There are no distinct images, portraits, maps, or diagrams that would warrant separate cropping. The holes and the 'LEONAR' box are noted in the 'Images, Captions, And Visual Notes' section.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

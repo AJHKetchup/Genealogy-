@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T18:39:31Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425/manifest.json",
+  "page": 404,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425/page-images/page-0404.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425/page-markdown/page-0404.md",
+  "no_visual_regions_reason": "The handwritten page numbers at the top are minor and do not warrant separate crop boxes. The other handwritten elements are captured as visual regions.",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "II",
+      "source_context": "Handwritten Roman numeral in the left margin, likely a section marker."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "// ⑪ Constitution",
+      "source_context": "Handwritten annotation next to the text 'qu'elle croira la plus utile.'"
+    }
+  ],
+  "flags": []
+}

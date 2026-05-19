@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:33:40Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+  "page": 90,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0090.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0090.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "political-cartoon-us-mexico-handshake",
+      "kind": "illustration",
+      "caption_literal": "EL RECONOCIMIENTO COMENTADO POR DIBUJANTES AMERICANOS\nTRADUCCION LIBRE\n—¡Venga esa mano!",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "political-cartoon",
+      "confidence": "high",
+      "inline_anchor": "political-cartoon-us-mexico-handshake",
+      "bbox_pct": [
+        40.6,
+        10.1,
+        98.3,
+        50.1
+      ],
+      "bbox_pixels": [
+        721,
+        243,
+        1759,
+        1230
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0090/page-0090-image-01-ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100-p0090-polit.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0090/page-0090-image-01-ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100-p0090-polit.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-images/page-0090.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/manifest.json",
+      "page": 90,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/page-markdown/page-0090.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,158 @@
+{
+  "created": "2026-05-19T18:41:11Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+  "page": 296,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0296.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0296.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "1. El Ministro Vasconcelos, presidiendo.—2. Una buena\n3. Minueto por niñas de la “Corregidora”.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "Image accompanying the 'FESTIVAL DE ANIVERSARIO DE LA E. “CORREGIDORA DE QUERETARO”' article.",
+      "confidence": "0.95",
+      "inline_anchor": "1. El Ministro Vasconcelos, presidiendo.—2. Una buena\n3. Minueto por niñas de la “Corregidora”.",
+      "bbox_pct": [
+        80.0,
+        0.0,
+        100.0,
+        40.0
+      ],
+      "bbox_pixels": [
+        2037,
+        0,
+        2551,
+        1268
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-02-festival-aniversario-corregidora-queretaro-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-02-festival-aniversario-corregidora-queretaro-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0296.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+      "page": 296,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0296.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "mata pulgas",
+      "caption_type": "converter-description",
+      "identity_basis": "text-in-image",
+      "source_context": "Illustration in the 'HAFSTRA' insecticide advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "mata pulgas",
+      "bbox_pct": [
+        23.0,
+        77.0,
+        35.0,
+        85.0
+      ],
+      "bbox_pixels": [
+        583,
+        2430,
+        897,
+        2691
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-04-mata-pulgas-insecticide-ad-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-04-mata-pulgas-insecticide-ad-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0296.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+      "page": 296,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0296.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "Illustration of a man in a sombrero in the 'TORRES A LA CABEZA' advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "TORRES A LA CABEZA",
+      "bbox_pct": [
+        69.0,
+        77.0,
+        79.0,
+        83.0
+      ],
+      "bbox_pixels": [
+        1756,
+        2430,
+        2019,
+        2628
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-05-man-sombrero-torres-ad-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-05-man-sombrero-torres-ad-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0296.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+      "page": 296,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0296.md"
+    },
+    {
+      "region_id": "region_6",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "Illustration of two men in the 'INTERNACIONAL DETECTIVE' advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "INTERNACIONAL\nDETECTIVE",
+      "bbox_pct": [
+        79.0,
+        77.0,
+        89.0,
+        84.0
+      ],
+      "bbox_pixels": [
+        2011,
+        2430,
+        2274,
+        2659
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-07-internacional-detective-ad-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-07-internacional-detective-ad-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0296.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/manifest.json",
+      "page": 296,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0296.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "CHEVROLET",
+      "source_context": "Chevrolet logo in an advertisement."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "graphic",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Llame al\n16-78\nNERI\n73-84\nERIC",
+      "source_context": "Graphic with telephone numbers next to 'El Banco Unico' article."
+    },
+    {
+      "region_id": "region_5",
+      "kind": "graphic",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Hoy es el\nSABADO\nde los UNICOS 3\nPRECIOS. APROVECHELO!\nBATERIAS DE 15 PIEZAS!\n¡POR $15.00!\na\n10\ncentavos\n(Piezas de $2.00 a $3.00\na\n$1.75\n(Piezas de $3.50 a $6.00\na\n$3.20\n(Piezas de $6.50 a $10.00",
+      "source_context": "Graphic displaying kitchenware and prices in 'LA VAJILLA DORADA' advertisement."
+    }
+  ],
+  "flags": []
+}

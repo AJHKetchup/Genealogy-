@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:38:40Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json",
+  "page": 330,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/page-images/page-0330.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/page-markdown/page-0330.md",
+  "no_visual_regions_reason": "The page contains only text and a minor hole punch mark, neither of which warrants a visual region crop.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

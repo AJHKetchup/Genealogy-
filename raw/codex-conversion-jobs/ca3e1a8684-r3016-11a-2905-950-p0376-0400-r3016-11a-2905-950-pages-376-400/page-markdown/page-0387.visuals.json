@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-19T18:36:02Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0376-0400-r3016-11a-2905-950-pages-376-400/manifest.json",
+  "page": 387,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0376-0400-r3016-11a-2905-950-pages-376-400/page-images/page-0387.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0376-0400-r3016-11a-2905-950-pages-376-400/page-markdown/page-0387.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "RECEIVED\nREGISTRY\nNOV-1928",
+      "source_context": "A stamp in the upper right corner of the page."
+    }
+  ],
+  "flags": []
+}

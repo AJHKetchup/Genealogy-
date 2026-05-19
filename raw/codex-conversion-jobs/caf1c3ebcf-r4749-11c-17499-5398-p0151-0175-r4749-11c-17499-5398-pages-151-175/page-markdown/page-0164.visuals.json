@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:56Z",
+  "created": "2026-05-19T18:33:03Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4749-11C-17499-5398.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visual_001",
+      "region_id": "page-0164-image-1",
       "kind": "photograph",
-      "caption_literal": "A large sepia-toned photograph depicts a spacious dining hall or cafeteria filled with numerous men seated at tables, engaged in eating. The room features high ceilings, large windows along the right wall, and several structural columns. Two framed pictures are visible on the walls in the background. The tables are covered with checkered tablecloths.",
+      "caption_literal": "",
       "caption_type": "converter-description",
-      "identity_basis": "visual_content",
-      "source_context": "The image is the sole content of the page.",
-      "confidence": "0.95",
-      "inline_anchor": "",
+      "identity_basis": "visual-appearance",
+      "source_context": "A large group of men are shown dining in a spacious hall or cafeteria, seated at tables with checkered tablecloths. The room features pillars, windows, and framed pictures.",
+      "confidence": "high",
+      "inline_anchor": "[Image 1]",
       "bbox_pct": [
+        17.0,
         18.0,
-        18.0,
-        85.0,
+        82.0,
         82.0
       ],
       "bbox_pixels": [
-        309,
+        291,
         208,
-        1480,
+        1428,
         968
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-dining-hall-men-eating.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-dining-hall-men-eating.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-group-of-men-dining-in-hall.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-group-of-men-dining-in-hall.png",
       "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-images/page-0164.jpg",
       "source": "raw/sources/R4749-11C-17499-5398.pdf",
       "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",

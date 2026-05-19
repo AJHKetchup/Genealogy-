@@ -1,0 +1,84 @@
+{
+  "created": "2026-05-19T18:40:46Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+  "page": 268,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0268.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0268.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_0_0",
+      "kind": "illustration",
+      "caption_literal": "EL PUERTO DE CADIZ\nLA CASA QUE VENDE BUENO Y BARATO.\nCalle 2 Norte No. 409. Antigua Sta. Clara Teléfono número 91.\n-:- JUAN SOBERO. Puebla: -:-\nSelecto surtido en Conservas, Pastas Extranjeras\ny Licores Finos.\nVariado surtido en Galletas, Dulces y Chocolates de las\nmejores clases del país y extranjeras, especialidad\nen cajas de fantasía para obsequios.\nUnica casa que ofrece el afamado vino de mesa\n\"RIOJA MATUSALEN\"\nal precio de noventa centavos botella y $10.00 caja sin cascos.\nTodas las mercancías que vendemos están de acuerdo con el lema de la casa:\nSON BUENAS Y BARATAS.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Advertisement for 'El Puerto de Cadiz' featuring a man holding a scroll.",
+      "confidence": "0.95",
+      "inline_anchor": "EL PUERTO DE CADIZ",
+      "bbox_pct": [
+        1.0,
+        5.0,
+        100.0,
+        100.0
+      ],
+      "bbox_pixels": [
+        19,
+        169,
+        2330,
+        3462
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-01-el-puerto-de-cadiz-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-01-el-puerto-de-cadiz-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0268.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+      "page": 268,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0268.md"
+    },
+    {
+      "region_id": "visual_0_2",
+      "kind": "product_image",
+      "caption_literal": "SOSA\nTambores grandes y chicos\nACEITES\nde Coco Higuerilla y Ajono[?]\nSILICATO DE SOSA, SALI-\nTRE, CLORATO, AZUFRE\ny demás artículos para coheteros.\nSEMILLA DE ALFALFA.\nFrancisco Hernández A.\nAv. 8 ORIENTE 207\n(Antes Mesones)\nPUEBLA.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Advertisement for 'SOSA' products, showing a stylized bottle/jar.",
+      "confidence": "0.95",
+      "inline_anchor": "SOSA Tambores grandes y chicos",
+      "bbox_pct": [
+        73.7,
+        47.5,
+        87.8,
+        66.5
+      ],
+      "bbox_pixels": [
+        1713,
+        1640,
+        2050,
+        2306
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-03-sosa-products-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-03-sosa-products-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0268.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+      "page": 268,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0268.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual_0_1",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "SOSA LAXANTE DE ARRIOJA\nDE ARRIOJA\n¡ALIVIO DE LOS MARTIRES DEL ESTOMAGO! EN DROGUERIAS Y BOTICAS.",
+      "source_context": "Circular logo for 'Sosa Laxante de Arrioja'."
+    }
+  ],
+  "flags": []
+}

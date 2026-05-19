@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0ff64b8cae25-P0001-01
+chunk_id: CHUNK-f9711d71eff6-P0001-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150.codex.md
-converted_sha256: 0ff64b8cae251310dbb8d00a6243c760c9bbb3220c734156da8dedf2e590425f
+converted_sha256: f9711d71eff6ddcbe2a10a8518ff4a757cb302e1597fb0cfa415c93a486b07ba
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150/manifest.json
@@ -177,36 +177,33 @@ The transcription is complete and includes all typewritten text, handwritten ann
 ```
 
 ## Page Metadata
-Page number: 128
-Source document page number: 2
+- Page number: 128
+- Task id: `source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0126-0150-r4749-11c-17499-5398-pages-126-150:p0128`
 
 ## Layout And Reading Order
-
-The page contains typewritten text in French, presented in a single column. A page number is centered at the top. The main body of text is structured into paragraphs, with some lines preceded by a long dash.
+The page contains a single column of typed text. The reading order is from top to bottom. A page number, "- 2 -", is centered at the top. The main body of text consists of three paragraphs. The first two paragraphs are marked in the left margin with three dashes (`---`). The document continues to the next page, as indicated by the "./." mark at the bottom right.
 
 ## Literal Transcription
-
-<pre>
-                                    - 2 -
+- 2 -
 
 protection de l'enfance qui fonctionne au sein de la
 Section des questions sociales, et figure dans le fichier
 des organisations nationales. Quant aux informations qui
-sont contenues dans les dernières pages de la note, et qui
-sont relatives à l'enfance abandonnée ou en danger moral,
+sont contenues dans les dernières pages de la not. et qui
+sont relatives à l'enfance abandonnée ou en danger mora.
 elles ont été, conformément à votre demande, soumises au
-Comité de la Protection de l'Enfance au cours de sa dou-
+Comité de la Protection de 'Enfance au cours de sa dou-
 zième session. Je vous prie de bien vouloir trouver ci-
---- joint un exemplaire du document <u>C.P.E. 534.</u>
+--- joint un exemplaire du document <ins>C.P.E. 534</ins>.
 
-          Les renseignements sur le placement familial
+Les renseignements sur le placement familial
 ont servi, comme ceux qui avaient été reçus de tous les
 autres gouvernements, à l'établissement de la documenta-
 tion préparatoire à l'examen de cette question par la
-Commission des Questions sociales. (Voir page 1 du doc.
+Commission des questions sociales. (Voir page 1 du doc.
 --- C.Q.S./B/8 - addendum, ci-joint).
 
-          3. J'ai reçu effectivement, le 29 avril 1937,
+3. J'ai reçu effectivement, le 29 avril 1937,
 le texte de la loi N° 12341, promulguée le 30 décembre
 1936, créant dans la République Argentine une Direction
 de la Maternité et de l'Enfance sous le contrôle du Dépar-
@@ -217,29 +214,24 @@ et au mois de mai, ne pouvaient pas être incorporés au
 Résumé des Rapports annuels reçus entre le 1er janvier
 1936 et le 15 avril 1937. Il en sera fait mention dans le
 Résumé des Rapports annuels qui sera présenté à la Com-
-mission des Questions sociales au cours de sa session de
+mission des questions sociales au cours de sa session de
 1938. Cependant, étant donné l'intérêt tout particulier que
 présentait cette documentation, je n'ai pas voulu attendre
 une année pour en faire mention, et je me permets de vous
-                                    ./.
-</pre>
+./.
 
 ## Images, Captions, And Visual Notes
-
-There are no images or captions on this page. The underlining of "C.P.E. 534." is a textual formatting choice.
+This page is a typed document on aged, light brown paper. There is a single hole punch on the left side of the page. The text is clear and legible. There are no images, illustrations, or photographs on this page.
 
 ## Uncertain Or Illegible
-
-None.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-
-All visible text on the page has been transcribed.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page consists entirely of text."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only typed text and minor marginalia, with no significant images, illustrations, or other visual elements that would warrant cropping."}
 ```
 
 ## Page Metadata
@@ -286,9 +278,3 @@ parvenir *du Secrétariat* au plus tard le 30 novembre 1937 pour qu'il soit
 ## Images, Captions, And Visual Notes
 - A short, horizontal dash mark is present in the left margin next to the first paragraph.
 - A handwritten insertion "du Secrétariat" appears above the word "parvenir" in the last line of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and significant marks on the page have been transcribed or noted.

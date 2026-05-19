@@ -1,0 +1,112 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ee7e28255dcb-P0186-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200.codex.md
+converted_sha256: ee7e28255dcb5492fb07904396a996e675758fbc17c045a7816594daa4b73160
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json
+page_start: 186
+page_end: 186
+part: 1
+---
+
+# Page 186
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/manifest.json`
+- Source page: 186
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0176-0200-s522bis-29-3-pages-176-200/page-images/page-0186.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+soeialistas, porque en estas condiciones no me asusta el déficit.
+
+Tenemos 600 y tantos millones de deuda flotante; sabemos que este presupuesto tiene por lo menos 40 millones, que propablemeute Ssrân cerea de 60, y acabamos de ser informados en esta sesiôn que por inercia y desidia del poder ejecutivo se han podrido diez millones de pesos en harina, que habrîan bastado para eostear el salario minimo. Estamos, pues, jugando al presupuesto y a la administraciôn, y asi no concibo un aumento procediendo con la seriedad, eon el criterio prudente del hombre de gobierno, frente al desquicio reinante, eon la economia de la mitad de lo que se escurre en todos los resquicios de la administraciôn, de la mitad de lo que se despilfarra, de lo que el pais irregularmente gasta, habria para para équilibrailos presupuestos y hacer frente a es¬ tas neeesidades sociales.
+
+Pero como no dépende de mi voluntad la normalizaciôn de esa situation, yo, no puedo detenerme para dar un voit) que esta de acuerdo con mi conciencia de hombre decididamente partidario. de la mâs a.vauzada evoluciôn so¬ cial que pueda hacerse sin graves trastornos y negar a tltulo de esas razones, que son insubsanables dentro del gobierno y del régimen ac¬ tual, no puedo ante esa consideraciôn sacrificar esta convicciôn. Por esas razones yo doy mi voto en este momento a favor de la proposicion del
+
+diputado socialista.
+
+Sr. Présidente (Goyeneche). - jEl senor di¬ putado por la Capital reproduce el despaeho de la comisiôn en su articulo...
+
+Sr. Dickmann. ■-Reproduzeo el despaeho de la comisiôn aumentando a 150 pesos mensuales o a seis
+
+pesos diarios.
+
+Sr. Présidente (Goyeneche). - Como no se ha votado por partes este despaeho en realidad hubiera sido una reeonsideraciôn pero no ha sido ese el propôsito de la câmara. De modo que el senor diputado por la capital reproduce el despaeho de la comisiôn con la difereneia de
+
+que en vez de 130 pesos...
+
+Sr. Maidana. - Pido la palabra.
+
+He votado en contra del despaeho de la co¬ misiôn de presupuesto porque entiendo que siendo el salario minimo por sanciones anteriores de eien pesos, elevar 10 a 130 équivale a mantener esa situaciôn de hambre en el proletariado argentino que se ocupa de los empleos publicos. Yo eonsidero que el minimo para mantener un organismo sano y para que un hombre pueda aspirar a ser libre y a eclucarse, dentro del sentido de la cultura moderna, es de 200 pesos. Por eso lie votado en con¬ tra del
+
+despaeho de la comisiôn.
+
+Debo, sin embargo, déclaraia mi juieio que el despaeho, como tal, no es malo sino pésimo, seûor présidente. Y es pésimo, en primer lu- gar porque, como lo ha demostrado el senor diputado Pena, viëne con un déficit de 80 millones de pesos, motivo por cl cual la comi¬ siôn no ha debido, no ha podido elevarlo el salario minimo. Ha debido por este ano manteneres en los cien pescos y aconsejar para el ano entrante, después de haber previsto los recursos para costearlo, un salario minimo que permita una vida decente al obrero, votando para ello una suma que sea realmente suficiente. Estoy dispuesto a votaiun aumento elevando a 200 pesos el salario minimo a condiciôn de que la câmara resuelva disminuir todos los sueldos de 300
+
+pesos arriba.
+
+Sr. Fernandez (J.). - Empezando por nosotros.
+
+Sr. Maidana. - Empezando por donde quiera el senor diputado, porque lo que digo, lo digo con toda sinceridad. Es necesario rebajar a todos los que ganan mâs de trescientos pesos para dar a los demâs abajo, lo que necesitan para poder vivir. Soy ademâs, parti¬ dario de que eu la administraciôn publica se supriman muchos empleos innecesarios. Hay demasiados empleados en las oûcinas publicas. Y en lugar de eostear 100 o 200.000 emplea¬ dos muertos de hambre, es preferible reducir los empleados a la mitad, pero pagândoles perfectamente bien. Solamente asi, disminuyendo el numéro crecido de empleados inutiles y rebajando los sueldos superiores a 300 pesos, poclremos elevar el salario minimo de los obreros al servicio del Estado hasta 200 pesos, suma que coneeptuo suticiente para satisfacer las mâs premiosas neeesidades materiales y morales de un hombre libre que anhela vivir como tal en la vida social y que los senores diputados soeialistas no han tenido el valor de defender.
+
+Dejo asi expresado mi pensamiento y mi anhelo en favor del aumento del salario mi¬
+
+ni'fio. ^
+
+Sr. Rodriguez
+
+(C. J.). - Pido la palabra.
+
+La câmara me va a disculpar le tome algun
+
+tiempo...
+
+Sr. Padilla. - Se esta votandG.
+
+Sr. Rodriguez (C. J.). - Creo que eon et mismo derecho con que han hablado otros senores diputados puedo usar yo también de la palabra. Sobre todo porque alrededor de esta cuestiôn se ha hecho otra funcïamental de la elevaciôn del salario eon relaciôn al costo de la vida y con relaciôu a la reforma tributaria.
+
+Quiero eolocar, diré asi, jalones fuudamentales en esta cuestiôn. En el breve diseurso con que fundé este despaeho, recordé como argu¬ mente incontestable, la célébré clâusula del tratado de Versalles que mâs parece un clamor que una afii-macion doctrinaria, cuando recomienda a las altas partes eontratantes como prineipio de particular urgencia, el reehazar la anaerônica doqtrina del traba.io mereaneia. Desde
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

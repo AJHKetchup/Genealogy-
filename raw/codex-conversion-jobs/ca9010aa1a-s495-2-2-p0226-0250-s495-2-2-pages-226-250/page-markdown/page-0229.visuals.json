@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:40:13Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/manifest.json",
+  "page": 229,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-images/page-0229.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-markdown/page-0229.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Decorative border around the advertisement for Pablo Uhler y Ca.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-appearance",
+      "source_context": "The entire advertisement block at the bottom of the page.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        10.5,
+        56.5,
+        89.5,
+        90.5
+      ],
+      "bbox_pixels": [
+        113,
+        893,
+        999,
+        1440
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0229/page-0229-image-01-pablo-uhler-y-ca-advertisement-border.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0229/page-0229-image-01-pablo-uhler-y-ca-advertisement-border.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-images/page-0229.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/manifest.json",
+      "page": 229,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/page-markdown/page-0229.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:36:03Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/manifest.json",
+  "page": 435,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/page-images/page-0435.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/page-markdown/page-0435.md",
+  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

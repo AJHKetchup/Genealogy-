@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:33:24Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+  "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
+  "job_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200/manifest.json",
+  "page": 189,
+  "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200/page-images/page-0189.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200/page-markdown/page-0189.md",
+  "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

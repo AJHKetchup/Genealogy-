@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dded07b70e0b-P0713-01
+chunk_id: CHUNK-f782f81fcfb3-P0713-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md
-converted_sha256: dded07b70e0bdc944aea94a7a31a6e71176c554127e899245debf6a31592a5fb
+converted_sha256: f782f81fcfb34f2e3741061f6864a0d9068587c65ccc7e562105ce34d1c11b4e
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json
@@ -163,7 +163,14 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 714
+- **Task id**: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0714`
+- **Page number**: 714
+- **Source**: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 
 ## Layout And Reading Order
-The page is presented in a two-column layout. The content flows from the top of the left column to the bottom, then continues at the top of the right column to its bottom. There is a header at the top of the page with a page number on the left, the name of the institution in the center, and a date on the right. A small table is embedded within the text in the left column, and another small list of financial figures is in the right column.
+The page is laid out in a two-column format. A header spans the top of the page, containing the page number `1306` on the left, the title `CAMARA DE SENADORES DE LA NACION` in the center, and the date `Septiembre 29 y 30` on the right.
+
+The reading order is as follows:
+1.  Header.
+2.  Left column, from top to bottom. This column contains a small table.
+3.  Right column, from top to bottom. This column contains a small, indented list with numerical values.

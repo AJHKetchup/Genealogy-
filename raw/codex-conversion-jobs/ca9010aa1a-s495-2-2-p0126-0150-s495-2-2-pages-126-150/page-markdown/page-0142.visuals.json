@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:28:46Z",
+  "created": "2026-05-19T18:33:26Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -8,7 +8,7 @@
   "page": 142,
   "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-images/page-0142.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/page-markdown/page-0142.md",
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or complex diagrams are present. The decorative border is described in 'Images, Captions, And Visual Notes'.",
+  "no_visual_regions_reason": "The page contains a single, full-page advertisement with decorative borders but no distinct images, portraits, or maps that would be useful as standalone visual assets.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

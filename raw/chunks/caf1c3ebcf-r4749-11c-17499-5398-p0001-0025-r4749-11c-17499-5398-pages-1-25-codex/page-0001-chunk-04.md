@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9da3cf8c6823-P0001-04
+chunk_id: CHUNK-dfe979a1b58e-P0001-04
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: 9da3cf8c68235175b9eb9dfb3c0078fdd2e7888a49e686b9382dbadf79f31566
+converted_sha256: dfe979a1b58e3bd3d477c4e30a3dbe373abaf840a36e4a7050c80fd5dbdabd12
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -10,9 +10,6 @@ page_start: 1
 page_end: 1
 part: 4
 ---
-
-## Layout And Reading Order
-The page contains typed text, primarily legal articles and section titles, arranged in a single column. A page number is present in the top right corner. A circular stamp is visible on the left side of the page, overlapping some of the text margin. The reading order is from top to bottom, following the flow of the articles and titles.
 
 ## Literal Transcription
 ```
@@ -278,3 +275,6 @@ The page has been fully transcribed. All text, stamps, and handwritten marks hav
 ## Page Metadata
 Page number: 15
 Source file: raw/sources/R4749-11C-17499-5398.pdf
+
+## Layout And Reading Order
+The page contains a typed document with a page number at the top right. The main content consists of several numbered articles, preceded by a horizontal rule. This is followed by a list of names aligned to the right. A circular stamp with a signature and a "Es Copia" note is present on the left side, below the main text. Two small punch holes are visible on the left margin.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b97e9b9a9516-P0045-02
+chunk_id: CHUNK-996e4b1c05ce-P0045-02
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md
-converted_sha256: b97e9b9a9516ab8dd47e8e150f5b556fed660016eb48e4dad2986f249814ea5b
+converted_sha256: 996e4b1c05ceb3b12f766707e5923aa72bd606005456a89253be48b5a91482fa
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json
@@ -46,12 +46,7 @@ The transcription is complete and accurate.
 ```
 
 ## Page Metadata
-Page number: 48
+- Page number: 48
 
 ## Layout And Reading Order
-The page contains a multi-column article with a main title, subtitle, and author credit. There is a handwritten note at the top left. The article text is presented in five columns. A "Nota" section appears at the bottom right, below the main article text and author.
-
-## Literal Transcription
-La Prensa - B. A. 7. Febrero 1932.
-
-# LAS MALVINAS
+The page contains a multi-column article with a handwritten note at the top. The article has a main title, a subtitle, and is divided into five columns of text. An author's name is centered at the bottom, followed by a "Nota" (note) section in a smaller font, also spanning multiple columns. The reading order is from left to right, top to bottom, column by column.

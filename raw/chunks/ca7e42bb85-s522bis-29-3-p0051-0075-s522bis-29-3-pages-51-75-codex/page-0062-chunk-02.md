@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1f00ba65c3d6-P0062-02
+chunk_id: CHUNK-47cb25925306-P0062-02
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
-converted_sha256: 1f00ba65c3d6db86b67ed509d1ff8f8ea2779687f7db1265b20ddbe6b48fec55
+converted_sha256: 47cb25925306e305ea8dc8cc7ef928957e7153658a562e881561abe5e5efcfe5
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
@@ -12,11 +12,13 @@ part: 2
 ---
 
 ## Literal Transcription
+
 de 1921
 
 Ocupándose de esa importante obra de vialidad,
 dice uno de nuestros más grandes órganos de pu-
 blicidad:
+
 "Calculando que, término medio, cada línea de
 las 400 existentes toque una decena de zonas o re-
 giones, tenemos 4.000 lugares reanimados, ligados
@@ -25,14 +27,17 @@ vigorizados todos los días por esta próvida circula-
 ción mecánica que cumple, respecto a ellos, la misma
 función vital que ejerce la circulación sanguínea en
 los organismos".
+
 "Las 400 líneas están dispuestas respondiendo a
 un plan preestablecido, alrededor de Italia, siguien-
 do la configuración de sus montañas y de sus valles,
 desde los Alpes a la cadena de los Apeninos; a las
 Madonias en Sicilia".
-"Que viaje encantador será para el turista el re-
+
+"¡Que viaje encantador será para el turista el re-
 correrlo todo!".
-"Que variedad linda de visiones, y que profundos
+
+"¡Que variedad linda de visiones, y que profundos
 desconocidos tesoros de arte, de belleza, de sue-
 ño, profusos en las pequeñas ciudades provinciales,
 en las distantes villas, en las apartadas aldeas, y
@@ -151,7 +156,7 @@ Conociendo como conocemos nuestra idiosincra-
 sia, las obras públicas aisladas, cualquiera que sea
 
 ## Images, Captions, And Visual Notes
-A small decorative element, possibly a stylized floral design, is present in the left margin, extending from approximately the second paragraph down to the fifth paragraph. It is not a substantial visual asset for cropping.
+A small decorative element, resembling a stylized floral or scroll design, is present in the left margin, extending vertically alongside the first few paragraphs of the left column. It does not contain any text or specific information.
 
 ## Uncertain Or Illegible
 None.
@@ -161,5 +166,5 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements were identified for cropping. A small decorative element in the left margin is not considered a substantial visual asset."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals were found on this page that would be useful as standalone wiki assets. The decorative element in the margin is minor and does not convey information."}
 ```

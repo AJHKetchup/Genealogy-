@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:13:52Z",
+  "created": "2026-05-19T18:33:24Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,8 +8,16 @@
   "page": 1302,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1302.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1302.md",
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Handwritten notes and decorative text boxes are transcribed and described in the 'Images, Captions, And Visual Notes' section.",
+  "no_visual_regions_reason": "",
   "visual_regions": [],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Mayo 1936\narb[?]",
+      "source_context": "Handwritten text in the top right corner of the page."
+    }
+  ],
   "flags": []
 }

@@ -1,0 +1,94 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7ef28da12bfd-P0188-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200.codex.md
+converted_sha256: 7ef28da12bfd5b6a46a774b04db93ed0e211917fced4a01350380835a93a6921
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200/manifest.json
+page_start: 188
+page_end: 188
+part: 1
+---
+
+# Page 188
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200/manifest.json`
+- Source page: 188
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200/page-images/page-0188.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+D'un autre côté, il ne semble pas - il ne m'appartient pas de mettre en doute la com¬ pétence de qui que ce soit - que les Gouvernements se soient attendus à discuter cette question d'une façon plus approfondie. En effet, ils n'ont peut-être pas mis, pour cette discussion, à notre disposition, toute
+
+.Quant à nous - et je parle en ce moment au nom du Gouvernement qui a eu l'honneur de convoquer cette Conférence - nous pensons qu'il saluerait favorablement une manifes¬ tation venant de^ cette Conférence, que le programme auquel nous nous sommes arrêtés ne répond pas tout à fait à ce que, à l'heure actuelle, nous devrions être capables de faire. Par conséquent, l'attention des Gouvernements devrait être attirée dès à présent sur l'oppor¬ tunité, pour ne pas dire la nécessité, de se réunir à nouveau dans un avenir pas trop éloigné pour discuter avec
+
+l'expérience et les capacités nécessaires.
+
+plus d'ampleur la question de l'aviation sanitaire.
+
+L idée a été émise de se livrer à une manifestation de ce genre. Ouant à moi, je ne la considérerais nullement comme déplacée:
+
+## Le Lieutenant-Colonel Vanier (Canada) :
+
+Je comprends très bien les préoccupations du délégué des Etats-Unis. Je crains fort que nous nous trouvions en ce moment dans une voie très dangereuse. Si nous limitons la mention de 1 aviation sanitaire dans la Convention aux appareils exclusivement réservés au transport des blessés et des malades, nous courons le risque de trouver en très peu de temps, que les dispositions insérées dans la Convention sont lettres mortes. Nous espérons tous, évidemment qu'il n'y aura plus de guerre ; nous avons la conviction qu'il n'y en aura pas avant un délai assez long. S'il en est ainsi, comme je l'espère, les dispositions que nous insérons actuellement seront complètement démodées.
+
+Il est certain que l'aviation n'est pas seulement un moyen de transport de blessés et de malades, mais prendra sa place dans l'aviation sanitaire pour toutes sortes de rôles. Je serais vraiment inquiet si nous ne nommions pas une petite sous-commission pour étudier à nouveau cette question afin de ne pas arriver devant la commission plénière dans l'état d'esprit dans lequel nous sommes en ce moment. La commission risque en effet de réduire à néant tout le travail
+
+En principe, je suis opposé aux sous-commissions, je l'ai déjà dit ; mais dans le cas par¬ ticulier, loin d'y être opposé, j'appuie la quasi-suggestion de M. Wadsworth qui a parlé d'une sous-commission.
+
+que nous avons fait jusqu'à présent.
+
+## M. Wadsworth (Etats-Unis). Traduction :
+
+Je propose la constitution d'une sous-commission dont le nombre resterait indéterminé, soit qu'elle soit nommée par le président, soit que les diverses délégations qui désirent en faire partie, en fassent la demande. Mais en ce qui concerne la déclaration faite que les stipulations de cette Convention se référant à l'aviation sanitaire seront prochainement passés de mode, je ne peux que l'appuyer complètement.
+
+## M. Raymond (Nouvelle-Zélande) :
+
+Il va sans dire que sur le fond, je suis d'accord avec les idées émises par le délégué des Etats-Unis. Avant d'être réunis ici, l'aviation sanitaire ne bénéficiait d'aucune protection. Aujourd'hui, à la suite des propositions qui ont été faites et admises, elle bénéficie d'une certaine protection. Or nous sommes en présence d'une proposition américaine tendant à élargir et à modifier considérablement les conclusions auxquelles nous sommes arrivés. Cette proposition est pleine d'intérêt ; mais la question n'est pas là. Certains gouvernements ne voudront pas adopter les résolutions sur cette matière sans avoir une nouvelle Conférence et sans une étude approfondie. Nous devrions donc nous satisfaire de ce que nous avons obtenu. La délégation italienne a proposé un Acte final. Profitons-en pour exprimer nos vœux et nos désirs, c'est-à-dire en l'espèce le vœu que se réunisse prochainement une nouvelle Conférence qui pourrait traiter de la question. Le délégué américain pourrait, avant la signature, faire les réserves qu'il jugerait utile.
+
+## M. Wadsworth (Etats-Unis) :
+
+Je ne fais pas de proposition particulière, mais je constate qu'en somme nous venons de limiter les articles 6 et 12. Les articles précédents se réfèrent aux moyens de transport. Tout le monde admet que l'aéroplane est un moyen de transport. J'estime donc que la création de ce sous-comité est nécessaire.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

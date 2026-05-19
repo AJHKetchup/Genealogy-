@@ -1,0 +1,158 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ffefd6df6832-P0089-02
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100.codex.md
+converted_sha256: ffefd6df6832230e826a69095dd9a95dbd6605b0855ddf7aad66c5a8e148fa92
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/manifest.json
+page_start: 89
+page_end: 89
+part: 2
+---
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "bbox_pct": [49.5, 32.5, 86.5, 86.5],
+      "caption_literal": "ORDEN PELECANIFORMES — Familia PHAETHONTIDAE",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": "The illustration shows three birds flying over water, with a lighthouse in the background. The caption identifies the order and family of the birds.",
+      "confidence": 0.95,
+      "suggested_filename": "illustration_phaethon_birds_over_water.png",
+      "inline_anchor": "ORDEN PELECANIFORMES — Familia PHAETHONTIDAE"
+    }
+  ]
+}
+```
+
+## Page Metadata
+Page number: 91
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily descriptive entries about bird species. Two illustrations of birds are embedded within the text, each followed by a caption. The page number is centered at the bottom.
+
+## Literal Transcription
+branosos amplio y extensible dentro del cual la hembra suele almacenar el producto de su pesca para
+llevarlo a sus polluelos. Anidan generalmente en las costas rocallosas cubiertas de matorrales; la hem-
+bra pone uno a tres huevos blancos cubiertos de concreciones calcáreas.
+75. *PELECANUS OCCIDENTALIS OCCIDENTALIS* Linné n. v. *Alcatraz, Pelícano*.
+
+Común en las bahías de Puerto Colombia y de Cartagena, donde se le ve a menudo posado sobre las
+boyas. Es de plumaje pardusco ceniciento, la cabeza y los lados del pescuezo blancos, el resto del cuello
+pardo; la bolsa yugular es de color gris
+verdoso, la piel periocular azulosa. Los ejem-
+plares jóvenes son algo más grandes y su co-
+loración general es gris pardusca; su cabeza
+ostenta además una cresta achatada que no
+poseen los adultos. Su área de dispersión
+comprende la costa caribe de Sud América
+y de Panamá y todas las Antillas.
+
+SULIDÆ
+
+Las Súlidas tienen relación anatómica con
+los pelícanos, pero difieren muchísimo de
+éstos por su aspecto exterior. La bolsa yu-
+gular de estas aves es rudimentaria y el pico,
+grueso y profundamente hendido en la base,
+es de punta agudísima, ligeramente cur-
+va. La peculiaridad más notable de las súli-
+das consiste en que no poseen orificios na-
+sales y, por esta causa, están obligadas a
+abrir el pico para respirar por la boca. Son
+esencialmente oceánicas, de tamaño relati-
+vamente grande; sus largas y puntiagudas
+alas son muy potentes, lo que les permite
+volar a distancias considerables en alta mar,
+cerniéndose y describiendo círculos a regu-
+lar altura, como los buitres, con las alas
+extendidas e inmóviles. La cola es de forma acuñada, pun-
+tiaguda y tiene de 12 a 18 rectrices. Anidan las hembras en colonias numerosas sobre los acantilados
+de las islas e islotes del Mar Caribe; cada una pone un solo huevo cubierto de concreciones calcáreas.
+76. *SULA LEUCOGASTER LEUCOGASTER* (Boddaert) n. v. *Gaviota boba*?
+
+Se encuentra esta especie en alta mar por
+lo general y solamente la he visto cerca de
+las costas colombianas en una ocasión. Mide
+alrededor de 75 cms. de longitud; su pluma-
+je es de color negrusco por encima, blanco
+por debajo, el pico de color amarillo pálido
+más o menos matizado de azuloso. El área
+de dispersión se extiende por el Mar Caribe,
+las Antillas y el Océano Atlántico tropical.
+
+PHALACROCORACIDÆ
+
+Las Falacrocorácidas o Cormoranes son
+aves acuáticas muy afines de los Pelícanos.
+Viven en bandadas numerosas en las ciéna-
+gas y en las costas marítimas y vuelan ve-
+lozmente guardando un orden regular en for-
+ma de “V”, como los patos silvestres, con los
+cuales suelen a menudo confundirlos los ca-
+zadores, que gastan inútilmente su pólvora.
+El pico de los cormoranes es comprimido, rec-
+to en la mayor parte de su longitud, pero se
+encorva abruptamente cerca de la punta en
+forma de gancho; la comisura bucal está
+
+ORDEN PELECANIFORMES — Familia PELECANIDAE
+
+ORDEN PELECANIFORMES — Familia PHALACROCORACIDAE
+
+— 213 —
+
+## Images, Captions, And Visual Notes
+Pipeline-extracted visual crops:
+- ![source-caption: ORDEN PELECANIFORMES — Familia PELECANIDAE](../extracted-images/page-0091/page-0091-image-01-illustration-pelecaniformes-pelecanidae.png)
+  - Kind: illustration; label basis: source-caption; bbox_pct: [4.0, 46.0, 47.0, 84.0]
+  - Source context: The illustration depicts several pelicans, which are part of the Pelecanidae family within the Pelecaniformes order. The surrounding text describes Pelecanus occidentalis occidentalis.
+- ![source-caption: ORDEN PELECANIFORMES — Familia PHALACROCORACIDAE](../extracted-images/page-0091/page-0091-image-02-illustration-pelecaniformes-phalacrocoracidae.png)
+  - Kind: illustration; label basis: source-caption; bbox_pct: [58.0, 46.0, 85.0, 84.0]
+  - Source context: The illustration depicts several cormorants, which are part of the Phalacrocoracidae family within the Pelecaniformes order. The surrounding text describes Phalacrocoracidae.
+
+The page contains two illustrations of birds.
+The first illustration, located on the right side of the page, depicts several pelicans in various poses: one flying, one diving, and several standing on a rocky shore.
+The second illustration, also on the right side of the page, shows several cormorants. Two are perched on a rocky outcrop, and several others are flying in the background.
+
+## Uncertain Or Illegible
+No uncertain or illegible text.
+
+## Completeness Audit
+All visible text and images on the page have been transcribed and described.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "bbox_pct": [4, 46, 47, 84],
+      "caption_literal": "ORDEN PELECANIFORMES — Familia PELECANIDAE",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The illustration depicts several pelicans, which are part of the Pelecanidae family within the Pelecaniformes order. The surrounding text describes Pelecanus occidentalis occidentalis.",
+      "confidence": "high",
+      "suggested_filename": "illustration_pelecaniformes_pelecanidae"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "bbox_pct": [58, 46, 85, 84],
+      "caption_literal": "ORDEN PELECANIFORMES — Familia PHALACROCORACIDAE",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "The illustration depicts several cormorants, which are part of the Phalacrocoracidae family within the Pelecaniformes order. The surrounding text describes Phalacrocoracidae.",
+      "confidence": "high",
+      "suggested_filename": "illustration_pelecaniformes_phalacrocoracidae"
+    }
+  ]
+}
+```

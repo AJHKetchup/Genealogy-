@@ -1,0 +1,55 @@
+{
+  "created": "2026-05-19",
+  "converted_file": "raw/converted/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275.codex.md",
+  "converted_sha256": "fe865372acbfcc086adbf1f8afab68350ee11747c8a42a0f0ba0507bdbcbefea",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "source_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-fe865372acbf-P0001-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275-codex/page-0001-chunk-01.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 1,
+      "chars": 11224,
+      "sha256": "52c94be1b545b66fee666ff0f5cd8d6ed6444b5add1b44fe6fc5c74f0c1bcfdf"
+    },
+    {
+      "chunk_id": "CHUNK-fe865372acbf-P0001-02",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275-codex/page-0001-chunk-02.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 2,
+      "chars": 11972,
+      "sha256": "5e16ca4fb4577788c55d48dd4840a27e2bc41573199e13c897b0bfe2876a9288"
+    },
+    {
+      "chunk_id": "CHUNK-fe865372acbf-P0001-03",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275-codex/page-0001-chunk-03.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 3,
+      "chars": 10720,
+      "sha256": "a65b605389bbc43870ddfcce4e634d4578b081914e38224368cd05f089891ed8"
+    },
+    {
+      "chunk_id": "CHUNK-fe865372acbf-P0001-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275-codex/page-0001-chunk-04.md",
+      "page_start": 1,
+      "page_end": 1,
+      "part": 4,
+      "chars": 11389,
+      "sha256": "51ce41005bfc74707d02696ca3a69f28d06a463bf12d936777bc0cd536a23128"
+    }
+  ]
+}

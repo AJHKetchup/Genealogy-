@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:38:10Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json",
+  "page": 122,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-images/page-0122.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-markdown/page-0122.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vis_001",
+      "kind": "illustration",
+      "caption_literal": "Coat of arms, likely the national emblem of the Dominican Republic, featuring a shield with a cross, a bible, and flags, surrounded by a laurel wreath and ribbons, with the motto \"DIOS PATRIA LIBERTAD\" above and \"REPUBLICA DOMINICANA\" below.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-elements",
+      "source_context": "The coat of arms is placed centrally on the page between the main text and the printer information.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        39.5,
+        52.5,
+        60.5,
+        60.5
+      ],
+      "bbox_pixels": [
+        367,
+        718,
+        572,
+        836
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0122/page-0122-image-01-dominican-republic-coat-of-arms-1933.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0122/page-0122-image-01-dominican-republic-coat-of-arms-1933.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-images/page-0122.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/manifest.json",
+      "page": 122,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/page-markdown/page-0122.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

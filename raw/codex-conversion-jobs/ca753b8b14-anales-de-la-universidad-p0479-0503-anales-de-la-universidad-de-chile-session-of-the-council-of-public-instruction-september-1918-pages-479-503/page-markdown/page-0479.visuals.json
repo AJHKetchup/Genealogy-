@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:37:32Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/manifest.json",
+  "page": 479,
+  "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/page-images/page-0479.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/page-markdown/page-0479.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "photograph",
+      "caption_literal": "NEW HOSPITAL\nTYPE C HOUSES",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "An aerial view of a hospital complex and residential houses, with handwritten labels pointing to each.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        11.8,
+        18.0,
+        79.9,
+        79.9
+      ],
+      "bbox_pixels": [
+        83,
+        217,
+        596,
+        984
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0479/page-0479-image-01-aerial-view-new-hospital-type-c-houses.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0479/page-0479-image-01-aerial-view-new-hospital-type-c-houses.png",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/page-images/page-0479.jpg",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/manifest.json",
+      "page": 479,
+      "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/page-markdown/page-0479.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

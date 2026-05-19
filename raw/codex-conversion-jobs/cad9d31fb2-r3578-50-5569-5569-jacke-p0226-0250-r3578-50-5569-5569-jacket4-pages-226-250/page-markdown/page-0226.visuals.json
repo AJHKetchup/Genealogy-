@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:33:08Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3578-50-5569-5569-Jacket4.pdf",
+  "source_sha256": "d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781",
+  "job_manifest": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/manifest.json",
+  "page": 226,
+  "page_image": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/page-images/page-0226.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/page-markdown/page-0226.md",
+  "no_visual_regions_reason": "The page contains only a small block of printed text (a printer's colophon) and significant show-through from the reverse side. There are no illustrations, photographs, or other meaningful visual elements to crop.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

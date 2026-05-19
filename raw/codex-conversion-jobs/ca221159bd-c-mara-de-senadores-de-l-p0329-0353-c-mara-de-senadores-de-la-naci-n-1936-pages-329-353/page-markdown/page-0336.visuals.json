@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-19T18:34:29Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0329-0353-c-mara-de-senadores-de-la-naci-n-1936-pages-329-353/manifest.json",
+  "page": 336,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0329-0353-c-mara-de-senadores-de-la-naci-n-1936-pages-329-353/page-images/page-0336.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0329-0353-c-mara-de-senadores-de-la-naci-n-1936-pages-329-353/page-markdown/page-0336.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "DIRECCION NACIONAL DE VIALIDAD\nOFICINA\nDE\nTRANSPORTES\nPRESIDENCIA",
+      "source_context": "The stamp appears below the text \"Es copia\" and initials \"I.A.\""
+    }
+  ],
+  "flags": []
+}

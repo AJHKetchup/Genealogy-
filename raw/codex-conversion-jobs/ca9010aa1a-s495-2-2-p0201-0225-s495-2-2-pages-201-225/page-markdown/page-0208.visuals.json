@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:40:01Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 208,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0208.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0208.md",
+  "no_visual_regions_reason": "The only visual element is a very faint, indistinct watermark-like image of a man's head in profile, which is not substantial enough to be useful as a standalone visual asset for cropping.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

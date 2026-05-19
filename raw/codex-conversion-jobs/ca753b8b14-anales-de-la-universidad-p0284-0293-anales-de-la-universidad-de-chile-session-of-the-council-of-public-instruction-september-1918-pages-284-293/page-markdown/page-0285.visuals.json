@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-17T10:26:46Z",
+  "created": "2026-05-19T18:33:28Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "page-0285-image-001",
+      "region_id": "vr-01",
       "kind": "illustration",
-      "caption_literal": "Decorative header with repeating floral pattern.",
+      "caption_literal": "",
       "caption_type": "converter-description",
-      "identity_basis": "converter-description",
-      "source_context": "Decorative header at the top of the page.",
+      "identity_basis": "none",
+      "source_context": "A decorative header with a floral (iris) pattern at the top of the page.",
       "confidence": "high",
-      "inline_anchor": "",
+      "inline_anchor": "[vr-01]",
       "bbox_pct": [
-        9.9,
-        39.0,
-        13.5,
-        81.0
+        11.1,
+        6.1,
+        88.9,
+        14.1
       ],
       "bbox_pixels": [
-        69,
-        474,
-        104,
-        997
+        78,
+        71,
+        663,
+        177
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-decorative-floral-header.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-decorative-floral-header.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-anales-de-la-universidad-p0285-vr-01-header-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-anales-de-la-universidad-p0285-vr-01-header-illustration.png",
       "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0285.jpg",
       "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
       "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",

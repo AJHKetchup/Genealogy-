@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:36Z",
+  "created": "2026-05-19T18:32:58Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4946-12-33387-8070.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "visreg_1",
+      "region_id": "visual_001",
       "kind": "illustration",
       "caption_literal": "ONCIDIUM THRAMERIANUM",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
-      "source_context": "The illustration depicts an orchid with orange and yellow speckled flowers. The caption 'ONCIDIUM THRAMERIANUM' is written vertically to its right.",
+      "source_context": "The caption is printed vertically alongside the illustration.",
       "confidence": "high",
-      "inline_anchor": "",
+      "inline_anchor": "ONCIDIUM THRAMERIANUM",
       "bbox_pct": [
-        9.0,
-        4.0,
-        79.0,
-        46.0
+        10.8,
+        80.0,
+        45.0,
+        90.0
       ],
       "bbox_pixels": [
-        116,
-        71,
-        1056,
-        870
+        140,
+        1502,
+        603,
+        1699
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-oncidium-thramerianum-orchid-illustration.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-oncidium-thramerianum-orchid-illustration.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-illustration-oncidium-thramerianum.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-illustration-oncidium-thramerianum.png",
       "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-images/page-0236.jpg",
       "source": "raw/sources/R4946-12-33387-8070.pdf",
       "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",
@@ -41,28 +41,28 @@
       "output_markdown": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-markdown/page-0236.md"
     },
     {
-      "region_id": "visreg_2",
+      "region_id": "visual_002",
       "kind": "illustration",
       "caption_literal": "CATTLEYA QUADRICOLOR",
       "caption_type": "source-caption",
       "identity_basis": "source-caption",
-      "source_context": "The illustration depicts an orchid with white petals and a purple and yellow center, along with a small diagram. The caption 'CATTLEYA QUADRICOLOR' is written vertically to its left.",
+      "source_context": "The caption is printed vertically alongside the illustration.",
       "confidence": "high",
-      "inline_anchor": "",
+      "inline_anchor": "CATTLEYA QUADRICOLOR",
       "bbox_pct": [
-        21.0,
         54.0,
-        91.0,
-        96.0
+        9.0,
+        92.0,
+        90.0
       ],
       "bbox_pixels": [
-        276,
-        1013,
-        1216,
-        1812
+        715,
+        165,
+        1229,
+        1699
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-cattleya-quadricolor-orchid-illustration.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-cattleya-quadricolor-orchid-illustration.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-illustration-cattleya-quadricolor.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-illustration-cattleya-quadricolor.png",
       "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/page-images/page-0236.jpg",
       "source": "raw/sources/R4946-12-33387-8070.pdf",
       "source_sha256": "d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d",

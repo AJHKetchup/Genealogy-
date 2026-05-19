@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dded07b70e0b-P0725-02
+chunk_id: CHUNK-f782f81fcfb3-P0725-02
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md
-converted_sha256: dded07b70e0bdc944aea94a7a31a6e71176c554127e899245debf6a31592a5fb
+converted_sha256: f782f81fcfb34f2e3741061f6864a0d9068587c65ccc7e562105ce34d1c11b4e
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json
@@ -12,8 +12,7 @@ part: 2
 ---
 
 ## Literal Transcription
-1318
-CÁMARA DE SENADORES DE LA NACIÓN
+1318 CAMARA DE SENADORES DE LA NACION Septiembre 29 y 30
 
 vías que nos ha citado hace un instante el se-
 ñor senador por San Luis, que necesariamente
@@ -76,8 +75,6 @@ No han aportado elementos de juicio suficien-
 tes respecto de las cuestiones fundamentales en
 este asunto. Todo lo que se refiere a la coordi-
 
-Septiembre 29 y 30
-
 nación en sí misma queda en una gran va-
 guedad.
 
@@ -86,6 +83,7 @@ y que se mejorará, pero no prueba que el ser-
 vicio no sea bueno. Y es que, señores senado-
 res, el servicio es bueno y sólo necesita una re-
 glamentación más completa y eficiente que la
+
 que tiene.
 
 Lo que llama «coordinación», no es tal coor-
@@ -143,7 +141,7 @@ san a estar garantizados por el pueblo de la Ca-
 pital, al que se subirán las tarifas en la pro-
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+None.
 
 ## Uncertain Or Illegible
 None.
@@ -152,6 +150,4 @@ None.
 All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
-```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```

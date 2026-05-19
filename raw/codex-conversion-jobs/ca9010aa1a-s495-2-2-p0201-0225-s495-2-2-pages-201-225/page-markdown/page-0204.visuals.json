@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-19T18:39:59Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 204,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0204.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0204.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "PARA USO CASERO",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Illustration of a man with a mustache and bow tie, part of the 'LINIMENTO DE SLOAN' product label.",
+      "confidence": "0.95",
+      "inline_anchor": "illustration of a man with a mustache and bow tie",
+      "bbox_pct": [
+        39.9,
+        30.4,
+        50.4,
+        37.9
+      ],
+      "bbox_pixels": [
+        450,
+        484,
+        577,
+        613
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0204/page-0204-image-01-linimento-de-sloan-man-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0204/page-0204-image-01-linimento-de-sloan-man-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0204.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 204,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0204.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "MATA DOLORES",
+      "source_context": "Small circular logo with the text 'MATA DOLORES' next to the testimonial."
+    }
+  ],
+  "flags": []
+}

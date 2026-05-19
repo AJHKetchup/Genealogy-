@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-19T18:40:47Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+  "page": 265,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0265.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0265.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "MODELO DEL \"PALACIO DE HIERRO\"",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "The illustration is presented as a fashion model from \"Palacio de Hierro\".",
+      "confidence": "0.95",
+      "inline_anchor": "MODELO DEL \"PALACIO DE HIERRO\"",
+      "bbox_pct": [
+        59.0,
+        30.0,
+        93.0,
+        69.0
+      ],
+      "bbox_pixels": [
+        1429,
+        1032,
+        2262,
+        2388
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0265/page-0265-image-01-model-palacio-de-hierro-265.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0265/page-0265-image-01-model-palacio-de-hierro-265.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0265.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+      "page": 265,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0265.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "SIDRAL MUNDET ESPECIAL VALE $100 LEVANTE EL DISCO DE CORCHO Y ENCONTRARA \"VALE UN PE- SO.\" QUE PAGARA CUALESQUIER ESTABLECIMIENTO O REPARTI- DOR.",
+      "source_context": "Advertisement for Sidral Mundet Especial with a promotional offer."
+    }
+  ],
+  "flags": []
+}

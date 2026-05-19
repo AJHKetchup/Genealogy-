@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:39:52Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 187,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0187.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0187.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vis-001",
+      "kind": "photograph",
+      "caption_literal": "El fotograbado de arriba muestra el puerto de Salónica, principal base naval de Grecia en Europa.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "A seaplane being lifted by a crane in a port city. Watermark: UNIVERSAL PICTURE CUT SERVICE NEW YORK.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        11.8,
+        12.0,
+        87.0,
+        46.5
+      ],
+      "bbox_pixels": [
+        128,
+        190,
+        980,
+        755
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-01-seaplane-salonica-port.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-01-seaplane-salonica-port.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0187.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 187,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0187.md"
+    },
+    {
+      "region_id": "vis-002",
+      "kind": "photograph",
+      "caption_literal": "El fotograbado de abajo muestra el puerto de Constantinopla, capital de Turquía y uno de los principales puertos del mundo.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "An aerial view of a densely built port city.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        11.8,
+        47.0,
+        87.0,
+        77.0
+      ],
+      "bbox_pixels": [
+        128,
+        755,
+        980,
+        1248
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-02-aerial-view-constantinople-port.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-02-aerial-view-constantinople-port.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0187.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 187,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0187.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

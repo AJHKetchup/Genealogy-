@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bbbe65285b23-P0192-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200.codex.md
+converted_sha256: bbbe65285b235c6e042d72b0b8ca39d867990e32f1859790052bcb416d4e23eb
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json
+page_start: 192
+page_end: 192
+part: 1
+---
+
+# Page 192
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json`
+- Source page: 192
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-images/page-0192.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+s
+
+pour la compréhension qu'il a montrée à l'égard de notre attitude sur -ce point. Il s'en suit que l'œuvre en question sera, sans aucun doute, achevée dans quelques instants. Cette œuvre a été initiée il y a cinq ans, par la nomination, lors de la Xlème Conférence de la Croix-Rouge, de la Commission d'études qui a travaillé assidûment pendant quel¬ que chose comme trois ans sous la présidence effective d'un citoyen du pays qui nous offre en ce moment l'hospitalité, j'ai nommé M. H. C. Dresselhuys. Je ne voudrais pas quitter cette tribune quelques instants peut-être avant la ratification de l'œuvre qui a été commencée sous la -direction et sous les auspices de M. Lresselhuys, sans rappeler à votre souvenir l'image de ce grand ouvrier de la Croix-Rouge et sans vous prier de vouloir associer cette image, dans vos esprits, à celle de M. Gustave Ador dont le souvenir a été si justement évoqué tout à l'heure.
+
+- M. Payne (Albanie, Etats Unis, Islande). - Au nom de la Ligue des Sociétés de la Croix-Rouge j'ai le plaisir de rendre hommage à la courtoisie, la considération et l'esprit de bienveillance que n'ont jamais cessé de nous témoigner tous les représentants du Comité international de la Croix-Rouge et tout particulièrement son président, M. Huber,
+2. pendant ces négociations.
+
+Je suis persuadé que si vous adoptez ce document - ce que vous ne manquerez pas de faire, j'en suis certain, - il marquera une nouvelle ère pour la Croix-Rouge dont toutes les branches coopéreront dans un esprit de largesse. L'idée de la Croix-Rouge née dans le cœur d'Henri Luxant prendra ainsi un nouvel essor pour le plus grand bien de son œuvre.
+
+- M. Dinichert (Suisse - Monsieur le président, Mesdames, Messieurs.
+
+. Jusqu'à ce moment-ci, les Gouvernements représentés à cette vaste et illustre Con¬ férence n'ont pas eu l'occasion - et cela est dans l'ordre des choses - de manifester leurs sentiments au sujet de l'accord important qui est en ce moment soumis à leur décision. Je me félicite de pouvoir apporter à cette heure que nous pouvons, je crois, appeler solennelle pour la Croix-Rouge, apporter, dis-je, l'adhésion complète du Gouvernement suisse aux statuts actuellement devant vos yeux.
+
+Pourquoi la délégation suisse se croit-elle obligée, en quelque sorte, de venir apporter cette déclaration? C'est parce que, ainsi que beaucoup d'entre vous le savent, au cours de plusieurs Conférences internationales de la Croix-Rouge et autres, le Gouvernement suisse avait cru qu'il était de son devoir d'appeler l'attention des Conférences sur les conditions qu'à son sens, une telle organisation internationale devait réaliser. Et, Monsieurs, quoique le souvenir m'en soit quelque peu pénible, il n'est peut-être pas inutile de rappeler ici que dans une Conférence d'Etats tout à fait récente, le Gouvernement suisse avait été obligé de déclarer qu'il ne pourrait pas prêter les mains à un accord international qui, en lui-même, répondait à ses désirs et à ses vœux, tant que l'organisation internationale de la Croix-Rouge qui était visée, ne serait pas un fait accompli dans un sens que les sociétés nationales et les Gouvernements devaient demander. Il est bien entendu que l'organisation internationale de la Croix-Rouge est, avant toutes choses, l'affaire des Sociétés nationales. Jamais personne n'a songé à contester ce principe. Mais ce que j'ai été appelé à soutenir au nom de mon Gouvernement et ce que je suis appelé à répéter ici, c'est,que les Gouvernements ne peuvent pas se désintéresser de cette organisation parce qu'ils doivent se rappeler que la Croix-Rouge existe par la volonté des Gouvernements et que la tâche leur reste en tout état de cause, de devoir veiller à ce que la Croix-Rouge, créée par eux, serve réellement les fins
+
+auxquelles elle a été destinée.
+
+Mesdames, Messieurs. Ces conditions auxquelles l'organisation internationale doit répondre, quelles sont-elles? Notre avis a toujours été qu'elles devaient être conformes à l'essence même de la Croix-Rouge et à l'unité universelle. La Croix-Rouge doit être stable parce qu'il faut que les Gouvernements sachent ce qu'ils ont en face d'eux. Les Conventions internationales vont aller en se multipliant; les Gouvernements entendent donc conférer
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:37:03Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+  "page": 312,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0312.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0312.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "IMPERIAL HOTEL",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Letterhead logo for Imperial Hotel.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        9.7,
+        10.9,
+        20.7,
+        20.9
+      ],
+      "bbox_pixels": [
+        123,
+        90,
+        275,
+        184
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0312/page-0312-image-01-imperial-hotel-crest-logo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0312/page-0312-image-01-imperial-hotel-crest-logo.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-images/page-0312.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/manifest.json",
+      "page": 312,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/page-markdown/page-0312.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

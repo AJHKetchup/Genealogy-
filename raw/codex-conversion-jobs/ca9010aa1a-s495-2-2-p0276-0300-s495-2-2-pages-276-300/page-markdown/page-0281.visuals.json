@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:14Z",
+  "created": "2026-05-19T18:33:14Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "vis_001",
       "kind": "illustration",
-      "caption_literal": "Artísticamente\ndetenerse es morir.",
-      "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "Advertisement for home furnishings.",
+      "caption_literal": "Artísticamente\ndetenerse es morir.\n\nPara que no muera la elegancia y\ndistinción de su hogar; haga que es-\nte evolucione paralelamente con los\ngustos de cada época.\nQueriendo contribuir a su bello fin,\nofrecemos a Vd. el más variado y no-\nvedoso surtido en ALFOMBRAS, CA-\nMINOS, CORTINADOS, DAMASCOS,\nDE SALON, MADRAS, JUEGOS\ny PASAMANERIAS que acabamos de\nrecibir de las más afamadas fábricas\neuropeas.\nNuestros precios son los mas ba-\nratos y nuestras mercaderías son de\nlas mas finas que se fabrican.\n\nMONTES\nLauragaray y Esteban Bs Aires\n899",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "This illustration is part of a large advertisement for 'MONTES' furniture and home decor, which includes the slogan 'Artísticamente detenerse es morir.'",
       "confidence": "high",
-      "inline_anchor": "",
+      "inline_anchor": "A large illustration depicts an interior scene with a patterned rug, a sofa, a table with a vase of flowers, and a window with curtains.",
       "bbox_pct": [
-        59.9,
+        19.9,
         18.9,
-        78.0,
-        81.0
+        80.0,
+        74.0
       ],
       "bbox_pixels": [
-        437,
+        142,
         644,
-        578,
-        2782
+        593,
+        2542
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-room-furnishings-illustration.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-room-furnishings-illustration.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-page-0281-vis-001-artisticamente-detenerse-es-morir-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-page-0281-vis-001-artisticamente-detenerse-es-morir-ad.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-images/page-0281.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

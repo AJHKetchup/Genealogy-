@@ -1,0 +1,54 @@
+{
+  "created": "2026-05-19T18:39:47Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 178,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0178.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0178.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a hand holding a magnifying glass over a phonograph needle.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "The main illustration for the advertisement.",
+      "confidence": "0.95",
+      "inline_anchor": "The top half of the advertisement features a large illustration.",
+      "bbox_pct": [
+        22.0,
+        33.0,
+        52.0,
+        66.0
+      ],
+      "bbox_pixels": [
+        249,
+        524,
+        602,
+        1060
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0178/page-0178-image-01-victor-tungs-tone-needle-magnified-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0178/page-0178-image-01-victor-tungs-tone-needle-magnified-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0178.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 178,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0178.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "region_2",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "VICTOR",
+      "source_context": "Small circular logo in the bottom right corner of the ad."
+    }
+  ],
+  "flags": []
+}

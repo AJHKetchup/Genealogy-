@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:40:10Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 221,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0221.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0221.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "photograph",
+      "caption_literal": "Se desean Agentes\ny Comerciantes",
+      "caption_type": "nearby-text",
+      "identity_basis": "none",
+      "source_context": "Advertisement for agents and merchants, featuring a small portrait of a woman.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        13.0,
+        27.0,
+        22.0,
+        34.0
+      ],
+      "bbox_pixels": [
+        140,
+        423,
+        248,
+        542
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-01-portrait-woman-advertisement.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-01-portrait-woman-advertisement.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0221.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 221,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0221.md"
+    },
+    {
+      "region_id": "visual_002",
+      "kind": "illustration",
+      "caption_literal": "JUAN DOBOROW\nMATERIALES FOTOGRAFICOS\nTEGUCIGALPA TELEFONO No. 13",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "Illustration of people playing tennis, accompanying an advertisement for photographic materials.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        13.0,
+        50.0,
+        79.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        140,
+        787,
+        879,
+        1270
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-02-illustration-tennis-juan-doborow.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-02-illustration-tennis-juan-doborow.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0221.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 221,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0221.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

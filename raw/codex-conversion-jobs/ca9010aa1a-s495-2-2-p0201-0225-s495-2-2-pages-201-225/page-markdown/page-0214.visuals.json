@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:40:03Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 214,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0214.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0214.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "FELICÍTESE\nAL verse al espejo, por la mañana, podrá\nsentirse satisfecho, lleno de vigor y rebosante\nde salud, si toma Sal Hepática.\n\nNada empeora tanto el humor ni causa mayor\nirritación que un estómago desarreglado, un hí-\ngado entorpecido o un organismo afectado por el\nexceso de ácido úrico.\n\nLa Sal Hepática remediará esos inconve-\nnientes rápida y seguramente. Pronto devolverá al\nrostro ajado y amarillento, el esplendor de la salud.\n\nTomela al levantarse.\nDe venta en todas las Farmacias.\n\nSAL HEPATICA\nBRISTOL-MYERS CO., NEW YORK",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "Advertisement for Sal Hepática showing two men, one looking in a mirror, the other holding a glass, with a small jester-like figure on a bottle.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.9,
+        28.0,
+        66.9,
+        79.3
+      ],
+      "bbox_pixels": [
+        140,
+        438,
+        752,
+        1257
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0214/page-0214-image-01-sal-hepatica-advertisement-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0214/page-0214-image-01-sal-hepatica-advertisement-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0214.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 214,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0214.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

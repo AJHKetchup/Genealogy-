@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-19T18:34:54Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+  "source_sha256": "221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289",
+  "job_manifest": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json",
+  "page": 411,
+  "page_image": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0411.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-markdown/page-0411.md",
+  "no_visual_regions_reason": "This page consists entirely of printed text and does not contain any images, illustrations, or other visual elements suitable for cropping.",
+  "visual_regions": [],
+  "skipped_regions": [],
+  "flags": []
+}

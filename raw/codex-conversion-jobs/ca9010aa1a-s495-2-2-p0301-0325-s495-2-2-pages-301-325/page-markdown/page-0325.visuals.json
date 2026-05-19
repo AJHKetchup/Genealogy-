@@ -1,0 +1,84 @@
+{
+  "created": "2026-05-19T18:44:05Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+  "page": 325,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0325.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0325.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_1",
+      "kind": "illustration",
+      "caption_literal": "UN HOGAR FELIZ",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Illustration for an advertisement about an 'Electric Belt' promising health benefits.",
+      "confidence": "0.9",
+      "inline_anchor": "Visual 1",
+      "bbox_pct": [
+        30.0,
+        14.0,
+        47.0,
+        29.0
+      ],
+      "bbox_pixels": [
+        729,
+        481,
+        1152,
+        1009
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-01-illustration-electric-belt-ad-325.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-01-illustration-electric-belt-ad-325.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0325.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+      "page": 325,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0325.md"
+    },
+    {
+      "region_id": "visual_3",
+      "kind": "photograph",
+      "caption_literal": "LA CASA SE ENTREGARA AL AGRACIADO, LIBRE DE TODO GASTO Y GRAVAMEN, CON LA ESCRITURA CORRESPONDIENTE.",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Photograph of a street scene with a building, likely the prize house for the 'GRAN SORTEO NACIONALISTA'.",
+      "confidence": "0.9",
+      "inline_anchor": "Visual 3",
+      "bbox_pct": [
+        80.0,
+        50.0,
+        90.0,
+        80.0
+      ],
+      "bbox_pixels": [
+        1950,
+        1729,
+        2202,
+        2777
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-03-photo-gran-sorteo-nacionalista-prize-house-325.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-03-photo-gran-sorteo-nacionalista-prize-house-325.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0325.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+      "page": 325,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0325.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual_2",
+      "kind": "graphic",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "5 PESOS",
+      "source_context": "Circular graphic indicating the price of a lottery ticket in the 'GRAN SORTEO NACIONALISTA' advertisement."
+    }
+  ],
+  "flags": []
+}

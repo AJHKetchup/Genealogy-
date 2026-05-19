@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:40:50Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+  "page": 267,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0267.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0267.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "La verdad es que voy derechito a aquí, porque la Madrileña por ser la casa que mas me conviene. Esperemos que no caiga mucho",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Illustration within the 'LA MADRILEÑA' advertisement, showing a man running towards falling clothes.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        30.0,
+        13.0,
+        42.0,
+        27.0
+      ],
+      "bbox_pixels": [
+        696,
+        444,
+        985,
+        935
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0267/page-0267-image-01-la-madrilena-ad-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0267/page-0267-image-01-la-madrilena-ad-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-images/page-0267.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/manifest.json",
+      "page": 267,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0267.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

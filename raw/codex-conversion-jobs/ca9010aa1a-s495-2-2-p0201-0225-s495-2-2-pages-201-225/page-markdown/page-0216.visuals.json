@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:40:04Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 216,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0216.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0216.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visreg_1",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a man shaving and a hand stropping a razor.",
+      "caption_type": "converter-description",
+      "identity_basis": "visual-content",
+      "source_context": "Main advertisement illustration",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        20.0,
+        28.0,
+        31.0,
+        71.0
+      ],
+      "bbox_pixels": [
+        218,
+        438,
+        348,
+        1124
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-01-illustration-man-shaving-hand-stropping-razor.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-01-illustration-man-shaving-hand-stropping-razor.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0216.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 216,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0216.md"
+    },
+    {
+      "region_id": "visreg_2",
+      "kind": "product_image",
+      "caption_literal": "Navaja de Seguridad Valet Auto-Strop Afila sus propias hojas",
+      "caption_type": "nearby-text",
+      "identity_basis": "visual-content",
+      "source_context": "Product illustration within the advertisement",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        62.0,
+        30.0,
+        73.0,
+        69.0
+      ],
+      "bbox_pixels": [
+        685,
+        469,
+        815,
+        1092
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-02-valet-auto-strop-razor-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-02-valet-auto-strop-razor-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0216.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 216,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0216.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

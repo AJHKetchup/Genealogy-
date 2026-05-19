@@ -1,0 +1,136 @@
+{
+  "created": "2026-05-19T18:39:21Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+  "page": 93,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0093.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0093.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "¿Padece Usted de Asma?",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a man's head, looking distressed, for an asthma medication ad.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        26.5,
+        74.5,
+        37.5,
+        82.5
+      ],
+      "bbox_pixels": [
+        672,
+        2441,
+        961,
+        2712
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-01-man-head-asthma-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-01-man-head-asthma-ad.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0093.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 93,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0093.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "SENOS",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Stylized illustration of a woman's figure for a breast development product ad.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        49.5,
+        74.5,
+        55.5,
+        82.5
+      ],
+      "bbox_pixels": [
+        1259,
+        2441,
+        1420,
+        2712
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-02-woman-figure-senos-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-02-woman-figure-senos-ad.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0093.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 93,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0093.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "Muy Util en Cada Hogar",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a woman holding a child for a general ointment ad.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        61.5,
+        85.5,
+        69.5,
+        93.5
+      ],
+      "bbox_pixels": [
+        1565,
+        2802,
+        1777,
+        3073
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-03-woman-child-ointment-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-03-woman-child-ointment-ad.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0093.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 93,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0093.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "illustration",
+      "caption_literal": "TANGEE COLORETE, LAPIZ,",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "Illustration of a woman's head and product images for Tangee cosmetics ad.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        76.5,
+        74.5,
+        83.5,
+        82.5
+      ],
+      "bbox_pixels": [
+        1948,
+        2441,
+        2134,
+        2712
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-04-tangee-cosmetics-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-04-tangee-cosmetics-ad.png",
+      "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0093.jpg",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+      "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+      "page": 93,
+      "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0093.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

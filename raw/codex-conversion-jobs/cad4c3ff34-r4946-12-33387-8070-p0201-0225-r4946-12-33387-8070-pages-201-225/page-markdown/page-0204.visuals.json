@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:21Z",
+  "created": "2026-05-19T18:33:07Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4946-12-33387-8070.pdf",
@@ -11,25 +11,25 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vis_001",
+      "region_id": "vr_1",
       "kind": "illustration",
-      "caption_literal": "8-Ocreatus underwoodi underwoodi Les.\n9-Oxypogon guerini Boiss.\n10-Ramphomicron microrhynchum Boiss.\n11-Lophornis verreauxi verreauxi Bourc.\n12-Chaetocercus mulsanti Bourc.\n13-Klais guimeti Bourc. & Muls.\n14-Lophornis strictolophus Salu. & Elliot.",
+      "caption_literal": "8—Ocreatus underwoodi underwoodi Les.\n9—Oxypogon guerini Boiss.\n10—Ramphomicron microrhynchum Boiss.\n11—Lophornis verreauxi verreauxi Bourc.\n12—Chaetocercus mulsanti Bourc.\n13—Klais guimeti Bourc. & Muls.\n14—Lophornis strictoiopus Salw. & Elliot.",
       "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "The main illustration depicts various hummingbirds and flowers, with a numbered legend on the right side.",
-      "confidence": "high",
+      "identity_basis": "source-labeled-object",
+      "source_context": "The illustration depicts multiple hummingbirds, each identified by a number (8-14) corresponding to the species names provided in the accompanying caption list.",
+      "confidence": "0.98",
       "inline_anchor": "",
       "bbox_pct": [
-        6.0,
-        6.0,
-        94.0,
-        93.0
+        4.5,
+        4.5,
+        95.5,
+        95.5
       ],
       "bbox_pixels": [
-        77,
-        108,
-        1276,
-        1748
+        57,
+        80,
+        1296,
+        1795
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0204/page-0204-image-01-illustration-hummingbirds-and-flowers.png",
       "crop_path_rel": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0204/page-0204-image-01-illustration-hummingbirds-and-flowers.png",

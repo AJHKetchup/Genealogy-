@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-19T18:41:25Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425/manifest.json",
+  "page": 423,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425/page-images/page-0423.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425/page-markdown/page-0423.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "clipping",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "DIARIO DE COSTA RICA\nciales y\n\nEN EL WASHINGTON\n\nEl domingo en la noche, en el\nsalón principal del Hotel Wash-\nington, fué ofrecida una es-\npléndida comida por el señor\ndon Julián Nogueira, represen-\ntante de la Liga de las Nacio-\nnes, para corresponder a la que\nle [hole] obsequiada el sábado pa-\nsa [hole] en el Hotel Europa, por los\ncaballeros don Ricardo Fernán-\ndez Guardia, Lic. don Alejan-\ndro Alvarado Quirós, don Fede-\nrico Witting, Dr. don F. Carlos\nAlvarado y don Fernando Piza.\nLa mesa en el Hotel Wash-\nington se encontraba hermosa-\nmente decorada y ocuparon los\nlugares el señor Nogueira, el se-\nñor Ministro de Educación Pú-\nblica encargado de la Secretaría\nde Relaciones Exteriores D. Mi-\nguel Obregón, el Excmo. señor\nMinistro de Chile don Julio Gar-\ncés, el Excmo. señor Ministro\nde México don Eduardo Ruiz,\nLic. don Alejandro Alvarado\nQuirós, don Ricardo Fernández\nGuardia, don Federico Witting,\nseñor Cónsul de la República\nArgentina don Juan Margueirat,\ndon [hole] nando Piza y don Otilio\nUlate.\nFué servido un variado menú,\nbrindándose al final de la comi-\nda con espumante champagne.\nEl señor Nogueira, debe salir\nhoy en tren expreso para Punta-\nrenas donde embarcará en el va-\npor San Juan, rumbo a Nicara-\ngua y demás repúblicas centroa-\nmericanas. Al medio día de ayer\nestuvo a despedirse en nuestras\noficinas, atención que le agra-\ndecemos, deseándole una feliz\ntravesía,",
+      "source_context": "Newspaper clipping with article text."
+    }
+  ],
+  "flags": []
+}

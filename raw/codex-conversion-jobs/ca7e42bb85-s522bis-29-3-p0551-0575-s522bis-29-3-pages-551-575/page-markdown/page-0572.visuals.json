@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:12:32Z",
+  "created": "2026-05-19T18:32:59Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -12,8 +12,29 @@
   "visual_regions": [],
   "skipped_regions": [
     {
-      "region_id": "visual_001",
-      "kind": "handwritten_note",
+      "region_id": "region_1",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Blue handwritten scribbles partially obscure text in lines 3-6 of this paragraph.",
+      "source_context": "Paragraph 3 of the main text."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Blue handwritten scribbles partially obscure text in lines 1-3 of this paragraph.",
+      "source_context": "Paragraph 4 of the main text."
+    },
+    {
+      "region_id": "region_3",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "A blue handwritten circle surrounds the word \"adhesión\" on line 4 of this paragraph.",
+      "source_context": "Paragraph 9 of the main text."
+    },
+    {
+      "region_id": "region_4",
+      "kind": "handwritten_annotation",
       "reason": "low_value_visual_region_not_saved",
       "caption_literal": "En Prensa\n8-VIII-28",
       "source_context": "Handwritten note at the bottom of the page."

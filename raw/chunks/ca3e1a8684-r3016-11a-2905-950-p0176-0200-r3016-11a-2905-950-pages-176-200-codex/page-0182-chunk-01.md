@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bbbe65285b23-P0182-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200.codex.md
+converted_sha256: bbbe65285b235c6e042d72b0b8ca39d867990e32f1859790052bcb416d4e23eb
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json
+page_start: 182
+page_end: 182
+part: 1
+---
+
+# Page 182
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json`
+- Source page: 182
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-images/page-0182.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+mes requêtes. Je leur en demande pardon. Je me suis souvent aperçu à la fin de ma journée que peut-être j'avais réussi à ennuyer tel ou tel. C'est 'bien douloureux. C'est peut-être la chose la plus douloureuse qu'un missionnaire d'une idée puisse rencontrer. Je n'étais certainement pas né pour assumer cette tâche. Je l'ai pourtant accomplie et j'en suis très fier. Vous me donnez aujourd'hui de toutes mes fatigues, de toutes les ronces de ma route, le grand prix. -J'ai la satisfaction de voir que la Croix-Rouge a épousé cette idée et que je puis maintenant rentrer dans le silence et dans la simplicité de ma vie avec la certitude que cette idée ne mourra pas, qu'elle vous est confiée, M. le Président du Comité international de la Croix-Rouge, qu'elle vous est confiée, M. le Président de la Ligue des Sociétés de la Croix-Rouge. Je viens déposer dans vos bras comme un drapeau de paix, comme un idéal de justice internationale l'Union internationale de secours. J'ai été très faible; vous êtes très puissants. Faites-en une promesse de fraternité dans la vie. Faites-en un exemple pour les Gouvernements, pour les inviter à vous suivre dans ce sillage de paix et de fraternité en se mettant, aux côtés de la grande famille de la Croix-rouge à la tête de l'humanité
+
+pour la conquête de la paix, de la justice et de la fraternité.
+
+Messieurs, mes chers collègues, qu'il soit béni ce pays qui a vaincu l'Océan! Qu'elle soit bénie cette ville dans laquelle s'affirme chaque jour à nouveau l'espoir de justice. (Vifs applaudissements).
+
+## Organisation internationale de la Croix-Rouge.
+
+Son Exc. le général lloell (premier vice-président). - Je vous propose d'aborder maintenant la question de l'organisation internationale de la Croix-Rouge, question discutée déjà au sein de la Commission spéciale des délégués. Je donne la parole aux rapporteurs M. M. Huber et Draudt.
+
+- M. Huber (Comité international de la Croix-Rouge). --- Monseigneur, Excellences,
+2. Mesdames, Messieurs.
+
+C'est en vertu d'un mandat de la Commission spéciale des délégués que le présent rapport relatif à des propositions tendant à régler la question de l'organisation internationale de la Croix-Rouge est soumis à la Conférence.
+
+Il n'entre pas dans les intentions des rapporteurs de décrire en détails les diverses étapes qu'a suivi l'évolution de ce problème ; il suffit de rappeler qu'elles eurent pour point de départ, dès 1922, une première prise de contact entre le Comité international de la Croix-Ronge et la Ligue des Sociétés de la Croix-Rouge. Elle fut suivie d'abord de négociations directes entre trois représentants du Comité international de la Croix-Rouge et autant de délégués du Conseil des Gouverneurs de la Ligue, puis de la nomination, par la Xïème Conférence internationale de la Croix-Rouge d'une Commission d'Étude composée de personnalités particulèrement compétentes en la mitière. Les Conférences internationales de la Croix-Rouge, le Conseil des Gouverneurs de la Ligue ainsi que le Comité international voyaient à maintes reprises cette question inscrite à leur ordre du jour; tous les différents aspects du problème furent successivement envisagés et maintes formules furent proposées et examinées. Si les conclusions résultant de ces études furent souvent négatives et parfois même contradictoires, elle constituent néanmoins une documentation singulièrement complète et apte à servir de base à la solution définitive de la question.
+
+Depuis une année de nouveaux efforts ont été faits. Bien que la Conférence spéciale réunie en 1926 à Berne et le Conseil des Gouverneurs n'aient pas abouti à des conclusions concordantes, le Comité international de la Croix-Rouge et la Ligue ont cru de leur devoir de reprendre les pourparlers afin de faciliter autant que possible la tâche de la XIIIième Conférence en vue d'arriver à une solution positive du problème de l'organisation inter¬ nationale et c'est ainsi qu'a pris corps le projet de statuts du 11 mai 1928, dont la Conférence a été saisie. En effet, -la haute autorité dont la Conférence internationale est
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

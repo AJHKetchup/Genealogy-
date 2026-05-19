@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-19T16:36:45.983981+00:00",
+  "created": "2026-05-19T18:48:17.428612+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -35,6 +35,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-us-department-of-state.png",
       "bytes": 77873,
       "sha256": "94a86aa614461905bbebf3be249b9a63eb9d2b7aee7f17ca049a64131809b355",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425/extracted-images/page-0416/page-0416-image-01-swiss-cross-logo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425/extracted-images/page-0416/page-0416-image-01-swiss-cross-logo.png",
+      "bytes": 4520,
+      "sha256": "343b21964000a61fed92b2131d64837130e0ec7a57dc331932eb32cf4474ae91",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/extracted-images/page-0426/page-0426-image-01-swiss-cross-emblem.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket5-pages-426-450/extracted-images/page-0426/page-0426-image-01-swiss-cross-emblem.png",
+      "bytes": 6772,
+      "sha256": "ff8dc30e366fdb6ab84bc07d12c09928951107a46187363c313164b8212559ab",
       "media_type": "image/png"
     },
     {
@@ -437,6 +451,27 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/extracted-images/page-0260/page-0260-image-03-coat-of-arms-argentina.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263/extracted-images/page-0260/page-0260-image-03-coat-of-arms-argentina.png",
+      "bytes": 20394,
+      "sha256": "ef316aa93e6af3cc95d5a74522c4a5bb756407c17451a0873430d86f9cad8420",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0304-0328-c-mara-de-senadores-de-la-naci-n-1936-pages-304-328/extracted-images/page-0314/page-0314-image-01-argentina-coat-of-arms-1936.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0304-0328-c-mara-de-senadores-de-la-naci-n-1936-pages-304-328/extracted-images/page-0314/page-0314-image-01-argentina-coat-of-arms-1936.png",
+      "bytes": 13934,
+      "sha256": "79bb70ea6667b3d4cf4c7b0638f337b8a8665ce9b3cb76456d8da80b35a3f17c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478/extracted-images/page-0464/page-0464-image-01-argentine-national-emblem-p0464.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478/extracted-images/page-0464/page-0464-image-01-argentine-national-emblem-p0464.png",
+      "bytes": 44896,
+      "sha256": "90b9803caf503a0a449a6b3f0c328d744b4cfdb549bcee943c22e2941dbf1792",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653/extracted-images/page-0651/page-0651-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653/extracted-images/page-0651/page-0651-docling-image-01.png",
       "bytes": 5927,
@@ -815,6 +850,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/extracted-images/page-0445/page-0445-image-01-red-cross-logo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0426-0450-r3016-11a-2905-950-pages-426-450/extracted-images/page-0445/page-0445-image-01-red-cross-logo.png",
+      "bytes": 47910,
+      "sha256": "433e903148ca2c3a2842128305764e0efb50a30240d9cfcff22c4d85de3a1adb",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/extracted-images/page-0001/page-0001-image-01-hospital-clinico-regional-building.png",
       "key": "derived/raw/codex-conversion-jobs/ca47b759d1-historia-del-hospital-cl-p0001-0020-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-1-20/extracted-images/page-0001/page-0001-image-01-hospital-clinico-regional-building.png",
       "bytes": 159425,
@@ -966,6 +1008,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-p0001-img001-calves-in-field.png",
       "bytes": 25850908,
       "sha256": "7c966d03b7affcbbe57184429c9b67dfab98cffe4506aa217f237656c80f3204",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-a-field.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0001-0003-el-aguila-nombre-grande-scan-pages-1-3/extracted-images/page-0001/page-0001-image-01-two-calves-in-a-field.png",
+      "bytes": 25912307,
+      "sha256": "dfca209949fa261d477cb0294cc7268d11fecebe0ba2066a05061a05bb6f8f24",
       "media_type": "image/png"
     },
     {
@@ -1153,8 +1202,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-page-0017-photo-1.png",
-      "bytes": 9308086,
-      "sha256": "d9fcf6329c2518cf0d9900e38094f4050817f36ba3da907b504fdb0ce525564f",
+      "bytes": 9176564,
+      "sha256": "b027df5fe38a25608b484bd47e72d37a25c64bab9c4a39a1bf86f82cc6deefa7",
       "media_type": "image/png"
     },
     {
@@ -1195,8 +1244,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-page-0017-photo-2.png",
-      "bytes": 9070071,
-      "sha256": "4513dc1f8f98caab8290a955ba2741c3136790e2258d854345fe251deaac4a41",
+      "bytes": 8481935,
+      "sha256": "88383f096caec0ddf7eb0c713a4d8f46866860e207719b6008c2d7da54de6f50",
       "media_type": "image/png"
     },
     {
@@ -1354,6 +1403,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/extracted-images/page-0206/page-0206-image-01-page-0206-grid-of-26-portraits.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/extracted-images/page-0206/page-0206-image-01-page-0206-grid-of-26-portraits.png",
+      "bytes": 2864092,
+      "sha256": "584562c270bd035b51055cc3a2d16213a997a6444dbb666115ec8770e3b588f0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0260/page-0260-image-01-emblem-coat-of-arms-1906.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0260/page-0260-image-01-emblem-coat-of-arms-1906.png",
+      "bytes": 27761,
+      "sha256": "31e5a236fc889db987df21b5b129e57c540615a4f45920cdb5a0b79ce3882309",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-decorative-crest-seal-page-261.png",
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0251-0275-s179-34-6-pages-251-275/extracted-images/page-0261/page-0261-image-01-decorative-crest-seal-page-261.png",
       "bytes": 26530,
@@ -1400,6 +1463,27 @@
       "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/extracted-images/page-0293/page-0293-image-01-illustration-sifilide-pustulo-crustacea-generalizada.png",
       "bytes": 2349001,
       "sha256": "272b35dd9f646adf696230813f4b695ebaa77061a7be9770924cc16cbe3fa818",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0310/page-0310-image-01-map-ferrocarriles-uruguay-entrerios-riograndedosul.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0310/page-0310-image-01-map-ferrocarriles-uruguay-entrerios-riograndedosul.png",
+      "bytes": 1796765,
+      "sha256": "4eca8d3fe32b36edd3c4771b1466e010973b0fa867c9e1659d38c38f35e10538",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0311/page-0311-image-01-map-of-principal-european-railways.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0311/page-0311-image-01-map-of-principal-european-railways.png",
+      "bytes": 4470478,
+      "sha256": "e2d3ee7a19265efe84b5301170ee0d9b3918d8b3f322c39736d6e905216cf0b8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0312/page-0312-image-01-imperial-hotel-crest-logo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325/extracted-images/page-0312/page-0312-image-01-imperial-hotel-crest-logo.png",
+      "bytes": 25216,
+      "sha256": "e244385125e56fe378e0c3c9115de7da1ab67e3c2612c2e87b6fcaea02c00989",
       "media_type": "image/png"
     },
     {
@@ -1613,6 +1697,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-anales-de-la-universidad-p0285-vr-01-header-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-anales-de-la-universidad-p0285-vr-01-header-illustration.png",
+      "bytes": 105051,
+      "sha256": "2f274a14b89cd454f9ffaa1a25bbaf2c3c2f7670a720ab20e1edbd00b892c90d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-decorative-border-floral-pattern.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/extracted-images/page-0285/page-0285-image-01-decorative-border-floral-pattern.png",
       "bytes": 43784,
@@ -1627,10 +1718,87 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/extracted-images/page-0323/page-0323-image-01-decorative-header-323.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/extracted-images/page-0323/page-0323-image-01-decorative-header-323.png",
+      "bytes": 41009,
+      "sha256": "5fd248220122396e0c15b3f433af7e081031db510717e2d3cad8182ea284a893",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0408/page-0408-image-01-panoramic-view-el-teniente-sewell-la-junta.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0408/page-0408-image-01-panoramic-view-el-teniente-sewell-la-junta.png",
       "bytes": 399053,
       "sha256": "7f88d0956e19f4ff6b44e843f39e2459cdbf79aefc49334546aec2766b081036",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0424/page-0424-image-01-map-alrededores-mineral-el-teniente-rancagua.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0424/page-0424-image-01-map-alrededores-mineral-el-teniente-rancagua.png",
+      "bytes": 211673,
+      "sha256": "ad93eb4fb8450f1cdf1616e8e3ca6f81a83e766708178282ceafce461fd6f0fa",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0426/page-0426-image-01-p0426-img01-el-copado.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0426/page-0426-image-01-p0426-img01-el-copado.png",
+      "bytes": 515568,
+      "sha256": "a31f422f07fe8e70e9efd06ceb027529a596b7d4248e60f24793778037a58a41",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0427/page-0427-image-01-decorative-border-scroll-pattern.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0427/page-0427-image-01-decorative-border-scroll-pattern.png",
+      "bytes": 48545,
+      "sha256": "71fd56b729fac12ac7b7c605ccb77d5d1fba284c3a0b06b307cb791870fcdb79",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0429-0453-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-429-453/extracted-images/page-0430/page-0430-image-01-vista-jeneral-de-las-minas-el-crater.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0429-0453-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-429-453/extracted-images/page-0430/page-0430-image-01-vista-jeneral-de-las-minas-el-crater.png",
+      "bytes": 512548,
+      "sha256": "d9c19a338658ae1f678f4cf58b59284458bc430a8f93b14d94d7242539e89bb8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0429-0453-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-429-453/extracted-images/page-0451/page-0451-image-01-decorative-header-flowers-waves.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0429-0453-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-429-453/extracted-images/page-0451/page-0451-image-01-decorative-header-flowers-waves.png",
+      "bytes": 38936,
+      "sha256": "64d96504e4c826902fc40b12c4d4a013e45a5907c444e005bda0b05010053f8c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/extracted-images/page-0462/page-0462-image-01-vista-jeneral-campamento-minero-sewell.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/extracted-images/page-0462/page-0462-image-01-vista-jeneral-campamento-minero-sewell.png",
+      "bytes": 555091,
+      "sha256": "26a99184925de767b6c045c0781855141818b5445d821d123bb9fc1ce62e1b92",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/extracted-images/page-0478/page-0478-image-01-type-b-houses-sewell-40-42.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/extracted-images/page-0478/page-0478-image-01-type-b-houses-sewell-40-42.png",
+      "bytes": 484889,
+      "sha256": "93b8345af7c6b96666699e5255583e7726f6f13e437042efe126181bd478c926",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0479/page-0479-image-01-aerial-view-new-hospital-type-c-houses.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0479/page-0479-image-01-aerial-view-new-hospital-type-c-houses.png",
+      "bytes": 545474,
+      "sha256": "043548658848b0c986f5544732c005caa7f9122d6c69dc088d7607624e4512b0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0480/page-0480-image-01-anales-de-la-universidad-p0480-0503-img-0480-001-type-d-houses-s.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0480/page-0480-image-01-anales-de-la-universidad-p0480-0503-img-0480-001-type-d-houses-s.png",
+      "bytes": 608075,
+      "sha256": "ceb2810e611262d1474f63f95ee7d9ec35fe9e022f2f11220bf8896a92893610",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0579-0603-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-579-603/extracted-images/page-0581/page-0581-image-01-decorative-border-floral-pattern.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0579-0603-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-579-603/extracted-images/page-0581/page-0581-image-01-decorative-border-floral-pattern.png",
+      "bytes": 18372,
+      "sha256": "d4d20eb44b487080419d5b5f98ac91b13d6d23849109ba0ad0162debb803426f",
       "media_type": "image/png"
     },
     {
@@ -1641,6 +1809,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/extracted-images/page-0667/page-0667-image-01-decorative-border-floral-pattern.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0654-0678-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-654-678/extracted-images/page-0667/page-0667-image-01-decorative-border-floral-pattern.png",
+      "bytes": 44278,
+      "sha256": "ce5b742db376b94daeb7623aa41ea020ac040a3776e38da0e7c17d8cc147df49",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/extracted-images/page-0681/page-0681-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/extracted-images/page-0681/page-0681-docling-image-01.png",
       "bytes": 102033,
@@ -1648,10 +1823,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/extracted-images/page-0681/page-0681-image-01-decorative-rule-wavy-lines-leaves.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/extracted-images/page-0681/page-0681-image-01-decorative-rule-wavy-lines-leaves.png",
+      "bytes": 12652,
+      "sha256": "2acb37851cc8a8b4edafe200e76546df64e23986b4c710484c179ba42aecee06",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/extracted-images/page-0012/page-0012-image-01-embossed-seal-argentina-coat-of-arms.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0001-0025-s519bis-26-4-pages-1-25/extracted-images/page-0012/page-0012-image-01-embossed-seal-argentina-coat-of-arms.png",
       "bytes": 7984,
       "sha256": "d8750321f10a6be2590d0949b0becbe96c96698e1b7749a65424653c0b6af40f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-image-jarabe-famel.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-01-image-jarabe-famel.png",
+      "bytes": 552825,
+      "sha256": "0d60da0643e944ff8216c77096a8f2deede1ef8b5336312e99abfe6d70548684",
       "media_type": "image/png"
     },
     {
@@ -1676,6 +1865,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-portrait-enrico-caruso.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-portrait-enrico-caruso.png",
+      "bytes": 130220,
+      "sha256": "c16e284a7aa8cc079d2931c203fd01d83f6c19698bff278b7b1643d07beec308",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-s519bis-26-4-p0092-vr-002-enrico-caruso.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-02-s519bis-26-4-p0092-vr-002-enrico-caruso.png",
       "bytes": 123239,
@@ -1690,10 +1886,45 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-image-victor-records-main.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-image-victor-records-main.png",
+      "bytes": 990595,
+      "sha256": "ee653f3674af492209fcc6be8293138c31849606c2ecf52e5be2be9bbc60ea20",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-s519bis-26-4-p0092-vr-003-victor-records-jester.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0092/page-0092-image-03-s519bis-26-4-p0092-vr-003-victor-records-jester.png",
       "bytes": 922738,
       "sha256": "e404a494855ff1c8d74c32f76a8f4073d0c738ca0dd76eb87a2010d4925bc84b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-01-man-head-asthma-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-01-man-head-asthma-ad.png",
+      "bytes": 149422,
+      "sha256": "7b3ebc273b48e35e2b78a06ff46e1c755de41a392f5d927c1e1f250f6e0d16c0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-02-woman-figure-senos-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-02-woman-figure-senos-ad.png",
+      "bytes": 84871,
+      "sha256": "345b88819ece505e97c811017d597bcd311dd27c4bb4acd50680865756b9ad1e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-03-woman-child-ointment-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-03-woman-child-ointment-ad.png",
+      "bytes": 112930,
+      "sha256": "c527e6691dc8288daa3d2eea7b836655edc1a79229a86f013737b305fbe1f58c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-04-tangee-cosmetics-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/extracted-images/page-0093/page-0093-image-04-tangee-cosmetics-ad.png",
+      "bytes": 99683,
+      "sha256": "ad0d6bf77b2ac6134b4f23e63813269d6a73d419c97919e28cc8e41088971dfd",
       "media_type": "image/png"
     },
     {
@@ -1753,6 +1984,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0122/page-0122-image-01-dominican-republic-coat-of-arms-1933.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0122/page-0122-image-01-dominican-republic-coat-of-arms-1933.png",
+      "bytes": 48299,
+      "sha256": "997078f9d0b045dc0d1848b70fc550cf98c1df41d919b159b42c4bd293c25db0",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0125/page-0125-image-01-dominican-republic-coat-of-arms-1933.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125/extracted-images/page-0125/page-0125-image-01-dominican-republic-coat-of-arms-1933.png",
       "bytes": 150455,
@@ -1764,6 +2002,55 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0164/page-0164-image-01-dominican-republic-coat-of-arms-1932-publication.png",
       "bytes": 46538,
       "sha256": "9783de6de18c51d70ea69265f28e8ee0a5d50a8197f73a03960a8c4744a70c1b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0164/page-0164-image-01-dominican-republic-crest-1932.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0164/page-0164-image-01-dominican-republic-crest-1932.png",
+      "bytes": 63216,
+      "sha256": "631ea192ff57898236d2f7db73f936c4c2db9e5a220df881d8a1676bbbbfa895",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0166/page-0166-image-01-gral-don-rafael-l-trujillo-molina-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0166/page-0166-image-01-gral-don-rafael-l-trujillo-molina-portrait.png",
+      "bytes": 960377,
+      "sha256": "8a1bb7c2e302390d3a10626ee075d51150db77dfa51b31e09b5aa6888fc973e5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0172/page-0172-image-01-sr-don-alfredo-ricart-olives-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0151-0175-s519bis-26-4-pages-151-175/extracted-images/page-0172/page-0172-image-01-sr-don-alfredo-ricart-olives-portrait.png",
+      "bytes": 1226214,
+      "sha256": "1cf92d090cad4cb159ddb7bb7caa20a8d67d8db0cee95d71e7c37ce50741798c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/extracted-images/page-0185/page-0185-image-01-sr-don-j-antonio-hungria-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0176-0200-s519bis-26-4-pages-176-200/extracted-images/page-0185/page-0185-image-01-sr-don-j-antonio-hungria-portrait.png",
+      "bytes": 1322734,
+      "sha256": "ce087838240c3baec1ea82f825d7a78aa9e7fd55ab81765084075735a577cc34",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/extracted-images/page-0230/page-0230-image-01-signature-apomapeig.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250/extracted-images/page-0230/page-0230-image-01-signature-apomapeig.png",
+      "bytes": 280196,
+      "sha256": "62ca6757f5bbf1697888a6709152e0efc404d033ae2d7b2bd99baa5e40651a3a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/extracted-images/page-0357/page-0357-image-01-portrait-joaquim-paredes.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0351-0375-s519bis-26-4-pages-351-375/extracted-images/page-0357/page-0357-image-01-portrait-joaquim-paredes.png",
+      "bytes": 375591,
+      "sha256": "4f82a70b7ca2b395d29b3ea5196cbad8fedcb4ef58f5e6a725d412b7da1eacbc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/extracted-images/page-0380/page-0380-image-01-embossed-seal-el-salvador-page-380.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0376-0400-s519bis-26-4-pages-376-400/extracted-images/page-0380/page-0380-image-01-embossed-seal-el-salvador-page-380.png",
+      "bytes": 61541,
+      "sha256": "8798a1b8f904f90699bce74c13989d9d218e1208245d7ea84569f37c2d285019",
       "media_type": "image/png"
     },
     {
@@ -1804,8 +2091,15 @@
     {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-01-portrait-miguel-cerrato.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-01-portrait-miguel-cerrato.png",
-      "bytes": 47561,
-      "sha256": "e7796730f94e5614952c81a927c3913fa3286e64044783257625a46164ba6b5d",
+      "bytes": 28170,
+      "sha256": "e42f6dda06bf7fc35d66d097d025d76a53240c922935f7bdc66f2d5c7b4f72c2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-02-deering-tractor-spinella-hijos.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0451/page-0451-image-02-deering-tractor-spinella-hijos.png",
+      "bytes": 697869,
+      "sha256": "90598f6257a05cf185a1f1de394c9ab83f6ec6260851dd1dc6e91497dc3d5664",
       "media_type": "image/png"
     },
     {
@@ -2047,6 +2341,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/extracted-images/page-0206/page-0206-image-01-publisher-logo-sijthoff.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/extracted-images/page-0206/page-0206-image-01-publisher-logo-sijthoff.png",
+      "bytes": 5162,
+      "sha256": "08b2d8880924685aefc67543ad66cd91807aad06c6af2f382aab9802a37a031e",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/extracted-images/page-0705/page-0705-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/extracted-images/page-0705/page-0705-docling-image-01.png",
       "bytes": 71559,
@@ -2096,6 +2397,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0955/page-0955-image-01-page-0955-map-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0955/page-0955-image-01-page-0955-map-01.png",
+      "bytes": 1162583,
+      "sha256": "2b8bb3043b97948f78096b341b1e15d6d01e199404165ea6b2a866af20165e8f",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0957/page-0957-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0957/page-0957-docling-image-01.png",
       "bytes": 114720,
@@ -2142,6 +2450,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0977/page-0977-docling-image-01.png",
       "bytes": 32176,
       "sha256": "9afdce96667a796ed4d7f5ee865aeed7cee9c5fa89bda3957a335f9af10373c0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-01-group-international-legal-commission.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-01-group-international-legal-commission.png",
+      "bytes": 254950,
+      "sha256": "53241b1d53a03504af030fa2677871de5e8432d61f799e57575a0adde61fff9f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-02-portrait-maitre-moro-glafferi.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/extracted-images/page-0981/page-0981-image-02-portrait-maitre-moro-glafferi.png",
+      "bytes": 131036,
+      "sha256": "4b5b4532dbf609b9a0ba5416f3b9ef0fba94406b65074e1ad4399e6cf2200db4",
       "media_type": "image/png"
     },
     {
@@ -2334,10 +2656,73 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1307/page-1307-image-01-map-sudan-anglo-egiz-eritrea-ethiopia-border.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1307/page-1307-image-01-map-sudan-anglo-egiz-eritrea-ethiopia-border.png",
+      "bytes": 636021,
+      "sha256": "8d5b14cb0a81331f27134df63b5e53999bc836307e4bc4575e4f0967440df922",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1308/page-1308-image-01-chamber-of-deputies-seating-diagram-1936.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1308/page-1308-image-01-chamber-of-deputies-seating-diagram-1936.png",
+      "bytes": 1400023,
+      "sha256": "493ef80f512af7889772b3466286700380092271f152298b700fb0fd426dd8c3",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1308/page-1308-image-01-legislative-chamber-diagram-1936.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1308/page-1308-image-01-legislative-chamber-diagram-1936.png",
       "bytes": 1400023,
       "sha256": "493ef80f512af7889772b3466286700380092271f152298b700fb0fd426dd8c3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-01-illustration-woman-window-door.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-01-illustration-woman-window-door.png",
+      "bytes": 70106,
+      "sha256": "3274197ecf6028de7d24b98c489ed0d38679d6ff0b777cfa41bfad178a004c62",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-02-illustration-woman-dress-coat.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-02-illustration-woman-dress-coat.png",
+      "bytes": 375815,
+      "sha256": "3404540a5cc405ff816fa0c2a4605a9e91f95fc0b2c440ec4e7f985457763ea8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-03-illustration-woman-head-hat.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-03-illustration-woman-head-hat.png",
+      "bytes": 88330,
+      "sha256": "e4df5bdf4fad74efdda5c89e88843b8b1089215ba1cab511300819bafb281d34",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-04-illustration-gloves.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-04-illustration-gloves.png",
+      "bytes": 74707,
+      "sha256": "4babde90e0aa3247d61ed88ce2fd1188a5bba95b3f28abe42e17d02e60515dc2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-05-illustration-handbag.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-05-illustration-handbag.png",
+      "bytes": 74340,
+      "sha256": "38f73ad73a4d1659aabf4075f3da96015ffc20a81d46fb1564bf48c908725892",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-06-illustration-bed-mattress.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-06-illustration-bed-mattress.png",
+      "bytes": 23889,
+      "sha256": "3600e55028e2208537a4644fe844ba96ac68b1904032d6d7c7784918dd2474b0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-07-illustration-bed-bedspread.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-07-illustration-bed-bedspread.png",
+      "bytes": 24292,
+      "sha256": "1d604bae92a6c8cbf6b81e0304297059ef70c2d98e3381f5132a6f4feaf0ad99",
       "media_type": "image/png"
     },
     {
@@ -2530,6 +2915,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-group-photo-mesa-directiva-ensenada.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-group-photo-mesa-directiva-ensenada.png",
+      "bytes": 477061,
+      "sha256": "a4234452fca7865364639d933a3968993944343d2d760e64534ad3b793ef56e2",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-mesa-directiva-camara-comercio-ensenada-1919.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-mesa-directiva-camara-comercio-ensenada-1919.png",
       "bytes": 681766,
@@ -2590,6 +2982,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0013/page-0013-image-02-aduana-fronteriza-de-mexicali-group-photo.png",
       "bytes": 1250423,
       "sha256": "86ab3a55429d3e51bcb1b4646b4937f87fc212b5d59c25b5a9a1897de0bbccfa",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0014/page-0014-image-01-sr-presidente-municipal-de-ensenada-b-c.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0014/page-0014-image-01-sr-presidente-municipal-de-ensenada-b-c.png",
+      "bytes": 234066,
+      "sha256": "646dedae5214b5498fa00fa5620ea1b08773b4b3a8e88d35df4b7a58d4240077",
       "media_type": "image/png"
     },
     {
@@ -3454,6 +3853,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-page-0053-monument.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-page-0053-monument.png",
+      "bytes": 495319,
+      "sha256": "7b329f27547c2651d202cdc78eb06066a83a73494985dde98acd6e8784480080",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-portrait-se-orita-evelia-verdugo.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0054/page-0054-image-01-portrait-se-orita-evelia-verdugo.png",
       "bytes": 637910,
@@ -3965,6 +4371,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-funeral-agency-building.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-funeral-agency-building.png",
+      "bytes": 248178,
+      "sha256": "064a23a75333f6b2e8b8f137756ec89a6ac1b3518706ba446c609094192f83f5",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-funeral-home-ad.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0082/page-0082-image-01-eusebio-gayosso-funeral-home-ad.png",
       "bytes": 1474957,
@@ -3990,6 +4403,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-unguento-quimatosa-ad.png",
       "bytes": 201455,
       "sha256": "4db5b217ac71c3450cbd2e8f7a4b2d7f2b3ad3094ffe49449b68b5f5f8fc0e75",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-with-container.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0083/page-0083-image-01-illustration-woman-with-container.png",
+      "bytes": 203411,
+      "sha256": "f8f9fc2c09d0c620f309ff44d2d6dade1c4ca36ceb2892fbf99907991598b2e2",
       "media_type": "image/png"
     },
     {
@@ -4056,6 +4476,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0090/page-0090-image-01-ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100-p0090-polit.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0090/page-0090-image-01-ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100-p0090-polit.png",
+      "bytes": 2173578,
+      "sha256": "dcb85225debcb8c8869c96a23c329d064a6583551e2ac246976d195f6338e70d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0093/page-0093-image-01-egipto-valle-tumbas-reyes-nile-view.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0076-0100-s495-2-2-pages-76-100/extracted-images/page-0093/page-0093-image-01-egipto-valle-tumbas-reyes-nile-view.png",
       "bytes": 2476323,
@@ -4095,6 +4522,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0108/page-0108-image-05-dr-van-tine-electro-therapy-illustration.png",
       "bytes": 457857,
       "sha256": "6233d2228f66c65fed132e9023a5ec2f5334cefd8e28c6efffa8775e000711b3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0109/page-0109-image-01-vr1-cartoon-viva-caguila.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125/extracted-images/page-0109/page-0109-image-01-vr1-cartoon-viva-caguila.png",
+      "bytes": 140677,
+      "sha256": "08fda28af68f20d23b7019f75ce204388b894a3aa5b11c61dd80d36cf6b9e527",
       "media_type": "image/png"
     },
     {
@@ -4217,6 +4651,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0144/page-0144-image-01-chandler-six-car-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0144/page-0144-image-01-chandler-six-car-illustration.png",
+      "bytes": 251903,
+      "sha256": "ad0392e42a75c07ccc2cc6fc0919f933bc41b4e27d2ba625d51b9b50da724b30",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0145/page-0145-image-01-depurativo-richelet-ad-leg-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0126-0150-s495-2-2-pages-126-150/extracted-images/page-0145/page-0145-image-01-depurativo-richelet-ad-leg-illustration.png",
       "bytes": 1669797,
@@ -4238,6 +4679,62 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0151/page-0151-image-01-linimento-de-sloan-product-box-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0151/page-0151-image-01-linimento-de-sloan-product-box-illustration.png",
+      "bytes": 126560,
+      "sha256": "e20837f622966941d50ebb5441e8d100cbcf7e1811a1a9ed8d281b2647200aea",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0154/page-0154-image-01-illustration-four-men-suits-table.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0154/page-0154-image-01-illustration-four-men-suits-table.png",
+      "bytes": 537272,
+      "sha256": "09f9909e079373ab3159c9027cb87d7b515a33d5f9cb4cb26afda21c14bd87ac",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0158/page-0158-image-01-francisco-laitano-boot-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0158/page-0158-image-01-francisco-laitano-boot-illustration.png",
+      "bytes": 99733,
+      "sha256": "de58b68b154c1d8a212edac94c4f2c3b39c475ec80316d9a51a1ffe4ee88c428",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-01-portrait-virginia-fabregas.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-01-portrait-virginia-fabregas.png",
+      "bytes": 383837,
+      "sha256": "cf6b4fe62a9e1f8e3be245f837498ea3aa368e439648420c1c11140266aa35bd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-02-bazar-union-walk-over-shoes-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-02-bazar-union-walk-over-shoes-ad.png",
+      "bytes": 177545,
+      "sha256": "572c54c7e2c72198a36e8bc9aaa542071c6ece138eadeb60fae28536f8bf4d69",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0164/page-0164-image-01-harley-davidson-motorcycle-with-sidecar.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0164/page-0164-image-01-harley-davidson-motorcycle-with-sidecar.png",
+      "bytes": 454863,
+      "sha256": "426294035ae82ca6e5fdbdfafafab044dd8baf515536e2dbc672714ca7dc282d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0169/page-0169-image-01-chalet-la-geisha-amapala.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0169/page-0169-image-01-chalet-la-geisha-amapala.png",
+      "bytes": 403496,
+      "sha256": "93bf1bdc1d4fe227837ad4d977c03827d839f33a27337ba7a46b34c106c7a209",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0170/page-0170-image-01-img-01-p0170-illustration-woman-hair-dye.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0170/page-0170-image-01-img-01-p0170-illustration-woman-hair-dye.png",
+      "bytes": 151562,
+      "sha256": "16341a21b5a2c6584fdb8bb3c7550450a831249fce7bd73b800e503f85f3d964",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0171/page-0171-image-01-dunlop-advertisement-tire-car-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0171/page-0171-image-01-dunlop-advertisement-tire-car-illustration.png",
       "bytes": 1745192,
@@ -4245,10 +4742,311 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0171/page-0171-image-01-dunlop-rubber-co-ltd-advertisement-1920s-car-tire.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0171/page-0171-image-01-dunlop-rubber-co-ltd-advertisement-1920s-car-tire.png",
+      "bytes": 1745250,
+      "sha256": "ab26c239d224493bb4af26fa9345360547ce003162939f37d6fa479e0c8a050d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-01-typewriter-in-case-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-01-typewriter-in-case-illustration.png",
+      "bytes": 213066,
+      "sha256": "a005fc3a16765f0f74cb5eb78c050f4563261a86107a68d6b04cc0342fc0c10e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-03-carbon-paper-box-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-03-carbon-paper-box-illustration.png",
+      "bytes": 321072,
+      "sha256": "1be145d544a0b083e1bf09657627531258c6a7e7e589676d8ad8b4a2b4620a28",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0178/page-0178-image-01-victor-tungs-tone-needle-magnified-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0178/page-0178-image-01-victor-tungs-tone-needle-magnified-illustration.png",
+      "bytes": 371470,
+      "sha256": "9d73821f9dd9cacba2e4cd0da024bc8b2b7249dbde201bc9a71a16157d3453ba",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0181/page-0181-image-01-king-george-v-portrait.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0181/page-0181-image-01-king-george-v-portrait.png",
+      "bytes": 845773,
+      "sha256": "68a1300bd2f636df60b72507f2edc653443fda7cc2225dc44c9a99792caaf429",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-01-renacimiento-page-183-garden-party-top-section.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-01-renacimiento-page-183-garden-party-top-section.png",
+      "bytes": 994660,
+      "sha256": "5b24603d053dd2a35372d10de616da6ceeca51d11f481f040a78c9c051e99130",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-02-renacimiento-page-183-garden-party-bottom-section.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-02-renacimiento-page-183-garden-party-bottom-section.png",
+      "bytes": 520280,
+      "sha256": "5e23dd1596f0450c6885bdd705964b4186e62c1f4c5b9bfc17e4ec82c8eeaa7b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-01-image-001-group-at-garden-party-top.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-01-image-001-group-at-garden-party-top.png",
+      "bytes": 858426,
+      "sha256": "880bc002eeb022dcb576e33aa303706ec8a983675dc38fdc71ac38e5145de502",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-02-image-002-group-at-garden-party-bottom.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0184/page-0184-image-02-image-002-group-at-garden-party-bottom.png",
+      "bytes": 867378,
+      "sha256": "cec28420e54a51b74447efdb6bdfd05bb8009fd4dbae12317d3b22ea76cec452",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-01-tegucigalpa-aerial-view-first-photograph.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-01-tegucigalpa-aerial-view-first-photograph.png",
+      "bytes": 365376,
+      "sha256": "420cadef81df7964d2a9a6c3986e43543ab8c0530f7883448ee7525a1fc11275",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-02-aviator-sr-w-c-mayse-lincoln-standard-airplane.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-02-aviator-sr-w-c-mayse-lincoln-standard-airplane.png",
+      "bytes": 379042,
+      "sha256": "ccfe9f39236cdc72d250cbdad1ebd6121da4d7ba2d326f7d73e551c6cea40703",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-01-seaplane-salonica-port.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-01-seaplane-salonica-port.png",
+      "bytes": 1162112,
+      "sha256": "542b962045f47d92e8dd8160bb499bf39c9c2a3836315ec7371fac2b22086268",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-02-aerial-view-constantinople-port.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0187/page-0187-image-02-aerial-view-constantinople-port.png",
+      "bytes": 798173,
+      "sha256": "a41e7008da39fdb5f72f6f1f016e731b1b5089311b9a6001eeed87879a6fd014",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0190/page-0190-image-01-heligoland-cliffside-fortress.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0190/page-0190-image-01-heligoland-cliffside-fortress.png",
+      "bytes": 919408,
+      "sha256": "b4c30492a74d008994f4f87140789bd396befd275eea0d92f04d64b87ef94dd9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0196/page-0196-image-01-bazar-union-walk-over-shoes.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0196/page-0196-image-01-bazar-union-walk-over-shoes.png",
+      "bytes": 190350,
+      "sha256": "ee6073d6a8a00f55dbede3fbfdaf288bfdd7dd1bed8791b44a9650c0162894ae",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0198/page-0198-image-01-anglo-americana-illustration-woman-cat.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0198/page-0198-image-01-anglo-americana-illustration-woman-cat.png",
+      "bytes": 492803,
+      "sha256": "9d292ea365398476305d8794427f76b5499d1af42950b8c0d5a2dbef7bd38ef7",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0199/page-0199-image-01-sanatogen-advertisement-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0199/page-0199-image-01-sanatogen-advertisement-illustration.png",
+      "bytes": 124508,
+      "sha256": "d03615398cf1edaba82e0157daa56ce087a78d57cdea6122729a837a2fc23ccd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-01-advertisement-miel-y-alquitran-dr-bell.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-01-advertisement-miel-y-alquitran-dr-bell.png",
+      "bytes": 1267866,
+      "sha256": "f58b41c6b1bcfc3ac5b9ff187df3756c5d54e30432a6b4522223df3559aaee64",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-02-product-label-miel-y-alquitran-dr-bell.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0201/page-0201-image-02-product-label-miel-y-alquitran-dr-bell.png",
+      "bytes": 245389,
+      "sha256": "1588b6c09be55007c83f9f10b5814d73ec1dac170279e2ffd25481a9bc0f82d4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0202/page-0202-image-01-page-0202-fig-1.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0202/page-0202-image-01-page-0202-fig-1.png",
+      "bytes": 341080,
+      "sha256": "468754bddb74785163f4cf8a28131a0d95fd7ea1039c4a330673e4798812af4a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0203/page-0203-image-01-advertisement-illustration-woman-man-child-pain.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0203/page-0203-image-01-advertisement-illustration-woman-man-child-pain.png",
+      "bytes": 264128,
+      "sha256": "c08bf1e868ab545b031a882d068bbee31963c0246084e37c1a5c8b63b5b7a08d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0204/page-0204-image-01-linimento-de-sloan-man-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0204/page-0204-image-01-linimento-de-sloan-man-illustration.png",
+      "bytes": 27073,
+      "sha256": "2885dc61fcd234b33b17ceab58f90ec0e0782c22c572a67879dfdd4f275c0d2d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0207/page-0207-image-01-man-holding-throat-formamint-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0207/page-0207-image-01-man-holding-throat-formamint-ad.png",
+      "bytes": 236854,
+      "sha256": "2fc236407253638023d71536992b68c673cd8e784a1e5b21490e5a7e45b50bc4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0209/page-0209-image-01-illustration-man-weighing-people.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0209/page-0209-image-01-illustration-man-weighing-people.png",
+      "bytes": 624778,
+      "sha256": "bab82f0aed627410f03d4e984452e77bb6c711ce4b86e4c3b3acfcddf76c520e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0212/page-0212-image-01-gillette-razor-hand-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0212/page-0212-image-01-gillette-razor-hand-illustration.png",
+      "bytes": 394740,
+      "sha256": "8553a040acceab019051f767835454aaaba975c5b9c9175d85c67cb8f38fbb53",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0213/page-0213-image-01-delco-power-plant-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0213/page-0213-image-01-delco-power-plant-illustration.png",
+      "bytes": 476498,
+      "sha256": "be428c19c82a090beb62e326c7c5dfc3832f519ef600d1d603ce4fc869b0feff",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0214/page-0214-image-01-sal-hepatica-advertisement-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0214/page-0214-image-01-sal-hepatica-advertisement-illustration.png",
+      "bytes": 835153,
+      "sha256": "b8e9c3a0233cafefc1a37859b284423622ae3a5bee7d58b84223ecbe0a195c1d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0215/page-0215-image-01-prest-o-lite-battery-car-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0215/page-0215-image-01-prest-o-lite-battery-car-illustration.png",
+      "bytes": 750935,
+      "sha256": "ed98fbe479a978a486481bb0efa4fbcc2aa7c255a0ad9eb5f249fb8ea4131807",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-01-illustration-man-shaving-hand-stropping-razor.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-01-illustration-man-shaving-hand-stropping-razor.png",
+      "bytes": 116236,
+      "sha256": "02b7079a10bbdaf5b3e9fd998f2096fe8949897889c68b38fe5ad4a0c5a2c6a9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-02-valet-auto-strop-razor-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0216/page-0216-image-02-valet-auto-strop-razor-illustration.png",
+      "bytes": 126753,
+      "sha256": "73f05ea3661f09433bb45c7545d3f090a5cca10971fb417387e5e4bb1e08bcb1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0217/page-0217-image-01-lavol-advertisement-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0217/page-0217-image-01-lavol-advertisement-illustration.png",
+      "bytes": 192567,
+      "sha256": "4d3ff905b2485cfdd1df622e935c7b4289207886bb033df635806df19b4a6b80",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0218/page-0218-image-01-vino-st-sebastien-advertisement.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0218/page-0218-image-01-vino-st-sebastien-advertisement.png",
+      "bytes": 990646,
+      "sha256": "59be708bbce74778402740a53f0641ed1ef9d7fab63ee5b0c622f373a1dda808",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-01-portrait-woman-advertisement.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-01-portrait-woman-advertisement.png",
+      "bytes": 29282,
+      "sha256": "7c25564084871616698e01c9a104ab40eba5a35b98421d5d4178f504f97251a5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-02-illustration-tennis-juan-doborow.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0221/page-0221-image-02-illustration-tennis-juan-doborow.png",
+      "bytes": 639615,
+      "sha256": "4045f8110382c3e9c97b1e8cdb7df4678be824b347dde857e9c6333e30855674",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0225/page-0225-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0225/page-0225-docling-image-01.png",
       "bytes": 202520,
       "sha256": "04cd87cd2d175690ad82485e4e3dfd8d250b3f8bbb0083d8417a8934b876b6e1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0229/page-0229-image-01-pablo-uhler-y-ca-advertisement-border.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0229/page-0229-image-01-pablo-uhler-y-ca-advertisement-border.png",
+      "bytes": 812110,
+      "sha256": "a6000fba17b24b23c4e08051b631016d993ddd067bfdc5ade438156286249cf2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-01-harley-davidson-motorcycle-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-01-harley-davidson-motorcycle-illustration.png",
+      "bytes": 318115,
+      "sha256": "a13ec674a9eb92ccb81e63c02092779b5912375cc79a14d6501c4d926c5256f6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-02-quina-laroche-bottle-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-02-quina-laroche-bottle-illustration.png",
+      "bytes": 141028,
+      "sha256": "f6d35cbc6a6b7ddaf5c10c02cd40a4688af5ec6905007adc1970216814586703",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0238/page-0238-image-01-remington-portable-typewriter-in-case.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0238/page-0238-image-01-remington-portable-typewriter-in-case.png",
+      "bytes": 325176,
+      "sha256": "96b6a261a523de11df012b3b54c73384643b9e8cf878038edb85f8855e9a36f6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0238/page-0238-image-03-carbon-paper-box-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0238/page-0238-image-03-carbon-paper-box-illustration.png",
+      "bytes": 296806,
+      "sha256": "1356cbc09bfdc954d1c65405196e94c44dee98ad34828fb6470c226783a9bc8d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0265/page-0265-image-01-model-palacio-de-hierro-265.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0265/page-0265-image-01-model-palacio-de-hierro-265.png",
+      "bytes": 2189784,
+      "sha256": "2f4e1e386860023d71d288855ffb7f696a33d43113b6428ea5b6dace2fddf89a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0267/page-0267-image-01-la-madrilena-ad-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0267/page-0267-image-01-la-madrilena-ad-illustration.png",
+      "bytes": 268607,
+      "sha256": "839c3b5c5814e15ab01a28ad2a564008f8e1eec893a057ce96d67a4fc631c739",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-01-el-puerto-de-cadiz-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-01-el-puerto-de-cadiz-illustration.png",
+      "bytes": 13918533,
+      "sha256": "391f6dd128617139a856e2c9c0e6df61fc8dc8f72d0556681e6599616d7a55a6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-03-sosa-products-illustration.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0268/page-0268-image-03-sosa-products-illustration.png",
+      "bytes": 437139,
+      "sha256": "a5a380bc2043b3ba864b2715aaa2f3d4a2e7a21ce8555caefcbac92fc7c891a8",
       "media_type": "image/png"
     },
     {
@@ -4266,6 +5064,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0275/page-0275-image-01-boxer-championship-el-mundo-275.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/extracted-images/page-0275/page-0275-image-01-boxer-championship-el-mundo-275.png",
+      "bytes": 204168,
+      "sha256": "e363b4ea8b2b755200b21ec1874e3d46b89a933534ca8ecc19c573ad4eea4777",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-page-0281-vis-001-artisticamente-detenerse-es-morir-ad.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-page-0281-vis-001-artisticamente-detenerse-es-morir-ad.png",
+      "bytes": 1858444,
+      "sha256": "69356895f510072835fd54a6f7cd37b8500e5c27373da2c96560bda158401037",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-room-furnishings-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0281/page-0281-image-01-room-furnishings-illustration.png",
       "bytes": 657131,
@@ -4277,6 +5089,41 @@
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0283/page-0283-image-01-crowd-patriotic-sentiment.png",
       "bytes": 361666,
       "sha256": "864e3ebe83c9cc76ff1211eb489b47a40942ed0225801c5eee118c35284b5627",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0283/page-0283-image-01-group-of-people-unlabeled.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0283/page-0283-image-01-group-of-people-unlabeled.png",
+      "bytes": 172644,
+      "sha256": "22fd89444d700438e3e1f437d5b496ddd67eda5db2e139d2c6dbbc059ab12aa8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-02-festival-aniversario-corregidora-queretaro-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-02-festival-aniversario-corregidora-queretaro-1923.png",
+      "bytes": 1223907,
+      "sha256": "ee862a7a754c7da1f00c9a8c2a9903ed29c2942e9143bb0eb7318df001ba82f2",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-04-mata-pulgas-insecticide-ad-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-04-mata-pulgas-insecticide-ad-1923.png",
+      "bytes": 154823,
+      "sha256": "67040c7a4bf81c2ef94eacb59e34a2bd72a52ec6800bb3ab0bf0dc515e7258da",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-05-man-sombrero-torres-ad-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-05-man-sombrero-torres-ad-1923.png",
+      "bytes": 106768,
+      "sha256": "3989fed17b538e896871c8e8cc0e37921b5a406a5aa3c846d89a0e5627ab52bd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-07-internacional-detective-ad-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/extracted-images/page-0296/page-0296-image-07-internacional-detective-ad-1923.png",
+      "bytes": 113627,
+      "sha256": "bc59182c5eb85170af076e0055e5bd1ef518da4305d58967b4338bb71c6190b4",
       "media_type": "image/png"
     },
     {
@@ -4301,10 +5148,52 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-01-group-diplomats-japan-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-01-group-diplomats-japan-1923.png",
+      "bytes": 1616170,
+      "sha256": "29ea296ca5489248cd4ff55bd45211ca641a23408ed99272553640e2e64fe217",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-02-vigilante-166-pulqueria.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-02-vigilante-166-pulqueria.png",
+      "bytes": 380317,
+      "sha256": "89182dfc00ceb12088fa994027fea476d4de8a515a5a4cce9e269b87abd6eba5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-03-vigilante-263-soto-hidalgo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-03-vigilante-263-soto-hidalgo.png",
+      "bytes": 369678,
+      "sha256": "21881da463281e450d47db110fc0f8fd5b854c446eb4227a2400c3be58783143",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-01-illustration-electric-belt-ad-325.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-01-illustration-electric-belt-ad-325.png",
+      "bytes": 460831,
+      "sha256": "1530da5ce6cb179576dd4a4969fc45a824eb5e199bd5247e101fd19a6dcae971",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-03-photo-gran-sorteo-nacionalista-prize-house-325.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0325/page-0325-image-03-photo-gran-sorteo-nacionalista-prize-house-325.png",
+      "bytes": 497013,
+      "sha256": "7dcb1e0860b5154956746250da6cef983f170d13570f5548808fe45a3da06241",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-capture-1923.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-capture-1923.png",
       "bytes": 1841812,
       "sha256": "d413a240f1515a28ac50d77ff23a1886127c021e1fa583e943203d05ccd250de",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-speaking-before-arrest-ennis-1923.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-speaking-before-arrest-ennis-1923.png",
+      "bytes": 1277782,
+      "sha256": "719effbf59240fec428e43cfce284765861e36c714cc3765a9775cf6e5f1108f",
       "media_type": "image/png"
     },
     {
@@ -4329,6 +5218,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0433/page-0433-image-01-dona-blanca-del-campo.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0433/page-0433-image-01-dona-blanca-del-campo.png",
+      "bytes": 688947,
+      "sha256": "7cf8571e64aef1ffb1b7f3bcf1c90b7fd1839ff47f5f02bc2bbcb8a3837d1202",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0435/page-0435-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0435/page-0435-docling-image-01.png",
       "bytes": 162610,
@@ -4343,6 +5239,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0447/page-0447-image-01-illustration-tie-advertisement.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0447/page-0447-image-01-illustration-tie-advertisement.png",
+      "bytes": 55850,
+      "sha256": "af7ea5fab1a77b111ed32c448564e8d1b17b6cde16f1ce858af3d9c6db7d6488",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-01-111-one-eleven-cigarette-logo.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-01-111-one-eleven-cigarette-logo.png",
       "bytes": 46091,
@@ -4352,22 +5255,22 @@
     {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-02-camisas-ide-man-tying-tie.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-02-camisas-ide-man-tying-tie.png",
-      "bytes": 262624,
-      "sha256": "5d1fbfb9666c198a96f2d0b57afdd4ebb8aad237326f4edbdfef45a4bc72733b",
+      "bytes": 262494,
+      "sha256": "e78838c80c447a5ba7eda435f740caafb6386baf682f4e51b038fa70586e87e4",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-03-linimento-de-sloan-man-portrait.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-03-linimento-de-sloan-man-portrait.png",
-      "bytes": 44236,
-      "sha256": "6f810d931b48215fffa2f74ccc46a37354c625c7175b973bb635e4e22102742f",
+      "bytes": 24727,
+      "sha256": "ea8fcec6a62b22b5e593e4cb409cf72e216a6402c6e35b733dc6bd67afb41c5d",
       "media_type": "image/png"
     },
     {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-04-jabon-sunlight-washing-scene.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-04-jabon-sunlight-washing-scene.png",
-      "bytes": 168782,
-      "sha256": "b77c97cf650b9d9abbc34179c2afccfc23799e941daadba6bfcb99c2793485ed",
+      "bytes": 158027,
+      "sha256": "4598a2ee87c43a0f6d22ea6fe8f37e255c7e60325d89ec738722a4b1ddbb293b",
       "media_type": "image/png"
     },
     {
@@ -4807,8 +5710,15 @@
     {
       "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0204/page-0204-image-01-illustration-hummingbirds-and-flowers.png",
       "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0204/page-0204-image-01-illustration-hummingbirds-and-flowers.png",
-      "bytes": 3052286,
-      "sha256": "e83c24d192430984944e3e5be01c3764431f6e9f6f76b36f3246981f2589f9c0",
+      "bytes": 3280440,
+      "sha256": "be63c437cab6458e9a1da0a66b83a69a730a85d7866dcea5e0a1b35107d48b5f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-01-hummingbird-ocreatus-underwoodi-group-8.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-01-hummingbird-ocreatus-underwoodi-group-8.png",
+      "bytes": 581432,
+      "sha256": "e6af64f8e14349ff47ca48a0e51d369d22d4f870357c26ed51419a328d088364",
       "media_type": "image/png"
     },
     {
@@ -4816,6 +5726,48 @@
       "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-01-plate-ii-hummingbirds-and-flowers.png",
       "bytes": 2980915,
       "sha256": "2392fff2040cda33003eb2cd221026916e87dc08848ab12ff2593386253bb87e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-02-hummingbird-oxypogon-guerini-9.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-02-hummingbird-oxypogon-guerini-9.png",
+      "bytes": 203092,
+      "sha256": "88bc52cafef75dcd705db9cbf8f6e82cb1f60db062cb42149201345e44985bef",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-03-hummingbird-ramphomicron-microrhynchum-group-10.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-03-hummingbird-ramphomicron-microrhynchum-group-10.png",
+      "bytes": 620166,
+      "sha256": "8de78b7a909ddc92cb4b60d26e16c1e47a52402dcd3fdf1940f8ff61d1cb0b3c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-04-hummingbird-lophornis-verreauxi-11.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-04-hummingbird-lophornis-verreauxi-11.png",
+      "bytes": 280501,
+      "sha256": "cb68197ec8e3ef9dc5e76967f05f6bca016d89522716f905a5c0ffd270c10dd4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-05-hummingbird-chaetocercus-mulsanti-12.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-05-hummingbird-chaetocercus-mulsanti-12.png",
+      "bytes": 184191,
+      "sha256": "f990d8518839dd87b21aa267a54e6473f5b12fdca5b315da1a7affa2a11244bf",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-06-hummingbird-klais-guimeti-13.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-06-hummingbird-klais-guimeti-13.png",
+      "bytes": 220105,
+      "sha256": "8965e83d44e72545b238937d47391117c475f6a511e63146548ff92c13be6fe1",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-07-hummingbird-lophornis-strictolophus-14.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225/extracted-images/page-0205/page-0205-image-07-hummingbird-lophornis-strictolophus-14.png",
+      "bytes": 481202,
+      "sha256": "de24ec5bc59b7bc008211dec22adc867f57458e0c5b27ad6847bb231a91585f3",
       "media_type": "image/png"
     },
     {
@@ -4854,6 +5806,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-illustration-oncidium-thramerianum.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-illustration-oncidium-thramerianum.png",
+      "bytes": 154424,
+      "sha256": "f8fbd6d25f4fc9d00cbc0766da26fce622e4d3ef8ad613622ef2eb37a86fcb57",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-oncidium-thramerianum-orchid-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-01-oncidium-thramerianum-orchid-illustration.png",
       "bytes": 1182263,
@@ -4865,6 +5824,13 @@
       "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-cattleya-quadricolor-orchid-illustration.png",
       "bytes": 1179281,
       "sha256": "f2d353359f4189b056c999252abae461955dd0603c2e00f31fc347b2cb24f41f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-illustration-cattleya-quadricolor.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250/extracted-images/page-0236/page-0236-image-02-illustration-cattleya-quadricolor.png",
+      "bytes": 1194316,
+      "sha256": "128cf1d128f3922a0be9f86a8359fa4d90410c71e5542c9b46a6a3c80f8f6cdc",
       "media_type": "image/png"
     },
     {
@@ -4931,6 +5897,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0158/page-0158-image-01-building-with-garden.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0158/page-0158-image-01-building-with-garden.png",
+      "bytes": 1379151,
+      "sha256": "65c979c038a32e78e496c5e258cae0c4f1f6192d0bd12378c712fef5a4ee22cd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-garden.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-garden.png",
+      "bytes": 1574690,
+      "sha256": "9c6773747f9ec31d658598febe6333bdec0245d3e3dfccb5746bd286fe821916",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-grounds.png",
       "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0160/page-0160-image-01-building-with-porch-and-grounds.png",
       "bytes": 1550004,
@@ -4949,6 +5929,13 @@
       "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-dining-hall-men-eating.png",
       "bytes": 1734008,
       "sha256": "806ec9183acb42456db8fc6c6f4927a2faea5b64691a8eeadd37b4eaed01bef7",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-group-of-men-dining-in-hall.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0164/page-0164-image-01-group-of-men-dining-in-hall.png",
+      "bytes": 1683175,
+      "sha256": "7905f1301ba58888606ad90c704cf1cce5554c52ab0ab6ec23d4d628144981a3",
       "media_type": "image/png"
     },
     {
@@ -5046,10 +6033,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 171,
+    "total_bytes": 190939840,
+    "uploaded": 148,
+    "skipped": 23,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -5059,9 +6046,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 718,
+      "scanned": 859,
       "deleted": 0,
-      "skipped": 718,
+      "skipped": 859,
       "errors": []
     }
   }

@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T18:39:25Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/manifest.json",
+  "page": 90,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-images/page-0090.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100/page-markdown/page-0090.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Cocomalt\nDelicious Food Drink\nChocolate Flavor\nDELICIOUS - NUTRITIOUS\n\nAumenta 70% el valor ali-\nmenticio de la leche.",
+      "source_context": "ALIMENTO SUPREMO Cocomalt Delicious Food Drink Chocolate Flavor DELICIOUS - NUTRITIOUS Aumenta 70% el valor alimenticio de la leche."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "advertisement",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "AHORROS Primero\nCuando\nMuchacho\n-Después\nCuando\nHombre\n\nUn hijo podría comenzar su vida inde-\npendiente contando con un saldo en el\nbanco. Más de un muchacho hay que\ntiene $100 o más-ahorrados con el dinero\nque ha recibido para su bolsillo-y está\norgulloso de su libreta de banco.\nMil pesos ahorrados a los 18 años pueden\nsignificar una educación universitaria o\nun buen comienzo en los negocios.\n\nThe Royal Bank\nof Canada",
+      "source_context": "AHORROS Primero Cuando Muchacho -Después Cuando Hombre Un hijo podría comenzar su vida independiente contando con un saldo en el banco. Más de un muchacho hay que tiene $100 o más-ahorrados con el dinero que ha recibido para su bolsillo-y está orgulloso de su libreta de banco. Mil pesos ahorrados a los 18 años pueden significar una educación universitaria o un buen comienzo en los negocios. The Royal Bank of Canada"
+    }
+  ],
+  "flags": []
+}

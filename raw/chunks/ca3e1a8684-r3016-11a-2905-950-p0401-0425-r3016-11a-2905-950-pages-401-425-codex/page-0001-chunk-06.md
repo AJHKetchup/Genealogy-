@@ -1,0 +1,70 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f92dd4fbda5b-P0001-06
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425.codex.md
+converted_sha256: f92dd4fbda5b34bdc09aa819f1cd38e8f2682ff2cc8f864f41c2bea3dbb29374
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0401-0425-r3016-11a-2905-950-pages-401-425/manifest.json
+page_start: 1
+page_end: 1
+part: 6
+---
+
+## Literal Transcription
+d) Aménagement des abris collectifs.
+e) Approvisionnement du matériel de préservation
+et de secours.
+f) Organisation des locaux susceptibles d'assurer les
+soins aux gazés (postes de secours, hôpitaux, éta-
+blissements de bain, etc.).
+g) Les Croix-Rouges s'assureront la disposition en
+temps de guerre, de laboratoires pour l'étude des pro-
+duits toxiques employés par l'ennemi, ainsi que des
+moyens appropriés à la protection.
+
+3) *Mesures relatives à l'enseignement et à la propagande.*
+*Enseignement.*
+
+a) Les Croix-Rouges nationales ont pour devoir, dès
+le temps de paix, de donner l'instruction aux populations
+civiles et d'entretenir ces notions.
+Cet enseignement serait donné avec avantage dans les
+écoles, les institutions diverses, les organisations ouvrières;
+il sera complété par la publication de tracts, dont la
+diffusion sera aussi étendue que possible.
+Il devra comporter, en particulier, la description d'ap-
+pareils simples que l'on pourra se procurer dans le com-
+merce, ou confectionner par ses propres moyens.
+
+b) Un enseignement relatif aux mesures de protection
+contre les effets de la guerre chimique et les soins à donner
+aux victimes sera donné par les sections des Croix-Rouges
+nationales.
+Le programme de cet enseignement pourra être uni-
+formisé par le Comité international.
+Ces Sociétés assureront la diffusion des règles de pro-
+tection, en offrant leur concours aux services gouverne-
+mentaux, établissements d'enseignement, groupements
+sociaux, etc.
+
+c) La Commission insiste pour que l'enseignement
+universitaire ne soit pas négligé en cette matière. Il paraît
+indispensable que les étudiants, au cours de leurs études,
+soient instruits par leur Faculté.
+
+— 26 —
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page. Two small, dark circular marks are visible near the top right edge, likely binding holes.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and layout elements on the page have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
+```

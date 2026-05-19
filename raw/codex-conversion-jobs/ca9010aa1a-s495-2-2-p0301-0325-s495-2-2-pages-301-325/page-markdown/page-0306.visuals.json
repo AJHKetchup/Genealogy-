@@ -1,0 +1,106 @@
+{
+  "created": "2026-05-19T18:41:10Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+  "page": 306,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0306.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0306.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "DE DERECHA A IZQUIERDA: SR. JULIO BRANDAO PAES, ENCARGADO DE NEGOCIOS DE PORTUGAL EN TOKIO; EL MINISTRO DE MEXICO, SRA. DE BRANDAO PAES, SRA. PAZ CASTAÑEDA DE RUVALCABA, SRA. DE HUERTA, SR. LIC. RICARDO C. HUERTA, SECRETARIO DE LA LEGACION DE MEXICO.",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "This is a group photo of diplomatic figures. From right to left: Sr. Julio Brandao Paes, Chargé d'Affaires of Portugal in Tokyo; the Minister of Mexico; Sra. de Brandao Paes; Sra. Paz Castañeda de Ruvalcaba; Sra. de Huerta; Sr. Lic. Ricardo C. Huerta, Secretary of the Mexican Legation.",
+      "confidence": "0.95",
+      "inline_anchor": "1.",
+      "bbox_pct": [
+        29.9,
+        25.7,
+        69.9,
+        47.7
+      ],
+      "bbox_pixels": [
+        759,
+        812,
+        1787,
+        1518
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-01-group-diplomats-japan-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-01-group-diplomats-japan-1923.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0306.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+      "page": 306,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0306.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Vigilante No. 166, en la puerta de una pulquería.",
+      "caption_type": "source-caption",
+      "identity_basis": "description",
+      "source_context": "A photograph of Vigilante No. 166.",
+      "confidence": "0.95",
+      "inline_anchor": "2.",
+      "bbox_pct": [
+        25.0,
+        69.0,
+        35.8,
+        85.9
+      ],
+      "bbox_pixels": [
+        634,
+        2187,
+        917,
+        2731
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-02-vigilante-166-pulqueria.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-02-vigilante-166-pulqueria.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0306.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+      "page": 306,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0306.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "photograph",
+      "caption_literal": "Vigilante No. 263, que cumple con su deber en la esquina de Soto e Hidalgo.",
+      "caption_type": "source-caption",
+      "identity_basis": "description",
+      "source_context": "A photograph of Vigilante No. 263.",
+      "confidence": "0.95",
+      "inline_anchor": "3.",
+      "bbox_pct": [
+        36.0,
+        69.0,
+        46.8,
+        85.9
+      ],
+      "bbox_pixels": [
+        914,
+        2187,
+        1198,
+        2731
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-03-vigilante-263-soto-hidalgo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/extracted-images/page-0306/page-0306-image-03-vigilante-263-soto-hidalgo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-images/page-0306.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/manifest.json",
+      "page": 306,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325/page-markdown/page-0306.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

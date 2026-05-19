@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:11:36Z",
+  "created": "2026-05-19T18:36:35Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S519bis-26-4.pdf",
@@ -8,7 +8,7 @@
   "page": 411,
   "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-images/page-0411.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-markdown/page-0411.md",
-  "no_visual_regions_reason": "No substantial visuals suitable for cropping. The signature is illegible and not a distinct image asset.",
+  "no_visual_regions_reason": "No substantial visuals present. The page contains only handwritten text and a minor hole punch, which is described in the 'Images, Captions, And Visual Notes' section.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

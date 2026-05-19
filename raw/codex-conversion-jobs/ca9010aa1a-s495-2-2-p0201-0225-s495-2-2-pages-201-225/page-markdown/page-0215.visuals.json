@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:40:03Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+  "page": 215,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0215.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0215.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "El acumulador por excelencia",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Main advertisement illustration for Prest-O-Lite batteries.",
+      "confidence": "0.95",
+      "inline_anchor": "L° que se exige de un acumulador es que\nproporcione al coche que lo usa un pronto\narranque, que mantenga sus luces bri-\nllantes siempre y que constantemente alimente\nla ignición con la energía que es necesaria.\nUn Prest-O-Lite en su coche responderá\ninstantáneamente a todo lo que se exija de él.\nTenemos exactamente cualquier tamaño que\nque se necesite.",
+      "bbox_pct": [
+        12.5,
+        25.5,
+        62.0,
+        77.0
+      ],
+      "bbox_pixels": [
+        137,
+        399,
+        702,
+        1220
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0215/page-0215-image-01-prest-o-lite-battery-car-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/extracted-images/page-0215/page-0215-image-01-prest-o-lite-battery-car-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-images/page-0215.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/manifest.json",
+      "page": 215,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225/page-markdown/page-0215.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

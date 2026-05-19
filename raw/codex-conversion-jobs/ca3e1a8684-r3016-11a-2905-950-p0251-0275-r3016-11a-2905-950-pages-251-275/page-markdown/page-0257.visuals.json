@@ -1,0 +1,51 @@
+{
+  "created": "2026-05-19T18:35:40Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275/manifest.json",
+  "page": 257,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275/page-images/page-0257.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0251-0275-r3016-11a-2905-950-pages-251-275/page-markdown/page-0257.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "ACTION\nCOPY",
+      "source_context": "Top right corner of the page, above the date stamp."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "RECEIVED IN\nREGISTRY",
+      "source_context": "Top right corner of the page, below the 'ACTION COPY' stamp."
+    },
+    {
+      "region_id": "region_3",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "1-NOV-1928",
+      "source_context": "Top right corner of the page, below the 'RECEIVED IN REGISTRY' stamp."
+    },
+    {
+      "region_id": "region_4",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Revise",
+      "source_context": "Handwritten note at the top of the page, to the left of the 'ACTION COPY' stamp."
+    },
+    {
+      "region_id": "region_5",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "V",
+      "source_context": "Large handwritten 'V' at the top left of the page."
+    }
+  ],
+  "flags": []
+}

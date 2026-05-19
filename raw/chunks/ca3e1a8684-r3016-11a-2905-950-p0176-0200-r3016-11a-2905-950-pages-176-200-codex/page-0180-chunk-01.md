@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bbbe65285b23-P0180-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200.codex.md
+converted_sha256: bbbe65285b235c6e042d72b0b8ca39d867990e32f1859790052bcb416d4e23eb
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json
+page_start: 180
+page_end: 180
+part: 1
+---
+
+# Page 180
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/manifest.json`
+- Source page: 180
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0176-0200-r3016-11a-2905-950-pages-176-200/page-images/page-0180.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+A ce sujet, l'honorable représentant du Comité international a'bien voulu laisser espérer à la Commission que le Comité international de la Croix-Rouge, qui est constamment en rapport avec les Gouvernements, pourra faire des démarches afin cle hâter les ratifications et les signatures de la Convention. Un membre de la Commission a proposé à ce sujet l'amendement suivant :
+
+'La Conférence émet le vœu que les organisations internationales de la Croix-Rouge ,, affirment leur vitalité en engageant les Gouvernements à prendre sans retard les 'mesures nécessaires pour mettre en vigueur la Convention du 12 juillet 1927."
+
+La suite de la résolution qui vous est présentée 'recommande aux Sociétés nationales de la Croix-Rouge de s'organiser pour être en mesure dé prêter .... leur libre concours à la constitution et au fonctionnement de l'Union internationale de secours".
+
+A ce sujet, j'ai eu l'occasion déjà d'attirer votre attention sur un paragraphe du rapport de la Ligue des Sociétés de la Croix-Rouge qui étudie successivement les mesures à prendre en prévision d'une action de secours possible: a: Mesures à prendre en prévision d'une action de secours possible ; b : Règle à suivre au moment du désastre, en déterminant de quelle manière l'intervention internationale s'exercera, comment elle sera organisée et administrée ; c : Méthodes à employer dans l'application des mesures cle secours prévues.
+
+Toute cette étude est extrêmement complète et montre un désir de collaboration
+
+générale que vous apprécierez tous.
+
+La délibération approuve ensuite l'activité déployée par les représentants du Comité international de la Croix-Rouge et de la Ligue clans la commission préparatore de l'Union internationale de secours. Elle invite le Comité international de la Croix-Rouge et la Ligue à s'entendre sur les méthodes les plus appropriées pour assurer le service central et perma¬ nent de l'Union; et elle attire l'attention des Sociétés nationales dont les Etats n'ont pas encore donné leur adhésion, sur la nécessité de démarches non plus des organisations inter¬ nationales cle la Croix-Rouge, mais, comme je vous le disais tantôt, des organisations nationales ou de chacun cle vous en particulier.
+
+Voilà donc, Mesdames et Messieurs, la délibération qui vous est soumise. Je vous demande naturellement, au nom cle la Commission unanime, d'approuver cette résolution. Je vous demande en même temps, Mesdames et Messieurs, de rendre, par votre vote, un juste hommage à différents organes et à différentes personnes.
+
+D'abord et avant tout, à la Société des Nations qui, clans la création de l'Union internationale de secours, dans les études préparatoires, a assumé des frais considérables; a organisé une série d'enquêtes; a instauré, au milieu des travaux si importants cle la Société, quatre grands débats et a accordé à l'Union internationale de secours en gestation tout le prestige de sa haute autorité morale.
+
+Et vous me permettrez aussi de rappeler quelques noms de défenseurs assidus et éloquents cle l'Union internationale cle secours à Genève: MM. Briand, Motta, Salandra, Scialoja et Vandervelde, et surtout le rôle plus modeste, plus discret, mais tellement efficace et tellement bienveillant, de Sir Eric Drummoxd, l'infatigable secrétaire général de la Société des Nations.
+
+Vous joindrez certainement à cet hommage le Comité international de la Croix-Rouge et la Ligue des Sociétés cle la Croix-Rouge qui, au milieu des difficultés que vous ne connaissez que trop bien, ont toujours assuré l'Union internationale de secours cle leur plus sympathique concours, cle leur désir sincère et profond cle collaborer clans toute la mesure de leurs ressources, à l'œuvre nouvelle et qui ont ainsi apporté le plus sérieux concours au succès cle l'Union internationale cle secours.
+
+Vous me permettrez de rappeler également le rôle important joué à Genève par le Président cle la Conférence constitutive, M. le Ministre Kûlz, d'Allemagne, qui a dirigé des débats difficiles et est arrivé à ce résultat positif dont vous avez le texte devant les yeux.
+
+Enfin, je voudrais clôturer mon rapport par un autre hommage auquel vous pensez
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

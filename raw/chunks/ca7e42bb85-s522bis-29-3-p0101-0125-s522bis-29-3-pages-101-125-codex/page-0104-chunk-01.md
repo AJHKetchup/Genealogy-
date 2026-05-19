@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-801c21f5cbc4-P0104-01
+chunk_id: CHUNK-0f44a9e32d31-P0104-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
-converted_sha256: 801c21f5cbc46055b1ba1f642e3d7ad615f4808ad622a5d6b54e9fee7b448bda
+converted_sha256: 0f44a9e32d31e266452ad43653e637c07b14dbeea4c06c65e36ecb08e28361bd
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
@@ -127,8 +127,18 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page: 105
+
+- **Page number**: 105
+- **Publication**: La Nación
+- **Date**: Inferred from context to be circa 22-23 July 1921.
+- **Language**: Spanish
 
 ## Layout And Reading Order
 
-The page is laid out in two main columns. The top portion of the page contains news articles or reports, with a date "22" appearing frequently, suggesting a newspaper format. A large, centered header "INFORMACIONES CABLEGRAFICAS" spans both columns in the lower half of the page, introducing a new section of content. The reading order proceeds down the left column, then down the right column, then to the main header, and then continues down the left column under the header, followed by the right column under the header.
+The page is organized into a three-column layout. The content is divided into several thematic sections, indicated by large headings. The primary reading order is column by column, from left to right, top to bottom. However, some articles flow from the bottom of one column to the top of the next, such as the "Reconocimiento de nuevos cónsules extranjeros" article which begins in column 1 and continues at the top of column 2.
+
+The main thematic sections are:
+1.  News from Spain and Morocco (top of all three columns).
+2.  "INFORMACIONES CABLEGRAFICAS" (bottom of columns 1 and 2).
+3.  "AGRICOLAS Y GANADERAS" (middle of column 2).
+4.  "COTIZACIONES DIARIAS" (bottom of column 2).

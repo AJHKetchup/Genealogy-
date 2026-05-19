@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T18:38:35Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/manifest.json",
+  "page": 259,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/page-images/page-0259.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0251-0275-s519bis-26-4-pages-251-275/page-markdown/page-0259.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "signature",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Paranag",
+      "source_context": "Handwritten note/signature at the top right of the page."
+    },
+    {
+      "region_id": "region_2",
+      "kind": "handwritten_note",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Très juste M. Pa-\nranaguá correct.\nDonner suite aux\nremarques formulées\npendant la con-\nversation à Ge-\nnève. Il me semble\nqu'une action de\npropagande est\nnécessaire. Je\nsuis pour une\ngrande action.\nJ.A.\n11.9.34.",
+      "source_context": "Handwritten marginalia on the left side of the page."
+    }
+  ],
+  "flags": []
+}

@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:39:42Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+  "page": 161,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0161.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0161.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "La genial artista Virginia Fábregas, cuya próxima llegada a Tegucigalpa con una Compañía de selectos artistas, es ansiosamente esperada por el público capitalino.",
+      "caption_type": "nearby-text",
+      "identity_basis": "source-context",
+      "source_context": "The image is placed next to a paragraph introducing 'La genial artista Virginia Fábregas'.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        13.3,
+        52.2,
+        50.9,
+        82.9
+      ],
+      "bbox_pixels": [
+        147,
+        828,
+        583,
+        1325
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-01-portrait-virginia-fabregas.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-01-portrait-virginia-fabregas.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0161.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+      "page": 161,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0161.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "Walk-Over TRADE MARK REG. U.S. PAT. OFF.",
+      "caption_type": "source-field",
+      "identity_basis": "source-context",
+      "source_context": "An illustration of two men's shoes with the brand name 'Walk-Over' visible above them, within an advertisement for 'BAZAR UNION'.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        67.9,
+        31.7,
+        82.1,
+        66.9
+      ],
+      "bbox_pixels": [
+        768,
+        501,
+        937,
+        1070
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-02-bazar-union-walk-over-shoes-ad.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0161/page-0161-image-02-bazar-union-walk-over-shoes-ad.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0161.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+      "page": 161,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0161.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

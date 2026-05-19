@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:38:03Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json",
+  "page": 681,
+  "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0681.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-markdown/page-0681.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Decorative horizontal rule at the top of the page.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        8.0,
+        74.0,
+        16.0,
+        84.0
+      ],
+      "bbox_pixels": [
+        55,
+        903,
+        123,
+        1034
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/extracted-images/page-0681/page-0681-image-01-decorative-rule-wavy-lines-leaves.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/extracted-images/page-0681/page-0681-image-01-decorative-rule-wavy-lines-leaves.png",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-images/page-0681.jpg",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/manifest.json",
+      "page": 681,
+      "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0679-0703-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-679-703/page-markdown/page-0681.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

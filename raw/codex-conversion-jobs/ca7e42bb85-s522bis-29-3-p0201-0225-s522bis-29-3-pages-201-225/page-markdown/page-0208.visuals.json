@@ -1,0 +1,23 @@
+{
+  "created": "2026-05-19T18:38:59Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/manifest.json",
+  "page": 208,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/page-images/page-0208.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/page-markdown/page-0208.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "decoration",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Juges,",
+      "source_context": "A decorative curly bracket visually groups several names with the label \"Juges,\"."
+    }
+  ],
+  "flags": []
+}

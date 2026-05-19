@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T18:35:27Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/R3016-11A-2905-950.pdf",
+  "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
+  "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/manifest.json",
+  "page": 32,
+  "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-images/page-0032.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0026-0050-r3016-11a-2905-950-pages-26-50/page-markdown/page-0032.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_001",
+      "kind": "stamp",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "ACTION COPY RECEIVED IN REGISTRY 1 OCT-1928",
+      "source_context": "Top-left corner, overlapping the main title."
+    },
+    {
+      "region_id": "region_002",
+      "kind": "symbol",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Red Cross symbol",
+      "source_context": "Centered above the main title."
+    }
+  ],
+  "flags": []
+}

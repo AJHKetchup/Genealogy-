@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:11:57Z",
+  "created": "2026-05-19T18:32:43Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S522bis-29-3.pdf",
@@ -8,7 +8,7 @@
   "page": 205,
   "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/page-images/page-0205.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0201-0225-s522bis-29-3-pages-201-225/page-markdown/page-0205.md",
-  "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The page contains only text and minor wear/marks.",
+  "no_visual_regions_reason": "The page contains only text and minor, illegible marks/wear. No substantial visuals suitable for cropping.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

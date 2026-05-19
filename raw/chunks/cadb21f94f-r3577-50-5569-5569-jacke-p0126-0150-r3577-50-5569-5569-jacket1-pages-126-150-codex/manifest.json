@@ -1,7 +1,7 @@
 {
   "created": "2026-05-19",
   "converted_file": "raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150.codex.md",
-  "converted_sha256": "21bb0cc638d8fe86eb4670241705dfa24d4057737f21b001bcbfd4003fe549ca",
+  "converted_sha256": "9e3570bd8e9f2c0e9b127b73c49bd53bc81af50a13fe2f852f17d0020d3c533a",
   "source": "raw/sources/R3577-50-5569-5569-Jacket1.pdf",
   "source_sha256": "db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb",
   "source_manifest": "raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json",
@@ -12,34 +12,34 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-21bb0cc638d8-P0141-01",
+      "chunk_id": "CHUNK-9e3570bd8e9f-P0141-01",
       "chunk_number": 1,
       "path": "raw/chunks/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150-codex/page-0141-chunk-01.md",
       "page_start": 141,
       "page_end": 141,
       "part": 1,
       "chars": 11977,
-      "sha256": "d574d8880e1afbb76e900c588c2aec9651ec7a8bc9d5ebadc0835fc642cdf842"
+      "sha256": "9013ea31c01b40c79a4778c85fb9be31ca17655424c6d57281b7dc98d90a8869"
     },
     {
-      "chunk_id": "CHUNK-21bb0cc638d8-P0141-02",
+      "chunk_id": "CHUNK-9e3570bd8e9f-P0141-02",
       "chunk_number": 2,
       "path": "raw/chunks/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150-codex/page-0141-chunk-02.md",
       "page_start": 141,
       "page_end": 141,
       "part": 2,
-      "chars": 11087,
-      "sha256": "ec59a3bc36ae65a95f13f5695ace1524992c0dcd4785126ace0c977a1e60e05a"
+      "chars": 11998,
+      "sha256": "de3450b1bb7f4026618656b6780a710e716a4f350aa96d96a90917b103607371"
     },
     {
-      "chunk_id": "CHUNK-21bb0cc638d8-P0141-03",
+      "chunk_id": "CHUNK-9e3570bd8e9f-P0141-03",
       "chunk_number": 3,
       "path": "raw/chunks/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150-codex/page-0141-chunk-03.md",
       "page_start": 141,
       "page_end": 141,
       "part": 3,
-      "chars": 6415,
-      "sha256": "3705a93241b22335ad5f61170327f7bfefde264a4f0b908341da6b7a74e2877b"
+      "chars": 6523,
+      "sha256": "ab73c677bc539dd2227346c9b14cb17e1733dee65b645cd64591adaa08019dd5"
     }
   ]
 }

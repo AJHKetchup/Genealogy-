@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-fef1eaf3adee-P0751-01
+chunk_id: CHUNK-085ba051e3d0-P0751-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753.codex.md
-converted_sha256: fef1eaf3adee72168259d0bf272dc2b78670ccc9330be89dacf6815aa1dec817
+converted_sha256: 085ba051e3d0a0b3d5ce7d106493a250e16fab08cbd6f2b06427ec2e3dc252dc
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753/manifest.json
@@ -96,14 +96,19 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 1344
-- Running header: CAMARA DE SENADORES DE LA NACION Septiembre 29 y 30
+- Page number: 752
+- Source publication year: 1936
+- Source publication title: Cámara de Senadores de la Nación
+- Running headers:
+  - Left: 1344
+  - Center: CAMARA DE SENADORES DE LA NACION
+  - Right: Septiembre 29 y 30
 
 ## Layout And Reading Order
-The page consists of two columns of text. The reading order is from the top of the left column to the bottom, then from the top of the right column to the bottom.
+The page is presented in a two-column format. The reading order proceeds down the left column, then down the right column.
 
 ## Literal Transcription
-
+1344
 petuidad, el apartado 1º del inciso e, del ar-
 tículo 2º, las tomas en cuenta de una manera
 equitativa, ¿por qué? Por una razón muy sen-
@@ -166,9 +171,12 @@ Yo no he comprendido bien el argumento del
 señor senador, debo declararlo con toda franque-
 za. Yo creo que cuando una empresa hace trein-
 ta años le compró a otra sus instalaciones para
+
+CAMARA DE SENADORES DE LA NACION
+Septiembre 29 y 30
 hacer su negocio, le ha pagado el precio que ella
 creía que debía pagarle, y que no le ha pagado
-un precio en vista del agniamiento del capital,
+un precio en vista del agniamiento al capital,
 para engañar a una comisión especial que va a
 organizar el transporte 30 ó 40 años después.
 Entiendo que si la empresa del Anglo le ha com-
@@ -232,12 +240,3 @@ testaba y encontraba excesivo el interés del
 la corporación. Es posible que así sea, y es po-
 sible que un estudio más detenido de la comi-
 sión especial pudiera encontrar que la obliga-
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.

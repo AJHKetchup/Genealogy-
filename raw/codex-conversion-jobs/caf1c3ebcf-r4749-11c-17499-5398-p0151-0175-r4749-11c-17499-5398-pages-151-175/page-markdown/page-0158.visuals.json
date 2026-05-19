@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:55Z",
+  "created": "2026-05-19T18:32:59Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/R4749-11C-17499-5398.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "visual_001",
       "kind": "photograph",
-      "caption_literal": "A sepia-toned photograph of a large, symmetrical building with a central tower, set behind a formal garden with circular pathways and trees.",
+      "caption_literal": "",
       "caption_type": "converter-description",
-      "identity_basis": "visual-elements",
-      "source_context": "The main content of the page is this photograph.",
+      "identity_basis": "converter-description",
+      "source_context": "The image shows a large building with a central tower and a formal garden in front of it.",
       "confidence": "high",
       "inline_anchor": "",
       "bbox_pct": [
-        17.4,
-        19.7,
-        82.2,
+        17.2,
+        19.8,
+        79.9,
         85.3
       ],
       "bbox_pixels": [
-        298,
-        228,
-        1429,
+        294,
+        229,
+        1389,
         1007
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0158/page-0158-image-01-building-with-formal-garden-sepia-tone.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0158/page-0158-image-01-building-with-formal-garden-sepia-tone.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0158/page-0158-image-01-building-with-garden.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0158/page-0158-image-01-building-with-garden.png",
       "page_image": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/page-images/page-0158.jpg",
       "source": "raw/sources/R4749-11C-17499-5398.pdf",
       "source_sha256": "f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d",

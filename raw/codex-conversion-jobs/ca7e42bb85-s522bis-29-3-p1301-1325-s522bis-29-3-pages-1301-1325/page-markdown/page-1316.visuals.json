@@ -1,0 +1,226 @@
+{
+  "created": "2026-05-19T18:40:26Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+  "page": 1316,
+  "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_0",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Illustration next to 'SERA DEL 20 o/o EL ENCAJE BANCARIO DE DEPOSITOS COMUNES'",
+      "confidence": "0.9",
+      "inline_anchor": "An illustration of a woman in a long, patterned dress and hat, looking out a window or doorway.",
+      "bbox_pct": [
+        50.0,
+        20.0,
+        64.0,
+        23.0
+      ],
+      "bbox_pixels": [
+        1272,
+        706,
+        1637,
+        820
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-01-illustration-woman-window-door.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-01-illustration-woman-window-door.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    },
+    {
+      "region_id": "region_1",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Part of 'El vestido de moda' advertisement",
+      "confidence": "0.9",
+      "inline_anchor": "A large illustration of a woman wearing a long, belted coat or dress, with a patterned texture.",
+      "bbox_pct": [
+        43.0,
+        13.0,
+        63.0,
+        24.0
+      ],
+      "bbox_pixels": [
+        1093,
+        457,
+        1611,
+        856
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-02-illustration-woman-dress-coat.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-02-illustration-woman-dress-coat.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "illustration",
+      "caption_literal": "Elegante y moderno Sombrero",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Part of 'El vestido de moda' advertisement",
+      "confidence": "0.9",
+      "inline_anchor": "An illustration of a woman's head wearing an elegant, modern hat.",
+      "bbox_pct": [
+        43.0,
+        24.0,
+        50.0,
+        30.0
+      ],
+      "bbox_pixels": [
+        1093,
+        848,
+        1280,
+        1068
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-03-illustration-woman-head-hat.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-03-illustration-woman-head-hat.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    },
+    {
+      "region_id": "region_3",
+      "kind": "illustration",
+      "caption_literal": "s de ilo mosquetero",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Part of 'El vestido de moda' advertisement",
+      "confidence": "0.9",
+      "inline_anchor": "An illustration of a pair of gloved hands.",
+      "bbox_pct": [
+        43.0,
+        30.0,
+        50.0,
+        35.0
+      ],
+      "bbox_pixels": [
+        1093,
+        1060,
+        1280,
+        1246
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-04-illustration-gloves.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-04-illustration-gloves.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    },
+    {
+      "region_id": "region_4",
+      "kind": "illustration",
+      "caption_literal": "Una espléndida cartera de moda natural",
+      "caption_type": "nearby-text",
+      "identity_basis": "nearby-text",
+      "source_context": "Part of 'El vestido de moda' advertisement",
+      "confidence": "0.9",
+      "inline_anchor": "An illustration of a handbag.",
+      "bbox_pct": [
+        43.0,
+        35.0,
+        50.0,
+        40.0
+      ],
+      "bbox_pixels": [
+        1093,
+        1238,
+        1280,
+        1423
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-05-illustration-handbag.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-05-illustration-handbag.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    },
+    {
+      "region_id": "region_5",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Next to '1.000 COLCHAS DE DAMASCO MERCERIZADOS' in 'CREDITOS' ad",
+      "confidence": "0.9",
+      "inline_anchor": "An illustration of a bed with a patterned mattress, likely representing the \"COLCHAS DE DAMASCO MERCERIZADOS\" in the \"CREDITOS\" advertisement.",
+      "bbox_pct": [
+        64.0,
+        20.0,
+        70.0,
+        23.0
+      ],
+      "bbox_pixels": [
+        1629,
+        706,
+        1790,
+        820
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-06-illustration-bed-mattress.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-06-illustration-bed-mattress.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    },
+    {
+      "region_id": "region_6",
+      "kind": "illustration",
+      "caption_literal": "",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "Next to 'JUEGOS PARA CAMA' ad",
+      "confidence": "0.9",
+      "inline_anchor": "An illustration of a bed with a patterned bedspread, next to the \"JUEGOS PARA CAMA\" advertisement.",
+      "bbox_pct": [
+        87.0,
+        20.0,
+        93.0,
+        23.0
+      ],
+      "bbox_pixels": [
+        2215,
+        706,
+        2376,
+        820
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-07-illustration-bed-bedspread.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/extracted-images/page-1316/page-1316-image-07-illustration-bed-bedspread.png",
+      "page_image": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-images/page-1316.jpg",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+      "job_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/manifest.json",
+      "page": 1316,
+      "output_markdown": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1301-1325-s522bis-29-3-pages-1301-1325/page-markdown/page-1316.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

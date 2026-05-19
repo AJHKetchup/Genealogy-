@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b97e9b9a9516-P0045-03
+chunk_id: CHUNK-996e4b1c05ce-P0045-03
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50.codex.md
-converted_sha256: b97e9b9a9516ab8dd47e8e150f5b556fed660016eb48e4dad2986f249814ea5b
+converted_sha256: 996e4b1c05ceb3b12f766707e5923aa72bd606005456a89253be48b5a91482fa
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50/manifest.json
@@ -11,7 +11,11 @@ page_end: 45
 part: 3
 ---
 
-## SU NOMBRE Y SU POBLACION HASTA 1833
+## Literal Transcription
+La Prensa - B. A. 7. Febrero 1932.
+
+LAS MALVINAS
+SU NOMBRE Y SU POBLACION HASTA 1833
 
 Especial para LA PRENSA
 
@@ -20,11 +24,11 @@ que por primera vez avis-
 tara, aunque sólo fuera
 en lontananza, perdido
 entre las brumas, el ar-
-chipielago argentino de
+chipíélago argentino de
 las Malvinas, hermanas
 por su fauna y flora de las tierras pa-
 tagónicas? Por cierto que no lo fuera
-Américo Vespucci, quien en 1501, en su
+Américo Vespucio, quien en 1501, en su
 tercer viaje, menciona, muy al Sur, la
 vista de unas tierras onduladas, desnu-
 das de galas arbóreas, circunstancia que
@@ -113,14 +117,14 @@ de España, si bien en 1748 el capellán
 de la marina inglesa Walter, relator de
 los viajes de Jorge Anson, ponderó la
 admirable condición de las islas para
-puertos de abastecimiento en la derro-
+puertos de abastecimiento en la den-
 ta de los buques desde Europa y Cabo
 de Buena Esperanza hacia los puertos
 del Pacífico.
 
 Esta misma reflexión, basada en el
 comercio activo entre los puertos de
-Chile y Perú, movió
+Francia y los de Chile y Perú, movió
 al abogado, soldado de mar y tierra,
 futuro primer circunnavegador francés
 del globo, Luis Antonio de Bougainvi-
@@ -136,16 +140,16 @@ caba en el horizonte, para reafirmar el
 relato del marino Wood Rogers sobre
 su amplia existencia allí. Gran número
 de aves inexpertas del peligro del arma
-mansamente sus
+de fuego brindaban mansamente sus
 casas presas. Encantador y risueño aspe-
-del país tendido en suaves ondulacio-
+cto del país tendido en suaves ondulacio-
 nes sobre las colinas, exentas de rocas
 abruptas y en amplios valles cruzados
 por arroyos de aguas claras que se des-
 lizaban hacia bahías y ensenadas de
 halagüeño refugio para las embarcacio-
 nes. Las praderas, cubiertas de loza-
-hierbas, constituían tierras de promisión
+nas hierbas, constituían tierras de promisa
 para la cría de ganados, y la fosilizada
 vegetación en los bajos suplía con la
 turba secular la falta de combustible.
@@ -157,11 +161,8 @@ bernador al frente de diecisiete hom-
 bres, entre ellos un cirujano, un "mai-
 tre d'hotel" y dos cocineros segundos.
 
-El grupo poblador se componía de dos
-familias "acadiennes", adjetivo que el
-geógrafo francés Frezier reproduce en
-tres comillas en su narración de setenta
-años después. Probablemente se trata-
+El grupo poblador se componía de las
+familias "acadiennes", adjetivo que
 
 ría de gentes habituadas a las labores
 del campo y pesca, tal vez oriundas
@@ -179,9 +180,9 @@ Los animales llegaron en extremo es-
 tado de debilitamiento y para su sal-
 vación dióseles suelta en la costa apenas
 echada el ancla. Al día siguiente sólo
-amaneció al decir campero nuestro
-— una yegua muerta con su potrillo;
-— los demás animales habían tomado el
+amaneció — al decir campero nuestro
+— "una yegua muerta con su potrillo;
+los demás animales habían tomado el
 campo. Un ternero, agarrado por feliz
 casualidad, produjo el retorno de la ma-
 dre y con ella sus compañeras, que
@@ -199,7 +200,7 @@ Francia un legítimo derecho a la sobe-
 ranía sobre las islas Malvinas. Ellas
 no fueron arrebatadas a los hombres.
 Es una conquista que el hábil empeño
-[Industrie] ejerció sobre la naturaleza".
+(Industrie) ejerció sobre la naturaleza".
 Estas palabras sinceras obedecieron a
 un error de jurisdicción. España hizo
 valer su derecho ante el rey de Francia
@@ -242,10 +243,10 @@ rineros de varias naciones en tempo-
 rarias estadas. Luis Vernet, cuyo espí-
 ritu de progreso dejó cautivado a Fitz-
 roy, se estableció allí con su socio, un
-inglés apellidado Brisbane, un capataz
+inglés apellidado Brisbane, con cuarenta
 y veinticinco paisanos, "gau-
 chos", como los titulan explícitamente
-mister Darwin y Fitzroy. A estos hom-
+míster Darwin y Fitzroy. A estos hom-
 bres, habituados a los trabajos de ro-
 deo, en su mayoría porteños, se agre-
 garon cinco indios prisioneros de gue-
@@ -256,40 +257,40 @@ ción de inculcárseles hábitos de trabajo
 para luego darles libertad a cierto pla-
 zo. ¿No serían ellos unos holgazanes?
 Vernet estableció en-
-de cultivos y trató de amansar
+cercados de cultivos y trató de amansar
 ganados en rodeos de estancia. Los
-boleaban las vacas en el cam-
-jándolas maneadas por unos días
-dándolas padecer hambre y sed pa-
-luego soltarlas al señuelo que las
-a los mataderos o al rodeo ya
-de quedar parados"; tal nos re-
-de la lectura de los relatos de
+indios boleaban las vacas en el cam-
+po, manejándolas maneadas por unos días
+dejándolas padecer hambre y sed pa-
+ra luego soltarlas al señuelo que las
+llevara a los mataderos o al rodeo ya
+fijo de quedar parados"; tal nos re-
+fiere de la lectura de los relatos de
 los ingleses.
 
 Fitzroy supo distinguir en el mal
-zado paisano nuestro, al hombre
+entrazado paisano nuestro, al hombre
 emplazable en el trabajo de a caba-
-lo. El lo designa como "gaucho colo-
+llo. El lo designa como "gaucho colo-
 no" (gaucho colonist) para lidiar con
 ganados que habían aumentado
-das las islas en medida extrema.
-calculaba una existencia de doce
-vacas alzadas y cuatro mil yegua-
-La raza caballar criolla tenía pro-
-a volverse petisa; las vacas
-aban gordas y llamaron la aten-
-los ingleses, si bien éstos, en su
+en todas las islas en medida extrema-
+da. Se calculaba una existencia de doce
+mil vacas alzadas y cuatro mil yegua-
+rizas. La raza caballar criolla tenía pro-
+pensión a volverse petisa; las vacas
+se criaban gordas y llamaron la aten-
+ción a los ingleses, si bien éstos, en su
 conocimiento de nuestras hacien-
-alzadas las califican de "feroces"
+das alzadas las calificaran de "feroces"
 sólo se trata de animales "em-
-s" si se ven acosados por el hom-
-Fitzroy escribe que por esta si-
-los "únicos hombres útiles y
-rios" allí lo son estos gauchos
-inos, capaces de lidiar con tales
-das bravas, mientras el europeo
-maduras sólo las reduce matándo-
+boscados" si se ven acosados por el hom-
+bre. Fitzroy escribe que por esta si-
+tuación los "únicos hombres útiles y
+necesarios" allí lo son estos gauchos
+argentinos, capaces de lidiar con tales
+manadas bravas, mientras el europeo
+no posee la habilidad de dominar el
 
 gión pastoril y agrícola de ciertos cul-
 tivos; de sitio de abastecimiento en
@@ -334,7 +335,7 @@ cierto la indignación llegó hasta los más
 humildes estratos de la población ar-
 gentina. Así relata el inglés míster
 Campbell Scarlett en su "Southamé-
-rica", que durante su visita del año
+rica", durante su visita del año
 1834 a la ciudad y campaña de Buenos
 Aires los compatriotas le pusieron sobre
 aviso de eludir el menor altercado con

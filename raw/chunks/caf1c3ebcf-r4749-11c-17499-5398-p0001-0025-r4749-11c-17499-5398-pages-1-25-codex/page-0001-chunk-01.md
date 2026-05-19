@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9da3cf8c6823-P0001-01
+chunk_id: CHUNK-dfe979a1b58e-P0001-01
 source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
-converted_sha256: 9da3cf8c68235175b9eb9dfb3c0078fdd2e7888a49e686b9382dbadf79f31566
+converted_sha256: dfe979a1b58e3bd3d477c4e30a3dbe373abaf840a36e4a7050c80fd5dbdabd12
 source: raw/sources/R4749-11C-17499-5398.pdf
 source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
 source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
@@ -100,7 +100,7 @@ Page 2
 
 ## Layout And Reading Order
 
-The page is a light brown, mostly blank sheet of paper. There is a handwritten note in the upper-middle section of the page. Along the right edge, there is a white fabric binding strip with a single punched hole at the top.
+The page is mostly blank, appearing to be a cover or divider page. There is a handwritten note in the upper-middle section of the page. Along the right edge, there is a white binding strip with a punched hole at the top.
 
 ## Literal Transcription
 
@@ -110,20 +110,17 @@ The page is a light brown, mostly blank sheet of paper. There is a handwritten n
 
 ## Images, Captions, And Visual Notes
 
-The page features a white fabric binding strip along the right edge, which is part of the document's physical construction. At the top of this binding strip, there is a single circular hole, likely for binding the pages together.
+A white binding strip runs vertically along the right edge of the page. At the top of this strip, there is a single punched hole, indicating the page was once bound.
 
 ## Uncertain Or Illegible
-
 None.
 
 ## Completeness Audit
-
-All visible content on the page, including the handwritten note and the physical characteristics of the page (binding strip, hole), has been transcribed and described.
+All visible content on the page has been transcribed or described.
 
 ## Visual Region Manifest
-
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "The page is mostly blank with only a handwritten note and a binding strip, neither of which are substantial visuals requiring cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a handwritten note and a binding strip with a hole, neither of which are substantial visuals requiring cropping."}
 ```
 
 ## Page Metadata
@@ -284,3 +281,38 @@ Page number: 5
 ## Layout And Reading Order
 
 The page contains a single block of typewritten text, followed by a closing and a printed name, all in a single column layout. A page number is centered at the top.
+
+## Literal Transcription
+
+```
+                                                                - 2 -
+
+                                        Je vous remercie de m'avoir fait parvenir le
+texte de la Loi N° 12.558 sur la protection des enfants
+d'âge scolaire; ce document sera également traduit et publié
+par les soins du Centre d'information. Quant au texte des
+projets de lois soumis actuellement au Congrès national pour
+établir le "régime de protection légale des mineurs" et la
+"protection des mineurs et l'extension de la compétence des
+tribunaux pour mineurs", ils seront déposés aux archives
+du Secrétariat, et il en sera fait mention dans le Rapport
+annuel en matière de protection de l'enfance qui sera publié
+en vue de la session de 1940 de la Commission consultative
+des questions sociales. J'espère que vous voudrez bien me
+prévenir si d'ici là ces projets sont devenus des lois.
+                                        Veuillez agréer, Monsieur le Ministre, les
+assurances de ma haute considération.
+
+                                        Pour le Secrétaire général,
+                                        Le Directeur des Sections du Trafic de l'opium
+                                        et des Questions sociales,
+
+                                        ERIC EINAR EKSTRAND
+```
+
+## Images, Captions, And Visual Notes
+
+A hole punch is visible on the left margin of the page.
+
+## Uncertain Or Illegible
+None.

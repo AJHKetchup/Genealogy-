@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:39:53Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+  "page": 164,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0164.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0164.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "img-01",
+      "kind": "illustration",
+      "caption_literal": "Motocicletas Harley-Davidson",
+      "caption_type": "nearby-text",
+      "identity_basis": "from-caption",
+      "source_context": "advertisement",
+      "confidence": "high",
+      "inline_anchor": "[[img-01]]",
+      "bbox_pct": [
+        25.1,
+        28.1,
+        85.2,
+        51.1
+      ],
+      "bbox_pixels": [
+        258,
+        443,
+        892,
+        817
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0164/page-0164-image-01-harley-davidson-motorcycle-with-sidecar.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/extracted-images/page-0164/page-0164-image-01-harley-davidson-motorcycle-with-sidecar.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-images/page-0164.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/manifest.json",
+      "page": 164,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0151-0175-s495-2-2-pages-151-175/page-markdown/page-0164.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:37:26Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+  "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+  "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/manifest.json",
+  "page": 426,
+  "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-images/page-0426.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-markdown/page-0426.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "p0426-img01",
+      "kind": "photograph",
+      "caption_literal": "«El Copado», punto más alto de la línea férrea de Raucagua a «El Teniente».",
+      "caption_type": "source-caption",
+      "identity_basis": "none",
+      "source_context": "The image is a photograph of a mountainous landscape, identified by the caption as \"El Copado\".",
+      "confidence": "high",
+      "inline_anchor": "[p0426-img01]",
+      "bbox_pct": [
+        16.0,
+        13.1,
+        84.2,
+        80.2
+      ],
+      "bbox_pixels": [
+        115,
+        157,
+        628,
+        987
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0426/page-0426-image-01-p0426-img01-el-copado.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/extracted-images/page-0426/page-0426-image-01-p0426-img01-el-copado.png",
+      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-images/page-0426.jpg",
+      "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
+      "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
+      "job_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/manifest.json",
+      "page": 426,
+      "output_markdown": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0404-0428-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-404-428/page-markdown/page-0426.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

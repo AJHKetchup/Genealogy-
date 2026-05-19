@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-19T18:38:54Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "job_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/manifest.json",
+  "page": 406,
+  "page_image": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-images/page-0406.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0401-0425-s519bis-26-4-pages-401-425/page-markdown/page-0406.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "other",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "M. KULLMANN\n\n14 novembre 1932\n\nDepuis que j'ai annoncé à votre Section la résolution\ndu Conseil National d'Education de l'Argentine au sujet de\nl'enseignement sur la paix dans les écoles, le Secrétariat\na reçu la communication officielle qui confirme cette nou-\nvelle.\n\nJe vous remets aujourd'hui deux coupures du Journal\n\"La Vanguardia\" de Buenos Aires, concernant cette question.\nJ'espère que maintenant le Conseil National d'Educa-\ntion de l'Argentine complètera son oeuvre en achetant un\ncertain nombre d'exemplaires de la brochure \"Qué es la\nSociedad de las Naciones\", au sujet de laquelle j'ai écrit\nil y a déjà quelques mois au nouveau vice-président dudit\nConseil. J'insisterai à nouveau et j'écrirai également\nau professeur Pablo Pizzurno, vieux pédagogue argentin\nqui m'a beaucoup aidé dans la diffusion de l'idée de la\nSociété des Nations dans des milieux pédagogiques de son\npays.",
+      "source_context": "The main body of the letter."
+    },
+    {
+      "region_id": "vr_2",
+      "kind": "handwritten_annotation",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "Red handwritten vertical bracket in the left margin.",
+      "source_context": "A red handwritten vertical bracket is present in the left margin, spanning the lines from \"J'insisterai à nouveau et j'écrirai également\" down to \"pays.\""
+    }
+  ],
+  "flags": []
+}

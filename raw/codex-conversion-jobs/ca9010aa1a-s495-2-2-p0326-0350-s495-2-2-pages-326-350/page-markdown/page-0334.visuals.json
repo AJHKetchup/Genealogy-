@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:21Z",
+  "created": "2026-05-19T18:33:49Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region_1",
+      "region_id": "page-0334-01",
       "kind": "photograph",
-      "caption_literal": "Esta interesante fotografía que aprehendieron a De Valera\nmuestra al famoso e inquieto re- después de dieciocho meses de\npublicano irlandés, Eamonn de buscarle sin cesar, manifestó\nValera momentos antes de que que cuando el líder se dió cuenta\nlos soldados del Estado Libre, con de la presencia de las tropas del\nla bayoneta calada, interrumpie- pie de la plataforma donde pro-\nran el discurso y condujeran a la nunciaba tremendos discursos, se\nprisión al que por espacio de tan- desmayó y no pudo volver en sí\ntos meses había conseguido esca- hasta cuando era conducido a la\npar de las fuerzas enemigas. cárcel.\nLos militares del Estado Libre población de Ennis, condado de\nClare, donde los republicanos tie-\nnen una popularidad que opaca a\nlos del Estado Libre.",
+      "caption_literal": "Esta interesante fotografía que muestra al famoso e inquieto republicano irlandés, Eamonn de Valera momentos antes de que los soldados del Estado Libre, con la bayoneta calada, interrumpieran el discurso y condujeran a la prisión al que por espacio de tantos meses había conseguido escapar de las fuerzas enemigas.\n\nLos militares del Estado Libre que aprehendieron a De Valera después de dieciocho meses de buscarle sin cesar, manifestaron que cuando el líder se dió cuenta de la presencia de las tropas al pie de la plataforma donde pronunciaba tremendos discursos, se desmayó y no pudo volver en sí hasta cuando era conducido a la cárcel.\n\nLa captura se efectuó en la población de Ennis, condado de Clare, donde los republicanos tienen una popularidad que opaca a los del Estado Libre.",
       "caption_type": "source-caption",
-      "identity_basis": "source-context",
-      "source_context": "Eamonn de Valera moments before his capture by soldiers of the Free State.",
-      "confidence": "0.95",
-      "inline_anchor": "Visual Region 1",
+      "identity_basis": "source-caption",
+      "source_context": "Eamonn de Valera",
+      "confidence": "100",
+      "inline_anchor": "Image 1",
       "bbox_pct": [
-        49.5,
-        43.2,
-        88.9,
-        91.9
+        39.8,
+        67.1,
+        97.9,
+        88.9
       ],
       "bbox_pixels": [
-        871,
-        1045,
-        1575,
-        2235
+        699,
+        1625,
+        1734,
+        2162
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-capture-1923.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-capture-1923.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-speaking-before-arrest-ennis-1923.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/extracted-images/page-0334/page-0334-image-01-eamonn-de-valera-speaking-before-arrest-ennis-1923.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/page-images/page-0334.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

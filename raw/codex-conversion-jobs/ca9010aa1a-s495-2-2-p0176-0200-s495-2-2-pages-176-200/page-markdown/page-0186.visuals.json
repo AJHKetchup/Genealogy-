@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:39:56Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 186,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0186.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0186.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "TEGUCIGALPA\nA VISTA DE PA-\nJARO.—Esta es\nla primera foto-\ngrafía de Teguei-\ngalpa tomada des-\nde un aeroplano.",
+      "caption_type": "source-caption",
+      "identity_basis": "source-caption",
+      "source_context": "An aerial photograph of a city.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        16.8,
+        15.5,
+        67.5,
+        36.5
+      ],
+      "bbox_pixels": [
+        188,
+        246,
+        774,
+        593
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-01-tegucigalpa-aerial-view-first-photograph.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-01-tegucigalpa-aerial-view-first-photograph.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0186.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 186,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0186.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "El aviador norte-\namericano Sr. W.\nC. Mayse, fren-\nte a su aparato\nLincoln Standard",
+      "caption_type": "source-caption",
+      "identity_basis": "name",
+      "source_context": "A photograph of aviator Sr. W. C. Mayse standing next to his Lincoln Standard airplane.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        30.0,
+        40.0,
+        80.0,
+        61.0
+      ],
+      "bbox_pixels": [
+        338,
+        642,
+        916,
+        989
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-02-aviator-sr-w-c-mayse-lincoln-standard-airplane.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0186/page-0186-image-02-aviator-sr-w-c-mayse-lincoln-standard-airplane.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0186.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 186,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0186.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

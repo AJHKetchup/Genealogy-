@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-ceb0b2b07821-P0001-01
+chunk_id: CHUNK-2bdf5bb40598-P0001-01
 source_converted: raw/converted/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959.codex.md
-converted_sha256: ceb0b2b078218ad863cbabae65122862e9248cecfd365dd5549d5041cbc60760
+converted_sha256: 2bdf5bb40598f4d21195d7d401f4f9953e4c577b5710ee60a99665303685d231
 source: raw/sources/Arrival-Departure Record, Form I-94 B, March 30, 1959.png
 source_sha256: db3e1a4b10817e6fda3e3ece8f55d0717d2806c802660cb9d3e4366affff6d1a
 source_manifest: raw/codex-conversion-jobs/cadb3e1a4b-arrival-departure-record-arrival-departure-record-form-i-94-b-march-30-1959/manifest.json
@@ -26,9 +26,7 @@ part: 1
 
 ## Layout And Reading Order
 
-The page displays a form titled "ARRIVAL-DEPARTURE RECORD" (Form I-94 B). The form is structured with several labeled fields for personal and travel information, arranged in a grid-like layout. A vertical text block runs along the right side of the form. There are also two sections on the right for official annotations.
-
-The reading order proceeds from top-left to bottom-right, field by field, then addresses the vertical text and the official annotation sections.
+The page displays a single form, "ARRIVAL-DEPARTURE RECORD, Form I-94 B". The form is structured with various fields for personal information, travel details, and official stamps/notes. Text is read from left to right, top to bottom, following the form's field labels. A vertical block of text runs along the right margin.
 
 ## Literal Transcription
 
@@ -37,13 +35,14 @@ Surname
 PULGAR
 
 Nationality (Citizenship)
-CHILEAN
+CHILE
 
 United States Address
 TRANSIT TO CHILE
 
 Permanent Address
 Box 1244 CONCEPCION, CHILE
+CONTINUOUS TRANSIT
 
 Visa Issued At
 IQUIQUE
@@ -67,38 +66,38 @@ CHILE
 Initial
 A
 
-Passport Number
-258 /V26
-
 Birthdate
 1 JUN 1942
+
+Passport Number
+258 K26
 
 ANY HANDWRITTEN ENTRIES MUST BE IN CAPITAL LETTERS
 
 Authorized pursuant to agreement under
 Sec. 238(d) of Immigration Act.
+
 MAR 30 '59 N Y C
 
 Carrier directed to detain alien during
 transit and remove from United States via
-N-1492 N Y
+(Carrier) N-1492 NY
 (Departure Port)
-3/30/59
-(Date)
-97
-(Immig. Officer)
+(Date) 3/30/59 (Initial) 97
+(Officer) [illegible]
 ```
 
 ## Images, Captions, And Visual Notes
-No meaningful visual regions were detected on this page.
+There are no substantial images or captions on this page that would be useful as standalone visual assets. The page consists entirely of a form with text and handwritten entries.
 
 ## Uncertain Or Illegible
-- Passport Number: The characters `/V26` after `258` are somewhat faint and could be interpreted differently, but `/V26` is the most plausible reading.
+- Passport Number: The characters after "258" appear to be "K26", but are somewhat indistinct.
+- Right section, bottom line, (Officer) field: The handwritten entry is illegible.
 
 ## Completeness Audit
 All visible text and form fields on the page have been transcribed.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected on this page."}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements present for cropping. The page is a form with text and handwritten entries."}
 ```

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1329c81f867a-P0001-04
+chunk_id: CHUNK-e7d5fea0b701-P0001-04
 source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125.codex.md
-converted_sha256: 1329c81f867aa0bb8105756f81fd5ba36a840353442a2db282023a2f205af860
+converted_sha256: e7d5fea0b701dde50c633ef460c403e0a39d04b44fd9b8d1e2d310bad4392bcb
 source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
 source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
 source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125/manifest.json
@@ -172,59 +172,56 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
 
 ## Page Metadata
-Page number: 117
+- page_number: 39
 
 ## Layout And Reading Order
-The page contains a centered page number at the top, followed by several articles (68, 69, 70, 71). Each article begins with "ARTICLE" followed by a number, then a country name (Espagne or Hongrie) on the next line, both centered and bolded. Below each article heading, there are one or more paragraphs of text, some of which include quoted phrases and sections starting with "Motifs :". The text is left-aligned.
+The page contains a single column of typed text. The reading order is from top to bottom. The page number and headings for each article are centered. Paragraphs containing proposals and their justifications are indented.
 
 ## Literal Transcription
-<pre>
-                                    — 39 —
+<center>— 39 —</center>
 
-                                  ARTICLE 68.
-                                  <b>Espagne.</b>
+<center>ARTICLE 68.</center>
+
+<center>Espagne.</center>
 
 Transposer le texte de cet article à l'article 43 comme dernier alinéa.
 
-                                  ARTICLE 69.
-                                  <b>Hongrie.</b>
+<center>ARTICLE 69.</center>
+
+<center>Hongrie.</center>
 
 Ajouter à l'alinéa 2 la phrase suivante :
-« L'officier responsable du camp communiquera sans délai la liste des personnes ainsi retenues à la commission
-itinérante la plus proche. »
-<i>Motifs</i> : L'amendement proposé cherche à réduire au minimum le nombre des prisonniers de guerre retenus ;
-en effet, l'intervention des commissions itinérantes contribuera certainement au rapatriement des prisonniers dont la
-retenue n'est peut-être pas tout à fait légitime.
+  « L'officier responsable du camp communiquera sans délai la liste des personnes ainsi retenues à la commission itinérante la plus proche. »
 
-                                  ARTICLE 70.
-                                  <b>Hongrie.</b>
+  Motifs: L'amendement proposé cherche à réduire au minimum le nombre des prisonniers de guerre retenus ; en effet, l'intervention des commissions itinérantes contribuera certainement au rapatriement des prisonniers dont la retenue n'est peut-être pas tout à fait légitime.
+
+<center>ARTICLE 70.</center>
+
+<center>Hongrie.</center>
 
 Le remplacer par le texte suivant :
-« Aucun prisonnier de guerre frappé d'une peine disciplinaire ne pourra être retenu pour la raison qu'il n'a pas
-subi sa peine intégralement. »
-<i>Motifs</i> : Il paraît mesquin qu'après une captivité généralement longue et dure, dont les effets ont pu se manifester
-sous forme d'indiscipline ou de tentative d'évasion, ces fautes disciplinaires puissent motiver quelques jours de retard
-dans le rapatriement.
+  « Aucun prisonnier de guerre frappé d'une peine disciplinaire ne pourra être retenu pour la raison qu'il n'a pas subi sa peine intégralement. »
 
-                                  ARTICLE 71.
-                                  <b>Hongrie.</b>
+  Motifs: Il paraît mesquin qu'après une captivité généralement longue et dure, dont les effets ont pu se manifester sous forme d'indiscipline ou de tentative d'évasion, ces fautes disciplinaires puissent motiver quelques jours de retard dans le rapatriement.
 
-Ajouter au texte de cet article, in fine, la phrase « ainsi que les prisonniers de guerre qui sont devenus ineptes au
-service armé d'après les règles en vigueur dans leur pays dès avant la guerre »
-</pre>
+<center>ARTICLE 71.</center>
+
+<center>Hongrie.</center>
+
+Ajouter au texte de cet article, in fine, la phrase « ainsi que les prisonniers de guerre qui sont devenus inaptes au service armé d'après les règles en vigueur dans leur pays dès avant la guerre ».
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page.
+This page contains only typed text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
-None.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text with no illustrations, photographs, or other distinct visual elements."}
 ```
 
 ## Page Metadata

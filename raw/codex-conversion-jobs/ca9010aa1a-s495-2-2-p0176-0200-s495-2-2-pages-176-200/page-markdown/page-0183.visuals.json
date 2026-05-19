@@ -1,0 +1,76 @@
+{
+  "created": "2026-05-19T18:39:58Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 183,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0183.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0183.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Arriba, Sentados, de izquierda a derecha del lector: Doña Enriqueta de Lazarus; Doña Anita de López Gutiérrez, esposa del Excmo. Sr. Presidente de la República; Doña Mariana de Pounds; Dr. don Juan Angel Arias, Excmo. Sr. General don Rafael L pez Gutiérrez, Presidente de la Repú lica; Excmo. y Rdmo Monseñor Agustín Hombach, Arzobispo de Tegucigalpa; Dn. Luis Stiehle, Cónsul de Noruega; señora de Stiehle, señora de Cornel-en.—De pie: Dn. Fernan-do Sempé, Gerente del Banco Atlántida; Dn. Nicolás Cornelsen, Cónsul de Alemania; Dn. Ra-món de Santa María Cónsul de España; Excmo. Sr. don G. Lyall, Encargado de Negocios de Su Majestad Británica; Excmo. Sr. don Franklin E. Morales, Ministro de Estados Unidos; Excmo. Sr. D. don Francisco Bueso, Te.cer Designado a la Presidencia de la República; señora de Lyall y señora de Santa María.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "This is the top section of a composite image titled 'VISTAS DEL GARDEN PARTY'. The caption describes the individuals present in this upper part of the photograph.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.0,
+        13.0,
+        88.0,
+        49.5
+      ],
+      "bbox_pixels": [
+        132,
+        204,
+        999,
+        796
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-01-renacimiento-page-183-garden-party-top-section.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-01-renacimiento-page-183-garden-party-top-section.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0183.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 183,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0183.md"
+    },
+    {
+      "region_id": "region_2",
+      "kind": "photograph",
+      "caption_literal": "Abajo: Doña Mercedes Ariz de Lagos; D ña Rosa M. de Ribas; Doña Paca de Toledo Ló-pez; (de pie) Dn. Mario Ribas, Director de RENACIMIENTO; Dn. Anselmo Rivas, Encargado de la Legaci n de Nicaragua; Dn. Raúl Toledo López; Dn. Basi io Corrales, Cónsul de Costa Ri-ca; Dña Elisa de Matty; Excmo. Sr. don Fern.ndo M.t y, Encargado de Negoc os de México.",
+      "caption_type": "source-caption",
+      "identity_basis": "caption",
+      "source_context": "This is the bottom section of a composite image titled 'VISTAS DEL GARDEN PARTY'. The caption describes the individuals present in this lower part of the photograph.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        12.0,
+        49.5,
+        88.0,
+        68.0
+      ],
+      "bbox_pixels": [
+        132,
+        788,
+        999,
+        1092
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-02-renacimiento-page-183-garden-party-bottom-section.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0183/page-0183-image-02-renacimiento-page-183-garden-party-bottom-section.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0183.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 183,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0183.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

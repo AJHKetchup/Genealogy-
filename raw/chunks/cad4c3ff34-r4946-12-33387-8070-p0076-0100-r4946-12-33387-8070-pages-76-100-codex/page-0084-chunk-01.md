@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ffefd6df6832-P0084-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100.codex.md
+converted_sha256: ffefd6df6832230e826a69095dd9a95dbd6605b0855ddf7aad66c5a8e148fa92
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/manifest.json
+page_start: 84
+page_end: 84
+part: 1
+---
+
+# Page 84
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/manifest.json`
+- Source page: 84
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/page-images/page-0084.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+misa opositora de la guerra. Nunca la Giencia, ni sus espiritus mas prestantes, lian podido plegarse a la imposiciôn de la violencia, porque los principios cientificos significan per se el triunfo de la razôn y el acatamiento sincero a la lôgica y al buen sen-
+
+tido.
+
+Y hoy, mâs que nunca, la Giencia debe vigilar con celo su posiciôn independiente y libre, pues ella, indirectamente, ha contribuido al éxito de la matanza, ya que los inventos ideados por sus hombres superiores -que tuvieron en mira labrar mejores destinos para la especie humana- se explotan torcidamente por quienes dirigen las actividades guerreras con el objeto de hacer mâs eficaces el derramamiento de
+
+sangre, la destrucciôn y la ruina.
+
+Sean, pues, los deseos sinceros de esta Academia y de su Revista, deseos de paz duradera y fundamentada en principios esirictos de justicia. Esa paz, que deseamos de todo corazôn, es la que buscan los hombres de buena voluntad para que la razôn, la verdad, la virtud sencilla y el amor reinen sobre la tierra y alejen definitivamente a la barbarie, que hoy por hoy, amenaza destruir la civilizaciôn actual.
+
+»
+
+*
+
+#
+
+## INFORME ANUAL DE LA DIREGGION
+
+## DEL OBSERVATORIO
+
+Bogota, enero 80 de 19^0 Senor Rector de la Universidad Nacional.-E. S. D.
+
+Muy respetuosamente cumplo con el deber reglamentario de informar a esa superioridad sobre la marcha del Establecimiento a mi cargo durante el curso del ano pasado.
+
+Para cumplir este objeto ordenadamente, trataré de los siguientes puntos por separado: 1° Observaciones astronômicas y servicio de la hora; 2° Ob¬ servations meteorolôgicas relacionadas con el prograrna astronômico que se adelanta en el Instituto; 8° Prospectos referentes a observaciones astronômi¬ cas; 4° Publicaciones del Observatorio; 5° Institutos anexos: Sociedad Geogrâfica de Colombia y Aca¬ demia Golombiana de Ciencias Exactas, Fisicas y Naturales; 6Ç Publicaciones de estas entidades; 7" Bihlioteca y Archivo, y 8Ç Organization interna del
+
+Instituto.
+
+Observaciones astronômicas y servicio de la hora. Las observaciones astronômicas que ha adelantado el Observatorio en anos anteriores se refieren especialmente a determinations periôdicas de la longitud y de la latitud del mismo con mira a prestar una colaboraciôn eficaz en la obra general que prosiguen la Asociaciôn Geodésica International y la Uniôn International Astronômica. En este sentido la labor del Observatorio trata de perfeccionarse diariamente con el propôsito de que se le considéré por las institutions nombradas, como estaciôn de lati¬ tud y como centro relacionado con la red general de longitudes, en las operation's mundiales de longitud.
+
+En un folleto titulado "Latitnd y longitud del Observatorio de
+
+Bogotâ" ya se habia indicado, en ahos pasados, los element's con que cuenta este Es¬ tablecimiento para realizar tal propôsito, y los métodos que deben seguirse en la determinaciôn periôdica de la latitud con pares de estrellas numerosos y bien seleccionados, para el trabajo durante el ano. Actualmente se han preparado cerca de mil pares de estrellas, hasta de 8" magnitud, para emplearlos con el método de Talcott. Estas estrellas se han to¬ rnado principalmente del Catâlogo de 9.989 estrellas, standard e intermediaries, para 1900, publicado por el Observatorio Naval de Washington.
+
+En el folleto, de que se hace menciôn, publicado en 1935, se explica pormenorizadamente los métodos de observaciôn y câlculo empleados en la determi¬ naciôn de la latitud, y se da un primer valor de ella, de 4° 35' 56" 57 norte. Ademâs, se explica que la determinaciôn efectuada por Garavito en 1897, y que dio q&gt; - 4n 85' 55" 19 se refiriô a un lugar situado, poco mâs o menos, 6 métros al norte de donde hoy se encuentra el anteojo de pasos meridianos empleado en la determinaciôn de la latitud. De suerte que para reducir los dos datos al mismo lugar liay que restar del dato de Garavito la cantidad aproximada de 0"20. Obrando asi se deduce que la diferencia existente entre el dato determinado en 1897 y el que se hallô en 1935, es de 1" 57 poco mâs o menos.
+
+Posteriores observaciones efectuadas con mayor cuidado, indican variaciones en esta diferencia, variaciones que todavia no es posible asignar claramente a desalojamientos del polo, por cuanto no es igual el peso de ellas; de manera que no existiendo la homogeneidad que es de rigor, no es del caso publicar nada al respecto, hasta no llegar con muy numerosas observaciones a pesos mâs o menos équi¬ valentes en las diversas épocas del ano. En el folleto citado se dice, hablando de la diferencia anotada atrâs: "Naturalmente, no se puede aun avanzar concepto alguno referente a esta diferencia, que bien pudiera atribuirse a variaciôn efectiva de la latitud, de esa fecka (1897) hasta akora, ya que ello es posi¬ ble por la circunstancia de que en el ano de 1917 ocurriô en Bogotâ un terremoto o macrosismo que pudo haber producido algûn deslizamiento de la corteza terrestre digno de tenerse en cuenta. Pero lo mâs probable es que el dato del Profesor Garavito no tenga el mismo peso del obtenido ahora, cuando los elementos de observaciôn, los métodos usados y lo numeroso de las observaciones, permiten una pre¬
+
+cision mucho mayor" (*).
+
+Por lo brevemente indicado parece aconsejable continuer las observaciones periôdicas de latitud, de manera sistemâtica y por mucho tiempo. Lo mis¬ mo puede decirse de las observaciones de longitud, cuyo dato en 1935, fue: 4h 56m 198 42 al oeste del meridiano de Greenwich. Este dato se estâ mejorando gradualmente, ya que hoy posee el Observatorio un
+
+magnîfico péndulo "Shortt".
+
+(*) Nota-Para estas observaciones la Direceiôn del Observa¬ torio ha ideado nn instmmento especial llamado Bitelescopio de reflexiôn, que se describiô en detalle en el N? 8 de la Revista de Ciencias.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

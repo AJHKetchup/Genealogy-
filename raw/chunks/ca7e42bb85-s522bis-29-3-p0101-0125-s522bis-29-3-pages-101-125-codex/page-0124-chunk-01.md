@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-801c21f5cbc4-P0124-01
+chunk_id: CHUNK-0f44a9e32d31-P0124-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125.codex.md
-converted_sha256: 801c21f5cbc46055b1ba1f642e3d7ad615f4808ad622a5d6b54e9fee7b448bda
+converted_sha256: 0f44a9e32d31e266452ad43653e637c07b14dbeea4c06c65e36ecb08e28361bd
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0101-0125-s522bis-29-3-pages-101-125/manifest.json
@@ -98,8 +98,11 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 125
-- Source: S522bis-29-3.pdf
+- **Page number**: 125
+- **Source identifier**: S522bis-29-3
+- **Original page number**: 1733
+- **Year**: 1921
+- **Title**: CAMARA DE DIPUTADOS
 
 ## Layout And Reading Order
-The page features a two-column layout. The reading order proceeds from the top of the left column to its bottom, then from the top of the right column to its bottom. A header is present at the top of the page, with "de 1921" on the left and "CAMARA DE DIPUTADOS 1733" on the right.
+This page is a two-column document. The reading order is from top to bottom of the left column, followed by the top to bottom of the right column.

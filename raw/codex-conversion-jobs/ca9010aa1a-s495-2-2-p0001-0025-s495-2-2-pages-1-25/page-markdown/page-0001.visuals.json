@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:13:19Z",
+  "created": "2026-05-19T18:32:58Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -8,7 +8,7 @@
   "page": 1,
   "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0001.jpg",
   "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-markdown/page-0001.md",
-  "no_visual_regions_reason": "The page is a simple document cover with only handwritten text. There are no photographs, illustrations, or other significant visual elements that would benefit from being cropped as standalone assets.",
+  "no_visual_regions_reason": "The page is a simple document cover with only textual information, which has been fully transcribed.",
   "visual_regions": [],
   "skipped_regions": [],
   "flags": []

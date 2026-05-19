@@ -1,0 +1,84 @@
+{
+  "created": "2026-05-19T18:39:47Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 176,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0176.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0176.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_001",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a portable typewriter in its open carrying case.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "This illustration accompanies the text describing the 'Remigton Portatil' and 'REMINGTON PORTATIL' typewriters.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        15.9,
+        17.0,
+        32.0,
+        55.0
+      ],
+      "bbox_pixels": [
+        175,
+        263,
+        363,
+        867
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-01-typewriter-in-case-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-01-typewriter-in-case-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0176.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 176,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0176.md"
+    },
+    {
+      "region_id": "visual_003",
+      "kind": "illustration",
+      "caption_literal": "Illustration of a rectangular box, likely for carbon paper, with a small emblem on its front.",
+      "caption_type": "converter-description",
+      "identity_basis": "converter-description",
+      "source_context": "This illustration is placed next to text advertising 'Papel Carbón' and other office supplies.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        57.8,
+        57.8,
+        84.0,
+        85.6
+      ],
+      "bbox_pixels": [
+        645,
+        903,
+        947,
+        1347
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-03-carbon-paper-box-illustration.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0176/page-0176-image-03-carbon-paper-box-illustration.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0176.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 176,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0176.md"
+    }
+  ],
+  "skipped_regions": [
+    {
+      "region_id": "visual_002",
+      "kind": "logo",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "PARAGON CARBON PAPER. MADE IN U.S.A. BY REMINGTON TYPEWRITER COMPANY",
+      "source_context": "This is a logo for Paragon Carbon Paper, with manufacturing details below it."
+    }
+  ],
+  "flags": []
+}

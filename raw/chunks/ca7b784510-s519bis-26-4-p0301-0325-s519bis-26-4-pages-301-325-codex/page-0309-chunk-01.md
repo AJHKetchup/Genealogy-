@@ -1,0 +1,116 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-eb63a8249d5e-P0309-01
+source_converted: raw/converted/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325.codex.md
+converted_sha256: eb63a8249d5e1bd2ea2df66d852c234b4d606cbe2ff67df390e20ee868e29b28
+source: raw/sources/S519bis-26-4.pdf
+source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
+source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json
+page_start: 309
+page_end: 309
+part: 1
+---
+
+# Page 309
+
+## Page Metadata
+
+- Source: `raw/sources/S519bis-26-4.pdf`
+- Source SHA-256: `7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/manifest.json`
+- Source page: 309
+- Page image: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0301-0325-s519bis-26-4-pages-301-325/page-images/page-0309.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Sr. Pedro E. Paulet 111 rue de Prance NIZA
+
+(Francia)
+
+Muy estimado amigo: Con gran placer recibl su afectuosa carta de fecha S de dicieijibre ultimo, llenândome de satisfacci6n su interesante contenido. También recibl la "Memoria" del Delegado de Colombia, un numéro de las "Informaciones Sociales" de la Oficina de que es Vd. Delegado peruano y copia de un informe de la Camara de Comercio ha servido Vd. enviarme.
+
+Pero para llenar esta labor no sôlo es necesario la buena voluntad de Vd. para acometerla, es indispensable también disponer de fuentes de informacién, de document os técnicos y re¬ el entes , como dice Vd. y en mi deseo de ayudarle en todo lo que pueda en este sentido me es grato enviarle por el correo que sa116 el 9 del pte. lo siguiente: Los. 1,2,3 y 4 de^"Carbén y Fierro". El primero se lo mando a la rdstiea, porque todavla estân prepar-andolo para la circulaeién; Mémorandum sobre los yacimientos de antracita, de minerai de fierro y de metales usados en la fâbricacién de aeero; un mapa Indice y un folleto titulado "El Ingénié ro en la Sociedad Moderna. Esto es todo el contigente que puedo proporciorarle y creo que de algo podran servirle para el fin que Vd. se
+
+Internacional de Bruselas, que se Sfectivamente, ténia conoeimiento de la existencia de la Conferencià Econ6mica Internacional que debe ocuparse de las diversas cuestiones financieras que atanen a las naciones de ambos continentes, pero ignoraba la fecha en que debe dar comienzo a sus fundones. P or lo que me dice Vd. vengo a enterarme de que se reu¬ nira el 4 de Mayo préximo cuando se crela que lo séria en Septiembre. Esta anticipacién de fecha ha dado lugar a que los Delegados ibero-americanos entren en aetividad, preparando informes y otros trabajos de la misrna Indole, de modo de favorecer a sus respectivas naciones y obtener para ellas las mayores facilidades. Es de sen¬ tir que no haya sido Vd. nombrado con anticipaciôn nuestro Delega¬ do a esa Conferencià para hacer lo que los otros han hecho ya o haran fructlferamente en este orden, y ello es de sentir. Pero su patriotismo va a salvar este inconveniente, pues segun me dice se ha decidido Vd. ya que el tiempo es car to para enviar desde aca algo que llene el vaclo de la falta de un Delegado, hacer Vd. mismo con su peeulio una Memoria igual o me^or que là que puedan presentar los otros Delegados, en la forma clara y novedosa que Vd, indica y que me parece muy bien pensado. Esto habla muy alto de su amor al pais y del gran interés que tien© de que éste se bénéficié con los resultados que traeran consigo las deliberaciones de la Conferencià Econémica Internacional.
+
+propone. Mas como dice Vd. para alcanzar algun éxito en esta Conferencià, no s6lo se necesita presentar documentos sino que précisa contar con hombres preparados que hagan papel importante y sepan presentar como es debido y en lo que vale a nuestro pals. Q,ue los hay, no hay duda, siendo Vd. uno de ellos; y esp ero que las gestiones que ha hecho para que se le nombre Delegado, tendron resultado satisfactorio. Por lo que hace a mi persona, ciertamente que mi designaci6n para presidir la Delegaeién pe¬ ruana séria de mi agrado y trat aria de desempenarme lo mejor posible; también me servirla para estudiar y ponerme al corriente de los progresos alcanzados y de los métodos puestos en practica para el adelanto de industrias que me interesan, sobre todo el carbén, pero creo que el Gobierno utilizarla para el caso los servicios de algun amigo a quien quisiera favorecer con este cargp o tuviera motivos para servir. Lo que si creo es que Vd. sera nombrado, porque sus servicios son indispensables e insustituiblés
+
+por muchas razones, jr no dudo que el Sr. Masias, a quien
+
+LIMA, 10 de Enero 1927.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page Number: 310
+
+## Layout And Reading Order
+The page contains a single column of typed text, appearing to be part of a letter or document. A page number is centered at the top. The main body of the text is followed by a signature block.
+
+## Literal Transcription
+```
+- 2 -
+
+Vd. ha escrito sobre este importante tópico, hará que su
+nombramiento como Delegado a la Conferencia Económica Inter-
+nacional le sea remitido lo más pronto, para que tenga tiem-
+po de preparar todo lo relativo a la conveniente presenta-
+ción del Perú en este certamen.
+Mucho le agradezco sus buenos deseos hacia mí y
+mi familia y su interés por que el año que comienza nos sea
+grato, y retornándolos debidamente y con vivos deseos de que
+el más sonado éxito corone sus esfuerzos en esta campaña
+patriótica en que está empeñado, quedo a sus órdenes como
+su más adicto amigo y S. S.
+
+Firmado:
+J. Balta
+```
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or other substantial visual elements on this page.
+
+## Uncertain Or Illegible
+No uncertain or illegible text was encountered on this page.
+
+## Completeness Audit
+The transcription is complete and includes all visible text on the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}

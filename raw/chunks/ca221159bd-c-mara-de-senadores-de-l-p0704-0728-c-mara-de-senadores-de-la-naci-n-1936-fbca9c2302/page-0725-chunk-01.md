@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-dded07b70e0b-P0725-01
+chunk_id: CHUNK-f782f81fcfb3-P0725-01
 source_converted: raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728.codex.md
-converted_sha256: dded07b70e0bdc944aea94a7a31a6e71176c554127e899245debf6a31592a5fb
+converted_sha256: f782f81fcfb34f2e3741061f6864a0d9068587c65ccc7e562105ce34d1c11b4e
 source: raw/sources/Cámara de Senadores de la Nación, 1936.pdf
 source_sha256: 221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289
 source_manifest: raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/manifest.json
@@ -105,4 +105,4 @@ No interpretation was produced by the Docling basic conversion pass.
 Page number: 726
 
 ## Layout And Reading Order
-The page presents text in two columns. The first column begins with the page number and a header, followed by the main body of text. The second column begins with a date header, followed by the continuation of the main body of text. The reading order flows from the top of the first column to the bottom, then from the top of the second column to the bottom.
+The page is laid out in two columns. The left column contains the page number "1318" and the header "CAMARA DE SENADORES DE LA NACION". The right column contains the header "Septiembre 29 y 30". The main content flows from top to bottom in the left column, then continues from top to bottom in the right column.

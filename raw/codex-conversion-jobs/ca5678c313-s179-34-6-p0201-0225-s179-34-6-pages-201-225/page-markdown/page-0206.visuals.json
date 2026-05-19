@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:36:37Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S179-34-6.pdf",
+  "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+  "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/manifest.json",
+  "page": 206,
+  "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/page-images/page-0206.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/page-markdown/page-0206.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "photograph",
+      "caption_literal": "Grid of 26 numbered portraits of men.",
+      "caption_type": "converter-description",
+      "identity_basis": "source-context",
+      "source_context": "The article states that the 26 numbered portraits correspond to the names listed in the text, which are identified as 'proxenetas'. The names are: pentier, Enrique Rodolfo Griffant, Carlos Codebó (Charlot), Nicolás Rey Amable, Gaspar Pérez Moltulk, Cosme Miele, Octavio Rossi, Marcelo Berrujer Gauthier, Basilio Bitchef, Pedro Santini, Rafael Enrique Gianasio Groseffi, Omar Cholori, Enrique Canessa, Mardeo Arias, Angel Bussutil, Raymundo Blanco Aguilar, Jacobo Brodfeld, Carlos Schumukler Lank, Edmundo Tambour Cham-(Blanco?), Antonio Cicatelli, Juan Camajote, José Duboit, Eduardo Trependier Deschamp, Mauricio Benair, Abel Tanllere, Alberto Abrahan Leuy y Pablo Aspessi.",
+      "confidence": "0.95",
+      "inline_anchor": "",
+      "bbox_pct": [
+        5.5,
+        25.5,
+        94.5,
+        84.5
+      ],
+      "bbox_pixels": [
+        59,
+        536,
+        1085,
+        1793
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/extracted-images/page-0206/page-0206-image-01-page-0206-grid-of-26-portraits.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/extracted-images/page-0206/page-0206-image-01-page-0206-grid-of-26-portraits.png",
+      "page_image": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/page-images/page-0206.jpg",
+      "source": "raw/sources/S179-34-6.pdf",
+      "source_sha256": "5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054",
+      "job_manifest": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/manifest.json",
+      "page": 206,
+      "output_markdown": "raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225/page-markdown/page-0206.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

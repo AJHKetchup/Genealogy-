@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:34:12Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/manifest.json",
+  "page": 433,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/page-images/page-0433.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/page-markdown/page-0433.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "img_01",
+      "kind": "photograph",
+      "caption_literal": "Partida de doña Blanca del Campo",
+      "caption_type": "nearby-text",
+      "identity_basis": "caption",
+      "source_context": "A portrait accompanying the article about the departure of doña Blanca del Campo.",
+      "confidence": "high",
+      "inline_anchor": "img_01",
+      "bbox_pct": [
+        18.5,
+        10.5,
+        65.5,
+        38.5
+      ],
+      "bbox_pixels": [
+        162,
+        303,
+        594,
+        1131
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0433/page-0433-image-01-dona-blanca-del-campo.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/extracted-images/page-0433/page-0433-image-01-dona-blanca-del-campo.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/page-images/page-0433.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/manifest.json",
+      "page": 433,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450/page-markdown/page-0433.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

@@ -1,0 +1,46 @@
+{
+  "created": "2026-05-19T18:39:57Z",
+  "schema": "source-prep-visual-regions-v1",
+  "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
+  "source": "raw/sources/S495-2-2.pdf",
+  "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+  "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+  "page": 190,
+  "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0190.jpg",
+  "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0190.md",
+  "no_visual_regions_reason": "",
+  "visual_regions": [
+    {
+      "region_id": "visual_0_0",
+      "kind": "photograph",
+      "caption_literal": "En 1890 fue cedida a Alemania a cambio de algunas concesiones he-chas á Inglaterra en Africa. El Almirantazgo alemán la tomó como puerto de guerra, construyó en ella un faro, estaciones radiotelegráficas y poderosas fortificaciones; y cuando estalló la gue-rra de 1914 Heligoland se había transformado en un formidable baluarte del poderío naval de Alemania.\n\nSegún los términos del Tratado de Versalles [Art. 115], todos los es-tablecimientos militares, puertos y fortificaciones de la Isla de Heligoland debían ser destruidos dentro de un plazo que fi-jarían los Aliados.\n\nSegún noticias publicadas recientemente por la Prensa europea, Alemania ha cumplido ya con esa parte del Tratado, y Heligoland ha dejado de ser una temible fortaleza para transformarse en una isla dedicada pacíficamente a la pesca, principal pasatiempo de su reducida población.",
+      "caption_type": "source-caption",
+      "identity_basis": "contextual",
+      "source_context": "The image illustrates the article about Heligoland, a former German fortress island.",
+      "confidence": "high",
+      "inline_anchor": "",
+      "bbox_pct": [
+        36.0,
+        14.0,
+        96.0,
+        50.0
+      ],
+      "bbox_pixels": [
+        406,
+        221,
+        1098,
+        807
+      ],
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0190/page-0190-image-01-heligoland-cliffside-fortress.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/extracted-images/page-0190/page-0190-image-01-heligoland-cliffside-fortress.png",
+      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-images/page-0190.jpg",
+      "source": "raw/sources/S495-2-2.pdf",
+      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
+      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/manifest.json",
+      "page": 190,
+      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200/page-markdown/page-0190.md"
+    }
+  ],
+  "skipped_regions": [],
+  "flags": []
+}

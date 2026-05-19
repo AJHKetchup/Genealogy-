@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-1f00ba65c3d6-P0062-01
+chunk_id: CHUNK-47cb25925306-P0062-01
 source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75.codex.md
-converted_sha256: 1f00ba65c3d6db86b67ed509d1ff8f8ea2779687f7db1265b20ddbe6b48fec55
+converted_sha256: 47cb25925306e305ea8dc8cc7ef928957e7153658a562e881561abe5e5efcfe5
 source: raw/sources/S522bis-29-3.pdf
 source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
 source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0051-0075-s522bis-29-3-pages-51-75/manifest.json
@@ -111,7 +111,7 @@ No interpretation was produced by the Docling basic conversion pass.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
-- Page number: 63
+Page number: 63
 
 ## Layout And Reading Order
-The page presents content in two columns. The left column begins with "de 1921" and continues with several paragraphs discussing road infrastructure and the role of automobiles and the Touring Club Argentino. The right column begins with "CÁMARA DE DIPUTADOS" and "1675", then continues with paragraphs discussing automotive "raids" and parliamentary initiatives for road construction. The reading order flows from the top of the left column to the bottom, then from the top of the right column to the bottom.
+The page is presented in a two-column layout. The reading order proceeds down the left column, then down the right column.

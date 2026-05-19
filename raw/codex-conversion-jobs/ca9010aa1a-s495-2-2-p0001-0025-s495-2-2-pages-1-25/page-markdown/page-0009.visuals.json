@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:13:43Z",
+  "created": "2026-05-19T18:33:17Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -13,26 +13,26 @@
     {
       "region_id": "region_1",
       "kind": "photograph",
-      "caption_literal": "(Sentados, de izquierda a derecha): Sr. David Zárate, tesorero; Sr. Román Moyrón, Jr., vicepresidente; Sr. Ricardo Romero, presidente; Sr. Alfonso Díaz Encinas, representante de EL UNIVERSAL ILUSTRADO; Sr. Horacio C. Campero, secretario. Vocales (de izquierda a derecha): Sr. Manuel Marcón, Sr. Gabriel Victoria (regidor), Sr. Julio Núñez, Sr. Manuel Labastida, Sr. Hilario Navarro y Sr. Federico H. Sawday.",
+      "caption_literal": "(Sentados, de izquierda a derecha): Sr. David Zárate, tesorero; Sr. Román Moyrón, Jr., vi-cepresidente; Sr. Ricardo Romero, presidente; Sr. Alfonso Díaz Encinas, represen-tante de EL UNIVERSAL ILUSTRADO; Sr. Horacio C. Campero, secretario. Vocales (de izquierda a derecha): Sr. Manuel Marcón, Sr. Gabriel Victoria (regidor), Sr. Julio Núñez, Sr. Manuel Labastida, Sr. Hilario Navarro y Sr. Federico H. Sawday.",
       "caption_type": "source-caption",
-      "identity_basis": "labeled_in_source",
-      "source_context": "group photo of members of the Chamber of Commerce",
-      "confidence": "high",
-      "inline_anchor": "A black and white photograph shows a group of twelve men, some seated at a table and others standing behind them.",
+      "identity_basis": "caption",
+      "source_context": "The image shows the Mesa Directiva (Board of Directors) of the Chamber of Commerce, Industry, Agriculture, and Mining of Ensenada, B.C.",
+      "confidence": "0.95",
+      "inline_anchor": "Sentados, de izquierda a derecha",
       "bbox_pct": [
-        7.0,
-        38.5,
-        32.0,
-        88.0
+        79.0,
+        8.0,
+        90.0,
+        87.0
       ],
       "bbox_pixels": [
-        93,
-        715,
-        446,
-        1648
+        1088,
+        145,
+        1248,
+        1629
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-group-photo-chamber-of-commerce-ensenada.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-group-photo-chamber-of-commerce-ensenada.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-group-photo-mesa-directiva-ensenada.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/extracted-images/page-0009/page-0009-image-01-group-photo-mesa-directiva-ensenada.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0001-0025-s495-2-2-pages-1-25/page-images/page-0009.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

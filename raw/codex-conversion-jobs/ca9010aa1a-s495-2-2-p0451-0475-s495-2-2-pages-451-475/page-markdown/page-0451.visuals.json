@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T12:14:30Z",
+  "created": "2026-05-19T18:33:54Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,55 +11,25 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "vr_1",
-      "kind": "illustration",
-      "caption_literal": "66\n111\nOne-Eleven",
-      "caption_type": "source-caption",
-      "identity_basis": "source-caption",
-      "source_context": "Advertisement for '111 One-Eleven Cigarette'",
-      "confidence": "0.95",
-      "inline_anchor": "A circular logo with \"111\" prominently displayed, surrounded by \"One-Eleven\" and \"66\" and \"99\" as superscript.",
-      "bbox_pct": [
-        60.0,
-        44.0,
-        66.0,
-        50.0
-      ],
-      "bbox_pixels": [
-        1235,
-        1327,
-        1367,
-        1516
-      ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-01-111-one-eleven-cigarette-logo.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-01-111-one-eleven-cigarette-logo.png",
-      "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-images/page-0451.jpg",
-      "source": "raw/sources/S495-2-2.pdf",
-      "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",
-      "job_manifest": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/manifest.json",
-      "page": 451,
-      "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0451.md"
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "illustration",
+      "region_id": "region_2",
+      "kind": "visual",
       "caption_literal": "SON confeccionadas esmeradamente\ncon telas de la mejor calidad.\nColores\nGarantizados\nGEO. P. IDE\n& CO., INC.\nTROY, N. Y.,\nE. U. A.",
       "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "Advertisement for 'CAMISAS Ide'",
+      "identity_basis": "source-context",
+      "source_context": "Illustration within the \"CAMISAS Ide\" advertisement.",
       "confidence": "0.95",
-      "inline_anchor": "An illustration of a man in a striped shirt, standing in front of a mirror and tying a necktie.",
+      "inline_anchor": "Image 2: \"CAMISAS Ide\" Man Tying Tie",
       "bbox_pct": [
-        76.8,
-        79.0,
-        93.8,
-        92.0
+        76.0,
+        80.0,
+        93.0,
+        93.0
       ],
       "bbox_pixels": [
-        1582,
-        2385,
-        1941,
-        2786
+        1565,
+        2415,
+        1924,
+        2816
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-02-camisas-ide-man-tying-tie.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-02-camisas-ide-man-tying-tie.png",
@@ -71,25 +41,25 @@
       "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0451.md"
     },
     {
-      "region_id": "vr_3",
-      "kind": "portrait",
-      "caption_literal": "Marca de Fábrica registrada\nMATA\nDOLORES\nIncorporated\nNEW YORK, U. S. A.\nST. LOUIS, U. S. A. TORONTO, CAN.\nForeign Offices: LONDON, ENG.\nNo es legítimo sin el nombre y la firma arriba indicados.",
+      "region_id": "region_3",
+      "kind": "visual",
+      "caption_literal": "PARA USO CASERO\nMarca de Fábrica registrada\nMATA\nDOLORES\nSe vende en las Droguerías\ny Farmacias\nPreparado únicamente por el\nDr. Earl S. Sloan\nIncorporated\nNEW YORK, U. S. A.\nST. LOUIS, U. S. A. TORONTO, CAN.\nForeign Offices: LONDON, ENG.\nNo es legítimo sin el nombre y la firma arriba indicados.",
       "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "Advertisement for 'LINIMENTO de SLOAN'",
+      "identity_basis": "source-context",
+      "source_context": "Portrait of a man in the \"LINIMENTO de SLOAN\" advertisement.",
       "confidence": "0.95",
-      "inline_anchor": "A portrait of a man with a mustache, wearing a suit and tie, looking to the right.",
+      "inline_anchor": "Image 3: \"LINIMENTO de SLOAN\" Man Portrait",
       "bbox_pct": [
         60.0,
         77.0,
-        67.0,
-        82.0
+        66.0,
+        80.0
       ],
       "bbox_pixels": [
         1235,
         2324,
-        1388,
-        2484
+        1367,
+        2423
       ],
       "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-03-linimento-de-sloan-man-portrait.png",
       "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/extracted-images/page-0451/page-0451-image-03-linimento-de-sloan-man-portrait.png",
@@ -101,22 +71,22 @@
       "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0451.md"
     },
     {
-      "region_id": "vr_4",
-      "kind": "illustration",
+      "region_id": "region_4",
+      "kind": "visual",
       "caption_literal": "Jabón SUNLIGHT\nORIGEN DE LA LIMPIEZA.\nPUREZA es la fuente de la Limpieza—Limpieza es sinónimo\nde Pureza; sin un Jabón puro no puede haber limpieza\nperfecta.\nPUREZA—Tal es la Pureza del Jabón Sunlight que no solamente es el\nmanantial sino también el verdadero punto de apoyo de la Limpieza.\nEl Jabón Sunlight está reconocido por peritos y amas de casa\nprácticas como el mejor en su género por su Calidad y Eficacia.\nLEVER BROTHERS LIMITED, PORT SUNLIGHT, INGLATERRA.",
       "caption_type": "nearby-text",
-      "identity_basis": "nearby-text",
-      "source_context": "Advertisement for 'Jabón SUNLIGHT'",
+      "identity_basis": "source-context",
+      "source_context": "Illustration within the \"Jabón SUNLIGHT\" advertisement.",
       "confidence": "0.95",
-      "inline_anchor": "An illustration depicting several women and children gathered around a body of water, possibly a river or lake, washing clothes.",
+      "inline_anchor": "Image 4: \"Jabón SUNLIGHT\" Washing Scene",
       "bbox_pct": [
-        80.0,
+        81.0,
         50.0,
         94.0,
         60.0
       ],
       "bbox_pixels": [
-        1648,
+        1669,
         1508,
         1945,
         1818
@@ -131,6 +101,14 @@
       "output_markdown": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0451.md"
     }
   ],
-  "skipped_regions": [],
+  "skipped_regions": [
+    {
+      "region_id": "region_1",
+      "kind": "visual",
+      "reason": "low_value_visual_region_not_saved",
+      "caption_literal": "66\n111\n\"One-Eleven\"",
+      "source_context": "Advertisement for \"111 One-Eleven\" Cigarette."
+    }
+  ],
   "flags": []
 }

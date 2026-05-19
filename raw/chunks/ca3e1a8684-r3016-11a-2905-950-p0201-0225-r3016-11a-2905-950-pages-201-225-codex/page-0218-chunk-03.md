@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-86053d02689b-P0218-03
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0201-0225-r3016-11a-2905-950-pages-201-225.codex.md
+converted_sha256: 86053d02689bb5ef423c1981c69e7167012923e51ee66f210e89944ea84c3495
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0201-0225-r3016-11a-2905-950-pages-201-225/manifest.json
+page_start: 218
+page_end: 218
+part: 3
+---
+
+## Literal Transcription
+**M. Huber (C. I. C. R.)** — Monseigneur, Messieurs les délégués.
+J'ai l'honneur de vous proposer, suivant la tradition des Conférences internationales,
+de prier le président du Comité central de la Croix-Rouge néerlandaise, S. A. R. LE PRINCE
+DES PAYS-BAS, d'accepter la présidence de la Conférence et de désigner comme vice-président,
+le premier vice-président de la Croix-Rouge néerlandaise, Son Exc. le général RÖELL. (Vifs
+applaudissements).
+
+**S. A. R. le Prince des Pays-Bas.** — Je vous remercie du grand honneur que vous
+m'avez fait de me confier la présidence de la Conférence. Je prie M. le Général RÖELL
+de bien vouloir se charger de la direction effective de vos débats. (Applaudissements).
+
+**Son Exc. le général Röell.** — Je vous remercie du grand honneur que vous me faites
+de me confier la direction de vos débats. Cependant, comme c'est la première fois que je
+suis placé devant une tâche aussi difficile que délicate, je vous prie de bien vouloir
+m'accorder votre bienveillante indulgence.
+Maintenant je vous propose de passer à l'ordre du jour, qui prévoit, en premier lieu,
+la nomination des vice-présidents. Je vous propose de désigner comme vice-présidents
+suppléants M. HUBER et M. PAYNE. (Applaudissements).
+J'invite Messieurs les délégués qui désirent prendre la parole à mentionner distinctement
+leur nom et la Croix-Rouge qu'ils représentent. D'autre part, afin de faciliter le travail du
+secrétariat, je prie les délégués ayant des amendements à proposer, de bien vouloir les
+remettre d'avance au Bureau par écrit.
+Le point figurant ensuite à l'ordre du jour regarde la nomination des membres
+du Bureau de la Commission des délégués.
+D'après le règlement des Conférences internationales que vous connaissez et dont
+plusieurs exemplaires se trouvent à votre disposition sur ces tables, le président de la
+Commission spéciale des délégués est en même temps président de la Conférence.
+Les vice-présidents doivent être nommés par la Conférence sur la proposition de la
+Commission des délégués.
+Ce point a déjà été en partie liquidé par l'adoption de ma proposition de désigner
+MM. HUBER et PAYNE comme vice-présidents.
+
+NOMINATION DU SECRÉTAIRE DE LA COMMISSION DES DÉLÉGUÉS.
+
+Il est d'usage dans les Conférences internationales de désigner comme secrétaire le
+représentant de la Croix-Rouge la plus récemment reconnue et assistant pour la première
+fois à nos délibérations.
+Appliquant cette règle, c'est M. le général de brigade CHAMPAIN qui doit remplir ce
+poste. (Adopté. Applaudissements).
+Je vous propose de désigner comme secrétaires-adjoints MM. SCHOKKING et VAN
+ROYEN. (Adopté).
+
+NOMINATION DES VICE-PRÉSIDENTS DE LA CONFÉRENCE.
+
+Suivant la procédure suivie par les Conférences précédentes, il est d'usage de nommer
+un certain nombre de personnes, choisies parmi les représentants des différentes Sociétés
+nationales.
+Outre les deux vice-présidents déjà nommés je soumets à votre approbation les noms
+suivants:
+MM. DRAUDT, MORRICE WILLIAMS, NOLF, Sir ARTHUR STANLEY, M. DANEFF, Sir EDWARD
+STEWART, MM. BRIEBA, CALDERON, CONILL, COLD, MOHAMMED MOUHEB PACHA, LEESMENT, Baron
+
+— 3 —
+
+## Images, Captions, And Visual Notes
+The page contains no images or visual elements other than text.
+
+## Uncertain Or Illegible
+None. The text is clear and legible.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content like images, maps, or complex diagrams that would warrant a crop."}
