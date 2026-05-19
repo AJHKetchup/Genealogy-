@@ -48,6 +48,45 @@ See [[people/parent|Parent Person]].
     assert "1888" in data_js
 
 
+def test_wiki_site_surfaces_converted_sources_and_filters_ops_timeline(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    converted = tmp_path / "raw" / "converted"
+    converted.mkdir(parents=True, exist_ok=True)
+    source = converted / "ca12345678-registro-de-nacimientos-1889.codex.md"
+    source.write_text(
+        """# Registro de Nacimientos, Circunscripcion de Los Angeles, Chile, 1889
+
+## Conversion Metadata
+
+- Source: `raw/sources/register.png`
+- Manifest: `raw/codex-conversion-jobs/manifest.json`
+
+## Page Metadata
+
+- **Document Type:** Birth Register
+- **Year:** 1889
+- **Location:** Los Angeles, Chile
+
+## Layout And Reading Order
+
+The page records the birth of a Pulgar child in a handwritten civil register.
+""",
+        encoding="utf-8",
+    )
+    research_dashboard = tmp_path / "research" / "Post-Conversion Dashboard.md"
+    research_dashboard.write_text("# Post-Conversion Dashboard\n\nUpdated 2026-05-19.\n", encoding="utf-8")
+
+    output = build_wiki_site(tmp_path, tmp_path / "site")
+
+    data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
+    index_html = (output / "index.html").read_text(encoding="utf-8")
+    assert '"Converted sources"' in data_js
+    assert "Registro de Nacimientos" in data_js
+    assert "Post-Conversion Dashboard" not in data_js.split('"timeline":', 1)[1].split('"dashboard":', 1)[0]
+    assert "Internal Family Research" in index_html
+    assert any((output / "sources").glob("ca12345678-registro-de-nacimientos-1889*.html"))
+
+
 def test_genealogy_wiki_site_cli(tmp_path) -> None:
     init_genealogy_wiki(tmp_path)
 
