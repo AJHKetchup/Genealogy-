@@ -5999,6 +5999,39 @@ def source_prep_docling_input_path(root: Path, task: dict[str, object], temp_dir
     return target
 
 
+def build_source_prep_docling_pdf_text_layer_preview(page: object, source_page: int) -> dict[str, object]:
+    text = str(page.get_text("text") or "")
+    alpha_chars = sum(1 for char in text if char.isalpha())
+    largest_image_ratio = 0.0
+    try:
+        page_dict = page.get_text("dict")
+        blocks = page_dict.get("blocks", []) if isinstance(page_dict, dict) else []
+        page_rect = page.rect
+        page_area = max(float(page_rect.width) * float(page_rect.height), 1.0)
+        for block in blocks if isinstance(blocks, list) else []:
+            if not isinstance(block, dict) or block.get("type") != 1:
+                continue
+            bbox = block.get("bbox")
+            if not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+                continue
+            x0, y0, x1, y1 = [float(value) for value in bbox]
+            area_ratio = max(0.0, (x1 - x0) * (y1 - y0)) / page_area
+            largest_image_ratio = max(largest_image_ratio, area_ratio)
+    except Exception:
+        largest_image_ratio = 0.0
+    likely_full_page_scan = largest_image_ratio >= SOURCE_PREP_FASTLANE_MAX_FULL_PAGE_IMAGE_RATIO
+    return {
+        "media_type": "pdf",
+        "source_page": source_page,
+        "text": text.strip(),
+        "text_layer_chars": len(text),
+        "text_layer_alpha_chars": alpha_chars,
+        "has_meaningful_text_layer": alpha_chars >= SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS,
+        "largest_image_ratio": largest_image_ratio,
+        "likely_full_page_scan": likely_full_page_scan,
+    }
+
+
 def source_prep_docling_pdf_text_layer_preview(root: Path, task: dict[str, object]) -> dict[str, object] | None:
     source_path = root.resolve() / str(task.get("source", ""))
     manifest_path = root.resolve() / str(task.get("job_manifest", ""))
@@ -6027,16 +6060,7 @@ def source_prep_docling_pdf_text_layer_preview(root: Path, task: dict[str, objec
     with fitz.open(source_file) as doc:
         if source_page > len(doc):
             return None
-        text = doc[source_page - 1].get_text("text")
-    alpha_chars = sum(1 for char in text if char.isalpha())
-    return {
-        "media_type": "pdf",
-        "source_page": source_page,
-        "text": text.strip(),
-        "text_layer_chars": len(text),
-        "text_layer_alpha_chars": alpha_chars,
-        "has_meaningful_text_layer": alpha_chars >= SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS,
-    }
+        return build_source_prep_docling_pdf_text_layer_preview(doc[source_page - 1], source_page)
 
 
 def source_prep_docling_pdf_text_layer_previews(
@@ -6076,16 +6100,7 @@ def source_prep_docling_pdf_text_layer_previews(
                 for cache_key, source_page in page_refs:
                     if source_page > len(doc):
                         continue
-                    text = doc[source_page - 1].get_text("text")
-                    alpha_chars = sum(1 for char in text if char.isalpha())
-                    previews[cache_key] = {
-                        "media_type": "pdf",
-                        "source_page": source_page,
-                        "text": text.strip(),
-                        "text_layer_chars": len(text),
-                        "text_layer_alpha_chars": alpha_chars,
-                        "has_meaningful_text_layer": alpha_chars >= SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS,
-                    }
+                    previews[cache_key] = build_source_prep_docling_pdf_text_layer_preview(doc[source_page - 1], source_page)
         except Exception:
             continue
     return previews
@@ -6447,11 +6462,13 @@ def run_source_prep_docling_task(
             extra_report={
                 "docling_ocr": effective_use_ocr,
                 "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
             },
             extra_entry={
                 "docling_ocr": effective_use_ocr,
                 "text_layer_chars": task.get("_docling_text_layer_chars", 0),
                 "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
                 "method_detail": "docling_text_layer_no_ocr" if not effective_use_ocr else "docling_ocr",
             },
         )
@@ -6709,7 +6726,12 @@ def source_prep_docling_discovery_run(
                 task = dict(task)
                 task["_docling_text_layer_chars"] = preview.get("text_layer_chars", 0)
                 task["_docling_text_layer_alpha_chars"] = preview.get("text_layer_alpha_chars", 0)
-                if use_ocr and bool(preview.get("has_meaningful_text_layer")):
+                task["_docling_likely_full_page_scan"] = bool(preview.get("likely_full_page_scan"))
+                if (
+                    use_ocr
+                    and bool(preview.get("has_meaningful_text_layer"))
+                    and not bool(preview.get("likely_full_page_scan"))
+                ):
                     task["_docling_use_ocr"] = False
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
