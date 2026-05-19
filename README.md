@@ -145,7 +145,7 @@ Build the static, searchable wiki viewer:
 genealogy-wiki site --root my-family-research --out site
 ```
 
-In this repository, `.github/workflows/wiki-site.yml` rebuilds and publishes that viewer to GitHub Pages automatically after wiki/research changes and after successful internal research agent runs. The viewer includes search, collection browsing, a generated timeline, and an interactive graph built from wiki links and relationship indexes.
+In this repository, `.github/workflows/wiki-site.yml` rebuilds and publishes that viewer to Cloudflare Workers Static Assets automatically after wiki/research changes and after successful internal research agent runs. The viewer includes search, collection browsing, a generated timeline, and an interactive graph built from wiki links and relationship indexes.
 
 The genealogy wiki is designed to pair with `historic-doc-ingest`: put converted Markdown and manifests under `raw/converted/`, or use `genealogy-wiki material` to stage any raw source under `raw/sources/`. The material packet is document-agnostic: it records the source media, a verbatim extraction contract, exact printed header/label inventory, dynamic layout inventory, reading order, literal transcription, translation, interpretation, uncertainty, candidate entities, claims, relationship evidence, conflicts, research tasks, and a completeness audit without hardcoding a census, church-register, photo, or interview schema.
 

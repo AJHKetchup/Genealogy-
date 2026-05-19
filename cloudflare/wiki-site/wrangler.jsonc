@@ -1,0 +1,10 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "genealogy-wiki-site",
+  "compatibility_date": "2026-05-19",
+  "workers_dev": true,
+  "assets": {
+    "directory": "../../site",
+    "not_found_handling": "404-page"
+  }
+}
