@@ -6952,3 +6952,4 @@
 ## [2026-05-19] source-prep-batches | Wrote 7146 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-19] source-prep-fastlane | inspected 7147, converted 0, dry_run=False, skipped={'full_page_image_scan': 7141, 'not_pdf': 2, 'possible_ligature_text_loss': 4}, failed=0
 ## [2026-05-19] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-19] gemini-source-prep | preflight ok
