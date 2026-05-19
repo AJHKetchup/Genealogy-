@@ -1950,6 +1950,37 @@ def test_docling_discovery_unusable_page_falls_through_to_gemini(tmp_path, monke
     assert {state["status"] for state in task_state["tasks"].values()} == {"done"}
 
 
+def test_docling_discovery_runs_before_gemini_for_needs_reread_pages(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "needs-reread-docling-first.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Usable printed source text for Docling reread baseline. " * 8, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+    write_agent_queues(tmp_path)
+    source_queue = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep.json").read_text(encoding="utf-8"))
+    old_output = tmp_path / source_queue["tasks"][0]["output_path"]
+    old_output.parent.mkdir(parents=True, exist_ok=True)
+    old_output.write_text("Old incomplete conversion without the source-prep contract.", encoding="utf-8")
+
+    calls: list[dict[str, object]] = []
+
+    def fake_docling(input_path, **kwargs):
+        calls.append({"input_path": str(input_path), **kwargs})
+        return "Usable printed source text for Docling reread baseline. " * 8
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert len(calls) == 1
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 1
+
+
 def test_docling_discovery_zero_limit_scans_all_and_marks_unusable_for_elevation(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
