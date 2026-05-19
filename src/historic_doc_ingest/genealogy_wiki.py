@@ -6479,6 +6479,13 @@ def build_source_prep_docling_task_result(
             profile,
             extracted_images,
         )
+    extracted_image_methods = sorted(
+        {
+            str(image.get("method") or "docling_picture_image").strip()
+            for image in extracted_images
+            if isinstance(image, dict)
+        }
+    )
     task_report: dict[str, object] = {
         "task_id": task_id,
         "source": task.get("source", ""),
@@ -6490,6 +6497,8 @@ def build_source_prep_docling_task_result(
         "text_chars": profile.get("text_chars", 0),
         "extracted_image_count": len(extracted_images),
     }
+    if extracted_image_methods:
+        task_report["extracted_image_methods"] = extracted_image_methods
     if extra_report:
         task_report.update(extra_report)
     entry = {
@@ -7211,6 +7220,30 @@ def source_prep_report_compact_error(value: object, *, max_chars: int = 240) -> 
     return text[: max_chars - 3].rstrip() + "..."
 
 
+def source_prep_report_tasks(payload: dict[str, object]) -> list[dict[str, object]]:
+    tasks = payload.get("tasks", [])
+    if not isinstance(tasks, list):
+        return []
+    return [task for task in tasks if isinstance(task, dict)]
+
+
+def source_prep_report_task_bool_count(payload: dict[str, object], key: str, value: bool) -> int:
+    return sum(1 for task in source_prep_report_tasks(payload) if task.get(key) is value)
+
+
+def source_prep_report_extracted_image_methods(payload: dict[str, object]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for task in source_prep_report_tasks(payload):
+        methods = task.get("extracted_image_methods", [])
+        if not isinstance(methods, list):
+            continue
+        for method in methods:
+            key = str(method or "").strip()
+            if key:
+                counts[key] = counts.get(key, 0) + 1
+    return counts
+
+
 def build_source_prep_cloud_report(root: Path) -> str:
     paths = WikiPaths(root.resolve())
     automation_dir = paths.research / "_automation"
@@ -7257,6 +7290,10 @@ def build_source_prep_cloud_report(root: Path) -> str:
         f"- Unusable: {source_prep_report_value(docling.get('unusable'))}",
         f"- Errors: {source_prep_report_value(docling.get('errors'))}",
         f"- Extracted images: {source_prep_report_value(docling.get('extracted_images'))}",
+        f"- OCR-enabled pages: {source_prep_report_task_bool_count(docling, 'docling_ocr', True)}",
+        f"- Text-layer/no-OCR pages: {source_prep_report_task_bool_count(docling, 'docling_ocr', False)}",
+        f"- Textless no-OCR fast-unusable pages: {source_prep_report_task_bool_count(docling, 'docling_no_ocr_fast_unusable', True)}",
+        f"- Extracted image methods: {source_prep_report_json(source_prep_report_extracted_image_methods(docling))}",
         f"- Runtime seconds: {source_prep_report_value(source_prep_report_duration_seconds(docling), 'unknown')}",
         f"- Inspected pages/hour: {source_prep_report_pages_per_hour(docling, 'inspected')}",
         f"- Skipped: {source_prep_report_json(docling.get('skipped'))}",

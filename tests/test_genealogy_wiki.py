@@ -1288,6 +1288,11 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
                 "errors": 1,
                 "extracted_images": 7,
                 "skipped": {"claimed": 2},
+                "tasks": [
+                    {"docling_ocr": True, "extracted_image_methods": ["docling_picture_image"]},
+                    {"docling_ocr": False, "extracted_image_methods": ["local_visual_region"]},
+                    {"docling_ocr": False, "docling_no_ocr_fast_unusable": True},
+                ],
             }
         ),
         encoding="utf-8",
@@ -1342,6 +1347,10 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- Accepted: 3" in report
     assert "- Unusable: 5" in report
     assert "- Extracted images: 7" in report
+    assert "- OCR-enabled pages: 1" in report
+    assert "- Text-layer/no-OCR pages: 2" in report
+    assert "- Textless no-OCR fast-unusable pages: 1" in report
+    assert '- Extracted image methods: {"docling_picture_image": 1, "local_visual_region": 1}' in report
     assert "- Inspected pages/hour: 60.0" in report
     assert "- Completed pages/hour: 48.0" in report
     assert '- Route counts: {"lite": 3, "pro": 2}' in report
@@ -1655,6 +1664,7 @@ def test_docling_discovery_summarizes_extracted_images(tmp_path, monkeypatch) ->
     assert summary["accepted"] == 1
     assert summary["extracted_images"] == 2
     assert summary["tasks"][0]["extracted_image_count"] == 2
+    assert summary["tasks"][0]["extracted_image_methods"] == ["docling_picture_image"]
 
 
 def test_docling_wrapper_keeps_table_structure_enabled() -> None:
