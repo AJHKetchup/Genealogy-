@@ -7217,6 +7217,7 @@ def build_source_prep_cloud_report(root: Path) -> str:
     preflight = read_json_payload(automation_dir / "cloud-source-prep-preflight-state.json")
     docling = read_json_payload(automation_dir / "source-prep-docling-state.json")
     gemini = read_json_payload(automation_dir / "gemini-source-prep-state.json")
+    gemini_preflight = read_json_payload(automation_dir / "gemini-source-prep-preflight-state.json")
     heartbeat = read_json_payload(automation_dir / "cloud-source-prep-heartbeat-state.json")
     batches = read_json_payload(source_prep_batch_queue_state_path(paths.root))
 
@@ -7229,6 +7230,9 @@ def build_source_prep_cloud_report(root: Path) -> str:
     gemini_fatal_error = source_prep_report_compact_error(gemini.get("fatal_error"))
     if gemini_fatal_error:
         blockers.append(f"gemini fatal: {gemini_fatal_error}")
+    gemini_preflight_fatal_error = source_prep_report_compact_error(gemini_preflight.get("fatal_error"))
+    if gemini_preflight_fatal_error:
+        blockers.append(f"gemini preflight fatal: {gemini_preflight_fatal_error}")
     filters = batches.get("filters", {}) if isinstance(batches.get("filters"), dict) else {}
     queue_scope = "global" if batches.get("global_queue") is True else "filtered"
     if not batches:
@@ -8712,8 +8716,19 @@ def source_prep_gemini_state_path(root: Path) -> Path:
     return root.resolve() / "research" / "_automation" / "gemini-source-prep-state.json"
 
 
+def source_prep_gemini_preflight_state_path(root: Path) -> Path:
+    return root.resolve() / "research" / "_automation" / "gemini-source-prep-preflight-state.json"
+
+
 def write_source_prep_gemini_state(root: Path, summary: dict[str, object]) -> Path:
     path = source_prep_gemini_state_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def write_source_prep_gemini_preflight_state(root: Path, summary: dict[str, object]) -> Path:
+    path = source_prep_gemini_preflight_state_path(root)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     return path
@@ -8839,8 +8854,12 @@ def source_prep_gemini_run(
     def fail_with_fatal_blocker(error: str) -> None:
         summary["fatal_error"] = error
         summary["finished"] = utc_timestamp()
-        state_path = write_source_prep_gemini_state(paths.root, summary)
-        summary["state_path"] = relative_to_root(state_path, paths.root)
+        if preflight_only:
+            state_path = write_source_prep_gemini_preflight_state(paths.root, summary)
+            summary["preflight_state_path"] = relative_to_root(state_path, paths.root)
+        else:
+            state_path = write_source_prep_gemini_state(paths.root, summary)
+            summary["state_path"] = relative_to_root(state_path, paths.root)
         append_log(
             paths.research / "log.md",
             "gemini-source-prep | fatal dependency blocker before page conversion",

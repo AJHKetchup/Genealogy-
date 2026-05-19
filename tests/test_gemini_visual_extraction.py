@@ -380,6 +380,41 @@ def test_gemini_source_prep_preflight_success_can_skip_state_write(tmp_path, mon
     assert not (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").exists()
 
 
+def test_gemini_preflight_only_fatal_preserves_last_conversion_state(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=1)
+    automation = tmp_path / "research" / "_automation"
+    automation.mkdir(parents=True, exist_ok=True)
+    main_state_path = automation / "gemini-source-prep-state.json"
+    main_state_path.write_text(
+        json.dumps({"completed": 2233, "fatal_error": "", "mode": "gemini-source-prep"}),
+        encoding="utf-8",
+    )
+    original_state = main_state_path.read_text(encoding="utf-8")
+
+    def fail_preflight(**kwargs):
+        raise genealogy_wiki.GeminiSourcePrepFatalError(
+            "Gemini HTTP 429: RESOURCE_EXHAUSTED prepayment credits are depleted"
+        )
+
+    monkeypatch.setattr(genealogy_wiki, "preflight_gemini_source_prep_api", fail_preflight)
+
+    with pytest.raises(genealogy_wiki.GeminiSourcePrepFatalError):
+        source_prep_gemini_run(
+            tmp_path,
+            limit=1,
+            api_key="test-key",
+            refresh_queue=False,
+            preflight_api=True,
+            preflight_only=True,
+            preflight_success_state=False,
+        )
+
+    assert main_state_path.read_text(encoding="utf-8") == original_state
+    preflight_state = json.loads((automation / "gemini-source-prep-preflight-state.json").read_text(encoding="utf-8"))
+    assert preflight_state["preflight_only"] is True
+    assert "prepayment credits are depleted" in preflight_state["fatal_error"]
+
+
 def test_gemini_visual_manifest_creates_crop_and_metadata(tmp_path, monkeypatch) -> None:
     write_test_batch(tmp_path)
 

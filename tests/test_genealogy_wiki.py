@@ -1309,6 +1309,10 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
         ),
         encoding="utf-8",
     )
+    (automation / "gemini-source-prep-preflight-state.json").write_text(
+        json.dumps({"fatal_error": "Gemini HTTP 429: billing account blocked"}),
+        encoding="utf-8",
+    )
     (automation / "cloud-source-prep-heartbeat-state.json").write_text(
         json.dumps({"blockers": ["r2 credentials missing"]}),
         encoding="utf-8",
@@ -1344,6 +1348,7 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- r2 credentials missing" in report
     assert "- preflight missing: R2_BUCKET" in report
     assert "- gemini fatal: Gemini HTTP 429: prepayment credits are depleted" in report
+    assert "- gemini preflight fatal: Gemini HTTP 429: billing account blocked" in report
 
 
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
