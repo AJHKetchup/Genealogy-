@@ -1120,7 +1120,7 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
     ) in workflow
     assert (
         "- name: Assemble converted Markdown\n"
-        "        if: steps.preflight.outputs.ready == 'true'"
+        "        if: always() && steps.preflight.outputs.ready == 'true'"
     ) in workflow
     assert workflow.index("Prepare conversion queue from R2") < workflow.index("Publish restore and queue checkpoint")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Run Docling baseline on all queued pages")
@@ -1190,12 +1190,17 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
     assert "--checkpoint-every 25" in workflow
+    assert "continue-on-error: true" in workflow
     assert "--fastlane-limit \"$RUN_FASTLANE_LIMIT\"" in workflow
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
     assert "default: \"all\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
     assert "if: always() && steps.preflight.outputs.ready == 'true'" in workflow
+    assert (
+        "if: always() && steps.preflight.outputs.ready == 'true' && "
+        "steps.gemini_api.outputs.exit_code == '0'"
+    ) in workflow
     assert "--no-preflight-success-state" in workflow
     assert "--no-ocr" not in workflow
     assert "--document-timeout \"$RUN_DISCOVERY_DOCUMENT_TIMEOUT\"" in workflow
