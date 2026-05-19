@@ -2577,7 +2577,9 @@ def deferred_pdf_page_specs(source_file: Path, pages_dir: Path, page_range: str 
 def ensure_source_prep_page_image(root: Path, batch: dict[str, object]) -> Path | None:
     paths = WikiPaths(root.resolve())
     page = first_source_prep_batch_page(batch)
-    rel_page_image = str(page.get("page_image", "")).strip()
+    if not page:
+        page = batch
+    rel_page_image = str(page.get("page_image") or batch.get("page_image") or page.get("image_path") or "").strip()
     if not rel_page_image:
         return None
     page_image = paths.root / rel_page_image
@@ -2592,7 +2594,7 @@ def ensure_source_prep_page_image(root: Path, batch: dict[str, object]) -> Path 
         return None
 
     manifest = read_json_payload(manifest_path, {})
-    page_number = safe_int(page.get("page") or batch.get("first_page"), 1)
+    page_number = safe_int(page.get("page") or batch.get("page") or batch.get("first_page"), 1)
     page_spec = find_manifest_page_spec(manifest, page_number)
     source_page = safe_int(page_spec.get("source_page") or page.get("source_page") or page_number, page_number)
     source_file = find_existing_source_file_for_job(paths.root, manifest)
@@ -7535,6 +7537,9 @@ def source_prep_fastlane_run(
             try:
                 update_agent_task_state(paths.root, task_id, "claimed", agent=agent, note="deterministic PDF-native fast lane")
                 update_agent_task_state(paths.root, task_id, "in_progress", agent=agent, note="writing fast-lane page output")
+                regenerated = ensure_source_prep_page_image(paths.root, task)
+                if regenerated is None:
+                    raise FileNotFoundError(paths.root / str(task.get("page_image", "")))
                 write_source_prep_fastlane_images(paths.root, task, image_refs)
                 output_path.parent.mkdir(parents=True, exist_ok=True)
                 output_path.write_text(markdown, encoding="utf-8")

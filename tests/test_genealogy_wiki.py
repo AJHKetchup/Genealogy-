@@ -729,6 +729,32 @@ def test_prepare_raw_sources_can_defer_pdf_page_image_rendering(tmp_path) -> Non
     assert regenerated.exists()
 
 
+def test_ensure_source_prep_page_image_accepts_flat_page_task(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "archive.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=72, height=72)
+    page.insert_text((8, 36), "Flat page task")
+    doc.save(source)
+
+    results = prepare_raw_sources(tmp_path, pages_per_job=1, defer_page_images=True, stage_source_copy=False)
+    manifest_path = tmp_path / results[0].conversion_jobs[0]
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    task = {
+        "job_manifest": manifest_path.relative_to(tmp_path).as_posix(),
+        "page": 1,
+        "page_image": manifest["pages"][0]["image_path"],
+    }
+
+    regenerated = ensure_source_prep_page_image(tmp_path, task)
+
+    assert regenerated == tmp_path / manifest["pages"][0]["image_path"]
+    assert regenerated.exists()
+    updated = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert updated["pages"][0]["image_bytes"] == regenerated.stat().st_size
+
+
 def test_prepare_raw_sources_adds_requested_pdf_page_range_when_source_has_existing_jobs(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
@@ -1156,7 +1182,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}"
+        "github.event.inputs.gemini_fallback_policy || 'all' }}"
     ) in workflow
     assert (
         "RUN_ECONOMY_LARGE_SOURCE_PAGES: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1438,6 +1464,31 @@ def test_source_prep_fastlane_completes_born_digital_pdf_pages(tmp_path) -> None
     assert "deterministic PDF-native fast lane" in page_text
     assert "## Completeness Audit" in page_text
     assert (page_output.parent.parent / "extracted-images" / "page-0001").exists()
+
+
+def test_source_prep_fastlane_regenerates_deferred_page_images(tmp_path) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "minutes.pdf"
+    doc = fitz.open()
+    repeated_text = (
+        "Dario Pulgar Smith attended the committee meeting in Geneva on 12 March 1934. "
+        "The minutes list delegates, offices, places, correspondence, and archival references. "
+    )
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Page 1\n\n" + repeated_text * 4, fontsize=11)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, pages_per_job=1, defer_page_images=True, stage_source_copy=False)
+    write_agent_queues(tmp_path)
+
+    summary = source_prep_fastlane_run(tmp_path, limit=10, scan_limit=10, agent="fast-test")
+
+    assert summary["converted"] == 1
+    assert summary["failed_tasks"] == []
+    page_output = next((tmp_path / "raw" / "codex-conversion-jobs").glob("*/page-markdown/page-0001.md"))
+    page_image = page_output.parent.parent / "page-images" / "page-0001.jpg"
+    assert page_image.exists()
 
 
 def test_source_prep_fastlane_skips_full_page_scan_pdf(tmp_path) -> None:

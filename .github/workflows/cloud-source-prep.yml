@@ -114,7 +114,7 @@ jobs:
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '120' }}
       RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '8000' }}
       RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_scan_limit || '12000' }}
-      RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}
+      RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.gemini_fallback_policy || 'all' }}
       RUN_ECONOMY_LARGE_SOURCE_PAGES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.economy_large_source_pages || '50' }}
       RUN_QUEUE_LIMIT: ${{ github.event_name == 'schedule' && '10000' || '10000' }}
     steps:
