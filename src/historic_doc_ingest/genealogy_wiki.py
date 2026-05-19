@@ -6126,7 +6126,7 @@ def convert_source_with_docling(
     pipeline_options.document_timeout = document_timeout
     if hasattr(pipeline_options, "do_ocr"):
         pipeline_options.do_ocr = use_ocr
-    pipeline_options.do_table_structure = False
+    pipeline_options.do_table_structure = True
     pipeline_options.do_picture_description = False
     pipeline_options.do_picture_classification = False
     pipeline_options.do_formula_enrichment = False

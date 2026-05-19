@@ -1652,6 +1652,15 @@ def test_docling_discovery_summarizes_extracted_images(tmp_path, monkeypatch) ->
     assert summary["tasks"][0]["extracted_image_count"] == 2
 
 
+def test_docling_wrapper_keeps_table_structure_enabled() -> None:
+    source = (Path(__file__).resolve().parents[1] / "src" / "historic_doc_ingest" / "genealogy_wiki.py").read_text(
+        encoding="utf-8"
+    )
+
+    assert "pipeline_options.do_table_structure = True" in source
+    assert "pipeline_options.do_table_structure = False" not in source
+
+
 def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
