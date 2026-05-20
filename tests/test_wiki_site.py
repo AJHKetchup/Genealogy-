@@ -37,6 +37,7 @@ See [[people/parent|Parent Person]].
     output = build_wiki_site(tmp_path, tmp_path / "site")
 
     assert (output / "index.html").exists()
+    assert (output / "research.html").exists()
     assert (output / "graph.html").exists()
     assert (output / "timeline.html").exists()
     parent_html = (output / "wiki" / "people" / "parent.html").read_text(encoding="utf-8")
@@ -80,10 +81,17 @@ The page records the birth of a Pulgar child in a handwritten civil register.
 
     data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
     index_html = (output / "index.html").read_text(encoding="utf-8")
+    research_html = (output / "research.html").read_text(encoding="utf-8")
+    sources_html = (output / "sources.html").read_text(encoding="utf-8")
     assert '"Converted sources"' in data_js
+    assert '"displayTitle"' in data_js
     assert "Registro de Nacimientos" in data_js
     assert "Post-Conversion Dashboard" not in data_js.split('"timeline":', 1)[1].split('"dashboard":', 1)[0]
-    assert "Internal Family Research" in index_html
+    assert "Pulgar-Arriagada Family History" in index_html
+    assert "Agent Queues" not in index_html
+    assert "Internal Research Operations" in research_html
+    assert "Agent Queues" in research_html
+    assert "Source Library" in sources_html
     assert any((output / "sources").glob("ca12345678-registro-de-nacimientos-1889*.html"))
 
 

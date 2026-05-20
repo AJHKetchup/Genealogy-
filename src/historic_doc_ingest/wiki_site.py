@@ -44,6 +44,64 @@ FOCUS_TERMS = {
     "Birth records": ["nacimiento", "nacimientos", "birth register"],
 }
 
+THROUGHLINE_SPECS = [
+    {
+        "id": "pulgar-arriagada-roots",
+        "label": "Family line",
+        "title": "Pulgar-Arriagada roots",
+        "description": "Civil records, named records, and visual items that anchor the family line in Chile.",
+        "primaryTerms": ["Pulgar", "Arriagada", "Birth records"],
+        "terms": ["Pulgar", "Arriagada", "Birth records"],
+        "keywords": ["registro", "nacimiento", "birth", "portrait"],
+    },
+    {
+        "id": "dario-jose-trail",
+        "label": "Person trail",
+        "title": "Dario Jose Pulgar-Arriagada",
+        "description": "Records that cluster around Dario Jose, including travel, institutional, and international material.",
+        "primaryTerms": ["Dario"],
+        "terms": ["Dario", "Jose", "Pulgar", "Arriagada", "Passenger"],
+        "keywords": ["dario", "arturo", "cv", "passport", "passenger"],
+    },
+    {
+        "id": "chile-places",
+        "label": "Place context",
+        "title": "Los Angeles and Concepcion",
+        "description": "Chilean place records and institutional context connected to the family story.",
+        "primaryTerms": ["Los Angeles", "Concepcion"],
+        "terms": ["Los Angeles", "Concepcion", "Birth records", "Pulgar"],
+        "keywords": ["hospital", "universidad", "chile", "concepcion"],
+    },
+    {
+        "id": "geneva-hague",
+        "label": "International thread",
+        "title": "Geneva and The Hague",
+        "description": "International records that connect family names to conferences, travel, and public-facing archives.",
+        "primaryTerms": ["Geneva", "The Hague"],
+        "terms": ["Geneva", "The Hague", "Dario", "Jose"],
+        "keywords": ["geneva", "ginebra", "hague", "haya", "conference"],
+    },
+    {
+        "id": "travel-movement",
+        "label": "Movement",
+        "title": "Travel and passenger movement",
+        "description": "Passenger, arrival, departure, and identity records that help trace movement across places.",
+        "primaryTerms": ["Passenger"],
+        "terms": ["Passenger", "Dario", "Jose"],
+        "keywords": ["passenger", "arrival", "departure", "ship", "passport"],
+    },
+    {
+        "id": "visual-public-records",
+        "label": "Visual record",
+        "title": "Portraits, photographs, and public images",
+        "description": "Image-bearing records, portraits, and visual source items useful for the family narrative.",
+        "primaryTerms": [],
+        "terms": ["Pulgar", "Arriagada", "Victor", "Geneva"],
+        "keywords": ["photograph", "portrait", "photo", "audiovisual"],
+        "requireKeyword": True,
+    },
+]
+
 TIMELINE_SECTIONS = {
     "claims",
     "events",
@@ -119,10 +177,11 @@ def build_wiki_site(root: Path, output: Path | None = None, include_research: bo
     write_text(output / "assets" / "app.js", SITE_JS)
 
     write_text(output / "index.html", render_home_page(pages, data))
-    write_text(output / "graph.html", render_special_page("Research Graph", graph_body()))
-    write_text(output / "timeline.html", render_special_page("Timeline", timeline_body()))
+    write_text(output / "research.html", render_research_dashboard_page(pages, data))
+    write_text(output / "graph.html", render_special_page("Evidence Map", graph_body()))
+    write_text(output / "timeline.html", render_special_page("Family Timeline", timeline_body()))
     write_text(output / "collections.html", render_special_page("Collections", collections_body()))
-    write_text(output / "sources.html", render_special_page("Sources", sources_body()))
+    write_text(output / "sources.html", render_special_page("Source Library", sources_body()))
 
     for page in pages:
         html_path = output / page.site_rel
@@ -209,7 +268,8 @@ def read_converted_source_page(path: Path, root: Path) -> SitePage:
 
 
 def repair_mojibake(value: str) -> str:
-    if "Ã" not in value and "Â" not in value and "â" not in value:
+    markers = ("\u00c3", "\u00c2", "\u00e2")
+    if not any(marker in value for marker in markers):
         return value
     original_badness = mojibake_badness(value)
     for encoding in ("cp1252", "latin1"):
@@ -223,7 +283,7 @@ def repair_mojibake(value: str) -> str:
 
 
 def mojibake_badness(value: str) -> int:
-    return value.count("Ã") + value.count("Â") + value.count("â")
+    return value.count("\u00c3") + value.count("\u00c2") + value.count("\u00e2")
 
 
 def read_text_file(path: Path, errors: str = "strict") -> str:
@@ -404,11 +464,14 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
     chunk_stats = collect_chunk_stats(root)
     queue_summaries = collect_queue_summaries(root)
     source_summaries = build_source_summaries(root, pages, chunk_stats)
+    source_by_url = {str(source.get("id")): source for source in source_summaries}
     for page in pages:
+        display_title = page_display_title(page, source_by_url)
         page_items.append(
             {
                 "id": page.site_rel,
-                "title": page.title,
+                "title": display_title,
+                "technicalTitle": page.title if display_title != page.title else "",
                 "url": page.site_rel,
                 "sourceRoot": page.source_root,
                 "vaultRel": page.vault_rel,
@@ -441,10 +504,15 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
         if include_in_timeline(page)
         for date in page.dates
     ]
+    for item in timeline_items:
+        page = page_by_url_candidate(pages, str(item["url"]))
+        if page:
+            item["title"] = page_display_title(page, source_by_url)
     timeline_items.sort(key=lambda item: item["date"])
     deduped_edges = dedupe_edges(graph_edges)
     graph_nodes = build_graph_nodes(page_items, deduped_edges, source_summaries)
     dashboard = build_dashboard(root, pages, source_summaries, chunk_stats, queue_summaries, timeline_items)
+    presentation = build_presentation(pages, source_summaries, timeline_items)
 
     return {
         "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
@@ -454,11 +522,27 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
         "counts": dict(sorted(counts.items())),
         "timeline": timeline_items[:500],
         "dashboard": dashboard,
+        "presentation": presentation,
         "sections": [
             {"id": section, "label": section_label(section), "count": count}
             for section, count in sorted(counts.items())
         ],
     }
+
+
+def page_by_url_candidate(pages: list[SitePage], url: str) -> SitePage | None:
+    for page in pages:
+        if page.site_rel == url:
+            return page
+    return None
+
+
+def page_display_title(page: SitePage, source_by_url: dict[str, dict[str, object]]) -> str:
+    if page.source_root == "converted":
+        source = source_by_url.get(page.site_rel)
+        if source:
+            return str(source.get("displayTitle") or source.get("title") or page.title)
+    return page.title
 
 
 def load_json(path: Path) -> object:
@@ -559,6 +643,7 @@ def build_source_summaries(root: Path, pages: list[SitePage], chunk_stats: dict[
         summary = {
             "id": page.site_rel,
             "title": page.title,
+            "technicalTitle": page.title,
             "url": page.site_rel,
             "path": converted_path,
             "source": page.frontmatter.get("source", ""),
@@ -578,6 +663,8 @@ def build_source_summaries(root: Path, pages: list[SitePage], chunk_stats: dict[
             "terms": terms,
             "snippet": source_excerpt(page),
         }
+        summary["sourceLabel"] = source_cluster_label(summary)
+        summary["displayTitle"] = friendly_source_title(summary)
         summary["score"] = source_priority_score(summary)
         summaries.append(summary)
     summaries.sort(key=lambda item: (-int(item.get("score", 0)), str(item.get("title", "")).lower()))
@@ -676,6 +763,119 @@ def source_priority_score(summary: dict[str, object]) -> int:
     return score
 
 
+def source_cluster_label(summary: dict[str, object]) -> str:
+    title = str(summary.get("title") or "").lower()
+    haystack = " ".join(
+        str(summary.get(key) or "")
+        for key in ("title", "technicalTitle", "displayTitle", "snippet", "path", "source")
+    ).lower()
+    terms = set(str(term) for term in summary.get("terms", []) if term)
+    if any(word in haystack for word in ("photograph", "portrait", "photo", "image-bearing")):
+        return "Photographs and portraits"
+    if "Birth records" in terms or "nacimiento" in title or "birth" in title:
+        return "Birth and civil records"
+    if "Passenger" in terms or any(word in haystack for word in ("passenger", "arrival", "departure", "passport")):
+        return "Travel and identity records"
+    if "Geneva" in terms or "The Hague" in terms or any(word in haystack for word in ("geneva", "hague", "ginebra", "haya")):
+        return "International records"
+    if "Concepcion" in terms or "Los Angeles" in terms:
+        return "Chile place records"
+    if "Pulgar" in terms or "Arriagada" in terms:
+        return "Family records"
+    return str(summary.get("documentType") or "Archival source").strip() or "Archival source"
+
+
+def friendly_source_title(summary: dict[str, object]) -> str:
+    title = repair_mojibake(str(summary.get("title") or "")).strip()
+    if not title:
+        title = "Archival source"
+    page_range = str(summary.get("pageRange") or "").strip()
+    terms = set(str(term) for term in summary.get("terms", []) if term)
+    lower = title.lower()
+    cleaned = clean_source_title(title)
+
+    if "photograph" in lower or "portrait" in lower:
+        return cleaned
+    if lower.startswith("v-p-hist"):
+        return f"Visual archive item {title}"
+    special_title = special_presentation_title(cleaned, page_range)
+    if special_title:
+        return special_title
+    if looks_like_archive_batch_title(title):
+        label = source_cluster_label(summary)
+        if "Dario" in terms and ("Geneva" in terms or "The Hague" in terms):
+            label = "Dario Jose international record packet"
+        elif "Dario" in terms and "Passenger" in terms:
+            label = "Dario Jose travel record packet"
+        elif "Pulgar" in terms and "Arriagada" in terms:
+            label = "Pulgar-Arriagada record packet"
+        code = archive_batch_code(title)
+        if code:
+            label = f"{label} {code}"
+        suffix = f", pages {page_range}" if page_range else ""
+        return f"{label}{suffix}"
+    return cleaned
+
+
+def looks_like_archive_batch_title(title: str) -> bool:
+    lower = title.lower()
+    return bool(
+        re.match(r"^[rs]\d", lower)
+        or lower.startswith("v-p-hist")
+        or lower.startswith("ca")
+        or "jacket" in lower
+        or re.match(r"^[a-z]-?\d", lower)
+    )
+
+
+def clean_source_title(title: str) -> str:
+    value = re.sub(r"\s+", " ", title).strip(" ;")
+    value = value.replace("Circunscripcion", "Circunscripcion")
+    value = value.replace("Clinico", "Clinico")
+    return value
+
+
+def special_presentation_title(title: str, page_range: str) -> str:
+    lower = title.lower()
+    suffix = f", pages {page_range}" if page_range else ""
+    if "hospital" in lower and "concepci" in lower:
+        return f"Hospital Clinico Regional de Concepcion history{suffix}"
+    if "pioneers of a century" in lower or "anatomical teaching" in lower:
+        return f"Concepcion medical teaching history{suffix}"
+    if "anales de la universidad de chile" in lower:
+        return f"University of Chile public instruction records{suffix}"
+    if "camara de senadores" in lower or "cámara de senadores" in lower:
+        year = next(iter(extract_dates(title)), "")
+        year_text = f", {year}" if year else ""
+        return f"Senate records{year_text}{suffix}"
+    if "el aguila" in lower:
+        return f"El Aguila article scan{suffix}"
+    if "geneva convention" in lower:
+        return f"Geneva Convention records{suffix}"
+    if "la haye" in lower or "conférence internationale" in lower or "conference internationale" in lower:
+        return f"The Hague conference records{suffix}"
+    if "guia medica" in lower or "guía médica" in lower:
+        return f"National medical guide{suffix}"
+    if "cv of dario" in lower:
+        return f"Dario Arturo Pulgar CV{suffix}"
+    if "passenger and crew lists" in lower:
+        return "Passenger and crew list archive record"
+    if "arrival-departure record" in lower:
+        return "Arrival-departure identity record"
+    if "passenger list, pacific" in lower:
+        return "Pacific Steam Navigation passenger list"
+    return ""
+
+
+def archive_batch_code(title: str) -> str:
+    match = re.match(r"^(.+?)\s+pages\b", title, flags=re.IGNORECASE)
+    if not match:
+        return ""
+    code = match.group(1).strip()
+    code = re.sub(r"[-_]?Jacket", " Jacket", code, flags=re.IGNORECASE)
+    return code
+
+
 def source_focus_edges(source_summaries: list[dict[str, object]]) -> list[dict[str, str]]:
     edges: list[dict[str, str]] = []
     for source in source_summaries[:40]:
@@ -695,7 +895,8 @@ def build_graph_nodes(page_items: list[dict[str, object]], edges: list[dict[str,
         nodes.append(
             {
                 "id": source["id"],
-                "title": source["title"],
+                "title": source.get("displayTitle") or source["title"],
+                "technicalTitle": source.get("technicalTitle") or source.get("title", ""),
                 "url": source["url"],
                 "section": "sources",
                 "type": "converted-source",
@@ -780,6 +981,142 @@ def build_dashboard(
     }
 
 
+def build_presentation(
+    pages: list[SitePage],
+    source_summaries: list[dict[str, object]],
+    timeline_items: list[dict[str, object]],
+) -> dict[str, object]:
+    throughlines = build_throughlines(source_summaries)
+    family_sources = [
+        source
+        for source in source_summaries
+        if {"Pulgar", "Arriagada"} & set(str(term) for term in source.get("terms", []))
+    ]
+    dated_sources = [source for source in source_summaries if source.get("dates")]
+    canonical_pages = [page for page in pages if page.source_root == "wiki" and page.page_type != "template"]
+    stats = [
+        {
+            "label": "Converted records",
+            "value": len(source_summaries),
+            "detail": "source-backed material available",
+        },
+        {
+            "label": "Family-name records",
+            "value": len(family_sources),
+            "detail": "mention Pulgar or Arriagada",
+        },
+        {
+            "label": "Dated entries",
+            "value": len({str(item.get("date")) for item in timeline_items if item.get("date")}),
+            "detail": "ready for chronology",
+        },
+        {
+            "label": "Story threads",
+            "value": len([thread for thread in throughlines if int(thread.get("sourceCount", 0)) > 0]),
+            "detail": "auto-built from source clusters",
+        },
+    ]
+    return {
+        "stats": stats,
+        "throughlines": throughlines,
+        "featuredSources": select_featured_sources(source_summaries),
+        "timelinePreview": timeline_items[:8],
+        "canonicalPageCount": len(canonical_pages),
+    }
+
+
+def build_throughlines(source_summaries: list[dict[str, object]]) -> list[dict[str, object]]:
+    threads: list[dict[str, object]] = []
+    for spec in THROUGHLINE_SPECS:
+        matches = matching_sources_for_throughline(source_summaries, spec)
+        dates = sorted({date for source in matches for date in source.get("dates", []) if isinstance(date, str)})
+        featured = [
+            {
+                "title": source.get("displayTitle") or source.get("title", ""),
+                "url": source.get("url", ""),
+                "label": source.get("sourceLabel", ""),
+            }
+            for source in matches[:3]
+        ]
+        threads.append(
+            {
+                "id": spec["id"],
+                "label": spec["label"],
+                "title": spec["title"],
+                "description": spec["description"],
+                "sourceCount": len(matches),
+                "dateRange": compact_date_range(dates, total=len(matches)),
+                "featuredSources": featured,
+            }
+        )
+    threads.sort(key=lambda item: (-int(item.get("sourceCount", 0)), str(item.get("title", ""))))
+    return threads
+
+
+def matching_sources_for_throughline(
+    source_summaries: list[dict[str, object]],
+    spec: dict[str, object],
+) -> list[dict[str, object]]:
+    wanted_terms = set(str(term) for term in spec.get("terms", []) if term)
+    primary_terms = set(str(term) for term in spec.get("primaryTerms", []) if term)
+    keywords = [str(keyword).lower() for keyword in spec.get("keywords", []) if keyword]
+    require_keyword = bool(spec.get("requireKeyword"))
+    ranked: list[tuple[int, str, dict[str, object]]] = []
+    for source in source_summaries:
+        source_terms = set(str(term) for term in source.get("terms", []) if term)
+        haystack = " ".join(
+            str(source.get(key) or "")
+            for key in ("title", "technicalTitle", "displayTitle", "snippet", "sourceLabel", "path")
+        ).lower()
+        term_hits = len(wanted_terms & source_terms)
+        primary_hits = len(primary_terms & source_terms)
+        keyword_hits = sum(1 for keyword in keywords if keyword in haystack)
+        keyword_hit = keyword_hits > 0
+        if require_keyword and not keyword_hit:
+            continue
+        if primary_terms and not primary_hits and not keyword_hit:
+            continue
+        if term_hits >= 2 or (term_hits and keyword_hit) or keyword_hit:
+            rank = primary_hits * 40 + keyword_hits * 24 + term_hits * 8 + min(20, int(source.get("score", 0) or 0))
+            ranked.append((rank, str(source.get("displayTitle") or source.get("title") or ""), source))
+    ranked.sort(key=lambda item: (-item[0], item[1].lower()))
+    return [source for _, _, source in ranked]
+
+
+def compact_date_range(dates: list[str], total: int = 0) -> str:
+    if not dates:
+        return "undated records"
+    if total and len(dates) < max(2, total // 3):
+        return "mostly undated"
+    years = sorted({date[:4] for date in dates if len(date) >= 4})
+    if not years:
+        return "dated records"
+    if len(years) == 1:
+        return years[0]
+    return f"{years[0]}-{years[-1]}"
+
+
+def select_featured_sources(source_summaries: list[dict[str, object]]) -> list[dict[str, object]]:
+    preferred = []
+    seen = set()
+    for spec in THROUGHLINE_SPECS:
+        for source in matching_sources_for_throughline(source_summaries, spec):
+            source_id = str(source.get("id"))
+            if source_id not in seen:
+                preferred.append(source)
+                seen.add(source_id)
+                break
+    if len(preferred) < 8:
+        for source in source_summaries:
+            source_id = str(source.get("id"))
+            if source_id not in seen:
+                preferred.append(source)
+                seen.add(source_id)
+            if len(preferred) >= 8:
+                break
+    return preferred
+
+
 def status_summary(status_counts: object) -> str:
     if not isinstance(status_counts, dict) or not status_counts:
         return "not generated"
@@ -836,18 +1173,69 @@ def section_label(section: str) -> str:
 
 
 def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
+    presentation = data.get("presentation", {}) if isinstance(data.get("presentation"), dict) else {}
+    stats = render_dashboard_stats(presentation.get("stats", []))
+    throughlines = render_throughline_cards(presentation.get("throughlines", []))
+    featured = render_source_cards(presentation.get("featuredSources", []), mode="presentation")
+    timeline = render_timeline_preview(presentation.get("timelinePreview", []))
+    canonical_count = int(presentation.get("canonicalPageCount", 0) or 0)
+    body = f"""
+    <section class="story-head">
+      <div class="story-copy">
+        <p class="eyebrow">Family History</p>
+        <h1>Pulgar-Arriagada Family History</h1>
+        <p>A front-facing view of the family narrative as it comes together: throughlines, chronology, source-backed context, and the established wiki shelf.</p>
+      </div>
+      <aside class="story-note">
+        <strong>Presentation layer</strong>
+        <span>{canonical_count} canonical wiki pages are available now. Research operations, queues, and QA live in the backroom.</span>
+      </aside>
+    </section>
+    <section class="metric-grid story-metrics">{stats}</section>
+    <section class="section-heading">
+      <h2>Story Throughlines</h2>
+      <span>Grouped from recurring names, places, and record types</span>
+    </section>
+    <section class="throughline-grid">{throughlines}</section>
+    <section class="section-heading">
+      <h2>Explore The Family History</h2>
+      <span>Presentation first, research details one level deeper</span>
+    </section>
+    <section class="tool-grid presentation-tools">
+      <a class="tool-link" href="timeline.html"><span>Chronology</span><strong>Family Timeline</strong><small>Dated source groups and promoted family events.</small></a>
+      <a class="tool-link" href="wiki/index.html"><span>Established Pages</span><strong>Family Shelf</strong><small>Canonical family-tree and wiki pages as they are promoted.</small></a>
+      <a class="tool-link" href="sources.html"><span>Records</span><strong>Source Library</strong><small>Converted records with human labels and provenance links.</small></a>
+      <a class="tool-link" href="graph.html"><span>Map</span><strong>Evidence Map</strong><small>Names, places, and record clusters connected visually.</small></a>
+      <a class="tool-link research-tool" href="research.html"><span>Backroom</span><strong>Research Operations</strong><small>Queues, QA, source usability, and automation state.</small></a>
+    </section>
+    <section class="dashboard-grid story-grid">
+      <article class="panel panel-wide">
+        <div class="panel-head"><h2>Featured Records</h2><a href="sources.html">Source Library</a></div>
+        <div class="source-card-grid">{featured}</div>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><h2>Chronology Preview</h2><a href="timeline.html">Timeline</a></div>
+        {timeline}
+      </article>
+    </section>
+    """
+    return render_shell("Family History Dashboard", body, active="home")
+
+
+def render_research_dashboard_page(pages: list[SitePage], data: dict[str, object]) -> str:
     dashboard = data.get("dashboard", {}) if isinstance(data.get("dashboard"), dict) else {}
     stats = render_dashboard_stats(dashboard.get("stats", []))
     alerts = render_alerts(dashboard.get("alerts", []))
-    sources = render_source_cards(dashboard.get("sources", [])[:12])
+    sources = render_source_cards(dashboard.get("sources", [])[:12], mode="research")
     queues = render_queue_table(dashboard.get("queues", []))
     usability = render_status_bars(dashboard.get("usabilityStatus", {}))
     timeline = render_timeline_preview(dashboard.get("timelinePreview", []))
     body = f"""
     <section class="dashboard-head">
       <div>
-        <p class="eyebrow">Research Dashboard</p>
-        <h1>Internal Family Research</h1>
+        <p class="eyebrow">Research Backroom</p>
+        <h1>Internal Research Operations</h1>
+        <p>Source QA, agent queues, source usability, and pipeline status stay here so the family-history dashboard can stay narrative-first.</p>
       </div>
       <div class="generated-at">Updated {html.escape(str(data.get("generatedAt", "")))}</div>
     </section>
@@ -870,9 +1258,17 @@ def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
         <div class="panel-head"><h2>Chronology Preview</h2><a href="timeline.html">Timeline</a></div>
         {timeline}
       </article>
+      <article class="panel">
+        <div class="panel-head"><h2>Rendered Shelves</h2></div>
+        <div class="ops-link-list">
+          <a href="collections.html">All rendered wiki and research shelves</a>
+          <a href="wiki/index.html">Canonical wiki shelf</a>
+          <a href="graph.html">Evidence map</a>
+        </div>
+      </article>
     </section>
     """
-    return render_shell("Genealogy Wiki", body, active="home")
+    return render_shell("Research Backroom", body, active="research")
 
 
 def render_dashboard_stats(stats: object) -> str:
@@ -898,7 +1294,34 @@ def render_alerts(alerts: object) -> str:
     return f'<section class="alert-strip"><strong>Needs attention</strong><ul>{items}</ul></section>'
 
 
-def render_source_cards(sources: object) -> str:
+def render_throughline_cards(throughlines: object) -> str:
+    if not isinstance(throughlines, list) or not throughlines:
+        return '<div class="empty-state">No family-history throughlines have been assembled yet.</div>'
+    cards = []
+    for thread in throughlines:
+        if not isinstance(thread, dict):
+            continue
+        links = "".join(
+            f'<a href="{escape_attr(str(source.get("url", "#")))}">{html.escape(str(source.get("title", "")))}</a>'
+            for source in thread.get("featuredSources", [])
+            if isinstance(source, dict)
+        )
+        count = int(thread.get("sourceCount", 0) or 0)
+        cards.append(
+            f"""
+            <article class="throughline-card">
+              <span>{html.escape(str(thread.get("label", "")))}</span>
+              <h3>{html.escape(str(thread.get("title", "")))}</h3>
+              <p>{html.escape(str(thread.get("description", "")))}</p>
+              <div class="thread-meta"><strong>{count}</strong> records <i>{html.escape(str(thread.get("dateRange", "")))}</i></div>
+              <div class="thread-links">{links}</div>
+            </article>
+            """
+        )
+    return "\n".join(cards)
+
+
+def render_source_cards(sources: object, mode: str = "presentation") -> str:
     if not isinstance(sources, list) or not sources:
         return '<div class="empty-state">No converted sources found in this checkout.</div>'
     cards = []
@@ -906,20 +1329,32 @@ def render_source_cards(sources: object) -> str:
         if not isinstance(source, dict):
             continue
         terms = " ".join(f"<span>{html.escape(str(term))}</span>" for term in source.get("terms", []))
-        meta = " · ".join(
-            part
-            for part in [
-                str(source.get("documentType") or "").strip(),
+        if mode == "research":
+            meta_parts = [
+                str(source.get("documentType") or source.get("sourceLabel") or "").strip(),
                 f"pages {source.get('pageRange')}" if source.get("pageRange") else "",
                 f"{source.get('chunks')} chunks" if source.get("chunks") else "",
                 str(source.get("status") or "").replace("_", " "),
             ]
-            if part
+        else:
+            dates = ", ".join(str(date) for date in source.get("dates", [])[:2])
+            meta_parts = [
+                str(source.get("sourceLabel") or source.get("documentType") or "").strip(),
+                f"pages {source.get('pageRange')}" if source.get("pageRange") else "",
+                dates,
+            ]
+        meta = " | ".join(part for part in meta_parts if part)
+        title = source.get("displayTitle") or source.get("title", "")
+        technical_title = str(source.get("technicalTitle") or source.get("title") or "")
+        title_attr = (
+            f' title="{escape_attr(technical_title)}"'
+            if technical_title and technical_title != str(title)
+            else ""
         )
         cards.append(
             f"""
-            <a class="source-card" href="{escape_attr(str(source.get("url", "#")))}">
-              <strong>{html.escape(str(source.get("title", "")))}</strong>
+            <a class="source-card" href="{escape_attr(str(source.get("url", "#")))}"{title_attr}>
+              <strong>{html.escape(str(title))}</strong>
               <small>{html.escape(meta)}</small>
               <p>{html.escape(str(source.get("snippet", "")))}</p>
               <span class="term-list">{terms}</span>
@@ -993,8 +1428,8 @@ def graph_body() -> str:
     return """
     <section class="page-head">
       <p class="eyebrow">Evidence Map</p>
-      <h1>Research Graph</h1>
-      <p>Converted sources are connected to recurring family names, places, and record groups.</p>
+      <h1>Names, Places, And Records</h1>
+      <p>Family names, places, and record groups connected from the converted archive and promoted wiki pages.</p>
     </section>
     <section class="graph-toolbar">
       <input id="graph-filter" type="search" placeholder="Filter graph nodes">
@@ -1010,8 +1445,8 @@ def timeline_body() -> str:
     return """
     <section class="page-head">
       <p class="eyebrow">Chronology</p>
-      <h1>Timeline</h1>
-      <p>Dated source groups and canonical family events, excluding operations pages.</p>
+      <h1>Family Timeline</h1>
+      <p>Dated record groups and established family events, with research operations kept out of the story view.</p>
     </section>
     <section id="timeline-list" class="timeline-list"></section>
     """
@@ -1020,9 +1455,9 @@ def timeline_body() -> str:
 def collections_body() -> str:
     return """
     <section class="page-head">
-      <p class="eyebrow">Vault Shelves</p>
-      <h1>Collections</h1>
-      <p>Every rendered wiki and research page, grouped by shelf.</p>
+      <p class="eyebrow">Research Backroom</p>
+      <h1>Rendered Shelves</h1>
+      <p>Every rendered wiki and research page, grouped by internal shelf.</p>
     </section>
     <section id="collection-list" class="collection-list"></section>
     """
@@ -1031,11 +1466,12 @@ def collections_body() -> str:
 def sources_body() -> str:
     return """
     <section class="page-head">
-      <p class="eyebrow">Converted Sources</p>
-      <h1>Sources</h1>
+      <p class="eyebrow">Source Library</p>
+      <h1>Family Records And Archive Sources</h1>
+      <p>Converted source groups are shown with presentation labels first; exact filenames and provenance remain inside each record page.</p>
     </section>
     <section class="source-browser-controls">
-      <input id="source-filter" type="search" placeholder="Filter converted sources">
+      <input id="source-filter" type="search" placeholder="Filter records, names, places">
     </section>
     <section id="source-browser" class="source-browser"></section>
     """
@@ -1043,20 +1479,53 @@ def sources_body() -> str:
 
 def render_markdown_page(page: SitePage, pages: list[SitePage], link_map: dict[str, SitePage]) -> str:
     source_link = html.escape(page.source_path.as_posix())
+    display_title = page.title
+    body_markdown = page.body
+    original_title = ""
+    if page.source_root == "converted":
+        display_title = converted_page_presentation_title(page)
+        body_markdown = strip_leading_heading(page.body)
+        if display_title != page.title:
+            original_title = f'<p class="source-path">Original source title: {html.escape(page.title)}</p>'
     body = f"""
     <article class="wiki-article">
       <header class="page-head">
         <p class="eyebrow">{html.escape(section_label(page.section))}</p>
-        <h1>{html.escape(page.title)}</h1>
+        <h1>{html.escape(display_title)}</h1>
+        {original_title}
         <p class="source-path">{source_link}</p>
       </header>
       {frontmatter_table(page.frontmatter)}
-      {markdown_to_html(page.body, page, link_map)}
+      {markdown_to_html(body_markdown, page, link_map)}
     </article>
     """
     depth = len(Path(page.site_rel).parent.parts)
-    active = "wiki-index" if page.source_root == "wiki" and page.vault_rel == "index.md" else page.section
-    return render_shell(page.title, body, active=active, depth=depth)
+    if page.source_root == "converted":
+        active = "source-library"
+    elif page.source_root == "wiki" and page.vault_rel == "index.md":
+        active = "wiki-index"
+    else:
+        active = page.section
+    return render_shell(display_title, body, active=active, depth=depth)
+
+
+def converted_page_presentation_title(page: SitePage) -> str:
+    summary = {
+        "title": page.title,
+        "technicalTitle": page.title,
+        "documentType": page.frontmatter.get("document_type", ""),
+        "pageRange": source_page_range(page.source_path.name),
+        "terms": matched_focus_terms(f"{page.title} {page.text}"),
+    }
+    summary["sourceLabel"] = source_cluster_label(summary)
+    return friendly_source_title(summary)
+
+
+def strip_leading_heading(markdown: str) -> str:
+    lines = markdown.splitlines()
+    if lines and lines[0].startswith("# "):
+        return "\n".join(lines[1:]).lstrip()
+    return markdown
 
 
 def frontmatter_table(frontmatter: dict[str, str]) -> str:
@@ -1214,12 +1683,12 @@ def escape_attr(value: str) -> str:
 def render_shell(title: str, body: str, active: str = "", depth: int = 0) -> str:
     prefix = "../" * depth
     nav = [
-        ("index.html", "Dashboard", "home"),
-        ("sources.html", "Sources", "sources"),
-        ("graph.html", "Graph", "research-graph"),
-        ("timeline.html", "Timeline", "timeline"),
-        ("collections.html", "Collections", "collections"),
-        ("wiki/index.html", "Wiki Index", "wiki-index"),
+        ("index.html", "Story", "home"),
+        ("timeline.html", "Timeline", "family-timeline"),
+        ("wiki/index.html", "Family Shelf", "wiki-index"),
+        ("sources.html", "Source Library", "source-library"),
+        ("graph.html", "Evidence Map", "evidence-map"),
+        ("research.html", "Research Backroom", "research"),
     ]
     nav_html = "\n".join(
         f'<a href="{prefix}{href}" class="{"active" if key == active else ""}">{label}</a>' for href, label, key in nav
@@ -1229,13 +1698,13 @@ def render_shell(title: str, body: str, active: str = "", depth: int = 0) -> str
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{html.escape(title)} | Genealogy Wiki</title>
+  <title>{html.escape(title)} | Family History</title>
   <link rel="stylesheet" href="{prefix}assets/styles.css">
 </head>
 <body data-active="{html.escape(active)}">
   <header class="topbar">
-    <a class="brand" href="{prefix}index.html">Genealogy Wiki</a>
-    <input id="site-search" type="search" placeholder="Search people, sources, claims">
+    <a class="brand" href="{prefix}index.html">Family History</a>
+    <input id="site-search" type="search" placeholder="Search names, places, records">
     <nav>{nav_html}</nav>
   </header>
   <div id="search-results" class="search-results" hidden></div>
@@ -1312,6 +1781,101 @@ main {
   width: min(1320px, calc(100vw - 32px));
   margin: 0 auto;
   padding: 24px 0 70px;
+}
+.story-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  gap: 22px;
+  align-items: end;
+  margin: 18px 0 18px;
+}
+.story-copy h1 {
+  margin: 0;
+  max-width: 980px;
+  font-size: clamp(2.4rem, 5vw, 5rem);
+  line-height: 1.02;
+  letter-spacing: 0;
+}
+.story-copy p {
+  max-width: 820px;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+.story-note {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+.story-note strong { color: var(--ink); }
+.story-note span { color: var(--muted); font-size: .92rem; }
+.story-metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.throughline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+.throughline-card {
+  display: flex;
+  min-width: 0;
+  min-height: 245px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+.throughline-card > span {
+  color: var(--gold);
+  font-size: .76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.throughline-card h3 {
+  margin: 0;
+  font-size: 1.18rem;
+  line-height: 1.18;
+}
+.throughline-card p {
+  margin: 0;
+  color: var(--muted);
+}
+.thread-meta {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  color: var(--muted);
+  font-size: .9rem;
+}
+.thread-meta strong { color: var(--teal); font-size: 1.45rem; }
+.thread-meta i { margin-left: auto; font-style: normal; color: var(--clay); font-weight: 800; }
+.thread-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: auto;
+}
+.thread-links a {
+  overflow-wrap: anywhere;
+  color: var(--teal);
+  font-size: .9rem;
+}
+.presentation-tools {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+.research-tool {
+  border-left: 4px solid var(--clay);
+}
+.story-grid {
+  margin-top: 24px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr);
 }
 .dashboard-head {
   display: flex;
@@ -1448,6 +2012,19 @@ main {
   color: var(--ink);
 }
 .mini-timeline-item span { color: var(--clay); font-weight: 800; }
+.ops-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ops-link-list a {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+}
+.ops-link-list a:hover { border-color: #a8b8cc; text-decoration: none; }
 .source-browser-controls { margin: 12px 0 16px; }
 .source-browser {
   display: grid;
@@ -1606,12 +2183,36 @@ code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
   color: var(--muted);
 }
 @media (max-width: 760px) {
-  .topbar { grid-template-columns: 1fr; }
-  nav { justify-content: flex-start; }
+  .topbar {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: stretch;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+  nav a {
+    display: flex;
+    min-height: 34px;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.15;
+    font-size: .86rem;
+  }
+  .story-head { grid-template-columns: 1fr; }
+  .story-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dashboard-head { display: block; }
   .alert-strip { grid-template-columns: 1fr; }
   .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dashboard-grid { grid-template-columns: 1fr; }
+  .story-grid { grid-template-columns: 1fr; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-panel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; }
@@ -1619,6 +2220,8 @@ code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
 @media (min-width: 761px) and (max-width: 1120px) {
   .metric-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .dashboard-grid { grid-template-columns: 1fr; }
+  .story-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-grid { grid-template-columns: 1fr; }
 }
 """
 
@@ -1649,7 +2252,7 @@ SITE_JS = r"""
         return;
       }
       const matches = data.pages
-        .filter((page) => `${page.title} ${page.section} ${page.snippet}`.toLowerCase().includes(query))
+        .filter((page) => `${page.title} ${page.technicalTitle || ""} ${page.section} ${page.snippet}`.toLowerCase().includes(query))
         .slice(0, 12);
       results.innerHTML = matches.length
         ? matches.map((page) => `<a href="${rootPrefix()}${page.url}"><strong>${escapeHtml(page.title)}</strong><br><small>${escapeHtml(page.section)} &middot; ${escapeHtml(page.snippet || "")}</small></a>`).join("")
@@ -1701,13 +2304,14 @@ SITE_JS = r"""
     function draw() {
       const query = (filter && filter.value || "").trim().toLowerCase();
       const rows = sources
-        .filter((source) => !query || `${source.title} ${source.status} ${source.snippet} ${(source.terms || []).join(" ")}`.toLowerCase().includes(query))
+        .filter((source) => !query || `${source.displayTitle || ""} ${source.title} ${source.technicalTitle || ""} ${source.sourceLabel || ""} ${source.status} ${source.snippet} ${(source.terms || []).join(" ")}`.toLowerCase().includes(query))
         .slice(0, 120);
       target.innerHTML = rows.length
         ? rows.map((source) => {
           const terms = (source.terms || []).map((term) => `<span>${escapeHtml(term)}</span>`).join("");
-          const bits = [source.documentType, source.pageRange ? `pages ${source.pageRange}` : "", source.chunks ? `${source.chunks} chunks` : "", source.status].filter(Boolean).join(" &middot; ");
-          return `<a class="source-row" href="${escapeHtml(source.url)}"><strong>${escapeHtml(source.title)}</strong><small>${escapeHtml(bits)}</small><p>${escapeHtml(source.snippet || "")}</p><span class="term-list">${terms}</span></a>`;
+          const bits = [source.sourceLabel || source.documentType, source.pageRange ? `pages ${source.pageRange}` : "", (source.dates || []).slice(0, 2).join(", ")].filter(Boolean).join(" &middot; ");
+          const title = source.displayTitle || source.title;
+          return `<a class="source-row" href="${escapeHtml(source.url)}" title="${escapeHtml(source.technicalTitle || source.title || "")}"><strong>${escapeHtml(title)}</strong><small>${escapeHtml(bits)}</small><p>${escapeHtml(source.snippet || "")}</p><span class="term-list">${terms}</span></a>`;
         }).join("")
         : '<div class="empty-state">No matching converted sources.</div>';
     }
@@ -1725,7 +2329,7 @@ SITE_JS = r"""
       let nodes = graphNodes.map((page) => ({ ...page }));
       let links = data.links.map((link) => ({ ...link }));
       if (query) {
-        const keep = new Set(nodes.filter((node) => `${node.title} ${node.section}`.toLowerCase().includes(query)).map((node) => node.id));
+        const keep = new Set(nodes.filter((node) => `${node.title} ${node.technicalTitle || ""} ${node.section}`.toLowerCase().includes(query)).map((node) => node.id));
         links.forEach((link) => {
           if (keep.has(link.source) || keep.has(link.target)) {
             keep.add(link.source);
