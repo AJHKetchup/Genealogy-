@@ -8,14 +8,16 @@ It is for internal research and wiki development only. It does not perform exter
 
 - Workflow: `.github/workflows/internal-research-agents.yml`
 - Schedule: hourly at minute 17
+- Source triggers: main-branch pushes to converted Markdown, chunk manifests/chunks, controller code, or this workflow
+- Conversion trigger: successful `Cloud Source Conversion` workflow completions
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12
-- Scheduled promotion: enabled in a separate one-worker promotion-only pass after ordinary QA/extraction/review
+- Automatic promotion: enabled in a separate one-worker promotion-only pass after ordinary QA/extraction/review
 - Runtime: GitHub-hosted `windows-latest`
 - Auth: Codex CLI with ChatGPT-managed `auth.json`
 - API keys: forbidden for this lane
 
-Scheduled GitHub workflows only run from the repository default branch, so this file must be merged to `main` before the hourly PC-off runner is live.
+Scheduled and push-triggered GitHub workflows only run from the repository default branch, so this file must be merged to `main` before the PC-off runner is live.
 
 ## Required GitHub Secret
 

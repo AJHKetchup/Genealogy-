@@ -23,7 +23,7 @@ The PC-off runner is now the GitHub-hosted workflow:
 .github/workflows/internal-research-agents.yml
 ```
 
-It runs hourly on `windows-latest`, restores ChatGPT-managed Codex auth from `CODEX_AUTH_JSON_B64` or `CODEX_AUTH_JSON`, refuses provider API keys, launches bounded `codex exec` workers through the controller, waits for them to drain, and commits GitHub-safe research/wiki outputs. Setup details are in `docs/internal_research_agents_pc_off.md`.
+It runs hourly on `windows-latest`, after successful cloud conversion completions, and on main-branch pushes that change converted/chunked source outputs or the agent/controller code. It restores ChatGPT-managed Codex auth from `CODEX_AUTH_JSON_B64` or `CODEX_AUTH_JSON`, refuses provider API keys, launches bounded `codex exec` workers through the controller, waits for them to drain, and commits GitHub-safe research/wiki outputs. Setup details are in `docs/internal_research_agents_pc_off.md`.
 
 Local accelerator, for when the Windows workspace is available:
 
@@ -68,7 +68,7 @@ For Codex specifically, the problem observed on 2026-05-17 was the Codex app `wo
 - Do not claim multiple tasks that write the same staged draft, same review note, same source packet, or same canonical target.
 - Do not mix promotion into a QA, extraction, or proof-review batch.
 
-Promotion remains disabled unless a separate promotion run is explicitly configured and reviewed material recommends `promote`.
+Automatic hosted runs include a separate one-worker promotion pass after QA/extraction/review. Promotion still requires reviewed material that explicitly recommends canonical readiness; the promoter is not allowed to turn unreviewed staging drafts into public family narrative.
 
 ## Adaptive Conversion
 

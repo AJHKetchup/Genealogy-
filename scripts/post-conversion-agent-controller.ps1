@@ -193,6 +193,15 @@ function Get-StatusCounts {
     return $counts
 }
 
+function Get-QueueStatusCountsFromFile {
+    param([string]$Path)
+    $payload = Read-JsonFile -Path $Path -Default ([pscustomobject]@{ status_counts = [pscustomobject]@{} })
+    if ($null -eq $payload -or $null -eq $payload.PSObject.Properties["status_counts"]) {
+        return [ordered]@{}
+    }
+    return $payload.status_counts
+}
+
 function Test-ProcessAlive {
     param([int]$ProcessId)
     return $null -ne (Get-Process -Id $ProcessId -ErrorAction SilentlyContinue)
@@ -748,6 +757,8 @@ try {
             $identityQueue = Write-IdentityAnalysisQueue -TaskState $taskState
             $reviewQueue = Write-ProofReviewQueue -TaskState $taskState
             $promotionQueue = Write-PromotionQueue -TaskState $taskState
+            $summary.queues["conversion-qa"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "conversion-qa.json")
+            $summary.queues["evidence-extraction"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "evidence-extraction.json")
             $summary.queues["identity-analysis"] = $identityQueue.status_counts
             $summary.queues["proof-review"] = $reviewQueue.status_counts
             $summary.queues["wiki-promotion"] = $promotionQueue.status_counts

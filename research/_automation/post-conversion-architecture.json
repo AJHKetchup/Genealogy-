@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-19",
+  "updated": "2026-05-20",
   "name": "post-conversion-autopilot",
   "purpose": "Coordinate post-conversion genealogy work using the Karpathy LLM Wiki pattern: durable Markdown/JSON state, immutable sources, schema-guided agents, and no provider API keys for the post-conversion lane.",
   "path_note": "C:/Users/Big Al/Documents/New project is a junction to C:/Users/Big Al/Documents/Genealogy; Python may print the resolved target path while operating on the same files.",
@@ -10,7 +10,7 @@
     "status": "active_on_default_branch",
     "workflow": ".github/workflows/internal-research-agents.yml",
     "runner": "GitHub-hosted windows-latest",
-    "schedule": "hourly at minute 17",
+    "schedule": "hourly at minute 17, plus main-branch pushes to converted/chunked source outputs or agent/controller code, plus successful Cloud Source Conversion workflow completions",
     "auth": "ChatGPT-managed Codex auth restored from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
     "provider_api_keys": "forbidden",
     "activation_requirements": [
@@ -29,7 +29,7 @@
     "trigger_contract": "The site rebuilds on main pushes, hourly at minute 41, and after successful Internal Research Agents runs.",
     "separation_contract": "Public pages are person/tree/narrative first. Converted chunks, source-operation dates, QA queues, staging prompts, and automation internals stay in research.html or the source library.",
     "timeline_contract": "The public timeline includes family events and person facts only, never raw converted source dates or automation dates.",
-    "promotion_contract": "Scheduled internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible.",
+    "promotion_contract": "Automatic internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible.",
     "pc_dependency": "none for hosted workflow runs",
     "provider_api_keys": "not required"
   },
