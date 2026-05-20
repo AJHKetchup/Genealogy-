@@ -59,6 +59,21 @@ After workers drain, the workflow commits/pushes GitHub-safe research/wiki state
 python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --message "Run internal research agents"
 ```
 
+## Presentation Wiki
+
+The family-facing site is a separate generated layer, described in `research/_automation/family-presentation-architecture.json`.
+
+The `Publish Wiki Site` workflow rebuilds the internal Ancestry-style presentation automatically on pushes to `main`, hourly at minute 41, and after a successful `Internal Research Agents` run. It renders:
+
+- `index.html`: home person, family tree preview, people, relationships, family lines, LifeStory chapters, and family timeline
+- `tree.html`: canonical person/relationship tree
+- `people.html`: family profiles and branch pages
+- `timeline.html`: family events and person facts only
+- `sources.html`: supporting records and citations
+- `research.html`: QA, staging, queues, proof review, source usability, and automation state
+
+Converted chunks, source-operation dates, QA prompts, and agent queue internals stay out of the presentation dashboard. They remain available in the source library and research backroom.
+
 ## Boundaries
 
 The internal workflow must not:

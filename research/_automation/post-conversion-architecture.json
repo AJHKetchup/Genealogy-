@@ -21,6 +21,17 @@
     "default_parallelism": 3,
     "default_run_minutes": 45
   },
+  "family_presentation": {
+    "status": "active_on_default_branch",
+    "architecture": "research/_automation/family-presentation-architecture.json",
+    "workflow": ".github/workflows/wiki-site.yml",
+    "purpose": "Render an internal Ancestry-style family wiki from canonical people, relationships, families, events, photos, narratives, and supporting source links.",
+    "trigger_contract": "The site rebuilds on main pushes, hourly at minute 41, and after successful Internal Research Agents runs.",
+    "separation_contract": "Public pages are person/tree/narrative first. Converted chunks, source-operation dates, QA queues, staging prompts, and automation internals stay in research.html or the source library.",
+    "timeline_contract": "The public timeline includes family events and person facts only, never raw converted source dates or automation dates.",
+    "pc_dependency": "none for hosted workflow runs",
+    "provider_api_keys": "not required"
+  },
   "api_policy": {
     "provider_api_keys_forbidden": true,
     "forbidden_for_post_conversion": ["OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GOOGLE_GENERATIVE_AI_API_KEY", "GEMINI_API_KEY"],

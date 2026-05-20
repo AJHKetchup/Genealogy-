@@ -2,19 +2,26 @@
 
 ## People
 
-- No canonical person pages with promoted evidence were discoverable in the shared repository as of 2026-05-14.
+- [[people/alexander-john-heinz|Alexander John Heinz]]
+- [[people/dario-arturo-pulgar-smith|Dario Arturo Pulgar-Smith]]
 
 ## Branches
 
 ## Families
 
+- [[families/alexander-john-heinz-family|Alexander John Heinz Family]]
+
 ## Relationships
+
+- [[relationships/dario-arturo-pulgar-smith-maternal-grandfather-of-alexander-john-heinz|Dario Arturo Pulgar-Smith is Alexander John Heinz's maternal grandfather]]
 
 ## Events
 
 ## Places
 
 ## Sources
+
+- [[sources/user-family-knowledge-2026-05-20|Family knowledge supplied by Alexander John Heinz]]
 
 ## Source Packets
 
@@ -36,7 +43,7 @@
 
 ## Narratives
 
-- No individual narratives compiled yet. Narrative creation is pending promotion of reviewed evidence into canonical person and claim pages.
+- [[narratives/alexander-john-heinz-family-history-start|Starting the Alexander John Heinz Family History]]
 
 ## Context
 

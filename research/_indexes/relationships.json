@@ -1,3 +1,18 @@
 {
-  "relationships": []
+  "relationships": [
+    {
+      "id": "dario",
+      "path": "wiki/relationships/dario-arturo-pulgar-smith-maternal-grandfather-of-alexander-john-heinz.md",
+      "status": "family_supplied",
+      "relationship_type": "maternal_grandfather",
+      "confidence": 9.0,
+      "calculated_confidence": null,
+      "person_a": "[[people/dario-arturo-pulgar-smith]]",
+      "person_b": "[[people/alexander-john-heinz]]",
+      "supporting_claims": [],
+      "conflicting_claims": [],
+      "evidence_for": "- Family knowledge supplied directly by Alexander John Heinz on 2026-05-20.",
+      "evidence_against": "- No conflicting evidence has been staged in the wiki."
+    }
+  ]
 }

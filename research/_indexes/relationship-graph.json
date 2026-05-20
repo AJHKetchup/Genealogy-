@@ -1,4 +1,28 @@
 {
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "[[people/dario-arturo-pulgar-smith]]",
+      "label": "Dario Arturo Pulgar Smith",
+      "target": "people/dario-arturo-pulgar-smith"
+    },
+    {
+      "id": "[[people/alexander-john-heinz]]",
+      "label": "Alexander John Heinz",
+      "target": "people/alexander-john-heinz"
+    }
+  ],
+  "edges": [
+    {
+      "id": "dario",
+      "path": "wiki/relationships/dario-arturo-pulgar-smith-maternal-grandfather-of-alexander-john-heinz.md",
+      "from": "[[people/dario-arturo-pulgar-smith]]",
+      "to": "[[people/alexander-john-heinz]]",
+      "type": "maternal_grandfather",
+      "status": "family_supplied",
+      "confidence": 9.0,
+      "calculated_confidence": null,
+      "supporting_claims": [],
+      "conflicting_claims": []
+    }
+  ]
 }

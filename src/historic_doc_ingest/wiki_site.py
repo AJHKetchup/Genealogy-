@@ -177,6 +177,8 @@ def build_wiki_site(root: Path, output: Path | None = None, include_research: bo
     write_text(output / "assets" / "app.js", SITE_JS)
 
     write_text(output / "index.html", render_home_page(pages, data))
+    write_text(output / "tree.html", render_tree_page(data))
+    write_text(output / "people.html", render_people_page(data))
     write_text(output / "research.html", render_research_dashboard_page(pages, data))
     write_text(output / "graph.html", render_special_page("Evidence Map", graph_body()))
     write_text(output / "timeline.html", render_special_page("Family Timeline", timeline_body()))
@@ -501,8 +503,7 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
             "type": page.page_type,
         }
         for page in pages
-        if include_in_timeline(page)
-        for date in page.dates
+        for date in public_timeline_dates(page)
     ]
     for item in timeline_items:
         page = page_by_url_candidate(pages, str(item["url"]))
@@ -511,8 +512,9 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
     timeline_items.sort(key=lambda item: item["date"])
     deduped_edges = dedupe_edges(graph_edges)
     graph_nodes = build_graph_nodes(page_items, deduped_edges, source_summaries)
+    family_wiki = build_family_wiki(pages, link_map, timeline_items)
     dashboard = build_dashboard(root, pages, source_summaries, chunk_stats, queue_summaries, timeline_items)
-    presentation = build_presentation(pages, source_summaries, timeline_items)
+    presentation = build_presentation(pages, source_summaries, timeline_items, family_wiki)
 
     return {
         "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
@@ -523,6 +525,7 @@ def build_site_data(root: Path, pages: list[SitePage], link_map: dict[str, SiteP
         "timeline": timeline_items[:500],
         "dashboard": dashboard,
         "presentation": presentation,
+        "familyWiki": family_wiki,
         "sections": [
             {"id": section, "label": section_label(section), "count": count}
             for section, count in sorted(counts.items())
@@ -928,14 +931,182 @@ def include_in_graph(page_item: dict[str, object]) -> bool:
 
 
 def include_in_timeline(page: SitePage) -> bool:
-    if page.source_root == "research" and page.section in {"overview", "home"}:
-        return False
-    if page.section not in TIMELINE_SECTIONS:
-        return False
+    return bool(public_timeline_dates(page))
+
+
+def public_timeline_dates(page: SitePage) -> list[str]:
+    if page.source_root != "wiki":
+        return []
     lower_title = page.title.lower()
     if any(term in lower_title for term in ("dashboard", "index", "log", "research plan", "source usability")):
-        return False
-    return bool(page.dates)
+        return []
+    if page.section == "people":
+        return timeline_dates_from_fields(page, ["birth", "death", "baptism", "burial"])
+    if page.section == "events":
+        dates = timeline_dates_from_fields(page, ["date", "year", "event_date", "start_date", "end_date"])
+        return dates or page.dates[:1]
+    if page.section in {"families", "relationships"}:
+        return timeline_dates_from_fields(page, ["marriage", "date", "event_date", "start_date"])
+    if page.section in {"photos", "places"}:
+        return timeline_dates_from_fields(page, ["date", "year", "event_date"])
+    if page.section == "narratives":
+        return timeline_dates_from_fields(page, ["event_date", "timeline_date"])
+    return []
+
+
+def timeline_dates_from_fields(page: SitePage, fields: list[str]) -> list[str]:
+    dates: list[str] = []
+    for field in fields:
+        for date in extract_dates(page.frontmatter.get(field, "")):
+            if date not in dates:
+                dates.append(date)
+    return dates
+
+
+def build_family_wiki(
+    pages: list[SitePage],
+    link_map: dict[str, SitePage],
+    timeline_items: list[dict[str, object]],
+) -> dict[str, object]:
+    people_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section == "people"],
+        key=lambda page: (not frontmatter_bool(page.frontmatter.get("home_person", "")), page.title.lower()),
+    )
+    relationship_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section == "relationships"],
+        key=lambda page: page.title.lower(),
+    )
+    family_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section in {"branches", "families"}],
+        key=lambda page: page.title.lower(),
+    )
+    narrative_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section == "narratives"],
+        key=lambda page: page.title.lower(),
+    )
+    event_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section == "events"],
+        key=lambda page: page.title.lower(),
+    )
+    photo_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section == "photos"],
+        key=lambda page: page.title.lower(),
+    )
+    source_pages = sorted(
+        [page for page in pages if page.source_root == "wiki" and page.section in {"sources", "source-packets"}],
+        key=lambda page: page.title.lower(),
+    )
+    people = [family_page_card(page) for page in people_pages]
+    relationships = [relationship_card(page, link_map) for page in relationship_pages]
+    families = [family_page_card(page) for page in family_pages]
+    narratives = [family_page_card(page) for page in narrative_pages]
+    events = [family_page_card(page) for page in event_pages]
+    photos = [family_page_card(page) for page in photo_pages]
+    sources = [family_page_card(page) for page in source_pages]
+    home_person = next((person for person in people if person.get("homePerson")), people[0] if people else None)
+    direct_relationships = direct_relationships_for_home(relationships, home_person)
+    stats = [
+        {"label": "People", "value": len(people), "detail": "canonical family profiles"},
+        {"label": "Relationships", "value": len(relationships), "detail": "tree connections"},
+        {"label": "Family Lines", "value": len(families), "detail": "branches and families"},
+        {"label": "Stories", "value": len(narratives), "detail": "family-history chapters"},
+    ]
+    return {
+        "homePerson": home_person,
+        "people": people,
+        "relationships": relationships,
+        "directRelationships": direct_relationships,
+        "families": families,
+        "narratives": narratives,
+        "events": events,
+        "photos": photos,
+        "sources": sources,
+        "timelinePreview": timeline_items[:10],
+        "stats": stats,
+    }
+
+
+def family_page_card(page: SitePage) -> dict[str, object]:
+    return {
+        "title": page.title,
+        "url": page.site_rel,
+        "section": page.section,
+        "type": page.page_type,
+        "status": page.frontmatter.get("status", ""),
+        "relationToHome": page.frontmatter.get("relation_to_home", ""),
+        "homePerson": frontmatter_bool(page.frontmatter.get("home_person", "")),
+        "dates": public_timeline_dates(page)[:3],
+        "snippet": page.text[:280],
+    }
+
+
+def relationship_card(page: SitePage, link_map: dict[str, SitePage]) -> dict[str, object]:
+    relationship_type = page.frontmatter.get("relationship_type", "relationship")
+    person_a = resolve_page_reference(page.frontmatter.get("person_a", ""), link_map)
+    person_b = resolve_page_reference(page.frontmatter.get("person_b", ""), link_map)
+    return {
+        "title": page.title,
+        "url": page.site_rel,
+        "type": relationship_type,
+        "label": relationship_type_label(relationship_type),
+        "status": page.frontmatter.get("status", ""),
+        "confidence": page.frontmatter.get("confidence", ""),
+        "personA": person_a,
+        "personB": person_b,
+        "snippet": page.text[:280],
+    }
+
+
+def resolve_page_reference(value: str, link_map: dict[str, SitePage]) -> dict[str, str]:
+    value = (value or "").strip()
+    if value.startswith("[[") and value.endswith("]]"):
+        value = value[2:-2]
+    target, label = split_wikilink(value)
+    resolved = link_map.get(normalize_link_key(target))
+    if resolved:
+        return {"label": resolved.title, "url": resolved.site_rel, "target": normalize_link_key(target)}
+    return {"label": label or target, "url": "", "target": normalize_link_key(target)}
+
+
+def direct_relationships_for_home(
+    relationships: list[dict[str, object]],
+    home_person: dict[str, object] | None,
+) -> list[dict[str, object]]:
+    if not home_person:
+        return relationships[:8]
+    home_url = str(home_person.get("url") or "")
+    direct = []
+    for relationship in relationships:
+        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+        if person_a.get("url") == home_url or person_b.get("url") == home_url:
+            direct.append(relationship)
+    return direct or relationships[:8]
+
+
+def frontmatter_bool(value: str) -> bool:
+    return str(value).strip().lower() in {"true", "yes", "1"}
+
+
+def relationship_type_label(value: str) -> str:
+    labels = {
+        "parent_child": "parent of",
+        "proven_parent": "parent of",
+        "probable_parent": "probable parent of",
+        "possible_parent": "possible parent of",
+        "spouse": "spouse of",
+        "child": "child of",
+        "sibling": "sibling of",
+        "maternal_grandfather": "maternal grandfather of",
+        "paternal_grandfather": "paternal grandfather of",
+        "maternal_grandmother": "maternal grandmother of",
+        "paternal_grandmother": "paternal grandmother of",
+        "grandparent": "grandparent of",
+        "grandchild": "grandchild of",
+        "same_person_candidate": "possible same person as",
+        "name_variant": "name variant of",
+    }
+    return labels.get(value, prettify_stem(value or "connected to").lower())
 
 
 def build_dashboard(
@@ -985,41 +1156,22 @@ def build_presentation(
     pages: list[SitePage],
     source_summaries: list[dict[str, object]],
     timeline_items: list[dict[str, object]],
+    family_wiki: dict[str, object],
 ) -> dict[str, object]:
     throughlines = build_throughlines(source_summaries)
-    family_sources = [
-        source
-        for source in source_summaries
-        if {"Pulgar", "Arriagada"} & set(str(term) for term in source.get("terms", []))
-    ]
-    dated_sources = [source for source in source_summaries if source.get("dates")]
     canonical_pages = [page for page in pages if page.source_root == "wiki" and page.page_type != "template"]
-    stats = [
-        {
-            "label": "Converted records",
-            "value": len(source_summaries),
-            "detail": "source-backed material available",
-        },
-        {
-            "label": "Family-name records",
-            "value": len(family_sources),
-            "detail": "mention Pulgar or Arriagada",
-        },
-        {
-            "label": "Dated entries",
-            "value": len({str(item.get("date")) for item in timeline_items if item.get("date")}),
-            "detail": "ready for chronology",
-        },
-        {
-            "label": "Story threads",
-            "value": len([thread for thread in throughlines if int(thread.get("sourceCount", 0)) > 0]),
-            "detail": "auto-built from source clusters",
-        },
-    ]
     return {
-        "stats": stats,
+        "stats": family_wiki.get("stats", []),
+        "homePerson": family_wiki.get("homePerson"),
+        "people": family_wiki.get("people", [])[:8],
+        "relationships": family_wiki.get("directRelationships", [])[:8],
+        "families": family_wiki.get("families", [])[:6],
+        "narratives": family_wiki.get("narratives", [])[:6],
+        "photos": family_wiki.get("photos", [])[:6],
+        "sourceShelfCount": len(family_wiki.get("sources", [])) + len(source_summaries),
+        "publicTimelineCount": len(timeline_items),
         "throughlines": throughlines,
-        "featuredSources": select_featured_sources(source_summaries),
+        "featuredSources": select_featured_sources(source_summaries)[:4],
         "timelinePreview": timeline_items[:8],
         "canonicalPageCount": len(canonical_pages),
     }
@@ -1174,52 +1326,253 @@ def section_label(section: str) -> str:
 
 def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
     presentation = data.get("presentation", {}) if isinstance(data.get("presentation"), dict) else {}
+    family_wiki = data.get("familyWiki", {}) if isinstance(data.get("familyWiki"), dict) else {}
     stats = render_dashboard_stats(presentation.get("stats", []))
-    throughlines = render_throughline_cards(presentation.get("throughlines", []))
-    featured = render_source_cards(presentation.get("featuredSources", []), mode="presentation")
-    timeline = render_timeline_preview(presentation.get("timelinePreview", []))
+    home_person = render_home_person_card(presentation.get("homePerson"))
+    tree_preview = render_tree_preview(family_wiki)
+    relationships = render_relationship_cards(presentation.get("relationships", []))
+    people = render_person_cards(presentation.get("people", []))
+    families = render_family_cards(presentation.get("families", []))
+    narratives = render_narrative_cards(presentation.get("narratives", []))
+    timeline = render_timeline_preview(presentation.get("timelinePreview", []), empty="No dated family events yet.")
     canonical_count = int(presentation.get("canonicalPageCount", 0) or 0)
+    source_count = int(presentation.get("sourceShelfCount", 0) or 0)
     body = f"""
-    <section class="story-head">
+    <section class="family-hero">
       <div class="story-copy">
         <p class="eyebrow">Family History</p>
-        <h1>Pulgar-Arriagada Family History</h1>
-        <p>A front-facing view of the family narrative as it comes together: throughlines, chronology, source-backed context, and the established wiki shelf.</p>
+        <h1>Alexander John Heinz Family History</h1>
+        <p>A person-first family wiki that opens with the tree, then follows people, relationships, LifeStory chapters, facts, places, photos, and the records that support them.</p>
       </div>
-      <aside class="story-note">
-        <strong>Presentation layer</strong>
-        <span>{canonical_count} canonical wiki pages are available now. Research operations, queues, and QA live in the backroom.</span>
-      </aside>
+      {home_person}
     </section>
     <section class="metric-grid story-metrics">{stats}</section>
     <section class="section-heading">
-      <h2>Story Throughlines</h2>
-      <span>Grouped from recurring names, places, and record types</span>
+      <h2>Family Tree</h2>
+      <span>Built automatically from canonical relationship pages</span>
     </section>
-    <section class="throughline-grid">{throughlines}</section>
+    {tree_preview}
     <section class="section-heading">
-      <h2>Explore The Family History</h2>
-      <span>Presentation first, research details one level deeper</span>
+      <h2>Explore</h2>
+      <span>Family-facing views first, research operations separate</span>
     </section>
     <section class="tool-grid presentation-tools">
-      <a class="tool-link" href="timeline.html"><span>Chronology</span><strong>Family Timeline</strong><small>Dated source groups and promoted family events.</small></a>
-      <a class="tool-link" href="wiki/index.html"><span>Established Pages</span><strong>Family Shelf</strong><small>Canonical family-tree and wiki pages as they are promoted.</small></a>
-      <a class="tool-link" href="sources.html"><span>Records</span><strong>Source Library</strong><small>Converted records with human labels and provenance links.</small></a>
-      <a class="tool-link" href="graph.html"><span>Map</span><strong>Evidence Map</strong><small>Names, places, and record clusters connected visually.</small></a>
-      <a class="tool-link research-tool" href="research.html"><span>Backroom</span><strong>Research Operations</strong><small>Queues, QA, source usability, and automation state.</small></a>
+      <a class="tool-link" href="tree.html"><span>Tree</span><strong>Family Tree</strong><small>People and relationships around the home person.</small></a>
+      <a class="tool-link" href="people.html"><span>Profiles</span><strong>People</strong><small>Individual pages, relationship positions, facts, and stories.</small></a>
+      <a class="tool-link" href="timeline.html"><span>Life Events</span><strong>Family Timeline</strong><small>Births, marriages, residences, migrations, deaths, and story events.</small></a>
+      <a class="tool-link" href="sources.html"><span>Citations</span><strong>Source Library</strong><small>Records and citations that support the family pages.</small></a>
+      <a class="tool-link research-tool" href="research.html"><span>Backroom</span><strong>Research Dashboard</strong><small>QA, staging, proof review, queues, and automation state.</small></a>
     </section>
-    <section class="dashboard-grid story-grid">
-      <article class="panel panel-wide">
-        <div class="panel-head"><h2>Featured Records</h2><a href="sources.html">Source Library</a></div>
-        <div class="source-card-grid">{featured}</div>
+    <section class="family-grid">
+      <article>
+        <div class="panel-head"><h2>People</h2><a href="people.html">All people</a></div>
+        <div class="person-card-grid">{people}</div>
       </article>
-      <article class="panel">
-        <div class="panel-head"><h2>Chronology Preview</h2><a href="timeline.html">Timeline</a></div>
+      <article>
+        <div class="panel-head"><h2>Direct Relationships</h2><a href="tree.html">Tree</a></div>
+        <div class="relationship-list">{relationships}</div>
+      </article>
+      <article>
+        <div class="panel-head"><h2>Family Lines</h2><a href="people.html">People</a></div>
+        <div class="person-card-grid">{families}</div>
+      </article>
+      <article>
+        <div class="panel-head"><h2>LifeStory Chapters</h2><a href="wiki/index.html">Wiki index</a></div>
+        <div class="story-card-grid">{narratives}</div>
+      </article>
+      <article>
+        <div class="panel-head"><h2>Family Timeline</h2><a href="timeline.html">Timeline</a></div>
         {timeline}
+      </article>
+      <article class="research-summary">
+        <div class="panel-head"><h2>Research Backroom</h2><a href="research.html">Dashboard</a></div>
+        <p>{canonical_count} canonical wiki pages are available now. {source_count} supporting record pages are kept as citations and source-library material, not as the narrative itself.</p>
       </article>
     </section>
     """
     return render_shell("Family History Dashboard", body, active="home")
+
+
+def render_home_person_card(home_person: object) -> str:
+    if not isinstance(home_person, dict):
+        return """
+        <aside class="home-person-card">
+          <span>Home Person</span>
+          <strong>Not set yet</strong>
+          <small>Add a canonical person page with <code>home_person: true</code>.</small>
+        </aside>
+        """
+    relation = str(home_person.get("relationToHome") or "Home person")
+    return f"""
+    <aside class="home-person-card">
+      <span>Home Person</span>
+      <strong>{html.escape(str(home_person.get("title", "")))}</strong>
+      <small>{html.escape(relation)}</small>
+      <a href="{escape_attr(str(home_person.get("url", "#")))}">Open profile</a>
+    </aside>
+    """
+
+
+def render_tree_preview(family_wiki: dict[str, object]) -> str:
+    home_person = family_wiki.get("homePerson") if isinstance(family_wiki.get("homePerson"), dict) else None
+    relationships = family_wiki.get("directRelationships", [])
+    if not home_person or not isinstance(relationships, list) or not relationships:
+        return '<section class="tree-board"><div class="empty-state">No family relationships are ready for the presentation tree yet.</div></section>'
+    ancestor_nodes = []
+    peer_nodes = []
+    descendant_nodes = []
+    home_url = str(home_person.get("url") or "")
+    for relationship in relationships:
+        if not isinstance(relationship, dict):
+            continue
+        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+        rel_type = str(relationship.get("type") or "")
+        if person_b.get("url") == home_url and any(term in rel_type for term in ("parent", "grandfather", "grandmother", "grandparent")):
+            ancestor_nodes.append(render_tree_person(person_a, relationship))
+        elif person_a.get("url") == home_url and any(term in rel_type for term in ("child", "grandchild")):
+            descendant_nodes.append(render_tree_person(person_b, relationship))
+        else:
+            other = person_b if person_a.get("url") == home_url else person_a
+            peer_nodes.append(render_tree_person(other, relationship))
+    ancestor_html = "".join(ancestor_nodes) or '<div class="tree-placeholder">Ancestors will appear here</div>'
+    peer_html = "".join(peer_nodes)
+    descendant_html = "".join(descendant_nodes)
+    home_html = render_tree_person(
+        {"label": str(home_person.get("title", "")), "url": str(home_person.get("url", ""))},
+        {"label": "home person", "status": str(home_person.get("status", "")), "confidence": ""},
+        home=True,
+    )
+    return f"""
+    <section class="tree-board">
+      <div class="tree-generation ancestors">{ancestor_html}</div>
+      <div class="tree-connector" aria-hidden="true"></div>
+      <div class="tree-generation home-row">{home_html}{peer_html}</div>
+      {f'<div class="tree-connector" aria-hidden="true"></div><div class="tree-generation descendants">{descendant_html}</div>' if descendant_html else ''}
+    </section>
+    """
+
+
+def render_tree_person(person: object, relationship: object, home: bool = False) -> str:
+    person = person if isinstance(person, dict) else {}
+    relationship = relationship if isinstance(relationship, dict) else {}
+    title = str(person.get("label") or "Unknown person")
+    href = str(person.get("url") or "#")
+    label = str(relationship.get("label") or "")
+    status = str(relationship.get("status") or "").replace("_", " ")
+    confidence = str(relationship.get("confidence") or "")
+    meta = " / ".join(part for part in [label, status, f"confidence {confidence}" if confidence else ""] if part)
+    class_name = "tree-person home-person" if home else "tree-person"
+    return f"""
+    <a class="{class_name}" href="{escape_attr(href)}">
+      <strong>{html.escape(title)}</strong>
+      <small>{html.escape(meta)}</small>
+    </a>
+    """
+
+
+def render_person_cards(people: object) -> str:
+    if not isinstance(people, list) or not people:
+        return '<div class="empty-state">No canonical people are ready yet.</div>'
+    return "\n".join(render_family_card(person, class_name="person-card") for person in people if isinstance(person, dict))
+
+
+def render_family_cards(families: object) -> str:
+    if not isinstance(families, list) or not families:
+        return '<div class="empty-state">No family branches have been added yet.</div>'
+    return "\n".join(render_family_card(family, class_name="person-card family-card") for family in families if isinstance(family, dict))
+
+
+def render_narrative_cards(narratives: object) -> str:
+    if not isinstance(narratives, list) or not narratives:
+        return '<div class="empty-state">No LifeStory chapters have been compiled yet.</div>'
+    return "\n".join(render_family_card(narrative, class_name="story-card") for narrative in narratives if isinstance(narrative, dict))
+
+
+def render_family_card(item: dict[str, object], class_name: str) -> str:
+    meta_parts = [
+        str(item.get("relationToHome") or "").strip(),
+        str(item.get("status") or "").replace("_", " ").strip(),
+        ", ".join(str(date) for date in item.get("dates", [])[:2]) if isinstance(item.get("dates"), list) else "",
+    ]
+    meta = " | ".join(part for part in meta_parts if part)
+    return f"""
+    <a class="{class_name}" href="{escape_attr(str(item.get("url", "#")))}">
+      <strong>{html.escape(str(item.get("title", "")))}</strong>
+      <small>{html.escape(meta)}</small>
+      <p>{html.escape(str(item.get("snippet", "")))}</p>
+    </a>
+    """
+
+
+def render_relationship_cards(relationships: object) -> str:
+    if not isinstance(relationships, list) or not relationships:
+        return '<div class="empty-state">No relationship pages are ready yet.</div>'
+    cards = []
+    for relationship in relationships:
+        if not isinstance(relationship, dict):
+            continue
+        person_a = relationship.get("personA") if isinstance(relationship.get("personA"), dict) else {}
+        person_b = relationship.get("personB") if isinstance(relationship.get("personB"), dict) else {}
+        meta_parts = [
+            str(relationship.get("status") or "").replace("_", " "),
+            f"confidence {relationship.get('confidence')}" if relationship.get("confidence") else "",
+        ]
+        meta = " | ".join(part for part in meta_parts if part)
+        cards.append(
+            f"""
+            <a class="relationship-card" href="{escape_attr(str(relationship.get("url", "#")))}">
+              <span>{html.escape(str(person_a.get("label") or "Unknown person"))}</span>
+              <strong>{html.escape(str(relationship.get("label") or "connected to"))}</strong>
+              <span>{html.escape(str(person_b.get("label") or "Unknown person"))}</span>
+              <small>{html.escape(meta)}</small>
+            </a>
+            """
+        )
+    return "\n".join(cards)
+
+
+def render_tree_page(data: dict[str, object]) -> str:
+    family_wiki = data.get("familyWiki", {}) if isinstance(data.get("familyWiki"), dict) else {}
+    tree_preview = render_tree_preview(family_wiki)
+    relationships = render_relationship_cards(family_wiki.get("relationships", []))
+    body = f"""
+    <section class="page-head">
+      <p class="eyebrow">Family Tree</p>
+      <h1>Tree View</h1>
+      <p>A presentation tree generated from canonical person and relationship pages. Research candidates stay out of this view until reviewed and promoted.</p>
+    </section>
+    {tree_preview}
+    <section class="section-heading">
+      <h2>Relationship Evidence</h2>
+      <span>Canonical relationship pages feeding the tree</span>
+    </section>
+    <section class="relationship-list tree-relationship-list">{relationships}</section>
+    """
+    return render_shell("Family Tree", body, active="tree")
+
+
+def render_people_page(data: dict[str, object]) -> str:
+    family_wiki = data.get("familyWiki", {}) if isinstance(data.get("familyWiki"), dict) else {}
+    stats = render_dashboard_stats(family_wiki.get("stats", []))
+    people = render_person_cards(family_wiki.get("people", []))
+    families = render_family_cards(family_wiki.get("families", []))
+    narratives = render_narrative_cards(family_wiki.get("narratives", []))
+    body = f"""
+    <section class="page-head">
+      <p class="eyebrow">People</p>
+      <h1>Family Profiles</h1>
+      <p>Profiles are the center of the public wiki. Sources, chunks, and research queues support these pages rather than replacing them.</p>
+    </section>
+    <section class="metric-grid story-metrics">{stats}</section>
+    <section class="section-heading"><h2>People</h2><span>Canonical person pages</span></section>
+    <section class="person-card-grid">{people}</section>
+    <section class="section-heading"><h2>Family Lines</h2><span>Branches and families</span></section>
+    <section class="person-card-grid">{families}</section>
+    <section class="section-heading"><h2>LifeStory Chapters</h2><span>Narratives built from the proof layer</span></section>
+    <section class="story-card-grid">{narratives}</section>
+    """
+    return render_shell("People", body, active="people")
 
 
 def render_research_dashboard_page(pages: list[SitePage], data: dict[str, object]) -> str:
@@ -1402,9 +1755,9 @@ def render_status_bars(status_counts: object) -> str:
     return "".join(rows)
 
 
-def render_timeline_preview(items: object) -> str:
+def render_timeline_preview(items: object, empty: str = "No dated family events yet.") -> str:
     if not isinstance(items, list) or not items:
-        return '<div class="empty-state">No dated source events yet.</div>'
+        return f'<div class="empty-state">{html.escape(empty)}</div>'
     rows = []
     for item in items[:8]:
         if not isinstance(item, dict):
@@ -1446,7 +1799,7 @@ def timeline_body() -> str:
     <section class="page-head">
       <p class="eyebrow">Chronology</p>
       <h1>Family Timeline</h1>
-      <p>Dated record groups and established family events, with research operations kept out of the story view.</p>
+      <p>Family events and person facts only. Source dates, conversion dates, and research-operation dates stay in the source library and backroom dashboards.</p>
     </section>
     <section id="timeline-list" class="timeline-list"></section>
     """
@@ -1683,12 +2036,12 @@ def escape_attr(value: str) -> str:
 def render_shell(title: str, body: str, active: str = "", depth: int = 0) -> str:
     prefix = "../" * depth
     nav = [
-        ("index.html", "Story", "home"),
+        ("index.html", "Home", "home"),
+        ("tree.html", "Tree", "tree"),
+        ("people.html", "People", "people"),
         ("timeline.html", "Timeline", "family-timeline"),
-        ("wiki/index.html", "Family Shelf", "wiki-index"),
-        ("sources.html", "Source Library", "source-library"),
-        ("graph.html", "Evidence Map", "evidence-map"),
-        ("research.html", "Research Backroom", "research"),
+        ("sources.html", "Sources", "source-library"),
+        ("research.html", "Research", "research"),
     ]
     nav_html = "\n".join(
         f'<a href="{prefix}{href}" class="{"active" if key == active else ""}">{label}</a>' for href, label, key in nav
@@ -1704,7 +2057,7 @@ def render_shell(title: str, body: str, active: str = "", depth: int = 0) -> str
 <body data-active="{html.escape(active)}">
   <header class="topbar">
     <a class="brand" href="{prefix}index.html">Family History</a>
-    <input id="site-search" type="search" placeholder="Search names, places, records">
+    <input id="site-search" type="search" placeholder="Search people, families, stories, records">
     <nav>{nav_html}</nav>
   </header>
   <div id="search-results" class="search-results" hidden></div>
@@ -1814,6 +2167,165 @@ main {
 }
 .story-note strong { color: var(--ink); }
 .story-note span { color: var(--muted); font-size: .92rem; }
+.family-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  gap: 22px;
+  align-items: end;
+  margin: 18px 0 18px;
+}
+.home-person-card {
+  display: flex;
+  min-width: 0;
+  min-height: 190px;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--moss);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+.home-person-card span {
+  color: var(--clay);
+  font-size: .76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.home-person-card strong {
+  color: var(--ink);
+  font-size: 1.45rem;
+  line-height: 1.12;
+}
+.home-person-card small { color: var(--muted); }
+.home-person-card a { font-weight: 800; }
+.tree-board {
+  display: grid;
+  gap: 10px;
+  min-height: 250px;
+  padding: clamp(18px, 3vw, 34px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(#edf2f7 1px, transparent 1px),
+    linear-gradient(90deg, #edf2f7 1px, transparent 1px),
+    #fff;
+  background-size: 34px 34px;
+  box-shadow: var(--shadow);
+}
+.tree-generation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.home-row { align-items: stretch; }
+.tree-person {
+  display: flex;
+  min-width: min(260px, 100%);
+  max-width: 340px;
+  min-height: 88px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding: 14px 16px;
+  border: 1px solid #bfd1cf;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 8px 22px rgba(21, 26, 35, 0.08);
+}
+.tree-person:hover { border-color: var(--teal); text-decoration: none; }
+.tree-person strong { line-height: 1.15; }
+.tree-person small { color: var(--muted); }
+.home-person {
+  border-color: var(--teal);
+  border-width: 2px;
+}
+.tree-placeholder {
+  padding: 12px 14px;
+  border: 1px dashed #b9c4d2;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .78);
+  color: var(--muted);
+}
+.tree-connector {
+  width: 2px;
+  height: 28px;
+  justify-self: center;
+  background: var(--teal);
+}
+.family-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+.family-grid > article {
+  min-width: 0;
+  padding-top: 6px;
+  border-top: 2px solid var(--line);
+}
+.person-card-grid,
+.story-card-grid,
+.relationship-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+.person-card,
+.story-card,
+.relationship-card {
+  display: flex;
+  min-width: 0;
+  min-height: 150px;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+.person-card:hover,
+.story-card:hover,
+.relationship-card:hover {
+  border-color: #a8b8cc;
+  text-decoration: none;
+}
+.person-card strong,
+.story-card strong { line-height: 1.18; }
+.person-card small,
+.story-card small,
+.relationship-card small {
+  color: var(--muted);
+}
+.person-card p,
+.story-card p,
+.research-summary p {
+  margin: 0;
+  color: #405064;
+  font-size: .92rem;
+}
+.family-card { border-top: 4px solid var(--gold); }
+.story-card { border-top: 4px solid var(--blue); }
+.relationship-card { min-height: 118px; }
+.relationship-card span {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.relationship-card strong {
+  color: var(--teal);
+  line-height: 1.15;
+}
+.tree-relationship-list { margin-top: 14px; }
+.research-summary {
+  color: var(--muted);
+}
 .story-metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .throughline-grid {
   display: grid;
@@ -2207,12 +2719,16 @@ code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
     font-size: .86rem;
   }
   .story-head { grid-template-columns: 1fr; }
+  .family-hero { grid-template-columns: 1fr; }
+  .family-grid { grid-template-columns: 1fr; }
+  .tree-person { min-width: 100%; }
   .story-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dashboard-head { display: block; }
   .alert-strip { grid-template-columns: 1fr; }
   .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .dashboard-grid { grid-template-columns: 1fr; }
   .story-grid { grid-template-columns: 1fr; }
+  .family-grid { grid-template-columns: 1fr; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-panel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; }
@@ -2251,7 +2767,10 @@ SITE_JS = r"""
         results.innerHTML = "";
         return;
       }
+      const active = document.body && document.body.dataset ? document.body.dataset.active : "";
+      const publicOnly = !["research", "source-library", "evidence-map"].includes(active);
       const matches = data.pages
+        .filter((page) => !publicOnly || page.sourceRoot === "wiki")
         .filter((page) => `${page.title} ${page.technicalTitle || ""} ${page.section} ${page.snippet}`.toLowerCase().includes(query))
         .slice(0, 12);
       results.innerHTML = matches.length
@@ -2293,7 +2812,7 @@ SITE_JS = r"""
     if (!target) return;
     target.innerHTML = data.timeline.length
       ? data.timeline.map((item) => `<a class="timeline-item" href="${item.url}"><span class="timeline-date">${escapeHtml(item.date)}</span><span><strong>${escapeHtml(item.title)}</strong><br><small>${escapeHtml(item.section)} &middot; ${escapeHtml(item.type)}</small></span></a>`).join("")
-      : '<div class="empty-state">No dated wiki pages yet. As agents promote sourced events, this timeline will fill itself in.</div>';
+      : '<div class="empty-state">No dated family events yet. Births, marriages, residences, migrations, deaths, and person-linked story events will appear here after review and promotion.</div>';
   }
 
   function renderSources() {

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "updated": "2026-05-20",
+  "name": "family-presentation-wiki",
+  "purpose": "Generate a person-first family-history presentation layer from canonical genealogy wiki pages, while keeping research dashboards, converted chunks, QA, staging, and source operations in the research backroom.",
+  "model": "Karpathy-style durable Markdown/JSON wiki state feeding an internal Ancestry-style browsing experience.",
+  "source_of_truth": {
+    "home_person": "wiki/people/* with home_person: true",
+    "people": "wiki/people/",
+    "relationships": "wiki/relationships/",
+    "families_and_branches": ["wiki/families/", "wiki/branches/"],
+    "life_events": "wiki/events/",
+    "narratives": "wiki/narratives/",
+    "places": "wiki/places/",
+    "photos": "wiki/photos/",
+    "supporting_sources": ["wiki/sources/", "wiki/source-packets/", "research/source-packets/", "raw/converted/"]
+  },
+  "public_navigation_contract": [
+    "Home shows the home person, family tree preview, people, relationships, family lines, LifeStory chapters, and family timeline.",
+    "Tree shows canonical people and relationship pages, not source clusters.",
+    "People shows canonical person profiles and their relationship to the home person.",
+    "Timeline shows family events and person facts only; source dates and automation dates stay out of the presentation timeline.",
+    "Sources are supporting citations and source-library material, not the main narrative.",
+    "Research shows QA, queues, staging, proof review, source usability, and automation state."
+  ],
+  "automatic_update_path": {
+    "internal_research_agents": ".github/workflows/internal-research-agents.yml",
+    "promotion_gate": "wiki_promoter with allow_promotion=true and reviewed canonical_readiness=ready",
+    "presentation_builder": ".github/workflows/wiki-site.yml",
+    "builder_command": "python -m historic_doc_ingest.genealogy_wiki site --root . --out site",
+    "triggers": [
+      "push to main touching wiki, research, or site builder code",
+      "hourly schedule at minute 41",
+      "successful Internal Research Agents workflow_run"
+    ],
+    "pc_dependency": "none for hosted workflow runs",
+    "provider_api_keys": "not required for presentation build"
+  },
+  "separation_rules": [
+    "Do not put conversion chunks, queue prompts, or QA internals on the public home page.",
+    "Do not let converted source dates populate the public family timeline.",
+    "Do not turn a source cluster into a family story until it is attached to a person, event, place, relationship, photo, or narrative.",
+    "Keep research confidence, source quality, conversion confidence, relevance, and claim probability visible where useful, but do not reduce the family view to promoted/not-promoted.",
+    "Family-supplied knowledge may seed canonical pages and relationships, with later records attached as support rather than replacing the person-first structure."
+  ],
+  "generated_site_sections": {
+    "index.html": "family-facing dashboard",
+    "tree.html": "canonical family tree view",
+    "people.html": "canonical people and family-line profiles",
+    "timeline.html": "family-event timeline",
+    "sources.html": "supporting source library",
+    "research.html": "research operations dashboard"
+  }
+}

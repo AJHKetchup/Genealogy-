@@ -13,9 +13,11 @@ This dashboard is the restart point for automatic work that is not conversion an
 
 - Retired Codex app automation state: [[_agent-queues/post-conversion-buildout]]
 - Autopilot architecture: `research/_automation/post-conversion-architecture.json`
+- Family presentation architecture: `research/_automation/family-presentation-architecture.json`
 - Evidence scoring model: `research/_automation/evidence-scoring-model.json`
 - Source relevance feedback: [[_agent-queues/source-relevance-feedback]]
 - PC-off workflow: `.github/workflows/internal-research-agents.yml`
+- Presentation workflow: `.github/workflows/wiki-site.yml`
 - PC-off setup notes: `docs/internal_research_agents_pc_off.md`
 - Local controller: `scripts/post-conversion-agent-controller.ps1`
 - QA index: [[_conversion-review/qc-index]]
@@ -33,6 +35,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 | Identity analysis | active | Compare same-person, duplicate, name-variant, and conflict candidates without merging canonical people. |
 | Proof review | active | Score source quality, conversion confidence, evidence quantity, agreement/conflict, identity confidence, claim probability, and canonical readiness. |
 | Wiki promotion | hold | Promote only reviewed, evidence-supported material when promotion is explicitly enabled. |
+| Family presentation build | active | Rebuild person/tree/narrative-first site from canonical wiki pages after main pushes, hourly schedule, and successful internal agent runs. |
 
 ## API-Free Automation
 
@@ -46,6 +49,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 - Parallelism: claim a bounded batch of 3 independent queue tasks per run, up to 6 when write paths are disjoint and risk is low.
 - Conversion fidelity: do not repeat the same source/page/tier once fulfilled; escalate only to a higher tier when relevance or complexity justifies it.
 - Context boundary: outside evidence can ask for a careful reread, but literal transcription changes only when the visible source supports the reading.
+- Presentation boundary: the public dashboard is generated from canonical people, relationships, families, events, photos, and narratives; source chunks and queue internals stay in the research backroom.
 
 ## Local Controller Commands
 

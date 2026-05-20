@@ -37,14 +37,19 @@ See [[people/parent|Parent Person]].
     output = build_wiki_site(tmp_path, tmp_path / "site")
 
     assert (output / "index.html").exists()
+    assert (output / "tree.html").exists()
+    assert (output / "people.html").exists()
     assert (output / "research.html").exists()
     assert (output / "graph.html").exists()
     assert (output / "timeline.html").exists()
+    people_html = (output / "people.html").read_text(encoding="utf-8")
     parent_html = (output / "wiki" / "people" / "parent.html").read_text(encoding="utf-8")
     data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
     assert "Child Person" in parent_html
+    assert "Parent Person" in people_html
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js
+    assert '"familyWiki"' in data_js
     assert '"type": "wikilink"' in data_js
     assert "1888" in data_js
 
@@ -86,8 +91,10 @@ The page records the birth of a Pulgar child in a handwritten civil register.
     assert '"Converted sources"' in data_js
     assert '"displayTitle"' in data_js
     assert "Registro de Nacimientos" in data_js
-    assert "Post-Conversion Dashboard" not in data_js.split('"timeline":', 1)[1].split('"dashboard":', 1)[0]
-    assert "Pulgar-Arriagada Family History" in index_html
+    timeline_blob = data_js.split('"timeline":', 1)[1].split('"dashboard":', 1)[0]
+    assert "Post-Conversion Dashboard" not in timeline_blob
+    assert "Registro de Nacimientos" not in timeline_blob
+    assert "Alexander John Heinz Family History" in index_html
     assert "Agent Queues" not in index_html
     assert "Internal Research Operations" in research_html
     assert "Agent Queues" in research_html
