@@ -1180,11 +1180,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_document_timeout || '90' }}"
+        "github.event.inputs.discovery_document_timeout || '30' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_hard_timeout || '0' }}"
+        "github.event.inputs.discovery_hard_timeout || '45' }}"
     ) in workflow
     assert (
         "RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1837,6 +1837,41 @@ def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
     tasks = summary["tasks"]
     assert isinstance(tasks, list)
     assert {task["source"] for task in tasks} == {"raw/sources/target.pdf"}
+
+
+def test_docling_discovery_checkpoints_errors(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "timeout.pdf"
+    doc = fitz.open()
+    page = doc.new_page(width=360, height=500)
+    page.insert_textbox((36, 36, 324, 460), "Page that times out in Docling. " * 20, fontsize=11)
+    doc.save(source)
+    doc.close()
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+
+    def fail_docling(input_path, **kwargs):
+        raise RuntimeError("Docling hard timeout after 45 seconds.")
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fail_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=1,
+        checkpoint_every=1,
+    )
+
+    state_path = tmp_path / "research" / "_automation" / "source-prep-docling-state.json"
+    discovery_path = tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json"
+    state = json.loads(state_path.read_text(encoding="utf-8"))
+    discovery = json.loads(discovery_path.read_text(encoding="utf-8"))
+
+    assert summary["errors"] == 1
+    assert state["errors"] == 1
+    assert state["tasks"][0]["status"] == "error"
+    assert any(entry["status"] == "error" for entry in discovery["entries"].values())
 
 
 def test_docling_profile_keeps_clean_digital_native_text_usable() -> None:

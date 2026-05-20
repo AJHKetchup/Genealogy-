@@ -6815,6 +6815,10 @@ def source_prep_docling_discovery_run(
             cast_tasks = summary.setdefault("tasks", [])
             if isinstance(cast_tasks, list):
                 cast_tasks.append(task_report)
+            processed_since_checkpoint += 1
+            if checkpoint_every > 0 and processed_since_checkpoint >= checkpoint_every:
+                write_checkpoint()
+                processed_since_checkpoint = 0
             return True
 
         status = str(result.get("status", SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS))

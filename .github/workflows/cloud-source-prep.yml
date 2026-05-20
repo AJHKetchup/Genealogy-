@@ -53,11 +53,11 @@ on:
       discovery_document_timeout:
         description: "Docling per-page document timeout in seconds"
         required: false
-        default: "90"
+        default: "30"
       discovery_hard_timeout:
         description: "Hard timeout per Docling page in seconds"
         required: false
-        default: "0"
+        default: "45"
       fastlane_limit:
         description: "Optional deterministic born-digital PDF pages to convert before Docling/Gemini; 0 keeps Docling as the universal first gate"
         required: false
@@ -110,8 +110,8 @@ jobs:
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '12000' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '1' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
-      RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '90' }}
-      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '0' }}
+      RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '30' }}
+      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '45' }}
       RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '0' }}
       RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_scan_limit || '0' }}
       RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}
