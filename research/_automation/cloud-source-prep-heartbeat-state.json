@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-20T03:39:00Z",
+  "created": "2026-05-20T03:52:44Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -58,7 +58,7 @@
       "status": "ran",
       "detail": {
         "action": "restore-queued-source-prep-raw",
-        "created": "2026-05-20T03:40:46Z",
+        "created": "2026-05-20T03:54:36Z",
         "queue": "research/_agent-queues/source-prep-batches.json",
         "filters": {
           "source": "",
@@ -116,5 +116,5 @@
       }
     }
   },
-  "finished": "2026-05-20T03:40:47Z"
+  "finished": "2026-05-20T03:54:37Z"
 }
