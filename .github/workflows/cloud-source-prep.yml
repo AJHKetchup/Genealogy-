@@ -45,7 +45,7 @@ on:
       discovery_parallelism:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
-        default: "64"
+        default: "8"
       discovery_max_pages_per_source:
         description: "Maximum Docling-discovery pages per raw source per run"
         required: false
@@ -108,7 +108,7 @@ jobs:
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '12000' }}
-      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '64' }}
+      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '8' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '90' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '120' }}
@@ -222,6 +222,20 @@ jobs:
           python -m pip cache purge || true
           echo "Disk after Docling dependency install:"
           df -h
+
+      - name: Prewarm Docling OCR models
+        if: steps.preflight.outputs.ready == 'true'
+        shell: bash
+        run: |
+          python - <<'PY'
+          try:
+              import easyocr
+
+              easyocr.Reader(["en"], gpu=False, verbose=False)
+              print("EasyOCR models are available in the runner cache.")
+          except Exception as exc:
+              print(f"::warning::EasyOCR model prewarm failed: {exc}")
+          PY
 
       - name: Run Docling baseline on all queued pages
         if: steps.preflight.outputs.ready == 'true'

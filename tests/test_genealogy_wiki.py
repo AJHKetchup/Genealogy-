@@ -1151,6 +1151,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "Sync latest main before source-prep" in workflow
     assert "git pull --ff-only origin main" in workflow
     assert "Install Docling discovery dependencies" in workflow
+    assert "Prewarm Docling OCR models" in workflow
+    assert 'easyocr.Reader(["en"], gpu=False, verbose=False)' in workflow
     assert "https://download.pytorch.org/whl/cpu" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     pyproject = (Path(__file__).resolve().parents[1] / "pyproject.toml").read_text(encoding="utf-8")
@@ -1170,7 +1172,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_parallelism || '64' }}"
+        "github.event.inputs.discovery_parallelism || '8' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1232,7 +1234,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert workflow.index("Free runner disk for source-prep cache") < workflow.index("Prepare conversion queue from R2")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
-    assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
+    assert workflow.index("Install Docling discovery dependencies") < workflow.index("Prewarm Docling OCR models")
+    assert workflow.index("Prewarm Docling OCR models") < workflow.index("Run Docling baseline on all queued pages")
 
 
 def test_cloud_source_prep_heartbeat_restores_existing_queue_sources_from_r2(tmp_path, monkeypatch) -> None:
