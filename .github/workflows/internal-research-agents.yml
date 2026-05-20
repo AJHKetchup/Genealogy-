@@ -36,7 +36,7 @@ jobs:
     timeout-minutes: 80
     env:
       PYTHONPATH: src
-      CODEX_HOME: ${{ runner.temp }}\.codex
+      CODEX_HOME: ${{ github.workspace }}/.codex-runtime
       CODEX_AUTH_JSON: ${{ secrets.CODEX_AUTH_JSON }}
       CODEX_AUTH_JSON_B64: ${{ secrets.CODEX_AUTH_JSON_B64 }}
       MAX_WORKERS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.max_workers || '3' }}
