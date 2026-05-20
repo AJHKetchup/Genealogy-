@@ -9499,3 +9499,4 @@
 ## [2026-05-20] prepare-sources | Prepared 1 raw source(s)
 ## [2026-05-20] source-prep-batches | Wrote 4204 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-20] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-20] source-prep-docling-discovery | inspected 0, accepted 0, unusable 0, errors=0, dry_run=False
