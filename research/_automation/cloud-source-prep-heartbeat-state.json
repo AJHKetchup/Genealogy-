@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-20T01:37:09Z",
+  "created": "2026-05-20T01:49:36Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -26,25 +26,14 @@
   "steps": [
     {
       "name": "raw-cloud restore",
-      "status": "ran",
-      "detail": {
-        "action": "restore",
-        "created": "2026-05-20T01:38:59.534618+00:00",
-        "filters": {
-          "source": "",
-          "source_sha256": ""
-        },
-        "total_files": 49,
-        "restored": 49,
-        "skipped": 0,
-        "errors": []
-      }
+      "status": "deferred",
+      "detail": "existing source-prep queue will drive targeted raw restore"
     },
     {
       "name": "prepare-sources",
       "status": "ran",
       "detail": {
-        "prepared_sources": 49
+        "prepared_sources": 0
       }
     },
     {
@@ -62,6 +51,26 @@
       "status": "ran",
       "detail": {
         "written": "research/_agent-queues/source-prep-batches.json"
+      }
+    },
+    {
+      "name": "raw-cloud queued restore",
+      "status": "ran",
+      "detail": {
+        "action": "restore-queued-source-prep-raw",
+        "created": "2026-05-20T01:51:24Z",
+        "queue": "research/_agent-queues/source-prep-batches.json",
+        "filters": {
+          "source": "",
+          "source_sha256": ""
+        },
+        "unique_sources": 20,
+        "attempted": 20,
+        "restored": 20,
+        "skipped_present": 0,
+        "skipped_limit": 0,
+        "unmatched": 0,
+        "errors": []
       }
     },
     {
@@ -107,5 +116,5 @@
       }
     }
   },
-  "finished": "2026-05-20T01:39:40Z"
+  "finished": "2026-05-20T01:51:24Z"
 }
