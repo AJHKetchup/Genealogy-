@@ -9500,3 +9500,16 @@
 ## [2026-05-20] source-prep-batches | Wrote 4204 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-20] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
 ## [2026-05-20] source-prep-docling-discovery | inspected 0, accepted 0, unusable 0, errors=0, dry_run=False
+## [2026-05-20] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md
+## [2026-05-20] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/manifest.json
+## [2026-05-20] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5.codex.md
+## [2026-05-20] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0004-0005-acicr-b-cr-177-001-002-pages-4-5-codex/manifest.json
+## [2026-05-20] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2.codex.md
+## [2026-05-20] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0002-acicr-b-cr-177-001-002-pages-1-2-codex/manifest.json
+## [2026-05-20] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1.codex.md
+## [2026-05-20] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0001-acicr-b-cr-177-001-002-pages-1-codex/manifest.json
+## [2026-05-20] codex-conversion-job | Assembled raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3.codex.md
+## [2026-05-20] prep-chunk | Wrote raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3-codex/manifest.json
+## [2026-05-20] prepare-sources | Prepared 1 raw source(s)
+## [2026-05-20] source-prep-batches | Wrote 4204 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
+## [2026-05-20] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
