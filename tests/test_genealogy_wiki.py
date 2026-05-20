@@ -1129,6 +1129,17 @@ def test_cloud_workflow_publishes_intermediate_source_prep_checkpoints() -> None
     assert workflow.index("Publish Docling checkpoint") < workflow.index("Convert missing pages with Gemini")
 
 
+def test_cloud_workflow_keeps_docling_progress_when_gemini_preflight_is_blocked() -> None:
+    workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
+    workflow = workflow_path.read_text(encoding="utf-8")
+
+    assert "Fail if Gemini source-prep conversion failed" in workflow
+    assert "steps.gemini_api.outputs.exit_code != '0' ||" not in workflow
+    assert (
+        "steps.gemini.outputs.exit_code != '' && steps.gemini.outputs.exit_code != '0'"
+    ) in workflow
+
+
 def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch() -> None:
     workflow_path = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "cloud-source-prep.yml"
     workflow = workflow_path.read_text(encoding="utf-8")
@@ -1222,6 +1233,52 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert workflow.index("Free runner disk for source-prep cache") < workflow.index("Prepare conversion queue from R2")
     assert workflow.index("Publish restore and queue checkpoint") < workflow.index("Install Docling discovery dependencies")
     assert workflow.index("Install Docling discovery dependencies") < workflow.index("Run Docling baseline on all queued pages")
+
+
+def test_cloud_source_prep_heartbeat_restores_existing_queue_sources_from_r2(tmp_path, monkeypatch) -> None:
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "queued.txt"
+    source.write_text("Queued source body", encoding="utf-8")
+    create_codex_conversion_job(tmp_path, source, "queued-job", "Queued Source")
+    write_source_prep_batches(tmp_path, limit=10)
+    source.unlink()
+
+    restore_calls: list[dict[str, object]] = []
+
+    def fake_restore(root, config, *, limit=None, source="", source_sha256="", **kwargs):
+        restore_calls.append({"limit": limit, "source": source, "source_sha256": source_sha256})
+        if source == "raw/sources/queued.txt":
+            (tmp_path / source).write_text("Queued source body", encoding="utf-8")
+            return {
+                "action": "restore",
+                "total_files": 1,
+                "restored": 1,
+                "skipped": 0,
+                "errors": [],
+            }
+        return {"action": "restore", "total_files": 0, "restored": 0, "skipped": 0, "errors": []}
+
+    monkeypatch.setattr(genealogy_wiki, "load_raw_cloud_config", lambda *args, **kwargs: object())
+    monkeypatch.setattr(genealogy_wiki, "restore_raw_from_cloud", fake_restore)
+
+    summary = genealogy_wiki.cloud_source_prep_heartbeat(
+        tmp_path,
+        restore_raw=True,
+        upload_assets=False,
+        conversion_only=True,
+        restore_limit=1,
+        queue_limit=10,
+    )
+
+    assert len(restore_calls) == 1
+    assert restore_calls[0]["limit"] == 1
+    assert restore_calls[0]["source"] == "raw/sources/queued.txt"
+    assert restore_calls[0]["source_sha256"]
+    assert (tmp_path / "raw" / "sources" / "queued.txt").exists()
+    assert summary["blockers"] == []
+    steps = {step["name"]: step for step in summary["steps"]}
+    assert steps["raw-cloud restore"]["status"] == "deferred"
+    assert steps["raw-cloud queued restore"]["detail"]["restored"] == 1
 
 
 def test_cloud_workflow_publishes_changed_preflight_state_immediately() -> None:

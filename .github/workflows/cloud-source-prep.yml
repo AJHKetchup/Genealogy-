@@ -325,6 +325,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source conversion"
 
-      - name: Fail if Gemini source-prep failed
-        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true' && (steps.gemini_api.outputs.exit_code != '0' || steps.gemini.outputs.exit_code != '0')
+      - name: Fail if Gemini source-prep conversion failed
+        if: always() && !cancelled() && steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code != '' && steps.gemini.outputs.exit_code != '0'
         run: exit 1

@@ -10169,6 +10169,103 @@ def write_cloud_source_prep_heartbeat_state(root: Path, summary: dict[str, objec
     return output_path
 
 
+def source_prep_batch_restore_targets(
+    root: Path,
+    queue_path: Path,
+    *,
+    source_filter: str = "",
+    source_sha256: str = "",
+) -> list[dict[str, str]]:
+    queue_file = queue_path if queue_path.is_absolute() else root.resolve() / queue_path
+    payload = read_json_payload(queue_file, {"tasks": []})
+    tasks = payload.get("tasks", [])
+    if not isinstance(tasks, list):
+        return []
+
+    targets: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for task in tasks:
+        if not isinstance(task, dict):
+            continue
+        if not source_prep_record_matches_source_filter(task, source=source_filter, source_sha256=source_sha256):
+            continue
+        source = str(task.get("source", "")).strip()
+        if not source:
+            continue
+        sha = str(task.get("source_sha256", "")).strip().lower()
+        key = (source.replace("\\", "/"), sha)
+        if key in seen:
+            continue
+        seen.add(key)
+        targets.append({"source": source, "source_sha256": sha})
+    return targets
+
+
+def restore_queued_raw_sources_from_cloud(
+    root: Path,
+    config: object,
+    queue_path: Path,
+    *,
+    limit: int | None = None,
+    source_filter: str = "",
+    source_sha256: str = "",
+) -> dict[str, object]:
+    root = root.resolve()
+    targets = source_prep_batch_restore_targets(
+        root,
+        queue_path,
+        source_filter=source_filter,
+        source_sha256=source_sha256,
+    )
+    max_restore = limit if limit is not None and limit > 0 else None
+    restored = 0
+    skipped_present = 0
+    skipped_limit = 0
+    unmatched = 0
+    attempted = 0
+    errors: list[object] = []
+
+    for target in targets:
+        source = target["source"]
+        source_path = root / source
+        if source_path.exists():
+            skipped_present += 1
+            continue
+        if max_restore is not None and attempted >= max_restore:
+            skipped_limit += 1
+            continue
+        attempted += 1
+        report = restore_raw_from_cloud(
+            root,
+            config,  # type: ignore[arg-type]
+            limit=1,
+            source=source,
+            source_sha256=target["source_sha256"],
+        )
+        restored += int(report.get("restored", 0) or 0)
+        skipped_present += int(report.get("skipped", 0) or 0)
+        errors.extend(report.get("errors", []) or [])
+        if int(report.get("total_files", 0) or 0) == 0:
+            unmatched += 1
+
+    return {
+        "action": "restore-queued-source-prep-raw",
+        "created": utc_timestamp(),
+        "queue": relative_to_root(queue_path, root),
+        "filters": {
+            "source": source_filter.strip(),
+            "source_sha256": source_sha256.strip(),
+        },
+        "unique_sources": len(targets),
+        "attempted": attempted,
+        "restored": restored,
+        "skipped_present": skipped_present,
+        "skipped_limit": skipped_limit,
+        "unmatched": unmatched,
+        "errors": errors,
+    }
+
+
 def cloud_source_prep_heartbeat(
     root: Path,
     *,
@@ -10221,6 +10318,14 @@ def cloud_source_prep_heartbeat(
         "steps": [],
         "blockers": [],
     }
+    batch_queue_path = paths.research / "_agent-queues" / "source-prep-batches.json"
+    existing_queue_targets = source_prep_batch_restore_targets(
+        paths.root,
+        batch_queue_path,
+        source_filter=source_filter,
+        source_sha256=source_sha256,
+    )
+    raw_cloud_config: object | None = None
 
     def record_step(name: str, status: str, detail: object = "") -> None:
         step: dict[str, object] = {"name": name, "status": status}
@@ -10232,13 +10337,19 @@ def cloud_source_prep_heartbeat(
 
     if restore_raw:
         try:
-            config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
+            raw_cloud_config = load_raw_cloud_config(paths.root, require_credentials=not dry_run)
             if dry_run:
                 record_step("raw-cloud restore", "skipped-dry-run")
+            elif existing_queue_targets and not (source_filter.strip() or source_sha256.strip()):
+                record_step(
+                    "raw-cloud restore",
+                    "deferred",
+                    "existing source-prep queue will drive targeted raw restore",
+                )
             else:
                 report = restore_raw_from_cloud(
                     paths.root,
-                    config,
+                    raw_cloud_config,  # type: ignore[arg-type]
                     limit=restore_limit,
                     source=source_filter,
                     source_sha256=source_sha256,
@@ -10304,6 +10415,30 @@ def cloud_source_prep_heartbeat(
     except Exception as exc:
         summary["blockers"].append(f"source-prep-batches: {exc}")
         record_step("source-prep-batches", "failed", str(exc))
+        batch_path = batch_queue_path
+
+    if restore_raw:
+        try:
+            if dry_run:
+                record_step("raw-cloud queued restore", "skipped-dry-run")
+            else:
+                if raw_cloud_config is None:
+                    raw_cloud_config = load_raw_cloud_config(paths.root, require_credentials=True)
+                queued_restore = restore_queued_raw_sources_from_cloud(
+                    paths.root,
+                    raw_cloud_config,
+                    batch_path,
+                    limit=restore_limit,
+                    source_filter=source_filter,
+                    source_sha256=source_sha256,
+                )
+                status = "ran" if int(queued_restore.get("unique_sources", 0) or 0) > 0 else "skipped"
+                record_step("raw-cloud queued restore", status, queued_restore)
+                if queued_restore.get("errors"):
+                    summary["blockers"].append("raw-cloud queued restore: one or more queued raw sources failed to restore")
+        except Exception as exc:
+            summary["blockers"].append(f"raw-cloud queued restore: {exc}")
+            record_step("raw-cloud queued restore", "failed", str(exc))
 
     if fastlane_limit > 0:
         try:
