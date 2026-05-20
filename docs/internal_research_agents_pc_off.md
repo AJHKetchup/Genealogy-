@@ -10,6 +10,7 @@ It is for internal research and wiki development only. It does not perform exter
 - Schedule: hourly at minute 17
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12
+- Scheduled promotion: enabled in a separate one-worker promotion-only pass after ordinary QA/extraction/review
 - Runtime: GitHub-hosted `windows-latest`
 - Auth: Codex CLI with ChatGPT-managed `auth.json`
 - API keys: forbidden for this lane
@@ -51,7 +52,7 @@ The controller refreshes deterministic state, then launches bounded Codex worker
 - `evidence-extraction`: stage source packets, atomic claims, relationships, identity candidates, conflicts, and follow-up tasks from converted chunks.
 - `identity-analysis`: compare same-person, duplicate, name-variant, and conflict candidates without merging canonical people.
 - `proof-review`: score staged drafts for literal support, source quality, conversion confidence, evidence weight, identity confidence, claim probability, relevance, and canonical readiness.
-- `wiki-promotion`: disabled by default; only runs when manually dispatched with `allow_promotion=true`.
+- `wiki-promotion`: runs only in a separate promotion-only pass and only promotes drafts whose review notes say they are ready.
 
 After workers drain, the workflow commits/pushes GitHub-safe research/wiki state through:
 

@@ -29,6 +29,7 @@
     "trigger_contract": "The site rebuilds on main pushes, hourly at minute 41, and after successful Internal Research Agents runs.",
     "separation_contract": "Public pages are person/tree/narrative first. Converted chunks, source-operation dates, QA queues, staging prompts, and automation internals stay in research.html or the source library.",
     "timeline_contract": "The public timeline includes family events and person facts only, never raw converted source dates or automation dates.",
+    "promotion_contract": "Scheduled internal-agent runs perform ordinary QA/extraction/review first, then a separate one-worker promotion-only pass. The promoter may move only review-ready material and must keep uncertainty and probability visible.",
     "pc_dependency": "none for hosted workflow runs",
     "provider_api_keys": "not required"
   },
@@ -77,7 +78,7 @@
     "Do not perform external research.",
     "Do not create source decisions in a local heartbeat thread; GitHub-hosted scheduled runs must claim queue tasks and write only assigned output paths.",
     "Living-family privacy is not a standalone hold for this internal family project; user approval was recorded on 2026-05-17. Still require source support, proof review, and conservative confidence/status labels.",
-    "Keep promotion disabled unless AllowPromotion is explicitly set and review notes recommend promote."
+    "Promotion requires AllowPromotion, a promotion-only worker pass, and review notes recommending canonical readiness."
   ],
   "adaptive_conversion": {
     "principle": "Research relevance and confidence determine conversion fidelity.",

@@ -42,7 +42,7 @@ jobs:
       MAX_WORKERS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.max_workers || '3' }}
       QUEUE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.queue_limit || '12' }}
       RUN_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_minutes || '45' }}
-      ALLOW_PROMOTION: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || 'false' }}
+      ALLOW_PROMOTION: ${{ github.event_name == 'schedule' && 'true' || (github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || 'false') }}
 
     steps:
       - name: Check out repository
@@ -128,10 +128,31 @@ jobs:
             "-WaitForWorkers",
             "-WorkerTimeoutMinutes", "15"
           )
-          if ($env:ALLOW_PROMOTION -eq "true") {
-            $controllerArgs += "-AllowPromotion"
-          }
           & powershell @controllerArgs
+          if ($LASTEXITCODE -ne 0) {
+            exit $LASTEXITCODE
+          }
+
+      - name: Run safe wiki promotion agents
+        if: env.ALLOW_PROMOTION == 'true'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $promotionArgs = @(
+            "-NoProfile",
+            "-ExecutionPolicy", "Bypass",
+            "-File", "scripts/post-conversion-agent-controller.ps1",
+            "-Root", ".",
+            "-Once",
+            "-AllowPromotion",
+            "-PromotionOnly",
+            "-MaxWorkers", "1",
+            "-QueueLimit", "3",
+            "-PollSeconds", "45",
+            "-WaitForWorkers",
+            "-WorkerTimeoutMinutes", "15"
+          )
+          & powershell @promotionArgs
           if ($LASTEXITCODE -ne 0) {
             exit $LASTEXITCODE
           }

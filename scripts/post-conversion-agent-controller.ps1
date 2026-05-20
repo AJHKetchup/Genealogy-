@@ -10,6 +10,7 @@ param(
     [switch]$NoRefresh,
     [switch]$NoWorkers,
     [switch]$AllowPromotion,
+    [switch]$PromotionOnly,
     [string]$CodexPath = "",
     [switch]$WaitForWorkers,
     [int]$WorkerTimeoutMinutes = 50
@@ -511,13 +512,21 @@ function Get-AvailableTasks {
         }
     }
 
-    $queuePaths = @(
-        @{ name = "conversion-qa"; path = Join-Path $QueueDir "conversion-qa.json" },
-        @{ name = "evidence-extraction"; path = Join-Path $QueueDir "evidence-extraction.json" },
-        @{ name = "identity-analysis"; path = $IdentityQueuePath },
-        @{ name = "proof-review"; path = $ReviewQueuePath }
-    )
-    if ($AllowPromotion) {
+    if ($PromotionOnly) {
+        if (-not $AllowPromotion) { return @() }
+        $queuePaths = @(
+            @{ name = "wiki-promotion"; path = $PromotionQueuePath }
+        )
+    }
+    else {
+        $queuePaths = @(
+            @{ name = "conversion-qa"; path = Join-Path $QueueDir "conversion-qa.json" },
+            @{ name = "evidence-extraction"; path = Join-Path $QueueDir "evidence-extraction.json" },
+            @{ name = "identity-analysis"; path = $IdentityQueuePath },
+            @{ name = "proof-review"; path = $ReviewQueuePath }
+        )
+    }
+    if ($AllowPromotion -and -not $PromotionOnly) {
         $queuePaths += @{ name = "wiki-promotion"; path = $PromotionQueuePath }
     }
 
@@ -712,6 +721,7 @@ $summary = [ordered]@{
     root = $Root
     dry_run = [bool]$DryRun
     allow_promotion = [bool]$AllowPromotion
+    promotion_only = [bool]$PromotionOnly
     refresh = @()
     queues = [ordered]@{}
     active_workers_before = 0

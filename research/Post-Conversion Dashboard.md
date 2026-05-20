@@ -34,7 +34,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 | Staging completeness | active | Fill missing `_staging` claims, relationships, identity candidates, conflicts, and reviews. |
 | Identity analysis | active | Compare same-person, duplicate, name-variant, and conflict candidates without merging canonical people. |
 | Proof review | active | Score source quality, conversion confidence, evidence quantity, agreement/conflict, identity confidence, claim probability, and canonical readiness. |
-| Wiki promotion | hold | Promote only reviewed, evidence-supported material when promotion is explicitly enabled. |
+| Wiki promotion | active, evidence-gated | Scheduled runs use a separate one-worker promotion-only pass after QA/extraction/review; promote only reviewed, evidence-supported material. |
 | Family presentation build | active | Rebuild person/tree/narrative-first site from canonical wiki pages after main pushes, hourly schedule, and successful internal agent runs. |
 
 ## API-Free Automation
@@ -47,6 +47,7 @@ This dashboard is the restart point for automatic work that is not conversion an
 - Retired local runner: `post-conversion-genealogy-buildout` was removed from the app automation registry because Codex app worktree crons depend on this desktop's process launcher.
 - Diagnosis: Codex can do the queue work; GitHub Actions is the no-PC execution surface.
 - Parallelism: claim a bounded batch of 3 independent queue tasks per run, up to 6 when write paths are disjoint and risk is low.
+- Promotion separation: scheduled runs keep promotion in a separate one-worker pass so canonical wiki updates do not run in the same worker batch as QA, extraction, or proof review.
 - Conversion fidelity: do not repeat the same source/page/tier once fulfilled; escalate only to a higher tier when relevance or complexity justifies it.
 - Context boundary: outside evidence can ask for a careful reread, but literal transcription changes only when the visible source supports the reading.
 - Presentation boundary: the public dashboard is generated from canonical people, relationships, families, events, photos, and narratives; source chunks and queue internals stay in the research backroom.
