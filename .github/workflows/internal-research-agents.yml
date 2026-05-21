@@ -1,4 +1,5 @@
 name: Internal Research Agents
+# Touch this workflow to validate hosted Codex auth and secret rotation.
 
 on:
   workflow_dispatch:
