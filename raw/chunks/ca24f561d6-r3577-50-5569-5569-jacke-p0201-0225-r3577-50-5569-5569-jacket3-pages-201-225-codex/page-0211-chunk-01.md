@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d58e42b1f8e4-P0211-01
+chunk_id: CHUNK-c2f4a75dec0d-P0211-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225.codex.md
-converted_sha256: d58e42b1f8e44ccc71704758faa7e9507d3a7c96108108414bee1d5aeb02effb
+converted_sha256: c2f4a75dec0d7470840fd27d6a9cce9f2e25753f4b7f102aa964c4dfd22bf00d
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Le Colonel Hauser (Suisse)
 
 ## :
@@ -125,88 +124,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 19
-Date: 13 JUILLET 1929
-
-## Layout And Reading Order
-The page presents a transcript of a meeting, formatted as a single column of text. It consists of a header with the date and page number, followed by a series of statements from different individuals, identified by their name and country (or title). The text is primarily in French. Some lines are italicized to indicate actions taken, such as voting results.
-
-## Literal Transcription
-SÉANCE DU 13 JUILLET 1929
-19
-
-**Le Colonel Babecki (Pologne)**:
-Au moment d'une mobilisation, on n'a pas le temps de faire les photographies de tous les
-sanitaires qui sont appelés. Pour les sanitaires non réguliers, il est donc techniquement im-
-possible d'exiger la photographie.
-
-**M. Warner (Grande-Bretagne)**:
-Dans l'armée anglaise, l'identité du personnel de l'armée est déterminée par la médaille
-d'identité fixée au poignet. Dès lors, nous n'estimons pas qu'il soit nécessaire que les hommes
-de troupe portent un document d'identité.
-Pour le personnel auxiliaire, évidemment, une pièce d'identité est nécessaire ; mais nous
-sommes opposés à ce que le personnel sanitaire de l'armée ait une pièce d'identité spéciale.
-
-**M. le Président**:
-L'observation de M. Warner fait naître un nouveau doute dans mon esprit. J'ai cru que la
-commission avait décidé tout à l'heure que le personnel portant l'uniforme — sanitaire ou
-non — avait besoin d'un certificat d'identité. Il semble que ce n'était pas l'avis de la délégation
-de Grande-Bretagne.
-
-**M. Warner (Grande-Bretagne)**:
-Les hommes ont tous un livret, mais ce n'est pas une pièce spéciale.
-
-**M. le Président**:
-Alors nous sommes d'accord.
-La délégation de Grande-Bretagne et celle de Pologne sont d'avis que le certificat destiné
-aux militaire ne doit contenir ni la photographie, ni les empreintes digitales.
-
-**Le Commandant Martola (Finlande)**:
-Je me rallie aux observation de la Grande-Bretagne et de la Pologne. J'estime qu'il est
-impossible d'introduire la photographie dans le livret militaire et je suis d'avis que le livret
-militaire devrait suffire comme pièce d'identité pour les militaires.
-En ce qui concerne les empreintes digitales, je n'ai pas d'instructions à ce sujet. Si la
-commission décidait de les adopter, je devrais lui demander l'autorisation de revenir sur cette
-question lorsque j'aurais consulté mon Gouvernement.
-
-**Le Colonel Hauser (Suisse)**:
-Je crois que si plusieurs Etats déclarent que pour des raisons techniques il leur est impos-
-sible d'introduire la photographie, la proposition faite à ce sujet tombe.
-En ce qui concerne les empreintes digitales, je me rallie à l'observation de M. Warner.
-Si dans notre pays on voulait introduire cette mesure qui n'existe aujourd'hui qu'à l'égard des
-criminels, il y aurait une forte opposition.
-
-**M. le Président**:
-La parole n'est plus demandée. Je vous invite à vous prononcer. Acceptez-vous que les
-certificats des hommes portant uniforme soient munis de photographie ou d'empreintes
-digitales ?
-*Il est procédé au vote. Cette proposition est rejetée à l'unanimité.*
-Acceptez-vous que les certificats des personnes ne portant pas l'uniforme soient munies
-d'une photographie ?
-M. Warner a déjà exprimé l'avis que pour ce personnel la photographie serait nécessaire.
-La proposition française prévoit aussi la photographie dans ce cas.
-*Il est procédé au vote. Cette proposition est acceptée à la majorité.*
-
-## Images, Captions, And Visual Notes
-There are no substantial images, captions, or visual notes on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
-```
-
-## Page Metadata
-Page number: 20
-Header: SÉANCE DU 13 JUILLET 1929
-
-## Layout And Reading Order
-
-The page presents a transcript of a meeting, formatted as a series of dialogues between different speakers. The text is arranged in a single column. Speaker names are bolded or clearly indicated, followed by their statements. There are also italicized notes indicating actions or outcomes of votes.

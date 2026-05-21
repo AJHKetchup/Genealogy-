@@ -557,82 +557,99 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of textual directory listings."}
 
+# Page 86
+
 ## Page Metadata
-Page number: 89
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 86
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0086.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a two-column list of names, addresses, and cities. The left column contains names, and the right column contains corresponding addresses and cities. The content is structured in blocks, with some address lines spanning two physical lines. A page number is present at the bottom right.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-```
-Sáez Saldias, Armando                      Avda. El Salto 2051        Santiago
-Sáez Salgado, Natalia                     Recinto Estación FF.CC.    Curanilahue
-Safián Pino, Jorge                        Ahumada 236                Santiago
-Saffie Saadé, Félix                       Carlos Walker M. 092,      Santiago
-                                          Depto. 101
-
-Saghietto Carvallo, Germán                Avda. Ossa 436             Santiago
-Sagüés Olivares, José                     Julio Prado 1000           Santiago
-Said Yaar, Antonio                        Caupolicán 499             Temuco
-Saidel Weinstein, Aída                    José Domingo Cañas 2651    Santiago
-Saini Barroni, Carlos                     San Martín 243             Puerto Montt
-Sainte-Marie Pressac, Andrés              Condell 1231, 3.er Piso    Valparaíso
-Sainz Rccio, Norberto                     Carlos Silva 1208          Santiago
-Salamé Sady, José                         Estado 33, Of. 55          Santiago
-Salas Castillo, Orcstcs                   Londres 98                 Santiago
-Salas Contreras, Osvaldo                  Compañía 2695              Santiago
-Salas Muñoz, Bernardo                     Santa Rosa 575             Los Andes
-Salas Pereira, Rafael                     Agustinas 925, Of. 744     Santiago
-Salas Piraino, Jaime                      Santa Rosa 535             Los Andes
-Salas Soto, Lilia                         M. Luisa Santander 0180    Santiago
-Salas Vieyra, Juvcnal A.                  Hospital                   Quillón
-Salas Vivaldi, Arturo                     Camp. Americano C-58B      Potrerillos
-Salazar Gil, José                         Martínez de Rozas 2850     Santiago
-
-Salazar Godoy, Ariel Alejandro            Hospital San José          Osorno
-Salazar Jiménez, Carlos                   Hospital                   Talca
-Salazar Jiménez, Oscar                    Catedral 2631              Santiago
-Salazar Monroy, José R.                   Lientur 718                Concepción
-Salazar Navarro, María                    Purísima 1065              Santiago
-Salcedo Sepúlveda, Mario                  Rosas 2224                 Santiago
-Saldías Bórquez, Rubén                    Esmeralda 686              Valdivia
-Saldías Guzmán, Ernesto                   Avda. Providencia 835,     Santiago
-                                          Depto. 47
-
-Salgado Cancino, Artemón                  Torreblanca 2860           San Javier
-Salgado Cercceda, Eduardo                 Chacabuco 676              San Fernando
-Salgado González, Daniel                  Santo Domingo 3980         Santiago
-Salinas Apablaza, Alberto                 O'Higgins 650, Of. 202     Concepción
-Salinas Apablaza, Carlos                  Matías Cousiño 150, Of.    Santiago
-                                          823
-
-Salinas Clavería, Edmundo                 Avda. Lyon 2462            Santiago
-Salinas Donoso, Emilio                    San Martín 730             Santiago
-Salinas Donoso, Roberto                   Víctor Rae 4503            Santiago
-Salomón Rex, Carlos                       Avda. San Nicolás 1202     Santiago
-Salomón Rex, Elías                        Arturo Prat 1788           Santiago
-Saluccl Aillaud, Vicente                  Victoria 2632              Valparaíso
-Salvatierra Carcovic, Paul                Santa Isabel 71            Santiago
-Salvestrini Ricci, Hugo                   Avda. Fco. Bilbao 2245     Santiago
-
-                                                                         — 89
+```markdown
+| Sáez Baldías, Armando Sáez Salgado, Natalia   | Avda. El Salto 2051 FF.CC.       | Santiago     |
+|-----------------------------------------------|----------------------------------|--------------|
+|                                               | Recinto Estación                 | Curanilahue  |
+| Safián Pino, Jorge                            | Ahumada 236                      | Santiago     |
+| Saffie Saadé, Félix                           | Carlos Walker M. 092, Depto.'101 | Santiago     |
+| Saghietto Carvallo, Germán                    | Avda. Ossa 436                   | Santiago     |
+| Sagües Olivares, José                         | Julio Prado 1000                 | Santiago     |
+| Said Yaar, Antonio                            | Caupolicán 499                   | Temuco       |
+| Saidel Weinstein, Aída                        | José Domingo Cañas 2651          | Santiago     |
+| Saini Barroni, Carlos                         | San Martín 243                   | Puerto Montt |
+| Sainte-Marie Fressac, Andrés                  | Condell 1231, З.ег Piso          | Valparaíso   |
+| Sainz Recio, Norbcrto                         | Carlos Silva 1208                | Santiago     |
+| Salamé Sady, José                             | Estado 33, Of. 55                | Santiago     |
+| Salas Castillo, Orcstcs                       | Londres 98                       | Santiago     |
+| Salas Contreras, Osvaldo                      | Compañía 2695                    | Santiago     |
+| Salas Muñoz, Bernardo                         | Santa Rosa 575                   | Los Andes    |
+| Salas Pereira, Rafael                         | Agustinas 925, Of. 744           | Santiago     |
+| Salas Piraino, Jaime                          | Santa Rosa 535                   | Los Andes    |
+| Salas Soto, Lilia                             | M. Luisa Santander 0180          | Santiago     |
+| Salas Vieyra, Juvenal A.                      | Hospital                         | Quillón      |
+| Salas Vivaldi, Arturo                         | Camp. Americano C-58B            | Potrerillos  |
+| Salazar Gil, José                             | Martínez de Rozas 2850           | Santiago     |
+| Salazar Godoy, Ariel Alejandro                | Hospital San José                | Osorno       |
+| Salazar Jiménez, Carlos                       | Hospital                         | Talca        |
+| Salazar Jiménez, Oscar                        | Catedral 2631                    | Santiago     |
+| Salazar Monroy, José R.                       | Lientur 718                      | Concepción   |
+| Salazar Navarro, María                        | Purísima 1065                    | Santiago     |
+| Salcedo Sepúlveda, Mario                      | Rosas 2224                       | Santiago     |
+| Saldías Bórquez, Rubén                        | Esmeralda 686                    | Valdivia     |
+| Saldías Guzmán, Ernesto                       | Avda. Providencia 835, Depto. 47 | Santiago     |
+| Salgado Cancino, Artemón                      | Torreblanca 2860                 | San Javier   |
+| Salgado Cereceda, Eduardo                     | Chacabuco 676                    | San Fernando |
+| Salgado González, Daniel                      | Santo Domingo 3980               | Santiago     |
+| Salinas Apablaza, Alberto                     | O'Higgins 650, Of. 202           | Concepción   |
+| Salinas Apablaza, Carlos                      | Matías Cousiño 150, Of. 823      | Santiago     |
+| Salinas Clavería, Edmundo                     | Avda. Lyon 2462                  | Santiago     |
+| Salinas Donoso, Emilio                        | San Martín 730                   | Santiago     |
+| Salinas Donoso, Roberto                       | Víctor Rae 4503                  | Santiago     |
+| Salomón Rex, Carlos                           | Avda. San Nicolás 1202           | Santiago     |
+| Salomón Rex, Elias                            | Arturo Prat 1788                 | Santiago     |
+| Salucci Aillaud, Vicente                      | Victoria 2632                    | Valparaíso   |
+| Salvatierra Carcovió, Paul                    | Santa Isabel 11                  | Santiago     |
+| Salvestrini Ricci, Hugo                       | Avda. Feo. Bilbao 2245           | Santiago     |
 ```
 
 ## Images, Captions, And Visual Notes
-The page number "— 89" is located at the bottom right corner of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text and the page number have been transcribed. The two-column layout has been preserved using a pre-formatted text block to maintain alignment and line breaks.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 87
 
@@ -1328,86 +1345,99 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 94
+
 ## Page Metadata
 
-- **Page number**: 94
-- **Note**: The page number printed on the bottom right of the image is `97`. The work order specifies page `94`. The transcription reflects the number visible on the page.
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 94
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0094.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single block of text arranged in a three-column directory format. The columns are:
-1.  Name of the professional (last name first).
-2.  Street address.
-3.  City or locality.
-
-The reading order is from left to right, top to bottom, row by row. A page number is present at the bottom right corner.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-| Name | Address | Location |
-| :--- | :--- | :--- |
-| Talma Oyaneder, Rafael | Independencia 667 | Linares |
-| Tallman Valenzuela, Benjamín | Curicó 15, Depto. 9 | Santiago |
-| Tallman Valenzuela, Eduardo | Avda. Gral. Bustamante<br>208 B | Santiago |
-| Tallman Villalón, Eduardo | Edificio Prales Dep. 203 | Valparaíso |
-| Tamargo Iribarría, Arturo | J. Victorino Lastarria 16 | Santiago |
-| Tamargo Iribarría, Juan | Avda. Pocuro 2850 | Santiago |
-| Tannenbaum Berman, Adolfo | Agua Santa 765 | Valdivia |
-| Tapia Araya, Ana I. | Porvenir 372 | Santiago |
-| Tapia Araya, Aniceto | Parcela Tocornal Nº 8 | Puente Alto |
-| Tapia Caballero, Mario | San Antonio 427, Dp. 716 | Santiago |
-| Tapia Carrasco, Jorge | Juan Antonio Ríos 33 | Santiago |
-| Tapia Carrasco, Julio | Avda. Francia 1566 | Santiago |
-| Tapia Cavanilla, Miguel | Luis Pereira 487 | Santiago |
-| Tapia Chávez, Raúl | Gamero 1270 | Santiago |
-| Tapia de la Maza, Miguel | José Tomás Rider 1122 | Santiago |
-| Tapia Fernández, Carlos | Avda. Gral. Bustamante<br>32, Depto. 3 | Santiago |
-| Tapia Ite, Andrés | Caupolicán 200 | Los Vilos |
-| Tapia Jiménez, Jorge | Arturo Prat 798 | Santiago |
-| Tapia Mercado, Octavio | Condell 1530, Of. 43 | Valparaíso |
-| Tapia Muñoz, Luis | Granada 2119 | Santiago |
-| Tapia Romero, Alfredo | 3 Oriente 1676 | Talca |
-| Tapia Salgado, René | Aldunate 469 | Castro |
-| Taricco Salazar, Domingo | 5 de Abril 507 | Chillán |
-| Taucher Schrettenbrunner, Erica | Carmen Silva 2343 | Santiago |
-| Teitelman Germán, Angel | Cóndor 856 | Santiago |
-| Tejeda Lawrence, Alvaro | Hospital | Tocopilla |
-| Tejeda Moreira, Luis | Carmen 340 | Santiago |
-| Telchi Giacomán, Jorge | Miguel Claro 963 A | Santiago |
-| Téllez Aguirre, Rafael | M. L. Santander 0261 | Santiago |
-| Téllez Magaña, Juan | Paraguay 461 | Santiago |
-| Téllez Meneses, Agustín | San Martín 149 | Santiago |
-| Tello Constanzo, Manuel | Miguel Claro 645 | Santiago |
-| Tello Tello, Arturo | Monjitas 779 | Santiago |
-| Terrazas Orellana, Julio A. | Pérez 234 | Traiguén |
-| Teuber Teuber, Wilfredo | San Francisco 688 | Puerto Varas |
-| Tezanos-Pinto Schomburgh,<br>Sergio de | Condell 1190, 5º Piso | Valparaíso |
-| Thénot Carret, Jacques | Eliecer Parada 1445 | Santiago |
-| Thibaut Figuelist, René | Sotomayor 401 | Coronel |
-| Thierry Sorenson, Ida | Santa Lucía 344 C | Santiago |
-| Thomsen Martínez, José A. | Los Plátanos 2602 | Viña del Mar |
-| Thomsen Martínez, Pablo | Bellavista 284 | Santiago |
-| Thomsen Potts, Juan | 3 Norte 549 | Viña del Mar |
-
-— 97
+```markdown
+| Taima Oyaneder, Rafael              | Independencia 667                   | Linareá      |
+|-------------------------------------|-------------------------------------|--------------|
+| Tallman Valenzueia, Benjamín        | Curicó 15, Depto. 9                 | Santiago     |
+| Tallman Valenzuela, Eduardo         | Avda. Gral. Bustamante 208 В        | Santiago     |
+| Tallman Villalón, Eduardo           | Edificio Prales Dep. 203            | Valparaíso   |
+| Tamargo Iribarría, Arturo           | J. Victorino Lastarria 16           | Santiago     |
+| Tamargo Iribarría, Juan             | Avda. Pocuro 2850                   | Santiago     |
+| Tannenbaum Berman, Adolfo           | Agua Santa 765                      | Valdivia     |
+| Tapia Araya, Ana I.                 | Porvenir 372                        | Santiago     |
+| Tapia Araya, Aniceto                | Parcela Tocornal № 8                | Puente Alto  |
+| Tapia Caballero, Mario              | San Antonio 427, Dp. 716            | Santiago     |
+| Tapia Carrasco, Jorge               | Juan Antonio Ríos 33                | Santiago     |
+| Tapia Carrasco, Julio               | Avda. Francia 1566                  | Santiago     |
+| Tapia Cavanilla, Miguel             | Luis Pereira 487                    | Santiago     |
+| Tapia Chávez, Raúl                  | Gamero 1270                         | Santiago     |
+| Tapia de la Maza, Miguel            | José Tomás Rider 1122               | Santiago     |
+| Tapia Fernández, Carlos             | Avda. Gral. Bustamante 32, Depto. 3 | Santiago     |
+| Tapia Ite, Andrés                   | Caupolicán 200                      | Los Vilos    |
+| Tapia Jiménez, Jorge                | Arturo Prat 798                     | Santiago     |
+| Tapia Mercado, Octavio              | Condell 1530, Of. 43                | Valparaíso   |
+| Tapia Muñoz, Luis                   | Granada 2119                        | Santiago     |
+| Tapia Romero, Alfredo               | 3 Oriente 1676                      | Talca        |
+| Tapia Salgado, René                 | Aldunate 469                        | Castro       |
+| Taricco Salazar, Domingo            | 5 de Abril 507                      | Chillán      |
+| Taucher Schrettenbrunner, Erica     | Carmen Silva 2343                   | Santiago     |
+| Teitelman Germán, Angel             | Cóndor 856                          | Santiago     |
+| Tejeda Lawrence, Alvaro             | Hospital                            | Tocopilla    |
+| Tejeda Moreirá, Luis                | Carmen 340                          | Santiago     |
+| Telchi Giacomán, Jorge              | Miguel Claro 963 A                  | Santiago     |
+| Téllez Aguirre, Rafael              | M. L. Santander 0261                | Santiago     |
+| Téllez Magaña, Juan                 | Paraguay 461                        | Santiago     |
+| Tfellez Meneses, Agustín            | San Martín 149                      | Santiago     |
+| Tello Constanzo, Manuel             | Miguel Claro 645                    | Santiago     |
+| Tello Tello, Arturo                 | Monjitas 779                        | Santiago     |
+| Terrazas Orellana, Julio A.         | Pérez 234                           | Traiguén     |
+| Teuber Teuber, Wilfredo             | San Francisco 688                   | Puerto Varas |
+| Tezanos-Pinto Schomburgh, Sergio de | Condell 1190, 5? Piso               | Valparaíso   |
+| Thénot Carret, Jacques              | Eliecer Parada 1445                 | Santiago     |
+| Thibaut Figuelist, René             | Sotomayor 401                       | Coronel      |
+| Thierry Sorenson, Ida               | Santa Lucía 344 С                   | Santiago     |
+| Thomsen Martínez, José A.           | Los Plátanos 2602                   | Viña del Mar |
+| Thomsen Martínez, Pablo             | Bellavista 284                      | Santiago     |
+| Thomsen Potts,. Juan                | 3 Norte 549                         | Viña del Mar |
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page beyond the text itself.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible portions of text on this page.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The transcription is a complete and accurate representation of all text on the page.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only textual data in a directory format with no significant visual elements like photographs, illustrations, or maps."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 95
 

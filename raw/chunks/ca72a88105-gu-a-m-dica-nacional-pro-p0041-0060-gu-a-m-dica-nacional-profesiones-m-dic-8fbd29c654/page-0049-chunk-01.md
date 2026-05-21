@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-61effd98df3a-P0049-01
+chunk_id: CHUNK-131e24a3b424-P0049-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 61effd98df3adb1d7f7266dcb70556974ab231f8aeb0189bc64171a258b8e05a
+converted_sha256: 131e24a3b424d14af92fa497d41f20dd66a6859a5f638efa2264a47b4747b5bb
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
@@ -212,15 +212,3 @@ All visible text on the page has been transcribed, including names, addresses, c
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-
-## Page Metadata
-- Page number: 54
-- Source page number is inconsistent with the file name and work order, which specify page 51. The content transcribed is from the visible page image, which is page 54.
-
-## Layout And Reading Order
-The page contains a directory listing of medical professionals. The content is organized into three columns.
-1.  **Column 1:** Name of the professional (Last Name, First Name).
-2.  **Column 2:** Address.
-3.  **Column 3:** City or location.
-
-The reading order is from left to right for each entry, proceeding down the page. Some entries have addresses that span two lines. The page number is located at the bottom left.

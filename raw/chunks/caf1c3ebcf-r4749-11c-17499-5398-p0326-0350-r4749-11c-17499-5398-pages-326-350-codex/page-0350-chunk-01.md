@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-aeadbf633bd2-P0350-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350.codex.md
+converted_sha256: aeadbf633bd2aa8d51e239a18551648f4ade2ff2c30dd8e2581bdfddfc4a1f81
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350/manifest.json
+page_start: 350
+page_end: 350
+part: 1
+---
+
+# Page 350
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350/manifest.json`
+- Source page: 350
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350/page-images/page-0350.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+cina es uno de los factores màs esenciales, de mancra que la casa hogar debe tener icocinas particulares.
+
+Dr. Coll. - Muy bien.
+
+Sr. Broudeur. - Me perxnite, no estâ en discusiôn el plan de construcciôn sino el sistema ùnicamente, que la cocina sea general o particular, es cuestiôn de detalle, aûn cuando se trata de un detalle de suma
+
+importancia-
+
+- Dr. Gândara. - Es un detalle muy importante y este séria el
+- momento de hacer la observaciôn.
+- Sr. Présidente. - Ambos sistemas de cocina no excluyen el tipo de hogar preconizado en el apartado; es un detalle de organization in¬ terna, de posibilidades de cada establecimiento.
+- Dr. Coll. --Es necesario entrar en detalles de cocina: soy un decidido partidario de la casa hogar compléta, como lo ha dicho muy bien el Dr. Gândara; si sacamos la cocina de la casa hogar la desvirtuamos en su fundamento. La mujer que estâ al lado trabajando en la confecciôn de la comida, la forma de servir la mesa, la forma de corner y los hâbitos es lo que influye profundamente en el corazôn del nino. Por lo tanto bay que buscar en el sistema de las casas hogares eso, que es la espiritualidad misma que surge de las circunstancias. (Aplausos)-
+- Sr. Présidente. - Se va a votar porque ha habido observaciones a la
+- primera base. Aprobada.
+- Sr. Secretario. - Segunda base: Los establecimientos que se implanten en lo sucesivo deberân edificarse en la campana y organizarse en el sistema de easas-hogares. La capacidad mâxima de cada hogar serâ de 30 menores, a cargo de un matrimonio o de una educadora cuan¬ do se trate de ninas. Su construcciôn revestirâ el aspecto sencillo de los hogares de campo. dotândoseles de todas las dependencias inherentes a una casa de familia. Todo el personal de los establecimientos deberâ residir obligatoriamtente en los mismos".
+
+Dr. Agote- Apruebo perfecta y cumplidamente la manifestaciôn de este articulo, y lo compruebo declarando que la Asociaciôn Tu¬ telar de Menores, tiene dos escuelas suyas que estân fuera del pueblo: una en Marcos Paz que es agricola y ganadera; y otra en el Tigre que es industrial; y también otras dos que son: una en la capital para educar a mujeres, y otra en Lomas de Zamora que es en realidad una escuela granja, que es un modelo en su clase, es un modelo de granja, no es
+
+- opinion mia, sino opinion de muchas personas. Lo hago notar porque
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

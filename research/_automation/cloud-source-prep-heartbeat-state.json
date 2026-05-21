@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T08:06:02Z",
+  "created": "2026-05-21T08:27:53Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -33,7 +33,7 @@
       "name": "prepare-sources",
       "status": "ran",
       "detail": {
-        "prepared_sources": 0
+        "prepared_sources": 19
       }
     },
     {
@@ -58,16 +58,16 @@
       "status": "ran",
       "detail": {
         "action": "restore-queued-source-prep-raw",
-        "created": "2026-05-21T08:07:35Z",
+        "created": "2026-05-21T08:28:22Z",
         "queue": "research/_agent-queues/source-prep-batches.json",
         "filters": {
           "source": "",
           "source_sha256": ""
         },
         "unique_sources": 19,
-        "attempted": 19,
-        "restored": 19,
-        "skipped_present": 0,
+        "attempted": 0,
+        "restored": 0,
+        "skipped_present": 19,
         "skipped_limit": 0,
         "unmatched": 0,
         "errors": []
@@ -84,9 +84,9 @@
       "detail": {
         "action": "asset-upload",
         "dry_run": false,
-        "total_files": 0,
-        "total_bytes": 0,
-        "uploaded": 0,
+        "total_files": 11,
+        "total_bytes": 380089,
+        "uploaded": 11,
         "skipped": 0,
         "planned": 0,
         "errors": [],
@@ -97,9 +97,9 @@
             "derived/raw/codex-conversion-jobs/",
             "derived/research/_assets/conversions/"
           ],
-          "scanned": 898,
+          "scanned": 909,
           "deleted": 0,
-          "skipped": 898,
+          "skipped": 909,
           "errors": []
         }
       }
@@ -109,12 +109,12 @@
   "queues": {
     "source_prep_batches": {
       "path": "/home/runner/work/Genealogy-/Genealogy-/research/_agent-queues/source-prep-batches.json",
-      "task_count": 3778,
+      "task_count": 3728,
       "status_counts": {
-        "needs_reread": 370,
-        "todo": 3408
+        "needs_reread": 369,
+        "todo": 3359
       }
     }
   },
-  "finished": "2026-05-21T08:07:36Z"
+  "finished": "2026-05-21T08:28:26Z"
 }

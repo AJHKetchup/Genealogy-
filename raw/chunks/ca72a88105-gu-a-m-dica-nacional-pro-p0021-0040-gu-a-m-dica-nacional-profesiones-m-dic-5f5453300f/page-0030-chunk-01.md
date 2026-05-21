@@ -1,0 +1,298 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-bc58973a68f5-P0030-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40.codex.md
+converted_sha256: bc58973a68f554013345e7238c2d6f972e1a0638f65145ff2b979e68380e1650
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json
+page_start: 30
+page_end: 30
+part: 1
+---
+
+# Page 30
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 30
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0030.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Dubernet  Mazerolles,  Juan  ft. Ducach  Grimberg, Germán Duelos  Kiekbusch, Jorge Ducó  Dunoguer, Gabriela Dueñas  Estrugo,  Azaría
+
+Marcoleta  367
+
+Santiago
+
+C.  Montero  0339
+
+Santiago
+
+Constitución  550
+
+Linares
+
+Brasil  78,  Depto.  F
+
+Santiago
+
+Arturo  Prat 1109,
+
+Santiago
+
+Depto.  304
+
+Dueñas  García,  Jesús
+
+Estado  215
+
+Santiago
+
+Dueñas  García,  Jorge
+
+Constitución  550
+
+Linares
+
+Duffau  Ortiz,  Gastón
+
+Bandera  465
+
+Santiago
+
+Duque  Gómez,  Ignacio
+
+Alarife  Gamboa 054
+
+Santiago
+
+Duque  Ramos, Olmedo
+
+Torres  Boonen  800
+
+Santiago
+
+Durán  Armijo,  Juan Antonio
+
+Balmaceda  468
+
+Punta Arenas
+
+Durán  Bernales, Florencio
+
+Avda.  Lyon  1474
+
+Santiago
+
+Durán  Bravo,  Gastón
+
+Las  Condes  4513
+
+Santiago
+
+Durán  Buendía,  Alfredo
+
+San  Antonio  510,  Of.  306
+
+Santiago'
+
+Durán  Moya,  Calixto
+
+Esmeralda  756,  Depto.  52
+
+Santiago
+
+Durán  Rubio,  Fernando
+
+Salamanca  838
+
+Santiago
+
+Durán  Trujillo,  José  H.
+
+Brasil 570
+
+San  Carlos
+
+Durruty  Alvarez, Guillermo
+
+Libertad 53
+
+Ovalle
+
+Dussaillant Grossetete, Gastón
+
+Huérfanos  757,  Of.  715
+
+Santiago
+
+Dussert  Jollán, Eduardo
+
+Dardignac  351
+
+Santiago
+
+Duval  Cerda,  Enrique
+
+Avda.  Santa María 0410
+
+Santiago
+
+## Е
+
+## Ebensperger  Aburto, Inés
+
+Ebensperger  Cabrera,  Ruby
+
+Ebensperger  Garay,  Arturo
+
+Ebensperger  Richter  Amoldo
+
+Ebensperger  Wepler,  Luis
+
+Eberhardt  Escobar,  Raúl
+
+Eblen  Smeja,  Augusto
+
+Echániz  Arámbarri,  Manuel
+
+Echeverría  Lizama,  Rufina
+
+Echeverría  Salinas, Arturo
+
+Echiburú  Lamiothe,  Tomás
+
+Edwards  Martini, Alberto
+
+Egaña  Barahona, Enrique
+
+Eggers  Pflanz,  Federico
+
+Eggers  Rendic,  Hilda
+
+Eggers  Schonherr,  E.  Carlos
+
+Eguiguren Errázuriz, Ricardo
+
+Eimbecke  Menke,  Fernando
+
+Elgueta  Elgueta,  Humberto
+
+## Av.  General Bustamante Santiago
+
+176,  Depto.  303
+
+Tucapel  177
+
+Gambetta  Sur  1038
+
+Castellón  211
+
+Quillota  113
+
+Lautaro  689
+
+Alam.  B.  O'Higgins  3155
+
+Hospital
+
+Manuel  Rodríguez  556
+
+Valparaíso  315
+
+M. Torres  Boonen  571
+
+Alam.  B.  O'Higgins  238
+
+Lilenes  240
+
+Eleodoro Yáñez  1694
+
+Rosal  335,  Depto.  23
+
+Vicuña  Cifuentes  2887
+
+Santo Domingo  2541
+
+Parcela  5-Colonia
+
+Avda.  Providencia  153
+
+Concepción
+
+Santiago/
+
+Concepción
+
+Puerto  Montt
+
+Santiago»
+
+Santiago
+
+Chuquicamata
+
+Santiago!
+
+Viña  del  Mar
+
+Santiagci
+
+Santiagci
+
+Santiago!
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Peñaflor
+
+Santiago;
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

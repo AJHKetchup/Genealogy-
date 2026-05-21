@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-43cf64e67e2e-P0031-01
+chunk_id: CHUNK-c88b164c8682-P0031-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
-converted_sha256: 43cf64e67e2eeab35644d1d3507cf84e9fa61d1a609fc01b9a72648b20b85ac5
+converted_sha256: c88b164c8682c16218cc45848405172acb7c8b939a32933dd8b06d03d24b0576
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## ARTICLE 90.
 
 La presente Convention, qui portera la date de ce jour, pourra, jusqu'au premier fevrier 1930, etre signee au nom de tous les pays represents k la Conference qui s'est ouverte a Geneve le ler juillet 1929.
@@ -349,10 +348,3 @@ All visible text on the page has been transcribed, including the page number and
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content. It is primarily a text-based list."}
-
-## Page Metadata
-Page number: 35
-Source document page number: 30
-
-## Layout And Reading Order
-The page presents a single-column text layout, primarily consisting of a main title, a sub-title, and two main sections (I and II). Each main section is further divided into sub-sections (A, B, C) with descriptive headings. Within these sub-sections, content is presented as numbered lists (1°, 2°, 3°). The text is in French. A page number is centered at the bottom.

@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-79314475ede5-P0429-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450.codex.md
+converted_sha256: 79314475ede5ea921c996bf15967ce0a8f8dae5d60d244a229b3353ff5223fa1
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/manifest.json
+page_start: 429
+page_end: 429
+part: 1
+---
+
+# Page 429
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/manifest.json`
+- Source page: 429
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/page-images/page-0429.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+se trouvent, du fait de la cessation des hostilités, libérés de la charge pesant sur eux. Ce qui est important, c'est de ne pas restituer les personnes qui ont commis un crime que nous appe¬ lons en français un crime de droit commun. Ces personnes n'ont aucune raison d'être mieux traitées que d'autres individus qui, dans leur pays d'origine, auraient été condamnés pour un crime de droit commun. Mais en ce qui concerne les crimes et délits en rapport avec la guerre elle-même, il s'agit d'une autre notion, que l'expression française « délits de droit commun » définit très clairement. Si quelques délégations voyaient des objections à l'accepter il faudrait, me semble-t-il, chercher un autre terme pour exprimer cette idée.
+
+## M. Du Sault
+
+## (France) :
+
+Peut-etre la délégation japonaise aurait-elle satisfaction, si l'on se bornait à supprimer les mots « c'est-à-dire de caractère non militaire » ?
+
+## Le Lieutenant-Colonel Holt-Wilson (Grande-Bretagne). Traduction
+
+:
+
+La délégation de la Grande-Bretagne ne demande la suppression que des mots « c'est-à-dire de caractère non militaire ».
+
+## M. Werner (C.I.C.R.), rapporteur :
+
+Je suis tout à fait d'accord pour laisser tomber ces mots explicatifs qui ont été ajoutés pour essayer de donner satisfaction à quelques délégations.
+
+## M. le Président :
+
+La délégation japonaise peut-elle se rallier à l'idée de garder les mots « de droit commun », en supprimant « c'est-à-dire de caractère non militaire » ?
+
+## Le Lieutenant-Colonel Shimomura (Japon)
+
+:
+
+Si on laisse les mots « de droit commun », cela couvre-t-il les crimes militaires, oui ou non ?
+
+## M. Werner (C.I.C.R.), rapporteur :
+
+Si vous vouliez donner un exemple, nous pourrions répondre plus facilement.
+
+## M. de Ruelle
+
+## (Belgique) :
+
+Je crois que l'exemple indiqué, il y a un instant, n'est peut-être pas très bon. L'espionnage, dans la plupart des législations nationales, est considéré comme un crime de droit commun, c'est-à-dire qu'il peut être commis non seulement par un militaire, mais aussi par. un civil, et que, dans les deux cas, il est puni des mêmes sanctions.
+
+Je veux simplement ajouter ceci : Le cas d'un prisonnier militaire est tel qu'il me paraît difficile qu'il puisse commettre un crime d'espionnage. Il ne répond en tout cas pas à la défini¬ tion qu'en donnent les Conventions de la Haye, parce que ce prisonnier ne sera certainement pas quelqu'un qui s'est introduit clandestinement, sans uniforme, dans les lignes ennemies pour repérer dés renseignements utiles à l'ennemi. Naturellement, il ne nous appartient pas de trancher ce point et d'examiner les multiples hypothèses qui peuvent se produire. C'est pourquoi je pense que le cas d'un prisonnier de guerre faisant de l'espionnage est extrêmement rare. D'autre part, l'espionnage est, à mon sens, un crime de droit commun.
+
+## M. le Président :
+
+Je demande encore une fois à la délégation japonaise de nous donner un exemple.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

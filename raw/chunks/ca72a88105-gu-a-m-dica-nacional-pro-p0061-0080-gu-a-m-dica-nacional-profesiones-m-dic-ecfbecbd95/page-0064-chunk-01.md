@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-fdbc1fdda9d4-P0064-01
+chunk_id: CHUNK-c19c47eb39db-P0064-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
-converted_sha256: fdbc1fdda9d40ff904900ca1c77f6d1c2be6bc49f30d81d3703fd40b9c2f5ed2
+converted_sha256: c19c47eb39dbfb1971e0973b63d8825c09669826943107fd3ef7ba6ba7adb7bd
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
@@ -136,88 +136,3 @@ This page has been fully and accurately transcribed. The printed page number is 
   "no_visual_regions_reason": "The page contains only text in a directory format."
 }
 ```
-
-## Page Metadata
-- **Page number**: 69
-
-## Layout And Reading Order
-This page is a directory listing presented in a three-column format. The columns are:
-1.  **Name**: The full name of the individual, listed as "Last Name(s), First Name(s)".
-2.  **Address**: The street address or place of work (e.g., "Hospital").
-3.  **City**: The city or town where the address is located.
-
-The entries are arranged alphabetically by surname. The page number, "69", is located at the bottom right corner, preceded by a dash.
-
-## Literal Transcription
-| Name | Address | City |
-| :--- | :--- | :--- |
-| Muñoz Aguayo, Carlos | Las Nieves 3336 | Santiago |
-| Muñoz Agüero, Washington Rubén | Bulnes 720 | Concepción |
-| Muñoz Angulo, Mario | V. Varas 279 | Cauquenes |
-| Muñoz Burboa, Juan N. | O'Higgins 59 | Concepción |
-| Muñoz Burgos, Néstor | General del Canto 64 | Santiago |
-| Muñoz Castro, Angela | San Martín 445 | Concepción |
-| Muñoz Ceballos, Mario | Antonio Tocornal 588 | Santiago |
-| Muñoz Gajardo, Carlos | Gral. Körner 385 | Villarrica |
-| Muñoz Gallegos, Agustín | 2 Oriente 1150, Of. 8 | Talca |
-| Muñoz Gallegos, Leonardo | Santos Dumont 835 | Santiago |
-| Muñoz Hernández, Carlos | Avda. Pedro Montt 1810 | Valparaíso |
-| Muñoz Hidalgo, Nicolás | Pedro de Oña 17 | Santiago |
-| Muñoz Jeldrez, Julio | Rosamel del Solar 6 | Concepción |
-| Muñoz Larrañaga, José Roberto | Jorge Valenzuela 523 | Valparaíso |
-| Muñoz Larrañaga, Sergio | Valparaíso 550 D | Viña del Mar |
-| Muñoz León, Arturo | Bunster 579 | Angol |
-| Muñoz Marambio, Waldo | Gamero 1241 | Santiago |
-| Muñoz Matus, Raquel | San Antonio 567 | Santiago |
-| Muñoz Miranda, Hernán | Condell 1231 | Valparaíso |
-| Muñoz Montt, Eduardo | Pedro Montt 2007 | Valparaíso |
-| Muñoz Muñoz, Luis C. | Avda. Recoleta 710 | Santiago |
-| Muñoz Muñoz, Yolanda | Monseñor Müller 43 F | Santiago |
-| Muñoz Navarro, Agustín | Lagos 396 | Temuco |
-| Muñoz Orellana, Servando | Marcoleta 432 | Santiago |
-| Muñoz Ortiz, María | Monjitas 375 | Santiago |
-| Muñoz Ortiz, Miguel A. | Recoleta 2214 | Santiago |
-| Muñoz Ortiz, Oscar | San Andrés 4363 | Santiago |
-| Muñoz Oviedo, Hilda | Hospital | Concepción |
-| Muñoz Parra, Luis | Avda. Providencia 591,<br>Depto. 21 | Santiago |
-| Muñoz Tapia, Basilio | Marchant Pereira 2303 | Santiago |
-| Muñoz Tapia, Fernando | San Isidro 229 | Santiago |
-| Muñoz Toro, Victoria | Freire 315 | Los Andes |
-| Muñoz Urrutia, Roberto | Nataniel 210, Depto. 45 | Santiago |
-| Muñoz Valenzuela, Manuel | Hospital | Santa Cruz |
-| Muñoz Valenzuela, Washington | Hospital | San Felipe |
-| Muranda Román, Manuel A. | Ayacucho 489 | Santiago |
-| Muranda Salfate, Manuel | Ayacucho 489 | Santiago |
-| Murillo Costa, Ruperto | Almirante Barroso 19 | Santiago |
-| Murray Salgado, Roberto | Avda. Prat 709 | Valdivia |
-| Murúa Laity, Hermógenes | O'Higgins 262 | Valdivia |
-| Musatadi Rivera, Luis | Argomedo 344 | Santiago |
-| Muxica Barbé, Guillermo | Lautaro 149 | Valdivia |
-| Muxica Hevia, Ricardo | Moneda 1919 | Santiago |
-| Muzzo Pons, Santiago | Avda. Libertad 17 | Viña del Mar |
-
-<br>
-
-— 69
-
-## Images, Captions, And Visual Notes
-There are no images, illustrations, or other visual elements on this page.
-
-## Uncertain Or Illegible
-There are no uncertain or illegible parts of this page.
-
-## Completeness Audit
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text in a directory format."
-}
-```
-
-## Page Metadata
-Page: 67
-Task id: source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0067
-Source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf

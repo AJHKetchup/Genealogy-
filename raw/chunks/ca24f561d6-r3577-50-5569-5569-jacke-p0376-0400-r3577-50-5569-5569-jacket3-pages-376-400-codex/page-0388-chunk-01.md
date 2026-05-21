@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-75aa536c45cb-P0388-01
+chunk_id: CHUNK-6e6116bb5ec0-P0388-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400.codex.md
-converted_sha256: 75aa536c45cbac7bfe9a3241e2fdb1d0f2fbfe4cc920966afcbd7e9fefc0a3c5
+converted_sha256: 6e6116bb5ec0d0ff5da4e3f7bf9f703e6e81c2e0e4fbd5ba4fb95899d00a0156
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## M. Venizelos (Grèce)
 
 :
@@ -123,104 +122,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page Number: 389
-Source File: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
-
-## Layout And Reading Order
-
-The page presents a single-column layout, primarily consisting of transcribed meeting minutes. It begins with a header indicating the page number and session date. Below this, a main heading "Article 4." introduces the discussion. The bulk of the page is structured as a series of statements from different speakers, each identified by their name and sometimes their country or role (e.g., "rapporteur", "Secrétaire"). Each speaker's contribution is presented as one or more paragraphs. A centered heading "COMMUNICATIONS." breaks up the flow towards the bottom, followed by more speaker statements. A horizontal rule appears at the very bottom of the main text block.
-
-## Literal Transcription
-
-12 SÉANCE DU 4 JUILLET 1929
-
-Article 4.
-
-**M. Werner rapporteur :**
-En ce qui concerne le 1er alinéa de l'article 4, une seule observation a été faite, par la
-délégation britannique, en ce qui concerne le mot «gouvernement». Cette objection aurait
-déjà pu être faite à propos d'une disposition précédente, celle de l'Empire britannique. La
-commission a été d'avis de maintenir ce mot très difficile à remplacer, en priant la délégation
-britannique de bien vouloir examiner cette question importante pour elle, à propos de l'acte final.
-
-En ce qui concerne le second alinéa on a demandé quelle était la raison d'être de cette
-disposition. L'idée centrale en est celle de l'égalité de tous les prisonniers devant la loi de la
-captivité, sous réserve des exceptions qui peuvent être motivées par des raisons militaires,
-médicales ou professionnelles qui sont expressément mentionnées dans ce second alinéa.
-Aucune autre observation n'a été présentée ; nous vous proposons donc le maintien de
-l'article 4 tel qu'il se trouve dans le projet.
-Tel est le rapport que la sous-commission juridique m'a chargé de vous présenter au-
-jourd'hui.
-
-**M. Rhomberg (Allemagne) :**
-Je me permets de faire, à l'art. 4, une proposition. La délégation allemande estime qu'il
-serait utile de régler dans une stipulation spéciale de la Convention le traitement des femmes
-qui pourraient être faites prisonnières de guerre.
-
-Dans un temps où l'égalité de droit des sexes est devenu un principe reconnu de tous
-et où l'incorporation des femmes dans la défense nationale rend possible leur participation
-aux opérations militaires, par exemple par l'emploi des femmes dans les bureaux, les magasins,
-les cuisines militaires, la Convention projetée devrait en tenir compte.
-
-En conséquence la délégation allemande se permet de proposer le texte suivant qui de-
-viendrait un nouvel alinéa de l'article 4 :
-« Les prisonniers de sexe féminin seront traités avec le respect dû à leur sexe. En tout
-cas il doivent être logés séparés des hommes. »
-
-**M. Wilson (Etats-Unis) (Traduction).**
-Je crois qu'il serait opportun, pour tenir compte de la proposition présentée par la délé-
-gation allemande, de se donner le temps de réfléchir. C'est pourquoi je serais heureux
-de voir cette proposition renvoyée à l'examen de la sous-commission.
-
-**Sir Horace Rumbold (Grande-Bretagne) :**
-Ne pourrait-on pas se borner à ajouter dans l'énumération qui se trouve au deuxième
-alinéa de l'art. 4, les mots « le sexe » ?
-
-**M. le Président :**
-Je vous propose de renvoyer l'article 4 à la sous-commission (Adopté).
-
-COMMUNICATIONS.
-
-**M. Schlemmer, Secrétaire :**
-Il semble qu'il y ait quelque malentendu au sujet des réunions des sous-commissions
-cet après-midi. Certains délégués ont compris que les 4 sous-commissions travailleraient
-ensemble. En réalité, seules les trois premières doivent commencer leur travail. La quatrième
-se bornera à se constituer.
-
-**M. le Président :**
-La prochaine séance aura lieu demain à 9 h. 30.
-La séance est levée à 12 h. 50.
----
-
-## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page that require extraction as separate visual regions. The horizontal rule at the bottom of the page is a minor decorative element.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial images or graphics are present on this page. The content is entirely textual."}
-```
-
-## Page Metadata
-Page number: 390
-Document type: Conference minutes/report
-Date: 5 juillet 1929 (July 5, 1929)
-
-## Layout And Reading Order
-
-The page presents a formal document, likely minutes or a report from a diplomatic conference. The layout is a single column of text, with a main title, session details, and transcribed speeches from various participants. A stamped mark is present on the upper right side of the page.
-
-The reading order is:
-1.  Top header information (date, page number, status).
-2.  Main title and subtitle.
-3.  Session details.
-4.  Stamped mark.
-5.  Presidency information.
-6.  Transcribed speeches, identified by speaker.

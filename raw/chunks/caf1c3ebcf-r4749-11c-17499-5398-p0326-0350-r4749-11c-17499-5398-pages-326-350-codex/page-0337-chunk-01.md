@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-aeadbf633bd2-P0337-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350.codex.md
+converted_sha256: aeadbf633bd2aa8d51e239a18551648f4ade2ff2c30dd8e2581bdfddfc4a1f81
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350/manifest.json
+page_start: 337
+page_end: 337
+part: 1
+---
+
+# Page 337
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350/manifest.json`
+- Source page: 337
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0326-0350-r4749-11c-17499-5398-pages-326-350/page-images/page-0337.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+es mâs necesaria la vocation y vinculacion personal y constante con la obra a realizar, que no obtendria el éxito buscado si el personal descuidara el conotimiento
+
+intimp de cada menor.
+
+No me refiero a la education fisica, métodos y orientation de la ensenanza que deben régir en los institutos porque esos puntos no pertenecen al tema tratado.
+
+Por ultimo deseo aludir a un juicio critico escuchado con frecuencia. Se objeta que no se coloque al frente de los hogares a personas de cultura - maestras por ejemplo. Personalmente tengo profundo respeto por la ciencia, pero sobre el punto creo que la condition esencial es la vocation y el instinto materno, lo que no excluye por cierto los conocimientos técnicos. Esas cualidades se observan con mâs frecuencia por los matrimonios modestos u obreros. He vito en la Colonia Hogar Ricardo Gutiérrez a humildtlsimas mujeres luchar bravamente de la manana a la noche, para que sus muchachoâ poseyeran el jardin mâs florido, el comedor mâs alegre, los dormitorios mâs limpios, la comida mâs sana; las he visto seguir anhelantes su^ exâmenes escolares y las competiciones del déporté, reprenderlos con ternura y hasta repartir las monedas de sus sueldos exigiios para darles golosinas.
+
+He ahi uno de los aspectos mâs positivos de la dificil ciencia de educar menores, el sistema de las buenas madrés en los hogares de que habla el reglamento. Y esas madrés admirables solo conocen la técnica de la paciencia, la terapéutica del carino y la pedagogla del instinto ma¬ ternai.
+
+Propongo finalmente que la Primera Conferencia Nacional sobre Infancia Abandonada y Delincuente apruebe las siguientes bases:
+
+- 1° - El Estado o las asociaciones protectoras de la infancia abandonada y delincuente que reciban el apoyo econômico del Gobierno, de las Provincias, o Municipalidades, no construirân mâs establecimientos de tipo congregado, y si es posible adaptarân los existentes al sistema familiar.
+- 2.° Los establecimientos que se implanten en lo sucesivo deberân edificarse en la campana y organizarse en el sistemla de casas-hogares. La capacidad mâxima de cada hogar serâ de 30 menores, a cargo de un matrimonio o de una educadora cuando se trate de ninas. Su cons¬ truction revestirâ el aspecto sencillo de los hogares de campo, dotàndoseles de todas las dependencias inherentes a una casa de familiaTodo el personal de los establecimientos deberâ residir obligatoriamente en los mismos.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
