@@ -1168,7 +1168,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_scan_limit || '240' }}"
+        "github.event.inputs.discovery_scan_limit || '300' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1176,11 +1176,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_max_pages_per_source || '25' }}"
+        "github.event.inputs.discovery_max_pages_per_source || '0' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_ocr_limit || '16' }}"
+        "github.event.inputs.discovery_ocr_limit || '24' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
