@@ -1168,7 +1168,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_scan_limit || '120' }}"
+        "github.event.inputs.discovery_scan_limit || '240' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1180,7 +1180,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_ocr_limit || '2' }}"
+        "github.event.inputs.discovery_ocr_limit || '16' }}"
+    ) in workflow
+    assert (
+        "RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_ocr_parallelism || '2' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1208,6 +1212,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
     assert "--ocr-limit \"$RUN_DISCOVERY_OCR_LIMIT\"" in workflow
+    assert "--ocr-parallelism \"$RUN_DISCOVERY_OCR_PARALLELISM\"" in workflow
     assert "--checkpoint-every 1" in workflow
     assert "continue-on-error: true" in workflow
     assert "timeout 90m python -m historic_doc_ingest.genealogy_wiki source-prep-docling-discovery" in workflow
@@ -1349,6 +1354,10 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
             {
                 "created": "2026-05-17T00:00:00Z",
                 "finished": "2026-05-17T00:09:00Z",
+                "queue_scope": "source-prep-batches",
+                "queue_task_count": 455,
+                "ocr_limit": 16,
+                "ocr_parallelism": 2,
                 "inspected": 9,
                 "accepted": 3,
                 "unusable": 5,
@@ -1435,6 +1444,10 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- Queue tasks: 455" in report
     assert '- Queue statuses: {"needs_reread": 27, "todo": 428}' in report
     assert "- Accepted: 3" in report
+    assert "- Docling queue scope: source-prep-batches" in report
+    assert "- Docling queue task count: 455" in report
+    assert "- OCR limit: 16" in report
+    assert "- OCR parallelism: 2" in report
     assert "- Unusable: 5" in report
     assert "- Extracted images: 7" in report
     assert "- OCR-enabled pages: 1" in report
@@ -2646,6 +2659,8 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
             "3",
             "--ocr-limit",
             "2",
+            "--ocr-parallelism",
+            "3",
             "--parallelism",
             "4",
             "--no-ocr",
@@ -2661,6 +2676,7 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
 
     assert result == 0
     assert captured["parallelism"] == 4
+    assert captured["ocr_parallelism"] == 3
     assert captured["max_pages_per_source"] == 3
     assert captured["ocr_limit"] == 2
     assert captured["use_ocr"] is False

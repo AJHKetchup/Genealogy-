@@ -6713,6 +6713,7 @@ def source_prep_docling_discovery_run(
     max_pages_per_source: int = 0,
     ocr_limit: int = 0,
     parallelism: int = 1,
+    ocr_parallelism: int = 1,
     checkpoint_every: int = 25,
     stale_minutes: int = 360,
     agent: str = "source-prep-docling-discovery",
@@ -6733,6 +6734,8 @@ def source_prep_docling_discovery_run(
         raise ValueError("ocr_limit must be zero or greater")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
+    if ocr_parallelism < 1:
+        raise ValueError("ocr_parallelism must be at least 1")
     if checkpoint_every < 0:
         raise ValueError("checkpoint_every must be zero or greater")
     if hard_timeout < 0:
@@ -6816,6 +6819,7 @@ def source_prep_docling_discovery_run(
         "max_pages_per_source": max_pages_per_source,
         "ocr_limit": ocr_limit,
         "parallelism": parallelism,
+        "ocr_parallelism": ocr_parallelism,
         "checkpoint_every": checkpoint_every,
         "use_ocr": use_ocr,
         "document_timeout": document_timeout,
@@ -7073,7 +7077,7 @@ def source_prep_docling_discovery_run(
             if not process_candidates(no_ocr_candidates, parallelism):
                 pass
             elif limit <= 0 or int(summary["accepted"]) < limit:
-                process_candidates(ocr_candidates, 1)
+                process_candidates(ocr_candidates, ocr_parallelism)
 
     summary["finished"] = utc_timestamp()
     if not dry_run:
@@ -7472,6 +7476,10 @@ def build_source_prep_cloud_report(root: Path) -> str:
         "",
         "### Docling Baseline",
         "",
+        f"- Docling queue scope: {source_prep_report_value(docling.get('queue_scope'), 'unknown')}",
+        f"- Docling queue task count: {source_prep_report_value(docling.get('queue_task_count'), 'unknown')}",
+        f"- OCR limit: {source_prep_report_value(docling.get('ocr_limit'), 'unknown')}",
+        f"- OCR parallelism: {source_prep_report_value(docling.get('ocr_parallelism'), 'unknown')}",
         f"- Inspected: {source_prep_report_value(docling.get('inspected'))}",
         f"- Accepted: {source_prep_report_value(docling.get('accepted'))}",
         f"- Unusable: {source_prep_report_value(docling.get('unusable'))}",
@@ -12404,6 +12412,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum concurrent Docling baseline conversions. Default: 1.",
     )
     source_prep_docling_parser.add_argument(
+        "--ocr-parallelism",
+        type=int,
+        default=1,
+        help="Maximum concurrent OCR-required Docling baseline conversions. Default: 1.",
+    )
+    source_prep_docling_parser.add_argument(
         "--checkpoint-every",
         type=int,
         default=25,
@@ -13084,6 +13098,7 @@ def main(argv: list[str] | None = None) -> int:
             max_pages_per_source=args.max_pages_per_source,
             ocr_limit=args.ocr_limit,
             parallelism=args.parallelism,
+            ocr_parallelism=args.ocr_parallelism,
             checkpoint_every=args.checkpoint_every,
             agent=args.agent,
             stale_minutes=args.stale_minutes,
