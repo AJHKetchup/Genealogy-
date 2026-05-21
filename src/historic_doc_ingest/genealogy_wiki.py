@@ -5576,6 +5576,7 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
 SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 6
+SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION = 2
 SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
 SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
 SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
@@ -5595,7 +5596,12 @@ SOURCE_PREP_DOCLING_NO_OCR_MIN_TEXT_LAYER_ALPHA_CHARS = 20
 
 def source_prep_discovery_profile_is_current(entry: dict[str, object]) -> bool:
     status = str(entry.get("status", "")).strip()
-    if status in {SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS, SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS, "error"}:
+    if status == "error":
+        return (
+            safe_int(entry.get("profile_version"), 0) >= SOURCE_PREP_DISCOVERY_PROFILE_VERSION
+            and safe_int(entry.get("error_retry_version"), 0) >= SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION
+        )
+    if status in {SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS, SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS}:
         return safe_int(entry.get("profile_version"), 0) >= SOURCE_PREP_DISCOVERY_PROFILE_VERSION
     return True
 
@@ -6885,6 +6891,7 @@ def source_prep_docling_discovery_run(
                     "page": safe_int(task.get("page"), 0),
                     "error": str(result.get("error", ""))[:500],
                     "profile_version": SOURCE_PREP_DISCOVERY_PROFILE_VERSION,
+                    "error_retry_version": SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION,
                     "evidence_grade": False,
                 }
                 changed = True

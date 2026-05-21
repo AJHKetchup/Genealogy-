@@ -1145,6 +1145,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     workflow = workflow_path.read_text(encoding="utf-8")
 
     assert 'PIP_NO_CACHE_DIR: "1"' in workflow
+    assert "EASYOCR_MODULE_PATH: ${{ github.workspace }}/.easyocr" in workflow
+    assert "MODULE_PATH: ${{ github.workspace }}/.easyocr" in workflow
     assert "cache: \"pip\"" not in workflow
     assert "Install source-prep queue dependencies" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[pdf]"' in workflow
@@ -1152,7 +1154,8 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert "git pull --ff-only origin main" in workflow
     assert "Install Docling discovery dependencies" in workflow
     assert "Prewarm Docling OCR models" in workflow
-    assert 'easyocr.Reader(["en"], gpu=False, verbose=False)' in workflow
+    assert 'rm -f "$EASYOCR_MODULE_PATH/model/temp.zip"' in workflow
+    assert 'easyocr.Reader(["en"], gpu=False, verbose=False, download_enabled=True)' in workflow
     assert "https://download.pytorch.org/whl/cpu" in workflow
     assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
     pyproject = (Path(__file__).resolve().parents[1] / "pyproject.toml").read_text(encoding="utf-8")
@@ -1184,15 +1187,15 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_ocr_parallelism || '2' }}"
+        "github.event.inputs.discovery_ocr_parallelism || '1' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_document_timeout || '30' }}"
+        "github.event.inputs.discovery_document_timeout || '75' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_hard_timeout || '45' }}"
+        "github.event.inputs.discovery_hard_timeout || '90' }}"
     ) in workflow
     assert (
         "RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1920,7 +1923,9 @@ def test_docling_discovery_checkpoints_errors(tmp_path, monkeypatch) -> None:
     assert summary["errors"] == 1
     assert state["errors"] == 1
     assert state["tasks"][0]["status"] == "error"
-    assert any(entry["status"] == "error" for entry in discovery["entries"].values())
+    error_entries = [entry for entry in discovery["entries"].values() if entry["status"] == "error"]
+    assert error_entries
+    assert error_entries[0]["error_retry_version"] == genealogy_wiki.SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION
 
 
 def test_docling_profile_keeps_clean_digital_native_text_usable() -> None:

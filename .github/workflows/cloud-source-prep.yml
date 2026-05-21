@@ -115,6 +115,8 @@ jobs:
       PYTHONPATH: src
       PIP_NO_CACHE_DIR: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      EASYOCR_MODULE_PATH: ${{ github.workspace }}/.easyocr
+      MODULE_PATH: ${{ github.workspace }}/.easyocr
       RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}
       RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '128' }}
       RUN_RAW_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.raw_limit || '500' }}
@@ -127,9 +129,9 @@ jobs:
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '4' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
       RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || '24' }}
-      RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_parallelism || '2' }}
-      RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '30' }}
-      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '45' }}
+      RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_parallelism || '1' }}
+      RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '75' }}
+      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '90' }}
       RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '0' }}
       RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_scan_limit || '0' }}
       RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}
@@ -245,14 +247,20 @@ jobs:
         if: steps.preflight.outputs.ready == 'true'
         shell: bash
         run: |
+          mkdir -p "$EASYOCR_MODULE_PATH/model"
+          rm -f "$EASYOCR_MODULE_PATH/model/temp.zip"
           python - <<'PY'
+          import os
+          from pathlib import Path
+
           try:
               import easyocr
 
-              easyocr.Reader(["en"], gpu=False, verbose=False)
-              print("EasyOCR models are available in the runner cache.")
+              model_root = Path(os.environ["EASYOCR_MODULE_PATH"])
+              easyocr.Reader(["en"], gpu=False, verbose=False, download_enabled=True)
+              print(f"EasyOCR models are available in {model_root}.")
           except Exception as exc:
-              print(f"::warning::EasyOCR model prewarm failed: {exc}")
+              raise SystemExit(f"EasyOCR model prewarm failed: {exc}")
           PY
 
       - name: Run Docling baseline on all queued pages
