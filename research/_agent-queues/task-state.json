@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T09:10:53Z",
+  "updated": "2026-05-21T09:41:05Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -13408,13 +13408,15 @@
       "completed_at": "2026-05-17T10:26:57Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0056": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:19Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:13Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:45:53Z",
       "started_at": "2026-05-17T09:45:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:19Z"
+      "released_at": "2026-05-19T18:40:19Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:13Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75:p0057": {
       "status": "done",
@@ -13684,13 +13686,15 @@
       "completed_at": "2026-05-17T09:49:44Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0091": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:32Z",
-      "note": "Gemini conversion error: Remote end closed connection without response",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:42Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:46:02Z",
       "started_at": "2026-05-17T09:46:02Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:32Z"
+      "released_at": "2026-05-19T18:40:32Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:42Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0076-0100-s179-34-6-pages-76-100:p0092": {
       "status": "done",
@@ -16071,13 +16075,15 @@
       "completed_at": "2026-05-17T09:50:51Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75:p0051": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:23Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:47:50Z",
       "started_at": "2026-05-17T09:47:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:24Z"
+      "released_at": "2026-05-19T18:41:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:40:23Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75:p0052": {
       "status": "done",
@@ -18809,13 +18815,15 @@
       "completed_at": "2026-05-17T10:27:00Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150:p0146": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:33:19Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:14Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:22:51Z",
       "started_at": "2026-05-17T10:22:51Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:33:19Z"
+      "released_at": "2026-05-19T18:33:19Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:14Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150:p0147": {
       "status": "done",
@@ -20398,13 +20406,15 @@
       "completed_at": "2026-05-17T10:27:45Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0102": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:58Z",
-      "note": "Gemini output failed source-prep review: missing_conversion_contract_sections,duplicate_conversion_contract_sections",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:58Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:23:44Z",
       "started_at": "2026-05-17T10:23:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:58Z"
+      "released_at": "2026-05-19T18:37:58Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:58Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0104": {
       "status": "done",
@@ -20452,22 +20462,26 @@
       "completed_at": "2026-05-17T10:27:24Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0115": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:21Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:22Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:23:46Z",
       "started_at": "2026-05-17T10:23:46Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:21Z"
+      "released_at": "2026-05-19T18:40:21Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:22Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0117": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:23Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:39Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:23:46Z",
       "started_at": "2026-05-17T10:23:46Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:23Z"
+      "released_at": "2026-05-19T18:40:23Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:39Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0101-0125-s179-34-6-pages-101-125:p0120": {
       "status": "done",
@@ -20645,13 +20659,15 @@
       "completed_at": "2026-05-17T10:27:31Z"
     },
     "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115:p0108": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:38Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:33Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:23:49Z",
       "started_at": "2026-05-17T10:23:49Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:38Z"
+      "released_at": "2026-05-19T18:37:38Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:33Z"
     },
     "source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115:p0109": {
       "status": "done",
@@ -24752,13 +24768,15 @@
       "completed_at": "2026-05-21T09:08:39Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175:p0158": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:24Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:35Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:54:45Z",
       "started_at": "2026-05-17T10:54:45Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:24Z"
+      "released_at": "2026-05-19T18:37:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:35Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175:p0159": {
       "status": "done",
@@ -24922,13 +24940,15 @@
       "completed_at": "2026-05-21T07:26:23Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175:p0175": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:33:19Z",
-      "note": "Gemini output failed source-prep review: missing_literal_transcription_section,missing_conversion_contract_sections",
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:56Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:54:49Z",
       "started_at": "2026-05-17T10:54:49Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:33:19Z"
+      "released_at": "2026-05-19T18:33:19Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:33:56Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0176": {
       "status": "done",
@@ -24975,13 +24995,15 @@
       "completed_at": "2026-05-21T08:17:42Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0180": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:32Z",
-      "note": "Gemini conversion error: Gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting\",\n    \"status\": \"INTERNAL\"\n  }\n}\n",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:12Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:54:50Z",
       "started_at": "2026-05-17T10:54:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:32Z"
+      "released_at": "2026-05-19T18:37:32Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:12Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0181": {
       "status": "done",
@@ -24995,13 +25017,15 @@
       "completed_at": "2026-05-21T08:16:38Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0182": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:33:29Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:53Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:54:50Z",
       "started_at": "2026-05-17T10:54:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:33:29Z"
+      "released_at": "2026-05-19T18:33:29Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:53Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0183": {
       "status": "done",
@@ -25156,13 +25180,15 @@
       "completed_at": "2026-05-19T18:33:27Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0197": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:29Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:03Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:54:54Z",
       "started_at": "2026-05-17T10:54:54Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:29Z"
+      "released_at": "2026-05-19T18:37:29Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:35:03Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200:p0198": {
       "status": "done",
@@ -25198,13 +25224,15 @@
       "completed_at": "2026-05-19T18:33:27Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225:p0201": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:33Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:16Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:54:54Z",
       "started_at": "2026-05-17T10:54:54Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:33Z"
+      "released_at": "2026-05-19T18:37:33Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:32:16Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225:p0202": {
       "status": "done",
@@ -27054,13 +27082,15 @@
       "completed_at": "2026-05-19T18:36:46Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0185": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:36:49Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:23Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:55:58Z",
       "started_at": "2026-05-17T10:55:58Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:36:49Z"
+      "released_at": "2026-05-19T18:36:49Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:40:23Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0186": {
       "status": "done",
@@ -27116,13 +27146,15 @@
       "completed_at": "2026-05-19T18:36:53Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0192": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:22Z",
-      "note": "Gemini conversion error: Gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting\",\n    \"status\": \"INTERNAL\"\n  }\n}\n",
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:03Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:56:01Z",
       "started_at": "2026-05-17T10:56:01Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:22Z"
+      "released_at": "2026-05-19T18:40:22Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:40:03Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0176-0200-s179-34-6-pages-176-200:p0195": {
       "status": "done",
@@ -29837,22 +29869,26 @@
       "completed_at": "2026-05-21T04:41:37Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0198": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:47Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:05Z",
       "started_at": "2026-05-17T10:58:05Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:24Z"
+      "released_at": "2026-05-19T18:41:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:40:47Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0199": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:27Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:06Z",
       "started_at": "2026-05-17T10:58:06Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:24Z"
+      "released_at": "2026-05-19T18:41:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:40:27Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0200": {
       "status": "done",
@@ -30280,13 +30316,15 @@
       "released_at": "2026-05-19T18:41:29Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket4-pages-176-200:p0194": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:29Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:03Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:19Z",
       "started_at": "2026-05-17T10:58:19Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:29Z"
+      "released_at": "2026-05-19T18:41:29Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:03Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket4-pages-176-200:p0195": {
       "status": "done",
@@ -30415,13 +30453,15 @@
       "released_at": "2026-05-19T18:41:50Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0157": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:50Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:34Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:23Z",
       "started_at": "2026-05-17T10:58:23Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:50Z"
+      "released_at": "2026-05-19T18:41:50Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:33:34Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0158": {
       "status": "released",
@@ -30444,40 +30484,48 @@
       "completed_at": "2026-05-21T08:48:06Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0160": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:50Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:54Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:25Z",
       "started_at": "2026-05-17T10:58:25Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:50Z"
+      "released_at": "2026-05-19T18:41:50Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:54Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0161": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:50Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:39Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:25Z",
       "started_at": "2026-05-17T10:58:25Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:50Z"
+      "released_at": "2026-05-19T18:41:50Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:34:39Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0162": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:50Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:59Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:25Z",
       "started_at": "2026-05-17T10:58:25Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:50Z"
+      "released_at": "2026-05-19T18:41:50Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:59Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0163": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:50Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:32Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:26Z",
       "started_at": "2026-05-17T10:58:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:50Z"
+      "released_at": "2026-05-19T18:41:50Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:35:32Z"
     },
     "source-prep:cadb21f94f-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket1-pages-151-175:p0164": {
       "status": "released",
@@ -41155,13 +41203,15 @@
       "completed_at": "2026-05-19T18:33:37Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250:p0239": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:42Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:35Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:10:46Z",
       "started_at": "2026-05-19T18:10:46Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:42Z"
+      "released_at": "2026-05-19T18:37:42Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:35Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250:p0240": {
       "status": "done",
@@ -41739,13 +41789,15 @@
       "completed_at": "2026-05-19T18:33:43Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket5-pages-301-325:p0305": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:51Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:20Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:11:01Z",
       "started_at": "2026-05-19T18:11:01Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:51Z"
+      "released_at": "2026-05-19T18:37:51Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:20Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket5-pages-301-325:p0306": {
       "status": "done",
@@ -42011,22 +42063,26 @@
       "completed_at": "2026-05-19T18:33:47Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350:p0335": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:53Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:08Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:11:08Z",
       "started_at": "2026-05-19T18:11:08Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:53Z"
+      "released_at": "2026-05-19T18:37:53Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:08Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350:p0336": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:34:55Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:55Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:11:08Z",
       "started_at": "2026-05-19T18:11:08Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:34:55Z"
+      "released_at": "2026-05-19T18:34:55Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:30:55Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350:p0337": {
       "status": "done",
@@ -42130,13 +42186,15 @@
       "completed_at": "2026-05-21T08:45:00Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350:p0348": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:38:06Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:56Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:11:11Z",
       "started_at": "2026-05-19T18:11:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:38:06Z"
+      "released_at": "2026-05-19T18:38:06Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:56Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350:p0349": {
       "status": "done",
@@ -42273,13 +42331,15 @@
       "completed_at": "2026-05-19T18:33:52Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375:p0363": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:36:41Z",
-      "note": "Gemini output failed source-prep review: missing_conversion_contract_sections,possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:58Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:11:15Z",
       "started_at": "2026-05-19T18:11:15Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:36:41Z"
+      "released_at": "2026-05-19T18:36:41Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:58Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket5-pages-351-375:p0364": {
       "status": "done",
@@ -46355,13 +46415,15 @@
       "completed_at": "2026-05-19T18:35:16Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0352": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:35:13Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:24Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:13:57Z",
       "started_at": "2026-05-19T18:13:57Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:35:13Z"
+      "released_at": "2026-05-19T18:35:13Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:24Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0353": {
       "status": "done",
@@ -46373,13 +46435,15 @@
       "completed_at": "2026-05-19T18:35:12Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0354": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:35:46Z",
-      "note": "Gemini output failed source-prep review: duplicate_conversion_contract_sections",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:18Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:13:58Z",
       "started_at": "2026-05-19T18:13:58Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:35:46Z"
+      "released_at": "2026-05-19T18:35:46Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:18Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0355": {
       "status": "done",
@@ -49914,13 +49978,15 @@
       "completed_at": "2026-05-19T18:37:01Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0334": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:01Z",
-      "note": "Gemini output failed source-prep review: possible_ocr_garbage_token",
+      "status": "done",
+      "updated_at": "2026-05-21T09:41:05Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:16:35Z",
       "started_at": "2026-05-19T18:16:35Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:01Z"
+      "released_at": "2026-05-19T18:37:01Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:41:05Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0335": {
       "status": "done",
@@ -49932,13 +49998,15 @@
       "completed_at": "2026-05-19T18:37:00Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0339": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:13Z",
-      "note": "Gemini visual crop extraction failed: visual_region_manifest_missing",
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:59Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:16:35Z",
       "started_at": "2026-05-19T18:16:35Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:13Z"
+      "released_at": "2026-05-19T18:37:13Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:39:59Z"
     },
     "source-prep:ca5678c313-s179-34-6-p0326-0350-s179-34-6-pages-326-350:p0340": {
       "status": "done",
@@ -59220,13 +59288,15 @@
       "released_at": "2026-05-19T18:41:24Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0221": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:27Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:04Z",
       "started_at": "2026-05-19T18:28:05Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:24Z"
+      "released_at": "2026-05-19T18:41:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:40:27Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0225": {
       "status": "done",
@@ -59406,13 +59476,15 @@
       "completed_at": "2026-05-21T08:43:56Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket4-pages-201-225:p0213": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:31Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:12Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:30Z",
       "started_at": "2026-05-19T18:28:30Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:31Z"
+      "released_at": "2026-05-19T18:41:31Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:34:12Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket4-pages-201-225:p0214": {
       "status": "done",
@@ -59499,22 +59571,26 @@
       "completed_at": "2026-05-21T08:13:55Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket4-pages-201-225:p0222": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:31Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:54Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:33Z",
       "started_at": "2026-05-19T18:28:33Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:31Z"
+      "released_at": "2026-05-19T18:41:31Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:35:54Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket4-pages-201-225:p0223": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:31Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:49Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:33Z",
       "started_at": "2026-05-19T18:28:33Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:31Z"
+      "released_at": "2026-05-19T18:41:31Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:35:49Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket4-pages-201-225:p0224": {
       "status": "done",
@@ -59830,13 +59906,15 @@
       "released_at": "2026-05-19T18:41:34Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275:p0258": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:34Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:27Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:43Z",
       "started_at": "2026-05-19T18:28:43Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:34Z"
+      "released_at": "2026-05-19T18:41:34Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:27Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275:p0259": {
       "status": "done",
@@ -59848,22 +59926,26 @@
       "completed_at": "2026-05-19T18:41:40Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275:p0260": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:35Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:18Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:43Z",
       "started_at": "2026-05-19T18:28:43Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:35Z"
+      "released_at": "2026-05-19T18:41:35Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:18Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275:p0261": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:35Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:55Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:44Z",
       "started_at": "2026-05-19T18:28:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:35Z"
+      "released_at": "2026-05-19T18:41:35Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:55Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275:p0262": {
       "status": "released",
@@ -59933,13 +60015,15 @@
       "released_at": "2026-05-19T18:41:35Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300:p0281": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:35Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:47Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:47Z",
       "started_at": "2026-05-19T18:28:47Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:35Z"
+      "released_at": "2026-05-19T18:41:35Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:30:47Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300:p0285": {
       "status": "released",
@@ -60022,13 +60106,15 @@
       "released_at": "2026-05-19T18:41:36Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325:p0306": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:36Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:51Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:50Z",
       "started_at": "2026-05-19T18:28:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:36Z"
+      "released_at": "2026-05-19T18:41:36Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:35:51Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325:p0307": {
       "status": "done",
@@ -60042,13 +60128,15 @@
       "completed_at": "2026-05-21T07:47:07Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325:p0308": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:36Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:15Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:51Z",
       "started_at": "2026-05-19T18:28:51Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:36Z"
+      "released_at": "2026-05-19T18:41:36Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:15Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325:p0309": {
       "status": "done",
@@ -60091,13 +60179,15 @@
       "released_at": "2026-05-19T18:41:37Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325:p0313": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:37Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:44Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:28:53Z",
       "started_at": "2026-05-19T18:28:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:37Z"
+      "released_at": "2026-05-19T18:41:37Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:44Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325:p0314": {
       "status": "released",
@@ -60496,13 +60586,15 @@
       "completed_at": "2026-05-21T04:08:41Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket4-pages-351-375:p0354": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:40Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:27Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:09Z",
       "started_at": "2026-05-19T18:29:09Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:40Z"
+      "released_at": "2026-05-19T18:41:40Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:33:27Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket4-pages-351-375:p0355": {
       "status": "released",
@@ -60576,13 +60668,15 @@
       "completed_at": "2026-05-21T09:06:01Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket4-pages-351-375:p0362": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:41Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:37Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:12Z",
       "started_at": "2026-05-19T18:29:12Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:41Z"
+      "released_at": "2026-05-19T18:41:41Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:37Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket4-pages-351-375:p0363": {
       "status": "released",
@@ -60665,13 +60759,15 @@
       "released_at": "2026-05-19T18:41:42Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket4-pages-351-375:p0371": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:42Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:57Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:15Z",
       "started_at": "2026-05-19T18:29:15Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:42Z"
+      "released_at": "2026-05-19T18:41:42Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:30:57Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0351-0375-r3578-50-5569-5569-jacket4-pages-351-375:p0372": {
       "status": "released",
@@ -60872,13 +60968,15 @@
       "released_at": "2026-05-19T18:41:43Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket4-pages-376-400:p0392": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:44Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:14Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:23Z",
       "started_at": "2026-05-19T18:29:23Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:44Z"
+      "released_at": "2026-05-19T18:41:44Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:14Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket4-pages-376-400:p0393": {
       "status": "released",
@@ -60890,13 +60988,15 @@
       "released_at": "2026-05-19T18:41:44Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket4-pages-376-400:p0394": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:44Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:05Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:24Z",
       "started_at": "2026-05-19T18:29:24Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:44Z"
+      "released_at": "2026-05-19T18:41:44Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:05Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket4-pages-376-400:p0395": {
       "status": "released",
@@ -60948,13 +61048,15 @@
       "released_at": "2026-05-19T18:41:44Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket4-pages-376-400:p0400": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:45Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:05Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:26Z",
       "started_at": "2026-05-19T18:29:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:45Z"
+      "released_at": "2026-05-19T18:41:45Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:31:05Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0401": {
       "status": "released",
@@ -61066,13 +61168,15 @@
       "completed_at": "2026-05-21T07:46:23Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0412": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:45Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:42Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:30Z",
       "started_at": "2026-05-19T18:29:31Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:45Z"
+      "released_at": "2026-05-19T18:41:45Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:42Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0413": {
       "status": "released",
@@ -61084,13 +61188,15 @@
       "released_at": "2026-05-19T18:41:46Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0414": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:46Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:28Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:29:31Z",
       "started_at": "2026-05-19T18:29:31Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:46Z"
+      "released_at": "2026-05-19T18:41:46Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:28Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket4-pages-401-425:p0415": {
       "status": "released",
@@ -62592,13 +62698,15 @@
       "released_at": "2026-05-19T18:42:08Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0226-0250-r4749-11c-17499-5398-pages-226-250:p0228": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:08Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:06Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:30:51Z",
       "started_at": "2026-05-19T18:30:51Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:08Z"
+      "released_at": "2026-05-19T18:42:08Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:06Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0226-0250-r4749-11c-17499-5398-pages-226-250:p0229": {
       "status": "done",
@@ -62687,13 +62795,15 @@
       "released_at": "2026-05-19T18:42:08Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0226-0250-r4749-11c-17499-5398-pages-226-250:p0237": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:09Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:06Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:30:54Z",
       "started_at": "2026-05-19T18:30:55Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:09Z"
+      "released_at": "2026-05-19T18:42:09Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:06Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0226-0250-r4749-11c-17499-5398-pages-226-250:p0238": {
       "status": "done",
@@ -62835,13 +62945,15 @@
       "released_at": "2026-05-19T18:42:10Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0251-0275-r4749-11c-17499-5398-pages-251-275:p0251": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:10Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:35Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:30:59Z",
       "started_at": "2026-05-19T18:31:00Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:10Z"
+      "released_at": "2026-05-19T18:42:10Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:35Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0251-0275-r4749-11c-17499-5398-pages-251-275:p0252": {
       "status": "done",
@@ -63183,13 +63295,15 @@
       "completed_at": "2026-05-21T07:26:18Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300:p0283": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:12Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:35Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:11Z",
       "started_at": "2026-05-19T18:31:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:12Z"
+      "released_at": "2026-05-19T18:42:12Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:35Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300:p0285": {
       "status": "done",
@@ -63401,13 +63515,15 @@
       "completed_at": "2026-05-21T07:48:14Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0301-0325-r4749-11c-17499-5398-pages-301-325:p0304": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:14Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:41Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:18Z",
       "started_at": "2026-05-19T18:31:18Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:14Z"
+      "released_at": "2026-05-19T18:42:14Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:34:41Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0301-0325-r4749-11c-17499-5398-pages-301-325:p0305": {
       "status": "done",
@@ -63509,13 +63625,15 @@
       "completed_at": "2026-05-21T06:56:04Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0301-0325-r4749-11c-17499-5398-pages-301-325:p0314": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:15Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:10Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:22Z",
       "started_at": "2026-05-19T18:31:22Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:15Z"
+      "released_at": "2026-05-19T18:42:15Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:33:10Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0301-0325-r4749-11c-17499-5398-pages-301-325:p0315": {
       "status": "done",
@@ -64170,22 +64288,26 @@
       "completed_at": "2026-05-21T08:15:40Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375:p0375": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:21Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:27Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:44Z",
       "started_at": "2026-05-19T18:31:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:21Z"
+      "released_at": "2026-05-19T18:42:21Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:27Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400:p0377": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:21Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:57Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:44Z",
       "started_at": "2026-05-19T18:31:44Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:21Z"
+      "released_at": "2026-05-19T18:42:21Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:57Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400:p0378": {
       "status": "done",
@@ -64582,13 +64704,15 @@
       "released_at": "2026-05-19T18:42:24Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0414": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:24Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:58Z",
       "started_at": "2026-05-19T18:31:58Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:24Z"
+      "released_at": "2026-05-19T18:42:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:32:24Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0415": {
       "status": "released",
@@ -64611,13 +64735,15 @@
       "completed_at": "2026-05-21T07:25:33Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0417": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:42Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:31:59Z",
       "started_at": "2026-05-19T18:31:59Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:24Z"
+      "released_at": "2026-05-19T18:42:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:42Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0418": {
       "status": "done",
@@ -64675,13 +64801,15 @@
       "completed_at": "2026-05-21T08:16:09Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0423": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:47Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:32:01Z",
       "started_at": "2026-05-19T18:32:01Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:24Z"
+      "released_at": "2026-05-19T18:42:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:32:47Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0401-0425-r4749-11c-17499-5398-pages-401-425:p0424": {
       "status": "done",
@@ -64717,13 +64845,15 @@
       "completed_at": "2026-05-21T08:17:27Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0427": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:25Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:31Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:32:03Z",
       "started_at": "2026-05-19T18:32:03Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:25Z"
+      "released_at": "2026-05-19T18:42:25Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:38:31Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0428": {
       "status": "done",
@@ -64746,13 +64876,15 @@
       "released_at": "2026-05-19T18:42:25Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0430": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:25Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:18Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:32:04Z",
       "started_at": "2026-05-19T18:32:04Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:25Z"
+      "released_at": "2026-05-19T18:42:25Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:34:18Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0431": {
       "status": "done",
@@ -64863,22 +64995,26 @@
       "completed_at": "2026-05-21T08:17:50Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0441": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:26Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:50Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:32:08Z",
       "started_at": "2026-05-19T18:32:08Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:26Z"
+      "released_at": "2026-05-19T18:42:26Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:50Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0442": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:26Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:37:19Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:32:08Z",
       "started_at": "2026-05-19T18:32:08Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:26Z"
+      "released_at": "2026-05-19T18:42:26Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:37:19Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0443": {
       "status": "done",
@@ -64947,13 +65083,15 @@
       "completed_at": "2026-05-21T06:07:33Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0449": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:42:27Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:11Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:32:11Z",
       "started_at": "2026-05-19T18:32:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:42:27Z"
+      "released_at": "2026-05-19T18:42:27Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T09:36:11Z"
     },
     "source-prep:caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450:p0450": {
       "status": "done",
@@ -66015,6 +66153,517 @@
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "completed_at": "2026-05-21T09:10:53Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1069": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:26:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:26:57Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1229-1253-c-mara-de-senadores-de-la-naci-n-1936-pages-1229-1253:p1243": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:26:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:26:58Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0544": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:26:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:26:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625:p0618": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:00Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:00Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1279-1303-c-mara-de-senadores-de-la-naci-n-1936-pages-1279-1303:p1293": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:19Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:19Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1067": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0947": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0554": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:24Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:24Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0576-0600-s522bis-29-3-pages-576-600:p0579": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:45Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1304-1328-c-mara-de-senadores-de-la-naci-n-1936-pages-1304-1328:p1320": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:45Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1271": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:47Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:47Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1204-1228-c-mara-de-senadores-de-la-naci-n-1936-pages-1204-1228:p1222": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:27:48Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:27:48Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1059": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:06Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:06Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1118": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:07Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0529-0553-c-mara-de-senadores-de-la-naci-n-1936-pages-529-553:p0546": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:09Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:09Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1078": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:10Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1113": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:28Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1179-1203-c-mara-de-senadores-de-la-naci-n-1936-pages-1179-1203:p1188": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:30Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:30Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1401-1425-s522bis-29-3-pages-1401-1425:p1416": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:32Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0915": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:35Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0776-0800-r3016-11a-2905-950-pages-776-800:p0797": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:50Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0776-0800-r3016-11a-2905-950-pages-776-800:p0795": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:51Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:51Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0851-0875-r3016-11a-2905-950-pages-851-875:p0871": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:57Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0851-0875-r3016-11a-2905-950-pages-851-875:p0872": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:28:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:28:59Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0526-0550-r3016-11a-2905-950-pages-526-550:p0544": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:12Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825:p0824": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:14Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0876": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:21Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0926-0940-r3016-11a-2905-950-pages-926-940:p0935": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:25Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:25Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750:p0727": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:35Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0912": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:38Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0897": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:46Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850:p0826": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:47Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:47Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0525": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:29:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:29:58Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500:p0493": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:01Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:01Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850:p0828": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:10Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850:p0838": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:11Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:11Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0595": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:21Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0627": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:34Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:34Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525:p0507": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:34Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:34Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0653": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:30:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:30:41Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750:p0741": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:31:31Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0676-0700-r3578-50-5569-5569-jacket5-pages-676-700:p0700": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:31:31Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750:p0744": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:31:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:31:36Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0963": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:01Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:32:01Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953:p0937": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:32:17Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0854-0878-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-854-878:p0870": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:32:21Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0804-0828-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-804-828:p0804": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:40Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:32:40Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778:p0757": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:32:41Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0962": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:32:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:32:44Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778:p0778": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:03Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:03Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153:p1144": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:04Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600:p0600": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:12Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0804-0828-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-804-828:p0816": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:27Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:27Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0804-0828-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-804-828:p0807": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:35Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0976": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:50Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078:p1068": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:50Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0979-1003-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-979-1003:p1001": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:33:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:33:58Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750:p0746": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:34:15Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0804-0828-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-804-828:p0819": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:34:21Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978:p0978": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:34Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:34:34Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853:p0850": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:34:44Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0879-0903-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-879-903:p0888": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:34:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:34:58Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153:p1132": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:35:04Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753:p0733": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:35:21Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103:p1089": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:27Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:35:27Z"
+    },
+    "source-prep:ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953:p0952": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:35:28Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0467": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:35:43Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:35:43Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0701-0725-r3578-50-5569-5569-jacket5-pages-701-725:p0724": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:36:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:36:53Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483:p0478": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:38:51Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:38:51Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483:p0477": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:00Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:39:00Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483:p0479": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:39:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:39:46Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0460": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:02Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:40:02Z"
+    },
+    "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0476-0483-r3577-50-5569-5569-jacket3-pages-476-483:p0481": {
+      "status": "done",
+      "updated_at": "2026-05-21T09:40:48Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T09:40:48Z"
     }
   }
 }
