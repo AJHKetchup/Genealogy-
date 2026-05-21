@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T06:42:45Z",
+  "created": "2026-05-21T06:45:40Z",
   "mode": "cloud-first-source-prep-heartbeat",
   "root": "/home/runner/work/Genealogy-/Genealogy-",
   "r2": {
@@ -12,7 +12,7 @@
     "page_range": "",
     "restore_limit": 500,
     "pages_per_job": 25,
-    "new_pages_limit": 8000,
+    "new_pages_limit": 1000,
     "batch_pages": 1,
     "queue_limit": 10000,
     "stale_minutes": 360,
@@ -33,7 +33,7 @@
       "name": "prepare-sources",
       "status": "ran",
       "detail": {
-        "prepared_sources": 19
+        "prepared_sources": 0
       }
     },
     {
@@ -58,16 +58,16 @@
       "status": "ran",
       "detail": {
         "action": "restore-queued-source-prep-raw",
-        "created": "2026-05-21T06:43:14Z",
+        "created": "2026-05-21T06:47:22Z",
         "queue": "research/_agent-queues/source-prep-batches.json",
         "filters": {
           "source": "",
           "source_sha256": ""
         },
         "unique_sources": 19,
-        "attempted": 0,
-        "restored": 0,
-        "skipped_present": 19,
+        "attempted": 19,
+        "restored": 19,
+        "skipped_present": 0,
         "skipped_limit": 0,
         "unmatched": 0,
         "errors": []
@@ -84,9 +84,9 @@
       "detail": {
         "action": "asset-upload",
         "dry_run": false,
-        "total_files": 1,
-        "total_bytes": 2554,
-        "uploaded": 1,
+        "total_files": 0,
+        "total_bytes": 0,
+        "uploaded": 0,
         "skipped": 0,
         "planned": 0,
         "errors": [],
@@ -116,5 +116,5 @@
       }
     }
   },
-  "finished": "2026-05-21T06:43:15Z"
+  "finished": "2026-05-21T06:47:23Z"
 }
