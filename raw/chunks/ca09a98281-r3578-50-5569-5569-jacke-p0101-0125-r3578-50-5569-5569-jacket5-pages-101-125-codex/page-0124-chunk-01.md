@@ -1,0 +1,165 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7380acf0b709-P0124-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125.codex.md
+converted_sha256: 7380acf0b7095017754d9d5c725852e8b4c6034b96e46b8687621a49a195f1c7
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/manifest.json
+page_start: 124
+page_end: 124
+part: 1
+---
+
+# Page 124
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/manifest.json`
+- Source page: 124
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125/page-images/page-0124.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+objet d'etre les intermddiaires de Faction charitable, recevront de la part des belligdrants, pour elles et pour leurs agents dument accrdditds, toute facility, dans les limites tracdes par les ndcessitds militaires, pour accomplir efficacement leur tache d'humanitd. Les ddldguds de ces socidtds pourront etre admis h distribuer des secours dans les camps, ainsi qu'aux lieux d'dtape des prisonniers rapatrids, moyennant une permission personnelle ddlivrde par l'autoritd militaire et en prenant l'engagement, par dcrit, de se soumettre a toutes les mesures d'ordre et de police que celle-ci prescrirait.
+
+## Article 79.
+
+Une agence centrale de renseignements sur les prisonniers de guerre sera crdde en pays neutre. Le Comitd international de la Croix-Eouge proposera aux Puissances intdressdes, s'il le juge
+
+ndcessaire, l'organisation d'une telle agence.
+
+Cette agence sera chargde de concentrer tous les renseigne¬ ments, intdressant les prisonniers, qu'elle pourra obtenir par les voies officielles ou privdes; elle les transmettra le plus rapidement possible au pays d'origine des prisonniers ou h la Puissance
+
+qu'ils auront servie.
+
+Ces dispositions ne devront pas etre interprdtdes comme restreignant Pactivitd humanitaire du Comitd international de la
+
+## Article 80.
+
+Les bureaux de renseignements jouiront de la franchise de port en matidre postale, ainsi que de toutes exemptions prdvues h Particle 88.
+
+## TITRE VII.
+
+De 1'application de la Convention a certaines categories de civils.
+
+## Article 81.
+
+Les individus qui suivent les forces armdes sans en faire directement partie, tels que les correspondants, les reporters de journaux, les vivandiers, les fournisseurs, qui tomberont au pouvoir de l'ennemi et que celui-ci jugera utile de ddtenir, auront droit au traitement des prisonniers de guerre, a condition qu'ils soient munis d'une ldgitimation de l'autoritd militaire des forces armdes qu'ils accompagnaient.
+
+Croix-Eouge.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 125
+Source document page number: 514
+Original document page number: 61
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily legal or treaty language, with centered headings and subheadings, followed by numbered articles and indented paragraphs.
+
+## Literal Transcription
+
+```
+                                                                                                514
+                                                              61
+
+                                                      **TITRE VIII.**
+
+                                            **De l'exécution de la Convention.**
+
+                                                      **SECTION I.**
+                                                *Dispositions générales.*
+
+                                                      **Article 82.**
+
+Les dispositions de la présente Convention devront être
+respectées par les Hautes Parties Contractantes en toutes
+circonstances.
+Au cas où, en temps de guerre, un des belligérants ne serait
+pas partie à la Convention, ses dispositions demeureront
+néanmoins obligatoires entre les belligérants qui y participent.
+
+                                                      **Article 83.**
+
+Les Hautes Parties Contractantes se réservent le droit de
+conclure des conventions spéciales sur toutes questions relatives
+aux prisonniers de guerre qu'il leur paraîtrait opportun de régler
+particulièrement.
+Les prisonniers de guerre resteront au bénéfice de ces accords
+jusqu'à l'achèvement du rapatriement, sauf stipulations expres-
+ses contraires contenues dans les susdits accords ou dans des
+accords ultérieurs, ou également sauf mesures plus favorables
+prises par l'une ou l'autre des Puissances belligérantes à l'égard
+des prisonniers qu'elles détiennent.
+En vue d'assurer l'application, de part et d'autre, des stipula-
+tions de la présente Convention, et de faciliter la conclusion des
+conventions spéciales prévues ci-dessus, les belligérants pourront
+autoriser, dès le début des hostilités, des réunions de représen-
+tants des autorités respectives chargées de l'administration des
+prisonniers de guerre.
+
+                                                      **Article 84.**
+
+Le texte de la présente Convention et des conventions spéciales
+prévues à l'article précédent sera affiché, autant que possible
+dans la langue maternelle des prisonniers de guerre, à des
+emplacements où il pourra être consulté par tous les prisonniers.
+Le texte de ces conventions sera communiqué, sur leur
+demande, aux prisonniers qui se trouveraient dans l'impossibilité
+de prendre connaissance du texte affiché.
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page consists entirely of text."}
+```

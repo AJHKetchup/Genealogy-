@@ -1,0 +1,118 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-27bbfed9b890-P0164-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175.codex.md
+converted_sha256: 27bbfed9b890daf8eb6aa78da2281a85e3bd1ffb52d10107288e8cdf2036fc58
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json
+page_start: 164
+page_end: 164
+part: 1
+---
+
+# Page 164
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json`
+- Source page: 164
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/page-images/page-0164.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Le Médecin Général Marotte (France) :
+
+J'ai proposé la suppression des mots «garde du convoi » parce que j'ai le sentiment que la majorité de la commission est de cet avis. C'est donc pour me ranger à une opinion qui me paraît généralement admise.
+
+## M. le Président :
+
+Ma question n'a peut-être pas été tout à fait claire. On supprime le personnel préposé à la
+
+garde du convoi, en ce sens qu'il n'aura plus dorénavant à être restitué.
+
+Mais je dis que, par cette rédaction nouvelle, on apporte un autre changement. On a l'air d'admettre que, dorénavant, le personnel préposé à la garde du convoi, qui existera quand
+
+même, n'aura plus à être muni, comme tel, du mandat régulier. Voilà la question.
+
+## Le Médecin Général Marotte (France)
+
+:
+
+Ce mandat régulier ne peut être donné par écrit. Ce n'est jamais qu'un ordre verbal. Comment le justifier ? C'est pourquoi je ne vois pas la possibilité d'un mandat régulier, moins qu'on admette qu'un ordre verbal soit un mandat régulier. Mais, encore une fois, com¬ ment le
+
+prouvera-t-on ?
+
+## M. le Président :
+
+Je n'ai pas compétence pour discuter cette question technique. Mais je me préoccupe de la symétrie du texte. L'article 8, chiffre 2, exige le mandat régulier des sentinelles.
+
+## Le Médecin Général Marotte (France)
+
+:
+
+Je voudrais là-dessus entendre l'avis de M. Warner, car c'est lui qui a été opposé à la mention de la garde du convoi.
+
+## M. Warner (Grande-Bretagne) :
+
+Et j'aimerais moi-même entendre auparavant l'opinion des autorités militaires.
+
+## Le Colonel Ziiblin (Suisse)
+
+:
+
+Il ne s'agit que d'une question de rédaction, parce que nous sommes tous d'accord sui¬ te principe : On veut exempter la garde du convoi, c'est-à-dire que l'on ne veut pas la renvoyer. Il suffirait de soumettre cette question à la commission de rédaction. Il y a moyen de dire à l'alinéa 2 que « l'obligation de renvoyer le personnel sanitaire prévue à l'article 12 » serait étendue à tout le personnel militaire préposé au transport, sauf la garde ou à l'exception de la garde. L'idée serait ainsi rendue clairement.
+
+## M. le Président :
+
+L'explication de M. le Colonel Ziiblin ne répond pas exactement à ma préoccupation. Je constate qu'à l'article 8, vous n'admettez l'intervention d'un piquet ou d'une sentinelle, de militaires armés, qu'à la condition qu'ils soient munis d'un mandat régulier.
+
+Est-ce que, à l'article 17, ce personnel de garde du convoi, qui exerce constamment ce même office de garde, vous le dispensez, pour que le convoi jouisse de toute la protection à
+
+laquelle il a droit en principe, du mandat régulier ?
+
+Y a-t-il une raison pour émettre une exignece en ce qui concerne le personnel de garde d'une formation mobile ? On a cette exigence à l'article 8. Elle n'est pas à l'article 17. Est-ce
+
+logique ?
+
+Je pose simplement la question, parce que la modification, qui visait autre chose -, la non restitution de ce personnel de garde, -au sujet de laquelle on paraît généralement d'accord a, du même coup, cette répercussion qui n'était peut-être pas voulue.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

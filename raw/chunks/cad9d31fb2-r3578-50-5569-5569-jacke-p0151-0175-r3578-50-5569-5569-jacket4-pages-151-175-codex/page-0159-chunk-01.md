@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f8029d0ef113-P0159-01
+source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket4-pages-151-175.codex.md
+converted_sha256: f8029d0ef113ae53f5456d7ae6e8dd281b3aa5e7507401c8637f1716f75f2748
+source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
+source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
+source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket4-pages-151-175/manifest.json
+page_start: 159
+page_end: 159
+part: 1
+---
+
+# Page 159
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket4.pdf`
+- Source SHA-256: `d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781`
+- Conversion manifest: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket4-pages-151-175/manifest.json`
+- Source page: 159
+- Page image: `raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket4-pages-151-175/page-images/page-0159.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+de leur personne. » Les Instructions americaines, article 56, avaient aussi marque que la captivite n'a aucun caractere penal : « Un prisonnier de guerre n'est passible d'aucune peine, en tant qu'ennemi public. » D'autre part, ainsi que le constate l'article 3 du projet de Cede des prisonniers, les prisonniers de guerre « conservent leur
+
+pleine capacite civilex. »
+
+La Declaration de Bruxelles, puis les reglements de la Haye emploient, pour definir la captivite, le terme d' internement. Interner quelqu'un, e'est l'obliger &amp; resider dans une localite determinee, avec defense d'en sertir, e'est-a-dire qu'a l'interieur du perimetre fixe il y a liberte, au moins relative.
+
+L'article 5 du reglement de 1907 est ainsi con^u :«Les prisonniers de guerre peuvent etre assujettis &amp; l'internement dans une ville, forteresse, camp ou localite quelconque, avec obligation de ne pas s'en elcigner au del&amp; de certaines limites determinees, mais ils ne peuvent etre enfermes que par mesure de surete indispensable, et seulement pendant la duree des circonstances qui necessitent cette mesure. » Ainsi, l'internement est la regie, et l'emprisonnement -car enfermer, e'est emprisonner - ne peut etre que l'excepticn, &amp; titre de mesure de sfirete indispensable. Les reglements de la Haye ont bien marque ce caractere exceptionnel en ajoutant cette res¬ triction, qui ne se trouve pas dans la Declaration de Bruxelles : « et seulement pendant la duree des circonstances qui necessitent cette mesure. » Les memes dispositions sont reproduces dans l'article 9, premier alinea, du projet de Code des prisonniers de
+
+guerre2.
+
+4. Les prisonniers de guerre doivent etre traites avec humanite. Ce principe, que le xixe si6cle a consacre dans des textes solennels,
+
+resume, mieux que tout autre, en ce qui concerne les prisonniers, les
+
+1. Voir les principes adopts par la X' Conference Internationale de la
+
+Croix-Rouge, articles 1 et 4.
+
+2. Void un exemple d'emprisonnement emprunte a la guerre de Secession \_ Les prisonniers faits par les Sudistes etaient enfermes dans des Mtiments trans¬ formes en veritables prisons. « Parmi les regies etablies, parait-il dans toutes les prisons du Sud, se trouvait la defense faite au prisonnier de s'approcher de la fenfitre 4 plus d'un metre de distance. Si, par megarde, ou par accident, il enfreignait la regie, on tirait sur lui sans avertissement. Presque chaque jour on entendait le coup de feu de la sentinelle et souvent un prisonnier tombait, mort ou blesse. Un jour, les offlciers compterent jusqu'a quatorze coups tires ainsi contre eux. &gt; G. Moynier, Rtude sur la Convention de Genive, Paris, 1870, p. 352 et 353.
+
+m
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

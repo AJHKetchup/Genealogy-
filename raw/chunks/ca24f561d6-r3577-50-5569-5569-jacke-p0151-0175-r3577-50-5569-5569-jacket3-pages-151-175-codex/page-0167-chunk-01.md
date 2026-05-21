@@ -1,0 +1,134 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-27bbfed9b890-P0167-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175.codex.md
+converted_sha256: 27bbfed9b890daf8eb6aa78da2281a85e3bd1ffb52d10107288e8cdf2036fc58
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json
+page_start: 167
+page_end: 167
+part: 1
+---
+
+# Page 167
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json`
+- Source page: 167
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/page-images/page-0167.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Le Général Major Médecin Demolder (Belgique)
+
+:
+
+Je ne comprends pas très bien que dans ce transport nous comprenions l'aviation sanitaire. Il me semble qu'il y a une discordance entre cet alinéa et le paragraphe 5, puisque toutes les propositions au sujet de l'aviation sanitaire doivent également toucher le pilote.
+
+## M. le Président :
+
+Je croyais qu'il était entendu que toutes les questions se rattachent à l'aviation sanitaire feraient l'objet d'un article spécial.
+
+## Le Général Major Médecin Demolder (Belgique)
+
+:
+
+Pourtant, dans le même article, on parle de l'aviation sanitaire.
+
+## M. le Président :
+
+Je ne pense pas que nous allons la maintenir dans les alinéas qui vont suivre.
+
+## Le Médecin Général Marotte (France)
+
+:
+
+Dans les prochains alinéas, je proposerais qu'on enlève l'indication de l'aviation sanitaire.
+
+L'alinéa 4 est adopté dans les termes suivants :
+
+« L'obligation de renvoyer le personnel sanitaire, prévue à l'article 12, sera étendue à tout le
+
+personnel militaire préposé au transport et muni à cet effet d'un mandat régulier. »
+
+## Alinéa 5.
+
+## M. le Président :
+
+A l'alinéa 5, nous avons une proposition de la délégation des Etats-Unis, d'après laquelle le texte serait : « L'obligation de rendre le matériel sanitaire, prévue à l'article 14, s'appliquera à tous les moyens de transport spécialement organisés pour les évacuations, ainsi qu'au maté¬
+
+riel d'aménagement des voitures, trains et bateaux ordinaires, appartenant au service de santé.»
+
+## Le Médecin Général Marotte (France) :
+
+Je demande la suppression de l'énumération, puisque d'après la proposition de la délé¬ gation des Etats-Unis, nous avons un terme général.
+
+## M. le Président :
+
+Il faudrait que nous nous entendions.
+
+L'alinéa
+
+5 sur lequel je vous prie de vous prononcer est le suivant :
+
+« L'obligation de rendre le matériel sanitaire, prévué à l'article 14, s'appliquera à tous les moyens de transport spécialement organisés pour les évacuations, ainsi qu au matériel
+
+d'aménagement de ces moyens de transport appartenant au service de santé. »
+
+Ce texte est adopté.
+
+## M. Ciraolo (Italie) :
+
+On pourrait peut-être généraliser et dire «les moyens de transport » parce que les termes
+
+« les voitures militaires et les attelages » ont peut-être quelque chose de suranné.
+
+## Le Médecin Général Marotte (France) :
+
+Il me semble que cet alinéa est complètement superflu parce qu'on a arrêté que seuls devaient être exempts de capture les moyens de transport appartenant au service de santé. Il va de soi à mon avis que les véhicules"militaires n'appartenant pas à ce service 11e seront
+
+pas rendus. Cet alinéa est par conséquent inutile.
+
+## Alinéa 6.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

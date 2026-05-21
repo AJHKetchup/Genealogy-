@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-0512402dec49-P0295-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300.codex.md
+converted_sha256: 0512402dec49cb30e08d053737587fc95c043f0bfa4014cb20995c11f4f8ab8b
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/manifest.json
+page_start: 295
+page_end: 295
+part: 1
+---
+
+# Page 295
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/manifest.json`
+- Source page: 295
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/page-images/page-0295.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## M. le Président
+
+.
+
+Nous en étions restés hier à l'article 28. Si vous êtes d'accord, nous poursuivrons la dis¬ cussion au sujet de cet article ou plus exactement de l'article subséquent. Nous soupires saisis notamment d'une proposition de la délégation allemande à propos de laquelle diverses observa¬ tions ont été
+
+présentées.
+
+Hier le débat n'a pas été épuisé. Je pense que le délai qui s'est écoulé jusqu'à cet aprèsmidi permettra d'apporter des idégs précises, car même si vous aviez l'intention de renvoyer cet article au Comité de rédaction, il est absolument indispensable que celui-ci ait sous les yeux des idées directrices permettant de trouver une rédaction, qui ne sera peut-être pas très facile.
+
+M. le Président donne lecture de la proposition allemande à l'article 28.
+
+## M. Warner (Grande-Bretagne)
+
+:
+
+Nous nous trouvons en présence de deux propositions : une proposition de la délégation française et une autre de la délégation allemande. La proposition française tendrait à établir un tribunal permanent, alors que la proposition allemande tend plutôt à constituer une com¬ mission ad
+
+hoc, c'est-à-dire à établir une procédure moins formelle.
+
+Pour ce qui me concerne, je vois certaines objections à la proposition de la délégation française, parce que si l'on établit une Cour permanente, le fait de son existence, serait, en quelque sorte, une provocation à porter des plaintes devant elle. D'un autre côté, si l'on crée une commission ad hoc, c'est-à-dire seulement pour des cas particuliers, ces objections tombent, de telle sorte que je suis plutôt porté à accepter la proposition de la délégation d'Allemagne qui constitue une procédure plus pratique. Nous aurions en effet les représentants des deux parties en cause d'une part, et d'autre part, des délégués neutres. Une Commission restreinte constituée sur ces bases pourrait immédiatement se rendre sur les lieux, constater les faits dans un court délai et présenter un rapport. Ce serait, à mon point de vue, le système le plus pratique. Evidemment, Messieurs, nous avons la Cour permanente de Justice internationale de La Haye ; mais comme on nous l'a expliqué, si l'on choisit, en temps de guerre, une instance fixe de paix pour des objets particuliers, étant donné qu'en temps de guerre les esprits sont très surexcités, il y aura toujours des difficultés à faire adopter l'intervention de cette Cour internationale. A mon sens, on ne devrait avoir recours ni à la Cour de La Haye, ni au Comité
+
+## PROVISOIRE
+
+## CONFÉRENCE DIPLOMATIQUE
+
+## PREMIERE COMMISSION
+
+Révision de la Convention de Genève
+
+## SEIZIÈME SÉANCE
+
+<!-- image -->
+
+Jeudi 18 juillet 1929, à 15 h. 30.
+
+Présidence de M. Paul Dinichert, Président.
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0295/page-0295-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

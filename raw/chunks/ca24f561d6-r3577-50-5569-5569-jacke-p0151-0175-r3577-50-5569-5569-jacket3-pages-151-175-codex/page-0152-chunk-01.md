@@ -1,0 +1,114 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-27bbfed9b890-P0152-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175.codex.md
+converted_sha256: 27bbfed9b890daf8eb6aa78da2281a85e3bd1ffb52d10107288e8cdf2036fc58
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json
+page_start: 152
+page_end: 152
+part: 1
+---
+
+# Page 152
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json`
+- Source page: 152
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/page-images/page-0152.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Le Médecin Général Marotte
+
+## (France)
+
+:
+
+Je voudrais faire remarquer combien il sera difficile, en cas de réquisition, de réaliser ce qu'on entend par « utilisation sur place ». SI la réquisition du matériel a été faite parce qu'il manquait à celui qui désire s'en servir, on ne pourra pas en limiter l'utilisation sur place;, on peut en avoir besoin à des dix, vingt kilomètres de distance. S'il s'agit, par exemple, de boîtes de pansement, de gaze préparée ou stérilisée, j'estime que la restitution est matérielle¬ ment impossible. Une fois qu'on se sera servi de ce matériel, comment le rendre ? S'il s'agit d'instruments de ;
+
+Alors, pourquoi mettre dans un texte de convention des prescriptions qui d'emblée parais¬ sent inapplicables ? D'ailleurs cette idée vient d'être exprimée beaucoup mieux par M. le Sénateur Ciraolo,
+
+chirurgie, peut-être mais le matériel courant ne sera jamais restitué.
+
+que je remercie de son intervention.
+
+## M. le Président :
+
+La parole est-elle encore demandée ?
+
+## M. Doude van Troostwijk (Pays-Bas)
+
+## :
+
+Je crois que tous les juristes de cette Assemblée sauront gré au Médecin Général Marotte d'avoir fait peser dans la balance l'idée que le texte d'une convention ne doit rien contenir de superflu. Le superflu est non seulement inélégant, mais nuisible à la clarté du texte.
+
+suppression du texte du deuxième alinéa, considéré comme superflu.
+
+Si je me joins aux remerciements que nous devons adresser au Médecin Général Marotte pour la belle ordonnance et la clarté du rapport qu'il nous a présenté hier, je ne suis pas tout à fait d'accord avec lui, ni avec les autres orateurs que nous venons d'entendre, pour la
+
+Si je comprends bien l'idée qui a inspiré les orateurs que nous avons entendus jusqu'ici, leur raisonnement est celui-ci : Pourquoi mentionner dans ce texte, pour un cas spécial, un principe qui est admis dans le droit, dans les lois et usages de la guerre ? Le droit général empê¬
+
+surcharge inutile. Toutefois cette idée n'est pas absolument exacte. Les lois et les usages de la guerre sont susceptibles de changer. Les textes des conventions de même, parce que les sources de ce droit varient et que les auteurs peuvent heureusement changer d'opinion.
+
+che déjà ce que l'on veut défendre ici et, cela étant, le deuxième alinéa est une
+
+Ma conclusion est donc celle-ci : Prévoyons cette évolution éventuelle dans les lois et usages actuels de la guerre. Et alors, pour ce cas particulier, je crois qu'il y aurait intérêt à conserver l'alinéa 2. Si dans un autre domaine, dans le domaine privé en général, les idées évoluent et que les règles de la réquisition deviennent plus larges, il y aurait avantage à main¬ tenir dans la Convention de
+
+pour ce cas précis. C'est pour cette raison que je me rallie à la proposition faite par un autre délégué de main¬ tenir le second alinéa de cet article. Si je trouve l'appui de cette assemblée, on pourrait peut-être faire droit à une observation qui concerne l'utilisation sur place, dont l'application pratique paraît difficile. Il suffirait de subordonner la réquisition du matériel à l'urgence du besoin immédiat.
+
+## M. le Président :
+
+A qui puis-je donner la parole ?
+
+Il y a donc deux propositions en présence. L'une consiste à maintenir purement et sim¬ plement l'alinéa Ier du projet, qui correspond exactement au texte actuel; l'autre tend à ajouter, dans le deuxième alinéa du projet de Convention, les conditions dans lesquelles la réquisition peut être exercée, quitte à serrer la rédaction d'un peu plus près.
+
+Peut-être me permettriez-vous, pour éviter tout malentendu, - je dirais technique ·-, de souligner le fait que l'article 16 s'applique exclusivement au matériel des établissements fixes et non pas à celui des formations mobiles. Le matériel des formations mobiles, à qui que ce soit qu'elles appartiennent, est exempt de réquisition, à teneur de l'article 14. Les articles 15 et 16 règlent exclusivement la situation des établissements fixes. L'article 16 vise le matériel des établissements fixes qui constituent une propriété privée. Je tenais à donner cet éclai-
+
+cissement, qui ne ressort pas de la discussion qui vient d'avoir lieu.
+
+Est-ce que, dans ces conditions, la commission estime pouvoir se' prononcer ?
+
+Genève l'article qui contient cette restriction
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

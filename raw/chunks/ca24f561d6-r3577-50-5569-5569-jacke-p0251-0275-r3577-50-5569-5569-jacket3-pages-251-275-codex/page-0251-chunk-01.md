@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bf19db92d0de-P0251-01
+chunk_id: CHUNK-c7782a1939a2-P0251-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275.codex.md
-converted_sha256: bf19db92d0decf3919aac69d00da60ee938181b9b37256995b4f17f8587d9ec0
+converted_sha256: c7782a1939a2edc23ce8d34f376c43f027ef7d99781cb7336577c206b30168b1
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275/manifest.json
@@ -130,98 +130,5 @@ The transcription is complete and accurate.
 {
   "visual_regions": [],
   "no_visual_regions_reason": "The page contains only text and a minor hole punch mark, neither of which qualify as substantial visuals for cropping."
-}
-```
-
-## Page Metadata
-Page number: 253
-
-## Layout And Reading Order
-The page features a centered header at the top, followed by a main title and several subtitles, also centered. Below these, the content transitions to left-aligned paragraphs, representing a transcript of a diplomatic conference. Speaker names are bolded and followed by their role. A stamped and handwritten mark appears on the upper right side, overlapping the main title.
-
-## Literal Transcription
-<pre>
-SÉANCE DU 16 JUILLET 1929
-                                                                                                I
-                                                                                    PROVISOIRE
-
-                                        CONFÉRENCE DIPLOMATIQUE
-                                        _________________________
-
-                                            PREMIÈRE COMMISSION
-
-                                    Révision de la Convention de Genève
-                                    _________________________________
-
-                                            TREIZIÈME SÉANCE.
-
-                                    Mardi 16 juillet 1929, à 11 heures.
-                                    _________________________________
-
-                                    Présidence de M. DINICHERT, Président.
-
-M. le Président :
-    Je puis vous dire, Messieurs, que la sous-commission, que vous avez instituée hier pour
-examiner notamment l'amendement de la France à l'article 21 et qui s'est réunie ce matin, a
-déjà terminé son travail et se trouve en mesure de rapporter. Si M. le Général Diehl,
-qui a été désigné comme rapporteur, veut bien nous présenter son rapport, nous l'entendrions
-immédiatement avant de reprendre l'article 27.
-
-**Le Major Général Diehl** (Pays-Bas). Rapporteur :
-    Monsieur le Président, Messieurs. La sous-commission chargée d'étudier l'article 21 bis
-proposé par la France, s'est réunie ce matin. Après avoir entendu les éclaircissements des
-experts militaires, spécialement de M. le Capitaine Ollé-Laprune, de la délégation française,
-et après avoir étudié les objections d'ordre pratique qui ont été présentées par plusieurs délégués,
-elle a résolu de proposer à la commission :
-    1. d'adopter le principe de l'alinéa 1.de la proposition et de charger le comité de rédaction
-d'en définir la formule, ainsi que l'article de la Convention auquel l'adjonction devrait se
-faire;
-    2. de ne pas adopter les deux derniers alinéas de la proposition en raison des difficultés
-pratiques.
-
-**M. le Président** :
-    Vous avez entendu, Messieurs, la proposition de votre sous-commission qui consiste, en
-ce qui concerne le projet de l'article 21 bis, à retenir le principe consacré par l'alinéa 1, mais à
-ne pas entrer en matière sur les idées contenues dans les alinéas 2 et 3.
-    La discussion est ouverte.
-    La parole n'étant pas demandée, les conclusions du rapport de la sous-commission sont
-adoptées.
-
-**M. le Président** :
-    Si l'Assemblée est d'accord, nous reviendrions maintenant à l'article 27 dont nous avions
-abordé la discussion hier soir.
-</pre>
-
-## Images, Captions, And Visual Notes
-A rectangular stamp with handwritten text is present on the upper right side of the page, overlapping the main title. The stamp reads "ACTION COPY" and "RECEIVED IN REGISTRY -8 SEP 1929". The "-8" appears to be handwritten.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and significant visual marks have been transcribed and described.
-
-## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "stamp",
-      "bbox_pct": [
-        73.0,
-        23.0,
-        85.0,
-        34.0
-      ],
-      "caption_literal": "ACTION COPY RECEIVED IN REGISTRY -8 SEP 1929",
-      "caption_type": "source-field",
-      "identity_basis": null,
-      "source_context": "Stamp and handwritten text on the upper right of the page.",
-      "confidence": "high",
-      "suggested_filename": "action_copy_received_in_registry_stamp.png",
-      "inline_anchor": null
-    }
-  ]
 }
 ```

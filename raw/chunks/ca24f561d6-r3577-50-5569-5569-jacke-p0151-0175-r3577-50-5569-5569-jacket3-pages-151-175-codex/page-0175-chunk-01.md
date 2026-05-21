@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-27bbfed9b890-P0175-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175.codex.md
+converted_sha256: 27bbfed9b890daf8eb6aa78da2281a85e3bd1ffb52d10107288e8cdf2036fc58
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json
+page_start: 175
+page_end: 175
+part: 1
+---
+
+# Page 175
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/manifest.json`
+- Source page: 175
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175/page-images/page-0175.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## M. Wadsworth
+
+## (Etats-Unis). Traduction:
+
+J'hésite à donner une suggestion nouvelle après le travail remarquable de la sous-commission, mais je me demande si le paragraphe 1 ne pourrait pas être rédigé sous une forme
+
+plus générale. Je me permets de proposer la rédaction suivante ;
+
+« Les appareils aériens spécialement aménagés pour être utilisés par le service sanitaire jouissent de la protection de la convention à condition d'être exclusivement réservés à ce service. »
+
+## M. Warner (Grande-Bretagne)
+
+Je suis d'accord avec le Médecin Général Marotte pour penser que la question de savoir si les aviateurs pourront envoyer des messages chiffrés est un détail que nous pouvons ren¬ voyer à une date ultérieure, c'est-à-dire au moment où il y aura -une convention expresse.
+
+Quant à la proposition de notre collègue des Etats-Unis, je ne crois pas que nous soyons à même de l'accepter. Je ne suis pas sûr qu'elle serait agréable à mon gouvernement. Je sup¬ pose qu'il arrive assez souvent qu'il soit nécessaire d'envoyer des avions immédiatement, pour un service quelconque, et s'il faut les aménager de façon spéciale cela constituera une difficulté.
+
+Quant à nous, nous devrons sur ce point en référer à notre Gouvernement.
+
+## M. Wadsworth (Etats-Unis). Traduction :
+
+Ce n'est pas moi qui ait introduit les mots « spécialement aménagés ».
+
+Le but de ma proposition est que le paragraphe ier contienne une définition plus large. Dans mon esprit, il ne s'agit pas seulement du transport des blessés et malades, mais aussi du transport de médecins, d'infirmiers ou de matériel.
+
+## M. Warner (Grande-Bretagne) :
+
+Au sujet de la proposition que vient de faire M. Wadsworth, je rappelle que dans la sous-commission le Général Médecin Marotte nous a dit qu'à son avis, les avions seraient, en pratique, utilisés plutôt comme moyens d'évacuation.
+
+## Le Médecin Général Marotte
+
+## (France) :
+
+Cette question du transport de chirurgiens et éventuellement d'appareils pouvant servir aux rayons X ou d'appareils chirurgicaux est évidemment très intéressante. Je vous deman¬ derai cependant de vouloir bien considérer cette chose essentielle, que nous allons introduire dans la Convention de Genève une notion tout à fait nouvelle ; cette introduction n'est pas allée, jusqu'à présent, sans de vives réserves de part et d'autre. Or, on semble s'être mis d'accord sur le principe de l'évacuation. Si nous sortons de ce principe, nous risquons fort de nous heurter à un non possumus de la part des signataires. Les Gouvernements n'ac¬ cepteront peut-être pas - je n'en sais rien - des entorses possibles au principe qui, jusqu'à présent, a été seul admis. Tout le monde est à peu près d'accord aujourd'hui pour utiliser l'avion ou l'appareil aérien à sauver des existences. Vous me direz que c'est également sauver des existences que d'amener -un chirurgien à l'avant. Mais qu'est-ce qui empêchera la na¬ tion qui envoie son avion à l'avant pour recueillir des blessés et les évacuer, de transporter en même temps des appareils jugés indispensables à une formation ou à une autre.
+
+En un mot, j'appelle votre attention sur le danger que nous courrons. A vouloir trop bien faire, dans un but éminemment louable et dont je comprends très bien les scrupules de la part des promoteurs, on risque de faire échouer l'ensemble pour un petit point de détail. Il faut se contenter de ce que j'appellerai une victoire, car ce sera tout de même une victoire que d'introduire l'aviation sanitaire dans la Convention de Genève. Si ce sont les mots que j'avais proposés tout à l'heure, « spécialement aménagés pour être utilisés» qui gênent, je ferai remarquer que ces termes n'ont pas été pris dans cette commission, ni dans la commission voisine. C'est une réflexion qui m'a été faite en dehors de cette Conférence. Elle ne figure pas dans le texte que vous avez sous les yeux ; par conséquent, rien ne s'oppose à ce que.ces mots ne soient pas introduits".
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,132 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ee8541da1fdf-P0227-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250.codex.md
+converted_sha256: ee8541da1fdfc96968708f711c6322d00b2585df2ddb80e42987d4960debf481
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/manifest.json
+page_start: 227
+page_end: 227
+part: 1
+---
+
+# Page 227
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/manifest.json`
+- Source page: 227
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/page-images/page-0227.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Il s'a.git maintenant de décider si le drapeau national sera arboré en toute circonstance ou si, selon la proposition des Etats-Unis, dans les formations fixes l'emblème de la Croix-Rouge devra, et,
+
+Je soumets à la Commission le texte qui figure dans le projet du Comité international.
+
+dansdes formations mobiles, pourra être accompagné de l'emblème national.
+
+Il est procédé au vote par assis et levé, par 17 voix contre 12, le texte du Comité international est
+
+rejeté.
+
+Je soumets maintenant à la commission le texte de la proposition des Etats-Unis :
+
+« Dans les établissements fixes il devra, et dans les établissements mobiles il pourra être
+
+accompagné du drapeau national du belligérant dont relève la formation... »
+
+Il est procédé au vote par assis et levé. Ce texte est adopté à la majorité.
+
+## M. Djourdjevitch (Royaume des S. C. C.) :
+
+J'ai fait la proposition que le
+
+## M. Motono (Japon) :
+
+Est-ce que vous ne pensez pas que c'est plutôt là une question de détail qu'il conviendrait de laisser aux soins des belligérants, et qui ne doit pas trouver place dans un texte aussi impor¬ tant que celui de la Convention ?
+
+## Le Colonel Ziiblin (Suisse) :
+
+Je vous prie de rejeter cette proposition. Il est absolument hors de la compétence de la Convention de la Croix-Rouge d'imposer aux Etats la dimension de leur drapeau. Les Etats continueront à arborer leur drapeau comme ils l'entendront. Il ne nous appartient pas de leur prescrire de le faire plus petit que l'emblème de la Croix-Rouge.
+
+## M. le Président :
+
+Un membre de l'Assemblée demande-t-il encore la parole sur la dernière motion, celle qui a été présentée par le délégué de la Yougoslavie ?
+
+Ce n'est pas le cas, nous passons au vote.
+
+La proposition de la ne recueille que
+
+## M. le Président
+
+:
+
+Je mets aux voix le second alinéa : « Toutefois, les formations sanitaires tombées au pouvoir de l'ennemi n'arboreront pas d'autre drapeau que celui de la Croix-Rouge, aussi longtemps
+
+qu'elles se trouveront dans cette situation. »
+
+Ce texte est adopté sans opposition.
+
+## M. le Président
+
+## :
+
+Passons maintenant au troisième alinéa, que le Comité international a proposé dans la teneur suivante :
+
+« Les belligérants prendront les mesures nécessaires pour rendre nettement visibles aux forces ennemies, terrestres, aériennes et maritimes les emblèmes distinetifs placés sur les for¬ mations et établissements sanitaires ».
+
+Divers amendements ont été présentés à cet alinéa.
+
+Amendement britannique : « Aux fins de leur assurer la protection de la Convention, les
+
+belligérants prendront les mesures nécessaires pour rendre nettement visibles... » etc ;
+
+Amendement italien : « Les belligérants prendront les mesures nécessaires pour assurer de jour et de nuit, le respect par les forces ennemies... » etc.
+
+Enfin, amendement néerlandais : « Les belligérants prendront les mesures nécessaires en tant que les nécessités militaires le permettront pour rendre nettement visibles aux forces ennemies... » etc.
+
+Yougoslavie deux voix. Elle est donc rejetée.
+
+drapeau national soit plus petit que celui de la Convention.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

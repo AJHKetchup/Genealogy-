@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ee8541da1fdf-P0238-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250.codex.md
+converted_sha256: ee8541da1fdfc96968708f711c6322d00b2585df2ddb80e42987d4960debf481
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/manifest.json
+page_start: 238
+page_end: 238
+part: 1
+---
+
+# Page 238
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/manifest.json`
+- Source page: 238
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/page-images/page-0238.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Mais le fait d'empêcher ce manque de respect n'améliore en aucune façon le sort des malades et des blessés. D'autre part, je ne sais si le moment est bien opportun. Ce titre « malades et blessés des armées en campagne » embrasse tout ce que nous avons déjà convenu. Je demande aux techniciens ce que signifient exactement les mots « en campagne », parce que, étymologiquement, il ne comprend pas tous les aspects de la guerre. En effet, je ne me charge pas de dire si une armée assiégée par exemple est une armée en campagne. Il faudra voir aussi à la fin de nos délibérations si nous serons peut-être arrivés à adopter des choses différentes du titre de la Convention, parce que nous aurons contribué à l'amélioration du sort des blessés et des malades, à la protection en temps de guerre du personnel des services sanitaires, à la
+
+ration.
+
+protection des sociétés de secours, à réglementer l'inhumation des cadavres, etc. C'est à vous, Messieurs, de décider si l'on doit prendre en considération toutes les pro¬ positions qui nous sont faites et si oui, à quel moment il y aura lieu de les prendre en considé¬
+
+## Le Médecin Colonel Balanesco (Roumanie) :
+
+Me référant aux articles 23 et 27, je me permets de signaler à la Conférence la pratique suivante adoptée en Roumanie. Avant la guerre, nous avions deux sociétés de la Croix-Rouge. En 1914, pour donner l'autorité nécessaire à la Croix-Rouge, ces deux sociétés se sont unies en une seule, sous le nom de société nationale roumaine de la Croix-Rouge. Pendant la guerre, aucune autre société de secours ne pouvait fonctionner sans l'autorisation de l'Etat et sans l'assentiment de la Croix-Rouge nationale.
+
+Pour les raisons exposées par la délégation de Pologne, la délégation des Pays-Bas désire
+
+Le Major Général Diehl (Pays-Bas) : appuyer également la proposition de la délégation des Etats-Unis.
+
+## M. Motono (Japon) :
+
+A propos de la proposition que j'ai faite à la Conférence ce matin concernant la pro¬ tection à accorder au personnel et au matériel des sociétés de la Croix-Rouge et des sociétés de secours volontaires dans l'accomplissement de leur tâche de paix, le délégué de GrandeBretagne a objecté qu'il ne pourrait pas accorder l'immunité diplomatique à ce personnel
+
+opérations de secours. »
+
+et à ce matériel. Notre pensée était loin de cette conception. Nous ne demandons pas que l'immunité diplomatique soit accordée et je pense que personne ici ne serait disposé à le faire. Nous avons seulement voulu déclarer qu'en raison de leur haute importance, les sociétés de Croix-Rouge et les sociétés de secours volontaires, dans leur œuvre de paix, devraient être aidées le plus possible par les Gouvernements et que l'on pourrait mettre, dans ce but, dans la Convention un article, dont la place serait déterminée plus tard, et disant à peu près ceci : « Toutes les immunités, facilités et franchises sont accordées, dans les mesures permises par les législations nationales, aux sociétés de secours volontaires, pour l'exercice de leur activité en temps de paix, particulièrement en ce qui concerne la circulation de leur personnel et de leur matériel et leurs
+
+Je pense que personne ici ne pourrait nier l'importance de l'activité des sociétés de la Croix-Rouge et la protection qu'il conviendrait de leur accorder. Je me réfère à ce sujet tout particulièrement à l'article 10 du règlement de l'Union internationale de secours qui déjà reconnaît une telle protection. Je considère que c'est là un précédent et que ce ne serait pas un geste vain de la part de la Conférence de la Croix-Rouge que de le confirmer ici.
+
+## Le Colonel Ziiblin (Suisse) :
+
+Je voudrais tout d'abord répondre quelques mots à l'honorable délégué du Mexique. Je comprends très bien, si Ton s'en tient à la forme, que le texte initial du titre de la Convention ne porte que sur les blessés et les malades en campagne. Mais les nécessités des armées et des organisations dans les différents pays nous ont pourtant prouvé, depuis plusieurs décades, qu'il est indispensable d'inclure dans cette Convention des dispositions relatives à certaines organisations qui ne font pas partie des armées en campagne et qu'il est nécessaire aussi de prendre certaines précautions contre les abus. Et c'est pourquoi on a introduit non seule¬ ment des dispositions relatives aux organisations auxiliaires des Croix-Rouges, mais qu'on
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

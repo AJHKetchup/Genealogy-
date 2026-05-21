@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ee8541da1fdf-P0240-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250.codex.md
+converted_sha256: ee8541da1fdfc96968708f711c6322d00b2585df2ddb80e42987d4960debf481
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/manifest.json
+page_start: 240
+page_end: 240
+part: 1
+---
+
+# Page 240
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/manifest.json`
+- Source page: 240
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250/page-images/page-0240.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Il paraît aussi que la délégation des Etats-Unis renoncerait aux mots « visées à l'article 10 ». Personnellement, je vois un certain avantage à nous référer à l'article 10, car c'est bien
+
+cet ordre de sociétés que nous envisageont eïi ce moment.
+
+Croix-Rouge pour l'activité philantropique qu'elles déploient en temps de paix ».
+
+Je voudrais proposer : « Toutefois, les sociétés de secours volontaires visées à l'article 10, pourront, avec l'autorisation du Gouvernement de leur pays, faire usage de l'emblème de la
+
+Au sujet des privilèges personnels de la Croix-Rouge, dont a parlé M. Motono, le Gouver¬ nement britannique préférerait ne pas insérer dans la Convention des expressions qui, à nos yeux, ne sont véritablement que des vœux, si je puis dire. Il n'y a pas de privilèges particuliers à part ceux des diplomates. Le Gouvernement peut évidemment, de temps en temps, accorder quelques concessions, mais nous ne serions pas d'avis, ni en mesure de faire des promesses de ce genre dans une convention. Nous préférons donc ne pas y introduire une semblable formule.
+
+## M. Wadsworth (Etats-Unis) Traduction :
+
+Je désire appuyer la proposition faite par le délégué de la Grande-Bretagne. Les Sociétés de secours volontaires en temps de guerre ont un caractère temporaire, tandis que les Sociétés de la Croix-Rouge ont un caractère permanent qui dure en temps de paix. Nous acceptons donc volontiers le changement demandé.
+
+Pour ma part je préférerais supprimer le mot « charitable » ou « philanthropique ». Quoiqu'ayant tous deux un sens assez large, ces mots tendent à circonscrire l'activité des Sociétés Le terme d'activité autorisée par la loi peut comprendre toute activité charitable, toute œuvre en faveur de la santé publique et d'autres œuvres encore.
+
+L'emblème de la Croix-Rouge est de plus en plus connu dans le monde. Nous disons qu'on a le droit de l'employer d'une certaine manière et pas autrement. C'est une clause de protection pour que l'on n'abuse pas de cet emblème en temps de paix et pour que l'on puisse s'en servir utilement en temps de guerre,
+
+Le délégué de la Finlande avait demandé que les avantages de la Convention fussent étendus à certains éléments de la population civile. La clause que nous avons insérée permet aux Sociétés d'agir en temps de paix.
+
+J'appuie donc vivement la proposition britannique et je désirerais qu'un vote ait lieu sur la
+
+question de savoir s'il convient d'adopter un mot tel que « charitable » ou « philanthropique ».
+
+## M. Paul Des Gouttes :
+
+Je voudrais vous présenter quelques brèves considérations sur la base des opinions qui se sont fait jour tout à l'heure. Tout d'abord, il est parfaitement exact, comme le délégué du Mexique l'a dit, que la Convention a été faite pour les armé.es en campagne. Mais que voulonsnous assurer pour le temps de guerre ? Le respect et la protection des malades et blessés et du personnel sanitaire. Voilà ce que la Convention vise principalement. Mais ce respect et cette protection ne sont possibles que s'il existe un signe distinctif, un emblème. C'est pourquoi, la Convention de Genève a proclamé comme signe distinctif, la Croix-Rouge. Il faut que ce signe distinctif conserve en temps de guerre toute sa signification, toute sa haute valeur morale, de telle sorte qu'en présence du signe de la'croix rouge sur fond blanc, on se rende compte qu'il là une œuvre humanitaire indépendante de toute autre considération.
+
+Il me sera peut-être permis de dire que je suis un peu considéré à Genève et en Suisse comme le défenseur attitré, et je pourrais presque dire farouche, du signe de la Croix-Rouge. Toutes les mesures qui seront prises pour assurer à ce signe de la Croix-Rouge toute sa valeur auront mon entière approbation et correspondront aux sentiments intimes pour lesquels
+
+y a Pour assurer à ce signe sa valeur en temps de guerre, il faut la lui assurer également en temps de paix. C'est pourquoi, dès 1906, on est arrivé à proclamer que ce signe, qui devait avoir toute sa valeur en temps de guerre devait être protégé en temps de paix, protégé contre les abus.
+
+je lutte depuis beaucoup d'années.
+
+leur activité en temps de paix.
+
+Il s'agit en temps de paix de savoir comment - puisque l'on veut assurer à ce signe toute sa signification - on permettra aux sociétés de la Croix-Rouge de se servir de ce signe pour
+
+Anciennement, la question se posait à peine, parce que les Sociétés de la Croix-Rouge avaient peu d'activité en temps de paix. Mais, déjà en 1906, la question a été soulevée et elle
+
+a même fait l'objet d'un débat à la Conférence de La Haye en 1907 parce que quelques sociétés
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
