@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ff482711d96b-P1168-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178.codex.md
+converted_sha256: ff482711d96bd33db53aea2dfc8db2b1f1199d24d0aa870d86700028b93dbe27
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json
+page_start: 1168
+page_end: 1168
+part: 1
+---
+
+# Page 1168
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json`
+- Source page: 1168
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/page-images/page-1168.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+fuentes mismas  da  motivo  para  tratar detenidamen-
+
+te  una  infinidad de  cuestiones literarias, morales,  sociales, estéticas, históricas, etc. La  misma  dificultad de  la  traduccion al  idioma patrio, obliga  al  análisis detallado de los pensamientos. De paso observaré que  la  mayor parte de  los profesores exijian a  sus alumnos que las  traducciones se  hicieran en aleman castizo  1 no  literalmente. |
+
+La  preparacion doméstica para la  correcta interpretacion  de  los  autores leidos en clase, i la lectura  privada  de  trozos largos,  controlada por  el  profesor,  que  revisaba periódicamente  los  cuadernos de preparacion, en que  debíamos apuntar las  palabras desconocidas, o nos pedia breves resúmenes de lo leido, constituian uno de  los ejercicios mas  provechosos de  nuestra enseñanza. Recuerdo que de  esa manera nos veíamos obligados a  leer en casa todos los  libros de  la  Ilíada  que  no  alcanzábamos a  tratar detenidamente en  clase.  Hasta  recuerdo que  alcancé a  leer,  por  gusto  propio,  una  comedia  de  Plauto,  tra bajo  entónces  para  mí  harto  difícil,  1 que  el rector  del Liceo  de  Metz  me  invitó  junto  con  otro  condiscípulo a  su casa, durante  algunos  meses una hora  cada  semana, para  ayudarnos en la  lectura  privada de  una trajedia  de  Eurípides,  que  nos  habíamos  compro tido  voluntariamente a  preparar.
+
+SI  insisto  en  tales  detalles de  la  antigua  enseñanza
+
+clásica alemana, es porque con la  lectura  de  ciertas pájinas  dela obra  de  Ud.  los profesores chilenos podrian  formarse  la idea de  que  no hai  cosa  mas inútil 1 disparatada  que  el  estudio del  griegoi  latin,  con el cual  los  alumnos de  antaño  habrian  perdido  lastimosamente  su  tiempo,  en  vez de  adquirir  «conocimien-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-164ed7056291-P1144-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153.codex.md
+converted_sha256: 164ed7056291c786b38dad1870c99079b1a563c734710e38ac6586746f3243f0
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/manifest.json
+page_start: 1144
+page_end: 1144
+part: 1
+---
+
+# Page 1144
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/manifest.json`
+- Source page: 1144
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/page-images/page-1144.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+xXx
+
+neralmente  se  toman en  cuenta las  exijencias de  los estudiantes,  fundadas  en  las  materias  requeridas  para los  exámenes fiscales que dan  acceso a las carreras correspondientes. A  los futuros profesores de  la  enseñanza secundaria se les pedia en aquel entónces para  un  certificado  de  primer  grado la  aprobacion,  ya sea  en  tres  ramos para  todos  los  cursos, o  bien  en  dos ramos. para  todos los  cursos i en otros dos para  los años medios  de  la  instruccion  secundaria.  En  filolojía moderna  existian  para  el exámen  fiscal  sólo  los  ramos de  frances, ingles  1 aleman, en  la  clásica los  de  latin i de  griego.  Los  profesores  ordinarios  solian  dedicarse principalmente  a  la gramática  histórica  1  la literatura de  la  Edad  Media. De  la  gramática  práctica  1 literatura moderna estaban jeneralmente encargados los profesores estraordinarios, auxiliados por  profesores sin  sueldo (Privatdozenten) 1,  en las  lenguas estranjeras,  por  «lectores»  de  la  nacionalidad  correspondiente.  En  los  ochenta años del  siglo pasado  habia  rara vez mas de  un  profesor ordinario para  frances e  1ngles,  de  suerte  que  no  le  era  fácil  hacer  cursos de  todas  las  materias  requeridas en  los  exámenes fiscales. Los  principales  cursos  solian  repetirse  cada  dos  o  tres años; pero, como cada semestre se publicaban las listas  de  los  cursos que  debian  hacerse  en  el siguiente, los estudiantes cambiaban frecuentemente de  Universidad  para  poder  asistir a  los  cursos que  les  convenian. Naturalmente  esta  libertad  absoluta  de  profesores 1 estudiantes requiere  que  cada  uno elija  por iniciativa  propia  los  cursos que  quiere  seguir.  No  hal exámen alguno  intermedio,  como  nuestros exámenes anuales de  promocion. La  materia que  no  tiene  uno la  ocasion  de  estudiar  con  un  profesor,  la debe  apren-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

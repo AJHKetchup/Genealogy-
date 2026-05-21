@@ -1,0 +1,70 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6a13d125e8fc-P0607-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 6a13d125e8fcbe6550ff4dc2eefe17a4a2a9def9f60618319bdcfce8bad09fdd
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 607
+page_end: 607
+part: 1
+---
+
+# Page 607
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 607
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0607.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+V
+
+ha hecho  cargo,  como  hemos visto,  de la  construcción  y les  en  virtud  del  derecho  general  que  le conceden  las leyes
+
+explotación  de  los  ferrocarriles llamados  a,  ser  los principales.  El  Estado  aparece  como empresario  de  ferrocarrlconstitucionales modernas  (la  construcción y  la  explo¡tación  son  actos  de la administración  pública). Los  par-| ticulares,  por  el contrario, aparecen  como empresarios sólo  en  virtud  de una concesión  especial  de  construcción iy  explotación  hecha  por  aquél.
+
+El  primer paso  importante dado  en Chile  en materia ¡ de  legislación  ferroviaria  fue  la  promulgación  de  la Ley Eueral de  Ferrocarriles, hecha el  año 1862. Esta  ley, ¡llamada  también  Ley  de Policía de los Ferrocarriles, está aún en la actualidad  en plena  vigencia. Según ¡su  artículo 1.9, los  ferrocarriles construídos  por  el Estado  o  a virtud  de concesión  o  autorización  de éste,  están sujetos a las prescripciones legales relativas a los caminos  públicos.  Según  el artículo 2.2,  los ferrocarriles, como vías  públicas, gozan de  las  servidumbres estable-¡| cidas  por  la ley sobre  los  fundos  colindantes,  sea  para  las ¡'obras  de  construcción,  reparación o  conservación de  la ¡'vía  y sus dependencias, sea  para mantener  expedito  y llibre  el tránsito por  ella.  En seguida  se establecen en  la ley  las  prohibiciones consiguientes:  embarazar  el tráfico Ide  cualquier  modo, hacer  excavaciones en  los terrenos '  colindantes  que  puedan  perjudicar  a  la solidez de  la vía, | construir  edificios  de paja  o  hacer acopio  de  materiales |  Imflamables  cerca  de la vía, construir muros  o  cierros a ¡"menos  de dos metros de distancia de ésta  y  dar  éstos |  salida  sobre ella,  etc.  La  Empresa  puede  solicitar  expro|  plación  forzada  de todo  lo que  entorpezca la línea,  y está obligada  a  cerrar a  su  costa  la vía por  ambos  lados.  En ¡todos  los puntos  en  que  los  ferrocarriles cruzasen  a  nivel
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

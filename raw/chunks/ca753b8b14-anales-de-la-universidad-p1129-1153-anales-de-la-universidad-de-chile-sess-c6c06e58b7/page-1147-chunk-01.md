@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-164ed7056291-P1147-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153.codex.md
+converted_sha256: 164ed7056291c786b38dad1870c99079b1a563c734710e38ac6586746f3243f0
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/manifest.json
+page_start: 1147
+page_end: 1147
+part: 1
+---
+
+# Page 1147
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/manifest.json`
+- Source page: 1147
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/page-images/page-1147.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+habia  entendido  yo  con  toda  claridad. Por  mi  parte, a  veces tambien  contundia  el italiano  con  el  español, por  serme mas familiar el  primero. Recuerdo  sobre todo  haber vacilado  repetidas veces en el  uso de  ser 1 estar;  pero  al  cabo  de  media hora  de  conversacion, me  sentí  ya  a  mis  anchas,  1 el diálogo  siguió  sin  mayores entorpecimientos, lo  que  me  valió  el  honor de ser  el único  profesor  contratado  para  el  Instituto  Pedagójico  a  quien  no  se  le  puso  en  el contrato la  obligacion  de  aprender  cuanto  ántes  la lengua  castellana. Lo  que  me  faltaba de  práctica  lo  adquirí  durante el viaje  ántes de  llegar  a  Chile,  como el  señor Gana  lo habia  previsto.
+
+:  El  sistema  absolutamente libre de  los  cursos universitarios, que  casi  siempre  duran  sólo  un  semestre; la  completa  falta de  fiscalizacion  respecto a  la  asistencia  (ningun  profesor «pasa  lista» ni  dirije  preguntas a los asistentes); la  completa  independencia de los  estudiantes, apénas  un  5%,  de  los  cuales viven  en casas de sus  padres  o  de  parientes: todo  ello  requiere que  el estudiante  aleman  trabaje  constantemente  por cuenta  propia.  Sólo  los  cursos que  se  llaman de  «seminario»  tienen  un  carácter  mas  práctico,  de  coloquio entre el  profesor 1 los  estudiantes. Lo  mismo  sucede naturalmente  a  veces en  los  cursos de  interpretacion 1 en  los  ejercicios de  los  lectores. Pero,  para  ser admitido  en  el  Seminario  hai  que  presentar  una  memoria  científica,  que pase  primero  en  informe  a  un  miembro  mas antiguo  del  Seminario ántes de  ser  revisada por el  profesor. Los principiantes se encuentran en una  situacion particularmente  difícil,  porque, no conociendo todavía la  ciencia a la  cual quieren  dedicarse, no  pueden  a menudo  apreciar  con  acierto  la con-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,68 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ff482711d96b-P1172-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178.codex.md
+converted_sha256: ff482711d96bd33db53aea2dfc8db2b1f1199d24d0aa870d86700028b93dbe27
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json
+page_start: 1172
+page_end: 1172
+part: 1
+---
+
+# Page 1172
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json`
+- Source page: 1172
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/page-images/page-1172.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+rir  sucesivamente esas habilidades. Si  el  hablar con fluidez la  lengua patria  no es prueba  de  intelijencia superior;  si  es  un  hecho  que  ciertos  individuos  tienen «el  don  de  la  palabra», que  son capaces de  pronunciar un discurso con palabras altisonantes 1 figuras retóricas 1,  a  pesar  de  todo,  son ignorantes, por no decir peligrosos charlatanes: ¿cómo puede  ser una prueba de intelijencia el hablar cuatro idiomas? 0x4=0. Tampoco  faltan  sabios profundos, que  publican libros llenos de valiosas investigaciones científicas, 1 son sin  embargo incapaces de  pronunciar un bríndis cualquiera  sin  turbarse.
+
+Artes 1 ciencias son cosas diversas; nadie  lo  duda. Será  talvez difícil  que  una  persona  hable  dos  o  mas lenguas  con  igual  perfeccion  1 elegancia; pero  no escasean los  sabios que  hayan  publicado  libros  científicos en diferentes idiomas, así como hai insignes músicos  que  tocan  admirablemente  varios  instrumen tos,  aunque  serán  raros los  vzrtuosí  que  puedan  hacer otro tanto. S1  el  hablar varias lenguas fuera un estorbo  para  el pensamiento,  tocar  varios  instrumentos deberia serlo  tambien para la  riqueza melódica del compositor  musical. No  es así,  sin  embargo.
+
+Hai, por lo  demas, frecuentes contradicciones en su  libro  respecto a  la  cuestion de  hablar varias lenguas a  la  vez. Aquí  dice  que  es  posible,  pero  de  malas  consecuencias; en  cambio,  en  la pájina  26  declara que  «solamente  en  una  lengua  se  piensa»;  que  los  bilingues 1 trilingues en Béliica, Suiza, Austria, etc., lo  son sólo  aparentemente o  resultan «seres psíquicamente anfibios 1  sin personalidad (!)». Lo  único exacto  es  que  desde  el momento  en  que  una  persona es capaz  de  conversar de  corrido en  dos  o  mas idio-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

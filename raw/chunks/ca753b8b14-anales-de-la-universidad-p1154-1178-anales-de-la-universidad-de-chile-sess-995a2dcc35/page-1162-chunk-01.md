@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ff482711d96b-P1162-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178.codex.md
+converted_sha256: ff482711d96bd33db53aea2dfc8db2b1f1199d24d0aa870d86700028b93dbe27
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json
+page_start: 1162
+page_end: 1162
+part: 1
+---
+
+# Page 1162
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json`
+- Source page: 1162
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/page-images/page-1162.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+La  verdadera  reforma comenzó en 1882, con mado  «nuevo método».
+
+el  lla-
+
+Analicemos el  método gramatical. Partiendo de  la base  indudablemente correcta de que para conocer un idioma nuevo es necesario aprender con qué  palabras  se  espresan  en  él todos  los  conceptos  que  hasta ahora  conocemos  sólo  como  inherentes a  los  vocablos de  la  lengua patria,  se  reclamaba el  aprendizaje de los  vocablos de  la lengua  estranjera.  Pero,  como  tambien  es  indispensable espresar la  relacion  gramatical entre  las  palabras  del discurso, ya  sea por  medio  de palabras auxiliares (preposiciones, conjunciones), ya sea  por  medio  de  variaciones de  las  palabras  mismas o  por  prefijos  1  sufijos,  etc.,  se  enseñaban  igualmente, segun  el  modelo  de  la gramática  latina,  en  forma  sistemática, los  accidentes de  las  partes de  la  oracion, es decir,  la  declinacion de  los  sustantivos 1 adjetivos, la  variacion del  jénero,  la  gradacion, la  conjugacion de  los  verbos, etc. Cada  leccion  contenia: unos cuantos vocablos i un par de  reglas. Como  sin  verbo en jeneral  no hai  proposiciones,  se  daban  desde  luego  a menudo  algunas  formas verbales, sobre todo  la  tercera persona de  los auxiliares 21  a,  als ont, al  est, als sont,  1 con este  material  se  formaban  fragmentos de frases o  frases enteras en  numerosos ejercicios. A las frases en frances, que  se debian traducir al  idioma patrio,  se agregaban  otras parecidas en  esta lengua para  traducirlas a  la  estranjera. :
+
+Con esta enseñanza sistemática pasaban comunmente dos o tres años ántes de  que  se pudiera  comenzar la  lectura de  trozos continuos de  autores
+
+fáciles.  En  las  lenguas  modernas  dominaba  el ejercicio gramatical  con  frases  sueltas  en  que  «se  aplicaban  las
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,128 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6a13d125e8fc-P0610-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md
+converted_sha256: 6a13d125e8fcbe6550ff4dc2eefe17a4a2a9def9f60618319bdcfce8bad09fdd
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json
+page_start: 610
+page_end: 610
+part: 1
+---
+
+# Page 610
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json`
+- Source page: 610
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0610.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+pasajeros  respecto  al servicio,  etc., todo lo  cual  deberá
+
+comunicarse  al intendente  de la provincia  respectiva.
+
+En  caso  de conmoción  interior  o  de invasión  extranje-
+
+ra,  el Gobierno  podrá  tomar  de  su  cuenta  el  uso de  los ferrocarriles, abonando  a la  Empresa la  cantidad que correspondiere  al término  medio  del  producto  de los  últimos  sels  meses.  Las  prescripciones con  que termina  la Ley de  Policía  de Ferrocarriles  se  refieren  a los delitos o  faltas  contra  la seguridad del tráfico  delos  ferrocarriles, fijando  las  penas  correspondientes.
+
+Nada dice la ley, por  el contrario, respecto a la situación que con la construcción de  ferrocarriles se crea  entre  éstos  y los  caminos públicos; así,  puede  ser absolutamente  necesaria  la  construcción de  caminos  de acceso  a  las  estaciones,  ya  que  sin  ellos  el ferrocarril no cumpliría  su  objeto;  puede  haber necesidad  de cambiar  los  caminos  existentes:  en  la construcción  de ferrocarriles de  segundo  orden  puede  tener lugar una  utilización de  . los caminos,  que en la práctica,  en verdad,  se permite,  pero que  no  aparece en  la  ley  de  ferrocarriles en  forma  establecida  expresamente, etc.  Nada dice  tampoco  en  cuanto  a  la  situación  que  se  puede  crear  con  la influencia  que tenga  la construcción  de un  ferrocarril  en  las  aguas  existentes; sólo  al hacer  la  concesión se  contemplan  los  casos. La ley  enmudece, por  fin. en  cuanto  al control: financiero.  Dictada  en  1862,  época  en  que  el país,  en  una extensión  de  más  de  750,000  kilómetros  cuadrados,  contaba  sólo  con  unos  pocos  cientos  de  kilómetros de  ferrocarriles, y  en  que,  por  lo tanto,  faltaba  toda  experiencia sobre  el particular,  la ley veneral de  Ferrocarriles  no  pue-. de satisfacer  ya  a  las  complicadas exigencias  del  ramo. Los  seis  meses  que  se  fijan  de  plazo  para que entren  en vigencia  las  tarifas  no se  apropian  a  las necesidades  ac=
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+- Task id: `source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-0628:p0611`
+- Page number: 611
+
+## Layout And Reading Order
+The page contains a running header with a title on the left and a page number on the right. Below the header, there is a paragraph of text, followed by a section heading, and then a long paragraph of text that continues to the bottom of the page.
+
+## Literal Transcription
+NUESTROS PROBLEMAS ECONÓMICOS 541
+
+tuales, en que la vida económica sufre alteraciones rápi-
+das que exigen adaptación inmediata y oportuna de las
+tarifas. Se impone, pues, su inmediata reforma.
+
+2. Las concesiones
+
+La Ley general de Ferrocarriles ha sido complementa-
+da en parte con otros decretos y leyes posteriores, como,
+por ejemplo, la ley de 1886, que declara que «las perso-
+nas, sociedades o concesionarios dueños de ferrocarriles,
+aun cuando sean extranjeros y no residan en Chile, se
+consideran como domiciliados en la República y quedan
+sujetos a las leyes del país, con prohibición de recurrir a
+la vía diplomática»; la que declare libre la construc-
+ción de ferrocarriles y los decretos que reglamentan la
+contabilidad de las Empresas y las concesiones. En Chile
+no hay, pues, una ley general de concesiones; éstas se dan
+por decreto del ejecutivo en los ferrocarriles que se de-
+sea construir sin auxilio del Estado, y también por vía
+legislativa, como en Inglaterra. En contraposición por
+ejemplo, a las leyes austriacas, las leyes chilenas, que no
+ponen trabas de ninguna especie en la construcción de fe-
+rrocarriles, no excluyen la aprobación de otra línea que
+una los mismos puntos finales sin tocar puntos nuevos que
+puedan ser estratégica, política o comercialmente impor-
+tantes. En verdad, hasta hoy no se ha presentado el caso
+de construirse dos líneas que unan los mismos puntos y
+establezcan con ello una lucha de competencia, y no se
+ha presentado tal caso a causa de la gran extensión terri-
+torial y la separación completa de las zonas de interés
+privado y de interés público; pero, si observamos que el
+país en sus zonas principales está ya recorrido por una
+red ferroviaria bastante extensa en relación a su pobla-
+
+## Images, Captions, And Visual Notes
+No images, captions, or significant visual notes are present on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}

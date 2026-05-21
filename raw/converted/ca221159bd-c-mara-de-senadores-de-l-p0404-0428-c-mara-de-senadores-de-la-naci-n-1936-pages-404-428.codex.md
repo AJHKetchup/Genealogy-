@@ -487,61 +487,79 @@ The transcription is a complete and accurate representation of all the content o
 {"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of printed text and does not contain any images, illustrations, or other visual elements suitable for cropping."}
 ```
 
+# Page 412
+
 ## Page Metadata
-Page number: 412
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/manifest.json`
+- Source page: 412
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428/page-images/page-0412.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text. It begins with a bold, centered title, followed by an expediente number and a date on separate lines. The main content consists of several paragraphs under the headings "Visto este expediente y —" and "Considerando:", concluding with a resolution under "RESUELVE:".
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-**PROPAGANDA COMERCIAL EN LOS VEHICULOS**
-**DESTINADOS A TRANSPORTE DE PASAJEROS**
 
-Exp. T. 128/1936.                                                              La Plata, julio 15 de 1936.
+```markdown
+## PROPAGANDA COMERCIAL EN LOS VEHICULOS DESTINADOS A TRANSPORTE DE PASAJEROS
 
-Visto este expediente y —
-Considerando:
-    Que la Reglamentación General de Tráfico, aprobada por el
-Poder Ejecutivo con fecha 13 de abril del corriente año, esta-
-blece en su artículo 54, la prohibición de fijar avisos comer-
-ciales en el interior y exterior de los coches;
-    Que dicha prohibición debe limitarse únicamente a los vidrios
-de las ventanillas laterales y parabrisas, es decir, a todo aquello
-que puede impedir la libre visión, desde y para el interior del
-coche;
-    Que son muchas las presentaciones hechas ante la Dirección
-de Tráfico de la provincia de Buenos Aires por empresas de
-publicidad, pidiendo se permita la explotación de la propaganda
-en los vehículos; petición que será abonada por el desarrollo
-de una actividad comercial de interés para el público que usa
-los nuevos medios de transporte por los caminos;
-    Que la experiencia comprobada sobre la materia aconseja
-se permita la propaganda de referencia, toda vez que ella
-estaría supeditada a una Reglamentación adecuada al respecto;
-no lesiona derechos de terceros y puede traducirse en una
-fuente de recursos que ahora deja de percibir el Estado, para
-el organismo que atiende los transportes en los caminos.
-    Por todo ello; atento lo informado por la Dirección de Trá-
-fico de la Provincia, lo dictaminado por el señor Asesor de
-Gobierno y vista del señor Fiscal de Estado, el Poder Eje-
-cutivo —
+Exp.
 
-RESUELVE:
-    1° Derógase el artículo 54 de la Reglamentación General
-de Tráfico, aprobada por resolución de fecha 13 de abril de
-1936.
+T. 128/1936.
+
+Yisto este expediente yConsiderando :
+
+Que la Reglamentacion General de Trâfico, aprobada por el Poder Ejecutivo con fecha 13 de abril del corriente ano, establece en su artîculo 54, la prohibiciôn de fijar avisos comerciales en el interior y exterior de los coches;
+
+Que dicha prohibiciôn debe limitarse ûnicamente a los vidrios de las ventanillas latérales y parabrisas, es decir, a todo aquello que puede impedir la libre vision, desde y para el interior del coche ;
+
+Que son muchas las presentaciones hechas ante la Direceiôn de Trâfico de la Provincia de Buenos Aires por empresas de publicidad, pidiendo se permita la explotaciôn de la propaganda en los vehiculos; peticiôn que sera abonada por el desarrollo de una actividad comercial de interés para el püblico que usa los nuevos medios de transporte por los caminos;
+
+Que la experiencia comprobada sobre la materia aconseja se permita la propaganda de referencia, toda vez que ella estaria supeditada a una Reglamentacion adecuada al respecto; no lesiona derechos de tereeros y puede traducirse en una fuente de. recursos que ahora déjà de percibir el Estado, para el organismo que atiende los transportes en los caminos.
+
+Por todo ello; atento lo informado por la Direceiôn de Trâ¬ fico de la Provincia, lo dictaminado por el senor Asesor de Gobierno y vista del senor Fiscal de Estado, el Poder Eje¬ cutivo -
+
+## RESUELVE:
+
+T' Derôgase el artîculo 54 de la Reglamentacion General de Trâfico, aprobada por resoluciôn de fecha 13 de abril de 1936.
+
+La Plata, julio 15 de 1936.
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 84

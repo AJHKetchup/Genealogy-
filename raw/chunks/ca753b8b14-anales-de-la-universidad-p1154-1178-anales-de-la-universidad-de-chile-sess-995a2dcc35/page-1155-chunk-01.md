@@ -1,0 +1,64 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ff482711d96b-P1155-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178.codex.md
+converted_sha256: ff482711d96bd33db53aea2dfc8db2b1f1199d24d0aa870d86700028b93dbe27
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json
+page_start: 1155
+page_end: 1155
+part: 1
+---
+
+# Page 1155
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json`
+- Source page: 1155
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/page-images/page-1155.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+nicaciones  rudimentarias.  En  el  tercero 1 cuarto año se asimila poco a  poco a  la  construccion normal de oraciones. Su  conocimiento práctico aumenta:  pau-\_latinamente  con  la  edad  i depende  en  todo  de  la  cultura que  reina en su medio ambiente. Por esto el niño  de  seis años,  al  llegar  al  colejio tend  á necesariamente un vocabulario restrinjido  1  hablará una como jerga  vulgar, si  ha  vivido en una familia de campesinos,  donde  hasta  la  conversacion  de  los  adultos  jira  siempre  alrededor de  los  mismos asuntos de la  vida  diaria,  o  bien,  s1  pertenece  a  una  familia  culta  de la ciudad,  se  espresará  en  un  lenguaje  semejante a  la lengua  literaria 1  su  vocabulario  será  mucho  mas rico,  aunque  ignore  quizá  los  nombres mas  corrientes de  los  instrumentos de  la  agricultura. En  todo  caso el  habla del  niño es una facultad que  se ejerce  inconscientemente; ignora  en absoluto la  mas sencilla regla  de  gramática,  así  como  ignora  los  elementos de la  fisiolojía  o  de  cualquier otra  ciencia. Las  primeras nociones  teóricas de  lenguaje  las  aprenderá  en  la  escuela  primaria,  junto  con  el aprendizaje  de  la lectura 1 escritura de  la lengua  literaria. Si  nuestra  escritura fuera  fonética, bastaria mul  poco  tiempo  para  enseñar  a  descomponer  las  palabras  en  sonidos  1 aprender un  signo  para  cada  sonido  distintivo: i esto  seria  suficiente  para  escribir.  La  lectura  consiste  en  acostumbrarse a  juntar los signos aislados para formar de nuevo palabras. Por inedio del ejercicio, nos acostumbramos  pronto  a  leer  palabras enteras. Quedaria ademas aprender  cómo  se  divide  la  oracion en palabras,  cosa  que  en  cada  lengua  es  mucho  mas convencional  de  lo  que  jeneralmente  se  cree. Por  desgracia, hai  que  martirizar a  los niños en todos los  idiomas
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

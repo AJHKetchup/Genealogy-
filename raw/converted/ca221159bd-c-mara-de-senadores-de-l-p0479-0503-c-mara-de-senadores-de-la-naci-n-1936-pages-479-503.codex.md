@@ -1,0 +1,1663 @@
+# Cámara de Senadores de la Nación, 1936 pages 479-503
+
+## Conversion Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Conversion method: Codex local vision workbench
+- Extracted images: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/extracted-images`
+
+## Page Metadata
+
+- page_number: 479
+
+## Layout And Reading Order
+
+The page is numbered "- 18 -" at the top center. The content is arranged in a single column.
+
+The page begins with two numbered paragraphs (3º and 4º) presented in a two-column format. The left column contains the text of the paragraph, and the right column, under the heading "Minutos que se acuerdan", contains a corresponding time value.
+
+This is followed by a numbered paragraph (5º) that serves as an introduction to a large table.
+
+The table is organized into four columns. The first column is "TIPOS DE LOCOMOTORAS". The next three columns are grouped under a shared super-heading "MINUTOS QUE SE ACUERDAN", with individual sub-headings describing different lubrication tasks. The "TIPOS DE LOCOMOTORAS" heading spans the height of both the super-heading and sub-headings in the original layout. The transcription below uses a single header row for compatibility with Markdown, with the complex header structure described here.
+
+## Literal Transcription
+
+- 18 -
+
+| | Minutos que se acuerdan |
+| :--- | :---: |
+| 3º Cuando al personal se le ordena viajar como pasajero y deba concurrir al galpón a firmar previamente el registro de tomar servicio (contándose el tiempo con anticipación a la hora de salida del tren señalado) . . . . | 15' |
+| 4º Cuando el personal tome servicio en plataforma y recién ahí inicie su período de trabajo y siempre que deba concurrir al galpón a firmar el registro de tomar servicio (contándose el tiempo con anticipación a la hora en que deba hacerse cargo de la locomotora) . . . . . . . . | 15' |
+
+5º Cuando el personal deba preparar la locomotora:
+
+| TIPOS DE LOCOMOTORAS | Lubricación<br>total a aceite,<br>a cargo del<br>personal<br>de la máquina | Bielas<br>lubricadas<br>con grasa,<br>a cargo del<br>personal<br>de la máquina | Bielas<br>lubricadas<br>con grasa,<br>a cargo del<br>personal<br>del galpón |
+| :--- | :---: | :---: | :---: |
+| Para preparar locomotoras de 2 cilindros hasta 3 ejes acoplados inclusive . . . . . . . . . . . . | 50' | 60' | 45' |
+| Para preparar locomotoras de 2 cilindros de 4 y 5 ejes acoplados . . . . . . . . . . . . . . . . | 55' | 65' | 50' |
+| Para preparar locomotoras de 3 cilindros hasta 4 ejes acoplados inclusive . . . . . . . . . . . . | 60' | 70' | 55' |
+| Para preparar locomotoras Duplex . . . . . . . . . . . . . . . . . . . . . | 70' | 80' | 65' |
+| Para preparar locomotoras Mallet hasta 3 ejes acoplados inclusive . . . . . . . . . . . . . . . . | 60' | 70' | 55' |
+| Para preparar locomotoras cremalleras . . . . . . . . . . . . . . . . | 95' | 115' | 85' |
+| Para preparar locomotoras Garratt de 8 ejes acoplados en total . . . . . . . . . . . . . . . . . . | 100' | 120' | 90' |
+| Para preparar locomotoras Garratt hasta 6 ejes acoplados en total . . . . . . . . . . . . . . . . | 90' | 110' | 80' |
+| Para preparar locomotoras de maniobras hasta 4 ejes acoplados inclusive . . . . . . . . . . . . | 35' | 45' | 30' |
+
+## Images, Captions, And Visual Notes
+
+There are no images, photographs, or other significant visual elements on this page.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts of this page.
+
+## Completeness Audit
+
+The entire content of the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of text and a standard table, with no images, illustrations, or other visual elements that would warrant cropping."
+}
+```
+
+## Page Metadata
+Page number: 480
+Source publication year: 1936
+
+## Layout And Reading Order
+The page features a central page number at the top. The main content is presented in a single column, consisting of a heading, a numbered item with a parenthetical note, and then two sections with subheadings, each containing a numbered list of items. Each item in the lists has a corresponding time value in minutes on the right, separated by dot leaders.
+
+## Literal Transcription
+
+— 19 —
+
+Minutos
+que se
+acuerdan
+
+6º Cuando el personal tenga que preparar la locomo-
+tora en una estación de tránsito por haber tomado des-
+canso ahí y al tomar servicio tenga que encender fuego
+y levantar presión, como norma general.................. 120'
+
+(Se entiende por locomotoras de maniobras aquella cuyo rodado
+está constituido exclusivamente por ejes motores.
+Cuando las maniobras se realicen con locomotoras de otro tipo
+que no pertenezca al expresamente especificado, los tiempos de
+preparación serán los que correspondan a la agrupación respectiva.
+Para toda preparación de locomotora que se efectúe en galpones
+cuya altura sea de 3000 metros o más sobre el nivel del mar, los
+tiempos de preparación se calcularán con un aumento de 10 %
+sobre los tiempos establecidos.)
+
+Al dejar servicio:
+
+1º Cuando el personal lleve la locomotora al galpón,
+la revise, anote reparaciones, etc. ........................ 30'
+2º Cuando el personal entregue la locomotora en
+plataforma o en galpón, y sólo firme el registro y deje el
+servicio.................................................. 15'
+3º Cuando el personal, después de viajar como pasa-
+jero, deba concurrir al galpón, firmar el registro de dejar el
+servicio (contándose el tiempo desde la llegada del tren
+señalado para viajar a la estación de destino indicada al
+personal).............................................. 15'
+
+Personal de conducción de trenes eléctricos
+
+Al tomar servicio:
+
+1º Cuando el mismo personal revise y compruebe
+la buena preparación de la locomotora o tren eléctrico
+en galpón................................................ 25'
+2º Cuando un personal recibe en galpón la locomo-
+tora o tren eléctrico preparado y deba sólo firmar el
+registro y cerciorarse de las circulares y avisos en
+vigencia.................................................. 10'
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The page number "- 19 -" is centered at the top.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and layout elements on the page have been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
+
+## Page Metadata
+Page number: 481
+Original page number: 20
+
+## Layout And Reading Order
+
+The page features a single-column layout with a centered page number at the top. Below this, there's a small right-aligned header "Minutos que se acuerdan". The main content consists of numbered paragraphs detailing regulations, some with parenthetical explanations. These numbered paragraphs often end with a series of dots leading to a time duration (e.g., "10'"). A horizontal rule followed by a centered Roman numeral "V" separates sections. The page concludes with a centered heading "Disposiciones varias" and a final article.
+
+## Literal Transcription
+
+<pre>
+                               — 20 —
+</pre>
+<pre>
+                                                               Minutos
+                                                               que se
+                                                               acuerdan
+</pre>
+3º Cuando al personal se le ordene viajar como
+pasajero y deba concurrir al galpón a firmar previamente
+el registro de tomar servicio.................................................. 10'
+(Los diez minutos especificados en los párrafos 2º y 3º se con-
+tarán con anticipación a la hora de salida del tren señalado en
+que debe viajar.)
+
+4º Cuando el personal tome servicio en plataforma
+y recién ahí inicie su período de trabajo y siempre que
+deba concurrir al galpón a firmar el registro de tomar
+servicio (contándose el tiempo con anticipación a la hora
+en que deba hacerse cargo de la locomotora o tren
+eléctrico)................................................................................. 10'
+
+Al dejar servicio:
+
+1º Cuando el personal lleve la locomotora o tren
+eléctrico al galpón, deje informes, etc. (contándose el
+tiempo desde la hora en que se libran las vías de tráfico) 10'
+2º Cuando el personal entregue la locomotora o tren
+eléctrico en plataforma y deba concurrir al galpón a firmar
+el registro de dejar servicio, entregar informes, etc....... 15'
+3º Cuando el personal después de viajar como pasa-
+jero deba concurrir al galpón a firmar el registro de
+dejar servicio, entregar informes, etc................................ 15'
+
+(Los quince minutos especificados en los párrafos 2º y 3º se
+contarán desde la hora de llegada del tren señalado para viajar a
+la estación de destino indicada al personal.)
+
+<hr/>
+<pre>
+                                       V
+</pre>
+
+<pre>
+                               Disposiciones varias
+</pre>
+
+Art. 34—Los empleados y obreros que no se hallen
+comprendidos en las reglamentaciones que establezcan ciclos
+de trabajo y descansos consecutivos, no podrán ser privados
+de un día de descanso por cada seis días de trabajo efectivo.
+
+## Images, Captions, And Visual Notes
+- A horizontal rule appears across the page, separating two sections of text.
+- Below the horizontal rule, a centered Roman numeral "V" is present.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text and significant visual elements on the page have been transcribed and noted.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text, a horizontal rule, and a Roman numeral."}
+```
+
+## Page Metadata
+Page 482
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily consisting of numbered articles and a bulleted list within one of the articles. A page number is centered at the top.
+
+## Literal Transcription
+
+— 21 —
+
+Art. 35. — Donde no sea posible relevar al personal con-
+tinuamente por razones de servicio, los empleados tendrán
+derecho a gozar de una licencia semestral de quince (15) días
+o anual de treinta (30), a opción de los interesados, en com-
+pensación del descanso hebdomadario. Este descanso podrá
+también acumularse a razón de dos días por dos semanas,
+tres días por tres semanas y de cuatro días por cuatro se-
+manas.
+Art. 36. — El tiempo que ocupa el empleado u obrero
+para trasladarse desde su residencia particular a su trabajo
+o viceversa, no será computado en la jornada de trabajo.
+Art. 37. — Para los peones de cuadrilla se computará la
+jornada diaria de ocho (8) horas de trabajo efectivo, exclu-
+yendo el tiempo empleado por el personal para trasladarse
+con sus herramientas desde el punto de su residencia hasta
+el de trabajo o viceversa, entendiéndose por residencia el
+campamento de la cuadrilla. Cuando dicho tiempo pase de
+treinta y cinco (35) minutos, la Dirección General de Ferro-
+carriles establecerá el porcentaje con que deberá ser compu-
+tado tal exceso sobre las horas de trabajo, teniendo en cuenta
+las circunstancias de cada caso.
+Art. 38. — Entiéndese por empleados de dirección o de
+vigilancia, a que se refiere el inciso 1º del artículo 3º de la
+Ley 11.544:
+a) Todos los jefes de las oficinas administrativas, ofi-
+cinas generales, divisionales o seccionales de todos
+los departamentos;
+b) Los jefes de los talleres o los encargados de los
+mismos cuando reemplacen al jefe;
+c) Los jefes de las usinas o los encargados de las mis-
+mas cuando reemplacen a los jefes;
+d) Los jefes de vía y obras o los encargados de las
+mismas cuando reemplacen a los jefes;
+e) Los jefes de imprenta o los encargados de las mis-
+mas cuando reemplacen a los jefes;
+f) Los jefes de almacenes o los encargados de los mis-
+mos cuando reemplacen a los jefes;
+g) Los jefes de depósitos de locomotoras y trenes eléc-
+tricos o los encargados de los mismos cuando re-
+emplacen a los jefes;
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for extraction."}
+```
+
+## Page Metadata
+Page number: 483
+Source publication year: 1936
+
+## Layout And Reading Order
+
+The page features a single-column layout with a page number centered at the top. The content consists of a continuation of a lettered list, followed by several section headings, paragraphs, and a final list presented in a table-like format with two columns.
+
+## Literal Transcription
+
+— 22 —
+
+h) Los jefes de coches comedores, buffets y restau-
+rantes de estaciones o los encargados de los mismos
+cuando reemplacen a los jefes;
+i) Los jefes de estación, y los segundos jefes cuando
+éstos reemplacen a aquéllos;
+j) Los inspectores en general, y los subinspectores si
+reemplazan a aquéllos;
+k) Todos los funcionarios de jerarquía superior a las
+arriba citadas;
+l) Los capataces de cuadrilla y empleados de vigilan-
+cia que realicen solamente funciones de dirección
+o vigilancia y que no presten otro servicio efectivo.
+
+DISPOSICIONES ESPECIALES
+
+I
+
+Personal de conducción y de trenes
+
+Maquinistas, Motormen, Foguistas, Pasaleñas, Guardatrenes, Guarda-
+encomiendas, etc.
+
+Ciclo.
+
+(*) Art. 39.—a) En un ciclo de veintiún (21) días como
+máximo, las horas de trabajo efectivo comprendidas
+dentro de él no podrán exceder de ciento cuarenta
+y cuatro (144).
+
+Períodos de trabajo.
+
+b) El trabajo máximo efectivo dentro de cada período
+será como a continuación se detalla, tanto en ser-
+vicio continuo como discontinuo:
+
+| | Horas |
+| :------------------------------------------------ | :---- |
+| 1º Servicio de trenes locales de pasajeros….. | 8,30 |
+| Servicio de trenes generales de pasajeros…. | 8,30 |
+| Servicio de trenes mixtos, encomiendas y es- | |
+| peciales …………………………………. | 9 |
+| Servicio de trenes diagramados de carga…. | 10 |
+| Servicio de trenes no diagramados de carga | |
+| y balasto……………………………….. | 10 |
+
+(*) Decreto de octubre 26 de 1935.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+
+## Page Metadata
+Page number: 484
+
+## Layout And Reading Order
+The page presents a single-column layout with a page number centered at the top. The content consists of numbered and lettered paragraphs, detailing regulations related to work and rest periods. There are sub-points within these main sections, some of which present information in a two-column-like format (e.g., hours and corresponding values).
+
+## Literal Transcription
+
+— 23 —
+
+2° Al personal de conducción de locomotoras afectado
+a servicios locales de pasajeros con trenes de
+tracción a vapor, teniendo en cuenta la mayor
+intensidad de este trabajo y de acuerdo con lo
+expresado en el artículo 40, se le computarán las
+horas totales del mismo dentro del ciclo con un
+diez por ciento (10 %) de aumento.
+Para el cómputo total de horas de trabajo den-
+tro del ciclo, en aquellos casos en que proceda la
+aplicación del artículo 2°, inciso *b* referente a
+servicio nocturno, no se tendrá en cuenta, sobre
+las jornadas así afectadas, la bonificación del 10 %
+antes citada.
+3° En el servicio de balasto no se computará como
+trabajo efectivo el intervalo de tiempo destinado a
+comida del personal, si éste es igual o superior a
+cuarenta y cinco (45) minutos.
+
+Descansos parciales.
+
+*c)* Todo período de trabajo deberá ser seguido de los
+siguientes descansos mínimos normales:
+
+Horas
+1° Por 8 horas o más de trabajo efectivo....... 12
+Por menos de 8 horas de trabajo efectivo, hasta
+7 horas................................ 10
+Por menos de 7 horas de trabajo efectivo..... 8
+
+2° Para el personal de conducción de locomotoras
+que trabaja con trenes de carga en servicio sin
+diagrama, el descanso mínimo parcial en residencia
+será de 16 horas. Fuera de la misma, los descansos
+serán iguales a los establecidos precedentemente.
+
+Descansos grandes.
+
+*d)* La duración de los descansos grandes y su separación
+dentro del ciclo serán las siguientes:
+
+1° En el ciclo de veintiún (21) días el personal ten-
+drá tres grandes descansos, que serán disfrutados
+siempre en residencia y cada uno de los cuales no
+
+## Images, Captions, And Visual Notes
+This page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The transcription ends mid-sentence as the content continues on the next page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No visual regions present on the page."}
+
+## Page Metadata
+- Page number: 485
+- Source publication year: 1936
+
+## Layout And Reading Order
+The page consists of a single column of text. At the top, there is a page number centered. The main content includes a continuation of a previous section, followed by a new section title and a list of definitions. A footnote appears at the bottom.
+
+## Literal Transcription
+```
+                                  — 24 —
+
+podrá ser inferior a treinta y dos (32) horas; y el
+intervalo de tiempo que los separe no podrá ser
+mayor de 168 horas.
+2º Para el personal afectado a los servicios no diagra-
+mados de carga, balasto, etc., el intervalo de tiempo
+que separe cada descanso no podrá ser mayor de
+144 horas ni menor de 120.
+3º En los servicios de balasto, teniendo en cuenta que
+la naturaleza de este trabajo origina cambios de
+lugar a medida que se va realizando, los descansos
+grandes podrán ser acordados en el punto donde
+quede estacionada la locomotora durante la noche,
+o donde quede detenida periódicamente para efec-
+tuar el lavado de caldera, reparaciones, etc., en
+cuyos casos la empresa proporcionará las comodi-
+dades necesarias.
+
+Secciones de tráfico intenso.
+
+(*) Art. 40.— Se considerarán secciones de tráfico in-
+tenso, a los efectos de la aplicación de las disposiciones refe-
+rentes al personal de máquinas en servicio local de pasajeros,
+las siguientes:
+    a) Las secciones de «vía sencilla» donde la circulación
+    de trenes de pasajeros alcance como mínimo a la
+    cantidad de veinticuatro (24) ascendentes y a veinti-
+    cuatro (24) descendentes en cada veinticuatro (24)
+    horas;
+    b) Las secciones de «vía doble», donde la circulación
+    de trenes de pasajeros alcance como mínimo a la
+    cantidad de cincuenta (50) ascendentes y a cincuenta
+    (50) descendentes en cada veinticuatro (24) horas;
+    c) Las secciones de «vía cuádruple» donde la circula-
+    ción de trenes de pasajeros alcance como mínimo
+    a la cantidad de cien (100) ascendentes y cien (100)
+    descendentes en cada veinticuatro (24) horas.
+
+(*) Decreto de octubre 26 de 1935.
+```
+
+## Images, Captions, And Visual Notes
+This page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other substantial visual content."}
+```
+
+## Page Metadata
+- Page number: 486
+- Source publication year: 1936
+
+## Layout And Reading Order
+The page presents a single column of text, primarily composed of numbered articles and sub-sections detailing regulations regarding "Kilometraje" (mileage) for railway personnel. The content flows logically from a main article definition to specific conditions and calculations.
+
+## Literal Transcription
+
+— 25 —
+
+Kilometraje.
+
+Art. 41.—a) Para el personal de conducción de loco-
+motoras, el kilometraje medio normal correspon-
+diente a un período de trabajo será el siguiente:
+
+1º Con trenes generales de pasajeros 280 kilómetros
+2º Con trenes mixtos, de encomiendas
+y especiales................ 240 "
+3º Con trenes de carga ............ 200 "
+
+b) Cuando en un período de trabajo el kilometraje ex-
+ceda los límites establecidos en el inciso anterior,
+dicho excedente deberá abonarse computándose en
+la siguiente forma:
+
+1º En el servicio de trenes generales de pasajeros:
+
+Menos de 10 kilómetros, no se tomará en cuenta.
+Entre 10 y 20 kilómetros = media hora.
+Entre 20 y 40 kilómetros = una hora.
+
+2º En el servicio de trenes mixtos:
+
+Menos de 5 kilómetros, no se tomará en cuenta.
+Entre 5 y 15 kilómetros = media hora.
+Entre 15 y 30 kilómetros = una hora.
+
+3º En el servicio de trenes de cargas:
+
+Menos de 5 kilómetros, no se tomará en cuenta.
+Entre 5 y 10 kilómetros = media hora.
+Entre 10 y 20 kilómetros = una hora.
+
+c) La Dirección General de Ferrocarriles establecerá
+en cada caso el tope máximo de kilometraje para el
+personal de conducción de locomotoras y coches
+motores, teniendo en cuenta la naturaleza de los
+servicios, las características de las líneas y del mate-
+rial empleado, así como las condiciones de seguridad.
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains no images, diagrams, or other substantial visual elements suitable for cropping."}
+
+# Page 487
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 487
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0487.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Trenes cuya velocidad comercial exceda de 30 a 35 kilômetros
+
+- Art. 42. - a) Al personal de conduccion de locomotoras en servicios de trenes mixtos, de encomiendas y especiales, cuya velocidad comercial exceda de treinta y cinco (35) kilômetros por hora, se le aplicarân las disposiciones correspondientes al de los servicios de trenes
+- los casos en que dichos trenes especiales sean de carga y su velocidad comercial exceda de treinta (30) kilômetros por hora hasta treinta y cinco (35) kilômetros por horas, se aplicarân al citado per¬ sonal las disposiciones correspondientes al servicio de trenes mixtos y de encomiendas.
+
+## II
+
+## Servicio de maniobras
+
+Ciclo.
+
+- Art. 43. - a) En un ciclo de veintiün (21) dlas como mâximo las horas de trabajo efectivo no podrân ex¬ céder de ciento cuarenta y cuatro (144).
+
+## Periodo de trabajo.
+
+- b) El trabajo efectivo dentro de cada periodo del mismo no podrâ exceder de ocho (8) horas, tanto en servicio continuo como discontinuo;
+- c) En casos excepcionales podrâ recargarse la jornada en dos (2) horas mâs, siempre que se compensen en el dla
+
+## Descansos parciales.
+
+- d) A continuaciôn de cada periodo de trabajo continuo de ocho (8) horas, el personal tendrâ un descanso parcial minimo de diez y seis (16) horas; y cuando la duraciôn del periodo de trabajo sea menor, el descanso deberâ ser igual al doble de las horas trabajadas, siempre que no sea inferior a ocho (8) horas.
+2. siguiente o subsiguiente;
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page 488
+
+## Layout And Reading Order
+The page contains a single column of text, primarily composed of regulations or articles. It starts with a page number at the top, followed by a section heading "Descansos grandes." with three sub-points (e, f, g). A Roman numeral "III" acts as a separator, followed by another section heading "Servicio a órdenes en domicilio, galpón o estación" and an article "Art. 44." with four sub-points (a, b, c, d).
+
+## Literal Transcription
+— 27 —
+
+**Descansos grandes.**
+e) En los servicios continuos y después de cada seis
+períodos de trabajo, el personal tendrá un gran des-
+canso igual a veinticuatro (24) horas, más el descanso
+parcial previsto en el inciso *d*; y que, a los efec-
+tos, del cambio de turno, podrá disminuirse a treinta
+y dos (32) horas, siempre que el tiempo reducido
+por tal causa se agregue al descanso grande si-
+guiente o subsiguiente;
+f) En los servicios discontinuos, el gran descanso será
+igual a la diferencia entre el número de horas con-
+tenidas en una semana y el de horas trabajadas y
+de descansos parciales;
+g) A los efectos de los cambios de turno, en los ser-
+vicios de maniobras de dos turnos podrá reducirse
+el descanso grande a veinticuatro (24) horas, debién-
+dose agregar dicha reducción, en tales casos, al
+descanso grande siguiente.
+
+III
+
+**Servicio a órdenes en domicilio, galpón o estación**
+
+Art. 44. — a) El servicio a órdenes se computará siem-
+pre a partir de la terminación del descanso mínimo
+que acuerda este reglamento para cada clase de
+servicio, ya sea en el domicilio de residencia o en
+el de afuera.
+b) El personal no podrá estar anotado a órdenes por
+un tiempo mayor de diez (10) horas en galpón o
+estación, y de veinticuatro (24) horas en domicilio;
+c) Si durante el período de servicio a órdenes el per-
+sonal no ha realizado ningún trabajo efectivo, o no
+se le ha notificado la hora en que debe tomar ser-
+vicio, no podrá ser utilizado, a ningún efecto, antes
+de haber cumplido un intervalo de tiempo de ocho
+(8) horas;
+d) Cuando el servicio se inicie después del período de
+veinticuatro (24) horas a órdenes en domicilio, la
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+```
+
+## Page Metadata
+Page number: 489
+
+## Layout And Reading Order
+
+The page contains a single column of text, continuing a document. It includes a page number at the top, followed by a continuation of a paragraph, a Roman numeral section heading, a sub-heading, and then a numbered article with several lettered sub-sections. A footnote is present at the bottom of the page.
+
+## Literal Transcription
+
+— 28 —
+
+notificación deberá ser hecha con una anticipación
+no menor de ocho (8) horas;
+(*) e) El tiempo durante el cual el personal esté a órde-
+nes en galpón o estaciones sin efectuar ningún
+trabajo, será computado, a los efectos de la avalua-
+ción del mismo dentro del ciclo, en un (50 %) cin-
+cuenta por ciento.
+
+IV
+
+Servicio de furgones de encomiendas
+
+Art. 45. — a) Dada la naturaleza de este servicio, en el
+que se hace necesario que el personal de guarda-
+encomiendas acompañe hasta destino los furgones
+a su cargo cuando las necesidades del servicio así
+lo exijan, no se fijarán jornadas máximas, debiendo
+trabajar de conformidad con el artículo 3º de la
+Ley. Esta disposición se aplicará en los casos de
+viajes largos, pero en aquellos donde sea factible
+el trabajo del personal se ajustará a las normas
+establecidas para los demás servicios;
+b) El tiempo en que, durante el viaje, el personal está
+autorizado a desentenderse del servicio, no será
+computado como trabajo, siempre que sea mayor
+de una y media (1 ½) horas;
+c) En los casos en que por razones de servicio sea
+necesario recurrir a jornadas mayores que las esta-
+blecidas en este reglamento, el personal de guarda-
+encomiendas así afectado no podrá ser privado de
+un descanso parcial no menor de ocho (8) horas
+en cada día de trabajo; y el descanso grande será
+igual al de los demás servicios de guardas;
+d) Para la aplicación de lo establecido en el inciso a,
+las empresas recabarán la autorización de la Direc-
+ción General de Ferrocarriles, a cuyo efecto harán
+conocer a la misma la lista completa de los trenes,
+que a su juicio, deberán estar comprendidos en
+dicha disposición.
+
+(*) Decreto de octubre 26 de 1935.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No visual regions present on the page."}
+```
+
+## Page Metadata
+Page number: 490
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number is centered at the top. The content is structured with Roman numerals (V and VI) introducing sections, followed by descriptive text, numbered articles, and sub-sections with lettered or numbered points. Some text is bolded for emphasis.
+
+## Literal Transcription
+
+— 29 —
+
+V
+
+**Personal de camareros, coches comedores y confiterías, guarda hilos,**
+**revisadores en general, chauffeurs de auto-vía, ajustadores de**
+**vehículos, foguistas de calderas fijas en la línea, engrasadores**
+**en general, repartidores de materiales en la línea, personal de**
+**bombas, básculas, etc., limpieza de coches, cocineros de cua-**
+**drilla, etc.**
+
+**Ciclo.**
+
+Art. 46. — a) Siendo intermitente el trabajo de este per-
+sonal, la prestación de servicio será fijada sobre la
+base de ciento cuarenta y cuatro (144) horas de
+trabajo efectivo en un ciclo de veintiún (21) días.
+
+**Descanso parcial.**
+
+b) Este personal deberá gozar de un descanso parcial
+no menor de ocho (8) horas continuas por cada día
+de trabajo.
+
+**Descansos grandes.**
+
+c) A este personal se le acordarán tres (3) descansos
+grandes, cada uno de los cuales no podrá ser infe-
+rior a treinta y dos (32) horas.
+
+VI
+
+**Personal de estaciones y galpones de máquinas**
+
+**Períodos de trabajo.**
+
+Art. 47. — a) La jornada máxima de este personal se
+establecerá según la intensidad de su labor, a cuyo
+efecto ésta se medirá en la siguiente forma:
+
+1º **Servicio de galpón:**
+
+Primera categoría. — Jornada máxima efectiva de
+ocho (8) horas con interrupciones de servicio dentro
+de ella menores de una hora, corresponderá a los
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```
+
+# Page 491
+
+## Page Metadata
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/manifest.json`
+- Source page: 491
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503/page-images/page-0491.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+galpones en que haya que hacer diariamente todo lo concerniente a la limpieza y preparacion, etc., de cinco
+
+(5) mâquinas o mâs.
+
+Segunda categorla.-Jornada mâxima efectiva de diez ( 10) horas con interrupciones de servicio dentro de ella entre una y dos horas, medidas en unidades de una hora, corresponderâ a los galpones en que haya que hacer diariamente todo lo concerniente a la limpieza y preparacion de cuatro (4) mâquinas como mâximo.
+
+Tercera categorla.-Jornada maxima efectiva de doce (12) horas con interrupciones de servicio dentro de ella entre dos y cuatro horas, medidas en la misma forma, corresponderâ a los galpones en que haya que hacer diariamente todo lo concerniente a la limpieza y preparacion de très (3) mâquinas como mâximo.
+
+## 2° Servicio de estaciôn:
+
+Primera categona. -Corresponderâ la jornada de ocho (8) horas al personal cuya labor no tenga
+
+interrupciones que alcancen a una (1) hora.
+
+Segunda categorla. - Corresponderâ la jornada de diez (10) horas al personal cuya labor tenga in¬ terrupciones que alcancen a una (1) hora y no 11eguen a dos (2) horas, medidas en unidades de una hora.
+
+Tercera categorla. - Corresponderâ la jornada de doce (12) horas al personal cuya labor tenga in¬ terrupciones que alcancen a dos (2) o mâs horas, medidas en unidades de una hora.
+
+(A los efectos de la aplicaciôn de cualquiera de las très categorias que anteceden, se entenderâ por «interruption » el periodo de tiempo comprendido entre las salidas y las llegadas de los trenes a las estaciones respectivas.
+
+Para el personal de control trenes, cuando el trâfico sea muy intenso a juicio de la Direction General de Ferrocarriles, la jornada
+
+podrâ ser reducida a 6 horas.
+
+La Direcciôn General de Ferrocarriles, teniendo en cuenta las circunstancias de cada caso (intensidad del tràfico, naturaleza de
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page 492
+
+## Layout And Reading Order
+The page consists of a single column of text. It begins with a centered page number, followed by a main paragraph and several sub-points labeled with lowercase letters (b, c, d, e, f, g, h). There are two subheadings: "Descansos parciales" and "Descansos grandes".
+
+## Literal Transcription
+
+— 31 —
+
+los servicios, categoría económica), determinará en qué estaciones
+deberá calificarse como intermitente el trabajo, y establecerá las
+condiciones y horarios en que ésta deba efectuarse dentro de las
+normas generales de la Ley 11.544 y del presente reglamento.
+Asimismo tratará, en la medida de lo posible, de que se alterne
+el personal en el trabajo diurno y nocturno.)
+
+b) El servicio de este personal podrá ser continuo o
+discontinuo, y en este último caso el intervalo entre
+las prestaciones parciales no podrá ser inferior a
+una (1) hora y treinta (30) minutos;
+
+c) Para el personal clasificado en la primera categoría,
+podrá establecerse una prestación diaria de diez
+(10) horas durante una semana, siempre que en la
+semana siguiente o subsiguiente se reduzca dicha
+prestación a seis (6) horas;
+
+d) En el caso en que un personal deba substituir a otro
+durante una jornada de trabajo, deberá ajustarse a
+lo establecido para éste.
+
+Descansos parciales
+
+e) A continuación de cada período continuo de trabajo,
+el personal deberá tener un descanso parcial mínimo
+de diez y seis (16), catorce (14) o doce (12) horas,
+según que esté clasificado en la primera, segunda o
+tercera categoría, respectivamente;
+
+f) A los efectos del cambio de turno, los descansos
+parciales podrán ser reducidos hasta ocho (8) horas,
+siempre que el tiempo reducido sea agregado a los
+descansos parciales siguientes o subsiguientes.
+
+Descansos grandes.
+
+g) En los servicios continuos, y salvo en aquellos
+casos previstos en el artículo 35, el personal tendrá
+derecho a un descanso hebdomadario de cuarenta
+(40), treinta y ocho (38) o treinta y seis (36) horas,
+según que esté clasificado en la primera, segunda
+o tercera categoría, respectivamente;
+
+h) En los servicios discontinuos, el gran descanso será
+igual a la diferencia entre el número de horas
+contenidas en una semana, y el de horas trabajadas
+y de descansos parciales;
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content for region cropping."}
+```
+
+## Page Metadata
+- Page number: 493
+
+## Layout And Reading Order
+The page presents text in a single column. It begins with a centered page number, followed by a numbered item, a section title (VII) with a descriptive subtitle, and then several articles (Art. 48 to Art. 51), each starting with an article number and a dash. Article 49 contains two sub-points labeled `a)` and `b)`.
+
+## Literal Transcription
+— 32 —
+
+i) A los efectos del cambio de turno, los descansos
+grandes podrán ser reducidos hasta veinticuatro (24)
+horas, siempre que el tiempo reducido sea agregado
+a los descansos grandes siguientes o subsiguientes.
+
+VII
+Disposición transitoria para el personal de conducción de locomotoras
+del Ferrocarril Trasandino Argentino
+
+Art. 48.— La Dirección General de Ferrocarriles, fijará
+en el caso de restablecerse el tráfico regular en el Ferro-
+carril Trasandino Argentino, las condiciones especiales de
+trabajo que deberán regir para el personal de conducción de
+locomotoras de dicha empresa.
+
+Prescripciones sobre la aplicación e interpretación de la Ley 11.544
+y el presente Reglamento
+
+Art. 49.— a) La interpretación de las disposiciones del
+presente reglamento en los casos de duda se hará
+por la Dirección General de Ferrocarriles, sin
+perjuicio de que aquellos en que hubiere discrepan-
+cias en su faz legal sobre la Ley 11.544, deban ser
+sometidas al Departamento Nacional del Trabajo;
+b) Sin perjuicio de las facultades de las autoridades
+de aplicación, tienen personería para denunciar a
+los infractores, además de las personas damnificadas,
+las asociaciones obreras y las empresas patronales.
+
+Art. 50.— La aplicación de la Ley 11.544 y de sus regla-
+mentos en los ferrocarriles de jurisdicción nacional, se hará
+efectiva por la Dirección General de Ferrocarriles en virtud
+de las facultades que corresponden a la misma por la Ley 2873,
+debiendo dicha Dirección formular al Departamento Nacional
+del Trabajo las consultas necesarias en sus aspectos legales
+y solicitarle la cooperación que juzgare conveniente. La
+Dirección General de Ferrocarriles procederá de acuerdo
+con lo dispuesto por dicha Ley 11.544 y disposiciones de la
+Ley 2873 que no se opongan a la misma.
+
+Art. 51.— El presente reglamento entrará a regir desde
+el 1º de noviembre de 1935.
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}
+
+## Page Metadata
+Page number: 494
+Source publication year: 1936
+
+## Layout And Reading Order
+
+The page presents a single column of text, primarily composed of legal or administrative articles and related paragraphs. A page number is centered at the top. The main content includes numbered articles and sub-points, followed by names and a footnote at the bottom.
+
+## Literal Transcription
+
+```
+- 33 -
+
+La Dirección General de Ferrocarriles enviará al Depar-
+tamento Nacional del Trabajo todas las observaciones o recla-
+mos que se formulen en general o en particular por las
+empresas, los empleados, obreros y la propia Dirección sobre
+la aplicación del presente reglamento, en sus aspectos legales
+y cuando hayan discrepancias a este respecto.
+El Departamento Nacional del Trabajo, dentro de los
+18 meses de vigencia del presente reglamento especial, elevará
+conjuntamente con su opinión técnica al respecto, las obser-
+vaciones de orden legal que surgiesen de la aplicación del
+mismo teniendo en cuenta la experiencia realizada.
+Art. 52. — Este decreto será refrendado por los señores
+Ministros del Interior y de Obras Públicas.
+(*) Art. 53. — Las disposiciones del presente artículo que-
+darán en vigencia hasta el 30 de junio de 1936.
+    a) Se considerarán como trenes locales de carga
+    aquellos que inicien y terminen su recorrido dentro
+    de las secciones de intenso tráfico y que corriendo
+    por las mismas vías estén intercalados entre los
+    trenes locales de pasajeros;
+    b) A este efecto se considerarán secciones de intenso
+    tráfico las que se han establecido para los servicios
+    locales de pasajeros;
+    c) El personal ocupado en este servicio se regirá, a
+    los efectos de su jornada de trabajo, descanso, etc.,
+    de acuerdo con lo especificado para los trenes
+    directos de pasajeros.
+Antes del 1º de mayo de 1936 y previo estudio que hará
+especialmente la Dirección General de Ferrocarriles, ésta
+informará al Poder Ejecutivo, a efectos de su resolución defi-
+nitiva sobre la conveniencia o inconveniencia del manteni-
+miento de esta disposición, teniendo en cuenta la intensidad
+del tráfico en la zona.
+Art. 54. — Comuníquese, publíquese, dése al Registro
+Nacional, tómese razón por el Ministerio del Interior y fecho,
+vuelva al Ministerio de Obras Públicas a sus efectos.
+
+JUSTO.
+LEOPOLDO MELO. — ELEAZAR VIDELA.
+
+(*) Decreto de octubre 26 de 1935.
+```
+
+## Images, Captions, And Visual Notes
+
+There are no images or significant visual elements on this page that require extraction.
+
+## Uncertain Or Illegible
+
+None. All text is clearly legible.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
+```
+
+## Page Metadata
+
+- Page number: 495
+- Publication: Cámara de Senadores de la Nación, 1936
+
+## Layout And Reading Order
+
+The page consists of a single column of text. The text is a mirror image and is extremely blurry, appearing to be bleed-through from the reverse side of the page. The entire page is illegible.
+
+## Literal Transcription
+
+```text
+[illegible]
+```
+
+## Images, Captions, And Visual Notes
+
+There are no images, captions, or other visual elements on this page.
+
+## Uncertain Or Illegible
+
+The entire page is illegible. The text is reversed (mirror image) and severely out of focus, likely due to bleed-through from the other side of the paper. No words can be deciphered.
+
+## Completeness Audit
+
+The page is fully represented. All content is captured as illegible due to the poor quality of the source image for this page.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only a single block of illegible text with no separable visual elements."}
+```
+
+## Page Metadata
+- Page number: 496
+
+## Layout And Reading Order
+
+The page consists of a single column of text. At the top, there is faint, inverted text which appears to be a bleed-through or mirror image of the main body text below. Below this faint text, there is a main title, followed by a section title, a subsection title, and then four paragraphs of body text.
+
+## Literal Transcription
+
+[Faint, inverted bleed-through text, appearing to be a repetition of the main body text below, in reverse order and inverted. The text is largely illegible due to its faintness and inversion, but discernible words suggest it mirrors the content of the paragraphs below, starting with "así como el mismo título lo indica..." and continuing through the subsequent paragraphs.]
+
+APÉNDICE ACLARATORIO DEL REGLAMENTO
+
+DISPOSICIONES GENERALES
+
+Jornada de trabajo
+
+Como el mismo título lo indica, en este primer capítulo
+de las disposiciones generales se han agrupado todas aquellas
+disposiciones que se refieren genéricamente a la duración de
+la jornada de trabajo.
+El artículo 1º de este capítulo es, en su parte básica,
+igual al artículo 1º del reglamento anterior. Sólo se ha modi-
+ficado en él la redacción con el objeto de darle una estruc-
+tura semejante a la del primer párrafo del artículo 1º de la
+Ley 11.544.
+Las disposiciones establecidas en los incisos *a* y *b* del
+artículo 2º son relativamente semejantes a las de los incisos
+*b* y *c* del artículo 1º del reglamento anterior. Sólo en el
+primero de ellos se ha suprimido la parte final, quedando
+iguales en el resto de su contenido.
+En el inciso *c* del mismo artículo 2º, y que en realidad
+corresponde al inciso *d* del artículo 1º del reglamento anterior,
+se ha introducido una modificación, ya prevista en la Circular
+Nº 7 del 27 de marzo de 1931; y se ha agregado en su última
+
+## Images, Captions, And Visual Notes
+
+There are no substantial images or captions on this page. The faint, inverted text at the top is a visual artifact (bleed-through/mirror image) rather than intended content.
+
+## Uncertain Or Illegible
+
+- The faint, inverted text at the top of the page is largely illegible due to its nature as bleed-through/mirror image. While the general shape of words is visible, precise character-by-character transcription is not feasible for high accuracy. It has been described as a repetition of the main body text.
+
+## Completeness Audit
+
+All visible and legible text on the page has been transcribed. The illegible faint text has been noted and described.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text. The faint, inverted text at the top is a bleed-through artifact and not a distinct visual element for cropping."}
+```
+
+## Page Metadata
+- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503:p0497`
+- Page number: 497
+
+## Layout And Reading Order
+The page contains a single column of text. A page number is present at the top right.
+
+## Literal Transcription
+```
+- 36 -
+
+parte una aclaración muy necesaria para evitar dificultades
+en la interpretación del cómputo de trabajo nocturno, como
+ya ha ocurrido en algunos casos en los cuales el personal
+ha rehusado seguir trabajando en esa clase de prestación al
+llegar a las 56 horas, por entender, erróneamente, que ése es
+el límite máximo de la misma en un ciclo de 21 días.
+    El inciso *d* del citado artículo 2º es nuevo, y se lo ha
+incorporado al presente reglamento por entender que sus dis-
+posiciones están en concordancia con las siguientes conside-
+raciones: 1º Que la Ley 11.544 no ha adoptado un sistema
+distinto para valorar el trabajo, según sea éste diurno o noc-
+turno; por el contrario, ante la ausencia de una disposición
+expresa que los diferencie, lo lógico es presumir que, salvo
+en lo referente al límite de las horas de trabajo efectivo, el
+criterio para determinar una u otra jornada ha sido el mismo.
+2º Que si bien el artículo 2º de la Ley 11.544 determina que
+la jornada nocturna no podrá exceder de 7 horas, debe in-
+terpretarse que estas horas serán de *trabajo efectivo*, dado
+que el artículo 1º de la misma ley tampoco especifica que la
+jornada diurna será de 8 horas de trabajo efectivo, sin em-
+bargo, así fué entendido en el Decreto reglamentario de 12
+de marzo de 1930, cuyo artículo 1º, en su primera parte, es-
+tablece: «La regla de las 8 horas diurnas o 48 semanales
+establecida en la Ley 11.544, en su artículo 1º, se refiere a la
+duración del trabajo efectivo» (disposición ésta que pasó a
+ser el artículo 1º, inciso *a* de la reglamentación específica
+de los servicios ferroviarios y que ha sido aceptada por los
+obreros cuando se trató la jornada de 10 y 12 horas para el
+personal de estaciones). 3º Que, por consiguiente, el artículo
+1º, inciso *b* de la reglamentación del trabajo, al determinar
+que «la jornada nocturna no podrá exceder de 7 horas de
+trabajo efectivo» está basado en los antecedentes que die-
+ron origen a la Ley 11.544 y en el texto de la misma. Si así
+no fuera no tendría objeto el artículo 4º de esta Ley, cuando
+considera excepciones de carácter permanente a los trabajos
+que sean especialmente intermitentes, dentro de los cuales
+están los de las estaciones cuyo personal está afectado a jor-
+nadas de 10 y 12 horas, diurnas o nocturnas.
+    La disposición prevista en el artículo 3º es análoga a la
+del inciso *g* del artículo 2º del reglamento anterior, que se
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page. The page number "- 36 -" appears at the top right.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
+```
+
+## Page Metadata
+- Page number: 37
+- Source document page number: 498
+
+## Layout And Reading Order
+The page consists of a single column of text. It includes a page number at the top, followed by several paragraphs, a Roman numeral section heading, a bolded title, and more paragraphs.
+
+## Literal Transcription
+— 37 —
+
+refiere a la duración de la jornada de trabajo en los lugares
+considerados insalubres.
+    La misma similitud existe en general entre el artículo 4º
+de este reglamento y el inciso a del artículo 2º del regla-
+mento anterior, pero se ha conceptuado lógico agregarle al
+final la frase: «o de las siete (7) horas de trabajo efectivo
+nocturno», ya que este artículo guarda una estrecha relación
+con lo establecido en el inciso d del artículo 2º, que se ha
+analizado en párrafos anteriores.
+
+II
+**Servicio diagramado**
+
+    En este capítulo están comprendidas todas las disposi-
+ciones que, de una manera general y en forma exclusiva, se
+refieren a los servicios diagramados.
+    En el inciso a del artículo 5º se han refundido las pres-
+cripciones contenidas en el artículo 9º y en el primer párrafo
+del artículo 10 del reglamento anterior, eliminándose así una
+infundada repetición de palabras, pero respetándose los con-
+ceptos básicos que emanan de su lectura.
+    El inciso b del mismo artículo 5º es análogo al inciso e
+del artículo 1º del anterior reglamento, y su inclusión en este
+capítulo está justificada por la misma finalidad de sus dispo-
+siciones, ya que en éstas se establece una de las normas en
+que debe encuadrarse la diagramación de los servicios.
+    En el inciso c se ha previsto una disposición semejante
+a la que figura en el 2º párrafo del artículo 10 del reglamento
+anterior, pero se ha simplificado su redacción y se ha supri-
+mido la fijación del «plazo prudencial» que se menciona en
+el mismo, ya que la aplicación de este requisito ha sido siem-
+pre innecesaria en la práctica.
+    El artículo 6º prevé una excepción que ya estaba en vi-
+gencia, de acuerdo con lo establecido en el artículo 15 del
+anterior reglamento. Sin embargo se ha considerado necesa-
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed. The last word "necesa-" is hyphenated, indicating it continues on the next page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
+
+## Page Metadata
+- Page number: 499
+- Source publication year: 1936
+- Source publication title: Cámara de Senadores de la Nación
+
+## Layout And Reading Order
+The page consists of a single column of text. The page number is centered at the top. The reading order is strictly top-to-bottom.
+
+## Literal Transcription
+
+— 38 —
+
+rio modificar la frase que dice: «siempre que a su juicio el
+_recargo impuesto_ esté debidamente compensado con _descan-
+sos_», expresándose en su lugar: «siempre que a su juicio, en
+dichos diagramas, se haya previsto una compensación razona-
+ble». La frase mencionada en primer término restringe apa-
+rentemente el alcance de la excepción prevista en el citado
+artículo, haciéndola en realidad aplicable sólo en aquellos casos
+en que las empresas, por razones especiales, se vieran obli-
+gadas a diagramar una jornada excediéndola del límite má-
+ximo fijado para la misma. Esta aparente restricción ha ori-
+ginado en la práctica ciertas confusiones, especialmente cuando
+las empresas han presentado diagramas en los cuales, y siem-
+pre por razones especiales, en lugar de _recargar_ alguna jor-
+nada, han reducido el límite mínimo de algún descanso o no
+han podido dar cumplimiento a cualquier otra disposición re-
+glamentaria, alternativas éstas que, a los efectos de una au-
+torización excepcional en los casos debidamente justificados,
+resultan tan dignas de tenerse en cuenta como la que se re-
+fiere exclusivamente al _recargo_ previsto sobre una jornada.
+Es por tales razones que se ha hecho la mencionada substitu-
+ción de frases, considerando que con ello se da a la prescrip-
+ción de que se trata una lógica y necesaria elasticidad.
+Las disposiciones previstas en el artículo 7º, que es nuevo,
+son aplicables para aquellas estaciones cuyo movimiento sea
+sumamente reducido, y cuyo personal, por tal causa, esté
+afectado a una labor de escasa intensidad. Como se deduce
+del mismo contenido de dichas disposiciones, el objeto de la
+excepción que en ellas se prevé es tratar de obtener una uti-
+lización razonable del personal, especialmente en aquellos casos
+(comprobados y numerosos) en que el trabajo efectivo du-
+rante una prestación no alcanza a veces a una hora, dada la
+gran intermitencia del movimiento de trenes. Parecidas con-
+sideraciones podrán hacerse con respecto al personal de má-
+quinas o de trenes que trabaja en zonas o ramales en que el
+tráfico presenta características análogas a las que se han men-
+cionado; tanto en un caso como en otro resulta justificada la
+aplicación excepcional de este artículo, pues debe tenerse en
+cuenta: 1º, Que la diagramación obligatoria del personal que
+trabaja en condiciones tan especiales implicaría mantener o
+reducir quizá aun más su ya escasa utilización, cuando lo ló-
+
+## Images, Captions, And Visual Notes
+There are no images, captions, or substantial visual notes on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate for all visible content on the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+
+## Page Metadata
+Page number: 500
+Original page number: 39
+
+## Layout And Reading Order
+The page contains a centered page number at the top, followed by a single block of continuous text in a single column. The reading order is strictly top-to-bottom.
+
+## Literal Transcription
+— 39 —
+
+gico es precisamente llegar al efecto contrario mediante dis-
+posiciones razonables como las que se han establecido; y 2º
+que resultaría imposible prejuzgar en el sentido de que la
+aplicación del artículo 7º pudiera llegar a tener carácter abu-
+sivo, ya que su control y la autorización de jornadas máximas
+y descansos mínimos no reglamentarios están a cargo de la
+Dirección General en forma expresa.
+En el artículo 8º se ha incluído textualmente la primera
+parte del primer párrafo del artículo 12 del reglamento an-
+terior. Esta separación, así como la del artículo 9º que sigue,
+ha tenido por objeto aclarar el alcance de todo el primer
+párrafo del mencionado artículo 12; aclaración indispensable
+si se tiene en cuenta la disparidad de criterios con que las
+partes han encarado siempre su interpretación.
+En el artículo 9º se ha incluído la segunda parte del
+primer párrafo del artículo 12 del anterior reglamento, pero
+agregando al mismo la frase: «ya sea de pasajeros, mixtos,
+carga, balasto o estaciones». Han sido numerosos los casos
+planteados por las empresas y el personal diagramado de
+carga, a raíz de las diferentes interpretaciones asignadas a
+dicha disposición en su forma anterior, y numerosas también
+han sido las medidas disciplinarias a que han dado lugar esas
+divergencias; medidas esas que las empresas han debido luego
+reconsiderar al comprender que dicho personal no hacía más
+que ajustarse en forma estricta a los términos del citado
+artículo. A efectos de una mayor ilustración, se transcribe
+a continuación el informe que la Inspección General de Con-
+trol del Trabajo Ferroviario elevó oportunamente, proponiendo
+la aclaración que ahora se ha incluído en el presente regla-
+mento: «Expediente Nº 08316-P-1932. Señor Director Ge-
+neral: Tratan las presentes actuaciones sobre la consulta
+formulada por un aspirante a guarda del Ferrocarril Pacífico,
+en el sentido de que se aclare si ha sido correcto su proce-
+dimiento en el caso siguiente: Manifiesta que el día 1º de
+abril de 1932, con motivo de las maniobras realizadas por el
+tren de carga Nº 526, que conducía, dejó servicio en Laboulaye
+a las 13,28 horas en lugar de las 13,15 como prevé el diagrama
+Nº 135, quedando así reducido a 10 horas 47 minutos el des-
+canso de 11 horas que le correspondía a continuación, y a
+cuyo límite se consideró con derecho a ajustarse estrictamente,
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate for all visible text on the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+
+## Page Metadata
+Page number: 501
+
+## Layout And Reading Order
+The page contains a single column of text, with a page number centered at the top.
+
+## Literal Transcription
+```
+— 40 —
+
+rehusándose a tomar servicio hasta no haberlo cumplido en
+su totalidad. Como así se deduce de la consulta planteada,
+esta se refiere a un caso cuya consideración pone en pie
+nuevamente la cuestión del límite mínimo que corresponde
+aplicar en los descansos parciales del personal afectado al
+servicio diagramado de carga, cuando en éste se produce un
+recargo; esta aclaración ha sido solicitada ya oportunamente
+por las empresas de los Ferrocarriles del Estado, en ex-
+pediente 011.625-C-1932, y la del Ferrocarril Central de Cór-
+doba en el expediente 012.481-C-1931. En estos dos casos,
+como en el presente, el personal sostiene que habiéndose
+recargado en un período diagramado de carga, no podía exi-
+gírsele la continuación del turno sin haber gozado antes ín-
+tegramente el descanso parcial previsto en el diagrama,
+manifestando, en cambio, las empresas que en tales circuns-
+tancias dicho descanso podría reducirse al límite que la re-
+glamentación establece en su artículo 12. Actualizado, pues,
+con la presentación del recurrente el asunto cuyos antece-
+dentes acaban de mencionarse, y considerando la necesidad
+de resolver esta cuestión con carácter definitivo, esta Inspec-
+ción informa al respecto lo siguiente: Al reglamentarse las
+disposiciones de la Ley 11.544 se convino con las empresas
+ferroviarias y las sociedades representativas del personal
+afectado no incluir los servicios diagramados de carga dentro
+de la prohibición prevista en la primera parte del primer
+párrafo del artículo 12, que dice: «El personal de máquinas
+y trenes en servicios de pasajeros y mixtos y el de estacio-
+nes que trabaja bajo diagramas, no podrá valerse de la mayor
+duración del período de trabajo sobre el previsto en los dia-
+gramas para abandonar el servicio», pero al hacerse efectiva
+tal modificación ésta se hizo extensiva, por un error de re-
+dacción, a la segunda parte del mencionado párrafo del mismo
+artículo, que dice: «queda terminantemente prohibido a la
+empresa exigir la continuación del turno a un personal cuyo
+descanso haya quedado reducido a menos de 8 horas», cuando
+en realidad el acuerdo de que se trata se ha referido exclu-
+sivamente a la primera parte transcripta. Considerando, pues,
+que el hecho de haberse omitido en su oportunidad una acla-
+ración al respecto, es lo que ha dado origen a la situación
+de que hablan los antecedentes que se mencionan al comienzo
+```
+
+## Images, Captions, And Visual Notes
+- A page number, "— 40 —", is centered at the top of the page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [
+    {
+      "region_id": "vr_1",
+      "kind": "page-number",
+      "bbox_pct": [47.0, 58.0, 52.9, 70.0],
+      "caption_literal": "— 40 —",
+      "caption_type": "source-caption",
+      "identity_basis": null,
+      "source_context": null,
+      "confidence": 0.95,
+      "suggested_filename": "page-501-number-40",
+      "inline_anchor": null
+    }
+  ]
+}
+```
+
+## Page Metadata
+- Page number: 41
+
+## Layout And Reading Order
+
+The page contains a single column of text. A page number is centered at the top. The text flows continuously in two paragraphs.
+
+## Literal Transcription
+
+— 41 —
+
+de este informe, esta Inspección General juzga imprescindible
+salvar el error de que se trata, aclarándose el primer párrafo
+del artículo 12 del reglamento vigente. A tal efecto aconseja
+se dicte por quién corresponda un decreto incluyendo al
+personal diagramado de carga, de tracción y trenes, en la
+segunda parte del primer párrafo del artículo 12 de la regla-
+mentación de la Ley 11.544, en el que deberá establecerse
+que queda terminantemente prohibido a la empresa exigir
+la continuación del turno a un personal del servicio diagra-
+mado, ya sea de pasajeros, mixto, carga o estaciones cuyo
+descanso haya quedado reducido a menos de 8 horas.
+
+En el artículo 10 se ha incluído lo dispuesto en la última
+parte del tercer párrafo del artículo 12 del reglamento ante-
+rior, pero variando su redacción y suprimiendo la frase que
+dice: «ni se adelante la hora prevista para tomar trabajo, ni
+se postergue la hora de cesación del servicio». Al igual que
+en el caso del artículo anterior, puede aquí también decirse
+que son conocidas las innumerables dificultades que la restric-
+ción prevista en dicha cláusula ha provocado en perjuicio
+del rendimiento que, razonablemente, debe obtenerse del tra-
+bajo del personal; así se deduce, no sólo de los casos que
+oficialmente han planteado las empresas en tal sentido, sino
+también de los antecedentes que en forma oficiosa se poseen.
+Es por ello que resulta admisible suponer que la supresión
+de esa cláusula restrictiva tendrá quizá un efecto bastante
+importante frente a la finalidad prevista en el artículo 8º del
+Laudo Presidencial; y no se incurre en exageración alguna
+al afirmarse tal cosa si se tiene en cuenta que con la modi-
+ficación proyectada se evitará el caso, muy común y notorio,
+de que el personal a quien se le haya anulado total o par-
+cialmente el trabajo indicado en un período diagramado, tenga
+que ser mantenido, a veces, durante varios días en completa
+inactividad hasta tanto no se presente la oportunidad de
+asignarle un servicio cuyo horario coincida exactamente con
+el trabajo anulado. Así también lo han entendido en cierto
+modo las entidades representativas del personal, las cuales,
+y según constancias que existen al respecto, han subscrito
+convenios particulares con algunas empresas en el sentido
+de eludir, en determinadas circunstancias, el cumplimiento
+de aquella restricción.
+
+## Images, Captions, And Visual Notes
+
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no substantial visual elements suitable for cropping."}
+```
+
+## Page Metadata
+Page number: 503
+Source publication year: 1936
+
+## Layout And Reading Order
+The page consists of a single column of text. A page number is centered at the top. The text flows continuously from top to bottom.
+
+## Literal Transcription
+
+— 42 —
+
+Por otra parte, y con el objeto de que la supresión
+proyectada esté garantizada contra cualquier alternativa que
+pueda calificarse de abusiva, se establece, al final del ar-
+tículo 10, una cláusula cuyo cumplimiento es estrictamente
+obligatorio para las empresas, y que dice así: «en tales casos,
+las empresas deberán reincorporar al personal, a la mayor
+brevedad, a su diagrama respectivo».
+El artículo 11 está relacionado con lo establecido en el
+inciso *e* del artículo 14 del reglamento anterior, pero se ha
+introducido en él una modificación substancial en lo que res-
+pecta al cómputo de la hora de iniciación del trabajo indicado
+en un diagrama, en aquellos casos excepcionales de fuerza
+mayor en que el personal deba presentarse más tarde. De la
+forma actual del citado inciso *e* se deduce una restricción
+que no admite excepciones de ninguna naturaleza, y, por
+consiguiente, su aplicación estricta ha originado dificultades
+que han sido planteadas oportunamente ante la Dirección
+General, y cuyos motivos han girado siempre alrededor de
+una cuestión que es fundamental: la utilización razonable del
+personal. En algunas circunstancias el personal ha tomado
+servicio varias horas después de la indicada en su diagrama,
+y no obstante las razones de fuerza mayor de este retardo,
+y no obstante, asimismo, habérsele notificado con suficiente
+anticipación, ha rehusado sin embargo seguir trabajando al
+llegar a la hora prevista en el diagrama para dejar servicio.
+Son éstas, y muchas otras por el estilo, las dificultades
+que se han considerado necesario eliminar al establecerse
+las disposiciones comprendidas en el artículo 11, redactándolo
+de manera tal que su contenido guarde estrecha concordancia
+con las disposiciones del artículo 10 y tratando de que las modi-
+ficaciones proyectadas se guien en lo posible, y como en los de-
+más casos, hacia la finalidad indicada en el artículo 8º del Laudo.
+En el artículo 12 se ha reproducido textualmente el
+último párrafo del artículo 12 del reglamento anterior, pues
+se han considerado que su forma y contenido actual llenan
+un propósito que no admite modificación alguna.
+En el artículo 13 se ha incluído las disposiciones previs-
+tas en el inciso *a* del artículo 14 del anterior reglamento,
+pero variando su redacción y modificando el cómputo esta-
+blecido para el tiempo ocupado en servicio de maniobras al
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content; it is entirely text."}
+```

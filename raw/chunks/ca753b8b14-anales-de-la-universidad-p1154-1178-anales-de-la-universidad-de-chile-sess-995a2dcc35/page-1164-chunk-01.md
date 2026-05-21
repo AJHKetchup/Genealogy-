@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-ff482711d96b-P1164-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178.codex.md
+converted_sha256: ff482711d96bd33db53aea2dfc8db2b1f1199d24d0aa870d86700028b93dbe27
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json
+page_start: 1164
+page_end: 1164
+part: 1
+---
+
+# Page 1164
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/manifest.json`
+- Source page: 1164
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1154-1178-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1154-1178/page-images/page-1164.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+utilidad. No  dudo  que  el  constante ejercicio  de  tales
+
+trabajos  de  la  memoria,  aumenta  poco  a  poco  la facilidad del  aprendizaje, o  mejor  dicho, disminuye un tanto su dificultad. Pero esto no constituye gran ventaja, ya  que  en la  vida  real  rara vez nos vemos obligados a aprender series de cosas incoherentes, como  lo son los  vocablos de  unas cuantas  frases  sueltas  sin  unidad  de  idea.
+
+Si  bastaba este hecho para afirmar que la  enseñanza  de  las  lenguas antiguas  por  el sistema  gramatical  robustece la  memoria, con mayor  razon podia afirmarse que  ejercita  1 agudece  la reflexion; pues es efectivo que  el  estudio  de  abstractas  reglas  gramaticales 1su  aplicacion  en  ejemplos  artificiosamente  preparados,  exije  una  constante  concentracion  de la atencion  1 continuo esfuerzo intelectual, los cuales poco a  poco  se  trasforman en  costumbre en los jóvenes alumnos. En  este sentido tal  enseñanza gramatical reflexiva tiene el  mismo valor «educativo» que se atribuye a  la  enseñanza de  las matemáticas. Pero tambien el  mismo defecto: es  sumamente  cansada  1 aburre  soberanamente  a  los  niños  menores de  quince años,  porque  carece  en  absoluto  de  interes  sentimental-(1).
+
+Por causa del fácil cansancio intelectual la  ense-
+
+ñanza  por  el sistema gramatical  en  los  años  inferiores puede  adelantar sólo mui  lentamente, miéntras
+
+(1)  Creo  que  hai  cierto  paralelismo entre la  aplicacion  de reglas gramaticales en  frases sueltas i los  ejercicios lle aritmética  i áljebra abstractos  por  un lado,  i porel  otro  entre el tratamiento  de  un  tro: zo  eontinuo, un  cuento  cuyo  contenido interesa al  niño,  i  los problemas  matemáticos  aplicados  a  la  práctica  de la  vida. Los niños prefieren  siempre  esta  última categoría.
+
+-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

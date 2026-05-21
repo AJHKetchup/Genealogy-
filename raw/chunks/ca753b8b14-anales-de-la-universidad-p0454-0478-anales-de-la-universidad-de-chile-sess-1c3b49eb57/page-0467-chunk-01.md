@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d92c05086361-P0467-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478.codex.md
+converted_sha256: d92c05086361b1da01ebe5f0698b04586b5f85d43f840c2864a12262509ea416
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json
+page_start: 467
+page_end: 467
+part: 1
+---
+
+# Page 467
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/manifest.json`
+- Source page: 467
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0454-0478-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-454-478/page-images/page-0467.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-ticamente --tabilísima
+
+e
+
+se traducen en una disminución notadel  número de  accidentes. (11) ;
+
+PARA LOS EMPLEADOS DE  LA  Court  I 'SUS  OPERARIOS
+
+## a)  Instrucciones jenerales pura
+
+## los  jefes:
+
+Los  jefes  deben  observar  constantemente  las  condiciones  i las  prácticas  peligrosas  i deben  ser  particularmente  cuidadosos  de  ver  que  to4  das las  operaciones sean  llevadas a  cabo  con toda  seguridad.
+
+Recuerde  que  el inculcar  las  reglas  de  seguridad  es  tan  importante como  cualquier  otro  reglamento  i que  su  deber  es  ver  que  todas  las  reglas  sean  cumplidas. Use  disciplina  para obtener  seguridad.
+
+Recuerde  que  Ud.  es  el hombre  que  tiene  que  hacer  el  pensamiento de  los  que  están  bajo  sus  órdenes. Esté  seguro  de  pensar  como evitar el peligro  i entonces  haga  que  sus  hombres  le  entiendan  sus  planes. i finalmente, vea  que  todos  esos planes  se  lleven a  efecto.
+
+Cuando  se  va  a  hacer  un trabajo  peligroso, tome  todas  las  precauciones  posibles.  Ocupe  los  hombres  que  comprendan  mejor  la seguri4  dad  i administre Ud. mismo  el  trabajo. S
+
+Será  una  parte  del  deber  de  cada  uno de  los  jefes  interrogar  a los hombres  nuevos  para  ver  que  ellos  entienden  las  reglas  de  seguridad 1 que  les  sea  familiar  el  trabajo  que  van a  hacer.
+
+o.
+
+Hombres  que  tengan  la  vista  o  el  oido  defectuoso, que  tengan  cual-Quier  defecto  o  que muestren  una intelijencia torpe, no se deben -  Ocupar  porque  esa  jente  está  mui  espuesta  a  ser  herida  o  ser  el instrumento  que  sirva  para  causar heridas a  otros. Hombres  que  se  sabe son  habitualmente  aficionados  al consumo  de  bebidas  «alcohólicas,  tampoco deben  ocuparse.  No  se  permitirá  que ningún hombre vaya  al turno  si aparenta  estar  bajo  la  influencia del  alcohol.
+
+Recuerde  que  mientras  cada  hombre  está  empleado  para  hacer  un trabajo  particular, la  seguridad  de  él  mismo  i de  sus  compañeros es más  importante  que  ese trabajo.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

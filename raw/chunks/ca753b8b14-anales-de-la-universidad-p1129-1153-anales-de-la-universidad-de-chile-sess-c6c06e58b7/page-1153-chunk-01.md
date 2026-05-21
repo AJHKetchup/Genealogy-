@@ -1,0 +1,68 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-164ed7056291-P1153-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153.codex.md
+converted_sha256: 164ed7056291c786b38dad1870c99079b1a563c734710e38ac6586746f3243f0
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/manifest.json
+page_start: 1153
+page_end: 1153
+part: 1
+---
+
+# Page 1153
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/manifest.json`
+- Source page: 1153
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1129-1153-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1129-1153/page-images/page-1153.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Primero, con el  caciquillo Juan Amasa.  de Colli-
+
+pulli,  procedí del modo  siguiente: Llevaba preparadas  una  serie  de  frases castellanas adecuadas  para  el propósito  1 le  pedí  que  me  las  tradujéera  al  mapuche. Cuando  él  decia  la  frase en  su  idioma, la  repetia  yo mecánicamente hasta que  me  dijera  que  estaba bien pronunciada. Ápuntaba despues la  trascripcion fonética,  volvia a  leer  1 hacia  análisis del  conjunto, en cuanto me lo  permitian mis conocimientos todavía escasos en  palabras  1 formas. Vi  luego  que  era  inútil preguntar al  indio por el  sentido especial  de  un  par de  sílabas. El sólo  era  capaz  de  repetir  el sentido  del conjunto, aunque  hablaba bastante bien el  castellano. Sílabas aisladas las podia  traducir sólo cuando por casualidad correspondian a un sustantivo concreto o  un adjetivo  sencillo. Mas  tarde,  comparando concienzudamente  cada  palabra  de  los  dos  idiomas 1 consultando los diccionarios 1 las indicaciones gramaticales de  los  misioneros, pude  darme  cuenta  mas exacta del  significado  de  cada  grupo de  sílabas.
+
+Este  sistema  d partir  de ntesio  castellano  1 pedir  la  traduccion era  naturalmente  peligroso,  porque, a  veces, el  indio entendia mal. Si  yo  le  dirijia, por ejemplo,  una pregunta  en  castellano, en vez de  traducirla  al  mapuche,  como yo  lo  deseaba, contestaba él a  la  pregunta  en  su  lengua.  Luege  le  pedia que  me contara algo  en  su  idioma, ya  fuera un episodio de su vida o  un cuento. Así procedí con Quintupral 1 con  Calvun,  el famoso  narrador de  los  cuentos araucanos. Ambos dictaban bien p:onunciando claramente  1 repitiendo  la  frase  en  la  misma  forma si  yo no  alcanzaba  a  interpretar  bien  lo  que  iba apuntando en trascripcion. Jeneralmente podia yo  entender lo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
