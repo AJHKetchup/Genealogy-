@@ -1,0 +1,92 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7d841a05ab17-P0239-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250.codex.md
+converted_sha256: 7d841a05ab17b4bff88e90f6b13a66de47cebe2061ebcaaed329f024e68cc125
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json
+page_start: 239
+page_end: 239
+part: 1
+---
+
+# Page 239
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/manifest.json`
+- Source page: 239
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250/page-images/page-0239.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+blesses et des malades, au transport du personnel et du matdriel sanitaires.
+
+Ils seront peints en blane et porteront ostensiblement le signe distinetif prdvu a l'article 19, a cotd des couleurs nationales, sur leurs faces inferieure et
+
+supdrieure.
+
+Sauf licence spdciale et expresse, le survol de la ligne de feu et de la zone situde en avant des grands postes mddicaux de triage, ainsi que, d'une maniere gdndrale, de tout territoire ennemi ou
+
+occupd par l'ennemi sera interdit.
+
+Les appareils sanitaires adriens devront obdir toute sommation d'atterrir.
+
+En cas d'atterrissage ainsi impost ou fortuit sur territoire ennemi ou occupe par l'ennemi, les blessds et les malades, de meme que le personnel et le matdriel sanitaires, y compris l'appareil adrien, demeureront au bdndfice des dispositions de la prdsente Convention.
+
+Le pilote, les manoeuvres et les opdrateurs de tdldgraphie sans fil (T. S. E.) captures seront rendus, 6, la condition qu'ils ne soient plus utilises, jusqu'&amp; la fin des hostilitds, que dans le service sanitaire.
+
+## CHAPITRE VI.
+
+## Du signe distinetif.
+
+## Article 19.
+
+Par hommage pour la Suisse, le signe hdraldique de la croix rouge sur fond blanc, formd par interversion des couleurs fdderales, est maintenu comme embleme et signe distinetif du service sanitaire des armdes.
+
+Toutefois, pour les pays qui emploient ddja, &amp; la place de la croix rouge, le croissant rouge ou le lion et le soleil rouges sur fond blanc comme signe distinetif, ces emblemes sont dgalement admis dans le sens de la prdsente Convention.
+
+## Article 20.
+
+L'embleme figurera sur les drapeaux, les brassards, ainsi que sur tout le matdriel se rattachant au service sanitaire, avec la permission de l'autoritd militaire compdtente.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

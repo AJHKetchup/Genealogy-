@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a7d318b882ca-P0050-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50.codex.md
+converted_sha256: a7d318b882ca039b486517a05717602da9a99acaff361c1f3928779d976fe2c2
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50/manifest.json
+page_start: 50
+page_end: 50
+part: 1
+---
+
+# Page 50
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Source SHA-256: `db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb`
+- Conversion manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50/manifest.json`
+- Source page: 50
+- Page image: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50/page-images/page-0050.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+<!-- image -->
+
+## OBSERVATIONS GÉNÉRALES DES GOUVERNEMENTS.
+
+## Etats-Unis d'Amérique.
+
+Le Gouvernement des Etats-Unis estime que les dispositions de la Section I de l'Annexe à la Convention de La Haye de 1907 concernant les lois et coutumes de la guerre sur terre devraient servir de base à l'élaboration du code des prisonniers de guerre et qu'elles devraient être étendues et amendées afin de tenir compte de toute défectuosité qui aurait pu se présenter au cours de la guerre mondiale. Le Gouvernement des Etats-Unis croit, en outre, qu'un code pareil ne devrait comprendre que des principes larges et fondamentaux d'une application générale ; car un code ne saurait être suffisamment détaillé pour rendre superflu, au moment où une guerre éclate, un arrangement sup¬ plémentaire entre les Etats belligérants visant, dans les détails, les moyens et méthodes et mesures administratives nécessaires à l'exécution des
+
+principes dont il s'agit.
+
+Le document, ci-joint en annexe, qui porte le titre « Proposition du Département de la Guerre des EtatsUnis d'Amérique concernant la revision du code des prisonniers de guerre », traite de la matière dont il s'agit en suivant la disposition de la Section I de l'Annexe à la Convention de La Haye de 1907, tout en indiquant, dans l'ordre de ce texte, les parties des modifications proposées qui correspondent à la manière de voir du Gouvernement des EtatsUnis à l'égard du champ d'application de ce code. Dans ce document, les dispositions de la Section I de l'Annexe à la Convention de La Haye sont reproduites en caractères ordinaires et les principes incorporés au code proposé aux¬ quels le Département de la Guerre se rallie sont soulignés. Les passages en question ont été disjoints, dans une certaine mesure, pour pouvoir être insérés dans les paragraphes de la Convention de La Haye où ils trouvent logique¬ ment leur place. Les dispositions nouvelles qui ont été insérées par le Département de la Guerre ont été indiquées en lettres
+
+## Egypte.
+
+Cet avant-projet a été élaboré par le Comité international de la Croix-Rouge, conformément à l'avis exprimé par la Conférence de la Croix-Rouge qui a tenu ses assises en 1921. Mais le Comité n'a. pas tenu compte de quelques recom¬ mandations formulées par cette conférence, entre autres, celle qui tendait à l'adoption de textes spéciaux sur les civils déportés, évacués et réfugiés et celle tendant à l'adoption d'un code sur les sanctions disciplinaires et pénales à appliquer aux prisonniers de guerre. En ce qui concerne la première recommandation, il est souhaitable de l'adopter, car il n'existe pas de textes spéciaux à ce sujet dans les conventions conclues dans le passé, réglementant les lois de guerre, encore que la Convention de La Haye de 1907 contienne quelques dispositions relatives aux actes des autorités militaires, dans les pays ennemis occupés (voir la Section III de cette Convention Règlement concernant les lois et coutumes de la
+
+guerre sur terre).
+
+majuscules.
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0050/page-0050-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

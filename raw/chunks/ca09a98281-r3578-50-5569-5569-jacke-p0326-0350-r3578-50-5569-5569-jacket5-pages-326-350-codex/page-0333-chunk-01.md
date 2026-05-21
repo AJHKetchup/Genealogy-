@@ -1,0 +1,177 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-299f74ab9ceb-P0333-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350.codex.md
+converted_sha256: 299f74ab9ceb9adc4b5683f340a12f37185ba7b5caa8f8f1a65b920598954203
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/manifest.json
+page_start: 333
+page_end: 333
+part: 1
+---
+
+# Page 333
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/manifest.json`
+- Source page: 333
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/page-images/page-0333.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+gebruiken van den oorlog te land van 18 October 1907 gevoegde
+
+Reglement, en die gevangen genomen zijn door den vijand; x)
+
+- 2) op alle tot de gewapende machten der oorlogvoerende partijen behoorende personen, die door den vijand zijn gevangen genomen gedurende krijgsverrichtingen ter zee of in de lucht, behoudens de door de omstandigheden van deze gevangenneming onvermijdelijk gemaakte afwijkingen. Deze afwijkingen evenwel zullen aan de grondbeginselen van dit Verdrag geen afbreuk mogen doen; zij zullen eindigen op het oogenblik, waarop de gevangen genomen personen een gevangenkamp bereikt zullen
+
+kebben.
+
+## Artikel 2.
+
+De krijgsgevangenen bevinden zich in de macht van de vijandelijke mogendkeid, dock niet in die der personen of troepen-
+
+afdeelingen, die hen hebben gevangen genomen.
+
+Ten alien tijde moeten zij met menschlievendheid worden behandeld en beschermd, met name tegen daden van geweld,
+
+beleedigingen en publieke nieuwsgierigheid.
+
+Represaillemaatregelen te hunnen aanzien zijn verboden.
+
+0 Bijgevoegd reglement: Artikel 1. De wetten, de rechten en de verplichtingen van den oorlog zijn niet alleen toepasselijk op het leger, maar ook op de militien en op de vrijwilligerskorpsen, die aan de volgende voorwaarden voldoen :
+
+1°. aan hun hoofd te hebben een persoon, die verantwoordelijk is voor
+
+zijne ondergeschikten;
+
+2°. een vast en op eenigen afstand herkenbaar onderscheidingsteeken te hebben;
+
+3°. de
+
+wapenen openlijk te dragen; en
+
+4°. zich in hunne handelingen te gedragen naar de wetten en ge¬ bruiken van den oorlog.
+
+In de landen, waar het leger geheel of ten deele uit militien of uit vrijwilligers-korpsen is samengesteld, zijn deze onder de benaming van leger begrepen.
+
+Artikel 2. De bevolking van een niet-bezet gebied, die bij de nadering van den vijand uit eigen beweging de wapenen opneemt om de invallende troepen te bestrijden, zonder den tijd te hebben zich te organiseeren overeenkomstig artikel 1, wordt als oorlogvoerende beschouwd, indien zij de wapenen openlijk draagt en indien zij de wetten en ge¬ bruiken van den oorlog eerbiedigt.
+
+Artikel 3. De gewapende machten der oorlogvoerende partijen kunnen bestaan uit strijders en niet-strijders. In geval zij door den vijand worden gevangen genomen, hebben beiden recht op de behandeling als
+
+krijgsgevangenen.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 334
+Source document page number (handwritten): 514
+Source document page number (printed): 111
+
+## Layout And Reading Order
+The page consists of a single column of text, primarily legal articles, presented in Dutch. The page numbers "111" and "514" appear at the top center and top right, respectively. The text is structured with article headings and subheadings.
+
+## Literal Transcription
+
+111
+514
+
+Artikel 3.
+
+De krijgsgevangenen hebben recht op eerbiediging van hunne
+persoonlijkheid en hunne eer. De vrouwen zullen behandeld
+worden met alle aan hare kunne verschuldigde voorkomendheid.
+De gevangenen behouden hunne volledige burgerlijke bevoegd-
+heid.
+
+Artikel 4.
+
+De mogendheid, die de krijgsgevangenen in haar macht heeft,
+is verplicht in derzelver onderhoud te voorzien.
+Verschil van behandeling tusschen krijgsgevangenen is slechts
+geoorloofd, indien zij berust op den militairen rang, den lichame-
+lijken of geestelijken gezondheidstoestand, de geschiktheid voor
+een handwerk of de kunne van degenen, die er van genieten.
+
+TITEL II.
+Van de gevangenneming.
+
+Artikel 5.
+
+Ieder krijgsgevangene is verplicht om, indien hij daaromtrent
+wordt ondervraagd, zijne ware namen en zijnen rang of wel zijn
+stamboeknummer op te geven.
+In het geval dat hij dezen regel zou overtreden, zou hij zich
+blootstellen aan eene beperking der aan de krijgsgevangenen
+van zijne categorie toegestane voordeelen.
+Geen enkele dwangmaatregel zal kunnen worden toegepast op
+gevangenen met het doel om inlichtingen te verkrijgen omtrent
+den toestand van hun leger of van hun land. Krijgsgevangenen,
+die weigeren te antwoorden, zullen noch bedreigd, noch belee-
+digd, noch blootgesteld kunnen worden aan onaangenaamheden
+of nadeelen van welken aard ook.
+Indien een gevangene op grond van zijn lichamelijken of
+geestelijken toestand niet in staat is om zijne identiteit op te
+geven, zal hij aan den geneeskundigen dienst worden toever-
+trouwd.
+
+Artikel 6.
+
+Alle goederen en voorwerpen van persoonlijk gebruik — uit-
+gezonderd wapenen, paarden, militaire uitrusting en militaire
+papieren — zullen in het bezit van de krijgsgevangenen blijven,
+evenals de metalen helmen en de gasmaskers.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None. The text is clear and legible.
+
+## Completeness Audit
+All visible text and page numbers have been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found on the page."}
+```

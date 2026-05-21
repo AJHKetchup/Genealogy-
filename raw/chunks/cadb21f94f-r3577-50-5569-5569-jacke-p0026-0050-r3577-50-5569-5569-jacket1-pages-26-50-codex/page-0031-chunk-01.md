@@ -1,0 +1,142 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-a7d318b882ca-P0031-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50.codex.md
+converted_sha256: a7d318b882ca039b486517a05717602da9a99acaff361c1f3928779d976fe2c2
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50/manifest.json
+page_start: 31
+page_end: 31
+part: 1
+---
+
+# Page 31
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Source SHA-256: `db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb`
+- Conversion manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50/manifest.json`
+- Source page: 31
+- Page image: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket1-pages-26-50/page-images/page-0031.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+L'utilisation pour des besoins militaires de ces véhicules est interdite: ces véhicules devront rester exclusivement réservés au transport des malades et des blessés, quelle que soit la nationalité à laquelle ils appartiennent, et à la condition que.leur utilisation soit limitée au terrain de lutte sur lequel ils auront été capturés. Leur mission locale terminée, ils devront être rendus dans les conditions prévues à l'article 14.
+
+L'obligation de rendre les véhicules d'évacuation sanitaire s'appliquera aux appareils aériens, aux trains de chemin de fer, etc... » (Le reste sans changement).
+
+Motifs: Il est nécessaire de prévoir dans cet article le sort qui sera réservé aux véhicules d'écavuation sanitaire capturés. Du fait même de leur neutralisation, ils doivent être rendus, mais il est naturel que l'ennemi les utilise au préalable pour assurer toutes les évacuations sanitaires du champ de bataille, sans distinction de nationalité. Pour éviter les abus, l'utilisation des véhicules sanitaires doit être strictement limitée au champ de bataille du lieu de leur
+
+capture.
+
+Insérer un nouvel article
+
+17 bis ainsi conçu :
+
+« Les appareils aériens utilisés pour les évacuations sanitaires seront neutralisés à la condition d'être exclusive¬ ment affectés à cet objet et aménagés pour leur mission spéciale.
+
+Ils seront peints en blanc et porteront au-dessus et au-dessous des ailes, de part et d'autre, du fuselage, à côté
+
+des couleurs nationales, une croix rouge de grande dimension.
+
+Il est interdit à ces appareils de survoler les lignes et de s'approcher à plus de 10 kilomètres du front.
+
+Sur le champ de bataille, l'altitude moyenne du vol ne devra pas s'élever au-dessus de 1,000 mètres.
+
+Tout avion sanitaire survolant les lignes ennemies, ou y pénétrant par erreur, pourra être sommé d'atterrir sur le terrain d'aviation le plus proche. La sommation pourra être faite par tout appareil volant militaire.au moyen d'une fusée émettant un globe rouge et blanc ou par un tir de canon contre aéronefs, exécuté systématiquement en avant de
+
+l'avion sanitaire.
+
+Si l'avion sanitaire n'obéit pas à la sommation qui lui est faite, le feu peut être ouvert sur lui.
+
+En cas d'atterrissage fortuit ou imposé d'un avion sanitaire sur un terrain ennemi, l'appareil et ses passagers seront sauvegardés. Les passagers blessés, malades ou non, seront traités comme il est spécifié à l'article 2. Le personnel de conduite ou de manoeuvre neutralisé et l'appareil seront rendus dans les conditions spécifiées à l'article 12 et 14. »
+
+Motifs: Il est nécessaire de prévoir, dès maintenant, l'emploi de l'avion comme moyen régulier d'évacuation sanitaire et d'en faire mention explicite à propos des moyens d'évacuation. Le texte ci-dessus est proposé à titre de pure indication et comme base possible de discussion, car il appelle des débats qui semblent pouvoir se prolonger, mais il appartient incontestablement à la Conférence internationale de la Croix-Rouge de régler la question de l'aviation sanitaire.
+
+## Hongrie.
+
+Remplacer le paragraphe sous i° par le texte suivant :
+
+« i° Le belligérant interceptant un convoi pourra, si les nécessités militaires l'exigent, le disloquer, à condition d'assurer aux malades et blessés du convoi au moins les mêmes soins qu'ils y auront reçus. Tous les médicaments et le
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page 32
+
+## Layout And Reading Order
+
+The page contains text centered horizontally. It includes a page number at the top, followed by a chapter heading, a sub-heading, and two articles (18 and 19), each with a short paragraph of text.
+
+## Literal Transcription
+
+— 15 —
+
+CHAPITRE VI.
+Du signe distinctif.
+
+ARTICLE 18.
+
+Par hommage pour la Suisse, le signe héraldique de la croix rouge sur fond blanc, formé par interversion des couleurs
+fédérales, est maintenu comme emblème et signe distinctif du service sanitaire des armées.
+
+ARTICLE 19.
+
+Cet emblème figure sur les drapeaux, les brassards, ainsi que sur tout le matériel se rattachant au service sanitaire,
+avec la permission de l'autorité militaire compétente.
+
+## Images, Captions, And Visual Notes
+
+The page contains only text and no images or other significant visual elements.
+
+## Uncertain Or Illegible
+
+No uncertain or illegible text was found on this page.
+
+## Completeness Audit
+
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no substantial images or visual elements that require cropping."}
+```

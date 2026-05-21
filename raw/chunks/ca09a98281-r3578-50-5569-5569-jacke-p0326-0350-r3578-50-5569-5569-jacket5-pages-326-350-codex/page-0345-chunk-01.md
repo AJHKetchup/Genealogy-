@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-299f74ab9ceb-P0345-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350.codex.md
+converted_sha256: 299f74ab9ceb9adc4b5683f340a12f37185ba7b5caa8f8f1a65b920598954203
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/manifest.json
+page_start: 345
+page_end: 345
+part: 1
+---
+
+# Page 345
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/manifest.json`
+- Source page: 345
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350/page-images/page-0345.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+
+## Artikel 36.
+
+■ Elk der oorlogvoerenden zal op gezette tijden hot aantal brieven en briefkaarten vaststellen, dat de krijgsgevangenen van de verschillende categorieen per maand zullen mogen verzenden en zal dit aantal aan den anderen oorlogvoerende mededeelen. Deze brieven en briefkaarten zullen door de post langs den kortsten weg worden overgebracht. Zij zullen noch kunnen worden vertraagd noch kunnen worden achtergehouden uit over-
+
+wegingen van krijgstucht.
+
+Binnen den maximum tijd van een week na zijn aankomst in het kamp en eveneens in geval van ziekte zal iedere gevangene in staat worden gesteld om aan zijne familie een briefkaart te zenden, welke haar inlieht over zijn gevangenneming en den staat van zijne gezondheid. Bedoelde briefkaarten zullen met de grootst mogelijken spoed worden overgebracht en zullen op geen enkele wijze mogen worden vertraagd.
+
+In het algemeen zal de correspondentie der gevangenen in hunne moedertaal gesteld moeten zijn. De oorlogvoerenden zullen de
+
+correspondentie in andere talen kunnen toestaan.
+
+## Artikel 37.
+
+Den krijgsgevangenen zal worden toegestaan om persoonlijk postpakketten te ontvangen, welke levensmiddelen en andere voor hun onderhoud of hun kleeding bestemde artikelen bevatten. De pakketten zullen tegen ontvangstbewijs aan de geadresseerden worden ter hand gesteld.
+
+## Artikel 38.
+
+De brieven en zendingen van geld of geldswaardige zaken, evenals postpakketten, welke bestemd zijn voor de krijgsgevan¬ genen of die door hen hetzij rechtstreeks, hetzij door tusschenkomst van de in artikel 77 bedoelde inlichtingsbureaux worden verzonden, zullen vrijgesteld zijn van elk port, zoowel in het land van herkomst en van bestemming als in de landen van doorvoer.
+
+De voor de gevangenen bestemde giften en ondersteuningen in natura zullen evenzoo vrij zijn van alle rechten van invoer en andere rechten, evenals van de vervoerkosten op de door den Staat
+
+geexploiteerde spoorwegen.
+
+Den gevangenen zal in geval van erkende dringendheid toe¬ gestaan kunnen worden om tegen betaling van de gewone kosten
+
+telegrammen te verzenden.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 346
+Source page numbers: 123, 514
+
+## Layout And Reading Order
+The page contains a single column of text, primarily consisting of numbered articles and their paragraphs, along with section and chapter headings. The page numbers "123" and "514" are present at the top left and top right, respectively.
