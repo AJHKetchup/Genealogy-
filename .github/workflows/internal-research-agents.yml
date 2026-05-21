@@ -225,6 +225,7 @@ jobs:
               throw "Refusing to rotate Codex auth secret because auth.json is not a ChatGPT auth file with a refresh token."
             }
             $encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($authJson))
+            # gh 2.92 reads the secret value from stdin when --body is omitted.
             $ghOutput = $encoded | gh secret set CODEX_AUTH_JSON_B64 --repo $env:GITHUB_REPOSITORY 2>&1
             $ghExitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
             if ($ghOutput) {
