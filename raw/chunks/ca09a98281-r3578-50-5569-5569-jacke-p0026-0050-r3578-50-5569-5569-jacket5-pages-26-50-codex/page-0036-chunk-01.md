@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9a5fa1767eaf-P0036-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
+converted_sha256: 9a5fa1767eaf720c8d4929b8822bb77cff32d170aa9872437437f1eed4069282
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
+page_start: 36
+page_end: 36
+part: 1
+---
+
+# Page 36
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json`
+- Source page: 36
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/page-images/page-0036.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+3
+
+i
+
+*
+
+membre, paralysie, alterations articulaires ou autres, poor autant que le defect est d'au moins un pied ou une main, ou qu'il 4quivaut a la perte d'un pied ou d'une main;
+
+2° tous les prisonniers de guerre blesses ou leses dont l'etat eet tel qu'il fait d'eux des infirmes dont on ne peut pas, medicalement, pre-
+
+voir la guerison dans le delai d'un an;
+
+- 3° tous les malades dont l'etat est tel qu'il fait d'eux des infirmes dont on ne peut pas, medicalement, pr6voir la guerison dans le delai d'nn an;
+- a cette categorie appartiennent en particulier:
+- a) les tuberculoses progressives d'organes quelconques qui, d'aprfe les previsions medicales, ne peuvent plus etre gueries ou au moins considerablement ameliorees par une cure en pays neutre;
+- b) les affections non tuberculeuses des organes respiratoires presumees incurables (ainsi, avant tout, l'emphyseme pulmonaire fortement developpe avec ou sans bronchite, les dilatations bronchiques, l'asthme
+- grave, les intoxications par les gaz, etc.);
+- c) les affections chroniques graves des organes de la circulation (par exemple: les affections valvulaires avec tendances aux troubles de compensation, les affections relativement graves du myocarde, du pericarde et des vaisseaux, en particulier les anevrismes inoperables
+- des gros vaisseaux, etc.);
+- d) les affections chroniques graves des organes digestifs;
+- ' e) les affections chroniques graves des organes urinaires et sexuels (avant tout, par exemple: tous les cas de nephrites chroniques con¬ firmees avec semeiologie complete, et tout particulierement lorsqu'il existe deja des alterations cardiaques et vasculaires, de ineme les pyelites et cystites chroniques, etc.);
+
+/) les maladies chroniques graves du systeme nerveux central et peripherique (ainsi, avant tout, la neurasthenie et l'hysterie graves,
+
+tous les cas incontestables d'epiiepsie, le Basedow grave, etc.);
+
+- g) la cecite des deux yeux, ou celle d'un oeil lorsque la vision de l'autre reste inferieure a 1 malgre l'emploi de verres correcteurs; la diminution de l'acuit4 visuelle au cas ou il est impossible de la ramener par la correction a l'acuite de % pour un oeil du moins; les autres affections oculaires rentrant dans la presente categorie (glaucome,
+2. iritis, choroidite, etc.);
+- h) la surdite totale bilaterale, ainsi que la surdite totale unilaterale au cas ou l'oreille incompletement sourde ne pergoit plus la voix
+4. parlee ordinaire a un metre de distance;
+- i) tous les cas incontestables d'affections mentales;
+- k) les cas graves d'intoxication chronique par les metaux ou par d'autres causes (saturnisme, hydrargyrisme, morphinisme, cocainisme,
+7. alcoolisme, intoxication par les gaz, etc.);
+- l) les affections chroniques des organes locomoteurs (arthrite deformante, goutte, rhumatismes avec alterations dbcelables clinique-
+9. ment), &amp; la condition qu'elles soient graves;
+- m) tous les neoplasmes malins, s'ils ne sont pas justiciables d'interventions operatoires relativement benignes sans danger pour la vie
+11. de l'opere;
+- n) tous les cas de malaria avec alterations organiques appreciables (augmentation chronique importante du volume du foie, de la rate,
+13. cachexie, etc.);
+
+138108-32 5
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
