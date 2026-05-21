@@ -16,6 +16,7 @@ It is for internal research and wiki development only. It does not perform exter
 - Runtime: GitHub-hosted `windows-latest`
 - Auth: Codex CLI with ChatGPT-managed `auth.json`
 - API keys: forbidden for this lane
+- Windows checkout: enables Git `core.longpaths` before checkout because generated chunk paths can exceed the default Windows path limit.
 
 Scheduled and push-triggered GitHub workflows only run from the repository default branch, so this file must be merged to `main` before the PC-off runner is live.
 
