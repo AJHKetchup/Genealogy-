@@ -10,7 +10,7 @@ class OcrError(RuntimeError):
     pass
 
 
-def ocr_page(image_path: Path, page_height: float, language: str) -> list[DocumentBlock]:
+def ocr_page(image_path: Path, page_height: float, language: str, timeout: float | None = None) -> list[DocumentBlock]:
     try:
         import pytesseract
         from pytesseract import Output
@@ -19,7 +19,10 @@ def ocr_page(image_path: Path, page_height: float, language: str) -> list[Docume
             "OCR requires pytesseract and the Tesseract binary. Install Python dependency with: pip install -e \".[ocr]\""
         ) from exc
 
-    data = pytesseract.image_to_data(str(image_path), lang=language, output_type=Output.DICT)
+    kwargs = {"lang": language, "output_type": Output.DICT}
+    if timeout is not None and timeout > 0:
+        kwargs["timeout"] = timeout
+    data = pytesseract.image_to_data(str(image_path), **kwargs)
     lines: dict[tuple[int, int, int], list[int]] = {}
     for index, text in enumerate(data.get("text", [])):
         if not text or not text.strip():

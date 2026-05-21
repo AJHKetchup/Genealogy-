@@ -6466,6 +6466,7 @@ def convert_source_with_tesseract_after_docling_error(
     image_prefix: str,
     root: Path,
     language: str = "eng",
+    timeout: float = 20.0,
 ) -> dict[str, object]:
     try:
         import fitz
@@ -6487,7 +6488,7 @@ def convert_source_with_tesseract_after_docling_error(
             pix.save(image_path)
             page_height = float(pix.height)
 
-        blocks = ocr_page(image_path, page_height=page_height, language=language)
+        blocks = ocr_page(image_path, page_height=page_height, language=language, timeout=timeout)
 
     sorted_blocks = sorted(blocks, key=lambda block: (block.bbox.y0, block.bbox.x0))
     lines = [str(block.text).strip() for block in sorted_blocks if str(block.text).strip()]
