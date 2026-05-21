@@ -8886,6 +8886,25 @@ def write_source_prep_gemini_preflight_state(root: Path, summary: dict[str, obje
     return path
 
 
+def source_prep_gemini_api_key_candidates(api_key: str = "") -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    if api_key:
+        candidates.append(("explicit", api_key))
+    else:
+        for env_name in ("GEMINI_API_KEY", "GOOGLE_API_KEY"):
+            env_value = os.environ.get(env_name, "")
+            if env_value:
+                candidates.append((env_name, env_value))
+    unique_candidates: list[tuple[str, str]] = []
+    seen_values: set[str] = set()
+    for source, value in candidates:
+        if value in seen_values:
+            continue
+        seen_values.add(value)
+        unique_candidates.append((source, value))
+    return unique_candidates
+
+
 def source_prep_gemini_run(
     root: Path,
     *,
@@ -8923,9 +8942,11 @@ def source_prep_gemini_run(
         raise ValueError("preflight_only requires preflight_api")
     fallback_policy = normalize_gemini_source_prep_fallback_policy(fallback_policy)
     paths = WikiPaths(root.resolve())
-    if not api_key and not dry_run:
-        api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("GOOGLE_API_KEY", "")
-    if not api_key and not dry_run:
+    api_key_candidates = source_prep_gemini_api_key_candidates(api_key) if not dry_run else []
+    explicit_api_key = bool(api_key)
+    if api_key_candidates:
+        api_key = api_key_candidates[0][1]
+    if not api_key_candidates and not dry_run:
         raise RuntimeError("GEMINI_API_KEY or GOOGLE_API_KEY is required in the cloud automation environment.")
 
     if refresh_queue:
@@ -8984,6 +9005,8 @@ def source_prep_gemini_run(
         },
         "preflight_api": preflight_api,
         "preflight_only": preflight_only,
+        "api_key_source": api_key_candidates[0][0] if api_key_candidates else "",
+        "api_key_candidates": [source for source, _ in api_key_candidates],
         "fallback_policy": fallback_policy,
         "economy_large_source_pages": economy_large_source_pages,
         "processed": 0,
@@ -9021,17 +9044,27 @@ def source_prep_gemini_run(
         )
         raise GeminiSourcePrepFatalError(f"Gemini source-prep fatal blocker: {error}")
 
-    if preflight_api and not dry_run:
-        try:
-            preflight_gemini_source_prep_api(
-                api_key=api_key,
-                model=lite_model,
-                thinking_budget=thinking_budget_lite,
-            )
-        except GeminiSourcePrepFatalError as exc:
-            fail_with_fatal_blocker(str(exc))
-        except Exception as exc:
-            fail_with_fatal_blocker(f"Gemini preflight failed: {str(exc)[:800]}")
+    def select_preflight_api_key() -> None:
+        nonlocal api_key
+        errors: list[str] = []
+        for source, candidate_api_key in api_key_candidates:
+            try:
+                preflight_gemini_source_prep_api(
+                    api_key=candidate_api_key,
+                    model=lite_model,
+                    thinking_budget=thinking_budget_lite,
+                )
+                api_key = candidate_api_key
+                summary["api_key_source"] = source
+                return
+            except GeminiSourcePrepFatalError as exc:
+                errors.append(f"{source}: {str(exc)[:300]}")
+            except Exception as exc:
+                errors.append(f"{source}: Gemini preflight failed: {str(exc)[:300]}")
+        fail_with_fatal_blocker("Gemini preflight failed for all configured API keys: " + " | ".join(errors))
+
+    if not dry_run and (preflight_api or (not explicit_api_key and len(api_key_candidates) > 1)):
+        select_preflight_api_key()
         if preflight_only:
             summary["finished"] = utc_timestamp()
             if preflight_success_state:

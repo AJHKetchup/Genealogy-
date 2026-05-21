@@ -357,6 +357,67 @@ def test_gemini_source_prep_preflight_only_does_not_process_pages(tmp_path, monk
     assert not task_state_path.exists()
 
 
+def test_gemini_source_prep_preflight_falls_back_to_second_env_key(tmp_path, monkeypatch) -> None:
+    write_parallel_test_batches(tmp_path, page_count=1)
+    monkeypatch.setenv("GEMINI_API_KEY", "depleted-key")
+    monkeypatch.setenv("GOOGLE_API_KEY", "funded-key")
+    calls: list[str] = []
+
+    def selective_preflight(**kwargs):
+        calls.append(kwargs["api_key"])
+        if kwargs["api_key"] == "depleted-key":
+            raise genealogy_wiki.GeminiSourcePrepFatalError(
+                "Gemini HTTP 429: RESOURCE_EXHAUSTED prepayment credits are depleted"
+            )
+        return {"text": "OK", "finish_reason": "STOP", "usage": {}}
+
+    monkeypatch.setattr(genealogy_wiki, "preflight_gemini_source_prep_api", selective_preflight)
+
+    summary = source_prep_gemini_run(
+        tmp_path,
+        limit=1,
+        refresh_queue=False,
+        preflight_api=True,
+        preflight_only=True,
+        preflight_success_state=False,
+    )
+
+    assert calls == ["depleted-key", "funded-key"]
+    assert summary["api_key_source"] == "GOOGLE_API_KEY"
+    assert summary["api_key_candidates"] == ["GEMINI_API_KEY", "GOOGLE_API_KEY"]
+    assert summary["preflight_only"] is True
+
+
+def test_gemini_source_prep_conversion_uses_working_env_key_after_preflight(tmp_path, monkeypatch) -> None:
+    write_test_batch(tmp_path)
+    monkeypatch.setenv("GEMINI_API_KEY", "depleted-key")
+    monkeypatch.setenv("GOOGLE_API_KEY", "funded-key")
+
+    def selective_preflight(**kwargs):
+        if kwargs["api_key"] == "depleted-key":
+            raise genealogy_wiki.GeminiSourcePrepFatalError(
+                "Gemini HTTP 429: RESOURCE_EXHAUSTED prepayment credits are depleted"
+            )
+        return {"text": "OK", "finish_reason": "STOP", "usage": {}}
+
+    def fake_gemini(**kwargs):
+        assert kwargs["api_key"] == "funded-key"
+        return {
+            "text": complete_gemini_markdown(json.dumps({"visual_regions": []})),
+            "finish_reason": "STOP",
+            "usage": {},
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "preflight_gemini_source_prep_api", selective_preflight)
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", fake_gemini)
+
+    summary = source_prep_gemini_run(tmp_path, limit=1, refresh_queue=False)
+
+    assert summary["api_key_source"] == "GOOGLE_API_KEY"
+    assert summary["completed"] == 1
+    assert summary["released"] == 0
+
+
 def test_gemini_source_prep_preflight_success_can_skip_state_write(tmp_path, monkeypatch) -> None:
     write_parallel_test_batches(tmp_path, page_count=1)
 
