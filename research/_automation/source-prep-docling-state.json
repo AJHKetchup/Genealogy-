@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T21:22:44Z",
+  "created": "2026-05-21T22:01:47Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -20,131 +20,129 @@
     "source_sha256": ""
   },
   "inspected": 12,
-  "accepted": 0,
-  "unusable": 1,
+  "accepted": 1,
+  "unusable": 0,
   "fast_unusable": 0,
   "errors": 11,
   "extracted_images": 0,
   "skipped": {
-    "cached_error": 66,
-    "ocr_limit_reached": 1042
+    "cached_error": 77,
+    "ocr_limit_reached": 1030
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0365",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0353",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 365,
+      "page": 353,
       "docling_ocr": true,
       "status": "error",
-      "error": "[Errno 2] No such file or directory: '/home/runner/work/Genealogy-/Genealogy-/.easyocr/model/temp.zip'; Tesseract fallback failed: Tesseract process timeout"
+      "error": "Bad CRC-32 for file 'latin_g2.pth'; Tesseract fallback failed: Tesseract process timeout"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0371",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 371,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0284",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 284,
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0954",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "page": 954,
       "docling_ocr": true,
       "status": "error",
       "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0329",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0437",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 329,
-      "status": "rough_unusable",
-      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/page-0329.md",
-      "readability_flags": [
-        "docling_layout_noise"
-      ],
+      "page": 437,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0387",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 387,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0409",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 409,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0287",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 287,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100:p0091",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 91,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0410",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 410,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0448",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 448,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0389",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 389,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0300",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 300,
+      "docling_ocr": true,
+      "status": "error",
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0457",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 457,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-0457.md",
+      "readability_flags": [],
       "profile_version": 6,
-      "text_chars": 1843,
+      "text_chars": 3120,
       "extracted_image_count": 0,
       "docling_ocr": true,
       "tesseract_after_docling_error": true,
       "docling_error": "Docling hard timeout after 45 seconds.",
-      "text_layer_alpha_chars": 16039,
+      "text_layer_alpha_chars": 13639,
       "likely_full_page_scan": true,
       "text_layer_flags": [
-        "encoding_mojibake",
         "fragmented_short_lines",
         "docling_layout_noise"
-      ]
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0295",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 295,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0455",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 455,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0359",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 359,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0370",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 370,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0242",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 242,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0397",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 397,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0369",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 369,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0442",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 442,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0457.md"
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-21T21:29:09Z",
+  "checkpointed": "2026-05-21T22:08:10Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-21T21:29:09Z"
+  "finished": "2026-05-21T22:08:10Z"
 }

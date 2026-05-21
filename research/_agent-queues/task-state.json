@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T21:29:42Z",
+  "updated": "2026-05-21T22:08:10Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -59476,13 +59476,15 @@
       "released_at": "2026-05-19T18:41:20Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0457": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:20Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T22:08:10Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:27:32Z",
       "started_at": "2026-05-19T18:27:32Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:20Z"
+      "released_at": "2026-05-19T18:41:20Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T22:08:10Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0458": {
       "status": "released",
