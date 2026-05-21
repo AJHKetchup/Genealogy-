@@ -1,0 +1,152 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b95459d78df2-P0137-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: b95459d78df2cdd483614b70a8552615216db18b3cb63955acdf9130973aba8e
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 137
+page_end: 137
+part: 1
+---
+
+# Page 137
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json`
+- Source page: 137
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0137.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Columnea, género dedicado a Fabio Columna, no¬ ble italiano, comprende unas 60 especies, de la América tropical, Antillas y América Central.
+
+Por tener las liojas manchadas de rojo, es tenida por hemostâtica (C. Cuervo M.).
+
+533.-Aullador (Véase numéro 399).
+
+534.-Aurora.
+
+Phlox procumbent* - Familia de las Polemoniâceas.
+
+Phlox Drummondii Hook.
+
+Phlox (del griego, significa llama; alusiôn al co¬ lor brillante de las flores).
+
+El género consta de unas 20 especies, de la Amé¬ rica del Norte y del Asia rusa. Son plantas de ornato, por lo menos las especies mâs notables, como :
+
+| Ph. paniculata L., de la Ph. acuminata Pursh   | América "   | del Norte "   |
+|------------------------------------------------|-------------|---------------|
+| Ph. maculata L.                                | "           | "             |
+| Ph. ovata L.                                   | "           | "             |
+| Ph. verna Sw.                                  | "           | "             |
+| Ph. reptans Micbx.                             | "           | "             |
+| Ph. divaricata L.                              |             |               |
+|                                                | "           | "             |
+| Ph. Drummondii Hook (Texas)                    | "           |               |
+
+Esta ûltima es la especie mâs comânmente cultivada en los jardines. Los horticultures han obtenido cierto ndmero de variedadm, de las cuales las principales son :
+
+- v. Leopoldi, de flores rosadas con estrias blancas.
+- v. oculata, de flores blancas con manchas purpu¬ reas en la garganta.
+- v. rosea alba-oculata, de flores rosadas.
+- v. coccinea, de flores rojas.
+- v. isabelllna, de flores amarillentas.
+
+535.-Auso; Tinto.
+
+Capparis Breynia Jacq. - Familia de las Gaparidâceas.
+
+La sinonimia de la especie es, segûn el "Prodromus" de Triana y Planchôn, la siguiente:
+
+Breynia indica L. ; B. elœagnifoliis Plum. ; B. amygdalijoliis latioribus Plum.; Capparis amygdalina Lamk. ; Capparis barcelonensis HBK.
+
+El género Capparis &lt; del griego Rapparie, nom¬ bre de la planta, derivado del arabe Kabar) consta de unas 140 especies. propias de los paises tropica¬ les y subtropicales.
+
+C. Breynia. crece en el valle del Magdalena. San¬ ta Marta. etc. La corteza de la raiz. segûn C. Cuer¬ vo Mârquez, es acre y estimulante. Con la corteza y las hojas se prépara un cocimiento que se usa mucho para curar el histerismo y la hipocondria. La infusiôn de las flores se emplea con ventaja con¬ tra las enfermedades nerviosas.
+
+En Europa cultivan a C. spinosa L. (Véase nûmero 182).
+
+536.-Auyama; Sapayo.
+
+Cucurbita verrucosa L. - Familia de las Cucurbitâceas.
+
+El doctor Emilio Robledo en su obra "Lecciones de Botânica Médica", pâg. 281, menciona la présen¬ te especie con la observaciôn : "es comestible".
+
+537.-Ave fria; Caravana (Antioquia).
+
+Belenopterus cayennensis Gml. - Familia de Charadriidos.
+
+El ave fue descrita en 1789 por Gmelin con el nombre de Parra cayennensis; en 1871, Wyatt, la llamô Vanellus cayennensis; en 1899, Stone le cambiô el nombre genérico por el de Belenopterus.
+
+La especie se encuentra sobre todo en la zona tropical (tierra calicnte), pero sube, sin embargo, hasta las regiones mâs bajas de tierra templada.
+
+El doctor F. M. Chapman cogiô ejemplares de la présente especie en las hoyas hidrogrâficas del Atrato, Cauca, Magdalena y Meta.
+
+538.-Ave fria.
+
+Vancllus occidentalis Hart. - Familia de los Charadriidos.
+
+Es una especie esparcida, Hegân Sclater, por toda la regiôn neo-tropical. No parece inuy comtin en nuestras regiones. La colecciôn del Museo del Ins¬ titute de la Salle no cuenta sino con dos ejemplareH, de Medellin el uno, y de la Sabana de Bogotâ el otro.
+
+539.-Ave fria.
+
+Vancllus resplendcns Tsch.-Fainilia de los Charadriidos.
+
+Vancllus resplendcns, es sobre todo una ave del Sur. El catâlogo de Sclater y Hal vin wfiiûa para la présente especie los Andes del Ecuador y del Perd ; gin embargo, se conocen ejemplares cogidos en el territorio de la Repûblica y hasta en la Sabana de Bogotâ.
+
+Telski dice, hablando de V. resplendens: "Comtin en las inmediaciones de Junin (Perû). Se encuen¬ tra en los llanos hûmedos, en los potreros secos, co¬ mo también en las colonias pedregosas, por pares aislados o por pequenos grupos".
+
+Segûn Taczanowsky, "Ornithologie du Pérou", su alimente predilecto consiste en lombrices. En una circunstancia, dice el mismo autor, heri uno en una ala, lo recogi y lo cuidé. En un principio lo dejé amarrado de una pata, pero pronto lo solté, sin que tratara de escaparse. Desde el primer dia aceptô el alimente. Pero no teniendo tiempo de busoarle cada dia lombrices. le di carne de cordero picada, alimentaciôn que no resistiô. pues murio al cabo de una semana. Se hizo tan familiar en unos pocos dias. que venia a acostarse sobre mi mientras dormia".
+
+540.-Ave serpiente; Pato aguja.
+
+Anhinga anhinga Lin. - Familia de los Anhingidos.
+
+Linneo describiô la especie en 1766 con el nom¬ bre de Plotus anhinga. La especie se encuentra en la América Central y regiones tropicales de la Amé¬ rica del Sur.
+
+El Pato aguja se mantiene de preferencia en las partes de los rios orilladas por ârboles. Establece su nido en algûn ârbol y busca para tal efecto un ûrbol rodeado por el agua.
+
+Estas aves, al nadar, tienen el cuerpo sumergido y apenas asoman en la superficie del agua la ca-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
