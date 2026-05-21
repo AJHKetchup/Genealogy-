@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T16:17:34Z",
+  "created": "2026-05-21T16:34:26Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -23,209 +23,23 @@
   "accepted": 0,
   "unusable": 0,
   "fast_unusable": 0,
-  "errors": 24,
+  "errors": 1,
   "extracted_images": 0,
   "skipped": {
-    "cached_error": 269,
-    "ocr_limit_reached": 879
+    "cached_error": 293,
+    "ocr_limit_reached": 855
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050:p1041",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1041,
+      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0888",
+      "source": "raw/sources/R3016-11A-2905-950.pdf",
+      "page": 888,
       "docling_ocr": true,
       "status": "error",
       "error": "[Errno 2] No such file or directory: '/home/runner/.EasyOCR//model/temp.zip'"
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1204-1228-c-mara-de-senadores-de-la-naci-n-1936-pages-1204-1228:p1215",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1215,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "name 'corrupt_msg' is not defined"
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1074",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1074,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1164",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1164,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1268",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1268,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0877",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 877,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1001-1025-s522bis-29-3-pages-1001-1025:p1022",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1022,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0751-0775-r3016-11a-2905-950-pages-751-775:p0755",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "page": 755,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0684",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 684,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1304-1328-c-mara-de-senadores-de-la-naci-n-1936-pages-1304-1328:p1308",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1308,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1451-1473-s522bis-29-3-pages-1451-1473:p1454",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1454,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1429",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1429,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0649",
-      "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 649,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1399",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1399,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1270",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1270,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200:p1177",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1177,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0904-0928-c-mara-de-senadores-de-la-naci-n-1936-pages-904-928:p0908",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 908,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1304-1328-c-mara-de-senadores-de-la-naci-n-1936-pages-1304-1328:p1319",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1319,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1341",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1341,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1115",
-      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
-      "page": 1115,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1436",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1436,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0931",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 931,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200:p1176",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1176,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0975",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 975,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-21T16:26:00Z",
-  "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-21T16:26:00Z"
+  "checkpointed": "2026-05-21T16:34:34Z"
 }
