@@ -8868,6 +8868,23 @@ def is_fatal_gemini_http_error(code: int, detail: str) -> bool:
     return False
 
 
+def is_transient_gemini_error(message: str) -> bool:
+    normalized = message.lower()
+    return any(
+        marker in normalized
+        for marker in (
+            "gemini http 500",
+            "gemini http 502",
+            "gemini http 503",
+            "gemini http 504",
+            "service is currently unavailable",
+            "temporarily unavailable",
+            "timed out",
+            "timeout",
+        )
+    )
+
+
 def call_gemini_generate_content(
     *,
     api_key: str,
@@ -8933,16 +8950,28 @@ def preflight_gemini_source_prep_api(
     model: str,
     thinking_budget: int | None = 0,
     timeout_seconds: int = 30,
+    attempts: int = 3,
+    retry_sleep_seconds: float = 5.0,
 ) -> dict[str, object]:
-    return call_gemini_generate_content(
-        api_key=api_key,
-        model=model,
-        prompt="Source-prep Gemini preflight. Reply with OK.",
-        media_paths=[],
-        max_output_tokens=16,
-        thinking_budget=thinking_budget,
-        timeout_seconds=timeout_seconds,
-    )
+    attempts = max(1, attempts)
+    for attempt in range(1, attempts + 1):
+        try:
+            return call_gemini_generate_content(
+                api_key=api_key,
+                model=model,
+                prompt="Source-prep Gemini preflight. Reply with OK.",
+                media_paths=[],
+                max_output_tokens=16,
+                thinking_budget=thinking_budget,
+                timeout_seconds=timeout_seconds,
+            )
+        except GeminiSourcePrepFatalError:
+            raise
+        except Exception as exc:
+            if attempt >= attempts or not is_transient_gemini_error(str(exc)):
+                raise
+            time.sleep(retry_sleep_seconds * attempt)
+    raise RuntimeError("Gemini preflight failed without an error detail.")
 
 
 def source_prep_gemini_state_path(root: Path) -> Path:

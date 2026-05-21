@@ -357,6 +357,31 @@ def test_gemini_source_prep_preflight_only_does_not_process_pages(tmp_path, monk
     assert not task_state_path.exists()
 
 
+def test_gemini_preflight_retries_transient_service_unavailable(monkeypatch) -> None:
+    calls = 0
+    sleeps: list[float] = []
+
+    def flaky_gemini(**kwargs):
+        nonlocal calls
+        calls += 1
+        if calls == 1:
+            raise RuntimeError("Gemini HTTP 503: service is currently unavailable")
+        return {"text": "OK", "finish_reason": "STOP", "usage": {}}
+
+    monkeypatch.setattr(genealogy_wiki, "call_gemini_generate_content", flaky_gemini)
+    monkeypatch.setattr(genealogy_wiki.time, "sleep", lambda seconds: sleeps.append(seconds))
+
+    response = genealogy_wiki.preflight_gemini_source_prep_api(
+        api_key="test-key",
+        model="gemini-2.5-flash",
+        retry_sleep_seconds=0.25,
+    )
+
+    assert response["text"] == "OK"
+    assert calls == 2
+    assert sleeps == [0.25]
+
+
 def test_gemini_source_prep_preflight_falls_back_to_second_env_key(tmp_path, monkeypatch) -> None:
     write_parallel_test_batches(tmp_path, page_count=1)
     monkeypatch.setenv("GEMINI_API_KEY", "depleted-key")
