@@ -50,7 +50,7 @@ jobs:
   post-conversion-agents:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: windows-latest
-    timeout-minutes: 80
+    timeout-minutes: 120
     env:
       PYTHONPATH: src
       CODEX_HOME: ${{ github.workspace }}/.codex-runtime
@@ -170,7 +170,7 @@ jobs:
             "-QueueLimit", $env:QUEUE_LIMIT,
             "-PollSeconds", "45",
             "-WaitForWorkers",
-            "-WorkerTimeoutMinutes", "15"
+            "-WorkerTimeoutMinutes", "35"
           )
           $output = & powershell @controllerArgs 2>&1
           $exitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
@@ -201,7 +201,7 @@ jobs:
             "-QueueLimit", "3",
             "-PollSeconds", "45",
             "-WaitForWorkers",
-            "-WorkerTimeoutMinutes", "15"
+            "-WorkerTimeoutMinutes", "35"
           )
           $output = & powershell @promotionArgs 2>&1
           $exitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
