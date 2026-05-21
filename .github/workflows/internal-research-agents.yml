@@ -242,13 +242,13 @@ jobs:
               throw "Refusing to rotate Codex auth secret because auth.json is not a ChatGPT auth file with a refresh token."
             }
             $encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($authJson))
-            $secretFile = New-TemporaryFile
-            try {
-              Set-Content -LiteralPath $secretFile -Value $encoded -NoNewline -Encoding UTF8
-              gh secret set CODEX_AUTH_JSON_B64 --repo $env:GITHUB_REPOSITORY --body-file $secretFile 2>&1 | Add-Content -LiteralPath $rotateLog -Encoding UTF8
+            $ghOutput = $encoded | gh secret set CODEX_AUTH_JSON_B64 --repo $env:GITHUB_REPOSITORY 2>&1
+            $ghExitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
+            if ($ghOutput) {
+              $ghOutput | Add-Content -LiteralPath $rotateLog -Encoding UTF8
             }
-            finally {
-              Remove-Item -LiteralPath $secretFile -Force -ErrorAction SilentlyContinue
+            if ($ghExitCode -ne 0) {
+              throw "gh secret set failed with exit code $ghExitCode."
             }
             "rotation=success" | Add-Content -LiteralPath $rotateLog -Encoding UTF8
           }
@@ -261,6 +261,7 @@ jobs:
           finally {
             "CODEX_ROTATE_EXIT_CODE=$exitCode" | Out-File -FilePath $env:GITHUB_ENV -Append
           }
+          exit 0
 
       - name: Publish internal research outputs
         if: always()
