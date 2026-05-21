@@ -1,7 +1,7 @@
 {
   "created": "2026-05-21",
   "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425.codex.md",
-  "converted_sha256": "4d3545eb93231477cdbb0ff43d6e310673db7bc5b9a6ad8c0147d52085b4fcd2",
+  "converted_sha256": "518d8daedf415b78bdb4822af799f5a0e901441974ce480ad0a9592f9b915e89",
   "source": "raw/sources/S522bis-29-3.pdf",
   "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
   "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425/manifest.json",
@@ -12,24 +12,34 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-4d3545eb9323-P0420-01",
+      "chunk_id": "CHUNK-518d8daedf41-P0418-01",
       "chunk_number": 1,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425-codex/page-0418-chunk-01.md",
+      "page_start": 418,
+      "page_end": 418,
+      "part": 1,
+      "chars": 5734,
+      "sha256": "af19811486191e1eb4b8d1f304952f40442df5089fd4cee5b7eb6e7e1012d208"
+    },
+    {
+      "chunk_id": "CHUNK-518d8daedf41-P0420-01",
+      "chunk_number": 2,
       "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425-codex/page-0420-chunk-01.md",
       "page_start": 420,
       "page_end": 420,
       "part": 1,
       "chars": 10844,
-      "sha256": "358fac83b2227fff495b2221e03463616010384d376956dc1d7cc6a18acf2788"
+      "sha256": "b02d82bcfe91198aead969144166364f5366a4668c94af11891a91d5a31015cb"
     },
     {
-      "chunk_id": "CHUNK-4d3545eb9323-P0420-02",
-      "chunk_number": 2,
+      "chunk_id": "CHUNK-518d8daedf41-P0420-02",
+      "chunk_number": 3,
       "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0401-0425-s522bis-29-3-pages-401-425-codex/page-0420-chunk-02.md",
       "page_start": 420,
       "page_end": 420,
       "part": 2,
       "chars": 4370,
-      "sha256": "15aabdbecaff16a6c0b2972274c5e2972f219df178244efcb8688a2d6f15a0c0"
+      "sha256": "97665f18b6567e432fb4b155875b23b1fc2ee9bfc4c32a20e1a652f80cd7993a"
     }
   ]
 }
