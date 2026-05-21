@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T22:08:10Z",
+  "updated": "2026-05-21T23:14:33Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -57113,13 +57113,15 @@
       "completed_at": "2026-05-21T21:02:50Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0983": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:43:46Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T23:14:33Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:22:56Z",
       "started_at": "2026-05-19T18:22:56Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:43:46Z"
+      "released_at": "2026-05-19T18:43:46Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T23:14:33Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050:p1027": {
       "status": "released",
@@ -58387,13 +58389,15 @@
       "released_at": "2026-05-19T18:40:43Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0327": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:44:59Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T23:09:21Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:25:33Z",
       "started_at": "2026-05-19T18:25:34Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:44:59Z"
+      "released_at": "2026-05-19T18:44:59Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T23:09:21Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0328": {
       "status": "released",
