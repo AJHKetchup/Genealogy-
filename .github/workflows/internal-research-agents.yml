@@ -135,9 +135,14 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
+          $logDir = "research/_agent-queues/post-conversion-run-logs"
+          New-Item -ItemType Directory -Force -Path $logDir | Out-Null
+          $verifyLog = Join-Path $logDir "codex-verify-latest.log"
+          "Codex verify started $(Get-Date -AsUTC -Format o)" | Set-Content -LiteralPath $verifyLog -Encoding UTF8
           $reply = & codex exec --ephemeral --sandbox read-only "Reply with exactly one token: OK" 2>&1
           $exitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
-          $reply | ForEach-Object { Write-Host $_ }
+          "exit_code=$exitCode" | Add-Content -LiteralPath $verifyLog -Encoding UTF8
+          $reply | Tee-Object -FilePath $verifyLog -Append | ForEach-Object { Write-Host $_ }
           if ($exitCode -ne 0) {
             throw "Codex session failed with exit code $exitCode."
           }
