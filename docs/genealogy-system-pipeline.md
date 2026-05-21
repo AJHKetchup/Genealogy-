@@ -206,7 +206,7 @@ Storage deaccession is allowed only when:
 - Implemented: meaningful crop extraction from Gemini-declared visual regions.
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
 - Implemented: hosted internal research agent workflow for conversion QA, evidence extraction, identity analysis, proof review, and safe promotion, using ChatGPT-managed Codex auth rather than provider API keys.
-- Implemented: durable internal-agent run logs/state plus rebase-and-retry publishing so hosted workers can keep updating even when other scheduled workflows push during a long run.
+- Implemented: durable internal-agent run logs/state plus hosted snapshot/reset/semantic-merge publishing so workers can keep updating even when other scheduled workflows push during a long run.
 - Partial: research wiki and staging structure.
 - Partial: proof/QC and promotion structure.
 - Partial: automated wiki maintainer producing final HTML.

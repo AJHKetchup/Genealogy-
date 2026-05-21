@@ -63,7 +63,7 @@ After workers drain, the workflow commits/pushes GitHub-safe research/wiki state
 python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --message "Run internal research agents"
 ```
 
-Before publishing, the hosted checkout rebases onto the latest `main`. If another scheduled workflow lands a commit while the agents are running, `sync-github-database` retries rejected pushes by fetching, rebasing the already-created commit, and pushing again. This keeps long internal runs from becoming one-off dead ends when conversion automation is also active.
+Before publishing, the hosted sync snapshots generated GitHub-safe outputs, resets the ephemeral checkout to the latest `main`, semantically merges shared state such as `research/log.md` and `research/_agent-queues/task-state.json`, then commits from that fresh base. If another scheduled workflow lands a commit after that point, `sync-github-database` retries rejected pushes by fetching, rebasing the already-created commit, and pushing again. This keeps long internal runs from becoming one-off dead ends when conversion automation is also active.
 
 If the controller records a failure after checkout/auth, the workflow still commits safe queue state, controller state, and run logs under `research/_agent-queues/` before marking the job failed. That keeps failures resumable and visible to the next scheduled run instead of losing them with the ephemeral runner.
 

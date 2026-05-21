@@ -3886,3 +3886,75 @@ def test_sync_github_database_rebases_and_retries_rejected_push(tmp_path, monkey
     assert [attempt["push_returncode"] for attempt in summary["push_attempts"]] == [1, 0]
     assert ["fetch", "origin", "main"] in calls
     assert ["pull", "--rebase", "origin", "main"] in calls
+
+
+def test_sync_github_database_refresh_base_merges_shared_hosted_state(tmp_path, monkeypatch) -> None:
+    class GitResult:
+        def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
+            self.stdout = stdout
+            self.stderr = stderr
+            self.returncode = returncode
+
+    log_path = tmp_path / "research" / "log.md"
+    state_path = tmp_path / "research" / "_agent-queues" / "task-state.json"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    log_path.write_text("base\ninternal\n", encoding="utf-8")
+    state_path.write_text(
+        json.dumps(
+            {
+                "created": "2026-05-01T00:00:00Z",
+                "updated": "2026-05-21T04:35:00Z",
+                "tasks": {
+                    "source-prep:one": {"status": "claimed", "updated_at": "2026-05-21T04:00:00Z"},
+                    "evidence-extraction:one": {"status": "done", "updated_at": "2026-05-21T04:35:00Z"},
+                },
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    calls: list[list[str]] = []
+
+    def fake_run_git(root, args, check=True):
+        calls.append(args)
+        if args == ["diff", "--cached", "--quiet"]:
+            return GitResult(returncode=0)
+        if args == ["rev-parse", "--abbrev-ref", "HEAD"]:
+            return GitResult(stdout="main\n")
+        if args[:3] == ["status", "--porcelain=v1", "-z"]:
+            return GitResult(stdout=" M research/log.md\0 M research/_agent-queues/task-state.json\0")
+        if args == ["reset", "--hard", "origin/main"]:
+            log_path.write_text("base\nremote\n", encoding="utf-8")
+            state_path.write_text(
+                json.dumps(
+                    {
+                        "created": "2026-05-01T00:00:00Z",
+                        "updated": "2026-05-21T04:27:00Z",
+                        "tasks": {
+                            "source-prep:one": {"status": "done", "updated_at": "2026-05-21T04:27:00Z"},
+                        },
+                    }
+                ),
+                encoding="utf-8",
+            )
+            return GitResult()
+        if args == ["diff", "--cached", "--name-only"]:
+            return GitResult(stdout="research/log.md\nresearch/_agent-queues/task-state.json\n")
+        return GitResult()
+
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    monkeypatch.setattr(genealogy_wiki, "run_git", fake_run_git)
+
+    summary = sync_github_database(tmp_path, message="Run internal research agents", refresh_base=True)
+
+    assert summary["base_refresh"]["restored"] == [
+        "research/_agent-queues/task-state.json",
+        "research/log.md",
+    ]
+    assert log_path.read_text(encoding="utf-8") == "base\nremote\ninternal\n"
+    merged_state = json.loads(state_path.read_text(encoding="utf-8"))
+    assert merged_state["tasks"]["source-prep:one"]["status"] == "done"
+    assert merged_state["tasks"]["evidence-extraction:one"]["status"] == "done"
+    assert ["fetch", "origin", "main"] in calls
+    assert ["reset", "--hard", "origin/main"] in calls

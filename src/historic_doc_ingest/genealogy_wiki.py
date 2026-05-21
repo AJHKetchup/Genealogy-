@@ -10653,6 +10653,145 @@ def push_github_database_with_retry(root: Path, *, max_attempts: int = 3) -> lis
     return attempts
 
 
+def git_status_changed_paths(root: Path, include_paths: Sequence[str]) -> list[str]:
+    result = run_git(root, ["status", "--porcelain=v1", "-z", "--", *include_paths])
+    entries = result.stdout.split("\0")
+    paths: list[str] = []
+    index = 0
+    while index < len(entries):
+        entry = entries[index]
+        index += 1
+        if not entry:
+            continue
+        status = entry[:2]
+        path = entry[3:].replace("\\", "/")
+        if status.startswith("R") or status.startswith("C"):
+            if index < len(entries):
+                path = entries[index].replace("\\", "/")
+                index += 1
+        if path and not github_database_forbidden_path(path):
+            paths.append(path)
+    return sorted(set(paths))
+
+
+def merge_unique_text_lines(remote_bytes: bytes, local_bytes: bytes) -> bytes:
+    try:
+        remote_text = remote_bytes.decode("utf-8")
+        local_text = local_bytes.decode("utf-8")
+    except UnicodeDecodeError:
+        return local_bytes
+    remote_lines = remote_text.splitlines(keepends=True)
+    merged = list(remote_lines)
+    seen = set(remote_lines)
+    for line in local_text.splitlines(keepends=True):
+        if line not in seen:
+            merged.append(line)
+            seen.add(line)
+    return "".join(merged).encode("utf-8")
+
+
+AGENT_TASK_STATE_TIME_KEYS = (
+    "updated_at",
+    "completed_at",
+    "failed_at",
+    "held_at",
+    "released_at",
+    "started_at",
+    "claimed_at",
+)
+
+
+def agent_task_state_timestamp(state: dict[str, object]) -> str:
+    for key in AGENT_TASK_STATE_TIME_KEYS:
+        value = state.get(key)
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    return ""
+
+
+def merge_agent_task_state_bytes(remote_bytes: bytes, local_bytes: bytes) -> bytes:
+    try:
+        remote_payload = json.loads(remote_bytes.decode("utf-8")) if remote_bytes else {}
+        local_payload = json.loads(local_bytes.decode("utf-8")) if local_bytes else {}
+    except (UnicodeDecodeError, json.JSONDecodeError):
+        return local_bytes
+    if not isinstance(remote_payload, dict) or not isinstance(local_payload, dict):
+        return local_bytes
+    remote_tasks = remote_payload.get("tasks", {})
+    local_tasks = local_payload.get("tasks", {})
+    if not isinstance(remote_tasks, dict) or not isinstance(local_tasks, dict):
+        return local_bytes
+
+    merged_tasks: dict[str, dict[str, object]] = {
+        str(task_id): dict(state) for task_id, state in remote_tasks.items() if isinstance(state, dict)
+    }
+    for task_id, state in local_tasks.items():
+        if not isinstance(state, dict):
+            continue
+        task_key = str(task_id)
+        local_state = dict(state)
+        remote_state = merged_tasks.get(task_key)
+        if remote_state is None or agent_task_state_timestamp(local_state) >= agent_task_state_timestamp(remote_state):
+            merged_tasks[task_key] = local_state
+
+    payload = {
+        "created": str(remote_payload.get("created") or local_payload.get("created") or utc_timestamp()),
+        "updated": utc_timestamp(),
+        "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
+        "tasks": merged_tasks,
+    }
+    return json.dumps(payload, indent=2, ensure_ascii=False).encode("utf-8")
+
+
+def merge_github_database_file(path: str, remote_bytes: bytes, local_bytes: bytes) -> bytes:
+    normalized = path.replace("\\", "/")
+    if normalized == "research/log.md":
+        return merge_unique_text_lines(remote_bytes, local_bytes)
+    if normalized == "research/_agent-queues/task-state.json":
+        return merge_agent_task_state_bytes(remote_bytes, local_bytes)
+    return local_bytes
+
+
+def refresh_github_database_base(root: Path, include_paths: Sequence[str]) -> dict[str, object]:
+    if os.environ.get("GITHUB_ACTIONS", "").lower() != "true":
+        raise RuntimeError("--refresh-base is only allowed in GitHub Actions hosted sync jobs.")
+
+    branch = github_publish_branch(root)
+    changed_paths = git_status_changed_paths(root, include_paths)
+    snapshots: dict[str, bytes | None] = {}
+    for relative_path in changed_paths:
+        full_path = root / relative_path
+        if full_path.exists() and full_path.is_file():
+            snapshots[relative_path] = full_path.read_bytes()
+        elif not full_path.exists():
+            snapshots[relative_path] = None
+
+    run_git(root, ["fetch", "origin", branch])
+    run_git(root, ["reset", "--hard", f"origin/{branch}"])
+
+    restored: list[str] = []
+    deleted: list[str] = []
+    for relative_path, content in snapshots.items():
+        full_path = root / relative_path
+        if content is None:
+            if full_path.exists():
+                full_path.unlink()
+                deleted.append(relative_path)
+            continue
+        remote_bytes = full_path.read_bytes() if full_path.exists() and full_path.is_file() else b""
+        merged = merge_github_database_file(relative_path, remote_bytes, content)
+        full_path.parent.mkdir(parents=True, exist_ok=True)
+        full_path.write_bytes(merged)
+        restored.append(relative_path)
+
+    return {
+        "branch": branch,
+        "changed_paths": changed_paths,
+        "restored": restored,
+        "deleted": deleted,
+    }
+
+
 def github_database_forbidden_path(path: str) -> bool:
     normalized = path.replace("\\", "/")
     if any(normalized.startswith(prefix) for prefix in GITHUB_DATABASE_FORBIDDEN_PREFIXES):
@@ -10669,6 +10808,7 @@ def sync_github_database(
     dry_run: bool = False,
     no_push: bool = False,
     source_conversion_only: bool = False,
+    refresh_base: bool = False,
 ) -> dict[str, object]:
     paths = WikiPaths(root.resolve())
     run_git(paths.root, ["rev-parse", "--show-toplevel"])
@@ -10682,6 +10822,8 @@ def sync_github_database(
         "dry_run": dry_run,
         "no_push": no_push,
         "source_conversion_only": source_conversion_only,
+        "refresh_base": refresh_base,
+        "base_refresh": {},
         "included": existing,
         "staged": [],
         "committed": False,
@@ -10699,6 +10841,13 @@ def sync_github_database(
         planned = run_git(paths.root, add_args)
         summary["planned"] = [line for line in planned.stdout.splitlines() if line.strip()]
         return summary
+
+    if refresh_base:
+        summary["base_refresh"] = refresh_github_database_base(paths.root, include_paths)
+        existing = [path for path in include_paths if (paths.root / path).exists()]
+        summary["included"] = existing
+        if not existing:
+            return summary
 
     add_args = ["add", "-A"]
     if source_conversion_only:
@@ -12015,6 +12164,11 @@ def build_parser() -> argparse.ArgumentParser:
     sync_github_parser.add_argument("--dry-run", action="store_true", help="Show what would be added without staging or committing.")
     sync_github_parser.add_argument("--no-push", action="store_true", help="Create a local commit but do not push.")
     sync_github_parser.add_argument("--source-conversion-only", action="store_true", help="Sync only raw conversion artifacts and minimal automation state.")
+    sync_github_parser.add_argument(
+        "--refresh-base",
+        action="store_true",
+        help="Hosted GitHub Actions mode: snapshot generated included-path changes, reset to latest origin branch, merge shared state, then commit.",
+    )
 
     source_prep_fastlane_parser = subparsers.add_parser(
         "source-prep-fastlane",
@@ -12715,6 +12869,7 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             no_push=args.no_push,
             source_conversion_only=args.source_conversion_only,
+            refresh_base=args.refresh_base,
         )
         print("sync-github-database | summary")
         print(json.dumps(summary, indent=2, ensure_ascii=False))
