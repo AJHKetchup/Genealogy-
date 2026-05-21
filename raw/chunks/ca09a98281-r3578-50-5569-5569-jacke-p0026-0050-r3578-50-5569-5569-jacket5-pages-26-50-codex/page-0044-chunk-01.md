@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bd93db0e1c4e-P0044-01
+chunk_id: CHUNK-a7b1d2445020-P0044-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
-converted_sha256: bd93db0e1c4e02270db224bb899943f4cbedc7da03e9fd458d4f806887046367
+converted_sha256: a7b1d2445020bc7a77cd8ba9a2dadac6aed267e5d988b53a7c7348015e109082
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
@@ -294,10 +294,3 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
-
-## Page Metadata
-Page number: 42
-
-## Layout And Reading Order
-
-The page contains a main body of text, structured into chapters and articles, with a page number at the top. The text flows in a single column.
