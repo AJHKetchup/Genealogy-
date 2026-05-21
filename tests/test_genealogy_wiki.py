@@ -1157,9 +1157,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     assert 'rm -f "$EASYOCR_MODULE_PATH/model/temp.zip"' in workflow
     assert 'easyocr.Reader(["en"], gpu=False, verbose=False, download_enabled=True)' in workflow
     assert "https://download.pytorch.org/whl/cpu" in workflow
-    assert 'python -m pip install --no-cache-dir -e ".[discovery]"' in workflow
+    assert "sudo apt-get install -y tesseract-ocr tesseract-ocr-eng" in workflow
+    assert 'python -m pip install --no-cache-dir -e ".[discovery,ocr]"' in workflow
     pyproject = (Path(__file__).resolve().parents[1] / "pyproject.toml").read_text(encoding="utf-8")
     assert "easyocr>=1.7.2" in pyproject
+    assert "pytesseract>=0.3.10" in pyproject
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
     assert "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}" in workflow
@@ -2502,6 +2504,41 @@ def test_docling_discovery_revalidates_old_error_cache_after_dependency_fix(tmp_
     assert entry["status"] == "rough_ok"
     assert entry["profile_version"] == genealogy_wiki.SOURCE_PREP_DISCOVERY_PROFILE_VERSION
     assert entry["method_detail"] == "pdf_text_layer_after_docling_error"
+
+
+def test_docling_discovery_uses_tesseract_after_docling_error(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    source = tmp_path / "raw" / "sources" / "scanned-docling-timeout.pdf"
+    doc = fitz.open()
+    doc.new_page(width=360, height=500)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+
+    def fake_docling(input_path, **kwargs):
+        raise RuntimeError("Docling hard timeout after 90 seconds.")
+
+    def fake_tesseract(input_path, **kwargs):
+        return {
+            "markdown": "Recovered scanned source text after the Docling baseline timed out. " * 8,
+            "extracted_images": [],
+        }
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_tesseract_after_docling_error", fake_tesseract)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 1
+    assert summary["tasks"][0]["tesseract_after_docling_error"] is True
+    assert "Docling hard timeout" in summary["tasks"][0]["docling_error"]
+    discovery = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").read_text(encoding="utf-8"))
+    entry = next(iter(discovery["entries"].values()))
+    assert entry["method"] == "tesseract_after_docling_error"
+    assert entry["method_detail"] == "tesseract_after_docling_error"
+    assert entry["status"] == "rough_ok"
 
 
 def test_docling_discovery_dry_run_does_not_write_state_or_log(tmp_path, monkeypatch) -> None:

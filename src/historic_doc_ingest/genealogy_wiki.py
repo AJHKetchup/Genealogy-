@@ -6459,6 +6459,51 @@ def convert_source_with_docling_hard_timeout(
     raise RuntimeError(error)
 
 
+def convert_source_with_tesseract_after_docling_error(
+    input_path: Path,
+    *,
+    image_output_dir: Path,
+    image_prefix: str,
+    root: Path,
+    language: str = "eng",
+) -> dict[str, object]:
+    try:
+        import fitz
+    except ImportError as exc:
+        raise RuntimeError("PyMuPDF is required for Tesseract source-prep fallback.") from exc
+
+    try:
+        from historic_doc_ingest.ocr import ocr_page
+    except ImportError as exc:
+        raise RuntimeError("Tesseract fallback requires the OCR extra.") from exc
+
+    with tempfile.TemporaryDirectory(prefix="source-prep-tesseract-") as tmp:
+        image_path = Path(tmp) / "page.png"
+        with fitz.open(input_path) as doc:
+            if not doc:
+                raise RuntimeError("Tesseract fallback found no PDF page to render.")
+            page = doc[0]
+            pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), alpha=False)
+            pix.save(image_path)
+            page_height = float(pix.height)
+
+        blocks = ocr_page(image_path, page_height=page_height, language=language)
+
+    sorted_blocks = sorted(blocks, key=lambda block: (block.bbox.y0, block.bbox.x0))
+    lines = [str(block.text).strip() for block in sorted_blocks if str(block.text).strip()]
+    markdown = "\n".join(lines).strip()
+    extracted_images = extract_local_visual_regions_from_pdf(
+        input_path,
+        image_output_dir=image_output_dir,
+        image_prefix=image_prefix,
+        root=root,
+    )
+    return {
+        "markdown": markdown,
+        "extracted_images": extracted_images,
+    }
+
+
 def build_source_prep_docling_task_result(
     paths: WikiPaths,
     task: dict[str, object],
@@ -6654,6 +6699,47 @@ def run_source_prep_docling_task(
             if "unexpected" not in str(exc) and "positional" not in str(exc):
                 raise
             docling_result = convert_source_with_docling(input_path)
+        except Exception as docling_exc:
+            if not effective_use_ocr:
+                raise
+            try:
+                tesseract_result = convert_source_with_tesseract_after_docling_error(
+                    input_path,
+                    image_output_dir=image_output_dir,
+                    image_prefix=image_prefix,
+                    root=paths.root,
+                )
+            except Exception:
+                raise docling_exc
+            tesseract_markdown, extracted_images = normalize_docling_conversion_result(tesseract_result)
+            task = dict(task)
+            task["_docling_conversion_method"] = "Tesseract OCR fallback after Docling baseline error"
+            return build_source_prep_docling_task_result(
+                paths,
+                task,
+                cache_key,
+                agent,
+                tesseract_markdown,
+                extracted_images,
+                extra_report={
+                    "docling_ocr": True,
+                    "tesseract_after_docling_error": True,
+                    "docling_error": str(docling_exc),
+                    "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                    "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
+                    "text_layer_flags": task.get("_docling_text_layer_flags", []),
+                },
+                extra_entry={
+                    "method": "tesseract_after_docling_error",
+                    "method_detail": "tesseract_after_docling_error",
+                    "docling_ocr": True,
+                    "docling_error": str(docling_exc),
+                    "text_layer_chars": task.get("_docling_text_layer_chars", 0),
+                    "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                    "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
+                    "text_layer_flags": task.get("_docling_text_layer_flags", []),
+                },
+            )
         docling_markdown, extracted_images = normalize_docling_conversion_result(docling_result)
         return build_source_prep_docling_task_result(
             paths,

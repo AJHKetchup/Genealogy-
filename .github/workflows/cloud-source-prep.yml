@@ -237,8 +237,10 @@ jobs:
         run: |
           echo "Disk before Docling dependency install:"
           df -h
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-eng
           python -m pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch torchvision
-          python -m pip install --no-cache-dir -e ".[discovery]"
+          python -m pip install --no-cache-dir -e ".[discovery,ocr]"
           python -m pip cache purge || true
           echo "Disk after Docling dependency install:"
           df -h
