@@ -148,7 +148,7 @@ jobs:
           if ($exitCode -ne 0) {
             throw "Codex session failed with exit code $exitCode."
           }
-          $ok = @($reply | Where-Object { $_.ToString().Trim() -match '^OK\\.?$' }).Count -gt 0
+          $ok = @($reply | Where-Object { $_.ToString().Trim() -match '^OK\.?$' }).Count -gt 0
           if (-not $ok) {
             throw "Codex session did not return OK."
           }
@@ -219,29 +219,47 @@ jobs:
           GH_TOKEN: ${{ secrets.CODEX_SECRET_UPDATE_TOKEN }}
         run: |
           $ErrorActionPreference = "Stop"
-          if ([string]::IsNullOrWhiteSpace($env:GH_TOKEN)) {
-            throw "Missing CODEX_SECRET_UPDATE_TOKEN. Add a GitHub token with repository Secrets write permission so hosted Codex auth can rotate after refresh."
-          }
-          if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
-            throw "GitHub CLI 'gh' is unavailable on this runner; cannot rotate CODEX_AUTH_JSON_B64."
-          }
-          $authPath = Join-Path $env:CODEX_HOME "auth.json"
-          if (-not (Test-Path -LiteralPath $authPath)) {
-            throw "Codex auth file was not found at $authPath."
-          }
-          $authJson = Get-Content -LiteralPath $authPath -Raw
-          $auth = $authJson | ConvertFrom-Json
-          if ($auth.auth_mode -ne "chatgpt" -or $null -eq $auth.tokens -or [string]::IsNullOrWhiteSpace($auth.tokens.refresh_token)) {
-            throw "Refusing to rotate Codex auth secret because auth.json is not a ChatGPT auth file with a refresh token."
-          }
-          $encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($authJson))
-          $secretFile = New-TemporaryFile
+          $logDir = "research/_agent-queues/post-conversion-run-logs"
+          New-Item -ItemType Directory -Force -Path $logDir | Out-Null
+          $rotateLog = Join-Path $logDir "codex-auth-rotation-latest.log"
+          "Codex auth rotation started $(Get-Date -AsUTC -Format o)" | Set-Content -LiteralPath $rotateLog -Encoding UTF8
+          $exitCode = 0
           try {
-            Set-Content -LiteralPath $secretFile -Value $encoded -NoNewline -Encoding UTF8
-            gh secret set CODEX_AUTH_JSON_B64 --repo $env:GITHUB_REPOSITORY --body-file $secretFile
+            if ([string]::IsNullOrWhiteSpace($env:GH_TOKEN)) {
+              throw "Missing CODEX_SECRET_UPDATE_TOKEN. Add a GitHub token with repository Secrets write permission so hosted Codex auth can rotate after refresh."
+            }
+            if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
+              throw "GitHub CLI 'gh' is unavailable on this runner; cannot rotate CODEX_AUTH_JSON_B64."
+            }
+            gh --version | Add-Content -LiteralPath $rotateLog -Encoding UTF8
+            $authPath = Join-Path $env:CODEX_HOME "auth.json"
+            if (-not (Test-Path -LiteralPath $authPath)) {
+              throw "Codex auth file was not found at $authPath."
+            }
+            $authJson = Get-Content -LiteralPath $authPath -Raw
+            $auth = $authJson | ConvertFrom-Json
+            if ($auth.auth_mode -ne "chatgpt" -or $null -eq $auth.tokens -or [string]::IsNullOrWhiteSpace($auth.tokens.refresh_token)) {
+              throw "Refusing to rotate Codex auth secret because auth.json is not a ChatGPT auth file with a refresh token."
+            }
+            $encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($authJson))
+            $secretFile = New-TemporaryFile
+            try {
+              Set-Content -LiteralPath $secretFile -Value $encoded -NoNewline -Encoding UTF8
+              gh secret set CODEX_AUTH_JSON_B64 --repo $env:GITHUB_REPOSITORY --body-file $secretFile 2>&1 | Add-Content -LiteralPath $rotateLog -Encoding UTF8
+            }
+            finally {
+              Remove-Item -LiteralPath $secretFile -Force -ErrorAction SilentlyContinue
+            }
+            "rotation=success" | Add-Content -LiteralPath $rotateLog -Encoding UTF8
+          }
+          catch {
+            $exitCode = 1
+            "rotation=failure" | Add-Content -LiteralPath $rotateLog -Encoding UTF8
+            $_.Exception.Message | Add-Content -LiteralPath $rotateLog -Encoding UTF8
+            Write-Warning "Codex auth rotation failed. Safe outputs and diagnostics will still be published."
           }
           finally {
-            Remove-Item -LiteralPath $secretFile -Force -ErrorAction SilentlyContinue
+            "CODEX_ROTATE_EXIT_CODE=$exitCode" | Out-File -FilePath $env:GITHUB_ENV -Append
           }
 
       - name: Publish internal research outputs
@@ -254,10 +272,10 @@ jobs:
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --internal-research-only --refresh-base --message "Run internal research agents"
 
       - name: Mark controller failure after durable publish
-        if: always() && (env.INTERNAL_AGENT_EXIT_CODE != '' && env.INTERNAL_AGENT_EXIT_CODE != '0' || env.PROMOTION_EXIT_CODE != '' && env.PROMOTION_EXIT_CODE != '0')
+        if: always() && (env.INTERNAL_AGENT_EXIT_CODE != '' && env.INTERNAL_AGENT_EXIT_CODE != '0' || env.PROMOTION_EXIT_CODE != '' && env.PROMOTION_EXIT_CODE != '0' || env.CODEX_ROTATE_EXIT_CODE != '' && env.CODEX_ROTATE_EXIT_CODE != '0')
         shell: pwsh
         run: |
-          Write-Error "Internal research agents recorded a controller failure after publishing diagnostics. See research/_agent-queues/post-conversion-controller-state.json and post-conversion run logs."
+          Write-Error "Internal research agents recorded a controller or auth-rotation failure after publishing diagnostics. See research/_agent-queues/post-conversion-controller-state.json and post-conversion run logs."
 
       - name: Summarize agent state
         if: always()
