@@ -6465,8 +6465,9 @@ def convert_source_with_tesseract_after_docling_error(
     image_output_dir: Path,
     image_prefix: str,
     root: Path,
-    language: str = "eng",
+    language: str = "eng+spa+fra",
     timeout: float = 20.0,
+    image_scale: float = 1.25,
 ) -> dict[str, object]:
     try:
         import fitz
@@ -6484,7 +6485,7 @@ def convert_source_with_tesseract_after_docling_error(
             if not doc:
                 raise RuntimeError("Tesseract fallback found no PDF page to render.")
             page = doc[0]
-            pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), alpha=False)
+            pix = page.get_pixmap(matrix=fitz.Matrix(image_scale, image_scale), alpha=False)
             pix.save(image_path)
             page_height = float(pix.height)
 
@@ -6710,8 +6711,8 @@ def run_source_prep_docling_task(
                     image_prefix=image_prefix,
                     root=paths.root,
                 )
-            except Exception:
-                raise docling_exc
+            except Exception as tesseract_exc:
+                raise RuntimeError(f"{docling_exc}; Tesseract fallback failed: {tesseract_exc}") from tesseract_exc
             tesseract_markdown, extracted_images = normalize_docling_conversion_result(tesseract_result)
             task = dict(task)
             task["_docling_conversion_method"] = "Tesseract OCR fallback after Docling baseline error"
