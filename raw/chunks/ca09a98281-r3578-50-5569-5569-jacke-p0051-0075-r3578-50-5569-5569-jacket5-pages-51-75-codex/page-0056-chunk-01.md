@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f627b9b5c965-P0056-01
+chunk_id: CHUNK-6887ad0c0a42-P0056-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75.codex.md
-converted_sha256: f627b9b5c965b0bd499790e005ee8f43d626b07eaced1e363d185819a898b1b6
+converted_sha256: 6887ad0c0a426835f9364658ea16343dca25cca924470a7f14653860a8fa62cc
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json
@@ -201,94 +201,3 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-
-## Page Metadata
-Page number: 53
-
-## Layout And Reading Order
-
-The page presents a single column of text, primarily consisting of articles from a document. The content is structured with article numbers (e.g., "ARTICLE 66") followed by the article text. There are also larger section titles (e.g., "TITLE IV. TERMINATION OF CAPTIVITY"). The text includes standard paragraphs and a lettered list.
-
-## Literal Transcription
-
-53
-
-ARTICLE 66.
-
-If the death penalty is pronounced against a prisoner of war,
-a communication setting forth in detail the nature and circumstances
-of the offense shall be sent as soon as possible to the representative of
-the protecting Power, for transmission to the Power in whose armies
-the prisoner served.
-
-The sentence shall not be executed before the expiration of a period
-of at least three months after this communication.
-
-ARTICLE 67.
-
-No prisoner of war may be deprived of the benefit of the provisions
-of Article 42 of the present Convention as a result of a sentence or
-otherwise.
-
-TITLE IV. TERMINATION OF CAPTIVITY.
-
-SECTION I. DIRECT REPATRIATION AND HOSPITALIZATION IN A
-NEUTRAL COUNTRY.
-
-ARTICLE 68.
-
-Belligerents are bound to send back to their own country, regardless
-of rank or number, seriously sick and seriously injured prisoners of
-war, after having brought them to a condition where they can be
-transported.
-
-Agreements between belligerents shall accordingly settle as soon as
-possible the cases of invalidity or of sickness, entailing direct repatria-
-tion, as well as the cases entailing possible hospitalization in a neutral
-country. While awaiting the conclusion of these agreements, bellig-
-erents may have reference to the model agreement annexed, for
-documentary purposes, to the present Convention.
-
-ARTICLE 69.
-
-Upon the outbreak of hostilities, belligerents shall come to an
-agreement to name mixed medical commissions. These commissions
-shall be composed of three members, two of them belonging to a
-neutral country and one appointed by the detaining Power; one of the
-physicians of the neutral country shall preside. These mixed medical
-commissions shall proceed to the examination of sick or wounded
-prisoners and shall make all due decisions regarding them.
-
-Decisions of these commissions shall be by majority and carried
-out with the least possible delay.
-
-ARTICLE 70.
-
-Besides those who are designated by the camp physician, the follow-
-ing prisoners of war shall be inspected by the mixed medical Commis-
-sion mentioned in Article 69, with a view to their direct repatriation
-or their hospitalization in a neutral country:
-
-*a)* Prisoners who make such a request directly of the camp physi-
-cian;
-*b)* Prisoners who are presented by the agents provided for in
-Article 43, acting on their own initiative or at the request of the
-prisoners themselves;
-
-## Images, Captions, And Visual Notes
-
-There are no meaningful images or captions on this page.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```

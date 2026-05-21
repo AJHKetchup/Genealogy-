@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c1027591fd17-P0434-01
+chunk_id: CHUNK-6b07cc479371-P0434-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450.codex.md
-converted_sha256: c1027591fd1780437f6f94d272fe27f8ada6b5c7acfe348aacff94ee72a03245
+converted_sha256: 6b07cc47937107c981ff1c45326e6cf011036a68e37306923617bdc940fb582d
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## SECTION II.
 
 ## De l'Organisation du contrôle.
@@ -111,97 +110,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 13
-Date: 22 Juillet 1929
-
-## Layout And Reading Order
-
-The page presents a single-column layout with a header at the top indicating the session date and page number. The main content consists of a series of statements from different individuals, each identified by their title, name, and country (or organization). Each statement is presented as one or more paragraphs, with the speaker's identification line slightly indented and bolded, and the subsequent text indented further.
-
-## Literal Transcription
-
-SÉANCE DU 22 JUILLET 1929 13
-
-Dans le texte que nous avons sous les yeux on dit subitement que la Puissance protectrice
-chargée de sauvegarder les intérêts pourra faite telle chose. Mais il me paraît utile de définir
-exactement la tâche principale de cette Puissance protectrice. C'est ce que réalise la proposition
-allemande.
-
-    **Le Colonel Vartejano (Roumanie)** :
-
-        La délégation roumaine propose de biffer l'expression « sans aucune exception ».
-        En cas de guerre les états-majors pourraient être mis dans la nécessité de refuser l'accès
-    de certaines localités, d'une place assiégée, par exemple.
-        La délégation roumaine propose aussi que les mots « sans aucun témoin », dans le deuxième
-    alinéa de cet article 86, soient remplacés par l'expression « librement ». Des raisons d'ordre
-    strictement militaire pourraient s'opposer à ce contact sans témoin des prisonniers avec des
-    personnes étrangères à l'armée nationale.
-
-    **Le Lieutenant-Colonel Holt-Wilson (Grande-Bretagne)** :
-
-        Je crois qu'on un oubli a été commis au premier paragraphe de l'article 86, où il est dit que
-    la Puissance protectrice pourra, en dehors de son personnel diplomatique, désigner des délégués
-    appartenant à d'autres puissances neutres. Il semblerait à la lecture de ce texte que la Puissance
-    protectrice ne peut envoyer que du personnel diplomatique. Il faudrait dire que la Puissance
-    protectrice pourra désigner « non seulement des délégués de sa propre nationalité, mais aussi
-    des délégués appartenant à d'autres Puissances neutres ».
-        En ce qui concerne le deuxième alinéa, j'appuie la proposition de la délégation roumaine,
-    de dire « librement » au lieu de « sans témoin ».
-
-    **M. Van Slooten (Pays-Bas)** :
-
-        La délégation néerlandaise appuie la proposition allemande.
-
-    **M. Amagi (Japon)** :
-
-        La délégation japonaise accepte la proposition de la délégation allemande en principe,
-    mais au lieu de « seront appelées » nous voudrions mettre « pourront être appelées ».
-
-    **M. Irgens (Norvège)** :
-
-        Je préférerais le texte de la délégation allemande. Je voterai pour cette proposition.
-
-    **M. Werner (C.I.C.R.), rapporteur** :
-
-        Le texte allemand a été soumis sous une autre forme à la première sous-commission et
-    nous avons éprouvé des difficultés au sujet des termes de cette proposition.
-        Si l'on dit « seront appelées » ou « pourront être appelées » on se demande par qui les
-    Puissances protectrices seront appelées.
-        La délégation allemande entend-elle dire que c'est l'Etat dont la Puissance protectrice
-    protège les intérêts qui appelle cette Puissance protectrice à fonctionner conformément à
-    l'article 86 ?. S'il en est bien ainsi, la délégation allemande serait d'accord avec la délégation
-    japonaise : sinon il faudrait rédiger la proposition autrement. Cette rédaction pourrait être
-    la suivante :
-        « Les Hautes Parties contractantes conviennent que l'application régulière de la présente
-    Convention implique la collaboration des Puissances protectrices chargées de sauvegarder
-    les intérêts des belligérants. »
-        Je désirerais savoir si l'on veut laisser à la Puissance protectrice le soin de fonctionner de
-    sa propre initiative, ou si l'on entend qu'elle doit agir à la demande de la Puissance dont elle
-    protège les intérêts.
-
-## Images, Captions, And Visual Notes
-
-This page contains no images, captions, or visual notes.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images, captions, or visual notes."}
-```
-
-## Page Metadata
-Page Number: 436
-Header: 14 SÉANCE DU 22 JUILLET 1929
-
-## Layout And Reading Order
-The page presents a transcript of a meeting, formatted as a series of speakers and their statements. Each speaker's name and affiliation are bolded, followed by their statement in regular text. The content flows in a single column from top to bottom.

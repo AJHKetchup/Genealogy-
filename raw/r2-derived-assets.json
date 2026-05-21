@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-21T07:14:11.066266+00:00",
+  "created": "2026-05-21T07:31:36.755294+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -49,6 +49,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/extracted-images/page-0028/page-0028-docling-image-01.png",
       "bytes": 5688,
       "sha256": "0951a19b89ca57e7bdaae583c73cae4f016d1de1427d06244ddf4bfd258dae9e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0382/page-0382-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0382/page-0382-docling-image-01.png",
+      "bytes": 2485,
+      "sha256": "22452a2d969de0b7736b342873e08f874657438c255dcf43e552cc58d78db06c",
       "media_type": "image/png"
     },
     {
@@ -5981,6 +5988,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325/extracted-images/page-0309/page-0309-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket4-pages-301-325/extracted-images/page-0309/page-0309-docling-image-01.png",
+      "bytes": 13884,
+      "sha256": "961b2ba78b66231d2188b83ec252f144d7c4faf6507d28d52f08e1e252624981",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450/extracted-images/page-0436/page-0436-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450/extracted-images/page-0436/page-0436-docling-image-01.png",
       "bytes": 5547,
@@ -5999,6 +6013,20 @@
       "key": "derived/raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/extracted-images/page-0055/page-0055-docling-image-01.png",
       "bytes": 10520,
       "sha256": "510122c2274c09c4deae1d7c34635bea0aab76eb2e591f689ca09706642edfa3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket1-pages-76-100/extracted-images/page-0079/page-0079-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket1-pages-76-100/extracted-images/page-0079/page-0079-docling-image-01.png",
+      "bytes": 8226,
+      "sha256": "633f75c59140fb790881d61fa0b283076c3d0ef65e82e4ce2f4c0a10c4ced607",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125/extracted-images/page-0119/page-0119-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125/extracted-images/page-0119/page-0119-docling-image-01.png",
+      "bytes": 4941,
+      "sha256": "35224248eed61c38f42d8747b6eb58777a5f235d00571d39d13119fdcfc91b41",
       "media_type": "image/png"
     },
     {
@@ -6180,9 +6208,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 4,
+    "total_bytes": 29536,
+    "uploaded": 4,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -6193,9 +6221,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 880,
+      "scanned": 884,
       "deleted": 0,
-      "skipped": 880,
+      "skipped": 884,
       "errors": []
     }
   }

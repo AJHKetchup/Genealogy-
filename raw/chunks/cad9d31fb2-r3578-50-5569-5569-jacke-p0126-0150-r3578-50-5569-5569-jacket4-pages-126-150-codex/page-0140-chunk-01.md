@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f01ddb495dd2-P0140-01
+chunk_id: CHUNK-cb8f9e5c8932-P0140-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150.codex.md
-converted_sha256: f01ddb495dd228dbfe7f2fcca61f659227e7b68c7df26bb86827f8fc0d0f638f
+converted_sha256: cb8f9e5c8932c3261125052e83a65dd42b6da07c0f0e90840d45218d4c323a22
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150/manifest.json
@@ -149,74 +149,3 @@ All visible text on the page has been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
 ```
-
-## Page Metadata
-Page number: 23
-
-## Layout And Reading Order
-The page contains a single column of text. At the top right, there is a page number. Below that, a main heading is centered. The main content consists of several paragraphs, some of which are numbered. At the bottom of the page, there are two numbered footnotes.
-
-## Literal Transcription
-23
-INTRODUCTION
-
-introduites dans la Convention de Genève par la révision de 1906.
-La Convention XI, relative à certaines restrictions à l’exercice du
-droit de capture dans la guerre maritime, énonce, dans son chapitre III
-(art. 5 à 8) les règles relatives au régime des équipages des navires de
-commerce ennemis capturés par un belligérant.
-La Convention XIII, concernant les droits et les devoirs des Puis-
-sances neutres en cas de guerre maritime, contient quelques disposi-
-tions relatives à l’internement de belligérants.
-Les textes de la Haye de 1907, comme ceux de 1899, seront com-
-mentés dans les chapitres suivants. Il n’y a donc pas lieu de s’y
-arrêter ici plus longuement.
-12. Le projet de Code des prisonniers de guerre de 1923. — La grande
-guerre a révélé l’importance et la gravité de la question des prison-
-niers de guerre. Leur nombre, leur état de santé, la durée de leur
-captivité ont conduit les États belligérants à conclure des accords
-pendant les hostilités, relatifs au traitement, à l’internement en
-pays neutre ou au rapatriement des prisonniers ¹. La nécessité de
-régler d’une manière plus détaillée les conditions et la fin de la capti-
-vité a fait surgir l’idée d’élaborer et de soumettre à une conférence
-convoquée à cet effet, un véritable Code des prisonniers de guerre.
-La Xᵉ Conférence internationale de la Croix-Rouge, réunie à
-Genève en 1921, ne pouvait manquer de s’intéresser à ce problème.
-Après une discussion approfondie, elle a adopté une résolution
-(nº XV) dont voici le début : « La Conférence émet le vœu que les
-gouvernements concluent dans le plus bref délai possible, pour
-compléter et éventuellement modifier la Convention de la Haye,
-IV, de 1907, Règlement annexe, une Convention diplomatique
-sur les prisonniers de guerre, les déportés, les évacués et les réfugiés,
-précisant leur situation juridique et fixant les règles du régime
-auquel ils pourront être soumis. » La Conférence, en même temps,
-énonçait les principes sur lesquels cette convention devrait être
-basée. Elle priait, d’autre part, le Comité international de la Croix-
-Rouge de charger une commission d’élaborer le texte d’un projet ².
-Cette commission, présidée par le Dʳ Ferrière, s’acquitta assez
-rapidement de sa tâche pour que le projet issu de ses délibérations
-
-1. Voir *Revue internationale de la Croix-Rouge*, 1923, p. 773.
-2. *Compte rendu de la Xᵉ Conférence internationale de la Croix-Rouge tenue*
-*à Genève, du 30 mars au 7 avril 1921*, Genève, 1921, p. 218 et suiv.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
-
-## Page Metadata
-- Page number: 143
-- Source publication year: 1928 (inferred from footnote 4)
-
-## Layout And Reading Order
-The page consists of a single column of text. At the top, there is a page number and a running header. The main body of the text is divided into three paragraphs. Below the main text, there are four numbered footnotes, presented in a smaller font size. The reading order is from top to bottom, left to right, with footnotes read after the main text.

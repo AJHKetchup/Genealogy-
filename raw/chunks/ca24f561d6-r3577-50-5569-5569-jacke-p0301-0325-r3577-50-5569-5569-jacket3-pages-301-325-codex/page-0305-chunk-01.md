@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-95b254a921a8-P0305-01
+chunk_id: CHUNK-9a426d3d04d9-P0305-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325.codex.md
-converted_sha256: 95b254a921a8cf233c36accb6a849bc7f67e57c15816b3e34c6522d0bcf88e23
+converted_sha256: 9a426d3d04d9c428735f546f39978f830cd1124849afa74a5309190a2e0b60be
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Le Médecin Général Marotte (France) :
 
 Il me semble que la situation telle que vient de l'expliquer M. Ackermann est tout à fait claire. Vous avez proposé tout à l'heure de voter sur la question de savoir si l'on devait se pro¬ noncer. Ce que vient de dire M. Ackermann me paraît plus logique. Veut-on, oui ou non, admettre une sanction ? Point n'est besoin de voter au préalable pour savoir si l'on veut voter. Est-on d'avis d'émettre une sanction ? La commission
@@ -181,11 +180,3 @@ All visible text on the page has been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content. It is composed entirely of text."}
 ```
-
-## Page Metadata
-Page number: 13
-Date: SÉANCE DU 18 JUILLET 1929
-
-## Layout And Reading Order
-
-The page contains a header with the session date and page number. The main content consists of a series of paragraphs, each representing a statement or question, often attributed to a speaker. The text flows in a single column.

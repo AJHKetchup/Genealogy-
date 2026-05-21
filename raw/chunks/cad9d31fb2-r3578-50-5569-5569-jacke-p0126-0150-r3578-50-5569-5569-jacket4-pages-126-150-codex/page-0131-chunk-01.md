@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f01ddb495dd2-P0131-01
+chunk_id: CHUNK-cb8f9e5c8932-P0131-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150.codex.md
-converted_sha256: f01ddb495dd228dbfe7f2fcca61f659227e7b68c7df26bb86827f8fc0d0f638f
+converted_sha256: cb8f9e5c8932c3261125052e83a65dd42b6da07c0f0e90840d45218d4c323a22
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150/manifest.json
@@ -70,55 +70,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-
-- **Page number**: 132
-- **Printed page number**: 13
-- **Language(s)**: French
-- **Document type**: Book page
-- **Document title**: Unknown
-
-## Layout And Reading Order
-
-The page contains a single column of text. The reading order is from top to bottom. A header with the title "INTRODUCTION" and page number "13" is at the top. The main body of text is followed by a section of footnotes at the bottom, separated by a short horizontal rule.
-
-## Literal Transcription
-
-<p style="text-align: center;">INTRODUCTION</p>
-<p style="text-align: right;">13</p>
-
-En ce qui concerne les prisonniers de guerre, Bluntschli suit visiblement les Instructions de 1863 et en propage les idées; il incorpore dans ses textes les dispositions de la Convention de Genève.
-
-6. Le mouvement en faveur d'une Convention relative au traitement des prisonniers de guerre. — La fondation de la Croix-Rouge, en 1863, la signature de la Convention de Genève en 1864, le développement que prit en peu d'années ce grand mouvement humanitaire, démontrent combien, dans tous les pays, l'idée de limiter l'étendue des maux causés par la guerre s'était rapidement propagée. Mais les promoteurs de la Convention de Genève sentaient bien eux-mêmes que leur œuvre serait incomplète si une autre Convention ne venait régler le traitement des prisonniers de guerre.
-
-A cet égard, rien n'est plus significatif que de relire le rapport qu'Henry Dunant présenta à la Conférence internationale de la Croix-Rouge à Paris en 1867, et les pages que Moynier et Appia, puis Moynier seul, consacrèrent à cette question, en 1867 et 1870. Il faut aussi rappeler les démarches qu'Henry Dunant lui-même fit, quelques années plus tard, en Angleterre pour provoquer la réunion d'une Conférence diplomatique.
-
-Dans son rapport de 1867¹, Dunant fait allusion aux vœux relatifs aux prisonniers de guerre, qui avaient été présentés à la Conférence qui fonda la Croix-Rouge à Genève en 1863. Lui-même avait fait diverses propositions; un Anglais, M. Twining s'était adressé à lui pour obtenir que la Conférence s'occupât de cette question, et surtout le prince Demidoff lui avait fait parvenir un message pressant qu'il cite tout entier². « La Conférence internationale de Genève, écrit Dunant, ne put prendre en considération ces différents vœux relatifs aux prisonniers, parce que, à cette époque, la plupart des
-
----
-C. Lardy, préface d'Édouard Laboulaye, Paris, 1870. — Sur Bluntschli, voir Holtzendorff et Rivier, *Introduction au droit des gens*, p. 449.
-
-1. Inséré dans *Conférences internationales à Paris, Société de secours aux blessés militaires des armées de terre et de mer, Paris, 1867*, compte rendu publié par la Commission spéciale des délégués, IIIe section, p. 56 et suiv.
-
-Ce rapport a été publié par M. Maurice Dunant en 1915 : *Henry Dunant, Les prisonniers de guerre*, publication réimprimée à l'occasion de la guerre européenne, Genève, 1915.
-
-2. Le prince Demidoff avait organisé à Vienne, pendant la guerre de Crimée, une agence de correspondance en faveur des Russes prisonniers en France et en Angleterre.
-
-## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or photographs on this page.
-
-## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page.
-
-## Completeness Audit
-
-This page is a complete and accurate transcription of the source image.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of printed text and contains no images, illustrations, or other visual elements suitable for cropping."}
-```
