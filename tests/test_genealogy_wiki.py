@@ -2493,13 +2493,15 @@ def test_docling_discovery_revalidates_old_error_cache_after_dependency_fix(tmp_
 
     summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
 
-    assert len(calls) == 1
+    assert len(calls) == 0
     assert summary["inspected"] == 1
     assert summary["accepted"] == 1
+    assert summary["tasks"][0]["docling_direct_text_layer_fallback"] is True
     discovery = json.loads(discovery_path.read_text(encoding="utf-8"))
     entry = discovery["entries"][cache_key]
     assert entry["status"] == "rough_ok"
     assert entry["profile_version"] == genealogy_wiki.SOURCE_PREP_DISCOVERY_PROFILE_VERSION
+    assert entry["method_detail"] == "pdf_text_layer_after_docling_error"
 
 
 def test_docling_discovery_dry_run_does_not_write_state_or_log(tmp_path, monkeypatch) -> None:

@@ -5576,7 +5576,7 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
 SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 6
-SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION = 2
+SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION = 3
 SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
 SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
 SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
@@ -5908,6 +5908,7 @@ def build_source_prep_docling_page_markdown(
     if not image_lines:
         image_lines.append("- No Docling picture regions were detected for this page.")
     flags = ", ".join(str(flag) for flag in profile.get("readability_flags", []) or []) or "none"
+    conversion_method = str(task.get("_docling_conversion_method") or "Docling basic conversion").strip()
     fence = markdown_fence_for_text(docling_markdown)
     return f"""# Page {page_number}
 
@@ -5918,7 +5919,7 @@ def build_source_prep_docling_page_markdown(
 - Conversion manifest: `{task.get("job_manifest", "")}`
 - Source page: {safe_int(task.get("source_page"), page_number)}
 - Page image: `{task.get("page_image", "")}`
-- Conversion method: Docling basic conversion
+- Conversion method: {conversion_method}
 - Docling readability status: `{profile.get("status", "")}`
 - Docling readability flags: {flags}
 - Extracted picture images: {len(extracted_images)}
@@ -6569,6 +6570,34 @@ def run_source_prep_docling_task(
         "docling_ocr": effective_use_ocr,
     }
     try:
+        if bool(task.get("_docling_direct_text_layer_fallback")):
+            text_layer_markdown = str(task.get("_docling_text_layer_text", "")).strip()
+            if text_layer_markdown:
+                task = dict(task)
+                task["_docling_conversion_method"] = "PDF text-layer fallback after Docling baseline error"
+                return build_source_prep_docling_task_result(
+                    paths,
+                    task,
+                    cache_key,
+                    agent,
+                    text_layer_markdown,
+                    [],
+                    extra_report={
+                        "docling_ocr": False,
+                        "docling_direct_text_layer_fallback": True,
+                        "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                        "text_layer_flags": task.get("_docling_text_layer_flags", []),
+                        "text_layer_used_without_ocr": True,
+                    },
+                    extra_entry={
+                        "docling_ocr": False,
+                        "method_detail": "pdf_text_layer_after_docling_error",
+                        "text_layer_chars": task.get("_docling_text_layer_chars", 0),
+                        "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+                        "text_layer_flags": task.get("_docling_text_layer_flags", []),
+                        "text_layer_used_without_ocr": True,
+                    },
+                )
         if not effective_use_ocr:
             text_layer = source_prep_docling_pdf_text_layer_preview(paths.root, task)
             if text_layer is not None and not bool(text_layer.get("has_meaningful_text_layer")):
@@ -6981,12 +7010,21 @@ def source_prep_docling_discovery_run(
                 preview_profile = profile_source_prep_discovery_markdown(str(preview.get("text", "")))
                 preview_flags = [str(flag) for flag in preview_profile.get("readability_flags", []) or []]
                 task["_docling_text_layer_chars"] = preview.get("text_layer_chars", 0)
+                task["_docling_text_layer_text"] = str(preview.get("text", ""))
                 task["_docling_text_layer_alpha_chars"] = preview.get("text_layer_alpha_chars", 0)
                 task["_docling_likely_full_page_scan"] = bool(preview.get("likely_full_page_scan"))
                 task["_docling_text_layer_flags"] = preview_flags
                 task["_docling_text_layer_can_skip_ocr"] = source_prep_docling_text_layer_can_skip_ocr(preview_profile)
                 if use_ocr and bool(task["_docling_text_layer_can_skip_ocr"]):
                     task["_docling_use_ocr"] = False
+                if (
+                    isinstance(cached, dict)
+                    and str(cached.get("status", "")).strip() == "error"
+                    and bool(task["_docling_text_layer_can_skip_ocr"])
+                    and re.search(r"Docling hard timeout|temp\.zip|EasyOCR|corrupt_msg", str(cached.get("error", "")))
+                ):
+                    task["_docling_use_ocr"] = False
+                    task["_docling_direct_text_layer_fallback"] = True
             if use_ocr and bool(task.get("_docling_use_ocr", True)):
                 if ocr_limit > 0 and ocr_count >= ocr_limit:
                     count_skip("ocr_limit_reached")
