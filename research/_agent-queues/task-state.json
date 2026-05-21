@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T21:12:43Z",
+  "updated": "2026-05-21T21:29:42Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -78053,20 +78053,24 @@
       "completed_at": "2026-05-21T15:28:59Z"
     },
     "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425-codex-md": {
-      "status": "in_progress",
-      "updated_at": "2026-05-21T15:26:44Z",
-      "agent": "postconv-conversion-qa-20260521152644158",
-      "note": "post-conversion controller start",
+      "status": "released",
+      "updated_at": "2026-05-21T21:29:42Z",
+      "note": "Released after no heartbeat/update for at least 360 minutes.",
       "claimed_at": "2026-05-21T15:26:44Z",
-      "started_at": "2026-05-21T15:26:44Z"
+      "started_at": "2026-05-21T15:26:44Z",
+      "released_by": "postconv-conversion-qa-20260521152644158",
+      "released_at": "2026-05-21T21:29:42Z",
+      "stale_after_minutes": 360
     },
     "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450-codex-md": {
-      "status": "in_progress",
-      "updated_at": "2026-05-21T15:28:03Z",
-      "agent": "postconv-conversion-qa-20260521152802988",
-      "note": "post-conversion controller start",
+      "status": "released",
+      "updated_at": "2026-05-21T21:29:42Z",
+      "note": "Released after no heartbeat/update for at least 360 minutes.",
       "claimed_at": "2026-05-21T15:28:03Z",
-      "started_at": "2026-05-21T15:28:03Z"
+      "started_at": "2026-05-21T15:28:03Z",
+      "released_by": "postconv-conversion-qa-20260521152802988",
+      "released_at": "2026-05-21T21:29:42Z",
+      "stale_after_minutes": 360
     },
     "source-prep:ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550:p0529": {
       "status": "done",
