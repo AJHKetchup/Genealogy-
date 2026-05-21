@@ -1,0 +1,124 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8d6f977b3d10-P0130-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150.codex.md
+converted_sha256: 8d6f977b3d10512d01ce9de31ce8bc9a2e12fb6d440fff1cae93360afedb6f77
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json
+page_start: 130
+page_end: 130
+part: 1
+---
+
+# Page 130
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/manifest.json`
+- Source page: 130
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/page-images/page-0130.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## VOCABULARIO DE TERMINOS VULGARES EN HISTOR1A NATURAL COLOMB1ANA
+
+## HERMANO APOLINAR MARIA
+
+Director-fundador del Museo de Ciencias Naturales del Instituto de La Salle-Bogota Profesor en el mlsmo Instituto.
+
+(Gontinuaciôn)
+
+Caledonia. Segûn el "Index Generum Phanerogamorum" de Th. Durand, el nûmero de las especies descritas pasa de 760.
+
+504.-Arrayân (Medellin) ; Arrayancito (Medellin). Myrcia popayanensis Hieron.-Familia de las Mirtâceas.
+
+Se han descrito algo asi como 500 especies pertenecientes al présente género; sin embargo, los diversos autores no estân de acuerdo en este punto; algunos admiten apenas 300, propias de la América tropical.
+
+El Bev. Hermano Daniel, Profesor de Historia Natural en el Colegio de San José, de Medellin, en
+
+501.-Arrayân.
+
+Myrtus mollis HBK. Familia de las Mirtâceas.
+
+El género Myrtus (Myrtos, de Myron, perfume) consta, segûn ciertos autores, de un centenar de especies; otros reducen este numéro a la mitad.
+
+M. mollis es un arbusto de nuestras tierras Mas, cuyas fruticas son comestibles. Segûn el General C. Cuervo Marquez, las hojas se usan para curar las diarreas.
+
+En las mismas regiones se encuentra el M. foliosus HBK, conocido también con el nombre de arrayân.
+
+Arrau n. v.-Podicnemus expansa. Familia de los Qtielônidos. (Descripcion: V. N9 500, entrega anterior de esta Revista). Dib.: Brehms Thierleben, 7e. Band, pag. 609. 1900. Leipzig und Wien. Bibliographisches Institut.
+
+<!-- image -->
+
+502.-Arrayân.
+
+Myrtus microphylla H.B.-Familia de las Mirtâceas.
+
+Es otra especie de las tierras Mas, de flores blancas, que se desarrollan sobre pedûnculos axilares, uniflores.
+
+503.-Arrayân. (Costa Atlântica).
+
+Eugenia sp.-Familia de las Mirtâceas.
+
+El présente género, dedicado al principe Eugenio de Saboya, comprende mâs de 700 especies de la América y Africa tropicales, Australia y Nueva su "Flora del Capiro", dice lo siguiente: "M. popayanensis Hier.-Arbol de ocho o mâs métros de altura, llamado arrayân. Hay varios ejemplares en los bordes del camino que conduce a Capiro".
+
+505.-Arrayân (Antioquia).
+
+Myrcia acuminata HBK.-Familia de las Mirtâceas.
+
+De la présente especie, dice el doctor Emilio Kobledo en su obra "Lecciones de Botânica", pâg. 487 : "Arbolito de nuestros climas templados, de bellas flores blancas, que son verdadero adorno de nuestros campos en los meses de diciembre".
+
+Las hojas dan, segûn el mismo autor, por destilaciôn, una esencia de color verde esmeralda, compuesta de hidrocarburo y mirtol.
+
+506.-Arrayân; Huesito (en Medellin) ; Arrayancito (Valle del Magdalena).
+
+Malpighia glabra Lin. - Familia de las Malpigiâceas.
+
+Malpighia (género dedicado a Malpighi, naturalista italiano del siglo XVII).
+
+El General C. Cuervo Mârquez en su obra "Tratado Elemental de Botânica", pâg. 291, indica dos especies principales del présente género, que consta de unas 20, todas propias de la América tropical.
+
+Las dos especies senaladas por dicho autor, son: M. glabra Lin. y M. punicifolia Lin.
+
+Dice asi tal autor: "Estas dos especies dejan es-
+```
+
+## Images, Captions, And Visual Notes
+
+- Arrau n. v.-Podicnemus expansa. Familia de los Qtielônidos. (Descripcion: V. N9 500, entrega anterior de esta Revista). Dib.: Brehms Thierleben, 7e. Band, pag. 609. 1900. Leipzig und Wien. Bibliographisches Institut.: ![Arrau n. v.-Podicnemus expansa. Familia de los Qtielônidos. (Descripcion: V. N9 500, entrega anterior de esta Revista). Dib.: Brehms Thierleben, 7e. Band, pag. 609. 1900. Leipzig und Wien. Bibliographisches Institut.](../extracted-images/page-0130/page-0130-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

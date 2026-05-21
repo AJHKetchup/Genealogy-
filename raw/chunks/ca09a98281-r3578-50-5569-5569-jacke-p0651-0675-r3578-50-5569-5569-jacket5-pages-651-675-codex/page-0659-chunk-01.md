@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-29452bbe7ed6-P0659-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675.codex.md
+converted_sha256: 29452bbe7ed64e7192331d15d53b91c057ad6ae0b7abaf7414790b0e29baacbc
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/manifest.json
+page_start: 659
+page_end: 659
+part: 1
+---
+
+# Page 659
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/manifest.json`
+- Source page: 659
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/page-images/page-0659.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## CHAPITRE V.
+
+## Des transports sanitaires.
+
+Comme vous pouvez le constater, Messieurs, le titre meme du chapitre V a ete modifie et de « convois d'evacuation », il est devenu «transports sanitaires ».
+
+C'est que la Commission s'est ralliee a l'avis exprime a ce sujet par un des Gouvernements signataires de la Convention. Dans la guerre moderne, en effet, il n'est plus question de convois d'evacuation, a part les trains sanitaires ; les voitures d'evacuation ne circulent plus en files regulieres qu'en de rares circonstances ; qu'elles soient a traction hippomobile ou automobile, elles vont plutot isolement pour se defiler des vues de l'ennemi ; l'avion d'autre part est essentiellement un
+
+transport isole.
+
+En outre, la matiere traitee dans le Chapitre V n'englobe pas seulement les transports d'evacuation de blesses et de malades, mais aussi des transports sanitaires d'autre nature : personnel, materiel. Dans ces conditions, les mots « transports d'evacuation » etaient limitatifs et ne couvraient
+
+plus toute la matiere reglee par le dit chapitre.
+
+En remplacant les mots « transports d'evacuation » par «transports sanitaires &gt;;, la Commisssion a pu, sans inconvenient, introduire ici les regies applicables a l'avion sanitaire et eviter de lui consacrer un
+
+chapitre special.
+
+## Article 17.
+
+Les vehicules amcnages four les evacuations sanitaires circulant isolement ou en convoi seront traites comme les
+
+formations sanitaires mobiles, sauf les dispositions speciales suivantes:
+
+Le belli gerant intercept-ant des vehicules de transport sanitaire, tsoles ou en convoi, pourra, si les necessites militaires Vexigent, les arreter, disloquer le convoi, en se chargeant dans tons les cas des blesses et des malades qu'il contient. Il ne pourra les utiliser que dans les secteurs oil ils auront ete interceptes et exclusivement pour des besoins sanitaires. Ces vehicules, une fois leur mission locale termihee, devront etre rendus dans les conditions prevues a l'article 14-
+
+Le personnel militaire prepose au transport et muni d cet effet d'un mandat regulier sera renvoye dans les conditions prevues'd Varticle 12 pour le personnel sanitaire, et sous reserve du dernier alinea de Varticle 18.
+
+Tous les moyens de transport specialement organises pour les evacuations et le materiel d' amenagement de ces moyens de transport relevant du service de sante seront restitues conformement aux
+
+dispositions du chapitre IV.
+
+Les moyens de transport militaires, autres que ceux du service de sante, pourront etre captures, avec lews
+
+attelages.
+
+Le personnel civil et tons les moyens de transport provenant de la requisition seront soumis
+
+aux regies generates du droit des gens.
+
+Les rnemes motifs qui ont fait changer le titre du chapitre ont conduit a un remaniement du texte lui-meme de l'article
+
+17.
+
+Dans les rer et 2me alineas, la Commission a desire exprimer l'assimilation exacte a des formations mobiles des vehicules servant a l'evacuation des blesses vers l'arriere et fixer le sort qui leur etait reserve en cas de capture. Du fait meme de leur immunisation par appli¬ cation de l'article 14, ces moyens de transport doivent etre rendus, mais il a paru naturel
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

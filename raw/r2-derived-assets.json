@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-21T05:37:10.109960+00:00",
+  "created": "2026-05-21T05:47:00.864278+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -35,6 +35,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25/extracted-images/page-0005/page-0005-image-01-seal-of-the-us-department-of-state.png",
       "bytes": 77873,
       "sha256": "94a86aa614461905bbebf3be249b9a63eb9d2b7aee7f17ca049a64131809b355",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/extracted-images/page-0028/page-0028-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/extracted-images/page-0028/page-0028-docling-image-01.png",
+      "bytes": 5688,
+      "sha256": "0951a19b89ca57e7bdaae583c73cae4f016d1de1427d06244ddf4bfd258dae9e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0387/page-0387-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0387/page-0387-docling-image-01.png",
+      "bytes": 2252,
+      "sha256": "55fd9259f79bbd621101cb3c92c5c9123aa999535edfe326c866454556866c43",
       "media_type": "image/png"
     },
     {
@@ -5372,6 +5386,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/extracted-images/page-0090/page-0090-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/extracted-images/page-0090/page-0090-docling-image-01.png",
+      "bytes": 670014,
+      "sha256": "31a897f9d1fee78a4b03a3fcb6c96f0cb5136935d6fee87036167f89d9493665",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/extracted-images/page-0090/page-0090-image-01-illustration-phaethon-birds-over-water.png",
       "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100/extracted-images/page-0090/page-0090-image-01-illustration-phaethon-birds-over-water.png",
       "bytes": 1171948,
@@ -5614,6 +5635,13 @@
       "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0129/page-0129-image-02-leaf-profiles-espeletia-species-botanical-illustration-fig-6.png",
       "bytes": 189698,
       "sha256": "5cce29b4e46b29e10166476f5ffce749e87bd3d833d9b5bc5170f268d3eec7c3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0130/page-0130-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150/extracted-images/page-0130/page-0130-docling-image-01.png",
+      "bytes": 565942,
+      "sha256": "13d9ff407bad8ffccafc74cfa200247f7cbe3ebf97e4e2bfdf7c57069313a2c0",
       "media_type": "image/png"
     },
     {
@@ -6040,9 +6068,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 4,
+    "total_bytes": 1243896,
+    "uploaded": 4,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -6053,9 +6081,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 860,
+      "scanned": 864,
       "deleted": 0,
-      "skipped": 860,
+      "skipped": 864,
       "errors": []
     }
   }
