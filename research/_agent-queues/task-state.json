@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T04:27:46Z",
+  "updated": "2026-05-21T04:43:45Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -4250,12 +4250,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0017": {
       "status": "done",
-      "updated_at": "2026-05-19T11:02:19Z",
+      "updated_at": "2026-05-21T04:43:27Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:11:35Z",
       "started_at": "2026-05-17T09:11:35Z",
-      "completed_at": "2026-05-19T11:02:19Z"
+      "completed_at": "2026-05-21T04:43:27Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25:p0018": {
       "status": "done",
@@ -4470,12 +4470,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50:p0041": {
       "status": "done",
-      "updated_at": "2026-05-19T10:56:20Z",
+      "updated_at": "2026-05-21T04:42:04Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:11:44Z",
       "started_at": "2026-05-17T09:11:44Z",
-      "completed_at": "2026-05-19T10:56:20Z"
+      "completed_at": "2026-05-21T04:42:04Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50:p0042": {
       "status": "done",
@@ -4526,21 +4526,21 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50:p0047": {
       "status": "done",
-      "updated_at": "2026-05-19T10:57:43Z",
+      "updated_at": "2026-05-21T04:42:30Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:11:46Z",
       "started_at": "2026-05-17T09:11:46Z",
-      "completed_at": "2026-05-19T10:57:43Z"
+      "completed_at": "2026-05-21T04:42:30Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50:p0048": {
       "status": "done",
-      "updated_at": "2026-05-19T11:01:20Z",
+      "updated_at": "2026-05-21T04:42:51Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:11:46Z",
       "started_at": "2026-05-17T09:11:46Z",
-      "completed_at": "2026-05-19T11:01:20Z"
+      "completed_at": "2026-05-21T04:42:51Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50:p0049": {
       "status": "done",
@@ -12197,12 +12197,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75:p0062": {
       "status": "done",
-      "updated_at": "2026-05-19T11:02:53Z",
+      "updated_at": "2026-05-21T04:43:36Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:45:17Z",
       "started_at": "2026-05-17T09:45:17Z",
-      "completed_at": "2026-05-19T11:02:53Z"
+      "completed_at": "2026-05-21T04:43:36Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75:p0063": {
       "status": "done",
@@ -12449,12 +12449,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100:p0091": {
       "status": "done",
-      "updated_at": "2026-05-19T10:58:51Z",
+      "updated_at": "2026-05-21T04:42:43Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:45:26Z",
       "started_at": "2026-05-17T09:45:26Z",
-      "completed_at": "2026-05-19T10:58:51Z"
+      "completed_at": "2026-05-21T04:42:43Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100:p0092": {
       "status": "done",
@@ -12478,12 +12478,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100:p0094": {
       "status": "done",
-      "updated_at": "2026-05-19T11:01:33Z",
+      "updated_at": "2026-05-21T04:43:05Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:45:27Z",
       "started_at": "2026-05-17T09:45:27Z",
-      "completed_at": "2026-05-19T11:01:33Z"
+      "completed_at": "2026-05-21T04:43:05Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100:p0095": {
       "status": "done",
@@ -12505,12 +12505,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100:p0097": {
       "status": "done",
-      "updated_at": "2026-05-19T11:01:57Z",
+      "updated_at": "2026-05-21T04:43:12Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:45:28Z",
       "started_at": "2026-05-17T09:45:28Z",
-      "completed_at": "2026-05-19T11:01:57Z"
+      "completed_at": "2026-05-21T04:43:12Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100:p0098": {
       "status": "done",
@@ -16506,12 +16506,12 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100:p0099": {
       "status": "done",
-      "updated_at": "2026-05-19T10:25:29Z",
+      "updated_at": "2026-05-21T04:40:29Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T09:48:06Z",
       "started_at": "2026-05-17T09:48:06Z",
-      "completed_at": "2026-05-19T10:25:29Z"
+      "completed_at": "2026-05-21T04:40:29Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100:p0100": {
       "status": "done",
@@ -19446,12 +19446,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125:p0118": {
       "status": "done",
-      "updated_at": "2026-05-19T10:57:34Z",
+      "updated_at": "2026-05-21T04:42:27Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:23:06Z",
       "started_at": "2026-05-17T10:23:06Z",
-      "completed_at": "2026-05-19T10:57:34Z"
+      "completed_at": "2026-05-21T04:42:27Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125:p0119": {
       "status": "done",
@@ -19749,12 +19749,12 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175:p0152": {
       "status": "done",
-      "updated_at": "2026-05-19T11:03:07Z",
+      "updated_at": "2026-05-21T04:43:44Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:23:17Z",
       "started_at": "2026-05-17T10:23:17Z",
-      "completed_at": "2026-05-19T11:03:07Z"
+      "completed_at": "2026-05-21T04:43:44Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175:p0153": {
       "status": "done",
@@ -22535,12 +22535,12 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125:p0107": {
       "status": "done",
-      "updated_at": "2026-05-19T10:29:23Z",
+      "updated_at": "2026-05-21T04:40:52Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:27Z",
       "started_at": "2026-05-17T10:25:27Z",
-      "completed_at": "2026-05-19T10:29:23Z"
+      "completed_at": "2026-05-21T04:40:52Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125:p0108": {
       "status": "done",
@@ -22697,12 +22697,12 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0101-0125-r4946-12-33387-8070-pages-101-125:p0125": {
       "status": "done",
-      "updated_at": "2026-05-19T11:02:39Z",
+      "updated_at": "2026-05-21T04:43:34Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:33Z",
       "started_at": "2026-05-17T10:25:33Z",
-      "completed_at": "2026-05-19T11:02:39Z"
+      "completed_at": "2026-05-21T04:43:34Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0126": {
       "status": "done",
@@ -22726,12 +22726,12 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0128": {
       "status": "done",
-      "updated_at": "2026-05-19T10:56:12Z",
+      "updated_at": "2026-05-21T04:41:59Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:34Z",
       "started_at": "2026-05-17T10:25:34Z",
-      "completed_at": "2026-05-19T10:56:12Z"
+      "completed_at": "2026-05-21T04:41:59Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0129": {
       "status": "done",
@@ -22789,12 +22789,12 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0135": {
       "status": "done",
-      "updated_at": "2026-05-19T10:28:42Z",
+      "updated_at": "2026-05-21T04:40:51Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:37Z",
       "started_at": "2026-05-17T10:25:37Z",
-      "completed_at": "2026-05-19T10:28:42Z"
+      "completed_at": "2026-05-21T04:40:51Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0136": {
       "status": "done",
@@ -22807,14 +22807,14 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0137": {
       "status": "done",
-      "updated_at": "2026-05-19T18:33:45Z",
-      "note": "Completed by Gemini route pro",
+      "updated_at": "2026-05-21T04:41:21Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:38Z",
       "started_at": "2026-05-17T10:25:38Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:59:02Z",
-      "agent": "gemini-source-prep",
-      "completed_at": "2026-05-19T18:33:45Z"
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T04:41:21Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0126-0150-r4946-12-33387-8070-pages-126-150:p0138": {
       "status": "done",
@@ -29799,14 +29799,14 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0197": {
       "status": "done",
-      "updated_at": "2026-05-19T10:42:11Z",
+      "updated_at": "2026-05-21T04:41:37Z",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:05Z",
       "started_at": "2026-05-17T10:58:05Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:59:30Z",
       "agent": "source-prep-docling-discovery",
-      "completed_at": "2026-05-19T10:42:11Z"
+      "completed_at": "2026-05-21T04:41:37Z"
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0198": {
       "status": "released",
@@ -29828,14 +29828,14 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200:p0200": {
       "status": "done",
-      "updated_at": "2026-05-19T10:43:01Z",
+      "updated_at": "2026-05-21T04:41:38Z",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:58:06Z",
       "started_at": "2026-05-17T10:58:06Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-17T10:59:30Z",
       "agent": "source-prep-docling-discovery",
-      "completed_at": "2026-05-19T10:43:01Z"
+      "completed_at": "2026-05-21T04:41:38Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket4-pages-151-175:p0156": {
       "status": "released",
@@ -34784,10 +34784,10 @@
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753:p0744": {
       "status": "done",
-      "updated_at": "2026-05-19T09:21:53Z",
+      "updated_at": "2026-05-21T04:40:27Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T09:21:53Z"
+      "completed_at": "2026-05-21T04:40:27Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p1076-1100-s522bis-29-3-pages-1076-1100:p1084": {
       "status": "done",
@@ -35302,10 +35302,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0214": {
       "status": "done",
-      "updated_at": "2026-05-19T10:24:10Z",
+      "updated_at": "2026-05-21T04:40:30Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:24:10Z"
+      "completed_at": "2026-05-21T04:40:30Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500:p0487": {
       "status": "done",
@@ -35379,10 +35379,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0211": {
       "status": "done",
-      "updated_at": "2026-05-19T10:28:05Z",
+      "updated_at": "2026-05-21T04:40:30Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:28:05Z"
+      "completed_at": "2026-05-21T04:40:30Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400:p0394": {
       "status": "done",
@@ -35437,10 +35437,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0212": {
       "status": "done",
-      "updated_at": "2026-05-19T10:30:29Z",
+      "updated_at": "2026-05-21T04:40:53Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:30:29Z"
+      "completed_at": "2026-05-21T04:40:53Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p1276-1300-s522bis-29-3-pages-1276-1300:p1282": {
       "status": "done",
@@ -35521,10 +35521,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0224": {
       "status": "done",
-      "updated_at": "2026-05-19T10:33:44Z",
+      "updated_at": "2026-05-21T04:40:54Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:33:44Z"
+      "completed_at": "2026-05-21T04:40:54Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350:p0341": {
       "status": "done",
@@ -35549,10 +35549,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0234": {
       "status": "done",
-      "updated_at": "2026-05-19T10:34:27Z",
+      "updated_at": "2026-05-21T04:41:14Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:34:27Z"
+      "completed_at": "2026-05-21T04:41:14Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0677": {
       "status": "done",
@@ -35654,10 +35654,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0226-0250-r4946-12-33387-8070-pages-226-250:p0238": {
       "status": "done",
-      "updated_at": "2026-05-19T10:39:11Z",
+      "updated_at": "2026-05-21T04:41:14Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:39:11Z"
+      "completed_at": "2026-05-21T04:41:14Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300:p0291": {
       "status": "done",
@@ -35689,10 +35689,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0213": {
       "status": "done",
-      "updated_at": "2026-05-19T10:40:29Z",
+      "updated_at": "2026-05-21T04:41:18Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:40:29Z"
+      "completed_at": "2026-05-21T04:41:18Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550:p0544": {
       "status": "done",
@@ -35801,10 +35801,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0219": {
       "status": "done",
-      "updated_at": "2026-05-19T10:44:41Z",
+      "updated_at": "2026-05-21T04:41:41Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:44:41Z"
+      "completed_at": "2026-05-21T04:41:41Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800:p0793": {
       "status": "done",
@@ -35943,10 +35943,10 @@
     },
     "source-prep:cad4c3ff34-r4946-12-33387-8070-p0201-0225-r4946-12-33387-8070-pages-201-225:p0202": {
       "status": "done",
-      "updated_at": "2026-05-19T10:50:38Z",
+      "updated_at": "2026-05-21T04:41:45Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:50:38Z"
+      "completed_at": "2026-05-21T04:41:45Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300:p0293": {
       "status": "done",
@@ -36062,10 +36062,10 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0368": {
       "status": "done",
-      "updated_at": "2026-05-19T10:55:44Z",
+      "updated_at": "2026-05-21T04:41:59Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:55:44Z"
+      "completed_at": "2026-05-21T04:41:59Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050:p1049": {
       "status": "done",
@@ -36083,24 +36083,24 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300:p0288": {
       "status": "done",
-      "updated_at": "2026-05-19T10:56:40Z",
+      "updated_at": "2026-05-21T04:42:07Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:56:40Z"
+      "completed_at": "2026-05-21T04:42:07Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400:p0384": {
       "status": "done",
-      "updated_at": "2026-05-19T10:57:00Z",
+      "updated_at": "2026-05-21T04:42:20Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:57:00Z"
+      "completed_at": "2026-05-21T04:42:20Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0367": {
       "status": "done",
-      "updated_at": "2026-05-19T10:57:04Z",
+      "updated_at": "2026-05-21T04:42:21Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:57:04Z"
+      "completed_at": "2026-05-21T04:42:21Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550:p0543": {
       "status": "done",
@@ -36118,10 +36118,10 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300:p0291": {
       "status": "done",
-      "updated_at": "2026-05-19T10:58:40Z",
+      "updated_at": "2026-05-21T04:42:43Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:58:40Z"
+      "completed_at": "2026-05-21T04:42:43Z"
     },
     "source-prep:cad9d31fb2-r3578-50-5569-5569-jacke-p0276-0300-r3578-50-5569-5569-jacket4-pages-276-300:p0279": {
       "status": "done",
@@ -36167,38 +36167,38 @@
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300:p0281": {
       "status": "done",
-      "updated_at": "2026-05-19T11:00:59Z",
+      "updated_at": "2026-05-21T04:42:50Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T11:00:59Z"
+      "completed_at": "2026-05-21T04:42:50Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0360": {
       "status": "done",
-      "updated_at": "2026-05-19T11:01:36Z",
+      "updated_at": "2026-05-21T04:43:06Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T11:01:36Z"
+      "completed_at": "2026-05-21T04:43:06Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450:p0440": {
       "status": "done",
-      "updated_at": "2026-05-19T11:02:15Z",
+      "updated_at": "2026-05-21T04:43:13Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T11:02:15Z"
+      "completed_at": "2026-05-21T04:43:13Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475:p0454": {
       "status": "done",
-      "updated_at": "2026-05-19T11:02:40Z",
+      "updated_at": "2026-05-21T04:43:28Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T11:02:40Z"
+      "completed_at": "2026-05-21T04:43:28Z"
     },
     "source-prep:ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375:p0371": {
       "status": "done",
-      "updated_at": "2026-05-19T11:03:11Z",
+      "updated_at": "2026-05-21T04:43:45Z",
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T11:03:11Z"
+      "completed_at": "2026-05-21T04:43:45Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1272": {
       "status": "done",
