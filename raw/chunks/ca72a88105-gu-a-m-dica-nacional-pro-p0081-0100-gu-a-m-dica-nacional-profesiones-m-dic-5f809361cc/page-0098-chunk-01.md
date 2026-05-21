@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-56880fb0bc74-P0098-01
+chunk_id: CHUNK-88d30eefa4f8-P0098-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md
-converted_sha256: 56880fb0bc74e075c9f28835d2368950df586ea47ef016d33eb052306f18267e
+converted_sha256: 88d30eefa4f87dae2f7fc96c8372660107cc4ce0a8aaa334958c12241ec9a3cd
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json
@@ -105,69 +105,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 99
-
-## Layout And Reading Order
-The page presents a two-column layout. The left column contains a list of names, and the right column contains corresponding addresses and cities, effectively forming a three-column data structure. The content is a directory listing. At the bottom left of the page, the page number "102 —" is present.
-
-## Literal Transcription
-Valle Allende, Horacio del | Oficina Victoria | Iquique
-Valle Donoso, Jorge del | Agustinas 509 | Santiago
-Valle Osorio, Gastón | 3 Norte 1044 | Viña del Mar
-Valle Osorio, René | Federico Froebel 1665 | Santiago
-Valle Quintavalla, Eugenio | Rancagua 53 | Santiago
-Valle Varas, Andrés del | Prat 260 | La Serena
-Vallejos Jiménez, Judith del C. | Dublé Almeyda 3821 | Santiago
-Vallejos Pizarro, Ema | Renato Zanelli 145 E | Santiago
-Valls Dalfo, Jaime | Vicuña Mackenna 204 C | Santiago
-Van Diest Mella, Nicolás | Cerrillos 5709 | Santiago
-Vannini Jeanront, Lucrecia | Teatinos 739 | Santiago
-Vantman Veinstein, Arón | San Antonio 50, Of. 604 | Santiago
-Varady Bokor, Marta | Los Leones 0136, Dep. 32 | Santiago
-Varas Alfonso, Andrés | Avda. Providencia 181 | Santiago
-Varas Dodd, Osvaldo | Edificio Couve, Dep. 109 | Viña del Mar
-Varas Espejo, Armando | Plaza Justicia 45, Dp. 415 | Valparaíso
-Varas Fuenzalida, Marcelino | San Martín 587 | Concepción
-Varas Miranda, Eugenio | Amunátegui 86, Dep. 602 | Santiago
-Varela Barrios, Luis G. | Casa de Socorro | Purén
-Varela del Campo, Aníbal | Amunátegui 86, Dep. 703 | Santiago
-Vargas Arzón, Nelson | Avda. Holanda 3696 | Santiago
-Vargas Baeza, Alfredo | Loreley 830 | Santiago
-Vargas Barros, Héctor | San Isidro 690 | Santiago
-Vargas Carretero, Alfonso | Condell 1190, Depto. 125 | Valparaíso
-Vargas Cassoulet, Raúl E. | Maipú 456 | Los Andes
-Vargas Díaz, Jorge | Almirante Barroso 160 | Santiago
-Vargas Fernández, Luis | Carlos Justiniano 1191 | Santiago
-Vargas Molinare, Alberto | Moneda 921, Of. 311 | Santiago
-Vargas Molinare, Ruperto | Almirante Barroso 160 | Santiago
-Vargas Olmedo, Humberto | Ahumada 312, Of. 224 | Santiago
-Vargas Raposo, Edmundo | Edwards 608 | Valparaíso
-Vargas Román, Jorge | O'Higgins 476, Of. 201 | Concepción
-Vargas Román, Julio | Lientur 574 | Concepción
-Vargas Salazar, Roberto | Avda. Los Leones 082 | Santiago
-Vargas Valenzuela, Hugo | Matías Cousiño 150, Of.\n823 | Santiago
-Vargas Vargas, M. Luisa | Paicaví 326 | Concepción
-Vásquez Aravena, Guillermo | Maipú 547 | Linares
-Vásquez Cristi, Leopoldo | Ahumada 312, Of. 314 | Santiago
-Vásquez Friedmann, Raúl | I. Valdés Vergara 336,\nDepto. 11 | Santiago
-Vásquez Merino, Jorge | Inglaterra 1239 | Santiago
-Vásquez Oliveros, Raúl | Pasaje Cillero 22 | Rancagua
-Vásquez Soto, Walter | San Martín 302 | Taltal
-Vásquez Vargas, Homero | Independencia 1050 | Santiago
-102 —
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were present."}
-```

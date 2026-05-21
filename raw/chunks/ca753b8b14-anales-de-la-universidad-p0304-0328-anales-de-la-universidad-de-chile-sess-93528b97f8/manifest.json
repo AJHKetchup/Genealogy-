@@ -1,7 +1,7 @@
 {
   "created": "2026-05-21",
   "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328.codex.md",
-  "converted_sha256": "5752c4abe535e21b4cd37fe01481d3d69cc9605e57727f90806afeb3fca51e49",
+  "converted_sha256": "a243d3ddc9adc36480b73d40530b1856259ec6568f75470b853d90cd5e2460e6",
   "source": "raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf",
   "source_sha256": "753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d",
   "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json",
@@ -12,54 +12,44 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-5752c4abe535-P0001-01",
+      "chunk_id": "CHUNK-a243d3ddc9ad-P0310-01",
       "chunk_number": 1,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0001-chunk-01.md",
-      "page_start": 1,
-      "page_end": 1,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0310-chunk-01.md",
+      "page_start": 310,
+      "page_end": 310,
       "part": 1,
-      "chars": 11990,
-      "sha256": "42141ed75741f7af578c50ad72a5f2270c45224ca42db290f670e5cf606d5be1"
+      "chars": 11757,
+      "sha256": "4a5376c80d12be4e246a4020feba8c40fef5f27ef094fbd05027e64a77ebc1ba"
     },
     {
-      "chunk_id": "CHUNK-5752c4abe535-P0001-02",
+      "chunk_id": "CHUNK-a243d3ddc9ad-P0310-02",
       "chunk_number": 2,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0001-chunk-02.md",
-      "page_start": 1,
-      "page_end": 1,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0310-chunk-02.md",
+      "page_start": 310,
+      "page_end": 310,
       "part": 2,
-      "chars": 11939,
-      "sha256": "32ecab137edca095b1a2d37bde80b9e69c9c2be22b9a82ad623e3898955c80a3"
+      "chars": 10244,
+      "sha256": "078830b0437e52d5de6f71f04759661947532042b0cc2f1295755e77e7f7db65"
     },
     {
-      "chunk_id": "CHUNK-5752c4abe535-P0001-03",
+      "chunk_id": "CHUNK-a243d3ddc9ad-P0310-03",
       "chunk_number": 3,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0001-chunk-03.md",
-      "page_start": 1,
-      "page_end": 1,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0310-chunk-03.md",
+      "page_start": 310,
+      "page_end": 310,
       "part": 3,
-      "chars": 10438,
-      "sha256": "af4ca2eda5bce9a981b6121a7d7abcca63992ef5c2b9b1baed8da029e7aac362"
-    },
-    {
-      "chunk_id": "CHUNK-5752c4abe535-P0001-04",
-      "chunk_number": 4,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0001-chunk-04.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 4,
       "chars": 11991,
-      "sha256": "72941915b87ae1249bf7138aa9d049c8fec7b2a79262ff9b25716bfb07cb836d"
+      "sha256": "d0a19bfb9913df355569023d596fc7dfdb2e624a051698403b7a479e0d807709"
     },
     {
-      "chunk_id": "CHUNK-5752c4abe535-P0001-05",
-      "chunk_number": 5,
-      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0001-chunk-05.md",
-      "page_start": 1,
-      "page_end": 1,
-      "part": 5,
+      "chunk_id": "CHUNK-a243d3ddc9ad-P0310-04",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-sess-93528b97f8/page-0310-chunk-04.md",
+      "page_start": 310,
+      "page_end": 310,
+      "part": 4,
       "chars": 9088,
-      "sha256": "979b3f6e623f16822bbb7e24fae8854cb11881a58a4afa89bbe29bc5ea453f7b"
+      "sha256": "db5b2834bf1f2b972b92eb80bac8726d38258a6534054117edfbda6cb49b4fe8"
     }
   ]
 }

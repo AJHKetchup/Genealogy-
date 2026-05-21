@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-091dc9eed847-P0254-01
+chunk_id: CHUNK-25cae0441a78-P0254-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263.codex.md
-converted_sha256: 091dc9eed847db73ca1c2a93bde788a21f09376a20f2128db5bd69855de0c4a5
+converted_sha256: 25cae0441a785c77e2249ef9c06e3817257b1c84a53a96b7fb9449504dd75407
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json
@@ -322,11 +322,3 @@ All visible text on the page has been transcribed. The second letter's body text
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-
-## Page Metadata
-- Page number: 544
-- Source publication: Anales de la Universidad de Chile
-- Document section: BOLETIN DE INSTRUCCION PÚBLICA
-
-## Layout And Reading Order
-The page consists of a single column of text. The page number and section title are at the top. The main content is a letter or statement, followed by a signature at the bottom right.

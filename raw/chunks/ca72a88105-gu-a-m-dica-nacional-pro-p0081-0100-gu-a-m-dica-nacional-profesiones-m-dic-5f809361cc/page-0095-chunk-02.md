@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-88d30eefa4f8-P0095-02
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md
+converted_sha256: 88d30eefa4f87dae2f7fc96c8372660107cc4ce0a8aaa334958c12241ec9a3cd
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json
+page_start: 95
+page_end: 95
+part: 2
+---
+
+## Literal Transcription
+
+| | | |
+|---|---|---|
+| Undurraga Donoso, Inés | Nataniel 210, 5º Piso | Santiago |
+| Undurraga Tornero, Hernán | Monjitas 834, Depto. 51 | Santiago |
+| Urbina Figueroa, Germán J. | Fuenzalida 251 | Mulchén |
+| Urbina Gajardo, Táfer | Walker Martínez 1009 | Peumo |
+| Urbina Olivari, Adriana | Matta 1514 | Tocopilla |
+| Urdangarín Halabide, Luis H. | Hosp. Chile Exploration | Antofagasta |
+| Ureta Beytía, Miguel | Plaza Bulnes 1302, 7º piso | Santiago |
+| Ureta Latorre, Osvaldo | Toro Mazote 268 | Santiago |
+| Uribe Barra, Luis | Darío Urzúa 1813 | Santiago |
+| Uribe Concha, Alejandro | Condell 1190, Depto. 125 | Valparaíso |
+| Uribe Concha, Pedro | Berger 2654 | Viña del Mar |
+| Uribe Herrera, Victóriano | Teatinos 379 | Santiago |
+| Uribe Palacios, Eduardo | Carrera 168 | Coronel |
+| Urízar Espinosa, Rodrigo | Seminario 32 | Santiago |
+| Urquieta Tognarelli, Bernardo | Huérfanos 1147, Of. 536 | Santiago |
+| Urra Garín, Fernando | San Martín 587 | Concepción |
+| Urrizola Bermúdez, Alfonso | Chacabuco 552 | Concepción |
+| Urrutia Cifuentes, Sergio | Agustinas 972, Of. 642 | Santiago |
+| Urrutia Muñoz, Domingo | Teatinos 20, Depto. 97 | Santiago |
+| Urrutia Muñoz, Julio | Sazié 1885 | Santiago |
+| Urrutia Faut, Fidel | I. Valdés Vergara 640 | Santiago |
+| Urrutia Urrutia, Carlos | Antonio Varas 248 | Santiago |
+| Urzúa Ahumada, Rafael | Merced 293, 6º Piso | Santiago |
+| Urzúa Casas-Cordero, Rafael | Orrego Luco 87, Depto. 5 | Santiago |
+| Urzúa Corvalán, Ramón Edgardo | Marín 396 B | Santiago |
+| Urzúa Ligerón, Rafael | Hospital | Chuquicamata |
+| Urzúa Merino, Hernán | República de Israel 1000 | Santiago |
+| Urzúa Souper, Oscar | Obispo Donoso 5, Dep. 44 | Santiago |
+| Urzúa Stokes, María | Astaburuaga 312 | Santiago |
+| Urzúa Terán, René | Victoria 52 | Santiago |
+| Urzúa Urzúa, Alejandro | Huérfanos 786, Of. 117 | Santiago |
+
+<br>
+
+<div style="text-align: center;">
+V
+</div>
+
+<br>
+
+| | | |
+|---|---|---|
+| Vaccarezza Sturla, Atilio | Avda. Holanda 3712 | Santiago |
+| Vaccaro Cosovich, Hugo | Avda. Santa María 0410 | Santiago |
+| Vaisman Berensohn, Bernardo | Nataniel 149 | Santiago |
+| Vaisman Berensohn, José | Vicuña Mackenna 461 | Ovalle |
+| Vaisman Berensohn, Samuel | Plaza Bulnes 80, Dep. 78 | Santiago |
+| Valderrama de la Cruz, Genoveva | Adra. Undurraga 207 H | Santiago |
+| Valdés Basterrica, Julio | La Serena 810 | Santiago |
+| Valdés Browne, Salvador | Londres 88 | Santiago |
+| Valdés Castaño, Eduardo | 3 Norte 963 | Viña del Mar |
+
+100 —
+
+## Images, Captions, And Visual Notes
+
+There are no images, illustrations, or other visual elements on this page.
+
+## Uncertain Or Illegible
+
+There are no uncertain or illegible parts of this document.
+
+## Completeness Audit
+
+The full content of the page has been transcribed. The page number printed on the image is "100", which differs from the page number "97" specified in the work order's file naming convention. The transcription reflects the content of the provided image.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other visual elements that would be useful as standalone assets."}
+```

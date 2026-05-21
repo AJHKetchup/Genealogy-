@@ -337,64 +337,71 @@ All visible text and decorative elements have been transcribed or noted.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "The decorative header is a common repeating pattern, not a unique illustration or photograph, and does not warrant a standalone crop box."}
 
+# Page 310
+
 ## Page Metadata
-Page number: 290
-Running head: MEMORIAS CIENTÍFICAS I LITERARIAS
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/manifest.json`
+- Source page: 310
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0304-0328-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-304-328/page-images/page-0310.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running head and page number at the top. There is a footnote at the bottom of the page, referenced by a superscript number in the main text.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-que sigue solamente en aquellos párrafos de su con-
-testacion en que, segun mi opinion, los lectores pue-
-dan esperar algun provecho de una discusion.
-    Respecto a su enumeracion de las ideas funda-
-mentales de su libro, tengo que decir lo siguiente:
-    El estudio de idiomas estranjeros, puede, en teo-
-ría, tener tres propósitos diferentes:
-    1) Se considera el estudio simplemente como un
-trabajo mental (_a mental training_): se hace aprender
-vocablos para «fortificar la memoria», se hace análi-
-sis gramatical, se aprenden i se aplican reglas grama-
-ticales, como mero ejercicio de la atencion i del ra-
-ciocinio «para desarrollar las facultades intelectuales
-de los niños». Así han entendido algunos autores
-(sobre todo algunos franceses que Ud. cita) el estu-
-dio de las lenguas clásicas (1). No niego que tal en-
-señanza pueda tener cierto resultado benéfico; pero
-seria un crímen ocupar en trabajos de tal especie a
-los niños, que nunca pueden aprender bastantes co-
-sas útiles para el hombre culto moderno, i hacerles
-perder un tiempo precioso, cuando el mismo prove-
-cho teórico se puede conseguir estudiando lenguas
 
-(1) Por casualidad cayó entre mis manos en estos días un tomo
-de la _Revista de Chile_, del año 1898; en las pájs. 471 i sig. se da la
-traduccion de un artículo frances de un tal A. _Rieffel_ que lleva el
-título: «La enseñanza clásica es siempre dañosa». La enseñanza que
-se describe es una ridícula caricatura en comparacion con lo que yo
-he conocido como enseñanza clásica en Alemania, i llego a formar-
-me la idea de que en Francia en efecto esta rama debe sufrir de
-graves defectos. Se dice: «Durante años, el niño, el adolescente no
-tiene otras ocupaciones que las de buscar mecánicamente palabras
-en un diccionario o bien aprender trozos de los cuales él no puede
-comprender mas que palabras aisladas i cuyo sentido jeneral ignora»
-i agrega que al fin de la enseñanza clásica el alumno «se encontraba
-absolutamente incapaz de leer un libro latino».
+```markdown
+que  sigue  solamente en aquellos párrafos de  su con-
+
+testacion en que,  segun mi  opinion,  los  lectores puedan  esperar algun  provecho  de  una discusion.
+
+Respecto a su enumeración de las ideas fundamentales de  su libro, tengo  que  decir lo  siguiente:
+
+El  estudio de  idiomas estranjeros, puede, en ría,  tener tres propósitos diferentes:
+
+teo-
+
+- 1)  Se  considera el  estudio simplemente como un
+
+trabajo  mental  (a  mental  traimmng): se  hace  aprender vocablos para  «fortificar  la  memoria», se hace análisis  gramatical,  se  aprenden  1 se  aplican  reglas  gramaticales, como mero ejercicio de  la  atencion 1 del  raciocinio  «para desarrollar las  facultades intelectuales de los niños». Así han entendido algunos autores (sobre  todo algunos franceses que Ud. cita) el  estudio  de  las  lenguas clásicas (1).  No  niego  que  tal  enseñanza pueda  tener cierto  resultado benéfico; pero seria un crímen ocupar en trabajos de  tal  especie a los  niños, que  nunca pueden  aprender bastantes cosas útiles para  el  hombre culto  moderno,  1 hacerles perder un  tiempo  precioso,  cuando el  mismo provecho teórico se puede conseguir estudiando lenguas
+
+(1) Por  casualidad cayó  entre mis  manos en estos días  un  tomo de  la Htevista de Chile, del  año 1898; en las  pájs.  471 1 sig.  se da  la traducción de  un artículo frances de  un tal  4. Rieffel que  lleva el título: «La  enseñanza clásica es  siempre  dañosa». La  enseñanza que se  describe es una  ridícula caricatura en  comparacion  con  lo  que  yo he  conocido como enseñanza clásica en Alemania, 1 llego  a  formarme la idea de que en Francia en efecto esta  rama debe sufrir de graves defectos. Se dice: «Durante años, el  niño, el  adolescente no tiene otras ocupaciones que  las de  buscar mecánicamente palabras en un diccionario o bien aprender trozos de  los  cuales él  no puede comprender  mas  que  palabras  aisladas  1 cuyo  sentido  jeneral  ignora» ¡ agrega que  al  fin  de  la  enseñanza clásica  el  alumno  «se  encontraba absolutamente incapaz  de  leer  ¡un  libro latino».
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or significant visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 * Page number: 291

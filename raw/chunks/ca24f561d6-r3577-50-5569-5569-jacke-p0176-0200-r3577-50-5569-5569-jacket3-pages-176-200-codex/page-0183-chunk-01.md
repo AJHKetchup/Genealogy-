@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8b31a780eef6-P0183-01
+chunk_id: CHUNK-0d15748079e5-P0183-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200.codex.md
-converted_sha256: 8b31a780eef6da0767431f1cf3e07dcae3f3e8fe91ad3fd7bbc53f58e00ba57d
+converted_sha256: 0d15748079e55c93a5b5d25661edf8987419ca00f1bf1281ac3787debe659eae
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## M. le le Médecin Général Marotte (France) :
 
 Je ne vois pas d'inconvénient à cette adjonction.
@@ -125,87 +124,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 14
-Date: SÉANCE DU 12 JUILLET 1929
-
-## Layout And Reading Order
-The page consists of a single column of text, primarily a transcript of a meeting or session. The content includes a date and page number at the top, followed by several paragraphs of discussion and dialogue, with speakers identified by name and title.
-
-## Literal Transcription
-14 SÉANCE DU 12 JUILLET 1929
-
-1906. Rien ne s'oppose à ce qu'ils fassent alternativement du service de guerre et du pilotage
-d'avions sanitaires ; mais s'ils sont faits prisonniers comme pilotes sanitaires, puis relâchés,
-ils devront demeurer définitivement affectés à des formations sanitaires.
-Ainsi donc, le premier Congrès international d'aviation sanitaire accorde bien le bénéfice
-de l'immunité aux pilotes et aux mécaniciens, mais il spécifie que ce bénéfice est subordonné
-à la condition qu'ils ne serviront plus dans l'aviation militaire.
-
-**M. le Président :**
-La proposition est-elle faite par la délégation des Etats-Unis de supprimer l'alinéa 6 ?
-
-**M. Wadsworth (Etats-Unis)** :
-Non.
-
-**M. le Président :**
-On ne propose pas la suppression de cet alinéa
-
-**Le Général Major Médecin Demolder (Belgique)** :
-De sorte qu'en admettant la proposition qui est faite à l'alinéa 6 par la sous-commission,
-on traite différemment le pilote, personnel de conduite de l'appareil, de celui qui est prévu
-à l'article 17 que nous avons vu hier, personnel de conduite des trains sanitaires.
-Vous donnez l'immunité prescrite par l'article 12 au personnel conducteur du train sanitaire,
-tandis qu'au conducteur de l'avion sanitaire, vous donnez cette immunité, mais subordonnée
-à la condition d'un engagement écrit. Je vois une contradiction entre ces deux manières de
-traiter deux personnels qui, en somme, remplissent les mêmes conditions.
-
-**Le Médecin Général Marotte (France)** :
-J'objecterai à mon collègue et ami de Belgique que cette question a déjà été discutée
-ici même, non pas dans cette Assemblée, mais à Genève lors de la XIIe Conférence interna-
-tionale de la Croix-Rouge. Le Général Collette, qui représentait les Pays-Bas, avait fait re-
-marquer qu'il y avait lieu d'assimiler le pilote au capitaine de vaisseau, conformément à
-la disposition de l'art. 6 de la Convention XI de la Haye de 1907, ainsi conçu : « Le capitaine,
-les officiers et les membres de l'équipage pris par l'ennemi, ne sont pas faits prisonniers de
-guerre, à la condition de s'engager, sur la foi d'une promesse formelle écrite, à ne prendre
-part, pour le restant des hostilités, à aucun service ayant rapport avec les opérations de guerre».
-Par conséquent, la décision de la sous-commission se conçoit. Maintenant, est-elle abso-
-lument de votre goût ? Je n'en sais rien.
-Je fais remarquer que ce n'est pas un cas unique.
-
-**M. le Président :**
-Puis-je demander au Général Demolder s'il formule une proposition de suppression ?
-
-**Le Général Major Médecin Demolder (Belgique)** :
-Non, je voudrais supprimer surtout la discordance entre la manière de traiter deux per-
-sonnels qui remplissent les mêmes fonctions.
-
-**M. le Président :**
-Cette discordance disparaîtrait par la suppression de l'alinéa 6.
-
-**Le Général Major Médecin Demolder (Belgique)** :
-Alors, vous faites rentrer le personnel conducteur, les mécaniciens d'appareils sanitaires
-dans l'article 17, alinéa 4, qui prévoit que l'obligation de renvoyer le personnel sanitaire
-sera étendue à tout le personnel militaire préposé au transport.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None. All text is clear and legible.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page, preserving the layout and reading order.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
-```
-
-## Page Metadata
-- Page number: 15
-- Session date: SÉANCE DU 12 JUILLET 1929
-
-## Layout And Reading Order
-The page presents a transcript of a meeting, laid out in a single column. Speakers' names and affiliations are bolded and followed by their statements. The text flows continuously from top to bottom.

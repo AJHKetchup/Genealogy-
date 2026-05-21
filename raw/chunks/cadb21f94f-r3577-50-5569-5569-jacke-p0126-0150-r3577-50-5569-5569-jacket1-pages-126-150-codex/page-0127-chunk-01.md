@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f384ba373803-P0127-01
+chunk_id: CHUNK-0ba5d939c5c3-P0127-01
 source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150.codex.md
-converted_sha256: f384ba3738035720947e68ee302f04b65fe5f750f0b71cae1becb3b6e12d7f11
+converted_sha256: 0ba5d939c5c3e69b1ebe535eda864e052fe210b5963a130d02bc1cb3c245b782
 source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
 source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
 source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json
@@ -199,58 +199,4 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-```
-
-## Page Metadata
-Page number: 130
-Source document page number: 46
-
-## Layout And Reading Order
-
-The page contains a single column of text in French. At the top, centered, is the page number. Below that are two paragraphs of text, followed by an "ARTICLE 88." heading, and then three more paragraphs of text.
-
-## Literal Transcription
-
-```
-                                                                 — 46 —
-
-indications relatives aux internements et aux mutations, aux mises en liberté sur parole, aux échanges, aux évasions,
-aux entrées dans les hôpitaux, aux décès, ainsi que les autres renseignements nécessaires pour établir et tenir à jour une
-fiche individuelle pour chaque prisonnier de guerre. Le bureau devra porter sur cette fiche le numéro matricule, le nom
-et prénom, l'âge, le lieu l'origine, le grade, le corps de troupe, les blessures, la date et le lieu de la capture, de l'internement,
-des blessures et de la mort, ainsi que toutes les observations particulières. La fiche individuelle sera remise au Gouverne-
-ment de l'autre belligérant après la conclusion de la paix.
-    Le bureau de renseignements est également chargé de recueillir et de centraliser tous les objets d'un usage personnel,
-valeurs, lettres, etc., qui seront trouvés sur les champs de bataille ou délaissés par des prisonniers libérés sur parole,
-échangés, évadés ou décédés, dans les hôpitaux et ambulances, et de les transmettre aux intéressés.
-
-                                                                ARTICLE 88.
-
-    Le Comité international de la Croix-Rouge est autorisé à créer en pays neutre, s'il le juge opportun, une agence centrale
-de renseignements et de secours en faveur des prisonniers de guerre. Le Comité international pourra, le cas échéant, confier
-la mission d'organiser ce bureau, sous sa surveillance, à une société de la Croix-Rouge d'un pays neutre plus voisin que
-lui-même du théâtre des hostilités.
-    Ce bureau sera chargé de concentrer tous les renseignements officiels et privés sur le lieu d'internement des prisonniers
-de guerre, leur état de santé, le régime de leur captivité et leurs besoins, et de les transmettre, le plus rapidement possible,
-à l'État d'origine des prisonniers, aux sociétés nationales de la Croix-Rouge de ce pays et aux familles intéressées.
-    Les belligérants accorderont à ce bureau leur appui officiel, ainsi que toutes facilités requises pour l'accomplissement
-de sa tâche. En particulier, ils lui feront part des renseignements en leur possession énumérés à l'article 84 ci-dessus.
-```
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page. The page number "- 46 -" is centered at the top of the page.
-
-## Uncertain Or Illegible
-
-None. The text is clear and legible.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like photos, maps, or complex diagrams. The page contains only text."}
 ```

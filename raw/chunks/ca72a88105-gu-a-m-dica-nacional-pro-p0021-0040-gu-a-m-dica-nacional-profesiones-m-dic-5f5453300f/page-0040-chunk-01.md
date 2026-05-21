@@ -1,0 +1,109 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-fee6606e85a0-P0040-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40.codex.md
+converted_sha256: fee6606e85a0fed75acf9ff1e2ff322426fd4f98264439acdd9dd642fdfe7bdc
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json
+page_start: 40
+page_end: 40
+part: 1
+---
+
+# Page 40
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 40
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0040.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Geldres  Gaete,  Germán Gelfenstein  Zaraff,  Samuel Gerber  Kropatsbeck, Kurt Germany  Nehme,  Fuad Gerzanits  Tullies,  Pablo  von Ghiulamila  Ciuntu,  Radu Giacamán  Giacamán,  José Giacamán  Giacamán,  Pablo Giacamán  Giacamán, Salvador Giavelli  Dugan, Arístides Gidi  Gidi,  Jorge Giglio  Raggi,  Eliana Gil  Salvador,  Guillermo Gilabert  Fierro, Beatriz Gilardino  Luzoro,  José  M. Giraldo  Orozco,  Hernando Giraldo  Puerta, Misael Giugliano  Ruzzi,  Valentín Givovich  Mercier,  Luis
+
+Glasinovió  Cordero, Carlos Glasinovió  Cordero,  Lorenzo Godoy  Andrade,  Manuel Godoy  Belmar,  Luis Godoy  Franke,  Manuel  A. Godoy  Franke, Ricardo Godoy  Peña,  Abraham Goecke  Trautmann, Bernardo Goic  Goic,  Alejandro Goicovic  Bolívar,  Velimir Gomá  Rodríguez,  César Gómez  Bertolo,  Mario Gómez  Carpió, Manuel Gómez  Ebensperger, Gerardo Gómez  González,  Juan  C. Gómez  Le-Cornec,  Fernando Gómez  Rogers, Carlos Gómez  Rojas,  Roberto Gómez  Suazo,  Mafalda Gómez  Vidal,  Luis  D. Gondar  Rojas,  Ramón Gondos  Weiss, Martín González  Acuña, Gudelia González  Alvarado,  Irma
+
+| Valparaíso 82 Nataniel 729         | Viña del Mar Santiago   |
+|------------------------------------|-------------------------|
+| Avda. Providencia 2221             | Santiago                |
+| A. Pinto 576, 2? Piso              | Concepción              |
+| Bueras 1142                        | Valdivia                |
+| Los Araucanos 2219                 | Santiago                |
+| Salvador Donoso 1461               | Valparaíso              |
+| Hospital                           | Ancud                   |
+| Lautaro 345                        | Angol                   |
+| Oficina Prosperidad                | Antofagasta             |
+| Basilio Urrutia 864                | Traiguén                |
+| B. de las Casas 2472               | Santiago                |
+| Faustino Sarmiento 358             | Santiago                |
+| Dublé Almeyda 2325                 | Santiago                |
+| Santa Elena 922                    | Santiago                |
+| Consultorio                        | Gorbea                  |
+| Purísima 133                       | Santiago                |
+| Bellavista 151                     | Santiago                |
+| Avda. Providencia 2457, Depto. 605 | Santiago                |
+| Balmaceda 431                      | Calama                  |
+| Dominica 328                       | Santiago                |
+| Ruiz Tagle 372                     | Santiago                |
+| Aníbal Pinto 52                    | Concepción              |
+| Matucana 26, Depto. 325            | Santiago                |
+| Hospital                           | Talca                   |
+| O'Higgins 1202 Hospital            | Lautaro Chuquicamata    |
+| Miguel Claro 2052                  | Santiago                |
+| Matta 2043                         | Antofagasta             |
+| Merced 84, Depto. 3                | Santiago                |
+| Matilde Salamanca 841              | Santiago                |
+| José Joaquín Pérez 5254            | Santiago                |
+| Gral. Velásquez 43                 | Santiago                |
+| Blas Cuevas 1012                   | Valparaíso              |
+| Río Janeiro 685                    | Santiago                |
+| Almte. Pastene 7, Of. 46           | Santiago                |
+| Alam. B. O'Higgins 980, Of. 21     | Santiago                |
+| Santa Clara 450                    | Santiago                |
+| Lumaco 557                         | Chillán .               |
+| Edo. Castillo Velasco 1740         | Santiago Santiago       |
+| Phillips 16, Depto. Z              |                         |
+| Darío Urzúa 1815                   | Santiago                |
+| Dr. Johow 780                      | Santiago                |
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

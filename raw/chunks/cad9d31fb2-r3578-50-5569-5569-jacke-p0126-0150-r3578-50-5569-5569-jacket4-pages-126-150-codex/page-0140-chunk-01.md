@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-cb8f9e5c8932-P0140-01
+chunk_id: CHUNK-d8eb604c1f2e-P0140-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150.codex.md
-converted_sha256: cb8f9e5c8932c3261125052e83a65dd42b6da07c0f0e90840d45218d4c323a22
+converted_sha256: d8eb604c1f2e8ec34d9b6a954b9cb4d1b7919f95e0648c24164a074b9b8fbdc0
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150/manifest.json
@@ -84,68 +84,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page 141
-
-## Layout And Reading Order
-The page presents a single column of text, primarily in French. It includes a running header with a page number, author, and title. The main body of the text is structured into paragraphs and numbered sections, with some sub-sections indicated by bolded or italicized headings. There are also two footnotes at the bottom of the main text block, referenced by superscript numbers in the text.
-
-## Literal Transcription
-
-22 G. WERNER. — LES PRISONNIERS DE GUERRE
-
-entre nations civilisées, des lois de l'humanité et des exigences de
-la conscience publique. » Le lecteur est ainsi invité à interpréter
-avec prudence les dispositions du règlement.
-La Convention III, *pour l'adaptation à la guerre maritime des prin-
-cipes de la Convention de Genève du 22 août 1864*, étend à la guerre
-sur mer le bénéfice des principes de la Convention de Genève. Elle
-reprend et achève l'œuvre commencée par la Conférence diploma-
-tique convoquée à Genève en 1868. — Protection des bâtiments-
-hôpitaux militaires et des bâtiments hospitaliers (art. 1 à 6); invio-
-labilité du personnel sanitaire (art. 7); dispositions relatives aux
-prisonniers de guerre (art. 8 à 10), — tels sont les traits essentiels
-de cette Convention si longuement et impatiemment attendue.
-Enfin, la première Conférence de la Paix a adopté plusieurs vœux.
-Le premier est relatif à la révision de la Convention de Genève
-de 1864. Par le second, la Conférence demande que la question des
-droits et des devoirs des neutres soient inscrits au programme d'une
-prochaine conférence.
-10. *La Convention de Genève de 1906*. — Conformément au vœu
-nº 1 de la Conférence de la Haye, une Conférence spéciale convo-
-quée par le Conseil fédéral suisse a procédé en 1906 à la révision
-de la Convention de Genève de 1864 ¹.
-11. *Les Conventions de la Haye de 1907*. — L'œuvre de la Confé-
-rence de la Haye de 1899 a été reprise et complétée par la Conférence
-de la Haye de 1907 ². Voici les textes qui intéressent le problème des
-prisonniers de guerre.
-La Convention IV, *concernant les lois et coutumes de la guerre
-est, comme la Convention II de 1899, divisée en une Convention et
-un règlement annexé*. Mais la section IV, articles 57 à 60, du règle-
-ment de 1899 a été supprimée pour être placée dans la Convention V.
-La Convention V, *concernant les droits et les devoirs des Puissances
-neutres en cas de guerre sur terre*, contient, en conséquence, un cha-
-pitre II : *des belligérants internés et des blessés soignés chez les neutres*.
-La Convention X, *pour l'adaptation à la guerre maritime des prin-
-cipes de la Convention de Genève*, tient compte des modifications
-
-1. *Convention de Genève. Actes de la Conférence de révision réunie à Genève
-du 11 juin au 6 juillet 1906, Genève, 1906*.
-2. *IIe Conférence internationale de la Paix, la Haye, 15 juin-18 octobre 1907.
-Actes et documents, t. III, deuxième, troisième et quatrième Commissions,
-ministère des Affaires étrangères, la Haye, 1907*.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets."}
-```

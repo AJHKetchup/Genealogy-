@@ -172,76 +172,101 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 62
+
 ## Page Metadata
-Page number: 65
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json`
+- Source page: 62
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/page-images/page-0062.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column directory. Each entry consists of a name, followed by an address, and then a city. The entries are listed alphabetically by name. The reading order proceeds down the left column, then down the right column, with each name, address, and city forming a single logical entry. A page number is present at the bottom right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```markdown
-Meza Olva, Flavio                               Purísima 65                               Santiago
-Meza Rojas, Armando                             Mozart 37                                 Santiago
-Míchea Aguirre, Fernando                        Adolfo Ibáñez 374                         Santiago
-Michel Comandary, Luis                          Victoria 2268                             Valparaíso
-Micheli Candia, Jorge V. M.                     Los Andes 3769                            Santiago
-Middleton Cruz, Luis Guillermo                  Londres 67                                Santiago
-Middleton Marchant, Samuel                      Camino del Bajo 400,                      Santiago
-                                                Arrayán
-Middleton Soffia, Patricio                      6 Norte 774                               Viña del Mar
-Migueles Orellana, René                         Condell 1190                              Valparaíso
-Milos Looff, Alicia                             Pedro León Ugalde 96                      Santiago
-Millán Arrate, Miguel                           Huérfanos 539                             Santiago
-Millán Riffo, Hugo                              Haendel 5274                              Santiago
-Millán Vera, Javier                             Manuel de Salas 261                       Santiago
-Mimo Molina, Isabel                             Gálvez 122, Depto. 415                    Santiago
-Minoletti Massa, Carlos                         Hospital Naval                            Talcahuano
-Miquel Bañados, Carlos                          Huérfanos 578                             Santiago
-Miralles Aguila, Humberto                       Pedro Montt 194                           Puerto Montt
-Miranda Bravo, Raquel                           Pedro Aguirre Cerda 1159                  Concepción
-Miranda Casanova, Mario                         Balmaceda 827                             La Serena
-Miranda Díaz, Gustavo                           Los Naranjos 974                          Santiago
-Miranda Escudero, Ramón                         República de Israel 1203                  Santiago
-Miranda Molina, Héctor R.                       Libertad 239                              Ovalle
-Miranda Ordenes, Luis                           Ahumada 312, Depto. 224                   Santiago
-Miranda Rodríguez, Juan G.                      Avda. Videla 129                          Coquimbo
-Miranda Rodríguez, Oscar                        Simón Bolívar 3515                        Santiago
-Miranda Tirado, René                            Avda. Salvador 2570                       Santiago
-Miserda Bencic, Haydée                          Avda. España 931                          Punta Arenas
-Mobarec Marcos, José                            Palermo 1532                              Santiago
-Moena Cáceres, Hernán                           Arica 3833                                Santiago
-Moena Gómez, Alberto                            Angol 613                                 Concepción
-Moena Gómez, Luis A.                            Cochrane 1120                             Concepción
-Mohor Ayub, Nassir                              Gran Avenida 4399                         Santiago
-Mohor Zummers, Emilio                           Pedro Marín 2629                          Santiago
-Mois Albala, Mauricio                           Marín 092                                 Santiago
-Molina Barañao, Raúl                            Víctor Lamas 1280                         Concepción
-Molina Barros, Samuel                           Avda. Holanda 129                         Santiago
-Molina Castañeda, Ernesto                       Ramón Cruz 35                             Santiago
-Molina Cuevas, Luis A.                          Rancagua 030                              Santiago
-Molina Fraga, Claudio                           José M. de la Barra 438                   Santiago
-Molina Guzmán, Gustavo                          M. Cruzat Vicuña 2726                     Santiago
-Molina López, Arnaldo                           Larraín Gandarillas 394                   Santiago
-Molina Mondragón, Alfonso                       Pedro Aguirre Cerda 243                   Lota Bajo
-Molina Rogat, Raúl                              Abdón Cifuentes 165                       Santiago
-Molina Santibáñez, Olivier                      Marchant Pereira 2405                     Santiago
 
-                                                                                       — 65
+```markdown
+| Meza Olva, Flavio                               | Purísima 65                  | Santiago     |
+|-------------------------------------------------|------------------------------|--------------|
+| Meza Rojas, Armando                             | Mozart 37                    | Santiago     |
+| Michea Aguirre, Fernando                        | Adolfo Ibáñez 374            | Santiago     |
+| Michel Comandary, Luis                          | Victoria 2268                | Valparaíso   |
+| Micheli Candía, Jorge V. M.                     | Los Andes 3769               | Santiago     |
+| Middleton Cruz, Luis Guillermo                  | Londres 67                   | Santiago     |
+| Middleton Marchant, Samuel                      | Camino del Bajo 400, Arrayán | Santiago     |
+| Middleton Soffia, Patricio                      | 6 Norte 774                  | Viña del Mar |
+| Miguieles Orellana, René                        | Condell 1190                 | Valparaíso   |
+| Milos Looff, Alicia                             | Pedro León Ugalde 96         | Santiago     |
+| Millán Arrate, Miguel                           | Huérfanos 539.               | Santiago     |
+| Millán Riffo, Hugo                              | Haendel 5274                 | Santiago     |
+| Millán Vera, Javier                             | Manuel de Salas 261          | Santiago     |
+| Mimo Molina, Isabel                             | Gálvez 122, Depto. 415       | Santiago     |
+| Minoletti Massa, Carlos                         | Hospital Naval               | Talcahuano   |
+| Miquel Bañados, Carlos                          | Huérfanos 578                | Santiago     |
+| Miralles Aguila, Humberto                       | Pedro Montt 194              | Puerto Montt |
+| Miranda Bravo, Raquel                           | Pedro Aguirre Cerda 1159     | Concepción   |
+| Miranda Casanova, Mario                         | Balmaceda 827                | La Serena    |
+| Miranda Díaz, Gustavo                           | Los Naranjos 974             | Santiago     |
+| Miranda Escudero, Ramón                         | República de Israel 1203     | Santiago     |
+| Miranda Molina, Héctor R.                       | Libertad 239                 | Ovalle       |
+| Miranda Ordenes, Luis                           | Ahumada 312, Depto. 224      | Santiago     |
+| Miranda Rodríguez, Juan G.                      | Avda. Videla 129             | Coquimbo     |
+| Miranda Rodríguez, Oscar                        | Simón Bolívar 3515           | Santiago     |
+| Miranda Tirado, René                            | Avda. Salvador 2570          | Santiago     |
+| Miserda Benció, Haydée                          | Avda. España 931             | Punta Arenas |
+| Mobarec Marcos, José                            | Palermo 1532                 | Santiago     |
+| Moena Cáceres, Hernán                           | Arica 3833                   | Santiago     |
+| Moena Gómez, Alberto                            | Angol 613                    | Concepción   |
+| Moena Gómez, Luis A.                            | Cochrane 1120                | Concepción   |
+| Mohor Ayub, Nassir                              | Gran Avenida 4399            | Santiago     |
+| Mohor Zummers, Emilio                           | Pedro Marín 2629             | Santiago     |
+| Mois Albala, Mauricio                           | Marín 092                    | Santiago     |
+| Molina Barañao, Raúl                            | Víctor Lamas 1280            | Concepción   |
+| Molina Barros, Samuel                           | Avda. Holanda 129            | Santiago     |
+| Molina Castañeda, Ernesto                       | Ramón Cruz 35                | Santiago     |
+| Molina Cuevas, Luis A.                          | Rancagua 030                 | Santiago     |
+| Molina Fraga, Claudio                           | José M. de la Barra 438      | Santiago     |
+| Molina Guzmán, Gustavo                          | M. Cruzat Vicuña 2726        | Santiago     |
+| Molina López, Arnaldo Molina Mondragón, Alfonso | Larraín Gandarillas 394 243  | Santiago     |
+|                                                 | Pedro Aguirre Cerda          | Lota Bajo    |
+| Molina Rogat, Raúl                              | Abdón Cifuentes 165          | Santiago     |
+| Molina Santibáñez, Olivier                      | Marchant Pereira 2405        | Santiago     |
 ```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of textual directory entries and a page number."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 63
 
@@ -337,126 +362,57 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 64
+
 ## Page Metadata
-Page number: 64
-Source publication year: 1959
-Source publication edition: First Edition
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json`
+- Source page: 64
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/page-images/page-0064.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a two-column directory layout. The left column lists names, and the right column lists corresponding addresses/institutions and cities. The content flows from the top of the left column to the bottom, then continues at the top of the right column. A page number is present at the bottom right.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Moore Fuenzalida, Julio
-Moore Pimm, Ruth
-Moraga del Hoyo, Juan de D.
-Moraga Fuenzalida, Gonzalo
-Moraga Guajardo, René
-Moragas Solá, Juan
-Moraleda Contreras, Juan
-Morales Alcaíno, Sigifredo
-Morales Alcaíno, Teodoro
-Morales Beltramí, Guillermo
-Morales Cañas, Carlos
-Morales Delpiano, Antonio
-Morales Fuentes, Eduardo
-Morales González, Jorge
-Morales González, Lorenzo
-Morales Melo, Martín
-
-Morales Melo, Raúl
-Morales Meneses, Alejandro
-Morales Miranda, Eduardo
-Morales Navarro, Margarita
-Morales Pailler, Sergio
-Morales Rodríguez, Raúl
-Morales Rojas, René A.
-Morales San Martín, Carlos
-Morales Serrano, Osvaldo
-Morales Silva, Guillermo
-Morales Valencia, Inés
-Morales Varela, Oscar
-Morales Vásquez, Luis A.
-
-Morales Vásquez, Sergio
-Morales Zamora, María Otilia
-Morán Mazzetti, Irma
-Morandé Sánchez, Manuel
-Mordoh Najun, Isaac
-Morel Leslie, Alberto
-Morelli Costa, César
-Moren Herrera, Enrique
-Moreno Araya, Doralisa
-Moreno Contreras, Bernardo
-Moreno Figueroa, Alonso
-Moreno Fontanés, Guillermo
-Moreno Geisse, Manuel
-Moreno Henríquez, Augusto
-
-Manuel Rodríguez 355 Santiago
-Los Leones 2900 Santiago
-Paseo Gral. Barbosa 116 Valparaíso
-Compañía 1467 Santiago
-Emilio Delporte 1231 Santiago
-Sanatorio "Valparaíso" Valparaíso
-Hospital Sewell
-Tarapacá 161 Iquique
-Almirante Montt 435 Santiago
-Mac-Iver 142 Santiago
-Errázuriz 2910 Valparaíso
-Carmen 307 Santiago
-Santa Genoveva 322 Santiago
-Isabel La Católica 4933 Santiago
-Francia 357 Valparaíso
-21 de Mayo 617, Depto. Santiago
-508
-
-Centro de Salud Catemu
-Avda. Portugal 783 Santiago
-Camilo Henríquez 239 Valdivia
-Gálvez 120, Depto. 203 Santiago
-Vicuña Mackenna 1031 Santiago
-Montt 404 Temuco
-José M. Infante 717 Santiago
-Hospital Chillán
-Valparaíso 334 E Viña del Mar
-Avda. Fco. Bilbao 1933 Santiago
-Ruiz Tagle 372 Santiago
-2 Sur 1061 Talca
-Amunátegui 491, Depto. Santiago
-31
-
-Hospital Talca
-Avda. Manuel Montt 137 Santiago
-Carmen 682 Santiago
-Independencia 648 Santiago
-Los Serenos 475 Santiago
-Dinamarca 2139 Santiago
-1 Norte 433 Viña del Mar
-M. Antonio Matta 2215 Antofagasta
-Obispo Orrego 556 Santiago
-Bandera 465, Of. 504 Santiago
-Brasil 307 La Serena
-Exequiel Fernández 866 Santiago
-Mac-Iver 142, Of. 404 Santiago
-O'Higgins 1037 Concepción
-
-— 67
+```markdown
+Moore  Fuenzalida,  Julio Moore  Pimm, Ruth Moraga  del  Hoyo,  Juan  de  D. Moraga  Fuenzalida, Gonzalo Moraga  Guajardo,  René Moragas  Solá,  Juan Moraleda  Contreras, Juan Morales  Alcaíno,  Sigifredo Morales  Alcaíno,  Teodoro Morales  Beltramí, Guillermo Morales  Cañas, Carlos Morales  Delpiano, Antonio Morales  Fuentes,  Eduardo Morales  González, Jorge Morales  González,  Lorenzo Morales  Meló,  Martín Morales  Meló,  Raúl Morales  Meneses,  Alejandro Morales  Miranda, Eduardo Morales  Navarro, Margarita Morales  Pailler, Sergio Morales  Rodríguez, Raúl Morales  Rojas,  René  A. Morales  San  Martín, Carlos Morales  Serrano,  Osvaldo Morales  Silva, Guillermo Morales  Valencia, Inés Morales  Varela, Oscar Morales  Vásquez,  Luis  A. Morales  Vásquez,  Sergio Morales  Zamora,  María Otilia Morán  Mazzetti,  Irma Morandé  Sánchez, Manuel Mordoh  Najun,  Isaac Morel  Leslie, Alberto Morelli  Costa,  César Moren  Herrera, Enrique Moreno  Araya,  Doralisa Moreno  Contreras,  Bernardo Moreno  Figueroa, Alonso Moreno  Fontanés, Guillermo Moreno  Geisse,  Manuel Moreno  Henríquez,  Augusto Manuel  Rodríguez  355 Los  Leones  2900 Paseo  Gral.  Barbosa 116 Compañía  1467 Emilio  Delporte  1231 Sanatorio "Valparaíso" Hospital Tarapacá  161 Almirante  Montt  435 Mac-Iver  142 Errázuriz  2910 Carmen  307 Santa  Genoveva  322 Isabel  La  Católica  4933 Francia  357 21  de  Mayo  617,  Depto. 508 Centro  de  Salud Avda.  Portugal 783 Camilo  Henríquez  239 Gálvez 120,  Depto. 203 Vicuña  Mackenna  1031 Montt  404 José  M.  Infante  717 Hospital Valparaíso  334  E Avda.  Feo.  Bilbao 1933 Ruiz  Tagle  372 2  Sur 1061 Amunátegui 491, Depto. 31 Hospital Avda.  Manuel  Montt  137 Carmen  682 Independencia  648 Los  Serenos  475 Dinamarca  2139 1  Norte  433 M.  Antonio  Matta 2215 Obispo  Orrego  556 Bandera  465,  Of.  504 Brasil 307 Exequiel  Fernández  866 Mac-Iver  142,  Of.  404 O'Higgins  1037 Santiago Santiago Valparaíso Santiago Santiago Valparaíso Sewell Iquique Santiago Santiago Valparaíso Santiago Santiago Santiago Valparaíso Santiago Catemu Santiago Valdivia Santiago Santiago Temuco Santiago Chillán Viña  del  Mar Santiago Santiago Talca Santiago Talca Santiago Santiago Santiago Santiago Santiago Viña  del  Mar Antofagasta Santiago Santiago La Serena Santiago Santiago Concepción
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80:p0065`

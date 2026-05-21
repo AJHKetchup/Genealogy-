@@ -1,0 +1,138 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43cf64e67e2e-P0045-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
+converted_sha256: 43cf64e67e2eeab35644d1d3507cf84e9fa61d1a609fc01b9a72648b20b85ac5
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
+page_start: 45
+page_end: 45
+part: 1
+---
+
+# Page 45
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json`
+- Source page: 45
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/page-images/page-0045.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## ARTICLE 2.
+
+Prisoners of war are in the power of the hostile Power, but not of the individuals
+
+or corps who have captured them.
+
+They must at all times be humanely treated and protected, particu¬ larly against acts of violence, insults and public curiosity.
+
+Measures of reprisal against them are prohibited.
+
+## ARTICLE 3.
+
+Prisoners of war have the right to have their person and their honor respected. Women shall be treated with all the regard due to their sex.
+
+Prisoners retain their full civil status.
+
+## ARTICLE 4.
+
+The Power detaining prisoners of war is bound to provide for their maintenance.
+
+Difference in treatment among prisoners is lawful only when it is based on the military rank, state of physical or mental health, pro¬ fessional qualifications or sex of those who profit thereby.
+
+## TITLE II. CAPTURE.
+
+## ARTICLE 5.
+
+Every prisoner of war is bound to give, if he is questioned on the
+
+subject, his true name and rank, or else his regimental number.
+
+If he infringes this rule, he is liable to have the advantages given to
+
+prisoners of his class curtailed.
+
+No coercion may be used on prisoners to secure information relative to the condition of their army or country. Prisoners who refuse to answer may not be threatened, insulted, or exposed to unpleasant or
+
+disadvantageous treatment of any kind whatever.
+
+If, because of his physical or mental condition, a prisoner is unable to
+
+identify himself, he shall be turned over to the medical corps.
+
+## ARTICLE 6.
+
+All effects and objects of personal use-except arms, horses, mili¬ tary equipment and military papers-shall remain in the possession of
+
+prisoners of war, as well as metal helmets and gas masks.
+
+Money in the possession of prisoners may not be taken away from them except by order of an officer and after the amount is determined. A receipt shall be given. Money thus taken away shall be entered
+
+to the account of each prisoner.
+
+Identification documents, insignia of rank, decorations and objects
+
+of value may not be taken from prisoners.
+
+## TITLE III. CAPTIVITY.
+
+Section I. Evacuation of Prisoners of War.
+
+## ARTICLE 7.
+
+Prisoners of war shall be evacuated within the shortest possible period after their capture, to depots located in a region far enough
+
+from the zone of combat for them to be out of danger.
+
+r
+
+'
+
+t
+
+V
+
+%
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

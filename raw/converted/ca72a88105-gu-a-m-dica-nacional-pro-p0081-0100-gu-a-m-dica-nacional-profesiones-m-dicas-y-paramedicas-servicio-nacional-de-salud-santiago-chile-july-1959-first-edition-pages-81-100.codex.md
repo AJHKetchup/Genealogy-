@@ -8,122 +8,101 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/extracted-images`
 
+# Page 81
+
 ## Page Metadata
-Page number: 81
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 81
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0081.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column list. The left column contains names, and the right column contains corresponding addresses and cities. The reading order is down the left column, then down the right column, with each name, address, and city forming a single logical entry. A page number "84 —" is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Ríos Mackenna, Ernesto
-Ríos Navero, Carlos
-Ríos Ríos, Héctor
-Rioseco Garcés, Alfredo
-Rioseco González, Eduardo
-Rioseco Tapia, Arturo
-Rioseco Vásquez, Manuel
-Riquelme Aguilar, Manuel D.
-Riquelme Barriga, Alfredo
-Riquelme Ferrari, Maximiliano
-Riquelme Mocacaín, René
-Riquelme Muñoz, Raquel
-Riquelme Vargas, Juan
-Riqueros Vargas, Eduardo
-Ristori Costaldi, Conrado
-Ritter Hernández, Luis
-Rivadeneira Castro, Alvaro A.
-Rivadeneira Rodríguez, Guillermo
-Rivas del Canto, Luis
-Rivas González, Fernando
-Rivera Carrasco, Marcelo
-Rivera Parga, Pedro
-Rivera Rivera, Jaime O.
-Rivera Santelices, Manuel
-Rivera Toro, Rubén
-Rivera Torrico, Celso
-Rivero Romainville, José G.
-Riveros Godoy, Catalina
-Riveros Joignant, Rubén
-Riveros Sepúlveda, Marina
-Rizzardini Pieretti, Mafalda
-
-Roa Muñoz, Cesáreo
-Roa Rebolledo, Armando
-Robert de la Mahotiere, Darnay E.
-Róbinson Bourcet, Athos
-Róbinson Nebel, Alberto
-Robles Fernández, Edgardo
-Robles Guzmán, Eugenio
-Robles Rivera, Alfonso
-Robson Velarde, Wilbert
-Rocha Sánchyz, Franklin
-Rodas Sánchez, Angel
-Rodewald von Metzen, María L.
-Rodríguez Arce, Enrique
-
-84 —
-
-República 227 Santiago
-San Camilo 463, Dep. 1 Santiago
-Pisagua 271 Chimbarongo
-Bandera 72 Santiago
-Caupolicán 346 Concepción
-Bulnes 352 Los Angeles
-Alejandro del Río 2118 Santiago
-Cienfuegos 55 Santiago
-Alcázar 35 Santiago
-Ricardo Wagner 2307 Santiago
-Galería Villa, Of. 202 Concepción
-C. Montero 0255, Dep. 21 Santiago
-Gay 2318 Santiago
-O. de Rozas 901 La Ligua
-Santa Julia 547 Santiago
-García Reyes 626 Valdivia
-Estado 152, Of. 914 Santiago
-Viollier 54 Santiago
-Bulnes 295 Temuco
-Casa de Salud Isla de Pascua
-San Isidro 145 Santiago
-Valentín Letelier 1381 Santiago
-Bellavista 282, Depto. 3 Santiago
-Orella 954 Valparaíso
-Rengo 363 Los Angeles
-2 Sur 1643 Talca
-Avda. Valparaíso 791 Villa Alemana
-Campos 167 Rancagua
-Lira 852 Santiago
-Pulluquén 2697 San Javier
-Licenciado de las Peñas Santiago
-4730
-
-Cóndor 719 Santiago
-Sazié 2134 Santiago
-Recinto Hospital Collipulli
-3 Oriente 1292 Talca
-Condell 1530, Of. 48 Valparaíso
-Galvarino 395 Lota
-Gamero 2303 Santiago
-L. Navarro 820 Punta Arenas
-Sotomayor 702 Arica
-Morandé 440, Of. 39 Santiago
-Constitución 381 Chillán
-Avda. Holanda 326 Santiago
-Gran Avenida 2974 Santiago
+```markdown
+| Ríos Mackenna, Ernesto            | República 227                | Santiagd       |
+|-----------------------------------|------------------------------|----------------|
+| Ríos Navero, Carlos               | San Camilo 463, Dep. 1       | Santiago       |
+| Ríos Ríos, Héctor                 | Pisagua 271                  | Chimbarongo    |
+| Ríoseco Garcés, Alfredo           | Bandera 72                   | Santiago       |
+| Ríoseco González, Eduardo         | Caupolicán 346               | Concepción     |
+| Ríoseco Tapia, Arturo             | Bulnes 352                   | Los Angeles    |
+| Ríoseco Vásquez, Manuel           | Alejandro del Río 2118       | Santiago       |
+| Riquelme Aguilar, Manuel D.       | Cienfuegos 55                | Santiago       |
+| Riquelme Barriga, Alfredo         | Alcázar 35                   | Santiago       |
+| Riquelme Ferrari, Maximiliano     | Ricardo Wagner 2307          | Santiago       |
+| Riquelme Mocacaín, René           | Galería Villa, Of. 202       | Concepción     |
+| Riquelme Muñoz, Raquel            | C. Montero 0255, Dep. 21     | Santiago       |
+| Riquelme Vargas, Juan             | Gay 2318                     | Santiago       |
+| Riqueros Vargas, Eduardo          | O. de Rozas 901              | La Ligua       |
+| Ristori Costaldi, Conrado         | Santa Julia 547              | Santiago       |
+| Ritter Hernández, Luis            | García Reyes 626             | Valdivia       |
+| Rivadeneira Castro, Alvaro A.     | Estado 152, Of. 914          | Santiago       |
+| Rivadeneira Rodríguez, Guillermo  | Viollier 54                  | Santiago       |
+| Rivas del Canto, Luis             | Bulnes 295                   | Temuco         |
+| Rivas González, Fernando          | Casa de Salud                | Isla de Pascua |
+| Rivera Carrasco, Marcelo          | San Isidro 145               | Santiago       |
+| Rivera Parga, Pedro               | Valentín Letelier 1381       | Santiago       |
+| Rivera Rivera, Jaime O.           | Bellavista 282, Depto. 3     | Santiago       |
+| Rivera Santelices, Manuel         | Orella 954                   | Valparaíso     |
+| Rivera Toro, Rubén                | Rengo 363                    | Los Angeles    |
+| Rivera Torrico, Celso             | 2 Sur 1643                   | Talca          |
+| Rivero Romainville, José G.       | Avda. Valparaíso 791         | Villa Alemana  |
+| Riveros Godoy, Catalina           | Campos 167                   | Rancagua       |
+| Riveros Joignant, Rubén           | Lira 852                     | Santiago       |
+| Riveros Sepúlveda, Marina         | Pulluquén 2697               | San Javier     |
+| Rizzardini Pieretti, Mafalda      | Licenciado de las Peñas 4730 | Santiago       |
+| Roa Muñoz, Cesáreo                | Cóndor 719                   | Santiago       |
+| Roa Rebolledo, Armando            | Sazié 2134                   | Santiago       |
+| Robert de la Mahotiere, Darnay E. | Recinto Hospital             | Collipulli     |
+| Róbinson Bourcet, Athos           | 3 Oriente 1292               | Talca          |
+| Róbinson Nebel, Alberto           | Condell 1530, Of. 48         | Valparaíso     |
+| Robles Fernández, Edgardo         | Galvarino 395                | Lota           |
+| Robles Guzmán, Eugenio            | Gamero 2303                  | Santiago       |
+| Robles Rivera, Alfonso            | L. Navarro 820               | Punta Arenas   |
+| Robson Velarde, Wilbert           | Sotomayor 702                | Arica          |
+| Rocha Sánchyz, Franklin           | Morandé 440, Of. 39          | Santiago       |
+| Rodas Sánchez, Angel              | Constitución 381             | Chillán        |
+| Rodewald von Metzen, María L.     | Avda. Holanda 326            | Santiago       |
+| Rodríguez Arce, Enrique           | Gran Avenida 2974            | Santiago       |
+```
 
 ## Images, Captions, And Visual Notes
-- The page number "84 —" is present at the bottom left of the page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present; only text and a page number."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 82
@@ -194,76 +173,101 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 83
+
 ## Page Metadata
-Page number: 83
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 83
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0083.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column list of names, followed by an address/location, and then a city. The reading order is top-to-bottom within the first column, then top-to-bottom within the second and third columns, which are aligned with the first. The page number "86 —" appears at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-```
-Rojas Constenla, Anselmo J.        Yungay 603                 Valdivia
-Rojas Echeverría, Wolfram          Alam. B. O'Higgins 1175    Santiago
-Rojas Fernández, Belisario         Portales 812               Temuco
-Rojas González, Osvaldo            Maipú 386                  Los Andes
-Rojas Gutiérrez, Ramón             Malaquías Concha 060       Santiago
-Rojas Ladrón de Guevara, Arístides Luis Thayer Ojeda 215      Santiago
-Rojas Lopehandía, Humberto         Rancagua 0821              Santiago
-Rojas Marabolí, Ricardo            Merced 84                  San Felipe
-Rojas Martínez, Luis               Yungay 950                 Curicó
-Rojas Morales, Carlos              Pérez 281                  Traiguén
-Rojas Morales, Guillermo           L. Thayer Ojeda 2204 K     Santiago
-Rojas Mujica, Gustavo              Eulogia Sánchez 46,        Santiago
-                                   Depto. 022
-Rojas Murphy, Jorge E.             Orompello 76               Concepción
-Rojas Narváez, Ricardo             Matucana 1319              Santiago
-Rojas Neumann, Germán              Avda. Alemania 0241        Temuco
-Rojas Núñez, Hugo C.               Avda. Pedro Montt 1810     Valparaíso
-Rojas Pizarro, Jacinto             Angol 482                  Concepción
-Rojas Ramírez, René                Carmen 792                 Curicó
-Rojas Rivera, Humberto             Almirante Riveros 047      Santiago
-Rojas Rodríguez, Carlos            San Martín 350             Coquimbo
-Rojas Saavedra, Patricio           Moneda 1873                Santiago
-Rojas Silva, Moisés                Alam. B. O'Higgins 4338    Santiago
-Rojas Stolze, Renato               Hospital Van Buren         Valparaíso
-Rojas Tampier, Carlos              Colón 1424                 Talcahuano
-Rojas Troncoso, Humberto           Santa Rosa 1436            Santiago
-Rojas Villegas, Francisco          Esmeralda 615              Santiago
-Rolando Góngora, Ricardo           Avda. Uruguay 454          Valparaíso
-Rolla Pimentel, Guillermo A.       Waldo Silva 1180           Santiago
-Rolle Marchetti, Juan              Enrique Foster 39          Santiago
-Román Alemany, Oscar               José Toribio Medina 63     Santiago
-Román Espíndola, Marina            Colón 370                  Los Angeles
-Román Padilla, Noemí               Nataniel 152 J             Santiago
-Román Valenzuela, Clara            Vergara 135                Santiago
-Romero Aguirre, Fernando           Luis Beltrand 2045         Santiago
-Romero Cordero, Hernán             Esmeralda 615, 6º Piso     Santiago
-Romero Ramos, Mario                Gambeta Norte 1089         Santiago
-Romero y Ortega, Nacianceno        Barcelona 2121             Santiago
-Romo Stuart, Armando               Príncipe de Gales 6676 C   Santiago
-Ronbán Topaz, Eduardo              Avda. Gral. Bulnes 216     Santiago
-Roncone Schmidt, Silvio            Ciudad                     Calbuco
-Ronda Neira, Esteban               Esmeralda 670              Valdivia
-Roos Rosman, Andrés                Hospital                   Carahue
-Roos Rosman, Luis                  Santa Rosa 1183            Santiago
-Rosa Delgado, Gerardo de la        Hospital de Niños          Valparaíso
 
-86 —
+```markdown
+| Rojas Constenla, Anselmo J.           | Yungay 603                     | Valdivia            |
+|---------------------------------------|--------------------------------|---------------------|
+| Rojas Echeverría, Wolfram             | Alam. B. O'Higgins 1175        | Santiago            |
+| Rojas Fernández, Belisario            | Portales 812                   | Temuco              |
+| Rojas González, Osvaldo               | Maipú 386                      | Los Andes           |
+| Rojas Gutiérrez, Ramón                | Malaquías Concha 060           | Santiago            |
+| Rojas Ladrón de Guevara, Arístides    | Luis Thayer Ojeda 215          | Santiago            |
+| Rojas Lopehandía, Humberto            | Rancagua 0821                  | Santiago            |
+| Rojas Marabolí, Ricardo               | Merced 84                      | San Felipe          |
+| Rojas Martínez, Luis                  | Yungay 950                     | Curicó              |
+| Rojas Morales, Carlos                 | Pérez 281                      | Traiguén            |
+| Rojas Morales, Guillermo              | L. Thayer Ojeda 2204           | К Santiago          |
+| Rojas Mujica, Gustavo                 | Eulogia Sánchez 46, Depto. 022 | Santiago            |
+| Rojas Murphy, Jorge E.                | Orompello 76                   | Concepción          |
+| Rojas Narváez, Ricardo                | Matucana 1319                  | Santiago            |
+| Rojas Neumann, Germán                 | Avda. Alemania 0241            | Temuco              |
+| Rojas Núñez, Hugo C.                  | Avda. Pedro Montt 1810         | Valparaíso          |
+| Rojas Pizarro, Jacinto                | Angol 482                      | Concepción          |
+| Rojas Ramírez, René                   | Carmen 792                     | Curicó              |
+| Rojas Rivera, Humberto                | Almirante Riveros 047          | Santiago            |
+| Rojas Rodríguez, Carlos               | San Martín 350                 | Coquimbo            |
+| Rojas Saavedra, Patricio              | Moneda 1873                    | Santiago            |
+| Rojas Silva, Moisés                   | Alam. B. O'Higgins 4338        | Santiago            |
+| Rojas Stolze, Renato                  | Hospital Van Burén             | Valparaíso          |
+| Rojas Tampier, Carlos                 | Colón 1424                     | Talcahuano          |
+| Rojas Troncoso, Humberto              | Santa Rosa.1436                | Santiago            |
+| Rojas Villegas, Francisco             | Esmeralda 615                  | Santiago            |
+| Rolando Góngora, Ricardo              | Avda. Uruguay 454              | Valparaíso          |
+| Rolla Pimentel, Guillermo A.          | Waldo Silva 1180               | Santiago            |
+| Rolle Marchetti, Juan                 | Enrique Fóster 39              | Santiago            |
+| Román Alemany, Oscar                  | José Toribio Medina 63         | Santiago            |
+| Román Espíndola, Marina               | Colón 370                      | Los Angeles         |
+| Román Padilla, Noemí                  | Nataniel 152 J                 | Santiago            |
+| Román Valenzuela, Clara               | Vergara 135                    | Santiago            |
+| Romero Aguirre, Fernando              | Luis Beltrand 2045             | Santiago            |
+| Romero Cordero, Hernán                | Esmeralda 615, 6? Piso         | Santiago            |
+| Romero Ramos, Mario                   | Gambeta Norte 1089             | Santiago            |
+| Romero y Ortega, Nacianceno           | Barcelona 2121                 | Santiago            |
+| Romo Stuart, Armando                  | Príncipe de Gales 6676 С       | Santiago            |
+| Ronbán Topaz, Eduardo                 | Avda. Gral. Bulnes 216         | Santiago            |
+| Roncone Schmidt, Silvio               | Ciudad                         | Calbuco             |
+| Ronda Neira, Esteban                  | Esmeralda 670                  | Valdivia            |
+| Roos Rosman, Andrés Roos Rosman, Luis | Hospital                       | Carahue             |
+| Rosa Delgado, Gerardo                 | Santa Rosa 1183                | Santiago Valparaíso |
+| de la                                 | Hospital de Niños              |                     |
 ```
 
 ## Images, Captions, And Visual Notes
-No images or captions are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 84
@@ -630,90 +634,97 @@ All visible text and the page number have been transcribed. The two-column layou
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual elements are present on this page that would be useful as standalone assets."}
 ```
 
+# Page 87
+
 ## Page Metadata
 
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0087`
 - Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Page: 87
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 87
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0087.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of text with a page number "87" at the top right. The main content is a directory listing formatted into three columns: Name, Address, and Location. The names are alphabetized by surname and are printed in bold. There are visual breaks (blank lines) between different alphabetical groupings of names. At the bottom left of the page is the number "90 —". The reading order is from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-87
-
-| Name | Address | Location |
-|---|---|---|
-| **Salleres Pérez, Alberto** | Andrés Bello 23 | Santiago |
-| **San Cristóbal Muñoz, Diego** | Matías Cousiño 150,<br>Of. 816 | Santiago |
-| | | |
-| **San Martín Bozán, Sergio** | Avda. Bustos 2145 | Santiago |
-| **San Martín Ferrari, Hernán** | Cochrane 1247 | Concepción |
-| **San Martín Rissetti, Lisandro** | Avda. Matucana 891 | Santiago |
-| **San Martín Rodena, Joel** | 1.a Avenida 1239 | Santiago |
-| **San Martín Tapia, Oscar** | Hospital | Mejillones |
-| **San Pedro Valenzuela, Osvaldo** | Padre Orellana 2042 | Santiago |
-| **Sánchez Beguiristain, Basilio** | Casa de Socorro | Pichilemu |
-| **Sánchez Cavieres, Víctor** | Pucará 4143 | Santiago |
-| **Sánchez Díaz, Liborio** | Avda. Italia 1045 | Santiago |
-| **Sánchez San Cristóbal, Vicente** | El Coigüe 4000 | Santiago |
-| **Sánchez Soto, Delfina** | Bascuñán Guerrero 494 | Santiago |
-| **Sánchez Stephan, Jorge** | Juan Sebastián Bach 237 | Santiago |
-| **Sánchez Vidal, Miguel** | Mackenna 692 | Osorno |
-| **Sandoval Hernández, José** | Vallejos 455 | Copiapó |
-| **Sandoval Rivas, Luis** | O'Higgins 542 | Chillán |
-| **Sandoval Smart, Luis** | Rosas 1388 | Santiago |
-| **Sangueza Fajardo, Mario** | Casilla 170 | Rengo |
-| **Sanhueza Alvarez, Héctor** | Plaza de Armas | Doñihue |
-| **Sanhueza Conlledo, Lautaro** | Avda. Colón 459 | Punta Arenas |
-| **Sanhueza Cruz, Jorge** | Avda. Providencia 309 | Santiago |
-| **Sanhueza Cruz, Pedro H.** | Merced 180 | Santiago |
-| **Sanhueza Donoso, Fernando** | Gertrudis Echeñíque 260,<br>Depto. A | Santiago |
-| | | |
-| **Sanhueza Donoso, Hernán** | Las Carretas 2166 | Santiago |
-| **Sanhueza Flores, Manuel** | Cochrane 1200 | Concepción |
-| **Sanhueza Fuenzalida, Jorge** | Joel Rodríguez 992 | Santiago |
-| **Sanoja Valladares, Marcos** | Av. J. Pedro Alessandri<br>295 | Santiago |
-| | | |
-| **Sansone Jonieaux, Sergio** | Saavedra 583 | Lebu |
-| **Santa María Henríquez, Alfredo** | Alcázar 113 | Lebu |
-| **Santa María Santa Cruz, Julio** | Carlos Antúnez 2092 | Santiago |
-| **Santander Gilbert, Alberto** | Av. R. Cumming 715 | Santiago |
-| **Santander Guerrero, J. Daniel** | Eleodoro Yáñez 1637 | Valdivia |
-| **Santapau Solar, Omar** | Rosas 910 | Santiago |
-| **Santelices Valenzuela, Guillermina** | Merced 116, Depto. B, 6º<br>Piso | Santiago |
-| | | |
-| **Santelices Zamorano, Alfredo** | Carmen 566 | Santiago |
-| **Santiagos Veas, Raquel** | Purísima 344 | Santiago |
-| **Santibáñez Miranda, Manuel** | O'Carrol 293 | Rancagua |
-| **Santiváñez Barrios, Jaime** | Avda. Manuel Montt 1141 | Santiago |
-| **Santos Ascarza, Raquel** | Avda. Manuel Montt 1141 | Santiago |
-| **Santos Gálmez, Evaristo** | La Brabanzón 2778 | Santiago |
-
-90 —
+```markdown
+| Salieres Pérez, Alberto                          | Andrés Bello 23                                 | Santiago          |
+|--------------------------------------------------|-------------------------------------------------|-------------------|
+| San Cristóbal Muñoz, Diego                       | Matías Cousiño 150, Of. 816                     | Santiago          |
+| San Martín Bozán, Sergio                         | Avda. Bustos 2145                               | Santiago          |
+| San Martín Ferrari, Hernán                       | Cochrane 1247                                   | Concepción        |
+| San Martín Rissetti, Lisandro                    | Avda. Matucana 891                              | Santiago          |
+| San Martín Rodena, Joel                          | 1.a Avenida 1239                                | Santiago          |
+| San Martín Tapia, Oscar                          | Hospital                                        | Mejillones        |
+| San Pedro Valenzuela, Osvaldo                    | Padre Orellana 2042                             | Santiago          |
+| Sánchez Beguiristain, Basilio                    | Casa de Socorro                                 | Pichilemu         |
+| Sánchez Cavieres, Víctor                         | Pucará 4143                                     | Santiago          |
+| Sánchez Díaz, Liborio                            | Avda. Italia 1045                               | Santiago          |
+| Sánchez San Cristóbal, Vicente                   | El Coigüe 4000                                  | Santiago          |
+| Sánchez Soto, Delfina                            | Bascuñán Guerrero 494                           | Santiago          |
+| Sánchez Stephan, Jorge                           | Juan Sebastián Bach 237                         | Santiago          |
+| Sánchez Vidal, Miguel                            | Mackenna 692                                    | Osorno            |
+| Sandoval Hernández, José                         | Vallejos 455                                    | Copiapó           |
+| Sandoval Rivas, Luis                             | O'Higgins 542                                   | Chillán           |
+| Sandoval Smart, Luis                             | Rosas 1388                                      | Santiago          |
+| Sangueza Fajardo, Mario                          | Casilla 170                                     | Rengo             |
+| Sanhueza Alvarez, Héctor                         | Plaza de Armas                                  | Doñihue           |
+| Sanhueza Conlledo, Lautaro                       | Avda. Colón 459                                 | Punta Arenas      |
+| Sanhueza Cruz, Jorge                             | Avda. Providencia 309                           | Santiago          |
+| Sanhueza Cruz, Pedro H.                          | Merced 180                                      | Santiago          |
+| Sanhueza Donoso, Fernando                        | Gertrudis Echeñique 260, Depto. A               | Santiago          |
+| Sanhueza Donoso, Hernán                          | Las Carretas 2166                               | Santiago          |
+| Sanhueza Flores, Manuel                          | Cochrane 1200                                   | Concepción        |
+| Sanhueza Fuenzalida, Jorge                       | Joel Rodríguez 992                              | Santiago          |
+| Sanoja Valladares, Marcos                        | Av. J. Pedro Alessandri 295                     | Santiago          |
+| Sansone Jonieaux, Sergio                         | Saavedra 583                                    | Lebu              |
+| Santa María Henríquez, Alfredo                   | Alcázar 113                                     | Lebu              |
+| Santa María Santa Cruz, Julio                    | Carlos Antúnez 2092                             | Santiago          |
+| Santander Gilbert, Alberto                       | Av. R. Cumming 715                              | Santiago          |
+| Santander Guerrero, J. Daniel                    | Eleodoro Yáñez 1637                             | Valdivia          |
+| Santapau Solar, Ornar                            | Rosas 910                                       | Santiago          |
+| Santelices Valenzuela, Guillermina               | Merced 116, Depto. B, 6? Piso                   | Santiago          |
+| Santelices Zamorano, Alfredo                     | Carmen 566                                      | Santiago          |
+| Santiagos Veas, Raquel                           | Purísima 344                                    | Santiago          |
+| Santibáñez Miranda, Manuel                       | O'Carrol 293                                    | Rancagua          |
+| Santiváñez Barrios, Jaime Santos Ascarza, Raquel | Avda. Manuel Montt 1141 Avda. Manuel Montt 1141 | Santiago Santiago |
+| Santos Gálmez, Evaristo                          | La Brabanzón 2778                               | Santiago          |
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-The text on this page is clear and legible. There are no uncertain or illegible portions.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other visual elements that would warrant cropping."
-}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 88
 
@@ -866,235 +877,194 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-Page number: 90
-
-## Layout And Reading Order
-The page presents a two-column list. The left column contains names, and the right column contains corresponding addresses and cities. The reading order is down the left column, then across to the right column for the address/city, then to the next name in the left column. A page number "— 93" is present at the bottom right.
-
-## Literal Transcription
-Sepúlveda Ortega, Oscar
-Sepúlveda Quezada, Enrique
-Sepúlveda Riveros, Darío
-Sepúlveda Riveros, Marco A.
-Sepúlveda Salvatierra, Luis
-Sepúlveda Sánchez, Carlos H.
-Sepúlveda Schulz, Jorge
-Sepúlveda, Sepúlveda, Guillermo
-Sepúlveda Sepúlveda, José
-Sepúlveda Silva, Humberto
-Sepúlveda Tapia, Enrique
-Sepúlveda Urrutia, Julio
-Serani Allende, Héctor
-Serra Roger, Marcelo
-Serrano Plata, Javier
-Serrano Rennella, Fernando
-Serrate Aguilera, José
-Sesnić Carević, Rodolfo
-Severino Arrese, Artidoro E.
-Sielecznik Halbersztat, Arón
-Sierra Longe, Hugo
-Sierra Somerville, Víctor
-
-Sierralta Escola, Raúl
-Sierralta Morel, Rafael
-Sievers Prekerhr, Ronald
-Sigall Morrinson, Luis
-Silbermann Lipstman, Salomón
-Silva Alvarez, Santiago
-Silva Besoain, Raúl
-Silva Calderón, Lautaro
-Silva Clark, Alfredo
-Silva Duwrien, Sergio
-Silva Escobar, Silvio
-Silva Fuentes, Jorge E.
-Silva Fuentes, Sergio
-Silva Garín, Patricio
-Silva Gavilán, Luis H.
-Silva Hermosilla, Efraín
-Silva Ibarra, Raúl
-Silva Inzunza, Edna
-Silva Lafrenz, Carlos
-Silva Moreno, Vicente
-
-Vicuña Mackenna 836, Santiago
-Of. 21
-Avda. Gral. Bulnes 285, Santiago
-Of. 603
-Guayaquil 34 Santiago
-Mosqueto 491, 3.er Piso Santiago
-Covadonga 121 San Bernardo
-Dieciocho 713 Chillán
-Chacabuco 940 San Fernando
-O'Higgins 346 Concepción
-Blanco Encalada 1665 Santiago
-García Reyes 671 Valdivia
-E. Larenas 240 Concepción
-Chacabuco 741 San Fernando
-Manuel Rodríguez 556 Santiago
-Caupolicán 597 Valdivia
-Picarte 256 Santiago
-Gral. del Canto 141 Valparaíso
-Casa de Socorro Lanco
-Balmaceda 959, Renca Santiago
-Bartolo Soto 3941 Santiago
-J. Victorino Lastarria 26 Santiago
-Hospital Temuco
-Juan Antonio Ríos 33, Santiago
-Depto. 22
-
-Zegers 468 Iquique
-1 Norte 565 Talca
-Luis Carrera 2570 Santiago
-5 Norte 1395 Viña del Mar
-Sazié 2066 Santiago
-Bartolo Soto 3890 Santiago
-Alam. B. O'Higgins 282 Santiago
-Sub. Vicuña M. 1374 Valparaíso
-Alvarez 1194 Viña del Mar
-Av. Gral. Bustamante 233 Santiago
-Américo Vespucio 134 Santiago
-Eusebio Lillo 440 Santiago
-Eusebio Lillo 515 Santiago
-Mac-Iver 22, Depto. 512 Santiago
-Avda. Lota 2359 Santiago
-Av. Manuel A. Matta 1159 Santiago
-Moneda 973, Of. 836 Santiago
-Avda. Vitacura 565 Santiago
-6 Norte 961 Viña del Mar
-San Martín 40, Depto. 6 Santiago
-
-— 93
-
-## Images, Captions, And Visual Notes
-A page number "— 93" is present at the bottom right of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page other than the page number, which is transcribed."}
+# Page 90
 
 ## Page Metadata
-Page 91
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 90
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0090.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a two-column list of names, addresses, and cities. The left column contains names, and the right column contains corresponding addresses and cities. The content should be read from top to bottom, left column first, then the right column for each entry. A page number "94 —" is centered at the bottom of the page.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Silva Muñoz, Marcial
-Silva Muñoz, Raúl
-Silva Olivares, Lautaro
-Silva Pizarro, Gustavo
-Silva Riesco, Gabriel
-Silva Risopatrón, Luis
-Silva Salinas, Ana
-Silva Silva, Eduardo
-Silva Silva, Emilio
-Silva Urbistondo, Antonio
-Silva Uribe, José M.
-Sillerico Aliaga, Luis
-Simón Bernheim, Nicole
-Simón Liebermann, Walter
-Simón Rahal, Pedro A.
-Simón Saulmann, Carlos
-Simón Tobías, Guillermo
-Simonetti Astengo, Luis
-Simpfendörfer Schmierer, Erich
-Sims Riveros, Alfonso
-Sinay Sestopal, Naum
-Siqués Estela, Griselda
-Sirebrenik Wainchencher, David
-Skewes Orellana, Eduardo
-Sklarz Schyer, Max
-Sobarzo Figueroa, Romilio
-Socías Ferrer, Gabriel
-Söenksen Gleisner, Oscar
-Solá Miranda, Guillermo
-Solar Lantaño, Sergio
-Solar Letelier, Emilio del
-Solar Ramírez, Carlos A.
-Solar Silva, Miguel
-Solar Valenzuela, Antonio del
-Solar Valenzuela, Vicente del
-Solari Canessa, Guido
-Solari Henríquez, José
-Solari Mongrio, Enrique
-Soler Gómez, Jaime
-Soler Miguel, Manuel
-Solervicens Castel, Enrique
-Solervicens González, Ximena
-Solovera Honorato, Humberto
-
-94 —
-
-Canónigo Madariaga 570 Santiago
-Monjitas 514 Santiago
-8 Norte 1168 Viña del Mar
-Nogueira 251 Tomé
-Moneda 1717 Santiago
-Reñaca 27 Santiago
-Francisco Puelma 38 E Santiago
-Av. Gral. Bustamante 250 Santiago
-Merced 447 Curicó
-Plaza Bulnes 31, Dep. 26 Santiago
-B. O’Higgins 1360 Antofagasta
-Lautaro s/n Coronel
-Avda. Colón 1397 Santiago
-Compañía 1579 Santiago
-Independencia 3272 E Santiago
-Avda. Fco. Bilbao 1945 Santiago
-Avda. R. Cumming 233 Santiago
-6 Oriente 259 H Viña del Mar
-Versailles 3091 Santiago
-Leoncio Fernández 2655 Santiago
-M. F. Cabrera 39 Santiago
-Ventura Lavalle 436 Santiago
-Santa Rosa 845 Santiago
-Caupolicán 83 Concepción
-Huelén 75, 2º Piso Santiago
-Prof. Zañartu 299 Santiago
-Avda. Vitacura 4227 Santiago
-Camilo Henríquez 2811 Camino Pte. Alto
-Prat 743 La Calera
-Sarmiento 769 Punta Arenas
-Granada 2130 Santiago
-Hospital La Serena
-Avda. J. Pedro Alessandri Santiago
-953
-Vicuña Mackenna 134 Santiago
-Quirihue 90 A Santiago
-Mosqueto 492 Santiago
-Hernán Cortés 2171 Santiago
-Cóndor 1291, Depto. 203 Santiago
-Ramón Carnicer 529 K Santiago
-Diagonal Oriente 1908 Santiago
-O’Higgins 536 Concepción
-Pedro de Oña 041 Santiago
-Moneda 720, Of. 400 Santiago
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-
-The transcription is complete and accurate, capturing all text and its layout from the provided page image.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for region cropping."}
+```markdown
+| Sepúlveda Ortega, Óscáf         | Vicuña Mackenna £36, Of. 21     | Santiago Santiago   |
+|---------------------------------|---------------------------------|---------------------|
+| Sepúlveda Quezada, Enrique      | Avda. Gral. Bulnes 285, Of. 603 | Santiago Santiago   |
+| Sepúlveda Riveros, Darío        | Guayaquil 34                    | Santiago            |
+| Sepúlveda Riveros, Marco A.     | Mosqueto 491, З.ег Piso         | Santiago            |
+| Sepúlveda Salvatierra, Luis     | Covadonga 121                   | San Bernardo        |
+| Sepúlveda Sánchez, Carlos H.    | Dieciocho 713                   | Chillán             |
+| Sepúlveda Schulz, Jorge         | Chacabuco 940                   | San Fernando        |
+| Sepúlveda, Sepúlveda, Guillermo | O'Higgins 346                   | Concepción          |
+| Sepúlveda Sepúlveda, José       | Blanco Encalada 1665            | Santiago            |
+| Sepúlveda Silva, Humberto       | García Reyes 671                | Valdivia            |
+| Sepúlveda Tapia, Enrique        | E. Larenas 240                  | Concepción          |
+| Sepúlveda Urrutia, Julio        | Chacabuco 741                   | San Fernando        |
+| Serani Allende, Héctor          | Manuel Rodríguez 556            | Santiago            |
+| Serra Roger, Marcelo            | Caupolicán 597                  | Valdivia            |
+| Serrano Plata, Javier           | Picarte 256                     | Santiago            |
+| Serrano Rennella, Fernando      | Gral. del Canto 141             | Valparaíso          |
+| Serrate Aguilera, José          | Casa de Socorro                 | Lanco               |
+| Sesnió Carevió, Rodolfo         | Balmaceda 959, Renca            | Santiago            |
+| Severino Arrese, Artidoro E.    | Bartolo Soto 3941               | Santiago            |
+| Sielecznik Halbersztat, Arón    | J. Victorino Lastarria 26       | Santiago            |
+| Sierra Longe, Hugo              | Hospital                        | Temuco              |
+| Sierra Somerville, Víctor       | Juan Antonio Ríos 33, Depto. 22 | Santiago            |
+| Sierralta Escola, Raúl          | Zegers 468                      | Iquique             |
+| Sierralta Morel, Rafael         | 1 Norte 565                     | Talca               |
+| Sievers Prekerhr, Ronald        | Luis Carrera 2570               | Santiago            |
+| Sigall Morrinson, Luis          | 5 Norte 1395                    | Viña del Mar        |
+| Silbermann Lipstman, Salomón    | Sazié 2066                      | Santiago            |
+| Silva Alvarez, Santiago         | Bartolo Soto 3890               | Santiago            |
+| Silva Besoaín, Raúl             | Alam. B. O'Higgins 282          | Santiago            |
+| Silva Calderón, Lautaro         | Sub. Vicuña M. 1374             | Valparaíso          |
+| Silva Clark, Alfredo            | Alvarez 1194                    | Viña del Mar        |
+| Silva Duwrien, Sergio           | Av. Gral. Bustamante 233        | Santiago            |
+| Silva Escobar, Silvio           | Américo Vespucio 134            | Santiago            |
+| Silva Fuentes, Jorge E.         | Eusebio Lillo 440               | Santiago            |
+| Silva Fuentes, Sergio           | Eusebio Lillo 515               | Santiago            |
+| Silva Garín, Patricio           | Mac-Iver 22, Depto. 512         | Santiago            |
+| Silva Gavilán, Luis H.          | Avda. Lota 2359                 | Santiago            |
+| Silva Hermosilla, Efraín        | Av. Manuel A. Matta 1159        | Santiago            |
+| Silva Ibarra, Raúl              | Moneda 973, Of. 836             | Santiago            |
+| Silva Inzunza, Edna             | Avda. Vitacura 565              | Santiago            |
+| Silva Lafrenz, Carlos           | 6 Norte 961                     | Viña del Mar        |
+| Silva Moreno, Vicénte           | San Martín 40, Depto.           | Santiago            |
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 91
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 91
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0091.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+| Silva Muñoz, Marcial           | Canónigo Madariaga 570        | áantiagó         |
+|--------------------------------|-------------------------------|------------------|
+| Silva Muñoz, Raúl              | Monjitas 514                  | Santiago         |
+| Silva Olivares, Lautaro        | 8 Norte 1168                  | Viña del Mar     |
+| Silva Pizarro, Gustavo         | Nogueira 251                  | Tomé             |
+| Silva Riesco, Gabriel          | Moneda 1717                   | Santiago         |
+| Silva Risopatrón, Luis         | Reñaca 27                     | Santiago         |
+| Silva Salinas, Ana             | Francisco Puelma 38 E         | Santiago         |
+| Silva Silva, Eduardo           | Av. Gral. Bustamante 250      | Santiago         |
+| Silva Silva, Emilio            | Merced 447                    | Curicó           |
+| Silva Urbistondo, Antonio      | Plaza Bulnes 31, Dep. 26      | Santiago         |
+| Silva Uribe, José M.           | В. O Higgins 1360             | Antofagasta      |
+| Sillerico Aliaga, Luis         | Lautaro s/n                   | Coronel          |
+| Simón Bernheim, Nicole         | Avda. Colón 1397              | Santiago         |
+| Simón Liebermann, Walter       | Compañía 1579                 | Santiago         |
+| Simón Rahal, Pedro A.          | Independencia 3272 E          | Santiago         |
+| Simón Saulmann, Carlos         | Avda. Feo. Bilbao 1945        | Santiago         |
+| Simón Tobías, Guillermo        | Avda. R. Cumming 233          | Santiago         |
+| Simonetti Astengo, Luis        | 6 Oriente 259 H               | Viña del Mar     |
+| Simpfendórfer Schmierer, Erich | Versailles 3091               | Santiago         |
+| Sims Riveros, Alfonso          | Leoncio Fernández 2655        | Santiago         |
+| Sinay Sestopal, Naum           | M. F. Cabrera 39              | Santiago         |
+| Siqués Estela, Griselda        | Ventura Lavalle 436           | Santiago         |
+| Sirebrenik Wainchencher, David | Santa Rosa 845                | Santiago         |
+| Skewes Orellana, Eduardo       | Caupolicán 83                 | Concepción       |
+| Sklarz Schyer, Max             | Huelén 75, 2? Piso            | Santiago         |
+| Sobarzo Figueroa, Romilio      | Prof. Zañartu 299             | Santiago         |
+| Socías Ferrer, Gabriel         | Avda. Vitacura 4227           | Santiago         |
+| Sóenksen Gleisner, Oscar       | Camilo Henríquez 2811         | Camino Pte. Alto |
+| Sola Miranda, Guillermo        | Prat 743                      | La Calera        |
+| Solar Lantaño, Sergio          | Sarmiento 769                 | Punta Arenas     |
+| Solar Letelier, Emilio del     | Granada 2130                  | Santiago         |
+| Solar Ramírez, Carlos A.       | Hospital                      | La Serena        |
+| Solar Silva, Miguel            | Avda. J. Pedro Alessandri 953 | Santiago         |
+| Solar Valenzuela, Antonio del  | Vicuña Mackenna 134           | Santiago         |
+| Solar Valenzuela, Vicente del  | Quirihue 90 A                 | Santiago         |
+| Solari Canessa, Guido          | Mosquete 492                  | Santiago         |
+| Solari Henríquez, José         | Hernán Cortés 2171            | Santiago         |
+| Solari Mongrio, Enrique        | Cóndor 1291, Depto. 203       | Santiago         |
+| Soler Gómez, Jaime             | Ramón Carnicer 529 К          | Santiago         |
+| Soler Miguel, Manuel           | Diagonal Oriente 1908         | Santiago         |
+| Solervicens Castel, Enrique    | O'Higgins 536                 | Concepción       |
+| Solervicens González, Ximena   | Pedro de Oña 041              | Santiago         |
+| Solovera Honorato, Humberto    | Moneda 720, Of. 400           | Santiago         |
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 92
@@ -1439,74 +1409,99 @@ The transcription is a complete and accurate representation of all text on the p
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only textual data in a directory format with no significant visual elements like photographs, illustrations, or maps."}
 ```
 
+# Page 95
+
 ## Page Metadata
-Page number: 95
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 95
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0095.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column list of names, addresses, and locations. The reading order is from top to bottom, left to right within each conceptual column (name, address, city). The page number "95" is centered at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Thomson Schwarzenberg, Adalberto Merced 486 A Santiago
-Thonet Inglés, Carlos Callao 3602 Santiago
-Thumala Daccarett, Elías Bichara Recoleta 403 Santiago
-Timmermann Körner, Oscar Arturo Prat s/n Purranque
-Tinageros Arroyo, José C. Enrique Concha 34 A Santiago
-Tisné Brousse, Luis Rancagua 0835 Santiago
-Titelman Pasmanik, Jacobo Mosqueto 492 Santiago
-Tobar Brito, Alfonso Condell 1443 Valparaíso
-Tobar Bustamante, Victoria Ahumada 236, Of. 601 Santiago
-Tobar Pinochet, Tomás Ebro 41 Santiago
-Tohá Castellá, José Almirante Acevedo 4532 Santiago
-Tohá González, Isidoro Napoleón 3000 Santiago
-Toledo Alvarado, Pablo Edo. Castillo Velasco 960 Santiago
-Toledo Cancino, Luis A. Brown Norte 694 Santiago
-Toledo Henderson, Aníbal Mac-Iver 142, Of. 202 Santiago
-Tomasello Rossel, Spartaco San José 199 Viña del Mar
-Tondreau del Solar, Carlos Limache 1687 Viña del Mar
-Toriello Soto, Gloria Diego de Almagro 2911 G Santiago
-Toriello Soto, Lucía I. Valdés Vergara 336 Santiago
-Tornero Rodríguez, Luis Salvador Donoso 1553 Valparaíso
-Tornvall Strömsten, Svante Condell 1190, Of. 147 Valparaíso
-Toro Genkel, Luis L. Huérfanos 713, Of. 116 Santiago
-Toro Gertosio, Carlos M. Antonio Matta 555 La Serena
-Toro Osorio, Gerardo Manuel Rodríguez 56, Santiago
-Depto. 509
-Toro Perdiguero, Luis H. Talca 1394 Punta Arenas
-Toro Rojas, Raúl E. Irarrázaval 1235 Santiago
-Torreblanca Droguett, Jorge Huelén 210 B Santiago
-Torres Alvarez, Juan Hospital San Felipe
-Torres Cereceda, Isauro Rafael Cañas 39 Santiago
-Torres Contreras, Benjamín Santo Domingo 105 Puente Alto
-Torres Cruz, Sergio Chalet Nº 7, La Mina Potrerillos
-Torres Flores, Marina San Pablo 1239, casa 5 Santiago
-Torres Galdámes, Ernesto Monjitas 513, Depto. 72 Santiago
-Torres Ibarra, Hernán 10 de Julio 356, 4º Piso Santiago
-Torres Kay, Fernando Nicolás de Ovando 940 Santiago
-Torres Kay, Mario Marcoleta 39 Santiago
-Torres Lazarte, Hugo Montt s/n Cauquenes
-Torres Orrego, Rafael V. Subercaseaux 191 Santiago
-Torres Ortega, Humberto Victoria 2632 Valparaíso
-Torres Ortega, José Rosa Eguiguren 814, Of. Santiago
-94
-Torres Ramírez, Luis Avda. Holanda 548 Santiago
-Torres Reyes, Egipto Avda. Rdo. Cumming 13 Santiago
-Torres Torres, Víctor Alonso Ovalle 1686 Santiago
 
-95 —
+```markdown
+| Thomson Schwát'zehberg, Adalberto          | Merced 486 A                    | Üantíagó     |
+|--------------------------------------------|---------------------------------|--------------|
+| Thonet Inglés, Carlos                      | Callao 3602                     | Santiago     |
+| Thumala Daccarett, Elias Bichara           | Recoleta 403                    | Santiago     |
+| Timmermann Kórner, Oscar                   | Arturo Prat s/n                 | Purranque    |
+| Tinageros Arroyo, José C.                  | Enrique Concha 34 A             | Santiago     |
+| Tisné Brousse, Luis                        | Rancagua 0835                   | Santiago     |
+| Titelman Pasmanik, Jacobo                  | Mosqueto 492                    | Santiago     |
+| Tobar Brito, Alfonso                       | Condell 1443                    | Valparaíso   |
+| Tobar Bustamante, Victoria                 | Ahumada 236, Of. 601            | Santiago     |
+| Tobar Pinochet, Tomás                      | Ebro 41                         | Santiago     |
+| Tohá Castellá, José                        | Almirante Acevedo 4532          | Santiago     |
+| Tohá González, Isidoro                     | Napaleón 3000                   | Santiago     |
+| Toledo Alvarado, Pablo                     | Edo. Castillo Velasco 960       | Santiago     |
+| Toledo Cancino, Luis A.                    | Brown Norte 694                 | Santiago     |
+| Toledo Henderson, Aníbal                   | Mac-Iver 142, Of. 202           | Santiago     |
+| Tomasello Rossel, Spartaco                 | San José 199                    | Viña del Mar |
+| Tondreau del Solar, Carlos                 | Limache 1687                    | Viña del Mar |
+| Toriello Soto, Gloria                      | Diego de Almagro 2911 G         | Santiago     |
+| Toriello Soto, Lucía                       | I. Valdés Vergara 336           | Santiago     |
+| Tornero Rodríguez, Luis                    | Salvador Donoso 1553            | Valparaíso   |
+| Tornvall Strómsten, Svante                 | Condell 1190, Of. 147           | Valparaíso   |
+| Toro Genkel, Luis L.                       | Huérfanos 713, Of. 116          | Santiago     |
+| Toro Gertosio, Carlos                      | M. Antonio Matta 555            | La Serena    |
+| Toro Osorio, Gerardo                       | Manuel Rodríguez 56, Depto. 509 | Santiago     |
+| Toro Perdiguero, Luis H.                   | Talca 1394                      | Punta Arenas |
+| Toro Rojas, Raúl E.                        | Irarrázaval 1235                | Santiago     |
+| Torreblanca Droguett, Jorge                | Huelén 210 В                    | Santiago     |
+| Torres Alvarez, Juan                       | Hospital                        | San Felipe   |
+| Torres Cereceda, Isauro                    | Rafael Cañas 39                 | Santiago     |
+| Torres Contreras, Benjamín                 | Santo Domingo 105               | Puente Alto  |
+| Torres Cruz, Sergio                        | Chalet № 7, La Mina             | Potrerillos  |
+| Torres Flores, Marina                      | San Pablo 1239, casa 5          | Santiago     |
+| Torres Galdámes, Ernesto                   | Monjitas 513, Depto. 72         | Santiago     |
+| Torres Ibarra, Hernán                      | 10 de Julio 356, 4? Piso        | Santiago     |
+| Torres Kay, Fernando                       | Nicolás de Ovando 940           | Santiago     |
+| Torres Kay, Mario                          | Marcoleta 39                    | Santiago     |
+| Torres Lazarte, Hugo                       | Montt s/n                       | Cauquenes    |
+| Torres Orrego, Rafael                      | V. Subercaseaux 191             | Santiago     |
+| Torres Ortega, Humberto                    | Victoria 2632                   | Valparaíso   |
+| Torres Ortega, José                        | Rosa Eguiguren 814, Of. 94      | Santiago     |
+| Torres Ramírez, Luis                       | Avda. Holanda 548               | Santiago     |
+| Torres Reyes, Egipto Torres Torres, Víctor | Avda. Rdo. Cumming 13           | Santiago     |
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 99
@@ -1809,71 +1804,59 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 99
+
 ## Page Metadata
-Page number: 99
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 99
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0099.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column layout. The left column contains a list of names, and the right column contains corresponding addresses and cities, effectively forming a three-column data structure. The content is a directory listing. At the bottom left of the page, the page number "102 —" is present.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Valle Allende, Horacio del | Oficina Victoria | Iquique
-Valle Donoso, Jorge del | Agustinas 509 | Santiago
-Valle Osorio, Gastón | 3 Norte 1044 | Viña del Mar
-Valle Osorio, René | Federico Froebel 1665 | Santiago
-Valle Quintavalla, Eugenio | Rancagua 53 | Santiago
-Valle Varas, Andrés del | Prat 260 | La Serena
-Vallejos Jiménez, Judith del C. | Dublé Almeyda 3821 | Santiago
-Vallejos Pizarro, Ema | Renato Zanelli 145 E | Santiago
-Valls Dalfo, Jaime | Vicuña Mackenna 204 C | Santiago
-Van Diest Mella, Nicolás | Cerrillos 5709 | Santiago
-Vannini Jeanront, Lucrecia | Teatinos 739 | Santiago
-Vantman Veinstein, Arón | San Antonio 50, Of. 604 | Santiago
-Varady Bokor, Marta | Los Leones 0136, Dep. 32 | Santiago
-Varas Alfonso, Andrés | Avda. Providencia 181 | Santiago
-Varas Dodd, Osvaldo | Edificio Couve, Dep. 109 | Viña del Mar
-Varas Espejo, Armando | Plaza Justicia 45, Dp. 415 | Valparaíso
-Varas Fuenzalida, Marcelino | San Martín 587 | Concepción
-Varas Miranda, Eugenio | Amunátegui 86, Dep. 602 | Santiago
-Varela Barrios, Luis G. | Casa de Socorro | Purén
-Varela del Campo, Aníbal | Amunátegui 86, Dep. 703 | Santiago
-Vargas Arzón, Nelson | Avda. Holanda 3696 | Santiago
-Vargas Baeza, Alfredo | Loreley 830 | Santiago
-Vargas Barros, Héctor | San Isidro 690 | Santiago
-Vargas Carretero, Alfonso | Condell 1190, Depto. 125 | Valparaíso
-Vargas Cassoulet, Raúl E. | Maipú 456 | Los Andes
-Vargas Díaz, Jorge | Almirante Barroso 160 | Santiago
-Vargas Fernández, Luis | Carlos Justiniano 1191 | Santiago
-Vargas Molinare, Alberto | Moneda 921, Of. 311 | Santiago
-Vargas Molinare, Ruperto | Almirante Barroso 160 | Santiago
-Vargas Olmedo, Humberto | Ahumada 312, Of. 224 | Santiago
-Vargas Raposo, Edmundo | Edwards 608 | Valparaíso
-Vargas Román, Jorge | O'Higgins 476, Of. 201 | Concepción
-Vargas Román, Julio | Lientur 574 | Concepción
-Vargas Salazar, Roberto | Avda. Los Leones 082 | Santiago
-Vargas Valenzuela, Hugo | Matías Cousiño 150, Of.\n823 | Santiago
-Vargas Vargas, M. Luisa | Paicaví 326 | Concepción
-Vásquez Aravena, Guillermo | Maipú 547 | Linares
-Vásquez Cristi, Leopoldo | Ahumada 312, Of. 314 | Santiago
-Vásquez Friedmann, Raúl | I. Valdés Vergara 336,\nDepto. 11 | Santiago
-Vásquez Merino, Jorge | Inglaterra 1239 | Santiago
-Vásquez Oliveros, Raúl | Pasaje Cillero 22 | Rancagua
-Vásquez Soto, Walter | San Martín 302 | Taltal
-Vásquez Vargas, Homero | Independencia 1050 | Santiago
-102 —
+
+```markdown
+Valle  Alliende,  Horacio  del Valle  Donoso,  Jorge  del Valle  Osorio, Gastón Valle  Osorio,  René Valle  Quintavalla, Eugenio Valle  Varas,  Andrés  del Valle  jos  Jiménez,  Judith del  C. Valle  jos  Pizarro,  Erna Valls  Dalfo,  Jaime Van  Diest  Mella,  Nicolás Vannini  Jeanront,  Lucrecia Vantman  Veinstein,  Arón Varady  Bokor,  Marta Varas  Alfonso,  Andrés Varas  Dodd,  Osvaldo Varas  Espejo,  Armando Varas  Fuenzalida, Marcelino Varas  Miranda,  Eugenio Varela  Barrios,  Luis  G. Varela  del  Campo, Aníbal Vargas  Arzón, Nelson Vargas  Baeza,  Alfredo Vargas  Barros, Héctor Vargas Carretero, Alfonso Vargas  Cassoulet,  Raúl 1. Vargas  Díaz,  Jorge Vargas  Fernández,  Luis Vargas  Molinare,  Alberto Vargas  Molinare,  Ruperto Vargas  Olmedo,  Humberto Vargas  Raposo,  Edmundo Vargas  Román,  Jorge Vargas  Román,  Julio Vargas  Salazar,  Roberto Vargas  Valenzuela,  Hugo Vargas  Vargas,  M.  Luisa Vásquez  Aravena, Guillermo Vásquez  Cristi,  Leopoldo Vásquez  Friedmann, Raúl Vásquez  Merino,  Jorge Vásquez  Oliveros, Raúl Vásquez  Soto,  Walter Vásquez  Vargas,  Homero
+
+102  - Oficina  Victoria Agustinas  509 3  Norte  1044 Federico  Froebel  1665 Rancagua  53 Prat  260 Dublé  Almeyda  3821 Renato  Zanelli  145  E Vicuña  Mackenna  204 С Cerrillos  5709 Teatinos  739 San  Antonio  50,  Of.  604 Los  Leones  0136,  Dep.  32 Avda.  Providencia 181 Edificio  Couve,  Dep.  109 Plaza  Justicia  45, Dp.  415 San Martín  587 Amunátegui  86,  Dep.  602 Casa  de  Socorro Amunátegui  86,  Dep.  703 Avda.  Holanda  3696 Loreley  830 San  Isidro 690 Condell  1190,  Depto.  125 Maipú  456 Almirante  Barroso  160 Carlos  Justiniano 1191 Moneda  921,  Of.  311 Almirante  Barroso  160 Ahumada  312,  Of.  224 Edwards  608 O'Higgins  476,  Of.  201 Lientur 574 Avda.  Los  Leones  082 Matías Cousiño 150, Of. 823 Paicaví 326 Maipú  547 Ahumada  312,  Of.  314 I.  Valdés  Vergara 336, Depto. 11 Inglaterra 1239 Pasaje  Cillero  22 San  Martín 302 Independencia  1050 Iquique Santiago Viña  del  Mar Santiago Santiago La Serena Santiago Santiago Santiago Santiago Santiago Santiágo Santiágo Santiago Viña  del  Mar Valparaíso Concepción Santiago Purén Santiago Santiago Santiago Santiago Valparaíso Los  Andes Santiago Santiago Santiago Santiago Santiago Valparaíso Concepción Concepción Santiago Santiago Concepción Linares Santiago Santiago Santiago Rancagua Taltal Santiago
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were present."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 100
 
