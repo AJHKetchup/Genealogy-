@@ -49,7 +49,7 @@ on:
       discovery_scan_limit:
         description: "Maximum queued pages to inspect with Docling discovery"
         required: false
-        default: "40"
+        default: "120"
       discovery_parallelism:
         description: "Maximum Docling pages to inspect concurrently"
         required: false
@@ -119,7 +119,7 @@ jobs:
       RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '' }}
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
-      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '40' }}
+      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '120' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '4' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '25' }}
       RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || '2' }}
