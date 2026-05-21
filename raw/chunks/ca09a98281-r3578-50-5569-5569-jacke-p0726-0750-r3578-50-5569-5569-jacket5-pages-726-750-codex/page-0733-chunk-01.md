@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2e3937dd73a2-P0733-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750.codex.md
+converted_sha256: 2e3937dd73a2dcb9246b1d480e593f884f231728f9042ece2d700b4ab9e30270
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json
+page_start: 733
+page_end: 733
+part: 1
+---
+
+# Page 733
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json`
+- Source page: 733
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/page-images/page-0733.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+%
+
+## Article 38.
+
+Les lettres et envois d'argent ou de valeurs, ainsi que les colis postaux destines aux prisonniers de guerre ou expedies par eux, soit directement, soit par l'intermediaire des bureaux de renseignements prevus a l'article 77, seront affranchis de toutes taxes postales, aussi bien dans les pays d'origine et de destination que dans les pays intermediaires.
+
+Les dons et secours en nature destines aux prisonniers seront pareillement affranchis de tous droits d'entree et autres, ainsi que des taxes de transport sur les chemins de fer ex¬ plores par l'Etat.
+
+Les prisonniers pourront, en cas d'urgence reconnue, etre autorises a expedier des te¬ legrammes, centre paiement des taxes usuelles.
+
+## Article 39.
+
+Les prisonniers de guerre seront autorises a recevoir individuellement des envois de livres, qui pourront etre soumis a la censure.
+
+Les representants des Puissances protectrices et des societes de secours dument reconnues et autorisees pourront envoyer des ouvrages et des collections de livres aux bibliotheques des camps de prisonniers. La transmission de ces envois aux bibliotheques ne pourra etre retardee sous pretexte de difficultes de censure.
+
+## Article
+
+## 40.
+
+La censure des correspondances devra 6tre faite dans le plus bref delai possible. Le controle des envois postaux devra, en outre, s'effectuer dans des conditions propres a assurer la conservation des denrees qu'ils pourront contenir et, si possible, en presence du destinataire ou d'un homme de confiance dument reconnu par lui.
+
+Les interdictions de correspondance edictees par les belligerants, pour des raisons militaires ou politiques, ne pourront avoir qu'un caractere momentane et devront etre aussi breves
+
+## Article 41.
+
+Les belligerants assureront toutes facilites pour la transmission des actes, pieces ou documents destines aux prisonniers de guerre ou signes par eux, en particulier des procu¬ rations et des testaments.
+
+Ils prendront les mesures necessaires pour assurer, en cas de besoin, la legalisation des
+
+signatures donnees par les prisonniers.
+
+que possible.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

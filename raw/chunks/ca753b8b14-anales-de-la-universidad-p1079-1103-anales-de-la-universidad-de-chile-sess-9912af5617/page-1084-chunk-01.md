@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-091a1be06eda-P1084-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103.codex.md
+converted_sha256: 091a1be06eda350c45b78b2fbe806720bd4ed90b950dd052d52b42c766635fd1
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json
+page_start: 1084
+page_end: 1084
+part: 1
+---
+
+# Page 1084
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json`
+- Source page: 1084
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/page-images/page-1084.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+te  el  fallecimiento de  una  persona,  1 no existe claracion  de óbito.
+
+C. Esp.-Art.  194.  V. C.  del  art.  93.
+
+Art.  198. V.  C.  del  art.  89.
+
+:
+
+C. It.-Arts. 39  140. V.  C.  del  art.  93.
+
+Art.  41.  Si  con posterioridad  a la toma de  posesion definitivase  probase  la fecha de la muerte  del ausente,  los que  en  aquella  época  hubiesen sido  sus  herederos  o  legatarios, o  adquirido un derecho a  consecuencia  de  la muerte, o  sus herederos. podrán  ¡intentar  las acciones que  les  competan  sin  perjuicio  de  los derechos  que  por la  prescripción  hayan  adquirido  los poseedores  i  de  los efectos  de buena  fé  en  cuanto a los frutos percibidos.
+
+Art.  45. Miéntras  no  se  presente  el ausente  o  se pro-
+
+muevan en  su  nombre  las  acciones  que le competen,  los que  hayan  recojido  la  herencia no estarán  obligados  a restituir  los  frutos  percibidos  de  buena  fé.
+
+## COMENTARIO
+
+Sumario: 124.  Contra el desaparecido.  no corre ninguna  clase de  prescripcion.-125,  El  derecho de los lejitimarios habidos durante el  desaparecimiento  idel cónyuge por patrimonio contraido  en  la  misma época, espira dentro de  los  respectivos plazos de  preseripcion.126. La rescision solo aprovechará a las  personas que  por  sentencia judicial  la obtuvieren.-127. Los  bienes deberán  ser  entregados en el estado en  que  se  hallen.-128. Se  presume legalmente  la  buena fe  de los poseedores, -129. Se  presume de  derecho la  mala  fe  si estos  ocul-  . taren la  verdadera muerte o  existencia del  desaparec:do.-130. Responsabilidad de  los  poseedores segun  sean de  buena o  de  mala  fe.131. Referencias a  algunos'  códigos estranjeros.
+
+En los  dos  últimos  artículos que  dedica  el  Código a desapare-
+
+la  reglamentación  de la  muerte  presunta por cimiento,  considera las relaciones  de derecho  que  nacen
+
+una  de-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

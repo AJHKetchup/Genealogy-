@@ -1,0 +1,106 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2e3937dd73a2-P0732-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750.codex.md
+converted_sha256: 2e3937dd73a2dcb9246b1d480e593f884f231728f9042ece2d700b4ab9e30270
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json
+page_start: 732
+page_end: 732
+part: 1
+---
+
+# Page 732
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json`
+- Source page: 732
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/page-images/page-0732.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Ces accords specifieront egalement la part que l'administration du camp pourra retenir, la somrne qui appartiendra au prisonnier de guerre et la maniere dont cette somme sera mise a sa
+
+disposition pendant la duree de sa captivite.
+
+En attendant la conclusion des dits accords, la retribution du travail des prisonniers sera fixee selon les normes ci-dessous :
+
+a) Les travaux faits pour l'Etat seront payes d'apres les tarifs en vigueur pour les militaires de l'armee nationale executant les memes travaux, ou, s'il n'en existe pas, d'apres un tarif en
+
+rapport avec les travaux executes.
+
+b) Lor!sque les travaux ont lieu pour le compte d'autres administrations publiques ou
+
+pour des particuliers, les conditions en seront reglees d'accord avec l'autorite militaire.
+
+Le solde restant au credit du prisonnier lui sera remis a la fin de sa captivite. En cas de deces, il sera transmis par la voie diplomatique aux heritiers du defunt.
+
+## SECTION IV.
+
+## DES RELATIONS DES PRISONNIERS DE GUERRE AVEC L'EXTERIEUR.
+
+## Article 35.
+
+Des le debut des hostilites, les belligerants publieront les mesures prevues pour l'execution des dispositions de la presente section.
+
+.
+
+## Article 36.
+
+Chacun des belligerants fixera periodiquement le nombre des lettres et des cartes postales que les prisonniers de guerre des diverses categories seront autorises a expedier par rnois, et notifiera ce nombre a l'autre belligerant. Ces lettres et cartes seront transmises par la poste suivant la Voie la plus courte. Elies ne pourront 6tre retardees ni retenues pour motifs de
+
+discipline.
+
+Dans le delai maximum d'une semaine apres son arrivee au camp et de meme en cas de maladie, chaque prisonnier sera mis en mesure d'adresser a sa famille une carte postale 1'infor¬ mant de sa capture et de l'etat de sa sante. Les dites cartes postales seront transmises avec toute la rapidite possible et ne pourront etre retardees d'aucune maniere.
+
+En regie generate, la correspondance des prisonniers sera redigee dans la langue maternelle de ceux-ci.
+
+Les belligerants pourront autoriser la correspondance en d'autres langues.
+
+## Article 37.
+
+Les prisonniers de guerre seront autorises a recevoir individuellement des colis postaux contenant des denrees alimentaires et d'autres articles destines a leur ravitaillement ou a leur habillement. Les colis seront remis aux destinataires contre quittance.
+
+r
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-69ce4dac1cf1-P0435-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450.codex.md
+converted_sha256: 69ce4dac1cf1f0390a46eaf37417735e61a50870e363ebf9872c176ec325acd4
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450/manifest.json
+page_start: 435
+page_end: 435
+part: 1
+---
+
+# Page 435
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450/manifest.json`
+- Source page: 435
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450/page-images/page-0435.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- e) Los ninos en edad de lactancia y todo menor de 12 anos, cuando los padres u otras personas los tengan consigo ejerciendo la mendicidad;
+- f) Cuando los padres, tutor o guardador, que tienen la patria potestad, tutela o guarda, hubieran sido condenados a mâs de très anos de prisiôn o réclusion, conforme a lo dispuesto en el Art. 12 del Côdigo Penal.
+
+Art. 5.° - Se consideran moralmente abandonados o en peligro moral:
+
+- a) Cuando los padres, tutor o guardador, hubieran sido conde¬ nados por cualquier delito en perjuicio de alguno de sus hijos o pupilos o por los delitos de violaciôn, estupro, corrupciôn, rapto o abuso deshonesto en perjuicio de algûn menor; en taies casos, si hubiere recaido sobreseimiento o absoluciôn, el Juez de Menores podrâ asimismo resolver sobre la tenencia del menor;
+- b) Cuando los padres, tutor o guardador, seau delincuentes ha-
+3. bituales, personas viciosas o de mala vida;
+- c) Los que se encuentren en estado de vagancia o ejerciendo la
+5. mendicidad;
+- d) Los meniores de menos de 16 anos que ejerzan alguna ocupaciûn en la via publica sin permiso de la autoridad;
+- e) Los que por motivos de crueldad, abuso de autoridad, negligcncia o propôsitos de lucro de sus padres, tutor o guardador, sean vietimas de ellos o de terceras personas, de malos tratamientos fisicos o morales, exceso de trabajo, castigos inmoderados o privados de alimen-. tos y de los cuidados indispensables a su salud, o cuando fueren empleados en ocupaciones prohibidas por las leyes o reglamentaciones, o
+8. contrarias a la moral y buenas costumbres;
+- f) Los que viviendo con sus padres, tutor o guardador, fuguen del hogar, sean refractarios a recibir educaciôn, a ocuparse en trabajos
+10. apropiados y falten gravemente al respeto que deben a aquellos;
+- g) Los que cometan algûn delito, reiteradas contravenciones, se entreguen a la corrupcion o prostituciôn, en la via publica, en la casa que habitan o en cualquier sitio, frecuenten lugares mal afamados, se
+12. dediquen al juego o tengan trato con personas viciosas o de mala vida.
+13. Art. 6.° - Todo menor debe hallarse bajo la autoridad de sus padres, tutor o guardador. Se entiende por guardador a la persona que por cualquier motivo tiene un menor momentânea o habitualmente ba¬
+14. jo la responsabilidad de su vigilancia, direcciôn, colocacion o trabajo.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

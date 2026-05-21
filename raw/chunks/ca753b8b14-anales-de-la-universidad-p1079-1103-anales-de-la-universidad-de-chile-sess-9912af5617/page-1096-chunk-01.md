@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-091a1be06eda-P1096-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103.codex.md
+converted_sha256: 091a1be06eda350c45b78b2fbe806720bd4ed90b950dd052d52b42c766635fd1
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json
+page_start: 1096
+page_end: 1096
+part: 1
+---
+
+# Page 1096
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json`
+- Source page: 1096
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/page-images/page-1096.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+bienes  en el  estado en que  se  hallen, el precio de los de
+
+que  se  hubtesen  enajenado  o  los  bienes  provenientes la inversion de  dicho  precio. Tienen  el  mismo  derecho los  descendientes del ausente,  si  lo ejercieren dentro de  treinta años,  contados desde  la  posesion  definitiva (arts.  132  1 133).
+
+El  Código  Italiano  consigna  en los artículos 39,  40
+
+i 41,  disposiciones  exactamente  iguales  a  las  del  Código de Venezuela,  que  hemos resumido  anteriormente.  Segun el artículo 45, los  poseedores de  la  herencia  no estarán obligados a  restituir los  frutos percibidos de buena  fe.
+
+El  Código  Español  dice  que  si  el  ausente  se presenen o  los 1
+
+ta  o  se  prueba  su existencia, recobrará  sus bienes el estado  que  tengan,  1  el  precio  de los  enajenados adquiridos con  él,  pero no los.  frutos ni las  rentas; que  los  que  hayan  entrado  en  la  herencia,  harán  suyos los  frutos percibidos de  buena  fé.
+
+El  Código  Aleman  prescribe  quesi el declarado  muerto  reaparece, podrá exijir  la restitucion de  su patrimonio;  que  miéntras viva  no  se  verificará  la  prescripcion  de su  derecho, hasta trascurrido un  año, desde el  momento en que  haya  ocurrido su  declaracion  de muerte;  1 que  lo mismo  sucederá  cuando  se  haya  admitido  falsamente  la muerte  de  una  persona, 1 no  exista la declaracion  del  fallecimiento.
+
+<!-- image -->
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-1096/page-1096-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2e3937dd73a2-P0731-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750.codex.md
+converted_sha256: 2e3937dd73a2dcb9246b1d480e593f884f231728f9042ece2d700b4ab9e30270
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json
+page_start: 731
+page_end: 731
+part: 1
+---
+
+# Page 731
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json`
+- Source page: 731
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/page-images/page-0731.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+*
+
+r
+
+## Article 30.
+
+La duree du travail journalier des prisonniers de guerre, y compris celle du trajet d'aller et de retour, ne sera pas excessive et ne devra, en aucun cas, depasser celle admise pour les ouvriers civils de la region employes au meme travail. II sera accorde a chaque prisonnier un repos de vingt-quatre heures consecutives chaque semaine, de preference le dimanche.
+
+## Chapitre 3. - Du travail prohibe.
+
+## Article 31.
+
+Les travaux founds par les prisonniers de guerre n'auront aucun rapport direct avec les operations de la guerre. En particulier, il est interdit d'employer des prisonniers a la fabri¬ cation et au transport d'armes ou de munitions de toute nature, ainsi qu'au transport de materiel destine a des unites combattant.es.
+
+En cas de violation des dispositions de l'alinea precedent, les prisonniers ont la latitude, apres execution ou commencement d'execution de l'ordre, de faire presenter leurs reclamations par 1'intermediate des hommes de con fiance dont les fonctionssontprevues aux articles 43 et 44, ou, a defaut d'homme de confiance, par i'intermediaire des representants de la Puissance protectrice.
+
+## Article 32.
+
+II est interdit d'employer des prisonniers de guerre a des travaux insalubres ou dangereux.
+
+Toute aggravation des conditions du travail par mesure di'sciplinaire est interdite.
+
+## Chapitre 4. - Des detachements de travail.
+
+## Article 33.
+
+Le regime des detachements de travail devra etre semblable a celui des camps de prison¬ niers de guerre, en particulier en ce qui concerne les conditions hygieniques, la nourriture, les soins en cas d'accident ou de maladie, la correspondance et la reception des colis.
+
+lout detachement de travail relevera d'un camp de prisonniers. Le commandant de ce camp sera responsable de l'observation, dans le detachement de travail, des dispositions de la presente Convention.
+
+Chapitre 5. - Du salaire.
+
+## Article 34.
+
+Les prisonniers de guerre ne recevront pas de salaire pour les travaux concernant l'administration, l'amenagement et l'entretien des camps.
+
+Les prisonniers employes a d'autres travaux auront droit a un salaire a fixer par des accords entre les belligerants.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

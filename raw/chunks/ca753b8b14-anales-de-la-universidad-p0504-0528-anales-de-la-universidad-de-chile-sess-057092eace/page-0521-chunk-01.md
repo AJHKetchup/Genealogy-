@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4112e6d88941-P0521-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528.codex.md
+converted_sha256: 4112e6d88941bd61221dfe6825207dc11e19bed6fd354d60ff4bbedb54fbae2d
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json
+page_start: 521
+page_end: 521
+part: 1
+---
+
+# Page 521
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json`
+- Source page: 521
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/page-images/page-0521.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+i
+
+Fuera de estas  razones, que  llamo de hecho,  existen otras  que pú-
+
+paso  a  foimular 1  que dicen relacion con el  perfeccionamiento intelectual  de los  habitantes  de la  comarca  i  de la instruccion blica  en  jeneral.
+
+El liceo  de Lebu  es  el  único  establecimiento de  enseñanza  masculina,  fuera  de  las  escuelas  públicas,  en  la  provincia  de  Arauco. La enseñanza  femenina  cuenta  con  un  liceo  que  tiene  actualmente 4.0 año  de humanidades  i  curso  de perfeccionamiento, 1  una  escuea  Profesional, todos  ubicados  en Lebu.  Este  pueblo  no  está  unido al resto  del pais  por  línea  de  ferrocarril i  durante el  invierno, en  especial,  permanece  completamente  aislado.  En  estas  condiciones  la labor  cultural  a  que  está llamado  el liceo  es  manifiestamente superior  a la  que  deben  desarrollar  los  otros  liceos  de su  categoría.  Por  otra  parte,  los  alumnos  que  concurren al  establecimiento son  hijos  de empleados  públicos,  de  comerciantes al  por menor, de pequeños  hacendados  vecinos  i de  artesanos u  obreros.  Estos señores, en  medio  de  la escasez de sus  rentas,  sienten  la necesidad de dar  una  mayor  educacion  a  sus  hijos  i con  enormes sacrificios los  envian  a los  liceos de  primera clase,  'a los  institutos comerciales  o  a  las  escuelas normales que  funcionan en las capitales vecinas,  lo que  representa  un  gasto anual  no inferior a $  1,400 por  alumno,  suma  que  no  invertirian  durante  un  año con la creacion  en  Lebu  del 4.0 año  de  humanidodes. Ademas los alumnos que,  habiendo  terminado este  curso, quisieran  continuar  en  establecimientos  superiores,  se  ahorrarian en  los institutos  comerciales  o  escuelas  normales  un  período  de estudios,  pues  con  la preparacion  de 4.0 año  de  humanidades  no  tendria  que  ingresar  a los  cursos  preparatorios  que  en  esos  establecimientos  existen  ia los  cuales están  obligados  a  concurrir con  la  de 3.0 año de  humanidades. Como  he dicho  anteriormente,  no  todos  los  jóvenes  que  terminan en  este  liceo,  pueden  pasa1 a  otro  colejio,  i  se quedan  en  Lebu  en calidad  de  empleados  de  comercio  o al  lado  de sus padres  en  las faenas  agrícolas.  Estos alumnos  se retiran  del liceo con escasa preparacion  en  idiomas  (tres  años  de  frances,  dos  de aleman)  que no  les  permite  desenvolverse con  facilidad dentro del  comercio estranjero  que  es  el que aquí domina,  i sus  conocimientos  de matemáticas  i  contabilidad  especialmente, pecan por  el  lado  de su aplicacion  práctica.  Un  año  mas de  estudios  para  estos  niños  les significa  un  enorme  progreso, pues  recibirian  una mayor cultura en  los ramos  de ciencias naturales  en jenera!,  matemáticas,  historia  i  jeografía,  idioma  patrio  i estranjeros.
+
+El  profesorado  del liceo  de  hombres  forma las comisiones uni-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

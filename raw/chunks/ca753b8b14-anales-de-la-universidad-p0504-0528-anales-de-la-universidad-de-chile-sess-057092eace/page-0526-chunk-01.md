@@ -1,0 +1,172 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4112e6d88941-P0526-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528.codex.md
+converted_sha256: 4112e6d88941bd61221dfe6825207dc11e19bed6fd354d60ff4bbedb54fbae2d
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json
+page_start: 526
+page_end: 526
+part: 1
+---
+
+# Page 526
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/manifest.json`
+- Source page: 526
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0504-0528-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-504-528/page-images/page-0526.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+..
+
+tantes  la hubiere  denunciado  a  la otra.  Despues de  aprobada  con arreglo  a  la Constitucion  de  cada  una  de las  Altas  Partes-  Contratantes, será ratificada  isus ratificaciones serán canjeadas  en  la ciudad  de  Santiago.
+
+En  testimonio  de  lo cual  los respectivos  Plenipotenciarios la firmaron  1 sellaron.
+
+Hecha  en  la  ciudad  de  Montevideo, a los  diecisiete  dias  del  mes de  Noviembre  del  año  mil  novecientos  dieciseis.
+
+(Firmado).-M.  A.  MARTÍNEZ  DE  F.
+
+(Firmado).-BALTASAR  BRUN.
+
+I por  cuanto  la  Convencion preinserta  ha sido  ratificada  por  mí, prévia  la  aprobacion  del  Congreso  Nacional,  1  las  respectivas  ratificaciones  han  sido canjeadas en Montevideo el 6 de  Marzo de 1918.
+
+-
+
+Por  tanto,  en  virtud  de la facultad  que me  confiere el  artículo
+
+82,  Parte  19  de  la  Constitucion Política del Estado, dispongo  1 mando  que  se  cumpla i  lleve  a  efecto  en  putas  sus  partes  como  lel de la  República. E
+
+Dado  en  la Sala  de  mi Despacho,  en  Santiago,  a  los  treinta  i  un
+
+dias  del  mes  de Marzo  de mil novecientos  dieciocho.
+
+(Firmado).-JuAN  Luis  SANFUENTES.
+
+Guillermo Pereira.
+
+## Sesion  de 27 de Mayo  de  1918.
+
+Fué  presidida  por  el señor  Rector  de  la  Universidad, don  Do-mingo  Amunátegui  Solar,  asistieron  los  señores  consejeros  Amu-= nátegui  Solar  don  Gregorio,  Bahamonde,  Concha  Castillo,  Espejo, Fuenzalida,  Matte,  Quezada,  Salas Lavaqui,  Trucco i  el señor  Se.cretario  Jeneral  don  Octavio Maira.
+
+Previas  las  formalidades  reglamentarias 1 el  Ele reque-
+
+rido,  se  confirieron  los  siguientes  títulos  1  grados.
+
+Injemieros  Civiles.
+
+Fernando  Gualda  Palma;  1 Ramiro  Pinochet  Aceituno.
+
+a don
+
+»
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 135
+Header: SESION DE 27 DE MAYO DE 1918
+
+## Layout And Reading Order
+The page presents a single column of text, primarily consisting of lists of names under various academic titles and degrees. The main text is left-aligned, with names and associated titles indented.
+
+## Literal Transcription
+SESION DE 27 DE MAYO DE 1918 135
+___
+
+Profesores de Castellano.
+
+a doña Maria L. Araneda Mangelsdorff; i
+a don José Luis Solis Inostroza.
+
+Profesor de Frances.
+
+a don Ernesto Torrealba Contreras.
+
+Licenciado en Leyes i Ciencias Políticas.
+
+a don Manuel de la Lastra Cruchaga.
+
+Bachiller en Humanidades.
+
+a doña María L. Araneda Mangelsdorff.
+
+El mismo señor Rector dió cuenta de que el 20 del presente ha-
+bia conferido los siguientes grados:
+
+Licenciado en Medicina i Farmacia.
+
+a don Enrique Gabler Herrera.
+
+Bachilleres en Leyes i Ciencias Políticas.
+
+a don Jorje Alemparte Markmann; i
+» Hernan Miranda Prouz; i
+
+que en Valparaíso, con fecha 23 de este mismo mes, se confirió
+el grado de:
+
+Bachiller en Humanidades
+
+a don Armando Alvarez Stiglich
+doña Raquel Palomino Collante; i
+» María Olivares Cosulich.
+
+Leida i aprobada el acta de la sesion de 13 de Mayo se dió
+cuenta:
+1.º De un oficio del señor Ministro de Instruccion Pública, re-
+ferente a la creacion de cursos auxiliares.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}

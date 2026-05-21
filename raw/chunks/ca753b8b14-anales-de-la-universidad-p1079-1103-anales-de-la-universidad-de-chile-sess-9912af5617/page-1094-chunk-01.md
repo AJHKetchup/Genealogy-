@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-091a1be06eda-P1094-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103.codex.md
+converted_sha256: 091a1be06eda350c45b78b2fbe806720bd4ed90b950dd052d52b42c766635fd1
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json
+page_start: 1094
+page_end: 1094
+part: 1
+---
+
+# Page 1094
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json`
+- Source page: 1094
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/page-images/page-1094.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+plemente  voluptuarias (art.  911);  que  se  deben  las  últiles  hechas  ántes de la  demanda  al  poseedor  de  buena fe ino  se  deben  en  ningun  caso  las  que el poseedor  de mala  fe  hubiere  ejecutado  (arts. 909  1 910).  La  lei entiende por mejoras necesarias las  que  consistieren en obras  permanentes, como las  reparaciones de  un edificio  arruinado  por  un  terremoto;  llama  mejoras  útiles  las que  hayan  aumentado  el valor  venal  de la cosa; 1  llama voluptuarias  las que  sólo  consisten en  objetos  de lujo 1 recreo, como  jardines, miradores, fuentes,  cascadas  artificiales.
+
+La  buena  o  mala fe  del  poseedor se refiere, relativaque
+
+mente  a  los  frutos,  al tiempo de  la percepcion,  1 relativamente  a las  espensas 1  mejoras, al  tiempo en fueron  hechas  (art.  913). :
+
+Tales son las reclas jenerales  en conformidad a  las cuales se liquidarán las mutuas prestaciones que se deben los  poseedores definitivos  1 el  desaparecido que reapareciese  o  los  lejitimarios  o  el cónyuje  que  lo representen.
+
+La  lejislacion  estranjera  ha  resuelto  en  diversos sentidos las cuestiones que contempla este artículo Vamos  a  citar  algunos  casos.
+
+Segun el  Código  Arjentino, el  ausente 1 sus lejitimarios recuperarán los bienes en  el estado  en que  se  encuentren,  o los que con el  valor de ellos  se  hubiesen comprado;  pero no podrán  exijir  el valor de los  consumidos,  ni las rentas o intereses percibidos por  los  poseedores definitivos.  Lo  mismo  se hará si se presentan herederos instituidos en  un testamento,  del que  no se tenia  conceimiento  i  probasen  la efectiva  muerte  del testador (arts. 124.1 125).
+
+Segun  el  Código  Uruguayo, el  ausente recobrará sus bienes  en el  estado en que  se  hallen i el precio  de los
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

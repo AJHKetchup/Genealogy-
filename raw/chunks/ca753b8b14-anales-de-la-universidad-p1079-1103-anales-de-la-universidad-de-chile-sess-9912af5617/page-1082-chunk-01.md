@@ -1,0 +1,95 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-091a1be06eda-P1082-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103.codex.md
+converted_sha256: 091a1be06eda350c45b78b2fbe806720bd4ed90b950dd052d52b42c766635fd1
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json
+page_start: 1082
+page_end: 1082
+part: 1
+---
+
+# Page 1082
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/manifest.json`
+- Source page: 1082
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1079-1103-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1079-1103/page-images/page-1082.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+quier  tiempo  que se  presente, o que  haga  constar  si
+
+existencia.
+
+- 2.2  Las  demas  personas  no  podrán pedirla  sino  dentro de los  respectivos  plazos  de preseripcion  contados  desde la fecha  de la verdadera  muerte.
+- 32 Este  beneficio  aprovechará  solamente  a  las  perso-
+- nas  que  por  sentencia  judicial lo obtuvieren.
+- 4.2 En  virtud  de  este  beneficio  se  recobrarán  los  bie-
+- nes  en  el estado  en  que  se  hailaren,  subsistiendo  las enajenaciones,  las hipotecas  i  demas  derechos reales  constituidos  legalmente  en  ellos.
+- 52 Para  toda  restitucion serán considerados  los  demandados  como  poseedores de buena  té, a ménos  de prueba contraria.
+- 62  El  haber  sabido 1  ocaiado  la  verdadera muerte
+- del  desaparecido, o  su  existencia, constituye  mala  fe.
+
+C. Arg.  -Art. 124. V.  C.  del  art. 89.
+
+Art..125.:  V.  C.  del  art
+
+92.
+
+- C.  Ur.-Art. 71.  Si  el ausente vuelve, o  si se acredi ta su  existencia, aun  despues  de  la posesion  definitiva, recobrará  sus bienes  en  el estado en  que  se encuentren; el precio  de  los  que se hubiesen enajenado,  o  las  cosas adquiridas con el  precio  de  las  que  se  hubiesen  vendido;  pero  no  podrá  reclamar  frutos  ni rentas.
+
+Art. 72. V.C.  del  art.  93.
+
+:
+
+- Art. 77.  Miéntras que  el ausente  no se presente,  O  no se  deduzcan acciones  a su  nombre,  los  poseedores  de la herencia  harán  suyos  los frutos percibidos  de  buena  te (Artículo 694).
+
+C.  Bra.-Art.  483.  V.  C. del  art.  93.
+
+C. Ven.-Arts.  481  39.  V.  C.  del art.  93.
+
+Art.  50.  Si  despues  de  la posesion  definitiva,  se  descubre  de una  manera  cierta  la época  de la muerte  del au-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

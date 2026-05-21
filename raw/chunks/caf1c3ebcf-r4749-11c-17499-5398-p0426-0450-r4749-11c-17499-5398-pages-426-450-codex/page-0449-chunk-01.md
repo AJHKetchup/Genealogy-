@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-69ce4dac1cf1-P0449-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450.codex.md
+converted_sha256: 69ce4dac1cf1f0390a46eaf37417735e61a50870e363ebf9872c176ec325acd4
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450/manifest.json
+page_start: 449
+page_end: 449
+part: 1
+---
+
+# Page 449
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450/manifest.json`
+- Source page: 449
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0426-0450-r4749-11c-17499-5398-pages-426-450/page-images/page-0449.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+fin los diplomas extendidos por el Patronato Nacional de Menores, habilitarân para el ingreso a otras instituciones del Estado, asimismo, pa¬ ra acreditar los oficios o conocimientos que requieran los servicios del
+
+Estado.
+
+- z) Publicar informaciones periôdicas; propender a la difusiôn y conocimiento publico de la obra que realiza; evacuar los informes que soliciten las autoridades nationales o provinciales; entender en toda cuestiôn concerniente a la protecciôn de la infancia y representar al pais en los Congresos y Ligas internationales sobre la materia.
+
+Art. 72. - Son atribuciones de la Comisiôn:
+
+- a) Requérir directamente de cualquier autoridad administrativa o judicial informes conducentes al cumplimiento de sus funciones.
+- b) Dictar sus reglamentos internos; designar su Présidente, nombrar
+3. y remover sus empleados.
+- c) Publicar una memoria anual sobre el desenvolvimiento de su acciôn y movimiento administrative de los establecimientos de su
+5. dependencia.
+
+Art. 73. - El Présidente del Patronato Nacional de Menores tiene, ademâs, las siguientes atribuciones y deberes:
+
+- a) Preside las sesiones de la Comisiôn y decide con su voto (voto
+2. doble) las deliberaciones en caso de empâte;
+- b) Ejecuta las resoluciones de la Comisiôn;
+- c) Dirige inmediatamente por si solo los establecimientos y resuelve cuestiones inherentes a la Comisiôn, provee a sus necesidades y atiende en casos urgentes todo lo relativo al gobierno y administraciôn
+5. general de la obra, con cargo de dar cuenta.
+- d) En caso de disconformidad, la Comisiôn no podrâ desaprobar los actos de su Présidente, sino con el voto de los dos tercios de los miembros de la misma.
+- e) Suscribe todos los decretos, ôrdenes y cheques, con la autorizaciôn del Secretario de la Comisiôn.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

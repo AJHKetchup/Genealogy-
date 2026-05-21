@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-7986094db803-P0410-01
+chunk_id: CHUNK-e54a988808cc-P0410-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425.codex.md
-converted_sha256: 7986094db80311ec4060380ce4915e65bbd4429c2ac670c4d19d95419d3eb30e
+converted_sha256: e54a988808ccb59881ce960d64a25ca7b7b7b065410abf2cd62a5a44482aaa0e
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425/manifest.json
@@ -259,102 +259,3 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and minor printing/binding artifacts, none of which are substantial visuals suitable for cropping."}
-
-## Page Metadata
-Page 37
-
-## Layout And Reading Order
-The page contains a centered page number at the top, followed by a list of countries and associated names, presented in a single column. Each country name is italicized, followed by a colon, and the names are indented below. A small circle graphic appears near the bottom center of the page.
-
-## Literal Transcription
-<pre>
-                                37
-
-    <i>For Siam:</i>
-        VARNVAIDYA
-    <i>For Sweden:</i>
-        K. I. WESTMAN
-    <i>For Switzerland:</i>
-        PAUL DINICHERT
-        HAUSER
-        ZÜBLIN
-        DE LA HARPE
-        SCHINDLER
-    <i>For Czechoslovakia:</i>
-        ZD. FIERLINGER
-    <i>For Turkey:</i>
-        HASSAN
-        Dr. ABDULKADIR
-        M. NUSRET
-        Dr. AKIL MOUKHTAR
-    <i>For Uruguay:</i>
-        ALFREDO DE CASTRO
-    <i>For Venezuela:</i>
-        C. PARRA-PÉREZ
-        I. M. HURTADO-MACHADO
-
-                                O
-</pre>
-
-## Images, Captions, And Visual Notes
-A small, open circle graphic is present near the bottom center of the page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text.
-
-## Completeness Audit
-All visible text and the small graphic on the page have been transcribed and noted.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping. The small circle is a minor graphic best described in text."}
-```
-
-## Page Metadata
-- Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0414`
-- Page: 414
-
-## Layout And Reading Order
-The page is a pre-printed form with fields for "Dossier No.", "Doct. No.", "EXPEDITEUR.", and "DATE.", which have been filled in by hand. There is also a pre-printed "[COMMENTAIRES.]" label at the bottom center. The main content consists of handwritten text in two columns, corresponding to the "EXPEDITEUR." and a larger content area.
-
-## Literal Transcription
-Dossier No. | Doct. No.
-:----------|:---------
-50 / 5569 / 5569 | XXIX
-
-EXPEDITEUR.
-Département
-Politique
-Fédéral, Berne
-
-DATE.
-6 Oct. 1932
-
-Convention sur le traitement
-des prisonniers de guerre
-conclue à Genève le 27/7/29
-
-Informe du dépôt des
-instruments de ratification
-sur cette Convention par
-le Gouvernement des Pays-bas
-
-[COMMENTAIRES.]
-
-## Images, Captions, And Visual Notes
-- A circular hole punch is visible in the top left corner of the page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and layout elements have been transcribed and described.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals for cropping. The page contains a form with handwritten text and a minor hole punch, which are adequately captured by transcription and visual notes."}
-```
-
-## Page Metadata
-Task id: `source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425:p0415`
-Page: 415

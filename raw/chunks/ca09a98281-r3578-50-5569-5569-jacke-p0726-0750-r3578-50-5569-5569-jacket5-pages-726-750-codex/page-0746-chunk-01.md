@@ -1,0 +1,98 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2e3937dd73a2-P0746-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750.codex.md
+converted_sha256: 2e3937dd73a2dcb9246b1d480e593f884f231728f9042ece2d700b4ab9e30270
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json
+page_start: 746
+page_end: 746
+part: 1
+---
+
+# Page 746
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/manifest.json`
+- Source page: 746
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0726-0750-r3578-50-5569-5569-jacket5-pages-726-750/page-images/page-0746.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+A cet effet, chacune des Puissances protectrices pourra, notamment, proposer aux belligerants interesses une reunion de representants de ceux-ci, eventuellement sur un territoire neutre convenablement choisi. Les belligerants seront tenus de donner suite aux proposi¬ tions qui leur seront faites dans ce sens. La Puissance protectrice pourra, le cas echeant, soumettre a 1'agrement des Puissances en cause une personnalite appartenant a une Puissance neutre ou une personnalite deleguee par le Comite international de la Croix-Rouge, qui sera
+
+appelee a participer a cette reunion.
+
+juillet 1929.
+
+## Article 88.
+
+Les dispositions qui precedent ne font pas obstacle a l'activite humanitaire que le Comite international de la Croix-Rouge pourra deployer pour la protection des prisonniers de guerre, moyennant 1'agrement des belligerants interesses.
+
+## SECTION III.
+
+## DISPOSITIONS FINALES.
+
+## Article
+
+## 89.
+
+Dans les rapports entre Puissances liees par la Convention de La Haye concernant les lois et coutumes de la guerre sur terre, qu'il s'agisse de celle du 29 juillet 1899 ou de celle du 18 octobre 1907, et qui participent a la presente Convention, celle-ci completera le chapitre II du Reglement annexe aux susdites Conventions de La Haye.
+
+## Article
+
+## 90.
+
+La presente Convention, qui portera la date de ce jour, pourra, jusqu'au premier fevrier 1930, etre signee au nom de tous les pays representes a la Conference qui s'est ouverte a Geneve le ier
+
+## Article 91.
+
+La presente Convention sera ratifiee aussitot que possible.
+
+Les ratifications seront deposees a Berne.
+
+II sera dresse du depot de chaque instrument de ratification un proces-verbal dont une copie, certifiee conforme, sera remise par le Conseil federal suisse aux Gouvernements de tous les
+
+pays au nom de qui la Convention aura ete signee ou l'adhesion notifiee.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
