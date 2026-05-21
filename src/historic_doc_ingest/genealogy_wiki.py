@@ -6667,6 +6667,44 @@ def run_source_prep_docling_task(
         }
 
 
+def source_prep_batch_queue_task_order(
+    root: Path,
+    *,
+    source_filter: str = "",
+    source_sha256: str = "",
+) -> dict[str, int]:
+    queue_path = WikiPaths(root.resolve()).research / "_agent-queues" / "source-prep-batches.json"
+    payload = read_json_payload(queue_path, {"tasks": []})
+    batches = payload.get("tasks", []) if isinstance(payload, dict) else []
+    if not isinstance(batches, list):
+        return {}
+
+    task_order: dict[str, int] = {}
+
+    def add_task_id(value: object) -> None:
+        task_id = str(value or "").strip()
+        if task_id and task_id not in task_order:
+            task_order[task_id] = len(task_order)
+
+    for batch in batches:
+        if not isinstance(batch, dict):
+            continue
+        if not source_prep_record_matches_source_filter(
+            batch,
+            source=source_filter,
+            source_sha256=source_sha256,
+        ):
+            continue
+        for task_id in batch.get("task_ids", []) or []:
+            add_task_id(task_id)
+        pages = batch.get("pages", [])
+        if isinstance(pages, list):
+            for page in pages:
+                if isinstance(page, dict):
+                    add_task_id(page.get("task_id"))
+    return task_order
+
+
 def source_prep_docling_discovery_run(
     root: Path,
     *,
@@ -6726,8 +6764,26 @@ def source_prep_docling_discovery_run(
             status == "done" and source_prep_discovery_cache_needs_revalidation(cached)
         ):
             tasks.append(task)
+
+    queue_task_order = source_prep_batch_queue_task_order(
+        paths.root,
+        source_filter=source_filter,
+        source_sha256=source_sha256,
+    )
+    queue_scoped = False
+    if queue_task_order:
+        queued_tasks = [
+            task
+            for task in tasks
+            if str(task.get("task_id", "")).strip() in queue_task_order
+        ]
+        if queued_tasks:
+            tasks = queued_tasks
+            queue_scoped = True
+
     tasks.sort(
         key=lambda task: (
+            queue_task_order.get(str(task.get("task_id", "")).strip(), 10**9),
             str(task.get("source", "")),
             str(task.get("job_manifest", "")),
             safe_int(task.get("page"), 0),
@@ -6764,6 +6820,8 @@ def source_prep_docling_discovery_run(
         "use_ocr": use_ocr,
         "document_timeout": document_timeout,
         "hard_timeout": hard_timeout,
+        "queue_scope": "source-prep-batches" if queue_scoped else "materialized-backlog",
+        "queue_task_count": len(queue_task_order),
         "filters": {
             "source": source_filter.strip(),
             "source_sha256": source_sha256.strip(),

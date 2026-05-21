@@ -2549,6 +2549,40 @@ def test_docling_discovery_skips_pages_when_raw_source_not_restored(tmp_path, mo
     assert summary["skipped"]["raw_source_not_restored"] == 1
 
 
+def test_docling_discovery_uses_restored_batch_queue_before_global_backlog(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+    sources = []
+    for filename in ("a-restored.pdf", "b-not-restored.pdf"):
+        source = tmp_path / "raw" / "sources" / filename
+        doc = fitz.open()
+        page = doc.new_page(width=360, height=500)
+        page.insert_textbox((36, 36, 324, 460), f"{filename} usable printed text. " * 12, fontsize=11)
+        doc.save(source)
+        sources.append(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=1)
+    batch_path = write_source_prep_batches(tmp_path, limit=1)
+    batch_queue = json.loads(batch_path.read_text(encoding="utf-8"))
+    queued_sources = {batch["source"] for batch in batch_queue["tasks"]}
+    for source in sources:
+        if source.relative_to(tmp_path).as_posix() not in queued_sources:
+            source.unlink()
+
+    monkeypatch.setattr(
+        genealogy_wiki,
+        "convert_source_with_docling",
+        lambda input_path, **kwargs: "Usable printed source text for Docling baseline. " * 8,
+    )
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
+
+    assert summary["queue_scope"] == "source-prep-batches"
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 1
+    assert "raw_source_not_restored" not in summary["skipped"]
+
+
 def test_docling_discovery_caps_ocr_required_pages_per_run(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
