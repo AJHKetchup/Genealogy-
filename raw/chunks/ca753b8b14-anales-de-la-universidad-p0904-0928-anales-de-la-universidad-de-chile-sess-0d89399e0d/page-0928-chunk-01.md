@@ -1,0 +1,96 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-107e3ba27efe-P0928-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928.codex.md
+converted_sha256: 107e3ba27efed7fc1c183cee48f45434388dd0df9a25e3314da5009827952834
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/manifest.json
+page_start: 928
+page_end: 928
+part: 1
+---
+
+# Page 928
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/manifest.json`
+- Source page: 928
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/page-images/page-0928.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Director  1 Profesores 1  se  sirvan despues  manifestar  al Consejo las  observaciones  que  les  merezca  la  marcha  del  establecimiento 1 todo  aquello  que  pueda relacionarse con los incidentes ocu-., rridos  en él.
+
+Se  levantó la  sesion.
+
+<!-- image -->
+
+N.0 605.
+
+DomMINGO
+
+## ANEXO.
+
+DOCcumMENTOS LEIDOS EN LA  SESION.
+
+Santiago,  13de  Agosto  de  1918.
+
+La  necesidad de  preparar a  nuestra juventud  para  la  lucha todas  las  Naciones,  1 especialmente  las de preferente  a  la
+
+intensa que  afrontarán pequeñas, despues  de  terminada la  guerra mundial, pone actualidad  la  conveniencia  de  prestar atencion educacion  física como  uno de  los  medios  apropiados que  pueden  contribuir a  alcanzar este  fin.
+
+La  Nacion necesita de  una raza sana, fuerte, viril,  decidida
+
+1  apta para  la competencia  i para  la  lucha.
+
+Muchos  vicios, muchas enfermedades sociales atacan  rudamente la  potencia de nuestra raza  i  minan  profundamente  la salud. La  educacion física es  uno de  los  medios para  combatir esos  males  1  preservar a  nuestra  juventud.
+
+Por  eso, este Ministerio  desea vivamente dar impulso  a  esta púhi-
+
+enseñanza 1 buscar el  concurso de las  autoridades 1  del blico para  que  se practique  en todas sus manifestaciones: Jiénica,  jimnástica  i  deportiva.
+
+AMUNÁTEGUI  SOLAR.
+
+:
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0928/page-0928-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

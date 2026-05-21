@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-21T14:48:00.248127+00:00",
+  "created": "2026-05-21T15:26:27.433995+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -49,6 +49,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/extracted-images/page-0028/page-0028-docling-image-01.png",
       "bytes": 5688,
       "sha256": "0951a19b89ca57e7bdaae583c73cae4f016d1de1427d06244ddf4bfd258dae9e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0376/page-0376-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0376/page-0376-docling-image-01.png",
+      "bytes": 51631,
+      "sha256": "3c75cb769d591e0fb520274c9cc9ab47c6c536d3a21a2367d1c9a703f03e81c3",
       "media_type": "image/png"
     },
     {
@@ -311,6 +318,27 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0468/page-0468-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0468/page-0468-docling-image-01.png",
+      "bytes": 12838,
+      "sha256": "0b29db2ef066326224e9a425620aa320f71aa8852e2cb166d91cf0dcce3ffbce",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0468/page-0468-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0468/page-0468-docling-image-02.png",
+      "bytes": 98638,
+      "sha256": "89329af51ce2c0bf9800d58a76d65f3ac9eaa9d2e87c8cc2d06f1b8d0b27860f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0468/page-0468-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0468/page-0468-docling-image-03.png",
+      "bytes": 45124,
+      "sha256": "c8b79d45a98e7dcc5791514af6e90e24dc91e9c60b77ded171bc6151c01a4bca",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0469/page-0469-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0469/page-0469-docling-image-01.png",
       "bytes": 58516,
@@ -329,6 +357,27 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0469/page-0469-docling-image-03.png",
       "bytes": 62594,
       "sha256": "b9e17f62c3452c4624a4b3a439851081827ae2a15c0590b0efb677446192f767",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0470/page-0470-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0470/page-0470-docling-image-01.png",
+      "bytes": 153410,
+      "sha256": "941dde2abdb07df01ba2cda266676a01c7dd17343e33d976ffaefffeedcef3ef",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0470/page-0470-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0470/page-0470-docling-image-02.png",
+      "bytes": 320225,
+      "sha256": "5b3d58c133e4ee8ae80e7bcda8d50ae3ba7be8411b6d37a938136964a2f6685d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0470/page-0470-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/extracted-images/page-0470/page-0470-docling-image-03.png",
+      "bytes": 151281,
+      "sha256": "22fc1c5af2e403c22688dece113a74958a14bbd3dead331b1cdfda505891e9c3",
       "media_type": "image/png"
     },
     {
@@ -479,6 +528,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/extracted-images/page-0529/page-0529-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/extracted-images/page-0529/page-0529-docling-image-01.png",
+      "bytes": 2964,
+      "sha256": "ae331bdadf4de0ac1ecbed3ed75f3799dcc474f985471e6d37cc0c8095ef8a35",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/extracted-images/page-0531/page-0531-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0526-0550-r3578-50-5569-5569-jacket5-pages-526-550/extracted-images/page-0531/page-0531-docling-image-01.png",
       "bytes": 69690,
@@ -549,6 +605,83 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-01.png",
+      "bytes": 3100,
+      "sha256": "ee20ad6a92e495bb4ca622c5eaa5d7ab06bf8a6e9e1cd6fa0cb9b9ce76f9f09c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-02.png",
+      "bytes": 91087,
+      "sha256": "fef588e46739d3afff356cd46a3235aa6f2909c395b35504ff0c8fdb910967c3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-03.png",
+      "bytes": 33061,
+      "sha256": "95b3e861604af809feeb5ec0a4dfa9b2b103d25d5b0b90a1d161b0f2c6bd3dad",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-04.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-04.png",
+      "bytes": 34112,
+      "sha256": "c8854dd289fa9f027275c27286b43703d5b551e978317e73751c8b0758c7cbbc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-05.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-05.png",
+      "bytes": 28836,
+      "sha256": "4a8ea832bfbd6a68a79388086683d9905c62923ccb675a6402f509fbacee6f32",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-06.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-06.png",
+      "bytes": 553916,
+      "sha256": "c525988fb7e0b4e8314a85829753ecf9296fea98e67a7e46810620b6ee5244f0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-07.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-07.png",
+      "bytes": 36985,
+      "sha256": "a849980e46015dc36a01d3a638199873b55f2e771eaebc53bdda3addfc7514d8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-08.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-08.png",
+      "bytes": 103666,
+      "sha256": "2554338788c3e9e6124ce2223121e9e61df45f9dbab46d2e4f2a9bc6d9235923",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-09.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-09.png",
+      "bytes": 71159,
+      "sha256": "f5c9d22e94858aafad2c775d9d8d4834d11ed784b308be1489c43d1aa5007443",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-10.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-10.png",
+      "bytes": 78467,
+      "sha256": "b47dab53f8f5f21dda61acfcdbaee10a32ded2c7fb0b4b32c60ffe1098b12c47",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-11.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0557/page-0557-docling-image-11.png",
+      "bytes": 152827,
+      "sha256": "b0dbf10de3efdcdc69f32f551c110d192282deb00045f745e9eec685690bb3d4",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0563/page-0563-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0563/page-0563-docling-image-01.png",
       "bytes": 93629,
@@ -570,6 +703,55 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-01.png",
+      "bytes": 13133,
+      "sha256": "c28a1bffb5515bff155cbffd0b27109c8ca10f92b890dc3f08c90d75487811e9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-02.png",
+      "bytes": 60560,
+      "sha256": "02b2379be9b0962cd4007e74a0a161ebfed49a7dd9be8ced8d1806e090322d22",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-03.png",
+      "bytes": 16332,
+      "sha256": "e5c850c18daf0f3df8153dd34efe7f6e557e57ca74b7351450ec32cc0e549a9e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-04.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-04.png",
+      "bytes": 20195,
+      "sha256": "8875e73cceeace72ea225e2f0faf73f374945c64f2ea6925d2d9b06c33e2026f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-05.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-05.png",
+      "bytes": 78362,
+      "sha256": "cd8d81c2e5191fdf44d98d528d99fb31c50cdc358bad3a15afd3ba08030fb781",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-06.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-06.png",
+      "bytes": 45313,
+      "sha256": "5913b02d59cd0b52bec688cc6e4007d953e8ad48d361796007469d5954d9ccb4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-07.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0570/page-0570-docling-image-07.png",
+      "bytes": 8349,
+      "sha256": "fc431c8dfd1f6cab007d0d15857c883a85ac63b0702a89e70cb506973e976bc8",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0571/page-0571-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0551-0575-r3578-50-5569-5569-jacket5-pages-551-575/extracted-images/page-0571/page-0571-docling-image-01.png",
       "bytes": 54350,
@@ -588,6 +770,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0580/page-0580-docling-image-01.png",
       "bytes": 52751,
       "sha256": "d3e8102acb5c5b1b68531e9a5a5230ef20c5720654b4910d03e6e2ac2eac06af",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0585/page-0585-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0585/page-0585-docling-image-01.png",
+      "bytes": 18742,
+      "sha256": "94c23bb985b5721913d81be39b843123864a1cccea32870c6c91d03e38e49123",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0585/page-0585-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0576-0600-r3578-50-5569-5569-jacket5-pages-576-600/extracted-images/page-0585/page-0585-docling-image-02.png",
+      "bytes": 18503,
+      "sha256": "0512ac186d1ebeb223b7cf4fd5240787ceca43aeb8e20cad6000cfa60b1f2164",
       "media_type": "image/png"
     },
     {
@@ -707,6 +903,27 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0616/page-0616-docling-image-01.png",
       "bytes": 50550,
       "sha256": "7eec41705f55624d111f8f2e5a85275fc1374c946ddb1ae83681c4d5cc7c4caa",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0624/page-0624-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0624/page-0624-docling-image-01.png",
+      "bytes": 36877,
+      "sha256": "d7bcf7869b6d1f2a450716a00f3b8c976dba9834a919fe410b4a181fdc42c1da",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0624/page-0624-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0601-0625-r3578-50-5569-5569-jacket5-pages-601-625/extracted-images/page-0624/page-0624-docling-image-02.png",
+      "bytes": 69247,
+      "sha256": "b1394efc7631ab46aa791819eaa6248269876adc32c6d575cc12592b240355f0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0626-0650-r3578-50-5569-5569-jacket5-pages-626-650/extracted-images/page-0628/page-0628-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0626-0650-r3578-50-5569-5569-jacket5-pages-626-650/extracted-images/page-0628/page-0628-docling-image-01.png",
+      "bytes": 39168,
+      "sha256": "323cecc7d289e798018b614cd20decbb18cf8f6686fb85044aa3d6746c06cf4c",
       "media_type": "image/png"
     },
     {
@@ -1155,6 +1372,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0454-0478-c-mara-de-senadores-de-la-naci-n-1936-pages-454-478/extracted-images/page-0464/page-0464-image-01-argentine-national-emblem-p0464.png",
       "bytes": 44896,
       "sha256": "90b9803caf503a0a449a6b3f0c328d744b4cfdb549bcee943c22e2941dbf1792",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578/extracted-images/page-0573/page-0573-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578/extracted-images/page-0573/page-0573-docling-image-01.png",
+      "bytes": 4380,
+      "sha256": "2cbc95fc0167919b5183cf3aa64e73e58c3926c9095a9a0ddeeb439849b1efe8",
       "media_type": "image/png"
     },
     {
@@ -1928,10 +2152,45 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750/extracted-images/page-0732/page-0732-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750/extracted-images/page-0732/page-0732-docling-image-01.png",
+      "bytes": 1633421,
+      "sha256": "04cfbd81c3cb365995436b962e1358d18fa3ce2826967d8790b94b082d890351",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825/extracted-images/page-0811/page-0811-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825/extracted-images/page-0811/page-0811-docling-image-01.png",
+      "bytes": 1548,
+      "sha256": "d257e482b3876f2d2fe0c5e428b9cda8f5ddc7a194f49df1df4c580a29594f14",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825/extracted-images/page-0815/page-0815-docling-image-local-visual-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825/extracted-images/page-0815/page-0815-docling-image-local-visual-01.png",
       "bytes": 72461,
       "sha256": "4fd3798e7f2b285c46e092be9432536558197572d5a4b18f987a4d267167424b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0829/page-0829-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0829/page-0829-docling-image-01.png",
+      "bytes": 75431,
+      "sha256": "1d500cf5d5b3f4c2acecb8ac2c755ad7bcd630e208a5e140bc3b41c6427d20b6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0829/page-0829-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0829/page-0829-docling-image-02.png",
+      "bytes": 30734,
+      "sha256": "65a9da09f371b6fd9b0fe504455326d182cc4f37c5b898aefd9653a14f3719c7",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0829/page-0829-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0829/page-0829-docling-image-03.png",
+      "bytes": 14327,
+      "sha256": "29f1af5de09862198f98a9880ea1e1c8382dd273587223a9cbecc86b92635292",
       "media_type": "image/png"
     },
     {
@@ -1946,6 +2205,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0830/page-0830-docling-image-02.png",
       "bytes": 19634,
       "sha256": "b24703a5ab3c490325f882d1f8cb88c0c51b4a6001991f9b94daa82413f04b79",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0831/page-0831-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0831/page-0831-docling-image-01.png",
+      "bytes": 19170,
+      "sha256": "9675804bbd237f90f616aa3e1bab9df952d1c88f48e216d92d7ee7020c3dc6f0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0831/page-0831-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850/extracted-images/page-0831/page-0831-docling-image-02.png",
+      "bytes": 58290,
+      "sha256": "122a7ab6b71eaddf2cd87d5442401cec3ca807769e67fde9afd0ffe106655047",
       "media_type": "image/png"
     },
     {
@@ -3041,6 +3314,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0481/page-0481-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0481/page-0481-docling-image-01.png",
+      "bytes": 85169,
+      "sha256": "535c514280fff18a51af566b0d4c5516634658a196a34cad9952fba0640e7ed8",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/extracted-images/page-0546/page-0546-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/extracted-images/page-0546/page-0546-docling-image-01.png",
       "bytes": 8844,
@@ -3090,6 +3370,83 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0704-0728-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-704-728/extracted-images/page-0707/page-0707-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0704-0728-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-704-728/extracted-images/page-0707/page-0707-docling-image-01.png",
+      "bytes": 84306,
+      "sha256": "5a37bcf6cad87272f273b77850b653e25e19b3ae7f632116453f23695177c53e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/extracted-images/page-0761/page-0761-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/extracted-images/page-0761/page-0761-docling-image-01.png",
+      "bytes": 94217,
+      "sha256": "57e930fd89e2778a365dadda469c8668695a735bef6452d01af479c221ead1fc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/extracted-images/page-0776/page-0776-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/extracted-images/page-0776/page-0776-docling-image-01.png",
+      "bytes": 176524,
+      "sha256": "2a914a83ec37c323885b5b21ac7b883047ec30f29ef315c78399285b02803ab0",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/extracted-images/page-0777/page-0777-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0754-0778-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-754-778/extracted-images/page-0777/page-0777-docling-image-01.png",
+      "bytes": 180738,
+      "sha256": "7460d8033fe686bc80ec9680b67e0fe0e200eada27932ce934fc66db7eba6798",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0787/page-0787-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0787/page-0787-docling-image-01.png",
+      "bytes": 334974,
+      "sha256": "2508b9712e87f4702d741b076ca699408109ab2c09ab01f5214ba6f91f121f7a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0788/page-0788-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0788/page-0788-docling-image-01.png",
+      "bytes": 202796,
+      "sha256": "93f381c6c5d76c380678732bcffbd1892edddd1071103c8297c40e19be9d4adc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0791/page-0791-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0791/page-0791-docling-image-01.png",
+      "bytes": 295476,
+      "sha256": "da6c68e1248e80023ab850c45d73f93c31079680357ecff8f22dbd7550b1d17a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0792/page-0792-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0792/page-0792-docling-image-01.png",
+      "bytes": 245196,
+      "sha256": "b3e50044bc3e0ede10b1f1aaff317a8c9076d093eb85a8672f3b3f5cba20cf9d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0801/page-0801-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/extracted-images/page-0801/page-0801-docling-image-01.png",
+      "bytes": 241288,
+      "sha256": "d04b769ecb253d8eab3a76ee3b27f371137a859e146ec8c083a43a7964261d6d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0804-0828-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-804-828/extracted-images/page-0813/page-0813-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0804-0828-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-804-828/extracted-images/page-0813/page-0813-docling-image-01.png",
+      "bytes": 87964,
+      "sha256": "a798334b6b5b52e5feb628c2873b31469493e98d3180c17a31d1fd7c2c931b3b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0831/page-0831-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0831/page-0831-docling-image-01.png",
+      "bytes": 91293,
+      "sha256": "b9c71f33f4726a0da1148f5ad6509724f44fbdfe0864d216a456417134c6001e",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0836/page-0836-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0836/page-0836-docling-image-01.png",
       "bytes": 32158,
@@ -3101,6 +3458,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0836/page-0836-docling-image-02.png",
       "bytes": 20534,
       "sha256": "cb7f4343247bb9e8b27b29915526b9ba8fc61278026a8ba0bf9b4d71755b2719",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0841/page-0841-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0841/page-0841-docling-image-01.png",
+      "bytes": 20769,
+      "sha256": "e99916c9d172553f9dc21d4d4e648926ad5502c871ba5fdd42d76ee93d34f197",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0845/page-0845-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0829-0853-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-829-853/extracted-images/page-0845/page-0845-docling-image-01.png",
+      "bytes": 77472,
+      "sha256": "877cb7000bba0986930bd88af06cfc63689bca62c01a17776e93d8402cf7c9db",
       "media_type": "image/png"
     },
     {
@@ -3157,6 +3528,34 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953/extracted-images/page-0943/page-0943-docling-image-01.png",
       "bytes": 2322,
       "sha256": "f2d25c0e9bcb893b1923db0765b106255884356fdc58576e3243a9b4a7517e5a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953/extracted-images/page-0951/page-0951-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0929-0953-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-929-953/extracted-images/page-0951/page-0951-docling-image-01.png",
+      "bytes": 77217,
+      "sha256": "f520f83b072d6f0556a735fd5bbee6a9b7f31ae143f88408f73f3d3c3765a4aa",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978/extracted-images/page-0975/page-0975-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0954-0978-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-954-978/extracted-images/page-0975/page-0975-docling-image-01.png",
+      "bytes": 89263,
+      "sha256": "4e856ff0e5e7e6f86b53086175f0bc953c8e88def9592c5d915b25b60a097ce3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1024/page-1024-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1024/page-1024-docling-image-01.png",
+      "bytes": 4089,
+      "sha256": "27e9c96d2529c5cf7bd13257ad1d5266dce4fc47d5b4f75d27535dfc8ede9c62",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1025/page-1025-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1004-1028-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1004-1028/extracted-images/page-1025/page-1025-docling-image-01.png",
+      "bytes": 88734,
+      "sha256": "a00d6af04cf7a728d6c34944cc179a0d2c311961a661e0cfb2438852517a9f64",
       "media_type": "image/png"
     },
     {
@@ -3426,6 +3825,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/extracted-images/page-0440/page-0440-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/extracted-images/page-0440/page-0440-docling-image-01.png",
+      "bytes": 20244,
+      "sha256": "866d19e9a0deec6ea5ad0ed6c3667f07d2ba2b679b01b11be0a547d9344cb051",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/extracted-images/page-0440/page-0440-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/extracted-images/page-0440/page-0440-docling-image-02.png",
+      "bytes": 25176,
+      "sha256": "9216d6ecc9de0b373d426e12fd2335f8860bc165c2643162b22023f04240876d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/extracted-images/page-0445/page-0445-image-01-portrait-of-ribbert-m-poggino.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0426-0450-s519bis-26-4-pages-426-450/extracted-images/page-0445/page-0445-image-01-portrait-of-ribbert-m-poggino.png",
       "bytes": 340641,
@@ -3472,6 +3885,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0453/page-0453-docling-image-01.png",
       "bytes": 749648,
       "sha256": "a050fad068249c9f5241f3d6ee48bdcad9aada354860a222744881a81e1f9919",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0462/page-0462-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0451-0475-s519bis-26-4-pages-451-475/extracted-images/page-0462/page-0462-docling-image-01.png",
+      "bytes": 27689,
+      "sha256": "be8f5d2574d680e177a0ffd334b38d9e67adffb5c30c2493ead9e11fd5d30bee",
       "media_type": "image/png"
     },
     {
@@ -3573,6 +3993,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0481/page-0481-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0481/page-0481-docling-image-01.png",
+      "bytes": 150404,
+      "sha256": "7080b6e08e1c4a5bbbb2673fd58b7bbe6c3e43e1a170e33a2c2303713612c209",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0485/page-0485-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0485/page-0485-docling-image-01.png",
       "bytes": 11212,
@@ -3643,10 +4070,31 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0494/page-0494-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0494/page-0494-docling-image-01.png",
+      "bytes": 166775,
+      "sha256": "0018ca30e88fe02b35bc595a51e718adc877a1f3d484723b01b18c302fca6271",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0500/page-0500-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500/extracted-images/page-0500/page-0500-docling-image-01.png",
+      "bytes": 24607,
+      "sha256": "2053c5c8d01e4e1c36fb9c8ca0cf385dd9c2b829e8c1c63be0cce9cf09c4ce29",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0502/page-0502-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0502/page-0502-docling-image-01.png",
       "bytes": 39002,
       "sha256": "2e1b236fd008f6534a258baced8808bd125c7a4cac6fa6401eda223de2a39c54",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0504/page-0504-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0504/page-0504-docling-image-01.png",
+      "bytes": 35023,
+      "sha256": "7279812ba98b1492beca6dcbef336aa84060b18c6aeec2f8f0f9a0402cac545f",
       "media_type": "image/png"
     },
     {
@@ -3671,10 +4119,31 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0511/page-0511-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0511/page-0511-docling-image-01.png",
+      "bytes": 81131,
+      "sha256": "650fa3b2ac97477947d9e391322922965441f12dcc3fc59800fdb240fb8e3d25",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0511/page-0511-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0511/page-0511-docling-image-02.png",
+      "bytes": 78884,
+      "sha256": "6a071fdb7d6258a8d7e2d52c48c036c6684040c17e58935a650b19199d2a257a",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0512/page-0512-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0512/page-0512-docling-image-01.png",
       "bytes": 27143,
       "sha256": "3e3db9cf92df1b31b0d5eda9ace8438780eb61378065b91a55a293e2a3ad35f3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0514/page-0514-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0501-0525-s519bis-26-4-pages-501-525/extracted-images/page-0514/page-0514-docling-image-01.png",
+      "bytes": 103992,
+      "sha256": "d94afdece9c9afccc0a32dc2a34b36bc33630b190dd01fc40f630a279d8aae44",
       "media_type": "image/png"
     },
     {
@@ -3706,6 +4175,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0535/page-0535-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0535/page-0535-docling-image-01.png",
+      "bytes": 8458,
+      "sha256": "5fb00ec3bcbcf136c5d1a50fcf5f09362d12ef61fa6da03c11bfa7f5618d84cc",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0535/page-0535-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0535/page-0535-docling-image-02.png",
+      "bytes": 30431,
+      "sha256": "e9e7ad20fb32ac0aa15d26e1f90e55a4e0fe108718a7a953cf8d3d9b5389cd27",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0539/page-0539-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0526-0550-s519bis-26-4-pages-526-550/extracted-images/page-0539/page-0539-docling-image-01.png",
       "bytes": 87943,
@@ -3717,6 +4200,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0551/page-0551-docling-image-01.png",
       "bytes": 31144,
       "sha256": "b39652a3024c2cfbacfd1d6b8bba25547f7bc46493c3c93070bc5d1276b60151",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0557/page-0557-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0557/page-0557-docling-image-01.png",
+      "bytes": 45859,
+      "sha256": "1318bd27ccb56247029527c714295cc56b735a0b33619cc1593ece72cfe93854",
       "media_type": "image/png"
     },
     {
@@ -3734,6 +4224,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0572/page-0572-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0572/page-0572-docling-image-01.png",
+      "bytes": 58331,
+      "sha256": "d1c9a59480bf02096158729d437c50167c167ecd2cc8aa7e1b71735090f55ba2",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0575/page-0575-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0575/page-0575-docling-image-01.png",
       "bytes": 7566,
@@ -3745,6 +4242,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0551-0575-s519bis-26-4-pages-551-575/extracted-images/page-0575/page-0575-docling-image-02.png",
       "bytes": 54089,
       "sha256": "eaf5065e0c0ecff0b51eb0f44ef374df812abc6a63987c03e9e54a50966a71e4",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/extracted-images/page-0578/page-0578-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600/extracted-images/page-0578/page-0578-docling-image-01.png",
+      "bytes": 52378,
+      "sha256": "7cfcfbdb412f11d27685ce149720b54065b99a8c98078239083af3d692e6655d",
       "media_type": "image/png"
     },
     {
@@ -3769,6 +4273,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0602/page-0602-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0602/page-0602-docling-image-01.png",
+      "bytes": 25737,
+      "sha256": "c3e07ccd34901da11fff98dc3f2e740aa4e204e51c82de82afff22aeed2cb832",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0603/page-0603-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0603/page-0603-docling-image-01.png",
       "bytes": 26109,
@@ -3780,6 +4291,34 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0604/page-0604-docling-image-01.png",
       "bytes": 27443,
       "sha256": "66c64152c6b881e33916339e8c4b93461651dcfc2f9c5dd01a3945fd61accbeb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-01.png",
+      "bytes": 33954,
+      "sha256": "46163113fea288e0b65110804fef9bb52ad60ae506cd9c13d0532744d4aa4871",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-02.png",
+      "bytes": 185084,
+      "sha256": "619ac427fabf44848ba6df900d67d0027d229b073dfc0b60c0edebb60b342753",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-03.png",
+      "bytes": 567190,
+      "sha256": "7d3ee74257e399564d9cc751fe221b7e830ea5c859cda5ffe76774e441822a1f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-04.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0606/page-0606-docling-image-04.png",
+      "bytes": 38319,
+      "sha256": "93118aacf95b5b53b44c8ad7ebe14b0dd33d2a90b8ddbad1ca8543ef25553e1b",
       "media_type": "image/png"
     },
     {
@@ -3811,6 +4350,34 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0621/page-0621-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0621/page-0621-docling-image-01.png",
+      "bytes": 8846,
+      "sha256": "12ddf384d660af7b36b5f7a3ddc455c95afbde0be58c18ffdd1d234da681ffc9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0622/page-0622-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0622/page-0622-docling-image-01.png",
+      "bytes": 25460,
+      "sha256": "f1afa29c3dca2e8166cb42ffce54e0a790e476024f8e63e202f2abe12394819a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0623/page-0623-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0623/page-0623-docling-image-01.png",
+      "bytes": 22434,
+      "sha256": "b3de7ce49fc9b1ba312885088c3a6843aadacaf38d464318636f676c65118385",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0623/page-0623-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0601-0625-s519bis-26-4-pages-601-625/extracted-images/page-0623/page-0623-docling-image-02.png",
+      "bytes": 9589,
+      "sha256": "b300315d79e463b7852e1ec21cf8a4d9ce947fb7c3f3c56736a3764306fc42ca",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0626/page-0626-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0626/page-0626-docling-image-01.png",
       "bytes": 7528,
@@ -3829,6 +4396,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0626/page-0626-docling-image-03.png",
       "bytes": 26258,
       "sha256": "06e778d26e3999d06ec2b601aa40ba46ab2fd90736510b20248ad663428d6629",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0630/page-0630-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0630/page-0630-docling-image-01.png",
+      "bytes": 45511,
+      "sha256": "76f2dc0bb843eaf719b72b4545ecea7d11b9d1245fbf503147effc1fbab77d97",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0630/page-0630-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650/extracted-images/page-0630/page-0630-docling-image-02.png",
+      "bytes": 143640,
+      "sha256": "d0df1a99090a4c8094fcbe7ee579d7a944c113c56b9e020691c0837e4237fe4d",
       "media_type": "image/png"
     },
     {
@@ -3867,10 +4448,38 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0654/page-0654-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0654/page-0654-docling-image-01.png",
+      "bytes": 9246,
+      "sha256": "24b65a0f3e82f1adb946e9f98352834e31efef7d328de1471568a1f767fc32b3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0654/page-0654-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0654/page-0654-docling-image-02.png",
+      "bytes": 65350,
+      "sha256": "f59841e0735322e3ea7a184671972ad7c334d68a7384cf729f0b53fe82ac3ef1",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0660/page-0660-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0660/page-0660-docling-image-01.png",
       "bytes": 35490,
       "sha256": "342a183679c2b9bdff2b1d62984cda74f5e151befa9f34ccdaaee99798e1313c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0661/page-0661-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0661/page-0661-docling-image-01.png",
+      "bytes": 22939,
+      "sha256": "6b23ffeb01220fd930826d6cafc1a0686490ef6e4164be967e16a21da66ac669",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0664/page-0664-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675/extracted-images/page-0664/page-0664-docling-image-01.png",
+      "bytes": 121777,
+      "sha256": "169a5cdcc1e71141bf1656b2f270aba29ac4197a86dc4cca04f373bd0802a885",
       "media_type": "image/png"
     },
     {
@@ -3923,6 +4532,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0676/page-0676-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0676/page-0676-docling-image-01.png",
+      "bytes": 118183,
+      "sha256": "a83cbcebb8299bd5e957f1477664e955bef101b23db1f1d1eced7cd5f8ef87cd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0676/page-0676-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0676/page-0676-docling-image-02.png",
+      "bytes": 20297,
+      "sha256": "57b5ed5203e0ca11eee185f7e270aec816c47bc08c6bb89956ae65c7d4c259ea",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0677/page-0677-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0677/page-0677-docling-image-01.png",
       "bytes": 22475,
@@ -3955,6 +4578,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0688/page-0688-docling-image-02.png",
       "bytes": 8648,
       "sha256": "8ece326046f7f7562d324eb7d135cca4f0121437887a61b82cd3745c5b7460cb",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0689/page-0689-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0676-0700-s519bis-26-4-pages-676-700/extracted-images/page-0689/page-0689-docling-image-01.png",
+      "bytes": 23477,
+      "sha256": "d62cf5d245f34f0e3a0d67baa16a0ffc762cfbf915c67db737533419535e5a55",
       "media_type": "image/png"
     },
     {
@@ -3993,6 +4623,90 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0710/page-0710-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0710/page-0710-docling-image-01.png",
+      "bytes": 10109,
+      "sha256": "de0b9d16bc7dda36e27f7ebd40ea27ecfb0ddb395dbb70139ae51cd62e319761",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0710/page-0710-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0710/page-0710-docling-image-02.png",
+      "bytes": 95471,
+      "sha256": "2afc19a41d766d61b1561b92989b1e5ce80805d6fb54048ccc6dfb855b631003",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0711/page-0711-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0711/page-0711-docling-image-01.png",
+      "bytes": 9840,
+      "sha256": "93fe21aea4046371d88af05bac6769033e15a72e06ad2021fe93345e68d5f213",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0712/page-0712-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0712/page-0712-docling-image-01.png",
+      "bytes": 93246,
+      "sha256": "dfdb284c8d08db74d40682b1b11b830109bac4f2086faee0c876a0b8c97b9f51",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0712/page-0712-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0712/page-0712-docling-image-02.png",
+      "bytes": 9895,
+      "sha256": "34ae446f1926cdd0755b9105bbe60171420c1048da7581aab3bedf994b264bd7",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0713/page-0713-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0713/page-0713-docling-image-01.png",
+      "bytes": 10159,
+      "sha256": "dff6dc80c9eb8b89dd69250fb2d39c5d5a61aabf5f3111b8fa9c2f94e778670a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0714/page-0714-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0714/page-0714-docling-image-01.png",
+      "bytes": 9291,
+      "sha256": "229ca1c691bc0ad68f60cc07f041e8edd53b5a00570e32cf4b042b5ad3857f58",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0715/page-0715-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0715/page-0715-docling-image-01.png",
+      "bytes": 9587,
+      "sha256": "58cfd0dec8e64dc268353366c47262bf1b2c551ac211a11643248804287b2e9b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0716/page-0716-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0716/page-0716-docling-image-01.png",
+      "bytes": 94853,
+      "sha256": "8dfd180e19e18fa0b6db4a86867f9ba8c22db66899078ced59b2f92af16fffad",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0716/page-0716-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0716/page-0716-docling-image-02.png",
+      "bytes": 9794,
+      "sha256": "2fd9c4d393c39db1a20461b716adce4b38cea5ca807a463f325e4244e62f916f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0716/page-0716-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0716/page-0716-docling-image-03.png",
+      "bytes": 33480,
+      "sha256": "da543b7bd3d086cc2767c58ee5950a49937dc9384c8264b8eac9030914f490ed",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0717/page-0717-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0717/page-0717-docling-image-01.png",
+      "bytes": 10209,
+      "sha256": "dff51f4111340faae18d7d822fe3c5823ab97549e137224ea1a3f3fdd151018c",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0718/page-0718-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0718/page-0718-docling-image-01.png",
       "bytes": 5878,
@@ -4011,6 +4725,41 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0718/page-0718-docling-image-03.png",
       "bytes": 91078,
       "sha256": "afe62b26256212845da5dfcb222910f92f2a76b7e72257be4c7e30673b6ce4bf",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0719/page-0719-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0719/page-0719-docling-image-01.png",
+      "bytes": 9050,
+      "sha256": "9e6fbfe67a325540aa02e1b42a78fc9ade6f41a3541fd9a939e189dce88d7d4d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0720/page-0720-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0701-0725-s519bis-26-4-pages-701-725/extracted-images/page-0720/page-0720-docling-image-01.png",
+      "bytes": 9116,
+      "sha256": "c3a66523739d1a58ec83bb47582d1e759e7c838013a7e4ae4d3d28240e743277",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0733/page-0733-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0733/page-0733-docling-image-01.png",
+      "bytes": 8516,
+      "sha256": "b0d26d091260258eb3a8cc408f5597e0a56ac0e9ad657c022e858d205ec62e90",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0733/page-0733-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0733/page-0733-docling-image-02.png",
+      "bytes": 64791,
+      "sha256": "8544ccb3236175b3208ed4d356e8a73fe35ce533c621b024388530df7049761f",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0733/page-0733-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750/extracted-images/page-0733/page-0733-docling-image-03.png",
+      "bytes": 12612,
+      "sha256": "52d4b6c9bde440d1a1dbd74e9d6a67d84f9ed3271cdf6ed5e2477777b02505ae",
       "media_type": "image/png"
     },
     {
@@ -4056,6 +4805,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0754/page-0754-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0754/page-0754-docling-image-01.png",
+      "bytes": 73302,
+      "sha256": "856c680ede8b9571d516bc12b24d4dd75d1f8559dd21e880b9ca033450631f35",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0761/page-0761-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0761/page-0761-docling-image-01.png",
       "bytes": 60198,
@@ -4074,6 +4830,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0764/page-0764-docling-image-01.png",
       "bytes": 1337497,
       "sha256": "4687e5ed05b943cce097b252077387ca5bfb40d124b69dc54b2b393d647b68c5",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0772/page-0772-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0751-0775-s519bis-26-4-pages-751-775/extracted-images/page-0772/page-0772-docling-image-01.png",
+      "bytes": 26249,
+      "sha256": "aa23e31d725737b5d1082ecfbed498c3605619716dd9e7dcf4fbbccc3d7ee230",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0777/page-0777-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0777/page-0777-docling-image-01.png",
+      "bytes": 184323,
+      "sha256": "27d871c2917655848fc7c5d3799838d2438bc8c5872ed327e69d545c5959e448",
       "media_type": "image/png"
     },
     {
@@ -4105,6 +4875,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0794/page-0794-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0794/page-0794-docling-image-01.png",
+      "bytes": 22320,
+      "sha256": "c05af18aef39815f432118baecf784f06fa86a9a354de81ce60715735b752984",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0795/page-0795-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0795/page-0795-docling-image-01.png",
       "bytes": 57174,
@@ -4123,6 +4900,27 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0776-0800-s519bis-26-4-pages-776-800/extracted-images/page-0796/page-0796-docling-image-02.png",
       "bytes": 34473,
       "sha256": "2dcc0a5d711e276399e49e562b6b833c439c1479f113d31cb81f231e02c34f27",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0802/page-0802-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0802/page-0802-docling-image-01.png",
+      "bytes": 89263,
+      "sha256": "4fccad379575cf5c2bbf47929ea752cda851c36512132c88f95a88a703a62924",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0806/page-0806-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0806/page-0806-docling-image-01.png",
+      "bytes": 33300,
+      "sha256": "ecbd5a47eeba74185758a1c09421768b291a12131a88728123a89f00b13574e9",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0806/page-0806-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0806/page-0806-docling-image-02.png",
+      "bytes": 102667,
+      "sha256": "1b4cb889a5867cfff12e309fd7f7f397c4729ade737a75cb1c8d0f26604bb5c3",
       "media_type": "image/png"
     },
     {
@@ -4151,6 +4949,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0811/page-0811-docling-image-03.png",
       "bytes": 18829,
       "sha256": "78f6e5fd9515611e0e593fa90b1fad658012b04ae1c4fc08df996375dfcaffef",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0812/page-0812-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0812/page-0812-docling-image-01.png",
+      "bytes": 4531,
+      "sha256": "b0c119cabd24f9eaa1c5d9c2457c5a86577e4141aace978f83d3f908e3f57373",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0812/page-0812-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825/extracted-images/page-0812/page-0812-docling-image-02.png",
+      "bytes": 13508,
+      "sha256": "54c6d4e5ed9bfb1d790f03cbe0ddfd8856f848ec460e6ae2b9efed5aa331f520",
       "media_type": "image/png"
     },
     {
@@ -4189,6 +5001,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850/extracted-images/page-0830/page-0830-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850/extracted-images/page-0830/page-0830-docling-image-01.png",
+      "bytes": 183265,
+      "sha256": "3cd7abdc08ace89a84fd49bc1085d978a02b344fce7da2a4922e5a561d31f992",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850/extracted-images/page-0836/page-0836-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850/extracted-images/page-0836/page-0836-docling-image-01.png",
       "bytes": 70147,
@@ -4200,6 +5019,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850/extracted-images/page-0837/page-0837-docling-image-01.png",
       "bytes": 58176,
       "sha256": "773eeaa6c8c037d8139c8f12ebb7e41f6f51e5952ada5008f965ed2aa0f961f8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875/extracted-images/page-0871/page-0871-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875/extracted-images/page-0871/page-0871-docling-image-01.png",
+      "bytes": 72229,
+      "sha256": "130a410eaa00d4eb9130c673d9952d6e6964dd7e5e52bd4b19ec812b271407a3",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875/extracted-images/page-0873/page-0873-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0851-0875-s519bis-26-4-pages-851-875/extracted-images/page-0873/page-0873-docling-image-01.png",
+      "bytes": 30071,
+      "sha256": "1dde674b321a6a1919b86bb7d9f9479c1353964e14fec7346f1cf1dffabbc1e0",
       "media_type": "image/png"
     },
     {
@@ -4329,6 +5162,27 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0902/page-0902-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0902/page-0902-docling-image-01.png",
+      "bytes": 2504,
+      "sha256": "8e7f419a928927d45a90497c3f8dba54532801ac176ef8d8a12250531f4ae5b8",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0904/page-0904-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0904/page-0904-docling-image-01.png",
+      "bytes": 84106,
+      "sha256": "245636a0934928a1461c9caeb3940303086ea50625afa5ec85ba6b29e07e400d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0906/page-0906-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0906/page-0906-docling-image-01.png",
+      "bytes": 127414,
+      "sha256": "eb3e418eff6946c0668ea88606363ea4d5beea323d4d5c870019b40199cf1c5d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0907/page-0907-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0907/page-0907-docling-image-01.png",
       "bytes": 28158,
@@ -4350,6 +5204,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0911/page-0911-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0911/page-0911-docling-image-01.png",
+      "bytes": 85773,
+      "sha256": "0f7c854fb13636b7a84db91b5d7907510cdae2b97139bd031171cd45ab8f0c1a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0914/page-0914-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0914/page-0914-docling-image-01.png",
+      "bytes": 114161,
+      "sha256": "bf50cb852aba8536edba46d3db6568ed72e06b88aa011266d85e9d4ccecebc16",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0915/page-0915-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0915/page-0915-docling-image-01.png",
       "bytes": 33498,
@@ -4361,6 +5229,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0916/page-0916-docling-image-01.png",
       "bytes": 41561,
       "sha256": "a2491e9c331cb6566df9923c493d14d974ddf9bfe8e770b7489960133513c811",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0917/page-0917-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0917/page-0917-docling-image-01.png",
+      "bytes": 15036,
+      "sha256": "49a3ecd29edfc648b905912a38e090d2d80a758624b3a774f1eb0750a3287e92",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0918/page-0918-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0901-0920-s519bis-26-4-pages-901-920/extracted-images/page-0918/page-0918-docling-image-01.png",
+      "bytes": 12531,
+      "sha256": "fa0bb3892f49b4504062012672aa4ac5f45b573becda904738b94bc812466551",
       "media_type": "image/png"
     },
     {
@@ -4455,6 +5337,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575/extracted-images/page-0567/page-0567-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575/extracted-images/page-0567/page-0567-docling-image-01.png",
+      "bytes": 7312,
+      "sha256": "3011419995b94dd2a7bfa3d12994be470809b28306849d9146c60722f35f2405",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575/extracted-images/page-0567/page-0567-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575/extracted-images/page-0567/page-0567-docling-image-02.png",
+      "bytes": 16508,
+      "sha256": "583edabf22df816dea961fc5c7e1ab3fdf6fcae50a63b6d6ce9f2a1e64d78b6b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650/extracted-images/page-0648/page-0648-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650/extracted-images/page-0648/page-0648-docling-image-01.png",
       "bytes": 7401,
@@ -4480,6 +5376,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675/extracted-images/page-0673/page-0673-docling-image-01.png",
       "bytes": 3989,
       "sha256": "03713ae1e95b183b4651e2aa52ed39e29fd37689f898ba94407d47e0e071cff6",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/extracted-images/page-0683/page-0683-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/extracted-images/page-0683/page-0683-docling-image-01.png",
+      "bytes": 229084,
+      "sha256": "1998f2ca581c7b0da5a40d19da4e62279d49b58f58e7b78e68a42fc9883c3918",
       "media_type": "image/png"
     },
     {
@@ -4511,6 +5414,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/extracted-images/page-0699/page-0699-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/extracted-images/page-0699/page-0699-docling-image-01.png",
+      "bytes": 702142,
+      "sha256": "367e62477e267b43443e0d079629bb4b82693d9a4dd090ecc104f652cb786ab6",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/extracted-images/page-0700/page-0700-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700/extracted-images/page-0700/page-0700-docling-image-01.png",
       "bytes": 12388,
@@ -4532,6 +5442,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/extracted-images/page-0703/page-0703-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/extracted-images/page-0703/page-0703-docling-image-01.png",
+      "bytes": 84909,
+      "sha256": "9155f46e98d7a5e6c547525a9e3688d4889a1a1de12aca6dc6c101623ea4560c",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/extracted-images/page-0705/page-0705-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/extracted-images/page-0705/page-0705-docling-image-01.png",
       "bytes": 71559,
@@ -4543,6 +5460,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0726-0750-s522bis-29-3-pages-726-750/extracted-images/page-0731/page-0731-docling-image-01.png",
       "bytes": 18934,
       "sha256": "f86e03f8ce1067893215bac5769a339db06efaf4f202349e25b809749417f747",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0726-0750-s522bis-29-3-pages-726-750/extracted-images/page-0734/page-0734-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0726-0750-s522bis-29-3-pages-726-750/extracted-images/page-0734/page-0734-docling-image-01.png",
+      "bytes": 39937,
+      "sha256": "21a55f470914d787a4684bc4623eccfb1d3539b4bb19296f61dce812143a9402",
       "media_type": "image/png"
     },
     {
@@ -4571,6 +5495,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775/extracted-images/page-0752/page-0752-docling-image-01.png",
       "bytes": 56651,
       "sha256": "c2ff46df4ec3eb1a5706a949c824410155823a6428b9b5c0aa4d556343d3e634",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775/extracted-images/page-0753/page-0753-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775/extracted-images/page-0753/page-0753-docling-image-01.png",
+      "bytes": 133701,
+      "sha256": "28863eb6b5daa016882913a06e95b5f8aecd9ae7897cba172580bc1569da49a3",
       "media_type": "image/png"
     },
     {
@@ -4732,6 +5663,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800/extracted-images/page-0786/page-0786-docling-image-03.png",
       "bytes": 33985,
       "sha256": "646958b85c2c681c72d5f9084f16700f4ade039f84e42429fcd8eabc96e20039",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800/extracted-images/page-0787/page-0787-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800/extracted-images/page-0787/page-0787-docling-image-01.png",
+      "bytes": 104570,
+      "sha256": "4b5f00140b0cc71ddb291ddccc037fb8bb9e7d6d6ba55cc400741a90d5f2a204",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800/extracted-images/page-0790/page-0790-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800/extracted-images/page-0790/page-0790-docling-image-01.png",
+      "bytes": 21052,
+      "sha256": "3f109ae4e0da1ddd2ceb62d211169be6c75c384e81d0358167b2041990d8d1d1",
       "media_type": "image/png"
     },
     {
@@ -4910,10 +5855,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0829/page-0829-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0829/page-0829-docling-image-01.png",
+      "bytes": 77501,
+      "sha256": "a093303b86c5a238cc1599bfad21cc97efa8ec39a962b81b51e74b33f602e5f8",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0830/page-0830-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0830/page-0830-docling-image-01.png",
       "bytes": 18666,
       "sha256": "72663f865371268746371c3f75c2173b62ed6fd576605563e26a599876084e16",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0836/page-0836-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0836/page-0836-docling-image-01.png",
+      "bytes": 20122,
+      "sha256": "451428232d374bd35f3623866f94a9b3719c625130e6cd61ad6e1f405afea42c",
       "media_type": "image/png"
     },
     {
@@ -4928,6 +5887,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0843/page-0843-docling-image-01.png",
       "bytes": 11732,
       "sha256": "6611193c46daf0b1b6b193504f57f921424ad9dd624c843fc8630e2c79b06479",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0845/page-0845-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850/extracted-images/page-0845/page-0845-docling-image-01.png",
+      "bytes": 105985,
+      "sha256": "f461cd92819e7d370b114813475598bf74738e01b755c229a7ec76c9a962d30f",
       "media_type": "image/png"
     },
     {
@@ -5033,6 +5999,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875/extracted-images/page-0873/page-0873-docling-image-02.png",
       "bytes": 43680,
       "sha256": "f7ec442ceffef2dea1a44f22782cd33254fea3893c77c4f6cd5380d5804d10ee",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875/extracted-images/page-0874/page-0874-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875/extracted-images/page-0874/page-0874-docling-image-01.png",
+      "bytes": 79585,
+      "sha256": "92a1d74ba56f73db4554d2380c2e9f91e5e9b27e72a8fe9a523a63fbdf026a0b",
       "media_type": "image/png"
     },
     {
@@ -5155,6 +6128,34 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900/extracted-images/page-0899/page-0899-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900/extracted-images/page-0899/page-0899-docling-image-01.png",
+      "bytes": 28193,
+      "sha256": "54690090271b12b30f6bbf620ad5e646e3f2d60ce2fb16508cb4bd005e9e6672",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900/extracted-images/page-0899/page-0899-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900/extracted-images/page-0899/page-0899-docling-image-02.png",
+      "bytes": 77990,
+      "sha256": "8f172c282a49f8a662bbd919a52de98f43e81209310299012ea51d776fc76819",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900/extracted-images/page-0899/page-0899-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900/extracted-images/page-0899/page-0899-docling-image-03.png",
+      "bytes": 6763,
+      "sha256": "2e965c2c4476ab4806b8c0b8509b3f5981fcb25a5602a73748ae5d83c6d0079a",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0902/page-0902-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0902/page-0902-docling-image-01.png",
+      "bytes": 47051,
+      "sha256": "9b47a0cfc6fa78b41ba1bc2b173095c3e1606d42de3f1b848a7e2577750984f3",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0905/page-0905-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0905/page-0905-docling-image-01.png",
       "bytes": 25549,
@@ -5201,6 +6202,20 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0912/page-0912-docling-image-04.png",
       "bytes": 7206,
       "sha256": "6fba0c498586ff39c3da1c1531a8bfc645b8668a7db4703e9ed9216566634e2b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0917/page-0917-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0917/page-0917-docling-image-01.png",
+      "bytes": 11123,
+      "sha256": "56e16214b9328ca19a63b29d5ea5d0ef5083fe86cef67b69f289bffb7c9f3189",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0920/page-0920-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925/extracted-images/page-0920/page-0920-docling-image-01.png",
+      "bytes": 21628,
+      "sha256": "3357117d75032c657fe576ba3179d0244e223ec7bd560d378c1d7af9acac93e1",
       "media_type": "image/png"
     },
     {
@@ -5428,6 +6443,20 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0965/page-0965-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0965/page-0965-docling-image-01.png",
+      "bytes": 99056,
+      "sha256": "1e5807e8b6140974a7c365dae36885dc5c6f21357985ebb561f581158ac4be7c",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0965/page-0965-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0965/page-0965-docling-image-02.png",
+      "bytes": 30086,
+      "sha256": "a8493836b533694456abc88428888a1fc543a2c01d022c8fbb38841a80ecfa27",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0966/page-0966-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0966/page-0966-docling-image-01.png",
       "bytes": 36282,
@@ -5446,6 +6475,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0970/page-0970-docling-image-01.png",
       "bytes": 13345,
       "sha256": "29fde5f617add563c9d3e5c87005e99d3ca48d90913ab3cfabdc919236defdac",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0973/page-0973-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975/extracted-images/page-0973/page-0973-docling-image-01.png",
+      "bytes": 55785,
+      "sha256": "884453c8f9b105072eae7643c0762327f5ed855874678d31e7c2b1eafa5810f4",
       "media_type": "image/png"
     },
     {
@@ -5705,6 +6741,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200/extracted-images/page-1200/page-1200-docling-image-01.png",
       "bytes": 13280,
       "sha256": "9fe716269ec2b6adf818873fdf8513b8b4c598f3c15e686c5680a18def5e54de",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225/extracted-images/page-1201/page-1201-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225/extracted-images/page-1201/page-1201-docling-image-01.png",
+      "bytes": 12451,
+      "sha256": "5c0072e7d4fbddb4bc7861a80abf8fee5ea8ca1f23906ed97646bc1913d06ca9",
       "media_type": "image/png"
     },
     {
@@ -6153,6 +7196,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1401-1425-s522bis-29-3-pages-1401-1425/extracted-images/page-1404/page-1404-docling-image-01.png",
       "bytes": 407914,
       "sha256": "9ea2046ac7389c53f4dd9fabe1615f75f863bcd00e4feb0e1471abd3a2ed6722",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1401-1425-s522bis-29-3-pages-1401-1425/extracted-images/page-1418/page-1418-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1401-1425-s522bis-29-3-pages-1401-1425/extracted-images/page-1418/page-1418-docling-image-01.png",
+      "bytes": 557127,
+      "sha256": "52173828fe9910d0999dd71fe68129d3e9db8469f7cbc16fae75949048699130",
       "media_type": "image/png"
     },
     {
@@ -8459,6 +9509,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0232/page-0232-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0232/page-0232-docling-image-01.png",
+      "bytes": 7210,
+      "sha256": "6b534e1a8684e597fed7f0bd4bab7d21d5e9600f29a3e22f5619e978208e270d",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-01-harley-davidson-motorcycle-illustration.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250/extracted-images/page-0233/page-0233-image-01-harley-davidson-motorcycle-illustration.png",
       "bytes": 318115,
@@ -8960,6 +10017,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425/extracted-images/page-0412/page-0412-docling-image-01.png",
       "bytes": 11918,
       "sha256": "c5f42d1b02c5bb6fdb7f78c1f45ec4bfde28cd2cf028bd2900fd1608d2ea85b7",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425/extracted-images/page-0421/page-0421-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425/extracted-images/page-0421/page-0421-docling-image-01.png",
+      "bytes": 4432,
+      "sha256": "82d3be46b02b4d7fc802fcb152cae5d556965a8bb170dd26143f774e31aa7652",
       "media_type": "image/png"
     },
     {
@@ -9810,6 +10874,27 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/extracted-images/page-0227/page-0227-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/extracted-images/page-0227/page-0227-docling-image-01.png",
+      "bytes": 135101,
+      "sha256": "6e6e5251b87137057d04be78cfe30bf0d3425d6e52e49b8f68d7675293545095",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/extracted-images/page-0227/page-0227-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/extracted-images/page-0227/page-0227-docling-image-02.png",
+      "bytes": 39709,
+      "sha256": "f27870ce253c2adc3f180829081b0e2f020463534cad9cdd8e17db949c1f9a4d",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/extracted-images/page-0239/page-0239-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket4-pages-226-250/extracted-images/page-0239/page-0239-docling-image-01.png",
+      "bytes": 53633,
+      "sha256": "dcbaa3cb438d869992ed816e7e7c466bca292eaec57bb032712e634644b41c2e",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275/extracted-images/page-0257/page-0257-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket4-pages-251-275/extracted-images/page-0257/page-0257-docling-image-01.png",
       "bytes": 7775,
@@ -9905,6 +10990,13 @@
       "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450/extracted-images/page-0437/page-0437-docling-image-01.png",
       "bytes": 3367,
       "sha256": "ebd727d7926704fd3aab60be9ae22590c91364acad30b0ee97f022899090493b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475/extracted-images/page-0474/page-0474-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket4-pages-451-475/extracted-images/page-0474/page-0474-docling-image-01.png",
+      "bytes": 104276,
+      "sha256": "a93ca53384cfce293f81bbd0f5bd6baa6daa725e7aba4a716acdf6839be5977d",
       "media_type": "image/png"
     },
     {
@@ -10031,6 +11123,41 @@
       "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0051-0075-r4749-11c-17499-5398-pages-51-75/extracted-images/page-0074/page-0074-docling-image-01.png",
       "bytes": 102326,
       "sha256": "26741805710a621ae8e334f8bc81dba4a73228c7dfafb39341727543c6b27f0b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-01.png",
+      "bytes": 68189,
+      "sha256": "301807c245c9aea81864f7eaf0157de95cf871cf290b2d82e18d949465fa5300",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-02.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-02.png",
+      "bytes": 7378,
+      "sha256": "e46d9e41c4d3404de1bccae374e686ac94a16085c9cccf03522b61f9024423ae",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-03.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-03.png",
+      "bytes": 30575,
+      "sha256": "4dc18831c9b5a1238289104573e5abb6759378d4f7031a7f66c1c1e512bc945e",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-04.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-04.png",
+      "bytes": 33732,
+      "sha256": "6c044f94196ccc9971171a77d47d4145d8a9c6718f075e5a10c94b2447f6f054",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-05.png",
+      "key": "derived/raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0151-0175-r4749-11c-17499-5398-pages-151-175/extracted-images/page-0153/page-0153-docling-image-05.png",
+      "bytes": 253112,
+      "sha256": "981a57f0fd9eb5041ca429907d194a3da35a70ed97a2ea6d80e4be8049dd2bb1",
       "media_type": "image/png"
     },
     {
@@ -10184,9 +11311,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 161,
+    "total_bytes": 14242889,
+    "uploaded": 161,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -10197,9 +11324,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1452,
+      "scanned": 1613,
       "deleted": 0,
-      "skipped": 1452,
+      "skipped": 1613,
       "errors": []
     }
   }

@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-48cb5c62b5e7-P1071-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078.codex.md
+converted_sha256: 48cb5c62b5e7e0a6a57c618edd258e5d0e00041e1478989a4e3133d467bd349a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json
+page_start: 1071
+page_end: 1071
+part: 1
+---
+
+# Page 1071
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json`
+- Source page: 1071
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/page-images/page-1071.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+
+lor  de  ellos  se  hubiesen  comprado,  pero  no  podrá  exljir
+
+el valor  de los consumidos ni las  rentas  o  intereses  percibidos  por los  que  hubiesen  tenido  la posesion definitiva.
+
+C. Ur.-Art. 71.  Si el ausente  vuelve,  o si se  acredita su  existencia, aun despues de la  posesion  definitiva, recobrará  sus  blenes  en  el  estado  en  que  se  encuentren, el precio  de  los  que  se  hubiesen enajenado, o  las  cosas adquiridas  con el  precio  de las  que  se  hubiesen  vendido; pero  no  podrá  reclamar  frutos ni  rentas.
+
+Art.  72. Los  descendientes lejítimos del  'ausente  podesde
+
+drán  asimismo  dentro de  quince años contados la  posesion definitiva, solicitar la restitucion de  sus bienes, en  la forma  espresada  en  el artículo  anterior.
+
+C.  Bra.-Art.  483.  Regresando  el ausente  en  los  diez años  siguientes a  la  apertura  de  la  sucesion  definitiva, o  alguno  de  sus descendientes, o  ascendientes, aquél  o estos  obtendrán  sólo  los  bienes existentes en el  estado en  que  se  encuentren, o los  subrogados en  su  lugar, o el  precio  que  los  herederos o  demas  interesados  hubieTen  recibido  por  los  bienes  enajenados  despues  de aquel tiempo,
+
+Párrafo  único.  Si, en  los  diez  años de este  artículo, el  ausente no regresare, | ningun  interesado solicitare la  sucesion  definitiva,  la plena  propiedad de  los  bienes guardados  pasará  al  Estado  donde tenia su domicilio el ausente, o a la  Union, si  estaba  domiciliado  en el Distrito  Federal, o en  territorio  no  constituido  en  Estado.
+
+C.  Ven.-Art. 48. Si,  despues de  acordada  la posesion definitiva, vuelve  el  ausente o  se  prueba su existencia,  recobra los  bienes en  el  estado en  que  se  encuetren,  1 tiene  derecho a  reclamar el  precio de  los que
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

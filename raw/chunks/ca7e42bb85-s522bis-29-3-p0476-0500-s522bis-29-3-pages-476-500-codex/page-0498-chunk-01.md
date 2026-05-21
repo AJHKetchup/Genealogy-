@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-714e07945bc9-P0498-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500.codex.md
+converted_sha256: 714e07945bc9caf03d23865e567e11e66a55f662ac0a0c74965cce6c9bc365e0
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json
+page_start: 498
+page_end: 498
+part: 1
+---
+
+# Page 498
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json`
+- Source page: 498
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/page-images/page-0498.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Si» à un moment donné, on pouvait croire que la ratification était nécessaire, , Irrigoyen la donnait d'une manière caté¬ gorique dans les termes précités, 4U Congrès argentin on a toujours pensé, à l'occasion de la discussion du budget, que si l'Argentine devait à la Société des dations les contribu¬ tions arriérées Jusqu'à la date du débat, c'est bien parce que, migré le retrait de la Délégation, l'Argentine conti¬ nuait à faire partie de la Société, autrement elle ne devrait rien. St si elle continuait à faire partie de la société c'est parce que -comme l'a déclaré le député de la Torre -pour que la suppression ait lieu, étant donné les termes absolus de l'adhésion argentine, il faut un préavis par écrit de deux années,
+
+Sn 19£0, le sénat argentin donna son assentiment à la nomination d'une délégation qui devait représenter la Bépublique à l'Assemblée de Genève, organe de gouvernement de la Société: voici encore un acte postérieur eux négocia¬ tions, qui peut servir pour interpréter la valeur Juridique des actes précédents. L'envoi de la délégation à Genève im¬ plique un principe d'exécution des obligations et des droits qui découlent du Pacte de la Société, L'Assemblée de Genève accueillit les délégués parce qu'elle crut, avec raison, que ces délégués lui étaient adressés per un Membre originaire de la Société, L'engagement international entre la Société et l'Argentine était donc parfait au point de vue du droit des gens, non seulement par les actes conjoints des autorités de la Société et des représentants compétents de la souverai¬ neté extérieure de 1 'Argentine, mais aussi par des actes d'exécution ultérieurs qui présupposent une acceptation pleine et entière de l'existence de cet engagement ,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

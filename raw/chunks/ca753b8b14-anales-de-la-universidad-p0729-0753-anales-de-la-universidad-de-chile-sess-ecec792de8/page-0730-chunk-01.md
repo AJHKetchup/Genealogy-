@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8c07e998eefa-P0730-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753.codex.md
+converted_sha256: 8c07e998eefa8d0a62bb46ad57a84655676a379c1565746c08d17923ee466e68
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json
+page_start: 730
+page_end: 730
+part: 1
+---
+
+# Page 730
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json`
+- Source page: 730
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/page-images/page-0730.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+sencia, por  larga  que  sea, no  basta  para  disolver  el ma. trimonio».
+
+Pero  en el  inciso segundo  del mismo  artículo. ya podrá
+
+el  Código  Uruguayo acepta  otra  doctrina. Establece que  solo  el  cónyuje ausente, por  sí,  o  por  apoderado que  presente prueba  acabada  de  su  existencia, atacar  la validez del  matrimonio  contraido  por  el otro cónyu]je».
+
+E:  Código  Civil  del Imperio Aleman, adopta  como regla  jeveral el  principio  de que, por la  celebracion delnuevo  matrimonio,  queda  disuelto  el anterior.  Fúndase  esta teoría en que, si  al  cónyuje del  declarado difunto  se  le permite  la  constitucion  del  nuevo  víneculo,  es  necesario que  tambien se  le  proteja contra el peligro, mui posible en caso de  vivir  aquél, de  que se  considere nulo  dicho matrimonio  o  pueda  impugnarse como tal.  Se  estima  que  el  rigor  de  tal  nulidad, para  esposos e  hijos  seria, en  jeneral,  mucho  mas  duro  que  el  resultante para  el  desaparecido por  la  disolucion del  primer  vínculo; i que,  ademas, en  la declaracion  de  muerte es ordinariamente tal  la situacion, que  justifícanse  los  supuestos de un  abandono  intencionado,  aunque  no se  les  pueda probar; o,  al ménos, recae culpabilidad sobre el desaparecido,  por  el hecho  de  no haber  dado  noticias  suyas  (a).
+
+(a)  Cód.  Civ,  Al.-&lt;Art. 1348,  Si  despues  de  declarada  la  muerte  de su que  los  nuevos  esposos despues
+
+cónyuje,  contrajese un  esposo  nuevo  matrimonio,  no  será  éste nulo  aunque  el esposo  declarado  muerto esté  vivo,  a no  ser ¿upieran  al  contraer  matrimonio que vivía el  cónyuje anterior de  la declaracion de  óbito.
+
+Por  la  conclusion  del  nuevo  matrimonio  quedará  disuelto  el precedente, de
+
+aunqne  la declaracion  de  fallecimiento se  haya  hecho a  consecuencia una  accion  de  anulacion.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

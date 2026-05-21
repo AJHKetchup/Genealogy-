@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8c07e998eefa-P0733-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753.codex.md
+converted_sha256: 8c07e998eefa8d0a62bb46ad57a84655676a379c1565746c08d17923ee466e68
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json
+page_start: 733
+page_end: 733
+part: 1
+---
+
+# Page 733
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json`
+- Source page: 733
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/page-images/page-0733.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+to  de posesion definitiva  se  abrirá  la  sucesion  del  desa-
+
+parecido  segun  las  reglas  jenerales».
+
+A  nuestro Juicio esta  disposicion  indica que  la  su-
+
+cesion se  abre  en  dos casos: 1.2  por  la posesion  provisoria,  1 2.2  por  la  posesion  definitiva  cuando  aquélla  no ha  tenido  lugar.
+
+Se  corrobora esta  interpretacion  con  lo  dispuesto en el artículo  955  que  es  el precepto  jeneral  que  regla  esta materia. Segun  este  artículo. la  sucesion en los  bienes de  una  persona  se  abre  al  momento de  su muerte,  salvo los casos espresamente esceptuados. Pues  bien, la escepcion  que  aquí se indica, es la  muerte presunta, que,  como  sabemos,  sólo  viene  a  producir sus  naturales resultados en  virtud  del  decreto  que  da  la  posesion  de los  bienes.
+
+De  suerte,  pues,  que  estas  disposiciones  delos  artículos  84  1 90,  no crean el derecho  de  los  herederos presuntivos. Unicamente  señalan  un punto  de  partida, o mejor dicho,  abren la  puerta  a un  derecho existente de antemano. Jurídicamente  la  declaracion  de la  muerte  presunta de  ina  persona  envuelve la  afirmacion de que  se  le  debe  tener como fallecida desde esa  misma fecha,  1 que,  en  consecuencia,  desde  entónces  nacen  los derechos de  los  asignatarios,  no  obstante  que  para entrar a  ejercerlos sea aun  necesaria  la ejecucion  de  posteriores  requisitos (a).
+
+(a)  «Cierto  que  el  artículo  84  incurre  en  la inesplicable  anomalía de no espresar  terminantemente que  uno de los efectos  de la  posesion  provisional es abrir  la  sucesion en aquellos  bienes.  Pero el  mismo  artículo se refiere  al  título  De  la aperturá de la  sucesion;  i, por  otra parte,  el  artículo 90  no  deja,  sobre  este  punto,  ni  la  mas  leve duda:  «Si no  hubiere precedido  posesion provisional, dice, por el  decreto de  posesion definitiva se abrirá  la  sucesion  del  desaparecido segun las  reglas  jenerales».  Lo  cual  sig-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

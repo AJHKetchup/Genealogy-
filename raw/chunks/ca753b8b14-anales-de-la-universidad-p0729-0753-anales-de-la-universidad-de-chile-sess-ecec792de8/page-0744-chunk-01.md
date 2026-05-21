@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8c07e998eefa-P0744-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753.codex.md
+converted_sha256: 8c07e998eefa8d0a62bb46ad57a84655676a379c1565746c08d17923ee466e68
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json
+page_start: 744
+page_end: 744
+part: 1
+---
+
+# Page 744
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json`
+- Source page: 744
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/page-images/page-0744.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ner ese interes:que hace  razonable  1  lejítima el  reemde
+
+plazo  de la administracion  de  los  mandatarios  por  la los  herederos  presuntivos.
+
+Comprendiéndolo así  la Comision Revisora, dispuso en  el art. 87  del  Proyecto  Inédito,  que  en  virtud  del  decreto  de posesion  provisoria  se procederia  a  la  apertura 1 publicacion del  testamento, si  el desaparecido hubiere dejado  alguno;  i en  el  artículo 88,  que se entienden por  herededos presuntivos del  desaparecido los testamentarios  o  lejítimos  que  lo eran a  la fecha  de la muerte  presunta. Estas ideas fueron  las  que  resumió  el Código  en  el actual  artículo 85.
+
+De  este  modo se  vino a dar  bajo  ciertos  aspectos  a la  muerte  presunta los efectos de  la  verdadera;  pues, fijándose  el dia  en  que  se  presume  que ocurrió,  se fija tambien la  fecha en  que  se  determina  quiénes  son  sus herederos. :
+
+75.  El señor  Borja,  comentando este  artículo, hace  la siguiente observacion. «Pudiera  mui bien  ocurrir que los  herederos abintestato hubiesen  entrado  en  posesion provisional de  los  bienes,  1 que  despues se  presentase el  testamento. La  sentencia que  concedió  a  los  herederos  abintestato  la posesion  provisional  no  pasaria  en  autoridad  de  cosa juzgada  en  cuanto  a  los herederos testamentarios,  ya porque  no se  pronunció  en juicio  contradictorio, ya  porque  la  sentencia no  surte  efecto sino en cuanto a  las  partes.  Luego,  los  herederos testamentamentariós podrian  deducir  contra los  poseedores  provisionales  la  accion  de  peticion de  herencia  conforme  a las  reglas jenerales»  (a).
+
+76. La segunda  parte  del  artículo encierra otra  im-
+
+(a)  T.  IL.-No  212,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

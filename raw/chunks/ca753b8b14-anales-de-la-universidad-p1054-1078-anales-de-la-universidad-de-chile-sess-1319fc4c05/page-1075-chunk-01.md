@@ -1,0 +1,74 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-48cb5c62b5e7-P1075-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078.codex.md
+converted_sha256: 48cb5c62b5e7e0a6a57c618edd258e5d0e00041e1478989a4e3133d467bd349a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json
+page_start: 1075
+page_end: 1075
+part: 1
+---
+
+# Page 1075
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json`
+- Source page: 1075
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/page-images/page-1075.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+120. Prescribe  el  artículo  que  la rescision del  decreto de posesion  definitiva  se  hará  a  favor  de las siguientes personas:
+2. 1.0 Del  desaparecido,  si  reapareciere;
+3. 22  De  sus  lejitimarios  habidos  durante el desaparecimiento;  1
+4. 22  De su  cónyuje por matrimonio contraido en  la
+5. misma  época.
+
+El  derécho  del desaparecido  es  claro  como  un  axioma. Nada  mas  justo  1 mas  conforme  al sistema  del  desaparecimiento. La  presuncion de  muerte debe ceder  ante  la realidad  de la existencia  del desaparecido.  Seria  absurdo i  delictuoso entregar a  los  herederos el  patrimonio  de una  persona que  está  viva.  Como  dice  Manresa  1 Navarro  comentando  el  artículo  194  del  Código  Español,  «esa presuncion  de la lei  es solo  juris tantum 1 puede  desvanecerse,  segun  ya se ha  dicho,  por  la  presentacion  del que  se  le  ha  tenido  por  muerto o  por la  prueba  de  su existencia; esta  adquisicion de  herencia es revocable por su propia  naturaleza desde el  momento que  se demuestre la  falsedad de  su  causa, o  sea la  inexacta defunción  del  ausente» (a).
+
+Por  consiguiente, el  que sea definitiva la  posesion que  se  concede  a  los  herederos,  no quiere decir  que  sea irrevocable.  Estos son dueños de  los  bienes en  cuanto quedan  válidos  i firmes los  contratos que  han  celebrado  con  terceros;  pero  no en cuanto  a  las  relaciones jurídicas  que  los  ligan al  desaparecido.  El derecho  de  éste para  recuperarlos en cualquier  tiempo  que  se  presente mantiénese  inatacable  1  en toda su  Justa  plenitud. Lo
+
+(a)  T.  11.-Páj 150.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

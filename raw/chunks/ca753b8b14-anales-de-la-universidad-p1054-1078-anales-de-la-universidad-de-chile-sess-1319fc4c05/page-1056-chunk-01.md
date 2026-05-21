@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-48cb5c62b5e7-P1056-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078.codex.md
+converted_sha256: 48cb5c62b5e7e0a6a57c618edd258e5d0e00041e1478989a4e3133d467bd349a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json
+page_start: 1056
+page_end: 1056
+part: 1
+---
+
+# Page 1056
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json`
+- Source page: 1056
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/page-images/page-1056.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+110.  Se dispone  en la  segunda  regla  del  artículo 90,
+
+decretada la  posesion  definitiva se  cancelarán  las cauciones 1  las restricciones impuestas por el artículo 88  (b). ]
+
+En  consecuencia,  quedan  los poseedores  definitivos  en bieles  dificulta  el  ejercicio
+
+situacion  de  proceder  como  dueños  absolutos  de  los nes.  Los  pueden vender  o  gravar  a  su  esclusivo arbitrio. Ninguna  medida  de precaucion de los derechos inherentes  al dominio.
+
+«Quedan  en  libertad,  dice  el señor  Claro  Solar,  de enajenar  todos los  bienes del desaparecido, raíces  o  muebles,  practicar  la particion  i  liquidacion  de la  herencia, gravar  los bienes raíces con  hipotecas, censos  O  servidumbres,  transijir o comprometer  los  derechos  reterentes a  bienes  del  desaparecido, arrendarlos  con  entera libertad  1, en  una  palabra,  ejecutar  todos  los  actos  que  puede realizar  un  verdadero  propietario»  (a).
+
+111. Este  procedimiento  es  perfectamente  lójico.  Du-
+
+rante  el período  de posesion  provisoria  no  se  juzgaba  difícil  que  el desaparecido reapareciera  o  que  a  lo  ménos se  llegase  a  tener noticia cierta  de su fallecimiento.  De ahí la  serie  de prolijas  precauciones  adoptadas  en beneficio  de él o  de  sus  herederos.
+
+(b)  «La  palabra  cancelar, empleada  en  el artículo 90  es  deficiente; por-
+
+que  se refiere sólo  ala  fianzai  la  hipoteca, mas  no  a  la  prenda.
+
+«De  los  términos  mismos  en que  está  redactada  la parte final  del artículo  90,  inciso  1.2%,  se  deduce  que  independientemente de  las  jestiones  que hagan  los  herederos  para obtener  la  posesion definitiva,  los  fiadores  o los terceros  que  hubieren constituido hipoteca  o  prenda,  pueden  solicitar que se  declare  estinguida la  fianza,  que  se  proceda a  cancelar  la  hipoteca, 0 que  se  devuelvan los bienes en que la  prenda  consiste». Borja.  T.  IL, N.0  235. Ñ
+
+va)  T.  L, N.o 479.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

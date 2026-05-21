@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-107e3ba27efe-P0919-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928.codex.md
+converted_sha256: 107e3ba27efed7fc1c183cee48f45434388dd0df9a25e3314da5009827952834
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/manifest.json
+page_start: 919
+page_end: 919
+part: 1
+---
+
+# Page 919
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/manifest.json`
+- Source page: 919
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0904-0928-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-904-928/page-images/page-0919.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Sociedad  Nacional de Profesores
+
+Santiago, 1.0
+
+## Señor  Rector  de  la  Universidad:
+
+Estimando este Directorio que la  actual distribucion de nuestras  vacaciones escolares adolece de algunas  deficiencias que  precisa correjir, a fin de obtener de  estos períodos  de descanso  un mayor provecho, tanto  para  el desarrollo físico e intelectual de nuestros  niños como para  la  salud  de  nuestros profesores, se  ha venido preocupando de este  asunto desde hace  mui  largo  tiempo  1  ha  llegado  a las  conclusiones que  te.nemos el  honor  de elevar a  Ud.  para que, si  lo  tiene  a  bien, se  sirva  prestarles la  atencion debida.
+
+El proyecto de vacaciones elaborado por este Directorio, despues  de  estudiar  las  disposiciones  en  vijencia  en  otros  paises
+
+1 las  necesidades del nuestro, es  el  siguiente:
+
+- 10  El año escolar comprenderá desde el  primer  lúnes  de Marzo  hasta  el  31  de  Diciembre inclusive.
+- 2.0  Habrá tres  períodos de  vacaciones; a)  de  invierno;  b) de
+- primavera  1  c) de verano.
+- 3.0  Las  vacaciones de invierno comprenderán  las  dos  últimas semanas  de  Junio; las de  primavera las  dos  últimas semanas de Setiembre; i las de  verano, los  meses de  Enero  1 Febrero.
+
+Como  se  puede  observar,  hai  un  total  de  un  75% del  tiempo
+
+destinado  a  clasesi el  25%  restante, a  vacaciones, proporcion bastante equitativa 1  que, por  lo  demas, no altera  sensiblemente  el  tiempo dedicado al  descanso en el sistema en vijencla.
+
+(Firmados).-Luis GALDÁMES.-JuLIO  CHÁVEZ.
+
+de  Agosto  de 1918.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

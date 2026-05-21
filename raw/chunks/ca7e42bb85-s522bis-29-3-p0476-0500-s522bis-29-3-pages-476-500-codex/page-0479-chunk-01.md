@@ -1,0 +1,74 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-714e07945bc9-P0479-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500.codex.md
+converted_sha256: 714e07945bc9caf03d23865e567e11e66a55f662ac0a0c74965cce6c9bc365e0
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json
+page_start: 479
+page_end: 479
+part: 1
+---
+
+# Page 479
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json`
+- Source page: 479
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/page-images/page-0479.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+"ooaformément aux termes de l'article premier da Facte". On remarquera certainement loi la meme imprécision dans les termes. Quelle est la signification exacte de la phrase "adhérer à la Société des Hâtions"? Cela veut-il dire édhérer au Facte sans réserve et en exécutbcn de l'article premier dudit Pacte? ou cela signifie-t-ii, par contre, une simple approbation de principe à l'idée générale d'organisât!jn de la Société des Nations? le doute est permis et l'équivoque subsiste.
+
+*près que le Traité de Versailles fut entré en vigueur (10 janvier 1920) et en exécution dudit traité, le Président du Conseil des Alliés, a. Clémenceau, adressa au Président de la République Argentine i'in¬ vitation pour accéder au Pacte. Il fut répondu à M. Clémenceau dans les termes suivants, le U janvier 1920, par le Président de la
+
+République Argentine:
+
+"J'ai eu l'honneur de recevoir de Notre Excellence conformément au Traité de paix, l'invitation pour la République argentine d'accéder au Pacte de la Société des Nations, et il m'est agréable de transmettre à Votre Excellence la ratification par le Gouvernement argentin des termes d'adhésion exprimés dans la note adressée le 10 juillet 1919 à M. le Secrétaire Général de la Société des Nations par notre Représentant en France, ion Excellence le ministre Alvear.signé: Hyppolite
+
+Irrigoyen".
+
+Déjà, le 10 janvier 1920, date de l'entrée en vigueur du Traité de Versailles, le Secrétaire Général de la Société des Nations faisait savoir au Gouverne¬ ment argentin que, d'accord avec sa réponse en date du £3 juillet 1919 à la communication du Gouvernement argentin en date du 18 juillet 1919, il avait notifié en due forme, aux gouvernements de tous les autres Etats
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

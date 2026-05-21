@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-842d7ac5d85f-P0714-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725.codex.md
+converted_sha256: 842d7ac5d85fd14b857e6cd5874fd5f7bfb5e5ef47e20ba7de490a8839fa6eb4
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json
+page_start: 714
+page_end: 714
+part: 1
+---
+
+# Page 714
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json`
+- Source page: 714
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/page-images/page-0714.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Pour conclure, nous pouvons faire brièvement allusion à deux objections susceptibles d'être formulés contre notre proposition. On pourrait soutenir que certains journaux qui paraissent être financièrement indépendants n'ont pas une tenue aussi élevée que ceux dont les ressources sont moindres. Il n'existe, il est vrai, aucun moyen de s'assurer qu'un grand développement des tarifs de presse améliorera également tous les journaux ou mettra fin à toutes les fausses nouvelles. Rien ne peut faire cela. Le mieux qu'on puisse espérer, c'est de réaliser une amélioration d'ensemble, d'accomplir un progrès réel. Tel serait, nous en sommes certains, le résultat de notre plan. Nous n'en voulons pour preuve qu'une comparaison, non pas entre la valeur de tel ou tel journal ici ou là, mais entre le niveau de la presse dans son ensemble dans les pays où elle est la moins libre, financièrement ou autrement, et celui qu'elle atteint dans les pays où elle a conquis la plus grande indépendance. Ces comparaisons devraient établir, sans l'ombre d'un doute, que la meilleure façon d'augmenter la quantité des fausses nouvelles est de diminuer la liberté et l'indépendance de la presse, tandis que le moyen le plus efficace pour lutter contre les fausses nouvelles, c'est d'augmenter le nombre des journaux qui n'ont pas besoin d'appuis extérieurs. Si, toutefois, un doute subsiste encore, il suffit de consulter précisément les journaux qui, bien que financièrement faibles, ont une haute tenue dans leurs informations. On verra ainsi combien ces journaux croient qu'ils pourraient encore davan¬ tage élever le niveau de leurs informations s'ils étaient financièrement plus forts.
+
+Finalement, on peut objecter qu'un transfert important coûterait trop cher. Ces objections sont complètement dénuées de fondement. Elles sont dues simplement à un manque d'imagination. Que personne n'aie plus l'illusion que tout ce qu'on paie pour un journal, c'est la pièce de 25 centimes qu'on dépose sur le comptoir, car elle ne couvre qu'une petite partie du prix de revient d'un exemplaire. Il n'existe pas de moyen d'obtenir quelque chose pour rien, même dans les journaux, mais seulement l'illusion de pouvoir y réussir. Ce que le lecteur ne paie pas directement pour son journal, il le paie indirectement, plusieurs fois et de diverses façons, par le prix qu'il paie pour d'autres marchandises, par un gouvernement mauvais et corrompu qui se livre au gaspillage, par la préparation et la conduite de guerres de toute sorte, financières, économiques et militaires. Il est beaucoup plus économique de payer ouvertement le reste sous forme d'impôts, à condition que cela se fasse en plein jour, d'une façon qui encourage une presse indépendante. Ceci est vrai non seulement parce qu'une petite partie de ce que le monde dépense à l'heure actuelle pour la guerre suffirait à libérer la presse, mais encore parce que ce n'est jamais une économie, même pour l'homme le plus pauvre, que de laisser le cambrioleur nourrir le chien de
+
+garde.
+
+Libre accès aux nouvelles « en cours d'élaboration ». ■Il est bien évident qu'un libre accès aux événements relatés dans les nouvelles ou, si l'on veut, aux nouvelles « en cours d'élaboration » milite en faveur de l'exactitude et contre la falsification. On peut avoir ainsi plus facilement, non seulement le compte rendu d'un témoin oculaire, mais encore celui d'un témoin oculaire entraîné. Le journaliste n'a plus besoin de se fier à des sources qui doivent rester confidentielles, avec le danger de mystifications qui en résulte pour celui qui se fie à elles. On peut également réduire ainsi au minimum l'influence du journalisme véreux qui, de propos délibéré et avec intention de nuire, répand de fausses nouvelles, car ces informations se trouvent alors soumises à une vérification par voie de comparaison avec la masse des nouvelles exactes. Il est d'une telle évidence que, dans l'intérêt général, le journaliste doit avoir libre accès aux nouvelles, qu'il semble à peine nécessaire de le dire. Toutefois, l'expérience acquise démontre, peut-être mieux que tout autre chose, que les seuls à
+
+qui le monde puisse se fier pour lutter contre les fausses nouvelles, ce sont les journalistes eux-mêmes.
+
+A grands frais, et souvent avec beaucoup de difficultés ou de dangers pour le journaliste, la presse, au cours de toute son histoire, a cherché, dans les limites de sa puissance financière et politique, et même souvent au delà de ces limites, à répandre les comptes rendus de témoins oculaires de tous les événements et même, si possible, les comptes rendus de témoins oculaires entraînés à l'observation. C'est ainsi que la presse, qui dépendait jadis, pour ses nouvelles étrangères, des « on-dit » ou des racontars des voyageurs a, par suite du désir, qui lui est propre, de dire la vérité, établi dans le monde entier un vaste réseau d'observateurs expérimentés. On peut être certain que ces observateurs feront tous leurs efforts pour voir les événements si possible par eux-mêmes, qu'il s'agisse d'incendies, d'inondations, d'émeutes, de batailles, d'épidémies, de conférences ou de recherches. Lorsque cela n'est pas possible, ils réuniront, pour les comparer et les passer au crible, les relations du plus grand nombre possible de témoins oculaires, ou bien encore, si cela même n'est pas possible, ils réuniront et passeront au crible avec un soin plus grand encore les comptes rendus de ceux qui ont été en conversation avec les acteurs ou les témoins de l'événement. Il suffit de regarder autour de soi pour voir que, plus un journal, dans un pays quelconque, devient puissant, plus il dépense pour avoir son propre personnel de correspondants disséminés dans le monde entier.
+
+Dans la mesure où les affaires d'Etat ont été ouvertes au public, cette innovation a été due surtout au désir persistant du journaliste de voir et d'entendre pour son propre compte. Le plus souvent, ce résultat a été obtenu en dépit de la vive opposition de l'organisme gouvernemental intéressé et de l'apathie du grand public. Presque tout le monde à l'heure actuelle est d'accord pour penser que la liberté de la presse répond à l'intérêt général. Pourtant, combien d'hommes, qui n'étaient ni journalistes ni écrivains, ont été emprisonnés, mutilés ou brûlés pour que l'humanité puisse jouir de ce bienfait ? A combien d'hommes, à l'heure actuelle, en dehors des journalistes et des écrivains, peut-on se fier pour monter une
+
+garde vigilante en vue du maintien de ce bienfait ?
+
+Il en a été de même pour la publicité des affaires d'Etat. Personne ne songerait maintenant à tolérer que le parlement siégeât en secret. Cependant, c'est là une coutume sur laquelle avaient insisté les membres du Parlement britannique, « père des parlements », sans rencontrer d'opposition de la part du public. Elle n'a pu être supprimée qu'après une lutte difficile, et seulement parce que la presse s'y était attaquée. Toutes les raisons invoquées pour que les affaires nationales soient traitées en secret et d'autres encore, ont été, par la suite, énoncées par les gouvernements pour montrer qu'il serait désastreux de traiter en
+
+public les affaires internationales.
+
+Malgré tout le discrédit dans lequel était tombée la diplomatie secrète au cours de l'holocauste auquel elle avait mené un monde dont les yeux étaient bandés, malgré toute la ferveur manifestée à l'égard des pactes publics conclus ouvertement, les gouvernements, lorsqu'ils rédigèrent en secret le Pacte de la Société des Nations, ne stipulèrent pas que les séances de celle-ci devaient être publiques. Lorsque la Société des Nations commença son existence, il y a seulement douze ans, toutes ses réunions étaient secrètes. La publicité, dans la mesure où elle existe maintenant, a été obtenue parce que la presse était toujours là et qu'elle insistait pour voir et entendre par elle-même ce dont elle rendait compte. Nous nous rappelons avec fierté que l'un des tout premiers actes de notre Association fut d'envoyer son premier président et son premier secrétaire général au Conseil pour demander avec insistance que les séances de la Société fussent ouvertes à la presse. La politique constante de l'Association internationale des journalistes accrédités auprès de la Société des Nations a été est, et sera toujours (parce que cela tient à l'essence même du journalisme dans tous les pays)
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

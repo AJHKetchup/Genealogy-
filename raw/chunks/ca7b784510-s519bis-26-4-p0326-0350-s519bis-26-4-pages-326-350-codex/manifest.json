@@ -1,0 +1,55 @@
+{
+  "created": "2026-05-21",
+  "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350.codex.md",
+  "converted_sha256": "51a02e552dffdff57c67743726a6080810223962b868a578f199ced3485c8e31",
+  "source": "raw/sources/S519bis-26-4.pdf",
+  "source_sha256": "7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645",
+  "source_manifest": "raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-51a02e552dff-P0335-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350-codex/page-0335-chunk-01.md",
+      "page_start": 335,
+      "page_end": 335,
+      "part": 1,
+      "chars": 2254,
+      "sha256": "9f10bb5c44aa70ccc8c396f448b3353e0b6f42a6c83324c4ca9261a4ea4882a4"
+    },
+    {
+      "chunk_id": "CHUNK-51a02e552dff-P0336-01",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350-codex/page-0336-chunk-01.md",
+      "page_start": 336,
+      "page_end": 336,
+      "part": 1,
+      "chars": 11907,
+      "sha256": "725d4615c1979533e251134c6bb755b9dfb819e689cac1ae13504e5b32a2e4b4"
+    },
+    {
+      "chunk_id": "CHUNK-51a02e552dff-P0336-02",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350-codex/page-0336-chunk-02.md",
+      "page_start": 336,
+      "page_end": 336,
+      "part": 2,
+      "chars": 11964,
+      "sha256": "6b4dc138154acc4171b9e77cb7cde03cc817a4140e621899cadc76aae796ef74"
+    },
+    {
+      "chunk_id": "CHUNK-51a02e552dff-P0336-03",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca7b784510-s519bis-26-4-p0326-0350-s519bis-26-4-pages-326-350-codex/page-0336-chunk-03.md",
+      "page_start": 336,
+      "page_end": 336,
+      "part": 3,
+      "chars": 10123,
+      "sha256": "c2bfb390ae55d793ead1988fd00c0e8c4a1d0c50ecb1d13e4c4a3fb79e234815"
+    }
+  ]
+}

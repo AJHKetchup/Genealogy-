@@ -1,0 +1,68 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-714e07945bc9-P0494-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500.codex.md
+converted_sha256: 714e07945bc9caf03d23865e567e11e66a55f662ac0a0c74965cce6c9bc365e0
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json
+page_start: 494
+page_end: 494
+part: 1
+---
+
+# Page 494
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json`
+- Source page: 494
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/page-images/page-0494.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+D'autre part, le Secrétariat de la Société et la Société elle-meme ont interprété les actes de l'Argentine comme comportent une secession sans réserve au Pacte, car s«ns cela il n'aurait pas été donné à l'Argentine d'envoyer ses délégués à l'Assemblée. Dans le mécanisme du Pacte (article premier), les Stats nommés dns l'annexe, qui accéderaient au Covenant sans aucune réserve, pourraient le faire par une déclaration déposée au Secrétariat dens le délai de deux mois à dater de l'entrée en vigueur du Pacte. L'Argentine adhéra, comme nous 1*av ns dit, le 18 juillet ^·3^-3» a ua Pacte qui n'était p s encore en vigueur. La réponse du ecrétaire général fait ressortir ce fuit. Ce n'est qu'à partir du 10 janvier 1^20 que cette accession acquiert une valeur
+
+juridique.
+
+é» point de vue international, le Paote, c'est» à-dire la charte constitutive de la Société des Mations, est susceptible d'amendements, coraas le sont, en général, toutes les constitutions, mais ces amendements doivent être apportés sous la forme prévue par son Statut lui-même. Chaque I- embie de la Société des Nations peut proposer des amendements, mnis il ne s'ensuit pas 91e ces oropositions puissent cons¬ tituer la question préalable à l'accession. L'accession signifie l'acceptation du Pacte, tel qu'il a été rédigé c'est-à-dire la volonté non équivoque d© s'incorporer à la Société en se soumettent à toutes les obligations qui en ré¬ sultent. Il est clair que si un Membre propose un amende¬ ment et que cet amendement est rejeté, le Meafcre a le dio it de s© retirer de la Société des Mations, mais il ne pourra 1© faire qu'en sa qualité de Membre de la Société des Mations, c'est-à-dire en accomplissant ses obligations internationales et en donnant un réavis de deux ans.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

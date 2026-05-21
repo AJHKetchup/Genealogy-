@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-842d7ac5d85f-P0702-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725.codex.md
+converted_sha256: 842d7ac5d85fd14b857e6cd5874fd5f7bfb5e5ef47e20ba7de490a8839fa6eb4
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json
+page_start: 702
+page_end: 702
+part: 1
+---
+
+# Page 702
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json`
+- Source page: 702
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/page-images/page-0702.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 2
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+<!-- image -->
+
+## La legge marziale nell'Honduras
+
+I rfoelli aile porte di Tegucigalpa San Salvador, 2 dicemhre
+
+(s. i. a.) - Gruppi di ribelirdelVHonduras, ai quali si uniscono i libérait battuU nelle elezioni presidenziali del 30 ottobre scorso, sono riusciti a impadronirsi delle caserme di quarniqioni vicine a Tequciqalpa, la Capitale, dove sijittende con allarme l'arrivo deqlî insorti. Dalla quamiqione della capitale dell'Honduras, che si riteneva fedelissima al Governo, hanno defezionato alcuni comandanti che hanno fatto causa comune con qli insorti enlrati in Camaqua. Tra Tequciqalpa e San j Lorenzo le truppe federali hanno . attaccato i ribelli che sono riusciti| vittoriosi, avendo molli soldati del Governo qettato le armi. Le reqioni \ settentrionali dell' Honduras sono ! lutte in potere de'qli insorti, che han- \ no pure occupato i centri maqqiori meridionali.
+
+Al Présidente della Bepubblica, Meiia Colindres, i ribelli hanno invialo un « ultimatum. » invitandolo a lasciare la Capitale insieme al Présidente eletto, qenerale Tiburcio Carias, capo dei naz^onalisti. La leqqe marziale è stata proclamata in hitto l'Honduras.
+
+Gli Stati TJniti hanno inviato nel Golfn di Fonseca due incrociatori per la vrotczione deqlî averi e della vita dei cittadini nordamericani re-
+
+sidenti nel Paese.
+
+<!-- image -->
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0702/page-0702-docling-image-01.png)
+- Docling extracted picture image 2: ![Docling extracted picture image 2](../extracted-images/page-0702/page-0702-docling-image-02.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 2.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

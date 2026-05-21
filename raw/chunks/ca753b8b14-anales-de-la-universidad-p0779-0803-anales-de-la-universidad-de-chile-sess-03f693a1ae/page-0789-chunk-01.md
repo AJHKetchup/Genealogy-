@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-40036b13de4b-P0789-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803.codex.md
+converted_sha256: 40036b13de4bc62608cc51adbd59787d7e74c2bf6fb2a4a202d60252cb55ddb7
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/manifest.json
+page_start: 789
+page_end: 789
+part: 1
+---
+
+# Page 789
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/manifest.json`
+- Source page: 789
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0779-0803-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-779-803/page-images/page-0789.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+
+Koeberlé  1 reivindicar ante el  mundo  científico  para
+
+sí,  -ejerciendo  en una ciudad única  como centro de atracción  para  el mundo entero, venció en el  número inmenso  de intervenciones  que practicó,  todas  las  grandes  dificultades  1 derribó  sucesivamente  todas las  barreras  dentro  de  las  cuales  se  mantenia  sotocada  hasta, entónces  la  cirujía  del  peritoneo. '
+
+-  Estermismo  autor  habia  de  introducir  poco  despues la histerectomía vajinal fragmentaria, parcelar o  por desmenuzamiento (morcellement) que  durante diez o mas años se dividió  los sufrajios de los  cirujanos del mundo  entero con  la histerectomía por  via  alta  o  abdominal,  no  tan  solo para el  tratamiento de  las  afecciones  bilaterales  de los anexos  sino tambien  de  un  buen número  de fibromiomas.  Amplió  1 perfeccionó  por ese  medio  la indicación  dada  para  las  salpinjítis.  La histerectomía vajinal  tomó el  nombre  de  histerectomía  de  Péan.
+
+La  seguridad de la  asepsia, el  dominio absoluto  de la  peritonítis,  por  lo  ménos  en  la  inmensa mayoría  de los  casos, 1  el  compromiso frecuente de  lesiones de otros  órganos  de la vecindad-el apéndice vermiforme-o  la  concomitancia con  enfermedades lejanas-intección  biliar-habian de dar  el triunto definitivo a la via  abdominal.
+
+Mu  poderosamente habia  de influir tambien para
+
+llegar a ese resultado la introduccion en la práctica  de  la  cirujia  del  abdómen de la  posicion  declive  o de  plano  inclinado que  lleva  el  nombre  de  posicion  de Trendelenburg  (Leipzig). Jayle  (Presse  médicale,  23  de Julio, 1917)  asegura  haber demostrado que  esta  posicion  declive fué  figurada ya  por Rolandus en el  siglo XIII  ¡  Scultet  en  el siglo XVII.
+
+En  todo  caso, el  profesor de  Leipzig demostró  sus
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

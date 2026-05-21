@@ -848,70 +848,91 @@ All visible text and layout elements on the page have been transcribed and descr
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
 ```
 
+# Page 567
+
 ## Page Metadata
-Page number: 175
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json`
+- Source page: 567
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/page-images/page-0567.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains two main sections, both related to a "Sesion de 17 de Junio de 1918".
-The first section is a letter or report, starting with a number and date, addressed to "Señor Rector", followed by the body of the text and a signature.
-The second section, introduced by a bold heading, describes the session itself, listing attendees and then the titles and degrees conferred, categorized by profession.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-<pre>
-SESION DE 17 DE JUNIO DE 1918                                175
+```markdown
+=
 
-N.º 29.                               Tomé, 7 de Junio de 1918.
+y
 
-Señor Rector:
+y
 
-Tengo el honor de poner en conocimiento del señor Rec-
-tor que hasta la fecha no se ha presentado ninguna persona
-con título suficiente para optar al puesto de profesor en pro-
-piedad en la asignatura de Matemáticas, con doce horas se-
-manales de clases, en el establecimiento a mi cargo.
+DN  2.29.
 
-                                (Firmado).—V. A. PALACIOS.
+Señor  Rector:
 
-                                ———
+Tengo el honor  de  poner en conocimiento del  señor KRector que hasta  la  fecha  no se  ha presentado ninguna persona con título suficiente para optar  al  puesto  de  profesor en pro¡pledad  en  la asignatura  de  Matemáticas, con doce horas  se7  anales  de  clases, en el  establecimiento a  mi cargo.
 
-                                **Sesion de 17 de Junio de 1918**
+(Fiimado).-V. A.  PALACIOS.
 
-Fué presidida por el señor Ministro de Instrucción Pública,
-don Pedro Aguirre Cerda, asistieron el señor Rector de la Uni-
-versidad don Domingo Amunátegui Solar, los señores Conseje-
-ros Amunátegui Solar don Gregorio, Bahamonde, Barros Bor-
-goño, Espejo, Matte i el señor Secretario Jeneral don Octavio
-Maira.
+## Sesion  de 17 de  Junio  de  1918
 
-Prévias las formalidades reglamentarias i el juramento re-
-querido, el señor Rector confirió los siguientes títulos i gra-
-dos:
+Fué  presidida  por el señor Ministro de  Instrucción Pública, 1 Pedro Aguirre  Cerda, asistieron  el  señor Rector  de la  Unirsidad don  Domingo  Amunátegui  Solar,  los  señores  ConsejeAmunátegui Solar don Gregorio,  Bahamonde,  Barros  Borño, Espejo,  Matte 1 el  señor Secretario Jeneral  don  Octavio
 
-                                *Médicos-Cirujanos:*
+révias  las formalidades reglamentarias  i  el  juramento  rerido,  el  señor  Rector confirió los siguientes títulos i gra-
 
-                                a doña Andrea González Nolle; i
-                                don Guillermo T. Meyer von S. Venegas.
+## Meédicos-Cirujanos:
 
-                                *Profesora de Historia i Jeografía:*
+- a doña  Andrea González Nolle;  1 don Guillermo  T.  Meyer von
 
-                                a doña Ercilia Pérez Davis
-</pre>
+A
+
+- S., Venegas.
+
+Profesora  de  Historía  1  Jeografía:
+
+- a  doña Ercilia Pérez Davis
+
+-
+
+Tomé,  Y  de  Junio  de 1918.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, diagrams, or maps that would require cropping. It is composed entirely of text."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 176

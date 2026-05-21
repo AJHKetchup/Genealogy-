@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-842d7ac5d85f-P0707-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725.codex.md
+converted_sha256: 842d7ac5d85fd14b857e6cd5874fd5f7bfb5e5ef47e20ba7de490a8839fa6eb4
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json
+page_start: 707
+page_end: 707
+part: 1
+---
+
+# Page 707
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/manifest.json`
+- Source page: 707
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725/page-images/page-0707.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+En adoptant cette attitude, on considère la presse non comme un moyen d'information à l'usage de tout le monde, mais comme une arme ou, pour mettre les choses au mieux, comme une sorte de projecteur que l'on allume ou que l'on éteint, dont on dirige le faisceau sur tel ou tel point, au gré des convenances politiques. Cette attitude n'est que trop générale. Presque tous les organismes importants veulent ainsi exercer sur la presse une influence prépondérante. Quelle que soit la noblesse du motif et l'élévation morale de l'exécutant, il n'est rien, à notre avis, de plus nuisible à l'intérêt général. Si la presse avait été entièrement dans les mains de ceux qui croyaient que, pour atteindre le même idéal de paix, il suffisait de se préparer ouvertement à la guerre, au lieu de tenir des réunions secrètes, aucun des faits qui ont conduit le monde à croire désormais que le moyen de faire éclater la guerre est de se préparer à la guerre, n'aurait jamais été imprimé.
+
+Certains intérêts individuels peuvent être lésés par la publication de certains faits; ce danger n'est rien auprès du préjudice que ces mêmes intérêts subiraient si toutes les nouvelles de nature à léser des intérêts individuels étaient en principe privées de publicité. Les faits que chacun a intérêt à apprendre dans son journal sont infiniment plus importants que ceux qu'il a intérêt à empêcher autrui d'y apprendre. L'intérêt général exige que les faits relatifs à n'importe quel événement soient livrés à tous. Il exige que personne n'ait le pouvoir de régenter la presse et de lui dire: ce fait sera publié parce que nous estimons qu'il fera du bien, et celui-ci sera tenu caché parce que nous estimons qu'il ferait du mal. L'intérêt général exige que les journaux soient libres de publier les nouvelles sans parti pris, quelles qu'en soient les répercussions. Nous ne demandons rien d'autre. Lorsque Gutenberg inventa l'imprimerie, les premiers mots qu'il imprima, sans adjectif, sans adverbe, furent: «Fiat lux». Notre Association défend aujourd'hui ce que la presse a
+
+toujours défendu: la lumière sur toutes choses et pour tout le monde.
+
+La nature du problème. ■- Avant d'envisager la solution du problème des fausses nouvelles, il convient d'élucider la nature du problème que nous avons à traiter. Pour éviter d'abord toute confusion, il ne faut pas perdre de vue que le journal a deux fonctions: en premier lieu, publier les nouvelles et, en second lieu, donner son opinion sur ces nouvelles. Il ne s'agit naturellement ici que de son rôle primordial en tant que moyen d'information. Le problème à traiter est celui des fausses nouvelles, et non la question infiniment plus délicate de savoir si les commentaires du journaliste sont ou non sensés, s'ils sont bons ou mauvais. Il va de soi que le meilleur moyen d'améliorer la valeur des commentaires est d'accroître l'exactitude des nouvelles car, s'il est vrai que l'on peut tirer des faits des conclusions fausses, il est beaucoup plus problématique que l'on puisse tirer des conclusions exactes de prémisses fausses. Quoi qu'il en soit, nous n'avons à nous préoccuper ici que de l'exactitude des faits que le journal fait connaître au monde et non des conclusions qu'il en tire.
+
+Il peut y avoir toute sorte de fausses nouvelles. On peut classer celles-ci en nouvelles intentionnellement fausses ou fausses sans intention et les examiner sous cet angle. Nous doutons qu'il soit sage d'aborder ainsi le problème, car c'est là une route semée d'embûches, surtout si l'on se place, comme le fait le Conseil, au point de vue des effets des fausses nouvelles sur les relations internationales. Une erreur non voulue peut faire beaucoup plus de mal qu'une erreur intentionnelle. Cette dernière peut être jugée excusable, ou même digne de louanges, tandis que l'autre peut être une faute sans excuse ou une bévue criminelle. Tout dépend entièrement du cas envisagé et du juge. Toutefois, ce qui nous frappe bien davantage, c'est en premier lieu la difficulté, pour ne pas dire l'impossibilité, qu'il y a à trouver le moyen de déterminer avec exactitude si l'erreur était ou non intentionnelle, si elle était excusable ou inexcusable, etc., dans les cas spécifiques où il serait de la plus haute importance de le savoir, et, en second lieu, les dangers que comporte toute tentative en vue de créer un organisme chargé de passer au crible tous les cas.
+
+La raison n'en est pas seulement que peu de profanes semblent comprendre combien sont nombreuses les possi¬ bilités de commettre de bonne foi des erreurs en publiant des nouvelles ; il y a un autre facteur qui complique singulièrement le problème limité dont se préoccupe plus particulièrement le Conseil, problème des nouvelles ayant trait aux relations internationales. Le journaliste ne peut apprendre la vérité sur bien des choses, dans ce domaine, surtout que si celui qui la lui révèle a la certitude que, quoi qu'il arrive, le journaliste ne fera pas connaître son nom. C'est donc devenu une règle non écrite, parmi les journalistes de bon renom, de ne jamais dire de qui ils tiennent leurs nouvelles si, en le disant, ils
+
+risquent de faire du tort à l'intéressé.
+
+Il est évident que cette règle du secret professionnel tend à faire passer, en ce qui concerne le public, la responsabilité des nouvelles publiées, des mains de celui qui les a révélées, dans celles du journaliste. De plus, il expose le journaliste à voir sa bonne foi surprise par celui dont il tient les nouvelles et, malheureusement, c'est ce qui arrive trop souvent. Cette pratique comporte toujours nécessairement des risques pour le journaliste, car c'est seulement lorsqu'il est plus ou moins dangereux de dire la vérité ou lorsque l'on désire propager impunément de fausses nouvelles que l'intéressé demande que son nom soit tenu secret.
+
+Le journaliste n'est pas sans disposer de moyens de protection contre ce danger. Il se souvient longtemps de ceux qui ont abusé de sa confiance et l'esprit de corps dans la presse est tel que celui qui a surpris la bonne foi d'un journaliste ne tarde pas à passer auprès des autres pour une personne indigne de confiance ou pour pis encore, tandis que la réputation
+
+de ceux dont l'expérience a prouvé l'honnêteté et la droiture s'étend rapidement parmi les membres de notre profession.
+
+Naturellement, le journaliste préfère de beaucoup que ceux dont il tient les nouvelles en prennent eux-mêmes la responsabilité et nous saisissons cette occasion pour prier les hommes d'Etat, en particulier, de laisser citer plus souvent leur nom.
+
+Mais, s'il le faut, le journalisme est toujours prêt à courir le risque, à décider, dans chaque cas, jusqu'à quel point il peut, sans danger, croire à la bonne foi de son informateur et fkire, parmi les nouvelles qu'il apprend de cette façon, un choix qu'il rapportera sous sa responsabilité. Un grand nombre de nouvelles importantes concernant les relations inter¬ nationales sont connues du public grâce à cette méthode et, en l'état actuel des choses, ne peuvent en être connues que par cette méthode; il est donc évident qu'il devient de ce fait extrêmement difficile pour quelqu'un du dehors de résoudre équi¬ tablement et utilement la question des fausses nouvelles en traitant des cas déterminés.
+
+Pour toutes ces raisons et pour d'autres encore, nous ne voyons pas le moyen de tracer sans risque d'erreur, en consi¬ dérant des cas déterminés, une ligne permettant de classer ou d'évaluer les différentes espèces de fausses nouvelles. En vérité, nous ne voyons même pas le moyen de tracer une ligne générale entre les vraies et les fausses nouvelles. Dans la pratique, la distinction paraît souvent claire, et, cependant, l'une des rares choses dont l'évidence est indéniable est que ce qui est vrai pour l'un est souvent faux pour l'autre et vice-versa. A prendre les choses au mieux, la proportion des cas-limite par rapport à l'ensemble est énorme, et c'est dans cette catégorie, si sujette à contestations, que rentrent la plupart des nouvelles ayant trait aux relations internationales.
+
+On prétend parfois cependant qu'une nouvelle, fausse de toute évidence, publiée opportunément, peut être de nature à déclencher une guerre. C'est là une affirmation difficile à prouver et, à supposer qu'elle puisse l'être, ce ne serait même pas
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

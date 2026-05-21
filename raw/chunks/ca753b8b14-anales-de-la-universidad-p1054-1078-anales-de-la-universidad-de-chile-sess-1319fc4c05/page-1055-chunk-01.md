@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-48cb5c62b5e7-P1055-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078.codex.md
+converted_sha256: 48cb5c62b5e7e0a6a57c618edd258e5d0e00041e1478989a4e3133d467bd349a
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json
+page_start: 1055
+page_end: 1055
+part: 1
+---
+
+# Page 1055
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/manifest.json`
+- Source page: 1055
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1054-1078-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1054-1078/page-images/page-1055.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Si  lo  primero, no hai  cuestion. El reaparecimiento personal  o  la  presentacion de  un tercero que probase obrar  en  nombre  de él, ya por  compra u  otro  cualquier título  lejítimo,  pone  término  inmediato  a  la  posesion  en que  están  constituidos  los  bienes. Es  indiscutible el derecho  del  desaparecido para  disponer  de  sus  cosas  1  del adquirente  para  colocarse  por  el mismo hecho  en  el  lugar  de aquél.
+
+Pero  si no  comparece  en  ninguna forma,  ¿qué  se  hace?  ¿continúan  en  la  administracion los  poseedores  provisionales,  o la toman  los  poseedores definitivos, o  se nombra  curador  a  los  bienes? :
+
+Para  resolver esta  interrogación,  es preciso no  olvidar  que  si el  desaparecido,  a  pesar  de  las cireunstancias en  que  se  encuentra,  deja de comparecer  o  dilata  la com. pafecencia, es  porque está  contorme 1  acepta  el  estado  actual  de sus bienes. Esta  es una justa presuncion de  su  voluntad. Luego subsistiria  la razon  i el  objeto de la  posesion provisoria  i por  lo mismo  seria  lójico que ésta  contimuase miéntras  no  llegue la oportunidad  de convertirla en  definitiva. de
+
+Sin embargo, hal  que  tomar este hecho  con  las debi-
+
+das reservas,  pues  no faltan  razones  para  sostener  que en  tal  caso procede  la designacion  de curador  de  bienes, ya  que  vuelve  a tratarse de  una  persona simplemente ausente, que  no mantiene comunicacion  con los suyos 1  ha  constituido  procurador.  Es  exactamente  la que  prevee  i  contempla  el artículo 473 del  Código (a).
+
+(a) «A recibirse noticias ciertas de  que el desaparecido  vive,  i éste  no 473,
+
+reanuda  su  comunicacion con  su  familia,  procédese,  esnforme'al art. a  nombrar curador  de  bienes;  el  cual exije la  restitucion a los  poseedores  provisionales». Borja. T.  II, N.  228.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

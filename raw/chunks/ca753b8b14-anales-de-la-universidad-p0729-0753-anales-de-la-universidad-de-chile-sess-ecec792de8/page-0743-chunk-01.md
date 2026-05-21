@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8c07e998eefa-P0743-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753.codex.md
+converted_sha256: 8c07e998eefa8d0a62bb46ad57a84655676a379c1565746c08d17923ee466e68
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json
+page_start: 743
+page_end: 743
+part: 1
+---
+
+# Page 743
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json`
+- Source page: 743
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/page-images/page-0743.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- 22 Que  el  patrimonio  en que se presume  que  éstos
+- suceden, comprenderá  los  bienes,  derechos  1 acciones  del desaparecido,  cuales eran  a  la  fecha  de la  muerte  presunta.
+73. Herederos  testamentarios  son  los  instituidos  en  el a  quienes  la lei dispuso  de  sus  bieo  no
+- testamento. Lejítimos  son los  herederos llama  a suceder  cuando  el difunto  no nes, o si  dispuso, no lo  hizo  conforme a  derecho, han  tenido  efecto  sus  disposiciones.
+
+El  derecho de  los  primeros  es indudablemente mas Esla
+
+precario 1 ménos seguro  que  el  de  los  lejitimarios. tos  son llamados a  la herencia por  el ministerio  de lei  1 aquéllos  por un acto de voluntad esencialmente revocable. i
+
+Sin  embargo, el  lejislador siempre  que  se  encuentra afecto  y
+
+en presencia  de un  testamento  en  que  el  testador  instituye heredero,  aun con esclusion de  sus  parientes, supone  que  la persona designada  es la  quemas mas  interes  le inspira,  1  por  consiguiente,  respeta  1  ampara  esa declaracion  de  su  voluntad.
+
+74. Con  todo, no  fué  este el  principio que  aplicó  D. Andres  Bello  en  su proyecto  de  1853.  El  art.  91  daba  la calidad  de herederos  presuntivos  solamente  a  los  que  lo eran  abintestato  a  la  fecha  de la  muerte presunta  1 el art.  101  disponia  que el testamento se  abriese una  vez decretada la posesion  definitiva.
+
+Ya  hemos  indicado,  en  párrafos  anteriores,  los  graves inconvenientes  de  este  sistema.  Dando  la administracion de los bienes  a los asignatarios  lejítimos, aun  con  prescindencia de los instituidos en testamento abierto,  se descuidan  los intereses del  desaparecido i se  da  el usuIructo  de su  patrimonio  a personas  que por  carecer  de todo  derecho  a  la  herencia, naturalmente  no  pueden  te-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

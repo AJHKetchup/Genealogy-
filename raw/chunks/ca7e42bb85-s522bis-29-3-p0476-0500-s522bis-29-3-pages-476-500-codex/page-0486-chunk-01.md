@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-714e07945bc9-P0486-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500.codex.md
+converted_sha256: 714e07945bc9caf03d23865e567e11e66a55f662ac0a0c74965cce6c9bc365e0
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json
+page_start: 486
+page_end: 486
+part: 1
+---
+
+# Page 486
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/manifest.json`
+- Source page: 486
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0476-0500-s522bis-29-3-pages-476-500/page-images/page-0486.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## CONSTITUTION*
+
+D'après la Constitution argentine, aussi bien que conformément à la jurisprudence et à la doctrine, la conduite des affaires extérieures est, en principe, de la compétence exclusive du Président de la Nation. Le Président (art.86, alinéa 14) conclut et signe les traités de paix, de commerce, de navigation, d'alliance, de limites et de neutralité. Mais la sanction définitlvê de ces traités est du ressort du Con¬ grès (art. 67, alinéa 19). Le Président négooie publiquement ou secrètement. Pendant la préparation des traités, 1© pouvoir du Président est absolu, mais les traités ne deviennent loi de la nation qu'après l'approbation du Congrès. Celui-ci ne peut, à notre sens, qu'approuver ou rejeter en bloc les traités qui sènt soumis à considération, sans pouvoir y apporter des mo¬ difications.
+
+L'accession ou l'adhésion au Pacte de la Société des Nations (nous considérons les termes comme synonymes) constitue sans nul doute un engagement international, de nature contrac¬ tuelle, duquel découlent des droits et des obligations pour toute la Nation. En conséquence, le Président a agi dans les limites de ses pouvoirs en négociant et en concluant l'adhé¬ sion ou l'accession.
+
+Cependant, au point de vue du droit interne (et c'est l'opinion qui s'est fait jour dans les débats de l'Assemblée législative argentine) l'accession ne sera parfslte que le jour où le Congrès argentin aura approuvé les actes du Pouvoir Exécutif, qui ont abouti à cet engagement international de nature toute
+
+spéciale.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

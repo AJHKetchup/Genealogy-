@@ -1,0 +1,88 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3ce72597cbc2-P0157-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175.codex.md
+converted_sha256: 3ce72597cbc2403faec63af013c6b213696a25487bfb3464f02098c42ec62a7f
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175/manifest.json
+page_start: 157
+page_end: 157
+part: 1
+---
+
+# Page 157
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175/manifest.json`
+- Source page: 157
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0151-0175-r3578-50-5569-5569-jacket5-pages-151-175/page-images/page-0157.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Het onder letter a) bedoeld verbod van het gebruik van teekens of benamingen, welke eene nabootsing van het emblema of van de benaming van ,,Eoode Kruis' of van ,,Kruis van Geneve' uitmaken, evenals het onder letter b) bedoeld verbod van het gebruik van het wapen van den Zwitserschen Bond of van teekens, welke eene nabootsing daarvan uitmaken, zal van kraclit zijn vanaf het door iedere wetgeving aangegeven tijdstip en uiterlijk vijf jaar na de inwerkingstelling van dit Yerdrag. Dadelijk na deze inwerkingstelling zal het niet meer geoorloofd zijn een fabrieksof handelsmerk in strijd met deze verboden aan te nemen.
+
+## Artikel 29.
+
+De Eegeeringen van de Hooge Verdragsluitende Partijen zullen, in geval van onvoldoendheid van hare strafwetten, eveneens de noodige maatregelen nemen of deze aan hare wetgevende lichamen voorstellen om in tijd van oorlog elke
+
+met de bepalingen van dit Verdrag strijdige daad tegen te gaan.
+
+Zij zullen elkander door tusschenkomst van den Zwitserschen Bondsraad de bepalingen, welke op dit tegengaan betrekking hebben mededeelen uiterlijk binnen vijf jaar van de ratificatie van dit Verdrag af.
+
+## Artikel 30.
+
+Op&gt; verzoek van een oorlogvoerende zal een onderzoek moeten worden ingesteld, overeenkomstig de tussclien de betrokken partijen vastgestelde wijze, aangaande elke beweerde schending van het Yerdrag; wanneer de schending is vastgesteld, zullen de oorlogvoerenden aan die schending een einde maken en zullen haar zoo snel mogelijk onderdrukken.
+
+## Slotbepalingen.
+
+## Artikel 31.
+
+Dit Verdrag, dat den datum van dezen dag zal dragen, zal tot den eersten Februari 1930 kunnen worden geteekend uit naam van alle op de Conferentie, die op den lsten Juli 1929 te Geneve is geopend, vertegenwoordigde landen, evenals van de niet op deze Conferentie vertegenwoordigde landen, die deelnemen aan de Verdragen van Geneve van 1864 of van 1906.
+
+## Artikel 32.
+
+Verdrag zal spoedig mogelijk worden geratificeerd.
+
+Dit zoo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

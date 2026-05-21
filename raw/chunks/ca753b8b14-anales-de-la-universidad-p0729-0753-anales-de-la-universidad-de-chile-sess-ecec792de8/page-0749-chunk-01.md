@@ -1,0 +1,79 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-8c07e998eefa-P0749-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753.codex.md
+converted_sha256: 8c07e998eefa8d0a62bb46ad57a84655676a379c1565746c08d17923ee466e68
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json
+page_start: 749
+page_end: 749
+part: 1
+---
+
+# Page 749
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/manifest.json`
+- Source page: 749
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0729-0753-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-729-753/page-images/page-0749.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+en  que comienza  1 concluye  cada  parte  del  inventario;
+
+- 4.0 Antes  «de cerrado, el  tenedor de  los  bienes  o el que  hace  la  manifestacion de ellos,  declarará  bajo de juramento  que  no  tiene  otros que  manifestar  1 que  deban  figurar  en el inventario; 1
+- 5.2  Será  firmado por dicho  tenedor o manifestante,
+- por  los interesados  que  hubieren  asistido, por  el Ministro  defe 1  por  los  testigos.
+80. La  necesidad del  inventario se desprende  del carácter  mismo  de  la posesion provisional, que  está sujeta  a la  condicion  de restitucion 1 conservacion de  los  bienes. La  lei,  siempre que  se  presenta una sltuacion análoga,  lo prescribe como requisito  previo. Deben  formarlos  los  curadores  1  los  usufructuarios,  segun  lo prescriben  respectivamente los artículoa 374  1 775  del  Código. (
+
+En  el  presente caso, su confeccion interesa por
+
+igual  al  desaparecido 1a  los  poseedores provisionales. Es  para  el  primero una garantía  de  que su  patrimonio  se conservará sin menoscabo 1 significa  un beneficio  para  los  segundos.  Así  éstos  no  se  verán  obligados  en  ningun  tiempo a  devolver otros bienes que los  inventariados  1 no serán  responsables  de las  obligaclones  trasmisibles  del  desaparecido, sino  hasta concurrencia  del  valor  de  los  que  hubieren  recibido.
+
+En  cuanto  a  los  poseedores  definitivos nada  dice  la arbitrio  formar  o propios  bie-
+
+lei,  1 queda,  en  consecuencia, a su no  inventario. Pero  es  claro que sino lo  hacen,  no gozarán  del beneficio establecido en el  artículo  1247 del  Código  1 quedarán  obligados  con  sus nes  al pago  de  todas  las  deudas  del  desaparecido.
+
+-81.  Prácticamente  la  confeccion del inventario  está entregada  por  completo a  la buena  fe  de  los  poseedo-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

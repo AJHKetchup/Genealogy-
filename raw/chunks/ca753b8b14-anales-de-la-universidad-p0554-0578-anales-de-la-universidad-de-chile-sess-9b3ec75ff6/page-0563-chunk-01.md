@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-484aee9db9d7-P0563-01
+chunk_id: CHUNK-e72533ba3ce0-P0563-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578.codex.md
-converted_sha256: 484aee9db9d7d8b6285911859e9a85d70fd5a6621c77130c60fd1debe5d80a24
+converted_sha256: e72533ba3ce05e57f45e77ab373f1e1ed7e9f655dd511ba628a7a14acb470581
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0554-0578-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-554-578/manifest.json
@@ -252,63 +252,3 @@ All visible text and layout elements on the page have been transcribed and descr
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
 ```
-
-## Page Metadata
-Page number: 175
-
-## Layout And Reading Order
-
-The page contains two main sections, both related to a "Sesion de 17 de Junio de 1918".
-The first section is a letter or report, starting with a number and date, addressed to "Señor Rector", followed by the body of the text and a signature.
-The second section, introduced by a bold heading, describes the session itself, listing attendees and then the titles and degrees conferred, categorized by profession.
-
-## Literal Transcription
-
-<pre>
-SESION DE 17 DE JUNIO DE 1918                                175
-
-N.º 29.                               Tomé, 7 de Junio de 1918.
-
-Señor Rector:
-
-Tengo el honor de poner en conocimiento del señor Rec-
-tor que hasta la fecha no se ha presentado ninguna persona
-con título suficiente para optar al puesto de profesor en pro-
-piedad en la asignatura de Matemáticas, con doce horas se-
-manales de clases, en el establecimiento a mi cargo.
-
-                                (Firmado).—V. A. PALACIOS.
-
-                                ———
-
-                                **Sesion de 17 de Junio de 1918**
-
-Fué presidida por el señor Ministro de Instrucción Pública,
-don Pedro Aguirre Cerda, asistieron el señor Rector de la Uni-
-versidad don Domingo Amunátegui Solar, los señores Conseje-
-ros Amunátegui Solar don Gregorio, Bahamonde, Barros Bor-
-goño, Espejo, Matte i el señor Secretario Jeneral don Octavio
-Maira.
-
-Prévias las formalidades reglamentarias i el juramento re-
-querido, el señor Rector confirió los siguientes títulos i gra-
-dos:
-
-                                *Médicos-Cirujanos:*
-
-                                a doña Andrea González Nolle; i
-                                don Guillermo T. Meyer von S. Venegas.
-
-                                *Profesora de Historia i Jeografía:*
-
-                                a doña Ercilia Pérez Davis
-</pre>
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
