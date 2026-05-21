@@ -135,8 +135,14 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
-          $reply = codex exec --ephemeral --sandbox read-only "Reply exactly OK."
-          if (($reply | Select-Object -Last 1) -ne "OK") {
+          $reply = & codex exec --ephemeral --sandbox read-only "Reply with exactly one token: OK" 2>&1
+          $exitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
+          $reply | ForEach-Object { Write-Host $_ }
+          if ($exitCode -ne 0) {
+            throw "Codex session failed with exit code $exitCode."
+          }
+          $ok = @($reply | Where-Object { $_.ToString().Trim() -match '^OK\\.?$' }).Count -gt 0
+          if (-not $ok) {
             throw "Codex session did not return OK."
           }
 

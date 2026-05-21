@@ -3888,6 +3888,13 @@ def test_sync_github_database_rebases_and_retries_rejected_push(tmp_path, monkey
     assert ["pull", "--rebase", "origin", "main"] in calls
 
 
+def test_github_publish_branch_prefers_actions_ref_name(tmp_path, monkeypatch) -> None:
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    monkeypatch.setenv("GITHUB_REF_NAME", "main")
+
+    assert genealogy_wiki.github_publish_branch(tmp_path) == "main"
+
+
 def test_sync_github_database_refresh_base_merges_shared_hosted_state(tmp_path, monkeypatch) -> None:
     class GitResult:
         def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:

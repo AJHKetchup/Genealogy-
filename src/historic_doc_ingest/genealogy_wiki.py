@@ -10603,6 +10603,11 @@ def git_result_detail(result: subprocess.CompletedProcess[str]) -> str:
 
 
 def github_publish_branch(root: Path) -> str:
+    if os.environ.get("GITHUB_ACTIONS", "").lower() == "true":
+        for env_name in ("GITHUB_REF_NAME", "GITHUB_HEAD_REF"):
+            env_branch = os.environ.get(env_name, "").strip()
+            if env_branch:
+                return env_branch
     branch_result = run_git(root, ["rev-parse", "--abbrev-ref", "HEAD"], check=False)
     branch = (branch_result.stdout or "").strip()
     if branch_result.returncode == 0 and branch and branch != "HEAD":
