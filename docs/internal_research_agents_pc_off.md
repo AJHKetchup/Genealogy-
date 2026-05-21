@@ -27,6 +27,12 @@ The repository must be private. The workflow expects one of these repository sec
 - `CODEX_AUTH_JSON_B64`, preferred
 - `CODEX_AUTH_JSON`, accepted for plain JSON
 
+For unattended long-term runs, also add:
+
+- `CODEX_SECRET_UPDATE_TOKEN`
+
+`CODEX_SECRET_UPDATE_TOKEN` must be a GitHub token scoped only to this repository with repository `Secrets` write permission. GitHub's REST API documentation says fine-grained tokens need repository `Secrets` write permission for creating or updating repository secrets; classic PATs need the broader `repo` scope. The workflow uses this token only to rotate `CODEX_AUTH_JSON_B64` after Codex refreshes ChatGPT auth.
+
 `CODEX_AUTH_JSON_B64` is a base64 encoding of the local `~/.codex/auth.json` file after `codex login`, where:
 
 - `auth_mode` is `chatgpt`
@@ -94,6 +100,6 @@ The internal workflow must not:
 
 ## Auth Maintenance
 
-GitHub-hosted runners are ephemeral. Codex can refresh ChatGPT-managed auth during a normal run, but the updated file is not automatically written back to repository secrets.
+GitHub-hosted runners are ephemeral. Codex refresh tokens are rotating/single-use. If a hosted run refreshes the token and the new `auth.json` is not saved, the next run can fail with `refresh_token_reused`.
 
-If the workflow later fails with auth/401 errors, reseed `CODEX_AUTH_JSON_B64` from a fresh local `codex login`. A persistent self-hosted runner would avoid this reseed cycle, but it would again depend on an always-on machine.
+The workflow rotates `CODEX_AUTH_JSON_B64` automatically after a successful Codex startup when `CODEX_SECRET_UPDATE_TOKEN` is present. If the secret has already gone stale, reseed `CODEX_AUTH_JSON_B64` once from a fresh local `codex login`; after that, the hosted workflow should keep it current itself. A persistent self-hosted runner would avoid this reseed cycle, but it would again depend on an always-on machine.

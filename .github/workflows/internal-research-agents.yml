@@ -141,6 +141,7 @@ jobs:
           "Codex verify started $(Get-Date -AsUTC -Format o)" | Set-Content -LiteralPath $verifyLog -Encoding UTF8
           $reply = & codex exec --ephemeral --sandbox read-only "Reply with exactly one token: OK" 2>&1
           $exitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
+          "CODEX_VERIFY_EXIT_CODE=$exitCode" | Out-File -FilePath $env:GITHUB_ENV -Append
           "exit_code=$exitCode" | Add-Content -LiteralPath $verifyLog -Encoding UTF8
           $reply | Tee-Object -FilePath $verifyLog -Append | ForEach-Object { Write-Host $_ }
           if ($exitCode -ne 0) {
@@ -208,6 +209,38 @@ jobs:
           "PROMOTION_LOG=$logPath" | Out-File -FilePath $env:GITHUB_ENV -Append
           if ($exitCode -ne 0) {
             Write-Warning "Promotion controller exited with $exitCode. Safe outputs and diagnostics will still be published for the next run."
+          }
+
+      - name: Rotate ChatGPT-managed Codex auth secret
+        if: always() && env.CODEX_VERIFY_EXIT_CODE == '0'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.CODEX_SECRET_UPDATE_TOKEN }}
+        run: |
+          $ErrorActionPreference = "Stop"
+          if ([string]::IsNullOrWhiteSpace($env:GH_TOKEN)) {
+            throw "Missing CODEX_SECRET_UPDATE_TOKEN. Add a GitHub token with repository Secrets write permission so hosted Codex auth can rotate after refresh."
+          }
+          if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
+            throw "GitHub CLI 'gh' is unavailable on this runner; cannot rotate CODEX_AUTH_JSON_B64."
+          }
+          $authPath = Join-Path $env:CODEX_HOME "auth.json"
+          if (-not (Test-Path -LiteralPath $authPath)) {
+            throw "Codex auth file was not found at $authPath."
+          }
+          $authJson = Get-Content -LiteralPath $authPath -Raw
+          $auth = $authJson | ConvertFrom-Json
+          if ($auth.auth_mode -ne "chatgpt" -or $null -eq $auth.tokens -or [string]::IsNullOrWhiteSpace($auth.tokens.refresh_token)) {
+            throw "Refusing to rotate Codex auth secret because auth.json is not a ChatGPT auth file with a refresh token."
+          }
+          $encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($authJson))
+          $secretFile = New-TemporaryFile
+          try {
+            Set-Content -LiteralPath $secretFile -Value $encoded -NoNewline -Encoding UTF8
+            gh secret set CODEX_AUTH_JSON_B64 --repo $env:GITHUB_REPOSITORY --body-file $secretFile
+          }
+          finally {
+            Remove-Item -LiteralPath $secretFile -Force -ErrorAction SilentlyContinue
           }
 
       - name: Publish internal research outputs
