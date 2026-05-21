@@ -21,6 +21,26 @@ on:
         required: false
         default: "false"
         type: boolean
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/internal-research-agents.yml"
+      - "scripts/post-conversion-agent-controller.ps1"
+      - "src/historic_doc_ingest/**"
+      - "raw/converted/**"
+      - "raw/chunks/**"
+      - "research/_automation/**"
+      - "research/_agent-queues/**"
+      - "research/_conversion-review/**"
+      - "research/_staging/**"
+  schedule:
+    - cron: "17 * * * *"
+  workflow_run:
+    workflows:
+      - Cloud Source Conversion
+    types:
+      - completed
 
 concurrency:
   group: internal-research-agents-${{ github.ref }}
