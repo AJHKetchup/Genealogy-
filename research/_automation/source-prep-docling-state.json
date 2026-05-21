@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T18:16:24Z",
+  "created": "2026-05-21T19:03:42Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -23,201 +23,25 @@
   "accepted": 0,
   "unusable": 0,
   "fast_unusable": 0,
-  "errors": 24,
+  "errors": 2,
   "extracted_images": 0,
   "skipped": {
-    "cached_error": 24,
-    "ocr_limit_reached": 1104
+    "cached_error": 48,
+    "ocr_limit_reached": 1080
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0476-0482-s495-2-2-pages-476-482:p0477",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0330",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 477,
+      "page": 330,
       "docling_ocr": true,
       "status": "error",
       "error": "Docling hard timeout after 90 seconds."
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0473",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0304",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 473,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0475",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 475,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1346",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1346,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0288",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 288,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0321",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 321,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0476-0482-s495-2-2-pages-476-482:p0479",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 479,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0311",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 311,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0317",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 317,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0468",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 468,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0293",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 293,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0476-0482-s495-2-2-pages-476-482:p0480",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 480,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0302",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 302,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0292",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 292,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0341",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 341,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0246",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 246,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0343",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 343,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275:p0251",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 251,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1394",
-      "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1394,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0298",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 298,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0243",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 243,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0320",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 320,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0461",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 461,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 90 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0462",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 462,
+      "page": 304,
       "docling_ocr": true,
       "status": "error",
       "error": "Docling hard timeout after 90 seconds."
@@ -225,7 +49,6 @@
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-21T18:52:34Z",
-  "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-21T18:52:34Z"
+  "checkpointed": "2026-05-21T19:06:45Z",
+  "state_path": "research/_automation/source-prep-docling-state.json"
 }
