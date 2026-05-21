@@ -438,7 +438,15 @@ def test_gemini_source_prep_preflight_success_can_skip_state_write(tmp_path, mon
 
     assert summary["preflight_only"] is True
     assert "state_path" not in summary
+    assert "preflight_state_path" in summary
     assert not (tmp_path / "research" / "_automation" / "gemini-source-prep-state.json").exists()
+    preflight_state = json.loads(
+        (tmp_path / "research" / "_automation" / "gemini-source-prep-preflight-state.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    assert preflight_state["preflight_only"] is True
+    assert preflight_state["fatal_error"] == ""
 
 
 def test_gemini_source_prep_dry_run_does_not_write_state_or_log(tmp_path) -> None:

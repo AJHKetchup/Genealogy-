@@ -1454,6 +1454,37 @@ def test_source_prep_cloud_report_summarizes_latest_state(tmp_path) -> None:
     assert "- gemini preflight fatal: Gemini HTTP 429: billing account blocked" in report
 
 
+def test_source_prep_cloud_report_suppresses_stale_gemini_fatal_after_successful_preflight(tmp_path) -> None:
+    automation = tmp_path / "research" / "_automation"
+    automation.mkdir(parents=True, exist_ok=True)
+    (automation / "gemini-source-prep-state.json").write_text(
+        json.dumps(
+            {
+                "finished": "2026-05-17T00:15:00Z",
+                "processed": 5,
+                "completed": 4,
+                "fatal_error": "Gemini HTTP 429: prepayment credits are depleted",
+            }
+        ),
+        encoding="utf-8",
+    )
+    (automation / "gemini-source-prep-preflight-state.json").write_text(
+        json.dumps(
+            {
+                "finished": "2026-05-21T06:11:10Z",
+                "preflight_only": True,
+                "fatal_error": "",
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    report = genealogy_wiki.build_source_prep_cloud_report(tmp_path)
+
+    assert "- gemini fatal:" not in report
+    assert "- gemini preflight fatal:" not in report
+
+
 def test_gemini_source_prep_refresh_queue_can_target_one_source(tmp_path) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)

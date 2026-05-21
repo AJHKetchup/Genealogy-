@@ -7348,6 +7348,28 @@ def source_prep_report_gemini_usage(payload: dict[str, object]) -> dict[str, int
     return summary
 
 
+def source_prep_report_state_timestamp(payload: dict[str, object]) -> datetime | None:
+    return (
+        parse_utc_timestamp(payload.get("finished"))
+        or parse_utc_timestamp(payload.get("updated"))
+        or parse_utc_timestamp(payload.get("created"))
+    )
+
+
+def source_prep_report_has_newer_successful_gemini_preflight(
+    gemini: dict[str, object], gemini_preflight: dict[str, object]
+) -> bool:
+    if not gemini_preflight:
+        return False
+    if source_prep_report_compact_error(gemini_preflight.get("fatal_error")):
+        return False
+    if gemini_preflight.get("preflight_only") is not True:
+        return False
+    preflight_timestamp = source_prep_report_state_timestamp(gemini_preflight)
+    gemini_timestamp = source_prep_report_state_timestamp(gemini)
+    return preflight_timestamp is not None and (gemini_timestamp is None or preflight_timestamp >= gemini_timestamp)
+
+
 def build_source_prep_cloud_report(root: Path) -> str:
     paths = WikiPaths(root.resolve())
     automation_dir = paths.research / "_automation"
@@ -7364,7 +7386,8 @@ def build_source_prep_cloud_report(root: Path) -> str:
     blockers = [str(item) for item in [*heartbeat_blockers, *docling_blockers] if str(item).strip()]
     if preflight and preflight.get("ready") is False:
         blockers.append("preflight missing: " + ", ".join(str(item) for item in preflight.get("missing", []) or []))
-    gemini_fatal_error = source_prep_report_compact_error(gemini.get("fatal_error"))
+    suppress_stale_gemini_fatal = source_prep_report_has_newer_successful_gemini_preflight(gemini, gemini_preflight)
+    gemini_fatal_error = "" if suppress_stale_gemini_fatal else source_prep_report_compact_error(gemini.get("fatal_error"))
     if gemini_fatal_error:
         blockers.append(f"gemini fatal: {gemini_fatal_error}")
     gemini_preflight_fatal_error = source_prep_report_compact_error(gemini_preflight.get("fatal_error"))
@@ -9067,6 +9090,8 @@ def source_prep_gemini_run(
         select_preflight_api_key()
         if preflight_only:
             summary["finished"] = utc_timestamp()
+            preflight_state_path = write_source_prep_gemini_preflight_state(paths.root, summary)
+            summary["preflight_state_path"] = relative_to_root(preflight_state_path, paths.root)
             if preflight_success_state:
                 state_path = write_source_prep_gemini_state(paths.root, summary)
                 summary["state_path"] = relative_to_root(state_path, paths.root)
