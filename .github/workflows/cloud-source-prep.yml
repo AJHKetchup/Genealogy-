@@ -58,6 +58,10 @@ on:
         description: "Maximum Docling-discovery pages per raw source per run"
         required: false
         default: "10"
+      discovery_ocr_limit:
+        description: "Maximum OCR-required Docling pages per run; clean text-layer pages can still flow first"
+        required: false
+        default: "50"
       discovery_document_timeout:
         description: "Docling per-page document timeout in seconds"
         required: false
@@ -115,9 +119,10 @@ jobs:
       RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '' }}
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
-      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '12000' }}
-      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '1' }}
+      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '1000' }}
+      RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '4' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '25' }}
+      RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || '50' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '30' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '45' }}
       RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '0' }}
@@ -256,6 +261,7 @@ jobs:
             --limit "$RUN_DISCOVERY_LIMIT" \
             --scan-limit "$RUN_DISCOVERY_SCAN_LIMIT" \
             --max-pages-per-source "$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE" \
+            --ocr-limit "$RUN_DISCOVERY_OCR_LIMIT" \
             --parallelism "$RUN_DISCOVERY_PARALLELISM" \
             --checkpoint-every 1 \
             --document-timeout "$RUN_DISCOVERY_DOCUMENT_TIMEOUT" \

@@ -6673,6 +6673,7 @@ def source_prep_docling_discovery_run(
     limit: int = 100,
     scan_limit: int = 1000,
     max_pages_per_source: int = 0,
+    ocr_limit: int = 0,
     parallelism: int = 1,
     checkpoint_every: int = 25,
     stale_minutes: int = 360,
@@ -6690,6 +6691,8 @@ def source_prep_docling_discovery_run(
         raise ValueError("scan_limit must be at least 1")
     if max_pages_per_source < 0:
         raise ValueError("max_pages_per_source must be zero or greater")
+    if ocr_limit < 0:
+        raise ValueError("ocr_limit must be zero or greater")
     if parallelism < 1:
         raise ValueError("parallelism must be at least 1")
     if checkpoint_every < 0:
@@ -6755,6 +6758,7 @@ def source_prep_docling_discovery_run(
         "limit": limit,
         "scan_limit": scan_limit,
         "max_pages_per_source": max_pages_per_source,
+        "ocr_limit": ocr_limit,
         "parallelism": parallelism,
         "checkpoint_every": checkpoint_every,
         "use_ocr": use_ocr,
@@ -6877,6 +6881,7 @@ def source_prep_docling_discovery_run(
         temp_dir = Path(tmp)
         candidates: list[tuple[dict[str, object], str]] = []
         source_counts: dict[str, int] = {}
+        ocr_count = 0
         for task in tasks:
             if int(summary["inspected"]) >= scan_limit:
                 break
@@ -6913,6 +6918,11 @@ def source_prep_docling_discovery_run(
                 task["_docling_text_layer_can_skip_ocr"] = source_prep_docling_text_layer_can_skip_ocr(preview_profile)
                 if use_ocr and bool(task["_docling_text_layer_can_skip_ocr"]):
                     task["_docling_use_ocr"] = False
+            if use_ocr and bool(task.get("_docling_use_ocr", True)):
+                if ocr_limit > 0 and ocr_count >= ocr_limit:
+                    count_skip("ocr_limit_reached")
+                    continue
+                ocr_count += 1
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
 
@@ -6947,25 +6957,29 @@ def source_prep_docling_discovery_run(
                 filtered_candidates.append((task, cache_key))
             candidates = filtered_candidates
 
-        if parallelism == 1:
-            for task, cache_key in candidates:
-                if limit > 0 and int(summary["accepted"]) >= limit:
-                    break
-                result = run_source_prep_docling_task(
-                    paths,
-                    task,
-                    cache_key,
-                    temp_dir,
-                    agent,
-                    use_ocr=use_ocr,
-                    document_timeout=document_timeout,
-                    hard_timeout=hard_timeout,
-                    dry_run=dry_run,
-                )
-                if not apply_docling_result(result):
-                    break
-        elif candidates:
-            max_workers = min(parallelism, len(candidates))
+        def process_candidates(group: list[tuple[dict[str, object], str]], worker_count: int) -> bool:
+            if not group:
+                return True
+            if worker_count <= 1:
+                for task, cache_key in group:
+                    if limit > 0 and int(summary["accepted"]) >= limit:
+                        break
+                    result = run_source_prep_docling_task(
+                        paths,
+                        task,
+                        cache_key,
+                        temp_dir,
+                        agent,
+                        use_ocr=use_ocr,
+                        document_timeout=document_timeout,
+                        hard_timeout=hard_timeout,
+                        dry_run=dry_run,
+                    )
+                    if not apply_docling_result(result):
+                        return False
+                return True
+
+            max_workers = min(worker_count, len(group))
             with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
                 futures = [
                     executor.submit(
@@ -6980,11 +6994,28 @@ def source_prep_docling_discovery_run(
                         hard_timeout,
                         dry_run,
                     )
-                    for task, cache_key in candidates
+                    for task, cache_key in group
                 ]
                 for future in concurrent.futures.as_completed(futures):
                     if not apply_docling_result(future.result()):
-                        break
+                        return False
+            return True
+
+        if candidates:
+            no_ocr_candidates = [
+                (task, cache_key)
+                for task, cache_key in candidates
+                if not bool(task.get("_docling_use_ocr", use_ocr))
+            ]
+            ocr_candidates = [
+                (task, cache_key)
+                for task, cache_key in candidates
+                if bool(task.get("_docling_use_ocr", use_ocr))
+            ]
+            if not process_candidates(no_ocr_candidates, parallelism):
+                pass
+            elif limit <= 0 or int(summary["accepted"]) < limit:
+                process_candidates(ocr_candidates, 1)
 
     summary["finished"] = utc_timestamp()
     if not dry_run:
@@ -11987,6 +12018,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum pages to inspect per raw source in one run. Use 0 for no cap. Default: 0.",
     )
     source_prep_docling_parser.add_argument(
+        "--ocr-limit",
+        type=int,
+        default=0,
+        help="Maximum OCR-required Docling pages to inspect in this run. Use 0 for no cap. Default: 0.",
+    )
+    source_prep_docling_parser.add_argument(
         "--parallelism",
         type=int,
         default=1,
@@ -12669,6 +12706,7 @@ def main(argv: list[str] | None = None) -> int:
             limit=args.limit,
             scan_limit=args.scan_limit,
             max_pages_per_source=args.max_pages_per_source,
+            ocr_limit=args.ocr_limit,
             parallelism=args.parallelism,
             checkpoint_every=args.checkpoint_every,
             agent=args.agent,

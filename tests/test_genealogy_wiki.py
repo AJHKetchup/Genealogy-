@@ -1168,15 +1168,19 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_scan_limit || '12000' }}"
+        "github.event.inputs.discovery_scan_limit || '1000' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_parallelism || '1' }}"
+        "github.event.inputs.discovery_parallelism || '4' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && "
         "github.event.inputs.discovery_max_pages_per_source || '25' }}"
+    ) in workflow
+    assert (
+        "RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
+        "github.event.inputs.discovery_ocr_limit || '50' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1203,6 +1207,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
         "github.event.inputs.economy_large_source_pages || '50' }}"
     ) in workflow
     assert "--max-pages-per-source \"$RUN_DISCOVERY_MAX_PAGES_PER_SOURCE\"" in workflow
+    assert "--ocr-limit \"$RUN_DISCOVERY_OCR_LIMIT\"" in workflow
     assert "--checkpoint-every 1" in workflow
     assert "continue-on-error: true" in workflow
     assert "timeout 90m python -m historic_doc_ingest.genealogy_wiki source-prep-docling-discovery" in workflow
@@ -2513,6 +2518,40 @@ def test_docling_discovery_skips_pages_when_raw_source_not_restored(tmp_path, mo
     assert summary["skipped"]["raw_source_not_restored"] == 1
 
 
+def test_docling_discovery_caps_ocr_required_pages_per_run(tmp_path, monkeypatch) -> None:
+    fitz = pytest.importorskip("fitz")
+    init_genealogy_wiki(tmp_path)
+
+    source = tmp_path / "raw" / "sources" / "ocr-heavy-volume.pdf"
+    doc = fitz.open()
+    for _ in range(3):
+        doc.new_page(width=360, height=500)
+    doc.save(source)
+
+    prepare_raw_sources(tmp_path, new_pages_limit=3)
+    write_agent_queues(tmp_path)
+
+    calls: list[str] = []
+
+    def fake_docling(input_path, **kwargs):
+        calls.append(str(input_path))
+        return "Usable OCR text from one slow scanned page. " * 8
+
+    monkeypatch.setattr(genealogy_wiki, "convert_source_with_docling", fake_docling)
+
+    summary = genealogy_wiki.source_prep_docling_discovery_run(
+        tmp_path,
+        limit=0,
+        scan_limit=10,
+        ocr_limit=1,
+    )
+
+    assert summary["inspected"] == 1
+    assert summary["accepted"] == 1
+    assert len(calls) == 1
+    assert summary["skipped"]["ocr_limit_reached"] == 2
+
+
 def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None:
     captured: dict[str, object] = {}
 
@@ -2540,6 +2579,8 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
             "40",
             "--max-pages-per-source",
             "3",
+            "--ocr-limit",
+            "2",
             "--parallelism",
             "4",
             "--no-ocr",
@@ -2556,6 +2597,7 @@ def test_docling_discovery_cli_passes_parallelism(tmp_path, monkeypatch) -> None
     assert result == 0
     assert captured["parallelism"] == 4
     assert captured["max_pages_per_source"] == 3
+    assert captured["ocr_limit"] == 2
     assert captured["use_ocr"] is False
     assert captured["document_timeout"] == 30
     assert captured["hard_timeout"] == 35
