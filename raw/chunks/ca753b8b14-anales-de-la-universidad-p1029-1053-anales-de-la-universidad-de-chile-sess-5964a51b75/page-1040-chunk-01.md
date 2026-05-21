@@ -1,0 +1,92 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e435c786f215-P1040-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053.codex.md
+converted_sha256: e435c786f2154daa2f9bfb9d3050e44941f1bab726fbe90de6c834a5dfc5ae21
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053/manifest.json
+page_start: 1040
+page_end: 1040
+part: 1
+---
+
+# Page 1040
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053/manifest.json`
+- Source page: 1040
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053/page-images/page-1040.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+sonas,  a  su  grado de parentesco  con  aquél  i  a  las demas
+
+circunstancias.
+
+Art.  30.  Los  ascendientess,  descendientes  1  el cónyuje, puestos  en posesion  temporal  de  los  bienes,  percibirán en beneficio  propio  la totalidad  de  las  rentas.
+
+Art. 31. Si  las  personas puestas en  posesion fuesen parientes  dentro del sesto grado, deberán  reservar  el quinto  de  las rentas en los  diez  primeros  años. contados  desde  el  dia  de la ausencia,  1 la  décima  parte  desde este  momento  hasta  que  se  cumplan  los treinta  años.
+
+Si  fueren  parientes  en  grado  mas  remoto,  o  estraños,
+
+deberán reservar la tercera parte  de  las rentas  en  los diez  primeros años 1 la  sesta en  los  siguientes, hasta cumplidos  los  treimta.
+
+Trascurrido  este  plazo  pertenecerá a los poseedores la totalidad de  las  rentas.
+
+C.  Per.-Art.  70.  El  poseedor provisional hace  suya la  mitad de  los frutos naturales, industriales  1  civiles, reservando la  otra  mitad para  el dueño  de los  bienes.
+
+## COMENTARIOS
+
+SuUmMARIO.-98. Resúmen  del  artículo.-99. Objeto de la  caucion.-100. Esta  puede  consistir  en  fianza, prenda  o  hipoteca.-101. Procedimiento  3 que  debe seguirse en  el  caso  de  que los  poseedores  no rindan  caucion, -102. Opiniones de  algunos comentadores del  Código Frances  sobre esta cuestion.-103. Prescripciones  de algunos códigos  estranjeros  sobre lo mismo.-104. Disposiciones concernientes al  usufructuario que  no puede rendir caucion.-105. Liberalidad  del sistema del Código respecto  de los frutos.-106. Diversos  procedimientos  adoptados sobre  esta materia en  las  lejislaciones estranjeras.
+
+98. Dos  reglas  establece este  artículo:
+
+A
+
+- 1.2  Los  poseedores  provisorios  deben  prestar  caución de  conservacion  1  restitucion.
+
+3
+
+-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

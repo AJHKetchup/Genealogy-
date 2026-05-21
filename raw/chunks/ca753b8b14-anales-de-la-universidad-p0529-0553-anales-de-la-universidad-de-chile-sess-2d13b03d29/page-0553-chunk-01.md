@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-1ed41babc26c-P0553-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553.codex.md
+converted_sha256: 1ed41babc26c7a0c97adefb929e8c14d041649b0b33db8a659f425f16176f2d0
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json
+page_start: 553
+page_end: 553
+part: 1
+---
+
+# Page 553
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/manifest.json`
+- Source page: 553
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/page-images/page-0553.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+1 El  inform=  que  precede  del  Rector señor  Vivero, i  que hago mio,  con  fundados  razonamientos  hace  ver que  no  hai  ningun  in '|conveniente  para  que  las  nombradas  señoritas,  asistan  a los  cursos | superiores  de humanidades  del  Liceo  a  su  cargo.
+
+Miéntras  el Estado, señor  Rector, no pueda  sostener  en cada ¡cabecera  de provincia  un establecimiento de enseñanza  para  la mujer,  con  cursos completos  para  su  instruccion,  debe,  a lo  ménos |  facilitarle  los  medios  con  que cuente  para  que  los  educandos  que deseen  seguir una  profesion  liberal,  terminen humanidades  en  los ¡destinados  al sexo masculino.  Estima  el infrascrito, que  las  anlas de  todos los establecimientos de enseñanza nacionales, deben |  estar  abiertas  para  todos  aquellos  que  deseen  ingresar  a ellas.
+
+(Firmado).-£.  A.  Guzman.
+
+AL  SEÑOR  MINISTRO DE  JUSTICIA E  INSTRUCCION  PÚBLICA
+
+Santiago.
+
+-Anombre  de  los  padres  de  famil:a,  desde la  provincia de Malleco  hasta  el Territorio  de  Magallánes, inclusive,  me permito  di '¡rijirme  a  U. S.,  reiterando la  necesidad  de resolver  la  peticion ¡hecba  sobre  la creacion, en  el presente año, del Internado  en el ¡Liceo  de  Hombres  de  Valdivia.  U.  S. sabe  que  en  este  estenso te¡Tritorio, no  existe  ningun  Internado  en  los  Liceos.
+
+El  Honorable  Consejo de  Instruccion Pública,  en  sesion del  10 ¡de Diciembre  del año próximo pasado, entre otras cosas, en el ¡N.9 4.0 dice:  «De  una  comunicacion  del  Jeneral  don  Manuel  Moore, ¡Comandante  en  Jefe de  la 4.a Division del Ejército, en la que insiste  sobre  la necesidad 1 conveniencia de  establecer  un Inte:¡nado  en  el Liceo  de  Valdivia,  para lo  cual  podria  arrendarse  una ¡casa  cercana  al establecimiento.
+
+Sin  entrar  a  considerar  las  desventajas  que  tendria  para  el  RéJimen interno  del  Liceo  este  funcionamiento  en dos  locales distintos,  que  desde  luego,  traeria  una  duplicacion del  personal admi'Mistrativo  i del  cuerpo  de inspectores, se  acordó  dejar pendiente la referida  peticion  para cuando concurra a  presidir  la  sesion del ¡Consejo  el señor  Ministro  de  Instruccion  Pública».
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

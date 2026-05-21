@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e435c786f215-P1031-01
+source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053.codex.md
+converted_sha256: e435c786f2154daa2f9bfb9d3050e44941f1bab726fbe90de6c834a5dfc5ae21
+source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
+source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
+source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053/manifest.json
+page_start: 1031
+page_end: 1031
+part: 1
+---
+
+# Page 1031
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053/manifest.json`
+- Source page: 1031
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p1029-1053-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-1029-1053/page-images/page-1031.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+desaparecido; garantía  que  se  estiende tanto a  los  bie-
+
+nes ralces como  a los  muebles, ya  que  la  lei  no distingue  entre  ellos, sino que, al  contrario, los  indica  en conjunto  al decir  «cualquiera  parte  de  los  bienes».
+
+I es  tambien  una garantía  para los  poseedores. Dees  indudable  que  el producto  de la venta  será  su  lejítimo  valor, del
+
+biendo  tasarse  los  bienes  ántes  de  subastarlos, i  por consiguiente, no pasará mas  allá  la  responsabilidas de  los  poseedores, en caso  de  reaparecimiento desaparecido.
+
+93. De  la  venta en  pública subasta, trata el título
+
+XII,  del  Libro  IV  del  Código  de  Procedimiento Civil. El  señor  Lira  en  su  Prontuario de  los  Juicios, la  esplica  en  estos  términos: «La  venta  se  hace  ante  el juez  i  el secretario. Los licitadores  presentan  boleta  de fianza,  sin la  cual  no  se  les  admiten sus  posturas  u  ofertas.
+
+Estas  ofertas hechas verbal  1 sucesivamente se  van apuntando  1 repitiendo  por el secretario,  hasta  que,  no habiendo  quien  ofrezca  mas  1 repetida  por tres  veces la última, se declare hecho  el  remate a  favor del que  la hizo,  1 se estiende acta de  la  dilijencia que firman el juez,  el secretario 1 el  subastador. SI  los  bienes  remata'dos  son  zaices,  el  acta  se  estiende en  un  rejistro  especial que  al  efecto  llevan los secretarios; si  muebles,  en el mismo  proceso».
+
+«El primer  postor  queda  libre  de su  postura  luego  que
+
+se admita la  del segundo,  el  segundo  lo  queda de  la  \_ de la suya,  luego  que se admita  la del  tercero,  1 así  sucesivamente»  (b).
+
+Segun  dice  Escriche  en su Diccionario, esta  palabra
+
+viene de  la  latina  subhasta, compuesta  de  sub  2 hasta,
+
+(b)  T.  IT.-Páj. 213.-Núm,  851.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

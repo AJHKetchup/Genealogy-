@@ -1,0 +1,105 @@
+{
+  "created": "2026-05-21",
+  "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450.codex.md",
+  "converted_sha256": "c9266ddde0824c7b352af52d7ce0cecf6e6710de12e7318e29df20f97e37f6b1",
+  "source": "raw/sources/S522bis-29-3.pdf",
+  "source_sha256": "7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605",
+  "source_manifest": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450/manifest.json",
+  "chunking": {
+    "unit": "page",
+    "max_chars": 12000,
+    "overflow": "split within page by Markdown sections and paragraph boundaries"
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0426-01",
+      "chunk_number": 1,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0426-chunk-01.md",
+      "page_start": 426,
+      "page_end": 426,
+      "part": 1,
+      "chars": 3002,
+      "sha256": "e4e2370dd98613b0b10ed31e66c91bd994bbdaf07c5d592b0811298b7d067d44"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0427-01",
+      "chunk_number": 2,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0427-chunk-01.md",
+      "page_start": 427,
+      "page_end": 427,
+      "part": 1,
+      "chars": 11836,
+      "sha256": "e54021b46c70b8798d9e706aa596ff6036857b3a828fe942742c4bff64c43140"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0427-02",
+      "chunk_number": 3,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0427-chunk-02.md",
+      "page_start": 427,
+      "page_end": 427,
+      "part": 2,
+      "chars": 11994,
+      "sha256": "94943bae2beb0bdf9bc852122a54451e7ba9108ba1c857ae2e8a3864bce85c53"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0427-03",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0427-chunk-03.md",
+      "page_start": 427,
+      "page_end": 427,
+      "part": 3,
+      "chars": 5176,
+      "sha256": "68c68de0c97d48e3bbdd6badbb1b120bff163a240a17c37d4e65ef1d829cabd8"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0439-01",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0439-chunk-01.md",
+      "page_start": 439,
+      "page_end": 439,
+      "part": 1,
+      "chars": 5469,
+      "sha256": "0ba3d500c21e69b0870c1465dc816ba91383325b205086922f8c6a946491a06d"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0441-01",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0441-chunk-01.md",
+      "page_start": 441,
+      "page_end": 441,
+      "part": 1,
+      "chars": 10394,
+      "sha256": "d0431075b8532b0bd6929546840ad9b67517b44cc2afd3cceebead12af09f427"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0445-01",
+      "chunk_number": 7,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0445-chunk-01.md",
+      "page_start": 445,
+      "page_end": 445,
+      "part": 1,
+      "chars": 8746,
+      "sha256": "958badfd719987c1170fec74cff0906c65f9eac734feba9d77f284160df5c9e2"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0448-01",
+      "chunk_number": 8,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0448-chunk-01.md",
+      "page_start": 448,
+      "page_end": 448,
+      "part": 1,
+      "chars": 5389,
+      "sha256": "8cbf9ef52ab8591f7ab7f3758dade3fadb68ab58f1527b68199af53bb42bfcd9"
+    },
+    {
+      "chunk_id": "CHUNK-c9266ddde082-P0450-01",
+      "chunk_number": 9,
+      "path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0426-0450-s522bis-29-3-pages-426-450-codex/page-0450-chunk-01.md",
+      "page_start": 450,
+      "page_end": 450,
+      "part": 1,
+      "chars": 3277,
+      "sha256": "b44e5bdfe24e1d19976cda58d7ff3e231688b146330e3fea94906dc0ff0495c6"
+    }
+  ]
+}
