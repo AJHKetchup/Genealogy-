@@ -109,7 +109,7 @@ jobs:
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '12000' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '1' }}
-      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
+      RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '25' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '30' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '45' }}
       RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '0' }}

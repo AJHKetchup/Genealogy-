@@ -1176,7 +1176,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_max_pages_per_source || '0' }}"
+        "github.event.inputs.discovery_max_pages_per_source || '25' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -2273,7 +2273,7 @@ def test_docling_discovery_keeps_ocr_for_noisy_scanned_text_layer(tmp_path, monk
     assert calls[0]["use_ocr"] is True
 
 
-def test_docling_discovery_keeps_ocr_for_clean_full_page_scan_with_text_layer(tmp_path, monkeypatch) -> None:
+def test_docling_discovery_uses_clean_scan_text_layer_without_ocr(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     Image = pytest.importorskip("PIL.Image")
     init_genealogy_wiki(tmp_path)
@@ -2312,9 +2312,10 @@ def test_docling_discovery_keeps_ocr_for_clean_full_page_scan_with_text_layer(tm
 
     assert summary["inspected"] == 1
     assert summary["accepted"] == 1
-    assert summary["tasks"][0]["docling_ocr"] is True
+    assert summary["tasks"][0]["docling_ocr"] is False
     assert summary["tasks"][0]["likely_full_page_scan"] is True
-    assert calls[0]["use_ocr"] is True
+    assert summary["tasks"][0]["text_layer_used_without_ocr"] is True
+    assert calls[0]["use_ocr"] is False
 
 
 def test_docling_discovery_caps_pages_per_source(tmp_path, monkeypatch) -> None:

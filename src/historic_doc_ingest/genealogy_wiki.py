@@ -5575,7 +5575,7 @@ def apply_source_relevance_feedback(task: dict[str, object], hints: list[dict[st
 
 
 SOURCE_PREP_DISCOVERY_VERSION = 1
-SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 5
+SOURCE_PREP_DISCOVERY_PROFILE_VERSION = 6
 SOURCE_PREP_DISCOVERY_TASK_STATUS = "rough_discovery"
 SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS = "rough_ok"
 SOURCE_PREP_DISCOVERY_UNUSABLE_STATUS = "rough_unusable"
@@ -6106,6 +6106,10 @@ def source_prep_docling_pdf_text_layer_previews(
     return previews
 
 
+def source_prep_docling_text_layer_can_skip_ocr(preview_profile: dict[str, object]) -> bool:
+    return str(preview_profile.get("status", "")).strip() == SOURCE_PREP_DISCOVERY_ACCEPTED_STATUS
+
+
 def convert_source_with_docling(
     input_path: Path,
     *,
@@ -6628,6 +6632,9 @@ def run_source_prep_docling_task(
                 "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
                 "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
                 "text_layer_flags": task.get("_docling_text_layer_flags", []),
+                "text_layer_used_without_ocr": bool(
+                    not effective_use_ocr and task.get("_docling_text_layer_can_skip_ocr")
+                ),
             },
             extra_entry={
                 "docling_ocr": effective_use_ocr,
@@ -6635,6 +6642,9 @@ def run_source_prep_docling_task(
                 "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
                 "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
                 "text_layer_flags": task.get("_docling_text_layer_flags", []),
+                "text_layer_used_without_ocr": bool(
+                    not effective_use_ocr and task.get("_docling_text_layer_can_skip_ocr")
+                ),
                 "method_detail": "docling_text_layer_no_ocr" if not effective_use_ocr else "docling_ocr",
             },
         )
@@ -6900,12 +6910,8 @@ def source_prep_docling_discovery_run(
                 task["_docling_text_layer_alpha_chars"] = preview.get("text_layer_alpha_chars", 0)
                 task["_docling_likely_full_page_scan"] = bool(preview.get("likely_full_page_scan"))
                 task["_docling_text_layer_flags"] = preview_flags
-                if (
-                    use_ocr
-                    and bool(preview.get("has_meaningful_text_layer"))
-                    and not bool(preview.get("likely_full_page_scan"))
-                    and not preview_flags
-                ):
+                task["_docling_text_layer_can_skip_ocr"] = source_prep_docling_text_layer_can_skip_ocr(preview_profile)
+                if use_ocr and bool(task["_docling_text_layer_can_skip_ocr"]):
                     task["_docling_use_ocr"] = False
             summary["inspected"] = int(summary["inspected"]) + 1
             candidates.append((task, cache_key))
