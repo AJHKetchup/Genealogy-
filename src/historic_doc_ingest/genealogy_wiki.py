@@ -10600,6 +10600,10 @@ SOURCE_CONVERSION_INCLUDE_PATHS = (
     "research/_automation",
     "research/log.md",
 )
+INTERNAL_RESEARCH_INCLUDE_PATHS = (
+    "research",
+    "wiki",
+)
 GITHUB_DATABASE_FORBIDDEN_PREFIXES = (
     "raw/sources/",
     "raw/assets/",
@@ -10846,6 +10850,7 @@ def sync_github_database(
     dry_run: bool = False,
     no_push: bool = False,
     source_conversion_only: bool = False,
+    internal_research_only: bool = False,
     refresh_base: bool = False,
 ) -> dict[str, object]:
     paths = WikiPaths(root.resolve())
@@ -10854,12 +10859,20 @@ def sync_github_database(
     if cached.returncode != 0:
         raise RuntimeError("Refusing to sync because staged changes already exist.")
 
-    include_paths = SOURCE_CONVERSION_INCLUDE_PATHS if source_conversion_only else GITHUB_DATABASE_INCLUDE_PATHS
+    if source_conversion_only and internal_research_only:
+        raise RuntimeError("--source-conversion-only and --internal-research-only cannot be combined.")
+    if source_conversion_only:
+        include_paths = SOURCE_CONVERSION_INCLUDE_PATHS
+    elif internal_research_only:
+        include_paths = INTERNAL_RESEARCH_INCLUDE_PATHS
+    else:
+        include_paths = GITHUB_DATABASE_INCLUDE_PATHS
     existing = [path for path in include_paths if (paths.root / path).exists()]
     summary: dict[str, object] = {
         "dry_run": dry_run,
         "no_push": no_push,
         "source_conversion_only": source_conversion_only,
+        "internal_research_only": internal_research_only,
         "refresh_base": refresh_base,
         "base_refresh": {},
         "included": existing,
@@ -12202,6 +12215,7 @@ def build_parser() -> argparse.ArgumentParser:
     sync_github_parser.add_argument("--dry-run", action="store_true", help="Show what would be added without staging or committing.")
     sync_github_parser.add_argument("--no-push", action="store_true", help="Create a local commit but do not push.")
     sync_github_parser.add_argument("--source-conversion-only", action="store_true", help="Sync only raw conversion artifacts and minimal automation state.")
+    sync_github_parser.add_argument("--internal-research-only", action="store_true", help="Sync only research and wiki outputs from internal post-conversion agents.")
     sync_github_parser.add_argument(
         "--refresh-base",
         action="store_true",
@@ -12907,6 +12921,7 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             no_push=args.no_push,
             source_conversion_only=args.source_conversion_only,
+            internal_research_only=args.internal_research_only,
             refresh_base=args.refresh_base,
         )
         print("sync-github-database | summary")

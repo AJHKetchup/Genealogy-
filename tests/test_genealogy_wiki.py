@@ -3847,6 +3847,47 @@ def test_sync_github_database_source_conversion_only_limits_scope(tmp_path, monk
     assert "wiki" not in dry_run_add
 
 
+def test_sync_github_database_internal_research_only_limits_scope(tmp_path, monkeypatch) -> None:
+    class GitResult:
+        def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
+            self.stdout = stdout
+            self.stderr = stderr
+            self.returncode = returncode
+
+    for relative_path in [
+        "raw/source-prep-manifest.json",
+        "raw/codex-conversion-jobs/job-001/manifest.json",
+        "raw/converted/job-001.codex.md",
+        "raw/chunks/job-001/manifest.json",
+        "research/log.md",
+        "research/_agent-queues/task-state.json",
+        "wiki/index.md",
+    ]:
+        path = tmp_path / relative_path
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("{}", encoding="utf-8")
+
+    calls: list[list[str]] = []
+
+    def fake_run_git(root, args, check=True):
+        calls.append(args)
+        if args == ["diff", "--cached", "--quiet"]:
+            return GitResult(returncode=0)
+        return GitResult()
+
+    monkeypatch.setattr(genealogy_wiki, "run_git", fake_run_git)
+
+    summary = sync_github_database(tmp_path, dry_run=True, internal_research_only=True)
+
+    assert summary["internal_research_only"] is True
+    assert summary["included"] == ["research", "wiki"]
+    dry_run_add = next(args for args in calls if args[:3] == ["add", "--dry-run", "-A"])
+    assert "research" in dry_run_add
+    assert "wiki" in dry_run_add
+    assert "raw/converted" not in dry_run_add
+    assert "raw/codex-conversion-jobs" not in dry_run_add
+
+
 def test_sync_github_database_rebases_and_retries_rejected_push(tmp_path, monkeypatch) -> None:
     class GitResult:
         def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
