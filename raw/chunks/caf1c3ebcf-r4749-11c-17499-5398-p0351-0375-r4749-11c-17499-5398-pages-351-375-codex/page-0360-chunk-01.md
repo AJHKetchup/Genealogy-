@@ -1,0 +1,83 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-867bfa591ea9-P0360-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375.codex.md
+converted_sha256: 867bfa591ea91f13451ae0a56708a9a321a153444ae0a568c1411ee6b08808ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json
+page_start: 360
+page_end: 360
+part: 1
+---
+
+# Page 360
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json`
+- Source page: 360
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/page-images/page-0360.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+los probleinas que son générales eri esta clase dè consttrucciones corno ser:
+
+- a) Aprovisionanïiento de agua potable.
+- b) Instalaciôn de luz.
+- c) Eliminaciôn de los liquidos servidos.
+- d) Caminos de circulation.
+
+Los puntos concernientes a la provision de agua potable y eva¬ cuation de los liquidos servidos representan en algunos casos proble¬ inas harto serios, particularmente el mencionado en ultimo término, cuando la poca extension del terreno o la configuration natural del mismo, no presentan desniveles que permiten la instalaciôn de conductos, que buscando los declives naturales lleven esos ofluentes a lugares de fâcil absorciôn distantes de los nûcleos poblados.
+
+Esta cuestiôn puede representor un obstâculoo serio en parajes donde, como es comun en nuestro pais, los terrenos son pianos y sin diferencias sensibles de nivel. Débese pues prestar preferente atenciôn en la elecciôn de los terrenos en los que se piensa consttruir edificios de esta naturaleza.
+
+Precisamente estas condiciones idéales se presentan en la confi¬ guraciôn del terreno en la que se ha erigido la Colonia Hogar Ricardo Gutiérrez y ello ha permitido desarrollar un sistema de desagûes que comprènde una colectora principal de 2.800 m. de longitud, eliminando definitivamente la constante preocupaciôn que importaba la elimiminaciôn de los pozos absorbentes de cada pabellôn, problema que llegô a adquirir un aspecto econômico muy serio por la continua construcciôn de nuevos pozos, asi como también en su aspecto higiénico, por el peligro que representaba la afloraciôn continua de los liquidos servidos en algunos puntos en que el coeficiente de obsorciôn era rebalsado pox la cantidad de liquido servido que debiia recibir.
+
+Es indudable que el costo por asilado, tratândose de Casas-Hogares debe ser superior al que coorresponde a los pabellones congregados, no solo en lo que respecta a la construcciôn del pabellôn en si, sino que influyen en ese costo el de las instalaciones especiales mencionadas y el de los servicios internos.
+
+Influyen también en esa diferencia factores de estética, pues si bien
+
+ya El costo por persona entre uno y otro sistema no es posible establecerlo con exactitud, sino para cada caso en particular, porque in¬ fluyen en él rnuchos factores que pueden hacerlo variar.
+
+ambos tipos de edificios deben ser tratados côn criterio econômico-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

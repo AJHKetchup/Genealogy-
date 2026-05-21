@@ -1,0 +1,144 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7555c6cf1959-P0473-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475.codex.md
+converted_sha256: 7555c6cf195959008cac94f5920001e3bed0b2e82935427bd9ba5c5cfd781a1b
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/manifest.json
+page_start: 473
+page_end: 473
+part: 1
+---
+
+# Page 473
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/manifest.json`
+- Source page: 473
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/page-images/page-0473.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Le Lieutenant-Colonel Vénizélos
+
+A-la délégation hellénique aussi.
+
+- M. Reisser
+2. (Tchécoslovaquie) :
+
+La délégation tchécoslovaque est également satisfaite.
+
+- M. Werner
+2. (C. Ii C. R.), rapporteur :
+
+Je voudrais me permettre de dire un mot en réponse à l'observation de la délégation allemande.
+
+L'important est, à mes yeux, de maintenir l'expression « sans témoin ». C'est un principe qui se trouve inscrit. Nous mettons « en règle générale » et « sans témoin ». Nous constatons qu'il peut y avoir des exceptions. Evidemment, lorsqu'on prescrit des exceptions, il peut surgir aussi des abus dans ces exceptions. Mais, pour ma part, je préfère le risque d'un ou deux abus dans l'exception au risque beaucoup plus grave de voir l'ensemble de la Convention ne pas être
+
+appliquée peut-être par la moitié des Etats ici représentés.
+
+J'ai le sentiment qu'en maintenant ce principe «sans témoin», tout en autorisant des exceptions, quand elles se trouveront justifiées, c'est une solution transactionnelle qui peut être
+
+acceptée par tous ceux qui ont à cœur Ip bien des prisonniers de guerre.
+
+Beaucoup de délégations auraient accepté le mot «librement », mais ce mot a l'inconvénient de supprimer le principe « sans témoin ». Je. voudrais le maintenir, mais autoriser simplement des exceptions. Je serais heureux si la délégation allemande voulait bien, elle qui a manifesté tant de fois sa générosité en faveur des prisonniers, accepter ce principe et autoriser ces ex¬ ceptions, pour faciliter l'adoption par la communauté générale des nations de cette Convention en faveur des prisonniers de guerre.
+
+## M. le Président
+
+:
+
+Est-ce que la délégation allemande maintient sa manière de voir ?
+
+- M. Mackeben (Allemagne)
+
+:
+
+Je propose de mettre aux voix tout d'abord l'insertion des mots « en règle générale ».
+
+## M. le Président :
+
+Sans et
+
+doute, nous allons procéder immédiatement à ce vote.
+
+A l'unanimité Vinsertion des mots « en règle générale » est adopté.
+
+## M. Mackeben (Allemagne)
+
+:
+
+Nous retirons notre proposition.
+
+L'article.86 est ainsi adopté.
+
+## M. Werner
+
+## (C.I.C.R.), rapporteur
+
+Nous devons maintenant
+
+:
+
+procéder à l'examen des dispositions finales.
+
+## M. le Président
+
+:
+
+M. Schindler a demandé la parole.
+
+## Le
+
+## Major Schindler (Suisse)
+
+:
+
+Nous n'avons pas encore voté sur l'ensemble de l'article 86.
+
+## M. le Président :
+
+Nous l'avions déjà accepté l'autre jour.
+
+## (Grèce) :
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

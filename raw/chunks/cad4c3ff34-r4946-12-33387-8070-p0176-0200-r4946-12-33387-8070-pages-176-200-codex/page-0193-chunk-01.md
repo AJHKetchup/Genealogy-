@@ -1,0 +1,92 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-630c8c0fb0a1-P0193-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200.codex.md
+converted_sha256: 630c8c0fb0a16dd9235542f89183ec25c523fa1a7193848fe8e23fae63cc5236
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json
+page_start: 193
+page_end: 193
+part: 1
+---
+
+# Page 193
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json`
+- Source page: 193
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/page-images/page-0193.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+de toda materia, se deduce que la energia tiene existencia independiente". Ademâs, si aceptamos que una velocidad al cuadrado es una energia (protoenergia), podemos matemâticamente, y haciendo in¬ tervenir otras hipôtesis acomodaticias, "notar que esta energia es de dos clases, llegando a establecer que sus composiciones producen los entes fundamentales de la Fisica:
+
+luz, materia y electricidad".
+
+Asi, pues, quien siguiendo las tendencias modernistas, llegue a las conclusiones matemâticas de que el espacio es energia y la fuente de toda energia, de que el tiempo es immanente al espacio, de que la ma¬ teria es un caso particular de la propagaciôn, y de que la electricidad es el caso lindante entre la propagaciôn y la materia (acabando por explicar la generaciôn de esa materia) -todo ello después de haberse fundado en la independencia del movimiento-, puede no liaberse equivocado en sus fôrmulas,
+
+pero, probablemente, estâ muy lejos de la verdad.
+
+PARMENIDES.-Claro que si, porque todo lo que me cuentas es un despropôsito. &lt;, Como podremos llegar a concebir el movimiento sin nada que se mueva? i Qué significado tiene eso de que el espacio es energia? ^Podran caber tales ideas en cabeza humana? Ciertamente al pensar en que estas cosas puedan decirse, llego a dudar de la bondad de las ma¬ temâticas como instrumento de conocimiento.
+
+CRISTIAS.-Se han invertido los papeles, porque cuando Timœus y yo hablamos de lo que es posible afirmar si se olvidan los dictados del buen sentido y las ensenanzas de la intuiciôn, tû te asombras de ello y reaccionas como lo he hecho yo al oir tus defensas del relativismo contra los fundamentos de la sana Filosofia, de aquella Filosofia que naciô con el genio de nuestros coetâneos de Grecia y que ha venido sirviendo hasta ahora de guia y sostén a la investigaciôn cientifica. Ciertamente, no he pretendido al impugnar tus afirmaciones en esta discusiôn promovida por Gorgias, hablar por hablar y desconocer gratuitamente los méritos que han adquirido quienes procuran descorrer el velo del misterio en estas épocas de tan encontradas aspiraciones. Esto séria un escepticismo injustificado y hasta cierto punto malévolo. Lo que he intentado al contradecirte es llevarte al mismo terreno en que se ha colocado Timœus con sus observaciones referentes a la capacidad cognoscitiva de nuestro entendimiento.
+
+Tanto los relativistas como los fisicos empenados en darnos una idea de la naturaleza en su concepciôn intima y de resolvernos en una formula la soluciôn del universo, son dignos de elogio y han procedido de buena fé. Por tanto, séria un triunfo apuntable a la civilizaciôn actual, el que llegaran a convencerse de que es preciso, en presencia de eso que se ha llamado : bancarrota de la Giencia, volver a los fundamentos del conocimiento, con ânimo desapercibido, sin prejuicios y con espiritu de sinceridad humilde.
+
+Tal vez al obrar asi vencieran esa ilusiôn subjetiva que los embarga por causa de una herencia men¬ tal adquirida en el ejercieio de la investigaciôn cien¬
+
+tifica por espacio de varias generaciones, para que, segûn lo ensena Bergson y nos lo ha explicado Ti¬ mœus, el sentido de lo real vuelva a prevalecer en el cerebro humano.
+
+GORGIAS.-Me has convencido por entero. Al oir las ûltimas exposiciones que habéis hecho, queridos amigos, he llegado a la conclusion de que hice mal al promover esta discusiôn ociosa, por cuanto nada hemos ganado en ella, como no ganaremos nada con esperarnos al ultimo descubrimiento que habrâ de dar en tierra con la ultima hipôtesis, segûn nos lo
+
+dijiste ;oh Cristias! en un principio.
+
+TIMŒUS.-Si hemos ganado al discutir sobre cuestiones tan interesantes, porque, al fin y a la postre, tornamos todos a la sana Filosofia de nuestros mayores, reconociendo, hasta los mâs reacios, como Parménides, que el camino que sigue la Ciencia contemporânea no parece el mâs apropiado para llegar a la verdad. Actualmente la Ciencia se empena en dilucidar lo mâs abstruso y dificil, aquello que estâ colocado fuera del limite de nuestra capacidad cog¬ noscitiva, y olvida mil fenômenos que constantemente nos asedian, contra los que tropezamos a diario, y de los cuales los sabios no se ocupan en lo mâs minimo, como si no existieran o carecieran de importancia. Poco entiendo de Fisica, pero no se me oculta que el noventa por ciento del mundo mate¬ rial que nos rodea. nos es totalmente desconocido. I Por qué, pues, encapricharse en descubrir lo infinitamente grande y lo infinitamente pequeno, cuan¬ do nadie ha dado aûn la explicaciôn mâs elemental relativa a la formaciôn de los cristales, a los complicados fenômenos piezoeléctricos, al papel de los dieléctricos en los campos electrostâticos segûn las ideas que sugiere el condensador de Franklin, al comportamiento misterioso de los electretos, o cuerpos que pueden retener indefinidamente una diferencia de potencial entre sus polos, al movimiento browniano, a infinidad de fenômenos de la electrolisis, a los hechos mâs elementales que tocan con la Mecânica molecular : la cohesiôn, la capilaridad, las reacciones elâticas, et sic de cœteris?
+
+Y lo peor de todo es que una vez abierta la brecha por donde empezaron a penetrar dentro de la investigaciôn cientifica, hipôtesis y teorias cada vez mâs atrevidas y desconcertantes, todo mundo se fue creyendo con el derecho de improvisar, de revolucionar, de imaginar cosas novisimas y de demoler lo antiguo sin reparos de ninguna especie, con el propôsito, al parecer, de hacerse fâcilmente a amplio renombre cientifico, como ocurre también en el campo de las artes y las letras donde el buen gusto ha sido en los tiempos modernos, victima de la audacia y de la falta de preparaciôn séria.
+
+Esto es lo que hemos venido a sacar en limpio después de esta discusiôn, que hemos desarrollado con sinceridad y sin prejuicios, pues no nos unen a los humanos de ahora vinculos de partidarismo, ni intereses bastardos.
+
+PARMENIDES. (Reflexionando serenamente). -Tal vez, tenéis razôn ; tal vez, si bien se mira, habria sido mejor para el progreso efectivo de la Cien-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

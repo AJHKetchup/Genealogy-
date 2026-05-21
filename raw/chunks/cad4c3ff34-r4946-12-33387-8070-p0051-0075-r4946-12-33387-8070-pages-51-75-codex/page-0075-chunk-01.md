@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-488991b97ec1-P0075-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75.codex.md
+converted_sha256: 488991b97ec11816b50496288cf40ed1d156bf35d8bb3a624180dabbd46664b7
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json
+page_start: 75
+page_end: 75
+part: 1
+---
+
+# Page 75
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json`
+- Source page: 75
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/page-images/page-0075.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+^ A~-
+
+^^-**-" i/-* "v-c-e\_- ^
+
+^
+
+^
+
+Jenu sache pas qu'il ait^eté donné ai»e date^ même approximative^ en ce qui concerne la première utilisa¬ tion de la coca^ bien que, d'après ce que l'on peut déduire ^ ^e. C-*■ f des statues de San Agustm, elle ait pa commence^1 vers le début de notre ère. Ce qu'il y a de sûr c'est que la propagation de la coceydu Pérou vers le nord^ a pu avoir lieu, si l'interprétation des statues de San Agustin est exacte, avec une série d'éléments culturels ^originsJv^ des Andes^ comme certaines catégories de céramique/, de temples, de statues de pierre et d'idées religieuses.
+
+D'après mes recherches^-les temples mégalithiques augustiniens , [endormes, comme les dolmens européens, dans un tumulus de tèrre, sont en rapport avec des constructions analogues de la civilisation de Chavin. Il en est de même pour certaines catégories de céramiquel Pour les statues, on peut rencontrer des parallèles, en totalité ou en partie, dans les civilisations de Chavin, Tiahuanaco, Protochimu et Protonazca, etc. Les rapports de la religion augustinienne avec neux du Pérou antique ont déjà été notés en 1929 par le Professeur K. Th. Preuss.
+
+La coca^en tant qu'élément culturel aussi bien que religieux et en tant que drogue dlnamogène (1)/ s'est répandue^dans toutes les civilisations préhistoriques colombiennes qui ont été en rapport avec celle de San
+
+Agustin,
+
+(1) Outre la bibliographie du Dr. Pardal sur la coca voir: Mortimer (W.Golden): Ooca, the divine plant of the Incas, New
+
+York, 1901..
+
+<!-- image -->
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0075/page-0075-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d546650d4a9a-P0279-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300.codex.md
+converted_sha256: d546650d4a9a6e5a2d2551b4de94507b6996ede1562b52786ba39ecb17f932b4
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/manifest.json
+page_start: 279
+page_end: 279
+part: 1
+---
+
+# Page 279
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/manifest.json`
+- Source page: 279
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/page-images/page-0279.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- Sr. RVedoya. - ^En que situation quedan lus menores que por el Côdigo Civil son menores adultos, es decir de 18 a 22 anos, respecto a quienes van a cuidar de ellos?
+- Dr. Durân. --Supongo que serâ como se establece en el actual re¬ gimen.
+- Dr- Coll. - En el régimen que se propone, se créa una defensoria para la capital, encargada de los menores de 18 a 22 anos, que no son muchos, y las otras defensorias, como ha dicho el Dr. Durân, cuando han empezado a entender en uno de esos casos prosiguen con el cuidado del menor, el que queda bajo su autoridad exclusiva y necesaria. Para los menores que no han estado a disposition del juez de menores antes de los 18
+- anos, queda la otra Defensoria para ocuparse de ellos.
+
+Dr. Arenaza. - Esa edad justamente es la mâs peligrosa, y en la que las estadisticas dan mayor cantidad de delitos.
+
+- Dr. Coll. --Para el derecho penal, dentro del côdigo ac¬ tual se consideran mayores de edad. Si estuviera en nosotros modificar el Côdigo Penal, hariamos una edad transitoria entre los 18 y 22 anos, como establece el Côdigo Penal Suizo; pero la competencia o ju¬ risdiction del tribunal de menores no se podrâ extender a mayor edad que los 18 anos.
+- Sr. Présidente. - Si no se hace uso de la palabra, se votarâ la segunda conclusion. - Aprobada.
+- Dr. Paz Anchorena. - La tercera base dice asi: "La libertad vigilada es una institution imprescindflble en la organization de los tribunales para menores. En la Capital Federal deben crearse cuatro juzgados para menores. Su personal debe ser especialmente elegido entre personas dedicadas a la materia y el médico que actûe en estos tribunales especializado en psicologia o medicina legal. Dos de las actuales Defensorias deberân pasar a formar parte intégrante de los Juzgados para menores y los Defensores desempenarân la direction de la libertad vigilada y resolverân en todas las cuestiones que con ulterioridad al pronunciamiento requieran la atenciôn del juzgado, sometiendo al Juez las decisiones
+- legales".
+- Sr. Présidente. - En consideration la base leida. Si no hay oposiciôn se darà
+- por aprobada. Aprobada.
+- Dr. Paz Anchorena. - Cuarta conclusion: "En las Capitales de Provincia y ciudades principales de los Departamentos judiciales se crearân tribunales
+- especiales para menores y los Jueces de éstos designarân
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

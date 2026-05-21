@@ -1,0 +1,168 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-630c8c0fb0a1-P0200-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200.codex.md
+converted_sha256: 630c8c0fb0a16dd9235542f89183ec25c523fa1a7193848fe8e23fae63cc5236
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json
+page_start: 200
+page_end: 200
+part: 1
+---
+
+# Page 200
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json`
+- Source page: 200
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/page-images/page-0200.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Esta hermosa tomineja suele buscar su alimento en las cimas de los ârboles mas altos. Su nido es un cono invertido muy alargado, formado de vello rojizo y disimulado hâbilmente con bojas secas y briznas de plantas pegadas con hilos de telaranas. Dispersiôn geogrâfica: zona tropical de Colombia, de Panama liasta
+
+Chiriqui, y del oeste del Ecuador.
+
+## CHLOROSTILBON GIBSONI (Fraser)
+
+Trochilus gibsoni Fraser, P. Z. S., 1840, p. 17 (ninguna localidad senalada = Colombia ; tipo basado sobre una bembra ; el macho = T. angustipennis Fra¬ ser, 1. c., p. 18.
+
+Procedencia: Rio Coello.
+
+Uno de nuestros ejemplares présenta el fenômeno interesante del melanismo total. La especie es propia de Colombia.
+
+## CHLOROSTILBON HMBERLINI (Reichenbach)
+
+Chlorestes hœbcrlini Reichenbach, Hand. Orn. Troch. Enum., 1855, p. 4, pl. 708, figs. 4578-80 (Co¬ lombia).
+
+Dos ejemplares, cogidos junto al i*io Tâchira, a unos cuantos kilômetros de la ciudad de Cucuta. La especie habita en el norte de Colombia y en el extremo noroeste de Venezuela.
+
+## (JIILOROSTILBON MELANORHYNCHUS Gould
+
+Chlorostilbon melanorhynchus Gould, P. Z. S., 1860, p. 308 (vecindad de Quito).
+
+Procedencia : Medellin.
+
+Es poco timida; visita con asiduidad las flores de los jardines y solares, y cuando se ha familiarizado con un lugar, vuelve alli a cortos intervalos y se acerca confiadamente hasta muy corta distancia de las personas que no la asustan. Movida por la curiosidad, pénétra a veces en los aposentos donde haya flores expuestas y llega pronto hasta ellas. Un Jueves Santo, en dos momentos de mucha concurrencia, observé la presencia de esta tomineja en una iglesia de Medellin; el avecilla visité las flo¬ res que adornaban el Monumento, en medio de las luces encendidas, y su presencia fue notada por muchisimas personas. El nido de este troquilido se compone principalmente de lana del Bombax ceiba, y estâ cubierto exterionnente con liojitas y briznas de musgo.
+
+## CHLOROSTILBON MELANORHYNCHUS PUMILUS Gould
+
+Chlorostilbon pumilus Gould, Ann. &amp; Mag. Nat.
+
+Hist., IX, 1872, p. 195 (Citado, Ecuador).
+
+Un ejemplar de Tambo (Cauca).
+
+La validez de esta raza es discutida. Se distingue de la especie tipica principalmente por sus dimensiones algo reducidas.
+
+## CHLOROSTILBON POORTMANI POORTMANI (Bourcier &amp; Mulsant)
+
+Ornismya poortmani Bourcier &amp; Mulsant, Ann. Sc. Phys. et Nat. Lyon, VI, 1843, p. 39 (Colombia).
+
+Procedencia: Quetame, Villavicencio, Rio Casanare.
+
+## THALURANIA COLOMBICA COLOMBICA
+
+(Bourcier). Plancha I, N9 3.
+
+Ornismya colombaca Bourcier, Rev. Zool., 1843, p. 2 (Colombia).
+
+Procedencia: La Mesa, Fusagasugâ, Icononzo.
+
+Habita en los Andes de Colombia y de Venezue¬ la (San Cristobal), y en el este de Panamâ. Los materiales que recoge para construir su nido son: algodon, fibras vegetales, escamas de helechos y pequenos liquenes.
+
+## THALURANIA NIGROFASCIATA (Gould)
+
+Trochilus? nigrofasciata Gould, P. Z. S., 1846, p. 89
+
+(Rio Negro).
+
+Nuestros ejemplares son todos de Villavicencio. La especie se encuentra en las regiones tropicales de Colombia, Ecuador y Perû, que estân situadas al este de la Cordillera de los Andes, y vive también en el noroeste del Brasil. El nido de este troquilido tiene forma obcônica y se compone de algodôn, briz¬ nas de
+
+musgo y liquenes blancos.
+
+## CHALYBURA BUFFONI BUFFONI (Lesson)
+
+Trochilus buffoni Lesson, Hist. Nat. Troch., 1832, p. 31, pl. V ("Brésil" = region de Bogotâ).
+
+Procedencia : Choachi, l'aime, Sasaima, Guane, Rio Coello.
+
+La especie es propia de la avifauna colombiana; habita en la zona tropical y en los bordes de la sub¬ tropical, desde la costa del Pacifico hasta la vertiente oriental de la Cordillera de Bogotâ. Dos ma¬ chos de la regiôn de Cucuta son, al parecer, inter¬ mediaries entre la especie tipica y la subespecie Chalybura buffoni œneicauda (Lawrence) ; esta ûltima ocupa la région de Santa Marta, el norte de Venezuela y el este de Panamâ.
+
+## CHALYBURA CAERULEOGASTER (Gould)
+
+Trochilus (Clauds?) cœruleogaster Gould, P. Z.
+
+S., 1847, p. 96 (Nueva Granada).
+
+Représenta la especie Chalybura buffoni buffoni al este de la Cordillera de Bogotâ. Nuestros ejem¬ plares son de Villavicencio, Mâmbita y Rio Casanare.
+
+## COLIBRI DELPHINE (Lesson)
+
+Ornismya delphinœ Lesson, Rev. Zool., 1839, p. 44
+
+(localidad desconocida).
+
+Procedencia:
+
+Fusagasugâ, Mâmbita.
+
+Comun a la América Central y a Colombia, Ecua¬ dor, Perû, Venezuela y las Guayanas. Habita en la zona tropical, pero llega, a veces, hasta los bordes de la
+
+zona templada.
+
+## COLIBRI CYANOTICS
+
+## Plancha
+
+## (Bourcier &amp; Mulsant) I, N9 4.
+
+Trochilus cyanotus Bourcier &amp; Mulsant, Ann. Sc. Phys. et Nat. Lyon, VI, 1843, p. 41 (Caracas, Vene¬ zuela) .
+
+Procedencia: Fémeque, Sonsôn, Santa Elena (An-
+
+tioquia).
+
+La presencia o ausencia del tinte morado o purpûreo sobre el abdomen de esta especie, segun Chap-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

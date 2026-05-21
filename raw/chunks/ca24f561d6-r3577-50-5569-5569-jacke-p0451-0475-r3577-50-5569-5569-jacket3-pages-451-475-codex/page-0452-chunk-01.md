@@ -1,0 +1,190 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7555c6cf1959-P0452-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475.codex.md
+converted_sha256: 7555c6cf195959008cac94f5920001e3bed0b2e82935427bd9ba5c5cfd781a1b
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/manifest.json
+page_start: 452
+page_end: 452
+part: 1
+---
+
+# Page 452
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/manifest.json`
+- Source page: 452
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/page-images/page-0452.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## M. van Slooten (Pays-Bas) :
+
+L'honorable délégué de la Grande-Bretagne a laissé entendre qu'il n'a pas été renseigné exac¬ tement sur les raisons qui m'ont amené à déclarer que l'article 8, dernier alinéa, est superflu. C'est précisément la réserve faite à l'article premier, alinéa 2, que vous venez d'adopter qui en est la cause. L'article 8 stipule que la communication des adresses des prisonniers de guerre ne sera applicable à l'a guerre maritime que sous la réserve faite à l'article premier. De cette réserve il résulte que les belligérants n'ont pas le devoir de faire connaître les adresses des prisonniers de guerre dès l'instant où ceux-ci ont mis pied à terre, mais seulement au moment où les
+
+prisonniers sont internés dans un camp.
+
+C'est la raison qui est à la base de ma proposition.
+
+## M.
+
+## Werner (C.I.C.R.), rapporteur :
+
+Je ne sais pas si M. van Slooten fait une véritable proposition de suppression. J'aurais compris cette proposition,si la suggestion française avait été écartée. Nous nous serions peutêtre trouvés dans une situation logique ; mais, la proposition française ayant été acceptée, nous avons tous eu le sentiment que le point en discussion était la situation du prisonnier de
+
+guerre à partir du moment où il était débarqué jusqu'au moment où il parvenait au camp.
+
+Y a-t-il vraiment une objection à ce que les prisonniers puissent envoyer une carte postale qui ne contiendra pas d'autre indication que celle qu'ils sont encore en vie ? Y a-t-il, d'autre part, une objection à ce que ces cartes postales soient mises à la poste par les soins de la Puis¬ sance détentrice dès le moment où le prisonnier est arrivé au port ? Faut-il attendre encore quelques jours jusqu'au moment où il sera arrivé dans un camp ? 11 me semble qu'il n'y a aucune raison militaire quelconque qui s'oppose à l'envoi immédiat de ces nouvelles. S'il y en avait, il faudrait naturellement le dire. Il semble qu'il yen a d'autant moins que la Puissance détentrice pourrait toujours exercer un contrôle.
+
+La délégation japonaise voulait avant tout éviter que des indiscrétions en ce qui concerne la base navale puissent se produire, indiscrétions provenant d'inspecteurs appartenant à des pays neutres, si qualifiés soient-ils. C'est ainsi que nous avons tous compris l'objection japonaise.
+
+Ne vaut-il pas mieux maintenir cette disposition qui permet de rassurer les familles, surtout lorsque le prisonnier a été longtemps en mer ?
+
+C'est pourquoi je me demande s'il n'y aurait pas lieu de maintenir le dernier alinéa de l'article 8, comme le demande du reste la
+
+## M. le Président :
+
+Est-ce que M, van Slooten, après avoir entendu les explications de M. le rapporteur, persiste dans son désir de biffer le dernier alinéa de l'article 8 ?
+
+## M. van Slooten (Pays-Bas) :
+
+Les observations de M. Werner ont pu faire supposer qu'il s'agit à l'article 8 d'un droit des prisonniers de guerre, tandis que les observations présentées par M. le délégué de la GrandeBretagne indiquent qu'il s'agit ici d'une réserve faite par le gouvernement au sujet de la commu¬
+
+nication des adresses, ce qui est une chose bien différente.
+
+Si, par suite de l'adoption de ma proposition, les prisonniers étaient empêchés de commu¬ niquer leur adresse en arrivant au port, je n'aurais pas de raison pour insister sur ma propo¬ sition. Si telle est bien l'interprétation que la Conférence veut donner à l'article, je crois qu'il est utile de retirer
+
+ma proposition.
+
+## M. Werner (C.I.C.R.), rapporteur :
+
+L'article 8 reste sans changement.
+
+L'Article premier est adopté.
+
+## M. Werner
+
+## (C.I.C.R.), rapporteur :
+
+Une discussion s'est déjà produite à propos de cet article au cours de la séance du 5 juillet, sauf erreur.
+
+Je n'ai pas d'autres explications à donner que celles que j'ai fournies à ce moment-là.
+
+délégation de la Grande-Bretagne.
+
+Article 2.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 9
+
+## Layout And Reading Order
+The page presents a transcript of a meeting, formatted as a single column of text. It includes a header with the meeting date and a page number in the top right corner. The main content consists of speaker names (with country/role in parentheses) followed by their statements.
+
+## Literal Transcription
+SÉANCE DU 23 JUILLET 1929
+9
+
+**M. Amagi (Japon) :**
+A l'alinéa 3 de cet article, il conviendrait de préciser la portée de cette disposition et de dire :
+« Les prisonniers de guerre ne seront jamais l'objet de mesures de représailles ».
+
+**Le Lieutenant-Colonel Holt-Wilson (Grande-Bretagne). Traduction :**
+J'appuie la proposition japonaise. Les termes de l'amendement présenté par le Japon
+sont, à mon avis, préférables aux termes généraux employés dans le projet.
+
+**M. Werner (C.I.C.R.), rapporteur :**
+Dans l'avant-projet qui a servi de base à nos délibérations, le texte proposé était : « Les
+mesures de représailles à leur égard sont interdites ». Ce texte couvre entièrement la proposition
+japonaise qui vient de nous être présentée : « Les prisonniers de guerre ne seront jamais l'objet
+de mesures de représailles ».
+C'est à la demande de certaines délégations que les mots « à leur égard » ont été supprimés.
+La question se pose de savoir si nous voulons rétablir ces mots « à leur égard » ou accepter
+la proposition japonaise qui n'est qu'un amendement de rédaction, le fond étant absolument
+identique. Il faut que la commission sache ce qu'elle veut faire.
+
+**M. de Ruelle (Belgique) :**
+Il serait préférable, ainsi que l'a fait remarquer la délégation de la Grande-Bretagne d'en
+revenir au texte primitif. Les représailles ne sont pas recommandées en droit des gens, elles sont
+admises avec un certain regret. Nous n'avons pas qualité pour les condamner en général ; nous
+pouvons le faire à l'égard des prisonniers, c'est pourquoi je pense que la précision pourrait
+avoir son utilité.
+
+**M. Wilson (Amérique) :**
+Je me rallie à l'opinion que vient d'exprimer M. de Ruelle.
+
+**M. Werner (C.I.C.R.), rapporteur :**
+Il ne reste plus alors qu'une question de rédaction ; faut-il accepter la rédaction japonaise :
+« Les prisonniers ne seront jamais l'objet de mesures de représailles », ou faut-il dire : « Les
+mesures de représailles à leur égard sont interdites » ?
+
+**M. Wilson (Amérique) :**
+Je suis tout à fait disposé à laisser au comité de rédaction le soin de choisir.
+
+**Le Lieutenant-Colonel Holt-Wilson (Grande-Bretagne). Traduction :**
+Quant à moi, je préfère le texte proposé par M. le rapporteur.
+
+**Le Colonel Vertejano (Roumanie) :**
+Je me rallie à la proposition japonaise.
+
+**M. Werner (C.I.C.R.), rapporteur :**
+Est-ce que peut-être la délégation japonaise se rallie au texte primitif ?
+
+**M. Motono (Japon) :**
+Le sens est absolument le même ; par conséquent, nous sommes disposés à l'accepter.
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+```

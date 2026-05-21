@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6e17f9e55072-P0601-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625.codex.md
+converted_sha256: 6e17f9e550726dd5ad122daa3896597dabba267a8495932a68ca116719d764f8
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/manifest.json
+page_start: 601
+page_end: 601
+part: 1
+---
+
+# Page 601
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/manifest.json`
+- Source page: 601
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/page-images/page-0601.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+si a si le place ; y si ese voto fuese requerido para el nombramiento de comisiones, un miembro cualquiera podria impedir que se obtenga la informaciôn ne'cesaria para un debate inteligente.
+
+El objeto perseguido al insistir en la unanimidad tratândose de otros asuntos, fué en realidad el de aplacar la alarma de aquellas personas que no comprendian que los ôrganos de la liga no poseern poder substancial alguno para dirigiv la conducta de los miembros. Mas la disposition aludida no es en modo alguno inconsistente con el principio sobre el cual se basa! la liga : la acciôn automâtica por parte de los miembros en asuntos especificamente enumerados en el mismo pacto. Tampoco impide la reunion de conferencias cuyo fin sea concertar la ac¬ ciôn voluntaria de todos los miembros, y para alcanzar este objetivo el voto una¬
+
+nime no es impropio.
+
+Serâ quizâ oportuno explicar en este lugar con mayor precision lo que ha de entenderse por acciôn automâtica de parte de un miembro de la liga. Trâtase de acciôn automâtica tan solo en lo que concierne a la liga o a sus ôrganos, no en lo que respecta a las ramas constitucionales de su propio gobierno. Segün el articulo XVI, por ejemplo, si una naciôn recurre a la guerra contra otra naciôn sin respetar lo convenido en el pacto, los otros miembros de la liga estân de acuerdo en sujetarla a la ruptura de toda relaciôn comercial y financiera, y en prohibir todo intercambio entre sus ciudadanos y los ciudadanos del estado infractor. Esta obligaciôn es automâtica en el sentido de que es directa e inrnediata, totalmente independiente de toda intervenciôn de un ôrgano cualquiera de la liga. No es automâtica en el sentido de que la ruptura de relaciones tenga lugar automâticamente, sin acciôn de ninguna especie por parte de los gobiernos de los diversos miembros de la liga. Ni 'détermina tampoco que rama de un go¬ bierno nacional tendrâ el poder de hacerle surtir efecto. Ello dépende de la constituciôn del estado. En el caso nuestro requeriria legislaciôn, y por' lo tanto in¬ tervenciôn del congreso, pero el congreso estâ en la obligaciôn moral; como la que impone todo tratado que compromete la buena fe de la naciôn, de sancionar la
+
+legislaciôn requerida.
+
+La liga necesitarâ, de toda evidencia, un personal considerable para mantener una voluminosa correspondence entre los miembros, para registrar las actas de los diferentes ôrganos, para reunir la informaciôn que puedan requérir, y para asesorar a los diversos comités y comisiones permanentes. En realidad la tarea de los représentantes y el funcionamiento de la organizaciôn serân grandemente facilitados por la eficiencia de tal secretaria y de su jefe. Esto es tanto mas cierto cuanto que en los gobiernos populares - y no se cuenta con que otra clase de gobiernos sean miembros de la liga - los hombres que ocupan al¬ tos cargos gubernativos cambian frecuentemente, y por lo tanto los représentan¬ tes en el consejo y en la asamblea no tienen probalidades de permanecer en su puesto suficiente tiempo como para estar del todo familiarizados con las transacciones anteriores. Para muchas informaciones deberân depender de la secretaria.
+
+Por consiguiente, para que el secretario general y sus subordinados pue¬ dan prestar servicios eficaces, deberân ser permanentes, plenamente versados en la historia y en el estado actual de las relaciones internacionales, mâs no personajes politicos. Su deber es servir la liga, no dirigirla ; y dada la gran influencia que un experto permanente, con los detalles de todos los asuntos al alcance de la mano, puede ejercer sobre un cuerpo transitorio de superiores politicos, es de la înayor importancia que esté tan libre como sea posible de prejuicios y de môviles politicos. Su objeto ha de ser el éxito de la liga como instituciôn, no el interés especial de un pais determinado. Bien administrada, la secretaria puede llegar a ser uno de los ôrganos mas importantes y benéficos de la liga.
+
+El articulo VII necesita pocos comentarios. Confiere a los delegados al
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

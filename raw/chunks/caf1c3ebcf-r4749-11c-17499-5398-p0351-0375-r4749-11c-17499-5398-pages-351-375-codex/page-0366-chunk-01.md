@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-867bfa591ea9-P0366-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375.codex.md
+converted_sha256: 867bfa591ea91f13451ae0a56708a9a321a153444ae0a568c1411ee6b08808ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json
+page_start: 366
+page_end: 366
+part: 1
+---
+
+# Page 366
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json`
+- Source page: 366
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/page-images/page-0366.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+co éxito la iniciativa de ir implantando en la medida posible sucesivos establecimientos para la educaciôn de la infancia desamparada.
+
+EU actual Jefe, Coronel Sr. Luis J. Garcia, comprendiendo que la acciôn oficial debe predicar con el ejemplo, comenzô por orientar la dependencia de policla para el alojamiento de ninos abandonados en el criterio moderno que suprime los asilos de grau capacidad colectiva y los substituye por "hogares" en los que el menor dentro de un numé¬ ro preciso de companeros, encuentra. junto con un favorable régimen, el afecto y el calor que tanto necesita por ausencia de quienes deben prodigàrselos.
+
+Reemplazô el Senor Jefe el local del anexo de la Alcaidia de Menores ubicado en una casa nada adecuada, sin sol ni alegria, por una amplia quinta, con una abundante arboleda, en la que la ociosidad que reinaba en aquél se convirtiô en actividad plena, con pequenos talleres allernados con aplicaciones a toda clase de déportés, scoutismo, que convierten la casa en un hospitalario centro de educaciôn fisica y mo¬ ral en la que el contento brilla por todas partes. El primer aniversario de esta innovaciôn acaba de cumplirse en forma auspiciosa. En el tren de mejoramiento en que la Jefatura se halla empenada. se trasladarâ el Hogar Alberdi, dentro de quince dias, a una casa quinta aùn mâs amplia, con mejor parque, con mâs grande capacidad para el noble fin
+
+perseguido.
+
+Prosiguiendo su plan el Coronel Garcia, busca la forma de instalar una casa de ese género para mujeres, - en las que el problema de la orfandad causa aun mâs estragos - a fin de complementar la acciôn de otras Instituciones oficiales que no dan abasto para atender las consecuencias del problema.
+
+Asimismo, el Senor Jefe incita a vecindarios caracterizados para proseguir la labor, roediante la implantaciôn de hogares, para contar, siquiera, con uno en cada circunscripciôn policial, que estâ dividida en cuatro zonas y la idea emprendida se va abriendo camino con niuy halagiienas esperanzas.
+
+El ambiente que se habia formado en la Policia en beneficio de la ninez, estaba latente cuando se discutia la ley Agote. Su promulgaciôn fué recibida con beneplâcito y se dedicô a cumplimentar con sin¬ gular celo la deiicada funciôn que le confiaba el texto legal y su régla mentaciôn dictada por la Excma. Câmara de Apelaciones en lo Crimi¬ nal y Correecional. La Alcaidaespecial que se mandaba habilitar, fué emplazada en el mejor edificio fiscal que ocupaban las Comisarias Sec-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

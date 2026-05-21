@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-630c8c0fb0a1-P0191-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200.codex.md
+converted_sha256: 630c8c0fb0a16dd9235542f89183ec25c523fa1a7193848fe8e23fae63cc5236
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json
+page_start: 191
+page_end: 191
+part: 1
+---
+
+# Page 191
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json`
+- Source page: 191
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/page-images/page-0191.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+que procédé de las estrellas no tienen por qué sel¬ las mismas que las liechas en la superficie terrestre. Evidentemente este raciocinio parece muy puesto en razôn, y por ello me siento, al considerar estas cosas de la Astronomia moderna, tentado a pensar con el
+
+vulgo :
+
+"El mentir de las estrellas - es un seguro men¬ tir ; - porque ninguno ha de ir - a preguntârselo a ellas".
+
+CRISTIAS.-Has caido en tus propias redes, o mejor, los relativistas, tus amigos, que pusieron los fundamentos para este desquiciamiento de ideas, son hoy vietimas de su propio invento: y asi, ni tû, ni ellos tenéis derecho para asombraros de nada. O, si no, dime: ^quienes fueron los inspiradores, mâs o menos remotos, de eso que has llamado monstruosa pesadilla? Einstein y sus seguidores. Para probarte tal aserto, me basta con leerte el siguiente pârrafo :
+
+"La ultima hipôtesis de los astrofisicos modernos procura resolver la contradicciôn entre lo finito y lo infinito apelando al universo curvo. Segûn ellos, curvatura y esfericidad son una ley de la naturaleza, y asi el universo es una inmensa estera en donde toda radiaciôn se propaga encurvândose segûn cierta curvatura, y en donde el rayo luminoso que nos viene. de las nebulosas distantes, no es una linea recta sino una curva. Asi, se concluye de ésto que la luz que nos llega de una estrella, alcanza a la tierra procediendo de dos opuestas direcciones: por un lado ella sigue la curva directa, y por el otro recorre el circuito completo de la estera". ("In con¬ sequence, light from a star ought to arrive at the earth from two opposite sides, from one side by the direct curve and from the other by making the com¬
+
+plete circuit of the sphere") (*).
+
+Como ves, caro Parménides, los principios relati¬ vistas que has defendido con tânto calor en esta discusiôn, si van dando frutos sospechosos y que a ti mismo acaban por repugnar. Porque si aceptamos que la luz no se propaga en linea recta, si damos té a las Geometrias no euclideas, si raciocinamos sobre la estera confundiéndola con el piano, si creemos en que el tiempo es una cuarta dimension del espacio, si nos confirmamos en el postulado de Einstein, si damos peso creciente a las interpretaciones que del espectro hacen los fisicos y que cada dia se tornan mâs complicadas y confusas, si pensamos con Plank, si aceptamos las conclusiones de Dirac relativas a la Mecânica ondulatoria, si llegamos a creer en la posibilidad de una energia negativa, y si, en fin, rechazamos de piano toda la Mecânica clâsica, es forzoso que terminemos en el universo fantasma de que has hablado y que te parece una monstruosa pesadilla.
+
+TIMŒU8.-Y todo esto -después de las admi¬ rables conquistas de la Ciencia experimental que entusiasman a Gorgias y de la sintesis matemâtica de tan prodigioso alcance que ha defendido Parmé¬ nides- para llegar al mismo punto de donde partiô
+
+(♦) "The Universe and matter"-Louis Jaray. Annual Report of the Smithsonian Institution. 1938.
+
+la escuela eleâtica, con menos pretensiones y mejor concepto filosôfico! Porque después de la obra realizada por los sabios durante los liltimos treinta anos para modificar completamente nuestra concepciôn de la luz, de la materia, de la energia, del uni¬ verso entero, lo infinitamente grande y lo infinitamente pequeno continûan siendo tan inconmensurables como en un principio, y lo que tue misterio in¬ sondable para nuestros coetâneos de las escuelas filosôficas griegas continûa siéndolo para los cientificos de ûltima hora, que, en realidad de verdad, solo han logrado crear mâs misterios en lo microscôpico y en lo macroscôpico, eonfundiendo, de paso, todas nuestras ideas relativas al determinismo de la Cien¬ cia clâsica, a la conservaciôn de la materia y de la energia, a lo continuo y a lo discontinuo, al tiempo y al espacio.
+
+Ya os he dicho, caros amigos, que al oir vuestras interesantes disertaciones he entendido muy poco de ellas, porque me siento, sin duda, mâs aferra do a nuestro pasado claro y luminoso, a nuestra lôgica ateniense y a las ensenanzas de nuestro maestro, que vosotros, y porque cuando os he oido hablar he reflexionado mâs sobre las posibilidades de nuestro entendimiento, que sobre las mismas doctrinas que habéis expuesto. Asi, no me asombran las contradieciones que ha anotado Cristias en el aparentemente armonioso edificio de la Ciencia contemporânea, ni me sorprenden las conclusiones que han acabado por inquietar a Parménides, ni me entusiasman los progresos técnicos que han deslumbrado a Gorgias. Mientras vosotros hablâis exponiendo cosas muy sabias y sutiles yo pienso en los alcances de la razôn humana que encuentro hoy tocada de necio orgullo. Segûn oi a Parménides, las modernas teorias cientifico-filosôficas pretenden haber hallado la fôrmula feliz que nos interpréta el universo; pero yo, informado en las ensenanzas de antano y en la firme creencia de que esa razôn es naturalmente limitada, me atrevo a pensar con Laplace : "que una inteligencia que, para un instante dado, conociera todas las fuerzas de que estâ animada la naturaleza y la situaciôn respectiva de los seres que la componen, si, desde luego fuese ella suficientemente vasta para someter todos estos datos al Anâlisis, abrazaria en la misma fôrmula los movimientos de los cuerpos mâs grandes del universo y los del mâs leve âtomo : nada séria desconocido para ella, y asi el porvenir como el pasado estarian présentes a sus ojos". ("TJne in¬ telligence qui, pour un instant donné, connaîtrait toutes les forces dont la nature este animée et la situation respective des êtres qui la composent, si d'ailleurs elle était assez vaste pour soumettre ces données à l'Analyse, embrasserait dans la même for¬ mule les mouvements des plus grands corps de l'uni¬ vers et ceux du plus léger atome: rien ne serait in¬ certain pour elle et l'avenir, comme le passé, serait présent a ses yeux").
+
+No sé qué penséis vosotros de la claridad mental de Laplace, pero, en todo caso, me atrevo a creer que esa inteligencia, de que nos habla uno de los mâs grandes matemâticos de todos los tiempos, no
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

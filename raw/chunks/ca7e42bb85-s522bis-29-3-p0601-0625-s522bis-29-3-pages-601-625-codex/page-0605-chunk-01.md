@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6e17f9e55072-P0605-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625.codex.md
+converted_sha256: 6e17f9e550726dd5ad122daa3896597dabba267a8495932a68ca116719d764f8
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/manifest.json
+page_start: 605
+page_end: 605
+part: 1
+---
+
+# Page 605
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/manifest.json`
+- Source page: 605
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/page-images/page-0605.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+quien no reconozca que ella es un sujeto muy apropiado, precisamenite en este tratado de cual el pacto de la liga es una parte, con respecta a la fijaciôn del armamento de Alemania. Mas aun, durante cien aiïos ha habido un tratado en¬ tre nosotros y la Gran Bretana, por el cual convinimos en limitar nuestro ar¬ mamento, convenio que hemos observado religiosamente. En 1817, en efecto, nos comprometimos mûtuamente con la Gran Bretana a no tener armamentos navales sobre Los Grandes Lagos que nos separan del Cânada, y dicho tratado esta aün en vigor. Séria dificil imaginar un precedente mâs convincente que ese. En el Tratado Clayton-Bulyer de 1850, relative a la construction de un ca¬ nal en la America Central.de un océano a otro, estipulamos mûtuamente que, una vez construido el canal, no séria fortificado. Nuestro derecho constitutional de limitar armamentos en virtud de un tratado, résulta pues indiscutible si se toman en cuenta los precedentes y la autoridad judicial. Igualmente claro es nuestro deber de unirnos a la familia de las naciones civilizadas en un acuerdo semejante, para poner punto final'a la espantosa carrera de armamentos, la cual, de no ser detenida, con seguridad harâ padecer nuevamente al mundo todos los males
+
+que acarrea.
+
+Bl Principio por el cual hemos luchado
+
+## articuIvO X. (IV. Taft)
+
+El articulo X de la constitution de la liga estipula lo siguiente: 'Los miembros de la Liga se obligan a respetar y preservar contra agresiones exteriores la integridad territorial y la independencia politica existent® de todos los miembros de la liga. En casoi de alguna agresiôn o de una amenaza o peligro de tal agresiôn, el consejo aconsejarâ los rnedios por los cual es se darâ cumplimiento a dicha obligation.'
+
+La ley de la liga,, con la sanciôn del poder de la liga, prohibe asi la vio¬ lation del mandamiento internacional. 'No emplearâs la fuerza en robar.' Es la encamaciôn del principio para cuyo mantenimiento entramos en la guerra y en ella combatimos. Es la respuesta a la doctrina alemana, proclamada por los filôsofos, los escritores militares y la politica declarada de aquella nation, de que 'la fuerza haoe el derecho'. Es la negaciôn del principio que Alemania expresô como sintesis de todos sus impériales propôsitos: que la conquista por la fuerza es esencial para el progreso del mundo, y que Alemania era para ese fin el ins¬ trumenta de Dios.
+
+Se nos hace la objeciôn de que los Estados Unidos no deberian comprometerse a no extender su benéfica action civilizadora por medio de la conquista. Tales adversaries sostienen que de ese modo los Estados Unidos han extendido su util dominio hasta las présentes fronteras de Méjico y hasta el océano Pacifico. Si este argumenta es vâlido, entonces los Estados Unidos no deberian ciertamente entrar eii la liga. Si nos inclinamos ante él, jaimâs deberiamos haber participado en la guerra contra Alemania. Dicho argumenta no se liiferencia en el mâs mînimo grado del de los filôsofos y militares alemanes, cuyos pro¬ pôsitos Alemania luchaba por hacer triunfar en la guerra. Si la expansion y el progreso de la civilizaciôn dépende de la guerra en su forma actual, que implica para el porvenir lo que prâcticamente es un suicidio mundial, entonces sin duda al¬ guna hâllase la humanidad en mala situaciôn. Los que apoyan a la Liga pueden sin dificultad dejar librado al pueblo de los Estados Unidos y a los pueblos del mundo el decidir si prefieren o no un métoto mâs lento de mejorar la civilizaciôn cristiana, al método que consiste en la destrucciôn cruel de una mitad del mundo para permitir que la otra siga viviendo tranquila.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,120 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7555c6cf1959-P0459-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475.codex.md
+converted_sha256: 7555c6cf195959008cac94f5920001e3bed0b2e82935427bd9ba5c5cfd781a1b
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/manifest.json
+page_start: 459
+page_end: 459
+part: 1
+---
+
+# Page 459
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/manifest.json`
+- Source page: 459
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0451-0475-r3577-50-5569-5569-jacket3-pages-451-475/page-images/page-0459.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+S'il est dit dans la première phrase de l'article 3 que les prisonniers ont droit .au respect de leur honneur, ma proposition rentre bien dans le cadre de cet article. On pourrait lui.donner une rédaction différente afin d'indiquer cette relation, mais le texte en serait peut-être moins clair. Il en serait ainsi si l'on disait, par exemple, que les belligérants s'abstiendront de tout
+
+acte tendant à manquer de respect à l'honneur des prisonniers.
+
+^ Au contraire la proposition que j'ai l'honneur de vous faire est parfaitement claire, et si l'on trouve qu'elle ne l'est pas, je vous prie de me demander des explications, que je suis prêt à donner.
+
+## M. Riddell (Canada)
+
+:
+
+Je demande la parole pour une question d'ordre. En raison du long débat qui a eu lieu et du nombre des orateurs qui y ont pris part, je demande que l'on passe au vote.
+
+## M. le Président :
+
+Vous avez entendu la proposition roumaine. Je vous invite à vous prononcer à son Il est
+
+sujet. procédé au vote par assis et' levé.
+
+La proposition roumaine est écartée par 18 voix contre 12.
+
+L'article 3 est adopté.
+
+## Le Colonel Vertejano (Roumanie) :
+
+Je demande la parole pour faire une déclaration.
+
+M. le Président, Messieurs, la délégation roumaine, à son grand regret, se voit obligée de formuler les plus sérieuses réserves, au nom de son Gouvernement, au sujet de la .suppression d'un principe aussi important. Elle déclare en même temps, au nom de son Gouvernement, que dans le cas d'une guerre, le Gouvernement roumain s'abstiendra, sous réserve de réciprocité, de toute œuvre de propagande à l'égard des prisonniers et exprime l'espoir que malgré l'ex¬ clusion d'un point aussi important de la Convention le même traitement sera accordé à ses
+
+propres soldats tombés au pouvoir de l'ennemi. ·
+
+Article 4.
+
+## M. de Ruelle
+
+## (Belgique)
+
+:
+
+A différentes reprises nous avons, au cours de cette discussion, employé le terme de « Puis¬ sance détentrice » pour indiquer ce que nous avions l'habitude de qualifier d'« Etat capteur ». C'est la première fois que nous rencontrons cette expression, je tenais donc à vous la signaler.
+
+L'article
+
+4 est adopté.
+
+## TITRE II.
+
+## De la capture.
+
+Article 3.
+
+## M. Werner (C.I.C.R.), rapporteur :
+
+Dans le premier alinéa, vous trouvez la mention « ou bien son numéro matricule ». Cette
+
+adjonction a été faite à la demande de la délégation de la Grande-Bretagne, si je ne fais erreur.
+
+Au troisième alinéa, vous avez une disposition importante, en ce sens qu'elle vient com¬ pléter le Règlement de la Haye d'une manière tout à fait nécessaire. Il faut en effet ne pas dire d'une manière implicite qu'on ne pourra exercer aucune contrainte pour obtenir des renseigne¬ ments sur les prisonniers de guerre, il faut le dire d'une manière expresse. C'est le résultat des expériences de la grande guerre. Cette disposition a d'ailleurs été acceptée à l'unanimité par votre sous-commission.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

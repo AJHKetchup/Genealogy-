@@ -1,0 +1,157 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3659b5b97418-P0105-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115.codex.md
+converted_sha256: 3659b5b97418acc214308af5d7de2439466e14475cd951e8e751a9a71ac746c8
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json
+page_start: 105
+page_end: 105
+part: 1
+---
+
+# Page 105
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/manifest.json`
+- Source page: 105
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0101-0115-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-101-115/page-images/page-0105.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Wilckens  Riese,  Ernesto Wilckens  Zapata,  Mario Wildner  Paz,  Otto Wilhelm  Groz,  Ottmar Wilhelm  Perelman, Herbert Wilson  Stevenson, Juan Williamson  Le-Fort, Ladislao
+
+Winter  Elizalde, Augusto Winter  Hanel, Oscar Wiren  Richard, Víctor Witting  D'Andurain, Carlos Witting  Ewer,  Alex Witto  Cartes, Juvenal Wolf  Friedmann, Jochnan Wood  Walters, Juan Woolwett  Stockins,  Rodney Worm  Lavergne,  Germán Wortzman  Margulis,  Luis Woywood  Lenck,  Edgardo Wünkhaus  Ried,  Ra^l Wygnanky  Walther, Román
+
+Unamuno  826
+
+Galería  Villa,  Of.  1-D
+
+Ahumada  236,  Of.  311
+
+Víctor  Lamas  1000
+
+Víctor  Lamas  1000
+
+Rudloff  2061
+
+Miguel  Cruchaga  920,  Of.
+
+405
+
+Obispo  Donoso  6
+
+Ahumada  370,  Of.  627
+
+Avda.  Lota  2420
+
+Canadá  185
+
+Marcel  Duhaut  2958
+
+Brown  Norte  642  J
+
+Coventry  212
+
+Eleodoro  Yáñez  1032
+
+1  Oriente  475
+
+Avda.  Serrano  62
+
+Dr.  P.  L.  Ferrer  2803
+
+O'Higgins  680,  Of.  207
+
+Huérfanos  972,  Of.  405
+
+Teatinos  446
+
+Santiago
+
+Concepción
+
+Santiago
+
+Concepción
+
+Concepción
+
+Valdivia
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Viña  del  Mar
+
+Melipilla
+
+Santiago
+
+Concepción
+
+Santiago
+
+Santiago
+
+## Y
+
+| Yaikín Gussaf, Mario Yanine Abadi, Demetrio Yanine Egnem, Carlos Yancovic Yaksic, Dusan Yáñez Andrade, Parmenio Yáñez Araya, Duberli Yáñez del Villar, Alvaro Yáñez Flores, Florín Yáñez Garrido, Daniel Yáñez Romero, Arturo Yáñez Sepúlveda, Urbano Yavar Harbin, Marco A. Yazigi Gabriel, Alfredo Yazigi Jáuregui, Raúl Yazigi Srur, Víctor Yelpi Pulgar, Jerónimo Yepez de Constante, Eduardo   | Colonia "El Peral" Puente Alto Constitución 644 Chillán Sucre 1355 Santiago Pob. Chile 2758 Santiago Simón Bolívar 481 Valparaíso Plaza Perú 133 Concepción Per Henrik Ling 3528 Santiago Merced 371, Depto. 21 Santiago Monjitas 537 Santiago Av. Gral. Bustamante 16 Santiago Avda. Uruguay 514 Valparaíso Quillota 50 Viña del Avda. Recoleta 208 Santiago Silvina Hurtado 1815 Santiago Bellavista 181 Santiago Velásquez 725 Arica Valentín Letelier 20, Santiago Depto. 3   | Mar   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

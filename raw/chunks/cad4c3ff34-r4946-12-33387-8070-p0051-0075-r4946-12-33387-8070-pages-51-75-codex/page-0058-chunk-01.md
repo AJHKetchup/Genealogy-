@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-488991b97ec1-P0058-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75.codex.md
+converted_sha256: 488991b97ec11816b50496288cf40ed1d156bf35d8bb3a624180dabbd46664b7
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json
+page_start: 58
+page_end: 58
+part: 1
+---
+
+# Page 58
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json`
+- Source page: 58
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/page-images/page-0058.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Medellin, qui est la capitale du département et qui compte 170.622 habitants, comprend 34 municipalités et sa. consommation a été de 28.633 grammes. Etant donné le caractère de la population, on peut estimer que cette quan¬ tité a été vendue à des indigènes venant d'autres lieux.
+
+- BOLIVAR.Dans la municipalité de Manteria, à peine une centaine de plantes dans dix terrains et jardins. A San Andrés de Sotavento, à 1 km. de la ville on trouve des cultures de coca, deux hectares, propriétés de M.M.Iluminado Rojas, Julio Ubirami et Juvenal Osorio.
+
+HI? I L A.Voici quelles sont les cultures dans les muni¬ cipalités suivantes :
+
+| Aipe Palermo ...... Garzôn Pitalito   | 15 hectares 10 " 1,5 hectares 4 hectares   | 30,5 hectares   |
+|---------------------------------------|--------------------------------------------|-----------------|
+| Pital . Carniceria • • • • •          | 1.267 arbres 503 "                         | 1.770 arbres    |
+
+A Iquira, 76 propriétaires (on ne spécifie pas l'étendue des cultures ni le nombre des arbres). La culture existe sur une petite échelle dans les municipalités d'Elias et de Timana. La vente s'effectue dans toutes les municipalités et sans restriction à San Agustin, Pita¬ lito, La Plata et Carnicerias A La Plata, on vend les jours de grand marché, le samedi, et les transactions se montent de 50 à 70 livres; ces transactions ont également lieu les jours de marché ordinaire* Le prix varie de 20 à 60 centavos la livre suivant que l'on est ou non à l'époque de la récolte.. Dans quelques municipalités, on cite le cas lamentable d'enfants qui vont à l'école en emportant comme provisions des feuilles de coca: ceci nous a. été déclaré par l'inspecteur de la police sanitaire de ce
+
+département, M. Victor J. Cuervo.
+
+CUNDINAMARC A.- Il n'y a pas d'adeptes comme dans d'autres départements du pays et la feuille de coca que l'on consomme est utilisée pour infusions et garga.rismes. Quelques personnes attribuent le fait que la cfcaïnomanie n'existe pas parmi les paysans de ce département à ce qu'ils ne peuvent obtenir le mambe, qui est le carbonate de chaux calciné et moulu qu'utilisent les mâ.cheurs de coca, mélangé à la coca elle-même. On trouve celle-ci à l'état sauvage à Mesitas del Colegio, à Anapoima, région du bas Apulo et à Villeta.. A LemOs, il y a 50 arbres de coca, dans les jardins particuliers, comme plantes d'ornement. Le prix de vente oscille entre 30 cen¬ tavos et 1 peso la livre. L'once se vend quelquefois 10 centavos. On peut également l'acquérir en paquets d'un
+
+gramme pour la somme de 5 centavos.
+
+&lt;#
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

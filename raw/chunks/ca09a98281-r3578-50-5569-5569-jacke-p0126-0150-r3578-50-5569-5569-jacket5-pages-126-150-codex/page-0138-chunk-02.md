@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f189f3fccb5d-P0138-02
+chunk_id: CHUNK-7a4c98f3b997-P0138-02
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150.codex.md
-converted_sha256: f189f3fccb5d2e5533fec6214dd8fcd6c806e4fe0dd8c22023bf29d062bdea1f
+converted_sha256: 7a4c98f3b99792bc3281d70701213b375bbab8125c5d64c938b4e1dc6b5152ab
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150/manifest.json
@@ -274,58 +274,3 @@ The transcription is complete and includes all text from the page, preserving li
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
-
-## Page Metadata
-- Page number: 146
-- Source document page number: 82
-
-## Layout And Reading Order
-The page contains a single column of text, primarily a list of names and titles grouped under headings indicating different countries or entities. The text flows from top to bottom.
-
-## Literal Transcription
-514                                                                                             82
-
-De Zwitsersche Bondsraad:
-den Heer Paul Dinichert, Gevolmachtigd Minister, Chef van de
-Afdeeling Buitenlandsche Zaken van het Politieke Bonds-
-departement,
-den Heer Carl Hauser, Kolonel van de Gezondheidstroepen,
-Inspecteur van den Geneeskundigen Dienst van het leger,
-den Heer Anton Züblin, Kolonel der Infanterie i. d., Advocaat,
-den Heer Roger de la Harpe, Luitenant-Kolonel van de Gezond-
-heidstroepen, Arts,
-den Heer Dietrich Schindler, Majoor van de Militaire Justitie,
-Hoogleeraar in het Internationaal Recht aan de Universiteit
-te Zürich;
-
-De President van de Tsjechoslowaaksche Republiek:
-Z. Ex. den Heer Zdenek Fierlinger, Buitengewoon Gezant en
-Gevolmachtigd Minister van Tsjechoslowakije te Bern;
-
-De President van de Turksche Republiek:
-Z. Exc. Hassan Bey, Ondervoorzitter van de Nationale Groote
-Vergadering van Turkije, Ondervoorzitter van de Turksche
-Roode Halve Maan,
-Z. Exc. Nusret Bey, Voorzitter van den Raad van State der
-Republiek,
-Professor Akil Moukhtar Bey, Doctor in de Geneeskunde,
-Dr. Abdulkadir Bey, Luitenant-Kolonel, Militair arts, Leeraar
-aan de Applicatieschool en aan het Hospitaal van Gulhane;
-
-De President van de Oostersche Republiek van Uruguay:
-Z. Exc. den Heer Alfredo de Castro, Buitengewoon Gezant en
-Gevolmachtigd Minister van Uruguay te Bern;
-
-De President van de Republiek van de Vereenigde Staten
-van Venezuela:
-Z. Exc. den Heer Caracciolo Parra-Pérez, Buitengewoon Gezant
-en Gevolmachtigd Minister van Venezuela te Rome,
-den Heer Ivan Manuel Hurtado-Machado, Tijdelijk Zaakgelas-
-tigde van Venezuela te Bern;
-
-welke, na elkander hunne volmachten te hebben mede-
-gedeeld, die in goede en behoorlijke orde zijn bevonden, het
-volgende zijn overeengekomen:
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.

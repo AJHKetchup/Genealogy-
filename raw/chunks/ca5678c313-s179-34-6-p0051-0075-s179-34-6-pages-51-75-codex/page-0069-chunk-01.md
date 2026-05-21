@@ -1,0 +1,70 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43656c2efa76-P0069-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md
+converted_sha256: 43656c2efa768274b3314087a11dfa425dcf29db71eae5f6ab9836c6de612ce5
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json
+page_start: 69
+page_end: 69
+part: 1
+---
+
+# Page 69
+
+## Page Metadata
+
+- Source: `raw/sources/S179-34-6.pdf`
+- Source SHA-256: `5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054`
+- Conversion manifest: `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json`
+- Source page: 69
+- Page image: `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/page-images/page-0069.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Salto, Uruguay and Concordia, Argentine,
+
+I left Montevideoo on Tuesday evening, June 24th and arrived in Salto the following clay at about 12,50 P«®. On my arrival I was accosted by a police officer who asked my name and address which I wrote for him on a piece of paper. The other passengers on the triin wji{ere aaked the same questions, I went to the Concordia Hotel and waa met by a porter outside the hotel who later on gave his name as Enrique» Menon and who said that he was Italian by birth, I gave to this man on arrival in the room assigned to me the card that P,K, had received from the Expresso International and asked him whether he knew Qustav Rice of the Alhambra Hotel to which he replied that he did not, I told him that I had no documents to cross into Argentine and that Mr, Rice suggested that I go to Salto and that he would help me to go to Concordia, He replied that he cannot remember Mr, Rice but that I would have no difficulties in crossing into Argentine. I inquired of him what was necessary and he said that I would need a vaccination certificate and that was all that was asked of one crossing the river, I aaked him other questions but the bell rang and he had to get out. When I left the room I found the card I had brought ahd given this porter under the table in the corridor,
+
+I went downstairs and then to the landing of the boats to Concordia and inquired for the boat schedule which was given ae as follows i Leave Salto; ÔA,M., 9 A.M., 10.50 A,M. , 11.50 A.M. 1.50 P.M., 2.50 P.M., 4,50 P.M. and at sunset. Leave Concordia: 7.50 a.M 3.50 A.M., 10,a.m., 1 p.M., $. P.M.,4 P.M. and sunset.
+
+I saw the 1,50 P.M. beat leave for Concordia. SfcngncaxBX These launches are small sized affairs and have the capacity of carrying about 20 passengers. There were 11 passengers on this boat, 5 women
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

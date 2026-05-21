@@ -1,0 +1,82 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-867bfa591ea9-P0359-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375.codex.md
+converted_sha256: 867bfa591ea91f13451ae0a56708a9a321a153444ae0a568c1411ee6b08808ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json
+page_start: 359
+page_end: 359
+part: 1
+---
+
+# Page 359
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json`
+- Source page: 359
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/page-images/page-0359.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+na de los estableeimientos que motivan las preocupaciones de éstas conferences y los adelantos en los sistemas constructivos, han traido como lôgica consecuencia la necesidad de modificar también la disposiciôn y carateristicas de estos edificios, transformando, conforme a las modernas su
+
+ideas, generalizada y tipica construcciôn anterior.
+
+Las nuevas corrientes de ideas han influido también en el mejoramiento de la estructura de estos edificios en los que se ha contemplado diversos factores, algunos de carâcter técnico y otros de carâcter exclusivamente moral, pero concordantes todos ellos a hacer viables los fines de mejoramiento que con ahinco se persigue en bien de la infancia desvalida.
+
+La construcciôn de los pabellones congregados tiende a desaparecer paulatinamente en estas clases de estableeimientos, traitando de eliminar ese aspecto de la vida regimentada con todos los inconvenientes de orden moral que llevan consigo justamente en la época de la formaciôn de la personalidad del nino. Las caracteristicas de estas cla¬ ses de construcciones de pabellones congregados, son en general comunes a todos los edificios de asistencia social y ese tipico aspecto les da un sello definido que no hace sentir por cierto en el nino el afecto o el recuerdo del hogar y la familia, fundamento, esencia misma de la vida civilizada.
+
+Pero oportunamente las preocupaciones de los gobiernos y personas que dedican sus afanes al mejoramiento de la vida y educaciôn de los asilados, han ensayado con éxito un cambio fundamental, que consiste en sustituir los ya clâsicos y tristes pabellones por las pequenas "Casas Hogares", que acercan al nino al calor de la vida de hogar creando afectos y carinos, que no séria posible lograr de otro modo-
+
+Las ventajas de orden moral que esta evoluciôn significa, serân sin duda expuestas por las honorables personas que representan al Patronato Nacional de Menores que con éxito tan halagador la han aplicado en la Colonia
+
+Hogar Ricardo Gutiérrez-
+
+En la construcciôn de las casas hogares deben contemplarse di¬ versos factores de carâcter técnico que enunciaremos con la brevedad
+
+que nos permite el tiempo disponible para sta conferencia.
+
+La disposiciôn misma que debe darse a estos edificios, a fin de mantener una relativa independencia con respecto a las demâs Casas Hogares requiere un prudente desplazamiento con relaciôn al nucleo central donde se situan las construcciones de carâcter. general, administraciôn, talleres. escuelas, etc. Crecen en importancia, por ese motivo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

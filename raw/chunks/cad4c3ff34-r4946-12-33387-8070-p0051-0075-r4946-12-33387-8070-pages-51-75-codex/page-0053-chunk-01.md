@@ -1,0 +1,77 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-488991b97ec1-P0053-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75.codex.md
+converted_sha256: 488991b97ec11816b50496288cf40ed1d156bf35d8bb3a624180dabbd46664b7
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json
+page_start: 53
+page_end: 53
+part: 1
+---
+
+# Page 53
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json`
+- Source page: 53
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/page-images/page-0053.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## G-uéris :
+
+| Numéro tf tl tt   | 1 - E.D 2 - J.B 3 - E.C 4 - C.A   | hospitalisé en " " 1933 "   | 1933 1933 1933   | figure dans le rapport de 1938   |
+|-------------------|-----------------------------------|-----------------------------|------------------|----------------------------------|
+
+Le rapport signé par les fonctionnaires de ce Ministère a la teneur suivante : " Nous ne voulons pas, de propos délibéré, intervenir dans l'intéressante discussion soulevée par la Commission consultative de l'opium sur le fait de savoir si les toxicomanes doivent être considérés comme des malades ou si l'on doit plutôt les inclure parmi les délin¬ quants. Nous ne le faisons pas, précisément parce que nous croyons faire oeuvre plus utile en transmettant à la haute autorité genevoise nos observations personnelles sans prendre parti.
+
+Comme il ressort des précédentes statistiques, la toxicomanie ne constitue pas actuellement, en Colombie, un problème. Une nation de près de 9 millions d'habitants compte à peine 2 pour 100.000 toxicomanes (nous ne mentionnons pas les "mâcheurs"de coca, parce que ce problème est traité dans un chapitre spécial de ce rapport). A Bogota, capitale de la Colombie, où existe la population la plus dense, la toxico¬ manie atteint à peine 2 pour 10.000. Toutefois, bien que les chiffres antérieurs soient très encourageants, ils pour·raient l'être encore davantage si une disposition inefficace -pour parler modérément -n'avait pas permis la persistance d'un noyau de toxicomanes, triste héritage de l'époque où,en raison du manque de lois internationales sur le commerce de ces substances, il n'existait aucun contrôle efficace sur la vente et la consommation des stupéfiants. Nous nous référons à la Résolution 9 de 1932 de l'ancienne Direction nationale d'Hygiène, approuvée, cette même année, par l'Organe exé¬ cutif. Cette disposition a. autorisé les médecins à instituer des traitements de désintoxication privés, mais sans fixer un terme
+
+pour le traitement0
+
+En vertu de cette disposition, l'habitué obtenait la drogue de son choix avec l'appui de la loi. Qu'est-il donc arrivé? Le vicieux ou le malade obtenait non seulement satisfaction, mais il réalisait un bénéfic.e en vendant le surplus de sa drogue à ses compagnons. Il en est résulté ainsi le paradoxe suivant : quoiqu'il n'existe pas en Colombie, et plus spécialement à Bogota, un trafic illicite alimenté par des commerçants peu scrupuleux, il existait néanmoins un trafic au moyen de licences octroyées par le Gouvernement lui-même . Bien qu'un des signataires de ce rapport se soit rendu compte, il y a quelque temps déjà, dé cette irrégularité, des raisons d'ordre administratif l'ont empêché d'y mettre uh terme jusqu'à cette année. Heureusement, le Gouvernement actuel a accueilli la propo¬ sition formulée par ce fohctionnaire et a édicté la résolu¬ tion No.
+
+720, du 17 octobre 1939. Voyons ce qui est arrivé
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

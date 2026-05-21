@@ -1,0 +1,95 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-867bfa591ea9-P0375-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375.codex.md
+converted_sha256: 867bfa591ea91f13451ae0a56708a9a321a153444ae0a568c1411ee6b08808ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json
+page_start: 375
+page_end: 375
+part: 1
+---
+
+# Page 375
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json`
+- Source page: 375
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/page-images/page-0375.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+- Sr. Secretario.
+- Lee la segunda base.
+- Sr. Présidente. - Esta en consideraciôn la segunda base. Si no hav
+- oposiciôn se darâ por aprobada. Aprobada. .
+- Sr. Secretario. - Lee la tercera base.
+- Sr. Présidente. - Esta en consideraciôn la tercèra base, y si ninguno de los Sres. delegados tiene ninguna modificaciôn que hacer, se darâ
+- por aprobada. Aprobada. J ■ '
+- Sr. Secretiario. - Lee la cuarta base.
+
+^
+
+- Dr. Arenaza. - Me pareceria conveniente que se agregara en -esa base después de donde dice: ". . .Patronato Nacional de Menores...", las siguientes palabras: "asesorado por las instituciones o personas
+- capacitadas para ello".
+- Sr. Ortiz de Rozas. - Acompano al Dr. Arenaza en el sentido de
+- que se pongan esos términos.
+- Sr. Donadio. - No tengo ningûn inconveniente en aceptar esa indicaciôn
+- propuesta por el Dr. Arenaza.
+- Sr. Présidente. - Si ninguno de los Sres. delegados desea hacer uso de la palabra, se darâ por aprobada. Aprobada.
+- Sr. Secretario. --Lee la
+- quinta base.
+- Sr. Présidente. - Estâ en consideraciôn la ultima base. Apro¬ bada.
+- Sr. Présidente. - Sres. delegados: de acuerdo con la reglamentaciôn hoy terminaban las reuniones de esta conferencia; pero es el caso que quedan todavia pendientes dos temas a desarrollar, y el propiû reglamento lo prevé estableciendo que la Asamblea tiene facultad para prorrogar sus sesiones. Si no hay oposiciôn prorrogaremos las sesiones hasta la terminaciôn de las discusiones de los dos temas que faltan.
+
+La reunion tendrâ que ser manana a la misma hora, y creo que podremos terminar con el desarrollo del programa y clausurar este
+
+Congreso.
+
+Se somete a la consideraciôn de la Asamblea y queda aprobada. Siendo las 13 horas el
+
+présidente déclara levantada la sesiôn.
+
+<!-- image -->
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0375/page-0375-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

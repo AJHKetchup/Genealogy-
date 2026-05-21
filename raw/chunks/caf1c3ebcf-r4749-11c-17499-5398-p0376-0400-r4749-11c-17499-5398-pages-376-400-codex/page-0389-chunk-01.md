@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-12633908a479-P0389-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400.codex.md
+converted_sha256: 12633908a4790ed3a70abc2e8cd2800810454e0b7ecf7bf7cbdd29e0f2e612b4
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400/manifest.json
+page_start: 389
+page_end: 389
+part: 1
+---
+
+# Page 389
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400/manifest.json`
+- Source page: 389
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0376-0400-r4749-11c-17499-5398-pages-376-400/page-images/page-0389.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Ingeniero Gomez. - Quiero dejar constancia en la Asamblea de que el propôsito de altos fines moralizadores y democrâticos, el que tiende a hacer un propietario, un ciudadano completo, no tuvo el apoyo del Dr. Arenaza; en cambio ha tenido el apoyo decidido del Sr. relator otra proposiciôn, muy interesante, pero que tiende a aumentar el numé¬ ro de los
+
+que quieren trabajar como dependientes. . .
+
+Dr. Arenaza. - Debo dejar constancia de que el Sr. relator no ha aceptado la proposiciôn, y lo ûnico que ha hecho es formular, aceptar un voto por el cual se solicita del Estado, en general para todas las institueiones, para todas las escuelas y para los establecimientos religiosos como los establecimientos laicos, que se dé preferencia a esos; ninos.
+
+Sr. Pastor. - Quiere leer el Sr. Secretario la conclusion pro puesta.
+
+Sr. Secretario. . .
+
+- La conferencia pide al gobierno.
+
+Sr. Pastor. - Nada mas. Era para proponer una forma mâs im-
+
+perativa: "El Congreso solicita.'.".
+
+Dr. Arenaza. - Como no, pero yo entiendo que son cosas de re¬ daction.
+
+Sr. Présidente. - Si no hay observation esta a consideration de los Sres.
+
+delegados el agregado que propone el Sr. Vedoya.
+
+Sr. Ortiz de Rozas. - Completamente de acuerdo.
+
+Sr. Présidente. - Queda aprobada la relation del Dr. Carlos de Arenaza.
+
+(Aplausos).
+
+A continuation se va a tratar el tema: "Bases para la legislation de protection a la infancia abandonada y delincuente", cuyo relator es el Dr.
+
+Jorge E. Coll. El Dr. Coll tiene la palabra.
+
+Dr. Coll. - Este tema Sres. que aparece ahora en ultimo término estaba concebido se tratara antes, pero deliberadamente la Conferencia resoîviô postergarlo, porque viene a resumir todos los pensamientos, todos los trabajos proyectados por los relatores, que han contribuido a formar este acervo tan importante para la doctrina y la legislation futura del pais; en tal sentido voy a manifestai' ahora como es posible concretar en principios legislatives todos aquellos puntos tan necesarios al progreso de la Ley de Patronato de Meoores, de la notable ley Agote de 1919, que comb dije abre una nueva ruta en favor de esta gran obra que a todos nos
+
+preocupa.
+
+Una ley debe comprender cuestiones de fondo. porque como saben Uds. nuestra constitution de sistema federal ûnicamente establece cô-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

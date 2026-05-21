@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-630c8c0fb0a1-P0180-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200.codex.md
+converted_sha256: 630c8c0fb0a16dd9235542f89183ec25c523fa1a7193848fe8e23fae63cc5236
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json
+page_start: 180
+page_end: 180
+part: 1
+---
+
+# Page 180
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json`
+- Source page: 180
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/page-images/page-0180.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+y asi este descubrimiento ha modificado considerablemente y ha enriquecido la idea que teniamos del electron. (*).
+
+TIMŒUS. (Que durante esta discusiôn ha guardado profundo silencio y parece despertar de un vago ensueno de filosôfica indiferencia).-No sé, queridos amigos, si padezco o no de cierta amnesia mental; porque, a pesar de haberos oido con péné¬ trante cuidado, muy poco es lo que he podido entender de vuestras disertaciones. Educado en las claras y sencillas verdades de las escuelas filosôficas griegas, mi espiritu pudo captar fâcilmente las demostraciones matemâticas de Newton y hallô lôgico cuanto se estableciô por la escuela experimental de Galileo desde el dia memorable en que el maes¬ tro insigne, en el jardin de su vieja casa de Florencia, dedujo las leyes de la caida de los cuerpos y estudiô el movimiento oscilante del péndulo. Asi, formado en lo que crei verdades indiscutibles, fuime acostumbrando a la idea de que la lôgica matemâtica era un poderoso auxiliar en la investigaciôn de la verdad, y de que no es posible confundir la algoritmia con la pura deducciôn analitica de ciertos principios fondamentales de carâcter cientifico. Desde luego, debo advertiros que mi inclinaciôn a la Geometria me impide formar concepto preciso de una verdad matemâtica si no se concreta ella en alguna forma geométrica que hable a mi imaginaciôn de modo objetivo. Por este aspecto puedo catalogarme entre los intuitivos puros.
+
+Vale este proemio para explicaros la absurda incapacidad en que me encuentro para entender muchas de las cosas de que habéis hablado. Asi, por ejemplo, por mas esfuerzos que hago, no puedo imaginarme el espacio sino como un continuo absoluto que me rodea, de acuerdo con los conceptos geométricos de Euclides. En ese espacio imagino la linea recta infinita, y no puedo concebir sino superficies esféricas limitadas, que nunca confundo con el pia¬ no. Asi, para mi el postulado de Euclides es una intuiciôn, y el espacio de très dimensiones, una sensaciôn. De acuerdo con ideas tan elementales, cualquier relaciôn numérica debe traducirse en formas geométricas, y me es imposible separar la ley que liga una funciôn y su variable independiente, de su representaciôn objetiva. Para mi, pues, la Geome¬ tria analitica constituye el proceso matemâtico mâs lôgico y mâs de acuerdo con la capacidad cognoscitiva que poseo. Soy, pues, a este respecto, un primitivo: mi entendimiento es como el del labriego que empieza, sin prejuicio de ninguna clase, a observar el mundo exterior por sus sensaciones perso-
+
+nales.
+
+^Cômo puedo, pues, pretender entenderos? Evidentemente, el labriego de que os hablo, es incapaz de separar las cosas reaies de su concepto espacial rudimentario ; para él el espacio sin cuerpos no tiene sentido, lo mismo que no lo tiene el tiempo sin acontecimientos. En ese cerebro primitivo la sucesiôn continua de los acontecimientos le da la idea del tiempo continuo, y la observaciôn de los fenômenos le comunica la sensaciôn de la menor o ma¬ yor duraciôn de ellos. Tiene, pues, el labriego, de mi ejemplo, intuiciôn clara del espacio absoluto y del tiempo indefinido, y no puede confundir dos fenômenos simultâneos, aun cuando esa intuiciôn le dice que se verifican en el mismo instante. Teniendo asi la intuiciôn de un antes y un después sucesivos, a cada momento ve que un môvil ocupa diferentes lugares en el espacio, pasando de modo con¬ tinuo por todos los puntos de su trayectoria, a medida que avanza el tiempo. Relaciona él mentalmente la extensiôn recorrida por el môvil con el tiempo empleado en recorrerla y llega, brutalmente, si se quiere, a la sensaciôn de la velocidad, distinguiendo, sin mayores complicaciones, cuândo el môvil se mueve mâs aprisa o mâs despacio. Y como sus sentidos le indican, por medio de mil experiencias, que el mismo môvil dotado de mayor o menor velo¬ cidad, produce efectos distintos, llega sin saberlo, a la ley de inercia. La uniformidad del movimiento no es para él misterio alguno: la aceleraciôn del mismo, tampoco lo es. De manera que siente cuando se acelera o se retarda un movimiento rectilineo, por medio de la inercia, v aprecia esta inercia en el movimiento curvilineo uniforme. Ademâs de esto, ese labriego ve que dos cuerpos distintos poseen, animados de la misma velocidad en un movimiento rectilineo, capacidad para producir efectos distin¬ tos: asi llega insensiblemente a la idea de la masa.
+
+(*) "L'évolution de l'électron"-Louis de Broglie.
+
+Hasta aqui podemos deducir que el hombre pri¬ mitivo que usa del martillo, por ejemplo, siguiendo las indicaciones del buen sentido, estâ en capacidad de verificar los efectos de la masa y de la velocidad, y, por consiguiente, de apreciar instintivamente la fuerza viva, juntamente con el esfuerzo muscular que emplea para alzar ese martillo. Posee, pues, el entendimiento rudimentario de ese hombre todos los elementos indispensables para iniciarse en la Mecânica de Arquimedes, que no es otra cosa que el anâlisis racional de un conjunto de dictados que proceden de la experiencia y de la intuiciôn.
+
+Evidentemente, quien razona sobre esos dictados no encuentra dificultad alguna en la identificaciôn que hizo Newton entre la gravedad, o sea el peso de los cuerpos, y la gravitaciôn; pudiéndose decir que el labriego de mi ejemplo, con poco trabajo estâ en capacidad de iniciarse en los intiûncados problemas de la Mecânica racional, mâxime, si con conocimientos rudimentarios de Geometria y Anâlisis, cosas de sentido comûn, al alcance de todos los entendimientos, se ha ido preparando para la interpretaciôn matemâtica de verdades elementales que él
+
+nunca puso en duda.
+
+Pero, ^cuâl séria la confusion de ideas de ese en¬ tendimiento primitivo, si hoy le dijéramos que no hay espacio absoluto; que el tiempo es una convenciôn; que la linea recta no es infinita y que prolongândose convenientemente puede convertirse en una curva cerrada; que no es posible decir si dos fenô-
+
+menos son simultâneos o no; que las nociones espa-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

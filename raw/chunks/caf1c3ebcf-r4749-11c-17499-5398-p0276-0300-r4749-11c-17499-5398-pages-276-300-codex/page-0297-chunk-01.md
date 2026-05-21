@@ -1,0 +1,84 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d546650d4a9a-P0297-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300.codex.md
+converted_sha256: d546650d4a9a6e5a2d2551b4de94507b6996ede1562b52786ba39ecb17f932b4
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/manifest.json
+page_start: 297
+page_end: 297
+part: 1
+---
+
+# Page 297
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/manifest.json`
+- Source page: 297
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/page-images/page-0297.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+de las yemas de los dedos y las palmares de la mano entera, se obtienen instantâneamente, quedan impresas en colores diversos y con tonalidades muy variadas, sin que se pierda ni confunda ningûn detalle de los dibujos. Siendo asi, los rasgos identificativos son completes y ente-
+
+ramente lieles.
+
+Lo que acabo de afirmar queda en evidencia por las muestras
+
+que someto al ilustrado juicio de los senores Congresistas.
+
+Pero hay mâs en este asunto. El Dr. Reyna Almandos, a fuer de investigador y maestro en el arte de la identificacion iniciado por Vucetich hace 42 anos (1.® de Septienfbre de 1891) en la Plata; el Dr. Reyna Almandos, repito, que ha defendido y fortalecido la obra de aquel inventor ilustre, profundizado en la materia juridica y social de la identificacion de las personas aparte del modo de tomar sin tinta las impresiones, lia propuesto a la comisiôn un método de identificacion muy sencillo por el cual se vincula la identidad del nino con la identidad del padre o de la madré, o de los que, por circunstancias especiales, tienen aquél a su cargo y guarda.
+
+El sistema consiste en lo siguiente:
+
+En la ficha de impresiones palmares del nino hay un espacio o lugar para que el padre, la madre o el guardador estampe sus impre¬ siones digitales. Estas ultimas se registran también en fichas aparte, archivadas debidamente, de modo que, siempre e indefectiblemente, coincidirân las impresiones de la madre y del padre o del guardador puestas en la ficha palmar del nino con las correspodientes a la ficha dactiloscôpica de aquellos.
+
+Siendo asi, y, conio es consiguiente, autenticadas en forma la fi¬ cha palmar del nino y las demâs, jamâs, éste, podrâ sufrir confusion alguna en su verdadera y genuina identidad individual, ni tampoco en su vinculaciôn genealôgica o de familia. El autor de esta ficha - cjue éî denomina "Genealôgica" - hizo al respecto su primera publicaciôn en la revista de Criminalogia, Psiquiatria y Medicina legal del Instituto de la Penitenciaria Nacional, en Julio de 1932, ano 19 N.° 112 de dicha revista en la de identificacion y Ciencias Pénales del Museo Vucetich, de que es fundador director, en Agosto de 1932.
+
+Ofrezco algunos ejemplares a los senores congresistas para la mâs compléta informaeiôn de este asunto, desde su punto de vista ju-
+
+ridico y social.
+
+Ahora bien, la Comisiôn del Patronato de la que el Dr. Revnà
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

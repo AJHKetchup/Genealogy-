@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43656c2efa76-P0071-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md
+converted_sha256: 43656c2efa768274b3314087a11dfa425dcf29db71eae5f6ab9836c6de612ce5
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json
+page_start: 71
+page_end: 71
+part: 1
+---
+
+# Page 71
+
+## Page Metadata
+
+- Source: `raw/sources/S179-34-6.pdf`
+- Source SHA-256: `5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054`
+- Conversion manifest: `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json`
+- Source page: 71
+- Page image: `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/page-images/page-0071.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+/ï^-as varied by the Argentinian Police. Berenstein and Yukeîson ne c/x whi spared conversation and T overheard such words as "hire to fhot", "return him the money" etc. After a short while we all three went for a walk and into a cafe not' far from the hotel Concordia.
+
+I told Yukelaon that I had no papers and wanted to get accroe int^f* Argentine(and that I had a couple of woten coming to Salto from Monte¬ video for the same purpose. He asked me, who sent me up there, and I replied that I came myself having heard that it was eaey to go to Concordiafand that all one had to was to go on a launch and cross over. He said that it wae not ae easy as all that.JK£X"You know" he said, If there are people waiting on the other aide when you go on the regular 0m boat^and if you have no papers^ back you go on the same launch. *"^$ut"", /■ he continued, I can help you go accroee/and help your friends also. It will cost you money", I replied^that I did not care how much money it would cost,as long ae I and the adkhmz two women cross over unmolested. He relied "DonI worry about that. I will take care of that. J put you or. a boat kxxx at about 6 o'clock and in about 10 minutes you are over there I eBked him whether it would be safe for women to do this and he replied that there is no danger because the man with the gun who watches on this side^is the man who will take you over in the baot? I inquired^whether or not the immigration officials on the other side could na± be bought to permit one to pass in the regular way and he replied that,this cemot be done^but that it was a very eaey matter to get one accross, that in the pa st tori months he had sent over to the Argentine side over 200 peopl and that they arrived safely. To my question^that I would like to be shown before I believed he said that if I would come to hit home he would she c hundred of letters from satisfied persons and 'BrrES^t-ver letters from organisations. He said that the price for getting e person over
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

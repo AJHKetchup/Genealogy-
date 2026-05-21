@@ -1,0 +1,80 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-867bfa591ea9-P0353-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375.codex.md
+converted_sha256: 867bfa591ea91f13451ae0a56708a9a321a153444ae0a568c1411ee6b08808ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json
+page_start: 353
+page_end: 353
+part: 1
+---
+
+# Page 353
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json`
+- Source page: 353
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/page-images/page-0353.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+r
+
+Sr. Vedoya. - Mi proposiciôn es que no debe haber esa promiscuidad de vida entre el menor~que tiene fallas en su educaciôn y que puede contanrinar a los menores abandonados.
+
+Dr. L. Uranga. -. Es para apoyar. el dictâmen de la comision cuando se refiere al dereeho penal de los menores y al derecho penal de los adultos, estableciendo que debe ser distinto; es évidente que en un adulto la reiteraciôn es un indice definitiyo de peligrosidad y de delinçuencia, cosa que no pasa entre, los menores. El delito es un accidente totalmente ocasional en el menor, y forma parte del derecho penal de los menoresDebe formar parte del Côdigo Penal de los menores el principio inconcuso de que estos son siempre reformables.
+
+Los menores, haciendo una gruesa division, se los divide en très categorias: el menor abandonado, el que ha cometido un delito simpîemente, y el menor profundamente pervertido. A estos ultimos no los coloco yo en la misma situation de los ninos que hayan o no cometido deiitos. pero que no son pervertidos.
+
+Los que pertenecen a las dos primeras categorias y que son re¬ formables, que pueden ser utiles a la sociedad, pueden vivir juntos.
+
+En un establecimiento donde hayan muchos menores internados la. division entre ninos que estân abandonados y los que hayan cometido deiitos, es un motivo de recelo dentro del establecimiento que no favorecerà la educaciôn moral y la réadaptation de los menores. De manera que creo que la base expuesta por el Sr. relator debe ser apoyada por la asamblea en la forma en que se encuentra redactada.
+
+Dr. Coll. - Hace. mpchos anos se hacian las distinciones entre esos menores dentro de los establecimientos. Los que habiian cometido delito se encontraban en un patio llamado "Patio de la Ley" en el eual estaban recluijdos y separados todos aquellos menores sobre los que re¬ cala la falta inccen.te de su pasado. Esa es la situaciôn que hoy se crearia si triunfara la tesis sostenida por el Defensor de Menores, Sr. Vedoya, Esta diferencia esta suprimida en todos los buenos establecimientos. Ud. misxno. Sr. Vedoya ha admirado el régimen de la Colonia Hogar "Riçardo Gutierrez" y en ella los menores que ban cometido delito v los menores abandonados se encuentran juntos.
+
+Solamente se encuentran separados los peligrosos. En "El Retiro" tenemos la gran casa que se esta construyendo y que es de tipo ceiular, verdadero reformatorio para los pervertidos. Los otros estable¬ cimientos nunca deben llamarse reformatories, sino escuelas educacionales. Diré
+
+que los mejores mocliachos que ban Hegado en la Colonia a
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

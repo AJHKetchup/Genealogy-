@@ -1,0 +1,78 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-630c8c0fb0a1-P0177-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200.codex.md
+converted_sha256: 630c8c0fb0a16dd9235542f89183ec25c523fa1a7193848fe8e23fae63cc5236
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json
+page_start: 177
+page_end: 177
+part: 1
+---
+
+# Page 177
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/manifest.json`
+- Source page: 177
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0176-0200-r4946-12-33387-8070-pages-176-200/page-images/page-0177.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+if cuerpos en reposo no presentan huella alguna de fuerza centrffuga? No liay tal: el sôlido-tierra pré¬ senta el fenômeno de la fuerza centrffuga, pero tan débilmente que escapa a nuestros sentidos; sin em¬ bargo, no escapa a nuestros instrumentes, y asi podriamos comprobar mecânicamente que existe un espacio con relaciôn al cual los cuerpos en reposo en él no présentan absolutamente la menor huella de fuerza centrffuga. Ahora bien, no existe un solo espacio que présente esa propiedad. Hay una infinidad de éstos; pero todos ellos tienen la notable propiedad de estar animados, los unos con relaciôn a los otros, de movimientos translatorios. Sin em¬ bargo: a pesar de haber una infinidad de espacios con relaciôn a los cuales las leyes mecânicas se han simplificado por la desapariciôn de una fuerza extrana, el principio de la relatividad ha sufrido una notable reducciôn. Pero esto no es todo. Tomemos una bola de billar y démosle un determinado impulso sobre un piso irregular. La bola después de algunos saltos bruscos, causados por choques contra las asperezas, queda pronto en reposo. Si esta expe¬ riencia la hacemos sobre un piso mejor pavimentado, la bola tomarâ un impulso tanto mâs rectilineo y uniforme cuanto mayor sea la regularidad del piso. El efecto de detenciôn de la bola depende, pues, de los obstâculos; suprimidos éstos, el môvil continuarâ indefinidamente recorriendo espacios iguales en tiempos iguales, segûn una linea recta. De esta experiencia y de todas las anâlogas, y mâs aûn, de cierta intuiciôn clara, es de donde proviene el cé¬ lébré principio de inercia, ya conocido por nuestros coetâneos de la escuela aristotélica : un cuerpo que no estâ sujeto a fuerza alguna no puede tener mâs que un movimiento rectilineo y uniforme. Pero recordando lo que hemos dicho antes respecto al es¬ pacio, tendremos que anadir: con relaciôn al espacio-tierra, que es el espacio al cual hemos referido nuestras experiencias, y al cual se refieren también nuestras intuiciones o experiencias atâvicas. Kealmente una bola de billar cuyo peso estâ compensado por la reacciôn del piso que la sustenta, podrla cruzar de una parte a otra (de sur a norte por ejemplo) un lago helado de superficie absolutamente lisa, con movimiento rectilineo y uniforme. Nos hubiéramos sorprendido al notar una ligera desviaciôn sistemâtica hacia la derecha en las regiones boréa¬ les y hacia la izquierza en las australes. Dicha des¬ viaciôn la hemos verificado a posteriori, pero se habia escapado antes a la observaciôn espontânea. La experiencia atâvica que han desarrollado en nosotros, a través de todos nuestros ascendientes, las ideas cuantitativas referentes al espacio, al tiempo, al movimiento y a la fuerza, a causa de la imperfecciôn de nuestros sentidos, nos ha conducido al principio de inercia, como si el espacio correspondiente al sôlido-tierra presentase la rara circunstancia de que con relaciôn a él los cuerpos sustraidos a la gravedad, y a cualquiera otra fuerza natural, por medio de una reacciôn compensativa, e impulsados por una percusiôn, recorriesen trayectos rectilineos con velocidad constante. Ahora bien, sabemos que esto no es exacto, pues los cuerpos que se mueven horizontalmente en la region norte presentan una desviaciôn hacia la derecha y los que se mueven en la region sur la presentan a la izquierda, siendo su trayectoria no rectilinea sino un poco encurvada. Mediante una transformaciôn geométrica podriamos hallar el movimiento con relaciôn a la tierra del es¬ pacio en donde la ley de inercia se verificara de una manera rigurosa, y no hallariamos asi un solo espa¬ cio, sino una infinidad; pero todos ellos caracterizados por la condiciôu de estar sometidos, los unos con relaciôn a los otros, a movimientos de traslaciôn rectilineos y uniformes. Estos espacios quedan incluidos en los que habiamos hallado antes, refe¬ rentes a la carencia de fuerza centrifuga, pero son muchisimo mâs restringidos. Los espacios geométricos referentes a todos los sôlidos no son, pues, idénticos en lo que respecta a los movimientos de los cuerpos bajo la acciôn de un determinado impulso. La idea referente a la relatividad absoluta del es¬ pacio conduce, pues, a conclusiones contrarias a la experiencia" (#).
+
+"La Mecânica no es posible sino cuando el movi¬ miento de los cuerpos se refiere a ciertos espacios que cumplen entre si la condiciôn de estar, los unos con relaciôn a los otros, animados de movimientos de traslaciôn rectilineos y uniformes. Estos espacios se podrian llamar mecânicos para distinguirlos de los geométricos. Las leyes de la Mecânica son cornunés a todos los espacios mecânicos, y lo mismo vale uno que otro ; pero sin el auxilio de las experiencias de fuerza centrffuga y de inercia hubiéramos negado la existencia de taies espacios. El espacio inmôvil séria un espacio mecânico, y por medios mecânicos no podriamos distinguirlo de los otros de su género. i Tendremos, por ello, derecho de negar su existen¬
+
+cia?"
+
+"Es raro que no siendo el espacio de la tierra un espacio mecânico hubiésemos, sin embargo, llegado a la ley de inercia; cosa que se debe a la imperfecciôn de nuestros sentidos. Este caso es anâlogo a lo que aconteciô con Kepler, quien, segûn ya te dije, estableciô las leyes del movimiento no turbado, gra¬ cias a la imperfecciôn de las observaciones de Tycho Brahe, pues aislô la acciôn prépondérante del sol, al considerar como efectos de los errores de obser¬ vaciôn las acciones perturbatrices de los planetas. Si la tierra hubiera estado sometida a movimientos râpidamente variados no hubiéramos tenido conocimiento de la ley de inercia y no conoceriamos nada de la Mecânica"
+
+(**).
+
+PARMENIDES.-Tal vez hubiera sido lo mejor. Pero noto ; oh Cristias! que siempre tratas de salirte de los puntos en que pretendo colocar la discusiôn. Por eso te ruego que volvamos a las teorias atômicas, haciéndote notar, de paso, que te apre-
+
+(*) Julio Garavito A.
+
+(**) Julio Garavito A.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

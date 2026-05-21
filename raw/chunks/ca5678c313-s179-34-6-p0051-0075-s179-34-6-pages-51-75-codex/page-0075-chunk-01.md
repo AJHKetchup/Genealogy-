@@ -1,0 +1,64 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-43656c2efa76-P0075-01
+source_converted: raw/converted/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75.codex.md
+converted_sha256: 43656c2efa768274b3314087a11dfa425dcf29db71eae5f6ab9836c6de612ce5
+source: raw/sources/S179-34-6.pdf
+source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
+source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json
+page_start: 75
+page_end: 75
+part: 1
+---
+
+# Page 75
+
+## Page Metadata
+
+- Source: `raw/sources/S179-34-6.pdf`
+- Source SHA-256: `5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054`
+- Conversion manifest: `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/manifest.json`
+- Source page: 75
+- Page image: `raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0051-0075-s179-34-6-pages-51-75/page-images/page-0075.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+they do soon asfter sunset. It takes about ten minutes aid they are over -re» My men leave there and they walk about five minute» until they get to a railroad track. Then they follow the track until they get to Concordia, It takes them from 15 to 20 minute» after arriving on the Argentine aide to get to Concordia. There they either go to the Hotel Europa or the Hotel International,and I have arrangements with both of them to take care of my passengers.BBAs a matter of fact" he continued "They are running after me for business wiu they came ovsr to see me in ''alto offering me better term» f^K e poor people who have no money/the Jewish Society there furnishes theat a free ticket to Buenos Aires and perhaps pay for them a day» lodging and board, B I asked whether many women pass through his channel and he replied "many of then", I asked xkanxdidxhaxbsTmx what kind of women and he replied " I do not ask any ft // questions .e£-4Jaem, Sometimes I see that they are net Koatyer (clean)but 7 what business is it of mine. They pay well," I asked about how many woman of that kind ha had during the past two months and he replied "eight or ten of them"."The last group I had was about a month ago. There were 4 men and 6 women and they came from Poland, You could see Koorve (prostitute^ written on their faces, but what difference does it make, I had tham in my home two days and shipped th«n off, I made a few good Pesos out of them, I like them better than the ordinary immigrants. They pay better", I inquired where they came from end what their names were and he said that all ko remmabered was that they eame from Montivedo, were there a couple of weeks, not I asked end that they were Polieh.^He could/rameèber their names he said. Km tnfmtxmgt who sent him the people especially the worn en^ and he said that tney came refer red *0 nim Dy a «ewian organization in Montevideo who telepgraph hip; or write .... nia when to expect a pasadnger, "1 asked whether the Jewish organisations would
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

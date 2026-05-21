@@ -1,0 +1,81 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-867bfa591ea9-P0355-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375.codex.md
+converted_sha256: 867bfa591ea91f13451ae0a56708a9a321a153444ae0a568c1411ee6b08808ba
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json
+page_start: 355
+page_end: 355
+part: 1
+---
+
+# Page 355
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/manifest.json`
+- Source page: 355
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0351-0375-r4749-11c-17499-5398-pages-351-375/page-images/page-0355.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+distracciôn con el trabajo, con el estudio, y sobre todo eon la permanen¬ te asistencia del personal, por su espiritu elevado y su capacidad asi como por su contracciôn y autoridad moral.
+
+Sr. Diaz. - Era para dar un ejemplo que, prueba lo cierto del dictamen con respecto a los menores abandonados y delincuentes. En el Patronato de Abasto llegô un mlenor en un carro celular y acompanado por dos guardas, esposado; se trataha de un menor de 17 anos al cual el director del Patronato colocô el ano pasado en su pecho la meda11a que se entrega como premio al trabajo y a la conducta. Fué el pri¬ mer alumno del establecimiento a mi cargo.
+
+Dr. Lôpez. - Yo creo Sr. Présidente, que no hay ninos buenos ni malos, sino ninos desgraciados y que los ninos que han cometido delitos lo han hecho debido al ambiente, o por alguna tara, por alguna espina visceral.
+
+Y a mi me pasa eso en la Colonia Olivera: se preesentan los pa¬ dres de familia con los ninos en toda su pureza, ninos que no han co¬ metido delitos y es necesario que haya esa separacion porque los procesos de reeducaciôn psicopatolôgica y social que muy bien ha expresado el Sr. Ortiz de Rosas liace que haya mâs control que en el nino que no ha sido nada mfâs que un abandonado, que no tiene ninguna psicopatia.
+
+Dr. Coll- - Es para responder previamente a algunas de las ideas que se acaban de expresar. Yo entiendo - como muy bien lo ha dicho el Sr. Ortiz de Rosas - que si los establecimientos no son bien dirigidos hay un verdadero peligro en la promiscuidad de los pervertidos, de los que tienen desviaciôn de su personalidad con otros que no las tienen, que tienen buenas tendencias. Cuando el delito es sintomâtico de perversidad corresponde la separacion; si por el contrario el delito se debe al abandono del menor pdr parte de sus padres o del Estado y la Sociedad, entonces la separacion es absurda y contraria al concepto eduçacional y protector.
+
+- Dr. Durân.
+- Hago mociôn de que se dé por terminado el debate.
+- Sr. Présidente. - En consideracion la mociôn del Dr. Durân.
+- Aprobada-
+
+Sr. Présidente- En consideracion la base 3a. del Sr. relator. Aprobada.
+
+Sr. Secretario. - La cuarta.base dice: "Los establecimientos que agrupen varios hogares, estarân dotados de una casa de ingreso y otra de disciplina, ambas con dormitorios individuales".
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

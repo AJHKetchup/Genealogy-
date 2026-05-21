@@ -1,0 +1,127 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-488991b97ec1-P0073-01
+source_converted: raw/converted/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75.codex.md
+converted_sha256: 488991b97ec11816b50496288cf40ed1d156bf35d8bb3a624180dabbd46664b7
+source: raw/sources/R4946-12-33387-8070.pdf
+source_sha256: d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d
+source_manifest: raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json
+page_start: 73
+page_end: 73
+part: 1
+---
+
+# Page 73
+
+## Page Metadata
+
+- Source: `raw/sources/R4946-12-33387-8070.pdf`
+- Source SHA-256: `d4c3ff347540407642119a2be739504dd5d93621ba1f49c9b2723b9278b64d7d`
+- Conversion manifest: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/manifest.json`
+- Source page: 73
+- Page image: `raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0051-0075-r4946-12-33387-8070-pages-51-75/page-images/page-0073.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 1
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+<!-- image -->
+
+les Indiens ont de la coca en bouche depuis le matin jusqu'au moment / où ils se couchent pour dormir. Quand j'ai demandé aux Indiens pourquoi ils mâchaient ces feuilles, ils m'ont répondu qu'elles leur évitaient les effets de la faim et qu'elles leur donnaient de grandes forces et une grande vigueur. le crois qu'il existe bien des effets de ce genre^bien que^peut-être il s'agisse d'une coutume supers¬ titieuse que conservent ces populations".
+
+Sur ce dernier point, Cieza de Leôn a raison puisque nous possédons une série de renseignements à ce sujet. Pai/exemple: la relation existant entre la coca et la religion des Muiskas et particulièrement,le fait qu'au Pérou l'usage de la coca était réservé à l'Inca et aux solennités du culte religieux^ eè qu'ensuite il a été permis aux dignitaires de l'Empire et que, plus tard, le peuple a été autorisé à en user également. D'autre part, au temps de Mayta Capac, le quatrième Inca, la reine, selon Cabello, fut appelée Marnp. Coca ou "Mère de la Coca" ce qui, comme l'indique le Dr. R. Pardal, "ne serait que la conséquence naturelle du fait que la masse du peuple considérait la coca comme un objet sacré et digne d'adoration"(1).
+
+Le même auteur rapporte que "les Indiens du Pérou avaient l'habitude de placer dans la bouche des morts quelque feuilles de coca pour que leur âme pût arriver à la région des bienheureux. Dans beaucoup de tombes péruviennes on a trouvé des feuilles de coca éparpillées sur le mort et des sachets contenant de la coca. Les Indiens du Pérou supposai
+
+(1) Pardal (R.) : Medicina aborigen americana. Humanior, Sec. C. num. III. pags. 286-298. Buenos Aires.1937 (?)♦ Con bibliografia no compléta.
+```
+
+## Images, Captions, And Visual Notes
+
+- Docling extracted picture image 1: ![Docling extracted picture image 1](../extracted-images/page-0073/page-0073-docling-image-01.png)
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 1.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 74
+
+## Layout And Reading Order
+The page contains a single column of typewritten text in French, with a handwritten page number "12" at the top right and a crossed-out handwritten number "-8-" near the top center. There are also several handwritten insertions/corrections within the text.
+
+## Literal Transcription
+```
+                                                                                                12
+                                                                -8-
+que si, avant de mourir, un homme mâchait de la coca pendant
+son agonie, son âme s'en trouvait protégée". Un verre nazca,
+reproduit dans un ouvrage du Professeur Radin, représente
+un[?] momie stylisée qui porte des feuilles de coca.
+
+            Dans tous les villages l'usage de la coca est
+réservé exclusivement aux hommes et cet usage est attribué
+à un enseignement divin. Il a eu, au Pérou, des rapports si
+très
+intéressants avec la religion que les Conquérants en sont
+arrivés à interdire la culture de cette plante. Au Concile
+de Lima (1567-1569) on a considéré que la coca était
+"chose inutile, pernicieuse, qui conduit à la superstition
+car c'est un talisman du diable".
+
+            Suivant une des légendes péruviennes, la coca
+fut révélée par les dieux à Manco Capac. Selon une autre,
+elle est née dans le cadavre d'une courtisane fameuse; et c'est
+pour cette raison qu'on l'employait comme aphrodisiaque.
+            De tout ce qui précède il convient de faire
+ressortir deux points: la relation étroite existant entre
+la coca et la religion, et le fait que était sa patrie d'origine
+a été les vallées chaudes du Pérou.
+```
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page.
+- A handwritten page number "12" is present at the top right corner.
+- A handwritten, crossed-out number "-8-" is present near the top center.
+- A handwritten insertion "très" appears above "intéressants" in the 6th line of the main text.
+- A handwritten insertion "était" appears above "la coca" in the 8th line of the main text.
+- A handwritten insertion "et" appears above "fameuse" in the 13th line of the main text.
+- A handwritten insertion "était" appears above "que" in the 16th line of the main text.
+
+## Uncertain Or Illegible
+- `un[?] momie`: The word "un" is slightly unclear, but "une" would be grammatically correct for "momie". Given the context, "une" is highly probable, but I've transcribed what appears to be "un" and marked it as uncertain.
+
+## Completeness Audit
+The transcription is complete and includes all visible text, including handwritten annotations and page numbers.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page contains only text and minor handwritten annotations/page numbers."}
+```

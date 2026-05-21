@@ -1,0 +1,86 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-6e17f9e55072-P0616-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625.codex.md
+converted_sha256: 6e17f9e550726dd5ad122daa3896597dabba267a8495932a68ca116719d764f8
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/manifest.json
+page_start: 616
+page_end: 616
+part: 1
+---
+
+# Page 616
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/manifest.json`
+- Source page: 616
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625/page-images/page-0616.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+, La critics segün la cual se considéra en los Esta-dos Uni-dos que un tratado ha sido concluido cuando tiene lugar el canje de las ratificaciones, carece de valor como objeciôn a este articulo, por cuanto el canje puede ser hecho cuan¬ do se deposits el trstado en la -secretaria de la liga, asi, como un titulo de propiedad de tierras se entrega a menudo en el registro de propiedades.
+
+El articulo XIX, que autoriza a la asamblea a aconsejar la reconsideraciôn de los tratados que se hayan hecho inaplicables, asi como la consideraciôn de las situaciones internationales cuyo mantenimiento podria poner en peligro la paz ■d'el mundo, no necesita explication alguna.*Confiere tan solo el poder de discutir y de sugerir, y constituye una parte de la funciôn general, de la asamblea, que es la de ventilar los temas relativos al las relaciones internacionales, especialmente cuando se trata lie situaciones que puedan ser amenazadas de guerra.
+
+El articulo XX, que estipula la abrogation de todas las obligaciones en¬ tre miembros de la liga incompatibles con el pacto, y que les prohibe para el porvenir, es simplemente una declaration expresa -de lo que, sin él, estaria sobreentendido. Es évidente que -si una naciôn entra en este pacto, que es un tratado, se compromete a no hacer nada que résulté incompatible con sus términos, y a fortiori a n-o convenir en hacer algo igualmente inconsistente con el pacto. El compromiso que se hace ademâs, de tratar de desligarse de todo trata-do anterior hecho. con un no miembro, que sea incompatible con el pacto, es lo que haria cualquier naciôn honorable.
+
+## Arbitra]e ( Wickersham)
+
+El senador Lodge objetô al pacto primitivo de la liga, sosteniendo que nos obligaba à someter todo posible conflicto o -divergencia international, sea a la corte de la liga, sea al contralor del consejo ejecutivo de la liga. El senador Root, por otra parte, objetô que dicho proyecto de pacto abandona el principio del arbitra je obligatorio por el cual habia luchado la delegation americana en la segunda confereneia de La Haya, y -dejaba sin establecer la corte permanen¬ te de
+
+arbitraje. Por el pacto revisado (Articulo XII).
+
+Los miembros de la liga convienen en que si se produjera entre ellos alguna divergencia que pudiesê conducir a una ruptura, someterân el asunto al ar¬ bitraje o a encuesta del consejo, conviniendo en no recurrir en caso alguno a la guerra antes de los très meses de haberse producido el fallo por los ârbitros o el informe
+
+por el consejo.
+
+Esta disposition adopta claramente los principios sost-enidos por los delegados americanos en La Haya. Se halla completada por el articulo XIII, por el cual se conviene en que cualquier divergencia que se produzca entre miembros de la Liga, que ellos reconozcan como apropiada para ser sometida al arbitraje, y que no haya podido ser sati-sfactoriamente resuelta por la diplomacia, serâ sometida en su integridad al arbitraje; la compléta también el articulo XIV, segün el cual el consejoi formularâ y someterâ a los miembros de la liga, para su adopciôn, proyectos para el establecimiento de una corte permanente de justicia internacional que tendra competencia para atender y resolver toda diver¬ gencia de carâcter internacional que le fuese sometida por las partes, y que podrâ emitir, asimismo, una opinion consultiva sobre toda divergencia o cuestiôn que le fuese sometida por el consejo o la asamblea.
+
+El -senador Root sostuvd la adopciôn de una enmienda por la que todos los miembros de la Liga habrian de convenir en someter al arbitraje todos los litigios lie carâcter justificable, que él definia como divergences relativas a la in¬
+
+terpretation de un trata-do, a cualquier cuestiôn de derecho internacional, a la
+
+/
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

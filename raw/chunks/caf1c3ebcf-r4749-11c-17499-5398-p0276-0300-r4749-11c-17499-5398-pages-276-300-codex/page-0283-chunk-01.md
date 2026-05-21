@@ -1,0 +1,125 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d546650d4a9a-P0283-01
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300.codex.md
+converted_sha256: d546650d4a9a6e5a2d2551b4de94507b6996ede1562b52786ba39ecb17f932b4
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/manifest.json
+page_start: 283
+page_end: 283
+part: 1
+---
+
+# Page 283
+
+## Page Metadata
+
+- Source: `raw/sources/R4749-11C-17499-5398.pdf`
+- Source SHA-256: `f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d`
+- Conversion manifest: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/manifest.json`
+- Source page: 283
+- Page image: `raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0276-0300-r4749-11c-17499-5398-pages-276-300/page-images/page-0283.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+to trascendental concerniente a perseguir al adulto que ha corrompido a un menor.
+
+Dr. Coll. - El Dr. Antelo en su proyecto dice que se nombrarâ un asesor para que vaya ante la autoridad o juzgado compétente en defensa del menor.
+
+Dr. Agote. Guestiones de esta naturaleza necesitan un
+
+- examen mas detenido, de modo que me reservo mi opinion. Nada mâs.
+- Dr. Coll. - Estoy muy de acuerdo con el Dr. Paz Anchorena en la mayor parte de las cuestiones y precisamente la divergencia de ideas en el sGno de la comisiôn nos llevô a redactar las conclusiones en forma de que, se apruebe o no la técnioa del proyecto del DrAntelo, queden a salvo los principios. Lo unico que se debe hacer es apoyar el proyecto del Dr. Mario Antelo en aquellos principios protectores que vienen a traer una mejora en la materia del tratamiento judicial de los menores.
+- Sr. Présidente. - Propongo para acabar con las discusiones, que se agreguen las siguientes palabras a continuaciôn de la ultima parte de la base sexta: ". . .sin pronunciarse sobre su articulado".
+
+Dr. Arenaza. - Yo apoyo la forma en que el Sr. Pastor conci¬ lia nuestras opiniones.
+
+- Sr. Présidente. - La comisiôn acepta el agregado de esas pala¬ bras y pone a consideration de los Sres. delegados la ultima parte de
+- la base sexta.
+
+Después de un cambio de ideas se propuso la siguiente redacciôn, como base 7a., en sustitutiôn del ûltimo pàrrafo de la base 6a.: "Formular un voto de adhesion y aplauso a los legisladores que han exteriorizado, en forma de proyectos, su interés en las reformas legislativas concernientes a
+
+protecciôn de la infancia".
+
+Sr. Présidente. - Agradezco a los senores delegados su caluroso apoyo y también la' oportunidad que me han dado de presidir una de las sesiones de esta Conferencia.
+
+Siendo las 12.30 horas se levanta la sesiôn.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+
+- page_number: 284
+- page_type: section-divider
+
+## Layout And Reading Order
+
+The page contains a single block of centered text, acting as a section divider. The reading order is top to bottom. Faint text from the preceding page is visible as bleed-through but is not part of this page's content.
+
+## Literal Transcription
+
+<center>
+SESION
+
+DEL DIA
+
+28 DE SEPTIEMBRE
+</center>
+
+## Images, Captions, And Visual Notes
+
+This page is a text-only section divider. There are no images, illustrations, or other visual elements.
+
+## Uncertain Or Illegible
+
+All text on this page is clear and legible.
+
+## Completeness Audit
+
+This page has been fully transcribed.
+
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page is a simple text-only section divider with no images, illustrations, or other significant visual elements to crop."
+}
+```
