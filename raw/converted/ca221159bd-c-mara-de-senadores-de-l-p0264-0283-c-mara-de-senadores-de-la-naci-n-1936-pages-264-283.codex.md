@@ -787,67 +787,75 @@ All visible text on the page has been transcribed. The last paragraph of Article
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
 ```
 
+# Page 276
+
 ## Page Metadata
-Page number: 17
+
+- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+- Source SHA-256: `221159bd9b79619cfbcad6b7d590f4fd91fff0a92ecd40b9972437ea865bb289`
+- Conversion manifest: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/manifest.json`
+- Source page: 276
+- Page image: `raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283/page-images/page-0276.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a single column of text, continuing from a previous page, followed by several numbered articles (Art. 3º to Art. 8º). Article 8º includes a list of five sub-points labeled a) through e). The page number "17" is centered at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Presidente fundamentará su opinión en el caso de ser ella decisiva.
-Los Directores no podrán abstenerse de votar, pudiendo dejar cons-
-tancia de los fundamentos de su voto en el acta respectiva.
-    Art. 3º — El Directorio elegirá de su seno un Vicepresidente,
-que reemplazará al Presidente en los casos que prevea el Reglamento
-interno.
-    Art. 4º — De las sesiones que realice se labrará acta circunstan-
-ciada. Los testimonios de las mismas, refrendados por el Presidente
-y Secretario, harán fe a los efectos legales y administrativos.
-    El libro de actas será encuadernado y foliado, debiendo certifi-
-car el Subsecretario del Ministerio de Obras Públicas sobre las con-
-diciones del mismo y rubricar cada una de sus páginas, sellándolas
-con el sello del Ministerio.
-    Art. 5º — Las reconsideraciones sólo podrán tener lugar en se-
-siones con quórum igual o mayor al de aquella en que se aprobó el
-punto a reconsiderar, necesitándose para su admisión 2/3 de votos
-de los miembros presentes y no menos de cuatro votos favorables.
-    Art. 6º — Todas las facultades del Directorio serán ejercidas por
-intermedio del Presidente. Ningún miembro del Directorio tendrá
-funciones ejecutivas sino por expresa delegación del mismo.
-    Art. 7º — La adopción de resoluciones que importen inversión de
-fondos, en los casos en que no se recurra a licitación pública o priva-
-da, y la determinación del carácter de urgencia de obras o adquisi-
-ción de materiales, aun cuando el presupuesto no exceda de $ 20.000
-moneda nacional, requerirá un mínimum de cuatro votos, y la
-revisión o modificación de estas resoluciones, cinco votos de los
-miembros del Directorio.
-    Art. 8º — El Directorio dictará los reglamentos internos, en los
-que se determinarán:
-        a) Las normas de su propio funcionamiento;
-        b) La organización y funcionamiento de las diversas depen-
-            dencias;
-        c) La fijación y el deslinde de las atribuciones, deberes y res-
-            ponsabilidades del Ingeniero Jefe, del Consejo Técnico y
-            de la Contaduría;
-        d) Las bases de los concursos para ingreso y ascensos de per-
-            sonal. Al formular estas bases deberá contemplarse la facul-
-            tad acordada en la Ley al Ingeniero Jefe en lo que al per-
-            sonal técnico de su dependencia se refiere;
-        e) El escalafón de empleados;
 
-17
+```markdown
+Présidente fundamental's su opinion en el caso de ser ella deeisfva. Los Directore» no podrân abstenerse de votai-, pudiendo dejar constancia de los fundamentos de su voto en el acta respeetiva.
+
+- Art. 39 - El Directorio elegirâ de su seno un Vicepresidente, que reemplazarâ al Présidente en ios casos que prevea el Reglamento interno.
+- Art. 49 - De las sesiones que realiçe se labrarâ acta circunstanciada. Los testimonies de las mismas, refrendados por el Présidente y Secretario, harân fe a los efectos legales y administratives.
+
+El libro de actas sera encuadernado y foliado, debiendo certifi¬ eur el Subsecretario del Ministerio de Obras Publicas sobre las condiciones del mismo y rubricar cada una de sus paginas, sellândolas eon el sel!o del Ministerio.
+
+- Art. 59 - -Las reconsideraciones solo podrân tener lugar en se¬ siones con quorum igual o mayor al de aquella en que se aprobô el pnnto a reconsidérai-, necesitândose para su admisiôn 2(3 de votos de los miembros présentes y no menos de cuatro votos favorables.
+- Art. (P - Todas las facultades del Directorio serân ejercidas poi intermedio del 'Présidente. Ningun miembro del Directorio tendra funciones
+- ejecutivasi sino por expresa delegacion del mismo.
+- Art. 7° - La adopciôn de resoluciones que importen inversion de fondos, en los casos en que no se recurra a lieitaeiôn püblica o priyada, y la determinaciôn del carâcter de urgeneia de obras o adquisieion de materiales, aun cuando el presupuesto no excéda de $ 20.000 moneda nacional, requerirâ un minimum/ de cuatro votos, y la revision o modificaciôn de estas resoluciones, cinco votos de los miembros del Directorio.
+
+Art. 89 - El Directorio dictarâ los reglamentos internos, en los que se determinarân :
+
+- a) Las normas de su propio funcionamiento ;
+- b) La organization y funcionamiento de las diversas depend en cia s ;
+- c) La fijaeion y el deslinde de las atribuciones, deberes y responsabïlidades del Ingeniero -Tefe, del Consejo Técnico y de la Contadurîa ;
+- d) Las bases de los concursos para ingreso y ascensos de per¬ sonal. Al formulaiestas bases deberâ contemplarse la faeultad acordada en la Lev al Ingeniero Jefe en lo que al per¬ sonal técnico de su dependencia se refiere ;
+- e) El escalafén de empleados;
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 277

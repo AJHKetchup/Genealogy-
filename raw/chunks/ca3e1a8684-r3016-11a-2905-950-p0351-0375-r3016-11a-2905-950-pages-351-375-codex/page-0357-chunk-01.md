@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-9aeb0c429184-P0357-01
+source_converted: raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md
+converted_sha256: 9aeb0c42918430b6500d68b69ce120be748e9e5069128ae23094ba947d5e0dce
+source: raw/sources/R3016-11A-2905-950.pdf
+source_sha256: 3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1
+source_manifest: raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json
+page_start: 357
+page_end: 357
+part: 1
+---
+
+# Page 357
+
+## Page Metadata
+
+- Source: `raw/sources/R3016-11A-2905-950.pdf`
+- Source SHA-256: `3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1`
+- Conversion manifest: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json`
+- Source page: 357
+- Page image: `raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0357.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+TCHÉCOSLOVAQUIE.
+
+La Croix-Rouge favorise les activités de l'association des infir¬ mières de l'école des infirmières de l'État (Croix-Rouge). Une colla¬ boration officielle a été établie entre les organisations par la création d'un comité mixte composé de deux membres de la Croix-Rouge et de deux membres de l'association d'infirmières.
+
+## VI
+
+## Activités diverses
+
+Publications pour infirmières
+
+Deux revues d'infirmières sont éditées par la Croix-Rouge suisse : La Source et le Bulletin des gardes-malades, organes des écoles de la Croix-Rouge à Lausanne et à Berne.
+
+En Belgique, en Tchécoslovaquie, en France, en Allemagne, en Grèce, en Italie, en Lettonie et aux États-Unis d'Amérique, les revues des sociétés de la Croix-Rouge ont réservé une section spéciale aux questions intéressant les infirmières ; les articles sont fournis par les sections des infirmières de ces sociétés ou par les associations d'infir¬ mières.
+
+Les sociétés de la Croix-Rouge de Grande-Bretagne, d'Australie, de la Nouvelle-Zélande et de l'Afrique du Sud, ont édité des manuels
+
+pour assistantes bénévoles.
+
+Les publications suivantes sont éditées par les sociétés de la Croix-Rouge :
+
+## ALLEMAGNE.
+
+Krankenpflegelehrbuch, herausgegeben von der medizinischeri Abteilung des Ministeriums.
+
+Schwesternlehrbuch zum Gebrauch fur Schwestern und Krankenpllégerinnen.
+
+Anatomie fur SchwesteriL
+
+Das Staatsexamen fur mânnliche und weibliche Krankenpflegepersonen. Leitfaden der Krankenpflege, Frage und Antwort.
+
+Taschenbuch der Krankenpflege fur Krankenpflegerinnenschulen, fur Aerzte und fur die Familie.
+
+Les infirmières de la Croix-Rouge reçoivent une revue mensuelle, éditée par la directrice des services d'infirmières de la Croix-Rouge. Elles reçoivent le Eulletin d'information et autres publications de la Croix-Rouge.
+
+## ARGENTINE.
+
+Enfermeras. Fundaciôn y organization de sus escuelas en la Cruz Roja Argentina.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

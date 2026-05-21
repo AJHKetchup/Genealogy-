@@ -1,0 +1,90 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-12e4f32ec101-P1126-01
+source_converted: raw/converted/ca7e42bb85-s522bis-29-3-p1126-1150-s522bis-29-3-pages-1126-1150.codex.md
+converted_sha256: 12e4f32ec10140dfd4fb2fdd3497df150c3a7c3d0b51400a0e38f789c08f3297
+source: raw/sources/S522bis-29-3.pdf
+source_sha256: 7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605
+source_manifest: raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1126-1150-s522bis-29-3-pages-1126-1150/manifest.json
+page_start: 1126
+page_end: 1126
+part: 1
+---
+
+# Page 1126
+
+## Page Metadata
+
+- Source: `raw/sources/S522bis-29-3.pdf`
+- Source SHA-256: `7e42bb85abe24c117ee6e3d4da7c041cb4b5b430aa2761690651ee4af6235605`
+- Conversion manifest: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1126-1150-s522bis-29-3-pages-1126-1150/manifest.json`
+- Source page: 1126
+- Page image: `raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1126-1150-s522bis-29-3-pages-1126-1150/page-images/page-1126.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+naciohales eran los tratados; pero lo que si sé, y pucdo afirmarlo sin temor de eqnivocarme, es que en el espîritu de ellos peso sobre todo la idea de mantener bnenas relaeiones con los paîses extranjeros, y por eso no solo lo aconsejaron sino que lo consignaron como una obligaciôn para el gobierno federal en el articulo 27 de la Constitucion.
+
+Si esos fueron los fines supremos que en este orden de ideas tuvieron nuestros constituyentes, no es posible suponer que ellos hubieran querido vedar eualquier otro medio lieito que uo fueran los tratados para realizar sus propôsitos de mantener las buenas relaeiones con los paîses extranjeros. A nosotros, que nos co¬ rresponde interprétai' la Constitucion, debemos hacerlo teniendo en cuenta particulamente esos altos fines de nuestros constituyentes y observando una de las réglas capitales que el senor 'Agustîn de Yedia establece en su obra al decir que la Constitucion debe interpretarse de acuer¬ do con los fines, que los constituyentes tuvie¬ ron en vista al dictarla.
+
+Si tenemos en vista esos altos fines debemos llegar a la conclusion de que nada obsta a la aprobaciôn de la adhesion de la Republica Argentina a la Liga de las Naciones. Antes al contrario, es lo que corresponde.
+
+Es sabido que el ministro Alvear, de acuerdo a las instruceiones impartidas por la cancillerîa argentina, de conformidad al artîculo del Paeto de la Liga, depositô una eomunicaciôn en la cual expresaba la adhesion sin ré¬ servas de la Naciôn Argentina a la Sociedad de las Naciones. Que ese acto fué luego ratificado por el présidente Irigoyen en Enero de 1920, a invitaeiôn del présidente del Consejo Supremo senor Clemenceau. Que la Republica 'Argentina envié sus delegados debidamente autorizados por el Honorable Senado a la pri¬ mera asamblea de la Liga efeetuada en Ginebra. el 15 de Noviembre de 1920; que la Republiea Argentina envio, como lo deeia el senor présidente de la mayorîa de la comisiôn, sus delegados gubernamentales, patronales y obreros a las conferences de trabajo. Y bien, senor présidente, todos estos hechos comprometen el decoro, el buen nombre y la dignidad de la Republica. Es necesario que el Honoi'able Congreso lo ratifique, porque fueron eumplidos o realizados por autoridades constitueionales de la
+
+Republica
+
+Es verdad, como dice el senor présidente de la comisiôn y miembro informante de la mayoria, que el Congreso no se lia preocupado mayormente de nuestra situacién en Ginebra. Y digo mayormente porque el entonees diputado doctor Lisandro de la Torre promoviô la cuestién de la situacién de la Republica en la Liga de Ginebra empezando por pedir informes al Poder Ejecutico sobre la cuota adeudada a la Liga de las Naciones.
+
+La mayorîa de la comisiôn se.eneuenti-a, co¬ mo decîa, contesté con los raiembros de la minorîa en el hecho de la incorporacién de la Naciôn Argentina a la Liga. Peraj de los términos del despacho de la mayorîa no surge esa afirmaciôn, y podemos decir que los términos de ese despacho no expresan, por la menos cabalmente, el pensamiento de los miembros de la mayorîa. De ellos no se desprende la adkesién de la Republica a la Liga de las Naciones en la feclia en que se hizo y parece ser que se autorizara la reciente incorporacién de ella, puesto que por la segunda clâusula de ese des¬ pacho se manda pagar üniea y exclusivamente la cuota adeudada por la Naciôn Argentina a contar desde el ano de la promulgacién de esta ley. La Naciôn Argentina debe considerarse adherida, como he dicho, desde el 20 de Enero de 1920 y desde entonees esta obligada para con la Liga de las Naciones.
+
+No he de ocuparme, como decîa, de la parte polîtica o sea de lo referente a la conducta observada por nuestros delegados en el seno de la Liga y a la polîtica del Ministerio de Relaeiones Exteriores a menos que se hiciera debate alrededor de esa euestién y me con¬ crete por tal a las razones expuestas que se fundan como lie dicho en la verdad histérica del pacto y en razones de téenica constitucional y en la realidad de los hechos y por lo tanto pido que de acuerdo con esas consideraciones la Honorable Câmara preste su aprobaciôn al
+
+despacho de la minorîa.
+
+Nada mâs. (Aplausos).
+
+Sr. Martella. - Pido la palabra.
+
+Informo con el senor diputado por Santa Fe el despacho de la minorîa en nombre de la representaciôn socialieta. Los fundamentos de dereclio qonstitucional e internacional que ha dado el senor diputado estân de acuerdo en mantener el despacho firmado.
+
+Desearîa que la Câmara antes de considerar el despacho de la mayorîa o de la minorîa, en su oportunidad, votase por unanimiidad la ad¬ hesion de la Argentina a la Liga de las Nacio¬ nes para que comprendan en el exterior que es deseo unânime dal Parlamento el ingreso de la Argentina a la Liga conformando su ad¬ hesion a la Constitucion.
+
+Pero antes de invitar a la Honorable Câmara a hacer tal votaciôn, quiero significar nuestra opinion como représentante soeialista sobre la acciôn de la Liga de las Naciones, sobre sus problemas y sobre su futuro, brevemente, para que se comprenda el alcance de nuestro vote por una parte, y la responsabilidad de la clase capitalista en los graves problemas que agitan a los pueblos y traban la labor de concordan-
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
