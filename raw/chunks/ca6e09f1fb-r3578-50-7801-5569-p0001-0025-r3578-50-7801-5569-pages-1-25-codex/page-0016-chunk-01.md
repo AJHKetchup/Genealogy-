@@ -1,0 +1,76 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f8e8bfaa7093-P0016-01
+source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md
+converted_sha256: f8e8bfaa70937703a97a9d309ddc652078a2ddb28c6e930562f8713af05deec4
+source: raw/sources/R3578-50-7801-5569.pdf
+source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
+source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json
+page_start: 16
+page_end: 16
+part: 1
+---
+
+# Page 16
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-7801-5569.pdf`
+- Source SHA-256: `6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75`
+- Conversion manifest: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json`
+- Source page: 16
+- Page image: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0016.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+vergeltung oder der Erzwingung einer Eechtswiederherstellung, die ihres Zweckes wegen volkergewohnheitsrechtlich. als zulassige
+
+Zwangsmittel anerkannt werden.
+
+Repressalien an Kriegsgefangenen sind im Weltkriege in grossem Umfange verhangt worden Sie waren ein zweisclmeidiges Schwert, da der Gegner nur zu oft die ihm zur Last gelegten Volkerrechtsverletzungen leugnete und seinerseits zu neuen Vergeltungsmassnahmen griff, was wieder Gegenmassnahmen hervorrief. Die Lage der Kriegsgefangenen auf beiden Seiten wurde auf diese Weise oft so unertraglich, dass die offentliche Meinung der neutralen Welt die Repressalien an Kriegsgefangenen einmiitig verurteilte und dass das international Rote Kreuz das Yerlangen auf ganzliche Aufhebung der Repressalien gestellt hat. Icb glaube trotzdem niclit, dass die Staaten im Kriege auf diese scliarfe Waffe verzichten konnen, der allein es z. B. zu verdanken ist, dass viele Tausende deutsclier Kriegsgefangener vor Krankheit und Tod in einem ungewohnten malariaverseuchten Klima und vor Yerwundung und Tod durch die eigene Artillerie liinter der feindlichen Front bewalirt worden sind1). Der Fortfall der Repressalienmoglichkeit nach dem Waffenstillstand hat andererseits vor allem unsere kriegsgefan¬ genen Landsleute in Frankreicli in eine erschiitternde Sklaverei versetzt. Allerdings wird man die Yerhangung von Repressalien an bestimmte Bedingungen kniipfen miissen, ein Gedanke, der wenigstens teilweise im Kriege bereits verwirklicht worden ist. Die Hauptkriegsmachte einigten sich namlich dariiber2), dass Repressalien vorher angedroht werden rniissten und erst nach Ablauf einer Frist von einem Monat durchgefixhrt werden diirften. Hierbei allein darf das kunftige Volkerrecht aber nicht stehen bleiben. Repressalien a,n Kriegsgefangenen diirfen m. E. nur zulassig sein f'iir volkerrechtliche Verstijsse einer Regierung speziell gegen das Kriegsgefangenenrecht. Sie miissen im Verhaltnis stehen zu der gerugten Rechtsverletzung und diirfen niemals zu offener Barbarei ausarten. Da die Auswiichse des Repressalienwesens im Weltkriege hauptsachlich daher riihrten, dass iibef die volkerrechtliche Erlaubtheit der mit Repressalien bedrobten Massnahmen Streit herrschte, so wird man das libel an der Wurzel packen, wenn man eine einwandfreie Feststellung des volkerrechtlichen Charakters dieser Massnahmen ermoglicht. Ich halte es deshalb fiir ausserordentlich wichtig, im Kriegsgefangenenrecht eine Instanz zu schaffen, die eine solche Feststellung zu treffen befugt ist. Sie liesse sich vielleiclit im Anschluss an den Ausbau der Befugnisse der Schutzmacht ins Leben rufen. Wenn ein Staat das Kriegsgefangenenrecht verletzt
+
+glaubt, konnte eine Kommission zusammentreten, die sich
+
+') Vgl. Plassmaun: 'Die deutschen Kriegsgefangenen in Frankreich 1914 bis
+
+1920', Berlin 1921, und Volkerrecht im Weltkrieg.
+
+2) Vgl. weiter unten.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

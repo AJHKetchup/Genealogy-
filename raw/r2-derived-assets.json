@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-21T04:19:44.398714+00:00",
+  "created": "2026-05-21T04:29:48.689840+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -511,6 +511,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/extracted-images/page-0715/page-0715-docling-image-01.png",
       "bytes": 7111,
       "sha256": "fd85c18dc7a475fd6ba7dc48af8f12f213ade3309d1ef430e9d73d623bebbc9b",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/extracted-images/page-0725/page-0725-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/extracted-images/page-0725/page-0725-docling-image-01.png",
+      "bytes": 2882,
+      "sha256": "17636dea4fbbe4606c3fdc5802f5fe37ad2c847faef668b69e87090544961f8e",
       "media_type": "image/png"
     },
     {
@@ -6033,9 +6040,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 1,
+    "total_bytes": 2882,
+    "uploaded": 1,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -6046,9 +6053,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 859,
+      "scanned": 860,
       "deleted": 0,
-      "skipped": 859,
+      "skipped": 860,
       "errors": []
     }
   }

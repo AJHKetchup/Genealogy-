@@ -1,0 +1,87 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f8e8bfaa7093-P0011-01
+source_converted: raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md
+converted_sha256: f8e8bfaa70937703a97a9d309ddc652078a2ddb28c6e930562f8713af05deec4
+source: raw/sources/R3578-50-7801-5569.pdf
+source_sha256: 6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75
+source_manifest: raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json
+page_start: 11
+page_end: 11
+part: 1
+---
+
+# Page 11
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-7801-5569.pdf`
+- Source SHA-256: `6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75`
+- Conversion manifest: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json`
+- Source page: 11
+- Page image: `raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0011.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Das
+
+## Kriegsgefangenenrecht und seine Reform1).
+
+Yon Dr. Clemens Plassmann in Hamm.
+
+I. Die seit der Mitte des vorigen Jalirhunderts immer starker werdenden Bestrebungen zunachst zur Regelung von Sondergebieten des Kriegsrechts durch Staatsvertrage und schliesslich zu einer Kodifikation des gesamten Kriegsrechts iiberhaupt mussten aucli zu internationalen Vereinbarungen iiber das Kriegsgefangenenwesen fiihren. So sind bereits in der 'Briisseler Deklaration' von 1874 die Grundlagen des modernen internationalen Kriegsgefangenenreclits gelegt worden, auf denen dann die beiden Haager Friedenskonferenzen bei ihrer Arbeit zur Schaffung eines fiir alle Machte
+
+geltenden Landkriegsrechts aufbauten.
+
+Die 'Ordnung der Gesetze und Gebrauche des Landkrieges', kurz die 'Haager Landkriegsordnung' genannt, die dem 'Abkommen betreffend die Gesetze und Gebrauche des Landkriegs' der 2. Haager Konferenz vom 18. Okt. 1907 als Anlage beigefugt ist, stellt das
+
+Ergebnis dieser Arbeit dar.
+
+Die Landkriegsordnung von 1907 ist von beiden gegnerischen Gruppen im Weltkrieg als verbindlich tatsachlich anerkannt wor¬ den, wenngleich Art. 2 des Abkommens besagt, dass die Bestimmungen der L.K.O. nur zwischen den Vertragsmachten und nur dann Anwendung finden sollten, wenn die Kriegfiihrenden samtlich Vertragsparteien sind, was im Weltkrieg nicht der Fall war. Infolge dieser tatsachlichen Anerkennung hat aucli der 3. Unterausschuss des deutschen parlamentarischenUntersuchungsausschusses trotz der Allbeteiligungsklausel die Verletzungen des Landkriegs¬ rechts nach den Bestimmungen der L.K.O. von 1907 beurteilt, so dass ich von ihr als dem geltenden Recht ausgehen kann2).
+
+- II. Wie hat die L.K.O. die Probe des Weltkrieges bestanden? Die Landkriegsordnung ist zustande gekommen auf Grund der Erfahrungen der Kriege des 19. Jalirhunderts. Yon diesen hat der Weltkrieg sich wesentlich unterschieden, was zu wichtigen
+2. Einwirkungen auf das Kriegsgefangenenrecht fiihren musste.
+
+0 Naoli einem Vortrage des Verfassers in der deutschen Landesgruppe der International Law- Association in Berlin am 23. Januar 1928.
+
+2) Ygl. Volkerrecht im Weltkrieg. Dritte Reilie im Werk des Untersuclningsansschusses. Dritter Band Verletzungen des Kriegsgefangenenrechts. Berlin 1927. In der Z f. Volkerrecht XI (1918) S. 57: Reichel, Hospitalisierung im Volkerrecht; S. 240: Franz Klotz, Bestrafnng der Flucht von Kriegs-
+
+gefangenen.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

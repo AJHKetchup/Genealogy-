@@ -68,223 +68,195 @@ All visible text on the page has been transcribed. The last paragraph is cut off
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
+# Page 245
+
 ## Page Metadata
 
-- **Page number**: 231
-- **Document title**: Anales de la Universidad de Chile
-- **Document topic**: Session of the Council of Public Instruction
-- **Date**: 28 October 1918
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 245
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0245.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-This page contains a single column of printed text. The reading order is from top to bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-SESION DE 28 DE OCTUBRE DE 1918 231
----
+```markdown
+,
 
-mientos profesionales o industriales, con sus propios recursos
-o ayudados por sociedades particulares. Añadió el señor Rector
-de la Universidad que por informaciones que él tiene i por las
-que públicamente ha dado el Cónsul Jeneral de Chile en Estados
-Unidos, se sabe que la situacion de estos estudiantes es con
-frecuencia difícil, i que a menudo se ven obligados a emplearse,
-con lo cual pierden un tiempo precioso que podian dedicar con
-mayor provecho a los estudios. El conocimiento de estos hechos
-ha determinado en el señor Rector de la Universidad el ánimo
-de proponer a la Corporacion se solicite del Supremo Gobierno
-la creacion de Casas para Estudiantes en algunos de los grandes
-centros de Estados Unidos, Wáshington o Nueva York, en las
-cuales puedan alojarse i vivir bajo la direccion de algun viejo
-i respetable profesor anglo-americano.
+mientos profesionales o industriales, con sus propios recursos o  ayudados  por  sociedades  particulares. Añadió  el  señor  Rector de  la  Universidad que  por  informaciones que  él  tiene 1 por  las que  públicamente  ha  dado  el Cónsul  Jeneral  de  Chile  en  Estados Unidos, se sabe que la  situacion de estos estudiantes es con frecuencia  difícil, 1  que  a  menudo se  ven  obligados  a  emplearse, con  lo  cual  pierden  un  tiempo  precioso.  que  podian  dedicar  con mayor  provecho  a  los  estudios. El conocimiento  de  estos  hechos ha  determinado en el  señor Rector  de  la  Universidad el  ánimo de  proponer a  la  Corporacion se  solicite  del  Supremo Gobierno la  creacion  de  Casas  para  Estudiantes  en  algunos  de  los  grandes centros de  Estados  Unidos, Wáshington  o  Nueva York,  en las cuales  puedan  alojarse  i vivir  bajo  la  direccion  'de  algun viejo 1 respetable  profesor  anglo-americano.
 
-El señor Decano de Medicina estima que el proyecto del
-señor Rector de la Universidad es de difícil realizacion, por ser
-tantos los centros universitarios que existen en los Estados
-Unidos, i porque los estudiantes que van a perfeccionarse en
-alguna industria necesitan vivir en las proximidades de las
-grandes fábricas. Lo que, en concepto del señor Decano, urje
-mas por ahora es regularizar el envío de estudiantes al estranjero,
-i principalmente de Medicina. Con motivo de la vijencia
-del Código Sanitario se hace indispensable preparar personal
-para hijiene, cosa que puede hacerse mui bien en Estados Unidos,
-donde el Instituto Rockefeller ha abierto cursos para
-hijenistas prácticos, dedicados a los que estén en posesion del
-título de Médico. Por otra parte, agrega el señor Decano, se
-impone la preparacion de profesores para la Escuela de Medicina,
-pues hai cátedras en este establecimiento, que, cuando el actual
-profesor las abandone, no tendrán por quien ser rejentadas.
-En virtud de las consideraciones que acaba de esponer, propone
-el señor Decano que se solicite del Gobierno el envío de estudiantes
-de medicina al estranjero, a propuesta de la Facultad,
-la cual los designaria previo concurso.
+-  El señor Decano de Medicina estima que el  proyecto del señor  Rector  de  la  Universidad es  de  difícil  realizacion, por  ser tantos los centros universitarios que existen en los Estados Unidos, 1 porque los  estudiantes que van a  perfeccionarse.  en alguna industria necesitan vivir en las proximidades de las grandes  fábricas: Lo  que, en concepto  'del señor Decano, urje mas  por  ahora  es  regularizar el  envío de  estudiantes al  estranjero,  1 principalmente de  Medicina. Con  motivo de  la  vijencia del Código Sanitario. se hace indispensable preparar personal para  hijiene,  cosa que  puede  hacerse mui  bien  en  Estados  Unidos, donde el Instituto Rockefeller ha abierto cursos para -hijienistas prácticos, dedicados a  los  que  estén en  posesion del título de  Médico. Por  otra parte, agrega el  señor Decano, se impone  la preparacion  de  profesores  para  la Escuela  de  Medicina, pues  hai  cátedras  en  este  establecimiento, que, cuando  el  actual profesor las  abandone, no tendrán por quien ser rejentadas, En  virtud  de  las consideraciones  que  acaba  de  esponer,  propone el  señor  Decano que  se solicite del  Gobierno el  envío de  estudiantes  de  medicina:al estranjero, a  propuesta de  la  Facultad, la  cual  los  designaria previo  concurso.
 
-El señor Rector de la Universidad manifiesta que las necesidades
-a que se ha referido el señor Decano de Medicina se hacen
-sentir igualmente en las diversas Facultades universitarias, i
-seria, por tanto, conveniente el envío de jóvenes que fueran a
-perfeccionar sus estudios tanto en Medicina como en Injeniería,
+El  señor Rector  de  la  Universidad manifiesta que  las  necesiuniversitarias,  1 a
 
-## Images, Captions, And Visual Notes
-
-There are no images, illustrations, or other visual elements on this page.
-
-## Uncertain Or Illegible
-
-There are no uncertain or illegible words on this page.
-
-## Completeness Audit
-
-This page is a complete and fully transcribed representation of the source image.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page consists entirely of printed text with no images, illustrations, or other significant visual elements."}
+dades  a  que  se  ha  referido  el señor  Decano  de  Medicina  se  hacen sentir igualmente en las diversas Facultades seria,  por  tanto,  conveniente el  envío de  jóvenes  que  fueran perfeccionar sus estudios  tanto  en  Medicina  como en Injeniería,
 ```
 
-## Page Metadata
-Page number: 246
-Source publication page number: 532
-
-## Layout And Reading Order
-
-The page presents text in a single column. The header includes the page number on the left and the publication title on the right. The main content consists of several paragraphs, some of which are indented.
-
-## Literal Transcription
-
-532 BOLETIN DE INSTRUCCION PÚBLICA
-
-Leyes i Pedagojía. A este propósito, recuerda el señor Rector
-haber leido hace poco un libro de un profesor de la Sorbona
-en que, despues de esponer que la instruccion secundaria en los
-Estados Unidos es deficiente, hace grandes elojios de las cáte-
-dras universitarias i especialmente de los diversos institutos
-de investigacion, i termina proponiendo al Gobierno de Francia
-la creacion de casas para estudiantes, a fin de fomentar su envío
-i porque de ese modo el gasto se hace menor para el erario na-
-cional. Concluye el señor Rector, haciendo indicacion para que
-se solicite del señor Ministro el envío de alumnos distinguidos
-de las distintas Facultades a perfeccionar sus estudios a Estados
-Unidos, i la creacion de casas para estudiantes, las cuales podrian
-funcionar como ya lo ha manifestado, bajo la direccion de un
-profesor de aquel pais.
-
-Se aprobó por unanimidad la indicacion del señor Rector.
-
-En cuanto a su tercera proposicion, espresa el señor Rector
-de la Universidad, que, en su concepto, el Museo de Historia
-Natural, ademas de sus labores de investigacion, está en situa-
-cion de prestar importantísimos servicios a la cultura ambiente,
-por lo cual hace indicacion para que se insinúe al señor Ministro
-de Instruccion la conveniencia de que los jefes de Seccion del
-Museo den conferencias o cursos cortos, unos para alumnos
-de los Liceos, i otros para el público en jeneral.
-
-El señor Rector del Instituto Nacional encuentra mui digna
-de apoyo la idea del señor Rector de la Universidad, pero e
-de opinion que seria preferible que dichos cursos o conferencias
-se circunscribieran a la poblacion escolar, para lo cual podrian
-dictarse en las vacaciones de Setiembre o en las tardes de los
-jueves, dias en que el mayor número de colejios suspende el
-funcionamiento de las clases.
-
-Se aprobó la indicacion del señor Rector de la Universidad.
-
-El señor Consejero Salas Lavaqui hace indicacion para que
-se obtenga de los médicos-lejistas que den en la morgue, confe-
-rencias destinadas a los alumnos de la Escuela de Medicina
-i a los estudiantes de Medicina Legal de la Escuela de Leyes,
-naturalmente que con todas las restricciones que exije el secreto
-de las autopsias.
-
-No se tomó resolucion sobre el particular.
-
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-None.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-All visible text on the page has been transcribed.
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Visual Region Manifest
+# Page 246
 
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 246
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0246.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Leyes  i Pedagojía. A este propósito,  recuerda el  señor Rector -  haber leido hace poco un libro de  un profesor de  la  Sorbona en  que,  despues  de  esponer  que  la  instruccion secundaria  en  los Estados Unidos  es  deficiente, hace grandes  elojios  de las  cátedras universitarias i  especialmente de los diversos institutos de  investigacion, i termina proponiendo  al  Gobierno  de  Francia la  creacion  de  casas  para  estudiantes,  a  fin  de  fomentar  su  envío i porque  de  ese  modo  el  gasto  se  hace  menor  para  el  erario  nacional. Concluye  el  señor Rector,  haciendo indicacion  para  que se solicite del  señor Ministro el  envío de  alumnos  distinguidos de  las  distintas  Facultades  a  perfeccionar  sus  estudios  a  Estados Unidos,  i  la creacion  de casas  para  estudiantes,  las cuales  podrian funcionar  como ya  lo  ha  manifestado,  bajo la direccion de  un profesor  de  aquel  pais.
+
+Se  aprobó  por  unanimidad  la  indicacion del  señor  Rector.
+
+En  cuanto a  su tercera proposicion, espresa el  señor Rector de  la  Universidad, que, en su concepto, el  Museo de  Historia Natural, ademas  de  sus  labores de  investigacion, está  en situacion  de  prestar  importantísimos  servicios  a  la  cultura  ambiente, por  lo  cual  hace  indicacion  para  que  se  insinúe  al  señor  Ministro de  Instruccion la  conveniencia de  que  los  jefes  de  Seccion del Museo den conferencias o cursos cortos, unos para aluamos de  los  Liceos,  1 otros  para  el  público  en  jeneral.
+
+El  señor Rector  del  Instituto Nacional encuentra  mui  digna
+
+de  apoyo la idea del  señor Rector de  la  Universidad, pero e de  opinion  que  seria  preferible  que  dichos  cursos  o  conferencias se  circunscribieran a  la  poblacion escolar,  para  lo  cual  podrian dictarse en las  vacaciones de  Setiembre o  en las  tardes  de  los jueves, dias en que el  mayor número de  colejios suspende el funcionamiento de  las  clases.
+
+Se  aprobó  la  indicacion del  señor Rector de  la  Universidad. que de  Leyes,
+
+El  señor Consejero Salas Lavaqui  hace indicacion para se  obtenga  de  los  médicos-lejistas que  den  en  la  morgue, conferencias destinadas a los alumnos de la  Escuela de Medicina 1 a los  estudiantes de  Medicina Legal  de  la  Escuela naturalmente  que  con  todas  las  restricciones  que  exije  el secreto de  las  autopsias.
+
+No  se  tomó  resolucion sobre  el  particular.
 ```
 
-## Page Metadata
-- Page number: 247
-- Source publication year: 1918
-- Source publication month: September
-- Source publication title: Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918.
-
-## Layout And Reading Order
-The page consists of a header with session information and page number, followed by a single column of continuous text divided into five paragraphs.
-
-## Literal Transcription
-SESION DE 28 DE OCTUBRE DE 1918 533
-
-El señor Consejero Espejo insinúa al señor Decano de Me-
-dicina la conveniencia de estudiar los medios para establecer
-en los Liceos el servicio médico escolar sobre bases verda-
-deramente científicas. Cree el señor Rector del Instituto Na-
-cional que es esta una necesidad que no debe quedar sin satis-
-faccion por mas tiempo, pues hai en todos los establecimientos
-un cierto número de alumnos que aparecen como perezosos,
-distraidos o de mala conducta, los cuales no son en realidad
-sino enfermos o víctimas de anormalidades que no se descu-
-bren fácilmente, i que, atendidos como se debe por el médico
-escolar, podrian recibir una educacion mas adecuada a sus con-
-diciones de salud. Añade el señor Consejero Espejo que su es-
-periencia de jefe de establecimiento le ha venido a demostrar
-que en muchas ocasiones sólo el médico está en situacion de
-dar ciertos consejos a los padres de familia, en órden a mejorar
-o correjir hábitos morales de los educandos; de todo lo cual
-ha llegado al convencimiento de que es preciso establecer sin
-dilaciones el servicio médico escolar, pero un servicio que no
-se limite a meras indicaciones sobre la salubridad del colejio
-o a consejos sobre hijiene, sino que sea ademas un eficaz cola-
-borador en las tareas educativas que le están especialmente
-encomendadas al Rector.
-
-El señor Decano de Medicina manifiesta que su opinion es
-francamente favorable al establecimiento del servicio médico
-escolar, que, por desgracia no existe en ninguno de los grados
-de nuestra enseñanza; pero estima, al mismo tiempo, que la
-iniciativa para realizarlo debe partir del Supremo Gobierno.
-
-El señor Rector de la Universidad cree que, si la Facultad
-de Medicina estudia la materia, i redacta un proyecto, podria
-el Consejo hacer indicacion al Gobierno para que se implante
-el servicio médico en los establecimientos de segunda enseñanza.
-
-Se acordó pedir a la Facultad de Medicina se sirva estudiar
-i proponer un plan de servicio médico-escolar.
-
-El señor Secretario Jeneral da cuenta de haber realizado la
-jestion que le encomendara el Consejo ante el Director de la
-Escuela de Bellas Artes para tratar de la vuelta de las alumnas
-a sus clases, i espresa que éste puso en su conocimiento que
-todas ellas, con escepcion de una que no lo hará hasta el próximo
-
 ## Images, Captions, And Visual Notes
-This page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements for cropping."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 247
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 247
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0247.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+-
+
+El  señor  Consejero Espejo insinúa al  señor Decano de  Medicina la  conveniencia de  estudiar los  medios para establecer en los Liceos el servicio médico  escolar sobre bases verdaderamente científicas. Cree el  señor Rector del Instituto Nacional  que  es  ésta  una  necesidad que  no debe  quedar  sin  satisfaccion por  mas  tiempo,  pues  hai  en  todos  los  establecimientos un cierto número de  alumnos que aparecen como perezosos, distraidos o  de  mala  conducta, los cuales no son en realidad sino enfermos o víctimas de  anormalidades que no se descubren fácilmente, 1 que, atendidos como se debe  por  el  médico escolar,  podrian  recibir  una  educacion  mas  adecuada  a  sus  condiciones de  salud. Añade  el  señor Consejero Espejo  que  su  esperiencia de  jefe  de  establecimiento le  ha  venido a  demostrar que en muchas ocasiones sólo el  médico está en situacion de dar  ciertos  consejos  a  los  padres  de  familia,  en  órden  a  mejorar o correjir  hábitos morales de  los  educandos; de  todo lo  cual ha  llegado al  convencimiento de  que es preciso establecer sin dilaciones el  servicio  médico escolar, pero un servicio que  no se limite a  meras indicaciones sobre la  salubridad del colejio o  a  consejos  sobre hijiene, sino que  sea ademas  un  eficaz  colaborador en las tareas educativas que le  están especialmente encomendadas  al  Rector.
+
+El  señor Decano de  Medicina manifiesta que su opinion es francamente favorable al  establecimiento del servicio médico escolar, que, por desgracia  no existe en ninguno  de  los  grados de  nuestra enseñanza; pero estima, al  mismo tiempo, que la iniciativa para  realizarlo debe  partir  del  Supremo Gobierno.
+
+El  señor Rector de  la  Universidad cree que, si  la  Facultad de  Medicina estudia la  materia, i redacta un proyecto, podria el  Consejo hacer indicacion al  Gobierno para que se implante el servicio  médico  en  los  establecimientos  de  segunda  enseñanza.
+
+Se  acordó pedir  a  la  Facultad de  Medicina se sirva  estudiar 1 proponer  un  plan  de  servicio médico-escolar.
+
+El  señor  Secretario Jeneral da  cuenta de  haber realizado la de  la conocimiento  que
+
+jestion  que  le  encomendara el  Consejo ante el  Director Escuela  de  Bellas  Artes  para  tratar  de  la  vuelta  de  las  alumnas a sus clases, i espresa que éste puso en su todas  ellas,  con  escepcion  de  una  que  no  lo  hará  hasta  el próximo
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 534
@@ -593,66 +565,63 @@ All visible text and the decorative rule have been transcribed and noted.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected. The page contains only text and a minor decorative rule."}
 ```
 
+# Page 253
+
 ## Page Metadata
-- Page number: 539
-- Header: SESION DE 28 DE OCTUBRE DE 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/manifest.json`
+- Source page: 253
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0244-0263-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-244-263/page-images/page-0253.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a header with the session date and page number, followed by a single column of continuous prose. The reading order is strictly top-to-bottom, left-to-right.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-SESION DE 28 DE OCTUBRE DE 1918 539
 
-El señor Rector del Instituto Nacional, espresó que le parecia
-conveniente que en el reglamento se estableciera como obliga-
-toria la suspension de las clases en las tardes de los dias jueves.
-El señor Decano de Humanidades manifestó que, en su con-
-cepto, la suspension de clases en el dia indicado, no era preci-
-samente un asueto, i por tanto, se hallaria fuera de lugar en
-el reglamento en estudio; i cree que, para llevarla a efecto,
-convendria proponer una reglamentacion del horario escolar en
-la cual podia contemplarse dicha suspension.
-El señor Consejero Espejo hizo indicacion para que el período
-de las vacaciones de verano se fijara entre el 10 de Enero i el
-20 de Marzo, en atencion a que ántes de esta última fecha, es
-mui difícil, segun es de arraigada la costumbre, que las familias
-hayan regresado de su veraneo, i a la necesidad de regularizar
-los exámenes de repeticion que deben rendirse ántes de la aper-
-tura de las clases. Tambien opina, pero sin hacer indicacion
-formal sobre la materia, que, aun cuando se consulten vaca-
-ciones de invierno, valdria la pena conservar los 20 dias que
-ahora se conceden en el mes de Setiembre, puesto que, comen-
-zando los exámenes de final de curso el 26 de Diciembre, queda
-prolongado de hecho el año escolar.
-El señor Consejero Matte estima que la apertura de las clases
-no debe postergarse mas allá del 10 de Marzo, porque no son
-convenientes las vacaciones demasiado largas. Cree el señor
-Consejero que en estos períodos de descanso, que duran con
-exceso, pierden los alumnos sus buenos hábitos de trabajo.
-Agrega el señor Consejero que la vida tanto en Santiago como
-en provincia se normaliza desde el 1.º de Marzo, fecha en que
-se reabren los Tribunales de Justicia. Segun entiende, en la
-actualidad, todos los Liceos reanudan sus tareas sin ningun
-tropiezo el 11 de Marzo, i es de suponer que así seguirá ocu-
-rriendo. Por otra parte, dice el señor Consejero Matte, que el
-número de familias que posterga su veraneo, familias en su
-mayoría acomodadas i a las cuales podria pedírseles sin mayor
-sacrificio un regreso mas temprano, es relativamente escaso,
-i no cree justo que por unos cuantos alumnos se cause un per-
-juicio a la mayoría. Por todas las razones que ha espuesto
-el señor Consejero Matte es partidario de que se apruebe el
+```markdown
+El  señor  Rector  del  Instituto  Nacional,  espresó  que  le  parecia conveniente que  en el reglamento se estableciera como obligatoria  la  suspension  de  las  clases  en  las  tardes  de  los  dias  jueves.
+
+El  señor  Decano  de  Humanidades  manifestó  que,  en  su  concepto,  la  suspension de  clases en el  dia  indicado, no era precisamente un asueto, 1 por tanto, se hallaria fuera de  lugar  en el  reglamento en estudio; 1  cree que, para llevarla a efecto, convendría  proponer  una  reglamentacion del  horario escolar en la  cual  podia  contemplarse dicha suspension.
+
+El señor  Consejero  Espejo  hizo  indicacion  para  que  el período de  las  vacaciones de  verano se fijara  entre el  10.de  Enero 1 el 20  de  Marzo, en atencion a  que  ántes de  esta  última fecha, es mui  difícil,  segun  es  de  arraigada  la  costumbre, que  las  familias hayan  regresado  de  su  veraneo, ia  la  necesidad de  regularizar los  exámenes  de  repeticion  que  deben  rendirse  ántes  de  la  apertura de  las  clases. Tambien opina, pero sin hacer indicacion formal sobre la  materia, que, aun cuando se consulten vacaciones de  invierno, valdria la  pena conservar los 20  dias que ahora  se  conceden en  el  mes  de  Setiembre, puesto  que,  comenzando  los  exámenes  de  final  de  curso el  26  de  Diciembre,  queda prolongado de  hecho el  año escolar.
+
+El  señor  Consejero  Matte  estima  que  la  apertura  de  las  clases no debe  postergarse mas allá  del  10  de  Marzo, porque no son convenientes las vacaciones demasiado largas. Cree el señor Consejero que en estos períodos de  descanso, que duran con exceso, pierden los alumnos sus  buenos hábitos de trabajo. Agrega  el  señor Consejero  que  la  vida  tanto en  Santiago  como en  provincia se  normaliza desde  el  1.0  de  Marzo, fecha en que se reabren los  Tribunales de Justicia. Segun entiende, en la actualidad, todos los Liceos reanudan sus tareas sin ningun tropiezo el  11  de  Marzo, i es  de  suponer que  así  seguirá ocurriendo. Por  otra parte, dice el  señor Consejero Matte, que el número de familias que  posterga su veraneo, familias en su mayoría  acomodadas  1 a  las  cuales  podria  pedírseles  sin  mayor sacrificio un regreso mas temprano, es relativamente escaso, 1 no eree justo  que  por  unos  cuantos alumnos  se  cause un petrjuicio a la  mayoría. Por todas las razones que ha espuesto el  señor Consejero Matte es partidario de que se apruebe el
+```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or substantial visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None. All text is clear and legible.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all text and layout elements present on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 540

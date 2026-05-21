@@ -340,66 +340,75 @@ The transcription is complete for all visible text on the page. The last entry i
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
+# Page 229
+
 ## Page Metadata
-- Page number: 515
-- Header: SESION DE 14 DE OCTUBRE DE 1918
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 229
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0229.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text flows continuously from top to bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-nuacion las vias artificiales, es decir, los caminos i los ferroca-
-rriles.
-Como segunda i mas importante parte de la obra viene un
-estudio económico i político de cerca de doscientas pájinas so-
-bre los ferrocarriles de Chile, dividido a su vez en tres partes.
-En la primera de ellas se trata del desarrollo de los ferrocarri-
-les chilenos, de sus causas i efectos político-económicos. En la
-segunda, de la organizacion de los ferrocarriles en Chile, es de-
-cir, de la lejislacion ferroviaria, de la administracion de los fe-
-rrocarriles, del problema del material rodante i de las tarifas.
-Por último, en la tercera parte, se trata del problema financiero
-de los ferrocarriles: del coeficiente de esplotacion i la rentabili-
-dad de la red del Estado. Termina la obra con un capítulo destinado
-a resumir las conclusiones de política futura del tráfico nacional.
-El estudio de conjunto de los problemas del tráfico nacional
-constituye sin duda un objetivo de suma importancia económi-
-ca. El profesor Martner ha sido, pues, feliz en la eleccion del
-tema de su obra; i ha demostrado en el curso de ella tener un
-pleno conocimiento de la materia tratada con lo cual ha pres-
-tado un servicio científico que honra a nuestra Universidad.
-No cabe duda que uno de los objetivos de los esfuerzos uni-
-versitarios debe consistir en el estudio científico de los pro-
-blemas de mayor interes nacional. De esta manera las luces del
-saber que deben emanar de los centros científicos, contribuyen
-en forma práctica al progreso de la nacion.
-Nuestra literatura económica ha sido a menudo demasiado
-influenciada por la europea; los economistas nacionales han so-
-lido descuidar el estudio inductivo i realista de nuestros pro-
-pios problemas. La obra del señor Martner es una reaccion salu-
-dable contra esta tendencia; i es de esperar que nuestra Uni-
-versidad continúe fomentando esta reaccion, es decir, estimu-
-lando el estudio de esta clase de trabajos.
-La redaccion de la obra es clara, precisa i sencilla como co-
-rresponde a su jénero; i es mui recomendable tambien el espíri-
-tu de imparcialidad, propio de las obras científicas, que se ma-
-nifiesta en los diversos temas que en ellas se tratan. El autor no
-ha emprendido su obra con el fuego a menudo apasionado, de
-los políticos de la práctica, sino con la serenidad que correspon-
+
+```markdown
+Lo nuacion  las  vias  artificiales, es  decir,  los  caminos 1 los  ferrocarriles.
+
+Como  segunda  1 mas importante parte  de  la  obra viene  un bre  los  ferrocarriles
+
+estudio  económico 1 político de  cerca de  doscientas pájinas  sode  Chile, dividido a  su vez en tres partes. En  la  primera  de  ellas  se  trata del  desarrollo de  los  ferrocarriles  chilenos, de  sus causas i efectos  político-económicos. En  la segunda,  de  la  organizacion de  los  ferrocarriles en Chile, es decir,  de  la  lejislacion ferroviaria, de  la  administracion de los  ferrocarriles, del  problema del  material rodante i de  las tarifas. Por  último,  en  la tercera  parte,  se  trata  del  problema  financiero de  los  ferrocarriles: del  coeficiente de  esplotacion  i la  rentabilidad de los  ferrocarriles 1 de  los  proyectos de  arrendamientos de la  red  del Estado.  Termina  la  obra  con  un  capítulo  destinado a  resumir  las conclusiones  de política  futura  del  tráfico  nacional.
+
+El  estudio de  conjunto  de los  problemas  del  tráfico  nacional del tema  de  su  obra;  1 ha  demostrado
+
+constituye  sin  duda  un  objetivo  de  suma  importancia  económica El profesor Martner ha  sido,  pues, feliz en la  eleccion en el  curso de  ella  tener  un pleno  conocimiento  de la  materia  tratada con  lo  cual  ha  prestado  un  servicio científico que  honra a  nuestra Universidad.
+
+No  cabe  duda  que  uno de  los  objetivos de los  esfuerzos uniproDe  esta  manera  las  luces  del
+
+versitarios debe consistir en el  estudio científico de los blemas  de mayor  interes  nacional. saber  que  deben  emanar de  los  centros  científicos, contribuyen en forma práctica al  progreso de  la  nacion.
+
+Nuestra  literatura económica ha  sido a  menudo demasiado influenciada por  la  europea; los  economistas nacionales han  solido descuidar el  estudio inductivo 1 realista de  nuestros propios  problemas.  La  obra  del  señor  Martner  es  una  reaccion  saludable  contra esta tendencia; i es de  esperar que  nuestra Universidad continúe fomentando esta reaccion,  es  decir,  estimulando el  cstudio de  esta clase  de  trabajos.
+
+La  redaccion  de  la  obra es clara,  precisa.  i sencilla como  co-
+
+rresponde  a  su  jénero;  1 es  mui  recomendable tambien  el espíritu  de  imparcialidad, propio  de  las,  obras científicas, que  se  manifiesta  en  los  diversos  temas  que  en  ellas  se  tratan. El  autor  no ha  emprendido  su  obra  con el  fuegó  a  menudo apasionado, de los  políticos  de  la  práctica,  sino  con la  serenidad que correspon-
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate for all visible text on the page. The last paragraph is cut off at the bottom of the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no images or other visual elements that are suitable for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 516
@@ -671,67 +680,81 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page."}
 
+# Page 234
+
 ## Page Metadata
-- Page number: 520
-- Source publication: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 234
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0234.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text, with a running header at the top. The text is organized into several paragraphs, some of which are indented.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-520 BOLETIN DE INSTRUCCION PÚBLICA
 
-8.º De una nota del profesor del Seminario de Ciencias Eco-
-nómicas, don Daniel Martner, en que pide se envíe a perfeccio-
-nar sus estudios en Europa o Estados Unidos a un alumno de
-dicho Seminario.
-Se acordó pedir informe a la Facultad de Leyes.
-A continuacion el señor Rector de la Universidad puso en
-tabla las indicaciones hechas en la sesion anterior, para que en-
-tre a formar parte de las comisiones examinadoras el profesor
-del ramo en el Instituto Andres Bello i en los Colejios de San
-Agustin i San Pedro Nolasco.
-Por unanimidad se autorizó al señor Rector para que forma-
-ra las comisiones examinadoras del Instituto Andres Bello, dan-
-do cabida al profesor de las distintas asignaturas.
-Puestas en votacion las indicaciones para conceder la misma
-gracia a los Colejios de San Agustin i de San Pedro Nolasco, fue-
-ron desechadas por 6 votos contra 3. Se abstuvo de votar el
-señor Consejero Prado Amor, el cual manifestó que, a causa de
-asistir por primera vez a las sesiones i por tratarse de una ma-
-teria que no habia tenido tiempo de estudiar, no se creia en si-
-tuacion de pronunciarse sobre ella.
-En seguida el señor Rector Amunátegui espresó que en una reu-
-nion que habia celebrado el 5 del presente, con los Presidentes
-de las comisiones examinadoras, los de Química i Frances del
-sistema antiguo le habian representado la conveniencia de au-
-mentar a 20 minutos el tiempo destinado a estas pruebas.
-Se acordó no innovar en la materia, de modo que la duracion
-de dichos exámenes continuarán siendo, como antes, de 15 mi-
-nutos.
-Tambien dió cuenta el señor Rector, de haber autorizado al
-Pro-Rector de la Universidad para que dé instrucciones a los
-examinadores en el sentido de que no deben recibir exámenes
-de las diversas asignaturas a aquellos estudiantes que no hayan
-rendido las pruebas de los cursos anteriores del mismo ramo.
-Con este motivo el señor Consejero Salas Lavaqui espresó
-que le parecia conveniente insistir en la indicacion que hizo en
-1917, para que se disminuya el número de exámenes que deben
-rendir los estudiantes de colejios particulares i de clases priva-
-das. En concepto del señor Consejero deben agruparse las prue-
-bas de los ramos similares, a fin de que no haya más de 5 por año.
+```markdown
+8.0  De  una  nota del  profesor  del  Seminario de  Ciencias  Eco-
+
+nómicas, don  Daniel Martner, en  que  pide seenvíe a  perfeccionar sus estudios en  Europa  o  Estados Unidos  a  un  alumno de dicho Seminario. ,
+
+Se  acordó  pedir  informe  a  la  Facultad  de  Leyes.
+
+A  continuacion el  señor Rector de  la  Universidad puso en tabla  las  indicaciones hechas  en  la  sesion  anterior,  para  que  entre  a  formar  parte  de  las  comisiones  examinadoras el  profeso1 del  ramo en el  Instituto Andres  Bello  i en los  Colejios  de  San Agustin 1  San Pedro Nolasco.
+
+Por  unanimidad  se  autorizó  al  señor  Rector  para  que  forma-
+
+ra  las  comisiones  examinadoras  del  Instituto  Andres  Bello,  dando  cabida al  profesor  de  las  distintas  asignaturas.
+
+Puestas en  votacion las  indicaciones  para  conceder  la  misma gracia a  los  Colejios  de  San  Agustin  i  de  San  Pedro  Nolasco,  fue&gt; ron desechadas por  6 votos contra 3.  Se  abstuvo de  votar el señor  Consejero  Prado  Amor,  el cual  manifestó que,  a  causa de asistir  por  primera  vez  a  las  sesiones  i por  tratarse  de  una  materia que  no  habia  tenido  tiempo  de estudiar, no se  creia  en  situacion de  pronunciarse sobre ella.
+
+En seguida  el señor  Rector  Amunátegui  espresó  que  en  una  reudel
+
+nion  que  habia  celebrado el  5  del  presente, con los  Presidentes de  las  comisiones examinadoras, los  de  Química  i Frances sistema antiguo  le  habian representado  la  conveniencia de  aumentar a  20  minutos el  tiempo  destinado a  estas  pruebas.
+
+Se acordó  no  innovar  en  la  materia,  de  modo  que  la  duracion como  antes,  de  15  mi-
+
+de  dichos  exámenes  continuarán siendo, nutos.
+
+Tambien dió  cuenta el  señor  Rector, de  haber  auto1izado al  * Pro-Rector  de  la  Universidad  para que  dé  instrucciones a los examinadores en el  sentido de  que  no  deben recibir  exámenes de las  diversas  asignaturas  a  aquellos  estudiantes  que  no  hayan rendido las  pruebas de  los  cursos anteriores del  mismo ramo.
+
+Con este motivo el  señor Consejero Salas Lavaqui espresó que  le parecia  conveniente  insistir  en  la  indicacion que  hizo  en 1917,  para  que  se  disminuya  el número  de  exámenes  que  deben  rendir los estudiantes de  colejios  particulares  i de  clases priva-= das.  En  concepto  del  señor  Consejero  deben  agruparse  las  pruebas  de los  ramos  similares,  a  fin  de que  no haya  más  de 5 por año.  -
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images or captions.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 521
@@ -973,127 +996,121 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content found."}
 
-## Page Metadata
-- Page number: 525
-- Header: SESION DE 21 DE OCTUBRE DE 1918
-
-## Layout And Reading Order
-The page consists of a single column of text. The header is at the top, followed by two main paragraphs of text, separated by a centered subheading. The last paragraph appears to be cut off at the bottom of the page.
-
-## Literal Transcription
-arte, en cualquiera de las múltiples manifestaciones de la acti-
-vidad humana, que caben dentro de las tres denominaciones
-jenéricas que dejo indicadas. Mis ideas, que constituyen el Es-
-tatuto Jeneral de esta fundacion, son las siguientes: Dejo trein-
-ta mil pesos, que formarán el fondo o la dote perpetua de esta
-fundacion, cuyos productos anuales se destinarán al premio,
-tambien anual, que se ha de aplicar a la que sea preferible de
-las obras que, en el año hayan visto la luz pública. La adminis-
-tracion de ese fondo será desempeñada por la Facultad de Le-
-yes i Ciencias Políticas de la Universidad de Chile, a la cual
-pido encarecidamente que preste este servicio. La misma Fa-
-cultad será la que declare la preferencia que, en su concepto,
-merezca la obra que se quiera premiar. Esa preferencia será de-
-clarada por mayoría absoluta de sufrajios; i, si se incurriese en
-un empate se sacará a la suerte, entre las dos que hayan pro-
-ducido ese empate, o se dividirá el premio por mitad entre las
-dos, segun lo resuelva la Facultad. La colocacion de los fondos
-en papeles de renta o en algun inmueble productivo, se hará por
-el Decano i Secretario de la Facultad conjuntamente. De la mis-
-ma manera podrá cambiarse la inversion, siempre con el fin de
-obtener mas renta o mas garantía. El premio se llamará «Premio
-Martínez». Si por algun motivo que yo no alcanzo, no fuera po-
-sible llevar a cumplido efecto esta fundacion, ordeno que los
-treinta mil pesos sean distribuidos prudencialmente entre jen-
-tes pobres, de esas que son calificadas como pobres vergonzantes.
-
-PLIEGO ANEXO A MI TESTAMENTO
-
-Es opinion de muchos que la Universidad del Estado no es
-persona jurídica, por cuanto no ha sido aprobada judicialmente
-por el Presidente de la República, con acuerdo del Consejo de
-Estado. Yo profeso la opinion contraria. El mismo artículo qui-
-nientos cuarenta i seis del Código Civil, en que se fundan los
-que niegan la personalidad jurídica a la Universidad, dice que
-revisten tal carácter las Corporaciones que han sido creadas
-por lei, i la Universidad Oficial tiene su razon de ser i arranca su
-existencia de una lei. Pero hai mas, el artículo quinientos cua-
-renta i siete del mismo Código declara que son Corporaciones
-
-## Images, Captions, And Visual Notes
-There are no images, captions, or significant visual notes on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-The transcription is complete for all visible text on the page. The last paragraph is cut off at the bottom of the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+# Page 239
 
 ## Page Metadata
-Page number: 526
-Running header: BOLETIN DE INSTRUCCION PÚBLICA
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 239
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0239.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page consists of a single column of text. The page number "526" is in the top left corner, and the running header "BOLETIN DE INSTRUCCION PÚBLICA" is in the top right. The main body of text follows in a single block.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-de derecho público la Nacion i el Fisco, siendo así que la nacion
-no es otra cosa que el Estado, dentro del cual i como una de sus
-esferas de accion funciona la Universidad, que es parte del
-ramo de Instruccion Pública. En efecto, el artículo ciento cua-
-renta i cinco de la Constitucion Política ordena que haya una
-superintendencia de educacion, a cuyo cargo estará la inspec-
-cion de la enseñanza nacional i su direccion, bajo la autoridad
-del Gobierno. La Universidad no es otra cosa que esa entidad
-directiva de la educacion pública, i por lo tanto, goza de la per-
-sonalidad jurídica que corresponde a toda Corporacion de de-
-recho público. Por ser esta mi opinion, he nombrado en mi tes-
-tamento a una de las secciones de esa Corporacion, para que
-administre el fondo pecuniario destinado a premios i discierna
-el Premio Martínez. Es mas que probable que se objete la desig-
-nacion que hago de una de las Facultades, para que llene ese
-fin, porque se dirá que ella no se compone de hombres enciclo-
-pédicos, capaces de juzgar la excelencia de obras de mui distin-
-to carácter; pero yo contesto que, si se formase una comision
-compuesta de los Decanos de todas las Facultades, siempre se
-caería en el inconveniente de que el matemático, no podria,
-mas que probablemente, dar su juicio respecto de obras de de-
-recho o literarias, i vice-versa; de manera que no se obtendría
-el concurso de opiniones ilustradas i conscientes respecto a pro-
-ducciones de cuatro, cinco o mas ramos del espíritu humano.
-El ejemplo mas elocuente de lo que vengo diciendo se encuen-
-tra en el premio noruego Nobel, que se adjudica a intelectuales
-de todo el mundo civilizado, que cultivan los conocimientos mas
-variados de las ciencias de la literatura i de las artes. Si he es-
-cojido a la Facultad de Leyes i Ciencias Políticas, es porque per-
-tenezco a ella, i porque creo que, por término medio se encuen-
-tran en esa seccion, los hombres mas jeneralmente ilustrados, i
-finalmente, porque siempre hai que ayudarse de las investiga-
-ciones i pareceres de otras personas para formar el propio con-
-cepto, i aun contribuye a este fin lo que se denomina la opinion
-pública. No puede obtenerse nada perfecto en este órden de ideas;
-pero hai que contentarse con obtener lo ménos malo i esperar
-la resultante de la votacion, que se operará de un año a otro.
-Si yo viviera me contentaría con producir un resultado que se
+
+```markdown
+»
+
+arte,  en  cualquiera de  las  múltiples  manifestaciones de  la  actividad humana, que caben dentro de  las tres denominaciones jenéricas  que  dejo  indicadas.  Mis  ideas,  que  constituyen el  l£statuto  Jeneral  de  esta  fundacion, son  las  siguientes: Dejo  treinta  mil  pesos,  que  formarán el  fondo o  la  dote  perpetua de  esta fundacion, cuyos productos anuales se destinarán al  premio, tambien  anual,  que  se  ha  de  aplicar  a  la  que  sea preferible de las  obras  que,  en  el año  hayan  visto  la  luz  pública.  La  administracion de  ese  fondo  será  desempeñada  por  la  Facultad  de  Leyes  i Ciencias Políticas de  la  Universidad de  Chile, a la  cual pido  encarecidamente que  preste este servicio. La  misma Facultad  será  la  que declare la  preferencia que, en  su concepto, merezca  la  obra  que  se quiera  premiar.  Esa  preferencia  será  declarada  por  mayoría  'absoluta de  sufrajios; 1, si  se  incurriese en un empate  se  sacará  a  la  suerte, entre  las  dos  que  hayan  producido  ese  empate,  o se  dividirá  el  premio  por  mitad entre  las dos,  segun  lo  resuelva  la  Facultad. La  colocacion de  los  fondos en  papeles  de  renta  o  en  aleun  inmueble  productivo,  se  hará  por el Decano  1 Secretario  de la  Facultad  conjuntamente.  De  la mismu  manera  podrá  cambiarse  la  inversion',  siempre  con el  fin  de obtener  mas  renta  o  mas  garantía.  El  premio  se  llamará  «Premio Martínez».  S1  por  algun  motivo'que  yo  no  alcanzo,  no  fuera  posible llevar a  cumplido efecto esta fundacion, ordeno que los treinta mil  pesos sean distribuidos prudencialmente entre jentes  pobres,  de esas  que  son  enlificadas  como  pobres  vergonzantes.
+
+## PLIEGO  ANEXO  A MI  TESTAMENTO
+
+Es  opinion  de  muchos que  la  Universidad del  Estado no es persona  jurídica,  por  cuanto  no  ha  sido  aprobada  judicialmente por  el  Presidente de  la  República, con acuerdo del  Consejo de Estado.  Yo profeso  la  opinion  contraria.  El  mismo  artículo  quinientos cuarenta i seis del  Código Civil, en que  se fundan los que  niegan  la  personalidad jurídica a  la  Universidad, dice  que revisten  «tal carácter las Corporaciones que han sido creadas po1  lei, i  la  Universidad  Oficial  tiene  su razon  de seri  arranca  su existencia de  una lei.  Pero hai  mas, el  artículo quinientos  cuarenta i siete  del  mismo  Código  declara que  son Corporaciones
+```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or significant visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 240
+
+## Page Metadata
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/manifest.json`
+- Source page: 240
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0224-0243-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-224-243/page-images/page-0240.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+.'
+
+e
+
+pa
+
+'de derecho  público  la  Nacion  i el  Fisco,  siendo  así que  la  nacion no  es  otra  cosa  que  el Estado;  dentro  del  cual  1  como  una de sus esferas de accion funciona la Universidad, que  és parte del ramo  de  Instruccion Pública. En  efecto, el  artículo ciento  cuarenta 1 cinco de  la  Constitucion Política  ordena que  haya  una superintendencia de  educacion, a  cuyo cargo estará la  inspeccion de  la  enseñanza nacional i su direccion, bajo  la  autoridad del  Gobierno. La  Universidad  no es otra cosa que  esa entidad directiva  de  la  educacion pública,  1-por  lo  tanto,  goza  de  la personalidad jurídica que  corresponde a toda Corporacion de  derecho  público. Por  ser  esta  mi  opinion,  he  nombrado  en  imi  testamento a  una de  las  secciones de  esa Corporacion, para que administre el  fondo pecuniario destinado  a  premios  i discierna el  Premio  Martínez.  Es  mas  que  probable  que  se  objete  l:  designacion que  hago  de  una de  las  Facultades, para que  llene ese fin,  porque  se  dirá  que  ella  no  se  compone  de  hombres  enciclopédicos,  capaces  de  juzgar  la  excelencia de  obras  de  mui  distinto  carácter; pero yo  contesto que, si  se  formase una comision compuesta de  los  Decanos  de  todas  las  Facultades,  siempre  se caería en el  inconveniente de  que el  matemático, no podria, mas que probablemente, dar  su  juicio  respecto de  obras  de  de-recho o  literarias, 1 vice-versa; de  manera que  no  se  obtendrí: el  concurso de  opiniones  ilustradas  i conscientes  respecto  a  producciones de  cuatro, cinco o  mas  ramos del espíritu  humano. El  ejemplo  mas  elocuente  de  lo  que  vengo  diciendo se  encuentra  en  el  premio  noruego Nobel,  que  se  adjudica  a  intelectuales de  todo  el  mundo  civilizado,  que  cultivan  los  conocimientos  más variados  de  las  ciencias de  la  literatura 1 de  las  artes. Si  he  escojido  a  la  Facultad  de  Leyes  1  Ciencias  Políticas,  es  porque  pertenezco  a  ella, 1  porque  creo que,  por  término  medio  se  encuentran en esa seccion,  los  hombres mas  jeneralmente  ilustrados, 1 finalmente, porque  siempre  hai  que  ayudarse  de  las  investigaciones  1 pareceres de  otras  personas  para formar el  propio  concepto,  1 aun  contribuye  a  este  fin  lo  que  se  denomina  la  opinion pública.  No puede  obtenerse  nada  perfecto  en  este  órden  de ide1s; pero hai  que  contentarse con obtener lo ménos  malo i esperar la  resultante de  la  votacion, que  se  operará  de  un  año a  otro. Si  yo  viviera me  contentaría con producir  un resultado que  se
 ```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 527

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2b3819b4138e-P0045-01
+chunk_id: CHUNK-c8f91e3920e7-P0045-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md
-converted_sha256: 2b3819b4138e0bfa8e21b029a65ea903e66d64d798f5d1176d44cf22ff632958
+converted_sha256: c8f91e3920e7120d60667772aaeaf534dcac820cde34163e5cf2b7c11d331c64
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json

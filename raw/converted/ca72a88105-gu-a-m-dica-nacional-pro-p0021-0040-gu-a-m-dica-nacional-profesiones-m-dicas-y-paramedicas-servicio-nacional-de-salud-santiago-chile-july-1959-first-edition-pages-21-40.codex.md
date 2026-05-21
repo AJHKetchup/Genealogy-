@@ -362,121 +362,101 @@ All visible text on the page has been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content like portraits, maps, or diagrams. The page contains only text and a page number."}
 ```
 
+# Page 25
+
 ## Page Metadata
-Page number: 25
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 25
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0025.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column list. The left column contains names, and the right column contains corresponding addresses and locations. The reading order is down the left column, then down the right column, with each name entry corresponding to an address/location entry on the same horizontal line. A page number "28 —" is centered at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Cortés Peña, Oscar
-Cortés Sáez, Ricardo
-Cortés Toro, Pedro
-Cortés Valda, Mario
-Cortés Zapata, Daniel
-Cortese Julio, Sergio
-Corvalán Rocco, Luis
-Corvalán Vera, Hernán
-Cossio Poillión, Germán
-Costa Bobadilla, Emilio
-Costa Canales, Julio
-Costa Cánepa, Luis
-Costa Casaretto, Claudio
-Costa Costa, Alberto
-Costa Lennón, Raúl
-Costa Mascaró, Alfonso
-Costa Vergara, Samuel
-Costamaillere Arteaga, Luis
-Courbis Villagra, Augusto
-Courtín de la Fuente, Luis
-Cousiño Alday, José A.
-Covacevich Cvitanich, Emilio
-Covarrubias Berríos, Edmundo
-Covarrubias Pardo, Alvaro
-Covarrubias Zenteno, Raúl
-Cox Huneeus, Juan C.
-Cox Lira, Fernando
-Cozzi Gutiérrez, Virgilio
-Crass Petersen, Víctor
-Crempien Jara, Federico
-Crisosto Ahumada, Carlos E.
-Cristi González, Berta
-Cristoffanini Trucco, Alberto
-Croizet Croizet, Emilio
-Croquevielle Guesalaga, Alberto
-Croxatto Rezzio, Héctor
-Croxatto Rezzio, Raúl
-Cruz-Coke Madrid, Ricardo
-Cruz Mena, Edgardo
-Cruz Muñoz, Héctor
 
-Cruz Norambuena, Carlos
-Cruz Plaza, Manuel
-Cruz Ponce, Carlos
-Cruz Pozo, René
-
-28 —
-
-Huérfanos 1147, Of. 536 Santiago
-Camp. Americano 226 Chuquicamata
-Valdivia 443 Los Angeles
-San Francisco 34, Dep. 21 Santiago
-Victoria 1081 Talagante
-Marín 0164 Santiago
-Lira 63 Santiago
-Corbalán Melgarejo 267 Santiago
-Ecuador 143 Viña del Mar
-Argomedo 82 Santiago
-Pasaje Jackson 337 Viña del Mar
-Blanco Encalada 1975 Santiago
-Monjitas 350 Santiago
-Ricardo Matte Pérez 510 Santiago
-Estado 360 Santiago
-San Cristóbal 352 Santiago
-Pedro de Valdivia 2264 Santiago
-Av. Gral Bustamante 529 Santiago
-Pedro Montt 157 Puerto Montt
-Avda. Suecia 3504 Santiago
-Edificio Prales, Dep. 605 Valdivia
-Ecuatoriana 1283 Punta Arenas
-Huérfanos 1055, Dep. 405 Santiago
-Almirante Barroso 65 Santiago
-El Vergel 2818 Santiago
-Alam. B. O'Higgins 1955 Santiago
-Santa Mónica 2313 Santiago
-Almirante Barroso 38 Santiago
-Camilo Henríquez 745 Valdivia
-Miguel Claro 2322 Santiago
-Amunátegui 72, Of. 54 Santiago
-Gral. Calderón 30 Santiago
-Avda. Suecia 2467 Santiago
-Londres 25 Santiago
-Prof. Porter 23 Santiago
-Obispo Orrego 98 Santiago
-Dr. Johow 535 Santiago
-Huérfanos 1147, Of. 751 Santiago
-Marcoleta 367 Santiago
-Matías Cousiño 150,
-Of. 820 Santiago
-
-Huérfanos 1869 Santiago
-4 Norte 1111 Viña del Mar
-Gran Avenida 6395 Santiago
-Juan de Austria 515 Santiago
+```markdown
+| Cortés Peña, Oscar                    | Huérfanos 1147, Of. 536     | Santiago     |
+|---------------------------------------|-----------------------------|--------------|
+| Cortés Sáez, Ricardo                  | Camp. Americano 226         | Chuquicamata |
+| Cortés Toro, Pedro                    | Valdivia 443                | Los Angeles  |
+| Cortés Valda, Mario                   | San Francisco 34, Dep. 21   | Santiago     |
+| Cortés Zapata, Daniel                 | Victoria 1081               | Talagante    |
+| Córtese Julio, Sergio                 | Marín 0164                  | Santiago     |
+| Corvalán Rocco, Luis                  | Lira 63                     | Santiago     |
+| Corvalán Vera, Hernán                 | Corbalán Melgarejo 267      | Santiago     |
+| Cossio Poillión, Germán               | Ecuador 143                 | Viña del Mar |
+| Costa Bobadilla, Emilio               | Argomedo 82                 | Santiago     |
+| Costa Canales, Julio                  | Pasaje Jackson 337          | Viña del Mar |
+| Costa Cánepa, Luis                    | Blanco Encalada 1975        | Santiago     |
+| Costa Casaretto, Claudio              | Monjitas 350                | Santiago     |
+| Costa Costa, Alberto                  | Ricardo Matte Pérez 510     | Santiago     |
+| Costa Lennon, Raúl                    | Estado 360                  | Santiago     |
+| Costa Mascaró, Alfonso                | San Cristóbal 352           | Santiago     |
+| Costa Vergara, Samuel                 | Pedro de Valdivia 2264      | Santiago     |
+| Costamaillere Arteaga, Luis           | Av. Gral Bustamante 529     | Santiago     |
+| Courbis Villagra, Augusto             | Pedro Montt 157             | Puerto Montt |
+| Courtín de la Fuente, Luis            | Avda. Suecia 3504           | Santiago     |
+| Cousiño Alday, José A.                | Edificio Prales, Dep. 605   | Valdivia     |
+| Covacevich Cvitanich, Emilio          | Ecuatoriana 1283            | Punta Arenas |
+| Covarrubias Berríos, Edmundo          | Huérfanos 1055, Dep. 405    | Santiago     |
+| Covarrubias Pardo, Alvaro             | Almirante Barroso 65        | Santiago     |
+| Covarrubias Zenteno, Raúl             | El Vergel 2818              | Santiago     |
+| Сох Huneeus, Juan C.                  | Alam. B. O'Higgins 1955     | Santiago     |
+| Сох Lira, Fernando                    | Santa Mónica 2313           | Santiago     |
+| Cozzi Gutiérrez, Virgilio             | Almirante Barroso 38        | Santiago     |
+| Crass Petersen, Víctor                | Camilo Henríquez 745        | Valdivia     |
+| Crempien Jara, Federico               | Miguel Claro 2322           | Santiago     |
+| Crisosto Ahumada, Carlos E.           | Amunátegui 72, Of. 54       | Santiago     |
+| Cristi González, Berta                | Gral. Calderón 30           | Santiago     |
+| Cristoffanini Trueco, Alberto         | Avda. Suecia 2467           | Santiago     |
+| Croizet Croizet, Emilio               | Londres 25                  | Santiago     |
+| Croquevielle Guesalaga, Alberto       | Prof. Porter 23             | Santiago     |
+| Croxatto Rezzio, Héctor               | Obispo Orrego 98            | Santiago     |
+| Croxatto Rezzio, Raúl                 | Dr. Johow 535               | Santiago     |
+| Cruz-Coke Madrid, Ricardo             | Huérfanos 1147, Of. 751     | Santiago»    |
+| Cruz Mena, Edgardo                    | Marcoleta 367               | Santiago     |
+| Cruz Muñoz, Héctor Cruz Muñoz, Héctor | Matías Cousiño 150, Of. 820 | Santiago     |
+| Cruz Norambuena, Carlos               | Huérfanos 1869              | Santiago     |
+| Cruz Plaza, Manuel                    | 4 Norte 1111                | Viña del Mar |
+| Cruz Ponce, Carlos                    | Gran Avenida 6395           | Santiago     |
+| Cruz Pozo, René                       | Juan de Austria 515         | Santiago     |
+```
 
 ## Images, Captions, And Visual Notes
-There are no meaningful images, captions, or visual notes on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page, maintaining the original layout and line breaks.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page consists entirely of text in a two-column list format."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 29
@@ -775,122 +755,57 @@ All visible text on the page has been transcribed, including the page number. Th
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a page number, with no substantial images, diagrams, or other visual elements that would warrant cropping."}
 ```
 
+# Page 29
+
 ## Page Metadata
-Page number: 29
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 29
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0029.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column list of names, addresses, and locations. The reading order is down the left column, then down the right column. The page number "32 —" is centered at the bottom.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Dittborn Murillo, Julio
-Doberti Berger, Armando
-Doerr Zavala, Eduardo
-Dolci Calera, Ema
-Domíc Rakela, Mateo
-Domínguez Asenjo, Raúl
-Domke Schultz, Gunther
-Donckaster Rodríguez, Gastón
-Donckaster Rodríguez, Raúl
-Dondorf Rubens, Bernhard
-Donghi Colombo, Antonio
-Donoso Barros, Roberto
-Donoso Castillo, Carlos
-Donoso Castro, Luis
 
-Donoso Concha, Manuel
-Donoso Donoso, Francisco
-Donoso Donoso, José
-Donoso Donoso, Marcos
-Donoso Gatica, Sergio
-Donoso Infante, Alberto
-Donoso Letelier, Patricio
-Donoso Medina, Fernando
-Donoso Menares, Pedro
-Donoso Montalva, Eduardo
-Donoso Montalva, Rafael
-Donoso Puelma, Hugo
-Donoso Recchione, Ivar
-Donoso Yáñez, Pablo
-Doña Martínez, Ernesto
-Dooner Arecco, Hugo
-Donner Slavín, Donald
-Dörr Valck, Otto
-Douglas Rodríguez, Roberto
-Drago Caprile, Carlos
-Drago Caprile, Lorenzo
-Dreckmann West, Luis
-Dresdner Arenas, George
-Drinberg Tabachnik, Marcos
-Drobny Kleinhauz, Abraham
-Droguett del Fierro, Arturo
-Droguett Droume, Santiago
-Droguett Pino, Rafael
-Drullinsky Goldzweig, Rafael
-Duarte González, Alberto
-
-32 —
-
-Renato Sánchez 3992 Santiago
-Rosal 374 Santiago
-Amunátegui 72, Of. 55 Santiago
-V. Mackenna 54, Dep. 107 Santiago
-Waldo Seguel 564 Punta Arenas
-Mosqueto 492 Santiago
-Casilla 230 Concepción
-Hospital Rengo
-Caliche 946 Santiago
-Callejón Higuera 179 Viña del Mar
-Avda. Holanda 292 Santiago
-Matías Cousiño 82 Santiago
-Los Tulipanes 2961 Santiago
-Avda. Providencia 545,
-Depto. 64 Santiago
-
-Castellón 593 Concepción
-Estado 152, Of. 814 Santiago
-Avda. Holanda 292 Santiago
-Victoria 558 San Bernardo
-San Pascual 1860 Santiago
-Avda. República 301 Santiago
-Av. Dublé Almeyda 2840 Santiago
-Los Olivos 698 Santiago
-Avda. Rondizzoni 1547 Santiago
-Capitán Orella 2796 Santiago
-Cirujano Videla 1450 Santiago
-Avda. Providencia 2457 Santiago
-Carmen 1332 Santiago
-Villanelo 56 Viña del Mar
-Santa Lucía 256 Santiago
-Reñaca 84 Santiago
-Hospital Chuquicamata
-Pedro León Ugalde 96 Santiago
-Los Muermos 0151 Santiago
-Cochrane 659 Concepción
-San Martín 321 Concepción
-Avda. Portugal 143 Santiago
-J. Francisco González 856 Santiago
-Teresa Vial 1176 Santiago
-San Vicente 5877 Santiago
-Esmeralda 611 Santiago
-Julio Zegers 3723 Santiago
-Tocornal 740 Santiago
-Dieciocho 17[?] Santiago
-Salesianos 1[?] Santiago
+```markdown
+bittborn  Muriilo,  Julio Doberti  Berger,  Armando Doerr  Zavala,  Eduardo Dolci  Caldera,  Erna Domió  Rakela,  Mateo Domínguez  Asen  jo,  Raúl Domke  Schultz,  Gunther Donckaster Rodríguez, Gastón Donckaster  Rodríguez,  Raúl Dondorf Rubens, Bernhard Donghi  Colombo,  Antonio Donoso  Barros,  Roberto Donoso  Castillo, Carlos Donoso  Castro,  Luis Donoso  Concha,  Manuel Donoso  Donoso,  Francisco Donoso  Donoso,  José Donoso  Donoso,  Marcos Donoso  Gatica, Sergio Donoso  Infante,  Alberto Donoso  Letelier, Patricio Donoso  Medina, Fernando Donoso  Menares,  Pedro Donoso  Montalva, Eduardo Donoso  Montalva,  Rafael Donoso  Puelma,  Hugo Donoso  Recchione,  Ivar Donoso  Yáñez,  Pablo Doña  Martínez,  Ernesto Dooner  Arecco,  Hugo Donner  Slavín,  Donald DOrr  Valck, Otto Douglas  Rodríguez,  Roberto Drago  Caprile,  Carlos Drago  Caprile,  Lorenzo Dreckmann  West,  Luis Dresdner  Arenas,  George Drinberg  Tabachnik, Marcos Drobny  Kleinhauz,  Abraham Droguett  del  Fierro,  Arturo Droguett  Droume,  Santiago Droguett  Pino,  Rafael Drullinsky  Goldzweig,  Rafael Duarte  González, Alberto Renato Sánchez 3992 Santíagó Rosal  374 Sántiago Amunátegui  72,  Of.  55 Santiago V. Mackenna  54, Dep.  107 Santiago Waldo  Seguel  564 Punta  Arenas Mosqueto  492 Santiago Casilla 230 Concepción Hospital Rengo Caliche 946 Santiago Callejón  Higuera  179 Viña  del  Mar Teatinos  726,  6?  Piso Santiago Matías  Cousiño  82 Santiago Los  Tulipanes 2961 Santiago Avda.  Providencia  545, Santiago Depto.  64 Castellón  593 Concepción Estado  152,  Of.  814 Santiago Avda.  Holanda 292 Santiago Victoria  558 San  Bernardo San  Pascual  1860 Santiago Avda.  República  301 Santiago Av.  Dublé  Almeyda  2840 Santiago Los  Olivos  698 Santiago Avda.  Rondizzoni  1547 Santiago Capitán  Orella 2796 Santiago Cirujano  Videla  1450 Santiago Avda.  Providencia  2457 Santiago Carmen  1332 Santiago Villanelo 56 Viña  del  Mar Santa  Lucía  256 Santiago Reñaca  84 Santiago Hospital Chuquicamata Pedro  León  Ugalde  96 Santiago Los  Muermos  0151 Santiago Cochrane  659 Concepción San  Martín 321 Concepción Avda.  Portugal  143 Santiago J.  Francisco González  856  Santiago Teresa  Vial  1176 Santiago San  Vicente  5877 Santiago Esmeralda  611 Santiago Julio  Zegers  3723 Santiago Tocornal  740 Santiago Dieciocho 1 7 5 Santiago Salesianos 1! Santiago
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-- "Dieciocho 17[?]" - The last digit appears to be a 1, but it's slightly smudged.
-- "Salesianos 1[?]" - The last digit appears to be a 1, but it's slightly smudged.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page, preserving the two-column layout.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 
@@ -976,168 +891,59 @@ This page has been fully and accurately transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of text in a directory listing format. There are no images, illustrations, or other visual elements that would warrant cropping."}
 ```
 
+# Page 31
+
 ## Page Metadata
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40:p0031`
-- Page: 31
+
 - Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 31
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0031.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a two-column list of entries. Each entry typically includes a name, an address, and a city. The reading order proceeds down the left column, then down the right column. A page number "34 —" is located at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Elgueta Leiva, Agustín
-Elgueta Norambuena, Edelberto
-Elgueta Ruiz, Bernardo
-Elicer Valladares, Oscar
-Elorrieta Ferrari, Roque
-Elorza Cortés, Humberto
-Emhart Laemmemann, Osvaldo
-Emparanza del Solar, Eugenia
-Engelbach Campo, Federico
-Enríquez Bello, Darío
-Enríquez Díaz, Jorge
-Enríquez Frödden, Edgardo
-Enríquez Mora, Walter
-Enríquez Veloso, Arcadio
-Eraso López, H. Jaime
-Erazo Corona, Raúl
-Erazo Tapia, Rogelio
-Ercole Rebolledo, José
-Ernst Martínez, Amalia
-Errázuriz Guzmán, J. Miguel
-Errázuriz Vergara, Oscar
-Esbir Saud, Jorge
-Escala Bawden, Alfredo
-Escalona Fernandols, Manuel
-Escalona Sylvester, Eduardo
-Escobar Astaburuaga, Luis O.
-Escobar Becker, Alfredo
-Escobar Cerda, Edgardo
-Escobar Lagos, Raúl
-Escobar Loyola, Pedro
-Escobar Müller, Juan
-Escobar Pacheco, Adolfo
-Escobedo Morales, Víctor
-Escobillana Guzmán, Arturo
-Escobillana Guzmán, Eliana
-Escribano Victorero, Alfonso
-Escudero Bahamondes, Pablo
-Escudero Forrastal, Eduardo
-Escudero Ortúzar, Daniel
-Escudero Ortúzar, Guillermo
-España Flores, Sergio
-Espejo Argandoña, Mario
-Espejo Palavecino, Eduardo
-Espejo Silva, Salvador
-Esperidión Atias, Abraham
 
-34 —
+```markdown
+Elgueta  Leíva,  Agustín Elgueta  Norambuena, Edelberto Elgueta  Ruiz,  Bernardo Elicer Valladares, Oscar Elorrieta  Ferrari,  Roque Elorza Cortés, Humberto Emhart  Laemmemann, Osvaldo Emparanza  del  Solar,  Eugenia Engelbach  Campo,  Federico Enríquez  Bello,  Darío Enríquez  Díaz, Jorge Enríquez  Fródden, Edgardo Enríquez  Mora,  Walter Enríquez  Veloso,  Arcadio Eraso  López,  H.  Jaime Erazo  Corona,  Raúl Erazo  Tapia,  Rogelio Ercole  Rebolledo, José Ernst  Martínez,  Amalia Errázuriz  Guzmán,  J.  Miguel Errázuriz  Vergara, Oscar Esbir  Saud, Jorge Escala  Bawden,  Alfredo Escalona  Fernandois,  Manuel Escalona  Sylvester,  Eduardo Escobar  Astaburuaga,  Luis  O. Escobar  Becker,  Alfredo Escobar Cerda, Edgardo Escobar  Lagos,  Raúl Escobar Loyola, Pedro Escobar  Müller,  Juan Escobar  Pacheco,  Adolfo Escobedo  Morales, Víctor Escobillana  Guzmán,  Arturo Escobillana  Guzmán,  Eliana Escribano  Victorero,  Alfonso Escudero  Bahamondes,  Pablo Escudero  Forrastal, Eduardo Escudero  Ortúzar, Daniel Escudero  Ortúzar, Guillermo España  Flores, Sergio Espejo  Argandoña, Mario Espejo  Palavecino, Eduardo Espejo  Silva, Salvador Esperidión  Atias,  Abraham Arturo  Prat  494 Merced  788 O'Higgins  226 Freire  178,  Depto.  44 I t a t a  4143 Buin  491 Monjitas  350 Sazié  2360 3  Poniente  41 Colo  Colo  222 Chuquicamata  112 Avda.  Roosevelt  1674 Marín  396,  Depto.  A San  Martín  562 Cueto  664 San  Antonio  427 Emilio  Vaisse  683 Granada  2109 José Domingo Cañas  563 José  Pedro Alessandri  950 Diagonal  Oriente  1930 Volcán №  2 Avda.  Salvador  765 Salvador  Donoso  1461 12  Norte  881 Victoria 123 Serrano s/n Constitución  260 Nataniel  426 Freire  178,  8?  Piso Guillermo  Gallardo  522 Hernando  de  Aguirre  496 Mapocho  4065 Centro  de  Salud Arturo  Prat  139 4Y¿  Poniente  450 García  Reyes  51 San  Pablo  1171,  2?  Piso Av. Diego  de Almag.  2380 El  Cacique  0306 Balmaceda  354 Santo  Domingo  3535 Manuel  Rodríguez  170 Agustinas  1022,  Of.  925 Baquedano  913
 
-Arturo Prat 494
-Merced 788
-O'Higgins 226
-Freire 178, Depto. 44
-Itata 4143
-Buin 491
-Monjitas 350
-Sazié 2360
-3 Poniente 41
-Colo Colo 222
-Chuquicamata 112
-Avda. Roosevelt 1674
-Marín 396, Depto. A
-San Martín 562
-Cueto 664
-San Antonio 427
-Emilio Vaisse 683
-Granada 2109
-José Domingo Cañas 563
-José Pedro Alessandri 950
-Diagonal Oriente 1930
-Volcán Nº 2
-Avda. Salvador 765
-Salvador Donoso 1461
-12 Norte 881
-Victoria 123
-Serrano s/n
-Constitución 260
-Nataniel 426
-Freire 178, 8º Piso
-Guillermo Gallardo 522
-Hernando de Aguirre 496
-Mapocho 4065
-Centro de Salud
-Arturo Prat 139
-4½ Poniente 450
-García Reyes 51
-San Pablo 1171, 2º Piso
-Av. Diego de Almag. 2380
-El Cacique 0306
-Balmaceda 354
-Santo Domingo 3535
-Manuel Rodríguez 170
-Agustinas 1022, Of. 925
-Baquedano 913
-
-Santiago
-Melipilla
-Puerto Montt
-Valparaíso
-Santiago
-Illapel
-Santiago
-Santiago
-Viña del Mar
-Concepción
-Chuquicamata
-Concepción
-Santiago
-Concepción
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-San José de Maipo
-Santiago
-Valparaíso
-Viña del Mar
-Cauquenes
-Iquique
-Santiago
-Santiago
-Valparaíso
-Puerto Montt
-Santiago
-Santiago
-Ancud
-Graneros
-Viña del Mar
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Puerto Montt
-Santiago
-Iquique
+Santiago Melipilla Puerto Montt Valparaíso Santiago Illapel Santiago Santiago Viña  del  Mar Concepción Chuquicamata Concepción Santiago Concepción Santiago Santiago Santiago Santiago Santiago Santiago Santiago San José  de  Maipo Santiago Valparaíso Viña  del  Mar Cauquenes Iquique Santiago Santiago Valparaíso Puerto  Montt Santiago' Santiago Ancud Graneros Viña  del  Mar Santiago Santiago Santiago Santiago Santiago Santiago Puerto  Montt Santiago Iquique
+```
 
 ## Images, Captions, And Visual Notes
-The page contains no images, captions, or other substantial visual elements that meet the criteria for cropping.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate. All text on the page has been captured.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that meet the criteria for cropping. The page primarily contains text in a two-column list format."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 32
@@ -1256,79 +1062,59 @@ All visible text and layout elements on the page have been transcribed.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets. The page consists entirely of text and a page number."}
 ```
 
+# Page 33
+
 ## Page Metadata
 
-- **Page number**: 36
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 33
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0033.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a list of medical professionals. The content is organized into three columns: Name, Address, and City. The names are listed alphabetically by surname. The page number, 36, is located at the bottom left of the page. The reading order is from left to right, top to bottom, following the rows of the list.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-| Name | Address | City |
-| --- | --- | --- |
-| Faiguenbaum Arcavi, Jacobo | Carmen 111, Depto. 11 | Santiago |
-| Faivovich Goluboff, Adolfo | J. Victorino Lastarria 25 | Santiago |
-| Faivovich Schapira, Adolfo | San Antonio 427 | Santiago |
-| Fajardo Olguín, Manuel H. | Santa Rosa 112 | Los Andes |
-| Fajré Fajré, Domingo | Avda. República 499 | Santiago |
-| Falabella Carlini, Estanislao | Seminario 16, Depto. 403 | Santiago |
-| Falaha Lumi, Filomena | Avda. Suecia 3479 | Santiago |
-| Falgerete Solari, Plinio | Miguel Cruchaga 920, Depto. 402 | Santiago |
-| Fanta Núñez, Enrique | Av. Gral. Bustamante 250 | Santiago |
-| Faraggi Cohen, René | 2 Oriente 1069 | Talca |
-| Faraggi Cohen, Víctor | Castellón 379 | Concepción |
-| Faraj Rishmawy, Elías | Mac-Iver 142, Depto. 905 | Santiago |
-| Farga Cuesta, Victorino | Suárez Mujica 2166 | Santiago |
-| Farrud Yackich, Alfredo | Alam. B. O'Higgins 3919 | Santiago |
-| Faúndez Latham, Aníbal | Ahumada 6, Depto. 33 | Santiago |
-| Faúndez Parra, Aníbal | Bellavista s/n | Teno |
-| Feferholtz Berstein, Jaime | Santa Lucía 382 | Santiago |
-| Feldman Covnatsky, Enrique S. | San Diego 811 B | Santiago |
-| Feldman Covnatsky, Mauricio | Condell 1217, 4º Piso | Valparaíso |
-| Feliú de la Rosa, Raúl | Balmaceda 580 | Iquique |
-| Feliú Madinagoitía, Raúl | Avda. Providencia 2608 | Santiago |
-| Felner Stoesse, Eva | Jorge Washington 239 | Santiago |
-| Fenner Gubeli, Carlos | Marcoleta 572 | Santiago |
-| Feres Chalup, Antonio | Asturias 103 | Santiago |
-| Feres Chalup, Emilio | Los Carrera 768 | Osorno |
-| Fernández Andraca, Exequiel | Avda. Sta. María 0410 | Santiago |
-| Fernández Ballas, Walter | Federico Froebel 1701 | Santiago |
-| Fernández Barahona, Raúl | Nueva San Martín 1520, Depto. 218 | Santiago |
-| Fernández Espinoza, Bayardo | Av. Simón Bolívar 6680 | Santiago |
-| Fernández Espinoza, Víctor M. | Colo Colo 333 | Concepción |
-| Fernández Fleming, Tomás Eduardo | Hospital Ferroviario | Valparaíso |
-| Fernández Flores, Eduardo | Ugalde 781 | Melipilla |
-| Fernández Guerra, Gonzalo | Vicuña Mackenna 687 | Temuco |
-| Fernández Lagos, Agustín | Copiapó 718 | Santiago |
-| Fernández Lecaros, Felipe | A. Henckel 2317 | Santiago |
-| Fernández Ossa, Eugenio | Independencia 2166 | Valparaíso |
-| Fernández Popelaire, Jorge | Guillermo Acuña 2586 | Santiago |
-| Fernández Quiroga, Eduardo | Av. Gral Bustamante 176, Depto. 204 | Santiago |
-| Fernández Rodríguez, Oscar | Fanor Velasco 27 | Santiago |
-| Fernández Satcler, M. Eliana | Manuel Montt 142 | Santiago |
-| Fernández Sepúlveda, Rodrigo | Tucapel 335 | Concepción |
+```markdown
+Faiguenbaum  Árcaví,  Jacobo Faivovich  Goluboff,  Adolfo Faivovich  Schapira,  Adolfo Fajardo  Olguín,  Manuel H. Fajré  Fajré,  Domingo Falabella  Carlini,  Estanislao Falaha  Lumi,  Filomena Falgerete  Solari,  Plinio
 
-36 —
+Fanta  Núñez, Enrique Faraggi  Cohén,  René Faraggi  Cohén,  Víctor Faraj  Rishmawy,  Elias Farga  Cuesta,  Victorino Farrud  Yackich,  Alfredo Faúndez  Latham,  Aníbal Faúndez  Parra,  Aníbal Feferholtz  Berstein, Jaime Feldman Covnatsky, Enrique S. Feldman  Covnatsky,  Mauricio Feliú  de  la  Rosa,  Raúl Feliú  Madinagoitía,  Raúl Felner  Stoesse,  Eva Fenner  Gubeli, Carlos Feres  Chalup, Antonio Feres  Chalup, Emilio Fernández  Andraca, Exequiel Fernández  Bailas,  Walter Fernández  Barahona,  Raúl Fernández  Espinoza,  Bayardo Fernández  Espinoza,  Víctor  M. Fernández  Fleming,  Tomás  Eduardo Fernández  Flores,  Eduardo Fernández  Guerra,  Gonzalo Fernández Lagos, Agustín Fernández  Lecaros, Felipe Fernández  Ossa, Eugenio Fernández  Popelaire,  Jorge Fernández Quiroga, Eduardo Fernández  Rodríguez,  Oscar Fernández  Satcler,  M.  Eliana Fernández  Sepúlveda,  Rodrigo Carmen  111, fiepto. l l Santiagó J.  Victorino  Lastarria  25 Santiago San  Antonio  427 Santiago Santa  Rosa  112 Los  Andes Avda.  República  499 Santiago Seminario  16,  Depto.  403 Santiago Avda.  Suecia  3479 Santiago Miguel  Cruchaga  920, Santiago Depto.  402 Av. Gral. Bustamante  250 Santiago 2  Oriente  1069 Talca Castellón  379 Concepción Mac-Iver  142,  Depto.  905 Santiago Suárez  Mujica  2166 Santiago Alam.  B.  O'Higgins  3919 Santiago Ahumada  6,  Depto.  33 Santiago Bellavista  s/n Teño Santa  Lucía  382 Santiago San  Diego  811 В Santiago Condell  1217,  4?  Piso Valparaíso Balmaceda  580 Iquique Avda.  Providencia  2608 Santiago Jorge  Washington  239 Santiago Marcoleta  572 Santiago Asturias  103 Santiago Los  Carrera  768 Osorno Avda.  Sta.  María  0410 Santiago Federico  Froebel  1701 Santiago Nueva  San  Martín 1520, Santiago Depto.  218 Av.  Simón  Bolívar  6680 Santiago Colo  Colo 333 Concepción Hospital  Ferroviario Valparaíso Ugalde  781 Melipilla Vicuña  Mackenna  687 Temuco Copiapó  718 Santiago A.  Henckel  2317 Santiago Independencia  2166 Valparaíso Guillermo  Acuña  2586 Santiago Av. Gral Bustamante  176, Santiago Depto.  204 Fanor  Velasco  27 Santiago Manuel  Montt  142 Santiago Tucapel  335 Concepción
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, captions, or other visual elements on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of printed text in a directory format. There are no images, illustrations, or other visual elements."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40:p0034`
@@ -1481,167 +1267,99 @@ The transcription is complete and includes all visible text from the page, prese
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 36
+
 ## Page Metadata
-- Page number: 39
-- Source publication: Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 36
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0036.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a two-column directory. The left column lists names, and the right column lists corresponding addresses and cities. The content should be read line by line, with the name on the left followed by its associated address and city on the right.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Frías Beas, Raúl
-Frías Meneses, Ernesto
-Fricke Schencke, Gustavo
-Fridman Schamis, Raúl
-Frigolett Zamora, Raúl
-Frindt Kowald, Roland
-Frindt Vyhmeister, Gustavo
-Fritis Campusano, Amanda
-Fritis Campusano, Eduardo
-Fritzsche Jordán, Heinrich R.
-Froimovich Schejter, José
-Frugone Yungue, Juan E.
-Fuchslocher Amthuer, Harda
-Fuente Acuña, Rudecindo de la
-Fuente Aqueveque, Lautaro de la
-Fuente Bradley, Hernán de la
-Fuente Bradley, Jorge de la
-Fuente Florín, Luis R. de la
-Fuente Fuentes, José de la
-Fuente Gaete, Rogelio de la
-Fuente Hernández, Juan de la
-Fuente Hidalgo, María de la
-
-Fuente López, José T. de la
-Fuente Otte, Fernando de la
-Fuentealba Carrasco, Armando
-Fuentealba Lagos, Abel
-Fuentealba M. de la Parra, Gilda
-Fuentealba Ortiz, Roberto
-Fuentealba Troncoso, Lisandro
-Fuentealba Zúñiga, Agustín
-Fuentes Acevedo, Zoila
-Fuentes Aguirre, Juan
-Fuentes Albornoz, Luis R.
-Fuentes Besoaín, Eduardo
-Fuentes Contreras, Hugo
-Fuentes de la Sotta, Luis
-Fuentes Fuentes, Hernán
-Fuentes González, Maximiliano
-Fuentes Ramos, Olga
-Fuenzalida Alcaide, Sergio
-Fuenzalida Bade, Gastón
-
-Fuenzalida Comas, J. Miguel
-
-E. Concha y Toro 10
-Américo Vespucio 1924
-Arlegui 573
-San Diego 545 A
-24 Norte s/n
-Chacabuco 971
-Avda. Las Acacias
-Pirámide 831
-Plaza Bulnes 80, Dep. 123
-Condell 1308
-Pedro Montt 2407
-Chacabuco 605
-Avda. Bilbao 992
-Condell 1308
-José Miguel Infante 2065
-Plaza Sucre 234
-Condell 1308
-Montt 749
-Hospital
-Avda. Zañartu 299
-O'Higgins 650, Of. 202
-San Antonio 378,
-Depto. 302
-Loreto 6
-Las Ñipas 4243
-Constitución 750
-Tacna 1330
-Bascuñán Guerrero 864
-San Martín 586
-Vicuña Mackenna 488
-Lautaro 185
-Covarrubias 254
-Carreras 880
-Alcázar 431
-Enrique Foster 339
-Bilbao 787
-Virginia Opazo 91 H
-Rancagua 50
-Sierra Bella 1342
-Catedral 1338
-Casa de Socorro
-Avda. Santa María 349,
-Depto. 53
-José M. Infante 952,
-Depto. D
-
-Santiago
-Santiago
-Viña del Mar
-Santiago
-Viña del Mar
-Concepción
-Las Cabras
-Santiago
-Santiago
-Valparaíso
-Valparaíso
-Quillota
-Osorno
-Valparaíso
-Santiago
-Valparaíso
-Valparaíso
-Temuco
-Linares
-Santiago
-Concepción
-Santiago
-
-Santiago
-Santiago
-Linares
-San Javier
-Santiago
-Concepción
-Temuco
-Chiguayante
-Santiago
-Copiapó
-Rancagua
-Santiago
-Osorno
-Santiago
-Santiago
-Santiago
-Santiago
-Lolol
-Santiago
-
-Santiago
-
-— 39
+```markdown
+| Frías Beas, Raúl                 | E. Concha y Toro 10 1924        | Santiago     |
+|----------------------------------|---------------------------------|--------------|
+| Frías Meneses, Ernesto           | Américo Vespucio                | Santiago     |
+| Fricke Schencke, Gustavo         | Arlegui 573                     | Viña del Mar |
+| Fridman Schamis, Raúl            | San Diego 545 A                 | Santiago     |
+| Frigolett Zamora, Raúl           | 24 Norte s/n                    | Viña del Mar |
+| Frindt Kowald, Roland            | Chacabuco 971                   | Concepción   |
+| Frindt Vyhmeister, Gustavo       | Avda. Las Acacias               | Las Cabras   |
+| Fritis Campusano, Amanda         | Pirámide 831                    | Santiago     |
+| Fritis Campusano, Eduardo        | Plaza Bulnes 80, Dep. 123       | Santiago     |
+| Fritzsche Jordán, Heinrich R.    | Hernando de Aguirre 391         | Santiago     |
+| Froimovich Schejter, José        | Pedro Montt 2407                | Valparaíso   |
+| Frugone Yungue, Juan E.          | Chacabuco 605                   | Quillota     |
+| Fuchslocher Amthuer, Harda       | Avda. Bilbao 992                | Osorno       |
+| Fuente Acuña, Rudecindo de la    | Condell 1308                    | Valparaíso   |
+| Fuente Aqueveque, Lautaro de la  | José Miguel Infante 2065        | Santiago     |
+| Fuente Bradley, Hernán de la     | Plaza Sucre 234                 | Valparaíso   |
+| Fuente Bradley, Jorge de la      | Condell 1308                    | Valparaíso   |
+| Fuente Florín, Luis R. de la     | Montt 749                       | Temuco       |
+| Fuente Fuentes, José de la       | Hospital                        | Linares      |
+| Fuente Gaete, Rogelio de la      | Avda. Zañartu 299               | Santiago     |
+| Fuente Hernández, Juan de la     | O'Higgins 650, Of. 202          | Concepción   |
+| Fuente Hidalgo, María de la      | San Antonio 378, Depto. 302     | Santiago     |
+| Fuente López, José T. de la      | Loreto 6                        | Santiago     |
+| Fuente Otte, Fernando de la      | Las Ñipas 4243                  | Santiago     |
+| Fuentealba Carrasco, Armando     | Constitución 750                | Linares      |
+| Fuentealba Lagos, Abel           | Tacna 1330                      | San Javier   |
+| Fuentealba M. de la Parra, Gilda | Bascuñán Guerrero 864           | Santiago     |
+| Fuentealba Ortiz, Roberto        | San Martín 586                  | Concepción   |
+| Fuentealba Troncoso, Lisandro    | Vicuña Mackenna 488             | Temuco       |
+| Fuentealba Zúñiga, Agustín       | Lautaro 185                     | Chiguayante  |
+| Fuentes Acevedo, Zoila           | Covarrubias 254                 | Santiago     |
+| Fuentes Aguirre, Juan            | Carreras 880                    | Copiapó      |
+| Fuentes Albornoz, Luis R.        | Alcázar 431                     | Rancagua     |
+| Fuentes Besoaín, Eduardo         | Enrique Fóster 339              | Santiago     |
+| Fuentes Contreras, Hugo          | Bilbao 787                      | Osorno       |
+| Fuentes de la Sotta, Luis        | Virginia Opazo 91 H             | Santiago     |
+| Fuentes Fuentes, Hernán          | Rancagua 50                     | Santiago     |
+| Fuentes González, Maximiliano    | Sierra Bella 1342               | Santiago     |
+| Fuentes Ramos, Olga              | Catedral 1338                   | Santiago     |
+| Fuenzalida Alcaide, Sergio       | Casa de Socorro                 | Lolol        |
+| Fuenzalida Bade, Gastón          | Avda. Santa María 349, Depto.53 | Santiago     |
+| Fuenzalida Comas, J. Miguel      | José M. Infante 952, Depto. D   | Santiago     |
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text from the page.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 
@@ -1905,83 +1623,59 @@ The transcription is complete and includes all visible text on the page.
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 ```
 
+# Page 39
+
 ## Page Metadata
 
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40:p0039`
 - Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
-- Page: 39
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 39
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0039.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is laid out in a three-column tabular format. The first column lists names (last name, first name). The second column lists addresses. The third column lists the city. The content is read row by row across the three columns. At the bottom of the page, centered, is the page number.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-| Name | Address | City |
-| :--- | :--- | :--- |
-| García Müller, Enrique | Edwards 2172 | Santiago |
-| García Nuño, Guillermo | Av. Gral Bustamante 176,<br>Depto. 209 | Santiago |
-| García Palazuelos, Pedro | Los Capitanes 1433 | Santiago |
-| García Pica, Alejandro | Vicuña Mackenna 191 | Ovalle |
-| García Pino, Humberto | J. Domingo Cañas 2918 | Santiago |
-| García Pizarro, Pedro | Balneario Maitencillo | Valparaíso |
-| García Quintero, María L. | San Antonio 427, Of. 318 | Santiago |
-| García Rosado, José | Av. Salvador Sur 940,<br>Depto. 20 | Santiago |
-| García Suárez, Enrique | Juan Enrique Concha 302 | Santiago |
-| García Swart, Galo | Av. Gral. Bustamante 250 | Santiago |
-| García Tello, José | Acacias 2299 | Viña del Mar |
-| García Urtubia, Hugo | Guayaquil 25 | Santiago |
-| García Valenzuela, Gonzalo | Adrián Zúñiga 823 | Arica |
-| García Valenzuela, Pedro | Vicuña Mackenna 750 | Santiago |
-| García Valenzuela, Raúl | José M. Infante 147 | Santiago |
-| García Valenzuela, René | Sanatorio “El Peral” | Puente Alto |
-| García Valenzuela, Rubén | Roberto del Río 1742 | Santiago |
-| García Vergara, Ernesto | Avda. Schleyer s/n | Freire |
-| García Vergara, Simeón | San José 690 | San Bernardo |
-| García Yupanqui, Néstor A. | Colón 1712 | Valparaíso |
-| Garfias Velásquez, Raúl | Uribe 858 | Antofagasta |
-| Garibaldi Cáceres, Abel | Bolognesi 317 | Arica |
-| Garibaldi Cademártori, Ricardo | O’Higgins 271 | Los Andes |
-| Garín Romero, Florencio | Carmen Silva 2866 | Santiago |
-| Gárnica Pomier, Hugo | Blas Cuevas 1012 | Valparaíso |
-| Garretón Silva, Alejandro | Príncipe de Gales 90 | Santiago |
-| Garretón Unda, Ildefonso | Paicaví 267 | Concepción |
-| Garrido Arellano, Manuel | Hospital | Curicó |
-| Garrido de la Fuente, Raúl | Salvador Donoso 1461 | Valparaíso |
-| Gasc Opazo, Osvaldo | Rivas 860 | Santiago |
-| Gasic Livacic, Gabriel | Santa Julia 240 | Santiago |
-| Gatica Venegas, María | Constitución 149 | Chillán |
-| Gautier Auth, Tila | Riquelme 274 | Santiago |
-| Gautier Villarroel, Luis | Avda. Salvador 364 | Santiago |
-| Gay Pasche, Octavio | Casa de Salud | San José de Maipo |
-| Gazitúa Guzmán, Víctor M. | Avda. Bustos 2508 | Santiago |
-| Gazitúa Navarrete, Sergio | Magdalena 0305 C | Santiago |
-| Gazmuri Ojeda, Oscar | Monjitas 375, Of. 33 | Santiago |
-| Gazmuri Ojeda, Renato | Avda. Lyon 614 | Santiago |
-| Gebauer Burmester, Teodoro | Avda. Fco. Bilbao 706 | Santiago |
-| Gebauer Weisser, Teodoro | Moneda 1829 | Santiago |
-| Gebert Krieghoff, Arturo | San Martín 980 | Temuco |
-| Geismar Block, Teresa | Eulogia Sánchez 23 | Santiago |
+```markdown
+García  Müller,  Enrique García  Ñuño,  Guillermo García  Palazuelos,  Pedro García  Pica, Alejandro García  Pino,  Humberto García  Pizarro,  Pedro García  Quintero,  María  L. García  Rosado,  José García  Suárez, Enrique García  Swart,  Galo García  Tello, José García  Urtubia, Hugo García  Valenzuela,  Gonzalo García  Valenzuela,  Pedro García  Valenzuela,  Raúl García  Valenzuela,  René García  Valenzuela,  Rubén García  Vergara, Ernesto García  Vergara, Simeón García  Yupanqui,  Néstor  A. Garfias  Velásquez, Raúl Garibaldi  Cáceres,  Abel Garibaldi Cademártori, Ricardo Garín  Romero,  Florencio Gárnica  Pomier,  Hugo Garretón  Silva,  Alejandro Garretón  Unda,  Ildefonso Garrido  Arellano,  Manuel Garrido  de  la  Fuente,  Raúl Gasc  Opazo,  Osvaldo Gasic  Livacic, Gabriel Gatica  Venegas,  María Gautier  Auth,  Tila Gautier  Villarroel,  Luis Gay  Pasche,  Octavio Gazitúa  Guzmán,  Víctor  M. Gazitúa  Navarrete, Sergio Gazmuri  Ojeda,  Oscar Gazmuri  Ojeda,  Renato Gebauer  Burmester,  Teodoro Gebauer  Weisser,  Teodoro Gebert  Krieghoff,  Arturo Geismar  Block,  Teresa Edwards  2172 Av. Gral  Bustamante  176, Depto.  209 Los  Capitanes  1433 Vicuña  Mackenna 191 J.  Domingo  Cañas  2918 Balneario Maitencillo San  Antonio  427,  Of.  318 Av.  Salvador  Sur  940, Depto.  20 Juan  Enrique  Concha  302 Av. Gral. Bustamante  250 Acacias  2299 Guayaquil  25 Adrián  Zúñiga  823 Vicuña  Mackenna  750 José  M.  Infante  147 Sanatorio  "El  Peral" Roberto  del  Río  1742 Avda.  Schleyer s/n San  José  690 Colón  1712 Uribe  858 Bolognesi  317 O'Higgins  271 Carmen  Silva  2866 Blas  Cuevas  1012 Príncipe  de  Gales  90 Paicaví  267 Hospital Salvador  Donoso  1461 Rivas  860 Santa  Julia 240 Constitución 149 Riquelme  274 Avda.  Salvador  364 Casa  de  Salud Avda.  Bustos  2508 Magdalena  0305 С Monjitas  375,  Of.  33 Avda.  Lyon  614 Avda.  Feo.  Bilbao  706 Moneda  1829 San Martín 980 Eulogia  Sánchez  23
 
-42 —
+Santiago Santiago Santiago Ovalle Santiago Valparaíso Santiago Santiago Santiago Santiago Viña  del  Mar Santiago Arica Santiago Santiago Puente  Alto Santiago Freire San  Bernardo Valparaíso Antofagasta Arica Los  Andes Santiago Valparaíso Santiago Concepción Curicó Valparaíso Santiago Santiago Chillán Santiago Santiago San  José  de  Maipo Santiago Santiago Santiago Santiago Santiago Santiago Temuco Santiago
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The entire page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a tabular format."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 43

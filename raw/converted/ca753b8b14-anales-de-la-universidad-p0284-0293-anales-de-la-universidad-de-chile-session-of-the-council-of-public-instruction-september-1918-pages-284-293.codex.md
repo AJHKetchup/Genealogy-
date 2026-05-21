@@ -377,78 +377,71 @@ All visible text on the page has been transcribed. The last word "apren-" is hyp
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content. It is composed entirely of text."}
 
+# Page 290
+
 ## Page Metadata
-- Page number: 290
-- Source publication: Anales de la Universidad de Chile
-- Session: Session of the Council of Public Instruction, September 1918
-- Page range: 284-293
+
+- Source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
+- Source SHA-256: `753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d`
+- Conversion manifest: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/manifest.json`
+- Source page: 290
+- Page image: `raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0284-0293-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-284-293/page-images/page-0290.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page contains a running header with the page number and section title, followed by a single column of text. There is a footnote indicated by a number in the main text.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-290 MEMORIAS CIENTÍFICAS I LITERARIAS
+```markdown
+diendo en  forma  instrumental el  francés, el  inglés 1 el  alemán  (1).
 
-diendo en forma instrumental el francés, el inglés i
-el alemán (1).
+T lo  que  digo  de  este  tópico  de  la  disciplina  formal sin tirlo, estremos
 
-I lo que digo de este tópico de la disciplina formal
-o trasferencia de los hábitos, el más resistido sin
-duda de los que aborda mi libro, habría que repe-
-tirlo, cambiando los detalles, de los demás estremos
-que Ud. i otros me objetan.
+o trasferencia de los hábitos. el  más resistido duda de  los que aborda mi  libro, habría que  repecambiando  los  detalles, de  los  demás que  Ud.  1 otros me  objetan.
 
-Mi respuesta a su carta podría pues terminar aquí.
-Sin embargo, me ha parecido que, siéndome fácil
-hacerle notar que en algunos de los estremos en que
+Mi respuesta  a  su  carta  podría  pues  terminar  aquí. Sin  embargo, me ha  parecido que,  siéndome fácil hacerle  notar que  en algunos  de  los  estremos en  que
 
-(1) Dice Ud. en la pájina 247: «Estimo que es el mérito principal
-de su obra el haber llamado la atención a este defecto» (El de no
-haber prestado hasta hoi los profesores bastante atención a la lec-
-tura cultural en 5.º i 6.º años) No lo acompaño en esta opinión.
-Pero, antes de seguir, necesito de un prefacio.
+(1)  Dice  Ud.  en  la  pájina 247: «Estimo  que  es  el  mérito  principal de  su obra el  haber llamado la  atención a  este  defecto» (El de  no haber  prestado  hasta hoi los profesores bastante  atención a  la  lectuva cultural en 5.2 1  6.2 años) No lo  acompaño en esta opinión. Pero, antes de  seguir, necesito de  un prefacio.
 
-Protesto i protestaré siempre del convencionalismo que exije a
-cada hombre el ignorar lo bueno que haya hecho, habilidad para
-el disimulo que los interesados en ello dan el nombre de modestia.
-Ud. mismo paga un tributo a esa exijencia cuando se disculpa en
-esta su carta a que contesto de hablar de su persona, lo que para
-todos nosotros es, sin embargo, mui interesante. Necesitaba yo ha-
-cer esta profesión de fe «protestante», a fin de anticiparme al mohin
-que harán sin duda los filisteos al leer en seguida que no ignoro que
-mi libro tiene cosas orijinales i buenas. I ¿cómo habría de ignorarlo!
-¿Acaso un libro que cuesta años i más años de lecturas, esperiencias,
-i meditaciones, se escribe inconscientemente?
+Protesto 1  protestaré siempre del convencioónalismo que exije a cada hombre el  ignorar lo  bueno que  haya  hecho,  habilidad . para el  disimulo  a  que  los  interesados  en  ello  dan  el  nombre  de  modestia. Ud.  mismo paga un tributo a esa exijencia  cuando se disculpa en esta su carta a  que contesto de  hablar de  su persona, lo  que  para todos nosotros es,  sin  embargo, mul  interesante. Necesitaba  yo  hacer  esta  profesión  de  fe  «protestante», a  fin  de  anticiparme  al  mohín que  harán  sin  duda  los  filisteos  al  leer  en  seguida  que  no  ignoro  que mi  libro  tiene  cosas  orijinales  1 buenas. 1 ¡cómo  habría  de ignorarlo! ¿Acaso  un  libro que  cuesta  años  1 más  años  de lecturas,  esperiencias, 1 meditaciones, se  escribe  inconscientemente?
 
-Bueno pues, no lo acompaño en aquella su opinión. Porque, para
-mí, lo mejor de mi libro es el haber demostrado que, en la educa-
-ción secundaria de los países castellanos, la enseñanza de los idio-
-mas ajenos tiene que seguir senderos mui diversos a los que sigue
-o pueda seguir la misma enseñanza en los países de habla alemana,
-inglesa, o francesa. I este punto de vista, que es de mucha entidad
-para la educación nuestra, es enteramente nuevo, pues nadie lo ha-
-bía señalado antes.
+Bueno  pues,  no  lo  acompaño  en  aquella  su  opinión. Porque,  para mí,  lo  mejor  de  mi  libro es  el  haber  demostrado que,  en la  educación secundaria de  los paises castellanos, la  enseñanza de  los  idiomas ajenos  tiene que  seguir  senderos mul  diversos a  los  que  sigue o  pueda  seguir  la  misma  enseñanza en los  países  de  habla  alemana, inglesa, o  francesa. Í  este  punto  de  vista, que  es  de  mucha  entidad para  la  educación nuestra, es  enteramente  nuevo, pues  nadie  lo  había señalado antes.
 
-En este punto de vista es en el que me sitúo cuando le digo arri-
-ba, que, si yo escribiera para alemanes, ingleses, o franceses, en vez
-de para castellanos, i, si la trasferencia de los hábitos tuviera otro
-alcance del que tiene, yo pensaría de otro modo.
+En  este  punto  de  vista  es  en el  que  me  sitúo  cuando  le  digo  arriba,  que, si  yo  escribiera para  alemanes,  ingleses,  o  franceses, en  vez de  para  castellanos, 1,  si  la  trasferencia de  los  hábitos  tuviera  otro alcance del que  tiene, yo  pensaría  de  otro  modo.
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The page is complete and all visible text has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 271

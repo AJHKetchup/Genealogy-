@@ -1,0 +1,108 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-698866922db5-P0080-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
+converted_sha256: 698866922db524102851b1006c966ce109cb583666dcb3e22b7f59b8ea013bef
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
+page_start: 80
+page_end: 80
+part: 1
+---
+
+# Page 80
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json`
+- Source page: 80
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/page-images/page-0080.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+| Keyes Bolton, Jorgé                              | Avda. Providencia Í443, Depto. 43   |             |
+|--------------------------------------------------|-------------------------------------|-------------|
+| Reyes Bustamante, Sergio                         | Mariátegui 2380                     | Santiago    |
+| Reyes Cerna, Jenaro                              | Almagro 248                         | Los Angeles |
+| Reyes Contreras, César                           | Irarrázaval 140                     | Concepción  |
+| Reyes Contreras, Mireya                          | Chiloé 1124                         | Santiago    |
+| Reyes Farías, Elena                              | Magdalena Vicuña 1281               | Santiago    |
+| Reyes Frías, Juan                                | J. Domingo Cañas 2226               | Santiago    |
+| Reyes Hernández, Blas                            | Buenos Aires 80                     | Loncoche    |
+| Reyes Macaya, Armando                            | llanta Isabel 371                   | Santiago    |
+| Reyes Macaya, Juan B.                            | Diagonal Oriente 5450               | Santiago    |
+| Reyes Meléndez, Samuel                           | Manuel Rodríguez 46 H.              | Santiago    |
+| Reyes Morales, Hernán M.                         | Florencia 1218                      | Santiago    |
+| Reyes Moya, Humberto                             | Antonio Varas 2488                  | Santiago    |
+| Reyes Neira, José M.                             | Caupolicán 140                      | Concepción  |
+| Reyes Paredes, Guillermo                         | M. A. Matta 1881                    | Antofagasta |
+| Reyes Pérez, Domingo                             | Salvador Gutiérrez 140              | Santiago    |
+| Reyes Piderit, Mario                             | Román Díaz 2112                     | Santiago    |
+| Reyes Ramírez, Enrique                           | Independencia 1345                  | Santiago    |
+| Reyes Rojas, Celindo                             | Dieciocho 759                       | Santiago    |
+| Reyes Rubio, Daniel                              | Moneda 2436                         | Santiago    |
+| Reyes Vásquez, Alejandro                         | Teatinos 726, 6? Piso               | Santiago    |
+| Reyno Gutiérrez, Héctor R.                       | Zegers 548                          | Iquique     |
+| Rhea Clavijo, Humberto                           | Hospital                            | Antofagasta |
+| Riadi Facuse, Anuar                              | Rengifo 861                         | Santiago    |
+| Ribbeck Hornickel, Carlos Ricci Ferrari, Alberto | San Antonio 60, Dep. 403            | Santiago    |
+|                                                  | Avda. R Cumming 449                 | Santiago    |
+| Rico Pineda, Jorge                               | Hospital                            | Hualañé     |
+| Richard Barnard, Luis Ricchetti Lanata,          | Jorge Matte Gormaz 1675             | Santiago    |
+| Humberto                                         | Avda. Suecia 2972                   | Santiago    |
+| Richter Friedrich, Heinz Riedel Seinecke, Otto   | Agustinas 972, Of. 709              | Santiago    |
+| Riera Bauzá,                                     | Teatinos 379                        | Santiago    |
+| Guillermo                                        | Salvador Izquierdo 1780             | Santiago    |
+| Riera Bauzá, Melchor Riesco Mac-Clure, J.        | José de Moraleda 4886               | Santiago    |
+| Santiago Riesco Undurraga, Andrés                | Los Alerces 3352                    | Santiago    |
+| Rinsche Núñez, Alfonso                           | San Martín 633                      | Santiago    |
+| Río Cruz, Sergio del                             | Siglo XX 335                        | Santiago    |
+| Río de la Torre,                                 | Ismael V. Vergara 514               | Santiago    |
+| Rafael del Río Gundián, Sótero del               | Riquelme 42                         | Santiago    |
+|                                                  | Fanor Velasco 23                    | Santiago    |
+| Río Hurtado, Jorge del                           | Av. Gral. Bustamante 42             | Santiago    |
+| Río Martínez, Alfredo del                        | Edo. Castillo Velasco 3335          | Santiago    |
+| Río Pérez, Gabriel del Río y Sánchez, Juan Feo,  | Monjitas 513, Depto 12              | Santiago    |
+| del Ríos Boettiger, Marcelo                      | Agustinas 715, Dep. 302             | Santiago    |
+|                                                  | Caupolicán 180                      | Concepción  |
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

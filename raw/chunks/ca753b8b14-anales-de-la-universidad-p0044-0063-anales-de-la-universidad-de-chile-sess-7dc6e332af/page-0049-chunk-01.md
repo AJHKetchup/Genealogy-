@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-2b3819b4138e-P0049-01
+chunk_id: CHUNK-c8f91e3920e7-P0049-01
 source_converted: raw/converted/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63.codex.md
-converted_sha256: 2b3819b4138e0bfa8e21b029a65ea903e66d64d798f5d1176d44cf22ff632958
+converted_sha256: c8f91e3920e7120d60667772aaeaf534dcac820cde34163e5cf2b7c11d331c64
 source: raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf
 source_sha256: 753b8b140d94a0c3927cace4e9083609cfd845260d89f8068122337b7498171d
 source_manifest: raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0044-0063-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-44-63/manifest.json
@@ -43,7 +43,7 @@ Leida  1 aprobada  el acta  de la  sesion del  7 del  que  rije,  se  dió cuent
 
 Se  acordó pedir  al  señor Ministro de  Instrucción Pública la inclusión del  ítem correspondiente para el  funcionamiento  del mencionado Curso. o
 
-A  continuación el  señor Decano  de  Teolojía dió  cuenta a.  la 'Corporación,  de  haber  visitado  últimamente  el Liceo  de 1quique; 1 cree de  su  deber  manifestar  a  los  señores  Consejeros  el -pésimo estado en  que  se  encuentra,  tanto  su  material  de  enseñanza,  co'mo el  mobiliario.  El  establecimiento carece en  absoluto  de gabinetes  para  las  clases  de  Ciencias  Biolójicas  1 Físicas,  cosa  que es  inesplicable para el  señor  Decano, dada la  importancia que en  estas  ciencias  se  da  a  la  esperimentación.  En  cuanto  al  mobiliario, el  señor Riicker espresa que es imposible  imajingrse el estado  de  vejez  i de  deterioro en que  se  encuentra. Agrega  que los  profesores le  hicieron presente la  necesidad de  mejorar  sus sueldos,  i que  un  grupo de  alumnos del  5.9  año se  presentó  a pedirle  obtuviera  del  Consejo  la  creación  del  último  curso de  hu«manidades.  El senor  Decano  no  se  pronuncia  acerca  de  estas. dos «peticiones; pero hace  indicación para que  se solicite del  Ministerio de  Instrucción Pública, se  provea al  Liceo de  Iquique,,:a la  mavor brevedad, de  material de  enseñanza 1 de  mobiliario ¿nuevo 1  adecuado. ：
+A  continuación el  señor Decano  de  Teolojía dió  cuenta a.  la 'Corporación,  de  haber  visitado  últimamente  el Liceo  de 1quique; 1 cree de  su  deber  manifestar  a  los  señores  Consejeros  el -pésimo estado en  que  se  encuentra,  tanto  su  material  de  enseñanza,  co'mo el  mobiliario.  El  establecimiento carece en  absoluto  de gabinetes  para  las  clases  de  Ciencias  Biolójicas  1 Físicas,  cosa  que es  inesplicable para el  señor  Decano, dada la  importancia que en  estas  ciencias  se  da  a  la  esperimentación.  En  cuanto  al  mobiliario, el  señor Riicker espresa que es imposible  imajingrse el estado  de  vejez  i de  deterioro en que  se  encuentra. Agrega  que los  profesores le  hicieron presente la  necesidad de  mejorar  sus sueldos,  i que  un  grupo de  alumnos del  5.9  año se  presentó  a pedirle  obtuviera  del  Consejo  la  creación  del  último  curso de  hu«manidades.  El senor  Decano  no  se  pronuncia  acerca  de  estas. dos «peticiones; pero hace  indicación para que  se solicite del  Ministerio de  Instrucción Pública, se  provea al  Liceo de  Iquique,,:a la  mavor brevedad, de  material de  enseñanza 1 de  mobiliario ¿nuevo 1  adecuado.
 
 Con  este motivo,  el señor Rector del Instituto Nacional  manifiesta que,  en  su  concepto, el pésimo  estado  de  cosas  a  que  se ha  referido el  señor  Rticker, se  debe  casi. esclusivamente 2  la torma  en  que  se  elabora  el Presupuesto,  pues, es  un  hecho  per-
 

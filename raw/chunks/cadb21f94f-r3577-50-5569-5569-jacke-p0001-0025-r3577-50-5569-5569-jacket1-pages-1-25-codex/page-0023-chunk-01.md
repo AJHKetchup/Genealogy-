@@ -1,0 +1,133 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-4ef13ebf0558-P0023-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25.codex.md
+converted_sha256: 4ef13ebf0558cbabfa089b0fd0898a46b343a3a018863b354dd9104c9d32b74b
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json
+page_start: 23
+page_end: 23
+part: 1
+---
+
+# Page 23
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Source SHA-256: `db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb`
+- Conversion manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/manifest.json`
+- Source page: 23
+- Page image: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket1-pages-1-25/page-images/page-0023.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## ARTICLE IIfris.
+
+## Belgique.
+
+Les dispositions de l'article il bis additionnel vont permettre l'arrivée sur le terrain des hostilités d'une catégorie nouvelle de formations ■ sanitaires ; à côté des formations d'une armée et de celles constituées par la Croix-Rouge du pays auquel appartient cette armée, pourront fonctionner des organismes sanitaires neutres.
+
+En cas de prise par l'ennemi, la protection prévue par l'article 12 sera-t-elle identique pour ces formations d'origine différente des autres, et dans quelle étendue sera-t-elle conférée ?
+
+## Espagne.
+
+Il convient de reconnaître le sentiment humanitaire élevé dont s'inspire cet article, mais de faire ressortir les difficultés d'ordre militaire
+
+qui résulteraient de son application.
+
+Il n'est pas possible de déterminer dans chaque cas concret la raison de l'urgence qui justifierait l'intervention d'une société de secours sans demande ou autorisation des belligérants, et comme l'événement qui donnerait lieu à cette intervention spontanée devrait être accompagné de circonstances rares et particulières quant au temps et à l'endroit, telles que proximité de la frontière neutre, pénurie, du côté des belligérants, de moyens sanitaires propres, etc. etc., on opine que l'application de cet article demeure, par son seul énoncé, virtuellement réduite à des cas très peu fréquents, dont la détermination sera toujours difficile et qui, dans la pratique, rendrait douteuse son efficacité et
+
+inopérant l'altruisme généreux qui inspire ses préceptes philanthropiques.
+
+Il y a, en outre, d'autres points dont l'adoption pourrait donner lieu à des complications telles qu'il en résulterait un préjudice pour les blessés et les malades mêmes auxquels on désire accorder une faveur, notamment, lorsque, après que la société de secours les a spontanément accueillis et leur a donné accueil, un des belligérants s'oppose à l'inter¬
+
+vention de celle-ci.
+
+Il n'est rien déterminé ni prescrit dans l'article 11 bis (paragraphe 3) sur le sort ou la destination ultérieure des blessés
+
+et malades qui, à cette époque, se trouvent sous l'égide de la société neutre de secours.
+
+Etant donné ce qui précède, on estime que l'intervention de ces sociétés devrait toujours dépendre de l'autorisation préalable et obtenue d'urgence des belligérants. De cette façon, les intérêts des blessés et malades resteraient sauve¬
+
+gardés et l'on éviterait que l'intervention magnanime des sociétés de secours n'apparaisse arbitraire.
+
+## France.
+
+Observations : Cet article serait à revoir de très près. Il semble qu'il y aura là des sources possibles de conflits. Il n'est pas précisé quel sort sera réservé après guérison aux malades et blessés traités en pays neutre. L'internement paraît devoir s'imposer s'ils sont encore en état de porter les armes. Mais alors, les états-majors accepteront difficile¬ ment que des combattants possibles ne puissent être récupérés. Que le neutre intervienne sur son territoire, c'est tout
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+## Page Metadata
+Page number: 24
+Document page number: 10
+
+## Layout And Reading Order
+The page contains a single column of text, starting with a centered page number, followed by a centered article title, and then several paragraphs of text.
+
+## Literal Transcription
+```
+— 10 —
+
+ARTICLE 12.
+
+Les personnes désignées dans les articles 9, 10 et 11 continueront, après qu'elles seront tombées au pouvoir de
+l'ennemi, à remplir momentanément leurs fonctions sous sa direction.
+Elles sont exemptes de capture et ne peuvent pas être retenues.
+Elles doivent être renvoyées à l'autorité militaire dont elles relèvent dès qu'une voie est ouverte pour leur retour et que les
+exigences militaires le permettent.
+En attendant, elles doivent de préférence être affectées aux soins des malades et blessés de la même nationalité qu'elles.
+A leur départ, elles emporteront les effets, les instruments, les armes et les chevaux qui sont leur propriété par-
+ticulière.
+```
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
+```

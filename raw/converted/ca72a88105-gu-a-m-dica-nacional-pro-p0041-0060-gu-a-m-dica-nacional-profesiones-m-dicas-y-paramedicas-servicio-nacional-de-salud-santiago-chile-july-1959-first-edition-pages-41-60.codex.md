@@ -8,73 +8,57 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/extracted-images`
 
+# Page 41
+
 ## Page Metadata
-Page number: 41
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Source page: 41
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0041.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a directory-like list of individuals, their addresses, and cities. The content is organized into three logical columns: Name, Address, and City. The text flows from top to bottom, left to right within these columns. There are no distinct sections or headings other than the implicit grouping by the first letter of the surname (all "González" on this page). A page number "44 --" is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-González Antolín, Felipe Pirineos 2020 Santiago
-González Bañares, Ricardo Cirujano Guzmán 67 Santiago
-González Benedetti, Armando Avda. Irarrázaval 1502 Santiago
-González Caro, Renato Victoria 2632 Valparaíso
-González Cruchaga, Jorge Avda. El Bosque 632 Santiago
-González Chacón, Julio San Antonio 128 Santiago
-González Dagnino, Alfonso Hospital Antofagasta
-González de la Fuente, Iván A. Pinto 1361 Tocopilla
-González Díaz, Ignacio Corregidor Zañartu 716, Santiago
-Of. 22
-González Donoso, Eleanira Capitán Orellana 2239 Santiago
-González Encina, Urbano Encomenderos 0399 Santiago
-González Enos, Alberto Avda. El Bosque 3760 Santiago
-González Escobar, Alejandro Bueras 114 Santiago
-González Fernández, J. Miguel Luis Uribe 2845 Santiago
-González Gatica, Patricio Pedro de Valdivia 3844 Santiago
-González Geldres, Exequiel Freire 1255 Concepción
-González Ginouvés, Ignacio Avda. Vicuña Mackenna Santiago
-58, Depto. 324
-González González, Agustín Riquelme 312, Depto. 7 Santiago
-González González, Hernán Avda. Vaticano 188 Santiago
-González González, Julio Catedral 1649 Santiago
-González González, Sergio Amunátegui 2075 Iquique
-González González, Simón Castro 657 La Serena
-González Grendi, René Quillota 510 Viña del Mar
-González Henríquez, Enrique Torreblanca 2401 San Javier
-González Hernández, Eduardo Plaza Bulnes 80, Dep. 108 Santiago
-González Laura, Eusebio Cirujano Guzmán 67 Santiago
-González Layseca, Oscar Presidente Pérez 545 Llo-Lleo
-González Letelier, Rigoberto Huamachuco s/n San Clemente
-González López, Fernando Avda. Argentina 4968 Valparaíso
-González López, Jorge Huérfanos 878, Of. 1207 Santiago
-González Mac-Oliver, Roberto Phillips 15 A Santiago
-González Maldonado, Gonzalo Casa de Socorro Lanco
-González Maldonado, Raúl Población Capuchinas La Serena
-González Martens, Juan Santo Domingo 586, Santiago
-Depto. 11
-González Martín, Juan O'Higgins 680 Concepción
-González Martínez, Danubio San Francisco 905 Santiago
-González Martínez, Duilio A. 2 Sur 1683 Talca
-González Pérez, Amada Sexta Avenida 285 Villa Alemana
-González Pérez, Irene 1 Norte 831 Santiago
-González Pizarro, Mario Nueve 236, Recreo Viña del Mar
-González Plata, Alejandro José M. Infante 717 Santiago
 
-44 --
+```markdown
+González  Antolín, Felipe González  Bañares, Ricardo González  Benedetti,  Armando González  Caro,  Renato González  Cruchaga,  Jorge González  Chacón,  Julio González  Dagnino,  Alfonso González  de  la  Fuente, Iván González  Díaz,  Ignacio González  Donoso, Eleanira González  Encina,  Urbano González  Enos,  Alberto González  Escobar, Alejandro González  Fernández,  J.  Miguel González  Gatica, Patricio González  Geldres,  Exequiel González  Ginouvés, Ignacio González  González,  Agustín González  González,  Hernán González  González,  Julio González  González, Sergio González  González,  Simón González  Grendi,  René González  Henríquez, Enrique González  Hernández,  Eduardo González  Laura, Eusebio González  Layseca,  Oscar González  Letelier,  Rigoberto González  López, Fernando González  López,  Jorge González  Mac-Oliver, Roberto González  Maldonado, Gonzalo González  Maldonado, Raúl González  Martens,  Juan González  Martín,  Juan González  Martínez,  Danubio González  Martínez,  Duilio  A. González  Pérez,  Amada González  Pérez,  Irene González  Pizarro, Mario González  Plata,  Alejandro 44  - Pirineos  2020 Cirujano  Guzmán  67 Avda.  Irarrázaval 1502 Victoria  2632 Avda.  El  Bosque  632 San  Antonio  128 Hospital A.  Pinto  1361 Corregidor  Zañartu  716, Of.  22 Capitán  Orella  2239 Encomenderos  0399 Avda.  El  Bosque  3760 Bueras  114 Luis  Uribe  2845 Pedro  de  Valdivia  3844 Freire  1255 Avda.  Vicuña Mackenna 58,  Depto.  324 Riquelme  312,  Depto.  7 Avda.  Vaticano  188 Catedral 1649 Amunátegui  2075 Castro  657 Quillota  510 Torreblanca  2401 Plaza  Bulnes  80, Dep.  108 Cirujano  Guzmán  67 Presidente  Pérez  545 Huamachuco  s/n Avda.  Argentina  4968 Huérfanos  878,  Of.  1207 Phillips  15 A Casa  de  Socorro Población  Capuchinas Santo  Domingo  586, Depto. 11 O'Higgins  680 San  Francisco  905 2  Sur  1683 Sexta  Avenida  285 1  Norte  831 Nueve  236,  Recreo José  M.  Infante  717 Santiago Santiago Santiago Valparaíso Santiago Santiago Antofagasta Tocopilla Santiago Santiago Santiago Santiago Santiago Santiago Santiago Concepción Santiago Santiago Santiago Santiago Iquique La Serena Viña  del  Mar San Javier Santiago Santiago Llo-Lleo San  Clemente Valparaíso Santiago Santiago Lanco La Serena Santiago Concepción Santiago Talca Villa Alemana Santiago Viña  del  Mar Santiago
+```
 
 ## Images, Captions, And Visual Notes
-There are no images, captions, or other substantial visual elements on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and accurate, capturing all visible text and preserving line breaks and the three-column structure.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected on this page."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 42
@@ -149,71 +133,99 @@ The transcription is complete and accurate, capturing all text and the page numb
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
 
+# Page 43
+
 ## Page Metadata
-Page number: 43
-Source publication: Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
-Source page number: 43
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Source page: 43
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0043.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page contains a two-column directory listing. Each entry consists of a name, followed by an address, and then a city. The names are listed in the left column, and the corresponding addresses and cities are listed in the right column, aligned with their respective names. The reading order is down the left column of names, then across to the right column for the address and city, then to the next name. A page number "46 -" is present at the bottom left.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
-Grigurina Kalafatović, Dragutin  Gambetta 1089 Santiago
-Grimberg Villarroel, Jorge Moisés  Santiago Concha 1243 Santiago
-Grismali Cordero, Jorge  San Pablo 4146 Santiago
-Grinspun Portnoi, Isaac  San Isidro 87 A Santiago
-Grob Berkhoff, Ricardo Claus  Picarte 423 Valdivia
-Grohnert Berger, Félix  Ejército 387 Santiago
-Gronemann Gland, Hans  Casa de Socorro Contulmo
-Gross Weiss, Desiderio  Avda. Providencia 309 Santiago
-Grosser Cortés, Guillermo R.  Pisagua 1149 Victoria
-Grossi de la Guarda, Víctor  Avda. Brasil 2761 Valparaíso
-Grossling Freudenburg, Sergio  Recoleta 3166 Santiago
-Grossling Freudenburg, Víctor  Mosqueto 492 Santiago
-Grossman Schilman, David  Pedro Montt 2083 Valparaíso
-Grove Fontaine, Hugo  8 Norte 760 Viña del Mar
-Grove Robles, Pedro  El Vergel 2625 Santiago
-Grove Vallejo, Hugo  Eleuterio Ramírez 477 Valparaíso
-Grudsky Bercovich, Abraham  Vicuña Mackenna 140 E. Santiago
-Grünberg Ripsman, Manuel  Borgoño 345 Coquimbo
-Grünewald Fuentes, Otto  Alcalde E. Castillo 2932 Santiago
-Grünwald Schischlianicoff, Enrique  Agustinas 972, Of. 407 Santiago
-Guasch López, Julio  San Antonio 427 Santiago
-Guachalla Ugarte, Jaime  Pob. Alessandri s/n San Miguel
-Guajardo Lugagne, María  Correa Bravo 1345 Santiago
-Guarda Alarcón, Héctor  O'Higgins 685 Osorno
-Guarda González, Simón  Nueva de Matte 2420 Santiago
-Guardia Guillén, Jorge  Avda. España 391 Santiago
-Güemes Riveros, Marta  Catedral 1528 Santiago
-Guerrero Arriagada, Rosario  José Tomás Rider 1181 Santiago
-Guerrero Carvajal, Plácido  Matilde Salamanca 398 Salamanca
-Guerrero Figueroa, Consuelo  Brasil 1468 Valparaíso
-Guerrero López, Tarcicio  Izaga Nº 2 Isla de Maipo
-Guerrero Martínez, Patricio  Huérfanos 1117 Santiago
-Guerrero Ramírez, Mario  Mac-Iver 175 Santiago
-Guesalaga Bruce, Estanislao  Condell 1190 Valparaíso
-Guesalaga Toro, Julio  Carrera 1715 Antofagasta
-Guevara Moreno, J. Delfín  6.a Avenida 1186 Santiago
-Guigliano Ruzzi, Valentín  Bellavista 151 Santiago
-Guijón Hernández, Carlos  José M. Infante 3295 J Santiago
-Guijón Klein, Patricio  Silvina Hurtado 1820 Santiago
-Guiloff Fische, Enrique  Almirante Pastene 7, Depto. 46 Santiago
-Gundelach Escares, Jorge  Santo Domingo 594 Santiago
-Gundián Ross, Antonio  Compañía 2480 Santiago
 
-46 —
+```markdown
+| Grigurina Kalafatovio, Dragutín    | Cambetta 1Ó89                  | Santiagó      |
+|------------------------------------|--------------------------------|---------------|
+| Grimberg Villarroel, Jorge Moisés  | Santiago Concha 1243           | Santiago      |
+| Grismali Cordero, Jorge            | San Pablo 4146                 | Santiago      |
+| Grinspun Portnoi, Isaac            | San Isidro 87 A                | Santiago      |
+| Grob Berkhoff, Ricardo Claus       | Picarte 423                    | Valdivia      |
+| Grohnert Berger, Félix             | Ejército 387                   | Santiago      |
+| Gronemann Gland, Hans              | Casa de Socorro                | Contulmo      |
+| Gross Weiss, Desiderio             | Avda. Providencia 309          | Santiago      |
+| Grosser Cortés, Guillermo R.       | Pisagua 1149                   | Victoria      |
+| Grossi de la Guarda, Víctor        | Avda. Brasil 2761              | Valparaíso    |
+| Grossling Freudenburg, Sergio      | Recoleta 3166                  | Santiago      |
+| Grossling Freudenburg, Víctor      | Mosqueto 492                   | Santiago      |
+| Grossman Schilman, David           | Pedro Montt 2083               | Valparaíso    |
+| Grove Fontaine, Hugo               | 8 Norte 760                    | Viña del Mar  |
+| Grave Robles, Pedro                | El Vergel 2625                 | Santiago      |
+| Grove Vallejo, Hugo                | Eleuterio Ramírez 477          | Valparaíso    |
+| Grudsky Bercovich, Abraham         | Vicuña Mackenna 140 E          | Santiago      |
+| Grünberg Ripsman, Manuel           | Borgoño 345                    | Coquimbo      |
+| Grünewald Fuentes, Otto            | Alcalde E. Castillo 2932       | Santiago      |
+| Grünwald Schischlianicoff, Enrique | Agustinas 972, Of. 407         | Santiago      |
+| Guasch López, Julio                | San Antonio 427                | Santiago      |
+| Guachalla Ugarte, Jaime            | Pob. Alessandri s/n San Miguel | Santiago      |
+| Guajardo Lugagne, María            | Correa Bravo 1345              | Santiago      |
+| Guarda Alarcón, Héctor             | O'Higgins 685                  | Osorno        |
+| Guarda González, Simón             | Nueva de Matte 2420            | Santiago      |
+| Guardia Guillén, Jorge             | Avda. España 391               | Santiago      |
+| Güemes Riveras, Marta              | Catedral 1528                  | Santiago      |
+| Guerrero Arriagada, Rosario        | José Tomás Rider 1181          | Santiago      |
+| Guerrero Carvajal, Plácido         | Matilde Salamanca 398          | Salamanca     |
+| Guerrero Figueroa, Consuelo        | Brasil 1468                    | Valparaíso    |
+| Guerrero López, Tarcicio           | Izaga № 2                      | Isla de Maipo |
+| Guerrero Martínez, Patricio        | Huérfanos 1117                 | Santiago      |
+| Guerrero Ramírez, Mario            | Mac-Iver 175                   | Santiago      |
+| Guesalaga Bruce, Estanislao        | Condell 1190                   | Valparaíso    |
+| Guesalaga Toro, Julio              | Carrera 1715                   | Antofagasta   |
+| Guevara Moreno, J. Delfín          | 6.a Avenida 1186               | Santiago      |
+| Guigliano Ruzzi, Valentín          | Bellavista 151                 | Santiago      |
+| Guijón Hernández, Carlos           | José M. Infante 3295 J         | Santiago      |
+| Guijón Klein, Patricio             | Silvina Hurtado 1820           | Santiago      |
+| Guiloff Fische, Enrique            | Almirante Pastene 7, Depto. 46 | Santiago      |
+| Gundelach Escares, Jorge           | Santo Domingo 594              | Santiago      |
+| Gundián Ross, Antonio              | Compañía 2480                  | Santiago      |
+```
 
 ## Images, Captions, And Visual Notes
-No images, captions, or substantial visual notes are present on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-The transcription is complete and includes all visible text on the page.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 - Page number: 47
