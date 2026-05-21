@@ -61,7 +61,7 @@ on:
       discovery_ocr_limit:
         description: "Maximum OCR-required Docling pages per run; clean text-layer pages can still flow first"
         required: false
-        default: "24"
+        default: "12"
       discovery_ocr_parallelism:
         description: "Maximum OCR-required Docling pages to inspect concurrently"
         required: false
@@ -69,7 +69,7 @@ on:
       discovery_document_timeout:
         description: "Docling per-page document timeout in seconds"
         required: false
-        default: "30"
+        default: "45"
       discovery_hard_timeout:
         description: "Hard timeout per Docling page in seconds"
         required: false
@@ -128,10 +128,10 @@ jobs:
       RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '300' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '4' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
-      RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || '24' }}
+      RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || '12' }}
       RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_parallelism || '1' }}
-      RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '75' }}
-      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '90' }}
+      RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '45' }}
+      RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '45' }}
       RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_limit || '0' }}
       RUN_FASTLANE_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.fastlane_scan_limit || '0' }}
       RUN_GEMINI_FALLBACK_POLICY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.gemini_fallback_policy || 'large_corpus_relevance' }}

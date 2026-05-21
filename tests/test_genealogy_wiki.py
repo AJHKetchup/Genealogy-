@@ -1185,7 +1185,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_ocr_limit || '24' }}"
+        "github.event.inputs.discovery_ocr_limit || '12' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1193,11 +1193,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_cpu_torch()
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_document_timeout || '75' }}"
+        "github.event.inputs.discovery_document_timeout || '45' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_hard_timeout || '90' }}"
+        "github.event.inputs.discovery_hard_timeout || '45' }}"
     ) in workflow
     assert (
         "RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
