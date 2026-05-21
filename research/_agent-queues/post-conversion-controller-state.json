@@ -1,66 +1,69 @@
 ﻿{
-    "updated":  "2026-05-21T14:40:50Z",
+    "updated":  "2026-05-21T15:28:03Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
     "max_workers":  3,
     "allow_promotion":  false,
     "active_workers":  [
                            {
-                               "worker":  "postconv-conversion-qa-20260521143830226",
-                               "pid":  1720,
+                               "worker":  "postconv-conversion-qa-20260521152525769",
+                               "pid":  6840,
                                "task_ids":  [
-                                                "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778-codex-md"
+                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400-codex-md"
                                             ],
                                "queue":  "conversion-qa",
                                "codex":  "C:\\npm\\prefix\\codex.cmd",
-                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830226.md",
-                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.jsonl",
-                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.err.log",
-                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.last.md",
-                               "started":  "2026-05-21T14:38:30Z"
+                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152525769.md",
+                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152525769.jsonl",
+                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152525769.err.log",
+                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152525769.last.md",
+                               "started":  "2026-05-21T15:25:26Z"
                            },
                            {
-                               "worker":  "postconv-conversion-qa-20260521143830803",
-                               "pid":  7220,
+                               "worker":  "postconv-conversion-qa-20260521152644158",
+                               "pid":  1796,
                                "task_ids":  [
-                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex-md"
+                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425-codex-md"
                                             ],
                                "queue":  "conversion-qa",
                                "codex":  "C:\\npm\\prefix\\codex.cmd",
-                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830803.md",
-                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.jsonl",
-                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.err.log",
-                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.last.md",
-                               "started":  "2026-05-21T14:38:32Z"
+                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152644158.md",
+                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152644158.jsonl",
+                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152644158.err.log",
+                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152644158.last.md",
+                               "started":  "2026-05-21T15:26:44Z"
                            },
                            {
-                               "worker":  "postconv-conversion-qa-20260521143832028",
-                               "pid":  7328,
+                               "worker":  "postconv-conversion-qa-20260521152802988",
+                               "pid":  5096,
                                "task_ids":  [
-                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50-codex-md"
+                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450-codex-md"
                                             ],
                                "queue":  "conversion-qa",
                                "codex":  "C:\\npm\\prefix\\codex.cmd",
-                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143832028.md",
-                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.jsonl",
-                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.err.log",
-                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.last.md",
-                               "started":  "2026-05-21T14:38:33Z"
+                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152802988.md",
+                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152802988.jsonl",
+                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152802988.err.log",
+                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152802988.last.md",
+                               "started":  "2026-05-21T15:28:03Z"
                            }
                        ],
     "last_summary":  {
-                         "started":  "2026-05-21T14:29:21Z",
+                         "started":  "2026-05-21T14:59:51Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
                          "allow_promotion":  false,
                          "promotion_only":  false,
                          "fatal":  false,
                          "refresh":  [
-                                         "skipped_active_workers_at_capacity"
+                                         "conversion-qc",
+                                         "agent-queues",
+                                         "source-status"
                                      ],
                          "queues":  {
                                         "conversion-qa":  {
-                                                              "done":  44,
-                                                              "todo":  206
+                                                              "done":  60,
+                                                              "in_progress":  2,
+                                                              "todo":  188
                                                           },
                                         "evidence-extraction":  {
                                                                     "todo":  2445,
@@ -76,134 +79,274 @@
                                                                "done":  1
                                                            }
                                     },
-                         "active_workers_before":  3,
+                         "active_workers_before":  2,
                          "active_workers_after":  3,
                          "launched":  [
                                           {
-                                              "worker":  "postconv-conversion-qa-20260521142951811",
-                                              "pid":  2720,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521142951811.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142951811.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142951811.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142951811.last.md",
-                                              "started":  "2026-05-21T14:29:52Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521142952625",
-                                              "pid":  1620,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521142952625.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142952625.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142952625.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142952625.last.md",
-                                              "started":  "2026-05-21T14:29:53Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521142953760",
-                                              "pid":  9932,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521142953760.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142953760.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142953760.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142953760.last.md",
-                                              "started":  "2026-05-21T14:29:54Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521143410810",
-                                              "pid":  4740,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143410810.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143410810.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143410810.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143410810.last.md",
-                                              "started":  "2026-05-21T14:34:11Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521143411391",
-                                              "pid":  5872,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143411391.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143411391.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143411391.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143411391.last.md",
-                                              "started":  "2026-05-21T14:34:12Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521143412518",
-                                              "pid":  5924,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143412518.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143412518.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143412518.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143412518.last.md",
-                                              "started":  "2026-05-21T14:34:13Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521143830226",
-                                              "pid":  1720,
+                                              "worker":  "postconv-conversion-qa-20260521150023437",
+                                              "pid":  6760,
                                               "task_ids":  [
                                                                "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778-codex-md"
                                                            ],
                                               "queue":  "conversion-qa",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830226.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.last.md",
-                                              "started":  "2026-05-21T14:38:30Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150023437.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150023437.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150023437.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150023437.last.md",
+                                              "started":  "2026-05-21T15:00:24Z"
                                           },
                                           {
-                                              "worker":  "postconv-conversion-qa-20260521143830803",
-                                              "pid":  7220,
-                                              "task_ids":  [
-                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex-md"
-                                                           ],
-                                              "queue":  "conversion-qa",
-                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830803.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.last.md",
-                                              "started":  "2026-05-21T14:38:32Z"
-                                          },
-                                          {
-                                              "worker":  "postconv-conversion-qa-20260521143832028",
-                                              "pid":  7328,
+                                              "worker":  "postconv-conversion-qa-20260521150024267",
+                                              "pid":  7124,
                                               "task_ids":  [
                                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50-codex-md"
                                                            ],
                                               "queue":  "conversion-qa",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143832028.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.last.md",
-                                              "started":  "2026-05-21T14:38:33Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150024267.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150024267.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150024267.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150024267.last.md",
+                                              "started":  "2026-05-21T15:00:25Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521150025488",
+                                              "pid":  820,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150025488.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150025488.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150025488.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150025488.last.md",
+                                              "started":  "2026-05-21T15:00:26Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521150446573",
+                                              "pid":  8988,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150446573.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150446573.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150446573.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150446573.last.md",
+                                              "started":  "2026-05-21T15:04:47Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521150447171",
+                                              "pid":  8788,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150447171.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150447171.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150447171.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150447171.last.md",
+                                              "started":  "2026-05-21T15:04:48Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521150736098",
+                                              "pid":  3268,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket3-pages-126-150-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150736098.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150736098.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150736098.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150736098.last.md",
+                                              "started":  "2026-05-21T15:07:36Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521150853966",
+                                              "pid":  6988,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150853966.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150853966.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150853966.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150853966.last.md",
+                                              "started":  "2026-05-21T15:08:54Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521150854550",
+                                              "pid":  2636,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0151-0175-r3577-50-5569-5569-jacket3-pages-151-175-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521150854550.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150854550.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150854550.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521150854550.last.md",
+                                              "started":  "2026-05-21T15:08:55Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521151143055",
+                                              "pid":  7368,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0176-0200-r3577-50-5569-5569-jacket3-pages-176-200-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521151143055.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151143055.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151143055.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151143055.last.md",
+                                              "started":  "2026-05-21T15:11:43Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521151347086",
+                                              "pid":  5756,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0201-0225-r3577-50-5569-5569-jacket3-pages-201-225-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521151347086.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151347086.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151347086.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151347086.last.md",
+                                              "started":  "2026-05-21T15:13:47Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521151505088",
+                                              "pid":  808,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0226-0250-r3577-50-5569-5569-jacket3-pages-226-250-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521151505088.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151505088.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151505088.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151505088.last.md",
+                                              "started":  "2026-05-21T15:15:05Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521151753696",
+                                              "pid":  9484,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521151753696.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151753696.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151753696.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151753696.last.md",
+                                              "started":  "2026-05-21T15:17:54Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521151754297",
+                                              "pid":  10088,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521151754297.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151754297.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151754297.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151754297.last.md",
+                                              "started":  "2026-05-21T15:17:55Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521151959735",
+                                              "pid":  9700,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521151959735.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151959735.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151959735.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521151959735.last.md",
+                                              "started":  "2026-05-21T15:20:00Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521152203297",
+                                              "pid":  8756,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152203297.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152203297.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152203297.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152203297.last.md",
+                                              "started":  "2026-05-21T15:22:03Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521152321746",
+                                              "pid":  6656,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152321746.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152321746.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152321746.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152321746.last.md",
+                                              "started":  "2026-05-21T15:23:22Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521152525769",
+                                              "pid":  6840,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0376-0400-r3577-50-5569-5569-jacket3-pages-376-400-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152525769.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152525769.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152525769.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152525769.last.md",
+                                              "started":  "2026-05-21T15:25:26Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521152644158",
+                                              "pid":  1796,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0401-0425-r3577-50-5569-5569-jacket3-pages-401-425-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152644158.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152644158.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152644158.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152644158.last.md",
+                                              "started":  "2026-05-21T15:26:44Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521152802988",
+                                              "pid":  5096,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0426-0450-r3577-50-5569-5569-jacket3-pages-426-450-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521152802988.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152802988.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152802988.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521152802988.last.md",
+                                              "started":  "2026-05-21T15:28:03Z"
                                           }
                                       ],
                          "blockers":  [
