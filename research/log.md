@@ -21833,3 +21833,4 @@
 ## [2026-05-21] gemini-source-prep | fatal dependency blocker before page conversion
 ## [2026-05-21] source-prep-batches | Wrote 1460 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-21] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-21] source-prep-docling-discovery | inspected 12, accepted 7, unusable 1, errors=4, dry_run=False

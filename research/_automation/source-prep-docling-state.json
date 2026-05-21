@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T20:34:36Z",
+  "created": "2026-05-21T21:01:12Z",
   "mode": "source-prep-docling-discovery",
   "dry_run": false,
   "agent": "source-prep-docling-discovery",
@@ -20,116 +20,223 @@
     "source_sha256": ""
   },
   "inspected": 12,
-  "accepted": 0,
-  "unusable": 0,
+  "accepted": 7,
+  "unusable": 1,
   "fast_unusable": 0,
-  "errors": 12,
+  "errors": 4,
   "extracted_images": 0,
   "skipped": {
-    "cached_error": 50,
-    "ocr_limit_reached": 1066
+    "cached_error": 62,
+    "ocr_limit_reached": 1054
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1347",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0469",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 469,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-0469.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 286,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 20236,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0469.md"
+    },
+    {
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0982",
       "source": "raw/sources/S522bis-29-3.pdf",
-      "page": 1347,
+      "page": 982,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-0982.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 224,
+      "extracted_image_count": 0,
       "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 20205,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "encoding_mojibake",
+        "fragmented_short_lines"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000/page-markdown/page-0982.md"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0294",
+      "task_id": "source-prep:ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050:p1031",
+      "source": "raw/sources/S522bis-29-3.pdf",
+      "page": 1031,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050/page-1031.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 3108,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 20194,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca7e42bb85-s522bis-29-3-p1026-1050-s522bis-29-3-pages-1026-1050/page-markdown/page-1031.md"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0415",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 294,
+      "page": 415,
       "docling_ocr": true,
       "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0340",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0346",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 340,
+      "page": 346,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/page-0346.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 1660,
+      "extracted_image_count": 0,
       "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 18673,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350/page-markdown/page-0346.md"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0307",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0290",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 307,
+      "page": 290,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-0290.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 3229,
+      "extracted_image_count": 0,
       "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 18638,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "encoding_mojibake",
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300/page-markdown/page-0290.md"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0467",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 467,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0301",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 301,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0278",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 278,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0291",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 291,
-      "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
-    },
-    {
-      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100:p0085",
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100:p0095",
       "source": "raw/sources/S519bis-26-4.pdf",
-      "page": 85,
+      "page": 95,
       "docling_ocr": true,
       "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0301-0325-s495-2-2-pages-301-325:p0319",
-      "source": "raw/sources/S495-2-2.pdf",
-      "page": 319,
+      "task_id": "source-prep:ca7b784510-s519bis-26-4-p0076-0100-s519bis-26-4-pages-76-100:p0094",
+      "source": "raw/sources/S519bis-26-4.pdf",
+      "page": 94,
       "docling_ocr": true,
       "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0464",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0466",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 464,
+      "page": 466,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-0466.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 3414,
+      "extracted_image_count": 0,
       "docling_ocr": true,
-      "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 17728,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "encoding_mojibake",
+        "fragmented_short_lines",
+        "docling_layout_noise"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-markdown/page-0466.md"
     },
     {
-      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0326-0350-s495-2-2-pages-326-350:p0347",
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0414",
       "source": "raw/sources/S495-2-2.pdf",
-      "page": 347,
+      "page": 414,
       "docling_ocr": true,
       "status": "error",
-      "error": "Docling hard timeout after 45 seconds."
+      "error": "Docling hard timeout after 45 seconds.; Tesseract fallback failed: Tesseract process timeout"
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475:p0456",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 456,
+      "status": "rough_unusable",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0451-0475-s495-2-2-pages-451-475/page-0456.md",
+      "readability_flags": [
+        "docling_layout_noise"
+      ],
+      "profile_version": 6,
+      "text_chars": 8049,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 17255,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "encoding_mojibake",
+        "fragmented_short_lines"
+      ]
+    },
+    {
+      "task_id": "source-prep:ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275:p0274",
+      "source": "raw/sources/S495-2-2.pdf",
+      "page": 274,
+      "status": "rough_ok",
+      "discovery_path": "raw/discovery/docling/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-0274.md",
+      "readability_flags": [],
+      "profile_version": 6,
+      "text_chars": 3347,
+      "extracted_image_count": 0,
+      "docling_ocr": true,
+      "tesseract_after_docling_error": true,
+      "docling_error": "Docling hard timeout after 45 seconds.",
+      "text_layer_alpha_chars": 17062,
+      "likely_full_page_scan": true,
+      "text_layer_flags": [
+        "encoding_mojibake",
+        "fragmented_short_lines"
+      ],
+      "basic_output_path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0251-0275-s495-2-2-pages-251-275/page-markdown/page-0274.md"
     }
   ],
   "blockers": [],
   "discovery_state_path": "research/_agent-queues/source-prep-discovery.json",
-  "checkpointed": "2026-05-21T20:47:59Z",
+  "checkpointed": "2026-05-21T21:12:43Z",
   "state_path": "research/_automation/source-prep-docling-state.json",
-  "finished": "2026-05-21T20:47:58Z"
+  "finished": "2026-05-21T21:12:43Z"
 }
