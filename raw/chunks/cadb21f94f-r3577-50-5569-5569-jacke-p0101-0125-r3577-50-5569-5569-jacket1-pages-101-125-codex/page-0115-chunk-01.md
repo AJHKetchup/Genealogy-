@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d993510b755f-P0115-01
+chunk_id: CHUNK-04ac454669a0-P0115-01
 source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125.codex.md
-converted_sha256: d993510b755f5f35b9abf574a022f9547c0a72254b37e3fd6364aa4e9602e32e
+converted_sha256: 04ac454669a07d18853ab92d20b9da50a962ca469ce32ca00d9b4c10f78e4057
 source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
 source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
 source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket1-pages-101-125/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Article
 
 ## 64.
@@ -210,48 +209,3 @@ This page has been transcribed in its entirety.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page consists entirely of typed text with no illustrations, photographs, or other distinct visual elements."}
 ```
-
-## Page Metadata
-Page number: 118
-
-## Layout And Reading Order
-The page contains a single column of text. At the top, there is a page number centered. Below that, a heading "ARTICLE 72." is centered. The main content is a paragraph followed by a lettered list (a through o), detailing conditions for repatriation of prisoners of war. The last item `o)` is truncated at the bottom of the page.
-
-## Literal Transcription
-```
-- 40 -
-
-ARTICLE 72.
-
-Seront considérés, en tout cas, comme infirmités ou maladies comportant le rapatriement des prisonniers de
-guerre :
-a) la perte totale ou partielle d'un ou de plusieurs membres (au moins une main ou un pied) ;
-b) la perte de l'usage d'un ou de plusieurs membres par suite de rigidité, atrophie ou raccourcissement de muscles,
-fausses articulations, maladies ou lésions de la moelle épinière provoquant des troubles graves de la motilité ou
-ayant d'autres suites graves ;
-c) les blessures à la poitrine, au ventre ou au bassin comportant des suites graves ;
-d) la cécité permanente d'un œil et les autres affections oculaires, glaucome, iritis, choroïdite, etc. ;
-e) la surdité totale bilatérale, ainsi que la surdité totale unilatérale au cas où l'oreille incomplètement sourde ne perçoit
-plus la voix parlée ordinaire à un mètre de distance ;
-f) les mutilations notables de la figure ou les lésions graves de la cavité buccale ;
-g) la perte de la denture ou d'un nombre de dents si grand que la nutrition régulière n'est plus possible ;
-h) tous les cas incontestables d'affection mentale ;
-i) les maladies chroniques graves du système nerveux central et périphérique, notamment, la neurasthénie et l'hysté-
-rie grave, tous les cas incontestables d'épilepsie, le Basedow grave, etc. ;
-k) la prétuberculose et la tuberculose de tout organe, des articulations ou des os, pourvu qu'elles puissent être consta-
-tées par l'examen clinique et bactériologique ;
-l) les affections non tuberculeuses des organes respiratoires présumés incurables (ainsi, avant tout, l'emphysème
-pulmonaire fortement développé avec ou sans bronchite, les dilatations bronchiques, l'asthme grave, etc.) ;
-m) tous les cas de malaria avec altérations organiques (foie, rate, cachexie, etc.) ; les autres cas seront transférés dans
-une contrée exempte de malaria et soumis à un traitement médical ; si, après un traitement de six semaines, les
-attaques persistent, le malade sera rapatrié ;
-n) la paralysie permanente ou notable par son siège ou par son étendue ;
-o) les affections chroniques des organes de la circulation (par exemple, les affections valvulaires avec tendance aux
-troubles de compensation, les affections relativement graves du myocarde, du péricarde et des vaisseaux, en
-```
-
-## Images, Captions, And Visual Notes
-The page contains no images or captions.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.

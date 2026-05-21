@@ -1,0 +1,284 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-2032f8603728-P0014-03
+source_converted: raw/converted/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25.codex.md
+converted_sha256: 2032f8603728dd590191124eaeac8d7845b5371ddc774ed3569ee380d614e8b5
+source: raw/sources/R4749-11C-17499-5398.pdf
+source_sha256: f1c3ebcfd1cdde13da6e01baa03ad6867090fb1015637281e87a58d0cc83989d
+source_manifest: raw/codex-conversion-jobs/caf1c3ebcf-r4749-11c-17499-5398-p0001-0025-r4749-11c-17499-5398-pages-1-25/manifest.json
+page_start: 14
+page_end: 14
+part: 3
+---
+
+## Images, Captions, And Visual Notes
+
+The page has several small punch holes along the right edge, indicating it was likely bound in a folder or binder. There are no other significant visual elements or images.
+
+## Uncertain Or Illegible
+
+None.
+
+## Completeness Audit
+
+The transcription is complete and accurate.
+
+## Visual Region Manifest
+
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. Minor marks like punch holes are noted in the 'Images, Captions, And Visual Notes' section but do not warrant cropping."}
+```
+
+## Page Metadata
+Page number: 22
+
+## Layout And Reading Order
+
+The page contains a document with a header, departmental information, a title, an introductory statement, a chapter heading, a chapter subtitle, and several numbered articles of a law. The text is presented in a single column.
+
+## Literal Transcription
+
+-III-
+
+DIRECCION GENERAL DE MATERNIDAD E INFANCIA "PROTECCION DE MENORES Y CREACION DE TRIBUNALES PARA
+DEPARTAMENTO NACIONAL DE HIGIENE
+MENORES"
+
+PROYECTO DE LEY
+
+El Senado y Cámara de Diputados, etc.
+
+CAPITULO I
+
+Objeto y fines de la ley
+
+Artículo 1º.-- Las cuestiones que afecten a la persona
+y bienes de un menor de menos de 18 años de edad, huérfano, mate
+rial o moralmente abandonado, aun cuando fuere emancipado, serán
+resueltas conforme a la presente ley y las disposiciones concor-
+dantes de los códigos Penal, Civil y ley número 10.903.
+
+Artículo 2º.-- Todo menor no emancipado debe hallarse
+bajo la autoridad de sus padres, tutor o guardador. Se entiende
+por guardador a la persona que por cualquier motivo tiene un me-
+nor momentáneamente o habitualmente bajo la responsabilidad de
+su vigilancia, dirección, colocación o trabajo.
+
+Artículo 3º.-- Cuando un menor de menos de 18 años de
+edad queda huérfano de padre y madre, falleciere el tutor o guar
+dador o por cualquier motivo se hallare sin representación legí-
+tima, los parientes y las personas que se enteren de esa situa-
+ción del menor, están obligados a poner el hecho en conocimiento
+de las autoridades, que procederían de inmediato a su protección
+y a designar la tutela que corresponda.
+
+Artículo 4º.-- Nadie puede entregar un menor para su
+tenencia o guarda habitual a otra persona, ni ésta recibirlo en
+esa condición, sin permiso de la autoridad judicial competente.
+
+Artículo 5º.-- Todo menor de que hayan dispuesto los
+jueces conforme a los preceptos de esta ley, quedará bajo su vi-
+gilancia exclusiva y necesaria.
+
+Artículo 6º.-- En todos los casos previstos en esta
+ley sobre abandono material o peligro moral, cuando no se decla-
+re la pérdida o suspensión del ejercicio de la patria potestad,
+la autoridad judicial puede resolver sobre la tenencia del menor
+y confiarla según mejor convenga para su protección y educación.
+
+Artículo 7º.-- Se consideran menores materialmente
+
+## Images, Captions, And Visual Notes
+There are no images or captions on this page.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
+
+## Page Metadata
+Page number: 23
+
+## Layout And Reading Order
+
+The page contains a single column of text, primarily legal definitions and articles, presented in a list format. There is a page number "III-" at the top center. The text is organized into two main sections, each with sub-points labeled alphabetically.
+
+## Literal Transcription
+
+III-
+
+abandonados:
+    a) Los comprendidos en los artículos 106, 107 y 108 del
+    Código Penal;
+    b) Los que no tienen domicilio, ni medios de subsisten-
+    cia por muerte o desaparición de los padres o por no
+    ser éstos conocidos;
+    c) Los que eventualmente se encuentran sin domicilio o
+    medios de subsistencia por enfermedad, extrema indi-
+    gencia o detención de los padres, tutor o guardador;
+    d) Cuando los padres, tutor o guardador, tuviesen a los
+    hijos o pupilos en habitaciones perjudiciales a su
+    salud o en promiscuidad moral;
+    e) Los niños en edad de lactancia y todo menor de 12 a-
+    ños, cuando los padres u otras personas los tengan
+    consigo ejerciendo la mendicidad;
+    f) Cuando el padre, tutor o guardador, que tiene la pa-
+    tria potestad, tutela o guarda, hubiera sido condena-
+    do a más de tres años de prisión o reclusión, confor-
+    me a lo dispuesto en el artículo 12 del Código Penal,
+    y siempre que por cualquier motivo la madre no estu-
+    viere en condiciones de ejercer la patria potestad.
+    Artículo 8º.— Se consideran moralmente abandona-
+dos o en peligro moral:
+    a) Cuando los padres, tutor o guardador, hubieran sido
+    condenados por cualquier delito en perjuicio de algu-
+    no de sus hijos o pupilos o por los delitos de viola-
+    ción, estupro, corrupción, rapto o abuso deshonesto
+    en perjuicio de algún menor; en tales casos, si hubie-
+    re recaído sobreseimiento o absolución, el Tribunal
+    de Menores podrá asimismo resolver sobre la tenencia
+    del menor;
+    b) Cuando los padres, tutor o guardador, sean delincuen-
+    tes habituales, personas viciosas o de mala vida;
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions.
+
+## Uncertain Or Illegible
+No text is uncertain or illegible.
+
+## Completeness Audit
+The transcription is complete and includes all visible text from the page.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful visual elements that would require cropping."}
+
+## Page Metadata
+Page 24
+
+## Layout And Reading Order
+The page contains a header with departmental information and a page number. The main content consists of a continuation of a lettered list (c through g), followed by a chapter heading and subheading, and then two numbered articles (9 and 10), with Article 10 being incomplete at the bottom of the page. The text is presented in a single column.
+
+## Literal Transcription
+DIRECCION GENERAL DE MATERNIDAD E INFANCIA
+DEPARTAMENTO NACIONAL DE HIGIENE
+
+- 2 -
+
+c) Los que se encuentren en estado de vagancia o ejerciendo
+la mendicidad;
+
+d) Los menores de menos de 16 años que ejerzan alguna ocupa-
+ción en la vía pública en contravención con las leyes y
+decretos respectivos;
+
+e) Los que por motivo de crueldad, abuso de autoridad, ne-
+gligencia o propósitos de lucro de sus padres, tutor o
+guardador, sean víctimas de ellos o de terceras perso-
+nas, de malos tratamientos físicos o morales, exceso de
+trabajo, castigos inmoderados o privados de alimentos y
+de los cuidados indispensables a su salud, o cuando fue-
+ren empleados en ocupaciones prohibidas por las leyes o
+reglamentaciones, o contrarias a la moral y buenas cos-
+tumbres;
+
+f) Los que viviendo con sus padres, tutor o guardador, fu-
+guen del hogar, sean refractarios a recibir educación, a
+ocuparse en trabajos apropiados o falten gravemente al
+respeto que deben a aquéllos;
+
+g) Los que cometan algún delito, reiteradas contravencio-
+nes, se entreguen a la corrupción o prostitución, en la
+vía pública, en la casa que habitan o en cualquier si-
+tio, frecuenten lugares mal afamados, se dediquen al jue-
+go o tengan trato con personas viciosas o de mala vida.
+
+CAPITULO II
+De la patria potestad
+
+Artículo 9º.-- Se incorpora a la presente ley el título
+3º del Código Civil, conforme a las reformas de la ley número 10.903.
+Se deroga la parte del artículo 278 del Código Civil, en cuanto
+dispone la internación de los hijos en establecimientos correccio-
+nales, de acuerdo o lo prescripto en los artículos 8º, letra f), y
+26 de esta ley.
+
+Artículo 10.-- En todos los casos de delito cometido por
+un menor, o cuando un menor sea víctima de delito, el tribunal po-
+
+## Images, Captions, And Visual Notes
+There are no substantial images or captions on this page. The page has some minor wear and tear, including small holes and discoloration, but these do not constitute meaningful visual evidence for cropping.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+All visible text on the page has been transcribed.
+
+## Visual Region Manifest
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. Minor page wear and tear are not cropped."}
+
+## Page Metadata
+Page number: 25
+
+## Layout And Reading Order
+The page contains a single column of text, primarily legal articles and a chapter heading, presented in a standard top-to-bottom reading order. Some words are underlined. There are minor tears/holes on the right edge of the page, but they do not obscure any text.
+
+## Literal Transcription
+drá declarar la pérdida de la patria potestad o suspender su ejer
+cicio y privar de la tutela o guarda a los tutores o guardadores,
+conforme a las disposiciones del <u>Código Civil</u>.
+
+Artículo 11.-- Los padres privados de ejercer la pa-
+tria potestad o de la tenencia de los hijos, en virtud de esta ley,
+podrán solicitar que la medida se deje sin efecto transcurridos 2
+años desde la declaración judicial.
+
+Artículo 12.-- La <u>rehabilitación</u> en el ejercicio de
+la <u>patria potestad</u>, se declarará unicamente en los casos que los
+padres probaran hallarse en situación de ejercer debidamente sus
+<u>obligaciones</u> y siempre que no hubieran transcurrido cinco años des
+de que el menor fué entregado a otra persona para su <u>tutela o guar</u>-
+da.
+
+CAPITULO III
+De la <u>adopción</u>
+
+Artículo 13.-- La <u>adopción</u> tiene por objeto la pro-
+<u>tección</u> de los menores huérfanos o material o moralmente <u>abandona</u>-
+dos por sus padres ilegítimos o naturales. Solamente en esas con-
+diciones, conforme a lo preceptuado en la presente ley, puede ser
+adoptado un menor que no ha cumplido aún 18 años de edad. No pueden
+ser adoptados más de un menor, de cada sexo, por una sola persona
+o por los <u>cónyuges</u> de un matrimonio.
+
+Artículo 14.-- La <u>adopción</u> crea para el adoptante los
+mismos derechos y obligaciones concernientes a la <u>patria potestad</u>.
+Se prohibe al adoptante destinar al menor al servicio doméstico en
+beneficio propio o de tercero.
+
+Artículo 15.-- El adoptante debe tener treinta y ocho
+años de edad, cualquiera sea su estado civil. Si fuera casado, am-
+bos <u>cónyuges</u> deben prestar su consentimiento judicial y no tener
+hijos legítimos en el momento de la adopción. La separación o di-
+vorcio ulterior no exime a ambos <u>cónyuges</u> de sus obligaciones
+respecto del menor, aun cuando fueren privados del ejercicio de la
+patria potestad o de la tenencia de éste.
+
+## Images, Captions, And Visual Notes
+The page contains no images or captions. There are several small tears/holes along the right edge of the page, which are minor and do not obscure any text.
+
+## Uncertain Or Illegible
+None.
+
+## Completeness Audit
+The transcription is complete and accurate.
+
+## Visual Region Manifest
+```json
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+```

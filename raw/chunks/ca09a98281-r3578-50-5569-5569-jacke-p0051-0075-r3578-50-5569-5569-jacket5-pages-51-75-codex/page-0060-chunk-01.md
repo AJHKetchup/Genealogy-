@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d7b12a93b16f-P0060-01
+chunk_id: CHUNK-a4048b582723-P0060-01
 source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75.codex.md
-converted_sha256: d7b12a93b16ffbac289549bd5e6b0c7182e457893c69c85dc677498aab755e71
+converted_sha256: a4048b5827232443b99a0015d16de3505136d8679533690084c5ef1cd44c4f38
 source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
 source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
 source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## TITLE VI. BUREAUS OF RELIEF AND INFORMATION CON¬ CERNING PRISONERS OF WAR.
 
 ## ARTICLE 77.
@@ -180,96 +179,3 @@ All visible text on the page has been transcribed.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page consists entirely of text."}
 ```
-
-## Page Metadata
-Page number: 57
-
-## Layout And Reading Order
-The page presents a single-column layout of legal or regulatory text, divided into articles and sections. The reading order is sequential from top to bottom, starting with a page number, followed by a paragraph, then `ARTICLE 84`, `ARTICLE 85`, `SECTION II. ORGANIZATION OF CONTROL`, `ARTICLE 86`, and `ARTICLE 87`, each with its respective paragraphs.
-
-## Literal Transcription
-```
-57
-
-of the respective authorities charged with the administration of
-prisoners of war.
-
-ARTICLE 84.
-
-The text of the present Convention and of the special conventions
-provided for in the foregoing article, shall be posted, wherever possible,
-in the native language of the prisoners of war, in places where it may
-be consulted by all the prisoners.
-
-The text of these conventions shall be communicated to prisoners
-who find it impossible to get the information from the posted text,
-upon their request.
-
-ARTICLE 85.
-
-The High Contracting Parties shall communicate to one another
-through the Swiss Federal Council, the official translations of the
-present Convention, as well as of the laws and regulations which they
-may come to adopt to assure the application of the present Conven-
-tion.
-
-SECTION II. ORGANIZATION OF CONTROL.
-
-ARTICLE 86.
-
-The High Contracting Parties recognize that the regular application
-of the present Convention will find a guaranty in the possibility of
-collaboration of the protecting Powers charged with safeguarding
-the interests of belligerents; in this respect, the protecting Powers
-may, besides their diplomatic personnel, appoint delegates from
-among their own nationals or from among the nationals of other
-neutral Powers. These delegates must be subject to the approval
-of the belligerent near which they exercise their mission.
-
-Representatives of the protecting Power or its accepted delegates
-shall be permitted to go to any place, without exception, where
-prisoners of war are interned. They shall have access to all places
-occupied by prisoners and may interview them, as a general rule
-without witnesses, personally or through interpreters.
-
-Belligerents shall so far as possible facilitate the task of representa-
-tives or accepted delegates of the protecting Power. The military
-authorities shall be informed of their visit.
-
-Belligerents may come to an agreement to allow persons of the same
-nationality as the prisoners to be permitted to take part in inspection
-trips.
-
-ARTICLE 87.
-
-In case of disagreement between the belligerents as to the applica-
-tion of the provisions of the present Convention, the protecting
-Powers must, in so far as possible, lend their good offices for the
-purpose of settling the difference.
-
-For this purpose, each of the protecting Powers may, in particular,
-suggest to the interested belligerents a meeting of representatives
-thereof, possibly upon a neutral territory suitably chosen. Belliger-
-ents shall be bound to accede to proposals in this sense which are
-made to them. The protecting Power may, if occasion arises, submit
-for the approval of the Powers concerned a person belonging to a
-neutral Power or a person delegated by the International Committee
-of the Red Cross, who shall be summoned to take part in this meeting.
-```
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page. The small black circle near the top left is a binder hole punch mark.
-
-## Uncertain Or Illegible
-None. All text is clear and legible.
-
-## Completeness Audit
-The transcription is complete and includes all visible text on the page.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page. The small black circle is a binder hole punch mark and not a meaningful visual asset for cropping."}
-```
-
-## Page Metadata
-Page number: 58
