@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-21T06:47:23.028669+00:00",
+  "created": "2026-05-21T07:04:38.359144+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -52,6 +52,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0383/page-0383-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0383/page-0383-docling-image-01.png",
+      "bytes": 2437,
+      "sha256": "2a857b6e8c7a7d4b8b668be0d37ffe6b7e9e23ef05b5d065dcdcb4f5a7558870",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0384/page-0384-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0384/page-0384-docling-image-01.png",
       "bytes": 2540,
@@ -70,6 +77,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/extracted-images/page-0387/page-0387-docling-image-01.png",
       "bytes": 2252,
       "sha256": "55fd9259f79bbd621101cb3c92c5c9123aa999535edfe326c866454556866c43",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425/extracted-images/page-0401/page-0401-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425/extracted-images/page-0401/page-0401-docling-image-01.png",
+      "bytes": 2052,
+      "sha256": "593a99f5a9440ae918a645e5d7054fe9296102785256fb3a33d0debc89fe68f8",
       "media_type": "image/png"
     },
     {
@@ -1855,6 +1869,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0479-0503-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-479-503/extracted-images/page-0480/page-0480-image-01-anales-de-la-universidad-p0480-0503-img-0480-001-type-d-houses-s.png",
       "bytes": 608075,
       "sha256": "ceb2810e611262d1474f63f95ee7d9ec35fe9e022f2f11220bf8896a92893610",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/extracted-images/page-0546/page-0546-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0529-0553-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-529-553/extracted-images/page-0546/page-0546-docling-image-01.png",
+      "bytes": 8844,
+      "sha256": "cb13b90ea15fdbf943960eddf1a002dbf54eeeba2b9baff94c9b5ef6d11803d1",
       "media_type": "image/png"
     },
     {
@@ -5960,10 +5981,24 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450/extracted-images/page-0436/page-0436-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0426-0450-r3578-50-5569-5569-jacket4-pages-426-450/extracted-images/page-0436/page-0436-docling-image-01.png",
+      "bytes": 5547,
+      "sha256": "bd970f223e93c4735b0fdc730611436c18fe9152c4bc3de54f9590e5e12fa649",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0476-0481-r3578-50-5569-5569-jacket4-pages-476-481/extracted-images/page-0479/page-0479-docling-image-01.png",
       "key": "derived/raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0476-0481-r3578-50-5569-5569-jacket4-pages-476-481/extracted-images/page-0479/page-0479-docling-image-01.png",
       "bytes": 5960,
       "sha256": "bcf7cd0b15891c66c9cd4f44eb98da5887c58c1044e8004b2e9535a3e261ab67",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/extracted-images/page-0055/page-0055-docling-image-01.png",
+      "key": "derived/raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/extracted-images/page-0055/page-0055-docling-image-01.png",
+      "bytes": 10520,
+      "sha256": "510122c2274c09c4deae1d7c34635bea0aab76eb2e591f689ca09706642edfa3",
       "media_type": "image/png"
     },
     {
@@ -6145,9 +6180,9 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
+    "total_files": 5,
+    "total_bytes": 29400,
+    "uploaded": 5,
     "skipped": 0,
     "planned": 0,
     "errors": [],
@@ -6158,9 +6193,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 875,
+      "scanned": 880,
       "deleted": 0,
-      "skipped": 875,
+      "skipped": 880,
       "errors": []
     }
   }

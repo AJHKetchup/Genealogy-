@@ -1,0 +1,94 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-7f93f0a688f3-P0075-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75.codex.md
+converted_sha256: 7f93f0a688f385ffc22d174260c004bad746f915848084ef5e74d3edd4765c2c
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/manifest.json
+page_start: 75
+page_end: 75
+part: 1
+---
+
+# Page 75
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Source SHA-256: `db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb`
+- Conversion manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/manifest.json`
+- Source page: 75
+- Page image: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket1-pages-51-75/page-images/page-0075.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Modifier l'alinéa i"r comme suit :
+
+## Hongrie.
+
+« Les prisonniers de guerre devront recevoir trois fois au moins parjour une nourriture suffisante, répondant à leurs besoins, variée et confectionnée avec des produits frais. Ils recevront, par surcroît, les moyens de préparer eux-mêmes, le cas échéant, leurs vivres personnels. Il sera mis à leur disposition de la. bonne eau en quantité suffisante et au besoin bouillie. L'usage du tabac sera autorisé. ·&gt;
+
+Motifs: Le projet propose deux repas par jour ; il convient d'en inscrire au moins trois au code des prisonniers de guerre ; souvent la réalité est restée bien au-dessous de cette limite.
+
+L'autre changement est inspiré par le souci d'éviter les cas de scorbut et de typhus.
+
+## Pologne.
+
+Modifier l'alinéa ier de la manière suivante: «Les prisonniers de guerre devront recevoir, trois fois par jour au moins, une nourriture suffisante et répondant à leurs besoins. La ration journalière de la nourriture devra se composer de 100 gr. au moins de substance albumineuse, de 500 gr. de carbohydrate et de 30 gr. de graisse, et, afin d'éviter les maladies provenant de l'alimentation exclusive avec des conserves, une certaine partie des produits devrait être fournie à l'état frais et naturel. » (Le reste sans changement.)
+
+Motifs : L'alimentation deux fois par jour est insuffisante. En tenant compte d'une certaine mauvaise volonté, ils pouri-aient recevoir, par exemple, le petit déjeuner et le dîner, sans souper, ou le petit déjeuner et le souper, sans dîner. Les prisonniers de guerre doivent être nourris convenablement trois fois par jour, d'autant plus qu'ils seront employés à des travaux souvent durs. Maints d'entre eux peuvent ne pas posséder de fonds particuliers ou ne pas avoir de réser¬ ves d'aliments leur appartenant, pour pouvoir compléter cette alimentation ; d'autres peuvent ne pas être en état de travailler et de gagner leur vie, en raison de leur état de santé (voir art. 35 et 36).
+
+Il est utile, en outre, de fixer avec plus de précision les rations de nourriture.
+
+## Article 15.
+
+## Allemagne.
+
+Remplacer l'alinéa ier par le texte suivant :
+
+- «L'habillement, le linge et les chaussures de bonne qualité seront fournis aux prisonniers de guerre par l'Etat capteur. Le remplacement et les réparations de ces effets devront être assurés régulièrement.
+
+Chaque prisonnier de guerre a droit à :
+
+- 1 coiffure
+- 1 pantalon de drap
+- 1 tunique ou blouse de drap
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

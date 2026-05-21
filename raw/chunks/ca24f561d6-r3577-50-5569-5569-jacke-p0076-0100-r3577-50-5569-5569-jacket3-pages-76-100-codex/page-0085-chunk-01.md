@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-bd7860d5c9f1-P0085-01
+chunk_id: CHUNK-3a908bc02d35-P0085-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100.codex.md
-converted_sha256: bd7860d5c9f1b1ad9d232b1e5f6a810ef34bc519daef6b6a3b6d8611fd458eed
+converted_sha256: 3a908bc02d3503a966e5b502edde670ff51a449bf9ba6204645ad9a3dea759af
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0076-0100-r3577-50-5569-5569-jacket3-pages-76-100/manifest.json
@@ -198,10 +198,3 @@ The transcription is complete and accurate, capturing all text and formatting fr
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone assets."}
 ```
-
-## Page Metadata
-Page number: 87
-Source page number: 15
-
-## Layout And Reading Order
-The page presents a single-column layout of text, primarily consisting of meeting minutes or a transcript of a session. The content includes a main header, a page number, a sub-header for an article, and a series of dialogues attributed to different speakers. Speaker names are bolded and followed by a colon, with their statements following immediately. Some speaker attributions include their country and a note about translation.

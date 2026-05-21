@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-b2c869565eca-P0271-01
+chunk_id: CHUNK-a8d3315d4b65-P0271-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275.codex.md
-converted_sha256: b2c869565eca1322db8212a8eddb77c0dbfcd1cfb429c7e7b0ca3646bb5091ad
+converted_sha256: a8d3315d4b6500d9edf8f01371b5a07ba0851884b16864a215489eb076d83b19
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0251-0275-r3577-50-5569-5569-jacket3-pages-251-275/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Le Médecin Général Marotte (France) :
 
 J'allais dire la même chose que ce que vient de dire M. Wadsworth. Si dans une petite ville, on demande au médecin militaire de se charger d'organiser le poste de secours dans une manifestation sportive, allez-vous, parce qu'il s'agit d'un médecin militaire, lui refusèr d'arbo¬ rer l'emblème de la
@@ -171,9 +170,3 @@ The transcription is complete and includes all visible text from the page.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The page contains only text."}
 ```
-
-## Page Metadata
-Page number: 273
-
-## Layout And Reading Order
-The page features a single-column layout with a header at the top indicating the session date and page number. The main content consists of a transcript of a meeting, with speakers identified by name and country (or title) followed by their statements. Some statements include italicized sentences. The text flows from top to bottom in a standard reading order.

@@ -1,0 +1,114 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-e1dc48b28d51-P0344-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350.codex.md
+converted_sha256: e1dc48b28d5191841e5e85ac66468599aae2d11059d27486442e60d7cb07512c
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350/manifest.json
+page_start: 344
+page_end: 344
+part: 1
+---
+
+# Page 344
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350/manifest.json`
+- Source page: 344
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0326-0350-r3577-50-5569-5569-jacket3-pages-326-350/page-images/page-0344.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Elle a seulement une objection à faire en ce qui concerne les mots «sous l'autorité ». Je pense qu'il s'agit d'une disposition se rapportant à la guerre. Il vaudrait mieux par conséquent parler de «territoire occupé». Le terme «d'autorité» peut prêter à des interprétations diffé rentes et parfois très compliquées. Je n'ai "pas besoin de vous cacher qu'en Chine la situation est plutôt confuse. Il y a des parties du territoire chinois qui, licitement ou illicitement, sont sous l'autorité des étrangers. Je ne pense pas que la Délégation japonaise veuille viser ce cas en introduisant son amendement. Je propose donc de changer les mots « sous l'autorité de l'ennemi» par les mots «territoire de l'ennemi ou occupé par l'ennemi.» D'ailleurs, je m'en remets à M. le Président
+
+## M. le Président
+
+:
+
+Nous pourrions dire : « Tout territoire ennemi ou occupé par l'ennemi ».
+
+- M. Hsiao
+2. (Chine) :
+
+Je me déclare satisfait.
+
+- M. Motono
+2. (Japon) :
+
+Nous pouvons très bien accepter cette formule. En faisant notre proposition, nous n'a¬ vions aucune intention de
+
+## M. le Président
+
+## :
+
+C'est bien ainsi que nous l'avions tous entendu. En disant « territoire ennemi ou occupé par l'ennemi » nous employons la terminologie habituelle dans d'autres circonstances à peu près analogues.
+
+## M. le Secrétaire Général
+
+:
+
+Je me demande si nous ne sommes pas dans la voie d'un recul. Lorsque on a posé des limites au survol, c'était dans l'intérêt des Etats-Majors. L'aviateur est une vigie indiscrète qui peut voir la ligne de feu et les zones fortifiées en avant des postes médicaux de triage. C'était tout à fait naturel.
+
+Voulons-nous maintenant, après avoir limité le rôle de l'avion par ce qu'il était dangereux, parce qu'il constituait une inspection possible des mouvements de l'ennemi, limiter également l'avion sanitaire ?
+
+Voici un avion sanitaire qui transportera des blessés et peut-être du matériel sanitaire, qui sera très loin de la ligne de feu et de la zone interdite mais qui, pour aller à l'arrière déposer sa charge de blessés et de matériel sanitaire, sera peut-être obligé de survoler le ter¬ ritoire ennemi. Voulons-nous vraiment lui interdire de rentrer chez lui ? Je me demande si nous n'allons pas au-delà même de ce que les états-majors exigeaient en interdisant le survol de la
+
+ligne de feu et de la zone qui s'en approche.
+
+Est-ce bien là le rôle de notre Conférence ?
+
+## M. Motono (Japon) :
+
+Je rends parfaitement hommage aux vues de M. Des Gouttes qui, du point de vue juri¬ dique et théorique, sont tout à fait exactes. Ce que nous demandons, comme vient de le dire M. Des Gouttes, c'est quelque chose à insérer dans l'alinéa 3 concernant le survol par des avions sanitaires. Ce survol peut présenter parfois de graves inconvénients. Le survol par les avions sanitaires peut être quelquefois une très grosse indiscrétion, surtout pour les puis¬ sances insulaires qui doivent s'occuper non seulement des mouvements de troupes, mais aussi des mouvements navals. Je crois que toutes les puissances seront de cet avis et les Etats-Majors
+
+également.
+
+## Le Lieutenant-Colonel Venizelos (Grèce) :
+
+L'amendement proposé par la délégation japonaise intéresse tout spécialement la Grèce, en raison de sa situation géographique. Une grande partie du territoire hellénique est formée
+
+pour qu'il trouve une formule.
+
+parler de la situation actuelle de la Chine.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
