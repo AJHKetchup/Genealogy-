@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-21T06:31:50Z",
+  "created": "2026-05-21T06:43:14Z",
   "queue": "source-prep-batches",
   "path": "research/_agent-queues/source-prep-batches.json",
   "global_queue": true,
@@ -17,14 +17,14 @@
     ]
   },
   "summary": {
-    "task_count": 3970,
+    "task_count": 3961,
     "status_counts": {
-      "needs_reread": 371,
-      "todo": 3599
+      "needs_reread": 370,
+      "todo": 3591
     },
     "media_type_counts": {
       "image": 1,
-      "pdf": 3969
+      "pdf": 3960
     }
   },
   "released_stale_tasks": 0,

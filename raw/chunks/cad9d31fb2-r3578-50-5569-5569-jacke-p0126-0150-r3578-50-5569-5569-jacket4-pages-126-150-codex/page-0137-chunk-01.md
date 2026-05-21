@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c720e452a4dc-P0137-01
+chunk_id: CHUNK-db9a2dfa260a-P0137-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150.codex.md
-converted_sha256: c720e452a4dc00ed5bcccd3b9ce9e2adca5183b73e14d0e1b8f8323bd93835e8
+converted_sha256: db9a2dfa260a7fb3b2291c3ba8be1ff3301aa3417ac294da51787e7512c2205c
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150/manifest.json
@@ -145,87 +145,3 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "The page contains no meaningful images or diagrams that would be useful as standalone assets."}
-
-## Page Metadata
-Page 139
-
-## Layout And Reading Order
-
-The page contains a single column of text, starting with a header indicating the author and topic. The main body of the text is followed by a series of numbered footnotes at the bottom of the page.
-
-## Literal Transcription
-
-20 G. WERNER. — LES PRISONNIERS DE GUERRE
-
-intéressante discussion ¹. Une déclaration, comprenant 11 articles,
-fut adoptée ². Il ne faut pas la confondre avec celle de Bruxelles.
-
-Au début de la guerre de 1877-1878 entre la Russie et la Turquie,
-le bureau de l’Institut, sur l’initiative de Moynier, publia un appel
-aux belligérants relatif à l’observation des lois de la guerre ³. L’Ins-
-titut rappelle aux belligérants, notamment, la Convention de
-Genève et la Déclaration de Bruxelles, bien que ce dernier acte
-n’ait pas été transformé en une convention dûment signée et ratifiée ⁴.
-Il rappelle, en particulier (lettre H) « que les prisonniers de guerre
-doivent être traités avec humanité. Le but de leur captivité ne doit
-pas être de les punir, mais de les garder. » A la session suivante de
-Zurich, en septembre 1877, l’Institut ratifia à l’unanimité ce qu’avait
-fait son bureau ⁵. Il adopta ensuite des observations et des vœux
-relatifs à l’application du droit des gens à la guerre entre la Russie
-et la Turquie ⁶.
-
-Ces observations qui formulaient certaines critiques à l’adresse du
-gouvernement ottoman, furent mal accueillies par celui-ci, et,
-ainsi qu’il était facile de le prévoir, le débat rebondit l’année sui-
-vante, en 1878, à la session de Paris. La Russie est, cette fois, au
-banc des accusés. Avec sagesse, l’Institut ne se laissa pas détourner
-
-de sa mission scientifique. Mais cet incident démontra qu’il était
-nécessaire de reprendre l’étude des lois de la guerre ⁷.
-
-A la session de Bruxelles, de 1879, Moynier présenta un rapport au
-nom de la Vᵉ Commission de l’Institut. Celle-ci fut chargée de la
-rédaction d’un Manuel des lois et coutumes de la guerre ⁸. Elle ter-
-
----
-¹ _Ibid._, p. 90 à 98.
-² _Ibid._, p. 133 et suiv. Le titre de cette déclaration est : « Examen par l’Ins-
-titut de la Déclaration de Bruxelles de 1874 (conclusions adoptées à la Haye). »
-³ _Annuaire de l’Institut de droit international_, 2ᵉ année, 1878, p. 132 et suiv.
-Cet appel porte les signatures du président Bluntschli (Heidelberg), des
-premier et deuxième vice-présidents, de Parieu (Paris) et Asser (Amsterdam)
-et du secrétaire-général G. Rolin-Jacquemyns (Gand).
-⁴ _Ibid._, p. 135 : « Il est vrai que jusqu’ici il n’a pas reçu de sanction officielle.
-Mais il n’en doit pas moins être considéré, eu égard à sa nature et à son origine
-comme l’expression raisonnable des obligations que la conscience juridique
-des peuples européens impose aujourd’hui aux armées belligérantes comme aux
-populations envahies. »
-⁵ _Ibid._, p. 138.
-⁶ _Ibid._, p. 154 et suiv.
-⁷ _Annuaire de l’Institut de droit international_, 3ᵉ et 4ᵉ année, t. I, p. 38 à 49. 311.
-⁸ _Ibid._, p. 311 à 328. La Commission chargea Moynier de la préparation du
-manuel. Elle se réunit à Heidelberg en juin 1880, sous la présidence de Bluntschli.
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-
-None.
-
-## Completeness Audit
-
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "This page contains no meaningful visual content such as images, diagrams, or complex layouts that would require bounding box extraction."}
-```
-
-## Page Metadata
-Page number: 140
-
-## Layout And Reading Order
-The page contains a single column of text, starting with a section title "INTRODUCTION" and a page number "21" at the top right. The main body of text consists of several paragraphs, followed by a series of numbered footnotes at the bottom of the page.

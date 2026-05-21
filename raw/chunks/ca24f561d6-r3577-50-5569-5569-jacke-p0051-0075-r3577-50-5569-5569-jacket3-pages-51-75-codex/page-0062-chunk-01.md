@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-779b7a6d6a86-P0062-01
+chunk_id: CHUNK-1af4c0b435b1-P0062-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75.codex.md
-converted_sha256: 779b7a6d6a860562f1f31038f03690069bacea76c181bf24c6f7efdca1735b8f
+converted_sha256: 1af4c0b435b1d47df5d5e96a142ec272832e3f2078c1d8fa20ac1b84337ed663
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0051-0075-r3577-50-5569-5569-jacket3-pages-51-75/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## M. le Président
 
 Parfaitement.
@@ -113,89 +112,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 10
-Header: SÉANCE DU 4 JUILLET 1929
-
-## Layout And Reading Order
-The page presents a transcript of a meeting, laid out in a single column. Speaker names are bolded and followed by their statements. The reading order is strictly top-to-bottom.
-
-## Literal Transcription
-10 SÉANCE DU 4 JUILLET 1929
-
-**Le Général Marotte :**
-Je voudrais simplement faire observer que ce n'est pas la France qui a demandé la sup-
-pression des mots « jusqu'à la fin des hostilités ». Nous avons demandé simplement qu'après
-« blessés et malades » on ajoute le mot « graves ».
-
-**M. le Secrétaire Général :**
-Je m'excuse si j'ai attribué à la délégation une proposition qu'elle n'a pas faite, mais
-mon raisonnement s'applique à la proposition que vient de rappeler le Médecin-Général
-Marotte.
-Je dis que les belligérants doivent être laissés libres de s'entendre pour renvoyer des blessés
-ou des malades, même si ce ne sont pas des blessés ou des malades graves. S'ils veulent conclure
-un tel accord, pourquoi les en empêcher ? Laissons-les donc libres.
-
-**M. le Président :**
-Pour nous déterminer sur la question de savoir s'il y a lieu de poursuivre cette discussion
-sur la deuxième partie de l'article 2 ou s'il vaut mieux renvoyer cette deuxième partie de
-l'article 2 à une sous-commission, il importe de bien nous rendre compte du caractère parti-
-culier de cette partie de l'article 2.
-Comme M. des Gouttes vient de le rappeler, il s'agit simplement — ce qui est important
-au point de vue moral, mais n'a pas d'importance au point de vue juridique — d'indiquer ici
-que les belligérants demeurent libres de conclure des accords particuliers sur les trois points
-mentionnés.
-Si nous voulons laisser à cette seconde partie de l'article 2, ce caractère de simple indi-
-cation, il semble que nous pourrions décider de laisser cette seconde partie telle qu'elle figure
-dans le projet, sous réserve peut-être des mots « jusqu'à la fin des hostilités ».
-Nous sommes en présence, d'autre part, d'une proposition turque, d'une proposition
-yougoslave, peut-être d'une troisième, disant que les Gouvernements devraient s'engager à
-rapatrier telle ou telle catégorie de blessés ou de malades. Il s'agirait donc de stipulations
-ayant un caractère impératif. On peut se demander si ces dispositions ne trouveraient pas leur
-place dans un Code des prisonniers de guerre plutôt que dans le projet que nous discutons.
-Si tel était l'avis de la commission, on pourrait décider, en ce qui concerne cette seconde
-partie de l'article 2, d'en rester au texte prévu dans le projet. Il n'y aurait pas de modi-
-fication essentielle à y apporter.
-
-**Akil Muhtar Bey (Turquie) :**
-La proposition que nous avons eu l'honneur de faire concerne les malades. Nous pensons
-qu'elle trouverait sa place dans le projet que nous discutons plutôt que dans le Code des pri-
-sonniers de guerre.
-Le Code des prisonniers de guerre et la Convention de Genève sont deux choses tout à
-fait différentes ; il se peut que ces deux instruments n'aient pas le même sort, que certains
-pays acceptent l'un et refusent l'autre. Nous ne voudrions pas que les prisonniers atteints
-de maladies chroniques graves ne profitassent pas des stipulations que nous avons eu l'honneur
-de vous présenter.
-C'est pourquoi nous aimerions beaucoup que cet article soit étudié par une sous-commis-
-sion.
-
-**M. le Président :**
-La proposition que la délégation turque demande à renvoyer à une sous-commission
-est-elle bien celle qui est insérée dans le procès-verbal de la séance d'hier : « Les prisonniers de
-guerre gravement blessés ou atteints de maladies chroniques les empêchant de servir dans
-l'armée doivent être rapatriés. »
-
-**Akil Muhtar Bey :**
-Parfaitement.
-
-## Images, Captions, And Visual Notes
-The page contains only text and no meaningful images or visual elements that require cropping or detailed description.
-
-## Uncertain Or Illegible
-None. All text is clearly legible.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful images or visual elements that require cropping."}
-```
-
-## Page Metadata
-Page number: 64
-Document title: SÉANCE DU 4 JUILLET 1929
-
-## Layout And Reading Order
-The page presents a single-column layout, primarily consisting of a transcribed dialogue from a meeting. Each speaker's name and country (if provided) are followed by their statement. The text flows from top to bottom.

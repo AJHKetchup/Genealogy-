@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-8457864a44a5-P0133-01
+chunk_id: CHUNK-cd7f8b4346fb-P0133-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket3-pages-126-150.codex.md
-converted_sha256: 8457864a44a5c9348e6eece8968f4ea1ff82820339a775f22b12dd3a13b32389
+converted_sha256: cd7f8b4346fb58f7bee774b13a68133aa0598c111b701fba3c28b1e4fc54c9ff
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket3-pages-126-150/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## M. le Président
 
 ## :
@@ -113,87 +112,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 134
-
-## Layout And Reading Order
-The page features a header at the top with a page number and session date. Below the header, the content consists of a series of statements or speeches from different delegates, each identified by their name and country. The text is presented in a single column, flowing from top to bottom.
-
-## Literal Transcription
-6. SÉANCE DU 10 JUILLET 1929
-
-**M. Parra-Pérez (Vénézuela):**
-En ce qui me concerne, je ne vois pas d'inconvénient à une telle modification, mais il
-y a ici des délégués qui ont beaucoup plus d'expérience que moi en cette matière et je serais
-heureux de connaître leur avis.
-
-**M. le Médecin Général Marotte (France):**
-Le terme de «mandat régulier» a été adopté par la sous-commission. Mais j'avoue qu'à
-la lecture de ce texte, beaucoup sont embarrassés par cette expression, ne sachant pas exacte-
-ment en quoi consiste ce mandat. Je me rallie donc très volontiers à l'idée de M. Hauser.
-Quant à moi le terme que je préférerais, serait celui de «pièce justificative».
-
-**M. Warner (Grande-Bretagne):**
-M. le Président, Messieurs. Dans la sous-commission j'ai été d'accord de présenter cette
-résolution. En considérant la question de plus près, il me semble qu'il y a une très grande
-difficulté d'ordre pratique. Le brancardier qui est muni de ce mandat, de cette pièce justi-
-ficative, prête son secours à un blessé. Comment l'ennemi peut-il voir que cet homme est
-muni de ce mandat ? S'il y avait un moyen d'arranger cela, j'en serais très satisfait, mais il
-me semble vraiment qu'il y a une certaine difficulté. Peut-être que le Médecin Général Marotte
-pourrait nous donner son avis à cet égard. La délégation britannique serait heureuse d'entendre
-ses déclarations.
-
-**Le Médecin Général Marotte (France):**
-Je répondrai à M. Warner qu'à mon avis, la chose est bien simple. Tout homme qui a
-reçu une pièce justificative susceptible de lui attirer le bénéfice de la Convention de Genève
-fera tout ce qu'il pourra pour ne pas la perdre. S'il est capturé, son premier soin sera de présenter
-cette pièce à l'autorité compétente. La difficulté, je ne la vois pas.
-
-**M. Parra-Pérez (Vénézuela):**
-Un mot seulement. Je voudrais ajouter à l'observation très sensée du Médecin Général
-Marotte que la proposition que j'ai eu l'honneur de vous présenter se base sur ce principe
-que la protection n'est accordée à ce personnel que lorsqu'il est au pouvoir de l'ennemi. Il
-est entendu que l'on ne peut protéger personne sur le champ de bataille. Du moment que ce
-personnel tombe au pouvoir de l'ennemi, il lui est excessivement facile, comme l'a dit le Méde-
-cin Général Marotte, de présenter sa carte d'identité. Je ne vois pas la difficulté signalée par
-M. le délégué de la Grande-Bretagne.
-
-**M. Warner (Grande-Bretagne):**
-J'ai sous les yeux l'article proposé par l'honorable délégué du Vénézuela. Cet article
-dit que les militaires seront au bénéfice du même régime que le personnel sanitaire permanent.
-Evidemment, je comprends bien que dans le cas où ce personnel sera capturé, il fera voir sa
-carte d'identité. Il n'y a aucun doute à cela. Mais le régime du personnel sanitaire n'est pas
-seulement limité au privilège accordé par la Convention d'être renvoyé, il s'étend aussi au
-fait que l'on ne doit pas tirer sur lui. Il me semble beaucoup plus important de sauver la vie à
-quelqu'un que d'être prisonnier pendant quelque temps. Voilà la difficulté.
-
-**M. Riad (Egypte):**
-Je me demande seulement si on ne pourrait pas également mettre le brassard à ces gens,
-puisque vous assimilez les militaires au personnel sanitaire. C'est le but de votre amendement.
-
-**M. Babecki (Pologne):**
-Je vous prie de ne pas prendre une décision aujourd'hui, parce que les Etats-Majors
-pourront faire des objections. Je vous demande, par conséquent, de renvoyer cette question
-à une sous-commission.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page."}
-```
-
-## Page Metadata
-Page number: 7
-Session date: 10 Juillet 1929
-
-## Layout And Reading Order
-The page presents a transcript of a meeting, formatted with speaker names followed by their statements. The text is arranged in a single column.

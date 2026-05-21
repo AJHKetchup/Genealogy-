@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-f37894c9f705-P0104-01
+chunk_id: CHUNK-8cb1ea54d8ce-P0104-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125.codex.md
-converted_sha256: f37894c9f7059dd028bcfa79429a0a4d5bc27f30c3d6dce3a4f65fc630c917b6
+converted_sha256: 8cb1ea54d8ce11c9f741689427f3ea95476ed3d563d74546178cb90983327914
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0101-0125-r3577-50-5569-5569-jacket3-pages-101-125/manifest.json
@@ -194,10 +194,3 @@ The transcription is complete and includes all visible text on the page.
   "no_visual_regions_reason": "No substantial visual elements like images, maps, or diagrams are present on this page. The page consists entirely of text."
 }
 ```
-
-## Page Metadata
-Page number: 18
-Header: SÉANCE DU 8 JUILLET 1929
-
-## Layout And Reading Order
-The page presents a single column of text, primarily a transcript of a meeting or debate. Each speaker's name and country (or role) is indicated, followed by their statement. The text flows continuously down the page.

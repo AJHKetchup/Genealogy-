@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9be978636dc9-P0364-01
+chunk_id: CHUNK-220fe62c0975-P0364-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375.codex.md
-converted_sha256: 9be978636dc99909b2c5b23e14ec85d485c55475a9b3b62b4a2762ecf78fce21
+converted_sha256: 220fe62c097500c27d3310030ed09eca86f8de6da8bb77c1e1b6a9530feb612c
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0351-0375-r3577-50-5569-5569-jacket3-pages-351-375/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## M. P. Dinichert, ■président de la Conférence
 
 ## :
@@ -77,83 +76,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 16
-Date: 2 JUILLET 1929
-
-## Layout And Reading Order
-The page features a header with the page number "16" on the left and "SÉANCE DU 2 JUILLET 1929" on the right. The main content consists of a single column of text, which appears to be a transcript of a meeting or conference. The text includes several paragraphs, with a speaker's name and affiliation introducing a new section of speech, followed by a concluding statement from "M. le Président". The final line indicates the adjournment time.
-
-## Literal Transcription
-16 SÉANCE DU 2 JUILLET 1929
-
-pas impressionner par la pensée que, dans le code à conclure, nous ne devons mettre absolument
-que des idées générales : nous pouvons aussi y insérer des stipulations particulières si elles
-sont d'un caractère tel que tous les gouvernements de bonne volonté puissent prendre l'en-
-gagement d'en exécuter les obligations. La conclusion de ces quelques mots, c'est qu'il me
-paraît indispensable, pour les raisons qui ont déjà été exposées et pour celles que j'ai indiquées
-encore, que nous abordions l'examen du projet du Comité international. Je dirai, si vous
-voulez, que ce doit être en tout cas la base de notre première lecture : nous verrons ce que
-nous voudrons en retenir, ce que nous déciderons d'abandonner et, suivant le résultat, nous
-ferons une sorte d'amalgame avec le projet du gouvernement des États-Unis. Cette étude à
-laquelle nous allons nous livrer avec ardeur, je n'en doute pas, nos idées générales s'étant
-véritablement éclaircies aujourd'hui, nous fera voir utilement quelle est la suite à donner
-à nos travaux. Je crois devoir souligner au surplus que prendre aujourd'hui comme base
-le projet du Comité international n'exclut définitivement aucun autre projet.
-J'ajoute que si la délégation des États-Unis pouvait se rallier à des idées comme celles-là,
-la Conférence, je crois, lui serait extrêmement reconnaissante de nous faciliter ainsi la voie
-au moment de nous engager dans la discussion de détail.
-
-M. S. E. Hugh R. Wilson (États-Unis d'Amérique). (Traduction) :
-
-Je suis certain que tous les délégués ont recueilli l'impression que cette discussion avait
-été extrêmement claire et sincère. Personnellement j'ai été très impressionné par certains
-des discours qui ont été prononcés tout à l'heure, en particulier par ceux du représentant
-de la Croix-Rouge internationale, de M. Dinichert, président de la Conférence, et du délégué
-de la Nouvelle-Zélande.
-
-Après toutes les explications données, il ne m'est pas difficile d'acquiescer à la demande
-qui m'a été adressée par M. Dinichert de prendre comme première base de discussion le projet
-soumis par le Comité international de la Croix-Rouge.
-
-Toutefois, quand on discutera ce projet, il faudra toujours garder présentes à l'esprit
-les observations qui ont été faites au cours de la discussion par les différents gouvernements.
-L'intention du gouvernement des États-Unis en soumettant le contre-projet que vous
-connaissez, n'était nullement d'imposer à la Conférence une méthode quelconque de travail,
-il désirait simplement trouver un moyen concis et précis d'indiquer la façon dont il envisageait
-qu'une convention devrait être établie et d'exprimer d'une façon facile à comprendre son
-espoir que l'on adopterait un texte plus général que celui qui avait été soumis à la Conférence.
-
-En résumé j'accepte la proposition de M. Dinichert; je le fais d'autant plus volontiers
-que je suis le représentant d'une grande démocratie et que tous les citoyens d'une démocratie
-doivent avoir appris à se plier aux désirs de la majorité. (Applaudissements).
-
-M. le Président :
-
-Personne ne demandant plus la parole je pense pouvoir considérer la discussion générale
-comme terminée.
-
-Demain nous pourrons commencer le travail de détail en nous basant sur l'avant-projet
-du Comité international de la Croix-Rouge.
-
-La séance est levée à 12 h. 10.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was found on this page.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions present."}
-
-## Page Metadata
-Page 366
-
-## Layout And Reading Order
-
-The page presents a formal document, likely minutes from a diplomatic conference. It begins with a header indicating the session date, followed by the main title of the conference and details about the commission and session. A stamp is visible in the upper left corner. The main body consists of a record of discussions, with speakers identified by name and title, followed by their statements. The text is organized into paragraphs, with some headings for articles.
