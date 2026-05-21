@@ -1,0 +1,128 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-486abe981bc8-P0285-01
+source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300.codex.md
+converted_sha256: 486abe981bc80966b14e8fefb4e03803dc5cb63bc74a9bdc108736d715c5f423
+source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
+source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
+source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/manifest.json
+page_start: 285
+page_end: 285
+part: 1
+---
+
+# Page 285
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket3.pdf`
+- Source SHA-256: `24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91`
+- Conversion manifest: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/manifest.json`
+- Source page: 285
+- Page image: `raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0276-0300-r3577-50-5569-5569-jacket3-pages-276-300/page-images/page-0285.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+« La commission communiquera ses conclusions aux belligérants qui seront obligés de leur donner la suite
+
+qu'elles comportent. »
+
+Mon commentaire sera trèsT&gt;ref. Il arrive, au cours d'une guerre, que des accusations soient lancées de part et d'autre au sujet de violations de telle ou telle convention. Il peut donc paraître utile, au point de vue pra ique, d'édicter des dispositions sur la procédure apte à apporter des éclaircissements. Ces accusations peuvent, en effet, empoisonner l'opinion pu¬
+
+blique des deux parties.
+
+Nous pensons que l'institution d'une commission mixte répondrait bien au but que nous
+
+cherchons à atteindre.
+
+Nous vous demandons de considérer avec bienveillance la proposition que nous vous soumettons.
+
+## M. le Président
+
+## :
+
+La discussion est ouverte sur cette proposition de la délégation allemande.
+
+## Akil Moukhtar Bey (Turquie)
+
+:
+
+Nous croyons qu'en temps de guerre il ne sera pas facile d'arriver à constituer une com¬ mission composée de délégués neutres et de représentants des belligérants, chargée de procéder aux investigations nécessaires pour constater les violations de la Convention. Une longue expérience a démontré que le Comité international de la Croix-Rouge est à même de mener à bien une entreprise délicate de cette nature, à travers des difficultés multiples, cela grâce au prestige historique qu'il possède et à la neutralité toute spéciale qui lui est assurée par ses
+
+statuts.
+
+Nous sommes persuadés que, si l'on juge nécessaire d'introduire dans la Convention une clause dans ce sens, cette disposition devrait consacrer l'activité du Comité international de la Croix-Rouge, laquelle s'exerce en fait depuis sa fondation et à laquelle, en pratique, on aura toujours recours dans l'avenir pour le plus grand bien des victimes de la guerre.
+
+## M. le Président
+
+:
+
+La délégation de Turquie ne formule pas, pour le moment, d'amendement précis ?
+
+## Akil Moukhtar Bey (Turquie)
+
+Non.
+
+## M. le Président
+
+:
+
+Est-ce qu'elle se réserve de le faire ultérieurement ?
+
+## Akil Moukhtar
+
+## Bey (Turquie)
+
+Oui.
+
+## Le Colonel Hauser (Suisse) :
+
+Les expériences que la Suisse a pu faire pendant la guerre mondiale - vous savez qu elle a eu beaucoup à s'occuper de l'internement, surtout de l'internement des prisonniers allemands, anglais, belges et français - nous incitent à appuyer cette proposition. Plus d une fois nous aurions souhaité que la formation d'une telle commission fût possible et nous estimons que la proposition de la délégation allemande mérite d'être examinée d'une façon approfondie.
+
+## M. de Calheiros e Menèzes (Portugal) :
+
+Le Portugal a été l'un des premiers pays qui ont adhéré au système de 1 arbitrage. Il l'avait même proposé en 1906. Par conséquent la délégation portugaise est disposée à adhérer au
+
+système qui nous est proposé.
+
+:
+
+:
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

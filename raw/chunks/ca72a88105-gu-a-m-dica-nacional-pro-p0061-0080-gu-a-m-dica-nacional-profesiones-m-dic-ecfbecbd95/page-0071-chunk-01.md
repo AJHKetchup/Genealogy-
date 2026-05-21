@@ -1,0 +1,66 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-b7ae05a69374-P0071-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
+converted_sha256: b7ae05a69374418ee2839bf1f6f6a8f5f97f62c4ab9f56275d92d555fe26ee4e
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
+page_start: 71
+page_end: 71
+part: 1
+---
+
+# Page 71
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json`
+- Source page: 71
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/page-images/page-0071.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Pacheco  del  Pino,  Jorge Pacheco  Díaz,  Luis Pacheco  Navarrete, Osvaldo Pacheco  Pizarro,  Luisa Pacheco  Ugarte,  Humberto Pacheco  Ulloa,  Matilde Padilla Fellay, Emilio Padilla  Rubilar, Alicia Páez  Muñoz, Germán Paiva  Yáñez, Antonio Palacios  Armstrong,  Edgardo Palacios  Concha,  Luisa Palacios  Rojas,  Gilberto Palacios  von  Helm,  Raúl Palestini  Quiroz,  Mario Palma  Cádiz,  Elia Palma  Cataldo, Renato Palma  Cereceda, Jorge Palma  Eckart,  Jorge Palma  Espinoza,  J.  Rafael Palma  Fürth,  Raúl Palma  Prado, Cristina Palma  Villarreal, Raúl Palomino  Cruzat, Eduardo Palomino  Wagner,  Carmen Palomo  Terán,  José  Luis Panatt  Wolff,  L.  Alberto Pantoja  Bustos,  Lorenzo Panto  ja  Bustos,  Mario Pantoja  Silva,  Natanael Pantoja  Torres,  Samuel Pantoja  Velasco,  Alvaro Paolinelli  Monti, Livio Parada  Ahumada,  Elsa Parada  Barrios, Mauricio Parada  Bravo,  Francisco Parada  Hernández,  Margot Parada Parga, Julio Parada  Sanhueza, Marcial Pardo  Arancibia,  Alberto Santa  Beatriz  40 Teatinos  726 San  Camilo  181 Lord  Cochrane  177 Posta  "Cemento  Melón" Avda.  Salvador 2010 Eduviges  812 Gorbea  1777 Bilbao  992 Salvador  Donoso  1553 Ramón  Angel  Jara 741 Castellón  25 Matta  595 Copiapó  437 Nataniel  806 Maruri  1119 Avda.  Subercaseaux 46, Depto.  4 Plaza  Bulnes  80 Domingo  Bondi  979 Avda.  Ecuador  214 Colón  2408 Ahumada  47,  2?  Piso Casa  de  Socorro Valparaíso 416 Antonio  Varas  2261 Monroy  6742 Avda.  Santa  María  435, Depto.  32 Ismael  V.  Vergara  348 Pedro  de  Valdivia  361 Pedro  León  Ugalde  96, Of.  73 Eduardo  Donoso  791 Vicuña  Mackenna  560, Depto.  302 Ahumada  131,  Of.  614 Aguirre  Luco  1031  D Merced  180 Alam.  B.  O'Higgins 776, Depto.  37 Ruiz  Tagle  221 Orompello  30 Huérfanos  1922 Av.  Gral.  Bustamante  42 Santiago Santiago Santiago Santiago La Calera Santiago Osorno Santiago Osorno Valparaíso La Serena Talcahuano Osorno Santiago Santiago Santiago Santiago Santiago Santiago Viña  del  Mar Valparaíso Santiago Licantén Viña  del  Mar Santiago Santiago Santiago Santiago Santiago Santiago Santiago Santiago Santiago Santiago Santiago Santiago Santiago Concepción Santiago Santiago
+
+74  -
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

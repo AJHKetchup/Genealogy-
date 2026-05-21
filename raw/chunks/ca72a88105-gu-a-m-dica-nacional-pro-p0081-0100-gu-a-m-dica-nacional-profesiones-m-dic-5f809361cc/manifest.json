@@ -1,7 +1,7 @@
 {
   "created": "2026-05-21",
   "converted_file": "raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100.codex.md",
-  "converted_sha256": "b27a15afde7971773b1d96e9d3926cc4502b5c45b109efd8d6a15b2fac649be4",
+  "converted_sha256": "ff92037c89f7fa7c0ff6c5839ddec62373915801b5a3098b0c424354a38733dd",
   "source": "raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf",
   "source_sha256": "72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874",
   "source_manifest": "raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json",
@@ -12,144 +12,214 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0081-01",
+      "chunk_id": "CHUNK-ff92037c89f7-P0081-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0081-chunk-01.md",
       "page_start": 81,
       "page_end": 81,
       "part": 1,
       "chars": 8945,
-      "sha256": "7037a6b197b8b6c627472144d2fd470e73d20f18f8e245df90e0e7aabc291b17"
+      "sha256": "dac82e01ca85bf7b2b26ad5e5bb125b40b989022fe79f2fb00fd03c02b9286ed"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0083-01",
+      "chunk_id": "CHUNK-ff92037c89f7-P0083-01",
       "chunk_number": 2,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0083-chunk-01.md",
       "page_start": 83,
       "page_end": 83,
       "part": 1,
-      "chars": 11646,
-      "sha256": "281575f5975e18700ff4631f98db20b2fbffe37d7f351609d65dad05b3df557c"
+      "chars": 6312,
+      "sha256": "a98c2d7a9360e010032a903840f2d919fd9282ead890eb6de1c6489d726bdc9e"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0086-01",
+      "chunk_id": "CHUNK-ff92037c89f7-P0084-01",
       "chunk_number": 3,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0084-chunk-01.md",
+      "page_start": 84,
+      "page_end": 84,
+      "part": 1,
+      "chars": 5405,
+      "sha256": "6138a46117456d855a4c694f52c7e90f17c894e3c194db236daa83a93e5f3f51"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0085-01",
+      "chunk_number": 4,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0085-chunk-01.md",
+      "page_start": 85,
+      "page_end": 85,
+      "part": 1,
+      "chars": 7109,
+      "sha256": "2bab98d6c24acd84f3b948952139e4a478cd28b50d100da09149d3cbe2b5dd1a"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0085-02",
+      "chunk_number": 5,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0085-chunk-02.md",
+      "page_start": 85,
+      "page_end": 85,
+      "part": 2,
+      "chars": 4,
+      "sha256": "e65f2f3264abb26700f0d0f6757a5867af4ee2354c4722cc7db3b0f75cadd029"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0085-03",
+      "chunk_number": 6,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0085-chunk-03.md",
+      "page_start": 85,
+      "page_end": 85,
+      "part": 3,
+      "chars": 11699,
+      "sha256": "ccd6dd07319738102c2047cd791576c5b4a935367edf5161f05c4017d83a274f"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0085-04",
+      "chunk_number": 7,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0085-chunk-04.md",
+      "page_start": 85,
+      "page_end": 85,
+      "part": 4,
+      "chars": 9903,
+      "sha256": "79e3a5dfb3542fa3186e2c01405fef84c75545aaabce062ec2e926099c21639c"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0085-05",
+      "chunk_number": 8,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0085-chunk-05.md",
+      "page_start": 85,
+      "page_end": 85,
+      "part": 5,
+      "chars": 782,
+      "sha256": "a4bdc1381f67aa207df155504aace7f8145e9e4b7f0e9b5232c6af55d4847149"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0086-01",
+      "chunk_number": 9,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0086-chunk-01.md",
       "page_start": 86,
       "page_end": 86,
       "part": 1,
       "chars": 6247,
-      "sha256": "c70c32d54392f2a7f3eda5c37289df49b827faeba6c36f97a39b7ec4ec17c5ac"
+      "sha256": "fc6a47765d9c6129a168e2c2be1bee611d96b1c42eb2727f837be50041368b13"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0087-01",
-      "chunk_number": 4,
+      "chunk_id": "CHUNK-ff92037c89f7-P0087-01",
+      "chunk_number": 10,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0087-chunk-01.md",
       "page_start": 87,
       "page_end": 87,
       "part": 1,
       "chars": 6990,
-      "sha256": "229481b6728eb2523f351a397b34d45c5f110d64ec540dcb88ca3ddaed159abd"
+      "sha256": "16a58fd3e123e2d9ce79d170a5a615679140423392cc09c4512355b2e725aafb"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0088-01",
-      "chunk_number": 5,
+      "chunk_id": "CHUNK-ff92037c89f7-P0088-01",
+      "chunk_number": 11,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0088-chunk-01.md",
       "page_start": 88,
       "page_end": 88,
       "part": 1,
       "chars": 4383,
-      "sha256": "6265d831a590f895f19eac032d6643b91424faa363fc32f92f3926b21c7b0fa8"
+      "sha256": "73aa4d6e69cdc4a1daeeb0a1f75438bd166766ca44e47b7dbf1d520532f8e402"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0089-01",
-      "chunk_number": 6,
+      "chunk_id": "CHUNK-ff92037c89f7-P0089-01",
+      "chunk_number": 12,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0089-chunk-01.md",
       "page_start": 89,
       "page_end": 89,
       "part": 1,
       "chars": 6215,
-      "sha256": "55594a1592177e048e6ed6f0795494d0cc7df059213744ed81746de50e5b22cd"
+      "sha256": "be4eaf1e871de84bf99778c11c5a68759aac0e59e9d59da662ffeea5785d078e"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0090-01",
-      "chunk_number": 7,
+      "chunk_id": "CHUNK-ff92037c89f7-P0090-01",
+      "chunk_number": 13,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0090-chunk-01.md",
       "page_start": 90,
       "page_end": 90,
       "part": 1,
       "chars": 5903,
-      "sha256": "69f38fb71be802c102a8628ed4b9ef17774cf96be82aef76abf6ebc978da02b7"
+      "sha256": "1e8c16c949048ef512c8e0dc1898b1d021128523f2018674581cbcf62845eaf9"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0091-01",
-      "chunk_number": 8,
+      "chunk_id": "CHUNK-ff92037c89f7-P0091-01",
+      "chunk_number": 14,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0091-chunk-01.md",
       "page_start": 91,
       "page_end": 91,
       "part": 1,
-      "chars": 11268,
-      "sha256": "847e0931ffe5b8338ecf759b592d45a2eb3139ec37f40e97c8c40f5eebc29684"
+      "chars": 5731,
+      "sha256": "5c933dbed21d076066dbe980b5482f7376a1c8950b42be4693a6d16296c66298"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0094-01",
-      "chunk_number": 9,
+      "chunk_id": "CHUNK-ff92037c89f7-P0092-01",
+      "chunk_number": 15,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0092-chunk-01.md",
+      "page_start": 92,
+      "page_end": 92,
+      "part": 1,
+      "chars": 8473,
+      "sha256": "59bbae8f647c81adc76751825bc5d1df05bba3906b4d1a37e58475bfbb8aa2e0"
+    },
+    {
+      "chunk_id": "CHUNK-ff92037c89f7-P0094-01",
+      "chunk_number": 16,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0094-chunk-01.md",
       "page_start": 94,
       "page_end": 94,
       "part": 1,
       "chars": 5946,
-      "sha256": "87e6e9d765e0d4d442a2cb1a6f8a3a81fa4fbc77de7c2bf35b053c6e4b278ac3"
+      "sha256": "fd86f5a8f5a644e663794f7e570f64b488dcef7725eeb96d6c656249c3c33f99"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0095-01",
-      "chunk_number": 10,
+      "chunk_id": "CHUNK-ff92037c89f7-P0095-01",
+      "chunk_number": 17,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0095-chunk-01.md",
       "page_start": 95,
       "page_end": 95,
       "part": 1,
-      "chars": 9484,
-      "sha256": "2a5ebbdbfe0c51ef92830e44df7de7dfc694f52780fff277bc248b198e686dee"
+      "chars": 8723,
+      "sha256": "7388d6afa024a6488bc3b0cd812a871182b52e75d9a0c2e98ae216858eb6f5a8"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0095-02",
-      "chunk_number": 11,
-      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0095-chunk-02.md",
-      "page_start": 95,
-      "page_end": 95,
-      "part": 2,
-      "chars": 3246,
-      "sha256": "2da9b307faa6912b7948fe43dcafb0ca03d93d195fa8ca45d7ab4aa613d7aec1"
+      "chunk_id": "CHUNK-ff92037c89f7-P0097-01",
+      "chunk_number": 18,
+      "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0097-chunk-01.md",
+      "page_start": 97,
+      "page_end": 97,
+      "part": 1,
+      "chars": 4275,
+      "sha256": "2b2648e3f721ac7f264b92274269ce247b4b924c1a34c4e40753374dd2255a80"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0098-01",
-      "chunk_number": 12,
+      "chunk_id": "CHUNK-ff92037c89f7-P0098-01",
+      "chunk_number": 19,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0098-chunk-01.md",
       "page_start": 98,
       "page_end": 98,
       "part": 1,
       "chars": 6259,
-      "sha256": "64aece337f04bf3f72a4c912be8b3c3c4d7a61c6cf33d3fa3b45ac6e88ca2034"
+      "sha256": "2b99da8b720d6a145dcdf034e510561496d15c39980a8ff0490fc15f886fc108"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0099-01",
-      "chunk_number": 13,
+      "chunk_id": "CHUNK-ff92037c89f7-P0099-01",
+      "chunk_number": 20,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0099-chunk-01.md",
       "page_start": 99,
       "page_end": 99,
       "part": 1,
       "chars": 4346,
-      "sha256": "3c0468af757cab1e45241cbe9a943dd45ee64033bb5ced07ba20cad42fbd0445"
+      "sha256": "71f1f579ce8f0954c9b7c3e24b7c793d6a2af12e392a12fc5dfe7a0b8ed5e0ba"
     },
     {
-      "chunk_id": "CHUNK-b27a15afde79-P0100-01",
-      "chunk_number": 14,
+      "chunk_id": "CHUNK-ff92037c89f7-P0100-01",
+      "chunk_number": 21,
       "path": "raw/chunks/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc/page-0100-chunk-01.md",
       "page_start": 100,
       "page_end": 100,
       "part": 1,
       "chars": 5594,
-      "sha256": "d0acdbd2058803eb6e6555b91c0610d975b2496642e1799565432219f957e504"
+      "sha256": "31fbd085b5c3a7b04daf3413970f0c3ec1203a1ccc2bcc7e5f2035fdd05454a4"
     }
   ]
 }

@@ -1,0 +1,104 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-759f8ddf442b-P0021-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40.codex.md
+converted_sha256: 759f8ddf442bdeb6e07733a26bc90641e5390b72e6bda4eff6b8c10555fb87f8
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json
+page_start: 21
+page_end: 21
+part: 1
+---
+
+# Page 21
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/manifest.json`
+- Source page: 21
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0021-0040-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-21-40/page-images/page-0021.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+| Castañón Salinas, Rolando Castellón Rivera, Camilo   | Valentín Letelier 20 Antonio Bellet 92   | Santiago Santiago   |
+|------------------------------------------------------|------------------------------------------|---------------------|
+| Castillo Bustamante, Luis                            | R. Vicuña 360                            | Los Angeles         |
+| Castillo Calderón, Héctor                            | Santa Victoria 508                       | Santiago            |
+| Castillo del Real, Aldo                              | Per Henrik Ling 883                      | Santiago            |
+| Castillo Didier, M. Antonio                          | San Francisco 1139                       | Santiago            |
+| Castillo Infante, Antonio                            | Avda. Valdivieso 321                     | Santiago            |
+| Castillo Salinas, Gastón                             | Merced 180                               | Santiago            |
+| Castillo Toledo, Manuel                              | Namur 67                                 | Santiago            |
+| Castillo Yáñez, Pedro                                | Huérfanos 1117                           | Santiago            |
+| Castrillón Morales, Eduardo                          | Lira 1202                                | Santiago            |
+| Castro Ahumada, Juan de Dios                         | Serrano 198                              | La Ligua            |
+| Castro Avaria, Fernando                              | Presidente Errázuriz 3060                | Santiago            |
+| Castro Avaria, Jorge                                 | Compañía 2695                            | Santiago            |
+| Castro Avaria, Mario                                 | Orrego Luco 47                           | Santiago            |
+| Castro Diabuno, Juan E.                              | García Moreno 1470                       | Santiago            |
+| Castro Irribarra, José S.                            | Estado 96                                | Curicó              |
+| Castro Iturriaga, Darío                              | Román Díaz 2050                          | Santiago            |
+| Castro Ladrón de Guevara, Jorge                      | Matías Cousiño 150                       | Santiago            |
+| Castro Leiva, Elsa de                                | Monjitas 619                             | Santiago            |
+| Castro López, David                                  | Edificio Couve 109                       | Viña del Mar        |
+| Castro Mancilla, Adriana                             | Av. Sta. María 0346, Depto. 224          | Santiago            |
+| Castro Mayol, Alfredo                                | 2 Norte 666                              | Talca               |
+| Castro Moller, Hernán                                | Las Condes 9636                          | Santiago            |
+| Castro Palma, Victoria                               | Alam. B. O'Higgins 24 В                  | Santiago            |
+| Castro Salgado, Rodolfo                              | Altos Edif. Ford, Dep. 6                 | Linares             |
+| Castro Varela, Raúl                                  | Dr. M. Barros B. 343                     | Santiago            |
+| Castro Vergara, Oscar                                | Agustinas 2123                           | .Santiago           |
+| Catalán Pérez, Roberto                               | Nogueira 110                             | Tomé                |
+| Cataldo Arancibia, Hilario                           | 21 de Mayo 3025                          | Quillota            |
+| Cattaneo Coronata, Federico                          | Monjitas 375                             | Santiago            |
+| Cautivo Olivares, Hermógenes                         | Montt 357                                | Curicó              |
+| Cauwelaert Bravo, Roberto van                        | Sotomayor 60                             | Tomé                |
+| Cave Lagos, Federico                                 | Rosa Eguiguren 813, Depto. 94            | Santiago            |
+| Cavicchioli Celvi, Hernán                            | José Miguel Infante 717                  | Santiago            |
+| CaYledes Codelia, Raúl                               | 8 Norte 998                              | Viña del Mar        |
+| Caviedes Latorre, Héctor                             | M. Montt 115                             | Temuco              |
+| Cayuela Arzac, María I.                              | Ramón Laval 1852                         | Santiago            |
+| Ceballoe Yáñez, Lorenzo                              | Avda. Viel 1344                          | Santiago            |
+| Celhay Ravailhe, Juan                                | Amunátegui 72                            | Santiago            |
+| Celis Meyer, Roberto                                 | I. Valdés Vergara 318, Depto. 11         | Santiago            |
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

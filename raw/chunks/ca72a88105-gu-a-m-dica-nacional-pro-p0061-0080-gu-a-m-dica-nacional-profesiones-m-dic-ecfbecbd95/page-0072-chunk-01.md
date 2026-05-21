@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c19c47eb39db-P0072-01
+chunk_id: CHUNK-b7ae05a69374-P0072-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
-converted_sha256: c19c47eb39dbfb1971e0973b63d8825c09669826943107fd3ef7ba6ba7adb7bd
+converted_sha256: b7ae05a69374418ee2839bf1f6f6a8f5f97f62c4ab9f56275d92d555fe26ee4e
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
@@ -187,10 +187,3 @@ This page has been transcribed in its entirety.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "This page contains only text in a directory format and has no images, illustrations, or other visual elements."}
 ```
-
-## Page Metadata
-- **Page number in source document:** 74
-- **Visible page number:** 77
-
-## Layout And Reading Order
-This page is a single-column list of names, addresses, and cities, formatted to appear as three columns. The reading order is from top to bottom. Some entries have addresses that span multiple lines. The page number "— 77" is located at the bottom right corner.

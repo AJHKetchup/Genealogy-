@@ -1,0 +1,100 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-24abbd62f2a1-P0138-01
+source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150.codex.md
+converted_sha256: 24abbd62f2a1425edd9e97e9382682739f5bf889b74b0d5244007c596d9f3372
+source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
+source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
+source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json
+page_start: 138
+page_end: 138
+part: 1
+---
+
+# Page 138
+
+## Page Metadata
+
+- Source: `raw/sources/R3577-50-5569-5569-Jacket1.pdf`
+- Source SHA-256: `db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb`
+- Conversion manifest: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json`
+- Source page: 138
+- Page image: `raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/page-images/page-0138.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+## Etats-Unis d'Amérique
+
+PROPOSITIONS FORMULÉES PAR LE DÉPARTEMENT DE LA GUERRE DES ÉTATS-UNIS D'AMÉRIQUE EN VUE DE LA REVISION DU « CODE DES PRISONNIERS DE GUERRE ».
+
+Note : a) Les dispositions de la Section I de l'Annexe à la Convention de La Haye sont reproduites en caractères ordinaires.
+
+- b) Les principes adoptés dans le code proposé et que le Département de la Guerre approuve sont en italique. Ces principes ont été disjoints, dans une certaine mesure, afin de pouvoir être insérés dans les paragraphes de la Convention de La Haye où ils trouvent logiquement leur place.
+- c) Les dispositions nouvelles qui ont été insérées par le Département de la Guerre ont été indiquées en maj uscules.
+
+## Section I.
+
+## DES BELLIGÉRANTS.
+
+## Chapitre I. - De la qualité de belligérants.
+
+Article premier. - Les lois, les droits et les devoirs de la guerre ne s'appliquent pas seulement à l'armée, mais encore aux milices et aux
+
+- i°
+
+corps de volontaires réunissant les conditions suivantes :
+
+- d'avoir à leur tête une personne responsable pour ses subordonnés ;
+- 2° d'avoir un
+- signe distinctif fixe et reconnaissable à distance ;
+- 3° de porter les armes ouvertement et
+- 4°
+- de se conformer dans leurs opérations aux lois et coutumes de la guerre.
+
+Dans les pays où les milices ou des corps de volontaires constituent l'armée ou en font partie, ils sont compris
+
+sous la dénomination d'«armée».
+
+Article 2. - La population d'un territoire non occupé qui, à l'approche de l'ennemi, prend spontanément les armes pour combattre les troupes d'invasion sans avoir eu le temps de s'organiser conformément à l'article premier,
+
+sera considérée comme belligérante, si elle porte les armes ouvertement et si elle respecte les lois et coutumes de la guerre.
+
+Article 3. - Les forces armées des parties belligérantes peuvent se composer de combattants et de non-com¬ battants. En cas de capture par l'ennemi, les uns et les autres ont droit au traitement des prisonniers de guerre,
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c19c47eb39db-P0066-01
+chunk_id: CHUNK-b7ae05a69374-P0066-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80.codex.md
-converted_sha256: c19c47eb39dbfb1971e0973b63d8825c09669826943107fd3ef7ba6ba7adb7bd
+converted_sha256: b7ae05a69374418ee2839bf1f6f6a8f5f97f62c4ab9f56275d92d555fe26ee4e
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0061-0080-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-61-80/manifest.json
@@ -176,108 +176,3 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
-
-## Page Metadata
-Page number: 71
-
-## Layout And Reading Order
-
-The page presents a two-column directory layout. The content is organized into two main sections, separated by a small 'o' symbol. Within each section, names are listed in the left column, and their corresponding addresses and cities are listed in the right column. The reading order proceeds down the left column, then down the right column, for each logical block of entries.
-
-## Literal Transcription
-
-Nogués Larraín, Francisco
-Nolff Cuevas, Elsa
-Norambuena Somerville, Carlos
-Norero Norero, Eduardo
-Norero Tassara, M. Nicolás
-Noriega de la Vega, Carlos
-Norris Cumming, Beryl
-Novoa Allende, Oscar
-Novoa Puelma, Federico
-Noziglia Barbagelata, Luis
-Numhauser Tognola, Jacobo
-
-Núñez Beauperthuy, Rodolfo
-Núñez Castañeda, M. Adriana
-Núñez Cuevas, Mario
-Núñez de la Cuadra, René
-Núñez Dey, David
-Núñez Escobar, Alfonso
-Núñez Mardones, Mario
-Núñez Núñez, Javier
-Núñez Saavedra, Carlos
-Núñez Zamora, Humberto
-
-o
-
-Oberti Sobrevía, Carlos
-
-O'Brien Wares, Arturo
-Ocampo Muñoz, Héctor
-Odachowky Pohl, Eva M.
-Odiaga Andrade, Carlos
-Oesterle Stehn, Guillermo
-Oettinger Stegmaier, Clara
-Ogueta Villalabeitía, Daniel
-Ojeda Quezada, Víctor M.
-Olavarría Gabler, Fernando
-Olavarría Ponce, Carlos
-Olave Urrutia, Aníbal
-Olea Guldemont, Ricardo
-Olea Nevens, Juan L.
-Olguín Zapata, Osvaldo
-Olivares Alarcón, Juan Ricardo
-Olivares Alarcón, Miguel Luis
-Olivares Alvarez, Osvaldo
-
-José Luis Araneda 25 Santiago
-Serrano 720 Vallenar
-Beaucheff 625 Valdivia
-Celia Zegers 43 Santiago
-Monjitas 879, Dep. 1105 Santiago
-Príncipe de Gales 7027 Santiago
-Orompello 643 Concepción
-Merced 250 Santiago
-Compañía 1291, 5º Piso Santiago
-Hospital Naval Valparaíso
-José M. Infante 922, Santiago
-Depto. 4
-
-Beltrán Mathieu 1233 Santiago
-Gleisner 1699 Concepción
-Viana 615 Viña del Mar
-Paraguay 447 Santiago
-Avda. Manuel Montt 471 Santiago
-Rosas 621 Concepción
-Sotomayor 153 Tomé
-Avda. Libertad 733 Viña del Mar
-Riquelme 515 Santiago
-Avda. Matucana 289 Santiago
-
-Avda. Providencia 2457, Santiago
-Depto. 324
-
-Covadonga 411 San Bernardo
-Colo Colo 222 Concepción
-Ernesto Hevia 5725 Santiago
-Santa Mónica 2107 Santiago
-Hospital Van Buren Valparaíso
-Molina 354 Valparaíso
-Alam. B. O'Higgins 4477 Santiago
-B. Phillipi s/n Frutillar
-Moneda 1919 Santiago
-Simón Bolívar 6361 Santiago
-Vicuña Mackenna 333 Temuco
-Jorge Washington 265 Santiago
-Guayaquil 510, Dep. 31 Santiago
-Centro de Salud Calama
-El Vergel 2965 Santiago
-Gorbea 1777 Santiago
-Libertad 361 Santiago
-
-— 71
-
-## Images, Captions, And Visual Notes
-
-There are no images or captions on this page. The only visual note is the page number "— 71" at the bottom right.

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-0ba5d939c5c3-P0135-01
+chunk_id: CHUNK-24abbd62f2a1-P0135-01
 source_converted: raw/converted/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150.codex.md
-converted_sha256: 0ba5d939c5c3e69b1ebe535eda864e052fe210b5963a130d02bc1cb3c245b782
+converted_sha256: 24abbd62f2a1425edd9e97e9382682739f5bf889b74b0d5244007c596d9f3372
 source: raw/sources/R3577-50-5569-5569-Jacket1.pdf
 source_sha256: db21f94f3cc8d8a1e11848e50c88f03b24d390f6f6c9ee633312b21269e07beb
 source_manifest: raw/codex-conversion-jobs/cadb21f94f-r3577-50-5569-5569-jacke-p0126-0150-r3577-50-5569-5569-jacket1-pages-126-150/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## Articles 95 et 96.
 
 ## Espagne.
@@ -216,52 +215,3 @@ All visible text on the page has been transcribed.
 
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No meaningful visual content found."}
-
-## Page Metadata
-Page number: 138
-
-## Layout And Reading Order
-The page presents a single column of text, primarily in French. It begins with a centered page number, followed by a title and subtitle. Below these are a main heading, a series of explanatory notes (a, b, c), a section heading, a chapter heading, and three numbered articles, each containing legal or regulatory text. The reading order is top-to-bottom, left-to-right within each text block.
-
-## Literal Transcription
-```
-— I —
-
-Etats-Unis d'Amérique Annexe au document N° 2.
-
-PROPOSITIONS FORMULÉES PAR LE DÉPARTEMENT DE LA GUERRE DES ÉTATS-UNIS D'AMÉRIQUE
-EN VUE DE LA REVISION DU « CODE DES PRISONNIERS DE GUERRE ».
-
-Note: a) Les dispositions de la Section I de l'Annexe à la Convention de La Haye sont reproduites en caractères
-ordinaires.
-
-b) Les principes adoptés dans le code proposé et que le Département de la Guerre approuve sont *en italique*. Ces
-principes ont été disjoints, dans une certaine mesure, afin de pouvoir être insérés dans les paragraphes de la Convention
-de La Haye où ils trouvent logiquement leur place.
-
-c) Les dispositions nouvelles qui ont été insérées par le Département de la Guerre ont été indiquées en MAJUSCULES.
-
-Section I.
-
-DES BELLIGÉRANTS.
-
-Chapitre I. — De la qualité de belligérants.
-
-ARTICLE PREMIER. — Les lois, les droits et les devoirs de la guerre ne s'appliquent pas seulement à l'armée, mais
-encore aux milices et aux corps de volontaires réunissant les conditions suivantes :
-
-1° d'avoir à leur tête une personne responsable pour ses subordonnés ;
-2° d'avoir un signe distinctif fixe et reconnaissable à distance ;
-3° de porter les armes ouvertement et
-4° de se conformer dans leurs opérations aux lois et coutumes de la guerre.
-
-Dans les pays où les milices ou des corps de volontaires constituent l'armée ou en font partie, ils sont compris
-sous la dénomination d'« armée ».
-
-ARTICLE 2. — La population d'un territoire non occupé qui, à l'approche de l'ennemi, prend spontanément les
-armes pour combattre les troupes d'invasion sans avoir eu le temps de s'organiser conformément à l'article premier,
-sera considérée comme belligérante, si elle porte les armes ouvertement et si elle respecte les lois et coutumes de la guerre.
-
-ARTICLE 3. — Les forces armées des parties belligérantes peuvent se composer de combattants et de non-com-
-battants. En cas de capture par l'ennemi, les uns et les autres ont droit au traitement des prisonniers de guerre,
-```

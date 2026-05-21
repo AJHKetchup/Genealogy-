@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-663962ed1185-P0149-01
+chunk_id: CHUNK-80be63285c3c-P0149-01
 source_converted: raw/converted/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150.codex.md
-converted_sha256: 663962ed118564ad4ce382c1922ca42e63ad6ecf88d248020e0620276964c40c
+converted_sha256: 80be63285c3c5d5155c761f20a0f94ba56a91963d6b0fc8d72fee769aa2446ae
 source: raw/sources/R3578-50-5569-5569-Jacket4.pdf
 source_sha256: d9d31fb28a87122e12a4ea8f735f18b531a9ea29ea56a5788e517eff139a0781
 source_manifest: raw/codex-conversion-jobs/cad9d31fb2-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket4-pages-126-150/manifest.json
@@ -72,66 +72,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 150
-Source document page number: 31
-
-## Layout And Reading Order
-The page contains a main body of text in a single column, followed by a footnote at the bottom. There is a header at the top right with a page number and a header at the top center with a section title.
-
-## Literal Transcription
-QUALITÉ DE PRISONNIER
-II. — Lois et coutumes de la guerre maritime.
-
-Les puissances n'ont signé aucune convention générale concer-
-nant les lois et coutumes de la guerre maritime, analogue à la Con-
-vention IV de 1907, mais plusieurs conventions spéciales.
-Avant d'examiner leurs dispositions, il convient de constater
-avec l'Institut de droit international, que la force armée d'un État
-comprend « les équipages des navires et *autres embarcations* de
-guerre. » Les individus, qui composent ces équipages, s'ils tombent
-au pouvoir de l'ennemi, sont incontestablement des prisonniers de
-guerre et doivent être traités comme tels ¹.
-1. La Convention X pour l'adaptation à la guerre maritime des
-principes de la Convention de Genève, la Haye, 1907. — L'article 14
-de cette Convention prévoit expressément que « sont prisonniers
-de guerre les naufragés, blessés ou malades, d'un belligérant qui
-tombent au pouvoir de l'autre. »
-Que signifient, dans une guerre maritime, ces termes « qui tombent
-au pouvoir de l'autre? » L'article 12 répond à cette question en recon-
-naissant à tout vaisseau de guerre d'une partie belligérante, le droit
-de « réclamer la remise des blessés, malades ou naufragés, qui sont
-à bord de bâtiments-hôpitaux militaires, de bâtiments hospitaliers
-de sociétés de secours ou de particuliers, de navires de commerce,
-yachts, ou embarcations, quelle que soit la nationalité de ces bâti-
-ments. » Ainsi, ce ne sont pas seulement les blessés, malades ou nau-
-fragés que l'un des belligérants capture ou recueille lui-même qui
-tombent en son pouvoir; ce sont aussi, en vertu de ce droit de visite,
-ceux que d'autres navires, même des navires neutres ont pu
-recueillir. On remarquera toutefois que, dans cette énumération
-de l'article 12, n'ont pas été compris les vaisseaux de guerre neutres.
-L'article 13, introduit en 1907, dispose que, « si des blessés, malades
-ou naufragés sont recueillis à bord d'un vaisseau de guerre neutre,
-il devra être pourvu, dans la mesure du possible, à ce qu'ils ne puis-
-sent pas de nouveau prendre part aux opérations de guerre. »
-Cette dernière disposition prévoit ainsi l'internement des naufragés,
-
-1. Manuel d'Oxford, article 2 : « La force armée d'un État comprend... 3* Les
-équipages des navires et autres embarcations de guerre. »
-WERNER.
-31
-
-## Images, Captions, And Visual Notes
-None.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text has been transcribed.
-
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text and no meaningful images or diagrams suitable for cropping."}
-```

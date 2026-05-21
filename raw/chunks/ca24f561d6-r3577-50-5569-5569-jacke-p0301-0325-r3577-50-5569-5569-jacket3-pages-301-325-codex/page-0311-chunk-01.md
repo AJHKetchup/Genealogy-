@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-9a426d3d04d9-P0311-01
+chunk_id: CHUNK-6edb78f9d5b7-P0311-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325.codex.md
-converted_sha256: 9a426d3d04d9c428735f546f39978f830cd1124849afa74a5309190a2e0b60be
+converted_sha256: 6edb78f9d5b7851f7c213c0be448e883786da277ee1bbe66067a81af2447288b
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0301-0325-r3577-50-5569-5569-jacket3-pages-301-325/manifest.json
@@ -163,79 +163,3 @@ All visible text and significant visual elements have been transcribed or noted.
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "The page contains only text and a minor hole punch, neither of which meet the criteria for creating crop bounding boxes."}
 ```
-
-## Page Metadata
-Page number: 314
-
-## Layout And Reading Order
-
-The page contains a header with stamps and printed text, followed by a main title, a subtitle, session details, and then a series of transcribed speeches from a diplomatic conference. The speeches are presented with the speaker's name in bold, followed by their statement.
-
-## Literal Transcription
-
-```
-ACTION
-COPY
-SEANCE DU 19 JUILLET 1929
-14 JUIL. 1929
-PROVISOIRE
-I
-
-CONFÉRENCE DIPLOMATIQUE
-
-PREMIÈRE COMMISSION
-
-Révision de la Convention de Genève
-
-DIX-SEPTIÈME SÉANCE.
-
-Vendredi 19 juillet, à 9 h. 30.
-
-Présidence de M. DINICHERT, Président.
-
-**M. le Président** :
-
-Nous allons aborder, Messieurs, la discussion de l'amendement français à l'article 23.
-Cet amendement qui vous a été distribué a la teneur suivante : « A titre exceptionnel, l'usage
-de l'emblème de la Convention pourra être autorisé, en temps de paix, dans certaines circons-
-tances entraînant un grand concours de population, pour marquer l'emplacement de postes
-de secours exclusivement réservés à donner des soins gratuits à des blessés ou à des malades, à
-la condition que l'organisation en soit faite par l'une des société de secours de la Croix-Rouge
-reconnues. »
-
-**Le Médecin Général MAROTTE (France)** :
-
-Je n'ai pas grand' chose à dire au sujet de cet amendement qui, je crois, s'explique de
-lui-même. Je l'ai soumis, bien entendu et comme il avait été convenu, à la délégation italienne,
-à la délégation britannique et à celle des Etats-Unis qui avaient été chargées par vous de le
-rédiger en commun. Je dois dire que ces délégations lui ont fait un accueil plutôt sympathique,
-en particulier M. le délégué de l'Italie qui, lui, n'y voit aucune objection. La délégation britan-
-nique et celle des Etats-Unis ont fait remarquer que, dans leur pays, la chose existait déjà,
-de sorte qu'il semblait que l'on veuille codifier en quelque sorte une règle déjà établie. Permet-
-tez que je vous rappelle l'origine de ce débat : Il ne s'agit pas simplement d'incorporer dans le
-texte de la Convention une chose qui, dans certains pays, a déjà été réglementée, il s'agit
-plutôt d'uniformiser cette réglementation. Vous connaissez le but que nous voulons atteindre.
-Comme on l'a fait ressortir, il y a des abus : un peu partout on arbore le drapeau de la Conven-
-tion de Genève, la Croix-Rouge, sans qu'il y ait la moindre autorisation et sans que la nécessité
-s'en fasse toujours réellement sentir. Or il me semble que l'amendement que nous vous propo-
-sons permet précisément de réaliser le but envisagé, c'est à dire de réprimer ces abus, de limiter
-l'utilisation de l'emblème dans des conditions bien déterminées, uniquement — comme nous
-l'avons indiqué ici — pour marquer, dans le cas de grosse affluence de population, l'endroit
-où le public, en cas d'accident ou de panique, peut trouver des soins immédiats et gratuits.
-
-**M. MOTONO (Japon)** :
-
-Au moment de la discussion de l'article 23, la délégation japonaise avait émis l'opinion
-qu'il fallait sauvegarder le plus possible l'usage de l'emblème de la Croix-Rouge. Elle constate
-que la proposition française concourt à ce but et elle sera très heureuse de s'y rallier.
-```
-
-## Images, Captions, And Visual Notes
-- A rectangular stamp in the top left corner reads "ACTION COPY".
-- Below the "ACTION COPY" stamp, there is a circular date stamp with "14 JUIL. 1929" handwritten inside it.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and described.

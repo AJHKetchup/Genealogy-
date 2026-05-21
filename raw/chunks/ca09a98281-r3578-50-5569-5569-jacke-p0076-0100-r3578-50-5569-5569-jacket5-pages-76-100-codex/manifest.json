@@ -1,7 +1,7 @@
 {
   "created": "2026-05-21",
   "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100.codex.md",
-  "converted_sha256": "06e43365de7a5d508eccd023c69bbfe585e240c6f3677b70e45c375b27a2b8ef",
+  "converted_sha256": "0c7431cd7d775a16ff443ec7ba8f8dde22510706bdc74ef36e9a40bdf5ba2e10",
   "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
   "source_sha256": "09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f",
   "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100/manifest.json",
@@ -12,54 +12,54 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-06e43365de7a-P0081-01",
+      "chunk_id": "CHUNK-0c7431cd7d77-P0081-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0081-chunk-01.md",
       "page_start": 81,
       "page_end": 81,
       "part": 1,
       "chars": 11970,
-      "sha256": "f95df3a3b603d058506f7551d116c81733474df5f02335d386aa8683e59f80ff"
+      "sha256": "9b29fb4e7872ad445fc5c6a99ce8976ea9729cf09907dcf4b4656177774034da"
     },
     {
-      "chunk_id": "CHUNK-06e43365de7a-P0081-02",
+      "chunk_id": "CHUNK-0c7431cd7d77-P0081-02",
       "chunk_number": 2,
       "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0081-chunk-02.md",
       "page_start": 81,
       "page_end": 81,
       "part": 2,
-      "chars": 11954,
-      "sha256": "f90975e3d079846a08dc4baef94e547560c8bea5b990de6adecbeb4c9994a6de"
+      "chars": 4427,
+      "sha256": "af344686e428ae48fc2be55e0ceef7342f9d2b86b218dbf914a7ef7902d0d32c"
     },
     {
-      "chunk_id": "CHUNK-06e43365de7a-P0081-03",
+      "chunk_id": "CHUNK-0c7431cd7d77-P0087-01",
       "chunk_number": 3,
-      "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0081-chunk-03.md",
-      "page_start": 81,
-      "page_end": 81,
-      "part": 3,
-      "chars": 11968,
-      "sha256": "98b5c22d121a17c5d547e6a81604a94775b92a84f2ecad3cd0075e5d36a37f9c"
+      "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0087-chunk-01.md",
+      "page_start": 87,
+      "page_end": 87,
+      "part": 1,
+      "chars": 11943,
+      "sha256": "fc8c681e74ef6c2217c19e5538dada1bcb32422221237632db4a82ac196f7975"
     },
     {
-      "chunk_id": "CHUNK-06e43365de7a-P0081-04",
+      "chunk_id": "CHUNK-0c7431cd7d77-P0087-02",
       "chunk_number": 4,
-      "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0081-chunk-04.md",
-      "page_start": 81,
-      "page_end": 81,
-      "part": 4,
-      "chars": 11952,
-      "sha256": "e28706a579ce5680ff0576ed9e045e1eb19905cb77d90837b03e03ec2c1ce647"
+      "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0087-chunk-02.md",
+      "page_start": 87,
+      "page_end": 87,
+      "part": 2,
+      "chars": 10570,
+      "sha256": "4ab2deb82c58aacefe3ceae64d7836476e08c20403e436a29c3eb4ca93027a98"
     },
     {
-      "chunk_id": "CHUNK-06e43365de7a-P0081-05",
+      "chunk_id": "CHUNK-0c7431cd7d77-P0087-03",
       "chunk_number": 5,
-      "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0081-chunk-05.md",
-      "page_start": 81,
-      "page_end": 81,
-      "part": 5,
-      "chars": 231,
-      "sha256": "052612eb7226ed4ad2971a470fdef295b61938ccb111015db156c2213484ae56"
+      "path": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex/page-0087-chunk-03.md",
+      "page_start": 87,
+      "page_end": 87,
+      "part": 3,
+      "chars": 9892,
+      "sha256": "9b534fa0663ab76c450abd1ae9874fb396f88d20743db4020440646cde539c38"
     }
   ]
 }

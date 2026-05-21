@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-4b90c366790d-P0007-01
+chunk_id: CHUNK-b3925f197b4c-P0007-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25.codex.md
-converted_sha256: 4b90c366790d407e4d1ccc1855eee019e2c317c2a228788b88cfe5dd32964f8f
+converted_sha256: b3925f197b4ca73a32b363994fca86e1677cfea43b3d1ed7d3823a5c1decfcab
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25/manifest.json
@@ -173,9 +173,3 @@ The transcription is complete. All visible text and relevant visual elements hav
 ```json
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visuals like portraits, maps, or diagrams are present. The hole punch is a minor mark and does not warrant a crop box."}
 ```
-
-## Page Metadata
-Page number: 10
-
-## Layout And Reading Order
-The page presents a transcript of a diplomatic conference session. It is laid out in a single column with a main title, sub-sections, and speaker-attributed paragraphs. A date stamp is visible on the right side of the page, overlapping the main title.

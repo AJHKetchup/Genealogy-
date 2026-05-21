@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-131e24a3b424-P0053-01
+chunk_id: CHUNK-f2c5548c9fde-P0053-01
 source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
-converted_sha256: 131e24a3b424d14af92fa497d41f20dd66a6859a5f638efa2264a47b4747b5bb
+converted_sha256: f2c5548c9fde27d492bee88446b34850f63ff6c1d5eba2bcb170fcfef3772b30
 source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
 source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
 source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
@@ -102,72 +102,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 54
-
-## Layout And Reading Order
-
-The page presents a two-column directory. The left column lists names, and the right column lists corresponding addresses and cities. The content is read from top to bottom, left column first, then the right column, with entries aligned horizontally across the columns. A page number "- 57" is present at the bottom right.
-
-## Literal Transcription
-
-Lehyt Molina, Marta Recoleta 428, Depto. 4 Santiago
-Leigh Fournier, Edmundo Mac-Iver 142, Of. 404 Santiago
-Leiva Batres, Rubén Caupolicán 99 Curanilahue
-Leiva Cofré, Hugo Hernando de Aguirre 732 Santiago
-Leiva Cofré, Waldo Hospital Clínico Concepción
-Leiva Januez, Arturo Chacabuco 630 Santiago
-Lemus Beytía, Marta J. Agustín Barriga 1205 Santiago
-Lenck Geywitz, Otto Ciudad Isla de Maipo
-Lennon Salas, Humberto Agustinas 1141 Santiago
-León Benavides, Dionisio Baquedano 672 Antofagasta
-León Camel, Domingo Vicuña Mackenna 805 Quilpué
-León Dailhé, Mario San Martín 575, Dep. 207 Santiago
-León Godoy, Armando Portus s/n San Felipe
-León Hurtado, F. Jorge Esmeralda 763 Santiago
-León Leeson, Alfredo Itata 4680 Santiago
-León León, Hernán Centro de Salud San Javier
-León Muñoz, Raúl Avda. Prat 595 Valdivia
-León Romero, Fernando Rudolfo Phillips 40 Santiago
-Lepe Flauraud, Alfredo Pedro León Ugalde 96 Santiago
-Lerma López, Luis de Hospital Coya
-Lermanda Célis, Víctor Sanatorio Valparaíso Valparaíso
-Lerner Mernick, Jacobo Alam. B. O'Higgins 723, Santiago
-Depto. 87
-Letelier Aravena, Pedro N. Palacios s/n Bulnes
-Letelier González, Orfilio Plaza Bulnes 80, Dep. 66 Santiago
-Letelier Letelier, Gabriel Ejército 220 Santiago
-Letelier Pardo, Max Pío Nono 108 Santiago
-Letelier Rojas, Fernando Campamento Americano Potrerillos
-Levancini Vega, Marcos Carrera 471 Pemuco
-Levy Arueste, Moisés Los Serenos 475, Of. 305 Santiago
-Lewin Campaña, Jorge Avda. Providencia 401, Santiago
-Of. 301
-Leyton Astorga, Orlando Casa de Socorro Peralillo
-Leyton Garavagno, Alfredo M. Antonio Prieto 0131, Santiago
-4º Piso
-Leyton Mouat, Alfredo Avda. Fco. Bilbao 1945 D Santiago
-Leyton Ramírez, Enrique Valdivia 158 Los Angeles
-Leyton Ramírez, Juan Patricio Lynch 1442 Iquique
-Liebig Stegmaier, Justus Huérfanos 145 Salamanca
-Lifschitz Salita, Isidoro Agustinas 972, Of. 642 Santiago
-Lifschitz Salita, Vladimiro Avda. Gral. Bulnes 176, Santiago
-Depto. 77
-Lillo Bustos, Darío Plaza Justicia 45, Of. 405 Valparaíso
-Lillo Cabezón, Francisco San Antonio 31, Dep. 410 Santiago
-Lillo Nilo, Hernán Sazié 2513 Santiago
-
-— 57
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual regions were detected."}

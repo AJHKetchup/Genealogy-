@@ -1,0 +1,72 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-f2c5548c9fde-P0054-01
+source_converted: raw/converted/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60.codex.md
+converted_sha256: f2c5548c9fde27d492bee88446b34850f63ff6c1d5eba2bcb170fcfef3772b30
+source: raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf
+source_sha256: 72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874
+source_manifest: raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json
+page_start: 54
+page_end: 54
+part: 1
+---
+
+# Page 54
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/manifest.json`
+- Source page: 54
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0041-0060-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-41-60/page-images/page-0054.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+Lehyt  Molina, Marta Leigh  Fournier, Edmundo Leiva  Batres,  Rubén Leiva  Cofré,  Hugo Leiva  Cofré,  Waldo Leiva  Januez, Arturo Lemus  Beytía, Marta Lenck  Geywitz, Otto Lennon  Salas, Humberto León  Benavides, Dionisio León  Camel,  Domingo León  Dailhé,  Mario León  Godoy,  Armando León  Hurtado,  F.  Jorge León  Leeson,  Alfredo León  León,  Hernán León  Muñoz,  Raúl León  Romero, Fernando Lepe  Flauraud,  Alfredo Lerma  López,  Luis  de Lermanda  Célis,  Víctor Lerner  Mernick,  Jaeobo
+
+Letelier  Aravena,  Pedro  N. Letelier González, Orfilio Letelier Letelier, Gabriel Letelier  Pardo,  Max Letelier  Rojas,  Fernando Levancini  Vega,  Marcos Levy  Arueste,  Moisés Lewin  Campaña,  Jorge
+
+Leyton Astorga, Orlando Leyton  Garavagno,  Alfredo
+
+Leyton  Mouat,  Alfredo Leyton  Ramírez, Enrique Leyton  Ramírez, J u a n Liebig  Stegmaier,  Justus Lifschitz  Salita, Isidoro Lifschitz  Salita, Vladimiro
+
+Lillo  Bustos,  Darío Lillo  Cabezón, Francisco Lillo  Nilo,  Hernán Recoleta  428,  Depto.  4 Mac-Iver  142,  Of.  404 Caupolicán  99 Hernando  de  Aguirre  732 Hospital Clínico Chacabuco  630 J. Agustín Barriga 1205 Ciudad Agustinas 1141 Baquedano  672 Vicuña  Mackenna 805 San  Martín  575, Dep.  207 Por  tus s/n Esmeralda  763 I t a t a  4680 Centro  de  Salud Avda.  Prat  595 Rudolfo  Phillips  40 Pedro  León  Ugalde  96 Hospital Sanatorio  Valparaíso Alam.  B.  O'Higgins  723, Depto.  87 Palacios s/n Plaza  Bulnes  80,  Dep.  66 Ejército  220 Pío  Nono  108 Campamento  Americano Carrera  471 Los  Serenos  475,  Of.  305 Avda.  Providencia  401, Of.  301 Casa  de  Socorro M.  Antonio  Prieto  0131, 4?  Piso Avda.  Feo.  Bilbao  1945  D Valdivia  158 Patricio  Lynch 1442 Huérfanos  145 Agustinas  972,  Of.  642 Avda.  Gral.  Bulnes  176, Depto.  77 Plaza  Justicia  45,  Of.  405 San  Antonio  31, Dep.  410 Sazié  2513 Santiago Santiago Curanilahue Santiago Concepción Santiago Santiago Isla  de  Maipo Santiago Antofagasta Quilpué Santiago San Felipe Santiago Santiago San  Javier Valdivia Santiago Santiago Coya Valparaíso Santiago Bulnes Santiago Santiago Santiago Potrerillos Pemuco Santiago Santiago Peralillo Santiago Santiago Los  Angeles Iquique Salamanca Santiago Santiago Valparaíso Santiago Santiago
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

@@ -1,0 +1,120 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-3f28df59cd69-P0048-01
+source_converted: raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50.codex.md
+converted_sha256: 3f28df59cd6992e8a93bb3e1a27ff5409fa48041ac894161f727b3475eaf3fd0
+source: raw/sources/R3578-50-5569-5569-Jacket5.pdf
+source_sha256: 09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f
+source_manifest: raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json
+page_start: 48
+page_end: 48
+part: 1
+---
+
+# Page 48
+
+## Page Metadata
+
+- Source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
+- Source SHA-256: `09a9828166381d0dbd9fe5fbfebb432548bf6f216d51556bdf77fe23dcce018f`
+- Conversion manifest: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/manifest.json`
+- Source page: 48
+- Page image: `raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50/page-images/page-0048.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+ft
+
+%
+
+## ARTICLE 15.
+
+Medical inspections of prisoners of war shall be arranged at least once a month. Their purpose shall be the supervision of the general state of health and cleanliness, and the detection of contagious diseases, particularly tuberculosis and venereal diseases.
+
+Chapter 4. Intellectual and Moral Needs of Prisoners of War.
+
+## ARTICLE 16.
+
+Prisoners of war shall enjoy complete liberty, in the exercise of their religion, including attendance at the services of their faith, on the sole condition that they comply with the measures of order and police issued by the military authorities.
+
+Ministers of a religion, prisoners of war, whatever their religious denomination, shall be allowed to minister fully to members of the
+
+same religion.
+
+## ARTICLE 17.
+
+So far as possible, belligerents shall encourage intellectual diver¬ sions and sports organized by prisoners of war.
+
+## Chapter 5. Internal Discipline of Camps.
+
+## ARTICLE 18.
+
+Every camp of prisoners of war shall be placed under the command of a responsible officer.
+
+Besides the external marks of respect provided by the regulations in force in their armies with regard to their nationals, prisoners of
+
+war must salute all officers of the detaining Power.
+
+Officers 'who are prisoners of war are bound to salute only officers of a
+
+higher or equal rank of that Power.
+
+## ARTICLE 19.
+
+The wearing of insignia of rank and of decorations shall be per¬ mitted.
+
+## ARTICLE 20.
+
+Regulations, orders, notices and proclamations of every kind must be communicated to prisoners of war in a language which they under¬ stand.
+
+The same principle shall be applied in examinations.
+
+Chapter 6. Special Provisions Regarding Officers and Persons of
+
+Equivalent Status.
+
+## ARTICLE 21.
+
+Upon the beginning of hostilities, belligerents shall be bound to communicate to one another the titles and ranks in use in their respective armies, with a view to assuring equality of treatment between corresponding ranks of officers and persons of equivalent status.
+
+Officers and persons of equivalent status who are prisoners of war
+
+shall be treated with the regard due their rank and age.
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.

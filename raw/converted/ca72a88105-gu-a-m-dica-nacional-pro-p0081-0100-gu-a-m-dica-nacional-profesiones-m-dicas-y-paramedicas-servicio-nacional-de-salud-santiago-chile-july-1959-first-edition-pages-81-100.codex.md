@@ -269,293 +269,186 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
-## Page Metadata
-Page number: 84
-
-## Layout And Reading Order
-The page presents a two-column directory. The left column lists names (last name, first name), and the right column lists corresponding addresses and cities. Some entries span multiple lines for the address/office number. The reading order is down the left column, then down the right column, entry by entry. A page number "87" is present at the bottom right.
-
-## Literal Transcription
-Rosa Droppelmann, Félix
-Rosas Becker, Ramón
-Rosas Cárter, Francisco
-Rosas Viancos, Guillermo
-Rosati Malatesta, Sergio
-Roselló Vaquer, Salvador
-Rosenberg Jodik, David
-Rosenblatt Berdichewsky, Enrique
-Rosenblitt Waissbluth, Enrique
-Rosenblum Rosenfeld, Enrique
-Rosenblüt Gasman, Benjamín
-Rosenblüt Margulis, Eliana
-Rosenzuaig Frisman, Fanny
-Ross Bravo, Gustavo
-Ross Jünemann, Luis
-Rosselot Jaramillo, Eduardo
-Rosselot Mujica, Manuel
-Rosselot Rosselot, Max
-Rosselot Vicuña, Jorge
-Rossi Contreras, Enrique
-Rossi Osses, Galvarino
-Rossi Valle, Jorge
-Rossle Ulmer, Otto
-Rost Marcelli, L. Eliana
-Roubillard González, Jorge
-Rouret Lira, Carlos
-Rowe Martínez, Jorge
-Royo Jara, Olga
-Rubilar León, Lucía
-Rubilar Ugalde, Luis H.
-Rubio Arce, Santiago
-Rubio Campos, Ramón
-Rubio Coloma, Carlos
-Rubio Dapelo, Mafalda
-Rubio Flores, Eduardo
-Rubio Madariaga, Ramón
-Rubio Peñailillo, Ramón
-
-Copiapó 33
-Sotomayor 750
-San Martín 575, Dep. 203
-Avda. Santa María 0410
-Avda. Baquedano 436
-Eleodoro Yáñez 2735
-Avda. Gral. Bulnes 216,
-Of. 303
-Avda. Santa María 467,
-Depto. 304
-Portugal 1857
-Camp. Americano 69
-Almirante Montt 444, Of.
-16
-San Antonio 418
-Mac-Iver 142, Of. 404
-Valentín Letelier 1381,
-Depto. 305
-Edificio Prales, Dep. 408
-Mosqueto 459
-Matías Cousiño 150,
-Of. 823
-Eulogia Sánchez 46,
-Depto. 219
-París 789, Depto. 402
-Villavicencio 364
-Condell 2715
-3 Norte 166
-Pudeto 422
-Carrera s/n
-Agustinas 972
-San Antonio 418, Depto.
-604
-Comercio 800
-Avda. Méjico 716
-Alcalde 426
-Avda. Gral. Bulnes 166,
-Depto. 53
-Matucana 4 B
-Almirante Latorre 98
-Bilbao 870
-Borgoño 1870
-San Francisco 1455
-Estado 215, Depto. 807
-Urriola 245
-
-Puerto Montt
-Santiago
-Santiago
-Santiago
-Paine
-Santiago
-Santiago
-Santiago
-Santiago
-Potrerillos
-Santiago
-Santiago
-Santiago
-Santiago
-Valdivia
-Santiago
-Santiago
-Santiago
-Santiago
-Santiago
-Antofagasta
-Viña del Mar
-Valparaíso
-Osorno
-Santiago
-Santiago
-Combarbalá
-Santiago
-Santiago
-Santiago
-Santiago
-La Calera
-Osorno
-Santiago
-Santiago
-Santiago
-Rengo
-
-— 87
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-None.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
+# Page 84
 
 ## Page Metadata
-Page number: 85
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 84
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0084.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page presents a directory-like listing in two main sections, separated by a large capital 'S'. Each section is formatted in three conceptual columns: Name, Address, and Location. The page number "88 —" is centered at the bottom.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Rubio Vera, Hermógenes
-Rudloff Schmidt, Federico
-Rudolph Witowsky, Carlos A.
-Rufín Dávila, Fernando
-Ruiz del Río, Alfonso
-Ruiz-Esquide Jara, Sergio Mariano
-Ruiz Fuller, Rafael
-Ruiz Oyarzún, René
-Ruiz Pulido, Hernán
-Ruiz Román, Jaime
-
-Ruiz Rubio, Mario
-Ruiz Urrea, César A.
-Ruttimann Scheidegger, Carlos
-Ruz Orrego, T. Osvaldo
-
-E. de la Barra 250
-Independencia 581
-Hospital
-Carlos Larraín Claro 1974
-Ercilla 520
-Beltrán Mathieu 1
-Casilla 54
-Constitución 387
-Rafael Prado 250
-Vicuña Mackenna 31, 2º
-Piso
-Marne 2956
-Eleuterio Ramírez 570
-Agustinas 972
-Cuevas 108
-
-La Serena
-Valdivia
-Valdivia
-Santiago
-Los Angeles
-Talcahuano
-Lota Alto
-Linares
-Santiago
-Santiago
-
-Santiago
-Victoria
-Santiago
-Rancagua
-
-S
-
-Saavedra Aguirre, Carlos
-Saavedra Corvalán, Julio
-Saavedra Edwards, Gonzalo
-Saavedra Elgueta, Julio
-Saavedra Jarpa, Julio
-Saavedra Macaya, Juan
-Saavedra Macaya, Raúl
-Saavedra Ortiz, Armando
-Saavedra Rodena, Roberto
-Saavedra Saavedra, Sirinio
-Saavedra Trautmann, Carlos
-Saavedra Viollier, Jaime
-Saavedra Yoacham, José
-Sabah Jaime, David
-Sabal Rabi, Jorge
-Sabat Gonzalo, Jorge
-Sabat Mobarec, José
-Sabbagh Dada, Juan
-Sabioncello Beros, Zvonimir
-Sabioncello Mundaca, Vladimir
-Sabioncello Sabioncello, Benko
-Saelzer Balde, Joaquín
-Sáez Sáez, Emilio
-
-California 1913
-2 Sur 621
-California 1913
-San Martín 382
-Compañía 1389, Of. 35
-Claudina Urrutia 297
-Av. Gral. Bustamante 16
-Sucre 620
-Monjitas 421, Depto. 3
-Ongolmo 348
-Victoria 2547
-Los Araucanos 2099
-Amunátegui 31, 4º Piso
-Arlegui 346
-Serrano 200
-Edificio Prales, Of. 206
-Agustinas 925, Of. 541
-Obispo Donoso 9
-Lastra 1139
-Tangue 520
-Phillips 16
-García Reyes 590
-San Antonio 427, Of. 714
-
-Santiago
-Talca
-Santiago
-Curicó
-Santiago
-Cauquenes
-Santiago
-Antofagasta
-Santiago
-Concepción
-Valparaíso
-Santiago
-Santiago
-Viña del Mar
-La Ligua
-Valdivia
-Santiago
-Santiago
-Santiago
-Ovalle
-Santiago
-Valdivia
-Santiago
-
-88 —
+```markdown
+| Rosa Droppelmann, Félix          | Copiapó 33                         | Puerto Montt   |
+|----------------------------------|------------------------------------|----------------|
+| Rosas Becker, Ramón              | Sotomayor 750                      | Santiago       |
+| Rosas Cárter, Francisco          | San Martín 575, Dep. 203           | Santiago       |
+| Rosas Viancos, Guillermo         | Avda. Santa María 0410             | Santiago       |
+| Rosati Malatesta, Sergio         | Avda. Baquedano 436                | Paine          |
+| Roselló Vaquer, Salvador         | Eleodoro Yáñez 2735                | Santiago       |
+| Rosenberg Jodik, David           | Avda. Gral. Bulnes 216, Of. 303    | Santiago       |
+| Rosenblatt Berdichewsky, Enrique | Avda. Santa María 467, Depto. 304  | Santiago       |
+| Rosenblitt Waissbluth, Enrique   | Portugal 1857                      | Santiago       |
+| Rosenblum Rosenfeld, Enrique     | Camp. Americano 69                 | Potrerillos    |
+| Rosenblüt Gasman, Benjamín       | Almirante Montt 444, Of. 16        | Santiago       |
+| Rosenblüt Margulis, Eliana       | San Antonio 418                    | Santiago       |
+| Rosenzuaig Frisman, Fanny        | Mac-Iver 142, Of. 404              | Santiago       |
+| Ross Bravo, Gustavo              | Valentín Letelier 1381, Depto. 305 | Santiago       |
+| Ross Jünemann, Luis              | Edificio Prales, Dep. 408          | Valdivia       |
+| Rosselot Jaramillo, Eduardo      | Mosqueto 459                       | Santiago       |
+| Rosselot Mujica, Manuel          | Matías Cousiño 150, Of. 823        | Santiago       |
+| Rosselot Rosselot, Max           | Eulogia Sánchez 46, Depto. 219     | Santiago       |
+| Rosselot Vicuña, Jorge           | París 789, Depto. 402              | Santiago       |
+| Rossi Contreras, Enrique         | Villavicencio 364                  | Santiago       |
+| Rossi Osses, Galvarino           | Condell 2715                       | Antofagasta    |
+| Rossi Valle, Jorge               | 3 Norte 166                        | Viña del Mar   |
+| Rossle Ulmer, Otto               | Pudeto 422                         | Valparaíso     |
+| Rost Marcelli, L. Eliana         | Carrera s/n                        | Osorno         |
+| Roubillard González, Jorge       | Agustinas 972                      | Santiago       |
+| Rouret Lira, Carlos              | San Antonio 418, Depto. 604        | Santiago       |
+| Rowe Martínez, Jorge             | Comercio 800                       | Combarbalá     |
+| Royo Jara, Olga                  | Avda. Méjico 716                   | Santiago       |
+| Rubilar León, Lucía              | Alcalde 426                        | Santiago       |
+| Rubilar Ugalde, Luis H.          | Avda. Gral. Bulnes 166, Depto. 53  | Santiago       |
+| Rubio Arce, Santiago             | Matucana 4 В                       | Santiago       |
+| Rubio Campos, Ramón              | Almirante Latorre 98               | La Calera      |
+| Rubio Coloma, Carlos             | Bilbao 870                         | Osorno         |
+| Rubio Dapelo, Mafalda            | Borgoño 1870                       | Santiago       |
+| Rubio Flores, Eduardo            | San Francisco 1455                 | Santiago       |
+| Rubio Madariaga, Ramón           | Estado 215, Depto. 807             | Santiago       |
+| Rubio Peñailillo, Ramón          | Urriola 245                        | Rengo          |
+```
 
 ## Images, Captions, And Visual Notes
-There are no images or captions on this page.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page. The page primarily consists of textual directory listings."}
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+
+# Page 85
+
+## Page Metadata
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 85
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0085.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
+
+## Layout And Reading Order
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+
+## Literal Transcription
+
+```markdown
+| Rubio Vera, Hermógenes Rudloff Schmidt, Federico Rudolph Witowsky, Carlos Rufín Dávila, Fernando Ruiz del Río, Alfonso Ruiz-Esquide Jara, Sergio Ruiz Fuller, Rafael Ruiz Oyarzún, René Ruiz Pulido, Hernán Ruiz Román, Jaime   | E. de la Barra 250 Independencia 581 Hospital Carlos Larraín Claro 1974 Ercilla 520 Beltrán Mathieu 1 Casilla 54 Constitución 387 Rafael Prado 250 Vicuña Mackenna 31, 2?   | La Serena Valdivia   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+| A.                                                                                                                                                                                                                              |                                                                                                                                                                             | Valdivia             |
+|                                                                                                                                                                                                                                 |                                                                                                                                                                             | Santiago             |
+|                                                                                                                                                                                                                                 |                                                                                                                                                                             | Los Angeles          |
+| Mariano                                                                                                                                                                                                                         |                                                                                                                                                                             | Talcahuano           |
+|                                                                                                                                                                                                                                 |                                                                                                                                                                             | Lota Alto            |
+|                                                                                                                                                                                                                                 |                                                                                                                                                                             | Linares              |
+|                                                                                                                                                                                                                                 |                                                                                                                                                                             | Santiago             |
+|                                                                                                                                                                                                                                 | Piso                                                                                                                                                                        | Santiago             |
+| Ruiz Rubio, Mario                                                                                                                                                                                                               | Marne 2956                                                                                                                                                                  | Santiago             |
+| Ruiz Urrea, César A. Ruttimann Scheidegger,                                                                                                                                                                                     | Eleuterio Ramírez 570 Agustinas 972                                                                                                                                         | Victoria Santiago    |
+| Carlos                                                                                                                                                                                                                          |                                                                                                                                                                             |                      |
+| Ruz Orrego, T. Osvaldo                                                                                                                                                                                                          | Cuevas 108                                                                                                                                                                  | Rancagua             |
+
+## s
+
+| Saavedra Aguirre, Carlos Saavedra Corvalán, Julio Saavedra Edwa'rds, Gonzalo Saavedra Elgueta, Julio Saavedra Jarpa, Julio Saavedra Macaya, Juan Saavedra Macaya, Raúl Saavedra Ortiz, Armando Saavedra Rodena, Roberto Saavedra Saavedra, Sirinio Saavedra Trautmann, Carlos Saavedra Viollier, Jaime Saavedra Yoacham, José Sabah Jaime, David Sabal Rabi, Jorge Sabat Gonzalo, Jorge Sabat Mobarec, José Sabbagh Dada, Juan Sabioncello Beros, Zvonimir Sabioncello Mundaca, Sabioncello Sabioncello, Saelzer Balde, Joaquín   | California 1913 2 Sur 621 California 1913 San Martín 382 Compañía 1389, Of. 35 Claudina Urrutia 297 Av. Gral. Bustamante Sucre 620 Monjitas 421, Depto. 3 Ongolmo 348 Victoria 2547 Los Araucanos 2099 Amunátegui 31, 4"? Piso Arlegui 346 Serrano 200 Edificio Prales, Of. 206 Agustinas 925, Of. 541 Obispo Donoso 9 Lastra 1139 Tangue 520 Phillips 16 García Reyes 590   | Santiago     |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Talca        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Curicó       |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Cauquenes    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 16                                                                                                                                                                                                                                                                                                                                                                           | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Antofagasta  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Concepción   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Valparaíso   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Viña del Mar |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | La Ligua     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Valdivia     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+| Vladimir                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                              | Ovalle       |
+| Benko                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                              | Santiago     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                              | Valdivia     |
+| Sáez Sáez, Emilio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | San Antonio 427, Of. 714                                                                                                                                                                                                                                                                                                                                                     | Santiago     |
+```
+
+## Images, Captions, And Visual Notes
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
+
+## Uncertain Or Illegible
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
+
+## Completeness Audit
+
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 86
 
@@ -1083,122 +976,99 @@ No interpretation was produced by the Docling basic conversion pass.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
+# Page 92
+
 ## Page Metadata
-Page number: 92
+
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 92
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0092.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
-The page presents a three-column directory layout. The first column lists names, the second column lists addresses, and the third column lists cities. The content flows from top to bottom within these columns. A page number is centered at the bottom of the page.
+
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-Solovera Providel, Alfonso
-Sommer Prüssing, Waldemar
-Sorolla Ross, Conrado
-Soto-Aguilar González, Rafael
-Soto Brañes, Rosa
-Soto Jiménez, Nina
-Soto Moreno, Jorge B.
-Soto Núñez, Benjamín
-Soto Oyarzún, Orlando
-Soto Parada, Armando
-
-Soto Rengifo, Carlos
-Soto Soto, Osvaldo
-Soto Tello, Pedro
-Soto Troncoso, Juan
-Sotomayor Moreno, Osvaldo
-Sotomayor Pozo, Carlos
-Sotomayor Soruco, Humberto
-Sotomayor Tapia, Aída
-
-Sottovia Vivalda, César
-Souyet Fresard, Francisco
-Soza Valderrama, Lautaro
-Soza Werth, Mario
-Spano Mendoza, Sergio
-Spat Reichenstein, Elena
-Spektor Epstein, León
-Spencer González, Augusto
-Spencer Keating, W. Archibaldo
-Spikin Howard, Alberto
-Spinner Pecenic, Rosa
-Spitzer Lustig, Francisco
-Spoerer Covarrubias, Alberto
-Srur Yazigi, Elías
-Stacchetti Salti, Ennio
-Staeding Valenzuela, Julio
-Staforelli Bustos, Ramón
-Stagno Maccioni, Dino E.
-Stange Wahl, Ruby
-Stark Frank, Egón
-
-Steeger Schaeffer, Adalberto
-Stegen Ahumada, Guillermo
-Steinberg Madera, José
-
-Liszt 3190 Santiago
-Brasil 71 Santiago
-Compañía 1579 Santiago
-O'Higgins 1102 Concepción
-Puma 1389 Santiago
-Estado 236 Curicó
-Avda. Pedro Montt 1810 Valparaíso
-Carmen 1560 Santiago
-Rancagua 324 Puerto Montt
-Manuel Rodríguez 56, Santiago
-Depto. 507
-
-Los Españoles 2624 Santiago
-General Velásquez 20 Santiago
-San Isidro 91 Santiago
-Unión s/n Parral
-Tegualda 1989 Santiago
-Hospital Van Buren Valparaíso
-Condell 326 Limache
-Victoria Subercaseaux Santiago
-191, Depto. 12
-
-Bueras 742 Rancagua
-Ahumada 312, Of. 919 Santiago
-Almirante Latorre s/n Ancud
-Castro 77 Santiago
-Paicaví 562 Concepción
-La Brabanzón 2836 Santiago
-Arturo Prat 936 A Santiago
-Huérfanos 1117, Of. 710 Santiago
-Santo Domingo 2912 Santiago
-Santo Domingo 2891 Santiago
-Bramante 669 Santiago
-Moneda 973, Of. 632 Santiago
-Avda. Holanda 518 Santiago
-Avda. Einstein 604 Santiago
-Huérfanos 714 Santiago
-Augusto Leguía 132 Santiago
-Pedro Montt 1810 Valparaíso
-Santa Cruz s/n Traiguén
-Andrés Bello 780 Santiago
-Ismael V. Vergara 436, Santiago
-Depto. 31
-
-Monjitas 520 Santiago
-Condell 1231 Valparaíso
-Wilson 467 Iquique
-
-— 92 —
+```markdown
+| Soiovéra Providei, Aifoñsó     | líszt 3190                           | Santiagd     |
+|--------------------------------|--------------------------------------|--------------|
+| Sommer Prüssing, Waldemar      | Brasil 71                            | Santiago     |
+| Sorolla Ross, Conrado          | Compañía 1579                        | Santiago     |
+| Soto-Aguilar González, Rafael  | O'Higgins 1102                       | Concepción   |
+| Soto Brañes, Rosa              | Puma 1389                            | Santiago     |
+| Soto Jiménez, Nina             | Estado 236                           | Curicó       |
+| Soto Moreno, Jorge B.          | Avda. Pedro Montt 1810               | Valparaíso   |
+| Soto Núñez, Benjamín           | Carmen 1560                          | Santiago     |
+| Soto Oyarzún, Orlando          | Rancagua 324                         | Puerto Montt |
+| Soto Parada, Armando           | Manuel Rodríguez 56, Depto. 507      | Santiago     |
+| Soto Rengifo, Carlos           | Los Españoles 2624                   | Santiago     |
+| Soto Soto, Osvaldo             | General Velásquez 20                 | Santiago     |
+| Soto Tello, Pedro              | San Isidro 91                        | Santiago     |
+| Soto Troncoso, Juan            | Unión s/n                            | Parral       |
+| Sotomayor Moreno, Osvaldo      | Tegualda 1985                        | Santiago     |
+| Sotomayor Pozo, Carlos         | Hospital Van Burén                   | Valparaíso   |
+| Sotomayor Soruco, Humberto     | Condell 326                          | Limache      |
+| Sotomayor Tapia, Aída          | Victoria Subercaseaux 191, Depto. 12 | Santiago     |
+| Sottovia Vivalda, César        | Bueras 742                           | Rancagua     |
+| Souyet Fresard, Francisco      | Ahumada 312, Of. 919                 | Santiago     |
+| Soza Valderrama, Lautaro       | Almirante Latorre s/n                | Ancud        |
+| Soza Werth, Mario              | Castro 77                            | Santiago     |
+| Spano Mendoza, Sergio          | Paicaví 562                          | Concepción   |
+| Spat Reichenstein, Elena       | La Brabanzón 2836                    | Santiago     |
+| Spektor Epstein, León          | Arturo Prat 936 A                    | Santiago     |
+| Spencer González, Augusto      | Huérfanos 1117, Of. 710              | Santiago     |
+| Spencer Keating, W. Archibaldo | Santo Domingo 2912                   | Santiago     |
+| Spikin Howard, Alberto         | Santo Domingo 2891                   | Santiago     |
+| Spinner Pecenic, Rosa          | Bramante 669                         | Santiago     |
+| Spitzer Lustig, Francisco      | Moneda 973, Of. 632                  | Santiago     |
+| Spoerer Covarrubias, Alberto   | Avda. Holanda 518                    | Santiago     |
+| Srur Yazigi, Elias             | Avda. Einstein 604                   | Santiago     |
+| Stacchetti Salti, Ennio        | Huérfanos 714                        | Santiago     |
+| Staeding Valenzuela, Julio     | Augusto Leguía 132                   | Santiago     |
+| Staforelli Bustos, Ramón       | Pedro Montt 1810                     | Valparaíso   |
+| Stagno Maccioni, Diño E.       | Santa Cruz s/n                       | Traiguén     |
+| Stange Wahl, Ruby              | Andrés Bello 780                     | Santiago     |
+| Stark Frank, Egón              | Ismael V. Vergara 436, Depto. 31     | Santiago     |
+| Steeger Schaeffer, Adalberto   | Monjitas 520                         | Santiago     |
+| Stegen Ahumada, Guillermo      | Condell 1231                         | Valparaíso   |
+| Steinberg Madera, José         |                                      | Iquique      |
+|                                | Wilson 467                           |              |
+```
 
 ## Images, Captions, And Visual Notes
-The page number "92" is centered at the bottom of the page, flanked by two dashes.
+
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
-None.
+
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
-All visible text on the page has been transcribed.
 
-## Visual Region Manifest
-```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page other than the page number, which is transcribed in the literal transcription."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 ## Page Metadata
 Page number: 93
@@ -1643,101 +1513,295 @@ All visible text on the page has been transcribed.
 ## Visual Region Manifest
 {"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected on this page."}
 
+# Page 97
+
 ## Page Metadata
 
-- Task id: `source-prep:ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100:p0097`
-- Page: 100
+- Source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
+- Source SHA-256: `72a88105e04ded44e079ee7643c9c2062bed1ba140fac13611efd16c1bb3a874`
+- Conversion manifest: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/manifest.json`
+- Source page: 97
+- Page image: `raw/codex-conversion-jobs/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dicas-y-paramedicas-servicio-nacional-de-salud-santiago-chile-july-1959-first-edition-pages-81-100/page-images/page-0097.jpg`
+- Conversion method: Docling basic conversion
+- Docling readability status: `rough_ok`
+- Docling readability flags: none
+- Extracted picture images: 0
 
 ## Layout And Reading Order
 
-The page is a single column of text. The content is a directory listing of medical professionals, organized alphabetically. The page contains entries for surnames beginning with 'U' and 'V'.
-
-Each entry is arranged in three columns:
-1.  Name (Last Name, First Name)
-2.  Address
-3.  City
-
-A large, centered letter 'V' separates the 'U' entries from the 'V' entries.
-
-The page number "100" is at the bottom left corner.
-
-The reading order is top-to-bottom, following the alphabetical list.
+Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
 
 ## Literal Transcription
 
-| | | |
-|---|---|---|
-| Undurraga Donoso, Inés | Nataniel 210, 5º Piso | Santiago |
-| Undurraga Tornero, Hernán | Monjitas 834, Depto. 51 | Santiago |
-| Urbina Figueroa, Germán J. | Fuenzalida 251 | Mulchén |
-| Urbina Gajardo, Táfer | Walker Martínez 1009 | Peumo |
-| Urbina Olivari, Adriana | Matta 1514 | Tocopilla |
-| Urdangarín Halabide, Luis H. | Hosp. Chile Exploration | Antofagasta |
-| Ureta Beytía, Miguel | Plaza Bulnes 1302, 7º piso | Santiago |
-| Ureta Latorre, Osvaldo | Toro Mazote 268 | Santiago |
-| Uribe Barra, Luis | Darío Urzúa 1813 | Santiago |
-| Uribe Concha, Alejandro | Condell 1190, Depto. 125 | Valparaíso |
-| Uribe Concha, Pedro | Berger 2654 | Viña del Mar |
-| Uribe Herrera, Victóriano | Teatinos 379 | Santiago |
-| Uribe Palacios, Eduardo | Carrera 168 | Coronel |
-| Urízar Espinosa, Rodrigo | Seminario 32 | Santiago |
-| Urquieta Tognarelli, Bernardo | Huérfanos 1147, Of. 536 | Santiago |
-| Urra Garín, Fernando | San Martín 587 | Concepción |
-| Urrizola Bermúdez, Alfonso | Chacabuco 552 | Concepción |
-| Urrutia Cifuentes, Sergio | Agustinas 972, Of. 642 | Santiago |
-| Urrutia Muñoz, Domingo | Teatinos 20, Depto. 97 | Santiago |
-| Urrutia Muñoz, Julio | Sazié 1885 | Santiago |
-| Urrutia Faut, Fidel | I. Valdés Vergara 640 | Santiago |
-| Urrutia Urrutia, Carlos | Antonio Varas 248 | Santiago |
-| Urzúa Ahumada, Rafael | Merced 293, 6º Piso | Santiago |
-| Urzúa Casas-Cordero, Rafael | Orrego Luco 87, Depto. 5 | Santiago |
-| Urzúa Corvalán, Ramón Edgardo | Marín 396 B | Santiago |
-| Urzúa Ligerón, Rafael | Hospital | Chuquicamata |
-| Urzúa Merino, Hernán | República de Israel 1000 | Santiago |
-| Urzúa Souper, Oscar | Obispo Donoso 5, Dep. 44 | Santiago |
-| Urzúa Stokes, María | Astaburuaga 312 | Santiago |
-| Urzúa Terán, René | Victoria 52 | Santiago |
-| Urzúa Urzúa, Alejandro | Huérfanos 786, Of. 117 | Santiago |
+```markdown
+Undurraga Donoso, Inés
 
-<br>
+Undurraga  Tornero, Hernán
 
-<div style="text-align: center;">
-V
-</div>
+Urbina  Figueroa,  Germán  J.
 
-<br>
+Urbina  Gajardo,  Táfer
 
-| | | |
-|---|---|---|
-| Vaccarezza Sturla, Atilio | Avda. Holanda 3712 | Santiago |
-| Vaccaro Cosovich, Hugo | Avda. Santa María 0410 | Santiago |
-| Vaisman Berensohn, Bernardo | Nataniel 149 | Santiago |
-| Vaisman Berensohn, José | Vicuña Mackenna 461 | Ovalle |
-| Vaisman Berensohn, Samuel | Plaza Bulnes 80, Dep. 78 | Santiago |
-| Valderrama de la Cruz, Genoveva | Adra. Undurraga 207 H | Santiago |
-| Valdés Basterrica, Julio | La Serena 810 | Santiago |
-| Valdés Browne, Salvador | Londres 88 | Santiago |
-| Valdés Castaño, Eduardo | 3 Norte 963 | Viña del Mar |
+Urbina  Olivari,  Adriana
 
-100 —
+Urdangarín  Halabicle,  Luis  H.
+
+Ureta  Beytía,  Miguel
+
+Ureta  Latorre,  Osvaldo
+
+Uribe  Barra, Luis
+
+Uribe  Concha,  Alejandro
+
+Uribe  Concha,  Pedro
+
+Uribe  Herrera, Victoriano
+
+Uribe  Palacios,  Eduardo
+
+Urízar  Espinosa,  Rodrigo
+
+Urquieta  Tognafelli,  Bernardo
+
+Urra  Garín, Fernando
+
+Urrizola  Bermúdez,  Alfonso
+
+Urrutia Cifuentes, Sergio
+
+Urrutia  Muñoz,  Domingo
+
+Urrutia  Muñoz,  Julio
+
+Urrutia  Paut, Fidel
+
+Urrutia  Urrutia, Caries
+
+Urzúa  Ahumada,  Rafael
+
+Urzúa  Casas-Cordero, Rafael
+
+Urzúa  Corvalán,  Ramón  Edgardo
+
+Urzúa  Ligerón,  Rafael
+
+Urzúa  Merino,  Hernán
+
+Urzúa  Souper, Oscar
+
+Urzúa  Stokes,  María
+
+Urzúa  Terán,  René
+
+Urzúa  Urzúa,  Alejandro
+
+Matahiel ilÓ,  é*  Piso
+
+Monjitas  834,  Depto.  51
+
+Fuenzalida  251
+
+Walker  Martínez 1009
+
+Matta  1514
+
+Hosp.  Chile Exploration
+
+Plaza  Bulnes  1302, 7? piso
+
+Toro  Mazóte  268
+
+Darío  Urzúa  1813
+
+Condell  1190,  Depto.  125
+
+Berger  2654
+
+Teatinos  379
+
+Carrera 168
+
+Seminario  32
+
+Huérfanos  1147, Of. 536
+
+San  Martín  587
+
+Chacabuco  552
+
+Agustinas  972,  Of.  642
+
+Teatinos  20,  Depto.  97
+
+Sazié  1885
+
+I.  Valdés  Vergara  640
+
+Antonio  Varas  248
+
+Merced  293,  6?  Piso
+
+Orrego  Luco  87,  Depto.  5
+
+Marín  396 В
+
+Hospital
+
+República  de Israel  1000
+
+Obispo  Donoso  5,  Dep.  44
+
+Astaburuaga  312
+
+Victoria  52
+
+Huérfanos  786,  Of.  117
+
+Santíagó
+
+Santiago
+
+Mulchén
+
+Peumo
+
+Tocopilla
+
+Antofagasta
+
+Santiago
+
+Santiago
+
+Santiago
+
+Valparaíso
+
+Viña  del  Mar
+
+Santiago
+
+Coronel
+
+Santiago
+
+Santiago
+
+Concepción
+
+Concepción
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Chuquicamata
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Vaccarezza  Sturla,  Atilio
+
+Vaccaro  Cosovich,  Hugo
+
+Vaisman  Berensohn, Bernardo
+
+Vaisman  Berensohn,  José
+
+Vaisman  Berensohn, Samuel
+
+Valderrama  de  la  Cruz,  Genoveva
+
+Valdés  Basterrica, Julio
+
+Valdés  Browne,  Salvador
+
+Valdés Castaño,  Eduardo
+
+Avda.  Holanda  3712
+
+Avda.  Santa María 0410
+
+Nataniel  149
+
+Vicuña  Mackenna  461
+
+Plaza  Bulnes  80,  Dep.  78
+
+Adra.  Undurraga 207  H
+
+La  Serena  810
+
+Londres  88
+
+3  Norte 963
+
+Santiago
+
+Santiago
+
+Santiago
+
+Ovalle
+
+Santiago
+
+Santiago
+
+Santiago
+
+Santiago
+
+Viña  del  Mar
+```
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page.
+- No Docling picture regions were detected for this page.
+
+## Translation
+
+No translation was produced by the Docling basic conversion pass.
+
+## Interpretation
+
+No interpretation was produced by the Docling basic conversion pass.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible parts of this document.
+- Automated readability flags: none
+- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
+
+## Extracted Genealogy Leads
+
+- No genealogy leads were asserted by the Docling basic conversion pass.
 
 ## Completeness Audit
 
-The full content of the page has been transcribed. The page number printed on the image is "100", which differs from the page number "97" specified in the work order's file naming convention. The transcription reflects the content of the provided image.
-
-## Visual Region Manifest
-
-```json
-{"visual_regions": [], "no_visual_regions_reason": "The page contains only text in a directory format. There are no images, illustrations, or other visual elements that would be useful as standalone assets."}
-```
+- Basic Docling conversion completed for this page.
+- Rendered page image link recorded.
+- Extracted picture image count: 0.
+- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
 
 # Page 98
 

@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-c9ec36f9c616-P0038-01
+chunk_id: CHUNK-64e4bc7970d3-P0038-01
 source_converted: raw/converted/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50.codex.md
-converted_sha256: c9ec36f9c616880f6adff37a21732e87d4b007a3b3804159976599a3297cded2
+converted_sha256: 64e4bc7970d3b1a7030b71a612a64ac684ed0268ea8461419d2fa29850c7f645
 source: raw/sources/R3577-50-5569-5569-Jacket3.pdf
 source_sha256: 24f561d67a2d9ea1cf27814f4f0bb894ff6132a0b2fe0cbe2c03e133d862bc91
 source_manifest: raw/codex-conversion-jobs/ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50/manifest.json
@@ -32,7 +32,6 @@ Docling basic conversion preserved the exported reading order. Conversion QA mus
 ## Literal Transcription
 
 ```markdown
-
 ## M. le Président
 
 :
@@ -117,82 +116,3 @@ No interpretation was produced by the Docling basic conversion pass.
 - Rendered page image link recorded.
 - Extracted picture image count: 0.
 - This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
-
-## Page Metadata
-Page number: 39
-
-## Layout And Reading Order
-The page presents a single column of text, primarily a transcript of a meeting or session. The content flows from top to bottom, with speakers' names in bold followed by their statements. A header with the session date is centered at the top, and a page number is in the top right corner.
-
-## Literal Transcription
-SÉANCE DU 1 JUILLET 1929
-21
-
-**Le Général Marotte** (France) :
-C'est pourquoi j'avais proposé les mots « quel que soit l'agent causal ». Je n'ai fait en dernier
-lieu que rappeler la proposition de la délégation italienne.
-
-**Le Colonel Vanier** (Canada) :
-Permettez-moi une petite intervention sur une question d'ordre. Je suis tout à fait d'ac-
-cord avec ceux qui ont dit qu'il faut autant que possible respecter le texte de la Convention
-de Genève de 1906. Il est très dangereux, d'ailleurs, de toucher à ce texte dans une assemblée
-comme celle-ci sans avoir l'amendement sous les yeux et sans avoir eu le temps de peser le sens
-et la portée de cet amendement.
-Je vous avoue qu'après avoir entendu la définition — ou plutôt la non définition — du
-mot « gazé », les uns plaçant les gazés dans la catégorie des blessés, les autres les plaçant dans
-celle des malades, il me serait impossible de donner un avis qui eût du bon sens, à mon point
-de vue.
-Je crois qu'il est très dangereux d'essayer de fixer un nouveau texte immédiatement et
-je demande, comme motion d'ordre, que l'on distribue le texte de l'amendement et que nous
-donnions notre avis demain, lorsque nous aurons pu examiner l'amendement proposé. (*Applau-
-dissements*).
-
-**M. le Président** :
-Je m'empresse de dire à M. Vanier que j'abonde dans son sens. Quand il s'agit de toucher
-à un document aussi sérieux que la Convention de 1906, nous ne devons nous prononcer qu'en
-connaissance de cause. C'est pourquoi tout en voulant donner à la proposition italienne la suite
-qu'elle comporte, j'avais cru bon, conformément à mon devoir, de renvoyer à demain la suite
-de la discussion sur ce point ; on m'a objecté qu'il vaudrait mieux en finir ce soir avec cet article
-1er. Mais les observations faites me paraissent confirmer une règle à laquelle nous devrions
-rester fidèles : il ne faut toucher à un texte qu'autant que nous connaissons exactement les
-amendements proposés et que nous avons pu y réfléchir. Je vous propose donc de renvoyer
-à demain la discussion sur cet amendement qui pourra alors nous être distribué. (*Approbation*).
-Je vous prie de décider si vous voulez suspendre la séance et la reprendre demain à 15
-heures 30. J'ai cependant une question encore à vous poser : Nous avons fait l'expérience de
-cette salle et de l'autre. A laquelle des deux donnez-vous votre préférence ?
-
-**M. Varner** :
-Dans la grande salle, on n'entend rien du tout.
-
-**M. de la Torrehermosa** (Espagne) :
-Ici on entend mal.
-
-**M. le Président** :
-Cela vient du fait que cette salle est petite et qu'il a fallu ouvrir les fenêtres.
-
-**M. Parra-Pérez** (Vénézuéla) :
-Plusieurs délégués n'ont pas pu trouver place dans cette salle qui est vraiment trop petite.
-
-**M. le Président** :
-Je crois que nous pourrions siéger demain dans la grande salle et nous trouverons le moyen
-de nous rapprocher suffisamment.
-
-La séance est levée à 18 heures 45.
-
-## Images, Captions, And Visual Notes
-There are no images or captions on this page.
-
-## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
-
-## Completeness Audit
-All visible text on the page has been transcribed.
-
-## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page. The content is entirely text-based."}
-
-## Page Metadata
-Page number: 40
-
-## Layout And Reading Order
-The page features a centered layout with several headings, followed by a main body of text presented as speeches. A stamp is present on the right side of the page, overlapping some of the headings. The page number "I" is in the top right corner.
