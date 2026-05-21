@@ -1,20 +1,5 @@
-Codex auth rotation started 2026-05-21T14:41:53.5569550Z
+Codex auth rotation started 2026-05-21T14:43:26.8840196Z
 gh version 2.92.0 (2026-04-28)
 https://github.com/cli/cli/releases/tag/v2.92.0
-unknown flag: --body-file
-System.Management.Automation.RemoteException
-Usage:  gh secret set <secret-name> [flags]
-System.Management.Automation.RemoteException
-Flags:
-  -a, --app string           Set the application for a secret: {actions|codespaces|dependabot}
-  -b, --body string          The value for the secret (reads from standard input if not specified)
-  -e, --env environment      Set deployment environment secret
-  -f, --env-file file        Load secret names and values from a dotenv-formatted file
-      --no-repos-selected    No repositories can access the organization secret
-      --no-store             Print the encrypted, base64-encoded value instead of storing it on GitHub
-  -o, --org organization     Set organization secret
-  -r, --repos repositories   List of repositories that can access an organization or user secret
-  -u, --user                 Set a secret for your user
-  -v, --visibility string    Set visibility for an organization secret: {all|private|selected} (default "private")
-  
-rotation=success
+rotation=failure
+Codex auth file was not found at D:\a\Genealogy-\Genealogy-\.codex-runtime\auth.json.
