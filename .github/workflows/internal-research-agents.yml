@@ -73,6 +73,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync latest main before agents
+        shell: pwsh
+        run: |
+          git checkout main
+          git pull --ff-only origin main
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
@@ -200,6 +206,8 @@ jobs:
           $ErrorActionPreference = "Stop"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git pull --rebase --autostash origin main
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --message "Run internal research agents"
 
       - name: Mark controller failure after durable publish

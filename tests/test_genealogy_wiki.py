@@ -3803,9 +3803,9 @@ def test_write_relationship_graph(tmp_path) -> None:
 
 def test_sync_github_database_source_conversion_only_limits_scope(tmp_path, monkeypatch) -> None:
     class GitResult:
-        def __init__(self, stdout: str = "", returncode: int = 0) -> None:
+        def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
             self.stdout = stdout
-            self.stderr = ""
+            self.stderr = stderr
             self.returncode = returncode
 
     for relative_path in [
@@ -3845,3 +3845,44 @@ def test_sync_github_database_source_conversion_only_limits_scope(tmp_path, monk
     assert "research/_agent-queues/task-state.json" in dry_run_add
     assert "research" not in dry_run_add
     assert "wiki" not in dry_run_add
+
+
+def test_sync_github_database_rebases_and_retries_rejected_push(tmp_path, monkeypatch) -> None:
+    class GitResult:
+        def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
+            self.stdout = stdout
+            self.stderr = stderr
+            self.returncode = returncode
+
+    index_path = tmp_path / "wiki" / "index.md"
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    index_path.write_text("# Wiki\n", encoding="utf-8")
+
+    calls: list[list[str]] = []
+    push_count = 0
+
+    def fake_run_git(root, args, check=True):
+        nonlocal push_count
+        calls.append(args)
+        if args == ["diff", "--cached", "--quiet"]:
+            return GitResult(returncode=0)
+        if args == ["diff", "--cached", "--name-only"]:
+            return GitResult(stdout="wiki/index.md\n")
+        if args == ["rev-parse", "--abbrev-ref", "HEAD"]:
+            return GitResult(stdout="main\n")
+        if args == ["push", "origin", "HEAD:main"]:
+            push_count += 1
+            if push_count == 1:
+                return GitResult(stderr="non-fast-forward", returncode=1)
+            return GitResult()
+        return GitResult()
+
+    monkeypatch.setattr(genealogy_wiki, "run_git", fake_run_git)
+
+    summary = sync_github_database(tmp_path, message="Run internal research agents")
+
+    assert summary["committed"] is True
+    assert summary["pushed"] is True
+    assert [attempt["push_returncode"] for attempt in summary["push_attempts"]] == [1, 0]
+    assert ["fetch", "origin", "main"] in calls
+    assert ["pull", "--rebase", "origin", "main"] in calls

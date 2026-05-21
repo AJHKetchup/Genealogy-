@@ -205,10 +205,11 @@ Storage deaccession is allowed only when:
 - Implemented: page-level upgrade feedback command and state file.
 - Implemented: meaningful crop extraction from Gemini-declared visual regions.
 - Implemented: prevention of duplicate live queue tasks for overlapping source pages.
+- Implemented: hosted internal research agent workflow for conversion QA, evidence extraction, identity analysis, proof review, and safe promotion, using ChatGPT-managed Codex auth rather than provider API keys.
+- Implemented: durable internal-agent run logs/state plus rebase-and-retry publishing so hosted workers can keep updating even when other scheduled workflows push during a long run.
 - Partial: research wiki and staging structure.
 - Partial: proof/QC and promotion structure.
-- Not done: automated research analyzer loop.
-- Not done: automated wiki maintainer producing final HTML.
+- Partial: automated wiki maintainer producing final HTML.
 - Not done: external research agents feeding new R2 sources.
 - Not done: storage lifecycle ranking and deaccession workflow.
 - Not done: whole-system dashboard.

@@ -10598,6 +10598,61 @@ def run_git(root: Path, args: list[str], *, check: bool = True) -> subprocess.Co
     return result
 
 
+def git_result_detail(result: subprocess.CompletedProcess[str]) -> str:
+    return (result.stderr or result.stdout or "").strip()
+
+
+def github_publish_branch(root: Path) -> str:
+    branch_result = run_git(root, ["rev-parse", "--abbrev-ref", "HEAD"], check=False)
+    branch = (branch_result.stdout or "").strip()
+    if branch_result.returncode == 0 and branch and branch != "HEAD":
+        return branch
+    for env_name in ("GITHUB_REF_NAME", "GITHUB_HEAD_REF"):
+        env_branch = os.environ.get(env_name, "").strip()
+        if env_branch:
+            return env_branch
+    return "main"
+
+
+def push_github_database_with_retry(root: Path, *, max_attempts: int = 3) -> list[dict[str, object]]:
+    branch = github_publish_branch(root)
+    attempts: list[dict[str, object]] = []
+    for attempt in range(1, max_attempts + 1):
+        push = run_git(root, ["push", "origin", f"HEAD:{branch}"], check=False)
+        attempt_summary: dict[str, object] = {
+            "attempt": attempt,
+            "branch": branch,
+            "push_returncode": push.returncode,
+        }
+        if push.returncode == 0:
+            attempts.append(attempt_summary)
+            return attempts
+
+        attempt_summary["push_error"] = git_result_detail(push)
+        attempts.append(attempt_summary)
+        if attempt >= max_attempts:
+            raise RuntimeError(
+                f"git push failed after {max_attempts} attempts: {git_result_detail(push)}"
+            )
+
+        fetch = run_git(root, ["fetch", "origin", branch], check=False)
+        if fetch.returncode != 0:
+            attempt_summary["fetch_error"] = git_result_detail(fetch)
+            raise RuntimeError(f"git fetch origin {branch} failed: {git_result_detail(fetch)}")
+
+        rebase = run_git(root, ["pull", "--rebase", "origin", branch], check=False)
+        if rebase.returncode != 0:
+            attempt_summary["rebase_error"] = git_result_detail(rebase)
+            run_git(root, ["rebase", "--abort"], check=False)
+            raise RuntimeError(
+                f"git pull --rebase origin {branch} failed while retrying push: {git_result_detail(rebase)}"
+            )
+
+        time.sleep(min(attempt * 2, 10))
+
+    return attempts
+
+
 def github_database_forbidden_path(path: str) -> bool:
     normalized = path.replace("\\", "/")
     if any(normalized.startswith(prefix) for prefix in GITHUB_DATABASE_FORBIDDEN_PREFIXES):
@@ -10631,6 +10686,7 @@ def sync_github_database(
         "staged": [],
         "committed": False,
         "pushed": False,
+        "push_attempts": [],
     }
     if not existing:
         return summary
@@ -10670,7 +10726,7 @@ def sync_github_database(
     run_git(paths.root, ["commit", "-m", message])
     summary["committed"] = True
     if not no_push:
-        run_git(paths.root, ["push"])
+        summary["push_attempts"] = push_github_database_with_retry(paths.root)
         summary["pushed"] = True
     return summary
 
