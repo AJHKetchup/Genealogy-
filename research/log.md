@@ -18996,3 +18996,4 @@
 ## [2026-05-21] source-status | Wrote research/_indexes/source-usability.json
 ## [2026-05-21] promote-staged | Promoted 0 source packet(s), 0 claim(s), 0 relationship(s)
 ## [2026-05-21] wiki-promotion | Dry run found no eligible reviewed staged source packets, claims, or relationships; wrote no-op manifest research/_staging/promotions/2026-05-21-142712-promote-staged.json. Required lint was run and reported existing missing research paths, template/index references, and relationship/source page issues.
+## [2026-05-21] conversion-qc | Wrote 752 QC artifact(s)

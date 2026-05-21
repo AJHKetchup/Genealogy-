@@ -1,31 +1,70 @@
 ﻿{
-    "updated":  "2026-05-21T14:27:48Z",
+    "updated":  "2026-05-21T14:40:50Z",
     "root":  "D:\\a\\Genealogy-\\Genealogy-",
-    "max_workers":  1,
-    "allow_promotion":  true,
+    "max_workers":  3,
+    "allow_promotion":  false,
     "active_workers":  [
-
+                           {
+                               "worker":  "postconv-conversion-qa-20260521143830226",
+                               "pid":  1720,
+                               "task_ids":  [
+                                                "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778-codex-md"
+                                            ],
+                               "queue":  "conversion-qa",
+                               "codex":  "C:\\npm\\prefix\\codex.cmd",
+                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830226.md",
+                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.jsonl",
+                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.err.log",
+                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.last.md",
+                               "started":  "2026-05-21T14:38:30Z"
+                           },
+                           {
+                               "worker":  "postconv-conversion-qa-20260521143830803",
+                               "pid":  7220,
+                               "task_ids":  [
+                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex-md"
+                                            ],
+                               "queue":  "conversion-qa",
+                               "codex":  "C:\\npm\\prefix\\codex.cmd",
+                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830803.md",
+                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.jsonl",
+                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.err.log",
+                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.last.md",
+                               "started":  "2026-05-21T14:38:32Z"
+                           },
+                           {
+                               "worker":  "postconv-conversion-qa-20260521143832028",
+                               "pid":  7328,
+                               "task_ids":  [
+                                                "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50-codex-md"
+                                            ],
+                               "queue":  "conversion-qa",
+                               "codex":  "C:\\npm\\prefix\\codex.cmd",
+                               "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143832028.md",
+                               "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.jsonl",
+                               "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.err.log",
+                               "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.last.md",
+                               "started":  "2026-05-21T14:38:33Z"
+                           }
                        ],
     "last_summary":  {
-                         "started":  "2026-05-21T14:25:48Z",
+                         "started":  "2026-05-21T14:29:21Z",
                          "root":  "D:\\a\\Genealogy-\\Genealogy-",
                          "dry_run":  false,
-                         "allow_promotion":  true,
-                         "promotion_only":  true,
+                         "allow_promotion":  false,
+                         "promotion_only":  false,
                          "fatal":  false,
                          "refresh":  [
-                                         "conversion-qc",
-                                         "agent-queues",
-                                         "source-status"
+                                         "skipped_active_workers_at_capacity"
                                      ],
                          "queues":  {
                                         "conversion-qa":  {
-                                                              "done":  38,
+                                                              "done":  44,
                                                               "todo":  206
                                                           },
                                         "evidence-extraction":  {
-                                                                    "todo":  2363,
-                                                                    "blocked_needs_reread":  130
+                                                                    "todo":  2445,
+                                                                    "blocked_needs_reread":  123
                                                                 },
                                         "identity-analysis":  {
 
@@ -34,30 +73,141 @@
 
                                                          },
                                         "wiki-promotion":  {
-                                                               "todo":  1
+                                                               "done":  1
                                                            }
                                     },
-                         "active_workers_before":  0,
-                         "active_workers_after":  1,
+                         "active_workers_before":  3,
+                         "active_workers_after":  3,
                          "launched":  [
                                           {
-                                              "worker":  "postconv-wiki-promotion-20260521142616657",
-                                              "pid":  9128,
+                                              "worker":  "postconv-conversion-qa-20260521142951811",
+                                              "pid":  2720,
                                               "task_ids":  [
-                                                               "wiki-promotion:reviewed-ready"
+                                                               "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0401-0425-r3578-50-5569-5569-jacket5-pages-401-425-codex-md"
                                                            ],
-                                              "queue":  "wiki-promotion",
+                                              "queue":  "conversion-qa",
                                               "codex":  "C:\\npm\\prefix\\codex.cmd",
-                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-wiki-promotion-20260521142616657.md",
-                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260521142616657.jsonl",
-                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260521142616657.err.log",
-                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-wiki-promotion-20260521142616657.last.md",
-                                              "started":  "2026-05-21T14:26:17Z"
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521142951811.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142951811.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142951811.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142951811.last.md",
+                                              "started":  "2026-05-21T14:29:52Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521142952625",
+                                              "pid":  1620,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0404-0428-c-mara-de-senadores-de-la-naci-n-1936-pages-404-428-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521142952625.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142952625.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142952625.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142952625.last.md",
+                                              "started":  "2026-05-21T14:29:53Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521142953760",
+                                              "pid":  9932,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0429-0453-c-mara-de-senadores-de-la-naci-n-1936-pages-429-453-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521142953760.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142953760.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142953760.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521142953760.last.md",
+                                              "started":  "2026-05-21T14:29:54Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521143410810",
+                                              "pid":  4740,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0479-0503-c-mara-de-senadores-de-la-naci-n-1936-pages-479-503-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143410810.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143410810.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143410810.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143410810.last.md",
+                                              "started":  "2026-05-21T14:34:11Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521143411391",
+                                              "pid":  5872,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143411391.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143411391.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143411391.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143411391.last.md",
+                                              "started":  "2026-05-21T14:34:12Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521143412518",
+                                              "pid":  5924,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143412518.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143412518.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143412518.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143412518.last.md",
+                                              "started":  "2026-05-21T14:34:13Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521143830226",
+                                              "pid":  1720,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0754-0778-c-mara-de-senadores-de-la-naci-n-1936-pages-754-778-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830226.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830226.last.md",
+                                              "started":  "2026-05-21T14:38:30Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521143830803",
+                                              "pid":  7220,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0001-0025-r3577-50-5569-5569-jacket3-pages-1-25-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143830803.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143830803.last.md",
+                                              "started":  "2026-05-21T14:38:32Z"
+                                          },
+                                          {
+                                              "worker":  "postconv-conversion-qa-20260521143832028",
+                                              "pid":  7328,
+                                              "task_ids":  [
+                                                               "conversion-qa:raw-converted-ca24f561d6-r3577-50-5569-5569-jacke-p0026-0050-r3577-50-5569-5569-jacket3-pages-26-50-codex-md"
+                                                           ],
+                                              "queue":  "conversion-qa",
+                                              "codex":  "C:\\npm\\prefix\\codex.cmd",
+                                              "prompt":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-prompts\\postconv-conversion-qa-20260521143832028.md",
+                                              "stdout":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.jsonl",
+                                              "stderr":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.err.log",
+                                              "last_message":  "D:\\a\\Genealogy-\\Genealogy-\\research\\_agent-queues\\post-conversion-worker-logs\\postconv-conversion-qa-20260521143832028.last.md",
+                                              "started":  "2026-05-21T14:38:33Z"
                                           }
                                       ],
                          "blockers":  [
 
-                                      ],
-                         "finished":  "2026-05-21T14:27:48Z"
+                                      ]
                      }
 }
