@@ -28815,9 +28815,11 @@
           "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900/work-orders/page-0888.md",
           "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900/page-markdown/page-0888.md",
           "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900/extracted-images/page-0888",
-          "media_type": "pdf"
+          "media_type": "pdf",
+          "rough_discovery_status": "error"
         }
       ],
+      "rough_discovery_status": "error",
       "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900-p088-4bbf21ecc6b4.md"
     },
     {
