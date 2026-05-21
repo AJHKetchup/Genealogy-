@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T09:41:05Z",
+  "updated": "2026-05-21T10:31:41Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -22218,13 +22218,15 @@
       "completed_at": "2026-05-17T10:28:38Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125:p0119": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:43:46Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:52Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:25:11Z",
       "started_at": "2026-05-17T10:25:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:43:46Z"
+      "released_at": "2026-05-19T18:43:46Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:08:52Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0101-0125-s495-2-2-pages-101-125:p0120": {
       "status": "done",
@@ -29122,22 +29124,26 @@
       "completed_at": "2026-05-19T18:39:47Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200:p0179": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:43:56Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:58Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:57:34Z",
       "started_at": "2026-05-17T10:57:34Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:43:56Z"
+      "released_at": "2026-05-19T18:43:56Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:11:58Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200:p0180": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:43:50Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:28Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-17T10:57:34Z",
       "started_at": "2026-05-17T10:57:34Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:43:50Z"
+      "released_at": "2026-05-19T18:43:50Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:19:28Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0176-0200-s495-2-2-pages-176-200:p0181": {
       "status": "done",
@@ -44007,13 +44013,15 @@
       "completed_at": "2026-05-19T18:34:28Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0304-0328-c-mara-de-senadores-de-la-naci-n-1936-pages-304-328:p0318": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:34:25Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:34Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:12:17Z",
       "started_at": "2026-05-19T18:12:17Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:34:25Z"
+      "released_at": "2026-05-19T18:34:25Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:25:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0304-0328-c-mara-de-senadores-de-la-naci-n-1936-pages-304-328:p0319": {
       "status": "done",
@@ -48043,13 +48051,15 @@
       "released_at": "2026-05-19T18:35:52Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0358": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:35:51Z",
-      "note": "Gemini output failed source-prep review: possible_table_layout_loss",
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:35Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:15:14Z",
       "started_at": "2026-05-19T18:15:14Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:35:51Z"
+      "released_at": "2026-05-19T18:35:51Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:20:35Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0359": {
       "status": "done",
@@ -48187,13 +48197,15 @@
       "completed_at": "2026-05-19T18:35:58Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0374": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:39:57Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:50Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:15:20Z",
       "started_at": "2026-05-19T18:15:20Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:39:57Z"
+      "released_at": "2026-05-19T18:39:57Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:30:50Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0375": {
       "status": "done",
@@ -57089,13 +57101,15 @@
       "released_at": "2026-05-19T18:44:10Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225:p0211": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:44:07Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:36Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:23:47Z",
       "started_at": "2026-05-19T18:23:47Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:44:07Z"
+      "released_at": "2026-05-19T18:44:07Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:11:36Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225:p0212": {
       "status": "done",
@@ -57161,13 +57175,15 @@
       "completed_at": "2026-05-19T18:40:06Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225:p0219": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:44:09Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:50Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:23:50Z",
       "started_at": "2026-05-19T18:23:50Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:44:09Z"
+      "released_at": "2026-05-19T18:44:09Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:25:50Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0201-0225-s495-2-2-pages-201-225:p0220": {
       "status": "done",
@@ -57350,13 +57366,15 @@
       "completed_at": "2026-05-19T18:41:55Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0241": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:44:25Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:04:49Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:23:59Z",
       "started_at": "2026-05-19T18:23:59Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:44:25Z"
+      "released_at": "2026-05-19T18:44:25Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:04:49Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0226-0250-s495-2-2-pages-226-250:p0242": {
       "status": "released",
@@ -57651,13 +57669,15 @@
       "released_at": "2026-05-19T18:44:42Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0279": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:24Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:06:57Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:24:38Z",
       "started_at": "2026-05-19T18:24:38Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:24Z"
+      "released_at": "2026-05-19T18:40:24Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:06:57Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0276-0300-s495-2-2-pages-276-300:p0284": {
       "status": "released",
@@ -58263,13 +58283,15 @@
       "released_at": "2026-05-19T18:40:53Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0357": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:53Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:06:46Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:03Z",
       "started_at": "2026-05-19T18:26:03Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:53Z"
+      "released_at": "2026-05-19T18:40:53Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:06:46Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0358": {
       "status": "released",
@@ -58326,13 +58348,15 @@
       "released_at": "2026-05-19T18:40:57Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0364": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:40:57Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:06:09Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:10Z",
       "started_at": "2026-05-19T18:26:11Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:40:57Z"
+      "released_at": "2026-05-19T18:40:57Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:06:09Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0365": {
       "status": "released",
@@ -58425,13 +58449,15 @@
       "released_at": "2026-05-19T18:41:01Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0351-0375-s495-2-2-pages-351-375:p0375": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:02Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:05:30Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:23Z",
       "started_at": "2026-05-19T18:26:23Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:02Z"
+      "released_at": "2026-05-19T18:41:02Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:05:30Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0376": {
       "status": "released",
@@ -58443,13 +58469,15 @@
       "released_at": "2026-05-19T18:45:14Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0377": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:45:23Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "done",
+      "updated_at": "2026-05-21T10:04:50Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:26Z",
       "started_at": "2026-05-19T18:26:26Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:45:23Z"
+      "released_at": "2026-05-19T18:45:23Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:04:50Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0378": {
       "status": "released",
@@ -58461,13 +58489,15 @@
       "released_at": "2026-05-19T18:41:03Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0379": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:04Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:06:10Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:28Z",
       "started_at": "2026-05-19T18:26:28Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:04Z"
+      "released_at": "2026-05-19T18:41:04Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:06:10Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0380": {
       "status": "released",
@@ -58569,13 +58599,15 @@
       "released_at": "2026-05-19T18:41:09Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0391": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:10Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:05:27Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:41Z",
       "started_at": "2026-05-19T18:26:41Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:10Z"
+      "released_at": "2026-05-19T18:41:10Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:05:27Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0376-0400-s495-2-2-pages-376-400:p0392": {
       "status": "released",
@@ -58659,13 +58691,15 @@
       "released_at": "2026-05-19T18:41:12Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0401": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:12Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:06:45Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:53Z",
       "started_at": "2026-05-19T18:26:53Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:12Z"
+      "released_at": "2026-05-19T18:41:12Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:06:45Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0402": {
       "status": "released",
@@ -58677,13 +58711,15 @@
       "released_at": "2026-05-19T18:41:13Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0403": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:13Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:01Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:26:54Z",
       "started_at": "2026-05-19T18:26:54Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:13Z"
+      "released_at": "2026-05-19T18:41:13Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:09:01Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0404": {
       "status": "released",
@@ -58758,13 +58794,15 @@
       "released_at": "2026-05-19T18:41:14Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0412": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:15Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:05:30Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:27:04Z",
       "started_at": "2026-05-19T18:27:05Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:15Z"
+      "released_at": "2026-05-19T18:41:15Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:05:30Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0401-0425-s495-2-2-pages-401-425:p0413": {
       "status": "released",
@@ -58947,13 +58985,15 @@
       "released_at": "2026-05-19T18:45:37Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0438": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:41:17Z",
-      "note": "Gemini fatal dependency blocker: Gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.goo",
+      "status": "done",
+      "updated_at": "2026-05-21T10:06:03Z",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
       "claimed_at": "2026-05-19T18:27:16Z",
       "started_at": "2026-05-19T18:27:16Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:41:17Z"
+      "released_at": "2026-05-19T18:41:17Z",
+      "agent": "source-prep-docling-discovery",
+      "completed_at": "2026-05-21T10:06:03Z"
     },
     "source-prep:ca9010aa1a-s495-2-2-p0426-0450-s495-2-2-pages-426-450:p0439": {
       "status": "released",
@@ -66664,6 +66704,1735 @@
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "completed_at": "2026-05-21T09:40:48Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1401-1425-s522bis-29-3-pages-1401-1425:p1415": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:01Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:01Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1096": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:07Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1057": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:08Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1179-1203-c-mara-de-senadores-de-la-naci-n-1936-pages-1179-1203:p1195": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:18Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:18Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1304-1328-c-mara-de-senadores-de-la-naci-n-1936-pages-1304-1328:p1318": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:24Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:24Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0576-0600-s522bis-29-3-pages-576-600:p0577": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:32Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0534": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:33Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650:p0629": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:43Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:43Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1104": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:46Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1079": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:55Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1276": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:07:56Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:07:56Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1056": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:04Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1066": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:07Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1444": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:17Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1102": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:17Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1439": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:25Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:25Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1107": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:30Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:30Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1112": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:39Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850:p0830": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:40Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:40Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0908": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:08:49Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:08:49Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0546": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:05Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:05Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1279-1303-c-mara-de-senadores-de-la-naci-n-1936-pages-1279-1303:p1299": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:12Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0801-0825-s522bis-29-3-pages-801-825:p0802": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:15Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1129-1153-c-mara-de-senadores-de-la-naci-n-1936-pages-1129-1153:p1132": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1258": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:27Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:27Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1065": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:37Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:37Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0536": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:48Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:48Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0948": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:50Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0529-0553-c-mara-de-senadores-de-la-naci-n-1936-pages-529-553:p0550": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:09:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:09:58Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675:p0661": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:00Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:00Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1080": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:12Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0916": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:12Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1075": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:20Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:20Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1253": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1252": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:33Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1098": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:34Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:34Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0726-0750-s522bis-29-3-pages-726-750:p0732": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:43Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:43Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1076": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:44Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1445": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:54Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:54Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200:p1188": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:10:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:10:55Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0545": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:10Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0547": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:10Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1084": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:15Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1326-1350-s522bis-29-3-pages-1326-1350:p1329": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:17Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1229-1253-c-mara-de-senadores-de-la-naci-n-1936-pages-1229-1253:p1248": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:33Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1229-1253-c-mara-de-senadores-de-la-naci-n-1936-pages-1229-1253:p1250": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:35Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0532": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:43Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:43Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1392": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:57Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1097": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:11:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:11:58Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1108": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:04Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1091": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:19Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:19Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1334": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1376-1400-s522bis-29-3-pages-1376-1400:p1388": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700:p0676": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:31Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0553": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:44Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1279-1303-c-mara-de-senadores-de-la-naci-n-1936-pages-1279-1303:p1290": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:44Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850:p0832": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:46Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1279-1303-c-mara-de-senadores-de-la-naci-n-1936-pages-1279-1303:p1302": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:12:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:12:53Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0951-0975-s522bis-29-3-pages-951-975:p0959": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:06Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:06Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675:p0659": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:09Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:09Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900:p0876": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:10Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1092": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:15Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775:p0752": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:27Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:27Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1088": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:30Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:30Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1279-1303-c-mara-de-senadores-de-la-naci-n-1936-pages-1279-1303:p1291": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:33Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1117": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:36Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0576-0600-s522bis-29-3-pages-576-600:p0586": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:51Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:51Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1304-1328-c-mara-de-senadores-de-la-naci-n-1936-pages-1304-1328:p1311": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:53Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1041": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:55Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1127": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:13:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:13:58Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1260": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:15Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1162": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:18Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:18Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0551": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:19Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:19Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1054": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:20Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:20Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1060": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:38Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1110": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:41Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1119": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:41Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0880": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:14:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:14:46Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1254-1278-c-mara-de-senadores-de-la-naci-n-1936-pages-1254-1278:p1277": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:00Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:00Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1116": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:02Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:02Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1095": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:04Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0861": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:08Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1089": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1450": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:24Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:24Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1050": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:26Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578:p0576": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1055": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:45Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1093": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:46Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0922": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:48Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:48Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1094": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:15:52Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:15:52Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900:p0878": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:07Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0865": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:09Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:09Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0529-0553-c-mara-de-senadores-de-la-naci-n-1936-pages-529-553:p0549": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:10Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0541": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:17Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775:p0758": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1090": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:31Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1261": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:32Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1159": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:40Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:40Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0976-1000-s522bis-29-3-pages-976-1000:p0979": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:56Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:56Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0562": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:16:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:16:57Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1040": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:03Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:03Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1426-1450-s522bis-29-3-pages-1426-1450:p1447": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:19Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:19Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0530": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0531": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:28Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0535": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:38Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0579-0603-c-mara-de-senadores-de-la-naci-n-1936-pages-579-603:p0579": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:41Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0698": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:44Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0543": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:53Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825:p0820": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:17:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:17:59Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0901-0925-r3016-11a-2905-950-pages-901-925:p0914": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:09Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:09Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0676-0700-s522bis-29-3-pages-676-700:p0677": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:18Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:18Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0873": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:21Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0611": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650:p0634": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:36Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1064": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:42Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:42Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0851-0875-r3016-11a-2905-950-pages-851-875:p0875": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:45Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0692": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:46Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0945": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:18:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:18:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0901": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:06Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:06Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1035": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:08Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0563": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:12Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675:p0671": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:23Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:23Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1351-1375-s522bis-29-3-pages-1351-1375:p1372": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:30Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:30Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0695": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:35Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0863": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:46Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0552": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:52Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:52Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0691": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:54Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:54Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200:p1195": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:19:58Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:19:58Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650:p0635": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:11Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:11Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0905": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:15Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1104-1128-c-mara-de-senadores-de-la-naci-n-1936-pages-1104-1128:p1120": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:16Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:16Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0776-0800-r3016-11a-2905-950-pages-776-800:p0787": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:20Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:20Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1011": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:36Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1036": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:37Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:37Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0700": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:44Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:44Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0609": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900:p0882": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:20:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:20:59Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1279-1303-c-mara-de-senadores-de-la-naci-n-1936-pages-1279-1303:p1279": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:03Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:03Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0693": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:08Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1031": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:21Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850:p0838": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:22Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1329-1342-c-mara-de-senadores-de-la-naci-n-1936-pages-1329-1342:p1338": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:26Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0526-0550-r3016-11a-2905-950-pages-526-550:p0532": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1063": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:43Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:43Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1201-1225-s522bis-29-3-pages-1201-1225:p1202": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:46Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825:p0816": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:49Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:49Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0697": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:21:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:21:53Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0949": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:06Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:06Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0801-0825-s519bis-26-4-pages-801-825:p0810": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:10Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0526-0550-s522bis-29-3-pages-526-550:p0542": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:11Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:11Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200:p1196": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:15Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0558": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:31Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0975": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:32Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:32Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1256": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:35Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:35Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0556": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:39Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0776-0800-s522bis-29-3-pages-776-800:p0782": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:54Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:54Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0696": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:55Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0751-0775-s522bis-29-3-pages-751-775:p0751": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:22:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:22:57Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650:p0637": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:04Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850:p0827": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:16Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:16Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850:p0839": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:19Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:19Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850:p0829": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:22Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0576-0600-s522bis-29-3-pages-576-600:p0576": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:28Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0974": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:38Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0694": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:42Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:42Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0915": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:46Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0980": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:23:49Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:23:49Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650:p0639": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:02Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:02Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825:p0803": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:04Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1034": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:07Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:07Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0979": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:10Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:10Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1023": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:24Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:24Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1037": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:25Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:25Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1032": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0999": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:31Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:31Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1016": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:45Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0879": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:50Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:50Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900:p0881": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:51Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:51Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0726-0750-s519bis-26-4-pages-726-750:p0740": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:24:54Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:24:54Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578:p0561": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:06Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:06Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0987": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:12Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1012": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:13Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:13Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0950": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:16Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:16Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0826-0850-s519bis-26-4-pages-826-850:p0837": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:28Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:28Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0626-0650-s522bis-29-3-pages-626-650:p0636": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:41Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0946": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:53Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:53Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1017": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:25:56Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:25:56Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0977": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:03Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:03Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0579-0603-c-mara-de-senadores-de-la-naci-n-1936-pages-579-603:p0582": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:14Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0721": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:16Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:16Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0901-0925-s522bis-29-3-pages-901-925:p0921": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:18Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:18Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0804-0828-c-mara-de-senadores-de-la-naci-n-1936-pages-804-828:p0821": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:26Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0826-0850-s522bis-29-3-pages-826-850:p0827": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:38Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0651-0675-s522bis-29-3-pages-651-675:p0673": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:39Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1013": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:39Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0967": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:46Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0776-0800-r3016-11a-2905-950-pages-776-800:p0794": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:26:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:26:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0726-0750-s522bis-29-3-pages-726-750:p0731": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:01Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:01Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0722": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:03Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:03Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0826-0850-r3016-11a-2905-950-pages-826-850:p0827": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:20Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:20Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0526-0550-r3016-11a-2905-950-pages-526-550:p0542": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:22Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:22Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0876-0900-r3016-11a-2905-950-pages-876-900:p0893": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0615": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:30Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:30Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0651-0675-s519bis-26-4-pages-651-675:p0668": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:38Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0576-0600-s519bis-26-4-pages-576-600:p0597": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:45Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:45Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0986": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:51Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:51Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1025": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:27:52Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:27:52Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0551-0575-s522bis-29-3-pages-551-575:p0561": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:04Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1176-1200-s522bis-29-3-pages-1176-1200:p1198": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:08Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0976": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:12Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:12Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0804-0828-c-mara-de-senadores-de-la-naci-n-1936-pages-804-828:p0823": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:14Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1022": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:25Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:25Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0705": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:33Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0985": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:33Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0626-0650-s519bis-26-4-pages-626-650:p0634": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:34Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:34Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p0993": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:46Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:46Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1024": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:55Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0876-0900-s522bis-29-3-pages-876-900:p0880": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:55Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:55Z"
+    },
+    "source-prep:ca7b784510-s519bis-26-4-p0476-0500-s519bis-26-4-pages-476-500:p0492": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:28:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:28:57Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0870": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:08Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:08Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0972": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:16Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:16Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1014": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:17Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1033": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:18Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:18Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0801-0825-r3016-11a-2905-950-pages-801-825:p0818": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:29Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1028": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:38Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:38Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1265": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:39Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:39Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1262": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:41Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1054-1078-c-mara-de-senadores-de-la-naci-n-1936-pages-1054-1078:p1068": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:57Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:57Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1019": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:29:59Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:29:59Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0926-0950-s522bis-29-3-pages-926-950:p0944": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:02Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:02Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0804-0828-c-mara-de-senadores-de-la-naci-n-1936-pages-804-828:p0822": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:04Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1026": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:17Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:17Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0979-1003-c-mara-de-senadores-de-la-naci-n-1936-pages-979-1003:p1002": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:21Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:21Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1251-1275-s522bis-29-3-pages-1251-1275:p1257": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:25Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:25Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1079-1103-c-mara-de-senadores-de-la-naci-n-1936-pages-1079-1103:p1087": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:26Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p1151-1175-s522bis-29-3-pages-1151-1175:p1161": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:40Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:40Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0858": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:42Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:42Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0851-0875-s522bis-29-3-pages-851-875:p0868": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:30:49Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:30:49Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1006": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:02Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:02Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0751-0775-r3016-11a-2905-950-pages-751-775:p0751": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:04Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:04Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0954-0978-c-mara-de-senadores-de-la-naci-n-1936-pages-954-978:p0956": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:14Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:14Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0701-0725-r3016-11a-2905-950-pages-701-725:p0706": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:15Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:15Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0726-0750-r3016-11a-2905-950-pages-726-750:p0730": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:26Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:26Z"
+    },
+    "source-prep:ca7e42bb85-s522bis-29-3-p0576-0600-s522bis-29-3-pages-576-600:p0584": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:27Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:27Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1004-1028-c-mara-de-senadores-de-la-naci-n-1936-pages-1004-1028:p1020": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:33Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:33Z"
+    },
+    "source-prep:ca3e1a8684-r3016-11a-2905-950-p0676-0700-r3016-11a-2905-950-pages-676-700:p0699": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:36Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:36Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1029-1053-c-mara-de-senadores-de-la-naci-n-1936-pages-1029-1053:p1038": {
+      "status": "done",
+      "updated_at": "2026-05-21T10:31:41Z",
+      "agent": "source-prep-docling-discovery",
+      "note": "Docling basic conversion accepted; conversion QA still required.",
+      "completed_at": "2026-05-21T10:31:41Z"
     }
   }
 }
