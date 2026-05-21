@@ -683,14 +683,25 @@ function Wait-ForWorkerDrain {
     $active = @($Workers)
     while ($active.Count -gt 0 -and (Get-Date) -lt $deadline) {
         Start-Sleep -Seconds $PollSeconds
-        $active = @(Get-ActiveWorkers)
-        Save-ControllerState -Workers $active -Summary $summary
+        try {
+            $active = @(Get-ActiveWorkers)
+            Save-ControllerState -Workers $active -Summary $summary
+        }
+        catch {
+            $summary.blockers += "worker drain status check failed: $($_.Exception.Message)"
+            break
+        }
     }
 
     if ($active.Count -gt 0) {
         foreach ($worker in $active) {
             $taskIds = @((ConvertTo-Array $worker.task_ids) | ForEach-Object { [string]$_ })
-            Update-TaskState -Action "release" -TaskIds $taskIds -Agent ([string]$worker.worker) -Note "post-conversion worker timed out in hosted runner"
+            try {
+                Update-TaskState -Action "release" -TaskIds $taskIds -Agent ([string]$worker.worker) -Note "post-conversion worker timed out in hosted runner"
+            }
+            catch {
+                $summary.blockers += "worker timeout release failed for $($worker.worker): $($_.Exception.Message)"
+            }
             try {
                 Stop-Process -Id ([int]$worker.pid) -Force -ErrorAction Stop
             }
@@ -731,6 +742,7 @@ $summary = [ordered]@{
     dry_run = [bool]$DryRun
     allow_promotion = [bool]$AllowPromotion
     promotion_only = [bool]$PromotionOnly
+    fatal = $false
     refresh = @()
     queues = [ordered]@{}
     active_workers_before = 0
@@ -752,48 +764,95 @@ $activeWorkers = @()
 try {
     do {
         try {
-            $summary.refresh = @(Invoke-Refresh)
-            $taskState = Get-TaskStateMap
-            $identityQueue = Write-IdentityAnalysisQueue -TaskState $taskState
-            $reviewQueue = Write-ProofReviewQueue -TaskState $taskState
-            $promotionQueue = Write-PromotionQueue -TaskState $taskState
-            $summary.queues["conversion-qa"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "conversion-qa.json")
-            $summary.queues["evidence-extraction"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "evidence-extraction.json")
-            $summary.queues["identity-analysis"] = $identityQueue.status_counts
-            $summary.queues["proof-review"] = $reviewQueue.status_counts
-            $summary.queues["wiki-promotion"] = $promotionQueue.status_counts
+            $activeWorkers = @(Get-ActiveWorkers)
+        }
+        catch {
+            $summary.blockers += "active worker scan: $($_.Exception.Message)"
+            $activeWorkers = @()
+        }
+
+        try {
+            if ($activeWorkers.Count -ge $MaxWorkers -and -not $Once) {
+                $summary.refresh = @("skipped_active_workers_at_capacity")
+            }
+            else {
+                $summary.refresh = @(Invoke-Refresh)
+                $taskState = Get-TaskStateMap
+                $identityQueue = Write-IdentityAnalysisQueue -TaskState $taskState
+                $reviewQueue = Write-ProofReviewQueue -TaskState $taskState
+                $promotionQueue = Write-PromotionQueue -TaskState $taskState
+                $summary.queues["conversion-qa"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "conversion-qa.json")
+                $summary.queues["evidence-extraction"] = Get-QueueStatusCountsFromFile -Path (Join-Path $QueueDir "evidence-extraction.json")
+                $summary.queues["identity-analysis"] = $identityQueue.status_counts
+                $summary.queues["proof-review"] = $reviewQueue.status_counts
+                $summary.queues["wiki-promotion"] = $promotionQueue.status_counts
+            }
         }
         catch {
             $summary.blockers += "refresh: $($_.Exception.Message)"
         }
 
-        $activeWorkers = @(Get-ActiveWorkers)
         $summary.active_workers_before = $activeWorkers.Count
         $slots = if ($NoWorkers) { 0 } else { [Math]::Max(0, $MaxWorkers - $activeWorkers.Count) }
         if ($slots -gt 0) {
             $available = @(Get-AvailableTasks -ActiveWorkers $activeWorkers)
             foreach ($task in ($available | Select-Object -First $slots)) {
-                $worker = Start-PostConversionWorker -Task $task
-                $summary.launched += $worker
-                if (-not $DryRun -and -not $NoWorkers) {
-                    $activeWorkers += $worker
+                $taskIdForLog = if ($null -ne $task.PSObject.Properties["task_id"]) { [string]$task.task_id } else { "unknown-task" }
+                try {
+                    $worker = Start-PostConversionWorker -Task $task
+                    $summary.launched += $worker
+                    if (-not $DryRun -and -not $NoWorkers) {
+                        $activeWorkers += $worker
+                    }
+                }
+                catch {
+                    $summary.blockers += "worker launch failed for ${taskIdForLog}: $($_.Exception.Message)"
                 }
             }
         }
         $summary.active_workers_after = $activeWorkers.Count
-        Save-ControllerState -Workers $activeWorkers -Summary $summary
+        try {
+            Save-ControllerState -Workers $activeWorkers -Summary $summary
+        }
+        catch {
+            $summary.blockers += "save controller state: $($_.Exception.Message)"
+        }
 
         if ($Once) { break }
         if ($RunMinutes -gt 0 -and ((Get-Date) - $controllerStart).TotalMinutes -ge $RunMinutes) { break }
         Start-Sleep -Seconds $PollSeconds
     } while ($true)
 }
+catch {
+    $summary.fatal = $true
+    $summary.blockers += "controller fatal: $($_.Exception.Message)"
+}
 finally {
-    $activeWorkers = @(Wait-ForWorkerDrain -Workers $activeWorkers)
-    Release-Lock
+    try {
+        $activeWorkers = @(Wait-ForWorkerDrain -Workers $activeWorkers)
+    }
+    catch {
+        $summary.fatal = $true
+        $summary.blockers += "worker drain fatal: $($_.Exception.Message)"
+    }
+    try {
+        Release-Lock
+    }
+    catch {
+        $summary.blockers += "release lock: $($_.Exception.Message)"
+    }
 }
 
 $summary.finished = [DateTime]::UtcNow.ToString("s") + "Z"
-Save-ControllerState -Workers $activeWorkers -Summary $summary
+try {
+    Save-ControllerState -Workers $activeWorkers -Summary $summary
+}
+catch {
+    $summary.fatal = $true
+    $summary.blockers += "final save controller state: $($_.Exception.Message)"
+}
 Write-Host "post-conversion-controller | summary"
 $summary | ConvertTo-Json -Depth 14
+if ($summary.fatal) {
+    exit 1
+}

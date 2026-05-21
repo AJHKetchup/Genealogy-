@@ -4,6 +4,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/cloud-source-prep.yml"
+      - "pyproject.toml"
+      - "src/historic_doc_ingest/**"
+      - "raw/sources/**"
+      - "raw/source-prep-manifest.json"
+      - "raw/r2-storage.json"
+      - "raw/r2-raw-sources.json"
   workflow_dispatch:
     inputs:
       limit:
