@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 84 | none | high | pass | none | none |
-| 85 | none | high | pass | none | none |
-| 86 | none | high | pass | none | none |
-| 87 | none | high | pass | none | none |
-| 88 | none | high | pass | none | none |
-| 89 | none | high | pass | none | none |
-| 90 | none | high | pass | none | none |
-| 91 | none | high | pass | none | none |
-| 92 | none | high | pass | none | none |
-| 93 | none | high | pass | none | none |
-| 94 | none | high | pass | none | none |
-| 95 | none | high | pass | none | none |
-| 96 | none | high | pass | none | none |
-| 97 | none | high | pass | none | none |
-| 98 | none | high | pass | none | none |
-| 99 | none | high | pass | none | none |
-| 100 | none | high | pass | none | none |
-| 101 | none | high | pass | none | none |
-| 102 | none | high | pass | none | none |
-| 103 | none | high | pass | none | none |
+| 84 | medium | high | pass | none | Arturo, relationships |
+| 85 | medium | high | pass | none | relationships |
+| 86 | medium | high | pass | none | relationships |
+| 87 | medium | high | pass | none | relationships |
+| 88 | medium | high | pass | none | relationships |
+| 89 | medium | high | pass | none | relationships |
+| 90 | medium | high | pass | none | relationships |
+| 91 | medium | high | pass | none | relationships |
+| 92 | medium | high | pass | none | relationships |
+| 93 | medium | high | pass | none | relationships |
+| 94 | medium | high | pass | none | Arturo, relationships |
+| 95 | medium | high | pass | none | relationships |
+| 96 | medium | high | pass | none | relationships |
+| 97 | medium | high | pass | none | Arturo, relationships |
+| 98 | medium | high | pass | none | relationships |
+| 99 | medium | high | pass | none | relationships |
+| 100 | medium | high | pass | none | relationships |
+| 101 | medium | high | pass | none | relationships |
+| 102 | medium | high | pass | none | Arturo, relationships |
+| 103 | medium | high | pass | none | relationships |

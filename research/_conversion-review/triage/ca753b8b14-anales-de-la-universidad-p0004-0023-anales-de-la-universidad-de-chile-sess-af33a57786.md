@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 5 | none | medium | pass | duplicate_conversion_contract_sections | none |
-| 7 | none | medium | pass | duplicate_conversion_contract_sections | none |
-| 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 17 | none | high | pass | none | none |
-| 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
-| 20 | none | high | pass | none | none |
-| 21 | none | high | pass | none | none |
-| 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 5 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 7 | medium | medium | pass | duplicate_conversion_contract_sections | History, relationships |
+| 11 | critical | low | reread-page | none | Pulgar, relationships |
+| 12 | medium | high | pass | none | relationships |
+| 13 | medium | high | pass | none | relationships |
+| 14 | medium | high | pass | none | relationships |
+| 15 | medium | high | pass | none | relationships |
+| 16 | medium | high | pass | none | relationships |
+| 17 | medium | high | pass | none | relationships |
+| 18 | medium | high | pass | none | relationships |
+| 19 | medium | high | pass | none | relationships |
+| 20 | medium | high | pass | none | relationships |
+| 21 | medium | high | pass | none | relationships |
+| 22 | medium | high | pass | none | relationships |
+| 23 | medium | high | pass | none | relationships |

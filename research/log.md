@@ -18990,3 +18990,9 @@
 ## [2026-05-21] prepare-sources | Prepared 19 raw source(s)
 ## [2026-05-21] source-prep-batches | Wrote 2008 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-21] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-21] conversion-qc | Wrote 734 QC artifact(s)
+## [2026-05-21] agent-queues | Wrote 2 queue manifest(s); source-prep queue disabled by post-conversion settings
+## [2026-05-21] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-21] source-status | Wrote research/_indexes/source-usability.json
+## [2026-05-21] promote-staged | Promoted 0 source packet(s), 0 claim(s), 0 relationship(s)
+## [2026-05-21] wiki-promotion | Dry run found no eligible reviewed staged source packets, claims, or relationships; wrote no-op manifest research/_staging/promotions/2026-05-21-142712-promote-staged.json. Required lint was run and reported existing missing research paths, template/index references, and relationship/source page issues.

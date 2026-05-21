@@ -6,4 +6,10 @@
 
 ## Queued Pages
 
-No pages queued for reread.
+### Page 1
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: duplicate_conversion_contract_sections
+- Matched family context: Dario, Pulgar, Starting

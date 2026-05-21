@@ -8,4 +8,8 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | medium | pass | duplicate_conversion_contract_sections | none |
+| 229 | high | medium | reread-page | duplicate_conversion_contract_sections | Arturo, Smith, relationships |
+| 234 | medium | high | pass | none | relationships |
+| 235 | high | medium | reread-page | duplicate_conversion_contract_sections | Starting, relationships, start |
+| 239 | medium | high | pass | none | relationships |
+| 240 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |

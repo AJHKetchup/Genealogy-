@@ -8,9 +8,9 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 4 | high | high | pass | none | Arturo, Dario, Pulgar, relationships |
+| 5 | high | high | pass | none | Arturo, Dario, Pulgar, relationships |
+| 6 | high | high | pass | none | Arturo, Dario, Pulgar, relationships, user |
+| 7 | high | high | pass | none | Arturo, Dario, Pulgar, relationships, start |
+| 8 | high | high | pass | none | Arturo, Dario, Pulgar, Tree, relationships |
+| 9 | high | high | pass | none | Arturo, Dario, Pulgar, relationships |

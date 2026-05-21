@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | medium | pass | duplicate_conversion_contract_sections | none |
+| 1 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, Starting |

@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 64 | none | high | pass | none | none |
-| 65 | none | high | pass | none | none |
-| 66 | none | high | pass | none | none |
-| 67 | none | high | pass | none | none |
-| 68 | none | high | pass | none | none |
-| 69 | none | high | pass | none | none |
-| 70 | none | high | pass | none | none |
-| 71 | none | high | pass | none | none |
-| 72 | none | high | pass | none | none |
-| 73 | none | high | pass | none | none |
-| 74 | none | high | pass | none | none |
-| 75 | none | high | pass | none | none |
-| 76 | none | high | pass | none | none |
-| 77 | none | high | pass | none | none |
-| 78 | none | high | pass | none | none |
-| 79 | none | high | pass | none | none |
-| 80 | none | high | pass | none | none |
-| 81 | none | high | pass | none | none |
-| 82 | none | high | pass | none | none |
-| 83 | none | high | pass | none | none |
+| 64 | critical | low | reread-page | none | Arturo, relationships |
+| 65 | medium | high | pass | none | relationships |
+| 66 | medium | high | pass | none | relationships |
+| 67 | medium | high | pass | none | relationships |
+| 68 | medium | high | pass | none | relationships |
+| 69 | medium | high | pass | none | relationships |
+| 70 | medium | high | pass | none | relationships |
+| 71 | medium | high | pass | none | relationships |
+| 72 | medium | high | pass | none | relationships |
+| 73 | medium | high | pass | none | Arturo, relationships |
+| 74 | medium | high | pass | none | relationships |
+| 75 | medium | high | pass | none | relationships |
+| 76 | medium | high | pass | none | relationships |
+| 77 | medium | high | pass | none | relationships |
+| 78 | medium | high | pass | none | relationships |
+| 79 | medium | high | pass | none | relationships |
+| 80 | medium | high | pass | none | Arturo, relationships |
+| 81 | medium | high | pass | none | relationships |
+| 82 | medium | high | pass | none | relationships |
+| 83 | medium | high | pass | none | Arturo, relationships |

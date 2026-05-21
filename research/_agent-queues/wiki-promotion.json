@@ -1,0 +1,18 @@
+﻿{
+    "created":  "2026-05-21",
+    "queue":  "wiki-promotion",
+    "task_count":  1,
+    "status_counts":  {
+                          "todo":  1
+                      },
+    "tasks":  [
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/wiki-promotion/wiki-promotion-reviewed-ready.md",
+                      "queue":  "wiki-promotion",
+                      "role":  "wiki_promoter",
+                      "task_id":  "wiki-promotion:reviewed-ready",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  }
+              ]
+}

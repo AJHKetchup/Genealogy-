@@ -8,22 +8,22 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 44 | none | high | pass | none | none |
-| 45 | none | high | pass | none | none |
-| 46 | none | high | pass | none | none |
-| 47 | none | high | pass | none | none |
-| 48 | none | high | pass | none | none |
-| 49 | none | high | pass | none | none |
-| 50 | none | high | pass | none | none |
-| 51 | none | high | pass | none | none |
-| 52 | none | high | pass | none | none |
-| 53 | none | high | pass | none | none |
-| 54 | none | high | pass | none | none |
-| 55 | none | high | pass | none | none |
-| 56 | none | high | pass | none | none |
-| 57 | none | high | pass | none | none |
-| 58 | none | medium | pass | duplicate_conversion_contract_sections | none |
-| 60 | none | high | pass | none | none |
-| 61 | none | high | pass | none | none |
-| 62 | none | high | pass | none | none |
-| 63 | none | high | pass | none | none |
+| 44 | medium | high | pass | none | Arturo, relationships |
+| 45 | medium | high | pass | none | relationships |
+| 46 | medium | high | pass | none | Arturo, relationships |
+| 47 | medium | high | pass | none | relationships |
+| 48 | medium | high | pass | none | relationships |
+| 49 | medium | high | pass | none | relationships |
+| 50 | medium | high | pass | none | Arturo, relationships |
+| 51 | medium | high | pass | none | Arturo, relationships |
+| 52 | medium | high | pass | none | relationships |
+| 53 | medium | high | pass | none | Arturo, relationships |
+| 54 | medium | high | pass | none | relationships |
+| 55 | medium | high | pass | none | relationships |
+| 56 | medium | high | pass | none | relationships |
+| 57 | medium | high | pass | none | relationships |
+| 58 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 60 | medium | high | pass | none | Arturo, relationships |
+| 61 | medium | high | pass | none | relationships |
+| 62 | medium | high | pass | none | relationships |
+| 63 | medium | high | pass | none | relationships |

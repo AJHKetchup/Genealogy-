@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 104 | none | high | pass | none | none |
-| 105 | none | high | pass | none | none |
-| 106 | none | high | pass | none | none |
-| 107 | none | high | pass | none | none |
-| 108 | none | high | pass | none | none |
-| 109 | none | high | pass | none | none |
-| 110 | none | high | pass | none | none |
-| 111 | none | high | pass | none | none |
-| 112 | none | high | pass | none | none |
-| 113 | none | high | pass | none | none |
-| 114 | none | high | pass | none | none |
-| 115 | none | high | pass | none | none |
-| 116 | none | high | pass | none | none |
-| 117 | none | high | pass | none | none |
-| 118 | none | high | pass | none | none |
-| 119 | none | high | pass | none | none |
-| 120 | none | high | pass | none | none |
-| 121 | none | high | pass | none | none |
-| 122 | none | high | pass | none | none |
-| 123 | none | high | pass | none | none |
+| 104 | medium | high | pass | none | relationships |
+| 105 | medium | high | pass | none | Arturo, relationships |
+| 106 | medium | high | pass | none | relationships |
+| 107 | medium | high | pass | none | relationships |
+| 108 | medium | high | pass | none | relationships |
+| 109 | medium | high | pass | none | Arturo, relationships |
+| 110 | medium | high | pass | none | Arturo, relationships |
+| 111 | medium | high | pass | none | Arturo, relationships |
+| 112 | medium | high | pass | none | relationships |
+| 113 | medium | high | pass | none | relationships |
+| 114 | medium | high | pass | none | Arturo, relationships |
+| 115 | medium | high | pass | none | relationships |
+| 116 | medium | high | pass | none | relationships |
+| 117 | medium | high | pass | none | relationships |
+| 118 | medium | high | pass | none | relationships |
+| 119 | medium | high | pass | none | Arturo, relationships |
+| 120 | critical | low | reread-page | none | Arturo, relationships |
+| 121 | medium | high | pass | none | relationships |
+| 122 | medium | high | pass | none | relationships |
+| 123 | medium | high | pass | none | relationships |

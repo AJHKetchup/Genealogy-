@@ -8,21 +8,21 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 24 | none | high | pass | none | none |
-| 25 | none | high | pass | none | none |
-| 26 | none | high | pass | none | none |
-| 27 | none | high | pass | none | none |
-| 28 | none | high | pass | none | none |
-| 29 | none | high | pass | none | none |
-| 30 | none | high | pass | none | none |
-| 31 | none | high | pass | none | none |
-| 32 | none | high | pass | none | none |
-| 33 | none | high | pass | none | none |
-| 34 | none | high | pass | none | none |
-| 35 | none | high | pass | none | none |
-| 36 | none | medium | pass | duplicate_conversion_contract_sections | none |
-| 38 | none | high | pass | none | none |
-| 39 | none | high | pass | none | none |
-| 40 | none | high | pass | none | none |
-| 41 | none | medium | pass | duplicate_conversion_contract_sections | none |
-| 43 | none | high | pass | none | none |
+| 24 | medium | high | pass | none | relationships |
+| 25 | medium | high | pass | none | relationships |
+| 26 | medium | high | pass | none | relationships |
+| 27 | medium | high | pass | none | relationships |
+| 28 | medium | high | pass | none | relationships |
+| 29 | medium | high | pass | none | relationships |
+| 30 | medium | high | pass | none | Arturo, relationships |
+| 31 | medium | high | pass | none | relationships |
+| 32 | medium | high | pass | none | relationships |
+| 33 | medium | high | pass | none | relationships |
+| 34 | medium | high | pass | none | relationships |
+| 35 | medium | high | pass | none | relationships |
+| 36 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 38 | medium | high | pass | none | relationships |
+| 39 | medium | high | pass | none | relationships |
+| 40 | medium | high | pass | none | relationships |
+| 41 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 43 | medium | high | pass | none | relationships |

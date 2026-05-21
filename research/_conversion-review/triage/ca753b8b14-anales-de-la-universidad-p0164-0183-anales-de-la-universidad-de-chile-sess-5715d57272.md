@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 164 | none | high | pass | none | none |
-| 165 | none | high | pass | none | none |
-| 166 | none | high | pass | none | none |
-| 167 | none | high | pass | none | none |
-| 168 | none | high | pass | none | none |
-| 169 | none | high | pass | none | none |
-| 170 | none | high | pass | none | none |
-| 171 | none | high | pass | none | none |
-| 172 | none | high | pass | none | none |
-| 173 | none | high | pass | none | none |
-| 174 | none | high | pass | none | none |
-| 175 | none | high | pass | none | none |
-| 176 | none | high | pass | none | none |
-| 177 | none | high | pass | none | none |
-| 178 | none | high | pass | none | none |
-| 179 | none | high | pass | none | none |
-| 180 | none | high | pass | none | none |
-| 181 | none | high | pass | none | none |
-| 182 | none | high | pass | none | none |
-| 183 | none | high | pass | none | none |
+| 164 | medium | high | pass | none | relationships |
+| 165 | medium | high | pass | none | relationships |
+| 166 | medium | high | pass | none | relationships |
+| 167 | medium | high | pass | none | relationships |
+| 168 | medium | high | pass | none | relationships |
+| 169 | medium | high | pass | none | relationships |
+| 170 | medium | high | pass | none | Arturo, relationships |
+| 171 | medium | high | pass | none | Arturo, relationships |
+| 172 | medium | high | pass | none | Arturo, relationships |
+| 173 | medium | high | pass | none | Arturo, relationships |
+| 174 | medium | high | pass | none | relationships |
+| 175 | medium | high | pass | none | relationships |
+| 176 | medium | high | pass | none | relationships |
+| 177 | medium | high | pass | none | relationships |
+| 178 | medium | high | pass | none | relationships |
+| 179 | medium | high | pass | none | Arturo, relationships |
+| 180 | medium | high | pass | none | relationships |
+| 181 | medium | high | pass | none | relationships |
+| 182 | medium | high | pass | none | relationships |
+| 183 | medium | high | pass | none | relationships |

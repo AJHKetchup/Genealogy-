@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-21T14:04:15Z",
+  "updated": "2026-05-21T14:27:53Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -75792,6 +75792,287 @@
       "agent": "source-prep-docling-discovery",
       "note": "Docling basic conversion accepted; conversion QA still required.",
       "completed_at": "2026-05-21T14:04:14Z"
+    },
+    "conversion-qa:raw-converted-ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:40:28Z",
+      "agent": "postconv-conversion-qa-20260521133722188",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:37:22Z",
+      "started_at": "2026-05-21T13:37:22Z",
+      "completed_at": "2026-05-21T13:40:28Z"
+    },
+    "conversion-qa:raw-converted-ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:39:29Z",
+      "agent": "postconv-conversion-qa-20260521133724488",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:37:24Z",
+      "started_at": "2026-05-21T13:37:26Z",
+      "completed_at": "2026-05-21T13:39:29Z"
+    },
+    "conversion-qa:raw-converted-ca07afd3f6-portrait-victor-manuel-p-portrait-victor-manuel-pulgar-arriagada-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:41:54Z",
+      "agent": "postconv-conversion-qa-20260521134012638",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:40:12Z",
+      "started_at": "2026-05-21T13:40:13Z",
+      "completed_at": "2026-05-21T13:41:54Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:43:45Z",
+      "agent": "postconv-conversion-qa-20260521134013193",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:40:13Z",
+      "started_at": "2026-05-21T13:40:14Z",
+      "completed_at": "2026-05-21T13:43:45Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0026-0050-r3578-50-5569-5569-jacket5-pages-26-50-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:45:53Z",
+      "agent": "postconv-conversion-qa-20260521134131582",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:41:31Z",
+      "started_at": "2026-05-21T13:41:32Z",
+      "completed_at": "2026-05-21T13:45:53Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0051-0075-r3578-50-5569-5569-jacket5-pages-51-75-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:45:58Z",
+      "agent": "postconv-conversion-qa-20260521134247997",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:42:48Z",
+      "started_at": "2026-05-21T13:42:48Z",
+      "completed_at": "2026-05-21T13:45:58Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0076-0100-r3578-50-5569-5569-jacket5-pages-76-100-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:47:57Z",
+      "agent": "postconv-conversion-qa-20260521134451247",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:44:51Z",
+      "started_at": "2026-05-21T13:44:51Z",
+      "completed_at": "2026-05-21T13:47:57Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0101-0125-r3578-50-5569-5569-jacket5-pages-101-125-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:49:20Z",
+      "agent": "postconv-conversion-qa-20260521134652563",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:46:52Z",
+      "started_at": "2026-05-21T13:46:53Z",
+      "completed_at": "2026-05-21T13:49:20Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0126-0150-r3578-50-5569-5569-jacket5-pages-126-150-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:51:09Z",
+      "agent": "postconv-conversion-qa-20260521134653125",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:46:53Z",
+      "started_at": "2026-05-21T13:46:54Z",
+      "completed_at": "2026-05-21T13:51:09Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0176-0200-r3578-50-5569-5569-jacket5-pages-176-200-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:52:46Z",
+      "agent": "postconv-conversion-qa-20260521134855189",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:48:55Z",
+      "started_at": "2026-05-21T13:48:55Z",
+      "completed_at": "2026-05-21T13:52:46Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0201-0225-r3578-50-5569-5569-jacket5-pages-201-225-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:54:46Z",
+      "agent": "postconv-conversion-qa-20260521135013143",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:50:13Z",
+      "started_at": "2026-05-21T13:50:13Z",
+      "completed_at": "2026-05-21T13:54:46Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0226-0250-r3578-50-5569-5569-jacket5-pages-226-250-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:56:59Z",
+      "agent": "postconv-conversion-qa-20260521135215515",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:52:15Z",
+      "started_at": "2026-05-21T13:52:15Z",
+      "completed_at": "2026-05-21T13:56:59Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0251-0275-r3578-50-5569-5569-jacket5-pages-251-275-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:57:19Z",
+      "agent": "postconv-conversion-qa-20260521135331677",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:53:31Z",
+      "started_at": "2026-05-21T13:53:32Z",
+      "completed_at": "2026-05-21T13:57:19Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0301-0325-r3578-50-5569-5569-jacket5-pages-301-325-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T13:59:03Z",
+      "agent": "postconv-conversion-qa-20260521135534172",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:55:34Z",
+      "started_at": "2026-05-21T13:55:34Z",
+      "completed_at": "2026-05-21T13:59:03Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0326-0350-r3578-50-5569-5569-jacket5-pages-326-350-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:01:52Z",
+      "agent": "postconv-conversion-qa-20260521135820236",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:58:20Z",
+      "started_at": "2026-05-21T13:58:20Z",
+      "completed_at": "2026-05-21T14:01:52Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0476-0500-r3578-50-5569-5569-jacket5-pages-476-500-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:01:14Z",
+      "agent": "postconv-conversion-qa-20260521135820791",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T13:58:21Z",
+      "started_at": "2026-05-21T13:58:21Z",
+      "completed_at": "2026-05-21T14:01:14Z"
+    },
+    "conversion-qa:raw-converted-ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:03:55Z",
+      "agent": "postconv-conversion-qa-20260521140024228",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:00:24Z",
+      "started_at": "2026-05-21T14:00:24Z",
+      "completed_at": "2026-05-21T14:03:55Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0001-0003-c-mara-de-senadores-de-la-naci-n-1936-pages-1-3-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:05:41Z",
+      "agent": "postconv-conversion-qa-20260521140224844",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:02:25Z",
+      "started_at": "2026-05-21T14:02:25Z",
+      "completed_at": "2026-05-21T14:05:41Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0004-0023-c-mara-de-senadores-de-la-naci-n-1936-pages-4-23-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:06:54Z",
+      "agent": "postconv-conversion-qa-20260521140342397",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:03:42Z",
+      "started_at": "2026-05-21T14:03:42Z",
+      "completed_at": "2026-05-21T14:06:54Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0024-0043-c-mara-de-senadores-de-la-naci-n-1936-pages-24-43-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:09:28Z",
+      "agent": "postconv-conversion-qa-20260521140459813",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:04:59Z",
+      "started_at": "2026-05-21T14:05:00Z",
+      "completed_at": "2026-05-21T14:09:28Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0044-0063-c-mara-de-senadores-de-la-naci-n-1936-pages-44-63-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:11:36Z",
+      "agent": "postconv-conversion-qa-20260521140702812",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:07:02Z",
+      "started_at": "2026-05-21T14:07:03Z",
+      "completed_at": "2026-05-21T14:11:36Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-pages-64-83-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:13:50Z",
+      "agent": "postconv-conversion-qa-20260521140820594",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:08:20Z",
+      "started_at": "2026-05-21T14:08:21Z",
+      "completed_at": "2026-05-21T14:13:50Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0084-0103-c-mara-de-senadores-de-la-naci-n-1936-pages-84-103-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:16:07Z",
+      "agent": "postconv-conversion-qa-20260521141023244",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:10:23Z",
+      "started_at": "2026-05-21T14:10:23Z",
+      "completed_at": "2026-05-21T14:16:07Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:20:34Z",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:12:28Z",
+      "started_at": "2026-05-21T14:12:29Z",
+      "released_by": "postconv-conversion-qa-20260521141228738",
+      "released_at": "2026-05-21T14:16:00Z",
+      "agent": "postconv-conversion-qa-20260521141719563",
+      "completed_at": "2026-05-21T14:20:34Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0124-0143-c-mara-de-senadores-de-la-naci-n-1936-pages-124-143-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:18:28Z",
+      "agent": "postconv-conversion-qa-20260521141432473",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:14:32Z",
+      "started_at": "2026-05-21T14:14:33Z",
+      "completed_at": "2026-05-21T14:18:28Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0144-0163-c-mara-de-senadores-de-la-naci-n-1936-pages-144-163-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:21:03Z",
+      "agent": "postconv-conversion-qa-20260521141720129",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:17:20Z",
+      "started_at": "2026-05-21T14:17:21Z",
+      "completed_at": "2026-05-21T14:21:03Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0184-0203-c-mara-de-senadores-de-la-naci-n-1936-pages-184-203-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:22:04Z",
+      "agent": "postconv-conversion-qa-20260521141923094",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:19:23Z",
+      "started_at": "2026-05-21T14:19:23Z",
+      "completed_at": "2026-05-21T14:22:04Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0244-0263-c-mara-de-senadores-de-la-naci-n-1936-pages-244-263-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:24:46Z",
+      "agent": "postconv-conversion-qa-20260521142126591",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:21:26Z",
+      "started_at": "2026-05-21T14:21:27Z",
+      "completed_at": "2026-05-21T14:24:46Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-283-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:24:59Z",
+      "agent": "postconv-conversion-qa-20260521142243786",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:22:43Z",
+      "started_at": "2026-05-21T14:22:44Z",
+      "completed_at": "2026-05-21T14:24:59Z"
+    },
+    "conversion-qa:raw-converted-ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293-codex-md": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:25:15Z",
+      "agent": "postconv-conversion-qa-20260521142244352",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:22:44Z",
+      "started_at": "2026-05-21T14:22:45Z",
+      "completed_at": "2026-05-21T14:25:15Z"
+    },
+    "wiki-promotion:reviewed-ready": {
+      "status": "done",
+      "updated_at": "2026-05-21T14:27:35Z",
+      "agent": "postconv-wiki-promotion-20260521142616657",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-21T14:26:16Z",
+      "started_at": "2026-05-21T14:26:17Z",
+      "completed_at": "2026-05-21T14:27:35Z"
     }
   }
 }

@@ -1,0 +1,23 @@
+# Conversion QC Page Queue: ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex
+
+- Converted file: `raw/converted/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-de-concepci-n-carlos-p-rez-arrau-september-2013-pp-45-48-appendix-directors-of-hospital-cl-nico-regional-pages-61-80.codex.md`
+- Chunk manifest: `raw/chunks/ca47b759d1-historia-del-hospital-cl-p0061-0080-historia-del-hospital-cl-nico-regional-71548dcd50/manifest.json`
+- Rule: do not edit converted Markdown here; queue exact pages or regions for reread.
+
+## Queued Pages
+
+### Page 64
+
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `medium`
+- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
+- Matched family context: maternal
+
+### Page 71
+
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
+- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
+- Matched family context: none

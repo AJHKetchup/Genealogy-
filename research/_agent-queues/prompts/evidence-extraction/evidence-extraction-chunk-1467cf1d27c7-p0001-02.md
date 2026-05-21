@@ -12,15 +12,6 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 1
-- Page reread queue: `research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-39f8064037.md`
-- Suspected readings: `research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0064-0083-c-mara-de-senadores-de-la-naci-n-1936-39f8064037.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
-
 
 ## Done When
 
