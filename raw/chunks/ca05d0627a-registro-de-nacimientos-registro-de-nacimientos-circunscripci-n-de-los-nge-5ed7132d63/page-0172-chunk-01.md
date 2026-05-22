@@ -1,3 +1,16 @@
+---
+type: source_prep_chunk
+chunk_id: CHUNK-d6a12b291d94-P0172-01
+source_converted: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md
+converted_sha256: d6a12b291d9443069e247b9f8fec1aac0c3a020cb9baac4dd47b6c42664f5967
+source: raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png
+source_sha256: 05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545
+source_manifest: raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json
+page_start: 172
+page_end: 172
+part: 1
+---
+
 ## Page Metadata
 
 - **Page number**: 172

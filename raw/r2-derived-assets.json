@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T05:37:02.708069+00:00",
+  "created": "2026-05-22T05:46:21.755216+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2756,8 +2756,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-01-captain-gajardo-drinking-after-climb.png",
-      "bytes": 3352631,
-      "sha256": "8c028d954c49cf1666972dc5915d23836e39086710c5904bf31a08709800f294",
+      "bytes": 4389406,
+      "sha256": "d16b7cb209769d90d498e001612ae4f432cf96d6fe46abac280801fcb6563f0b",
       "media_type": "image/png"
     },
     {
@@ -2798,8 +2798,8 @@
     {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0009/page-0009-image-02-fray-camilo-henriquez-portrait.png",
-      "bytes": 1968621,
-      "sha256": "c68ec7f8caa98877f0438de4e63c7aac7987a7ee37abda6b3f84c78771b80f05",
+      "bytes": 4890704,
+      "sha256": "854f9f26180558431a31c29df6090b16054400dee3a425ae2f839c62f219e3c3",
       "media_type": "image/png"
     },
     {
@@ -2873,6 +2873,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-hand-drawn-eagle-figure-with-ad-1956.png",
+      "bytes": 2603405,
+      "sha256": "0f614368fcf3a81f07ae28f62329b943817b5f5e8024bad60a7187104f94e44b",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png",
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0016/page-0016-image-01-illustration-eagle-like-figure-1956.png",
       "bytes": 2603405,
@@ -2905,6 +2912,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-climbers-on-peak.png",
       "bytes": 6823444,
       "sha256": "11326fc627ddd28f8d6ff0bda7f814f27318aa217878e7a31cade2b4b0faa932",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-culminacion-proeza-cumbre-salado.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-01-culminacion-proeza-cumbre-salado.png",
+      "bytes": 7170227,
+      "sha256": "333bcf08685453b4870a6e1fb9d73eee6bab414b4676c3bd27dec8dd7ee6eb59",
       "media_type": "image/png"
     },
     {
@@ -2961,6 +2975,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-el-ojos-del-salado-climbers-camp.png",
       "bytes": 5631828,
       "sha256": "055c272c70b9f9eccf1d489b7db40b1f6edcee88c7c24e19503e00fb2365d878",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-expedition-group-tent-mountain.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0017/page-0017-image-02-expedition-group-tent-mountain.png",
+      "bytes": 5340744,
+      "sha256": "87de52a36d3ec25374ac443978582170c0d551c54066e1689080761d7d605620",
       "media_type": "image/png"
     },
     {
@@ -12130,10 +12151,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
+    "total_files": 7,
+    "total_bytes": 71445075,
     "uploaded": 0,
-    "skipped": 0,
+    "skipped": 7,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,

@@ -26357,3 +26357,5 @@
 ## [2026-05-22] gemini-source-prep | processed 36, completed 27, released 9, held 4, parallelism=8, routes={'pro': 9, 'pro_with_crops': 1, 'lite': 26}, fallback_policy=large_corpus_relevance, dry_run=False
 ## [2026-05-22] source-prep-batches | Wrote 1380 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] source-relevance | Restored proof-review assets and released 21 review task(s)
+## [2026-05-22] gemini-source-prep | processed 38, completed 29, released 9, held 2, parallelism=8, routes={'pro': 10, 'pro_with_crops': 1, 'lite': 27}, fallback_policy=large_corpus_relevance, dry_run=False
+## [2026-05-22] source-prep-batches | Wrote 1378 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)

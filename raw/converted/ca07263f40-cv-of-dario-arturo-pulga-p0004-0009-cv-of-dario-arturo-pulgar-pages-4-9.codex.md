@@ -9,11 +9,23 @@
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
 ## Page Metadata
-- Page number: 4
-- Source file: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
+- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
-This page is a single column of text. The content is a continuation of a curriculum vitae. The reading order is from top to bottom. The page includes bulleted lists and sections organized by date, with bolded headings for job titles, organizations, and locations.
+The page is a single column of text. The reading order is from top to bottom. The content continues a list from the previous page, followed by two bulleted sections, and then two distinct job entries.
 
 ## Literal Transcription
 approaches in four different Indian Sates and, (iv) review the communications strategy for
@@ -69,19 +81,19 @@ of communities during blasts that could affect them for safety reasons. Represen
 in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
-This page is text-only and contains no images, captions, or other visual elements.
+This page contains only text. There are no images, illustrations, or other visual elements.
 
 ## Uncertain Or Illegible
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been transcribed in its entirety.
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page is text-only and contains no meaningful visual regions to crop."
+  "no_visual_regions_reason": "This page contains only text and has no images, illustrations, or other significant visual elements."
 }
 ```
 
@@ -89,13 +101,11 @@ This page has been transcribed in its entirety.
 
 - task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
 - page_num: 5
-- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
-- source_title: `CV of Dario Arturo Pulgar`
-- source_filename: `CV of Dario Arturo Pulgar.pdf`
+- source_id: `CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
 
-The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a date or date range, followed by the organization, location, role, and a descriptive paragraph. The reading order is from top to bottom.
+The page consists of a single column of typed text. The content is organized into sections, each representing a professional engagement. Sections are typically headed by a year or date range. The reading order is from top to bottom.
 
 ## Literal Transcription
 
@@ -152,7 +162,7 @@ Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a
 
 ## Images, Captions, And Visual Notes
 
-There are no images, illustrations, or other visual elements on this page. The content is entirely typed text.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
 
 ## Uncertain Or Illegible
 
@@ -160,18 +170,19 @@ There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-This page has been transcribed in its entirety.
+The page is fully transcribed. The final line of text at the bottom of the page is cut off, ending the sentence abruptly.
 
 ## Visual Region Manifest
 
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "The page contains only typed text and has no meaningful visual regions such as photographs, illustrations, maps, or stamps."
 }
 ```
 
 ## Page Metadata
+
 - Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
 - Model route: `pro`
 - Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
@@ -188,9 +199,11 @@ This page has been transcribed in its entirety.
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry begins with an underlined date range, followed by the organization, location, and job title in bold, and then a descriptive paragraph. The reading order is from top to bottom.
+
+The page contains a single column of text. The content is a continuation of a curriculum vitae, organized chronologically in reverse order. Each entry consists of a date range, an organization name, a location, a job title, and a description of responsibilities. Date ranges are underlined, while organization names, locations, and job titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
+
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
 <u>1996 - 1997</u>
@@ -204,6 +217,7 @@ institutional strengthening. Participate in the Funding, Personnel and Managemen
 Supervise the institutional strengthening of rural financial institutions.
 
 <u>1996</u>
+
 **SNC Lavalin Agriculture
 Maracaibo, Venezuela
 Consultant**
@@ -243,19 +257,23 @@ Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
 
 ## Images, Captions, And Visual Notes
-This page contains only typed text. There are no images, illustrations, or other visual elements.
+
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
+
 There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
-This page has been fully and accurately transcribed.
+
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
 {
   "visual_regions": [],
-  "no_visual_regions_reason": "This page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+  "no_visual_regions_reason": "This page contains only text and has no meaningful visual regions to crop."
 }
 ```
 
@@ -273,12 +291,12 @@ This page has been fully and accurately transcribed.
 - External requested treatment: `reread`
 - External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
 - Recommended action: ``
-- Quality flags: none
+- Quality flags: explicit_reread_needed
 - Technical reread clues: none
 
 ## Layout And Reading Order
 
-The page is a single column of text, continuing a curriculum vitae. The content is organized into sections, each representing a period of employment or consultancy. Each section is headed by a date range, organization, location, and job title in bold text. Following the headings is a paragraph describing the work performed. The reading order is from top to bottom.
+The page consists of a single column of text. The content is a continuation of a curriculum vitae, with distinct entries for different work experiences. Each entry is marked by a date range, followed by the name of the organization, location, job title, and a descriptive paragraph. The reading order is sequential from top to bottom.
 
 ## Literal Transcription
 
@@ -287,7 +305,7 @@ Extension, coordinating the activities of the Government of Egypt (GOE) extensio
 with the project. Ensure liaison with governmental organisations in the agricultural field.
 Organise farmer groups in the area.
 
-**1988-1989**
+<u>1988-1989</u>
 **Food and Agriculture Organisation of the United Nations (FAO)**
 **Ndola, Zambia**
 **Training and Communication Advisor**
@@ -298,7 +316,7 @@ contractors, review communication institutions and prepare proposals for their s
 design village level two-way flow communication programs and prepare monitoring reports of
 projects implementation.
 
-**1988**
+<u>1988</u>
 **Canadian International Development Agency (CIDA)**
 **Ethiopia**
 **Communication Consultant**
@@ -306,7 +324,7 @@ Provide assistance to the Economic Commission for Africa (ECA) in the field of i
 communications. Review ECA information and communication programmes. Prepare a project
 document for strengthening ECA capacity in this field.
 
-**1986 - 1987**
+<u>1986 - 1987</u>
 **Worldview International Foundation (WIF)**
 **Rome, Italy**
 **Rural Communications and Extension Advisor**
@@ -316,10 +334,10 @@ extension communications component with special reference to the concerns of wom
 farmers. In Mali, assist the Village Development Fund Project in the design of methods for
 farmer participation and assist in project implementation start up. In Nicaragua, set up a video
 production and print shop; and in Peru, include in the Alto Mayo Rural Development Project a
-component for bilingual cultural development (Aguaruna - Spanish) and establish a video-print
+component for bilingual cultural development (Aguaruna - Spanish) and establish a video:print
 radio production unit.
 
-**1982-1985**
+<u>1982-1985</u>
 **Independent communications consultant**
 **Canadian International Development Agency**
 As an independent communications consultant: i) head a team of specialists preparing
@@ -335,23 +353,20 @@ communication project with special emphasis on rural areas for CIDA in Islamabad
 
 ## Images, Captions, And Visual Notes
 
-This page contains only text. There are no images, illustrations, or other visual elements.
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
-There are no uncertain or illegible words on this page.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-The transcription of this page is complete and accurate. All text content has been transcribed.
+The transcription of this page is complete and accurate. All text from the source image has been transcribed.
 
 ## Visual Region Manifest
 
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "This page consists entirely of text and has no images, illustrations, or other visual elements suitable for cropping."
-}
+{"visual_regions": [], "no_visual_regions_reason": "This page is composed entirely of text and contains no images, illustrations, or other significant visual elements."}
 ```
 
 # Page 8
