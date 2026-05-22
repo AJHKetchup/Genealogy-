@@ -1,192 +1,155 @@
 {
   "created": "2026-05-22",
   "queue": "source-prep-batches",
-  "task_count": 1442,
+  "task_count": 1441,
   "status_counts": {
-    "needs_reread": 359,
+    "needs_reread": 358,
     "todo": 1083
   },
   "tasks": [
     {
-      "task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0357",
+      "task_id": "source-prep-batch:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001",
       "queue": "source-prep-batches",
       "role": "source_converter",
       "skill": "historical-document-conversion",
       "status": "needs_reread",
-      "source": "raw/sources/R3016-11A-2905-950.pdf",
-      "source_sha256": "3e1a86844425f643ef0495ea8ae45cbe80d2d952e742e9e606fe20f0d3e2c5d1",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json",
-      "job_id": "CA3e1a8684-r3016-11a-2905-950-p0351-0375",
-      "title": "R3016-11A-2905-950 pages 351-375",
-      "first_page": 357,
-      "last_page": 357,
+      "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
+      "source_sha256": "05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545",
+      "media_type": "image",
+      "job_manifest": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json",
+      "job_id": "CA05d0627a-registro-de-nacimientos-",
+      "title": "Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513.",
+      "first_page": 1,
+      "last_page": 1,
       "page_count": 1,
       "task_ids": [
-        "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0357"
+        "source-prep:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001"
       ],
       "pages": [
         {
-          "page": 357,
-          "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0357",
-          "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0357.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/work-orders/page-0357.md",
-          "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-markdown/page-0357.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/extracted-images/page-0357",
-          "media_type": "pdf",
-          "quality_flags": [
-            "possible_ocr_garbage_token"
+          "page": 1,
+          "task_id": "source-prep:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001",
+          "page_image": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png",
+          "work_order": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/work-orders/page-0001.md",
+          "output_path": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/extracted-images/page-0001",
+          "media_type": "image",
+          "research_relevance": "high",
+          "requested_treatment": "pro_with_crops",
+          "research_relevance_reasons": [
+            "Proof review hold in research/_staging/reviews/proof-review-research-staging-identity-chunk-3d3ab761209f-p0001-01-identity-candidates.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
           ],
-          "qc_quality_flags": [
-            "possible_ocr_garbage_token"
+          "relevance_feedback_ids": [
+            "source-relevance:a5962a5022af"
           ],
-          "family_relevance": "medium",
           "matched_terms": [
-            "relationships"
+            "proof-review-hold",
+            "missing-page-image"
           ],
-          "rough_discovery_status": "rough_ok"
+          "rough_discovery_status": "error"
         }
       ],
-      "repair_reason": "post_conversion_qc_hold",
-      "recommended_action": "spot-check",
-      "rough_discovery_status": "rough_ok",
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375-p035-3d5a7312a122.md"
+      "repair_reason": "research_relevance_feedback",
+      "rough_discovery_status": "error",
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-d00420047da3.md"
     },
     {
-      "task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020",
+      "task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004",
       "queue": "source-prep-batches",
       "role": "source_converter",
       "skill": "historical-document-conversion",
       "status": "needs_reread",
-      "source": "raw/sources/R3578-50-7801-5569.pdf",
-      "source_sha256": "6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
       "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "job_id": "CA6e09f1fb-r3578-50-7801-5569-p0001-0025",
-      "title": "R3578-50-7801-5569 pages 1-25",
-      "first_page": 20,
-      "last_page": 20,
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "job_id": "CA07263f40-cv-of-dario-arturo-pulga-p0004-0009",
+      "title": "CV of Dario Arturo Pulgar pages 4-9",
+      "first_page": 4,
+      "last_page": 4,
       "page_count": 1,
       "task_ids": [
-        "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020"
+        "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004"
       ],
       "pages": [
         {
-          "page": 20,
-          "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020",
-          "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0020.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/work-orders/page-0020.md",
-          "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0020.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/extracted-images/page-0020",
+          "page": 4,
+          "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004",
+          "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0004.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md",
+          "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0004",
           "media_type": "pdf",
-          "quality_flags": [
-            "possible_ocr_garbage_token"
+          "research_relevance": "high",
+          "requested_treatment": "reread",
+          "research_relevance_reasons": [
+            "Proof review hold in research/_staging/reviews/SP-STAGE-CHUNK-37cac508f847-P0004-01-cv-dario-pulgar-page-4-proof-review.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
           ],
-          "qc_quality_flags": [
-            "possible_ocr_garbage_token"
+          "research_entities": [
+            "Dario Arturo Pulgar"
           ],
-          "family_relevance": "medium",
+          "relevance_feedback_ids": [
+            "source-relevance:969c44d6693e"
+          ],
           "matched_terms": [
-            "relationships"
+            "proof-review-hold",
+            "missing-page-image"
           ],
           "rough_discovery_status": "rough_ok"
         }
       ],
-      "repair_reason": "post_conversion_qc_hold",
-      "recommended_action": "spot-check",
+      "repair_reason": "research_relevance_feedback",
       "rough_discovery_status": "rough_ok",
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-p0020.md"
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-d2e9465744af.md"
     },
     {
-      "task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021",
+      "task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005",
       "queue": "source-prep-batches",
       "role": "source_converter",
       "skill": "historical-document-conversion",
       "status": "needs_reread",
-      "source": "raw/sources/R3578-50-7801-5569.pdf",
-      "source_sha256": "6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75",
+      "source": "raw/sources/CV of Dario Arturo Pulgar.pdf",
+      "source_sha256": "07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424",
       "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "job_id": "CA6e09f1fb-r3578-50-7801-5569-p0001-0025",
-      "title": "R3578-50-7801-5569 pages 1-25",
-      "first_page": 21,
-      "last_page": 21,
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "job_id": "CA07263f40-cv-of-dario-arturo-pulga-p0004-0009",
+      "title": "CV of Dario Arturo Pulgar pages 4-9",
+      "first_page": 5,
+      "last_page": 5,
       "page_count": 1,
       "task_ids": [
-        "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021"
+        "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005"
       ],
       "pages": [
         {
-          "page": 21,
-          "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021",
-          "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0021.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/work-orders/page-0021.md",
-          "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0021.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/extracted-images/page-0021",
+          "page": 5,
+          "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005",
+          "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0005.jpg",
+          "work_order": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0005.md",
+          "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md",
+          "image_output_dir": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images/page-0005",
           "media_type": "pdf",
-          "quality_flags": [
-            "possible_ocr_garbage_token"
+          "research_relevance": "high",
+          "requested_treatment": "reread",
+          "research_relevance_reasons": [
+            "Proof review hold in research/_staging/reviews/proof-review-research-staging-relationships-chunk-37cac508f847-p0005-01-relationship-candidates.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion."
           ],
-          "qc_quality_flags": [
-            "possible_ocr_garbage_token"
+          "research_entities": [
+            "Dario Arturo Pulgar"
           ],
-          "family_relevance": "medium",
+          "relevance_feedback_ids": [
+            "source-relevance:6d6cd342f3ce"
+          ],
           "matched_terms": [
-            "relationships"
+            "proof-review-hold",
+            "missing-page-image"
           ],
-          "rough_discovery_status": "rough_ok"
+          "rough_discovery_status": "error"
         }
       ],
-      "repair_reason": "post_conversion_qc_hold",
-      "recommended_action": "spot-check",
-      "rough_discovery_status": "rough_ok",
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-p0021.md"
-    },
-    {
-      "task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0026",
-      "queue": "source-prep-batches",
-      "role": "source_converter",
-      "skill": "historical-document-conversion",
-      "status": "needs_reread",
-      "source": "raw/sources/R3578-50-7801-5569.pdf",
-      "source_sha256": "6e09f1fb50a1c564bf4dd51406b9706274a189f3c45ba312a01d5ed069a77b75",
-      "media_type": "pdf",
-      "job_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/manifest.json",
-      "job_id": "CA6e09f1fb-r3578-50-7801-5569-p0026-0033",
-      "title": "R3578-50-7801-5569 pages 26-33",
-      "first_page": 26,
-      "last_page": 26,
-      "page_count": 1,
-      "task_ids": [
-        "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0026"
-      ],
-      "pages": [
-        {
-          "page": 26,
-          "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0026",
-          "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/page-images/page-0026.jpg",
-          "work_order": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/work-orders/page-0026.md",
-          "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/page-markdown/page-0026.md",
-          "image_output_dir": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/extracted-images/page-0026",
-          "media_type": "pdf",
-          "quality_flags": [
-            "possible_ocr_garbage_token"
-          ],
-          "qc_quality_flags": [
-            "duplicate_conversion_contract_sections",
-            "possible_ocr_garbage_token"
-          ],
-          "family_relevance": "medium",
-          "matched_terms": [
-            "relationships"
-          ],
-          "rough_discovery_status": "rough_ok"
-        }
-      ],
-      "repair_reason": "post_conversion_qc_hold",
-      "recommended_action": "spot-check",
-      "rough_discovery_status": "rough_ok",
-      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33-p0026.md"
+      "repair_reason": "research_relevance_feedback",
+      "rough_discovery_status": "error",
+      "prompt_path": "research/_agent-queues/prompts/source-prep-batches/source-prep-batch-ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-b828594106c1.md"
     },
     {
       "task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400:p0376",
