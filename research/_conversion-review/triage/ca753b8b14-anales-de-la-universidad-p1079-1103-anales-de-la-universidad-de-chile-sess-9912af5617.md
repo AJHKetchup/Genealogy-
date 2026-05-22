@@ -8,16 +8,16 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1079 | none | high | pass | none | none |
+| 1079 | medium | high | pass | none | Resolucion |
 | 1080 | none | high | pass | none | none |
 | 1081 | none | high | pass | none | none |
 | 1082 | none | high | pass | none | none |
 | 1083 | none | high | pass | none | none |
 | 1084 | none | high | pass | none | none |
 | 1085 | none | high | pass | none | none |
-| 1086 | medium | high | pass | none | Segundo |
+| 1086 | medium | high | pass | none | Resolucion, Segundo |
 | 1087 | medium | high | pass | none | Segundo |
-| 1088 | none | high | pass | none | none |
+| 1088 | medium | high | pass | none | Resolucion |
 | 1089 | medium | high | pass | none | García |
 | 1090 | none | high | pass | none | none |
 | 1091 | none | high | pass | none | none |

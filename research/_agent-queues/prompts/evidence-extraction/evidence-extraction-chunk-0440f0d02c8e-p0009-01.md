@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 9-9
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Andes, Segundo
+- Matched family terms: Andes, Segundo, concepcion
 - Evidence priority: `1009` (family_relevance:high, qc:reread-page, matched_terms)
 
 

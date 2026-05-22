@@ -30,6 +30,14 @@
 - Quality flags: none
 - Matched family context: Arturo, Gallegos, García, Larraín, Lavín
 
+### Page 54
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Darío
+
 ### Page 55
 
 - Recommended action: `reread-page`
@@ -37,3 +45,19 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: Arturo, Carmen
+
+### Page 58
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Darío
+
+### Page 60
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Darío

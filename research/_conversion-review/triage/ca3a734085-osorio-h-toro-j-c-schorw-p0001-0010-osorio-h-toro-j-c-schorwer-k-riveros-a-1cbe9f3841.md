@@ -8,13 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
-| 2 | critical | low | reread-page | none | Medical |
-| 3 | none | high | pass | none | none |
-| 4 | critical | low | reread-page | none | García, Medical, Pulgar |
-| 5 | medium | high | pass | none | Medical |
-| 6 | medium | high | pass | none | Medical |
-| 7 | critical | low | reread-page | none | García |
-| 8 | medium | high | pass | none | Arturo, Medical |
-| 9 | medium | high | pass | none | Medical, england |
-| 10 | medium | high | pass | none | García, Medical |
+| 1 | medium | high | pass | none | Teaching |
+| 2 | critical | low | reread-page | none | Anatomy, Medical, Osorio, Teaching, Virginio |
+| 3 | critical | low | reread-page | none | Anatomy, Article, Gomez, Osorio, Teaching, Virginio |
+| 4 | critical | low | reread-page | none | Anatomy, Darío, García, Medical, Osorio, Pulgar, Teaching, Virginio |
+| 5 | critical | low | reread-page | none | Anatomy, Article, Darío, Gomez, Medical, Osorio, Teaching |
+| 6 | high | high | pass | none | Anatomy, Medical, Notice, Osorio, Teaching |
+| 7 | critical | low | reread-page | none | Anatomy, García, Osorio, Teaching |
+| 8 | critical | low | reread-page | none | Anatomy, Arturo, Medical, Osorio, Teaching |
+| 9 | critical | low | reread-page | none | Anatomy, Medical, Osorio, Teaching, england |
+| 10 | critical | low | reread-page | none | Anatomy, García, Medical, Osorio, Teaching, Virginio, concepcion |

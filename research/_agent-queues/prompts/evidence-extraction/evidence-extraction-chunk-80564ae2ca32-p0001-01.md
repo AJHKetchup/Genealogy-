@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `none`
-- Matched family terms: none
-- Evidence priority: `4001` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Family relevance: `medium`
+- Matched family terms: Virginio
+- Evidence priority: `2001` (family_relevance:medium, qc:pass, matched_terms)
 
 
 

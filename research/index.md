@@ -67,6 +67,8 @@
 
 - [[claims/cl-chunk-a2273412e7b1-p0001-01-dario-pulgar-expropriation-event]]
 
+- [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes]]
+
 ## Relationships
 
 - [[relationships/rel-stage-chunk-d6a12b291d94-p0172-01-513-child-parents-jose-del-carmen-pulgar-parent]]

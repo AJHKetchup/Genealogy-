@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 40-40
 - Staging area: `research/_staging`
-- Family relevance: `none`
-- Matched family terms: none
-- Evidence priority: `4040` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Family relevance: `critical`
+- Matched family terms: Darío
+- Evidence priority: `40` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

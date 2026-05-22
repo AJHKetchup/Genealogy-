@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 484-484
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: residence
+- Matched family terms: Article, residence
 - Evidence priority: `2484` (family_relevance:medium, qc:pass, matched_terms)
 
 

@@ -6,6 +6,14 @@
 
 ## Queued Pages
 
+### Page 3
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
+
 ### Page 4
 
 - Recommended action: `reread-page`

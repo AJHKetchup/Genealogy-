@@ -25,6 +25,6 @@
 | 158 | medium | high | pass | none | García |
 | 159 | none | high | pass | none | none |
 | 160 | none | high | pass | none | none |
-| 161 | none | high | pass | none | none |
-| 162 | none | high | pass | none | none |
-| 163 | none | high | pass | none | none |
+| 161 | critical | low | reread-page | none | Darío |
+| 162 | critical | low | reread-page | none | Darío |
+| 163 | critical | low | reread-page | none | Darío |

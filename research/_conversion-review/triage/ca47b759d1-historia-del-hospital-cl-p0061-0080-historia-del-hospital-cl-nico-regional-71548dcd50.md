@@ -20,7 +20,7 @@
 | 10 | critical | low | reread-page | none | Segundo |
 | 71 | none | medium | spot-check | explicit_reread_needed | none |
 | 12 | high | low | reread-page | none | none |
-| 13 | high | low | reread-page | none | none |
+| 13 | critical | low | reread-page | none | concepcion |
 | 14 | none | high | pass | none | none |
 | 15 | high | low | reread-page | none | none |
 | 76 | none | high | pass | none | none |

@@ -11,9 +11,18 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
 - Page range: 13-13
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Dario, Pulgar
-- Evidence priority: `2013` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Dario, Pulgar, concepcion
+- Evidence priority: `100013` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 13
+- Page reread queue: `research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md`
+- Suspected readings: `research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 

@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 704 | high | low | reread-page | none | none |
+| 704 | critical | low | reread-page | none | Resolucion |
 | 705 | none | high | pass | none | none |
 | 706 | none | high | pass | none | none |
 | 707 | none | high | pass | none | none |

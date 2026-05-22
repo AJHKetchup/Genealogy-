@@ -11,9 +11,18 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R4946-12-33387-8070.pdf`
 - Page range: 4-4
 - Staging area: `research/_staging`
-- Family relevance: `none`
-- Matched family terms: none
-- Evidence priority: `4004` (family_relevance:none, qc:pass, deferred_until_family_relevant)
+- Family relevance: `critical`
+- Matched family terms: Article
+- Evidence priority: `100004` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 4
+- Page reread queue: `research/_conversion-review/page-queues/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100-codex.md`
+- Suspected readings: `research/_conversion-review/corrections/cad4c3ff34-r4946-12-33387-8070-p0076-0100-r4946-12-33387-8070-pages-76-100-codex.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 

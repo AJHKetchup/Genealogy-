@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Director`
   Suspected reading: `Directory`
   Reason: near match to known family context term `Directory`
@@ -16,12 +21,72 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Darío`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Darío`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Juan`
+  Suspected reading: `Juana`
+  Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Director`
   Suspected reading: `Directory`
   Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Directors`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Director`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Directors`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Virgínio`
+  Suspected reading: `Virginio`
+  Reason: near match to known family context term `Virginio`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Director`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Director`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
   Verification target: reread the page image or exact region before using this in a claim.

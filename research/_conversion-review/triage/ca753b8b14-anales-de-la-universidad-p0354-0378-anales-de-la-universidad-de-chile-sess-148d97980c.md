@@ -16,7 +16,7 @@
 | 6 | none | high | pass | none | none |
 | 7 | medium | high | pass | none | Larraín |
 | 8 | none | high | pass | none | none |
-| 9 | none | high | pass | none | none |
+| 9 | medium | high | pass | none | concepcion |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 365 | none | high | pass | none | none |

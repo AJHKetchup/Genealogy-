@@ -13,7 +13,7 @@
 | 1031 | medium | high | pass | none | Segundo |
 | 1032 | none | high | pass | none | none |
 | 1033 | none | high | pass | none | none |
-| 1034 | none | high | pass | none | none |
+| 1034 | medium | high | pass | none | Resolucion |
 | 1035 | critical | low | reread-page | none | Segundo |
 | 1036 | medium | high | pass | none | Cesar |
 | 1037 | none | high | pass | none | none |

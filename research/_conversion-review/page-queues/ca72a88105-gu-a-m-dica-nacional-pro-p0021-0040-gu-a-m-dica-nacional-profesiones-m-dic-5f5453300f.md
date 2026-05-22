@@ -12,7 +12,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: García
+- Matched family context: Darío, García
+
+### Page 24
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Andes, Carmen, Darío
 
 ### Page 28
 
@@ -20,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juana
+- Matched family context: Darío, Juana
 
 ### Page 31
 
@@ -28,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, García
+- Matched family context: Arturo, Darío, García
 
 ### Page 38
 
@@ -45,3 +53,11 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: Andes, Arturo, Carmen, García, Riquelme
+
+### Page 40
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Darío

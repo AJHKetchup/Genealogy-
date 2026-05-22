@@ -14,13 +14,37 @@
 - Quality flags: none
 - Matched family context: Arturo, García, Riquelme
 
+### Page 2
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Darío, Tulio
+
 ### Page 88
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo
+- Matched family context: Arturo, Darío
+
+### Page 90
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Darío, García
+
+### Page 91
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Soler
 
 ### Page 94
 
@@ -29,6 +53,14 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: Arturo, Carmen
+
+### Page 97
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Darío
 
 ### Page 100
 

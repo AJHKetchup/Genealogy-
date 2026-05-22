@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
 - Page range: 5-5
 - Staging area: `research/_staging`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Matched family terms: Arturo, Dario, Pulgar, england, listing
-- Evidence priority: `1005` (family_relevance:high, qc:pass, matched_terms)
+- Evidence priority: `5` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

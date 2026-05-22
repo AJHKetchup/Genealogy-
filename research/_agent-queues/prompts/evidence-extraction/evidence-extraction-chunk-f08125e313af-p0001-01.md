@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Portrait Dario Jose Pulgar-Arriagada.jpeg`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Arriagada, Dario, Pulgar
-- Evidence priority: `1001` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Arriagada, Dario, Pulgar, pulgar arriagada
+- Evidence priority: `1` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

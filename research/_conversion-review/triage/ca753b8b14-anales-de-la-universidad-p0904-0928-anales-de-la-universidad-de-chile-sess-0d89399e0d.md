@@ -14,7 +14,7 @@
 | 907 | critical | low | reread-page | none | Arturo |
 | 908 | none | high | pass | none | none |
 | 909 | medium | high | pass | none | García |
-| 910 | none | high | pass | none | none |
+| 910 | medium | high | pass | none | concepcion |
 | 911 | critical | low | reread-page | none | Segundo |
 | 9 | none | high | pass | none | none |
 | 913 | none | high | pass | none | none |
@@ -24,11 +24,11 @@
 | 917 | none | high | pass | none | none |
 | 918 | none | high | pass | none | none |
 | 919 | none | high | pass | none | none |
-| 920 | none | high | pass | none | none |
-| 921 | none | high | pass | none | none |
-| 922 | none | high | pass | none | none |
+| 920 | high | low | reread-page | none | none |
+| 921 | medium | high | pass | none | Resolucion, concepcion |
+| 922 | medium | high | pass | none | concepcion |
 | 923 | none | high | pass | none | none |
-| 924 | none | high | pass | none | none |
+| 924 | medium | high | pass | none | concepcion |
 | 925 | none | high | pass | none | none |
 | 926 | none | high | pass | none | none |
 | 927 | high | low | reread-page | none | none |

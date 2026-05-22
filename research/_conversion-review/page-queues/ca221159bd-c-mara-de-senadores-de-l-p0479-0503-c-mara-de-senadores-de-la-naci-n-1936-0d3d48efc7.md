@@ -10,9 +10,9 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `none`
+- Family relevance: `medium`
 - Quality flags: possible_table_layout_loss
-- Matched family context: none
+- Matched family context: Article
 
 ### Page 22
 

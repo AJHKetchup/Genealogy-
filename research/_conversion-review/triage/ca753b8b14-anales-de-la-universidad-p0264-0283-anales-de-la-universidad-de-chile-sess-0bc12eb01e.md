@@ -22,7 +22,7 @@
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | critical | low | reread-page | none | Segundo |
+| 15 | critical | low | reread-page | none | Darío, Segundo |
 | 16 | medium | high | pass | none | Segundo |
 | 17 | medium | high | pass | none | Segundo |
 | 18 | critical | low | reread-page | none | Segundo |

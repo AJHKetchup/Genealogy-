@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 99-99
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: Andes
+- Matched family terms: Andes, Osorio
 - Evidence priority: `2099` (family_relevance:medium, qc:pass, matched_terms)
 
 

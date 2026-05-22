@@ -16,8 +16,8 @@
 | 734 | medium | high | pass | none | Segundo |
 | 735 | none | high | pass | none | none |
 | 736 | none | high | pass | none | none |
-| 737 | none | high | pass | none | none |
-| 738 | none | high | pass | none | none |
+| 737 | medium | high | pass | none | Resolucion |
+| 738 | medium | high | pass | none | Resolucion |
 | 739 | none | high | pass | none | none |
 | 740 | none | high | pass | none | none |
 | 741 | none | high | pass | none | none |

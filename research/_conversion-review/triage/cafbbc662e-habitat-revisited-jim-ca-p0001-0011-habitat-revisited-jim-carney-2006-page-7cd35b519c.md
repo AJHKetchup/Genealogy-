@@ -14,8 +14,8 @@
 | 4 | critical | low | reread-page | none | Dario |
 | 5 | critical | low | reread-page | none | Pulgar |
 | 6 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | Dario, Pulgar |
-| 8 | medium | high | pass | none | Dario |
+| 7 | critical | low | reread-page | none | Dario, Pulgar |
+| 8 | critical | low | reread-page | none | Dario |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |

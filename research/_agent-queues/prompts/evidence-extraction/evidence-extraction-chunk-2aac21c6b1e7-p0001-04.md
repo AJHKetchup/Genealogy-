@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Historia del Hospital Clínico Regional de Concepción, Carlos Pérez Arrau, September 2013, pp. 45–48, Appendix Directors of Hospital Clínico Regional.pdf`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `101001` (family_relevance:high, qc:reread-page, blocked_by_conversion_qc)
+- Family relevance: `critical`
+- Matched family terms: Article, Virginio, concepcion
+- Evidence priority: `100001` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
 
 ## QC Hold
 

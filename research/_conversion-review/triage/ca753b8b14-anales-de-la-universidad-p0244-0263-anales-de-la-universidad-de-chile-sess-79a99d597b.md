@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | high | low | reread-page | none | none |
 | 245 | none | high | pass | none | none |
-| 246 | none | high | pass | none | none |
+| 246 | medium | high | pass | none | Resolucion |
 | 247 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
@@ -19,7 +19,7 @@
 | 9 | none | high | pass | none | none |
 | 253 | none | high | pass | none | none |
 | 254 | none | high | pass | none | none |
-| 255 | high | low | reread-page | none | none |
+| 255 | critical | low | reread-page | none | concepcion |
 | 13 | none | high | pass | none | none |
 | 14 | critical | low | reread-page | none | Entries |
 | 258 | high | low | reread-page | none | none |

@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 33-33
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: larrain
+- Matched family terms: concepcion, larrain
 - Evidence priority: `33` (family_relevance:critical, qc:reread-page, matched_terms)
 
 

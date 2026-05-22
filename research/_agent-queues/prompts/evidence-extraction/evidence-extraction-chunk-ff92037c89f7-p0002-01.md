@@ -11,9 +11,18 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Guía Médica Nacional Profesiones Médicas y Paramedicas, Servicio Nacional de Salud, Santiago, Chile, July 1959, First Edition.pdf`
 - Page range: 2-2
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: Arturo, Tulio
-- Evidence priority: `2002` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Arturo, Darío, Tulio
+- Evidence priority: `100002` (family_relevance:critical, qc:reread-page, matched_terms, blocked_by_conversion_qc)
+
+## QC Hold
+
+- Status: `blocked_needs_reread`
+- Blocked pages: 2
+- Page reread queue: `research/_conversion-review/page-queues/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc.md`
+- Suspected readings: `research/_conversion-review/corrections/ca72a88105-gu-a-m-dica-nacional-pro-p0081-0100-gu-a-m-dica-nacional-profesiones-m-dic-5f809361cc.md`
+
+Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
 
 
 

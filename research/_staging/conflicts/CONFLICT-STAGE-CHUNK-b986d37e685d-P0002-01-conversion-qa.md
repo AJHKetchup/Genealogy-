@@ -11,8 +11,8 @@ chunk_id: CHUNK-b986d37e685d-P0002-01
 page_reference: "page 2"
 confidence: medium
 conversion_confidence: medium_high_for_source_scope_medium_for_handwritten_names
-qa_concern: "Controller requested reread-page; converted chunk flags uncertain handwritten entries `M. Schurnik[?]` and `I.C.V`."
-promotion_recommendation: do_not_promote
+qa_concern: "Controller requested reread-page; converted chunk flags uncertain handwritten entries `M. Schurnik[?]` and `I.C.V`; current converted-file and chunk-file hashes differ from manifest/front-matter values."
+promotion_recommendation: hold_for_conversion_qa
 tags: [conflict-candidate, conversion-qa, staging]
 ---
 
@@ -20,7 +20,7 @@ tags: [conflict-candidate, conversion-qa, staging]
 
 ## Candidate Result
 
-No genealogical conflict is stated in this chunk. The only issue identified for staging is conversion QA around handwritten administrative routing names, initials, and dates.
+No genealogical conflict is stated in this chunk. The staging issues are conversion QA around handwritten administrative routing names, initials, and dates, plus provenance metadata reconciliation for current file hashes.
 
 ## Literal Support
 
@@ -42,10 +42,12 @@ No genealogical conflict is stated in this chunk. The only issue identified for 
 
 Conversion confidence is adequate for source scope but not for promoting detailed routing chronology or individual identity assertions. A page-image reread should verify the uncertain handwritten entries.
 
+The current converted-file SHA-256 is `88e402458471c1e4f84a77cd3c8143e25bc52f7b7a5ea897a1c02fef66089a78`, which differs from the chunk/front-matter converted SHA-256 `b986d37e685d7788568baf82b8d1c6d9c92b30eda4a02450e64a28471dc92196`. The current chunk-file SHA-256 is `3c0874f5be388c569246e2582a5919a5fd7dc975dafaeb86d5119c7f28fe132c`, which differs from the manifest chunk SHA-256 `bb0d4e7230c65a332f676aec0dd2294c5e8fa6d977c8633abdefe0e3b16f0530`.
+
 ## Uncertainty
 
 The uncertainty affects administrative source metadata only. It does not create a family identity or relationship conflict.
 
 ## Promotion Recommendation
 
-Do not promote to canonical person, relationship, or conflict pages.
+Hold for conversion/provenance QA. Do not promote to canonical person, relationship, or genealogical conflict pages.

@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 2-2
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Medical
+- Matched family terms: Anatomy, Medical, Osorio, Teaching, Virginio
 - Evidence priority: `-698` (family_relevance:critical, qc:reread-page, matched_terms, proof_review_revision)
 
 

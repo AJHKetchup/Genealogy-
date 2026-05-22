@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Osorio, H., Toro, J.C., Schorwer, K., Riveros, A., & Cardenas, J. Pioneers of a Century of Anatomical Teaching in the City of Concepción, Chile, International Journal of Morpholog.pdf`
 - Page range: 10-10
 - Staging area: `research/_staging`
-- Family relevance: `medium`
-- Matched family terms: García, Medical
-- Evidence priority: `2010` (family_relevance:medium, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Anatomy, García, Medical, Osorio, Teaching, Virginio, concepcion
+- Evidence priority: `10` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

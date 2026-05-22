@@ -10,9 +10,9 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: Virginio
 
 ### Page 42
 
@@ -30,13 +30,45 @@
 - Quality flags: none
 - Matched family context: none
 
+### Page 11
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Virginio
+
+### Page 12
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Article, Virginio, concepcion
+
+### Page 13
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Article, Virginio
+
+### Page 14
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Virginio
+
 ### Page 15
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Segundo
+- Matched family context: Segundo, Virginio
 
 ### Page 18
 

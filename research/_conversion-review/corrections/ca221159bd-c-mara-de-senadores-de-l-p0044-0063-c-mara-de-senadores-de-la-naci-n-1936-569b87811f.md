@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `resolución`
+  Suspected reading: `Resolucion`
+  Reason: near match to known family context term `Resolucion`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Junta`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`

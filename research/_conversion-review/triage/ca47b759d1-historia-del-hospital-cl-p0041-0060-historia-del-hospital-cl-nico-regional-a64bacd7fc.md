@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | low | reread-page | none | none |
+| 1 | critical | low | reread-page | none | Virginio |
 | 42 | high | low | reread-page | none | none |
 | 43 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
@@ -18,12 +18,12 @@
 | 8 | none | high | pass | none | none |
 | 9 | medium | high | pass | none | Segundo |
 | 10 | none | high | pass | none | none |
-| 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
-| 13 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
-| 15 | critical | low | reread-page | none | Segundo |
-| 16 | none | high | pass | none | none |
+| 11 | critical | low | reread-page | none | Virginio |
+| 12 | critical | low | reread-page | none | Article, Virginio, concepcion |
+| 13 | critical | low | reread-page | none | Article, Virginio |
+| 14 | critical | low | reread-page | none | Virginio |
+| 15 | critical | low | reread-page | none | Segundo, Virginio |
+| 16 | medium | high | pass | none | Article, concepcion |
 | 17 | medium | high | pass | none | Segundo |
 | 18 | high | low | reread-page | none | none |
 | 19 | medium | high | pass | none | grandfather |

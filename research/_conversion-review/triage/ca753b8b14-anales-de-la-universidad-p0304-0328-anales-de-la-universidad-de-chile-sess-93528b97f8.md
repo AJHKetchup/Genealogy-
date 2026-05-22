@@ -8,14 +8,14 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | Article |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 310 | none | high | pass | none | none |
-| 8 | none | high | pass | none | none |
+| 8 | medium | high | pass | none | Article |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 314 | none | high | pass | none | none |

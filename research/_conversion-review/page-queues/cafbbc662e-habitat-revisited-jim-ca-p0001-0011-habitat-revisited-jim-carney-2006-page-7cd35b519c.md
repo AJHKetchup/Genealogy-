@@ -37,3 +37,19 @@
 - Family relevance: `critical`
 - Quality flags: none
 - Matched family context: Pulgar
+
+### Page 7
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario, Pulgar
+
+### Page 8
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario

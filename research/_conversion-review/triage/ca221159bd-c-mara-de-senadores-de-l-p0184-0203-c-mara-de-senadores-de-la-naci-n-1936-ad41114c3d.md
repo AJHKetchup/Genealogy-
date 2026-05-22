@@ -8,10 +8,10 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | Article |
 | 185 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
-| 4 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Article |
+| 4 | medium | high | pass | none | Article |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |

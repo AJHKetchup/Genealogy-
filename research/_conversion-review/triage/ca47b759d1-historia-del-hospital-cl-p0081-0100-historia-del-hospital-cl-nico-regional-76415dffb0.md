@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | critical | low | reread-page | none | Arturo |
-| 3 | critical | low | reread-page | none | Arturo, Pulgar |
+| 3 | critical | low | reread-page | none | Arturo, Darío, Pulgar |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 86 | none | medium | spot-check | explicit_reread_needed | none |
@@ -19,7 +19,7 @@
 | 9 | none | high | pass | none | none |
 | 90 | critical | low | reread-page | explicit_reread_needed | Juana, Segundo |
 | 11 | none | high | pass | none | none |
-| 12 | medium | high | pass | none | Arturo, Segundo |
+| 12 | critical | low | reread-page | none | Arturo, Darío, Segundo |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |

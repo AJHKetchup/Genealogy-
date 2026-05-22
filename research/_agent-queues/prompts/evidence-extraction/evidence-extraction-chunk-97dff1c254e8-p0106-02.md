@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 106-106
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Arriagada, Arturo, Directory, Medical, Riquelme, garcia, listing
+- Matched family terms: Arriagada, Arturo, Darío, Directory, Gomez, Medical, Riquelme, concepcion, garcia, listing
 - Evidence priority: `1106` (family_relevance:high, qc:spot-check, matched_terms)
 
 

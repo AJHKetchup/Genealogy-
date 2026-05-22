@@ -32,4 +32,4 @@
 | 525 | high | low | reread-page | none | none |
 | 526 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
-| 528 | none | high | pass | none | none |
+| 528 | medium | high | pass | none | Resolucion |

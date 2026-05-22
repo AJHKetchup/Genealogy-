@@ -1,9 +1,9 @@
 ﻿{
     "created":  "2026-05-22",
     "queue":  "identity-analysis",
-    "task_count":  122,
+    "task_count":  123,
     "status_counts":  {
-                          "todo":  119,
+                          "todo":  120,
                           "done":  3
                       },
     "tasks":  [
@@ -612,6 +612,16 @@
                       "staged_draft":  "research/_staging/conflicts/CF-STAGE-CHUNK-4127185dc97c-P0172-01-conversion-conflicts.md",
                       "role":  "identity_researcher",
                       "task_id":  "identity-analysis:research/_staging/conflicts/CF-STAGE-CHUNK-4127185dc97c-P0172-01-conversion-conflicts.md",
+                      "status":  "todo",
+                      "skill":  "genealogy-proof-review"
+                  },
+                  {
+                      "prompt_path":  "research/_agent-queues/prompts/identity-analysis/identity-analysis-research-staging-conflicts-cf-stage-chunk-cda8daf3a341-p0001-01-image-identity-and-source-availability-qa-md.md",
+                      "output_dir":  "research/_staging/identity-analysis",
+                      "queue":  "identity-analysis",
+                      "staged_draft":  "research/_staging/conflicts/CF-STAGE-CHUNK-cda8daf3a341-P0001-01-image-identity-and-source-availability-qa.md",
+                      "role":  "identity_researcher",
+                      "task_id":  "identity-analysis:research/_staging/conflicts/CF-STAGE-CHUNK-cda8daf3a341-P0001-01-image-identity-and-source-availability-qa.md",
                       "status":  "todo",
                       "skill":  "genealogy-proof-review"
                   },

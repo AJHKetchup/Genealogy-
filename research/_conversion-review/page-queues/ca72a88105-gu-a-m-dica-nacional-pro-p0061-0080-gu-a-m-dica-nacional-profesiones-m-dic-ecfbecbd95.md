@@ -36,7 +36,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Gallegos, Juana
+- Matched family context: Arturo, Gallegos, Juana, Osorio
+
+### Page 73
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Darío, Directory
 
 ### Page 17
 
@@ -44,7 +52,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arriagada, Arturo, Directory, Entries, Pulgar
+- Matched family context: Arriagada, Arturo, Darío, Directory, Entries, Pulgar, pulgar arriagada
 
 ### Page 19
 

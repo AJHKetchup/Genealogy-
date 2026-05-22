@@ -16,6 +16,11 @@
   Reason: near match to known family context term `Soler`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Virjinio`
+  Suspected reading: `Virginio`
+  Reason: near match to known family context term `Virginio`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`

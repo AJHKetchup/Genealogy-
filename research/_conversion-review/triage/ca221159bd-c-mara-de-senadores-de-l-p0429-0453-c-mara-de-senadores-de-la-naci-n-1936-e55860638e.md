@@ -26,10 +26,10 @@
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 19 | none | high | pass | none | none |
+| 19 | medium | high | pass | none | Article |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
-| 24 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | Article |
+| 24 | medium | high | pass | none | Article |
 | 25 | none | high | pass | none | none |

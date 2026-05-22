@@ -9,18 +9,18 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 101 | none | medium | spot-check | explicit_reread_needed | none |
-| 2 | medium | high | pass | none | Entries |
-| 3 | medium | high | pass | none | Entries, Riquelme |
+| 2 | critical | low | reread-page | none | Entries, Virginio |
+| 3 | critical | low | reread-page | none | Entries, Riquelme |
 | 4 | medium | high | pass | none | Riquelme |
-| 105 | critical | low | reread-page | explicit_reread_needed | Arriagada, Pulgar, Riquelme |
+| 105 | critical | low | reread-page | explicit_reread_needed | Arriagada, Darío, Darío Pulgar Arriagada, Pulgar, Riquelme, Virginio, pulgar arriagada |
 | 106 | none | medium | spot-check | explicit_reread_needed | none |
-| 7 | medium | high | pass | none | Arriagada |
-| 8 | high | low | reread-page | none | none |
-| 9 | medium | high | pass | none | Directory, listing |
+| 7 | critical | low | reread-page | none | Arriagada, Darío |
+| 8 | critical | low | reread-page | none | Virginio, concepcion |
+| 9 | high | high | pass | none | Directory, Gomez, concepcion, listing |
 | 10 | medium | high | pass | none | Medical |
 | 111 | high | high | pass | none | Arriagada, Directory, Medical |
 | 112 | high | high | pass | none | Directory, Medical, garcia |
-| 13 | critical | low | reread-page | none | Arturo, Medical, Riquelme, listing |
+| 13 | critical | low | reread-page | none | Arturo, Darío, Medical, Riquelme, concepcion, listing |
 | 114 | none | medium | spot-check | explicit_reread_needed | none |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |

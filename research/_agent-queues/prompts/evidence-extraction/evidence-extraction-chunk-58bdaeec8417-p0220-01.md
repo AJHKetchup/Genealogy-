@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S519bis-26-4.pdf`
 - Page range: 220-220
 - Staging area: `research/_staging`
-- Family relevance: `medium`
+- Family relevance: `critical`
 - Matched family terms: Arturo
-- Evidence priority: `2220` (family_relevance:medium, qc:pass, matched_terms)
+- Evidence priority: `220` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

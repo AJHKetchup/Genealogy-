@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S522bis-29-3.pdf`
 - Page range: 186-186
 - Staging area: `research/_staging`
-- Family relevance: `medium`
+- Family relevance: `critical`
 - Matched family terms: Dario
-- Evidence priority: `2186` (family_relevance:medium, qc:pass, matched_terms)
+- Evidence priority: `186` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

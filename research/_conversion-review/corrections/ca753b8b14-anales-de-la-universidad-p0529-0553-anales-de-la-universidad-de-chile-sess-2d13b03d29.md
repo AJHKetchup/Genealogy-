@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Dario`
+  Suspected reading: `Darío`
+  Reason: near match to known family context term `Darío`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Médica`
   Suspected reading: `Medical`
   Reason: near match to known family context term `Medical`

@@ -16,7 +16,7 @@
 | 6 | medium | high | pass | none | Juana |
 | 27 | medium | medium | spot-check | explicit_reread_needed | Mercedes |
 | 8 | none | high | pass | none | none |
-| 9 | medium | high | pass | none | Segundo |
+| 9 | medium | high | pass | none | Segundo, concepcion |
 | 10 | critical | low | reread-page | none | Directory, listing |
 | 11 | medium | high | pass | none | Medical |
 | 12 | high | low | reread-page | none | none |
@@ -24,7 +24,7 @@
 | 14 | critical | low | reread-page | none | Entries |
 | 15 | critical | low | reread-page | none | Medical |
 | 36 | critical | low | reread-page | none | Arturo |
-| 37 | none | medium | spot-check | explicit_reread_needed | none |
-| 18 | none | high | pass | none | none |
-| 39 | none | medium | spot-check | explicit_reread_needed | none |
-| 40 | none | high | pass | none | none |
+| 37 | critical | low | reread-page | explicit_reread_needed | Virginio |
+| 18 | critical | low | reread-page | none | Virginio |
+| 39 | critical | low | reread-page | explicit_reread_needed | Virginio |
+| 40 | critical | low | reread-page | none | Virginio |

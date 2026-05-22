@@ -6,6 +6,11 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Darío`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
@@ -14,6 +19,11 @@
 - Literal converted text: `David`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Virginia`
+  Suspected reading: `Virginio`
+  Reason: near match to known family context term `Virginio`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `MEDICOS`
@@ -34,4 +44,9 @@
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
   Verification target: reread the page image or exact region before using this in a claim.

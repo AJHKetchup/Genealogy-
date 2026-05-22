@@ -11,18 +11,18 @@
 | 24 | high | low | reread-page | none | none |
 | 25 | high | low | reread-page | none | none |
 | 26 | high | low | reread-page | none | none |
-| 27 | medium | high | pass | none | García |
+| 27 | medium | high | pass | none | García, Resolucion |
 | 28 | high | low | reread-page | none | none |
 | 29 | medium | high | pass | none | García |
-| 30 | high | high | pass | none | Arturo, García, Juana |
-| 31 | none | high | pass | none | none |
+| 30 | high | high | pass | none | Arturo, García, Juana, concepcion |
+| 31 | medium | high | pass | none | concepcion |
 | 32 | none | high | pass | none | none |
-| 33 | critical | low | reread-page | none | larrain |
+| 33 | critical | low | reread-page | none | concepcion, larrain |
 | 34 | none | high | pass | none | none |
 | 35 | none | high | pass | none | none |
 | 36 | medium | high | pass | none | Arturo |
 | 323 | none | high | pass | none | none |
-| 38 | none | high | pass | none | none |
+| 38 | medium | high | pass | none | Resolucion |
 | 39 | none | high | pass | none | none |
 | 40 | none | high | pass | none | none |
 | 41 | none | high | pass | none | none |

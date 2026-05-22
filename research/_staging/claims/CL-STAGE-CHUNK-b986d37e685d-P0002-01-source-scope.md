@@ -13,8 +13,8 @@ chunk_id: CHUNK-b986d37e685d-P0002-01
 page_reference: "page 2"
 confidence: medium_high
 conversion_confidence: medium_high
-qa_concern: "Controller recommended reread-page; handwritten routing names include uncertain readings."
-promotion_recommendation: do_not_promote
+qa_concern: "Controller recommended reread-page; current converted-file and chunk-file hashes differ from recorded manifest/front-matter values, and handwritten routing names include uncertain readings."
+promotion_recommendation: hold_for_conversion_qa
 tags: [claim, staging, source-scope, routing-slip]
 ---
 
@@ -49,7 +49,7 @@ un code des prisonniers de guerre.
 
 ## Conversion Confidence And QA Concern
 
-Conversion confidence is medium-high for the page subject and source-scope text. The controller requested `reread-page`, and uncertain handwritten routing entries should be verified against the image before detailed source metadata is reused.
+Conversion confidence is medium-high for the page subject and source-scope text. The controller requested `reread-page`, and uncertain handwritten routing entries should be verified against the image before detailed source metadata is reused. Promotion is also blocked by metadata reconciliation: the current converted-file SHA-256 is `88e402458471c1e4f84a77cd3c8143e25bc52f7b7a5ea897a1c02fef66089a78`, and the current chunk-file SHA-256 is `3c0874f5be388c569246e2582a5919a5fd7dc975dafaeb86d5119c7f28fe132c`, which differ from recorded manifest/front-matter values.
 
 ## Uncertainty
 
@@ -57,4 +57,4 @@ This claim is source-context only. It does not identify a genealogical subject o
 
 ## Promotion Recommendation
 
-Do not promote to canonical family-tree/person pages.
+Hold for conversion/provenance QA. Do not promote to canonical family-tree/person pages.

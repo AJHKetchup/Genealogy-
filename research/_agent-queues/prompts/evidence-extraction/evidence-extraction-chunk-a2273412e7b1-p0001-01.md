@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `critical`
-- Matched family terms: Arriagada, Pulgar
+- Matched family terms: Arriagada, Darío, Expropriation, Pulgar, pulgar arriagada
 - Evidence priority: `1` (family_relevance:critical, qc:reread-page, matched_terms)
 
 

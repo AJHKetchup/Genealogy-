@@ -10,9 +10,17 @@
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: concepcion
+
+### Page 4
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario, Pulgar, concepcion
 
 ### Page 5
 
@@ -20,7 +28,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Pulgar
+- Matched family context: Article, Pulgar
+
+### Page 13
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Dario, Pulgar, concepcion
 
 ### Page 14
 
@@ -28,4 +44,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dario, Pulgar
+- Matched family context: Article, Dario, Pulgar, concepcion

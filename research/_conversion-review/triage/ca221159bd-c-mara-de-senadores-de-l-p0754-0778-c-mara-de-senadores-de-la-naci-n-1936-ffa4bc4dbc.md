@@ -10,8 +10,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 754 | high | low | reread-page | none | none |
 | 755 | high | low | reread-page | none | none |
-| 756 | none | high | pass | none | none |
-| 757 | medium | high | pass | none | Segundo |
+| 756 | high | low | reread-page | none | none |
+| 757 | medium | high | pass | none | Resolucion, Segundo |
 | 5 | none | high | pass | none | none |
 | 759 | none | high | pass | none | none |
 | 760 | none | high | pass | none | none |

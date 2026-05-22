@@ -56,16 +56,32 @@
 
 ### Page 37
 
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `none`
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: Virginio
+
+### Page 18
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Virginio
 
 ### Page 39
 
-- Recommended action: `spot-check`
-- Conversion confidence: `medium`
-- Family relevance: `none`
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: none
+- Matched family context: Virginio
+
+### Page 40
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Virginio

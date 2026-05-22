@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | medium | high | pass | none | Dario, Pulgar |
+| 1 | critical | low | reread-page | none | Dario, Pulgar |

@@ -8,20 +8,20 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | high | pass | none | none |
+| 1 | medium | high | pass | none | Article |
 | 2 | none | high | pass | none | none |
 | 266 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 269 | none | high | pass | none | none |
-| 7 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | Article |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
-| 12 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | Article |
 | 276 | none | high | pass | none | none |
-| 14 | none | high | pass | none | none |
+| 14 | medium | high | pass | none | Article |
 | 15 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
 | 280 | none | high | pass | none | none |

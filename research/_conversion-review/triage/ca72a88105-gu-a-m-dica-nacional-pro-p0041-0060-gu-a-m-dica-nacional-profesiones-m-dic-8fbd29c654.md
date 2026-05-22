@@ -19,12 +19,12 @@
 | 49 | medium | high | pass | none | Arturo, Carmen |
 | 50 | medium | high | pass | none | Arturo |
 | 51 | critical | low | reread-page | none | Arturo, Heinz |
-| 52 | medium | high | pass | none | Carmen, Gallegos |
+| 52 | high | high | pass | none | Carmen, Gallegos, Osorio |
 | 53 | critical | low | reread-page | none | Arturo, Gallegos, García, Larraín, Lavín |
-| 54 | medium | high | pass | none | Arturo |
+| 54 | critical | low | reread-page | none | Arturo, Darío |
 | 55 | critical | low | reread-page | none | Arturo, Carmen |
 | 16 | high | high | pass | none | Alexander, Directory, Riquelme |
 | 57 | medium | high | pass | none | Smith |
-| 58 | none | high | pass | none | none |
+| 58 | critical | low | reread-page | none | Darío |
 | 59 | medium | high | pass | none | García, Larraín |
-| 60 | medium | high | pass | none | Arturo |
+| 60 | critical | low | reread-page | none | Arturo, Darío |

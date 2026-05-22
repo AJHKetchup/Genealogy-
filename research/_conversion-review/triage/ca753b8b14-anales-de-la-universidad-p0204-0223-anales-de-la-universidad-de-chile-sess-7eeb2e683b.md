@@ -23,8 +23,8 @@
 | 13 | medium | high | pass | none | García, listing |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
-| 16 | none | high | pass | none | none |
-| 17 | critical | low | reread-page | none | García, Mercedes |
+| 16 | critical | low | reread-page | none | Darío |
+| 17 | critical | low | reread-page | none | Darío, García, Mercedes |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
 | 223 | medium | high | pass | none | García |

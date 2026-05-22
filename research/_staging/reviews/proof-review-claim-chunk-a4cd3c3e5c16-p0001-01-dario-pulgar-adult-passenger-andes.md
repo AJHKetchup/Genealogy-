@@ -3,41 +3,42 @@
 - Review task id: `proof-review:research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes.md`
 - Reviewed staged draft: `research/_staging/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes.md`
 - Role: claim_reviewer
-- Review status: hold
-- canonical_readiness: hold_for_conversion_qa
+- Review status: ready_with_scope_note
+- canonical_readiness: ready_with_scope_note
 
 ## Blockers
 
-- The original source image is not available at `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png`.
-- The rendered page image recorded in the manifest is also not available at `raw/codex-conversion-jobs/ca5a5078ab-passenger-list-royal-mai-passenger-list-royal-mail-lines-limited-august-7-1953/page-images/page-0001.png`.
-- Because no page image is available for this review, the Pulgar row, ditto marks, age column placement, class, destination, and handwritten red age annotations cannot be visually rechecked against the source.
-- Identity remains limited to an event participant described by the passenger list row, `PULGAR Dario`, age 64. This review does not establish that this person is any canonical Dario Pulgar, and it does not infer relationships to Dorothy Pulgar or the younger Dario Pulgar.
+- No source-access blocker remains. The source image is present at `raw/sources/Passenger List, Royal Mail Lines Limited, August 7, 1953.png` and was visually reviewed.
+- Identity scope remains limited to the passenger-list person described in the row: `PULGAR Dario`, adult male, age 64. This review does not establish that he is any broader canonical Dario Pulgar without identity-bridge evidence.
+- Do not infer family relationships from the adjacent Pulgar rows. The source places `PULGAR Dario`, `" Dorothy`, and `" Dario` consecutively, but it does not explicitly state spouse or parent-child relationships.
+- The red handwritten annotation beside the age appears present, but it is not needed for this travel-event claim and should not be promoted as a vital fact from this review.
 
 ## Scoring
 
-- source_quality_score: 0.82
-- conversion_confidence_score: 0.35
-- evidence_quantity_score: 0.55
-- agreement_score: 0.76
-- identity_confidence_score: 0.58
-- claim_probability: 0.62
+- source_quality_score: 0.88
+- conversion_confidence_score: 0.90
+- evidence_quantity_score: 0.72
+- agreement_score: 0.94
+- identity_confidence_score: 0.74
+- claim_probability: 0.91
 - relevance_level: high
-- relevance_confidence: 0.84
-- canonical_readiness: hold_for_conversion_qa
+- relevance_confidence: 0.90
+- canonical_readiness: ready_with_scope_note
 
 ## Evidence Strengths
 
-- The staged claim, source packet, chunk, and converted file all point to the same source, chunk id, and page reference: `CHUNK-a4cd3c3e5c16-P0001-01`, page `P.M. 25`.
-- The available converted text directly states the ship as `ANDES`, the steamship line as `ROYAL MAIL LINES, LIMITED.`, the departure date as `7th. August 1953.`, the embarkation port as Southampton, and the destination region as South America.
-- The converted table contains a row for `PULGAR Dario` with port contracted to land dittoed from `BUENOS AIRES`, class dittoed from `1st`, male adult age `64`, last UK address `Bedford Corner Hotel, London.`, occupation `Medical`, intended future permanent residence `Chile`, and citizenship/subject country `Chile`.
-- The staged draft correctly avoids a relationship jump by identifying the subject as the adult passenger aged 64 and distinguishing him from the separate child row also named Dario.
+- The staged draft, source packet, converted file, chunk, and image all point to the same passenger-list page: `CHUNK-a4cd3c3e5c16-P0001-01`, passenger list page `P.M. 25`.
+- The image visibly supports the page header: ship `ANDES`, Royal Mail Lines, departure date `7th. August 1953`, destination region `SOUTH AMERICA`, and embarkation at Southampton.
+- The image visibly supports the adult Pulgar row as `PULGAR Dario`, with class dittoed from first class, age `64` in the adult male accompanied-by-wife column, last UK address `Bedford Corner Hotel, London.`, occupation `Medical`, intended future permanent residence `Chile`, and citizenship/subject country `Chile`.
+- The row's port contracted to land is dittoed from the preceding `BUENOS AIRES` entry, supporting Buenos Aires as the contracted landing port.
+- The staged draft is appropriately scoped to `Dario Pulgar (adult passenger, age 64)` and distinguishes him from the separate child row also named Dario.
 
 ## Review Judgment
 
-The claim is probably supported by the converted text: the converted row gives a coherent passenger-list event for an adult male `PULGAR Dario`, age 64, traveling first class on the Royal Mail Lines ship `ANDES`, departing Southampton on 7 August 1953 and contracted to land at Buenos Aires.
+The claim is strongly supported as a scoped passenger-list event. The converted text agrees with the visible source image on the claim's necessary facts: adult `PULGAR Dario`, age 64, traveled first class on the Royal Mail Lines ship `ANDES`, departing Southampton on 7 August 1953, bound for South America, with Buenos Aires as the contracted landing port.
 
-The proof is not ready for canonical use because the claim depends on a low-confidence conversion that could not be checked against the visible image. The row is tabular, uses ditto marks across several fields, and includes adjacent Pulgar rows with the same surname and a younger Dario, so visual verification is required before promotion.
+The source is a direct passenger list and is adequate for this travel event. It should remain scoped to the passenger-list identity and should not be used by itself to prove family relationships or a broader canonical identity.
 
 ## Next Action
 
-Restore or locate the source image or rendered page image, then reread the Pulgar rows against the image. Confirm the adult Dario row, destination/landing-port ditto marks, first-class ditto mark, age column placement, and distinction from the child Dario row before considering canonical promotion.
+Promote only a scoped event claim for the adult passenger-list identity, preserving the age-64 disambiguator. Any canonical person merge, spouse relationship, or parent-child relationship needs separate identity or relationship review evidence.

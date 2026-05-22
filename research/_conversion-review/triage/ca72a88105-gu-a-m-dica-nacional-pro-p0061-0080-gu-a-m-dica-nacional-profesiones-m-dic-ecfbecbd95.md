@@ -14,17 +14,17 @@
 | 64 | medium | high | pass | none | Carmen |
 | 65 | critical | low | reread-page | none | Arturo, Directory, García, Riquelme |
 | 66 | high | high | pass | none | Andes, Arturo, Gallegos |
-| 7 | medium | high | pass | none | listing |
+| 7 | medium | high | pass | none | Osorio, listing |
 | 68 | high | high | pass | none | Arturo, Larraín, Riquelme |
 | 69 | medium | high | pass | none | Arturo, García |
-| 70 | critical | low | reread-page | none | Arturo, Gallegos, Juana |
+| 70 | critical | low | reread-page | none | Arturo, Gallegos, Juana, Osorio |
 | 71 | medium | high | pass | none | Carmen |
 | 72 | medium | high | pass | none | Arriagada, Arturo |
-| 73 | medium | high | pass | none | Arturo, Directory |
+| 73 | critical | low | reread-page | none | Arturo, Darío, Directory |
 | 74 | high | high | pass | none | Arturo, Mercedes, Riquelme |
 | 75 | medium | high | pass | none | Riquelme, Tulio |
 | 76 | medium | high | pass | none | Arturo, García |
-| 17 | critical | low | reread-page | none | Arriagada, Arturo, Directory, Entries, Pulgar |
+| 17 | critical | low | reread-page | none | Arriagada, Arturo, Darío, Directory, Entries, Pulgar, pulgar arriagada |
 | 78 | high | high | pass | none | Andes, Carmen, García |
 | 19 | critical | low | reread-page | none | Directory, Entries, Riquelme, listing |
 | 80 | medium | high | pass | none | Heinz, Riquelme |

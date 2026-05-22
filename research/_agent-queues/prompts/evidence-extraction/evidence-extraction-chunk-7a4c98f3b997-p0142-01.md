@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/R3578-50-5569-5569-Jacket5.pdf`
 - Page range: 142-142
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Arriagada, Dario, Pulgar
-- Evidence priority: `1142` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Arriagada, Dario, Pulgar, pulgar arriagada
+- Evidence priority: `142` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

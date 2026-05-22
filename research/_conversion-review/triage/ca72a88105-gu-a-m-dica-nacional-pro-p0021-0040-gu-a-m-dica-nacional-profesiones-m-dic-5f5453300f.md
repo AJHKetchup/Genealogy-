@@ -8,17 +8,17 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 21 | critical | low | reread-page | none | García |
+| 21 | critical | low | reread-page | none | Darío, García |
 | 22 | medium | high | pass | none | García |
 | 23 | medium | high | pass | none | Arriagada, Arturo |
-| 24 | medium | high | pass | none | Andes, Carmen |
+| 24 | critical | low | reread-page | none | Andes, Carmen, Darío |
 | 25 | none | high | pass | none | none |
-| 26 | medium | high | pass | none | García |
+| 26 | medium | high | pass | none | García, Osorio |
 | 27 | high | high | pass | none | Andes, Arturo, García |
-| 28 | critical | low | reread-page | none | Juana |
+| 28 | critical | low | reread-page | none | Darío, Juana |
 | 29 | medium | high | pass | none | Arturo, Carmen |
 | 30 | medium | high | pass | none | Arturo, García |
-| 31 | critical | low | reread-page | none | Arturo, García |
+| 31 | critical | low | reread-page | none | Arturo, Darío, García |
 | 32 | medium | high | pass | none | Arturo, García |
 | 33 | medium | high | pass | none | Andes, Carmen |
 | 34 | high | high | pass | none | Directory, Entries, listing |
@@ -27,4 +27,4 @@
 | 37 | medium | high | pass | none | Arriagada, Gallegos |
 | 38 | critical | low | reread-page | none | Arturo, García, Riquelme |
 | 39 | critical | low | reread-page | none | Andes, Arturo, Carmen, García, Riquelme |
-| 40 | none | high | pass | none | none |
+| 40 | critical | low | reread-page | none | Darío |

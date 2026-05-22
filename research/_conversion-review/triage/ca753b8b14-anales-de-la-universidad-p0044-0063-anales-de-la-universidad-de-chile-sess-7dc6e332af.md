@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 44 | critical | low | reread-page | none | Arturo, García |
-| 45 | none | high | pass | none | none |
+| 45 | high | low | reread-page | none | none |
 | 46 | critical | low | reread-page | none | Arturo |
 | 47 | high | low | reread-page | none | none |
 | 48 | medium | high | pass | none | García |

@@ -6,6 +6,22 @@
 
 ## Queued Pages
 
+### Page 3
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Virginio
+
+### Page 5
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Virginio
+
 ### Page 7
 
 - Recommended action: `reread-page`

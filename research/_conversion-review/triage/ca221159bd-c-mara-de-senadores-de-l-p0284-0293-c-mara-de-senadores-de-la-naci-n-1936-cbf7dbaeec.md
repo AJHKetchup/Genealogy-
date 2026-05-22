@@ -14,7 +14,7 @@
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | Segundo |
+| 7 | medium | high | pass | none | Article, Segundo |
 | 8 | none | high | pass | none | none |
 | 9 | medium | high | pass | none | Segundo |
 | 10 | none | high | pass | none | none |

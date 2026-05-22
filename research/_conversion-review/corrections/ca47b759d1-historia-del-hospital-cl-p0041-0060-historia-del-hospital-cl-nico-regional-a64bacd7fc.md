@@ -6,11 +6,21 @@
 
 ## Suspected Readings
 
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `cenar`
   Suspected reading: `Cesar`
   Reason: near match to known family context term `Cesar`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Anatomía`
+  Suspected reading: `Anatomy`
+  Reason: near match to known family context term `Anatomy`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Director`
   Suspected reading: `Directory`
   Reason: near match to known family context term `Directory`
@@ -19,6 +29,31 @@
 - Literal converted text: `Director`
   Suspected reading: `Directory`
   Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Gómez`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Entre`
@@ -29,4 +64,9 @@
 - Literal converted text: `antes`
   Suspected reading: `Andes`
   Reason: near match to known family context term `Andes`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Anatomía`
+  Suspected reading: `Anatomy`
+  Reason: near match to known family context term `Anatomy`
   Verification target: reread the page image or exact region before using this in a claim.

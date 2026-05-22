@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg`
 - Page range: 1-1
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: Arriagada, Dario, Pulgar
-- Evidence priority: `1001` (family_relevance:high, qc:pass, matched_terms)
+- Family relevance: `critical`
+- Matched family terms: Arriagada, Dario, Pulgar, pulgar arriagada
+- Evidence priority: `1` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

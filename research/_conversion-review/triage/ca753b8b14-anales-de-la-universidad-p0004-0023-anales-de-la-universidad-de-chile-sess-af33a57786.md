@@ -15,11 +15,11 @@
 | 5 | medium | high | pass | none | intended |
 | 9 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 11 | critical | low | reread-page | none | Arriagada, Pulgar |
+| 11 | critical | low | reread-page | none | Arriagada, Darío, Pulgar |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
+| 15 | medium | high | pass | none | Osorio |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
@@ -27,4 +27,4 @@
 | 20 | none | high | pass | none | none |
 | 21 | high | low | reread-page | none | none |
 | 22 | none | high | pass | none | none |
-| 23 | none | high | pass | none | none |
+| 23 | medium | high | pass | none | Resolucion |

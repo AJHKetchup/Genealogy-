@@ -42,6 +42,7 @@ See linked source packet and converted source artifacts.
 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-last-permanent-residence-england]] | [[people/dario-pulgar-child-passenger-age-11]] | draft | 7.5 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-last-permanent-residence-england]] |
 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-passenger-andes]] | [[people/dario-pulgar-child-passenger-age-11]] | draft | 6.0 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-passenger-andes]] |
 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-student]] | [[people/dario-pulgar-child-passenger-age-11]] | draft | 6.0 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-child-student]] |
+| [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes]] | [[people/dario-pulgar-adult-passenger-age-64]] | draft | 6.0 | [[claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes]] |
 
 ## Image/Layout Notes
 

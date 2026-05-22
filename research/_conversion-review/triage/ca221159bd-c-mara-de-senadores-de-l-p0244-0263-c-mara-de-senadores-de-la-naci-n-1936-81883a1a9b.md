@@ -9,21 +9,21 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 2 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | Article |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | none | high | pass | none | none |
+| 6 | medium | high | pass | none | Article |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 256 | none | high | pass | none | none |
+| 256 | medium | high | pass | none | Article |
 | 14 | none | high | pass | none | none |
-| 15 | none | high | pass | none | none |
-| 16 | medium | high | pass | none | Arturo |
+| 15 | medium | high | pass | none | Article |
+| 16 | critical | low | reread-page | none | Arturo |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |

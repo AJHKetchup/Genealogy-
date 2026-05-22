@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | low | reread-page | none | none |
+| 1 | critical | low | reread-page | none | concepcion |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | medium | high | pass | none | Dario, Pulgar |
-| 5 | critical | low | reread-page | none | Pulgar |
+| 4 | critical | low | reread-page | none | Dario, Pulgar, concepcion |
+| 5 | critical | low | reread-page | none | Article, Pulgar |
 | 9 | medium | high | pass | none | Andes, intended |
 | 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 13 | medium | high | pass | none | Dario, Pulgar |
-| 14 | critical | low | reread-page | none | Dario, Pulgar |
-| 12 | none | high | pass | none | none |
+| 13 | critical | low | reread-page | none | Dario, Pulgar, concepcion |
+| 14 | critical | low | reread-page | none | Article, Dario, Pulgar, concepcion |
+| 12 | medium | high | pass | none | Article |
 | 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |

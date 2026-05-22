@@ -16,9 +16,34 @@
   Reason: near match to known family context term `Arriagada`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `DARIO`
+  Suspected reading: `Darío`
+  Reason: near match to known family context term `Darío`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `GOMES`
+  Suspected reading: `Gomez`
+  Reason: near match to known family context term `Gomez`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `DIRECTOR`
   Suspected reading: `Directory`
   Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `DARIO`
+  Suspected reading: `Darío`
+  Reason: near match to known family context term `Darío`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `DIRECTOR`
+  Suspected reading: `Directory`
+  Reason: near match to known family context term `Directory`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `DARIO`
+  Suspected reading: `Darío`
+  Reason: near match to known family context term `Darío`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `PULGARA`

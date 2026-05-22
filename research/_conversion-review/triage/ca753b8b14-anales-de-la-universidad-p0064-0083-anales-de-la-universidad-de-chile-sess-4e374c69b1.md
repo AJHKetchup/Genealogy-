@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 64 | critical | low | reread-page | none | Arturo |
+| 64 | critical | low | reread-page | none | Arturo, Darío |
 | 65 | medium | high | pass | none | García |
 | 66 | medium | high | pass | none | Arriagada |
 | 67 | medium | high | pass | none | Carmen, Mercedes |

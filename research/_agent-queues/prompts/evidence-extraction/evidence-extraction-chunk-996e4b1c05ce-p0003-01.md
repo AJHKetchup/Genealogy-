@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 3-3
 - Staging area: `research/_staging`
 - Family relevance: `medium`
-- Matched family terms: García
+- Matched family terms: Article, García
 - Evidence priority: `2003` (family_relevance:medium, qc:pass, matched_terms)
 
 

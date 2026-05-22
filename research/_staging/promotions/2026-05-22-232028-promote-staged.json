@@ -1,0 +1,23 @@
+{
+  "generated": "2026-05-22T23:20:28",
+  "summary": {
+    "dry_run": false,
+    "source_packets": [
+      "research/source-packets/sp-chunk-a4cd3c3e5c16-p0001-01-andes-pulgar-passenger-list.md"
+    ],
+    "claims": [
+      "research/claims/cl-chunk-a4cd3c3e5c16-p0001-01-dario-pulgar-adult-passenger-andes.md"
+    ],
+    "relationships": [],
+    "people": [
+      "wiki/people/dario-pulgar-adult-passenger-age-64.md"
+    ],
+    "people_refreshed": [
+      "wiki/people/dario-pulgar-adult-passenger-age-64.md"
+    ],
+    "sources": [],
+    "skipped": [],
+    "manifest": "research/_staging/promotions/2026-05-22-232028-promote-staged.json",
+    "scope": "wiki-promotion:reviewed-ready:abc69d563d0f constrained to one reviewed-ready claim"
+  }
+}

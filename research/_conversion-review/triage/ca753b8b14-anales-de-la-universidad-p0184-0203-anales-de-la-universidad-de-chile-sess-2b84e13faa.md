@@ -11,15 +11,15 @@
 | 184 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | medium | high | pass | none | Mercedes, listing |
-| 187 | none | high | pass | none | none |
+| 187 | medium | high | pass | none | concepcion |
 | 5 | none | high | pass | none | none |
 | 475 | none | high | pass | none | none |
 | 190 | none | high | pass | none | none |
 | 191 | medium | high | pass | none | Arturo |
 | 192 | medium | high | pass | none | Arturo |
 | 193 | none | high | pass | none | none |
-| 194 | none | high | pass | none | none |
-| 195 | none | high | pass | none | none |
+| 194 | critical | low | reread-page | none | Darío |
+| 195 | critical | low | reread-page | none | Darío |
 | 196 | none | high | pass | none | none |
 | 197 | none | high | pass | none | none |
 | 198 | none | high | pass | none | none |

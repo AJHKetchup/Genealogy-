@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
 - Page range: 704-704
 - Staging area: `research/_staging`
-- Family relevance: `high`
-- Matched family terms: none
-- Evidence priority: `1704` (family_relevance:high, qc:reread-page)
+- Family relevance: `critical`
+- Matched family terms: Resolucion
+- Evidence priority: `704` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

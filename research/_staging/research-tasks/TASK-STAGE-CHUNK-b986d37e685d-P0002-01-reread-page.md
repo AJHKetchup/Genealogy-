@@ -10,8 +10,8 @@ chunk_id: CHUNK-b986d37e685d-P0002-01
 page_reference: "page 2"
 confidence: medium
 conversion_confidence: medium_high_for_source_scope_medium_for_handwritten_names
-qa_concern: "Controller recommended reread-page; converted chunk contains uncertain handwritten routing readings."
-promotion_recommendation: do_not_promote
+qa_concern: "Controller recommended reread-page; converted chunk contains uncertain handwritten routing readings; current converted-file and chunk-file hashes differ from recorded manifest/front-matter values."
+promotion_recommendation: hold_for_conversion_qa
 tags: [research-task, staging, conversion-qa, reread-page]
 ---
 
@@ -48,6 +48,8 @@ un code des prisonniers de guerre.
 2. Verify uncertain handwritten readings including `M. Schurnik[?]`, `M. Schw artz`, and `I.C.V`.
 3. Keep routing names as administrative mentions only unless a separate source provides biographical or family evidence.
 4. Do not create family relationship links from this page.
+5. Reconcile the stale `CHUNK-3f469b56e502-P0002-01` staged drafts against the current assigned chunk id `CHUNK-b986d37e685d-P0002-01`.
+6. Reconcile current file hashes: converted file `88e402458471c1e4f84a77cd3c8143e25bc52f7b7a5ea897a1c02fef66089a78` versus recorded `b986d37e685d7788568baf82b8d1c6d9c92b30eda4a02450e64a28471dc92196`, and chunk file `3c0874f5be388c569246e2582a5919a5fd7dc975dafaeb86d5119c7f28fe132c` versus manifest `bb0d4e7230c65a332f676aec0dd2294c5e8fa6d977c8633abdefe0e3b16f0530`.
 
 ## Conversion Confidence And QA Concern
 
@@ -59,4 +61,4 @@ No direct genealogical claim is present. This task exists to preserve the reread
 
 ## Promotion Recommendation
 
-Do not promote this task or any family relationship from this chunk.
+Hold source-circulation metadata for conversion/provenance QA. Do not promote this task or any family relationship from this chunk.

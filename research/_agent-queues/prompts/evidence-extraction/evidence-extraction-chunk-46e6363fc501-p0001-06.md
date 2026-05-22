@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 1-1
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Andes, Arriagada, Directory, García, Lavín, listing
+- Matched family terms: Andes, Arriagada, Darío, Directory, García, Lavín, Osorio, listing
 - Evidence priority: `1001` (family_relevance:high, matched_terms)
 
 

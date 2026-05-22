@@ -14,13 +14,29 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: none
 
+### Page 2
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Entries, Virginio
+
+### Page 3
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Entries, Riquelme
+
 ### Page 105
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: explicit_reread_needed
-- Matched family context: Arriagada, Pulgar, Riquelme
+- Matched family context: Arriagada, Darío, Darío Pulgar Arriagada, Pulgar, Riquelme, Virginio, pulgar arriagada
 
 ### Page 106
 
@@ -30,13 +46,21 @@
 - Quality flags: explicit_reread_needed
 - Matched family context: none
 
+### Page 7
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arriagada, Darío
+
 ### Page 8
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `high`
+- Family relevance: `critical`
 - Quality flags: none
-- Matched family context: none
+- Matched family context: Virginio, concepcion
 
 ### Page 13
 
@@ -44,7 +68,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Medical, Riquelme, listing
+- Matched family context: Arturo, Darío, Medical, Riquelme, concepcion, listing
 
 ### Page 114
 

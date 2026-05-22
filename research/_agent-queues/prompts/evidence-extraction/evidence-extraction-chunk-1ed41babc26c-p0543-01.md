@@ -11,9 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/Anales de la Universidad de Chile, Session of the Council of Public Instruction, September 1918..pdf`
 - Page range: 543-543
 - Staging area: `research/_staging`
-- Family relevance: `medium`
+- Family relevance: `critical`
 - Matched family terms: Andes, Dario
-- Evidence priority: `2543` (family_relevance:medium, qc:pass, matched_terms)
+- Evidence priority: `543` (family_relevance:critical, qc:reread-page, matched_terms)
 
 
 

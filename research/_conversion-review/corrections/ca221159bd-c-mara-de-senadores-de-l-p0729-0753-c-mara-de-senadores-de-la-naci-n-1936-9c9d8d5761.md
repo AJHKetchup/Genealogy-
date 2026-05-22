@@ -16,6 +16,11 @@
   Reason: near match to known family context term `Andes`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `dado`
+  Suspected reading: `Darío`
+  Reason: near match to known family context term `Darío`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `antes`
   Suspected reading: `Andes`
   Reason: near match to known family context term `Andes`

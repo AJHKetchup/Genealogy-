@@ -10,15 +10,15 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
+| 3 | critical | low | reread-page | none | Virginio |
 | 4 | none | high | pass | none | none |
-| 5 | none | high | pass | none | none |
+| 5 | critical | low | reread-page | none | Virginio |
 | 6 | none | high | pass | none | none |
 | 7 | high | low | reread-page | none | none |
 | 8 | medium | high | pass | none | García, Segundo |
 | 9 | high | low | reread-page | none | none |
 | 10 | medium | high | pass | none | Andes, Segundo |
-| 11 | none | high | pass | none | none |
+| 11 | medium | high | pass | none | concepcion |
 | 12 | high | low | reread-page | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |

@@ -8,9 +8,9 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 40 | none | high | pass | none | none |
+| 40 | medium | high | pass | none | Article |
 | 2 | none | high | pass | none | none |
-| 3 | none | high | pass | none | none |
+| 3 | high | low | reread-page | none | none |
 | 4 | critical | low | reread-page | none | García |
 | 5 | high | low | reread-page | none | none |
 | 6 | none | high | pass | none | none |

@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 101 | none | high | pass | none | none |
+| 101 | critical | low | reread-page | none | Darío |
 | 102 | critical | low | reread-page | none | Arturo, García, Smith |
 | 103 | medium | high | pass | none | Riquelme |
 | 104 | none | high | pass | none | none |
@@ -21,5 +21,5 @@
 | 11 | critical | low | reread-page | none | Arriagada, García, Riquelme |
 | 12 | critical | low | reread-page | none | Arriagada, Arturo, Gallegos, García |
 | 13 | medium | high | pass | none | Arriagada, García |
-| 114 | medium | high | pass | none | Arturo |
+| 114 | critical | low | reread-page | none | Arturo, Virginio |
 | 115 | none | high | pass | none | none |

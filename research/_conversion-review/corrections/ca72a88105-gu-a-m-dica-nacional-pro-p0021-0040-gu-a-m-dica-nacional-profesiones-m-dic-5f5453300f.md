@@ -16,6 +16,21 @@
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
 
+- Literal converted text: `Darío`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Darío`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Darío`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
+  Verification target: reread the page image or exact region before using this in a claim.
+
 - Literal converted text: `Merced`
   Suspected reading: `Mercedes`
   Reason: near match to known family context term `Mercedes`
@@ -49,4 +64,9 @@
 - Literal converted text: `Casa`
   Suspected reading: `Cesar`
   Reason: near match to known family context term `Cesar`
+  Verification target: reread the page image or exact region before using this in a claim.
+
+- Literal converted text: `Darío`
+  Suspected reading: `Dario`
+  Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.

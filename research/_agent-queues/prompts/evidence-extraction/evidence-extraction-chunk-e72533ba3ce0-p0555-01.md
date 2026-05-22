@@ -12,7 +12,7 @@ Use `$genealogy-claim-extraction`.
 - Page range: 555-555
 - Staging area: `research/_staging`
 - Family relevance: `high`
-- Matched family terms: Andes, Arriagada, Segundo
+- Matched family terms: Andes, Arriagada, Resolucion, Segundo
 - Evidence priority: `1555` (family_relevance:high, qc:pass, matched_terms)
 
 
