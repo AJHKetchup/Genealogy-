@@ -15,11 +15,25 @@
     "provider_api_keys": "forbidden",
     "activation_requirements": [
       "Workflow is present on the repository default branch.",
-      "Private repository secret CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON exists and is rotated when Codex auth expires."
+      "Private repository secret CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON exists and is rotated when Codex auth expires.",
+      "R2 source-storage secrets exist so proof-review holds can restore exact raw/page-image assets without the local PC."
     ],
     "docs": "docs/internal_research_agents_pc_off.md",
     "default_parallelism": 3,
     "default_run_minutes": 45
+  },
+  "proof_review_asset_restore": {
+    "status": "active",
+    "command": "PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-relevance restore-review-assets --root . --limit 24",
+    "purpose": "When a review is held only because the raw/page image is unavailable, restore the raw source from R2, regenerate the temporary page image, and release the held proof-review task for re-review.",
+    "writes": [
+      "temporary raw/sources files in the hosted checkout",
+      "temporary raw/codex-conversion-jobs/*/page-images files in the hosted checkout",
+      "research/_agent-queues/task-state.json",
+      "research/log.md"
+    ],
+    "git_persistence": "Only task-state/log changes are committed. Restored raw sources and page images stay out of Git and are regenerated as needed.",
+    "provider_api_keys": "not required"
   },
   "family_presentation": {
     "status": "active_on_default_branch",
@@ -172,6 +186,7 @@
     "once": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -Once -MaxWorkers 3 -QueueLimit 12",
     "continuous": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -RunMinutes 60 -MaxWorkers 3 -QueueLimit 12",
     "promotion_once": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -Once -AllowPromotion -MaxWorkers 1 -QueueLimit 3",
+    "restore_review_assets": "PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-relevance sync-review-holds --root .; PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-relevance restore-review-assets --root . --limit 24",
     "api_free_refresh": "PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki conversion-qc --root .; PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki agent-queues --root . --stale-minutes 360 --post-conversion-only; PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki source-status --root . --no-refresh-index --no-source-prep-task-refresh"
   }
 }

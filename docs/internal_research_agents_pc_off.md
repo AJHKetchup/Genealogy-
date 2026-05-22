@@ -2,15 +2,13 @@
 
 This workflow runs the genealogy post-conversion agent stack on GitHub-hosted Windows runners, so it does not depend on the local PC or Codex desktop app being on.
 
-It is for internal research and wiki development only. It does not perform external research and does not run source preparation or document conversion.
-
-Automatic schedule and push triggers are paused while source preparation is still the active stage-one gate. Run this workflow manually only after the source-prep backlog is sound enough for post-conversion research.
+It is for internal research and wiki development only. It does not perform external research and does not run document conversion. It may restore the exact raw source/page image assets needed for proof review from R2, then leaves conversion outputs unchanged.
 
 ## Runner
 
 - Workflow: `.github/workflows/internal-research-agents.yml`
-- Schedule: paused until source prep is complete
-- Validation triggers: manual only while source prep remains the active gate
+- Schedule: hourly at minute 17
+- Validation triggers: short runs on pushes to the workflow, controller, project code, or automation contracts
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12
 - Automatic promotion: enabled in a separate one-worker promotion-only pass after ordinary QA/extraction/review
@@ -31,6 +29,15 @@ The repository must be private. The workflow expects one of these repository sec
 For unattended long-term runs, also add:
 
 - `CODEX_SECRET_UPDATE_TOKEN`
+
+For proof-review page-image restoration, also provide the same R2 source-storage secrets used by source prep:
+
+- `R2_ACCESS_KEY_ID`
+- `R2_SECRET_ACCESS_KEY`
+- `R2_ACCOUNT_ID` or `R2_ENDPOINT_URL`
+- `R2_BUCKET`
+
+If these R2 secrets are missing, the internal agents can still stage and review conversion-backed material, but image-held reviews stay held instead of being automatically re-queued.
 
 `CODEX_SECRET_UPDATE_TOKEN` must be a GitHub token scoped only to this repository with repository `Secrets` write permission. GitHub's REST API documentation says fine-grained tokens need repository `Secrets` write permission for creating or updating repository secrets; classic PATs need the broader `repo` scope. The workflow uses this token only to rotate `CODEX_AUTH_JSON_B64` after Codex refreshes ChatGPT auth.
 
@@ -68,6 +75,15 @@ The controller refreshes deterministic state, then launches bounded Codex worker
 
 The controller reserves worker slots across lanes instead of draining the first queue forever. When staged review work exists it is preferred, then identity/evidence extraction, while conversion QA continues in a smaller share of each run. This is what moves the tree from converted sources -> staged claims/relationships -> proof review -> canonical wiki pages.
 
+Before worker launch, the workflow and controller also run:
+
+```powershell
+python -m historic_doc_ingest.genealogy_wiki source-relevance sync-review-holds --root .
+python -m historic_doc_ingest.genealogy_wiki source-relevance restore-review-assets --root . --limit 24
+```
+
+That turns proof-review holds such as "page image missing" into exact source/page targets, restores the raw source from R2, regenerates the temporary page image, and releases the old held proof-review task so a worker can re-review it with the image available.
+
 After workers drain, the workflow commits/pushes GitHub-safe research/wiki state through:
 
 ```powershell
@@ -93,7 +109,7 @@ The `Publish Wiki Site` workflow rebuilds the internal Ancestry-style presentati
 
 Converted chunks, source-operation dates, QA prompts, and agent queue internals stay out of the presentation dashboard. Promoted proof-layer relationships can feed the public tree once their people exist; raw staging and queue internals remain in the research backroom.
 
-When proof review holds an item because required page images are missing, the internal controller records a page-level source-relevance hint. The separate source-prep/conversion workflow can then restore images or rerun that page at the requested fidelity without manual queue surgery.
+When proof review holds an item because required page images are missing, the internal controller records a page-level source-relevance hint. The internal workflow then restores the needed raw/page-image assets from R2 for review, while the separate source-prep/conversion workflow can still use the same hint to rerun that page at a higher fidelity when the conversion itself needs improvement.
 
 ## Boundaries
 

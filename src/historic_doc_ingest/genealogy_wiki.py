@@ -5638,6 +5638,190 @@ def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
     }
 
 
+def staged_draft_from_proof_review(text: str) -> str:
+    match = re.search(r"(?m)^staged_draft:\s*`?([^`\r\n]+?)`?\s*$", text)
+    if match:
+        return match.group(1).strip().strip("'\"")
+    match = re.search(r"(?mi)^-\s*Staged draft:\s*`?([^`\r\n]+?)`?\s*$", text)
+    if match:
+        return match.group(1).strip().strip("'\"")
+    return ""
+
+
+def proof_review_has_missing_page_image_hold(text: str) -> bool:
+    lowered = text.lower()
+    return (
+        "canonical_readiness" in lowered
+        and "hold" in lowered
+        and ("page image" in lowered or "page-image" in lowered)
+        and any(term in lowered for term in ("unavailable", "missing", "not present", "could not be performed"))
+    )
+
+
+def proof_review_hold_asset_targets(root: Path) -> list[dict[str, object]]:
+    root = root.resolve()
+    review_dir = root / "research" / "_staging" / "reviews"
+    targets_by_key: dict[tuple[str, int], dict[str, object]] = {}
+    if not review_dir.exists():
+        return []
+
+    for review_path in sorted(review_dir.glob("*.md")):
+        text = read_text(review_path)
+        if not proof_review_has_missing_page_image_hold(text):
+            continue
+        staged_draft = staged_draft_from_proof_review(text)
+        review_rel = review_path.relative_to(root).as_posix()
+        for match in PAGE_IMAGE_RE.finditer(text):
+            job_dir = match.group(1).replace("\\", "/")
+            job_manifest = f"{job_dir}/manifest.json"
+            page_number = int(match.group(2))
+            key = (job_manifest, page_number)
+            target = targets_by_key.setdefault(
+                key,
+                {
+                    "job_manifest": job_manifest,
+                    "page": page_number,
+                    "reviews": [],
+                    "staged_drafts": [],
+                },
+            )
+            reviews = target.setdefault("reviews", [])
+            if isinstance(reviews, list) and review_rel not in reviews:
+                reviews.append(review_rel)
+            staged_drafts = target.setdefault("staged_drafts", [])
+            if isinstance(staged_drafts, list) and staged_draft and staged_draft not in staged_drafts:
+                staged_drafts.append(staged_draft)
+
+    return list(targets_by_key.values())
+
+
+def restore_proof_review_hold_assets(
+    root: Path,
+    *,
+    limit: int = 0,
+    force: bool = False,
+) -> dict[str, object]:
+    """Restore raw/page-image assets needed to rerun held proof reviews."""
+    root = root.resolve()
+    targets = proof_review_hold_asset_targets(root)
+    if limit > 0:
+        targets = targets[:limit]
+
+    summary: dict[str, object] = {
+        "target_count": len(targets),
+        "restored_raw": 0,
+        "skipped_raw": 0,
+        "restored_page_images": 0,
+        "released_tasks": [],
+        "errors": [],
+        "blockers": [],
+    }
+    if not targets:
+        return summary
+
+    config = None
+    task_ids_to_release: list[str] = []
+
+    for target in targets:
+        job_manifest = str(target.get("job_manifest", "")).strip()
+        page_number = safe_int(target.get("page"), 0)
+        manifest_path = root / job_manifest
+        if not job_manifest or page_number < 1 or not manifest_path.exists():
+            summary["errors"].append(
+                {
+                    "job_manifest": job_manifest,
+                    "page": page_number,
+                    "issue": "missing_job_manifest_or_page",
+                }
+            )
+            continue
+
+        manifest = read_json_payload(manifest_path, {})
+        source_path = str(manifest.get("source_file") or manifest.get("local_staged_source_file") or "").strip()
+        source_sha256 = str(manifest.get("source_sha256") or "").strip()
+        source_file = find_existing_source_file_for_job(root, manifest)
+        if source_file is None:
+            try:
+                if config is None:
+                    config = load_raw_cloud_config(root)
+                restore_report = restore_raw_from_cloud(
+                    root,
+                    config,
+                    source=source_path,
+                    source_sha256=source_sha256,
+                    limit=1,
+                    force=force,
+                )
+                summary["restored_raw"] = int(summary["restored_raw"]) + int(restore_report.get("restored", 0) or 0)
+                summary["skipped_raw"] = int(summary["skipped_raw"]) + int(restore_report.get("skipped", 0) or 0)
+                if restore_report.get("errors"):
+                    summary["errors"].append(
+                        {
+                            "job_manifest": job_manifest,
+                            "page": page_number,
+                            "issue": "raw_restore_errors",
+                            "errors": restore_report.get("errors"),
+                        }
+                    )
+            except Exception as exc:
+                summary["blockers"].append(f"raw restore failed for {job_manifest} page {page_number}: {exc}")
+                continue
+
+        page_spec = find_manifest_page_spec(manifest, page_number)
+        page_image = str(page_spec.get("image_path", "")).strip()
+        batch = {
+            "job_manifest": job_manifest,
+            "page": page_number,
+            "page_image": page_image,
+        }
+        try:
+            regenerated = ensure_source_prep_page_image(root, batch)
+        except Exception as exc:
+            summary["errors"].append(
+                {
+                    "job_manifest": job_manifest,
+                    "page": page_number,
+                    "issue": "page_image_regeneration_failed",
+                    "error": str(exc),
+                }
+            )
+            continue
+        if regenerated is None or not regenerated.exists():
+            summary["errors"].append(
+                {
+                    "job_manifest": job_manifest,
+                    "page": page_number,
+                    "issue": "page_image_not_restored",
+                }
+            )
+            continue
+
+        summary["restored_page_images"] = int(summary["restored_page_images"]) + 1
+        staged_drafts = target.get("staged_drafts", [])
+        if isinstance(staged_drafts, list):
+            for staged_draft in staged_drafts:
+                staged_text = str(staged_draft).strip()
+                if staged_text:
+                    task_ids_to_release.append(f"proof-review:{staged_text}")
+
+    task_ids_to_release = sorted(set(task_ids_to_release))
+    if task_ids_to_release:
+        update_agent_task_states(
+            root,
+            task_ids_to_release,
+            "released",
+            agent="post-conversion-review-assets",
+            note="restored proof-review page image asset; rerun review",
+        )
+        summary["released_tasks"] = task_ids_to_release
+        append_log(
+            root / "research" / "log.md",
+            f"source-relevance | Restored proof-review assets and released {len(task_ids_to_release)} review task(s)",
+        )
+
+    return summary
+
+
 def proof_review_feedback_relevance(text: str) -> str:
     match = re.search(r"relevance_level\s*:\s*([a-zA-Z_ -]+)", text, flags=re.IGNORECASE)
     if match:
@@ -12908,7 +13092,11 @@ def build_parser() -> argparse.ArgumentParser:
         "source-relevance",
         help="Record or list research-to-conversion relevance feedback.",
     )
-    source_relevance_parser.add_argument("action", choices=["mark", "list", "sync-review-holds"], help="Action to run.")
+    source_relevance_parser.add_argument(
+        "action",
+        choices=["mark", "list", "sync-review-holds", "restore-review-assets"],
+        help="Action to run.",
+    )
     source_relevance_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     source_relevance_parser.add_argument("--task-id", default="", help="Source-prep task id to target.")
     source_relevance_parser.add_argument("--job-manifest", default="", help="Conversion job manifest path to target.")
@@ -12940,6 +13128,17 @@ def build_parser() -> argparse.ArgumentParser:
     source_relevance_parser.add_argument("--entity", action="append", default=[], help="Family person/entity this hint relates to. May repeat.")
     source_relevance_parser.add_argument("--term", action="append", default=[], help="Matched family term or search clue. May repeat.")
     source_relevance_parser.add_argument("--agent", default="", help="Research agent label recording the hint.")
+    source_relevance_parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="For restore-review-assets, maximum proof-review image-hold targets to restore. 0 means no cap.",
+    )
+    source_relevance_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="For restore-review-assets, overwrite restored raw files if their local hash differs.",
+    )
 
     conversion_qc_parser = subparsers.add_parser(
         "conversion-qc",
@@ -13490,6 +13689,11 @@ def main(argv: list[str] | None = None) -> int:
         if args.action == "sync-review-holds":
             summary = sync_proof_review_hold_feedback(args.root)
             print("source-relevance sync-review-holds | summary")
+            print(json.dumps(summary, indent=2, ensure_ascii=False))
+            return 0
+        if args.action == "restore-review-assets":
+            summary = restore_proof_review_hold_assets(args.root, limit=args.limit, force=args.force)
+            print("source-relevance restore-review-assets | summary")
             print(json.dumps(summary, indent=2, ensure_ascii=False))
             return 0
         path, hint = mark_source_relevance_feedback(

@@ -38,6 +38,7 @@ from historic_doc_ingest.genealogy_wiki import (
     source_prep_page_cache_path,
     source_prep_fastlane_run,
     source_relevance_hint_matches_task,
+    restore_proof_review_hold_assets,
     sync_proof_review_hold_feedback,
     review_source_prep_page_output,
     sync_vault_transcriptions,
@@ -1656,6 +1657,84 @@ canonical_readiness: hold
 
     second_summary = sync_proof_review_hold_feedback(tmp_path)
     assert second_summary["changed_count"] == 0
+
+
+def test_restore_proof_review_hold_assets_restores_image_and_requeues_review(tmp_path, monkeypatch) -> None:
+    init_genealogy_wiki(tmp_path)
+    job_dir = tmp_path / "raw" / "codex-conversion-jobs" / "job-one"
+    job_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = job_dir / "manifest.json"
+    manifest_path.write_text(
+        json.dumps(
+            {
+                "source_file": "raw/sources/register.png",
+                "source_sha256": "abc123",
+                "media_type": "image",
+                "pages": [
+                    {
+                        "page": 4,
+                        "source_page": 1,
+                        "image_path": "raw/codex-conversion-jobs/job-one/page-images/page-0004.png",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    draft = tmp_path / "research" / "_staging" / "relationships" / "register-relationships.md"
+    draft.parent.mkdir(parents=True, exist_ok=True)
+    draft.write_text("# Staged Relationships\n", encoding="utf-8")
+    review = tmp_path / "research" / "_staging" / "reviews" / "register-proof-review.md"
+    review.parent.mkdir(parents=True, exist_ok=True)
+    review.write_text(
+        """---
+type: proof_review
+staged_draft: research/_staging/relationships/register-relationships.md
+canonical_readiness: hold
+---
+
+# Proof Review
+
+## Blockers
+
+- The rendered page image is missing at `raw/codex-conversion-jobs/job-one/page-images/page-0004.png`.
+- Source image review could not be performed.
+""",
+        encoding="utf-8",
+    )
+    update_agent_task_state(
+        tmp_path,
+        "proof-review:research/_staging/relationships/register-relationships.md",
+        "done",
+        agent="old-reviewer",
+    )
+
+    png_bytes = (
+        b"\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x00\x01\x00\x00\x00\x01"
+        b"\x08\x02\x00\x00\x00\x90wS\xde\x00\x00\x00\x0cIDATx\x9cc```\x00\x00\x00"
+        b"\x04\x00\x01\xf6\x178U\x00\x00\x00\x00IEND\xaeB`\x82"
+    )
+
+    def fake_restore_raw(root, config, **kwargs):
+        del config, kwargs
+        source = root / "raw" / "sources" / "register.png"
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_bytes(png_bytes)
+        return {"restored": 1, "skipped": 0, "errors": []}
+
+    monkeypatch.setattr(genealogy_wiki, "load_raw_cloud_config", lambda root: object())
+    monkeypatch.setattr(genealogy_wiki, "restore_raw_from_cloud", fake_restore_raw)
+
+    summary = restore_proof_review_hold_assets(tmp_path)
+
+    assert summary["restored_raw"] == 1
+    assert summary["restored_page_images"] == 1
+    assert (job_dir / "page-images" / "page-0004.png").exists()
+    task_state = genealogy_wiki.load_agent_task_state(tmp_path)
+    assert (
+        task_state["proof-review:research/_staging/relationships/register-relationships.md"]["status"]
+        == "released"
+    )
 
 
 def test_source_prep_fastlane_completes_born_digital_pdf_pages(tmp_path) -> None:
