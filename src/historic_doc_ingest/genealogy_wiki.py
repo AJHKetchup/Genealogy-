@@ -5529,6 +5529,7 @@ def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
     candidates = 0
     now = utc_timestamp()
     touched_reviews: set[str] = set()
+    seen_this_sync: set[str] = set()
     if not review_dir.exists():
         return {
             "review_count": 0,
@@ -5566,7 +5567,7 @@ def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
                 "relevance": relevance,
                 "requested_treatment": treatment,
                 "reason": (
-                    f"Proof review hold in {review_rel}: rendered page image is missing; "
+                    "Proof review hold: rendered page image is missing; "
                     "restore/generate the page image and rerun conversion QA before canonical promotion."
                 ),
                 "entities": proof_review_feedback_entities(text),
@@ -5575,7 +5576,12 @@ def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
             }
             hint["id"] = source_relevance_hint_identity(hint)
             candidates += 1
-            existing_index = by_id.get(str(hint["id"]))
+            hint_id = str(hint["id"])
+            if hint_id in seen_this_sync:
+                touched_reviews.add(review_rel)
+                continue
+            seen_this_sync.add(hint_id)
+            existing_index = by_id.get(hint_id)
             if existing_index is not None and isinstance(hints[existing_index], dict):
                 existing = dict(hints[existing_index])
                 hint["created"] = str(existing.get("created") or now)
@@ -5586,7 +5592,7 @@ def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
                 hints[existing_index] = hint
             else:
                 hints.append(hint)
-                by_id[str(hint["id"])] = len(hints) - 1
+                by_id[hint_id] = len(hints) - 1
             changed += 1
             touched_reviews.add(review_rel)
 
