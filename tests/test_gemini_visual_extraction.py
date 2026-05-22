@@ -684,7 +684,7 @@ def test_gemini_flash_max_tokens_retries_next_as_pro(tmp_path, monkeypatch) -> N
 
     def fake_gemini(**kwargs):
         assert kwargs["model"] == "gemini-2.5-flash"
-        assert kwargs["max_output_tokens"] == 65536
+        assert kwargs["max_output_tokens"] == 8192
         assert kwargs["thinking_budget"] == 0
         return {
             "text": "",

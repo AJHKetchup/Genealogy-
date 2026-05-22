@@ -9315,7 +9315,7 @@ def source_prep_gemini_run(
     api_key: str = "",
     lite_model: str = GEMINI_SOURCE_PREP_LITE_MODEL,
     pro_model: str = GEMINI_SOURCE_PREP_PRO_MODEL,
-    max_output_tokens_lite: int = 65536,
+    max_output_tokens_lite: int = 8192,
     max_output_tokens_pro: int = 65536,
     thinking_budget_lite: int | None = 0,
     thinking_budget_pro: int | None = None,
@@ -12786,8 +12786,8 @@ def build_parser() -> argparse.ArgumentParser:
     gemini_source_prep_parser.add_argument(
         "--max-output-tokens-lite",
         type=int,
-        default=65536,
-        help="Max output tokens for lite-model pages. Default: 65536.",
+        default=8192,
+        help="Max output tokens for lite-model pages. Default: 8192.",
     )
     gemini_source_prep_parser.add_argument(
         "--max-output-tokens-pro",
@@ -12801,7 +12801,7 @@ def build_parser() -> argparse.ArgumentParser:
         default=0,
         help=(
             "Thinking token budget for lite-model pages. Default: 0, which keeps Flash fallback cheap "
-            "while preserving the full output-token ceiling."
+            "while Pro remains available for pages that exceed the lite output ceiling."
         ),
     )
     gemini_source_prep_parser.add_argument(

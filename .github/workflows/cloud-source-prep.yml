@@ -115,18 +115,18 @@ jobs:
       PYTHONPATH: src
       PIP_NO_CACHE_DIR: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
-      RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}
-      RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '128' }}
+      RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || github.event_name == 'push' && '40' || '8000' }}
+      RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || github.event_name == 'push' && '8' || '128' }}
       RUN_RAW_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.raw_limit || '500' }}
       RUN_SOURCE: ${{ github.event_name == 'schedule' && '' || github.event.inputs.source || '' }}
       RUN_SOURCE_SHA256: ${{ github.event_name == 'schedule' && '' || github.event.inputs.source_sha256 || '' }}
       RUN_PAGES: ${{ github.event_name == 'schedule' && '' || github.event.inputs.pages || '' }}
       RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.new_pages_limit || '8000' }}
       RUN_DISCOVERY_LIMIT: ${{ github.event_name == 'schedule' && '0' || github.event.inputs.discovery_limit || '0' }}
-      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || '300' }}
+      RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_scan_limit || github.event_name == 'push' && '60' || '300' }}
       RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_parallelism || '4' }}
       RUN_DISCOVERY_MAX_PAGES_PER_SOURCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_max_pages_per_source || '0' }}
-      RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || '12' }}
+      RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_limit || github.event_name == 'push' && '2' || '12' }}
       RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_ocr_parallelism || '2' }}
       RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_document_timeout || '45' }}
       RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.discovery_hard_timeout || '45' }}
@@ -306,7 +306,7 @@ jobs:
             --stale-minutes 360 \
             --lite-model gemini-2.5-flash \
             --pro-model gemini-2.5-pro \
-            --max-output-tokens-lite 65536 \
+            --max-output-tokens-lite 8192 \
             --max-output-tokens-pro 65536 \
             --thinking-budget-lite 0 \
             --crop-count 4 \

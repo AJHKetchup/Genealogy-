@@ -1168,8 +1168,14 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_tesseract_o
     assert "pytesseract>=0.3.10" in pyproject
     assert "--defer-page-images" in workflow
     assert "--no-job-source-copy" in workflow
-    assert "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || '8000' }}" in workflow
-    assert "RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || '128' }}" in workflow
+    assert (
+        "RUN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.limit || "
+        "github.event_name == 'push' && '40' || '8000' }}"
+    ) in workflow
+    assert (
+        "RUN_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.parallelism || "
+        "github.event_name == 'push' && '8' || '128' }}"
+    ) in workflow
     assert "RUN_RAW_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.raw_limit || '500' }}" in workflow
     assert (
         "RUN_NEW_PAGES_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1177,7 +1183,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_tesseract_o
     ) in workflow
     assert (
         "RUN_DISCOVERY_SCAN_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_scan_limit || '300' }}"
+        "github.event.inputs.discovery_scan_limit || github.event_name == 'push' && '60' || '300' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1189,7 +1195,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_tesseract_o
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_ocr_limit || '12' }}"
+        "github.event.inputs.discovery_ocr_limit || github.event_name == 'push' && '2' || '12' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_OCR_PARALLELISM: ${{ github.event_name == 'workflow_dispatch' && "
@@ -1231,6 +1237,7 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_tesseract_o
     assert "--fastlane-scan-limit \"$RUN_FASTLANE_SCAN_LIMIT\"" in workflow
     assert "default: \"0\"" in workflow
     assert "--fallback-policy \"$RUN_GEMINI_FALLBACK_POLICY\"" in workflow
+    assert "--max-output-tokens-lite 8192" in workflow
     assert "default: \"large_corpus_relevance\"" in workflow
     assert "--economy-large-source-pages \"$RUN_ECONOMY_LARGE_SOURCE_PAGES\"" in workflow
     assert "--thinking-budget-lite 0" in workflow
