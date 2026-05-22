@@ -14,7 +14,7 @@ chunk_id: CHUNK-d6a12b291d94-P0172-01
 page_reference: page 172; entries 513-515
 page_start: 172
 page_end: 172
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Source Packet: Los Anjeles Birth Register, 1889, Page 172
@@ -43,12 +43,12 @@ This packet covers page 172 of the civil birth register for the Circunscripcion 
 
 ## Conversion Confidence / QA Concern
 
-The chunk states that there are no uncertain or illegible portions and that all three entries and marginalia are transcribed. The transcription is still a derivative conversion and should receive proof review against the source image before promotion.
+The chunk states that there are no uncertain or illegible portions and that all three entries and marginalia are transcribed. Proof review of the available source PNG found that entry 515 is cut off at the bottom of the image: the entry context, child-name area, father field, and father-as-declarant area are at least partly visible, but the mother field for `Carmen Fuentes` is not visible in the reviewed image area. Preserve the converted transcript as derivative support, but hold entry 515 claims that depend on the cropped lower row until a complete source image or continuation image is checked.
 
 ## Uncertainty
 
-No specific uncertainty is recorded in the assigned chunk. Preserve original spellings such as `Rejistro`, `Circunscripcion`, `Los Anjeles`, and `i` in literal quotation.
+No specific uncertainty is recorded in the assigned chunk. Image-level review adds uncertainty for entry 515, especially the full child name and the mother field. Preserve original spellings such as `Rejistro`, `Circunscripcion`, `Los Anjeles`, and `i` in literal quotation.
 
 ## Promotion Recommendation
 
-Promote after proof review.
+Hold for conversion QA before promoting entry 515 evidence. Entries 513 and 514 may still proceed through ordinary proof review if reviewed independently.

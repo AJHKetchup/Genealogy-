@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0172-chunk-01.md
 chunk_id: CHUNK-d6a12b291d94-P0172-01
 page_reference: page 172; entry 515
-confidence: 8.0
-promotion_recommendation: promote_after_review
+confidence: 6.2
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Child Name And Sex
@@ -26,8 +26,8 @@ Sexo. Femenino
 
 ## Conversion Confidence / QA Concern
 
-High within the converted chunk; proof review against the source image remains required.
+Medium within the converted chunk after proof-review revision. The converted text reads `Rosa Elvira del Carmen` and `Femenino`, but the available source PNG cuts off the lower portion of entry 515. The visible child-name area appears generally consistent with the converted reading, while the full given-name string is not cleanly verifiable from the available image alone.
 
 ## Uncertainty
 
-No specific uncertainty noted in the chunk.
+The converted chunk records no uncertainty, but image review adds uncertainty for the full child name because entry 515 is only partially visible at the bottom of the source PNG. Hold until a complete source image or continuation image confirms the full name and sex field.

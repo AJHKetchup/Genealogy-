@@ -8,7 +8,7 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0172-chunk-01.md
 chunk_id: CHUNK-d6a12b291d94-P0172-01
 page_reference: page 172; entries 513-515
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Identity Candidates
@@ -19,11 +19,11 @@ See the table below for the exact supporting phrases tied to each identity candi
 
 ## Conversion Confidence / QA Concern
 
-The converted chunk reports no uncertain or illegible portions. These identity candidates should still receive proof review against the source image before canonical promotion.
+The converted chunk reports no uncertain or illegible portions. Proof review adds a specific image-level crop concern for entry 515: the available PNG only partially shows the lower row, and the mother field for `Carmen Fuentes` is not visible in the reviewed image area.
 
 ## Uncertainty
 
-Primary uncertainties are identity resolution after promotion, proof-reading the maternal surname `Amagada`, not over-interpreting Juan Soler as a father, and avoiding witness-only merges.
+Primary uncertainties are identity resolution after promotion, proof-reading the maternal surname `Amagada`, not over-interpreting Juan Soler as a father, avoiding witness-only merges, and holding entry 515 identities that depend on the cropped lower row until conversion QA.
 
 | Candidate | Literal support | Conversion confidence / QA concern | Uncertainty | Promotion recommendation |
 | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Primary uncertainties are identity resolution after promotion, proof-reading the
 | Belisario Riquelme | Father field in entry 514. | Medium-high for name; attributes are blank. | Sparse father details increase identity-resolution risk. | Promote after review. |
 | Mercedes Riquelme | Mother and declarant in entry 514; wife of Juan Soler. | High within the converted chunk. | Spouse clue should not be conflated with father field. | Promote after review. |
 | Juan Soler | Named as spouse of Mercedes Riquelme in entry 514. | High within the converted chunk. | Not stated as child father in this entry. | Promote after review. |
-| Rosa Elvira del Carmen | `Nombre. Rosa Elvira del Carmen`; `Sexo. Femenino`; entry 515. | High within the converted chunk. | Needs proof review before canonical creation. | Promote after review. |
-| Pedro Pablo Leiva | Father and declarant in entry 515. | High within the converted chunk. | Declarant age and occupation should be attached only after proof review. | Promote after review. |
-| Carmen Fuentes | Mother field in entry 515. | High within the converted chunk. | Needs proof review before canonical creation. | Promote after review. |
+| Rosa Elvira del Carmen | `Nombre. Rosa Elvira del Carmen`; `Sexo. Femenino`; entry 515. | Medium after image review; visible child-name area is partial and generally consistent with the conversion, but the full name is not cleanly verifiable from the cropped PNG. | Hold until a complete source image or continuation image confirms the full child name. | Hold for conversion QA. |
+| Pedro Pablo Leiva | Father and declarant in entry 515. | Medium-high; visible image supports the father/declarant name, but entry-level QA remains because the child full name and lower row are cropped. | Declarant age and occupation should be attached only after complete-row QA. | Hold for conversion QA. |
+| Carmen Fuentes | Mother field in entry 515. | Low-to-medium for promotion; present in the converted chunk but not visible in the reviewed PNG area. | Do not canonicalize as mother from this packet until the mother field is image-verified. | Hold for conversion QA. |
 | Witnesses Benjamin Utria, Ignacio Jara, Jose D. Ramirez, Santiago Fuentes | Witness fields for entries 514 and 515. | Medium-high within the converted chunk. | Witness-only mentions should not be merged without corroboration. | Do not promote. |

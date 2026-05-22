@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0172-chunk-01.md
 chunk_id: CHUNK-d6a12b291d94-P0172-01
 page_reference: page 172; entry 515
-confidence: 8.0
-promotion_recommendation: promote_after_review
+confidence: 6.0
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Birth Date, Time, And Place
@@ -26,8 +26,8 @@ Lugar. Calle San Joaquin
 
 ## Conversion Confidence / QA Concern
 
-High within the converted chunk; proof review against the source image remains required.
+Medium within the converted chunk after proof-review revision. The date line is partly visible in the cropped lower entry, but the full birth date, time, and place should be checked against a complete source image before canonical promotion.
 
 ## Uncertainty
 
-No specific uncertainty noted in the chunk.
+The converted chunk records no uncertainty, but image review adds an entry-level crop concern for entry 515.

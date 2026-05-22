@@ -13,6 +13,17 @@ Use `$genealogy-claim-extraction`.
 - Staging area: `research/_staging`
 
 
+## Proof Review Revision Context
+
+Previous proof review found staged outputs for this chunk were not yet promotion-ready. Use these notes as revision context, not as authority to alter source text.
+
+| Review | Staged draft | Readiness | Requested follow-up |
+| --- | --- | --- | --- |
+| `research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-d6a12b291d94-p0172-01-515-child-father-postconv-proof-review-20260522062924155.md` | `research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-child-father.md` | `hold` | Hold this staged relationship pending a complete source image or continuation-image check for entry 515, focusing on the full child-name field and the complete row context. Do not alter the transcription from derivative context alone; only revise the claim if visible source evidence supports the revision. |
+| `research/_staging/reviews/proof-review-research-staging-relationships-rel-stage-chunk-d6a12b291d94-p0172-01-515-child-parents-postconv-proof-review-20260522061147049.md` | `research/_staging/relationships/REL-STAGE-CHUNK-d6a12b291d94-P0172-01-515-child-parents.md` | `hold` | Hold this staged relationship and run conversion QA against a complete source image or continuation image for entry 515, focusing on the child full name and the mother field. Do not promote the combined child-parents relationship until `Carmen Fuentes` is verified from visible source evidence or the candidate is revised to match the portion that can be supported. |
+
+When revising, do not edit raw sources, converted Markdown, chunks, or page Markdown. Write new or updated staged drafts and/or conversion-review correction notes that preserve the disagreement between derivative transcripts and image-reviewed evidence. If the evidence remains blocked, keep `promotion_recommendation: hold_for_conversion_qa` and make the blocker explicit.
+
 
 ## Done When
 

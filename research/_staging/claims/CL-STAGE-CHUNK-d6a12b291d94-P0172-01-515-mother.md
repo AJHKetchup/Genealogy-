@@ -11,8 +11,8 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0172-chunk-01.md
 chunk_id: CHUNK-d6a12b291d94-P0172-01
 page_reference: page 172; entry 515
-confidence: 8.0
-promotion_recommendation: promote_after_review
+confidence: 4.5
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Atomic Claim: Entry 515 Mother
@@ -27,8 +27,8 @@ Domicilio Calle San Joaquin
 
 ## Conversion Confidence / QA Concern
 
-High within the converted chunk; proof review remains required.
+Low-to-medium for promotion because support is derivative only at this review stage. The converted chunk reads `Nombre de la madre. Carmen Fuentes`, `Nac. Chilena`, `Prof. Sus labores de casa`, and `Domicilio Calle San Joaquin`, but proof review found that the mother field for entry 515 is below the visible/cropped area of the available source PNG.
 
 ## Uncertainty
 
-No specific uncertainty noted in the chunk.
+The converted chunk records no uncertainty, but the mother field is not image-verified from the available PNG. Do not promote `Carmen Fuentes` as the mother of the child in entry 515 until a complete source image or continuation image confirms the field.

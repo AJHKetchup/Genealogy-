@@ -11,8 +11,8 @@ You are not alone in the codebase. Other workers may be handling separate staged
 ## Assignment
 
 - Role: identity_researcher
-- Staged $Kind draft: $RelativePath
-- Output area: esearch/_staging/identity-analysis/
+- Staged identity draft: research/_staging/identity/id-chunk-3d3ab761209f-p0001-01-conversion-conflict-candidates.md
+- Output area: research/_staging/identity-analysis/
 
 ## Rules
 
@@ -23,9 +23,9 @@ You are not alone in the codebase. Other workers may be handling separate staged
 - Keep literal source readings separate from interpretation. Family-context hints can justify a double-check, not a silent correction.
 - Preserve multiple hypotheses when identity is uncertain.
 - Score identity confidence, conflict severity, evidence quality, conversion confidence, claim probability, relevance, and canonical readiness.
-- Write one analysis note under esearch/_staging/identity-analysis/ that references the exact staged draft.
+- Write one analysis note under research/_staging/identity-analysis/ that references the exact staged draft.
 
 ## Done When
 
-- An identity/conflict analysis note exists under esearch/_staging/identity-analysis/.
+- An identity/conflict analysis note exists under research/_staging/identity-analysis/.
 - The note lists blockers first, then evidence supporting each hypothesis, conflicts, probability/confidence scores, and recommended next action.

@@ -11,21 +11,21 @@ You are not alone in the codebase. Other workers may be handling separate staged
 ## Assignment
 
 - Role: claim_reviewer
-- Staged draft: $RelativePath
-- Output area: esearch/_staging/reviews/
+- Staged draft: research/_staging/claims/CL-STAGE-CHUNK-3661a25ff4f5-P0004-01-antamina-local-authorities.md
+- Output area: research/_staging/reviews/
 
 ## Rules
 
 - Read the staged draft and only the referenced converted file, chunk, page image, source packet, QA note, or source page needed to verify it.
 - Check literal support, uncertainty, source reliability, conversion confidence, claim confidence, identity risk, relationship jumps, conflicts, relevance, and claim probability.
-- Treat proof as a scored judgment, not a promoted/not-promoted binary. Include source_quality_score, conversion_confidence_score, evidence_quantity_score, greement_score, identity_confidence_score, claim_probability, elevance_level, elevance_confidence, and canonical_readiness.
+- Treat proof as a scored judgment, not a promoted/not-promoted binary. Include source_quality_score, conversion_confidence_score, evidence_quantity_score, agreement_score, identity_confidence_score, claim_probability, relevance_level, relevance_confidence, and canonical_readiness.
 - Maintain the hard boundary between verification context and source transcription. "Please double-check whether this is Dario" is allowed; "change this to Dario" is forbidden unless the visible source itself supports that reading.
-- If support is missing or the referenced conversion/chunk is unavailable, mark the item hold or evise; do not guess.
-- Write a review note under esearch/_staging/reviews/ that references this exact staged draft.
-- Do not promote to esearch/claims, esearch/relationships, wiki/people, wiki/families, or other canonical folders.
+- If support is missing or the referenced conversion/chunk is unavailable, mark the item hold or revise; do not guess.
+- Write a review note under research/_staging/reviews/ that references this exact staged draft.
+- Do not promote to research/claims, research/relationships, wiki/people, wiki/families, or other canonical folders.
 
 ## Done When
 
-- A review note exists under esearch/_staging/reviews/.
+- A review note exists under research/_staging/reviews/.
 - The note includes probability/evidence scoring plus canonical_readiness.
 - The note lists blockers first, then evidence strengths and next action.

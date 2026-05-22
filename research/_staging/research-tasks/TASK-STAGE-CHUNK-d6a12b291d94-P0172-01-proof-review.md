@@ -8,14 +8,14 @@ converted_file: raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nac
 chunk: raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0172-chunk-01.md
 chunk_id: CHUNK-d6a12b291d94-P0172-01
 page_reference: page 172; entries 513-515
-promotion_recommendation: promote_after_review
+promotion_recommendation: hold_for_conversion_qa
 ---
 
 # Research Task: Proof Review Page 172 Birth Register Claims
 
 ## Task
 
-Proof-read entries 513, 514, and 515 against the original source image before promotion to canonical wiki pages.
+Run conversion QA for entry 515 against a complete source image or continuation image before promotion to canonical wiki pages. Ordinary proof review is still appropriate for entries 513 and 514.
 
 ## Literal Support
 
@@ -29,8 +29,8 @@ The entire page, including all three birth records (513, 514, 515) and marginali
 
 ## Conversion Confidence / QA Concern
 
-The converted chunk reports complete transcription and no uncertainty. Because the staged drafts create promotable identity and relationship candidates, a reviewer should still verify names, dates, places, and the official/witness fields against the image.
+The converted chunk reports complete transcription and no uncertainty. Proof review of the available PNG found a specific blocker for entry 515: the lower row is cropped, so the mother field for `Carmen Fuentes` is not visible in the reviewed image area. A reviewer should verify the full child name, sex, birth date/place, father/declarant details, and mother field against a complete source image or continuation image.
 
 ## Uncertainty
 
-Specific proof-review priorities: entry 513 maternal surname `Amagada`; entry 514 father field and blank attributes; entry 514 spouse clue `Esposa de Juan Soler`; witness surnames; and the official signature.
+Specific proof-review priorities: entry 515 full child name and mother field; entry 513 maternal surname `Amagada`; entry 514 father field and blank attributes; entry 514 spouse clue `Esposa de Juan Soler`; witness surnames; and the official signature.
