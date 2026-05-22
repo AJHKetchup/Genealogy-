@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 41 | critical | low | reread-page | none | Juan, Luis, Riquelme, relationships |
+| 41 | critical | low | reread-page | none | Juan, Luis, Riquelme |
 | 2 | critical | low | reread-page | none | Carmen, Juan, Luis |
-| 43 | medium | high | pass | none | relationships |
-| 44 | critical | low | reread-page | none | Arturo, Carmen, Juan, relationships |
-| 45 | critical | low | reread-page | none | Arturo, Juan, Juana, Luis, relationships |
-| 46 | critical | low | reread-page | none | Juan, Luis, Smith, relationships |
-| 47 | high | high | pass | none | Heinz, Luis, relationships |
-| 48 | critical | low | reread-page | none | Juan, Luis, Riquelme, relationships |
-| 49 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis, relationships |
-| 50 | high | high | pass | none | Arturo, Luis, relationships |
-| 51 | critical | low | reread-page | none | Arturo, Heinz, Juan, Luis, relationships |
-| 52 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |
-| 53 | critical | low | reread-page | none | Arturo, Dios, Juan, relationships |
-| 54 | high | high | pass | none | Arturo, Luis, relationships |
-| 55 | critical | low | reread-page | none | Arturo, Carmen, Juan, relationships |
+| 43 | none | high | pass | none | none |
+| 44 | critical | low | reread-page | none | Arturo, Carmen, Juan |
+| 45 | critical | low | reread-page | none | Arturo, Juan, Juana, Luis |
+| 46 | critical | low | reread-page | none | Juan, Luis, Smith |
+| 47 | medium | high | pass | none | Heinz, Luis |
+| 48 | critical | low | reread-page | none | Juan, Luis, Riquelme |
+| 49 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis |
+| 50 | medium | high | pass | none | Arturo, Luis |
+| 51 | critical | low | reread-page | none | Arturo, Heinz, Juan, Luis |
+| 52 | critical | low | reread-page | none | Carmen, Juan, Luis |
+| 53 | critical | low | reread-page | none | Arturo, Dios, Juan |
+| 54 | medium | high | pass | none | Arturo, Luis |
+| 55 | critical | low | reread-page | none | Arturo, Carmen, Juan |
 | 16 | critical | low | reread-page | none | Alexander, Juan, Riquelme |
-| 57 | critical | low | reread-page | none | Juan, Luis, Smith, relationships |
-| 58 | critical | low | reread-page | none | Juan, relationships |
-| 59 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 60 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
+| 57 | critical | low | reread-page | none | Juan, Luis, Smith |
+| 58 | critical | low | reread-page | none | Juan |
+| 59 | critical | low | reread-page | none | Juan, Luis |
+| 60 | critical | low | reread-page | none | Arturo, Juan, Luis |

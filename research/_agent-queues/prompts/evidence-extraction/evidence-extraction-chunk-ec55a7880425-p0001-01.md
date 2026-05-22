@@ -5,12 +5,15 @@ Use `$genealogy-claim-extraction`.
 ## Assignment
 
 - Role: `evidence_extractor`
-- Chunk: `raw/chunks/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2-codex/page-0001-chunk-01.md`
+- Chunk: `raw/chunks/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dari-c668fc37ec/page-0001-chunk-01.md`
 - Converted source: `raw/converted/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2.codex.md`
-- Chunk manifest: `raw/chunks/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dario-jose-pulgar-arriagada-at-table-9-seat-2-codex/manifest.json`
+- Chunk manifest: `raw/chunks/ca99541c19-photograph-of-the-geneva-photograph-of-the-geneva-convention-assembly-dari-c668fc37ec/manifest.json`
 - Original source: `raw/sources/Photographs of the 1929 Geneva Convention showing Dario Jose Pulgar-Arriagada ICRC Audiovisual archives_files/Photograph of the Geneva Convention assembly (Dario Jose Pulgar-Arriagada at Table 9 Seat 2).jpg`
 - Page range: 1-1
 - Staging area: `research/_staging`
+- Family relevance: `high`
+- Matched family terms: Dario, Jose, Pulgar
+- Evidence priority: `1001` (family_relevance:high, qc:pass, matched_terms)
 
 
 
@@ -21,5 +24,6 @@ Use `$genealogy-claim-extraction`.
 - Source packets must be Markdown files under `research/_staging/source-packets/` with YAML frontmatter including `type: source_packet`, `status: draft`, source identity fields, chunk/page references, and `promotion_recommendation`.
 - Atomic claim drafts that may become canonical must be individual Markdown files under `research/_staging/claims/` with YAML frontmatter including `type: claim`, `claim_type`, `subject`, `predicate`, `object`, `source`, `source_packet`, `chunk`, `chunk_id`, `page_reference`, `confidence`, and `promotion_recommendation`. A grouped claim overview can be written as an extra note, but not instead of promotable atomic claim files.
 - Relationship candidates that may become tree links must be individual Markdown files under `research/_staging/relationships/` with YAML frontmatter including `type: relationship_candidate`, `relationship_type`, `person_a`/`person_b` or `child`/`parents`, `source_packet`, `confidence`, and `promotion_recommendation`. If no relationship is stated, write a negative-evidence note with `promotion_recommendation: do_not_promote`.
+- If the chunk has low or no family relevance and no explicit family clue, do not fan out broad historical or official-name claims. Write at most a concise source-scope or negative-evidence note, then stop.
 - Use `promotion_recommendation: promote_after_review` only for drafts that can be promoted after proof review. Use `hold_for_conversion_qa`, `revise_before_review`, or `do_not_promote` for anything that should not flow to the tree yet.
 - No canonical wiki pages are edited by this extraction task.

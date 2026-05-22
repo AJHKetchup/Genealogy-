@@ -21,19 +21,9 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Juan`
@@ -51,19 +41,9 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Puga`
   Suspected reading: `Pulgar`
   Reason: near match to known family context term `Pulgar`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Juan`
@@ -91,11 +71,6 @@
   Reason: near match to known family context term `Juana`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Puga`
   Suspected reading: `Pulgar`
   Reason: near match to known family context term `Pulgar`
@@ -104,11 +79,6 @@
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
   Verification target: reread the page image or exact region before using this in a claim.
 
 - Literal converted text: `Puga`

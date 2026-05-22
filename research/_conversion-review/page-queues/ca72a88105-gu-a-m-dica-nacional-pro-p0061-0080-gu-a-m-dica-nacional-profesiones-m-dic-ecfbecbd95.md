@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 62
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 63
 
@@ -28,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Carmen, Juan, Luis, relationships
+- Matched family context: Carmen, Juan, Luis
 
 ### Page 64
 
@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Carmen, Juan, Luis, relationships
+- Matched family context: Carmen, Juan, Luis
 
 ### Page 65
 
@@ -52,7 +52,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, relationships
+- Matched family context: Arturo, Juan, Luis
 
 ### Page 7
 
@@ -68,7 +68,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juana, relationships
+- Matched family context: Arturo, Juana
 
 ### Page 72
 
@@ -76,7 +76,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, relationships
+- Matched family context: Arturo, Juan, Luis
 
 ### Page 73
 
@@ -92,7 +92,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Luis, Mercedes, Riquelme, relationships
+- Matched family context: Arturo, Luis, Mercedes, Riquelme
 
 ### Page 76
 
@@ -100,7 +100,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, John, Juan, Luis, relationships
+- Matched family context: Arturo, John, Juan, Luis
 
 ### Page 17
 
@@ -124,4 +124,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Heinz, Juan, Luis, Riquelme, relationships
+- Matched family context: Heinz, Juan, Luis, Riquelme

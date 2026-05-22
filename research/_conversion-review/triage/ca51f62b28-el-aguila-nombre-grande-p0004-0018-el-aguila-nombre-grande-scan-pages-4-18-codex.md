@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | critical | low | reread-page | none | Jose |
-| 2 | medium | high | pass | none | Starting |
+| 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | critical | low | reread-page | none | Dario, Dios, Juan, Pulgar |
 | 5 | medium | high | pass | none | Pulgar |

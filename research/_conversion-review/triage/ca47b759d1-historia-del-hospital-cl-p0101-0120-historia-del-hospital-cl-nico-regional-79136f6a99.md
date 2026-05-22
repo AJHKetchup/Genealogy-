@@ -10,8 +10,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 101 | none | medium | spot-check | explicit_reread_needed | none |
 | 2 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | Riquelme, Starting |
-| 4 | critical | low | reread-page | none | Riquelme, Starting |
+| 3 | medium | high | pass | none | Riquelme |
+| 4 | medium | high | pass | none | Riquelme |
 | 105 | critical | low | reread-page | explicit_reread_needed | Dios, Juan, Pulgar, Riquelme |
 | 106 | critical | low | reread-page | explicit_reread_needed | Juan |
 | 7 | none | high | pass | none | none |

@@ -5,12 +5,15 @@ Use `$genealogy-claim-extraction`.
 ## Assignment
 
 - Role: `evidence_extractor`
-- Chunk: `raw/chunks/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004-codex/page-0001-chunk-01.md`
+- Chunk: `raw/chunks/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-5c40abe8fd/page-0001-chunk-01.md`
 - Converted source: `raw/converted/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004.codex.md`
-- Chunk manifest: `raw/chunks/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-washington-d-c-nai-number-2848504-record-group-title-records-of-the-immigration-and-naturalization-service-1787-2004-codex/manifest.json`
+- Chunk manifest: `raw/chunks/caccebfd8b-passenger-and-crew-lists-passenger-and-crew-lists-the-national-archives-at-5c40abe8fd/manifest.json`
 - Original source: `raw/sources/Passenger and Crew Lists, The National Archives at Washington, D.C.; NAI Number 2848504; Record Group Title Records of the Immigration and Naturalization Service, 1787–2004.png`
 - Page range: 1-1
 - Staging area: `research/_staging`
+- Family relevance: `medium`
+- Matched family terms: Pulgar
+- Evidence priority: `2001` (family_relevance:medium, qc:pass, matched_terms)
 
 
 
@@ -21,5 +24,6 @@ Use `$genealogy-claim-extraction`.
 - Source packets must be Markdown files under `research/_staging/source-packets/` with YAML frontmatter including `type: source_packet`, `status: draft`, source identity fields, chunk/page references, and `promotion_recommendation`.
 - Atomic claim drafts that may become canonical must be individual Markdown files under `research/_staging/claims/` with YAML frontmatter including `type: claim`, `claim_type`, `subject`, `predicate`, `object`, `source`, `source_packet`, `chunk`, `chunk_id`, `page_reference`, `confidence`, and `promotion_recommendation`. A grouped claim overview can be written as an extra note, but not instead of promotable atomic claim files.
 - Relationship candidates that may become tree links must be individual Markdown files under `research/_staging/relationships/` with YAML frontmatter including `type: relationship_candidate`, `relationship_type`, `person_a`/`person_b` or `child`/`parents`, `source_packet`, `confidence`, and `promotion_recommendation`. If no relationship is stated, write a negative-evidence note with `promotion_recommendation: do_not_promote`.
+- If the chunk has low or no family relevance and no explicit family clue, do not fan out broad historical or official-name claims. Write at most a concise source-scope or negative-evidence note, then stop.
 - Use `promotion_recommendation: promote_after_review` only for drafts that can be promoted after proof review. Use `hold_for_conversion_qa`, `revise_before_review`, or `do_not_promote` for anything that should not flow to the tree yet.
 - No canonical wiki pages are edited by this extraction task.

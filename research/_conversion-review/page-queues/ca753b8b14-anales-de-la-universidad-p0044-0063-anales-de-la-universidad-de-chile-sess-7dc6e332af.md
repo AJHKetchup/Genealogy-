@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, relationships
+- Matched family context: Arturo, Juan
 
 ### Page 45
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 46
 
@@ -28,15 +28,15 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, relationships
+- Matched family context: Arturo, Juan, Luis
 
 ### Page 47
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: relationships
+- Matched family context: none
 
 ### Page 54
 
@@ -44,7 +44,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 56
 
@@ -52,7 +52,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 58
 
@@ -60,7 +60,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 63
 
@@ -68,4 +68,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, relationships
+- Matched family context: Luis

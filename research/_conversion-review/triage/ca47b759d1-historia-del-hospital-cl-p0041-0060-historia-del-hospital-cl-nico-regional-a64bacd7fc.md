@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | high | low | reread-page | none | none |
 | 42 | critical | low | reread-page | none | Dios, Juan |
-| 43 | critical | low | reread-page | none | Dios, Juan, relationships |
+| 43 | critical | low | reread-page | none | Dios, Juan |
 | 4 | critical | low | reread-page | none | Dios, Juan |
 | 5 | critical | low | reread-page | none | Dios, Juan |
 | 6 | medium | high | pass | none | Luis, Riquelme |
@@ -20,11 +20,11 @@
 | 10 | critical | low | reread-page | none | Dios, Juan |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 13 | medium | high | pass | none | Starting |
+| 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | none | high | pass | none | none |
 | 16 | critical | low | reread-page | none | Dios, Juan |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 19 | critical | low | reread-page | none | Dios, History, Juan, grandfather |
-| 60 | medium | high | pass | none | relationships |
+| 19 | critical | low | reread-page | none | Dios, Juan, grandfather |
+| 60 | none | high | pass | none | none |

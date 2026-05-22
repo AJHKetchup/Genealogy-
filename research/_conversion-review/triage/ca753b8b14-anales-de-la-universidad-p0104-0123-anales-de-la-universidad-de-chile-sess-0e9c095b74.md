@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 104 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 105 | medium | high | pass | none | Arturo, relationships |
-| 106 | medium | high | pass | none | relationships |
-| 107 | critical | low | reread-page | none | Luis, relationships |
-| 108 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 109 | medium | high | pass | none | Arturo, relationships |
-| 110 | high | high | pass | none | Arturo, Luis, Mercedes, relationships |
-| 111 | critical | low | reread-page | none | Arturo, Luis, relationships |
-| 112 | critical | low | reread-page | none | Luis, relationships |
-| 113 | critical | low | reread-page | none | Juan, relationships |
-| 114 | medium | high | pass | none | Arturo, relationships |
-| 115 | medium | high | pass | none | Luis, relationships |
-| 116 | critical | low | reread-page | none | Luis, relationships |
-| 117 | medium | high | pass | none | Luis, relationships |
-| 118 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 119 | critical | low | reread-page | none | Arturo, Juan, relationships |
-| 120 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 121 | medium | high | pass | none | Luis, relationships |
-| 122 | medium | high | pass | none | relationships |
-| 123 | medium | high | pass | none | Luis, relationships |
+| 104 | critical | low | reread-page | none | Juan, Luis |
+| 105 | medium | high | pass | none | Arturo |
+| 106 | none | high | pass | none | none |
+| 107 | critical | low | reread-page | none | Luis |
+| 108 | critical | low | reread-page | none | Juan, Luis |
+| 109 | medium | high | pass | none | Arturo |
+| 110 | high | high | pass | none | Arturo, Luis, Mercedes |
+| 111 | critical | low | reread-page | none | Arturo, Luis |
+| 112 | critical | low | reread-page | none | Luis |
+| 113 | critical | low | reread-page | none | Juan |
+| 114 | medium | high | pass | none | Arturo |
+| 115 | medium | high | pass | none | Luis |
+| 116 | critical | low | reread-page | none | Luis |
+| 117 | medium | high | pass | none | Luis |
+| 118 | critical | low | reread-page | none | Juan, Luis |
+| 119 | critical | low | reread-page | none | Arturo, Juan |
+| 120 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 121 | medium | high | pass | none | Luis |
+| 122 | none | high | pass | none | none |
+| 123 | medium | high | pass | none | Luis |

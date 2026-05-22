@@ -15,6 +15,6 @@
 | 5 | none | high | pass | none | none |
 | 299 | none | high | pass | none | none |
 | 7 | medium | high | pass | none | Arturo |
-| 301 | medium | high | pass | none | relationships |
+| 301 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | medium | high | pass | none | Starting |
+| 10 | none | high | pass | none | none |

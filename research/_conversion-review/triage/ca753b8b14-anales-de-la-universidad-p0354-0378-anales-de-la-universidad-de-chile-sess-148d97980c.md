@@ -18,7 +18,7 @@
 | 8 | none | high | pass | none | none |
 | 9 | medium | high | pass | none | Luis |
 | 10 | none | high | pass | none | none |
-| 11 | critical | low | reread-page | none | Luis |
+| 11 | medium | high | pass | none | Luis |
 | 365 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | medium | high | pass | none | Cesar |

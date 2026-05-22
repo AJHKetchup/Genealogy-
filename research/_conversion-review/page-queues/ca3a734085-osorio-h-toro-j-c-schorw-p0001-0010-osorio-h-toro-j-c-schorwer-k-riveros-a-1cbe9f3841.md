@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, History, Juan, knowledge, people, relationships
+- Matched family context: Dios, Juan, knowledge
 
 ### Page 3
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, Juan, people
+- Matched family context: Dios, Juan
 
 ### Page 4
 
@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships, start
+- Matched family context: Juan, Luis
 
 ### Page 6
 

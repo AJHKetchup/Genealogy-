@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 4 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar |
 | 5 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar |
-| 6 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar, Starting, user |
-| 7 | high | high | pass | none | Arturo, Dario, Pulgar, start |
-| 8 | high | high | pass | none | Arturo, Dario, Pulgar, Tree |
-| 9 | high | high | pass | none | Arturo, Dario, History, Pulgar |
+| 6 | high | medium | reread-page | explicit_reread_needed | Arturo, Dario, Pulgar |
+| 7 | high | high | pass | none | Arturo, Dario, Pulgar |
+| 8 | high | high | pass | none | Arturo, Dario, Pulgar |
+| 9 | high | high | pass | none | Arturo, Dario, Pulgar |

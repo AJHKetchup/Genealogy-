@@ -14,29 +14,21 @@
 - Quality flags: none
 - Matched family context: Juan, Luis
 
-### Page 514
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: relationships
-
 ### Page 21
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, Starting
+- Matched family context: Juan, Luis
 
 ### Page 525
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
+- Family relevance: `high`
 - Quality flags: none
-- Matched family context: relationships
+- Matched family context: none
 
 ### Page 526
 
@@ -44,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 24
 

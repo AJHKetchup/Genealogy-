@@ -16,5 +16,5 @@
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
-| 9 | medium | high | pass | none | Starting |
+| 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |

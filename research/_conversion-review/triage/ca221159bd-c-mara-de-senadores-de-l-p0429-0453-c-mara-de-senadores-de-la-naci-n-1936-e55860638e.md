@@ -12,12 +12,12 @@
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | Starting |
+| 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
-| 8 | medium | high | pass | none | Starting |
+| 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 438 | medium | high | pass | none | relationships |
+| 438 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
@@ -29,7 +29,7 @@
 | 19 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
-| 22 | medium | high | pass | none | Starting |
+| 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
-| 24 | medium | high | pass | none | Starting |
+| 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

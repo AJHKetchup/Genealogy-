@@ -9,7 +9,7 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 380 | medium | high | pass | none | relationships |
+| 380 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
@@ -24,11 +24,11 @@
 | 14 | none | high | pass | none | none |
 | 15 | medium | high | pass | none | Luis |
 | 16 | none | high | pass | none | none |
-| 395 | medium | high | pass | none | relationships |
+| 395 | none | high | pass | none | none |
 | 18 | critical | low | reread-page | none | Juan |
-| 397 | critical | low | reread-page | none | relationships |
+| 397 | high | low | reread-page | none | none |
 | 20 | none | high | pass | none | none |
-| 399 | medium | high | pass | none | relationships |
+| 399 | none | high | pass | none | none |
 | 22 | critical | low | reread-page | none | Mercedes |
 | 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |

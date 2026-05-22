@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, relationships
+- Matched family context: Juan
 
 ### Page 10
 
@@ -55,14 +55,6 @@
 - Matched family context: Dios, Juan
 
 ### Page 12
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `high`
-- Quality flags: none
-- Matched family context: none
-
-### Page 13
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
@@ -92,7 +84,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: History, Juan, Riquelme
+- Matched family context: Juan, Riquelme
 
 ### Page 19
 

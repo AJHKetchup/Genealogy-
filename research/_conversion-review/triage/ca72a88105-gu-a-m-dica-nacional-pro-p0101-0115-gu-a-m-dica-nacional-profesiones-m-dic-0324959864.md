@@ -8,18 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 101 | critical | low | reread-page | none | Juan, relationships |
-| 102 | critical | low | reread-page | none | Arturo, Juan, Luis, Smith, relationships |
-| 103 | critical | low | reread-page | none | Juan, Luis, Riquelme, relationships |
-| 104 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 105 | critical | low | reread-page | none | Arturo, Juan, Luis, Pulgar, relationships |
-| 106 | critical | low | reread-page | none | Juan, Riquelme, relationships |
+| 101 | critical | low | reread-page | none | Juan |
+| 102 | critical | low | reread-page | none | Arturo, Juan, Luis, Smith |
+| 103 | critical | low | reread-page | none | Juan, Luis, Riquelme |
+| 104 | critical | low | reread-page | none | Juan, Luis |
+| 105 | critical | low | reread-page | none | Arturo, Juan, Luis, Pulgar |
+| 106 | critical | low | reread-page | none | Juan, Riquelme |
 | 107 | critical | low | reread-page | none | Arturo, Juan |
-| 108 | critical | low | reread-page | none | Arturo, Juan, relationships |
+| 108 | critical | low | reread-page | none | Arturo, Juan |
 | 9 | medium | high | pass | none | Luis |
 | 10 | medium | high | pass | none | Arturo |
 | 11 | critical | low | reread-page | none | Juan, Luis, Riquelme |
 | 12 | critical | low | reread-page | none | Arturo, Juan |
 | 13 | critical | low | reread-page | none | Juan, Luis |
-| 114 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 115 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 114 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 115 | critical | low | reread-page | none | Juan, Luis |

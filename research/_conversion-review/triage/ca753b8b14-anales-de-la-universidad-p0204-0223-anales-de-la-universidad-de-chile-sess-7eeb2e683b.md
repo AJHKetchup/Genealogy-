@@ -17,11 +17,11 @@
 | 7 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 211 | critical | low | reread-page | none | Dios, Juan, Luis |
 | 9 | medium | high | pass | none | Luis |
-| 213 | high | high | pass | none | Arturo, Luis, relationships |
+| 213 | medium | high | pass | none | Arturo, Luis |
 | 214 | medium | high | pass | none | Arturo, Luis |
-| 215 | critical | low | reread-page | none | Luis |
+| 215 | medium | high | pass | none | Luis |
 | 13 | critical | low | reread-page | none | Juan |
-| 14 | critical | low | reread-page | none | History, Juan |
+| 14 | critical | low | reread-page | none | Juan |
 | 15 | critical | low | reread-page | none | Juan, Luis |
 | 16 | critical | low | reread-page | none | Juan |
 | 17 | critical | low | reread-page | none | Mercedes |

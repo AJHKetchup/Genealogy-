@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Pulgar, relationships
+- Matched family context: Pulgar
 
 ### Page 13
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, relationships
+- Matched family context: Juan
 
 ### Page 21
 
@@ -28,4 +28,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis

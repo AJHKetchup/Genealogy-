@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 24 | critical | low | reread-page | none | Juan, relationships |
-| 25 | medium | high | pass | none | relationships |
-| 26 | medium | high | pass | none | relationships |
-| 27 | medium | high | pass | none | Luis, relationships |
-| 28 | critical | low | reread-page | none | Juan, relationships |
-| 29 | medium | high | pass | none | relationships |
-| 30 | high | high | pass | none | Arturo, Juana, relationships |
-| 31 | medium | high | pass | none | relationships |
-| 32 | medium | high | pass | none | Luis, relationships |
-| 33 | medium | high | pass | none | relationships |
-| 34 | medium | high | pass | none | relationships |
-| 35 | medium | high | pass | none | relationships |
-| 36 | medium | high | pass | none | Arturo, relationships |
+| 24 | critical | low | reread-page | none | Juan |
+| 25 | none | high | pass | none | none |
+| 26 | none | high | pass | none | none |
+| 27 | medium | high | pass | none | Luis |
+| 28 | critical | low | reread-page | none | Juan |
+| 29 | none | high | pass | none | none |
+| 30 | medium | high | pass | none | Arturo, Juana |
+| 31 | none | high | pass | none | none |
+| 32 | medium | high | pass | none | Luis |
+| 33 | none | high | pass | none | none |
+| 34 | none | high | pass | none | none |
+| 35 | none | high | pass | none | none |
+| 36 | medium | high | pass | none | Arturo |
 | 323 | none | high | pass | none | none |
-| 38 | medium | high | pass | none | relationships |
-| 39 | medium | high | pass | none | relationships |
-| 40 | critical | low | reread-page | none | Juan, relationships |
-| 41 | medium | high | pass | none | relationships |
+| 38 | none | high | pass | none | none |
+| 39 | none | high | pass | none | none |
+| 40 | critical | low | reread-page | none | Juan |
+| 41 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |
-| 43 | medium | high | pass | none | relationships |
+| 43 | none | high | pass | none | none |

@@ -9,22 +9,22 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | Jose, relationships |
+| 5 | medium | high | pass | none | Jose |
 | 3 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | relationships |
+| 7 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 7 | medium | high | pass | none | History |
-| 11 | critical | low | reread-page | none | Pulgar, relationships |
-| 12 | medium | high | pass | none | Luis, relationships |
-| 13 | critical | low | reread-page | none | Juan, relationships |
-| 14 | medium | high | pass | none | relationships |
-| 15 | medium | high | pass | none | Luis, relationships |
-| 16 | medium | high | pass | none | relationships |
-| 17 | medium | high | pass | none | relationships |
-| 18 | medium | high | pass | none | relationships |
-| 19 | medium | high | pass | none | relationships |
-| 20 | medium | high | pass | none | relationships |
-| 21 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 22 | medium | high | pass | none | relationships |
-| 23 | medium | high | pass | none | relationships |
+| 7 | none | high | pass | none | none |
+| 11 | critical | low | reread-page | none | Pulgar |
+| 12 | medium | high | pass | none | Luis |
+| 13 | critical | low | reread-page | none | Juan |
+| 14 | none | high | pass | none | none |
+| 15 | medium | high | pass | none | Luis |
+| 16 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
+| 21 | critical | low | reread-page | none | Juan, Luis |
+| 22 | none | high | pass | none | none |
+| 23 | none | high | pass | none | none |

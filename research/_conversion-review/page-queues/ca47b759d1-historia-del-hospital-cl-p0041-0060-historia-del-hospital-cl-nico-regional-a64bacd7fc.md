@@ -28,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, Juan, relationships
+- Matched family context: Dios, Juan
 
 ### Page 4
 
@@ -84,4 +84,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Dios, History, Juan, grandfather
+- Matched family context: Dios, Juan, grandfather

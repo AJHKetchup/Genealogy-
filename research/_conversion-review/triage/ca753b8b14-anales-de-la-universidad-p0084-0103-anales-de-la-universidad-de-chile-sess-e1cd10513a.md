@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 84 | critical | low | reread-page | none | Arturo, Luis, relationships |
-| 85 | critical | low | reread-page | none | Juan, relationships |
-| 86 | critical | low | reread-page | none | Dios, Juan, Luis, relationships |
-| 87 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 88 | medium | high | pass | none | relationships |
-| 89 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 90 | medium | high | pass | none | Luis, relationships |
-| 91 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 92 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 93 | critical | low | reread-page | none | Luis, relationships |
-| 94 | critical | low | reread-page | none | Arturo, Luis, relationships |
-| 95 | critical | low | reread-page | none | Juan, relationships |
-| 96 | medium | high | pass | none | relationships |
-| 97 | high | high | pass | none | Arturo, Mercedes, relationships |
-| 98 | medium | high | pass | none | relationships |
-| 99 | critical | low | reread-page | none | Luis, relationships |
-| 100 | critical | low | reread-page | none | Juan, relationships |
-| 101 | medium | high | pass | none | relationships |
-| 102 | high | high | pass | none | Arturo, Luis, relationships |
-| 103 | critical | low | reread-page | none | Luis, relationships |
+| 84 | critical | low | reread-page | none | Arturo, Luis |
+| 85 | critical | low | reread-page | none | Juan |
+| 86 | critical | low | reread-page | none | Dios, Juan, Luis |
+| 87 | critical | low | reread-page | none | Juan, Luis |
+| 88 | none | high | pass | none | none |
+| 89 | critical | low | reread-page | none | Juan, Luis |
+| 90 | medium | high | pass | none | Luis |
+| 91 | critical | low | reread-page | none | Juan, Luis |
+| 92 | critical | low | reread-page | none | Juan, Luis |
+| 93 | critical | low | reread-page | none | Luis |
+| 94 | critical | low | reread-page | none | Arturo, Luis |
+| 95 | critical | low | reread-page | none | Juan |
+| 96 | none | high | pass | none | none |
+| 97 | medium | high | pass | none | Arturo, Mercedes |
+| 98 | none | high | pass | none | none |
+| 99 | critical | low | reread-page | none | Luis |
+| 100 | critical | low | reread-page | none | Juan |
+| 101 | none | high | pass | none | none |
+| 102 | medium | high | pass | none | Arturo, Luis |
+| 103 | critical | low | reread-page | none | Luis |

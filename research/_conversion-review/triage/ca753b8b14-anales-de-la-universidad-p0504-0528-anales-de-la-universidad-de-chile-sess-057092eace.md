@@ -10,26 +10,26 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | History |
+| 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 5 | medium | high | pass | none | History |
-| 509 | medium | high | pass | none | relationships |
+| 5 | none | high | pass | none | none |
+| 509 | none | high | pass | none | none |
 | 7 | critical | low | reread-page | none | Juan, Luis |
-| 511 | medium | high | pass | none | relationships |
-| 512 | medium | high | pass | none | relationships |
+| 511 | none | high | pass | none | none |
+| 512 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
-| 514 | critical | low | reread-page | none | relationships |
+| 514 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 516 | medium | high | pass | none | Luis, relationships |
-| 14 | medium | high | pass | none | Luis, Starting |
-| 518 | medium | high | pass | none | Luis, relationships |
-| 519 | medium | high | pass | none | relationships |
+| 516 | medium | high | pass | none | Luis |
+| 14 | medium | high | pass | none | Luis |
+| 518 | medium | high | pass | none | Luis |
+| 519 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
-| 521 | medium | high | pass | none | relationships |
-| 522 | medium | high | pass | none | relationships |
+| 521 | none | high | pass | none | none |
+| 522 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
-| 21 | critical | low | reread-page | none | Juan, Luis, Starting |
-| 525 | critical | low | reread-page | none | relationships |
-| 526 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 21 | critical | low | reread-page | none | Juan, Luis |
+| 525 | high | low | reread-page | none | none |
+| 526 | critical | low | reread-page | none | Juan, Luis |
 | 24 | critical | low | reread-page | none | Luis |
-| 528 | medium | high | pass | none | Luis, relationships |
+| 528 | medium | high | pass | none | Luis |

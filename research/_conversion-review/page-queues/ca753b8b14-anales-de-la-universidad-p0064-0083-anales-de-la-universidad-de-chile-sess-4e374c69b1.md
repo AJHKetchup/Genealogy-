@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, relationships
+- Matched family context: Arturo, Juan, Luis
 
 ### Page 66
 
@@ -20,7 +20,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, relationships
+- Matched family context: Juan
 
 ### Page 67
 
@@ -28,7 +28,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Carmen, Luis, Mercedes, relationships
+- Matched family context: Carmen, Luis, Mercedes
 
 ### Page 68
 
@@ -36,7 +36,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 70
 
@@ -44,7 +44,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Mercedes, relationships
+- Matched family context: Mercedes
 
 ### Page 71
 
@@ -52,7 +52,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, relationships
+- Matched family context: Luis
 
 ### Page 72
 
@@ -60,7 +60,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, relationships
+- Matched family context: Juan
 
 ### Page 74
 
@@ -68,7 +68,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, relationships
+- Matched family context: Luis
 
 ### Page 75
 
@@ -76,7 +76,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 78
 
@@ -84,7 +84,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, relationships
+- Matched family context: Luis
 
 ### Page 79
 
@@ -92,7 +92,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 81
 
@@ -100,7 +100,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Luis, relationships
+- Matched family context: Luis
 
 ### Page 82
 
@@ -108,7 +108,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, Luis, relationships
+- Matched family context: Juan, Luis
 
 ### Page 83
 
@@ -116,4 +116,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Juan, Luis, relationships
+- Matched family context: Arturo, Juan, Luis

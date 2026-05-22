@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 21 | critical | low | reread-page | none | Dios, Juan, Luis, relationships |
-| 22 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 23 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 24 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |
-| 25 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 26 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 27 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 28 | critical | low | reread-page | none | Juana, Luis, relationships |
-| 29 | high | high | pass | none | Arturo, Carmen, Luis, relationships |
-| 30 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 31 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 32 | high | high | pass | none | Arturo, Luis, relationships |
-| 33 | medium | high | pass | none | Carmen, relationships |
+| 21 | critical | low | reread-page | none | Dios, Juan, Luis |
+| 22 | critical | low | reread-page | none | Juan, Luis |
+| 23 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 24 | critical | low | reread-page | none | Carmen, Juan, Luis |
+| 25 | critical | low | reread-page | none | Juan, Luis |
+| 26 | critical | low | reread-page | none | Juan, Luis |
+| 27 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 28 | critical | low | reread-page | none | Juana, Luis |
+| 29 | high | high | pass | none | Arturo, Carmen, Luis |
+| 30 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 31 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 32 | medium | high | pass | none | Arturo, Luis |
+| 33 | medium | high | pass | none | Carmen |
 | 34 | critical | low | reread-page | none | Juan, Luis |
-| 35 | critical | low | reread-page | none | Juan, Luis, Smith, relationships |
-| 36 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 37 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 38 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme, relationships |
-| 39 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis, Riquelme, relationships |
-| 40 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 35 | critical | low | reread-page | none | Juan, Luis, Smith |
+| 36 | critical | low | reread-page | none | Juan, Luis |
+| 37 | critical | low | reread-page | none | Juan, Luis |
+| 38 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme |
+| 39 | critical | low | reread-page | none | Arturo, Carmen, Juan, Luis, Riquelme |
+| 40 | critical | low | reread-page | none | Juan, Luis |

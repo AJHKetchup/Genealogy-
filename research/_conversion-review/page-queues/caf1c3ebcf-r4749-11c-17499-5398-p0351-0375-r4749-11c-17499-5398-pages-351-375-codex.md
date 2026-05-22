@@ -12,4 +12,4 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Juan, relationships
+- Matched family context: Juan

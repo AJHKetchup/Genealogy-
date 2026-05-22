@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 64 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 65 | medium | high | pass | none | relationships |
-| 66 | critical | low | reread-page | none | Juan, relationships |
-| 67 | critical | low | reread-page | none | Carmen, Luis, Mercedes, relationships |
-| 68 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 69 | medium | high | pass | none | relationships |
-| 70 | critical | low | reread-page | none | Mercedes, relationships |
-| 71 | critical | low | reread-page | none | Luis, relationships |
-| 72 | critical | low | reread-page | none | Juan, relationships |
-| 73 | medium | high | pass | none | Arturo, relationships |
-| 74 | critical | low | reread-page | none | Luis, relationships |
-| 75 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 76 | medium | high | pass | none | Mercedes, relationships |
-| 77 | medium | high | pass | none | relationships |
-| 78 | critical | low | reread-page | none | Luis, relationships |
-| 79 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 80 | medium | high | pass | none | Arturo, relationships |
-| 81 | critical | low | reread-page | none | Luis, relationships |
-| 82 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 83 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
+| 64 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 65 | none | high | pass | none | none |
+| 66 | critical | low | reread-page | none | Juan |
+| 67 | critical | low | reread-page | none | Carmen, Luis, Mercedes |
+| 68 | critical | low | reread-page | none | Juan, Luis |
+| 69 | none | high | pass | none | none |
+| 70 | critical | low | reread-page | none | Mercedes |
+| 71 | critical | low | reread-page | none | Luis |
+| 72 | critical | low | reread-page | none | Juan |
+| 73 | medium | high | pass | none | Arturo |
+| 74 | critical | low | reread-page | none | Luis |
+| 75 | critical | low | reread-page | none | Juan, Luis |
+| 76 | medium | high | pass | none | Mercedes |
+| 77 | none | high | pass | none | none |
+| 78 | critical | low | reread-page | none | Luis |
+| 79 | critical | low | reread-page | none | Juan, Luis |
+| 80 | medium | high | pass | none | Arturo |
+| 81 | critical | low | reread-page | none | Luis |
+| 82 | critical | low | reread-page | none | Juan, Luis |
+| 83 | critical | low | reread-page | none | Arturo, Juan, Luis |

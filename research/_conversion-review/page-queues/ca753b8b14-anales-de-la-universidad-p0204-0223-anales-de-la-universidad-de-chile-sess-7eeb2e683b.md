@@ -70,14 +70,6 @@
 - Quality flags: none
 - Matched family context: Dios, Juan, Luis
 
-### Page 215
-
-- Recommended action: `reread-page`
-- Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: none
-- Matched family context: Luis
-
 ### Page 13
 
 - Recommended action: `reread-page`
@@ -92,7 +84,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: History, Juan
+- Matched family context: Juan
 
 ### Page 15
 

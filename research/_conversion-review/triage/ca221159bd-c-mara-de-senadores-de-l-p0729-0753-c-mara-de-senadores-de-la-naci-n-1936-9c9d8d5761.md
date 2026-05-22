@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 729 | medium | high | pass | none | relationships |
-| 730 | medium | high | pass | none | Luis, relationships |
-| 731 | medium | high | pass | none | relationships |
-| 732 | medium | high | pass | none | Luis, relationships |
-| 733 | medium | high | pass | none | relationships |
-| 734 | medium | high | pass | none | Luis, relationships |
-| 735 | medium | high | pass | none | relationships |
-| 736 | critical | low | reread-page | none | Luis, relationships |
-| 737 | medium | high | pass | none | relationships |
-| 738 | medium | high | pass | none | relationships |
-| 739 | medium | high | pass | none | relationships |
-| 740 | medium | high | pass | none | relationships |
-| 741 | medium | high | pass | none | relationships |
+| 729 | none | high | pass | none | none |
+| 730 | medium | high | pass | none | Luis |
+| 731 | none | high | pass | none | none |
+| 732 | medium | high | pass | none | Luis |
+| 733 | none | high | pass | none | none |
+| 734 | medium | high | pass | none | Luis |
+| 735 | none | high | pass | none | none |
+| 736 | critical | low | reread-page | none | Luis |
+| 737 | none | high | pass | none | none |
+| 738 | none | high | pass | none | none |
+| 739 | none | high | pass | none | none |
+| 740 | none | high | pass | none | none |
+| 741 | none | high | pass | none | none |
 | 14 | medium | high | pass | none | Luis |
-| 743 | medium | high | pass | none | Dios, relationships |
-| 744 | medium | high | pass | none | relationships |
-| 745 | medium | high | pass | none | relationships |
-| 746 | medium | high | pass | none | relationships |
-| 747 | medium | high | pass | none | relationships |
-| 748 | medium | high | pass | none | relationships |
-| 749 | medium | high | pass | none | Luis, relationships |
-| 750 | medium | high | pass | none | relationships |
-| 751 | critical | low | reread-page | none | relationships |
+| 743 | medium | high | pass | none | Dios |
+| 744 | none | high | pass | none | none |
+| 745 | none | high | pass | none | none |
+| 746 | none | high | pass | none | none |
+| 747 | none | high | pass | none | none |
+| 748 | none | high | pass | none | none |
+| 749 | medium | high | pass | none | Luis |
+| 750 | none | high | pass | none | none |
+| 751 | high | low | reread-page | none | none |
 | 24 | none | high | pass | none | none |
-| 753 | medium | high | pass | none | relationships |
+| 753 | none | high | pass | none | none |

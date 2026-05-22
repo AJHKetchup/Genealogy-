@@ -8,7 +8,7 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 454 | medium | high | pass | none | relationships |
+| 454 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | medium | high | pass | none | Smith |
@@ -21,15 +21,15 @@
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
-| 467 | medium | high | pass | none | relationships |
-| 468 | medium | high | pass | none | relationships |
-| 469 | medium | high | pass | none | relationships |
+| 467 | none | high | pass | none | none |
+| 468 | none | high | pass | none | none |
+| 469 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
-| 472 | medium | high | pass | none | relationships |
+| 472 | none | high | pass | none | none |
 | 20 | none | high | pass | none | none |
 | 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
-| 476 | medium | high | pass | none | relationships |
+| 476 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
 | 25 | none | high | pass | none | none |

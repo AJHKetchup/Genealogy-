@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1079 | medium | high | pass | none | relationships |
-| 1080 | medium | high | pass | none | relationships |
-| 1081 | medium | high | pass | none | relationships |
-| 1082 | medium | high | pass | none | relationships |
-| 1083 | medium | high | pass | none | relationships |
-| 1084 | medium | high | pass | none | relationships |
-| 1085 | medium | high | pass | none | relationships |
-| 1086 | medium | high | pass | none | relationships |
-| 1087 | medium | high | pass | none | relationships |
-| 1088 | medium | high | pass | none | relationships |
-| 1089 | medium | high | pass | none | relationships |
-| 1090 | medium | high | pass | none | relationships |
-| 1091 | medium | high | pass | none | relationships |
-| 1092 | medium | high | pass | none | relationships |
-| 1093 | medium | high | pass | none | relationships |
-| 1094 | medium | high | pass | none | relationships |
-| 1095 | medium | high | pass | none | relationships |
-| 1096 | medium | high | pass | none | relationships |
-| 1097 | medium | high | pass | none | relationships |
-| 1098 | medium | high | pass | none | Dios, relationships |
-| 1099 | medium | high | pass | none | Dios, relationships |
-| 1100 | medium | high | pass | none | Luis, relationships |
-| 1101 | medium | high | pass | none | relationships |
-| 1102 | medium | high | pass | none | relationships |
-| 1103 | medium | high | pass | none | relationships |
+| 1079 | none | high | pass | none | none |
+| 1080 | none | high | pass | none | none |
+| 1081 | none | high | pass | none | none |
+| 1082 | none | high | pass | none | none |
+| 1083 | none | high | pass | none | none |
+| 1084 | none | high | pass | none | none |
+| 1085 | none | high | pass | none | none |
+| 1086 | none | high | pass | none | none |
+| 1087 | none | high | pass | none | none |
+| 1088 | none | high | pass | none | none |
+| 1089 | none | high | pass | none | none |
+| 1090 | none | high | pass | none | none |
+| 1091 | none | high | pass | none | none |
+| 1092 | none | high | pass | none | none |
+| 1093 | none | high | pass | none | none |
+| 1094 | none | high | pass | none | none |
+| 1095 | none | high | pass | none | none |
+| 1096 | none | high | pass | none | none |
+| 1097 | none | high | pass | none | none |
+| 1098 | medium | high | pass | none | Dios |
+| 1099 | medium | high | pass | none | Dios |
+| 1100 | medium | high | pass | none | Luis |
+| 1101 | none | high | pass | none | none |
+| 1102 | none | high | pass | none | none |
+| 1103 | none | high | pass | none | none |

@@ -8,12 +8,12 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 654 | medium | high | pass | none | relationships |
-| 655 | medium | high | pass | none | relationships |
+| 654 | none | high | pass | none | none |
+| 655 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 659 | medium | high | pass | none | relationships |
+| 659 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |

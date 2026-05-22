@@ -10,8 +10,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
-| 3 | medium | high | pass | none | Starting |
-| 124 | medium | high | pass | none | relationships |
+| 3 | none | high | pass | none | none |
+| 124 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
-| 6 | critical | low | reread-page | none | Arturo, Luis, Starting |
+| 6 | critical | low | reread-page | none | Arturo, Luis |
 | 7 | none | high | pass | none | none |

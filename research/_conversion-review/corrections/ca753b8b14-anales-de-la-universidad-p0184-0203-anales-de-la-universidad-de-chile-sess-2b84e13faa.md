@@ -16,11 +16,6 @@
   Reason: near match to known family context term `Soler`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `David`
   Suspected reading: `Dario`
   Reason: near match to known family context term `Dario`
@@ -31,11 +26,6 @@
   Reason: near match to known family context term `Dario`
   Verification target: reread the page image or exact region before using this in a claim.
 
-- Literal converted text: `Historia`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
-  Verification target: reread the page image or exact region before using this in a claim.
-
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
@@ -59,9 +49,4 @@
 - Literal converted text: `Juan`
   Suspected reading: `Juana`
   Reason: near match to known family context term `Juana`
-  Verification target: reread the page image or exact region before using this in a claim.
-
-- Literal converted text: `HISTORIA`
-  Suspected reading: `History`
-  Reason: near match to known family context term `History`
   Verification target: reread the page image or exact region before using this in a claim.

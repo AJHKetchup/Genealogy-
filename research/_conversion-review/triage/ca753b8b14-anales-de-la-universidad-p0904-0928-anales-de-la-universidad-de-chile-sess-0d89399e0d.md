@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 904 | medium | high | pass | none | relationships |
-| 905 | medium | high | pass | none | relationships |
-| 906 | medium | high | pass | none | relationships |
-| 907 | medium | high | pass | none | Arturo, relationships |
-| 908 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 909 | medium | high | pass | none | relationships |
-| 910 | medium | high | pass | none | relationships |
-| 911 | critical | low | reread-page | none | relationships |
+| 904 | none | high | pass | none | none |
+| 905 | none | high | pass | none | none |
+| 906 | none | high | pass | none | none |
+| 907 | medium | high | pass | none | Arturo |
+| 908 | critical | low | reread-page | none | Juan, Luis |
+| 909 | none | high | pass | none | none |
+| 910 | none | high | pass | none | none |
+| 911 | high | low | reread-page | none | none |
 | 9 | none | high | pass | none | none |
-| 913 | medium | high | pass | none | relationships |
-| 914 | medium | high | pass | none | relationships |
-| 915 | medium | high | pass | none | relationships |
-| 916 | medium | high | pass | none | relationships |
-| 917 | medium | high | pass | none | Luis, relationships |
-| 918 | medium | high | pass | none | relationships |
-| 919 | medium | high | pass | none | Luis, relationships |
-| 920 | medium | high | pass | none | relationships |
-| 921 | medium | high | pass | none | relationships |
-| 922 | medium | high | pass | none | relationships |
-| 923 | medium | high | pass | none | relationships |
-| 924 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 925 | medium | high | pass | none | relationships |
-| 926 | medium | high | pass | none | relationships |
-| 927 | critical | low | reread-page | none | Juan, relationships |
-| 928 | medium | high | pass | none | relationships |
+| 913 | none | high | pass | none | none |
+| 914 | none | high | pass | none | none |
+| 915 | none | high | pass | none | none |
+| 916 | none | high | pass | none | none |
+| 917 | medium | high | pass | none | Luis |
+| 918 | none | high | pass | none | none |
+| 919 | medium | high | pass | none | Luis |
+| 920 | none | high | pass | none | none |
+| 921 | none | high | pass | none | none |
+| 922 | none | high | pass | none | none |
+| 923 | none | high | pass | none | none |
+| 924 | critical | low | reread-page | none | Juan, Luis |
+| 925 | none | high | pass | none | none |
+| 926 | none | high | pass | none | none |
+| 927 | critical | low | reread-page | none | Juan |
+| 928 | none | high | pass | none | none |

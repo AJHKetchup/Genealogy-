@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 529 | medium | high | pass | none | Luis, relationships |
-| 530 | medium | high | pass | none | relationships |
+| 529 | medium | high | pass | none | Luis |
+| 530 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
 | 4 | none | high | pass | none | none |
-| 533 | medium | high | pass | none | Riquelme, relationships |
+| 533 | medium | high | pass | none | Riquelme |
 | 6 | medium | high | pass | none | Juana |
 | 7 | none | high | pass | none | none |
 | 8 | medium | high | pass | none | Luis |
 | 9 | none | high | pass | none | none |
 | 10 | none | high | pass | none | none |
 | 11 | medium | high | pass | none | Dios |
-| 12 | medium | high | pass | none | Starting |
-| 541 | medium | high | pass | none | relationships |
+| 12 | none | high | pass | none | none |
+| 541 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 543 | medium | high | pass | none | Dario, Luis |
-| 544 | medium | high | pass | none | relationships |
-| 545 | medium | high | pass | none | relationships |
-| 546 | medium | high | pass | none | relationships |
-| 547 | medium | high | pass | none | relationships |
-| 20 | medium | high | pass | none | Starting |
-| 21 | medium | high | pass | none | Starting |
+| 544 | none | high | pass | none | none |
+| 545 | none | high | pass | none | none |
+| 546 | none | high | pass | none | none |
+| 547 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
+| 21 | none | high | pass | none | none |
 | 22 | none | high | pass | none | none |
 | 23 | none | high | pass | none | none |
 | 24 | none | high | pass | none | none |
-| 553 | medium | high | pass | none | relationships |
+| 553 | none | high | pass | none | none |

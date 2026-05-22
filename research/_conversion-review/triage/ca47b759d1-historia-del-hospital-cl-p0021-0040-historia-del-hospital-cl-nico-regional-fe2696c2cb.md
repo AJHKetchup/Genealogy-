@@ -27,4 +27,4 @@
 | 37 | critical | low | reread-page | explicit_reread_needed | Dios, Juan |
 | 18 | critical | low | reread-page | none | Dios, Juan |
 | 39 | critical | low | reread-page | explicit_reread_needed | Dios, Juan |
-| 40 | medium | high | pass | none | relationships |
+| 40 | none | high | pass | none | none |

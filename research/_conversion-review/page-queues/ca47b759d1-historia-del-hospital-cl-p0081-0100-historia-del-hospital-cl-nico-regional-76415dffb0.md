@@ -12,7 +12,7 @@
 - Conversion confidence: `low`
 - Family relevance: `critical`
 - Quality flags: none
-- Matched family context: Arturo, Dios, Juan, Starting
+- Matched family context: Arturo, Dios, Juan
 
 ### Page 3
 

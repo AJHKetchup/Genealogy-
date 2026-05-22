@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 854 | medium | high | pass | none | relationships |
-| 855 | medium | high | pass | none | relationships |
-| 856 | medium | high | pass | none | Smith, relationships |
-| 857 | medium | high | pass | none | relationships |
-| 858 | medium | high | pass | none | relationships |
-| 859 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 860 | medium | high | pass | none | relationships |
-| 861 | medium | high | pass | none | relationships |
-| 862 | medium | high | pass | none | Luis, relationships |
-| 863 | medium | high | pass | none | relationships |
-| 864 | medium | high | pass | none | Juana, relationships |
-| 865 | medium | high | pass | none | relationships |
-| 866 | critical | low | reread-page | none | Juan, relationships |
-| 867 | medium | high | pass | none | relationships |
-| 868 | medium | high | pass | none | relationships |
-| 869 | medium | high | pass | none | Luis, relationships |
-| 870 | medium | high | pass | none | relationships |
-| 871 | medium | high | pass | none | relationships |
-| 872 | medium | high | pass | none | relationships |
-| 873 | medium | high | pass | none | Luis, relationships |
-| 874 | medium | high | pass | none | relationships |
-| 875 | medium | high | pass | none | relationships |
-| 876 | medium | high | pass | none | relationships |
-| 877 | medium | high | pass | none | relationships |
-| 878 | medium | high | pass | none | Luis, relationships |
+| 854 | none | high | pass | none | none |
+| 855 | none | high | pass | none | none |
+| 856 | medium | high | pass | none | Smith |
+| 857 | none | high | pass | none | none |
+| 858 | none | high | pass | none | none |
+| 859 | critical | low | reread-page | none | Juan, Luis |
+| 860 | none | high | pass | none | none |
+| 861 | none | high | pass | none | none |
+| 862 | medium | high | pass | none | Luis |
+| 863 | none | high | pass | none | none |
+| 864 | medium | high | pass | none | Juana |
+| 865 | none | high | pass | none | none |
+| 866 | critical | low | reread-page | none | Juan |
+| 867 | none | high | pass | none | none |
+| 868 | none | high | pass | none | none |
+| 869 | medium | high | pass | none | Luis |
+| 870 | none | high | pass | none | none |
+| 871 | none | high | pass | none | none |
+| 872 | none | high | pass | none | none |
+| 873 | medium | high | pass | none | Luis |
+| 874 | none | high | pass | none | none |
+| 875 | none | high | pass | none | none |
+| 876 | none | high | pass | none | none |
+| 877 | none | high | pass | none | none |
+| 878 | medium | high | pass | none | Luis |

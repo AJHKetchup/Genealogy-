@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 61 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 62 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 63 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |
-| 64 | critical | low | reread-page | none | Carmen, Juan, Luis, relationships |
+| 61 | critical | low | reread-page | none | Juan, Luis |
+| 62 | critical | low | reread-page | none | Juan, Luis |
+| 63 | critical | low | reread-page | none | Carmen, Juan, Luis |
+| 64 | critical | low | reread-page | none | Carmen, Juan, Luis |
 | 65 | critical | low | reread-page | none | Arturo, Juan, Luis, Riquelme |
-| 66 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
+| 66 | critical | low | reread-page | none | Arturo, Juan, Luis |
 | 7 | critical | low | reread-page | none | Juan, Luis |
-| 68 | high | high | pass | none | Arturo, Luis, Riquelme, relationships |
-| 69 | high | high | pass | none | Arturo, Luis, relationships |
-| 70 | critical | low | reread-page | none | Arturo, Juana, relationships |
-| 71 | high | high | pass | none | Carmen, Luis, relationships |
-| 72 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
+| 68 | high | high | pass | none | Arturo, Luis, Riquelme |
+| 69 | medium | high | pass | none | Arturo, Luis |
+| 70 | critical | low | reread-page | none | Arturo, Juana |
+| 71 | medium | high | pass | none | Carmen, Luis |
+| 72 | critical | low | reread-page | none | Arturo, Juan, Luis |
 | 73 | critical | low | reread-page | none | Arturo, Juan, Luis |
-| 74 | critical | low | reread-page | none | Arturo, Luis, Mercedes, Riquelme, relationships |
-| 75 | high | high | pass | none | Luis, Riquelme, Tulio, relationships |
-| 76 | critical | low | reread-page | none | Arturo, John, Juan, Luis, relationships |
+| 74 | critical | low | reread-page | none | Arturo, Luis, Mercedes, Riquelme |
+| 75 | high | high | pass | none | Luis, Riquelme, Tulio |
+| 76 | critical | low | reread-page | none | Arturo, John, Juan, Luis |
 | 17 | critical | low | reread-page | none | Arturo, Juan, Luis, Pulgar |
-| 78 | medium | high | pass | none | Carmen, relationships |
+| 78 | medium | high | pass | none | Carmen |
 | 19 | critical | low | reread-page | none | Juan, Luis, Riquelme |
-| 80 | critical | low | reread-page | none | Heinz, Juan, Luis, Riquelme, relationships |
+| 80 | critical | low | reread-page | none | Heinz, Juan, Luis, Riquelme |

@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 124 | medium | high | pass | none | relationships |
-| 125 | medium | high | pass | none | Luis, relationships |
-| 126 | high | high | pass | none | Juana, Luis, relationships |
-| 127 | medium | high | pass | none | Luis, relationships |
-| 128 | medium | high | pass | none | Luis, relationships |
-| 129 | medium | high | pass | none | relationships |
-| 130 | medium | high | pass | none | relationships |
-| 131 | medium | high | pass | none | relationships |
-| 132 | medium | high | pass | none | relationships |
-| 133 | medium | high | pass | none | relationships |
-| 134 | medium | high | pass | none | relationships |
-| 135 | medium | high | pass | none | relationships |
-| 136 | medium | high | pass | none | relationships |
-| 137 | medium | high | pass | none | relationships |
-| 138 | medium | high | pass | none | relationships |
-| 139 | medium | high | pass | none | relationships |
-| 140 | medium | high | pass | none | relationships |
-| 141 | critical | low | reread-page | none | Juan, relationships |
-| 142 | medium | high | pass | none | relationships |
-| 143 | critical | low | reread-page | none | Luis, Mercedes, relationships |
+| 124 | none | high | pass | none | none |
+| 125 | medium | high | pass | none | Luis |
+| 126 | medium | high | pass | none | Juana, Luis |
+| 127 | medium | high | pass | none | Luis |
+| 128 | medium | high | pass | none | Luis |
+| 129 | none | high | pass | none | none |
+| 130 | none | high | pass | none | none |
+| 131 | none | high | pass | none | none |
+| 132 | none | high | pass | none | none |
+| 133 | none | high | pass | none | none |
+| 134 | none | high | pass | none | none |
+| 135 | none | high | pass | none | none |
+| 136 | none | high | pass | none | none |
+| 137 | none | high | pass | none | none |
+| 138 | none | high | pass | none | none |
+| 139 | none | high | pass | none | none |
+| 140 | none | high | pass | none | none |
+| 141 | critical | low | reread-page | none | Juan |
+| 142 | none | high | pass | none | none |
+| 143 | critical | low | reread-page | none | Luis, Mercedes |

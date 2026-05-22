@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 754 | critical | low | reread-page | none | Luis, relationships |
-| 755 | medium | high | pass | none | relationships |
-| 756 | medium | high | pass | none | Luis, relationships |
-| 757 | medium | high | pass | none | Luis, relationships |
+| 754 | critical | low | reread-page | none | Luis |
+| 755 | none | high | pass | none | none |
+| 756 | medium | high | pass | none | Luis |
+| 757 | medium | high | pass | none | Luis |
 | 5 | none | high | pass | none | none |
-| 759 | medium | high | pass | none | relationships |
-| 760 | medium | high | pass | none | relationships |
-| 761 | medium | high | pass | none | relationships |
-| 762 | medium | high | pass | none | relationships |
-| 763 | medium | high | pass | none | relationships |
-| 764 | medium | high | pass | none | relationships |
-| 765 | medium | high | pass | none | relationships |
-| 766 | critical | low | reread-page | none | Luis, relationships |
-| 767 | medium | high | pass | none | relationships |
-| 768 | medium | high | pass | none | relationships |
+| 759 | none | high | pass | none | none |
+| 760 | none | high | pass | none | none |
+| 761 | none | high | pass | none | none |
+| 762 | none | high | pass | none | none |
+| 763 | none | high | pass | none | none |
+| 764 | none | high | pass | none | none |
+| 765 | none | high | pass | none | none |
+| 766 | critical | low | reread-page | none | Luis |
+| 767 | none | high | pass | none | none |
+| 768 | none | high | pass | none | none |
 | 16 | none | high | pass | none | none |
-| 770 | medium | high | pass | none | relationships |
-| 771 | medium | high | pass | none | relationships |
-| 772 | medium | high | pass | none | relationships |
-| 773 | medium | high | pass | none | relationships |
-| 774 | critical | low | reread-page | none | Dios, relationships |
-| 775 | medium | high | pass | none | relationships |
-| 776 | medium | high | pass | none | relationships |
-| 777 | medium | high | pass | none | relationships |
-| 778 | medium | high | pass | none | relationships |
+| 770 | none | high | pass | none | none |
+| 771 | none | high | pass | none | none |
+| 772 | none | high | pass | none | none |
+| 773 | none | high | pass | none | none |
+| 774 | critical | low | reread-page | none | Dios |
+| 775 | none | high | pass | none | none |
+| 776 | none | high | pass | none | none |
+| 777 | none | high | pass | none | none |
+| 778 | none | high | pass | none | none |

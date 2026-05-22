@@ -8,23 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 44 | critical | low | reread-page | none | Arturo, Juan, relationships |
-| 45 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 46 | critical | low | reread-page | none | Arturo, Juan, Luis, relationships |
-| 47 | critical | low | reread-page | none | relationships |
-| 48 | medium | high | pass | none | Luis, relationships |
-| 49 | medium | high | pass | none | relationships |
-| 50 | medium | high | pass | none | Arturo, relationships |
-| 51 | high | high | pass | none | Arturo, Luis, relationships |
-| 52 | medium | high | pass | none | relationships |
-| 53 | high | high | pass | none | Arturo, Luis, relationships |
-| 54 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 55 | medium | high | pass | none | relationships |
-| 56 | critical | low | reread-page | none | Juan, Luis, relationships |
-| 57 | medium | high | pass | none | relationships |
-| 58 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 44 | critical | low | reread-page | none | Arturo, Juan |
+| 45 | critical | low | reread-page | none | Juan, Luis |
+| 46 | critical | low | reread-page | none | Arturo, Juan, Luis |
+| 47 | high | low | reread-page | none | none |
+| 48 | medium | high | pass | none | Luis |
+| 49 | none | high | pass | none | none |
+| 50 | medium | high | pass | none | Arturo |
+| 51 | medium | high | pass | none | Arturo, Luis |
+| 52 | none | high | pass | none | none |
+| 53 | medium | high | pass | none | Arturo, Luis |
+| 54 | critical | low | reread-page | none | Juan, Luis |
+| 55 | none | high | pass | none | none |
+| 56 | critical | low | reread-page | none | Juan, Luis |
+| 57 | none | high | pass | none | none |
+| 58 | critical | low | reread-page | none | Juan, Luis |
 | 16 | none | high | pass | none | none |
-| 60 | high | high | pass | none | Arturo, Juana, Mercedes, relationships |
-| 61 | medium | high | pass | none | relationships |
-| 62 | medium | high | pass | none | relationships |
-| 63 | critical | low | reread-page | none | Luis, relationships |
+| 60 | high | high | pass | none | Arturo, Juana, Mercedes |
+| 61 | none | high | pass | none | none |
+| 62 | none | high | pass | none | none |
+| 63 | critical | low | reread-page | none | Luis |

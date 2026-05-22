@@ -11,13 +11,13 @@
 | 1 | none | high | pass | none | none |
 | 2 | none | high | pass | none | none |
 | 3 | none | high | pass | none | none |
-| 4 | medium | high | pass | none | Starting |
+| 4 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | medium | high | pass | none | Cesar |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 10 | medium | high | pass | none | Starting |
+| 10 | none | high | pass | none | none |
 | 11 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |

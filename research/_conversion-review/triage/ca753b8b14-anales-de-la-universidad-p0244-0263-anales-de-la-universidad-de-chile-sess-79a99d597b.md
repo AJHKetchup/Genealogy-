@@ -9,21 +9,21 @@
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
 | 1 | high | low | reread-page | none | none |
-| 245 | medium | high | pass | none | relationships |
-| 246 | medium | high | pass | none | relationships |
-| 247 | medium | high | pass | none | relationships |
+| 245 | none | high | pass | none | none |
+| 246 | none | high | pass | none | none |
+| 247 | none | high | pass | none | none |
 | 5 | none | high | pass | none | none |
 | 6 | none | high | pass | none | none |
 | 7 | none | high | pass | none | none |
 | 8 | none | high | pass | none | none |
 | 9 | none | high | pass | none | none |
-| 253 | medium | high | pass | none | relationships |
-| 254 | critical | low | reread-page | none | Juan, Luis, relationships |
+| 253 | none | high | pass | none | none |
+| 254 | critical | low | reread-page | none | Juan, Luis |
 | 255 | none | high | pass | none | none |
 | 13 | none | high | pass | none | none |
 | 14 | critical | low | reread-page | none | Juan, Luis |
-| 258 | medium | high | pass | none | relationships |
-| 16 | medium | high | pass | none | Starting |
+| 258 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | none | high | pass | none | none |
 | 19 | none | high | pass | none | none |

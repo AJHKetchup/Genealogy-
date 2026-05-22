@@ -8,28 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 704 | medium | high | pass | none | relationships |
-| 705 | medium | high | pass | none | relationships |
-| 706 | medium | high | pass | none | relationships |
-| 707 | medium | high | pass | none | relationships |
-| 708 | medium | high | pass | none | relationships |
-| 709 | medium | high | pass | none | relationships |
-| 710 | medium | high | pass | none | relationships |
-| 711 | medium | high | pass | none | relationships |
-| 712 | medium | high | pass | none | relationships |
-| 713 | medium | high | pass | none | relationships |
+| 704 | none | high | pass | none | none |
+| 705 | none | high | pass | none | none |
+| 706 | none | high | pass | none | none |
+| 707 | none | high | pass | none | none |
+| 708 | none | high | pass | none | none |
+| 709 | none | high | pass | none | none |
+| 710 | none | high | pass | none | none |
+| 711 | none | high | pass | none | none |
+| 712 | none | high | pass | none | none |
+| 713 | none | high | pass | none | none |
 | 714 | none | high | pass | none | none |
 | 12 | none | high | pass | none | none |
-| 716 | medium | high | pass | none | relationships |
-| 717 | medium | high | pass | none | Luis, relationships |
-| 718 | medium | high | pass | none | relationships |
-| 719 | medium | high | pass | none | relationships |
-| 720 | medium | high | pass | none | relationships |
-| 721 | medium | high | pass | none | relationships |
+| 716 | none | high | pass | none | none |
+| 717 | medium | high | pass | none | Luis |
+| 718 | none | high | pass | none | none |
+| 719 | none | high | pass | none | none |
+| 720 | none | high | pass | none | none |
+| 721 | none | high | pass | none | none |
 | 722 | high | low | reread-page | none | none |
-| 723 | medium | high | pass | none | relationships |
-| 724 | medium | high | pass | none | relationships |
-| 725 | medium | high | pass | none | Luis, relationships |
+| 723 | none | high | pass | none | none |
+| 724 | none | high | pass | none | none |
+| 725 | medium | high | pass | none | Luis |
 | 23 | medium | high | pass | none | Luis |
-| 727 | medium | high | pass | none | Luis, relationships |
-| 728 | medium | high | pass | none | Dios, relationships |
+| 727 | medium | high | pass | none | Luis |
+| 728 | medium | high | pass | none | Dios |

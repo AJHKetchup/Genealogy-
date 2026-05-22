@@ -23,7 +23,7 @@
 | 13 | none | high | pass | none | none |
 | 14 | none | high | pass | none | none |
 | 15 | high | low | reread-page | none | none |
-| 76 | medium | high | pass | none | relationships |
+| 76 | none | high | pass | none | none |
 | 17 | none | high | pass | none | none |
 | 18 | high | low | reread-page | none | none |
 | 19 | medium | high | pass | none | Carmen |

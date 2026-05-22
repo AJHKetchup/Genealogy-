@@ -8,4 +8,4 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | high | pass | none | Dario, Jose, Pulgar, people |
+| 1 | high | high | pass | none | Dario, Jose, Pulgar |

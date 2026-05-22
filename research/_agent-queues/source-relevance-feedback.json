@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T08:54:08Z",
+  "updated": "2026-05-22T11:27:18Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -183,6 +183,27 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:a3cf2cb8850b"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T11:27:18Z",
+      "updated": "2026-05-22T11:27:18Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/caaa0e3043-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1888-entry-no-172/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 1,
+      "relevance": "high",
+      "requested_treatment": "pro_with_crops",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:fbe1f3d66de3"
     }
   ]
 }

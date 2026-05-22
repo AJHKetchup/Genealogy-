@@ -11,15 +11,9 @@ Use `$genealogy-claim-extraction`.
 - Original source: `raw/sources/S522bis-29-3.pdf`
 - Page range: 8-8
 - Staging area: `research/_staging`
-
-## QC Hold
-
-- Status: `blocked_needs_reread`
-- Blocked pages: 8
-- Page reread queue: `research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50-codex.md`
-- Suspected readings: `research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0026-0050-s522bis-29-3-pages-26-50-codex.md`
-
-Do not extract claims from this chunk until the blocked page reread is resolved or the chunk is re-queued.
+- Family relevance: `none`
+- Matched family terms: none
+- Evidence priority: `4008` (family_relevance:none, qc:pass, deferred_until_family_relevant)
 
 
 
@@ -30,5 +24,6 @@ Do not extract claims from this chunk until the blocked page reread is resolved 
 - Source packets must be Markdown files under `research/_staging/source-packets/` with YAML frontmatter including `type: source_packet`, `status: draft`, source identity fields, chunk/page references, and `promotion_recommendation`.
 - Atomic claim drafts that may become canonical must be individual Markdown files under `research/_staging/claims/` with YAML frontmatter including `type: claim`, `claim_type`, `subject`, `predicate`, `object`, `source`, `source_packet`, `chunk`, `chunk_id`, `page_reference`, `confidence`, and `promotion_recommendation`. A grouped claim overview can be written as an extra note, but not instead of promotable atomic claim files.
 - Relationship candidates that may become tree links must be individual Markdown files under `research/_staging/relationships/` with YAML frontmatter including `type: relationship_candidate`, `relationship_type`, `person_a`/`person_b` or `child`/`parents`, `source_packet`, `confidence`, and `promotion_recommendation`. If no relationship is stated, write a negative-evidence note with `promotion_recommendation: do_not_promote`.
+- If the chunk has low or no family relevance and no explicit family clue, do not fan out broad historical or official-name claims. Write at most a concise source-scope or negative-evidence note, then stop.
 - Use `promotion_recommendation: promote_after_review` only for drafts that can be promoted after proof review. Use `hold_for_conversion_qa`, `revise_before_review`, or `do_not_promote` for anything that should not flow to the tree yet.
 - No canonical wiki pages are edited by this extraction task.
