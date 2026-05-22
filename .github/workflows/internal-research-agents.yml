@@ -59,7 +59,7 @@ jobs:
       QUEUE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.queue_limit || '12' }}
       RUN_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_minutes || github.event_name == 'push' && '10' || '45' }}
       WORKER_TIMEOUT_MINUTES: ${{ github.event_name == 'push' && '10' || '35' }}
-      ALLOW_PROMOTION: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || github.event_name == 'schedule' && 'true' || 'false' }}
+      ALLOW_PROMOTION: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || github.event_name == 'schedule' && 'true' || github.event_name == 'push' && 'true' || 'false' }}
 
     steps:
       - name: Enable Git long paths

@@ -10,7 +10,7 @@
     "status": "active_on_default_branch",
     "workflow": ".github/workflows/internal-research-agents.yml",
     "runner": "GitHub-hosted windows-latest",
-    "schedule": "hourly at minute 17 for full internal research runs, plus short validation runs on main-branch pushes to the workflow, post-conversion controller, project code, or automation contracts",
+    "schedule": "hourly at minute 17 for full internal research runs, plus short main-branch push runs to the workflow, post-conversion controller, project code, or automation contracts; every successful hosted run may launch a separate promotion-only worker for reviewed-ready material",
     "auth": "ChatGPT-managed Codex auth restored from CODEX_AUTH_JSON_B64 or CODEX_AUTH_JSON repository secret",
     "provider_api_keys": "forbidden",
     "activation_requirements": [
