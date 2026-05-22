@@ -49,6 +49,13 @@
     "pc_dependency": "none for hosted workflow runs",
     "provider_api_keys": "not required"
   },
+  "person_snapshot_refresh": {
+    "status": "active_on_default_branch",
+    "command": "PYTHONPATH=src python -m historic_doc_ingest.genealogy_wiki refresh-person-pages --root .",
+    "runner": ".github/workflows/internal-research-agents.yml",
+    "trigger": "runs after the promotion-only worker step on promotion-capable push, schedule, or manual internal-agent runs",
+    "purpose": "Backfill and refresh family-facing person pages from canonical reviewed claims and relationships without reinterpreting sources or requiring a claimable promotion task."
+  },
   "api_policy": {
     "provider_api_keys_forbidden": true,
     "forbidden_for_post_conversion": ["OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GOOGLE_GENERATIVE_AI_API_KEY", "GEMINI_API_KEY"],
