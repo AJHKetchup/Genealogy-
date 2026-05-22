@@ -1,9 +1,9 @@
 {
-  "created": "2026-05-22T00:38:58Z",
+  "created": "2026-05-22T01:36:22Z",
   "mode": "gemini-source-prep",
   "dry_run": false,
-  "limit": 10,
-  "parallelism": 4,
+  "limit": 40,
+  "parallelism": 8,
   "queue": "research/_agent-queues/source-prep-batches.json",
   "models": {
     "lite": "gemini-2.5-flash",
@@ -23,55 +23,408 @@
   "api_key_candidates": [
     "GEMINI_API_KEY"
   ],
-  "fallback_policy": "all",
+  "fallback_policy": "large_corpus_relevance",
   "economy_large_source_pages": 50,
-  "processed": 10,
-  "completed": 6,
-  "released": 4,
-  "held": 0,
+  "processed": 5,
+  "completed": 5,
+  "released": 0,
+  "held": 35,
   "failed": 0,
-  "skipped": 0,
-  "discovery_skipped": 0,
+  "skipped": 35,
+  "discovery_skipped": 35,
   "media_skipped": 0,
   "route_counts": {
-    "pro": 10
+    "pro_with_crops": 1,
+    "pro": 4
   },
   "tasks": [
     {
-      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675:p0665",
-      "batch_task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675:p0665",
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400:p0376",
+      "batch_task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400:p0376",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "source_task_count": 761,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400/page-0376.md"
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0472",
+      "batch_task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0472",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "source_task_count": 761,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475/page-0472.md"
+    },
+    {
+      "task_id": "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525:p0508",
+      "batch_task_id": "source-prep-batch:ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525:p0508",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/R3578-50-5569-5569-Jacket5.pdf",
+      "source_task_count": 761,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525/page-0508.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578:p0554",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578:p0554",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578/page-0554.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0612",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0612",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628/page-0612.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0627",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0627",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628/page-0627.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0636",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0636",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653/page-0636.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0638",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0638",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653/page-0638.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0641",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0641",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653/page-0641.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0652",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0652",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653/page-0652.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0654",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0654",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0654.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0655",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0655",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0655.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0657",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0657",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0657.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0658",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0658",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0658.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0660",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0660",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0660.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0664",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0664",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0664.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0665",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0665",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0665.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0667",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0667",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0667.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0670",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0670",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0670.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0671",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0671",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0671.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0678",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0678",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678/page-0678.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0679",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0679",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0679.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0681",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0681",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0681.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0682",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0682",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0682.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0688",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0688",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0688.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0690",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0690",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0690.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0694",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0694",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0694.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0695",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0695",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0695.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0697",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0697",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0697.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0702",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0702",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0702.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0703",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0703",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703/page-0703.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0714",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0714",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-0714.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0715",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0715",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-0715.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0722",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0722",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-0722.md"
+    },
+    {
+      "task_id": "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0726",
+      "batch_task_id": "source-prep-batch:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0726",
+      "status": "held",
+      "reason": "large_corpus_docling_fallback_held_for_relevance",
+      "source": "raw/sources/Cámara de Senadores de la Nación, 1936.pdf",
+      "source_task_count": 1342,
+      "economy_large_source_pages": 50,
+      "discovery_path": "raw/discovery/docling/ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728/page-0726.md"
+    },
+    {
+      "task_id": "source-prep:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001",
+      "batch_task_id": "source-prep-batch:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001",
       "route": {
-        "tier": "pro",
+        "tier": "pro_with_crops",
         "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
+        "use_crops": true,
+        "relevant": true,
         "complex": true,
         "reasons": [
-          "complex_quality_flags"
+          "research_relevance:high",
+          "requested_pro_with_crops",
+          "complex_source_type"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/page-images/page-0665.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/page-markdown/page-0665.md",
+      "page_image": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png",
+      "output_path": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.md",
       "usage": {
-        "promptTokenCount": 1432,
-        "candidatesTokenCount": 1018,
-        "totalTokenCount": 3865,
+        "promptTokenCount": 2463,
+        "candidatesTokenCount": 1296,
+        "totalTokenCount": 7122,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1174
+            "tokenCount": 1173
           },
           {
             "modality": "IMAGE",
-            "tokenCount": 258
+            "tokenCount": 1290
           }
         ],
-        "thoughtsTokenCount": 1415,
+        "thoughtsTokenCount": 3363,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/page-markdown/page-0665.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-markdown/page-0001.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -85,90 +438,93 @@
       "status": "done"
     },
     {
-      "task_id": "source-prep:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0357",
-      "batch_task_id": "source-prep-batch:ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375:p0357",
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004",
+      "batch_task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
         "use_crops": false,
-        "relevant": false,
+        "relevant": true,
         "complex": true,
         "reasons": [
-          "complex_quality_flags"
+          "research_relevance:high",
+          "requested_reread",
+          "pdf_native_text_safe"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-images/page-0357.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-markdown/page-0357.md",
+      "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0004.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md",
       "usage": {
-        "promptTokenCount": 1408,
-        "candidatesTokenCount": 831,
-        "totalTokenCount": 3861,
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 1320,
+        "totalTokenCount": 4850,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1150
+            "tokenCount": 1106
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1622,
+        "thoughtsTokenCount": 2166,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/page-markdown/page-0357.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
         "flags": []
       },
       "review": {
-        "status": "needs_reread",
+        "status": "done",
         "quality_flags": [
-          "possible_ocr_garbage_token"
+          "explicit_reread_needed"
         ],
         "missing_sections": []
       },
-      "status": "released",
-      "reason": "review_failed"
+      "status": "done"
     },
     {
-      "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0011",
-      "batch_task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0011",
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005",
+      "batch_task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
         "use_crops": false,
-        "relevant": false,
+        "relevant": true,
         "complex": true,
         "reasons": [
-          "complex_quality_flags"
+          "research_relevance:high",
+          "requested_reread",
+          "pdf_native_text_safe"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0011.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0011.md",
+      "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0005.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.md",
       "usage": {
-        "promptTokenCount": 1391,
-        "candidatesTokenCount": 968,
-        "totalTokenCount": 3851,
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 914,
+        "totalTokenCount": 4432,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1133
+            "tokenCount": 1106
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1492,
+        "thoughtsTokenCount": 2154,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0011.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0005.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -182,40 +538,42 @@
       "status": "done"
     },
     {
-      "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0013",
-      "batch_task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0013",
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006",
+      "batch_task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
         "use_crops": false,
-        "relevant": false,
+        "relevant": true,
         "complex": true,
         "reasons": [
-          "complex_quality_flags"
+          "research_relevance:high",
+          "requested_reread",
+          "pdf_native_text_safe"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0013.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0013.md",
+      "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0006.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md",
       "usage": {
-        "promptTokenCount": 1399,
-        "candidatesTokenCount": 1035,
-        "totalTokenCount": 3000,
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 1107,
+        "totalTokenCount": 4074,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1141
+            "tokenCount": 1106
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 566,
+        "thoughtsTokenCount": 1603,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0013.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -223,291 +581,50 @@
       },
       "review": {
         "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    },
-    {
-      "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0016",
-      "batch_task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0016",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "complex_quality_flags"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0016.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0016.md",
-      "usage": {
-        "promptTokenCount": 1391,
-        "candidatesTokenCount": 1006,
-        "totalTokenCount": 3827,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1133
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 1430,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0016.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
-        "missing_sections": []
-      },
-      "status": "done"
-    },
-    {
-      "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020",
-      "batch_task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0020",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "complex_quality_flags"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0020.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0020.md",
-      "usage": {
-        "promptTokenCount": 1391,
-        "candidatesTokenCount": 929,
-        "totalTokenCount": 3519,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1133
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 1199,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0020.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "needs_reread",
         "quality_flags": [
-          "possible_ocr_garbage_token"
+          "explicit_reread_needed"
         ],
-        "missing_sections": []
-      },
-      "status": "released",
-      "reason": "review_failed"
-    },
-    {
-      "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021",
-      "batch_task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25:p0021",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "complex_quality_flags",
-          "pdf_profile_complex"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-images/page-0021.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0021.md",
-      "usage": {
-        "promptTokenCount": 1397,
-        "candidatesTokenCount": 1122,
-        "totalTokenCount": 3379,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1139
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 860,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/page-markdown/page-0021.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "needs_reread",
-        "quality_flags": [
-          "possible_ocr_garbage_token"
-        ],
-        "missing_sections": []
-      },
-      "status": "released",
-      "reason": "review_failed"
-    },
-    {
-      "task_id": "source-prep:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0026",
-      "batch_task_id": "source-prep-batch:ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33:p0026",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "complex_quality_flags"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/page-images/page-0026.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/page-markdown/page-0026.md",
-      "usage": {
-        "promptTokenCount": 1403,
-        "candidatesTokenCount": 860,
-        "totalTokenCount": 3813,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1145
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 1550,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/page-markdown/page-0026.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "needs_reread",
-        "quality_flags": [
-          "possible_ocr_garbage_token"
-        ],
-        "missing_sections": []
-      },
-      "status": "released",
-      "reason": "review_failed"
-    },
-    {
-      "task_id": "source-prep:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0607",
-      "batch_task_id": "source-prep-batch:ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628:p0607",
-      "route": {
-        "tier": "pro",
-        "model": "gemini-2.5-pro",
-        "use_crops": false,
-        "relevant": false,
-        "complex": true,
-        "reasons": [
-          "complex_quality_flags"
-        ]
-      },
-      "page_image": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-images/page-0607.jpg",
-      "output_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-markdown/page-0607.md",
-      "usage": {
-        "promptTokenCount": 1448,
-        "candidatesTokenCount": 752,
-        "totalTokenCount": 3255,
-        "promptTokensDetails": [
-          {
-            "modality": "TEXT",
-            "tokenCount": 1190
-          },
-          {
-            "modality": "IMAGE",
-            "tokenCount": 258
-          }
-        ],
-        "thoughtsTokenCount": 1055,
-        "serviceTier": "standard"
-      },
-      "finish_reason": "STOP",
-      "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/page-markdown/page-0607.visuals.json",
-        "declared": 0,
-        "cropped": 0,
-        "skipped": 0,
-        "flags": []
-      },
-      "review": {
-        "status": "done",
-        "quality_flags": [],
         "missing_sections": []
       },
       "status": "done"
     },
     {
-      "task_id": "source-prep:cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50:p0039",
-      "batch_task_id": "source-prep-batch:cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50:p0039",
+      "task_id": "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007",
+      "batch_task_id": "source-prep-batch:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007",
       "route": {
         "tier": "pro",
         "model": "gemini-2.5-pro",
         "use_crops": false,
-        "relevant": false,
+        "relevant": true,
         "complex": true,
         "reasons": [
-          "complex_quality_flags"
+          "research_relevance:high",
+          "requested_reread",
+          "pdf_native_text_safe"
         ]
       },
-      "page_image": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/page-images/page-0039.jpg",
-      "output_path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/page-markdown/page-0039.md",
+      "page_image": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0007.jpg",
+      "output_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.md",
       "usage": {
-        "promptTokenCount": 1400,
-        "candidatesTokenCount": 1074,
-        "totalTokenCount": 4057,
+        "promptTokenCount": 1364,
+        "candidatesTokenCount": 861,
+        "totalTokenCount": 3082,
         "promptTokensDetails": [
           {
             "modality": "TEXT",
-            "tokenCount": 1142
+            "tokenCount": 1106
           },
           {
             "modality": "IMAGE",
             "tokenCount": 258
           }
         ],
-        "thoughtsTokenCount": 1583,
+        "thoughtsTokenCount": 857,
         "serviceTier": "standard"
       },
       "finish_reason": "STOP",
       "visual_regions": {
-        "manifest_path": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/page-markdown/page-0039.visuals.json",
+        "manifest_path": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0007.visuals.json",
         "declared": 0,
         "cropped": 0,
         "skipped": 0,
@@ -522,17 +639,17 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 14060,
-    "candidate_tokens": 9595,
-    "thoughts_tokens": 12772,
-    "total_tokens": 36427
+    "prompt_tokens": 7919,
+    "candidate_tokens": 5498,
+    "thoughts_tokens": 10143,
+    "total_tokens": 23560
   },
   "visual_regions": {
     "declared": 0,
     "cropped": 0,
     "skipped": 0,
-    "manifests": 10
+    "manifests": 5
   },
   "fatal_error": "",
-  "finished": "2026-05-22T00:40:15Z"
+  "finished": "2026-05-22T01:37:49Z"
 }

@@ -8,310 +8,345 @@
 - Conversion method: Codex local vision workbench
 - Extracted images: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/extracted-images`
 
-# Page 4
-
 ## Page Metadata
 
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
-- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Source page: 4
-- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0004.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0004.md`
+- Page: 4
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0004.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page is a single column of typed text. The reading order is from top to bottom. The page begins with the continuation of a paragraph from the previous page. This is followed by two bulleted list items, each with a bolded heading. The remainder of the page consists of two distinct job entries. Each job entry is structured with bolded headings for the date range, employer, location, and job title, followed by a descriptive paragraph.
 
 ## Literal Transcription
 
-```markdown
-approaches in four different Indian Sates and, (iv) review the communications strategy for the Productive Projects component of the Millennium Challenge Account programme for the northern region of El Salvador while making recommendations for improvements and new strategic directions.
+approaches in four different Indian Sates and, (iv) review the communications strategy for
+the Productive Projects component of the Millennium Challenge Account programme for the
+northern region of El Salvador while making recommendations for improvements and new
+strategic directions.
 
--  Social  impact  analysis and  consultation  processes including:  (i)  preparation  of  a social impact analysis of extractive industry projects in Peru making recommendations for the drafting of the relevant sections to be included in an Environmental Impact Assessment (EIA)  as  required  by  Peruvian  legislation,  (ii)  conduct  an  institutional  assessment  of  the Ministry of Natural Resources and Environment of Honduras and make recommendations to improve the Ministry's consultation process and citizen involvement and granting of permits for the construction and operation of hydroelectric power generation plants.
--  Monitoring and evaluation including: (i)  guiding  implementation  of  an  Inter-American Development  Bank  (IDB)  project  in  Nicaragua  to  assess  the  country's  Rural  Poverty Reduction  Strategy  and  supervise  the  preparation  of  documentation  materials  including audio visual presentation of the work  carried out in eleven  municipalities with the participation of five Government agencies, (ii) aassessing the impact of the management of Natural  Resources  Program  Initiative  of  IDRC  in  Latin  America  with  specific  reference  to coastal management of natural resources in the Caribbean and watershed management in the  Northern  provinces  of  Ecuador  including  an  analysis  of  local  capacities  to  implement natural resource management  improvement  practices, (iii) undertake an institutional assessment  of  the  University  of  Pretoria's  Public  Health  School  as  part  of  an  overall evaluation  of  the  International  Development  Research  Centre  (IDRC's),  HELP  course including  interviews  with  students,  academics  and  government  authorities  (iv)  assess  the impact of the management of Natural Resources Program Initiative of IDRC in Latin America (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural resources  in  the  Caribbean  and  watershed  management  in  the  Northern  provinces  of Ecuador including an analysis of local capacities to implement natural resource management improvement practices.
+*   **Social impact analysis and consultation processes** including: (i) preparation of a
+    social impact analysis of extractive industry projects in Peru making recommendations for
+    the drafting of the relevant sections to be included in an Environmental Impact Assessment
+    (EIA) as required by Peruvian legislation, (ii) conduct an institutional assessment of the
+    Ministry of Natural Resources and Environment of Honduras and make recommendations to
+    improve the Ministry's consultation process and citizen involvement and granting of permits
+    for the construction and operation of hydroelectric power generation plants.
 
-## 2000 International Bank for Reconstruction and Development (IBRD) Bolivia, Peru Senior Consultant
+*   **Monitoring and evaluation** including: (i) guiding implementation of an Inter-American
+    Development Bank (IDB) project in Nicaragua to assess the country's Rural Poverty
+    Reduction Strategy and supervise the preparation of documentation materials including
+    audio visual presentation of the work carried out in eleven municipalities with the
+    participation of five Government agencies, (ii) aassessing the impact of the management of
+    Natural Resources Program Initiative of IDRC in Latin America with specific reference to
+    coastal management of natural resources in the Caribbean and watershed management in
+    the Northern provinces of Ecuador including an analysis of local capacities to implement
+    natural resource management improvement practices, (iii) undertake an institutional
+    assessment of the University of Pretoria's Public Health school as part of an overall
+    evaluation of the International Development Research Centre (IDRC's), HELP course
+    including interviews with students, academics and government authorities (iv) assess the
+    impact of the management of Natural Resources Program Initiative of IDRC in Latin America
+    (Mexico. Nicaragua and Ecuador) with specific reference to coastal management of natural
+    resources in the Caribbean and watershed management in the Northern provinces of
+    Ecuador including an analysis of local capacities to implement natural resource
+    management improvement practices.
 
-Participate  in  the  preparation  of  the  Project  Appraisal  Document  (PAD)  for  the  Indigenous Management of Protected Areas Project in Peru, Prepare a Project Concept Document (PCD) for the Development of Indigenous Communities Learning and Innovation Loan (LIL) in Bolivia. Discuss  with  project  preparation  teams  the  scope  of  the  projects  and  with  Government implementation  modalities  and  prepare  a  PCD  for  a  second  phase  of  an  IBRD/Global Environment Facility  (GEF)  funded  project  in  favour  of  the  National  Trust  Fund  for  Protected Areas in Peru (PROFONANPE).
+**2000**
+**International Bank for Reconstruction and Development (IBRD)**
+**Bolivia, Peru**
+**Senior Consultant**
+Participate in the preparation of the Project Appraisal Document (PAD) for the Indigenous
+Management of Protected Areas Project in Peru, Prepare a Project Concept Document (PCD)
+for the Development of Indigenous Communities Learning and Innovation Loan (LIL) in Bolivia.
+Discuss with project preparation teams the scope of the projects and with Government
+implementation modalities and prepare a PCD for a second phase of an IBRD/Global
+Environment Facility (GEF) funded project in favour of the National Trust Fund for Protected
+Areas in Peru (PROFONANPE).
 
-## 1999 - 2000 Antamina Mining Company Huarmey, Peru Head Community Relations
-
-Plan and supervise implementation of a community relation's plan. Implement activities in favour of communities impacted by the construction of port facilities including supervision of evacuation of communities during blasts that could affect them for safety reasons. Represent the company in dealings with local authorities and community organisations.
-```
+**1999 - 2000**
+**Antamina Mining Company**
+**Huarmey, Peru**
+**Head Community Relations**
+Plan and supervise implementation of a community relation's plan. Implement activities in favour
+of communities impacted by the construction of port facilities including supervision of evacuation
+of communities during blasts that could affect them for safety reasons. Represent the company
+in dealings with local authorities and community organisations.
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, captions, or other visual elements on this page. The page consists entirely of typed text.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+This page is fully transcribed and complete.
 
-# Page 5
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+}
+```
 
 ## Page Metadata
 
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
-- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Source page: 5
-- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0005.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- task_id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005`
+- page_num: 5
+- source_id: `ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9`
+- source_title: `CV of Dario Arturo Pulgar`
+- source_filename: `CV of Dario Arturo Pulgar.pdf`
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page consists of a single column of typed text. The content is a continuation of a curriculum vitae, with entries organized chronologically. Each entry is headed by a date or date range, followed by the organization, location, role, and a descriptive paragraph. The reading order is from top to bottom.
 
 ## Literal Transcription
 
-```markdown
-## 1999
+**1999**
 
-## National Trust Fund for Protected Areas in Peru (PROFONANPE) Peru Consultant
+**National Trust Fund for Protected Areas in Peru (PROFONANPE)**
+**Peru**
+**Consultant**
+Undertake: i) preparation of a draft proposal for a second phase of the World Bank funded
+National Environment Trust Fund project in Peru, ii) prepare a project document for a debt swap
+initiative by the German Government in favour of environmental institution building of the
+Peruvian Institute of Natural Resources for it to manage private investment in natural protected
+areas.
 
-Undertake:  i)  preparation  of  a  draft  proposal  for  a  second  phase  of  the  World  Bank  funded National Environment Trust Fund project in Peru, ii) prepare a project document for a debt swap initiative  by  the  German  Government  in  favour  of  environmental  institution  building  of  the Peruvian Institute of Natural Resources for it to manage private investment in natural protected areas.
+**Television Trust for the Environment (TVE)**
+**London, England**
+**Consultant**
+Prepare a comprehensive paper on the use of media for development programmes funded by
+the Netherlands Government in the developing world. The main objective of the paper was to
+ascertain the feasibility of establishing a consortium of media organisations including TVE, the
+Panos Institute, the One World Media Service, the Women's Feature Service and the Inter
+Press Service (IPS). Evaluate the impact of the Hands on It Works segment of the World
+Wildlife Fund British Broadcasting Corporation (BBC) Earth Report half-hour programme.
+Compile viewer statistics and design a field-testing project in Asia, Africa and Latin America.
+Review a project proposal for raising environmental awareness in six countries in Latin America
+and prepare an alternative proposal for concentration on the Gran Chaco Region of Argentina,
+Bolivia and Paraguay. Discuss the proposal with donors and other actors.
 
-## Television Trust for the Environment (TVE) London, England Consultant
+**1998 - 1999**
+**Arca Consulting/ European Commission**
+**Lesotho**
+**Team Leader**
+Implement an environmental awareness project in the context of the Lesotho Highlands Water
+Project. Participate in the preparation of a Master Programme for project implementation
+including suggestions for use of audio-visual materials and training courses. Supervise the work
+of an administrative assistant and carry out administrative responsibilities inherent in the
+contract between the European Commission, Arca Consulting and the Lesotho Highlands
+Development Authority.
 
-Prepare a comprehensive paper on the use of media for development programmes funded by the Netherlands Government in the developing world. The main objective  of the paper was to ascertain the feasibility of establishing a consortium of media organisations including  TVE, the Panos  Institute,  the  One  World  Media  Service,  the  Women's  Feature  Service  and  the  Inter Press  Service  (IPS).  Evaluate  the  impact  of  the  Hands  on  It  Works  segment  of  the  World Wildlife  Fund  British  Broadcasting  Corporation  (BBC)  Earth  Report  half-hour  programme. Compile viewer statistics  and  design  a  field-testing  project  in  Asia,  Africa  and  Latin  America, Review a project proposal for raising environmental awareness in six countries in Latin America and prepare an alternative proposal for concentration on the Gran Chaco Region of Argentina, Bolivia and Paraguay. Discuss the proposal with donors and other actors.
+**1997-1998**
 
-## 1998 - 1999 Arca Consulting/ European Commission Lesotho
+**Klohn Crippen Consultants**
+**Huaraz, Peru**
+**Socio-economic Consultant**
+Undertake a socio-economic impact assessment of the Antamina mining project. Establish the
+need for resettlement of populations in areas surrounding the mine site. Determine the baseline
+data to analyse the economic impact of investments including a road transportation network.
 
-## Team Leader
-
-Implement an environmental awareness project in the context of the Lesotho Highlands Water Project.  Participate  in  the  preparation  of  a  Master  Programme  for  project  implementation including suggestions for use of audio-visual materials and training courses. Supervise the work of  an  administrative  assistant  and  carry  out  administrative  responsibilities  inherent  in  the contract  between  the  European  Commission,  Arca  Consulting  and  the  Lesotho  Highlands Development Authority.
-
-## 1997-1998
-
-## Klohn Crippen Consultants Huaraz, Peru Socio-economic Consultant
-
-Undertake a socio-economic impact assessment of the Antamina mining project. Establish the need for resettlement of populations in areas surrounding the mine site. Determine the baseline data to analyse the economic impact of investments including a road transportation network.
-
-## SNC Lavalin Agriculture Maracaibo, Venezuela Training Consultant
-
-Review  implementation  of  a  proposed  training  programme  for  the  Development  of  the Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
-```
+**SNC Lavalin Agriculture**
+**Maracaibo, Venezuela**
+**Training Consultant**
+Review implementation of a proposed training programme for the Development of the
+Maracaibo Plain Project. Co-ordinate with the World Bank and Canadian agencies a study tour
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+There are no images, illustrations, or other visual elements on this page. The content is entirely typed text.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+This page has been transcribed in its entirety.
 
-# Page 6
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page contains only typed text and has no images, illustrations, or other visual elements suitable for cropping."
+}
+```
 
 ## Page Metadata
 
+- Task id: `source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006`
+- Model route: `pro`
+- Route reasons: research_relevance:high, requested_reread, pdf_native_text_safe
 - Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
-- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Source page: 6
-- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0006.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- Job manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
+- Work order: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/work-orders/page-0006.md`
+- Page: 6
+- Output Markdown target: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-markdown/page-0006.md`
+- External research relevance: `high`
+- External requested treatment: `reread`
+- External relevance reasons: Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.
+- Recommended action: ``
+- Quality flags: none
+- Technical reread clues: none
 
 ## Layout And Reading Order
 
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page is a single column of text. The reading order is from top to bottom. The document appears to be a curriculum vitae, with entries for different positions held. Each entry typically includes a date range (underlined), the name of the organization (bold), the location (bold), the job title (bold), and a paragraph describing the responsibilities.
 
 ## Literal Transcription
 
-```markdown
 on irrigation districts and transfer of irrigation infrastructure to water user associations.
 
-## Deutsche  Gesellschaft  für  Technische  Zusammenarbeit  (GTZ)  -  Fondo  de  Desarrollo Campesino (FDC)
+<u>1996 - 1997</u>
+**Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) - Fondo de Desarrollo Campesino (FDC)**
+**La Paz, Bolivia**
+**Senior Technical Advisor**
+Participate in strategic and policy decisions of the Farmer Development Fund. Assist in the implementation of rural development projects in infrastructure, production support and institutional strengthening. Participate in the Funding, Personnel and Management Committees. Supervise the institutional strengthening of rural financial institutions.
 
-## 1996 - 1997 La Paz, Bolivia Senior Technical Advisor
+<u>1996</u>
+**SNC Lavalin Agriculture**
+**Maracaibo, Venezuela**
+**Consultant**
+Establish a training programme for the Empresa Regional Sistema Hidráulico Planicie de Maracaibo (PLANIMARA) with emphasis in the management and administration of irrigation projects and the transfer of these systems to beneficiaries.
 
-Participate  in  strategic  and  policy  decisions  of  the  Farmer  Development  Fund.  Assist  in  the implementation of rural development projects in infrastructure, production support and institutional strengthening. Participate in the Funding, Personnel and Management Committees. Supervise the institutional strengthening of rural financial institutions.
+**Ministry of Social Welfare of Ecuador, Rural Development Secretariat**
+**Quito, Ecuador**
+**Mission Leader**
+Direct the work of a group of consultants in the preparation of feasibility study for a rural development project to be implemented in three areas of the country. The study included establishing beneficiary demands and the design of credit, technical assistance, infrastructure, and production support components.
 
-## 1996
+<u>1994 - 1995</u>
+**Instituto Interamericano de Cooperación para la Agricultura (IICA)**
+**Lima, Perú**
+**Chief Technical Advisor**
+Provide guidance for implementation of the “Promotion of Technology Transfer to the Peasant Communities in the Highland” project funded by IFAD including: a) development and implementation of new methodologies for technology transfer and extension, b) use of communications through community radio stations, Participate in project monitoring, evaluation and training.
 
-## SNC Lavalin Agriculture Maracaibo, Venezuela
-
-## Consultant
-
-Establish  a  training  programme  for  the  Empresa  Regional  Sistema  Hidráulico  Planicie  de Maracaibo (PLANIMARA)  with  emphasis  in  the  management  and  administration  of  irrigation projects and the transfer of these systems to beneficiaries.
-
-## Ministry of Social Welfare of Ecuador, Rural Development Secretariat Quito, Ecuador
-
-## Mission Leader
-
-Direct  the  work  of  a  group  of  consultants  in  the  preparation  of  feasibility  study  for  a  rural development  project  to  be  implemented  in  three  areas  of  the  country.  The  study  included establishing beneficiary demands and the design of credit, technical assistance, infrastructure, and production support components .
-
-## Instituto Interamericano de Cooperación para la Agricultura (IICA)
-
-## 1994 - 1995 Lima, Perú Chief Technical Advisor
-
-Provide guidance for implementation of the 'Promotion of Technology Transfer to the Peasant Communities  in the Highland' project funded by IFAD  including: a)  development  and implementation  of  new  methodologies  for  technology  transfer  and  extension,  b)  use  of communications through community radio stations,  Participate in project monitoring, evaluation and training.
-
-## 1992 - 1993
-
-## United Nations Children Fund (UNICEF)
-
-## Ankara, Turkey
-
-## Rural Development Advisor
-
+<u>1992 - 1993</u>
+**United Nations Children Fund (UNICEF)**
+**Ankara, Turkey**
+**Rural Development Advisor**
 Provide guidance in the implementation of a rural development project in priority provinces and supervise the production of audio-visual materials.
 
-## 1989-1991 SNC Lavalin Incorporated Egypt
-
-## Agricultural Extension and Communication Advisor
-
+<u>1989-1991</u>
+**SNC Lavalin Incorporated**
+**Egypt**
+**Agricultural Extension and Communication Advisor**
 Establish a Development Support Communication Centre (DSC) in the city of Dikernis, Dakahlia
-```
 
 ## Images, Captions, And Visual Notes
 
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+This page contains only text. There are no images, captions, or other visual elements.
 
 ## Uncertain Or Illegible
 
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+The entire page has been transcribed.
 
-# Page 7
+## Visual Region Manifest
+
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "This page is text-only and contains no images, illustrations, maps, or other significant visual elements."
+}
+```
 
 ## Page Metadata
-
-- Source: `raw/sources/CV of Dario Arturo Pulgar.pdf`
-- Source SHA-256: `07263f404e4c433d8b9ae10daf26700d22b79b1ae725325a9d37a64d60434424`
-- Conversion manifest: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json`
-- Source page: 7
-- Page image: `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0007.jpg`
-- Conversion method: Docling basic conversion
-- Docling readability status: `rough_ok`
-- Docling readability flags: none
-- Extracted picture images: 0
+- **Page number**: 7 (inferred from filename `p0007`)
+- **Document title**: CV of Dario Arturo Pulgar
+- **Document type**: Curriculum Vitae
 
 ## Layout And Reading Order
-
-Docling basic conversion preserved the exported reading order. Conversion QA must compare this output with the rendered page image before research extraction.
+The page is a single column of text. The content is organized chronologically in reverse order, with each entry representing a professional role. Each entry typically includes a date range, the name of the organization, the location, a job title, and a descriptive paragraph. Headings for dates, organizations, locations, and titles are in bold. The reading order is from top to bottom.
 
 ## Literal Transcription
+Governorate and the design and implementation of a modified Training and Visit System of
+Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation
+with the project. Ensure liaison with governmental organisations in the agricultural field.
+Organise farmer groups in the area.
 
-```markdown
-Governorate  and  the  design  and  implementation  of  a  modified  Training  and  Visit  System  of Extension, coordinating the activities of the Government of Egypt (GOE) extension organisation with  the  project.  Ensure  liaison  with  governmental  organisations  in  the  agricultural  field. Organise farmer groups in the area.
+**1988-1989**
+**Food and Agriculture Organisation of the United Nations (FAO)**
+**Ndola, Zambia**
+**Training and Communication Advisor**
+Provide advisory services in communications and training for the Formulation of a Community
+Forestry Development Strategy and Establishment of Participatory/Extension Centres Project.
+Prepare project inception report, terms of reference for all international consultants and
+contractors, review communication institutions and prepare proposals for their strengthening,
+design village level two-way flow communication programs and prepare monitoring reports of
+projects implementation.
 
-## 1988-1989 Food and Agriculture Organisation of the United Nations (FAO) Ndola, Zambia Training and Communication Advisor
+**1988**
+**Canadian International Development Agency (CIDA)**
+**Ethiopia**
+**Communication Consultant**
+Provide assistance to the Economic Commission for Africa (ECA) in the field of information and
+communications. Review ECA information and communication programmes. Prepare a project
+document for strengthening ECA capacity in this field.
 
-Provide advisory services in communications and training for the Formulation of a Community Forestry  Development Strategy and Establishment of Participatory/Extension Centres Project. Prepare  project  inception  report,  terms  of  reference  for  all  international  consultants  and contractors,  review  communication  institutions  and  prepare  proposals  for  their  strengthening, design village level  two-way flow communication programs and prepare monitoring reports of projects implementation.
+**1986 - 1987**
+**Worldview International Foundation (WIF)**
+**Rome, Italy**
+**Rural Communications and Extension Advisor**
+Implement rural communications projects in The Gambia, Mali, Nicaragua and Peru. In Gambia,
+provide support to the Jahally Pachaar Rural Development Project including development of an
+extension communications component with special reference to the concerns of women
+farmers. In Mali, assist the Village Development Fund Project in the design of methods for
+farmer participation and assist in project implementation start up. In Nicaragua, set up a video
+production and print shop; and in Peru, include in the Alto Mayo Rural Development Project a
+component for bilingual cultural development (Aguaruna - Spanish) and establish a video-print
+radio production unit.
 
-## 1988 Canadian International Development Agency (CIDA) Ethiopia Communication Consultant
-
-Provide assistance to the Economic Commission for Africa (ECA) in the field of information and communications. Review ECA information and communication programmes. Prepare a project document for strengthening ECA capacity in this field.
-
-## 1986 - 1987 Worldview International Foundation (WIF) Rome, Italy
-
-## Rural Communications and Extension Advisor
-
-Implement rural communications projects in The Gambia, Mali, Nicaragua and Peru. In Gambia, provide support to the Jahally Pachaar Rural Development Project including development of an extension  communications  component  with  special  reference  to  the  concerns  of  women farmers.  In  Mali,  assist  the  Village  Development  Fund  Project  in  the  design  of  methods  for farmer participation and assist in project implementation start up. In Nicaragua, set up a video production and print shop; and in Peru, include in the Alto Mayo Rural Development Project a component for bilingual cultural development (Aguaruna - Spanish) and establish a video-print radio production unit.
-
-## 1982-1985 Independent communications consultant
-
-## Canadian International Development Agency
-
-As  an  independent  communications  consultant:  i)  head  a  team  of  specialists  preparing communication initiatives on world famine and agricultural production and  prepare a proposal for the establishment of a communications unit in the Sahel, ii) design procedures for film and video production for the Public Information Division of the Canadian International Development Agency  (CIDA),  iii)  review  African  Development  Bank  (AfDB ) projects  in  Ivory  Coast,  Kenya, Tanzania,  Ethiopia,  Malawi,  and  Lesotho  with  reference  to  their  communications,  extension approaches and public  information,  iv)  establish  a  communication  centre,  appraise  proposals and prepare a detailed plan of operations including equipment specifications for an EMBRAFILME  Audio  Visual  Centre,  and  v)  prepare  a  plan  of  operations  of  a  health communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
-```
+**1982-1985**
+**Independent communications consultant**
+**Canadian International Development Agency**
+As an independent communications consultant: i) head a team of specialists preparing
+communication initiatives on world famine and agricultural production and prepare a proposal
+for the establishment of a communications unit in the Sahel, ii) design procedures for film and
+video production for the Public Information Division of the Canadian International Development
+Agency (CIDA), iii) review African Development Bank (AfDB) projects in Ivory Coast, Kenya,
+Tanzania, Ethiopia, Malawi and Lesotho with reference to their communications, extension
+approaches and public information, iv) establish a communication centre, appraise proposals
+and prepare a detailed plan of operations including equipment specifications for an
+EMBRAFILME Audio Visual Centre, and v) prepare a plan of operations of a health
+communication project with special emphasis on rural areas for CIDA in Islamabad, Pakistan
 
 ## Images, Captions, And Visual Notes
-
-- No Docling picture regions were detected for this page.
-
-## Translation
-
-No translation was produced by the Docling basic conversion pass.
-
-## Interpretation
-
-No interpretation was produced by the Docling basic conversion pass.
+This page contains only text. There are no images, illustrations, stamps, or other visual elements.
 
 ## Uncertain Or Illegible
-
-- Automated readability flags: none
-- Any unclear names, dates, handwriting, or image labels must be checked during conversion QA.
-
-## Extracted Genealogy Leads
-
-- No genealogy leads were asserted by the Docling basic conversion pass.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
+The transcription is a complete and accurate representation of all text on the page.
 
-- Basic Docling conversion completed for this page.
-- Rendered page image link recorded.
-- Extracted picture image count: 0.
-- This page remains subject to conversion QA before claims, relationships, or canonical wiki updates.
+## Visual Region Manifest
+```json
+{
+  "visual_regions": [],
+  "no_visual_regions_reason": "The page consists entirely of typed text and does not contain any images, illustrations, photographs, or other significant visual elements that would warrant cropping."
+}
+```
 
 # Page 8
 

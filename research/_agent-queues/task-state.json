@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T01:26:55Z",
+  "updated": "2026-05-22T01:37:49Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -292,31 +292,39 @@
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0004": {
       "status": "done",
-      "updated_at": "2026-05-19T12:44:22Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T12:44:22Z"
+      "updated_at": "2026-05-22T01:37:49Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "completed_at": "2026-05-22T01:37:49Z",
+      "claimed_at": "2026-05-22T01:36:25Z",
+      "started_at": "2026-05-22T01:36:25Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0005": {
       "status": "done",
-      "updated_at": "2026-05-16T17:38:42Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:38:42Z"
+      "updated_at": "2026-05-22T01:37:46Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "completed_at": "2026-05-22T01:37:46Z",
+      "claimed_at": "2026-05-22T01:36:26Z",
+      "started_at": "2026-05-22T01:36:27Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0006": {
       "status": "done",
-      "updated_at": "2026-05-16T17:38:46Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:38:46Z"
+      "updated_at": "2026-05-22T01:37:43Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "completed_at": "2026-05-22T01:37:43Z",
+      "claimed_at": "2026-05-22T01:36:27Z",
+      "started_at": "2026-05-22T01:36:28Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0007": {
       "status": "done",
-      "updated_at": "2026-05-16T17:38:49Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-16T17:38:49Z"
+      "updated_at": "2026-05-22T01:37:38Z",
+      "agent": "gemini-source-prep",
+      "note": "Completed by Gemini route pro",
+      "completed_at": "2026-05-22T01:37:38Z",
+      "claimed_at": "2026-05-22T01:36:28Z",
+      "started_at": "2026-05-22T01:36:29Z"
     },
     "source-prep:ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9:p0008": {
       "status": "done",
@@ -3259,12 +3267,12 @@
     },
     "source-prep:ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513:p0001": {
       "status": "done",
-      "updated_at": "2026-05-17T09:15:45Z",
+      "updated_at": "2026-05-22T01:37:23Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Completed by Gemini route pro_with_crops",
       "claimed_at": "2026-05-17T09:11:15Z",
       "started_at": "2026-05-17T09:11:15Z",
-      "completed_at": "2026-05-17T09:15:45Z"
+      "completed_at": "2026-05-22T01:37:23Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0001-0025-r3578-50-5569-5569-jacket5-pages-1-25:p0006": {
       "status": "done",
@@ -36275,11 +36283,12 @@
       "completed_at": "2026-05-21T03:08:11Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0554-0578-c-mara-de-senadores-de-la-naci-n-1936-pages-554-578:p0554": {
-      "status": "done",
-      "updated_at": "2026-05-19T10:50:52Z",
-      "agent": "source-prep-docling-discovery",
-      "note": "Docling basic conversion accepted; conversion QA still required.",
-      "completed_at": "2026-05-19T10:50:52Z"
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:29Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "completed_at": "2026-05-19T10:50:52Z",
+      "held_at": "2026-05-22T01:36:29Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0376-0400-r3016-11a-2905-950-pages-376-400:p0391": {
       "status": "done",
@@ -37927,60 +37936,66 @@
       "completed_at": "2026-05-19T11:53:21Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0627": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:32Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:30Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:34Z",
       "started_at": "2026-05-19T11:53:34Z",
-      "completed_at": "2026-05-19T18:32:32Z"
+      "completed_at": "2026-05-19T18:32:32Z",
+      "held_at": "2026-05-22T01:36:30Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0636": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:33:10Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:30Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route pro",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:37Z",
       "started_at": "2026-05-19T11:53:37Z",
-      "completed_at": "2026-05-19T18:33:10Z"
+      "completed_at": "2026-05-19T18:33:10Z",
+      "held_at": "2026-05-22T01:36:30Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0638": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:47Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:30Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:39Z",
       "started_at": "2026-05-19T11:53:39Z",
-      "completed_at": "2026-05-19T18:32:47Z"
+      "completed_at": "2026-05-19T18:32:47Z",
+      "held_at": "2026-05-22T01:36:30Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0641": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:48Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:30Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:42Z",
       "started_at": "2026-05-19T11:53:42Z",
-      "completed_at": "2026-05-19T18:32:48Z"
+      "completed_at": "2026-05-19T18:32:48Z",
+      "held_at": "2026-05-22T01:36:30Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0629-0653-c-mara-de-senadores-de-la-naci-n-1936-pages-629-653:p0652": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:33:12Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:45Z",
       "started_at": "2026-05-19T11:53:45Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:10:56Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-19T18:33:12Z"
+      "completed_at": "2026-05-19T18:33:12Z",
+      "held_at": "2026-05-22T01:36:31Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0654": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:42Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:47Z",
       "started_at": "2026-05-19T11:53:48Z",
-      "completed_at": "2026-05-19T18:32:42Z"
+      "completed_at": "2026-05-19T18:32:42Z",
+      "held_at": "2026-05-22T01:36:31Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1154-1178-c-mara-de-senadores-de-la-naci-n-1936-pages-1154-1178:p1173": {
       "status": "done",
@@ -37990,60 +38005,66 @@
       "completed_at": "2026-05-19T11:53:51Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0655": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:49Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:51Z",
       "started_at": "2026-05-19T11:53:52Z",
-      "completed_at": "2026-05-19T18:32:49Z"
+      "completed_at": "2026-05-19T18:32:49Z",
+      "held_at": "2026-05-22T01:36:31Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0660": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:42Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:55Z",
       "started_at": "2026-05-19T11:53:55Z",
-      "completed_at": "2026-05-19T18:32:42Z"
+      "completed_at": "2026-05-19T18:32:42Z",
+      "held_at": "2026-05-22T01:36:31Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0664": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:42Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:57Z",
       "started_at": "2026-05-19T11:53:58Z",
-      "completed_at": "2026-05-19T18:32:42Z"
+      "completed_at": "2026-05-19T18:32:42Z",
+      "held_at": "2026-05-22T01:36:31Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0665": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:55Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:32Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:53:59Z",
       "started_at": "2026-05-19T11:54:00Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:12:40Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-19T18:32:55Z"
+      "completed_at": "2026-05-19T18:32:55Z",
+      "held_at": "2026-05-22T01:36:32Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0667": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:41Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:32Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:02Z",
       "started_at": "2026-05-19T11:54:03Z",
-      "completed_at": "2026-05-19T18:32:41Z"
+      "completed_at": "2026-05-19T18:32:41Z",
+      "held_at": "2026-05-22T01:36:32Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0670": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:36:40Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:32Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:05Z",
       "started_at": "2026-05-19T11:54:05Z",
-      "completed_at": "2026-05-19T18:36:40Z"
+      "completed_at": "2026-05-19T18:36:40Z",
+      "held_at": "2026-05-22T01:36:32Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1204-1228-c-mara-de-senadores-de-la-naci-n-1936-pages-1204-1228:p1207": {
       "status": "done",
@@ -38053,13 +38074,14 @@
       "completed_at": "2026-05-19T11:54:06Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0671": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:50Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:32Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:08Z",
       "started_at": "2026-05-19T11:54:08Z",
-      "completed_at": "2026-05-19T18:32:50Z"
+      "completed_at": "2026-05-19T18:32:50Z",
+      "held_at": "2026-05-22T01:36:32Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0701-0725-s522bis-29-3-pages-701-725:p0705": {
       "status": "done",
@@ -38069,60 +38091,66 @@
       "completed_at": "2026-05-19T11:54:09Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0678": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:41Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:11Z",
       "started_at": "2026-05-19T11:54:12Z",
-      "completed_at": "2026-05-19T18:32:41Z"
+      "completed_at": "2026-05-19T18:32:41Z",
+      "held_at": "2026-05-22T01:36:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0679": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:42Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:14Z",
       "started_at": "2026-05-19T11:54:14Z",
-      "completed_at": "2026-05-19T18:32:42Z"
+      "completed_at": "2026-05-19T18:32:42Z",
+      "held_at": "2026-05-22T01:36:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0681": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:33:07Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:33Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:17Z",
       "started_at": "2026-05-19T11:54:17Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:15:04Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-19T18:33:07Z"
+      "completed_at": "2026-05-19T18:33:07Z",
+      "held_at": "2026-05-22T01:36:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0682": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:45Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:33Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:19Z",
       "started_at": "2026-05-19T11:54:19Z",
-      "completed_at": "2026-05-19T18:32:45Z"
+      "completed_at": "2026-05-19T18:32:45Z",
+      "held_at": "2026-05-22T01:36:33Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0688": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:44Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:22Z",
       "started_at": "2026-05-19T11:54:22Z",
-      "completed_at": "2026-05-19T18:32:44Z"
+      "completed_at": "2026-05-19T18:32:44Z",
+      "held_at": "2026-05-22T01:36:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0690": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:41Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:34Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:25Z",
       "started_at": "2026-05-19T11:54:26Z",
-      "completed_at": "2026-05-19T18:32:41Z"
+      "completed_at": "2026-05-19T18:32:41Z",
+      "held_at": "2026-05-22T01:36:34Z"
     },
     "source-prep:ca7e42bb85-s522bis-29-3-p0601-0625-s522bis-29-3-pages-601-625:p0606": {
       "status": "done",
@@ -38132,42 +38160,46 @@
       "completed_at": "2026-05-19T11:54:26Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0694": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:34:11Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:34Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:28Z",
       "started_at": "2026-05-19T11:54:28Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:14:55Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-19T18:34:11Z"
+      "completed_at": "2026-05-19T18:34:11Z",
+      "held_at": "2026-05-22T01:36:34Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0695": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:41Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:31Z",
       "started_at": "2026-05-19T11:54:31Z",
-      "completed_at": "2026-05-19T18:32:41Z"
+      "completed_at": "2026-05-19T18:32:41Z",
+      "held_at": "2026-05-22T01:36:35Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0697": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:46Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:33Z",
       "started_at": "2026-05-19T11:54:33Z",
-      "completed_at": "2026-05-19T18:32:46Z"
+      "completed_at": "2026-05-19T18:32:46Z",
+      "held_at": "2026-05-22T01:36:35Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0702": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:48Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:35Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:35Z",
       "started_at": "2026-05-19T11:54:36Z",
-      "completed_at": "2026-05-19T18:32:48Z"
+      "completed_at": "2026-05-19T18:32:48Z",
+      "held_at": "2026-05-22T01:36:35Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p1204-1228-c-mara-de-senadores-de-la-naci-n-1936-pages-1204-1228:p1205": {
       "status": "done",
@@ -38177,51 +38209,56 @@
       "completed_at": "2026-05-19T11:54:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0679-0703-c-mara-de-senadores-de-la-naci-n-1936-pages-679-703:p0703": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:47Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:36Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:38Z",
       "started_at": "2026-05-19T11:54:38Z",
-      "completed_at": "2026-05-19T18:32:47Z"
+      "completed_at": "2026-05-19T18:32:47Z",
+      "held_at": "2026-05-22T01:36:36Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0714": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:34:04Z",
-      "note": "Completed by Gemini route pro",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:36Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:40Z",
       "started_at": "2026-05-19T11:54:41Z",
       "released_by": "gemini-source-prep",
       "released_at": "2026-05-19T12:10:51Z",
       "agent": "gemini-source-prep",
-      "completed_at": "2026-05-19T18:34:04Z"
+      "completed_at": "2026-05-19T18:34:04Z",
+      "held_at": "2026-05-22T01:36:36Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0715": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:47Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:37Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:44Z",
       "started_at": "2026-05-19T11:54:44Z",
-      "completed_at": "2026-05-19T18:32:47Z"
+      "completed_at": "2026-05-19T18:32:47Z",
+      "held_at": "2026-05-22T01:36:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0722": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:43Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:37Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:47Z",
       "started_at": "2026-05-19T11:54:47Z",
-      "completed_at": "2026-05-19T18:32:43Z"
+      "completed_at": "2026-05-19T18:32:43Z",
+      "held_at": "2026-05-22T01:36:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0704-0728-c-mara-de-senadores-de-la-naci-n-1936-pages-704-728:p0726": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:42Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:37Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T11:54:50Z",
       "started_at": "2026-05-19T11:54:50Z",
-      "completed_at": "2026-05-19T18:32:42Z"
+      "completed_at": "2026-05-19T18:32:42Z",
+      "held_at": "2026-05-22T01:36:37Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0729-0753-c-mara-de-senadores-de-la-naci-n-1936-pages-729-753:p0742": {
       "status": "done",
@@ -40944,13 +40981,14 @@
       "completed_at": "2026-05-19T12:56:50Z"
     },
     "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0657": {
-      "status": "done",
-      "updated_at": "2026-05-19T18:32:49Z",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
       "agent": "gemini-source-prep",
-      "note": "Completed by Gemini route lite",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T18:08:05Z",
       "started_at": "2026-05-19T18:08:05Z",
-      "completed_at": "2026-05-19T18:32:49Z"
+      "completed_at": "2026-05-19T18:32:49Z",
+      "held_at": "2026-05-22T01:36:31Z"
     },
     "source-prep:ca3e1a8684-r3016-11a-2905-950-p0751-0775-r3016-11a-2905-950-pages-751-775:p0760": {
       "status": "done",
@@ -42598,13 +42636,15 @@
       "completed_at": "2026-05-19T18:33:50Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400:p0376": {
-      "status": "released",
-      "updated_at": "2026-05-19T18:37:47Z",
-      "note": "Gemini Flash hit max tokens; retry once with Pro and the full output budget.",
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:29Z",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
       "claimed_at": "2026-05-19T18:11:17Z",
       "started_at": "2026-05-19T18:11:17Z",
       "released_by": "gemini-source-prep",
-      "released_at": "2026-05-19T18:37:47Z"
+      "released_at": "2026-05-19T18:37:47Z",
+      "agent": "gemini-source-prep",
+      "held_at": "2026-05-22T01:36:29Z"
     },
     "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0376-0400-r3578-50-5569-5569-jacket5-pages-376-400:p0377": {
       "status": "done",
@@ -79976,6 +80016,34 @@
       "claimed_at": "2026-05-22T01:25:30Z",
       "started_at": "2026-05-22T01:25:30Z",
       "completed_at": "2026-05-22T01:26:49Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0451-0475-r3578-50-5569-5569-jacket5-pages-451-475:p0472": {
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:29Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-22T01:36:29Z"
+    },
+    "source-prep:ca09a98281-r3578-50-5569-5569-jacke-p0501-0525-r3578-50-5569-5569-jacket5-pages-501-525:p0508": {
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:29Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-22T01:36:29Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0604-0628-c-mara-de-senadores-de-la-naci-n-1936-pages-604-628:p0612": {
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:30Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-22T01:36:30Z"
+    },
+    "source-prep:ca221159bd-c-mara-de-senadores-de-l-p0654-0678-c-mara-de-senadores-de-la-naci-n-1936-pages-654-678:p0658": {
+      "status": "held",
+      "updated_at": "2026-05-22T01:36:31Z",
+      "agent": "gemini-source-prep",
+      "note": "Economy mode: large-corpus Docling fallback held until source-relevance feedback or targeted validation requests Gemini.",
+      "held_at": "2026-05-22T01:36:31Z"
     }
   }
 }

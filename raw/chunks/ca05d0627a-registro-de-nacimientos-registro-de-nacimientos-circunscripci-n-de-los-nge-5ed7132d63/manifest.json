@@ -1,7 +1,7 @@
 {
-  "created": "2026-05-20",
+  "created": "2026-05-22",
   "converted_file": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
-  "converted_sha256": "3d3ab761209fb351dce29fd110518d75087aa04075890da5943aa4f9d82bf175",
+  "converted_sha256": "89b3243618deaa2d2e9b2353ad81c085ad88180ad62db883e7d9b5fa1f37c0ed",
   "source": "raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png",
   "source_sha256": "05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545",
   "source_manifest": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json",
@@ -12,14 +12,14 @@
   },
   "chunks": [
     {
-      "chunk_id": "CHUNK-3d3ab761209f-P0001-01",
+      "chunk_id": "CHUNK-89b3243618de-P0001-01",
       "chunk_number": 1,
       "path": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md",
       "page_start": 1,
       "page_end": 1,
       "part": 1,
-      "chars": 5751,
-      "sha256": "6b0d6039ba9cb9982ed88bc8f7602f2f6c75fa4c49d1b1b7f56f49a1ac80ea17"
+      "chars": 5058,
+      "sha256": "5a159b92db080e30d2c2b1074252b107391e788bdd8ce2c58d4dad5e342905cb"
     }
   ]
 }
