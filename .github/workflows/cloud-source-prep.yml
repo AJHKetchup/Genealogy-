@@ -166,7 +166,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source prep preflight state"
+          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --refresh-base --message "Cloud source prep preflight state"
 
       - name: Preflight Gemini API billing
         id: gemini_api
@@ -224,7 +224,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source prep restore checkpoint"
+          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --refresh-base --message "Cloud source prep restore checkpoint"
 
       - name: Install Docling discovery dependencies
         if: steps.preflight.outputs.ready == 'true'
@@ -285,7 +285,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source prep Docling checkpoint"
+          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --refresh-base --message "Cloud source prep Docling checkpoint"
 
       - name: Convert missing pages with Gemini
         id: gemini
@@ -357,7 +357,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --message "Cloud source conversion"
+          python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --source-conversion-only --refresh-base --message "Cloud source conversion"
 
       - name: Fail if Gemini source-prep conversion failed
         if: always() && !cancelled() && steps.preflight.outputs.ready == 'true' && steps.gemini.outputs.exit_code != '' && steps.gemini.outputs.exit_code != '0'

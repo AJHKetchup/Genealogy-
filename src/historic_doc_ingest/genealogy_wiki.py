@@ -5203,6 +5203,102 @@ def apply_agent_task_state(task: dict[str, object], state: dict[str, object]) ->
     task["status"] = state_status
 
 
+GROUPED_EVIDENCE_OUTPUT_TYPES = {
+    "staged_atomic_claims",
+    "staged_relationship_candidates",
+}
+ATOMIC_EVIDENCE_OUTPUT_TYPES = {
+    "claim",
+    "relationship_candidate",
+}
+EVIDENCE_OUTPUT_REFERENCE_DIRS = (
+    "research/_staging",
+    "research/claims",
+    "research/relationships",
+    "research/source-packets",
+)
+CHUNK_ID_PATTERN = re.compile(r"CHUNK-[A-Za-z0-9]+-P\d{4}-\d{2}", flags=re.IGNORECASE)
+
+
+def collect_evidence_output_types_by_chunk(root: Path) -> dict[str, set[str]]:
+    output_types: dict[str, set[str]] = {}
+    for relative_dir in EVIDENCE_OUTPUT_REFERENCE_DIRS:
+        base_dir = root.resolve() / relative_dir
+        if not base_dir.exists():
+            continue
+        for path in sorted(base_dir.rglob("*.md")):
+            try:
+                text = path.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            frontmatter = parse_frontmatter(text)
+            output_type = str(frontmatter.get("type", "")).strip()
+            chunk_ids = set(CHUNK_ID_PATTERN.findall(path.as_posix()))
+            for key in ("chunk_id", "task_id", "chunk"):
+                value = str(frontmatter.get(key, "")).strip()
+                if value:
+                    chunk_ids.update(CHUNK_ID_PATTERN.findall(value))
+            if not chunk_ids:
+                chunk_ids.update(CHUNK_ID_PATTERN.findall(text[:8192]))
+            for chunk_id in chunk_ids:
+                output_types.setdefault(chunk_id.upper(), set()).add(output_type)
+    return output_types
+
+
+def release_evidence_tasks_missing_atomic_outputs(
+    root: Path,
+    evidence_tasks: list[dict[str, object]],
+    task_state: dict[str, dict[str, object]],
+) -> int:
+    output_types_by_chunk = collect_evidence_output_types_by_chunk(root)
+    release_notes: dict[str, str] = {}
+    for task in evidence_tasks:
+        task_id = str(task.get("task_id", "")).strip()
+        chunk_id = str(task.get("chunk_id", "")).strip().upper()
+        if not task_id or not chunk_id:
+            continue
+        state = task_state.get(task_id, {})
+        if str(state.get("status", "")).strip() != "done":
+            continue
+        output_types = output_types_by_chunk.get(chunk_id, set())
+        if not output_types:
+            release_notes[task_id] = (
+                "Released because this completed evidence-extraction task has no staged or promoted "
+                "output on disk; it may have been lost during hosted sync."
+            )
+            continue
+        if GROUPED_EVIDENCE_OUTPUT_TYPES.intersection(output_types) and not ATOMIC_EVIDENCE_OUTPUT_TYPES.intersection(
+            output_types
+        ):
+            release_notes[task_id] = (
+                "Released because this completed evidence-extraction task only produced grouped notes; "
+                "rerun with the atomic claim and relationship draft contract."
+            )
+
+    if not release_notes:
+        return 0
+
+    with agent_task_state_lock(root):
+        current_state = load_agent_task_state(root)
+        now = utc_timestamp()
+        released_count = 0
+        for task_id, note in release_notes.items():
+            current = dict(current_state.get(task_id, {}))
+            if str(current.get("status", "")).strip() != "done":
+                continue
+            current["status"] = "released"
+            current["released_at"] = now
+            current["updated_at"] = now
+            current["note"] = note
+            current["release_reason"] = "missing_atomic_evidence_outputs"
+            current.pop("agent", None)
+            current_state[task_id] = current
+            released_count += 1
+        if released_count:
+            save_agent_task_state(root, current_state)
+        return released_count
+
+
 SOURCE_PREP_REQUIRED_PAGE_SECTIONS = [
     "Page Metadata",
     "Layout And Reading Order",
@@ -5351,6 +5447,13 @@ def write_agent_queues(
         queues["source-prep"] = build_source_prep_agent_tasks(paths.root)
     queues["conversion-qa"] = build_conversion_qa_agent_tasks(paths.root) if include_conversion_qa else []
     queues["evidence-extraction"] = build_evidence_extraction_agent_tasks(paths.root)
+    recovered_evidence_count = release_evidence_tasks_missing_atomic_outputs(
+        paths.root,
+        queues["evidence-extraction"],
+        task_state,
+    )
+    if recovered_evidence_count:
+        task_state = load_agent_task_state(paths.root)
     written = [write_agent_queue(paths.root, queue_dir, name, tasks, task_state) for name, tasks in queues.items()]
     log_message = f"agent-queues | Wrote {len(written)} queue manifest(s)"
     if not include_conversion_qa:
@@ -5359,6 +5462,8 @@ def write_agent_queues(
         log_message += "; source-prep queue disabled by post-conversion settings"
     if released_count:
         log_message += f"; released {released_count} stale task(s)"
+    if recovered_evidence_count:
+        log_message += f"; released {recovered_evidence_count} completed evidence task(s) missing atomic outputs"
     append_log(paths.research / "log.md", log_message)
     return written
 
@@ -11683,6 +11788,15 @@ def git_status_changed_paths(root: Path, include_paths: Sequence[str]) -> list[s
     return sorted(set(paths))
 
 
+def github_database_path_in_scope(path: str, include_paths: Sequence[str]) -> bool:
+    normalized = path.replace("\\", "/").strip("/")
+    for include_path in include_paths:
+        include = include_path.replace("\\", "/").strip("/")
+        if normalized == include or normalized.startswith(f"{include}/"):
+            return True
+    return False
+
+
 def merge_unique_text_lines(remote_bytes: bytes, local_bytes: bytes) -> bytes:
     try:
         remote_text = remote_bytes.decode("utf-8")
@@ -11810,6 +11924,21 @@ def github_database_forbidden_path(path: str) -> bool:
     return False
 
 
+def unstage_out_of_scope_github_database_paths(
+    root: Path,
+    staged: list[str],
+    include_paths: Sequence[str],
+) -> tuple[list[str], list[str]]:
+    out_of_scope = [
+        path for path in staged if not github_database_path_in_scope(path, include_paths)
+    ]
+    if not out_of_scope:
+        return staged, []
+    run_git(root, ["restore", "--staged", "--", *out_of_scope], check=False)
+    remaining = run_git(root, ["diff", "--cached", "--name-only"]).stdout.splitlines()
+    return remaining, out_of_scope
+
+
 def sync_github_database(
     root: Path,
     *,
@@ -11876,6 +12005,14 @@ def sync_github_database(
     summary["staged"] = staged
     if not staged:
         return summary
+
+    if source_conversion_only or internal_research_only:
+        staged, out_of_scope = unstage_out_of_scope_github_database_paths(paths.root, staged, include_paths)
+        if out_of_scope:
+            summary["unstaged_out_of_scope"] = out_of_scope
+            summary["staged"] = staged
+        if not staged:
+            return summary
 
     forbidden = [path for path in staged if github_database_forbidden_path(path)]
     if forbidden:

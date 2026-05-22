@@ -699,15 +699,16 @@ function Get-AvailableTasks {
     $evidenceQuota = [Math]::Max(1, [int][Math]::Ceiling($QueueLimit * 0.60))
     $qaQuota = [Math]::Max(1, [int][Math]::Floor($QueueLimit * 0.25))
 
-    Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit $reviewQuota
-    Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit 1
+    Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit 1
     Add-ReadyTasksFromQueue -QueueName "evidence-extraction" -Limit $evidenceQuota
+    Add-ReadyTasksFromQueue -QueueName "identity-analysis" -Limit 1
+    Add-ReadyTasksFromQueue -QueueName "proof-review" -Limit ([Math]::Max(0, $reviewQuota - 1))
     Add-ReadyTasksFromQueue -QueueName "conversion-qa" -Limit $qaQuota
     if ($AllowPromotion) {
         Add-ReadyTasksFromQueue -QueueName "wiki-promotion" -Limit 1
     }
 
-    $fillOrder = @("proof-review", "identity-analysis", "evidence-extraction", "conversion-qa")
+    $fillOrder = @("evidence-extraction", "proof-review", "identity-analysis", "conversion-qa")
     if ($AllowPromotion) { $fillOrder += "wiki-promotion" }
     while ($selected.Count -lt $QueueLimit) {
         $before = $selected.Count

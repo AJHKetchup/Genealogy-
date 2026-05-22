@@ -4426,6 +4426,60 @@ def test_sync_github_database_source_conversion_only_limits_scope(tmp_path, monk
     assert "wiki" not in dry_run_add
 
 
+def test_sync_github_database_source_conversion_only_unstages_out_of_scope_paths(tmp_path, monkeypatch) -> None:
+    class GitResult:
+        def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
+            self.stdout = stdout
+            self.stderr = stderr
+            self.returncode = returncode
+
+    converted = tmp_path / "raw" / "converted" / "job-001.codex.md"
+    converted.parent.mkdir(parents=True, exist_ok=True)
+    converted.write_text("# Converted\n", encoding="utf-8")
+
+    calls: list[list[str]] = []
+    restore_called = False
+
+    def fake_run_git(root, args, check=True):
+        nonlocal restore_called
+        calls.append(args)
+        if args == ["diff", "--cached", "--quiet"]:
+            return GitResult(returncode=0)
+        if args == ["diff", "--cached", "--name-only"]:
+            if restore_called:
+                return GitResult(stdout="raw/converted/job-001.codex.md\n")
+            return GitResult(
+                stdout=(
+                    "raw/converted/job-001.codex.md\n"
+                    ".github/workflows/internal-research-agents.yml\n"
+                    "research/_staging/claims/lost.md\n"
+                )
+            )
+        if args[:2] == ["restore", "--staged"]:
+            restore_called = True
+            return GitResult()
+        return GitResult()
+
+    monkeypatch.setattr(genealogy_wiki, "run_git", fake_run_git)
+
+    summary = sync_github_database(
+        tmp_path,
+        source_conversion_only=True,
+        no_push=True,
+        message="Cloud source conversion",
+    )
+
+    assert summary["committed"] is True
+    assert summary["staged"] == ["raw/converted/job-001.codex.md"]
+    assert summary["unstaged_out_of_scope"] == [
+        ".github/workflows/internal-research-agents.yml",
+        "research/_staging/claims/lost.md",
+    ]
+    restore_args = next(args for args in calls if args[:2] == ["restore", "--staged"])
+    assert ".github/workflows/internal-research-agents.yml" in restore_args
+    assert "research/_staging/claims/lost.md" in restore_args
+
+
 def test_sync_github_database_internal_research_only_limits_scope(tmp_path, monkeypatch) -> None:
     class GitResult:
         def __init__(self, stdout: str = "", stderr: str = "", returncode: int = 0) -> None:
@@ -4585,3 +4639,67 @@ def test_sync_github_database_refresh_base_merges_shared_hosted_state(tmp_path, 
     assert merged_state["tasks"]["evidence-extraction:one"]["status"] == "done"
     assert ["fetch", "origin", "main"] in calls
     assert ["reset", "--hard", "origin/main"] in calls
+
+
+def test_write_agent_queues_releases_grouped_evidence_outputs_for_atomic_rerun(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    chunk_dir = tmp_path / "raw" / "chunks" / "source-one"
+    chunk_dir.mkdir(parents=True, exist_ok=True)
+    chunk_id = "CHUNK-abc123def456-P0001-01"
+    chunk_path = chunk_dir / "page-0001-chunk-01.md"
+    chunk_path.write_text("# Chunk\n", encoding="utf-8")
+    chunk_dir.joinpath("manifest.json").write_text(
+        json.dumps(
+            {
+                "converted_file": "raw/converted/source-one.codex.md",
+                "source": "raw/sources/source-one.pdf",
+                "source_sha256": "abc123",
+                "chunks": [
+                    {
+                        "chunk_id": chunk_id,
+                        "path": "raw/chunks/source-one/page-0001-chunk-01.md",
+                        "page_start": 1,
+                        "page_end": 1,
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    grouped_claims = tmp_path / "research" / "_staging" / "claims" / "grouped-claims.md"
+    grouped_claims.parent.mkdir(parents=True, exist_ok=True)
+    grouped_claims.write_text(
+        f"""---
+type: staged_atomic_claims
+task_id: evidence-extraction:{chunk_id}
+chunk_id: {chunk_id}
+status: draft
+---
+
+# Grouped Claims
+""",
+        encoding="utf-8",
+    )
+    update_agent_task_state(
+        tmp_path,
+        f"evidence-extraction:{chunk_id}",
+        "done",
+        agent="test-agent",
+    )
+
+    write_agent_queues(
+        tmp_path,
+        include_source_prep=False,
+        include_conversion_qa=False,
+        stale_minutes=0,
+    )
+
+    state = genealogy_wiki.load_agent_task_state(tmp_path)
+    task_state = state[f"evidence-extraction:{chunk_id}"]
+    assert task_state["status"] == "released"
+    assert task_state["release_reason"] == "missing_atomic_evidence_outputs"
+
+    queue = json.loads((tmp_path / "research" / "_agent-queues" / "evidence-extraction.json").read_text())
+    [task] = queue["tasks"]
+    assert task["status"] == "todo"
+    assert task["task_state_status"] == "released"
