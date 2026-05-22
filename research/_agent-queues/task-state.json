@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T01:14:36Z",
+  "updated": "2026-05-22T01:26:55Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -79913,6 +79913,69 @@
       "claimed_at": "2026-05-22T01:13:01Z",
       "started_at": "2026-05-22T01:13:01Z",
       "completed_at": "2026-05-22T01:14:25Z"
+    },
+    "identity-analysis:research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:22:03Z",
+      "agent": "postconv-identity-analysis-20260522011951928",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:19:52Z",
+      "started_at": "2026-05-22T01:19:52Z",
+      "completed_at": "2026-05-22T01:22:03Z"
+    },
+    "evidence-extraction:CHUNK-37cac508f847-P0006-01": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:22:16Z",
+      "agent": "postconv-evidence-extraction-20260522011952768",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:19:53Z",
+      "started_at": "2026-05-22T01:19:53Z",
+      "completed_at": "2026-05-22T01:22:16Z"
+    },
+    "evidence-extraction:CHUNK-37cac508f847-P0007-01": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:22:56Z",
+      "agent": "postconv-evidence-extraction-20260522011954108",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:19:54Z",
+      "started_at": "2026-05-22T01:19:55Z",
+      "completed_at": "2026-05-22T01:22:56Z"
+    },
+    "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0006-01-cv-dario-arturo-pulgar.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:24:36Z",
+      "agent": "postconv-proof-review-20260522012247144",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:22:47Z",
+      "started_at": "2026-05-22T01:22:47Z",
+      "completed_at": "2026-05-22T01:24:36Z"
+    },
+    "proof-review:research/_staging/source-packets/chunk-37cac508f847-p0007-01-cv-dario-arturo-pulgar.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:25:15Z",
+      "agent": "postconv-proof-review-20260522012407922",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:24:08Z",
+      "started_at": "2026-05-22T01:24:08Z",
+      "completed_at": "2026-05-22T01:25:15Z"
+    },
+    "proof-review:research/_staging/claims/chunk-37cac508f847-p0006-01-occupational-claims.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:25:21Z",
+      "agent": "postconv-proof-review-20260522012408502",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:24:08Z",
+      "started_at": "2026-05-22T01:24:09Z",
+      "completed_at": "2026-05-22T01:25:21Z"
+    },
+    "proof-review:research/_staging/claims/chunk-37cac508f847-p0007-01-occupational-claims.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:26:49Z",
+      "agent": "postconv-proof-review-20260522012530347",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:25:30Z",
+      "started_at": "2026-05-22T01:25:30Z",
+      "completed_at": "2026-05-22T01:26:49Z"
     }
   }
 }

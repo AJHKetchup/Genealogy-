@@ -3,8 +3,8 @@
   "queue": "evidence-extraction",
   "task_count": 2888,
   "status_counts": {
-    "done": 4,
-    "todo": 2785,
+    "done": 6,
+    "todo": 2783,
     "blocked_needs_reread": 99
   },
   "tasks": [
@@ -105,7 +105,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "done",
       "chunk_id": "CHUNK-37cac508f847-P0006-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
@@ -115,14 +115,20 @@
       "page_start": 6,
       "page_end": 6,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0006-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0006-01.md",
+      "agent": "postconv-evidence-extraction-20260522011952768",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:19:53Z",
+      "started_at": "2026-05-22T01:19:53Z",
+      "completed_at": "2026-05-22T01:22:16Z",
+      "updated_at": "2026-05-22T01:22:16Z"
     },
     {
       "task_id": "evidence-extraction:CHUNK-37cac508f847-P0007-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "todo",
+      "status": "done",
       "chunk_id": "CHUNK-37cac508f847-P0007-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0007-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
@@ -132,7 +138,13 @@
       "page_start": 7,
       "page_end": 7,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0007-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0007-01.md",
+      "agent": "postconv-evidence-extraction-20260522011954108",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:19:54Z",
+      "started_at": "2026-05-22T01:19:55Z",
+      "completed_at": "2026-05-22T01:22:56Z",
+      "updated_at": "2026-05-22T01:22:56Z"
     },
     {
       "task_id": "evidence-extraction:CHUNK-37cac508f847-P0008-01",

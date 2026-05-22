@@ -1,12 +1,12 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T01:12:58Z",
+  "updated": "2026-05-22T01:25:27Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
       "status": "active",
       "created": "2026-05-22T01:02:23Z",
-      "updated": "2026-05-22T01:12:58Z",
+      "updated": "2026-05-22T01:19:49Z",
       "task_id": "",
       "job_manifest": "raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/manifest.json",
       "source": "",
@@ -15,7 +15,7 @@
       "page": 1,
       "relevance": "high",
       "requested_treatment": "pro_with_crops",
-      "reason": "Proof review hold in research/_staging/reviews/proof-review-research-staging-identity-chunk-3d3ab761209f-p0001-01-identity-candidates.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
       "entities": [],
       "matched_terms": [
         "proof-review-hold",
@@ -27,7 +27,7 @@
     {
       "status": "active",
       "created": "2026-05-22T01:02:23Z",
-      "updated": "2026-05-22T01:12:58Z",
+      "updated": "2026-05-22T01:19:49Z",
       "task_id": "",
       "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "source": "",
@@ -36,7 +36,7 @@
       "page": 5,
       "relevance": "high",
       "requested_treatment": "reread",
-      "reason": "Proof review hold in research/_staging/reviews/proof-review-research-staging-relationships-chunk-37cac508f847-p0005-01-relationship-candidates.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
       "entities": [
         "Dario Arturo Pulgar"
       ],
@@ -50,7 +50,7 @@
     {
       "status": "active",
       "created": "2026-05-22T01:02:23Z",
-      "updated": "2026-05-22T01:12:58Z",
+      "updated": "2026-05-22T01:19:49Z",
       "task_id": "",
       "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "source": "",
@@ -59,7 +59,7 @@
       "page": 4,
       "relevance": "high",
       "requested_treatment": "reread",
-      "reason": "Proof review hold in research/_staging/reviews/SP-STAGE-CHUNK-37cac508f847-P0004-01-cv-dario-pulgar-page-4-proof-review.md: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
       "entities": [
         "Dario Arturo Pulgar"
       ],
@@ -69,6 +69,52 @@
       ],
       "agent": "post-conversion-review-feedback",
       "id": "source-relevance:969c44d6693e"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T01:25:27Z",
+      "updated": "2026-05-22T01:25:27Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 6,
+      "relevance": "high",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [
+        "Dario Arturo Pulgar"
+      ],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:5e07ab5f5157"
+    },
+    {
+      "status": "active",
+      "created": "2026-05-22T01:25:27Z",
+      "updated": "2026-05-22T01:25:27Z",
+      "task_id": "",
+      "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
+      "source": "",
+      "source_sha256": "",
+      "converted_file": "",
+      "page": 7,
+      "relevance": "high",
+      "requested_treatment": "reread",
+      "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
+      "entities": [
+        "Dario Arturo Pulgar"
+      ],
+      "matched_terms": [
+        "proof-review-hold",
+        "missing-page-image"
+      ],
+      "agent": "post-conversion-review-feedback",
+      "id": "source-relevance:21fae774a091"
     }
   ]
 }
