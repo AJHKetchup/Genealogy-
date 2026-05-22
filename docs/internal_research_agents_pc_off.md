@@ -7,7 +7,7 @@ It is for internal research and wiki development only. It does not perform exter
 ## Runner
 
 - Workflow: `.github/workflows/internal-research-agents.yml`
-- Schedule: hourly at minute 17
+- Schedule: minutes 17 and 47, with a 50-minute freshness gate so delayed GitHub cron ticks get a second chance without duplicate back-to-back work
 - Validation triggers: short runs on pushes to the workflow, controller, project code, or automation contracts
 - Manual run: GitHub Actions -> Internal Research Agents -> Run workflow
 - Parallelism: defaults to 3 Codex workers, with a queue scan limit of 12
@@ -60,10 +60,10 @@ Never commit `auth.json` or paste it into normal issue/PR text. Treat it like a 
 The workflow installs the project and Codex CLI, restores Codex account auth from the secret, verifies the auth is ChatGPT-managed, refuses provider API keys, and runs:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -RunMinutes 45 -MaxWorkers 3 -QueueLimit 12 -PollSeconds 45 -WaitForWorkers -WorkerTimeoutMinutes 35
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/post-conversion-agent-controller.ps1 -Root . -RunMinutes 25 -MaxWorkers 3 -QueueLimit 12 -PollSeconds 45 -WaitForWorkers -WorkerTimeoutMinutes 15
 ```
 
-Scheduled runs use a 45-minute controller window and a 35-minute worker-drain window. Push validation runs use shorter 10-minute windows so controller/workflow changes can prove Codex startup, worker launch, auth rotation, and publishing without occupying the runner for a full research batch.
+Scheduled runs use a 25-minute controller window and a 15-minute worker-drain window. GitHub schedules can be delayed or occasionally skipped while a previous run is still active, so the workflow has two staggered cron entries and skips a scheduled tick when the last controller state is less than 50 minutes old. Push validation runs use shorter 10-minute windows so controller/workflow changes can prove Codex startup, worker launch, auth rotation, and publishing without occupying the runner for a full research batch.
 
 The controller refreshes deterministic state, then launches bounded Codex workers for these lanes:
 

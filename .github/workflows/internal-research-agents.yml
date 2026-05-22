@@ -10,6 +10,7 @@ on:
       - "research/_automation/**"
   schedule:
     - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
     inputs:
       max_workers:
@@ -57,8 +58,9 @@ jobs:
       GIT_CONFIG_VALUE_0: "true"
       MAX_WORKERS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.max_workers || '3' }}
       QUEUE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.queue_limit || '12' }}
-      RUN_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_minutes || github.event_name == 'push' && '10' || '45' }}
-      WORKER_TIMEOUT_MINUTES: ${{ github.event_name == 'push' && '10' || '35' }}
+      RUN_INTERNAL: "true"
+      RUN_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_minutes || github.event_name == 'push' && '10' || '25' }}
+      WORKER_TIMEOUT_MINUTES: ${{ github.event_name == 'push' && '10' || '15' }}
       ALLOW_PROMOTION: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.allow_promotion || github.event_name == 'schedule' && 'true' || github.event_name == 'push' && 'true' || 'false' }}
 
     steps:
@@ -77,17 +79,53 @@ jobs:
           git checkout main
           git pull --ff-only origin main
 
+      - name: Check scheduled run freshness
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $runInternal = "true"
+          if ("${{ github.event_name }}" -eq "schedule") {
+            $statePath = "research/_agent-queues/post-conversion-controller-state.json"
+            $freshMinutes = 50
+            if (Test-Path -LiteralPath $statePath) {
+              try {
+                $state = Get-Content -LiteralPath $statePath -Raw | ConvertFrom-Json
+                $updatedText = [string]$state.updated
+                $updated = [datetimeoffset]::Parse($updatedText)
+                $ageMinutes = ([datetimeoffset]::UtcNow - $updated).TotalMinutes
+                $ageDisplay = [math]::Round($ageMinutes, 1)
+                if ($ageMinutes -lt $freshMinutes) {
+                  $runInternal = "false"
+                  Write-Host "Skipping scheduled internal-agent run because controller state is $ageDisplay minutes old."
+                }
+                else {
+                  Write-Host "Controller state is $ageDisplay minutes old; scheduled run will proceed."
+                }
+              }
+              catch {
+                Write-Warning "Could not parse controller freshness; scheduled run will proceed. $($_.Exception.Message)"
+              }
+            }
+            else {
+              Write-Host "No controller state found; scheduled run will proceed."
+            }
+          }
+          "RUN_INTERNAL=$runInternal" | Out-File -FilePath $env:GITHUB_ENV -Append
+
       - name: Set up Node
+        if: env.RUN_INTERNAL != 'false'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
       - name: Set up Python
+        if: env.RUN_INTERNAL != 'false'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install project and Codex CLI
+        if: env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           python -m pip install -e ".[pdf]"
@@ -95,6 +133,7 @@ jobs:
           codex --version
 
       - name: Restore ChatGPT-managed Codex auth
+        if: env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -130,6 +169,7 @@ jobs:
           }
 
       - name: Verify Codex session starts
+        if: env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -151,6 +191,7 @@ jobs:
           }
 
       - name: Restore proof-review source assets
+        if: env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Continue"
@@ -158,6 +199,7 @@ jobs:
           python -m historic_doc_ingest.genealogy_wiki source-relevance restore-review-assets --root . --limit 24
 
       - name: Run internal post-conversion agents
+        if: env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -186,7 +228,7 @@ jobs:
           }
 
       - name: Run safe wiki promotion agents
-        if: env.ALLOW_PROMOTION == 'true' && env.INTERNAL_AGENT_EXIT_CODE == '0'
+        if: env.RUN_INTERNAL != 'false' && env.ALLOW_PROMOTION == 'true' && env.INTERNAL_AGENT_EXIT_CODE == '0'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -217,7 +259,7 @@ jobs:
           }
 
       - name: Release cancelled internal worker leases
-        if: cancelled()
+        if: cancelled() && env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Continue"
@@ -248,7 +290,7 @@ jobs:
           $state | ConvertTo-Json -Depth 14 | Set-Content -LiteralPath $statePath -Encoding UTF8
 
       - name: Rotate ChatGPT-managed Codex auth secret
-        if: always() && env.CODEX_VERIFY_EXIT_CODE == '0'
+        if: always() && env.RUN_INTERNAL != 'false' && env.CODEX_VERIFY_EXIT_CODE == '0'
         shell: pwsh
         env:
           GH_TOKEN: ${{ secrets.CODEX_SECRET_UPDATE_TOKEN }}
@@ -300,7 +342,7 @@ jobs:
           exit 0
 
       - name: Publish internal research outputs
-        if: always()
+        if: always() && env.RUN_INTERNAL != 'false'
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -309,7 +351,7 @@ jobs:
           python -m historic_doc_ingest.genealogy_wiki sync-github-database --root . --internal-research-only --refresh-base --message "Run internal research agents"
 
       - name: Mark controller failure after durable publish
-        if: always() && (env.INTERNAL_AGENT_EXIT_CODE != '' && env.INTERNAL_AGENT_EXIT_CODE != '0' || env.PROMOTION_EXIT_CODE != '' && env.PROMOTION_EXIT_CODE != '0' || env.CODEX_ROTATE_EXIT_CODE != '' && env.CODEX_ROTATE_EXIT_CODE != '0')
+        if: always() && env.RUN_INTERNAL != 'false' && (env.INTERNAL_AGENT_EXIT_CODE != '' && env.INTERNAL_AGENT_EXIT_CODE != '0' || env.PROMOTION_EXIT_CODE != '' && env.PROMOTION_EXIT_CODE != '0' || env.CODEX_ROTATE_EXIT_CODE != '' && env.CODEX_ROTATE_EXIT_CODE != '0')
         shell: pwsh
         run: |
           Write-Error "Internal research agents recorded a controller or auth-rotation failure after publishing diagnostics. See research/_agent-queues/post-conversion-controller-state.json and post-conversion run logs."
