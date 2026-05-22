@@ -2786,24 +2786,10 @@
       "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/manifest.json",
       "page": 664,
       "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675.codex.md",
-      "chunk_manifest": "raw/chunks/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca09a98281-r3578-50-5569-5569-jacke-p0651-0675-r3578-50-5569-5569-jacket5-pages-651-675/manifest.json",
-      "page": 665,
-      "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "medium",
       "quality_flags": [
-        "possible_ocr_garbage_token"
+        "duplicate_conversion_contract_sections"
       ],
       "matched_terms": [
         "relationships"
@@ -11300,22 +11286,6 @@
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md",
       "chunk_manifest": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json",
-      "page": 357,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
-      "quality_flags": [
-        "possible_ocr_garbage_token"
-      ],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375.codex.md",
-      "chunk_manifest": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca3e1a8684-r3016-11a-2905-950-p0351-0375-r3016-11a-2905-950-pages-351-375/manifest.json",
       "page": 358,
       "recommended_action": "pass",
       "conversion_confidence": "medium",
@@ -12261,26 +12231,13 @@
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
       "page": 10,
       "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
-      "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "page": 11,
-      "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "medium",
       "quality_flags": [
-        "possible_ocr_garbage_token"
+        "duplicate_conversion_contract_sections"
       ],
       "matched_terms": [
+        "Starting",
         "relationships"
       ],
       "suspicious_readings": []
@@ -12291,25 +12248,10 @@
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
       "page": 12,
       "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
-      "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "page": 13,
-      "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "medium",
       "quality_flags": [
-        "duplicate_conversion_contract_sections",
-        "possible_ocr_garbage_token"
+        "duplicate_conversion_contract_sections"
       ],
       "matched_terms": [
         "relationships"
@@ -12322,24 +12264,10 @@
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
       "page": 15,
       "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
-      "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "page": 16,
-      "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "medium",
       "quality_flags": [
-        "possible_ocr_garbage_token"
+        "duplicate_conversion_contract_sections"
       ],
       "matched_terms": [
         "relationships"
@@ -12379,40 +12307,11 @@
       "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
       "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
       "page": 19,
-      "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
-      "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "page": 20,
       "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "medium",
       "quality_flags": [
-        "possible_ocr_garbage_token"
-      ],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25.codex.md",
-      "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0001-0025-r3578-50-7801-5569-pages-1-25/manifest.json",
-      "page": 21,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
-      "quality_flags": [
+        "duplicate_conversion_contract_sections",
         "possible_ocr_garbage_token"
       ],
       "matched_terms": [
@@ -12461,23 +12360,6 @@
       ],
       "matched_terms": [
         "Starting",
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33.codex.md",
-      "chunk_manifest": "raw/chunks/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca6e09f1fb-r3578-50-7801-5569-p0026-0033-r3578-50-7801-5569-pages-26-33/manifest.json",
-      "page": 26,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
-      "quality_flags": [
-        "duplicate_conversion_contract_sections",
-        "possible_ocr_garbage_token"
-      ],
-      "matched_terms": [
         "relationships"
       ],
       "suspicious_readings": []
@@ -20788,22 +20670,6 @@
       "family_relevance": "medium",
       "quality_flags": [
         "duplicate_conversion_contract_sections"
-      ],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628.codex.md",
-      "chunk_manifest": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-sess-0b6f8deeff/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/ca753b8b14-anales-de-la-universidad-p0604-0628-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-604-628/manifest.json",
-      "page": 607,
-      "recommended_action": "spot-check",
-      "conversion_confidence": "medium",
-      "family_relevance": "medium",
-      "quality_flags": [
-        "possible_ocr_garbage_token"
       ],
       "matched_terms": [
         "relationships"
@@ -29225,24 +29091,10 @@
       "source_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/manifest.json",
       "page": 38,
       "recommended_action": "pass",
-      "conversion_confidence": "high",
-      "family_relevance": "medium",
-      "quality_flags": [],
-      "matched_terms": [
-        "relationships"
-      ],
-      "suspicious_readings": []
-    },
-    {
-      "converted_file": "raw/converted/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50.codex.md",
-      "chunk_manifest": "raw/chunks/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50-codex/manifest.json",
-      "source_manifest": "raw/codex-conversion-jobs/cad4c3ff34-r4946-12-33387-8070-p0026-0050-r4946-12-33387-8070-pages-26-50/manifest.json",
-      "page": 39,
-      "recommended_action": "spot-check",
       "conversion_confidence": "medium",
       "family_relevance": "medium",
       "quality_flags": [
-        "possible_ocr_garbage_token"
+        "duplicate_conversion_contract_sections"
       ],
       "matched_terms": [
         "relationships"

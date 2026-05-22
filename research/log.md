@@ -24272,3 +24272,10 @@
 ## [2026-05-22] source-prep-batches | Wrote 1442 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
 ## [2026-05-22] source-prep-docling-discovery | inspected 12, accepted 0, unusable 0, errors=12, dry_run=False
+## [2026-05-22] source-relevance | Synced 7 proof-review page-image hold hint(s) from 7 review(s)
+## [2026-05-22] source-relevance | Synced 8 proof-review page-image hold hint(s) from 8 review(s)
+## [2026-05-22] source-relevance | Synced 10 proof-review page-image hold hint(s) from 10 review(s)
+## [2026-05-22] source-relevance | Synced 12 proof-review page-image hold hint(s) from 12 review(s)
+## [2026-05-22] source-relevance | Synced 14 proof-review page-image hold hint(s) from 14 review(s)
+## [2026-05-22] source-relevance | Synced 15 proof-review page-image hold hint(s) from 15 review(s)
+## [2026-05-22] source-relevance | Synced 16 proof-review page-image hold hint(s) from 16 review(s)

@@ -1,6 +1,6 @@
 {
   "created": "2026-05-15T23:22:39Z",
-  "updated": "2026-05-22T00:45:57Z",
+  "updated": "2026-05-22T01:14:36Z",
   "purpose": "Durable claim/start/finish state for Codex agent queue tasks.",
   "tasks": {
     "source-prep:ca35845f12-acicr-b-cr-177-001-002-p0001-0003-acicr-b-cr-177-001-002-pages-1-3:p0001": {
@@ -79787,6 +79787,132 @@
       "claimed_at": "2026-05-22T00:43:35Z",
       "started_at": "2026-05-22T00:43:36Z",
       "completed_at": "2026-05-22T00:45:06Z"
+    },
+    "proof-review:research/_staging/claims/CL-STAGE-CHUNK-37cac508f847-P0004-01-ibrd-senior-consultant-2000.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:03:29Z",
+      "agent": "postconv-proof-review-20260522010226136",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:02:26Z",
+      "started_at": "2026-05-22T01:02:26Z",
+      "completed_at": "2026-05-22T01:03:29Z"
+    },
+    "proof-review:research/_staging/relationships/chunk-37cac508f847-p0005-01-relationship-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:03:46Z",
+      "agent": "postconv-proof-review-20260522010226970",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:02:27Z",
+      "started_at": "2026-05-22T01:02:28Z",
+      "completed_at": "2026-05-22T01:03:46Z"
+    },
+    "proof-review:research/_staging/relationships/CHUNK-3d3ab761209f-P0001-01-relationship-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:03:42Z",
+      "agent": "postconv-proof-review-20260522010228190",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:02:28Z",
+      "started_at": "2026-05-22T01:02:29Z",
+      "completed_at": "2026-05-22T01:03:42Z"
+    },
+    "proof-review:research/_staging/relationships/REL-STAGE-CHUNK-37cac508f847-P0004-01-no-family-relationship.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:05:38Z",
+      "agent": "postconv-proof-review-20260522010430302",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:04:30Z",
+      "started_at": "2026-05-22T01:04:30Z",
+      "completed_at": "2026-05-22T01:05:38Z"
+    },
+    "proof-review:research/_staging/identity/chunk-37cac508f847-p0005-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:05:50Z",
+      "agent": "postconv-proof-review-20260522010430895",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:04:31Z",
+      "started_at": "2026-05-22T01:04:31Z",
+      "completed_at": "2026-05-22T01:05:50Z"
+    },
+    "proof-review:research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:06:14Z",
+      "agent": "postconv-proof-review-20260522010432120",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:04:32Z",
+      "started_at": "2026-05-22T01:04:33Z",
+      "completed_at": "2026-05-22T01:06:14Z"
+    },
+    "proof-review:research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:07:35Z",
+      "agent": "postconv-proof-review-20260522010634552",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:06:34Z",
+      "started_at": "2026-05-22T01:06:35Z",
+      "completed_at": "2026-05-22T01:07:35Z"
+    },
+    "proof-review:research/_staging/conflicts/chunk-37cac508f847-p0005-01-conflict-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:08:16Z",
+      "agent": "postconv-proof-review-20260522010635131",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:06:35Z",
+      "started_at": "2026-05-22T01:06:36Z",
+      "completed_at": "2026-05-22T01:08:16Z"
+    },
+    "proof-review:research/_staging/conflicts/CHUNK-3d3ab761209f-P0001-01-conflict-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:09:02Z",
+      "agent": "postconv-proof-review-20260522010752563",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:07:52Z",
+      "started_at": "2026-05-22T01:07:53Z",
+      "completed_at": "2026-05-22T01:09:02Z"
+    },
+    "proof-review:research/_staging/conflicts/CONFLICT-STAGE-CHUNK-37cac508f847-P0004-01-no-direct-conflict.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:10:21Z",
+      "agent": "postconv-proof-review-20260522010909149",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:09:09Z",
+      "started_at": "2026-05-22T01:09:09Z",
+      "completed_at": "2026-05-22T01:10:21Z"
+    },
+    "identity-analysis:research/_staging/identity/chunk-37cac508f847-p0005-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:11:04Z",
+      "agent": "postconv-identity-analysis-20260522010909738",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:09:09Z",
+      "started_at": "2026-05-22T01:09:10Z",
+      "completed_at": "2026-05-22T01:11:04Z"
+    },
+    "identity-analysis:research/_staging/identity/CHUNK-3d3ab761209f-P0001-01-identity-candidates.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:12:32Z",
+      "agent": "postconv-identity-analysis-20260522011027439",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:10:27Z",
+      "started_at": "2026-05-22T01:10:27Z",
+      "completed_at": "2026-05-22T01:12:32Z"
+    },
+    "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-37cac508f847-p0005-01-dario-pulgar.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:12:49Z",
+      "agent": "postconv-proof-review-20260522011143874",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:11:44Z",
+      "started_at": "2026-05-22T01:11:44Z",
+      "completed_at": "2026-05-22T01:12:49Z"
+    },
+    "proof-review:research/_staging/identity-analysis/identity-analysis-chunk-3d3ab761209f-p0001-01-birth-register-identity-conflicts.md": {
+      "status": "done",
+      "updated_at": "2026-05-22T01:14:25Z",
+      "agent": "postconv-proof-review-20260522011301203",
+      "note": "post-conversion controller start",
+      "claimed_at": "2026-05-22T01:13:01Z",
+      "started_at": "2026-05-22T01:13:01Z",
+      "completed_at": "2026-05-22T01:14:25Z"
     }
   }
 }

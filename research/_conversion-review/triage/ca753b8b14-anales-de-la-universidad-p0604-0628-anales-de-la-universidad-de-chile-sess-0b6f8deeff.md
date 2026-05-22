@@ -8,7 +8,6 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 607 | medium | medium | spot-check | possible_ocr_garbage_token | relationships |
 | 608 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
 | 610 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
 | 612 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
