@@ -1210,6 +1210,9 @@ def test_evidence_queue_prioritizes_family_relevant_chunks(tmp_path) -> None:
     person = tmp_path / "wiki" / "people" / "Dario Arturo Pulgar.md"
     person.parent.mkdir(parents=True, exist_ok=True)
     person.write_text("# Dario Arturo Pulgar\n", encoding="utf-8")
+    generic = tmp_path / "wiki" / "source-packets" / "Chunk Name Date Chile.md"
+    generic.parent.mkdir(parents=True, exist_ok=True)
+    generic.write_text("# Chunk Name Date Chile\n", encoding="utf-8")
 
     family_source = tmp_path / "raw" / "converted" / "dario-note.codex.md"
     family_source.write_text(
@@ -1235,6 +1238,19 @@ The convention names several unrelated plenipotentiaries.
 """,
         encoding="utf-8",
     )
+    generic_source = tmp_path / "raw" / "converted" / "generic-note.codex.md"
+    generic_source.write_text(
+        """# Generic Note
+
+# Page 1
+
+## Literal Transcription
+
+This page says name, date, time, Chile, and chunk but does not name a family member.
+""",
+        encoding="utf-8",
+    )
+    chunk_converted_markdown(tmp_path, generic_source)
     chunk_converted_markdown(tmp_path, low_source)
     chunk_converted_markdown(tmp_path, family_source)
 
@@ -1245,12 +1261,16 @@ The convention names several unrelated plenipotentiaries.
     )
     family_task = next(task for task in extraction_queue["tasks"] if "dario-note" in task["converted_file"])
     low_task = next(task for task in extraction_queue["tasks"] if "treaty" in task["converted_file"])
+    generic_task = next(task for task in extraction_queue["tasks"] if "generic-note" in task["converted_file"])
+    terms = genealogy_wiki.build_family_context_terms(tmp_path)
 
     assert extraction_queue["tasks"][0]["task_id"] == family_task["task_id"]
     assert family_task["status"] == "todo"
     assert family_task["family_relevance"] in {"medium", "high"}
     assert "Dario" in family_task["matched_terms"]
+    assert not {"chunk", "name", "date", "chile"} & set(terms)
     assert low_task["status"] == "deferred_low_relevance"
+    assert generic_task["status"] == "deferred_low_relevance"
 
 
 def test_write_agent_queue_compacts_long_prompt_filenames(tmp_path) -> None:
