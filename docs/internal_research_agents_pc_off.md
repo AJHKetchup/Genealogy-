@@ -93,6 +93,8 @@ The `Publish Wiki Site` workflow rebuilds the internal Ancestry-style presentati
 
 Converted chunks, source-operation dates, QA prompts, and agent queue internals stay out of the presentation dashboard. Promoted proof-layer relationships can feed the public tree once their people exist; raw staging and queue internals remain in the research backroom.
 
+When proof review holds an item because required page images are missing, the internal controller records a page-level source-relevance hint. The separate source-prep/conversion workflow can then restore images or rerun that page at the requested fidelity without manual queue surgery.
+
 ## Boundaries
 
 The internal workflow must not:

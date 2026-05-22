@@ -38,6 +38,7 @@ from historic_doc_ingest.genealogy_wiki import (
     source_prep_page_cache_path,
     source_prep_fastlane_run,
     source_relevance_hint_matches_task,
+    sync_proof_review_hold_feedback,
     review_source_prep_page_output,
     sync_vault_transcriptions,
     sync_github_database,
@@ -1607,6 +1608,47 @@ def test_source_relevance_rejects_unexpanded_expensive_source_scope(tmp_path) ->
             relevance="high",
             treatment="pro",
         )
+
+
+def test_sync_proof_review_hold_feedback_marks_missing_page_image(tmp_path) -> None:
+    init_genealogy_wiki(tmp_path)
+    reviews = tmp_path / "research" / "_staging" / "reviews"
+    reviews.mkdir(parents=True, exist_ok=True)
+    review = reviews / "birth-register-proof-review.md"
+    review.write_text(
+        """---
+type: proof_review
+canonical_readiness: hold
+---
+
+# Proof Review
+
+## Blockers
+
+- The rendered page image is unavailable at `raw/codex-conversion-jobs/job-one/page-images/page-0004.jpg`.
+- Handwriting, witness names, and marginal emendation text need image review.
+
+## Scores
+
+- relevance_level: high
+- canonical_readiness: hold
+""",
+        encoding="utf-8",
+    )
+
+    summary = sync_proof_review_hold_feedback(tmp_path)
+
+    feedback = json.loads(
+        (tmp_path / "research" / "_agent-queues" / "source-relevance-feedback.json").read_text(encoding="utf-8")
+    )
+    assert summary["changed_count"] == 1
+    assert feedback["hints"][0]["job_manifest"] == "raw/codex-conversion-jobs/job-one/manifest.json"
+    assert feedback["hints"][0]["page"] == 4
+    assert feedback["hints"][0]["relevance"] == "high"
+    assert feedback["hints"][0]["requested_treatment"] == "pro_with_crops"
+
+    second_summary = sync_proof_review_hold_feedback(tmp_path)
+    assert second_summary["changed_count"] == 0
 
 
 def test_source_prep_fastlane_completes_born_digital_pdf_pages(tmp_path) -> None:

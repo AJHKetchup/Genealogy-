@@ -782,7 +782,8 @@ function Invoke-Refresh {
     Invoke-GenealogyWiki -Arguments @("conversion-qc", "--root", $Root)
     Invoke-GenealogyWiki -Arguments @("agent-queues", "--root", $Root, "--stale-minutes", [string]$StaleMinutes, "--post-conversion-only")
     Invoke-GenealogyWiki -Arguments @("source-status", "--root", $Root, "--no-refresh-index", "--no-source-prep-task-refresh")
-    return @("conversion-qc", "agent-queues", "source-status")
+    Invoke-GenealogyWiki -Arguments @("source-relevance", "sync-review-holds", "--root", $Root)
+    return @("conversion-qc", "agent-queues", "source-status", "source-relevance-review-holds")
 }
 
 $summary = [ordered]@{

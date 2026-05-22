@@ -5503,6 +5503,149 @@ def active_source_relevance_hints(root: Path) -> list[dict[str, object]]:
     ]
 
 
+PAGE_IMAGE_RE = re.compile(
+    r"(raw[/\\]codex-conversion-jobs[/\\][^`'\"\s)]+)[/\\]page-images[/\\]page-0*(\d+)\.(?:png|jpe?g)",
+    flags=re.IGNORECASE,
+)
+
+
+def sync_proof_review_hold_feedback(root: Path) -> dict[str, object]:
+    """Turn proof-review image holds into source-prep relevance feedback."""
+    root = root.resolve()
+    review_dir = root / "research" / "_staging" / "reviews"
+    payload = load_source_relevance_feedback(root)
+    hints = payload.setdefault("hints", [])
+    if not isinstance(hints, list):
+        hints = []
+        payload["hints"] = hints
+
+    by_id = {
+        str(hint.get("id", "")): index
+        for index, hint in enumerate(hints)
+        if isinstance(hint, dict) and str(hint.get("id", ""))
+    }
+    changed = 0
+    scanned = 0
+    candidates = 0
+    now = utc_timestamp()
+    touched_reviews: set[str] = set()
+    if not review_dir.exists():
+        return {
+            "review_count": 0,
+            "candidate_count": 0,
+            "changed_count": 0,
+            "feedback_path": source_relevance_feedback_path(root).relative_to(root).as_posix(),
+        }
+
+    for review_path in sorted(review_dir.glob("*.md")):
+        scanned += 1
+        text = read_text(review_path)
+        lowered = text.lower()
+        if "canonical_readiness" not in lowered or "hold" not in lowered:
+            continue
+        if "page image" not in lowered and "page-image" not in lowered:
+            continue
+        if not any(term in lowered for term in ("unavailable", "missing", "not present", "could not be performed")):
+            continue
+        relevance = proof_review_feedback_relevance(text)
+        treatment = proof_review_feedback_treatment(text)
+        review_rel = review_path.relative_to(root).as_posix()
+        for match in PAGE_IMAGE_RE.finditer(text):
+            job_dir = match.group(1).replace("\\", "/")
+            page_number = int(match.group(2))
+            hint: dict[str, object] = {
+                "status": "active",
+                "created": now,
+                "updated": now,
+                "task_id": "",
+                "job_manifest": f"{job_dir}/manifest.json",
+                "source": "",
+                "source_sha256": "",
+                "converted_file": "",
+                "page": page_number,
+                "relevance": relevance,
+                "requested_treatment": treatment,
+                "reason": (
+                    f"Proof review hold in {review_rel}: rendered page image is missing; "
+                    "restore/generate the page image and rerun conversion QA before canonical promotion."
+                ),
+                "entities": proof_review_feedback_entities(text),
+                "matched_terms": ["proof-review-hold", "missing-page-image"],
+                "agent": "post-conversion-review-feedback",
+            }
+            hint["id"] = source_relevance_hint_identity(hint)
+            candidates += 1
+            existing_index = by_id.get(str(hint["id"]))
+            if existing_index is not None and isinstance(hints[existing_index], dict):
+                existing = dict(hints[existing_index])
+                hint["created"] = str(existing.get("created") or now)
+                comparable_existing = {key: existing.get(key) for key in hint if key != "updated"}
+                comparable_hint = {key: hint.get(key) for key in hint if key != "updated"}
+                if comparable_existing == comparable_hint:
+                    continue
+                hints[existing_index] = hint
+            else:
+                hints.append(hint)
+                by_id[str(hint["id"])] = len(hints) - 1
+            changed += 1
+            touched_reviews.add(review_rel)
+
+    feedback_path = source_relevance_feedback_path(root)
+    if changed:
+        save_source_relevance_feedback(root, payload)
+        append_log(
+            root / "research" / "log.md",
+            f"source-relevance | Synced {changed} proof-review page-image hold hint(s) from {len(touched_reviews)} review(s)",
+        )
+    return {
+        "review_count": scanned,
+        "candidate_count": candidates,
+        "changed_count": changed,
+        "feedback_path": feedback_path.relative_to(root).as_posix(),
+    }
+
+
+def proof_review_feedback_relevance(text: str) -> str:
+    match = re.search(r"relevance_level\s*:\s*([a-zA-Z_ -]+)", text, flags=re.IGNORECASE)
+    if match:
+        value = match.group(1).strip().lower().replace("_", " ").split()[0]
+        if value in SOURCE_RELEVANCE_VALUES:
+            return value
+    lowered = text.lower()
+    if any(term in lowered for term in ("birth register", "civil birth", "parent", "mother", "father", "spouse")):
+        return "high"
+    return "medium"
+
+
+def proof_review_feedback_treatment(text: str) -> str:
+    lowered = text.lower()
+    complex_terms = (
+        "handwriting",
+        "marginal",
+        "emendation",
+        "signature",
+        "witness",
+        "crop",
+        "seal",
+        "stamp",
+        "difficult",
+        "birth register",
+        "civil birth",
+    )
+    if any(term in lowered for term in complex_terms):
+        return "pro_with_crops"
+    return "reread"
+
+
+def proof_review_feedback_entities(text: str) -> list[str]:
+    entities = []
+    lowered = text.lower()
+    for name in ("Dario Arturo Pulgar", "Dario Arturo Pulgar-Smith", "Alexander John Heinz"):
+        if name.lower() in lowered:
+            entities.append(name)
+    return entities
+
+
 def source_relevance_hint_matches_task(hint: dict[str, object], task: dict[str, object]) -> bool:
     try:
         hint_page = int(hint.get("page", 0) or 0)
@@ -12732,7 +12875,7 @@ def build_parser() -> argparse.ArgumentParser:
         "source-relevance",
         help="Record or list research-to-conversion relevance feedback.",
     )
-    source_relevance_parser.add_argument("action", choices=["mark", "list"], help="Action to run.")
+    source_relevance_parser.add_argument("action", choices=["mark", "list", "sync-review-holds"], help="Action to run.")
     source_relevance_parser.add_argument("--root", type=Path, default=Path("."), help="Workspace root. Default: current directory.")
     source_relevance_parser.add_argument("--task-id", default="", help="Source-prep task id to target.")
     source_relevance_parser.add_argument("--job-manifest", default="", help="Conversion job manifest path to target.")
@@ -13310,6 +13453,11 @@ def main(argv: list[str] | None = None) -> int:
         if args.action == "list":
             payload = load_source_relevance_feedback(args.root)
             print(json.dumps(payload, indent=2, ensure_ascii=False))
+            return 0
+        if args.action == "sync-review-holds":
+            summary = sync_proof_review_hold_feedback(args.root)
+            print("source-relevance sync-review-holds | summary")
+            print(json.dumps(summary, indent=2, ensure_ascii=False))
             return 0
         path, hint = mark_source_relevance_feedback(
             args.root,

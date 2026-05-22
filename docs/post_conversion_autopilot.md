@@ -127,7 +127,7 @@ The PowerShell controller is an optional local accelerator. It is useful while t
 | Conversion QA | `conversion_qa_reviewer` | `research/_agent-queues/conversion-qa.json` | `research/_conversion-review/` |
 | Evidence extraction | `evidence_extractor` | `research/_agent-queues/evidence-extraction.json` | `research/_staging/` |
 | Identity analysis | `identity_researcher` | `research/_agent-queues/identity-analysis.json` | `research/_staging/identity-analysis/` |
-| Proof review | `claim_reviewer` | `research/_agent-queues/proof-review.json` | `research/_staging/reviews/` |
+| Proof review | `claim_reviewer` | `research/_agent-queues/proof-review.json` | `research/_staging/reviews/`, `research/_agent-queues/source-relevance-feedback.json` |
 | Promotion | `wiki_promoter` | `research/_agent-queues/wiki-promotion.json` | `research/claims/`, `research/relationships/`, `wiki/` |
 
 Promotion is disabled unless the controller is run with `-AllowPromotion`.
@@ -139,6 +139,7 @@ Promotion is disabled unless the controller is run with `-AllowPromotion`.
 - Conversion QA workers do not create claims.
 - Evidence workers do not edit canonical wiki pages.
 - Proof-review workers do not promote.
+- Proof-review image holds are synced into source-relevance feedback so the separate source-prep/conversion lane can restore page images or schedule higher-fidelity rereads automatically.
 - Living-family privacy is not a standalone hold for this internal family project; user approval was recorded on 2026-05-17. Promotion workers still require reviewed evidence, source support, and conservative confidence/status labels.
 
 ## State Files
