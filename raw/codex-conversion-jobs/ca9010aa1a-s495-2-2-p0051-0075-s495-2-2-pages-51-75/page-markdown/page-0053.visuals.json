@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-19T18:34:06Z",
+  "created": "2026-05-22T02:33:05Z",
   "schema": "source-prep-visual-regions-v1",
   "purpose": "GitHub-tracked metadata for visual crops whose binary files are R2 derived assets.",
   "source": "raw/sources/S495-2-2.pdf",
@@ -11,28 +11,28 @@
   "no_visual_regions_reason": "",
   "visual_regions": [
     {
-      "region_id": "region-0053-1",
+      "region_id": "p0053-01",
       "kind": "photograph",
       "caption_literal": "VALE\n25c\nORO AMERICANO\nEL EJEMPLAR\nBaja California, Distrito Norte\nEdicion del Mes de Septiembre 1923",
-      "caption_type": "nearby-text",
+      "caption_type": "source-caption",
       "identity_basis": "none",
-      "source_context": "A photograph of a monument, embedded in an article about journalism in Baja California.",
+      "source_context": "A photograph of a monument is placed in the middle of the article 'El Periodismo en la Baja California'. The caption appears to be from the 'Baja California Ilustrada' magazine, mentioned in the article.",
       "confidence": "high",
-      "inline_anchor": "region-0053-1",
+      "inline_anchor": "p0053-01-anchor",
       "bbox_pct": [
-        37.9,
-        48.2,
-        62.2,
-        88.3
+        37.5,
+        48.22,
+        62.1,
+        95.11
       ],
       "bbox_pixels": [
-        521,
-        898,
-        865,
-        1657
+        515,
+        899,
+        864,
+        1784
       ],
-      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-page-0053-monument.png",
-      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-page-0053-monument.png",
+      "crop_path": "/home/runner/work/Genealogy-/Genealogy-/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument-in-a-plaza.png",
+      "crop_path_rel": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument-in-a-plaza.png",
       "page_image": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/page-images/page-0053.jpg",
       "source": "raw/sources/S495-2-2.pdf",
       "source_sha256": "9010aa1ac68f01250159adf718dfa284b342139e36030310abc1521c797ea027",

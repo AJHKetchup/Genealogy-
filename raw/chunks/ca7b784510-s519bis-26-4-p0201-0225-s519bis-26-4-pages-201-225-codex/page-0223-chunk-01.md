@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-181dd20ee160-P0223-01
+chunk_id: CHUNK-d37bd33aff51-P0223-01
 source_converted: raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md
-converted_sha256: 181dd20ee16094ec50f691d7058379b4f6f1ac9e162a1f225285ff7613f30fac
+converted_sha256: d37bd33aff5114a5e6580c2cc2722f557009841a1b8680ec229555fbefe82590
 source: raw/sources/S519bis-26-4.pdf
 source_sha256: 7b78451082f1aebc5ffc689ced2dff91b6308da7fdce1f23dd5570928726d645
 source_manifest: raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json
@@ -14,7 +14,7 @@ part: 1
 ## Page Metadata
 - Task id: `source-prep:ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225:p0223`
 - Model route: `pro`
-- Route reasons: pdf_profile_complex
+- Route reasons: complex_quality_flags
 - Source: `raw/sources/S519bis-26-4.pdf`
 - Job manifest: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/manifest.json`
 - Work order: `raw/codex-conversion-jobs/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225/work-orders/page-0223.md`
@@ -23,147 +23,44 @@ part: 1
 - External research relevance: ``
 - External requested treatment: ``
 - External relevance reasons: none
-- Recommended action: ``
-- Quality flags: none
+- Recommended action: `spot-check`
+- Quality flags: many_uncertain_readings
 - Technical reread clues: none
 
 ## Layout And Reading Order
-The page contains a typed list of names and publications, arranged in two columns. Each entry consists of a country in parentheses, a name or title, and a city. The reading order is row by row, from top to bottom, processing the left-column entry and then the right-column entry for each row.
+The page contains a typed list arranged in two columns. The reading order is row by row, from the left column entry to the right column entry. Each entry block consists of a country in parentheses, a name or publication title, and a city name which is underlined.
 
 ## Literal Transcription
-(El Salvador)
-
-Sr. Arturo Ramón Avila
-
-<u>SAN SALVADOR</u>
-
----
-(Guatemala) (V[?]a[?]u)
-
-Sr. D. Carlos Salazar
-[strikethrough]P[?]s[?]t[?]r[/strikethrough]
-
-oab<u>GUATEMALA</u>
-
----
-(Honduras)
-
-Sr. Director de "EL CRONISTA"
-
-TEGUCIGALPA
-
----
-(Mexique)
-
-Sr. Director de "EXCELSION"
-
-<u>M E X I C O</u>
-
----
-(Mexique)
-
-Sr. Director de "EL DICTAMEN"
-
-<u>VERACRUZ</u>
-
----
-(Mexique)
-
-"Estado de Jalisco"
-
-<u>GUADALAJARA</u>
-
----
-(Nicaragua)
-
-"Diario Nicaraguense"
-
-MANAGUA.
-
----
-(Nicaragua)
-
-Dr. Carlos Cuadra Pasos
-
-<u>MANAGUA</u>
-
----
-(Panama)
-
-"La Estrella de Panamá"
-
-<u>P A N A M A</u>
-
----
-(Panama)
-
-"Diario de Panamá"
-
-<u>P A N A M A</u>
-
----
-(Pérou)
-
-Sr. Director de "LA CRONICA"
-
-<u>L I M A</u>
-
----
-(Uruguay)
-
-Sr. Director de "EL DIA"
-
-MONTEVIDEO
-
----
-(Uruguay)
-
-Sr. Director de "EL PUEBLO"
-
-MONTEVIDEO
-
----
-(Uruguay)
-
-Sr. Director de LA MANANA
-
-MONTEVIDEO
-
----
-(Uruguay)
-
-Sr. Director de "EL DEBATE"
-
-MONTEVIDEO
-
----
-(Uruguay)
-
-Sr. Director de "EL PAIS"
-
-MONTEVIDEO //
+| | |
+|---|---|
+| (EL Salvador)<br><br>Sr. Arturo Ramón Avila<br><br>SAN SALVADOR<br>___________ | <sup>(Vacante[?])</sup><br>(Guatemala)<br><br>Sr. D. Carlos <s>Salazar</s><sup>Pesset[?]</sup><br><br><sup>cas:</sup>GUATEMALA<br>_________ |
+| (Honduras)<br><br>Sr. Director de "EL CRONISTA"<br><br>TEGUCIGALPA<br>___________ | (Mexique)<br><br>Sr. Director de "EXCELSION"<br><br>M E X I C O<br>___________ |
+| (Mexique)<br><br>Sr. Director de "EL DICTAMEN"<br><br>VERACRUZ<br>________ | (Mexique)<br><br>"Estado de Jalisco"<br><br>GUADALAJARA<br>___________ |
+| (Nicaragua)<br><br>"Diario Nicaraguense"<br><br>MANAGUA.<br>________ | (Nicaragua)<br><br>Dr. Carlos Cuadra Pasos<br><br>MANAGUA<br>_______ |
+| (Panama)<br><br>"La Estrella de Panamá"<br><br>P A N A M A<br>___________ | (Panama)<br><br>"Diario de Panamá"<br><br>P A N A M A<br>___________ |
+| (Pérou)<br><br>Sr. Director de "LA CRONICA"<br><br>L I M A<br>_______ | (Uruguay)<br><br>Sr. Director de "EL DIA"<br><br>MONTEVIDEO<br>__________ |
+| (Uruguay)<br><br>Sr. Director de "EL PUEBLO"<br><br>MONTEVIDEO<br>__________ | (Uruguay)<br><br>Sr. Director de LA MANANA<br><br>MONTEVIDEO<br>__________ |
+| (Uruguay)<br><br>Sr. Director de "EL DEBATE"<br><br>MONTEVIDEO<br>__________ | (Uruguay)<br><br>Sr. Director de "EL PAIS" /<br><br>MONTEVIDEO<br>__________ |
 
 ## Images, Captions, And Visual Notes
-The page is a typewritten document. Several city names are underlined using the typewriter's underline key. There are a few handwritten annotations in pencil:
-- In the top right entry for Guatemala, `(V[?]a[?]u)` is written faintly above the name.
-- In the same entry, `oab` is written over the first three letters of "GUATEMALA".
-- At the bottom of the right column, two slash marks `//` are written after "MONTEVIDEO".
+The page is a typed list on aged, greyish paper. There is a single hole punch on the left margin near the top of the page.
 
-There is one instance of a typed strikethrough in the Guatemala entry.
+The entry for Guatemala has several handwritten annotations:
+- The word `(Vacante[?])` is written faintly above the entry.
+- The name "Salazar" is struck through with a typed line, and a name, possibly `Pesset[?]`, is handwritten above it.
+- The letters `cas:` are handwritten before the city name "GUATEMALA".
 
-A circular hole from a hole punch is visible in the left margin, next to the entry for El Salvador.
+The last entry on the right, for "EL PAIS" in Uruguay, has a handwritten slash mark (/) at the end of the line.
 
 ## Uncertain Or Illegible
-- In the Guatemala entry, a faint handwritten note above the name is difficult to read: `(V[?]a[?]u)`.
-- In the same entry, a typed, struck-out word is illegible due to overtyping: `[strikethrough]P[?]s[?]t[?]r[/strikethrough]`.
+- `(Vacante[?])`: Faint handwriting above the Guatemala entry. "Vacante" (Spanish for vacant) is a plausible interpretation given the context of a contact list.
+- `Pesset[?]`: Faint handwriting above the struck-out name "Salazar" in the Guatemala entry. The reading is uncertain.
+- `cas:`: Faint handwriting before "GUATEMALA" in the Guatemala entry. The reading is clear but the meaning is unknown.
 
 ## Completeness Audit
-The entire content of the page has been transcribed.
+The entire page has been transcribed.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "The page contains only text and minor annotations, with no significant images, illustrations, or diagrams that would warrant cropping as standalone visual assets."
-}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only typed and handwritten text, with no images, illustrations, or other significant visual elements that would warrant cropping."}
 ```

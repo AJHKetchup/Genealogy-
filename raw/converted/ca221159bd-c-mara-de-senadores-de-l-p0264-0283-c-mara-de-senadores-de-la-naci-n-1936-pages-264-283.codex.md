@@ -341,13 +341,15 @@ All visible text on the page has been transcribed.
 ```
 
 ## Page Metadata
-- Task id: `source-prep:ca221159bd-c-mara-de-senadores-de-l-p0264-0283-c-mara-de-senadores-de-la-naci-n-1936-pages-264-0283:p0269`
-- Page: 269
-- Source: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf`
+
+- **Page number**: 269
+- **Source identifier**: `Cámara de Senadores de la Nación, 1936`
+- **Source page path**: `raw/sources/Cámara de Senadores de la Nación, 1936.pdf#page=269`
+- **Status**: `transcribed`
 
 ## Layout And Reading Order
 
-The page contains a single column of text, primarily legislative articles and sub-points. There is a chapter title and a section title. A page number is present at the bottom left.
+The page contains a single column of printed text. The reading order is from top to bottom. The content consists of several articles of a legal text, followed by a new chapter heading and more articles. A number "10" is present at the bottom left of the page.
 
 ## Literal Transcription
 
@@ -355,62 +357,68 @@ Estas proporciones serán establecidas con relación a la superficie
 y población generales del país, comparadas con las de cada provin-
 cia y territorio. La población y el consumo de nafta se establecerán
 de acuerdo a la estadística oficial del año precedente.
-Art. 20º — La Dirección Nacional de Vialidad podrá convenir,
+
+Art. 20° — La Dirección Nacional de Vialidad podrá convenir,
 si lo considera conveniente, que la construcción y reparación de los
 caminos en los Territorios Nacionales sean efectuados por interme-
 dio de las municipalidades, consorcios, u otros organismos locales de
 vialidad interesados, estableciendo los pactos necesarios.
-Art. 21º — En los Territorios Nacionales donde la Dirección
+
+Art. 21° — En los Territorios Nacionales donde la Dirección
 Nacional de Vialidad construya calzadas de tránsito permanente, el
 Poder Ejecutivo fijará la proporción y distribución de la contribu-
 ción de mejoras con que deben participar las propiedades territoria-
 les beneficiadas, ajustándose a las siguientes normas:
-    a) Dos años después de librados los caminos al servicio público
-        se procederá a establecer el mayor valor recibido por las
-        propiedades territoriales, mediante una revaluación de las
-        mismas, excluídas las mejoras. Esta valuación se hará por
-        unidades de superficie imponible hasta cinco kilómetros a
-        cada lado del camino.
-    b) Todas las propiedades que hayan recibido un mayor valor
-        contribuirán al pago de la obra efectuada con una suma no
-        inferior al 65 % del mayor valor recibido por cada una.
-        La contribución de las mejoras de las propiedades te-
-        rritoriales se cobrará en cuotas anuales, de manera que el
-        importe total con sus intereses quede cancelado en el térmi-
-        no de diez años debiendo la Dirección Nacional de Vialidad
-        asegurar la transitabilidad permanente de los mismos du-
-        rante dicho período:
-    c) El contribuyente que pagare al contado gozará de un
-        descuento del 10 %.
+
+a) Dos años después de librados los caminos al servicio público
+se procederá a establecer el mayor valor recibido por las
+propiedades territoriales, mediante una revaluación de las
+mismas, excluídas las mejoras. Esta valuación se hará por
+unidades de superficie imponible hasta cinco kilómetros a
+cada lado del camino.
+Todas las propiedades que hayan recibido un mayor valor
+contribuirán al pago de la obra efectuada con una suma no
+inferior al 65 % del mayor valor recibido por cada una.;
+
+b) La contribución de las mejoras de las propiedades te-
+rritoriales se cobrará en cuotas anuales, de manera que el
+importe total con sus intereses quede cancelado en el térmi-
+no de diez años debiendo la Dirección Nacional de Vialidad
+asegurar la transitabilidad permanente de los mismos du-
+rante dicho período:
+
+c) El contribuyente que pagare al contado gozará de un
+descuento del 10 %.
 
 CAPITULO V
 
 AYUDA FEDERAL A LAS PROVINCIAS
 
-Art. 22º — La Dirección Nacional de Vialidad acordará del
+Art. 22° — La Dirección Nacional de Vialidad acordará del
 fondo nacional de vialidad, una ayuda a las provincias para la cons-
 trucción de caminos, de acuerdo con lo que se establece en el presente
 capítulo.
-Art. 23º — Toda provincia que desee acogerse a los beneficios
+
+Art. 23° — Toda provincia que desee acogerse a los beneficios
 
 10
 
 ## Images, Captions, And Visual Notes
 
-There are no images or captions on this page.
+There are no images, illustrations, or photographs on this page.
 
 ## Uncertain Or Illegible
 
-None.
+There are no uncertain or illegible words on this page.
 
 ## Completeness Audit
 
-The transcription is complete and accurate.
+This page has been transcribed in its entirety.
 
 ## Visual Region Manifest
 
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on the page that would be useful as standalone assets."}
+{"visual_regions": [], "no_visual_regions_reason": "This page contains only printed text with no illustrations, photographs, or other significant visual elements."}
 ```
 
 ## Page Metadata

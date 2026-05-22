@@ -330,33 +330,33 @@ This page has been transcribed in its entirety.
 ```
 
 ## Page Metadata
-Page number: 8
+- Page number: 8
+- Source publication year: 1950s
+- Source publication title: El Aguila Nombre Grande
+- Source publication part: El Aguila
+- Source publication date: Enero Febrero
 
 ## Layout And Reading Order
-
-The page consists of two main sections: a narrative text block at the top and an advertisement block at the bottom, separated by a horizontal line. The top section includes a header with publication details and a date. The bottom section is clearly marked as an "ANUNCIO" (Advertisement) and contains details about a lottery and a call to action. A handwritten page number "8" is present in the bottom right corner.
+The page contains a main article followed by an advertisement. The main article is a narrative account of a trip, signed by "TIMO". The advertisement is for a Chilean benefit agency, promoting a lottery. A handwritten number "8" is present in the bottom right corner.
 
 ## Literal Transcription
-
-MERO GIGANTE
-ENERO FEBRERO EL AGUILA
+MERO GIGANTE ENERO FEBRERO EL AGUILA
 ---
-6
 LA EMPRESA DE VACACIONES Y LOS TECNICOS TRABAJANDO.
 
 L 6 DE ENERO LA EMPRESA SALIO A VERANEAR AL FUNDO DEL DR PULGAR,
-ERO EL DIRECTOR DECIDIO´ IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
+ERO EL DIRECTOR DECIDIO IRSE ESE MISMO DIA CON SU PRIMA A SU FUNDO
 LA POSADA " TOMAMOS EL NOCTURNO A SANTIAGO Y LUEGO EN SAN ROSENDO
 RANSBORDAMOS A UN AUTOMOTOR DIESEL ,, MIENTRAS TANTO LAS MAQUINAS DE
 SCRIBIR SE ENPAQUETABAN JUNTO CON LOS DEMAS UTILES PARA PRESENTAR E
-STE PERIODICO.LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
+STE PERIODICO. LOS MATERIALES PARTIRIAN EN UNA CAMIONETA EL DIA 7 AL
 UNDO LOS CUARTOS -- LEGAMOS A LOS ANGELES A LAS 11½ DE LA NOCHE DONDE
-OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO´ A SU
-UNDO YA MENCIONADO,DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
+OS ESPERA EL MARIDO DE MI PRIMA EN SU AUTOMOVIL QUIEN BOS TRASLADO A SU
+UNDO YA MENCIONADO, DESPUES DE SUFRIR ALGUNAS DIFICULTADES AUTOMOVILISTIC.
 L FUNDO "LA POSADA" DE 485 HECTAREAS MAS O MENOS EN PARETE REGADO POR
-L CANAL BIO-BIO NORTE.PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
+L CANAL BIO-BIO NORTE. PERMANECI EN ESTE FUNDO DOS DIAS LUEGO ME TRANSLA
 ARON AL FUNDO LOS CUARTOS DEL DR PULGAR DONDE ME ESPERABAN LAS MAQUINAS
-PARA LA PREPARACION DE ESTE DIARIO.POR MEDIO DE ESTE SENCILLONARTICULO
+PARA LA PREPARACION DE ESTE DIARIO. POR MEDIO DE ESTE SENCILLO ARTICULO
 AGO LLEGAR MIS AGRADECIMIENTOS ALOS ESPOSOS BARROS PULGAR POR LAS A
 CIONES QUE MW PRESTARON DURANTE LA ESTADIA EN SU FUNDO.
 TIMO
@@ -380,20 +380,17 @@ ROMO ORMEÑO S. C.
 8
 
 ## Images, Captions, And Visual Notes
-A handwritten number "8" in red ink is present in the bottom right corner of the page.
+A handwritten number "8" is present in the bottom right corner of the page.
 
 ## Uncertain Or Illegible
 None.
 
 ## Completeness Audit
-All visible text and significant visual elements on the page have been transcribed and noted.
+The transcription is complete and accurate, capturing all text and the handwritten page number.
 
 ## Visual Region Manifest
 ```json
-{
-  "visual_regions": [],
-  "no_visual_regions_reason": "No substantial visuals like portraits, headshots, group photographs, labeled photographs, substantial maps, large illustrations, or source-meaningful diagrams/charts are present. The handwritten page number is noted in the 'Images, Captions, And Visual Notes' section."
-}
+{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals present on the page. The handwritten page number is noted in the transcription and visual notes."}
 ```
 
 ## Page Metadata
@@ -489,175 +486,132 @@ All visible text and images on the page have been transcribed and described.
 ```
 
 ## Page Metadata
-- Page number: 10
-- Source: `raw/sources/El Aguila Nombre Grande Scan.pdf`
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `10`
 
 ## Layout And Reading Order
-The page consists almost entirely of a single large color photograph. A handwritten page number is present at the bottom center of the page.
+The page contains a single large image of a landscape with cattle and a body of water. There is no text on the page other than a handwritten page number at the bottom.
 
 ## Literal Transcription
-10
+(No literal transcription needed for this page, as it contains only an image and a handwritten page number.)
 
 ## Images, Captions, And Visual Notes
 Pipeline-extracted visual crops:
-- ![converter-description: A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png)
-  - Kind: photograph; label basis: converter-description; bbox_pct: [3.0, 3.0, 97.0, 96.0]
-  - Source context: The main content of the page is this photograph.
+- ![converter-description: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.](../extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png)
+  - Kind: photograph; label basis: converter-description; bbox_pct: [6.0, 3.0, 96.0, 97.0]
+  - Source context: A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
-The page features a large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.
+The page features a color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.
 
 ## Uncertain Or Illegible
-None.
+- The handwritten number at the bottom of the page appears to be "10", but it is somewhat faded and could potentially be misread.
 
 ## Completeness Audit
-The page is complete.
+The page contains a single image and a handwritten page number. All visible content has been described.
 
 ## Visual Region Manifest
 ```json
 {
   "visual_regions": [
     {
-      "region_id": "vr_1",
+      "region_id": "region_1",
       "kind": "photograph",
-      "bbox_pct": [0.03, 0.03, 0.97, 0.96],
-      "caption_literal": "A large color photograph depicting a herd of cattle gathered around a watering hole in a dry, hilly landscape. Several individuals, some on horseback, are visible among the cattle and on the hillsides. The sky appears overcast or hazy.",
+      "bbox_pct": [0.06, 0.03, 0.96, 0.97],
+      "caption_literal": null,
       "caption_type": "converter-description",
-      "identity_basis": "visual-only",
-      "source_context": "The main content of the page is this photograph.",
-      "confidence": "high",
-      "suggested_filename": "cattle_watering_hole_hilly_landscape"
+      "identity_basis": null,
+      "source_context": "A color illustration or painting depicting a herd of cattle gathered around a watering hole in a hilly, arid landscape. In the background, a figure on horseback is visible on a distant hill. The sky is dark and cloudy.",
+      "confidence": 0.95,
+      "suggested_filename": "cattle_watering_hole_landscape"
     }
-  ]
+  ],
+  "no_visual_regions_reason": null
 }
 ```
 
 ## Page Metadata
-Page number: 11
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `11`
 
 ## Layout And Reading Order
-The page consists of a single column of typewritten text, with a header at the top and two handwritten notes at the bottom. The text is divided into three main sections, separated by blank lines and a horizontal rule for the first section.
+The page contains a single column of text, with a header at the top and a handwritten note at the bottom. The text describes activities related to electricity and milk processing.
 
 ## Literal Transcription
-
 ERO GIGANTE ENERO FEBRERO EL AGUILA
----
+___
 CONYINUACIO N DE ACTIVIDADES,
 Y MARCO CON UN ESTACADO. POCOS DIAS DESPUES JEFES DE LA ENDESA
 REVISARON EL ESTACADO DANDO SU VISTO BUENO DESPUES DE LO CUAL
 EL CONTRATISTA ORDENO TIRAR LOS POSTES Y UN PESADO CAMION DE LA
-ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOS HOYOS
+ENDESA PROBEDIO A DEJAR LOS POSTES CERCA, O AL LADO DE LOSHOYOS
 QUE ANTERIORMENTE HABIA HECHO UNA CUADRUILLA DE HOMBRES. LUEGO DESPUES
 COMO NOS INFORMO UN PERSONERO DE LA ENPRESA UN TRACTOR CON UN CAMARON
-LLEVO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
+LLEBO LOS POSTES QUE ESTABAN LEJOS A SUS RESPECTIVOS HOYOS Y LUEGO
 NOS EXPLICO QUE CON UNA PLUMA PROSEDERI AN A LEVANTAR Y COLOCAR DEND
 DE LOS HOYOS LOS POSTES MAS ADELANTE DIJO QUE MAESTROS ESPECIALISAD
 COLOCARIAN LAS CRUSETAS Y COLOCARION LOAS CABLES QUE LLEVAN LA
-ELECTRISIDAD.
-LA ELECRISIDAD EN LOS CAMPOS.
-LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGRICULTORES YA SEA EN SUS
+ELECTRICIDAD.
+LA ELECRISIDAD EN LOS CANPOS.
+LA ELECTRISIDAD PRESTA GRANDES USOS A LOS AGICULTORES YA SEA EN SUS
 CASA COMO EN LAS FAENAS MULTIPLES QUE SE PUEDEN REALISAR CON LA
 ELECTRISIDAD. NUESTRO VECINO QUE OPTUVO LUZ PRIMERO DE LA LINEA A
 MULCHEN TIENE UN MOLINO QUE FUNCIONA TOTALMENTE A ELECTRISIDAD
 SE ESPERA QUE ESTA LINEA ESTE LISTA EN MAYO Y QUISAS EN AGOSTO SE
-PODRA DAR LA LUZ.a
----
+PODRA DAR LA LUZ.
 LA LECHE Y LA CHIPRODAL
-EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRICA
+EN EL FUNDO ES PRIMERA VEZ QUE SE ENTRGA LECHE A LA CHIPRODAL FABRIC
 DE LECHE NESTRE. LA LECHERIA DEL FUNDO NO ESTA FORMADA POR, LO CUAL LA
-MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIONES
+MATERIA GRASA ES POCA ../ VISITAMOS LA CHOPRODAL SA LLEGAN LOS CAMIOS
 NES QUE VIENEN DE TODAS PARTES CARGADOS CON LECHE. SE ACERCAN A UNA
-PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI. DE CORRE
+PLATAFORMA DONDE BAJAN LOS TARROS Y LOS COLOCAN EN UNA ESPECI DE CORRE
 SIN FIN PERO DE FIERRO QUE LOS VA MOVIENDO Y LOS LLEVA DENTRO DE L
 EDIFICIO DONDE LA LECHE ES PESADA Y ENTRA EN GRANDES TUVERIAS QUE
-Sigue Pag 12
-11
+Sigue Pag 12 11
 
 ## Images, Captions, And Visual Notes
-- A handwritten note "Sigue Pag 12" appears at the bottom left of the page.
-- A handwritten page number "11" appears at the bottom right of the page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-The following words appear to be misspellings or abbreviations in the original document, but have been transcribed literally:
-- "CONYINUACIO" (likely "CONTINUACION")
-- "PROBEDIO" (likely "PROCEDIO")
-- "CUADRUILLA" (likely "CUADRILLA")
-- "ENPRESA" (likely "EMPRESA")
-- "CAMARON" (unclear, possibly "REMOLQUE" or similar)
-- "PROSEDERI" (likely "PROCEDERIAN")
-- "DEND" (likely "DENTRO")
-- "ESPECIALISAD" (likely "ESPECIALIZADOS")
-- "COLOCARION" (likely "COLOCARAN")
-- "LOAS" (likely "LOS")
-- "ELECTRISIDAD" (likely "ELECTRICIDAD", appears multiple times)
-- "ELECRISIDAD" (likely "ELECTRICIDAD", appears once)
-- "REALISAR" (likely "REALIZAR")
-- "OPTUVO" (likely "OBTUVO")
-- "QUISAS" (likely "QUIZAS")
-- "ENTRGA" (likely "ENTREGA")
-- "NESTRE" (possibly "NESTLE" or a similar brand name)
-- "CHOPRODAL" (likely "CHIPRODAL")
-- "SA" (unclear, possibly "SE")
-- "ESPECI." (likely "ESPECIE")
-- "CORRE" (likely "CORREA" or "CORREDERA")
-- "TUVERIAS" (likely "TUBERIAS")
+- `CONYINUACIO N`: The "N" might be part of the word or a separate initial.
+- `PROBEDIO`: Could be "procedió".
+- `LOSHOYOS`: Could be "los hoyos" (two words).
+- `DEND`: Could be "dentro".
+- `AGICULTORES`: Could be "agricultores".
+- `ENPRESA`: Could be "empresa".
+- `CAMARON`: Could be "camión".
+- `LOAS`: Could be "los".
+- `FABRIC`: Could be "fabrica".
+- `CHOPRODAL SA`: Could be "Choprodal S.A.".
+- `CAMIOS NES`: Could be "camiones".
+- `ESPECI`: Could be "especie".
+- `L`: Could be "el".
 
 ## Completeness Audit
-All visible text and handwritten notes on the page have been transcribed.
+The transcription is complete and captures all visible text on the page.
 
 ## Visual Region Manifest
-```json
-{
-  "visual_regions": [
-    {
-      "region_id": "vr_1",
-      "kind": "handwritten-note",
-      "bbox_pct": [10.0, 90.0, 29.0, 93.0],
-      "caption_literal": "Sigue Pag 12",
-      "caption_type": "source-field",
-      "identity_basis": null,
-      "source_context": "Handwritten note at the bottom left of the page.",
-      "confidence": 0.95,
-      "suggested_filename": "handwritten_note_sigue_pag_12.png",
-      "inline_anchor": "Sigue Pag 12"
-    },
-    {
-      "region_id": "vr_2",
-      "kind": "handwritten-page-number",
-      "bbox_pct": [59.0, 90.0, 63.0, 93.0],
-      "caption_literal": "11",
-      "caption_type": "source-field",
-      "identity_basis": null,
-      "source_context": "Handwritten page number at the bottom right of the page.",
-      "confidence": 0.95,
-      "suggested_filename": "handwritten_page_number_11.png",
-      "inline_anchor": "11"
-    }
-  ]
-}
-```
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
-Page number: 12
+- Source: `El Aguila Nombre Grande Scan.pdf`
+- Page: `12`
 
 ## Layout And Reading Order
-
-The page contains text in a single column, resembling a typed document. There's a header, followed by two main paragraphs describing industrial processes (canning and baking), and a footer. A handwritten page number is present at the bottom right.
+The page contains a single column of typewritten text, with a handwritten page number at the bottom right. The text describes industrial processes related to food production and packaging.
 
 ## Literal Transcription
-
 ERO GIGANTE
 ENERO FEBRERO EL AGUILA
----
-LEVAN A ENORMES TANBRES, LUEGO DE ESTOS TAMBORES PASA A OTROS TAMBORES
-ONDE HIERVE POR TIENPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
-ONDE SE ENFRIA LUEGO SE LE ECHA ALMÍBAR Y SE REVUELVE DESPUES PASA
+LEVAN A ENORMES TAMBRES, LUEGO DE ESTOS TAMBORES PASA A OTROS TAMBORES
+ONDE HIERVE POR TIEMPO DETERM NADO LUEGO ENTRA A OTOS ESTANQUES
+ONDE SE ENFRIA LUEGO SE LE ECHA ALMIBAR Y SE REVUELVE DESPUES PASA
 A UNOS COMPARTIMENTOS DONDE SE LLENAN LOS TARROS CON LLECCHE CONDESADA
 YA PREPARADA. LOS TARROS ANTES DE SER LLEBADOS SON DESINFECTADOS POR
 CALOR, LA PIESA DONDE SE LLENAN LOS TARROS HAY QUE MIRARLA DE AFUERA
-PARA NO LLEVAR MICROVIOS. LOS TARROS SON HECHOS DE LATA HAY MISMO
-. LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
-LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE # TERMINADO TODAD
-LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO.
+PARA NO LLEVAR MICROVIOS, LOS TARROS SON HECHOS DE LATA HAY MISMO
+, LOS TARROS SONL TAPADOS EN EL MIS MO LUGAR DONDE SE LLENAN DESPUES DE
+LO CUAL SON LEVADOS A PONERLE LA ETIQUETA "NESTLE" TERMINADO TODAD
+LA OPERACION SON ENBALADOS Y LUEGO SON LEVADOS AL FERROCARRIL CERCANO,
 LA FABRICA DE TARROS
 6Y
 LSAS
@@ -665,7 +619,7 @@ LAS PLANCHAS DE LATA SON CORTADAS EN TRES PEDASOS POR UNA MAQUINA, LUEGO
 PASAN A OTRA QUE LOS CORTA EN TRES NUEVAMENTE Y DESPUES UNA MAQUINA I
 ITALIANA RECIENTEMENTE EN CHILE HACE EL ENVACESE LAS DOS PARTES SON
 PEGADAS HACIENDO EL TARRO Y DE INMEDIATO OTRA PONE UNA TAPA LA DE ABAJO
-LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADO Y DEXHXX DE AHI A
+LOS TARROS YA TERMINADOS PASAN POR UN ESTERELISADOR Y DEXXXX DE AHI A
 LLENARSE
 LA PANADERIA MODERNA.
 LA ENPRESA VISITO LA PANADERIS MODERNA DE LOS ANGELES DEL SR RINCON
@@ -673,32 +627,37 @@ QUIEN NOS ENSENO SU PANADERIA; UNA MAQUINA REVUELVE EL PANAN U LUEGO
 OTRA LO AMASA; LA MASA PARA LAS AYUYAS PASA A OTRA MAQUINA QUE LA CORTA
 Y LA FESJA CUADRADA DE AHI PASA A UN HORNO A PETROLEO Y SE ENREGA
 AL PUBLICO
----
-CRONICAS POR EL PERIODISTA x
+
+CRONICAS POR EL PERIODISTA X
+
+12
 
 ## Images, Captions, And Visual Notes
-A handwritten number "12" is present at the bottom right corner of the page.
+There are no images or captions on this page.
 
 ## Uncertain Or Illegible
-- "DETERM NADO": Could be "DETERMINADO" with a space or typo.
-- "LLECCHE": Likely a misspelling of "LECHE".
-- "SONL": Likely a misspelling of "SON".
-- "TODAD": Likely a misspelling of "TODA".
-- "6Y": Appears to be "6Y", possibly a page or section marker, or a typo.
-- "LSAS": Appears to be "LSAS", possibly an abbreviation or typo.
-- "PEDASOS": Likely a misspelling of "PEDAZOS".
-- "DEXHXX": The last three letters are very unclear, possibly "DEXHAY" or similar, but "DEXHXX" represents the most plausible visual interpretation of the characters.
-- "ENPRESA": Likely a misspelling of "EMPRESA".
-- "PANADERIS": Likely a misspelling of "PANADERIA".
-- "PANAN": Could be "PAN" or "MASA" or similar, but "PANAN" is the most direct reading.
-- "FESJA": Likely a misspelling of "FRANJA" or "REBANADA" or similar, but "FESJA" is the most direct reading.
-- "ENREGA": Likely a misspelling of "ENTREGA".
+- `DETERM NADO`: The space between "DETERM" and "NADO" might indicate a missing letter or an abbreviation.
+- `LLECCHE`: Appears to be a misspelling of "LECHE".
+- `LLEBADOS`: Appears to be a misspelling of "LLEVADOS".
+- `MICROVIOS`: Appears to be a misspelling of "MICROBIOS".
+- `SONL`: Appears to be a misspelling of "SON".
+- `TODAD`: Appears to be a misspelling of "TODA".
+- `ENBALADOS`: Appears to be a misspelling of "EMBALADOS".
+- `6Y`: Unclear meaning, possibly a typo or an abbreviation.
+- `LSAS`: Unclear meaning, possibly a typo or an abbreviation.
+- `PEDASOS`: Appears to be a misspelling of "PEDAZOS".
+- `DEXXXX`: Illegible word, possibly "DESPUES" or similar.
+- `ENPRESA`: Appears to be a misspelling of "EMPRESA".
+- `PANADERIS`: Appears to be a misspelling of "PANADERIA".
+- `PANAN U`: Unclear meaning, possibly a typo or an abbreviation.
+- `FESJA`: Appears to be a misspelling of "FRANJA" or "REJA".
+- `ENREGA`: Appears to be a misspelling of "ENTREGA".
 
 ## Completeness Audit
-All visible text and the handwritten page number have been transcribed.
+The transcription is complete and includes all visible text on the page.
 
 ## Visual Region Manifest
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visuals are present on this page that would be useful as standalone wiki assets. The handwritten page number is noted in the transcription and visual notes."}
+{"visual_regions": [], "no_visual_regions_reason": "No meaningful visual regions were detected."}
 
 ## Page Metadata
 - Page number: 13

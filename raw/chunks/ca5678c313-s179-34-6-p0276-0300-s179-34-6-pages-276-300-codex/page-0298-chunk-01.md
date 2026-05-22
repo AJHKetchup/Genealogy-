@@ -1,8 +1,8 @@
 ---
 type: source_prep_chunk
-chunk_id: CHUNK-d1f1f1af2de7-P0298-01
+chunk_id: CHUNK-8cfc9aa6f8b2-P0298-01
 source_converted: raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md
-converted_sha256: d1f1f1af2de79f5b9fee0cffb8ebdb41d43a217e2eab31dff2c8c4a7cae306b0
+converted_sha256: 8cfc9aa6f8b247ae3dd2cbc7750412b7d8c19e6e335f1c2c8e3c6f56ba16f905
 source: raw/sources/S179-34-6.pdf
 source_sha256: 5678c3138fcec46c5abb2a37daa284e8ea69e5f9ea98b5c0239cd83f54a0a054
 source_manifest: raw/codex-conversion-jobs/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300/manifest.json
@@ -12,73 +12,84 @@ part: 1
 ---
 
 ## Page Metadata
-- Task id: `source-prep:ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300:p0298`
-- Page: 298
-- Source: `raw/sources/S179-34-6.pdf`
+
+- **Page number**: `298`
+- **Document title**: `IMPORTANT LAW BOOKS`
+- **Document type**: Typed list
+- **Language**: English, with some French terms
+- **Author**: Unspecified
+- **Date**: Post-1922 (based on content)
 
 ## Layout And Reading Order
-The page contains a single column of typewritten text, listing "IMPORTANT LAW BOOKS" for "URUGUAY". The content is structured with numbered sections, some of which have further indented sub-sections or bullet points. The reading order is top-to-bottom, left-to-right.
+
+The document is a single-column, typed list on a full page. The main title is centered at the top. The content is organized as a numbered list with nested sub-lists. The page has two hole punches and several handwritten 'x' marks in the left margin. A rust mark from a paperclip is visible at the top left. Several lines have been underlined, and handwritten checkmarks appear at the end of many lines.
 
 ## Literal Transcription
+
+<br>
+
+<div style="text-align: center;">
 IMPORTANT LAW BOOKS
+</div>
 
-URUGUAY.........
+URUGUAY............
 
-1. Penal Code: (In Spanish).
-    Section III, Par. 288-96, pages 92-94 in re Rape.
-    " IV " 297-98, " 94, Corruption of Minors.
-    " V " 299 " 94, Same.
-    " VI " 301-05, " 95, Adultery.
-    " VII " 306-11, " 97-98, Bigamy and illegal
-        marriage.
-    " VI " 346-47, " 106, Abandoning child.
-    Vagrancy Act, 1-15 " 283-85, Detention of minors; instructions
-        to police officials, 295.
-    Title 1, Law for the Protection of Minors, Par. 301.
+1. <u>Penal Code</u>: (In Spanish).
 
-2. Bulletins of National Council of Hygiene, #150, 164, 173, 198 &
-    206 (In Spanish):
-    #150: Pages 411-15: Report on Medical Examination of
-        Prostitutes, 1918.
-    #164: " 424-26: Ditto for 1919.
-    #173: " 91-96: Ditto for 1920, and comparisons for
-        years 1911-20.
-    #198: " 369-74: Ditto for 1922; comparison, 1911-22.
-    #206: " 997: Decree of Minister of Interior regu-
-        lating registration of prostitutes
-        under age.
+| | | | |
+| :--- | :--- | :--- | :--- |
+| Section III, | Par. 288-96, | pages 92-94 | in re Rape. |
+| " IV | " 297-98, | " 94, | Corruption of Minors. ✓ |
+| " V | " 299 | " 94, | Same. |
+| " VI | " 301-05, | " 95, | Adultery. |
+| " VII | " 306-11, | " 97-98, | Bigamy and illegal marriage. |
+| " VI | " 346-47, | " 106, | Abandoning child. ✓ |
+| Vagrancy Act, 1-15 | " 283-85, | Detention of minors; instructions to police officials, 295. ✓ |
+| Title 1, Law for the Protection of Minors, Par. 301. ✓ |
 
-3. Compilation of Laws, Decrees, etc., National Council of Hygiene,
-    1918 (In Spanish)
-    Page 9: Laws creating the National Council of Hygiene.
-    " 431-35: Regulating Prostitution, etc.
+2. <u>Bulletins of National Council of Hygiene, #150, 164, 173, 198 & 206</u> (In Spanish):
 
-4. Bulletins of Chief of Police of Montevideo: (Containing Laws,
-    Regulations and Instructions) (In Spanish:
-    A- July-Sept., 1920: Pages 169-70: Authorizing the President
-        to adhere to International Convention relating to
-        repression of White-slave Traffic.
-        Page: 170: Law re same.
-        " 177: Text of International Convention of
-            Paris, May, 1904.
-        " 180: Repression of White-slave traffic.
-        " 186: Regulation of "pensions", "maisons
-            d' Artistes" etc.
-        " 209 Special detention place for prisoners
-            under age arrested during the night.
-        " 252-53: Laws and Regulations re Maisons d'
-            artistes.
+| | | |
+| :--- | :--- | :--- |
+| <u>#150</u>: | Pages 411-15: | Report on Medical Examination of Prostitutes, 1918. ✓ |
+| <u>#164</u>: | " 424-26: | Ditto for 1919. |
+| <u>#173</u>: | " 91-96: | Ditto for 1920, and comparisons for years 1911-20. ✓ |
+| <u>#198</u>: | " 369-74: | Ditto for 1922; comparison, 1911-22. ✓ |
+| <u>#206</u>: | " 997: | Decree of Minister of Interior regu-lating registration of prostitutes under age. ✓ |
+
+3. <u>Compilation of Laws, Decrees, etc., National Council of Hygiene, 1918</u> (In Spanish)
+
+| | | |
+| :--- | :--- | :--- |
+| Page 9: | Laws creating the National Council of Hygiene. | |
+| " 431-35: | Regulating Prostitution, etc. ✓ | |
+
+4. <u>Bulletins of Chief of Police of Montevideo: (Containing Laws, Regulations and Instructions)</u> (In Spanish:
+
+| | | |
+| :--- | :--- | :--- |
+| <u>A- July-Sept., 1920</u>: | Pages 169-70: | Authorizing the President to adhere to International Convention relating to repression of White-slave Traffic. |
+| Page: 170: | Law re same. | |
+| " 177: | Text of International Convention of Paris, May, 1904. | |
+| " 180: | Repression of White-slave traffic. ✓ | |
+| " 186: | Regulation of "pensions", "maisons d' Artistes" etc. ✓ | |
+| " 209 | Special detention place for prisoners under age arrested during the night. | |
+| " 252-53: | Laws and Regulations re Maisons d' artistes. ✓ | |
 
 ## Images, Captions, And Visual Notes
-There are no substantial images or captions on this page. There are a few small handwritten checkmarks and 'x' marks next to some entries, and a paperclip impression at the top left corner of the page. These are minor annotations and do not require specific visual region crops.
+
+The page is a typed document on aged, slightly yellowed paper. There is a rust-colored stain from a paperclip at the top left corner. Two hole punches are present in the left margin. Several small, handwritten 'x' marks are visible in the left margin, next to list items 3 and 4. Numerous lines have handwritten checkmarks (✓) in pencil at the end. Several headings and list item numbers are underlined in the original typewriting.
 
 ## Uncertain Or Illegible
-No uncertain or illegible text was encountered.
+
+There are no uncertain or illegible parts of this document.
 
 ## Completeness Audit
-The transcription is complete and accurately represents all visible text on the page.
+
+The entire content of the page has been transcribed.
 
 ## Visual Region Manifest
+
 ```json
-{"visual_regions": [], "no_visual_regions_reason": "No substantial visual content was detected for cropping. The page primarily consists of text with minor handwritten annotations that do not warrant individual crops."}
+{"visual_regions": [], "no_visual_regions_reason": "The page contains only typed text with minor handwritten annotations (checkmarks, 'x' marks) and standard office markings (hole punches, paperclip stain), none of which qualify as significant visual regions for individual cropping."}
 ```

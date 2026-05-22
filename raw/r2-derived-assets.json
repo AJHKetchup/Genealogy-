@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created": "2026-05-22T02:25:08.256206+00:00",
+  "created": "2026-05-22T02:37:39.266562+00:00",
   "purpose": "Cloud object inventory for binary source-prep derivatives. JSON, Markdown, and code remain in GitHub.",
   "storage": {
     "provider": "cloudflare-r2",
@@ -2814,6 +2814,13 @@
       "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-hilly-landscape.png",
       "bytes": 24874037,
       "sha256": "3e0c39a1ae4c44e6ff75efb57d9d2dc501dd449e559555c851ddc66e7c31d7cd",
+      "media_type": "image/png"
+    },
+    {
+      "path": "raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png",
+      "key": "derived/raw/codex-conversion-jobs/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18/extracted-images/page-0010/page-0010-image-01-cattle-watering-hole-landscape.png",
+      "bytes": 24105878,
+      "sha256": "807d991ed453dbd0b35c09c7e1b79574e0b1c420564b38d86c146405cdfd2ae0",
       "media_type": "image/png"
     },
     {
@@ -8914,6 +8921,13 @@
       "media_type": "image/png"
     },
     {
+      "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument-in-a-plaza.png",
+      "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument-in-a-plaza.png",
+      "bytes": 560664,
+      "sha256": "e3ccd66d024756c02589c47b916259ced98adf2204af766bd6484b6280411024",
+      "media_type": "image/png"
+    },
+    {
       "path": "raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument.png",
       "key": "derived/raw/codex-conversion-jobs/ca9010aa1a-s495-2-2-p0051-0075-s495-2-2-pages-51-75/extracted-images/page-0053/page-0053-image-01-p0053-01-monument.png",
       "bytes": 506037,
@@ -12060,10 +12074,10 @@
   "upload_summary": {
     "action": "asset-upload",
     "dry_run": false,
-    "total_files": 0,
-    "total_bytes": 0,
-    "uploaded": 0,
-    "skipped": 0,
+    "total_files": 3,
+    "total_bytes": 47472890,
+    "uploaded": 2,
+    "skipped": 1,
     "planned": 0,
     "errors": [],
     "deleted_disposable": 0,
@@ -12073,9 +12087,9 @@
         "derived/raw/codex-conversion-jobs/",
         "derived/research/_assets/conversions/"
       ],
-      "scanned": 1723,
+      "scanned": 1725,
       "deleted": 0,
-      "skipped": 1723,
+      "skipped": 1725,
       "errors": []
     }
   }
