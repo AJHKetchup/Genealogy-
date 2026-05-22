@@ -6848,6 +6848,39 @@ def extract_local_visual_regions_from_pdf(
     )
 
 
+def extract_local_visual_regions_from_path(
+    input_path: Path,
+    *,
+    image_output_dir: Path,
+    image_prefix: str,
+    root: Path | None = None,
+    max_regions: int = 4,
+) -> list[dict[str, object]]:
+    if input_path.suffix.lower() == ".pdf":
+        return extract_local_visual_regions_from_pdf(
+            input_path,
+            image_output_dir=image_output_dir,
+            image_prefix=image_prefix,
+            root=root,
+            max_regions=max_regions,
+        )
+    try:
+        from PIL import Image
+    except ImportError:
+        return []
+    try:
+        with Image.open(input_path) as image:
+            return extract_local_visual_regions_from_image(
+                image,
+                image_output_dir=image_output_dir,
+                image_prefix=image_prefix,
+                root=root,
+                max_regions=max_regions,
+            )
+    except Exception:
+        return []
+
+
 def extract_local_visual_regions_from_image(
     image: object,
     *,
@@ -7093,6 +7126,79 @@ def convert_source_with_tesseract_after_docling_error(
     }
 
 
+def source_prep_docling_error_is_timeout(message: str) -> bool:
+    normalized = message.lower()
+    return any(
+        marker in normalized
+        for marker in (
+            "docling hard timeout",
+            "document processing time",
+            "exceeded timeout",
+            "ocr thread did not terminate",
+            "tesseract process timeout",
+        )
+    )
+
+
+def build_source_prep_docling_unusable_error_result(
+    paths: WikiPaths,
+    task: dict[str, object],
+    cache_key: str,
+    agent: str,
+    input_path: Path,
+    image_output_dir: Path,
+    image_prefix: str,
+    *,
+    docling_error: str,
+    tesseract_error: str = "",
+) -> dict[str, object]:
+    timeout = source_prep_docling_error_is_timeout(" ".join([docling_error, tesseract_error]))
+    reason = "local_ocr_timeout" if timeout else "local_docling_error"
+    extracted_images = extract_local_visual_regions_from_path(
+        input_path,
+        image_output_dir=image_output_dir,
+        image_prefix=image_prefix,
+        root=paths.root,
+    )
+    extra_report: dict[str, object] = {
+        "docling_ocr": True,
+        "docling_error": docling_error[:500],
+        "docling_unusable_reason": reason,
+        "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
+        "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+        "text_layer_flags": task.get("_docling_text_layer_flags", []),
+    }
+    extra_entry: dict[str, object] = {
+        "method": "docling_unusable",
+        "method_detail": reason,
+        "docling_ocr": True,
+        "docling_error": docling_error[:500],
+        "docling_unusable_reason": reason,
+        "text_layer_chars": task.get("_docling_text_layer_chars", 0),
+        "text_layer_alpha_chars": task.get("_docling_text_layer_alpha_chars", 0),
+        "likely_full_page_scan": bool(task.get("_docling_likely_full_page_scan", False)),
+        "text_layer_flags": task.get("_docling_text_layer_flags", []),
+    }
+    if tesseract_error:
+        extra_report["tesseract_after_docling_error"] = True
+        extra_report["tesseract_error"] = tesseract_error[:500]
+        extra_entry["tesseract_after_docling_error"] = True
+        extra_entry["tesseract_error"] = tesseract_error[:500]
+    if extracted_images:
+        extra_report["local_visual_region_fallback"] = True
+        extra_entry["local_visual_region_fallback"] = True
+    return build_source_prep_docling_task_result(
+        paths,
+        task,
+        cache_key,
+        agent,
+        "",
+        extracted_images,
+        extra_report=extra_report,
+        extra_entry=extra_entry,
+    )
+
+
 def build_source_prep_docling_task_result(
     paths: WikiPaths,
     task: dict[str, object],
@@ -7291,6 +7397,18 @@ def run_source_prep_docling_task(
         except Exception as docling_exc:
             if not effective_use_ocr:
                 raise
+            docling_error = str(docling_exc)
+            if source_prep_docling_error_is_timeout(docling_error):
+                return build_source_prep_docling_unusable_error_result(
+                    paths,
+                    task,
+                    cache_key,
+                    agent,
+                    input_path,
+                    image_output_dir,
+                    image_prefix,
+                    docling_error=docling_error,
+                )
             try:
                 tesseract_result = convert_source_with_tesseract_after_docling_error(
                     input_path,
@@ -7299,7 +7417,17 @@ def run_source_prep_docling_task(
                     root=paths.root,
                 )
             except Exception as tesseract_exc:
-                raise RuntimeError(f"{docling_exc}; Tesseract fallback failed: {tesseract_exc}") from tesseract_exc
+                return build_source_prep_docling_unusable_error_result(
+                    paths,
+                    task,
+                    cache_key,
+                    agent,
+                    input_path,
+                    image_output_dir,
+                    image_prefix,
+                    docling_error=docling_error,
+                    tesseract_error=str(tesseract_exc),
+                )
             tesseract_markdown, extracted_images = normalize_docling_conversion_result(tesseract_result)
             task = dict(task)
             task["_docling_conversion_method"] = "Tesseract OCR fallback after Docling baseline error"

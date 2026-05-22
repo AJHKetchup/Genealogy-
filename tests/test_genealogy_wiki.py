@@ -2240,13 +2240,12 @@ def test_docling_discovery_can_target_one_source(tmp_path, monkeypatch) -> None:
     assert {task["source"] for task in tasks} == {"raw/sources/target.pdf"}
 
 
-def test_docling_discovery_checkpoints_errors(tmp_path, monkeypatch) -> None:
+def test_docling_discovery_marks_timeouts_unusable_for_fallback(tmp_path, monkeypatch) -> None:
     fitz = pytest.importorskip("fitz")
     init_genealogy_wiki(tmp_path)
     source = tmp_path / "raw" / "sources" / "timeout.pdf"
     doc = fitz.open()
-    page = doc.new_page(width=360, height=500)
-    page.insert_textbox((36, 36, 324, 460), "Page that times out in Docling. " * 20, fontsize=11)
+    doc.new_page(width=360, height=500)
     doc.save(source)
     doc.close()
 
@@ -2269,12 +2268,16 @@ def test_docling_discovery_checkpoints_errors(tmp_path, monkeypatch) -> None:
     state = json.loads(state_path.read_text(encoding="utf-8"))
     discovery = json.loads(discovery_path.read_text(encoding="utf-8"))
 
-    assert summary["errors"] == 1
-    assert state["errors"] == 1
-    assert state["tasks"][0]["status"] == "error"
-    error_entries = [entry for entry in discovery["entries"].values() if entry["status"] == "error"]
-    assert error_entries
-    assert error_entries[0]["error_retry_version"] == genealogy_wiki.SOURCE_PREP_DISCOVERY_ERROR_RETRY_VERSION
+    assert summary["errors"] == 0
+    assert summary["unusable"] == 1
+    assert state["errors"] == 0
+    assert state["unusable"] == 1
+    assert state["tasks"][0]["status"] == "rough_unusable"
+    assert state["tasks"][0]["docling_unusable_reason"] == "local_ocr_timeout"
+    unusable_entries = [entry for entry in discovery["entries"].values() if entry["status"] == "rough_unusable"]
+    assert unusable_entries
+    assert unusable_entries[0]["method"] == "docling_unusable"
+    assert unusable_entries[0]["docling_unusable_reason"] == "local_ocr_timeout"
 
 
 def test_docling_profile_keeps_clean_digital_native_text_usable() -> None:
@@ -2864,7 +2867,7 @@ def test_docling_discovery_uses_tesseract_after_docling_error(tmp_path, monkeypa
     prepare_raw_sources(tmp_path, new_pages_limit=1)
 
     def fake_docling(input_path, **kwargs):
-        raise RuntimeError("Docling hard timeout after 90 seconds.")
+        raise RuntimeError("Docling layout extraction failed.")
 
     def fake_tesseract(input_path, **kwargs):
         return {
@@ -2880,7 +2883,7 @@ def test_docling_discovery_uses_tesseract_after_docling_error(tmp_path, monkeypa
     assert summary["inspected"] == 1
     assert summary["accepted"] == 1
     assert summary["tasks"][0]["tesseract_after_docling_error"] is True
-    assert "Docling hard timeout" in summary["tasks"][0]["docling_error"]
+    assert "Docling layout extraction failed" in summary["tasks"][0]["docling_error"]
     discovery = json.loads((tmp_path / "research" / "_agent-queues" / "source-prep-discovery.json").read_text(encoding="utf-8"))
     entry = next(iter(discovery["entries"].values()))
     assert entry["method"] == "tesseract_after_docling_error"
@@ -2899,7 +2902,7 @@ def test_docling_discovery_reports_tesseract_failure_after_docling_error(tmp_pat
     prepare_raw_sources(tmp_path, new_pages_limit=1)
 
     def fake_docling(input_path, **kwargs):
-        raise RuntimeError("Docling hard timeout after 45 seconds.")
+        raise RuntimeError("Docling layout extraction failed.")
 
     def fake_tesseract(input_path, **kwargs):
         raise RuntimeError("Tesseract process timeout")
@@ -2910,10 +2913,12 @@ def test_docling_discovery_reports_tesseract_failure_after_docling_error(tmp_pat
     summary = genealogy_wiki.source_prep_docling_discovery_run(tmp_path, limit=0, scan_limit=10)
 
     assert summary["inspected"] == 1
-    assert summary["errors"] == 1
-    assert "Docling hard timeout" in summary["tasks"][0]["error"]
-    assert "Tesseract fallback failed" in summary["tasks"][0]["error"]
-    assert "Tesseract process timeout" in summary["tasks"][0]["error"]
+    assert summary["errors"] == 0
+    assert summary["unusable"] == 1
+    assert summary["tasks"][0]["status"] == "rough_unusable"
+    assert summary["tasks"][0]["docling_unusable_reason"] == "local_ocr_timeout"
+    assert "Docling layout extraction failed" in summary["tasks"][0]["docling_error"]
+    assert "Tesseract process timeout" in summary["tasks"][0]["tesseract_error"]
 
 
 def test_docling_discovery_dry_run_does_not_write_state_or_log(tmp_path, monkeypatch) -> None:
