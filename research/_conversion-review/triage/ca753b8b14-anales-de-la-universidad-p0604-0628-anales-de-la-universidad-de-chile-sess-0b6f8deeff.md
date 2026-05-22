@@ -8,12 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 608 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 610 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 612 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 614 | medium | medium | pass | duplicate_conversion_contract_sections | Starting, relationships |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 537 | none | high | pass | none | none |
+| 608 | medium | high | pass | none | relationships |
+| 6 | none | high | pass | none | none |
+| 610 | medium | high | pass | none | relationships |
+| 611 | none | high | pass | none | none |
+| 612 | medium | high | pass | none | relationships |
+| 10 | none | high | pass | none | none |
+| 614 | medium | high | pass | none | relationships |
+| 12 | none | high | pass | none | none |
+| 13 | medium | high | pass | none | Starting |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
 | 619 | medium | high | pass | none | relationships |
 | 620 | medium | high | pass | none | relationships |
-| 621 | medium | medium | pass | duplicate_conversion_contract_sections | Starting, relationships |
+| 621 | medium | high | pass | none | relationships |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |
+| 21 | medium | high | pass | none | Starting |
+| 22 | none | high | pass | none | none |
 | 626 | medium | high | pass | none | relationships |
-| 627 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 627 | medium | high | pass | none | relationships |
+| 25 | none | high | pass | none | none |

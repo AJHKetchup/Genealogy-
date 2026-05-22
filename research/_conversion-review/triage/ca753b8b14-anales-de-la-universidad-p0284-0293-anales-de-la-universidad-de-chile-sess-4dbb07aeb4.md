@@ -8,4 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 290 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 1 | none | high | pass | none | none |
+| 285 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 290 | medium | high | pass | none | relationships |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |

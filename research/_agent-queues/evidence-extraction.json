@@ -3,18 +3,17 @@
   "queue": "evidence-extraction",
   "task_count": 2888,
   "status_counts": {
-    "done": 6,
-    "todo": 2783,
-    "blocked_needs_reread": 99
+    "todo": 2887,
+    "done": 1
   },
   "tasks": [
     {
-      "task_id": "evidence-extraction:CHUNK-3d3ab761209f-P0001-01",
+      "task_id": "evidence-extraction:CHUNK-89b3243618de-P0001-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "done",
-      "chunk_id": "CHUNK-3d3ab761209f-P0001-01",
+      "status": "todo",
+      "chunk_id": "CHUNK-89b3243618de-P0001-01",
       "chunk_path": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513.codex.md",
       "chunk_manifest": "raw/chunks/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-nge-5ed7132d63/manifest.json",
@@ -23,13 +22,7 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-3d3ab761209f-p0001-01.md",
-      "agent": "postconv-evidence-extraction-20260522003347174",
-      "note": "post-conversion controller start",
-      "claimed_at": "2026-05-22T00:33:47Z",
-      "started_at": "2026-05-22T00:33:47Z",
-      "completed_at": "2026-05-22T00:37:27Z",
-      "updated_at": "2026-05-22T00:37:27Z"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-89b3243618de-p0001-01.md"
     },
     {
       "task_id": "evidence-extraction:CHUNK-3d3ab761209f-P0001-01",
@@ -55,12 +48,12 @@
       "updated_at": "2026-05-22T00:37:27Z"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-37cac508f847-P0004-01",
+      "task_id": "evidence-extraction:CHUNK-8a2d7d76a2b4-P0004-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "done",
-      "chunk_id": "CHUNK-37cac508f847-P0004-01",
+      "status": "todo",
+      "chunk_id": "CHUNK-8a2d7d76a2b4-P0004-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0004-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
@@ -69,21 +62,15 @@
       "page_start": 4,
       "page_end": 4,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0004-01.md",
-      "agent": "postconv-evidence-extraction-20260522003348179",
-      "note": "post-conversion controller start",
-      "claimed_at": "2026-05-22T00:33:48Z",
-      "started_at": "2026-05-22T00:33:49Z",
-      "completed_at": "2026-05-22T00:37:32Z",
-      "updated_at": "2026-05-22T00:37:32Z"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-8a2d7d76a2b4-p0004-01.md"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-37cac508f847-P0005-01",
+      "task_id": "evidence-extraction:CHUNK-8a2d7d76a2b4-P0005-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "done",
-      "chunk_id": "CHUNK-37cac508f847-P0005-01",
+      "status": "todo",
+      "chunk_id": "CHUNK-8a2d7d76a2b4-P0005-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0005-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
@@ -92,21 +79,15 @@
       "page_start": 5,
       "page_end": 5,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0005-01.md",
-      "agent": "postconv-evidence-extraction-20260522003349456",
-      "note": "post-conversion controller start",
-      "claimed_at": "2026-05-22T00:33:49Z",
-      "started_at": "2026-05-22T00:33:50Z",
-      "completed_at": "2026-05-22T00:37:17Z",
-      "updated_at": "2026-05-22T00:37:17Z"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-8a2d7d76a2b4-p0005-01.md"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-37cac508f847-P0006-01",
+      "task_id": "evidence-extraction:CHUNK-8a2d7d76a2b4-P0006-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "done",
-      "chunk_id": "CHUNK-37cac508f847-P0006-01",
+      "status": "todo",
+      "chunk_id": "CHUNK-8a2d7d76a2b4-P0006-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0006-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
@@ -115,21 +96,15 @@
       "page_start": 6,
       "page_end": 6,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0006-01.md",
-      "agent": "postconv-evidence-extraction-20260522011952768",
-      "note": "post-conversion controller start",
-      "claimed_at": "2026-05-22T01:19:53Z",
-      "started_at": "2026-05-22T01:19:53Z",
-      "completed_at": "2026-05-22T01:22:16Z",
-      "updated_at": "2026-05-22T01:22:16Z"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-8a2d7d76a2b4-p0006-01.md"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-37cac508f847-P0007-01",
+      "task_id": "evidence-extraction:CHUNK-8a2d7d76a2b4-P0007-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "done",
-      "chunk_id": "CHUNK-37cac508f847-P0007-01",
+      "status": "todo",
+      "chunk_id": "CHUNK-8a2d7d76a2b4-P0007-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0007-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
@@ -138,21 +113,15 @@
       "page_start": 7,
       "page_end": 7,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0007-01.md",
-      "agent": "postconv-evidence-extraction-20260522011954108",
-      "note": "post-conversion controller start",
-      "claimed_at": "2026-05-22T01:19:54Z",
-      "started_at": "2026-05-22T01:19:55Z",
-      "completed_at": "2026-05-22T01:22:56Z",
-      "updated_at": "2026-05-22T01:22:56Z"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-8a2d7d76a2b4-p0007-01.md"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-37cac508f847-P0008-01",
+      "task_id": "evidence-extraction:CHUNK-8a2d7d76a2b4-P0008-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
       "status": "todo",
-      "chunk_id": "CHUNK-37cac508f847-P0008-01",
+      "chunk_id": "CHUNK-8a2d7d76a2b4-P0008-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0008-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
@@ -161,15 +130,15 @@
       "page_start": 8,
       "page_end": 8,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0008-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-8a2d7d76a2b4-p0008-01.md"
     },
     {
-      "task_id": "evidence-extraction:CHUNK-37cac508f847-P0009-01",
+      "task_id": "evidence-extraction:CHUNK-8a2d7d76a2b4-P0009-01",
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
       "status": "todo",
-      "chunk_id": "CHUNK-37cac508f847-P0009-01",
+      "chunk_id": "CHUNK-8a2d7d76a2b4-P0009-01",
       "chunk_path": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/page-0009-chunk-01.md",
       "converted_file": "raw/converted/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9.codex.md",
       "chunk_manifest": "raw/chunks/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9-codex/manifest.json",
@@ -178,7 +147,7 @@
       "page_start": 9,
       "page_end": 9,
       "staging_dir": "research/_staging",
-      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-37cac508f847-p0009-01.md"
+      "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-8a2d7d76a2b4-p0009-01.md"
     },
     {
       "task_id": "evidence-extraction:CHUNK-e3855d490602-P0001-01",
@@ -5778,7 +5747,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-01",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5788,12 +5757,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-01.md"
     },
     {
@@ -5801,7 +5764,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-02",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5811,12 +5774,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-02.md"
     },
     {
@@ -5824,7 +5781,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-03",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5834,12 +5791,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-03.md"
     },
     {
@@ -5847,7 +5798,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-04",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5857,12 +5808,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-04.md"
     },
     {
@@ -5870,7 +5815,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-05",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5880,12 +5825,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-05.md"
     },
     {
@@ -5893,7 +5832,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-06",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5903,12 +5842,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-06.md"
     },
     {
@@ -5916,7 +5849,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-b40e6729f957-P0001-07",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852/page-0001-chunk-07.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-pages-104-123.codex.md",
@@ -5926,12 +5859,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0104-0123-c-mara-de-senadores-de-la-naci-n-1936-6948dac852.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-b40e6729f957-p0001-07.md"
     },
     {
@@ -6381,7 +6308,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-cb1f41ef39ac-P0001-01",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md",
@@ -6391,12 +6318,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-cb1f41ef39ac-p0001-01.md"
     },
     {
@@ -6404,7 +6325,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-cb1f41ef39ac-P0001-02",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md",
@@ -6414,12 +6335,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-cb1f41ef39ac-p0001-02.md"
     },
     {
@@ -6427,7 +6342,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-cb1f41ef39ac-P0001-03",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md",
@@ -6437,12 +6352,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-cb1f41ef39ac-p0001-03.md"
     },
     {
@@ -6450,7 +6359,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-cb1f41ef39ac-P0001-04",
       "chunk_path": "raw/chunks/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-pages-284-293.codex.md",
@@ -6460,12 +6369,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca221159bd-c-mara-de-senadores-de-l-p0284-0293-c-mara-de-senadores-de-la-naci-n-1936-cbf7dbaeec.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-cb1f41ef39ac-p0001-04.md"
     },
     {
@@ -14667,7 +14570,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-eb46c57caeba-P0001-01",
       "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
@@ -14677,12 +14580,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-eb46c57caeba-p0001-01.md"
     },
     {
@@ -14690,7 +14587,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-eb46c57caeba-P0001-02",
       "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
@@ -14700,12 +14597,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-eb46c57caeba-p0001-02.md"
     },
     {
@@ -14713,7 +14604,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-eb46c57caeba-P0001-03",
       "chunk_path": "raw/chunks/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12.codex.md",
@@ -14723,12 +14614,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca35845f12-acicr-b-cr-177-001-002-p0006-0012-acicr-b-cr-177-001-002-pages-6-12-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-eb46c57caeba-p0001-03.md"
     },
     {
@@ -15365,7 +15250,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-01",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15375,12 +15260,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-01.md"
     },
     {
@@ -15388,7 +15267,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-02",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15398,12 +15277,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-02.md"
     },
     {
@@ -15411,7 +15284,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-03",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15421,12 +15294,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-03.md"
     },
     {
@@ -15434,7 +15301,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-04",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15444,12 +15311,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-04.md"
     },
     {
@@ -15457,7 +15318,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-05",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15467,12 +15328,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-05.md"
     },
     {
@@ -15480,7 +15335,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-06",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15490,12 +15345,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-06.md"
     },
     {
@@ -15503,7 +15352,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-07",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-07.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15513,12 +15362,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-07.md"
     },
     {
@@ -15526,7 +15369,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-08",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-08.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15536,12 +15379,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-08.md"
     },
     {
@@ -15549,7 +15386,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-536477d11ee5-P0001-09",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex/page-0001-chunk-09.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75.codex.md",
@@ -15559,12 +15396,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0051-0075-r3016-11a-2905-950-pages-51-75-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-536477d11ee5-p0001-09.md"
     },
     {
@@ -15572,7 +15403,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-01",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15582,12 +15413,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-01.md"
     },
     {
@@ -15595,7 +15420,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-02",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15605,12 +15430,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-02.md"
     },
     {
@@ -15618,7 +15437,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-03",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15628,12 +15447,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-03.md"
     },
     {
@@ -15641,7 +15454,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-04",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15651,12 +15464,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-04.md"
     },
     {
@@ -15664,7 +15471,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-05",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15674,12 +15481,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-05.md"
     },
     {
@@ -15687,7 +15488,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-06",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15697,12 +15498,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-06.md"
     },
     {
@@ -15710,7 +15505,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-07",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-07.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15720,12 +15515,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-07.md"
     },
     {
@@ -15733,7 +15522,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-08",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-08.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15743,12 +15532,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-08.md"
     },
     {
@@ -15756,7 +15539,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-61e72ad58499-P0001-09",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex/page-0001-chunk-09.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100.codex.md",
@@ -15766,12 +15549,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0076-0100-r3016-11a-2905-950-pages-76-100-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-61e72ad58499-p0001-09.md"
     },
     {
@@ -15779,7 +15556,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-01",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15789,12 +15566,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-01.md"
     },
     {
@@ -15802,7 +15573,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-02",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15812,12 +15583,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-02.md"
     },
     {
@@ -15825,7 +15590,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-03",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15835,12 +15600,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-03.md"
     },
     {
@@ -15848,7 +15607,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-04",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15858,12 +15617,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-04.md"
     },
     {
@@ -15871,7 +15624,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-05",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15881,12 +15634,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-05.md"
     },
     {
@@ -15894,7 +15641,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-06",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15904,12 +15651,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-06.md"
     },
     {
@@ -15917,7 +15658,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-07",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-07.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15927,12 +15668,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-07.md"
     },
     {
@@ -15940,7 +15675,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-08",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-08.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15950,12 +15685,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-08.md"
     },
     {
@@ -15963,7 +15692,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e3075d669790-P0001-09",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex/page-0001-chunk-09.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125.codex.md",
@@ -15973,12 +15702,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0101-0125-r3016-11a-2905-950-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e3075d669790-p0001-09.md"
     },
     {
@@ -17125,7 +16848,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4dc7484aa5bf-P0001-01",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md",
@@ -17135,12 +16858,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4dc7484aa5bf-p0001-01.md"
     },
     {
@@ -17148,7 +16865,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4dc7484aa5bf-P0001-02",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md",
@@ -17158,12 +16875,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4dc7484aa5bf-p0001-02.md"
     },
     {
@@ -17171,7 +16882,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4dc7484aa5bf-P0001-03",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md",
@@ -17181,12 +16892,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4dc7484aa5bf-p0001-03.md"
     },
     {
@@ -17194,7 +16899,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4dc7484aa5bf-P0001-04",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md",
@@ -17204,12 +16909,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4dc7484aa5bf-p0001-04.md"
     },
     {
@@ -17217,7 +16916,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4dc7484aa5bf-P0001-05",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md",
@@ -17227,12 +16926,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4dc7484aa5bf-p0001-05.md"
     },
     {
@@ -17240,7 +16933,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4dc7484aa5bf-P0001-06",
       "chunk_path": "raw/chunks/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300.codex.md",
@@ -17250,12 +16943,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca3e1a8684-r3016-11a-2905-950-p0276-0300-r3016-11a-2905-950-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4dc7484aa5bf-p0001-06.md"
     },
     {
@@ -18861,7 +18548,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4d7c3c9821a8-P0001-01",
       "chunk_path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -18871,12 +18558,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4d7c3c9821a8-p0001-01.md"
     },
     {
@@ -18884,7 +18565,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4d7c3c9821a8-P0001-02",
       "chunk_path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -18894,12 +18575,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4d7c3c9821a8-p0001-02.md"
     },
     {
@@ -18907,7 +18582,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4d7c3c9821a8-P0001-03",
       "chunk_path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -18917,12 +18592,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4d7c3c9821a8-p0001-03.md"
     },
     {
@@ -18930,7 +18599,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4d7c3c9821a8-P0001-04",
       "chunk_path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -18940,12 +18609,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4d7c3c9821a8-p0001-04.md"
     },
     {
@@ -18953,7 +18616,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-4d7c3c9821a8-P0001-05",
       "chunk_path": "raw/chunks/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18.codex.md",
@@ -18963,12 +18626,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca51f62b28-el-aguila-nombre-grande-p0004-0018-el-aguila-nombre-grande-scan-pages-4-18-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-4d7c3c9821a8-p0001-05.md"
     },
     {
@@ -19333,7 +18990,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-01",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19343,12 +19000,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-01.md"
     },
     {
@@ -19356,7 +19007,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-02",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19366,12 +19017,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-02.md"
     },
     {
@@ -19379,7 +19024,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-03",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19389,12 +19034,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-03.md"
     },
     {
@@ -19402,7 +19041,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-04",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19412,12 +19051,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-04.md"
     },
     {
@@ -19425,7 +19058,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-05",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19435,12 +19068,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-05.md"
     },
     {
@@ -19448,7 +19075,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-06",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19458,12 +19085,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-06.md"
     },
     {
@@ -19471,7 +19092,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-07",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-07.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19481,12 +19102,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-07.md"
     },
     {
@@ -19494,7 +19109,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-843936b5e4dc-P0001-08",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex/page-0001-chunk-08.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225.codex.md",
@@ -19504,12 +19119,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0201-0225-s179-34-6-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-843936b5e4dc-p0001-08.md"
     },
     {
@@ -19585,7 +19194,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-d1f1f1af2de7-P0001-01",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md",
@@ -19595,12 +19204,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d1f1f1af2de7-p0001-01.md"
     },
     {
@@ -19608,7 +19211,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-d1f1f1af2de7-P0001-02",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md",
@@ -19618,12 +19221,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d1f1f1af2de7-p0001-02.md"
     },
     {
@@ -19631,7 +19228,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-d1f1f1af2de7-P0001-03",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md",
@@ -19641,12 +19238,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d1f1f1af2de7-p0001-03.md"
     },
     {
@@ -19654,7 +19245,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-d1f1f1af2de7-P0001-04",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md",
@@ -19664,12 +19255,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d1f1f1af2de7-p0001-04.md"
     },
     {
@@ -19677,7 +19262,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-d1f1f1af2de7-P0001-05",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300.codex.md",
@@ -19687,12 +19272,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0276-0300-s179-34-6-pages-276-300-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-d1f1f1af2de7-p0001-05.md"
     },
     {
@@ -19700,7 +19279,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-418b25296ff8-P0001-01",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md",
@@ -19710,12 +19289,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-418b25296ff8-p0001-01.md"
     },
     {
@@ -19723,7 +19296,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-418b25296ff8-P0001-02",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md",
@@ -19733,12 +19306,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-418b25296ff8-p0001-02.md"
     },
     {
@@ -19746,7 +19313,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-418b25296ff8-P0001-03",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md",
@@ -19756,12 +19323,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-418b25296ff8-p0001-03.md"
     },
     {
@@ -19769,7 +19330,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-418b25296ff8-P0001-04",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md",
@@ -19779,12 +19340,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-418b25296ff8-p0001-04.md"
     },
     {
@@ -19792,7 +19347,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-418b25296ff8-P0001-05",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md",
@@ -19802,12 +19357,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-418b25296ff8-p0001-05.md"
     },
     {
@@ -19815,7 +19364,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-418b25296ff8-P0001-06",
       "chunk_path": "raw/chunks/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325.codex.md",
@@ -19825,12 +19374,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca5678c313-s179-34-6-p0301-0325-s179-34-6-pages-301-325-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-418b25296ff8-p0001-06.md"
     },
     {
@@ -28712,7 +28255,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-50b8a52b97f4-P0001-01",
       "chunk_path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md",
@@ -28722,12 +28265,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-50b8a52b97f4-p0001-01.md"
     },
     {
@@ -28735,7 +28272,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-50b8a52b97f4-P0001-02",
       "chunk_path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md",
@@ -28745,12 +28282,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-50b8a52b97f4-p0001-02.md"
     },
     {
@@ -28758,7 +28289,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-50b8a52b97f4-P0001-03",
       "chunk_path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md",
@@ -28768,12 +28299,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-50b8a52b97f4-p0001-03.md"
     },
     {
@@ -28781,7 +28306,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-50b8a52b97f4-P0001-04",
       "chunk_path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md",
@@ -28791,12 +28316,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-50b8a52b97f4-p0001-04.md"
     },
     {
@@ -28804,7 +28323,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-50b8a52b97f4-P0001-05",
       "chunk_path": "raw/chunks/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-session-of-the-council-of-public-instruction-september-1918-pages-264-283.codex.md",
@@ -28814,12 +28333,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca753b8b14-anales-de-la-universidad-p0264-0283-anales-de-la-universidad-de-chile-sess-0bc12eb01e.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-50b8a52b97f4-p0001-05.md"
     },
     {
@@ -34641,7 +34154,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-99a42bb1e267-P0001-01",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
@@ -34651,12 +34164,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-99a42bb1e267-p0001-01.md"
     },
     {
@@ -34664,7 +34171,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-99a42bb1e267-P0001-02",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
@@ -34674,12 +34181,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-99a42bb1e267-p0001-02.md"
     },
     {
@@ -34687,7 +34188,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-99a42bb1e267-P0001-03",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
@@ -34697,12 +34198,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-99a42bb1e267-p0001-03.md"
     },
     {
@@ -34710,7 +34205,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-99a42bb1e267-P0001-04",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
@@ -34720,12 +34215,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-99a42bb1e267-p0001-04.md"
     },
     {
@@ -34733,7 +34222,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-99a42bb1e267-P0001-05",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125.codex.md",
@@ -34743,12 +34232,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0101-0125-s519bis-26-4-pages-101-125-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-99a42bb1e267-p0001-05.md"
     },
     {
@@ -35011,7 +34494,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-181dd20ee160-P0001-01",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md",
@@ -35021,12 +34504,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-181dd20ee160-p0001-01.md"
     },
     {
@@ -35034,7 +34511,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-181dd20ee160-P0001-02",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md",
@@ -35044,12 +34521,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-181dd20ee160-p0001-02.md"
     },
     {
@@ -35057,7 +34528,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-181dd20ee160-P0001-03",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md",
@@ -35067,12 +34538,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-181dd20ee160-p0001-03.md"
     },
     {
@@ -35080,7 +34545,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-181dd20ee160-P0001-04",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md",
@@ -35090,12 +34555,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-181dd20ee160-p0001-04.md"
     },
     {
@@ -35103,7 +34562,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-181dd20ee160-P0001-05",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225.codex.md",
@@ -35113,12 +34572,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0201-0225-s519bis-26-4-pages-201-225-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-181dd20ee160-p0001-05.md"
     },
     {
@@ -35126,7 +34579,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e1e408645170-P0001-01",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",
@@ -35136,12 +34589,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e1e408645170-p0001-01.md"
     },
     {
@@ -35149,7 +34596,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e1e408645170-P0001-02",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",
@@ -35159,12 +34606,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e1e408645170-p0001-02.md"
     },
     {
@@ -35172,7 +34613,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e1e408645170-P0001-03",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",
@@ -35182,12 +34623,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e1e408645170-p0001-03.md"
     },
     {
@@ -35195,7 +34630,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e1e408645170-P0001-04",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",
@@ -35205,12 +34640,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e1e408645170-p0001-04.md"
     },
     {
@@ -35218,7 +34647,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e1e408645170-P0001-05",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",
@@ -35228,12 +34657,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e1e408645170-p0001-05.md"
     },
     {
@@ -35241,7 +34664,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-e1e408645170-P0001-06",
       "chunk_path": "raw/chunks/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250.codex.md",
@@ -35251,12 +34674,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7b784510-s519bis-26-4-p0226-0250-s519bis-26-4-pages-226-250-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-e1e408645170-p0001-06.md"
     },
     {
@@ -39021,7 +38438,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-01",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-01.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39031,12 +38448,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-01.md"
     },
     {
@@ -39044,7 +38455,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-02",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-02.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39054,12 +38465,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-02.md"
     },
     {
@@ -39067,7 +38472,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-03",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-03.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39077,12 +38482,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-03.md"
     },
     {
@@ -39090,7 +38489,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-04",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-04.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39100,12 +38499,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-04.md"
     },
     {
@@ -39113,7 +38506,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-05",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-05.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39123,12 +38516,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-05.md"
     },
     {
@@ -39136,7 +38523,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-06",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-06.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39146,12 +38533,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-06.md"
     },
     {
@@ -39159,7 +38540,7 @@
       "queue": "evidence-extraction",
       "role": "evidence_extractor",
       "skill": "genealogy-claim-extraction",
-      "status": "blocked_needs_reread",
+      "status": "todo",
       "chunk_id": "CHUNK-08fda669f5fb-P0001-07",
       "chunk_path": "raw/chunks/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex/page-0001-chunk-07.md",
       "converted_file": "raw/converted/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275.codex.md",
@@ -39169,12 +38550,6 @@
       "page_start": 1,
       "page_end": 1,
       "staging_dir": "research/_staging",
-      "blocked_pages": [
-        1
-      ],
-      "block_reason": "post_conversion_qc_hold",
-      "qc_page_queue": "research/_conversion-review/page-queues/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
-      "qc_corrections": "research/_conversion-review/corrections/ca7e42bb85-s522bis-29-3-p0251-0275-s522bis-29-3-pages-251-275-codex.md",
       "prompt_path": "research/_agent-queues/prompts/evidence-extraction/evidence-extraction-chunk-08fda669f5fb-p0001-07.md"
     },
     {

@@ -6,10 +6,10 @@
 
 ## Queued Pages
 
-### Page 213
+### Page 215
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: Arturo, History, relationships
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none

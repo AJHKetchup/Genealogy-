@@ -8,6 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 64 | medium | medium | spot-check | duplicate_conversion_contract_sections, explicit_reread_needed | maternal |
-| 71 | none | medium | spot-check | duplicate_conversion_contract_sections, explicit_reread_needed | none |
-| 76 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 1 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | John |
+| 3 | none | high | pass | none | none |
+| 64 | medium | medium | spot-check | explicit_reread_needed | maternal |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 71 | none | medium | spot-check | explicit_reread_needed | none |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 76 | medium | high | pass | none | relationships |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |

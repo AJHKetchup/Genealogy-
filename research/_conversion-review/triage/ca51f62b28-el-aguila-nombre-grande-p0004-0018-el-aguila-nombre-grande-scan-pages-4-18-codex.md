@@ -8,4 +8,18 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | critical | low | reread-page | duplicate_conversion_contract_sections | Dario, Pulgar, Starting |
+| 1 | none | high | pass | none | none |
+| 2 | medium | high | pass | none | Starting |
+| 3 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | Dario, Pulgar |
+| 5 | medium | high | pass | none | Pulgar |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | critical | low | reread-page | none | Dario |
+| 11 | critical | low | reread-page | none | Dario, Pulgar |
+| 12 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |

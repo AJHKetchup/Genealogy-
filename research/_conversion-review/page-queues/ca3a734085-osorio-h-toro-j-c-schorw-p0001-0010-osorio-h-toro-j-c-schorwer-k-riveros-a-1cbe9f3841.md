@@ -6,18 +6,10 @@
 
 ## Queued Pages
 
-### Page 2
+### Page 4
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: History, Pulgar, knowledge, people, relationships
-
-### Page 7
-
-- Recommended action: `reread-page`
-- Conversion confidence: `medium`
-- Family relevance: `high`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: Arturo, people, relationships
+- Quality flags: none
+- Matched family context: Pulgar

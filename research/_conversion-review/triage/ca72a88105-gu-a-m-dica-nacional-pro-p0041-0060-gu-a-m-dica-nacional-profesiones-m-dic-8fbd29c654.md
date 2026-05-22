@@ -8,7 +8,8 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 41 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 41 | medium | high | pass | none | relationships |
+| 2 | none | high | pass | none | none |
 | 43 | medium | high | pass | none | relationships |
 | 44 | medium | high | pass | none | Arturo, relationships |
 | 45 | medium | high | pass | none | Arturo, relationships |
@@ -21,7 +22,8 @@
 | 52 | medium | high | pass | none | relationships |
 | 53 | medium | high | pass | none | Arturo, relationships |
 | 54 | medium | high | pass | none | Arturo, relationships |
-| 55 | high | medium | reread-page | duplicate_conversion_contract_sections | Alexander, Arturo, relationships |
+| 55 | medium | high | pass | none | Arturo, relationships |
+| 16 | medium | high | pass | none | Alexander |
 | 57 | medium | high | pass | none | Smith, relationships |
 | 58 | medium | high | pass | none | relationships |
 | 59 | medium | high | pass | none | relationships |

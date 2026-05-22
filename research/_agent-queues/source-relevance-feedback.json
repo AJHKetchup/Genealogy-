@@ -1,6 +1,6 @@
 {
   "created": "2026-05-22T01:02:23Z",
-  "updated": "2026-05-22T01:25:27Z",
+  "updated": "2026-05-22T02:10:05Z",
   "purpose": "Research-to-conversion relevance hints for source-prep model routing.",
   "hints": [
     {
@@ -50,7 +50,7 @@
     {
       "status": "active",
       "created": "2026-05-22T01:02:23Z",
-      "updated": "2026-05-22T01:19:49Z",
+      "updated": "2026-05-22T02:10:05Z",
       "task_id": "",
       "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "source": "",
@@ -73,7 +73,7 @@
     {
       "status": "active",
       "created": "2026-05-22T01:25:27Z",
-      "updated": "2026-05-22T01:25:27Z",
+      "updated": "2026-05-22T02:04:32Z",
       "task_id": "",
       "job_manifest": "raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/manifest.json",
       "source": "",
@@ -84,7 +84,8 @@
       "requested_treatment": "reread",
       "reason": "Proof review hold: rendered page image is missing; restore/generate the page image and rerun conversion QA before canonical promotion.",
       "entities": [
-        "Dario Arturo Pulgar"
+        "Dario Arturo Pulgar",
+        "Dario Arturo Pulgar-Smith"
       ],
       "matched_terms": [
         "proof-review-hold",

@@ -8,8 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 229 | high | medium | reread-page | duplicate_conversion_contract_sections | Arturo, Smith, relationships |
+| 510 | none | high | pass | none | none |
+| 225 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | Starting |
+| 229 | medium | high | pass | none | relationships |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 232 | medium | high | pass | none | Arturo, Smith |
+| 10 | none | high | pass | none | none |
 | 234 | medium | high | pass | none | relationships |
-| 235 | high | medium | reread-page | duplicate_conversion_contract_sections | Starting, relationships, start |
+| 235 | medium | high | pass | none | relationships |
+| 13 | medium | high | pass | none | Starting |
+| 14 | medium | high | pass | none | start |
+| 15 | none | high | pass | none | none |
 | 239 | medium | high | pass | none | relationships |
-| 240 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 240 | medium | high | pass | none | relationships |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |

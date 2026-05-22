@@ -8,18 +8,26 @@
 
 ### Page 27
 
+- Recommended action: `spot-check`
+- Conversion confidence: `medium`
+- Family relevance: `none`
+- Quality flags: explicit_reread_needed
+- Matched family context: none
+
+### Page 11
+
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
-- Matched family context: Arturo
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
 
 ### Page 37
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
 - Family relevance: `none`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
+- Quality flags: explicit_reread_needed
 - Matched family context: none
 
 ### Page 39

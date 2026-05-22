@@ -8,7 +8,8 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 81 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 81 | medium | high | pass | none | Arturo, relationships |
+| 2 | medium | high | pass | none | Arturo |
 | 83 | medium | high | pass | none | relationships |
 | 84 | medium | high | pass | none | relationships |
 | 85 | medium | high | pass | none | relationships |
@@ -18,9 +19,11 @@
 | 89 | medium | high | pass | none | Arturo, relationships |
 | 90 | medium | high | pass | none | relationships |
 | 91 | medium | high | pass | none | relationships |
-| 92 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 92 | medium | high | pass | none | Arturo, relationships |
+| 13 | medium | high | pass | none | Arturo |
 | 94 | medium | high | pass | none | Arturo, relationships |
-| 95 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 95 | medium | high | pass | none | Arturo, relationships |
+| 16 | none | high | pass | none | none |
 | 97 | medium | high | pass | none | relationships |
 | 98 | medium | high | pass | none | relationships |
 | 99 | medium | high | pass | none | relationships |

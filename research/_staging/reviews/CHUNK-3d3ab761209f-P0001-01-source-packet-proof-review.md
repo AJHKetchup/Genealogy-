@@ -3,46 +3,47 @@ type: proof_review
 role: claim_reviewer
 task_id: proof-review:research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md
 staged_draft: research/_staging/source-packets/CHUNK-3d3ab761209f-P0001-01-source-packet.md
-reviewer: postconv-proof-review-20260522003811770
+reviewer: postconv-proof-review-20260522020225887
 review_date: 2026-05-22
-canonical_readiness: hold
+canonical_readiness: revise
 ---
 
 # Proof Review: CHUNK-3d3ab761209f-P0001-01 Source Packet
 
 ## Blockers
 
-- Raw source image is unavailable at the source path named in the packet: `raw/sources/Registro de Nacimientos, Circunscripción de Los Ángeles, Chile, 1889, Certificate No. 513..png`. The `raw/sources` directory currently contains only `.gitkeep`.
-- The conversion manifest also names a page-image cache at `raw/codex-conversion-jobs/ca05d0627a-registro-de-nacimientos-registro-de-nacimientos-circunscripci-n-de-los-ngeles-chile-1889-certificate-no-513/page-images/page-0001.png`, but the conversion job directory currently contains only `page-markdown`, `work-orders`, `manifest.json`, and `README.md`.
-- Because the visible source image is absent, I could not independently verify difficult readings such as witness surname `Utiera`, street name `Sanegueso`, the officer signature text, or the bottom-crop completeness concern against the image. No correction to these readings is recommended without restored image support.
+- Revise before canonical promotion: the staged packet's literal page heading is not supported as written. The packet says `1889.-Rejistro de NACIMIENTOS en la Circunscripcion de Los Angeles, num. 1o de Julio`; the converted file/chunk and visible image support `Los Anjeles, num. 1o de La Laja`.
+- Revise before canonical promotion: the packet describes records 513, 514, and 515 as complete, but the converted metadata says `515 (partial)` and the restored page image shows the bottom of record 515 cut off/partially visible. Do not treat record 515 as a complete registration from this packet alone.
+- Revise before canonical promotion: the packet preserves QA concerns for record 514 as witness surname `Utiera` and street name `Sanegueso`, but the current converted file/chunk read `Benjamin Utria` and `Calle Paneque`; the restored image appears more consistent with the current conversion than with the packet's QA wording. The packet should not carry stale or mismatched uncertainty labels.
+- Revise before canonical promotion: the packet says `Emilio Larenas / O. de R. C.` appears for all three entries and mentions an emendation note in entry 515. The image supports the officer signature clearly for visible entries 513 and 514, but entry 515's lower/right portions are not fully available in the page image; the all-three assertion is overextended.
 
 ## Scores
 
-- source_quality_score: 0.80
-- conversion_confidence_score: 0.72
-- evidence_quantity_score: 0.70
-- agreement_score: 0.95
-- identity_confidence_score: 0.62
-- claim_probability: 0.76
+- source_quality_score: 0.86
+- conversion_confidence_score: 0.74
+- evidence_quantity_score: 0.68
+- agreement_score: 0.58
+- identity_confidence_score: 0.64
+- claim_probability: 0.63
 - relevance_level: high
-- relevance_confidence: 0.90
-- canonical_readiness: hold
+- relevance_confidence: 0.91
+- canonical_readiness: revise
 
 ## Evidence Strengths
 
-- The staged source packet, converted file, and assigned chunk agree on the core source metadata: Los Angeles, Chile civil birth register page 172, July 1889, with registration numbers 513, 514, and 515.
-- The packet's literal-support bullets are directly present in the converted file and chunk: page heading, page number, listed entries 513-515, and repeated officer signature `Emilio Larenas / O. de R. C.`
-- The packet correctly preserves conversion uncertainty instead of normalizing or overclaiming: record 514 witness surname `Utiera` is flagged as difficult, `Sanegueso` is flagged as unusual but clear in the conversion, and the bottom crop is noted as a completeness concern.
-- No relationship jumps are promoted in this packet. Parent, child, witness, and compareciente details remain source-packet content rather than canonical identity conclusions.
+- The restored raw/page image is now available, and its SHA-256 matches the staged packet and manifest: `05d0627a58615e91315e1e9e2da567034b4f324eb0179240e0f4d5cf985e3545`.
+- The source packet, converted file, chunk, and image agree on the broad source identity: a civil birth register page, page 172, for Los Anjeles/Los Angeles in La Laja, Chile, dated July 1889.
+- The packet is directionally correct that the page contains registration numbers 513, 514, and 515, and the image visibly supports entries 513 and 514 plus the upper portion of entry 515.
+- The civil birth register is a strong primary source class for birth-event details and declared parent/compareciente information, once the packet's literal transcription and completeness statements are corrected.
 
 ## Review Judgment
 
-This packet is internally well supported by the converted Markdown and the assigned chunk, and it accurately carries forward the conversion QA concerns. The source type is a civil birth register, which is a strong primary source for birth-event details and declared parent/compareciente information.
+This staged source packet should not be promoted as-is. It is useful and relevant, but the restored image changes the review from an image-availability hold to a substantive revision finding. The key issue is not external source reliability; it is internal agreement between the packet, conversion, chunk, and visible page image.
 
-The limiting risk is image availability. Since neither the raw image nor the manifest page image is present in the workspace, this review cannot confirm that the conversion captured the handwriting, marginal stamps, or bottom crop accurately. That prevents canonical readiness even though the packet is coherent and useful as a staged source-packet draft.
+For claim probability, the broad claim that the page is an 1889 Los Angeles/La Laja birth-register page with entries 513-515 is probable. The narrower claims that all three entries are complete, that the heading reads `de Julio`, that record 514's QA concern is `Utiera`/`Sanegueso`, and that the officer signature appears for all three entries are not adequately supported by the verification context.
 
-Identity risk is moderate. The entries identify several named individuals, but this packet by itself should not be used to merge people into existing canonical profiles without corroborating identity context. Record 514 is especially sensitive because the father is listed as unknown and the mother requested her name be recorded.
+Identity risk is moderate. The register names several individuals and parent-child declarations, but this source packet is not yet a safe basis for canonical identity merges or relationship promotion. Record 515 is especially risky because the visible source page appears cropped before all entry fields can be independently checked.
 
 ## Next Action
 
-Hold for image-level proof review. Restore or regenerate the source image/page image, then re-check the difficult record 514 witness surname, record 514 street name, officer signature/emendation text in record 515, and bottom-crop completeness before promotion to any canonical claims or relationships.
+Revise the staged source packet only in a future evidence-extraction/source-packet pass: correct the literal heading to `Los Anjeles, num. 1o de La Laja`, describe entry 515 as partial unless another page image supplies the missing lower/right fields, align record 514 uncertainty with the current image-supported reading, and limit officer-signature support to the entries actually visible. After revision, rerun proof review before any promotion to canonical claims, relationships, or wiki pages.

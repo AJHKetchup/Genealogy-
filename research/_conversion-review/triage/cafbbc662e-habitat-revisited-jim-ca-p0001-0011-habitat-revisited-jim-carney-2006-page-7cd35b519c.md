@@ -8,4 +8,14 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | high | medium | reread-page | duplicate_conversion_contract_sections | Dario, Pulgar, Starting, people, supplied |
+| 1 | medium | high | pass | none | Starting |
+| 2 | high | high | pass | none | Dario, Pulgar, Starting |
+| 3 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | Dario |
+| 5 | medium | high | pass | none | Pulgar |
+| 6 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | Dario, Pulgar |
+| 8 | high | high | pass | none | Dario, people, supplied |
+| 9 | none | high | pass | none | none |
+| 10 | medium | high | pass | none | people |
+| 11 | medium | high | pass | none | people |

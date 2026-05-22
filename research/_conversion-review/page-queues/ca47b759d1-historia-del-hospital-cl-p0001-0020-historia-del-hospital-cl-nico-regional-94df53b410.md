@@ -6,18 +6,18 @@
 
 ## Queued Pages
 
-### Page 9
+### Page 13
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: relationships
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none
 
-### Page 14
+### Page 16
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: History, Starting, relationships
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none

@@ -8,4 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 1 | none | medium | spot-check | duplicate_conversion_contract_sections, many_uncertain_readings | none |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 286 | none | medium | spot-check | many_uncertain_readings | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |

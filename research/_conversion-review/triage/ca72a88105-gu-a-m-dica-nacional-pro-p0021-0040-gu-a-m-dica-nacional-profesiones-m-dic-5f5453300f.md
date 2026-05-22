@@ -20,7 +20,8 @@
 | 30 | medium | high | pass | none | Arturo, relationships |
 | 31 | medium | high | pass | none | Arturo, relationships |
 | 32 | medium | high | pass | none | Arturo, relationships |
-| 33 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 33 | medium | high | pass | none | relationships |
+| 34 | none | high | pass | none | none |
 | 35 | medium | high | pass | none | Smith, relationships |
 | 36 | medium | high | pass | none | relationships |
 | 37 | medium | high | pass | none | relationships |

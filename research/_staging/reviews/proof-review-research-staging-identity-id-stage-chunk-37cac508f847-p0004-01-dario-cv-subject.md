@@ -3,7 +3,7 @@ type: proof_review
 role: claim_reviewer
 task_id: proof-review:research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md
 staged_draft: research/_staging/identity/ID-STAGE-CHUNK-37cac508f847-P0004-01-dario-cv-subject.md
-reviewer: postconv-proof-review-20260522010634552
+reviewer: postconv-proof-review-20260522021008059
 review_date: 2026-05-22
 canonical_readiness: hold
 ---
@@ -12,38 +12,37 @@ canonical_readiness: hold
 
 ## Blockers
 
-- The rendered page image recorded for page 4 is unavailable at `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0004.jpg`, so the converted page text cannot be visually checked against the source page in this review.
-- The raw source path recorded in the staged draft and metadata, `raw/sources/CV of Dario Arturo Pulgar.pdf`, is also unavailable in this workspace during review.
-- Page 4's converted body does not independently name Dario Arturo Pulgar. The attribution depends on document-level metadata and source title/path rather than a personal name printed in the page 4 body.
-- The source is a curriculum vitae, useful for self-reported occupational biography but not independent corroboration. It should not be used for family relationships, vital events, or canonical identity merging without stronger identity context.
-- Canonical promotion should wait for conversion QA and adjacent/title-page identity review.
+- Page 4's visible source image does not print the subject's personal name. The page-body attribution to Dario Arturo Pulgar still relies on document-level title/source metadata and CV continuity, not on a name visible on this page.
+- The adjacent/title-page conversion job exists for pages 1-3 of the same PDF, but its page images and page Markdown were not available at the expected paths during this review, so visible title-page identity confirmation could not be completed.
+- The source is a curriculum vitae. It is useful for self-reported occupational biography, but it is not independent corroboration for identity merging, vital events, or family relationships.
+- Canonical promotion should wait for title-page or adjacent-page identity confirmation tying page 4 to the same Dario Arturo Pulgar, even though the page 4 image now supports the occupational text.
 
 ## Scores
 
 - source_quality_score: 0.68
-- conversion_confidence_score: 0.66
-- evidence_quantity_score: 0.58
-- agreement_score: 0.88
-- identity_confidence_score: 0.72
-- claim_probability: 0.76
+- conversion_confidence_score: 0.86
+- evidence_quantity_score: 0.62
+- agreement_score: 0.92
+- identity_confidence_score: 0.74
+- claim_probability: 0.80
 - relevance_level: moderate
-- relevance_confidence: 0.82
+- relevance_confidence: 0.84
 - canonical_readiness: hold
 
 ## Evidence Strengths
 
-- The staged draft, source packet, chunk metadata, and converted file metadata consistently identify the source as `CV of Dario Arturo Pulgar.pdf` or `CV of Dario Arturo Pulgar pages 4-9`.
-- The reviewed chunk and converted file agree that page 4 contains occupational entries, including the 2000 IBRD entry and the 1999-2000 Antamina Mining Company entry.
-- The staged draft accurately flags the key limitation: page 4's body contains role headings but not the full personal name, so the identity linkage relies on document title and CV continuity.
-- No relationship jump is made in the staged identity draft. It does not infer family relationships from organizational, community, or location references.
-- No direct conflict was found among the staged draft, converted file, chunk, and source packet reviewed for this task.
+- The raw PDF is present at `raw/sources/CV of Dario Arturo Pulgar.pdf`, and the page 4 image is present at `raw/codex-conversion-jobs/ca07263f40-cv-of-dario-arturo-pulga-p0004-0009-cv-of-dario-arturo-pulgar-pages-4-9/page-images/page-0004.jpg`.
+- The restored page 4 image visibly supports the converted occupational entries for the 2000 IBRD Senior Consultant role and the 1999-2000 Antamina Mining Company Head Community Relations role.
+- The converted file, chunk, source packet, staged draft, and conversion manifest consistently identify the source file/job as a CV of Dario Arturo Pulgar.
+- The staged draft accurately states the main uncertainty: page 4 contains role headings and occupational text but not the full personal name.
+- No relationship jump is made in the staged identity draft, and no direct conflict was found among the reviewed staged draft, converted file, chunk, source packet, manifest, and page 4 image.
 
 ## Review Judgment
 
-The staged identity attribution is probably correct at the document level: the converted document title, source path metadata, chunk metadata, and source packet all identify the source as a CV of Dario Arturo Pulgar. However, page 4 itself does not repeat the subject's name in the converted body, and the raw PDF plus rendered page image are unavailable for visible-source verification.
+The identity attribution is probable for the limited proposition that page 4 belongs to the CV source identified in metadata as Dario Arturo Pulgar's CV. The restored page 4 image removes the earlier conversion-image blocker for the page 4 occupational text and raises conversion confidence.
 
-This should remain a held identity candidate. The claim probability is moderate-high for the limited proposition that page 4 belongs to the CV source identified as Dario Arturo Pulgar, but the evidence is not ready for canonical use because image-level conversion QA and stronger identity context are still missing.
+The identity candidate should still remain on hold. Page 4 itself does not visibly name Dario Arturo Pulgar, and the title/adjacent pages needed to verify the document-level subject from visible source pages were not available in this review.
 
 ## Next Action
 
-Restore or locate the raw PDF and `page-images/page-0004.jpg`, then compare the visible page against the converted text and metadata. Also review the CV title page or adjacent document context to confirm that page 4 belongs to the same Dario Arturo Pulgar before attaching page 4 occupational claims to any canonical person page.
+Restore or locate the pages 1-3 page images or converted page Markdown, then verify that the CV title or opening context visibly identifies Dario Arturo Pulgar as the subject of the same PDF before attaching page 4 occupational claims to a canonical person page.

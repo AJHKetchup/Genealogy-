@@ -8,4 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 213 | critical | low | reread-page | duplicate_conversion_contract_sections | Arturo, History, relationships |
+| 490 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 211 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 213 | medium | high | pass | none | Arturo, relationships |
+| 214 | medium | high | pass | none | Arturo |
+| 215 | high | low | reread-page | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | medium | high | pass | none | History |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 223 | none | high | pass | none | none |

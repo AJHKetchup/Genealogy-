@@ -8,7 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 101 | medium | medium | spot-check | duplicate_conversion_contract_sections, explicit_reread_needed | Starting |
+| 101 | none | medium | spot-check | explicit_reread_needed | none |
+| 2 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Starting |
+| 4 | medium | high | pass | none | Starting |
 | 105 | critical | low | reread-page | explicit_reread_needed | Pulgar |
-| 106 | medium | medium | spot-check | duplicate_conversion_contract_sections, explicit_reread_needed | Arturo, John |
-| 114 | none | medium | spot-check | duplicate_conversion_contract_sections, explicit_reread_needed | none |
+| 106 | none | medium | spot-check | explicit_reread_needed | none |
+| 7 | none | high | pass | none | none |
+| 8 | medium | high | pass | none | John |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 111 | none | high | pass | none | none |
+| 112 | none | high | pass | none | none |
+| 13 | medium | high | pass | none | Arturo, John |
+| 114 | none | medium | spot-check | explicit_reread_needed | none |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |

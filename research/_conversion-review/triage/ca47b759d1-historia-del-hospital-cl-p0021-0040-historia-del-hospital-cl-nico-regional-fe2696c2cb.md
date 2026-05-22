@@ -8,7 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 27 | critical | low | reread-page | duplicate_conversion_contract_sections, explicit_reread_needed | Arturo |
-| 37 | none | medium | spot-check | duplicate_conversion_contract_sections, explicit_reread_needed | none |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 27 | none | medium | spot-check | explicit_reread_needed | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | high | low | reread-page | none | none |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 36 | medium | high | pass | none | Arturo |
+| 37 | none | medium | spot-check | explicit_reread_needed | none |
+| 18 | none | high | pass | none | none |
 | 39 | none | medium | spot-check | explicit_reread_needed | none |
 | 40 | medium | high | pass | none | relationships |

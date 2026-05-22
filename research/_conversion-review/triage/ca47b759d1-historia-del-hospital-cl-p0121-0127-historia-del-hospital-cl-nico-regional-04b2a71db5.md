@@ -8,4 +8,10 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 124 | high | medium | reread-page | duplicate_conversion_contract_sections | Arturo, Starting, relationships |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
+| 3 | medium | high | pass | none | Starting |
+| 124 | medium | high | pass | none | relationships |
+| 5 | none | high | pass | none | none |
+| 6 | medium | high | pass | none | Arturo, Starting |
+| 7 | none | high | pass | none | none |

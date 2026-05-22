@@ -6,10 +6,10 @@
 
 ## Queued Pages
 
-### Page 76
+### Page 17
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: Arturo, John, Pulgar, relationships
+- Quality flags: none
+- Matched family context: Arturo, Pulgar

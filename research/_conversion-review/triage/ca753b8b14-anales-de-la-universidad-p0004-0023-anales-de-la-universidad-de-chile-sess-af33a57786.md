@@ -8,8 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 5 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 7 | medium | medium | pass | duplicate_conversion_contract_sections | History, relationships |
+| 1 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | relationships |
+| 3 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | relationships |
+| 5 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | History |
 | 11 | critical | low | reread-page | none | Pulgar, relationships |
 | 12 | medium | high | pass | none | relationships |
 | 13 | medium | high | pass | none | relationships |

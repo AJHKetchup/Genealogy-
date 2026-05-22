@@ -6,10 +6,10 @@
 
 ## Queued Pages
 
-### Page 1
+### Page 17
 
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
-- Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
-- Matched family context: Starting
+- Family relevance: `high`
+- Quality flags: none
+- Matched family context: none

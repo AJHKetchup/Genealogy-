@@ -8,8 +8,23 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
+| 1 | none | high | pass | none | none |
+| 2 | none | high | pass | none | none |
 | 6 | medium | high | pass | none | relationships |
 | 7 | medium | high | pass | none | relationships |
 | 8 | medium | high | pass | none | relationships |
 | 9 | medium | high | pass | none | relationships |
-| 10 | medium | medium | pass | duplicate_conversion_contract_sections | Starting, relationships |
+| 10 | medium | high | pass | none | relationships |
+| 11 | medium | high | pass | none | Starting |
+| 12 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 17 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 16 | medium | high | pass | none | Starting |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 19 | none | high | pass | none | none |
+| 20 | none | high | pass | none | none |

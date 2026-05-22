@@ -11,7 +11,7 @@
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
 - Family relevance: `medium`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
+- Quality flags: explicit_reread_needed
 - Matched family context: maternal
 
 ### Page 71
@@ -19,5 +19,5 @@
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
 - Family relevance: `none`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
+- Quality flags: explicit_reread_needed
 - Matched family context: none

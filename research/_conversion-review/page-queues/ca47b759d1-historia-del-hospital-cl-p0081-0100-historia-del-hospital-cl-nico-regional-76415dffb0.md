@@ -6,18 +6,26 @@
 
 ## Queued Pages
 
+### Page 3
+
+- Recommended action: `reread-page`
+- Conversion confidence: `low`
+- Family relevance: `critical`
+- Quality flags: none
+- Matched family context: Arturo, Pulgar
+
 ### Page 86
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
-- Matched family context: Starting
+- Family relevance: `none`
+- Quality flags: explicit_reread_needed
+- Matched family context: none
 
 ### Page 90
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
-- Matched family context: Arturo, Starting
+- Family relevance: `none`
+- Quality flags: explicit_reread_needed
+- Matched family context: none

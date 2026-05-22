@@ -22,7 +22,8 @@
 | 55 | medium | high | pass | none | relationships |
 | 56 | medium | high | pass | none | relationships |
 | 57 | medium | high | pass | none | relationships |
-| 58 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 58 | medium | high | pass | none | relationships |
+| 16 | none | high | pass | none | none |
 | 60 | medium | high | pass | none | Arturo, relationships |
 | 61 | medium | high | pass | none | relationships |
 | 62 | medium | high | pass | none | relationships |

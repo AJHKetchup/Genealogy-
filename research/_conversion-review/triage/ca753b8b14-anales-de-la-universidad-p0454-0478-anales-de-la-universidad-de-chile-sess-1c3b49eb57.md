@@ -8,9 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 454 | medium | medium | pass | duplicate_conversion_contract_sections | Smith, relationships |
+| 454 | medium | high | pass | none | relationships |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 4 | medium | high | pass | none | Smith |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 7 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
 | 467 | medium | high | pass | none | relationships |
 | 468 | medium | high | pass | none | relationships |
-| 469 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 472 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 476 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 469 | medium | high | pass | none | relationships |
+| 17 | none | high | pass | none | none |
+| 18 | none | high | pass | none | none |
+| 472 | medium | high | pass | none | relationships |
+| 20 | none | high | pass | none | none |
+| 21 | none | high | pass | none | none |
+| 22 | none | high | pass | none | none |
+| 476 | medium | high | pass | none | relationships |
+| 24 | none | high | pass | none | none |
+| 25 | none | high | pass | none | none |

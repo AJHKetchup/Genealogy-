@@ -20,7 +20,8 @@
 | 738 | medium | high | pass | none | relationships |
 | 739 | medium | high | pass | none | relationships |
 | 740 | medium | high | pass | none | relationships |
-| 741 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 741 | medium | high | pass | none | relationships |
+| 14 | none | high | pass | none | none |
 | 743 | medium | high | pass | none | relationships |
 | 744 | medium | high | pass | none | relationships |
 | 745 | medium | high | pass | none | relationships |
@@ -29,5 +30,6 @@
 | 748 | medium | high | pass | none | relationships |
 | 749 | medium | high | pass | none | relationships |
 | 750 | medium | high | pass | none | relationships |
-| 751 | critical | low | reread-page | duplicate_conversion_contract_sections | relationships |
+| 751 | critical | low | reread-page | none | relationships |
+| 24 | none | high | pass | none | none |
 | 753 | medium | high | pass | none | relationships |

@@ -10,9 +10,9 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
-- Matched family context: Starting
+- Family relevance: `none`
+- Quality flags: explicit_reread_needed
+- Matched family context: none
 
 ### Page 105
 
@@ -26,14 +26,14 @@
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
-- Family relevance: `medium`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
-- Matched family context: Arturo, John
+- Family relevance: `none`
+- Quality flags: explicit_reread_needed
+- Matched family context: none
 
 ### Page 114
 
 - Recommended action: `spot-check`
 - Conversion confidence: `medium`
 - Family relevance: `none`
-- Quality flags: duplicate_conversion_contract_sections, explicit_reread_needed
+- Quality flags: explicit_reread_needed
 - Matched family context: none

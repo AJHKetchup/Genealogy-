@@ -11,15 +11,20 @@
 | 61 | medium | high | pass | none | relationships |
 | 62 | medium | high | pass | none | relationships |
 | 63 | medium | high | pass | none | relationships |
-| 64 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
-| 66 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 64 | medium | high | pass | none | relationships |
+| 65 | medium | high | pass | none | Arturo |
+| 66 | medium | high | pass | none | Arturo, relationships |
+| 7 | none | high | pass | none | none |
 | 68 | medium | high | pass | none | Arturo, relationships |
 | 69 | medium | high | pass | none | Arturo, relationships |
 | 70 | medium | high | pass | none | Arturo, relationships |
 | 71 | medium | high | pass | none | relationships |
-| 72 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 72 | medium | high | pass | none | Arturo, relationships |
+| 73 | medium | high | pass | none | Arturo |
 | 74 | medium | high | pass | none | Arturo, relationships |
 | 75 | medium | high | pass | none | relationships |
-| 76 | critical | low | reread-page | duplicate_conversion_contract_sections | Arturo, John, Pulgar, relationships |
-| 78 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 76 | high | high | pass | none | Arturo, John, relationships |
+| 17 | critical | low | reread-page | none | Arturo, Pulgar |
+| 78 | medium | high | pass | none | relationships |
+| 19 | none | high | pass | none | none |
 | 80 | medium | high | pass | none | Heinz, relationships |

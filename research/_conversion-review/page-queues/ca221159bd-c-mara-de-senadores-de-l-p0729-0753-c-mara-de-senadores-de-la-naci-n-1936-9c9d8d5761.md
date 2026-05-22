@@ -19,5 +19,5 @@
 - Recommended action: `reread-page`
 - Conversion confidence: `low`
 - Family relevance: `critical`
-- Quality flags: duplicate_conversion_contract_sections
+- Quality flags: none
 - Matched family context: relationships

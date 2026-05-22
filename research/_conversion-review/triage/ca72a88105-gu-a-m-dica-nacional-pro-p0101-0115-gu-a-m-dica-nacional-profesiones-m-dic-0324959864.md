@@ -13,7 +13,13 @@
 | 103 | medium | high | pass | none | relationships |
 | 104 | medium | high | pass | none | relationships |
 | 105 | high | high | pass | none | Arturo, Pulgar, relationships |
-| 106 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
-| 108 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 106 | medium | high | pass | none | relationships |
+| 107 | medium | high | pass | none | Arturo |
+| 108 | medium | high | pass | none | Arturo, relationships |
+| 9 | none | high | pass | none | none |
+| 10 | medium | high | pass | none | Arturo |
+| 11 | none | high | pass | none | none |
+| 12 | medium | high | pass | none | Arturo |
+| 13 | none | high | pass | none | none |
 | 114 | medium | high | pass | none | Arturo, relationships |
 | 115 | medium | high | pass | none | relationships |

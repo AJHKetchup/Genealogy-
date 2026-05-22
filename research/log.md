@@ -25106,3 +25106,11 @@
 ## [2026-05-22] prepare-sources | Prepared 21 raw source(s)
 ## [2026-05-22] source-prep-batches | Wrote 1387 batch task(s), max 1 page(s) each; skipped 1 audio/video task(s)
 ## [2026-05-22] cloud-source-prep-heartbeat | Wrote research/_automation/cloud-source-prep-heartbeat-state.json
+## [2026-05-22] source-relevance | Restored proof-review assets and released 15 review task(s)
+## [2026-05-22] source-relevance | Synced 1 proof-review page-image hold hint(s) from 20 review(s)
+## [2026-05-22] source-relevance | Restored proof-review assets and released 13 review task(s)
+## [2026-05-22] source-relevance | Restored proof-review assets and released 12 review task(s)
+## [2026-05-22] source-relevance | Synced 1 proof-review page-image hold hint(s) from 18 review(s)
+## [2026-05-22] source-relevance | Restored proof-review assets and released 10 review task(s)
+## [2026-05-22] source-relevance | Synced 1 proof-review page-image hold hint(s) from 19 review(s)
+## [2026-05-22] source-relevance | Restored proof-review assets and released 8 review task(s)

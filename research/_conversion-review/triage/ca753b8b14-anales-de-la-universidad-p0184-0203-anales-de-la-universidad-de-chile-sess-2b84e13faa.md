@@ -8,7 +8,12 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 184 | medium | medium | pass | duplicate_conversion_contract_sections | History, relationships |
+| 184 | medium | high | pass | none | relationships |
+| 2 | none | high | pass | none | none |
+| 3 | none | high | pass | none | none |
+| 187 | none | high | pass | none | none |
+| 5 | medium | high | pass | none | History |
+| 475 | none | high | pass | none | none |
 | 190 | medium | high | pass | none | relationships |
 | 191 | medium | high | pass | none | Arturo, relationships |
 | 192 | medium | high | pass | none | Arturo, relationships |
@@ -21,4 +26,5 @@
 | 199 | medium | high | pass | none | relationships |
 | 200 | medium | high | pass | none | relationships |
 | 201 | medium | high | pass | none | relationships |
-| 202 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 202 | medium | high | pass | none | relationships |
+| 20 | none | high | pass | none | none |

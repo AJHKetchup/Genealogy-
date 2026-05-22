@@ -20,9 +20,11 @@
 | 33 | medium | high | pass | none | relationships |
 | 34 | medium | high | pass | none | relationships |
 | 35 | medium | high | pass | none | relationships |
-| 36 | medium | medium | pass | duplicate_conversion_contract_sections | Arturo, relationships |
+| 36 | medium | high | pass | none | Arturo, relationships |
+| 323 | none | high | pass | none | none |
 | 38 | medium | high | pass | none | relationships |
 | 39 | medium | high | pass | none | relationships |
 | 40 | medium | high | pass | none | relationships |
-| 41 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 41 | medium | high | pass | none | relationships |
+| 19 | none | high | pass | none | none |
 | 43 | medium | high | pass | none | relationships |

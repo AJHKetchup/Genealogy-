@@ -8,8 +8,13 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 2 | critical | low | reread-page | duplicate_conversion_contract_sections | History, Pulgar, knowledge, people, relationships |
-| 5 | medium | medium | pass | duplicate_conversion_contract_sections | relationships, start |
-| 7 | high | medium | reread-page | duplicate_conversion_contract_sections | Arturo, people, relationships |
+| 1 | medium | high | pass | none | user |
+| 2 | high | high | pass | none | History, knowledge, people, relationships |
+| 3 | medium | high | pass | none | people |
+| 4 | critical | low | reread-page | none | Pulgar |
+| 5 | medium | high | pass | none | relationships, start |
+| 6 | none | high | pass | none | none |
+| 7 | medium | high | pass | none | relationships |
+| 8 | medium | high | pass | none | Arturo, people |
 | 9 | medium | high | pass | none | people, relationships |
 | 10 | high | high | pass | none | History, knowledge, relationships |

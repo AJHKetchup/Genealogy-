@@ -8,7 +8,28 @@
 
 | Page | Relevance | Confidence | Action | Flags | Matched Terms |
 | --- | --- | --- | --- | --- | --- |
-| 380 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 395 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 397 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
-| 399 | medium | medium | pass | duplicate_conversion_contract_sections | relationships |
+| 1 | none | high | pass | none | none |
+| 380 | medium | high | pass | none | relationships |
+| 3 | none | high | pass | none | none |
+| 4 | none | high | pass | none | none |
+| 5 | none | high | pass | none | none |
+| 6 | none | high | pass | none | none |
+| 385 | none | high | pass | none | none |
+| 8 | none | high | pass | none | none |
+| 9 | none | high | pass | none | none |
+| 10 | none | high | pass | none | none |
+| 11 | none | high | pass | none | none |
+| 12 | none | high | pass | none | none |
+| 13 | none | high | pass | none | none |
+| 14 | none | high | pass | none | none |
+| 15 | none | high | pass | none | none |
+| 16 | none | high | pass | none | none |
+| 395 | medium | high | pass | none | relationships |
+| 18 | none | high | pass | none | none |
+| 397 | medium | high | pass | none | relationships |
+| 20 | none | high | pass | none | none |
+| 399 | medium | high | pass | none | relationships |
+| 22 | none | high | pass | none | none |
+| 23 | none | high | pass | none | none |
+| 24 | none | high | pass | none | none |
+| 25 | none | high | pass | none | none |
