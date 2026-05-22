@@ -1204,11 +1204,11 @@ def test_cloud_workflow_installs_docling_after_queue_checkpoint_with_tesseract_o
     ) in workflow
     assert (
         "RUN_DISCOVERY_DOCUMENT_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_document_timeout || '45' }}"
+        "github.event.inputs.discovery_document_timeout || github.event_name == 'push' && '45' || '120' }}"
     ) in workflow
     assert (
         "RUN_DISCOVERY_HARD_TIMEOUT: ${{ github.event_name == 'workflow_dispatch' && "
-        "github.event.inputs.discovery_hard_timeout || '45' }}"
+        "github.event.inputs.discovery_hard_timeout || github.event_name == 'push' && '45' || '150' }}"
     ) in workflow
     assert (
         "RUN_FASTLANE_LIMIT: ${{ github.event_name == 'workflow_dispatch' && "
