@@ -84,14 +84,14 @@ The family-facing site is a separate generated layer, described in `research/_au
 
 The `Publish Wiki Site` workflow rebuilds the internal Ancestry-style presentation automatically on pushes to `main`, hourly at minute 41, and after a successful `Internal Research Agents` run. It renders:
 
-- `index.html`: home person, family tree preview, people, relationships, family lines, LifeStory chapters, and family timeline
+- `index.html`: home person, family tree preview, people, reviewed relationships, family lines, LifeStory chapters, and family timeline
 - `tree.html`: canonical person/relationship tree
 - `people.html`: family profiles and branch pages
 - `timeline.html`: family events and person facts only
 - `sources.html`: supporting records and citations
 - `research.html`: QA, staging, queues, proof review, source usability, and automation state
 
-Converted chunks, source-operation dates, QA prompts, and agent queue internals stay out of the presentation dashboard. They remain available in the source library and research backroom.
+Converted chunks, source-operation dates, QA prompts, and agent queue internals stay out of the presentation dashboard. Promoted proof-layer relationships can feed the public tree once their people exist; raw staging and queue internals remain in the research backroom.
 
 ## Boundaries
 

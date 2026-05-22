@@ -25,7 +25,7 @@
     "status": "active_on_default_branch",
     "architecture": "research/_automation/family-presentation-architecture.json",
     "workflow": ".github/workflows/wiki-site.yml",
-    "purpose": "Render an internal Ancestry-style family wiki from canonical people, relationships, families, events, photos, narratives, and supporting source links.",
+    "purpose": "Render an internal Ancestry-style family wiki from canonical people, reviewed relationship evidence, families, events, photos, narratives, and supporting source links.",
     "trigger_contract": "The site rebuilds on main pushes, hourly at minute 41, and after successful Internal Research Agents runs.",
     "separation_contract": "Public pages are person/tree/narrative first. Converted chunks, source-operation dates, QA queues, staging prompts, and automation internals stay in research.html or the source library.",
     "timeline_contract": "The public timeline includes family events and person facts only, never raw converted source dates or automation dates.",

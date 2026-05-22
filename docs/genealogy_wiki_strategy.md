@@ -13,7 +13,7 @@ Narratives, biographies, family trees, and research summaries are views over the
 | Need | Implementation |
 | --- | --- |
 | Claim-level evidence | `wiki/claims/` and `_templates/claim.md` |
-| Relationship confidence | `wiki/relationships/` and `_templates/relationship.md` |
+| Relationship confidence | `research/relationships/`, `wiki/relationships/`, and `_templates/relationship.md` |
 | Family tree visualization | `genealogy-wiki tree`, output to `wiki/trees/` |
 | Dynamic source material converter | `genealogy-wiki material` stages source media; `genealogy-wiki codex-job` prepares page work orders; `genealogy-wiki codex-assemble` writes converted Markdown |
 | Transcription vs translation vs interpretation | Required sections in source packet, claim, and photo templates |

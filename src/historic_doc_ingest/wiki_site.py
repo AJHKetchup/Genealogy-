@@ -973,8 +973,12 @@ def build_family_wiki(
         key=lambda page: (not frontmatter_bool(page.frontmatter.get("home_person", "")), page.title.lower()),
     )
     relationship_pages = sorted(
-        [page for page in pages if page.source_root == "wiki" and page.section == "relationships"],
-        key=lambda page: page.title.lower(),
+        [
+            page
+            for page in pages
+            if page.section == "relationships" and page.source_root in {"wiki", "research"}
+        ],
+        key=lambda page: (page.source_root != "wiki", page.title.lower()),
     )
     family_pages = sorted(
         [page for page in pages if page.source_root == "wiki" and page.section in {"branches", "families"}],
@@ -1349,7 +1353,7 @@ def render_home_page(pages: list[SitePage], data: dict[str, object]) -> str:
     <section class="metric-grid story-metrics">{stats}</section>
     <section class="section-heading">
       <h2>Family Tree</h2>
-      <span>Built automatically from canonical relationship pages</span>
+      <span>Built automatically from reviewed relationship evidence</span>
     </section>
     {tree_preview}
     <section class="section-heading">
@@ -1540,7 +1544,7 @@ def render_tree_page(data: dict[str, object]) -> str:
     <section class="page-head">
       <p class="eyebrow">Family Tree</p>
       <h1>Tree View</h1>
-      <p>A presentation tree generated from canonical person and relationship pages. Research candidates stay out of this view until reviewed and promoted.</p>
+      <p>A presentation tree generated from canonical people and reviewed relationship evidence. Research candidates stay out of this view until reviewed and promoted.</p>
     </section>
     {tree_preview}
     <section class="section-heading">

@@ -7,7 +7,7 @@
   "source_of_truth": {
     "home_person": "wiki/people/* with home_person: true",
     "people": "wiki/people/",
-    "relationships": "wiki/relationships/",
+    "relationships": ["wiki/relationships/", "research/relationships/"],
     "families_and_branches": ["wiki/families/", "wiki/branches/"],
     "life_events": "wiki/events/",
     "narratives": "wiki/narratives/",
@@ -17,7 +17,7 @@
   },
   "public_navigation_contract": [
     "Home shows the home person, family tree preview, people, relationships, family lines, LifeStory chapters, and family timeline.",
-    "Tree shows canonical people and relationship pages, not source clusters.",
+    "Tree shows canonical people plus reviewed relationship evidence, not source clusters.",
     "People shows canonical person profiles and their relationship to the home person.",
     "Timeline shows family events and person facts only; source dates and automation dates stay out of the presentation timeline.",
     "Sources are supporting citations and source-library material, not the main narrative.",

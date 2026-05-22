@@ -33,6 +33,15 @@ See [[people/parent|Parent Person]].
 """,
         encoding="utf-8",
     )
+    genealogy_wiki.create_relationship(
+        root=tmp_path,
+        relationship_id="R001",
+        relationship_type="probable_parent",
+        person_a="[[people/parent]]",
+        person_b="[[people/child]]",
+        status="probable",
+        confidence=8.2,
+    )
 
     output = build_wiki_site(tmp_path, tmp_path / "site")
 
@@ -47,6 +56,7 @@ See [[people/parent|Parent Person]].
     data_js = (output / "assets" / "site-data.js").read_text(encoding="utf-8")
     assert "Child Person" in parent_html
     assert "Parent Person" in people_html
+    assert "probable parent of" in (output / "tree.html").read_text(encoding="utf-8")
     assert "../../wiki/people/child.html" in parent_html
     assert "Parent Person" in data_js
     assert '"familyWiki"' in data_js
